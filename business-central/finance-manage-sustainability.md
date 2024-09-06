@@ -17,10 +17,10 @@ ms.reviewer: bholtorf
 > [!IMPORTANT]
 > This feature is available in Business Central starting from **2024 release wave 1**.  
 
-Business Central offers a sustainability management feature that helps you monitor and manage your organization's and its effect on the environment. This feature is designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions. In this way, it facilitates proper insights. The feature supports the basic process of collecting emission data via sustainability journals or purchase documents, and recalculation of emissions to CO2 equivalent. You can either manually enter known data or use built-in methods for calculating emissions footprints; calculation formulas are available for usage only when using sustainability journals.   
+Business Central offers a sustainability management feature that helps you monitor and manage your organization's and its effect on the environment. This feature is designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions. In this way, it facilitates proper insights. The feature supports the basic process of collecting emission data via sustainability journals or purchase documents, and recalculation of emissions to CO2 equivalent. You can either manually enter known data or use built-in methods for calculating emissions footprints; calculation using formulas are available for use only when using sustainability journals.   
 
 > [!NOTE]
-> This solution is still in early phase of development and new set of features will come with the next release.  
+> This solution is still in early stages of development and new set of features will be added with the next release.  
 
 The first version of the feature focuses on GHG emissions. The environmental, social, and governance (ESG) standard defines three emission scopes:
 
@@ -37,7 +37,7 @@ With this feature, you can:
 - Calculate internal carbon fee.
 - Recalculate emission of all gasses to CO2 equivalent using formulas.
 - Post emission entries (and carbon credits) to the sustainability ledger, where you can view and analyze the emission data by various dimensions.
-- Set scorecards and goals and compare them wioth baseline and targeted values.
+- Set scorecards and goals and compare them with baseline and targeted values.
 - Generate sustainability reports that show your organization's GHG emissions performance.
 - Use financial reports for cross functional reporting.
 
@@ -50,7 +50,7 @@ To get started with sustainability management, use the following articles.
 | [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md) | This article provides information on how to set up charts of sustainability accounts (CoSA), account categories, and subcategories. And also, how to analyze information in sustainability ledger entries. |
 | [Record sustainability entries](finance-sustainability-journal.md) | Use this article to learn how to work with all types of sustainability journals. |
 | [Work with carbon credits](sustainability-carbon-credit.md) | Learn how to set up and purchase carbon credit. |
-| Work with sustainability certificates | _It will be available soon._    |
+| Work with sustainability certificates | *It will be available soon.*    |
 | **Planning** |             |
 | [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md) | Learn how to set up and use sustainability scorecards and goals. |
 | **Reporting** |             |

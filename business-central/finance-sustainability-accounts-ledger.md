@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 05/07/2024
+ms.date: 09/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -114,10 +114,10 @@ To review sustainability account subcategories, follow the steps:
 > [!NOTE]
 > The **Import Data** and **Import From** fields are intended for potential integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
 
-It is important to know that you can have more than one **Account Subcategory** related to one **Sustainability Account**, but only one can be set as a default value and you must have default value all the time for the account if yoy want to use this account for posting.  
+It's important to know that you can have more than one **Account Subcategory** related to one **Sustainability Account**, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting.  
 
 > [!TIP]
-> If you want to use i.e. one account for business cars, but you have different car types with different emissions, you can set one **Account** and create as many **Account Subcategories** as you have cars with different emission factors. When you work in your **Sustanability Journal**, you can easily change your **Account Subcategory** based on the car type you want to use for recording emissions.  
+> For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one **Account** and create as many **Account Subcategories** as you need for cars with different emission factors. When you work in your **Sustanability Journal**, you can easily change your **Account Subcategory** based on the car type you choose to use for recording emissions.  
 
 ## Sustainability ledger entries
 

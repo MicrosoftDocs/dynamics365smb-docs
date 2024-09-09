@@ -128,6 +128,15 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 |Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might be caused by an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only|
 | The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
 
+## Known limitations in business logic
+
+|Page  |Limitation| Comments  |
+|-------|---------|---------|
+|Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal'. Client callbacks aren't supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to options. Setting **Alternate Shipping Address** to **Ship-to** opens the **Ship-to Address List** modal dialog, which isn't compatible with Edit in Excel.|  
+|Project Journal|Update of the **Unit Price** field doesn't trigger an update of the **Line Amount**. Instead, it updates **Line Discount**.| Using the web client, you can update fields in any order&;price, amount, line discount. Other fields are updated automatically. To avoid cascade updates, the fields have some advanced logic that relies on xRec, which behaves differently when called via APIs.|
+
+
+
 <!--
 ## Deploy the Excel add-in for Business Central online
 

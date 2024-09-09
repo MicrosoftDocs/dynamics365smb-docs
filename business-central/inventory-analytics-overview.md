@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 516, 9300, 5119, 9301, 9305
+ms.search.form: Report_704, Report_707, Report_708, Report_709, Report_711, Report_713, Report_714, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
 ms.date: 05/03/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

@@ -1,18 +1,18 @@
 ---
-title: Understanding the General Ledger and Chart of Accounts
+title: Understand the general ledger and Chart of Accounts
 description: Describes the general ledger, chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 04/19/2024
+ms.date: 08/06/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Understanding the General Ledger and Chart of Accounts
+
+# Understand the general ledger and Chart of Accounts
 
 The general ledger (G/L) stores your financial data, and the chart of accounts (COA) shows the accounts that you post general ledger entries to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that's ready to support your business.
 

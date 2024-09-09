@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: bholtorf
-ms.date: 01/17/2024
+ms.date: 09/09/2024
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -16,7 +16,7 @@ Business Central offers a free trial. There are two ways to access the trial ver
 
 ## Start with the trial in localtion with Microsoft-based localizations 
 
-You can find your free [!INCLUDE[prod_short](prod_short.md)] trial on the **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page. You just need to follow the steps and you will get trial localized version tailred for your location. If you want eventually to try different localization, you can do it in the sandbox. 
+You can find your free [!INCLUDE[prod_short](includes/prod_short.md)] trial on the **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page. You just need to follow the steps and you will get trial localized version tailred for your location. If you want eventually to try different localization, you can do it in the sandbox. 
 
 <!--## To sign up for the trial-->
 
@@ -32,7 +32,7 @@ You can get your trial version following these steps:
 2. Microsoft finds a partner for you or maybe you already speak with a partner based on your experience. 
 3. You ask partner for the trial version and then, partner goes to CSP.  
    1. Finds or adds customer tenant.   
-   2. Assigns the [!INCLUDE[prod_short](prod_short.md)] Trial SKU in CSP. 
+   2. Assigns the [!INCLUDE[prod_short](includes/prod_short.md)] Trial SKU in CSP. 
    3. Assigns the localization and transaltion, and eventually translated demo data to created tenant. 
    4. Sends customer link to the environment.   
    5. Customer have access to test trial environment. 

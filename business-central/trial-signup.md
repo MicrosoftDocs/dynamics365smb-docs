@@ -12,7 +12,7 @@ ms.reviewer: bholtorf
 
 # Sign up for a free Dynamics 365 Business Central trial
 
-Business Central offers a free trial. There are two ways to access the trial version, depending on your location. If you are in a country where Microsoft offers official localization, you can follow one path. If you are in a country where localization is handled by partners, you'll need to follow a different path. Explore the different types of localization [here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations.md). After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
+Business Central offers a free trial. There are two ways to access the trial version, depending on your location. If you are in a country where Microsoft offers official localization, you can follow one path. If you are in a country where localization is handled by partners, you'll need to follow a different path. Explore the different types of localization [here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
 
 ## Start the trial in Microsoft-based localizations 
 
@@ -62,7 +62,7 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
 
-## See Also
+## See also
 
 [Visit our video library](across-videos.md)    
 [Trial FAQ](trial-faq.md)    

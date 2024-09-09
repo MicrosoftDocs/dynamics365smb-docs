@@ -28,7 +28,7 @@ In countries where Microsoft doesn't offer built-in localization, obtaining a lo
 
 You can get your trial version following these steps:
 
-1. You must run "Find your partner" on [Microsoft web site](https://partner.microsoft.com/en-us/partnership/find-a-partner) or ask local Microsoft office for advice. 
+1. You must run "Find your partner" on [Microsoft web site](https://partner.microsoft.com/partnership/find-a-partner) or ask local Microsoft office for advice. 
 2. Microsoft can help you find a partner for you or you might have already found a partner based on your experience. 
 3. You might offer your partner for the trial version and then partner goes to CSP.  
    1. Finds or adds customer tenant.   

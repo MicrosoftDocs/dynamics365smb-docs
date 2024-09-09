@@ -62,13 +62,13 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
 
-## Additional resources
+## See Also
 
-- [Visit our video library](across-videos.md)  
-- [Trial FAQ](trial-faq.md)  
-- [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)  
-- [Personalize Your Workspace](ui-personalization-user.md)  
-- [Run and Print Reports](ui-work-report.md)  
-- [Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
-- [Trials and Subscriptions (for administrators)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)
-- [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations.md)
+[Visit our video library](across-videos.md)    
+[Trial FAQ](trial-faq.md)    
+[Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)    
+[Personalize Your Workspace](ui-personalization-user.md)    
+[Run and Print Reports](ui-work-report.md)    
+[Accessibility and Keyboard Shortcuts](ui-accessibility.md)    
+[Trials and Subscriptions (for administrators)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

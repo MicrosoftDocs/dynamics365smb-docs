@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 05/30/2024
+ms.date: 09/09/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -76,7 +76,7 @@ If there's already an Excel layout for a report, you can use the existing layout
 
 ### [From AL code](#tab/from-code)
 
-This is the most advanced method of creating an Excel report layout. Because it requires knowledge of AL code, it's targeted at programmers. In this approach, the Excel layouts are part of an extension package you install. Leaern more at [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
+This is the most advanced method of creating an Excel report layout. Because it requires knowledge of AL code, it's targeted at programmers. In this approach, the Excel layouts are part of an extension package you install. Learn more at [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
 
 ---
 

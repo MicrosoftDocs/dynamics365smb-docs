@@ -44,11 +44,11 @@ There are basically two tasks involved in setting up an Excel layout of a report
 
 ## Task 1: Create the Excel layout file
 
-These are the three ways to create an Excel layout file for a report.
+There are several ways to create an Excel layout file for a report.
 
 ### [From any report](#tab/any-report)
 
-Follow these steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout will contain the required **Data** sheet and table, a **Report Metadata** sheet, and nothing else.
+Follow these steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout contains the required **Data** sheet and table, a **Report Metadata** sheet, and nothing else.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. On the **Report Layouts** page, choose any layout for the report, then choose the **Run Report** action.
@@ -76,7 +76,7 @@ If there's already an Excel layout for a report, you can use the existing layout
 
 ### [From AL code](#tab/from-code)
 
-This is the most advanced method of creating an Excel report layout. Because it requires knowledge of AL code, it's targeted at programmers. In this approach, the Excel layouts are part of an extension package you install. Learn more at [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
+This method is the most advanced way to create an Excel report layout. It requires knowledge of AL code and is intended for programmers. In this approach, the Excel layouts are part of an extension package you install. Learn more at [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
 
 ---
 
@@ -112,9 +112,9 @@ Once you have the Excel layout file, the next task is to add it as a new layout 
 
 ## Understanding Excel layouts
 
-There are a few things you need to know or consider when creating or making changes to Excel layouts. Every Excel layout must include two elements: a **Data** sheet and a  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can think of the **Data** sheet as a kind of contract between the layout and the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
+There are a few things you need to know or consider when creating or making changes to Excel layouts. Every Excel layout must include two elements: a **Data** sheet and a  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can think of the **Data** sheet as a kind of contract between the layout and the business data. You use this data as the source of calculations and visualizations that you want to present on other sheets.
 
-There are some specific requirements to the structure of the Excel workbook. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layout and the requirements.
+There are some requirements to the structure of the Excel workbook that must be met for the layout to work. The following diagram and table outline the elements of an Excel layout and the requirements.
 
 [![Shows the different elements of an Excel layout.](media/excel-layout-callouts-2.png)](media/excel-layout-callouts-2.png#lightbox)
 
@@ -125,7 +125,7 @@ There are some specific requirements to the structure of the Excel workbook. If 
 |3|Presentation sheets|<ul><li>Used to present data.</li><li>Data comes from the **Data** sheet. </li></ul>||
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another Excel report.</li><li>Contains general information about the report.</li><li>Can be deleted.</li></ul>|
 
-In summary, this is what you should and shouldn't do on the **Data** sheet:
+In summary, you should and shouldn't do the following things on the **Data** sheet:
 
 - Don't change the name of **Data** sheet, **Data** table, or columns.
 - You can delete or hide columns.

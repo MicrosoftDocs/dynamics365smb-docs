@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 08/19/2024
+ms.date: 09/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -46,7 +46,7 @@ To work with sustainability journals, follow the steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link.
 2. On the **Sustainability Journal** page, enter as many lines as you plan to post in the same batch.
-3. You can leave the **Document Type** field blank if this is internal document, or you can select **Invoice** or **Credit Memo** if needed.
+3. For internal document, you can leave the **Document Type** field blank. If not, you can select **Invoice** or **Credit Memo**.
 4. In the **Account No.** field, you can select only non-blocked sustainability accounts where the **Direct Posting** field is selected and the **Accounting Type** field is set to **Posting**. The accounts must also be configured with a category and a subcategory.
 
     > [!NOTE]
@@ -63,10 +63,10 @@ If your formula is based on the **Calculate from General Ledger** option in the 
 
 ### Changing Account Subcategories in the journal line  
 
-It is important to know that you can have more than one **Account Subcategory** related to one **Sustainability Account**, but only one can be set as a default value and you must have default value all the time for the account if yoy want to use this account for posting. Everytime when you want to use different subcategory for each account, you can easily change this value on the **Sustainability Journal** line, but you can choose only subcategores already connected to the spceific account and account category.   
+It's important to know that you can have more than one *Account Subcategory* related to one *Sustainability Account*, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting. To use a different subcategory for each account, you can easily change this value on the **Sustainability Journal** line, but you can only select subcategories that are already associated with the specific account and account category.   
 
 > [!TIP]
-> If you want to use i.e. one account for business cars, but you have different car types with different emissions, you can set one **Account** and create as many **Account Subcategories** as you have cars with different emission factors. When you work in your **Sustanability Journal**, you can easily change your **Account Subcategory** based on the car type you want to use for recording emissions.  
+> For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one *Account* and create as many *Account Subcategories* as you need for cars with different emission factors. When you work in your *Sustanability Journal*, you can easily change your *Account Subcategory* based on the car type you choose to use for recording emissions. 
 
 ### Recurring journals
 

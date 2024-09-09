@@ -46,7 +46,7 @@ Microsoft ensures that businesses can connect to their banks and perform fundame
 [Make payments with the AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Collect payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,7 +46,7 @@ As for other personalization, the changes you make to column width are stored on
 
 ## Pin the action bar
 
-Pinning the action bar on a page ensures that the action bar remains visible and accessible wheneven the page is open.  providing quick access to important actions without the need to pin it each time the page is opened. This feature is particularly useful for frequently used actions, allowing for a more efficient workflow by reducing the number of clicks needed to access these actions
+Pinning the action bar on a page ensures that the action bar remains visible and accessible wheneven the page is open, providing quick access to important actions without the need to pin it each time the page is opened. This feature is particularly useful for frequently used actions, allowing for a more efficient workflow by reducing the number of clicks needed to access these actions
 
 ## Start personalizing by using the personalization mode
 

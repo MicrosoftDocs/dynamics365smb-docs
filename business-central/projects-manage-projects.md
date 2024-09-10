@@ -1,23 +1,23 @@
 ---
-title: Project Management
+title: Project management
 description: This topic outlines how to use resources, time sheets, and projects to manage budgets.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
-ms.date: 04/26/2024
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015, 37033, 37034, 37035, 37036, 37037, 37038, 37039
+ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Project Management
+# Project management
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you can perform common project management tasks, such as configuring a project and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual projects, but also of the allocation of employees, machinery and other resources being used in all projects.
 
 Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and projects. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
+The following table describes a sequence of tasks, with links to articles that describe them.
 
 | To | See |
 | --- | --- |
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Purchase supplies for a project, either on purchase orders or invoices, and record item and time usage. |[Manage Project Supplies](projects-how-manage-project-supplies.md) |
 | Learn about WIP (Work in Process), a feature that ensures correct financial statements and enables you to estimate the financial value of projects that are ongoing. |[Understanding WIP Methods](projects-understanding-wip.md) |
 | Post the consumption of materials, resources, and other expenses of project work in process (WIP) to monitor its financial value and to maintain correct financial statements even though you post project expenses before invoicing the project. |[Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md) |
-| Record project costs for resource usage, materials, and project-related purchases on an on-going basis and invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
+| Invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
 
 ## Get started with projects
 

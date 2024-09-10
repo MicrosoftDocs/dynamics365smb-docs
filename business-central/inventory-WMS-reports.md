@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320
-ms.date: 03/21/2024
+ms.date: 08/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -43,7 +43,8 @@ After you install the app, you can use the **Print Label** action to print 1D an
 
 > [!NOTE]
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customized version.
-
+>
+> Check with your equipment supplier to learn how to print Word documents on your device.  
 
 ## Explore inventory reports with Report Explorer
 
@@ -53,11 +54,10 @@ To get an overview of the reports that are available for inventory, choose **All
 
 To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
-
 ## See also
 
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory analytics overview](inventory-analytics-overview.md)  
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

@@ -60,7 +60,7 @@ Pinning the action bar on a page ensures that the action bar remains visible and
 
     If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") on the banner, you can't personalize the page. For more information, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
 
-1. To change a UI element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with an arrowhead or border. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and state of the UI element.
+1. To change a user interface (UI) element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with an arrowhead or border. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and state of the UI element.
 1. To add a field, choose the **+ Field** action. From the **Add Field to Page** pane, drag and drop a field into the desired position on the page.
 1. When you finish changing the layout of one or more pages, choose the **Done** button on the **Personalizing** banner.
 

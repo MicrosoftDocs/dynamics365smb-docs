@@ -12,7 +12,7 @@ ms.reviewer: bholtorf
 
 # Sign up for a free Dynamics 365 Business Central trial
 
-Business Central offers a free trial. There are two ways to access the trial version, depending on your location. If you are in a country where Microsoft offers official localization, you can follow one path. If you are in a country where localization is handled by partners, you'll need to follow a different path. Explore the different types of localization [here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] offers a free trial. There are two ways to access the trial version, depending on your location. If you are in a country where Microsoft offers official localization, you can follow one path. If you are in a country where localization is handled by partners, you'll need to follow a different path. Explore the different types of localization [here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
 
 ## Start the trial in Microsoft-based localizations 
 
@@ -38,7 +38,7 @@ You can get your trial version following these steps:
    5. The test trial environment will be accessible. 
 
 > [!NOTE]
-> Microsoft does not oversee how partners set up the trial environment or what specific elements are included. While Microsoft offers recommendations, partners have the flexibility to implement them in their own way. Using a trial version from one partner does not obligate you to purchase a license from them, and you can always choose to switch partners at any time.  
+> Microsoft doesn't oversee how partners set up the trial environment or what specific elements are included. While Microsoft offers recommendations, partners have the flexibility to implement them in their own way. Using a trial version from one partner doesn't obligate you to purchase a license from them, and you can always choose to switch partners at any time.  
 
 ## What to try
 

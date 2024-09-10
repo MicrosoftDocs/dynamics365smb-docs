@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/27/2024
+ms.date: 09/10/2024
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
@@ -21,7 +21,7 @@ Use column definitions to specify the columns to include in a report. For exampl
 To create or edit a column definition, follow these steps.
 
 > [!NOTE]
-> A printed, previewed, and saved versions of a financial report display a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.
+> Printed, previewed, and saved versions of a financial report display a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.
 
 1. On the **Financial Reports** page, select the relevant financial report, and then choose the **Edit Column Definition** action.
 1. On the **Column Definition** page, create a row for each column of financial data shown in the financial report. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

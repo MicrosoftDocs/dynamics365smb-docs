@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 108, 198, 490, Report_4, Report_6, Report_7, Report_9, Report_10, Report_17, Report_18, Report_25, Report_27, Report_28, Report_33, Report_38, Report_104, Report_120, Report_129, Report_304, Report_322, Report_329, Report_1404
+ms.search.form: 103, 108, 198, 490, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, Report_4, Report_6, Report_7, Report_9, Report_10, Report_17, Report_18, Report_25, Report_27, Report_28, Report_33, Report_38, Report_104, Report_120, Report_129, Report_304, Report_322, Report_329, Report_1404
 ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

@@ -35,6 +35,8 @@ The following video shows some of the ways in which you can personalize your Rol
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
+
+## Personlai
 ## Change the width of a column
 
 You can easily resize columns on any list. Just drag the boundary between two columns to the left or the right.  
@@ -47,6 +49,8 @@ As for other personalization, the changes you make to column width are stored on
 ## Pin the action bar
 
 Pinning the action bar on a page ensures that the action bar remains visible and accessible wheneven the page is open, providing quick access to important actions without the need to pin it each time the page is opened. This feature is particularly useful for frequently used actions, allowing for a more efficient workflow by reducing the number of clicks needed to access these actions
+
+
 
 ## Start personalizing by using the personalization mode
 

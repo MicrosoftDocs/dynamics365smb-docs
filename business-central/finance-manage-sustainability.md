@@ -50,7 +50,7 @@ To get started with sustainability management, use the following articles.
 | [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md) | This article provides information on how to set up charts of sustainability accounts (CoSA), account categories, and subcategories. And also, how to analyze information in sustainability ledger entries. |
 | [Record sustainability entries](finance-sustainability-journal.md) | Use this article to learn how to work with all types of sustainability journals. |
 | [Work with carbon credits](sustainability-carbon-credit.md) | Learn how to set up and purchase carbon credit. |
-| Work with sustainability certificates | *It will be available soon.*    |
+| [Work with sustainability certificates](sustainability-certificates.md) |  Learn what the sustainability certificates are and how to set up and use them.  |
 | **Planning** |             |
 | [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md) | Learn how to set up and use sustainability scorecards and goals. |
 | **Reporting** |             |

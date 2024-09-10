@@ -9,14 +9,14 @@ ms.search.form:
 ms.date: 09/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: 
+ms.reviewer: solsen
 ---
 
 # Sustainability certificates
 
 In today’s business landscape, sustainability is more than a trend - it’s a necessity. As companies strive to reduce their environmental impact and meet growing consumer demand for responsible practices, sustainability certificates have emerged as an essential tool for validating these efforts. These certificates serve as an independent verification that a company or its products meet specific environmental, social, and governance (ESG) standards, fostering trust and transparency in the marketplace.  
 
-Sustainability certificates offer a clear and measurable way to assess the environmental and ethical credentials of both companies and their products. By prioritizing vendors who hold recognized sustainability certifications, businesses can enhance their supply chain integrity, reduce risks, and contribute to a more sustainable future.   
+Sustainability certificates offer a clear and measurable way to assess the environmental and ethical credentials of both companies and their products. By prioritizing vendors who hold recognized sustainability certifications, businesses can enhance their supply chain integrity, reduce risks, and contribute to a more sustainable future.
 
 Sustainability certificates for companies cover a wide range of criteria, including resource efficiency, waste management, emissions reduction, and social responsibility. Similarly for products, these certifications ensure that items meet stringent environmental standards, from raw material sourcing to manufacturing processes and end-of-life disposal. 
 
@@ -49,7 +49,7 @@ Sustainability certificates are typically issued by independent third-party orga
 1. If this certificate is measurable, enable the **Has Value** field and enter the **Value**.   
 
 > [!NOTE]
-> You can also create new sustainabilty directly from the vendor or item card. In this case, the **Type** field will be automatically prepopulated as an Item or Vendor based on the page from where certificate has been created.  
+> You can also create a new sustainabilty directly from the vendor or item card. In this case, the **Type** field will be automatically prepopulated as an Item or Vendor based on the page from where certificate has been created.  
  
 ### Sustainability certificate for vendors
 

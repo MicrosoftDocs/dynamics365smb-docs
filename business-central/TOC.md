@@ -327,6 +327,7 @@ ms.service: dynamics-365-business-central
 ##### [Make payments with AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Settle purchase invoices promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 ##### [Export a positive pay file](finance-how-positive-pay.md)
+##### [FAQs about supported banking and payment formats](banks-formats-faq.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payments application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +467,7 @@ ms.service: dynamics-365-business-central
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
 #### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
 #### [Work with carbon credit](sustainability-carbon-credit.md)
+#### [Sustainability certificates](sustainability-certificates.md)
 #### Sustainability analytics
 ##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 ##### [Built-in sustainability reports](sustainability-reports.md)
@@ -1651,6 +1653,7 @@ ms.service: dynamics-365-business-central
 #### [Set up the Envestnet Yodlee bank feeds service](bank-how-setup-bank-statement-service.md)
 #### [Use the AMC banking 365 fundamentals extension](ui-extensions-amc-banking.md)
 #### [Select a check layout](finance-how-define-check-layouts.md)
+#### [FAQs about supported banking and payment formats](banks-formats-faq.md)
 ### Set up sales
 #### [Set up sales](sales-setup-sales.md)
 #### [Register new customers](sales-how-register-new-customers.md)

@@ -22,7 +22,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 - Improved matching of transactions with ledger entries
 
-    As you might already know, the **Match Automatically** button on the **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms that it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect those unmatched transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if a customer paid multiple invoices in one lump sum, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
+    As you might already know, the **Match Automatically** button on the **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms that it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect those unmatched transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if a customer paid multiple invoices in one lump sum that you have registered as individually paid invoices, Copilot reconciles the single bank statement line with the multiple bank ledger ledger entries.
 
     [Learn more about this task](#reconcile-bank-accounts-with-copilot).
 
@@ -39,7 +39,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 ## Prerequisites
 
 - Bank account reconciliation assist is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
-- The bank accounts in Business Central that you want to reconcile are linked to an online bank account, or they are set up with a bank statement import format.
+- The bank accounts in Business Central that you want to reconcile are linked to an online bank account, or they're set up with a bank statement import format.
 - You're familiar with bank account reconciliation in Business Central. Learn more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot
@@ -66,7 +66,7 @@ For this approach, you create and reconcile a new bank account reconciliation fr
 1. If the selected bank account isn't linked to an online bank account, you must import the bank statement file. To import the file, either select the value in the **Use transaction data from** field or select the paper clip button next to the **Generate** button. Then use **Select the file to import** to import the bank statement file by either dragging it from your device or browsing your device.
 1. To reconcile with Copilot, select **Generate**.
 
-    Copilot starts to generate proposed matches. When it has finished, the **Reconcile with Copilot** window shows the results of the matching process.
+    Copilot starts to generate proposed matches. When it finishes, the **Reconcile with Copilot** window shows the results of the matching process.
 
 1. Review the proposed matches as described in the next section.
 
@@ -77,14 +77,14 @@ For this approach, you use Copilot either on a new bank account reconciliation t
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then select the related link.
 1. Follow one of these steps:
 
-    - Select **New** to start a new reconciliation.
+    - Select **New** to start a new reconciliation. Add the statement lines, either manually or by using **Suggest Lines** action to get a copy of the bank ledger entries as a starting point.
     - Select and open an existing reconciliation in the list.
 
 1. On the **Bank Acc. Reconciliation** card, select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Reconcile with Copilot** in the upper-right corner.
 
     ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.png)
 
-    Copilot starts to generate proposed matches. When it has finished, the **Reconcile with Copilot** window shows the results of the matching process.
+    Copilot starts to generate proposed matches. When it finishes, the **Reconcile with Copilot** window shows the results of the matching process.
 
 1. Review the proposed matches as described in the next section.
 ---
@@ -131,11 +131,13 @@ This section explains how to use Copilot to post unreconciled bank account state
 
     Copilot starts to generate proposals for posting new payments.
 
-1. After Copilot has finished generating proposals, the **Copilot Proposals for Posting Differences to G/L Accounts** window appears.
+1. After Copilot finishes generating proposals, the **Copilot Proposals for Posting Differences to G/L Accounts** window appears.
 
     The **Match proposals** section of this window shows the proposals. The experience resembles the experience for reconciling with Copilot.
 
-    ![Screenshot that shows Copilot Proposals for Posting Differences to G/L Accounts window.](media/bank-reconciliation-gl-transfer-proposed-matches.png)
+    ![Screenshot that shows Copilot Proposals for Posting Differences to G/L Accounts window.](media/bank-reconciliation-gl-transfer-proposed-matches-v2.png)
+
+    To post the differences as regular journal entries, you must specify the general journal template and batch to use. This allows you to reverse the transaction if you need to later.
 
 1. Review the proposals line by line to ensure the accuracy of the suggested payments for posting.
 

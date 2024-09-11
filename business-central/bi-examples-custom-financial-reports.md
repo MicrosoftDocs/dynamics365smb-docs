@@ -53,11 +53,11 @@ In this example, we have a new financial report called **Balance Sheet** and a n
 
 1. Open the Balance Sheet report.
 1. Open the **BS** row definition.
-1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the Cronus demonstration data. Your chart of accounts will be different.
+1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the Cronus Ltd. demonstration data.
 
-|Row No.  |Description  |Totaling Type  |Totaling  |Row Type  |Bold  |
+|Row No.|Description|Totaling Type |Totaling  |Row Type  |Bold  |
 |---------|---------|---------|---------|---------|---------|
-|         | **Current Assets**| Formula |         |Balance at Date          | Yes |
+| | **Current Assets**| Formula | |Balance at Date    | Yes |
 |CA | Cash                | Posting Accounts | 18000..18999 |Balance at Date|     |
 |CA | Accounts Receivable | Posting Accounts | 15000..15999 |Balance at Date|    |
 |CA |  Other Receivables  | Posting Accounts | 13000..13999 |Balance at Date|    |
@@ -69,7 +69,7 @@ In this example, we have a new financial report called **Balance Sheet** and a n
 |   | **Long Term Assets**      |            |              |Balance at Date|Yes |
 |LTA|Fixed Assets         | Posting Accounts| 10000..12899  |Balance at Date|    |
 |LTA|Accumulated Depreciation| Posting Accounts|12900..12999|Balance at Date|    |
-|LTA|Other Long Term Assets | Posting Accounts|17000..17999|19000..19999|Balance at Date||
+|LTA|Other Long Term Assets | Posting Accounts|17000..17999|19000..19999|Balance at Date|  |
 |F2 |**Total Long Term Assets**|Formula     |   LTA         |Balance at Date | Yes |
 |   |                          | Formula    |               |Balance at Date |     |
 |F3 | **Total Assets**         |            | F1+F2         | Balance at Date|     |
@@ -78,10 +78,10 @@ The following table describes the fields on the **Row Definition** page.
 
 |Field  |Description  |
 |---------|---------|
-|Row No.      |Simple alpha codes are used for each section to allow for Row No. grouping when using Formulas. This creates shorter and more simple formulas. Each formula line is labeled with a simple alpha numeric code for easy identification.         |
+|Row No.      |Alphanumeric codes are used for each section. The codes let you group by row number when you use formulas. Groupings help make formulas shorter and more simple. Each formula line is labeled with an alphanumeric code for easy identification.         |
 |Description  | Used to hold the words to label each row of the report.        |
-|Totaling type| Formula is used in three ways:<br><br>* To add the results of rows together.<br><br>* When combined with a section header or total.<br><br>* When inserting a blank row into the report.<br><br> Posting accounts are used to indicate that the row will pull the result of posted transactions based on the accounts listed in the Totaling column. |
-|Totaling | Contains either a range of accounts shown as 10000..11999, or multiple nonconsecutive ranges of accounts shown as 17000..17999\|19000..19999.<br><br> Formulas are expressed as a simple row no. reference as in the case of CA, which will add all accounts with Row No. of CA.<br><br> Following the general accounting convention of displaying financial report lines in the order of liquidity, general ledger accounts initially appear out of order. When reviewing further, you can see that every account is represented in the ranges created for each line. By designing totaling ranges in this way, this report updates dynamically when a new general ledger account is added to the chart of accounts.  |
+|Totaling type| Formula is used in three ways:<br><br>* To add the results of rows together.<br><br>* When combined with a section header or total.<br><br>* When inserting a blank row into the report.<br><br> Posting accounts are used to indicate that the row pulls the result of posted transactions based on the accounts listed in the Totaling column. |
+|Totaling | Contains either a range of accounts shown as 10000..11999, or multiple nonconsecutive ranges of accounts shown as 17000..17999\|19000..19999.<br><br> Formulas are expressed as a row number reference, such as CA, which adds all accounts with Row No. of CA.<br><br> Following the general accounting convention of displaying financial report lines in the order of liquidity, general ledger accounts initially appear out of order. Notice that accounts show in the ranges created for each line. Totaling ranges let the report update dynamically when you add a new general ledger account to your chart of accounts.  |
 |Row type     | Balance at Date is used for Balance Sheet reports.        |
 |Bold         | Section headers and totals are set to Bold so they stand out.        |
 
@@ -96,8 +96,8 @@ The last line of this report is a check figure that the report complies with the
 * Accounts might be included more than once.
 * A formula in the report isn't calculating correctly.
 
-|Row No.  |Description  |Totaling Type  |Totaling  |Row Type  |Bold  |
-|---------|---------    |---------      |--------- |---------|---------|
+|Row No.|Description|Totaling Type|Totaling|Row Type  |Bold  |
+|---------|---------|---------|--------- |---------|---------|
 || **Current Liabilities**| Formula | |Balance at Date| Yes|
 |CL|Accounts Payable|Posting Accounts|22100..22399|Balance at Date||
 |CL|Accrued Payroll|Posting Accounts|23500..25399|26100..26399|Balance at Date||
@@ -135,16 +135,16 @@ In this example, we have a new financial report called **Income Statement** and 
 
 1. Open the **Income Statement** report.
 1. Open the **IS** row definition.
-1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the Cronus demonstration data. Your chart of accounts will be different.
+1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the Cronus Ltd. demonstration data. 
 
 |Row No.  |Description  |Totaling Type  |Totaling  |Row Type  |Bold  |
-|---------|---------    |---------      |--------- |---------|---------|
+|---------|---------|---------|--------- |---------|---------|
 ||**Revenue**|Formula||Net Change| Yes |
-|R|Product Revenue|Posting Accounts|40000..40209|Net Change|| 
+|R|Product Revenue|Posting Accounts|40000..40209|Net Change||
 |R|Job Revenue|Posting Accounts|40410..40429|Net Change||
-|R|Services Revenue|Posting Accounts|40210..40309|40430..40909|Net Change||
-|R|Other Revenue|Posting Accounts|40310..40409|40920..40939|Net Change||
-|R|Discounts and Returns|Posting Accounts|40910..40919|40940..49999|Net Change||
+|R|Services Revenue|Posting Accounts|40210..40309|40430..40909|Net Change|  |
+|R|Other Revenue|Posting Accounts|40310..40409|40920..40939|Net Change|  |
+|R|Discounts and Returns|Posting Accounts|40910..40919|40940..49999|Net Change|  |
 |F1|**Total Revenue**|Formula|R|Net Change| Yes |
 |||Formula||Net Change||
 ||**Cost of Goods**|Formula||Net Change||
@@ -160,10 +160,10 @@ The following table describes the fields on the **Row Definition** page.
 
 |Field  |Description  |
 |---------|---------|
-|Row No.      |Simple alpha codes are used for each section to allow for Row No. grouping when using Formulas. This creates shorter and more simple formulas. Each formula line is labeled with a simple alpha numeric code for easy identification.         |
+|Row No.      |Alphanumeric codes are used for each section. The codes let you group by row number when you use formulas. Groupings help make formulas shorter and more simple. Each formula line is labeled with an alphanumeric code for easy identification.         |
 |Description  | Used to hold the words to label each row of the report.        |
-|Totaling type| Formula is used in three ways:<br><br>* To add the results of rows together.<br><br>* When combined with a section header or total.<br><br>* When inserting a blank row into the report.<br><br> Posting accounts are used to indicate that the row will pull the result of posted transactions based on the accounts listed in the Totaling column. |
-|Totaling | Contains either a range of accounts shown as 40000..40209, or multiple nonconsecutive ranges of accounts shown as 40210..40309\|40430..40909.<br><br> Formulas are expressed as a simple row no. reference as in the case of CA, which will add all accounts with Row No. of CA.<br><br> Following the general accounting convention of displaying financial report lines in the order of liquidity, general ledger accounts initially appear out of order. When reviewing further, you can see that every account is represented in the ranges created for each line. By designing totaling ranges in this way, this report updates dynamically when a new general ledger account is added to the chart of accounts.  |
+|Totaling type| Formula is used in three ways:<br><br>* To add the results of rows together.<br><br>* When combined with a section header or total.<br><br>* When inserting a blank row into the report.<br><br> Posting accounts are used to indicate that the row pulls the result of posted transactions based on the accounts listed in the Totaling column. |
+|Totaling | Contains either a range of accounts shown as 40000..40209, or multiple nonconsecutive ranges of accounts shown as 40210..40309\|40430..40909.<br><br> Formulas are expressed as a row number reference, such as CA, which adds all accounts with Row No. of CA.<br><br> Following the general accounting convention of displaying financial report lines in the order of liquidity, general ledger accounts initially appear out of order. Notice that accounts show in the ranges created for each line. Totaling ranges let the report update dynamically when you add a new general ledger account to your chart of accounts.  |
 |Row type     | Balance at Date is used for Balance Sheet reports.        |
 |Bold         | Section headers and totals are set to Bold so they stand out.        |
 

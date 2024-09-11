@@ -1,5 +1,5 @@
 ---
-title: Walkthrough: Create custom financial reports
+title: Create custom financial reports
 description: Learn how to create your own trial balance, balance sheet, and income statement reports.
 author: brentholtorf
 ms.author: bholtorf

@@ -21,11 +21,13 @@ The examples in this article describe how to create the following reports:
 * Example 3 creates an Income Statement report
 
 > [!NOTE]
-> The examples are based on the demonstration data that [!INCLUDE [prod_short](includes/prod_short.md)] provides for its fictional company, Cronus Ltd. Your data might be different.
+> The examples are based on the demonstration data that [!INCLUDE [prod_short](includes/prod_short.md)] provides for its CRONUS demonstration company.
 
 ## Example 1: Trial Balance
 
 In this example, we have a new financial report called **Trial Balance** and a new row definition called **TB**.
+
+:::image type="content" source="media/trialbalanceselection.png" alt-text="Shows the trial balance selection.":::
 
 1. Open the new Trial Balance report.
 1. Open the **TB** row definition, and choose **Insert**.
@@ -35,8 +37,11 @@ In this example, we have a new financial report called **Trial Balance** and a n
    > [!TIP]
    > To quickly apply the filter, choose any row that has Posting in the Account Type column, and then right-click the Account Type column header and choose **Filter to this value**.
 
-1. On the first line, choose **Show more options**, and then choose **Select more**.
+1. On the first line, choose **Show more options** :::image type="content" source="media/show-more-options-icon.png" alt-text="Show more options icon.":::, and then choose **Select more**.
 1. Select all lines by choosing the radio button next to the first column header.
+
+   :::image type="content" source="media/account type select all.png" alt-text="Shows how to select all lines.":::
+
 1. Choose **OK** to assign all general ledger accounts with a totaling type of Posting to your row definition.
 
    > [!TIP]
@@ -51,9 +56,11 @@ Your trial balance report is complete. To view the report, choose the report on 
 
 In this example, we have a new financial report called **Balance Sheet** and a new row definition called **BS**.
 
+:::image type="content" source="media/balance sheet selection.png" alt-text="Shows a balance sheet selection in financial reporting.":::
+
 1. Open the Balance Sheet report.
 1. Open the **BS** row definition.
-1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the Cronus Ltd. demonstration data.
+1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the CRONUS demonstration company.
 
 |Row No.|Description|Totaling Type |Totaling  |Row Type  |Bold  |
 |---------|---------|---------|---------|---------|---------|
@@ -90,7 +97,7 @@ The following table describes the fields on the **Row Definition** page.
 
 Continue to add balance sheet sections as shown in the following table. You can incorporate your own account groupings to create or replicate your company’s method of displaying accounts.  
 
-The last line of this report is a check figure that the report complies with the accounting equation where Assets = Liabilities + Equity. The result of this check figure should always be zero. If it isn't zero, it's a good indication that there's a problem:
+The last line of this report is a check figure that the report complies with the accounting equation where Assets=Liabilities+Equity. The result of this check figure should be zero. If it isn't zero, it's a good indication that there's a problem:
 
 * Some accounts aren't included in the report.
 * Accounts might be included more than once.
@@ -133,9 +140,11 @@ The following image shows the structure of the report in this example.
 
 In this example, we have a new financial report called **Income Statement** and a new row definition called **IS**.
 
+:::image type="content" source="media/income statement selection.png" alt-text="Shows the income statement selection.":::
+
 1. Open the **Income Statement** report.
 1. Open the **IS** row definition.
-1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the Cronus Ltd. demonstration data. 
+1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the CRONUS demonstration company.
 
 |Row No.  |Description  |Totaling Type  |Totaling  |Row Type  |Bold  |
 |---------|---------|---------|--------- |---------|---------|

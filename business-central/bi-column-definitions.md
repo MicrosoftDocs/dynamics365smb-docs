@@ -99,7 +99,7 @@ Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial report column definitions, existing records with the same names as those you are importing are replaced with the new definitions. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
+> When you import financial report column definitions, they replace existing records with the same names. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
 
 To import or export financial report column definitions, follow these steps:
 

@@ -63,6 +63,8 @@ You can also use formulas to compare two or more financial reports and column de
 - Create as many financial reports as you need, each with a unique name.
 - Set up various report layouts and print the reports with the current figures.
 
+To learn more about comparisons, go to [When to use a comparison period formula and comparison date formula in a column definition](bi-design-financial-reports.md#when-to-use-a-comparison-period-formula-and-comparison-date-formula-in-a-column-definition).
+
 ## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
 Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that businesses typically need?
@@ -154,6 +156,20 @@ To set up Excel integration for a financial report, follow these steps to create
 
 > [!NOTE]
 > If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
+
+### Example: Use an Excel template for a monthly report
+
+You can create an Excel template that contains the reports that you include in your reporting package. Each report in the workbook must have a data tab and a tab that has the formatted report. When you update your monthly package, use the **Update Copy of Existing Document** for each report. Be sure to save after each update.
+
+Follow these steps to produce your monthly financial report.
+
+1. Choose the financial report you used to create the Excel template. 
+1. Change the date filter to the next month.
+1. Choose the **Export to Excel** and **Update Copy of Existing Document** actions.
+1. Select the template you saved. Make sure that the Excel file is closed. Otherwise, an error message will state that the file is in use.
+1. The next screen shows the tabs that are available in the Excel workbook. Choose the **Data** tab, and then choose **OK**. If you choose the tab labeled **IS**, your formatting will be overwritten and you'll need to start over.
+1. The Excel workbook is created. Be sure to enable editing to show your changes.
+1. Save the workbook with a different name than the original template.
 
 ### Run a financial report with an Excel template
 

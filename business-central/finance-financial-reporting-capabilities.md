@@ -61,5 +61,7 @@ Financial reporting doesn't require that you know how to code. Finance professio
 
 ## See also
 
-[Financial analytics](bi.md)
-[Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md)
+[Financial analytics](bi.md)  
+[Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md)  
+[Design your own financial reports](bi-design-financial-reports.md)  
+[Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)  

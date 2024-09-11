@@ -499,7 +499,7 @@ ms.service: dynamics-365-business-central
 #### [Design your own financial reports](bi-design-financial-reports.md)
 #### [Row definitions in financial reporting](bi-row-definitions.md)
 #### [Column definitions in financial reporting](bi-column-definitions.md)
-#### [Examples of custom financial reports](bi-examples-custom-financial-reports.md)
+#### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
 #### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)

@@ -1,5 +1,5 @@
 ---
-title: Examples of custom financial reports
+title: Walkthrough: Create custom financial reports
 description: Learn how to create your own trial balance, balance sheet, and income statement reports.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,7 +12,7 @@ ms.search.form: 108, 490, 790
 ms.service: dynamics-365-business-central
 ---
 
-# Examples of custom financial reports
+# Walkthrough: Create custom financial reports
 
 The examples in this article describe how to create the following reports:
 

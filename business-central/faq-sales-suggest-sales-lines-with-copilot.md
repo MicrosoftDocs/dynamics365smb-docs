@@ -34,6 +34,16 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
   People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
 
+* Find a document by reference and then find product within document
+
+  The combination of two capabilities: *Find product* and *Find document*. It enables you to use prompt like *Need red bicycle from last invoice from April*.
+
+* Find products from attachment
+  
+  If your typical sale contains multiple products, your customer might send you an attachments with details of the products they wish to buy. Being able to understand the attachment and generate suggestions based on the content of the attachment makes the sales line creation faster. 
+
+  
+
 ## What is the intended use of sales line suggestions with Copilot?
 
 * Find products
@@ -59,6 +69,13 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
   *	*Get products from order 103031*
   *	*Need products from last invoice in August*
 
+* Find products from attachment
+  
+  Intended to find product suggestions based on the content of a file.
+  
+  - Copilot analyzes the attached file, understands format like column ceparator or data type, identifys columns that contain product, quantity, and unit of measure (optional) information. You can change review and change mapping if needed.
+  - Copilot passes content of columns that contain product details to the *Find product* capability to find requested items. 
+
 ## How was sales line suggestions with Copilot evaluated? What metrics are used to measure performance?
 
 The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on [!INCLUDE [prod_short](includes/prod_short.md)]'s demonstration data and a large labeled product catalog available as open source.
@@ -73,7 +90,7 @@ This feature is built in accordance with Microsoft's Responsible AI Standard. [L
 
 If your industry or domain overlaps with what Microsoft considers sensitive topics (such as drugs, violence, adult entertainment, and so on) Copilot might defer to neutral, curated responses, or give inaccurate responses.
 
-Sales lines suggestions only populates fields **Type** as **Item**, **No.**, and **Quantity** as described. Other fields, including **Unit of Measure**, **Unit Price**, and **Location** use the current logic and are populated either based on item settings or inherited values from the document header.
+Sales lines suggestions only populates fields **Type** as **Item**, **No.**, **Unit of Measure**, and **Quantity** as described. Other fields, including **Unit Price**, and **Location** use the current logic and are populated either based on item settings or inherited values from the document header.
 
 The **Variant Code** is not currently supported. If you can ship a product in two different colors, for example, Copilot will find the needed product but will leave the **Variant Code** field empty. You'll need to fill in the field manually.
 
@@ -101,6 +118,7 @@ For products, the following table lists the tables and fields that Copilot searc
   * Sales invoices
   * Posted sales invoices
   * Posted sales shipments
+  * Blanket sales order
 
   Copilot searches the following fields
 
@@ -111,7 +129,14 @@ For products, the following table lists the tables and fields that Copilot searc
   * Document Date
   * Sell-to Customer No.
 
-  Copilot doesn't return all lines of the type Item. Only items numbers, variant codes, and quantities are transferred. Quantities from the source document are converted to the **Sales Unit of Measure**.
+  Copilot doesn't return all lines of the type Item. Only items numbers, variant codes and quantities are transferred. Quantities from the source document are converted to the **Sales Unit of Measure**.
+
+* Find products from attachment
+
+Currently, this feature supports only *csv* files. If you received files in different format, for example Microsoft Excel, use Save As action to save worksheet into CSV. 
+
+To safeguard against scenario where a very large file is uploaded, we have enforced a limitation of 10k characters in the csv file.
+
 
 ## In which geographies and languages is Sales lines suggestions available?
 

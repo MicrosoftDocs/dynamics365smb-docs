@@ -29,7 +29,7 @@ Integrating the applications lets you access data in Sales from [!INCLUDE[prod_s
 
 For example, a sales person in [!INCLUDE[crm_md](includes/crm_md.md)] can use the price lists from [!INCLUDE[prod_short](includes/prod_short.md)] when they create a sales order. When they add the item to the sales order line in [!INCLUDE[crm_md](includes/crm_md.md)], they can see the inventory level (availability) of the item from [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] can handle sales orders that are automatically or manually transferred from [!INCLUDE[crm_md](includes/crm_md.md)]. For example, they can create and post sales order lines for items or resources that were entered in [!INCLUDE[crm_md](includes/crm_md.md)] as write-in products. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] can handle sales orders that are automatically or manually transferred from [!INCLUDE[crm_md](includes/crm_md.md)]. For example, they can create and post sales order lines for items or resources that were entered in [!INCLUDE[crm_md](includes/crm_md.md)] as write-in products. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handle-sales-order-data).
 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] integrates only with [!INCLUDE[crm_md](includes/crm_md.md)]. Other Dynamics 365 applications that change the standard workflow or data model in [!INCLUDE[crm_md](includes/crm_md.md)], for example Project Service Automation, can break the integration between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -139,7 +139,7 @@ The new pricing experience synchronizes price lists that meet the following crit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.
 
-To synchronize price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. 
+To synchronize price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**.
 
 :::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page.":::
 

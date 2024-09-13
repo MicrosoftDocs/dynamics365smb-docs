@@ -71,7 +71,7 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 There are two ways to create a new layout from an existing layout. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
 
-## [Copying](#tab/copy)
+## [Save existing as copy](#tab/copy)
 
 Copying is a quick way to create a new layout that's the same as an existing layout. Once you have the copy, you'll make modifications by exporting the layout. 
 
@@ -86,9 +86,9 @@ Copying is a quick way to create a new layout that's the same as an existing lay
 4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**
 
    The new layout shows in the **Report Layouts** page.
-5. If you want to make changes to the new layout, see [Modify an existing layout](#modify).
+5. If you want to make changes to the new layout, refer to [Modify an existing layout](#modify).
 
-### [Exporting/Importing](#tab/export)
+### [Export copy of existing and import as new](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Export Layout** action.
@@ -108,8 +108,8 @@ Copying is a quick way to create a new layout that's the same as an existing lay
 
    Make changes to the file and save it.
 
-4. Back on the **Report Layouts**, select the **New Layout** action.
-5. Fill in the following fields:
+4. Back on the **Report Layouts** page, select **New**.
+5. In **Add New Layout for a Report** page, fill in the following fields:
 
    |Field|Description|Mandatory|
    |-----|-----------|---------|
@@ -125,6 +125,32 @@ Copying is a quick way to create a new layout that's the same as an existing lay
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 
 If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
+
+### [Create from blank](#tab/export)
+
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select any layout in the list that is for the same report that you want use for the new layout.
+1. Select **New**.
+1. Ithe layout in the list that is for the same reprotyou want a copy of for your new layout, then choose the **Export Layout** action.
+
+   The layout file is downloaded to your device. 
+
+    > [!TIP]
+    > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
+1. In **Add New Layout for a Report** page, fill in the following fields:
+
+   |Field|Description|Mandatory|
+   |-----|-----------|---------|
+   |Report ID|Set to the ID assigned to the report|yes|
+   |Layout Name| Type a brief description name for the layout to help you easily identify it.|yes|
+   |Description| Type more detailed information the layout. |no|
+   |Format Options|Set this field to match the type of the layout, like Word, Excel, or RDLC.|yes|
+1. Turn on the **Create a blank layout from the report object** switch.
+1. Select **OK** when finished.
+
+   The new layout appears in the list. The layout is blank but all the reports fields and captions are available for you to start adding them to the layout.
+
+1. Now, you're ready to start designing the layout. Learn more in [Modify an existing layout](#modify).
 
 ---
 

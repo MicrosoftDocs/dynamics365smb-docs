@@ -153,7 +153,11 @@ If something goes wrong and a job queue entry fails, or isn't scheduled for some
 To set up notifications for job queue entry failures, start the **Set Up Job Queue Notifications** assisted setup guide from the **Assisted Setup** page. Use the guide to enter the following settings:
 
 * Who to notify about a failure. You can notify the person who started the job queue entry, or job queue entry administrators, or both.
-* How you want to be notified. You can turn on in-product notifications that show at the top of your home page, or use [external business events](/dynamics365/business-central/dev-itpro/developer/business-events-overview#query-business-central-catalog-of-business-events-in-dataverse) to start a Power Automate flow. You can specify when, how, and who to notify for the flow. Your Power Automate flow must subscribe to the **Job queue task failed** event.
+* How you want to be notified. You can turn on in-product notifications that show at the top of your home page.
+
+
+
+Or use [external business events](/dynamics365/business-central/dev-itpro/developer/business-events-overview#query-business-central-catalog-of-business-events-in-dataverse) to start a Power Automate flow. You can specify when, how, and who to notify for the flow. Your Power Automate flow must subscribe to the **Job queue task failed** event.
 * When you want to be notified. You can choose to be notified immediately, or specify thresholds to be notified only after a number of job queue entries fail.
 
 After you set up notifications, you can always turn them on or off. On the **My Notifications** page, for the **Job Queue Failed Notification**, select or clear the **Enabled** checkbox.

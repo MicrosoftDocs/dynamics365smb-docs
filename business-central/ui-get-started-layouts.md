@@ -71,7 +71,7 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 There are two ways to create a new layout from an existing layout. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
 
-## [Save existing as copy](#tab/copy)
+### [Save existing as copy](#tab/copy)
 
 Copying is a quick way to create a new layout that's the same as an existing layout. Once you have the copy, you'll make modifications by exporting the layout. 
 
@@ -88,7 +88,7 @@ Copying is a quick way to create a new layout that's the same as an existing lay
    The new layout shows in the **Report Layouts** page.
 5. If you want to make changes to the new layout, refer to [Modify an existing layout](#modify).
 
-### [Export copy of existing and import as new](#tab/export)
+### [Export existing as copy and import as new](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Export Layout** action.

@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/27/2024
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: Report_25, 103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766
+ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 # Prepare financial reporting with financial data and account categories

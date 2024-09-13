@@ -14,11 +14,9 @@ ms.service: dynamics-365-business-central
 
 # Create G/L budgets
 
-You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
-
-When you create a budget, you can assign budget-specific dimensions, called budget dimensions, for it. You can use budget dimensions to set filters on a budget and to add dimension information to budget entries. Learn more at [Work with Dimensions](finance-dimensions.md).
-
-Budgets play an important role in business intelligence. Examples include a financial statement based on financial reports that include budget entries or when analyzing budgeted versus actual amounts in the chart of accounts. Learn more at [Business Intelligence](bi.md).
+Budgets play an important role in business intelligence. Examples include a financial statement based on financial reports that include budget entries or when analyzing budgeted versus actual amounts in the chart of accounts. Learn more at [Financial Reporting](bi.md).
+ 
+You can create budgets for any given time period but most often businesses set up budgets covering their fiscal year. You can create multiple budgets for the same period so you can work with multiple budget versions or revisions if needed. Budgets can be created for dimensions too, so you can analyses budget variances per dimension. You can work with up to 4 dimensions in a budget. Learn more in [Work with Dimensions](finance-dimensions.md).
 
 In cost accounting, you work with cost budgets in a similar way. Learn more at [Creating Cost Budgets](finance-create-cost-budgets.md).  
 
@@ -39,20 +37,61 @@ In cost accounting, you work with cost budgets in a similar way. Learn more at [
 
 ## Exporting and importing G/L budgets with Excel
 
-As for practically all other pages, you can export data on budget pages to Microsoft Excel for further processing or analysis. Learn more at [Exporting Your Business Data to Excel](about-export-data.md).
+You can export data on budget pages to Microsoft Excel for further processing or analysis and then import budget data back in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-> [!NOTE]
-> The chart of accounts, which general ledger (G/L) budgets are based on, has lines of the account type Heading. These lines contain the total of the lines below it. When you export a G/L budget, you export data on all lines regardless of the account type. However, you can only import data on lines of the Posting account type.
+### Exporting G/L budgets to Excel
 
-Similarly, when you import a G/L budget, any values on Heading lines are deleted. They're deleted to avoid incorrect totals after you import data that was created or edited in Excel.
+Exporting a G/L budget to an Excel workbook allows you to work offline and leverage Excel's powerful data manipulation features. Do as follows to export the budget to Excel:
 
-### Scenario
+1. Open the Budget: Select the budget you want to work on from the list of G/L budgets. Choose the **Edit Budget** action.
+1. To export to Excel, on the **Budget** page, choose the **Actions** tab.
+1. Choose **Export to Excel**.
+1. Choose the dimensions and filters you want to include in the export. For instance, you might want to filter by specific departments or projects. Now choose **OK** to generate the Excel file.
+1. Save the exported Excel file to your local drive for further editing.
 
-You know that the new budgeted salaries cost is going to be local currency (LCY) 1.200.000. You want to enable the Salaries department to budget for the three specific lines (of the Posting account type) for full-time employees, part-time employees, and temp help. The three lines are grouped under a Salaries heading line.
+### Editing G/L budgets in Excel
+
+With the G/L budget exported to Excel, you can now fill in your budget data. Here's a few tips to be more effective and reduce errors
+
+- When enterin budget data, populate the budget amounts for each combination of dimensions and periods. Ensure that the data is accurate and adheres to the formatting requirements of Business Central. For example, numerical values should not contain any special characters or formatting.
+- Take advantage of Excel features such as formulas, data validation, and conditional formatting to streamline data entry and ensure accuracy.
+- Once you've entered all the budget data, ensure that the Excel file has been saved. 
+- Consider keeping backup copies of your budgets locally.
+
+### Importing G/L budgets to Excel
+
+After filling out budget numbers in a local Excel workbook, the next step is to import it back into [!INCLUDE[prod_short](includes/prod_short.md)]. Do as follows to import the budget from Excel:
+
+1. Open the Budget: Select the budget you want to work on from the list of G/L budgets. Choose the **Edit Budget** action.
+1. To import from Excel, on the **Budget** page, choose the **Home** tab.
+1. Choose **Import from Excel**.
+1. Choose the Excel file from your local drive. You will be given the option to choose which budget you are uploading to and if you would like to add or replace the entries. The **add** action will add the entries from Excel to any entries already existing. The **replace** action will overwrite any entries all ready in the budget. 
+1. If everything looks correct, choose **OK** to complete the import process. [!INCLUDE[prod_short](includes/prod_short.md)] will then update the budget with the imported data.
+
+### Scenario example: setting budget targets for payroll expenses
+
+You know that the new budgeted salaries cost is going to be 1.200.000 local currency (LCY). You want to enable the Salaries department to budget for the three specific lines (of the Posting account type) for full-time employees, part-time employees, and temp help. The three lines are grouped under a Salaries heading line.
 
 You enter 1.200.000 on the Heading line, export the budget to Excel, then send it to the Salaries department, telling them to distribute the LCY 1.200.000.
 
 The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
+
+> [!NOTE]
+> The chart of accounts, which general ledger (G/L) budgets are based on, has lines of the account type Heading. These lines contain the total of the lines below it. When you export a G/L budget, you export data on all lines regardless of the account type. However, you can only import data on lines of the Posting account type. Similarly, when you import a G/L budget, any values on Heading lines are deleted. They're deleted to avoid incorrect totals after you import data that was created or edited in Excel.
+
+## Tips for Effective Budget Management
+
+When working with budgets, here are some tips for effective budget management:
+
+- Regular Updates: Periodically update your G/L budgets to reflect changes in your financial plans and business environment. You can copy any of the budgets and turn them into forecasts.
+- Version Control: Maintain different versions of your budget to compare actual performance against various scenarios.
+- Collaboration: Encourage collaboration by involving relevant stakeholders in the budgeting process, ensuring that the budget is comprehensive and realistic.
+
+## Contributors
+
+*This article is maintained by Microsoft. Some content was originally written by the following contributors.*
+
+* [Michelle Serna](https://www.linkedin.com/in/michelleserna1/) | Director of ERP systems.
 
 ## See also
 

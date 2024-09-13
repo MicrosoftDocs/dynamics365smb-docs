@@ -126,7 +126,7 @@ Copying is a quick way to create a new layout that's the same as an existing lay
 
 If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
 
-### [Create from blank](#tab/export)
+### [Create from blank](#tab/blank)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select any layout in the list that is for the same report that you want use for the new layout.

@@ -6,24 +6,23 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 03/23/2022
+ms.date: 09/13/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Get Started Creating Report Layouts
+# Get started creating report layouts
 
 Business Central comes with many built-in layouts that you can use on your reports. Other layouts may have been added as part of other extensions. But it's also possible to create your own reports either from scratch or based an existing layout.
 
 > [!IMPORTANT]
-> You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+> You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. Learn more in [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## Overview
 
-When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. Usually, you'll work from the **Report Layouts** page. The main difference is how you design the layout, which is done by using the application software that the layout's built on, like Word, Excel, or SQL Server Report Builder.
+When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. Usually, you work from the **Report Layouts** page. The main difference is how you design the layout, which is done by using the application software that the layout's built on, like Word, Excel, or SQL Server Report Builder.
 
-With this concept in mind. there are basically three or four tasks involved in setting up a layout on a report:
+With this concept in mind, there are basically three or four tasks involved in setting up a layout on a report:
 
 1. Decide on the layout type.
 2. Export a copy of an existing layout to use as a starting point.
@@ -42,7 +41,7 @@ Depending on what your situation is, the actual tasks vary. Use the following ta
 |What do you want to do?|See...|
 |-----------------------|------|
 |Figure out what's the best layout type to use for my situation|[Decide what type of layout you want](#decide)|
-|Create a new layout for a report that's based on an existing layout, keeping the existing layout as it is.|[Create a new layout](#create)|
+|Create a new layout for a report that's based on a copy an existing layout or create one from scratch|[Create a new layout](#create)|
 |Make changes to an existing layout that's used on a report|[Modify a layout](#modify)|
 |I have a new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#replace)|
 |Switch the current layout used by a report to another layout|[Setting the Layout Used by a Report](ui-set-report-layout.md)|
@@ -69,7 +68,7 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 ## <a name="create"></a>Create a new layout
 
-There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout. You can use a copy by either saving the existing layout directly as a copy or exporting it as a copy and then importing it a new layout.
+There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout, which you can do by either saving an existing layout directly as a copy or exporting it and then importing it a new layout.
 
 ### [Save existing as copy](#tab/copy)
 
@@ -100,7 +99,7 @@ Copying is a quick way to create a new layout that's the same as an existing lay
 
 3. Open the layout file in the appropriate application, like Word (for a .docx file) or Excel (for an .xlsx file).
 
-   For more information, see:
+   Learn more in:
 
    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
    * [Work with Excel Layouts](ui-excel-report-layouts.md)
@@ -162,7 +161,7 @@ Follow these steps to modify an existing user-defined layout.
 
 3. Open the layout file in the appropriate application, like Word (for a .docx file) or Excel (for an .xlsx file).
 
-   For more information, see:
+   Learn more in:
 
    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
    * [Work with Excel Layouts](ui-excel-report-layouts.md)
@@ -200,7 +199,7 @@ Follow these steps if you want to change the name and description of a user-defi
     > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**, then select **OK**.
 
-## See Also
+## Related information
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Working with Word Layouts](ui-how-add-fields-word-report-layout.md)  

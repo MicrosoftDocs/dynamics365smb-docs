@@ -40,7 +40,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 * Find products from attachments
   
-  If your typical sale contains multiple products, your customer might send you an attachments with details about the products they want to buy. Being able to understand the attachment and generate suggestions based its content makes it faster to create sales lines.
+  If your typical sale contains multiple products, your customer might send you an attachment with details about the products they want to buy. Being able to understand the attachment and generate suggestions based its content makes it faster to create sales lines.
 
 ## What is the intended use of sales line suggestions with Copilot?
 
@@ -62,7 +62,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
   - You might have an ID, but don't know what it represents. For example, is it order number, invoice number, or external reference?
   - Sometimes you have a date or a period, but not an ID for document.
 
-  To find a source document manually, you'll need to open multiple pages and use search and filter multiple times. Copilot simplifies this process with a single, natural language query that lets you express what you're looking for in your own way.
+  To find a source document manually, you need to open multiple pages and use search and filter multiple times. Copilot simplifies this process with a single, natural language query that lets you express what you're looking for in your own way.
 
   *	*Get products from order 103031*
   *	*Need products from last invoice in August*
@@ -88,9 +88,9 @@ This feature is built in accordance with Microsoft's Responsible AI Standard. [L
 
 If your industry or domain overlaps with what Microsoft considers sensitive topics (such as drugs, violence, adult entertainment, and so on) Copilot might defer to neutral, curated responses, or give inaccurate responses.
 
-Sales lines suggestions only fills in fields where the **Type** is **Item**, and the **No.**, **Unit of Measure**, and **Quantity**. Other fields, including **Unit Price** and **Location**, use the current logic and are filled in either based on item settings or values from the document header.
+Sales lines suggestions only populates fields where the **Type** is **Item**, and the **No.**, **Unit of Measure**, and **Quantity**. Other fields, including **Unit Price** and **Location**, use the current logic and are filled in either based on item settings or values from the document header.
 
-The **Variant Code** is not currently supported. If you can ship a product in two different colors, for example, Copilot will find the needed product but will leave the **Variant Code** field empty. You'll need to fill in the field manually.
+The **Variant Code** isn't currently supported. If you can ship a product in two different colors, for example, Copilot finds the product but leaves the **Variant Code** field empty. You need to fill in the field manually.
 
 How you name your products can affect output. For example, using cryptic abbreviations versus friendly names can reduce output quality.
 
@@ -133,7 +133,7 @@ For products, the following table lists the tables and fields that Copilot searc
 
 Currently, this feature supports only CSV files. If you received files in a different format, for example Microsoft Excel, use the **Save As** action to save the worksheet as a CSV. 
 
-To safeguard against scenario where a very large file is uploaded, the CSV file is limited to 10,000 characters.
+To safeguard against scenario where a large file is uploaded, the CSV file is limited to 10,000 characters.
 
 ## In which geographies and languages is Sales lines suggestions available?
 
@@ -151,7 +151,7 @@ AI-powered suggestions might sometimes be incorrect or incomplete. You should al
 
 ### What is expected of administrators and end-users when using Sales lines suggestions?
 
-Each individual users chooses whether or not to use **Sales lines suggestions**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
+After an administrator enables the **Sales lines suggestions** feature, each user can choose whether to use it always, sometimes, or never.  
 
 Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 

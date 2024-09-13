@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: access, right, security, permissions
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862, 9875_Primary, 9874_Primary, 9873_Primary, 9872_Primary, 9877_Primary, 9869_Primary, 9868_Primary, 9871_Primary
-ms.date: 04/15/2024
+ms.date: 09/13/2024
 ms.service: dynamics-365-business-central
 ---
 
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 Security groups make it easier for administrators to manage user permissions. For example, for [!INCLUDE [prod_short](includes/prod_short.md)] online, they're reusable across Dynamics 365 applications, such as SharePoint Online, CRM Online, and [!INCLUDE [prod_short](includes/prod_short.md)]. Administrators add permissions to their [!INCLUDE [prod_short](includes/prod_short.md)] security groups, and when they add users to the group the permissions apply to all members. For example, an administrator can create a [!INCLUDE [prod_short](includes/prod_short.md)] security group that gives salespeople the ability to create and post sales orders. Or, let purchasers do the same for purchase orders.
 
 > [!NOTE]
-> This page describes how to grant certain permissions to users based on their membership of a security group. To control whether users can access an environment based on their membership of a security group, see [Manage Access to Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access).
+> This article describes how to grant certain permissions to users based on their membership of a security group. To control whether users can access an environment based on their membership of a security group, see [Manage Access to Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access).
 
 ## Business Central online and on-premises
 

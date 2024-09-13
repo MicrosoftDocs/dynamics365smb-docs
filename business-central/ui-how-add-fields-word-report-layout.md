@@ -44,11 +44,11 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
      For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).  
   
-2. Show the **Developer** tab in the ribbon of Microsoft Word.  
+2. Display the **Developer** tab in the ribbon of Microsoft Word.  
   
-     By default, the **Developer** tab is not shown in the ribbon. For more information, see [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
+     By default, the **Developer** tab is not shown in the ribbon. Learn more at [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
-3. On the **Developer** tab, choose **XML Mapping Pane**.  
+3. On the **Developer** tab, select **XML Mapping Pane**.  
   
 4. In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for [!INCLUDE[prod_short](includes/prod_short.md)] report, which is typically last in the list. The name of the custom XML part has the following format:  
   

@@ -37,7 +37,7 @@ With this concept in mind. there are basically three or four tasks involved in s
 
 ## Get started
 
-Depending on what your situation is, the actual tasks will vary. Use the following table to help you get started.
+Depending on what your situation is, the actual tasks vary. Use the following table to help you get started.
 
 |What do you want to do?|See...|
 |-----------------------|------|
@@ -50,7 +50,7 @@ Depending on what your situation is, the actual tasks will vary. Use the followi
 
 ## <a name="decide"></a>Decide what type of layout you want
 
-The first thing when creating a layout is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want. You can choose either Word, Excel, or RDLC. The layout type will depend on how you want the generated report to look. Plus, it depends on your knowledge of application software for creating the layouts, like Word, Excel, and SQL Server Report Builder.
+The first thing when creating a layout is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want. You can choose either Word, Excel, or RDLC. The layout type depends on how you want the generated report to look. Plus, it depends on your knowledge of application software for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
 <!--
 * The process for setting up Word, Excel, and RDLC layouts on reports is the same. The main difference is in the way you modify the layouts. Excel and Word layouts are typically easier to create and modify than RDLC layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder, which targets more advanced users.-->
@@ -69,11 +69,11 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 ## <a name="create"></a>Create a new layout
 
-There are two ways to create a new layout from an existing layout. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
+There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout. You can use a copy by either saving the existing layout directly as a copy or exporting it as a copy and then importing it a new layout.
 
 ### [Save existing as copy](#tab/copy)
 
-Copying is a quick way to create a new layout that's the same as an existing layout. Once you have the copy, you'll make modifications by exporting the layout. 
+Copying is a quick way to create a new layout that's the same as an existing layout. Once you have the copy, you can make modifications by exporting the layout. 
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
@@ -131,12 +131,6 @@ If you want to see how the report looks with the new layout, select the layout i
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select any layout in the list that is for the same report that you want use for the new layout.
 1. Select **New**.
-1. Ithe layout in the list that is for the same reprotyou want a copy of for your new layout, then choose the **Export Layout** action.
-
-   The layout file is downloaded to your device. 
-
-    > [!TIP]
-    > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 1. In **Add New Layout for a Report** page, fill in the following fields:
 
    |Field|Description|Mandatory|

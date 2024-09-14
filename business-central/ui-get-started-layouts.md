@@ -51,9 +51,6 @@ Depending on what your situation is, the actual tasks vary. Use the following ta
 
 The first thing when creating a layout is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want. You can choose either Word, Excel, or RDLC. The layout type depends on how you want the generated report to look. Plus, it depends on your knowledge of application software for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
-<!--
-* The process for setting up Word, Excel, and RDLC layouts on reports is the same. The main difference is in the way you modify the layouts. Excel and Word layouts are typically easier to create and modify than RDLC layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder, which targets more advanced users.-->
-
 * Excel layouts are generally the easiest to create and modify because the features for summarizing data, adding graphics, and styling, are common Excel features.
 
 * Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
@@ -68,7 +65,7 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 ## <a name="create"></a>Create a new layout
 
-There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout, which you can do by either saving an existing layout directly as a copy or exporting it and then importing it a new layout.
+There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout, which you can do by either saving an existing layout directly as a copy or exporting it and then importing it a new layout. Another, more advanced way, is to create a layout from scratch using a blank.
 
 ### [Save existing as copy](#tab/copy)
 
@@ -126,6 +123,8 @@ Copying is a quick way to create a new layout that's the same as an existing lay
 If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
 
 ### [Create from blank](#tab/blank)
+
+When you create a layout from a blank, you need to design it entirely. The layout file provides all the report fields that you can add and arrange as needed.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select any layout in the list that is for the same report that you want use for the new layout.

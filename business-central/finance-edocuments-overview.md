@@ -32,6 +32,7 @@ The documentation explains e-documents in detail. It shows the capabilities of t
 | [Use e-documents in purchase](finance-how-use-edocuments-purchase.md) | Learn how to use e-documents functionality for purchase invoices and orders, their statuses, logs, and action messages.|
 | [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Learn how to extend e-documents functionality with specific local or industry requirements by creating more apps on top of this one. |
 | [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md) | Learn how to use external access points for automation in delivering and receiving your e-documents. |
+| [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md) | Learn how to set up E-Documents parameters and credentials with specific external endpoints. |
 | [Exchanging Data Electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents such as bank files and currency exchange rates. | 
 | [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md) | Learn how to use Copilot to improve your efficiency when working with e-documents. |
 

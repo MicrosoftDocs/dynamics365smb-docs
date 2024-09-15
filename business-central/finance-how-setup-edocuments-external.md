@@ -20,30 +20,9 @@ Before you use the functionality that's described in this article, install the *
 
 ## Set up the connection
 
-To begin your setup, follow the steps in [E-document core app](finance-how-setup-edocuments.md). After you complete those steps, return to this article, and complete the following steps:
+[!INCLUDE [e-documents connectors](edocuments-connectors-include.md)]
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. In the **Service Integration** field, select one of the integration codes that are offered for the endpoint service setup.
-3. Select **Setup Service Integration**.
-4. On the **E-Document External Connection Setup** page, select **Request Authorization Code**. You're redirected to the external service authorization webpage and prompted for your sign-in details.
-5. Copy the authorization code into the **Enter Authorization Code** field.
-6. Select **Refresh Access Token** to make sure that you can refresh the token.
-
-    > [!NOTE]
-    > This connection requires communication with external service providers that might be subject to additional payment and require contracts with them. To get all the necessary credentials, contact the service providers.
-
-7. On the **E-Document External Connection Setup** page, fill in the following fields:
-
-    | Field name | Description |
-    |---|---|
-    | FileAPI URL | Specify the file API URL. |
-    | Fileparts URL | Specify the fileparts URL. |
-    | DocumentAPI URL | Specify the document API URL. |
-    | Company ID | Specify the company ID. |
-    | Send Mode | Specify the send mode. You can select **Production**, **Test**, or **Certification**. |
-
-    > [!NOTE]
-    > Ask your service provider for all the previous details to establish a connection with their access point.
+Based on the endpoint service provider you chose; the next steps can be different. You can find here details about set up parameters for [all available service providers](finance-edocuments-connectors.md).
 
 ## Set up company information
 

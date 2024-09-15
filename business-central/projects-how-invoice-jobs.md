@@ -18,7 +18,7 @@ Invoicing can be done after the project is finished or at certain intervals duri
 You can invoice:
 
 * Multiple projects using a **Project Create Sales Invoice** task.
-* Whole projects, some projects withing project, or individual project planning lines using the relevant action in the project pages.
+* Whole projects, some projects within project, or individual project planning lines using the relevant action in the project pages.
 * Combine multiple project planning lines from different projects into a single sales invoice using **Get Project Planning Lines** action on the **Sales Invoice** page.
 
 ## To create multiple project sales invoices

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 12/13/2023
+ms.date: 09/16/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -20,9 +20,9 @@ Before you use the functionality that's described in this article, install the *
 
 ## Set up the connection
 
-[!INCLUDE [e-documents connectors](edocuments-connectors-include.md)]
+[!INCLUDE[e-documents connectors](edocuments-connectors-include.md)]
 
-Based on the endpoint service provider you chose; the next steps can be different. You can find here details about set up parameters for [all available service providers](finance-edocuments-connectors.md).
+Based on the endpoint service provider you chose,, the next steps might be different. You can find details about set up parameters for all available service providers [here](finance-edocuments-connectors.md).
 
 ## Set up company information
 
@@ -59,16 +59,16 @@ Microsoft wants to encourage access point providers to add their connectors on t
 
 Currently, Pagero is the only access point provider that's covered by this system. Microsoft has no contractual obligation with Pagero. Therefore, you must make a contract with them to get all the necessary credentials.
 
-We will update this list as we get new e-document exchange access point providers.
+We'll update this list as we get new e-document exchange access point providers.
 
 ## See also
 
-[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
-[How to use e-documents in Business Central](finance-how-use-edocuments.md)  
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Financial Management](finance.md)  
-[Invoice Sales](sales-how-invoice-sales.md)  
-[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)    
+[How to use e-documents in Business Central](finance-how-use-edocuments.md)    
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Financial Management](finance.md)    
+[Invoice Sales](sales-how-invoice-sales.md)    
+[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

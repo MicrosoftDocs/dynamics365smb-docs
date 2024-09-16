@@ -64,7 +64,7 @@ You can't add an item as variant if the **UOM as Variant** toggle is turned on o
 
 Shopify always creates a variant, even if you haven’t defined any. This variant is called **Default title**. When you add more variants via Shopify Admin, this technical variant entry is deleted. The Shopify connector runs similar logic. When the first item is added to Shopify as a product, the Default title variant is added to Shopify and to Business Central. When you run the **Add Item as Shopify Variants** action, the selected item is added as a variant and the default variant is deleted in both Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-When adding item as a variant, the connector won’t search by SKU or Barcode.
+When it adds an item as a variant, the connector doesn’t search by SKU or barcode.
 
 ### Product information overview
 
@@ -72,7 +72,7 @@ When adding item as a variant, the connector won’t search by SKU or Barcode.
 |---------|---------|---------|
 |Shopify: Flat product list.
 Only products, no variants.     | Supported<br><br>Import into Business Central<br><br>
-Use barcode or SKU field in the Shopify product to point to an item in Business Central.<br><br>Export items from Business Central via the **Add Item to Shopify** action.        | Not supported<br><br>You can manually create products/items in both system independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.        |
+To point to an item in Business Central, use the barcode or SKU fields on the Shopify product.<br><br>Export items from Business Central via the **Add Item to Shopify** action.        | Not supported<br><br>You can manually create products/items in both system independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.        |
 |Shopify: Products with variants     | Supported<br><br>We recommend that you select **Item No.**, **Vendor Item No.**, or **Barcode** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when a product/variant is imported from Shopify it finds the corresponding item in Business Central.<br><br>Export from Business Central via the new **Add Items as Shopify Variants** action.        | Supported<br><br>Recommendation is to select **Item No.+Variant Code** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when the product or variant is imported from Shopify it finds the corresponding item or variant in Business Central.<br><br>Export from Business Central via the **Add Item to Shopify** action.        |
 
 To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating item variants in Business Central](/dynamics365/business-central/shopify/synchronize-items#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
@@ -87,7 +87,7 @@ There are multiple ways to export items to Shopify:
 
 No matter how you export items, specific item information is transferred to the Shopify products list depending on your choice of settings for item synchronization.
 
-Before it exports an item to Shopify, the connector checks whether an item already exists. First, it checks whether there's a product or variant with a barcode, because it's defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is populated, the connector checks whether there's a product or variant with the SKU populated. To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
+Before it exports an item to Shopify, the connector checks whether an item already exists. First, it checks whether there's a product or variant with a barcode, because it's defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is filled in, the connector checks whether there's a product or variant with a SKU. To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
 > [!IMPORTANT]
 > The product is added only to the **Online Store** sales channel. You need to publish products to other sales channels, like Shopify POS, from Shopify.
@@ -96,7 +96,7 @@ You manage the process of exporting items using these settings:
 
 |Field|Description|
 |------|-----------|
-|**Sync Item Extended Text**|Select this field to sync the extended text of the item. Because it will be added to the **Description** field, it can contain HTML code. |
+|**Sync Item Extended Text**|Select this field to sync the extended text of the item. Because it's added to the **Description** field, it can contain HTML code. |
 |**Sync Item Attributes**|Select this field to sync the item attributes. Attributes are formatted as a table and included in the **Description** field in Shopify.|
 |**Sync Item Marketing Text**|Select this field to sync marketing text for the item. Although marketing text is a kind of description, it's different from an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is more rich and descriptive. Its purpose is to add marketing and promotional content. This text can then be published with the item in Shopify. There are two ways to create the marketing text. Use Copilot, which suggests AI-generated text for you, or start from scratch.|
 |**Language Code**|Select this field if you want the translated versions used for title, attributes, and extended text.|
@@ -104,9 +104,9 @@ You manage the process of exporting items using these settings:
 |**SKU Field Separator**|Define a separator for the **Item. No + Variant Code** option.|
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section.|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side. <br>If **Can Update Shopify Products** is enabled, changes in the **Default Inventory Policy** field will be propagated to Shopify after next sync for all products and variants listed in the **Shopify Products** page for selected shop.|
-|**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.<br>**Can Update Shopify Products** doesn't impact synchronization of prices, images or inventory levels, which are configured by independent controls.<br>If **Can Update Shopify Products** is enabled, the following fields on the Shopify side will be updated on the product and, if needed, the variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, and **Description** on the product will be also updated if the exported values aren't empty. For description, this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, and **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If the product uses variants, then the variant is added or removed if necessary. <br>If the product on Shopify is configured to use a variant matrix that combines two or more options, the Shopify Connector can't create a variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)] there's no way to define an option matrix—that's why the connector uses the **Variant Code** as the only option. However, Shopify expects several options and refuses to create a variant if information about a second and other options is missing. |
+|**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.<br>**Can Update Shopify Products** doesn't impact synchronization of prices, images, or inventory levels, which are configured by independent controls.<br>If **Can Update Shopify Products** is enabled, the following fields on the Shopify side are updated on the product and, if needed, the variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, and **Description** on the product are also updated if the exported values aren't empty. For description, this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, and **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If the product uses variants, then the variant is added or removed if necessary. <br>If the product on Shopify is configured to use a variant matrix that combines two or more options, the Shopify Connector can't create a variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can't define an option matrix, so the connector uses the **Variant Code** as the only option. However, Shopify expects several options and refuses to create a variant if information about other options is missing. |
 |**UoM as Variant**| Choose this option if you want some options to be exported as imported as units of measure instead of variants. Personalize the page to add the field. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
-|**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify which option contains variants that represent units of measure. The default valie is *Unit of Measure*. Personalize the page to add the field.|
+|**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify which option contains variants that represent units of measure. The default value is **Unit of Measure**. To add the field, personalize the page.|
 
 > [!NOTE]
 > When you want to export many items and variants, some might be blocked. You can't include blocked items and variants in price calculations, so they aren't exported. The Connector skips those items and variants, so you don't need to filter them on the **Add Item to Shopify** request page.
@@ -122,17 +122,17 @@ The following table outlines the differences between options in the **SKU Mappin
 |Option|Effect on mapping|Effect on creation|
 |------|-----------------|------------------|
 |**Blank**|The SKU field isn't used in the item-mapping routine.|No effect on the creation of the item.<br>This option prevents the creation of variants. When in a sales order, only the main item is used. A variant can still be mapped manually on the **Shopify Product** page.|
-|**Item No.**|Choose if the SKU field contains the item number.|No effect on the creation of an item without variants. For an item with variants, each variant is created as a separate item.<br>If Shopify has a product with two variants and their SKUs are '1000' and '2000', [!INCLUDE[prod_short](../includes/prod_short.md)] will create two items numbered '1000' and '2000'.|
+|**Item No.**|Choose if the SKU field contains the item number.|No effect on the creation of an item without variants. For an item with variants, each variant is created as a separate item.<br>If Shopify has a product with two variants and their SKUs are '1000' and '2000', [!INCLUDE[prod_short](../includes/prod_short.md)] creates two items numbered '1000' and '2000'.|
 |**Variant Code**|The SKU field isn't used in the item-mapping routine.|No effect on creation of the item. When an item variant is created, the value of the SKU field is used as a code. If the SKU is empty, a code is generated using the **Variant Prefix** field.|
 |**Item No. + Variant Code**|Select this option if the SKU field contains an item number and the item variant code is separated by the value defined in the **SKU Field Separator** field.|When an item is created, the first part of the value of the SKU field is designated **No.**. If the SKU field is empty, an item number is generated using the number series defined in the **Item Template Code** or **Item Nos.** field of the **Inventory Setup** page.<br>When an item is created, the variant function uses the second part of the value of the SKU field as **Code**. If the SKU field is empty, a code is generated using the **Variant Prefix** field.|
-|**Vendor Item No.**|Choose if the SKU field contains the vendor item number. In this case, the **Item Vendor No.** isn't used on the **Item Card** page; rather the **Vendor Item No.** from the **Item Vendor Catalog** is used. If the found *Item Vendor Catalog* record contains a variant code, that code is used to map the Shopify variant.|If a corresponding vendor exists in [!INCLUDE[prod_short](../includes/prod_short.md)], the SKU value will be used as the **Vendor Item No.** on the **Item Card** page and as the **Item Reference** of the *vendor* type. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
-|**Barcode**|Choose if the SKU field contains a barcode. A search is performed among **Item References** of the *barcode* type. If the found item reference record contains a variant code, that variant code is used to map the Shopify variant.|No effect on the creation of the item. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
+|**Vendor Item No.**|Choose if the SKU field contains the vendor item number. In this case, the **Item Vendor No.** isn't used on the **Item Card** page; rather the **Vendor Item No.** from the **Item Vendor Catalog** is used. If the *Item Vendor Catalog* record contains a variant code, that code is used to map the Shopify variant.|If a corresponding vendor exists in [!INCLUDE[prod_short](../includes/prod_short.md)], the SKU value is used as the **Vendor Item No.** on the **Item Card** page and as the **Item Reference** of the *vendor* type. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
+|**Barcode**|Choose if the SKU field contains a barcode. A search is performed among **Item References** of the *barcode* type. If the item reference record contains a variant code, that variant code is used to map the Shopify variant.|No effect on the creation of the item. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
 
 The following table outlines the effects of the **Barcode** field.
 
 |Effect on mapping|Effect on creation|
 |-----------------|------------------|
-|A search is performed on the **Item References** containing a barcode type as the value in the **Barcode** field in Shopify. If the found item reference record contains a variant code, that variant code is used to map the Shopify variant.|The barcode is saved as **Item Reference** for the item and item variant.|
+|A search is performed on the **Item References** containing a barcode type as the value in the **Barcode** field in Shopify. If the item reference record contains a variant code, that variant code is used to map the Shopify variant.|The barcode is saved as **Item Reference** for the item and item variant.|
 
 > [!NOTE]  
 > You can trigger mapping of the selected products/variants by choosing **Try Find Product Mapping** or of all the imported unmapped products by choosing **Try Find Mappings**.
@@ -142,15 +142,15 @@ The following table outlines the effects of the **Barcode** field.
 |Shopify|Source when exported from [!INCLUDE[prod_short](../includes/prod_short.md)]|Target when imported to [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
 |Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
-|Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation will be used instead of the description.|**Description**|
-|Variant title | **Variant Code**.<br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** is not. Not unique descriptions will lead to issues during product export.|**Description** of variant|
+|Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation is used instead of the description.|**Description**|
+|Variant title | **Variant Code**.<br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** isn't. Descriptions that aren't unique cause issues during product export.|**Description** of variant|
 |Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Media|**Image**. Learn more in the [Sync item images](synchronize-items.md#sync-item-images) section|**Image**|
-|Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**. The price is only imported to newly created items, but it won't be updated in later synchronizations.|
+|Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**. The price is only imported to newly created items and doesn't update in later synchronizations.|
 |Compare at price|The calculation of the price without a discount. If the value is less than or equal to **Price**, the connector sends 0 (null) instead of the actual value.|Not used.|
-|Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items, and it won't be updated in later synchronizations.|
+|Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items and doesn't update in later synchronizations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|
 |Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfillment Services** has **Default Product Location** field enabled, inventory is stocked and shipped from **Business Central Fulfillment Services**. Otherwise, the Shopify primary location or multiple locations are used. Learn more in the [Two approaches to manage fulfillments](synchronize-items.md#two-approaches-to-manage-fulfillments) section.| Not used.|
@@ -170,20 +170,21 @@ If the **To Shopify** option is selected in the **Sync Item** field, assigned ta
 
 ### Unit of measure as variant
 
-Shopify doesn't support multiple units of measure. If you want to sell same product as for example piece and set and use different prices or discounts, you need to create unit of measure as product variants.
-Shopify connector can be configured to export units of measure as variants, or import variants as units of measure.
+Shopify doesn't support multiple units of measure. If you want to sell the same product as, for example, piece, and set and use different prices or discounts, you must create units of measure as product variants.
 
-To enable this capability use the **UoM as Variant** and **Variant Option Name** fields in the **Shopify Shop Card**. The fields are hidden by default; use personalization to add them to the page.
+You can configure the Shopify connector to export units of measure as variants, or import variants as units of measure.
+
+To enable this capability, use the **UoM as Variant** and **Variant Option Name** fields on the **Shopify Shop Card** page. The fields are hidden by default. To add them to the page, use personalization.
 
 **Unit of measure as variant remarks**
 
 * When dealing with matrix of variants, for example Color and UoM and you want to import products into [!INCLUDE[prod_short](../includes/prod_short.md)], you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that **SKU** field in Shopify has same value for all units of measure and include both item no. and variant code.
-* In [!INCLUDE[prod_short](../includes/prod_short.md)] availability is calculated per item/item variant and not by unit of measure. It means same availability will be assigned to each variant representing unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when avaialble quantity in Shopify is not accurate. Example: Item that is sold in PCS and Box of 6. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 PCS. Item exported to Shopify as Product with two variants. Once inventory sync executed the inventory level in Shopify will be 6 for varaint PCS and 1 for variant BOX. Buyer can explore only store and see that product is available in both options and place order for 1 BOX. The next buyer will see that BOX is not avaialble, but there are still 6 PCS. This will be fixed with the next inventory sync.
-* You won't be able to add Unit of measure option to existing products with variants (specific result depends on other setting, like **SKU Mapping**).
+* In [!INCLUDE[prod_short](../includes/prod_short.md)], availability is calculated per item/item variant and not by unit of measure. It means the same availability is assigned to each variant representing the unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when available quantity in Shopify isn't accurate. Example: Item that is sold in PCS and Box of six. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is six PCS. Item exported to Shopify as Product with two variants. After inventory syncs, the inventory level in Shopify is six for variant PCS and one for variant BOX. The buyer can explore the store and see that product is available in both options and place an order for one BOX. The next buyer can see that BOX isn't available, but there are still six PCS. The value will update with the next inventory sync.
+* You can't add a unit of measure option to existing products with variants (specific result depends on other settings, such as **SKU Mapping**).
 
 ### URL and Preview URL
 
-An item added to Shopify or imported from Shopify might have the **URL** or **Preview URL** populated. The **URL** field will be empty if the product isn't published to the online store—for example, because its status is draft. The **URL** will be empty if the store is password protected—for example, because this is a development store. In most cases you can use the **Preview URL** to check how the product will look once published.
+An item added to Shopify or imported from Shopify might have the **URL** or **Preview URL** populated. The **URL** field is blank if the product isn't published to the online store—for example, because its status is draft. The **URL** is empty if the store is password protected—for example, because it's a development store. In most cases, you can use the **Preview URL** to check how the product looks when you publish it.
 
 ## Run item synchronization
 
@@ -193,7 +194,7 @@ Full or partial item synchronization can be performed in many different ways.
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Add Items** action.
-3. In the **Shop Code** field, enter the code. If you open the **Shopify Product** window from the **Shop Card** page, the shop code will be populated automatically.
+3. In the **Shop Code** field, enter the code. If you open the **Shopify Product** window from the **Shop Card** page, the shop code is filled in automatically.
 4. If you configured image and inventory sync, you can include them in the same process. Including them in the same process is convenient for demo scenarios or when dealing with smaller amounts of data.
 5. Define filters on items as required. For example, you can filter by the item number or item category code.
 6. Choose **OK**.
@@ -229,7 +230,7 @@ Deletion:
 
 Based on the value in **Action for Removed Products** on the **Shopify Shop Card** page, the product gets updated in Shopify when the record is deleted from the **Shopify Products** page.
 
-* **Blank**: Nothing will happen. If necessary, you'll need to perform the required action from the **Shopify admin**.
+* **Blank**: Nothing happens. If needed, perform the required action from the **Shopify admin**.
 * **Status to Draft**: The status of the product in Shopify is set to *Draft*.
 * **Status to Archived**: The product is archived in Shopify.
 
@@ -241,7 +242,7 @@ Synchronization of images can be configured for synchronized items. Choose from 
 * **To Shopify**: Pictures of items are exported to Shopify.
 * **From Shopify**: Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-Image synchronization can be initialized in the two ways described below.
+Image synchronization can be initialized in the two ways described in the next sections in this article.
 
 ### Sync product images from the Shopify shop page
 
@@ -256,26 +257,26 @@ Image synchronization can be initialized in the two ways described below.
 
 ### Image synchronization remarks
 
-* When you export images from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the images replace those you exported previously. The earlier images are no longer available.
-* If you delete an image in [!INCLUDE[prod_short](../includes/prod_short.md)], the image in Shopify isn't also deleted. You'll need to manually delete the old images in the **Shopify Admin**.
+* When you export images from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the images replace the ones you exported previously. The earlier images are no longer available.
+* If you delete an image in [!INCLUDE[prod_short](../includes/prod_short.md)], the image in Shopify isn't also deleted. You need to manually delete the old images in the **Shopify Admin**.
 * Images you export to Shopify must comply with Shopify's requirements. Otherwise, you can't import them. To learn more about media requirements, go to [product media types on help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## Sync prices with Shopify
 
-The Connector can send one main price and one non-discounted price to Shopify. The prices show in the **Price** and **Compare at Price** fields on the Shopify Product (Shopify Variant) page.
+The Connector can send one main price and one nondiscounted price to Shopify. The prices show in the **Price** and **Compare at Price** fields on the Shopify Product (Shopify Variant) page.
 
 The following table describes the settings you can use to manage the process of defining and exporting prices.
 
 |Field|Description|
 |------|-----------|
-|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used. The Connector won't use the customer price group from the customer.|
-|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. The Connector won't use the customer discount group from the customer.|
+|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used. The Connector doesn't use the customer price group from the customer.|
+|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. The Connector doesn't use the customer discount group from the customer.|
 |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
 |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).|
-|**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
+|**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. Use your group for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
 |**Currency Code**|Enter a currency code only if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.|
 
-You can export prices for synchronized items in the two ways described below.
+You can export prices for synchronized items in the ways described in the following sections in this article.
 
 ### Sync prices from the Shopify products page
 
@@ -284,9 +285,9 @@ You can export prices for synchronized items in the two ways described below.
 
 ### Price calculation remarks
 
-* When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
+* When it determines a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
 * To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
-* The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] has changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action won't have any impact on the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. The **Compare at Price** is updated only if the main price has changed.
+* The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action doesn't affect the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. The **Compare at Price** is updated only if the main price changed.
 
 ### Price synchronization for B2B
 
@@ -299,13 +300,13 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
 
-You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogues don't contain products. You manage catalog content in Shopify Admin.
+You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs don't contain products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select entry for which  you want to define and export prices.
-3. Use available settings to configure how prices will be defined. The settings are similar to ones used for synchronization of **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
+3. Use available settings to configure how you define prices. The settings are similar to ones used for synchronization of **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
 4. Enable the **Sync Prices** toggle.
 5. Choose **Sync Prices** and wait until synchronization of prices is completed.
 
@@ -326,7 +327,7 @@ Inventory synchronization can be configured for already synchronized items. Ther
 6. Select the stock calculation method to use for the selected Shopify locations.
 7. Enable **Default Product Location** if you want location to be used for creation of inventory records and to participate in the inventory synchronization.
 
-You can initialize inventory synchronization in the two ways described below.
+You can initialize inventory synchronization in the ways described in the following sections in this article.
 
 ### Sync inventory from the Shopify shop page
 
@@ -343,13 +344,13 @@ You can initialize inventory synchronization in the two ways described below.
 
 * There are two standard stock calculation methods: **Projected Available Balance at date** and **Free Inventory (Not reserved)**. With extensibility, you can add more options. To learn more about extensibility, go to [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * You can inspect the stock information received from Shopify on the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's one record per location.
-* If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then the stock will be updated in Shopify.
-* When you add a new location in Shopify, you also need to add inventory records for it. Shopify doesn't do that automatically for existing products and variants and the connector won't synchronize inventory levels for such items in the new location. To learn more, go to [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
+* If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], the stock updates in Shopify.
+* When you add a new location in Shopify, you also need to add inventory records for it. Shopify doesn't do that automatically for existing products and variants, and the connector doesn't synchronize inventory levels for such items in the new location. To learn more, go to [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * Both **Business Central Fulfillment Services** and normal locations are supported and can be used for shipping and inventory.
 
 #### Example of calculation of projected available balance
 
-There are 10 pieces of item A available on hand and two outstanding sales orders. One for Monday with quantity *One* and one for Thursday with quantity *Two*. Depending on when you sync inventory, the system will update the stock level in Shopify with different quantities:
+There are 10 pieces of item A available on hand and two outstanding sales orders. One for Monday with quantity *One* and one for Thursday with quantity *Two*. Depending on when you sync inventory, the stock level in Shopify updates with different quantities.
 
 |When sync inventory is run|Value used to update stock level|Comment|
 |------|-----------------|-----------------|
@@ -369,13 +370,13 @@ There are 10 pieces of item A available on hand and three outstanding sales orde
 There are two ways to deal with fulfillment in Shopify:
 
 * Shopify "built-in" fulfillment and inventory tracking
-* Third-party fulfillment and inventory tracking
+* Third party fulfillment and inventory tracking
 
-Inventory for each product in Shopify can be either stocked by Shopify or by 3PL.
+Inventory for each product in Shopify can be stocked by Shopify or by 3PL.
 
-If you use Shopify fulfillment, then you can also define multiple locations in Shopify. Once order is created, Shopify selects location based on availability and priority. You can also specify on which location(s) you plan to track specific product, for example never sell from location *ShowRoom*.
+If you use Shopify fulfillment, then you can also define multiple locations in Shopify. Once order is created, Shopify selects location based on availability and priority. You can also specify the locations where you plan to track a specific product, for example never sell from location *ShowRoom*.
 
-If you use 3PL physical handling is taken care of by 3PL provider, so locations are not needed. For 3PL the SKU field becoming mandatory.
+If you use 3PL physical handling is taken care of by 3PL provider, so locations aren't needed. For 3PL the SKU field becoming mandatory.
 
 When you decide on which location to track item, Shopify creates records in the **Inventory Levels** table, which can be updated manually with inventory availability.
 
@@ -383,14 +384,14 @@ The connector supports both modes. It can send inventory to multiple Shopify loc
 
 From the [!INCLUDE[prod_short](../includes/prod_short.md)] perspective, when you create item and want to send it to Shopify you also want to:
 
-* Use **Default Product Location** toggle to specify if this item will be fulfilled by Shopify fulfillment or by 3PL. There is always **Business Central Fulfillment Service**, but there can be more fulfillments services if more apps are installed. You can enable **Default Product Location** only in one record if you want to use fulfillment service. 
-* use **Default Product Location** toggle to specify which locations you want to use to track inventory. You can turn on **Default Product Location** for multiple locations where **Is Fulfillment Service** is disabled. Notice that inventory will be always tracked for primary location.
+* Use **Default Product Location** toggle to specify whether the item is fulfilled by Shopify fulfillment or by 3PL. There's always **Business Central Fulfillment Service**, but there can be more fulfillments services if more apps are installed. You can enable **Default Product Location** only in one record if you want to use a fulfillment service.
+* use **Default Product Location** toggle to specify which locations you want to use to track inventory. You can turn on **Default Product Location** for multiple locations where **Is Fulfillment Service** is disabled. Note that inventory is always tracked for a primary location.
 
 #### What's the difference?
 
 Shopify fulfillment is useful when using Shopify POS and there are multiple physical stores. You want employees in the physical store to know their current inventory. In this case, you create multiple locations in Shopify, multiple locations in [!INCLUDE[prod_short](../includes/prod_short.md)], and activate a **Default Product Location** for all these locations.  
 
-If logistics is handled in [!INCLUDE[prod_short](../includes/prod_short.md)], where it can have as many locations as needed representing distribution centers, you don't create locations in Shopify, the connector creates Business Central Fulfillment Services automatically and you can link inventory via location filters from several locations to one fulfillment services record. As a result, in Shopify there's no information about where goods are sent from—it only has tracking information, while in [!INCLUDE[prod_short](../includes/prod_short.md)], you can select based on availability and proximity to the destination.
+If you handle logistics in [!INCLUDE[prod_short](../includes/prod_short.md)], where you can have many locations, you don't create locations in Shopify. The connector creates Business Central Fulfillment Services automatically and you can link inventory via location filters from several locations to one fulfillment services record. As a result, in Shopify there's no information about where goods are sent from—it only has tracking information, while in [!INCLUDE[prod_short](../includes/prod_short.md)], you can select based on availability and proximity to the destination.
 
 #### Example of using Default Product Location toggle
 
@@ -402,13 +403,13 @@ After you choose the **Get Shopify Locations** action in the **Shopify Locations
 |Second| | |
 |Business Central Fulfillment Service|**Yes**| |
 
-Let's review the impact of enabling the Default Product Location toggle:
+Let's review the affect of enabling the **Default Product Location** toggle:
 
-|Name of locations where Default Product Location toggle is turned on|Impact on how product is created in Shopify|
+|Name of locations where Default Product Location toggle is turned on|Effect on how product is created in Shopify|
 |------|-----------------|
-|Main| Inventory will be stocked at: Multiple locations; Selected locations: Main (primary) |
-|Main and Second| Inventory will be stocked at: Multiple locations; Selected locations: Main and Second |
-|Business Central Fulfillment Service|Inventory will be stocked at: Business Central Fulfillment Service; Selected locations: (App) Business Central Fulfillment Service|
+|Main| Inventory is stocked at: Multiple locations; Selected locations: Main (primary) |
+|Main and Second| Inventory is stocked at: Multiple locations; Selected locations: Main and Second |
+|Business Central Fulfillment Service|Inventory is stocked at: Business Central Fulfillment Service; Selected locations: (App) Business Central Fulfillment Service|
 |Business Central Fulfillment Service and Main| Error: You can't use standard Shopify Locations with FulFillment Service Locations|
 
 ## See also

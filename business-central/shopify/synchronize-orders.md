@@ -322,6 +322,17 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 > [!Note]
 > The return locations, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
 
+### Use a default location for returns
+
+You can use the original return location from Shopify for refunds and returns. The location helps ensure that locations are accurate on credit memos, which reduces manual adjustments and streamlines the returns process.
+
+To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original > Default Location**.
+
+The **Return Location Priority** field offers the following options:
+
+* **Default Return Location**: This is the default option. It uses the value from the Default Return Location field when creating sales credit memos.
+* **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
+
 ## Gift cards
 
 In the Shopify shop you can sell gift cards, which can be used to pay for real products.

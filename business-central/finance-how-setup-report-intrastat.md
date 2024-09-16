@@ -304,7 +304,7 @@ To use this automated feature, you must enable item tracking for these items, ei
 
 Once you select the item that has an **Item Tracking Code** enabled in the purchase line, you must follow the steps.  
 
-1. Om the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
+1. On the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
 2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.**, and entering value in **Quantity (Base)** field, choose one of the following options:  
    1. The **Lot No. Information Card** action if you're using lots.   
    2. The **Serial No. Information Card** action if you're using serial numbers.  

@@ -211,7 +211,7 @@ Starting in February 2022, new reports that use [!INCLUDE [prod_short](includes/
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
-## See Also
+## Related information
 
 [Enabling Your Business Data for Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  

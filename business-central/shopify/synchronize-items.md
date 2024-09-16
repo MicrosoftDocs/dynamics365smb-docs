@@ -52,6 +52,31 @@ First, import items either in bulk from Shopify or together with orders to add t
 |**UoM as Variant**| Choose this option if you want all item units of measure to be exported as separate variants. To add the field, personalize the page. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
 |**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify under which option to add variants that represent units of measure. The default value is *Unit of Measure*. Use personalization to add the field to the page.|
 
+### Import Shopify products as item variants
+
+If your products in Shopify have variants, you can import the variants to your items in [!INCLUDE [prod_short](../includes/prod_short.md)]. On the **Shopify Products** page, on the **Variants** FastTab, choose **Add Items as Shopify Variants**.
+
+Items are added as Shopify variants under the existing product option. For example, color, material, or title, if the product only had the default variant. If the Shopify product has more than one option, you can't add the item as a Shopify variant.
+
+You can add item as variants if it has its own item variants, however, only the item itself is added, and not item variants.
+
+You can't add an item as variant if the **UOM as Variant** toggle is turned on on the **Shopify Shop Card** page.
+
+Shopify always creates a variant, even if you haven’t defined any. This variant is called **Default title**. When you add more variants via Shopify Admin, this technical variant entry is deleted. The Shopify connector runs similar logic. When the first item is added to Shopify as a product, the Default title variant is added to Shopify and to Business Central. When you run the **Add Item as Shopify Variants** action, the selected item is added as a variant and the default variant is deleted in both Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
+
+When adding item as a variant, the connector won’t search by SKU or Barcode.
+
+### Product information overview
+
+|Product Information  |Business Central: Flat item list.<br><br>Only items, no variants  |Business Central: Items with item variants  |
+|---------|---------|---------|
+|Shopify: Flat product list.
+Only products, no variants.     | Supported<br><br>Import into Business Central<br><br>
+Use barcode or SKU field in the Shopify product to point to an item in Business Central.<br><br>Export items from Business Central via the **Add Item to Shopify** action.        | Not supported<br><br>You can manually create products/items in both system independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.        |
+|Shopify: Products with variants     | Supported<br><br>We recommend that you select **Item No.**, **Vendor Item No.**, or **Barcode** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when a product/variant is imported from Shopify it finds the corresponding item in Business Central.<br><br>Export from Business Central via the new **Add Items as Shopify Variants** action.        | Supported<br><br>Recommendation is to select **Item No.+Variant Code** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when the product or variant is imported from Shopify it finds the corresponding item or variant in Business Central.<br><br>Export from Business Central via the **Add Item to Shopify** action.        |
+
+To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating item variants in Business Central](/dynamics365/business-central/shopify/synchronize-items#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
+
 ## Export items to Shopify
 
 There are multiple ways to export items to Shopify:

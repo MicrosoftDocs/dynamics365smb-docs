@@ -1,13 +1,14 @@
 ---
 title: Synchronize and transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
-ms.date: 06/06/2023
+ms.date: 09/16/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134, 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Transactions and payouts
@@ -118,6 +119,56 @@ The remaining balance on the G/L or bank account that represents your account at
 Issues:
 
 1. You can create multiple G/L or bank accounts if you're dealing with multiple payment providers. However, sales orders in [!INCLUDE[prod_short](../includes/prod_short.md)] support only one payment method code, which makes it difficult to handle cases when a buyer uses multiple payment methods for an order.
+
+## Reconcile payments in Shopify with invoices
+
+When a customer completes their checkout in the online store, the information about their payment is saved as a Transaction. There can be multiple transactions linked to an order— for example, a customer might use a gift card to pay some of the cost and then use a credit card or PayPal for the remaining amount. The payment transactions in Shopify synchronize with the orders and you can view them on the Shopify Orders page.
+
+There are several options for processing imported payment transactions in Business Central. This release offers an extra option that's helpful in cases where several payment methods are involved. The gift card scenario is probably the most common, but there are also store credits, which were recently added to the Shopify admin.
+
+### Sample scenario
+
+This sample scenario involves the following parties:
+
+* The buyer, who is the person who buys goods from your Shopify online store.
+* The merchant, which is your company.
+* The payment provider, which is the company that facilitates payment processing for you. * The provider can be Shopify Payments or a third party.
+
+### How the money flows
+
+The buyer buys goods from an online store. The last stage is to process their payment.
+
+> [!NOTE] 
+> This example doesn't cover cases where payment is completed outside Shopify checkout, which is valid for B2B scenarios.
+
+The buyer pays part of the amount with a gift card (or store credit), and the remaining amount with a credit card, PayPal, or a local payment method such as MobilePay in Denmark.
+
+The merchant can access the issued gift card and information about its use in Business Central.
+
+Depending on the payment provider, the merchant might see the money in their account with the payment provider, including both the amount received and the amount deducted for the provider's commissions. Payment providers often take a commission from each transaction, and in some cases they also have a fixed fee.
+
+Depending on the payment provider, the merchant either transfers the money to their bank account (payout) manually or automatically within a defined period. For example, one time per day, per month, and so on.
+
+Depending on the bank, the merchant can see the incoming transaction in their bank account via online banking or their bank statement.
+
+### Reconcile transactions and bank statements
+
+The merchant imports a sales order to [!INCLUDE [prod_short](../includes/prod_short.md)] and posts the shipment and invoice. [!INCLUDE [prod_short](../includes/prod_short.md)] creates a customer ledger entry of the type **Invoice** with the full amount, and sets **Open** to **Yes**. The remaining amount equals the invoiced amount.
+
+The merchant processes the imported Shopify transactions in the **Transactions** list. They apply filters, and then use the **Suggest Shopify Payments** action to transfer the transactions to the general journal. Alternatively, the merchant can use the **Suggest Shopify Payments** action on the **Cash Receipt Journal** page.
+
+The merchant reviews the lines, and notices that the applied documents are selected automatically. They post the journal, and [!INCLUDE [prod_short](../includes/prod_short.md)] creates a customer ledger entry of the type **Payment** and applies it to the corresponding entry of the type **Invoice**.
+
+> [!NOTE] 
+> If you configured a payment method mapping, make sure the payment method doesn't have the **Bal. Account Type** and **Bal. Account No.** fields filled in. If they are, when you post the invoice [!INCLUDE [prod_short](../includes/prod_short.md)] creates a balancing entry of the **Payment** type and applies it to the **Invoice** type on the customer ledger entry. You can't create a journal line and apply it to the sales invoice.
+
+Instead, create a **Journal Batch** for each payment method, and fill in the **Bal. Account Type** and **Bal. Account No.** fields.
+
+The merchant imports their bank statement using a payment reconciliation journal or bank reconciliation journal with one or more transactions that represent the transfer from the payment provider to bank account.
+
+### Handle currency
+
+The Shopify connector imports orders and transactions in **Shop Currency**. If you configure Shopify to use different currencies based on country, that might lead to some differences. For example, in a store where the local currency is Danish Krone (DKK), an order for a German customer totaling 13.95 EUR converts to 409.53 DKK in sales. However, the payment transaction shows 409.48 DKK.
 
 ## See also
 

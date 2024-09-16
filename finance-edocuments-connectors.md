@@ -60,7 +60,7 @@ At this moment, the [!INCLUDE[prod_short](includes/prod_short.md)] supports Page
 > [!NOTE]
 > This page doesn't show how to connect with the local service providers. If [!INCLUDE[prod_short](includes/prod_short.md)] support some of them, it will be explained on the country-specific documentation.  
 
-Microsoft has no contractual obligation with Pagero and Avalara. That means, if you want to use their connectors, you must have contract with them.
+Microsoft has no contractual obligation with Pagero and Avalara. That means, if you want to use their connectors, you must have a contract with them.
 
 ## See also
 

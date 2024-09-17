@@ -1,6 +1,6 @@
 ---
 title:  Cash flow overview
-description: An overview of cash inflows and outflows to help forecast money to be received and payed out.
+description: An overview of cash inflows and outflows to help forecast money to be received and paid out.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -8,14 +8,13 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
 ms.search.form: 841, 849, 1818
-ms.date: 06/10/2024
+ms.date: 07/31/2024
 ms.service: dynamics-365-business-central
-
 ---
 
 # Cash flow overview
 
-Understanding cash inflows and outflows is the key to running a successful business. You can use cash flow to easily create a short-term forecast that predicts how and when you expect money to be received and paid out by your business. It's important to know that your business will have enough cash to pay creditors and expenses when they're due.
+Understanding cash inflows and outflows are the key to running a successful business. You can use cash flow to easily create a short-term forecast that predicts how and when you expect money to be received and paid out by your business. It's important to know that your business will have enough cash to pay creditors and expenses when they're due.
 
 ## Definition of cash flow
 

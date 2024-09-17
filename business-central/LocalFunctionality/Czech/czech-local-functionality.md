@@ -30,6 +30,7 @@ The following topics describe the local functionality in the Czech version of [!
   * [General Ledger Entries Application](general-ledger-entries-application.md) **Available Now**
   * [Exchange Rate Updating](exchange-rate-update.md) **Available Now**
   * [Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
+  * [Functional Currency – Czechia](functional-currency.md) **Available Now**
 
 * VAT
   * [VAT Date](how-to-setup-vat-date.md) **Available Now** 
@@ -43,6 +44,7 @@ The following topics describe the local functionality in the Czech version of [!
   * [VAT Control Report](vat-control-report.md) **Available Now**
   * [VAT Reports](vat-reports-cz.md) **Available Now**
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
+  * [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
   * [Intrastat CZ](intrastat.md) **Available Now**
   * [Intrastat Localization for Czech (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
 
@@ -52,7 +54,7 @@ The following topics describe the local functionality in the Czech version of [!
 * Banking and Payments
   * [Banking Documents Localization for Czech (Extension)](ui-extensions-banking-documents-localization-cz.md)**Available Now**
   * [Cash Desk Localization for Czech (Extension)](ui-extensions-cash-desk-localization-cz.md) **Available Now**
-  * [Registration of Sales (EET)](eet.md) **Available Now**
+<!--   * [Registration of Sales (EET)](eet.md) **Available Now** -->
   * [Advance Payments Localization for Czech (Extension)](ui-extensions-advance-payments-localization-cz.md) **Available Now**
 
 * Payables and Receivables
@@ -95,3 +97,5 @@ If you are aware of any upcoming regulatory features, submit a [Regulatory Featu
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

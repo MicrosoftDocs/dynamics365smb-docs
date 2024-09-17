@@ -20,7 +20,7 @@ Before you use the functionality that's described in this article, install the *
 
 ## Set up the connection
 
-[!INCLUDE[e-documents connectors](edocuments-connectors-include.md)]
+[!INCLUDE[e-documents connectors](includes/edocuments-connectors-include.md)]
 
 Based on the endpoint service provider you chose,, the next steps might be different. You can find details about set up parameters for all available service providers [here](finance-edocuments-connectors.md).
 

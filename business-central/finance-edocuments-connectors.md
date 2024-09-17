@@ -1,4 +1,4 @@
---
+---
 title: Parameters for setting the E-Documents connector with external endpoints
 description: This article explains how to set up E-Documents with specific external endpoints.
 author: altotovi
@@ -9,12 +9,12 @@ ms.search.form:
 ms.date: 09/16/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: altotovi
+ms.reviewer: solsen
 ---
 
 # Set up the connection
 
-[!INCLUDE [e-documents connectors](edocuments-connectors-include.md)]
+[!INCLUDE [e-documents connectors](includes/edocuments-connectors-include.md)]
 
  > [!NOTE]
  > These connections require communication with external service providers who might be subject to additional payment and require contracts with them. To obtain all the necessary credentials, contact the service providers.

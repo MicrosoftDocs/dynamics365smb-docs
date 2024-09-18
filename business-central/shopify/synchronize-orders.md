@@ -23,7 +23,7 @@ You can access the Store Currency in the [Store details](https://www.shopify.com
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
-* **Shipping Charges Account**
+* **Shipping Charges Account**; You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service in the Shipping Charges page; LINK TODO;
 * **Sold Gift Card Account**; learn more at [Gift Card](synchronize-orders.md#gift-cards)
 * **Tip account**  
 
@@ -68,9 +68,28 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 3. Choose the **Shipment Method Mapping** action. This action automatically creates records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
 4. In the **Name** field, you can see the name of the shipping method from Shopify.
 5. Enter the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+1. TODO - added text below
+1. Enter **Shipping Charges Type** and **Shipping Charges No.** fields if you want to use diffent accounts for shipping fee, then defined in the the **Shipping Charges Account** field on the **Shopify Shop Card** page. The Shopify Connector supports the following types:
+
+* G/L Account
+* Item
+* Item Charge. Item Charge is automatically assigned to all items on the sales document.
+
+7. You can also find the **Shipping Agent Code** and **Shipping Agent Service Code** fields on the **Shopify Shipment Methods** page. If you fill them in, they populate the corresponding fields on the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)].
+
 
 > [!NOTE]  
 > If multiple shipping charges are associated with a sales order, only one will be selected as the shipping method and assigned to the sales document.
+
+
+### Multiple shipping fees
+
+Shopify lets you add multiple shipment fees to an order. For example, by editing the order in the Shopify Admin. When you receive several shipping fees with a Shopify order, the Shopify Connector uses the first one to initialize the **Shipment Method Code**, **Shipping Agent Code**, and **Shipping Agent Service Code** fields in the header of the document.
+
+> [!NOTE]
+> In some cases, Shopify merges multiple shipping rates into one value called **Shipping** and doesn’t transfer individual rates.
+
+
 
 ### Location mapping
 
@@ -339,31 +358,6 @@ The tracking company is populated in the following order (from highest to lowest
 1. **Code**
 
 If the **Package Tracking URL** field is filled in for the shipping agent record, the shipping confirmation contains a tracking URL.
-
-## Map shipping fees from Shopify to sales documents in Business Central
-
-Map shipping fee information from Shopify to [!INCLUDE [prod_short](../includes/prod_short.md)] accurately and with flexibility. You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service.
-
-In addition to the **Shipping Charges Account** field on the **Shopify Shop Card** page, you can also use the **Shipping Charges Type** and **Shipping Charges No.** fields on the **Shopify Shipment Method** page. These fields allow you to precisely map shipping fee information from Shopify to the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)].
-
-You can use the G/L account defined on the **Shopify Shop Card** page, but if you define a **Shipping Charges Type** and **Shipping Charges No.**, those values are used instead.
-
-The Shopify Connector now supports the following types:
-
-* G/L Account
-* Item
-* Item Charge
-
-Item Charge is automatically assigned to all items on the sales document.
-
-You can also find the **Shipping Agent Code** and **Shipping Agent Service Code** fields on the **Shopify Shipment Methods** page. If you fill them in, they populate the corresponding fields on the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)].
-
-### Multiple shipping fees
-
-Shopify lets you add multiple shipment fees to an order. For example, by editing the order in the Shopify Admin. When you receive several shipping fees with a Shopify order, the Shopify Connector uses the first one to initialize the **Shipment Method Code**, **Shipping Agent Code**, and **Shipping Agent Service Code** fields in the header of the document.
-
-> [!NOTE]
-> In some cases, Shopify merges multiple shipping rates into one value called **Shipping** and doesn’t transfer individual rates.
 
 ## Returns and refunds
 

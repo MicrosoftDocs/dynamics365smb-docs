@@ -35,7 +35,7 @@ For each company you set up in [!INCLUDE [prod_short](includes/prod_short.md)], 
 
 - General ledger accounts
 - Customer and vendor accounts
-- Invoices and other documents 
+- Invoices and other documents
 
 Numbering isn't only important for identification. A well-designed numbering system also makes the company more manageable and easier to analyze, and can reduce data entry errors.
 

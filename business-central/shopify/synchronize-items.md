@@ -106,17 +106,6 @@ You manage the process of exporting items using these settings:
 > [!NOTE]
 > When you want to export many items and variants, some might be blocked. You can't include blocked items and variants in price calculations, so they aren't exported. The Connector skips those items and variants, so you don't need to filter them on the **Add Item to Shopify** request page.
 
-## Import and export product information using Shopify Metafields
-
-Shopify's platform includes data models for fundamental commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform enables you to extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product or variant. The additional information stored in metafields can be almost anything related to a resource. Some examples are specifications, size charts, downloadable documents, release dates, images, or part numbers.
-
-You can import and export data stored in metafields. [!INCLUDE [prod_short](../includes/prod_short.md)] also provides an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
-
-You can access and edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Products** and **Shopify Variants** pages.
-
-> [!NOTE] 
-> The page is editable if the **Product Sync** field is set to **Products to Shopify** and the **Can update Shopify products** toggle is turned on. When you add a record, the connector sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield. You can't edit types that have AssistEdit functionality defined directly on the line.
-
 ## Advanced details
 
 ### Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central
@@ -167,6 +156,17 @@ The following table outlines the effects of the **Barcode** field.
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: enabled.|Not used.|
 |Tax codes|**Tax Group Code**. Only relevant for sales taxes. Learn more at [Set up Taxes](setup-taxes.md).|Not used.|
+
+## Import and export product information using Shopify Metafields
+
+Shopify's platform includes data models for fundamental commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform enables you to extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product or variant. The additional information stored in metafields can be almost anything related to a resource. Some examples are specifications, size charts, downloadable documents, release dates, images, or part numbers.
+
+You can import and export data stored in metafields. [!INCLUDE [prod_short](../includes/prod_short.md)] also provides an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
+
+You can access and edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Products** and **Shopify Variants** pages.
+
+> [!NOTE] 
+> The page is editable if the **Product Sync** field is set to **Products to Shopify** and the **Can update Shopify products** toggle is turned on. When you add a record, the connector sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield. You can't edit types that have AssistEdit functionality defined directly on the line.
 
 ### Tags
 

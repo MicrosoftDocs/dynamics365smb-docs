@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how you can quickly generate number series in Microsoft Dynamics 365 Business Central with assistance from Copilot.
+This article explains how you can quickly generate number series in [!INCLUDE [prod_short](includes/prod_short.md)] with assistance from Copilot. 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -31,11 +31,19 @@ This article explains how you can quickly generate number series in Microsoft Dy
 
 ## About number series suggestions with Copilot
 
-Copilot can reduce the time it takes to set up number series and make their maintenance quick and easy. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
+For each company you set up in [!INCLUDE [prod_short](includes/prod_short.md)], you must assign unique identifiers to things like:
 
-Copilot can help you create and update number series faster on the **No. Series** page. The Generate action opens the **Generate No. Series with Copilot** dialog, where you can enter a prompt to create new, or modify existing, number series.
+- General ledger accounts
+- Customer and vendor accounts
+- Invoices and other documents 
+
+Numbering isn't only important for identification. A well-designed numbering system also makes the company more manageable and easier to analyze, and can reduce data entry errors.
+
+By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Set up number series
+
+Copilot can help you create and update number series faster on the **No. Series** page. The **Generate** action opens the **Generate No. Series with Copilot** dialog, where you can enter a prompt to create new, or modify existing, number series.
 
 To help you write the prompt, the **Create new** action in the **Generate No. Series with Copilot** dialog provides sets of prompt guides that you can use as inspiration.
 

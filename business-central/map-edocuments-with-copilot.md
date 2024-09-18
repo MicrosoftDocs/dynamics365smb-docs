@@ -27,7 +27,7 @@ You can now update an existing purchase order in Business Central with the infor
 
 ## Available languages
 
-[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Activate Copilot  
 

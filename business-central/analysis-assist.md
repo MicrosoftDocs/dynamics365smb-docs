@@ -24,13 +24,11 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 ## Available languages
 
-[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Prerequisites
 
 - Analysis assist capability is activated and you're granted permissions to use it. This task is typically done by an admin. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
-<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
-<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Get started
 

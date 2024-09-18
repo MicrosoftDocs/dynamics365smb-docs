@@ -35,7 +35,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 ## Available languages
 
-[!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Prerequisites
 

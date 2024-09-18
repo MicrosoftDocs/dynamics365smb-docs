@@ -118,6 +118,9 @@ On the **Recurring General Journals** page, you can choose the **Allocations** a
 
 Like a recurring journal, you enter an allocation one time and it stays in the allocation journal after posting. You don't need to enter amounts and allocations every time you post the recurring journal line.
 
+> [!NOTE]
+> You can't use allocation accounts in journal batches that have an approval workflow for creating journal lines.
+
 If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, dimension value codes in the recurring journal are disregarded when the account is set to zero. If you allocate a recurring line to dimension values on the **Allocations** page, only one reversing entry is created.
 
 > [!NOTE]

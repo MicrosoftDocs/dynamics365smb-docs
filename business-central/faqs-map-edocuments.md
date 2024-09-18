@@ -68,9 +68,7 @@ Suggested matching of items from e-invoices with items in purchase orders perfor
 
 ## In which geographies and languages is E-documents Matching Assistance available?
 
-This Copilot feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.
-
-[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+[!INCLUDE[copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

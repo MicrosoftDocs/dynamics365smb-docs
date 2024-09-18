@@ -48,12 +48,11 @@ To fill in the **Payment method code** for sales documents imported from Shopify
 3. Choose the **Payment Method Mapping** action.
 4. In the **Gateway** and **Credit Card Company** fields, enter the name of the payment method from Shopify. The record gets created automatically when you import Shopify orders.
 5. Enter the **Payment Method Code** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
-6. Set the **Priority** for cases when the customer uses multiple means of payment. The payment method with the highest priority gets selected in the sales document. If both payment methods have the same priority, the payment method with the highest amount is used.
 
 > [!NOTE]  
 > If the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)] has **Bal. Account Type** and **Bal. Account No.** populated, then during posting the invoice system will create a balancing entry of the *Payment* type and apply it to the *Invoice* type in the customer ledger entry.
 
-## Use cases
+## Basic use case
   
 Parties:
 
@@ -125,9 +124,7 @@ Issues:
 
 ## Reconcile payments in Shopify with invoices
 
-When a customer completes their checkout in the online store, the information about their payment is saved as a Transaction. There can be multiple transactions linked to an order. For example, a customer might use a gift card to pay some of the cost and then use a credit card or PayPal for the remaining amount. The payment transactions in Shopify synchronize with the orders and you can view them on the Shopify Orders page.
-
-There are several options for processing imported payment transactions in Business Central. This release offers an extra option that's helpful in cases where several payment methods are involved. The gift card scenario is probably the most common, but there are also store credits, which were recently added to the Shopify admin.
+When a customer completes their checkout in the online store, the information about their payment is saved as a Transaction. There can be multiple transactions linked to an order. For example, a customer might use a gift card to pay some of the cost and then use a credit card or PayPal for the remaining amount. The gift card scenario is probably the most common, but there are also store credits, which were recently added to the Shopify admin.
 
 ### Sample scenario
 
@@ -140,9 +137,6 @@ This sample scenario involves the following parties:
 ### How the money flows
 
 The Buyer buys goods from an online store. The last stage is to process their payment.
-
-> [!NOTE] 
-> This example doesn't cover cases where payment is completed outside Shopify checkout, which is valid for B2B scenarios.
 
 The Buyer pays part of the amount with a gift card (or store credit), and the remaining amount with a credit card, PayPal, or a local payment method such as MobilePay in Denmark.
 

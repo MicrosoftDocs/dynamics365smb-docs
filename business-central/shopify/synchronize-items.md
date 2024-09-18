@@ -213,7 +213,7 @@ Based on the value in **Action for Removed Products** on the **Shopify Shop Card
 Synchronization of images can be configured for synchronized items. Choose from the following options:
 
 * **Disabled**: Image synchronization is deactivated.
-* **To Shopify**: Pictures of items are exported to Shopify.
+* **To Shopify**: Images of items are exported to Shopify.
 * **From Shopify**: Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 Image synchronization can be initialized in the two ways described below.
@@ -331,7 +331,7 @@ There are 10 pieces of item A available on hand and two outstanding sales orders
 |Tuesday|9|Inventory 10 minus sales order set to ship on Monday|
 |Friday|7|Inventory 10 minus both sales orders|
 
-####  Example of calculation of free inventory (not reserved)
+#### Example of calculation of available inventory (not reserved)
 
 There are 10 pieces of item A available on hand and three outstanding sales orders. One order with quantity *1* reserved from item ledger entry, one with quantity *2* not reserved, and one with quantity *3* reserved from a purchase order. For this method, the date of synchronization isn't important.
 
@@ -379,7 +379,7 @@ After you choose the **Get Shopify Locations** action in the **Shopify Locations
 
 Let's review the impact of enabling the Default Product Location toggle:
 
-|Name of locations where Default Product Location toggle is turned on|Impact on how product is created in Shopify|
+|Name of locations where Default Product Location toggle is turned on|Effect on how the product is created in Shopify|
 |------|-----------------|
 |Main| Inventory will be stocked at: Multiple locations; Selected locations: Main (primary) |
 |Main and Second| Inventory will be stocked at: Multiple locations; Selected locations: Main and Second |

@@ -23,8 +23,8 @@ You can access the Store Currency in the [Store details](https://www.shopify.com
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
-* **Shipping Charges Account**; You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service in the Shipping Charges page; LINK TODO;
-* **Sold Gift Card Account**; learn more at [Gift Card](synchronize-orders.md#gift-cards)
+* **Shipping Charges Account**: You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+* **Sold Gift Card Account**: Learn more at [Gift Card](synchronize-orders.md#gift-cards)
 * **Tip account**  
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
@@ -46,7 +46,18 @@ Specify how you process returns and refunds:
 * **Import only** specifies that you import information, but you manually create the corresponding credit memo.
 * **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
 
+#### Setup returns and refunds
+
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
+
+You can use the original return location from Shopify for refunds and returns. The location helps ensure that locations are accurate on credit memos, which reduces manual adjustments and streamlines the returns process.
+
+To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original > Default Location**.
+
+The **Return Location Priority** field offers the following options:
+
+* **Default Return Location**: This is the default option. It uses the value from the Default Return Location field when creating sales credit memos.
+* **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
 
 * **Refund Account non-restock Items** specifies a G/L Account No. for items where you don't want to have an inventory correction.
 * **Refund Account** specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
@@ -68,28 +79,20 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 3. Choose the **Shipment Method Mapping** action. This action automatically creates records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
 4. In the **Name** field, you can see the name of the shipping method from Shopify.
 5. Enter the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
-1. TODO - added text below
-1. Enter **Shipping Charges Type** and **Shipping Charges No.** fields if you want to use diffent accounts for shipping fee, then defined in the the **Shipping Charges Account** field on the **Shopify Shop Card** page. The Shopify Connector supports the following types:
+6. To use different accounts for shipping fees than the account specified in the **Shipping Charges Account** field on the **Shopify Shop Card** page, fill in the **Shipping Charges Type** and **Shipping Charges No.** fields. The Shopify Connector supports the following types:
 
-* G/L Account
-* Item
-* Item Charge. Item Charge is automatically assigned to all items on the sales document.
+   * G/L Account
+   * Item
+   * Item Charge. Item Charge is automatically assigned to all items on the sales document.
 
-7. You can also find the **Shipping Agent Code** and **Shipping Agent Service Code** fields on the **Shopify Shipment Methods** page. If you fill them in, they populate the corresponding fields on the sales document in [!INCLUDE [prod_short](../includes/prod_short.md)].
-
+7. You can also find the **Shipping Agent Code** and **Shipping Agent Service Code** fields on the **Shopify Shipment Methods** page. If you fill them in, they populate the corresponding fields on the sales document.
 
 > [!NOTE]  
 > If multiple shipping charges are associated with a sales order, only one will be selected as the shipping method and assigned to the sales document.
-
-
-### Multiple shipping fees
-
-Shopify lets you add multiple shipment fees to an order. For example, by editing the order in the Shopify Admin. When you receive several shipping fees with a Shopify order, the Shopify Connector uses the first one to initialize the **Shipment Method Code**, **Shipping Agent Code**, and **Shipping Agent Service Code** fields in the header of the document.
-
-> [!NOTE]
+>
+> Shopify lets you add multiple shipment fees to an order. For example, by editing the order in the Shopify Admin. When you receive several shipping fees with a Shopify order, the Shopify Connector uses the first one to initialize the **Shipment Method Code**, **Shipping Agent Code**, and **Shipping Agent Service Code** fields in the header of the document.
+>
 > In some cases, Shopify merges multiple shipping rates into one value called **Shipping** and doesn’t transfer individual rates.
-
-
 
 ### Location mapping
 
@@ -267,14 +270,14 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 You can export posted sales invoices to Shopify so that buyers can sign in to Shopify and access all their invoices, regardless of which app they were created in.
 
-You can export posted sales invoices to Shopify as orders by using a report <!--What's the name of the report?--> that creates a batch job. The report is available on the Shopify Shop Card page, or you can use Tell Me search to find it. You can also run the report by using the job queue.
+You can export posted sales invoices to Shopify as orders by using the **Sync Posted Invoices to Shopify** action on the Shopify Shop Card page, or you can use Tell Me search to find it. You can also run the report by using the job queue.
 
-To enable the capability for a specific shop, go to the **Shopify Shop Card** page and turn on the **Posted Invoice Sync** toggle.
+To enable the capability for a specific shop, go to the **Shopify Shop Card** page and turn on the **Posted Invoice Sync** toggle. You also need to configure the **Payment Terms Mapping**.
 
 The sync includes invoices under the following conditions:
 
 * The **Shopify Order ID** field contains **0**.
-* The bill-to customer has a mapping in the **Shopify Customers** or **Shopify Companies** tables.<!--can we say pages instead of tables?-->
+* The bill-to customer has a mapping in the **Shopify Customers** or **Shopify Companies** pages.
 * The bill-to customer isn't used as the default customer on the **Shopify Shop Card** or **Shopify Customer Template**.
 * The posted invoice has at least one non-comment line where the **No.** field has a value.
 
@@ -308,10 +311,8 @@ The following fields export on the order header:
 
 The following fields export on the order lines:
 
-* Items (item variants) that are mapped export as products.
-* Items that aren't mapped and lines of other types, such as **G/L Account** or **Item Charge** lines, export as custom products in Shopify.
+* Items and lines of other types, such as **G/L Account** or **Item Charge** lines, export as custom products in Shopify.
 * Shipping charges in Shopify aren't created. The shipping cost is registered as a custom product in Shopify.
-* The new setting on the Shopify Shop Card page lets you avoid exporting invoices with non-mapped items. Turn on the **Items must be mapped to products** toggle to exclude posted invoices from sync if there's at least one line of type **Item** where the selected item isn't mapped to a product or variant in Shopify.
 * Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] won’t be available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
 * Quantity, in whole numbers. Shopify doesn’t support fractions.
 
@@ -341,9 +342,6 @@ The order in Shopify is marked as fulfilled. The customer automatically receives
 Alternatively, use the **Sync Shipments** action in the Shopify Sales Orders or Shopify Shop pages.
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
-
-> [!Important]
-> The location, including blank location, defined in the Posted Shipment Line must have a matching record in the Shopify Location. Otherwise, this line won't be sent back to Shopify. Learn more at [Location mapping](synchronize-orders.md#location-mapping).
 
 Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], provided that the conditions are met.
 
@@ -380,17 +378,6 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 
 > [!Note]
 > The return locations, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
-
-### Use a default location for returns
-
-You can use the original return location from Shopify for refunds and returns. The location helps ensure that locations are accurate on credit memos, which reduces manual adjustments and streamlines the returns process.
-
-To turn on the feature, on the **Shopify Shop Card** page, in the **Return Location Priority** field choose **Original > Default Location**.
-
-The **Return Location Priority** field offers the following options:
-
-* **Default Return Location**: This is the default option. It uses the value from the Default Return Location field when creating sales credit memos.
-* **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
 
 ## Gift cards
 

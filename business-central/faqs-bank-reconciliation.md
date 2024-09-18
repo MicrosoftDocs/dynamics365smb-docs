@@ -59,13 +59,9 @@ Suggested ledger accounts performs best in one of the supported languages (see t
 
 ## In which geographies and languages is bank reconciliation assist available? 
 
-- Available geographies
+The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies.
 
-  Bank account reconciliation assist is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
-
-- Available languages
-
-  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+[!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
 For more information about languages, see the previous question about limitations.
 
@@ -100,4 +96,5 @@ Each time that Copilot provides matches or suggestions, you can provide feedback
 
 ## See also
 
-[Reconcile bank accounts with Copilot (preview)](bank-reconciliation-with-copilot.md)
+[Reconcile bank accounts with Copilot (preview)](bank-reconciliation-with-copilot.md)  
+[Learn more about Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

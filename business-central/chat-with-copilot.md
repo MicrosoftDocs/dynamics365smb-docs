@@ -37,7 +37,7 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 ## Prerequisites
 
 - Ensure that chat with Copilot capability is activated by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
-- Set your display language in Business Central to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
+- Set your display language in Business Central to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 - Ensure your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).
 
 ## Get started using chat with Copilot
@@ -45,7 +45,7 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows cllour number 1](media/callout-number-1.svg).
 
    The **Copilot** pane appears as shown in the image:
-   
+
     ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 
 1. In the **Ask a question** box at the bottom ![Shows callout number 2](media/callout-number-2.svg), enter your question, and then select the arrowhead or press <kbd>Enter</kbd> to get an answer.
@@ -107,14 +107,10 @@ In this example, you ask Copilot for guidance on how to perform some task in Bus
 
 You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the dislike button, you can choose a reason, including inaccurate, inappropriate, or other. This information can help us improve suggestions.
 
-<!--
-1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
-
-   Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
-   
 ## See also
 
 - [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 - [Configure Copilot and AI capabilities](enable-ai.md)  
 - [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 - [Resources for help in Business Central](product-help-and-support.md)  
+- [Changing the language](ui-change-basic-settings.md#language)  

@@ -22,6 +22,9 @@ If you've posted an incorrect negative quantity, such as a purchase order with t
 
 If you've posted an incorrect positive quantity, such as a sales shipment or a purchase return shipment with the wrong number of items, as shipped but not invoiced, you can undo the posting.
 
+> [NOTE!]
+> Due to how [!INCLUDE [prod_short](includes/prod_short.md)] posts and updates amounts in an additional reporting currency (ACY), you can't use this feature if you use ACY. [!INCLUDE [prod_short](includes/prod_short.md)] converts amounts in local currency to the alternate currency, but doesn't net transactions. If you use ACY, you must manually reverse the amounts.
+
 ## To reverse the journal posting of a general ledger entry
 
 You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.

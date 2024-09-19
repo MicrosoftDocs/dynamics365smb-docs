@@ -17,11 +17,6 @@ Intercompany partnerships make it easier to handle accounting processes when two
 
 The intercompany chart of accounts can be, for example, a version of the synchronization partner's chart of accounts. Each partner maps their accounts to the intercompany chart of accounts. Each partner also maps their dimensions and dimension values to the intercompany dimensions.
 
-> [!NOTE]
-> In 2023 release wave 1 we've introduced an improved **Intercompany Setup** page. The new page makes it easier to set up an intercompany partnership by consolidating all of the set up tasks in a single page. If you're new to [!INCLUDE [prod_short](includes/prod_short.md)], you're already using the new experience. If you're an existing customer, your administrator can turn on the **Automatically accept intercompany general journal transactions** feature switch on the **Feature Management** page.
->
-> The tasks in this article assume that the feature switch is turned on. If you've already set up an intercompany partnership, you can continue using it.
-
 ## Before you start
 
 Before you start to set up your intercompany partnership, there are a few decisions to make.
@@ -311,9 +306,6 @@ To make it faster to process intercompany transactions, you can specify that you
 * On the **Intercompany Partner** page, turn on the **Auto Accept Transactions** toggle.
 
 The journal lines are created for you, but not posted.
-
-> [!NOTE]
-> If your organization used intercompany features in [!INCLUDE [prod_short](includes/prod_short.md)] before 2022 release wave 1, to auto-accept transactions your administrator must turn on the **Automatically accept intercompany general journal transactions** feature switch on the **Feature Management** page.
 
 ### Specify bank accounts for intercompany partners
 

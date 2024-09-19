@@ -235,7 +235,7 @@ In the following steps, you first map intercompany dimensions to dimensions for 
 
 ## Set up intercompany general journal templates and batches
 
-You must set up a general journal template and a general journal batch to use by default for intercompany transactions. The template and batch are especially important if you automatically accept intercompany transactions from your partners. To learn more about autoaccepting transactions, go to [Autoaccept transactions from intercompany partners](#auto-accept-transactions-from-intercompany-partners).
+You must set up a general journal template and a general journal batch to use by default for intercompany transactions. The template and batch are especially important if you automatically accept intercompany transactions from your partners. To learn more about autoaccepting transactions, go to [Autoaccept transactions from intercompany partners](#autoaccept-transactions-from-intercompany-partners).
 
 * General journals are used to post to general ledger accounts and other accounts, such as bank, customer, and vendor accounts. Posting with a general journal always creates entries on general ledger accounts. Use the **Intercompany General Journal** page to set up the general journal batch to use. The settings that are specific to intercompany transactions are the accounts you specify in the **IC Account Type** and **IC Account No** fields.
 * Journal templates give you a journal page designed for a specific purpose. That is, the fields in journal templates are exactly the ones needed for a particular part of the program. Use the **General Journal Templates** page to set up a template to use for intercompany transactions.

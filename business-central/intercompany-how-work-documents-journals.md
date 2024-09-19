@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Work with Intercompany Documents and Journals
 
-Use intercompany documents or journals to post transactions with your intercompany partners. You can post transactions to G/L accounts, and if you've set up intercompany bank accounts you can also post bank-to-bank transactions. To learn more about setting up intercompany bank accounts, go to [Specify the bank accounts to use for intercompany partners](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+Use intercompany documents or journals to post transactions with your intercompany partners. You can post transactions to G/L accounts, and if you've set up intercompany bank accounts you can also post bank-to-bank transactions. To learn more about setting up intercompany bank accounts, go to [Specify the bank accounts to use for intercompany partners](intercompany-how-setup.md#specify-bank-accounts-for-intercompany-partners).  
 
 When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox. You transfer the line from your outbox to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 

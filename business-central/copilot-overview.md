@@ -38,7 +38,7 @@ Business Central offers numerous AI-powered features. Some features, such as sal
 
 ## Is Copilot in Business Central available worldwide?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more in [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Is Copilot aware of my environment customizations?
 

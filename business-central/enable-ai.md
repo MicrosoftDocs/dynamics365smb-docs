@@ -101,7 +101,7 @@ After you enable and consent to the features, you're ready to try them out. Go t
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 
-## See also
+## Related information
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  

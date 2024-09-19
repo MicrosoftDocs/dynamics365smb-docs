@@ -327,6 +327,7 @@ ms.service: dynamics-365-business-central
 ##### [Make payments with AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Settle purchase invoices promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 ##### [Export a positive pay file](finance-how-positive-pay.md)
+##### [FAQs about supported banking and payment formats](banks-formats-faq.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payments application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)
@@ -457,6 +458,7 @@ ms.service: dynamics-365-business-central
 #### [Use e-documents in sales](finance-how-use-edocuments.md)
 #### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Sustainability management
@@ -466,6 +468,7 @@ ms.service: dynamics-365-business-central
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
 #### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
 #### [Work with carbon credit](sustainability-carbon-credit.md)
+#### [Sustainability certificates](sustainability-certificates.md)
 #### Sustainability analytics
 ##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 ##### [Built-in sustainability reports](sustainability-reports.md)
@@ -566,6 +569,7 @@ ms.service: dynamics-365-business-central
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### [Create recurring purchase lines](purchasing-how-work-recurring-purchase-lines.md)
+### [Payment practices report](ui-payment-practices.md)
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
@@ -1648,6 +1652,7 @@ ms.service: dynamics-365-business-central
 #### [Set up the Envestnet Yodlee bank feeds service](bank-how-setup-bank-statement-service.md)
 #### [Use the AMC banking 365 fundamentals extension](ui-extensions-amc-banking.md)
 #### [Select a check layout](finance-how-define-check-layouts.md)
+#### [FAQs about supported banking and payment formats](banks-formats-faq.md)
 ### Set up sales
 #### [Set up sales](sales-setup-sales.md)
 #### [Register new customers](sales-how-register-new-customers.md)

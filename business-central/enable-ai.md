@@ -26,6 +26,9 @@ Copilot is a system feature and an integral part of Business Central. As is true
 
 If any of these requirements aren't met, the feature isn't available for use.
 
+> [!TIP]
+> By default, data movement across geographical regions is allowed, and all features are activated. This setup means Copilot is ready to use without any configuration unless you choose to deactivate specific features.
+
 ## Prerequisites
 
 - You're using Business Central online.
@@ -33,21 +36,16 @@ If any of these requirements aren't met, the feature isn't available for use.
 
 ## Allow data movement across geographies
 
-This task applies only if the **Allow data movement** option appears near the top of the **Copilot & AI capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task.
+This task applies only if the **Allow data movement** option appears near the top of the **Copilot & AI capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task. The **Allow data movement** option is turned on by default.
 
 ![Screenshot that shows the Allow data movement option on the Copilot & AI capabilities page.](media/allow-data-movement-v2.png)
 
 The presence of the **Allow data movement** option indicates that the location of your Business Central environment (that is, the geography where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-To allow data movement outside your geographical region, follow these steps:
+To allow or opt of data movement outside your geographical region, follow these steps:
 
 1. In Business Central, search for and open the **Copilot & AI capabilities** page.
-1. Turn on the **Allow data movement** option.
-
-    > [!NOTE]
-    > The **Allow data movement** option is turned on by default.
-
-To opt out of data movement, turn off the **Allow data movement** option.
+1. To allow data movement, turn on the **Allow data movement** toggle. To opt out of data movement, turn off the toggle.
 
 After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** option no longer appears on the **Copilot & AI capabilities** page.
 

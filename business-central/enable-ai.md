@@ -36,13 +36,13 @@ If any of these requirements aren't met, the feature isn't available for use.
 
 ## Allow data movement across geographies
 
-This task applies only if the **Allow data movement** option appears near the top of the **Copilot & AI capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task. The **Allow data movement** option is turned on by default.
+This task applies only if the **Allow data movement** option appears near the top of the **Copilot & AI capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task. 
 
 ![Screenshot that shows the Allow data movement option on the Copilot & AI capabilities page.](media/allow-data-movement-v2.png)
 
 The presence of the **Allow data movement** option indicates that the location of your Business Central environment (that is, the geography where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-To allow or opt of data movement outside your geographical region, follow these steps:
+The **Allow data movement** option is turned on by default. To allow or opt out of data movement outside your geographical region, follow these steps:
 
 1. In Business Central, search for and open the **Copilot & AI capabilities** page.
 1. To allow data movement, turn on the **Allow data movement** toggle. To opt out of data movement, turn off the toggle.
@@ -80,7 +80,7 @@ To grant or deny access to specific non-Microsoft copilot and AI capabilities, c
 
 ## Requirements for being an administrator
 
-You must have either SUPER permissions in your Business Central user account or one of the following Business Central licenses:
+You must have either SUPER permission in your Business Central user account or one of the following Business Central licenses:
 
 - Delegated Admin agent - Partner
 - Delegated Helpdesk agent - Partner

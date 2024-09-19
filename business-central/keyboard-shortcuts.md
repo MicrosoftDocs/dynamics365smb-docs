@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/13/2024
+ms.date: 09/19/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -25,7 +25,7 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard shortcuts 
 
 ## Overview
 
-Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. Most web browsers support these shortcuts, however, the behavior might vary slightly.
+Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. Most web browsers support these shortcuts; however, the behavior might vary slightly.
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards can not correspond exactly to the keys on a U.S. keyboard.

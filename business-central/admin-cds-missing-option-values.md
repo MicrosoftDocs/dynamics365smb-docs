@@ -4,7 +4,7 @@ description: Learn how to prevent full synchronization from failing because the 
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: conceptual
-ms.date: 12/12/2023
+ms.date: 09/16/2024
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -13,9 +13,9 @@ ms.reviewer: bholtorf
 
 This article is intended for a technical audience. The processes it describes require the help of a developer.
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] contains three option set fields that contain values that you can map to [!INCLUDE[prod_short](includes/prod_short.md)] fields of the Option type for automated synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[prod_short](includes/prod_short.md)] table and added to the **Dataverse Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] contains three option set fields that contain values that you can map to [!INCLUDE[prod_short](includes/prod_short.md)] fields of the Option type for automated synchronization. During synchronization, nonmapped options are ignored and the missing options are appended to the related [!INCLUDE[prod_short](includes/prod_short.md)] table and added to the **Dataverse Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping.
 
-The **Integration Table Mapping** page contains three fields that contain one or more mapped option values. After a full synchronization, the **Dataverse Option Mapping** page contains the non-mapped options in the three fields.
+The **Integration Table Mapping** page contains three fields that contain one or more mapped option values. After a full synchronization, the **Dataverse Option Mapping** page contains the nonmapped options in the three fields.
 
 |         Record             | Option Value | Option Value Caption |
 |----------------------------|--------------|----------------------|
@@ -78,7 +78,7 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-All of the [!INCLUDE[prod_short](includes/prod_short.md)] enums above are mapped to option sets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+All of the [!INCLUDE[prod_short](includes/prod_short.md)] enums are mapped to option sets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ## Extending option sets in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Create a new AL extension.
@@ -105,7 +105,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ## Update [!INCLUDE[prod_short](includes/cds_long_md.md)] option mapping
 Now you can recreate the mapping between [!INCLUDE[prod_short](includes/cds_long_md.md)] options and [!INCLUDE[prod_short](includes/prod_short.md)] records.
 
-On the **Integration Table Mapping** page, choose the line for the **Payment Terms** map, and then choose the **Synchronize Modified Records** action. The **Dataverse Option Mapping** page is updated with the additional records below.
+On the **Integration Table Mapping** page, choose the line for the **Payment Terms** map, and then choose the **Synchronize Modified Records** action. The **Dataverse Option Mapping** page is updated with the following records.
 
 |         Record                 | Option Value   | Option Value Caption |
 |--------------------------------|----------------|----------------------|
@@ -116,7 +116,7 @@ On the **Integration Table Mapping** page, choose the line for the **Payment Ter
 | **Payment Terms: CASH PAYME**  | **779800001**  | **Cash Payment**     |
 | **Payment Terms: TRANSFER**    | **779800002**  | **Transfer**         |
 
-The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] will then have new records for the [!INCLUDE[prod_short](includes/cds_long_md.md)] options. In the following table new options are in bold font. Italic rows represent all options that can now be synchronized. Remaining rows represent options aren't in use and are ignored during synchronization. You can remove them or extend Dataverse options with the same names.)
+The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] has new records for the [!INCLUDE[prod_short](includes/cds_long_md.md)] options. In the following table, new options are in bold font. Italic rows represent all options that can now be synchronized. Remaining rows represent options aren't in use and are ignored during synchronization. You can remove them or extend Dataverse options with the same names.
 
 | Code       | Due Date Calculation | Discount Date Calculation | Discount % | Calc. Pmt. Disc. on Cr. Memos | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|

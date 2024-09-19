@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/07/2023
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, financial report
-ms.search.form: 2632, 2631, 2633, 2623, 2634
+ms.search.form: 2632_Primary, 2631, 2633, 2623, 2634
 ms.service: dynamics-365-business-central
 ---
 # Analyze Data with Statistical Accounts

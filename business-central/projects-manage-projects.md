@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015, 37033, 37034, 37035, 37036, 37037, 37038, 37039
 ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

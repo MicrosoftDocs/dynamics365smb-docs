@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.form: 9650_Primary, 9652
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

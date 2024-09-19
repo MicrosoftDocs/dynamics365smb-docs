@@ -10,8 +10,6 @@ ms.reviewer: bholtorf
 ---
 
 # Handling missing option values
-> [!NOTE]
-> In 2022 release wave 1 you can create your own option mappings. For more information, see [Customizing option mappings with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). The new capabilities require that your administrator enables **Feature Update: Map to option sets in Dataverse without code** on the **Feature Management** page. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 This article is intended for a technical audience. The processes it describes require the help of a developer.
 

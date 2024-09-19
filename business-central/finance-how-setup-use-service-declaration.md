@@ -20,16 +20,15 @@ In some EU countries/regions, authorities require that businesses report the exp
 
 After you install the extension in your environment, you need to enable it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature management**, and then choose the related link.
-2. Find **Feature: Enable using of Service Declaration (Intrastat for Services)**, and in the **Enabled for** field, choose **All Users**. Learn more about feature management at [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management) in the administration content.
-3. When you enable the feature, you should follow steps in the setup process through the Setup Wizard. The most of fields are configured by default.
-4. Add only **Service Transaction Types** in the second step by choosing the **Open the service transaction types page to specify the list of codes** option.
-5. Before you start, check the **Total number of codes** to understand how many services transaction types have already been specified.
-6. Choose **Finish** in the last step to finish the configuration.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set up an IRS 1096 feature**, and then choose the related link.
+2. Follow steps in the assisted setup guide. The most of fields are configured by default.
+3. Add only **Service Transaction Types** in the second step by choosing the **Open the service transaction types page to specify the list of codes** option.
+4. Before you start, check the **Total number of codes** to understand how many services transaction types have already been specified.
+5. Choose **Finish** in the last step to finish the configuration.
 
 ## Set up the Service Declaration extension
 
-You can set up the extension manually, or by using a reporting file in Data Exchange Definitions.
+You can set up the extension manually, or by using a reporting file on the **Data Exchange Definitions** page.
 
 ### To set up Service Declaration manually
 

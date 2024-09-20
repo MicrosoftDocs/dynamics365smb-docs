@@ -26,7 +26,7 @@ This article explains how you can quickly generate number series in [!INCLUDE [p
 
 ## Prerequisites
 
-- Suggest number series assist is activated. An administrator must complete this task. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
+- The Suggest Number Series feature is activated. An administrator must complete this task. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
 - You're familiar with number series in [!INCLUDE [prod_short](includes/prod_short.md)], as described in [Create number series](ui-create-number-series.md).
 
 ## About number series suggestions with Copilot

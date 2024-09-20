@@ -16,7 +16,7 @@ ms.custom: responsible-ai-faqs
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of the sales line suggestions feature in [!INCLUDE [prod_short](includes/prod_short.md)].
+These frequently asked questions (FAQ) describe the AI effect of the Suggest Number Series feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -67,7 +67,7 @@ AI-powered suggestions might be incorrect or incomplete. You should always revie
 
 ### What is expected of administrators and end-users when using Sales lines suggestions?
 
-Each individual user chooses whether or not to use **Suggest Number Series**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
+Each individual user chooses whether or not to use **Suggest Number Series**. Even if an administrator enables the feature and it's available, you can choose to use it always, sometimes, or never.  
 
 Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 

@@ -24,7 +24,9 @@ This article explains how to chat with Copilot to get answers about your company
 
 Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
 
-- Find business data for your company in Business Central. Use chat to look up (and open) data about entities/records related to business processes, such as customers, vendors, sales orders, and items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
+- Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
+
+  By working together with the analysis assist feature, Copilot can also aggregate data for you. Prompting chat to group records or perform calculations, such as summing or averaging, generates an analysis tab displaying the results.
 - Get explanations or step-by-step guidance on various tasks. For example, ask "Help me understand dimensions" or "How do I post a sales order."
 - Understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
 
@@ -73,7 +75,7 @@ If you want to switch to a different topic of conversation with Copilot, select 
 
 The chat also clears if you close or sign out of Business Central.
 
-## Guidelines and techniques for effective prompting
+## Tips for better questions
 
 ### Basic techniques to improve the answers
 
@@ -87,10 +89,18 @@ Here are some ways you can improve the answers you get from Copilot:
 - If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
-### Prompting for organizing and analyzing data
+### Prompting for aggregating data on analysis tabs
 
+If you prompt using phrases related to data aggregation, chat creates an analysis tab that you can open from a link it replies with in the Copilot pane. For example, the following figure illustrates an answer you could get for the prompt: "In which countries are my top customer":
 
-If you want to prompt Chat about records on the current page, you can omit 
+![Shows a link tot ana analysis tab in the chat with Copilot pane](media/chat-analysis-tab.png)
+
+To generat this type of response, use common words and phrases related to data aggregation and analysis, like "group", "pivot", "sum", "average", "most", and "least", in different variations. For example:
+
+`show me customers grouped by their country and zipcode`  
+`which customers got most discounts`  
+`group the current records by name and location`  
+
 ### Example prompts
 
 Your questions to Copilot vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that show different ways of asking questions in the chat pane that can inspire you to write your own questions based on your situation.

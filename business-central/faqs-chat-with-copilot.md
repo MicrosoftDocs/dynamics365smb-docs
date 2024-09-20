@@ -38,13 +38,13 @@ You can ask Copilot to explain a specific concept related to [!INCLUDE[prod_shor
 
 ### Find business data and related pages
 
-You can ask Copilot to locate pages by name or ask for records based on their fields and constraints. If Copilot finds a match, it responds with a link to the relevant record or page, which you can then can select to open.
+You can ask Copilot to locate pages by name or request records based on specific fields and constraints. If Copilot finds a match, it responds with a link to the relevant record or page, which you can then select to open. Chat with Copilot works closely with analysis assist to generate data analysis tabs directly from the Chat pane, helping you gain insights into your data. This approach is used whenever you ask questions best illustrated by grouped records or simple calculations, such as totals or averages.
 
 - Copilot converts the natural language input into a query consisting of a table search, sort, and filter criteria.
 
   The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under your own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
-- Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the [!INCLUDE[prod_short](includes/prod_short.md)] native data search. 
+- Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the [!INCLUDE[prod_short](includes/prod_short.md)] native data search.
 
 ## What is the intended use of Chat with Copilot?
 
@@ -74,7 +74,7 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
 - General limitations of AI
 
-  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot also includes citations or reference links that you can use to quickly verify whether Copilot has come to the correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation. It also provides information about any filters or sorting that was applied to reach an answer.
+  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot also includes citations or reference links that you can use to quickly verify whether Copilot gives a correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation. It also provides information about any filters or sorting that was applied to reach an answer.
 
 - Language limitations
 
@@ -90,19 +90,17 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
    Chat includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat might not perform as well in these cases.
 
-<!--## What operational factors and settings allow for effective and responsible use of the feature?-->
-
 ## What data does Chat with Copilot collect and how is it used
 
 Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational AI models for the benefit of others. Company administrators have full control to govern this data that is part of their Azure subscription. Because administrators or others in your company might have access to this data as determined by your employer, we recommend you don't enter sensitive data such as passwords or other secrets.
 
 ## What does Chat with Copilot offer for security
 
-Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of [!INCLUDE[prod_short](includes/prod_short.md)]'s platform security. This means that Copilot can only access data that you have access to.
+Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of [!INCLUDE[prod_short](includes/prod_short.md)]'s platform security. This design means that Copilot can only access data that you have access to.
 
 For users with SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users. Organizations that don't apply [!INCLUDE[prod_short](includes/prod_short.md)]'s security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements [!INCLUDE[prod_short](includes/prod_short.md)]'s security model or deactivates chat.
 
-## See also
+## Related information
 
-- [Chat with Copilot (preview)](chat-with-copilot.md)
-
+[Chat with Copilot (preview)](chat-with-copilot.md)  
+[Analyze data in lists with help from Copilot (preview)](analysis-assist.md)  

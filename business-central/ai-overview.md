@@ -48,7 +48,7 @@ You should consider the AI-generated text as a *suggestion only*. Suggestions ca
 
 This section explains the current limitations of AI-generated text capability provided by Copilot.
 
-- [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+- [!INCLUDE[copilot-language-support.md](includes/copilot-language-support.md)]
 - Poor suggestions can result when vague or generic product names are used and specifics about an item are missing, like key attributes or a category.
 - Copilot is only supported on Business Central online, not private cloud environments or Business Central on-premises environments.
 - Copilot isn't supported through connections to your own Azure OpenAI Service resource in your Azure subscription.

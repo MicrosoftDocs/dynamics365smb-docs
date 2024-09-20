@@ -38,7 +38,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 ## Available languages
 
-[!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

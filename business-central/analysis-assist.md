@@ -24,7 +24,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 ## Available languages
 
-[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
+[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

@@ -61,7 +61,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 - Goegraphic and language availability
 
-   [!INCLUDE[copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
+   [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
 
 - Certain industry, product, and subject limitations:
 

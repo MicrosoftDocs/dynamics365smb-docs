@@ -16,20 +16,20 @@ ms.custom: responsible-ai-faqs
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions (FAQ) describe the AI effect of the Suggest Number Series feature in [!INCLUDE [prod_short](includes/prod_short.md)].
+These frequently asked questions (FAQ) describe the AI effect of the suggest number series feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## What is Suggest Number Series with Copilot?
+## What is suggest number series with Copilot?
 
-Suggest Number Series can help you create number series for all entities and documents in [!INCLUDE [prod_short](includes/prod_short.md)] based on structured input or natural language.
+Suggest number series can help you create number series for all entities and documents in [!INCLUDE [prod_short](includes/prod_short.md)] based on structured input or natural language.
 
 * Examples of entities are customers, vendors, and items.
 * Examples of documents are quotes, orders, and invoices.
 
 The feature isn't a general-purpose chat, but a highly specific and integrated experience that you can use to administrate number series. The feature offers two distinct skills that can help you create new or modify existing number series.
 
-## What are the capabilities of Suggest Number Series?
+## What are the capabilities of suggest number series?
 
 * Create new number series
 
@@ -39,17 +39,17 @@ The feature isn't a general-purpose chat, but a highly specific and integrated e
 
    Have Copilot help you maintain your existing number series. Extending number series can feel tedious. With Copilot, you can use natural language to modify number series and build upon the suggestions from Copilot.
 
-## What is the intended use of the Suggest Number Series?
+## What is the intended use of the suggest number series?
 
-The Suggest Number Series capability is intended for system administrators who set up and maintain number series in [!INCLUDE [prod_short](includes/prod_short.md)]. It's a tool to transform requirements written in natural language into the number series structure in [!INCLUDE [prod_short](includes/prod_short.md)].
+The suggest number series capability is intended for system administrators who set up and maintain number series in [!INCLUDE [prod_short](includes/prod_short.md)]. It's a tool to transform requirements written in natural language into the number series structure in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## How was Suggest Number Series evaluated? What metrics are used to measure performance?
+## How was suggest number series evaluated? What metrics are used to measure performance?
 
-The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on Business Central's demonstration data and a large labeled product catalog available as open source.
+The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on [!INCLUDE [prod_short](includes/prod_short.md)] demonstration data and a large labeled product catalog available as open source.
 
 This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
-## What are the limitations of Suggest Number Series? How can users minimize the effect of the limitations when using the system?
+## What are the limitations of suggest number series? How can users minimize the effect of the limitations when using the system?
 
 The feature works best when you use terminology known to [!INCLUDE [prod_short](includes/prod_short.md)]. Using alternative terminology might produce results that aren't useful.
 
@@ -65,9 +65,9 @@ The feature works best when you use terminology known to [!INCLUDE [prod_short](
 
 AI-powered suggestions might be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Keep it** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted as No. Series.
 
-### What is expected of administrators and end-users when using Sales lines suggestions?
+### What is expected of administrators and end-users when using suggest number series?
 
-Each individual user chooses whether or not to use **Suggest Number Series**. Even if an administrator enables the feature and it's available, you can choose to use it always, sometimes, or never.  
+Each individual user chooses whether or not to use suggest number series. Even if an administrator enables the feature and it's available, you can choose to use it always, sometimes, or never.  
 
 Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 
@@ -75,13 +75,13 @@ Administrators make the overall decision on whether to use Copilot capabilities 
 > * We don't support this feature in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or private cloud.
 > * Partner's can't extend this feature. That means partner developers can't modify, replace, or extend it.
 
-## Is Copilot the only means to create sales lines?  
+## Is Copilot the only means to create number series?  
 
-No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] offers non-AI-powered ways to create number series. Organizations can use both approaches at the same time. To learn more, go do [Create number series](ui-create-number-series.md).
+No, the use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] offers non-AI-powered ways to create number series. Organizations can use both approaches at the same time. To learn more, go do [Create number series](ui-create-number-series.md).
 
 ## How do I give feedback about AI-generated content?  
 
-Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.
+Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the **Like** and **Dislike** buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.
 
 ## See also
 

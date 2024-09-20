@@ -59,7 +59,7 @@ The feature works best when you use terminology known to [!INCLUDE [prod_short](
 
 * Available languages
 
-   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+   [!INCLUDE [copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

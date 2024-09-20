@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 08/13/2024
+ms.date: 09/13/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot

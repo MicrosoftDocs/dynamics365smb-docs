@@ -22,7 +22,7 @@ This article explains how you can quickly generate number series in [!INCLUDE [p
 
 ## Available languages
 
-[!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+[!INCLUDE [copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
 
 ## Prerequisites
 

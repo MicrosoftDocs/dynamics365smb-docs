@@ -32,6 +32,10 @@ You typically set up your number series to automatically insert the next consecu
 
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.
 
+## Get assistance from Copilot
+
+The Suggest Number Series with Copilot feature can help administrators create and maintain number series for all entities and documents in [!INCLUDE [prod_short](includes/prod_short.md)] based on structured input or natural language. Suggest Number Series isn't a general-purpose chat feature, but a highly specific and integrated experience that you can use to administrate number series. The feature offers two distinct skills that can help you create new or modify existing number series.
+
 ## Gaps in number series
 
 Not all records that you create in [!INCLUDE[prod_short](includes/prod_short.md)] are financial transactions that must use sequential numbering. Customer cards, sales quotes, and warehouse activities are examples of records that are assigned a number from a number series, but are not subject to financial auditing and/or can be deleted. For such number series, you can select the **Allow Gaps in Nos.** checkbox on the **No. Series Lines** page. This setting can also be changed after creating the number series. For more information, see [To create a new number series](ui-create-number-series.md#to-create-a-new-number-series).

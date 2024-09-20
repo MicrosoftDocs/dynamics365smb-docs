@@ -24,12 +24,12 @@ These frequently asked questions (FAQ) describe the AI impact of the sales line 
 
 Suggest Number Series can help you create number series for all entities and documents in [!INCLUDE [prod_short](includes/prod_short.md)] based on structured input or natural language.
 
-* Examples of entities are customers, vendors, and items. 
-* Examples of documents are quotes, orders, and invoices. 
+* Examples of entities are customers, vendors, and items.
+* Examples of documents are quotes, orders, and invoices.
 
 The feature isn't a general-purpose chat, but a highly specific and integrated experience that you can use to administrate number series. The feature offers two distinct skills that can help you create new or modify existing number series.
 
-## What are capabilities of Suggest Number Series?
+## What are the capabilities of Suggest Number Series?
 
 * Create new number series
 
@@ -43,7 +43,7 @@ The feature isn't a general-purpose chat, but a highly specific and integrated e
 
 The Suggest Number Series capability is intended for system administrators who set up and maintain number series in [!INCLUDE [prod_short](includes/prod_short.md)]. It's a tool to transform requirements written in natural language into the number series structure in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## How was Suggest No. Series evaluated? What metrics are used to measure performance?
+## How was Suggest Number Series evaluated? What metrics are used to measure performance?
 
 The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on Business Central's demonstration data and a large labeled product catalog available as open source.
 
@@ -72,12 +72,12 @@ Each individual user chooses whether or not to use **Suggest Number Series**. Ev
 Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 
 > [!NOTE]
-> - We don't support this feature in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or private cloud.
-> - Partner's can't extend this feature. That means partner developers can't modify, replace, or extend it.
+> * We don't support this feature in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or private cloud.
+> * Partner's can't extend this feature. That means partner developers can't modify, replace, or extend it.
 
 ## Is Copilot the only means to create sales lines?  
 
-No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] offers non-AI-powered ways to create number series. Organizations can use both approaches at the same time.  
+No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] offers non-AI-powered ways to create number series. Organizations can use both approaches at the same time. To learn more, go do [Create number series](ui-create-number-series.md).
 
 ## How do I give feedback about AI-generated content?  
 

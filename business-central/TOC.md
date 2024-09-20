@@ -2136,7 +2136,7 @@ ms.service: dynamics-365-business-central
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Suggest number series
-### [Suggest number series with Copilot](suggest-number-series-copilot.md)
+### [Suggest number series with Copilot (preview)](suggest-number-series-copilot.md)
 ### [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)

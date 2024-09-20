@@ -1,5 +1,5 @@
 ---
-title: Suggest number series with Copilot
+title: Suggest number series with Copilot (preview)
 description: This article provides information about the AI technology used in Business Central.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,11 +12,11 @@ ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
-# Suggest number series with Copilot
+# Suggest number series with Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how you can quickly generate number series in [!INCLUDE [prod_short](includes/prod_short.md)] with assistance from Copilot. 
+This article explains how you can quickly generate number series in [!INCLUDE [prod_short](includes/prod_short.md)] with assistance from Copilot.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

@@ -63,13 +63,13 @@ On the most common pages, like **Customers**, **Contacts**, and **Items**, you c
 
 *Legacy search* is the older search method, which is the only method available in Business Central 2024 release wave 1 and earlier. *Modern search* is a newer, faster, and more flexible search method.
 
-A major difference between the two methods is that the legacy search finds only records that contain the exact search words in order you enter them. The modern search finds any records that contain the exact or approximate search words, regardless of the order you enter them.
+The key difference is that legacy search only finds records with the exact words in the order you type them, while modern search finds records with the exact or similar words in any order.
 
-For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. If you use the legacy search to search for `London chair`, it won't find anything, because `London chair` doesn't match any part of the actual name **LONDON Swivel Chair**. However, if you do the same search using modern search, it finds the item because it matched the word "London" and "chair".
+For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. A legacy search for `London chair` won't yield any results because it doesn’t match any part of **LONDON Swivel Chair**. However, doing the same search using modern search will find the item by matching "London" and "chair".
 
-As another example, suppose you want to find all blue chairs. With modern search, you can use `blue chair` or `chair blue`, which returns both **LONDON Swivel Chair, blue** and **TOKYO Guest Chair, blue** in the CRONUS demonstration company. Using the legacy search, you have to search for `chairs, blue`.  
+Similarly, if you want to find all blue chairs, modern search allows you to use `blue chair` or `chair blue`, which retrieves both **LONDON Swivel Chair, blue** and **TOKYO Guest Chair, blue** in the CRONUS demonstration company. Conversely, using legacy search requires searching for `chairs, blue`.  
 
-Modern search also lets you enclose search word in quotes to narrow the results, similar to popular search engines. The search words `"blue chair"` returns no results because the item descriptions in the demonstration data are listed as "chair, blue", which is similar to the legacy search experience.
+Modern search also supports enclosing search terms in quotes to refine results, similar to popular search engines. For example, searching `"blue chair"` returns no results because the item descriptions in the demonstration data are listed as **chair, blue**. This behavior mimics the legacy search. 
 
 > [!NOTE]
 > - Modern search only searches columns that are designed for modern search, which is determined by a developer. If you're having trouble finding data that you know exists, try using the legacy search.

@@ -44,6 +44,8 @@ At the top of each list page, there's a ![Search list.](media/ui-search/search-l
 
 To search, select the **Search** icon or <kbd>F3</kbd> on your keyboard. In the box, type the text that you're looking for. You can enter letters, numbers, and other symbols.
 
+![Shows search box](media/ui-search/search-list-box.png)
+
 In general, search attempts to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
 > [!NOTE]  
@@ -59,9 +61,9 @@ On the most common pages, like **Customers**, **Contacts**, ans **Items**, you c
 
 ![Show search box options for modern and legacy search](media/ui-search/search-modern-legacy-options.png)
 
-*Legacy search* is the older search method, which is the only method available in Business Central 2024 relase wave 1 and earlier. *Modern search* is a newer faster and more flexible search method. 
+Legacy search is the older search method, which is the only method available in Business Central 2024 relase wave 1 and earlier. Modern search is a newer faster and more flexible search method.
 
-The main difference between the two methods is that the legacy search finds only exact matches on your search text, which isn't the case with the modern search. For example, consider the item named **LONDON Swivel Chair** in the CRONUS demonstration company. If you use the legacy search and enter *London chair*, it won't find anything because there’s no exact match. However, if the using the modern search for the same query readily finds the item.
+One of the main differences between the two methods is that the legacy search finds only exact text matches, while modern search finds . For example, consider the item named **LONDON Swivel Chair** in the CRONUS demonstration company. If you use the legacy search and enter *London chair*, it won't find anything because there’s no exact match. However, if the using the modern search for the same query readily finds the item.
 
 The modern search also allows users to enclose search terms in quotes to narrow the results, similar to popular search engines. For example, using the CRONUS demonstration data again: 
 

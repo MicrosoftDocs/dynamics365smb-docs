@@ -42,9 +42,9 @@ The **On current page** section lets you find actions on the page you have open.
 
 ## Find a page or a task
 
-The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. For more information, go to [Add a Page Action to Your Role Center](ui-bookmarks.md).
+The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. Learn more in [Add a Page Action to Your Role Center](ui-bookmarks.md).
 
-The pages and tasks that are listed depend on the user experience you chose for your company. The **Essential** experience gives access to fewer pages and tasks than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. To learn more about user experiences, go to [Customizing Your [!INCLUDE[prod_short](includes/prod_short.md)] Experience](ui-experiences.md).
+The pages and tasks that are listed depend on the user experience you chose for your company. The **Essential** experience gives access to fewer pages and tasks than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. Learn more about user experiences in [Customizing Your [!INCLUDE[prod_short](includes/prod_short.md)] Experience](ui-experiences.md).
 
 ## Find a report or archived information
 
@@ -78,12 +78,12 @@ Just enter at least three characters of a keyword, and then choose either **Sear
 
 Our partner community is busily developing apps that add capabilities to [!INCLUDE[prod_short](includes/prod_short.md)]. The **Get from Microsoft AppSource** section lists apps for [!INCLUDE[prod_short](includes/prod_short.md)] that are available on Microsoft AppSource and are related to the keyword you searched for.
 
-### Use Search on list pages
+## Use Search on list pages
 
 It isn't related to Tell me what you want to do, but there's another way to search for specific data. When you're using a list page, you can use the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** field in the left corner of list page headers to search for data on the page. The search applies only to the list you're viewing. To learn more about working with data on list pages, go to [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md).  
 
 > [!TIP]
-> You can search for posted document lines, such as invoice lines, credit memo lines, shipment lines, and receipt lines. Search for the type of document lines that you want to find, and then bookmark the links to the documents on your home page for easy access to the original or a filtered view. Learn more at [Add a Page Action to Your Role Center](ui-bookmarks.md).
+> You can search for posted document lines, such as invoice lines, credit memo lines, shipment lines, and receipt lines. Search for the type of document lines that you want to find, and then bookmark the links to the documents on your home page for easy access to the original or a filtered view. Learn more in [Add a Page Action to Your Role Center](ui-bookmarks.md).
 
 ## Questions?
 

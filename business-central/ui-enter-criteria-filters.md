@@ -40,10 +40,9 @@ To sort a list, you can either:
 
 ## Searching
 
-<!--## Searching by using the Quick Filter -->
 At the top of each list page, there's a ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you're interested in seeing.
 
-To search, just choose the **Search** action, and then in the box, type the text that you're looking for. You can enter letters, numbers, and other symbols.
+To search, select the **Search** action, and then in the box, type the text that you're looking for. You can enter letters, numbers, and other symbols.
 
 In general, search will attempt to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
@@ -52,7 +51,6 @@ In general, search will attempt to match text across all fields. It doesn't dist
 
 > [!NOTE]  
 > Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
-
 
 ### Fine-tuning the Search with Filter criteria
 

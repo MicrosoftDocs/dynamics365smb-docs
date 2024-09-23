@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
 ---
-# Sorting, Searching, and Filtering
+# Sorting, searching, and filtering
 
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
 
@@ -40,19 +40,19 @@ To sort a list, you can either:
 
 ## Searching
 
-At the top of each list page, there's a ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you're interested in seeing.
+At the top of each list page, there's a ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you're interested in.
 
-To search, select the **Search** action, and then in the box, type the text that you're looking for. You can enter letters, numbers, and other symbols.
+To search, select the **Search** icon or <kbd>F3</kbd> on your keyboard. In the box, type the text that you're looking for. You can enter letters, numbers, and other symbols.
 
-In general, search will attempt to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
+In general, search attempts to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
-> [!TIP]
-> You can select <kbd>F3</kbd> to activate and deactivate the search box. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+### Use modern 
+
 
 > [!NOTE]  
 > Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
 
-### Fine-tuning the Search with Filter criteria
+### Fine-tuning the search with filter criteria (legacy search only)
 
 You can make a more exact search by using filter operators, expressions, and filter tokens. Unlike filtering, these are applied across all fields when used in the search box, making them less efficient than filtering.
 
@@ -74,7 +74,6 @@ The following table provides some examples to explain how you can use the search
 |`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Sportsman**.|
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
-
 ## <a name="filtering"></a>Filtering
 
 Filtering provides a more advanced and versatile way to control which records are included in a list, report, or XMLport. There are two major differences between searching and filtering, as described in the table below.
@@ -88,16 +87,16 @@ Filtering enables you to display records for specific accounts or customers, dat
 
 For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, batch jobs, and XMLports, the filters are visible directly on the request page.
 
-### Filtering with Option Fields
+### Filtering with option fields
 
-For "ordinary" fields that hold data, setup date, or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
+For "ordinary" fields that hold data, setup date, or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. Learn more in [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 For fields of type **Option**, however, you can only set a filter by selecting one or more options from a drop-down list of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
 
 > [!NOTE]
 > When you select multiple options as a filter value, the relationship between the options is defined as *OR*. For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
 
-### Setting Filters on Lists
+### Setting filters on lists
 
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, select <kbd>Shift</kbd>+<kbd>F3</kbd>.
 
@@ -109,7 +108,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 - **Views**
 
-  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list. The views will be available to you on any device you sign into. For more information, see [Save and Personalize List Views](ui-views.md).
+  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list. The views will be available to you on any device you sign into. Learn more in [Save and Personalize List Views](ui-views.md).
 
 - **Filter list by**
 
@@ -120,38 +119,38 @@ The filter pane displays the current filters for a list, and enables you to set 
   Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter the list by or pick a field from the drop-down list.
 
   > [!NOTE]
-  > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. Learn the technical aspect of FlowFilters at [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### Setting Filters in Reports, Batch Jobs, and XMLports
+### Setting filters in reports, batch jobs, and XMLports
 
-For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
+For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. Learn more in [Use Saved Settings](ui-work-report.md#SavedSettings).
 
 The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
 In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report or XMLport. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-## Entering Filter Criteria
+## Entering filter criteria
 
 Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
-The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
+The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. Learn more information about special filter symbols in [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 
 Columns that already have filters are indicated by the ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
 > [!TIP]
-> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> to add that field to the filter pane, type the filter criteria, use <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to return to the rows, select another field, and use <kbd>Alt</kbd>+<kbd>F3</kbd> to filter to that value. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> to add that field to the filter pane, type the filter criteria, use <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to return to the rows, select another field, and use <kbd>Alt</kbd>+<kbd>F3</kbd> to filter to that value. Learn more in [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filter Criteria and Operators
+### <a name="FilterCriteria"> </a>Filter criteria and operators
 
 When you enter criteria, you can use all the numbers and letters that you normally use in the field. But there's also a set of special symbols that you can use as operators to further filter the results. The following sections describe these symbols and how to use them as operators in filters.
 
 > [!TIP]
-> For more information about filtering dates and times, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
+> Learn more about filtering dates and times in [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
-> - There may be situations where the value that you want to filter on contains a symbol that's an operator. For more information about handling these situtions, see [Filtering on Values That Contain Symbols](#symbols) for more instructions about handling this situation.
+> - There may be situations where the value that you want to filter on contains a symbol that's an operator. Learn more about handling these situations in [Filtering on Values That Contain Symbols](#symbols).
 >
 > - If there are more than 200 operators in a single filter, the system will automatically group some expressions in parentheses `()` for the purpose of processing. This has no effect on the filter or the results.  
 
@@ -169,7 +168,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59| 
 
 > [!TIP]
-> If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
+> If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. Learn more in [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
 > [!NOTE]  
 > If the field that you filter on is of type Text, then lexiographic ordering is used to determine what's included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 also includes values 100000 and 1000042.
@@ -265,14 +264,14 @@ If you want to filter on any of these symbols, place the filter expression in si
 
 This requirement isn't necessary for other symbols.
 
-### <a name="FilterTokens"> </a>Filter Tokens
+### <a name="FilterTokens"> </a>Filter tokens
 
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. Filter tokens make filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
-> Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
+> Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. Learn the technical aspect of filter tokens at [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### (%me or %user) Records Assigned to You
+#### (%me or %user) Records assigned to you
 
 Use `%me` or `%user` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 
@@ -304,11 +303,11 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |-----------------------|-----------------------|  
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
-## See also
+## Related information
 
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalize List Views](ui-views.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

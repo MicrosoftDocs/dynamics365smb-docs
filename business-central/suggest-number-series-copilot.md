@@ -43,9 +43,9 @@ By letting you use natural language or structured input, Copilot can reduce the 
 
 ## Review the suggestions and refine your prompt
 
-You can set up number series for one or more specific entities, such as *items**, or one or more feature areas (modules), such as Inventory, Finance, Sales, and Purchasing.
+You can set up number series for one or more specific entities, such as items, or one or more feature areas (modules), such as Inventory, Finance, Sales, and Purchasing, and so on.
 
-For specific entities, such as purchase orders, Copilot might also suggest blanket purchase order and purchase return orders.
+For specific entities, such as purchase orders, Copilot might also suggest blanket purchase orders and purchase return orders.
 
 For feature areas, Copilot looks at the fields on the **Numbering** FastTab on the related setup page. For example, for Inventory, it looks at the FastTab on the **Inventory Setup** page. For Sales and Purchasing, it looks at the FastTab on the **Sales & Receivables** and **Purchases & Payables** pages. However, it also looks at related entities, which means it might suggest series for entities that aren't on the setup page. For example, when you create a series for Warehouse Management, Copilot might suggest a series for items.
 
@@ -53,28 +53,28 @@ We recommend that you carefully review the results and adjust your prompt to exc
 
 ## Generate number series
 
-Copilot can help you create and update number series faster on the **No. Series** page. The **Generate** action opens the **Generate No. Series with Copilot** dialog where you can enter a prompt.
+Copilot can help you create and update number series on the **No. Series** page. The **Generate** action opens the **Generate No. Series with Copilot** dialog where you can enter a prompt.
 
-To help you write the prompt, the Prompt Guide :::image type="content" source="media/prompt-guide-icon.png" alt-text="Show the Prompt Guide icon."::: button provides sets of prompts that you can use as inspiration.
+To help you write the prompt, the Prompt Guide :::image type="content" source="media/prompt-guide-icon.png" alt-text="Show the Prompt Guide icon."::: button provides sets of prompts that you can use as-is, or as inspiration.
 
 - Create entirely new number series.
 - Change and update numbering in existing series.
-- Create a new number series for the coming year.
+- Create a new number series for the next year.
 
 After you enter your prompt and choose **Generate**, Copilot creates proposals for one or more number series. You can review the proposals in the **No. Series Proposals** view. You can remove the proposals that you don't like, and edit the ones you do. When you're ready, you can choose **Keep it** to add or update a proposal. In addition, Copilot updates various setup pages with the number series you decided to keep.
 
 ## Examples of prompts
 
-- Create contract credit memo no series. Make sure it includes last two digits of current year.
+- Create contract credit memo number series. Make sure it includes the last two digits of the current year.
 
-   Create a single number series with a "twist" of including a year in it. For accountants, including a year on numbers for posted documents can make it easier to find hard copies in folders.
-- Set up contract credit memo number series in the service management module for the next year.
+   Create a number series that includes a year. For accountants, including a year on numbers for posted documents can make it easier to find hard copies in folders.
+- Set up a contract credit memo number series in the service management module for the next year.
 
    Maintain number series and prepare for next year.
 
-- Create numbers series for the new company. Make sure all posted documents contain the last to digits of the current year in their number series.
+- Create numbers series for the new company. Make sure all posted documents contain the last to digits of the current year.
 
-   Create and set up number series in a completely empty company. This is where Copilot can save your hours, or even days, in new implementations.
+   Create number series in a completely empty company. This is where Copilot can save your hours, or even days, in new implementations.
 
 ## See also
 

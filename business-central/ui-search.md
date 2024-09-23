@@ -5,12 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: find, Tell Me, search
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/14/2023
+ms.date: 09/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Finding Pages and Information with Tell Me
+# Finding pages and information with Tell Me
 
 This article describes how the in-product search, *Tell me what you want to do*, can help you: 
 
@@ -54,7 +54,7 @@ The **Go to Reports and Analysis** section offers access to reporting tools. For
 
 The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple of ways to search:
 
-* Use the **Search company data** action to search all pages in [!INCLUDE [prod_short](includes/prod_short.md)].
+* Use the **Search company data** action to search all pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more about how the company data search works in [](ui-search-data.md)
 * Use the **Search Help** action to find an article in the Business Central documentation that contains your keyword.
 
   > [!NOTE]  
@@ -78,9 +78,9 @@ Just enter at least three characters of a keyword, and then choose either **Sear
 
 Our partner community is busily developing apps that add capabilities to [!INCLUDE[prod_short](includes/prod_short.md)]. The **Get from Microsoft AppSource** section lists apps for [!INCLUDE[prod_short](includes/prod_short.md)] that are available on Microsoft AppSource and are related to the keyword you searched for.
 
-## Use Search on list pages
+## Use search on list pages
 
-It isn't related to Tell me what you want to do, but there's another way to search for specific data. When you're using a list page, you can use the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** field in the left corner of list page headers to search for data on the page. The search applies only to the list you're viewing. To learn more about working with data on list pages, go to [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md).  
+It isn't related to Tell me what you want to do, but there's another way to search for specific data. When you're using a list page, you can use the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** field in the left corner of list page headers to search for data on the page. The search applies only to the list you're viewing. Learn more about working with data on list pages [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md#searching).  
 
 > [!TIP]
 > You can search for posted document lines, such as invoice lines, credit memo lines, shipment lines, and receipt lines. Search for the type of document lines that you want to find, and then bookmark the links to the documents on your home page for easy access to the original or a filtered view. Learn more in [Add a Page Action to Your Role Center](ui-bookmarks.md).

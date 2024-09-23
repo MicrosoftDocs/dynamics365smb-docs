@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
 ---
-# Sorting, searching, and filtering
+# Sorting, searching, and filtering data in lists, reports, or XMLports
 
 There are a few things that you can do that help you scan, find, and limit records on a list or in a report or XMLport. These things include operations like sorting, searching, and filtering. You can apply some or all of these operations simultaneously to quickly find or analyze your data.
 
@@ -65,9 +65,10 @@ On the most common pages, like **Customers**, **Contacts**, and **Items**, you c
 
 A main difference between the two methods is that the legacy search finds only records that contain the exact search words in order you enter them. The modern search finds any records that contain the exact or approximate search words, regardless of the order you enter them.
 
-For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. If you use the legacy search to search for `London chair`, it won't find anything, because `London chair` doen't match the actual name **LONDON Swivel Chair**, so there's no match. However, if you do the same search using modern search, it finds the item because it matched the word "London" and "chair".
+For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. If you use the legacy search to search for `London chair`, it won't find anything, because `London chair` doesn't match any part of the actual name **LONDON Swivel Chair**. However, if you do the same search using modern search, it finds the item because it matched the word "London" and "chair".
 
-As another example, suppose you want to find all blue chairs. Using the legacy search, you have to search for `chairs, blue`. With modern search, you can use `blue chair` or `chair blue`.
+As another example, suppose you want to find all blue chairs. With modern search, you can use `blue chair` or `chair blue`, which returns both **LONDON Swivel Chair, blue** and **TOKYO Guest Chair, blue** in the CRONUS demonstration company. Using the legacy search, you have to search for `chairs, blue`.  
+
 Modern search also lets you enclose search word in quotes to narrow the results, similar to popular search engines. The search words `"blue chair"` returns no results because the item descriptions in the demonstration data are listed as "chair, blue", which is similar to the legacy search experience.
 
 > [!NOTE]

@@ -65,16 +65,11 @@ After you enter your prompt and choose **Generate**, Copilot creates proposals f
 
 ## Examples of prompts
 
-- Create contract credit memo number series. Make sure it includes the last two digits of the current year.
-
-   Create a number series that includes a year. For accountants, including a year on numbers for posted documents can make it easier to find hard copies in folders.
-- Set up a contract credit memo number series in the service management module for the next year.
-
-   Maintain number series and prepare for next year.
-
-- Create numbers series for the new company. Make sure all posted documents contain the last to digits of the current year.
-
-   Create number series in a completely empty company. This is where Copilot can save your hours, or even days, in new implementations.
+|Intent  |Prompt  |
+|---------|---------|
+|Create a number series that includes a year. For accountants, including a year on numbers for posted documents can make it easier to find hard copies in folders.     |Create contract credit memo number series. Make sure it includes the last two digits of the current year.         |
+|Maintain number series and prepare for next year.     | Set up a contract credit memo number series in the service management module for the next year.        |
+|Create number series in a completely empty company. This is where Copilot can save your hours, or even days, in new implementations.     | Create numbers series for the new company. Make sure all posted documents contain the last to digits of the current year.        |
 
 ## See also
 

@@ -46,11 +46,33 @@ To search, select the **Search** icon or <kbd>F3</kbd> on your keyboard. In the 
 
 In general, search attempts to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
-### Use modern 
-
-
 > [!NOTE]  
 > Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
+
+### Choose between modern search or legacy search
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+On the most common pages, like **Customers**, **Contacts**, ans **Items**, you can choose between two search methods by selecting the down arrow head in the **Search** box: **Use modern search** and **Use legacy search**
+
+![Show search box options for modern and legacy search](media/ui-search/search-modern-legacy-options.png)
+
+*Legacy search* is the older search method, which is the only method available in Business Central 2024 relase wave 1 and earlier. *Modern search* is a newer faster and more flexible search method. 
+
+The main difference between the two methods is that the legacy search finds only exact matches on your search text, which isn't the case with the modern search. For example, consider the item named **LONDON Swivel Chair** in the CRONUS demonstration company. If you use the legacy search and enter *London chair*, it won't find anything because there’s no exact match. However, if the using the modern search for the same query readily finds the item.
+
+The modern search also allows users to enclose search terms in quotes to narrow the results, similar to popular search engines. For example, using the CRONUS demonstration data again: 
+
+- The search term *blue chair* returns all items that match both the words "blue" and “chair”.
+- The search term *"blue chair"*  returns no results because the item descriptions in the demonstration data are listed as “chair, blue” (which is similar to the legacy search experience).
+
+> [!NOTE]
+> - If the **Use modern search** option isn't available, there are two possible reasons:
+>   - Modern search isn't enabled for your enviroment. As an administrator, verify that the **Use optimized text search in lists** switch in enabled for users in the **Feature Management** page.
+>   - The list doesn't include any columns that are designed for the modern search. As a developer, leaan more at []().
+> - Modern search is the default method if it's enabled.
 
 ### Fine-tuning the search with filter criteria (legacy search only)
 

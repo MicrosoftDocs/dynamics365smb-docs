@@ -72,14 +72,14 @@ Similarly, if you want to find all blue chairs, modern search allows you to use 
 Modern search also supports enclosing search terms in quotes to refine results, similar to popular search engines. For example, searching `"blue chair"` returns no results because the item descriptions in the demonstration data are listed as **chair, blue**. This behavior mimics the legacy search. 
 
 > [!NOTE]
-> - Modern search only searches columns that are designed for modern search, which is determined by a developer. If you're having trouble finding data that you know exists, try using the legacy search.
+> - Modern search only covers columns designated for it by a developer. If you can't find existing data, try the legacy search.
 >
->    Learn more about designing columns for modern search as a devloper at [Enable text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
+>    Learn more about designating columns for modern search at [Enable text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
 >  
-> - If the **Use modern search** option isn't available on a page, there are two possible reasons:
->   - Modern search isn't enabled for your enviroment. As an administrator, enable the **Use optimized text search in lists** feature in the **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
->   - The list doesn't include any columns that are designed for the modern search.
-> - Modern search is the default method if it's enabled.
+> - If the **Use modern search** option isn't available, it might be because:
+>   - It isn't enabled for your enviroment. Administrators can enable **Use optimized text search in lists** feature in **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
+>   - The list doesn't include any columns that are designated for modern search.
+> - Modern search is the default if enabled.
 
 ### Fine-tuning the search with filter criteria (legacy search only)
 

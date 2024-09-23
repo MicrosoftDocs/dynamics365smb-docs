@@ -63,6 +63,19 @@ To help you write the prompt, the Prompt Guide :::image type="content" source="m
 
 After you enter your prompt and choose **Generate**, Copilot creates proposals for one or more number series. You can review the proposals in the **No. Series Proposals** view. You can remove the proposals that you don't like, and edit the ones you do. When you're ready, you can choose **Keep it** to add or update a proposal. In addition, Copilot updates various setup pages with the number series you decided to keep.
 
+## Examples of prompts
+
+- Create contract credit memo no series. Make sure it includes last two digits of current year.
+
+   Create a single number series with a "twist" of including a year in it. For accountants, including a year on numbers for posted documents can make it easier to find hard copies in folders.
+- Set up contract credit memo number series in the service management module for the next year.
+
+   Maintain number series and prepare for next year.
+
+- Create numbers series for the new company. Make sure all posted documents contain the last to digits of the current year in their number series.
+
+   Create and set up number series in a completely empty company. This is where Copilot can save your hours, or even days, in new implementations.
+
 ## See also
 
 [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)  

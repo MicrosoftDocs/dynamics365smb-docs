@@ -41,19 +41,27 @@ Numbering isn't only important for identification. A well-designed numbering sys
 
 By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Set up number series
+## Refine your prompt
 
-Copilot can help you create and update number series faster on the **No. Series** page. The **Generate** action opens the **Generate No. Series with Copilot** dialog, where you can enter a prompt to create new, or modify existing, number series.
+You can set up number series for one or more specific entities, such as *items**, or one or more feature areas (modules), such as inventory.
 
-To help you write the prompt, the **Create new** action in the **Generate No. Series with Copilot** dialog provides sets of prompt guides that you can use as inspiration.
+For specific entities, such as purchase orders, Copilot might also suggest blanket purchase order and purchase return orders.
 
-When you choose **Generate**, Copilot creates proposals for one or more number series. You can review the proposals in the **No. Series Proposals** view. You can remove the proposals that you don't like, and edit the ones you do. When you're ready, you can choose **Keep it** to add or update a proposal. In addition, Copilot updates various setup pages with the number series you decided to keep.
+For feature areas, Copilot looks at the fields on the **Numbering** FastTab on the related setup page. For example, for inventory, it looks at the FastTab on the **Inventory Setup** page. For sales and purchases, it looks at the FastTab on the **Sales & Receivables** and **Purchases & Payables** pages. However, it also looks at related entities, which means it might suggest series for entities that aren't on the setup page. For example, when you create a series for Warehouse Management, Copilot might suggest a series for items.
 
-## Update number series
+We recommend that you carefully review the results and adjust your prompt to exclude unwanted series. For example, both the Warehouse and Inventory areas might suggest series for items. To avoid a conflict, you can exclude items in your prompt for one of those areas.
 
-In the **Generate No. Series with Copilot** dialog, the **Modify existing** action offers sets of prompt guides to help you write a prompt to update an existing number series.
+## Generate number series
 
-When you choose **Generate**, Copilot updates one or more number series proposals. You can review the proposals in the **No. Series proposals** view. You can remove the proposals Copilot generated, and edit the ones you like. When you're ready, you can choose **Keep it** to add or update a proposal.
+Copilot can help you create and update number series faster on the **No. Series** page. The **Generate** action opens the **Generate No. Series with Copilot** dialog where you can enter a prompt.
+
+To help you write the prompt, the Prompt Guide :::image type="content" source="media/prompt-guide-icon.png" alt-text="Show the Prompt Guide icon."::: button provides sets of prompts that you can use as inspiration.
+
+- Create entirely new number series.
+- Change and update numbering in existing series.
+- Create a new number series for the coming year.
+
+After you enter your prompt and choose **Generate**, Copilot creates proposals for one or more number series. You can review the proposals in the **No. Series Proposals** view. You can remove the proposals that you don't like, and edit the ones you do. When you're ready, you can choose **Keep it** to add or update a proposal. In addition, Copilot updates various setup pages with the number series you decided to keep.
 
 ## See also
 

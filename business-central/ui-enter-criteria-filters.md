@@ -70,11 +70,11 @@ The modern search also allows users to enclose search terms in quotes to narrow 
 
 > [!NOTE]
 > - Modern search only searches columns that are designed for modern search, as determined by the developer. If you're having trouble finding data that you know exists, try using the legacy search.
-
-    Learn more about designing columns for moderen search at [](). 
-  
-> - If the **Use modern search** option isn't available, there are two possible reasons:
->   - Modern search isn't enabled for your enviroment. As an administrator, verify that the **Use optimized text search in lists** switch in enabled for users in the **Feature Management** page.
+>
+>    Learn more about designing columns for moderen search at [](). 
+>  
+> - If the **Use modern search** option isn't available on a page, there are two possible reasons:
+>   - Modern search isn't enabled for your enviroment. As an administrator, enable the **Use optimized text search in lists** feature in the **Feature Management** page.
 >   - The list doesn't include any columns that are designed for the modern search.
 > - Modern search is the default method if it's enabled.
 

@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 ---
 # Sorting, searching, and filtering
 
-There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+There are a few things that you can do that help you scan, find, and limit records on a list or in a report or XMLport. These things include operations like sorting, searching, and filtering. You can apply some or all of these operations simultaneously to quickly find or analyze your data.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -46,7 +46,7 @@ To search, select the **Search** icon or <kbd>F3</kbd> on your keyboard. In the 
 
 ![Shows search box](media/ui-search/search-list-box.png)
 
-In general, search attempts to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
+In general, search attempts to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and matches text placed anywhere in the field, at the beginning, end, or in the middle.
 
 > [!NOTE]  
 > Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
@@ -57,18 +57,16 @@ In general, search attempts to match text across all fields. It doesn't distingu
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-On the most common pages, like **Customers**, **Contacts**, ans **Items**, you can choose between two search methods by selecting the down arrow head in the **Search** box: **Use modern search** and **Use legacy search**
+On the most common pages, like **Customers**, **Contacts**, and **Items**, you can choose between two search methods by selecting the down arrow head in the **Search** box: **Use modern search** and **Use legacy search**
 
 ![Show search box options for modern and legacy search](media/ui-search/search-modern-legacy-options.png)
 
-Legacy search is the older search method, which is the only method available in Business Central 2024 relase wave 1 and earlier. Modern search is a newer faster and more flexible search method.
+Legacy search is the older search method, which is the only method available in Business Central 2024 release wave 1 and earlier. Modern search is a newer faster and more flexible search method.
 
-One of the main differences between the two methods is that the legacy search finds only exact text matches, while modern search finds . For example, consider the item named **LONDON Swivel Chair** in the CRONUS demonstration company. If you use the legacy search and enter *London chair*, it won't find anything because there’s no exact match. However, if the using the modern search for the same query readily finds the item.
+One of the main differences between the two methods is that the legacy search finds only records that contain the exact search words in order you enter them. The modern search finds any records that contain the exact or approximate search words, regardless of the entered order. For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. If you use the legacy search to search for `London chair`, it won't find anything because there's no exact match. However, if you do the same search using modern search, it finds the item because it matched the word "London" and "chair".
 
-The modern search also allows users to enclose search terms in quotes to narrow the results, similar to popular search engines. For example, using the CRONUS demonstration data again: 
-
-- The search term *blue chair* returns all items that match both the words "blue" and “chair”.
-- The search term *"blue chair"*  returns no results because the item descriptions in the demonstration data are listed as “chair, blue” (which is similar to the legacy search experience).
+As another example, suppose you want to find all blue chairs. Using the legacy search, you have to search for `chairs, blue`. With modern search, you can use `blue chair` or `chair blue`.
+Modern search also lets you enclose search word in quotes to narrow the results, similar to popular search engines. The search words `"blue chair"` returns no results because the item descriptions in the demonstration data are listed as "chair, blue", which is similar to the legacy search experience.
 
 > [!NOTE]
 > - Modern search only searches columns that are designed for modern search, as determined by the developer. If you're having trouble finding data that you know exists, try using the legacy search.
@@ -90,7 +88,7 @@ You can make a more exact search by using filter operators, expressions, and fil
 
 - To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`).
 
-- When using  `''` or `*`, the search is case-sensitive. If you want to make the search case insensitive, place `@` before the search text (for example `@man*`).
+- When you use `''` or `*`, the search is case-sensitive. If you want to make the search case insensitive, place `@` before the search text (for example `@man*`).
 
 The following table provides some examples to explain how you can use the search.
 

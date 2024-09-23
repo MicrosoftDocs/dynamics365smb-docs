@@ -16,11 +16,11 @@ ms.search.form: 7775
 
 Although Copilot in Business Central is available in all geographic areas where Business Central online is available, it requires the Microsoft Azure OpenAI Service, which is available only in specific regions.  
 
-Depending on where your environment is hosted, you might need to allow data to move outside of your primary data residency to an Azure OpenAI endpoint located in another geographic area. You provide consent in the Copilot & AI capabilities page. If you don't provide consent, Copilot won't be available to your organization.
+Depending on where your environment is hosted, you might need to allow data to move outside of your primary data residency to an Azure OpenAI endpoint located in another geography. You provide consent in the **Copilot & AI capabilities** page. If you don't provide consent, Copilot won't be available to your organization. Learn how to provide consent in [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
 
 ## How data movement across geographies works
 
-When you use Copilot, your inputs (prompts) and outputs (results), including any personal data, might move outside of your geographic area to the location where the Azure OpenAI Service endpoint is hosted. We might store prompt and output data for up to 24 hours to monitor for abuse, but we don't look at it unless our automated systems flag it for review. We don't use your data to train, retrain, or improve Azure OpenAI Service foundation models.
+When you use Copilot, your inputs (prompts) and outputs (results), including any personal data, might move outside of your geographic area to the location where the Azure OpenAI Service endpoint is hosted. We might store prompt and output data for up to 24 hours to [monitor for abuse, but we don't look at it unless our automated systems flag it for review. We don't use your data to train, retrain, or improve Azure OpenAI Service foundation models. Learn more at [Abuse Monitoring](/azure/ai-services/openai/concepts/abuse-monitoring).
 
 > [!IMPORTANT]
 > If your Business Central environment is hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary. 
@@ -40,7 +40,6 @@ To find the Azure region where a Business Central environment is hosted, sign in
 
 ![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg)
 
-
 > [!NOTE]
 > Individual Copilot features might not be available in all geographies. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 >
@@ -48,5 +47,4 @@ To find the Azure region where a Business Central environment is hosted, sign in
 
 ## Related information
 
-
-
+[Business Central country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

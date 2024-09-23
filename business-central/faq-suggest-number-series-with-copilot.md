@@ -39,6 +39,10 @@ The feature isn't a general-purpose chat, but a highly specific and integrated e
 
    Have Copilot help you maintain your existing number series. Extending number series can feel tedious. With Copilot, you can use natural language to modify number series and build upon the suggestions from Copilot.
 
+* Prepare new number series for the next year
+
+   Get ready for the next fiscal year by creating new number series ahead of time.
+
 ## What is the intended use of the suggest number series?
 
 The suggest number series capability is intended for system administrators who set up and maintain number series in [!INCLUDE [prod_short](includes/prod_short.md)]. It's a tool to transform requirements written in natural language into the number series structure in [!INCLUDE [prod_short](includes/prod_short.md)].

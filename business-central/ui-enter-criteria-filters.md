@@ -57,13 +57,15 @@ In general, search attempts to match text across all fields. It doesn't distingu
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-On the most common pages, like **Customers**, **Contacts**, and **Items**, you can choose between two search methods by selecting the down arrow head in the **Search** box: **Use modern search** and **Use legacy search**
+On the most common pages, like **Customers**, **Contacts**, and **Items**, you can select  the down arrow in the **Search** box to choose between two search methods: **Use modern search** and **Use legacy search**:
 
 ![Show search box options for modern and legacy search](media/ui-search/search-modern-legacy-options.png)
 
-Legacy search is the older search method, which is the only method available in Business Central 2024 release wave 1 and earlier. Modern search is a newer faster and more flexible search method.
+*Legacy search* is the older search method, which is the only method available in Business Central 2024 release wave 1 and earlier. *Modern search* is a newer, faster, and more flexible search method.
 
-One of the main differences between the two methods is that the legacy search finds only records that contain the exact search words in order you enter them. The modern search finds any records that contain the exact or approximate search words, regardless of the entered order. For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. If you use the legacy search to search for `London chair`, it won't find anything because there's no exact match. However, if you do the same search using modern search, it finds the item because it matched the word "London" and "chair".
+A main difference between the two methods is that the legacy search finds only records that contain the exact search words in order you enter them. The modern search finds any records that contain the exact or approximate search words, regardless of the order you enter them.
+
+For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. If you use the legacy search to search for `London chair`, it won't find anything, because `London chair` doen't match the actual name **LONDON Swivel Chair**, so there's no match. However, if you do the same search using modern search, it finds the item because it matched the word "London" and "chair".
 
 As another example, suppose you want to find all blue chairs. Using the legacy search, you have to search for `chairs, blue`. With modern search, you can use `blue chair` or `chair blue`.
 Modern search also lets you enclose search word in quotes to narrow the results, similar to popular search engines. The search words `"blue chair"` returns no results because the item descriptions in the demonstration data are listed as "chair, blue", which is similar to the legacy search experience.

@@ -41,7 +41,7 @@ Numbering isn't only important for identification. A well-designed numbering sys
 
 By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Review the suggestions ane refine your prompt
+## Review the suggestions and refine your prompt
 
 You can set up number series for one or more specific entities, such as *items**, or one or more feature areas (modules), such as Inventory, Finance, Sales, and Purchasing.
 

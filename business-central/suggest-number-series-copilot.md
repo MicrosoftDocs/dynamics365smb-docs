@@ -41,13 +41,13 @@ Numbering isn't only important for identification. A well-designed numbering sys
 
 By letting you use natural language or structured input, Copilot can reduce the time it takes to set up number series and make it easier to maintain them. For example, when you need to update year or month-based numbering for many draft and posted documents in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Refine your prompt
+## Review the suggestions ane refine your prompt
 
-You can set up number series for one or more specific entities, such as *items**, or one or more feature areas (modules), such as inventory.
+You can set up number series for one or more specific entities, such as *items**, or one or more feature areas (modules), such as Inventory, Finance, Sales, and Purchasing.
 
 For specific entities, such as purchase orders, Copilot might also suggest blanket purchase order and purchase return orders.
 
-For feature areas, Copilot looks at the fields on the **Numbering** FastTab on the related setup page. For example, for inventory, it looks at the FastTab on the **Inventory Setup** page. For sales and purchases, it looks at the FastTab on the **Sales & Receivables** and **Purchases & Payables** pages. However, it also looks at related entities, which means it might suggest series for entities that aren't on the setup page. For example, when you create a series for Warehouse Management, Copilot might suggest a series for items.
+For feature areas, Copilot looks at the fields on the **Numbering** FastTab on the related setup page. For example, for Inventory, it looks at the FastTab on the **Inventory Setup** page. For Sales and Purchasing, it looks at the FastTab on the **Sales & Receivables** and **Purchases & Payables** pages. However, it also looks at related entities, which means it might suggest series for entities that aren't on the setup page. For example, when you create a series for Warehouse Management, Copilot might suggest a series for items.
 
 We recommend that you carefully review the results and adjust your prompt to exclude unwanted series. For example, both the Warehouse and Inventory areas might suggest series for items. To avoid a conflict, you can exclude items in your prompt for one of those areas.
 

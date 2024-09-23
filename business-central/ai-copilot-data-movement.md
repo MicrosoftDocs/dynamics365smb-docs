@@ -36,7 +36,10 @@ The following table describes when and how data can move across geographies for 
 > [!IMPORTANT]
 > The **Allow data movement** toggle switch is on by default from version 25.0, and administrators can opt out at any time, even before environments are upgraded. Environments upgrading to version 25.0 or later have the Allow data movement switch enabled from 3 November 2024, or from the date you have specified for the environment to be upgraded to version 25.0. New environments created after 1 October 2024 will have the Allow data movement switch on. 
 
-To find the Azure region where a Business Central environment is hosted, sign in to the Business Central admin center, choose the environment to display details, and then find the **Azure Region** field. Learn more at [Managing environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments). 
+To find the Azure region where a Business Central environment is hosted, sign in to the Business Central admin center, choose the environment to display details, and then find the **Azure Region** field. Learn more at [Managing environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).
+
+![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg)
+
 
 > [!NOTE]
 > Individual Copilot features might not be available in all geographies. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).

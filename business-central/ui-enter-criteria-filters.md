@@ -71,10 +71,10 @@ Modern search also lets you enclose search word in quotes to narrow the results,
 > [!NOTE]
 > - Modern search only searches columns that are designed for modern search, which is determined by a developer. If you're having trouble finding data that you know exists, try using the legacy search.
 >
->    Learn more about designing columns for moderen search as a devloper at [](). 
+>    Learn more about designing columns for modern search as a devloper at [Enable text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
 >  
 > - If the **Use modern search** option isn't available on a page, there are two possible reasons:
->   - Modern search isn't enabled for your enviroment. As an administrator, enable the **Use optimized text search in lists** feature in the **Feature Management** page.
+>   - Modern search isn't enabled for your enviroment. As an administrator, enable the **Use optimized text search in lists** feature in the **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
 >   - The list doesn't include any columns that are designed for the modern search.
 > - Modern search is the default method if it's enabled.
 
@@ -102,14 +102,14 @@ The following table provides some examples to explain how you can use the search
 
 ## <a name="filtering"></a>Filtering
 
-Filtering provides a more advanced and versatile way to control which records are included in a list, report, or XMLport. There are two major differences between searching and filtering, as described in the table below.
+Filtering provides a more advanced and versatile way to control which records are included in a list, report, or XMLport. There are two major differences between searching and filtering, as described in the following table.
 
 || **Searching** | **Filtering** |
 |--|----------|------------|
 | **Applicable Fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that aren't visible on the page. |
 | **Matching** | Displays records with fields that match the search text, no matter the text's case or placement in the field. | Displays records where the field exactly matches the filter, including the text's case, unless special filter symbols are entered.
 
-Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report, batch job, or XMLport. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
+Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report, batch job, or XMLport. If you specify criteria for multiple fields, then only records that match all criteria are displayed.
 
 For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, batch jobs, and XMLports, the filters are visible directly on the request page.
 
@@ -134,7 +134,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 - **Views**
 
-  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list. The views will be available to you on any device you sign into. Learn more in [Save and Personalize List Views](ui-views.md).
+  Some lists include the **Views** section. Views are variations of the list that are preconfigured with filters. You can define and save as many views as you want per list. The views are available to you on any device you sign into. Learn more in [Save and Personalize List Views](ui-views.md).
 
 - **Filter list by**
 
@@ -142,7 +142,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 - **Filter totals by**
 
-  Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter the list by or pick a field from the drop-down list.
+  Some lists that display calculated fields, such as amounts and quantities, include the **Filter totals by** section where you can adjust various dimensions that influence calculations. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter the list by or pick a field from the drop-down list.
 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. Learn the technical aspect of FlowFilters at [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -161,7 +161,7 @@ In the **Filter totals by** section, you can adjust various dimensions that infl
 
 Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
-The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. Learn more information about special filter symbols in [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
+The type of the filter field determines which criteria you can enter. For example, filtering a field with fixed values only lets you choose from those values. Learn more information about special filter symbols in [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 
 Columns that already have filters are indicated by the ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
@@ -278,7 +278,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 
 ### <a name="symbols"></a>Filtering on values that contain symbols
 
-There may be cases where field values contain the one of the following symbols:
+There might be cases where field values contain the one of the following symbols:
 
 - &
 - (
@@ -292,7 +292,7 @@ This requirement isn't necessary for other symbols.
 
 ### <a name="FilterTokens"> </a>Filter tokens
 
-When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. Filter tokens make filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
+When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. Filter tokens make filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The following tables describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
 > Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. Learn the technical aspect of filter tokens at [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).

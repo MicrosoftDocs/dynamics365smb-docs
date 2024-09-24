@@ -47,7 +47,7 @@ You can choose to disallow data movement, which essentially deactivates Copilot 
 1. In Business Central, search for and open the **Copilot & AI capabilities** page.
 1. Switch the **Allow data movement** toggle on or off as desired.
 
-After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** option no longer appears on the **Copilot & AI capabilities** page.
+After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & AI capabilities** page.
 
 ## Activate features
 

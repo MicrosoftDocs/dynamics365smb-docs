@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 12/13/2023
+ms.date: 09/16/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -20,30 +20,9 @@ Before you use the functionality that's described in this article, install the *
 
 ## Set up the connection
 
-To begin your setup, follow the steps in [E-document core app](finance-how-setup-edocuments.md). After you complete those steps, return to this article, and complete the following steps:
+[!INCLUDE[e-documents connectors](includes/edocuments-connectors-include.md)]
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. In the **Service Integration** field, select one of the integration codes that are offered for the endpoint service setup.
-3. Select **Setup Service Integration**.
-4. On the **E-Document External Connection Setup** page, select **Request Authorization Code**. You're redirected to the external service authorization webpage and prompted for your sign-in details.
-5. Copy the authorization code into the **Enter Authorization Code** field.
-6. Select **Refresh Access Token** to make sure that you can refresh the token.
-
-    > [!NOTE]
-    > This connection requires communication with external service providers that might be subject to additional payment and require contracts with them. To get all the necessary credentials, contact the service providers.
-
-7. On the **E-Document External Connection Setup** page, fill in the following fields:
-
-    | Field name | Description |
-    |---|---|
-    | FileAPI URL | Specify the file API URL. |
-    | Fileparts URL | Specify the fileparts URL. |
-    | DocumentAPI URL | Specify the document API URL. |
-    | Company ID | Specify the company ID. |
-    | Send Mode | Specify the send mode. You can select **Production**, **Test**, or **Certification**. |
-
-    > [!NOTE]
-    > Ask your service provider for all the previous details to establish a connection with their access point.
+Based on the endpoint service provider you chose,, the next steps might be different. You can find details about set up parameters for all available service providers [here](finance-edocuments-connectors.md).
 
 ## Set up company information
 
@@ -80,16 +59,16 @@ Microsoft wants to encourage access point providers to add their connectors on t
 
 Currently, Pagero is the only access point provider that's covered by this system. Microsoft has no contractual obligation with Pagero. Therefore, you must make a contract with them to get all the necessary credentials.
 
-We will update this list as we get new e-document exchange access point providers.
+We'll update this list as we get new e-document exchange access point providers.
 
 ## See also
 
-[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
-[How to use e-documents in Business Central](finance-how-use-edocuments.md)  
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Financial Management](finance.md)  
-[Invoice Sales](sales-how-invoice-sales.md)  
-[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)    
+[How to use e-documents in Business Central](finance-how-use-edocuments.md)    
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Financial Management](finance.md)    
+[Invoice Sales](sales-how-invoice-sales.md)    
+[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

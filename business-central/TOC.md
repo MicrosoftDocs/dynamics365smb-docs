@@ -458,6 +458,7 @@ ms.service: dynamics-365-business-central
 #### [Use e-documents in sales](finance-how-use-edocuments.md)
 #### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Sustainability management
@@ -573,6 +574,7 @@ ms.service: dynamics-365-business-central
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### [Create recurring purchase lines](purchasing-how-work-recurring-purchase-lines.md)
+### [Payment practices report](ui-payment-practices.md)
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)

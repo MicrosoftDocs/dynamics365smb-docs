@@ -27,7 +27,7 @@ Copilot is a system feature and an integral part of Business Central. As is true
 If any of these requirements aren't met, the feature isn't available for use.
 
 > [!NOTE]
-> By default, starting with update 25.0, data movement across geographies is allowed, and all features are activated. This setup means Copilot is ready to use without any configuration, unless you choose to deactivate specific features.
+> By default, starting with update 25.0, data movement across geographies is enabled, and all features are activated. This setup means Copilot is ready to use without any configuration, unless you choose to deactivate specific features.
 
 ## Prerequisites
 

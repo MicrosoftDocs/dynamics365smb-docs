@@ -74,7 +74,7 @@ Modern search also supports enclosing search terms in quotes to refine results, 
 > [!NOTE]
 > - Modern search only covers columns designated for it by a developer. If you can't find existing data, try the legacy search.
 >
->    Learn more about designating columns for modern search at [Enable text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
+>    Learn more about designating columns for modern search at [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
 >  
 > - If the **Use modern search** option isn't available, it might be because:
 >   - It isn't enabled for your enviroment. Administrators can enable the **Use optimized text search in lists** feature in **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).

@@ -65,7 +65,7 @@ In this example, we have a new financial report called **Balance Sheet** and a n
 1. Open the **BS** row definition.
 1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the CRONUS demonstration company.
 
-|Row No.|Description|Totaling Type |Totaling  |Row Type  |Bold  |
+| Row No.| Description | Totaling Type | Totaling  | Row Type  | Bold  |
 |---------|---------|---------|---------|---------|---------|
 | | **Current Assets**| Formula | |Balance at Date    | Yes |
 |CA | Cash                | Posting Accounts | 18000..18999 |Balance at Date|     |
@@ -106,7 +106,7 @@ The last line of this report is a check figure that the report complies with the
 * Accounts might be included more than once.
 * A formula in the report isn't calculating correctly.
 
-|Row No.|Description|Totaling Type|Totaling|Row Type  |Bold  |
+| Row No. | Description | Totaling Type | Totaling | Row Type  | Bold  |
 |---------|---------|---------|--------- |---------|---------|
 || **Current Liabilities**| Formula | |Balance at Date| Yes|
 |CL|Accounts Payable|Posting Accounts|22100..22399|Balance at Date||
@@ -149,7 +149,7 @@ In this example, we have a new financial report called **Income Statement** and 
 1. Open the **IS** row definition.
 1. Map the accounts as shown in the following table. This example maps the balance sheet to the chart of accounts in the CRONUS demonstration company.
 
-|Row No.  |Description  |Totaling Type  |Totaling  |Row Type  |Bold  |
+| Row No.  | Description  | Totaling Type  | Totaling  | Row Type  | Bold  |
 |---------|---------|---------|--------- |---------|---------|
 ||**Revenue**|Formula||Net Change| Yes |
 |R|Product Revenue|Posting Accounts|40000..40209|Net Change||

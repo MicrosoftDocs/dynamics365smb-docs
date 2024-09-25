@@ -67,6 +67,9 @@
       },
       "ms.service":{
         "**.*": "dynamics-365-business-central"
+      },
+      "ms.custom":{
+        "LocalFunctionality/**.*": "references_regions"
       }
     },
     "template": [],

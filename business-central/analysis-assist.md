@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/13/2024
+ms.date: 09/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -90,7 +90,7 @@ Prompt: `Show total quantity per type per UoM`
 
 This prompt creates a pivot table on the **Quantity on Hand** field per **Base Unit of Measure** per **Type**.
 
-## See also
+## Related information
 
 [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)  
 [Ad hoc data analysis](reports-adhoc-analysis.md)  

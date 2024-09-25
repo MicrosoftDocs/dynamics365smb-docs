@@ -1,7 +1,7 @@
 ---
 title: FAQs for analysis assist (preview)
 description: This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/13/2024
+ms.date: 09/25/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -73,7 +73,7 @@ The analysis assist capability collects the minimum data required by Business Ce
 
 It also collects data from the feedback users can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like or dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
 
-## Releated informationo
+## Related information
 
 [Analyze data with Copilot (preview)](analysis-assist.md)  
 [Learn more about Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

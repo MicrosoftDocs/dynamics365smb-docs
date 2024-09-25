@@ -92,7 +92,7 @@ You manage the process of exporting items using these settings:
 |**Sync Item Extended Text**|Select this field to sync the extended text of the item. Because it's added to the **Description** field, it can contain HTML code. |
 |**Sync Item Attributes**|Select this field to sync the item attributes. Attributes are formatted as a table and included in the **Description** field in Shopify.|
 |**Sync Item Marketing Text**|Select this field to sync marketing text for the item. Although marketing text is a kind of description, it's different from an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is more rich and descriptive. Its purpose is to add marketing and promotional content. This text can then be published with the item in Shopify. There are two ways to create the marketing text. Use Copilot, which suggests AI-generated text for you, or start from scratch.|
-|**Language Code**|Select this field if you want the translated versions used for title, attributes, and extended text.|
+|**Language Code**|Select this field if you want the translated versions used for title, attributes, and extended text. You can also export additional translations. To learn more, go to [Sync product translations to Shopify](synchronize-items.md#sync-product-translations-to-shopify).|
 |**SKU Mapping**|Choose how you want to populate the SKU field in Shopify. Supported options are:<br> - **Item No.** to use the item number for both products and variants.<br> - **Item No.+ Variant Code** to create an SKU by concatenating values of two fields. For items without variants, the item number only is used.<br>- **Item Vendor No.** to use the item vendor number defined in the **Item Card** for both products and variants.<br> - **Barcode** to use the barcode type of **Item Reference**. This option respects variants.<br>If **Can Update Shopify Products** is enabled, changes in the **SKU Mapping** field will be propagated to Shopify after the next sync for all products and variants listed in the **Shopify Products** page for the selected shop.|
 |**SKU Field Separator**|Define a separator for the **Item. No + Variant Code** option.|
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section.|
@@ -104,6 +104,25 @@ You manage the process of exporting items using these settings:
 
 > [!NOTE]
 > When you want to export many items and variants, some might be blocked. You can't include blocked items and variants in price calculations, so they aren't exported. The Connector skips those items and variants, so you don't need to filter them on the **Add Item to Shopify** request page.
+
+### Sync product translations to Shopify
+
+Automatically synchronizing translations from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify guarantees consistent product descriptions and details across various languages. Offering customers product information in their native language enhances accessibility and satisfaction, which can boost conversion rates and foster customer loyalty.
+
+To include translations to the product synchronization, follow these steps:
+
+1. Choose the **Tell Me**  icon, enter **Shopify shops**, and choose the related link.
+2. Select the shop to open the **Shopify Shop Card** page.
+3. To open the **Shopify Languages** page, choose the **Languages** action.
+4. To import languages enabled on Shopify, choose the **Refresh** action. Notice that the primary language isn't be listed. For the primary language, continue to use the **Language Code** field in the **Shopify Shop Card**.
+5. For each language to include in synchronization, fill in the **Language Code** field and turn on the **Sync translations** toggle.
+
+>[!NOTE]
+> * Marketing text is only added for the primary language.
+> * Extended texts are added for each language, plus extended texts where the **All Languages** toggle is turned on.
+> * Attributes are added for each language. If a translation is missing, the primary language is used.
+> * Item translations are added for each language if a translation is defined.
+> * Variant translations aren't used because the connector only exports the variant code, and not its description.
 
 ## Advanced details
 
@@ -318,16 +337,31 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
+3. Select the entry for which to define and export prices, and then fill in the fields as necessary.
+
+   You can use two strategies. One is the default strategy, where you can use settings similar to the ones for synchronizing the **Price** and **Compare at Price** fields for Shopify products (Shopify variant). The following table describes settings for the default strategy.
+
+   |Field|Description|
+   |------|-----------|
+   |**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used.|
+   |**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. |
+   |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
+   |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. |
+   |**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. |
+
+   The second strategy is to use the new **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
+
+4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** to start synchronizing catalog prices.
 
 You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs don't contain products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
-2. Select entry for which  you want to define and export prices.
-3. Use available settings to configure how you define prices. The settings are similar to ones used for synchronization of **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
-4. Enable the **Sync Prices** toggle.
-5. Choose **Sync Prices** and wait until synchronization of prices is completed.
+2. Select the entry for which to define and export prices.
+3. Use the available settings to configure how to define prices. The settings are similar to ones used for synchronization of **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
+4. Turn on the **Sync Prices** toggle.
+5. Choose **Sync Prices**, and wait for synchronization to complete.
 
 ## Sync inventory to Shopify
 

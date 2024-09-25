@@ -79,7 +79,7 @@ In this example, we have a new financial report called **Balance Sheet** and a n
 |   | **Long Term Assets**      |            |              |Balance at Date|Yes |
 |LTA|Fixed Assets         | Posting Accounts| 10000..12899  |Balance at Date|    |
 |LTA|Accumulated Depreciation| Posting Accounts|12900..12999|Balance at Date|    |
-|LTA|Other Long Term Assets | Posting Accounts|17000..17999|19000..19999|Balance at Date|  |
+|LTA|Other Long Term Assets | Posting Accounts|17000..17999|19000..19999|Balance at Date|
 |F2 |**Total Long Term Assets**|Formula     |   LTA         |Balance at Date | Yes |
 |   |                          | Formula    |               |Balance at Date |     |
 |F3 | **Total Assets**         |            | F1+F2         | Balance at Date|     |
@@ -110,10 +110,10 @@ The last line of this report is a check figure that the report complies with the
 |---------|---------|---------|--------- |---------|---------|
 || **Current Liabilities**| Formula | |Balance at Date| Yes|
 |CL|Accounts Payable|Posting Accounts|22100..22399|Balance at Date||
-|CL|Accrued Payroll|Posting Accounts|23500..25399|26100..26399|Balance at Date||
+|CL|Accrued Payroll|Posting Accounts|23500..25399|26100..26399|Balance at Date|
 |CL|Accrued Tax|Posting Accounts|23100..23499|Balance at Date||
 |CL|Accrued Other|Posting Accounts|26400..29999|Balance at Date||
-|CL|Other Current Liabilities|Posting Accounts|22400..23099|25400..26099|Balance at Date||
+|CL|Other Current Liabilities|Posting Accounts|22400..23099|25400..26099|Balance at Date|
 |F4|**Total Current Liabilities**|Formula|CL|Balance at Date| Yes |
 |||Formula||Balance at Date||
 ||**Long Term Liabilities**|Posting Accounts||Balance at Date| Yes |
@@ -154,9 +154,9 @@ In this example, we have a new financial report called **Income Statement** and 
 ||**Revenue**|Formula||Net Change| Yes |
 |R|Product Revenue|Posting Accounts|40000..40209|Net Change||
 |R|Job Revenue|Posting Accounts|40410..40429|Net Change||
-|R|Services Revenue|Posting Accounts|40210..40309|40430..40909|Net Change|  |
-|R|Other Revenue|Posting Accounts|40310..40409|40920..40939|Net Change|  |
-|R|Discounts and Returns|Posting Accounts|40910..40919|40940..49999|Net Change|  |
+|R|Services Revenue|Posting Accounts|40210..40309|40430..40909|Net Change|
+|R|Other Revenue|Posting Accounts|40310..40409|40920..40939|Net Change|
+|R|Discounts and Returns|Posting Accounts|40910..40919|40940..49999|Net Change|
 |F1|**Total Revenue**|Formula|R|Net Change| Yes |
 |||Formula||Net Change||
 ||**Cost of Goods**|Formula||Net Change||

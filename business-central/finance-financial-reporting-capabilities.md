@@ -35,7 +35,7 @@ Financial reporting is tied directly to detailed transactional postings from the
 
 ## Use dimensions
 
-Dimensions are data tags that attach to detailed transactional postings from the general ledger to provide more robust financial reporting. Adding dimensions to financial reporting enriches the reports and expands them into operational reporting.
+Dimensions are data tags you can attach to postings to the general ledger to provide more business insights to financial reporting. Adding dimensions enriches the reports and expands them into operational reporting.
 
 ## Budget integration
 
@@ -43,7 +43,7 @@ Financial reporting can easily compare budget and actual financial results. You 
 
 ## Ability to drill down
 
-Numbers shown in the financial reporting that aren't a calculated formula can be drilled down to the originating transactions which make up that higher level number. Active analysis can be done from the financial reporting to the account level, and from there to the invoices, credit memos, and ledger entries which make up that value. This quick research tool lets you determine where the number came from, when it happened, what type of document was used, and even which user created the entry.
+Numbers in financial reporting that aren't calculated by a formula can take you to the original transactions. You can make active analyses from the financial report to the account level, and from there to the invoices, credit memos, and ledger entries. This quick research tool lets you determine where the number came from, when it happened, what type of document was used, and even which user created the entry.
 
 ## Export to Excel
 

@@ -46,7 +46,7 @@ The most important feature of the financial reports that [!INCLUDE [prod_short](
 :::image type="content" source="media/account mapping.png" alt-text="Shows accounts mapped to G/L account categories.":::
 
 > [!NOTE]
-> In 2024 release wave 1, [!INCLUDE [prod_short](includes/prod_short.md)] provides the mapping only in the United States. If you are using another country version, you must create the mapping yourself. The mappings will be available in move country versions in future releases.
+> In 2024 release wave 1, [!INCLUDE [prod_short](includes/prod_short.md)] provides the mapping only in the United States. If you're using another country version, you must create the mapping yourself. The mapping will become available in more country versions in future releases.
 
 ## Generate financial reports
 

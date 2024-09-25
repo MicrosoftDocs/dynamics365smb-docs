@@ -157,7 +157,7 @@ To set up Excel integration for a financial report, follow these steps to create
 > [!NOTE]
 > If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
 
-### Example: Use an Excel template for a monthly report
+### Example: Use and update an Excel template to create a monthly report
 
 You can create an Excel template that contains the reports that you include in your reporting package. Each report in the workbook must have a data tab and a tab that has the formatted report. When you update your monthly package, use the **Update Copy of Existing Document** for each report. Be sure to save after each update.
 

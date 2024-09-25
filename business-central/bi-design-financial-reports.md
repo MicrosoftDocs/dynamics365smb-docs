@@ -76,14 +76,14 @@ When getting started with financial reporting, there are a few field choices we 
 
 ## When to use a comparison period formula and comparison date formula in a column definition
 
-There are two options for column definition comparisons for periods of time: 
+There are two options for column definition comparisons for accounting periods:
 
 * Comparison period formula
 * Comparison date formula
 
-Comparison period formula is most often used for reports that show monthly, quarterly, or annual time periods. In most cases, financial reports use these increments of time, so the comparison period is used most often in financial reports.  
+Comparison period formula is often used for reports that show monthly, quarterly, or annual accounting periods. In most cases, financial reports use these increments of time.  
 
-Comparison date formula is used for reports that show weekly or daily time periods. These increments of time are appropriate for operational reporting, such as daily sales or weekly invoicing.
+Comparison date formula is typically used for reports that show weekly or daily accounting periods. These increments of time are appropriate for operational reporting, such as daily sales or weekly invoicing.
 
 ### Column definitions that include budgets
 

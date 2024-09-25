@@ -23,6 +23,9 @@ The examples in this article describe how to create the following reports:
 > [!NOTE]
 > The examples are based on the demonstration data that [!INCLUDE [prod_short](includes/prod_short.md)] provides for its CRONUS demonstration company.
 
+> [!TIP]
+> Formulas are expressed as a row number reference, such as "R" or "CA" (current assets), which adds all accounts with row number "R" or "CA."
+
 ## Example 1: Trial Balance
 
 In this example, we have a new financial report called **Trial Balance** and a new row definition called **TB**.
@@ -179,7 +182,7 @@ The following table describes the fields on the **Row Definition** page.
 > [!TIP]
 > This example shows a summarized income statement, where each line is a group of related incomes statement accounts. Your report’s level of summarization is up to you. Good financial report design attempts to provide enough detail to tell the story of financial performance without detailing every account. Avoid creating an income statement that's a categorized trial balance. It can be hard for people to digest such a large amount of information.
 
-Continue to add balance sheet sections as shown in the following table. You can incorporate your own account groupings to create or replicate your company’s method of displaying accounts.  
+Continue to add income statement sections as shown in the following table. You can incorporate your own account groupings to create or replicate your company’s method of displaying accounts.  
 
 The last line of this report is a check figure that the report complies with the accounting equation where Assets = Liabilities + Equity. The result of this check figure should always be zero. If it isn't zero, it's a good indication that there's a problem:
 
@@ -203,7 +206,7 @@ The last line of this report is a check figure that the report complies with the
 |F7|Total of Income Statement|Posting Accounts|40000..99999|Net Change||
 |F8|Check Figure|Formula|F6-F7|Net Change||
 
-Your income statement report is complete. To view the report, choose the report on the Financial Reporting page, and select **View Financial Report**. Select any column definition you like to use with this report. The often used column definitions for a balance sheet are **M-NetChang** and **PTD + YTD**. You can also create a new column definition.
+Your income statement report is complete. To view the report, choose the report on the **Financial Reporting** page, and select **View Financial Report**. Select any column definition you like to use with this report. The often used column definitions for an income statement are **M-NetChang** and **PTD + YTD**. You can also create a new column definition.
 
 The following image shows the structure of the report in this example.
 

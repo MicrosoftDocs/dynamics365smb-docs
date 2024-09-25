@@ -31,7 +31,7 @@ When you create new financial reports, you might find that they don't balance to
 * A formula incorrectly shows a positive value as negative or a negative value as positive.
 * A totaling account is being used on a row instead of a posting account.
 
-After you double-check these possible causes, if you still have an imbalance, run the **Trial Balance** report. This report can serve as a reference point because it correctly lists transactions and always balances to zero. You can compare this version of the trial balance to the rows of your financial report to identify and correct the error.
+After you double-check these possible causes, if you still have an imbalance, run the **Trial Balance** report. This report can serve as a reference point because it correctly lists all G/L accounts in your chart of accounts and always balances to zero. You can compare this version of the trial balance to the rows of your financial report to identify and correct the error.
 
 When you run the Trial Balance report, fill out the report options as follows for a clean, simple, and balanced report to review.
 

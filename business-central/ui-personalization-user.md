@@ -15,18 +15,6 @@ ms.author: jswymer
 
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
 
-> [!NOTE]
-> Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax.
-It applies to all design modes, not just personalization.
-
-<!--[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
-
-You can make various changes, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most personalization must be done by first activating the **Personalizing** banner. You can make simple adjustments, such as the column width, immediately on any list.
-
-> [!NOTE]
-> Administrators can make the same layout changes as users by customizing a profile (role), which can be assigned to multiple users. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
-Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
-
 ## Video and training
 
 The following video shows some of the ways in which you can personalize your Role Center.
@@ -35,22 +23,24 @@ The following video shows some of the ways in which you can personalize your Rol
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
+## About personalization
 
-## Personlai
-## Change the width of a column
+You can make various adustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the *personalization mode*. These adjustments are referred to as roaming adjustments because you'll experience the adjustment no matter what device or browser you use. But you can also make some adjustments without having to activate the personalization mode. These adjustments are referred to as local adjustments because you only experience the adjustment when you use the same device and browser.
+
+## Make local adjustments
+
+### Change the width of a column
 
 You can easily resize columns on any list. Just drag the boundary between two columns to the left or the right.  
 
 1. In the header of a list, select and drag the boundary between two columns.
 2. Alternatively, double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
-
+ 
 As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## Pin the action bar
+### Pin the action bar
 
-Pinning the action bar on a page ensures that the action bar remains visible and accessible wheneven the page is open, providing quick access to important actions without the need to pin it each time the page is opened. This feature is particularly useful for frequently used actions, allowing for a more efficient workflow by reducing the number of clicks needed to access these actions
-
-
+The action bar is appears when you select certain actions at the top of a page. It typically contains two or more related actions. Pinning the action bar on a page ensures that the action bar remains visible and accessible whenever the page is open. To pin the action bar, select the ![Shows the pin action bar icon.](media/pin.png) **Pin action bar** icon rightmost in the action bar.
 
 ## Start personalizing by using the personalization mode
 
@@ -200,6 +190,12 @@ To help you better understand personalization, here are some pointers.
 - You can't personalize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 - If a part or group is hidden, ghosted fields will still show inside it, but you can't drag-drop or add/show that field until you make the group/part visible.
+
+> [!NOTE]
+> Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax. It applies to all design modes, not just personalization.
+>
+> Administrators can make the same layout changes as users by customizing a profile (role), which can be assigned to multiple users. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
+Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
 ## See also
 

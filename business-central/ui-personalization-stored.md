@@ -18,7 +18,6 @@ When you interact with the Business Central web client to optimize your workspac
   > [!NOTE]
   > If you delete the browsing data in your browser, specifically cookies and site data, you also delete any local personalization that you've done. To avoid deleting local personalization, make sure that browser isn't set up to clear cookies and site data every time you close the browser. For example, in Microsoft Edge, you turn off the **Cookies and other site data** toggle in the **Privacy, search, and services** settings. Learn more at [Manage cookies in Microsoft Edge](https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d#bkmk_deletecookieseverytimeyouclosethebrowser) or consult the documentation for your browser.
 
-
 ## Roaming versus local UI adjustments
 
 The following table indicates which UI adjustments are roaming, local, or both.

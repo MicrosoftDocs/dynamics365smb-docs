@@ -24,7 +24,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 ## Available languages
 
-[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

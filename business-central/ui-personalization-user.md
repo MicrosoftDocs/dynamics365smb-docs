@@ -23,11 +23,16 @@ The following video shows some of the ways in which you can personalize your Rol
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
-## About personalization
+## About personalization and other uiser interafce adjustments
 
-You can make various adustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the *personalization mode*. These adjustments are referred to as roaming adjustments because you'll experience the adjustment no matter what device or browser you use. But you can also make some adjustments without having to activate the personalization mode. These adjustments are referred to as local adjustments because you only experience the adjustment when you use the same device and browser.
+You can make various adustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the *personalization mode*. These adjustments are referred to as roaming adjustments because you'll experience the adjustment no matter what device or browser you use. But you can also make some adjustments without having to activate the personalization mode. These adjustments are referred to as local adjustments because you only experience the adjustment when you use the same device and browser. 
 
 ## Make local adjustments
+
+•	Create new view, rename view, edit view
+•	Resize column
+•	Expand/Collapse hierarchical list
+•	Bookmark
 
 ### Change the width of a column
 

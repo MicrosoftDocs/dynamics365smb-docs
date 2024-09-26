@@ -29,7 +29,7 @@ The following table indicates which UI adjustments are roaming, local, or both.
 ||Add or remove|X||
 ||Lock or unlock editing|X||
 ||Exclude or include in Quick Entry|X||
-||Show when collapsed or show under “show more”|X||
+||Show when collapsed or show under **show more**|X||
 |Columns|Hide or show|X||
 ||Reorder |X||
 ||Resize|X|X|
@@ -64,6 +64,7 @@ The following table indicates which UI adjustments are roaming, local, or both.
 ||Collapse or expand page inspection pane||X|
 ||Collapse or expand part on a page||X|
 ||Show or hide teaching tips|X||
+
 
 ## Related information
 

@@ -10,7 +10,7 @@ ms.date: 07/22/2024
 ---
 # Where is personalization stored?
 
-When you interact with the Business Central web client to optimize your workspace, some user interface (UI) adjustments are automatically saved and roam with you across devices and browsers, while others are local and only affect your current browser.
+When you interact with the Business Central web client to optimize your workspace, some user interface (UI) adjustments are automatically saved and roam with you across devices and browsers. Others are local and only affect your current browser.
 
 - *Roaming personalization* is stored in the Business Central service, and affects your experience no matter which device or browser you sign into. Personalizing in one browser or device immediately affects other browsers or devices that you use. Roaming personalization is typically infrequent, more permanent, or time-consuming to recreate. Roaming settings can only be reset by clearing personalization from the Business Central web client.
 - *Local personalization* is stored in your browser and only affects your experience when using different browser tabs in that same browser. It doesn't affect your Business Central experience on other devices, browsers, or browser profiles. UI adjustments that are saved locally are typically those adjustments that users frequently do and redo as they work in Business Central.  
@@ -29,7 +29,7 @@ The following table indicates which UI adjustments are roaming, local, or both.
 ||Add or remove|X||
 ||Lock or unlock editing|X||
 ||Exclude or include in Quick Entry|X||
-||Show when collapsed or show under **show more**|X||
+||Show when collapsed or show under **Show more**|X||
 |Columns|Hide or show|X||
 ||Reorder |X||
 ||Resize|X|X|
@@ -64,7 +64,6 @@ The following table indicates which UI adjustments are roaming, local, or both.
 ||Collapse or expand page inspection pane||X|
 ||Collapse or expand part on a page||X|
 ||Show or hide teaching tips|X||
-
 
 ## Related information
 

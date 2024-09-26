@@ -15,7 +15,7 @@ ms.author: jswymer
 
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
 
-This article describes adjustments you can make that are reflected on any device or browser you use. There are also adjustments that you'll only experience on the same device and browser you used when making the changes, like pining the action bar or displaying lists as tiles. Learn more about the differences in [Where is personalization stored?](ui-personalization-stored.md).
+This article describes adjustments you can make that are reflected on any device or browser you use. There are also adjustments you can make that you'll only experience on the same device and browser you used when making the changes, like pinning the action bar or displaying lists as tiles. Learn more about the differences in [Where is personalization stored?](ui-personalization-stored.md).
 
 ## Video and training
 

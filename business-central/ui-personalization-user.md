@@ -8,12 +8,12 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 07/26/2024
+ms.date: 09/25/2024
 ms.author: jswymer
 ---
 # Personalize your workspace
 
-You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
+You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page. This article describes adjustments that you'll experience on the pages of any device our browser you use. There are also other adjustments you can make that you'll only experience on the same device and browser us you when making the changes. Learn more about the difference in [Where is personalization stored?](ui-personalization-stored.md).
 
 ## Video and training
 
@@ -23,29 +23,21 @@ The following video shows some of the ways in which you can personalize your Rol
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
-## About personalization and other uiser interafce adjustments
+## About personalization
 
-You can make various adustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the *personalization mode*. These adjustments are referred to as roaming adjustments because you'll experience the adjustment no matter what device or browser you use. But you can also make some adjustments without having to activate the personalization mode. These adjustments are referred to as local adjustments because you only experience the adjustment when you use the same device and browser. 
+You can make various adustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the **Personalizing** banner using the personalization mode. You can make simple adjustments, such as the column width, immediately on any list.
 
-## Make local adjustments
+- Resize a column
+- Create, rename, or edit a view
+- Expand/collapse hierarchical list
+- Bookmark the page
 
-•	Create new view, rename view, edit view
-•	Resize column
-•	Expand/Collapse hierarchical list
-•	Bookmark
+### Resize a column
 
-### Change the width of a column
-
-You can easily resize columns on any list. Just drag the boundary between two columns to the left or the right.  
+Drag the boundary between two columns to the left or the right.  
 
 1. In the header of a list, select and drag the boundary between two columns.
 2. Alternatively, double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
- 
-As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
-
-### Pin the action bar
-
-The action bar is appears when you select certain actions at the top of a page. It typically contains two or more related actions. Pinning the action bar on a page ensures that the action bar remains visible and accessible whenever the page is open. To pin the action bar, select the ![Shows the pin action bar icon.](media/pin.png) **Pin action bar** icon rightmost in the action bar.
 
 ## Start personalizing by using the personalization mode
 

@@ -15,7 +15,7 @@ ms.author: jswymer
 
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
 
-This article describes adjustments you can make that are reflected on any device or browser you use. There are also adjustments that you'll only experience on the same device and browser you used when making the changes, like pin the action bar or diplaying lists as tiles. Learn more about the differences in [Where is personalization stored?](ui-personalization-stored.md).
+This article describes adjustments you can make that are reflected on any device or browser you use. There are also adjustments that you'll only experience on the same device and browser you used when making the changes, like pining the action bar or displaying lists as tiles. Learn more about the differences in [Where is personalization stored?](ui-personalization-stored.md).
 
 ## Video and training
 
@@ -135,7 +135,7 @@ Parts are areas on a page that are typically composed of multiple fields, charts
 - You can hide a part by choosing the **Hide** option under the arrowhead.
 - When you start personalizing or navigate to a new page, any parts that are currently hidden appear on the page with distinctive visuals to indicate they're hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
 
-You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part; not the placement or visibility of the part on the page.  
+You can clear all personalization changes that you made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part; not the placement or visibility of the part on the page.  
 
 ## <a name="fields"></a> Work with fields and columns
 
@@ -164,7 +164,7 @@ From **Add field to page** pane, there are two ways to include a field that's cu
 
 ## Clear personalization
 
-At some point, you might want to undo some or all of the personalization changes that you have made to a page over time.
+At some point, you might want to undo some or all of the personalization changes that you made to a page over time.
 
 1. On the **Personalizing** banner, choose the **Clear personalization** action.
 2. Choose one of the following options.  
@@ -174,10 +174,10 @@ At some point, you might want to undo some or all of the personalization changes
 
 |Option|What it does|
 |------|------------|
-|**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
-|**Only Actions**|Clears any personalization changes that you have ever made on the navigation or action bars on the page.|
-|**Only Fields and Columns**|Clears any personalization changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
-|**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
+|**Only Navigation Menu**|Clears any personalization changes that you ever made to the navigation menu that is shared across the Role Center and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
+|**Only Actions**|Clears any personalization changes that you ever made on the navigation or action bars on the page.|
+|**Only Fields and Columns**|Clears any personalization changes that you ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
+|**All**|Clears all personalization changes that you made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
 
 ## Tips and other points of interest
 
@@ -187,8 +187,8 @@ To help you better understand personalization, here are some pointers.
 - Changes that you make affect all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you also see the change on the **Customers** page when the Role Center is set to Sales Order Processor.
 - Changes to a page in a pane take effect on the page where ever it's shown.  
 - You can't personalize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
-- Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
-- If a part or group is hidden, ghosted fields will still show inside it, but you can't drag-drop or add/show that field until you make the group/part visible.
+- Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
+- If a part or group is hidden, ghosted fields still shows inside it, but you can't drag-drop or add/show that field until you make the group/part visible.
 
 > [!NOTE]
 > Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax. It applies to all design modes, not just personalization.

@@ -13,7 +13,9 @@ ms.author: jswymer
 ---
 # Personalize your workspace
 
-You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page. This article describes adjustments that you'll experience on the pages of any device our browser you use. There are also other adjustments you'll only experience on the same device and browser that you use when making the changes. Learn more about the difference in [Where is personalization stored?](ui-personalization-stored.md).
+You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
+
+This article describes adjustments you can make that are reflected on any device or browser you use. There are also adjustments that you'll only experience on the same device and browser you used when making the changes. Learn more about the difference in [Where is personalization stored?](ui-personalization-stored.md).
 
 ## Video and training
 
@@ -36,8 +38,8 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 
 There are two ways to change the width of a column in a list:  
 
-1. In the header of a list, select and drag the boundary between two columns.
-2. Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
+- In the header of a list, select and drag the boundary between two columns.
+- Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
 
 ## Start personalizing by using the personalization mode
 

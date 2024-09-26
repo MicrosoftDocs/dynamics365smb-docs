@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 # Personalize your workspace
 
-You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page. This article describes adjustments that you'll experience on the pages of any device our browser you use. There are also other adjustments you can make that you'll only experience on the same device and browser us you when making the changes. Learn more about the difference in [Where is personalization stored?](ui-personalization-stored.md).
+You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page. This article describes adjustments that you'll experience on the pages of any device our browser you use. There are also other adjustments you'll only experience on the same device and browser that you use when making the changes. Learn more about the difference in [Where is personalization stored?](ui-personalization-stored.md).
 
 ## Video and training
 
@@ -25,19 +25,19 @@ For online training, go to [Personalize the Microsoft Dynamics 365 Business Cent
 
 ## About personalization
 
-You can make various adustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the **Personalizing** banner using the personalization mode. You can make simple adjustments, such as the column width, immediately on any list.
+You can make various adjustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the **Personalizing** banner using the [personalization mode](#start-personalizing-by-using-the-personalization-mode). You can also readily make the following adjustments on any list page without using the personalization mode.
 
-- Resize a column
-- Create, rename, or edit a view
+- [Resize a column](#resize-a-column)
+- [Create, rename, or edit a view](ui-views.md)
+- [Bookmark the page](ui-bookmarks.md)
 - Expand/collapse hierarchical list
-- Bookmark the page
 
 ### Resize a column
 
-Drag the boundary between two columns to the left or the right.  
+There are two ways to change the width of a column in a list:  
 
 1. In the header of a list, select and drag the boundary between two columns.
-2. Alternatively, double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
+2. Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
 
 ## Start personalizing by using the personalization mode
 
@@ -127,13 +127,13 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 ## <a name="Parts"></a>Personalize parts
 
 Point to or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd>
-Parts are areas on a page that are typically composed of multiple fields, charts or other content. A part shows a colored border when you focus on the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its' contents.
+Parts are areas on a page that are typically composed of multiple fields, charts, or other content. A part shows a colored border when you focus on the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its' contents.
 
 - To move a part, drag and drop it to the desired position. A colored line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
 - You can hide a part by choosing the **Hide** option under the arrowhead.
 - When you start personalizing or navigate to a new page, any parts that are currently hidden appear on the page with distinctive visuals to indicate they're hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
 
-You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
+You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part; not the placement or visibility of the part on the page.  
 
 ## <a name="fields"></a> Work with fields and columns
 
@@ -142,12 +142,12 @@ When personalizing a page, you use the **Add field to page** pane to include fie
 Here are some general guidelines to follow when using the **Add field to page** pane:
 
 - By default, the pane lists all hidden fields. Hidden fields are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
-- You can filter the list to show other fields, for example, those currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes based on the filter option you choose.
+- You can filter the list to show other fields, for example, those fields currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes based on the filter option you choose.
   
    :::image type="content" source="media/personlaization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the personalization mode.":::
 - Selecting a field in the list highlights its location on the page. If the field's currently hidden, its location by design is shown in a shaded state. 
 - To get more details about a field in the list, point to it or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to display a tooltip.
-- The fields available in the **Add field to page** pane are determined by the developer of the page and its source table or by a profile admin who has [customized the page](ui-personalization-manage.md). You can't create new ones.
+- The fields available in the **Add field to page** pane are determined by the developer of the page and its source table or by a profile admin who [customized the page](ui-personalization-manage.md). You can't create new ones.
 - Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 
 ### Add a field so it's visible on the page

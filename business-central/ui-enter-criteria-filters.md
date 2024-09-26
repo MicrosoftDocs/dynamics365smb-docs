@@ -63,7 +63,7 @@ On the most common pages, like **Customers**, **Contacts**, and **Items**, you c
 
 *Legacy search* is the older search method, which is the only method available in Business Central 2024 release wave 1 and earlier. *Modern search* is a newer, faster, and more flexible search method.
 
-The key difference is that legacy search only finds records with the exact words in the order you type them, while modern search finds records words in any order.
+The key difference is that legacy search only finds records with the exact words in the order you type them, while modern search finds records words that match in any order.
 
 For example, consider the item named **LONDON Swivel Chair, blue** in the CRONUS demonstration company. A legacy search for `London chair` won't yield any results because it doesn’t match any part of **LONDON Swivel Chair**. However, doing the same search using modern search will find the item by matching "London" and "chair".
 

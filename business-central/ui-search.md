@@ -54,7 +54,7 @@ The **Go to Reports and Analysis** section offers access to reporting tools. For
 
 The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple of ways to search:
 
-* Use the **Search company data** action to search all pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more about how the company data search works in [](ui-search-data.md)
+* Use the **Search company data** action to search all pages in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more about how the company data search works in [Search for a record in company data](ui-search-data.md).
 * Use the **Search Help** action to find an article in the Business Central documentation that contains your keyword.
 
   > [!NOTE]  

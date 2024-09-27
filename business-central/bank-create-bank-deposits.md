@@ -100,6 +100,18 @@ The lines on the bank deposit use the default dimensions you specified in the **
     > [!TIP]
     > Before you post the deposit, you can use the **Test Report** action to review your data. The report shows whether there are any issues, such as missing data, that might prevent posting.  
 
+## Apply multiple checks for multiple invoices for a customer in a lump sum deposit
+
+You can post lump sum deposits from multiple checks on deposit lines for customer ledger entries. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Deposits**, and then choose the related link.
+2. Create or choose a line for the customer, and in the **External Document No.** field, enter the check number.
+3. Choose **Apply Entries**.
+4. On the **Apply Customer Entries** page, in the **Applies-to ID** field, enter the check number.
+5. In the **Amount to apply** field, enter the amount on the check.
+6. Choose **OK**.
+7. Repeat steps two through six for each check.
+
 ## Find posted bank deposits
 
 The **Posted Bank Deposits** page lists your company's previous deposits. In the list, you can review the comments and dimensions that were specified for the deposits. You can open the bank deposit to view more details, and from there you can investigate further. For example, you can choose the **Find entries** action to view the posted bank ledger entries. From the bank ledger entry, you can find its corresponding posted general ledger entry.

@@ -38,7 +38,7 @@ The following table describes when and how data can move across geographies for 
 > [!IMPORTANT]
 > The **Allow data movement** toggle is on by default from update 25.0. Administrators can opt out at any time, even before environments are upgraded. Environments upgrading to update 25.0 or later will have the **Allow data movement** toggle turned on by default from November 3, 2024 or from the date you have specified for the environment to be upgraded to update 25.0. New environments created after October 1, 2024 will have the **Allow data movement** toggle turned on.
 
-### How to find the Azure region of a Business Central environment
+## How to find the Azure region of a Business Central environment
 
 To find the Azure region where a Business Central environment is hosted, sign in to the Business Central admin center, choose the environment to display details, and then find the **Azure Region** field. Learn more at [Managing environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).
 

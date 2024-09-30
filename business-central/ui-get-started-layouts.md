@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.form: 9650, 9652, 9660_Primary
 ms.date: 03/23/2022
 ms.author: jswymer
 

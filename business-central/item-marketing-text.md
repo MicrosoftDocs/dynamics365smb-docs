@@ -31,7 +31,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
 ### Available languages
 
-[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+[!INCLUDE[copilot-supported-languages.md](includes/old-copilot-supported-languages.md)]
 
 ### Prerequisites
 

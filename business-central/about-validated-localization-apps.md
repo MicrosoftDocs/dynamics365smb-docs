@@ -6,6 +6,7 @@ ms.date: 06/04/2024
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.author: altotovi
+ms.custom: references_regions
 ---
 
 # Development of validated localization apps

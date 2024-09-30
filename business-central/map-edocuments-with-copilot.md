@@ -25,7 +25,7 @@ In the initial release of the **e-document** app, we introduced fundamental scen
 
 You can now update an existing purchase order in Business Central with the information received in the e-invoice.
 
-## Available languages
+## Supported languages
 
 [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 

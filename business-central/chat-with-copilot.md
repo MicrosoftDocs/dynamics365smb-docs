@@ -36,9 +36,9 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
 ## Prerequisites
 
-- Ensure that chat with Copilot capability is activated by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
-- Set your display language in Business Central to English. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
-- Ensure you are signed into a United States Business Central environment. Learn how to find your environment's region in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
+- The display language in Business Central is set to English. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+- Chat with Copilot capability is activated by an administrator. Learn more in [Configuring Copilot and AI capabilities](enable-ai.md).
+- You're signed in to a Business Central environment that's hosted in the United States. Consult your administrator if you're not sure. Learn how to find your environment's region in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
 
 ## Get started using chat with Copilot
 

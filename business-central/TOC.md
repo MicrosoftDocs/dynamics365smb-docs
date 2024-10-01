@@ -114,6 +114,7 @@ ms.service: dynamics-365-business-central
 ##### [Design details: Post interface structure](design-details-posting-interface-structure.md)  
 ##### [Design details: Post engine structure](design-details-posting-engine-structure.md)  
 #### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
+#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
@@ -163,6 +164,7 @@ ms.service: dynamics-365-business-central
 ### [Warnings and error messages](product-error-messages.md)
 ### Personalize Business Central
 #### [Personalize your workspace](ui-personalization-user.md)
+#### [Where is personlization stored?](ui-personalization-stored.md)
 #### [Why a page is locked from personalizing](ui-personalization-locked.md)
 #### [Save and personalize list views](ui-views.md)
 #### [Bookmark a page or report on your role center](ui-bookmarks.md)
@@ -352,7 +354,7 @@ ms.service: dynamics-365-business-central
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
-#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
+#### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconciling bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Transfer bank funds](bank-how-transfer-bank-funds.md)
 #### [Create bank deposits](bank-create-bank-deposits.md)
@@ -2140,6 +2142,9 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Suggest number series
+### [Suggest number series with Copilot (preview)](suggest-number-series-copilot.md)
+### [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
@@ -2147,7 +2152,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
-## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)

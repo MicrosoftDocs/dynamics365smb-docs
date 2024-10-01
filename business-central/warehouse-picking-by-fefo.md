@@ -24,10 +24,10 @@ Depending on which document you plan to use, make some more settings:
 - **Inventory Pick**. You can use picking by FEFO for locations with and without bins.
 - **Warehouse Pick**. On the location, the **Bin Mandatory** toggles must be turned on.
 
-When all the criteria are met, the serial/lot-numbered items to pick are sorted with the oldest first in all picks and movements, except for items that use SN-specific or lot-specific tracking.  
+When all the criteria are met, the serial/lot-numbered items to pick are sorted with the oldest first in all picks and movements.  
 
 > [!NOTE]  
-> If some serial or lot-numbered items use specific tracking, then those are respected first and under them, the remaining, non-specific, serial/lot numbers are listed according to FEFO.
+> If some serial or lot-numbered items have specific tracking defined in the source document, such as sales order, then those are respected first and under them, the remaining, non-specific, serial/lot numbers are listed according to FEFO.
 <br /><br />
 If two serial or lot-numbered items have the same expiration date, [!INCLUDE [prod_short](includes/prod_short.md)] selects the item with the lowest serial or lot number.
 <br /><br />

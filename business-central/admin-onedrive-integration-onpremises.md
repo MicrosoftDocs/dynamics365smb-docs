@@ -1,10 +1,10 @@
 ---
 title: Configuring OneDrive integration with Business Central on-premises
-description: Learn about how to set up Business Central on-premises to integrate with OneDrive for Business.
+description: Learn about how to set up Business Central on-premises to integrate with OneDrive for work or school (formerly known as OneDrive for Business).
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: OneDrive, share, browser
-ms.date: 12/12/2023
+ms.date: 09/01/2024
 ms.author: jswymer
 ms.service: dynamics-365-op
 ms.reviewer: jswymer
@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-This article explains how to configure OneDrive integration with Business Central on-premises. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection between Business Central and OneDrive for Business isn't set up automatically. If the connection isn't configured, users can't use the features for OneDrive.
+This article explains how to configure OneDrive for work or school (formerly known as OneDrive for Business) integration with Business Central on-premises. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection between Business Central and OneDrive isn't set up automatically. If the connection isn't configured, users can't use the features for OneDrive.
 
 There are two tasks that need to be done to configure the OneDrive integration.
 
@@ -138,7 +138,7 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 
    In **OneDrive Setup** while making the switch, you get a message similar to the following text:
 
-    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (5F78CADE-19C0-49BF-AF84-306D0579B50E).`
+    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (aaaabbbb-0000-cccc-1111-dddd2222eeee).`
 
 - If there's no app configured in the **Set up your Microsoft Entra accounts** setup, the OneDrive integration uses the same app as before.
 
@@ -163,7 +163,7 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
    If the test succeeds, select **done**, and you're ready to go. Otherwise, use the messages on the page to help you fix the problem.
 
 ## See also
-[Business Central and OneDrive for Business Integration](across-onedrive-overview.md)  
+[Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)
 

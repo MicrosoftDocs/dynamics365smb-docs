@@ -1,17 +1,17 @@
 ---
-title: Design Details - Flows for Production, Assembly, and Projects
+title: Design details - flows for production, assembly, and projects
 description: Learn about the flow between bins for picking components and putting away end items for assembly, production, or project orders.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 02/05/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ---
 # Flows for production, assembly, and projects
 
-Internal flows, such as picking components and putting away end items for assembly, projects, and production orders are similar to inbound or outbound flows. So, many of the processes might seen familiar. This article provides information about how to work with internal warehouse flows with various levels of complexity.
+Internal flows, such as picking components and putting away end items for assembly, projects, and production orders are similar to inbound or outbound flows. Many of the processes might seem familiar. This article provides information about how to work with internal warehouse flows with various levels of complexity.
 
 ## Overview of different configuration options
 
@@ -21,27 +21,25 @@ You can configure warehouse features in various ways. It's important that the op
 
 |Complexity Level|Description|Settings|Bin Code|Inbound Flow of Production Order|Inbound Flow of Assembly Order|Inbound Flow of Projects|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Journal -> Output Journal</br><br/> **NOTE**: You can post output using **Production Journal**.|Assembly Order|Put-away is not applicable for projects|  
-|Basic|Order-by-order.|Require Put-away. </br><br/> **NOTE**: Although the setting is called **Require Put-away**, you can still post output from the source documents at locations where you select this checkbox. |Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Put-away|Assembly Order|Put-away is not applicable for projects|
-|Advanced|Consolidated put-away activities for multiple source documents.|Require Receipt + Require Put-away|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order(s) -> Output Journal|Assembly order(s) ->  internal movements | Put-away is not applicable for projects|
-|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles will be enabled automatically)|Mandatory|Same as above|Same as above| Put-away is not applicable for projects|
+|No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Journal -> Output Journal</br><br/> **NOTE**: You can post output using **Production Journal**.|Assembly Order|Put-away isn't applicable for projects|  
+|Basic|Order-by-order.|Production Output Whse Handling: Inventory Put-away. </br><br/> **NOTE**: You can still post output directly from the source documents at locations where you activated these settings. |Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Put-away|Assembly Order|Put-away isn't applicable for projects|
+|Advanced|Consolidated put-away activities for multiple source documents.|No dedicated settings|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order(s) -> Output Journal|Assembly order(s) ->  internal movements | Put-away isn't applicable for projects|
+|Advanced|Same as above plus directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above|Same as above| Put-away isn't applicable for projects|
 
-Some configurations don't allow you use dedicated warehouse documents to register put-aways. However, if your location uses bins you can use generic movement documents to move produced or assembled items to warehouse. Learn more at [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+Some configurations don't let you use dedicated warehouse documents to register put-aways. However, if your location uses bins you can use generic movement documents to move produced or assembled items to warehouse. Learn more at [Moving Items](warehouse-move-items.md).
 
 ### Outbound flow (pick)
 
 |Complexity Level|Description|Settings|Bin Code|Outbound Flow of Production Order|Outbound Flow of Assembly Order|Outbound Flow of Projects|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Journal -> Consumption Journal </br><br/> **NOTE**: You can post consumption using a **Production Journal**.|Assembly Order|Project -> Project Journal|  
-|Basic|Order-by-order.|Require Pick. </br><br/> **NOTE**: Although the setting is called **Require Pick**, you can still post output from the source documents at locations where you select this checkbox. <!-- ToDo Test prod output-->|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Pick|Assembly Order -> Inventory movement</br><br/>The **Inventory Movement** can be used only with bins.|Project -> Inventory Pick|
-|Advanced|Consolidated pick activities for multiple source documents.|Require Shipment + Require Pick|Optional. Controlled by the Bin Code is Mandatory toggle|Production Order(s) -> Warehouse Pick -> Consumption Journal |Assembly order(s) -> Warehouse Pick| Project(s) -> Warehouse Pick -> Project  Journal |
-|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles will be enabled automatically)|Mandatory|Same as above|Same as above| Directed pick and Put-away is not supported for projects|
-
-Similar to the inbound flow, some configurations don't allow you use dedicated warehouse documents to register put-aways. If your location uses bins, you can use generic movement documents to move produced or assembled items. Learn more at [Moving Items](warehouse-move-items.md).
+|Basic|Order-by-order.|Production, Assembly, Projects: Inventory Pick, Inventory Movement </br><br/> **NOTE**: You can still post consumption directly from the source documents at locations where you activated these settings.|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Pick|Assembly Order -> Inventory movement</br><br/>The **Inventory Movement** can be used only with bins.|Project -> Inventory Pick|
+|Advanced|Consolidated pick activities for multiple source documents.|Production, Assembly, Projects: Warehouse Pick|Optional. Controlled by the Bin Code is Mandatory toggle|Production Order(s) -> Warehouse Pick -> Consumption Journal |Assembly order(s) -> Warehouse Pick| Project(s) -> Warehouse Pick -> Project Journal |
+|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above|Same as above| Same as above|
 
 ## Warehouses without dedicated warehouse activity
 
-Even if you don't have dedicated warehouse activities, you'll probably still want to keep track of things like consumption and production output. The following articles provide information about how to process receipts for source documents.
+Even if you don't use dedicated warehouse activities, you might want to track things like consumption and production output. The following articles provide information about how to process receipts for source documents.
 
 * [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
 * [Assemble Items](assembly-how-to-assemble-items.md)
@@ -49,12 +47,12 @@ Even if you don't have dedicated warehouse activities, you'll probably still wan
 
 ## Basic warehouse configuration
 
+### Flows to and from production in a basic warehouse configuration  
+
 The inbound and outbound flows in a basic warehouse configuration involve the following settings on the **Location Card** page for the location:
 
-* For the inbound flow (put-away), turn on the **Require Put-away** toggle, but turn off the **Require Receipt** toggle.
-* For the outbound flow (pick), turn on the **Require Pick** toggle, but turn off the **Require Shipment** toggle.
-
-### Flows to and from production in a basic warehouse configuration  
+* For the inbound flow (put-away), in the **Prod. Output Whse. Handling** field, select **Inventory Put-away**.
+* For the outbound flow (pick), in the **Prod. Consumption Whse. Handling** field, select **Inventory Pick/Movement**.
 
 Use **Inventory Pick** documents to pick production components in the flow to production. To put away the products you produce, use **Inventory Put-away** documents.
 
@@ -68,7 +66,11 @@ For locations that use bins, inventory movement documents are especially useful 
 
 ### Flows to and from assembly in a basic warehouse configuration  
 
-Post assembly output and consumption directly from an assembly order.
+The outbound flow in a basic warehouse configuration involves the following settings on the **Location Card** page for the location:
+
+* For the outbound flow (pick), in the **Asm. Consumption Whse. Handling** field, select **Inventory Movement**.
+
+Use **Inventory Movement** documents to pick assembly components in the flow to assembly. Post assembly output and consumption directly from an assembly order.
 
 > [!NOTE]
 > **Inventory Pick** and **Inventory Put-away** documents aren't supported for assembly orders.
@@ -83,20 +85,26 @@ For locations that use bins:
 
 ### Flows for project management in a basic warehouse configuration
 
+The outbound flow in a basic warehouse configuration involves the following settings on the **Location Card** page for the location:
+
+* For the outbound flow (pick), in the **Project Consumption Whse. Handling** field, select **Inventory Pick**.
+
 Use **Inventory Pick** documents to pick project components in the flow to project management.
 
 For a location that uses bins, the **To-Project Bin Code** field on the location defines the default flows to project management.
 
 ## Advanced warehouse configurations  
 
-The inbound and outbound flows in an advanced warehouse configuration involve the following settings on the **Location Card** page for the location:
-
-* For the inbound flow (put-away), turn on the **Require Receipt** and **Require Put-away** toggles.
-* For the outbound flow (pick), turn on the **Require Ship** and **Require Receipt** toggles.
-
 ### Flows to and from production in advanced warehouse configurations
 
+The outbound flow in an advanced warehouse configuration involves the following settings on the **Location Card** page for the location:
+
+* For the outbound flow (pick), in the **Prod. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+
 Use the **Warehouse Pick** documents and the **Pick Worksheet** page to pick components for production.
+
+> [!NOTE]
+> **Warehouse Put-away** documents aren't supported for production output.
 
 For locations that use bins:
 
@@ -106,7 +114,14 @@ For locations that use bins:
 
 ### Flows to and from assembly in advanced warehouse configurations
 
+The outbound flow in an advanced warehouse configuration involves the following settings on the **Location Card** page for the location:
+
+* For the outbound flow (pick), in the **Asm. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**. 
+
 Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick components for assembly.
+
+> [!NOTE]
+> **Warehouse Put-away** document isn't supported for assembly orders.
 
 For locations that use bins:
 
@@ -118,6 +133,10 @@ For locations that use bins:
 Assemble-to-stock is part of the internal warehouse flow, and assemble-to-order is in the outbound warehouse flow. Learn more at [Handling Assemble-to-Order Items in Warehouse Shipments](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
 ### Flows to project management in advanced warehouse configurations
+
+The outbound flow in an advanced warehouse configuration involves the following settings on the **Location Card** page for the location:
+
+* For the outbound flow (pick), in the **Project Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
 
 Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick components in the flow to project management.
 

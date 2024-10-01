@@ -164,6 +164,7 @@ ms.service: dynamics-365-business-central
 ### [Warnings and error messages](product-error-messages.md)
 ### Personalize Business Central
 #### [Personalize your workspace](ui-personalization-user.md)
+#### [Where is personlization stored?](ui-personalization-stored.md)
 #### [Why a page is locked from personalizing](ui-personalization-locked.md)
 #### [Save and personalize list views](ui-views.md)
 #### [Bookmark a page or report on your role center](ui-bookmarks.md)
@@ -328,6 +329,7 @@ ms.service: dynamics-365-business-central
 ##### [Make payments with AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Settle purchase invoices promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 ##### [Export a positive pay file](finance-how-positive-pay.md)
+##### [FAQs about supported banking and payment formats](banks-formats-faq.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payments application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)
@@ -352,7 +354,7 @@ ms.service: dynamics-365-business-central
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
-#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
+#### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconciling bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Transfer bank funds](bank-how-transfer-bank-funds.md)
 #### [Create bank deposits](bank-create-bank-deposits.md)
@@ -369,25 +371,28 @@ ms.service: dynamics-365-business-central
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
-#### [About inventory costs](finance-learn-about-costing.md)
+<!-- #### [About inventory costs](finance-learn-about-costing.md)  //same as above or referst to design details. merging into finance-manage-inventory-costs.md  ; ok to remove file-->
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [About standard cost calculation](finance-about-calculating-standard-cost.md)
-#### [About unit cost calculation](finance-about-calculating-unit-cost.md)
-#### [Design details: Inventory costs](design-details-inventory-costing.md)
-#### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md)
-#### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)
+#### [About unit cost calculation](finance-about-calculating-unit-cost.md)  
+<!-- #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)  //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
-#### [Adjust item costs](inventory-how-adjust-item-costs.md)
 #### [Track item cost adjustments](finance-track-inventory-costs.md)
-#### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md)
-#### [Update standard costs](finance-how-to-update-standard-costs.md)
+<!-- #### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md) //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
+<!-- #### [Update standard costs](finance-how-to-update-standard-costs.md)  //merged into finance-about-calculating-standard-cost.md; ok to remove file -->
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close open item ledger entries that result from fixed application in the item journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Report Costs and Reconcile with the General Ledger
-##### [Report costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile inventory costs with the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
-#### [Adjust and reconcile inventory cost with general ledger with job queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
+#### Report inventory costs and reconcile with the general ledger
+##### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md) 
+<!-- line above: moved into folder as this is more "close period" task -->
+##### [Adjust item costs](inventory-how-adjust-item-costs.md) 
+<!-- line above: moved into folder as this is more "close period" task --> 
+<!-- ##### [Report costs](finance-report-costs-and-reconcile-with-the-general-ledger.md) looks like this one is already removed and redirects to finance-how-to-post-inventory-costs-to-the-general-ledger.md  -->
+##### [Reconcile inventory costs with the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)   
+<!-- ##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)   //removing link, as this is Project related WIP. Article is available from Prjoect folder -->
+##### [Adjust and reconcile inventory cost with general ledger with job queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
+#### [Design details: Inventory costs](design-details-inventory-costing.md) 
+<!-- line above: just moving down -->
 
 ### Manage cash flow
 #### [Cash flow overview](finance-cash-flow-overview.md)
@@ -435,18 +440,19 @@ ms.service: dynamics-365-business-central
 ### Working with VAT
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
+#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
+#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
+#### [Multiple VAT registration numbers](finance-how-use-multiple-vat-registrations.md)
+#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
+#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
+#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
+#### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
 #### Set up VAT
 ##### [Set up value-added tax](finance-setup-vat.md)
 ##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
 ##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
 ##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
-#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
-#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
-#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
-#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
-#### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
 
 ### Set up and use e-documents
 #### [E-Documents overview](finance-edocuments-overview.md)
@@ -454,6 +460,7 @@ ms.service: dynamics-365-business-central
 #### [Use e-documents in sales](finance-how-use-edocuments.md)
 #### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Sustainability management
@@ -461,6 +468,15 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
+#### [Work with carbon credit](sustainability-carbon-credit.md)
+#### [Sustainability certificates](sustainability-certificates.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
+##### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### Sustainability APIs
+##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -480,11 +496,16 @@ ms.service: dynamics-365-business-central
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
 ### Financial reporting (Implementing financial statements and KPIs)
+#### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 #### [Prepare financial reporting](bi-how-work-account-schedule.md)
+#### [Organize report data using account categories](bi-account-categories.md)
+#### [Design your own financial reports](bi-design-financial-reports.md)
 #### [Row definitions in financial reporting](bi-row-definitions.md)
 #### [Column definitions in financial reporting](bi-column-definitions.md)
+#### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
 #### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 
@@ -555,6 +576,7 @@ ms.service: dynamics-365-business-central
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### [Create recurring purchase lines](purchasing-how-work-recurring-purchase-lines.md)
+### [Payment practices report](ui-payment-practices.md)
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
@@ -926,6 +948,7 @@ ms.service: dynamics-365-business-central
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 ##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
@@ -1583,7 +1606,7 @@ ms.service: dynamics-365-business-central
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
 ##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Reporting sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
@@ -1636,6 +1659,7 @@ ms.service: dynamics-365-business-central
 #### [Set up the Envestnet Yodlee bank feeds service](bank-how-setup-bank-statement-service.md)
 #### [Use the AMC banking 365 fundamentals extension](ui-extensions-amc-banking.md)
 #### [Select a check layout](finance-how-define-check-layouts.md)
+#### [FAQs about supported banking and payment formats](banks-formats-faq.md)
 ### Set up sales
 #### [Set up sales](sales-setup-sales.md)
 #### [Register new customers](sales-how-register-new-customers.md)
@@ -1859,6 +1883,7 @@ ms.service: dynamics-365-business-central
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
+#### [Sustainability reports](sustainability-reports.md)
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)
@@ -2117,13 +2142,17 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Suggest number series
+### [Suggest number series with Copilot (preview)](suggest-number-series-copilot.md)
+### [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
-## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)

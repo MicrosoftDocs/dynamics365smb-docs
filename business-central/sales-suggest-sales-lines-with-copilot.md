@@ -15,11 +15,11 @@ ms.collection: bap-ai-copilot
 
 # Suggest lines on sales documents with Copilot (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article explains how to create sales documents faster by letting Copilot suggest the items to add to lines on sales documents for your customers.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## About sales line suggestions with Copilot
 
@@ -33,32 +33,14 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
   People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
 
+## Supported languages
+
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+
 ## Prerequisites
 
 * Sales line suggestion with Copilot is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).
 * You're familiar with creating sales orders.
-
-## Geographic availability
-
-The following table shows the Microsoft Azure geographic areas in which his feature is available.
-
-|Environment Azure region  |Azure OpenAI Service geography   |Admin action required to unlock Copilot  |
-|---------|---------|---------|
-|Germany (North, West Central)     | Sweden or Switzerland        |  Yes       |
-|Norway (East, West)     | Sweden or Switzerland        | Yes     |
-|Singapore     |         |         |
-|South Africa (North, West)     |   United States      |   Yes      |
-|Switzerland (North, West)     |  Sweden or Switzerland       |    Yes     |
-|United Arab Emirates (North, West)     |    United States     |   Yes     |
-|United States (Central, East, North Central, South Central, West)     |   United States      |   No      |
-|Europe (West, North)     |   Sweden or Switzerland      |   Yes      |
-|Asia Pacific     |         |         |
-|Australia (South East)     |   United States      |    Yes     |
-|South America     |         |         |
-|India (Central, South)     |    United States     |   Yes      |
-|Japan (East, West)     |    United States     |    Yes     |
-|France (Central, South)     |    Sweden or Switzerland     |    Yes     |
-|Korea (Central, South)     |    United States     |    Yes     |
 
 ## Examples of prompts
 

@@ -1,16 +1,14 @@
 ---
-    title: Corrective invoices [ES]
-    description: The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. 
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/28/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Corrective invoices [ES]
+description: The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/28/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Corrective invoices in the Spanish version
 The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices can't be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  

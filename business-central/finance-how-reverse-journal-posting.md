@@ -18,9 +18,12 @@ You can only reverse entries that are posted from a general journal line. An ent
 
 To undo a receipt or shipment posting, before they're posted as invoiced, you can use the **Undo** function on the posted document. You can undo quantities of type **Item** and **Resource**.
 
-If you've posted an incorrect negative quantity, such as a purchase order with the wrong number of items, as received but not invoiced, you can undo the posting.
+If you posted an incorrect negative quantity, such as a purchase order with the wrong number of items, as received but not invoiced, you can undo the posting.
 
-If you've posted an incorrect positive quantity, such as a sales shipment or a purchase return shipment with the wrong number of items, as shipped but not invoiced, you can undo the posting.
+If you posted an incorrect positive quantity as shipped but not invoiced, you can undo the posting. For example, if you posted a sales shipment or a purchase return shipment with the wrong number of items.
+
+> [NOTE!]
+> Due to how [!INCLUDE [prod_short](includes/prod_short.md)] posts and updates amounts in an additional reporting currency (ACY), you can't use this feature if you use ACY. [!INCLUDE [prod_short](includes/prod_short.md)] converts amounts in local currency to the alternate currency, but doesn't net transactions. If you use ACY, you must manually reverse the amounts.
 
 ## To reverse the journal posting of a general ledger entry
 
@@ -57,12 +60,12 @@ A corrective line is added under the selected receipt line. If the quantity was 
 
 The **Quantity Received** and **Qty. Rcd. Not Invoiced** fields on the related purchase order are set to zero.
 
-## To undo and then redo a quantity posting on a posted return shipment
+## To undo and then redo a quantity on a posted return shipment
 
 The following steps describe how to:
 
 * Undo a posted return shipment of items or resources.
-* Re-post the purchase return with a new quantity.
+* Repost the purchase return with a new quantity.
 
 The steps are similar for posted return receipts.
 
@@ -74,7 +77,7 @@ The steps are similar for posted return receipts.
 
     A corrective line is inserted in the posted document, and the **Return Qty. Shipped** and **Return Shpd. Not Invd.** fields on the return order are set to zero.  
 
-    Now go back to the purchase return order to redo the posting.  
+    Now go back to the purchase return order and redo the posting.  
 
 5. On the **Posted Return Shipment** page, take a note of the number in the **Return Order No.** field.  
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Return Orders**, and then select the related link.  
@@ -87,7 +90,7 @@ The steps are similar for posted return receipts.
 
 You can use the **Reverse transaction** action to reverse payments that were applied to entries that originated in foreign currencies and were adjusted using the Exchange Rate Adjustment batch job. The feature works for both purchases and sales.
 
-The following is a simple scenario that illustrates how it works:
+The following steps are a simple scenario that illustrates how it works:
 
 1. Post a sales invoice for a customer using a foreign currency.
 2. Adjust the exchange rate for that currency.

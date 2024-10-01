@@ -88,7 +88,7 @@ The capability also collects data from the feedback user's can provide using the
 
 - Available languages
   
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+   [!INCLUDE[old-copilot-supported-languages.md](includes/old-copilot-supported-languages.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 

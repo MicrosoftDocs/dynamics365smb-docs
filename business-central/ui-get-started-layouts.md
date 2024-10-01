@@ -38,7 +38,7 @@ With this concept in mind, there are basically three or four tasks involved in s
 
 Depending on what your situation is, the actual tasks vary. Use the following table to help you get started.
 
-|What do you want to do?|See...|
+|What do you want to do?|Learn more|
 |-----------------------|------|
 |Figure out what's the best layout type to use for my situation|[Decide what type of layout you want](#decide)|
 |Create a new layout for a report that's based on a copy an existing layout or create one from scratch|[Create a new layout](#create)|
@@ -74,12 +74,12 @@ Copying is a quick way to create a new layout that's the same as an existing lay
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
 
-    If you selected an extension layout, you're prompted whether you want to edit a copy. To continue, select **Yes**.
+    If you select an extension layout, you're prompted whether you want to edit a copy. To continue, select **Yes**.
 
     > [!TIP]
     > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**.
-4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**
+4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**.
 
    The new layout shows in the **Report Layouts** page.
 5. If you want to make changes to the new layout, refer to [Modify an existing layout](#modify).

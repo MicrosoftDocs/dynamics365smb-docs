@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 
-ms.date: 07/01/2024
+ms.date: 08/28/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -31,12 +31,12 @@ You can also use the extension to suggest when to stock up on inventory. For exa
 
 ## Design details
 
-Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 
+Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website.
 
 These web services are stateless, meaning they use data only to calculate predictions on demand. They don't store data.
 
 > [!NOTE]  
->   You can also use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for sales and inventory forecasts](#AnchorText). 
+> You can also use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for sales and inventory forecasts](#AnchorText). 
 
 ### Data required for forecast
 
@@ -52,7 +52,18 @@ Before is uses the web service, [!INCLUDE[prod_short](includes/prod_short.md)] c
 For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you must create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
-2. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
+2. Expand the **General** FastTab, and then fill in the API URL and API key fields.
+
+> [!NOTE]
+> You can always switch back to resources managed by Microsoft by removing values from API URL and API Key fields.  
+
+## Limitations of the Sales and Inventory Forecast extension
+
+The Sales and Inventory Forecast extension produces aggregated forecast for all locations and variants. If you have multiple locations, for example, that represent different stores, you can't get a forecast for each location. You must distribute amounts afterwards.
+
+Regarding throughput, we estimate that [!INCLUDE [prod_short](includes/prod_short.md)] can process approximately 50000 items in 12 hours, which is defined as the *Max Execution Timeout*. The exact number depends on the data and settings for extensions. For more information about report limits in [!INCLUDE [prod_short](includes/prod_short.md)] and how they're configured in the online service, see [Report limits in Business Central](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Reports).
+
+The Sales and Inventory Forecast extension doesn't support filtering, means you can't split items into separate batches.
 
 ## See also
 

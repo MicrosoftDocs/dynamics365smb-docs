@@ -6,7 +6,7 @@ ms.author: soalex
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 02/09/2024
+ms.date: 09/04/2024
 ms.custom: bap-template
 ---
 
@@ -62,17 +62,14 @@ The following articles describe local functionality that is unique to the French
 
 ## Future legislation requirements being investigated
 
-* Electronic invoicing - **Planned for 2025 release wave 1**
-* New VAT declaration format in demo data - **Planned for 2024 release wave 2**
-* Prepayments regulatory update - **Planned for 2024 release wave 2**
-
+* Electronic invoicing - **Planned for 2025 release wave 2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

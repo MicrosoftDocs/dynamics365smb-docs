@@ -13,8 +13,14 @@ ms.service: dynamics-365-business-central
 
 # Job queue
 
-For recurring tasks, in Business Central the Job Queue is used. For details on how the Job Queue works and how to configure it, please refer to <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks" title="Job Queue">this</a> part of the Microsoft documentation.
+Businesses often use the job queue to automate recurring tasks in [!INCLUDE [prod_short](../../includes/prod_short.md)]. To learn more about the job queue, go to [Use job queues to schedule tasks](../../admin-job-queues-schedule-tasks.md).
 
-When **Subscription & Recurring Billing** is installed, the following entries are automatically created in the Job Queue:
-* **Update Service Dates** (codeunit 70920758) <br/>
-This task is used to automatically update the date fields in Service Commitments. Please refer to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md) for the details of this functionality. The task is executed daily at 1 AM.
+For **Subscription & Recurring Billing**, the following entry is created in the job queue:
+
+* **Update Service Dates** (codeunit 70920758)
+
+   This task automatically updates date fields in service commitments daily at 1:00 AM. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
+
+## See also
+
+[General setup](general.md)

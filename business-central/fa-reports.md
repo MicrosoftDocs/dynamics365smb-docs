@@ -1,19 +1,19 @@
 ---
-title: Fixed assets reports and analytics
-description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your fixed assets.
+title: Fixed assets reports
+description: See which reports are available in the standard version of Business Central so that you can keep track of your fixed assets.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
+ms.search.form: Report_5600_Primary, Report_5601_Primary, Report_5603_Primary, Report_5604_Primary, Report_5605_Primary, Report_5606_Primary, Report_5607_Primary, Report_5608_Primary, Report_5610_Primary
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 
 ---
-# Fixed assets reports and analytics in Business Central
+# Fixed assets reports in Business Central
 
-To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
+To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_short.md)], use the standard reports that are built in. 
 
 ## Reports
 

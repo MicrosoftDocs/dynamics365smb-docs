@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 09/13/2024
+ms.date: 10/01/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 # Get started creating report layouts
 
-Business Central comes with many built-in layouts that you can use on your reports. Other layouts may have been added as part of other extensions. But it's also possible to create your own reports either from scratch or based an existing layout.
+Business Central comes with many built-in layouts that you can use on your reports. Other layouts may have been added as part of other extensions. But it's also possible to create your own reports either from scratch or based on an existing layout.
 
 > [!IMPORTANT]
 > You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. Learn more in [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
@@ -30,9 +30,9 @@ With this concept in mind, there are basically three or four tasks involved in s
 4. Add the new layout file to the report.
 
 > [!IMPORTANT]
-> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, you can tell whether layout is an extension layout or user-defined layout by looking at **Extension** column. An extension layout will show information about the source extension in the column. The **Extension** column will be empty for a user-defined layout.
+> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, you can tell whether the layout is an extension layout or user-defined layout by looking at **Extension** column. An extension layout will show information about the source extension in the column. The **Extension** column will be empty for a user-defined layout.
 >
-> To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
+> Learn more about the difference between extension layouts and user-defined layouts in [Layout source](ui-manage-report-layouts.md#layout-sources).
 
 ## Get started
 
@@ -53,19 +53,19 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 * Excel layouts are generally the easiest to create and modify because the features for summarizing data, adding graphics, and styling, are common Excel features.
 
-* Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
+* Not all reports and documents have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
 
-* If you're only making style changes like font type, size and colors, a Word layout are also a good choice.
+* If you're only making style changes like font type, size and colors, a Word layout is also a good choice.
 
 * Adding data fields or rearranging data fields in Word or RDLC is more advanced than with Excel.
 
 * Word and RDLC layouts are good to use for reports that will eventually be printed.  
 
-* The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. The same report might look different when using the Word layout compared to the RDLC layout.
+* The general design concepts for Word and RDLC layouts are similar. However, each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. The same report might look different when using the Word layout compared to the RDLC layout.
 
 ## <a name="create"></a>Create a new layout
 
-There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout, which you can do by either saving an existing layout directly as a copy or exporting it and then importing it a new layout. Another, more advanced way, is to create a layout from scratch using a blank.
+There are different ways to create a new layout. The easiest ways involve using a copy of an existing layout, which you can do by either saving an existing layout directly as a copy or exporting it and then importing it to a new layout. Another, more advanced way, is to create a layout from scratch using a blank.
 
 ### [Save existing as copy](#tab/copy)
 
@@ -111,8 +111,8 @@ Copying is a quick way to create a new layout that's the same as an existing lay
    |-----|-----------|---------|
    |Report ID|Set to the ID assigned to the report|yes|
    |Layout Name| Type a brief description name for the layout to help you easily identify it.|yes|
-   |Description| Type more detailed information the layout. |no|
-   |Format Options|Set this field to match the type of the layout, like Word, Excel, or RDLC.|yes|
+   |Description| Type more detailed information about the layout. |no|
+   |Format Options|Set this field to match the type of layout, like Word, Excel, or RDLC.|yes|
 
 6. Select **OK**, then do one of the following steps to upload the layout file for the report:
 
@@ -140,7 +140,7 @@ When you create a layout from a blank, you need to design it entirely. The layou
 1. Turn on the **Create a blank layout from the report object** switch.
 1. Select **OK** when finished.
 
-   The new layout appears in the list. The layout is blank but all the reports fields and captions are available for you to start adding them to the layout.
+   The new layout appears in the list. The layout is blank, but all the reports fields and captions are available for you to start adding them to the layout.
 
 1. Now, you're ready to start designing the layout. Learn more in [Modify an existing layout](#modify).
 

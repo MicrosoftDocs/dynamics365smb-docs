@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: overview 
-ms.date: 10/29/2023
+ms.date: 09/30/2024
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -20,7 +20,7 @@ This article gives an overview the AI-powered capability provided by Copilot in 
 
 Copilot provides AI-powered writing assistance for Business Central users responsible for authoring marketing text (product descriptions) on items sold in online shops, like Shopify. With the click of a button, Copilot generates text that's engaging and creative, and that highlights key attributes of the specific item. With a bit of reviewing and editing, it's ready to publish.
 
-Copilot uses [Microsoft Azure OpenAI Service](/azure/cognitive-services/openai/overview) to access language models that recognize, predict, and generate text that's based on trained datasets.
+Copilot uses Microsoft Azure OpenAI Service to access language models that recognize, predict, and generate text that's based on trained datasets. Learn more at [Microsoft Azure OpenAI Service](/azure/cognitive-services/openai/overview).
 
 <br><br>  
 
@@ -44,14 +44,13 @@ AI-generated text can help you accelerate the time-to-market of products in onli
 
 You should consider the AI-generated text as a *suggestion only*. Suggestions can, in some cases, contain mistakes and even inappropriate text, so human oversight and review are required. Before you make the text publicly available, you must review it for accuracy and make appropriate changes.
 
+## Supported languages
+
+[!INCLUDE[copilot-language-support.md](includes/copilot-language-support.md)]
+
 ## Current limitations
 
-This section explains the current limitations of AI-generated text capability provided by Copilot.
-
-- [!INCLUDE[old-copilot-supported-languages.md](includes/OLD-copilot-supported-languages.md)]
-- Poor suggestions can result when vague or generic product names are used and specifics about an item are missing, like key attributes or a category.
-- Copilot is only supported on Business Central online, not private cloud environments or Business Central on-premises environments.
-- Copilot isn't supported through connections to your own Azure OpenAI Service resource in your Azure subscription.
+Poor suggestions can result when vague or generic product names are used and specifics about an item are missing, like key attributes or a category.
 
 <!-- Partner extensibility of the AI capability by using AL code isn't supported.-->
 
@@ -59,13 +58,13 @@ This section explains the current limitations of AI-generated text capability pr
 
 To get started, you'll need a Business Central (v23.1 and later) environment that's enabled with Copilot.
 
-- If you're an existing Business Central customer, your Business Central admin will have to set up an environment that's enabled for marketing text suggestions. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
+- If you're an existing Business Central customer, your Business Central admin will have to set up an environment that's enabled for marketing text suggestions. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
-- If you're not a Business Central customer but want to try it out, you can sign up for a free trial. For more information, go to [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
+- If you're not a Business Central customer but want to try it out, you can sign up for a free trial. Learn more in [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
 
 Once you have an environment or trail that ready, go to [Add marketing text to items with Copilot](item-marketing-text.md).  
 
-## See also
+## Related information
 
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Add marketing text to items with Copilot](item-marketing-text.md)  

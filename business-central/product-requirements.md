@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 08/23/2024
+ms.date: 10/01/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central

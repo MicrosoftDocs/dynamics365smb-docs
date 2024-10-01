@@ -88,5 +88,5 @@ Each time that Copilot provides matches or suggestions, you can provide feedback
 
 ## See also
 
-[Reconcile bank accounts with Copilot (preview)](bank-reconciliation-with-copilot.md)  
+[Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
 [Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

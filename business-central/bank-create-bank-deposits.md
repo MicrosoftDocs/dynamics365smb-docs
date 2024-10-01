@@ -7,8 +7,8 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: bank, deposit
-ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646
-ms.date: 08/29/2024
+ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646, 1690_Primary
+ms.date: 09/27/2024
 ms.custom: bap-template    
 ---
 
@@ -99,6 +99,25 @@ The lines on the bank deposit use the default dimensions you specified in the **
 
     > [!TIP]
     > Before you post the deposit, you can use the **Test Report** action to review your data. The report shows whether there are any issues, such as missing data, that might prevent posting.  
+
+## Apply multiple checks for multiple invoices for a customer in a lump sum deposit
+
+You can post lump sum deposits from multiple checks on deposit lines for customer ledger entries. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Deposits**, and then choose the related link.
+2. Create or choose a line for the customer, and in the **External Document No.** field, enter the check number.
+3. Choose **Apply Entries**.
+4. On the **Apply Customer Entries** page, for each document you want to apply the check to, in the **Applies-to ID** field, enter the check number.
+5. In the **Amount to apply** field, enter the amount on the check.
+
+   > [!NOTE]
+   > When you enter the amount to apply, the **Applies-to ID** field might reset to the bank deposit document number. Double-check the field, and if it reset, reenter the check number.  
+
+6. Choose **OK**.
+7. Repeat steps two through six for each check.
+
+   > [!TIP]
+   > Before you post the bank deposit, it's a good idea to use the **Test Report** action to validate the applications.
 
 ## Find posted bank deposits
 

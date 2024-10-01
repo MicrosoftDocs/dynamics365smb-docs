@@ -163,6 +163,7 @@ ms.service: dynamics-365-business-central
 ### [Warnings and error messages](product-error-messages.md)
 ### Personalize Business Central
 #### [Personalize your workspace](ui-personalization-user.md)
+#### [Where is personlization stored?](ui-personalization-stored.md)
 #### [Why a page is locked from personalizing](ui-personalization-locked.md)
 #### [Save and personalize list views](ui-views.md)
 #### [Bookmark a page or report on your role center](ui-bookmarks.md)
@@ -352,7 +353,7 @@ ms.service: dynamics-365-business-central
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
-#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
+#### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconciling bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Transfer bank funds](bank-how-transfer-bank-funds.md)
 #### [Create bank deposits](bank-create-bank-deposits.md)
@@ -2147,7 +2148,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
-## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)

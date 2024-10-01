@@ -114,6 +114,7 @@ ms.service: dynamics-365-business-central
 ##### [Design details: Post interface structure](design-details-posting-interface-structure.md)  
 ##### [Design details: Post engine structure](design-details-posting-engine-structure.md)  
 #### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
+#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
@@ -142,10 +143,10 @@ ms.service: dynamics-365-business-central
 ### [Chat with Copilot (preview)](chat-with-copilot.md)
 ### [Find pages and information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
-### [Search for specific data](ui-search-data.md)
-### [Find pages with the role explorer](ui-role-explorer.md)
-### [Sort, search, and filter](ui-enter-criteria-filters.md)
+### [Search for data company-wide](ui-search-data.md)
+### [Sort, search, and filter data on lists, reports ](ui-enter-criteria-filters.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Find pages with the role explorer](ui-role-explorer.md)
 ### [Enter data](ui-enter-data.md)
 ### [Copy and paste FAQ](faq-copy-paste.yml)
 ### [Work with dates and times on calendars](ui-enter-date-ranges.md)
@@ -163,6 +164,7 @@ ms.service: dynamics-365-business-central
 ### [Warnings and error messages](product-error-messages.md)
 ### Personalize Business Central
 #### [Personalize your workspace](ui-personalization-user.md)
+#### [Where is personlization stored?](ui-personalization-stored.md)
 #### [Why a page is locked from personalizing](ui-personalization-locked.md)
 #### [Save and personalize list views](ui-views.md)
 #### [Bookmark a page or report on your role center](ui-bookmarks.md)
@@ -352,7 +354,7 @@ ms.service: dynamics-365-business-central
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
-#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
+#### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconciling bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Transfer bank funds](bank-how-transfer-bank-funds.md)
 #### [Create bank deposits](bank-create-bank-deposits.md)
@@ -458,6 +460,7 @@ ms.service: dynamics-365-business-central
 #### [Use e-documents in sales](finance-how-use-edocuments.md)
 #### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
 #### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Sustainability management
@@ -493,11 +496,16 @@ ms.service: dynamics-365-business-central
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
 ### Financial reporting (Implementing financial statements and KPIs)
+#### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 #### [Prepare financial reporting](bi-how-work-account-schedule.md)
+#### [Organize report data using account categories](bi-account-categories.md)
+#### [Design your own financial reports](bi-design-financial-reports.md)
 #### [Row definitions in financial reporting](bi-row-definitions.md)
 #### [Column definitions in financial reporting](bi-column-definitions.md)
+#### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
 #### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 
@@ -568,6 +576,7 @@ ms.service: dynamics-365-business-central
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
 ### [Create recurring purchase lines](purchasing-how-work-recurring-purchase-lines.md)
+### [Payment practices report](ui-payment-practices.md)
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
@@ -2133,6 +2142,9 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Suggest number series
+### [Suggest number series with Copilot (preview)](suggest-number-series-copilot.md)
+### [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
@@ -2140,7 +2152,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
-## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)

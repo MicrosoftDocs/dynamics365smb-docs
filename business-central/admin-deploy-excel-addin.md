@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 06/13/2024
+ms.date: 10/01/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

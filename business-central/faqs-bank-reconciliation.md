@@ -1,7 +1,7 @@
 ---
 title: FAQ for bank account reconciliation assist with Copilot (preview)
 description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 03/27/2024
+ms.date: 08/13/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,13 +13,9 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ for bank account reconciliation assist with Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# FAQ for bank account reconciliation assist with Copilot
 
 These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot assistance with bank account reconciliation in [!INCLUDE[prod_short](includes/prod_short.md)].
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is bank reconciliation assist?
 

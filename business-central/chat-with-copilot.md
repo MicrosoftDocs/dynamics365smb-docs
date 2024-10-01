@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 09/30/2024
+ms.date: 10/01/2024
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -22,10 +22,12 @@ This article explains how to chat with Copilot to get answers about your company
 
 ## About chat with Copilot
 
-Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
+Microsoft Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
 
-- Find business data for your company in Business Central. Use chat to look up (and open) data about entities/records related to business processes, such as customers, vendors, sales orders, and items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
-- Get explanations or step-by-step guidance on various tasks. For example, ask "Help me understand dimensions" or "How do I post a sales order."
+- Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
+
+  By working together with the analysis assist feature, Copilot can also aggregate data for you. Prompting chat to group records or perform calculations, such as summing or averaging, generates an analysis tab displaying the results.
+- Get explanations or step-by-step guidance on various tasks. For example, ask "Help me understand dimensions" or "How do I post a sales order." [Learn more](#prompting-for-aggregating-data-on-analysis-tabs).
 - Understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
 
 Copilot's sources responses from the official information available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/).
@@ -63,6 +65,8 @@ Learn more about geographic and language availability at [Copilot international 
 
    Depending on your question, the answer can contain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
 
+   To assist you better, Chat might ask for more details about your prompt and offer you to choose from a few options. In some instances, Chat follows an answer with related prompt suggestions for you to choose from ![Shows callout number 5](media/callout-number-5.svg).
+
 1. Ask another question to refine the answer.
 
    Chat remembers the context, which means that you don't have to repeat key points from the original question.
@@ -75,6 +79,8 @@ The chat also clears if you close or sign out of Business Central.
 
 ## Tips for better questions
 
+### Basic techniques to improve the answers
+
 Here are some ways you can improve the answers you get from Copilot:
 
 - Ask clear and specific questions.
@@ -82,10 +88,24 @@ Here are some ways you can improve the answers you get from Copilot:
 - Ask one question at a time. <!--Avoid asking about multiple questions in one message.-->
 - Use natural language, expressing the questions in a friendly and conversational manner.
 - Use keywords, phrases, and terms that you know are used in Business Central, either in the app or documentation.
-- Ask follow-up questions or rephrase the last question if the initial response doesn't fully answer your questions,
-- Clear the current chat session to start over if you're asking a question on a different subject matter than previous question,
+- Ask follow-up questions or rephrase the last question if the initial response doesn't fully answer your questions.
+- Clear the current chat session to start over if you're asking a question on a different subject matter than previous question.
 
-## Example prompts
+### Prompting for aggregating data on analysis tabs
+
+If you prompt using phrases related to data aggregation, chat creates an analysis tab that you can open from a link it replies with in the Copilot pane. For example, the following figure illustrates an answer you could get for the prompt: "In which countries are my top customer":
+
+![Shows a link tot ana analysis tab in the chat with Copilot pane](media/chat-analysis-tab.png)
+
+To generate this type of response, use common words and phrases related to data aggregation and analysis, like "group", "pivot", "sum", "average", "most", and "least", in different variations. For example:
+
+`show me customers grouped by their country and zipcode`  
+`which customers got most discounts`  
+`group the current records by name and location`  
+
+Learn more about analysis tabs in [Analyze data in lists with help from Copilot](analysis-assist.md).
+
+### Example prompts
 
 Your questions to Copilot vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that show different ways of asking questions in the chat pane that can inspire you to write your own questions based on your situation.
 
@@ -109,10 +129,11 @@ In this example, you ask Copilot for guidance on how to perform some task in Bus
 
 You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the dislike button, you can choose a reason, including inaccurate, inappropriate, or other. This information can help us improve suggestions.
 
-## See also
+## Related information
 
-- [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
-- [Configure Copilot and AI capabilities](enable-ai.md)  
-- [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
-- [Resources for help in Business Central](product-help-and-support.md)  
-- [Changing the language](ui-change-basic-settings.md#language)  
+[Analyze data in lists with help from Copilot](analysis-assist.md)  
+[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)  
+[Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
+[Resources for help in Business Central](product-help-and-support.md)  
+[Changing the language](ui-change-basic-settings.md#language)  

@@ -23,7 +23,7 @@ When you interact with the Business Central web client to optimize your workspac
 The following table indicates which UI adjustments are roaming, local, or both. An \* indicates that the roaming personalization can be made without entering the personalization mode.  
 
 |UI Element|Options|Roaming|Local|
-|-|-|-|-|
+|-|-|:-:|:-:|
 |Fields|Reorder or move to another group|X||
 ||Hide or show|X||
 ||Add or remove|X||

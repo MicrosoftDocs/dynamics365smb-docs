@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 06/12/2024
+ms.date: 09/16/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports about the state of your business.
 
-This article describes how to start using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your Power BI service, or share them with all users in your organization. When the reports are in the Power BI service, users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
+This article describes how to start using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your Power BI service or share them with all users in your organization. When the reports are in the Power BI service, users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Get ready
 
@@ -25,9 +25,9 @@ This article describes how to start using Power BI Desktop to create reports tha
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-  Power BI Desktop is a free application you install on your local computer. For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop is a free application you install on your local computer. Learn more at [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Make sure the data you want in the report is available as an API page or published as a web service. For more information, see [Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata).
+- Make sure the data you want in the report is available as an API page or published as a web service. Learn more in [Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -40,7 +40,7 @@ This article describes how to start using Power BI Desktop to create reports tha
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
-  For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+  Learn more in [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
@@ -101,11 +101,11 @@ Once the data is loaded, you can see it in the right navigation on the page. At 
 
 ## Creating accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaption to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
 
 ## Creating reports to display data associated with a list
 
-You can create reports that display in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page. The reports can contain data about the record selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. For more information, see [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+You can create reports that display in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page. The reports can contain data about the record selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. Learn more in [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
 
@@ -123,7 +123,7 @@ The theme file is available as a json file on Microsoft Power BI Community Theme
 
 ### Import the theme on a report
 
-After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. For more information, see [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more at [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## Publish reports
 
@@ -144,7 +144,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 - Share report from your Power BI service
 
-    If you have a Power BI Pro license, you can share the report to others, directly from your Power BI service. For more information, see [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    If you have a Power BI Pro license, you can share the report with others, directly from your Power BI service. Learn more at [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 ## How to develop cross-company or cross-environment Power BI reports
 
@@ -154,6 +154,29 @@ To set up a query to load data for multiple companies, follow these steps:
 
 1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes the company ID (or maybe the environment name) as parameters. To learn more, go to [Using custom Power Query functions](/power-query/custom-function).
 1. Now use the new custom function in a PowerQuery query, where you map the function over a list of companies and then merge the datasets using the [Table.Combine](/powerquery-m/table-combine) Power Query function.
+
+## Advanced Power BI connector properties
+
+Starting in August 2024, the Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties that you can set in your Power Query queries:
+
+- **AcceptLanguage**: This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. Setting this parameter improves user satisfaction and makes the data more accessible and relevant. Learn more at [Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).
+
+- **ODataMaxPageSize**: This property limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service. Learn more at [ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize).
+
+- **Timeout**: This parameter defines the maximum duration for a request before cancellation. It helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. You can't exceed the timeout defined on the service. Learn more at [OData.Feed](/powerquery-m/odata-feed).
+
+- **UseReadOnlyReplica**: This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance. Setting this property leads to faster data retrieval and improved system stability, especially during peak usage times.
+
+To set the properties, complete the following steps:
+
+1. Start Power BI Desktop.
+1. To open the **Power Query Editor**, select **Transform Data** in the ribbon.
+1. On a query, select **Advanced Editor** in the ribbon.
+1. In the line that starts with `Source =`, insert a fourth parameter in `Dynamics365BusinessCentral.ApiContentsWithOptions` that includes  list of properties and values, for example:
+
+   ```powerquery
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
+   ```
 
 ## Fixing problems
 
@@ -188,7 +211,7 @@ Starting in February 2022, new reports that use [!INCLUDE [prod_short](includes/
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
-## See Also
+## Related information
 
 [Enabling Your Business Data for Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  

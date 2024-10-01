@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/19/2024
+ms.date: 10/01/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -53,7 +53,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd>|<kbd>Shift</kbd> between **Details** and **Attachments** in the FactBox pane.|
 |<kbd>Alt</kbd>+<kbd>O</kbd>|Add a new note for the selected record, even if the FactBox pane isn't open.|
 |<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Open the **Tell Me** window. Learn more in [Finding pages and information with Tell Me](ui-search.md).|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. Learn more in [Finding related entires for posted documents](ui-find-entries.md)|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. Learn more in [Finding related entries for posted documents](ui-find-entries.md)|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a newly created page and open a new one to create a new record. Similarly, <kbd>Alt</kbd>+<kbd>F9</kbd> posts a document and creates a new one.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Open the **My Settings** page.|

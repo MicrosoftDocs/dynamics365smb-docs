@@ -38,9 +38,11 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
 ## Prerequisites
 
-- Ensure that chat with Copilot capability is activated by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
-- Set your display language in Business Central to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
-- Ensure your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).
+- The display language in Business Central is set to English. Learn more in [Change basic settings](ui-change-basic-settings.md#language). 
+- Chat with Copilot capability is activated by an administrator. Learn more in [Configuring Copilot and AI capabilities](enable-ai.md).
+- You're signed in to a Business Central environment that's hosted in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
+
+Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Get started using chat with Copilot
 
@@ -86,8 +88,8 @@ Here are some ways you can improve the answers you get from Copilot:
 - Ask one question at a time. <!--Avoid asking about multiple questions in one message.-->
 - Use natural language, expressing the questions in a friendly and conversational manner.
 - Use keywords, phrases, and terms that you know are used in Business Central, either in the app or documentation.
-- If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
-- If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
+- Ask follow-up questions or rephrase the last question if the initial response doesn't fully answer your questions.
+- Clear the current chat session to start over if you're asking a question on a different subject matter than previous question.
 
 ### Prompting for aggregating data on analysis tabs
 
@@ -134,3 +136,4 @@ You can rate the answers you get from Copilot by using the like (thumbs up) butt
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [Resources for help in Business Central](product-help-and-support.md)  
+[Changing the language](ui-change-basic-settings.md#language)  

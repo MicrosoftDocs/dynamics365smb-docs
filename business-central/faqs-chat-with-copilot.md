@@ -78,9 +78,9 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
 - Language limitations
 
-  - Chat is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
+  - Chat is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. 
 
-    If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of these locales, chat isn't available.
+    If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of these locales, chat isn't available. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
   - The quality of answers can be lower under the following conditions:
     - The language locale is something other than en-US.

@@ -32,9 +32,9 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
     [Learn more about this task](#post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts).
 
-## Available languages
+## Supported languages
 
-[!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 

@@ -32,7 +32,7 @@ Copilot is built on the Microsoft cloud and designed for enterprise use, with th
 - Microsoft doesn't read your prompts or use your data to train AI models without your explicit permission.
 - For customers within the EU Data Boundary, data doesn't move outside that boundary. 
 
-Learn more about Copilot data security and privacy in Dynamics 365 at [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy) and data movement across geographies in [Copilot data movement across geographies](ai-copilot-data-movement).
+Learn more about Copilot data security and privacy in Dynamics 365 at [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy) and data movement across geographies in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 ## How does Copilot approach AI safety?
 

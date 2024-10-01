@@ -107,6 +107,9 @@ A project planning line can have one of the following types.
 4. On the **Project Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the project task.
 
+> [!TIP]
+> If the line is for an item, you can use the **Item Availability by** action to explore the item's availability by location, event, or period.
+
 ## See also
 
 [Project Management](projects-manage-projects.md)  

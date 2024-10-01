@@ -15,9 +15,9 @@ ms.service: dynamics-365-business-central
 
 # Monitor project progress and performance
 
-With the work in process (WIP) feature you can estimate the financial value of ongoing projects in the general ledger.
+The work in process (WIP) feature lets you estimate the financial value of ongoing projects in the general ledger.
 
-As a project progresses, materials and resources are consumed and expenses incurred that must be posted to the project. In many cases, you might post expenses for a project before invoicing. But if only post expenses, your financial statement is inaccurate. To track the actual value of the project, calculate WIP and post it to the general ledger. Following WIP methods are available out of the box:
+As a project progresses, materials and resources are consumed and expenses incurred that you must post to the project. In many cases, you might post expenses for a project before invoicing. But if you only post expenses, your financial statement is inaccurate. To track the actual value of the project, calculate WIP and post it to the general ledger. The following are the standard WIP methods:
 
 * Cost value
 * Sales value
@@ -25,15 +25,13 @@ As a project progresses, materials and resources are consumed and expenses incur
 * Percentage of completion
 * Completed contract
 
-You can also create  WIP method that meets the needs of your organization and set it as the default.  
+You can also create a WIP method that meets the needs of your organization and set it as the default. Learn more at [Understanding WIP Methods](projects-understanding-wip.md).
 
-Learn more at [Understanding WIP Methods](projects-understanding-wip.md).
-
-If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you can calculate WIP. The value isn't automatically posted to the general ledger. After you calculate WIP using the method you prefer, you can post to the general ledger.
+If you want to view the result using a different method, change the method and recalculate WIP. You can recalculate WIP as often as you like. The value isn't automatically posted to the general ledger. After you calculate WIP using the method you prefer, you can post to the general ledger.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Methods**, then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Close the page.   
+3. Close the page.
 4. To make this new method the default, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects Setup**, then choose the related link.  
 5. In the **Default WIP Method** field, choose the method from the list.
 

@@ -1,7 +1,7 @@
 ---
 title: FAQs for analysis assist (preview)
 description: This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 09/25/2024
+ms.date: 10/01/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article

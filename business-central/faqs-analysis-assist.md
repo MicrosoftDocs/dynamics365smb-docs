@@ -79,6 +79,6 @@ The analysis assist capability collects the minimum data required by Business Ce
 
 It also collects data from the feedback users can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like or dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
 
-## related information
+## Related information
 
 [Analyze data with Copilot (preview)](analysis-assist.md)

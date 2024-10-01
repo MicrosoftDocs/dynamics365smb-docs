@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 08/20/2024
+ms.date: 10/01/2024
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -22,7 +22,7 @@ This article explains how to chat with Copilot to get answers about your company
 
 ## About chat with Copilot
 
-Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
+Microsoft Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
 
 - Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
 
@@ -95,7 +95,7 @@ If you prompt using phrases related to data aggregation, chat creates an analysi
 
 ![Shows a link tot ana analysis tab in the chat with Copilot pane](media/chat-analysis-tab.png)
 
-To generat this type of response, use common words and phrases related to data aggregation and analysis, like "group", "pivot", "sum", "average", "most", and "least", in different variations. For example:
+To generate this type of response, use common words and phrases related to data aggregation and analysis, like "group", "pivot", "sum", "average", "most", and "least", in different variations. For example:
 
 `show me customers grouped by their country and zipcode`  
 `which customers got most discounts`  

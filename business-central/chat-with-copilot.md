@@ -129,8 +129,8 @@ You can rate the answers you get from Copilot by using the like (thumbs up) butt
 
 ## Related information
 
-- [Analyze data in lists with help from Copilot](analysis-assist.md.md)  
-- [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
-- [Configure Copilot and AI capabilities](enable-ai.md)  
-- [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
-- [Resources for help in Business Central](product-help-and-support.md)  
+[Analyze data in lists with help from Copilot](analysis-assist.md)  
+[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)  
+[Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
+[Resources for help in Business Central](product-help-and-support.md)  

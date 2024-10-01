@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.topic: conceptual
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
-ms.date: 02/20/2024
+ms.date: 10/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
@@ -77,7 +77,7 @@ Modern search also supports enclosing search terms in quotes to refine results, 
 >    Learn more about designating columns for modern search at [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
 >  
 > - If the **Use modern search** option isn't available, it might be because:
->   - It isn't enabled for your enviroment. Administrators can enable the **Use optimized text search in lists** feature in **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
+>   - It isn't enabled for your environment. Administrators can enable the **Use optimized text search in lists** feature in **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
 >   - The list doesn't include any columns that are designated for modern search.
 > - Modern search is the default if enabled.
 
@@ -131,9 +131,9 @@ On lists, you set filters by using the filter pane. To display the filter pane f
 
 To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, select <kbd>Shift</kbd>+<kbd>F3</kbd>. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
 
-The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields by choosing the **+ Filter** action.
+The filter pane displays the current filters for a list and enables you to set your own custom filters on one or more fields by choosing the **+ Filter** action.
 
- A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
+ A filter pane is divided into three sections: **Views**, **Filter list by**, and **Filter totals by**:
 
 - **Views**
 
@@ -150,7 +150,7 @@ The filter pane displays the current filters for a list, and enables you to set 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. Learn the technical aspect of FlowFilters at [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
+You can set a simple filter directly on a list by using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
 ### Setting filters in reports, batch jobs, and XMLports
 
@@ -190,7 +190,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`1100..2100`|Numbers 1100 through 2100|  
 |`..2500`|Up to and including 2500|  
 |`..12 31 00`|Dates up to and including 12 31 00|  
-|`Bicycle..Car`| Strings Bicycle through Car when ordered lexiographically|  
+|`Bicycle..Car`| Strings Bicycle through Car when ordered lexicographically|  
 |`P8..`|Information for accounting period 8 and after|  
 |`..23`|From the beginning date until 23-current month-current year 23:59:59|  
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
@@ -200,7 +200,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 > If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. Learn more in [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
 > [!NOTE]  
-> If the field that you filter on is of type Text, then lexiographic ordering is used to determine what's included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 also includes values 100000 and 1000042.
+> If the field that you filter on is of type Text, then lexicographic ordering is used to determine what's included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 also includes values 100000 and 1000042.
 
 #### (&#124;) Either/or
 
@@ -281,7 +281,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 
 ### <a name="symbols"></a>Filtering on values that contain symbols
 
-There might be cases where field values contain the one of the following symbols:
+There might be cases where field values contain one of the following symbols:
 
 - &
 - (

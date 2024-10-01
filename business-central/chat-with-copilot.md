@@ -36,9 +36,11 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
 ## Prerequisites
 
-- The display language in Business Central is set to English. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+- The display language in Business Central is set to English. Learn more in [Change basic settings](ui-change-basic-settings.md#language). 
 - Chat with Copilot capability is activated by an administrator. Learn more in [Configuring Copilot and AI capabilities](enable-ai.md).
-- You're signed in to a Business Central environment located in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
+- You're signed in to a Business Central environment that's hosted in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
+
+Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Get started using chat with Copilot
 
@@ -80,8 +82,8 @@ Here are some ways you can improve the answers you get from Copilot:
 - Ask one question at a time. <!--Avoid asking about multiple questions in one message.-->
 - Use natural language, expressing the questions in a friendly and conversational manner.
 - Use keywords, phrases, and terms that you know are used in Business Central, either in the app or documentation.
-- If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
-- If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
+- Ask follow-up questions or rephrase the last question if the initial response doesn't fully answer your questions,
+- Clear the current chat session to start over if you're asking a question on a different subject matter than previous question,
 
 ## Example prompts
 

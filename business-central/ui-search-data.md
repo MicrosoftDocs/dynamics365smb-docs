@@ -23,7 +23,7 @@ When you want to find a particular record or value, use the ![Tell me what you w
 
 You can speed up results by choosing the fields on the tables that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Center. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
 
-## See also
+## Related information
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Search for data in a list](ui-enter-criteria-filters.md#searching)  

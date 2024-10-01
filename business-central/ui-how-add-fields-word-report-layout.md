@@ -39,7 +39,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
 
 ###  <a name="OpenXMLPart"></a> To open the Custom XML part for the Report in Word  
   
-1. If not already open, then open the Word report layout document in Word.  
+1. If it's not already open, then open the Word report layout document in Word.  
   
      For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).  
   

@@ -5,14 +5,18 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 12/06/2023
+ms.date: 09/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Carta de Porte packing slips and transfer orders in the Mexican version
 
 Mexican companies must be able to print and send Carta de Porte-compliant packing slips and transfer orders electronically as Comprobante Fiscal Digital por Internet (CFDI) files. As of December 1, 2021, the Waybill (Carta de Porte) complement is mandatory for taxpayers who transport goods and merchandise in the national territory. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI and Carta de Porte so that you can print packing slips and transfer orders that have the required digital signature. The driver can then show the printed document if they're requested to do so.  
+
+> [!NOTE]
+> The **Carta de Porte** feature in the Mexican Business Central localization is currently at version **3.1** and will become effective with version 24.4.  
 
 > [!IMPORTANT]
 > The documents must include a digital signature, which requires a connection to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
@@ -80,9 +84,9 @@ Then, when you post the shipment, the required information is carried forward to
 
 ## See also
 
-[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
-[Set Up PAC Web Services](how-to-set-up-pac-web-services.md)  
-[Generate Electronic Invoices](how-to-generate-electronic-invoices.md)
+[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)    
+[Set Up PAC Web Services](how-to-set-up-pac-web-services.md)    
+[Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

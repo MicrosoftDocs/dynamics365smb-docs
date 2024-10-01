@@ -14,57 +14,66 @@ ms.custom: bap-template
 
 # Service objects
 
-Service Objects represent a history of products sold to a customer. They contain all information related to the delivered item, such as <br/>.
-* master data (Item No., Description).
+Service objects represent a history of products sold to a customer. They contain all information related to the delivered item:
+
+* Master data (item number and description).
 * Details of the sale (customer, delivery recipient, invoice recipient)
-* Quantity, date of provision and date of next settlement
-* All Service Commitments (sales and Service Commitments including prices, terms and cancellation periods).
+* Quantity, date of provision, and date of next settlement
+* All service commitments (sales and service commitments including prices, terms, and cancellation periods).
 
-A Service Object can be created automatically from a Sales order using the [Shipment](/docs/srb/sales/sales-service-commitments.md) (see **[Service Commitment Option](/docs/srb/masterdata/items.md)** field on the Item card for prerequisites). When a Service Object is created on shipment, the information regarding the End User and the Invoice Recipient is taken from the order and the delivery. This also includes the **Your Reference** field, which is transferred to the **Customer Reference** field. <br/>
-Alternatively, a Service Object can also be entered manually by creating a new record (action **New** in the **Service Objects** page) and filling in the fields on each fast tabs. This may be necessary, for example, in the case of a manual transfer of equipment or licenses.
-The Service Object with the associated Contract Commitments forms the basis for the Customer and Vendor Contracts and their periodic [Recurring Billing](/docs/srb/recurring-billing.md).
+A service object can be created automatically from a sales order using the shipment. To learn more, go to [Sales process](../sales/sales-service-commitments.md) and [Service Commitments at Items](../masterdata/items.md). When you create a service object on a shipment, the information regarding the end user and the invoice recipient is taken from the order and the delivery. This also includes the **Your Reference** field, which is transferred to the **Customer Reference** field.
 
-:::info Service Objects in master data
-Service Objects are visible in the fact box area at the Customer, Vendor and Contact. A click on the respective cue opens the corresponding overview.
-:::
+Alternatively, you can also enter a service object manually by creating a new record on the **Service Objects** page and filling in the fields on each FastTab. This may be necessary, for example, in the case of a manual transfer of equipment or licenses.
 
-The following information is required to manually create a Service Object:
-1. **No.** can be filled via a number series.
-2. **Item No.** is used to define the device/software/license/user/... that will be billed recurrently. Only items with the **Service Commitment Option** *Sales with Service Commitments* or *Service Commitment Item* can be selected. 
-3. The **Description** is automatically taken from the item and can be edited.
-4. In the **Quantity** any positive, integer value can be entered. It specifies the number of devices/licenses whose Service Commitments are to be billed recurrently.
-5. The **End User** fast tab contains information (contact and customer information) about which customer has purchased the item and the Service Commitments. When creating a Service Object manually, the customer must be entered here.
-6. The **Shipping and Billing** fast tab contains information about the (original) shipment of the product and whether a different invoice recipient paid for the item. The contact details of the delivery recipient from the sales order are automatically used. The Ship-to party can be changed if required (even subsequently), in the same way as for sales documents. The other delivery recipient fields are automatically updated after modification.
+The service object with the associated contract commitments forms the basis for the customer and vendor contracts and their periodic recurring billing. To learn more, go to [Recurring billing](../recurring-billing.md).
 
-As additional information, the **Customer Reference**, the **Version**, the **Provision Start Date** and the **Provision End Date** can be maintained, whereby the **Provision Start Date** is automatically entered when the Service Object is created via the delivery from a Sales Order.
+> [!NOTE]
+> Service objects display on the information pane on the customer, vendor, and contact. A click on the respective cue opens the corresponding overview.
 
-:::note Customer Reference in the Contract invoice
-If a Customer Reference is stored on a Service Object, this information will automatically appear below the corresponding invoice line.
-:::
+To manually create a service object, the following information is required:
 
+* **No.** can be filled in by a number series.
+* **Item No.** defines the device, software, license, user, and so on, that will be billed recurrently. You can only select items with the **Service Commitment Option** set to **Sales with Service Commitments** or **Service Commitment Item**. 
+* The **Description** comes from the item, but you can edit it.
+* In the **Quantity** field, enter a positive integer to specify the number of devices/licenses whose service commitments you bill recurrently.
+* The **End User** FastTab contains information (contact and customer information) about which customers purchased the item and the service commitments. When you create a service object manually, you must specify the customer.
+* The **Shipping and Billing** FastTab contains information about the (original) shipment of the product, and whether a different invoice recipient paid for the item. The contact details of the delivery recipient from the sales order are used. You can change the ship-to party if needed in the same way as for sales documents. The other delivery recipient fields update automatically.
 
-## Service Object with Serial Number
-When serial number tracked items are delivered with Service Commitments, one Service Object is automatically created for each serial number. The serial number is determined from the item tracking lines for the Sales Order line and transferred to the Service Object in the **Serial No.** field. The field on the Service Object is editable. The quantity in a serial number tracked Service Object must always be 1 and cannot be changed. In order to store a serial number for a Service Object, an item tracking must be set for the item. Changes can be tracked using the **[Archived Service Commitments](/docs/srb/working-with-contracts/so-service-commitments.md#log-changes-to-services-commitments)**.
+As additional information, you can maintain the **Customer Reference**, **Version**, **Provision Start Date**, and the **Provision End Date**, whereby the **Provision Start Date** is automatically entered when the service object is created via the delivery from a sales order.
 
-:::note Serial number in Contract invoices
-If a serial number is stored on a Service Object, this information will appear depending on the [Invoice Details](/docs/srb/setup/general.md#invoice-details) set in the setup.
-:::
+> [!NOTE]
+> If a service object has a customer reference, the reference appears below the corresponding invoice line.
 
+## Service object with serial number
 
-## Service Object Attributes
-With the help of attributes, items can be described in detail using any number of criteria. The same is possible for Service Objects. Two fact boxes are available for this purpose - both in the card and in the overview. The fact box **Item Attributes** shows the attributes that are stored for the item of the Service Object. In addition, the characteristics specific to a concrete Service Object can be stored and displayed via the **Service Object Attributes** fact box. To maintain the specific characteristics of a Service Object, open the **Service Object Attribute Values** page either via the dropdown menu of the fact box or via the **Attributes** action. In addition, it is possible to define a feature as **Primary** here. <br/>
-The primary attribute is displayed in the Service Object card in the *General* fast tab (*Show more*). Here, the description of the primary attribute is used dynamically as the field name. It is possible to output the primary attribute of a Service Object when billing the related Service Commitments in the Contract invoice. The configuration required for this can be done [here](/docs/srb/setup/general.md#invoice-details). <br/>
-For the description of the attributes, translations can be stored analogous to the standard of Business Central. For more information on attributes, please refer to <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-work-item-attributes" title="Work with item attributes">this part</a> of the Microsoft documentation.
+When serial number tracked items are delivered with service commitments, one service object is created for each serial number. The serial number is determined from the item tracking lines for the sales order line and transferred to the service object in the **Serial No.** field. The field on the service object is editable. The quantity in a serial number tracked service object must always be one, and you can't change it. To store a serial number for a service object, an item tracking must be set for the item. Changes can be tracked using archived service commitments. To learn more, go to [Log changes to service commitments](so-service-commitments.md#log-changes-to-service-commitments).
 
+> [!NOTE]
+> If service object stores a serial number, this information will appear depending on settings for invoice details. To learn more, go to [Invoice details](../setup/general.md#invoice-details).
 
-## Entering Service Commitments in a Service Object
-An item is required to create Service Commitments, since Service Commitments themselves cannot be created manually. An item must therefore be entered in the Service Object in order to create Service Commitments. The **Assign Service Commitments** function can be used to view the **Service Commitment Packages** with the item's Service Commitments. The function opens the selection window of the same name. Here, **Service and Calculation Start Date** can be entered and Service Commitment Packages can be selected. Only Service Commitment Packages that have not yet been created as Service Commitments for the Service Object appear in the selection. For all selected Service Packages, the related Service Commitments are created in the Service Object and displayed in the **Services** fast tab. The prices from the item card are used as a basis for the price calculation. If an End User is subsequently entered, the prices in the Service Commitments are updated with the customer-specific prices on demand, if necessary. If the End User is assigned before the Service Commitments are created, the customer-specific prices are used directly.
+## Service object attributes
 
-:::info
-A Service Object can only be deleted if all related Service Commitments are deleted. The Service Commitments are therefore - if possible - also deleted when the Service Object is deleted.
-:::
+Attributes let you describe items in detail using any number of criteria. The same is possible for service objects. Two FactBoxes are available for this purpose, both on the card and in the overview. 
 
+* The **Item Attributes** FactBox shows the attributes that are stored for the item of the service object. 
+* The **Service Object Attributes** FactBox shows the characteristics that are specific to a service object. To maintain the specific characteristics of a service object, open the **Service Object Attribute Values** page either via the dropdown menu of the FactBox or by using the **Attributes** action. 
+
+You can also define a feature as **Primary**. The primary attribute displays on the **Service Object Card** page on the **General** FastTab. You might need to choose **Show more**. Here, the description of the primary attribute is used as the field name. You can output the primary attribute of a service object when you bill the related service commitments in the contract invoice. To learn about the configuration this requires, go to [Invoice details](../setup/general.md#invoice-details).
+
+For the description of the attributes, you can store translations in a similar way as the standard translations in [!INCLUDE [prod_short](../../includes/prod_short.md)]. To learn more about attributes, go to [Work with item attributes](../../inventory-how-work-item-attributes.md).
+
+## Enter service commitments in a service object
+
+Because you can't manually create service commitments themselves cannot be created manually, an item is required to create service commitments. You must specify an item for the service object. Use the **Assign Service Commitments** action to view the **Service Commitment Packages** with the item's service commitments. The action opens the selection page of the same name, where you can enter a **Service and Calculation Start Date** and select service commitment packages. Only service commitment packages that aren't created as service commitments for the service object are available. For all selected service packages, the related service commitments are created in the service object and display on the **Services** FastTab. The prices from the item card are used as a basis for the price calculation. If an end user is entered, the prices in the service commitments are updated with the customer-specific prices on demand, if necessary. If the end user is assigned before the service commitments are created, the customer-specific prices are used directly.
+
+> [!NOTE]
+> You can delete a service object only if all related service commitments are deleted. If it's possible, the service commitments are also deleted when you delete the service object.
 
 ## Quantity change
-For Service Objects whose items are not configured for item tracking (lot or serial number obligation), the quantity can be changed directly in the Service Object. This will result in a recalculation of the Service Amounts in the associated Service Commitments and contract lines.
-It is not possible to change the quantity for Service Objects whose items are configured for item tracking (lot or serial number obligation). Service Objects with lot number tracking retain the quantity from the delivery (or that of the initial entry). Service Objects with serial number tracking can only be created with quantity=*1*. 
+
+For service objects whose items aren't configured for item tracking (lot or serial number mandatory), you can change the quantity directly on the service object. The result is a recalculation of the service amounts in the associated service commitments and contract lines.
+You can't change the quantity for service objects whose items are configured for item tracking (lot or serial number mandatory). Service objects with lot number tracking retain the quantity from the delivery or the initial entry. You can only create service objects with serial number tracking with a quantity of **1**.
+
+## See also
+
+[Managing contracts, service objects, and services commitments](contracts-services-mgmt.md)  

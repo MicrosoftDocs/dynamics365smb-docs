@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: find, Tell Me, search
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 09/23/2024
+ms.date: 10/01/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -20,11 +20,11 @@ This article describes how the in-product search, *Tell me what you want to do*,
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
-When you need help to find something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start a search.
+When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start a search.
 
 When you start typing characters on the **Tell me what you want to do** page, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word *product* and the results include *items*, that's because search uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
 
-The column to the right indicates the general category of the result. For example, whether it will open a list page or is an administrative task.  
+The column to the right indicates the general category of the result. For example, whether it opens a list page or is an administrative task.  
 
 At the bottom of the **Tell me what you want to do** page, the **exploring pages and reports** action opens a feature overview that shows you all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
@@ -80,7 +80,7 @@ Our partner community is busily developing apps that add capabilities to [!INCLU
 
 ## Use search on list pages
 
-It isn't related to Tell me what you want to do, but there's another way to search for specific data. When you're using a list page, you can use the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** field in the left corner of list page headers to search for data on the page. The search applies only to the list you're viewing. Learn more about working with data on list pages [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md#searching).  
+It isn't related to Tell me what you want to do, but there's another way to search for specific data. When you're using a list page, you can use the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** field in the left corner of list page headers to search for data on the page. The search applies only to the list you're viewing. Learn more about working with data on list pages in [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md#searching).  
 
 > [!TIP]
 > You can search for posted document lines, such as invoice lines, credit memo lines, shipment lines, and receipt lines. Search for the type of document lines that you want to find, and then bookmark the links to the documents on your home page for easy access to the original or a filtered view. Learn more in [Add a Page Action to Your Role Center](ui-bookmarks.md).
@@ -89,7 +89,7 @@ It isn't related to Tell me what you want to do, but there's another way to sear
 
 We've shown search to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list of frequently asked questions. If you're interested, go to [Tell Me FAQ](ui-search-faq.md).
 
-## See also
+## Related information
 
 [Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  

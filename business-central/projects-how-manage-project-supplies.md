@@ -20,7 +20,7 @@ If the purchase process doesn't require you to record the physical transaction s
 
 ## Manual or semi-automated replenishment
 
-If you already know which supplies you need to replenish for a project, you can create a purchase order. To learn more, go to [To manually purchase items or services for a project](#manually-purchase-items-or-services-for-a-project).
+If you already know which supplies you need to replenish for a project, you can create a purchase order. To learn more, go to [Manual or semi-automated replenishment](#manual-or-semi-automated-replenishment).
 
 However, if you aren't sure what you're missing, you can use a semi-automated process where you create a purchase order directly from a project. [!INCLUDE [prod_short](includes/prod_short.md)] helps by listing all items and shows whether they're available or unavailable. You can adjust the quantities to replenish on the lines.  
 

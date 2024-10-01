@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/13/2024
+ms.date: 10/01/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -20,11 +20,11 @@ These frequently asked questions (FAQ) describe the AI impact of Chat with Copil
 
 Microsoft Copilot is an AI-powered assistant that helps you be more creative, productive, and efficient. You can chat with Copilot in Business Central to get answers and insights about [!INCLUDE[prod_short](includes/prod_short.md)] and your business data by typing what you want to know in natural language.
 
-Chat with Copilot, also called as chat, is an interactive feature that answers your questions without requiring you to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
+Chat with Copilot, also called chat, is an interactive feature that answers your questions without requiring you to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
 
 You can ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in [!INCLUDE[prod_short](includes/prod_short.md)], and links to [!INCLUDE[prod_short](includes/prod_short.md)] help articles on Microsoft Learn.
 
-## What are capabilities of Chat with Copilot?
+## What are the capabilities of Chat with Copilot?
 
 You can chat with Copilot to get answers to the following classes of questions:
 
@@ -42,7 +42,7 @@ You can ask Copilot to locate pages by name or request records based on specific
 
 - Copilot converts the natural language input into a query consisting of a table search, sort, and filter criteria.
 
-  The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under your own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+  The capability uses [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under your own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
 - Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the [!INCLUDE[prod_short](includes/prod_short.md)] native data search.
 

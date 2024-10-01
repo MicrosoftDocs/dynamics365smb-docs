@@ -92,7 +92,7 @@ Before VAT group members start their setup (listed below), they need to contact 
 3. In the **VAT Group Role** field, choose **Member** then **Next**.
 4. Copy the value of the **Group Member ID** field, and then share it with the VAT group representative so they can add your company as an approved member of the group.
 5. In the **Group Representative Product Version** field, specify the version of [!INCLUDE[prod_short](includes/prod_short.md)] the representative is using.
-6. In the **API URL** field, enter the API URL provided by the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative`.
+6. In the **API URL** field, enter the API URL provided by the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/aaaabbbb-0000-cccc-1111-dddd2222eeee/UKRepresentative`.
 7. In the **Group Representative Company** field, enter the company name of the VAT group representative, such as, **CRONUS UK Ltd**.
 8. In the **Authentication Type** field, choose **OAuth2**. If the VAT group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online, enable the **Group Representative Uses Business Central Online** toggle, and then choose **Next**.
 

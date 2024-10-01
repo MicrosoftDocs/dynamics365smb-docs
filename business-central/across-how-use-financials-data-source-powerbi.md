@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports about the state of your business.
 
-This article describes how to start using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your Power BI service, or share them with all users in your organization. When the reports are in the Power BI service, users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
+This article describes how to start using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your Power BI service or share them with all users in your organization. When the reports are in the Power BI service, users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Get ready
 
@@ -101,7 +101,7 @@ Once the data is loaded, you can see it in the right navigation on the page. At 
 
 ## Creating accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaption to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
 
 ## Creating reports to display data associated with a list
 
@@ -144,7 +144,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 - Share report from your Power BI service
 
-    If you have a Power BI Pro license, you can share the report to others, directly from your Power BI service. Learn more at [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    If you have a Power BI Pro license, you can share the report with others, directly from your Power BI service. Learn more at [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 ## How to develop cross-company or cross-environment Power BI reports
 
@@ -161,7 +161,7 @@ Starting in August 2024, the Power BI connector for [!INCLUDE [prod_short](inclu
 
 - **AcceptLanguage**: This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. Setting this parameter improves user satisfaction and makes the data more accessible and relevant. Learn more at [Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).
 
-- **ODataMaxPageSize**: This property limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service. Learn more at [ODataPreferenceHeader.MaxPageSize Propert](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize).
+- **ODataMaxPageSize**: This property limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service. Learn more at [ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize).
 
 - **Timeout**: This parameter defines the maximum duration for a request before cancellation. It helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. You can't exceed the timeout defined on the service. Learn more at [OData.Feed](/powerquery-m/odata-feed).
 

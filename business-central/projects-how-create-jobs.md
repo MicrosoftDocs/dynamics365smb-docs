@@ -59,19 +59,19 @@ A key part of creating a project is to specify the various tasks involved in the
 
 ## Invoice one or more customers for project tasks
 
-Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
+Sometimes the party that is receiving a service is different from the party that pays the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
 
-If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
+If the customer who is receiving the service also pays the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
 
-If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
+If you're billing multiple customers, you can specify the customer who receives the service and the customer to invoice for each task in the project. You can also provide the following information:
 
-* Select the ship-to address for the customer where the work will happen.
+* Select the ship-to address for the customer where the work happens.
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
 
 ## Specify a default location for project items
 
-You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
+You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create tasks, project planning lines, and project journal lines for the project, [!INCLUDE [prod_short](includes/prod_short.md)] assigns the default location. You can, however, change the location code and bin on tasks and lines if needed.
 
 If you define a **To-Project Bin Code** on the location, the bin code is populated when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
 
@@ -82,6 +82,9 @@ There are a few things to know about using default locations:
 * For project tasks, if you define a **To-Project Bin Code** on the location, the bin code is assigned when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
 * For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
 * For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
+
+> [!NOTE]
+> The processes businesses use to pick items in their warehouses differ, depending on whether they use basic or advanced warehouse configurations. To learn more about the options for warehouse configuration, go to [Overview of different configuration options](design-details-warehouse-management.md#overview-of-different-configuration-options).
 
 ## To create planning lines for a project
 
@@ -103,6 +106,9 @@ A project planning line can have one of the following types.
 3. Select a project task for which the **Project Task Type** field contains **Posting**, and then choose the **Project Planning Lines** action.  
 4. On the **Project Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the project task.
+
+> [!TIP]
+> If the line is for an item, you can use the **Item Availability by** action to explore the item's availability by location, event, or period.
 
 ## See also
 

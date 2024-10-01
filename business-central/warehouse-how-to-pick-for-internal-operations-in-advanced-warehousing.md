@@ -56,7 +56,7 @@ Use **Warehouse Pick** documents to move assembly components to the assembly are
 Use **Warehouse Pick** documents to pick project components in the flow to project management.
 
 > [!NOTE]
-> Project don't support advanced configurations where the **Directed pick and Put-away** toggle is turned on.
+> You can't use the **Project No.** and **Project Task No.** fields in a purchase order together with locations where the **Directed Put-Away and Pick** toggle is turned on. You must post receipts and consumption separately with the fully directed warehouse flow.
 
 ## Check whether items are available for picking
 

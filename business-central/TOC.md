@@ -2128,7 +2128,7 @@ ms.service: dynamics-365-business-central
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [FAQ for analysis assist](faqs-analysis-assist.md)
-## Bank account reconciliation assist (preview)
+## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
@@ -2142,9 +2142,9 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-## Suggest number series
-### [Suggest number series with Copilot (preview)](suggest-number-series-copilot.md)
-### [FAQ for Suggest Number Series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
+## Suggest number series (preview)
+### [Suggest number series with Copilot](suggest-number-series-copilot.md)
+### [FAQ for Suggest Number Series with Copilot](faq-suggest-number-series-with-copilot.md)
 ## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
@@ -2156,4 +2156,5 @@ ms.service: dynamics-365-business-central
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)

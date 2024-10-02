@@ -8,17 +8,13 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 06/13/2024
+ms.date: 10/01/2024
 ms.custom: bap-template 
 ---
 
-# Reconcile bank accounts with Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Reconcile bank accounts with Copilot
 
 This article explains how bank account reconciliation assist can help you reconcile bank transactions with ledger entries in Microsoft Dynamics 365 Business Central.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## About bank account reconciliation assist
 
@@ -26,7 +22,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 - Improved matching of transactions with ledger entries
 
-    As you might already know, the **Match Automatically** button on the **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms that it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect those unmatched transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if a customer paid multiple invoices in one lump sum, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
+    As you might already know, the **Match Automatically** button on the **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms that it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect those unmatched transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if a customer paid multiple invoices in one lump sum that you have registered as individually paid invoices, Copilot reconciles the single bank statement line with the multiple bank ledger entries.
 
     [Learn more about this task](#reconcile-bank-accounts-with-copilot).
 
@@ -36,15 +32,14 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
     [Learn more about this task](#post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts).
 
-## Available languages
+## Supported languages
 
-[!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 
-- Bank account reconciliation assist is activated. An administrator must complete this task. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
-- The bank accounts in Business Central that you want to reconcile are linked to an online bank account, or they are set up with a bank statement import format.
-- You're familiar with bank account reconciliation in Business Central, as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
+- Bank account reconciliation assist is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- You're familiar with bank account reconciliation in Business Central. Learn more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot
 
@@ -62,7 +57,7 @@ You can use two approaches to reconcile bank accounts with Copilot:
 For this approach, you create and reconcile a new bank account reconciliation from scratch. This approach requires that you select the bank account. If the bank account isn't linked to an online account, you must also import the bank statement file.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then select the related link.
-1. Select **Reconcile with Copilot** to open the **Reconcile with Copilot** window.
+1. Select ![Shows the copilot icon](media/copilot-icon.png) **Start a Copilot prompt action** > **Reconcile** to open the **Reconcile with Copilot** window.
 1. Set the **Perform reconciliation for this bank account** field to the bank account that you want to reconcile.
 
     ![Screenshot that shows the Reconcile with Copilot window for reconciling from scratch.](media/reconcile-bank-accounts-new-copilot.svg)
@@ -70,7 +65,7 @@ For this approach, you create and reconcile a new bank account reconciliation fr
 1. If the selected bank account isn't linked to an online bank account, you must import the bank statement file. To import the file, either select the value in the **Use transaction data from** field or select the paper clip button next to the **Generate** button. Then use **Select the file to import** to import the bank statement file by either dragging it from your device or browsing your device.
 1. To reconcile with Copilot, select **Generate**.
 
-    Copilot starts to generate proposed matches. When it has finished, the **Reconcile with Copilot** window shows the results of the matching process.
+    Copilot starts to generate proposed matches. When it finishes, the **Reconcile with Copilot** window shows the results of the matching process.
 
 1. Review the proposed matches as described in the next section.
 
@@ -81,14 +76,14 @@ For this approach, you use Copilot either on a new bank account reconciliation t
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then select the related link.
 1. Follow one of these steps:
 
-    - Select **New** to start a new reconciliation.
+    - Select **New** to start a new reconciliation. Add the statement lines, either manually or by using **Suggest Lines** action to get a copy of the bank ledger entries as a starting point.
     - Select and open an existing reconciliation in the list.
 
-1. On the **Bank Acc. Reconciliation** card, select **Reconcile with Copilot**.
+1. On the **Bank Acc. Reconciliation** card, select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Reconcile with Copilot** in the upper-right corner.
 
-    ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.svg)
+    ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.png)
 
-    Copilot starts to generate proposed matches. When it has finished, the **Reconcile with Copilot** window shows the results of the matching process.
+    Copilot starts to generate proposed matches. When it finishes, the **Reconcile with Copilot** window shows the results of the matching process.
 
 1. Review the proposed matches as described in the next section.
 ---
@@ -113,7 +108,7 @@ The following table describes the fields in the upper section.
 In the **Match proposals** section, review the proposed matches line by line. Then take the appropriate action:
 
 - To discard a single proposed match, select it in the list, and then select **Delete Line**.
-- To discard all proposed matches and close the **Reconcile with Copilot** window, select the discard (trash can) button ![Discard button.](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+- To discard all proposed matches and close the **Reconcile with Copilot** window, select the ![Discard button.](media/copilot-delete-trash-can.png) **Discard it** button next to the **Keep it** button at the bottom of the window.
 - To automatically post the fully matched reconciliation when you save it, turn on the **Post if fully applied** option.
 - To save the matches that are currently shown in the **Reconcile with Copilot** window, select **Keep it**.
 
@@ -129,17 +124,19 @@ This section explains how to use Copilot to post unreconciled bank account state
 
     Copilot focuses on the selected lines to post new payments to the G/L account.
 
-1. Select **Post Difference to G/L Account** to start the process.
+1. Select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Post Difference to G/L Account** to start the process.
 
     ![Screenshot that shows the Post Difference to G/L Account button on the Bank Acc. Reconciliation card.](media/bank-reconciliation-transfer-gl-copilot-card.png)
 
     Copilot starts to generate proposals for posting new payments.
 
-1. After Copilot has finished generating proposals, the **Copilot Proposals for Posting Differences to G/L Accounts** window appears.
+1. After Copilot finishes generating proposals, the **Copilot Proposals for Posting Differences to G/L Accounts** window appears.
 
     The **Match proposals** section of this window shows the proposals. The experience resembles the experience for reconciling with Copilot.
 
-    ![Screenshot that shows Copilot Proposals for Posting Differences to G/L Accounts window.](media/bank-reconciliation-gl-transfer-proposed-matches.png)
+    ![Screenshot that shows Copilot Proposals for Posting Differences to G/L Accounts window.](media/bank-reconciliation-gl-transfer-proposed-matches-v2.png)
+
+    To post the differences as regular journal entries, you must specify the general journal template and batch to use. This allows you to reverse the transaction if you need to later.
 
 1. Review the proposals line by line to ensure the accuracy of the suggested payments for posting.
 
@@ -148,7 +145,7 @@ This section explains how to use Copilot to post unreconciled bank account state
 
 1. Discard or save proposals.
 
-    - To discard a specific proposal, select it in the list, and then select **Delete Line**. To discard all proposals and close Copilot, select the discard (trash can) button ![Discard button.](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+    - To discard a specific proposal, select it in the list, and then select **Delete Line**. To discard all proposals and close Copilot, select the ![Discard button.](media/copilot-delete-trash-can.png) **Discard it** button next to the **Keep it** button at the bottom of the window.
     - If the proposals meet your requirements, and you want to save them, select **Keep it**.
 
          This step confirms the transfer of the currently selected proposals from the bank account ledger to the G/L account. It posts new payments to the proposed G/L accounts and applies corresponding lines to the resulting bank account ledger entries.

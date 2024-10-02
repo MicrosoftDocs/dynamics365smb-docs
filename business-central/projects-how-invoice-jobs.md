@@ -7,29 +7,31 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project invoice
 ms.search.form: 1002, 1007, 
-ms.date: 02/22/2024
+ms.date: 09/03/2024
 ms.service: dynamics-365-business-central
 ---
 # Invoice projects
 
-During the project, project costs from resource usage, materials, and project-related purchases can accumulate. As the project progresses, these transactions get posted to the project journal. It is important that all costs get recorded in the project journal before you invoice the customer.
-Invoicing can be done after the project is finished or at certain intervals during the project's progress based on an invoicing schedule.
+During a project, costs from resource usage, materials, and project-related purchases can accumulate. As the project progresses, these transactions get posted to the project journal. It's important to record all costs in the project journal before you invoice the customer. You can invoice customers after the project is finished, or at certain intervals based on an invoicing schedule.
 
 You can invoice:
 
 * Multiple projects using a **Project Create Sales Invoice** task.
-* Whole projects, some projects withing project, or individual project planning lines using the relevant action in the project pages.
-* Combine multiple project planning lines from different projects into a single sales invoice using **Get Project Planning Lines** action on the **Sales Invoice** page.
+* Whole projects or subprojects within a project, or individual project planning lines using the relevant action in the project pages.
+* Combine multiple project planning lines from different projects into a single sales invoice using the **Get Project Planning Lines** action on the **Sales Invoice** page.
 
 ## To create multiple project sales invoices
 
-You can create an invoice for a project or for one or more project tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
+You can create an invoice for a project or for one or more project tasks:
+
+* When the work to invoice is complete.
+* When you reach the date for invoicing set on an invoicing schedule.
 
 The following procedure shows how to use a batch job to invoice multiple projects.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Create Sales Invoice**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Set filters if you want to limit the projects that the batch job will process.
+3. Set filters to specify the projects to invoice.
 4. Choose the **OK** button to create the invoices.  
 
 You can review and post created invoices on the **Sales Invoices** page.
@@ -39,7 +41,7 @@ You can review and post created invoices on the **Sales Invoices** page.
 
 ## To create and post project sales invoice from project planning lines
 
-You can create an invoice from a project planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
+You can create an invoice from a project planning lines, and specify the quantity of the item, resource, or general ledger account.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
 2. Open a relevant project.
@@ -50,11 +52,11 @@ You can create an invoice from a project planning lines, and indicate at that ti
 7. Choose the **OK** button.  
 8. On the **Project Planning Lines** page, choose the **Sales Invoices/Credit Memos** action.
 
-    The **Sales Invoice** page opens, showing the quantity that you have transferred to the invoice.
-9. Make any additional changes, and then choose the **Post** action.
+    The **Sales Invoice** page opens, showing the quantity that you transferred to the invoice.
+9. Make any other changes, and then choose the **Post** action.
 
 > [!NOTE]  
-> The above procedure is similar for creating, reviewing, and posting a project-related sales credit memo.
+> The procedure is similar for creating, reviewing, and posting a project-related sales credit memo.
 
 ## Invoice one customer for multiple project tasks
 

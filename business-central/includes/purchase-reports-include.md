@@ -7,11 +7,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-The following table describes some of the key reports in the purchase module.
+The following table describes some of the key reports in the purchase module. The report helps different roles within the purchasing department make informed decisions to optimize their operations. 
 
-| To... | Use report | Description | Id | 
+| To... | Use report (CTRL+click to open in Business Central) | Learn more | Id | 
 |-------|------------| ------------|----|
-| Analyze vendor performance | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [Learn more](#purchase-statistics-report-312) |312|
+| Analyze vendor performance | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](#purchase-statistics-report-312) |312|
 
 ## Purchase statistics (report 312)
 
@@ -21,8 +21,6 @@ Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?
 [!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]
 
 ### Use cases
-
-This report helps different roles within the purchasing department make informed decisions to optimize their operations.
 
 Use the report to keep track of vendor performance and ensure that your company is getting the best value for its money:
 - Analyze total purchases, payments, and finance charges from each vendor.

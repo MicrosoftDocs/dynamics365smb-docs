@@ -1,6 +1,6 @@
 ---
-title: Purchase reporting and analytics
-description: See which purchase reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
+title: Purchase reports
+description: See which purchase reports that are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,9 +10,9 @@ ms.search.form: Report_311, Report_312, Report_313, Report_320, Report_709, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Purchase reporting and analytics
+# Purchase reports
 
-Purchase reporting gives procurement and business professionals insights and statistics about current and past purchase activities.  
+Purchase reports gives procurement and business professionals insights and statistics about current and past purchase activities.  
 
 ## Reports
 

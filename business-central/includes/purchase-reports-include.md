@@ -7,9 +7,39 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-The following table describes some of the key reports in purchase reporting.
+The following table describes some of the key reports in the purchase module.
+
+| To... | Use report | Description | Id | 
+|-------|------------| ------------|----|
+| Analyze vendor performance | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [Learn more](#purchase-statistics-report-312) |312|
+
+## Purchase statistics (report 312)
+
+Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?report=312)
+
+### What the report does
+[!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]
+
+### Use cases
+
+This report helps different roles within the purchasing department make informed decisions to optimize their operations.
+
+Use the report to keep track of vendor performance and ensure that your company is getting the best value for its money:
+- Analyze total purchases, payments, and finance charges from each vendor.
+- Compare the efficiency of different vendors over five periods.
+- Identify trends in payment discounts taken or lost to inform negotiation strategies.
+
+In your budgeting and financial forecasting processes, you can use the report to:
+- Review financial outlays and cost savings from payment discounts.
+- Monitor finance charges to ensure they are within acceptable limits.
+- Use historical purchase data to project future spending.
+
+For your accounts payable (AP) processes, use the report to ensure timely payments and manage discounts:
+- Track upcoming payments and avoid missed discounts.
+- Monitor overdue payments and the resulting finance charges.
 
 
+## The old way
 
 | Report | Description | Id | 
 |---------|---------|---------|
@@ -23,5 +53,6 @@ The following table describes some of the key reports in purchase reporting.
 |[Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714)|Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.|714|
 |[Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)|Displays a list of items on order from vendors. It also shows the expected receipt date and the quantity and amount on back orders. For example, use the report to see when items should be received, and whether a reminder of a back order should be issued|709|
 |[Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)|Shows the availability of items for shipment on purchase documents, for example return orders. You determine whether the report indicates the status of each document or of each purchase line. <br>When you print the report, you can also update the quantity that is available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship.. Then you can use the report to determine which documents to ship. **Note**: This report isn't available for advanced warehouse functionality.|409|
+
 <!--|[](https://businesscentral.dynamics.com?report=)Vendor detailed aging|11006| DACH specific: A report which could be used by the team leader of your purchased department as will the accounting. Here you will have an overview about the unpaid vendor invoices including the due dates, currencies and amounts. Basis is the open vendor ledger entries.| -->
 

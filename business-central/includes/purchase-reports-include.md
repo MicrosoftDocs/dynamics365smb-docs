@@ -11,7 +11,43 @@ The following table describes some of the key reports in the purchase module. Th
 
 | To... | Use report (CTRL+click to open in Business Central) | Learn more | Id | 
 |-------|------------| ------------|----|
-| Analyze vendor performance | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](#purchase-statistics-report-312) |312|
+| Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](#vendor---top-10-list-report-311) | 311 |
+| Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](#purchase-statistics-report-312) | 312 |
+| Analyse your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About Vendor/Item Purchases](#vendoritem-purchases-report-313) | 313 |
+
+
+## Vendor - Top 10 List (report 311)
+
+Try the report here: [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311)
+
+### What the report does
+The report provides a list of vendors with the most transactions within a selected period. You can choose to display more than 10 vendors.
+
+The vendors are sorted by purchase amount within the selected period. The list gives a quick overview of vendors with the largest balance and highest purchase volume.
+
+
+### Use cases
+Use the report to ensure that vendor relationships are efficient and effective:
+- Identify vendors with the most significant transaction volumes.
+- Focus on strategic planning for major vendor negotiations.
+- Monitor vendor performance and adjust procurement strategies accordingly.
+
+For maintaining healthy relationships with your suppliers, use the report to:
+- Monitor transaction frequency to gauge the reliability and performance of key suppliers.
+- Plan upcoming payments to maintain good relationships and avoid payment delays.
+- Identify potential issues with suppliers who have frequent transactions but may be causing cash flow problems.
+
+To help ensure an overall efficiency of your supply chain, use the report to:
+- Track vendor performance and ensure consistency in supply.
+- Coordinate with finance and procurement teams to prioritize payments for essential vendors.
+- Plan and execute strategic initiatives to maintain an efficient procurement process.
+
+Within your finance department, use the report to 
+- Prioritize vendor payments based on transaction volume.
+- Ensure smooth cash flow by planning payments for high-volume vendors.
+- Identify and mitigate potential cash flow issues before they escalate.
+
+
 
 ## Purchase statistics (report 312)
 
@@ -35,6 +71,43 @@ In your budgeting and financial forecasting processes, you can use the report to
 For your accounts payable (AP) processes, use the report to ensure timely payments and manage discounts:
 - Track upcoming payments and avoid missed discounts.
 - Monitor overdue payments and the resulting finance charges.
+
+
+
+## Vendor/Item Purchases (report 313)
+
+Try the report here: [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313)
+
+### What the report does
+
+The report shows a total of items purchased from vendors in the given date period, grouped by vendors.
+
+Value entries for each vendor/item combination are summed up to calculate the total invoiced quantity, cost amount and discount amount.
+
+Added costs such as item charges are also included in the calculated cost amount.
+
+
+### Use cases
+
+Help ensure that your inventory levels are optimal:
+- Track item purchases from vendors to manage stock levels.
+- Identify purchasing trends to anticipate future inventory needs.
+- Analyze the impact of discounts on inventory costs and make informed purchasing decisions.
+
+Understanding and control your costs:
+- Evaluate the total cost of purchased items including any additional charges.
+- Assess the effectiveness of discounts in reducing overall procurement costs.
+- Identify cost-saving opportunities by analyzing the relationship between item purchases and discounts.
+
+Ensure that your procurement process is efficient and cost-effective:
+- Compare invoiced quantities and amounts across different vendors.
+- Identify which vendors offer the best discounts and terms.
+- Optimize procurement strategies based on historical purchasing data.
+
+Oversee the entire supply chain to ensure smooth operations:
+- Monitor vendor performance and reliability based on item delivery data.
+- Plan for future purchases by analyzing past transaction volumes and discount effectiveness.
+- Manage vendor relationships by evaluating the total value received from each supplier.
 
 
 ## The old way

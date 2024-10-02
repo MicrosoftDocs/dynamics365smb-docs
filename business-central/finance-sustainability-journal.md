@@ -19,6 +19,9 @@ Users can manually record greenhouse gas (GHG) emissions in the sustainability l
 > [!NOTE]
 > Using any kind of purchase-related documents to record greenhouse gas (GHG) emissions is available starting with the *2024 release wave 2*.  
 
+
+
+
 ## Sustainability journals
 
 Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in Business Central. Users who have the necessary information can manually enter emissions in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions based on specific known parameters that correspond to various types of sources and accounts.

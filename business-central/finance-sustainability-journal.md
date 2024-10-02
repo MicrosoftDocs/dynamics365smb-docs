@@ -66,7 +66,7 @@ If your formula is based on the **Calculate from General Ledger** option in the 
 It's important to know that you can have more than one *Account Subcategory* related to one *Sustainability Account*, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting. To use a different subcategory for each account, you can easily change this value on the **Sustainability Journal** line, but you can only select subcategories that are already associated with the specific account and account category.   
 
 > [!TIP]
-> For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one *Account* and create as many *Account Subcategories* as you need for cars with different emission factors. When you work in your *Sustanability Journal*, you can easily change your *Account Subcategory* based on the car type you choose to use for recording emissions. 
+> For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one *Account* and create as many *Account Subcategories* as you need for cars with different emission factors. When you work in your *Sustainability Journal*, you can easily change your *Account Subcategory* based on the car type you choose to use for recording emissions. 
 
 ### Recurring journals
 
@@ -100,7 +100,7 @@ To work with any purchase-related documents, follow the steps:
 6. Select **Find Entries** action and you'll see that you have **Sustainability Ledger Entry** as one of the related entries on the **Find entries** page.
 
 > [!NOTE]
-> When you post the document, for each of the purchase lines where you have **Sustanability Account No.** system will create independent **Sustainability Ledger Entry** with the **Invoice** as a **Document Type** and the same **Document No.**
+> When you post the document, for each of the purchase lines where you have **Sustainability Account No.** system will create independent **Sustainability Ledger Entry** with the **Invoice** as a **Document Type** and the same **Document No.**
 
 > [!NOTE]
 > You can also create and post **Purchase Credit Memo**. You can do it manually or using some of the following options: **Cancel**, **Correct**, or **Create Corrective Credit Memo** in which case the system will copy the existing values from the posted invoice.  

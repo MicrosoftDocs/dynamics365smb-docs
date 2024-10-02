@@ -14,33 +14,64 @@ ms.custom: bap-template
 
 # Overview of subscription and recurring billing
 
-The **Subscription & Recurring Billing** app enables you to bill for contractually agreed Service Commitments on a recurring basis. The integrated flexible billing models support you and also take into account terms and notice periods.
+Subscription billing lets you bill for contractually agreed services on a recurring basis. The integrated, flexible billing models support many subscription model scenarios for pricing models, price management, renewals, and billing periods and frequency. Using subscription billing to manage recurring invoicing of services minimizes sources of error and brings transparency into the processes from initial sales quote to the recurring invoice. All information is stored in one place, so you to always have an overview of contract management. At the same time, manual effort is reduced because you can simplify and automate processes.  
 
-Do you want to create accurate invoices for different price and subscription models in just a few steps? At the same time, do you want to minimize sources of error and bring transparency into the processes? All this is possible with **Subscription & Recurring Billing**.
+## Flexible and user-friendly subscription management
 
-## Flexible and user-friendly subscription management for Business Central
+You assign the serviceable items you sell (service objects), whether it's the sale of an item with attached services, a rental agreement, or any other contractual agreement, to customers. While service objects are usually static, the associated service (service commitments) that you invoice on a recurring basis can change while a contract is active.
 
-Every Service Object, whether it is a Sales Order, a rental agreement or any other contractual agreement between two parties, can be clearly assigned to customers. While the Service Object is usually static, the associated Service Commitments can change. Various billing information, such as billing period and amount, is usually stored with the individual Service Commitments in ERP systems, but not with the Service Object itself.
+## Features of subscription and recurring billing
 
-If you use **Subscription & Recurring Billing**, all relevant information can be combined in one system. This allows you to maintain an overview of contract management at all times. At the same time, your manual effort is reduced, as processes can be significantly simplified and automated. With our contract management system, you can effectively handle all steps - from the offer to monthly billing - for both sides.
-
-## Features of Subscription & Recurring Billing
-
-* Creation of individual and automated billing periods
-* Combining individual components into a product Bundle
+* Create individual and automated billing periods
 * Preview all existing monthly recurring billing and your upcoming invoices
-* Simplify billing with Billing Templates
-* Automatic calculation of notice periods
-* Accrual-based posting of income and expenses to profit and loss accounts
+* Simplify billing with billing templates
+* Automatically calculate notice periods
+* Use accrual-based posting of income and expenses to profit and loss accounts
 
-## Supported versions
+## Main elements of subscription billing 
 
-This app supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.
+### Contracts​
 
-## Supported countries
+When business partners sign a contract, both partners assume obligations. In subscription billing, these obligations are called *service commitments*. Agreements with periodic billing are called *customer contracts* on the customer side, and *vendor contracts* on the supplier side.
 
-Users worldwide can use this application.
+Use contracts to group the service commitments of multiple service objects so you can bill them together on a recurring basis. A contract in subscription billing is the technical equivalent of one or more actual contract documents that you bill to a customer.
 
-## Supported Languages
+A contract defines the commercial framework (contractual partners, invoice recipients, accounting conditions). Service objects, and their service commitments, represent the components of the contract.
 
-**Subscription & Recurring Billing** is available in English (ENU) and German (DEU).
+### Service objects​
+
+A service object is something that the customer either buys, such as items, or for which a contractual agreement is results in mutual obligations. A service object is assigned to a customer. The service object is usually static, but the associated services (service commitments) can change. Also, you can store additional information in the service object that's independent of the service commitments.
+
+A service object doesn't contain any billing-relevant information. That information belongs to the associated service commitments. Service commitments that aren't invoiced through a contract can also belong to a service object, for example, warranties.
+
+### Service commitments​
+
+Service commitments describe the content of agreements with customers and suppliers. They exist in customer-side and vendor-side forms, and always belong to a service object. Service commitments contain billing information, such as the quantity to bill, the billing period, and the amount.
+
+The service commitments of a service object and the creation of service commitments are defined through a multi-level hierarchy. It includes service commitment templates and service commitment packages that you can assign to items. Service objects are created through the sale of these items, to which the associated service commitments are assigned and available.
+
+You can offer service commitments to prospects or customers already during the sales phase. For this purpose, you can add more service commitments to the offered items, which you can then offer simultaneously or sell at the same time.
+
+If you sell an item in conjunction with a service commitment, a service object is automatically created for it, where the associated service commitments are visible. <!--Don't understand what we mean by "visible" here-->
+
+If the service is a service commitment (see Types of Services), you can add it to a contract as a component and, according to the information in the service, bill on a recurring basis.
+
+## Flow of subscription billing​
+
+The following illustration shows that items are set up with service commitment packages with one or more service commitments. When the quote or order is shipped, the item becomes a service object. The service commitments assigned to the service object must be assigned to a contract to be billed on a recurring basis. The contract and its service commitments contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
+
+:::image type="content" source="../media/srbFlow.png" alt-text="Shows the flow in subscription billing.":::
+
+## Subscription & Recurring Billing Role Center​
+
+The **Subscription & Recurring Billing** Role Center collects the features for recurring billing in one place, so things are easy to find. In addition to the master and transaction data, the Role Center provides fast access to the history of posted receipts. Documents that aren't posted (open posting documents for customers or vendors), and services that aren't assigned to contracts (services commitments without contracts) also display to alert you that something might still need to be done.
+
+The revenues and costs figures show the current and previous month's revenues and costs that were posted in connection with contract billing.
+
+The **Overdue** and **Not invoiced** cues indicate that service commitments are either still to be billed (Overdue) or that a posting document hasn't been created yet (Not invoiced) for lines in a billing proposal. The cues are based on the workdate.
+
+## See also
+
+[First steps](first-steps.md)  
+[Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
+[Recurring billing](recurring-billing.md)  

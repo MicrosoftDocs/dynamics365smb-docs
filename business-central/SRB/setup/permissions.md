@@ -17,31 +17,14 @@ This article takes a deeper look at the permission sets for subscription and rec
 
 ## Subscription and recurring billing
 
-There are three permission sets for subscription and recurring billing:
+The following table describes the permission sets required for subscription and recurring billing.
 
-* **DYCECONTRACTSALL (DYCE SRB All)**
-   This permission set can be assigned to all users. It contains read-only permissions to app-specific data.
-* **DYCECONTRACTSUSER (DYCE SRB User)**
-   This permission set is for all users who work with service commitments, service objects, and contracts. In addition, billing proposals can be created for contracts on the [Recurring billing](../recurring-billing.md) page. However, setting up, creating, and editing [Service Commitment Templates](../masterdata/service-commitments.md#service-commitment-templates) and [Service Commitment Packages](../masterdata/service-commitments.md#service-commitment-packages) isn't intended with these permissions.
-* **DYCECONTRACTSADMIN (DYCE SRB Admin)**
-   This permission set is designed for administrators and power users who want to create and delete service commitment templates and service commitment packages, and customize the general setup. To learn more, go to [General setup](general.md).
-
-<!--
-
-Don't think we need this.
-
-## More apps
-
-Along with Subscription & Recurring Billing**, the apps **[DYCE Essentials](/docs/general/essentials/welcome.md)** and **[DYCE Easy Bundle Seller](/docs/ebs/welcome.md)** are installed. This will provide cross-app functionality such as [Bundles](/docs/ebs/bundles.md), a [Print Preview](/docs/general/essentials/print-preview.md) or the [Report Configurations](/docs/general/essentials/report-configuration.md).
-
-Three permission sets are included with the app:
-
-* **DYCEESSENTIALSALL (DYCE Essentials All)**
-   This permission set can be assigned to all users. It includes read-only permissions to app-specific data.
-* **DYCEESSENTIALSUSER (DYCE Essentials Users)**
-   This permission set is for all users working with [Bundles](/docs/srb/bundles.md).
-* **DYCEESSENTIALSADMIN (DYCE Essentials Admin)**
-   This permission set is designed for Administrators and Power Users who should additionally be able to create, customize and delete [Report Configurations](/docs/general/essentials/report-configuration.md).-->
+|Permission set  |Description  |What it's for  |
+|---------|---------|---------|
+|SUB. BILLING ALL     |Subscription Billing All         | Gives read-only access to subscription billing tables        |
+|SUB. BILLING ADMIN      | Subscription Billing Admin        |  This permission set is for administrators or power users who need to access to create, modify and delete service commitment templates and service commitment packages and customize setup.       |
+|SUB. BILLING BASIC     |  Subscription Billing Basic        |  Gives access to perform the basic day-to-day setup tasks in subscription billing.        |
+|SUB. BILLING USER      |  Subscription Billing User        |  This permission set is for all users working with service commitments, service objects, and contracts. In addition, billing proposals can be created for contracts on the **Recurring Billing** page. However, this permission isn't intended for setting up, creating, and editing service commitment templates and service commitment packages.       |
 
 ## See also
 

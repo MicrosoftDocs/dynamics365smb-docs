@@ -11,106 +11,119 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Service Commitments
-Service Commitments represent obligations to customers and suppliers. They usually begin with the delivery of an item to the customer, include subsequent support, and govern billing arrangements. A Service Commitment can also be the subject of provision itself, e.g. in the case of a support service.
+# Service commitments
 
-During the sales process, all relevant information about appropriately set up items is collected and stored in the form of a Service Object. The Service Object is created automatically when the item is delivered (posting of Sales Shipment).
+Service commitments represent obligations to customers and suppliers. They usually begin with the delivery of an item to the customer, include subsequent support, and govern billing arrangements. A service commitment can also be the subject of provision itself, for example, in the case of a support service.
 
-Service Commitment Templates and Service Commitment Packages are available for mapping and setting up Service Commitments.
-Service Commitments are grouped into Contracts (Customer and Vendor Contracts) for management and billing purposes.
+During the sales process, all relevant information about appropriately set up items is collected and stored in the form of a service object. The service object is created automatically when the item is delivered (posting of sales shipment).
 
-Service Commitments include the details of the obligations that the supplier of a product assumes towards its customers, which in turn are covered by its supplier, if applicable.
+Service commitment templates and service commitment packages are available for mapping and setting up service commitments. Service commitments are grouped into contracts (customer and vendor contracts) for management and billing purposes.
 
+Service commitments include the details of the obligations that the supplier of a product assumes towards its customers, which in turn are covered by its supplier, if applicable.
 
-## Warranty
-When a product is sold, a warranty is required by law. This means that the supplier of a product guarantees that the products it supplies have the promised properties. The warranty is usually limited in time. <br />
-The statutory warranty is usually supplemented by a Service Commitment, i.e. manufacturers grant the customer an extended warranty period from the date of purchase or even Service Commitments that go beyond what is legally indispensable, for example free on-site replacement of defective parts.
+The following image shows the use of service commitments.
 
-Since a Service Commitment represents the mapping of these commitments, it contains all relevant service agreements, such as prices, validity periods, cancellation periods, and the billing rhythm. In order for a Service Commitment to be billed (recurringly), it must be assigned to a contract. The Contract No. is then displayed in the Service Commitment.
+:::image type="content" source="../../media/srb use of service commitments.png" alt-text="Use of service commitments.":::
 
+## Service commitment templates​
 
-## Use of Service Commitments
-![](/img/srb/ProcessOverview.png)
+You can create service commitment templates to simplify the process of creating service commitment packages and the details on their lines. The following section explains the interrelationships of the fields.
 
+## Service commitment packages​
 
-## Service Commitment Templates
-Service Commitment Templates can be created optionally. They are used to simplify the creation of Service Commitment Packages or their details (lines). The interrelationships of the fields are explained in the [Service Commitment Packages](#service-commitment-packages).
+Service commitments are grouped into service commitment packages. You can use then **Assigned Items** action to assign them to items. At the time of delivery, the variable parameters (such as price calculations and durations) are converted into absolute values and attached as service commitments to the sold item (service object).
 
+A service commitment package corresponds to the unit that's offered and sold to the customer. Both the service liabilities to the customer and the service receivables towards the own suppliers can be stored.
 
-## Service Commitment Packages
-Service Commitment Templates are grouped into Service Commitment Packages. These can then be firmly assigned directly to the items (via the call **Assigned Items**). At the time of delivery, the variable parameters (e.g. price calculations and durations) are converted into absolute values and attached as Service Commitments to the sold item (Service Object).
+> [!TIP]
+> To simplify the creation of a service commitment package, you can use the **Copy Service Commitment Package** action to an existing service commitment package, and then change it for the new purpose.
 
-A Service Commitment Package corresponds to the unit that is offered and sold to the customer. In a Service Commitment Package, both the service liabilities to the customer and the service receivables towards the own suppliers can be stored. <br />
-The example of the legal warranty shown below illustrates this, as here the customer can make claims within the specified period, but these are simultaneously covered by Service Commitments towards the supplier.
+## Overview of service commitment package​ fields
 
-:::tip Copy Service Commitment Packages
-To simplify the creation of a Service Commitment Package, an existing Service Commitment Package can be copied using the **Copy Service Commitment Package** action and then customized.
-:::
+* In addition to the unique **Code** and **Description**, you can specify a **Price Group** to use when pricing service commitments. To learn more, go to [Sales Service Commitments and Service Objects](#sales-service-commitments-and-service-objects).
+* **Partner** specifies whether to create a customer or vendor service commitment later. Accordingly, the service commitments can then be called into customer or vendor contracts and invoiced through purchase or sales invoices.
+* **Template** indicates whether the line was created based on a service commitment template. Specifying a service commitment template is optional. You cal also manually enter the line.
+* **Description** specifies the description of the service commitment.
+* To learn more about the **Invoicing** field, go to [Types of Service Commitments](#types-of-service-commitments).
+* To learn more about the **Invoicing via Item No.** field, go to [Control of revenue accounts](#control-of-revenue-accounts).
+* To learn more about the **Calculation Base Amount Type** field, go to [Pricing and calculation types](#pricing-and-calculation-types).
+* **Calculation Base Amount %** is the percentage of the calculation base amount that is used in the sales process to price the service commitments.
+* **Calculation Base Period** specifies the period to which the service amount should subsequently relate. For example, enter **1M** if the amount refers to one month, or **12M** if the amount refers to one year.
+* **Billing Rhythm** defines how often to bill service commitments.
+* The Dateformula in the **Service Commitment Start Formula** field specifies the time offset at which a service commitment becomes valid.
+* **Initial Term** specifies the minimum term of the service commitments. If the initial term is entered in the sales process and no **Subsequent Term** is entered, the service end date is automatically set to the end of the initial term.
+* The Dateformula in the **Subsequent Term** field specifies the duration of the automatic extension after the initial term. If the field is blank in the sales process, and either the **Initial Term** or the **Notice Period** is set at the same time, the service end date is automatically set to the expiration date of the initial term or the notice period.
+* The Dateformula in the **Notice Period** field specifies the lead time before a service commitment can be cancelled. A 12 month initial term with a three month notice period means that the due date for termination is reached after nine months.
+* **Discount** is used to control whether the service commitment is used for discounts during periodic billing.
+* **Price Binding Period** defines the period in which the price won't change after the service commitment is created. When the service commitment is created, the **Next Price Update** date is calculated from the **Service Start Date** and the **Price Fixing Period**. You might need to personalize the page to display the field.
 
+> [!TIP]
+> To simplify the creation of items with service commitments, you can store service commitment packages in item templates. If an item is created using a template that includes service commitment packages, the packages automatically transfer to the new item.
 
-### Overview of the fields in the Service Commitment Package
-* In addition to the unique **Code** and **Description**, a **Price Group** can be stored. This allows a Price Group to be taken into account when pricing Service Commitments. For more details please see section [Price Group in Sales Service Commitments and Service Objects](#price-group-in-sales-service-commitments-and-service-objects).
-* **Partner** specifies whether a customer or vendor Service Commitment is to be created later. Accordingly, the Services Commitments can then be called into Customer/Vendor Contracts and invoiced via Purchase or Sales Invoices.
-* **Template** indicates whether the line was created based on a **Service Commitment Template**. Specifying a *Service Commitment Template* is optional - the line can also be entered manually.
-* **Description** specifies the description of the Service Commitment that will be created in further processing.
-* For explanation of **Invoicing via** see [Types of Service Commitments](#types-of-service-commitments).
-* For explanation of **Invoicing via Item No.** see [Control of revenue accounts](#control-of-revenue-accounts).
-* For explanation of **Calculation Base Amount Type** see [Pricing and calculation types](#pricing-and-calculation-types).
-* **Calculation Base Amount %** is the percentage of the **Calculation Base Amount** that is used in the sales process to price the Service Commitments.
-* **Calculation Base Period** specifies the period to which the Service Amount should subsequently relate. For example, enter 1M if the amount refers to one month or 12M if the amount refers to one year.
-* **Billing Rhythm** defines the frequency at which the Service Commitments should be billed later.
-* The Dateformula in the **Service Commitment Start Formula** field specifies the time offset at which a Service Commitment becomes valid.
-* **Initial Term** specifies the minimum term of the subsequent Service Commitments. If the Initial Term is populated in the sales process and no **Subsequent Term** is entered, the **Service End Date** is automatically set to the end of the Initial Term.
-* The Dateformula in the **Subsequent Term** field specifies the duration of the automatic extension after the Initial Term. If the field is blank in the sales process and either the Initial Term or the Notice Period is set at the same time, the Service End Date is automatically set to the expiration date of the Initial Term or the Notice Period.
-* The Dateformula in the **Notice Period** field specifies the lead time before a Service Commitments can be cancelled at a later date. A 12 month Initial Term with a 3 month notice period means that the due date for termination is reached after 9 months.
-* **Discount** is used to control whether the Service Commitment is used for discounts during periodic billing.
-* The **Price Binding Period** defines the period, in which the price will not be changed after the Service Commitment has been created. When the Service Commitment is created, the **Next Price Update** date is calculated from the **Service Start Date** and the **Price Fixing Period**. The field can be displayed using personalization.
+## Dimensions​
 
-### Example
-Partner|Template|Description|Invoicing via|Invoicing via Item No.|Calculation Base Type|Calculation Base %|Calculation Base Period|Calculation Base Rhythm|Service Commitment Start Formula|Initial Term|Subsequent Term|Cancellation Period
-|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-Customer|Guarantee|Warranty|Sale||Item Price|0|12M||12M||
-Supplier|Guarantee|Warranty|Sale||Item Price|0|12M||12M||
+If a service commitment package contains lines with both **Partner=Customer** and **Partner=Vendor**, the dimensions of the later customer contract line pass to the corresponding vendor contract line. This is important when you analyze data, for example, the service package code is identical in data on both customer and vendor sides.
 
-:::tip Service Commitment Packages in Item Templates
-To simplify the creation of items with Service Commitments, Service Commitment Packages can already be stored in the Item Templates. If an item is created using a template that includes Service Commitment Packages, these are automatically transferred to the new item. This is particularly useful if several items are created as [batch processing](/docs/pli/price-list.md#creating-and-updating-catalog-items) via **DYCE Price List Import**.
-:::
+## Price group in sales service commitments and service objects​
 
+Before the prices for the service commitment s in the sales document can be calculated for the selected line item, the appropriate service commitment package(s) must be determined, including any price group assigned. The following applies:
 
-### Dimensions
-If a Service Commitment Package contains lines with both Partner=*Customer* and Partner=*Vendor*, the [dimensions](/docs/srb/setup/general.md#dimensions) of the later [Customer Contract Line](/docs/srb/working-with-contracts/customer-contracts.md) are passed to the corresponding [Vendor Contract Line](/docs/srb/working-with-contracts/vendor-contracts.md). The decisive factor here is that the service package code is identical. This is primarily for evaluation purposes.
+* If the price group isn't set in the document, only service commitment packages without the price group are used.
+* If the service commitment package is set in the document, only service commitment packages with the same price group apply. If no service commitment packages match the price group, service commitment packages without price group are also considered. Service commitment packages that are set as default for the item apply directly. Others are display-only.
+* If a service commitment package without a price group isn't found, all service commitment packages are considered. The default package for the item applies directly. Others are display-only.
+* If no service commitment package is found, no sales service commitments are created.
 
+The determination of service commitments when manually creating a service object is done in the same way as the creation and calculation of sales service commitments. However, if you change the end user (customer) in the service object, the service commitments must be recalculated if the price group of the new end user (customer) and the service object differ. The user receives a corresponding query. If they confirm, the service commitments are deleted and recreated based on the above criteria. Otherwise, the end user (customer) resets to the original value.
 
-### Price Group in Sales Service Commitments and Service Objects
-Before the prices for the Service Commitments in the sales document can be calculated, the appropriate Service Commitment Package(s) must be determined - also on the basis of the price group, among other things. <br/>
-The following applies:
-* If the Service Commitment Package is not set in the document, only Service Commitment Packages *without* the price group are used.
-* If the Service Commitment Package is set in the document, *only* Service Commitment Packages with the same price group will be applied. If *no* Service Commitment Packages matching the price group are found, Service Commitment Packages *without* price group will also be considered. Service Commitment Packages that are set as default (**Default**=*YES*) for the item will be applied directly. Others will only be displayed.
-* If no Service Commitment Package *without* Price Group is found either, *all* Service Commitment Packages will be considered. Those that are set as the default package (**Default**=*YES*) for the item will be applied directly. Others are only displayed.
-* If no Service Commitment Package is found at all, no Sales Service Commitments will be created.
+> [!NOTE]
+> You can only change the service commitments in the service object if none of the services are linked to a customer contract or vendor contract.
 
-The determination of Service Commitments when manually creating a Service Object is done in the same way as the creation and calculation of Sales Service Commitments. However, if the End User (Customer) in the Service Object is changed, the Service Commitments must be recalculated if the price group of the new End User (Customer) differs from the one in the Service Object. The user receives a corresponding query. If this is confirmed, the Service Commitments are deleted and recreated based on the above criteria. Otherwise, the End User (Customer) will be reset to the original value.
+## Types of service commitments​
 
-:::note Note
-It is only possible to change the Service Commitments in the Service Object if none of the services are linked to a Customer Contract or Vendor Contracts.
-:::
+* Contract
 
+   A service commitment for a service object where the **Invoicing via** field is set to **Contract** will be brought to invoicing in a defined cycle. Optionally, you can specify terms and notice periods.
 
-## Types of Service Commitments
-* **Contract** <br />.
-    A Service Commitment whose Default in the **Invoicing via** field is set to *Contract* will be brought to Invoicing via a defined cycle. Optionally, terms and notice periods can be stored for this.
-* **Sales** <br />
-    A Service Commitment, whose default in the field **Invoicing via** is set to *Sales*, will not be invoiced. The Service Object and Service Commitment does only serve as information (e.g. for the warranty period or the after-sale to a warranty).
+* Sales
 
-:::info
-Only Services Commitments whose template is set to *Contract* in **Invoicing via** can be assigned to an Customer or Vendor Contract and thus billed recurrently via that contract.
-:::
+  A service commitment for a service object where **Invoicing via** is set to **Sales** won't be invoiced. The service object and service commitment serve as information only (for example, for the warranty period or the after-sale to a warranty).
 
+> [!NOTE]
+> Only service commitments whose template is set to **Contract** in the **Invoicing via** field can be assigned to a customer or vendor contract, and thus billed on a recurring basis through that contract.
 
-## Pricing and calculation types
-Three types of reference values (*Item Price*, *Document Price* and *Document Price And Discount*) are used to price Service Commitments via the **Calculation Base Type** field. The details are explained [here](/docs/srb/sales/price-calculation.md).
+## Pricing and calculation types​
 
+Three types of reference values are used to price service commitments via the **Calculation Base Type** field:
 
-## Control of revenue accounts
-Services that are (optionally) co-sold with an item (see [Sales with Services](/docs/srb/masterdata/items.md) in the **Service Commitment Option** field in the Item card) are usually handled by an *Invoicing Item*. Depending on the configuration of the posting groups in Financial Accounting, revenues can thus be posted to different revenue accounts for each Service Commitment to be billed. The lookup of the field **Invoicing via Item No.** is restricted to Invoicing Items.<br />
-Services that are themselves the subject of provisioning (e.g., a support service) can also themselves contain the posting groups for revenue control (see [Service Commitment Item](/docs/srb/masterdata/items.md) in the **Service Commitment Option** field in the Item card). In this case, the **Invoicing via Item No.** field can also be left blank.
+* Item Price
+* Document Price
+* Document Price And Discount)  
+
+To learn more, go to [Price determination of Service Commitments](../sales/price-calculation.md).
+
+## Control revenue accounts​ via invoicing items
+
+Services that you sell along with an item are usually handled by an invoicing item. Depending on the configuration of the posting groups in financial accounting, revenues can post to different revenue accounts for each service commitment to bill. The lookup of the **Invoicing via Item No.** field shows only invoicing items.
+
+Services that are themselves the subject of provisioning (such as a support service) can also contain the posting groups for revenue control. In this case, the **Invoicing via Item No.** field is left blank.
+
+## Example: Warranty as a service commitment​
+
+When a product is sold, a warranty is required by law. This means that the supplier of a product guarantees that the products it supplies have the promised properties. The warranty is usually limited in time.
+
+The statutory warranty can be supplemented by additional warranties or services that you can create as service commitments. For example, manufacturers might grant the customer an extended warranty period from the date of purchase or even service commitments that go beyond what is legally required. For example, free on-site replacement of defective parts.
+
+A service commitment can represent the mapping of these commitments. It contains all relevant service agreements, such as prices (usually zero), validity periods, cancellation periods, and the billing rhythm. Just like other service commitments, the service commitment must be assigned to a contract to be billed (on a recurring basis until it expires). The contract number then displays in the service commitment.
+
+The following example shows a warranty set up as a service commitment. The warranty is free of charge and runs for 12 months.
+
+| Partner | Template | Description | Invoicing via | Invoicing via Item No. | Calculation Base Type | Calculation Base % | Calculation Base Period | Calculation Base Rhythm | Service Commitment Start Formula | Initial Term | Subsequent Term |Cancellation Period|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|Customer|Guarantee|Warranty|Sale||Item Price|0|12M||12M|
+|Supplier|Guarantee|Warranty|Sale||Item Price|0|12M||12M|
+
+The service commitment package contains both a customer and a vendor line, so the customer can make claims within the specified period, but these are also covered by service commitments towards the supplier (for example, the vendor has provided warranty for the items sold).
+
+## See also
+
+[Sales process](../sales/sales-service-commitments.md)  

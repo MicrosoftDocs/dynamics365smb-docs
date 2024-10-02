@@ -22,11 +22,11 @@ For each contract type, you should enter a description and a unique code. The de
 
 ## Harmonized billing
 
-The **Harmonized Billing Customer Contracts** indicator controls whether you bill the contract elements of customer contracts on a common due date. If it is set, you can edit the corresponding fields in the **Harmonized Billing** group in the **Shipping and Billing** FastTab of the **Customer Contracts Card** page. If the field is reset, the fields on the affected customer contracts also reset and disabled upon request. To learn more, go to [Harmonized billing](../working-with-contracts/customer-contracts.md#harmonized-billing).
+The **Harmonized Billing Customer Contracts** field controls whether you bill the contract elements of customer contracts on a common due date. If it's selected, you can edit the corresponding fields in the **Harmonized Billing** group in the **Shipping and Billing** FastTab of the **Customer Contracts Card** page. If the field is reset, the fields on the customer contracts also reset and can be disabled upon request. To learn more, go to [Harmonized billing](../working-with-contracts/customer-contracts.md#harmonized-billing).
 
 ## Default without contract deferrals
 
-Use the **Default Without Contract Deferrals** field to define the default value for the corresponding field in the contract. This makes it easier to create contracts and reduces handling errors. When you slect the contract type, the value is copied to the field in the contract. You can change the value manually, if necessary.
+Use the **Default Without Contract Deferrals** field to define the default value for the corresponding field in the contract. This makes it easier to create contracts and reduces handling errors. When you select the contract type, the value is copied to the field in the contract. You can change the value manually, if needed.
 
 ## See also
 

@@ -15,8 +15,10 @@ ms.custom: bap-template
 
 # Price update
 
-Regular price updates of contractually agreed, recurring Service Commitments are completely normal in times of subscription models. With **DYCE Subscription & Recurring Billing**, price updates for contractual Service Commitments can be easily planned and applied. <br/>
+Regular price updates of contractually agreed, recurring Service Commitments are completely normal in times of subscription models. With subscription billing, price updates for contractual Service Commitments can be easily planned and applied.
+
 Contract prices can be updated in three different ways:
+
 * Increase (or decrease) the price to a percentage
 * Increasing or decreasing the Calculation Base % by a percentage
 * Updating the prices of recurring Service Commitments with the list prices of the items
@@ -29,20 +31,21 @@ Future **planned price updates** do not take effect immediately. A price increas
 
 If a period in which a price update was applied is credited, the price is automatically reset to the original price. At the same time, a **Planned Service Commitment** is automatically created, which saves the reset price update. If the period is invoiced again, the price update is re-applied. In this way, the prices of the periods are retained. Invoices and credit notes can be created with the original amounts.
 
-
 ## Templates
+
 The **Contract Price Update** page (*Alt+Q*) is used to create price update proposals. In order to create a proposal, a template must be used. The list of **Price Update Templates** can be opened via the AssistEdit in the **Price Update Template** field.
 
-
 ### Filters
+
 Templates can be used to filter Service Commitments. The **Partner** specified in the template determines whether Vendor Contracts or Customer Contracts are included in the price update. The filters are created using the **Contract filter**, **Service filter** and **Service Object filter** fields. Clicking on one of the fields opens the filter page.
 
-:::tip Important
-When creating price update proposals, some filters are applied automatically:
-* Service Commitments with the **Usage Based Billing** indicator are not taken into account.
-* Only Service Commitments with **Invoicing via** *Contract* are taken into account.
-* Contract lines that have been **Closed** are not taken into account.
-* Contract lines marked with **Exclude from Price Update** are not taken into account.
+> [!NOTE]
+> When creating price update proposals, some filters are applied automatically:
+>
+> * Service Commitments with the **Usage Based Billing** indicator are not taken into account.
+> * Only Service Commitments with **Invoicing via** *Contract* are taken into account.
+> * Contract lines that have been **Closed** are not taken into account.
+> * Contract lines marked with **Exclude from Price Update** are not taken into account.
 
 In addition to these automatic filters, it is recommended to enter `<>''` (not equal to empty) in the Service Commitment filter **Contract**. This prevents Service Commitments, that are not yet assigned to a contract or have been deleted from the contract after being invoiced completely, from being included in the price update. The **Closed** field only exists in the Contract lines. Accordingly, the automatic filter does not apply in these cases.
 

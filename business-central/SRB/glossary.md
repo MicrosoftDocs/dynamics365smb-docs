@@ -27,7 +27,6 @@ The most important terms can be looked up in this glossary.
 * **Billing Proposal Lines** <br/> Are a preview of billing lines. Lines for the same contract line and different billing periods are combined in the invoice.
 * **Billing Rhythm** <br/> Specifies the rhythm at which the Service Commitments will be billed. A Dateformula can be used to set the rhythm to, for example, monthly, quarterly or annual calculation.
 * **Billing Template** <br/> The Default name used to determine the Service Commitments to be billed.
-* **Bundle** <br/> A bundle is a combination of individual components into a stand-alone product.
 
 ## C
 * **Calculation Base %** <br/> The percentage at which the price of the Service Commitments is calculated. 100% means that the price of the service is equal to the Calculation Base Amount.

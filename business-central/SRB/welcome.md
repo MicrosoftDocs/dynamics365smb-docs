@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Overview of subscription and recurring billing
+# Overview of subscription billing
 
 Subscription billing lets you bill for contractually agreed services on a recurring basis. The integrated, flexible billing models support many subscription model scenarios for pricing models, price management, renewals, and billing periods and frequency. Using subscription billing to manage recurring invoicing of services minimizes sources of error and brings transparency into the processes from initial sales quote to the recurring invoice. All information is stored in one place, so you to always have an overview of contract management. At the same time, manual effort is reduced because you can simplify and automate processes.  
 

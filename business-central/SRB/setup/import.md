@@ -13,11 +13,11 @@ ms.service: dynamics-365-business-central
 
 # Import of contracts and contract lines
 
-Before you can set up contracts and contract lines, you must create or import some data. In addition to customers, vendors, and items, you must create service commitment packages, service commitment package lines, and more. You use configuration packages to import data. The data for customer contracts, contract lines, service objects, and service commitments imports to tables created specifically for processing the data.
+Before you can set up contracts and contract lines, you must create some data, or import it from another system. In addition to customers, vendors, and items, you must create service commitment packages, service commitment package lines, and more. You use configuration packages to import data. The data for customer contracts, contract lines, service objects, and service commitments imports to tables created specifically for processing the data.
 
 ## Import of master data
 
-To import customers, items, service commitments, vendor contracts, and so on, create [Configuration Packages](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages).
+To import customers, items, service commitments, vendor contracts, and so on, create [Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages).
 
 |Name|Table|
 |:--|:--|
@@ -44,8 +44,8 @@ The **Imported Customer Contracts** page serves as an intermediate step for the 
 
 |Name|Description|To fill|
 |:--|:--|:--|
-|Contract No. (Code20)|Specifies the number of the contracts to create. Contract lines (Service Commitments) are assigned by means of the contract Number. Note that before processing, the number series must be set to allow manual number assignment.|**Always**|
-|Sell-to Customer No. (Code20)|Indicates the number of the customer who receives the contractual services and is invoiced by default.|**Always**|
+|Contract No. (Code20)|Specifies the number of the contracts to create. Contract lines (service commitments) are assigned by means of the contract Number. Note that before processing, the number series must be set to allow manual number assignment.|Always|
+|Sell-to Customer No. (Code20)|Indicates the number of the customer who receives the contractual services and is invoiced by default.|Always|
 |Sell-to Contact No. (Code20)|Specifies the number of the contact that receives the contractual services. In the contract, the number is the **Sell-to Customer No.** from that customer, if empty.|Optional|
 |Bill-to Contact No. (Code20)|Indicates the customer to whom you send the contract invoice. If the field is empty, the contract uses the ***Standard (Customer)**.|Optional|
 |Contract Type (Code10)|Indicates the classification of the contract.|Optional|

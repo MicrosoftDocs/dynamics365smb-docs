@@ -1,5 +1,5 @@
 ---
-title: Items
+title: Service commitments for items
 description: You can use items in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,22 +11,26 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Service Commitments at Items
-Items can be set when being used they either bring additional service commitments with them or they represent service commitments themselves. The setting for this can be made via the **Service Commitment Option** field (in the *Prices and Sales* fast tab). Basically, four options are available:
+# Service commitments for items
+
+You can set up items so that when they're used in a sales document, they either bring additional service commitments with them or they represent service commitments themselves. The setting for this can be made via the **Service Commitment Option** field on the **Prices and Sales** FastTab. 
+
+The following table describes the available options.
 
 |Option|Meaning|
-|:--|:--|
-|Sales without Service Commitment|This selection means that the item is for sale only and not for Service Commitments or contracts. This setting is typically used for trade-only items. <br/> For items with this setting, *no Service Object* will be created upon delivery. This is also not possible manually.|
-|Sales with Service Commitment|This selection means that this item can be sold with additional service commitments. If additional service commitments are stored, these are used either automatically (**Default**=*Yes* in assigned Service Commitment Package) or on request in the sales process. <br/> For items with this setting, a *Service Object is created automatically* upon delivery.
-|Service Commitment Item|This selection means that this item can be used in a sales document, but Invoicing is done exclusively (in the form of Service Commitments) via the contract. When a Sales Order line is delivered, it will automatically be set as *Invoiced*. This option can only be selected if **Type**=*No Inventory*. <br/> For items with this setting, a *Service Object is created automatically* upon delivery.
-|Invoicing Item|This selection means that this item will be used for billing additional service commitments sold for another item. This option can be selected only if **Type**=*Non-Inventory*. This item cannot be used in document lines (Sales Quote / Sales Order / Sales Invoice / Purchase Invoice). <br/> No Service Object *can* be created for items with this setting.
+|--|--|
+|Sales without Service Commitment| The item is for sale only and not for service commitments or contracts. This is the default option. It's also used when subscription billing isn't used. <br/>For items with this setting, service objects aren't created upon delivery, and you can't create them manually.|
+|Sales with Service Commitment|The item can be sold with additional service commitments. If additional service commitments are stored, these are used either automatically (**Default** is selected in the assigned service commitment package) or on request in the sales process. <br/> For items with this setting, a service object is created automatically upon delivery.
+|Service Commitment Item|The item can be used in a sales document, but invoicing is done only through the contract in the form of service commitments. When a sales order line is delivered, it's set as **Invoiced**. You can select this option only if the item's **Type** is **Non-Inventory**. <br/> For items with this setting, a service object is created automatically upon delivery.
+|Invoicing Item|The item is used for billing additional service commitments sold for another item. You can select this option only if the item's **Type** is **Non-Inventory**. This item can't be used on document lines. For example, on sales quotes, sales orders, sales invoice, purchase invoices, and so on. <br/> You can't create service objects for items with this setting.
 
+## Service commitments
 
-## Service Commitments (Infobox)
-The Service Commitments stored on an item are displayed in the infobox area via the infobox of the same name. This infobox is available in the Item list as well as in the Item card. <br/>
-In addition to the name of the Service Commitment Package, the infobox also shows whether the respective Service Commitment Package is marked as *Standard*. If an item set in this way is used in the sales process, all the services from the corresponding Service Commitments Packages are transferred to the sales item in the document (see [Assign Services](/docs/srb/sales/sales-service-commitments.md)).
-Clicking on the header of the infobox opens the **Service Commitment Packages per Item** page. Here, the overview of all Service Commitment Packages stored for the item (upper part) including the respective details (Service Commitment Package Lines, lower part) is displayed. For visual assignment, the Service Commitment Package Lines for the currently selected package are displayed in bold. This is particularly helpful if several Service Commitment Packages are stored for the item. Insert the Service Commitment Package in a new line to add it to the item. If a line is deleted, the Service Commitments will not be available in Sales Orders or Quotes anymore.
+On the **Items** and **Item Card** pages, you can access service commitments in the **Service Commitments** FactBox. In addition to the name of the service commitment package, the FactBox also shows whether the respective service commitment package is marked as **Standard**. If an item marked as standard is used in the sales process, all the services from the corresponding service commitments packages are transferred to the sales item in the document. To learn more, go to [Sales process](../sales/sales-service-commitments.md).
 
+Clicking on the header of the FactBox opens the **Service Commitment Packages per Item** page. The page provides an overview of all service commitment packages stored for the item, including the details in service commitment package lines. For visual assignment, the service commitment package lines for the selected package display in bold. For example, this cue is helpful if there are several service commitment packages for the item. To add a service commitment package to an item, insert in a new line. If you delete a line, the service commitments aren't available for sales orders or quotes.
 
-## Service Commitments (Action)
-Analogous to the Infobox, the Service Commitments stored on the item can also be called up via the **Service Commitments** action. The call is located in the **Item** action group and is available both in the Item list and in the Item card.
+Similar to the FactBox, you can also use the **Service Commitments** action to access the service commitments for items.
+
+## See also
+

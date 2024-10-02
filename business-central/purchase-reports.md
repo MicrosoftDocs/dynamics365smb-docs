@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 ---
 # Purchase reports
 
-Purchase reports gives procurement and business professionals insights and statistics about current and past purchase activities.  
+<!-- Purchase reports gives procurement and business professionals insights and statistics about current and past purchase activities.  
 
-## Reports
+## Report overview -->
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 

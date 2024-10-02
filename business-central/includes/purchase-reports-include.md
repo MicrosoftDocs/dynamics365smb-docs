@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-The following table describes some of the key reports in the purchase module. The report helps different roles within the purchasing department make informed decisions to optimize their operations. 
+The following table describes some of the key reports in the purchase module. The reports help different roles within the purchasing department make informed decisions to optimize their operations. 
 
 | To... | Use report (CTRL+click to open in Business Central) | Learn more | Id | 
 |-------|------------| ------------|----|

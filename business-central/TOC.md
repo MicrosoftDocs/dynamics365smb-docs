@@ -569,6 +569,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)
+##### [Vendor Item catalog](reports/report-320.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 ##### [Purchase Reservation Availability](reports/report-409.md)

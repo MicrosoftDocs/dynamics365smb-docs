@@ -571,6 +571,7 @@ ms.service: dynamics-365-business-central
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
+##### [Purchase Reservation Availability](reports/report-409.md)
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)

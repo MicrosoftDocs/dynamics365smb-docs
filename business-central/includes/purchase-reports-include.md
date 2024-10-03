@@ -12,34 +12,9 @@ The following table describes some of the key reports in the purchase module. Th
 | To... | Open in Business Central (CTRL+click) | Learn more | Id | 
 |-------|------------| ------------|----|
 | Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](../reports/report-311.md) | 311 |
-| Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](#purchase-statistics-report-312) | 312 |
+| Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](../reports/report-312.md) | 312 |
 | Analyse your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About Vendor/Item Purchases](#vendoritem-purchases-report-313) | 313 |
 
-
-
-
-## Purchase statistics (report 312)
-
-Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?report=312)
-
-### What the report does
-[!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]
-
-### Use cases
-
-Use the report to keep track of vendor performance and ensure that your company is getting the best value for its money:
-- Analyze total purchases, payments, and finance charges from each vendor.
-- Compare the efficiency of different vendors over five periods.
-- Identify trends in payment discounts taken or lost to inform negotiation strategies.
-
-In your budgeting and financial forecasting processes, you can use the report to:
-- Review financial outlays and cost savings from payment discounts.
-- Monitor finance charges to ensure they are within acceptable limits.
-- Use historical purchase data to project future spending.
-
-For your accounts payable (AP) processes, use the report to ensure timely payments and manage discounts:
-- Track upcoming payments and avoid missed discounts.
-- Monitor overdue payments and the resulting finance charges.
 
 
 

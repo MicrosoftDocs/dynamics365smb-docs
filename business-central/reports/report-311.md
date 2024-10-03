@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Vendor - Top 10 List
+# Vendor - Top 10 List (report)
 
 The *Vendor - Top 10 List* report provides a list of vendors with the most transactions within a selected period. You can choose to display more than 10 vendors.
 

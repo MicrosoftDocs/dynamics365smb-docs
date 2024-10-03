@@ -562,6 +562,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### [Built-in purchasing reports](purchase-reports.md)
 ##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Purchase statistics](reports/report-312.md)
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)

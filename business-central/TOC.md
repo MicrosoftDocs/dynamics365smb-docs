@@ -1682,9 +1682,6 @@ ms.service: dynamics-365-business-central
 ##### [Job Queue](SRB/setup/job-queue.md)
 ##### [Service Commitments at Items](SRB/masterdata/items.md)
 ##### [Service Commitments](SRB/masterdata/service-commitments.md)
-#### Usage based billing
-##### Overview
-##### [General Setup](UBB/setup/general.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)

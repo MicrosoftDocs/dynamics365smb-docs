@@ -97,17 +97,17 @@ If the processing is successful, a service object is created and **Service Objec
 
 The **Imported Services Commitments** page serves as an intermediate step for the data transfer of service commitments and contract lines. Use the **Create Service Commitments** action to import and process the data. This can be used to create comment lines in contracts, service commitments that aren't billed, and contract lines and service commitments that are billed. The action always processes all lines that aren't processed, regardless of filters and selection.
 
-| Name | Description | To be fille d|
-|--|--|--|
-|Entry No. (Integer)|System field of the table (consecutive number of records) - is created automatically and is in the background|*Never*|
+| Name | Description | To be filled |
+|---|---|---|
+|Entry No. (Integer)| System field of the table (consecutive number of records) - is created automatically and is in the background | **Never** |
 |Service Object No. (Code20)|The created service commitment is assigned to this service object.|**Always**|
-|Service Commitment Line No. (Integer)|Indicates the line number of the service in the service object. If no line number is specified, one will be determined automatically.|Optional|
+|Service Commitment Line No. (Integer)|Indicates the line number of the service in the service object. If no line number is specified, one will be determined automatically.| **Optional** |
 |Partner (Option: Customer, Vendor)|Indicates whether to invoice the service commitments on the vendor side (purchase invoice) or customer side (sales invoice).|**Always**|
-|Contract (Code20)|Indicates the number of the contract in which the service commitment is to be created as a contract line. Service commitments with **Invoicing via**=**Sales** can't be called up in contracts.|Optional|
+|Contract (Code20)|Indicates the number of the contract in which the service commitment is to be created as a contract line. Service commitments with **Invoicing via**=**Sales** can't be called up in contracts.|**Optional**|
 |Contract Line No. (Integer)|Indicates the line number of the contract line. If no line number is specified, one will be determined automatically.|Optional|
 |Contract Line Type (Option: Comment, Service Commitment)|Specifies the type of the contract line.|**Always**|
-|Package Code (Code20)|Specifies the code of the service commitment package. If a vendor contract line has the same service object and package code as the customer contract line, the customer contract dimension is copied to the vendor contract line.|Optional|
-|Template Code (Code20)|Indicates the name of the service commitment template from which the service commitment was copied to the service commitment package. It's just for information purposes.|Optional|
+|Package Code (Code20)|Specifies the code of the service commitment package. If a vendor contract line has the same service object and package code as the customer contract line, the customer contract dimension is copied to the vendor contract line.|**Optional**|
+|Template Code (Code20)|Indicates the name of the service commitment template from which the service commitment was copied to the service commitment package. It's just for information purposes.|**Optional**|
 |Description (Text100)|Indicates the description of the service commitments. If no description is specified, it will be filled based on the service commitments.|**Always**|
 |Service Start Date (Date)|Indicates from which date the service commitments is valid and will be charged.|**Always**|
 |Service End Date (Date)|Indicates until which date the service commitments is valid.|Optional|
@@ -128,7 +128,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 |Formatting (Option: Normal, Bold, Italic)|Specifies whether a line in the sales document is printed bold or italic (default: *Normal*).|Optional|
 |Print Discount % (Boolean)|Specifies whether the line discount percentage is printed for the line in the sales document (default: *Yes*).|Optional|
 |New Page (Boolean)|Specifies whether a new page should be started with this line in the sales document (default: *No*).|Optional|
-|Print Quantity only (Boolean)|Specifies that only the quantity (without sales price) is printed for the corresponding line in the sales document (default: *No*).|Optional|
+|Print Quantity only (Boolean)|Specifies that only the quantity (without sales price) is printed for the corresponding line in the sales document (default: *No*).|Optional |
 
 * Mandatory fields always apply to the creation of billable contract lines. Mandatory fields, for example, for comment lines, differ.
 

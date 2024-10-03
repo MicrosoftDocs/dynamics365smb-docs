@@ -24,7 +24,7 @@ The following table describes some of the key reports in or related to the purch
 | See the availability of items for shipment on purchase documents, for example return orders | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 | Analyse your outstanding purchase orders to understand your expected purchase volume grouped by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Analyse your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
-| ??? Alternative to report 320 ???? | [Item/vendor catalog](https://businesscentral.dynamics.com?report=720) <br><br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report. [About *Item/vendor catalog*](../reports/report-720.md) | 720 |
+| ??? Alternative to report 320 ???? | [Item/vendor catalog](https://businesscentral.dynamics.com?report=720) <br><br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report. | [About *Item/vendor catalog*](../reports/report-720.md) | 720 |
 
 
 ## The old way

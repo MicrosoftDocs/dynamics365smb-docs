@@ -563,6 +563,7 @@ ms.service: dynamics-365-business-central
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
+##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)

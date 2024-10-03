@@ -45,7 +45,7 @@ Analyze and maintain a healthy cash flow for your company:
 
 ## Try the report
 
-Try the report here: [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=304)
+Try the report here: [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

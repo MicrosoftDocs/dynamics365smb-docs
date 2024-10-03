@@ -7,13 +7,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-The following table describes some of the key reports in the purchase module. The reports help different roles within the purchasing department make informed decisions to optimize their operations. 
+The following table describes some of the key reports in or related to the purchase module. The reports help different roles within the purchasing department make informed decisions to optimize their operations. 
 
 | To... | Open in Business Central (CTRL+click) | Learn more | Id | 
 |-------|------------| ------------|----|
 | Analyse and reconcile your vendor balances at the end of a period of your choosing. | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About Vendor - Detail Trial Balance](../reports/report-304.md) | 304 |
 | Analyse your outstanding purchase orders to understand your expected purchase volume. Assists you with forecasting your monthly expected costs & expenses. | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About Vendor - Order Summary](../reports/report-307.md) | 307 |
-| TODO | [XXX](https://businesscentral.dynamics.com?report=308) | [About XXX](../reports/report-308.md) | 308 |
+| Analyse your outstanding purchase orders to understand your expected purchase volume grouped by vendor. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders. | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About Vendor - Order Detail](../reports/report-308.md) | 308 |
 | Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](../reports/report-311.md) | 311 |
 | Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](../reports/report-312.md) | 312 |
 | Analyse your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About Vendor/Item Purchases](../reports/report-313.md) | 313 |

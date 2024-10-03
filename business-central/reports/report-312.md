@@ -1,13 +1,13 @@
 ---
 title: Purchase statistics
 description: Keep track of vendor performance and ensure that your company is getting the best value for its money
-author: brentholtorf
-ms.author: bholtorf
+author: kennieNP
+ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_312_Primary
-ms.date: 04/26/2024
+ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
 ---
 

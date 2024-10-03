@@ -1,13 +1,13 @@
 ---
 title: Vendor - Top 10 List report
 description: Analyze vendor impact in cash flow and prioritise vendor payments.
-author: brentholtorf
-ms.author: bholtorf
+author: kennieNP
+ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_311_Primary
-ms.date: 04/26/2024
+ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
 ---
 

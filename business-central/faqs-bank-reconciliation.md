@@ -1,7 +1,7 @@
 ---
 title: FAQ for bank account reconciliation assist with Copilot (preview)
 description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 03/27/2024
+ms.date: 08/13/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,13 +13,9 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ for bank account reconciliation assist with Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# FAQ for bank account reconciliation assist with Copilot
 
 These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot assistance with bank account reconciliation in [!INCLUDE[prod_short](includes/prod_short.md)].
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is bank reconciliation assist?
 
@@ -59,15 +55,7 @@ Suggested ledger accounts performs best in one of the supported languages (see t
 
 ## In which geographies and languages is bank reconciliation assist available? 
 
-- Available geographies
-
-  Bank account reconciliation assist is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
-
-- Available languages
-
-  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
-
-For more information about languages, see the previous question about limitations.
+[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
 
 ## What is expected of system users when they operate bank account reconciliation assist?
 
@@ -100,4 +88,5 @@ Each time that Copilot provides matches or suggestions, you can provide feedback
 
 ## See also
 
-[Reconcile bank accounts with Copilot (preview)](bank-reconciliation-with-copilot.md)
+[Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
+[Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

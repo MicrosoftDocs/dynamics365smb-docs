@@ -26,8 +26,10 @@ To create or edit a row definition, follow these steps:
     > [!NOTE]
     > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. If you add elements with identifiers that start with the same 10 characters, you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
 
-> [!NOTE]
-> The columns you define on each line in the row definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
+   > [!NOTE]
+   > The columns you define on each line in the row definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
+
+1. To format the rows, choose the **Bold**, **Italic**, **Underline**, and **Double Underline** checkboxes. To learn more about formatting, go to [Format your financial reporting](#format-your-financial-reporting).
 
 ## Built-in row definitions
 
@@ -44,6 +46,13 @@ To create or edit a row definition, follow these steps:
 
 > [!NOTE]
 > The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending on how you set up your G/L accounts, dimensions, G/L account categories, and budgets, adjust the sample row and column definitions and the finance reports that use them to match your setup.
+
+## Format your financial reporting
+
+On the **Row Definition** page, you can format your row definitions to provide visual cues that make it easier to find key information quickly. For example, lines that calculate totals often use bold font.
+
+> [!NOTE]
+> Some of the formatting options don't carry over to reports when you use the Export to Excel action. If you often export reports to Excel, you might just use the tools that Excel provides rather than row definitions.
 
 ## Use G/L account categories to change the layout of your financial statements
 

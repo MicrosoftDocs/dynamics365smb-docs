@@ -23,7 +23,8 @@ The following table describes some of the key reports in or related to the purch
 | Analyse the closing balance of vendors at the end of the period to reconcile the vendor subledger against the payables account(s) in the general ledger. | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
 | See the availability of items for shipment on purchase documents, for example return orders | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 
-| XXX | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)|Displays a list of items on order from vendors. It also shows the expected receipt date and the quantity and amount on back orders. For example, use the report to see when items should be received, and whether a reminder of a back order should be issued|709|
+| Understand when items should be received, and whether a reminder of a back order should be issued. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
+
 | TODO | [XXX](https://businesscentral.dynamics.com?report=709) | [About XXX](../reports/report-308.md) | 709 |
 | XXX |[Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714)|Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.|714|
 | TODO | [XXX](https://businesscentral.dynamics.com?report=714) | [About XXX](../reports/report-308.md) | 714 |

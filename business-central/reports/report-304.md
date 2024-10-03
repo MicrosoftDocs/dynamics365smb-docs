@@ -52,7 +52,7 @@ Try the report here: [Vendor - Detail Trial Balance](https://businesscentral.dyn
 
 ## See also
 
-[Purchase reports](../purchase-reports.md)
+[Purchase reports](../purchase-reports.md)   
 [Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)   
 

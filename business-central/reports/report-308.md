@@ -47,7 +47,7 @@ Try the report here: [Vendor - Order Detail](https://businesscentral.dynamics.co
 
 ## See also
 
-[Purchase reports](../purchase-reports.md)
+[Purchase reports](../purchase-reports.md)  
 [Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)   
 

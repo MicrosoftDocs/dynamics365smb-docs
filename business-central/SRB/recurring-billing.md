@@ -110,6 +110,6 @@ In addition, it is not possible to create multiple posting documents for the sam
 
 A credit memo to a contract invoice will also reset the **Next Billing Date** field. To ensure consistency of the contract line and service commitments, when crediting multiple contract invoices, the credits must be chronological.
 
-# See also
+## See also
 
 [Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  

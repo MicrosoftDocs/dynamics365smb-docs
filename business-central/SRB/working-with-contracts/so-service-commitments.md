@@ -1,6 +1,6 @@
 ---
 title: Service commitments in service objects
-description: You can use service commitments in subscription and recurring billing.
+description: You can use service commitments with service objects in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Service commitments
+# Service commitments in service objects
 
 Service commitments describe the monetary content of agreements with customers and suppliers as well as termination dates. In order for a service commitment to be billed recurrently, it must be assigned to a contract.
 

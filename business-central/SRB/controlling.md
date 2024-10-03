@@ -16,11 +16,12 @@ ms.custom: bap-template
 
 ## Dimension value for customer contracts
 
-In the **[Service Contract Setup](/docs/srb/setup/general.md)**, **Autom. Insert Cust. Contr. Dimension Value** controls whether the Customer Contract No. is automatically created as a new dimension value for each new Customer Contract. This is then automatically assigned to the respective contract.
+In the [General setup](setup/general.md), **Autom. Insert Cust. Contr. Dimension Value** controls whether the Customer Contract No. is automatically created as a new dimension value for each new Customer Contract. This is then automatically assigned to the respective contract.
 
 
 ## Dimension Value for Customers
-In the **[Sales & Receivables Setup](/docs/srb/setup/general.md#sales--receivables-setup)** it is controlled via **Autom. Insert Cust. Dimension Value** whether the customer number is automatically created as a new dimension value for each new customer. This is then automatically assigned to the respective customer.
+
+In the **Sales & Receivables Setup** it is controlled via **Autom. Insert Cust. Dimension Value** whether the customer number is automatically created as a new dimension value for each new customer. This is then automatically assigned to the respective customer.
 
 
 ## Other dimensions

@@ -1,6 +1,6 @@
 ---
-title: Service commitments
-description: You can use service commitments in subscription and recurring billing.
+title: Service commitments in subscription billing
+description: You can use service commitments in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,7 +11,7 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Service commitments
+# Service commitments in subscription billing
 
 Service commitments represent obligations to customers and suppliers. They usually begin with the delivery of an item to the customer, include subsequent support, and govern billing arrangements. A service commitment can also be the subject of provision itself, for example, in the case of a support service.
 
@@ -40,12 +40,12 @@ A service commitment package corresponds to the unit that's offered and sold to 
 
 ## Overview of service commitment package​ fields
 
-* In addition to the unique **Code** and **Description**, you can specify a **Price Group** to use when pricing service commitments. To learn more, go to [Sales Service Commitments and Service Objects](#sales-service-commitments-and-service-objects).
+* In addition to the unique **Code** and **Description**, you can specify a **Price Group** to use when pricing service commitments. To learn more, go to [Price group in sales service commitments and service objects​](#price-group-in-sales-service-commitments-and-service-objects).
 * **Partner** specifies whether to create a customer or vendor service commitment later. Accordingly, the service commitments can then be called into customer or vendor contracts and invoiced through purchase or sales invoices.
 * **Template** indicates whether the line was created based on a service commitment template. Specifying a service commitment template is optional. You cal also manually enter the line.
 * **Description** specifies the description of the service commitment.
 * To learn more about the **Invoicing** field, go to [Types of Service Commitments](#types-of-service-commitments).
-* To learn more about the **Invoicing via Item No.** field, go to [Control of revenue accounts](#control-of-revenue-accounts).
+* To learn more about the **Invoicing via Item No.** field, go to [Control revenue accounts​ via invoicing items](#control-revenue-accounts-via-invoicing-items).
 * To learn more about the **Calculation Base Amount Type** field, go to [Pricing and calculation types](#pricing-and-calculation-types).
 * **Calculation Base Amount %** is the percentage of the calculation base amount that is used in the sales process to price the service commitments.
 * **Calculation Base Period** specifies the period to which the service amount should subsequently relate. For example, enter **1M** if the amount refers to one month, or **12M** if the amount refers to one year.

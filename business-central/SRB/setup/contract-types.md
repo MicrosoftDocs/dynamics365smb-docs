@@ -18,7 +18,7 @@ Use the **Contract Types** page to set up the types of contracts you use to mana
 For each contract type, you should enter a description and a unique code. The description is further used as an info line in the posting documents for the contracts.
 
 > [!NOTE]
-> You can define translations for contract types, and specify the language code. The language is used when you create [contract invoices](/docs/srb/posting-documents.md).
+> You can define translations for contract types, and specify the language code. The language is used when you create [Posting documents](../posting-documents.md).
 
 ## Harmonized billing
 

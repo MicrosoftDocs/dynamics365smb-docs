@@ -67,8 +67,8 @@ If the processing is successful, a customer contract is created and **Contract C
 
 The **Imported Service Objects** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Service Objects** action to create the service objects. The action always process all lines that aren't processed, regardless of filters and selection.
 
-|Name|Description|To be filled|
-|:--|:--|:--|
+| Name | Description | To be filled |
+|--|--|--|
 |Entry No. (Integer)|System field of the table (consecutive number of records) - is created automatically and is in the background.|*Never*|
 |Service Object No. (Code20)|The service object is created with this number. To facilitate the assignment of service commitments, always import this number. Note that before processing, the number series must be set to allow manual number assignment.|**Always**|.
 |Customer No. (Code20)|Indicates the number of the customer to whom the service commitments were sold. It's mandatory for the assignment to customer contracts.|**Always**|
@@ -97,8 +97,8 @@ If the processing is successful, a service object is created and **Service Objec
 
 The **Imported Services Commitments** page serves as an intermediate step for the data transfer of service commitments and contract lines. Use the **Create Service Commitments** action to import and process the data. This can be used to create comment lines in contracts, service commitments that aren't billed, and contract lines and service commitments that are billed. The action always processes all lines that aren't processed, regardless of filters and selection.
 
-|Name|Description|To be filled|
-|:--|:--|:--|
+| Name | Description | To be fille d|
+|--|--|--|
 |Entry No. (Integer)|System field of the table (consecutive number of records) - is created automatically and is in the background|*Never*|
 |Service Object No. (Code20)|The created service commitment is assigned to this service object.|**Always**|
 |Service Commitment Line No. (Integer)|Indicates the line number of the service in the service object. If no line number is specified, one will be determined automatically.|Optional|
@@ -152,7 +152,7 @@ The following fields only need to be considered if you use a currency different 
 |Date Currency Factor (Date)|Indicates the date when the currency factor was last updated.|Optional|
 |Calculation Base Amount (MW) (Decimal)|Indicates the basis on which the price in local currency is calculated.|Optional|
 
-The fields in the following table only need to be considered if billing is to take place with [Usage Based Billing](../../UBB/welcome.md) .
+The fields in the following table only need to be considered if billing is to take place with usage based billing.
 
 |Name|Description|To be filled|
 |:--|:--|:--|

@@ -1,6 +1,6 @@
 ---
 title: Credit memos and cancellation
-description: You can use items in subscription and recurring billing.
+description: You can use credit memos in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf

@@ -1,6 +1,6 @@
 ---
 title: Sales with service commitments
-description: You can use sales with service commitments in subscription and recurring billing.
+description: You can use sales with service commitments in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,13 +11,13 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Sales process
+# Sales with service commitments
 
 Create a sales quote or sales order with service commitments to record your monetary agreements with the customer. Service commitments are printed on the documents and can be delivered from the order to be billed on a recurring basis.
 
 ## Assign service commitments
 
-[Service Commitments](/docs/srb/masterdata/service-commitments.md) describe the monetary content of agreements with customers and vendors, as well as ending dates.
+[Service commitments in subscription billing](../masterdata/service-commitments.md) describe the monetary content of agreements with customers and vendors, as well as ending dates.
 
 If an item is used in a sales document that has one or more service commitment packages defined in the master data, the services from the service commitments marked as **Standard** are automatically created for the sales transaction. All service commitments from the corresponding service commitment packages are transferred to the sales item in the document. The service commitments can then be accessed and viewed or edited via the lookup in the **Services** field in the sales document line. To learn more, go to [View, Edit and Delete service commitments](#view-edit-and-delete-service-commitments).
 

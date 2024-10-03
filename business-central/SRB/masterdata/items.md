@@ -1,6 +1,6 @@
 ---
 title: Service commitments for items
-description: You can use items in subscription and recurring billing.
+description: You can use service commitments for items in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf

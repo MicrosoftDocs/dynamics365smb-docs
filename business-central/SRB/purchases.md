@@ -1,5 +1,5 @@
 ---
-title: Purchasing
+title: Purchasing in subscription billing
 description: Learn about purchasing in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Purchasing
+# Purchasing in subscription billing
 
 In subscription billing, you purchase items with service commitments in the same way as purchasing features in [!INCLUDE [prod_short](../includes/prod_short.md)]. To learn more, go to [Purchasing](../purchasing-manage-purchasing.md). You map recurring purchases, such as rentals, maintenance, or subscription, with service commitments. Service commitments have **Vendor** specified in the **Partner** field on the service commitment package lines. A service commitment package can have lines for both customer and vendor service commitments.
 

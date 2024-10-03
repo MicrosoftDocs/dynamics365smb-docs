@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_311
+ms.search.form: Report_311_Primary
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---

@@ -1,5 +1,5 @@
 ---
-title: Purchase reports
+title: Purchasing reports
 description: See which purchase reports that are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,15 +10,15 @@ ms.search.form: Report_311, Report_312, Report_313, Report_320, Report_709, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Purchase reports
+# Purchasing reports and analytical tasks
 
-<!-- Purchase reports gives procurement and business professionals insights and statistics about current and past purchase activities.  
+Purchasing reports and tasks gives procurement and business professionals insights and statistics about current and past purchase activities. 
 
-## Report overview -->
+## Purchasing report overview 
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Tasks
+## Analytical tasks in purchasing
 
 The following articles describe some of the key tasks for analyzing the state of your purchasing:
 

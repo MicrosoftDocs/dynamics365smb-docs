@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Termination of contract components
+# Cancel contract components
 
-All contract lines contain information about their validity and termination dates. Thus, they can be terminated before the expiry or termination dates can be changed. If validity and notice periods are not set, the contract lines are valid indefinitely or can be terminated at any time.
+All contract lines contain information about their validity and termination dates. Thus, they can be terminated before the expiry or end dates can be changed. If validity and notice periods aren't set, the contract lines are valid indefinitely or can be terminated at any time.
 
 ## Cancel a contract Line or service commitment
 
@@ -44,7 +44,7 @@ If either the **Cancellation possible until** or **Term until** dates change, th
 Use the **Update Service Dates** action to update the notice dates. The action can be called both in the contract and in the service object. For smooth operation, the action should always run in the job queue.
 
 > [!NOTE]
-> You can add the update of the termination dates to the Job Queue by using **DYCEUpdateServCommTermDates** (Codeunit 70920758) to run automatically and autonomously. Typically, businesses run the codeunit once a day and outside business hours. The functionality corresponds to calling the action **Update Service Dates** in the contract card.
+> You can add the update of the end dates to the job queue by using **Update Serv. Comm. Term. Dates** (Codeunit 8058) to run automatically and autonomously. Typically, businesses run the codeunit once a day and outside business hours. The functionality corresponds to calling the action **Update Service Dates** in the contract card.
 
 ## See also
 

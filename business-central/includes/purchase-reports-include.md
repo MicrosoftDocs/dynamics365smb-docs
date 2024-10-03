@@ -11,41 +11,10 @@ The following table describes some of the key reports in the purchase module. Th
 
 | To... | Open in Business Central (CTRL+click) | Learn more | Id | 
 |-------|------------| ------------|----|
-| Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](#vendor---top-10-list-report-311) | 311 |
+| Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](../reports/report-311.md) | 311 |
 | Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](#purchase-statistics-report-312) | 312 |
 | Analyse your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About Vendor/Item Purchases](#vendoritem-purchases-report-313) | 313 |
 
-
-## Vendor - Top 10 List (report 311)
-
-Try the report here: [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311)
-
-### What the report does
-The report provides a list of vendors with the most transactions within a selected period. You can choose to display more than 10 vendors.
-
-The vendors are sorted by purchase amount within the selected period. The list gives a quick overview of vendors with the largest balance and highest purchase volume.
-
-
-### Use cases
-Use the report to ensure that vendor relationships are efficient and effective:
-- Identify vendors with the most significant transaction volumes.
-- Focus on strategic planning for major vendor negotiations.
-- Monitor vendor performance and adjust procurement strategies accordingly.
-
-For maintaining healthy relationships with your suppliers, use the report to:
-- Monitor transaction frequency to gauge the reliability and performance of key suppliers.
-- Plan upcoming payments to maintain good relationships and avoid payment delays.
-- Identify potential issues with suppliers who have frequent transactions but may be causing cash flow problems.
-
-To help ensure an overall efficiency of your supply chain, use the report to:
-- Track vendor performance and ensure consistency in supply.
-- Coordinate with finance and procurement teams to prioritize payments for essential vendors.
-- Plan and execute strategic initiatives to maintain an efficient procurement process.
-
-Within your finance department, use the report to 
-- Prioritize vendor payments based on transaction volume.
-- Ensure smooth cash flow by planning payments for high-volume vendors.
-- Identify and mitigate potential cash flow issues before they escalate.
 
 
 

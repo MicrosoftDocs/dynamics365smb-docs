@@ -44,8 +44,7 @@ Within your finance department, use the report to
 
 Try the report here: [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311)
 
-> [!TIP]
-> If you hold down CTRL while clicking on the report link, then the report opens in a separate browser tab. This allows you to stay on this page and then explore the report in the other browser tab.
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
 ## See also

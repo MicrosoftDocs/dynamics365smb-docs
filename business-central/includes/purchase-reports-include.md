@@ -9,7 +9,7 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in the purchase module. The reports help different roles within the purchasing department make informed decisions to optimize their operations. 
 
-| To... | Use report (CTRL+click to open in Business Central) | Learn more | Id | 
+| To... | Open in Business Central (CTRL+click) | Learn more | Id | 
 |-------|------------| ------------|----|
 | Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](#vendor---top-10-list-report-311) | 311 |
 | Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](#purchase-statistics-report-312) | 312 |

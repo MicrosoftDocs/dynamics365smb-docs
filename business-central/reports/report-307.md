@@ -1,6 +1,6 @@
 ---
 title: Vendor - Order Summary (report)
-description: 
+description: Analyse your outstanding purchase orders to understand your expected purchase volume. Assists you with forecasting your monthly expected costs & expenses.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

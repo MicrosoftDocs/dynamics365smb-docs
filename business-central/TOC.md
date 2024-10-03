@@ -574,6 +574,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
+##### [Inventory Vendor Purchases](reports/report-714.md)
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)

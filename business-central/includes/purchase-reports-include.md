@@ -23,9 +23,8 @@ The following table describes some of the key reports in or related to the purch
 | Analyse the closing balance of vendors at the end of the period to reconcile the vendor subledger against the payables account(s) in the general ledger. | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
 | See the availability of items for shipment on purchase documents, for example return orders | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 | Analyse your outstanding purchase orders to understand your expected purchase volume grouped by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
+| TODO | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
 
-| XXX |[Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714)|Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.|714|
-| TODO | [XXX](https://businesscentral.dynamics.com?report=714) | [About XXX](../reports/report-308.md) | 714 |
 | XXX |[Item/vendor catalog](https://businesscentral.dynamics.com?report=720)|Displays a list of the vendors for the selected items or items for selected vendors. For each combination of item and vendor, it shows direct unit cost, lead time calculation and the vendor's item number.<br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report.|720|
 
 

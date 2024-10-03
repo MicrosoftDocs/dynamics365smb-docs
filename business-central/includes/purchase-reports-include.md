@@ -11,6 +11,7 @@ The following table describes some of the key reports in the purchase module. Th
 
 | To... | Open in Business Central (CTRL+click) | Learn more | Id | 
 |-------|------------| ------------|----|
+| Analyse and reconcile your vendor balances at the end of a period of your choosing. | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About Vendor - Detail Trial Balance](../reports/report-304.md) | 304 |
 | Analyze vendor impact in cash flow and prioritise vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About Vendor - Top 10 List](../reports/report-311.md) | 311 |
 | Keep track of vendor performance and ensure that your company is getting the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About Purchase statistics](../reports/report-312.md) | 312 |
 | Analyse your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About Vendor/Item Purchases](../reports/report-313.md) | 313 |

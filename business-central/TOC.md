@@ -489,7 +489,26 @@ ms.service: dynamics-365-business-central
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
-
+### Subscription billing
+#### [Overview of subscription billing](SRB/welcome.md)
+#### Contracts
+##### [Manage contracts, service objects, and service commitments](SRB/working-with-contracts/contracts-services-mgmt.md)
+##### [Create customer contracts](SRB/working-with-contracts/customer-contracts.md)
+##### [Create vendor contracts](SRB/working-with-contracts/vendor-contracts.md)
+##### [Use service objects](SRB/working-with-contracts/service-objects.md)
+##### [Use service commitments](SRB/working-with-contracts/so-service-commitments.md)
+##### [Update prices](SRB/working-with-contracts/price-update.md)
+##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
+##### [Deferrals in contracts](SRB/working-with-contracts/contract-deferrals.md)
+##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
+#### Sales
+##### [Sales process](SRB/sales/sales-service-commitments.md)
+##### [Price determination of service commitments](SRB/sales/price-calculation.md)
+##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
+##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
+#### [Recurring billing](SRB/recurring-billing.md)
+#### [Posting documents](SRB/posting-documents.md)
+#### [Purchasing](SRB/purchases.md)
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
@@ -1653,6 +1672,15 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
+#### Subscriptions and recurring billing
+##### Overview
+###### [General Setup](SRB/setup/general.md)
+###### [Permissions](SRB/setup/permissions.md)
+###### [Contract Types](SRB/setup/contract-types.md)
+###### [Import of Contracts and Contract lines](SRB/setup/import.md)
+###### [Job Queue](SRB/setup/job-queue.md)
+###### [Service Commitments at Items](SRB/masterdata/items.md)
+###### [Service Commitments](SRB/masterdata/service-commitments.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)

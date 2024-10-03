@@ -13,41 +13,44 @@ ms.service: dynamics-365-business-central
 
 # Contract renewal
 
-Some Contract lines are set to end at a certain date. These Contract lines can be extended with a Contract Renewal Quote. By using the Contract Renewal, a renewal period can be specified and a Sales Quote created subsequently. The **Service End Date** (in the Service Commitment / Contract line) will be extended once the Sales Quote is turned into a Sales Order and shipped.
+Some contract lines are set to end at a certain date. On the **Customer Contract** and **Vendor Contract** pages, you can use the **Renewal Quote** action to extend these contract lines. When you do, you can specify a renewal period and create a sales quote. The **Service End Date** (in the Service Commitment / Contract line) is extended when you convert the sales quote to a sales order and ship it.
 
+## Create a contract renewal quote
 
-## Creating a Contract Renewal Quote
-A Contract Renewal Quote can be created on the **Contract Renewal** page and through the Customer Contracts. The **Contract Renewal** page can be used to create Contract Renewal Quotes for all Contract lines that are about to expire or have expired. <br/>
-Open the search (*Alt+Q*) and type *Contract Renewal* to open the page. The action **Get Contract Lines** will open a filter page. On this page it is possible to filter for Contract lines that need to be renewed.
+You can create a contract renewal quote on the **Contract Renewal** and **Customer Contract** pages. Use the **Contract Renewal** page to create contract renewal quotes for all contract lines that are about to expire or have expired. To filter for specific contract lines, choose the :::image type="content" source="../../LocalFunctionality/India/image/search_small.png" alt-text="TellMe search icon."::: TellMe search icon to open the **Contract Renewal** page. Use the **Get Contract Lines** action to open a filter page and filter for the contract lines to renew. To learn more, go to [Get contract lines](#get-contract-lines).
 
+### Get contract lines
 
-### Get Contract Lines
-The action can be accessed in the **Contract Renewal** page and shows a filter page. On this filter page, set a date in the **Service End Date** field to specify the earliest **Service End Date** from which the Contract lines are to be considered. The **Add Vendor Contract Lines** field specifies whether to include the related vendor-side Contract lines. If so, the Service Objects of the relevant Vendor Contract lines are checked to see if any additional vendor-side Service Commitments exist. Any non-closed Vendor Service Commitments associated with a Vendor Contract that have a **Service End Date** will also be considered for Contract Renewals. <br/>
-Thus, if you set **Add Vendor Contract Lines** to *Yes*, all vendor-side Service Commitments of the same Service Object will also be considered for renewal. <br/>
-If additional filters are needed, you can filter by any field in Customer Contract and Service Commitments. <br/>
-After confirming the filters entered, **Renewal lines** will be created for all valid Contract lines. A Contract line is *valid* if a **Service End Date** is set within the filter and the line is not closed, yet. All lines are displayed in the Contract Renewal page.
+The **Get Contract Lines** action on the **Contract Renewal** page shows a filter page. On the filter page, set a date in the **Service End Date** field to specify the earliest **Service End Date** from which to show contract lines. The **Add Vendor Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the service objects of the relevant vendor contract lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Service End Date** are also considered for contract fenewals.
 
-:::info Closed Contract Lines
-Contract lines are closed when reaching the **Service End Date**. Closed Contract lines can be found in the fast tab **Closed Lines** in the Contract Card page. They can be reopened by changing **Closed** to *No*.
-:::
+Therefore, if you turn on **Add Vendor Contract Lines** toggle, all vendor-side service commitments for the same service object are also considered for renewal.
 
-In order to renew a Contract line, the **Renewal Term** has to have a value. It is prefilled from the **Initial Term** of the corresponding Contract line. The value can be changed to match the desired term of renewal.
+If you need more filters, you can filter by any field on the **Customer Contract** and **Service Commitments** pages. After you confirm the filters, renewal lines are created for all valid contract lines. A contract line is valid if you specify a **Service End Date** for the filter and the line isn't closed. The **Contract Renewal** page shows all lines.
 
-:::caution Preventing duplicates
-A Contract Renewal line can only be created if there is no line in a Sales Quote for renewal belonging to that Contract line.
-:::
+> [!NOTE]
+> Contract lines are closed when they reach the date in the **Service End Date** field. You can access closed contract lines on the **Closed Lines** FastTab on the **Contract Card** page. To reopen closed lines, clear the **Closed** checkbox.
 
+To renew a contract line, specify a value in the **Renewal Term** field. It is prefilled from the **Initial Term** of the corresponding contract line. You can change the value to match the desired term of renewal.
 
-### Create Quotes
-Calling the action **Create Quotes** on the Contract Renewal page will create new Sales Quotes. The user can perform the action either for all lines or for selected lines only. All Contract Renewal lines for which Sales Quotes have been created will be deleted. <br/>
-If the **Renewal Term** field in the renewal line has no value, the renewal line will not be included in a quote and therefore will not be renewed. <br/>
-The created lines in the Sales Quote are of type *Service Object* and are marked as **Contract Renewal**=*Yes*. The Sales Service Commitment can be changed and new items can be added in the Sales Quote. Adding new Service Commitments to the existing Sales lines (marked as **Contract Renewal**=*Yes*) is not possible. <br/>
-Sales Quotes can be printed. The Sales lines marked as **Contract Renewal**=*Yes* are set (via formatting) to print only the quantity, to avoid confusion between renewing the Service Commitments and selling additional items. The price of Sales Service Commitments is printed. The total of the Sales Service Commitment to be renewed is printed separately and labeled *Contract Renewal*.
+> [!CAUTION]
+> You can only create a contract renewal line if there isn't a line on a sales quote for renewal for the contract line.
 
+### Create quotes
 
-## Sales Order
-In order to renew Contract lines, the Sales Quote has to be turned into a Sales Order and shipped (from the system's point of view). Sales lines marked as **Contract Renewal** can only be shipped in full or excluded from delivery. The *posting of shipment* serves as a standardized step to start processing. In this process, the line as such is not actually shipped, but only the Service Commitments for which the extension/renewal was offered is updated (see below). Therefore, there are neither posted shipments nor posted invoices for these renewals. Service Commitments are invoiced via the next Contract invoice. Nevertheless, shipments and invoices can be created for items that are not **Contract Renewals**. <br/>
-On shipping the Sales Order, the Contract lines are either renewed or a **Planned Service Commitment** will be created. The Contract line will be renewed and the **Service End Date** changed, if none of the following fields have been changed in the Sales Service Commitment:
+Use the **Create Quotes** action on the **Contract Renewal** page to create sales quotes. You can create quotes for all lines, or selected lines. All contract renewal lines for which sales quotes are created are deleted.
+
+If the **Renewal Term** field on the renewal line is blank, the renewal line isn't included a quote and won't be renewed.
+
+The lines created on the sales quote have the **Service Object** type, and the **Contract Renewal** toggle is turned on. You can change the sales service commitment and add new items to the sales quote. You can't add new service commitments to the sales lines.
+
+You can print sales quotes. Sales lines with the **Contract Renewal** toggle turned on print only the quantity to avoid confusion between renewing the service commitments and selling additional items. The prices of sales service commitments are printed. The total of the sales service commitment to renew is printed separately and labeled **Contract Renewal**.
+
+## Sales orders
+
+To renew contract lines, you must convert the sales quote into a sales order and ship the order. You can only ship sales lines marked as **Contract Renewal** in full or exclude them from delivery. Posting a shipment serves as a standard step to start processing. In this process, the line isn't actually shipped. Only the service commitments for which the extension/renewal was offered updates. Therefore, there are neither posted shipments nor posted invoices for these renewals. You invoice service commitments in the next contract invoice. However, shipments and invoices can be created for items that aren't **Contract Renewals**.
+
+When you ship a sales order, the contract lines are either renewed or a **Planned Service Commitment** is created. If none of the following fields have been changed in the sales service commitment, the contract line is renewed and the **Service End Date** changes:
+
 * Calculation Base Amount
 * Calculation Base %
 * Price
@@ -56,26 +59,34 @@ On shipping the Sales Order, the Contract lines are either renewed or a **Planne
 * Calculation Base Period
 * Billing Rhythm
 
-If one of these fields have been changed and the Contract line has not been invoiced up to the **Service End Date**, a **Planned Service Commitment** will be created. The **Planned Service Commitment** saves the changes to the Contract line and thereby ensures that the Contract line can be invoiced with current conditions until the **Service End Date**. <br/>
-If the Contract line is invoiced up to the **Service End Date**, the Contract line will be updated from associated **Planned Service Commitment**. The **Planned Service Commitment** is deleted after the update.
+If one of these fields was changed and the contract line isn't invoiced up to the **Service End Date**, a **Planned Service Commitment** is created. The **Planned Service Commitment** saves the changes to the contract line to ensure that you can invoice the contract line with the current conditions until the **Service End Date**.
 
-:::info Planned Service Commitments
-**Planned Service Commitments** for specific Contract lines can be reviewed via the lookup in field **Planned Service Commitment exists** in the *Lines* fast tab of a Customer Contract card page. <br/>
-By searching for *Planned Service Commitments* (*Alt+Q*), the page of the same name shows all **Planned Service Commitments** for all contracts. <br/>
-Since **Planned Service Commitments** can also exist for Vendor Service Commitments, this field is also present in Vendor Contract lines.
-:::
+If you invoice the contract line up to the **Service End Date**, the contract line updates from the associated planned service commitment. The planned service commitment is deleted after the update.
 
+> [!NOTE]
+> You can review the planned service commitments for specific contract lines by using the **Planned Service Commitment exists** field on the **Lines** FastTab on the **Customer Contract** page.
 
-## Customer Contract
-The renewal of a *specific* Customer Contract can be achieved by calling the action **Create Contract Renewal Quote** in the menu group *Home* of the Customer Contract card page. Subsequently, the page **Select Contract Lines for Renewal** is opened.
+The **Planned Service Commitments** page shows all planned service commitments for all contracts. Because planned service commitments can also exist for vendor service commitments, this field is also available on vendor contract lines.
 
-:::caution Existing Contract Renewal lines and Sales Quotes
-Calling the action **Create Contract Renewal Quote** will delete already created Contract Renewal lines. <br/>
-A new Sales Quote for a Contract line cannot be created if there is already a Sales Quote or Sales Order for that Contract line.
-:::
+## Customer contract
 
-In page **Select Contract Lines for Renewal** only *valid* Contract lines will be displayed. A Contract line is valid if a **Service End Date** is set and the line is not closed, yet. <br/>
-In order to renew a Contract line, a value must be specified in **Renewal term**. This is predefined from the **Initial Term** of the corresponding Contract line. The value can be changed to achieve the desired renewal term. <br/>
-If the **Renewal Term** in the Renewal line has no value, the Renewal line will not be included in the Sales Quote.
+Use the **Create Contract Renewal Quote** action on the **Customer Contract** page to renew a specific customer contract. The action opens the **Select Contract Lines for Renewal** page.
 
-After closing page **Select Contract Lines for Renewal** with *OK*, a Sales Quote is created. The steps for [handling the Sales Quote](#create-quotes) and [preforming the Contract Renewal](#sales-order) are identical to already described process.
+> [!CAUTION]
+> The **Create Contract Renewal Quote** action deletes existing contract renewal lines. 
+>
+> You can't create a new sales quote for a contract line if there is a sales quote or sales order for the line.
+
+The **Select Contract Lines for Renewal** page only shows valid contract lines. A contract line is valid if a **Service End Date** is set and the line isn't closed.
+
+To renew a contract line, specify a value in the **Renewal Term** field. The default value comes from the **Initial Term** field on the corresponding contract line. You can change the value to set the desired renewal term.
+
+If the **Renewal Term** field on the renewal line is blank, the renewal line won't be included on the sales quote.
+
+when you choose**OK** to close the **Select Contract Lines for Renewal** page, a sales quote is created. The steps to [Create quotes](#create-quotes) and [Sales orders](#sales-orders) are the same as the steps described in this article.
+
+## See also
+
+[Customer contracts](customer-contracts.md)  
+[Vendor contracts](vendor-contracts.md)  
+[Contract deferrals](contract-deferrals.md)  

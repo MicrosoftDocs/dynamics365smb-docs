@@ -95,20 +95,20 @@ However, the following can't be identical:
 > [!NOTE]
 > You can't call the action for text lines.
 
-Use the **Select Vendor Contract line** page to select the contract line on which to combine the selected lines. A new service object (as a copy of the service object of the selected contract line), including service commitments, is created with the total quantity. The service commitments to combine are [terminated](#closed-contract-lines), and the new service is added to the contract. In the old service objects, the **Provision End Date** field is set, if possible.
+Use the **Select Vendor Contract line** page to select the contract line on which to combine the selected lines. A new service object (as a copy of the service object of the selected contract line), including service commitments, is created with the total quantity. The service commitments to combine are [closed](#closed-contract-lines), and the new service is added to the contract. In the old service objects, the **Provision End Date** field is set, if possible.
 
 ## Create an invoice per contract
 
-Normally, contract invoices are created through recurring billing. To learn more, go to [Recurring billing](../recurring-billing.md). Recurring billing is designed to generate billing proposals in batches. In addition, there are several options for creating posting documents, such as collective invoices. To learn more, go to [Posting documents](../posting-documents.md).
+Typically, you create contract invoices through recurring billing. To learn more, go to [Recurring billing](../recurring-billing.md). Recurring billing is designed to generate billing proposals in batches. In addition, there are several options for creating posting documents, such as collective invoices. To learn more, go to [Posting documents](../posting-documents.md).
 
-The feature can be useful for creating a contract invoice for the contract that you're currently working on, without first creating a billing proposal for it. In this scenario, use the **Create contract invoice** action on the vendor contracts overview or **Vendor Contract Card** page. You can specify the key date for billing (**Billing Date**) and, optionally, the date up to which billing is to take place (**Billing To**). In addition, you can also specify the **Document Date** and the **Posting Date** can be specified for the posting document. If the **Open document** checkbox is selected, the document open immediately. Optionally, you an also choose **Post document** to post the created document directly. Except for the **Billing To** field, all fields are predefined with the workdate. The workdate is defined on the **My Settings** page.
+Recurring billing can be useful for creating a contract invoice for a contract that you're working on, without first creating a billing proposal. In this scenario, use the **Create contract invoice** action on the **Vendor Contracts** or **Vendor Contract Card** page. You can specify the key date for billing (**Billing Date**) and, optionally, the date up to which billing is to take place (**Billing To**). In addition, you can also specify the **Document Date** and the **Posting Date** can be specified for the posting document. If the **Open document** checkbox is selected, the document opens immediately. Optionally, you an also choose **Post document** to post the created document directly. Except for the **Billing To** field, all fields are predefined with the workdate. The workdate is defined on the **My Settings** page.
 
 > [!NOTE]
 > Creating a contract invoice as described here is only useful in individual cases.
 
-## Linked information
+## Related information
 
-You can open linked information from a contract, and you can access all invoices and credit memos. You can view **Contract Deferrals** if the postings in the contract are deferred periodically.
+You can access related information from a contract, and you can access all invoices and credit memos. You can view **Contract Deferrals** if the postings in the contract are deferred periodically.
 
 Use the **Contract Line** action to display **Billing Lines** and **Archived Billing Lines** for the selected contract line. You can also open **Archived Billing Lines** in the posted invoice and credit memo.
 

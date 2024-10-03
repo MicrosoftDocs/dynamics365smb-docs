@@ -1,0 +1,2 @@
+> [!TIP]
+> If you hold down CTRL while clicking on the report link, then the report opens in a separate browser tab. This allows you to stay on this page and then explore the report in the other browser tab.

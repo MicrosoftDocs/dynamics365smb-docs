@@ -14,21 +14,24 @@ ms.custom: bap-template
 
 # Purchasing
 
-The unique [purchase](https://learn.microsoft.com/en-us/dynamics365/business-central/purchasing-manage-purchasing) of items with Service Commitments is no different than that in Microsoft Dynamics 365 Business Central. <br/>
-Recurring purchasing (e.g., rental, maintenance, or subscription) is mapped with Service Commitments. Service Commitments receive *Vendor* as **Partner** in the Service Commitment Package. A Service Commitment Package can have both Customer and Vendor Service Commitments.
+In subscription billing, you purchase items with service commitments in the same way as purchasing features in [!INCLUDE [prod_short](../includes/prod_short.md)]. To learn more, go to [Purchasing](../purchasing-manage-purchasing.md). You map recurring purchases, such as rentals, maintenance, or subscription, with service commitments. Service commitments have **Vendor** specified in the **Partner** field on the service commitment package lines. A service commitment package can have lines for both customer and vendor service commitments.
 
+## Sales quotes and orders
 
-## Sales Quote and Sales Order
-Service Commitments behave in [Sales](/docs/srb/sales/sales-service-commitments.md) in the same way as Service Commitments that have *Customer* entered as **Partner**. Depending on the **Calculation Base Type**, the **Calculation Base Amount** is determined from the **Unit Cost** field in sales lines or the **Last Direct Cost** field in the item. For more details, see [price calculation](/docs/srb/sales/price-calculation.md). 
+For purchases, service commitments work in the same way as sales service commitments. You can either extend a vendor contract with a new item, or create a sales document with service commitments that have **Vendor** specified in the **Partner** field on the **Assign Service Commitments** page. To learn more, go to [Sales process](sales/sales-service-commitments.md). Depending on the selection in the **Calculation Base Type** field, the value in the **Calculation Base Amount** field is determined from the **Unit Cost** field on the sales lines or the **Last Direct Cost** field on the item. To learn more, go to [Price determination of service commitments](sales/price-calculation.md).
 
+## Service objects
 
-## Service Object
-When the item is delivered from the order, the Service Object and its Service Commitments are created. Both Customer and Vendor Service Commitments can be entered in the Service Object.
+When the item is delivered for an order, [!INCLUDE [prod_short](../includes/prod_short.md)] creates the service object and its service commitments. You can specify both customer and vendor service commitments for the service object.
 
+## Assign a vendor contract
 
-## Assignment to a Vendor Contract
-Vendor Commitments can be assigned to any Vendor Contract. Unlike Customer Service Commitment, a Vendor Service Commitment can be assigned to any Vendor Contract.
+Unlike customer service commitments, you can assign vendor service commitments to any vendor contract. You can verify whether there 
 
-:::info
-In the **[Role Center](/docs/srb/first-steps.md)** you can see if there are any Vendor Service Commitments that have not been assigned to any contracts yet.
-:::
+> [!TIP]
+> The **Subscription & Recurring Billing** Role Center shows whether there are vendor service commitments that aren't assigned to a contract.
+
+## See also
+
+[Service commitments](masterdata/service-commitments.md)  
+[Termination of contract components](working-with-contracts/service-commitment-cancellation.md)  

@@ -11,47 +11,52 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Dealing with currencies
 # Currencies
-In Business Central, transactions can be performed taking into account a foreign currency. The currency code is entered in the respective transaction. This can be done, for example, in the Sales Order or in the Customer/Vendor Contract. <br/>
-For more details on handling currencies, please refer to <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-update-currencies" title="Foreign currencies">this part</a> of the Microsoft documentation.
 
+In [!INCLUDE [prod_short](../../includes/prod_short.md)], you can make transactions in foreign currencies by entering a currency code. For example, on a sales order or the customer or vendor contract. To learn more about using foreign currencies, go to [Update currency exchange rates](../../finance-how-update-currencies.md).
 
-## Foreign Currency in Service Commitments
-If a currency code is entered, e.g. in a sales order (or this is stored at the customer), a corresponding conversion of the prices into the currency of the customer takes place. This is done in the same way for **Sales Service Commitments**. In the Service Commitments for the Service Object, the **Currency Code** field also indicates the currency to which the **Service Amount** refers.
-When manually creating a Service Object with Service Commitments, the **Currency Code** and the corresponding fields in the Service initially remain empty, even if a currency code has been defined in the Customer. The currency code can remain blank because the contract that the service is billed via later *decides* which currency will be used. <br/>
-When the Service Object and Service Commitments are created via Sales Shipment, the currency code from the Sales Order is automatically transferred to the Service.
+## Foreign currencies in service commitments
 
+If you enter a currency code on a sales order, for example, or if you specify a currency for a customer, the price on the order is converted to that currency. This conversion is the same for sales service commitments in subscription billing. In the service commitments for the service object, the **Currency Code** field also indicates the currency to which the **Service Amount** field refers.
 
-## Convert Service Amounts
-When assigning Service Commitments to a contract, the system checks if the amounts need to be converted. If the currency code in the contract is the same as the currency code in the Service Commitments, no conversion is required. Otherwise the conversion is done by a query in which the last conversion factor is suggested to the user (based on the work date). Clicking *OK* will recalculate the fields relevant to the currency, update the Service Commitment and then add it to the contract. <br/>
-When changing the currency code in the contract, the dialog is also displayed.
+When you manually create a service object with service commitments, the **Currency Code** field and the corresponding fields in the service are initially empty, even if a currency code is specified for the customer. The currency code can remain blank because the contract that's used to bill the service determines which currency to use.
 
-:::note Same currency code
-When assigning Service Commitments to a contract for which a conversion of the amounts are to be made, the same currency code must be stored in all selected services.
-:::
+When you create the service object and service commitments by using a sales shipment, the currency code from the sales order automatically transfers to the service.
 
+## Convert service amounts
 
-## Update exchange rates on Service Object
-The method described here ensures that the agreed price for Service Commitments in a foreign currency does not automatically change as a result of a change in the exchange rate. However, it may be necessary to adjust the exchange rate manually. The action **Update exchange rates** can be used for this purpose. It is available in the Service Object as well as in the Customer and Vendor Contracts (under *Process*).
+When assigning service commitments to a contract, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether to convert the amounts. If the currency code in the contract is the same as the currency code in the service commitments, no conversion is required. Otherwise, the conversion is done by a query in which the last conversion factor is suggested based on the work date. If you choose **OK**, [!INCLUDE [prod_short](../../includes/prod_short.md)] recalculates the fields for the currency, update the service commitment, and then add it to the contract. The dialog also displays when you change the currency code in the contract.
 
-:::info Manual price change
-A manual change by the user to one of the fields
-* Calculation Base Amount
-* Calculation Base %
-* Price
-* Discount %
-* Discount Amount
-* Service Amount
+> [!NOTE]
+> When you assign service commitments to a contract that requires currency conversion, all services must have the same currency code.
 
-leads to a corresponding update of the fields
-* Price (LCY)
-* Discount Amount (LCY)
-* Service Amount (LCY)
+## Update exchange rates on service objects
 
-based on the stored exchange rate.
-:::
+The method described in this section ensures that prices for service commitments in a foreign currency don't automatically change as a result of a change in the exchange rate. However, you might need to use the **Update exchange rates** action to adjust the exchange rate manually. The action is available on the **Service Object**, **Customer Contract**, and **Vendor Contract** pages.
 
+> [!NOTE]
+> If you manually change some fields, other fields also update.
+>
+> Changes to these fields update other fields:
+>
+> * Calculation Base Amount
+> * Calculation Base %
+> * Price
+> * Discount %
+> * Discount Amount
+> * Service Amount
+>
+> These are the fields that your changes update based on the specified exchange rate:
+>
+> * Price (LCY)
+> * Discount Amount (LCY)
+> * Service Amount (LCY)
 
 ## Update exchange rates for currencies automatically
-In Business Central, it is possible to automatically update exchange rates using **[Job Queue](/docs/srb/setup/job-queue.md)**. For more details, please see <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-update-currencies" title="Update Currency Exchange Rates">this</a> and <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks" title="Job Queue">this</a> Microsoft documentation.
+
+You can automatically update exchange rates using the job queue. To learn more, go to [Update currency exchange rates](../../finance-how-update-currencies.md) and [Use job queues to schedule tasks](../../admin-job-queues-schedule-tasks.md).
+
+## See also
+
+[Price determination of service commitments](price-calculation.md)  
+[Customer contracts](../working-with-contracts/customer-contracts.md)  

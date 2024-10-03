@@ -12,9 +12,10 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Evaluations
+# Controlling
 
-## Dimension Value for Customer Contracts
+## Dimension value for customer contracts
+
 In the **[Service Contract Setup](/docs/srb/setup/general.md)**, **Autom. Insert Cust. Contr. Dimension Value** controls whether the Customer Contract No. is automatically created as a new dimension value for each new Customer Contract. This is then automatically assigned to the respective contract.
 
 

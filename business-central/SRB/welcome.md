@@ -72,6 +72,5 @@ The **Overdue** and **Not invoiced** cues indicate that service commitment
 
 ## See also
 
-[First steps](first-steps.md)  
 [Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
 [Recurring billing](recurring-billing.md)  

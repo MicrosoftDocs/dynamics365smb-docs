@@ -45,10 +45,8 @@ Shopify and Business Central both offer extensive features for managing products
 
 |Product Information  |Business Central: Flat item list.<br><br>Only items, no variants  |Business Central: Items with item variants  |
 |---------|---------|---------|
-|Shopify: Flat product list.
-Only products, no variants.     | Supported<br><br>Import into Business Central<br><br>
-To point to an item in Business Central, use the barcode or SKU fields on the Shopify product.<br><br>Export items from Business Central via the **Add Item to Shopify** action.        | Not supported<br><br>You can manually create products/items in both system independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.        |
-|Shopify: Products with variants     | Supported<br><br>We recommend that you select **Item No.**, **Vendor Item No.**, or **Barcode** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when a product/variant is imported from Shopify it finds the corresponding item in Business Central.<br><br>Export from Business Central via the new **Add Items as Shopify Variants** action.        | Supported<br><br>Recommendation is to select **Item No.+Variant Code** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when the product or variant is imported from Shopify it finds the corresponding item or variant in Business Central.<br><br>Export from Business Central via the **Add Item to Shopify** action.        |
+|Shopify: Flat product list.</br>Only products, no variants.     | Supported<br><br>Import into Business Central<br><br>To point to an item in Business Central, use the barcode or SKU fields on the Shopify product.<br><br>Export items from Business Central via the **Add Item to Shopify** action.| Not supported<br><br>You can manually create products/items in both system independently, and use the barcode or SKU for automatic mapping or map products to item variants manually.|
+|Shopify: Products with variants| Supported<br><br>We recommend that you select **Item No.**, **Vendor Item No.**, or **Barcode** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when a product/variant is imported from Shopify it finds the corresponding item in Business Central.<br><br>Export from Business Central via the new **Add Items as Shopify Variants** action.| Supported<br><br>Recommendation is to select **Item No.+Variant Code** in the **SKU Mapping** field and add the barcode or SKU on the variant to ensure that when the product or variant is imported from Shopify it finds the corresponding item or variant in Business Central.<br><br>Export from Business Central via the **Add Item to Shopify** action.|
 
 To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating item variants in Business Central](/dynamics365/business-central/shopify/synchronize-items#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
@@ -240,7 +238,7 @@ Items are added as Shopify variants under the existing product option. For examp
 > You can add item as variants if it has its own item variants, however, only the item itself is added, and not item variants.
 > You can't add an item as variant if the **UOM as Variant** toggle is turned on on the **Shopify Shop Card** page.
 >
-> Shopify always creates a variant, even if you haven’t defined any. This variant is called **Default title**. When you add more variants via Shopify Admin, this technical variant entry is deleted. The Shopify connector runs similar logic. When the first item is added to Shopify as a product, the Default title variant is added to Shopify and to Business Central. When you run the **Add Item as Shopify Variants** action, the selected item is added as a variant and the default variant is deleted in both Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
+> Shopify always creates a variant, even if you haven’t defined any. This variant is called **Default title**. When you add more variants via **Shopify Admin**, this technical variant entry is deleted. The Shopify connector runs similar logic. When the first item is added to Shopify as a product, the Default title variant is added to Shopify and to Business Central. When you run the **Add Item as Shopify Variants** action, the selected item is added as a variant and the default variant is deleted in both Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
 >
 > When it adds an item as a variant, the connector doesn’t search by SKU or barcode.
 
@@ -396,10 +394,10 @@ You can initialize inventory synchronization in the ways described in the follow
 ### Inventory remarks
 
 * There are two standard stock calculation methods: **Projected Available Balance at date** and **Free Inventory (Not reserved)**. With extensibility, you can add more options. To learn more about extensibility, go to [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
-* You can inspect the stock information received from Shopify on the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's one record per location.
 * If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], the stock updates in Shopify.
 * When you add a new location in Shopify, you also need to add inventory records for it. Shopify doesn't do that automatically for existing products and variants, and the connector doesn't synchronize inventory levels for such items in the new location. To learn more, go to [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * Both **Business Central Fulfillment Services** and normal locations are supported and can be used for shipping and inventory.
+* When dealing with bundles check if inventory adjustments via API are allowed for those products. For examples the **Shopify Bundles** app calculates availability of bundle based on the availability of the components and prevents updates via APIs. It is good idea to map shopify product of type bundle to item of type non-inventory. Items of type non-inventory or service are excluded from the inventory syncrhonization.
 
 #### Example of calculation of projected available balance
 
@@ -464,6 +462,17 @@ Let's review the affect of enabling the **Default Product Location** toggle:
 |Main and Second| Inventory is stocked at: Multiple locations; Selected locations: Main and Second |
 |Business Central Fulfillment Service|Inventory is stocked at: Business Central Fulfillment Service; Selected locations: (App) Business Central Fulfillment Service|
 |Business Central Fulfillment Service and Main| Error: You can't use standard Shopify Locations with FulFillment Service Locations|
+
+
+### Troubleshooting inventory synchronization
+
+Carry out these checks if the inventory level fails to sync with Shopify.
+1. Navigate to the **Shopify Shop Locations** page and verify the value chosen in the **Stock calculation** field. For more information, see [To enable inventory sync](synchronize-items.md#to-enable-inventory-sync).
+2. In the **Shopify admin**, navigate to **Products** or **Variants** and check that the **Track quantity** toggle is turned on.
+3. In the **Shopify admin**, navigate to **Products** or **Variants** and see if all locations appear in the **Inventory** section. If a location is missing it means the inventory level is not defined. To learn more, go to [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
+4. Navigate to the **Shopify Products** page, locate the specific product and ensure that the Shopify variant is linked to the item and item variant if needed. To do that, examine the **Item No.** and **Variant No.** fields in the **Shopify Variants** part. 
+5. Navigate to the **Shopify Products** page, locate the specific product and  check the stock details in the **Shopify Inventory FactBox** part. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. It also shows when when the specific inventory level was last synchronized. There's one record per location.
+6. Navigate to the **Shopify Log Entries** and check for entries with the **Has Error** enabled around the time the inventory level was synched (see previous step). To limit records, apply the filter `*mutation inventorySetOnHandQuantities*` to the **Request Preview** field. If such entries exist, open the **Shopify Log Entry** page and inspect the **Response Data** field. If there is a validation error on Shopify's side, the response includes the adiditonal information in the *userErrors* section. To learn move about logging, see [Logs](troubleshoot.md#logs).
 
 ## See also
 

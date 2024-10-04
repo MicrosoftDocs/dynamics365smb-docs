@@ -509,6 +509,18 @@ ms.service: dynamics-365-business-central
 #### [Recurring billing](SRB/recurring-billing.md)
 #### [Posting documents](SRB/posting-documents.md)
 #### [Purchasing](SRB/purchases.md)
+### Usage based billing
+#### [Overview of usage based billing](UBB/welcome.md)
+#### [First steps](UBB/first-steps.md)
+#### [Customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
+#### [Data exchange definitions](UBB/masterdata/dataexchangedefinitions.md)
+#### [Usage data supplier references](UBB/masterdata/references.md)
+#### [Extension of service commitments](UBB/masterdata/service-commitments.md)
+#### [Usage data suppliers](UBB/masterdata/suppliers.md)
+#### [Billing](UBB/billing.md)
+#### [Linking subscription with service object](UBB/processing-usage-data/connect-subscription-service-object.md)
+#### [Extend contract](UBB/processing-usage-data/extend-contract.md)
+#### [Imports and processing](UBB/processing-usage-data/imports-processing.md) 
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)

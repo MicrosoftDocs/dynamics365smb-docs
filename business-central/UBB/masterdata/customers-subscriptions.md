@@ -1,5 +1,5 @@
 ---
-title: Customers and subscriptions 
+title: Usage based billing customers and subscriptions 
 description: You can use customer subscriptions in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,30 +12,36 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Customers and subscriptions
+# Usage based billing customers and subscriptions
 
-In addition to the usage data that changes per import, there is also data that has more the character of master data, since it does not change. This includes both the customers for whom the usage data is imported and the subscriptions on the basis of which the link to the Service Commitments to be billed is established. In the case of the customers, this is supporting but not necessary data, whereas without a subscription, no billing of usage data is possible.
+In addition to the usage data that changes per import, there's also data thats more like master data because it doesn't change. This includes both the customers for whom you import usage data, and the subscriptions that are the link to the service commitments to bill. For customers, this data is helpful but not required, whereas without a subscription you can't bill usage data.
 
+<!--Not really sure what this para is saying.-->
 
 ## Usage data customers
-The **Usage Data Customers** page displays the records of customers for which usage data is provided for processing. At the [supplier](/docs/ubb/masterdata/suppliers.md), the **Create customers** field can be used to set whether an entry should be created automatically in this overview when usage data is imported ([see below](#create-customers-based-on-usage-data)). Since these entries are based on usage data and thus represent the supplier's data, they may differ from the master data in Business Central. Therefore, a link can be created based on the Customer. This data is not required for processing and billing of usage data. The page is for clarity reasons only. <br/>
-Records are identified by the **Supplier No.** field to which supplier they belong. Via the **Customer No.** a link to the master data can be established. **Usage Data Customers** not yet linked to a Customer will be displayed in blue-green to indicate that the assignment has not yet been made. For the entries colored in black, the link has already been made. The **Supplier Reference** field contains the unique ID of the customer at the supplier. This value contains a link to the [central references](/docs/ubb/masterdata/references.md) (type=*Customer*) that is automatically created when usage data is processed.
 
+The **Usage Data Customers** page displays the customers you process usage data for. For [Usage data suppliers](suppliers.md), use the **Create customers** field to specify whether to create usage data customers when you import usage data. To learn more, go to [Create customers based on usage data](#create-customers-based-on-usage-data). Because the entries are based on usage data and thus represent the supplier's data, the entries might differ from the master data in [!INCLUDE [prod_short](../../includes/prod_short.md)]. Therefore, you can create a link based on the customer. This data isn't required to process and bill usage data. The page just helps clarify things.
+
+The **Supplier No.** field helps you identify the supplier that records belong to. The **Customer No.** field lets you link to the master data. Usage based billing customers that aren't linked to a customer display in a teal colored font. Entries that display in a black font are linked. The **Supplier Reference** field contains the unique ID of the customer at the supplier. This value contains a link to the [usage data supplier references](references.md) of the type **Customer** that's automatically created when you process usage data.
 
 ### Create customers based on usage data
-If it is specified at the supplier that the customers belonging to the usage data are to be created ([see above](#usage-data-customers)), the information from the usage data is used as far as possible to create the data records:
+
+On the **Usage Data Suppliers** page, you can use the **Settings** action to specify import settings for a supplier on the **Generic Import Settings** page. If you turn on the **Create Customers** toggle, customers that belong to the usage data are created <!--when? when you import data?-->. To learn more, go to [Usage data customers](#usage-data-customers). The information from the usage data is used to create the following data records:
+
 * Supplier No.
 * Supplier description
 * Customer ID as supplier reference
 
-
 ## Usage data subscriptions
-The **Usage Data Subscriptions** page displays the subscriptions that belong to the usage data to be processed. On the [supplier](/docs/ubb/masterdata/suppliers.md), the **Create Subscriptions** field can be used to set whether an entry should be created automatically in this overview when usage data is imported or during its processing ([see below](#create-subscriptions-based-on-usage-data)). These entries represent the supplier's data regarding the customer's subscriptions. For processing and billing usage data this data is *required*. If the data is not created via the above-mentioned indicator at the supplier in advance or during the processing of usage data, this must therefore be done manually or by another means. It is therefore recommended to let the system create the **Usage Data Subscriptions** via this way. In addition, this page serves general clarity. <br/>
-The records are identified by **Supplier No.** to which supplier they belong. Via the functionalities **[Extend Contract](/docs/ubb/processing-usage-data/extend-contract.md)** and **[Connect Subscription with Service Object](/docs/ubb/processing-usage-data/connect-subscription-service-object.md)** links to the Customer (**Customer No.**) and to the related [Service Object](/docs/srb/working-with-contracts/service-objects.md) are established. Subscriptions not yet associated with a Service Object are shown colored blue-green to indicate that the association has not yet been made. For the entries colored in black, the linking has already been done. The **Supplier Reference** field contains the unique ID of the subscription at the supplier. This value contains a link to the [central references](/docs/ubb/masterdata/references.md) (type=*Subscription*) that is automatically created when usage data is processed.
 
+The **Usage Data Subscriptions** page displays the subscriptions that belong to the usage data to process. Similar to creating customers, on the import settings for a [usage data supplier](suppliers.md), you can use the **Create Subscriptions** toggle to specify whether to create a subscription when you import usage data or when you process it. To learn more, go to [Create subscriptions based on usage data](#create-subscriptions-based-on-usage-data). These entries represent the supplier's data regarding the customer's subscriptions. This data is required to process and bill usage data. If the data isn't created automatically for the supplier, you must create it by some other means. We recommend that you turn on the **Create Subscriptions** toggle so let [!INCLUDE [prod_short](../../includes/prod_short.md)] create the usage data subscriptions.
+
+Use the **Supplier No.** field to identify the supplier that records belong to. Use the **Extend Contract** action to link subscriptions to the customer and the service object. To learn more, go to [Extend contract](../processing-usage-data/extend-contract.md) and [Linking subscription with service object](../processing-usage-data/connect-subscription-service-object.md). Subscriptions that aren't associated with a service object display in a teal font. Subscriptions that display in a black font are linked. The **Supplier Reference** field contains the unique ID of the subscription at the supplier. This value contains a link to the [usage data supplier references](references.md) of the type **Subscription** that's automatically created when you process usage data.
 
 ### Create subscriptions based on usage data
-If it is specified at the supplier that the subscriptions belonging to the usage data are to be created ([see above](#usage-data-subscriptions)), the information from the usage data is used as far as possible to create the data records:
+
+If you set up the import settings for the supplier to create subscriptions that belong to the usage data, the information is used to create records. To learn more, go to [Usage data subscriptions](#usage-data-subscriptions).
+
 * Supplier No.
 * Customer ID
 * Supplier reference (as ID of the subscription)
@@ -47,3 +53,9 @@ If it is specified at the supplier that the subscriptions belonging to the usage
 * Product Name
 * Unit of Measure
 * Quantity
+
+# See also
+
+[Usage data suppliers](suppliers.md)  
+[Usage data supplier references](references.md)  
+[Linking subscription with service object](../processing-usage-data/connect-subscription-service-object.md)  

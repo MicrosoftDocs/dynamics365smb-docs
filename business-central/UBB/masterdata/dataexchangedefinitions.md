@@ -13,52 +13,89 @@ ms.custom: bap-template
 ---
 # Data exchange definitions
 
-Data exchange is a standard functionality of Business Central, which is explained in <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions" title="Set Up Data Exchange Definitions">this part</a> of the Microsoft documentation. However, since it is fundamental to the import and subsequent processing of usage data, at least the aspects relevant to **DYCE Usage Base Billing** will be summarized again here.
+Data exchange is a standard feature in [!INCLUDE [prod_short](../../includes/prod_short.md)]. To learn more about data exchange and data exchange definitions, go to [Set up data exchange definitions](../../across-how-to-set-up-data-exchange-definitions.md). 
 
-:::info Example
-The Data Exchange Definition described here as an example refers to an import file for usage data, which is a CSV file in UTF-8 encoding with column separators as semicolons. <br/>
-However, the Data Exchange Definitions provide much more functionality beyond that, such as exporting data.
-:::
+Data exchange definitions are fundamental to import and process data in usage based billing. This article summarizes the key aspects.
 
+The data exchange definition described as an example in this article refers to an import file for usage data. It's a CSV file in UTF-8 encoding with column separators as semicolons.
+
+However, the data exchange definitions provide more functionality, such as exporting data.
 
 ## Definition for data import
-For later billing usage data must first be [imported](/docs/ubb/processing-usage-data/imports-processing.md#process-import-usage-data) and then [processed](/docs/ubb/processing-usage-data/imports-processing.md#process-process-usage-data). In order for the system to properly extract the data from the reconciliation file, it needs a schema of exactly how the data exists. This schema is stored at the [usage data supplier](/docs/ubb/masterdata/suppliers.md#settings-on-the-supplier).
 
-:::note Note
-With the installation of **DYCE Usage Based Billing** the Data Exchange Definition *DYCE-UBB* is delivered as a sample. However, this must be adapted to your own circumstances. Data Exchange Definitions can be exported and imported via the respective actions.
-:::
+For billing, you must first import and process data. To learn more, go to [Imports and processing](../processing-usage-data/imports-processing.md). For [!INCLUDE [prod_short](../../includes/prod_short.md)] to extract the data from the CSV file, it needs the data's schema. The schema is available on the [usage data supplier](suppliers.md).
 
-The Data Exchange Definitions can be called up via the menu or the search (*Alt+Q*). <br/>
-The page consists of three parts:
-* **General** <br/>
-    In this part, settings are made that affect the import file itself. The most important fields are: <br/>
-    * **File Type** <br/>
-    For the import of usage data, *Variable Text* is usually selected here.
-    * **Type** <br/>
-    For the import of usage data, *Generic Import* is usually selected here.
-    * **File Encoding** <br/>
-    The encoding of unicode characters for the import file is selected here.
-    * **Column Separator** <br/>
-    This specifies the separator character used to separate the columns in the import file. This is only relevant for the *Variable Text* file type.
-    * **Header Lines** <br/>
-    This sets how many header lines the import file contains. This ensures that the header data is not imported.
-* **Column Definitions** <br/>
-    Inexperienced users of Data Exchange Definitions may find it confusing that this fast tab is displayed *at the bottom* of the page, as this must be filled *prior* to the related line definitions. <br/>
-    This is where the columns to be imported are defined:
+> [!NOTE]
+> Usage based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can export and import data exchange definitions by using the respective actions.
+
+The **Data Exchange Definitions** page has the following FastTabs.
+
+* **General**
+
+    Settings that affect the import file itself. The most important fields are:
+   * **File Type**
+
+   For the import of usage data, businesses typically choose **Variable Text**.
+   * **Type**
+
+   For the import of usage data, businesses typically choose **Generic Import**.
+   * **File Encoding**
+
+   The encoding of unicode characters for the import file.
+   * **Column Separator**
+
+   Specifies the character that separates the columns in the import file. This is only relevant for the **Variable Text** file type.
+   * **Header Lines**
+
+   Sets how many header lines the import file contains. This ensures that the header data isn't imported.
+* **Line Definitions**
+
+   > [!NOTE]
+   > Fill in the fields on the **Column Definitions** FastTab before you enter information on the **Line Definitions** FastTab.
+
+   On this FastTab, you only have to define one line, so that you can use the **Field Mapping** action to create the mapping between the columns of the import file and the fields of the target table. If you choose **Detail** in the **Line Type** field, a unique **Code** and a **Description** are assigned and the number of columns to process (import) is specified in **Column Count**. The automatically created line with the **Header** line type is deleted.
+
+   Afterward, choose the **Field Mapping** action, and then enter the following settings on the **Field Mapping** page.
+
+    
+   |Column No.  |Column Caption  |Field ID  |Field Caption  |Optional  |Transformation Rule  |Overwrite Value  |Priority  |
+   |---------|---------|---------|---------|---------|---------|---------|---------|
+   |2    | Customer ID   |  7       |   Customer ID      | |No |No | 0|
+   |3    | Customer Name |  8       |   Customer Name      | |No | No| 0|
+   |7    | Subscription ID |10      |   Subscription ID      | |No | Yes | 0|
+   |8    | Product ID    |  17      |   Product ID      | |No | Yes| 0|
+   |10   | Product Name |   18      |    Product Name     | |No | Yes| 0|
+   |11   | Subscription Start Date  |  13  |   Subscription Start Date| |No | No| 0|
+   |12   | Subscription End Date    | 14   |  Subscription End Date  | |No | No| 0|
+   |13   | Billing Period Start Date| 15   | Billing Period Start Date | |No | No| 0|
+   |14   | Billing Period End Date  | 16  | Billing Period End Date    | |No | No| 0|
+   |16   | Cost        |   19      |   Unit Cost      | |No | No| 0|
+   |17   | Quantity    |  21       |  Quantity       | |No | Yes| 0|
+   |18   | Price       |   20      |  Unit Price       | |No | No| 0|
+   |19   | Amount      |    24     |  Amount       | |No | No| 0|
+   |22   | Cost Amount |   27      |  Cost Amount       | |No | No| 0|
+   |23   | Currency    |  25       |  Currency       | |No | No| 0|
+   |24   | Text1       | 20        |  Text1       | | No| No| 0|
+
+<!--
+    * The **Table ID** field should contain **8018**. This is the **Usage Data Generic Import** table.
+    * The **Name** field should contain a name.
+    * The **Mapping Codeunit** field should contain **8030**. This is the **Generic Import Mappings** codeunit to use for the generic import type when you generate imported lines.
+    * The **Column No.** field specifies a column definition, and the **Field ID** field specifies a target field from the table specified in the **Table ID** field.
+    * The **Overwrite Value** field indicates that field contents in the target table can be overwritten, if needed. We recommended that you set this for the **Subscription ID**, **Product ID**, **Product Name**, and **Quantity** fields.
+    * The remaining fields aren't required for the import described here.-->
+* **Column Definitions**
+
+    Define the columns to import:
+
     * The **Column No.** field specifies the number of the column in the import file.
-    * The **Name** field specifies the name of the column. For reasons of clarity, it is advisable to use the same name as in the header of the import file.
-    * The **Data Type** specifies whether the data to be imported is of type *Text*, *Date* or *Decimal*.
-    * The **Data Format** refers primarily to data of type=*Date*. The formatting of the date in the associated field is specified here. For a date in US format, the value *MM-DD-YYYY* must be specified here.
-    * In the field **Data Formatting Culture** the culture of the data format is specified, if necessary. For example, *en-US* for the data type *decimal* indicates that the period is used as decimal separator according to US format.
-    * The field **Length** is only relevant if the file type is set to *Fixed Text*.
-    * The remaining fields are not required for the import described here.
-* **Line Definitions** <br/>
-    In this fast tab only one line has to be defined, so that afterwards the mapping between the columns of the import file and the fields of the target table can be done via the **Field Mapping**. As **Line Type** *Detail* is selected, a unique **Code** and a **Description** are assigned and the number of columns to be processed (imported) is specified in **Column Count**. The automatically created line of **Line Type**=*Header* is deleted. <br/>
-    Subsequently, the following settings must be made via the **Field Mapping** action: <br/>
-    * First, a new mapping must be created via the *PLUS* icon.
-    * As **Table ID** the number *70921110* is entered. This is the *Imported Lines* for the *Generic* import type.
-    * In the field **Name** a speaking name should be assigned.
-    * The number *70921104* is entered as the **Mapping Codeunit**. The codeunit will be used for the *Generic* import type when generating the *Imported Lines*.
-    * In the **Column No.** field, a column specified via the *Column Definitions* can be selected and assigned to a target field via the **Field ID** (in the table specified in **Table ID**).
-    * The **Overwrite Value** field indicates that field contents in the target table can be overwritten if necessary. It is recommended that this be set for the *Subscription ID*, *Product ID*, *Product Name*, and *Quantity* fields.
-    * The remaining fields are not required for the import described here.
+    * The **Name** field specifies the name of the column. To keep things simple, we recommend that you use the name from the header of the import file.
+    * The **Data Type** specifies whether the data to import is a **Text**, **Date** or **Decimal**.
+    * The **Data Format** refers primarily to data of the **Date** data type. The field specifies the formatting of the date in the associated field. For example, for a date in US format, the value should be **MM-DD-YYYY**.
+    * The **Data Formatting Culture** specifies the culture of the data format, if needed. For example, **en-US** for the **Decimal** data type indicates that a period is used as decimal separator according to US format.
+    * The field **Length** is only relevant if the file type is set to **Fixed Text**.
+    * The remaining fields aren't required for the import described here.
+
+## See also
+
+[Imports and processing](../processing-usage-data/imports-processing.md)

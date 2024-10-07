@@ -1,6 +1,6 @@
 ---
-title: FAQ for suggest item subsitutions with Copilot
-description: This FAQ provides information about the AI technology used in Business Central.
+title: FAQ for suggest item substitutions with Copilot
+description: This FAQ provides information about an AI feature in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -24,9 +24,9 @@ These frequently asked questions (FAQ) describe the AI impact of the sales line 
 
 In a business landscape that changes fast, companies often need to evolve the portfolio of products they sell. Whether it's adding new products, changing existing products, or adding entire new product lines and categories, it's often time consuming to create and manage product (item) information.  
 
-Reusing information from similar items can be a good option and Copilot will help you to identify similar items. An extra benefit is that suggest item substitution also reduces the risk of creating duplicated entries on the Items list page.
+Reusing information from similar items can be a good option and Copilot can help you to identify similar items. An extra benefit is that suggest item substitution also reduces the risk of creating duplicated entries on the Items list page.
 
-## What are capabilities of suggest item substitutions with Copilot?
+## What are the capabilities of suggest item substitutions with Copilot?
 
 * Substitutions
 
@@ -49,8 +49,6 @@ The feature underwent extensive testing with numerous prompts in US English repr
 This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
 ## What are the limitations of suggest item substitutions with Copilot? How can users minimize the impact of the suggest item substitutions with Copilot limitations when using the system? 
-
-* Substitutions
 
 Find products works best in the English language. While you can use this feature in any of the languages that [!INCLUDE [prod_short](includes/prod_short.md)] supports, item searches in other languages might be less accurate.
 
@@ -85,7 +83,7 @@ This Copilot feature is available in all supported [Business Central countries
 
 * Available languages
 
-[!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+[!INCLUDE [copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

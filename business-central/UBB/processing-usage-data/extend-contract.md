@@ -21,9 +21,6 @@ In addition to the **Customer Contract** or **Vendor Contract** pages, the **Ext
 
 The **Subscription** field is available on the **Extend Contract** page on the **Vendor** FastTab. When you open the page from the **Usage Data Subscriptions** or **Imported Lines** pages, the subscription is automatically predefined. When you open the page from the menu, the you can also select the subscription using the AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="AssistEdit icon."::: button. The **Quantity** and **Provision Start Date** fields are predefined based on the subscription. The item will also be preselected if it's found through the [references for products](../masterdata/references.md#references-for-products). If not, you can select it manually.
 
-> [!NOTE]
-> If the unique product reference is missing or incomplete in the usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] can't suggest the item to use for the contract extension. Currently, this is the case in the Microsoft reconciliation file (CSV). This therefore affects Microsoft Tier 1 partners.
-
 If you extend a contract, the created service commitments automatically have a link to the [references for subscriptions](../masterdata/references.md#references-for-subscriptions), based on which the future usage data can be found and processed.
 
 > [!NOTE]

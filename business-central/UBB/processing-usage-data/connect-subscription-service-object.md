@@ -1,5 +1,5 @@
 ---
-title: Link subscription subsequently
+title: Link subscriptions with service objects
 description: You can subscriptions with service objects in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,14 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Linking subscription with service object
+# Link subscriptions with service objects
 
-In case an already existing Service Object should only be connected to a Subscription afterwards (e.g. if the Service Object was shipped in advance via a Sales Order or created in another way), the functionality **Connect Subscriptions to Service Object** is available for this purpose.
+In case an already existing service object should only be connected to a subscription afterwards (for example, if the service object was shipped in advance with a sales order or created in another way), the functionality **Connect Subscriptions to Service Object** is available for this purpose.
 
-The page of the same name shows all Subscriptions that are not yet connected to a Service Object. In addition to the familiar fields from the [Subscriptions overview](/docs/ubb/masterdata/customers-subscriptions.md), the Service Object to be linked can be selected via the **Link to Service Object** field. In the **Connect via** field, the system suggests whether this can be done on the basis of existing Service Commitments or new ones. The basis for this suggestion is whether the existing Service Commitments can be billed on a usage-dependent basis (**Usage Based Billing**=*Yes*) and are valid. Via **Connect to Date** the date can be specified for which new Service Commitments are to be created.
+The **Connect Subscriptions to Service Object** page shows all subscriptions that are not yet connected to a service object. In addition to the familiar fields from the [Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md), you can select the service object to link by using the **Link to Service Object** field. In the **Connect via** field <!--don't see this field on the **Connect Subscriptions to Service Object** page-->, [!INCLUDE [prod_short](../../includes/prod_short.md)] suggests whether you can create the link on the basis of existing service commitments or new ones. The basis for this suggestion is whether the existing service commitments can be billed on a usage-dependent basis (the **Usage Based Billing** checkbox is selected <!--selected where? this seems to talk about service commitments, but the checkbox is on the service object. -->) and are valid. Via **Connect to Date** the date can be specified for which new Service Commitments are to be created.
 
-After setting the defaults, the Subscriptions to be processed are selected and then the action **Connect Subscriptions to Service Object** is called. If errors occur, they will be displayed in the **Reason** field. To correct the cause of the error, the processing status must first be reset using the separate **Reset Processing Status** action. After the error has been corrected, the Subscription can be reconnected.
+After setting the defaults, the subscriptions to process are selected and then the action **Connect Subscriptions to Service Object** runs <!--there was "is called". Automatically, or is this saying that the user should run the action-->. If errors occur, they display in the **Reason** field. To correct the cause of the error, use the **Reset Processing Status** action to reset the processing status. After you correct the, you can reconnect the subscription.
 
-:::caution New Service Objects
-It is not possible to create new Service Objects using the method described here. If this is desired, the functionality **[Extend Contract](/docs/ubb/processing-usage-data/extend-contract.md)** can be used for this purpose.
-:::
+> [!CAUTION]
+> You can't create new service objects using the method described here. To create new service objects, use the **Extend Contract** action. To learn more go to [Extend contract](extend-contract.md).
+
+## See also
+
+[Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md)

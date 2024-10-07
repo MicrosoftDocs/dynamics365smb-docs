@@ -4,8 +4,8 @@ description: Learn how to enable select, optional features before they become ma
 author: mikebcMSFT
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.search.form: 2610
-ms.date: 06/14/2024
+ms.search.form: 2610_Primary
+ms.date: 09/23/2024
 ms.author: mikebc
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

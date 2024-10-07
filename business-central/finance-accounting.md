@@ -40,8 +40,6 @@ It's easy to invite your external accountant. Open the **Users** page, and then 
 > [!Note]  
 > This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
-
 > [!IMPORTANT]  
 > The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation cannot be sent.
 >

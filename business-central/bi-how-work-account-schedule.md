@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/27/2024
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: Report_25, 103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766
+ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 # Prepare financial reporting with financial data and account categories
@@ -63,6 +63,8 @@ You can also use formulas to compare two or more financial reports and column de
 - Create as many financial reports as you need, each with a unique name.
 - Set up various report layouts and print the reports with the current figures.
 
+To learn more about comparisons, go to [When to use a comparison period formula and comparison date formula in a column definition](bi-design-financial-reports.md#when-to-use-a-comparison-period-formula-and-comparison-date-formula-in-a-column-definition).
+
 ## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
 Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that businesses typically need?
@@ -94,6 +96,11 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
 ### Create or edit a row definition
 
 Row definitions in financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. You can also calculate intermediate steps that aren't shown in the final report.
+
+Row definitions also provide settings for formatting your report. Most of the options provide visual definition to reports when people view or preview them on their monitors, or print them.
+
+> [!NOTE]
+> Some of the formatting options don't carry over when you export them to Excel. If you often export reports to Excel, you might skip the formatting here and format the report in Excel instead.
 
 To learn more, go to [Row definitions in financial reporting](bi-row-definitions.md).
 
@@ -133,7 +140,7 @@ You can integrate a financial report with an Excel workbook template, adjust the
 
 ### Set up Excel integration for a financial report (create an Excel template)
 
-To set up Excel integration for a financial report, follow these steps to create an Excel template for a report.
+To set up Excel integration for a financial report, follow these steps to create an Excel template.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
 1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
@@ -146,6 +153,23 @@ To set up Excel integration for a financial report, follow these steps to create
 1. Format the report worksheet to suit your needs.
 1. Save the workbook in OneDrive, or a similar place where the file is backed up and versioned.
 1. Close the workbook.
+
+> [!NOTE]
+> If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
+
+### Example: Use and update an Excel template to create a monthly report
+
+You can create an Excel template that contains the reports that you include in your reporting package. Each report in the workbook must have a data tab and a tab that has the formatted report. When you update your monthly package, use the **Update Copy of Existing Document** for each report. Be sure to save after each update.
+
+Follow these steps to produce your monthly financial report.
+
+1. Choose the financial report you used to create the Excel template. 
+1. Change the date filter to the next month.
+1. Choose the **Export to Excel** and **Update Copy of Existing Document** actions.
+1. Select the template you saved. Make sure that the Excel file is closed. Otherwise, an error message will state that the file is in use.
+1. The next screen shows the tabs that are available in the Excel workbook. Choose the **Data** tab, and then choose **OK**. If you choose the tab labeled **IS**, your formatting will be overwritten and you'll need to start over.
+1. The Excel workbook is created. Be sure to enable editing to show your changes.
+1. Save the workbook with a different name than the original template.
 
 ### Run a financial report with an Excel template
 

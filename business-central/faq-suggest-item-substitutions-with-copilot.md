@@ -22,7 +22,7 @@ These frequently asked questions (FAQ) describe the AI impact of the sales line 
 
 ## What is suggest item substitutions with Copilot?
 
-In a business landscape that changes fast, companies often need to evolve the portfolio of products they sell. Whether it's adding new products, changing existing products, or adding entire new product lines and categories, it's often time consuming to create and manage product (item) information.  
+In a business landscape that changes fast, companies often need to evolve the portfolio of products they sell. Whether it's adding new products, changing existing products, or adding entire product lines and categories, it's often time consuming to create and manage product (item) information.  
 
 Reusing information from similar items can be a good option and Copilot can help you to identify similar items. An extra benefit is that suggest item substitution also reduces the risk of creating duplicated entries on the Items list page.
 
@@ -40,11 +40,11 @@ Intended to suggest item substitutions based on the description of the current i
 
 Because the average number of items (products/services) for [!INCLUDE [prod_short](includes/prod_short.md)] customers is 10.000, finding the right ones might be tough without prior experience or knowledge. The way [!INCLUDE [prod_short](includes/prod_short.md)] stores data doesn’t make things easier because you need to do multiple search or filtering exercises on the different pages that store product data.
 
-To assist you in finding items, Copilot extracts keywords, additional search terms, and synonyms from the product (item) description, and uses embeddings to find similar items in the database.
+To assist you in finding items, Copilot extracts keywords, other search terms, and synonyms from the product (item) description, and uses embeddings to find similar items in the database.
 
 ## How was suggest item substitutions with Copilot evaluated? What metrics are used to measure performance?
 
-The feature underwent extensive testing with numerous prompts in US English representing both typical use and use by bad actors. Testing was based on [!INCLUDE [prod_short](includes/prod_short.md)] demonstration data and a large labelled product catalog available as open source.
+The feature underwent extensive testing with numerous prompts in US English representing both typical use and use by bad actors. Testing was based on [!INCLUDE [prod_short](includes/prod_short.md)] demonstration data and a large labeled product catalog available as open source.
 
 This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
@@ -54,7 +54,7 @@ Find products works best in the English language. While you can use this feature
 
 If your industry or domain overlaps with what Microsoft considers sensitive topics (such as drugs, violence, adult entertainment, and so on) Copilot might defer to neutral, curated responses, or give inaccurate responses.
 
-Suggest item substitutions only fills in the **Substitute Type**, **Substitute No.**, and **Description** fields. The **Variant Code** field isn't currently supported. If you can ship a product in two different colors, for example, Copilot finds the needed product but leaves the **Variant Code** field empty. You'll need to fill in the field manually.  
+Suggest item substitutions only fills in the **Substitute Type**, **Substitute No.**, and **Description** fields. The **Variant Code** field isn't currently supported. If you can ship a product in two different colors, for example, Copilot finds the needed product but leaves the **Variant Code** field empty. You need to fill in the field manually.  
 
 Catalog items aren't currently supported.
 

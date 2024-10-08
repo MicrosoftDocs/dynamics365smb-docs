@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_313_Primary
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Vendor/Item Purchases (report)
@@ -22,27 +26,42 @@ Added costs such as item charges are also included in the calculated cost amount
 
 ## Use cases
 
-Help ensure that your inventory levels are optimal:
-- Track item purchases from vendors to manage stock levels.
-- Identify purchasing trends to anticipate future inventory needs.
-- Analyze the impact of discounts on inventory costs and make informed purchasing decisions.
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Understanding and control your costs:
-- Evaluate the total cost of purchased items including any additional charges.
-- Assess the effectiveness of discounts in reducing overall procurement costs.
-- Identify cost-saving opportunities by analyzing the relationship between item purchases and discounts.
+Do not capitalize the persona names. 
 
-Ensure that your procurement process is efficient and cost-effective:
-- Compare invoiced quantities and amounts across different vendors.
-- Identify which vendors offer the best discounts and terms.
-- Optimize procurement strategies based on historical purchasing data.
+## Report description
+Shows a list of item entries for each vendor in a selected period. The report contains information on invoiced quantity, amount, and possible discounts. It can be used, for example, to analyze a company's item purchases and to show whether there's a relationship between discounts and item purchases.
 
-Oversee the entire supply chain to ensure smooth operations:
-- Monitor vendor performance and reliability based on item delivery data.
-- Plan for future purchases by analyzing past transaction volumes and discount effectiveness.
-- Manage vendor relationships by evaluating the total value received from each supplier.
+### What the report does
+Shows a total of items purchased from vendors in the given date period, grouped by vendors.
 
+Value entries for each vendor/item combination is summed up to calculate the total invoiced quantity, cost amount and discount amount.
 
+Added costs such as item charges are also included in the calculated cost amount.
+
+### Use cases
+Analyse your item purchases per vendor to manage inventory procurement and improve supply chain processes.
+
+Assess the relationship between discounts, cost amount, and volume of item purchases.
+
+Please include your data sources and URLs
+ -->
+
+As a procurement manager, use the report to:
+* Optimize inventory procurement - The report provides a comprehensive view of item purchases per vendor in a selected period. You can use this information to analyze item purchases and manage inventory procurement effectively.
+* Improve supply chain processes - The report provides valuable insights into item purchases per vendor. You can use this information to identify any potential issues in the supply chain and take necessary actions to improve supply chain processes.
+
+As a cintroller, use the report to:
+* Forecast cash flow - The report provides a comprehensive view of item purchases per vendor in a selected period. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
+* Identify cost-saving opportunities - The report provides information on possible discounts and the volume of item purchases. You can use this information to identify any potential cost-saving opportunities and take necessary actions to reduce costs.
 
 ## Try the report
 

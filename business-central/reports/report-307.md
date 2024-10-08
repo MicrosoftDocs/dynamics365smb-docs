@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_307_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Vendor - Order Summary (report)
@@ -22,25 +26,51 @@ For a detailed breakdown for each order line, use the 'Vendor - Order Detail' re
 
 ## Use cases
 
-Manage your inventory levels efficiently:
-- Track outstanding purchase orders and anticipate incoming stock.
-- Plan inventory replenishments by analyzing quantities not yet received.
-- Avoid stockouts and overstocking by balancing incoming and existing inventory.
+<!-- Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Forecast costs and manage your vendor budget
-- Estimate monthly expected costs based on purchase orders scheduled for delivery.
-- Adjust budget forecasts by reviewing outstanding orders within each 30-day period.
-- Align financial planning with procurement activities to ensure fiscal responsibility.
+Do not capitalize the persona names. 
 
-Ensure seamless flow of goods and services
-- Monitor the status of purchase orders and manage vendor relationships.
-- Plan logistics and delivery schedules by analyzing the timing of incoming orders.
-- Coordinate with vendors to expedite critical shipments if necessary.
+## Report description
 
-Oversee your overall procurement strategy and vendor management:
-- Evaluate vendor performance by tracking timely deliveries.
-- Identify potential delays and address them proactively.
-- Develop long-term procurement strategies based on historical order data and future projections.
+
+### What the report does
+Shows the purchase order detail with the quantity not yet received for each vendor in three periods of 30 days each, starting from the specified date. 
+
+You can also see orders to be received before and after the three periods, as well as the total order detail for each customer. 
+
+For a detailed breakdown for each order line, use the 'Vendor - Order Detail' report.
+
+### Use cases
+Analyse your outstanding purchase orders to understand your expected purchase volume.
+
+Assists you with forecasting your monthly expected costs & expenses.
+
+Please include your data sources and URLs 
+-->
+
+As a procurement specialist, use the report to:
+* Monitor outstanding purchase orders and determine the expected purchase volume for each vendor
+* Analyze purchase order trends over the three periods to identify opportunities for cost savings
+* Forecast monthly expected costs and expenses based on the information obtained from the report
+* Plan purchasing schedules based on the expected delivery dates provided in the report
+
+As a warehouse manager, use the report to:
+* Monitor incoming purchase orders and plan for warehouse capacity and staffing needs
+* Identify orders that are expected to arrive before or after the three periods to adjust warehouse capacity and staffing needs accordingly
+* Coordinate with procurement specialists to ensure timely receipt of incoming purchase orders
+* Ensure that all received items are properly accounted for and recorded in the system
+
+As a controller, use the report to:
+* Forecast monthly expected costs and expenses based on the information obtained from the report
+* Monitor purchase order trends over the three periods to identify opportunities for cost savings
+* Analyze purchase order data to identify potential cash flow issues and adjust financial planning accordingly
+* Coordinate with procurement specialists to ensure that purchase orders are aligned with the company's financial goals and budgets
 
 
 ## Try the report

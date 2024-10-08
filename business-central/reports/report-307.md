@@ -21,7 +21,7 @@ The *Vendor - Order Summary* report shows the purchase order detail with the qua
 
 You can also see orders to be received before and after the three periods, as well as the total order detail for each customer. 
 
-For a detailed breakdown for each order line, use the 'Vendor - Order Detail' report. **TODO**
+For a detailed breakdown for each order line, use the 'Vendor - Order Detail' report.
 
 
 ## Use cases

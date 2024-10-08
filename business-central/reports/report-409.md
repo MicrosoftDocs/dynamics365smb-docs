@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_409_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Purchase Reservation Availability (report)
@@ -23,27 +27,37 @@ When you run the report, you can also update the quantity that is available for 
 
 ## Use cases
 
-This report helps streamline your operations, maintain accurate inventory records, and ensure efficient procurement and shipping processes.
+<!-- 
+Prompt
 
-Ensure that your inventory operates smoothly and efficiently:
-- Check the availability of items for shipment and plan inventory operations accordingly.
-- Update the Qty. to Receive field to reflect accurate inventory levels.
-- Prioritize shipments by reviewing the status of each document or purchase line.
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Manage returns processes to ensure customer satisfaction:
-- Assess the availability of items for return orders.
-- Verify and update quantities to be received or shipped for accurate processing of returns.
-- Determine which return orders are ready for shipment based on the report's status.
+Do not capitalize the persona names. 
 
-Oversee the procurement process and vendor relations:
-- Monitor the availability of purchased items and ensure timely shipments.
-- Update procurement records with the latest shipment statuses.
-- Communicate with vendors regarding the status of purchase lines and quantities to be received or shipped.
+## Report description
+Shows the availability of items for shipment on purchase documents, for example return orders. You determine whether the report indicates the status of each document or of each purchase line.
+When you print the report, you can also update the quantity that is available for shipment in the Qty. to Receive field on the purchase lines. On purchase credit memos and negative purchase order lines, the Qty. to Receive field contains the quantity to ship.. Then you can use the report to determine which documents to ship
 
-Focuses on optimizing inventory levels and reducing excess stock
-- Analyze the availability of items for shipment to maintain accurate inventory records.
-- Update the Qty. to Receive field to reflect real-time inventory changes.
-- Plan future inventory orders based on current shipment statuses and availability.
+
+Please include your data sources and URLs 
+ -->
+
+As a procurement specialist, use the report to:
+* Determine availability of items for shipment - The report shows the availability of items for shipment on purchase documents, such as return orders. You can use this information to determine which documents are ready to be shipped and plan accordingly.
+
+As a warehouse manager, use the report to:
+* Update quantity available for shipment - The report allows you to update the quantity available for shipment in the Qty. to Receive field on the purchase lines. You can use this information to ensure accurate inventory management and timely shipment of orders.
+
+As a shipping clerk, use the report to:
+* Determine which documents to ship - The report provides information on the availability of items for shipment on purchase documents. You can use this information to determine which documents to ship and ensure timely delivery to customers.
+
+As a controller, use the report to:
+* Monitor procurement and inventory management - The report provides information on the availability of items for shipment on purchase documents, allowing you to monitor procurement and inventory management processes and identify any potential issues.
 
 
 ## Try the report

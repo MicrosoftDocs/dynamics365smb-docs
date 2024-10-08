@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_304_Primary
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Vendor - Detail Trial Balance (report)
@@ -22,25 +26,54 @@ You can choose to run the report in your local currency or in the vendor's curre
 
 ## Use cases
 
-Ensure that vendor payments are processed accurately and on time:
-- Track each transaction within the period for accurate payment processing.
-- Reconcile vendor balances by seeing the opening balance, transactions, and ending balance.
-- Manage due dates effectively to avoid late payments.
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.  
 
-Maintain the financial integrity of your organization:
-- Analyze vendor balances and identify any discrepancies.
-- Ensure financial records are accurate by reviewing transaction details.
-- Monitor outstanding balances and remaining amounts to manage the company's liabilities.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Ensure efficient and cost-effective procurement operations:
-- Review vendor transactions to assess vendor reliability and performance.
-- Plan procurement activities based on historical transaction data.
-- Optimize vendor relationships by understanding the financial interactions with each supplier.
+Do not capitalize the persona names.  
 
-Analyze and maintain a healthy cash flow for your company:
-- Monitor outstanding balances to anticipate cash outflows.
-- Manage payment schedules based on due dates to ensure smooth cash flow.
-- Exclude vendors with no transactions to focus on active financial engagements.
+## Report description  
+Shows all the vendor ledger entries within the specified date filter. The report shows the vendor's beginning balances relative to the date filter.  
+  
+### What the report does  
+You can specify a date range in the date filter and for each vendor the report will display the beginning balance, each transaction within the period, with its remaining amount and due date, and the ending balance.   
+  
+You can choose to run the report in your local currency or in the vendor's currency. Vendors that have not had any transactions for the period can also be excluded.  
+  
+### Use cases  
+Analyse and reconcile your vendor balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by vendor.
+
+Please include your data sources and URLs 
+-->
+
+
+As a procurement specialist, use the report to:
+* Analyze vendor balances and transactions for a specific period
+* Identify vendors with outstanding balances and negotiate payment terms with them
+* Reconcile vendor accounts and ensure that all transactions are recorded accurately
+* Monitor vendor performance and identify opportunities for cost savings
+
+As an accounts payable clerk, use the report to:
+* Reconcile vendor accounts and ensure that all invoices are paid in a timely manner
+* Identify past due invoices and take appropriate action to resolve the issue
+* Monitor cash flow and vendor payments
+
+As a controller, use the report to:
+* Monitor cash flow and vendor payments
+* Identify vendors with high outstanding balances and take steps to reduce the amount owed
+* Forecast future cash flows and plan for vendor payments
+* Analyze vendor balances and transactions to identify cost-saving opportunities
+
+As a purchasing agent, use the report to:
+* Monitor vendor performance and identify opportunities for cost savings
+* Analyze transaction data to identify trends and patterns in vendor behavior, such as late deliveries or price increases
+* Negotiate better terms with vendors and improve overall procurement efficiency based on the information obtained from the report.
 
 
 ## Try the report

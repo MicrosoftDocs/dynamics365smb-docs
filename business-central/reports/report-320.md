@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_320_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Vendor Item catalog (report)
@@ -20,26 +24,33 @@ The *Vendor Item catalog* report shows a list of vendors for the selected items,
 
 ## Use cases
 
-Keep track of inventory levels and sourcing:
-- Identify vendors for specific items to ensure a smooth supply chain.
-- Evaluate direct unit costs to maintain cost-effective inventory levels.
-- Plan procurement schedules based on lead time calculations to avoid stockouts.
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Analyze vendor performance and procurement efficiency:
-- Compare direct unit costs and lead times among different vendors.
-- Assess the reliability of vendors by analyzing lead times and delivery consistency.
-- Optimize vendor selection for cost savings and timely deliveries.
+Do not capitalize the persona names. 
 
-Oversee budget management and financial planning for procument:
-- Monitor direct unit costs to ensure procurement aligns with the budget.
-- Analyze cost variations among vendors to negotiate better terms.
-- Plan financial forecasts based on expected lead times and procurement costs.
+## Report description
+Displays a list of the vendors for the selected items or items for selected vendors. For each combination of item and vendor, it shows direct unit cost, lead time calculation and the vendor's item number.
 
-Maintain and improve supplier relationships:
-- Review the list of items sourced from each vendor to understand their portfolio.
-- Analyze vendor performance through lead time calculations.
-- Engage in strategic discussions with vendors to negotiate better pricing and delivery terms.
+Please include your data sources and URLs
 
+ -->
+
+As a procurement manager, use the report to:
+* Compare vendor prices - The report provides a list of vendors for selected items and shows the direct unit cost for each combination of item and vendor. You can use this information to compare vendor prices and select the vendor that provides the best value for money.
+* Manage lead time - The report shows the lead time calculation for each combination of item and vendor. You can use this information to manage lead time effectively and ensure timely delivery of items.
+
+As a purchasing agent, use the report to:
+* Manage vendor relationships - The report provides a list of vendors for selected items and shows the vendor's item number for each combination of item and vendor. You can use this information to manage vendor relationships effectively and ensure smooth procurement processes.
+
+As a controller, use the report to:
+* Manage costs - The report provides information on direct unit cost for each combination of item and vendor. You can use this information to manage costs effectively and identify any potential cost-saving opportunities.
 
 ## Try the report
 

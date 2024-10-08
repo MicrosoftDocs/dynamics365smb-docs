@@ -57,14 +57,14 @@ Please include your data sources and URLs
 As a procurement specialist, use the report to:
 * Analyze item purchases - The report displays a list of vendors that your company has purchased items from within a selected period, showing invoiced quantity, amount, and discount. You can use this information to analyze their item purchases and manage inventory procurement accordingly.
 
-As a purchasing manager, use the report to:
+As a procurement manager owner, use the report to:
+* Analyze procurement performance - The report shows a total of items purchased from vendors in the given date period, grouped by items. You can use this information to analyze their procurement performance and identify any areas for improvement.
 * Improve supply chain processes - The report provides information on the total invoiced quantity, cost amount, and discount amount for each vendor/item combination, allowing you to assess the relationship between discounts, cost amount, and volume of item purchases. This information can be used to improve supply chain processes and optimize procurement strategies.
 
 As a controller, use the report to:
 * Monitor vendor spending - The report provides information on the total invoiced quantity, cost amount, and discount amount for each vendor/item combination, allowing you to monitor vendor spending and identify any potential issues.
 
-As a business owner, use the report to:
-* Analyze procurement performance - The report shows a total of items purchased from vendors in the given date period, grouped by items. You can use this information to analyze their procurement performance and identify any areas for improvement.
+
 
 ## Try the report
 

@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_329_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Vendor - Trial Balance (report)
@@ -21,27 +25,45 @@ The report is segmented for vendors in each vendor posting group for easy reconc
 
 ## Use cases
 
-This report equips employees working within and around procurement processes personas with the insights they need to make informed decisions, ensuring efficient and compliant procurement processes. Use it to
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Manage vendor payments and ensures all balances are accurately tracked:
-- Review beginning balances and net changes for each vendor.
-- Reconcile vendor subledger against general ledger payables accounts.
-- Monitor year-to-date transactions to spot discrepancies and ensure accurate financial reporting.
+Do not capitalize the persona names. 
 
-Analyze financial data related to procurement to support strategic decisions:
-- Evaluate the financial health of vendor relationships by examining net changes over the period.
-- Compare vendor posting groups to identify spending trends and cost-saving opportunities.
-- Use fiscal year data to forecast future procurement budgets and improve financial planning.
+## Report description
+Shows the net changes for vendors for the period specified in the date filter, and the net change year-to-date for the corresponding fiscal year. The report is grouped by vendor posting groups and gives a different view of the vendor ledger than the Aged Accounts Payable report. Note: If you don't set up accounting periods, Business Central doesn't know which fiscal year to use. It shows the year-to-date from the most recent fiscal year, or just the selected period. The date might not be from the beginning of a year.
 
-Oversee procurement activities and vendor management:
-- Track net changes in vendor transactions to assess performance and reliability.
-- Identify any significant shifts in spending patterns that may require renegotiation of terms.
-- Plan future procurement strategies based on historical financial data.
+### What the report does
+You must specify a date range in the date filter and the report will display the beginning balance and net change for the date range selected. Using the accounting periods the report will show the fiscal year amounts for beginning balance, net change and ending balance.
 
-Ensure that procurement activities comply with company policies and regulations:
-- Audit vendor transactions for compliance with internal policies.
-- Verify the accuracy of financial records by reconciling vendor balances.
-- Identify irregularities or potential compliance issues in vendor transactions.
+The report is segmented for vendors in each vendor posting group for easy reconciliation of the ending balance against the general ledger payables account(s).
+
+
+
+### Use cases
+Analyse the closing balance of vendors at the end of the period to reconcile the vendor subledger against the payables account(s) in the general ledger.
+
+Please include your data sources and URLs
+ -->
+
+As a procurement manager, use the report to:
+* Analyze vendor balances - The report displays the net changes for vendors for the period specified in the date filter and the net change year-to-date for the corresponding fiscal year. You can use this information to analyze vendor balances and ensure that the company is not overpaying or underpaying vendors.
+
+As a vendor manager, use the report to:
+* Review vendor posting group balances - The report is grouped by vendor posting groups, making it easy to review vendor posting group balances. You can use this information to ensure that vendors are being appropriately categorized and managed.
+
+As an accounts payable clerk, use the report to:
+* Reconcile vendor subledger - The report is segmented for vendors in each vendor posting group, making it easy to reconcile the ending balance against the general ledger payables account(s). You can use this information to ensure accurate and timely financial reporting.
+
+As a controller, use the report to:
+* Monitor vendor performance - The report provides information on net changes for vendors for the period specified in the date filter and the net change year-to-date for the corresponding fiscal year. You can use this information to monitor vendor performance and identify any potential issues that may impact the organization's procurement processes.
+
 
 
 ## Try the report

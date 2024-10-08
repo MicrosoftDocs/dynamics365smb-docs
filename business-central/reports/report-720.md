@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_720_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Item/vendor catalog (report)

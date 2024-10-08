@@ -9,6 +9,11 @@ ms.search.keywords: reporting
 ms.search.form: Report_714_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
+
 ---
 
 # Inventory Vendor Purchases (report)
@@ -21,28 +26,45 @@ Added costs such as item charges are also included in the calculated cost amount
 
 ## Use cases
 
-This report provides the data needed to make informed decisions, optimize procurement processes, and enhance supply chain operations.
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-Maintain optimal stock levels:
-- Track item purchases from vendors to manage inventory effectively.
-- Analyze purchase volumes to anticipate future inventory needs.
-- Identify trends in purchasing behavior to prevent overstocking or stockouts.
+Do not capitalize the persona names. 
 
-Understand and control costs for procurement:
-- Evaluate total cost amounts, including additional charges, to ensure accurate cost accounting.
-- Assess the impact of discounts on overall procurement costs.
-- Develop cost-saving strategies by analyzing the relationship between purchase volumes and discount amounts.
+## Report description
+Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.
 
-Optimize procurement strategies:
-- Compare purchase quantities and amounts across different vendors.
-- Identify which vendors offer the best discounts and terms.
-- Streamline procurement processes by analyzing vendor performance and purchase history.
+### What the report does
+Shows a total of items purchased from vendors in the given date period, grouped by items.
 
-Oversees the entire supply chain:
-- Monitor vendor performance and reliability based on purchase data.
-- Plan future procurement activities by analyzing historical purchasing trends.
-- Improve supply chain efficiency by understanding the relationship between costs, discounts, and purchase volumes.
+Value entries for each vendor/item combination is summed up to calculate the total invoiced quantity, cost amount and discount amount.
 
+Added costs such as item charges are also included in the calculated cost amount.
+
+### Use cases
+Analyse your vendor purchases per item to manage inventory procurement and improve supply chain processes.
+Assess the relationship between discounts, cost amount, and volume of item purchases.
+
+Please include your data sources and URLs
+ -->
+
+As a procurement specialist, use the report to:
+* Analyze item purchases - The report displays a list of vendors that your company has purchased items from within a selected period, showing invoiced quantity, amount, and discount. You can use this information to analyze their item purchases and manage inventory procurement accordingly.
+
+As a purchasing manager, use the report to:
+* Improve supply chain processes - The report provides information on the total invoiced quantity, cost amount, and discount amount for each vendor/item combination, allowing you to assess the relationship between discounts, cost amount, and volume of item purchases. This information can be used to improve supply chain processes and optimize procurement strategies.
+
+As a controller, use the report to:
+* Monitor vendor spending - The report provides information on the total invoiced quantity, cost amount, and discount amount for each vendor/item combination, allowing you to monitor vendor spending and identify any potential issues.
+
+As a business owner, use the report to:
+* Analyze procurement performance - The report shows a total of items purchased from vendors in the given date period, grouped by items. You can use this information to analyze their procurement performance and identify any areas for improvement.
 
 ## Try the report
 

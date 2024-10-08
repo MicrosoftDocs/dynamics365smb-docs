@@ -14,9 +14,7 @@ ms.custom: bap-template
 
 # Usage based billing customers and subscriptions
 
-In addition to the usage data that changes per import, there's also data thats more like master data because it doesn't change. This includes both the customers for whom you import usage data, and the subscriptions that are the link to the service commitments to bill. For customers, this data is helpful but not required, whereas without a subscription you can't bill usage data.
-
-<!--Not really sure what this para is saying.-->
+In addition to the usage data that changes per import, there's also data that's more like master data because it doesn't change. This master data includes the customers for whom you import usage data, and the subscriptions that link the service commitments to bill. For customers, this data is helpful but not required, whereas without a subscription you can't bill usage data.
 
 ## Usage data customers
 

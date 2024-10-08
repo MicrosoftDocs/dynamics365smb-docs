@@ -19,7 +19,7 @@ To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short
 > [!NOTE]
 > You can only charge service commitments that are part of a vendor or customer contract.
 
-The usage data usually only knows the subscription to which it is related. The service commitments, however, know to which contract they're assigned. The link is the subscriptions that connect to a service commitment
+The usage data usually only knows the subscription to which it's related. The service commitments, however, know to which contract they're assigned. The link is the subscriptions that connect to a service commitment.
 
 For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the service commitments. This path is how the usage data finds the related subscription, service commitments, service objects, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer contracts to bill for usage data.
 
@@ -44,7 +44,7 @@ The reference displays on the **Usage Data Supplier References** page as type **
 
 ## References for customers
 
-A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID then also has an entry on the **Usage Data Supplier References** page. When you [Usage data customers](customers-subscriptions.md#usage-data-customers), the record is also created automatically. Otherwise, you must create the reference manually.
+A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID has an entry on the **Usage Data Supplier References** page. When you have [usage data customers](customers-subscriptions.md#usage-data-customers), the record is also created automatically. Otherwise, you must create the reference manually.
 
 To maintain the customer reference, you can open the reference table by using the **Supplier Reference Entry No.** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
 

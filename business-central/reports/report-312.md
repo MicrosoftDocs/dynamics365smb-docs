@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_312_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Purchase statistics (report)
@@ -18,19 +22,35 @@ ms.service: dynamics-365-business-central
 
 ## Use cases
 
-Use the report to keep track of vendor performance and ensure that your company is getting the best value for its money:
-- Analyze total purchases, payments, and finance charges from each vendor.
-- Compare the efficiency of different vendors over five periods.
-- Identify trends in payment discounts taken or lost to inform negotiation strategies.
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-In your budgeting and financial forecasting processes, you can use the report to:
-- Review financial outlays and cost savings from payment discounts.
-- Monitor finance charges to ensure they are within acceptable limits.
-- Use historical purchase data to project future spending.
+Do not capitalize the persona names. 
 
-For your accounts payable (AP) processes, use the report to ensure timely payments and manage discounts:
-- Track upcoming payments and avoid missed discounts.
-- Monitor overdue payments and the resulting finance charges.
+## Report description
+Shows purchase statistics for each vendor. This includes information for five periods, starting on the date that you specify.
+The report includes the total purchases, payments, finance charges, and discount information including the payment discounts taken and lost. Statistics are calculated for purchases before the date entered, at three one-month intervals from the date entered, and for a period including all purchases made after the third one-month interval.
+This report can also be used in accounts payable as it's easier to do a quick look-up of posted payments, discounts, and other transactions for a given vendor.
+
+
+Please include your data sources and URLs 
+-->
+
+As a procurement analyst, use the report to:
+* Monitor vendor performance - The report provides a comprehensive view of purchase statistics for each vendor over a period of time. You can use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
+Evaluate vendor discounts - The report includes information on payment discounts taken and lost. You can use this information to evaluate vendor discounts and identify any potential opportunities for cost savings.
+
+As an accounts payable clerk, use the report to:
+* Manage vendor payments - The report provides a quick look-up of posted payments, discounts, and other transactions for a given vendor. You can use this information to manage vendor payments effectively and avoid any potential disputes with vendors.
+
+As a controller, use the report to:
+* Forecast cash flow - The report provides a comprehensive view of purchase statistics for each vendor over a period of time. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
 
 
 ## Try the report

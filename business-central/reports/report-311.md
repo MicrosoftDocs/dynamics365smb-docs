@@ -9,6 +9,10 @@ ms.search.keywords: reporting
 ms.search.form: Report_311_Primary
 ms.date: 10/03/2024
 ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/07/2024
+ai.usage: ai-assisted
 ---
 
 # Vendor - Top 10 List (report)
@@ -19,25 +23,45 @@ The vendors are sorted by purchase amount within the selected period. The list g
 
 
 ## Use cases
-Use the report to ensure that vendor relationships are efficient and effective:
-- Identify vendors with the most significant transaction volumes.
-- Focus on strategic planning for major vendor negotiations.
-- Monitor vendor performance and adjust procurement strategies accordingly.
 
-For maintaining healthy relationships with your suppliers, use the report to:
-- Monitor transaction frequency to gauge the reliability and performance of key suppliers.
-- Plan upcoming payments to maintain good relationships and avoid payment delays.
-- Identify potential issues with suppliers who have frequent transactions but may be causing cash flow problems.
+<!-- 
+Prompt
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
 
-To help ensure an overall efficiency of your supply chain, use the report to:
-- Track vendor performance and ensure consistency in supply.
-- Coordinate with finance and procurement teams to prioritize payments for essential vendors.
-- Plan and execute strategic initiatives to maintain an efficient procurement process.
+Do not capitalize the persona names. 
 
-Within your finance department, use the report to 
-- Prioritize vendor payments based on transaction volume.
-- Ensure smooth cash flow by planning payments for high-volume vendors.
-- Identify and mitigate potential cash flow issues before they escalate.
+## Report description
+Shows information on purchases from vendors for a selected period. You can choose the number of vendors that are included in the report.
+The vendors are sorted in order of amount, and you can choose whether they're sorted by purchase amount or balance. The report gives a quick overview of the vendors from which you purchase the most or to which you owe the most.
+
+### What the report does
+Provides a list of vendors with the most transactions within a selected period. You can choose to display more than 10 vendors.
+
+The vendors are sorted by purchase amount within the selected period. The list gives a quick overview of vendors with the largest balance and highest purchase volume.
+
+This report can be used to provide information to monitor supplier relationships, plan upcoming payments and identify potential cashflow issues.
+
+
+### Use cases
+Review vendors with the most transactions within a selected period to manage cash flow & prioritise vendor payments.
+
+Please include your data sources and URLs
+ -->
+
+As a procurement manager, use the report to:
+* Monitor vendor performance - The report provides a complete view of vendors with the most transactions within a selected period. You can use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
+* Prioritize vendor payments - The report provides a quick overview of vendors with the largest balance and highest purchase volume. You can use this information to prioritize vendor payments and manage cash flow effectively.
+
+As an accounts payable clerk, use the report to:
+* Manage vendor relationships - The report provides a comprehensive view of the vendors from which the company purchases the most. You can use this information to monitor and manage vendor relationships, ensure timely payments, and avoid any potential disputes with vendors.
+
+As a controller, use the report to:
+* Forecast cash flow - The report provides a quick overview of vendors with the largest balance and highest purchase volume. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
 
 
 ## Try the report

@@ -44,7 +44,7 @@ Please include your data sources and URLs
 
 As a procurement analyst, use the report to:
 * Monitor vendor performance - The report provides a comprehensive view of purchase statistics for each vendor over a period of time. You can use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
-Evaluate vendor discounts - The report includes information on payment discounts taken and lost. You can use this information to evaluate vendor discounts and identify any potential opportunities for cost savings.
+* Evaluate vendor discounts - The report includes information on payment discounts taken and lost. You can use this information to evaluate vendor discounts and identify any potential opportunities for cost savings.
 
 As an accounts payable clerk, use the report to:
 * Manage vendor payments - The report provides a quick look-up of posted payments, discounts, and other transactions for a given vendor. You can use this information to manage vendor payments effectively and avoid any potential disputes with vendors.

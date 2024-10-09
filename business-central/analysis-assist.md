@@ -43,7 +43,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 1. In the **Analyze Items** with Copilot window, enter a description of the layout you want. This description is known as a *prompt*.
 
-    ![Shows the analysis assist Copilot](media/analysis-assist.png)
+    ![Shows the analysis assist Copilot](media/analysis-assist.svg)
 
     > [!TIP]
     > For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Copilot window.

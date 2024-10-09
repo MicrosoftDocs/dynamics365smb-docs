@@ -548,7 +548,9 @@ ms.service: dynamics-365-business-central
 #### [Sales analytics overview](sales-analytics-overview.md)
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
-#### [Built-in sales reports](sales-reports.md)
+#### Built-in sales reports
+##### [Sales report overview](sales-reports.md)
+##### [Vendor - Detail Trial Balance](reports/report-304.md)
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)

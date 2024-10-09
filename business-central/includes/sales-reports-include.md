@@ -7,6 +7,15 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
+The following table describes some of the key reports in or related to the sales module. The reports help different roles within the sales department make informed decisions to optimize their operations. 
+
+| To... | Open in Business Central (CTRL+click) | Learn more | Id | 
+|-------|------------| ------------|----|
+| Analyse your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue. | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
+
+
+
+## The old way
 The following table describes some of the key reports in sales reporting.
 
 | Report | Description | Id | 

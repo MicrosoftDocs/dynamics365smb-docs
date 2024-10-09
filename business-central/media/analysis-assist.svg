@@ -349,9 +349,9 @@
    y="142.57001"
    class="st13"
    v:langID="1033"
-   id="text12"><v:paragraph /><v:tabList />show items grouped by type and oum.</text>		<path
+   id="text12"><v:paragraph /><v:tabList />show items grouped by type and oum</text>		<path
    id="rect17819"
-   style="fill:none;stroke:#e91c1c;stroke-width:2.24999932;stroke-dasharray:none"
+   style="fill:none;stroke:#e91c1c;stroke-width:0;stroke-dasharray:none"
    d="M 2.843417,125.74855 H 184.34471 c 0.6842,0 1.23503,0.082 1.23503,0.18387 v 26.95946 c 0,0.10192 -0.55083,0.18386 -1.23503,0.18386 H 2.843417 c -0.6841968,0 -1.2350111,-0.082 -1.2350111,-0.18386 v -26.95946 c 0,-0.10193 0.5508143,-0.18387 1.2350111,-0.18387 z"
    inkscape:label="Rectangle callout" /></g>
 		<g

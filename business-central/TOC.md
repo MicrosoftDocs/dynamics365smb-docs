@@ -511,7 +511,6 @@ ms.service: dynamics-365-business-central
 #### [Purchasing](SRB/purchases.md)
 ### Usage based billing
 #### [Overview of usage based billing](UBB/welcome.md)
-#### [First steps](UBB/first-steps.md)
 #### [Customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
 #### [Data exchange definitions](UBB/masterdata/dataexchangedefinitions.md)
 #### [Usage data supplier references](UBB/masterdata/references.md)
@@ -1684,7 +1683,7 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
-#### Subscriptions and recurring billing
+#### Set up subscription billing
 ##### Overview
 ###### [General Setup](SRB/setup/general.md)
 ###### [Permissions](SRB/setup/permissions.md)

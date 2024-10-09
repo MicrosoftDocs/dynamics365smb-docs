@@ -35,7 +35,7 @@ The types of usage data can be quite different. The following types are widely u
 
 The usage based billing features in subscription billing offer a flexible way to bill customers for monthly usage data for subscription contracts. The features make it easier to transform the large amount of monthly usage data that cloud-based services generate, for example, into individual invoices.
 
-* Import usage data from suppliers using files or web services. Usage based billing offers a generic import for CSV files that you can use individually and independent of suppliers. <!--not sure what "individually and independent of suppliers" means-->
+* Import usage data from suppliers using files or web services. Usage based billing offers a generic import for CSV files that you can use individually and independent of suppliers.
 * Do accurate daily billing, even for quantity changes and partial periods.
 * Create billing proposals with details for all services to bill in a single overview.
 * Overview billing details in contract invoices. If needed, the overview can show all items individually.
@@ -51,7 +51,7 @@ The imported data is then processed. If an error occurs (e.g. because new usage 
 
 ## Billing for usage based service commitments​
 
-You link usage data and related usage data subscriptions contracts through service commitments. When you process usage data, prices are calculated. For service commitments for vendors, the prices of the supplier are taken over. For service commitments for customers, the calculation is done using the corresponding methods for pricing. <!--not sure what corresponding methods means here-->  
+You link usage data and related usage data subscriptions contracts through service commitments. When you process usage data, prices are calculated. For service commitments for vendors, the prices of the supplier are taken over. For service commitments for customers, the calculation is done using the corresponding methods for pricing.
 
 The final step is to create contract invoices. The contracts that include the usage based service commitments generate invoices from several places:
 

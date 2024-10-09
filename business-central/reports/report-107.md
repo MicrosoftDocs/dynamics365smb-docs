@@ -1,6 +1,6 @@
 ---
 title: Customer - Order Summary (report)
-description: 
+description: Analyse your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

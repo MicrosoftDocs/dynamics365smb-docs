@@ -58,7 +58,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
    - To build on the previous instructions, enter the information in the **Add more details about the analysis** box, then select the ![Show the adjust arrow](media/analysis-assist-adjust-button.png) **Adjust** arrow. Copilot remembers your previous instructions and uses them to make adjustments.
 
-     ![Shows the analysis assist history butons](media/analysis-assist-paging.svg)
+     ![Shows the analysis assist history buttons](media/analysis-assist-paging.svg)
 
    - To manually adjust the layout, you can interact directly with the columns, data area, and analysis filters. For example, you can adjust a filter and remove a column, and Copilot remains available in case you want assistance with building on your manual adjustments and previous instructions.
    - To start from scratch by adding new instructions, select the ![Shows the edit prompt pencil icon](media/edit-pencil.png) **Edit prompt:**, add the details to the prompt, and then select **Generate**.

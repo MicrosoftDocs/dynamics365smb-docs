@@ -5,6 +5,7 @@ ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+
 ---
 
 The following table describes some of the key reports in or related to the purchase module. The reports help different roles within the purchasing department make informed decisions to optimize their operations. 
@@ -24,10 +25,11 @@ The following table describes some of the key reports in or related to the purch
 | See the availability of items for shipment on purchase documents, for example return orders | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 | Analyse your outstanding purchase orders to understand your expected purchase volume grouped by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Analyse your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
-| ??? Alternative to report 320 ???? | [Item/vendor catalog](https://businesscentral.dynamics.com?report=720) <br><br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report. | [About *Item/vendor catalog*](../reports/report-720.md) | 720 |
+<!-- | ??? Alternative to report 320 ???? | [Item/vendor catalog](https://businesscentral.dynamics.com?report=720) <br><br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report. | [About *Item/vendor catalog*](../reports/report-720.md) | 720 | -->
 
 
-## The old way
+<!-- ## The old format
+Remove this block in 2025
 
 | Report | Description | Id | 
 |---------|---------|---------|
@@ -40,7 +42,9 @@ The following table describes some of the key reports in or related to the purch
 |[Inventory Availability Plan](https://businesscentral.dynamics.com?report=707)|If you would like to have an overview about specific items/stockkeeping units and their availability. This report will show you cumulated values such as gross requirements, scheduled and planned receipts, the inventory, and so on. |707|
 |[Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714)|Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.|714|
 |[Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)|Displays a list of items on order from vendors. It also shows the expected receipt date and the quantity and amount on back orders. For example, use the report to see when items should be received, and whether a reminder of a back order should be issued|709|
-|[Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)|Shows the availability of items for shipment on purchase documents, for example return orders. You determine whether the report indicates the status of each document or of each purchase line. <br>When you print the report, you can also update the quantity that is available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship.. Then you can use the report to determine which documents to ship. **Note**: This report isn't available for advanced warehouse functionality.|409|
+|[Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)|Shows the availability of items for shipment on purchase documents, for example return orders. You determine whether the report indicates the status of each document or of each purchase line. <br>When you print the report, you can also update the quantity that is available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship.. Then you can use the report to determine which documents to ship. **Note**: This report isn't available for advanced warehouse functionality.|409| 
+-->
+
 
 <!--|[](https://businesscentral.dynamics.com?report=)Vendor detailed aging|11006| DACH specific: A report which could be used by the team leader of your purchased department as will the accounting. Here you will have an overview about the unpaid vendor invoices including the due dates, currencies and amounts. Basis is the open vendor ledger entries.| -->
 

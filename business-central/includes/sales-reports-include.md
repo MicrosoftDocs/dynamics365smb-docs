@@ -12,7 +12,13 @@ The following table describes some of the key reports in or related to the sales
 | To... | Open in Business Central (CTRL+click) | Learn more | Id | 
 |-------|------------| ------------|----|
 | Analyse your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue. | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
-
+| Analyse your outstanding sales orders to understand your expected sales volume grouped by customer. Compare your overall outstanding shipments with the planned shipment date to highlight any overdue back orders. | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
 
 
 ## The old way

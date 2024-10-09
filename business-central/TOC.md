@@ -511,14 +511,14 @@ ms.service: dynamics-365-business-central
 #### [Purchasing](SRB/purchases.md)
 ### Usage based billing
 #### [Overview of usage based billing](UBB/welcome.md)
-#### [Manage customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
+#### [Import and process data](UBB/processing-usage-data/imports-processing.md) 
 #### [Use data exchange definitions](UBB/masterdata/dataexchangedefinitions.md)
-#### [Manage usage data supplier references](UBB/masterdata/references.md)
-#### [Extend service commitments](UBB/masterdata/service-commitments.md)
 #### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
+#### [Manage usage data supplier references](UBB/masterdata/references.md)
+#### [Manage customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
 #### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
 #### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
-#### [Import and process data](UBB/processing-usage-data/imports-processing.md) 
+#### [Extend service commitments](UBB/masterdata/service-commitments.md)
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)

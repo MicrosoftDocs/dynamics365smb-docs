@@ -72,7 +72,7 @@ As a sales manager, use the report to:
 
 Try the report here: [107](https://businesscentral.dynamics.com?report=107)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+<!-- [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)] -->
 
 
 ## See also

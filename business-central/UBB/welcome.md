@@ -31,7 +31,8 @@ The types of usage data can be quite different. The following types are widely u
 * Quantity used per period
 * Transaction volume
 * Consumption based usage of resources
-* Feature set for usage data billing
+
+## Features for usage data billing
 
 The usage based billing features in subscription billing offer a flexible way to bill customers for monthly usage data for subscription contracts. The features make it easier to transform the large amount of monthly usage data that cloud-based services generate, for example, into individual invoices.
 
@@ -53,7 +54,7 @@ The imported data is then processed. If an error occurs (e.g. because new usage 
 
 You link usage data and related usage data subscriptions contracts through service commitments. When you process usage data, prices are calculated. For service commitments for vendors, the prices of the supplier are taken over. For service commitments for customers, the calculation is done using the corresponding methods for pricing.
 
-The final step is to create contract invoices. The contracts that include the usage based service commitments generate invoices from several places:
+The final step is to create contract invoices. You can create invoices for the contracts that include the usage based service commitments from several places:
 
 * The **Recurring Billing** page
 * The **Customer Contract** and **Vendor Contract** pages

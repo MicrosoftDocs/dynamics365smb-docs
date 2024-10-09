@@ -36,4 +36,5 @@ Service commitments that come from a package line are generally billed based on 
 
 ## See also
 
-[Billing](../billing.md)  
+[Overview of usage based billing](../welcome.md)  
+[Usage based billing customers and subscriptions](customers-subscriptions.md)  

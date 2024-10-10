@@ -509,6 +509,16 @@ ms.service: dynamics-365-business-central
 #### [Recurring billing](SRB/recurring-billing.md)
 #### [Posting documents](SRB/posting-documents.md)
 #### [Purchasing](SRB/purchases.md)
+### Usage based billing
+#### [Overview of usage based billing](UBB/welcome.md)
+#### [Import and process data](UBB/processing-usage-data/imports-processing.md) 
+#### [Use data exchange definitions](UBB/masterdata/dataexchangedefinitions.md)
+#### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
+#### [Manage usage data supplier references](UBB/masterdata/references.md)
+#### [Manage customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
+#### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
+#### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
+#### [Extend service commitments](UBB/masterdata/service-commitments.md)
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
@@ -1672,15 +1682,15 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
-#### Subscriptions and recurring billing
+#### Set up subscription billing
 ##### Overview
 ###### [General Setup](SRB/setup/general.md)
-###### [Permissions](SRB/setup/permissions.md)
-###### [Contract Types](SRB/setup/contract-types.md)
-###### [Import of Contracts and Contract lines](SRB/setup/import.md)
-###### [Job Queue](SRB/setup/job-queue.md)
-###### [Service Commitments at Items](SRB/masterdata/items.md)
-###### [Service Commitments](SRB/masterdata/service-commitments.md)
+###### [Assign permissions](SRB/setup/permissions.md)
+###### [Set up contract types](SRB/setup/contract-types.md)
+###### [Import contracts and contract lines](SRB/setup/import.md)
+###### [Use the job queue](SRB/setup/job-queue.md)
+###### [Use service commitments and items](SRB/masterdata/items.md)
+###### [Manage service commitments](SRB/masterdata/service-commitments.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)

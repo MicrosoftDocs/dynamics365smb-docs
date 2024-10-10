@@ -31,10 +31,10 @@ Setting up financial reports requires an understanding of the structure of the d
    2. Design how you use dimensions.  
 
 > [!NOTE]
-> Financial reports doens't work directly with CO2, CH4, or N2O emissions. Instead of that it uses the CO2 equivalent model and that means you must first configure **CO2e** (carbon-dioxide equivalent) on the **Emission Fees** page.  
+> Financial reports doesn't work directly with CO2, CH4, or N2O emissions. Instead of that it uses the CO2 equivalent model and that means you must first configure **CO2e** (carbon-dioxide equivalent) on the **Emission Fees** page.  
 
 > [!NOTE]
-> More detaials about using Financial reports with financial data and chart of accounts can be found here [Build Financial Reports Using Financial Data and Account Categories](bi-how-work-account-schedule.md).   
+> More details about using Financial reports with financial data and chart of accounts can be found here [Build Financial Reports Using Financial Data and Account Categories](bi-how-work-account-schedule.md).   
 
 ## Create a new financial report  
 
@@ -60,7 +60,7 @@ To create or edit a row definition, follow the steps:
 > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. If you add elements with identifiers that start with the same 10 characters, you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
 
 > [!NOTE]
-> You can combine all **Totalling Types**, i.e. Posting accounts, Sust. Accounts, Statistical Account.
+> You can combine all **Totaling Types**, i.e. Posting accounts, Sust. Accounts, Statistical Account.
 
 > [!NOTE]
 > Row definitions aren't versioned. When you change a row definition, the old version is replaced and your changes will be saved to the database. 

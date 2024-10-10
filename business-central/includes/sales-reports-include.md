@@ -14,13 +14,25 @@ The following table describes some of the key reports in or related to the sales
 | Analyse your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue. | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
 | Analyse your outstanding sales orders to understand your expected sales volume grouped by customer. Compare your overall outstanding shipments with the planned shipment date to highlight any overdue back orders. | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
 | Review customers with the most transactions within a selected period to identify sales trends and manage collectable debts. | [Customer - Top 10 list](https://businesscentral.dynamics.com?report=111) | [About *Customer - Top 10 list*](../reports/report-111.md) | 111 |
-| Analyze earnings from an individual customer or earnings trends. | [Sales Statistics](https://businesscentral.dynamics.com?report=112) <br><br>In the US, Canada, and Mexico, this report is not available. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report. | [About *Sales Statistics*](../reports/report-112.md) | 112 |
+| Analyze earnings from an individual customer or earnings trends. | [Sales Statistics](https://businesscentral.dynamics.com?report=112) <br><br>**Note!** In the US, Canada, and Mexico, this report is not available. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report. | [About *Sales Statistics*](../reports/report-112.md) | 112 |
 | Analyse your item sales per customer to understand sales trends, optimise inventory management and improve marketing efforts. Assess the relationship between discounts, sales amount and volume of item sales. | [Customer/Item Sales](https://businesscentral.dynamics.com?report=113) | [About *Customer/Item Sales*](../reports/report-113.md) | 113 |
+| Get an overview of customer sales for a period. You can use it to report to the customs and tax authorities. | [Customer - Sales list](https://businesscentral.dynamics.com?report=119) | [About *Customer - Sales list*](../reports/report-119.md) | 119 |
+
+
+<!-- 
 |  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
 |  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
 |  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
 
-
+121
+129
+209
+708
+713
+718
+813
+7313
+ -->
 ## The old way
 The following table describes some of the key reports in sales reporting.
 

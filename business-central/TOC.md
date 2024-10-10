@@ -555,6 +555,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Top 10 list](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
+##### [Customer - Sales list](reports/report-119.md) 
 
 <!-- 
 ##### [](reports/report-113.md) 

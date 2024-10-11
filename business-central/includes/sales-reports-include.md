@@ -19,12 +19,11 @@ The following table describes some of the key reports in or related to the sales
 | Get an overview of customer sales for a period. You can use it to report to the customs and tax authorities. | [Customer - Sales list](https://businesscentral.dynamics.com?report=119) | [About *Customer - Sales list*](../reports/report-119.md) | 119 |
 | Generate customer statements, providing a clear summary of amounts due, which can be shared with customers for payment follow-ups, especially in connection to the close of an accounting period or fiscal year. | [Customer - Balance to date](https://businesscentral.dynamics.com?report=121) | [About *Customer - Balance to date*](../reports/report-121.md) | 121 |
 | Analyse and reconcile your customer balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by customer. | [Customer - Trial Balance](https://businesscentral.dynamics.com?report=129) | [About *Customer - Trial Balance*](../reports/report-129.md) | 129 |
-
+| Get an overview of which items are available to fulfill sales orders and help ensure that inventory reservations are accurate | [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209) | [About *Sales Reservation Avail.*](../reports/report-209.md) | 209 |
 
 <!-- 
 |  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
 
-209
 708
 713
 718

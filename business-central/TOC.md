@@ -560,6 +560,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Trial Balance](reports/report-129.md) 
 ##### [Sales Reservation Availability](reports/report-209.md) 
 ##### [Inventory Order Details](reports/report-708.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

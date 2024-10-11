@@ -17,12 +17,12 @@ The following table describes some of the key reports in or related to the sales
 | Analyze earnings from an individual customer or earnings trends. | [Sales Statistics](https://businesscentral.dynamics.com?report=112) <br><br>**Note!** In the US, Canada, and Mexico, this report is not available. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report. | [About *Sales Statistics*](../reports/report-112.md) | 112 |
 | Analyse your item sales per customer to understand sales trends, optimise inventory management and improve marketing efforts. Assess the relationship between discounts, sales amount and volume of item sales. | [Customer/Item Sales](https://businesscentral.dynamics.com?report=113) | [About *Customer/Item Sales*](../reports/report-113.md) | 113 |
 | Get an overview of customer sales for a period. You can use it to report to the customs and tax authorities. | [Customer - Sales list](https://businesscentral.dynamics.com?report=119) | [About *Customer - Sales list*](../reports/report-119.md) | 119 |
+| Generate customer statements, providing a clear summary of amounts due, which can be shared with customers for payment follow-ups, especially in connection to the close of an accounting period or fiscal year. | [Customer - Balance to date](https://businesscentral.dynamics.com?report=121) | [About *Customer - Balance to date*](../reports/report-121.md) | 121 |
 
 
 <!-- 
-|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
-|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
-|  | [](https://businesscentral.dynamics.com?report=108) | [About **](../reports/report-108.md) | 108 |
+|  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
+
 
 121
 129

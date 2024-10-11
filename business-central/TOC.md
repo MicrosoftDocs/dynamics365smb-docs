@@ -557,6 +557,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Sales list](reports/report-119.md) 
 ##### [Customer - Balance to date](reports/report-121.md) 
+##### [Customer - Trial Balance](reports/report-129.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

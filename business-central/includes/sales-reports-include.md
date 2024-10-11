@@ -21,17 +21,13 @@ The following table describes some of the key reports in or related to the sales
 | Analyse and reconcile your customer balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by customer. | [Customer - Trial Balance](https://businesscentral.dynamics.com?report=129) | [About *Customer - Trial Balance*](../reports/report-129.md) | 129 |
 | Get an overview of which items are available to fulfill sales orders and help ensure that inventory reservations are accurate | [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209) | [About *Sales Reservation Avail.*](../reports/report-209.md) | 209 |
 | Analyse your outstanding sales orders to understand your expected sales volume grouped by item. Compare your overall outstanding shipments with the planned shipment date to highlight any overdue back orders. | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About *Inventory Order Details*](../reports/report-708.md) | 708 |
-
-|  | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About *Inventory Sales Back Orders*](../reports/report-718.md) | 718 |
-
-|[Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718)|Shows a list with the order lines whose shipment date has been exceeded. The following information is shown for the individual orders for each item: number, customer name, customer's telephone number, shipment date, order quantity and quantity on back order. The report also shows whether there are other items for the customer on back order.|718|
+| See an overview of sales orders that can't be fulfilled due to out-of-stock items.  | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About *Inventory Sales Back Orders*](../reports/report-718.md) | 718 |
+| See which sales orders are covered when collecting items from the inventory. | [Inventory Picking List](https://businesscentral.dynamics.com?report=813) | [About *Inventory Picking List*](../reports/report-813.md) | 813 |
 
 
 <!-- 
 |  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
 
-718
-813
 7313
 -->
 

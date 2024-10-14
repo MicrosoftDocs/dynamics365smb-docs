@@ -17,12 +17,22 @@ ai.usage: ai-assisted
 
 # Inventory Sales Back Orders (report)
 
-The *Inventory Sales Back Orders* report shows sales lines where the outstanding quantity can't be fulfilled by the specified shipment date. 
+The **Inventory Sales Back Orders** report shows sales lines where you can't fulfill the outstanding quantity by the specified shipment date.
 
-This information is grouped by item and includes detail on the customer that ordered the item, when it was due to be shipped, and whether the customer is also awaiting supply on any other back ordered items.
+The report groups data by item, and includes:
 
-The following is shown for the individual orders for each item: number, customer name, customer's telephone number, shipment date, order quantity and quantity on back order.
+* Customer details.
+* The ship date.
+* Other back-ordered items for the customer.
 
+The report shows the following data for individual orders for each item:
+
+* Number
+* Customer name
+* Customer telephone number
+* Shipment date
+* Order quantity
+* Quantity on back order.
 
 ## Use cases
 
@@ -52,21 +62,23 @@ See an overview of sales orders that can't be fulfilled due to out-of-stock item
 Please include your data sources and URLs
 -->
 
-As a sales representative, use the report to:
-* Keep customers informed about the status of their orders.
-* Prioritize orders that are delayed to ensure that they are fulfilled as soon as possible.
-* Identify any potential issues with order fulfillment and work with logistics teams to resolve them.
+Sales representatives use the report to:
 
-As a sales manager, use the report to:
+* Keep customers informed about the status of their orders.
+* Prioritize orders that are delayed to ensure they're fulfilled as soon as possible.
+* Identify any potential issues with order fulfillment, and work with logistics teams to resolve them.
+
+Sales managers use the report to:
+
 * Identify orders that are delayed and take proactive measures to address customer complaints.
-* Monitor orders that are not being fulfilled on time and work with logistics teams to resolve any issues.
+* Monitor orders that they can't fulfill on time, and work with logistics teams to resolve any issues.
 * Analyze trends in delayed shipments to identify areas for improvement in order fulfillment processes.
 
-As a logistics coordinator, use the report to:
-* Monitor orders that are not being fulfilled on time and take action to expedite the process.
-* Identify any trends in delayed shipments and work with sales and production teams to address the root causes.
-* Use the report to optimize shipment schedules and ensure that orders are fulfilled on time.
+Logistics coordinators use the report to:
 
+* Monitor orders that they can't fulfill on time and take action to expedite the process.
+* Identify trends in delayed shipments, and work with sales and production teams to address the root causes.
+* Optimize shipment schedules to fulfill orders on time.
 
 ## Try the report
 
@@ -74,11 +86,10 @@ Try the report here: [Inventory Sales Back Orders](https://businesscentral.dynam
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

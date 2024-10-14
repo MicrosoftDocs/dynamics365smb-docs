@@ -17,13 +17,17 @@ ai.usage: ai-assisted
 
 # Customer - Top 10 list (report)
 
-The *Customer - Top 10 list* report shows a list of customers with the most transactions within a selected period. You can choose to display more than 10 customers. 
+The **Customer - Top 10 list** report shows a list of customers with the most transactions within a selected period. If needed, you can display more than 10 customers.
 
-The customers are sorted by sales amount within the selected period. The list gives a quick overview of customers with the largest balance and highest sales volume.
+The report sorts customers by sales amount within the selected period. The list gives a quick overview of customers with the largest balances and highest sales volume.
 
-You can choose to display a bar chart, or pie chart to visually represent the calculated figures. 
+You can display the calculated figures in a bar or pie chart.
 
-This report can be used to provide information to identify sales trends, upcoming collectable debts, and major revenue sources in the company.
+Use this report to identify:
+
+* Sales trends.
+* Upcoming collectable debts.
+* Revenue sources.
 
 ## Use cases
 
@@ -58,31 +62,35 @@ Please include your data sources and URLs
 
 -->
 
-As a sales representative, use the report to:
-* Identify which customers have made the most purchases within a selected period and prioritize follow-up accordingly.
-* Identify any overdue payments or outstanding balances and communicate updated payment timelines to customers.
-* Identify any sales trends and adjust sales strategies accordingly.
+Sales representatives use the report to:
 
-As a sales manager, use the report to:
-* Analyze sales performance across different customers and regions.
-* Determine which customers have the largest outstanding balances and prioritize follow-up accordingly.
+* Identify which customers bought the most within a selected period and prioritize follow-up.
+* Identify overdue payments or outstanding balances and communicate updated payment timelines to customers.
+* Identify sales trends and adjust sales strategies.
+
+Sales managers use the report to:
+
+* Analyze sales performance across customers and regions.
+* Determine which customers have the largest outstanding balances and prioritize follow-up.
 * Identify sales trends and make data-driven decisions to improve performance.
 
-As a credit or accounts receivables manager, use the report to:
-* Identify customers with outstanding balances and prioritize follow-up accordingly.
-* Analyze sales trends and adjust credit policies accordingly.
-* Use the report to forecast future cash flows and adjust collection strategies accordingly.
+Credit or account receivables managers use the report to:
 
-As a marketing manager, use the report to:
-* Analyze sales trends across different customers and regions.
+* Identify customers with outstanding balances and prioritize follow-up.
+* Analyze sales trends and adjust credit policies.
+* Forecast future cash flows, and adjust collection strategies.
+
+Marketing managers use the report to:
+
+* Analyze sales trends across customers and regions.
 * Identify customers with the highest sales volume and target them for future marketing campaigns.
-* Use the report to identify any sales trends and adjust marketing strategies accordingly.
+* Identify sales trends and adjust marketing strategies.
 
-As a customer success manager, use the report to:
+Customer success managers use the report to:
+
 * Identify customers with the highest sales volume and provide them with personalized support.
-* Identify any overdue payments or outstanding balances and communicate updated payment timelines to customers.
-* Use the report to identify any sales trends and make data-driven decisions to improve customer satisfaction.
-
+* Identify overdue payments or outstanding balances and communicate updated payment timelines to customers.
+* Identify sales trends and make data-driven decisions to improve customer satisfaction.
 
 ## Try the report
 
@@ -90,11 +98,10 @@ Try the report here: [Customer - Top 10 list](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
 [Sales analytics overview](../sales-analytics-overview.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

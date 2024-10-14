@@ -17,11 +17,12 @@ ai.usage: ai-assisted
 
 # Customer - Balance to date (report)
 
-The *Customer - Balance to date* report shows the open customer ledger entries until the ending date. 
+The **Customer - Balance to date** report shows the open customer ledger entries until the ending date.
 
-This report shows similar content as the customer statement but with no indication if the entry is overdue. 
+This report shows similar content as the customer statement but with no indication if the entry is overdue.
 
-**Note:** The date filter is applied to the detailed customer ledger entries. You might have payments later than the ending date but are applied to invoices within the date range. Those invoices appear in the report because they weren't closed as per the ending date.
+> [!NOTE]
+> The date filter applies to the detailed customer ledger entries. You might have payments later than the ending date that are applied to invoices within the date range. Those invoices appear in the report because they weren't closed by the ending date.
 
 ## Use cases
 
@@ -58,8 +59,9 @@ add examples as seen from account receivables and finance perspective
 Please include your data sources and URLs
 -->
 
-As a sales representative, use the report to:
-* Track the payment status of customers and follow up with those who have overdue balances.
+Sales representatives use the report to:
+
+* Track the payment status of customers and follow up on overdue balances.
 * Identify the customers with the highest outstanding balances and follow up to help collection efforts.
 
 As a sales manager, use the report to:
@@ -86,7 +88,7 @@ Try the report here: [Customer - Balance to date](https://businesscentral.dynami
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
 [Sales analytics overview](../sales-analytics-overview.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Customer - Order Detail (report)
-description: Analyse your outstanding sales orders to understand your expected sales volume grouped by customer. Compare your overall outstanding shipments with the planned shipment date to highlight any overdue back orders.
+description: Analyze outstanding sales orders to understand your expected sales volume grouped by customer. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,10 +17,9 @@ ai.usage: ai-assisted
 
 # Customer - Order Detail (report)
 
-The *Customer - Order Detail* report shows each sales order and the line level breakdown for each customer, including information on unfulfilled shipments, applied line/invoice discounts and outstanding amount. 
+The **Customer - Order Detail** report shows each sales order and the line level breakdown for each customer. The report includes information about unfulfilled shipments, applied line/invoice discounts, and outstanding amounts. 
 
-Any lines that have a Shipment Date in the past are included in quantity on back order.
-
+Lines that have a shipment date in the past are included in the quantity on back order.
 
 ## Use cases
 
@@ -52,21 +51,23 @@ Please include your data sources and URLs
 
 -->
 
-As a sales representative, use the report to:
-* Analyze outstanding sales orders by customer and identify any trends or patterns in their purchasing behavior.
+Sales representatives use the report to:
+
+* Analyze outstanding sales orders by customer, and identify trends or patterns in their purchasing behavior.
 * Determine which orders have the highest outstanding amounts and prioritize follow-up accordingly.
-* Use the report to identify any overdue back orders and communicate updated shipping timelines to customers.
+* Identify overdue back orders and communicate updated shipping timelines to customers.
 
-As a sales manager, use the report to:
-* Analyze the backlog of sales orders and identify any bottlenecks in the order fulfillment process.
-* Identify which customers have the highest outstanding orders and prioritize follow-up accordingly.
-* Use the report to forecast future sales volumes and adjust procurement strategies accordingly.
+Sales managers use the report to:
 
-As a customer service representative, use the report to:
-* Identify any overdue back orders and communicate updated shipping timelines to customers.
+* Analyze the backlog of sales orders and identify bottlenecks in the order fulfillment process.
+* Identify which customers have the highest outstanding orders and prioritize follow-up.
+* Forecast future sales volumes, and adjust procurement strategies.
+
+Customer service representatives use the report to:
+
+* Identify overdue back orders and communicate updated shipping timelines to customers.
 * Analyze customer order history and identify any trends or patterns in their purchasing behavior.
-* Determine which orders have the highest outstanding amounts and prioritize follow-up accordingly.
-
+* Determine which orders have the highest outstanding amounts and prioritize follow-up.
 
 ## Try the report
 
@@ -74,11 +75,10 @@ Try the report here: [Customer - Order Detail](https://businesscentral.dynamics.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
 [Sales analytics overview](../sales-analytics-overview.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

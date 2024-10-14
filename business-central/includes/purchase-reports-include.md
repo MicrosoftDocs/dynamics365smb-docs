@@ -1,27 +1,27 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/08/2024
+ms.date: 10/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+
 ---
 
-The following table describes some of the key reports in purchase reporting.
+The following table describes some of the key reports related to purchasing. The reports help different roles in purchasing departments make informed decisions to optimize their operations. 
 
-
-
-| Report | Description | Id | 
-|---------|---------|---------|
-|[Purchase statistics](https://businesscentral.dynamics.com?report=312)|[!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]|312|
-|[Vendor - Top 10 list](https://businesscentral.dynamics.com?report=311)|Shows information on purchases from vendors for a selected period. You can choose the number of vendors that are included in the report.<br>The vendors are sorted in order of amount, and you can choose whether they're sorted by purchase amount or balance. The report gives a quick overview of the vendors from which you purchase the most or to which you owe the most.|311|
-|[Vendor Item catalog](https://businesscentral.dynamics.com?report=320)|Displays a list of the vendors for the selected items or items for selected vendors. For each combination of item and vendor, it shows direct unit cost, lead time calculation and the vendor's item number.<br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report.|320|
-|[Item/vendor catalog](https://businesscentral.dynamics.com?report=720)|Displays a list of the vendors for the selected items or items for selected vendors. For each combination of item and vendor, it shows direct unit cost, lead time calculation and the vendor's item number.<br>In the US, Canada, and Mexico, this report isn't available. Instead, use the **Item/Vendor Catalog** (10164) report.|720|
-|[Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313)|Shows a list of item entries for each vendor in a selected period. The report contains information on invoiced quantity, amount, and possible discounts. It can be used, for example, to analyze a company's item purchases and to show whether there's a relationship between discounts and item purchases.|313|
-|[Inventory Cost and price list](https://businesscentral.dynamics.com?report=716)|Displays a list of price information for the selected items or stockkeeping units: direct unit cost, last direct cost, unit price, profit percentage, and profit.|716|
-|[Inventory Availability Plan](https://businesscentral.dynamics.com?report=707)|If you would like to have an overview about specific items/stockkeeping units and their availability. This report will show you cumulated values such as gross requirements, scheduled and planned receipts, the inventory, and so on. |707|
-|[Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714)|Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.|714|
-|[Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)|Displays a list of items on order from vendors. It also shows the expected receipt date and the quantity and amount on back orders. For example, use the report to see when items should be received, and whether a reminder of a back order should be issued|709|
-|[Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)|Shows the availability of items for shipment on purchase documents, for example return orders. You determine whether the report indicates the status of each document or of each purchase line. <br>When you print the report, you can also update the quantity that is available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship.. Then you can use the report to determine which documents to ship. **Note**: This report isn't available for advanced warehouse functionality.|409|
-<!--|[](https://businesscentral.dynamics.com?report=)Vendor detailed aging|11006| DACH specific: A report which could be used by the team leader of your purchased department as will the accounting. Here you will have an overview about the unpaid vendor invoices including the due dates, currencies and amounts. Basis is the open vendor ledger entries.| -->
-
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
+|-------|------------| ------------|----|
+| Analyze and reconcile vendor balances at the end of a period. | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
+| Analyze outstanding purchase orders to understand expected purchase volume. Forecast your monthly expected costs & expenses. | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
+| Analyze outstanding purchase orders to understand expected purchase volume from vendors. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |
+| Analyze vendors' effect on cash flow and prioritize vendor payments. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
+| Keep track of vendor performance and ensure that your company gets the best value for its money. | [Purchase statistics](https://businesscentral.dynamics.com?report=312) | [About *Purchase statistics*](../reports/report-312.md) | 312 |
+| Analyze item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amounts, and volume of item purchases. | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About *Vendor/Item Purchases*](../reports/report-313.md) | 313 |
+| Get a checklist of all vendor ledger entries where the invoice is in dispute and the **On Hold** field isn't blank. | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |
+| Get a list of vendors by item or items per vendor. | [Vendor Item catalog](https://businesscentral.dynamics.com?report=320) <br><br>**Note:** This report isn't available in the US, Canada, and Mexico. Instead, use the **Item/Vendor Catalog** (10164) report. | [About *Vendor Item catalog*](../reports/report-320.md) | 320 |
+| Analyze vendor balances at the end of each period. Monitor unpaid invoices, and prioritize payments for overdue accounts. Easily reconcile vendor subledgers against payable accounts in the general ledger, assuming that direct posting is disabled. | [Aged Accounts Payable](https://businesscentral.dynamics.com?report=322) | [About *Aged Accounts Payable*](../reports/report-322.md) | 322 |
+| Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger. | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
+| Explore the availability of items for shipment on purchase documents, such as return orders. | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
+| Analyze outstanding purchase orders to understand expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
+| Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_409_Primary
-ms.date: 10/03/2024
+ms.date: 10/14/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -17,13 +17,14 @@ ai.usage: ai-assisted
 
 # Purchase Reservation Availability (report)
 
-The *Purchase Reservation Availability* report shows the availability of items for shipment on purchase documents, for example return orders. 
+The **Purchase Reservation Availability** report shows the availability of items for shipment on purchase documents, such as return orders.
 
-You determine whether the report indicates the status of each document or of each purchase line. 
+You determine whether the report indicates the status of each document or of each purchase line.
 
-When you run the report, you can also update the quantity that is available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship. Then you can use the report to determine which documents to ship. 
+When you run the report, you can also update the quantity that's available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship. Then, use the report to determine which documents to ship.
 
-**Note:** This report isn't available for advanced warehouse functionality.
+> [!NOTE]
+> This report isn't available for advanced warehouse functionality.
 
 ## Use cases
 
@@ -47,18 +48,21 @@ When you print the report, you can also update the quantity that is available fo
 Please include your data sources and URLs 
  -->
 
-As a procurement specialist, use the report to:
-* Determine availability of items for shipment - The report shows the availability of items for shipment on purchase documents, such as return orders. You can use this information to determine which documents are ready to be shipped and plan accordingly.
+Procurement specialists use the report to:
 
-As a warehouse manager, use the report to:
-* Update quantity available for shipment - The report allows you to update the quantity available for shipment in the Qty. to Receive field on the purchase lines. You can use this information to ensure accurate inventory management and timely shipment of orders.
+* Determine availability of items for shipment. The report shows the availability of items for shipment on purchase documents, such as return orders. Use this information to determine which documents are ready to ship, and plan accordingly.
 
-As a shipping clerk, use the report to:
-* Determine which documents to ship - The report provides information on the availability of items for shipment on purchase documents. You can use this information to determine which documents to ship and ensure timely delivery to customers.
+Warehouse managers use the report to:
 
-As a controller, use the report to:
-* Monitor procurement and inventory management - The report provides information on the availability of items for shipment on purchase documents, allowing you to monitor procurement and inventory management processes and identify any potential issues.
+* Update the quantity available for shipment. The report lets you update the quantity available for shipment in the **Qty. to Receive** field on the purchase lines. Use this information to ensure accurate inventory management and timely shipments.
 
+Shipping specialists use the report to:
+
+* Determine which documents to ship. The report provides information on the availability of items for shipment on purchase documents. Use this information to determine which documents to ship, and ensure timely deliveries.
+
+Controllers use the report to:
+
+* Monitor procurement and inventory management. The report provides information on the availability of items for shipment on purchase documents, allowing you to monitor procurement and inventory management processes and identify potential issues.
 
 ## Try the report
 
@@ -66,12 +70,11 @@ Try the report here: [Purchase Reservation Availability](https://businesscentral
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Purchase reports](../purchase-reports.md)  
-[Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 

@@ -1,13 +1,13 @@
 ---
 title: Vendor - Order Detail (report)
-description: Analyse your outstanding purchase orders to understand your expected purchase volume grouped by vendor. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
+description: Analyze your outstanding purchase orders to understand your expected purchase volume grouped by vendor. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_308_Primary
-ms.date: 10/03/2024
+ms.date: 10/14/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -17,8 +17,13 @@ ai.usage: ai-assisted
 
 # Vendor - Order Detail (report)
 
-The *Vendor - Order Detail* report shows each purchase order and the line level breakdown for each vendor, including information on outstanding purchase receipts, applied line/invoice discounts and outstanding amount. Any lines that have an Expected Receipt Date in the past are included in quantity on back order.
+The **Vendor - Order Detail** report shows each purchase order and the line level breakdown for each vendor. The report includes: 
 
+* Outstanding purchase receipts
+* Applied line and invoice discounts
+* Outstanding amounts. 
+
+Lines that have an expected receipt date in the past are included in the quantity on back order.
 
 ## Use cases
 
@@ -49,14 +54,15 @@ Compare your overall outstanding receipts with the expected receipt date to high
 Please include your data sources and URLs 
 -->
 
-As a procurement specialist, use the report to:
-* Analyze outstanding purchase orders from vendors - The report provides a concise view of all purchase orders and their line level breakdowns from each vendor. Use this information to analyze your expected purchase volume grouped by vendor and make informed decisions on managing their purchasing activities.
-* Identify overdue back orders - The report includes information on outstanding receipts and expected receipt dates for each purchase order. Use this information to compare overall outstanding receipts with the expected receipt date to highlight any overdue back orders. This can help in identifying potential supply chain issues and taking necessary actions to avoid delays in procurement.
+Procurement specialists use the report to:
 
-As a procurement manager, use the report to:
-* Monitor vendor performance - The report provides a complete view of purchase orders and their line level breakdowns from each vendor. Procurement managers can use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
-* Analyze procurement trends - The report provides a comprehensive view of all purchase orders and their line level breakdowns. Procurement managers can use this information to analyze procurement trends, identify patterns, and make informed decisions on optimizing procurement activities.
+* Analyze outstanding purchase orders from vendors. The report provides a concise view of all purchase orders and their line level breakdowns from each vendor. Use this information to analyze your expected purchase volume grouped by vendor and make informed decisions on managing their purchasing activities.
+* Identify overdue back orders. The report includes information on outstanding receipts and expected receipt dates for each purchase order. Use this information to compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. This comparison can help identify potential supply chain issues so you can take necessary actions to avoid delays.
 
+Procurement managers use the report to:
+
+* Monitor vendor performance. The report provides a complete view of purchase orders and their line level breakdowns from each vendor. Procurement managers can use this information to monitor vendor performance and identify discrepancies in pricing or delivery timelines.
+* Analyze procurement trends. The report provides a comprehensive view of all purchase orders and their line level breakdowns. Procurement managers can use this information to analyze procurement trends, identify patterns, and make informed decisions on ways to optimize procurement activities.
 
 ## Try the report
 
@@ -64,11 +70,10 @@ Try the report here: [Vendor - Order Detail](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Purchase reports](../purchase-reports.md)  
-[Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

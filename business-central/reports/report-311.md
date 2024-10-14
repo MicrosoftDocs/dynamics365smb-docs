@@ -1,13 +1,13 @@
 ---
 title: Vendor - Top 10 List report
-description: Analyze vendor impact in cash flow and prioritise vendor payments.
+description: Analyze vendor effect in cash flow and prioritize vendor payments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_311_Primary
-ms.date: 10/03/2024
+ms.date: 10/14/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -17,10 +17,9 @@ ai.usage: ai-assisted
 
 # Vendor - Top 10 List (report)
 
-The *Vendor - Top 10 List* report provides a list of vendors with the most transactions within a selected period. You can choose to display more than 10 vendors.
+The **Vendor - Top 10 List** report provides a list of vendors with the most transactions in a selected period. If needed, you can choose to display more than 10 vendors.
 
-The vendors are sorted by purchase amount within the selected period. The list gives a quick overview of vendors with the largest balance and highest purchase volume.
-
+Vendors are sorted by purchase amounts in the selected period. The list gives a quick overview of vendors with the largest balance and highest purchase volume.
 
 ## Use cases
 
@@ -53,16 +52,18 @@ Review vendors with the most transactions within a selected period to manage cas
 Please include your data sources and URLs
  -->
 
-As a procurement manager, use the report to:
-* Monitor vendor performance - The report provides a complete view of vendors with the most transactions within a selected period. You can use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
-* Prioritize vendor payments - The report provides a quick overview of vendors with the largest balance and highest purchase volume. You can use this information to prioritize vendor payments and manage cash flow effectively.
+Procurement managers use the report to:
 
-As an accounts payable clerk, use the report to:
-* Manage vendor relationships - The report provides a comprehensive view of the vendors from which the company purchases the most. You can use this information to monitor and manage vendor relationships, ensure timely payments, and avoid any potential disputes with vendors.
+* Monitor vendor performance. The report provides a complete view of vendors with the most transactions in a selected period. Use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
+* Prioritize vendor payments. The report provides a quick overview of vendors with the largest balance and highest purchase volume. Use this information to prioritize vendor payments and manage cash flow effectively.
 
-As a controller, use the report to:
-* Forecast cash flow - The report provides a quick overview of vendors with the largest balance and highest purchase volume. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
+Accounts payables specialists use the report to:
 
+* Manage vendor relationships. The report provides a comprehensive view of the vendors from which the company purchases the most. Use this information to monitor and manage vendor relationships, ensure timely payments, and avoid potential disputes with vendors.
+
+Controllers use the report to:
+
+* Forecast cash flow. The report provides a quick overview of vendors with the largest balance and highest purchase volume. Use this information to forecast cash flow, identify potential cashflow issues, and take action to avoid disruptions in cash flow.
 
 ## Try the report
 
@@ -70,11 +71,10 @@ Try the report here: [Vendor - Top 10 List](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Purchase reports](../purchase-reports.md)   
-[Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Purchase reports](../purchase-reports.md)  
+[Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

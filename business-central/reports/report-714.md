@@ -1,13 +1,13 @@
 ---
 title: Inventory Vendor Purchases (report)
-description: Analyse your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases
+description: Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_714_Primary
-ms.date: 10/03/2024
+ms.date: 10/14/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -18,11 +18,11 @@ ai.usage: ai-assisted
 
 # Inventory Vendor Purchases (report)
 
-The *Inventory Vendor Purchases* report shows a total of items purchased from vendors in the given date period, grouped by items.
+The **Inventory Vendor Purchases** report shows a total of items purchased from vendors in a date period, grouped by items.
 
-Value entries for each vendor/item combination is summed up to calculate the total invoiced quantity, cost amount and discount amount.
+Value entries for each combination of vendor and item is summed up to calculate the total invoiced quantity, cost amount, and discount amount.
 
-Added costs such as item charges are also included in the calculated cost amount.
+The calculated cost amount includes added costs, such as item charges.
 
 ## Use cases
 
@@ -54,17 +54,18 @@ Assess the relationship between discounts, cost amount, and volume of item purch
 Please include your data sources and URLs
  -->
 
-As a procurement specialist, use the report to:
-* Analyze item purchases - The report displays a list of vendors that your company has purchased items from within a selected period, showing invoiced quantity, amount, and discount. You can use this information to analyze their item purchases and manage inventory procurement accordingly.
+Procurement specialists use the report to:
 
-As a procurement manager owner, use the report to:
-* Analyze procurement performance - The report shows a total of items purchased from vendors in the given date period, grouped by items. You can use this information to analyze their procurement performance and identify any areas for improvement.
-* Improve supply chain processes - The report provides information on the total invoiced quantity, cost amount, and discount amount for each vendor/item combination, allowing you to assess the relationship between discounts, cost amount, and volume of item purchases. This information can be used to improve supply chain processes and optimize procurement strategies.
+* Analyze item purchases. The report displays a list of vendors that your company purchased from in a selected period, showing invoiced quantity, amount, and discount. Use this information to analyze item purchases and manage inventory procurement.
 
-As a controller, use the report to:
-* Monitor vendor spending - The report provides information on the total invoiced quantity, cost amount, and discount amount for each vendor/item combination, allowing you to monitor vendor spending and identify any potential issues.
+Procurement managers use the report to:
 
+* Analyze procurement performance. The report shows a total of items purchased from vendors in a period, grouped by items. Use this information to analyze procurement performance and identify areas for improvement.
+* Improve supply chain processes. The report provides information on the total invoiced quantity, cost amount, and discount amount for each combination of vendor and item. The analysis lets you assess the relationship between discounts, cost amount, and volume of item purchases. Use this information to improve supply chain processes and optimize procurement strategies.
 
+Controllers use the report to:
+
+* Monitor vendor spending. The report provides information on the total invoiced quantity, cost amount, and discount amount for each combination of vendor and item. The analysis lets you monitor vendor spending and identify potential issues.
 
 ## Try the report
 
@@ -72,11 +73,10 @@ Try the report here: [Inventory Vendor Purchases](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Purchase reports](../purchase-reports.md)  
-[Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

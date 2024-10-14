@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_312_Primary
-ms.date: 10/03/2024
+ms.date: 10/14/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -18,7 +18,6 @@ ai.usage: ai-assisted
 # Purchase statistics (report)
 
 [!INCLUDE [reports-purchase-statistics](../includes/reports-purchase-statistics.md)]
-
 
 ## Use cases
 
@@ -42,16 +41,18 @@ This report can also be used in accounts payable as it's easier to do a quick lo
 Please include your data sources and URLs 
 -->
 
-As a procurement analyst, use the report to:
-* Monitor vendor performance - The report provides a comprehensive view of purchase statistics for each vendor over a period of time. You can use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
-* Evaluate vendor discounts - The report includes information on payment discounts taken and lost. You can use this information to evaluate vendor discounts and identify any potential opportunities for cost savings.
+Procurement analysts use the report to:
 
-As an accounts payable clerk, use the report to:
-* Manage vendor payments - The report provides a quick look-up of posted payments, discounts, and other transactions for a given vendor. You can use this information to manage vendor payments effectively and avoid any potential disputes with vendors.
+* Monitor vendor performance. The report provides a comprehensive view of purchase statistics for each vendor over a period of time. Use this information to monitor vendor performance and identify discrepancies in pricing or delivery timelines.
+* Evaluate vendor discounts. The report includes information on payment discounts taken and lost. Use this information to evaluate vendor discounts and identify opportunities to save cost.
 
-As a controller, use the report to:
-* Forecast cash flow - The report provides a comprehensive view of purchase statistics for each vendor over a period of time. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
+Accounts payable specialists use the report to:
 
+* Manage vendor payments. The report provides a quick look-up of posted payments, discounts, and other transactions for a vendor. Use this information to manage vendor payments and avoid disputes with vendors.
+
+Controllers use the report to:
+
+* Forecast cash flow. The report provides a comprehensive view of purchase statistics for each vendor over a period of time. Use this information to forecast cash flow, identify potential cashflow issues, and take action to avoid disruptions in cash flow.
 
 ## Try the report
 
@@ -61,8 +62,8 @@ Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?
 
 ## See also
 
-[Purchase reports](../purchase-reports.md)   
-[Ad-hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Purchase reports](../purchase-reports.md)  
+[Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

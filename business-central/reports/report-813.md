@@ -17,13 +17,23 @@ ai.usage: ai-assisted
 
 # Inventory Picking List (report)
 
-The *Inventory Picking List* report shows a list of the sales orders for which an item is included. 
+The **Inventory Picking List** report shows a list of the sales orders that include a particular item.
 
-The following information is shown for each item: Sales order line with the name of the customer, variant code, location code, bin code, shipment date, quantity to be shipped, and unit of measure. 
+The report shows the following information for each item: 
 
-The quantity to be shipped is totaled for each item. 
+* Sales order line
+* Customer name
+* Variant code
+* Location code
+* Bin code
+* Shipment date
+* Quantity to ship
+* Unit of measure
 
-**Note**: This report isn't available for advanced warehouse functionality.
+The quantity to ship is a total for each item.
+
+> [!NOTE]
+> This report isn't available for advanced warehouse functionality.
 
 ## Use cases
 
@@ -56,22 +66,23 @@ Please include your data sources and URLs
 
 -->
 
+Sales representatives use the report to:
 
-As a sales representative, use the report to:
 * Keep customers informed about the status of their orders.
-* Use the report to identify any potential delays in order fulfillment and work with the warehouse team to address them.
-* Use the report to prioritize orders based on shipment date and ensure that they are fulfilled on time.
+* Identify any potential delays in fulfillment and work with the warehouse team to address them.
+* Prioritize orders based on shipment date and fulfill them on time.
 
-As a warehouse manager, use the report to:
-* Streamline the process of gathering items from inventory to fulfill orders.
-* Assign picking tasks to warehouse personnel based on the information in the report.
-* Optimize warehouse operations by using the report to identify common items that are frequently ordered together.
+Warehouse managers use the report to:
 
-As a logistics coordinator, use the report to:
-* Monitor the progress of order fulfillment and ensure that orders are shipped on time.
-* Optimize shipment schedules and ensure that orders are fulfilled in the most efficient manner possible.
-* Identify any potential bottlenecks in the order fulfillment process and work with the warehouse team to address them.
+* Streamline the picking process when fulfilling orders.
+* Assign picking tasks to warehouse personnel.
+* Optimize warehouse operations by identifying items that are often ordered together.
 
+Logistics coordinators use the report to:
+
+* Monitor the progress of order fulfillment and ship orders on time.
+* Optimize shipment schedules and efficiently fulfill orders.
+* Identify potential bottlenecks and work with the warehouse team to address them.
 
 ## Try the report
 
@@ -79,11 +90,10 @@ Try the report here: [Inventory Picking List](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
 [Sales analytics overview](../sales-analytics-overview.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Customer - Order Summary (report)
-description: Analyse your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue.
+description: Analyze your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,12 +17,9 @@ ai.usage: ai-assisted
 
 # Customer - Order Summary (report)
 
-The *Customer - Order Summary* report shows the sales order detail with the quantity not yet shipped for each customer in three periods of 30 days each, starting from the specified date. 
+The **Customer - Order Summary** report shows the sales order detail with the quantity not yet shipped for each customer in three periods of 30 days each, starting from a date you specify. You can also display orders to ship before and after the three periods, and the total order detail for each customer.
 
-You can also see orders to be shipped before and after the three periods as well as the total order detail for each customer. 
-
-For a detailed breakdown for each order line, use the *Customer - Order Detail* Report.
-
+For a detailed breakdown for each order line, use the **Customer - Order Detail** Report.
 
 ## Use cases
 
@@ -57,16 +54,17 @@ Please include your data sources and URLs
 
 -->
 
-As a sales representative, use the report to:
-* Analyze customer order history and identify any trends or patterns in their purchasing behavior.
-* Determine which customers have the highest outstanding orders and prioritize follow-up accordingly.
-* Use the report to identify which orders need to be shipped within the next 30 days and communicate shipping timelines to customers.
+Sales representatives use the report to:
 
-As a sales manager, use the report to:
-* Analyze sales performance across different customers and regions.
-* Determine which customers have the highest outstanding orders and prioritize follow-up accordingly.
-* Use the report to identify any bottlenecks or inefficiencies in the sales process and make data-driven decisions to improve performance.
+* Analyze customer order history and identify trends or patterns in their purchasing behavior.
+* Determine which customers have the highest outstanding orders and prioritize follow-up.
+* Identify the orders to ship in the next 30 days and communicate shipping timelines to customers.
 
+Sales managers use the report to:
+
+* Analyze sales performance across customers and regions.
+* Determine which customers have the highest outstanding orders and prioritize follow-up.
+* Identify bottlenecks or inefficiencies in the sales process and make data-driven decisions to improve performance.
 
 ## Try the report
 
@@ -74,11 +72,10 @@ Try the report here: [107](https://businesscentral.dynamics.com?report=107)
 
 <!-- [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)] -->
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,17 +17,14 @@ ai.usage: ai-assisted
 
 # Customer - Sales list (report)
 
-The *Customer - Sales list* report shows customer sales for a period. 
+The **Customer - Sales list** report shows customer sales for a period. You can choose to include only customers with total sales that exceed a minimum amount. You can also specify whether you want the report to show address details for each customer.
 
-You can choose to include only customers with total sales that exceed a minimum amount. 
+The report is based on recorded sales in local currency (LCY) from customer ledger entries. The total reported sales are in LCY. The total is based on the customers you included in the report. That is, the customers that: 
 
-You can also specify whether you want the report to show address details for each customer.
-
-The report is based on recorded sales (LCY) from customer ledger entries. At the bottom of the report, the total reported sales are shown in LCY. The total is based on the customers you have included in the report, that is, the customers that are within the filters on the Customer FastTab and have total sales greater than the amount specified in the **Amounts (LCY) Greater Than** field on the **Options** FastTab.
+* Are within the filters on the **Customer** FastTab.
+* Have total sales greater than the amount specified in the **Amounts (LCY) Greater Than** field on the **Options** FastTab.
 
 ## Use cases
-
-
 
 <!-- 
 Prompt
@@ -57,18 +54,20 @@ Please include your data sources and URLs
 
 -->
 
-As a sales representative, use the report to:
-* Get an overview of customer sales for a period
+Sales representatives use the report to:
 
-As a sales manager, use the report to:
-* Monitor the financial performance of the company's sales operations
-* Identify areas for improvement and set sales targets
-* Evaluate the effectiveness of sales promotions and campaigns
+* Get an overview of customer sales for a period.
 
-As a controller or a tax compliance officer, use the report to:
-* Report customer sales to the tax authorities
-* Verify the accuracy of customer sales data for tax purposes
+Sales managers use the report to:
 
+* Monitor the financial performance of the company's sales operations.
+* Identify areas for improvement and set sales targets.
+* Evaluate the effectiveness of sales promotions and campaigns.
+
+Controllers and tax compliance officers use the report to:
+
+* Report customer sales to tax authorities.
+* Verify the accuracy of customer sales data for tax purposes.
 
 ## Try the report
 
@@ -76,11 +75,10 @@ Try the report here: [Customer - Sales list](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

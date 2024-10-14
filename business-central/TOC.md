@@ -566,9 +566,15 @@ ms.service: dynamics-365-business-central
 ##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Sales list](reports/report-119.md) 
+##### [Customer - Balance to date](reports/report-121.md) 
+##### [Customer - Trial Balance](reports/report-129.md) 
+##### [Sales Reservation Availability](reports/report-209.md) 
+##### [Inventory Order Details](reports/report-708.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Picking List](reports/report-813.md) 
 
 <!-- 
-##### [](reports/report-113.md) 
+##### [](reports/report-.md) 
 -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)

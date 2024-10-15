@@ -38,7 +38,7 @@ Setting up financial reports requires an understanding of the structure of the d
 > Financial reports doesn't work directly with CO2, CH4, or N2O emissions. Instead, it uses the CO2 equivalent model and that means you must first configure **CO2e** (carbon-dioxide equivalent) on the **Emission Fees** page.  
 
 > [!NOTE]
-> More details about using financial reports with financial data and chart of accounts can be found at [Build Financial Reports Using Financial Data and Account Categories](bi-how-work-account-schedule.md).   
+> More details about using financial reports with financial data and chart of accounts can be found at [Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md).   
 
 ## Create a new financial report  
 
@@ -107,9 +107,9 @@ To create or edit a row definition, follow these steps:
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)   
 [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
 [Prepare financial reporting](bi-how-work-account-schedule.md)    
-[Row definition in Financial Reporting](bi-row-definitions.md)    
-[Column definition in the Financial reporting](bi-column-definitions.md)    
-[Finance](finance.md)    
+[Row definitions in Financial Reporting](bi-row-definitions.md)    
+[Column definitions in Financial Reporting](bi-column-definitions.md)    
+[Financial management](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

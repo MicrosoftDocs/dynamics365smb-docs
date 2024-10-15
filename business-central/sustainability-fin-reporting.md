@@ -12,37 +12,39 @@ ms.service: dynamics-365-business-central
 
 # Analyzing sustainability entries with financial reports 
 
-The *Financial Reports* feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. But you can also analyze statistical and sustainability data with the same feature, and even combine all three types of data.  
+The *financial reports* feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. But you can also analyze statistical and sustainability data with the same feature, and even combine all three types of data.  
 
 ## Prerequisites for financial reporting  
 
 Setting up financial reports requires an understanding of the structure of the data you want to analyze. There are some key concepts that you likely need to pay attention to before you design your financial reports: 
 
-1. Related to the Chart of Accounts: 
+1. Related to the chart of accounts: 
    1. Map G/L posting accounts to G/L account categories. 
    2. Design how you use dimensions.
    3. Set up G/L budgets.  
-2. Related to the Sustainability:   
+
+2. Related to sustainability:   
    1. Set up your sustainability accounts. 
    2. Set up your carbon fees and CO2e in the **Emission Fees**.
    3. Design how you use dimensions.  
-3. Related to the Statistical accounts: 
+
+3. Related to the statistical accounts: 
    1. Set up your statistical accounts. 
    2. Design how you use dimensions.  
 
 > [!NOTE]
-> Financial reports doesn't work directly with CO2, CH4, or N2O emissions. Instead of that it uses the CO2 equivalent model and that means you must first configure **CO2e** (carbon-dioxide equivalent) on the **Emission Fees** page.  
+> Financial reports doesn't work directly with CO2, CH4, or N2O emissions. Instead, it uses the CO2 equivalent model and that means you must first configure **CO2e** (carbon-dioxide equivalent) on the **Emission Fees** page.  
 
 > [!NOTE]
-> More details about using Financial reports with financial data and chart of accounts can be found here [Build Financial Reports Using Financial Data and Account Categories](bi-how-work-account-schedule.md).   
+> More details about using financial reports with financial data and chart of accounts can be found at [Build Financial Reports Using Financial Data and Account Categories](bi-how-work-account-schedule.md).   
 
 ## Create a new financial report  
 
-To quickly create your own financial reports, start by copying an existing one, as described in step 3 below. 
+To quickly create your own financial reports, start by copying an existing one, as described in step 3 here: 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.  
 2. On the **Financial Reports** page, choose the **New** action to create a new financial report name.  
-3. Fill in the report short name in **Name** (you can't change the name later) field and enter **Description**.  
+3. Fill in the report short name in **Name** field (you can't change the name later) and enter a **Description**.  
 4. Choose a row definition and a column definition.   
 5. Choose the **Edit Report Definition** action to access more properties on the financial report.  
 6. On the **Options** FastTab, you can edit the report description, change the row and column definitions, and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas). 
@@ -51,7 +53,10 @@ To quickly create your own financial reports, start by copying an existing one, 
 
 If you want to analyze your sustainability or statistical data, you can achieve this by setting up the **Row Definition**.  
 
-To create or edit a row definition, follow the steps:
+To create or edit a row definition, follow these steps:
+
+
+
 
 1. On the **Financial Reports** page, select the relevant financial report, and then choose the **Edit Row Definition** action. 
 2. Set up rows as in the following steps.  

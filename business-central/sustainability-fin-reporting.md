@@ -10,6 +10,8 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
+<!-- note from editor: Line 69 says "Set up rows as in the following steps." It isn't clear what the following steps are. Are they the steps that begin in line 82? If so, maybe say "Set up rows as in the steps below in Analyzing sustainability data." -->
+
 # Analyzing sustainability entries with financial reports 
 
 The *financial reports* feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. But you can also analyze statistical and sustainability data with the same feature, and even combine all three types of data.  
@@ -63,32 +65,40 @@ If you want to analyze your sustainability or statistical data, you can achieve 
 To create or edit a row definition, follow these steps:
 
 1. On the **Financial Reports** page, select the relevant financial report, and then choose the **Edit Row Definition** action. 
+
 2. Set up rows as in the following steps.  
 
 > [!NOTE]
 > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. If you add elements with identifiers that start with the same 10 characters, you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
 
 > [!NOTE]
-> You can combine all **Totaling Types**, i.e. Posting accounts, Sust. Accounts, Statistical Account.
+> You can combine all **Totaling Types**, that is, Posting accounts, Sust. Accounts, and Statistical Account.
 
 > [!NOTE]
 > Row definitions aren't versioned. When you change a row definition, the old version is replaced and your changes will be saved to the database. 
 
 ### Analyzing sustainability data  
 
-1. Enter the **Row No.** to identify your raw and add **Description** as a text that will appear on the financial report line. 
-2. In the Totaling Type column, choose the **Sust. Accounts** option.   
-3. In the Totaling field, choose one or more sustainability accounts using all applicable filters. 
+1. Enter the **Row No.** to identify your row and add **Description** as a text that will appear on the financial report line. 
+
+2. In the **Totaling Type** column, choose the **Sust. Accounts** option.   
+
+3. In the **Totaling** field, choose one or more sustainability accounts using all applicable filters. 
+
 4. In the **Amount Type** choose one of the options:   
-   1. **CO2e** if you want to report CO2 equivalent value from the **CO2e Emission** field in the **Sustainability Ledger Entries**. 
-   2. **Carbon Fee** if you want to report financial equivalent (carbon fee) from the **Carbon Fee** field on the **Sustainability Ledger Entries**. 
-5. If you choose **Formula** as a **Totaling Type** you can use mathematical formulas in the **Totaling** column.  
+   1. Choose **CO2e** if you want to report CO2 equivalent value from the **CO2e Emission** field in the **Sustainability Ledger Entries**. 
+   2. Choose **Carbon Fee** if you want to report financial equivalent (carbon fee) from the **Carbon Fee** field on the **Sustainability Ledger Entries**. 
+
+5. If you choose **Formula** as a **Totaling Type**, you can use mathematical formulas in the **Totaling** column.  
 
 ### Analyzing statistical data
 
 1. Enter the **Row No.** to identify your row and add **Description** as a text that will appear on the financial report line. 
+
 2. In the **Totaling Type** column, choose the **Statistical Accounts** option.   
+
 3. In the **Totaling** field, choose one or more sustainability accounts using all applicable filters. 
+
 4. If you choose **Formula** as a **Totaling Type**, you can use mathematical formulas in the **Totaling** column.  
 
 ## See also

@@ -288,18 +288,18 @@ When you run the report, the following happens in [!INCLUDE [prod_short](../incl
 Update the **Shopify Order ID** field based on the results of the sync:
 
 * Successful export: update the **Shopify Order ID** field with the ID of the order in Shopify.
-Export failed: set "-1"
-Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
+* Export failed: set "-1"
+* Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
 
-The same pattern is used in the posted sales shipment, where the **Update Document** page lets you replace **-1** and **-2** or **0** to retry the export.
+>[!Note]
+>The same pattern is used in the posted sales shipment, where the **Update Document** page lets you replace **-1** and **-2** with **0** to retry the export.
 
 **Shopify**
 
-The connector uses GraphQL to:
+The Shopify connector does following steps:
 
-* Create a draft order with header and item lines
-* Complete the draft order
-* Convert the draft order it to an order
+* Creates a draft order with header and item lines
+* Converts the draft order it to an order
 
 **Fields export to order headers and lines**
 
@@ -316,7 +316,7 @@ The following fields export on the order lines:
 * Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] won’t be available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
 * Quantity, in whole numbers. Shopify doesn’t support fractions.
 
-### Effect on the process of synchronizing orders**
+### Effect on the process of synchronizing orders
 
 Synchronization imports the order and checks whether it was exported earlier. If it was exported earlier:
 

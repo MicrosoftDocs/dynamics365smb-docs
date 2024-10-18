@@ -360,6 +360,11 @@ The tracking company is populated in the following order (from highest to lowest
 
 If the **Package Tracking URL** field is filled in for the shipping agent record, the shipping confirmation contains a tracking URL.
 
+>[!Tip]
+>If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle in the **Shopify Shop card** page.
+>
+>The **Shipping Agent Code** and **Shipping Agent Service Code** could be populated autmatically based on setting in the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+
 ## Returns and refunds
 
 In an integration between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], it's important to be able to synchronize as much business data as possible. That makes it easier to keep your finance and inventory levels up to date in [!INCLUDE[prod_short](../includes/prod_short.md)]. The data you can synchronize includes returns and refunds that were recorded in Shopify Admin or Shopify POS.

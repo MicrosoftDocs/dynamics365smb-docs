@@ -548,7 +548,7 @@ ms.service: dynamics-365-business-central
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### Key finance reports
-##### [Built-in key finance reports](finance-reports.md)
+##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
 ##### [Trial Balance](reports/report-6.md) 
 ##### [Trial Balance/Previous Year](reports/report-7.md) 
@@ -556,6 +556,8 @@ ms.service: dynamics-365-business-central
 
 <!-- 
 ##### [Closing Trial Balance](reports/report-10.md)
+##### [](reports/report-17.md) 
+##### [](reports/report-18.md) 
 ##### [Financial Report](reports/report-25.md)
 ##### [Dimensions - Total](reports/report-27.md)
 ##### [Dimensions - Detail](reports/report-28.md)

@@ -14,11 +14,12 @@ The following table describes some key financial reports. The reports are design
 | Audit and reconcile your general ledger balances at the end of the period by seeing the net change, opening balance, each transaction within the period and the closing balance grouped by G/L account. | [Detail Trial Balance](https://businesscentral.dynamics.com?report=4) | [About *Detail Trial Balance*](../reports/report-4.md) | 4 |
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance. | [Trial Balance](https://businesscentral.dynamics.com?report=6) | [About *Trial Balance*](../reports/report-6.md) | 6 |
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the same period in the previous calendar year. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
-
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the budget. | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | [About *Trial Balance/Budget*](../reports/report-9.md) | 9 |
+| Report and check end of financial year figures, excluding closing entries comparing this year and the previous year. | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About *Closing Trial Balance*](../reports/report-10.md) | 10 |
 
 <!-- 
-|  | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About *Closing Trial Balance*](../reports/report-10.md) | 10 |
+17
+18
 |  | [Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
 |  | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 |  | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |

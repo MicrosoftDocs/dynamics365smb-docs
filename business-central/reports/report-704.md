@@ -21,7 +21,7 @@ The *Inventory - Transaction Detail* report shows all inventory transaction deta
 
 The report shows the quantity at the beginning of the period, all of the increase and decrease entries during the period with a running update of the inventory, and the quantity at the close of the period. 
 
-You can use the report can be used to track changes in inventory and for audit purposes at the close of an accounting period.
+You can use the report to track changes in inventory and for audit purposes at the close of an accounting period.
 
 
 ## Use cases

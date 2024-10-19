@@ -643,7 +643,9 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 #### Built-in inventory and warehouse reports
 #### [Inventory and warehouse report overview](inventory-WMS-reports.md)
-##### [](reports/report-704.md)
+##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Inventory Availability Plan](reports/report-707.md)
+##### [Inventory Order Details](reports/report-708.md)
 
 <!-- 
 ##### [](reports/report-.md) 

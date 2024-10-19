@@ -65,7 +65,7 @@ As a warehouse manager, use the report to:
 
 As a purchasing manager, use the report to:
 * Monitor the expiration date of inventory to ensure that the warehouse is not holding onto obsolete or expired products
-* Use the data to negotiate better pricing with suppliers for items that are close to expiration
+* Negotiate better pricing with suppliers for items that are close to expiration
 * Plan purchasing activities based on the expiration date of inventory to optimize inventory levels and reduce waste
 
 

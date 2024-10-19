@@ -64,12 +64,12 @@ Please include your data sources and URLs
 As a warehouse manager, use the report to:
 * Review the age of stock in your warehouse by value to determine obsolescence and identify slow-moving inventory
 * Analyze inventory aging to identify which products are in high demand and which ones are slow-moving
-* Use the data to plan promotions or markdowns to sell slow-moving inventory and improve sales
+* Plan promotions or markdowns to sell slow-moving inventory and improve sales
 
 As a sales and marketing manager, use the report to:
 * Analyze inventory aging to identify which products are in high demand and which ones are slow-moving
 * Review the age of stock in your warehouse by value to determine obsolescence and identify slow-moving inventory
-* Use the data to plan promotions or markdowns to sell slow-moving inventory and improve sales
+* Plan promotions or markdowns to sell slow-moving inventory and improve sales
 
 As a financial analyst, use the report to:
 * Calculate inventory turnover ratios and days in inventory to determine the effectiveness of inventory management

@@ -29,19 +29,11 @@ The following table describes some of the key reports in inventory and warehouse
 | Analyse your item entries with dimension totals by building a grouping of dimensions for each permutation of dimension values, and view a calculated total based on user defined columns (i.e. net change, balance at date, actual vs budget). | [Item Dimensions - Total](https://businesscentral.dynamics.com?report=7151) | [About *Item Dimensions - Total*](../reports/report-7151.md) | 7151 |
 | Get an overview of source documents that are open and have items shipped or due for shipping per location. | [Warehouse Shipment Status](https://businesscentral.dynamics.com?report=7313) | [About *Warehouse Shipment Status*](../reports/report-7313.md) | 7313 |
 | Get an overview of warehouse bins, their setup, and the quantity of items within the bins.  | [Warehouse Bin List](https://businesscentral.dynamics.com?report=7319) | [About *Warehouse Bin List*](../reports/report-7319.md) | 7319 |
+| Get an overview of adjustment bin usage (for advanced warehouse scenarios). | [Warehouse Adjustment Bin](https://businesscentral.dynamics.com?report=7320) | [About *Warehouse Adjustment Bin*](../reports/report-7320.md) | 7320 |
 
 
 
-
-<!-- 
-|  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
-
-
-7320 
--->
-
-
-## The old way
+<!-- Remove this after 2025-01-01
 
 | Report | Description | ID | 
 |---------|---------|---------|
@@ -54,4 +46,6 @@ The following table describes some of the key reports in inventory and warehouse
 |[Warehouse Bin List](https://businesscentral.dynamics.com?report=7319)|Get an overview of warehouse bins, their setup, and the quantity of items within the bins. This report can cover all locations at which bins are mandatory. |7319|
 |[Warehouse Shipment Status](https://businesscentral.dynamics.com?report=7313)|Get an overview of source documents that are open and have items shipped or due for shipping per location. This report can be used for all locations that require shipments, and it shows locations, bin codes, document status, quantities.|7313|
 |[Inventory Picking List](https://businesscentral.dynamics.com?report=813)|Displays a list of the sales orders that include a selected item. It shows the following information for each item: sales order line with the customer's name, variant code, location code, bin code, shipment date, quantity to ship, and unit of measure. The quantity to be shipped is totaled for each item. Use the report when you need to pick items from inventory.<br><br>**NOTE:** This report isn't available for advanced warehouse functionality.|813|
-|[Warehouse Adjustment Bin](https://businesscentral.dynamics.com?report=7320)|This report is meant only for an advanced warehouse. It shows the remaining quantities that are stored in the adjustment bin itself. Typically, the adjustment bin should be empty. There are two reasons for it to contain quantities. When it's the result of physical counting process, or if quantities are removed or added to the warehouse.|7320|
+|[Warehouse Adjustment Bin](https://businesscentral.dynamics.com?report=7320)|This report is meant only for an advanced warehouse. It shows the remaining quantities that are stored in the adjustment bin itself. Typically, the adjustment bin should be empty. There are two reasons for it to contain quantities. When it's the result of physical counting process, or if quantities are removed or added to the warehouse.|7320| 
+
+-->

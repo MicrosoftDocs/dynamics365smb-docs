@@ -69,7 +69,7 @@ As a inventory/warehouse manager, use the report to:
 As a purchasing manager, use the report to:
 * Analyze inventory aging to identify which products are in high demand and should be reordered
 * Review the age of stock in your inventory/warehouse by quantity to determine obsolescence and identify slow-moving inventory
-* Use the data to negotiate better pricing with suppliers for slow-moving inventory
+* Negotiate better pricing with suppliers for slow-moving inventory
 
 As a financial analyst, use the report to:
 * Monitor inventory aging to ensure that the inventory/warehouse is not holding onto obsolete or expired products

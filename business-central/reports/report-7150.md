@@ -56,7 +56,7 @@ Please include your data sources and URLs
 
 As a supply chain manager, use the report to:
 * Analyze inventory levels by dimension levels to ensure that inventory is optimized for each segment
-* Use the data to plan purchasing activities for specific segments to optimize inventory levels and reduce waste
+* Plan purchasing activities for specific segments to optimize inventory levels and reduce waste
 * Monitor inventory trends by location and dimension levels to identify areas for improvement or cost savings
 
 As a financial analyst, use the report to:
@@ -66,7 +66,7 @@ As a financial analyst, use the report to:
 
 As a sales and marketing manager, use the report to:
 * Analyze sales trends by location and dimension levels to identify areas for growth or improvement
-* Use the data to plan promotions or markdowns for specific segments to improve sales
+* Plan promotions or markdowns for specific segments to improve sales
 * Monitor inventory levels by dimension levels to ensure that inventory is optimized for each segment
 
 

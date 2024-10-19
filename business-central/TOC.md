@@ -573,10 +573,6 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
 
-<!-- 
-##### [](reports/report-.md) 
--->
-
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
@@ -645,7 +641,14 @@ ms.service: dynamics-365-business-central
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
-#### [Built-in inventory and warehouse reports](inventory-WMS-reports.md)
+#### Built-in inventory and warehouse reports
+#### [Inventory and warehouse report overview](inventory-WMS-reports.md)
+##### [](reports/report-704.md)
+
+<!-- 
+##### [](reports/report-.md) 
+-->
+
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)

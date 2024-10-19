@@ -9,6 +9,15 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in inventory and warehouse management.
 
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
+| Review all inventory movements for the selected items for a selected period. Allows auditing historical inventory movements e.g. sales, purchases and transfers of stock for a selected item to determine the basis of the current inventory quantity. | [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704) | [About *Inventory - Transaction Detail*](../reports/report-704.md) | 704 |
+
+
+
+
+## The old way
+
 | Report | Description | ID | 
 |---------|---------|---------|
 |[Inventory Availability Plan](https://businesscentral.dynamics.com?report=707)|Get an overview of specific items and stock-keeping units, and their availability. This report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on. |707|

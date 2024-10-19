@@ -648,8 +648,9 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Top 10 List](reports/report-711.md) 
+##### [Inventory Customer Sales](reports/report-713.md) 
 ##### [Inventory Vendor Purchases](reports/report-714.md)
-##### [Item/vendor catalog](reports/report-720.md)
+
 
 <!-- 
 ##### [](reports/report-.md) 

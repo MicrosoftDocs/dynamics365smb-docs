@@ -16,10 +16,14 @@ The following table describes some of the key reports in inventory and warehouse
 | Analyze outstanding sales orders to understand your expected sales volume for items. To highlight any overdue back orders, compare your overall outstanding shipments with the planned shipment date. | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About *Inventory Order Details*](../reports/report-708.md) | 708 |
 | Analyze outstanding purchase orders to understand expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Review the highest or lowest selling items based on quantity and amount over the selected period to assist with purchase planning. | [Inventory Top 10 List](https://businesscentral.dynamics.com?report=711) | [About *Inventory Top 10 List*](../reports/report-711.md) | 711 |
+| Analyse your customer sales per item to understand sales trends, optimise inventory management and improve marketing efforts. Assess the relationship between discounts, sales amount and volume of item sales. | [Inventory Customer Sales](https://businesscentral.dynamics.com?report=713) | [About *Inventory Customer Sales*](../reports/report-713.md) | 713 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
 
 
 <!-- 
+
+|  | [](https://businesscentral.dynamics.com?report=713) | [About **](../reports/report-713.md) | 713 |
+
 1001
 5809
 5807

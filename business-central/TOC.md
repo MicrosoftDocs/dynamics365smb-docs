@@ -655,6 +655,8 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
 ##### [Item Age Composition - Quantity](reports/report-5807.md) 
+##### [Item Age Composition - Value](reports/report-5808.md) 
+
 
 <!-- 
 ##### [](reports/report-.md) 

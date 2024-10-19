@@ -9,6 +9,19 @@ ms.reviewer: bholtorf
 
 The following table describes some key financial reports.
 
+The following table describes some of the key reports for sales. The reports help different roles in sales departments make informed decisions that optimize their operations. 
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
+| Audit and reconcile your general ledger balances at the end of the period by seeing the net change, opening balance, each transaction within the period and the closing balance grouped by G/L account. | [Detail Trial Balance](https://businesscentral.dynamics.com?report=4) | [About *Detail Trial Balance*](../reports/report-4.md) | 4 |
+
+
+<!-- 
+|  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
+ -->
+
+## The old way
+
 | Report | Description | ID |
 |--|--|--|
 | [Trial Balance](https://businesscentral.dynamics.com?report=6) | Shows the chart of accounts with balances and net changes. You can choose to see a trial balance for selected dimensions or use the report at the close of an accounting period or fiscal year. | 6 |

@@ -547,7 +547,14 @@ ms.service: dynamics-365-business-central
 
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
-#### [Built-in key finance reports](finance-reports.md)
+#### Key finance reports
+##### [Built-in key finance reports](finance-reports.md)
+##### [](reports/report-4.md) 
+
+<!-- 
+##### [](reports/report-.md) 
+-->
+
 #### [Built-in fixed assets reports](fa-reports.md)
 #### [Built-in accounts receivable reports](receivables-reports.md)
 #### [Built-in accounts payable reports](payables-reports.md)
@@ -572,10 +579,6 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
-
-<!-- 
-##### [](reports/report-.md) 
--->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)

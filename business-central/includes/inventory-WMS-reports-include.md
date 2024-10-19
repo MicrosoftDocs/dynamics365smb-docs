@@ -25,10 +25,15 @@ The following table describes some of the key reports in inventory and warehouse
 | Review the age of stock in your warehouse by quantity to determine obsolescence and identify slow moving inventory. | [Item Age Composition - Quantity](https://businesscentral.dynamics.com?report=5807) | [About *Item Age Composition - Quantity*](../reports/report-5807.md) | 5807 |
 | Review the age of stock in your warehouse by value to determine obsolescence and identify slow moving inventory. | [Item Age Composition - Value](https://businesscentral.dynamics.com?report=5808) | [About *Item Age Composition - Value*](../reports/report-5808.md) | 5808 |
 | Highlight stock on hand that is expired or soon to be expired.  | [Item Expiration - Quantity](https://businesscentral.dynamics.com?report=5809) | [About *Item Expiration - Quantity*](../reports/report-5809.md) | 5809 |
+| Analyse your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment. | [Item Dimensions - Detail](https://businesscentral.dynamics.com?report=7150) | [About *Item Dimensions - Detail*](../reports/report-7150.md) | 7150 |
+
+
 
 
 <!-- 
 |  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
+
+7151
 
 7313
 7319

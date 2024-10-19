@@ -657,6 +657,7 @@ ms.service: dynamics-365-business-central
 ##### [Item Age Composition - Quantity](reports/report-5807.md) 
 ##### [Item Age Composition - Value](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
+##### [](reports/report-7150.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

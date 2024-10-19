@@ -27,12 +27,11 @@ The following table describes some of the key reports in inventory and warehouse
 | Highlight stock on hand that is expired or soon to be expired.  | [Item Expiration - Quantity](https://businesscentral.dynamics.com?report=5809) | [About *Item Expiration - Quantity*](../reports/report-5809.md) | 5809 |
 | Analyse your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment. | [Item Dimensions - Detail](https://businesscentral.dynamics.com?report=7150) | [About *Item Dimensions - Detail*](../reports/report-7150.md) | 7150 |
 | Analyse your item entries with dimension totals by building a grouping of dimensions for each permutation of dimension values, and view a calculated total based on user defined columns (i.e. net change, balance at date, actual vs budget). | [Item Dimensions - Total](https://businesscentral.dynamics.com?report=7151) | [About *Item Dimensions - Total*](../reports/report-7151.md) | 7151 |
-
+| Get an overview of source documents that are open and have items shipped or due for shipping per location. | [Warehouse Shipment Status](https://businesscentral.dynamics.com?report=7313) | [About *Warehouse Shipment Status*](../reports/report-7313.md) | 7313 |
 
 <!-- 
 |  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
 
-7313
 7319
 7320 
 -->

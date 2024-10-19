@@ -659,7 +659,7 @@ ms.service: dynamics-365-business-central
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
 ##### [Item Dimensions - Detail](reports/report-7150.md) 
 ##### [Item Dimensions - Total](reports/report-7151.md) 
-
+##### [Warehouse Shipment Status](reports/report-7313.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

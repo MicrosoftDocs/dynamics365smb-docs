@@ -654,6 +654,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
+##### [Item Charges - Specification](reports/report-5806.md) 
 ##### [Item Age Composition - Quantity](reports/report-5807.md) 
 ##### [Item Age Composition - Value](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 

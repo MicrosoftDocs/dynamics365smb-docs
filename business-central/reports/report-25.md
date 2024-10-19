@@ -1,6 +1,6 @@
 ---
 title: Financial Reporting (report)
-description: 
+description: Analyse your chart of accounts with an easily configurable view of general ledger accounts. Simplifies reporting for common scenarios, such as Balance Sheet, Income Statement, and Cash Flow Statement
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

@@ -15,10 +15,16 @@ The following table describes some key financial reports. The reports are design
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance. | [Trial Balance](https://businesscentral.dynamics.com?report=6) | [About *Trial Balance*](../reports/report-6.md) | 6 |
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the same period in the previous calendar year. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
 
+| View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the budget. | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | [About *Trial Balance/Budget*](../reports/report-9.md) | 9 |
 
 <!-- 
-|  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
- -->
+|  | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About *Closing Trial Balance*](../reports/report-10.md) | 10 |
+|  | [Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
+|  | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
+|  | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
+|  | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
+|  | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
+-->
 
 ## The old way
 

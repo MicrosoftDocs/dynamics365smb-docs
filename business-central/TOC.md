@@ -549,7 +549,8 @@ ms.service: dynamics-365-business-central
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### Key finance reports
 ##### [Built-in key finance reports](finance-reports.md)
-##### [](reports/report-4.md) 
+##### [Detail Trial Balance](reports/report-4.md) 
+##### [Trial Balance](reports/report-6.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

@@ -13,6 +13,7 @@ The following table describes some key financial reports. The reports are design
 |-------|------------| ------------|----|
 | Audit and reconcile your general ledger balances at the end of the period by seeing the net change, opening balance, each transaction within the period and the closing balance grouped by G/L account. | [Detail Trial Balance](https://businesscentral.dynamics.com?report=4) | [About *Detail Trial Balance*](../reports/report-4.md) | 4 |
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance. | [Trial Balance](https://businesscentral.dynamics.com?report=6) | [About *Trial Balance*](../reports/report-6.md) | 6 |
+| View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the same period in the previous calendar year. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
 
 
 <!-- 

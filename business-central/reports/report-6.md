@@ -59,6 +59,11 @@ Please include your data sources and URLs
 
 -->
 
+As a financial analyst, use the report to:
+* Analyze the financial trends of the business by reviewing the balances and net changes of each account in the chart of accounts over time
+* Use the data to identify areas for cost savings or revenue generation and make recommendations for improving financial performance
+* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+
 As a financial accountant, use the report to:
 * Prepare financial statements, such as income statements, balance sheets, and cash flow statements, based on the data obtained from the report
 * Verify the accuracy of the financial data by ensuring that debits and credits are balanced
@@ -68,11 +73,6 @@ As a financial controller, use the report to:
 * Monitor the financial performance of the business by reviewing the balances and net changes of each account in the chart of accounts
 * Identify areas for cost savings or revenue generation and make recommendations for improving financial performance
 * Prepare financial reports for internal and external stakeholders, such as board members or regulatory agencies based on the data obtained from the report
-
-As a financial analyst, use the report to:
-* Analyze the financial trends of the business by reviewing the balances and net changes of each account in the chart of accounts over time
-* Use the data to identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
 
 
 ## Try the report

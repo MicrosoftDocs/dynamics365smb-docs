@@ -650,7 +650,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Top 10 List](reports/report-711.md) 
 ##### [Inventory Customer Sales](reports/report-713.md) 
 ##### [Inventory Vendor Purchases](reports/report-714.md)
-
+##### [Inventory Cost and price list](reports/report-716.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

@@ -18,20 +18,22 @@ The following table describes some of the key reports in inventory and warehouse
 | Review the highest or lowest selling items based on quantity and amount over the selected period to assist with purchase planning. | [Inventory Top 10 List](https://businesscentral.dynamics.com?report=711) | [About *Inventory Top 10 List*](../reports/report-711.md) | 711 |
 | Analyse your customer sales per item to understand sales trends, optimise inventory management and improve marketing efforts. Assess the relationship between discounts, sales amount and volume of item sales. | [Inventory Customer Sales](https://businesscentral.dynamics.com?report=713) | [About *Inventory Customer Sales*](../reports/report-713.md) | 713 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
-
+| Analyze and manage your inventory costs and pricing strategies. | [Inventory Cost and price list](https://businesscentral.dynamics.com?report=716) | [About *Inventory Cost and price list*](../reports/report-716.md) | 716 |
 
 <!-- 
 
-|  | [](https://businesscentral.dynamics.com?report=713) | [About **](../reports/report-713.md) | 713 |
+|  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
+
+813
 
 1001
-5809
 5807
 5808
-716
-7319
+5809
+
 7313
-813
+7319
+
 7320 
 -->
 

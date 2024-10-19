@@ -1,12 +1,12 @@
 ---
-title: Item Dimensions - Detail (report)
-description: Analyse your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment
+title: Item Dimensions - Total (report)
+description: Analyse your item entries with dimension totals by building a grouping of dimensions for each permutation of dimension values, and view a calculated total based on user defined columns (i.e. net change, balance at date, actual vs budget).
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_7150_Primary
+ms.search.form: Report_7151_Primary
 ms.date: 10/18/2024
 ms.service: dynamics-365-business-central
 ms.custom:
@@ -15,13 +15,15 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Item Dimensions - Detail (report)
+# Item Dimensions - Total (report)
 
-The *Item Dimensions - Detail* report shows a breakdown of value entries based on dimension levels specified on the request page. 
+The *Item Dimensions - Total* report shows calculated item entry totals for dimension levels specified by the user, for a given date period.
 
 Dimension levels are specified by selecting an analysis view configured with dimension codes, then picking a hierarchy of how the dimension groups are grouped under one another. Location is automatically included as a dimension.
 
 This report can be based on analysis view entries from either sales, purchase or inventory areas.
+
+Calculated totals are fully customisable through the adoption of Analysis Columns, which provides ability to specify calculation methods (net change or balance), item entry source (budget or actual), analysis type (quantity, sales amounts or cost amounts) and even period/date formula methods for finer month comparison controls.
 
 ## Use cases
 
@@ -37,18 +39,20 @@ As a <persona>, use the report to
 
 Do not capitalize the persona names. 
 
-## Report name
-Item Dimensions - Detail
+## Report description
+
 
 ### What the report does
-Shows a breakdown of value entries based on dimension levels specified by the user. 
+Shows calculated item entry totals for dimension levels specified by the user, for a given date period.
 
 Dimension levels are specified by selecting an analysis view configured with dimension codes, then picking a hierarchy of how the dimension groups are grouped under one another. Location is automatically included as a dimension.
 
 This report can be based on analysis view entries from either sales, purchase or inventory areas.
 
+Calculated totals are fully customisable through the adoption of Analysis Columns, which provides ability to specify calculation methods (net change or balance), item entry source (budget or actual), analysis type (quantity, sales amounts or cost amounts) and even period/date formula methods for finer month comparison controls.
+
 ### Use cases
-Analyse your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment
+Analyse your item entries with dimension totals by building a grouping of dimensions for each permutation of dimension values, and view a calculated total based on user defined columns (i.e. net change, balance at date, actual vs budget)
 
 Please include your data sources and URLs
 
@@ -59,7 +63,7 @@ As a supply chain manager, use the report to:
 * Use the data to plan purchasing activities for specific segments to optimize inventory levels and reduce waste
 * Monitor inventory trends by location and dimension levels to identify areas for improvement or cost savings
 
-As a financial analyst, use the report to:
+As a financial controller, use the report to:
 * Analyze inventory trends by location and dimension levels to identify areas for cost savings or improvement
 * Monitor inventory levels by dimension levels to ensure that inventory is optimized for each segment
 * Calculate inventory turnover ratios and days in inventory for each dimension level to determine the effectiveness of inventory management
@@ -70,6 +74,7 @@ As a sales and marketing manager, use the report to:
 * Monitor inventory levels by dimension levels to ensure that inventory is optimized for each segment
 
 
+
 ## Analyze data by dimensions
 
 [!INCLUDE[Analyze-data-by-dimensions](../includes/analyze-data-by-dimensions-report-include.md)]
@@ -77,7 +82,7 @@ As a sales and marketing manager, use the report to:
 
 ## Try the report
 
-Try the report here: [Item Dimensions - Detail](https://businesscentral.dynamics.com?report=7150)
+Try the report here: [Item Dimensions - Total](https://businesscentral.dynamics.com?report=7151)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

@@ -24,13 +24,11 @@ The following table describes some of the key reports in inventory and warehouse
 | Reconcile your inventory subledger to the inventory account(s) in the general ledger at the end of each period. Analyse the changes to expected costs posted during the period, and determine the value of inventory on hand for financial reporting. | [Inventory Valuation](https://businesscentral.dynamics.com?report=1001)  <br><br>**Note!** In the US, Canada, and Mexico, this report isn't available. Instead, use the localized version of Inventory Valuation (10139) report. | [About *Inventory Valuation*](../reports/report-1001.md) | 1001 |
 | Review the age of stock in your warehouse by quantity to determine obsolescence and identify slow moving inventory. | [Item Age Composition - Quantity](https://businesscentral.dynamics.com?report=5807) | [About *Item Age Composition - Quantity*](../reports/report-5807.md) | 5807 |
 | Review the age of stock in your warehouse by value to determine obsolescence and identify slow moving inventory. | [Item Age Composition - Value](https://businesscentral.dynamics.com?report=5808) | [About *Item Age Composition - Value*](../reports/report-5808.md) | 5808 |
-
+| Highlight stock on hand that is expired or soon to be expired.  | [Item Expiration - Quantity](https://businesscentral.dynamics.com?report=5809) | [About *Item Expiration - Quantity*](../reports/report-5809.md) | 5809 |
 
 
 <!-- 
 |  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
-
-5809
 
 7313
 7319

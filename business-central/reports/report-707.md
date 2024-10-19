@@ -76,7 +76,7 @@ Try the report here: [Inventory Availability Plan](https://businesscentral.dynam
 
 ## See also
 
-[Inventory and warehouse report overview](../reports/inventory-WMS-reports.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
 [Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 

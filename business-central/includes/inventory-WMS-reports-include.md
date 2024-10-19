@@ -22,6 +22,7 @@ The following table describes some of the key reports in inventory and warehouse
 | Get an overview of sales orders that you can't fulfill because items are out-of-stock.  | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About *Inventory Sales Back Orders*](../reports/report-718.md) | 718 |
 | Explore sales orders that are covered when you pick items from inventory. | [Inventory Picking List](https://businesscentral.dynamics.com?report=813) | [About *Inventory Picking List*](../reports/report-813.md) | 813 |
 | Reconcile your inventory subledger to the inventory account(s) in the general ledger at the end of each period. Analyse the changes to expected costs posted during the period, and determine the value of inventory on hand for financial reporting. | [Inventory Valuation](https://businesscentral.dynamics.com?report=1001)  <br><br>**Note!** In the US, Canada, and Mexico, this report isn't available. Instead, use the localized version of Inventory Valuation (10139) report. | [About *Inventory Valuation*](../reports/report-1001.md) | 1001 |
+| Review the age of stock in your warehouse by quantity to determine obsolescence and identify slow moving inventory. | [Item Age Composition - Quantity](https://businesscentral.dynamics.com?report=5807) | [About *Item Age Composition - Quantity*](../reports/report-5807.md) | 5807 |
 
 
 <!-- 
@@ -33,7 +34,6 @@ The following table describes some of the key reports in inventory and warehouse
 
 7313
 7319
-
 7320 
 -->
 

@@ -19,14 +19,14 @@ The following table describes some of the key reports in inventory and warehouse
 | Analyse your customer sales per item to understand sales trends, optimise inventory management and improve marketing efforts. Assess the relationship between discounts, sales amount and volume of item sales. | [Inventory Customer Sales](https://businesscentral.dynamics.com?report=713) | [About *Inventory Customer Sales*](../reports/report-713.md) | 713 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
 | Analyze and manage your inventory costs and pricing strategies. | [Inventory Cost and price list](https://businesscentral.dynamics.com?report=716) | [About *Inventory Cost and price list*](../reports/report-716.md) | 716 |
+| Get an overview of sales orders that you can't fulfill because items are out-of-stock.  | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About *Inventory Sales Back Orders*](../reports/report-718.md) | 718 |
+| Explore sales orders that are covered when you pick items from inventory. | [Inventory Picking List](https://businesscentral.dynamics.com?report=813) | [About *Inventory Picking List*](../reports/report-813.md) | 813 |
+| Reconcile your inventory subledger to the inventory account(s) in the general ledger at the end of each period. Analyse the changes to expected costs posted during the period, and determine the value of inventory on hand for financial reporting. | [Inventory Valuation](https://businesscentral.dynamics.com?report=1001)  <br><br>**Note!** In the US, Canada, and Mexico, this report isn't available. Instead, use the localized version of Inventory Valuation (10139) report. | [About *Inventory Valuation*](../reports/report-1001.md) | 1001 |
+
 
 <!-- 
-
 |  | [](https://businesscentral.dynamics.com?report=) | [About **](../reports/report-.md) |  |
 
-813
-
-1001
 5807
 5808
 5809

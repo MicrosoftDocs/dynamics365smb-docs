@@ -651,6 +651,9 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Customer Sales](reports/report-713.md) 
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Inventory Cost and price list](reports/report-716.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Picking List](reports/report-813.md) 
+##### [Inventory Valuation](reports/report-1001.md) 
 
 <!-- 
 ##### [](reports/report-.md) 

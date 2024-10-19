@@ -553,12 +553,10 @@ ms.service: dynamics-365-business-central
 ##### [Trial Balance](reports/report-6.md) 
 ##### [Trial Balance/Previous Year](reports/report-7.md) 
 ##### [Trial Balance/Budget](reports/report-9.md)
+##### [Closing Trial Balance](reports/report-10.md)
+##### [Financial Report](reports/report-25.md)
 
 <!-- 
-##### [Closing Trial Balance](reports/report-10.md)
-##### [](reports/report-17.md) 
-##### [](reports/report-18.md) 
-##### [Financial Report](reports/report-25.md)
 ##### [Dimensions - Total](reports/report-27.md)
 ##### [Dimensions - Detail](reports/report-28.md)
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)

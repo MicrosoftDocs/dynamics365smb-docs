@@ -7,6 +7,53 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
+
+The following table describes some key reports for accounts payable. The reports are designed to help different roles in the finance departments make informed decisions that optimize their operations.
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
+| [!INCLUDE[report-321-scenario](../includes/report-321-scenario-include.md)] | [Vendor - Balance to Date](https://businesscentral.dynamics.com?report=321) | [About *Vendor - Balance to Date*](../reports/report-321.md) | 321 |
+|  | [Aged Accounts Payable](https://businesscentral.dynamics.com?report=322) | [About *Aged Accounts Payable*](../reports/report-322.md) | 322 |
+|  | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
+
+<!-- 
+|  | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
+
+|  | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
+|  | [Vendor - Summary Aging](https://businesscentral.dynamics.com?report=305) | [About *Vendor - Summary Aging*](../reports/report-305.md) | 305 |
+
+|  | [Purchase Statistics](https://businesscentral.dynamics.com?report=312) | [About *Purchase Statistics*](../reports/report-312.md) | 312 |
+
+|  | [Vendor Pre-Payment Journal](https://businesscentral.dynamics.com?report=317) | [About *Vendor Pre-Payment Journal*](../reports/report-317.md) | 317 |
+|  | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |
+
+
+
+|  | [Payment Practice](https://businesscentral.dynamics.com?page=687) | [About *Payment Practice*](../reports/report-687.md) | page 687 |
+
+
+Format each line in the data below like this:
+|  | [Aged Accounts Payable](https://businesscentral.dynamics.com?report=322) | [About *Aged Accounts Payable*](../reports/report-322.md) | 322 |
+
+Format each line in the data below like this:
+//  ##### [Aged Accounts Payable$reports/report-322.md)
+
+
+## Data
+Report	ID
+Aged Accounts Payable	322
+Vendor - Balance to Date	321
+Vendor - Trial Balance	329
+Vendor - Detail Trial Balance	304
+Purchase Statistics	312
+Vendor - Summary Aging	305
+Payments on Hold	319
+Vendor Pre-Payment Journal	317
+Vendor - List	301
+Payment Practice	page 687
+ -->
+
+## The old way
 The following table describes some of the key reports for accounts payable.
 
 | Report | Description | ID | 

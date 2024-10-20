@@ -550,7 +550,40 @@ ms.service: dynamics-365-business-central
 #### [Built-in key finance reports](finance-reports.md)
 #### [Built-in fixed assets reports](fa-reports.md)
 #### [Built-in accounts receivable reports](receivables-reports.md)
-#### [Built-in accounts payable reports](payables-reports.md)
+
+#### Built-in accounts payable reports
+##### [Accounts payable report overview](payables-reports.md)
+##### [Vendor - Balance to Date](reports/report-321.md)
+##### [Aged Accounts Payable](reports/report-322.md)
+##### [Vendor - Trial Balance](reports/report-329.md) 
+
+<!-- 
+##### [Vendor - Detail Trial Balance](reports/report-304.md)
+##### [Vendor - Order Summary](reports/report-307.md)
+##### [Vendor - Order Detail](reports/report-308.md)
+##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Purchase statistics](reports/report-312.md)
+##### [Vendor/Item Purchases](reports/report-313.md)
+##### [Payments on Hold](reports/report-319.md)
+##### [Vendor Item catalog](reports/report-320.md)
+##### [Purchase Reservation Availability](reports/report-409.md)
+##### [Inventory Purchase Orders](reports/report-709.md)
+##### [Inventory Vendor Purchases](reports/report-714.md)
+##### [Item/vendor catalog](reports/report-720.md) 
+
+
+
+##### [Vendor - Detail Trial Balance](reports/report-304.md)
+##### [Purchase Statistics](reports/report-312.md)
+##### [Vendor - Summary Aging](reports/report-305.md)
+##### [Payments on Hold](reports/report-319.md)
+##### [Vendor Pre-Payment Journal](reports/report-317.md)
+##### [Vendor - List](reports/report-301.md)
+##### [Payment Practice](reports/report-page 687.md)
+
+
+
+-->
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)

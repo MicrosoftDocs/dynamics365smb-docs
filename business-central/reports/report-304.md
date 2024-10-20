@@ -33,6 +33,8 @@ You can run the report in your local currency or in the vendor's currency. You c
 
 ## Use cases - A version (persona version)
 
+[!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.  

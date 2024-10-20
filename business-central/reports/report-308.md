@@ -27,6 +27,8 @@ Lines that have an expected receipt date in the past are included in the quantit
 
 ## Use cases
 
+[!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.

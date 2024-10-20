@@ -26,6 +26,8 @@ You can also explore orders to receive before and after the three periods, and t
 
 ## Use cases
 
+[!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)]
+
 <!-- Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
 Format like this:    

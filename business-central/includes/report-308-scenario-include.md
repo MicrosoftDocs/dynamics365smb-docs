@@ -1,0 +1,1 @@
+Analyze outstanding purchase orders to understand expected purchase volume from vendors. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders.

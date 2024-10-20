@@ -27,6 +27,8 @@ The report can either show a summed balance for each vendor, or a detailed break
 
 ## Use cases
 
+[!INCLUDE[report-322-scenario](../includes/report-322-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.

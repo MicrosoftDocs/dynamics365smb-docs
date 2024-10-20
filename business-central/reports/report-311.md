@@ -23,6 +23,8 @@ Vendors are sorted by purchase amounts in the selected period. The list gives a 
 
 ## Use cases
 
+[!INCLUDE[report-311-scenario](../includes/report-311-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.

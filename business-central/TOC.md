@@ -555,14 +555,13 @@ ms.service: dynamics-365-business-central
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
+##### [Vendor - Order Detail](reports/report-308.md)
+##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Vendor - Balance to Date](reports/report-321.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
 <!-- 
-##### [Vendor - Order Summary](reports/report-307.md)
-##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)

@@ -23,6 +23,8 @@ The calculated cost amount includes added costs, such as item charges.
 
 ## Use cases
 
+[!INCLUDE[report-313-scenario](../includes/report-313-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.

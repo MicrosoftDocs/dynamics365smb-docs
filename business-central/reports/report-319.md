@@ -23,6 +23,8 @@ To put an entry on hold, enter any value in the **On Hold** field. There's no va
 
 ## Use cases
 
+[!INCLUDE[report-319-scenario](../includes/report-319-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.

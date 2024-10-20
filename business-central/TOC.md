@@ -555,6 +555,7 @@ ms.service: dynamics-365-business-central
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
+##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
 ##### [Vendor - Top 10 List](reports/report-311.md)
@@ -571,12 +572,9 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md) 
-
 ##### [Purchase Statistics](reports/report-312.md)
-##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
-
 ##### [Payment Practice](reports/report-page 687.md)
 
 

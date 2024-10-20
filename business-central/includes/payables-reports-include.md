@@ -15,6 +15,11 @@ The following table describes some key reports for accounts payable. The reports
 
 | [!INCLUDE[report-301-scenario](../includes/report-301-scenario-include.md)] | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
+
+| Legacy report for aged accounts payable. We recommend that you use **Aged Accounts Payables** report instead. | [Vendor - Summary Aging](https://businesscentral.dynamics.com?report=305) | [About *Vendor - Summary Aging*](../reports/report-305.md) | 305 |
+
+Legacy report for aged accounts payable. We recommend that you use **Aged Accounts Payables** report instead. You can choose a period length and a date to use for an *overdue per* date.
+
 | [!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)] | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
 | [!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)] | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |
 | [!INCLUDE[report-311-scenario](../includes/report-311-scenario-include.md)] | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
@@ -25,9 +30,7 @@ The following table describes some key reports for accounts payable. The reports
 | [!INCLUDE[report-329-scenario](../includes/report-329-scenario-include.md)] | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
 
 <!-- 
-|  | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
 
-|  | [Vendor - Summary Aging](https://businesscentral.dynamics.com?report=305) | [About *Vendor - Summary Aging*](../reports/report-305.md) | 305 |
 
 |  | [Purchase Statistics](https://businesscentral.dynamics.com?report=312) | [About *Purchase Statistics*](../reports/report-312.md) | 312 |
 

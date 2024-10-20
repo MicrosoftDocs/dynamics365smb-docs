@@ -1,0 +1,1 @@
+Use the report, for example, to maintain information about the vendor

@@ -553,6 +553,7 @@ ms.service: dynamics-365-business-central
 
 #### Built-in accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
+##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
@@ -575,7 +576,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
-##### [Vendor - List](reports/report-301.md)
+
 ##### [Payment Practice](reports/report-page 687.md)
 
 
@@ -638,6 +639,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
+##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)

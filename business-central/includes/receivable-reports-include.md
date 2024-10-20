@@ -30,6 +30,7 @@ The following table describes some of the key reports in accounts receivable. Th
 | [!INCLUDE [report-211-scenario](../includes/report-211-scenario-include.md)] | [Customer - Payment Receipt](https://businesscentral.dynamics.com?report=211) | [About *Customer - Payment Receipt*](../reports/report-211.md) | 211 |
 | [!INCLUDE [report-1316-scenario](../includes/report-1316-scenario-include.md)] | [Customer Statement](https://businesscentral.dynamics.com?report=1316) | [About *Customer Statement*](../reports/report-1316.md) | 1316 | 
 
+<!-- Remove after 2025-01-01
 ## The old way
 
 The following table describes some of the key reports in accounts receivable.
@@ -46,3 +47,4 @@ The following table describes some of the key reports in accounts receivable.
 | [Customer - Summary Aging Simp.](https://businesscentral.dynamics.com?report=109)| This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables** report instead. | 109 |
 | [Sales Statistics](https://businesscentral.dynamics.com?report=112) | [!INCLUDE [reports-sales-statistics](reports-sales-statistics.md)]<br>This report can also be used in accounts receivable as it's easier to do a quick look-up of posted payments, discounts, and sales for a given customer.| 112 |
 | [Customer List](https://businesscentral.dynamics.com?report=101) | Shows various kinds of basic information for customers. For example, the customer posting group, discount group, finance charge and payment information, and so on. Use this report, for example, to maintain information in the Customer table.| 101 |
+ -->

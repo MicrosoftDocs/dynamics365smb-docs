@@ -11,6 +11,7 @@ The following table describes some of the key reports for sales. The reports hel
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
+| [!INCLUDE [report-101-scenario](../includes/report-101-scenario-include.md)] | [Customer List](https://businesscentral.dynamics.com?report=101) | [About *Customer List*](../reports/report-101.md) | 101 |
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
 | [!INCLUDE [report-111-scenario](../includes/report-111-scenario-include.md)] | [Customer - Top 10 list](https://businesscentral.dynamics.com?report=111) | [About *Customer - Top 10 list*](../reports/report-111.md) | 111 |

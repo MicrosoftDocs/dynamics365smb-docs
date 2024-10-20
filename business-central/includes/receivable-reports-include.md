@@ -13,13 +13,11 @@ The following table describes some of the key reports in accounts receivable. Th
 <!-- pending merge of finance report PR
 | [!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)] | [Reconcile Customer and Vendor Accounts](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Customer and Vendor Accounts*](../reports/report-33.md) | 33 | 
 -->
-<!-- 
-|  | [Customer - Detail Trial Balance](https://businesscentral.dynamics.com?report=104) | [About *Customer - Detail Trial Balance*](../reports/report-104.md) | 104 | 
--->
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
-| Get an overview of basic information for your customers. | [Customer List](https://businesscentral.dynamics.com?report=101) | [About *Customer List*](../reports/report-101.md) | 101 |
+| [!INCLUDE [report-101-scenario](../includes/report-101-scenario-include.md)] | [Customer List](https://businesscentral.dynamics.com?report=101) | [About *Customer List*](../reports/report-101.md) | 101 |
+| Check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers. | [Customer - Detail Trial Balance](https://businesscentral.dynamics.com?report=104) | [About *Customer - Detail Trial Balance*](../reports/report-104.md) | 104 | 
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
 <!-- 

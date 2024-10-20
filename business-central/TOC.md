@@ -554,9 +554,9 @@ ms.service: dynamics-365-business-central
 ##### [Accounts receivable report overview](receivables-reports.md)
 <!-- 
 ##### [Reconcile Customer and Vendor Accounts](reports/report-33.md)
-##### [Customer - Detail Trial Balance](reports/report-104.md)
 -->
 ##### [Customer List](reports/report-101.md)
+##### [Customer - Detail Trial Balance](reports/report-104.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
 <!-- 
@@ -585,6 +585,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
 ##### [Customer - Top 10 list](reports/report-111.md)

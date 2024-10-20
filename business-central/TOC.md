@@ -559,6 +559,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
 ##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor - Balance to Date](reports/report-321.md)
@@ -566,7 +567,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
 <!-- 
-##### [Purchase statistics](reports/report-312.md)
+
 ##### [Vendor Item catalog](reports/report-320.md)
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
@@ -576,9 +577,6 @@ ms.service: dynamics-365-business-central
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
 ##### [Payment Practice](reports/report-page 687.md)
-
-
-
 -->
 
 ## Sales

@@ -1,0 +1,1 @@
+ Analyse customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.Allows easy reconciliation of the customer subledger against the receivables account(s) in the general ledger, assuming that direct posting is disabled.

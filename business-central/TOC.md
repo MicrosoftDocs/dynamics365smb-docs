@@ -556,10 +556,9 @@ ms.service: dynamics-365-business-central
 ##### [Closing Trial Balance](reports/report-10.md)
 ##### [Financial Report](reports/report-25.md)
 ##### [Dimensions - Total](reports/report-27.md)
+##### [Dimensions - Detail](reports/report-28.md)
 
 <!-- 
-##### [Dimensions - Total](reports/report-27.md)
-##### [Dimensions - Detail](reports/report-28.md)
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
 -->

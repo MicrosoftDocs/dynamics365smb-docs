@@ -16,16 +16,17 @@ The following table describes some key financial reports. The reports are design
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the same period in the previous calendar year. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
 | View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the budget. | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | [About *Trial Balance/Budget*](../reports/report-9.md) | 9 |
 | Report and check end of financial year figures, excluding closing entries comparing this year and the previous year. | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About *Closing Trial Balance*](../reports/report-10.md) | 10 |
-| Analyse your chart of accounts with an easily configurable view of general ledger accounts. Simplifies reporting for common scenarios, such as Balance Sheet, Income Statement, and Cash Flow Statement" | [Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
-| Analyse your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a GL balance total for each segment. | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
+| Analyse your chart of accounts with an easily configurable view of general ledger accounts. Simplifies reporting for common scenarios, such as Balance Sheet, Income Statement, and Cash Flow Statement | [Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
+| Analyse your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a general ledger (G/L) balance total for each segment. | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
+| Analyse your general ledger with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of general ledger (G/L) entries for each segment. | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. Use this to report on consolidated financial data from multiple companies. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=10007) | | 10007 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this to report on consolidated financial data from multiple companies. |[Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)| | 10008 |
 
 
 
 <!-- 
-|  | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
-|  | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
+
+
 |  | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
 |  | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 -->

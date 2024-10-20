@@ -554,6 +554,7 @@ ms.service: dynamics-365-business-central
 #### Built-in accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
+##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Balance to Date](reports/report-321.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 

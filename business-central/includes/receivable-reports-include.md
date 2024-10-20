@@ -7,6 +7,39 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
+
+The following table describes some of the key reports in accounts receivable. The reports are designed to help different roles in the finance/collectables department make informed decisions that optimize their operations.
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
+<!-- pending merge of finance report PR
+| [!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)] | [Reconcile Customer and Vendor Accounts](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Customer and Vendor Accounts*](../reports/report-33.md) | 33 | 
+-->
+<!-- 
+|  | [Customer List](https://businesscentral.dynamics.com?report=101) | [About *Customer List*](../reports/report-101.md) | 101 |
+|  | [Customer - Detail Trial Balance](https://businesscentral.dynamics.com?report=104) | [About *Customer - Detail Trial Balance*](../reports/report-104.md) | 104 | 
+-->
+| [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
+| [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
+<!-- 
+|  | [Customer - Summary Aging Simp.](https://businesscentral.dynamics.com?report=109) | [About *Customer - Summary Aging Simp.*](../reports/report-109.md) | 109 |
+-->
+| [!INCLUDE [report-111-scenario](../includes/report-111-scenario-include.md)] | [Customer - Top 10 List](https://businesscentral.dynamics.com?report=111) | [About *Customer - Top 10 List*](../reports/report-111.md) | 111 |
+| [!INCLUDE [report-112-scenario](../includes/report-112-scenario-include.md)] | [Sales Statistics](https://businesscentral.dynamics.com?report=112) | [About *Sales Statistics*](../reports/report-112.md) | 112 |
+| [!INCLUDE [report-113-scenario](../includes/report-113-scenario-include.md)] | [Customer/Item Sales](https://businesscentral.dynamics.com?report=113) | [About *Customer/Item Sales*](../reports/report-113.md) | 113 |
+<!-- 
+|  | [Aged Accounts Receivables](https://businesscentral.dynamics.com?report=120) | [About *Aged Accounts Receivables*](../reports/report-120.md) | 120 |
+ -->
+| [!INCLUDE [report-121-scenario](../includes/report-121-scenario-include.md)]  | [Customer - Balance to Date](https://businesscentral.dynamics.com?report=121) | [About *Customer - Balance to Date*](../reports/report-121.md) | 121 |
+| [!INCLUDE [report-129-scenario](../includes/report-129-scenario-include.md)] | [Customer Trial Balance](https://businesscentral.dynamics.com?report=129) | [About *Customer Trial Balance*](../reports/report-129.md) | 129 |
+<!-- 
+|  | [Customer - Payment Receipt](https://businesscentral.dynamics.com?report=211) | [About *Customer - Payment Receipt*](../reports/report-211.md) | 211 |
+|  | [Customer Statement](https://businesscentral.dynamics.com?report=1316) | [About *Customer Statement*](../reports/report-1316.md) | 1316 | 
+-->
+
+
+## The old way
+
 The following table describes some of the key reports in accounts receivable.
 
 | Report | Description | ID |

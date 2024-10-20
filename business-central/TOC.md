@@ -561,6 +561,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
+##### [Vendor Pre-Payment Journal](reports/report-317.md)
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor - Balance to Date](reports/report-321.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
@@ -575,7 +576,6 @@ ms.service: dynamics-365-business-central
 ##### [Item/vendor catalog](reports/report-720.md) 
 ##### [Purchase Statistics](reports/report-312.md)
 ##### [Payments on Hold](reports/report-319.md)
-##### [Vendor Pre-Payment Journal](reports/report-317.md)
 ##### [Payment Practice](reports/report-page 687.md)
 -->
 

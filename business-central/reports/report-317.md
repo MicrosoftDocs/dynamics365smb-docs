@@ -1,0 +1,84 @@
+---
+title: Vendor Pre-Payment Journal (report)
+description: The report can be used to check payments before creating payment files and posting the journal.
+author: kennieNP
+ms.author: kepontop
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: Report_317_Primary
+ms.date: 10/18/2024
+ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 10/18/2024
+ai.usage: ai-assisted
+---
+
+# Vendor Pre-Payment Journal (report)
+
+The *Vendor Pre-Payment Journal* report shows the payment journal with payment discount and tolerance information. 
+
+**Note**: The report shows payment discounts incorrectly when multiple credit memos were used in an application. In this case, the payment discounts for the extra credit memos are shown as unapplied amounts.
+
+## Use cases
+
+
+
+<!-- 
+Prompt
+
+Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
+Format like this:    
+  
+As a <persona>, use the report to    
+* use case 1  
+* use case 2    
+
+Do not capitalize the persona names. 
+
+## Report name
+Vendor Pre-Payment Journal
+
+### What the report does
+The *Vendor Pre-Payment Journal* report shows the payment journal with payment discount and tolerance information. 
+**Note**: The report shows payment discounts incorrectly when multiple credit memos were used in an application. In this case, the payment discounts for the extra credit memos are shown as unapplied amounts.
+
+### Use cases
+The report can be used to check payments before creating payment files and posting the journal.
+It helps businesses ensure accuracy and compliance in their payment processes.
+
+Please include your data sources and URLs
+-->
+
+As a procurement officer, use the report to:
+* Review pre-payment journals to ensure that all payment information, including discounts and tolerances, is accurate and complete before creating payment files and posting the journal
+* Help identify potential issues or discrepancies in the payment process and proactively address them
+* Prepare payment reports or dashboards for internal or external stakeholders based on the data obtained from the report
+
+As an accounts payable clerk, use the report to:
+* Reconcile pre-payment journals against vendor sub-ledgers to ensure that all outstanding balances are accounted for accurately and completely
+* Identify any discrepancies or errors in payment information and investigate further as necessary
+* Prepare financial statements, such as income statements or balance sheets, based on the data obtained from the report
+
+As a financial analyst, use the report to:
+* Analyze payment information, such as discounts and tolerances, to identify areas for cost savings or revenue generation
+* Help prepare financial reports, such as income statements or balance sheets, for internal or external stakeholders based on the payment information obtained from the report
+* Monitor payment performance and identify potential risks to financial performance based on the data obtained from the report
+
+
+## Try the report
+
+Try the report here: [Vendor Pre-Payment Journal](https://businesscentral.dynamics.com?report=317)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+
+## See also
+
+[Accounts receivable report overview](../receivables-reports.md)  
+[Key finance report overview](../finance-reports.md)  
+[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Financial analytics overview](../bi.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

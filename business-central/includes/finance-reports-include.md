@@ -20,17 +20,12 @@ The following table describes some key financial reports. The reports are design
 | Analyse your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a general ledger (G/L) balance total for each segment. | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 | Analyse your general ledger with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of general ledger (G/L) entries for each segment. | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
 | Understand the transactions for control general ledger (G/L) accounts, and highlight any discrepancies between G/L and customer/vendor ledgers. | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
+| Get a more detailed breakdown of your closing balances by getting a breakdown over 12 accounting periods for each general ledger (G/L) account. | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. Use this to report on consolidated financial data from multiple companies. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=10007) | | 10007 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this to report on consolidated financial data from multiple companies. |[Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)| | 10008 |
 
 
-
-
 <!-- 
-
-|  | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
--->
-
 ## The old way
 
 | Report | Description | ID |
@@ -42,7 +37,9 @@ The following table describes some key financial reports. The reports are design
 | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | Shows a trial balance in comparison to the previous year's figures. You can choose to see a trial balance for selected dimensions. Use this report at the close of an accounting period or fiscal year. *The previous year* means the same period one calendar year earlier. | 7 | 
 | [Financial Report](https://businesscentral.dynamics.com?report=25) | Financial reports can be used to display general ledger accounts in a different way than in the chart of accounts. For example, financial reports can be used to report on key figures. | 25 |
 |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=10007)|Shows a combined overview of general ledger entries for two or more companies in one consolidated company. Use this to report on consolidated financial data from multiple companies. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md).|17|
-|[Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)|Shows a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this to report on consolidated financial data from multiple companies.|18|
+|[Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)|Shows a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this to report on consolidated financial data from multiple companies.|18| 
+-->
+
 <!-- | **Balance Sheet** (Acc.Schedule or Excel) or **Trial Balance** |  |  |
 | **Statement of Cash Flow** (Account Schedule) |  |  |
 | **Trial Balance Summary/Detail** |  |  |

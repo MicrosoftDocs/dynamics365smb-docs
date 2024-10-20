@@ -74,7 +74,8 @@ Try the report here: [Customer - Detail Trial Balance](https://businesscentral.d
 
 ## See also
 
-[Built-in key finance reports](../finance-reports.md)  
+[Accounts receivable report overview](../receivables-reports.md)  
+[Key finance report overview](../finance-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 

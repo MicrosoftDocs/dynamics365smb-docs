@@ -78,7 +78,8 @@ Try the report here: [Customer List](https://businesscentral.dynamics.com?report
 
 ## See also
 
-[Built-in key finance reports](../finance-reports.md)  
+[Sales reports](../sales-reports.md)  
+[Accounts receivable report overview](../receivables-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 

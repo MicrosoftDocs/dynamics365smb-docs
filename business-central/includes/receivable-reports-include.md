@@ -10,8 +10,6 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in accounts receivable. The reports are designed to help different roles in the finance/collectables department make informed decisions that optimize their operations.
 
-| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
-|-------|------------| ------------|----|
 <!-- pending merge of finance report PR
 | [!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)] | [Reconcile Customer and Vendor Accounts](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Customer and Vendor Accounts*](../reports/report-33.md) | 33 | 
 -->
@@ -19,6 +17,9 @@ The following table describes some of the key reports in accounts receivable. Th
 |  | [Customer List](https://businesscentral.dynamics.com?report=101) | [About *Customer List*](../reports/report-101.md) | 101 |
 |  | [Customer - Detail Trial Balance](https://businesscentral.dynamics.com?report=104) | [About *Customer - Detail Trial Balance*](../reports/report-104.md) | 104 | 
 -->
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |
 | [!INCLUDE [report-108-scenario](../includes/report-108-scenario-include.md)] | [Customer - Order Detail](https://businesscentral.dynamics.com?report=108) | [About *Customer - Order Detail*](../reports/report-108.md) | 108 |
 <!-- 

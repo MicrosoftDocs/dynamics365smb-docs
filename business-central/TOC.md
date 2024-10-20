@@ -552,7 +552,7 @@ ms.service: dynamics-365-business-central
 
 #### Accounts receivable reports
 ##### [Accounts receivable report overview](receivables-reports.md)
-<!-- 
+<!-- pending merge of finance PR 
 ##### [Reconcile Customer and Vendor Accounts](reports/report-33.md)
 -->
 ##### [Customer List](reports/report-101.md)
@@ -567,7 +567,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Balance to Date](reports/report-121.md)
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
-
+##### [Customer Statement](reports/report-1316.md)
 
 #### [Built-in accounts payable reports](payables-reports.md)
 

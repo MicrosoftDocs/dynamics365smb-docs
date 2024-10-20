@@ -19,15 +19,15 @@ The following table describes some key financial reports. The reports are design
 | Analyse your chart of accounts with an easily configurable view of general ledger accounts. Simplifies reporting for common scenarios, such as Balance Sheet, Income Statement, and Cash Flow Statement | [Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
 | Analyse your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a general ledger (G/L) balance total for each segment. | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 | Analyse your general ledger with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of general ledger (G/L) entries for each segment. | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
+| Understand the transactions for control general ledger (G/L) accounts, and highlight any discrepancies between G/L and customer/vendor ledgers. | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. Use this to report on consolidated financial data from multiple companies. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=10007) | | 10007 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this to report on consolidated financial data from multiple companies. |[Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)| | 10008 |
 
 
 
+
 <!-- 
 
-
-|  | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
 |  | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 -->
 

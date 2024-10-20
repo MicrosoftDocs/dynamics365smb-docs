@@ -27,9 +27,11 @@ The following table describes some of the key reports in accounts receivable. Th
 | [!INCLUDE [report-120-scenario](../includes/report-120-scenario-include.md)] | [Aged Accounts Receivables](https://businesscentral.dynamics.com?report=120) | [About *Aged Accounts Receivables*](../reports/report-120.md) | 120 |
 | [!INCLUDE [report-121-scenario](../includes/report-121-scenario-include.md)]  | [Customer - Balance to Date](https://businesscentral.dynamics.com?report=121) | [About *Customer - Balance to Date*](../reports/report-121.md) | 121 |
 | [!INCLUDE [report-129-scenario](../includes/report-129-scenario-include.md)] | [Customer Trial Balance](https://businesscentral.dynamics.com?report=129) | [About *Customer Trial Balance*](../reports/report-129.md) | 129 |
+| [!INCLUDE [report-211-scenario](../includes/report-211-scenario-include.md)] | [Customer - Payment Receipt](https://businesscentral.dynamics.com?report=211) | [About *Customer - Payment Receipt*](../reports/report-211.md) | 211 |
+
 
 <!-- 
-|  | [Customer - Payment Receipt](https://businesscentral.dynamics.com?report=211) | [About *Customer - Payment Receipt*](../reports/report-211.md) | 211 |
+
 |  | [Customer Statement](https://businesscentral.dynamics.com?report=1316) | [About *Customer Statement*](../reports/report-1316.md) | 1316 | 
 -->
 

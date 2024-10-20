@@ -566,10 +566,8 @@ ms.service: dynamics-365-business-central
 ##### [Aged Accounts Receivables](reports/report-120.md)
 ##### [Customer - Balance to Date](reports/report-121.md)
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
-<!-- 
-##### [Customer Trial Balance](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
--->
+
 
 #### [Built-in accounts payable reports](payables-reports.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Item Age Composition - Value (report)
-description: Review the age of stock in your warehouse by value to determine obsolescence and identify slow moving inventory.
+description: Review the age of stock in your warehouse by value and identify unused or slow-moving inventory.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,14 +17,13 @@ ai.usage: ai-assisted
 
 # Item Age Composition - Value (report)
 
-The *Item Age Composition - Value* report shows the value of inventory on hand, aged by receipt date.
+The **Item Age Composition - Value** report shows the value of on-hand inventory aged by receipt date.
 
-You can configure report aging to generate three equal length periods as of the ending date. The inventory's age is then calculated for each period, as well as before and after the entire range. The total value of inventory is also shown.
+You can configure the report's aging to generate three equal length periods on an ending date. The inventory's age is calculated for each period, as well as before and after the period. The report also shows total value of inventory.
 
-The values represent the total cost of the remaining quantity for open inbound item ledger entries (usually a result of purchases, output, or positive adjustments). The bucket the value is in is determined by the Posting Date of each entry.
+The values represent the total cost of the remaining quantity for open inbound item ledger entries, which are usually a result of purchases, output, or positive adjustments. The posting date of each entry determines the bucket they're in.
 
-You can filter the report by Location to determine the age of Inventory by warehouse. It can also be filtered by any Item field.
-
+To determine the age of inventory by warehouse, you can filter the report by location. You can also filter by item.
 
 ## Use cases
 
@@ -61,19 +60,21 @@ For slow moving inventory, consider actions such as a promotion or a markdown.
 Please include your data sources and URLs
 -->
 
-As a warehouse manager, use the report to:
-* Review the age of stock in your warehouse by value to determine obsolescence and identify slow-moving inventory
-* Analyze inventory aging to identify which products are in high demand and which ones are slow-moving
-* Plan promotions or markdowns to sell slow-moving inventory and improve sales
+Warehouse managers use the report to:
 
-As a sales and marketing manager, use the report to:
-* Analyze inventory aging to identify which products are in high demand and which ones are slow-moving
-* Review the age of stock in your warehouse by value to determine obsolescence and identify slow-moving inventory
-* Plan promotions or markdowns to sell slow-moving inventory and improve sales
+* Review the age of stock in your warehouse by value to identify unused or slow-moving inventory.
+* Analyze inventory aging to identify which items are in high demand and which aren't.
+* Plan promotions or markdowns to sell slow-moving inventory and improve sales.
 
-As a financial analyst, use the report to:
-* Calculate inventory turnover ratios and days in inventory to determine the effectiveness of inventory management
+Sales and marketing managers use the report to:
 
+* Analyze inventory aging to identify which items are in high demand and which aren't.
+* Review the age of stock in your warehouse by value to identify unused or slow-moving inventory.
+* Plan promotions or markdowns to sell slow-moving inventory and improve sales.
+
+Financial analysts use the report to:
+
+* Calculate inventory turnover ratios and days in inventory to ensure effective inventory management.
 
 ## Try the report
 
@@ -81,11 +82,10 @@ Try the report here: [Item Age Composition - Value](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

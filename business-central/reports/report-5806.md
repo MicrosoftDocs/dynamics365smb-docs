@@ -1,6 +1,6 @@
 ---
 title: Item Charges - Specification (report)
-description: Analyse posted sales or purchase item charges to assess added costs, such as freight and physical handling.
+description: Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Item Charges - Specification (report)
 
-The *Item Charges - Specification* report shows posted item charges in the value entry by inventory posting group and item, with a calculated total per group.
+The **Item Charges - Specification** report shows posted item charges in the value entry for inventory posting groups and items, with a calculated total per group.
 
-You can select print details, which will additionally show a breakdown of each item charge, including the posting date and document number.
+You can choose to print the details, which also show a breakdown of each item charge, including the posting date and document number.
 
-The report can be configured to either print item charges relating to sales or purchases.
+You can configure the report to print item charges that relate to either sales or purchases.
 
 ## Use cases
 
@@ -55,21 +55,23 @@ Please include your data sources and URLs
 
 -->
 
-As a procurement specialist, use the report to:
-* Analyze posted purchase item charges to assess added costs, such as freight, insurance, and handling charges, for each item purchased
-* Identify opportunities for cost savings by negotiating better pricing or terms with suppliers
-* Optimize procurement strategies for efficient cost management and accurate inventory valuation
+Procurement specialists use the report to:
 
-As a sales or marketing manager, use the report to:
-* Analyze posted sales item charges to assess added costs, such as freight, insurance, and handling charges, for each item sold
-* Identify opportunities for pricing adjustments or promotions to improve profit margins
-* Optimize sales and marketing strategies for efficient cost management and accurate inventory valuation
+* Analyze posted purchase item charges to assess added costs, such as freight, insurance, and handling charges, for items.
+* Identify opportunities to save cost by negotiating better pricing or terms with suppliers.
+* Optimize procurement strategies for efficient cost management and accurate inventory valuation.
 
-As an controller or accountant, use the report to:
-* Analyze posted item charges to ensure that all costs associated with each item are accurately recorded and reflected in financial statements
-* Reconcile inventory valuation with financial records and identify any discrepancies
-* Optimize financial reporting and ensure accurate cost calculation and inventory valuation
+Sales or marketing managers use the report to:
 
+* Analyze posted sales item charges to assess added costs, such as freight, insurance, and handling charges, for items.
+* Identify opportunities to adjust prices or run promotions to improve profit margins.
+* Optimize sales and marketing strategies for efficient cost management and accurate inventory valuation.
+
+Controller or accountants use the report to:
+
+* Analyze posted item charges to ensure that all costs associated with each item are accurately recorded and reflected in financial statements.
+* Reconcile inventory valuation with financial records and identify discrepancies.
+* Optimize financial reporting and ensure accurate cost calculation and inventory valuation.
 
 ## Try the report
 
@@ -77,11 +79,10 @@ Try the report here: [Item Charges - Specification](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

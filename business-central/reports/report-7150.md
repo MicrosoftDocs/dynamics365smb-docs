@@ -1,6 +1,6 @@
 ---
 title: Item Dimensions - Detail (report)
-description: Analyse your item entries with dimension detail by building a grouping of dimensions for each permutation of dimension values, and view a breakdown of value entries for each segment
+description: Analyze item entries with dimension details by building groups of dimensions for combinations of dimension values. View a breakdown of value entries for each group.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Item Dimensions - Detail (report)
 
-The *Item Dimensions - Detail* report shows a breakdown of value entries based on dimension levels specified on the request page. 
+The **Item Dimensions - Detail** report shows a breakdown of value entries based on the dimension levels you specify.
 
-Dimension levels are specified by selecting an analysis view configured with dimension codes, then picking a hierarchy of how the dimension groups are grouped under one another. Location is automatically included as a dimension.
+You specify dimension levels by selecting an analysis view configured with dimension codes, and then picking a hierarchy of how to combine the dimension groups under one another. The report automatically includes location as a dimension.
 
-This report can be based on analysis view entries from either sales, purchase or inventory areas.
+You can base this report on analysis view entries from sales, purchases, or inventory.
 
 ## Use cases
 
@@ -54,26 +54,27 @@ Please include your data sources and URLs
 
 -->
 
-As a supply chain manager, use the report to:
-* Analyze inventory levels by dimension levels to ensure that inventory is optimized for each segment
-* Plan purchasing activities for specific segments to optimize inventory levels and reduce waste
-* Monitor inventory trends by location and dimension levels to identify areas for improvement or cost savings
+Supply chain managers use the report to:
 
-As a financial analyst, use the report to:
-* Analyze inventory trends by location and dimension levels to identify areas for cost savings or improvement
-* Monitor inventory levels by dimension levels to ensure that inventory is optimized for each segment
-* Calculate inventory turnover ratios and days in inventory for each dimension level to determine the effectiveness of inventory management
+* Analyze inventory levels by dimension levels and optimize inventory for each segment.
+* Plan purchasing activities for specific segments to optimize inventory levels and reduce waste.
+* Monitor inventory trends by location and dimension levels and identify areas to improve or save cost.
 
-As a sales and marketing manager, use the report to:
-* Analyze sales trends by location and dimension levels to identify areas for growth or improvement
-* Plan promotions or markdowns for specific segments to improve sales
-* Monitor inventory levels by dimension levels to ensure that inventory is optimized for each segment
+Financial analysts use the report to:
 
+* Analyze inventory trends by location and dimension levels and identify areas to improve or save cost.
+* Monitor inventory levels by dimension levels to optimize inventory for each segment.
+* Calculate inventory turnover ratios and days in inventory for each dimension level to determine the effectiveness of inventory management.
+
+Sales and marketing managers use the report to:
+
+* Analyze sales trends by location and dimension levels and identify areas for growth or improvement.
+* Plan promotions or markdowns for specific segments to improve sales.
+* Monitor inventory levels by dimension levels to optimize inventory for each segment.
 
 ## Analyze data by dimensions
 
 [!INCLUDE[Analyze-data-by-dimensions](../includes/analyze-data-by-dimensions-report-include.md)]
-
 
 ## Try the report
 
@@ -84,8 +85,8 @@ Try the report here: [Item Dimensions - Detail](https://businesscentral.dynamics
 
 ## See also
 
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

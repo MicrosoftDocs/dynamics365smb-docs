@@ -1,6 +1,6 @@
 ---
 title: Inventory - Transaction Detail (report)
-description: Review all inventory movements for the selected items for a selected period. Allows auditing historical inventory movements e.g. sales, purchases and transfers of stock for a selected item to determine the basis of the current inventory quantity.
+description: Review all inventory movements for the selected items for a selected period. Audit historical inventory movements, such as sales, purchases, and stock transfers to determine the basis of a quantity that's currently in inventory.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,12 +17,15 @@ ai.usage: ai-assisted
 
 # Inventory - Transaction Detail (report)
 
-The *Inventory - Transaction Detail* report shows all inventory transaction details for the selected items for a selected period. 
+The **Inventory - Transaction Detail** report shows all inventory transaction details for selected items for a period you specify.
 
-The report shows the quantity at the beginning of the period, all of the increase and decrease entries during the period with a running update of the inventory, and the quantity at the close of the period. 
+The report shows:
 
-You can use the report to track changes in inventory and for audit purposes at the close of an accounting period.
+* The quantity at the beginning of the period.
+* All increase and decrease entries during the period with a running update of the inventory.
+* The quantity at the close of the period.
 
+Use the report to track changes in inventory and for audits at the close of an accounting period.
 
 ## Use cases
 
@@ -55,22 +58,23 @@ Please include your data sources and URLs
 
 -->
 
-As a inventory or warehouse manager, use the report to:
-* Review the quantity of stock in the warehouse at the beginning and end of the period.
+Inventory or warehouse managers use the report to:
+
+* Review the quantity of stock in the warehouse at the beginning and end of a period.
 * Monitor the inventory movements of specific items for the period.
 * Investigate discrepancies between the inventory records and the actual inventory count.
 
-As a supply chain manager, use the report to:
-* Track the inventory movements of specific items for the period.
-* Identify trends and patterns in the inventory movements.
-* Forecast future demand for the selected items based on historical inventory movements.
+Supply chain managers use the report to:
 
-As a financial analyst, use the report to:
-* Analyze the cost of goods sold for the selected period.
-* Determine the value of the inventory at the beginning and end of the period.
+* Track inventory movements of specific items for a period.
+* Identify trends and patterns in inventory movements.
+* Forecast future demand for selected items based on historical inventory movements.
+
+Financial analysts use the report to:
+
+* Analyze the cost of goods sold for a period.
+* Determine the value of inventory at the beginning and end of a period.
 * Identify slow-moving and fast-moving inventory items.
-
-
 
 ## Try the report
 
@@ -78,11 +82,10 @@ Try the report here: [Inventory - Transaction Detail](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,10 +17,7 @@ ai.usage: ai-assisted
 
 # Inventory Availability Plan (report)
 
-The *Inventory Availability Plan* report shows an overview of specific items and stock-keeping units, and their availability. 
-
-The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
-
+The **Inventory Availability Plan** report shows an overview of specific items and stock-keeping units, and their availability. The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
 
 ## Use cases
 
@@ -51,21 +48,23 @@ Please include your data sources and URLs
 
 -->
 
-As a production manager, use the report to:
-* Identify any shortages of raw materials or finished goods and plan accordingly
-* Monitor inventory levels for specific items and stock-keeping units
-* Track the availability of materials and goods to ensure they are available for production when needed
+Production managers use the report to:
 
-As a sales representative, use the report to:
-* Check the availability of specific items and stock-keeping units for customers
-* Determine when items will be available for order
-* Provide customers with accurate information about when they can expect to receive their orders
+* Identify shortages of raw materials or finished goods and plan accordingly.
+* Monitor inventory levels for specific items and stock-keeping units.
+* Track the availability of materials and goods so they're ready for production when needed.
 
-As a warehouse supervisor, use the report to:
-* Monitor inventory levels for specific items and stock-keeping units
-* Identify items that are overstocked or understocked
-* Plan for incoming and outgoing shipments based on inventory availability
+Sales representatives use the report to:
 
+* Check the availability of specific items and stock-keeping units for customers.
+* Determine when items can fulfill orders.
+* Provide customers with accurate information about when they can expect to receive their orders.
+
+Warehouse supervisors use the report to:
+
+* Monitor inventory levels for specific items and stock-keeping units.
+* Identify items that are over- or under stocked.
+* Plan for incoming and outgoing shipments based on inventory availability.
 
 ## Try the report
 
@@ -73,11 +72,10 @@ Try the report here: [Inventory Availability Plan](https://businesscentral.dynam
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

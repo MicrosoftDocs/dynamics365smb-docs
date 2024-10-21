@@ -17,11 +17,14 @@ ai.usage: ai-assisted
 
 # Warehouse Adjustment Bin (report)
 
-The *Warehouse Adjustment Bin* report shows the remaining quantities that are stored in the adjustment bin itself. 
+The **Warehouse Adjustment Bin** report shows the remaining quantities in the adjustment bin.
 
-This report is meant only for an advanced warehouse. 
+This report is meant only for advanced warehouses.
 
-Typically, the adjustment bin should be empty. There are two reasons for it to contain quantities. When it's the result of physical counting process, or if quantities are removed or added to the warehouse.
+Typically, the adjustment bin should be empty. There are two reasons for it to contain a quantity:
+
+* When it's the result of physical counting process.
+* When quantities are removed or added to the warehouse.
 
 ## Use cases
 
@@ -65,21 +68,23 @@ Please include your data sources and URLs
 
 -->
 
-As a warehouse supervisor, use the report to:
-* Monitor the quantity of items in the adjustment bin to ensure that any discrepancies are quickly identified and addressed
-* Analyze the root causes of discrepancies and implement corrective actions to prevent future discrepancies
-* Optimize warehouse processes, such as receiving, picking, and shipping, to reduce errors and improve accuracy
+Warehouse supervisors use the report to:
 
-As an inventory accountant, use the report to:
-* Monitor the quantity of items in the adjustment bin to ensure that inventory records are accurate and up-to-date
-* Help reconcile inventory records with physical inventory counts and make necessary adjustments to ensure accurate financial reporting
-* Optimize inventory management processes, such as ordering and replenishing, to reduce discrepancies and improve accuracy
+* Monitor the quantity of items in the adjustment bin and quickly find and address discrepancies.
+* Analyze the root causes of discrepancies and take corrective action and prevent future discrepancies.
+* Optimize warehouse processes, such as receiving, picking, and shipping, and reduce errors and improve accuracy.
 
-As a warehouse manager, use the report to:
-* Monitor the quantity of items in the adjustment bin to ensure that inventory records are accurate and up-to-date
-* Identify any trends or patterns in discrepancies and implement corrective actions to prevent future discrepancies
-* Optimize warehouse processes and inventory management strategies for improved efficiency and accuracy
+Inventory managers use the report to:
 
+* Monitor the quantity of items in the adjustment bin and ensure that inventory records are accurate and up-to-date.
+* Help reconcile inventory records with physical inventory counts and make adjustments to ensure accurate financial reporting.
+* Optimize inventory management processes, such as ordering and replenishing, and reduce discrepancies and improve accuracy.
+
+Warehouse managers use the report to:
+
+* Monitor the quantity of items in the adjustment bin and ensure that inventory records are accurate and up-to-date
+* Identify trends or patterns in discrepancies and take action and prevent future discrepancies.
+* Optimize warehouse processes and inventory management strategies for improved efficiency and accuracy.
 
 ## Try the report
 
@@ -87,11 +92,10 @@ Try the report here: [Warehouse Adjustment Bin](https://businesscentral.dynamics
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

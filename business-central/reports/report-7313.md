@@ -1,6 +1,6 @@
 ---
 title: Warehouse Shipment Status (report)
-description: Get an overview of source documents that are open and have items shipped or due for shipping per location.
+description: Get an overview of source documents that are open and have items shipped or due to ship per location.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,14 @@ ai.usage: ai-assisted
 
 # Warehouse Shipment Status (report)
 
-The *Warehouse Shipment Status* report shows an overview of source documents that are open and have items shipped or due for shipping per location. 
+The **Warehouse Shipment Status** report shows an overview of source documents that are open and have items shipped, or are due to ship, per location.
 
-The report can be used for all locations that require shipments, and it shows locations, bin codes, document status, quantities.
+Use the report for all locations that require shipments. The report shows:
+
+* Locations
+* Bin codes
+* Document status
+* Quantities
 
 ## Use cases
 
@@ -47,21 +52,23 @@ Please include your data sources and URLs
 
 -->
 
-As a warehouse supervisor, use the report to:
-* Monitor the status of warehouse shipments for each location and bin code to ensure timely and accurate deliveries
-* Identify any outstanding shipments and ensure that they are fulfilled as soon as possible
-* Monitor the accuracy of inventory levels by comparing shipped and due quantities with the actual inventory levels
+Warehouse supervisors use the report to:
 
-As a customer service representative, use the report to:
-* Provide accurate and up-to-date information to customers regarding the status of their shipments
-* Monitor the accuracy of shipment information and ensure that customers are notified of any delays or changes in delivery dates
-* Identify any issues with shipments and work with the warehouse team to resolve them as soon as possible
+* Monitor the status of warehouse shipments for each location and bin code to ensure timely and accurate deliveries.
+* Identify outstanding shipments and fulfill them as soon as possible.
+* Monitor the accuracy of inventory levels by comparing shipped and due quantities with actual inventory levels.
 
-As a supply chain manager, use the report to:
-* Monitor the performance of different locations and bin codes in terms of shipment accuracy and timeliness
-* Identify any issues with shipment accuracy or timeliness and work with the relevant teams to address them
-* Use the data to optimize shipment processes and reduce errors and delays in the future
+Customer service representatives use the report to:
 
+* Provide customers with accurate information about the status of their shipments.
+* Monitor the accuracy of shipment information so they can notify customers about delays or changes in delivery dates.
+* Identify issues with shipments and work with the warehouse team to resolve them.
+
+Supply chain managers use the report to:
+
+* Monitor the performance of different locations and bin codes in terms of shipment accuracy and timeliness.
+* Identify issues with shipment accuracy or timeliness and work with the relevant teams to address them.
+* Optimize shipment processes and reduce future errors and delays.
 
 ## Try the report
 
@@ -69,11 +76,10 @@ Try the report here: [Warehouse Shipment Status](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Warehouse Bin List (report)
-description: Get an overview of warehouse bins, their setup, and the quantity of items within the bins. 
+description: Get an overview of warehouse bins, their setup, and the quantity of items in them. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Warehouse Bin List (report)
 
-The *Warehouse Bin List* report shows an overview of warehouse bins, their setup, and the quantity of items within the bins. 
+The **Warehouse Bin List** report shows an overview of warehouse bins, their setup, and the quantity of items in them.
 
-This report can cover all locations at which bins are mandatory.
+This report covers all locations for which bins are mandatory.
 
 ## Use cases
 
@@ -56,21 +56,23 @@ Please include your data sources and URLs
 
 -->
 
-As a warehouse manager, use the report to:
-* Monitor the quantity of items in each bin to ensure that inventory levels are accurate and optimal for each bin
-* Identify any overstocked or understocked bins and take necessary actions to balance inventory levels
-* Optimize bin configurations and layouts for improved efficiency in picking, packing, and shipping operations
+Warehouse managers use the report to:
 
-As a procurement specialist, use the report to:
-* Monitor the quantity of items in each bin to ensure that inventory levels are sufficient to meet demand
-* Identify any bins with low inventory levels and take necessary actions to replenish inventory
-* Optimize procurement processes for efficient inventory management and cost savings
+* Monitor the quantity of items in each bin to ensure that inventory levels are accurate and optimal for each bin.
+* Identify any over- or under stocked bins and take action to balance inventory levels.
+* Optimize bin configurations and layouts for improved efficiency in picking, packing, and shipping operations.
 
-As a sales and marketing manager, use the report to:
-* Monitor the quantity of items in each bin to ensure that inventory levels are sufficient to meet customer demand
-* Plan promotions or markdowns for specific items or bins to improve sales
-* Optimize sales and marketing strategies for efficient inventory management and cost savings
+Procurement specialists use the report to:
 
+* Monitor the quantity of items in each bin and ensure that inventory can meet demand.
+* Identify bins with low inventory levels and replenish them.
+* Optimize procurement processes for efficient inventory management and cost savings.
+
+Sales and marketing managers use the report to:
+
+* Monitor the quantity of items in each bin and ensure that inventory can meet demand.
+* Plan promotions or markdowns for specific items or bins to improve sales.
+* Optimize sales and marketing strategies for efficient inventory management and cost savings.
 
 ## Try the report
 
@@ -78,11 +80,10 @@ Try the report here: [Warehouse Bin List](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,7 +17,13 @@ ai.usage: ai-assisted
 
 # Inventory Cost and price list (report)
 
-The *Inventory Cost and price list* report shows a list of price information for the selected items or stock-keeping units: direct unit cost, last direct cost, unit price, profit percentage, and profit.
+The **Inventory Cost and price list** report shows price information for selected items or stock-keeping units: 
+
+* Direct unit cost
+* Last direct cost
+* Unit price
+* Profit percentage
+* Profit.
 
 ## Use cases
 
@@ -46,25 +52,29 @@ Please include your data sources and URLs
 
 -->
 
-As an inventory manager, use the report to:
-* Monitor the direct unit cost and last direct cost of items to ensure they are being stored and managed efficiently
-* Analyze the profit percentage and profit of items to determine if they are profitable for the company
-* Determine if there are any pricing strategies that can be implemented to increase profit margins
+Inventory managers use the report to:
 
-As a purchasing manager, use the report to:
-* Review the direct unit cost and last direct cost of items to ensure they are being purchased at a reasonable price
-* Analyze the profit percentage and profit of items to determine if they are profitable for the company
-* Determine if there are any pricing strategies that can be implemented to increase profit margins
+* Monitor the direct unit cost and last direct cost of items and ensure they're stored and managed efficiently.
+* Analyze the profit percentage and profit of items and determine their profitability.
+* Determine whether to implement pricing strategies and increase profit margins.
 
-As a sales manager, use the report to:
-* Analyze the unit price and profit of items to ensure they are priced competitively
-* Determine if there are any pricing strategies that can be implemented to increase sales and profit margins
-* Monitor the profit margins of specific items over time
+Purchasing managers use the report to:
 
-As a financial analyst, use the report to:
-* Analyze the direct unit cost and last direct cost of items to determine the cost of goods sold
-* Determine the profit percentage and profit of specific items to understand the profitability of the company's inventory
-* Identify trends and patterns in the cost and pricing information of specific items
+* Review the direct unit cost and last direct cost of items and ensure they're paying reasonable prices.
+* Analyze the profit percentage and profit of items and determine their profitability.
+* Determine whether to implement pricing strategies and increase profit margins.
+
+Sales managers use the report to:
+
+* Analyze the unit price and profit of items and ensure they're competitive.
+* Determine whether to implement pricing strategies and increase sales and profit margins.
+* Monitor the profit margins of specific items over time.
+
+Financial analysts use the report to:
+
+* Analyze the direct unit cost and last direct cost of items and determine the cost of goods sold.
+* Determine the profit percentage and profit of specific items and understand their profitability.
+* Identify trends and patterns in the cost and pricing information of specific items.
 
 ## Try the report
 
@@ -72,11 +82,10 @@ Try the report here: [Inventory Cost and price list](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad-hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Trial Balance by Period (report)
-description: Get a more detailed breakdown of your closing balances by getting a breakdown over 12 accounting periods for each general ledger (G/L) account.
+description: Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Trial Balance by Period (report)
 
-The *Trial Balance by Period* report shows general ledger (G/L) accounts with a starting balance, and the closing balances for 12 accounting periods. Can be filtered by Dimensions.
+The **Trial Balance by Period** report shows general ledger (G/L) accounts with a starting balance, and the closing balances for 12 accounting periods. You can filter the report by dimensions.
 
-You can select an indentation level to view a summary of more detailed view of your chart of accounts.
+You can select an indentation level to view a summary of more details from your chart of accounts.
 
 ## Use cases
 
@@ -55,21 +55,23 @@ Please include your data sources and URLs
 
 -->
 
-As a financial accountant, use the report to:
-* Verify the accuracy of the financial data by reviewing the movements in the selected period of month, quarter, or year, and ensuring that the closing balances match the expected values
-* Identify any discrepancies or errors in financial data and investigate further as necessary
-* Prepare financial statements, such as income statements, balance sheets, and cash flow statements, based on the data obtained from the report
+Financial accountants use the report to:
 
-As a financial analyst, use the report to:
-* Analyze financial performance over specific periods by reviewing the movements in the selected period of month, quarter, or year, and identifying trends and variances
-* Help identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+* Verify the accuracy of the financial data. Review the movements in the selected period of month, quarter, or year, and ensure that the closing balances match the expected values.
+* Identify discrepancies or errors in financial data and investigate them.
+* Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
 
-As a financial controller, use the report to: 
-* Monitor the financial health of the business by reviewing the movements in the selected period of month, quarter, or year, and ensuring that the closing balances are within the expected range
-* Help identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for internal and external stakeholders, such as board members or regulatory agencies based on the data obtained from the report
+Financial analysts use the report to:
 
+* Analyze financial performance over specific periods by reviewing the movements in the selected period of month, quarter, or year, and identifying trends and variances.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for stakeholders such as investors or executives.
+
+Financial controllers use the report to:
+
+* Monitor the financial health of the business. Review the movements in the selected period of month, quarter, or year, and ensuring the closing balances are within the expected range.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
 ## Try the report
 
@@ -77,11 +79,10 @@ Try the report here: [Trial Balance by Period](https://businesscentral.dynamics.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

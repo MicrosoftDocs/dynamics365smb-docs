@@ -1,6 +1,6 @@
 ---
 title: Trial Balance/Previous Year (report)
-description: View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the same period in the previous calendar year.
+description: View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the same period in the previous year.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,14 +17,13 @@ ai.usage: ai-assisted
 
 # Trial Balance/Previous Year (report)
 
-The *Trial Balance/Previous Year* report shows general ledger (G/L) accounts with debit and credit net change and balance for the specified period. 
+The **Trial Balance/Previous Year** report shows general ledger (G/L) accounts with debit and credit net change and balances for a period you specify.
 
-Also shows percentage of actual figures vs figures for same period last year. 
+The report also shows the percentage of actual figures vs. the figures for the same period last year.
 
-Can be filtered by dimensions.
+You can filter the report by dimensions.
 
-Use the report to help identify trends, variances, and potential areas of concern. It's particularly useful at the close of an accounting period or fiscal year to assess financial performance over time.
-
+Use the report to help identify trends, variances, and potential areas of concern. The report is useful at the close of an accounting period or fiscal year for assessing financial performance over time.
 
 ## Use cases
 
@@ -60,21 +59,23 @@ Please include your data sources and URLs
 -->
 
 
-As a financial analyst, use the report to:
-* Analyze the financial performance of the business over time by comparing current financial data with data from the same period in the previous year
-* Identify trends, variances, and potential areas of concern based on the comparison of the current period with the previous year
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+Financial analysts use the report to:
 
-As a financial controller, use the report to:
-* Monitor the financial performance of the business over time by comparing current financial data with data from the same period in the previous year
-* Identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for internal and external stakeholders, such as board members or regulatory agencies based on the data obtained from the report
+* Analyze the financial performance of the business over time by comparing current financial data with data from the same period in the previous year.
+* Identify trends, variances, and potential areas of concern based on the comparison of the current period with the previous year.
+* Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-As an auditor, use the report to:
-* Verify the accuracy of financial data by reviewing the balances and net changes of each account in the chart of accounts for the current period and the same period in the previous year
-* Identify any discrepancies or irregularities in financial data and investigate further as necessary
-* Prepare audit reports and provide recommendations for improving financial controls and processes based on the data obtained from the report
+Controllers use the report to:
 
+* Monitor the financial performance of the business over time by comparing current financial data with data from the same period in the previous year.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
+
+Auditors use the report to:
+
+* Verify the accuracy of financial data. Review the balances and net changes of each account in the chart of accounts for the current period and the same period last year.
+* Identify discrepancies or irregularities in financial data and investigate them.
+* Use the report data to prepare audit reports and provide recommendations for improving financial controls and processes.
 
 ## Try the report
 
@@ -82,11 +83,10 @@ Try the report here: [Trial Balance/Previous Year](https://businesscentral.dynam
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

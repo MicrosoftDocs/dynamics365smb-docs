@@ -1,6 +1,6 @@
 ---
 title: Trial Balance/Budget (report)
-description: View a snapshot of your chart of accounts at a given point in time, to check the debit and credit net change and closing balance compared to the budget.
+description: View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the budget.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,14 +17,11 @@ ai.usage: ai-assisted
 
 # Trial Balance/Budget (report)
 
-The *Trial Balance/Budget* report shows general ledger (G/L) accounts with debit and credit net change and balance for the specified period. 
+The **Trial Balance/Budget** report shows general ledger (G/L) accounts with debit and credit net change and balance for a period you specify. The report also shows the percentage of actual figures vs. figures for same period last year.
 
-Also shows percentage of actual figures vs figures for same period last year. 
+You can filter the report by dimensions.
 
-Can be filtered by dimensions.
-
-Use the report to assess how well you are adhering to your financial plans and identify any variances between actual and budgeted amounts. It's particularly useful for financial analysis and decision-making at the end of an accounting period or fiscal year
-
+Use the report to assess how well you're following your financial plans and identify variances between actual and budgeted amounts. The report is useful for financial analysis and decision-making at the end of an accounting period or fiscal year.
 
 ## Use cases
 
@@ -56,21 +53,23 @@ Please include your data sources and URLs
 
 -->
 
-As a financial analyst, use the report to:
-* Analyze the financial performance of the business by reviewing the variances between actual and budgeted amounts of each account in the chart of accounts
-* Identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+Financial analysts use the report to:
 
-As a financial accountant, use the report to:
-* Prepare financial statements, such as income statements, balance sheets, and cash flow statements, based on the data obtained from the report in comparison to the budget
-* Verify the accuracy of the financial data by ensuring that debits and credits are balanced and comparing the actual vs budgeted amounts
-* Analyze the financial health of the business by reviewing the variances between actual and budgeted amounts of each account in the chart of accounts
+* Analyze the financial performance of the business. Review the variances between actual and budgeted amounts of each account in the chart of accounts.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-As a financial controller, use the report to:
-* Monitor the financial performance of the business by reviewing the variances between actual and budgeted amounts of each account in the chart of accounts
-* Identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for internal and external stakeholders, such as board members or regulatory agencies based on the data obtained from the report
+Accountants use the report to:
 
+* Use the report data in comparison with budget amounts to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
+* Verify the accuracy of the financial data by ensuring that debits and credits balance, and compare the actual vs. budgeted amounts.
+* Analyze the financial health of the business. Review the variances between the actual and budgeted amounts of each account in the chart of accounts.
+
+Controllers use the report to:
+
+* Monitor the financial performance of the business. Review the variances between actual and budgeted amounts for each account in the chart of accounts.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
 ## Try the report
 
@@ -78,11 +77,10 @@ Try the report here: [Trial Balance/Budget](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

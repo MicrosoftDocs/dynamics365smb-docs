@@ -1,6 +1,6 @@
 ---
 title: Dimensions - Total (report)
-description: Analyse your general ledger with dimension totals by building a grouping of dimensions for each permutation of dimension values and calculate a general ledger (G/L) balance total for each segment.
+description: Analyze your general ledger with dimension totals by building groups of dimensions for combinations of dimension values, and calculate a general ledger balance total for each segment.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,14 +17,13 @@ ai.usage: ai-assisted
 
 # Dimensions - Total (report)
 
-The *Dimensions - Total* report shows calculated general ledger (G/L) balance totals for dimension levels specified by the user, for a given date period.
+The **Dimensions - Total** report shows calculated general ledger (G/L) balance totals for the dimension levels you specify for a given period.
 
-Dimension levels are specified by selecting an analysis view configured with dimension codes, then picking a hierarchy of how the dimension groups are grouped under one another.
+You specify dimension levels by selecting an analysis view configured with dimension codes, and then creating a hierarchy of dimension groups by arranging them under one another.
 
-You can select an Analysis View with a column layout that includes budget figures. This will show general ledger (G/L) actuals vs budget for each dimension level. 
+You can select an Analysis View with a column layout that includes budget figures. This view shows general ledger actuals vs. budgets for each dimension level.
 
-You can also select an Analysis View with a cash flow account source. This will show cash flow actuals vs forecast for each dimension level.
-
+You can also select an Analysis View with a cash flow account source. This view shows cash flow actuals vs. forecasts for each dimension level.
 
 ## Use cases
 
@@ -61,21 +60,23 @@ This report helps businesses analyze and summarize data by categorizing entries 
 Please include your data sources and URLs
 -->
 
-As a financial analyst, use the report to:
-* Analyze financial performance by reviewing the general ledger (G/L) balance totals for different dimensions, such as department, project, or location
-* Help identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+Financial analysts use the report to:
 
-As a financial accountant, use the report to:
-* Prepare financial statements, such as income statements, balance sheets, and cash flow statements, based on the data obtained from the report
-* Verify the accuracy of the financial data by ensuring that the general ledger (G/L) balance totals for different dimensions are correct and balanced
-* Identify any discrepancies or errors in financial data and investigate further as necessary
+* Analyze financial performance by reviewing the general ledger balance totals for different dimensions, such as department, project, or location.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-As a financial controller, use the report to:
-* Monitor the financial health of the business by reviewing the general ledger (G/L) balance totals for different dimensions, such as department, project, or location
-* Help identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for internal and external stakeholders, such as board members or regulatory agencies based on the data obtained from the report
+Financial accountants use the report to:
 
+* Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
+* Verify the accuracy of the financial data by ensuring that the general ledger balance totals for different dimensions are correct and balance.
+* Identify discrepancies or errors in financial data and investigate them.
+
+Financial controllers use the report to:
+
+* Monitor the financial health of the business by reviewing the general ledger balance totals for different dimensions, such as department, project, or location.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
 ## Try the report
 
@@ -83,11 +84,10 @@ Try the report here: [Dimensions - Total](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

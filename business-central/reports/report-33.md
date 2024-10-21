@@ -1,6 +1,6 @@
 ---
-title: Reconcile Cust. and Vend. Accs (report)
-description: Understand the transactions for control general ledger (G/L) accounts, and highlight any discrepancies between G/L and customer/vendor ledgers.
+title: Reconcile Cust. and Vend. Accs. (report)
+description: Understand the transactions for control general ledger accounts, and find discrepancies between your general ledger and customer and vendor ledgers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -15,16 +15,15 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Reconcile Cust. and Vend. Accs (report)
+# Reconcile Cust. and Vend. Accs. (report)
 
-The *Reconcile Cust. and Vend. Accs* report shows a list of all control general ledger (G/L) accounts defined on customer posting group, vendor posting group and currency tables. 
+The **Reconcile Cust. and Vend. Accs.** report lists all general ledger (G/L) accounts defined for customer posting groups, vendor posting groups, and currencies.
 
-Total net change is calculated for both the general ledger as well as customer/vendor ledgers in the given date period. Any differences between the two are highlighted.
+Total net change is calculated for the general ledger and customer and vendor ledgers for a given period. Differences between the two are highlighted.
 
-Customer and vendor ledger entries are separated by posting group and type to allow for easy identification of errors and to assist with corrections.
+Customer and vendor ledger entries are separated by posting group and type to make it easy to find errors correct them.
 
-Realised foreign exchange gains and losses are also totalled in the (G/L), and compared to the gains/losses posted against customer/vendor ledgers by currency. 
-
+Realized gains and losses in foreign currency exchanges are totaled in the general ledger and compared to the gains and losses posted to the customer and vendor ledgers by currency.
 
 ## Use cases
 
@@ -63,21 +62,23 @@ Please include your data sources and URLs
 
 -->
 
-As an accounts payable clerk, use the report to:
-* Reconcile vendor accounts to ensure that all vendor transactions have been correctly recorded in the general ledger
-* Identify any discrepancies or errors in vendor transactions and investigate further as necessary
-* Prepare vendor account statements based on the data obtained from the report
+Accounts payable professionals use the report to:
 
-As an accounts receivable clerk, use the report to:
-* Reconcile customer accounts to ensure that all customer transactions have been correctly recorded in the general ledger
-* Identify any discrepancies or errors in customer transactions and investigate further as necessary
-* Prepare customer account statements based on the data obtained from the report
+* Reconcile vendor accounts and ensure that all vendor transactions are correct in the general ledger.
+* Identify discrepancies or errors in vendor transactions and investigate.
+* Use the report data to prepare vendor account statements.
 
-As a financial accountant, use the report to:
-* Verify the accuracy of the financial data by ensuring that the balances on customer and vendor ledgers reconcile to the general ledger balances
-* Identify any discrepancies or errors in financial data and investigate further as necessary
-* Prepare financial statements, such as income statements, balance sheets, and cash flow statements, based on the data obtained from the report
+Accounts receivable professionals use the report to:
 
+* Reconcile customer accounts to ensure that all customer transactions are correct in the general ledger.
+* Identify discrepancies or errors in customer transactions and investigate.
+* Use the data from the report to prepare customer account statements.
+
+Financial accountants use the report to:
+
+* Verify the accuracy of the financial data by ensuring that the balances on customer and vendor ledgers reconcile to the general ledger balances.
+* Identify discrepancies or errors in financial data and investigate.
+* Use the data from the report to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
 
 ## Try the report
 
@@ -85,11 +86,10 @@ Try the report here: [Reconcile Cust. and Vend. Accs](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

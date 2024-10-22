@@ -1,1 +1,1 @@
-Analyze vendors' effect on cash flow and prioritize vendor payments.
+Analyze the effect of vendors on cash flow, and prioritize vendor payments.

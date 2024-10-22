@@ -1,1 +1,1 @@
-Keep track of vendor performance and ensure that your company gets the best value for its money.
+Track vendor performance and ensure that your company gets the best value for money.

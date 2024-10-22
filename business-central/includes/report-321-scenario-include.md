@@ -1,1 +1,1 @@
-Keep track of your outstanding payables and manage your vendor relationships.
+Track your outstanding payables and manage your vendor relationships.

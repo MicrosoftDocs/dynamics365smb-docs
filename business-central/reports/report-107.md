@@ -75,6 +75,7 @@ Try the report here: [107](https://businesscentral.dynamics.com?report=107)
 ## See also
 
 [Sales reports](../sales-reports.md)  
+[Accounts receivable report overview](../receivables-reports.md)  
 [Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
 [Sales analytics overview](../sales-analytics-overview.md)  
 

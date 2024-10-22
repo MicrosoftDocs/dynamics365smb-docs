@@ -23,6 +23,8 @@ Vendors are sorted by purchase amounts in the selected period. The list gives a 
 
 ## Use cases
 
+[!INCLUDE[report-311-scenario](../includes/report-311-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
@@ -45,7 +47,6 @@ The vendors are sorted by purchase amount within the selected period. The list g
 
 This report can be used to provide information to monitor supplier relationships, plan upcoming payments and identify potential cashflow issues.
 
-
 ### Use cases
 Review vendors with the most transactions within a selected period to manage cash flow & prioritise vendor payments.
 
@@ -63,7 +64,7 @@ Accounts payables specialists use the report to:
 
 Controllers use the report to:
 
-* Forecast cash flow. The report provides a quick overview of vendors with the largest balance and highest purchase volume. Use this information to forecast cash flow, identify potential cashflow issues, and take action to avoid disruptions in cash flow.
+* Forecast cash flow. The report provides a quick overview of vendors with the largest balance and highest purchase volume. Use this information to forecast cash flow, identify potential cash flow issues, and take action to avoid disruptions in cash flow.
 
 ## Try the report
 

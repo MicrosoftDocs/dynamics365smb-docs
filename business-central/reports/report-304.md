@@ -1,6 +1,6 @@
 ---
 title: Vendor - Detail Trial Balance (report)
-description: Analyze and reconcile your vendor balances at the end of a period of your choosing.
+description: Analyze and reconcile vendor balances at the end of a period.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -32,6 +32,8 @@ If you specify a date range in the date filter, for each vendor the report displ
 You can run the report in your local currency or in the vendor's currency. You can also exclude vendors that didn't have transactions in the period.
 
 ## Use cases - A version (persona version)
+
+[!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)]
 
 <!-- 
 Prompt

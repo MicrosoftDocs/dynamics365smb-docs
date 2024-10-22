@@ -559,14 +559,38 @@ ms.service: dynamics-365-business-central
 ##### [Dimensions - Detail](reports/report-28.md)
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
+#### [Built-in fixed assets reports](fa-reports.md)
+#### Accounts payable reports
+##### [Built-in accounts receivable reports](receivables-reports.md)
+##### [Accounts payable report overview](payables-reports.md)
+##### [Vendor - List](reports/report-301.md)
+##### [Vendor - Detail Trial Balance](reports/report-304.md)
+##### [Vendor - Summary Aging](reports/report-305.md)
+##### [Vendor - Order Summary](reports/report-307.md)
+##### [Vendor - Order Detail](reports/report-308.md)
+##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Purchase statistics](reports/report-312.md)
+##### [Vendor/Item Purchases](reports/report-313.md)
+##### [Vendor Pre-Payment Journal](reports/report-317.md)
+##### [Payments on Hold](reports/report-319.md)
+##### [Vendor - Balance to Date](reports/report-321.md)
+##### [Aged Accounts Payable](reports/report-322.md)
+##### [Vendor - Trial Balance](reports/report-329.md) 
 
 <!-- 
-##### [](reports/report-.md) 
+
+##### [Vendor Item catalog](reports/report-320.md)
+##### [Purchase Reservation Availability](reports/report-409.md)
+##### [Inventory Purchase Orders](reports/report-709.md)
+##### [Inventory Vendor Purchases](reports/report-714.md)
+##### [Item/vendor catalog](reports/report-720.md) 
+##### [Purchase Statistics](reports/report-312.md)
+##### [Payments on Hold](reports/report-319.md)
+##### [Payment Practice](reports/report-page 687.md)
 -->
 
-#### [Built-in fixed assets reports](fa-reports.md)
-
 #### Accounts receivable reports
+##### [Built-in accounts payable reports](payables-reports.md)
 ##### [Accounts receivable report overview](receivables-reports.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
@@ -581,8 +605,6 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
-
-#### [Built-in accounts payable reports](payables-reports.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -637,6 +659,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
+##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)

@@ -36,9 +36,9 @@ The *Sustainability certificate standard* refers to the specific standard for a 
 2. On the **Sust. Certificate Standards** page, select **New, and enter the **Number** and **Name** fields for new certificate standard. 
 3. Close the page.  
 
-## How to create sustainability certificate 
+## Create a sustainability certificate 
 
-To create new sustainability certificate, follow the steps:   
+To create a new sustainability certificate, follow the steps:   
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Certificates**, and then select the related link.
 2. On the **Sustainability Certificates** page, select **New**.
@@ -49,9 +49,9 @@ Sustainability certificates are typically issued by independent third-party orga
 1. If this certificate is measurable, enable the **Has Value** field and enter the **Value**.   
 
 > [!NOTE]
-> You can also create a new sustainabilty directly from the vendor or item card. In this case, the **Type** field will be automatically prepopulated as an Item or Vendor based on the page from where certificate has been created.  
+> You can also create a new sustainabilty directly from the vendor or item card. In this case, the **Type** field is automatically prepopulated as an Item or Vendor based on the page from where certificate has been created.  
  
-### Sustainability certificate for vendors
+### Add the sustainability certificate for vendors
 
 To add the sustainability certificate to the vendor follow the next steps:   
 
@@ -60,7 +60,7 @@ To add the sustainability certificate to the vendor follow the next steps:
 3. In the **General** FastTab, select the certificate in the **Sust. Certificate No.** field. If you don't see the field by default, select the **Show more** for the **General** FastTab.
 4. Close the page.  
 
-### Sustainability certificate for items
+### Add the sustainability certificate for items
 
 To add the sustainability certificate to the item follow the steps:   
 
@@ -69,14 +69,12 @@ To add the sustainability certificate to the item follow the steps:
 3. In the **Sustainability** FastTab, select the certificate in the **Sust. Certificate No.** field. 
 4. Close the page.
 
-
 ## See also
 
-[Sustainability management overview](finance-manage-sustainability.md)  
-[Sustainability setup](finance-sustainability-setup.md)    
-[Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
-[Sustainability reports and analytics in Business Central](sustainability-reports.md)   
-[Finance](finance.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
-
+- [Sustainability management overview](finance-manage-sustainability.md)  
+- [Sustainability setup](finance-sustainability-setup.md)    
+- [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
+- [Sustainability reports and analytics in Business Central](sustainability-reports.md)   
+- [Finance](finance.md)    
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
 [!INCLUDE[footer-include](includes/footer-banner.md)]

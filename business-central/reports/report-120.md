@@ -1,6 +1,6 @@
 ---
 title: Aged Accounts Receivables (report)
-description: Analyse customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.Allows easy reconciliation of the customer subledger against the receivables account(s) in the general ledger, assuming that direct posting is disabled.
+description: Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,15 +17,16 @@ ai.usage: ai-assisted
 
 # Aged Accounts Receivables (report)
 
-The *Aged Accounts Receivables* report shows the amount of outstanding invoices, credit memos and payments for customers.
+The **Aged Accounts Receivables** report shows the number of outstanding customer invoices, credit memos, and payments.
 
-You can configure report aging to generate three equal length periods as of the specified date (i.e. three preceding months from the end of the current month). The customer's outstanding balance is then calculated for each period, as well as any balances due before or after the three periods. 
+You can configure the report's aging to generate three equal length periods as of a date you specify. For example, the periods might be the three previous months from the end of the current month. The report calculates the customer's outstanding balance for each period, and balances due before or after the three periods.
 
-Each period can be named from the actual start/end dates, or the total number of days included (i.e. 1 - 31 days).
+> [!TIP]
+> Businesses often use the start and end dates as the names for each period, or the total number of days the periods include. For example, 1 - 31 days.
 
-A total percentage of outstanding amounts are calculated for each date range, to help you easily identify the current state of collectable customer debts.
+The report calculates a total percentage of outstanding amounts for each period, to help you easily identify the current state of customer debts.
 
-The report can either show a summed balance for each customer, or a detailed breakdown of each outstanding document for analysis.
+The report can either show a summed balance for each customer, or a detailed breakdown of each outstanding document.
 
 ## Use cases
 
@@ -69,21 +70,23 @@ Please include your data sources and URLs
 
 -->
 
-As an accounts receivable clerk, use the report to:
-* Reconcile customer sub-ledgers against the receivables account(s) in the general ledger to ensure that all outstanding balances are accounted for accurately and completely
-* Identify any discrepancies or errors in customer transactions and investigate further as necessary
-* Prepare financial statements, such as income statements or balance sheets, based on the data obtained from the report
+Accounts receivable professionals use the report to:
 
-As a collections specialist, use the report to:
-* Identify overdue customer accounts and prioritize follow-up activities based on the length of time past due
-* Analyze customer payment history to identify patterns or trends in late payments and proactively address potential issues
-* Help prepare collection reports or dashboards for internal or external stakeholders
+* Reconcile customer subledgers against the receivables accounts in the general ledger and ensure that all outstanding balances are accurate and complete.
+* Identify discrepancies or errors in customer transactions and investigate them.
+* Get data to prepare financial statements such as income statements or balance sheets.
 
-As a credit analyst, use the report to:
-* Analyze customer payment history to identify creditworthiness and make recommendations for credit limits or payment terms
-* Help identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+Collections specialists use the report to:
 
+* Identify overdue customer accounts and prioritize follow-up activities based on how overdue the payments are.
+* Analyze customer payment history to identify patterns or trends in late payments and proactively address issues.
+* Prepare collection reports or dashboards for internal or external stakeholders.
+
+Credit analysts use the report to:
+
+* Analyze customer payment history to make recommendations for credit limits or payment terms.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Get data to prepare financial reports for stakeholders such as investors or executives.
 
 ## Try the report
 
@@ -91,12 +94,11 @@ Try the report here: [Aged Accounts Receivables](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Customer - Payment Receipt (report)
-description: 
+description: View payment receipts for each customer ledger entry of the type Payment.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Customer - Payment Receipt (report)
 
-The *Customer - Payment Receipt* report shows a payment receipt for each customer ledger entry of type **Payment**. 
+The **Customer - Payment Receipt** report shows a payment receipt for each customer ledger entry of type **Payment**. 
 
-If the payment was applied to invoices, the invoices are specified; otherwise, it just states the payment amount as unapplied. 
+If the payment was applied to invoices, the invoices are specified. Otherwise, it just states the payment amount as unapplied.
 
 ## Use cases
 
@@ -31,12 +31,11 @@ Try the report here: [Customer - Payment Receipt](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Sales reports](../sales-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

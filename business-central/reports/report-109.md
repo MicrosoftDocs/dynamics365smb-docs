@@ -1,6 +1,6 @@
 ---
 title: Customer - Summary Aging Simp. (report)
-description: This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables** report instead.
+description: This is a legacy version of an accounts receivables aging report. We recommend you use the Aged Accounts Receivables report instead.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,8 @@ ai.usage: ai-assisted
 
 # Customer - Summary Aging Simp. (report)
 
-This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables** report instead.
-
-For more information, see [About *Aged Accounts Receivables*](../reports/report-120.md)
+> [!NOTE]
+> This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables** report instead. For more information, see [About *Aged Accounts Receivables*](../reports/report-120.md).
 
 ## Try the report
 
@@ -27,13 +26,12 @@ Try the report here: [Customer - Summary Aging Simp.](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Aged Accounts Receivables (report)](report-120.md)   
+[Aged Accounts Receivables (report)](report-120.md)  
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

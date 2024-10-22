@@ -1,6 +1,6 @@
 ---
 title: Aged Accounts Payable (report)
-description: Analyze vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritize payments for overdue accounts. Allows easy reconciliation of the vendor subledger against the payables accounts in the general ledger, assuming that direct posting is disabled. 
+description: Analyze vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritize payments for overdue accounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -23,7 +23,7 @@ You can configure report aging to generate three equal length periods as of a sp
 
 To help you easily identify the company's current financial health, total percentages of outstanding amounts are calculated for each date range.
 
-The report can either show a summed balance for each vendor, or a detailed breakdown of each outstanding document for analysis.
+The report can either show a summed balance for each vendor, or a detailed breakdown of each outstanding document.
 
 ## Use cases
 
@@ -54,8 +54,6 @@ Each period can be named from the actual start/end dates, or the total number of
 A total percentage of outstanding amounts are calculated for each date range, to help you easily identify the company's current financial health.
 
 The report can either show a summed balance for each vendor, or a detailed breakdown of each outstanding document for analysis.
-
-
 
 ### Use cases
 Analyse vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritise payments for overdue accounts. 

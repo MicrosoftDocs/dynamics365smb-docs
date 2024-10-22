@@ -1,6 +1,6 @@
 ---
 title: Vendor - List (report)
-description: Use the report, for example, to maintain information about the vendor
+description: Use the report, for example, to maintain information about the vendor.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,10 +17,9 @@ ai.usage: ai-assisted
 
 # Vendor - List (report)
 
-The *Vendor - List* report shows basic information for vendors, such as the vendor posting group, discount and payment information, and priority level. 
+The **Vendor - List** report shows basic information for vendors, such as the vendor posting group, discount and payment information, and priority level.
 
-The report also shows the vendor's default currency, and the vendor's current balance (in LCY). 
-
+The report also shows the vendor's default currency, and their current balance in local currency.
 
 ## Use cases
 
@@ -52,21 +51,23 @@ Please include your data sources and URLs
 
 -->
 
-As a procurement officer, use the report to:
-* Keep track of vendor information, such as the vendor posting group, payment terms, and discount information, to ensure that all vendor transactions are processed accurately and efficiently
-* Help identify opportunities for cost savings or revenue generation by negotiating payment terms or discounts with vendors
-* Prepare vendor performance reports or dashboards for internal or external stakeholders based on the data obtained from the report
+Procurement officers use the report to:
 
-As a vendor manager, use the report to:
-* Monitor vendor information, such as the vendor's priority level and payment history, to ensure that all vendor relationships are managed effectively and efficiently
-* Help identify areas for improvement in vendor performance and proactively address potential issues
-* Prepare vendor scorecards or performance reports for internal or external stakeholders based on the data obtained from the report
+* Manage vendor information, such as the vendor posting group, payment terms, and discount information, to ensure they process vendor transactions accurately and efficiently.
+* Identify opportunities to save cost or generate revenue by negotiating payment terms or discounts with vendors.
+* Get data to prepare vendor performance reports or dashboards for internal or external stakeholders.
 
-As a financial analyst, use the report to:
-* Analyze vendor information, such as payment terms and discount rates, to identify opportunities for cost savings or revenue generation
-* Help prepare financial reports, such as income statements or balance sheets, for internal or external stakeholders based on the vendor information obtained from the report
-* Monitor vendor performance and identify potential risks to financial performance based on the data obtained from the report
+Vendor managers use the report to:
 
+* Monitor vendor information, such as the vendor's priority level and payment history, to ensure they manage vendor relationships effectively.
+* Identify areas for improvement in vendor performance and proactively address potential issues.
+* Get data to prepare vendor scorecards or performance reports for internal or external stakeholders.
+
+Financial analysts use the report to:
+
+* Analyze vendor information, such as payment terms and discount rates, to identify opportunities to save cost or generate revenue.
+* Get data to prepare financial reports such as income statements or balance sheets for internal or external stakeholders.
+* Monitor vendor performance and identify potential risks to financial performance.
 
 ## Try the report
 
@@ -74,12 +75,11 @@ Try the report here: [Vendor - List](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

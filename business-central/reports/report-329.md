@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Vendor - Trial Balance (report)
 
-The **Vendor - Trial Balance** report shows the beginning balance and net change for the (mandatory) date range selected in the date filter.
+The **Vendor - Trial Balance** report shows the beginning balance and net change for the mandatory date range you select in the date filter.
 
 If you use accounting periods, the report shows the fiscal year amounts for beginning balance, net change, and ending balance.
 
@@ -45,8 +45,6 @@ Shows the net changes for vendors for the period specified in the date filter, a
 You must specify a date range in the date filter and the report will display the beginning balance and net change for the date range selected. Using the accounting periods the report will show the fiscal year amounts for beginning balance, net change and ending balance.
 
 The report is segmented for vendors in each vendor posting group for easy reconciliation of the ending balance against the general ledger payables account(s).
-
-
 
 ### Use cases
 Analyse the closing balance of vendors at the end of the period to reconcile the vendor subledger against the payables account(s) in the general ledger.

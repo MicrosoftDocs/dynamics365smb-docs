@@ -1,6 +1,6 @@
 ---
 title: Payments on Hold (report)
-description: Get a checklist of all vendor ledger entries where the invoice is in dispute and the **On Hold** field isn't blank.
+description: Get a checklist of all vendor ledger entries where the invoice is in dispute and the On Hold field isn't blank.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Payments on Hold (report)
 
-The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. Vendor ledger entries can be put on hold if there's a dispute about a supplier document. This report helps you maintain transparency and efficiency when you handle vendor disputes, so your employees can effectively manage and resolve issues.
+The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. You can put vendor ledger entries on hold if there's a dispute about a supplier document. This report helps you maintain transparency and efficiency when you handle vendor disputes, so your employees can effectively manage and resolve issues.
 
 To put an entry on hold, enter any value in the **On Hold** field. There's no validation on this field.
 

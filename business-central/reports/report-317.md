@@ -17,13 +17,12 @@ ai.usage: ai-assisted
 
 # Vendor Pre-Payment Journal (report)
 
-The *Vendor Pre-Payment Journal* report shows the payment journal with payment discount and tolerance information. 
+The **Vendor Pre-Payment Journal** report shows payment discount and tolerance information for payment journals.
 
-**Note**: The report shows payment discounts incorrectly when multiple credit memos were used in an application. In this case, the payment discounts for the extra credit memos are shown as unapplied amounts.
+> [!NOTE]
+> The report shows payment discounts incorrectly if multiple credit memos were used in a payment application. In this case, the payment discounts for the extra credit memos show as unapplied amounts.
 
 ## Use cases
-
-
 
 <!-- 
 Prompt
@@ -51,21 +50,23 @@ It helps businesses ensure accuracy and compliance in their payment processes.
 Please include your data sources and URLs
 -->
 
-As a procurement officer, use the report to:
-* Review pre-payment journals to ensure that all payment information, including discounts and tolerances, is accurate and complete before creating payment files and posting the journal
-* Help identify potential issues or discrepancies in the payment process and proactively address them
-* Prepare payment reports or dashboards for internal or external stakeholders based on the data obtained from the report
+Procurement officers use the report to:
 
-As an accounts payable clerk, use the report to:
-* Reconcile pre-payment journals against vendor sub-ledgers to ensure that all outstanding balances are accounted for accurately and completely
-* Identify any discrepancies or errors in payment information and investigate further as necessary
-* Prepare financial statements, such as income statements or balance sheets, based on the data obtained from the report
+* Review prepayment journals to ensure that all payment information, including discounts and tolerances, is accurate and complete before creating payment files and posting the journal.
+* Identify potential issues or discrepancies in the payment process and proactively address them.
+* Get data to prepare payment reports or dashboards for internal or external stakeholders.
 
-As a financial analyst, use the report to:
-* Analyze payment information, such as discounts and tolerances, to identify areas for cost savings or revenue generation
-* Help prepare financial reports, such as income statements or balance sheets, for internal or external stakeholders based on the payment information obtained from the report
-* Monitor payment performance and identify potential risks to financial performance based on the data obtained from the report
+Accounts payable professionals use the report to:
 
+* Reconcile prepayment journals against vendor subledgers and ensure that all outstanding balances are accurate and complete.
+* Identify discrepancies or errors in payment information and investigate them.
+* Get data to prepare financial statements such as income statements or balance sheets.
+
+Financial analysts use the report to:
+
+* Analyze payment information, such as discounts and tolerances, to identify areas to save cost or generate revenue.
+* Get data to prepare financial reports such as income statements or balance sheets for internal or external stakeholders.
+* Monitor payment performance and identify potential risks to financial performance.
 
 ## Try the report
 
@@ -73,12 +74,11 @@ Try the report here: [Vendor Pre-Payment Journal](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Vendor/Item Purchases (report)
 
-The **Vendor/Item Purchases** report shows a total of items purchased from vendors in the given date period, grouped by vendors. Value entries for each combination of vendor and item are summed up to calculate the total invoiced quantity, and cost and discount amounts.
+The **Vendor/Item Purchases** report shows a total of items purchased from vendors in the given date period, grouped by vendors. The report sums up the value entries for each combination of vendor and item to calculate the total invoiced quantity, and cost and discount amounts.
 
 The calculated cost amount includes added costs, such as item charges.
 
@@ -61,7 +61,7 @@ Procurement managers use the report to:
 
 Controllers use the report to:
 
-* Forecast cash flow. The report provides a comprehensive view of item purchases per vendor in a selected period. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
+* Forecast cash flow. The report provides a comprehensive view of item purchases per vendor in a selected period. Use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
 * Identify opportunities to save cost. The report provides information on possible discounts and the volume of item purchases. Use this information to identify ways to save cost and take action to realize the savings.
 
 ## Try the report

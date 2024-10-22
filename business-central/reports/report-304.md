@@ -1,6 +1,6 @@
 ---
 title: Vendor - Detail Trial Balance (report)
-description: Analyze and reconcile your vendor balances at the end of a period of your choosing.
+description: Analyze and reconcile vendor balances at the end of a period.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf

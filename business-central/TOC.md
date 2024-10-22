@@ -565,7 +565,23 @@ ms.service: dynamics-365-business-central
 -->
 
 #### [Built-in fixed assets reports](fa-reports.md)
-#### [Built-in accounts receivable reports](receivables-reports.md)
+
+#### Accounts receivable reports
+##### [Accounts receivable report overview](receivables-reports.md)
+##### [Customer List](reports/report-101.md)
+##### [Customer - Detail Trial Balance](reports/report-104.md)
+##### [Customer - Order Summary](reports/report-107.md)
+##### [Customer - Order Detail](reports/report-108.md)
+##### [Customer - Summary Aging Simp.](reports/report-109.md)
+##### [Customer - Top 10 List](reports/report-111.md)
+##### [Sales Statistics](reports/report-112.md)
+##### [Customer/Item Sales](reports/report-113.md)
+##### [Aged Accounts Receivables](reports/report-120.md)
+##### [Customer - Balance to Date](reports/report-121.md)
+##### [Customer - Detail Trial Bal.](reports/report-129.md)
+##### [Customer - Payment Receipt](reports/report-211.md)  
+##### [Customer Statement](reports/report-1316.md)
+
 #### [Built-in accounts payable reports](payables-reports.md)
 
 ## Sales
@@ -576,6 +592,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
 ##### [Customer - Top 10 list](reports/report-111.md)

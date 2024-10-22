@@ -547,11 +547,21 @@ ms.service: dynamics-365-business-central
 
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
-#### [Built-in key finance reports](finance-reports.md)
+#### Key finance reports
+##### [Key finance report overview](finance-reports.md)
+##### [Detail Trial Balance](reports/report-4.md) 
+##### [Trial Balance](reports/report-6.md) 
+##### [Trial Balance/Previous Year](reports/report-7.md) 
+##### [Trial Balance/Budget](reports/report-9.md)
+##### [Closing Trial Balance](reports/report-10.md)
+##### [Financial Report](reports/report-25.md)
+##### [Dimensions - Total](reports/report-27.md)
+##### [Dimensions - Detail](reports/report-28.md)
+##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
+##### [Trial Balance by Period](reports/report-38.md)
 #### [Built-in fixed assets reports](fa-reports.md)
-#### [Built-in accounts receivable reports](receivables-reports.md)
-
-#### Built-in accounts payable reports
+#### Accounts payable reports
+##### [Built-in accounts receivable reports](receivables-reports.md)
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
@@ -579,6 +589,23 @@ ms.service: dynamics-365-business-central
 ##### [Payment Practice](reports/report-page 687.md)
 -->
 
+#### Accounts receivable reports
+##### [Built-in accounts payable reports](payables-reports.md)
+##### [Accounts receivable report overview](receivables-reports.md)
+##### [Customer List](reports/report-101.md)
+##### [Customer - Detail Trial Balance](reports/report-104.md)
+##### [Customer - Order Summary](reports/report-107.md)
+##### [Customer - Order Detail](reports/report-108.md)
+##### [Customer - Summary Aging Simp.](reports/report-109.md)
+##### [Customer - Top 10 List](reports/report-111.md)
+##### [Sales Statistics](reports/report-112.md)
+##### [Customer/Item Sales](reports/report-113.md)
+##### [Aged Accounts Receivables](reports/report-120.md)
+##### [Customer - Balance to Date](reports/report-121.md)
+##### [Customer - Detail Trial Bal.](reports/report-129.md)
+##### [Customer - Payment Receipt](reports/report-211.md)  
+##### [Customer Statement](reports/report-1316.md)
+
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
 ### Sales analytics 
@@ -587,6 +614,7 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
 ##### [Customer - Top 10 list](reports/report-111.md)
@@ -599,10 +627,6 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
-
-<!-- 
-##### [](reports/report-.md) 
--->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
@@ -673,7 +697,34 @@ ms.service: dynamics-365-business-central
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
-#### [Built-in inventory and warehouse reports](inventory-WMS-reports.md)
+#### Built-in inventory and warehouse reports
+##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
+##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Inventory Availability Plan](reports/report-707.md)
+##### [Inventory Order Details](reports/report-708.md)
+##### [Inventory Purchase Orders](reports/report-709.md)
+##### [Inventory Top 10 List](reports/report-711.md) 
+##### [Inventory Customer Sales](reports/report-713.md) 
+##### [Inventory Vendor Purchases](reports/report-714.md)
+##### [Inventory Cost and price list](reports/report-716.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Picking List](reports/report-813.md) 
+##### [Inventory Valuation](reports/report-1001.md) 
+##### [Item Charges - Specification](reports/report-5806.md) 
+##### [Item Age Composition - Quantity](reports/report-5807.md) 
+##### [Item Age Composition - Value](reports/report-5808.md) 
+##### [Item Expiration - Quantity](reports/report-5809.md) 
+##### [Item Dimensions - Detail](reports/report-7150.md) 
+##### [Item Dimensions - Total](reports/report-7151.md) 
+##### [Warehouse Shipment Status](reports/report-7313.md) 
+##### [Warehouse Bin List](reports/report-7319.md) 
+##### [Warehouse Adjustment Bin](reports/report-7320.md) 
+
+
+<!-- 
+##### [](reports/report-.md) 
+-->
+
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)

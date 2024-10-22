@@ -17,11 +17,7 @@ ai.usage: ai-assisted
 
 # Customer List (report)
 
-The *Customer List* report shows various kinds of basic information for customers. 
-
-For example, the customer posting group, discount group, finance charge and payment information, and so on. 
-
-Use this report, for example, to maintain information in the Customer table.
+The **Customer List** report shows basic information for customers. For example, it shows the customer posting group, discount group, finance charge and payment information, and so on. Use this report, for example, to maintain information about a customer.
 
 ## Use cases
 
@@ -53,21 +49,23 @@ Please include your data sources and URLs
 
 -->
 
-As a sales representative, use the report to:
-* Identify potential customers by reviewing the list of existing customers and analyzing their characteristics, such as customer posting group or discount group
-* Review customer payment and finance charge information to determine if any customers are experiencing financial difficulties and require additional support
-* Help prepare customer account summaries or sales reports for internal or external stakeholders
+Sales representatives use the report to:
 
-As a sales manager, use the report to: 
-* Analyze customer data to identify trends and patterns in customer behavior and preferences, such as preferred payment methods or order frequency
-* Monitor customer satisfaction and identify areas for improvement in the sales process
-* Prepare sales forecasts or customer segmentation reports based on the data obtained from the report
+* Identify prospects by reviewing the list of existing customers and analyzing their characteristics, such as their customer posting group or discount group.
+* Review customer payment and finance charge information to determine whether customers are experiencing financial difficulties and need support.
+* Get data to prepare customer account summaries or sales reports for internal or external stakeholders.
 
-As a customer service representative, use the report to:
-* Quickly access customer information, such as contact details or payment information, to provide efficient and effective customer support
-* Identify any customers with overdue payments or finance charges and follow up with them to ensure that their accounts are up to date
-* Help prepare customer account summaries or sales reports for internal or external stakeholders
+Sales managers use the report to:
 
+* Analyze customer data to identify trends and patterns in buying behavior and preferences, such as preferred payment methods or order frequency.
+* Monitor customer satisfaction and find areas to improve in the sales process.
+* Get data to prepare sales forecasts or customer segmentation reports.
+
+Customer service representatives use the report to:
+
+* Access customer information, such as contact details or payment information, to provide efficient and effective customer support.
+* Identify customers with overdue payments or finance charges and follow up with them to ensure that their accounts are up to date.
+* Get data to prepare customer account summaries or sales reports for internal or external stakeholders.
 
 ## Try the report
 
@@ -75,12 +73,11 @@ Try the report here: [Customer List](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Sales reports](../sales-reports.md)  
 [Accounts receivable report overview](../receivables-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

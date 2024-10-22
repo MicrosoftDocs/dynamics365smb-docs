@@ -1,1 +1,1 @@
-Send customers an overview of outstanding amounts and also as a payment reminder about overdue amounts.
+Send customers an overview of outstanding amounts, and also use as a payment reminder about overdue amounts.

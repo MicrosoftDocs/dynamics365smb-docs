@@ -8,7 +8,7 @@ ms.reviewer: bholtorf
 ---
 
 
-The following table describes some of the key reports in accounts receivable. The reports are designed to help different roles in the finance/collectables department make informed decisions that optimize their operations.
+The following table describes some of the key reports in accounts receivable. The reports are designed to help different roles in finance and collections departments make informed decisions.
 
 <!-- pending merge of finance report PR
 | [!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)] | [Reconcile Customer and Vendor Accounts](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Customer and Vendor Accounts*](../reports/report-33.md) | 33 | 

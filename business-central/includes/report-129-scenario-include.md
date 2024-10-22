@@ -1,1 +1,1 @@
-Analyze and reconcile customer balances at the end of the period. Explore opening balances, transactions within the period, and closing balances for customers.
+Analyze and reconcile customer balances at the end of a period. Explore opening balances, transactions within the period, and closing balances for customers.

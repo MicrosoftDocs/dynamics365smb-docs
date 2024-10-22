@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Customer - Detail Trial Balance (report)
 
-The *Customer - Detail Trial Balance* report shows all the customer ledger entries within the specified date filter. 
+The **Customer - Detail Trial Balance** report shows customer ledger entries filtered by a date you specify.
 
-This report is often used to check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers.
+Businesses often use this report to check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers.
 
 ## Use cases
 
@@ -49,21 +49,23 @@ Please include your data sources and URLs
 
 -->
 
-As an accountant, use the report to:
-* Verify that all customer ledger entries are accounted for accurately and completely within the specified date range
-* Identify any discrepancies or errors in customer transactions and investigate further as necessary
-* Prepare financial statements, such as income statements or balance sheets, based on the data obtained from the report
+Accountants use the report to:
 
-As a financial analyst, use the report to:
-* Analyze customer transactions over a specific date range to identify trends and patterns in customer behavior, such as preferred payment methods or order frequency
-* help identify areas for cost savings or revenue generation and make recommendations for improving financial performance
-* Prepare financial reports for stakeholders, such as investors or executives based on the data obtained from the report
+* Verify that all customer ledger entries are accounted for accurately and completely within a specified date range.
+* Identify discrepancies or errors in customer transactions and investigate them.
+* Get data to prepare financial statements such as income statements or balance sheets.
 
-As a customer service representative, use the report to:
-* Quickly access customer transaction information, such as payment history or order details, to provide efficient and effective customer support
-* Identify any discrepancies or errors in customer transactions and follow up with the accounting or finance team to resolve any issues
-* Help prepare customer account summaries or sales reports for internal or external stakeholders
+Financial analysts use the report to:
 
+* Analyze customer transactions over a specific date range to identify trends and patterns in customer behavior, such as preferred payment methods or order frequency.
+* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+* Get data to prepare financial reports for stakeholders such as investors or executives.
+
+Customer service representatives use the report to:
+
+* Access customer transaction information, such as payment history or order details, to provide efficient and effective customer support.
+* Identify discrepancies or errors in customer transactions and follow up with the accounting or finance team to resolve them.
+* Get data to prepare customer account summaries or sales reports for internal or external stakeholders.
 
 ## Try the report
 
@@ -71,12 +73,11 @@ Try the report here: [Customer - Detail Trial Balance](https://businesscentral.d
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -573,10 +573,6 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
 
-<!-- 
-##### [](reports/report-.md) 
--->
-
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
@@ -645,7 +641,34 @@ ms.service: dynamics-365-business-central
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
-#### [Built-in inventory and warehouse reports](inventory-WMS-reports.md)
+#### Built-in inventory and warehouse reports
+##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
+##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Inventory Availability Plan](reports/report-707.md)
+##### [Inventory Order Details](reports/report-708.md)
+##### [Inventory Purchase Orders](reports/report-709.md)
+##### [Inventory Top 10 List](reports/report-711.md) 
+##### [Inventory Customer Sales](reports/report-713.md) 
+##### [Inventory Vendor Purchases](reports/report-714.md)
+##### [Inventory Cost and price list](reports/report-716.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Picking List](reports/report-813.md) 
+##### [Inventory Valuation](reports/report-1001.md) 
+##### [Item Charges - Specification](reports/report-5806.md) 
+##### [Item Age Composition - Quantity](reports/report-5807.md) 
+##### [Item Age Composition - Value](reports/report-5808.md) 
+##### [Item Expiration - Quantity](reports/report-5809.md) 
+##### [Item Dimensions - Detail](reports/report-7150.md) 
+##### [Item Dimensions - Total](reports/report-7151.md) 
+##### [Warehouse Shipment Status](reports/report-7313.md) 
+##### [Warehouse Bin List](reports/report-7319.md) 
+##### [Warehouse Adjustment Bin](reports/report-7320.md) 
+
+
+<!-- 
+##### [](reports/report-.md) 
+-->
+
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)

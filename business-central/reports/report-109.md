@@ -1,6 +1,6 @@
 ---
 title: Customer - Summary Aging Simp. (report)
-description: This is a legacy version of an accounts receivables aging report. We recommend you use the Aged Accounts Receivables report instead.
+description: This report is a legacy version of an accounts receivables aging report. We recommend you use the Aged Accounts Receivables report instead.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

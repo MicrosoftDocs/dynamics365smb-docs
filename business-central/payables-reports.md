@@ -18,6 +18,12 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
+## Analyze your payment practice
+
+You can use the [Payment Practice](https://businesscentral.dynamics.com?page=687)| page to show how quickly you pay your vendors. You can base the report on a specific period, or by the size of the vendor company in terms of its number of employees. Some countries require this report. 
+
+For more information, go to the [Payment practices page](ui-payment-practices.md).
+
 ## Explore finance reports with Report Explorer
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]

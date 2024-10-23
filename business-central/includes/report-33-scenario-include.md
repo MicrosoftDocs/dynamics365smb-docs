@@ -1,0 +1,1 @@
+Understand the transactions for control G/L accounts, and highlight any discrepancies between G/L and customer/vendor ledgers.

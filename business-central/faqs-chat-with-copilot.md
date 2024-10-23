@@ -82,8 +82,10 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
     If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of these locales, chat isn't available. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
+    If you chat with Copilot in any other language, Copilot might respond in the same language, in English, or not at all. While in preview, chat is intended for use with English language only.
+
   - The quality of answers can be lower under the following conditions:
-    - The language locale is something other than en-US.
+    - The language of chat messages to Copilot is something other than en-US.
     - The language setting for the user in [!INCLUDE[prod_short](includes/prod_short.md)] differs from the primary language of the data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
 - Specific industry, product, and topic limitations

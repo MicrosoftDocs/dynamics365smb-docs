@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/01/2024
+ms.date: 10/23/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -82,7 +82,7 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
     If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of these locales, chat isn't available. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
-    If you chat with Copilot in any other language, Copilot might respond in the same language, in English, or not at all. While in preview, chat is intended for use with English language only.
+    If you chat with Copilot in any other language, Copilot might respond in the same language, in English, or not at all. While in preview, chat is intended for use with the English language only.
 
   - The quality of answers can be lower under the following conditions:
     - The language of chat messages to Copilot is something other than en-US.

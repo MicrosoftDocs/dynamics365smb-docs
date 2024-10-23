@@ -21,6 +21,8 @@ ai.usage: ai-assisted
 
 ## Use cases
 
+[!INCLUDE[report-312-scenario](../includes/report-312-scenario-include.md)]
+
 <!-- 
 Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.

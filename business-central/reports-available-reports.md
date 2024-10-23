@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 06/11/2024
+ms.date: 10/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -14,7 +14,8 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comes with many built-in reports that businesses can use out-of-the-box.  
 
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)].
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+
 
 ## Financial reports
 
@@ -84,7 +85,7 @@ For more information, see [Production Reports and Analytics in Business Central]
 
 ## See also
 
-[Report Overview](reports-use-reports.md)   
+[Use reports in daily work](reports-use-reports.md)   
 [Analyze list and query data with analysis mode](analysis-mode.md)   
 [Analytics overview](reports-bi-reporting.md)  
 

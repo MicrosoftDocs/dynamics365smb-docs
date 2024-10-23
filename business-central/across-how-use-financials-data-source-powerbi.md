@@ -169,7 +169,7 @@ The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 ### Configure the advanced parameters
 
 1. Start Power BI Desktop.
-1. Complete the step that suits your scenario:
+2. Complete the step that suits your scenario:
 
    # [Editing existing report](#tab/existing)
 
@@ -186,21 +186,21 @@ The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 
    ---
 
-1. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
-1. In **Advanced Editor**, locate the line that starts with `Source =`:
+3. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+4. In **Advanced Editor**, locate the line that starts with `Source =`:
 
    ```powerquery
    Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
    ```
 
-1. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a comma separated list of properties and values you want to set, for example:
+5. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a comma separated list of properties and values you want to set, for example:
 
    ```powerquery
    Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
    ```
 
-1. Select **Done** to close **Advanced Editor**.
-1. Select **Close & Apply** to save the changes and close Power Query Editor.
+6. Select **Done** to close **Advanced Editor**.
+7. Select **Close & Apply** to save the changes and close Power Query Editor.
 
 ## Fixing problems
 

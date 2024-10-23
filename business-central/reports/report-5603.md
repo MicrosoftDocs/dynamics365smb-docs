@@ -69,9 +69,7 @@ Please include your data sources and URLs
 
 -->
 
-[!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)]
-
-Use the report to provide a detailed and organized overview of fixed asset transactions, making it easier to track and manage fixed assets.
+[!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] Use the report to provide a detailed and organized overview of fixed asset transactions, making it easier to track and manage fixed assets.
 
 As a financial controller, use the report to:
 * Analyze the fixed asset transactions for the organization and make strategic decisions based on the information provided by the report.

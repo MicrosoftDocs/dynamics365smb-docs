@@ -171,13 +171,13 @@ The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 1. Start Power BI Desktop.
 2. Complete the step that suits your scenario:
 
-   # [Editing existing report](#tab/existing)
+   # [Edit existing report](#tab/existing)
 
    1. Select **File** > **Open**.
    1. Browse for and select the report (.pbix). 
    1. In the ribbon, select **Transform Data** to open the **Power Query Editor**.
 
-   # [Creating new report](#tab/new)
+   # [Create new report](#tab/new)
 
    1. In the ribbon, select **Get Data**. If you don't see **Get Data**, select the **File** menu, then **Get Data**.
    1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.

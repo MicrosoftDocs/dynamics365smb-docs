@@ -22,7 +22,7 @@ Sustainability certificates for companies cover a wide range of criteria, includ
 
 ## Sustainability certificate area 
 
-The *sustainability certificate area* refers to the specific area covered by a particular certificate. Generally, this method is used to categorize similar certificates based on distinct characteristics. To create new sustainability certificate area, follow the steps:   
+The *sustainability certificate area* refers to the specific area covered by a particular certificate. Generally, this method is used to categorize similar certificates based on distinct characteristics. To create new sustainability certificate area, follow these steps:   
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sust. Certificate Areas**, and then select the related link.
 2. On the **Sust. Certificate Areas** page, select **New** and enter the **Number** and **Name** fields for new certificate area. 
@@ -30,7 +30,7 @@ The *sustainability certificate area* refers to the specific area covered by a p
 
 ## Sustainability certificate standards
 
-The *Sustainability certificate standard* refers to the specific standard for a particular certificate. Generally, it should provide third-party verified, transparent, and measurable criteria aligned with international ESG frameworks to promote responsible business practices. To create new sustainability certificate standard, follow the steps: 
+The *Sustainability certificate standard* refers to the specific standard for a particular certificate. Generally, it should provide third-party verified, transparent, and measurable criteria aligned with international ESG frameworks to promote responsible business practices. To create new sustainability certificate standard, follow these steps: 
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sust. Certificate Standards**, and then select the related link.
 2. On the **Sust. Certificate Standards** page, select **New, and enter the **Number** and **Name** fields for new certificate standard. 
@@ -38,18 +38,18 @@ The *Sustainability certificate standard* refers to the specific standard for a 
 
 ## Create a sustainability certificate 
 
-To create a new sustainability certificate, follow the steps:   
+To create a new sustainability certificate, follow these steps:   
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Certificates**, and then select the related link.
 2. On the **Sustainability Certificates** page, select **New**.
 3. In the **Type** field, choose if this certificate is related to vendors or items, and enter the **No.** and **Name** fields.
 4. In the **Area** field, choose specific **Sust. Certificate Area** option and in the **Standard** field, choose adequate **Sust. Certificate Standard**.
 5. In the **Issuer** field, specify the issuer name. 
-Sustainability certificates are typically issued by independent third-party organizations, which can include non-profit certifying bodies, industry associations, standards organizations, or specialized sustainability certification firms, where issuers are responsible for assessing compliance with established sustainability standards.
-1. If this certificate is measurable, enable the **Has Value** field and enter the **Value**.   
+Sustainability certificates are typically issued by independent third-party organizations, which can include non-profit certifying bodies, industry associations, standards organizations, or specialized sustainability certification firms. The issuers are responsible for assessing compliance with established sustainability standards.
+1. If this certificate has a measurable value, enable the **Has Value** field and enter the **Value**.   
 
 > [!NOTE]
-> You can also create a new sustainabilty directly from the vendor or item card. In this case, the **Type** field is automatically prepopulated as an Item or Vendor based on the page from where certificate has been created.  
+> You can also create a new sustainabilty directly from the vendor or item card. In this case, the **Type** field is automatically prepopulated as an Item or Vendor based on where you create the certificate.   
  
 ### Add the sustainability certificate for vendors
 

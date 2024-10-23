@@ -171,7 +171,7 @@ The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 1. Start Power BI Desktop.
 1. Complete the step that suits your scenario:
 
-   # [Editing existing report ](#tab/existing)
+   # [Editing existing report](#tab/existing)
 
    1. Select **File** > **Open**.
    1. Browse for and select the report (.pbix). 
@@ -185,6 +185,7 @@ The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] suppo
    1. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
 
    ---
+
 1. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
 1. In **Advanced Editor**, locate the line that starts with `Source =`:
 

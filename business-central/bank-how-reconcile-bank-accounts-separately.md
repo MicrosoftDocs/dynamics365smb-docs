@@ -23,12 +23,11 @@ However, you can also reconcile bank accounts on the **Payment Reconciliation Jo
 
 The lines on the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the internal bank account.
 
-## About bank reconciliation 
+## About bank reconciliation
 
 Reconciling transactions in statements from your bank with bank entries in [!INCLUDE[prod_short](includes/prod_short.md)] is referred to as *matching*. There are three ways to match transactions with bank entries:
 
 * Automatically, by using the **Match Automatically** action.
-
 * Automatically, by using the **Reconcile with Copilot** action.
 
   This action is available as part of the bank reconciliation assist (preview) feature, which an AI-powered feature. Learn more in [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md).
@@ -201,6 +200,13 @@ We have bank account ledger entries A, B, and C in our bank account for the mont
 In September, we receive a payment for entry B and decide to reconcile our bank account. If we run the Bank Statement report before posting the reconciliation, we'll have one reconciled transaction and one outstanding.
 
 If we print the report for August we'll have outstanding transactions for our B and C entries, even though we closed entry B in September.
+
+> [!NOTE]
+> The Bank Statement report has some known limitations if you import bank transactions after you post a bank reconciliation.
+>
+> You can enter bank ledger entries on any date and without a posting date. When you do a bank reconciliation, you reconcile a bank statement to the bank ledger entries you have registered up to the time you post the reconciliation, and with the posting date of the entries. Typically, that means a posting date on or before the statement ending date.
+>
+> When you post a bank reconciliation, [!INCLUDE [prod_short](includes/prod_short.md)] takes a snapshot of the data and uses it to fill in the bank statement report's header. But, the outstanding transactions sections are actual lookups to the bank ledger entries that existed up to the actual date and time you posted the bank reconciliation. The totals in the lines typically match the totals in the header. If you import bank ledger entries after you posted the bank reconciliation, but the posting dates are before the statement ending date, the totals in the header might not match the totals in the outstanding transactions sections.
 
 ## Undo a bank account reconciliation
 

@@ -773,10 +773,10 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset List](reports/report-5601.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
 ##### [Fixed Asset Details](reports/report-5604.md)
-
-<!-- 
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
+
+<!-- 
 ##### [Fixed Asset Projected Value](reports/report-5607.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)

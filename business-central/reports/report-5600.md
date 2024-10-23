@@ -25,7 +25,6 @@ For example, to generate a report to use for reconciling with the general ledger
 
 If you select the **Budget Report** field and specify an ending date in the future, the report will calculate the future depreciation and can give estimates for future depreciation and book values, if you selected those fields as report columns.
 
-
 ## Use cases
 
 [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)]

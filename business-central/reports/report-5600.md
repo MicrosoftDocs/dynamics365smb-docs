@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Analysis (report)
-description: [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)]
+description: Analyze your fixed assets, use this report to aid you in tasks such as reconcile asset values with your general ledger (G/L) or reviewing net value along with write down value.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

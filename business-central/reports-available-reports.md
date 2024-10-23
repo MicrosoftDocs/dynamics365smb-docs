@@ -14,7 +14,8 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comes with many built-in reports that businesses can use out-of-the-box.  
 
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)].
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+
 
 ## Financial reports
 

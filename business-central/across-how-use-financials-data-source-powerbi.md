@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Building Power BI reports to display [!INCLUDE [prod_long](includes/prod_long.md)] data
+# Building Power BI reports for displaying [!INCLUDE [prod_long](includes/prod_long.md)] data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports about the state of your business.
 
@@ -161,32 +161,31 @@ The Power BI connector allows you to specify some advanced options when connecti
 
 |Parameter|Description|Default|Learn more at|
 |-|-|-|-|
-|AcceptLanguage|This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. It sets the language in which the Business Central API session runs in and influences the language of error messages, formatted values in AL, and other values that depend on language or culture.<br><br>Setting this parameter improves user satisfaction and makes the data more accessible and relevant.|*not specified*|[Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).|
-|ODataMaxPageSize|This parameter limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.<br><br>Setting this parameter ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service.|5000|[ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize)|
-|Timeout|This parameter defines the maximum duration for a request before cancellation. It sets the timeout for each single API call to Business Central. It's value can't exceed the timeout enforced on the Business Central service, which is currentæy 10 minutes (00:10:00).<br><br>Setting this parameter helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. |00:08:00|[OData.Feed](/powerquery-m/odata-feed)|
+|AcceptLanguage|This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. It sets the language in which the Business Central API session runs. It influences the language of error messages, formatted values in AL, and other values that depend on language or culture.<br><br>Setting this parameter improves user satisfaction and makes the data more accessible and relevant.|*not specified*|[Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).|
+|ODataMaxPageSize|This parameter limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13,000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5,000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.<br><br>Setting this parameter ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service.|5000|[ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize)|
+|Timeout|This parameter defines the maximum duration for a request before cancellation. It sets the timeout for each single API call to Business Central. Its value can't exceed the timeout enforced on the Business Central service, which is currentæy 10 minutes (00:10:00).<br><br>Setting this parameter helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. |00:08:00|[OData.Feed](/powerquery-m/odata-feed)|
 |UseReadOnlyReplica|This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance.<br><br> Setting this property leads to faster data retrieval and improved system stability, especially during peak usage times.|true||
 
 ### Configure the advanced parameters
 
 1. Start Power BI Desktop.
 
-1. If you already have a report .pbix file with the data source,  and then browse for and the file. :
+1. Complete the step that suits your scenario:
 
-   # [Editing an existing report ](#tab/existing)
+   # [Editing existing report ](#tab/existing)
 
    1. Select **File** > **Open**.
    1. Browse for and select the report (.pbix). 
    1. In the ribbon, select **Transform Data** to open the **Power Query Editor**.
 
-   # [Creating a new report](#tab/new)
+   # [Creating new report](#tab/new)
 
-    1. In the ribbon, select **Get Data**.  If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-    1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
-    1. In the **Navigator** window, select the API endpoint that you want to load data from.
-    1. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
+   1. In the ribbon, select **Get Data**. If you don't see **Get Data**, select the **File** menu, then **Get Data**.
+   1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
+   1. In the **Navigator** window, select the API endpoint that you want to load data from.
+   1. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
 
    ---
-
 1. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
 1. In **Advanced Editor**, locate the line that starts with `Source =`:
 
@@ -214,7 +213,7 @@ When you connect to Business Central online from Power BI, or when you install a
 
 If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
 
-1. Make sure you are using the right credentials to access Business Central. These might not be the same credentials you use to access Power BI. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+1. Make sure you're using the right credentials to access Business Central. These credentials might not be the same credentials you use to access Power BI. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you have to specify "PRODUCTION (fabrikam)" as environment name.
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
@@ -225,7 +224,7 @@ By default, reports that use Business Central data connect to a read-only replic
 
 `Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".`
 
-If you are using a custom API page, we recommend you rework the page to make sure it does not make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#advancedopts).
+If you're using a custom API page, we recommend you rework the page to make sure it doesn't make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#advancedopts).
 
 ## Related information
 

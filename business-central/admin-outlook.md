@@ -111,13 +111,13 @@ If you're using Business Central on-premises, installing the add-in might be sli
    Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** file from the .zip to a folder of your choice. For more information about how to extract files, see [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
 
 1. In your preferred browser, visit [https://aka.ms/olksideload](https://aka.ms/olksideload). This link opens Outlook on the web, then loads the **Add-Ins for Outlook** dialog.
-
-   Learn more about installing add-ins in Outlook at [Use add-ins in Outlook](https://support.microsoft.com/en-us/office/use-add-ins-in-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
 1. Select **My add-ins** > **Add a custom add-in** > **Add from a file**.
 1. Select one of the .xml files that you extracted, like **Contact Insights.xml**, then select **Open** > **Install**.
 1. Repeat step 6 and 7 for the other .xml file, if you downloaded one.
 
 You're now ready to start using the add-in in Outlook.
+
+Learn more about installing add-ins in Outlook at [Use add-ins in Outlook](https://support.microsoft.com/en-us/office/use-add-ins-in-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
 
 ## See also
 

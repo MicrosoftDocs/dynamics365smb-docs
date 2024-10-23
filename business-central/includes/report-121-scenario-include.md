@@ -1,0 +1,1 @@
+Generate customer statements to get a clear summary of amounts due. You can share the amounts with customers to follow up on payments. For example, if you need to close an accounting period or fiscal year.

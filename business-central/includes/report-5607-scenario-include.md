@@ -1,0 +1,1 @@
+See projected depreciation amounts and book value for a future period for your assets

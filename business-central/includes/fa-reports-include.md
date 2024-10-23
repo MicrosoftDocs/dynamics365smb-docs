@@ -19,34 +19,14 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5604-scenario](../includes/report-5604-scenario-include.md)] | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset Details*](../reports/report-5604.md) | 5604 |
 | [!INCLUDE[report-5605-scenario](../includes/report-5605-scenario-include.md)] | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01*](../reports/report-5605.md) | 5605 |
 | [!INCLUDE[report-5606-scenario](../includes/report-5606-scenario-include.md)] | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02*](../reports/report-5606.md) | 5606 |
+| [!INCLUDE[report-5607-scenario](../includes/report-5607-scenario-include.md)] | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value*](../reports/report-5607.md) | 5607 |
+
+
 
 
 <!-- 
-| | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value*](../reports/report-5607.md) | 5607 |
 | | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
 | | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*$../reports/report-5610.md) | 5610 |
-
-5607
-About Fixed Asset Projected Value
-Fixed Asset Projected Value Report is a detailed analysis that forecasts the future value of an organization's fixed assets over a specified period. This is specially useful where there are multiple depreciation methods and there is need to review the projected values of depreciation.
-
-To view the projected disposal values and have the program calculate the gain or 
-loss, use the Fixed Asset - Projected Value report. 
-
-
-You can also use the Fixed Asset - FA Projected Value report to calculate future 
-depreciation.
-
-The report shows the following budgeted depreciation information: 
-• The book value and accumulated depreciation at the beginning of 
-the selected period. 
-• Changes during the period. 
-• The book value and accumulated depreciation at the end of the 
-selected period.
-
-Shows the projected depreciation amounts and book value for a future period for assets. The report is useful when you are using different depreciation methods for your assets and want to estimate next year's depreciation, for example. Use the report to create the budget amounts for depreciation by selecting a budget and the **Copy to G/L Budget** field.
-
-
 
 
 5608

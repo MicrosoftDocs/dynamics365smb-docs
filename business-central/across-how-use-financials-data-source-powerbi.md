@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 09/16/2024
+ms.date: 10/23/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -125,38 +125,6 @@ The theme file is available as a json file on Microsoft Power BI Community Theme
 
 After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more at [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="advancedopts"></a>Advanced: Customize the language, timeout, database replica or page size for your Business Central data source
-
-The Power BI connector allows you to specify some advanced options when connecting to a Business Central data source. To configure these options, you can follow these steps:
-
-1. Start Power BI Desktop.
-2. In the ribbon, select **Get Data** > **Online Services**.
-3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
-4. In the **Navigator** window, select the API endpoint that you want to load data from.
-5. Select **Transform Data** instead of **Load** as you might normally do.
-6. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
-7. In the line that starts with **Source =**, locate the following text:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
-   ```
-
-8. You can customize one or more of the following options:
-
-   - **UseReadOnlyReplica** (default: true): Control whether the connection to Business Central uses the more peformant and recommended read-only database replica.
-   - **Timeout** (default: 00:08:00): Sets the timeout for each single API call to Business Central. This option can't be higher than the timeout enforced by Business Central, which is 10 minutes.
-   - **ODataMaxPageSize** (default: 5000): Sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.
-   - **AcceptLanguage** (default: not specified): Sets the language in which the Business Central API session runs in. This option influences the language of error messages, formatted values in AL, and other values that depend on language or culture.
-
-9. Add a Power Query record with your desired options as the fourth parameter, for example:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
-   ```
-
-8. Select **Done**.
-9. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
-
 ## Publish reports
 
 After you create or modify a report, you can publish the report to your Power BI service and also share it with others in your organization. After you publish a report, it's available in Power BI. The report also becomes available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -187,28 +155,54 @@ To set up a query to load data for multiple companies, follow these steps:
 1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes the company ID (or maybe the environment name) as parameters. To learn more, go to [Using custom Power Query functions](/power-query/custom-function).
 1. Now use the new custom function in a PowerQuery query, where you map the function over a list of companies and then merge the datasets using the [Table.Combine](/powerquery-m/table-combine) Power Query function.
 
-## Advanced Power BI connector properties
+## <a name="advancedopts"></a>Advanced: Customize language, timeout, database replica, or page size for your Business Central data source
 
-Starting in August 2024, the Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties that you can set in your Power Query queries:
+The Power BI connector allows you to specify some advanced options when connecting to a Business Central data source. The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties for connecting to a Business Central data source that you can set in your Power Query queries:
 
-- **AcceptLanguage**: This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. Setting this parameter improves user satisfaction and makes the data more accessible and relevant. Learn more at [Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).
+|Parameter|Description|Default|Learn more at|
+|-|-|-|-|
+|AcceptLanguage|This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. It sets the language in which the Business Central API session runs in and influences the language of error messages, formatted values in AL, and other values that depend on language or culture.<br><br>Setting this parameter improves user satisfaction and makes the data more accessible and relevant.|*not specified*|[Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).|
+|ODataMaxPageSize|This parameter limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.<br><br>Setting this parameter ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service.|5000|[ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize)|
+|Timeout|This parameter defines the maximum duration for a request before cancellation. It sets the timeout for each single API call to Business Central. It's value can't exceed the timeout enforced on the Business Central service, which is currentæy 10 minutes (00:10:00).<br><br>Setting this parameter helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. |00:08:00|[OData.Feed](/powerquery-m/odata-feed)|
+|UseReadOnlyReplica|This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance.<br><br> Setting this property leads to faster data retrieval and improved system stability, especially during peak usage times.|true||
 
-- **ODataMaxPageSize**: This property limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service. Learn more at [ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize).
-
-- **Timeout**: This parameter defines the maximum duration for a request before cancellation. It helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. You can't exceed the timeout defined on the service. Learn more at [OData.Feed](/powerquery-m/odata-feed).
-
-- **UseReadOnlyReplica**: This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance. Setting this property leads to faster data retrieval and improved system stability, especially during peak usage times.
-
-To set the properties, complete the following steps:
+### Configure the advanced parameters
 
 1. Start Power BI Desktop.
-1. To open the **Power Query Editor**, select **Transform Data** in the ribbon.
-1. On a query, select **Advanced Editor** in the ribbon.
-1. In the line that starts with `Source =`, insert a fourth parameter in `Dynamics365BusinessCentral.ApiContentsWithOptions` that includes  list of properties and values, for example:
+
+1. If you already have a report .pbix file with the data source,  and then browse for and the file. :
+
+   # [Editing an existing report ](#tab/existing)
+
+   1. Select **File** > **Open**.
+   1. Browse for and select the report (.pbix). 
+   1. In the ribbon, select **Transform Data** to open the **Power Query Editor**.
+
+   # [Creating a new report](#tab/new)
+
+    1. In the ribbon, select **Get Data**.  If you don't see **Get Data**, select the **File** menu, then **Get Data**.
+    1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
+    1. In the **Navigator** window, select the API endpoint that you want to load data from.
+    1. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
+
+   ---
+
+1. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+1. In **Advanced Editor**, locate the line that starts with `Source =`:
 
    ```powerquery
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
    ```
+
+1. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a comma separated list of properties and values you want to set, for example:
+
+   ```powerquery
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
+   ```
+
+1. Select **Done** to close **Advanced Editor**.
+1. Select **Close & Apply** to save the changes and close Power Query Editor.
+
 
 ## Fixing problems
 
@@ -231,24 +225,7 @@ By default, reports that use Business Central data connect to a read-only replic
 
 `Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".`
 
-If you are using a custom API page, we recommend you rework the page to make sure it does not make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](/dynamics365/business-central/across-how-use-financials-data-source-powerbi#advancedopts).
-
-6. Select **Transform Data** instead of **Load** as you might normally do.
-7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
-8. In the line that starts with **Source =**, replace the following text:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
-   ```
-
-   with:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
-   ```
-
-9. Select **Done**.
-10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+If you are using a custom API page, we recommend you rework the page to make sure it does not make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#advancedopts).
 
 ## Related information
 

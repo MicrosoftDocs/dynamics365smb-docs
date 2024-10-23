@@ -62,9 +62,9 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and the text isn't selected in the field, then the entire value is copied. If you select any text in the field, then the selected text is copied.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version.|
 |<kbd>Ctrl</kbd>+<kbd>F12</kbd>|Switch between wide and narrow layout view.|
-|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. Learn more in [Personalize your workspace](ui-personalization-user.md).|  
 |<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
-|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open the **Help & Support** page. Learn more in [Resources for help and support](product-help-and-support.md#help--support-page).|
+|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. Learn more in [Personalize your workspace](ui-personalization-user.md).|  
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F1</kbd>|Open the **Help & Support** page. Learn more in [Resources for help and support](product-help-and-support.md#help--support-page).|
 |<kbd>F5</kbd>|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is updated with any changes made by others while you're working.|
 |<kbd>Ctrl</kbd>+<kbd>O</kbd>|Open the **Available Companies** pane for switching to another company or environment. Learn more in [Switching to another company or environment](ui-organization-switch.md).|
 |<kbd>Enter</kbd>|Enable or access the element or control that is in focus.|

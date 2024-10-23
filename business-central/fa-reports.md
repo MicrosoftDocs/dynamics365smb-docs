@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Fixed assets reports in Business Central
 
-When you prepare a balance sheet and income statement, you may have to print reports to analyze the depreciation, acquisition, disposal, and gain or loss values for the accounting period. You may also need reports about accumulated depreciation and book value at the end of the period or a list of all the fixed assets for inventory, insurance, and other management purposes.
+When you prepare a balance sheet and income statement, you may have to generate reports to analyze the depreciation, acquisition, disposal, and gain or loss values for the accounting period. You may also need reports about accumulated depreciation and book value at the end of the period or a list of all the fixed assets for inventory, insurance, and other management purposes.
 
 This article describes the most frequently used reports within the Fixed Assets area.
 

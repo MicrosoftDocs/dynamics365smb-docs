@@ -16,10 +16,12 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset Analysis*](../reports/report-5600.md) | 5600 |
 | [!INCLUDE[report-5601-scenario](../includes/report-5601-scenario-include.md)] | [Fixed Asset List](https://businesscentral.dynamics.com?report=5601) | [About *Fixed Asset List*](../reports/report-5601.md) | 5601 |
 | [!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) | [About *Fixed Asset Register*](../reports/report-5603.md) | 5603 |
+| [!INCLUDE[report-5604-scenario](../includes/report-5604-scenario-include.md)] | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset Details*](../reports/report-5604.md) | 5604 |
+
 
 
 <!-- 
-| | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset Details*](../reports/report-5604.md) | 5604 |
+
 | | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01*](../reports/report-5605.md) | 5605 |
 | | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02*](../reports/report-5606.md) | 5606 |
 | | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value*](../reports/report-5607.md) | 5607 |

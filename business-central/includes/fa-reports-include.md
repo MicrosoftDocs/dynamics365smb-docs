@@ -13,25 +13,23 @@ The following table describes some of the key reports in fixed assets management
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
-| [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset AnalysisInventory - Transaction Detail*](../reports/report-5600.md) | 5600 |
+| [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset Analysis*](../reports/report-5600.md) | 5600 |
+| [!INCLUDE[report-5601-scenario](../includes/report-5601-scenario-include.md)] | [Fixed Asset List](https://businesscentral.dynamics.com?report=5601) | [About *Fixed Asset List*](../reports/report-5601.md) | 5601 |
+
 
 
 
 <!-- 
 
-| | [Fixed Asset List](https://businesscentral.dynamics.com?report=5601) | [About *Fixed Asset ListInventory - Transaction Detail*](../reports/report-5601.md) | 5601 |
-| | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) | [About *Fixed Asset RegisterInventory - Transaction Detail*](../reports/report-5603.md) | 5603 |
-| | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset DetailsInventory - Transaction Detail*](../reports/report-5604.md) | 5604 |
-| | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01Inventory - Transaction Detail*](../reports/report-5605.md) | 5605 |
-| | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02Inventory - Transaction Detail*](../reports/report-5606.md) | 5606 |
-| | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected ValueInventory - Transaction Detail*](../reports/report-5607.md) | 5607 |
-| | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition ListInventory - Transaction Detail*](../reports/report-5608.md) | 5608 |
-| | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L AnalysisInventory - Transaction Detail*$../reports/report-5610.md) | 5610 |
 
+| | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) | [About *Fixed Asset Register*](../reports/report-5603.md) | 5603 |
+| | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset Details*](../reports/report-5604.md) | 5604 |
+| | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01*](../reports/report-5605.md) | 5605 |
+| | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02*](../reports/report-5606.md) | 5606 |
+| | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value*](../reports/report-5607.md) | 5607 |
+| | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
+| | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*$../reports/report-5610.md) | 5610 |
 
-5600
-About Fixed Asset Analysis
-Fixed Asset Analysis Report is a flexible reporting option that provides a comprehensive examination of an organization's fixed assets, such as property, plant, and equipment (PP&E), for different purposes. If the purpose is to reconcile asset values with GL then fields like acquisition, depreciation can be selected. If the purpose is about reviewing net value along with write down value, users can use this report accordingly by choosing the relevant amount fields and amount fields for multiple periods.
 
 5601
 The Fixed Asset List report provides a comprehensive listing of all fixed assets owned by an organization at a specific point in time. This report is crucial for asset management, financial reporting, and compliance purposes.

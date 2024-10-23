@@ -87,8 +87,8 @@ Try the report here: [Fixed Asset Analysis](https://businesscentral.dynamics.com
 
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)
-[Fixed assets analytics overview](../fa-analytics-overview.md)
+[Fixed assets report overview](../fa-reports.md)  
+[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

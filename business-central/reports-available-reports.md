@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 06/11/2024
+ms.date: 10/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -85,7 +85,7 @@ For more information, see [Production Reports and Analytics in Business Central]
 
 ## See also
 
-[Use Reports in Daily Work](reports-use-reports.md)   
+[Use reports in daily work](reports-use-reports.md)   
 [Analyze list and query data with analysis mode](analysis-mode.md)   
 [Analytics overview](reports-bi-reporting.md)  
 

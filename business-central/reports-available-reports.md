@@ -84,7 +84,7 @@ For more information, see [Production Reports and Analytics in Business Central]
 
 ## See also
 
-[Report Overview](reports-use-reports.md)   
+[Use Reports in Daily Work](reports-use-reports.md)   
 [Analyze list and query data with analysis mode](analysis-mode.md)   
 [Analytics overview](reports-bi-reporting.md)  
 

@@ -157,7 +157,7 @@ To set up a query to load data for multiple companies, follow these steps:
 
 ## <a name="advancedopts"></a>Advanced: Customize language, timeout, database replica, or page size for your Business Central data source
 
-The Power BI connector allows you to specify some advanced options when connecting to a Business Central data source. The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties for connecting to a Business Central data source that you can set in your Power Query queries:
+The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties for connecting to a Business Central data source that you can set in your Power Query queries. The following table describes the parameters.
 
 |Parameter|Description|Default|Learn more at|
 |-|-|-|-|
@@ -169,7 +169,6 @@ The Power BI connector allows you to specify some advanced options when connecti
 ### Configure the advanced parameters
 
 1. Start Power BI Desktop.
-
 1. Complete the step that suits your scenario:
 
    # [Editing existing report ](#tab/existing)
@@ -201,7 +200,6 @@ The Power BI connector allows you to specify some advanced options when connecti
 
 1. Select **Done** to close **Advanced Editor**.
 1. Select **Close & Apply** to save the changes and close Power Query Editor.
-
 
 ## Fixing problems
 

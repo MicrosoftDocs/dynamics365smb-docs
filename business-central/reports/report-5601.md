@@ -19,10 +19,9 @@ ai.usage: ai-assisted
 
 The *Fixed Asset List* report shows a list of fixed assets and their setup information for a given depreciation book.
 
-The list includes asset information such as fixed assets class, subclass, and location code, customer group and FA posting group.  
+The list includes asset information such as fixed assets class, subclass, and location code, customer group and FA posting group. You can also see depreciation information such as depreciation method, depreciation start/end date, and depreciation years and months.
 
-You can also see depreciation information such as depreciation method, depreciation start/end date, and depreciation years and months.
-
+This information is retrieved from the fixed asset cards and fixed asset depreciation books.
 
 ## Use cases
 

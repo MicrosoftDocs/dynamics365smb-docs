@@ -1,6 +1,6 @@
 ---
 title: Vendor - Order Summary (report)
-description: Analyze your outstanding purchase orders to understand your expected purchase volume. Assists you with forecasting your monthly expected costs & expenses.
+description: Analyze your outstanding purchase orders to understand your expected purchase volume.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -26,6 +26,8 @@ You can also explore orders to receive before and after the three periods, and t
 
 ## Use cases
 
+[!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)]
+
 <!-- Prompt
 Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
 Format like this:    
@@ -37,7 +39,6 @@ As a <persona>, use the report to
 Do not capitalize the persona names. 
 
 ## Report description
-
 
 ### What the report does
 Shows the purchase order detail with the quantity not yet received for each vendor in three periods of 30 days each, starting from the specified date. 
@@ -64,7 +65,7 @@ Procurement specialists use the report to:
 Warehouse managers use the report to:
 
 * Monitor incoming purchase orders and plan for warehouse capacity and staffing needs.
-* Identify orders that are expected to arrive before or after the three periods and adjust warehouse capacity and staffing needs.
+* Identify orders that you expect to arrive before or after the three periods and adjust warehouse capacity and staffing needs.
 * Coordinate with procurement specialists to ensure timely receipt of incoming purchase orders.
 * Ensure that all received items are properly accounted for.
 

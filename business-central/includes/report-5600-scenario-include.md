@@ -1,0 +1,1 @@
+Analyze your fixed assets, use this report to aid you in tasks such as reconcile asset values with your general ledger (G/L) or reviewing net value along with write down value.

@@ -7,6 +7,66 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
+
+
+The following table describes some of the key reports in fixed assets management.
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
+| [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset AnalysisInventory - Transaction Detail*](../reports/report-5600.md) | 5600 |
+
+
+
+<!-- 
+
+| | [Fixed Asset List](https://businesscentral.dynamics.com?report=5601) | [About *Fixed Asset ListInventory - Transaction Detail*](../reports/report-5601.md) | 5601 |
+| | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) | [About *Fixed Asset RegisterInventory - Transaction Detail*](../reports/report-5603.md) | 5603 |
+| | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset DetailsInventory - Transaction Detail*](../reports/report-5604.md) | 5604 |
+| | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01Inventory - Transaction Detail*](../reports/report-5605.md) | 5605 |
+| | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02Inventory - Transaction Detail*](../reports/report-5606.md) | 5606 |
+| | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected ValueInventory - Transaction Detail*](../reports/report-5607.md) | 5607 |
+| | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition ListInventory - Transaction Detail*](../reports/report-5608.md) | 5608 |
+| | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L AnalysisInventory - Transaction Detail*$../reports/report-5610.md) | 5610 |
+
+
+5600
+About Fixed Asset Analysis
+Fixed Asset Analysis Report is a flexible reporting option that provides a comprehensive examination of an organization's fixed assets, such as property, plant, and equipment (PP&E), for different purposes. If the purpose is to reconcile asset values with GL then fields like acquisition, depreciation can be selected. If the purpose is about reviewing net value along with write down value, users can use this report accordingly by choosing the relevant amount fields and amount fields for multiple periods.
+
+5601
+The Fixed Asset List report provides a comprehensive listing of all fixed assets owned by an organization at a specific point in time. This report is crucial for asset management, financial reporting, and compliance purposes.
+
+5603
+About Fixed Asset Register
+The Fixed Asset Register report is a comprehensive and structured document that serves as the central repository of all fixed asset transactions done by an organization.
+
+5604
+About Fixed Asset Details
+The Fixed Asset Details report provides a comprehensive overview of all relevant information pertaining to each fixed asset owned by an organization. This report serves as a detailed transaction information and reference tool for asset management.
+
+5605
+About Fixed Asset Book Value 01
+The Fixed Asset - Book Value 01 report helps obtain detailed information for different groups of assets about acquisition cost, depreciation value and book value. The detailed information are also summarized at a group level if needed. The report shows the output structured over multiple columns.
+
+5606
+About Fixed Asset Book Value 02
+The Fixed Asset Book Value 02 report is useful when the user wants to view the movement in valuation of assets over a period time. There is further breakdown of values under additions and disposals during the period , further grouped under classes/subclasses if needed.
+
+5607
+About Fixed Asset Projected Value
+Fixed Asset Projected Value Report is a detailed analysis that forecasts the future value of an organization's fixed assets over a specified period. This is specially useful where there are multiple depreciation methods and there is need to review the projected values of depreciation.
+
+5608
+About Fixed Asset Acquisition List
+The Fixed Asset Acquisition List report is a detailed accounting document that provides an organized summary of all fixed assets acquired by an organization during a specific period. This report is essential for tracking new additions to the asset base and ensuring accurate financial reporting.
+
+5610
+About Fixed Asset G/L Analysis
+The Fixed Assets G/L Analysis report is essential for financial management and reporting, offering detailed insights into the accounting treatment and reconciliation of subledger with the general ledger mainly validating the disposal entries. Structurally it is similar to FA Analysis report but this one is focused on GL reconciliation purpose. 
+-->
+
+
+## The old way
 The following table describes some of the key reports in fixed assets reporting.
 
 | Report | Description | Id | 

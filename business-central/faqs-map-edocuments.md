@@ -14,11 +14,11 @@ ms.collection:
 
 # FAQ for mapping e-documents with purchase orders using Copilot (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of **E-documents Matching Assistance** feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is E-documents Matching Assistance?
 
@@ -68,13 +68,7 @@ Suggested matching of items from e-invoices with items in purchase orders perfor
 
 ## In which geographies and languages is E-documents Matching Assistance available?
 
-- Available geographies
-
-   This Copilot feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
-
-- Available languages
-
-   [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+[!INCLUDE[copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
@@ -118,6 +112,7 @@ Each time Copilot provides matches or suggestions, you can provide feedback to M
 ## See also
 
 [E-Documents overview](finance-edocuments-overview.md)  
-[Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+[Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)  
+[Learn more at copilot data movement across geographies](ai-copilot-data-movement.md).
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

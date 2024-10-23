@@ -24,7 +24,7 @@ To ensure compliance with local tax reporting, use the **Tax Setup** page to def
    * On the **Default Accounts** FastTab, specify the general ledger (G/L) accounts to use for posting calculated tax on different transactions. Learn more about how to set up or edit G/L accounts at [Set Up or Change the Chart of Accounts](../../finance-setup-chart-accounts.md).
 
 > [!TIP]
-> If you are in the US, we recommend running the **Tax Setup** together with the **Set Up Sales Tax** assisted guide. Learn more about the guide and other important pages and fields to set up at [Reporting Sales Tax in the US](us-sales-tax.md).
+> If you are in the US, we recommend running the **Tax Setup** together with the **Set Up Sales Tax** assisted guide. Learn more about the guide and other important pages and fields to set up at [Sales Tax in the US](us-sales-tax.md).
 
 ## See also
 

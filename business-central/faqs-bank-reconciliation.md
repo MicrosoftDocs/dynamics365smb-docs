@@ -1,7 +1,7 @@
 ---
-title: FAQs for bank account reconciliation assist (preview) with Copilot
-description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 03/27/2024
+title: FAQ for bank account reconciliation assist with Copilot (preview)
+description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 08/13/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,86 +13,80 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ for bank account reconciliation assist with Copilot (preview)
+# FAQ for bank account reconciliation assist with Copilot
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
-
-These frequently asked questions (FAQ) describe the AI impact of Copilot assistance with bank account reconciliation in [!INCLUDE[prod_short](includes/prod_short.md)].
-
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot assistance with bank account reconciliation in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## What is bank reconciliation assist?
 
-Bank reconciliation is a common accounting task where organizations review their bank account statements to identify transactions that should be registered in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this task would be used to identify periodic bank fees or small employee expenses. This task is typically a multi-step process, starting with importing bank statements into [!INCLUDE[prod_short](includes/prod_short.md)], followed by matching transactions with ledger entries, and posting new ledger entries to reflect any residual transactions that weren't previously known to your ledgers. Copilot in [!INCLUDE[prod_short](includes/prod_short.md)] reduces manual effort by matching more transactions and suggesting general ledger accounts that you can post to. 
+Bank reconciliation is a common accounting task where organizations review their bank account statements to identify transactions that should be registered in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this task is used to identify periodic bank fees or small employee expenses.
 
-## What are capabilities of bank reconciliation assist?
+Bank reconciliation is typically a multi-step process. First, bank statements are imported into [!INCLUDE[prod_short](includes/prod_short.md)]. Next, transactions are matched with ledger entries. Finally, new ledger entries are posted to reflect any residual transactions that were not previously known to your ledgers.
 
-Copilot provides AI-powered assistance with two distinct tasks: 
+Copilot in [!INCLUDE[prod_short](includes/prod_short.md)] reduces the manual effort by matching more transactions and suggesting general ledger (G/L) accounts that you can post to.
 
-- Improved matching of transactions with ledger entries 
+## What are the capabilities of bank reconciliation assist?
 
-   [!INCLUDE[prod_short](includes/prod_short.md)] offers automated rules that automatically match many bank transactions with ledger entries. However, these rules are inflexible and often result in many unmatched transactions that each require manual inspection and comparison. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. 
- 
-- Suggested general ledger accounts 
+Copilot provides AI-powered assistance with two distinct tasks:
 
-   For residual bank transactions that couldn't be matched to any ledger entries, Copilot uses AI technology to compare the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transaction with narrative "Fuel Stop24" be posted to the "Transportation" account. 
+- Improved matching of transactions with ledger entries
 
-Copilot doesn't connect to your bank to retrieve or send transactions. This task remains fully within your control and is a prerequisite to begin using Copilot's assistance, whether those transactions are added to [!INCLUDE[prod_short](includes/prod_short.md)] using a digital bank connection, imported from a bank statement file, or entered manually. 
+    [!INCLUDE[prod_short](includes/prod_short.md)] offers automated rules that automatically match many bank transactions with ledger entries. However, these rules are inflexible and often result in many unmatched transactions, each of which requires manual inspection and comparison. Copilot uses AI technology to inspect those unmatched transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if a customer paid multiple invoices in one lump sum, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
+
+- Suggested G/L accounts
+
+    For residual bank transactions that can't be matched to any ledger entries, Copilot uses AI technology to compare the transaction description with G/L account names and then suggest the most likely G/L account to post to. For example, if unmatched transactions have the narrative *Fuel Stop 24*, Copilot might suggest that you post them to the *Transportation* account.
+
+Copilot doesn't connect to your bank to retrieve or send transactions. This task remains fully within your control. It's a prerequisite for using Copilot's assistance, regardless of whether the transactions are added to [!INCLUDE[prod_short](includes/prod_short.md)] by using a digital bank connection, imported from a bank statement file, or manually entered.
 
 ## What is the intended use of bank reconciliation assist?
 
-Bank account reconciliation assist is designed to help identify new transactions that customers should account for in [!INCLUDE[prod_short](includes/prod_short.md)], to improve the accuracy of their ledgers. This activity isn't intended for fraud detection or identifying if customers have paid on time.   
+Bank account reconciliation assist is designed to improve the accuracy of ledgers by helping customers identify new transactions that they should account for in [!INCLUDE[prod_short](includes/prod_short.md)]. It isn't intended for fraud detection or to identify whether customers paid on time.
 
 ## How was bank reconciliation assist evaluated? What metrics are used to measure performance?
 
-This functionality was tested using combinations of synthetic bank transaction data and similar G/L accounts and ledger entries that cover the typical variations and data limits for each field and in different languages. Test data represents both typical usage and usage by bad actors. Performance was measured in comparison to manual reconciliation of the same data. 
+Bank account reconciliation assist was tested by using combinations of synthetic bank transaction data and similar G/L accounts and ledger entries that cover the typical variations and data limits for each field and in different languages. Test data represents both typical usage and usage by bad actors. Performance was measured in comparison to manual reconciliation of the same data.
 
-## What are the limitations of bank reconciliation assist? How can users minimize the impact of the bank reconciliation limitations when using the system?
+## What are the limitations of bank reconciliation assist? How can users minimize the impact of these limitations when they use the system?
 
-Bank account reconciliation assist performs best when G/L account names, ledger entry descriptions, and bank transaction descriptions are all in the same language. Mixed languages or mixed language of transaction descriptions often result in fewer matches and suggestions. 
+Bank account reconciliation assist performs best when G/L account names, ledger entry descriptions, and bank transaction descriptions are all in the same language. Mixed languages or mixed languages for transaction descriptions often result in fewer matches and suggestions.
 
 Suggested ledger accounts performs best in one of the supported languages (see the next section for a list of languages). Users might experience fewer transaction matches and fewer suggested ledger accounts in other languages.
 
 ## In which geographies and languages is bank reconciliation assist available? 
 
-- Available geographies
+[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
 
-  This Copilot feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
+## What is expected of system users when they operate bank account reconciliation assist?
 
-- Available languages
+### During bank account reconciliation
 
-  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+AI-powered matches and suggestions might sometimes be incorrect or incomplete. Users of bank account reconciliation assist must review the accuracy of the matches and suggestions that Copilot provides before they choose to keep them. Copilot's matches and suggestions aren't saved to the [!INCLUDE[prod_short](includes/prod_short.md)] database until you select the **Keep it** button and close the Copilot window. You can edit and correct any matches or suggestions before you choose to keep them.
 
-## What is expected of end-users when operating bank account reconciliation assist? 
+### After bank account reconciliation is completed
 
-### While using bank account reconciliation 
+We recommend that users also verify accuracy and correct any discrepancies after they close the Copilot window. This process should include the following activities:
 
-AI-powered matches and suggestions might sometimes be incorrect or incomplete. Users of bank account reconciliation assist must review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. Copilot’s matches and suggestions aren't saved to the [!INCLUDE[prod_short](includes/prod_short.md)] database until you choose the Keep it button and exiting the Copilot window. You can also edit and correct any matches or suggestions before choosing to keep it. 
+- Review the reconciliation test report.
+- Ensure that your organization has the appropriate review and audit processes in place.
+- Reopen any posted reconciliations by using the **Undo** function.
+- Correct any erroneous ledger entries through reverse posting of entries.
 
-### After completing bank account reconciliation 
+## What is expected of administrators and system users when they operate bank account reconciliation assist?
 
-It's recommended that users also verify accuracy and correct any discrepancies after exiting the Copilot window, including the following activities: 
+System users, such as accountants, treasurers, or other people who work on business accounting, should always review the accuracy of matches and suggestions that Copilot provides before they choose to keep them. After reconciliation with Copilot, we recommend that these users review the reconciliation test report to verify accuracy and identify any discrepancies.
 
-- Review the reconciliation test report. 
-- Ensure your organization has the appropriate review and audit processes in place. 
-- Reopen any posted reconciliations by using the Undo function. 
-- Correct any erroneous ledger entries through reverse posting of entries. 
+Administrators should ensure that the appropriate accounting users are granted access to this capability.
 
-## What is expected of administrators and end-users when operating bank account reconciliation assist? 
+## Is Copilot the only means of completing bank account reconciliation?
 
-End-users, such as accountants, treasurers or others working on business accounting should always review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. After reconciling with Copilot, we recommend reviewing the reconciliation test report to verify accuracy and identify any discrepancies. 
-
-Administrators should ensure the appropriate accounting users have been granted access to this capability. 
-
-## Is Copilot the only means to completing bank account reconciliation? 
-
-No – use of Copilot is optional. [!INCLUDE[prod_short](includes/prod_short.md)] offers traditional, non-AI-powered means of importing bank statements, running predefined matching rules, and manually applying matches and posting to appropriate ledger accounts. Both the traditional approach and Copilot can be used simultaneously within an organization. 
+No. Use of Copilot is optional. [!INCLUDE[prod_short](includes/prod_short.md)] offers traditional, non-AI-powered means of importing bank statements, running predefined matching rules, and manually applying matches and posting to appropriate ledger accounts. Both the traditional approach and Copilot can be used simultaneously in an organization.
 
 ## How do I give feedback about AI-generated content?
 
-Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the like and dislike controls. Your feedback remains anonymous and we use this data to improve the quality of the service.
-
+Each time that Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window by using the like (thumbs up) and dislike (thumbs down) controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.
 
 ## See also
 
-[Reconcile bank accounts using bank reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
+[Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
+[Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

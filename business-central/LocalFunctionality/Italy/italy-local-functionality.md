@@ -5,11 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 06/11/2024
+ms.date: 09/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Italy local functionality
 
 The following articles describe local functionality that is unique to the Italian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
@@ -58,20 +59,20 @@ The following articles describe local functionality that is unique to the Italia
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
     * [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
+    * [Vendors from Fiscally Denied Countries or Regions](fiscal-deny-list.md) **Available Now**
 
 ## Future legislation requirements being investigated
 
-* Fiscal restrictions for vendors **Planned for 24.4**
-* Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for 24.4**
-* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**  
-* Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2025 release wave 1**  
+* Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for 25.1**
+* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 2**  
+* Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2025 release wave 2**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

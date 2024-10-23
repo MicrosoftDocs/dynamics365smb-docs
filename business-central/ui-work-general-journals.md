@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 04/12/2024
+ms.date: 07/15/2024
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
@@ -20,11 +20,11 @@ Most financial transactions are posted to the general ledger through documents s
 * Using recurring journals to post accruals
 * Refunding employee expenses by posting journal lines in journals  
 
-Most journals are based on the general journal, and you can process all transactions on the **General Journal** page. Learn more at [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
+Most journals are based on the general journal, and you can process all transactions on the **General Journals** page. Learn more at [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
 For example, you can use post employee expenses for reimbursement. Learn more at [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
-However, [!INCLUDE [prod_short](includes/prod_short.md)] also offers journals that are optimized for specific types of transactions, such as the **Payment Journal** for registering payments. Learn more at [Record Payments and Refunds in the Payment Journal](payables-how-post-payments-refunds.md).  
+However, [!INCLUDE [prod_short](includes/prod_short.md)] also offers journals that are optimized for specific types of transactions, such as the *Payment Journal* for registering payments. Learn more at [Record Payments and Refunds in the Payment Journal](payables-how-post-payments-refunds.md).  
 
 You use general journals to post financial transactions to general ledger accounts and various other accounts. The other accounts include bank, customer, vendor, and employee accounts. Posting with a general journal creates entries on general ledger accounts even when, for example, you post a journal line to a customer account. The entry is posted to a general ledger receivables account through a posting group.
 
@@ -39,7 +39,7 @@ When you create a journal, you can add links that give context to its transactio
 
 ## Use journal templates and batches
 
-There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. Learn more at [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
+There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journals** page to process bank payments and the **Payment Journals** page to pay your vendors or reimburse your employees. Learn more at [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalize a journal.
 
@@ -51,7 +51,7 @@ For each journal template, you can set up your own personal journal as a journal
 
 ### Validating general journal batches
 
-You can turn on a background check that helps prevent delays when posting. The check notifies you when a mistake in the financial journal you're working on will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them.
+You can turn on a background check that helps prevent delays when posting. The check notifies you when a mistake in the financial journal you're working on will prevent you from posting the journal. On the **General Journal Batches** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them.
 
 When you enable the validation, the **Check Document** or **Journal Check** FactBoxes show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview of the issues.
 
@@ -114,9 +114,12 @@ If the field is blank, the line is posted every time until you delete it from th
 
 ### Allocating recurring journal amounts to several accounts
 
-On the **Recurring General Journal** page, you can choose the **Allocations** action to specify how to allocate amounts on the recurring journal line to several accounts and dimensions. Allocation acts as balancing account line for the recurring journal line.
+On the **Recurring General Journals** page, you can choose the **Allocations** action to specify how to allocate amounts on the recurring journal line to several accounts and dimensions. Allocation acts as balancing account line for the recurring journal line.
 
 Like a recurring journal, you enter an allocation one time and it stays in the allocation journal after posting. You don't need to enter amounts and allocations every time you post the recurring journal line.
+
+> [!NOTE]
+> You can't use allocation accounts in journal batches that have an approval workflow for creating journal lines.
 
 If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, dimension value codes in the recurring journal are disregarded when the account is set to zero. If you allocate a recurring line to dimension values on the **Allocations** page, only one reversing entry is created.
 
@@ -217,7 +220,7 @@ Renumbering document numbers respects related applications, such as a payment ap
 
 ### To renumber documents in journals
 
-The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Payment Journal** page.
+The following procedure is based on the **General Journals** page, but applies to all other journals that are based on the general journal, such as the **Payment Journals** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. When you're ready to post the journal, choose the **Renumber Document Numbers** action.

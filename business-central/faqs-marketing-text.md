@@ -72,7 +72,7 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
 As part of providing the Azure OpenAI service, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
 
-Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274).
+Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 For Microsoft to safeguard the service and its customers, it's not possible to opt out of logging and human review processes.
 
@@ -88,7 +88,7 @@ The capability also collects data from the feedback user's can provide using the
 
 - Available languages
   
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+   [!INCLUDE[copilot-language-support.md](includes/copilot-language-support.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 

@@ -1,6 +1,6 @@
 ---
 title: Add marketing text to items
-description: Write marketing text for items in Business Central
+description: Write marketing text for items in Business Central.
 author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
@@ -9,6 +9,7 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 5839_Primary
 ---
 
 # Add marketing text to items
@@ -28,9 +29,9 @@ With Copilot, you quickly get a text suggestion that's automatically generated f
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
-### Available languages
+### Supported languages
 
-[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ### Prerequisites
 

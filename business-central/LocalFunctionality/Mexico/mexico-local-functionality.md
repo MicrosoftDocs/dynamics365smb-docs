@@ -4,11 +4,12 @@ description: The following articles provide descriptions of the local functional
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 02/05/2024
+ms.date: 09/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Mexico local functionality
 
 The following articles describe local functionality that is unique to the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
@@ -22,20 +23,20 @@ The following articles describe local functionality that is unique to the Mexica
 
 * Electronic invoicing (updated to CFDI 4.0)
     * [Electronic Invoicing](electronic-invoicing.md) **Available Now**
+    * [Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**
     * [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**
     * [Generate Electronic Invoices](how-to-generate-electronic-invoices.md) **Available Now**
-    * [Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md) **Available Now**
-    * [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
+    * [Carta de Porte packing slips and transfer orders in the Mexican version](packing-slips-transfer-orders.md) **Available Now**  
 
 * General
-    * [Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**
+    * [Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md) **Available Now**
+    * [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
     * [Create Deposits](how-to-create-deposits.md) **Available Now**
 
 ## Future legislation requirements being investigated
 
-* Carta Porte Complement 3.0 update **Planned for 23.4**
-* Rounding in electronic invoice documents **Planned for 24.1**  
+* Rounding in electronic invoice documents **Planned for 25.2**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

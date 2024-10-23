@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Reconcile customer payments from a list of unpaid sales documents
 
 After customers make electronic payments to your bank account, you must take the following actions:
@@ -112,7 +112,7 @@ The following procedures explain ways to post discounted payments on the **Payme
 
    Date fields change to red font, and an error message is shown at the bottom of the page. The next two steps fix that.
 4. Choose the **Details** action.  
-5. On the **Payment Registration Details** page, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field on the **Payment Registration** page.  
+5. On the **Payment Registration Details** page, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field on the **Payment Registration Setup** page.  
 
     The error message and the red font disappear, and you can continue to process the discounted payment.
 6. Verify that the **Remaining Amount** field contains the amount that remains to pay the full invoice amount.  

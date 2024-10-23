@@ -11,17 +11,19 @@ ms.custom: bap-template
 
 # Integrate with Microsoft Dynamics 365 Field Service
 
-Service organizations require a front-to-back application in which financials, inventory, and procurement are tightly coupled with service delivery. They generate financial data with every transaction. Every work order represents cost and revenue, and every resource generates profit and loss. Customer interactions add entries on the general ledger. The integration between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)] streamlines the end-to-end process of managing service operations and ensures a smooth flow of information between the two systems.  
+Service organizations require a front-to-back application in which finance, inventory, and procurement are tightly coupled with service delivery. They generate financial data with every transaction. Every work order represents cost and revenue, and every resource generates profit and loss. Customer interactions add entries on the general ledger. The integration between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)] streamlines the end-to-end process of managing service operations and ensures a smooth flow of information between the two systems.  
 
 You can easily create and manage work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)], track the progress of service tasks, assign resources, and capture consumption details. When you complete a work order in [!INCLUDE [field-service-short](includes/field-service-short.md)], the integration enables the smooth transfer of data to [!INCLUDE [prod_short](includes/prod_short.md)] for further processing.  
 
 The integration also facilitates the invoicing and fulfillment of work orders in [!INCLUDE [prod_short](includes/prod_short.md)]. You can generate accurate invoices based on the service activities and the consumption recorded in [!INCLUDE [field-service-short](includes/field-service-short.md)].  
 
-By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)], you don't have to enter data manually or duplicate efforts. Integration also provides a comprehensive view of service operations and financials, enabling better decision-making and operational efficiency.
+By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)], you don't have to enter data manually or duplicate efforts. Integration also provides a comprehensive view of service operations and finances, enabling better decision-making and operational efficiency.
 
 ## Prerequisites
 
 Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is built on top of Dynamics 365 Sales, you must [set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) and [enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
+
+You must download the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917), and install it in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ### Permissions and security roles for user accounts
 
@@ -72,7 +74,12 @@ On the **Field Service Setting** page, make the following changes:
 
 ## Set up the integration in Business Central
 
-After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide. This section describes the key settings in the guide.
+After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
+* Download and install the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the Field Service Integration app, and choose the **Set up** action to run the assisted setup guide.
+* On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide.
+
+This section describes the key settings in the guide.
 
 To let people post consumption of items and services in [!INCLUDE [field-service-short](includes/field-service-short.md)] work orders, specify the **Project Journal Template** and **Project Journal Batch** to use to post consumption of products and services.
 
@@ -91,6 +98,18 @@ After you finish the setup, run a full synchronization from the **Dynamics 365 F
 * Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
 * Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
+### Additional synchronization of locations and warehouses
+
+You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
+
+The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](includes/prod_short.md)]) integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, in [!INCLUDE [prod_short](includes/prod_short.md)] you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
+
+* The **Use as In-Transit** toggle is turned off.
+* **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+* **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+
 ## Standard Field Service entity mapping for synchronization
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronize](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
@@ -102,6 +121,10 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 * **PROJECTTASK** - Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **RESOURCE-BOOKABLERSC** - Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **SVCITEM-CUSTASSET** - (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+* **LOCATIONS** - Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
+> [!NOTE]
+> The LOCATIONS integration table mapping is available only if the **Location Mandatory** toggle on the **Inventory Setup** page is turned on.
 
 ## Use data in both applications
 
@@ -120,11 +143,13 @@ You can add items of the type service as **Work Order Services**, and get costs 
 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
+You can use **Open in Business Central** in [!INCLUDE [field-service-short](includes/field-service-short.md)] to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
 ### Business Central
 
 Depending on your settings on the **Field Service Integration Setup** page, when work orders include products and services, consumption information is transferred and posted using a **Project Journal** in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-The **Quantity To Bill** and **Duration To Bill** values are copied to the **Qty- to Transfer to Invoice** field. Based on those values, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)] to invoice the customer. After the invoice is posted, or consumption is processed in [!INCLUDE [prod_short](includes/prod_short.md)], the quantity invoiced and quantity consumed display on the [!INCLUDE [prod_short](includes/prod_short.md)] tab on the **Work Order Product** and **Work Order Service** pages.  
+The **Quantity To Bill** and **Duration To Bill** values are copied to the **Qty- to Transfer to Invoice** field. Based on those values, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)] to invoice the customer. After the invoice is posted and synchronized to the Dynamics 365 Sales environment, or consumption is processed in [!INCLUDE [prod_short](includes/prod_short.md)], the quantity invoiced and quantity consumed display on the [!INCLUDE [prod_short](includes/prod_short.md)] tab on the **Work Order Product** and **Work Order Service** pages.  
 
 Use the **Project Planning Lines** page to track posting and invoicing of consumption on work orders. From the **Project Planning Lines** page, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)]. Afterward, you can synchronize them with [!INCLUDE [field-service-short](includes/field-service-short.md)] and keep track of the status of the invoices.
 
@@ -134,6 +159,8 @@ Use the **Project Planning Lines** page to track posting and invoicing of consum
 > The product that's chosen on the work order service must be coupled to an item of the type **Service** in [!INCLUDE [prod_short](includes/prod_short.md)]. Also, the base unit of measure for the item must be set to the **Hours Unit of Measure** that's chosen on the **Dynamics 365 Field Service Integration Setup** page.
 >
 > You can create an invoice for an item of the type **Service** from the billable project planning line, and use the budget project planning line to register cost with the resource.
+
+Use the **Locations in Field Service** action on the **Locations** and **Location Card** pages to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. You can view the allocated product quantity from work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] as part of the gross requirements in Business Central's inventory availability calculation. Demand generated by orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] automatically become an input for planning.
 
 ## See also
 

@@ -15,11 +15,11 @@ ms.collection: bap-ai-copilot
 
 # Suggest lines on sales documents with Copilot (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article explains how to create sales documents faster by letting Copilot suggest the items to add to lines on sales documents for your customers.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## About sales line suggestions with Copilot
 
@@ -33,9 +33,9 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
   People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
 
-## Available languages
+## Supported languages
 
-[!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Prerequisites
 

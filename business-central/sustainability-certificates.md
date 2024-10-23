@@ -14,7 +14,7 @@ ms.reviewer: solsen
 
 # Sustainability certificates
 
-In today’s business landscape, sustainability is more than a trend - it’s a necessity. As companies strive to reduce their environmental impact and meet growing consumer demand for responsible practices, sustainability certificates have emerged as an essential tool for validating these efforts. These certificates serve as an independent verification that a company or its products meet specific environmental, social, and governance (ESG) standards, fostering trust and transparency in the marketplace.  
+In today’s business landscape, sustainability is more than a trend - it’s a necessity. As companies strive to reduce their environmental impact and meet growing consumer demand for responsible practices, sustainability certificates are now an essential tool for validating these efforts. These certificates serve as an independent verification that a company or its products meet specific environmental, social, and governance (ESG) standards, fostering trust and transparency in the marketplace.  
 
 Sustainability certificates offer a clear and measurable way to assess the environmental and ethical credentials of both companies and their products. By prioritizing vendors who hold recognized sustainability certifications, businesses can enhance their supply chain integrity, reduce risks, and contribute to a more sustainable future.
 
@@ -25,7 +25,7 @@ Sustainability certificates for companies cover a wide range of criteria, includ
 The *sustainability certificate area* refers to the specific area covered by a particular certificate. Generally, this method is used to categorize similar certificates based on distinct characteristics. To create new sustainability certificate area, follow these steps:   
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sust. Certificate Areas**, and then select the related link.
-2. On the **Sust. Certificate Areas** page, select **New** and enter the **Number** and **Name** fields for new certificate area. 
+2. On the **Sust. Certificate Areas** page, select **New**, and enter the **Number** and **Name** fields for new certificate area. 
 3. Close the page.   
 
 ## Sustainability certificate standards
@@ -33,7 +33,7 @@ The *sustainability certificate area* refers to the specific area covered by a p
 The *Sustainability certificate standard* refers to the specific standard for a particular certificate. Generally, it should provide third-party verified, transparent, and measurable criteria aligned with international ESG frameworks to promote responsible business practices. To create new sustainability certificate standard, follow these steps: 
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sust. Certificate Standards**, and then select the related link.
-2. On the **Sust. Certificate Standards** page, select **New, and enter the **Number** and **Name** fields for new certificate standard. 
+2. On the **Sust. Certificate Standards** page, select **New**, and enter the **Number** and **Name** fields for new certificate standard. 
 3. Close the page.  
 
 ## Create a sustainability certificate 

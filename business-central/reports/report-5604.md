@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Details (report)
-description: 
+description: Get detailed transaction information and reference data for your asset management.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

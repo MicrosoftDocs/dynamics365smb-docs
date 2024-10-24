@@ -28,7 +28,7 @@ The report shows the output structured over multiple columns and displays one li
 For print, use landscape orientation to fit the page. 
 
 
-# Fixed Asset Book Value reports
+## Fixed Asset Book Value reports
 
 [!INCLUDE[report-5605-5606-difference](../includes/report-5605-5606-difference.md)]
 

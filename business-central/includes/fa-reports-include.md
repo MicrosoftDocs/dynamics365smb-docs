@@ -23,9 +23,7 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)] | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
 
 
-
 <!-- 
-
 | | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*$../reports/report-5610.md) | 5610 |
 
 

@@ -45,7 +45,7 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You are redirected to your [Business Central](https://businesscentral.dynamics.com) page.
 
    > [!Note]
-   > In countries where Microsoft doesn't offer built-in localization, the sign up process stop and the *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message displays. For more information, see [How to start with the trial in location with partner-based localizations](../trial-signup#start-with-the-trial-in-location-with-partner-based-localizations).
+   > In countries where Microsoft doesn't offer built-in localization, the sign up process stop and the *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message displays. To learn more, go to [Start with the trial in location with partner-based localizations](../trial-signup.md#start-with-the-trial-in-location-with-partner-based-localizations).
 
 6. Do the next steps in [!INCLUDE[prod_short](../includes/prod_short.md)].
 

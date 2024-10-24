@@ -16,10 +16,12 @@ ms.reviewer: solsen
 
 [!INCLUDE [e-documents connectors](includes/edocuments-connectors-include.md)]
 
+You can use E-Documents in Business Central to send and receive electronic documents with your business partners. To do this, you need to connect E-Documents to an external access point that handles the communication and validation of the documents. 
+
  > [!NOTE]
  > These connections require communication with external service providers who might be subject to additional payment and require contracts with them. To obtain all the necessary credentials, contact the service providers.
 
-The type of connector you select determines the next steps.  
+The steps to connect E-Documents to an external access point depend on the type of connector you choose.    
 
 > [!NOTE]
 > Ask your service provider for all the necessary details to establish a connection with their access point that follows.  
@@ -45,9 +47,9 @@ The type of connector you select determines the next steps.
 ## Avalara service
 
 > [!NOTE]
-> Avalara connector in [!INCLUDE[prod_short](includes/prod_short.md)] exists from the 25.1 version.  
+> The Avalara connector in [!INCLUDE[prod_short](includes/prod_short.md)] is available from version 25.1
 
-1. On the opened **Avalara Connection Setup** page, enter the **Client ID** and **Client Secret** fields. In the **Send Mode** field, choose the **Production**, **Test**, or **Certification** option, based on your plans. 
+1. On the **Avalara Connection Setup** page, enter the **Client ID** and **Client Secret** fields. In the **Send Mode** field, choose the **Production**, **Test**, or **Certification** option, based on your plans. 
 2. Select the **Select Avalara Company Id** action, and choose the right company. Make sure you enter values into the **Company Name** and **Company ID** fields.  
 3. Select the **Select Avalara Mandate** action, and select the right **E-Document Service**, and then pick appropriate **Country Mandate** code on the **Avalara Mandate List** page. 
 4. Navigate back to the **E-Document Service** page, and validate that the **Avalara Mandate** field in the **Avalara** FastTab is set with the value you chose. 
@@ -55,19 +57,19 @@ The type of connector you select determines the next steps.
 
 ## Available service providers
 
-At this moment, the [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero and Avalara access points for e-documents, but more access points are in the process of development. As soon as they're finished, this page will be updated with the parameters for new connectors. But you can also find more connectors using the AppSource.
+At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero and Avalara access points for e-documents, but more access points are in the process of development. This page will be updated with the parameters for new connectors when they're ready. You can also find more connectors on AppSource.
 
 > [!NOTE]
-> This page doesn't show how to connect with the local service providers. If [!INCLUDE[prod_short](includes/prod_short.md)] support some of them, it will be explained on the country-specific documentation.  
+> This page doesn't show how to connect with the local service providers. If [!INCLUDE[prod_short](includes/prod_short.md)] support some of them, it will be explained in the country-specific documentation.  
 
-Microsoft has no contractual obligation with Pagero and Avalara. That means, if you want to use their connectors, you must have a contract with them.
+Microsoft doesn't have a contractual obligation with Pagero and Avalara. That means, if you want to use their connectors, you must have a contract with them.
 
 ## See also
 
-[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)    
-[How to set up e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)    
-[How to use e-documents in Business Central](finance-how-use-edocuments.md)    
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+- [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
+- [How to set up e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)    
+- [How to use e-documents in Business Central](finance-how-use-edocuments.md)    
+- [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

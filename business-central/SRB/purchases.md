@@ -26,7 +26,7 @@ When the item is delivered for an order, [!INCLUDE [prod_short](../includes/prod
 
 ## Assign a vendor contract
 
-Unlike customer service commitments, you can assign vendor service commitments to any vendor contract. You can verify whether there 
+Unlike customer service commitments, you can assign vendor service commitments to any vendor contract.
 
 > [!TIP]
 > The **Subscription & Recurring Billing** Role Center shows whether there are vendor service commitments that aren't assigned to a contract.

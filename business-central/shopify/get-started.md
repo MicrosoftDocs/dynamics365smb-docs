@@ -1,7 +1,7 @@
 ---
 title: Getting started with the connector for Shopify
 description: First steps when configuring a connection between Business Central and Shopify.
-ms.date: 04/30/2024
+ms.date: 10/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -43,10 +43,10 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 
    You can find and open the installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of the **Shopify admin** page.
 4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You are redirected to your [Business Central](https://businesscentral.dynamics.com) page.
-   
+
    > [!Note]
-   > In countries where Microsoft doesn't offer built-in localization the sign up process will be stopped by *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message. For more information, see [How to start with the trial in location with partner-based localizations](../trial-signup#start-with-the-trial-in-location-with-partner-based-localizations).
-   
+   > In countries where Microsoft doesn't offer built-in localization, the sign up process stop and the *[!INCLUDE[prod_long](../includes/prod_long.md)] is not available in this market* message displays. For more information, see [How to start with the trial in location with partner-based localizations](../trial-signup#start-with-the-trial-in-location-with-partner-based-localizations).
+
 6. Do the next steps in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Connect Business Central to the Shopify online store
@@ -54,10 +54,10 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.  
 3. In the **Code** field, enter a code that is easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country or region it serves.
-4. In the **Shopify URL** field, enter the URL of the online shop that you're connecting. Use the following format: `https://{shop}.myshopify.com/`. You can build the URL by combining the store ID from the admin URL. For example, `admin.shopify.com/store/{shop}` and `.myshopify.com`.
+4. In the **Shopify URL** field, enter the URL of the online shop that you're connecting. Use the following format: **https://{shop}.myshopify.com/**. You can build the URL by combining the store ID from the admin URL. For example, **admin.shopify.com/store/{shop}** and **.myshopify.com**.
 
    > [!TIP]
-   > You can copy the URL from Shopify Admin, like `https://admin.shopify.com/store/{shop}`, and the connector will convert it to the required format.
+   > You can copy the URL from Shopify Admin, like **https://admin.shopify.com/store/{shop}**, and the connector converts it to the required format.
 
 5. Turn on the **Enabled** toggle, and then review and accept the terms and conditions.
 6. If prompted, sign in to your Shopify account. Review the privacy terms and permissions, and then choose the **Install App** button.

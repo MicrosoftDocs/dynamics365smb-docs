@@ -67,7 +67,7 @@ From the **Microsoft Dynamics 365 Connection Setup** page, you can get details a
 
 ## Handle sales order data
 
-Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] are transferred to [!INCLUDE[prod_short](includes/prod_short.md)] if you select the **Automatically Create Sales Orders** checkbox on the **Microsoft Dynamics 365 Connection Setup** page.
+Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] transfer to [!INCLUDE[prod_short](includes/prod_short.md)] if you select the **Automatically Create Sales Orders** checkbox on the **Microsoft Dynamics 365 Connection Setup** page.
 
 Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[prod_short](includes/prod_short.md)]** action on the **Sales Orders - Dynamics 365 for Sales** page.
 
@@ -80,14 +80,16 @@ The same is true if the original sales order contains write-in products, meaning
 
 If the description of the item on the original sales order is long, another sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in the **SALESORDER-ORDER** integration table mapping  periodically synchronize to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing, shipping, and invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). To enable posting and activities for orders in [!INCLUDE[crm_md](includes/crm_md.md)], see [Set up the Notes control to access information about posts for a custom entity](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in the Customer Engagement documentation. The article refers to Customer Engagement on-premises, but the steps are the same for the online version. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Updates to fields on sales order headers, such as the **Last Shipment Date** or **Requested Delivery Date** fields, that are mapped in the **SALESORDER-ORDER** integration table mapping periodically synchronize to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing, shipping, and invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). To enable posting and activities for orders in [!INCLUDE[crm_md](includes/crm_md.md)], see [Set up the Notes control to access information about posts for a custom entity](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in the Customer Engagement documentation. The article refers to Customer Engagement on-premises, but the steps are the same for the online version.
 
 > [!NOTE]  
-> Periodical synchronization based on the **SALESORDER-ORDER** integration table mapping works only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodical synchronization based on the **SALESORDER-ORDER** integration table mapping works only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] synchronize. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
 If someone changes the price of a product in [!INCLUDE [crm_md](includes/crm_md.md)] and you include the item in sales orders in [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [prod_short](includes/prod_short.md)] creates a new sales price list for each order. To learn more about price lists, go to [Handle sales prices](#handle-sales-prices).
+
+Sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] synchronize when their status is **Submitted**. Sales orders from [!INCLUDE [prod_short](includes/prod_short.md)] synchronize when their status is **Released**. The exception to this rule is when a prepayment is needed to complete a sales order in [!INCLUDE [prod_short](includes/prod_short.md)]. If an order is waiting prepayment, sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] synchronize with a status of **Open** to let you complete the prepayment process. When you register the prepayment, the sales order's status changes to **Released** and synchronization continues.
 
 ## Handle sales quotes data
 
@@ -144,7 +146,6 @@ To synchronize price lists, on the **Sales Price List** page, choose **Related**
 :::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page.":::
 
 ---
-
 
 ## See also
 

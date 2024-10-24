@@ -20,21 +20,13 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5605-scenario](../includes/report-5605-scenario-include.md)] | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01*](../reports/report-5605.md) | 5605 |
 | [!INCLUDE[report-5606-scenario](../includes/report-5606-scenario-include.md)] | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02*](../reports/report-5606.md) | 5606 |
 | [!INCLUDE[report-5607-scenario](../includes/report-5607-scenario-include.md)] | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value*](../reports/report-5607.md) | 5607 |
-
+| [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)] | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
 
 
 
 <!-- 
-| | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
+
 | | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*$../reports/report-5610.md) | 5610 |
-
-
-5608
-About Fixed Asset Acquisition List
-The Fixed Asset Acquisition List report is a detailed accounting document that provides an organized summary of all fixed assets acquired by an organization during a specific period. This report is essential for tracking new additions to the asset base and ensuring accurate financial reporting.
-
-List all assets acquired within a given date range. You can also include fixed assets that are created but not yet acquired.
-
 
 
 5610

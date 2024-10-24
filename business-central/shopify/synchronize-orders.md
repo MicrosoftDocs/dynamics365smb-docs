@@ -1,7 +1,7 @@
 ---
 title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales orders from Shopify.
-ms.date: 09/15/2024
+ms.date: 10/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
@@ -296,7 +296,7 @@ Update the **Shopify Order ID** field based on the results of the sync:
 
 **Shopify**
 
-The Shopify connector does following steps:
+The Shopify connector does the following steps:
 
 * Creates a draft order with header and item lines
 * Converts the draft order it to an order
@@ -361,9 +361,9 @@ The tracking company is populated in the following order (from highest to lowest
 If the **Package Tracking URL** field is filled in for the shipping agent record, the shipping confirmation contains a tracking URL.
 
 >[!Tip]
->If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle in the **Shopify Shop card** page.
+>If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle on the **Shopify Shop card** page.
 >
->The **Shipping Agent Code** and **Shipping Agent Service Code** could be populated autmatically based on setting in the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+>The **Shipping Agent Code** and **Shipping Agent Service Code** can be automatically filled in based on settings on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
 
 ## Returns and refunds
 

@@ -777,10 +777,7 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
 ##### [Fixed Asset Projected Value](reports/report-5607.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
-
-<!-- 
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
- -->
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)

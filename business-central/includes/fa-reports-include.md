@@ -21,26 +21,10 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5606-scenario](../includes/report-5606-scenario-include.md)] | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606) | [About *Fixed Asset Book Value 02*](../reports/report-5606.md) | 5606 |
 | [!INCLUDE[report-5607-scenario](../includes/report-5607-scenario-include.md)] | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value*](../reports/report-5607.md) | 5607 |
 | [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)] | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
+| [!INCLUDE[report-5608-scenario](../includes/report-5610-scenario-include.md)] | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*](../reports/report-5610.md) | 5610 |
 
 
-<!-- 
-| | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*$../reports/report-5610.md) | 5610 |
-
-
-5610
-About Fixed Asset G/L Analysis
-The Fixed Assets G/L Analysis report is essential for financial management and reporting, offering detailed insights into the accounting treatment and reconciliation of subledger with the general ledger mainly validating the disposal entries. Structurally it is similar to FA Analysis report but this one is focused on GL reconciliation purpose. 
-
-If G/L integration is activated for a depreciation book, this report shows amounts 
-posted to the general ledger coming from the FA application area. The report is 
-based on the posting date in the FA ledger, whereas all other reports use the FA 
-posting date.
-
-
-Shows an analysis of your fixed assets (FA) with various types of data for individual assets and/or groups of assets. On the Fixed Assets FastTab, you can set filters if you want the report to include only certain fixed assets. On the Options FastTab, tailor the report to meet your specific needs. The report is similar to the **Fixed Asset Analysis** report, but specifically for reconciling to the general ledger and specifically for validating the disposal entries. The report assumes that you know the G/L accounts that are specified in the  posting setup.
-
--->
-
+<!-- remove after 2025-01-01
 
 ## The old way
 The following table describes some of the key reports in fixed assets reporting.
@@ -56,3 +40,4 @@ The following table describes some of the key reports in fixed assets reporting.
 | [Fixed Asset Book Value 02](https://businesscentral.dynamics.com?report=5606)|Shows the breakdown of fixed asset book value by changes in acquisition, depreciation, and appreciation within the period with a further breakdown by additions and disposals within the period. Use this report to describe the changes in fixed assets for a given period when many different changes occur across the grouping of fixed assets. If you select the **Budget Report** field, the report will calculate the expected depreciation for the period. Enter a *group type* if you want the report to group the fixed assets and print group totals. For example, if you have set up six FA classes, select the *FA Class* option to have group totals printed for each of the six class codes. |5606|
 | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610)|Shows an analysis of your fixed assets (FA) with various types of data for individual assets and/or groups of assets. On the Fixed Assets FastTab, you can set filters if you want the report to include only certain fixed assets. On the Options FastTab, tailor the report to meet your specific needs. The report is similar to the **Fixed Asset Analysis** report, but specifically for reconciling to the general ledger and specifically for validating the disposal entries. The report assumes that you know the G/L accounts that are specified in the  posting setup. | 5610 |
 | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) |Shows posted fixed asset ledger entries that are sorted and divided by register number. You can determine which registers' entries are shown by setting a filter. It is important to set a filter; otherwise, the report may show a very large amount of information. |5603  |
+ -->

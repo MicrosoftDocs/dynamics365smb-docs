@@ -1,0 +1,1 @@
+Help reconciling fixed assets transactions to the general ledger and specifically for validating the disposal entries.

@@ -2,24 +2,23 @@
 title: Power BI FAQ
 description: Get answers for some typical questions about working with Power BI and Business Central.
 author: jswymer
-
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Power BI, reports, faq, errors
-ms.date: 04/22/2021
+ms.date: 10/23/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 # Power BI  FAQ
 
-This article answers some of the questions you may have about working with Power BI and [!INCLUDE [prod_short](includes/prod_short.md)].
+This article answers some of the questions you might have about working with Power BI and [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## [General](#tab/general)
 <!-- 26 -->
-### I've selected a report for my role center in Business Central. If I later make changes to the report's visuals online, will the role center automatically update to my changes?
+### I selected a report for my role center in Business Central. If I later make changes to the report's visuals online, does the role center automatically update to my changes?
 
-Yes, because the reports are embedded from Power BI.
+Yes. The reports you see inside [!INCLUDE [prod_short](includes/prod_short.md)] are embedded directly from Power BI, and not a copy.
 
 <!-- 3 -->
 ### Are the Business Central apps for Power BI available in languages other than English?
@@ -29,47 +28,47 @@ No. These apps are currently only available in English.
 <!-- 24 -->
 ### Once a report is published on my powerbi.com workspace, can I download its pbix? 
 
-Yes. For more information, see [Download a report from the Power BI service to Power BI Desktop](/power-bi/create-reports/service-export-to-pbix).  
+Yes. Learn more at [Download a report from the Power BI service to Power BI Desktop](/power-bi/create-reports/service-export-to-pbix).  
 
 <!-- 27 -->
-### Can I download the apps as pbix files? 
+### Can I download the apps as pbix files?
 
 No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.
 
 ## [License](#tab/license)
 
 <!-- 14 -->
-### Do I need a Power BI Pro license to publish reports? 
+### Do I need a Power BI Pro license to publish reports?
 
 <!-- todo What does " or for every user that consults the published report" mean? fixed -->
-No. A Pro license isn't needed to publish reports. The standard (free) Power BI license is enough. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
+No. A Pro license isn't needed to publish reports. The standard (free) Power BI license is enough. Learn more in [Power BI Licensing](admin-powerbi-setup.md#license).
 
 <!-- 15 -->
 ### Is there anything I can't do with the free license?
 
-You can't share reports or install the Business Central apps for Power BI. Other than that, the free license allows you to create almost all variations of charts and reports.
+You can't share reports or install the Business Central apps for Power BI. The free license allows you to create almost all variations of charts and reports.
 
 <!-- 16 -->
 ### If someone shares a report with another person, then that person needs a Pro license to see the report. Are there plans to make this capability possible with the free license?
 
-We don't have control over this requirement. This requirement is set by Power BI. For more information, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).  
+We don't have control over this requirement. Power BI sets this requirement. Learn more at [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).  
 
 ## [Designer](#tab/designer)
 
 <!-- 7 -->
-### Does the connector work with API pages?
+### Does the connector work with pages exposed as web services?
 
-Yes. Starting in June 2021, the new Power BI connector supports both Business Central web services and API pages. For more information, see [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Web services are an old technology and aren't recommended to use with Power BI. The Power BI connector supports both Business Central web services and API pages, but API pages generally have better performances and are more suited for making data available to other systems. Learn more at [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
 ### Can I build a Power BI report using the Sales Invoice Lines or Journal Lines APIs?
 
-The most commonly used line records are available in the [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). So you can use them to build reports in Power BI by selecting them in the **Dynamics 365 Business Central** connector. However, the **Lines** APIs are designed to be used only with some very specific filters, and might not work in your scenario. You might get an error similar to "You must specify an Id or a Document Id to get the lines". To fix this problem, do the following steps when getting data from Business Central for the report in Power BI Desktop:
+The most commonly used line records are available in the [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). So you can use them to build reports in Power BI by selecting them in the **Dynamics 365 Business Central** connector. However, the **Lines** APIs are designed to be used only with specific filters, and might not work in your scenario. You might get an error similar to "You must specify an ID or a Document ID to get the lines." To fix this problem, do the following steps when getting data from Business Central for the report in Power BI Desktop:
 
 1. Instead of including the data source for the lines entity, add the parent data source. For example, add **Sales Invoice** instead of **Sales Invoice Lines**.
 2. Select **Transform Data** in the Power BI Desktop action bar.
 3. Select the query you just added, for example **Sales Invoices**.
-4. Apply any needed filtering on the records to reduce the amount of records loaded in your report.
-5. Scroll to the right until you find a column named as the lines, for example **SalesInvoiceLines**.
+4. To reduce the number of records loaded in your report, apply any needed filtering on the records.
+5. Scroll vertically until you find a column named as the lines, for example **SalesInvoiceLines**.
 6. Select the expand button in the header of the column, next to the column name.
 
    :::image type="content" source="media/saleinvoicelines.png" alt-text="Shows the SalesInvoiceLines column in Power BI Desktop.":::
@@ -81,7 +80,7 @@ Yes. It can be easily chosen. When you connect to Business Central using the con
 <!-- 6 --> 
 ### Can I merge data from several production environments of the same tenant?
 
-Yes. In Power BI, just run the get data operation again and choose the environment you want.
+Yes. In Power BI, just run the "get data" operation again and choose the environment you want.
 
 <!-- 25 -->
 ### Which pages in Business Central have the Power BI Report part?  
@@ -98,7 +97,7 @@ On list pages, the **Power BI Reports** part is filtered to show reports that pe
 |9305|Sales Order List|
 |9308|Purchase Invoices|
 
-Here are other pages that contain the larger, non-filtered **Power BI Reports** part:
+Here are other pages that contain the larger, nonfiltered **Power BI Reports** part:
 
 |Page ID|Name|
 |-------|----|
@@ -115,14 +114,14 @@ Here are other pages that contain the larger, non-filtered **Power BI Reports** 
 |9027|Accountant Role Center|
 
 > [!TIP]
-> We don't have plans to add it to all list pages at the moment. However, you can create a simple page extension that adds the **Power BI Reports** part in a FactBox. For more information, see [Adding Power BI Report Parts to Pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) in the Developer and IT Pro help.
+> We don't have plans to add it to all list pages at the moment. However, you can create a simple page extension that adds the **Power BI Reports** part in a FactBox. Learn more at [Adding Power BI Report Parts to Pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) in the Developer and IT Pro help.
 
 <!-- 5 -->
 ### Is there any way to filter a dataset from Business Central *before* I pull it into Power BI, instead of applying filters afterwards?
 
-To filter larger datasets, the easiest way is to set a filter on your Power BI report by editing directly the Power Query formula. Most of the filters you set this way will be passed on to Business Central through query folding. See [Incremental refresh for datasets](/power-bi/admin/service-premium-incremental-refresh).
+To filter larger datasets, the easiest way is to set a filter on your Power BI report by editing directly the Power Query formula. Most of the filters you set this way are passed on to Business Central through query folding. See [Incremental refresh for datasets](/power-bi/admin/service-premium-incremental-refresh).
 
-There's currently no way of setting a filter for the web service data from within Business Central. If your application needs to set a filter from within Business Central, you'll have to create a custom Business Central App for this purpose.
+There's currently no way of setting a filter for the web service data from within Business Central. If your application needs to set a filter from within Business Central, you must create a custom Business Central App for this purpose.
 
 <!-- 10 -->
 ### From Power BI, besides using a query, is there another way to get data from Business Central tables that don't have an associated page? For example, like the *Item Attributes Value Mapping* table.
@@ -137,20 +136,20 @@ When it comes to web services, published queries are usually faster than equival
 Web services are based on pages or queries that are built for access from the web and usually not optimized for access from external services. Even though the Business Central connector still supports getting data from web services, we encourage you to use API pages instead of web services whenever possible.
 
 <!-- 13 --> 
-### Is there a way for an end user to create a web service with a column that's in a Business Central table, but not a page? Or will the developer have to create a custom query? 
+### Is there a way for an end user to create a web service with a column that's in a Business Central table, but not a page? Or does the developer have to create a custom query? 
 
-There is currently no way of adding a new field to a web service. API pages offer full flexibility on the page structure, so a developer can create a new API page to meet this requirement. 
+There's currently no way of adding a new field to a web service. API pages offer full flexibility on the page structure, so a developer can create a new API page to meet this requirement. 
 
 <!-- 28 --> 
-### Can I connect Power BI to a read-only database server of Business Central online? 
+### Can I connect Power BI to a read-only database server of [!INCLUDE [prod_short](includes/prod_short.md)] online? 
 
-This functionality will be available soon. Starting in February 2022, new reports you create based on Business Central online data will automatically try to connect to a read-only database replica. This will cause your reports to refresh faster, and will have less impact on performances if you're using Business Central while a report is refreshing. We still recommend, whenever possible, that you schedule your reports to refresh outside of normal working hours.
+By default, the Power BI connector reads data from a read-only replica of the Business Central database, which is the case for all reports created after February 2022. This behavior causes your reports to refresh faster and has less impact on performance if you're using Business Central while a report is refreshing. We still recommend that you schedule your reports to refresh outside of normal working hours whenever possible.
 
-If you have old reports based on Business Central data, they won't connect to the read-only database replica.
+If you have old reports based on Business Central data, they don't connect to the read-only database replica. In this case, consider recreating the query inside Power BI so that it uses the latest defaults.
 
-### <a name="databasemods"></a>I've tried the preview of the new connector for the February 2022 update. When I connect to my custom Business Central API page, I get the error "Cannot insert a record. Current connection intent is Read-Only.". How can I fix it?
+### <a name="databasemods"></a>When I use the Power BI connector to connect to my custom [!INCLUDE [prod_short](includes/prod_short.md)] API page, I get the error "Cannot insert a record. Current connection intent is Read-Only.". How can I fix it?
 
-With the new connector, new reports that use Business Central data will connect to a read-only replica of the Business Central database by default. This change will bring a performance improvement. However, in rare cases, it might cause the error. This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
+Reports that use Business Central data connect to a read-only replica of the Business Central database by default. In rare cases, this behavior might cause the error "Current connection intent is Read-Only". This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
 
 To fix this issue by forcing the Business Central connector to allow this behavior, see [Building Power BI Reports to Display Business Central Data - Fixing Problems](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
@@ -208,7 +207,7 @@ No. Not at this point. You can only communicate with Business Central through AP
 <!-- 19 -->
 ### Loading data from Business Central web services seems slow. Is there any way to get data directly from the SQL database table?
 
-No. Direct access to the database isn't possible, but switching to API pages (when the new connector available) will help greatly.
+No. Direct access to the database isn't possible, but switching to API pages helps greatly.
 
 ## [Advanced](#tab/advanced)
 <!-- 1 -->
@@ -223,20 +222,20 @@ Yes. It's on our roadmap.
 
 Yes. In this case, you use Power BI Desktop locally and connect to the Business Central on-premises. Once connected, can create and view reports, but you just can't publish them to the Power BI Service. 
 <!-- 20 -->
-### Are there any plans to make it possible to replicate Business Central online databases so they're accessible for read-only SQL queries? This capability would support incremental refresh and be a lot faster than API's or web services.
+### Are there any plans to make it possible to replicate Business Central online databases so they're accessible for read-only SQL queries? This capability would support incremental refresh and be a lot faster than APIs or web services.
 
 <!-- todo: what does "BC-Saas-DB-replicated DB accessible" mean? fixe-->
 Yes. We have this feature on our long-term roadmap. 
 
 <!-- 21 -->
-### If I use Azure Data Factory to get data from Business Central and consume it on Power BI, will that help in increase in performance? 
+### If I use Azure Data Factory to get data from Business Central and consume it on Power BI, does that help in increase in performance? 
 
-Yes. This advanced scenario will help Business Central stay performant, because the data access would be done via the Azure Data Factory.
+Yes. This advanced scenario helps Business Central stay performant, because the data access would be done via the Azure Data Factory.
 
 <!-- 22 -->
 ### Are there any plans to support Power BI deployment pipelines or a way to build deployment pipelines for PBI reports, similar to extensions? Or maybe even a simple API in the Business Admin Center? 
 
-We're looking into this feature. Power BI offers rich APIs to control report deployments. For more information, see [Introduction to deployment pipelines](/power-bi/create-reports/deployment-pipelines-overview).
+We're looking into this feature. Power BI offers rich APIs to control report deployments. Learn more at [Introduction to deployment pipelines](/power-bi/create-reports/deployment-pipelines-overview).
 
 ### When I get data from Business Central to use in my Power BI reports, I see some values like "_x0020_". What are these values?
 
@@ -252,6 +251,5 @@ Some API pages, including most API v2.0 pages, have fields based on [AL Enum obj
 [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)  
 [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI documentation](/power-bi/)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

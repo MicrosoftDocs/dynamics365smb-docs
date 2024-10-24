@@ -24,11 +24,10 @@ The following topics describe local functionality that is unique to the Swedish 
     * [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)  **Available Now**
     * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now; marked for deprecate**  
     * [SIE export/import as a part of the Audit file export app](how-to-use-sie-audit-files-export.md) **Available Now**
-    * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
+    * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**
+    * Large companies to report payment times **Available Now**
 
 ## Future legislation requirements being investigated
-
-* Large companies to report payment times app **planned for 22.4**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

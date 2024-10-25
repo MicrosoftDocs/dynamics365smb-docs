@@ -1,6 +1,6 @@
 ---
 title: Resources for help and support
-description: Learn how to get help and support for Business Central, including chat with Copilot, in-product tips, Help pane, Help & Support page, product documentation, and community forums.
+description: Learn how to get help and support for Business Central. Including chat with Copilot, in-product tips, Help pane, Help & Support page, product documentation, and community forums.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -57,7 +57,7 @@ The following list describes how you can access the Help pane and whether cards 
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
+Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to undock the browser tab so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
 
 > [!NOTE]
 > In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the [Dynamics 365 Business Central documentation](/dynamics365/business-central) on Microsoft Learn.
@@ -157,7 +157,10 @@ For more information, see [Escalating support issues to Microsoft](/dynamics365/
 
 ### Support contacts
 
-The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you're the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
+The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team, like: Do you need technical support? Contact support at jswymer@microsoft.com or https://learn.microsoft. 
+
+> [!NOTE]
+> If support contact deatils aren't present, it means that your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner  hasn't provided the information. As a reslling partner, you set up the preferred support contact details in the admin center. Learn more in [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Microsoft Entra tenant from the **Troubleshooting** section and any other information that you find relevant.  
 

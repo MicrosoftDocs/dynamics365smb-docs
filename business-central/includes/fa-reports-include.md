@@ -1,13 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 10/24/2024
+ms.author: kepontop
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-
-
 
 The following table describes some of the key reports in fixed assets management.
 

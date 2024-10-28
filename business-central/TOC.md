@@ -853,7 +853,13 @@ ms.service: dynamics-365-business-central
 
 ## Manufacturing
 ### [Manufacturing overview](production-manage-manufacturing.md)
-### [Production reports](production-reports.md)
+### Built-in production reports
+#### [Production report overview](production-reports.md)
+
+<!-- 
+##### [Customer List](reports/report-101.md)
+ -->
+
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
 ### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)

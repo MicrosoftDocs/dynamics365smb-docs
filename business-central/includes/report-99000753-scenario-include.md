@@ -1,0 +1,1 @@
+Get an in-depth analysis of the Bill of Materials (BOM) for selected manufacturing items. Offers a clear hierarchy of components. Subcomponents are indented against their respective parent items.

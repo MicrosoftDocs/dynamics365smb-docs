@@ -1,0 +1,1 @@
+Get an overview of where and in what quantities items are used in the product structure of an item.

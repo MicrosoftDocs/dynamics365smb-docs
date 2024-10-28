@@ -9,6 +9,50 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in production reporting.
 
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|------------| ------------|----|
+| [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=101) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |
+<!-- pending merge of Assembly PR
+| [!INCLUDE [report-5871-scenario](../includes/report-5871-scenario-include.md)] | [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871) | [About Item - Able to Make (Time)](../reports/report-5871.md) | 5871 |
+| [!INCLUDE [report-5872-scenario](../includes/report-5872-scenario-include.md)] | [BOM Cost Share Distribution](https://businesscentral.dynamics.com?report=5872) | [About BOM Cost Share Distribution](../reports/report-5872.md) | 5872 |
+ -->
+| [!INCLUDE [report-99000756-scenario](../includes/report-99000756-scenario-include.md)] | [Detailed Calculation](https://businesscentral.dynamics.com?report=99000756) | [About *Detailed Calculation*](../reports/report-99000756.md) | 99000756 |
+| [!INCLUDE [report-99000757-scenario](../includes/report-99000757-scenario-include.md)] | [Where-Used (Top Level)](https://businesscentral.dynamics.com?report=99000757) | [About *Where-Used (Top Level)*](../reports/report-99000757.md) | 99000757 |
+| [!INCLUDE [report-99000758-scenario](../includes/report-99000758-scenario-include.md)] | [Item BOM Compare list](https://businesscentral.dynamics.com?report=99000758) | [About *Item BOM Compare list*](../reports/report-99000758.md) | 99000758 |
+| [!INCLUDE [report-99000762-scenario](../includes/report-99000762-scenario-include.md)] | [Prod. Order - Job Card](https://businesscentral.dynamics.com?report=99000762) | [About *Prod. Order - Job Card*](../reports/report-99000762.md) | 99000762 |
+| [!INCLUDE [report-99000767-scenario](../includes/report-99000767-scenario-include.md)] | [Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order - Calculation*](../reports/report-99000767.md) | 99000767 |
+| [!INCLUDE [report-99000780-scenario](../includes/report-99000780-scenario-include.md)] | [Capacity Task list](https://businesscentral.dynamics.com?report=99000780) | [About *Capacity Task list*](../reports/report-99000780.md) | 99000780 |
+| [!INCLUDE [report-99000783-scenario](../includes/report-99000783-scenario-include.md)] | [Work Center Load](https://businesscentral.dynamics.com?report=99000783) | [About *Work Center Load*](../reports/report-99000783.md) | 99000783 |
+| [!INCLUDE [report-99000784-scenario](../includes/report-99000784-scenario-include.md)] | [Machine Center Load](https://businesscentral.dynamics.com?report=99000784) | [About *Machine Center Load*](../reports/report-99000784.md) | 99000784 |
+| [!INCLUDE [report-99000788-scenario](../includes/report-99000788-scenario-include.md)] | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order Shortage list*](../reports/report-99000788.md) | 99000788 |
+| [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
+
+
+<!-- 
+Format each line in the data below like this:
+
+$$$$$ [Quantity Explosion of BOM$$reports/report-99000753.md)
+
+## Data
+Report	Id
+Quantity Explosion of BOM	99000753
+Item - Able to Make (Time)	5871
+BOM Cost Share Distribution	5872
+Detailed Calculation	99000756
+Where-Used (Top Level)	99000757
+Item BOM Compare list	99000758
+Production Order Statistics	99000791
+Capacity Task list	99000780
+Work Center Load	99000783
+Machine Center Load	99000784
+Prod. Order Shortage list	99000788
+Prod. Order - Calculation 99000767 
+
+-->
+
+
+## The old way
+
 | Report | Description | Id | 
 |---------|---------|---------|
 | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=99000753)|Shows an indented BOM listing for the item or items that you specify in the filters. The production BOM is completely exploded for all levels.|99000753|
@@ -23,3 +67,4 @@ The following table describes some of the key reports in production reporting.
 | [Machine Center Load](https://businesscentral.dynamics.com?report=99000784)|Shows a list for the load on a machine center. The load on a machine center is the sum of the required number of times that all the planned and actual orders are run on the work center in a specified period.|99000784|
 | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788)|This report can be used to see all components that are not available because of missing stock. So, this overview can be used to see in time, if the timeline for a planned or released production order if the planned time can be kept.|99000788|
 |[Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000767)|Shows a list of the production orders and their costs. It includes expected operation costs, expected component costs, and total costs.|99000767|
+

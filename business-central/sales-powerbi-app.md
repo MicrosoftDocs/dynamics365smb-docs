@@ -80,7 +80,7 @@ Using the [Daily Sales](sales-powerbi-daily-sales.md) report, you can monitor th
 
 ## Sales analytics for daily sales work
 
-For people working with sales on a daily basis, the focus is on handling day-to-day sales tasks with greater accuracy and efficiency. TODO
+For people working with sales on a daily basis, the focus is on handling day-to-day sales tasks with greater accuracy and efficiency. 
 
 To fit this category, you might have a job title such as 
 - Account Manager
@@ -121,9 +121,6 @@ The following table describes the different Power BI reports in the sales app an
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## TODO
-
-Placeholder section until we find the direct links
 
 ## See also
 

@@ -9,6 +9,20 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in assembly reporting.
 
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|--------------------------------------------------------------| -----------|----|
+| [!INCLUDE[report-801-scenario](../includes/report-801-scenario-include.md)] | [Assembly BOMs](https://businesscentral.dynamics.com?report=801) | [About Assembly BOMs](../reports/report-801.md) | 801 |
+| [!INCLUDE[report-5871-scenario](../includes/report-5871-scenario-include.md)] | [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871) | [About Item - Able to Make (Time)](../reports/report-5871.md) | 5871 |
+| [!INCLUDE[report-5872-scenario](../includes/report-5872-scenario-include.md)] | [BOM Cost Share Distribution](https://businesscentral.dynamics.com?report=5872) | [About BOM Cost Share Distribution](../reports/report-5872.md) | 5872 |
+| [!INCLUDE[report-809-scenario](../includes/report-809-scenario-include.md)] | [Where-used list](https://businesscentral.dynamics.com?report=809) | [About Where-used list](../reports/report-809.md) | 809 |
+| [!INCLUDE[report-810-scenario](../includes/report-810-scenario-include.md)] | [BOM - Raw Materials](https://businesscentral.dynamics.com?report=810) | [About BOM - Raw Materials](../reports/report-810.md) | 810 |
+| [!INCLUDE[report-811-scenario](../includes/report-811-scenario-include.md)] | [BOM - Sub-Assemblies](https://businesscentral.dynamics.com?report=811) | [About BOM - Sub-Assemblies](../reports/report-811.md) | 811 |
+| [!INCLUDE[report-812-scenario](../includes/report-812-scenario-include.md)] | [Assembly BOM - End Items](https://businesscentral.dynamics.com?report=812) | [About Assembly BOM - End Items](../reports/report-812.md) | 812 |
+| [!INCLUDE[report-915-scenario](../includes/report-915-scenario-include.md)] | [Assemble to order - Sales](https://businesscentral.dynamics.com?report=915) | [About Assemble to order - Sales](../reports/report-915.md) | 915 |
+
+
+## The old way
+
 | Report | Description | Id | 
 |---------|---------|---------|
 | [Assembly BOMs](https://businesscentral.dynamics.com?report=801)|Displays a list of BOMs: name, BOM number, BOM components, and any other BOMs that are part of the BOM. The BOM components are defined in the BOM Component table. You will see here also the unit of measure and the needed quantity of each component per base unit of measure. |801|

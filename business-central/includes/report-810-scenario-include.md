@@ -1,0 +1,1 @@
+Get an overview about the needed components for an items bill of material (BOM), both for assembly and for production.

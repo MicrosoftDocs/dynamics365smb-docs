@@ -1,6 +1,6 @@
 ---
-title: Parameters for setting the E-Documents connector with external endpoints
-description: This article explains how to set up E-Documents with specific external endpoints.
+title: Connect E-Documents to external access points
+description: Learn how to set up E-Documents in Business Central to send and receive electronic documents with different external access points.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Set up the connection
+# Connect E-Documents to external access points
 
 [!INCLUDE [e-documents connectors](includes/edocuments-connectors-include.md)]
 
-You can use E-Documents in Business Central to send and receive electronic documents with your business partners. To do this, you need to connect E-Documents to an external access point that handles the communication and validation of the documents. 
+You can use E-Documents in Business Central to send and receive electronic documents with your business partners. To receive documents, you need to connect E-Documents to an external access point that handles the communication and validation of the documents. 
 
  > [!NOTE]
  > These connections require communication with external service providers who might be subject to additional payment and require contracts with them. To obtain all the necessary credentials, contact the service providers.
@@ -57,7 +57,7 @@ The steps to connect E-Documents to an external access point depend on the type 
 
 ## Available service providers
 
-At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero and Avalara access points for e-documents, but more access points are in the process of development. This page will be updated with the parameters for new connectors when they're ready. You can also find more connectors on AppSource.
+At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero and Avalara access points for e-documents, but more access points are in the process of development. This page is updated with the parameters for new connectors when they're ready. You can also find more connectors on AppSource.
 
 > [!NOTE]
 > This page doesn't show how to connect with the local service providers. If [!INCLUDE[prod_short](includes/prod_short.md)] support some of them, it will be explained in the country-specific documentation.  

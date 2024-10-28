@@ -42,7 +42,7 @@ The steps to connect E-Documents to an external access point depend on the type 
     | Company ID | Specify the company ID. |
     | Send Mode | Specify the send mode. You can select **Production**, **Test**, or **Certification**. |
 
-6. Continue with the [non-service provider setup steps](finance-how-setup-edocuments-external.md).  
+6. Continue with the [nonservice provider setup steps](finance-how-setup-edocuments-external.md).  
 
 ## Avalara service
 

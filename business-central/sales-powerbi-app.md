@@ -38,7 +38,7 @@ To fit this category, you might have a role such as
 ### Example scenario: preparing for an upcoming board meeting #### 
 As a user, imagine you are the CEO of a company, you are preparing for an upcoming board meeting. You need to present an analysis of your company's sales performance for the current fiscal year. To better understand the company's current position, you can use the Power BI Sales report.
 
-You first begin by reviewing the [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) report which provides a quick comparitive view of the current year versus the previous year. You see that sales are up by 35%, outlined by the [Period-over-Period Growth %](sales-powerbi-sales-kpi.md#period-over-period-growth) metric. 
+You first begin by reviewing the [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) report which provides a quick comparitive view of the current year versus the previous year. You see that sales are up by 35%, outlined by the [Period-over-Period Growth %](sales-powerbi-sales-kpis.md#period-over-period-growth) metric. 
 
 :::image type="content" source="media/powerbi/sales/sales-period-over-period-fiscal-year.png" alt-text="Screenshot of the Sales Period-Over-Period Power BI report" lightbox="media/powerbi/sales/sales-period-over-period-fiscal-year.png":::
 

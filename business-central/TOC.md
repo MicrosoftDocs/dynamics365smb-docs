@@ -836,8 +836,6 @@ ms.service: dynamics-365-business-central
 ### [Assemble items](assembly-assemble-items.md)
 ### Built-in assembly reports
 #### [Assembly report overview](assembly-reports.md)
-
-<!-- 
 #### [Assembly BOMs](reports/report-801.md)
 #### [Item - Able to Make (Time)](reports/report-5871.md)
 #### [BOM Cost Share Distribution](reports/report-5872.md)
@@ -846,7 +844,6 @@ ms.service: dynamics-365-business-central
 #### [BOM - Sub-Assemblies](reports/report-811.md)
 #### [Assembly BOM - End Items](reports/report-812.md)
 #### [Assemble to order - Sales](reports/report-915.md)
--->
 
 ### [Understand assemble-to-order and assemble-to-stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an assemble-to-order sale](assembly-how-to-quote-an-assemble-to-order-sale.md)

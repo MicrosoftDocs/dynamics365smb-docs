@@ -29,30 +29,7 @@ The following table describes some of the key reports in production reporting.
 | [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
 
 
-<!-- 
-Format each line in the data below like this:
-
-$$$$$ [Quantity Explosion of BOM$$reports/report-99000753.md)
-
-## Data
-Report	Id
-Quantity Explosion of BOM	99000753
-Item - Able to Make (Time)	5871
-BOM Cost Share Distribution	5872
-Detailed Calculation	99000756
-Where-Used (Top Level)	99000757
-Item BOM Compare list	99000758
-Production Order Statistics	99000791
-Capacity Task list	99000780
-Work Center Load	99000783
-Machine Center Load	99000784
-Prod. Order Shortage list	99000788
-Prod. Order - Calculation 99000767 
-
--->
-
-
-## The old way
+<!-- remove after 2025-01-01
 
 | Report | Description | Id | 
 |---------|---------|---------|
@@ -68,4 +45,4 @@ Prod. Order - Calculation 99000767
 | [Machine Center Load](https://businesscentral.dynamics.com?report=99000784)|Shows a list for the load on a machine center. The load on a machine center is the sum of the required number of times that all the planned and actual orders are run on the work center in a specified period.|99000784|
 | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788)|This report can be used to see all components that are not available because of missing stock. So, this overview can be used to see in time, if the timeline for a planned or released production order if the planned time can be kept.|99000788|
 |[Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000767)|Shows a list of the production orders and their costs. It includes expected operation costs, expected component costs, and total costs.|99000767|
-
+ -->

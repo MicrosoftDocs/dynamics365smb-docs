@@ -14,9 +14,9 @@ ms.reviewer: solsen
 
 # How to use banking and payment formats in Business Central
 
-Banking and payment formats can change over time and vary by country and bank. To help you connect to your bank and handle transactions in  [!INCLUDE[prod_short](includes/prod_short.md)] Microsoft works with partners who provide apps that support different formats and integrations. 
+Banking and payment formats can change over time and vary by country/region and bank. To help you connect to your bank and handle transactions in [!INCLUDE[prod_short](includes/prod_short.md)], Microsoft works with partners who provide apps that support different formats and integrations. 
 
-In some countries, Microsoft also provides built-in imports and export options. However, these options aren't adapted to newer versions of the formats, unless the banks requires it. Also, there will be no development of new banking and payment-related formats. This affects the country localizations of [!INCLUDE[prod_short](includes/prod_short.md)] that Microsoft releases. For a list of local versions, see [list of localizations here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). 
+In some countries/regions, Microsoft also provides built-in imports and export options. However, these options aren't adapted to newer versions of the formats, unless the bank requires it. Also, there will be no development of new banking and payment-related formats. This affects the country/region localizations of [!INCLUDE[prod_short](includes/prod_short.md)] that Microsoft releases. For a list of local versions, see [list of localizations here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). 
 
 ## Frequently Asked Questions about supported banking and payment formats
 
@@ -24,7 +24,7 @@ In some countries, Microsoft also provides built-in imports and export options. 
 
 No, there are no plans to remove the current formats and import/export options. You can still use them, and partners, and customers can still build integrations for them.  
 
-### How can I find banking and payment apps for my country?
+### How can I find banking and payment apps for my country/region?
 
 You can find ISV banking solutions that support banking and/or payment-related functionality on the **Banking Apps** page or on [AppSource](https://appsource.microsoft.com/)
 
@@ -35,7 +35,7 @@ Make sure to check the features of each app to see if they match your business n
 
 ### Is there no plan to support banking connectivity in [!INCLUDE[prod_short](includes/prod_short.md)] in the future?  
 
-Yes, Microsoft wants to enable you to connect to your bank and perform fundamental tasks in a modern and secure manner. That's why Microsoft supports partners who create apps for this purpose. 
+Yes, Microsoft wants to enable you to connect to your bank and perform fundamental tasks in a modern and secure manner. This is why Microsoft supports partners who create apps for this purpose. 
 
 ## See also
 

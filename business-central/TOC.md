@@ -855,10 +855,21 @@ ms.service: dynamics-365-business-central
 ### [Manufacturing overview](production-manage-manufacturing.md)
 ### Built-in production reports
 #### [Production report overview](production-reports.md)
-
 <!-- 
-##### [Customer List](reports/report-101.md)
- -->
+pending merge of Assembly PR
+##### [Item - Able to Make (Time)](reports/report-5871.md)
+##### [BOM Cost Share Distribution](reports/report-5872.md) 
+-->
+##### [Quantity Explosion of BOM](reports/report-99000753.md)
+##### [Detailed Calculation](reports/report-99000756.md)
+##### [Where-Used (Top Level)](reports/report-99000757.md)
+##### [Item BOM Compare list](reports/report-99000758.md)
+##### [Prod. Order - Calculation](reports/report-99000767.md)
+##### [Capacity Task list](reports/report-99000780.md)
+##### [Work Center Load](reports/report-99000783.md)
+##### [Machine Center Load](reports/report-99000784.md)
+##### [Prod. Order Shortage list](reports/report-99000788.md)
+##### [Production Order Statistics](reports/report-99000791.md)
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)

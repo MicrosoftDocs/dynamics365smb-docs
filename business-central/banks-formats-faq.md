@@ -1,6 +1,6 @@
 ---
-title: Banking formats
-description: Frequently Asked Questions about Supported Banking and Payment Formats.
+title: How to use banking and payment formats in Business Central
+description: Learn how to find and use banking and payment formats that suit your needs and comply with your country and bank requirements in Business Central.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -12,39 +12,38 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Frequently Asked Questions about supported banking and payment formats 
+# How to use banking and payment formats in Business Central
 
-Banking and payment formats are often subject to changes, vary from country to country, and differ from bank to bank. For [!INCLUDE[prod_short](includes/prod_short.md)] to handle more than thousands of bank formats globally, Microsoft ensures that partners can easily deliver the needed integrations and updates.  
+Banking and payment formats can change over time and vary by country and bank. To help you connect to your bank and handle transactions in  [!INCLUDE[prod_short](includes/prod_short.md)] Microsoft works with partners who provide apps that support different formats and integrations. 
 
-In some countries, Microsoft delivers built-in imports and exports. These imports and exports won't be adapted to newer versions of the formats, unless they're published or required by banks, and there will be no development of new banking and payment-related formats. This will impact the country localizations of [!INCLUDE[prod_short](includes/prod_short.md)] released by Microsoft. See the [list of localizations here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). 
+In some countries, Microsoft also provides built-in imports and export options. However, these options aren't adapted to newer versions of the formats, unless the banks requires it. Also, there will be no development of new banking and payment-related formats. This affects the country localizations of [!INCLUDE[prod_short](includes/prod_short.md)] that Microsoft releases. For a list of local versions, see [list of localizations here](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). 
 
-## FAQ
+## Frequently Asked Questions about supported banking and payment formats
 
 ### Will [!INCLUDE[prod_short](includes/prod_short.md)] discontinue these import/export options and the current formats?  
 
-There are no plans to deprecate and remove the current formats and import/export options. You can still use them, partners, and customers can still build integrations for them.  
+No, there are no plans to remove the current formats and import/export options. You can still use them, and partners, and customers can still build integrations for them.  
 
-### Which banking and payment apps are available in my country?
+### How can I find banking and payment apps for my country?
 
-You can find ISV banking solutions that support banking and/or payment-related functionality in some form in product on the **Banking Apps** page or using the [AppSource](https://appsource.microsoft.com/)
+You can find ISV banking solutions that support banking and/or payment-related functionality on the **Banking Apps** page or on [AppSource](https://appsource.microsoft.com/)
 
-Make sure to investigate the features that individual app supports to evaluate if they meet the requirements of your business and your bank. 
+Make sure to check the features of each app to see if they match your business needs and your bank requirements. 
 
 > [!NOTE]
-> There's one current exception. The Envestnet Yodlee Bank Feeds and AMC Banking 365 Fundamentals apps aren't impacted and still supported. 
+> There's one exception. The Envestnet Yodlee Bank Feeds and AMC Banking 365 Fundamentals apps aren't impacted and still supported. 
 
 ### Is there no plan to support banking connectivity in [!INCLUDE[prod_short](includes/prod_short.md)] in the future?  
 
-Microsoft ensures that businesses can connect to their banks and perform fundamental tasks in a modern and secure manner, and supports partners in building apps for this purpose. 
-
+Yes, Microsoft wants to enable you to connect to your bank and perform fundamental tasks in a modern and secure manner. That's why Microsoft supports partners who create apps for this purpose. 
 
 ## See also
 
-[Reconciling Bank Accounts](bank-manage-bank-accounts.md)    
-[Make payments with the AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
-[Collect payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+- [Reconciling Bank Accounts](bank-manage-bank-accounts.md)    
+- [Make payments with the AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+- [Collect payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+- [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)  
+- [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

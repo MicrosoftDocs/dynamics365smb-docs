@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # BOM - Raw Materials (report)
 
-The *BOM - Raw Materials* report shows the needed components for an items bill of material (BOM), both for assembly and for production.
+The **BOM - Raw Materials** report shows the components in an items bill of materials (BOM), for both assembly and production.
 
-You can see the inventory, base unit of measure, the main vendor if the vendor no. is written in the item card itself, and the lead time calculation.
+You can explore inventory levels, the base unit of measure, the main vendor if one is specified for the item, and the lead time calculation.
 
 ## Use cases
 
@@ -57,16 +57,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [BOM - Raw Materials](https://businesscentral.dynamics.com?report=810)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Assembly report overview](../assembly-reports.md)   
+[Assembly report overview](../assembly-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

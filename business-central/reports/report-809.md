@@ -17,13 +17,7 @@ ai.usage: ai-assisted
 
 # Where-used list (report)
 
-The *Where-used list* report shows a list of the bill of materials (BOMs) that the selected items are components of. 
-
-A helpful overview in case you must change a component in a BOM that is inserted in an assembly item. For example, if your vendor can no longer deliver a specific item that you used for your assembly/production. 
-
-In such scenarios, this report provides you with an easy overview of which BOMs the component is included in. 
-
-You can set a filter for the number of the component.
+The **Where-used list** report shows a list of the bills of materials (BOMs) that the selected items are components of. You can set a filter to find the component you want to analyze.
 
 ## Use cases
 
@@ -61,16 +55,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Where-used list](https://businesscentral.dynamics.com?report=809)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Assembly report overview](../assembly-reports.md)   
+[Assembly report overview](../assembly-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

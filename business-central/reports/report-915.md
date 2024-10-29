@@ -1,6 +1,6 @@
 ---
 title: About Assemble to order - Sales (report)
-description: Analyze the quantity, cost, sales, and profit figures of assembly components to support your decisions, such as whether to price a kit differently or to stop or start using a particular item in assemblies.
+description: Analyze the quantity, cost, sales, and profit figures of assembly components. Analyses can support decisions such as whether to price a kit differently, or to stop or start using a particular item in assemblies.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,15 +17,16 @@ ai.usage: ai-assisted
 
 # About Assemble to order - Sales (report)
 
-The *About Assemble to order - Sales* report shows key sales figures for assembly component items that can be sold both as part of an assembly in assemble-to-order sales and as a separate item directly from inventory.
+The **About Assemble to order - Sales** report shows key sales figures for assembly component items that you sell both as parts of assemblies in assemble-to-order sales and as separate items directly from inventory.
 
-The **In Assembly** row shows sales figures for the total quantity that is sold as part of an assembly item. The specific assembly item sales that sum up to this total are shown if you select the **Show Assembly Details** field.
+The **In Assembly** row shows sales figures for the total quantity that is sold as part of an assembly item. The report shows the specific assembly item sales that sum up to this total if you select the **Show Assembly Details** field.
 
-The focus is on the assembly components, but the figures are calculated from the profit margin of their parent, the assembly item. Accordingly, the sales amount of each component is calculated from its own cost and the profit margin of its parent in the following formula.
+The focus is on the assembly components, but the figures are calculated from the profit margin of the assembly item. Accordingly, the sales amount of each component is calculated from its own cost and the profit margin of its parent.
 
 The report shows information for items that meet one or both of the following criteria:
-- Exist in the assembly BOM of an item that uses the Assemble-to-Order assembly policy.
-- Has been sold as part of assemble-to-order sale.
+
+- They exist in the assembly BOM of an item that uses the assemble-to-order assembly policy.
+- They were sold as part of an assemble-to-order sale.
 
 ## Use cases
 
@@ -67,16 +68,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [About Assemble to order - Sales](https://businesscentral.dynamics.com?report=915)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Assembly report overview](../assembly-reports.md)   
+[Assembly report overview](../assembly-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

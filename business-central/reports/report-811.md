@@ -1,6 +1,6 @@
 ---
-title: About BOM - Sub-Assemblies (report)
-description: Get an overview about the needed components for a sub-assembly bill of material (BOM), both for assembly and for production.
+title: About the BOM - Sub-Assemblies (report)
+description: Get an overview of the components in a subassembly bill of materials, for both assembly and production.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # About BOM - Sub-Assemblies (report)
 
-The *About BOM - Sub-Assemblies* report shows an overview about components (if you produce and/or assemble sub-assemblies).
+The **About BOM - Sub-Assemblies** report shows an overview of components, if you produce and/or assemble subassemblies.
 
-The report shows you the base unit of measure, the inventory, unit costs, and an alternative item number.
+The report shows the base unit of measure, the inventory, unit costs, and an item that you can use as an alternative.
 
 ## Use cases
 
@@ -57,16 +57,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [About BOM - Sub-Assemblies](https://businesscentral.dynamics.com?report=811)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Assembly report overview](../assembly-reports.md)   
+[Assembly report overview](../assembly-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

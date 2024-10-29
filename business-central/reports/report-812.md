@@ -17,9 +17,10 @@ ai.usage: ai-assisted
 
 # Assembly BOM - End Items (report)
 
-The *Assembly BOM - End Items* report shows a list of items or bill of materials (BOMs) that are not components of any other BOMs. 
+The **Assembly BOM - End Items** report shows a list of items or bills of materials (BOMs) that aren't components in other BOMs.
 
-**Note**: This report is not restricted to BOM only, so remember to set filter in the **Assembly BOM** field or the **Replenishment System** fields.
+> [!NOTE]
+> This report isn't restricted to BOMs only, so remember to set a filter in the **Assembly BOM** or **Replenishment System** fields.
 
 ## Use cases
 
@@ -57,16 +58,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Assembly BOM - End Items](https://businesscentral.dynamics.com?report=812)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Assembly report overview](../assembly-reports.md)   
+[Assembly report overview](../assembly-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

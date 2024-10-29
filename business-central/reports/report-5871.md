@@ -17,14 +17,13 @@ ai.usage: ai-assisted
 
 # Item - Able to Make (Time) (report)
 
-The *Item - Able to Make (Time)* report tracks the availability of Bill of Material (BOM) items over time, based on five key figures that adjust according to supply and demand, as well as the availability of components for assembly or production. 
+The **Item - Able to Make (Time)** report tracks the availability of bill of materials (BOM) items over time, based on five key figures that adjust according to supply and demand, and the availability of components for assembly or production.
 
-Use this report to determine if a sales order can be fulfilled by a certain date. The report looks at your current inventory and the amount you can produce from available parts.
+Use this report to determine whether you can fulfill a sales order by a certain date. The report looks at your current inventory and the amount you can produce from available parts.
 
-The data is displayed in a graph, showing the total quantity you can produce at any given time, based on these changing figures.
+The data displays in a graph that shows the total quantity you can produce at any given time.
 
-This report uses the same calculation engine as the **Item Availability by BOM Level Window** to determine the availability figures for BOM items.
-
+This report uses the same calculation engine as the **Item Availability by BOM Level** page to determine availability for BOM items.
 
 ## Use cases
 
@@ -68,16 +67,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Assembly report overview](../assembly-reports.md)   
+[Assembly report overview](../assembly-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

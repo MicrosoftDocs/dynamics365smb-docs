@@ -1,19 +1,24 @@
 ---
 title: Fixed assets reports
-description: See which reports are available in the standard version of Business Central so that you can keep track of your fixed assets.
+description: Explore the standard reports in Business Central that can help you track and manage your fixed assets.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5600_Primary, Report_5601_Primary, Report_5603_Primary, Report_5604_Primary, Report_5605_Primary, Report_5606_Primary, Report_5607_Primary, Report_5608_Primary, Report_5610_Primary
-ms.date: 06/06/2024
+ms.date: 10/29/2024
 ms.service: dynamics-365-business-central
 
 ---
 # Fixed assets reports in Business Central
 
-To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_short.md)], use the standard reports that are built in. 
+When you prepare a balance sheet and income statement, you might have to generate reports to analyze the depreciation, acquisition, disposal, and gain or loss values for an accounting period. You might also need reports that show:
+
+* Accumulated depreciation and book value at the end of a period.
+* List your fixed assets for inventory, insurance, and other management purposes.
+
+This article describes the most used reports for fixed assets.
 
 ## Reports
 

@@ -18,7 +18,7 @@ This article explains how to use the **Data Analysis** feature to analyze invent
 
 Use the following list pages for ad-hoc analysis of inventory processes:
 
-- [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38)
+- [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis)
 
 ## Inventory ad-hoc analysis scenarios
 
@@ -32,17 +32,17 @@ The following sections provide examples of inventory scenarios in [!INCLUDE [pro
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Inventory on-hand](#example-inventory-on-hand) | Get an overview of items that are available in your inventory. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Item No.**, **Remaining Quantity** |
-|[Example: track expiring or old stock](#example-track-expiring-or-old-stock) | Get an overview of items in your inventory that have been on stock for a long time and aren't selling well. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Posting Date**, **Entry type**, **Quantity**, and **Remaining Quantity**. |
-| [Returned items by return reason](#example-returned-items-by-return-reason) | Get an overview of goods that customers return, categorized by the return reason. Use this for analysis for quality control. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Return Reason Code**, **Posting Date Month**, **Quantity** , **Cost Amount**, **Posting Date**, **Document Type**, **Item No.**, and  **Document No.** . |
-| Inventory throughput | Get an overview of purchases and sales in your inventory by month or quarter. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Quantity**, **Sales Amount**, **Cost Amount (Actual)**, and **Posting Date Month** |
-| [Inventory movements] | Get an overview of how goods in your inventory move between locations. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Location Code**, **Quantity**, **Posting Date**, **Item No.** |
+| [Inventory on-hand](#example-inventory-on-hand) | Get an overview of items that are available in your inventory. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) | **Item No.**, **Remaining Quantity** |
+|[Example: track expiring or old stock](#example-track-expiring-or-old-stock) | Get an overview of items in your inventory that have been on stock for a long time and aren't selling well. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Posting Date**, **Entry type**, **Quantity**, and **Remaining Quantity**. |
+| [Returned items by return reason](#example-returned-items-by-return-reason) | Get an overview of goods that customers return, categorized by the return reason. Use this for analysis for quality control. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) | **Return Reason Code**, **Posting Date Month**, **Quantity** , **Cost Amount**, **Posting Date**, **Document Type**, **Item No.**, and  **Document No.** . |
+| Inventory throughput | Get an overview of purchases and sales in your inventory by month or quarter. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Quantity**, **Sales Amount**, **Cost Amount (Actual)**, and **Posting Date Month** |
+| [Inventory movements] | Get an overview of how goods in your inventory move between locations. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) | **Location Code**, **Quantity**, **Posting Date**, **Item No.** |
 
 ## Example: inventory on-hand
 
 To analyze items in your inventory that are in stock, follow these steps:
 
-1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Drag the **Item No.** field to the **Row Groups** area. Drag the fields in that order.
 1. Drag the field **Remaining Quantity** to the **Values** ares.
@@ -58,7 +58,7 @@ The following image shows the result of these steps.
 
 To analyze items in your inventory that have been on stock for a long time and aren't selling well, follow these steps:
 
-1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **Posting Date Year**, **Posting Date Month** and **Item No.** fields to the **Row Groups** area. Drag the fields in that order.
 1. In the **Columns** area, choose the **Posting Date**, **Entry type**, **Quantity**, and **Remaining Quantity** fields.
@@ -85,7 +85,7 @@ To analyze returned items sorted by the reasons for their return, follow these s
 
 ## Example: inventory throughput
 
-1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Posting Date Year**, **Posting Date Month**, and **Item No.** fields to the **Row Groups** area.
@@ -97,7 +97,7 @@ To analyze returned items sorted by the reasons for their return, follow these s
 
 To track inventory movements between locations, follow these steps:
 
-1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **Location Code** field to the **Row Groups** area.
 1. Drag the **Quantity** field to the **Values** area.

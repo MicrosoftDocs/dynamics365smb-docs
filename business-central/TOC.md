@@ -720,11 +720,6 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 
-
-<!-- 
-##### [](reports/report-.md) 
--->
-
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)
@@ -770,7 +765,18 @@ ms.service: dynamics-365-business-central
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-#### [Built-in fixed assets reports](fa-reports.md)
+
+#### Fixed assets reports
+##### [Fixed assets report overview](fa-reports.md)
+##### [Fixed Asset Analysis](reports/report-5600.md)
+##### [Fixed Asset List](reports/report-5601.md)
+##### [Fixed Asset Register](reports/report-5603.md)
+##### [Fixed Asset Details](reports/report-5604.md)
+##### [Fixed Asset Book Value 01](reports/report-5605.md)
+##### [Fixed Asset Book Value 02](reports/report-5606.md)
+##### [Fixed Asset Projected Value](reports/report-5607.md)
+##### [Fixed Asset - Acquisition List](reports/report-5608.md)
+##### [Fixed Asset G/L Analysis](reports/report-5610.md)
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
@@ -839,7 +845,17 @@ ms.service: dynamics-365-business-central
 
 ## Assembly management
 ### [Assemble items](assembly-assemble-items.md)
-### [Assembly reports](assembly-reports.md)
+### Built-in assembly reports
+#### [Assembly report overview](assembly-reports.md)
+#### [Assembly BOMs](reports/report-801.md)
+#### [Item - Able to Make (Time)](reports/report-5871.md)
+#### [BOM Cost Share Distribution](reports/report-5872.md)
+#### [Where-used list](reports/report-809.md)
+#### [BOM - Raw Materials](reports/report-810.md)
+#### [BOM - Sub-Assemblies](reports/report-811.md)
+#### [Assembly BOM - End Items](reports/report-812.md)
+#### [Assemble to order - Sales](reports/report-915.md)
+
 ### [Understand assemble-to-order and assemble-to-stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an assemble-to-order sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble items](assembly-how-to-assemble-items.md)

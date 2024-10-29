@@ -720,7 +720,6 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 
-
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)
@@ -846,7 +845,17 @@ ms.service: dynamics-365-business-central
 
 ## Assembly management
 ### [Assemble items](assembly-assemble-items.md)
-### [Assembly reports](assembly-reports.md)
+### Built-in assembly reports
+#### [Assembly report overview](assembly-reports.md)
+#### [Assembly BOMs](reports/report-801.md)
+#### [Item - Able to Make (Time)](reports/report-5871.md)
+#### [BOM Cost Share Distribution](reports/report-5872.md)
+#### [Where-used list](reports/report-809.md)
+#### [BOM - Raw Materials](reports/report-810.md)
+#### [BOM - Sub-Assemblies](reports/report-811.md)
+#### [Assembly BOM - End Items](reports/report-812.md)
+#### [Assemble to order - Sales](reports/report-915.md)
+
 ### [Understand assemble-to-order and assemble-to-stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an assemble-to-order sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble items](assembly-how-to-assemble-items.md)

@@ -1,1 +1,1 @@
-Analyse your actual costs and variance from expected cost for production orders to make key decisions about your production execution and its impact on costs.
+Analyse your actual costs and variance from expected cost for production orders. The analysis helps you make key decisions about your production and its costs.

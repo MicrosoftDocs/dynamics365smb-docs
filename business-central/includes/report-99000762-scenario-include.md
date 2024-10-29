@@ -1,1 +1,1 @@
-See the details of the components and operations to execute a production order.
+Explore the details of the components and operations needed to complete a production order.

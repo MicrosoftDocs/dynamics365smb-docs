@@ -1,1 +1,1 @@
-Compare similar final products with respect to their costs.
+Compare the costs of similar final products.

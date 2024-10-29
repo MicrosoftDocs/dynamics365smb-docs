@@ -871,11 +871,6 @@ ms.service: dynamics-365-business-central
 ### [Manufacturing overview](production-manage-manufacturing.md)
 ### Built-in production reports
 #### [Production report overview](production-reports.md)
-<!-- 
-pending merge of Assembly PR
-##### [Item - Able to Make (Time)](reports/report-5871.md)
-##### [BOM Cost Share Distribution](reports/report-5872.md) 
--->
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
 ##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)

@@ -1,1 +1,1 @@
-Analyse the manufacturing costs for an item, including Production BOM details, Routing operations, and associated expenses. Scrap costs are accounted for, providing an accurate total cost for producing the item.
+Analyze the manufacturing costs for an item, including production bill of materials details, routing operations, and associated expenses. Scrap costs are accounted for, which gives you an accurate total cost for producing items.

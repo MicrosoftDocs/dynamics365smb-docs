@@ -18,8 +18,8 @@ This article explains how to use the **Data Analysis** feature to analyze fixed 
 
 Use the following list pages to start doing ad-hoc analysis of fixed assets processes:
 
-- [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604)
-- [General Ledger Entries](https://businesscentral.dynamics.com/?page=20)
+- [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis)
+- [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis)
 
 ## Fixed assets ad-hoc analysis scenarios
 
@@ -33,15 +33,15 @@ The following sections provide examples of fixed assets scenarios in [!INCLUDE [
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Fixed Assets (Current value)](#example-fixed-assets-current-value) | Track asset value, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Date**, **FA Posting Type**, and **Amount** |
-| [Asset value changes over time](#example-asset-value-changes-over-time) | Track asset value changes over time. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **FA Posting Type**, **FA Posting Date**, and **Amount** |
-|[Fixed asset depreciations over time](#example-fixed-asset-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
+| [Fixed Assets (Current value)](#example-fixed-assets-current-value) | Track asset value, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis) | **Depreciation Book**, **FA No.**, **FA Posting Date**, **FA Posting Type**, and **Amount** |
+| [Asset value changes over time](#example-asset-value-changes-over-time) | Track asset value changes over time. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis) | **FA Posting Type**, **FA Posting Date**, and **Amount** |
+|[Fixed asset depreciations over time](#example-fixed-asset-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
 
 ### Example: fixed assets current value
 
 To track the value of one or more fixed assets, follow these steps:
 
-1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **Depreciation Book** and **FA No.** fields to the **Row Groups** area.
 1. Choose the **FA Posting Date** and **FA Posting Type** fields.
@@ -56,7 +56,7 @@ The following image shows the result of these steps.
 
 To track asset value changes over time, follow these steps:
 
-1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **FA Posting Type** field to the **Row Groups** area.
@@ -72,7 +72,7 @@ The following image shows the result of these steps.
 
 To track depreciation for one or more fixed assets, follow these steps:
 
-1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Depreciation Book** and **FA No.** fields to the **Row Groups** area.

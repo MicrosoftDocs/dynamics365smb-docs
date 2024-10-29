@@ -1,1 +1,1 @@
-Get a comprehensive listing of all fixed assets owned by an organization at a specific point in time.
+Get a comprehensive list of all fixed assets that an organization owned at a specific point in time.

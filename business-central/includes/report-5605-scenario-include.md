@@ -1,1 +1,1 @@
-Get detailed or summarized information for different groups of assets about acquisition cost, depreciation value and book value.
+Get detailed or summarized information about acquisition cost, depreciation value, and book value for groups of fixed assets.

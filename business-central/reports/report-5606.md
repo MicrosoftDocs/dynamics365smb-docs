@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Book Value 02 (report)
-description: View the movement in valuation of assets over a period time with a breakdown of values under additions and disposals during the period, further grouped under classes/subclasses, if needed.
+description: View the movement in valuation of assets over a period time with a breakdown of values under additions and disposals during the period.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,20 +17,17 @@ ai.usage: ai-assisted
 
 # Fixed Asset Book Value 02 (report)
 
-The *Fixed Asset Book Value 02* report shows the breakdown of fixed asset book value by changes in acquisition, depreciation, and appreciation within the period with a further breakdown by additions and disposals within the period.
+The **Fixed Asset Book Value 02** report shows the breakdown of fixed asset book value by changes in acquisition, depreciation, and appreciation within the period, with a further breakdown by additions and disposals within the period.
 
-To obtain information on Write-downs, Appreciation, Custom 1, and Custom 2 posting types included in the Book Value 02 report, select either the Acquisition Type or the Depreciation Type field in the FA Posting Type Setup window. 
+To include information about Write-downs, Appreciation, Custom 1, and Custom 2 posting types in the report, select either the **Acquisition Type** or the **Depreciation Type* fields on the **FA Posting Type Setup** page.
 
-You can include reclassified entries in the Book Value 02 report.
+You can include reclassified entries in the report.
 
-If you select the **Budget Report** field, the report will calculate the expected depreciation for the period. 
+If you select the **Budget Report** field, the report calculates the expected depreciation for the period.
 
-Enter a *group type* if you want the report to group the fixed assets and show group totals. For example, if you have set up six FA classes, select the *FA Class* option to have group totals printed for each of the six class codes.
+Enter a group type if you want to group the fixed assets and show group totals. For example, if you have six FA classes, select the **FA Class** option to print group totals for each FA class.
 
-There is further breakdown of values under additions and disposals during the period, further grouped under classes/subclasses if needed.
-
-Use this report to describe the changes in fixed assets for a given period when many different changes occur across the grouping of fixed assets.
-
+Use this report to describe the changes in fixed assets for a given period when there are many changes across groups of fixed assets.
 
 ## Fixed Asset Book Value reports
 
@@ -74,21 +71,23 @@ Please include your data sources and URLs
 
 -->
 
-As a fixed asset manager, use the report to:
+Fixed asset managers use the report to:
+
 * Track the value of fixed assets over time and identify trends or patterns in their valuation.
-* Analyze the impact of acquisitions, disposals, and reclassifications on the overall value of fixed assets.
-* Identify any discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
+* Analyze the effect of acquisitions, disposals, and reclassifications on the overall value of fixed assets.
+* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
 
-As a financial analyst, use the report to:
+Financial analysts use the report to:
+
 * Analyze the movement in valuation of fixed assets over time and identify trends or patterns.
-* Calculate the return on investment for fixed assets and assess their overall contribution to the organization's financial performance.
-* Identify any discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
+* Calculate the return on investment for fixed assets and assess their overall contribution to an organization's financial performance.
+* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
 
-As an accountant, use the report to:
-* Reconcile the book value of fixed assets with the general ledger and ensure that they are accurately recorded.
+Accountants use the report to:
+
+* Reconcile the book value of fixed assets with the general ledger and ensure that they're accurate.
 * Identify and correct errors or discrepancies in fixed asset transactions and the depreciation book setup.
-* Track the value of fixed assets over time and assess their overall contribution to the organization's financial performance.
-
+* Track the value of fixed assets over time and assess their overall contribution to an organization's financial performance.
 
 ## Try the report
 
@@ -96,11 +95,10 @@ Try the report here: [Fixed Asset Book Value 02](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)    
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Fixed assets report overview](../fa-reports.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

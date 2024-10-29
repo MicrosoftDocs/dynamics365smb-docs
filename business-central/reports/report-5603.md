@@ -17,16 +17,24 @@ ai.usage: ai-assisted
 
 # Fixed Asset Register (report)
 
-The *Fixed Asset Register* report shows posted fixed asset ledger entries that are sorted and divided by register number. 
+The **Fixed Asset Register** report shows posted fixed asset ledger entries sorted and divided by register numbers.
 
-You can see all the transactions posted for fixed assets with information such as FA posting date, document type and number, depreciation book code, fixed asset number and description, FA posting category and type, posting date, amount, and entry number. 
+You can explore all transactions posted for fixed assets with information such as:
 
-On the request page, you can set a filter for the relevant fixed asset. If you do not set any filters, the report shows the register for all fixed assets.
+* FA posting date
+* Document type and number
+* Depreciation book code
+* Fixed asset number and description
+* FA posting category and type
+* Posting date, amount, and entry number
 
-## About the Fixed Assets register
-[!INCLUDE[prod_short](../includes/prod_short.md)] automatically assigns consecutive entry numbers to all entries that you post to depreciation books. In the FA registers, the entries are sorted in entry number order regardless of FA numbers or depreciation book numbers.
+On the request page, you can set a filter for the relevant fixed asset. If you don't set any filters, the report shows the register for all fixed assets.
 
-A register is created automatically with each posting, either directly from a fixed asset journal or indirectly from purchase invoices or sales invoices. The individual registers are also numbered (one is the first number).
+## About the fixed assets register
+
+[!INCLUDE[prod_short](../includes/prod_short.md)] automatically assigns consecutive entry numbers to all entries that you post to depreciation books. In the FA registers, the entries are sorted by the entry number order, regardless of the FA numbers or depreciation book numbers.
+
+[!INCLUDE [prod_short](../includes/prod_short.md)] creates a register each time you post, either directly from a fixed asset journal or indirectly from purchase invoices or sales invoices. The individual registers are also numbered (one is the first number).
 
 ## Use cases
 
@@ -69,22 +77,24 @@ Please include your data sources and URLs
 
 -->
 
-[!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] Use the report to provide a detailed and organized overview of fixed asset transactions, making it easier to track and manage fixed assets.
+[!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] Use the report to get a detailed and organized overview of fixed asset transactions, making it easier to track and manage fixed assets.
 
-As a financial controller, use the report to:
-* Analyze the fixed asset transactions for the organization and make strategic decisions based on the information provided by the report.
-* Generate a report to share with stakeholders, such as investors or auditors, to provide a comprehensive overview of the organization's fixed asset transactions.
+Controllers use the report to:
 
-As an accountant, use the report to:
-* Reconcile fixed asset transactions with the general ledger and ensure that they are accurately recorded.
+* Analyze fixed asset transactions for an organization and make strategic decisions.
+* Share a comprehensive overview of an organization's fixed asset transactions with stakeholders, such as investors or auditors.
+
+Accountants use the report to:
+
+* Reconcile fixed asset transactions with the general ledger and ensure that they're accurate.
 * Identify and correct errors or discrepancies in fixed asset transactions.
 * Track the value of fixed assets over time by analyzing the depreciation information in the report.
 
-As an auditor, use the report to:
-* Verify the existence of fixed assets listed on the report by physically inspecting them.
-* Review the fixed asset transactions to ensure that they are accurately recorded and compliant with relevant accounting standards.
-* Prepare reports and other documentation related to fixed asset transactions for audits and regulatory inspections.
+Auditors use the report to:
 
+* Verify the existence of fixed assets listed on the report by physically inspecting them.
+* Review fixed asset transactions to ensure that they're accurate and comply with accounting standards.
+* Prepare reports and other documentation for audits and regulatory inspections.
 
 ## Try the report
 
@@ -92,11 +102,10 @@ Try the report here: [Fixed Asset Register](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)    
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Fixed assets report overview](../fa-reports.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

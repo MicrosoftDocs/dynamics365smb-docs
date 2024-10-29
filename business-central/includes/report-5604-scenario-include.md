@@ -1,1 +1,1 @@
-Get detailed transaction information and reference data for your asset management.
+Get details about transactions and reference data to manage your fixed assets.

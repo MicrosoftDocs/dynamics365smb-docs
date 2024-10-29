@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Analysis (report)
-description: Analyze your fixed assets, use this report to aid you in tasks such as reconcile asset values with your general ledger (G/L) or reviewing net value along with write down value.
+description: This report helps with tasks such as reconciling fixed asset values with your general ledger, or reviewing net values and write down values.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,13 +17,19 @@ ai.usage: ai-assisted
 
 # Fixed Asset Analysis (report)
 
-The *Fixed Asset Analysis* report is a flexible reporting option that provides a comprehensive examination of an organization's fixed assets, such as property, plant, and equipment (PP&E), for different purposes. 
+The **Fixed Asset Analysis** report provides a comprehensive examination of an organization's fixed assets, such as property, plant, and equipment, for different purposes.
 
-You can specify two date columns and three data columns to see in the report. 
+You can specify two date columns and three data columns to display in the report.
 
-For example, to generate a report to use for reconciling with the general ledger, add columns for acquisition cost at ending date, depreciation at ending date, and book value at ending date. A check report could have acquisitions/net change, write-down/net change, and Appreciation/net change, so every change to fixed asset can be checked if necessary. 
+For example, to generate a report for reconciling with the general ledger, add columns for:
 
-If you select the **Budget Report** field and specify an ending date in the future, the report will calculate the future depreciation and can give estimates for future depreciation and book values, if you selected those fields as report columns.
+* Acquisition cost at an ending date.
+* Depreciation at an ending date.
+* Book value at an ending date.
+
+A check report could have acquisitions/net change, write-down/net change, and appreciation/net change, so you can check every change to a fixed asset.
+
+If you select the **Budget Report** field and specify an ending date in the future, the report calculates the future depreciation and gives estimates for future depreciation and book values, if you selected those fields as report columns.
 
 ## Use cases
 
@@ -63,19 +69,20 @@ Please include your data sources and URLs
 
 -->
 
+Fixed asset managers use the report to:
 
-As a fixed asset manager, use the report to:
 * Monitor fixed asset values and review net value along with write down value by selecting the relevant amount fields and amount fields for multiple periods.
 * Generate a check report with acquisitions/net change, write-down/net change, and appreciation/net change to verify every change to fixed assets.
 
-As a financial accountant, use the report to:
-* Help reconcile asset values with the general ledger by selecting fields like acquisition and depreciation at ending date, and book value at ending date.
-* Generate a budget report by selecting the Budget Report field and specifying an ending date in the future to calculate future depreciation and book values.
+Accountants use the report to:
 
-As a financial controller, use the report to:
-* Analyze the fixed asset values for the organization and make strategic decisions based on the information provided by the report.
-* Generate a report to review the depreciation expenses for all fixed assets for multiple periods.
+* Reconcile asset values with the general ledger by selecting fields like acquisition and depreciation at an ending date, and book value at an ending date.
+* Generate a budget report by selecting the **Budget Report** field and specifying an ending date in the future to calculate future depreciation and book values.
 
+Controllers use the report to:
+
+* Analyze fixed asset values for an organization and make strategic decisions.
+* Review the depreciation expenses for all fixed assets for multiple periods.
 
 ## Try the report
 
@@ -83,11 +90,10 @@ Try the report here: [Fixed Asset Analysis](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Fixed assets report overview](../fa-reports.md)  
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

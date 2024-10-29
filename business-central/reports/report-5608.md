@@ -17,10 +17,7 @@ ai.usage: ai-assisted
 
 # Fixed Asset - Acquisition List (report)
 
-The *Fixed Asset - Acquisition List* report shows a list of all assets acquired within a given date range. 
-
-You can also include fixed assets that are created but not yet acquired.
-
+The **Fixed Asset - Acquisition List** report lists all fixed assets acquired in a given date range. You can also include fixed assets that are created but aren't acquired.
 
 ## Use cases
 
@@ -57,21 +54,23 @@ Please include your data sources and URLs
 
 -->
 
-As a fixed asset manager, use the report to:
-* Verify that all assets acquired within a given date range have been correctly entered into the system.
-* Monitor the progress of fixed assets that are created but not yet acquired, and ensure that they are acquired in a timely manner.
-* Identify any inconsistencies in the acquisition process and take corrective action where necessary.
+Fixed asset managers use the report to:
 
-As a finance manager, use the report to:
-* Track the acquisition of fixed assets and ensure that they are recorded accurately in the financial statements.
-* Analyze the acquisition costs of fixed assets and identify any opportunities for cost savings.
-* Monitor the acquisition process and ensure that it is aligned with the organization's financial goals.
+* Verify that all assets acquired in a given date range are correct in the system.
+* Monitor the progress of fixed assets that are created but aren't acquired, and ensure that they're acquired in a timely way.
+* Identify inconsistencies in the acquisition process and take corrective action.
 
-As an accountant, use the report to:
-* Calculate the depreciation expenses for newly acquired fixed assets.
-* Verify that the acquisition costs of fixed assets are accurately recorded in the financial statements.
-* Ensure that the acquisition process is compliant with accounting standards and regulations.
+Finance managers use the report to:
 
+* Track the acquisition of fixed assets and ensure that they're accurate in financial statements.
+* Analyze the acquisition costs of fixed assets and identify opportunities for cost savings.
+* Monitor the acquisition process and ensure that it aligns with the organization's financial goals.
+
+Accountants use the report to:
+
+* Calculate depreciation expenses for newly acquired fixed assets.
+* Verify that the acquisition costs of fixed assets are accurate in financial statements.
+* Ensure that the acquisition process complies with accounting standards and regulations.
 
 ## Try the report
 
@@ -79,11 +78,10 @@ Try the report here: [Fixed Asset - Acquisition List](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)    
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Fixed assets report overview](../fa-reports.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

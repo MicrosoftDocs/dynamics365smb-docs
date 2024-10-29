@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Fixed Asset Details (report)
 
-The *Fixed Asset Details* report shows the fixed asset ledger entries for fixed assets. It provides detailed information about each fixed asset, including acquisition cost, depreciation, and book value.
+The **Fixed Asset Details** report shows fixed asset ledger entries for fixed assets. The report provides detailed information about each fixed asset, including acquisition cost, depreciation, and book value.
 
 ## Use cases
 
@@ -53,21 +53,23 @@ Please include your data sources and URLs
 
 -->
 
-As a fixed asset manager, use the report to:
-* Keep track of the current status of fixed assets and their location within the organization.
-* Plan for the future replacement or upgrade of fixed assets based on their age and condition.
-* Calculate the depreciation of fixed assets and ensure that it is in compliance with relevant accounting standards.
+Fixed asset managers use the report to:
 
-As a facilities manager, use the report to:
-* Keep track of the maintenance history and service records for each fixed asset.
+* Track the current status of fixed assets and their location in an organization.
+* Plan for the future replacement or upgrade of fixed assets based on their age and condition.
+* Calculate the depreciation of fixed assets and ensure that it complies with accounting standards.
+
+Facilities managers use the report to:
+
+* Track the maintenance history and service records for each fixed asset.
 * Identify any upcoming maintenance or service needs for fixed assets and plan accordingly.
 * Monitor the condition of fixed assets and identify opportunities for repair or replacement.
 
-As a financial analyst, use the report to:
+Financial analysts use the report to:
+
 * Analyze the value of fixed assets over time and identify trends or patterns.
 * Calculate the return on investment for fixed assets and assess their overall contribution to the organization's financial performance.
-* Identify any discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
-
+* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
 
 ## Try the report
 
@@ -75,11 +77,10 @@ Try the report here: [Fixed Asset Details](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Fixed assets report overview](../fa-reports.md)    
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

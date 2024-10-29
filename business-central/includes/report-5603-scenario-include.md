@@ -1,1 +1,1 @@
-Get a detailed and organized overview of all your fixed asset transactions.
+Get an organized, detailed overview of all transactions for your fixed assets.

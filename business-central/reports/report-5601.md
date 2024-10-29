@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset List (report)
-description: Get a comprehensive listing of all fixed assets owned by an organization at a specific point in time.
+description: Get a comprehensive list of all fixed assets that an organization owned at a specific point in time.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Fixed Asset List (report)
 
-The *Fixed Asset List* report shows a list of fixed assets and their setup information for a given depreciation book.
+The **Fixed Asset List** report lists fixed assets and their setup information for a given depreciation book.
 
-The list includes asset information such as fixed assets class, subclass, and location code, customer group and FA posting group. You can also see depreciation information such as depreciation method, depreciation start/end date, and depreciation years and months.
+The list includes asset information such as fixed asset class, subclass, and location code, customer group, and FA posting group. It also shows information about depreciation, such as the method, start/end date, and years and months.
 
-This information is retrieved from the fixed asset cards and fixed asset depreciation books.
+The report gets the information from the fixed asset cards and fixed asset depreciation books.
 
 ## Use cases
 
@@ -63,29 +63,33 @@ Please include your data sources and URLs at the end of the answer.
 
 -->
 
-As an accountant, use the report to:
+Accountants use the report to:
+
 * Track the value of fixed assets over time and reconcile the values with the general ledger.
-* Monitor the depreciation of fixed assets and ensure that it is in compliance with relevant accounting standards.
+* Monitor the depreciation of fixed assets and ensure that it complies with accounting standards.
 * Identify and correct discrepancies between the fixed asset list and other financial records.
 
-As a financial controller, use the report to:
-* Analyze the fixed asset values for the organization and make strategic decisions based on the information provided by the report.
-* Generate a report to share with stakeholders, such as investors or auditors, to provide a comprehensive overview of the organization's fixed assets.
+Controllers use the report to:
 
-As a compliance officer, use the report to:
-* Verify that the organization's fixed asset information is accurate and complete, and that all relevant regulations are being followed.
-* Track changes to fixed asset information over time and ensure that they are properly documented and approved.
-* Prepare reports and other documentation related to fixed assets for audits and regulatory inspections.
+* Analyze the fixed asset values for the organization and make strategic decisions.
+* Share a comprehensive overview of the organization's fixed assets with stakeholders such as investors or auditors.
 
-As a fixed asset manager, use the report to:
-* Create an asset inventory of all fixed assets owned by the organization at a specific point in time.
-* Verify the accuracy of fixed asset records by comparing them with the information provided in the report.
+Compliance officers use the report to:
 
-As a facilities manager, use the report to:
-* Keep track of the location and status of fixed assets within the organization.
+* Verify that the organization's fixed asset information is accurate and complete, and follows relevant regulations.
+* Track changes to fixed asset information over time and ensure that they're documented and approved.
+* Prepare reports and other documentation for audits and regulatory inspections for fixed assets.
+
+Fixed asset managers use the report to:
+
+* Create an asset inventory of all fixed assets that an organization owned at a specific point in time.
+* Verify the accuracy of fixed asset records by comparing them with the information in the report.
+
+Facilities managers use the report to:
+
+* Track the location and status of fixed assets in an organization.
 * Identify opportunities for equipment upgrades or replacements based on the age and condition of fixed assets.
-* Plan and budget for future capital expenditures related to fixed assets.
-
+* Plan for future capital expenditures related to fixed assets.
 
 ## Try the report
 
@@ -93,11 +97,10 @@ Try the report here: [Fixed Asset List](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Fixed assets report overview](../fa-reports.md)    
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

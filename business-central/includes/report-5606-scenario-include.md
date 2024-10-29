@@ -1,1 +1,1 @@
-View the movement in valuation of assets over a period time with a breakdown of values under additions and disposals during the period, further grouped under classes/subclasses, if needed.
+View the movement in valuation of fixed assets over a period of time, with a breakdown of values under additions and disposals during the period. If needed, further group the information under classes and subclasses.

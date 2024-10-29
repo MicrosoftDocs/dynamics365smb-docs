@@ -1,1 +1,1 @@
-Get a list of all assets acquired within a given date range. You can also include fixed assets that are created but not yet acquired.
+Get a list of all assets acquired in a given date range. You can also include fixed assets that are created but aren't acquired.

@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Book Value 01 (report)
-description: Get detailed or summarized information for different groups of assets about acquisition cost, depreciation value and book value.
+description: Get detailed or summarized information for different groups of assets about acquisition cost, depreciation value, and book value.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,16 +17,13 @@ ai.usage: ai-assisted
 
 # Fixed Asset Book Value 01 (report)
 
-The *Fixed Asset Book Value 01* report shows detailed information about acquisition cost, depreciation value, and book value for both individual assets and groups of assets. 
+The **Fixed Asset Book Value 01** report shows detailed information about acquisition cost, depreciation value, and book value for individual assets and groups of assets. The detailed information is also summarized at a group level, if needed.
 
-The detailed information are also summarized at a group level if needed. 
+[!INCLUDE [prod_short](../includes/prod_short.md)] calculates each of these types of amounts at the beginning and at the end of a specified period, and for the period itself. If you select the **Budget Report** field, the report calculates the expected depreciation for the period. Enter a group type if you want the report to group the fixed assets and print group totals. For example, if you have six FA classes, select the **FA Class** option to print a group total for each FA class.
 
-For each of these three amount types, amounts are calculated at the beginning and at the end of a specified period and for the period itself. If you select the **Budget Report** field, the report will calculate the expected depreciation for the period. Enter a *group type* if you want the report to group the fixed assets and print group totals. For example, if you have set up six FA classes, select the *FA Class* option to have group totals printed for each of the six class codes.
+The report shows the output structured over multiple columns and displays one line for each asset.
 
-The report shows the output structured over multiple columns and displays one line for each asset. 
-
-For print, use landscape orientation to fit the page. 
-
+To print the report, use landscape orientation.
 
 ## Fixed Asset Book Value reports
 
@@ -69,21 +66,23 @@ Please include your data sources and URLs
 
 -->
 
-As a financial analyst, use the report to:
-* Analyze the book value of fixed assets and identify trends or patterns over time.
-* Calculate the depreciation of fixed assets and ensure that it is in compliance with relevant accounting standards.
-* Identify any discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
+Financial analysts use the report to:
 
-As an accountant, use the report to:
-* Reconcile the book value of fixed assets with the general ledger and ensure that they are accurately recorded.
+* Analyze the book value of fixed assets and identify trends or patterns over time.
+* Calculate the depreciation of fixed assets and ensure that it complies with accounting standards.
+* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
+
+Accountants use the report to:
+
+* Reconcile the book value of fixed assets with the general ledger and ensure that they're accurate.
 * Identify and correct errors or discrepancies in fixed asset transactions and the depreciation book setup.
 * Track the value of fixed assets over time and assess their overall contribution to the organization's financial performance.
 
-As a fixed asset manager, use the report to:
-* Plan for the future replacement or upgrade of fixed assets based on their age and book value.
-* Keep track of the current status of fixed assets and their location within the organization.
-* Identify any discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
+Fixed asset managers use the report to:
 
+* Plan for the future replacement or upgrade of fixed assets based on their age and book value.
+* Track the current status of fixed assets and their location in an organization.
+* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
 
 ## Try the report
 
@@ -91,11 +90,10 @@ Try the report here: [Fixed Asset Book Value 01](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)    
-[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Fixed assets report overview](../fa-reports.md)  
+[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](../fa-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

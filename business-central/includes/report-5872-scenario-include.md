@@ -1,1 +1,1 @@
-Helps you decide whether to change component suppliers, replace internal capacity usage with outsourced labor, or vice versa, or when you review and modify an item's bill of materials.
+Helps you decide whether to change component suppliers or replace internal resources with outsourced labor (or vice versa). It can also help you review and modify an item's bill of materials.

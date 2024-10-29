@@ -1,1 +1,1 @@
-Get a list of items or bill of materials that aren't components in other BOMs. 
+Get a list of items or bill of materials (BOMs) that aren't components in other BOMs. 

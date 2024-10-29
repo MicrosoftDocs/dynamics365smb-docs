@@ -1,6 +1,6 @@
 ---
 title: Item - Able to Make (Time) (report)
-description: Check whether you can fulfill a sales order for an item on a specified date by looking at its current availability in combination with the potential quantities that its components can supply if an assembly order were started. 
+description: Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

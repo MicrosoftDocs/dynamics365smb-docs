@@ -1,1 +1,1 @@
-Analyze your fixed assets and get help with tasks such as reconciling asset values with your general ledger (G/L) and reviewing net values and write down values.
+Get help with tasks such as reconciling asset values with your general ledger (G/L) and reviewing net values and write down values.

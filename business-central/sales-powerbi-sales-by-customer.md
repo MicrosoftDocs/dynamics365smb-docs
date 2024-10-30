@@ -15,24 +15,23 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Sales by Customer* report gives a clear picture of your organization's customers and their sales activities. It highlights key metrics against each customer such as sales amount and quantities along with the costs associated. This can be broken down further by the specific items that are being sold per customer to identify key trends.
+The **Sales by Customer** report gives a clear picture of your organization's customers and their sales activities. It highlights key metrics for each customer, such as sales amount and quantities along with the costs associated. You can break down the metrics by the specific items that are sold per customer to identify key trends.
 
 :::image type="content" source="media/powerbi/sales/sales-by-customer.png" alt-text="Screenshot of the Sales by Customer Power BI report" lightbox="media/powerbi/sales/sales-by-customer.png":::
 
+## Use the report
 
-## How to use the report
+This report is meant for all users to identify key customers and other customers that buy less than expected.
 
-This report is meant for all users to identify key customers and other customers that may be purchasing less than expected.
+A COO can quickly identify a list of the top customers generating revenue for the company. You can easily identify which customers are generating the most revenue and how much each customer is contributing to your company's overall revenue. This information helps you make informed decisions and can provide valuable insights to the CFO regarding where the revenue is coming from.
 
-As a COO, using the *Sales by Customer* report, you can quickly identify a list of the top customers generating revenue for the company. Additionally, you can easily see which customers are generating the most revenue and how much each customer is contributing to your company's overall revenue. This assists you in making informed decisions and can provide valuable insights to the CFO regarding where the revenue is coming from.
+A business development manager can quickly identify how you're attracting new customers to purchase from your organization. You can break down the metrics to find out how salespeople are performing. This information can then translate into what a sales manager would want to see, and enable them to track how sales are going for different salespeople.
 
-As a business development manager, you can quickly identify how you are attracting new customers to purchase from your organization. This can be broken down into which salespeople are performing. This can then translate into what a sales manager would want to see, being able to track how the sales from different salespeople are going.
+For salespeople, the report you help can tailor your onsite visits to your customers based on their recent purchases. This report can also show you insights into specific period trends for this customer, and identify opportunities to up-sell or cross-sell.
 
-As a salesperson, using the *Sales by Customer* report, you can tailor your onsite visits to your customers based on their recent purchases. This report can also show you insights into specific period trends for this customer or identify opportunities for upselling or cross-selling to a specific customer.
+## Key performance indicators
 
-## Key Performance Indicators (KPIs)
-
-The *Sales by Customer* report includes the following KPIs and measures: 
+The report includes the following key performance indicators (KPIs) and measures:
 
 - [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
 - [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
@@ -41,14 +40,13 @@ The *Sales by Customer* report includes the following KPIs and measures:
 - [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
 - [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
-The *Sales by Customer* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Customer
 - Item
@@ -63,9 +61,9 @@ Try the report here: [Sales by Customer](https://businesscentral.dynamics.com?pa
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

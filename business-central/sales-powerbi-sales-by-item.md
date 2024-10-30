@@ -1,6 +1,6 @@
 ---
 title: Sales by Item (Power BI Report)
-description: The *Sales by Item* report gives a clear picture of your organization's item sales.
+description: The Sales by Item report gives a clear picture of your organization's item sales.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -15,25 +15,23 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Sales by Item* report gives a clear picture of your organization's item sales. It showcases key metrics against each item or item Category such as sales amount and quantities along with the cost amounts. This can be broken down further by the specific customers that are purchasing these items. 
+The **Sales by Item** report gives a clear picture of your organization's item sales. It showcases key metrics for each item or item category. For example, the sales amount, quantities, and the cost amounts. You can break down the information further by the specific customers that buy the items.
 
 :::image type="content" source="media/powerbi/sales/sales-by-item.png" alt-text="Screenshot of the Sales by Item Power BI report" lightbox="media/powerbi/sales/sales-by-item.png":::
 
+## Use the report
 
-## How to use the report
+Leadership and management teams use the report to track item sales. Sales teams can use it to better identify key items.  
 
-The *Sales by Item* report is targeted towards leadership and management teams to track item sales. It can be used by the sales team to better identify key items.  
-   
-As a CEO, you might want to see a list of the top-selling items by revenue generated, and you want to be able to compare this with how much each item has contributed to the company's overall revenue. This information can then be used to make strategic decisions about which products to focus on and how to allocate resources.  
-   
-As a sales manager using the *Sales by Item* report, you can identify which items aren't performing and implement sales promotions for these items. You can also use this information to adjust inventory levels of different items, procuring additional stock to assist with demand or reducing stock levels to account for the slower periods.  
-   
-As a salesperson, you want to be able to tailor your pitch based on specific item sales performance. The *Sales by Item* report allows you to identify high-performing items. You can also utilize this report to gain insights on lower-performing items so salespeople can identify upselling or cross-selling opportunities.
+CEOs might want a list of the top-selling items by revenue, and be able to compare the list with how much each item contributed to the company's overall revenue. You can use this information to make strategic decisions about which items to focus on and how to allocate resources.  
 
+Sales managers can identify which items aren't performing and implement sales promotions for them. You can also use this information to adjust inventory levels of different items, procure extra stock to assist with demand, or reduce stock levels for slower periods.  
 
-## Key Performance Indicators (KPIs)
+Salespeople can tailor their pitch based on the sales performance for specific items. The report lets you identify high-performing items. You can also use this report to gain insights on lower-performing items so salespeople can spot opportunities to up-sell or cross-sell.
 
-The *Sales by Item* report includes the following KPIs and measures: 
+## Key performance indicators
+
+The report includes the following key performance indicators (KPIs) and measures:
 
 - [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
 - [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
@@ -42,14 +40,13 @@ The *Sales by Item* report includes the following KPIs and measures:
 - [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
 - [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
-The *Sales by Item* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Item
 - Item Category
@@ -64,9 +61,9 @@ Try the report here: [Sales by Item](https://businesscentral.dynamics.com?page=3
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

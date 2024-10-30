@@ -735,11 +735,6 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 
-
-<!-- 
-##### [](reports/report-.md) 
--->
-
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)
@@ -761,7 +756,19 @@ ms.service: dynamics-365-business-central
 
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
-### [Project reports](project-reports.md)
+
+### Built-in project reports
+#### [Project report overview](project-reports.md)
+#### [Project Planning Lines](reports/report-1006.md)
+#### [Project Transaction Detail](reports/report-1007.md)
+#### [Project Analysis](reports/report-1008.md)
+#### [Project Actual to Budget](reports/report-1009.md)
+#### [Project WIP to G/L](reports/report-1010.md)
+#### [Project Suggested Billing](reports/report-1011.md)
+#### [Projects per Customer](reports/report-1012.md)
+#### [Items per Project](reports/report-1013.md)
+#### [Project per Item](reports/report-1014.md)
+
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
 ### [Use time sheets](projects-how-use-time-sheets.md)
@@ -785,7 +792,18 @@ ms.service: dynamics-365-business-central
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-#### [Built-in fixed assets reports](fa-reports.md)
+
+#### Fixed assets reports
+##### [Fixed assets report overview](fa-reports.md)
+##### [Fixed Asset Analysis](reports/report-5600.md)
+##### [Fixed Asset List](reports/report-5601.md)
+##### [Fixed Asset Register](reports/report-5603.md)
+##### [Fixed Asset Details](reports/report-5604.md)
+##### [Fixed Asset Book Value 01](reports/report-5605.md)
+##### [Fixed Asset Book Value 02](reports/report-5606.md)
+##### [Fixed Asset Projected Value](reports/report-5607.md)
+##### [Fixed Asset - Acquisition List](reports/report-5608.md)
+##### [Fixed Asset G/L Analysis](reports/report-5610.md)
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
@@ -854,7 +872,17 @@ ms.service: dynamics-365-business-central
 
 ## Assembly management
 ### [Assemble items](assembly-assemble-items.md)
-### [Assembly reports](assembly-reports.md)
+### Built-in assembly reports
+#### [Assembly report overview](assembly-reports.md)
+#### [Assembly BOMs](reports/report-801.md)
+#### [Item - Able to Make (Time)](reports/report-5871.md)
+#### [BOM Cost Share Distribution](reports/report-5872.md)
+#### [Where-used list](reports/report-809.md)
+#### [BOM - Raw Materials](reports/report-810.md)
+#### [BOM - Sub-Assemblies](reports/report-811.md)
+#### [Assembly BOM - End Items](reports/report-812.md)
+#### [Assemble to order - Sales](reports/report-915.md)
+
 ### [Understand assemble-to-order and assemble-to-stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an assemble-to-order sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble items](assembly-how-to-assemble-items.md)
@@ -868,7 +896,19 @@ ms.service: dynamics-365-business-central
 
 ## Manufacturing
 ### [Manufacturing overview](production-manage-manufacturing.md)
-### [Production reports](production-reports.md)
+### Built-in production reports
+#### [Production report overview](production-reports.md)
+##### [Quantity Explosion of BOM](reports/report-99000753.md)
+##### [Detailed Calculation](reports/report-99000756.md)
+##### [Where-Used (Top Level)](reports/report-99000757.md)
+##### [Item BOM Compare list](reports/report-99000758.md)
+##### [Prod. Order - Calculation](reports/report-99000767.md)
+##### [Capacity Task list](reports/report-99000780.md)
+##### [Work Center Load](reports/report-99000783.md)
+##### [Machine Center Load](reports/report-99000784.md)
+##### [Prod. Order Shortage list](reports/report-99000788.md)
+##### [Production Order Statistics](reports/report-99000791.md)
+
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
 ### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)

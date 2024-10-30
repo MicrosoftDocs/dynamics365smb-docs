@@ -77,7 +77,7 @@ The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps currently work per 
 
 Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a semantic model (also known as a dataset) that gets data from [!INCLUDE [prod_short](includes/prod_short.md)] APIs. You want to make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE [prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing* the model. Depending on how your organization has set up [!INCLUDE [powerbi-name](includes/powerbi-name.md)], refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-For more information, see [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](https://learn.microsoft.com/en-gb/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
+For more information, see [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
 
 ## See also

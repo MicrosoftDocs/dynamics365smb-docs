@@ -63,6 +63,6 @@ Try the report here: [Project per Item](https://businesscentral.dynamics.com?rep
 
 ## See also
 
-[Project report overview](project-reports.md)  
+[Project Reports and Analytics in Business Central](../project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

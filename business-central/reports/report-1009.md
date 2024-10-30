@@ -69,6 +69,6 @@ Try the report here: [Project Actual to Budget](https://businesscentral.dynamics
 
 ## See also
 
-[Project report overview](project-reports.md)  
+[Project Reports and Analytics in Business Central](../project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

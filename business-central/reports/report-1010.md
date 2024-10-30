@@ -62,6 +62,6 @@ Try the report here: [Project WIP to G/L](https://businesscentral.dynamics.com?r
 
 ## See also
 
-[Project report overview](project-reports.md)  
+[Project Reports and Analytics in Business Central](../project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

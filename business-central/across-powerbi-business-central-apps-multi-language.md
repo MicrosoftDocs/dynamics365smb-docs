@@ -18,8 +18,10 @@ In this article, you learn how to test and use multi-language capabilities in th
 ## How to try a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app in your language/locales
 
 To try an app in a language, simply add `language = <culture name>` to the url parameters. For example, this URL will show an app in German:
-* https://<your domain>.powerbi.com/groups/a1d27337-134a-4326-99ed-9e68a1485679/reports/3173137b-a485-42e2-a3df-8f3acd7640a6/ReportSection2fa580b0181e8c981cdc?experience=power-bi&language=de-DE
 
+``` link
+https://<your domain>.powerbi.com/groups/a1d27337-134a-4326-99ed-9e68a1485679/reports/3173137b-a485-42e2-a3df-8f3acd7640a6/ReportSection2fa580b0181e8c981cdc?experience=power-bi&language=de-DE
+```
 
 ## Languages and locales 
 

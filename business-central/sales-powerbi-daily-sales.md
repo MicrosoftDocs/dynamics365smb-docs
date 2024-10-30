@@ -15,27 +15,21 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Daily Sales* report gives a clear picture of your organization's sales activities over specific days. 
-
-The report can showcase the days with a higher volume of sales. 
-
-You can break the analysis further down to view variations across different years, quarters or months to identify trends over time.
+The **Daily Sales** report gives a clear picture of your organization's sales activities over specific days. The report can showcase which days have a higher volume of sales. You can also view variations across different years, quarters, or months to identify trends over time.
 
 :::image type="content" source="media/powerbi/sales/sales-daily-sales.png" alt-text="Screenshot of the Daily Sales Power BI report" lightbox="media/powerbi/sales/sales-daily-sales.png":::
 
+## Use the report
 
-## How to use the report
+This report helps executives and managers track daily sales metrics.
 
-This report is meant for executives and managers to allow them to track daily sales metrics.
+Executives can use the report to identify high performing days and ensure you're staying on track on a daily basis. For example, this analysis can help you make informed decisions in regards to staffing allocations per day.
 
-As a COO, you can utilize the *Daily Sales* report to identify high performing days and ensure you are staying on track on a day by day basis. This can help you make informed decisions in regards to staffing allocations per day.
+As a sales manager, this report helps you identify which days are high performing and compare them against your sales people.
 
-As a sales manager, with this report you can identify which days are high performing and compare this against your sales people.
+## Key performance indicators
 
-
-## Key Performance Indicators (KPIs)
-
-The *Daily Sales* report includes the following KPIs and measures: 
+The report includes the following key performance indicators (KPI) and measures:
 
 - [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)
 - [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
@@ -43,14 +37,13 @@ The *Daily Sales* report includes the following KPIs and measures:
 - [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
 - [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
-The *Daily Sales* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Value Entry
 - Sales Line
@@ -62,12 +55,11 @@ Try the report here: [Report name](https://businesscentral.dynamics.com?page=369
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

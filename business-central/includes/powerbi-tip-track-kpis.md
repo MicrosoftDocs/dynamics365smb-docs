@@ -1,2 +1,2 @@
 > [!TIP]
-> You can easily track any of KPIs displayed in the Power BI reports against your own business objectives. For more information, see [Track your business KPIs with Power BI metrics](../track-kpis-with-power-bi-metrics.md)
+> You can easily track the KPIs that the Power BI reports display against your business objectives. To learn more, go to [Track your business KPIs with Power BI metrics](../track-kpis-with-power-bi-metrics.md).

@@ -1,6 +1,6 @@
 ---
 title: Actual vs Budget (Power BI Report)
-description: The *Actual vs. Budget* report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.
+description: The Actual vs. Budget report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -9,30 +9,30 @@ ms.search.keywords: reporting
 ms.search.form: 37008_Primary
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Actual vs Budget (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Actual vs. Budget* report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures. This report helps the organization to track progress towards meeting sales targets and analyze sales data by item categories and items for making key business decisions.
+The **Actual vs. Budget** report provides a clear overview of your organization's sales performance by comparing the sales amounts and quantities you sold with the budget figures. This report helps the organization track progress towards sales targets and analyze sales data by item categories and items.
 
 :::image type="content" source="media/powerbi/sales/sales-actual-vs-budget.png" alt-text="Screenshot of the Actual vs Budget Power BI report" lightbox="media/powerbi/sales/sales-actual-vs-budget.png":::
 
+## Use the report
 
-## How to use the report
+This report helps finance and sales teams track sales performance against budgets.
 
-This report is meant for finance and sales teams to track performance of actual sales against budgets.
+CEOs can easily track and compare your sales performance against your budget to ensure that you meet sales targets. This report provides a comprehensive overview of the entire organization's sales performance, which helps you make informed decisions when you manage budgets.
 
-As a CEO, you can easily track and compare your sales performance against your budget to ensure that your sales targets are being met. This report provides a comprehensive overview of the entire organization's sales performance, allowing you to make informed decisions when managing your budget.
+Sales managers can use this report to analyze sales data and make decisions about inventory management. The variance and budget amount variance indicators in the report show how specific item categories and items are tracking against their budget amounts. This report helps you understand which items are selling well, and which items to restock or discontinue. With this information, you can optimize your inventory and ensure that your store is always stocked with the products that your customers want to buy.
 
-As a sales manager, you can use this report to analyze your sales data and make decisions about inventory management. By analyzing the Variance and Budget Amount Variance indicators in the report, you can see how specific item categories and items are tracking against their allocated budget. This report will help you to understand which items are selling well and which ones need to be restocked or discontinued. With this information, you can optimize your inventory and ensure that your store is always stocked with the products that your customers want to buy.
+Salespeople can monitor the variance metrics to ensure that you meet your sales targets. This report shows the sales performance of the specific item categories and items that you sell. The budget amount and variance figures in the report help you understand where you might focus your efforts to improve your sales performance. With this information, you can identify opportunities to increase sales and optimize your approach to selling specific items.
 
-As a salesperson, you can monitor the variance metrics to ensure that you are meeting your sales targets. This report allows you to see the sales performance of the specific item categories and items that you are responsible for selling. By analyzing the budget amount and variance figures in the report, you can understand where you may need to focus your efforts to improve your sales performance. With this information, you can identify areas of opportunity to increase sales and optimize your approach to selling specific items, helping you to meet and exceed your sales targets.
+## Key performance indicators
 
-## Key Performance Indicators (KPIs)
-
-The *Actual vs Budget* report includes the following KPIs and measures: 
+The **Actual vs Budget** report includes the following key performance indicators (KPIs) and measures:
 
 - [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)  
 - [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)  
@@ -43,14 +43,13 @@ The *Actual vs Budget* report includes the following KPIs and measures:
 - [**Budget Quantity Variance**](sales-powerbi-sales-kpis.md#budget-quantity-variance)  
 - [**Budget Quantity Variance %**](sales-powerbi-sales-kpis.md#budget-quantity-variance-percent)  
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+Select the link for a KPI to learn more about what it means, how [!INCLUDE [prod_short](includes/prod_short.md)] calculates it, and what data was used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
-The *Actual vs Budget* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The **Actual vs Budget** report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Item
 - Item Category
@@ -66,9 +65,9 @@ Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?pag
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

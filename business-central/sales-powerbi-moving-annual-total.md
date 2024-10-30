@@ -15,31 +15,27 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Moving Annual Total (MAT)* report calculates a total of sales over the last 12 months. 
+The **Moving Annual Total (MAT)** report calculates a total of sales over the last 12 months. This is a rolling calculation where the date is continually moving.
 
-This is a rolling calculation where the date is continual moving. 
-
-The report will showcase the Sales Amount MAT and compare this against the MAT for the previous period. 
+The report showcases the sales amount moving annual total (MAT), and compares it to the MAT for the previous period.
 
 :::image type="content" source="media/powerbi/sales/sales-moving-annual-total.png" alt-text="Screenshot of the Moving Annual Total Power BI report" lightbox="media/powerbi/sales/sales-moving-annual-total.png":::
 
-
 ## How to use the report
 
-The *Moving Annual Total (MAT)* report is meant for business leaders and managers to identify how the MAT is performing across the period.
+Business leaders and managers use the report to identify how the MAT is performing across the period.
 
-As a CEO, you can use the *Moving Annual Total* report to monitor the overall sales performance of your organization over the last 12 months. By analyzing the [Moving Annual Total (MAT)](sales-powerbi-sales-kpis.md#sales-amount-mat-fiscal) and [Previous Year Moving Annual Total (PYMAT)](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal) figures, you can identify trends in sales growth and compare your organization's performance to the previous year. You can also use the [Moving Annual Total Growth Amount](sales-powerbi-sales-kpis.md#sales-amount-matg-fiscal) and [Growth %](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal) figures to identify periods that performed well or did not meet the growth expectation. 
+Business leaders can use the report to monitor the overall sales performance of your organization over the last 12 months. By analyzing the [Moving Annual Total (MAT)](sales-powerbi-sales-kpis.md#sales-amount-mat-fiscal) and [Previous Year Moving Annual Total (PYMAT)](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal) figures, you can identify trends in sales growth and compare your organization's performance to the previous year. You can also use the [Moving Annual Total Growth Amount](sales-powerbi-sales-kpis.md#sales-amount-matg-fiscal) and [Growth %](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal) figures to identify periods that performed well or didn't meet the growth expectation.
 
-For instance, if you notice that your organization's sales growth has been stagnant or declining, you can use this information to develop a strategic plan that focuses on improving sales and increasing marketing efforts during these periods.
+For example, if you notice that your organization's sales growth is stagnant or declining, you can use this information to develop a plan that focuses on improving sales and increasing marketing efforts during these periods.
 
-As a sales manager, you can use the *Moving Annual Total* report to analyze your sales data over the last 12 months and gain insights into sales trends. By drilling down into the sales figures for specific clothing categories, you can identify areas of strength and weakness in your sales performance. For example, you might notice that sales of some items have been declining over the last few months while the sales of other items have been increasing.
+Sales managers can use the report to analyze sales data over the last 12 months and gain insights into sales trends. By drilling down into the sales figures for specific categories, you can identify areas of strength and weakness in your sales performance. For example, you might notice that sales of some items have declined over the last few months while the sales of other items are increasing.
 
-By using the monthly analysis, you can identify when the sales started to decline and take necessary actions to introduce products that align with the new trend to increase sales and meet customer demand. With this information, you can make data-driven decisions to optimize your sales strategy and drive revenue growth for your company.
+The monthly analysis helps you identify when sales started to decline and take necessary actions to introduce products that align with the new trend to increase sales and meet customer demand. With this information, you can make data-driven decisions to optimize your sales strategy and drive revenue growth for your company.
 
+## Key performance indicators
 
-## Key Performance Indicators (KPIs)
-
-The *Moving Annual Total* report includes the following KPIs and measures: 
+The report includes the following key performance indicators (KPIs) and measures:
 
 - [**Moving Annual Total (MAT)**](sales-powerbi-sales-kpis.md#sales-amount-mat-fiscal)
 - [**Previous Year Moving Annual Total (PYMAT)**](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal)
@@ -47,14 +43,13 @@ The *Moving Annual Total* report includes the following KPIs and measures:
 - [**Moving Annual Total Growth %**](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal)
 - [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
-The *Moving Annual Total* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Value Entry
 - Sales Line
@@ -67,9 +62,9 @@ Try the report here: [Moving Annual Total](https://businesscentral.dynamics.com?
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

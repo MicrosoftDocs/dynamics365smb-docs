@@ -1,8 +1,8 @@
 ---
-author: brentholtorf
+author: kennieNP
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 10/30/2024
+ms.author: kepontop
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -22,7 +22,7 @@ The following table describes some of the key reports in project reporting.
 | [!INCLUDE[report-1014-scenario](../includes/report-1014-scenario-include.md)] | [Project per Item](https://businesscentral.dynamics.com?report=1014) | [About *Project per Item*](../reports/report-1014.md) | 1014 |
 
 
-## The old way
+<!-- remove after 2025-01-01
 
 | Report | Description | Id | 
 |---------|---------|---------|
@@ -35,3 +35,4 @@ The following table describes some of the key reports in project reporting.
 | [Project per Item](https://businesscentral.dynamics.com?report=1014) |An overview about the used items in a project. Depending on the report that you want to use to get an overview about the planned items for a project, you can set an additional filter. The report shows the relevant items and an accumulated value about the costs.|1014|
 | [Project Transaction Detail](https://businesscentral.dynamics.com?report=1007) |This report will give you an overview over the posted project tasks like resources and items. Includes a detailed information about the total costs and total prices plus an information concerning line discounts,and so on. The report shows data from the project ledger entries.|1007|
 | [Project WIP to G/L](https://businesscentral.dynamics.com?report=1010) |Shows the value of work in process on the projects that you select compared to the amount that has been posted in the general ledger.|1010|
+-->

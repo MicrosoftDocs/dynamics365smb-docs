@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The **Project Analysis** report shows a financial overview of your projects based on input you provide. For example, you can create a report that shows the budgeted prices, usage prices, and billable prices, and then compares the three sets of prices.
 
-Use a combination of the available **Amount** fields to create your own analysis. For each field, select one of the following for prices, costs, or profit values: 
+Use a combination of the available **Amount** fields to create your own analysis. For each field, select one of the following settings for prices, costs, or profit values:
 
 * Schedule
 * Usage

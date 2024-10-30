@@ -1,6 +1,6 @@
 ---
 title: Project WIP to G/L (report)
-description: Get an overview of the financial status of ongoing projects in your company's financial statements.
+description: Get an overview of the status of ongoing projects in your company's financial statements.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Project WIP to G/L (report)
 
-The *Project WIP to G/L* report shows the value of work in process (WIP) on the projects that you select compared to the amount that has been posted in the general ledger (G/L).
+The **Project WIP to G/L** report shows the value of work in process (WIP) on the projects that you select compared to the amount that is posted in the general ledger (G/L).
 
 ## Use cases
 
@@ -54,16 +54,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Project WIP to G/L](https://businesscentral.dynamics.com?report=1010)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

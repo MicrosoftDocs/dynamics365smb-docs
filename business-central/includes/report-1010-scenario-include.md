@@ -1,1 +1,1 @@
-Get an overview of the financial status of ongoing projects in your company's financial statements.
+Get an overview of the status of ongoing projects in your company's financial statements.

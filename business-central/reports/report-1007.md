@@ -1,6 +1,6 @@
 ---
 title: Project Transaction Detail (report)
-description: Get an overview of the posted project tasks such as resources and items. 
+description: Get an overview of posted project tasks, such as resources and items. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,12 +17,11 @@ ai.usage: ai-assisted
 
 # Project Transaction Detail (report)
 
-The *Project Transaction Detail* report shows an overview of the posted project tasks such as resources and items. 
+The **Project Transaction Detail** report shows an overview of posted project tasks, such as resources and items.
 
-It includes a detailed information about the total costs and total prices plus an information concerning line discounts, and so on. 
+It includes a detailed information about the total costs and total prices, plus information concerning line discounts, and so on.
 
-The report shows data from the project ledger entries.
-
+The data the report shows comes from the project ledger entries.
 
 ## Use cases
 
@@ -61,16 +60,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Project Transaction Detail](https://businesscentral.dynamics.com?report=1007)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

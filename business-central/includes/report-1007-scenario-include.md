@@ -1,1 +1,1 @@
-Get an overview of the posted project tasks such as resources and items. 
+Get an overview of posted project tasks, such as resources and items.

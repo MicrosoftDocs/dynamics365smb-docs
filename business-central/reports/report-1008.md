@@ -17,15 +17,16 @@ ai.usage: ai-assisted
 
 # Project Analysis (report)
 
-The *Project Analysis* report shows a financial overview of your projects based on your input.
+The **Project Analysis** report shows a financial overview of your projects based on input you provide. For example, you can create a report that shows the budgeted prices, usage prices, and billable prices, and then compares the three sets of prices.
 
-For example, you can create a report that shows you the budgeted prices, usage prices, and billable prices, and then compares the three sets of prices.
+Use a combination of the available **Amount** fields to create your own analysis. For each field, select one of the following for prices, costs, or profit values: 
 
-Use a combination of the available **Amount** fields to create your own analysis. 
+* Schedule
+* Usage
+* Contract
+* Invoiced
 
-For each field, select one of the following prices, costs, or profit values: Schedule, Usage, Contract, and Invoiced.
-
-Select whether the currency is specified in Local Currency or Foreign Currency.
+Select whether the currency is in local currency or foreign currency.
 
 ## Use cases
 
@@ -66,16 +67,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Project Analysis](https://businesscentral.dynamics.com?report=1008)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

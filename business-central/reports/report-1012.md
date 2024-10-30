@@ -1,6 +1,6 @@
 ---
 title: Projects per Customer (report)
-description: Get an overview list of all projects, grouped by customer with a focus on scheduled price, percentage of completion, and invoiced amounts.
+description: Get an overview list of all projects, with focus on scheduled price, percentage of completion, and invoiced amounts for each customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,10 +17,9 @@ ai.usage: ai-assisted
 
 # Projects per Customer (report)
 
-The *Projects per Customer* report shows a list of all projects, grouped by customer. 
+The **Projects per Customer** report shows a list of all projects, grouped by customer.
 
-The report allows you to compare the scheduled price, the percentage of completion, the invoiced price, and the percentage of invoiced amounts for each **Bill-to Customer**.
-
+Use the report to compare the scheduled price, the percentage of completion, the invoiced price, and the percentage of invoiced amounts for each **Bill-to Customer**.
 
 ## Use cases
 
@@ -58,16 +57,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Projects per Customer](https://businesscentral.dynamics.com?report=1012)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

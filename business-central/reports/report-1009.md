@@ -1,6 +1,6 @@
 ---
 title: Project Actual to Budget (report)
-description: Get an overview of actual vs budgeted amounts for selected projects. 
+description: Get an overview of actual vs. budgeted amounts for selected projects. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,13 +17,12 @@ ai.usage: ai-assisted
 
 # Project Actual to Budget (report)
 
-The *Project Actual to Budget* report shows scheduled and used amounts for selected projects. 
-
-All lines of the selected projects show quantity, total cost, and line amount. 
+The **Project Actual to Budget** report shows scheduled and used amounts for selected projects. The lines of the selected projects show quantity, total cost, and line amount.
 
 This report is intended for completed projects, although you can use it at any time during a project.
 
-**Note**: In the US, Canada, and Mexico, this report is not available. Instead, use the **Project Actual to Budget (Cost)** (10210) or **Project Actual to Budget (Price)** (10211) reports.
+> [!NOTE]
+> This report isn't available in the US, Canada, and Mexico. Instead, use the **Project Actual to Budget (Cost)** (10210) or **Project Actual to Budget (Price)** (10211) reports.
 
 ## Use cases
 
@@ -62,16 +61,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Project Actual to Budget](https://businesscentral.dynamics.com?report=1009)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

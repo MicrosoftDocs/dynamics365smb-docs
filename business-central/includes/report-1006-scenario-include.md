@@ -1,1 +1,1 @@
-Get an overview of planning and project tasks for a project.
+Get an overview of planning and tasks for a project.

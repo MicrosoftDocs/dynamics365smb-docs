@@ -1,6 +1,6 @@
 ---
 title: Project per Item (report)
-description: Get an overview about the items used across your projects. 
+description: Get an overview of the items you use in your projects. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,12 +17,7 @@ ai.usage: ai-assisted
 
 # Project per Item (report)
 
-The *Project per Item* report shows overview about the items used across your projects. 
-
-The report shows the relevant items and an accumulated value about the costs.
-
-Depending on your reporting needs, you can set additional filters. 
-
+The **Project per Item** report shows overview about the items you use in your various projects. The report shows the items and an accumulated cost value. Depending on your reporting needs, you can set more filters.
 
 ## Use cases
 
@@ -60,16 +55,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Project per Item](https://businesscentral.dynamics.com?report=1014)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

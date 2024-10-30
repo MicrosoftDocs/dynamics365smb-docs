@@ -1,1 +1,1 @@
-Get an overview of all projects, grouped by customer with a focus on scheduled price, percentage of completion, and invoiced amounts.
+Get an overview of all projects, with focus on scheduled price, percentage of completion, and invoiced amounts for each customer.

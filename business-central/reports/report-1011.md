@@ -1,6 +1,6 @@
 ---
 title: Project Suggested Billing (report)
-description: Get an overview of your projects with a focus on invoiced amounts and remaining amounts to be invoiced, grouped by customer.
+description: Get an overview of your projects, with focus on invoiced amounts and remaining amounts to invoice for each customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,10 @@ ai.usage: ai-assisted
 
 # Project Suggested Billing (report)
 
-The *Project Suggested Billing* report shows a list of all projects, grouped by customer, how much the customer has already been invoiced, and how much remains to be invoiced, that is, the suggested billing. 
+The **Project Suggested Billing** report shows a list of all projects, grouped by customer. It shows how much you already invoiced the customer, and how much remains to invoice. The remaining amount is the suggested billing.
 
-**Note**: In the US, Canada, and Mexico, this report is not available. Instead, use the **Project Cost Suggested Billing** (10219) report.
+> [!NOTE]
+> This report isn't available in the US, Canada, and Mexico. Instead, use the **Project Cost Suggested Billing** (10219) report.
 
 ## Use cases
 
@@ -56,16 +57,14 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Project Suggested Billing](https://businesscentral.dynamics.com?report=1011)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Project report overview](project-reports.md)   
+[Project report overview](project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

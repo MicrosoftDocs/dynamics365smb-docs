@@ -1,1 +1,1 @@
-Get an overview about the items used across your projects. 
+Get an overview about how items are used in your projects (as seen from items). 

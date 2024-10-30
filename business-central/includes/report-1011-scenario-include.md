@@ -1,0 +1,1 @@
+Get an overview of your projects with a focus on invoiced amounts and remaining amounts to be invoiced, grouped by customer.

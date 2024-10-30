@@ -741,7 +741,19 @@ ms.service: dynamics-365-business-central
 
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
-### [Project reports](project-reports.md)
+
+### Built-in project reports
+#### [Project report overview](project-reports.md)
+#### [Project Planning Lines](reports/report-1006.md)
+#### [Project Transaction Detail](reports/report-1007.md)
+#### [Project Analysis](reports/report-1008.md)
+#### [Project Actual to Budget](reports/report-1009.md)
+#### [Project WIP to G/L](reports/report-1010.md)
+#### [Project Suggested Billing](reports/report-1011.md)
+#### [Projects per Customer](reports/report-1012.md)
+#### [Items per Project](reports/report-1013.md)
+#### [Project per Item](reports/report-1014.md)
+
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
 ### [Use time sheets](projects-how-use-time-sheets.md)

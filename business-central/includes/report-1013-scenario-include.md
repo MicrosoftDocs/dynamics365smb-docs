@@ -1,0 +1,1 @@
+Get an overview about the items used in a project. 

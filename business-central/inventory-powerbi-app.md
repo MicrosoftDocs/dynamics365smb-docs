@@ -1,8 +1,8 @@
 ---
 title: Inventory Power BI App Page (Power BI report)
 description: The Inventory Power BI contains different reports for an organizations inventory reporting needs
-author: shaungibsonn
-ms.author: 
+author: kennieNP
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -12,17 +12,19 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory Power BI app
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
-The Inventory Power BI is designed to pull data directly from Business Central and provided leadership, managers and different key warehouse staff key information on inventory across an organization. This app has a variety of different reports which provide insights into different parts of a business's operations. With the information from this report, you can make more informed decisions ensuring you meet demand, not delay production and ensuring costs are low.
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
+The Inventory Power BI is designed to pull data directly from Business Central and provide leadership, managers and different key warehouse staff key information on inventory across an organization. This app has a variety of different reports which provide insights into different parts of a business's operations. With the information from this report, you can make more informed decisions ensuring you meet demand, not delay production and ensuring costs are low.
 
 ## Inventory Analytics for the Leadership team
 To fit this category you might have a role such as:
 - Chief Operations Officer
 - Chief Finance Officer
 
-### Example Scenario: Maintaining Stock Turnover
+### Example scenario: Maintaining Stock Turnover
 As a COO, you want to ensure that stock is moving and you don't have any aging stock on hand. By analzying the [Inventory by Lot](inventory-powerbi-inventory-by-lot.md) report, you can see how much stock is in each lot and identify where there is expired stock. You can also compare this with the information on the [Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md) to ensure you aren't over purchasing and increasing storage costs. 
+
 
 ## Inventory Analytics for the management team
 To fit this category you might have a role such as:
@@ -31,7 +33,7 @@ To fit this category you might have a role such as:
 - Supply Chain Manager
 - Production Manager
 
-### Example Scenario: Maintaining Stock on Hand
+### Example scenario: Maintaining Stock on Hand
 As a warehouse manager, you want to ensure each of the locations under your control have adequate stock levels. Using the [Inventory by Location](inventory-powerbi-inventory-by-location.md) you can ensure each location has adequate stock and move stock around to ensure each location is adequately supplied.
 
 As a Production or Procurement manager, you can use the [Gross Requirement](inventory-powerbi-gross-requirement.md) to ensure that your production planning is met by the stock you are getting it. 
@@ -41,10 +43,11 @@ To fit this category you might have a role such as:
 - Order Picker
 - Shipping 
 
-### Example Scenario: Tracking Stock
+### Example scenario: Tracking Stock
 As an order picker in a warehouse, you want to ensure each bin you go to contains enough stock to meet your order. Using the [Bin Contents](inventory-powerbi-bin-contents.md) report you can be sure that the bin contains the right amount of stock. You can drill into this further by using the [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md) to see the tracking information.
 
 Furthermore, other staff in the warehouse can use either the [Inventory by Lot](inventory-powerbi-inventory-by-lot.md) or [Inventory by Serial](inventory-powerbi-inventory-by-serial-no.md) to see lot and serial information on an item by item basis.
+
 
 ## How to use the reports in the Inventory App
 
@@ -65,14 +68,14 @@ The following provides descriptions on how you can use each Power BI Report in t
 |Analyze inventory levels across bins and see tracking information for the different items in the bin. | [Bin Contents by Item Tracking](https://businesscentral.dynamics.com?page=37032) | [About *Bin Contents by Item Tracking*](inventory-powerbi-inventory-by-item.md)|
 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](#TODO)   
-[Ad-hoc analysis of Inventory data](#TODO)   
-[Built-in Inventory reports](#TODO)  
-[Inventory analytics overview](#TODO)  
-[Inventory Overview](#TODO)  
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -29,17 +29,21 @@ To configure this role center, follow the steps:
 
 ## Sustainability setup  
 
+You need to specify some general settings for the Sustainability module, such as the unit of measure for emissions, the decimal places for amounts, and whether some fields are mandatory or not.
+
+To configure these settings, follow these steps:
+
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
 2. On the **General** FastTab, configure the required fields that are related to the Sustainability module.
 
     | Field | Description |
     |-------|-------------|
-    | **Emission Unit of Measure Code** | Specify the unit of measure code that is used to register emissions. |
-    | **Emission Decimal Places** | Specify the number of decimal places that are shown for emission amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
-    | **Country/Region Mandatory** | Specify whether the country/region is mandatory. Users can set the country/region field in journals even if you don't select this field. However, by selecting it, you require that users set the country/region field before posting. |
-    | **Responsibility Center Mandatory** | Specify whether the responsibility center is mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. Users can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
-    | **Block Calculation Foundation Change If Ledger Entries Exist** | Specify whether changes to the calculation foundation (formula) at the account category level are blocked at the time of sustainability entry, when the formula has already been applied. |
-    | **Enable Background Error Check** | Specify whether the background error check of sustainability journal lines is enabled. |
+    | **Emission Unit of Measure Code** | Enter the unit of measure code that is used to register emissions. |
+    | **Emission Decimal Places** | Enter the number of decimal places that are shown for emission amounts. The default setting, *2:5*, means that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
+    | **Country/Region Mandatory** | Select this field if you want to make the country/region field mandatory. Users can set the country/region field in journals even if you don't select this field. However, by selecting it, you require that users set the country/region field before posting. |
+    | **Responsibility Center Mandatory** | Select this field if you want to make the responsibility center mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. Users can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
+    | **Block Calculation Foundation Change If Ledger Entries Exist** | Select this field if you want to prevent changes to the calculation foundation (formula) at the account category level when the formula has already been applied to sustainability entries. |
+    | **Enable Background Error Check** | Select this field if you want to enable the background error check of sustainability journal lines. |
 
     > [!NOTE]
     > After you enable or turn off the background error check in journals, you must sign in again before you start the new setup.
@@ -54,9 +58,9 @@ To configure this role center, follow the steps:
 
     | Field | Description |
     |-------|-------------|
-    | **Fuel/Electricity Decimal Places** | Specify the number of decimal places that are shown for fuel/electricity amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
-    | **Distance Decimal Places** | Specify the number of decimal places that are shown for distance measurements. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
-    | **Custom Amount Decimal Places** | Specify the number of decimal places that are shown for custom amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
+    | **Fuel/Electricity Decimal Places** | Enter the number of decimal places that are shown for fuel/electricity amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
+    | **Distance Decimal Places** | Enter the number of decimal places that are shown for distance measurements. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
+    | **Custom Amount Decimal Places** | Enter the number of decimal places that are shown for custom amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
 
 5. On the **Reporting** FastTab, complete the setup by configuring the fields that are related to reporting to authorities.
 
@@ -65,21 +69,21 @@ To configure this role center, follow the steps:
 
     | Field | Description |
     |-------|-------------|
-    | **Emission Reporting Unit of Measure Code** | Specify the unit of measure code that is used to report emissions, because you can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports. |
-    | **Reporting UOM Factor** | Specify the unit of measure factor that is used to register emissions, if you use a different unit of measure when you report to authorities. |
-    | **Emission Rounding Precision** | Specify the size of the interval that is used during rounding of emission amounts when you report to authorities. |
-    | **Emission Rounding Type** | Specify how the program rounds emission amounts when you report to authorities. The following options are available: **Nearest**, **Up**, and **Down**. |
+    | **Emission Reporting Unit of Measure Code** | Enter the unit of measure code that is used to report emissions, because you can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports. |
+    | **Reporting UOM Factor** | Enter the unit of measure factor that is used to register emissions, if you use a different unit of measure when you report to authorities. |
+    | **Emission Rounding Precision** | Enter the size of the interval that is used during rounding of emission amounts when you report to authorities. |
+    | **Emission Rounding Type** | Choose how the program rounds emission amounts when you report to authorities. The following options are available: **Nearest**, **Up**, and **Down**. |
 
 ## Emission Fees   
 
 To track internal carbon fees or calculate your emissions using carbon dioxide (CO2) equivalents, you need to configure the **Emission Fees** page. To set up this information, follow these steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Emission Fees**, and then select the related link. 
-2. In the **Emission Type** field, choose the GHG emission you want to configure: **CO2**, **CH4**, or **N2O**. This option is mandatory.   
-3. You can further specify the **Scope Type**. If you leave this field blank, it  applies to all scopes, but you can configure for each scope.  
-4. You can configure **Starting Date** and **Ending Date**. That particullary means you can use different configurations for different period. 
-5. The **Country/Region Code** and **Responsibility Code** are optional fields and you can choose if you want to use them. These fields can be useful as it's possible to have different carbon fees per country or to use different conversions to the CO2e per country or per facility (responsibility center).  
-6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. It can be used based on some local or regional regulations, but also for internal calculations. **Carbon Fee** is calculated every time when you post emissions and this information is visible on the **Sustainability Ledger Entries**, without any additional posting on **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup** and it can be populated only for the line where the **Emission Type** is **CO2**. 
+2. In the **Emission Type** field, choose the GHG emission you want to configure: **CO2**, **CH4**, or **N2O**. This field is mandatory.   
+3. You can also specify the **Scope Type**. If you leave this field blank, it  applies to all scopes, but you can configure it for each scope.  
+4. You can configure **Starting Date** and **Ending Date**. This means that you can use different configurations for different periods. 
+5. The **Country/Region Code** and **Responsibility Code** are optional fields that you can use if you want to have different carbon fees or carbon equivalent factors per country/region or per facility (responsibility center). 
+6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on some local or regional regulations, or for internal calculations. Teh **Carbon Fee** is calculated every time when you post emissions and this information is visible on the **Sustainability Ledger Entries**, without any additional posting on **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup** and you can fill this field only for the line where the **Emission Type** is **CO2**. 
 7. The **Carbon Equivalent Factor** specifies the coefficient that converts the impact of various greenhouse gases into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** is always *1* and you can't modify this value, because CO2 is the reference gas used for calculating the global warming potential (GWP) of other greenhouse gases; since CO2 is the baseline, its GWP is set to *1*. For other GHG gases, you must configure the values manually. 
 To calculate the carbon equivalent factor, you can use the following example: If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, you need to divide 1 by 298 and the result you need to populate is 0.00336.  
 

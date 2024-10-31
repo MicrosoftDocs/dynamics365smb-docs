@@ -22,11 +22,8 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000780-scenario](../includes/report-99000780-scenario-include.md)] | [Capacity Task list](https://businesscentral.dynamics.com?report=99000780) | [About *Capacity Task list*](../reports/report-99000780.md) | 99000780 |
 | [!INCLUDE [report-99000783-scenario](../includes/report-99000783-scenario-include.md)] | [Work Center Load](https://businesscentral.dynamics.com?report=99000783) | [About *Work Center Load*](../reports/report-99000783.md) | 99000783 |
 | [!INCLUDE [report-99000784-scenario](../includes/report-99000784-scenario-include.md)] | [Machine Center Load](https://businesscentral.dynamics.com?report=99000784) | [About *Machine Center Load*](../reports/report-99000784.md) | 99000784 |
-
 | [!INCLUDE [report-99000787-scenario](../includes/report-99000787-scenario-include.md)] | [Routing Sheet](https://businesscentral.dynamics.com?report=99000787) | [About *Routing Sheet*](../reports/report-99000787.md) | 99000787 |
-
 | [!INCLUDE [report-99000788-scenario](../includes/report-99000788-scenario-include.md)] | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order Shortage list*](../reports/report-99000788.md) | 99000788 |
-
 | [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
 
 

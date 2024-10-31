@@ -40,10 +40,10 @@ The following provides descriptions on how you can use each Power BI Report in t
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](#TODO)   
-[Ad-hoc analysis of Inventory Valuation data](#TODO)   
-[Built-in Inventory Valuation reports](#TODO)  
-[Inventory Valuation analytics overview](#TODO)  
-[Inventory Valuation Overview](#TODO)  
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Inventory Valuation Landing Page (Power BI report)
 description: The Inventory Landing Page gives an overview of how the Inventory Report works.
-author: kepontop
+author: kennienp
 ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
@@ -23,8 +23,9 @@ To fit this category you might have a role such as:
 - Chief Operations Officer
 - Chief Finance Officer
 
-### Example Scenario: Maintaining Stock Costings
+### Example scenario: Maintaining Stock Costings
 As a chief executive, you want to identify what location holds the most stock value. Using the [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md) report, you can get a clear indicator of which of the locations has the most stock value. You can also break this down further by using the [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md) to see the dollar value of each of your items on hand.
+
 
 ## How to use the reports in the Inventory Valuation App
 
@@ -37,6 +38,7 @@ The following provides descriptions on how you can use each Power BI Report in t
 |Review Inventory Valuation at a Location level and see key value figures including increases and decreases.| [Inventory Valuation by Location](https://businesscentral.dynamics.com?page=37058) | [About *Inventory Valuation by Location*](inventory-valuation-powerbi-inventory-valuation-by-location.md)|
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 
 ## See also
 

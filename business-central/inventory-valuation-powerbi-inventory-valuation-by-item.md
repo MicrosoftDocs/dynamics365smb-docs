@@ -11,7 +11,7 @@ ms.date: 10/30/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory Valuation Overview (Power BI Report)
+# Inventory Valuation by Item (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 

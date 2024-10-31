@@ -1,8 +1,8 @@
 ---
 title: Scheduled Receipt (Power BI report)
 description: The Scheduled Receipt gives users the ability to view inbound inventory into an organization broken up per document type. 
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -12,14 +12,15 @@ ms.service: dynamics-365-business-central
 ---
 
 # Scheduled Receipt (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization by different document types or processes. This is broken down by Item Cateogory or Item.
 
 This also includes internal Assembly or Production accounting for when the finished good will become avaialble along with Purchase and Sales Return documents.
 
-:::image type="content" source="../media/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/inventory/scheduled-receipt.png":::
+:::image type="content" source="media/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/inventory/scheduled-receipt.png":::
+
 
 ## How to use the report
 
@@ -29,7 +30,7 @@ As a manager, you can use the *Scheduled Receipt* report to keep track of invent
 
 As a Warehouse Receipt working, this report is crucial in having detailed information of all inbound stock from both external and internal sources. This can assist in coordinating purchasing and production levels in future.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Scheduled Receipt* report includes the following KPIs:
 
@@ -45,7 +46,7 @@ The *Scheduled Receipt* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
@@ -57,10 +58,18 @@ Data from the following tables are used on the *Scheduled Receipt* report
 - Production Order Lines
 - Transfer Lines
 
+
 ## Try the report
 
 Try the report here: [Scheduled Receipt](https://businesscentral.dynamics.com?page=37028)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Inventory app](inventory-powerbi-app.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  

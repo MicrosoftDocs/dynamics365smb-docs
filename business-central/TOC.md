@@ -704,7 +704,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchase and Sales Quantity]()
 ##### [Item Availability]()
 ##### [Gross Requirement](inventory-powerbi-gross-requirement.md)
-##### [Scheduled Receipt]()
+##### [Scheduled Receipt](inventory-powerbi-scheduled-receipt.md)
 ##### [Inventory by Lot](inventory-powerbi-inventory-by-lot.md)
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)

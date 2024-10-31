@@ -1,5 +1,5 @@
 ---
-title: Sales App Semantic Model
+title: Power BI Sales app semantic model
 description: Get an overview of all tables and fields in the Sales App Semantic Model.
 author: kennieNP
 ms.author: kepontop
@@ -11,11 +11,11 @@ ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Sales App Semantic Model
+# Power BI Sales app semantic model
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The sales semantic model is organized in a [Star Schema Model](/power-bi/guidance/star-schema#star-schema-overview).
+The semantic model in the Power BI sales app is organized in a [Star Schema Model](/power-bi/guidance/star-schema#star-schema-overview).
 
 The fact tables contains information about individual transactions from sources such as sales orders, posted sales invoices, and posted credit memos from [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ Sales lines are broken down into **Shipped Not Invoiced** and **Outstanding Sale
 
 #### Table Definition
 
-| Power BI Field Name | Business Central Field Name | Description |
+| Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Date | Order Date / Posting Date | The **Order Date** is used for data from sales lines. The **Posting Date** is used for data from value entries. |
 | Document No. |  Document No. | Specifies the document number. |
@@ -56,7 +56,7 @@ The app uses data from the following table:
 
 ### Table definition
 
-| Power BI Field Name | Business Central Field Name | Description |
+| Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Budget Name | Budget Name | Specifies the name of the budget. |
 | Date |  Date | Specifies the date for the budget entry. |
@@ -64,7 +64,7 @@ The app uses data from the following table:
 
 ## Dimension tables
 
-The star schema model uses dimension tables to support the data model and allow filtering and grouping.
+The star schema model uses dimension tables to support the data model and allow you to filter and group.
 
 - [Customer](#customer)
 - [Item](#item)
@@ -79,7 +79,7 @@ The app uses data from the following table:
 
 #### Table definition
 
-| Power BI Field Name | Business Central Field Name | Description |
+| Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Customer No. | No. | Specifies the customer number. |
 | Customer Name |  Name | Specifies the customer name. |
@@ -103,7 +103,7 @@ The app uses data from the following tables:
 
 #### Table definition
 
-| Power BI Field Name | Business Central Field Name | Description |
+| Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Item No. | No. | Specifies the item number. |
 | Item Name |  Description | Specifies the item description. |
@@ -122,7 +122,7 @@ The app uses data from the following table:
 
 ### Table definition
 
-| Power BI Field Name | Business Central Field Name | Description |
+| Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Location Code | Code | Specifies the ID of the location. |
 | Location Name |  Name | Specifies the name of the location. |
@@ -135,7 +135,7 @@ The app uses data from the following table:
 
 #### Table definition
 
-| Power BI Field Name | Business Central Field Name | Description |
+| Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Salesperson Code | Code | Specifies the ID of the salesperson. |
 | Salesperson Name |  Name | Specifies the name of the salesperson. |

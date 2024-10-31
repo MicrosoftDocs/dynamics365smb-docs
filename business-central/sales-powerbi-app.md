@@ -1,6 +1,6 @@
 ---
-title: Sales Power BI app
-description: The Power BI app for sales in Business Central provides comprehensive sales analytics to stakeholders at all levels of your organization.
+title: Power BI Sales app
+description: The Power BI Sales app provides comprehensive sales analytics to stakeholders at all levels of your organization.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -11,11 +11,11 @@ ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Sales Power BI app
+# Power BI Sales app
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The reports in the Power BI sales app provide comprehensive sales analytics to stakeholders at all levels of your organization.
+The reports in the Power BI Sales app provide comprehensive sales analytics to stakeholders at all levels of your organization.
 
 Executives and the leadership team can use the [Sales Overview](sales-powerbi-sales-overview.md), [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md), and [Month-To-Date](sales-powerbi-month-to-date.md) reports to identify trends in sales performance.
 
@@ -23,7 +23,7 @@ Managers and team leaders can track individual sales team performance using the 
 
 Sales teams can use aggregated reports, such as the [Sales by Item](sales-powerbi-sales-by-item.md) and [Sales by Customer](sales-powerbi-sales-by-customer.md) reports, to identify top-selling items and the customers that generate the most revenue. You can drill down from these aggregated views into transaction-level data for more detailed analyses.
 
-You can use the reports in the Power BI sales app for different things, depending on your role. This article provides some examples of use cases for different roles in your organization.
+You can use the reports in the Power BI Sales app for different things, depending on your role. This article provides some examples of use cases for different roles in your organization.
 
 ## Sales analytics for the leadership team
 
@@ -37,7 +37,7 @@ To fit this category, you might have a role such as:
 
 ### Example scenario: preparing for an upcoming board meeting
 
-Imagine you're the CEO of a company, and you're preparing for an upcoming board meeting. You need to present an analysis of your company's sales performance for the current fiscal year. To better understand the company's current position, you can use the Power BI Sales report.
+Imagine you're the CEO of a company, and you're preparing for an upcoming board meeting. You need to present an analysis of your company's sales performance for the current fiscal year. To better understand the company's current position, you can use the Power BI Sales app.
 
 Start by reviewing the [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) report, which provides a quick, comparative view of the current year versus the previous year. Sales are up by 35%, outlined by the [Period-over-Period Growth %](sales-powerbi-sales-kpis.md#period-over-period-growth) metric shown in the following image.
 
@@ -97,9 +97,9 @@ The [Sales by Item](sales-powerbi-sales-by-item.md) report highlights product pe
 
 :::image type="content" source="media/powerbi/sales/sales-by-item-matrix.png" alt-text="Screenshot of the Sales by Item matrix" lightbox="media/powerbi/sales/sales-by-item-matrix.png":::
 
-## Report overview in the Power BI sales app
+## Report overview in the Power BI Sales app
 
-The following table describes the Power BI reports in the sales app and how you can use them.
+The following table describes the reports in the Power BI Sales app and how you can use them.
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | -------------------------------------- | ---------- |

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Period-Over-Period (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Period-Over-Period* report provides valuable insights into your organization's purchasing performance over time. This report compares purchasing amounts for different time periods to the same period in the previous year, allowing you to  identify growth trends and areas for improvement.
 
@@ -40,7 +40,7 @@ The *Period-Over-Period* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Period-Over-Period* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Period-Over-Period* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -49,7 +49,7 @@ The *Period-Over-Period* report use data from the following tables in [!INCLUDE[
 
 Try the report here: [Period-Over-Period](https://businesscentral.dynamics.com?page=37014)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

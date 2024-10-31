@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Actual vs. Budget (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Actual vs. Budget* report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. This report allows you to analyze and monitor purchase data by item categories and items, providing a detailed view of purchase budget and variance.
 
@@ -44,7 +44,7 @@ The *Actual vs Budget* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Actual vs Budget* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Actual vs Budget* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Item
 - Item Category
@@ -56,7 +56,7 @@ The *Actual vs Budget* report use data from the following tables in [!INCLUDE[pr
 
 Try the report here: [Actual vs. Budget](https://businesscentral.dynamics.com?page=37021)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

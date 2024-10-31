@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Purchases By Purchaser (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Purchases by Purchaser* report provides a detailed overview of purchasing activities by purchaser. This report allows you to analyze which item categories and items are most frequently purchased by each purchaser, and how much money they have spent on these purchases.
 
@@ -37,7 +37,7 @@ The *Purchases by Purchaser* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Purchaser* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Purchases by Purchaser* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Salesperson/Purchaser
 - Item
@@ -48,7 +48,7 @@ The *Purchases by Purchaser* report use data from the following tables in [!INCL
 
 Try the report here: [Purchases by Purchaser](https://businesscentral.dynamics.com?page=37017)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

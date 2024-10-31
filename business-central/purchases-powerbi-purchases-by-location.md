@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Purchases by Location (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Purchases by Location* report provides an overview of purchasing activities by location. This report allows you to analyze which item categories and items are most frequently purchased in each location, as well as how much money is being spent on these purchases.
 
@@ -49,7 +49,7 @@ The *Purchases by Location* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Location
 - Item
@@ -60,7 +60,7 @@ The *Purchases by Location* report use data from the following tables in [!INCLU
 
 Try the report here: [Purchases by Location](https://businesscentral.dynamics.com?page=37019)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

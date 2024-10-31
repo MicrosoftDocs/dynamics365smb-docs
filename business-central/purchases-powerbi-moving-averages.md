@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Moving Averages (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Moving Averages* report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the purchase amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
 
@@ -37,7 +37,7 @@ The *Moving Averages* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Moving Averages* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Moving Averages* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -46,7 +46,7 @@ The *Moving Averages* report use data from the following tables in [!INCLUDE[pro
 
 Try the report here: [Moving Averages](https://businesscentral.dynamics.com?page=37012)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

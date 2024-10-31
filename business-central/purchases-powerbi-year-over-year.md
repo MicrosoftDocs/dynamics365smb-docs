@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Year-Over-Year (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Year-Over-Year* report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time. By comparing purchase amounts in the current year with those of the previous year, this report provides valuable insights into the efficiency and effectiveness of an organization's purchasing activities.
 
@@ -41,7 +41,7 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Year-Over-Year* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Year-Over-Year* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -52,7 +52,7 @@ The *Year-Over-Year* report use data from the following tables in [!INCLUDE[prod
 
 Try the report here: [Year-Over-Year](https://businesscentral.dynamics.com?page=37015)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 

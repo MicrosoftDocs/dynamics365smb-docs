@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Daily Purchases (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Daily Purchases* report provides a comprehensive overview of your organization's purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. This report can also be used to analyze purchase data across different years, quarters, or months, providing valuable insights into purchasing trends over time.
 
@@ -37,7 +37,7 @@ The *Daily Purchases* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](../includes/prod_short.md)]
+The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Value Entry
 - Purchase Line
@@ -47,7 +47,7 @@ The *Daily Purchases* report use data from the following tables in [!INCLUDE[pro
 
 Try the report here: [Daily Purchases](https://businesscentral.dynamics.com?page=37011)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
 ## See also

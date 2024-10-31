@@ -18,7 +18,7 @@ To use the Sustainability module effectively, you need to set up some basic cont
 
 ## Role center  
 
-If your primary responsibilities involve sustainability processes, we recommend that you use the *Sustainability Manager* role center. This role center gives you easy access to the core sustainability features, as well as finance and procurement processes. It also shows you the most important sustainability-related key performance indicators (KPIs).
+If your primary responsibilities involve sustainability processes, we recommend that you use the *Sustainability Manager* role center. This role center gives you easy access to the core sustainability features, and finance and procurement processes. It also shows you the most important sustainability-related key performance indicators (KPIs).
 
 To configure this role center, follow the steps:  
 
@@ -83,7 +83,7 @@ To track internal carbon fees or calculate your emissions using carbon dioxide (
 3. You can also specify the **Scope Type**. If you leave this field blank, it  applies to all scopes, but you can configure it for each scope.  
 4. You can configure **Starting Date** and **Ending Date**. This means that you can use different configurations for different periods. 
 5. The **Country/Region Code** and **Responsibility Code** are optional fields that you can use if you want to have different carbon fees or carbon equivalent factors per country/region or per facility (responsibility center). 
-6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on some local or regional regulations, or for internal calculations. Teh **Carbon Fee** is calculated every time when you post emissions and this information is visible on the **Sustainability Ledger Entries**, without any additional posting on **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup** and you can fill this field only for the line where the **Emission Type** is **CO2**. 
+6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on some local or regional regulations, or for internal calculations. The **Carbon Fee** is calculated every time when you post emissions and this information is visible on the **Sustainability Ledger Entries**, without any additional posting on **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup** and you can fill this field only for the line where the **Emission Type** is **CO2**. 
 7. The **Carbon Equivalent Factor** specifies the coefficient that converts the impact of various greenhouse gases into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** is always *1* and you can't modify this value, because CO2 is the reference gas used for calculating the global warming potential (GWP) of other greenhouse gases; since CO2 is the baseline, its GWP is set to *1*. For other GHG gases, you must configure the values manually. 
 To calculate the carbon equivalent factor, you can use the following example: If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, you need to divide 1 by 298 and the result you need to populate is 0.00336.  
 

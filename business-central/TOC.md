@@ -703,7 +703,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)|
 ##### [Purchase and Sales Quantity](inventory-powerbi-inventory-by-item.md)|
 ##### [Item Availability](inventory-powerbi-inventory-by-item.md)|
-##### [Gross Requirement](inventory-powerbi-inventory-by-item.md)|
+##### [Gross Requirement](inventory-powerbi-gross-requirement.md)|
 ##### [Scheduled Receipt](inventory-powerbi-inventory-by-item.md)|
 ##### [Inventory by Lot](inventory-powerbi-inventory-by-item.md)|
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-item.md)|

@@ -1,8 +1,8 @@
 ---
 title: Gross Requirement (Power BI report)
 description: The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item. 
-author: shaungibsonn
-ms.author: 
+author: kennieNP
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -12,14 +12,16 @@ ms.service: dynamics-365-business-central
 ---
 
 # Gross Requirement (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
+
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 
 The *Gross Requirement* report looks at all outbound transactions within the system to identify the quantity required per item. 
 
 The *Gross Requirement* reports shows a view of the Gross Requirement for an item along with the inventory across the different documents. This is coupled with the Project Available Balance which calculates the balance at any point in time. 
 
-:::image type="content" source="../media/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="../media/inventory/gross-requirement.png":::
+:::image type="content" source="media/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="media/inventory/gross-requirement.png":::
+
 
 ## How to use the report
 
@@ -29,7 +31,7 @@ As a manager, you can use the *Gross Requirement* report to ensure that you are 
 
 As a procurement officer, this report allows you to see Sales and Production volumes and ensure your available balance is enough to sustain the requirements for each item. With this, you can make informed decisions on what items need more inventory.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Gross Requirement* report includes the following KPIs:
 
@@ -46,7 +48,7 @@ The *Gross Requirement* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
@@ -67,6 +69,13 @@ Data from the following tables are used on the *Gross Requirement* report
 
 Try the report here: [Gross Requirement](https://businesscentral.dynamics.com?page=37027)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Inventory app](inventory-powerbi-app.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  

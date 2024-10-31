@@ -60,12 +60,12 @@ The following provides descriptions on how you can use each Power BI Report in t
 |Review Inventory levels at a Location to identify key locations where stock is stored | [Inventory by Location](https://businesscentral.dynamics.com?page=37023) | [About *Inventory by Location*](inventory-powerbi-inventory-by-location.md)|
 |Analyze Sales and Purchase quantities for an organization to ensure supply and demand are being met. | [Purchase and Sales Quantity](https://businesscentral.dynamics.com?page=37025) | [About *Purchase and Sales Quantity*](inventory-powerbi-inventory-by-item.md)|
 |See a high-level view of inventory along with the gross requirement, scheduled receipt and planned production volume. | [Item Availability](https://businesscentral.dynamics.com?page=37026) | [About *Item Availability*](inventory-powerbi-inventory-by-item.md)|
-|Analyze the volume of stock required to meet demand into the organization broken down by each different document type | [Gross Requirement](https://businesscentral.dynamics.com?page=37027) | [About *Gross Requirement*](inventory-powerbi-inventory-by-item.md)|
+|Analyze the volume of stock required to meet demand into the organization broken down by each different document type | [Gross Requirement](https://businesscentral.dynamics.com?page=37027) | [About *Gross Requirement*](inventory-powerbi-gross-requirement.md)|
 |Analyze the volume of stock being receipted into the organization broken down by each different document type. | [Scheduled Receipt](https://businesscentral.dynamics.com?page=37028) | [About *Scheduled Receipt*](inventory-powerbi-inventory-by-item.md)|
 |View inventory quantities based on each Lot No. | [Inventory by Lot](https://businesscentral.dynamics.com?page=37029) | [About *Inventory by Lot*](inventory-powerbi-inventory-by-item.md)|
 |View inventory quantities based on each Serial No. | [Inventory by Serial No.](https://businesscentral.dynamics.com?page=37030) | [About *Inventory by Serial No.*](inventory-powerbi-inventory-by-item.md)|
 |Analyze inventory levels across different bins and identify what bins contain active picks. | [Bin Contents](https://businesscentral.dynamics.com?page=37031) | [About *Bin Contents*](inventory-powerbi-inventory-by-item.md)|
-|Analyze inventory levels across bins and see tracking information for the different items in the bin. | [Bin Contents by Item Tracking](https://businesscentral.dynamics.com?page=37032) | [About *Bin Contents by Item Tracking*](inventory-powerbi-inventory-by-item.md)|
+|Analyze inventory levels across bins and see tracking information for the different items in the bin. | [Bin Contents by Item Tracking](https://businesscentral.dynamics.com?page=37032) | [About *Bin Contents by Item Tracking*](inventory-powerbi-bin-contents-by-item-tracking.md)|
 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]

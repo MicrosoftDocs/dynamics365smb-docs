@@ -698,17 +698,17 @@ ms.service: dynamics-365-business-central
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
 #### [Power BI Inventory app](inventory-powerbi-app.md)
-##### [Inventory Overview](inventory-powerbi-inventory-overview.md)|
-##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)|
-##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)|
-##### [Purchase and Sales Quantity](inventory-powerbi-inventory-by-item.md)|
-##### [Item Availability](inventory-powerbi-inventory-by-item.md)|
-##### [Gross Requirement](inventory-powerbi-gross-requirement.md)|
-##### [Scheduled Receipt](inventory-powerbi-inventory-by-item.md)|
-##### [Inventory by Lot](inventory-powerbi-inventory-by-item.md)|
-##### [Inventory by Serial No.](inventory-powerbi-inventory-by-item.md)|
-##### [Bin Contents](inventory-powerbi-inventory-by-item.md)|
-##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)|
+##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
+##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
+##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
+##### [Purchase and Sales Quantity](inventory-powerbi-inventory-by-item.md)
+##### [Item Availability](inventory-powerbi-inventory-by-item.md)
+##### [Gross Requirement](inventory-powerbi-gross-requirement.md)
+##### [Scheduled Receipt](inventory-powerbi-inventory-by-item.md)
+##### [Inventory by Lot](inventory-powerbi-inventory-by-item.md)
+##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
+##### [Bin Contents](inventory-powerbi-inventory-by-item.md)
+##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 #### Built-in inventory and warehouse reports

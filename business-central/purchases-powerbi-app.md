@@ -39,7 +39,7 @@ To fit this category, you might have a role such as:
 - Purchasing Manager
 - Operations Manager
 
-### Example Scenario: reducing raw material costs
+### Example scenario: reducing raw material costs
 As a Purchase Manager of a manufacturing company, you are responsible for ensuring that the company has the necessary raw materials to meet production demands. You notice that the cost for a particular raw material has increased, which could impact the company's profitability. Using the [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md) and [Purchases by Item](purchases-powerbi-purchases-by-item.md) reports, you can quickly identify the vendor that provides the raw material and analyze the purchase amount compared to the previous year. This information can help you negotiate better prices with the vendor.
 
 :::image type="content" source="media/purchases/purchases-amount-by-item-category.png" alt-text="Screenshot of the Purchases Amount by Item Category bar chart" lightbox="media/purchases/purchases-amount-by-item-category.png":::
@@ -56,7 +56,7 @@ To fit this category, you might have a role such as:
 - Purchasing Agent
 - Purchasing Officer
 
-### Example Scenario: selecting vendors for purchasing raw materials
+### Example scenario: selecting vendors for purchasing raw materials
 As a purchaser for a manufacturing company, you are responsible for sourcing raw materials for production. Your role is to keep purchasing costs under control to maintain profitability within the allocated budget. The Purchases by Item report allows you to see the breakdown of purchases by item and category. 
 
 You notice that the company has been spending a significant amount on a particular category of raw materials, and the purchase amount has increased compared to the previous year. You decide to investigate further by looking at the [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md) report, which allows you to see the breakdown of purchases by vendor. 

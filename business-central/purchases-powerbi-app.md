@@ -22,7 +22,7 @@ The Purchase Power BI app for Business Central is designed to provide executives
 To fit this category, you might have a role such as:
 - Chief Executive Officers
 - Chief Procurement Officers
-  
+<!--   
 ### Example scenario: preparing purchasing budgets
 
 As the CEO of a manufacturing company, you need to stay on top of rising raw material costs to maintain profitability. For the leadership team, it is important to understand your organization's spendings. By analyzing the [Purchases Overview](purchases-powerbi-purchases-overview.md) and [Moving Annual Total](purchases-powerbi-moving-annual-total.md) reports, you can get a better understanding into how much money is spent all purchasing activities and quickly spot any increases in raw material costs. 
@@ -85,7 +85,7 @@ The following table describes how you can use the Power BI reports in the Purcha
 | Compare your actual spending against your allocated budget to ensure that spending aligns with financial plans.|[Actual vs Budget](https://businesscentral.dynamics.com?page=37021)|[About *Actual vs Budget*](purchases-powerbi-actual-vs-budget.md)|
 
 [!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
-
+ -->
 ## See also
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   

@@ -658,6 +658,7 @@ ms.service: dynamics-365-business-central
 
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
 #### [Power BI Purchasing app](purchases-powerbi-app.md)
+<!-- 
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
 ##### [Purchases Decomposition](purchases-powerbi-purchase-decomposition.md)
 ##### [Daily Purchases*](purchases-powerbi-daily-purchases.md)  
@@ -668,7 +669,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Item*](purchases-powerbi-purchases-by-item.md)  
 ##### [Purchases by Vendor*](purchases-powerbi-purchases-by-vendor.md)  
 ##### [Purchases by Purchaser*](purchases-powerbi-purchases-by-purchaser.md)  
-##### [Purchases by Location*](purchases-powerbi-purchases-by-location.md)  
+##### [Purchases by Location*](purchases-powerbi-purchases-by-location.md)   -->
 ##### [Actual vs Budget*](purchases-powerbi-actual-vs-budget.md)
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports

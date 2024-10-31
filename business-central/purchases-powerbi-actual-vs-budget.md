@@ -59,3 +59,9 @@ Try the report here: [Actual vs. Budget](https://businesscentral.dynamics.com?pa
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Built-in purchasing reports](purchase-reports.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing overview](purchasing-manage-purchasing.md)  

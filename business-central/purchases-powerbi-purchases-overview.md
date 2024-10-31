@@ -36,6 +36,7 @@ The *Purchases Overview* report includes the following KPIs and measures:
 - [**Amount Received but Not Invoiced (excluding VAT)**](####)
 - [**Invoiced Amount**](####) -->
 
+
 ## Data used in the report
 
 The *Purchases Overview* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
@@ -44,10 +45,19 @@ The *Purchases Overview* report use data from the following tables in [!INCLUDE[
 - Value Entry
 - Purchase Lines
 
+
 ## Try the report
 
 Try the report here: [Purchases Overview](https://businesscentral.dynamics.com?page=37009)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Purchasing app](purchases-powerbi-app.md)  
+[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Built-in purchasing reports](purchase-reports.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing overview](purchasing-manage-purchasing.md)  

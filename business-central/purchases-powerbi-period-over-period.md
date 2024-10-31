@@ -29,14 +29,14 @@ As a CEO, the *Period-Over-Period* report provides insights into your organizati
 
 As a purchasing manager, you can use this report to analyze the growth amount and growth %, and evaluate your company's spendings over the current fiscal year in comparison to the previous fiscal year. This information can assist you in adjusting purchasing plans and allocating budgets more effectively.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Period-Over-Period* report includes the following KPIs and measures: 
 
 - [**Purchase Amount**](####)  
 - [**Previous Period**](####)  
 - [**Period-over-Period Growth Amount**](####)  
-- [**Period-over-Period Growth %**](####)  
+- [**Period-over-Period Growth %**](####)   -->
 
 ## Data used in the report
 

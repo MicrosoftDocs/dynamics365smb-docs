@@ -27,14 +27,14 @@ As a purchasing manager, you want to have a clear understanding of the organizat
 
 As a purchaser, you are responsible for making purchasing decisions for specific items or categories. You want to ensure that you are making informed decisions and getting the best value for the organization. You can use this report to track the purchase amounts and quantities of the items or categories you are responsible for.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Purchases by Item* report includes the following KPIs and measures: 
 
 - [**Purchase Amount**](####)
 - [**Purchase Quantity**](####)
 - [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####)
+- [**% GT Purchase Quantity**](####) -->
 
 ## Data used in the report
 

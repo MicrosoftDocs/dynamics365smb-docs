@@ -31,13 +31,13 @@ As a COO, your goal is to ensure that the purchasing department is operating eff
 
 As a purchasing manager, you are responsible for ensuring that the company sources goods at the best possible price without compromising quality. You can use this report to track purchasing trends across different categories and identify areas where the company could save money. For example, you might notice that a particular category of products is seeing a rapid increase in purchases. With this information in mind, you can take action and work with the manufacturing team to identify if any changes in item planning or supplier selection are required to optimize the cost and quality of the products.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Year-Over-Year* report includes the following KPIs and measures: 
 
 - [**Current Year**](####)
 - [**Previous Year (Fiscal)**](####)
-- [**Current Year YOY (Fiscal)**](####)
+- [**Current Year YOY (Fiscal)**](####) -->
 
 ## Data used in the report
 

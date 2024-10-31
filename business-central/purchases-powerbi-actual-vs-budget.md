@@ -29,7 +29,7 @@ As a purchasing manager, you can use this report to analyze your purchasing data
    
 As a purchaser, you can monitor the variance metrics to ensure that you are meeting your purchasing targets. This report allows you to see the purchasing performance of the specific item categories and items that you are responsible for purchasing. With this information, you can identify areas of opportunity to reduce costs and optimize your approach to purchasing specific items.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Actual vs Budget* report includes the following KPIs and measures: 
 
@@ -40,7 +40,7 @@ The *Actual vs Budget* report includes the following KPIs and measures:
 - [**Budget Amount Variance**](####)
 - [**Budget Amount Variance %**](####)  
 - [**Variance**](####)  
-- [**Variance %**](####)  
+- [**Variance %**](####)   -->
 
 ## Data used in the report
 

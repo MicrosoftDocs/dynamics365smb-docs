@@ -27,14 +27,14 @@ As a purchasing manager, you can use the *Purchases by Vendor* report to analyze
 
 As a purchaser, you can use this report to monitor purchasing activities and identify the suppliers of specific products. For example, if you need to find a list of suppliers for the company components to assemble dining chairs, you can view the purchase quantities and amounts spent on each vendor. The report analysis can help you select the best vendor to buy from.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Purchases by Vendor* report includes the following KPIs and measures: 
 
 - [**Purchase Amount**](####)
 - [**Purchase Quantity**](####)
 - [**% GT Purchase Amount**](####)
-- [**% GT Purchase Amount PY (Fiscal)**](####)
+- [**% GT Purchase Amount PY (Fiscal)**](####) -->
 
 ## Data used in the report
 

@@ -28,12 +28,12 @@ As a purchaser, you are responsible for tracking daily purchases and ensuring th
 
 ---
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Daily Purchases* report includes the following KPIs and measures: 
 
 - [**Purchase Quantity**](####)  
-- [**Purchase Amount**](####)
+- [**Purchase Amount**](####) -->
 
 ## Data used in the report
 

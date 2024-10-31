@@ -27,14 +27,14 @@ As a CEO, you can use the *Purchases Overview* report to keep track of the organ
 
 As a purchasing manager, you can use this report to identify areas where your organization may be overspending or underspending. For example, you may notice that your organization has been spending a lot of money on a specific item category, but the quantity of purchases has been lower than expected. This may include reviewing vendor contracts, finding alternative vendors with better prices, or negotiating better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and ensure compliance with the overall budget.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Purchases Overview* report includes the following KPIs and measures: 
 
 - [**Total Purchase Amount**](####)
 - [**Outstanding Amount (excluding VAT)**](####)
 - [**Amount Received but Not Invoiced (excluding VAT)**](####)
-- [**Invoiced Amount**](####)
+- [**Invoiced Amount**](####) -->
 
 ## Data used in the report
 

@@ -26,14 +26,14 @@ As a purchasing manager, you can easily identify top purchasers and track their 
 
 As a purchaser, you can use this report to monitor your purchasing activities, including purchase amounts and quantities. This report also reveals your top purchased items and how they contribute to the overall spendings. This information can help you to make better decisions about future purchases.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Purchases by Purchaser* report includes the following KPIs and measures:
 
 - [**Purchase Amount**](####)
 - [**Purchase Quantity**](####)
 - [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####)
+- [**% GT Purchase Quantity**](####) -->
 
 ## Data used in the report
 

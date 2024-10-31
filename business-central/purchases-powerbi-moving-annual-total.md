@@ -27,7 +27,7 @@ As a CEO, you can use the *Moving Annual Total* report to monitor the overall pu
 
 As a purchasing manager, you can use this report to analyze the purchasing data over the last 12 months and analyze purchase amounts for specific periods. You can identify purchasing performance by analyzing the MAT growth and growth % by each month. These measures will provide insights into how your team is performing during each period. By identifying the areas where purchasing has been increasing, you can take necessary actions to optimize the purchasing process and ensure that the purchasing budget is being used efficiently.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
@@ -35,7 +35,7 @@ The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 - [**Previous Year Moving Annual Total (PYMAT)**](####)
 - [**Moving Annual Total Growth Amount**](####)
 - [**Moving Annual Total Growth %**](####)
-- [**Purchase Amount**](####)
+- [**Purchase Amount**](####) -->
 
 ## Data used in the report
 

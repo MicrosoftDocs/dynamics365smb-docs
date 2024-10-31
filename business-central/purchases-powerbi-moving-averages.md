@@ -28,12 +28,12 @@ As a purchasing manager, you want to identify which periods have a higher demand
 
 For example, you may notice that purchasing demands are usually higher towards the end of the year, and you can work with your team to plan ahead and allocate staff to handle workload spikes.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Moving Averages* report includes the following KPIs and measures: 
 
 - [**Purchase Amount**](####)
-- [**Purchase Amount Average 30D**](####)
+- [**Purchase Amount Average 30D**](####) -->
 
 ## Data used in the report
 

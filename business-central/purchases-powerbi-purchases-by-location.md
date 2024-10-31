@@ -38,14 +38,14 @@ The *Purchases by Location* report includes the following KPIs:
 
 Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Purchases by Location* report includes the following KPIs and measures: 
 
 - [**Purchase Amount**](####)
 - [**Purchase Quantity**](####)
 - [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####)
+- [**% GT Purchase Quantity**](####) -->
 
 ## Data used in the report
 

@@ -19,7 +19,7 @@ The *Inventory by Item* highlights inventory levels per Item, this can additiona
 
 This report is meant for all users to allow them to see total inventory for an item along with the split of inventory across the business.
 
-:::image type="content" source="../media/inventory/inventory-by-item.png" alt-text="Screenshot of the Inventory by Item Power BI Report" lightbox="media/inventory/inventory-by-item.png":::
+:::image type="content" source="media/inventory/inventory-by-item.png" alt-text="Screenshot of the Inventory by Item Power BI Report" lightbox="media/inventory/inventory-by-item.png":::
 
 ## How to use the report
 

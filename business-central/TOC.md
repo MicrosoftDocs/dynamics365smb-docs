@@ -708,7 +708,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Lot](inventory-powerbi-inventory-by-item.md)|
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-item.md)|
 ##### [Bin Contents](inventory-powerbi-inventory-by-item.md)|
-##### [Bin Contents by Item Tracking](inventory-powerbi-inventory-by-item.md)|
+##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)|
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 #### Built-in inventory and warehouse reports

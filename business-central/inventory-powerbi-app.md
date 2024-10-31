@@ -64,7 +64,7 @@ The following provides descriptions on how you can use each Power BI Report in t
 |Analyze the volume of stock being receipted into the organization broken down by each different document type. | [Scheduled Receipt](https://businesscentral.dynamics.com?page=37028) | [About *Scheduled Receipt*](inventory-powerbi-inventory-by-item.md)|
 |View inventory quantities based on each Lot No. | [Inventory by Lot](https://businesscentral.dynamics.com?page=37029) | [About *Inventory by Lot*](inventory-powerbi-inventory-by-lot.md)|
 |View inventory quantities based on each Serial No. | [Inventory by Serial No.](https://businesscentral.dynamics.com?page=37030) | [About *Inventory by Serial No.*](inventory-powerbi-inventory-by-serial-no.md)|
-|Analyze inventory levels across different bins and identify what bins contain active picks. | [Bin Contents](https://businesscentral.dynamics.com?page=37031) | [About *Bin Contents*](inventory-powerbi-inventory-by-item.md)|
+|Analyze inventory levels across different bins and identify what bins contain active picks. | [Bin Contents](https://businesscentral.dynamics.com?page=37031) | [About *Bin Contents*](inventory-powerbi-bin-contents.md)|
 |Analyze inventory levels across bins and see tracking information for the different items in the bin. | [Bin Contents by Item Tracking](https://businesscentral.dynamics.com?page=37032) | [About *Bin Contents by Item Tracking*](inventory-powerbi-bin-contents-by-item-tracking.md)|
 
 

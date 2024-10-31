@@ -707,7 +707,7 @@ ms.service: dynamics-365-business-central
 ##### [Scheduled Receipt]()
 ##### [Inventory by Lot](inventory-powerbi-inventory-by-lot.md)
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
-##### [Bin Contents]()
+##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)

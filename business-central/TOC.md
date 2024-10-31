@@ -696,6 +696,10 @@ ms.service: dynamics-365-business-central
 ### [Inventory overview](inventory-manage-inventory.md)
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
+
+#### [Power BI Inventory app]()
+##### []()
+
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)

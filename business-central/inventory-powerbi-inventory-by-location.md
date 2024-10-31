@@ -1,8 +1,8 @@
 ---
 title: Inventory by Location (Power BI report)
 description: The Inventory by Location outlines inventory levels across an organizations different locations.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -12,14 +12,15 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Location (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Inventory by Location* outlines inventory levels across an organizations different locations.
 
 It provides an accurate picuture of each location and the inventory levels broken down by Item Category and Item.
 
-:::image type="content" source="../media/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/inventory/inventory-by-location.png":::
+:::image type="content" source="media/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/inventory/inventory-by-location.png":::
+
 
 ## How to use the report
 
@@ -29,7 +30,8 @@ As a Warehouse Manager, this report can highlight each location for your organiz
 
 As a Supply Chain Manager, the *Inventory by Location* report provides you with information about where you are storing each item. With this information you can make informed decisions around shipping and ensuring that items are delivered on time and at the lowest possible cost.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Inventory by Location* report includes the following KPIs:
 
@@ -37,7 +39,7 @@ The *Inventory by Location* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
@@ -51,6 +53,13 @@ Data from the following tables are used on the *Inventory by Location* report
 
 Try the report here: [Inventory by Location](https://businesscentral.dynamics.com?page=37023)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Inventory app](inventory-powerbi-app.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  

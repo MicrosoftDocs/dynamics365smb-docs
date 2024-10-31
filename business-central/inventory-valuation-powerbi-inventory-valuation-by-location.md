@@ -21,7 +21,7 @@ This can be used to identify high value Locations within a company.
 
 The report focuses on the value of each Location showing the beginning Balance, Increase, Decreases and finally the End Balance Value as at the date period defined. 
 
-:::image type="content" source="media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="..media/inventory-valuation/inventory-valuation-by-Location.png":::
+:::image type="content" source="media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="media/inventory-valuation/inventory-valuation-by-Location.png":::
 
 
 ## How to use the report

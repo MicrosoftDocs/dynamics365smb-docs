@@ -1,8 +1,8 @@
 ---
 title: Inventory by Item (Power BI report)
 description: The Inventory by Item highlights inventory levels per Item, this can additionally be viewed per Item Category Code
-author: shaungibsonn
-ms.author: 
+author: kennieNP
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -12,8 +12,8 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Item (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Inventory by Item* highlights inventory levels per Item, this can additionally be viewed per Item Category Code. The report showcases different columns to identify inventory per item on different document types.
 
@@ -27,7 +27,7 @@ The *Inventory by Item* would be used heavily from an Inventory Management persp
 
 As a member of the Inventory Management team, you would use the *Inventory by Item* to ensure you are maintaining a consistent stock level across all items. It highlights inventory levels across a range of documents to you can keep track of receipt, requirement and production levels.
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Inventory by Item* report includes the following KPIs:
 
@@ -45,7 +45,7 @@ The *Inventory by Item* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
@@ -67,6 +67,13 @@ Data from the following tables are used on the *Inventory by Item* report
 
 Try the report here: [Inventory by Item](https://businesscentral.dynamics.com?page=37024)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Inventory app](inventory-powerbi-app.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  

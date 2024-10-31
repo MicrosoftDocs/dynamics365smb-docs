@@ -1,6 +1,6 @@
 ---
 title: Sales KPIs and measures (Power BI)
-description: Get an overview of all the KPIs and measures in the semantic model for the sales Power BI app.
+description: Get an overview of all the KPIs and measures in the semantic model for the Power BI Sales app.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -11,20 +11,18 @@ ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Power BI sales app KPIs and measures
+# KPIs and measures in the Power BI Sales app
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI sales report. 
+This article lists and describes the key performance indicators (KPIs) included in the semantic model for the Power BI Sales app. The descriptions include how the app calculates KPIs and the data it uses for its calculations.
 
-Explore the list of KPIs below to learn more about how they can help you achieve your business goals. 
-
-Each KPI is described, including how it is calculated and what data was used in the calculations.
-
+Explore the KPIs to learn more about how they can help you achieve your business goals.
 
 ## Customer Table
 
 **Customer Measures**
+
 - [No. of Customers](#no-of-customers)
 - [No. of Lost Customers](#no-of-lost-customers)
 - [No. of New Customers](#no-of-new-customers)
@@ -36,95 +34,127 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Sales Returning Customers](#sales-returning-customers)
 
 ### No. of Customers
+
 **Formula**  
-Distinct count of Customer No. column from the Sales table.
+
+Distinct count of the **Customer No.** column from the **Sales** table.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### No. of Lost Customers
+
 **Formula**  
-This measure calculates the number of customers who have been "lost" within the current date selection. It first determines the latest date in the selection, prepares a table of customers and their associated "lost" dates, and then filters out the customers whose lost date falls within the selected date range. Finally, it counts the rows in this filtered table to get the number of lost customers.
+
+This measure calculates the number of customers who were "lost" (stopped purchasing) within the current date selection. It determines the latest date in the selection, prepares a table of customers and their associated "lost" dates, and then filters out the customers whose lost date is within the selected date range. Finally, it counts the rows in this filtered table to get the number of lost customers.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
-
 ### No. of New Customers
+
 **Formula**  
-This measure identifies and counts new customers by finding the date of their first purchase and ensures that only customers with first purchase dates within the current date selection are included.
+
+This measure counts new customers by finding the date of their first purchase. It includes customers if their first purchase happened within the date selection.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### No. of Recovered Customers
+
 **Formula**  
-This measure identifies calculates the number of customers who were temporarily lost (stopped purchasing) but later made a new purchase. It first identifies customers who had a "lost" date before the selected date range, then determines which customers made a new purchase within the current period. The measure filters and counts only those customers whose new purchase occurred after their lost date, returning the total number of recovered customers.
+
+This measure calculates the number of customers who were temporarily "lost" (stopped purchasing) but later made a new purchase. It identifies customers who had a "lost" date before the selected date range, then determines which customers made a new purchase within the current period. The measure filters and counts only those customers whose new purchase occurred after their lost date, returning the total number of recovered customers.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### No. of Returning Customers
+
 **Formula**  
-This measure calculates the number of customers who made a repeat purchase during the current period. It identifies existing customers by filtering those whose first purchase occurred before the selected date range, then determines which of these existing customers made another purchase within the current period. The measure returns the count of these returning customers.
+
+This measure calculates the number of customers who made a repeat purchase during the current period. It identifies existing customers by filtering customers whose first purchase was before the selected date range, then determines which of these customers made another purchase within the current period. The measure returns the count of these returning customers.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales Lost Customers (12M)
+
 **Formula**  
-This measure calculates the total sales lost over the past 12 months due to customers who are no longer purchasing (lost customers). It first identifies the most recent "lost" date, then filters customers who were lost by that date. It retrieves the sales from the previous 12 months for these lost customers, calculating the total revenue they generated before they stopped purchasing.
+
+This measure calculates the total sales lost over the past 12 months due to customers who stopped purchasing ("lost" customers). It first identifies the most recent "lost" date, then filters customers who were lost before that date. It gets the sales from the previous 12 months for these lost customers and calculates the total revenue they generated before they stopped purchasing.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales New Customers
+
 **Formula**  
-This measure calculates the total sales from customers who made their first purchase within the current date range. It first identifies each customer's first purchase date, filters out those whose first purchase occurred during the selected period, and then sums the sales amount from those new customers.
+
+This measure calculates the total sales from customers who made their first purchase within the current date range. It identifies each customer's first purchase date, filters out customers whose first purchase occurred during the selected period, and then sums the sales amount from those new customers.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales Recovered Customers
+
 **Formula**  
-This measure calculates the total sales generated by recovered customers, those who were previously lost but made a purchase after being lost. It identifies temporarily lost customers, checks if they have made a new purchase in the current period, and then sums the sales made by these recovered customers.
+
+This measure calculates the total sales generated by recovered customers. Recovered customers were previously lost but made a purchase afterward. It identifies temporarily lost customers, checks whether they made a new purchase in the current period, and then sums the sales figures for them.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales Returning Customers
+
 **Formula**  
-This measure calculates the total sales generated by returning customers, defined as those who made their first purchase before the current period and have made additional purchases in the current period. It identifies returning customers by finding the intersection of active customers and those who had purchased previously, and then sums the sales from these returning customers.
+
+This measure calculates the total sales generated by returning customers. Returning customers are customers who made their first purchase before the current period and made more purchases in the current period. It identifies returning customers by finding the intersection of active customers and customers who purchased previously, and then sums the sales from these returning customers.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ## Sales Table
+
 **Counters**
+
 - [No. of Distinct Items](#no-of-distinct-items)
 - [No. of Outstanding Sales Orders](#no-of-outstanding-sales-orders)
 - [No. of Posted Sales Invoices](#no-of-posted-sales-invoices)
 - [No. of Shipped Not Invoiced Sales](#no-of-shipped-not-invoiced-sales)
 
 **Sales Measures**
+
 - **Invoiced**
-    - [Invoiced Amount](#invoiced-amount)
-    - [Invoiced Quantity](#invoiced-quantity)
+
+   - [Invoiced Amount](#invoiced-amount)
+   - [Invoiced Quantity](#invoiced-quantity)
 - **Outstanding**
-    - [Outstanding Amount](#outstanding-amount)
-    - [Outstanding Quantity](#outstanding-quantity)
+
+   - [Outstanding Amount](#outstanding-amount)
+   - [Outstanding Quantity](#outstanding-quantity)
 - **Shipped Not Invoiced**
-    - [Shipped Not Invoiced Amount](#shipped-not-invoiced-amount)
-    - [Shipped Not Invoiced Quantity](#shipped-not-invoiced-quantity)
+
+   - [Shipped Not Invoiced Amount](#shipped-not-invoiced-amount)
+   - [Shipped Not Invoiced Quantity](#shipped-not-invoiced-quantity)
 - [Cost Amount](#cost-amount)
 - [Cost Amount Non-Inv](#cost-amount-non-inv)
 - [Gross Profit](#gross-profit)
@@ -133,290 +163,384 @@ This measure calculates the total sales generated by returning customers, define
 - [Sales Quantity](#sales-quantity)
 
 ### Invoiced Amount
-**Formula**  
-Sum of Sales Amount column from the Sales table where Source Type = Value Entries Invoiced.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Amount** column from the **Sales** table where the **Source Type** is **Value Entries Invoiced**.
+
+**Data Source**
+
 - Value Entries
 
 ### Invoiced Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table. where Source Type = Value Entries Invoiced.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Qty. (Base)** column from the **Sales** table where the **Source Type** is **Value Entries Invoiced**.
+
+**Data Source**
+
 - Value Entries
 
 ### Outstanding Amount
-**Formula**  
-Sum of Sales Amount column from the Sales table where Source Type = Sales Order Outstanding.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Amount** column from the **Sales** table where the **Source Type** is **Sales Order Outstanding**.
+
+**Data Source**
+
 - Sales Line
 
 ### Outstanding Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table. where Source Type = Sales Order Outstanding.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Qty. (Base)** column from the **Sales** table where the **Source Type** is **Sales Order Outstanding**.
+
+**Data Source**
+
 - Sales Line
 
 ### Shipped Not Invoiced Amount
-**Formula**  
-Sum of Sales Amount column from the Sales table where Source Type = Sales Order Shipped Not Invoiced.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Amount** column from the **Sales** table where the **Source Type** is **Sales Order Shipped Not Invoiced**.
+
+**Data Source**
+
 - Sales Line
 
 ### Shipped Not Invoiced Quantity
-**Formula**  
-Sum of Sales Qty. (Base) column from the Sales table. where Source Type = Sales Order Shipped Not Invoiced.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Qty. (Base)** column from the **Sales** table where the **Source Type** **Sales Order Shipped Not Invoiced**.
+
+**Data Source**
+
 - Sales Line
 
 ## Sales Budget Table
+
 **Budget Measures**
+
 - [Budget Amount](#budget-amount)
-- [Budget Amount Variance](#budget-amount-variance) 
+- [Budget Amount Variance](#budget-amount-variance)
 - [Budget Amount Variance %](#budget-amount-variance-percent)
 - [Budget Quantity](#budget-quantity)
 - [Budget Quantity Variance](#budget-quantity-variance)
 - [Budget Quantity Variance %](#budget-quantity-variance-percent)
 
 ### Budget Amount
-**Formula**  
-Sum of Sales Amount column from the Sales Budget table.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Sales Amount** column from the **Sales Budget** table.
+
+**Data Source**
+
 - Item Budget Entries
 
 ### Budget Amount Variance
+
 **Formula**  
-[Sales Amount] - [Budget Amount]
+
+The **Sales Amount** minus the **Budget Amount**.
 
 **Data Sources**
+
 - Item Budget Entries
 - Sales Lines
 - Value Entries
 
 ### Budget Amount Variance Percent
+
 **Formula**  
-[Budget Amount Variance] - [Budget Amount]
+
+The **Budget Amount Variance** minus the **Budget Amount**.
 
 **Data Sources**
+
 - Item Budget Entries
 - Sales Lines
 - Value Entries
 
 ### Budget Quantity
-**Formula**  
-Sum of Quantity column from the Sales Budget table.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Quantity** column from the **Sales Budget** table.
+
+**Data Source**
+
 - Item Budget Entries
 
 ### Budget Quantity Variance
+
 **Formula**  
-[Sales Quantity] - [Budget Quantity]
+
+The **Sales Quantity** minus the **Budget Quantity**.
 
 **Data Sources**
+
 - Item Budget Entries
 - Sales Lines
 - Value Entries
 
 ### Budget Quantity Variance Percent
+
 **Formula**  
-[Budget Quantity Variance] - [Budget Quantity]
+
+The **Budget Quantity Variance** minus the **Budget Quantity**.
 
 **Data Sources**
+
 - Item Budget Entries
 - Sales Lines
 - Value Entries
 
-
 ### No. of Distinct Items
+
 **Formula**  
-Distinct count of Item No. column from the Sales table.
+
+The count of the **Item No.** column from the **Sales** table.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### No. of Outstanding Sales Orders
+
 **Formula**  
-Distinct count of Document No. column from the Sales table where Document Type = Order and Source Type = Sales Order Outstanding.
+
+The count of the **Document No.** column from the **Sales** table where the **Document Type** is **Order** and the **Source Type** is **Sales Order Outstanding**.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### No. of Posted Sales Invoices
+
 **Formula**  
-Distinct count of Document No. column from the Sales table where Document Type = Sales Invoice and Source Type = Value Entries Invoiced.
+
+The count of the **Document No.** column from the **Sales** table where the **Document Type** is **Sales Invoice** and the **Source Type** is **Value Entries Invoiced**.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### No. of Shipped Not Invoiced Sales
+
 **Formula**  
-Distinct count of Document No. column from the Sales table where Document Type = Order and Source Type = Sales Order Shipped Not Invoiced.
+
+The count of the **Document No.** column from the **Sales** table where the **Document Type** is **Order** and the **Source Type** is **Sales Order Shipped Not Invoiced**.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
-
 ### Cost Amount
+
 **Formula**  
-Sum of Cost Amt. (LCY) column from the Sales table.
+
+The sum of the **Cost Amt. (LCY)** column from the **Sales** table.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Cost Amount Non-Inv
-**Formula**  
-Sum of Cost Amt. Non-Invtbl. (LCY) column from the Sales table.
 
-**Data Sources**
+**Formula**  
+
+The sum of the **Cost Amt. Non-Invtbl. (LCY)** column from the **Sales** table.
+
+**Data Source**
+
 - Value Entries
 
 ### Gross Profit
+
 **Formula**  
-[Sales Amount] - [Cost Amount] - [Cost Amount Non-Inv]
+
+The **Sales Amount** minus the **Cost Amount** minus the **Cost Amount Non-Inv.**
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Gross Profit MTD (Fiscal)
 
 **Formula**  
+
 This measure calculates month-to-date gross profit using the fiscal calendar, considering only the sales up to the last available fiscal day of the current month and year.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Gross Profit Margin
+
 **Formula**  
-[Gross Profit] / [Sales Amount]
+
+The **Gross Profit** divided by the **Sales Amount**.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales Amount
+
 **Formula**  
-Sum of Sales Amt. (LCY) column from the Sales table.
+
+The sum of the **Sales Amt. (LCY)** column from the **Sales** table.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales Quantity
+
 **Formula**  
-Sum of Sales Qty. (Base) column from the Sales table.
+
+The sum of the **Sales Qty. (Base)** column from the **Sales** table.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 
 ### Sales Amount MTD (Fiscal)
+
 **Formula**  
-This measure calculates month-to-date sales amount using the fiscal calendar, considering only the sales up to the last available fiscal day of the current month and year. 
+
+This measure calculates the month-to-date sales amount using the fiscal calendar. It considers sales up to the last available fiscal day of the current month and year.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Sales Amount MAT (Fiscal)
+
 **Formula**  
-This measure calculates the sales for the last 12 months (moving annual total) using the fiscal calendar by summing up the sales between the calculated first and last days of the 365-day period.
+
+This measure calculates the sales for the last 12 months (moving annual total). It uses the fiscal calendar and sums the sales between the calculated first and last days of the 365-day period.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Sales Amount PYMAT (Fiscal)
+
 **Formula**  
-This measure calculates the total sales for the prior 12 months based on the fiscal calendar.It then determines the maximum available date and calculates the range from 24 months prior to the last available day to 12 months prior. Using these dates, it sums the sales amount for this period while maintaining filters for the day type and week day.
+
+This measure calculates the total sales for the prior 12 months based on the fiscal calendar. It then determines the maximum available date and calculates the range from the previous 24 months to the last available day to 12 months before. It uses these dates to sum the sales amount for this period while maintaining filters for the day type and weekday.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Sales Amount MATG (Fiscal)
+
 **Formula**  
-This measure calculates the year-over-year growth in sales by comparing the current period's moving annual total sales to the previous period's moving annual total sales. If both values are not blank, it subtracts the previous period's sales from the current period's sales to determine the growth. The result is returned, representing the change in sales between the two periods.
+
+This measure calculates the year-over-year growth in sales by comparing the current period's moving annual total sales to the previous period's moving annual total sales. If both values aren't blank, it subtracts the previous period's sales from the current period's sales to determine the growth. The result is the change in sales between the two periods.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Sales Amount MATG % (Fiscal)
+
 **Formula**  
-This measure calculates the percentage growth in sales by dividing the year-over-year growth in sales ([Sales Amount MATG (Fiscal)]) by the previous period's moving annual total sales ([Sales Amount PYMAT (Fiscal)]).
+
+This measure calculates the percentage growth in sales by dividing the year-over-year growth in sales (Sales Amount MATG (Fiscal)) by the previous period's moving annual total sales (Sales Amount PYMAT (Fiscal)).
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
-
 ### Sales Amount AVG 30D (Fiscal)
+
 **Formula**  
-This measure calculates the average sales over the last 30 days based on the fiscal calendar.The measure determines the maximum day in the dataset and defines the 30-day period ending on that day. It retrieves the days within this range while maintaining filters for day type and week day. It also identifies the first day with sales data to ensure valid calculations. If this first day with data is within the 30-day period, it calculates the average sales amount over those days and returns the result.
+
+This measure calculates the average sales over the last 30 days based on the fiscal calendar. The measure determines the maximum day in the dataset and defines the 30-day period ending on that day. It gets the days within this range while maintaining filters for day type and weekday. It also identifies the first day with sales data to ensure valid calculations. If the first day with data is within the 30-day period, it calculates the average sales amount over those days and returns the result.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Sales Amount PP (Fiscal)
+
 **Formula**  
-This measure determines the appropriate sales amount based on the current context of the date hierarchy in the fiscal calendar. It uses the SWITCH function to evaluate whether the context is at the fiscal month, fiscal quarter, or fiscal year level. Depending on which level is active, it returns the corresponding sales amount: either the previous month ([Sales Amount PM (Fiscal)]), previous quarter ([Sales Amount PQ (Fiscal)]), or previous year ([Sales Amount PY (Fiscal)]). 
+
+This measure determines the appropriate sales amount based on the current context of the date hierarchy in the fiscal calendar. It uses the SWITCH function to evaluate whether the context is at the fiscal month, fiscal quarter, or fiscal year level. Depending on which level is active, it returns the corresponding sales amount, which is either:
+
+- Previous month (Sales Amount PM (Fiscal))
+- Previous quarter (Sales Amount PQ (Fiscal))
+- Previous year (Sales Amount PY (Fiscal))
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
 
 ### Sales Amount POP (Fiscal)
+
 **Formula**  
-This measure calculates the change in sales between the current period and the previous period based on the context of the fiscal calendar. It utilizes the SWITCH function to determine the appropriate previous period calculation depending on whether the current context is at the fiscal month, quarter, or year level. When at the fiscal month level, it references the month-over-month change from the Sales Amount MOM (Fiscal) measure, which computes the difference between the current month's sales and the previous month's sales. Similarly, for fiscal quarters and years, it uses quarter-over-quarter and year-over-year calculations, respectively.
+
+This measure calculates the change in sales between the current period and the previous period based on the context of the fiscal calendar. It uses the SWITCH function to determine the appropriate previous period calculation depending on whether the current context is at the fiscal month, quarter, or year level. When at the fiscal month level, it references the month-over-month change from the Sales Amount MOM (Fiscal) measure, which computes the difference between the current month's sales and the previous month's sales. Similarly, for fiscal quarters and years, it uses quarter-over-quarter and year-over-year calculations, respectively.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
-
 
 ### Sales Amount POP % (Fiscal)
+
 **Formula**  
-This measure calculates the percentage growth in sales between the current and previous period based on the context of the fiscal calendar. It utilizes the SWITCH function to determine the appropriate previous period calculation depending on whether the current context is at the fiscal month, quarter, or year level. When at the fiscal month level, it references the month-over-month change from the Sales Amount MOM % (Fiscal) measure, which computes the percentage growth between the current month's sales and the previous month's sales. Similarly, for fiscal quarters and years, it uses quarter-over-quarter and year-over-year calculations, respectively.
+
+This measure calculates the percentage growth in sales between the current and previous period based on the context of the fiscal calendar. It uses the SWITCH function to determine the appropriate previous period calculation depending on whether the current context is at the fiscal month, quarter, or year level. When at the fiscal month level, it references the month-over-month change from the Sales Amount MOM % (Fiscal) measure, which determines the percentage growth between the current month's sales and the previous month's sales. Similarly, for fiscal quarters and years, it uses quarter-over-quarter and year-over-year calculations, respectively.
 
 **Data Sources**
+
 - Value Entries
 - Sales Line
 - Date (Fiscal Calendar)
-
----
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

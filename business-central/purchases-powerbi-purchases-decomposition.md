@@ -19,6 +19,7 @@ The *Purchases Decomposition* report provides a comprehensive breakdown of your 
 
 :::image type="content" source="media/purchases/purchases-decomposition.png" alt-text="Screenshot of the Purchases Decomposition Power BI report" lightbox="media/purchases/purchases-decomposition.png":::
 
+
 ## How to use the report
 
 The *Purchases Decomposition* report is designed for purchasing teams to break down costs and optimize purchasing activities.
@@ -28,11 +29,12 @@ As a purchasing manager, you can use the *Purchases Decomposition* report to ana
 As a purchaser, you can use this report to analyze the purchasing activities for a specific category of item. You could use the visual to analyze the cost breakdown of vendors within the category and identify opportunities to reduce costs, drill down into the data to identify which suppliers are providing the most cost-effective items, and analyze the volume of purchases over time.
 
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Purchases Decomposition* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)  
+- [**Purchase Amount**](####)   -->
+
 
 ## Data used in the report
 
@@ -47,11 +49,13 @@ The *Purchases Decomposition* report use data from the following tables in [!INC
 - Vendor Posting Group
 - Value Entry
 
+
 ## Try the report
 
 Try the report here: [Purchases Decomposition](https://businesscentral.dynamics.com?page=37010)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
+
 
 ## See also
 

@@ -1,8 +1,8 @@
 ---
-title: Inventory by Loc (Power BI report)
+title: Inventory by Lot (Power BI report)
 description: The Inventory by Lot No report highlights your organizations total inventory broken down per lot.
-author: shaungibsonn
-ms.author: 
+author: kennienp
+ms.author: kepontop
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -12,14 +12,15 @@ ms.service: dynamics-365-business-central
 ---
 
 # Inventory by Lot No (Power BI Report)
-[!INCLUDE[applies-to-2024w2](../includes/applies-to-2024w2.md)]
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Inventory by Lot No* report highlights your organizations total inventory broken down per lot where items are lot tracked. 
 
 This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
 
-:::image type="content" source="../media/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/inventory/inventory-by-lot.png":::
+:::image type="content" source="media/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/inventory/inventory-by-lot.png":::
+
 
 ## How to use the report
 
@@ -30,7 +31,7 @@ As an Inventory Manager, you would use the *Inventory by Lot* report to ensure e
 As a Warehouse staff member, the *Inventory by Lot* report assists in providing you a clear picture to see how much inventory is in each lot. This can assist you in making key decisions and ensuring that inventory is properly managed and avoid stock outs.
 
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Inventory by Lot No.* report includes the following KPIs:
 
@@ -40,7 +41,7 @@ The *Inventory by Lot No.* report includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](../includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
@@ -53,6 +54,13 @@ Data from the following tables are used on the *Inventory by Lot No* report
 
 Try the report here: [Inventory by Lot No.](https://businesscentral.dynamics.com?page=37029)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Inventory app](inventory-powerbi-app.md)   
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
+[Inventory overview](inventory-manage-inventory.md)  

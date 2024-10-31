@@ -51,3 +51,10 @@ Try the report here: [Daily Purchases](https://businesscentral.dynamics.com?page
 
 
 ## See also
+
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI Purchasing app](purchases-powerbi-app.md)  
+[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Built-in purchasing reports](purchase-reports.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing overview](purchasing-manage-purchasing.md)  

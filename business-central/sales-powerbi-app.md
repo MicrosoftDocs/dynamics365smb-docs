@@ -39,7 +39,7 @@ To fit this category, you might have a role such as:
 
 Imagine you're the CEO of a company, and you're preparing for an upcoming board meeting. You need to present an analysis of your company's sales performance for the current fiscal year. To better understand the company's current position, you can use the Power BI Sales app.
 
-Start by reviewing the [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) report, which provides a quick, comparative view of the current year versus the previous year. Sales are up by 35%, outlined by the [Period-over-Period Growth %](sales-powerbi-sales-kpis.md#period-over-period-growth) metric shown in the following image.
+Start by reviewing the [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md) report, which provides a quick, comparative view of the current year versus the previous year. Sales are up by 35%, outlined by the [Sales Amount MATG % (Fiscal)](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal) metric shown in the following image.
 
 :::image type="content" source="media/powerbi/sales/sales-period-over-period-fiscal-year.png" alt-text="Screenshot of the Sales Period-Over-Period Power BI report" lightbox="media/powerbi/sales/sales-period-over-period-fiscal-year.png":::
 

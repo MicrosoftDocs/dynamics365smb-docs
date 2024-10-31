@@ -1,6 +1,6 @@
 ---
 title: Inventory Valuation by Location (Power BI report)
-description: The Inventory Valuation Overview highlights the values on an Location by Location basis for an organization.
+description: The *Inventory Valuation by Location* highlights the values on an Location by Location basis for an organization. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
@@ -14,7 +14,6 @@ ms.service: dynamics-365-business-central
 # Inventory Valuation by Location (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
-
 
 The *Inventory Valuation by Location* highlights the values on an Location by Location basis for an organization. 
 

@@ -1,5 +1,5 @@
 ---
-title: Moving Averages
+title: Moving Averages (Power BI Report)
 description: The Moving Averages report provides a comprehensive overview of your organization's average purchase over a 30-day period.
 author: kennieNP
 ms.author: kepontop
@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 
 The *Moving Averages* report provides a comprehensive overview of your organization's average purchase over a 30-day period. This report focuses on the purchase amount and compares the current purchase amount value against a 30-day average, allowing you to quickly identify any deviations from the norm. This information can be used to take proactive measures to address any issues and ensure that your purchasing activities are aligned with the business operations and profitability.
 
-:::image type="content" source="../media/purchases/purchases-moving-averages.png" alt-text="Screenshot of the Moving Averages Power BI report" lightbox="../media/purchases/purchases-moving-averages.png":::
+:::image type="content" source="media/purchases/purchases-moving-averages.png" alt-text="Screenshot of the Moving Averages Power BI report" lightbox="media/purchases/purchases-moving-averages.png":::
 
 ## How to use the report
 

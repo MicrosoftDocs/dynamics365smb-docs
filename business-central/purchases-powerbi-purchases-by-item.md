@@ -1,5 +1,5 @@
 ---
-title: Purchases by Item
+title: Purchases by Item (Power BI Report)
 description: The Purchases by Item report gives a clear picture of your organization's item purchases.
 author: kennieNP
 ms.author: kepontop
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Purchases by Item* report gives a clear picture of your organization's item purchases. It showcases key metrics against each item or item category such as purchase amount and quantities along with the cost amounts.
 
-:::image type="content" source="../media/purchases/purchases-by-item.png" alt-text="Screenshot of the Purchases by Item Power BI report" lightbox="../media/purchases/purchases-by-item.png":::
+:::image type="content" source="media/purchases/purchases-by-item.png" alt-text="Screenshot of the Purchases by Item Power BI report" lightbox="media/purchases/purchases-by-item.png":::
 
 ## How to use the report
 

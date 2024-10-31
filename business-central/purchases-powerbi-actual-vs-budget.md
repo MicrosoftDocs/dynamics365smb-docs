@@ -1,5 +1,5 @@
 ---
-title: Actual vs. Budget
+title: Actual vs. Budget (Power BI Report)
 description: The Actual vs. Budget report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures.
 author: kennieNP
 ms.author: kepontop
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Actual vs. Budget* report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures. This report allows you to analyze and monitor purchase data by item categories and items, providing a detailed view of purchase budget and variance.
 
-:::image type="content" source="../media/purchases/purchases-actual-vs-budget.png" alt-text="Screenshot of the Actual vs. Budget Power BI report" lightbox="../media/purchases/purchases-actual-vs-budget.png":::
+:::image type="content" source="media/purchases/purchases-actual-vs-budget.png" alt-text="Screenshot of the Actual vs. Budget Power BI report" lightbox="media/purchases/purchases-actual-vs-budget.png":::
 
 ## How to use the report
 

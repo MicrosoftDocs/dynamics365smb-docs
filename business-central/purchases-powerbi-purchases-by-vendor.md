@@ -1,5 +1,5 @@
 ---
-title: Purchases by Vendor
+title: Purchases by Vendor (Power BI Report)
 description: The Purchases by Vendor report provides an overview of purchasing activities by vendor.
 author: kennieNP
 ms.author: kepontop
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Purchases by Vendor* report provides an overview of purchasing activities by vendor. This report allows you to analyze which vendors are supplying the most frequently purchased item categories and items, as well as how much money is being spent on these purchases.
 
-:::image type="content" source="../media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="../media/purchases/purchases-by-vendor.png":::
+:::image type="content" source="media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="media/purchases/purchases-by-vendor.png":::
 
 ## How to use the report
 

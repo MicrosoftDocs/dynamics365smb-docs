@@ -1,5 +1,5 @@
 ---
-title: Actual vs. Budget
+title: Purchases by Location (Power BI Report)
 description: The Purchases by Location report provides an overview of purchasing activities by location.
 author: kennieNP
 ms.author: kepontop
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Purchases by Location* report provides an overview of purchasing activities by location. This report allows you to analyze which item categories and items are most frequently purchased in each location, as well as how much money is being spent on these purchases.
 
-:::image type="content" source="../media/purchases/purchases-by-location.png" alt-text="Screenshot of the Purchases by Location Power BI report" lightbox="../media/purchases/purchases-by-location.png":::
+:::image type="content" source="media/purchases/purchases-by-location.png" alt-text="Screenshot of the Purchases by Location Power BI report" lightbox="media/purchases/purchases-by-location.png":::
 
 ## How to use the report
 

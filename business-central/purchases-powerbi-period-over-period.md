@@ -1,5 +1,5 @@
 ---
-title: Period-Over-Period
+title: Period-Over-Period (Power BI Report)
 description: The Period-Over-Period report provides valuable insights into your organization's purchasing performance over time
 author: kennieNP
 ms.author: kepontop
@@ -19,7 +19,7 @@ The *Period-Over-Period* report provides valuable insights into your organizatio
 
 For instance, if the analysis scope is fiscal months, the report compares the purchasing amount in October 2023 to the purchasing amount in October 2022, and if the analysis scope is fiscal years, the report compares the purchasing amount in FY 2023 to the purchasing amount in FY 2022.
 
-:::image type="content" source="../media/purchases/purchases-period-over-period.png" alt-text="Screenshot of the Period-Over-Period Power BI report" lightbox="../media/purchases/purchases-period-over-period.png":::
+:::image type="content" source="media/purchases/purchases-period-over-period.png" alt-text="Screenshot of the Period-Over-Period Power BI report" lightbox="media/purchases/purchases-period-over-period.png":::
 
 ## How to use the report
 

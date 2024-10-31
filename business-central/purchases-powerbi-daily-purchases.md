@@ -1,5 +1,5 @@
 ---
-title: Daily Purchases
+title: Daily Purchases (Power BI Report)
 description: The Daily Purchases report provides a comprehensive overview of your organization's purchase activities on specific days.
 author: kennieNP
 ms.author: kepontop
@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 
 The *Daily Purchases* report provides a comprehensive overview of your organization's purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. This report can also be used to analyze purchase data across different years, quarters, or months, providing valuable insights into purchasing trends over time.
 
-:::image type="content" source="../media/purchases/daily-purchases.png" alt-text="Screenshot of the Daily Purchases Power BI report" lightbox="../media/purchases/daily-purchases.png":::
+:::image type="content" source="media/purchases/daily-purchases.png" alt-text="Screenshot of the Daily Purchases Power BI report" lightbox="media/purchases/daily-purchases.png":::
 
 ## How to use the report
 

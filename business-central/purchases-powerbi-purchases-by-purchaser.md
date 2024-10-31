@@ -1,5 +1,5 @@
 ---
-title: Purchases by Purchaser
+title: Purchases by Purchaser (Power BI Report)
 description: The Purchases by Purchaser report provides a detailed overview of purchasing activities by purchaser.
 author: kennieNP
 ms.author: kepontop
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The *Purchases by Purchaser* report provides a detailed overview of purchasing activities by purchaser. This report allows you to analyze which item categories and items are most frequently purchased by each purchaser, and how much money they have spent on these purchases.
 
-:::image type="content" source="../media/purchases/purchases-by-purchaser.png" alt-text="Screenshot of the Purchases by Purchaser Power BI report" lightbox="../media/purchases/purchases-by-purchaser.png":::
+:::image type="content" source="media/purchases/purchases-by-purchaser.png" alt-text="Screenshot of the Purchases by Purchaser Power BI report" lightbox="media/purchases/purchases-by-purchaser.png":::
 
 ## How to use the report
 The *Purchases by Purchaser* report is especially useful for purchasing managers and purchasers. 

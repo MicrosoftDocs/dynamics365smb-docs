@@ -719,6 +719,7 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Shipment Status](reports/report-7313.md) 
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
+##### [Planning Availability](reports/report-99001048.md)
 
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
@@ -901,7 +902,6 @@ ms.service: dynamics-365-business-central
 #### [Routing Sheet](reports/report-99000787.md)
 #### [Prod. Order Shortage list](reports/report-99000788.md)
 #### [Production Order Statistics](reports/report-99000791.md)
-#### [Planning Availability](reports/report-99001048.md)
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)

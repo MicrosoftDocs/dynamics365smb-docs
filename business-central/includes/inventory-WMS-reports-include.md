@@ -31,6 +31,8 @@ The following table describes some of the key reports in inventory and warehouse
 | Get an overview of source documents that are open, have items that are shipped, or are due to ship for each location. | [Warehouse Shipment Status](https://businesscentral.dynamics.com?report=7313) | [About *Warehouse Shipment Status*](../reports/report-7313.md) | 7313 |
 | Get an overview of warehouse bins, their setup, and the quantity of items in them.  | [Warehouse Bin List](https://businesscentral.dynamics.com?report=7319) | [About *Warehouse Bin List*](../reports/report-7319.md) | 7319 |
 | Get an overview of adjustment bin usage (for advanced warehouse scenarios). | [Warehouse Adjustment Bin](https://businesscentral.dynamics.com?report=7320) | [About *Warehouse Adjustment Bin*](../reports/report-7320.md) | 7320 |
+| [!INCLUDE [report-99001048-scenario](../includes/report-99001048-scenario-include.md)] | [Planning Availability](https://businesscentral.dynamics.com?report=99001048) | [About *Planning Availability*](../reports/report-99001048.md) | 99001048 |
+
 
 <!-- Remove this after 2025-01-01
 

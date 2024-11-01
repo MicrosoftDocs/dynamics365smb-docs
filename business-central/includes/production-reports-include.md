@@ -29,8 +29,6 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000787-scenario](../includes/report-99000787-scenario-include.md)] | [Routing Sheet](https://businesscentral.dynamics.com?report=99000787) | [About *Routing Sheet*](../reports/report-99000787.md) | 99000787 |
 | [!INCLUDE [report-99000788-scenario](../includes/report-99000788-scenario-include.md)] | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order Shortage list*](../reports/report-99000788.md) | 99000788 |
 | [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
-| [!INCLUDE [report-99001048-scenario](../includes/report-99001048-scenario-include.md)] | [Planning Availability](https://businesscentral.dynamics.com?report=99001048) | [About *Planning Availability*](../reports/report-99001048.md) | 99001048 |
-
 
 <!-- remove after 2025-01-01
 

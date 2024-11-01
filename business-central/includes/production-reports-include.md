@@ -11,7 +11,7 @@ The following table describes some of the key reports for production.
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
-| [!INCLUDE [report-5802-scenario](../includes/report-5802-scenario-include.md)] | [Production Order - WIP](https://businesscentral.dynamics.com?report=5802) | [About *Production Order - WIP*](../reports/report-5802.md) | 58702 |
+| [!INCLUDE [report-5802-scenario](../includes/report-5802-scenario-include.md)] | [Production Order - WIP](https://businesscentral.dynamics.com?report=5802) | [About *Production Order - WIP*](../reports/report-5802.md) | 5802 |
 | [!INCLUDE [report-5871-scenario](../includes/report-5871-scenario-include.md)] | [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871) | [About *Item - Able to Make (Time)*](../reports/report-5871.md) | 5871 |
 | [!INCLUDE [report-5872-scenario](../includes/report-5872-scenario-include.md)] | [BOM Cost Share Distribution](https://businesscentral.dynamics.com?report=5872) | [About *BOM Cost Share Distribution*](../reports/report-5872.md) | 5872 |
 | [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=99000753) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |

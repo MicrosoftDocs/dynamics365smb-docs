@@ -32,6 +32,17 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000789-scenario](../includes/report-99000789-scenario-include.md)] | [Subcontractor Dispatch List](https://businesscentral.dynamics.com?report=99000789) | [About *Subcontractor Dispatch List*](../reports/report-99000789.md) | 99000788 |
 | [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
 
+Rolled-up Cost Shares	It shows how the costs of underlying itmes in a BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply.	View Level of Bill of Material. No, Description, Quantity (Case), Base Unit of Measure, Material Cost, Capacity Cost, Overhead Cost, Total Cost	99000754
+
+Prod. Order - Precalc. Time	View details of the calculated times for production orders routing time. This is based on the Production Order information (item, quantity and due date) and it´s manufacturing data (routing and BOM).	By Production Order viw Operation No, Type Description, Starting Time, Starting Date, Ending Time, Ending Date, Input Quantity, Expected Capacity Need	99000764
+
+Prod. Order Detailed Calc	View of all the expected costing information for a given production order based on the details from the routing (Production Cost) and the BOM (Material Cost).	By Production Order shows Operation No, Type, No, Description, Input Qty, Expected Operation Cost Amt	99000768
+
+Single-Level Cost Shares	It shows for a given part the detailed unit cost information shared by Material Cost, Capacity Cost, Subcontract Cost, and Overhead Cost.	View No, Description, Last Unit Cost Calc. Date, Single Level Material Cost, Single Level Capacity Cost, Single Level Subcontract Cost,	99000755
+
+Compare List	View of total cost difference for items based on 2 different items Production BOMs. (Material Qty and Cost).  It compares the components (BOM) for 2 fabricated items.	View No. Description, Unit Cost, Exploded Quantity, Cost Share, Difference Cost	99000758
+
+
 
 <!-- remove after 2025-01-01
 

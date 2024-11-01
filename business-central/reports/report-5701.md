@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The *Item Substitutions* report shows substitute items that are set up to be used instead of another item in case that the latter is not available.	
  
-The report displays information such as View, No., Substitute Type, Substitute Nos, Description, Unit Cost, Quantity on Hand, Base Unit of Measure, Interchangeable, and Conditional.
+The report displays information such as No., Substitute Type, Substitute Nos, Description, Unit Cost, Quantity on Hand, Base Unit of Measure, Interchangeable, and Conditional.
 
 
 ## Use cases
@@ -77,6 +77,8 @@ Try the report here: [Item Substitutions](https://businesscentral.dynamics.com?r
 
 ## See also
 
-[Production report overview](../production-reports.md)  
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

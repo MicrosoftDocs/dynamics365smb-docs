@@ -82,6 +82,14 @@ Try the report here: [Inventory - Transaction Detail](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
+## Contributors
+
+*This article is maintained by Microsoft. Some content was originally written by the following contributors.*
+
+* [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
+
+
 ## See also
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   

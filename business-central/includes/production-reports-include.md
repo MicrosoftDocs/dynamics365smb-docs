@@ -23,6 +23,7 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000759-scenario](../includes/report-99000759-scenario-include.md)] | [Work Centre List](https://businesscentral.dynamics.com?report=99000759) | [About *Work Centre List*](../reports/report-99000759.md) | 99000759 |
 | [!INCLUDE [report-99000760-scenario](../includes/report-99000760-scenario-include.md)] | [Machine Centre List](https://businesscentral.dynamics.com?report=99000760) | [About *Machine Centre List*](../reports/report-99000760.md) | 99000760 |
 | [!INCLUDE [report-99000762-scenario](../includes/report-99000762-scenario-include.md)] | [Prod. Order - Job Card](https://businesscentral.dynamics.com?report=99000762) | [About *Prod. Order - Job Card*](../reports/report-99000762.md) | 99000762 |
+| [!INCLUDE [report-99000764-scenario](../includes/report-99000764-scenario-include.md)] | [Prod. Order - Precalc. Time](https://businesscentral.dynamics.com?report=99000764) | [About *Prod. Order - Precalc. Time*](../reports/report-99000764.md) | 99000764 |
 | [!INCLUDE [report-99000767-scenario](../includes/report-99000767-scenario-include.md)] | [Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order - Calculation*](../reports/report-99000767.md) | 99000767 |
 | [!INCLUDE [report-99000780-scenario](../includes/report-99000780-scenario-include.md)] | [Capacity Task list](https://businesscentral.dynamics.com?report=99000780) | [About *Capacity Task list*](../reports/report-99000780.md) | 99000780 |
 | [!INCLUDE [report-99000783-scenario](../includes/report-99000783-scenario-include.md)] | [Work Center Load](https://businesscentral.dynamics.com?report=99000783) | [About *Work Center Load*](../reports/report-99000783.md) | 99000783 |
@@ -36,8 +37,6 @@ The following table describes some of the key reports for production.
 
 
 <!-- TODO
-
-Prod. Order - Precalc. Time	View details of the calculated times for production orders routing time. This is based on the Production Order information (item, quantity and due date) and it´s manufacturing data (routing and BOM).	By Production Order viw Operation No, Type Description, Starting Time, Starting Date, Ending Time, Ending Date, Input Quantity, Expected Capacity Need	99000764
 
 Prod. Order Detailed Calc	View of all the expected costing information for a given production order based on the details from the routing (Production Cost) and the BOM (Material Cost).	By Production Order shows Operation No, Type, No, Description, Input Qty, Expected Operation Cost Amt	99000768
 

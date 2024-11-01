@@ -899,6 +899,7 @@ ms.service: dynamics-365-business-central
 #### [Item BOM Compare list](reports/report-99000758.md)
 #### [Work Centre List](reports/report-99000759.md)
 #### [Machine Centre List](reports/report-99000760.md)
+#### [Prod. Order - Precalc. Time](reports/report-99000764.md)
 #### [Prod. Order - Calculation](reports/report-99000767.md)
 #### [Capacity Task list](reports/report-99000780.md)
 #### [Work Center Load](reports/report-99000783.md)

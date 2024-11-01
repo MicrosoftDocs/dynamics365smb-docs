@@ -523,6 +523,7 @@ ms.service: dynamics-365-business-central
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
+### [Power BI finance app](finance-powerbi-app.md)
 
 ### Financial reporting (Implementing financial statements and KPIs)
 #### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)

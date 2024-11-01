@@ -1,0 +1,1 @@
+Help you manage and track item substitutions in production orders and bills of materials (BOMs). It allows you to specify substitute items that can be used when the preferred items are not available, ensuring that production can continue smoothly without delays.

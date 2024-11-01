@@ -16,6 +16,7 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-5872-scenario](../includes/report-5872-scenario-include.md)] | [BOM Cost Share Distribution](https://businesscentral.dynamics.com?report=5872) | [About *BOM Cost Share Distribution*](../reports/report-5872.md) | 5872 |
 | [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=99000753) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |
 | [!INCLUDE [report-99000754-scenario](../includes/report-99000754-scenario-include.md)] | [Rolled-up Cost Shares](https://businesscentral.dynamics.com?report=99000754) | [About *Rolled-up Cost Shares*](../reports/report-99000754.md) | 99000754 |
+| [!INCLUDE [report-99000755-scenario](../includes/report-99000755-scenario-include.md)] | [Single-Level Cost Shares](https://businesscentral.dynamics.com?report=99000755) | [About *Single-Level Cost Shares*](../reports/report-99000755.md) | 99000755 |
 | [!INCLUDE [report-99000756-scenario](../includes/report-99000756-scenario-include.md)] | [Detailed Calculation](https://businesscentral.dynamics.com?report=99000756) | [About *Detailed Calculation*](../reports/report-99000756.md) | 99000756 |
 | [!INCLUDE [report-99000757-scenario](../includes/report-99000757-scenario-include.md)] | [Where-Used (Top Level)](https://businesscentral.dynamics.com?report=99000757) | [About *Where-Used (Top Level)*](../reports/report-99000757.md) | 99000757 |
 | [!INCLUDE [report-99000758-scenario](../includes/report-99000758-scenario-include.md)] | [Item BOM Compare list](https://businesscentral.dynamics.com?report=99000758) | [About *Item BOM Compare list*](../reports/report-99000758.md) | 99000758 |
@@ -35,8 +36,6 @@ The following table describes some of the key reports for production.
 
 
 <!-- TODO
-
-Single-Level Cost Shares	It shows for a given part the detailed unit cost information shared by Material Cost, Capacity Cost, Subcontract Cost, and Overhead Cost.	View No, Description, Last Unit Cost Calc. Date, Single Level Material Cost, Single Level Capacity Cost, Single Level Subcontract Cost,	99000755
 
 Compare List	View of total cost difference for items based on 2 different items Production BOMs. (Material Qty and Cost).  It compares the components (BOM) for 2 fabricated items.	View No. Description, Unit Cost, Exploded Quantity, Cost Share, Difference Cost	99000758 
 

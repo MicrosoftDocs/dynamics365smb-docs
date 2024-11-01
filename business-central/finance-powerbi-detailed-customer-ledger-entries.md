@@ -17,8 +17,6 @@ ms.service: dynamics-365-business-central
 
 The Detailed Customer Ledger Entries report provides a view of individual transactions from the detailed Customer ledger enhanced with information from Customer ledger. This report serves as a valuable tool for tracking Customer transactions, reconciliation, and facilitating efficient audits by allowing for easy access to detailed entry information.
 
-![alt text](image.png)
-
 :::image type="content" source="media/finance/detailed-customer-ledger-entries-report.png" alt-text="Screenshot of the Detailed Customer Ledger Entries report" lightbox="media/finance/detailed-customer-ledger-entries-report.png":::
 
 

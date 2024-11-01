@@ -88,7 +88,7 @@ The following table describes the different Power BI reports in the finance app 
 |Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.| [Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994) | [About *Aged Payables (Back Dating)*](finance-powerbi-aged-payables-back-dating.md) |
 |Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. | [General Ledger Entries](https://businesscentral.dynamics.com?page=36995) |[About *General Ledger Entries*](finance-powerbi-general-ledger-entries.md) |
 |Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.| [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996) | [About *Detailed Vendor Ledger Entries*](finance-powerbi-detailed-vendor-ledger-entries.md) |
-|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.| [Detailed Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997) | [About *Detaild Customer Ledger Entries*](finance-powerbi-detailed-customer-ledger-entries.md) |
+|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.| [Detailed Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997) | [About *Detailed Customer Ledger Entries*](finance-powerbi-detailed-customer-ledger-entries.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

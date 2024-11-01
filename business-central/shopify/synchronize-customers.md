@@ -86,10 +86,8 @@ You can export existing customers to Shopify in bulk. In each case, a customer a
 The following are requirements for exporting a customer:
 
 * The customer must have a valid email address.
-* When exporting customers with addresses that include provinces/states, make sure that **ISO Code** is filled in for countries/regions.|
-* When a country/region is selected on the customer card, make sure that **ISO Code** is specified. For local customers with a blank country/region, Shopify Connector uses the country/region specified on the **Company Information** page.
-* If the customer has a phone number, the number must be unique because Shopify won't accept a second customer with the same phone number.
-* If the customer has a phone number, it must be in the E.164 format. Different formats are supported if they represent a number that can be dialed from anywhere in the world. The following formats are valid:
+* When a country/region is selected on the customer card, make sure that **ISO Code** is specified. For local customers with a blank country/region, Shopify Connector uses the country/region specified on the **Company Information** page. That is especailly important when exporting customers with addresses that include provinces/states.
+* If the customer has a phone number, the number must be unique because Shopify won't accept a second customer with the same phone number. The phone number must be in the E.164 format. Different formats are supported if they represent a number that can be dialed from anywhere in the world. The following formats are valid:
 
   * xxxxxxxxxx
   * +xxxxxxxxxxx

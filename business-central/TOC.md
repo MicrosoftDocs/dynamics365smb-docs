@@ -720,6 +720,7 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 ##### [Planning Availability](reports/report-99001048.md)
+##### [Production Forecast](reports/report-990003804.md)
 
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)

@@ -20,7 +20,7 @@ ai.usage: ai-assisted
 The **Inventory - Transaction Detail** report shows all inventory transaction details for selected items for a period you specify.
 
 The report shows:
-
+* Information such as Posting Date, Entry Type., Documnt No., Description, and Entry No.
 * The quantity at the beginning of the period.
 * All increase and decrease entries during the period with a running update of the inventory.
 * The quantity at the close of the period.

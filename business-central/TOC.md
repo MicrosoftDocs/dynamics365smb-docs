@@ -896,6 +896,8 @@ ms.service: dynamics-365-business-central
 #### [Capacity Task list](reports/report-99000780.md)
 #### [Work Center Load](reports/report-99000783.md)
 #### [Machine Center Load](reports/report-99000784.md)
+#### [Work Center Load/Bar](reports/report-99000785.md)
+#### [Machine Center Load/Bar](reports/report-99000786.md)
 #### [Routing Sheet](reports/report-99000787.md)
 #### [Prod. Order Shortage list](reports/report-99000788.md)
 #### [Production Order Statistics](reports/report-99000791.md)

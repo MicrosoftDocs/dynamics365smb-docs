@@ -610,6 +610,21 @@ ms.service: dynamics-365-business-central
 ### [Sales overview](sales-manage-sales.md)
 ### Sales analytics 
 #### [Sales analytics overview](sales-analytics-overview.md)
+
+#### [Power BI sales app](sales-powerbi-app.md)
+##### [Sales overview](sales-powerbi-sales-overview.md)
+##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Moving Average](sales-powerbi-moving-average.md)
+##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
+##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Sales by Item](sales-powerbi-sales-by-item.md)
+##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
+##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
+##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports

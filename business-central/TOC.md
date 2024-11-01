@@ -766,6 +766,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+#### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 #### Built-in project reports
 ##### [Project report overview](project-reports.md)
 ##### [Project Planning Lines](reports/report-1006.md)
@@ -785,7 +786,6 @@ ms.service: dynamics-365-business-central
 ### [Record usage for project](projects-how-record-job-usage.md)
 ### [Manage project supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
-### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
 ### [Assemble to project](projects-assemble-to-project.md)
 

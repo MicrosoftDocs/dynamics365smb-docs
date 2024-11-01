@@ -75,7 +75,7 @@ The following table describes the different Power BI reports in the finance app 
 
 | To... | Open in Business Central (CTRL + select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
-|See a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|[Financial Overview](https://businesscentral.dynamics.com?page=36984)|About Financial Overview|
+|See a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|[Financial Overview](https://businesscentral.dynamics.com?page=36984)| [About *Financial Overview*](./finance-powerbi-financial-overview.md) |
 |Analyze and compare income statement accounts on a monthly basis with the Income Statement by Month report to gain a comparative view of net changes over time.|[Income Statement](https://businesscentral.dynamics.com?page=36985)|About Income Statement|
 |Analyze and compare balance sheet accounts on a monthly basis with the Balance Sheet by Month report to gain a comparative view of balance at date over time.|[Balance Sheet](https://businesscentral.dynamics.com?page=36986)|About Balance Sheet|
 |Compare G/L budgets against actuals on a month-to-month basis and quickly identify variances. |[Budget Comparison](https://businesscentral.dynamics.com?page=36987)|About Budget Comparison|

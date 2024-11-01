@@ -1,6 +1,6 @@
 ---
 title: Project Performance to Budget (Power BI Report)
-description: The Project Overview highlights key high level information for your organizations project activity.
+description: The Project Performance to Budget report is a crucial report in ensure your projects stay under budget. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 

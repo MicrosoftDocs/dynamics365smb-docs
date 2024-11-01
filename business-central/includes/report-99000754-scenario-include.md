@@ -1,0 +1,1 @@
+Get a comprehensive view of the costs associated with manufactured items, broken down into different cost components such as material, capacity, capacity overhead, subcontracting, and manufacturing overhead.

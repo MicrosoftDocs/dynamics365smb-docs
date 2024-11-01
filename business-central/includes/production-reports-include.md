@@ -14,7 +14,8 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-5802-scenario](../includes/report-5802-scenario-include.md)] | [Production Order - WIP](https://businesscentral.dynamics.com?report=5802) | [About *Production Order - WIP*](../reports/report-5802.md) | 58702 |
 | [!INCLUDE [report-5871-scenario](../includes/report-5871-scenario-include.md)] | [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871) | [About *Item - Able to Make (Time)*](../reports/report-5871.md) | 5871 |
 | [!INCLUDE [report-5872-scenario](../includes/report-5872-scenario-include.md)] | [BOM Cost Share Distribution](https://businesscentral.dynamics.com?report=5872) | [About *BOM Cost Share Distribution*](../reports/report-5872.md) | 5872 |
-| [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=101) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |
+| [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=99000753) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |
+| [!INCLUDE [report-99000754-scenario](../includes/report-99000754-scenario-include.md)] | [Rolled-up Cost Shares](https://businesscentral.dynamics.com?report=99000754) | [About *Rolled-up Cost Shares*](../reports/report-99000754.md) | 99000754 |
 | [!INCLUDE [report-99000756-scenario](../includes/report-99000756-scenario-include.md)] | [Detailed Calculation](https://businesscentral.dynamics.com?report=99000756) | [About *Detailed Calculation*](../reports/report-99000756.md) | 99000756 |
 | [!INCLUDE [report-99000757-scenario](../includes/report-99000757-scenario-include.md)] | [Where-Used (Top Level)](https://businesscentral.dynamics.com?report=99000757) | [About *Where-Used (Top Level)*](../reports/report-99000757.md) | 99000757 |
 | [!INCLUDE [report-99000758-scenario](../includes/report-99000758-scenario-include.md)] | [Item BOM Compare list](https://businesscentral.dynamics.com?report=99000758) | [About *Item BOM Compare list*](../reports/report-99000758.md) | 99000758 |
@@ -32,7 +33,8 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000789-scenario](../includes/report-99000789-scenario-include.md)] | [Subcontractor Dispatch List](https://businesscentral.dynamics.com?report=99000789) | [About *Subcontractor Dispatch List*](../reports/report-99000789.md) | 99000788 |
 | [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
 
-Rolled-up Cost Shares	It shows how the costs of underlying itmes in a BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply.	View Level of Bill of Material. No, Description, Quantity (Case), Base Unit of Measure, Material Cost, Capacity Cost, Overhead Cost, Total Cost	99000754
+
+<!-- TODO
 
 Prod. Order - Precalc. Time	View details of the calculated times for production orders routing time. This is based on the Production Order information (item, quantity and due date) and it´s manufacturing data (routing and BOM).	By Production Order viw Operation No, Type Description, Starting Time, Starting Date, Ending Time, Ending Date, Input Quantity, Expected Capacity Need	99000764
 
@@ -40,7 +42,9 @@ Prod. Order Detailed Calc	View of all the expected costing information for a giv
 
 Single-Level Cost Shares	It shows for a given part the detailed unit cost information shared by Material Cost, Capacity Cost, Subcontract Cost, and Overhead Cost.	View No, Description, Last Unit Cost Calc. Date, Single Level Material Cost, Single Level Capacity Cost, Single Level Subcontract Cost,	99000755
 
-Compare List	View of total cost difference for items based on 2 different items Production BOMs. (Material Qty and Cost).  It compares the components (BOM) for 2 fabricated items.	View No. Description, Unit Cost, Exploded Quantity, Cost Share, Difference Cost	99000758
+Compare List	View of total cost difference for items based on 2 different items Production BOMs. (Material Qty and Cost).  It compares the components (BOM) for 2 fabricated items.	View No. Description, Unit Cost, Exploded Quantity, Cost Share, Difference Cost	99000758 
+
+-->
 
 
 

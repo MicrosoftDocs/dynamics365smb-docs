@@ -24,7 +24,8 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000760-scenario](../includes/report-99000760-scenario-include.md)] | [Machine Centre List](https://businesscentral.dynamics.com?report=99000760) | [About *Machine Centre List*](../reports/report-99000760.md) | 99000760 |
 | [!INCLUDE [report-99000762-scenario](../includes/report-99000762-scenario-include.md)] | [Prod. Order - Job Card](https://businesscentral.dynamics.com?report=99000762) | [About *Prod. Order - Job Card*](../reports/report-99000762.md) | 99000762 |
 | [!INCLUDE [report-99000764-scenario](../includes/report-99000764-scenario-include.md)] | [Prod. Order - Precalc. Time](https://businesscentral.dynamics.com?report=99000764) | [About *Prod. Order - Precalc. Time*](../reports/report-99000764.md) | 99000764 |
-| [!INCLUDE [report-99000767-scenario](../includes/report-99000767-scenario-include.md)] | [Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order - Calculation*](../reports/report-99000767.md) | 99000767 |
+| [!INCLUDE [report-99000767-scenario](../includes/report-99000767-scenario-include.md)] | [Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000767) | [About *Prod. Order - Calculation*](../reports/report-99000767.md) | 99000767 |
+| [!INCLUDE [report-99000768-scenario](../includes/report-99000768-scenario-include.md)] | [Prod. Order Detailed Calc](https://businesscentral.dynamics.com?report=99000768) | [About *Prod. Order Detailed Calc*](../reports/report-99000768.md) | 99000768 |
 | [!INCLUDE [report-99000780-scenario](../includes/report-99000780-scenario-include.md)] | [Capacity Task list](https://businesscentral.dynamics.com?report=99000780) | [About *Capacity Task list*](../reports/report-99000780.md) | 99000780 |
 | [!INCLUDE [report-99000783-scenario](../includes/report-99000783-scenario-include.md)] | [Work Center Load](https://businesscentral.dynamics.com?report=99000783) | [About *Work Center Load*](../reports/report-99000783.md) | 99000783 |
 | [!INCLUDE [report-99000784-scenario](../includes/report-99000784-scenario-include.md)] | [Machine Center Load](https://businesscentral.dynamics.com?report=99000784) | [About *Machine Center Load*](../reports/report-99000784.md) | 99000784 |
@@ -34,14 +35,6 @@ The following table describes some of the key reports for production.
 | [!INCLUDE [report-99000788-scenario](../includes/report-99000788-scenario-include.md)] | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order Shortage list*](../reports/report-99000788.md) | 99000788 |
 | [!INCLUDE [report-99000789-scenario](../includes/report-99000789-scenario-include.md)] | [Subcontractor Dispatch List](https://businesscentral.dynamics.com?report=99000789) | [About *Subcontractor Dispatch List*](../reports/report-99000789.md) | 99000788 |
 | [!INCLUDE [report-99000791-scenario](../includes/report-99000791-scenario-include.md)] | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791) | [About *Production Order Statistics*](../reports/report-99000791.md) | 99000791 |
-
-
-<!-- TODO
-
-Prod. Order Detailed Calc	View of all the expected costing information for a given production order based on the details from the routing (Production Cost) and the BOM (Material Cost).	By Production Order shows Operation No, Type, No, Description, Input Qty, Expected Operation Cost Amt	99000768
-
--->
-
 
 
 <!-- remove after 2025-01-01

@@ -528,6 +528,8 @@ ms.service: dynamics-365-business-central
 #### [Income Statement](finance-powerbi-income-statement.md)
 #### [Balance Sheet](finance-powerbi-balance-sheet.md)
 #### [Budget Comparison](finance-powerbi-budget-comparison.md)
+#### [Liquidity KPIs](finance-powerbi-liquidity.md)
+
 
 <!-- 
   finance-powerbi-aged-payables-back-dating.md
@@ -541,10 +543,9 @@ ms.service: dynamics-365-business-central
         finance-powerbi-income-statement.md
         finance-powerbi-kpi.md
         finance-powerbi-liabilities.md
-        finance-powerbi-liquidity.md
+        
         finance-powerbi-profitability.md
 
-#### [Liquidity KPIs]()
 #### [Profitability]()
 #### [Liabilities]()
 #### [EBITDA]()

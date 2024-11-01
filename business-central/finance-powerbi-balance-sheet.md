@@ -19,13 +19,14 @@ The Balance Sheet by Month report provides you with a detailed, month-to-month v
 
 :::image type="content" source="media/finance/balance-sheet-by-month-report.png" alt-text="Screenshot of the Balance Sheet by Month report" lightbox="media/finance/balance-sheet-by-month-report.png":::
 
+
 ## How to use the report
 
 As an executive or senior leader you can use the balance sheet by month report to make informed decision about the company's financial health. You can effectively manage liquidity by comparing current assets to liabilities, ensuring that your short-term obligations can be met. It also provides insights into debt levels relative to equity allowing you to make clearer decisions about financing and capital structure. 
 
-## Key Performance Indicators (KPIs)
+<!-- ## Key Performance Indicators (KPIs)
 
-- [**Balance at Date**](####)
+- [**Balance at Date**](####) -->
 
 ## Data used in the report
 
@@ -34,10 +35,22 @@ The *Balance Sheet by Month* report use data from the following tables in [!INCL
 - G/L Entry
 - G/L Account
 
+
 ## Try the report
 
 Try the report here: [Balance Sheet by Month](https://businesscentral.dynamics.com?page=36986)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Power BI finance app](finance-powerbi-app.md)   
+[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Built-in core finance reports](finance-reports.md)  
+[Built-in fixed assets reports](fa-reports.md)  
+[Built-in accounts receivable reports](receivables-reports.md)  
+[Built-in accounts payable reports](payables-reports.md)  
+[Financial analytics overview](bi.md)   
+[Finance overview](finance.md)    

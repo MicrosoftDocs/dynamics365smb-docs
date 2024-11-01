@@ -1,1 +1,1 @@
-Helps your business manage inventory levels and ensure that items are available when needed.
+Help you manage inventory levels and ensure that items are available when needed.

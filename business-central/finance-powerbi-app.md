@@ -44,7 +44,7 @@ You want to compare the Net Profit Margin for the current quarter versus the sam
 
 :::image type="content" source="media/finance/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Net Profit Margin visual" lightbox="media/finance/net-profit-margin-by-fiscal-year-and-month.png":::
 
-By analyzing the [Profitability](#TODO) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
+By analyzing the [Profitability](#todo) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
 
 :::image type="content" source="media/finance/profitability-snapshot.png" alt-text="Screenshot of the Profitability report" lightbox="media/finance/profitability-snapshot.png":::
 
@@ -76,7 +76,7 @@ The following table describes the different Power BI reports in the finance app 
 | To... | Open in Business Central (CTRL + select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
 |See a snapshot of the organization's financial health and performance. This page displays key performance indicators that give stakeholders a clear view of revenue, profitability, and financial stability.|[Financial Overview](https://businesscentral.dynamics.com?page=36984)| [About *Financial Overview*](./finance-powerbi-financial-overview.md) |
-|Analyze and compare income statement accounts on a monthly basis with the Income Statement by Month report to gain a comparative view of net changes over time.|[Income Statement](https://businesscentral.dynamics.com?page=36985)|About Income Statement|
+|Analyze and compare income statement accounts on a monthly basis with the Income Statement by Month report to gain a comparative view of net changes over time.|[Income Statement](https://businesscentral.dynamics.com?page=36985)| [About *Income Statement*](finance-powerbi-income-statement.md) |
 |Analyze and compare balance sheet accounts on a monthly basis with the Balance Sheet by Month report to gain a comparative view of balance at date over time.|[Balance Sheet](https://businesscentral.dynamics.com?page=36986)|About Balance Sheet|
 |Compare G/L budgets against actuals on a month-to-month basis and quickly identify variances. |[Budget Comparison](https://businesscentral.dynamics.com?page=36987)|About Budget Comparison|
 |Analyze your company's liquidity position and track Current Ratio, Quick Ratio, and Cash Ratio over time. |[Liquidity KPIs](https://businesscentral.dynamics.com?page=36988)|About Liquidity KPIs|
@@ -92,7 +92,7 @@ The following table describes the different Power BI reports in the finance app 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## TODO
+## todo
 
 Placeholder section until we find the direct links
 

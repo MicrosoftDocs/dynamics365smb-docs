@@ -36,13 +36,13 @@ The following table describes some of the key reports for production.
 
 <!-- TODO
 
-Prod. Order - Precalc. Time	View details of the calculated times for production orders routing time. This is based on the Production Order information (item, quantity and due date) and it´s manufacturing data (routing and BOM).	By Production Order viw Operation No, Type Description, Starting Time, Starting Date, Ending Time, Ending Date, Input Quantity, Expected Capacity Need	99000764
-
-Prod. Order Detailed Calc	View of all the expected costing information for a given production order based on the details from the routing (Production Cost) and the BOM (Material Cost).	By Production Order shows Operation No, Type, No, Description, Input Qty, Expected Operation Cost Amt	99000768
-
 Single-Level Cost Shares	It shows for a given part the detailed unit cost information shared by Material Cost, Capacity Cost, Subcontract Cost, and Overhead Cost.	View No, Description, Last Unit Cost Calc. Date, Single Level Material Cost, Single Level Capacity Cost, Single Level Subcontract Cost,	99000755
 
 Compare List	View of total cost difference for items based on 2 different items Production BOMs. (Material Qty and Cost).  It compares the components (BOM) for 2 fabricated items.	View No. Description, Unit Cost, Exploded Quantity, Cost Share, Difference Cost	99000758 
+
+Prod. Order - Precalc. Time	View details of the calculated times for production orders routing time. This is based on the Production Order information (item, quantity and due date) and it´s manufacturing data (routing and BOM).	By Production Order viw Operation No, Type Description, Starting Time, Starting Date, Ending Time, Ending Date, Input Quantity, Expected Capacity Need	99000764
+
+Prod. Order Detailed Calc	View of all the expected costing information for a given production order based on the details from the routing (Production Cost) and the BOM (Material Cost).	By Production Order shows Operation No, Type, No, Description, Input Qty, Expected Operation Cost Amt	99000768
 
 -->
 

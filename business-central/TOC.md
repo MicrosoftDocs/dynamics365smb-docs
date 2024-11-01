@@ -530,9 +530,9 @@ ms.service: dynamics-365-business-central
 #### [Budget Comparison](finance-powerbi-budget-comparison.md)
 #### [Liquidity KPIs](finance-powerbi-liquidity.md)
 #### [Profitability](finance-powerbi-profitability.md)
+#### [Liabilities](finance-powerbi-liabilities.md)
 
 <!-- 
-#### [Liabilities](finance-powerbi-liabilities.md)
 #### [EBITDA](finance-powerbi-ebitda.md)
 #### [Average Collection Period](finance-powerbi-average-collection-period.md)
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)

@@ -890,6 +890,8 @@ ms.service: dynamics-365-business-central
 #### [Detailed Calculation](reports/report-99000756.md)
 #### [Where-Used (Top Level)](reports/report-99000757.md)
 #### [Item BOM Compare list](reports/report-99000758.md)
+#### [Work Centre List](reports/report-99000759.md)
+#### [Machine Centre List](reports/report-99000760.md)
 #### [Prod. Order - Calculation](reports/report-99000767.md)
 #### [Capacity Task list](reports/report-99000780.md)
 #### [Work Center Load](reports/report-99000783.md)
@@ -897,7 +899,6 @@ ms.service: dynamics-365-business-central
 #### [Routing Sheet](reports/report-99000787.md)
 #### [Prod. Order Shortage list](reports/report-99000788.md)
 #### [Production Order Statistics](reports/report-99000791.md)
-#### [Machine Centre List](reports/report-99000760.md)
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)

@@ -526,21 +526,34 @@ ms.service: dynamics-365-business-central
 ### [Power BI finance app](finance-powerbi-app.md)
 #### [Financial Overview](finance-powerbi-financial-overview.md)
 #### [Income Statement](finance-powerbi-income-statement.md)
+#### [Balance Sheet](finance-powerbi-balance-sheet.md)
+#### [Budget Comparison](finance-powerbi-budget-comparison.md)
 
 <!-- 
+  finance-powerbi-aged-payables-back-dating.md
+        finance-powerbi-aged-receivables-back-dating.md
+        finance-powerbi-average-collection-period.md
+        finance-powerbi-detailed-customer-ledger-entries.md
+        finance-powerbi-detailed-vendor-ledger-entries.md
+        finance-powerbi-ebitda.md
+        finance-powerbi-finance-semantic-model.md
+        finance-powerbi-general-ledger-entries.md
+        finance-powerbi-income-statement.md
+        finance-powerbi-kpi.md
+        finance-powerbi-liabilities.md
+        finance-powerbi-liquidity.md
+        finance-powerbi-profitability.md
 
-[Balance Sheet]()
-[Budget Comparison]()
-[Liquidity KPIs]()
-[Profitability]()
-[Liabilities]()
-[EBITDA]()
-[Average Collection Period]()
-[Aged Receivables (Back Dating)]()
-[Aged Payables (Back Dating)]()
-[General Ledger Entries]()
-[Detailed Vendor Ledger Entries]()
-[Detaild Customer Ledger Entries]()
+#### [Liquidity KPIs]()
+#### [Profitability]()
+#### [Liabilities]()
+#### [EBITDA]()
+#### [Average Collection Period]()
+#### [Aged Receivables (Back Dating)]()
+#### [Aged Payables (Back Dating)]()
+#### [General Ledger Entries]()
+#### [Detailed Vendor Ledger Entries]()
+#### [Detaild Customer Ledger Entries]()
 
  -->
 

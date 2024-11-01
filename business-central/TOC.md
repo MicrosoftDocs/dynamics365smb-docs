@@ -610,6 +610,21 @@ ms.service: dynamics-365-business-central
 ### [Sales overview](sales-manage-sales.md)
 ### Sales analytics 
 #### [Sales analytics overview](sales-analytics-overview.md)
+
+#### [Power BI sales app](sales-powerbi-app.md)
+##### [Sales overview](sales-powerbi-sales-overview.md)
+##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Moving Average](sales-powerbi-moving-average.md)
+##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
+##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Sales by Item](sales-powerbi-sales-by-item.md)
+##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
+##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
+##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
@@ -741,7 +756,19 @@ ms.service: dynamics-365-business-central
 
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
-### [Project reports](project-reports.md)
+
+### Built-in project reports
+#### [Project report overview](project-reports.md)
+#### [Project Planning Lines](reports/report-1006.md)
+#### [Project Transaction Detail](reports/report-1007.md)
+#### [Project Analysis](reports/report-1008.md)
+#### [Project Actual to Budget](reports/report-1009.md)
+#### [Project WIP to G/L](reports/report-1010.md)
+#### [Project Suggested Billing](reports/report-1011.md)
+#### [Projects per Customer](reports/report-1012.md)
+#### [Items per Project](reports/report-1013.md)
+#### [Project per Item](reports/report-1014.md)
+
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
 ### [Use time sheets](projects-how-use-time-sheets.md)
@@ -2028,6 +2055,7 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
+### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)

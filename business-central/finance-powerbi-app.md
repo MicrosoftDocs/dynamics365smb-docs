@@ -44,7 +44,7 @@ You want to compare the Net Profit Margin for the current quarter versus the sam
 
 :::image type="content" source="media/finance/net-profit-margin-by-fiscal-year-and-month.png" alt-text="Screenshot of the Net Profit Margin visual" lightbox="media/finance/net-profit-margin-by-fiscal-year-and-month.png":::
 
-By analyzing the [Profitability](#todo) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
+By analyzing the [Profitability](finance-powerbi-profitability.md) report you can easily see that expenses are up from 3.60K to 11.85K for the same period. Although revenue is up by approximately 16.1% the increase in expenses has suppressed growth and produced a marginal increase in profits. 
 
 :::image type="content" source="media/finance/profitability-snapshot.png" alt-text="Screenshot of the Profitability report" lightbox="media/finance/profitability-snapshot.png":::
 
@@ -83,18 +83,15 @@ The following table describes the different Power BI reports in the finance app 
 |Analyze your company's gross and net profits over time. Get detailed insights into net margins, gross profit margins, and the underlying revenue, cost and expense figures that drive them.| [Profitability](https://businesscentral.dynamics.com?page=36989) | [About *Profitability*](finance-powerbi-profitability.md) |
 |Analyze liability account balances as of a specific date. The report also highlights key performance metrics influenced by liabilities, such as the Debt Ratio and Debt-to-Equity Ratio.| [Liabilities](https://businesscentral.dynamics.com?page=36990) | [About *Liabilities*](finance-powerbi-liabilities.md) |
 | Analyze two key profitability metrics: EBITDA and EBIT. These figures are visualized over time to reveal trends, while Operating Revenue and Operating Expenses are also highlighted to provide supporting context for both measures.| [EBITDA](https://businesscentral.dynamics.com?page=36991) | [About *EBITDA*](finance-powerbi-ebitda.md) |
-|Analyze how many days it takes to collect accounts receivable. See trends in the average collection period over time and view supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.| [Average Collection Period](https://businesscentral.dynamics.com?page=36992) |About Average Collection Period|
-|Categorize customer balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days. | [Aged Receivables (Back Dating)](https://businesscentral.dynamics.com?page=36993) |About Aged Receivables (Back Dating) |
-|Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.| [Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994) |About Aged Payables (Back Dating) |
-|Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. | [General Ledger Entries](https://businesscentral.dynamics.com?page=36995) |About General Ledger Entries|
-|Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.| [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996) |About Detailed Vendor Ledger Entries|
-|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.| [Detaild Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997) |About Detailed Customer Ledger Entries|
+|Analyze how many days it takes to collect accounts receivable. See trends in the average collection period over time and view supporting details such as the Number of Days, Accounts Receivable, and Accounts Receivable (Average) to provide context and enhance the analysis.| [Average Collection Period](https://businesscentral.dynamics.com?page=36992) | [About *Average Collection Period*](finance-powerbi-average-collection-period.md) |
+|Categorize customer balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days. | [Aged Receivables (Back Dating)](https://businesscentral.dynamics.com?page=36993) | [About *Aged Receivables (Back Dating)*](finance-powerbi-aged-receivables-back-dating.md) |
+|Categorize vendor balances into aging buckets and see a breakdown by payment term. Age by document date, due date or posting date and customize the aging bucket size by number of days.| [Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994) | [About *Aged Payables (Back Dating)*](finance-powerbi-aged-payables-back-dating.md) |
+|Analyze general ledger entries in detail and slice g/l entries by all eight shortcut dimensions. | [General Ledger Entries](https://businesscentral.dynamics.com?page=36995) |[About *General Ledger Entries*](finance-powerbi-general-ledger-entries.md) |
+|Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.| [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996) | [About *Detailed Vendor Ledger Entries*](finance-powerbi-detailed-vendor-ledger-entries.md) |
+|Analyze entries posted to the Customer Ledger and Detailed Customer Sub Ledger.| [Detailed Customer Ledger Entries](https://businesscentral.dynamics.com?page=36997) | [About *Detaild Customer Ledger Entries*](finance-powerbi-detailed-customer-ledger-entries.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## todo
-
-Placeholder section until we find the direct links
 
 ## See also
 

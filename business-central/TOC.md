@@ -532,11 +532,11 @@ ms.service: dynamics-365-business-central
 #### [Profitability](finance-powerbi-profitability.md)
 #### [Liabilities](finance-powerbi-liabilities.md)
 #### [EBITDA](finance-powerbi-ebitda.md)
-
-<!-- 
 #### [Average Collection Period](finance-powerbi-average-collection-period.md)
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
 #### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+
+<!-- 
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
 #### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
 #### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)

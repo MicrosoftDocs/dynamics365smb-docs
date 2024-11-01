@@ -887,6 +887,7 @@ ms.service: dynamics-365-business-central
 
 ### Built-in production reports
 #### [Production report overview](production-reports.md)
+#### [Production Order - WIP](reports/report-5802.md)
 #### [Item - Able to Make (Time)](reports/report-5871.md)
 #### [BOM Cost Share Distribution](reports/report-5872.md)
 #### [Quantity Explosion of BOM](reports/report-99000753.md)

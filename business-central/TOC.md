@@ -898,10 +898,22 @@ ms.service: dynamics-365-business-central
 ### [Manufacturing overview](production-manage-manufacturing.md)
 
 ### Manufacturing analytics
-#### [Power BI Manufacturing app](sales-powerbi-app.md)
-
+<!-- Manufacturing analytics start -->
+#### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
+##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
+##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
+##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
+##### [Allocated Hours](manufacturing-powerbi-allocated-hours.md) 
+##### [Expected Capacity Need](manufacturing-powerbi-expected-capacity-need.md) 
+##### [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) 
+##### [Consumption Variance](manufacturing-powerbi-consumption-variance.md) 
+##### [Capacity Variance](manufacturing-powerbi-capacity-variance.md) 
+##### [Average Production Times](manufacturing-powerbi-avergage-production-times.md) 
+##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
+##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
 
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
+
 #### Built-in production reports
 ##### [Production report overview](production-reports.md)
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
@@ -914,6 +926,7 @@ ms.service: dynamics-365-business-central
 ##### [Machine Center Load](reports/report-99000784.md)
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Production Order Statistics](reports/report-99000791.md)
+<!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)

@@ -903,6 +903,7 @@ ms.service: dynamics-365-business-central
 #### [Machine Center Load/Bar](reports/report-99000786.md)
 #### [Routing Sheet](reports/report-99000787.md)
 #### [Prod. Order Shortage list](reports/report-99000788.md)
+#### [Subcontractor Dispatch List](reports/report-99000789.md)
 #### [Production Order Statistics](reports/report-99000791.md)
 
 ### [About production orders](production-about-production-orders.md)

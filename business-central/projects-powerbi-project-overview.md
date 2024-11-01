@@ -12,6 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Project Overview (Power BI Report)
+
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 The *Projects Overview* report showcases key metrics based on all ongoing projects for your organization and provides a high-level summary of key information. 
@@ -20,6 +21,7 @@ This can highlight key metrics such as the % Invoiced, % Complete and other valu
 
 :::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/projects-overview.png":::
 
+
 ## How to use the report
 The *Project Overview* is designed to be used by leadership and project managers to provide them with high-level information on each project and overall organizational project information.
 
@@ -27,7 +29,8 @@ As someone on the leadership team, using the *Project Overview* you can get a bi
 
 As a project manager,  you can use the *Project Overview* to gain a better understanding of the health of all your projects. This would highlight what is performing well and what isn't and where you can make changes to support this.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 The *Project Overview* reoprt includes the following KPIs:
 - [**% Complete**](###)
 - [**% Invoiced**](###)
@@ -40,7 +43,8 @@ The *Project Overview* reoprt includes the following KPIs:
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+
 
 ## Data used in the report
 Data from the following tables is used in the *Project Overview* report [!INCLUDE[prod_short](includes/prod_short.md)]
@@ -49,7 +53,14 @@ Data from the following tables is used in the *Project Overview* report [!INCLUD
 - Project Planning Line
 
 ## Try the report
+
 Try the report here: [Project Overview](https://businesscentral.dynamics.com?page=37033)
+
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Projects app](projects-powerbi-app.md)   
+[Built-in Projects reports](project-reports.md)  
+[Project management overview](projects-manage-projects.md)  

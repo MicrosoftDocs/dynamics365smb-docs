@@ -35,14 +35,14 @@ As a Project Manager, you want to be able to view how each project is performing
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
-## How to use the reports in the Inventory App
+## How to use the reports in the Projects App
 
-The following provides descriptions on how you can use each Power BI Report in the Inventory App.
+The following provides descriptions on how you can use each Power BI Report in the Projects App.
 
 |To... | Open in Business Central (CTRL+click) | Learn more	|
 |------|---------------------------------------|----------- |
 |Get a high-level view of your organizations projects and see key metrics to track performance across the different projects. | [Project Overview](https://businesscentral.dynamics.com?page=37033) | [About *Projects Overview*](projects-powerbi-project-overview.md)|
-|View all projects and their tasks along with the costs and prices associated to each. | [Project Tasks](https://businesscentral.dynamics.com?page=37034) | [About *Projects Tasks*](projects-powerbi-project-tasks.md)|
+|View all projects and their tasks along with the costs and prices associated to each. | [Project Tasks](https://businesscentral.dynamics.com?page=37034) | [About *Project Tasks*](projects-powerbi-project-tasks.md)|
 |Analyze profit performance of each job and ensure targets are being met. | [Project Profitability](https://businesscentral.dynamics.com?page=37035) | [About *Projects Profitability*](projects-powerbi-project-profitability.md)
 |View completion statistics of projects. | [Project Realization](https://businesscentral.dynamics.com?page=37036) | [About *Projects Realization*](projects-powerbi-project-realization.md)
 |Track the performance of each project and how they are tracking against their budget. | [Project Performance to Budget](https://businesscentral.dynamics.com?page=37037) | [About *Projects Performance to Budget*](projects-powerbi-project-performance-to-budget.md)

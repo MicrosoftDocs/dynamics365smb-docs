@@ -1,5 +1,5 @@
 ---
-title: Project Overview (Power BI report)
+title: Project Performance to Budget (Power BI Report)
 description: The Project Overview highlights key high level information for your organizations project activity.
 author: kennienp
 ms.author: kepontop

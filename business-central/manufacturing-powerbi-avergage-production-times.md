@@ -19,6 +19,7 @@ The *Average Production Times* report shows the detailed average production time
 
 :::image type="content" source="media/manufacturing/avergage-production-times.png" alt-text="Screenshot of the Average Production Times Power BI Report" lightbox="media/manufacturing/avergage-production-times.png":::
 
+
 ## How to use the report
 
 The *Average Production Times* report is meant for manufacturing managers and supervisors.
@@ -27,7 +28,8 @@ As a manufacturing manager, you use the *Average Production Times* report to fin
 
 As a production supervisor, you can use this report to monitor the production time for a particular item and the quantity produced on production orders. For instance, if you notice that the production time for a particular item is longer than expected, you can use the report to identify the cause of the delay and optimize the production process to increase efficiency.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Average Production Times* report includes the following KPIs and measures: 
 
@@ -35,7 +37,8 @@ The *Average Production Times* report includes the following KPIs and measures:
 - [Run Time per Unit (Hours)](####)
 - [Stop Time per Unit (Hours)](####)
 - [Capacity Used per Unit (Hours)](####)
-- [Finished Quantity (Base)](####)
+- [Finished Quantity (Base)](####) -->
+
 
 ## Data used in the report
 
@@ -45,10 +48,17 @@ The *Average Production Times* report use data from the following tables in [!IN
 - Production Order
 - Capacity Ledger Entry
   
+
 ## Try the report
 
 Try the report here: [Average Production Times](https://businesscentral.dynamics.com?page=37048)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

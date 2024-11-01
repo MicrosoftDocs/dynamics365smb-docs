@@ -19,6 +19,7 @@ The *Expected Capacity Need* report provides insights into the expected capacity
 
 :::image type="content" source="media/manufacturing/expected-capacity-need.png" alt-text="Screenshot of the Expected Capacity Need Power BI Report" lightbox="media/manufacturing/expected-capacity-need.png":::
 
+
 ## How to use the report
 
 The *Expected Capacity Need* report is meant for manufacturing managers and supervisors.
@@ -27,13 +28,15 @@ As a manufacturing manager, you can use the *Expected Capacity Need* report to v
 
 As a production supervisor, you can use this report to understand the workload of your work center group and take actions to handle the expected capacity need. The report provides insights into the expected capacity need, capacity used, and capacity used variance, allowing you to optimize the utilization of resources and machinery equipment efficiently.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Expected Capacity Need* report includes the following KPIs and measures: 
 
 - [Expected Capacity Need (Hours)]()
 - [Capacity Used (Hours)]()
-- [Capacity Used Variance (Hours)]()
+- [Capacity Used Variance (Hours)]() -->
+
 
 ## Data used in the report
 
@@ -43,10 +46,17 @@ The *Expected Capacity Need* report use data from the following tables in [!INCL
 - Production Order Routing Line
 - Capacity Ledger Entry
 
+
 ## Try the report
 
 Try the report here: [Expected Capacity Need](https://businesscentral.dynamics.com?page=37044)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

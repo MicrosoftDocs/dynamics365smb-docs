@@ -19,6 +19,7 @@ The *Capacity Variance* report provides an overview of the variance between expe
 
 :::image type="content" source="media/manufacturing/capacity-variance.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/capacity-variance.png":::
 
+
 ## How to use the report
 
 The *Capacity Variance* report is meant for manufacturing managers and supervisors.
@@ -27,14 +28,16 @@ As a manufacturing manager, you can use the *Capacity Variance* report to track 
 
 As a production supervisor, you can use this report to monitor the performance of your production lines and ensure that they are operating within budget. By tracking the actual capacity costs against the expected costs, you can quickly identify any deviations. For example, if the report shows that the cost of raw materials has increased significantly, you can investigate whether the issue is due to supplier pricing or production inefficiencies.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Capacity Variance* report includes the following KPIs and measures: 
 
 - [Capacity Cost Amt. Deviation %](####)
 - [Expected Capacity Cost Amount](####)
 - [Capacity Cost Amt. (Actual)](####)
-- [Capacity Cost Amt. Variance](####)
+- [Capacity Cost Amt. Variance](####) -->
+
 
 ## Data used in the report
 
@@ -44,10 +47,17 @@ The *Capacity Variance* report use data from the following tables in [!INCLUDE[p
 - Production Order
 - Capacity Ledger Entry
   
+
 ## Try the report
 
 Try the report here: [Capacity Variance](https://businesscentral.dynamics.com?page=37047)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

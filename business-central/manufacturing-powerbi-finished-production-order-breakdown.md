@@ -19,6 +19,7 @@ The *Finished Production Order Breakdown* report provides insights into the expe
 
 :::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
 
+
 ## How to use the report
 
 The *Finished Production Order Breakdown* report is meant for manufacturing managers and supervisors.
@@ -27,7 +28,8 @@ As a manufacturing manager, you can use the *Finished Production Order Breakdown
 
 As a production supervisor, you can use this report to track the progress of the production orders and ensure that the production process is running smoothly. The report provides insights into the expected quantity versus the finished quantity, allowing you to identify any discrepancies.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Finished Production Order Breakdown* report includes the following KPIs and measures: 
 
@@ -39,7 +41,7 @@ The *Finished Production Order Breakdown* report includes the following KPIs and
 - [Cost Amt. Variance](####)
 - [Cost Amt. Deviation](####)
 - [Cost Amt. Deviation %](####)
-- [Capacity Used per Unit (Hours)](####)
+- [Capacity Used per Unit (Hours)](####) -->
 
 
 ## Data used in the report
@@ -49,10 +51,17 @@ The *Finished Production Order Breakdown* report use data from the following tab
 - Item
 - Production Order
 
+
 ## Try the report
 
 Try the report here: [Finished Production Order Breakdown](https://businesscentral.dynamics.com?page=37045)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

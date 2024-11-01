@@ -19,6 +19,7 @@ The *Released Production Orders* report provides detailed information about all 
 
 :::image type="content" source="media/manufacturing/released-production-orders.png" alt-text="Screenshot of the Released Production Orders Power BI Report" lightbox="media/manufacturing/released-production-orders.png":::
 
+
 ## How to use the report
 
 The *Released Production Orders* report is meant for manufacturing managers and supervisors.
@@ -27,13 +28,15 @@ As a manufacturing manager, you can use *Released Production Orders* report to t
 
 As a production supervisor, you can use this report to monitor the expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is significantly lower than the expected quantity, you may need to adjust the production schedule to ensure that the order is completed on time.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Released Production Orders* report includes the following KPIs and measures: 
 
 - [Expected Quantity (Base)]()
 - [Finished Quantity (Base)]()
-- [Qty. Variance]()
+- [Qty. Variance]() -->
+
 
 ## Data used in the report
 
@@ -42,10 +45,17 @@ The *Released Production Orders* report use data from the following tables in [!
 - Item
 - Production Order
 
+
 ## Try the report
 
 Try the report here: [Released Production Orders](https://businesscentral.dynamics.com?page=37049)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

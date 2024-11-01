@@ -896,8 +896,14 @@ ms.service: dynamics-365-business-central
 
 ## Manufacturing
 ### [Manufacturing overview](production-manage-manufacturing.md)
-### Built-in production reports
-#### [Production report overview](production-reports.md)
+
+### Manufacturing analytics
+#### [Power BI Manufacturing app](sales-powerbi-app.md)
+
+
+#### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
+#### Built-in production reports
+##### [Production report overview](production-reports.md)
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
 ##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
@@ -917,7 +923,6 @@ ms.service: dynamics-365-business-central
 ### [Batch post output and run times](production-how-to-post-output-quantity.md)
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
-### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 ### [Post capacities](production-how-to-post-capacities.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 

@@ -19,6 +19,7 @@ The *Consumption Variance* report highlights the variance between expected and a
 
 :::image type="content" source="media/manufacturing/consumption-variance.png" alt-text="Screenshot of the Consumption Variance Power BI Report" lightbox="media/manufacturing/consumption-variance.png":::
 
+
 ## How to use the report
 
 The *Consumption Variance* report is meant for manufacturing managers and supervisors.
@@ -27,14 +28,16 @@ As a manufacturing manager, you can use the *Consumption Variance* report to mon
 
 As a production supervisor, you can use this report to track the consumption costs of your production lines and ensure that they are operating within budget. By tracking the actual costs against the expected costs, you can quickly identify any deviations and report to the manager to adjust the production processes.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Consumption Variance* report includes the following KPIs and measures: 
 
 - [Consumption Cost Amt. Deviation %](####)
 - [Expected Consumption Cost Amount](####)
 - [Consumed Cost Amount (Actual)](####)
-- [Consumption Cost Amt. Variance](####)
+- [Consumption Cost Amt. Variance](####) -->
+
 
 ## Data used in the report
 
@@ -43,10 +46,17 @@ The *Consumption Variance* report use data from the following tables in [!INCLUD
 - Production Order
 - Item Ledger Entry
   
+
 ## Try the report
 
 Try the report here: [Consumption Variance](https://businesscentral.dynamics.com?page=37046)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

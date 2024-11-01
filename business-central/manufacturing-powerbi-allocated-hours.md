@@ -19,6 +19,7 @@ The *Allocated Hours* report provides an overview of the allocated time in hours
 
 :::image type="content" source="media/manufacturing/allocated-hours.png" alt-text="Screenshot of the Allocated Hours Power BI Report" lightbox="media/manufacturing/allocated-hours.png":::
 
+
 ## How to use the report
 
 The *Allocated Hours* report is designed to help manufacturing managers and workers optimize resource allocation
@@ -29,13 +30,15 @@ For instance, if you notice that a work center is underutilized, you can assign 
 
 As a manufacturing worker, you can use this report to optimize your resource usage. You can analyze the allocated time in hours of each work center and then plan your work accordingly.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Allocated Hours* report includes the following KPIs and measures: 
 
 - [Load %](####)
 - [Allocated Time (Hours)](####)
-- [Capacity Available (Hours)](####)
+- [Capacity Available (Hours)](####) -->
+
 
 ## Data used in the report
 
@@ -45,10 +48,17 @@ The *Allocated Hours* report use data from the following tables in [!INCLUDE[pro
 - Work Center
 - Work Center Group
 
+
 ## Try the report
 
 Try the report here: [Allocated Hours](https://businesscentral.dynamics.com?page=37043)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

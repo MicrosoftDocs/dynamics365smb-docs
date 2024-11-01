@@ -19,6 +19,7 @@ The *Production Scrap* report highlights the capacity scrap quantity each month,
 
 :::image type="content" source="media/manufacturing/production-scrap.png" alt-text="Screenshot of the Production Scrap Power BI Report" lightbox="media/manufacturing/production-scrap.png":::
 
+
 ## How to use the report
 
 The *Production Scrap* report is meant for business leaders and manufacturing managers.
@@ -27,11 +28,13 @@ As a COO, you can use the *Production Scrap* report to measure the effectiveness
 
 As a manufacturing manager, this report reveals important measures about capacity scrap quantity. By analyzing the scrap rate, you can identify areas that need improvement, such as processes or materials. For example, if the scrap rate is high for a particular item category, it may indicate a problem with the materials used. By addressing these issues, you can reduce waste and optimize resource use, leading to cost savings.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Production Scrap* report includes the following KPIs and measures: 
 
-- [Capacity Scrap Quantity]()
+- [Capacity Scrap Quantity]() -->
+
 
 ## Data used in the report
 
@@ -41,10 +44,17 @@ The *Production Scrap* report use data from the following tables in [!INCLUDE[pr
 - Location
 - Item Category
 
+
 ## Try the report
 
 Try the report here: [Production Scrap](https://businesscentral.dynamics.com?page=37055)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

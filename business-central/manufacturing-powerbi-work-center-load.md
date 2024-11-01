@@ -19,6 +19,7 @@ The *Work Center Load* report measures the work center load and the allocated ca
 
 :::image type="content" source="media/manufacturing/work-center-load.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/work-center-load.png":::
 
+
 ## How to use the report
 
 The *Work Center Load* report is meant for manufacturing managers and supervisors.
@@ -27,13 +28,15 @@ As a manufacturing manager, you can use this report to ensure that each work cen
 
 As a production supervisor, you can use this report to monitor the work center load and report to the manufacturing manager. By analyzing the load percentage and allocated time, you can identify any work centers that are overloaded and report this information to the manufacturing manager. This helps ensure that the workload is distributed evenly across all work centers and that production runs smoothly.
 
-## Key Performance Indicators (KPIs)
+
+<!-- ## Key Performance Indicators (KPIs)
 
 The *Work Center Load* report includes the following KPIs and measures: 
 
 - [Load %]()
 - [Allocated Time (Hours)]()
-- [Capacity Available (Hours)]()
+- [Capacity Available (Hours)]() -->
+
 
 ## Data used in the report
 
@@ -43,10 +46,17 @@ The *Work Center Load* report use data from the following tables in [!INCLUDE[pr
 - Production Order Routing Line
 - Work Center
   
+
 ## Try the report
 
 Try the report here: [Work Center Load](https://businesscentral.dynamics.com?page=37042)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## See also
+
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
+[Built-in production reports](production-reports.md)    
+[Manufacturing overview](production-manage-manufacturing.md)  

@@ -19,7 +19,7 @@ The *Projects Overview* report showcases key metrics based on all ongoing projec
 
 This can highlight key metrics such as the % Invoiced, % Complete and other values which provide insights into how projects are tracking for your organizations.
 
-:::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/projects-overview.png":::
+:::image type="content" source="media/project/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
 
 
 ## How to use the report

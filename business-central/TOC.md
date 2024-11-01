@@ -757,6 +757,15 @@ ms.service: dynamics-365-business-central
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
 
+#### [Power BI Projects app](projects-powerbi-app.md)
+##### [Projects Overview](projects-powerbi-project-overview.md)
+##### [Projects Tasks](projects-powerbi-project-tasks.md)
+##### [Projects Profitability](projects-powerbi-project-profitability.md)
+##### [Projects Realization](projects-powerbi-project-realization.md)
+##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
+##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
+##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+
 ### Built-in project reports
 #### [Project report overview](project-reports.md)
 #### [Project Planning Lines](reports/report-1006.md)

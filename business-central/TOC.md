@@ -901,7 +901,7 @@ ms.service: dynamics-365-business-central
 #### [Machine Centre List](reports/report-99000760.md)
 #### [Prod. Order - Precalc. Time](reports/report-99000764.md)
 #### [Prod. Order - Calculation](reports/report-99000767.md)
-#### [Prod. Order Detailed Calc](../reports/report-99000768.md)
+#### [Prod. Order Detailed Calc](reports/report-99000768.md)
 #### [Capacity Task list](reports/report-99000780.md)
 #### [Work Center Load](reports/report-99000783.md)
 #### [Machine Center Load](reports/report-99000784.md)

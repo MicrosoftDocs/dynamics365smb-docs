@@ -11,6 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Insure fixed assets
 
 Use the **Insurance Card** page to set up an insurance policy to cover one or more fixed assets. You can assign one fixed asset to one insurance policy, or multiple fixed assets to one insurance policy.
@@ -69,11 +70,11 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 
 ### Overview of insurance policies
 
-To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  
+To get an overview of your insurance policies, use the [Insurance - List](reports/report-5621.md) report.
 
 ### Insurance coverage
 
-To see which insurance policies cover each asset and by which amount, you can preview or print the **Insurance - Tot. Value Insured** report.  
+To see which insurance policies cover each asset and by which amount, use the [Insurance - Tot. Value Insured](reports/report-5625.md) report.
 
 #### Over/under coverage
 
@@ -118,6 +119,9 @@ The fixed asset is removed from the incorrect insurance policy on the second lin
 
 ## See also
 
+[Insurance - List (report)](reports/report-5621.md)  
+[Insurance - Tot. Value Insured (report)](reports/report-5625.md)   
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  

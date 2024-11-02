@@ -1,0 +1,1 @@
+Help monitor and manage your insurance coverage for fixed assets, ensuring that the assets are adequately insured.

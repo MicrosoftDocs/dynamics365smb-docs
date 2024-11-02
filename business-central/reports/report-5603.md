@@ -30,6 +30,8 @@ You can explore all transactions posted for fixed assets with information such a
 
 On the request page, you can set a filter for the relevant fixed asset. If you don't set any filters, the report shows the register for all fixed assets.
 
+The report can be defined so that it functions as a part of the posting process; that is, it can be printed when you post. To print the register when the journal is posted, select Post and Print on the journal. The report can be used either for documenting the posted entries or for auditing.
+
 ## About the fixed assets register
 
 [!INCLUDE[prod_short](../includes/prod_short.md)] automatically assigns consecutive entry numbers to all entries that you post to depreciation books. In the FA registers, the entries are sorted by the entry number order, regardless of the FA numbers or depreciation book numbers.

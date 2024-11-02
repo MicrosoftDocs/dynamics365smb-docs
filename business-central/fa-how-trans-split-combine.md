@@ -4,16 +4,20 @@ description: You reclassify a fixed asset to transfer it to a different departme
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.form: 5638, 5636, 5640, 5637
+ms.search.form: 5638, 5636, 5640, 5637, Report_5606
 ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Transfer, Split, or Combine Fixed Assets
 
-You use the fixed asset reclassification journal to transfer, split up, and combine fixed assets. You view or print the results of fixed asset reclassification with the **Fixed Asset-Book Value 02** report.
+You can reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets. These registrations are done using the fixed asset reclassification journal.
+
+If you need to see the results of fixed asset reclassifications, use the the [Fixed Asset Book Value 02](reports/report-5606.md) report.
+
 
 ## To transfer a fixed asset to a different department
 
@@ -31,7 +35,9 @@ You may need to transfer a fixed asset to a different department when, for examp
 
 If you have posted an acquisition cost for one asset, you can use the fixed asset reclassification journal to split the acquisition cost among several assets.  
 
+
 ## To split a fixed asset into three fixed assets
+
 You can split one fixed asset into multiple fixed assets, for example when you need to distribute a fixed asset onto three different departments. In that case, you can move, for example, 25 percent of the acquisition cost and depreciation for the original fixed asset to the second fixed asset and 45 percent to the third asset. The remaining 30 percent will remain on the original fixed asset.
 
 1. Set up two new fixed assets. Enter the relevant departments as dimensions.  
@@ -47,6 +53,7 @@ You can split one fixed asset into multiple fixed assets, for example when you n
 9. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
 10. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
 
+
 ## To combine two fixed assets into one
 
 You can combine multiple fixed assets into one fixed asset, for example when you move distributed fixed assets into one department. If you have posted acquisition costs and depreciation for the fixed asset to be moved, those values will be combined in the single fixed asset.
@@ -61,14 +68,19 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
 7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
 
+
 ## To view changed depreciation book values due to fixed asset reclassification
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Book Value 02**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.  
 
+For more information, see [Fixed Asset Book Value 02 (report)](reports/report-5606.md).
+
+
 ## See also
 
+[Fixed Asset Book Value 02 (report)](reports/report-5606.md)  
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  

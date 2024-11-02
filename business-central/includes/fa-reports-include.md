@@ -21,7 +21,6 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)] | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
 | [!INCLUDE[report-5610-scenario](../includes/report-5610-scenario-include.md)] | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*](../reports/report-5610.md) | 5610 |
 | [!INCLUDE[report-5621-scenario](../includes/report-5621-scenario-include.md)] | [Insurance - List](https://businesscentral.dynamics.com?report=5621) | [About *Insurance - List*](../reports/report-5621.md) | 5621 |
-
 | [!INCLUDE[report-5625-scenario](../includes/report-5625-scenario-include.md)] | [Insurance - Tot. Value Insured](https://businesscentral.dynamics.com?report=5625) | [About *Insurance - Tot. Value Insured*](../reports/report-5625.md) | 5625 |
 
 
@@ -31,10 +30,6 @@ The following table describes some of the key reports in fixed assets management
 https://learn.microsoft.com/en-us/dynamics365/business-central/fa-how-insure#to-monitor-insurance-coverage
 
 5625
-To see which insurance policies cover each asset and by which amount, you can preview or print the Insurance - Tot. Value Insured report.
-
-in Dynamics NAV provides a summary of the total insured value of fixed assets. 
-It helps businesses ensure that their fixed assets are adequately insured by showing the total coverage amount for all insured assets.
 
 
 

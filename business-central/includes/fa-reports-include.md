@@ -13,6 +13,7 @@ The following table describes some of the key reports in fixed assets management
 |-------|------------| ------------|----|
 | [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset Analysis*](../reports/report-5600.md) | 5600 |
 | [!INCLUDE[report-5601-scenario](../includes/report-5601-scenario-include.md)] | [Fixed Asset List](https://businesscentral.dynamics.com?report=5601) | [About *Fixed Asset List*](../reports/report-5601.md) | 5601 |
+| [!INCLUDE[report-5602-scenario](../includes/report-5602-scenario-include.md)] | [Fixed Asset Journal - Test](https://businesscentral.dynamics.com?report=5602) | [About *Fixed Asset Journal - Test*](../reports/report-5602.md) | 5602 |
 | [!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) | [About *Fixed Asset Register*](../reports/report-5603.md) | 5603 |
 | [!INCLUDE[report-5604-scenario](../includes/report-5604-scenario-include.md)] | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset Details*](../reports/report-5604.md) | 5604 |
 | [!INCLUDE[report-5605-scenario](../includes/report-5605-scenario-include.md)] | [Fixed Asset Book Value 01](https://businesscentral.dynamics.com?report=5605) | [About *Fixed Asset Book Value 01*](../reports/report-5605.md) | 5605 |
@@ -41,11 +42,6 @@ Shows a list of fixed asset ledger entries, sorted by document type and number. 
 
 
 
-5602
-Fixed Asset Journal - Test
-Shows the journal lines in an FA journal. You can use the report to have the lines checked before you post the journal.
-
-If you run the test report from a journal window, the report is automatically filtered by the current journal template and journal batch names. In this case, you do not have to enter anything on the FastTabs.
 
 
 

@@ -797,6 +797,7 @@ ms.service: dynamics-365-business-central
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis](reports/report-5600.md)
 ##### [Fixed Asset List](reports/report-5601.md)
+##### [Fixed Asset Journal - Test](reports/report-5602.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
 ##### [Fixed Asset Details](reports/report-5604.md)
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)

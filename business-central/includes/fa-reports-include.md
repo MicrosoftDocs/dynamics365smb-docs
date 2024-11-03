@@ -21,6 +21,7 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)] | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
 | [!INCLUDE[report-5610-scenario](../includes/report-5610-scenario-include.md)] | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*](../reports/report-5610.md) | 5610 |
 | [!INCLUDE[report-5611-scenario](../includes/report-5611-scenario-include.md)] | [FA Posting Group - Net Change Report](https://businesscentral.dynamics.com?report=5611) | [About *FA Posting Group - Net Change Report*](../reports/report-5611.md) | 5611 |
+| [!INCLUDE[report-5620-scenario](../includes/report-5620-scenario-include.md)] | [Insurance - Analysis](https://businesscentral.dynamics.com?report=5620) | [About *Insurance - Analysis*](../reports/report-5620.md) | 5620 |
 | [!INCLUDE[report-5621-scenario](../includes/report-5621-scenario-include.md)] | [Insurance - List](https://businesscentral.dynamics.com?report=5621) | [About *Insurance - List*](../reports/report-5621.md) | 5621 |
 | [!INCLUDE[report-5625-scenario](../includes/report-5625-scenario-include.md)] | [Insurance - Tot. Value Insured](https://businesscentral.dynamics.com?report=5625) | [About *Insurance - Tot. Value Insured*](../reports/report-5625.md) | 5625 |
 
@@ -29,21 +30,117 @@ The following table describes some of the key reports in fixed assets management
 
 https://learn.microsoft.com/en-us/dynamics365/business-central/fa-how-insure#to-monitor-insurance-coverage
 
+
 5623	Insurance Register
-Insurance Journal entries you post for a Fixed Asset are visible in Insurance Register -> Insurance Coverage Ledger.
+Shows posted insurance ledger entries that are sorted and divided by register number. You can determine which registers' entries are shown by setting a filter. It is important to set a filter; otherwise, the report may show a very large amount of information.
+
+The report can be defined so that it functions as a part of the posting process; that is, it can be printed when you post. To print the register when the journal is posted, on the Action Pane, in the Process actions group, choose Post and Print in the journal. The report can be used either for documenting the posted entries or for auditing.
+
+
 
 5624	Insurance - Coverage Details
+hows the individual fixed assets that are linked to each insurance policy. For each insurance policy, the report shows one or more amounts for each asset. These are the amounts that need insurance coverage. These amounts can differ from the actual insurance policy's coverage.
 
 
-You can check whether fixed assets are over- or under-insured in the following ways:
-
-The Over/Under Coverage report.
-The Insurance Analysis report.
-
-
-5626
+5626 
+Insurance - Uninsured FAs
 To check whether you forgot to assign a fixed asset to an insurance policy, you can print or preview the Insurance - Uninsured FAs report. This report displays fixed assets for which amounts aren't posted to the insurance coverage ledger.
 
+
+5622
+Insurance Journal - Test
+Shows the journal lines in an insurance journal. You can use the report to have the lines checked before you post the journal.
+
+If you run the report from the Actions tab and post in a journal window, the report automatically filters by the current journal template and journal batch names. In this case, you do not have to enter anything on the tabs. If you run the report from the report list, you can define what is to be included in it by setting filters.
+
+
+5636
+Shows a list of fixed asset ledger entries, sorted by document type and number. The report includes the document type, document number, posting date and source code of the entry, the description and number of the fixed asset, and so on. A warning appears when there is a gap in the number series or the documents were not posted in document-number order.
+
+
+5602
+Shows the journal lines in an FA journal. You can use the report to have the lines checked before you post the journal.
+
+If you run the test report from a journal window, the report is automatically filtered by the current journal template and journal batch names. In this case, you do not have to enter anything on the FastTabs.
+
+
+
+5630
+Maintenance - Analysis
+Shows detailed maintenance expenses for fixed assets. The report can show maintenance expenses for fixed assets for different time periods broken down by maintenance types or other categories such as, fixed asset class.
+
+Options
+Field	Description
+Depreciation Book
+
+Select the depreciation book code for the depreciation book to be included in the report.
+
+Date Selection
+
+Select the date options that can be used in the report. You can choose between the posting date and the fixed asset posting date.
+
+Starting Date
+
+Enter the first date to be included in the report.
+
+Ending Date
+
+Enter the last date to be included in the report.
+
+Amount Field 1 , Amount Field 2, Amount Field 3
+
+The report has three amount fields that can show maintenance amounts broken down by different maintenance types. Select the maintenance code for the maintenance type you want to include in the report.
+
+Period 1 , Period 2, Period 3
+
+Select one of the options: Before Starting Date, Net Change or at Ending Date. Net Change is the period between the starting and ending date. The selected option determines how the program calculates the maintenance amounts shown in the report.
+
+Group Totals
+
+Select if you want the report to group fixed assets and print totals using the category defined in this field. For example, maintenance expenses for fixed assets can be shown for each fixed asset class.
+
+Print per Fixed Asset
+
+Select if you want the report to show amounts for each fixed asset.
+
+
+
+5634
+Maintenance - Details
+Shows detailed information about the maintenance ledger entries that have been posted to each fixed asset for the depreciation book that you specify in the report.
+
+Options
+Field	Description
+Depreciation Book
+Select the depreciation book code for the depreciation book to be included in the report.
+
+New Page per FA
+Select if you want the report to print data for each fixed asset on a separate page.
+
+Include Reversed Entries
+Select if you want to include reversed entries in the report.
+
+
+
+5635
+Maintenance - Next Service
+Shows each fixed asset and shows the next date on which service and repairs are planned for each asset. For each asset, the program retrieves this date from the Next Service Date field on the fixed asset card.
+
+Options
+Field	Description
+Starting Date
+Enter the first date to be included in the report. Fixed assets that have a next service date before the date in this field will not be included.
+
+Ending Date
+Enter the last date to be included in the report. Fixed assets that have a next service date after the date in this field will not be included.
+
+
+
+5633
+Maintenance Register
+Shows posted maintenance entries that are sorted and divided by register number. You can determine which registers' entries are shown by setting a filter. It is important to set a filter; otherwise, the report may show a very large amount of information.
+
+The report can be defined so that it functions as a part of the posting process; that is, it can be printed when you post. To print the register when the journal is posted, on the Actions tab, in the Posting group, choose Post and Print in the journal. The report can be used for documenting the posted entries or for auditing.
 
 
 

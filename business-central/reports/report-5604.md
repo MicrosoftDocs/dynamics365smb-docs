@@ -19,6 +19,8 @@ ai.usage: ai-assisted
 
 The **Fixed Asset Details** report shows fixed asset ledger entries for fixed assets. The report provides detailed information about each fixed asset, including acquisition cost, depreciation, and book value.
 
+You can choose to include reversed entries in the report.
+
 ## Use cases
 
 [!INCLUDE[report-5604-scenario](../includes/report-5604-scenario-include.md)]

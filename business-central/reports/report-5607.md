@@ -21,11 +21,17 @@ The **Fixed Asset Projected Value** report shows the projected depreciation amou
 
 The report is a detailed analysis that forecasts the future value of an organization's fixed assets over a specified period. Forecasts are useful when you use multiple depreciation methods and you want to review the projected depreciation values.
 
+Projected depreciation is calculated for two periods:
+
+- For the first period, the report uses the dates in the Posted Entries From field and the First Depreciation Date field. If you enter a date before the last posted depreciation entry, no depreciation is calculated as of the first depreciation date.
+- For the second period, the report uses the dates in the First Depreciation Date field and the Last Depreciation Date field. The depreciation amount calculated for the second period can either be shown as a single amount or as several amounts broken down by the time interval specified in the Number of Days field.
+
+
 You can explore the following budgeted depreciation information:
 
-* The book value and accumulated depreciation at the beginning of the selected period.
-* Changes during the period.
-* The book value and accumulated depreciation at the end of the selected period.
+- The book value and accumulated depreciation at the beginning of the selected period.
+- Changes during the period.
+- The book value and accumulated depreciation at the end of the selected period.
 
 The report is useful, for example, when you have different depreciation methods and want to estimate depreciation for the next year. 
 

@@ -18,7 +18,8 @@ When you prepare a balance sheet and income statement, you might have to generat
 * Accumulated depreciation and book value at the end of a period.
 * List your fixed assets for inventory, insurance, and other management purposes.
 
-This article describes the most used reports for fixed assets.
+
+This article describes the built-in reports for fixed assets.
 
 
 ## Fixed assets core reports
@@ -29,6 +30,10 @@ This article describes the most used reports for fixed assets.
 ## Fixed assets insurance reports
 
 [!INCLUDE [fa_insurance_reports](includes/fa-insurance-reports-include.md)]
+
+## Fixed assets maintenance reports
+
+[!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
 
 
 ## Explore finance reports with Report Explorer

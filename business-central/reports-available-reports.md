@@ -78,6 +78,10 @@ For more information about analytics on fixed assets, see [Fixed Assets Reports 
 
 [!INCLUDE [fa_insurance_reports](includes/fa-insurance-reports-include.md)]
 
+### Fixed assets maintenance reports
+
+[!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
+
 
 ## Assembly reports
 

@@ -806,6 +806,7 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
 ##### [Insurance - Analysis](reports/report-5620.md)
 ##### [Insurance - List](reports/report-5621.md)
+##### [Insurance Journal - Test](reports/report-5622.md)
 ##### [Insurance Register](reports/report-5623.md)
 ##### [Insurance - Coverage Details](reports/report-5624.md)
 ##### [Insurance - Tot. Value Insured](reports/report-5625.md)

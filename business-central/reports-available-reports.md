@@ -65,11 +65,19 @@ For more information, see [Inventory and Warehouse Reports and Analytics in Busi
 
 For more information, see [Project Reports and Analytics in Business Central](project-reports.md).
 
+
 ## Fixed assets reports
+
+For more information about analytics on fixed assets, see [Fixed Assets Reports and Analytics in Business Central](fa-reports.md).
+
+### Fixed assets core reports
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
-For more information, see [Fixed Assets Reports and Analytics in Business Central](fa-reports.md).
+### Fixed assets insurance reports
+
+[!INCLUDE [fa_insurance_reports](includes/fa-insurance-reports-include.md)]
+
 
 ## Assembly reports
 

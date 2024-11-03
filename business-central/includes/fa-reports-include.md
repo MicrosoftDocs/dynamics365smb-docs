@@ -26,16 +26,12 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5623-scenario](../includes/report-5623-scenario-include.md)] | [Insurance Register](https://businesscentral.dynamics.com?report=5623) | [About *Insurance Register*](../reports/report-5623.md) | 5623 |
 | [!INCLUDE[report-5624-scenario](../includes/report-5624-scenario-include.md)] | [Insurance - Coverage Details](https://businesscentral.dynamics.com?report=5624) | [About *Insurance - Coverage Details*](../reports/report-5624.md) | 5624 |
 | [!INCLUDE[report-5625-scenario](../includes/report-5625-scenario-include.md)] | [Insurance - Tot. Value Insured](https://businesscentral.dynamics.com?report=5625) | [About *Insurance - Tot. Value Insured*](../reports/report-5625.md) | 5625 |
+| [!INCLUDE[report-5626-scenario](../includes/report-5626-scenario-include.md)] | [Insurance - Uninsured FAs](https://businesscentral.dynamics.com?report=5626) | [About *Insurance - Uninsured FAs*](../reports/report-5626.md) | 5626 |
 
 
 <!-- TODO: Add articles for these
 
 https://learn.microsoft.com/en-us/dynamics365/business-central/fa-how-insure#to-monitor-insurance-coverage
-
-
-5626 
-Insurance - Uninsured FAs
-To check whether you forgot to assign a fixed asset to an insurance policy, you can print or preview the Insurance - Uninsured FAs report. This report displays fixed assets for which amounts aren't posted to the insurance coverage ledger.
 
 
 5622

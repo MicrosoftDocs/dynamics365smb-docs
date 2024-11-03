@@ -23,19 +23,13 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5611-scenario](../includes/report-5611-scenario-include.md)] | [FA Posting Group - Net Change Report](https://businesscentral.dynamics.com?report=5611) | [About *FA Posting Group - Net Change Report*](../reports/report-5611.md) | 5611 |
 | [!INCLUDE[report-5620-scenario](../includes/report-5620-scenario-include.md)] | [Insurance - Analysis](https://businesscentral.dynamics.com?report=5620) | [About *Insurance - Analysis*](../reports/report-5620.md) | 5620 |
 | [!INCLUDE[report-5621-scenario](../includes/report-5621-scenario-include.md)] | [Insurance - List](https://businesscentral.dynamics.com?report=5621) | [About *Insurance - List*](../reports/report-5621.md) | 5621 |
+| [!INCLUDE[report-5623-scenario](../includes/report-5623-scenario-include.md)] | [Insurance Register](https://businesscentral.dynamics.com?report=5623) | [About *Insurance Register*](../reports/report-5623.md) | 5623 |
 | [!INCLUDE[report-5625-scenario](../includes/report-5625-scenario-include.md)] | [Insurance - Tot. Value Insured](https://businesscentral.dynamics.com?report=5625) | [About *Insurance - Tot. Value Insured*](../reports/report-5625.md) | 5625 |
 
 
 <!-- TODO: Add articles for these
 
 https://learn.microsoft.com/en-us/dynamics365/business-central/fa-how-insure#to-monitor-insurance-coverage
-
-
-5623	Insurance Register
-Shows posted insurance ledger entries that are sorted and divided by register number. You can determine which registers' entries are shown by setting a filter. It is important to set a filter; otherwise, the report may show a very large amount of information.
-
-The report can be defined so that it functions as a part of the posting process; that is, it can be printed when you post. To print the register when the journal is posted, on the Action Pane, in the Process actions group, choose Post and Print in the journal. The report can be used either for documenting the posted entries or for auditing.
-
 
 
 5624	Insurance - Coverage Details

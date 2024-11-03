@@ -1,0 +1,1 @@
+See posted fixed assets insurance ledger entries sorted and divided by register number. Use it for documenting the posted entries or for auditing.

@@ -792,7 +792,6 @@ ms.service: dynamics-365-business-central
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis](reports/report-5600.md)

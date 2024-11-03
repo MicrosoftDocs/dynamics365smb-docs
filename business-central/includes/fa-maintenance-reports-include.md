@@ -15,4 +15,3 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5633-scenario](../includes/report-5633-scenario-include.md)] | [Maintenance Register](https://businesscentral.dynamics.com?report=5633) | [About *Maintenance Register*](../reports/report-5633.md) | 5633 |
 | [!INCLUDE[report-5634-scenario](../includes/report-5634-scenario-include.md)] | [Maintenance - Details](https://businesscentral.dynamics.com?report=5634) | [About *Maintenance - Details*](../reports/report-5634.md) | 5634 |
 | [!INCLUDE[report-5635-scenario](../includes/report-5635-scenario-include.md)] | [Maintenance - Next Service](https://businesscentral.dynamics.com?report=5635) | [About *Maintenance - Next Service*](../reports/report-5635.md) | 5635 |
-

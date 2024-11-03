@@ -90,7 +90,7 @@ You can check whether fixed assets are over- or under-insured in the following w
 
 ### Uninsured fixed assets
 
-To check whether you forgot to assign a fixed asset to an insurance policy, you can print or preview the **Insurance - Uninsured FAs** report. This report displays fixed assets for which amounts aren't posted to the insurance coverage ledger.  
+To check whether you forgot to assign a fixed asset to an insurance policy, use the [Insurance - Uninsured FAs](reports/report-5626.md) report. 
 
 
 ## To view insurance coverage ledger entries
@@ -99,6 +99,7 @@ You can view the entries that you made in the insurance coverage ledger.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.  
 2. Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.  
+
 
 ## To view the total insurance value of fixed assets
 
@@ -125,6 +126,7 @@ The fixed asset is removed from the incorrect insurance policy on the second lin
 
 [Insurance - List (report)](reports/report-5621.md)  
 [Insurance - Tot. Value Insured (report)](reports/report-5625.md)   
+[Insurance - Uninsured FAs](reports/report-5626.md)   
 [Fixed assets insurance reports](fa-reports.md#fixed-assets-insurance-reports)   
 [Fixed assets analytics overview](fa-analytics-overview.md)   
 [Fixed Assets](fa-manage.md)  

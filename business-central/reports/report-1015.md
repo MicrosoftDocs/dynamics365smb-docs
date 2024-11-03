@@ -68,8 +68,6 @@ Try the report here: [Project Register](https://businesscentral.dynamics.com?rep
 
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)  
-[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
-[Fixed assets analytics overview](../fa-analytics-overview.md)  
+[Project Reports and Analytics in Business Central](../project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

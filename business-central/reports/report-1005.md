@@ -1,5 +1,5 @@
 ---
-title: Job Journal - Test (report)
+title: Project Journal - Test (report)
 description: See the results of posting before you post to the projects ledger and edit the journal lines if there are any errors that need to be corrected.
 author: kennieNP
 ms.author: kepontop
@@ -15,9 +15,9 @@ ms.service: dynamics-365-business-central
 # ai.usage: ai-assisted
 ---
 
-# Job Journal - Test (report)
+# Project Journal - Test (report)
 
-The **Job Journal - Test** report shows journal lines in the project journal. 
+The **Project Journal - Test** report shows journal lines in the project journal. 
 
 You can choose to include dimensions information for the journal lines in the report.
 
@@ -42,7 +42,7 @@ Do not capitalize the persona names.
 Do not start lines with "Use the data to"
 
 ## Report name
-Job Journal - Test
+Project Journal - Test
 
 ## Report description
 
@@ -59,14 +59,12 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Job Journal - Test](https://businesscentral.dynamics.com?report=1005)
+Try the report here: [Project Journal - Test](https://businesscentral.dynamics.com?report=1005)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
-[Fixed assets report overview](../fa-reports.md)  
-[Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
-[Fixed assets analytics overview](../fa-analytics-overview.md)  
+[Project Reports and Analytics in Business Central](../project-reports.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

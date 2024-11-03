@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-The following table describes some of the key reports in project management.
+The following table describes the built-in reports in project management.
 
 | To...  | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 | ------ | ------------------------------------------------------------ | ---------- | -- |
@@ -21,7 +21,7 @@ The following table describes some of the key reports in project management.
 | [!INCLUDE[report-1012-scenario](../includes/report-1012-scenario-include.md)] | [Projects per Customer](https://businesscentral.dynamics.com?report=1012) | [About *Projects per Customer*](../reports/report-1012.md) | 1012 |
 | [!INCLUDE[report-1013-scenario](../includes/report-1013-scenario-include.md)] | [Items per Project](https://businesscentral.dynamics.com?report=1013) | [About *Items per Project*](../reports/report-1013.md) | 1013 |
 | [!INCLUDE[report-1014-scenario](../includes/report-1014-scenario-include.md)] | [Project per Item](https://businesscentral.dynamics.com?report=1014) | [About *Project per Item*](../reports/report-1014.md) | 1014 |
-| [!INCLUDE[report-1015-scenario](../includes/report-1015-scenario-include.md)] | [Project per Item](https://businesscentral.dynamics.com?report=1015) | [About *Project per Item*](../reports/report-1015.md) | 1015 |
+| [!INCLUDE[report-1015-scenario](../includes/report-1015-scenario-include.md)] | [Project Register](https://businesscentral.dynamics.com?report=1015) | [About *Project Register*](../reports/report-1015.md) | 1015 |
 
 
 

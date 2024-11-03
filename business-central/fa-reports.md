@@ -20,9 +20,16 @@ When you prepare a balance sheet and income statement, you might have to generat
 
 This article describes the most used reports for fixed assets.
 
-## Reports
+
+## Fixed assets core reports
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
+
+
+## Fixed assets insurance reports
+
+[!INCLUDE [fa_insurance_reports](includes/fa-insurance-reports-include.md)]
+
 
 ## Explore finance reports with Report Explorer
 

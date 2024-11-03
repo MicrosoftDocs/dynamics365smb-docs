@@ -1,0 +1,1 @@
+Get a list of fixed asset ledger entries, sorted by document type and number. Use it for auditing your fixed assets transaction.

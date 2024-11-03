@@ -22,26 +22,11 @@ The following table describes some of the key reports in fixed assets management
 | [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)] | [Fixed Asset - Acquisition List](https://businesscentral.dynamics.com?report=5608) | [About *Fixed Asset - Acquisition List*](../reports/report-5608.md) | 5608 |
 | [!INCLUDE[report-5610-scenario](../includes/report-5610-scenario-include.md)] | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*](../reports/report-5610.md) | 5610 |
 | [!INCLUDE[report-5611-scenario](../includes/report-5611-scenario-include.md)] | [FA Posting Group - Net Change Report](https://businesscentral.dynamics.com?report=5611) | [About *FA Posting Group - Net Change Report*](../reports/report-5611.md) | 5611 |
-| [!INCLUDE[report-5620-scenario](../includes/report-5620-scenario-include.md)] | [Insurance - Analysis](https://businesscentral.dynamics.com?report=5620) | [About *Insurance - Analysis*](../reports/report-5620.md) | 5620 |
-| [!INCLUDE[report-5621-scenario](../includes/report-5621-scenario-include.md)] | [Insurance - List](https://businesscentral.dynamics.com?report=5621) | [About *Insurance - List*](../reports/report-5621.md) | 5621 |
-| [!INCLUDE[report-5622-scenario](../includes/report-5622-scenario-include.md)] | [Insurance Journal - Test](https://businesscentral.dynamics.com?report=5622) | [About *Insurance Journal - Test*](../reports/report-5622.md) | 5622 |
-| [!INCLUDE[report-5623-scenario](../includes/report-5623-scenario-include.md)] | [Insurance Register](https://businesscentral.dynamics.com?report=5623) | [About *Insurance Register*](../reports/report-5623.md) | 5623 |
-| [!INCLUDE[report-5624-scenario](../includes/report-5624-scenario-include.md)] | [Insurance - Coverage Details](https://businesscentral.dynamics.com?report=5624) | [About *Insurance - Coverage Details*](../reports/report-5624.md) | 5624 |
-| [!INCLUDE[report-5625-scenario](../includes/report-5625-scenario-include.md)] | [Insurance - Tot. Value Insured](https://businesscentral.dynamics.com?report=5625) | [About *Insurance - Tot. Value Insured*](../reports/report-5625.md) | 5625 |
-| [!INCLUDE[report-5626-scenario](../includes/report-5626-scenario-include.md)] | [Insurance - Uninsured FAs](https://businesscentral.dynamics.com?report=5626) | [About *Insurance - Uninsured FAs*](../reports/report-5626.md) | 5626 |
-
+| [!INCLUDE[report-5636-scenario](../includes/report-5636-scenario-include.md)] | [Fixed Asset Document Nos.](https://businesscentral.dynamics.com?report=5636) | [About *Fixed Asset Document Nos.*](../reports/report-5636.md) | 5636 |
 
 <!-- TODO: Add articles for these
 
 https://learn.microsoft.com/en-us/dynamics365/business-central/fa-how-insure#to-monitor-insurance-coverage
-
-
-5636
-Fixed Asset Document Nos.
-Shows a list of fixed asset ledger entries, sorted by document type and number. The report includes the document type, document number, posting date and source code of the entry, the description and number of the fixed asset, and so on. A warning appears when there is a gap in the number series or the documents were not posted in document-number order.
-
-
-
 
 
 

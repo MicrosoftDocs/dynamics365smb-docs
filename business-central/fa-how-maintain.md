@@ -65,7 +65,14 @@ You can print the **Maintenance - Next Service** report to list the assets that 
 2. Fill in the **Starting Date** and **Ending Date** fields.  
 3. Choose the **Print** or **Preview** button.
 
+
 ## Monitor maintenance costs
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated reports and statistics pages for use in analyzing fixed assets maintenance.  
+
+For more information about all the built-in reports for fixed assets maintenance, see [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)
+
+### Overview of maintenance costs
 
 You can view statistics to monitor maintenance costs.  
 
@@ -76,13 +83,15 @@ You can view statistics to monitor maintenance costs.
 
 Use the **Maintenance Ledger Entries** page to view the entries that make up the amount in the **Maintenance** field.
 
-## View or print maintenance costs for multiple fixed assets
+### View or print maintenance costs for multiple fixed assets
 
 In the **Maintenance - Analysis** report, you can select to examine maintenance based on one, two, or three maintenance codes for a specific date or period. The report can show the total for all selected assets, or a total for each asset.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance Analysis**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
+
+For more information, see [Maintenance - Analysis](reports/report-5630.md).
 
 ## View maintenance ledger entries
 
@@ -102,6 +111,8 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 
 ## See also
 
+[Maintenance - Analysis](reports/report-5630.md)  
+[Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)  
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  

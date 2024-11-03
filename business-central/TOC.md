@@ -813,7 +813,9 @@ ms.service: dynamics-365-business-central
 ##### [Insurance - Coverage Details](reports/report-5624.md)
 ##### [Insurance - Tot. Value Insured](reports/report-5625.md)
 ##### [Insurance - Uninsured FAs](reports/report-5626.md)
-[About *Maintenance - Analysis*](reports/report-5630.md)
+##### [Maintenance - Analysis](reports/report-5630.md)
+##### [Maintenance - Details](reports/report-5634.md)
+##### [Maintenance - Next Service](../reports/report-5635.md)
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)

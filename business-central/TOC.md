@@ -759,8 +759,9 @@ ms.service: dynamics-365-business-central
 
 ### Built-in project reports
 #### [Project report overview](project-reports.md)
+#### [Project Journal - Test](reports/report-1005.md)
 #### [Project Planning Lines](reports/report-1006.md)
-#### [Project Transaction Detail](reports/report-1007.md)
+#### [Project Task Transaction Detail](reports/report-1007.md)
 #### [Project Analysis](reports/report-1008.md)
 #### [Project Actual to Budget](reports/report-1009.md)
 #### [Project WIP to G/L](reports/report-1010.md)
@@ -768,6 +769,7 @@ ms.service: dynamics-365-business-central
 #### [Projects per Customer](reports/report-1012.md)
 #### [Items per Project](reports/report-1013.md)
 #### [Project per Item](reports/report-1014.md)
+#### [Project Register](reports/report-1015.md)
 
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)

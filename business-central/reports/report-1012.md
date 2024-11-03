@@ -21,6 +21,8 @@ The **Projects per Customer** report shows a list of all projects, grouped by cu
 
 Use the report to compare the scheduled price, the percentage of completion, the invoiced price, and the percentage of invoiced amounts for each **Bill-to Customer**.
 
+For each customer, the amounts are subtotaled. At the end of the report, all amounts are totaled.
+
 ## Use cases
 
 [!INCLUDE[report-1012-scenario](../includes/report-1012-scenario-include.md)]

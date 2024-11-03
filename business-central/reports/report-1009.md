@@ -19,6 +19,8 @@ ai.usage: ai-assisted
 
 The **Project Actual to Budget** report shows scheduled and used amounts for selected projects. The lines of the selected projects show quantity, total cost, and line amount.
 
+You can choose whether currency is specified in Local Currency or Foreign Currency.
+
 This report is intended for completed projects, although you can use it at any time during a project.
 
 > [!NOTE]

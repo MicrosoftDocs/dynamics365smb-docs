@@ -999,12 +999,19 @@ ms.service: dynamics-365-business-central
 
 ## Service management
 ### [Service management](service-service.md)
+### Service management analytics
+#### [View service statistics](service-service-statistics.md)
+#### Service management reports
+##### [Service management report overview](service-reports.md)
+<!-- 
+##### [Fixed Asset Analysis](reports/report-5600.md)
+ -->
+
 ### Planning service
 #### [Planning service management](service-plan-service.md)
 #### [Service price management](service-service-price-management.md)
 #### [Service order status and repair status](service-service-order-status-and-repair-status.md)
 #### [Allocation status and repair status of service items](service-allocation-status-and-repair-status.md)
-#### [View service statistics](service-service-statistics.md)
 ### Fulfill service contracts
 #### [Fulfill service contracts](service-fulfill-service-contracts.md)
 #### [Multiple contracts](service-multiple-contracts.md)
@@ -1020,6 +1027,7 @@ ms.service: dynamics-365-business-central
 #### [Service posting](service-service-posting.md)
 #### [Post service orders and credit memos](service-how-to-post-service-orders.md)
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
+
 <!--Shopify-->
 ## Online store with shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)

@@ -83,6 +83,13 @@ For more information, see [Assembly Management Reports and Analytics in Business
 
 For more information, see [Production Reports and Analytics in Business Central](production-reports.md).
 
+## Service Management reports
+
+[!INCLUDE [service_reports](includes/service-reports-include.md)]
+
+For more information, see [Service management report overview](service-reports.md).
+
+
 ## See also
 
 [Use reports in daily work](reports-use-reports.md)   

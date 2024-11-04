@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5600
+ms.search.form: Report_5050, Report_5051, Report_5053, Report_5055, Report_5056, Report_5058, Report_5060, Report_5061, Report_5062, Report_5063, Report_5064, Report_5066, Report_5065, Report_5067, Report_5068
 ms.date: 11/04/2024
 ms.service: dynamics-365-business-central
 ---

@@ -3,7 +3,7 @@ title: Purchases by Vendor (Power BI Report)
 description: The Purchases by Vendor report provides an overview of purchasing activities by vendor.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37018_Primary
@@ -15,17 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Purchases by Vendor* report provides an overview of purchasing activities by vendor. This report allows you to analyze which vendors are supplying the most frequently purchased item categories and items, as well as how much money is being spent on these purchases.
+The **Purchases by Vendor** report provides an overview of purchasing activities by vendor. This report you find out which vendors supply the most frequently purchased item categories and items. It also shows how much you spend on these purchases.
 
 :::image type="content" source="media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="media/purchases/purchases-by-vendor.png":::
 
-## How to use the report
+## Use the report
 
-The *Purchases by Vendor* report is especially useful for purchasing managers and purchasers.
+The report is especially useful for purchasing managers and purchasers.
 
-As a purchasing manager, you can use the *Purchases by Vendor* report to analyze vendor performance. You can then identify the vendors who supply the most frequently purchased item categories and items. This information can help you optimize your purchasing strategies, negotiate better prices, and improve your overall vendor management.
+Purchasing managers can use the report to analyze vendor performance. You can identify the vendors who supply the most frequently purchased item categories and items. This information can help you optimize purchasing strategies, negotiate better prices, and improve overall vendor management.
 
-As a purchaser, you can use this report to monitor purchasing activities and identify the suppliers of specific products. For example, if you need to find a list of suppliers for the company components to assemble dining chairs, you can view the purchase quantities and amounts spent on each vendor. The report analysis can help you select the best vendor to buy from.
+Purchasers can use this report to monitor purchasing activities and identify the suppliers of specific products. For example, if you need a list of suppliers for the components of dining chair assemblies, you can view the purchase quantities and amounts spent on each vendor. The report can help you select the best vendor to buy from.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -38,7 +38,7 @@ The *Purchases by Vendor* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Vendor* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Vendor
 - Item
@@ -49,13 +49,13 @@ The *Purchases by Vendor* report use data from the following tables in [!INCLUDE
 
 Try the report here: [Purchases by Vendor](https://businesscentral.dynamics.com?page=37018)
 
-[!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md
+[!INCLUDE [ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
 [Purchasing overview](purchasing-manage-purchasing.md)  

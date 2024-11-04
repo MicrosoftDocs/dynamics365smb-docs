@@ -21,6 +21,7 @@ The **Inventory - Transaction Detail** report shows all inventory transaction de
 
 The report shows:
 
+* Information such as Posting Date, Entry Type, Document No., Description, and Entry No.
 * The quantity at the beginning of the period.
 * All increase and decrease entries during the period with a running update of the inventory.
 * The quantity at the close of the period.
@@ -81,6 +82,12 @@ Financial analysts use the report to:
 Try the report here: [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+* [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
 ## See also
 

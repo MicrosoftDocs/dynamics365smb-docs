@@ -1,9 +1,9 @@
 ---
 title: Year-Over-Year (Power BI Report)
-description: The Year-Over-Year report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time.
+description: The Year-Over-Year report is an important tool that business leaders use to analyze purchasing performance and track spending trends over time.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37015_Primary
@@ -15,21 +15,21 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Year-Over-Year* report is a crucial tool for business leaders to analyze purchasing performance and track spending trends over time. By comparing purchase amounts in the current year with those of the previous year, this report provides valuable insights into the efficiency and effectiveness of an organization's purchasing activities.
+The **Year-Over-Year** report helps business leaders analyze purchasing performance and track spending trends over time. By comparing purchase amounts in the current year with amounts from the previous year, this report provides valuable insights into the efficiency and effectiveness of purchasing activities.
 
-In addition to identifying trends and changes, the *Year-Over-Year* report helps leaders make informed decisions about future purchasing strategies. It is an important indicator of growth and spending patterns, providing a comprehensive overview of the money being spent to make products and generate revenues.
+In addition to identifying trends and changes, the report helps leaders make informed decisions about future purchasing strategies. It's an important indicator of growth and spending patterns, providing an overview of the money you spend to make products and generate revenues.
 
-Together with year-over-year financial figures, the *Year-Over-Year* report provides a comprehensive view of an organization's financial health. By tracking these figures, leaders can make informed decisions about resource allocation, budgeting, and forecasting.
+Together with year-over-year financial figures, the report gives a comprehensive view of an organization's financial health. Tracking these figures helps leaders make informed decisions about resource allocation, budgeting, and forecasting.
 
 :::image type="content" source="media/purchases/purchases-year-over-year.png" alt-text="Screenshot of the Year-over-Year Power BI report" lightbox="media/purchases/purchases-year-over-year.png":::
 
-## How to use the report
+## Use the report
 
-The *Year-Over-Year* report is targeted towards business leaders and managers.
+The report is intended for business leaders and managers.
 
-As a COO, your goal is to ensure that the purchasing department is operating efficiently and effectively. One of the key metrics you monitor is the year-over-year growth in purchases. This report allows you to quickly see how purchases are trending over time and identify any areas of concern. For instance, if you notice that purchases are increasing rapidly in a particular item category, you can use this information to discuss with the head of purchasing and manage costs better.
+COOs ensure that the purchasing department operates efficiently and effectively. One of the key metrics you monitor is the year-over-year growth in purchases. This report lets you quickly explore purchase trends over time, and identify areas of concern. For example, you might notice that purchases are increasing rapidly in a particular item category. You can use this information to discuss how to manage costs with the head of purchasing.
 
-As a purchasing manager, you are responsible for ensuring that the company sources goods at the best possible price without compromising quality. You can use this report to track purchasing trends across different categories and identify areas where the company could save money. For example, you might notice that a particular category of products is seeing a rapid increase in purchases. With this information in mind, you can take action and work with the manufacturing team to identify if any changes in item planning or supplier selection are required to optimize the cost and quality of the products.
+Purchasing managers ensure that the company sources goods at the best price without compromising quality. Use this report to track purchasing trends across different categories and identify areas where you can save. For example, you might notice a rapid increase in purchases of a category of products. With this information in mind, you can work with the manufacturing team to identify whether to change item planning or supplier selection to optimize product cost and quality.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -41,7 +41,7 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Year-Over-Year* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Value Entry
 - Purchase Line
@@ -56,9 +56,9 @@ Try the report here: [Year-Over-Year](https://businesscentral.dynamics.com?page=
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
 [Purchasing overview](purchasing-manage-purchasing.md)  

@@ -1,9 +1,9 @@
 ---
 title: Purchases Overview (Power BI Report)
-description: The Purchases Overview report report gives a clear picture of your organization's purchasing activities.
+description: The Purchases Overview report gives a clear picture of your organization's purchasing activities.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37009_Primary
@@ -15,17 +15,23 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Purchases Overview* report gives a clear picture of your organization's purchasing activities. It highlights important metrics like total purchase amounts, outstanding liabilities, and invoiced purchases. By breaking down purchase quantities by location and item category, and providing vendor information, this report helps with financial analysis, budget management, and compliance. 
+The **Purchases Overview** report gives a clear picture of your purchasing activities. It highlights important metrics such as
+
+- Total purchase amounts
+- Outstanding liabilities
+- Invoiced purchases
+
+The report breaks down purchase quantities by location and item category, and provides vendor information to help with financial analysis, budget management, and compliance.
 
 :::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
 
-## How to use the report
+## Use the report
 
-The *Purchases Overview* report is meant for leadership and management teams to track actual spendings on purchasing activities, manage budgets, and evaluate vendor performance.
+The report helps leadership and management teams track actual spending on purchasing activities, manage budgets, and evaluate vendor performance.
 
-As a CEO, you can use the *Purchases Overview* report to keep track of the organization's purchasing activities. This report provides you with a clear picture of your organization's total purchase amount, outstanding liabilities, and invoiced purchases. By analyzing purchase quantities by location and item category, and reviewing vendor information, you can gain valuable insights into your organization's financial performance. With this information, you can make informed decisions about budget management and vendor relationship.
+CEOs can use the report to keep track of purchasing activities. This report gives a clear picture of your total purchase amount, outstanding liabilities, and invoiced purchases. By analyzing purchase quantities by location and item category, and reviewing vendor information, you can gain valuable insights into your financial performance. With this information, you can make informed decisions about budget management and vendor relationships.
 
-As a purchasing manager, you can use this report to identify areas where your organization may be overspending or underspending. For example, you may notice that your organization has been spending a lot of money on a specific item category, but the quantity of purchases has been lower than expected. This may include reviewing vendor contracts, finding alternative vendors with better prices, or negotiating better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and ensure compliance with the overall budget.
+Purchasing managers can identify where you might be overspending or underspending. For example, you might notice that your organization spent a lot on a specific item category, but the quantity of purchases was lower than expected. You might review vendor contracts, find alternative vendors with better prices, or negotiate better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and comply with the overall budget.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -36,15 +42,13 @@ The *Purchases Overview* report includes the following KPIs and measures:
 - [**Amount Received but Not Invoiced (excluding VAT)**](####)
 - [**Invoiced Amount**](####) -->
 
-
 ## Data used in the report
 
-The *Purchases Overview* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Item Ledger Entry
 - Value Entry
 - Purchase Lines
-
 
 ## Try the report
 
@@ -52,12 +56,11 @@ Try the report here: [Purchases Overview](https://businesscentral.dynamics.com?p
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
-[Purchasing overview](purchasing-manage-purchasing.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
+[Purchasing overview](purchasing-manage-purchasing.md)

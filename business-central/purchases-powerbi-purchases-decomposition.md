@@ -3,7 +3,7 @@ title: Purchases Decomposition (Power BI Report)
 description: The Purchases Decomposition report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37010_Primary
@@ -15,19 +15,21 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Purchases Decomposition* report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types. This report helps you to gain insights into your purchasing costs and analyze your spending patterns, enabling you to make data-driven decisions and optimize your purchasing processes.  
+The **Purchases Decomposition** report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types. This report helps you gain insights into purchasing costs and analyze spending patterns, so you make data-driven decisions to optimize purchasing processes.  
 
 :::image type="content" source="media/purchases/purchases-decomposition.png" alt-text="Screenshot of the Purchases Decomposition Power BI report" lightbox="media/purchases/purchases-decomposition.png":::
 
+## Use the report
 
-## How to use the report
+The helps purchasing teams break down costs and optimize purchasing activities.
 
-The *Purchases Decomposition* report is designed for purchasing teams to break down costs and optimize purchasing activities.
+Purchasing managers can use the report to analyze purchasing processes and optimize inventory management. You can break down purchases by supplier, category, and other relevant dimensions. You can analyze the purchase amounts over time to identify trends and improve your supply chain, leading to cost savings.
 
-As a purchasing manager, you can use the *Purchases Decomposition* report to analyze your company's purchasing processes and optimize inventory management. You can break down purchases by supplier, category, and other relevant dimensions, and analyze the purchase amounts over time to identify trends and improve your supply chain, leading to significant cost savings for your company.
+Purchasers can use this report to analyze the purchasing activities for a specific category of item. You can use the visual to:
 
-As a purchaser, you can use this report to analyze the purchasing activities for a specific category of item. You could use the visual to analyze the cost breakdown of vendors within the category and identify opportunities to reduce costs, drill down into the data to identify which suppliers are providing the most cost-effective items, and analyze the volume of purchases over time.
-
+- Analyze the cost breakdown of vendors within the category and identify opportunities to reduce costs.
+- Drill down into the data and identify which suppliers provide the most cost-effective items.
+- Analyze the volume of purchases over time.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -35,10 +37,9 @@ The *Purchases Decomposition* report includes the following KPIs and measures:
 
 - [**Purchase Amount**](####)   -->
 
-
 ## Data used in the report
 
-The *Purchases Decomposition* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Item
 - Item Category
@@ -49,19 +50,17 @@ The *Purchases Decomposition* report use data from the following tables in [!INC
 - Vendor Posting Group
 - Value Entry
 
-
 ## Try the report
 
 Try the report here: [Purchases Decomposition](https://businesscentral.dynamics.com?page=37010)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
-[Purchasing overview](purchasing-manage-purchasing.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
+[Purchasing overview](purchasing-manage-purchasing.md)

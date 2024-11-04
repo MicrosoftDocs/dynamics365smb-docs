@@ -822,25 +822,21 @@ ms.service: dynamics-365-business-central
 ### [Relationship management overview](marketing-relationship-management.md)
 ### Built-in relationship management reports
 #### [Relationship management report overview](marketing-reports.md)
-
-
-[About *Contact - List*](../reports/report-5050.md) | 5050 |
-[About *Contact - Company Summary*](../reports/report-5051.md) | 5051 |
-[About *Contact - Person Summary*](../reports/report-5053.md) | 5053 |
-[About *Contact - Cover Sheet*](../reports/report-5055.md) | 5055 |
-[About *Contact - Labels*](../reports/report-5056.md) | 5056 |
-[About *Salesperson - Opportunities*](../reports/report-5058.md) | 5058 |
-[About *Campaign - Details*](../reports/report-5060.md) | 5060 |
-[About *Opportunity - List*](../reports/report-5061.md) | 5061 |
-[About *Sales Cycle - Analysis*](../reports/report-5062.md) | 5062 |
-[About *Segment - Contacts*](../reports/report-5063.md) | 5063 |
-[About *Segment - Cover Sheet*](../reports/report-5064.md) | 5064 |
-[About *Questionnaire - Handouts*](../reports/report-5066.md) | 5066 |
-[About *Segment - Labels*](../reports/report-5065.md) | 5065 |
-[About *Questionnaire - Test*](../reports/report-5067.md) | 5067 |
-[About *Opportunity - Details*](../reports/report-5068.md) | 5068 |
-
-#### [Fixed Asset Analysis](reports/report-5600.md)
+##### [Contact - List](reports/report-5050.md) 
+##### [Contact - Company Summary](reports/report-5051.md) 
+##### [Contact - Person Summary](reports/report-5053.md) 
+##### [Contact - Cover Sheet](reports/report-5055.md) 
+##### [Contact - Labels](reports/report-5056.md) 
+##### [Salesperson - Opportunities](reports/report-5058.md) 
+##### [Campaign - Details](reports/report-5060.md) 
+##### [Opportunity - List](reports/report-5061.md) 
+##### [Opportunity - Details](reports/report-5068.md) 
+##### [Sales Cycle - Analysis](reports/report-5062.md) 
+##### [Segment - Contacts](reports/report-5063.md) 
+##### [Segment - Cover Sheet](reports/report-5064.md) 
+##### [Segment - Labels](reports/report-5065.md) 
+##### [Questionnaire - Handouts](reports/report-5066.md) 
+##### [Questionnaire - Test](reports/report-5067.md) 
 
 ### [Set up relationship management](marketing-setup-marketing.md)
 ### Manage contacts

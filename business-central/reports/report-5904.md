@@ -67,7 +67,7 @@ Try the report here: [Service Tasks](https://businesscentral.dynamics.com?report
 
 ## See also
 
-[Service management report overview](service-reports.md)   
-[Service management](service-service.md)    
+[Service management report overview](../service-reports.md)   
+[Service management](../service-service.md)    
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

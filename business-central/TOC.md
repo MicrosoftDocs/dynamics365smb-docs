@@ -670,7 +670,22 @@ ms.service: dynamics-365-business-central
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
 ### Purchasing analytics 
+
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
+#### [Power BI Purchasing app](purchases-powerbi-app.md)
+##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
+##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
+##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
+##### [Moving Averages](purchases-powerbi-moving-averages.md)  
+##### [Moving Annual Total](purchases-powerbi-moving-annual-total.md)  
+##### [Period-Over-Period](purchases-powerbi-period-over-period.md)  
+##### [Year-Over-Year](purchases-powerbi-year-over-year.md)  
+##### [Purchases by Item](purchases-powerbi-purchases-by-item.md)  
+##### [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md)  
+##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
+##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
+##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)

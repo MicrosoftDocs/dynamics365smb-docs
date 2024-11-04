@@ -3,7 +3,7 @@ title: Purchases by Purchaser (Power BI Report)
 description: The Purchases by Purchaser report provides a detailed overview of purchasing activities by purchaser.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37017_Primary
@@ -15,16 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Purchases by Purchaser* report provides a detailed overview of purchasing activities by purchaser. This report allows you to analyze which item categories and items are most frequently purchased by each purchaser, and how much money they have spent on these purchases.
+The **Purchases by Purchaser** report provides a detailed overview of purchasing activities for each purchaser. The report lets you analyze the item categories and items that each purchaser buys most frequently, and how much they spent.
 
 :::image type="content" source="media/purchases/purchases-by-purchaser.png" alt-text="Screenshot of the Purchases by Purchaser Power BI report" lightbox="media/purchases/purchases-by-purchaser.png":::
 
-## How to use the report
-The *Purchases by Purchaser* report is especially useful for purchasing managers and purchasers. 
+## Use the report
 
-As a purchasing manager, you can easily identify top purchasers and track their purchasing trends over time using the 'Purchases by Vendor' report. This information can help you make informed decisions about future purchasing activities and optimize your organization's purchasing strategies.
+The report is especially useful for purchasing managers and purchasers.
 
-As a purchaser, you can use this report to monitor your purchasing activities, including purchase amounts and quantities. This report also reveals your top purchased items and how they contribute to the overall spendings. This information can help you to make better decisions about future purchases.
+Purchasing managers can easily identify top purchasers and track their purchasing trends over time using the **Purchases by Vendor** report. This information can help you make informed decisions about future purchasing activities and optimize purchasing strategies.
+
+Purchaser can use this report to monitor purchasing activities, including purchase amounts and quantities. This report also shows the items you bought the most and how they contribute to overall spending. This information can help you make good decisions about future purchases.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -37,7 +38,7 @@ The *Purchases by Purchaser* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Purchaser* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]>
 
 - Salesperson/Purchaser
 - Item
@@ -52,9 +53,9 @@ Try the report here: [Purchases by Purchaser](https://businesscentral.dynamics.c
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
 [Purchasing overview](purchasing-manage-purchasing.md)  

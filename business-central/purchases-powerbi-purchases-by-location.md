@@ -3,7 +3,7 @@ title: Purchases by Location (Power BI Report)
 description: The Purchases by Location report provides an overview of purchasing activities by location.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37019_Primary
@@ -15,28 +15,26 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Purchases by Location* report provides an overview of purchasing activities by location. This report allows you to analyze which item categories and items are most frequently purchased in each location, as well as how much money is being spent on these purchases.
+The **Purchases by Location** report provides an overview of purchasing activities for each warehouse location. It helps you find out which item categories and items are most frequently purchased in each location, and how much money you're spending on the purchases.
 
 :::image type="content" source="media/purchases/purchases-by-location.png" alt-text="Screenshot of the Purchases by Location Power BI report" lightbox="media/purchases/purchases-by-location.png":::
 
-## How to use the report
+## Use the report
 
-The *Purchases by Location* report is especially useful for purchasing managers and purchasers.
+The report is especially useful for purchasing managers and purchasers.
 
-As a purchasing manager, you can use the *Purchases by Location* report to analyze purchasing trends across different warehouse locations. For example, you can use the report to identify which item categories and items are most frequently purchased in each warehouse. This can help you and the warehousing team gain insights into warehouses with consistently high or low purchasing activities.
+Purchasing managers can use the report to analyze purchasing trends across different warehouse locations. For example, you can use the report to find the most frequently bought items and item categories in each warehouse. You and the warehousing team can gain insights into warehouses with consistently high or low purchasing activities.
 
-As a purchaser, you can use this report to monitor purchasing activities across different warehouse locations. For instance, you can identify which item categories and items have low purchase quantities that require attention to prevent stockouts or disruptions to production. With this information, you can plan ahead and work with your team to ensure that purchase demand is met across all locations.
+Purchasers can use this report to monitor purchasing activities across warehouse locations. For example, you can find item categories and items with low quantities that require attention to prevent stock-outs or disruptions in production. Use this information to plan ahead and work with your team to ensure that you meet purchase demand across locations.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators
 
-The *Purchases by Location* report includes the following KPIs:
+The report includes the following key performance indicators (KPIs):
 
 - **Purchase Amount**
 - **Purchase Quantity**
 - **% GT Purchase Amount**
 - **% GT Purchase Quantity**
-
-Below, you can learn more about what each KPI means, how it is calculated, and what data was used in the calculations.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -49,7 +47,7 @@ The *Purchases by Location* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Purchases by Location* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Location
 - Item
@@ -64,9 +62,9 @@ Try the report here: [Purchases by Location](https://businesscentral.dynamics.co
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
 [Purchasing overview](purchasing-manage-purchasing.md)  

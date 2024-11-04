@@ -3,7 +3,7 @@ title: Moving Annual Total (MAT) (Power BI Report)
 description: The Moving Annual Total (MAT) report calculates a total of purchase over the last 12 months.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37013_Primary
@@ -15,17 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Moving Annual Total (MAT)* report calculates a total of purchase over the last 12 months. This is a rolling calculation where the date is continual moving. This report will showcase the Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) figures.
+The **Moving Annual Total (MAT)** report calculates total purchases over the last 12 months. It's a rolling calculation where the date is always moving. This report showcases figures for the Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT).
 
 :::image type="content" source="media/purchases/purchases-moving-annual-total.png" alt-text="Screenshot of the Moving Annual Total Power BI report" lightbox="media/purchases/purchases-moving-annual-total.png":::
 
-## How to use the report
+## Use the report
 
-The *Moving Annual Total (MAT)* report is ideal for business leaders and purchasing managers who need to monitor their purchase performance in the last 12 months.
+The report is ideal for business leaders and purchasing managers who need to monitor purchase performance in the last 12 months.
   
-As a CEO, you can use the *Moving Annual Total* report to monitor the overall purchasing performance of the organization over the last 12 months. You can analyze the figures for Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) to identify trends in purchasing amounts in line with the company's growth. If your purchasing amount exceeds your growth rate, you can use this information to develop a strategic plan that focuses on reducing inventory costs or optimizing purchasing budget. The report can also help you identify periods of high purchasing costs and work with purchasing managers to reduce costs and drive cost savings for the company.
+CEOs can use the report to monitor the overall purchasing performance over the last 12 months. You can analyze the figures for Moving Annual Total (MAT) and Previous Year Moving Annual Total (PYMAT) and identify trends in purchasing amounts in line with the company's growth. If your purchasing amount exceeds your growth rate, you can use this information to develop a strategic plan that focuses on reducing inventory costs or optimizing purchasing budget. The report can also help you identify periods of high purchasing costs and work with purchasing managers to reduce them.
 
-As a purchasing manager, you can use this report to analyze the purchasing data over the last 12 months and analyze purchase amounts for specific periods. You can identify purchasing performance by analyzing the MAT growth and growth % by each month. These measures will provide insights into how your team is performing during each period. By identifying the areas where purchasing has been increasing, you can take necessary actions to optimize the purchasing process and ensure that the purchasing budget is being used efficiently.
+Purchasing managers can use this report to analyze the purchasing data over the last 12 months, and analyze purchase amounts for specific periods. You can identify purchasing performance by analyzing the MAT growth and growth percentage in each month. These measures offer insight into how your team performs during each period. By identifying the areas where purchasing increased, you can take necessary actions to optimize the purchasing process and ensure you're using purchasing budget efficiently.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -39,7 +39,7 @@ The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Moving Annual Total (MAT)* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Value Entry
 - Purchase Line
@@ -52,9 +52,9 @@ Try the report here: [Moving Annual Total (MAT)](https://businesscentral.dynamic
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
-[Purchasing overview](purchasing-manage-purchasing.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
+[Purchasing overview](purchasing-manage-purchasing.md)

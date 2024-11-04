@@ -14,17 +14,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Daily Purchases* report provides a comprehensive overview of your organization's purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. This report can also be used to analyze purchase data across different years, quarters, or months, providing valuable insights into purchasing trends over time.
+The **Daily Purchases** report provides a comprehensive overview of your purchase activities on specific days. By highlighting days with a higher volume of purchases, you can identify trends and patterns in your purchasing behavior. You can also use this report to analyze purchase data across different years, quarters, or months, and get valuable insights into purchasing trends over time.
 
 :::image type="content" source="media/purchases/daily-purchases.png" alt-text="Screenshot of the Daily Purchases Power BI report" lightbox="media/purchases/daily-purchases.png":::
 
-## How to use the report
+## Use the report
 
-This *Daily Purchases* report is meant for purchasing managers and purchasing teams and  to optimize purchasing schedules and to track daily purchase activities.
+This report helps purchasing managers and purchasing teams to optimize purchasing schedules and track daily purchase activities.
 
-As a purchasing manager, you can analyze data from the matrix to allocate budgets and staff, ensuring that your team can handle the purchasing volume. With this report, you can easily identify the busiest days of the week and make sure that your team is adequately staffed on those days. For example, if the report shows that Wednesday is the busiest day, you can allocate more staff and budget to ensure that your team can handle the workload.
+Purchasing managers can analyze data to allocate budgets and staff, ensuring that your team can handle the purchasing volume. Use this report to identify the busiest days of the week and make sure that your team is adequately staffed on those days. For example, the report might show that Wednesdays are your busiest days. You can allocate more staff and budget to ensure that your team can handle the workload.
 
-As a purchaser, you are responsible for tracking daily purchases and ensuring that they stay within budget. Using this report, you can monitor your daily purchase activities and identify any purchases or days that might exceed the budget.
+Purchasers track daily purchases and ensure they stay within budget. Use this report to monitor daily purchase activities and identify purchases or days that might exceed the budget.
 
 ---
 
@@ -37,7 +37,7 @@ The *Daily Purchases* report includes the following KPIs and measures:
 
 ## Data used in the report
 
-The *Daily Purchases* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Value Entry
 - Purchase Line
@@ -49,12 +49,11 @@ Try the report here: [Daily Purchases](https://businesscentral.dynamics.com?page
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  
-[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)   
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  
-[Purchasing analytics overview](purchasing-analytics-overview.md)   
-[Purchasing overview](purchasing-manage-purchasing.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
+[Purchasing overview](purchasing-manage-purchasing.md)

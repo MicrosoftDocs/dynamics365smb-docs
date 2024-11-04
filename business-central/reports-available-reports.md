@@ -71,6 +71,12 @@ For more information, see [Project Reports and Analytics in Business Central](pr
 
 For more information, see [Fixed Assets Reports and Analytics in Business Central](fa-reports.md).
 
+## Relationship management reports
+
+[!INCLUDE [marketing_reports](includes/marketing-reports-include.md)]
+
+For more information, see [Relationship management report overview](marketing-reports.md)
+
 ## Assembly reports
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]

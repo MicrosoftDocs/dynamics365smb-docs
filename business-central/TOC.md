@@ -820,6 +820,10 @@ ms.service: dynamics-365-business-central
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)
+### Built-in relationship management reports
+#### [Relationship management report overview](marketing-reports.md)
+#### [Fixed Asset Analysis](reports/report-5600.md)
+
 ### [Set up relationship management](marketing-setup-marketing.md)
 ### Manage contacts
 #### [Contacts](marketing-contacts.md)

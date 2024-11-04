@@ -29,9 +29,9 @@ To get an overview of the reports that are available for relationship management
 
 **TODO> screenshot**
 
-:::image type="content" source="../media/report-explorer-finance.png" alt-text="Example of reports on the finance role center":::
+:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of reports on the finance role center":::
 
-To learn more, go to [Finding pages and reports with the role explorer](../ui-role-explorer.md).
+To learn more, go to [Finding pages and reports with the role explorer](ui-role-explorer.md).
 
 
 ## See also

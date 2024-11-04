@@ -70,7 +70,7 @@ Try the report here: [Segment - Cover Sheet](https://businesscentral.dynamics.co
 
 ## See also
 
-[Relationship management report overview](marketing-reports.md)
-[Relationship management overview](marketing-relationship-management.md)
+[Relationship management report overview](../marketing-reports.md)
+[Relationship management overview](../marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

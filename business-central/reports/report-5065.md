@@ -70,7 +70,7 @@ Try the report here: [Segment - Labels](https://businesscentral.dynamics.com?rep
 
 ## See also
 
-[Relationship management report overview](marketing-reports.md)
-[Relationship management overview](marketing-relationship-management.md)
+[Relationship management report overview](../marketing-reports.md)
+[Relationship management overview](../marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

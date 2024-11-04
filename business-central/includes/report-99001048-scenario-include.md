@@ -1,1 +1,1 @@
-Help you manage inventory levels and ensure that items are available when needed.
+Helps you manage inventory levels and ensure that items are available when you need them.

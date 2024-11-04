@@ -1,1 +1,1 @@
-See the list of Work Centre setup in your company to help manage and schedule production activities more efficiently.
+Get a list of your work center setup, which can help you manage and schedule production activities efficiently.

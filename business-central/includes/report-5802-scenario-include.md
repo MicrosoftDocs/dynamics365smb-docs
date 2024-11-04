@@ -1,1 +1,1 @@
-Help you track the costs incurred during the production process.
+Helps you track cost in the production process.

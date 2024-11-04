@@ -1,6 +1,6 @@
 ---
 title: Production Order - WIP (report)
-description: Help you track the costs incurred during the production process.
+description: Helps you track the costs of the production process.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,10 +17,19 @@ ai.usage: ai-assisted
 
 # Production Order - WIP (report)
 
-The *Production Order - WIP* report shows a detailed overview of the work-in-process (WIP) costs associated with released production orders based on posted transactions (consumptions, capacity entries and output) for a given date.
+The **Production Order - WIP** report shows a detailed overview of the work-in-process (WIP) costs associated with released production orders. The costs are based on posted transactions, such as consumptions, capacity entries, and output for a given date.
 
-The report displays information such as Production Order Status, No. Description, Source Type, Source No, As Of, Consumption, Capacity, Output, As of, and Cost Posted to GL.
+The report displays information such as:
 
+- Production order status
+- Number
+- Description
+- Source type
+- Source number
+- Consumption
+- Capacity
+- Output
+- Cost posted to G/L
 
 ## Use cases
 
@@ -58,20 +67,17 @@ Please include your data sources and URLs
 
 -->
 
-
 ## Try the report
 
 Try the report here: [Production Order - WIP](https://businesscentral.dynamics.com?report=5802)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Contributors
 
-*This article is maintained by Microsoft. Some content was originally written by the following contributors.*
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
-* [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
-
+- [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
 ## See also
 

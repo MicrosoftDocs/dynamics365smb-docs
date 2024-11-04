@@ -1,1 +1,1 @@
-Get an overview of the operations to be performed to build an item, including information on work center or machine center to be used, personnel, and tools needed.
+Get an overview of the operations to do to build an item, including information about the work center, machine center, personnel, and tools involved.

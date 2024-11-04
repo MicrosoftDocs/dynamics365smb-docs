@@ -1,1 +1,1 @@
-Help you plan future production needs by predicting the demand for items based on historical data and other factors. Use the report to help ensure that production schedules align with anticipated sales and inventory requirements.
+Helps you plan future production needs by predicting the demand for items based on historical data and other factors. Use the report to help ensure that production schedules align with anticipated sales and inventory requirements.

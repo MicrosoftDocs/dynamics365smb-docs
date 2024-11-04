@@ -17,10 +17,16 @@ ai.usage: ai-assisted
 
 # Status (report)
 
-The *Status* report shows the inventory valuation for a given item based on the related transactions from sales orders, purchase orders, and inventory, broken out by Entry Type (Purchase, Sale, Transfer, Adjustments).
+The **Status** report shows the inventory valuation for a given item based on transactions from sales orders, purchase orders, and inventory. The valuation broken down by entry types, such as purchase, sale, transfer, and Adjustments.
 
-The report displays information such as Document No, Posting Date, Entry Type, Quantity, and Unit Cost Inv Val.
+The report displays information such as:
 
+- Document number
+- Date of posting
+- Entry type
+- Quantity
+- Unit cost
+- Inventory value
 
 ## Use cases
 
@@ -56,7 +62,6 @@ Helps you monitor and manage your inventory operations effectively by providing 
 
 Please include your data sources and URLs
 
-
 -->
 
 ## Try the report
@@ -65,18 +70,16 @@ Try the report here: [Status](https://businesscentral.dynamics.com?report=706)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Contributors
 
-*This article is maintained by Microsoft. Some content was originally written by the following contributors.*
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
-* [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
-
+- [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
 ## See also
 
-[Inventory and warehouse report overview](../inventory-WMS-reports.md)   
-[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   
+[Inventory and warehouse report overview](../inventory-WMS-reports.md)  
+[Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](../inventory-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

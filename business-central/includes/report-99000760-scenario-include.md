@@ -1,1 +1,1 @@
-See the list of Machine Centre setup in your company to help manage and schedule production activities more efficiently.
+View the machine center setup in your company, which can help you manage and schedule production activities efficiently.

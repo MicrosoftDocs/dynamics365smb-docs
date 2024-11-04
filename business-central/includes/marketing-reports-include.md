@@ -10,7 +10,7 @@ ms.reviewer: bholtorf
 The following table describes some of the key reports in relationship management.
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
-|-------|------------| ------------|----|
+|-------|--------------------------------------------------------------| -----------|----|
 | [!INCLUDE[report-5050-scenario](../includes/report-5050-scenario-include.md)] | [Contact - List](https://businesscentral.dynamics.com?report=5050) | [About *Contact - List*](../reports/report-5050.md) | 5050 |
 | [!INCLUDE[report-5051-scenario](../includes/report-5051-scenario-include.md)] | [Contact - Company Summary](https://businesscentral.dynamics.com?report=5051) | [About *Contact - Company Summary*](../reports/report-5051.md) | 5051 |
 | [!INCLUDE[report-5053-scenario](../includes/report-5053-scenario-include.md)] | [Contact - Person Summary](https://businesscentral.dynamics.com?report=5053) | [About *Contact - Person Summary*](../reports/report-5053.md) | 5053 |

@@ -68,7 +68,7 @@ Try the report here: [Contact - Company Summary](https://businesscentral.dynamic
 
 ## See also
 
-[Relationship management report overview](marketing-reports.md)
-[Relationship management overview](marketing-relationship-management.md)
+[Relationship management report overview](../marketing-reports.md)
+[Relationship management overview](../marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

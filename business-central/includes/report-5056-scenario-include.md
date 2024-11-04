@@ -1,0 +1,1 @@
+Print mailing labels with names and addresses of your contacts. 

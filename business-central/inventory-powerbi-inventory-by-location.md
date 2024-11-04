@@ -1,9 +1,9 @@
 ---
 title: Inventory by Location (Power BI report)
-description: The Inventory by Location outlines inventory levels across an organizations different locations.
+description: The Inventory by Location outlines inventory levels across locations.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37023_Primary
@@ -15,21 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Inventory by Location* outlines inventory levels across an organizations different locations.
-
-It provides an accurate picuture of each location and the inventory levels broken down by Item Category and Item.
+The **Inventory by Location** outlines inventory levels across an organization's locations. It provides an accurate picture of each location and the inventory levels broken down by category and item.
 
 :::image type="content" source="media/inventory/inventory-by-location.png" alt-text="Screenshot of the Inventory by Location Power BI Report" lightbox="media/inventory/inventory-by-location.png":::
 
+## Use the report
 
-## How to use the report
+The report is designed for management teams in warehousing and supply chain management.
 
-The *Inventory by Location* is designed to be used by different management teams such as Warehouse and Supply Chain Management.
+Warehouse managers can use the report to check whether each location has appropriate stock levels. This information can help identify whether a location is low or high on stock, and show where you can move stock around where required.
 
-As a Warehouse Manager, this report can highlight each location for your organization has the appropiate stock levels. This can identify if a specific location is low or high on stock and highlight where you can make changes moving stock around where required.
-
-As a Supply Chain Manager, the *Inventory by Location* report provides you with information about where you are storing each item. With this information you can make informed decisions around shipping and ensuring that items are delivered on time and at the lowest possible cost.
-
+For supply chain managers, the report provides information about where you store each item. With this information, you can make informed decisions about shipping and ensure that items are delivered on time and at the lowest cost.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -43,11 +39,11 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-Data from the following tables are used on the *Inventory by Location* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Item Ledger Entries
 - Location
-
 
 ## Try the report
 
@@ -57,9 +53,9 @@ Try the report here: [Inventory by Location](https://businesscentral.dynamics.co
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

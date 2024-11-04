@@ -1,9 +1,9 @@
 ---
 title: Bin Contents (Power BI report)
-description: The Bin Contents shows an organizations bin contents per location.
+description: The Bin Contents report shows bin contents per location.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37031_Primary
@@ -15,23 +15,21 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Bin Contents* breaks down an organizations inventory levels on a bin by bin basis. This can be used to identify high and low volume bins and can inform inventory movement requirements if bins need additional inventory. 
+The **Bin Contents** report breaks down an organization's inventory levels on a bin-by-bin basis. Use this information to identify high and low volume bins and inform inventory movement requirements if bins need more inventory.
 
-The report additional highlights quantity available along with quantity metrics across different warehouse activities such as Pick, Put-Away and general adjustments.
+The report also shows the available quantity and quantity metrics across different warehouse activities. For example, picks, put-aways, and general adjustments.
 
 :::image type="content" source="media/inventory/bin-contents.png" alt-text="Screenshot of the Bin Contents Power BI Report" lightbox="media/inventory/bin-contents.png":::
 
+## Use the report
 
-## How to use the report
+The report helps managers and manufacturing or procurement staff to identify item volumes in each bin.
 
-The *Bin Contents* can be used by managers and manufacturing or procurement staff to be able to identify item volumes allocated to each bin.
+For warehouse or inventory managers, the report provides a clear picture of the stock levels of each bin across your organization. The report can help you make decisions on procurement or production. It might also prompt you to transfer stock to a specific bin to maintain supply.
 
-As a Warehouse or Inventory Manager, the *Bin Contents* report provides you a clear picture of the stock levels of each bin across your organization. With this you can make decisions on procurement or further production. Alternatively, this could prompt you to transfer stock to a specific bin to maintain supply. 
+Manufacturing team members can use this report to gauge inventory levels across all bins and plan production schedules based on the inventory in each bin.
 
-As Manufacturing team member, you can use this report to gauge your inventory levels across all bins and plan production schedules based on the inventory in each bin. 
-
-As a member of the procurement team, you can use this report to gauge your inventory levels across all bins and plan purchase orders to ensure bins stay at a reasonable level.
-
+The procurement team can use this report to gauge inventory levels across all bins and plan purchase orders to ensure that quantities in bins stay at a reasonable level.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -52,7 +50,8 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-Data from the following tables are used on the *Bin Contents* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Bin
 - Location
@@ -62,7 +61,6 @@ Data from the following tables are used on the *Bin Contents* report
 - Warehouse Journal Lines
 - Zone
 
-
 ## Try the report
 
 Try the report here: [Bin Contents](https://businesscentral.dynamics.com?page=37031)
@@ -71,9 +69,9 @@ Try the report here: [Bin Contents](https://businesscentral.dynamics.com?page=37
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

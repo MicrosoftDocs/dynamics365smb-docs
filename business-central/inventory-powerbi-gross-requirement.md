@@ -3,7 +3,7 @@ title: Gross Requirement (Power BI report)
 description: The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item. 
 author: kennieNP
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37027_Primary
@@ -15,21 +15,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
+The **Gross Requirement** report looks at all outbound transactions to determine the quantity required per item.
 
-The *Gross Requirement* report looks at all outbound transactions within the system to identify the quantity required per item. 
-
-The *Gross Requirement* reports shows a view of the Gross Requirement for an item along with the inventory across the different documents. This is coupled with the Project Available Balance which calculates the balance at any point in time. 
+The report shows the gross requirement for an item and the different documents that include it. This information is coupled with the **Project Available Balance** that calculates the balance at any point in time.
 
 :::image type="content" source="media/inventory/gross-requirement.png" alt-text="Screenshot of the Gross Requirement Power BI Report" lightbox="media/inventory/gross-requirement.png":::
 
+## Use the report
 
-## How to use the report
+The report helps management and procurement officers to determine whether the organization is keeping up with demand.
 
-The *Gross Requirement* is meant for management and procurement officers to be able to identify if the organization is keeping up with the demand.
+Managers can use the report to ensure that stock levels are high enough to maintain the production schedule and sales demand for each item. The report helps identify bottlenecks in production by showing items where the available inventory doesn't meet the gross requirement.
 
-As a manager, you can use the *Gross Requirement* report to ensure that you are keeping stock levels high enough to maintain the production schedule and sales demand for each item. The report can aid in identify impending bottle necks in production by highlighting items where the available balance will not meet the gross requirement. 
-
-As a procurement officer, this report allows you to see Sales and Production volumes and ensure your available balance is enough to sustain the requirements for each item. With this, you can make informed decisions on what items need more inventory.
+Procurement officers can view sales and production volumes and ensure your available balance meets the requirements for each item. With this information, you can make informed decisions on the items you should replenish.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -52,7 +50,8 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-Data from the following tables are used on the *Gross Requirement* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Item Ledger Entries
 - Assembly Lines
@@ -64,7 +63,6 @@ Data from the following tables are used on the *Gross Requirement* report
 - Service Lines
 - Transfer Lines
 
-
 ## Try the report
 
 Try the report here: [Gross Requirement](https://businesscentral.dynamics.com?page=37027)
@@ -73,9 +71,9 @@ Try the report here: [Gross Requirement](https://businesscentral.dynamics.com?pa
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

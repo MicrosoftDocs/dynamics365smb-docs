@@ -1,9 +1,9 @@
 ---
-title: Inventory by Lot (Power BI report)
-description: The Inventory by Lot No report highlights your organizations total inventory broken down per lot.
+title: Inventory by Lot No. (Power BI report)
+description: The Inventory by Lot No. report shows total inventory broken down per lot.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37029_Primary
@@ -11,25 +11,21 @@ ms.date: 10/28/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Inventory by Lot No (Power BI Report)
+# Inventory by Lot No. (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Inventory by Lot No* report highlights your organizations total inventory broken down per lot where items are lot tracked. 
-
-This can be used to identify different lots and can be used to track the performance on a lot by lot basis.
+The **Inventory by Lot No.** report shows total inventory broken down per lot where items are lot tracked. Use this information to identify different lots and track performance on a lot-by-lot basis.
 
 :::image type="content" source="media/inventory/inventory-by-lot.png" alt-text="Screenshot of the Inventory by Lot No Power BI Report" lightbox="media/inventory/inventory-by-lot.png":::
 
+## Use the report
 
-## How to use the report
+Inventory managers and warehousing staff can key track inventory per lot number.
 
-The *Inventory by Lot No.* is meant for inventory management and warehousing staff to be able to key track of inventory broken down per lot.
+Inventory managers use the report to ensure each lot has an optimized stock level. This information can also help you identify slow-moving inventory to take corrective action, and track lots that are due to expire.
 
-As an Inventory Manager, you would use the *Inventory by Lot* report to ensure each lot has an optimised stock level. Using this information can also assist in identifiying slow moving inventory to take corrective action and also keep tracking of different lots that are due to expire.
-
-As a Warehouse staff member, the *Inventory by Lot* report assists in providing you a clear picture to see how much inventory is in each lot. This can assist you in making key decisions and ensuring that inventory is properly managed and avoid stock outs.
-
+The report helps warehouse staff members by providing a way to check inventory amounts in each lot. This information can help you make key decisions, ensure that inventory is properly managed, and avoid stock-outs.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -45,10 +41,10 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-Data from the following tables are used on the *Inventory by Lot No* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Item Ledger Entries
-
 
 ## Try the report
 
@@ -58,9 +54,9 @@ Try the report here: [Inventory by Lot No.](https://businesscentral.dynamics.com
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

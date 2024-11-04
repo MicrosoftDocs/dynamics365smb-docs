@@ -1,6 +1,6 @@
 ---
 title: Service Profit (Contracts) (report)
-description: 
+description: Get an overview on profit for service contracts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

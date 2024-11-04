@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Relationship management reports in Business Central
 
-This article describes the most used reports for relationship management.
+This article describes reports available for relationship management.
 
 
 ## Reports
@@ -23,13 +23,9 @@ This article describes the most used reports for relationship management.
 
 ## Explore relationship management reports with Report Explorer
 
-**TODO> heading**
+To get an overview of the reports that are available for relationship management, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**.
 
-To get an overview of the reports that are available for relationship management, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **XXX** heading, choose **Explore**.
-
-**TODO> screenshot**
-
-:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of reports on the finance role center":::
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center":::
 
 To learn more, go to [Finding pages and reports with the role explorer](ui-role-explorer.md).
 

@@ -1,0 +1,1 @@
+Test that service orders, invoices or credit memos look right before you post them.

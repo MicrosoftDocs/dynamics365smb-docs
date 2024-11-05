@@ -742,6 +742,12 @@ ms.service: dynamics-365-business-central
 <!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
+
+#### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
+##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
+##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
+##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
+
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)

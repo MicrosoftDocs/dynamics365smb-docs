@@ -1,1 +1,1 @@
-The **Service Contract** report shows a list of all your service contracts.
+Get an overview of all your service contracts.

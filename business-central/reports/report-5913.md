@@ -1,6 +1,6 @@
 ---
 title: Service - Shipment (document report)
-description: 
+description: Generate a service shipment document that you can send to your customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

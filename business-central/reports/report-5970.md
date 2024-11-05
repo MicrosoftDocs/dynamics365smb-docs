@@ -1,6 +1,6 @@
 ---
 title: Service Contract (report)
-description: 
+description: Get an overview of all your service contracts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

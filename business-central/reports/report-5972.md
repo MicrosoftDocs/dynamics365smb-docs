@@ -1,6 +1,6 @@
 ---
 title: Service Contract Quote (document report)
-description: 
+description: Generate a service contract quote document that you can send to your customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

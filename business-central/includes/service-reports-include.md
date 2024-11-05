@@ -33,7 +33,13 @@ The following table describes some of the key reports in service management.
 | [!INCLUDE[report-5971-scenario](../includes/report-5971-scenario-include.md)] | [Service Contract-Detail](https://businesscentral.dynamics.com?report=5971) | [About *Service Contract-Detail*](../reports/report-5971.md) | 5971 |
 | [!INCLUDE[report-5972-scenario](../includes/report-5972-scenario-include.md)] | [Service Contract Quote](https://businesscentral.dynamics.com?report=5972) | [About *Service Contract Quote*](../reports/report-5972.md) | 5972 |
 | [!INCLUDE[report-5973-scenario](../includes/report-5973-scenario-include.md)] | [Service Contract Quote-Detail](https://businesscentral.dynamics.com?report=5973) | [About *Service Contract Quote-Detail*](../reports/report-5973.md) | 5973 |
+| [!INCLUDE[report-5974-scenario](../includes/report-5974-scenario-include.md)] | [Contract Quotes to Be Signed](https://businesscentral.dynamics.com?report=5974) | [About *Contract Quotes to Be Signed*](../reports/report-5974.md) | 5974 |
 | [!INCLUDE[report-5976-scenario](../includes/report-5976-scenario-include.md)] | [Service Profit (Contracts)](https://businesscentral.dynamics.com?report=5976) | [About *Service Profit (Contracts)*](../reports/report-5976.md) | 5976 |
+| [!INCLUDE[report-5977-scenario](../includes/report-5977-scenario-include.md)] | [Service Contract - Customer](https://businesscentral.dynamics.com?report=5977) | [About *Service Contract - Customer*](../reports/report-5977.md) | 5977 |
+| [!INCLUDE[report-5978-scenario](../includes/report-5978-scenario-include.md)] | [Serv. Contract - Salesperson](https://businesscentral.dynamics.com?report=5978) | [About *Serv. Contract - Salesperson*](../reports/report-5978.md) | 5978 |
+| [!INCLUDE[report-5980-scenario](../includes/report-5980-scenario-include.md)] | [Maintenance Visit - Planning](https://businesscentral.dynamics.com?report=5980) | [About *Maintenance Visit - Planning*](../reports/report-5980.md) | 5980 |
+| [!INCLUDE[report-5981-scenario](../includes/report-5981-scenario-include.md)] | [Contr. Gain/Loss - Resp. Ctr.](https://businesscentral.dynamics.com?report=5981) | [About *Contr. Gain/Loss - Resp. Ctr.*](../reports/report-5981.md) | 5981 |
+| [!INCLUDE[report-5982-scenario](../includes/report-5982-scenario-include.md)] | [Maintenance Performance](https://businesscentral.dynamics.com?report=5982) | [About *Maintenance Performance*](../reports/report-5982.md) | 5982 |
 
 
 <!-- 
@@ -60,55 +66,13 @@ Report_
 5971
 5972
 5973
-5976
-
-
 5974
-Contract Quotes to Be Signed
-Shows the contract number, customer name and address, salesperson code, starting date, probability, quoted amount, and forecast. You can print all your information about contract quotes to be signed.
-
-Forecast Included
-Select if you want to include a forecast of the contract quotes to be signed in the report.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
+5976
 5977
-Service Contract - Customer
-Shows information on status, next invoice date, invoice period, amount per period, and annual amount. You can print a list of service contracts for each customer in a selected time period.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5978
-Serv. Contract - Salesperson
-Shows customer number, name, description, starting date and the annual amount for each service contract. You can use the report to calculate and document sales commission. You can print a list of service contracts for each salesperson for a selected period.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5980
-Maintenance Visit - Planning
-Shows the service zone code, group code, contract number, customer number, service period, as well as the service date. You can select the schedule for one or more responsibility centers. The report shows the service dates of all the maintenance visits for the chosen responsibility centers. You can print all your schedules for maintenance visits.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5981
-Contr. Gain/Loss - Resp. Ctr.
-Shows the responsibility center, customer number, ship-to code, customer name, contract group code, contract number, change status, change date, and amount. You can print all your analysis of gains and losses made on contracts attached to the different responsibility centers.
-
-Show Details
-Select if you want the report to show details of the contract gain/loss entry.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5982
-Maintenance Performance
-Shows the responsibility center, annual amount, expected amount, realized amount, and realized %. You can print an analysis of maintenance performance for the responsibility centers.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
 
 
 5983

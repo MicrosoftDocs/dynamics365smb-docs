@@ -610,6 +610,21 @@ ms.service: dynamics-365-business-central
 ### [Sales overview](sales-manage-sales.md)
 ### Sales analytics 
 #### [Sales analytics overview](sales-analytics-overview.md)
+
+#### [Power BI sales app](sales-powerbi-app.md)
+##### [Sales overview](sales-powerbi-sales-overview.md)
+##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Moving Average](sales-powerbi-moving-average.md)
+##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
+##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Sales by Item](sales-powerbi-sales-by-item.md)
+##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
+##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
+##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
@@ -655,7 +670,22 @@ ms.service: dynamics-365-business-central
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
 ### Purchasing analytics 
+
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
+#### [Power BI Purchasing app](purchases-powerbi-app.md)
+##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
+##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
+##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
+##### [Moving Averages](purchases-powerbi-moving-averages.md)  
+##### [Moving Annual Total](purchases-powerbi-moving-annual-total.md)  
+##### [Period-Over-Period](purchases-powerbi-period-over-period.md)  
+##### [Year-Over-Year](purchases-powerbi-year-over-year.md)  
+##### [Purchases by Item](purchases-powerbi-purchases-by-item.md)  
+##### [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md)  
+##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
+##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
+##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
@@ -696,6 +726,21 @@ ms.service: dynamics-365-business-central
 ### [Inventory overview](inventory-manage-inventory.md)
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
+
+#### [Power BI Inventory app](inventory-powerbi-app.md)
+##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
+##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
+##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
+##### [Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md)
+##### [Item Availability](inventory-powerbi-item-availability.md)
+##### [Gross Requirement](inventory-powerbi-gross-requirement.md)
+##### [Scheduled Receipt](inventory-powerbi-scheduled-receipt.md)
+##### [Inventory by Lot](inventory-powerbi-inventory-by-lot.md)
+##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
+##### [Bin Contents](inventory-powerbi-bin-contents.md)
+##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
+<!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
+
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 
 #### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
@@ -706,6 +751,7 @@ ms.service: dynamics-365-business-central
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Status](reports/report-706.md)
 ##### [Inventory Availability Plan](reports/report-707.md)
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
@@ -716,6 +762,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
+##### [Item Substitutions](reports/report-5701.md) 
 ##### [Item Charges - Specification](reports/report-5806.md) 
 ##### [Item Age Composition - Quantity](reports/report-5807.md) 
 ##### [Item Age Composition - Value](reports/report-5808.md) 
@@ -725,6 +772,8 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Shipment Status](reports/report-7313.md) 
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
+##### [Planning Availability](reports/report-99001048.md)
+##### [Production Forecast](reports/report-990003804.md)
 
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
@@ -887,18 +936,32 @@ ms.service: dynamics-365-business-central
 
 ## Manufacturing
 ### [Manufacturing overview](production-manage-manufacturing.md)
+
 ### Built-in production reports
 #### [Production report overview](production-reports.md)
-##### [Quantity Explosion of BOM](reports/report-99000753.md)
-##### [Detailed Calculation](reports/report-99000756.md)
-##### [Where-Used (Top Level)](reports/report-99000757.md)
-##### [Item BOM Compare list](reports/report-99000758.md)
-##### [Prod. Order - Calculation](reports/report-99000767.md)
-##### [Capacity Task list](reports/report-99000780.md)
-##### [Work Center Load](reports/report-99000783.md)
-##### [Machine Center Load](reports/report-99000784.md)
-##### [Prod. Order Shortage list](reports/report-99000788.md)
-##### [Production Order Statistics](reports/report-99000791.md)
+#### [Production Order - WIP](reports/report-5802.md)
+#### [Item - Able to Make (Time)](reports/report-5871.md)
+#### [BOM Cost Share Distribution](reports/report-5872.md)
+#### [Quantity Explosion of BOM](reports/report-99000753.md)
+#### [Rolled-up Cost Shares](reports/report-99000754.md)
+#### [Single-Level Cost Shares](reports/report-99000755.md)
+#### [Detailed Calculation](reports/report-99000756.md)
+#### [Where-Used (Top Level)](reports/report-99000757.md)
+#### [Item BOM Compare list](reports/report-99000758.md)
+#### [Work Centre List](reports/report-99000759.md)
+#### [Machine Centre List](reports/report-99000760.md)
+#### [Prod. Order - Precalc. Time](reports/report-99000764.md)
+#### [Prod. Order - Calculation](reports/report-99000767.md)
+#### [Prod. Order Detailed Calc](reports/report-99000768.md)
+#### [Capacity Task list](reports/report-99000780.md)
+#### [Work Center Load](reports/report-99000783.md)
+#### [Machine Center Load](reports/report-99000784.md)
+#### [Work Center Load/Bar](reports/report-99000785.md)
+#### [Machine Center Load/Bar](reports/report-99000786.md)
+#### [Routing Sheet](reports/report-99000787.md)
+#### [Prod. Order Shortage list](reports/report-99000788.md)
+#### [Subcontractor Dispatch List](reports/report-99000789.md)
+#### [Production Order Statistics](reports/report-99000791.md)
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
@@ -2046,6 +2109,7 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
+### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)

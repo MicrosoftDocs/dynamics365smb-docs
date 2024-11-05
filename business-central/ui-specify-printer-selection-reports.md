@@ -11,7 +11,7 @@ ms.date: 11/05/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="default"></a>Specify a Default Printer  
+# <a name="default"></a>Specify a default printer  
 
 After printers have been set up in Business Central, you can then specify which printer you want to use by default for all companies in the environment. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement or their output capabilities.
 

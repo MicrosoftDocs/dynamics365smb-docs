@@ -1,0 +1,1 @@
+Analyze gains and losses made on contracts attached to the different responsibility centers.

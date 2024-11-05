@@ -8,7 +8,7 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 09/25/2024
+ms.date: 11/04/2024
 ms.author: jswymer
 ---
 # Personalize your workspace
@@ -36,7 +36,7 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 
 ### Resize a column
 
-There are two ways to change the width of a column in a list:  
+There are two ways to change the width of a column in any list, including in dropdowns for looking up field values: 
 
 - In the header of a list, select and drag the boundary between two columns.
 - Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.

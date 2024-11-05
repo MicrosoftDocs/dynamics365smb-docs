@@ -523,6 +523,25 @@ ms.service: dynamics-365-business-central
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
+### [Power BI finance app](finance-powerbi-app.md)
+#### [Financial Overview](finance-powerbi-financial-overview.md)
+#### [Income Statement](finance-powerbi-income-statement.md)
+#### [Balance Sheet](finance-powerbi-balance-sheet.md)
+#### [Budget Comparison](finance-powerbi-budget-comparison.md)
+#### [Liquidity KPIs](finance-powerbi-liquidity.md)
+#### [Profitability](finance-powerbi-profitability.md)
+#### [Liabilities](finance-powerbi-liabilities.md)
+#### [EBITDA](finance-powerbi-ebitda.md)
+#### [Average Collection Period](finance-powerbi-average-collection-period.md)
+#### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
+#### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+
+<!-- 
+#### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
+#### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
+#### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
+
+ -->
 
 ### Financial reporting (Implementing financial statements and KPIs)
 #### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)

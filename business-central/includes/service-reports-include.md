@@ -29,6 +29,10 @@ The following table describes some of the key reports in service management.
 | [!INCLUDE[report-5939-scenario](../includes/report-5939-scenario-include.md)] | [Service Item - Resource Usage](https://businesscentral.dynamics.com?report=5939) | [About *Service Item - Resource Usage*](../reports/report-5939.md) | 5939 |
 | [!INCLUDE[report-5955-scenario](../includes/report-5955-scenario-include.md)] | [Dispatch Board](https://businesscentral.dynamics.com?report=5955) | [About *Dispatch Board*](../reports/report-5955.md) | 5955 |
 | [!INCLUDE[report-5956-scenario](../includes/report-5956-scenario-include.md)] | [Service Load Level](https://businesscentral.dynamics.com?report=5956) | [About *Service Load Level*](../reports/report-5956.md) | 5956 |
+| [!INCLUDE[report-5970-scenario](../includes/report-5970-scenario-include.md)] | [Service Contract](https://businesscentral.dynamics.com?report=5970) | [About *Service Contract*](../reports/report-5970.md) | 5970 |
+| [!INCLUDE[report-5971-scenario](../includes/report-5971-scenario-include.md)] | [Service Contract-Detail](https://businesscentral.dynamics.com?report=5971) | [About *Service Contract-Detail*](../reports/report-5971.md) | 5971 |
+| [!INCLUDE[report-5972-scenario](../includes/report-5972-scenario-include.md)] | [Service Contract Quote](https://businesscentral.dynamics.com?report=5972) | [About *Service Contract Quote*](../reports/report-5972.md) | 5972 |
+| [!INCLUDE[report-5973-scenario](../includes/report-5973-scenario-include.md)] | [Service Contract Quote-Detail](https://businesscentral.dynamics.com?report=5973) | [About *Service Contract Quote-Detail*](../reports/report-5973.md) | 5973 |
 | [!INCLUDE[report-5976-scenario](../includes/report-5976-scenario-include.md)] | [Service Profit (Contracts)](https://businesscentral.dynamics.com?report=5976) | [About *Service Profit (Contracts)*](../reports/report-5976.md) | 5976 |
 
 
@@ -52,35 +56,11 @@ Report_
 5939
 5955
 5956
-5976
-
-
 5970
-Service Contract
-Shows the contract number, item number, serial number, service period, and annual amount. You can print a list of all your service contracts.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5971
-Service Contract-Detail
-Shows details about your service contracts. You can print a list of all your service contracts, including details about item numbers, descriptions, variant codes, serial numbers, service periods, contract values, contract discounts, and contract amounts.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5972
-Service Contract Quote
-Shows the contract number, starting date, invoice period and discount, as well as the annual amount. You can print all your service contract quotes.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
-
-
 5973
-Service Contract Quote-Detail
-Shows information about the service items, as well as the service contract discounts. You can print a detailed list of all your service contract quotes. The quoted amounts are totaled up for each contract.
-
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [xxx](https://businesscentral.dynamics.com?report=666) | [About *xxx*](../reports/report-666.md) | 666 |
+5976
 
 
 5974

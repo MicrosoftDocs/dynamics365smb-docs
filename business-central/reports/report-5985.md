@@ -1,6 +1,6 @@
 ---
 title: Contract Price Update - Test (report)
-description: 
+description: Get an overview of which service contracts need price updates up to the date that you have specified.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

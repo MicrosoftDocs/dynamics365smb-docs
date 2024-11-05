@@ -726,6 +726,21 @@ ms.service: dynamics-365-business-central
 ### [Inventory overview](inventory-manage-inventory.md)
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
+
+#### [Power BI Inventory app](inventory-powerbi-app.md)
+##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
+##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
+##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
+##### [Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md)
+##### [Item Availability](inventory-powerbi-item-availability.md)
+##### [Gross Requirement](inventory-powerbi-gross-requirement.md)
+##### [Scheduled Receipt](inventory-powerbi-scheduled-receipt.md)
+##### [Inventory by Lot](inventory-powerbi-inventory-by-lot.md)
+##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
+##### [Bin Contents](inventory-powerbi-bin-contents.md)
+##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
+<!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
+
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)

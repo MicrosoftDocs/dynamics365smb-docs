@@ -3,7 +3,7 @@ title: EBITDA
 description: The EBITDA report provides an overview of your company's EBIT and EBITDA over time.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 36991_Primary
@@ -15,22 +15,21 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The EBITDA report provides an overview of your company's performance from the perspective of both EBIT (Earnings Before Interest and Taxes) and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). You can review EBIT and EBITDA over time to identify trends in operational performance and inform decisions about cost management and pricing strategies. 
+The **EBITDA** report provides an overview of your company's performance from the perspective of both earnings before interest and taxes (EBIT), and earnings before interest, taxes, depreciation, and amortization (EBITDA). You can review EBIT and EBITDA over time to identify trends in operational performance and inform decisions about cost management and pricing strategies.
 
 :::image type="content" source="media/finance/ebitda-report.png" alt-text="Screenshot of the EBITDA report" lightbox="media/finance/ebitda-report.png":::
 
+## Use the report
 
-## How to use the report
+The audiences for the report are:
 
-The target audience for the *EBITDA* report is
 - Executives
 - Directors
 - Other high-level decision makers
 
-As an executive you can use the EBITDA report to evaluate cash flow potential before making strategic decisions. By analyzing EBIT you can gauge the efficiency in which your core business generate profits from operations. You could refer to EBITDA which excludes both non-operational costs and non-cash expenses like depreciation and amortization when comparing your business to your peers in the industry. 
+Executives use the report to evaluate cash flow potential before making strategic decisions. By analyzing EBIT, you can gauge the efficiency with which your core business generates profits from operations. EBITDA excludes both nonoperational costs and noncash expenses, such as depreciation and amortization. Use EBITDA when you compare your business to your peers in the industry.
 
-In short, you’ll find EBITDA ideal for comparing cash flow potential across similar businesses, while EBIT offers a fuller picture of profit by including asset-related costs, which is essential for assessing long-term operational efficiency.
-
+EBITDA is good for comparing cash flow potential across similar businesses. EBIT offers a fuller picture of profit by including asset-related costs, which is essential for assessing long-term operational efficiency.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -49,15 +48,13 @@ The *EBITDA* report includes the following KPIs and measures:
 - [**Extraordinary Expense**](####)
 - [**Depreciation and Amortization**](####) -->
 
-
 ## Data used in the report
 
-The *EBITDA* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - G/L Entry
 - G/L Accounts
 - G/L Account Categories
-
 
 ## Try the report
 
@@ -67,12 +64,12 @@ Try the report here: [EBITDA](https://businesscentral.dynamics.com?page=36991)
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI finance app](finance-powerbi-app.md)   
-[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
 [Built-in fixed assets reports](fa-reports.md)  
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
-[Financial analytics overview](bi.md)   
-[Finance overview](finance.md)    
+[Financial analytics overview](bi.md)  
+[Finance overview](finance.md)

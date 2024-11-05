@@ -1,6 +1,6 @@
 ---
 title: Balance Sheet by Month
-description: The Balance Sheet by Month report provides a month-to-month view of the balance at date for all Balance Sheet accounts. 
+description: The Balance Sheet by Month report provides a month-to-month view of the balance at date for all balance sheet accounts. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
@@ -15,14 +15,13 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The Balance Sheet by Month report provides you with a detailed, month-to-month view of the balance sheet accounts -- balance at date. The report is organized in a parent-child hierarchy for intuitive navigation with summarized totals. Drill through into the Balance Sheet Drill-Through page to explore the underlying ledger entries that make up a month's value. 
+The **Balance Sheet by Month** report provides a detailed, month-to-month view of the balance sheet accounts' balance at date. The report is organized in a hierarchy for intuitive navigation with summarized totals. Drill through to the **Balance Sheet Drill-Through** page to explore the underlying ledger entries that make up the value for a month.
 
 :::image type="content" source="media/finance/balance-sheet-by-month-report.png" alt-text="Screenshot of the Balance Sheet by Month report" lightbox="media/finance/balance-sheet-by-month-report.png":::
 
+## Use the report
 
-## How to use the report
-
-As an executive or senior leader you can use the balance sheet by month report to make informed decision about the company's financial health. You can effectively manage liquidity by comparing current assets to liabilities, ensuring that your short-term obligations can be met. It also provides insights into debt levels relative to equity allowing you to make clearer decisions about financing and capital structure. 
+Executives or senior leaders can use the report to make informed decision about the company's financial health. You can effectively manage liquidity by comparing current assets to liabilities and ensure you can meet your short-term obligations. It also provides insights into debt levels relative to equity, which helps you make clearer decisions about your financing and capital structure.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -30,11 +29,10 @@ As an executive or senior leader you can use the balance sheet by month report t
 
 ## Data used in the report
 
-The *Balance Sheet by Month* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - G/L Entry
 - G/L Account
-
 
 ## Try the report
 
@@ -42,15 +40,14 @@ Try the report here: [Balance Sheet by Month](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI finance app](finance-powerbi-app.md)   
-[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
 [Built-in fixed assets reports](fa-reports.md)  
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
-[Financial analytics overview](bi.md)   
-[Finance overview](finance.md)    
+[Financial analytics overview](bi.md)  
+[Finance overview](finance.md)

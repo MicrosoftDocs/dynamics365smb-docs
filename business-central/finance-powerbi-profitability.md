@@ -1,9 +1,9 @@
 ---
 title: Profitability
-description: The Profitability report highlights gross and net profits over time.
+description: The Profitability report shows gross and net profits over time.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 36989_Primary
@@ -15,20 +15,26 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The Profitability Report is designed to help you, as an executive or high-level decision-maker, assess your company's financial success through key profitability metrics like: Net Profit, Net Profit Margin, Gross Profit, and Gross Profit Margin. The KPI cards highlight these metrics and their supporting inputs. This report provides a clear view of both gross and net profit trends over time, enabling you to monitor financial performance and evaluate profitability.
+The **Profitability** report helps executives and high-level decision-makers assess your company's financial success through key performance indicators (KPIs) for important profitability metrics, such as:
+
+- Net profit
+- Net profit mMargin
+- Gross profit
+- Gross profit margin
+
+The KPIs highlight these metrics and their supporting inputs. This report provides a clear view of both gross and net profit trends over time, so you can monitor financial performance and evaluate profitability.
 
 :::image type="content" source="media/finance/profitability-report.png" alt-text="Screenshot of the Profitability report" lightbox="media/finance/profitability-report.png":::
 
+## Use the report
 
-## How to use the report
+The audiences for the report are:
 
-The target audience for the *Profitability* report is
 - Executives
 - Directors
 - Other high-level decision makers
 
-As an executive, you would use the Profitability report to analyze gross and net profits over time. Combining global and shortcut dimensions with fiscal period filters, you can quickly visualize trends and gain insights into key drivers of financial performance. 
-
+Executives use the report to analyze gross and net profits over time. Combining global and shortcut dimensions with fiscal period filters lets you quickly visualize trends and gain insights into key drivers of financial performance.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -42,15 +48,13 @@ The *Profitability* report includes the following KPIs and measures:
 - [**Cost of Goods Sold**](####)
 - [**Expense**](####) -->
 
-
 ## Data used in the report
 
-The *Profitability* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - G/L Entry
 - G/L Accounts
 - G/L Account Categories
-
 
 ## Try the report
 
@@ -60,12 +64,12 @@ Try the report here: [Profitability](https://businesscentral.dynamics.com?page=3
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI finance app](finance-powerbi-app.md)   
-[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
 [Built-in fixed assets reports](fa-reports.md)  
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
-[Financial analytics overview](bi.md)   
-[Finance overview](finance.md)    
+[Financial analytics overview](bi.md)  
+[Finance overview](finance.md)

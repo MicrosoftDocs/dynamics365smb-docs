@@ -1,9 +1,9 @@
 ---
 title: Liquidity
-description: The Liquidity report highlights key liquidity metrics used to analyze an organization's ability to meet current liabilities.
+description: The Liquidity report shows key liquidity metrics used to analyze an organization's ability to meet current liabilities.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 36988_Primary
@@ -19,20 +19,19 @@ The Liquidity Report is designed to help you evaluate your company's short-term 
 
 :::image type="content" source="media/finance/liquidity-report.png" alt-text="Screenshot of the Liquidity report" lightbox="media/finance/liquidity-report.png":::
 
+## Use the report
 
-## How to use the report
+The audiences for the report are:
 
-The target audience for the *Liquidity* report is
 - Executives
 - Directors
 - Other high-level decision makers
 
-As an executive, you would use the Liquidity report to analyze the company's financial stability and help ensure there's sufficient cash flow for ongoing operations. For a broad perspective of liquidity you could asses the Current Ratio which compares current assets to current liabilities. This helps assess day-to day operational stability. 
+Executives use the report to analyze the company's financial stability and help ensure there's sufficient cash flow for ongoing operations. For a broad perspective of liquidity, you could assess the current ratio. The current ratio compares current assets to current liabilities. This helps assess day-to day operational stability.
 
-For a more conservative assessment you could then analyze the Quick Ratio, which removes inventory and purchase prepayments from the equation. This ratio focuses on on cash and assets that can be quickly converted to cash such as accounts receivable.  
+For a more conservative assessment, you can analyze the quick ratio, which removes inventory and purchase prepayments from the equation. This ratio focuses on cash and assets that you can quickly convert to cash, such as accounts receivable.  
 
-Finally, you could review the Cash Ratio which focuses on liquid assets to meet financial obligations. This is the most conservative perspective and focuses on cash and cash equivalents to meet current liabilities. 
-
+Finally, you could review the cash ratio, which focuses on liquid assets to meet financial obligations. This perspective is the most conservative, and focuses on cash and cash equivalents to meet current liabilities.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -47,15 +46,13 @@ The *Liquidity* report includes the following KPIs and measures:
 - [**Purchase Prepayments**](####)
 - [**Liquid Assets**](####) -->
 
-
 ## Data used in the report
 
-The *Liquidity* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - G/L Entry
 - G/L Accounts
 - G/L Account Categories
-
 
 ## Try the report
 
@@ -65,12 +62,12 @@ Try the report here: [Liquidity](https://businesscentral.dynamics.com?page=36988
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI finance app](finance-powerbi-app.md)   
-[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
 [Built-in fixed assets reports](fa-reports.md)  
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
-[Financial analytics overview](bi.md)   
-[Finance overview](finance.md)    
+[Financial analytics overview](bi.md)  
+[Finance overview](finance.md)

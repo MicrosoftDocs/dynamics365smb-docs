@@ -3,7 +3,7 @@ title: Aged Payables (Back Dating)
 description: The Aged Payables (Back Dating) report provides an overview of outstanding vendor invoices categorized by payment terms and grouped into aging buckets.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 36994_Primary
@@ -15,18 +15,18 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The Aged Payables (Back Dating) report allows you to analyze outstanding vendor balances grouped by customizable aging periods. The report can be aged by posting date, due date, or document date. It categorizes vendor balances by payment terms code, enabling you to quickly align net terms with aging buckets for efficient analysis. This approach helps you prioritize payment efforts and manage cash flow more effectively.
+The Aged Payables (Back Dating) report allows you to analyze outstanding vendor balances grouped by customizable aging periods. You can age the report by posting date, due date, or document date. It categorizes vendor balances by payment terms code, so you can quickly align net terms with aging buckets for efficient analysis. This approach helps you prioritize payment efforts and manage cash flow effectively.
 
 :::image type="content" source="media/finance/aged-payables-report.png" alt-text="Screenshot of the Aged Payables (Back Dating) report" lightbox="media/finance/aged-payables-report.png":::
 
+## Use the report
 
-## How to use the report
+The audiences for the report are:
 
-The target audience for the *Aged Payables (Back Dating)* report is
 - Executives
-- Finance Administrators
+- Finance administrators
 
-As a finance administrator, you can use the Aged Payables (Back Dating) report to prioritize vendor payments and take advantage of discounts for early payments. By aging the report based on due dates and setting the appropriate aging period buckets, you can effectively manage payment schedules. This approach will enhance cash flow and strengthen relationships with key vendors.
+Finance administrators can use the report to prioritize vendor payments and take advantage of discounts for early payments. By aging the report based on due dates and setting the appropriate aging period buckets, you can effectively manage payment schedules. This approach enhances cash flow and strengthens relationships with key vendors.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -39,15 +39,13 @@ The *Aged Payables (Back Dating)* report includes the following KPIs and measure
 - [**Bucket 3 (Payables)**](####)
 - [**Bucket 4 (Payables)**](####) -->
 
-
 ## Data used in the report
 
-The *Aged Payables (Back Dating)* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Vendor
 - Vendor Ledger Entry
 - Detailed Vendor Ledger Entry
-
 
 ## Try the report
 
@@ -57,12 +55,12 @@ Try the report here: [Aged Payables (Back Dating)](https://businesscentral.dynam
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI finance app](finance-powerbi-app.md)   
-[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Built-in core finance reports](finance-reports.md)  
 [Built-in fixed assets reports](fa-reports.md)  
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
-[Financial analytics overview](bi.md)   
-[Finance overview](finance.md)    
+[Financial analytics overview](bi.md)  
+[Finance overview](finance.md)

@@ -1,6 +1,6 @@
 ---
 title: Inventory Overview (Power BI report)
-description: The Inventory Overview XXX.
+description: The Inventory Overview report provides a high-level summary of your organizations inventory.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
@@ -15,21 +15,22 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Inventory Overview* report provides a high-level summary of your organizations inventory. It highlights key metrics such as you Inventory (Quantity), Scheduled Receipt and Gross Requirement along with your Project Available Balance.
+The **Inventory Overview** report provides a high-level summary of your inventory. It shows key metrics, such as:
 
-You can gauge a high-level understanding of your inventory on a location by location basis along with quantities across different document types.
+- Inventory (Quantity)
+- Scheduled receipts
+- Gross requirements
+- Project available balance
+
+The report can give you a high-level understanding of your inventory on a location by location basis, along with quantities across different types of documents.
 
 :::image type="content" source="media/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/inventory/inventory-overview.png":::
 
+## Use the report
 
-## How to use the report
+Leadership and management can gauge inventory levels across locations and get an idea about requirements versus receipts.
 
-The *Inventory Overview* is meant for leadership and management for them to be able to guage the inventory levels across locations whilst also getting an idea on requirements versus receipts.
-
-As someone on the management team, you can use the *Inventory Overview* report to paint a picture of the stock information without having to drill-down. This report can quickly and efficently show you key information that you can use to make informed decisions in the future.
-
-As a member of the leadership team, seeing accurate and concise information is required for you to make key business decisions. With the *Inventory Overview* you can get a clear view of stock being receipted or demand that is currently in the system and make informed changes to account for this.
-
+Management teams use the report to paint a picture of the stock information without having to drill down. The report gives a clear view of stock you're receiving and the demand that's currently in the system.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -56,14 +57,14 @@ The *Inventory Overview* report includes the following KPIs:
 - [**Qty. on Assembly Order**](####)
 - [**Qty. on Sales Return Order**](####)
 
-
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
-Data from the following tables are used on the *Inventory Overview* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Item Ledger Entries
 - Job Planning Lines
@@ -76,7 +77,6 @@ Data from the following tables are used on the *Inventory Overview* report
 - Prod Order Component Lines
 - Transfer Lines
 
-
 ## Try the report
 
 Try the report here: [Inventory Overview](https://businesscentral.dynamics.com?page=37022)
@@ -85,9 +85,9 @@ Try the report here: [Inventory Overview](https://businesscentral.dynamics.com?p
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

@@ -1,6 +1,6 @@
 ---
 title: Scheduled Receipt (Power BI report)
-description: The Scheduled Receipt gives users the ability to view inbound inventory into an organization broken up per document type. 
+description: The Scheduled Receipt report lets you view inbound inventory per document type. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
@@ -15,20 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Scheduled Receipt* gives users the ability to view inbound inventory into an organization by different document types or processes. This is broken down by Item Cateogory or Item.
-
-This also includes internal Assembly or Production accounting for when the finished good will become avaialble along with Purchase and Sales Return documents.
+The **Scheduled Receipt** report shows inbound inventory for items or item categories for different types of documents types or processes. The information also includes internal assembly or production accounting for when the finished good becomes available along with purchase and sales return documents.
 
 :::image type="content" source="media/inventory/scheduled-receipt.png" alt-text="Screenshot of the Scheduled Receipt Power BI Report" lightbox="media/inventory/scheduled-receipt.png":::
 
+## Use the report
 
-## How to use the report
+Managers and warehousing staff use the report to know when to expect to receive inventory.
 
-This report is meant for managers and warehousing staff so they can easily identify when inventory will come in.
+Managers use the report to track inventory levels and ensure that stock levels keep up with the requirements shown in the [Gross Requirement (Power BI Report)](inventory-powerbi-gross-requirement.md) report. Use this information to optimize your inventory and ensure you aren't over buying or over producing a specific item.
 
-As a manager, you can use the *Scheduled Receipt* report to keep track of inventory levels and ensure that you are keeping up with the *Gross Requirement*(Add Link to Gross Requirement Report) by ensuring stock levels stay high. You can use this information to optimise your inventory manageament and ensure you aren't over buying or producing a specific item.
-
-As a Warehouse Receipt working, this report is crucial in having detailed information of all inbound stock from both external and internal sources. This can assist in coordinating purchasing and production levels in future.
+For warehouse receipt workers, this report offers detailed information about inbound stock from internal and external sources. This information can help you coordinate future purchasing and production levels.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -50,14 +47,14 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-Data from the following tables are used on the *Scheduled Receipt* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Purchase Line
 - Sales Line
 - Assembly Header
 - Production Order Lines
 - Transfer Lines
-
 
 ## Try the report
 
@@ -67,9 +64,9 @@ Try the report here: [Scheduled Receipt](https://businesscentral.dynamics.com?pa
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

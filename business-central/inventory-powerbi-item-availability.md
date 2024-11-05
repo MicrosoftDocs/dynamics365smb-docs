@@ -1,6 +1,6 @@
 ---
 title: Item Availability (Power BI report)
-description: The *Item Availability* report gives an overview of each items availability in terms of demand and supply allowing a clear view of an organizations performance. 
+description: The Item Availability report gives an overview of the availability of each item. 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
@@ -15,21 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Item Availability* report gives an overview of each items availability in terms of demand and supply allowing a clear view of an organizations performance. 
-
-This report can assist in identifying items where supply will not match demand and where action needs to be taken.
+The **Item Availability** report gives an overview of the availability of each item in terms of supply and demand. Use the report to identify items where demand exceeds supply, so you can take action to avoid delayed orders.
 
 :::image type="content" source="media/inventory/item-availability.png" alt-text="Screenshot of the Item Availability Power BI Report" lightbox="media/inventory/item-availability.png":::
 
+## Use the report
 
-## How to use the report
+The report is designed for management and customer service teams.
 
-The *Item Availability* is designed to be used by different management teams along with general customer service teams.
+Customer service teams use this report to identify availability of specific items for your customers. By having up-to-date information for each item, you can provide quick, accurate, and informed answers to estimates and avoid disappointing customers.
 
-As a member of the customer service team, you can use this report to identify availability of specific items for your customers. By having up-to-date information for each item, you can provide quick, accurate and informed answers to estimates and avoid disappointing customers.
-
-As someone in the Inventory Management team, this would be your primary use case report. The *Item Availability* report will provide you information to ensure you keep adequate stock levels of each item. With this you can coordinate other teams to increase production of specific items, or create a Purchase Order with the Supply Chain Management Team.
-
+For inventory management teams, the information in this report can help you keep adequate stock levels of each item. For example, the information can help you coordinate other teams to increase production of specific items, or create purchase orders to replenish stock.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -48,7 +44,8 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-Data from the following tables are used on the *Item Availability* report
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Item
 - Item Ledger Entries
 - Sales Lines
@@ -60,7 +57,6 @@ Data from the following tables are used on the *Item Availability* report
 - Assembly Lines
 - Purchase Lines
 
-
 ## Try the report
 
 Try the report here: [Item Availability](https://businesscentral.dynamics.com?page=37026)
@@ -69,9 +65,9 @@ Try the report here: [Item Availability](https://businesscentral.dynamics.com?pa
 
 ## See also
 
-[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Power BI Inventory app](inventory-powerbi-app.md)   
-[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)   
+[Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)   
-[Inventory overview](inventory-manage-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)  
+[Inventory overview](inventory-manage-inventory.md)

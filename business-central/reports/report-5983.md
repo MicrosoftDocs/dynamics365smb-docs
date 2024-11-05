@@ -1,12 +1,12 @@
 ---
-title: Service - Invoice (document report)
-description: Generate a service invoice document that you can send to your customer.
+title: Contract Gain/Loss Entries (report)
+description: Get an overview of shows all your service contract gain/loss entries.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5911_Primary
+ms.search.form: Report_5983_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
 # ms.custom:
@@ -15,19 +15,16 @@ ms.service: dynamics-365-business-central
 # ai.usage: ai-assisted
 ---
 
-# Service - Invoice (document report)
+# Contract Gain/Loss Entries (report)
 
-The **Service - Invoice** report is meant for producing a document that you can send to your customer.
+The **Contract Gain/Loss Entries** report shows all your service contract gain/loss entries.
 
-The report displays information such as service invoice number; order number, if the invoice was posted from a service order; posting date and due date; payment terms; the customer's name, address, and VAT registration number; and information about the price and amount due. 
-
-
-You can include either all service invoices or selected service invoices in the report output.
+The report displays information such as contract number, reason code, contract group code, responsibility center, customer number, ship-to code, customer name, and type of change, as well as the contract gain and loss. 
 
 
 ## Use cases
 
-[!INCLUDE[report-5911-scenario](../includes/report-5911-scenario-include.md)]
+[!INCLUDE[report-5983-scenario](../includes/report-5983-scenario-include.md)]
 
 <!-- 
 
@@ -46,7 +43,7 @@ Do not capitalize the persona names.
 Do not start lines with "Use the data to"
 
 ## Report name
-Service - Invoice
+Contract Gain/Loss Entries
 
 ## Report description
 
@@ -63,7 +60,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Service - Invoice](https://businesscentral.dynamics.com?report=5911)
+Try the report here: [Contract Gain/Loss Entries](https://businesscentral.dynamics.com?report=5983)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

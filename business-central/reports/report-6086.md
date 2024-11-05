@@ -1,12 +1,12 @@
 ---
-title: Service - Invoice (document report)
-description: Generate a service invoice document that you can send to your customer.
+title: Prepaid Contr. Entries (report)
+description: Get an overview of the transfer of prepaid service contract ledger entries amounts from prepaid accounts to income accounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5911_Primary
+ms.search.form: Report_6086_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
 # ms.custom:
@@ -15,19 +15,20 @@ ms.service: dynamics-365-business-central
 # ai.usage: ai-assisted
 ---
 
-# Service - Invoice (document report)
+# Prepaid Contr. Entries (report)
 
-The **Service - Invoice** report is meant for producing a document that you can send to your customer.
+The **Prepaid Contr. Entries** report shows the transfer of prepaid service contract ledger entries amounts from prepaid accounts to income accounts up to the date you have specified.
 
-The report displays information such as service invoice number; order number, if the invoice was posted from a service order; posting date and due date; payment terms; the customer's name, address, and VAT registration number; and information about the price and amount due. 
+The report displays information such as contract numbers, service items, account numbers, and amounts posted. 
 
-
-You can include either all service invoices or selected service invoices in the report output.
+You can run the report different output options:
+* Enter the date up to which you want to post prepaid entries. The report includes service ledger entries with posting dates on or before this date.
+* Enter the date that you want to use as the posting date on the service ledger entries.
 
 
 ## Use cases
 
-[!INCLUDE[report-5911-scenario](../includes/report-5911-scenario-include.md)]
+[!INCLUDE[report-6086-scenario](../includes/report-6086-scenario-include.md)]
 
 <!-- 
 
@@ -46,7 +47,7 @@ Do not capitalize the persona names.
 Do not start lines with "Use the data to"
 
 ## Report name
-Service - Invoice
+Prepaid Contr. Entries
 
 ## Report description
 
@@ -63,7 +64,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Service - Invoice](https://businesscentral.dynamics.com?report=5911)
+Try the report here: [Prepaid Contr. Entries](https://businesscentral.dynamics.com?report=6086)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

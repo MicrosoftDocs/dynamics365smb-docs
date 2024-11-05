@@ -1,12 +1,12 @@
 ---
-title: Service - Invoice (document report)
-description: Generate a service invoice document that you can send to your customer.
+title: Contract Invoicing - Test (report)
+description: See which service contracts are due for invoicing up to the date that you have specified.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5911_Primary
+ms.search.form: Report_5984_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
 # ms.custom:
@@ -15,19 +15,20 @@ ms.service: dynamics-365-business-central
 # ai.usage: ai-assisted
 ---
 
-# Service - Invoice (document report)
+# Contract Invoicing - Test (report)
 
-The **Service - Invoice** report is meant for producing a document that you can send to your customer.
+The **Contract Invoicing - Test** report shows information such as contract numbers, customer numbers, contract invoice periods and amounts, next invoice dates, and the number of service invoices that are created. 
 
-The report displays information such as service invoice number; order number, if the invoice was posted from a service order; posting date and due date; payment terms; the customer's name, address, and VAT registration number; and information about the price and amount due. 
+You can test which service contracts are due for invoicing up to the date that you have specified.
 
-
-You can include either all service invoices or selected service invoices in the report output.
+The report allows for different output options:
+* enter the date that you want to use as the posting date on the service invoices that are created.
+* enter the date up to which you want to invoice contracts. The report includes contracts with the next invoice dates on or before this date.
 
 
 ## Use cases
 
-[!INCLUDE[report-5911-scenario](../includes/report-5911-scenario-include.md)]
+[!INCLUDE[report-5984-scenario](../includes/report-5984-scenario-include.md)]
 
 <!-- 
 
@@ -46,7 +47,7 @@ Do not capitalize the persona names.
 Do not start lines with "Use the data to"
 
 ## Report name
-Service - Invoice
+Contract Invoicing - Test
 
 ## Report description
 
@@ -63,7 +64,7 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Service - Invoice](https://businesscentral.dynamics.com?report=5911)
+Try the report here: [Contract Invoicing - Test](https://businesscentral.dynamics.com?report=5984)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

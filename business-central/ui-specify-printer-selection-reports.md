@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 
-ms.date: 06/13/2024
+ms.date: 11/05/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
@@ -33,7 +33,7 @@ Through the **Printer Management** page you set up a printer as a default printe
 
 ## Set a default printer for specific reports
 
-The **Printer Selections** page lets you specify the printer a report will use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
+The **Printer Selections** page lets you specify the printer a report use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, then select the related link. Alternatively, select a printer on the **Printer Management** page, then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
@@ -45,7 +45,7 @@ The specified report is now set up to print to the selected printer by default.
 > When you print the report in question, you can select a different using the **Print** field on the report request page.
 
 > [!NOTE]
-> If you do not set a report up for a specific printer on the **Printer Selections** page, then it is printed to the default printer of the company, as defined on the **Printer Management** page.
+> If you don't set a report up for a specific printer on the **Printer Selections** page, then it's printed to the default printer, as defined on the **Printer Management** page.
 
 You or the administrator can also use the **Printer Selections** page to define other variations of printing for users and reports. The following table describes the combination of values to specify different printing setups for a report.
 

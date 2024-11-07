@@ -816,17 +816,27 @@ ms.service: dynamics-365-business-central
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
 
-### Built-in project reports
-#### [Project report overview](project-reports.md)
-#### [Project Planning Lines](reports/report-1006.md)
-#### [Project Transaction Detail](reports/report-1007.md)
-#### [Project Analysis](reports/report-1008.md)
-#### [Project Actual to Budget](reports/report-1009.md)
-#### [Project WIP to G/L](reports/report-1010.md)
-#### [Project Suggested Billing](reports/report-1011.md)
-#### [Projects per Customer](reports/report-1012.md)
-#### [Items per Project](reports/report-1013.md)
-#### [Project per Item](reports/report-1014.md)
+### Project management analytics
+#### [Power BI Projects app](projects-powerbi-app.md)
+##### [Projects Overview](projects-powerbi-project-overview.md)
+##### [Projects Tasks](projects-powerbi-project-tasks.md)
+##### [Projects Profitability](projects-powerbi-project-profitability.md)
+##### [Projects Realization](projects-powerbi-project-realization.md)
+##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
+##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
+##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+#### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+#### Built-in project reports
+##### [Project report overview](project-reports.md)
+##### [Project Planning Lines](reports/report-1006.md)
+##### [Project Transaction Detail](reports/report-1007.md)
+##### [Project Analysis](reports/report-1008.md)
+##### [Project Actual to Budget](reports/report-1009.md)
+##### [Project WIP to G/L](reports/report-1010.md)
+##### [Project Suggested Billing](reports/report-1011.md)
+##### [Projects per Customer](reports/report-1012.md)
+##### [Items per Project](reports/report-1013.md)
+##### [Project per Item](reports/report-1014.md)
 
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
@@ -835,7 +845,6 @@ ms.service: dynamics-365-business-central
 ### [Record usage for project](projects-how-record-job-usage.md)
 ### [Manage project supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
-### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
 ### [Assemble to project](projects-assemble-to-project.md)
 

@@ -1,9 +1,9 @@
 ---
 title: Project Invoiced Sales by Customer (Power BI report)
-description: The Project Invoiced Sales by Customer describes your sales activities based on each project to specific customers.
+description: The Project Invoiced Sales by Customer report describes your sales activities based on each project for specific customers.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37039_Primary
@@ -15,21 +15,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Project Invoiced Sales by Customer* breaks down your sales values against each project and by highlighting you customer sales.
+The **Project Invoiced Sales by Customer** report breaks down your sales values for each project and highlights customer sales.
 
-This report can show you key information on what Customers you are selling to the most and for which project it relates to.
+This report can show you key information about the customers you sell to the most, and which projects generate the sales.
 
 :::image type="content" source="media/projects/project-invoiced-sales-by-customer.png" alt-text="Screenshot of the Project Invoiced Sales by Customer Power BI Report" lightbox="media/projects/project-invoiced-sales-by-customer.png":::
 
+## Use the report
 
-## How to use the report
+The report is typically used by project managers, but leadership can also use it to view your high-volume customers.
 
-The *Project Invoiced Sales by Customer* report is typically used by a project manager but can be used by leadership to view your high volume customers.
+Project managers use the report to track sales to each customer for each individual project. The report helps you monitor the performance of each project and identify potential issues if you aren't meeting quota for a customer or you're over spending.
 
-As a Project Manager, you use the *Project Invoiced Sales by Customer* report to keep track of your sales to each customer for each individual project. This assist you in monitoring the performance of each project and identify potenial issues if you are not meeting quota for a customer or over spending.
-
-As someone in the leadership team, you want to see a high-level view of your project sales and which customer you are selling to. With the *Project Invoiced Sales by Customer* report, you can gain a clearer understanding of this data and make informed business decisions.
-
+People in leadership teams want to a high-level view of your project sales and which customers you sell to. The report can give you a clear understanding of this data to help you make informed business decisions.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -43,14 +41,13 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
-
 ## Data used in the report
 
-Data from the following tables is used in the *Project Invoiced Sales by Customer* report [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
 - Project
 - Project Ledger Entries
 - Project Planning Lines
-
 
 ## Try the report
 
@@ -58,10 +55,9 @@ Try the report here: [Project Invoiced Sales by Customer](https://businesscentra
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
-[Power BI Projects app](projects-powerbi-app.md)   
+[Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
-[Project management overview](projects-manage-projects.md)  
+[Project management overview](projects-manage-projects.md)

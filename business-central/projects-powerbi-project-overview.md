@@ -1,9 +1,9 @@
 ---
 title: Project Overview (Power BI report)
-description: The Project Overview highlights key high level information for your organizations project activity.
+description: The Project Overview report highlights key high-level information about your organization's project activity.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37033_Primary
@@ -15,20 +15,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Projects Overview* report showcases key metrics based on all ongoing projects for your organization and provides a high-level summary of key information. 
+The **Projects Overview** report shows key metrics based on all ongoing projects for your organization and high-level summaries.
 
-This can highlight key metrics such as the % Invoiced, % Complete and other values which provide insights into how projects are tracking for your organizations.
+Use this report to investigate metrics such as the percent invoiced, percent complete, and other values that offer insights about the status your projects.
 
 :::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
 
+## Use the report
 
-## How to use the report
-The *Project Overview* is designed to be used by leadership and project managers to provide them with high-level information on each project and overall organizational project information.
+Leadership and project managers use the report for high-level information about specific projects, and overall overview of the organization's projects.
 
-As someone on the leadership team, using the *Project Overview* you can get a bird's eye view of your organizations projects. This can show you overall progress of projects and breakdown your resourcing allocation per project manager. It shows you a high-level costing information so you can identify where you need to make changes and ensure as a whole the projects are under budget.
+People on leadership teams use the report to get a bird's eye view of your organizations projects. This view can show the overall progress of projects and break down your resource allocation per project manager. It shows high-level costing information, so you can identify where to make changes and ensure that projects are under budget.
 
-As a project manager,  you can use the *Project Overview* to gain a better understanding of the health of all your projects. This would highlight what is performing well and what isn't and where you can make changes to support this.
-
+Project managers use the report to gain a better understanding of the health of all your projects. The report helps them understand what's going well and what isn't, and where to make changes.
 
 <!-- ## Key Performance Indicators (KPIs)
 The *Project Overview* reoprt includes the following KPIs:
@@ -45,9 +44,10 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
-
 ## Data used in the report
-Data from the following tables is used in the *Project Overview* report [!INCLUDE[prod_short](includes/prod_short.md)]
+
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+
 - Project
 - Project Ledger Entries
 - Project Planning Line
@@ -61,6 +61,6 @@ Try the report here: [Project Overview](https://businesscentral.dynamics.com?pag
 ## See also
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
-[Power BI Projects app](projects-powerbi-app.md)   
+[Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
-[Project management overview](projects-manage-projects.md)  
+[Project management overview](projects-manage-projects.md)

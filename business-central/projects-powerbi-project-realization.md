@@ -1,9 +1,9 @@
 ---
 title: Project Realization (Power BI report)
-description: The Project Realization showcases the completion for each project.
+description: The Project Realization report showcases the completion for each project.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37036_Primary
@@ -15,21 +15,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Project Realization* report highlights how billing is performing against the costs.
+The **Project Realization** report shows how billing is performing against the costs.
 
-This compares the Billable (Invoiced Price) to the Actual (Total Price) and highlights how much of each project has been invoiced,
+The report compares the billable (invoiced price) value to the actual (total price) value, and highlights how much of each project was invoiced.
 
 :::image type="content" source="media/projects/project-realization.png" alt-text="Screenshot of the Project Realization Power BI Report" lightbox="media/projects/project-realization.png":::
 
+## Use the report
 
-## How to use the report
+Leadership and project managers use the report to identify which projects they need to invoice. CFOs also use this report.
 
-The *Project Realization* report would inherently be used by leadership and project managers to identify what projects need invoices sent to. This can extend the CFO of an organization.
+CFOs can check which projects have low realization, and send invoices accordingly to ensure you meet monthly invoicing goals and have healthy turnover.
 
-As a CFO, you can view the *Project Realization* report and check which projects have a low realization and invoice based on this. This can ensure monthly invoicing goals are met and ensure a healthy turnover.
-
-As a Project Manager, this report can help you identify which projects have had work completed against them but still need to be invoiced. 
-
+Project managers use this report to identify projects with completed work that isn't invoiced.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -39,17 +37,16 @@ The *Project Realization* reoprt includes the following KPIs:
 - [**Realization %**](####)
 - [**Realization Variance%**](####)
 
-
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the report
 
-Data from the following tables is used in the *Project Realization* report [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
+
 - Project
 - Project Ledger Entries
-
 
 ## Try the report
 
@@ -60,6 +57,6 @@ Try the report here: [Project Realization](https://businesscentral.dynamics.com?
 ## See also
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
-[Power BI Projects app](projects-powerbi-app.md)   
+[Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
-[Project management overview](projects-manage-projects.md)  
+[Project management overview](projects-manage-projects.md)

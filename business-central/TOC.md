@@ -760,12 +760,12 @@ ms.service: dynamics-365-business-central
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 <!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
 
-#### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
-
 #### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
+
+#### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
@@ -2129,6 +2129,7 @@ ms.service: dynamics-365-business-central
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
 ### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)

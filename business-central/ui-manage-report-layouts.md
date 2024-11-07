@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650, 9660
-ms.date: 01/18/2024
+ms.date: 11/07/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -17,7 +17,7 @@ A report layout controls content and format of the report, including which data 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
-You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. Learn more in [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## Introduction
 
@@ -30,7 +30,7 @@ In particular, a report layout sets up the following things:
 
 A report can be set up with multiple report layouts, which you can switch among as required. 
 
-<!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
+<!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. Learn more in [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
 There are two important aspects of report layouts that will influence how you work with them: the *layout type* and the *layout source*. The layout type indicates the kind of file that the layout is based on. The layout source indicates the origin of the layout.
 
@@ -46,7 +46,7 @@ Word layouts are based on Word documents (.docx file type). Word layouts enable 
 
 <!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-For more information, see [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
+Learn more in [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
 
 ### Excel
 
@@ -54,7 +54,7 @@ Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let
 
 [![Shows the an example of an Excel layout.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
 
-For more information, see [Work with Excel Layouts](ui-excel-report-layouts.md).
+Learn more in [Work with Excel Layouts](ui-excel-report-layouts.md).
 
 ### RDLC
 
@@ -62,13 +62,13 @@ RDLC layouts are based on client report definition layout files (.rdl or .rdlc f
 
 [![Shows the an example of an RDLC layout.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
 
-For more information, see [Work with RDLC Layouts](ui-rdlc-report-layouts.md).
+Learn more in [Work with RDLC Layouts](ui-rdlc-report-layouts.md).
 
 ### External
 
 An external layout type refers to an advanced type that's specially designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout will vary depending on the provider.
 
-For more information, see [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
+Learn more in [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
 ## Layout sources
 
@@ -82,13 +82,13 @@ In addition to the type, layouts are further divided into three categories, base
 
    The other source of layouts is the end-user. From inside Business Central, a user with proper permissions can add new layouts in various ways. For example, you could start from an existing extension layout or another user-defined layout. On the **Report Layouts**, user-defined layout will have an empty **Extension** column.
 
-   For more information, see [Get Started Creating Report Layouts](ui-get-started-layouts.md).
+   Learn more in [Get Started Creating Report Layouts](ui-get-started-layouts.md).
 
 * Custom layouts
 
   Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts (see above).
 
-  For more information, see [(Legacy) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
+  Learn more in [(Legacy) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 For information that will help you decide what type is best for you, see [Decide what type of layout you want](ui-get-started-layouts.md#decide).
 
@@ -116,6 +116,14 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
+
+### View report layout lifecycle telemetry
+
+You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send data to an Application Insights resource in Microsoft Azure about the actions users take on report layouts, like adding, modifying, deleting, and more. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. Learn more in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
+
+* [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
+* [Analyzing report layout lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace??toc=/dynamics365/business-central/toc.json)
+
 ## See Also
 
 [Update Custom Report Layouts](ui-update-report-layouts.md)  

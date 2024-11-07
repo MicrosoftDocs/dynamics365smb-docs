@@ -1,9 +1,9 @@
 ---
 title: Released Production Orders
-description: The Released Production Orders report detailed information about all released production orders, including expected versus finished quantities and the variance.
+description: The Released Production Orders report shows information about all released production orders, including expected versus finished quantities and the variance.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37049_Primary
@@ -15,19 +15,17 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The *Released Production Orders* report provides detailed information about all released production orders, including expected versus finished quantities and the variance. 
+The **Released Production Orders** report provides detailed information about all released production orders, including expected versus finished quantities and the variance.
 
 :::image type="content" source="media/manufacturing/released-production-orders.png" alt-text="Screenshot of the Released Production Orders Power BI Report" lightbox="media/manufacturing/released-production-orders.png":::
 
+## Use the report
 
-## How to use the report
+The report is meant for manufacturing managers and supervisors.
 
-The *Released Production Orders* report is meant for manufacturing managers and supervisors.
+Manufacturing managers use the report to track released production orders. By analyzing the expected versus finished quantities, you can find issues that might affect the production process. For example, if the finished quantity is much lower than the expected quantity, it might indicate a problem with the manufacturing process or materials. By identifying and addressing these issues, you can improve efficiency and reduce costs.
 
-As a manufacturing manager, you can use *Released Production Orders* report to track released production orders. By analyzing the expected versus finished quantities, you can identify any issues that may be affecting the production process. For example, if the finished quantity is significantly lower than the expected quantity, it may indicate a problem with the manufacturing process or materials. By identifying and addressing these issues, you can improve efficiency and reduce costs.
-
-As a production supervisor, you can use this report to monitor the expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is significantly lower than the expected quantity, you may need to adjust the production schedule to ensure that the order is completed on time.
-
+Production supervisors use this report to monitor expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is much lower than the expected quantity, you might need to adjust the production schedule to ensure you compete the order on time.
 
 <!-- ## Key Performance Indicators (KPIs)
 
@@ -37,14 +35,12 @@ The *Released Production Orders* report includes the following KPIs and measures
 - [Finished Quantity (Base)]()
 - [Qty. Variance]() -->
 
-
 ## Data used in the report
 
-The *Released Production Orders* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]>
 
 - Item
 - Production Order
-
 
 ## Try the report
 
@@ -52,10 +48,9 @@ Try the report here: [Released Production Orders](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
-[Power BI Manufacturing app](manufacturing-powerbi-app.md)   
-[Built-in production reports](production-reports.md)    
-[Manufacturing overview](production-manage-manufacturing.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)  
+[Built-in production reports](production-reports.md)  
+[Manufacturing overview](production-manage-manufacturing.md)

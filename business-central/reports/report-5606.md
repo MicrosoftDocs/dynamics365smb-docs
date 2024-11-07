@@ -21,13 +21,14 @@ The **Fixed Asset Book Value 02** report shows the breakdown of fixed asset book
 
 To include information about Write-downs, Appreciation, Custom 1, and Custom 2 posting types in the report, select either the **Acquisition Type** or the **Depreciation Type* fields on the **FA Posting Type Setup** page.
 
-You can include reclassified entries in the report.
+You can include reclassified entries in the report. The report then shows the reclassification entries in a separate column.
 
 If you select the **Budget Report** field, the report calculates the expected depreciation for the period.
 
 Enter a group type if you want to group the fixed assets and show group totals. For example, if you have six FA classes, select the **FA Class** option to print group totals for each FA class.
 
 Use this report to describe the changes in fixed assets for a given period when there are many changes across groups of fixed assets.
+
 
 ## Fixed Asset Book Value reports
 

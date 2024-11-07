@@ -117,7 +117,7 @@ For information about how to switch the layout currently used on a report, see [
 
 -->
 
-### View report layout lifecycle telemetry
+## View report layout lifecycle telemetry
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send data to an Application Insights resource in Microsoft Azure about the actions users take on report layouts, like adding, modifying, deleting, and more. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. Learn more in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
 

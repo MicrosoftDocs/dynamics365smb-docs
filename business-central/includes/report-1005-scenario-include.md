@@ -1,1 +1,1 @@
-See the results of posting before you post to the projects ledger and edit the journal lines if there are any errors that need to be corrected.
+Review the results of posting before you post to the projects ledger. Edit the journal lines if there are errors to correct.

@@ -9,20 +9,19 @@ ms.search.keywords: reporting
 ms.search.form: Report_1015_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Project Register (report)
 
-The **Project Register** report shows one or more selected project registers. 
+The **Project Register** report shows one or more selected project registers.
 
-By using a filter, you can select only those register entries that you want to see. If you do not set a filter, the report can be impractical because it can contain a large amount of information. 
+You can filter the report to show only the register entries that you want to see. If you don't set a filter, the report can be impractical because it can contain a large amount of information.
 
 On the project journal template, you can indicate that you want the report to print when you post.
-
 
 ## Use cases
 
@@ -49,16 +48,13 @@ Project Register
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

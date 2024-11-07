@@ -17,11 +17,9 @@ ai.usage: ai-assisted
 
 # Project Task Transaction Detail (report)
 
-The **Project Task Transaction Detail** report shows an overview of posted project tasks, such as resources and items.
+The **Project Task Transaction Detail** report shows an overview of posted project tasks, such as resources and items. It includes a detailed information about the total costs and total sales, plus information concerning line discounts, and so on.
 
-It includes a detailed information about the total costs and total sales, plus information concerning line discounts, and so on.
-
-You can choose whether currency is specified in Local Currency or Foreign Currency.
+You can choose whether the currency displays in local currency or foreign currency.
 
 The data the report shows comes from the project ledger entries.
 

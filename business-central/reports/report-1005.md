@@ -1,6 +1,6 @@
 ---
 title: Project Journal - Test (report)
-description: See the results of posting before you post to the projects ledger and edit the journal lines if there are any errors that need to be corrected.
+description: Review the results of posting before you post to the projects ledger. Edit the journal lines if there are errors to correct.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -9,17 +9,15 @@ ms.search.keywords: reporting
 ms.search.form: Report_1005_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Project Journal - Test (report)
 
-The **Project Journal - Test** report shows journal lines in the project journal. 
-
-You can choose to include dimensions information for the journal lines in the report.
+The **Project Journal - Test** report shows the journal lines in the project journal. You can choose to include dimensions information for the journal lines in the report.
 
 ## Use cases
 
@@ -46,16 +44,13 @@ Project Journal - Test
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

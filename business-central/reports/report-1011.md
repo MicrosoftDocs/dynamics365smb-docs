@@ -21,11 +21,10 @@ The **Project Suggested Billing** report shows a list of all projects, grouped b
 
 At the end of the report, all amounts are totaled.
 
-You can choose whether currency is specified in Local Currency or Foreign Currency.
+You can choose whether the currency displays in local currency or foreign currency.
 
 > [!NOTE]
 > This report isn't available in the US, Canada, and Mexico. Instead, use the **Project Cost Suggested Billing** (10219) report.
-
 
 ## Use cases
 

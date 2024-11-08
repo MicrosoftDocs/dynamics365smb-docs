@@ -1,6 +1,6 @@
 ---
 title: Item/vendor catalog (report)
-description: List the vendors for the selected items, or items for selected vendors.
+description: Get a list of the vendors for selected items or the items for selected vendors.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Item/vendor catalog (report)
 
-The **Item/vendor catalog** report lists the vendors for the selected items, or items for selected vendors. For each combination of item and vendor, it shows direct unit cost, lead time calculation, and the vendor's item number.
+The **Item/vendor catalog** report lists the vendors for selected items or the items for selected vendors. For each combination of an item and a vendor, it shows the direct unit cost, lead time calculation, and vendor's item number.
 
 <!--## Use cases
 
@@ -29,7 +29,7 @@ Try the report here: [Item/vendor catalog](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  

@@ -19,6 +19,8 @@ ai.usage: ai-assisted
 
 The **Project Planning Lines** report shows the planning and project task lines for a project. The report includes information such as the line type, quantities, unit of measure, total costs, and so on.
 
+You can choose whether the currency displays in local currency or foreign currency.
+
 ## Use cases
 
 [!INCLUDE[report-1006-scenario](../includes/report-1006-scenario-include.md)]

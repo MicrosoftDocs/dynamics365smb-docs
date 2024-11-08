@@ -815,11 +815,11 @@ ms.service: dynamics-365-business-central
 
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
-
 ### Built-in project reports
 #### [Project report overview](project-reports.md)
+#### [Project Journal - Test](reports/report-1005.md)
 #### [Project Planning Lines](reports/report-1006.md)
-#### [Project Transaction Detail](reports/report-1007.md)
+#### [Project Task Transaction Detail](reports/report-1007.md)
 #### [Project Analysis](reports/report-1008.md)
 #### [Project Actual to Budget](reports/report-1009.md)
 #### [Project WIP to G/L](reports/report-1010.md)
@@ -827,6 +827,28 @@ ms.service: dynamics-365-business-central
 #### [Projects per Customer](reports/report-1012.md)
 #### [Items per Project](reports/report-1013.md)
 #### [Project per Item](reports/report-1014.md)
+#### [Project Register](reports/report-1015.md)
+### Project management analytics
+#### [Power BI Projects app](projects-powerbi-app.md)
+##### [Projects Overview](projects-powerbi-project-overview.md)
+##### [Projects Tasks](projects-powerbi-project-tasks.md)
+##### [Projects Profitability](projects-powerbi-project-profitability.md)
+##### [Projects Realization](projects-powerbi-project-realization.md)
+##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
+##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
+##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+#### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+#### Built-in project reports
+##### [Project report overview](project-reports.md)
+##### [Project Planning Lines](reports/report-1006.md)
+##### [Project Transaction Detail](reports/report-1007.md)
+##### [Project Analysis](reports/report-1008.md)
+##### [Project Actual to Budget](reports/report-1009.md)
+##### [Project WIP to G/L](reports/report-1010.md)
+##### [Project Suggested Billing](reports/report-1011.md)
+##### [Projects per Customer](reports/report-1012.md)
+##### [Items per Project](reports/report-1013.md)
+##### [Project per Item](reports/report-1014.md)
 
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
@@ -835,7 +857,6 @@ ms.service: dynamics-365-business-central
 ### [Record usage for project](projects-how-record-job-usage.md)
 ### [Manage project supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
-### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
 ### [Assemble to project](projects-assemble-to-project.md)
 
@@ -956,31 +977,36 @@ ms.service: dynamics-365-business-central
 ## Manufacturing
 ### [Manufacturing overview](production-manage-manufacturing.md)
 
-### Built-in production reports
-#### [Production report overview](production-reports.md)
-#### [Production Order - WIP](reports/report-5802.md)
-#### [Item - Able to Make (Time)](reports/report-5871.md)
-#### [BOM Cost Share Distribution](reports/report-5872.md)
-#### [Quantity Explosion of BOM](reports/report-99000753.md)
-#### [Rolled-up Cost Shares](reports/report-99000754.md)
-#### [Single-Level Cost Shares](reports/report-99000755.md)
-#### [Detailed Calculation](reports/report-99000756.md)
-#### [Where-Used (Top Level)](reports/report-99000757.md)
-#### [Item BOM Compare list](reports/report-99000758.md)
-#### [Work Centre List](reports/report-99000759.md)
-#### [Machine Centre List](reports/report-99000760.md)
-#### [Prod. Order - Precalc. Time](reports/report-99000764.md)
-#### [Prod. Order - Calculation](reports/report-99000767.md)
-#### [Prod. Order Detailed Calc](reports/report-99000768.md)
-#### [Capacity Task list](reports/report-99000780.md)
-#### [Work Center Load](reports/report-99000783.md)
-#### [Machine Center Load](reports/report-99000784.md)
-#### [Work Center Load/Bar](reports/report-99000785.md)
-#### [Machine Center Load/Bar](reports/report-99000786.md)
-#### [Routing Sheet](reports/report-99000787.md)
-#### [Prod. Order Shortage list](reports/report-99000788.md)
-#### [Subcontractor Dispatch List](reports/report-99000789.md)
-#### [Production Order Statistics](reports/report-99000791.md)
+### Manufacturing analytics
+<!-- Manufacturing analytics start -->
+#### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
+##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
+##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
+##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
+##### [Allocated Hours](manufacturing-powerbi-allocated-hours.md) 
+##### [Expected Capacity Need](manufacturing-powerbi-expected-capacity-need.md) 
+##### [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) 
+##### [Consumption Variance](manufacturing-powerbi-consumption-variance.md) 
+##### [Capacity Variance](manufacturing-powerbi-capacity-variance.md) 
+##### [Average Production Times](manufacturing-powerbi-avergage-production-times.md) 
+##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
+##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+
+#### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
+
+#### Built-in production reports
+##### [Production report overview](production-reports.md)
+##### [Quantity Explosion of BOM](reports/report-99000753.md)
+##### [Detailed Calculation](reports/report-99000756.md)
+##### [Where-Used (Top Level)](reports/report-99000757.md)
+##### [Item BOM Compare list](reports/report-99000758.md)
+##### [Prod. Order - Calculation](reports/report-99000767.md)
+##### [Capacity Task list](reports/report-99000780.md)
+##### [Work Center Load](reports/report-99000783.md)
+##### [Machine Center Load](reports/report-99000784.md)
+##### [Prod. Order Shortage list](reports/report-99000788.md)
+##### [Production Order Statistics](reports/report-99000791.md)
+<!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
@@ -990,7 +1016,6 @@ ms.service: dynamics-365-business-central
 ### [Batch post output and run times](production-how-to-post-output-quantity.md)
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
-### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 ### [Post capacities](production-how-to-post-capacities.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 

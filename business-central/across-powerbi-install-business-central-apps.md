@@ -36,15 +36,7 @@ To learn more, go to [Get started with [!INCLUDE [powerbi-name](includes/powerbi
 
 ## Installing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
 
-[!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available for the following functional areas in [!INCLUDE [prod_short](includes/prod_short.md)]:
-
-- Finance
-- Sales
-- Purchasing
-- Inventory
-- Inventory Valuation
-- Warehouse
-- Projects
+[!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
 Each app consists of two parts:
 

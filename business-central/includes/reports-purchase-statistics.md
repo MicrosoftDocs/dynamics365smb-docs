@@ -6,9 +6,9 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-Shows purchase statistics for each vendor. The statistics include information for five periods, starting on the date that you specify.
+The report shows purchase statistics for each vendor. The statistics include information for five periods, starting on the date that you specify.
 
-The report includes the total purchases, payments, finance charges, and discount information that includes the payment discounts taken and lost.
+The report includes the total purchases, payments, finance charges, and discount information, including the payment discounts taken and lost.
 
 Statistics are calculated for:
 

@@ -1,6 +1,6 @@
 ---
 title: Inventory Sales Back Orders (report)
-description: See an overview of sales orders that can't be fulfilled due to out-of-stock items. 
+description: Get an overview of sales orders that can't be fulfilled because of out-of-stock items. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The **Inventory Sales Back Orders** report shows sales lines where you can't fulfill the outstanding quantity by the specified shipment date.
 
-The report groups data by item, and includes:
+The report groups data by item and includes:
 
 * Customer details.
 * The ship date.
@@ -32,7 +32,7 @@ The report shows the following data for individual orders for each item:
 * Customer telephone number
 * Shipment date
 * Order quantity
-* Quantity on back order.
+* Quantity on back order
 
 ## Use cases
 
@@ -65,19 +65,19 @@ Please include your data sources and URLs
 Sales representatives use the report to:
 
 * Keep customers informed about the status of their orders.
-* Prioritize orders that are delayed to ensure they're fulfilled as soon as possible.
-* Identify any potential issues with order fulfillment, and work with logistics teams to resolve them.
+* Prioritize orders that are delayed, to ensure that they are fulfilled as soon as possible.
+* Identify any potential issues with order fulfillment and work with logistics teams to resolve them.
 
 Sales managers use the report to:
 
 * Identify orders that are delayed and take proactive measures to address customer complaints.
-* Monitor orders that they can't fulfill on time, and work with logistics teams to resolve any issues.
+* Monitor orders that they can't fulfill on time and work with logistics teams to resolve any issues.
 * Analyze trends in delayed shipments to identify areas for improvement in order fulfillment processes.
 
 Logistics coordinators use the report to:
 
 * Monitor orders that they can't fulfill on time and take action to expedite the process.
-* Identify trends in delayed shipments, and work with sales and production teams to address the root causes.
+* Identify trends in delayed shipments and work with sales and production teams to address the root causes.
 * Optimize shipment schedules to fulfill orders on time.
 
 ## Try the report
@@ -86,7 +86,7 @@ Try the report here: [Inventory Sales Back Orders](https://businesscentral.dynam
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
 [Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  

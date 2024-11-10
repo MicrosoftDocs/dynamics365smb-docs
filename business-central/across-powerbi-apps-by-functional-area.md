@@ -23,6 +23,13 @@ ms.custom: bap-template
 | Inventory            | [Power BI Inventory app](inventory-powerbi-app.md) |
 | Inventory Valuation   | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
 
+
+## Power BI Finance app
+
+[!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
+
+
+
 ## See also
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  

@@ -49,27 +49,30 @@ People in different roles have different needs when it comes to data, and they u
 |Finance Management | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Bookkeeper         | Detailed data     | Built-in operational reports <br> On-screen task data |
 
-## Finance KPIs
+## Using Power BI to monitor financial statements and KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In finance, people often use the following KPIs to monitor their organization's financial health:
 
-- Gross Profit Margin
 - Net Profit Margin
-- Working Capital
-- Current/Quick Ratio
-- Financial leverage, also known as the Equity Multiplier
+- Gross Profit Margin
+- Current/Quick/Cash Ratio
+- COGS (Cost of Goods Sold)
 - Debt-to-Equity Ratio
-- Total Asset Turnover
-- Return on Equity
-- Return on Assets
+- Current/Payroll/Longterm Liabilities
+- Operating Profit - EBIT
+- EBITDA
+- Average Collection Period (Days)
 
-<!-- Not ready to publish yet
-For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
--->
+:::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
 
-## Using financial reporting to produce financial statements and KPIs
+All of these financial KPIs (and more) are available in the Finance Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Power BI finance app](finance-powerbi-app.md).
 
-The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports on your home page, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports.
+[!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
+
+
+## Using Financial Reporting to produce financial statements and KPIs
+
+The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports on your home page, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports.
 
 Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics so they're easier to analyze. For example, customers, regions, products, and salespersons. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 

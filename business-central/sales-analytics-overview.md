@@ -165,6 +165,7 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 ## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)   
+[Power BI sales app](sales-powerbi-app.md)   
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)   

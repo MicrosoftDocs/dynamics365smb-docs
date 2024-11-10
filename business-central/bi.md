@@ -196,6 +196,7 @@ To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
+[Power BI finance app](finance-powerbi-app.md)   
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  

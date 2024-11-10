@@ -28,13 +28,37 @@ ms.custom: bap-template
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
 
+For more information, see [Power BI finance app](finance-powerbi-app.md).
+
+
 ## Reports in the Power BI Sales app
 
 [!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
 
+For more information, see [Power BI sales app](sales-powerbi-app.md).
+
+
 ## Reports in the Power BI Purchasing app
 
 [!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
+
+For more information, see [Power BI Purchasing app](purchases-powerbi-app.md).
+
+
+## Reports in the Power BI Inventory app
+
+[!INCLUDE [power-bi-inventory-app](includes/power-bi-inventory-app.md)]
+
+For more information, see [Power BI Inventory app](inventory-powerbi-app.md).
+
+
+## Reports in the Power BI Inventory Valuation app
+
+[!INCLUDE [power-bi-inventory-valuation-app](includes/power-bi-inventory-valuation-app.md)]
+
+For more information, see [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
+
+
 
 
 ## See also

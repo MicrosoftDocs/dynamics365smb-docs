@@ -55,6 +55,52 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Using Power BI to monitor inventory KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their core inventory performance:
+
+- Number of Scheduled Receipt
+- Number of Planned Order Receipt
+- Gross Requirement
+- Projected Available Balance
+- Quantity on Sales Orders, Purchase Returns, Service Orders, Projects, Production Orders, or Assemply Component
+- Inventory by Item/Location/Lot/Serial No.
+
+:::image type="content" source="media/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/inventory/inventory-overview.png":::
+
+
+For inventory valuation, you can use the following KPIs to monitor the value kept in your inventory:
+
+- Ending balance inventory value
+- Variance by item/location
+- Invoiced Quantity
+- Increases/Decreases in quantity (by item/location)
+
+:::image type="content" source="media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="media/inventory-valuation/inventory-valuation-by-Location.png":::
+
+
+All of these purchasing KPIs (and more) are available in the Inventory Power BI apps for [!INCLUDE [prod_short](includes/prod_short.md)]. 
+
+For more information, see 
+- [Power BI Inventory app](inventory-powerbi-app.md)
+- [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) 
+
+
+### Reports in the Power BI Inventory app
+
+[!INCLUDE [power-bi-inventory-app](includes/power-bi-inventory-app.md)]
+
+For more information, see [Power BI Inventory app](inventory-powerbi-app.md).
+
+### Reports in the Power BI Inventory Valuation app
+
+[!INCLUDE [power-bi-inventory-valuation-app](includes/power-bi-inventory-valuation-app.md)]
+
+For more information, see [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
+
+
+
+
 ## Use financial reporting to produce financial statements and KPIs related to inventory
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for inventory management, you can set up financial reports on the general ledger (G/L) accounts that you use to track inventory postings.
@@ -145,6 +191,8 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 ## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)   
+[Power BI Inventory app](inventory-powerbi-app.md) 
+[Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  

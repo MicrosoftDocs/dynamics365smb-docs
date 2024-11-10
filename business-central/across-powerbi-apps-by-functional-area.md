@@ -21,13 +21,17 @@ ms.custom: bap-template
 | Sales                | [Power BI Sales app](sales-powerbi-app.md) |
 | Purchasing           | [Power BI Purchasing app](purchases-powerbi-app.md) |
 | Inventory            | [Power BI Inventory app](inventory-powerbi-app.md) |
-| Inventory Valuation   | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
+| Inventory Valuation  | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
 
 
 ## Reports in the Power BI Finance app
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
 
+
+## Reports in the Power BI Sales app
+
+[!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
 
 
 ## See also

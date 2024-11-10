@@ -15,13 +15,15 @@ ms.custom: bap-template
 
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
-| Functional areas          | Landing pages                |
-|--------------------------------| --------------------------------- |
+| Functional areas     | Landing pages                |
+|----------------------| ---------------------------- |
 | Finance              | [Power BI Finance app](finance-powerbi-app.md) |
 | Sales                | [Power BI Sales app](sales-powerbi-app.md) |
 | Purchasing           | [Power BI Purchasing app](purchases-powerbi-app.md) |
 | Inventory            | [Power BI Inventory app](inventory-powerbi-app.md) |
 | Inventory Valuation  | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
+| Projects             | [Power BI Projects app](projects-powerbi-app.md) |
+
 
 
 ## Reports in the Power BI Finance app
@@ -58,6 +60,12 @@ For more information, see [Power BI Inventory app](inventory-powerbi-app.md).
 
 For more information, see [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
 
+
+## Reports in the Power BI Projects app
+
+[!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
+
+For more information, see [Power BI Projects app](projects-powerbi-app.md).
 
 
 

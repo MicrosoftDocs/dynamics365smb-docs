@@ -743,6 +743,7 @@ ms.service: dynamics-365-business-central
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
+
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
@@ -815,19 +816,7 @@ ms.service: dynamics-365-business-central
 
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
-### Built-in project reports
-#### [Project report overview](project-reports.md)
-#### [Project Journal - Test](reports/report-1005.md)
-#### [Project Planning Lines](reports/report-1006.md)
-#### [Project Task Transaction Detail](reports/report-1007.md)
-#### [Project Analysis](reports/report-1008.md)
-#### [Project Actual to Budget](reports/report-1009.md)
-#### [Project WIP to G/L](reports/report-1010.md)
-#### [Project Suggested Billing](reports/report-1011.md)
-#### [Projects per Customer](reports/report-1012.md)
-#### [Items per Project](reports/report-1013.md)
-#### [Project per Item](reports/report-1014.md)
-#### [Project Register](reports/report-1015.md)
+
 ### Project management analytics
 #### [Power BI Projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
@@ -837,9 +826,12 @@ ms.service: dynamics-365-business-central
 ##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+
 #### Built-in project reports
 ##### [Project report overview](project-reports.md)
+##### [Project Journal - Test](reports/report-1005.md)
 ##### [Project Planning Lines](reports/report-1006.md)
 ##### [Project Transaction Detail](reports/report-1007.md)
 ##### [Project Analysis](reports/report-1008.md)
@@ -849,6 +841,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects per Customer](reports/report-1012.md)
 ##### [Items per Project](reports/report-1013.md)
 ##### [Project per Item](reports/report-1014.md)
+##### [Project Register](reports/report-1015.md)
 
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)

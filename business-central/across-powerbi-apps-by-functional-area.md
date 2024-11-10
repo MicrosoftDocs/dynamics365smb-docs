@@ -68,6 +68,12 @@ For more information, see [Power BI Inventory Valuation app](inventory-valuation
 For more information, see [Power BI Projects app](projects-powerbi-app.md).
 
 
+## Reports in the Power BI Manufacturing app
+
+[!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
+
+For more information, see [Power BI Manufacturing app](manufacturing-powerbi-app.md).
+
 
 ## See also
 

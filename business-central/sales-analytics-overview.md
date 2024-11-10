@@ -56,6 +56,25 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Using Power BI to monitor sales KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales, people often use the following KPIs to monitor their sales organization's performance:
+
+- Gross Profit
+- Gross Profit Margin
+- Sales by period
+- Sales vs. budget
+- Number of new customers
+- Period-over-Period Sales Amount Growth
+- Sales by item/customer/location/sales person
+
+:::image type="content" source="media/powerbi/sales/sales-overview.png" alt-text="Screenshot of the Sales Overview Power BI report" lightbox="media/powerbi/sales/sales-overview.png":::
+
+All of these sales KPIs (and more) are available in the Sales Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Power BI sales app](sales-powerbi-app.md).
+
+[!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
+
+
 ## Use financial reporting to produce financial statements and KPIs related to sales
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for sales management, you can set up financial reports on the general ledger (G/L) accounts that you use to track sales postings.

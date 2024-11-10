@@ -55,8 +55,9 @@ This section describes analytical tools you can use to get insights into your fi
 
 | To... | See |
 | --- | --- |
-| Learn about capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
-| Set up financial reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
+| Get an overview of your capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
+| Analyze and monitor your finance KPIs with the Power BI finance app. | [Power BI finance app](finance-powerbi-app.md) |
+| Set up financial reporting consolidated across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
 | Set up and use financial reporting to produce statements and overviews. | [Prepare financial reporting](bi-how-work-account-schedule.md) |
 | Perform ad-hoc analysis of financial data directly on list pages and queries. | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
 | Analyze financial data from your chart of accounts. | [Analyze finance data from the chart of accounts](finance-general-ledger.md) |

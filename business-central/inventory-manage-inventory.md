@@ -32,7 +32,7 @@ This section describes the analytical tools you can use to get insights into you
 | To... | See |
 | --- | --- |
 | Get an overview of your capabilities for analyzing inventory data. | [Sales analytics overview](inventory-analytics-overview.md) |
-| Analyze and monitor your inventory KPIs with the Power BI Inventory apps. | [Power BI Inventory app](inventory-powerbi-app.md) <br><br> [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
+| Analyze and monitor your inventory KPIs with the Power BI Inventory apps. | [Power BI Inventory app](inventory-powerbi-app.md) <br> [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
 | Do ad-hoc analysis of inventory data directly on list pages and queries. | [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md) |
 | Explore built-in inventory reports. | [Built-in inventory and warehouse reports](inventory-WMS-reports.md) |
 

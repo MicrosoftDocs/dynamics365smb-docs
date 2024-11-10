@@ -54,6 +54,23 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Using Power BI to monitor purchasing KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In procurement, people often use the following KPIs to monitor their procurement organization's performance:
+
+- Outstanding Amount (excluding VAT)
+- Amount Received but Not Invoiced (excluding VAT)
+- Period-over-Period Purchases Growth (Amount or in percentage)
+- Purchases by Item/Vendor/Location/Purchaser
+- Actual purchases vs Budget
+
+:::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
+
+All of these purchasing KPIs (and more) are available in the Purchasing Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Power BI Purchasing app](purchases-powerbi-app.md).
+
+[!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
+
+
 ## Use financial reporting to produce financial statements and KPIs (related to purchasing)
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for purchasing, you can set up financial reports on the general ledger (G/L) accounts that you use to track purchase postings.

@@ -688,8 +688,8 @@ ms.service: dynamics-365-business-central
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
-### Purchasing analytics 
 
+### Purchasing analytics 
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
 #### [Power BI Purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)

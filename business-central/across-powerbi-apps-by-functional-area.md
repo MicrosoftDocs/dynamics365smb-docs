@@ -28,10 +28,13 @@ ms.custom: bap-template
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
 
-
 ## Reports in the Power BI Sales app
 
 [!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
+
+## Reports in the Power BI Purchasing app
+
+[!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
 
 
 ## See also

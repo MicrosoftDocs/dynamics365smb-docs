@@ -1,6 +1,6 @@
 ---
 title: Inventory Purchase Orders (report)
-description: Analyze your outstanding purchase orders to understand your expected purchase volume grouped by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
+description: Analyze your outstanding purchase orders to understand your expected purchase volume by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Inventory Purchase Orders (report)
 
-The **Inventory Purchase Orders** report shows each purchase order and the line level breakdown for each item. The report includes: 
+The **Inventory Purchase Orders** report shows each purchase order and the line-level breakdown for each item. The report includes: 
 
-* Unfulfilled receipts
-* Applied line and invoice discounts
-* Total amount on order, including VAT
+* Unfulfilled receipts.
+* Applied line and invoice discounts.
+* Total amount on order, including value-added tax (VAT)
 
 Lines that have an expected receipt date in the past are included in the quantity on back order.
 
@@ -55,7 +55,7 @@ Please include your data sources and URLs
 
 Procurement specialists use the report to:
 
-* Analyze expected purchase volume. The report displays a list of items on order from vendors, including information on unfulfilled receipts and the total amount on order including VAT. Use this information to analyze expected purchase volume and plan accordingly.
+* Analyze expected purchase volume. The report displays a list of items on order from vendors. It includes information about unfulfilled receipts and the total amount on order, including VAT. Use this information to analyze expected purchase volume and plan accordingly.
 
 Warehouse managers use the report to:
 
@@ -67,7 +67,7 @@ Purchasing coordinators use the report to:
 
 Controllers use the report to:
 
-* Monitor procurement spending. The report provides information on the quantity and amount on back orders, allowing you to monitor procurement spending and identify potential issues.
+* Monitor procurement spending. The report provides information about the quantity and amount on back orders, so that you can monitor procurement spending and identify potential issues.
 
 ## Try the report
 
@@ -75,10 +75,10 @@ Try the report here: [Inventory Purchase Orders](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

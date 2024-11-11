@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Analysis (report)
-description: This report helps with tasks such as reconciling fixed asset values with your general ledger, or reviewing net values and write down values.
+description: This report helps with tasks such as reconciling fixed asset values with your general ledger, or reviewing net values and write down values. You can also see information only for sold fixed assets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

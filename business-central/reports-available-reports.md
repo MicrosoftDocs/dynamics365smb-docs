@@ -80,6 +80,12 @@ To learn more about analytics on fixed assets, go to [Fixed Assets Reports and A
 
 [!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
 
+## Relationship management reports
+
+[!INCLUDE [marketing_reports](includes/marketing-reports-include.md)]
+
+To learn more, go to [Relationship management report overview](marketing-reports.md).
+
 ## Assembly reports
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]

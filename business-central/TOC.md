@@ -911,6 +911,24 @@ ms.service: dynamics-365-business-central
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)
+### Built-in relationship management reports
+#### [Relationship management report overview](marketing-reports.md)
+#### [Contact - List](reports/report-5050.md) 
+#### [Contact - Company Summary](reports/report-5051.md) 
+#### [Contact - Person Summary](reports/report-5053.md) 
+#### [Contact - Cover Sheet](reports/report-5055.md) 
+#### [Contact - Labels](reports/report-5056.md) 
+#### [Salesperson - Opportunities](reports/report-5058.md) 
+#### [Campaign - Details](reports/report-5060.md) 
+#### [Opportunity - List](reports/report-5061.md) 
+#### [Opportunity - Details](reports/report-5068.md) 
+#### [Sales Cycle - Analysis](reports/report-5062.md) 
+#### [Segment - Contacts](reports/report-5063.md) 
+#### [Segment - Cover Sheet](reports/report-5064.md) 
+#### [Segment - Labels](reports/report-5065.md) 
+#### [Questionnaire - Handouts](reports/report-5066.md) 
+#### [Questionnaire - Test](reports/report-5067.md) 
+
 ### [Set up relationship management](marketing-setup-marketing.md)
 ### Manage contacts
 #### [Contacts](marketing-contacts.md)

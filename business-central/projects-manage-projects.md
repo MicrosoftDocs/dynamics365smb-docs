@@ -27,9 +27,20 @@ The following table describes a sequence of tasks, with links to articles that d
 | Budget for resources to be used in projects and compare actual item and resource usage to budgeted usage to improve the quality and cost efficiency of future projects. |[Manage Project Budgets](projects-how-manage-budgets.md) |
 | Review and record usage on various parts of your project, which is automatically updated as you modify and transfer information from project planning lines to project journals or project invoices for posting. |[Record Usage for Projects](projects-how-record-job-usage.md) |
 | Purchase supplies for a project, either on purchase orders or invoices, and record item and time usage. |[Manage Project Supplies](projects-how-manage-project-supplies.md) |
-| Learn about WIP (Work in Process), a feature that ensures correct financial statements and enables you to estimate the financial value of projects that are ongoing. |[Understanding WIP Methods](projects-understanding-wip.md) |
 | Post the consumption of materials, resources, and other expenses of project work in process (WIP) to monitor its financial value and to maintain correct financial statements even though you post project expenses before invoicing the project. |[Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md) |
 | Invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
+
+
+## Project analytics
+
+This section describes the analytical tools you can use to get insights into your project data.
+
+| To... | Go to... |
+| ----- | -------- |
+| Analyze and monitor your project KPIs with the Power BI Projects apps. | [Power BI Projects app](projects-powerbi-app.md) |
+| Learn about WIP (Work in Process), a feature that ensures correct financial statements and enables you to estimate the financial value of projects that are ongoing. |[Understanding WIP Methods](projects-understanding-wip.md) <br>[Monitor project progress and performance](projects-how-monitor-progress-performance.md)  |
+| Explore built-in project reports. | [Built-in project report overview](project-reports.md) |
+
 
 ## Get started with projects
 

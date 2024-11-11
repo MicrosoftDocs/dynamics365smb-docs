@@ -30,6 +30,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |------------|-------------|  
 |Understand how production orders work.|[About Production Orders](production-about-production-orders.md)|
 |Create production orders manually.|[Create Production Orders](production-how-to-create-production-orders.md)|
+| Analyze and monitor your manufacturing KPIs with the Power BI Projects apps. | [Power BI Manufacturing app](manufacturing-powerbi-app.md) |
 |Outsource all or selected operations in a production order to a subcontractor.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|
 |Record and post production output along with material and time consumption for a single released production order line.|[Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)|  
 |Batch-post the quantity of components used per operation in a journal that processes multiple planned production orders.|[Batch Post Consumption](production-how-to-post-consumption.md)|

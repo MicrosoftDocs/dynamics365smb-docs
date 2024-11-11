@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: trade, sell
 ms.search.form: 253,
-ms.date: 01/25/2024
+ms.date: 11/11/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -38,7 +38,7 @@ The following sections describe a sequence of tasks, with links to the articles 
 
 Before you to sell, specify how you want to manage your company's sales processes.
 
-|To...| See |
+|To...| Go to... |
 |---|---|
 | Create a customer card for each customer you sell to.|[Register New Customers](sales-how-register-new-customers.md) |
 | Set up how you do sales, such as prices and discounts, customer price and discount groups, salespeople, shipment methods and agents. | [Set up sales](sales-setup-sales.md) |
@@ -47,9 +47,10 @@ Before you to sell, specify how you want to manage your company's sales processe
 
 This section describes the analytical tools you can use to get insights into your sales data.
 
-| To... | See |
+| To... | Go to... |
 | --- | --- |
-| Learn about capabilities for analyzing sales data. | [Sales analytics overview](sales-analytics-overview.md) |
+| Get an overview of the capabilities for analyzing sales data. | [Sales analytics overview](sales-analytics-overview.md) |
+| Analyze and monitor your sales KPIs with the Power BI Sales app. | [Power BI sales app](sales-powerbi-app.md) |
 | Do ad-hoc analysis of sales data directly on list pages and queries. | [Create sales analysis reports](bi-how-create-analysis-views-reports.md) |
 | Explore built-in sales reports. | [Built-in sales reports](sales-reports.md) |
 
@@ -57,7 +58,7 @@ This section describes the analytical tools you can use to get insights into you
 
 The following table describes how to use simple sales processes.
 
-|To...| See |
+|To...| Go to... |
 |---|---|
 | Create a sales quote to offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
 | Process a sales order (maybe with a partial shipment, or using a drop shipment.) |[Sell Products](sales-how-sell-products.md) |
@@ -66,7 +67,7 @@ The following table describes how to use simple sales processes.
 
 If you need more complex sales processes, the following table lists articles that explain what you can do with [!INCLUDE[prod_short](includes/prod_short.md)].
 
-|To...| See |
+|To...| Go to... |
 |---|---|
 | Fulfill a sales order with multiple partial shipments. | [Process Partial Shipments](sales-how-send-partial-shipments.md) |
 | Set up standard sales or purchase lines you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
@@ -78,7 +79,7 @@ If you need more complex sales processes, the following table lists articles tha
 
 The following table describes how to pick items for a sales order and ship them to the customer.
 
-| To | See |
+| To... | Go to... |
 | --- | --- |
 |Prepare to pick items for shipment.|[Print the Picking List](sales-how-print-picking-list.md)|
 | Link a sales order to a purchase order to sell a drop-shipment item to be delivered directly from your vendor to your customer. |[Make Drop Shipments](sales-how-drop-shipment.md) |
@@ -90,7 +91,7 @@ The following table describes how to pick items for a sales order and ship them 
 
 The following table describes how to deal with canceled orders, refunds, and returns of goods.
 
-| To | See |
+| To... | Go to... |
 | --- | --- |
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect the products the customer returns and the refund amount. |[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
@@ -99,7 +100,7 @@ The following table describes how to deal with canceled orders, refunds, and ret
 
 The following table describes how to deal with other sales processes.
 
-| To | See |
+| To... | Go to... |
 | --- | --- |
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 

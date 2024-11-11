@@ -1,13 +1,13 @@
 ---
 title: Fixed Asset Projected Value (report)
-description: See projected depreciation amounts and book value for a future period for your assets
+description: Review projected depreciation amounts and book value for a future period for your fixed assets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5607_Primary
-ms.date: 10/23/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -21,13 +21,18 @@ The **Fixed Asset Projected Value** report shows the projected depreciation amou
 
 The report is a detailed analysis that forecasts the future value of an organization's fixed assets over a specified period. Forecasts are useful when you use multiple depreciation methods and you want to review the projected depreciation values.
 
+Projected depreciation is calculated for two periods:
+
+- For the first period, the report uses the dates in the Posted Entries From field and the First Depreciation Date field. If you enter a date before the last posted depreciation entry, no depreciation is calculated as of the first depreciation date.
+- For the second period, the report uses the dates in the First Depreciation Date field and the Last Depreciation Date field. The depreciation amount calculated for the second period can show as a single amount, or as several amounts broken down by the time interval specified in the **Number of Days** field.
+
 You can explore the following budgeted depreciation information:
 
-* The book value and accumulated depreciation at the beginning of the selected period.
-* Changes during the period.
-* The book value and accumulated depreciation at the end of the selected period.
+- The book value and accumulated depreciation at the beginning of the selected period.
+- Changes during the period.
+- The book value and accumulated depreciation at the end of the selected period.
 
-The report is useful, for example, when you have different depreciation methods and want to estimate depreciation for the next year. 
+The report is useful, for example, when you have different depreciation methods and want to estimate depreciation for the next year.
 
 > [!NOTE]
 > You can use the report to create the budget amounts for depreciation by selecting a budget and the **Copy to G/L Budget** field.
@@ -74,21 +79,21 @@ Please include your data sources and URLs
 
 Fixed asset managers use the report to:
 
-* Estimate the amount of accumulated depreciation of your assets at the end of the selected period.
-* Plan for the replacement of assets whose projected book value is less than their actual value.
-* Determine which assets are due for depreciation and plan for adjustments.
+- Estimate the amount of accumulated depreciation of your assets at the end of the selected period.
+- Plan for the replacement of assets whose projected book value is less than their actual value.
+- Determine which assets are due for depreciation and plan for adjustments.
 
 Finance managers use the report to:
 
-* Review and adjust the budgeted depreciation amounts for an upcoming period.
-* Analyze the projected book value of assets and determine whether to dispose of assets that aren't needed.
-* Forecast the financial performance of an organization based on the projected values of depreciation.
+- Review and adjust the budgeted depreciation amounts for an upcoming period.
+- Analyze the projected book value of assets and determine whether to dispose of assets that aren't needed.
+- Forecast the financial performance of an organization based on the projected values of depreciation.
 
 Accountants use the report to:
 
-* Calculate the tax implications of the projected depreciation amounts.
-* Reconcile financial statements by comparing the projected book value of assets with the actual book value.
-* Determine whether to adjust financial statements based on the projected values of depreciation.
+- Calculate the tax implications of the projected depreciation amounts.
+- Reconcile financial statements by comparing the projected book value of assets with the actual book value.
+- Determine whether to adjust financial statements based on the projected values of depreciation.
 
 ## Try the report
 

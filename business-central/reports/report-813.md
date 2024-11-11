@@ -1,6 +1,6 @@
 ---
 title: Inventory Picking List (report)
-description: See which sales orders are covered when collecting items from the inventory
+description: View which sales orders are covered when collecting items from inventory.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -70,7 +70,7 @@ Sales representatives use the report to:
 
 * Keep customers informed about the status of their orders.
 * Identify any potential delays in fulfillment and work with the warehouse team to address them.
-* Prioritize orders based on shipment date and fulfill them on time.
+* Prioritize orders based on the shipment date and fulfill them on time.
 
 Warehouse managers use the report to:
 
@@ -90,10 +90,10 @@ Try the report here: [Inventory Picking List](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

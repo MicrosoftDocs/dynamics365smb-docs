@@ -54,11 +54,27 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Using Power BI to monitor purchasing KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In procurement, people often use the following KPIs to monitor their procurement organization's performance:
+
+- Outstanding Amount (excluding VAT)
+- Amount Received but Not Invoiced (excluding VAT)
+- Period-over-Period Purchases Growth (Amount or in percentage)
+- Purchases by Item/Vendor/Location/Purchaser
+- Actual purchases vs Budget
+
+:::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
+
+These purchasing KPIs, and more, are available in the Power BI Purchasing app for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Power BI Purchasing app](purchases-powerbi-app.md).
+
+[!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
+
 ## Use financial reporting to produce financial statements and KPIs (related to purchasing)
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for purchasing, you can set up financial reports on the general ledger (G/L) accounts that you use to track purchase postings.
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. To learn more, go to [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
@@ -111,7 +127,6 @@ To learn more about reports that are relevant for purchasing, go to [Built-in pu
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-
 ### Show purchasing-related general ledger entries and balances from the Chart of Accounts page
 
 The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
@@ -137,6 +152,7 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 ## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)  
+[Power BI Purchasing app](purchases-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  

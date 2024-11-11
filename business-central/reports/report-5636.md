@@ -1,28 +1,31 @@
 ---
 title: Fixed Asset Document Nos. (report)
-description: Get a list of fixed asset ledger entries, sorted by document type and number. Use it for auditing your fixed assets transaction.
+description: Get a list of fixed asset ledger entries, sorted by document type and number. Use it to audit your fixed assets transactions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5636_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Fixed Asset Document Nos. (report)
 
-The **Fixed Asset Document Nos.** report shows a list of fixed asset ledger entries, sorted by document type and number. 
+The **Fixed Asset Document Nos.** report shows a list of fixed asset ledger entries. The entries are sorted by document type and number. The report includes information such as:
 
-The report includes information such as document type, document number, posting date and source code of the entry, the description, and number of the fixed asset.
+- Document type
+- Document number
+- Source code
+- Description
+- Number
 
-A warning appears when there is a gap in the number series or the documents were not posted in document-number order.
-
+A warning displays when there's a gap in the number series, or the documents weren't posted in their document-number order.
 
 ## Use cases
 
@@ -49,16 +52,13 @@ Fixed Asset Document Nos.
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

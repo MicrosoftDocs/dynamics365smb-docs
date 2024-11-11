@@ -1,0 +1,1 @@
+Get an overview of your sales cycles, including the number of opportunities currently at that stage and the estimated and calculated current values of opportunities.

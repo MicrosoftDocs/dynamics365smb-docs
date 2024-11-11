@@ -38,6 +38,7 @@ Project management is complicated enough in itself, and learning how to create p
 ## See Also
 
 [Setting Up Project Management](projects-setup-projects.md)  
+[Power BI Projects app](projects-powerbi-app.md)   
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

@@ -293,7 +293,7 @@ ms.service: dynamics-365-business-central
 
 ## Finance
 ### [Finance overview](finance.md)
-### [Financial reports](finance-reports.md)
+### [Financial analytics](bi.md)
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
@@ -519,6 +519,7 @@ ms.service: dynamics-365-business-central
 #### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
 #### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
 #### [Extend service commitments](UBB/masterdata/service-commitments.md)
+
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
@@ -540,8 +541,7 @@ ms.service: dynamics-365-business-central
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
 #### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
 #### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
-
- -->
+-->
 
 ### Financial reporting (Implementing financial statements and KPIs)
 #### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
@@ -597,7 +597,6 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
 <!-- 
-
 ##### [Vendor Item catalog](reports/report-320.md)
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
@@ -624,6 +623,7 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
+
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -688,8 +688,8 @@ ms.service: dynamics-365-business-central
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
-### Purchasing analytics 
 
+### Purchasing analytics 
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
 #### [Power BI Purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
@@ -743,6 +743,7 @@ ms.service: dynamics-365-business-central
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
+
 ### Inventory analytics 
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
@@ -825,7 +826,9 @@ ms.service: dynamics-365-business-central
 ##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+
 #### Built-in project reports
 ##### [Project report overview](project-reports.md)
 ##### [Project Journal - Test](reports/report-1005.md)
@@ -2172,8 +2175,9 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
-### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
+### Power BI apps for Business Central
+#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+#### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)

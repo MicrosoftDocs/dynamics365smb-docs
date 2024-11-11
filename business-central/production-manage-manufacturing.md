@@ -43,6 +43,7 @@ The following table describes a sequence of tasks, with links to the articles th
 ## See also
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

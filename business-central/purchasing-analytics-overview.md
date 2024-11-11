@@ -66,16 +66,15 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 
 :::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
 
-All of these purchasing KPIs (and more) are available in the Purchasing Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Power BI Purchasing app](purchases-powerbi-app.md).
+These purchasing KPIs, and more, are available in the Power BI Purchasing app for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Power BI Purchasing app](purchases-powerbi-app.md).
 
 [!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
-
 
 ## Use financial reporting to produce financial statements and KPIs (related to purchasing)
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for purchasing, you can set up financial reports on the general ledger (G/L) accounts that you use to track purchase postings.
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. To learn more, go to [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
@@ -127,7 +126,6 @@ To learn more about reports that are relevant for purchasing, go to [Built-in pu
 - [View the Availability of Items](inventory-how-availability-overview.md)  
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
 
 ### Show purchasing-related general ledger entries and balances from the Chart of Accounts page
 

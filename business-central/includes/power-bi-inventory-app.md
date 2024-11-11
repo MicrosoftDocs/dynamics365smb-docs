@@ -1,10 +1,10 @@
-The following table provides descriptions on how you can use each report in the Power BI Inventory app.
+The following table describes how you can use each report in the Power BI Inventory app.
 
 |To... | Open in Business Central (CTRL+select) | Learn more |
 |------|---------------------------------------|----------- |
 |Get a high-level view of your organizations inventory and view statistics on scheduled receipt, gross requirements, and inventory across locations. | [Inventory Overview](https://businesscentral.dynamics.com?page=37022) | [About Inventory Overview](../inventory-powerbi-inventory-overview.md)|
 |Review inventory levels for items and gauge how many of an item are on different document types. | [Inventory by Item](https://businesscentral.dynamics.com?page=37024) | [About Inventory by Item](../inventory-powerbi-inventory-by-item.md)|
-|Review inventory levels at a Location to identify where you keep stock. | [Inventory by Location](https://businesscentral.dynamics.com?page=37023) | [About Inventory by Location](../inventory-powerbi-inventory-by-location.md)|
+|Review inventory levels at a location to identify where you keep stock. | [Inventory by Location](https://businesscentral.dynamics.com?page=37023) | [About Inventory by Location](../inventory-powerbi-inventory-by-location.md)|
 |Analyze sales and purchase quantities to meet supply and demand. | [Purchase and Sales Quantity](https://businesscentral.dynamics.com?page=37025) | [About Purchase and Sales Quantity](../inventory-powerbi-purchase-and-sales-qty.md)|
 |Get a high-level view of inventory along with the gross requirements, scheduled receipts, and planned production volume. | [Item Availability](https://businesscentral.dynamics.com?page=37026) | [About Item Availability](../inventory-powerbi-item-availability.md)|
 |Analyze the volume of stock required to meet demand broken down by document type. | [Gross Requirement](https://businesscentral.dynamics.com?page=37027) | [About Gross Requirement](../inventory-powerbi-gross-requirement.md)|

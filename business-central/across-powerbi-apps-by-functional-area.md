@@ -24,56 +24,47 @@ ms.custom: bap-template
 | Inventory Valuation  | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
 | Projects             | [Power BI Projects app](projects-powerbi-app.md) |
 
-
-
 ## Reports in the Power BI Finance app
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
 
-For more information, see [Power BI finance app](finance-powerbi-app.md).
-
+To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 
 ## Reports in the Power BI Sales app
 
 [!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
 
-For more information, see [Power BI sales app](sales-powerbi-app.md).
-
+To learn more, go to [Power BI sales app](sales-powerbi-app.md).
 
 ## Reports in the Power BI Purchasing app
 
 [!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
 
-For more information, see [Power BI Purchasing app](purchases-powerbi-app.md).
-
+To learn more, go to [Power BI Purchasing app](purchases-powerbi-app.md).
 
 ## Reports in the Power BI Inventory app
 
 [!INCLUDE [power-bi-inventory-app](includes/power-bi-inventory-app.md)]
 
-For more information, see [Power BI Inventory app](inventory-powerbi-app.md).
-
+To learn more, go to [Power BI Inventory app](inventory-powerbi-app.md).
 
 ## Reports in the Power BI Inventory Valuation app
 
 [!INCLUDE [power-bi-inventory-valuation-app](includes/power-bi-inventory-valuation-app.md)]
 
-For more information, see [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
-
+To learn more, go to [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
 
 ## Reports in the Power BI Projects app
 
 [!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
 
-For more information, see [Power BI Projects app](projects-powerbi-app.md).
-
+To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
 
 ## Reports in the Power BI Manufacturing app
 
 [!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 
 For more information, see [Power BI Manufacturing app](manufacturing-powerbi-app.md).
-
 
 ## See also
 

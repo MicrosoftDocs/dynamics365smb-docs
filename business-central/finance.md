@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 05/17/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -55,9 +55,9 @@ This section describes analytical tools you can use to get insights into your fi
 
 | To... | See |
 | --- | --- |
-| Get an overview of your capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
-| Analyze and monitor your finance KPIs with the Power BI finance app. | [Power BI finance app](finance-powerbi-app.md) |
-| Set up financial reporting consolidated across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
+| Get an overview of the capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
+| Analyze and monitor your finance KPIs with the Power BI Finance app. | [Power BI finance app](finance-powerbi-app.md) |
+| Set up consolidated financial reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
 | Set up and use financial reporting to produce statements and overviews. | [Prepare financial reporting](bi-how-work-account-schedule.md) |
 | Perform ad-hoc analysis of financial data directly on list pages and queries. | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
 | Analyze financial data from your chart of accounts. | [Analyze finance data from the chart of accounts](finance-general-ledger.md) |

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 108, 198, 490, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, Report_4, Report_6, Report_7, Report_9, Report_10, Report_17, Report_18, Report_25, Report_27, Report_28, Report_33, Report_38, Report_104, Report_120, Report_129, Report_304, Report_322, Report_329, Report_1404
-ms.date: 03/27/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -65,10 +65,9 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 
 :::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
 
-All of these financial KPIs (and more) are available in the Finance Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Power BI finance app](finance-powerbi-app.md).
+These financial KPIs, and more, are available in the Power BI Finance app for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
-
 
 ## Using Financial Reporting to produce financial statements and KPIs
 
@@ -196,9 +195,9 @@ To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
-[Power BI finance app](finance-powerbi-app.md)   
+[Power BI finance app](finance-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  
@@ -206,7 +205,7 @@ To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
 [Finance overview](finance.md)  
-[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

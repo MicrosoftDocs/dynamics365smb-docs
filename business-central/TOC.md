@@ -862,11 +862,11 @@ ms.service: dynamics-365-business-central
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis](reports/report-5600.md)
 ##### [Fixed Asset List](reports/report-5601.md)
+##### [Fixed Asset Journal - Test](reports/report-5602.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
 ##### [Fixed Asset Details](reports/report-5604.md)
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)
@@ -874,6 +874,17 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset Projected Value](reports/report-5607.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
+##### [Fixed Asset Document Nos.](reports/report-5636.md)
+##### [Insurance - Analysis](reports/report-5620.md)
+##### [Insurance - List](reports/report-5621.md)
+##### [Insurance Journal - Test](reports/report-5622.md)
+##### [Insurance Register](reports/report-5623.md)
+##### [Insurance - Coverage Details](reports/report-5624.md)
+##### [Insurance - Tot. Value Insured](reports/report-5625.md)
+##### [Insurance - Uninsured FAs](reports/report-5626.md)
+##### [Maintenance - Analysis](reports/report-5630.md)
+##### [Maintenance - Details](reports/report-5634.md)
+##### [Maintenance - Next Service](reports/report-5635.md)
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
@@ -890,6 +901,24 @@ ms.service: dynamics-365-business-central
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)
+### Built-in relationship management reports
+#### [Relationship management report overview](marketing-reports.md)
+#### [Contact - List](reports/report-5050.md) 
+#### [Contact - Company Summary](reports/report-5051.md) 
+#### [Contact - Person Summary](reports/report-5053.md) 
+#### [Contact - Cover Sheet](reports/report-5055.md) 
+#### [Contact - Labels](reports/report-5056.md) 
+#### [Salesperson - Opportunities](reports/report-5058.md) 
+#### [Campaign - Details](reports/report-5060.md) 
+#### [Opportunity - List](reports/report-5061.md) 
+#### [Opportunity - Details](reports/report-5068.md) 
+#### [Sales Cycle - Analysis](reports/report-5062.md) 
+#### [Segment - Contacts](reports/report-5063.md) 
+#### [Segment - Cover Sheet](reports/report-5064.md) 
+#### [Segment - Labels](reports/report-5065.md) 
+#### [Questionnaire - Handouts](reports/report-5066.md) 
+#### [Questionnaire - Test](reports/report-5067.md) 
+
 ### [Set up relationship management](marketing-setup-marketing.md)
 ### Manage contacts
 #### [Contacts](marketing-contacts.md)

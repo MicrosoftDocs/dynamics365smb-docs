@@ -1,24 +1,23 @@
 ---
 title: Salesperson - Opportunities (report)
-description: See which salespeople handle which opportunities.
+description: Review which salespeople handle which opportunities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_50585058_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Salesperson - Opportunities (report)
 
-The **Salesperson - Opportunities** report shows information about the opportunities handled by one or several salespeople.
-
+The **Salesperson - Opportunities** report shows information about the opportunities that one or several salespeople handle.
 
 ## Use cases
 
@@ -45,16 +44,13 @@ Salesperson - Opportunities
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

@@ -1,1 +1,1 @@
-Get an overview about the information related to a campaign.
+Get an overview of the information related to a campaign.

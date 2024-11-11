@@ -84,7 +84,7 @@ To learn more about analytics on fixed assets, go to [Fixed Assets Reports and A
 
 [!INCLUDE [marketing_reports](includes/marketing-reports-include.md)]
 
-For more information, see [Relationship management report overview](marketing-reports.md)
+To learn more, go to [Relationship management report overview](marketing-reports.md).
 
 ## Assembly reports
 

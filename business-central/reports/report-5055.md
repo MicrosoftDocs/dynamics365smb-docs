@@ -7,26 +7,24 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5055_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Contact - Cover Sheet (report)
 
-The **Contact - Cover Sheet** report shows cover sheets to send to one or more of your contacts. 
+The **Contact - Cover Sheet** report shows cover sheets to send to one or more of your contacts. You can access the report from the **Contact Card** page.
 
-You can access the report from the Contact Card window.
+The report request page lets you customize the report results:
 
-The report request page allows you to customize the output:
-- Enter a text you want to include on the cover sheet.
-- Allow a remark to be displayed with a check mark on the cover sheet. You can also enter your own comment.
+- Enter text to include on the cover sheet.
+- Allow a remark to display with a check mark on the cover sheet. You can also enter your own comment.
 
-You can also log the interaction when running the report.
-
+You can also log the interaction when you run the report.
 
 ## Use cases
 
@@ -53,16 +51,13 @@ Contact - Cover Sheet
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

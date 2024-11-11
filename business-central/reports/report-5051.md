@@ -7,22 +7,17 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5051_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Contact - Company Summary (report)
 
-The **Contact - Company Summary** report shows summary information about your contact companies. 
-
-The report includes details about the company, such as address, contact number, and so on. 
-
-The report also contains related interactions and to-dos.
-
+The **Contact - Company Summary** report shows summary information about your contact companies. The report includes details about the company, such as address, contact number, and so on. The report also contains related interactions and to-dos.
 
 ## Use cases
 
@@ -49,16 +44,13 @@ Contact - Company Summary
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

@@ -1,1 +1,1 @@
-Print labels with names and addresses of contacts for your segments.
+Print labels with the names and addresses of contacts for your segments.

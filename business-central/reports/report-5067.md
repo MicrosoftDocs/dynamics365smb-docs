@@ -7,20 +7,17 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5067_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Questionnaire - Test (report)
 
-The **Questionnaire - Test** report shows test reports of your profile questionnaires. 
-
-To print the report, open the Profile Questionnaire Setup page.
-
+The **Questionnaire - Test** report shows test reports of your profile questionnaires. To print the report, open the **Profile Questionnaire Setup** page.
 
 ## Use cases
 
@@ -47,16 +44,13 @@ Questionnaire - Test
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

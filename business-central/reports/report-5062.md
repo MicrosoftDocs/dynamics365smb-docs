@@ -1,26 +1,23 @@
 ---
 title: Sales Cycle - Analysis (report)
-description: Get an overview about your sales cycles, including the number of opportunities currently at that stage and the estimated and calculated current values of opportunities.
+description: Get an overview about your sales cycles.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5062_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Sales Cycle - Analysis (report)
 
-The **Sales Cycle - Analysis** report shows information about your sales cycles. 
-
-The report includes details about the sales cycle, such as the number of opportunities currently at that stage, the estimated and calculated current values of opportunities created using the sales cycle, and so on.
-
+The **Sales Cycle - Analysis** report shows information about your sales cycles. The report includes details about the sales cycle. For example, you can review the current number of opportunities, their estimated and calculated values, and so on.
 
 ## Use cases
 
@@ -47,16 +44,13 @@ Sales Cycle - Analysis
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

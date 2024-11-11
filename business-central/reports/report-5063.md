@@ -1,24 +1,23 @@
 ---
 title: Segment - Contacts (report)
-description: See how your contacts are distributed across segments.
+description: Review the distribution of contacts across segments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5063_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Segment - Contacts (report)
 
-The **Segment - Contacts** report shows a list of the contacts selected within one or several segments.
-
+The **Segment - Contacts** report shows a list of the contacts selected in one or more segments.
 
 ## Use cases
 
@@ -45,16 +44,13 @@ Segment - Contacts
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

@@ -1,1 +1,1 @@
-See which salespeople handle which opportunities.
+Review which salespeople handle which opportunities.

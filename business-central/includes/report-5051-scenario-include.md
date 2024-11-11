@@ -1,1 +1,1 @@
-Get an overview about your contact companies, including related interactions and to-dos.
+Get an overview of your contact companies, including related interactions and to-dos.

@@ -1,1 +1,1 @@
-See how your contacts are distributed across segments.
+Review the distribution of contacts across segments.

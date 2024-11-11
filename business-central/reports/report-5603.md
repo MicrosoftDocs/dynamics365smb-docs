@@ -17,18 +17,20 @@ ai.usage: ai-assisted
 
 # Fixed Asset Register (report)
 
-The **Fixed Asset Register** report shows posted fixed asset ledger entries sorted and divided by register numbers.
+The **Fixed Asset Register** report shows posted fixed asset ledger entries sorted by register numbers.
 
-You can explore all transactions posted for fixed assets with information such as:
+You can explore information about all transactions posted for fixed assets, such as:
 
 * FA posting date
 * Document type and number
 * Depreciation book code
 * Fixed asset number and description
 * FA posting category and type
-* Posting date, amount, and entry number
+* Amount, posting date, and entry number
 
-On the request page, you can set a filter for the relevant fixed asset. If you don't set any filters, the report shows the register for all fixed assets.
+On the request page, you can set a filter for the relevant fixed asset. If you don't set filters, the report shows the register for all fixed assets.
+
+You can set up the report to become part of the posting process; that is, it can print when you post. To print the register when you post a journal, select the **Post and Print** action on the journal. You can use the report to document posted entries or for auditing.
 
 ## About the fixed assets register
 
@@ -72,12 +74,11 @@ Use the report to provide a detailed and organized overview of fixed asset trans
 Business Central automatically assigns consecutive entry numbers to all entries that you post to depreciation books. In the FA registers, the entries are sorted in entry number order regardless of FA numbers or depreciation book numbers.
 A register is created automatically with each posting, either directly from a fixed asset journal or indirectly from purchase invoices or sales invoices. The individual registers are also numbered (one is the first number).
 
-
 Please include your data sources and URLs
 
 -->
 
-[!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] Use the report to get a detailed and organized overview of fixed asset transactions, making it easier to track and manage fixed assets.
+[!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] Use the report to get a detailed and organized overview of fixed asset transactions, so it's easier to track and manage fixed assets.
 
 Controllers use the report to:
 

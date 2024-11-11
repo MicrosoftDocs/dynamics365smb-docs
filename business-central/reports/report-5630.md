@@ -1,34 +1,37 @@
 ---
 title: Maintenance - Analysis (report)
-description: See your maintenance expenses for fixed assets for different time periods broken down by maintenance types or other categories such as, fixed asset class.
+description: Review your maintenance expenses for fixed assets for different time periods broken down by maintenance types or other categories, such as fixed asset class.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5630_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Maintenance - Analysis (report)
 
-The **Maintenance - Analysis** report shows detailed maintenance expenses for fixed assets. 
+The **Maintenance - Analysis** report shows detailed maintenance expenses for fixed assets.
 
-You can choose between using posting dates or fixed asset posting dates when restricting what data is shown in the report.
+You can choose whether to use posting dates or fixed asset posting dates to control the data the report shows.
 
 The report has three amount fields that can show maintenance amounts broken down by different maintenance types. Select the maintenance code for the maintenance type you want to include in the report.
 
-The report has three period fields for which you can select one of the options: Before Starting Date, Net Change or at Ending Date. Net Change is the period between the starting and ending date. The selected option determines how the report calculates the maintenance amounts shown in the report.
+The report has three period fields in which you can select one of the following options:
 
-The report allows for grouping fixed assets and calculating totals by category. For example, maintenance expenses for fixed assets can be shown for each fixed asset class.
+- Before Starting Date
+- Net Change
+- Ending Date
 
-You can also choose to see amounts for each fixed asset.
+**Net Change** is the period between the starting and ending date. The option you select determines how the report calculates maintenance amounts.
 
+The report lets you group fixed assets and calculate totals by category. For example, it can show maintenance expenses for fixed assets in each fixed asset class. You can also choose to show amounts for each fixed asset.
 
 ## Use cases
 
@@ -55,16 +58,13 @@ Maintenance - Analysis
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

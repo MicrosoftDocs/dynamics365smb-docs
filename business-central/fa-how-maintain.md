@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
-ms.date: 05/22/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -26,7 +26,7 @@ Indexation is used to adjust values for general price-level changes. Use the **I
 
 ## Record a maintenance cost directly on a fixed asset
 
-Every time maintenance is done for an asset, such as a service visit, you can record it on the **Maintenance Registrations** page.  
+Every time you do maintenance for an asset, such as a service visit, you can record it on the **Maintenance Registrations** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.
@@ -70,7 +70,7 @@ You can print the **Maintenance - Next Service** report to list the assets that 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated reports and statistics pages for use in analyzing fixed assets maintenance.  
 
-For more information about all the built-in reports for fixed assets maintenance, see [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)
+To learn more about the built-in reports for fixed asset maintenance, go to [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports).
 
 ### Overview of maintenance costs
 
@@ -91,7 +91,7 @@ In the **Maintenance - Analysis** report, you can select to examine maintenance 
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-For more information, see [Maintenance - Analysis](reports/report-5630.md).
+To learn more, go to [Maintenance - Analysis](reports/report-5630.md).
 
 ## View maintenance ledger entries
 

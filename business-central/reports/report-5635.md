@@ -7,24 +7,24 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5635_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Maintenance - Next Service (report)
 
-The **Maintenance - Next Service** report shows the next date on which service and repairs are planned for each asset. 
+The **Maintenance - Next Service** report shows the next date on which service and repairs are planned for each asset.
 
-For each asset, the report retrieves this date from the Next Service Date field on the fixed asset card.
+For each asset, the report gets this date from the **Next Service Date** field on the **Fixed Asset Card** page.
 
-You can define a period (starting date and ending date) for assets to be included in the report.
-- Fixed assets that have a next service date before the date in this field will not be included.
-- Fixed assets that have a next service date after the date in this field will not be included.
+You can define a period (starting date and ending date) for the assets to include in the report.
 
+- Fixed assets that have a next service date before the date in this field aren't included.
+- Fixed assets that have a next service date after the date in this field aren't included.
 
 ## Use cases
 
@@ -51,16 +51,13 @@ Maintenance - Next Service
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

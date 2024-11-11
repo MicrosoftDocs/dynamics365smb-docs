@@ -1,26 +1,25 @@
 ---
 title: Insurance - Coverage Details (report)
-description: Get an overview of how individual fixed assets are linked to insurance policies.
+description: Get an overview of how individual fixed assets link to insurance policies.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5624_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Insurance - Coverage Details (report)
 
-The **Insurance - Coverage Details** report shows the individual fixed assets that are linked to each insurance policy. 
+The **Insurance - Coverage Details** report shows the individual fixed assets that are linked to each insurance policy.
 
-For each insurance policy, the report shows one or more amounts for each asset. These are the amounts that need insurance coverage. These amounts can differ from the actual insurance policy's coverage.
-
+For each insurance policy, the report shows one or more amounts for each asset that need insurance coverage. These amounts can differ from the actual insurance policy's coverage.
 
 ## Use cases
 
@@ -47,16 +46,13 @@ Insurance - Coverage Details
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

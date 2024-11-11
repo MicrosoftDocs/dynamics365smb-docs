@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
-ms.date: 05/15/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -68,7 +68,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated reports and statistics pages for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
 
-For more information about all the built-in reports for fixed assets insurance, see [Fixed assets insurance reports](fa-reports.md#fixed-assets-insurance-reports)
+To learn more about the built-in reports for fixed assets insurance, go to [Fixed assets insurance reports](fa-reports.md#fixed-assets-insurance-reports).
 
 ### Overview of insurance policies
 
@@ -76,7 +76,7 @@ To get an overview of your insurance policies, use the [Insurance - List](report
 
 ### Insurance coverage
 
-To see which insurance policies cover each asset and by which amount, use the [Insurance - Tot. Value Insured](reports/report-5625.md) report.
+To find out which insurance policies cover each asset, and by which amount, use the [Insurance - Tot. Value Insured](reports/report-5625.md) report.
 
 #### Over/under coverage
 

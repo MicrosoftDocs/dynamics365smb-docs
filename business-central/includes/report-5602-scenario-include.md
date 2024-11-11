@@ -1,1 +1,1 @@
-See the journal lines in a fixed assets journal. You can use the report to check the lines before you post the journal.
+View the journal lines in a fixed asset journal. You can use the report to check the lines before you post the journal.

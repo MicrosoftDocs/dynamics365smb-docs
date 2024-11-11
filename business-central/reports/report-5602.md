@@ -1,28 +1,27 @@
 ---
 title: Fixed Asset Journal - Test (report)
-description: See the journal lines in a fixed assets journal. You can use the report to check the lines before you post the journal.
+description: Review the journal lines in a fixed assets journal. You can use the report to check the lines before you post the journal.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5602_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Fixed Asset Journal - Test (report)
 
-The **Fixed Asset Journal - Test** report shows the journal lines in an Fixed Asset (FA) journal. 
+The **Fixed Asset Journal - Test** report shows the journal lines in a Fixed Asset (FA) journal.
 
 You can use the report to have the lines checked before you post the journal.
 
-If you run the test report from a journal page, the report is automatically filtered by the current journal template and journal batch names. In this case, you do not have to enter anything on the request page.
-
+If you run the test report from a journal page, the report automatically filters on the current journal template and journal batch names. You can leave the request page blank.
 
 ## Use cases
 
@@ -49,16 +48,13 @@ Fixed Asset Journal - Test
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

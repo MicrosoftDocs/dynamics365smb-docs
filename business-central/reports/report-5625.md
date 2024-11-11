@@ -1,24 +1,23 @@
 ---
 title: Insurance - Tot. Value Insured (report)
-description: Help you ensure that your fixed assets are adequately insured by showing the total coverage amount for all insured assets.
+description: Ensure that your fixed assets are adequately insured by reviewing the total coverage amount for all insured assets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5625_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
+ai-seo-date: 10/23/2024
 ai.usage: ai-assisted
 ---
 
 # Insurance - Tot. Value Insured (report)
 
 The **Insurance - Tot. Value Insured** report shows which insurance policies cover each asset and by which amount.
-
 
 ## Use cases
 
@@ -45,16 +44,13 @@ Insurance - Tot. Value Insured
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

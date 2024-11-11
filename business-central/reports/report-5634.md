@@ -7,20 +7,17 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5634_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Maintenance - Details (report)
 
-The **Maintenance - Details** report shows detailed information about the maintenance ledger entries that have been posted to each fixed asset for the depreciation book that you specify in the report.
-
-You can include reversed entries in the report.
-
+The **Maintenance - Details** report shows detailed information about the maintenance ledger entries that are posted to each fixed asset for the depreciation book that you specify. You can include reversed entries in the report.
 
 ## Use cases
 
@@ -47,16 +44,13 @@ Maintenance - Details
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

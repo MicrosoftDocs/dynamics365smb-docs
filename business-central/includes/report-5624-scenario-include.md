@@ -1,1 +1,1 @@
-Get an overview of how individual fixed assets are linked to insurance policies.
+Get an overview of how your individual fixed assets link to insurance policies.

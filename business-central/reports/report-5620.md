@@ -7,16 +7,15 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5620_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ---
 
 # Insurance - Analysis (report)
 
-The **Insurance - Analysis** report shows various information about insurance policies, such as annual premiums, policy coverage, and the amount that is over or underinsured, based on the value of fixed assets that require insurance at the current date.
+The **Insurance - Analysis** report shows information about insurance policies, such as annual premiums, policy coverage, and the amount that is over or under insured, based on the value of fixed assets that require insurance on the current date.
 
 You can run the report to show amounts for each insurance policy.
-
 
 ## Use cases
 
@@ -43,16 +42,13 @@ Insurance - Analysis
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

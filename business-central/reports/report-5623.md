@@ -1,28 +1,27 @@
 ---
 title: Insurance Register (report)
-description: See posted fixed assets insurance ledger entries sorted and divided by register number. Use it for documenting the posted entries or for auditing.
+description: Review posted fixed assets insurance ledger entries sorted by register number. Use the report to document posted entries or for auditing.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5623_Primary
-ms.date: 11/2/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Insurance Register (report)
 
-The **Insurance Register** report shows posted insurance ledger entries that are sorted and divided by register number. 
+The **Insurance Register** report shows posted insurance ledger entries sorted by register number.
 
-You can determine which registers' entries are shown by setting a filter. It is important to set a filter; otherwise, the report may show a very large amount of information.
+You can set a filter to specify which register to show entries for. It's important to set a filter because otherwise the report might show a large amount of information.
 
-The report can be defined so that it functions as a part of the posting process; that is, it can be printed when you post. To print the register when the journal is posted, on the Action Pane, in the Process actions group, choose Post and Print in the journal. The report can be used either for documenting the posted entries or for auditing.
-
+You can set up the report to print as part of the posting process. That is, it can print when you post. To print the register when you post the journal, select the **Post and Print** action in the journal. 
 
 ## Use cases
 
@@ -49,16 +48,13 @@ Insurance Register
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 

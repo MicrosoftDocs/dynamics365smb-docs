@@ -10,7 +10,7 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for Business Central
+# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
 
 <!--**TODO**: Add note about 2024 release wave 2 (25.1). Is an include file in the PR for PBI sales app-->
 
@@ -19,7 +19,7 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Home pages.
+- Navigation links on role centers and in the Role Explorer.
 
 ## Prerequisites
 
@@ -82,5 +82,6 @@ To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)
 
 ## See also
 
+[Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

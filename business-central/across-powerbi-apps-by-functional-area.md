@@ -15,13 +15,56 @@ ms.custom: bap-template
 
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
-| Functional areas          | Landing pages                |
-|--------------------------------| --------------------------------- |
+| Functional areas     | Landing pages                |
+|----------------------| ---------------------------- |
 | Finance              | [Power BI Finance app](finance-powerbi-app.md) |
 | Sales                | [Power BI Sales app](sales-powerbi-app.md) |
 | Purchasing           | [Power BI Purchasing app](purchases-powerbi-app.md) |
 | Inventory            | [Power BI Inventory app](inventory-powerbi-app.md) |
-| Inventory Valuation   | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
+| Inventory Valuation  | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
+| Projects             | [Power BI Projects app](projects-powerbi-app.md) |
+
+## Reports in the Power BI Finance app
+
+[!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
+
+To learn more, go to [Power BI finance app](finance-powerbi-app.md).
+
+## Reports in the Power BI Sales app
+
+[!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
+
+To learn more, go to [Power BI sales app](sales-powerbi-app.md).
+
+## Reports in the Power BI Purchasing app
+
+[!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
+
+To learn more, go to [Power BI Purchasing app](purchases-powerbi-app.md).
+
+## Reports in the Power BI Inventory app
+
+[!INCLUDE [power-bi-inventory-app](includes/power-bi-inventory-app.md)]
+
+To learn more, go to [Power BI Inventory app](inventory-powerbi-app.md).
+
+## Reports in the Power BI Inventory Valuation app
+
+[!INCLUDE [power-bi-inventory-valuation-app](includes/power-bi-inventory-valuation-app.md)]
+
+To learn more, go to [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
+
+## Reports in the Power BI Projects app
+
+[!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
+
+To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
+
+## Reports in the Power BI Manufacturing app
+
+[!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
+
+For more information, see [Power BI Manufacturing app](manufacturing-powerbi-app.md).
 
 ## See also
 

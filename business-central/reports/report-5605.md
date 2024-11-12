@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5605_Primary
-ms.date: 10/23/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -19,7 +19,9 @@ ai.usage: ai-assisted
 
 The **Fixed Asset Book Value 01** report shows detailed information about acquisition cost, depreciation value, and book value for individual assets and groups of assets. The detailed information is also summarized at a group level, if needed.
 
-[!INCLUDE [prod_short](../includes/prod_short.md)] calculates each of these types of amounts at the beginning and at the end of a specified period, and for the period itself. If you select the **Budget Report** field, the report calculates the expected depreciation for the period. Enter a group type if you want the report to group the fixed assets and print group totals. For example, if you have six FA classes, select the **FA Class** option to print a group total for each FA class.
+[!INCLUDE [prod_short](../includes/prod_short.md)] calculates each of these types of amounts at the beginning and at the end of a specified period, and for the period itself.
+
+If you select the **Budget Report** field, the report calculates the expected depreciation for the period. Enter a group type if you want the report to group the fixed assets and print group totals. For example, if you have six FA classes, select the **FA Class** option to print a group total for each FA class.
 
 The report shows the output structured over multiple columns and displays one line for each asset.
 

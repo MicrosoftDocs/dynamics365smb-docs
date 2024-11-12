@@ -22,6 +22,7 @@ Businesses capture lots of data during daily activities that supports business i
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's inventory data:
 
+- Power BI reports for inventory
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using Open in Excel)
 - Built-in inventory analytics tools

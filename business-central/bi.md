@@ -25,6 +25,7 @@ Businesses capture a tremendous amount of data during daily activities that's su
 [!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your organization's finance data:
 
 - Financial reporting (for financial statements and KPIs)
+- Power BI reports for finance
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using open in Excel)
 - Built-in finance reports

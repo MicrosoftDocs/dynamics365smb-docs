@@ -28,7 +28,7 @@ In the **Type** field on the **Item Card** page, you can select what the item is
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|
-|Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|Yes|
+|Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|Yes|
 
 ## Costing methods for types of items
 

@@ -66,7 +66,7 @@ To improve production efficiency, you track the allocated hours for each work ce
 
 ## Use the reports
 
-
+[!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 
 ## See also
 

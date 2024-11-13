@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/27/2024
+ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -229,16 +229,14 @@ To learn more about how to import or export financial report row or column defin
 - [Import or export financial reporting row definitions](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions), or
 - [Import or export financial reporting column definitions](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-
 ## Permissions for viewing or editing financial reports
 
-The following permission sets control if a user can view financial reports or edit financial report definitions:
+The following table lists the permission sets that control whether you can view financial reports or edit financial report definitions.
 
-| To get access to ...   | Use this permission set |
+| Access   | Permission set |
 |------------------------| ----------------------- |
-| View financial reports | **Account Schedules - View** |
-| Edit financial report definitions (including row/column definitions) | **Account Schedules - Edit** |
-
+| View financial reports. | **Account Schedules - View** |
+| Edit financial report definitions, including row and column definitions. | **Account Schedules - Edit** |
 
 ## See also
 

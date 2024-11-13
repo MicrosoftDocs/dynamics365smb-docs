@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Customer - Top 10 list (report)
 
-The **Customer - Top 10 list** report shows a list of customers with the most transactions within a selected period. If needed, you can display more than 10 customers.
+The **Customer - Top 10 list** report shows a list of the customers with the most transactions within a selected period. If needed, you can display more than 10 customers.
 
-The report sorts customers by sales amount within the selected period. The list gives a quick overview of customers with the largest balances and highest sales volume.
+The report sorts customers by sales amount within the selected period. The list gives a quick overview of the customers with the largest balances and the highest sales volume.
 
 You can display the calculated figures in a bar or pie chart.
 
@@ -65,7 +65,7 @@ Please include your data sources and URLs
 Sales representatives use the report to:
 
 * Identify which customers bought the most within a selected period and prioritize follow-up.
-* Identify overdue payments or outstanding balances and communicate updated payment timelines to customers.
+* Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
 * Identify sales trends and adjust sales strategies.
 
 Sales managers use the report to:
@@ -74,22 +74,22 @@ Sales managers use the report to:
 * Determine which customers have the largest outstanding balances and prioritize follow-up.
 * Identify sales trends and make data-driven decisions to improve performance.
 
-Credit or account receivables managers use the report to:
+Credit or accounts receivable managers use the report to:
 
 * Identify customers with outstanding balances and prioritize follow-up.
 * Analyze sales trends and adjust credit policies.
-* Forecast future cash flows, and adjust collection strategies.
+* Forecast future cash flows and adjust collection strategies.
 
 Marketing managers use the report to:
 
 * Analyze sales trends across customers and regions.
-* Identify customers with the highest sales volume and target them for future marketing campaigns.
+* Identify the customers with the highest sales volume and target them for future marketing campaigns.
 * Identify sales trends and adjust marketing strategies.
 
 Customer success managers use the report to:
 
-* Identify customers with the highest sales volume and provide them with personalized support.
-* Identify overdue payments or outstanding balances and communicate updated payment timelines to customers.
+* Identify the customers with the highest sales volume and provide them with personalized support.
+* Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
 * Identify sales trends and make data-driven decisions to improve customer satisfaction.
 
 ## Try the report
@@ -98,10 +98,10 @@ Try the report here: [Customer - Top 10 list](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

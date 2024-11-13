@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Inventory Order Details (report)
 
-The **Inventory Order Details** report shows each sales order and the line level breakdown for each item (such as order number, customer's name, shipment date, order quantity, delayed quantity, outstanding quantity, and unit price). The information includes unfulfilled shipments, applied line and invoice discounts, and the total amount on order.
+The **Inventory Order Details** report shows each sales order and the line-level breakdown for each item (such as the order number, customer's name, shipment date, order quantity, delayed quantity, outstanding quantity, and unit price). The information includes unfulfilled shipments, applied line and invoice discounts, and the total amount on order.
 
 Lines with a shipment date in the past are included in the quantity on back order.
 
@@ -57,19 +57,19 @@ Sales representatives use the report to:
 
 * Track order status to keep customers updated.
 * Spot potential shipment issues to manage customer expectations.
-* Determine which orders to prioritize based on shipment status and expected delivery dates.
+* Determine which orders to prioritize, based on shipment status and expected delivery dates.
 
 Sales managers use the report to:
 
 * Understand expected sales volumes for items by analyzing outstanding sales orders.
 * Highlight overdue back orders by comparing overall outstanding shipments with the planned shipment date.
-* Address customer complaints proactively by identifying shipments that are delayed, or are at risk of being delayed.
+* Address customer complaints proactively by identifying shipments that are delayed or at risk of being delayed.
 
 Logistics coordinators use the report to:
 
 * Optimize shipment schedules by monitoring back orders.
-* Prevent revenue leakage by ensuring accurate discount applications.
-* Proactively address potential issues and ensure shipments are on schedule.
+* Prevent revenue leakage by ensuring accurate discount application.
+* Proactively address potential issues and ensure that shipments are on schedule.
 
 ## Try the report
 
@@ -77,10 +77,10 @@ Try the report here: [Inventory Order Details](https://businesscentral.dynamics.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

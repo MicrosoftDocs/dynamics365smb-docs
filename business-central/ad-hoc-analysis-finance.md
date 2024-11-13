@@ -18,9 +18,9 @@ This article explains how to use the **Data Analysis** feature to analyze financ
 
 Use the following list pages to start doing ad-hoc analysis of finance processes:
 
-- [General Ledger Entries](https://businesscentral.dynamics.com/?page=20)
-- [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25)
-- [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29)
+- [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis)
+- [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis)
+- [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis)
 
 ## Ad-hoc analysis scenarios in finance
 
@@ -34,17 +34,17 @@ The following sections provide examples of finance scenarios in [!INCLUDE [prod_
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-|[Example: Finance (Accounts Receivable)](#example-finance-accounts-receivable) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
-| [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
-| [Finance (Sales invoices by G/L account)](#example-finance-sales-invoices-by-gl-account) | See how your sales invoices distribute over G/L accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account name**, **Source Code**, **G/L Account name**, **G/L Account No.**, **Debit Amount**, **Credit Amount**, **Posting Date Year**, **Posting Date Quarter**, and **Posting Date Month** |
-| [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
-| [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
+|[Example: Finance (Accounts Receivable)](#example-finance-accounts-receivable) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis) | **Customer Name**, **Due Date**, and **Remaining Amount** |
+| [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+| [Finance (Sales invoices by G/L account)](#example-finance-sales-invoices-by-gl-account) | See how your sales invoices distribute over G/L accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account name**, **Source Code**, **G/L Account name**, **G/L Account No.**, **Debit Amount**, **Credit Amount**, **Posting Date Year**, **Posting Date Quarter**, and **Posting Date Month** |
+| [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
+| [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 
 ### Example: Finance (Accounts Receivable)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, follow these steps:
 
-1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field on the right).
 1. Turn on the **Pivot* Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Customer Name** field to the **Row Groups** area, and drag **Remaining Amount** to the **Values** area.
@@ -56,7 +56,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 
 To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, follow these steps:
 
-1. Open the [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) list page, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis) list page, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Vendor Name**, **Document Type**, and **Document No.** fields to the **Row Groups** area, and then drag the **Remaining Amount** field to the **Values** area.
@@ -92,7 +92,7 @@ The following image shows the result of these steps.
 
 To see your income over the income accounts from the chart of account, broken down into time intervals for when amounts were posted, follow these steps:
 
-1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) list and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **G/L Account No.** field to the **Row Groups** area, and drag **Amount** to the **Values** area.
@@ -108,7 +108,7 @@ To see your income over the income accounts from the chart of account, broken do
 
 To see your assets over the asset accounts from the chart of account, broken down into time intervals for when amounts were posted, do as follows:
 
-1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) list and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **G/L Account No.** field to the **Row Groups** area, and drag **Amount** to the **Values** area.

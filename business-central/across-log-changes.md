@@ -58,14 +58,14 @@ The following sections provide examples of scenarios where analyzing change log 
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Who changed what data, and when](#example-who-changed-what-data-and-when) | See who changed what data. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | **User ID**, **Date and Time**, **Table Caption**, **Field Caption**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
-| [Data changes by table/field](#example-data-changes-by-tablefield) | See data changes by table/field, and who made the change. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | **Table Caption**, **Field Caption**, **User ID**, **Date and Time**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
+| [Who changed what data, and when](#example-who-changed-what-data-and-when) | See who changed what data. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595&layout=analysis) | **User ID**, **Date and Time**, **Table Caption**, **Field Caption**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
+| [Data changes by table/field](#example-data-changes-by-tablefield) | See data changes by table/field, and who made the change. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595&layout=analysis) | **Table Caption**, **Field Caption**, **User ID**, **Date and Time**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
 
 ### Example: Who changed what data, and when
 
 To analyze Who changed What data When, follow these steps:
 
-1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
+1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595&layout=analysis) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
 1. On the **Columns** menu, remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **User ID** field (who did it) to the **Row Groups** area.
 1. Now choose the following fields:
@@ -86,7 +86,7 @@ The following image shows the result of these steps.
 
 To analyze data changes by table/field, follow these steps:
 
-1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
+1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595&layout=analysis) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
 1. On the **Columns** menu, remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **Table Caption** (on what table), and **Field Caption** (on which field) fields to the **Row Groups** area.
 1. Now choose the following fields:

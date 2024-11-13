@@ -1,6 +1,6 @@
 ---
 title: Purchase Reservation Availability (report)
-description: The *Purchase Reservation Availability* report shows the availability of items for shipment on purchase documents, for example return orders. 
+description: View the availability of items for shipment on purchase documents, such as return orders. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,9 +19,9 @@ ai.usage: ai-assisted
 
 The **Purchase Reservation Availability** report shows the availability of items for shipment on purchase documents, such as return orders.
 
-You determine whether the report indicates the status of each document or of each purchase line.
+You determine whether the report indicates the status of each document or each purchase line.
 
-When you run the report, you can also update the quantity that's available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field contains the quantity to ship. Then, use the report to determine which documents to ship.
+When you run the report, you can also update the quantity available for shipment in the **Qty. to Receive** field on the purchase lines. On purchase credit memos and negative purchase order lines, the **Qty. to Receive** field indicates the quantity to ship. You can then use the report to determine which documents to ship.
 
 > [!NOTE]
 > This report isn't available for advanced warehouse functionality.
@@ -50,7 +50,7 @@ Please include your data sources and URLs
 
 Procurement specialists use the report to:
 
-* Determine availability of items for shipment. The report shows the availability of items for shipment on purchase documents, such as return orders. Use this information to determine which documents are ready to ship, and plan accordingly.
+* Determine the availability of items for shipment. The report shows the availability of items for shipment on purchase documents, such as return orders. Use this information to determine which documents are ready to ship, and to plan accordingly.
 
 Warehouse managers use the report to:
 
@@ -58,11 +58,11 @@ Warehouse managers use the report to:
 
 Shipping specialists use the report to:
 
-* Determine which documents to ship. The report provides information on the availability of items for shipment on purchase documents. Use this information to determine which documents to ship, and ensure timely deliveries.
+* Determine which documents to ship. The report provides information about the availability of items for shipment on purchase documents. Use this information to determine which documents to ship, and to ensure timely deliveries.
 
 Controllers use the report to:
 
-* Monitor procurement and inventory management. The report provides information on the availability of items for shipment on purchase documents, allowing you to monitor procurement and inventory management processes and identify potential issues.
+* Monitor procurement and inventory management. The report provides information about the availability of items for shipment on purchase documents, so that you can monitor procurement and inventory management processes and identify potential issues.
 
 ## Try the report
 
@@ -70,11 +70,10 @@ Try the report here: [Purchase Reservation Availability](https://businesscentral
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

@@ -1,6 +1,6 @@
 ---
 title: Walkthrough of service contracts for service items
-description: This article guides you through various scenarios involving service items and contracts.
+description: This article guides you through some scenarios for service items and contracts.
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
@@ -18,7 +18,7 @@ This walkthrough demonstrates several core processes:
 - Create and invoice a service contract
 - Create a service order for a service contract
 - Assign a resource based on skill and zone
-- Complete an time entry for the service order
+- Complete a time entry for the service order
 - Post and invoice the contract service order
 
 ## Create service items
@@ -38,12 +38,12 @@ Susan, the order processor, posts a sales order selling an item that is configur
 2. Post the **Sales Order** to create the service item for the customer.  
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
-    2. Select the order for customer 10000. The external cocument number is *SVC-1*.
+    2. Select the order for customer 10000. The external document number is *SVC-1*.
     3. Choose the **Post** action to ship the item to the customer.
 
 ### Results
 
-- A service item is created for customer 10000.
+A service item is created for customer 10000.
 
 ## Invoice a service contract
 
@@ -80,7 +80,7 @@ Charles, the service manager, creates a service contract to invoice for regular 
 
 ### Scenario
 
-Charles, the service manager, creates service orders for regular maintenance orders under service contract, then reviews the dispatch board to assign them.
+Charles, the service manager, creates service orders for regular maintenance orders under a service contract, and then reviews the Dispatch Board page to assign them.
 
 ### Steps
 
@@ -90,11 +90,11 @@ Charles, the service manager, creates service orders for regular maintenance ord
    2. Enter the beginning and ending dates of the month in the **Starting Date** and **Ending Date** fields on the **Options** FastTab.
    3. Choose **OK** to confirm creation of service orders. You receive a confirmation message with the number of created service orders.
 
-2. Review the orders awaiting assignment via the Dispatch Board.
+2. Review the orders awaiting assignment on the **Dispatch Board** page.
 
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dispatch Board**, and then choose the related link.
    2. The Dispatch Board page shows all open service orders, along with the **No. of Allocations** to show whether the service orders are assigned to a resource.
-   3. Choosing the **Show Documents** action to open a service order.  The **Service Item Lines** FactBox shows which resources are skilled at working with this item.
+   3. Choose the **Show Documents** action to open a service order. The **Service Item Lines** FactBox shows which resources are skilled at working with this item.
 
 3. Assign a resource to the service order.
 
@@ -106,7 +106,7 @@ Charles, the service manager, creates service orders for regular maintenance ord
     |SV000001|RESOURCE1|t|1|
 
     3. The status of the allocation changes to **Active**.
-    4. Refresh the Dispatch Board to show that the **No of Allocations** changed from **0** to **1** for the service order.
+    4. Refresh the Dispatch Board page to show that the **No of Allocations** changed from **0** to **1** for the service order.
 
 ### Results
 
@@ -118,21 +118,18 @@ Charles, the service manager, creates service orders for regular maintenance ord
 ### Scenario
 
 The service technician registers their time directly against the service order, then marks the order as finished.
-<!--
-> [!NOTE]
-> Time entry for service orders can be entered via time sheets. For more information, see [link to Timesheet if this note makes sense].
--->
+
 ### Steps
 
 1. Locate the service order, and enter the time on the service line.
 
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.
-   2. Locate the service order to enter time for.
+   2. Locate the service order that you want to enter time for.
    3. Choose the line action **Service Line**.
-   4. Enter the following information
+   4. Enter the following information:
 
     |Type|No.|Quantity|Qty.to Consume|
-    |----|---|--------|--------|   
+    |----|---|--------|--------|  
     |Resource|RESOURCE1|2|2|
 
 2. On the service order, post the consumption.

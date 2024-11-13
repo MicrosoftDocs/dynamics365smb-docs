@@ -42,6 +42,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |------------|-------------|  
 |Learn about assembling items for sales orders and storage.|[Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)|
 |Use location cards and your inventory setup to define how items flow to and from assembly.|[Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
+| Explore built-in assembly reports. | [Assembly report overview](assembly-reports.md) |
 |Quote a custom assembly item, and then convert the quote to a sale when the customer accepts it.|[Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)|
 |Combine components to create an item to order or to stock.|[Assemble Items](assembly-how-to-assemble-items.md)|  
 |Sell assembly items that aren't currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
@@ -52,8 +53,10 @@ The following table describes a sequence of tasks, with links to the articles th
 |Learn how to work with assembly BOMs and how they differ from production BOMs.|[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)|
 |Learn about posting assembly consumption and output, and how [!INCLUDE [prod_short](includes/prod_short.md)] distributes item and resource costs to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
+
 ## See also
 
+[Assembly report overview](assembly-reports.md)   
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Warehouse Management Overview](design-details-warehouse-management.md)

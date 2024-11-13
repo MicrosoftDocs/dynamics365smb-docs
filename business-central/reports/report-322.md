@@ -1,6 +1,6 @@
 ---
 title: Aged Accounts Payable (report)
-description: Analyze vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritize payments for overdue accounts. Allows easy reconciliation of the vendor subledger against the payables accounts in the general ledger, assuming that direct posting is disabled. 
+description: Analyze vendor balances at the end of each period. Use this report to monitor unpaid invoices and prioritize payments for overdue accounts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,13 +19,15 @@ ai.usage: ai-assisted
 
 The **Aged Accounts Payable** report shows the amounts on outstanding invoices, credit memos, and payments for vendors.
 
-You can configure report aging to generate three equal length periods as of a specified date (for example, three preceding months from the end of the current month). The vendor's outstanding balance is calculated for each period, and balances due before or after the three periods. You can name each period from the actual start and end dates, or the total number of days included (for example, 1 - 31 days).
+You can configure report aging to generate three periods of equal length as of a specified date (for example, the three preceding months from the end of the current month). The vendor's outstanding balance is calculated for each period, as are balances due before or after the three periods. You can name each period based on either the actual start and end dates, or the total number of days included (for example, 1–31 days).
 
 To help you easily identify the company's current financial health, total percentages of outstanding amounts are calculated for each date range.
 
-The report can either show a summed balance for each vendor, or a detailed breakdown of each outstanding document for analysis.
+The report can show either a summed balance for each vendor or a detailed breakdown of each outstanding document.
 
 ## Use cases
+
+[!INCLUDE[report-322-scenario](../includes/report-322-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -53,8 +55,6 @@ A total percentage of outstanding amounts are calculated for each date range, to
 
 The report can either show a summed balance for each vendor, or a detailed breakdown of each outstanding document for analysis.
 
-
-
 ### Use cases
 Analyse vendor balances at the end of each period. Used to monitor unpaid invoices, and prioritise payments for overdue accounts. 
 
@@ -69,11 +69,11 @@ Procurement specialists use the report to:
 
 Vendor managers use the report to:
 
-* Monitor vendor performance. The report provides information on outstanding balances for each vendor. Use this information to monitor vendor performance and identify any potential issues that might affect the organization's procurement processes.
+* Monitor vendor performance. The report provides information about outstanding balances for each vendor. Use this information to monitor vendor performance and identify any potential issues that might affect the organization's procurement processes.
 
 Accounts payable specialists use the report to:
 
-* Reconcile vendor subledgers. The report is used to reconcile the vendor subledger against the payables accounts in the general ledger, assuming that direct posting is disabled. Use this information to ensure accurate and timely financial reporting.
+* Reconcile vendor subledgers. The report is used to reconcile the vendor subledger against the payables accounts in the general ledger, provided that direct posting is disabled. Use this information to ensure accurate and timely financial reporting.
 
 Controllers use the report to:
 
@@ -85,7 +85,7 @@ Try the report here: [Aged Accounts Payable](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  

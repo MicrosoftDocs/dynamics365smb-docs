@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.form:
-ms.date: 02/02/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
@@ -78,7 +78,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on [!INCLUDE [prod_short](includes/prod_short.md)]'s demonstration data and a large labeled product catalog available as open source.
 
-This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
+This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft at [Empowering responsible AI practices](https://aka.ms/RAI).
 
 ## What are the limitations of sales line suggestions with Copilot? How can users minimize the impact of the sales line suggestions with Copilot limitations when using the system?
 
@@ -161,7 +161,7 @@ No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.  
 
-## See also
+## Related information
 
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  

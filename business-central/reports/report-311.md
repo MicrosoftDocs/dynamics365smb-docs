@@ -1,6 +1,6 @@
 ---
-title: Vendor - Top 10 List report
-description: Analyze vendor effect in cash flow and prioritize vendor payments.
+title: Vendor - Top 10 List (report)
+description: Analyze the vendor effect on cash flow and prioritize vendor payments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,11 +17,13 @@ ai.usage: ai-assisted
 
 # Vendor - Top 10 List (report)
 
-The **Vendor - Top 10 List** report provides a list of vendors with the most transactions in a selected period. If needed, you can choose to display more than 10 vendors.
+The **Vendor - Top 10 List** report provides a list of the vendors with the most transactions in a selected period. If needed, you can display more than 10 vendors.
 
-Vendors are sorted by purchase amounts in the selected period. The list gives a quick overview of vendors with the largest balance and highest purchase volume.
+Vendors are sorted by purchase amounts in the selected period. The list gives a quick overview of the vendors with the largest balance and the highest purchase volume.
 
 ## Use cases
+
+[!INCLUDE[report-311-scenario](../includes/report-311-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -45,7 +47,6 @@ The vendors are sorted by purchase amount within the selected period. The list g
 
 This report can be used to provide information to monitor supplier relationships, plan upcoming payments and identify potential cashflow issues.
 
-
 ### Use cases
 Review vendors with the most transactions within a selected period to manage cash flow & prioritise vendor payments.
 
@@ -54,16 +55,16 @@ Please include your data sources and URLs
 
 Procurement managers use the report to:
 
-* Monitor vendor performance. The report provides a complete view of vendors with the most transactions in a selected period. Use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
-* Prioritize vendor payments. The report provides a quick overview of vendors with the largest balance and highest purchase volume. Use this information to prioritize vendor payments and manage cash flow effectively.
+* Monitor vendor performance. The report provides a complete view of the vendors with the most transactions in a selected period. Use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
+* Prioritize vendor payments. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to prioritize vendor payments and manage cash flow effectively.
 
-Accounts payables specialists use the report to:
+Accounts payable specialists use the report to:
 
-* Manage vendor relationships. The report provides a comprehensive view of the vendors from which the company purchases the most. Use this information to monitor and manage vendor relationships, ensure timely payments, and avoid potential disputes with vendors.
+* Manage vendor relationships. The report provides a comprehensive view of the vendors that the company purchases from the most. Use this information to monitor and manage vendor relationships, ensure timely payments, and avoid potential disputes with vendors.
 
 Controllers use the report to:
 
-* Forecast cash flow. The report provides a quick overview of vendors with the largest balance and highest purchase volume. Use this information to forecast cash flow, identify potential cashflow issues, and take action to avoid disruptions in cash flow.
+* Forecast cash flow. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to forecast cash flow, identify potential cash flow issues, and take action to avoid disruptions in cash flow.
 
 ## Try the report
 
@@ -71,7 +72,7 @@ Try the report here: [Vendor - Top 10 List](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  

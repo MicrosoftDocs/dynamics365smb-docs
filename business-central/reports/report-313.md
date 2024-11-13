@@ -1,6 +1,6 @@
 ---
 title: Vendor/Item Purchases (report)
-description: Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amount, and volume of item purchases.
+description: Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -17,11 +17,13 @@ ai.usage: ai-assisted
 
 # Vendor/Item Purchases (report)
 
-The **Vendor/Item Purchases** report shows a total of items purchased from vendors in the given date period, grouped by vendors. Value entries for each combination of vendor and item are summed up to calculate the total invoiced quantity, and cost and discount amounts.
+The **Vendor/Item Purchases** report shows a total of the items purchased from vendors in a given date period, grouped by vendor. The report sums the value entries for each combination of a vendor and an item to calculate the total invoiced quantity, cost amount, and discount amount.
 
 The calculated cost amount includes added costs, such as item charges.
 
 ## Use cases
+
+[!INCLUDE[report-313-scenario](../includes/report-313-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -55,12 +57,12 @@ Please include your data sources and URLs
 Procurement managers use the report to:
 
 * Optimize inventory procurement. The report provides a comprehensive view of item purchases per vendor in a selected period. Use this information to analyze item purchases and manage inventory procurement effectively.
-* Improve supply chain processes. The report provides valuable insights into item purchases per vendor. Use this information to identify potential issues and take actions to improve supply chain processes.
+* Improve supply chain processes. The report provides valuable insights into item purchases per vendor. Use this information to identify potential issues and take action to improve supply chain processes.
 
 Controllers use the report to:
 
-* Forecast cash flow. The report provides a comprehensive view of item purchases per vendor in a selected period. You can use this information to forecast cash flow, identify potential cashflow issues, and take necessary actions to avoid any disruptions in cash flow.
-* Identify opportunities to save cost. The report provides information on possible discounts and the volume of item purchases. Use this information to identify ways to save cost and take action to realize the savings.
+* Forecast cash flow. The report provides a comprehensive view of item purchases per vendor in a selected period. Use this information to forecast cash flow, identify potential cashflow issues, and take necessary action to avoid any disruptions in cash flow.
+* Identify opportunities to save cost. The report provides information about possible discounts and the volume of item purchases. Use this information to identify ways to save cost and take action to realize the savings.
 
 ## Try the report
 
@@ -68,10 +70,10 @@ Try the report here: [Vendor/Item Purchases](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
-[Purchase reports](../purchase-reports.md)   
+[Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

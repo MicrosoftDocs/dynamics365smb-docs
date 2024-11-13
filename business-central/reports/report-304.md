@@ -1,6 +1,6 @@
 ---
 title: Vendor - Detail Trial Balance (report)
-description: Analyze and reconcile your vendor balances at the end of a period of your choosing.
+description: Analyze and reconcile vendor balances at the end of a period.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -17,21 +17,23 @@ ai.usage: ai-assisted
 
 # Vendor - Detail Trial Balance (report)
 
-The **Vendor - Detail Trial Balance** report shows vendor balances at the end of the period. The report groups the following information by vendor:
+The **Vendor - Detail Trial Balance** report shows vendor balances at the end of a period. The report groups the following information by vendor:
 
 * Opening balance
 * Transactions within a given period
 * Closing balance
 
-If you specify a date range in the date filter, for each vendor the report displays:
+If you specify a date range in the date filter, the report displays the following information for each vendor:
 
 * Beginning balance
-* Each transaction within the period, and their remaining amounts and due dates
+* Each transaction within the period, and its remaining amount and due date
 * Ending balance
 
-You can run the report in your local currency or in the vendor's currency. You can also exclude vendors that didn't have transactions in the period.
+You can run the report either in your local currency or in the vendor's currency. You can also exclude vendors that didn't have transactions in the period.
 
 ## Use cases - A version (persona version)
+
+[!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -64,9 +66,9 @@ Procurement specialists use the report to:
 * Analyze vendor balances and transactions for a specific period.
 * Identify vendors with outstanding balances and negotiate payment terms with them.
 * Reconcile vendor accounts and ensure that all transactions are accurate.
-* Monitor vendor performance and identify opportunities for cost savings.
+* Monitor vendor performance and identify opportunities to save cost.
 
-Account payables use the report to:
+Accounts payable specialists use the report to:
 
 * Reconcile vendor accounts and ensure that all invoices are paid in a timely manner.
 * Identify overdue invoices and take appropriate action to resolve the issue.
@@ -86,7 +88,7 @@ Purchasing agents use the report to:
 * Negotiate better terms with vendors and improve overall procurement efficiency.
 
 ## Use cases - B version (process version)
-  
+
 Make your procurement process efficient and cost-effective:
 
 * Analyze vendor balances and transactions for a specific period.
@@ -97,7 +99,7 @@ Make your procurement process efficient and cost-effective:
 Ensure timely and accurate processing of vendor invoices in your accounts payable processes:
 
 * Reconcile vendor accounts and ensure that all invoices are paid in a timely manner.
-* Identify past due invoices and take appropriate action to resolve the issue.
+* Identify overdue invoices and take appropriate action to resolve the issue.
 * Monitor cash flow and vendor payments.
 
 For your financial planning and analysis:
@@ -119,7 +121,7 @@ Try the report here: [Vendor - Detail Trial Balance](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  

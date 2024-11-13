@@ -1,0 +1,1 @@
+Check payments before you create payment files and post the journal.

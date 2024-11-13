@@ -1,6 +1,6 @@
 ---
-title: Purchase statistics
-description: Keep track of vendor performance and ensure that your company is getting the best value for its money
+title: Purchase statistics (report)
+description: Keep track of vendor performance and ensure that your company is getting the best value for its money.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -20,6 +20,8 @@ ai.usage: ai-assisted
 [!INCLUDE [reports-purchase-statistics](../includes/reports-purchase-statistics.md)]
 
 ## Use cases
+
+[!INCLUDE[report-312-scenario](../includes/report-312-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -44,7 +46,7 @@ Please include your data sources and URLs
 Procurement analysts use the report to:
 
 * Monitor vendor performance. The report provides a comprehensive view of purchase statistics for each vendor over a period of time. Use this information to monitor vendor performance and identify discrepancies in pricing or delivery timelines.
-* Evaluate vendor discounts. The report includes information on payment discounts taken and lost. Use this information to evaluate vendor discounts and identify opportunities to save cost.
+* Evaluate vendor discounts. The report includes information about payment discounts that were taken and lost. Use this information to evaluate vendor discounts and identify opportunities to save cost.
 
 Accounts payable specialists use the report to:
 
@@ -60,7 +62,7 @@ Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  

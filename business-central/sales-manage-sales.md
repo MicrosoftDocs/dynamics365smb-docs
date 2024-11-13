@@ -51,7 +51,7 @@ This section describes the analytical tools you can use to get insights into you
 | --- | --- |
 | Get an overview of the capabilities for analyzing sales data. | [Sales analytics overview](sales-analytics-overview.md) |
 | Analyze and monitor your sales KPIs with the Power BI Sales app. | [Power BI sales app](sales-powerbi-app.md) |
-| Do ad-hoc analysis of sales data directly on list pages and queries. | [Create sales analysis reports](bi-how-create-analysis-views-reports.md) |
+| Do ad-hoc analysis of sales data directly on list pages and queries. | [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md) |
 | Explore built-in sales reports. | [Built-in sales reports](sales-reports.md) |
 
 ## Quote to order to sales invoice

@@ -10,7 +10,7 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for Business Central
+# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
@@ -19,17 +19,17 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Home pages.
+- Navigation links on Role Centers and in the Role Explorer.
 
 ## Prerequisites
 
-To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you need to have:
+To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
 - An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
 - A [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
-   - The user who you use to refresh the data.
+   - The user who refreshes the data.
    - Each user who accesses the reports.
 
 To learn more, go to [Get started with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md#get-started).
@@ -82,5 +82,6 @@ To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)
 
 ## See also
 
+[Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

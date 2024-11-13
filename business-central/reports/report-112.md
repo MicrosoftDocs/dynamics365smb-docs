@@ -1,6 +1,6 @@
 ---
 title: Sales Statistics (report)
-description: Analyze earnings from an individual customer or earnings trends
+description: Analyze earnings from an individual customer or earnings trends.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,16 +17,16 @@ ai.usage: ai-assisted
 
 # Sales Statistics (report)
 
-The **Sales Statistics** report shows amounts for sales, profit, invoice discount, and payment discount in local currency, and the profit percentage for each customer.
+The **Sales Statistics** report shows amounts for sales, profit, invoice discount, and payment discount in the local currency. It also shows the profit percentage for each customer.
 
-The report shows the original and adjusted amounts for costs and profits. The original costs and profits were calculated at the time of posting. The adjusted costs and profits reflect changes to the original costs of the items in sales.
+The report shows the original and adjusted amounts for costs and profits. The original costs and profits are calculated at the time of posting. The adjusted costs and profits reflect changes to the original costs of the items in sales.
 
 The cost adjustment amount is the difference between the original cost and the adjusted cost.
 
 The figures are divided into three periods. You can select the length of the period, starting on a selected date. There are also columns for amounts before and after the three periods.
 
 > [!NOTE]
-> This report isn't available in the US, Canada, and Mexico. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report.
+> This report isn't available in the United States, Canada, and Mexico. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report.
 
 ## Use cases
 
@@ -81,7 +81,7 @@ Try the report here: [Sales Statistics](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
 [Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  

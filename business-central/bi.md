@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 108, 198, 490, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, Report_4, Report_6, Report_7, Report_9, Report_10, Report_17, Report_18, Report_25, Report_27, Report_28, Report_33, Report_38, Report_104, Report_120, Report_129, Report_304, Report_322, Report_329, Report_1404
-ms.date: 03/27/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -25,6 +25,7 @@ Businesses capture a tremendous amount of data during daily activities that's su
 [!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your organization's finance data:
 
 - Financial reporting (for financial statements and KPIs)
+- Power BI reports for finance
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using open in Excel)
 - Built-in finance reports
@@ -49,27 +50,29 @@ People in different roles have different needs when it comes to data, and they u
 |Finance Management | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Bookkeeper         | Detailed data     | Built-in operational reports <br> On-screen task data |
 
-## Finance KPIs
+## Using Power BI to monitor financial statements and KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In finance, people often use the following KPIs to monitor their organization's financial health:
 
-- Gross Profit Margin
 - Net Profit Margin
-- Working Capital
-- Current/Quick Ratio
-- Financial leverage, also known as the Equity Multiplier
+- Gross Profit Margin
+- Current/Quick/Cash Ratio
+- COGS (Cost of Goods Sold)
 - Debt-to-Equity Ratio
-- Total Asset Turnover
-- Return on Equity
-- Return on Assets
+- Current/Payroll/Longterm Liabilities
+- Operating Profit - EBIT
+- EBITDA
+- Average Collection Period (Days)
 
-<!-- Not ready to publish yet
-For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
--->
+:::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
 
-## Using financial reporting to produce financial statements and KPIs
+These financial KPIs, and more, are available in the Power BI Finance app for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 
-The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports on your home page, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports.
+[!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
+
+## Using Financial Reporting to produce financial statements and KPIs
+
+The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports on your home page, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports.
 
 Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics so they're easier to analyze. For example, customers, regions, products, and salespersons. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
@@ -193,8 +196,9 @@ To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
+[Power BI finance app](finance-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  
@@ -202,7 +206,7 @@ To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
 [Finance overview](finance.md)  
-[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -1,5 +1,5 @@
 ---
-title: Create Bank Deposits
+title: Create bank deposits
 description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,15 +7,15 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: bank, deposit
-ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646
-ms.date: 09/04/2023
-ms.custom: bap-template
-    
+ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646, 1690_Primary
+ms.date: 09/27/2024
+ms.custom: bap-template    
 ---
-# Create Bank Deposits
+
+# Create bank deposits
 
 > [!NOTE]
-> The ability to create bank deposits is new in Business Central 2022 release wave 1 for a lot of country/region versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
+> The ability to create bank deposits is new in [!INCLUDE [prod_short](includes/prod_short.md)] 2022 release wave 1 for a lot of country/region versions. If you were using [!INCLUDE [prod_short](includes/prod_short.md)] in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
 
 Use the **Bank Deposits** page to register deposits as a single document that posts one or more entries to a bank account. Typically, bank deposits are used to register cash deposits. The Bank Deposits page is available on the **Cash Management** menu on the Business Manager Role Center, and other Role Centers that deal with cash management.
 
@@ -27,7 +27,7 @@ Amounts on bank deposits can come from several sources:
 
 Bank deposit lines contain information about individual deposits, such as checks from customers. The total of the amounts on the lines must add up to the total amount of the deposit.
 
-After you fill in the deposit information and lines, you must post it. Posting will update the relevant ledgers. These ledgers include the general ledger, and the bank, customer, and vendor ledgers. Posted deposits are stored for future reference on the **Posted Bank Deposits** page.
+After you fill in the deposit information and lines, you must post it. Posting updates the relevant ledgers, including the general ledger, and the bank, customer, and vendor ledgers. Posted deposits are stored for future reference on the **Posted Bank Deposits** page.
 
 The **Bank Deposit** report displays customer and vendor deposits with the original deposit amount, the amount of the deposit that remains open, and the amount applied. The report also shows the total posted deposit amount to reconcile.
 
@@ -45,13 +45,13 @@ Also on the **Sales & Receivables Setup** page, to post deposits as lump sums ra
 
 You must also create a general journal template for deposits. You use general journals to post entries to bank, customer, vendor, fixed asset, and general ledger accounts. The journal templates design the general journal to suit the purpose of your work. That is, the fields on the journal template are exactly the ones you need.
 
-The deposits will be cash receipts, so you might want to reuse your number series for cash receipt journals. Alternatively, if you need to distinguish between bank deposit and cash receipt journal entries, use a different number series.
+The deposits are cash receipts, so you might want to reuse your number series for cash receipt journals. Alternatively, if you need to distinguish between bank deposit and cash receipt journal entries, use a different number series.
 
-You'll also need to create a batch job for the template. To create a batch job, on the **General Journal Templates** page, choose the **Batches** action. To learn more about batches, go to [Using Journal Templates and Batches](ui-work-general-journals.md#use-journal-templates-and-batches).
+You also need to create a batch job for the template. To create a batch job, on the **General Journal Templates** page, choose the **Batches** action. To learn more about batches, go to [Using Journal Templates and Batches](ui-work-general-journals.md#use-journal-templates-and-batches).
 
 ## Dimensions on bank deposit lines
 
-The lines on the bank deposit will automatically use the default dimensions you specified in the **Department Code** and **Customer group Code** fields. When you choose **Customer** or **Vendor** in the **Account Type** field, the dimensions that are specified for the customer or vendor will replace the defaults. You can change the dimensions on the lines, if needed.
+The lines on the bank deposit use the default dimensions you specified in the **Department Code** and **Customer group Code** fields. When you choose **Customer** or **Vendor** in the **Account Type** field, the dimensions for the customer or vendor replace the defaults. You can change the dimensions on the lines, if needed.
 
 > [!TIP]
 > Dimension on lines are set according to Default Dimension Priorities. Line dimensions prioritized over header dimensions. To avoid conflicts, you can create rules that prioritize when to use a dimension depending on the source. If you want to change how dimensions are prioritized, you can change their rankings on the **Default Dimension Priorities** page. For more information, see [To set up default dimension priorities](finance-dimensions.md#to-set-up-default-dimension-priorities).
@@ -73,7 +73,7 @@ The lines on the bank deposit will automatically use the default dimensions you 
 5. In the **Total Deposit Amount** field, enter the total amount of the deposit. This total must be the sum of the amounts on all lines.
 6. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-    The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customer group Code** fields will be assigned to the lines that you create for the bank deposit. You can change them if needed.
+    The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customergroup Code** fields are assigned to the lines that you create for the bank deposit. You can change them if needed.
 
 7. Depending on whether you want to post the bank deposit as lump sum or each line individually to the bank ledger, turn the **Post as Lump Sum** toggle on or off. The default setting comes from the same toggle on the **Sales & Receivables Setup** page.
 
@@ -94,14 +94,36 @@ The lines on the bank deposit will automatically use the default dimensions you 
 11. If you're depositing a cash payment for a specific customer invoice, choose the **Apply Entries** action, and then enter the invoice number in the **Applies-to ID** field.
 12. If you're ready to post the bank deposit, choose the **Post** action.
 
+    > [!NOTE]
+    > If the bank account has default dimensions where the **Value Posting** field contains **Code Mandatory**, **Same Code**, or **No Code**, you must post the deposit as a lump sum. If you don't post as a lump sum, posting might fail because the dimension values of the accounts on the bank deposit lines violate the value posting rules of the bank account.
+
     > [!TIP]
-    > Before you post the deposit you can use the **Test Report** action to review your data. The report will show whether there are any issues, such as missing data, that will prevent posting.  
+    > Before you post the deposit, you can use the **Test Report** action to review your data. The report shows whether there are any issues, such as missing data, that might prevent posting.  
+
+## Apply multiple checks for multiple invoices for a customer in a lump sum deposit
+
+You can post lump sum deposits from multiple checks on deposit lines for customer ledger entries. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Deposits**, and then choose the related link.
+2. Create or choose a line for the customer, and in the **External Document No.** field, enter the check number.
+3. Choose **Apply Entries**.
+4. On the **Apply Customer Entries** page, for each document you want to apply the check to, in the **Applies-to ID** field, enter the check number.
+5. In the **Amount to apply** field, enter the amount on the check.
+
+   > [!NOTE]
+   > When you enter the amount to apply, the **Applies-to ID** field might reset to the bank deposit document number. Double-check the field, and if it reset, reenter the check number.  
+
+6. Choose **OK**.
+7. Repeat steps two through six for each check.
+
+   > [!TIP]
+   > Before you post the bank deposit, it's a good idea to use the **Test Report** action to validate the applications.
 
 ## Find posted bank deposits
 
 The **Posted Bank Deposits** page lists your company's previous deposits. In the list, you can review the comments and dimensions that were specified for the deposits. You can open the bank deposit to view more details, and from there you can investigate further. For example, you can choose the **Find entries** action to view the posted bank ledger entries. From the bank ledger entry, you can find its corresponding posted general ledger entry.
 
-If you want to look up all general ledger entries for the posted deposit lines, go to the **G/L Register** page and use the **General Ledger** action. There you'll find all of the general ledger entries, including the entries for customers and vendors.
+If you want to look up all general ledger entries for the posted deposit lines, go to the **G/L Register** page and use the **General Ledger** action. The action shows all of the general ledger entries, including the entries for customers and vendors.
 
 ## Reverse a posted bank deposit
 

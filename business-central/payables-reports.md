@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
-ms.date: 04/26/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ---
 # Accounts payable reports and analytics
@@ -17,6 +17,12 @@ ms.service: dynamics-365-business-central
 ## Reports
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Analyze your payment practice
+
+You can use the [Payment Practice](https://businesscentral.dynamics.com?page=687)| page to show how quickly you pay your vendors. You can base the report on a specific period, or by the size of the vendor company in terms of its number of employees. Some countries require this report. 
+
+For more information, go to the [Payment practices page](ui-payment-practices.md).
 
 ## Explore finance reports with Report Explorer
 

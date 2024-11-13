@@ -6,8 +6,8 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 9306, 9307, 518, 29
-ms.date: 04/29/2024
+ms.search.form: 9306, 9307, 518, 29, 36996, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37025, Report_307, Report_308, Report_311, Report_312, Report_313, Report_409, Report_716, Report_319, Report_320, Report_707, Report_709, Report_714, Report_716, Report_720
+ms.date: 09/10/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,6 +22,7 @@ Businesses capture lots of data during daily activities that supports business i
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's purchasing data:
 
+- Power BI reports for purchasing
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using open in Excel)
 - Built-in sales reports
@@ -54,11 +55,27 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Using Power BI to monitor purchasing KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In procurement, people often use the following KPIs to monitor their procurement organization's performance:
+
+- Outstanding Amount (excluding VAT)
+- Amount Received but Not Invoiced (excluding VAT)
+- Period-over-Period Purchases Growth (Amount or in percentage)
+- Purchases by Item/Vendor/Location/Purchaser
+- Actual purchases vs Budget
+
+:::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
+
+These purchasing KPIs, and more, are available in the Power BI Purchasing app for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Power BI Purchasing app](purchases-powerbi-app.md).
+
+[!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
+
 ## Use financial reporting to produce financial statements and KPIs (related to purchasing)
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for purchasing, you can set up financial reports on the general ledger (G/L) accounts that you use to track purchase postings.
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. To learn more, go to [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
@@ -111,7 +128,6 @@ To learn more about reports that are relevant for purchasing, go to [Built-in pu
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-
 ### Show purchasing-related general ledger entries and balances from the Chart of Accounts page
 
 The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
@@ -137,6 +153,7 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 ## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)  
+[Power BI Purchasing app](purchases-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  

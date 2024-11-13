@@ -5,17 +5,17 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 06/12/2024
+ms.date: 10/23/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Building Power BI reports to display [!INCLUDE [prod_long](includes/prod_long.md)] data
+# Building Power BI reports for displaying [!INCLUDE [prod_long](includes/prod_long.md)] data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports about the state of your business.
 
-This article describes how to start using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your Power BI service, or share them with all users in your organization. When the reports are in the Power BI service, users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
+This article describes how to start using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your Power BI service or share them with all users in your organization. When the reports are in the Power BI service, users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Get ready
 
@@ -25,9 +25,9 @@ This article describes how to start using Power BI Desktop to create reports tha
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-  Power BI Desktop is a free application you install on your local computer. For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop is a free application you install on your local computer. Learn more at [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Make sure the data you want in the report is available as an API page or published as a web service. For more information, see [Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata).
+- Make sure the data you want in the report is available as an API page or published as a web service. Learn more in [Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -40,7 +40,7 @@ This article describes how to start using Power BI Desktop to create reports tha
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
-  For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+  Learn more in [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
@@ -101,11 +101,11 @@ Once the data is loaded, you can see it in the right navigation on the page. At 
 
 ## Creating accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaption to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
 
 ## Creating reports to display data associated with a list
 
-You can create reports that display in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page. The reports can contain data about the record selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. For more information, see [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+You can create reports that display in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page. The reports can contain data about the record selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. Learn more in [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
 
@@ -123,7 +123,7 @@ The theme file is available as a json file on Microsoft Power BI Community Theme
 
 ### Import the theme on a report
 
-After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. For more information, see [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more at [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## Publish reports
 
@@ -140,11 +140,11 @@ There are a couple ways to get reports to your coworkers and others:
     Reports are stored on your computer as .pbix files. You can distribute the report .pbix file to users, like any other file. Then, users can upload the file to their Power BI Service. See [Upload reports from files](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
-    > Distributing reports in this manner means that refreshing data for reports will be done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
+    > Distributing reports in this manner means that refreshing data for reports is done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
 
 - Share report from your Power BI service
 
-    If you have a Power BI Pro license, you can share the report to others, directly from your Power BI service. For more information, see [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    If you have a Power BI Pro license, you can share the report with others, directly from your Power BI service. Learn more at [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 ## How to develop cross-company or cross-environment Power BI reports
 
@@ -155,40 +155,77 @@ To set up a query to load data for multiple companies, follow these steps:
 1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes the company ID (or maybe the environment name) as parameters. To learn more, go to [Using custom Power Query functions](/power-query/custom-function).
 1. Now use the new custom function in a PowerQuery query, where you map the function over a list of companies and then merge the datasets using the [Table.Combine](/powerquery-m/table-combine) Power Query function.
 
+## <a name="advancedopts"></a>Advanced: Customize language, timeout, database replica, or page size for your Business Central data source
+
+The Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties for connecting to a Business Central data source that you can set in your Power Query queries. The following table describes the parameters.
+
+|Parameter|Description|Default|Learn more at|
+|-|-|-|-|
+|AcceptLanguage|This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. It sets the language in which the Business Central API session runs. It influences the language of error messages, formatted values in AL, and other values that depend on language or culture.<br><br>Setting this parameter improves user satisfaction and makes the data more accessible and relevant.|*not specified*|[Use locale values in multiple-language Power BI reports](/power-bi/guidance/multiple-language-locale#load-a-report-in-power-bi).|
+|ODataMaxPageSize|This parameter limits the number of entities per results page, which allows for more flexibility when connecting to large datasets or using complex queries. It sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13,000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5,000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.<br><br>Setting this parameter ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service.|5000|[ODataPreferenceHeader.MaxPageSize Property](/dotnet/api/microsoft.odata.odatapreferenceheader.maxpagesize)|
+|Timeout|This parameter defines the maximum duration for a request before cancellation. It sets the timeout for each single API call to Business Central. Its value can't exceed the timeout enforced on the Business Central service, which is currentæy 10 minutes (00:10:00).<br><br>Setting this parameter helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. |00:08:00|[OData.Feed](/powerquery-m/odata-feed)|
+|UseReadOnlyReplica|This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance.<br><br> Setting this property leads to faster data retrieval and improved system stability, especially during peak usage times.|true||
+
+### Configure the advanced parameters
+
+1. Start Power BI Desktop.
+2. Complete the step that suits your scenario:
+
+   # [Edit existing report](#tab/existing)
+
+   1. Select **File** > **Open**.
+   1. Browse for and select the report (.pbix). 
+   1. In the ribbon, select **Transform Data** to open the **Power Query Editor**.
+
+   # [Create new report](#tab/new)
+
+   1. In the ribbon, select **Get Data**. If you don't see **Get Data**, select the **File** menu, then **Get Data**.
+   1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
+   1. In the **Navigator** window, select the API endpoint that you want to load data from.
+   1. Select **Transform Data** instead of **Load** as you might normally do. This step opens **Power Query Editor**.
+
+   ---
+
+3. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+4. In **Advanced Editor**, locate the line that starts with `Source =`:
+
+   ```powerquery
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+5. In the line, replace the fourth parameter of `Dynamics365BusinessCentral.ApiContentsWithOptions` with a comma separated list of properties and values you want to set, for example:
+
+   ```powerquery
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
+   ```
+
+6. Select **Done** to close **Advanced Editor**.
+7. Select **Close & Apply** to save the changes and close Power Query Editor.
+
 ## Fixing problems
+
+### "Expression.Error: The environment 'Production' does not exist." error when specifying a Business Central environment
+
+> **APPLIES TO:** Business Central online
+
+When you connect to Business Central online from Power BI, or when you install a Power BI app from Microsoft AppSource that uses Business Central data, you might be prompted to input the Business Central environment you want to connect to.
+
+If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
+
+1. Make sure you're using the right credentials to access Business Central. These credentials might not be the same credentials you use to access Power BI. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you have to specify "PRODUCTION (fabrikam)" as environment name.
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
 
 > **APPLIES TO:** Business Central online
 
-Starting in February 2022, new reports that use [!INCLUDE [prod_short](includes/prod_short.md)] data connect to a read-only replica of the [!INCLUDE [prod_short](includes/prod_short.md)] database by default. In rare cases, depending on the page design, you might get an error when you try to connect to and get data from the page.
+By default, reports that use Business Central data connect to a read-only replica of the Business Central database. In rare cases, depending on the page design, you might get an error when you try to connect to and get data from the page. The error looks like this:
 
-1. Start Power BI Desktop.
-2. In the ribbon, select **Get Data** > **Online Services**.
-3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
-4. In the **Navigator** window, select the API endpoint that you want to load data from.
-5. The preview pane shows the following error:
+`Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".`
 
-   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+If you're using a custom API page, we recommend you rework the page to make sure it doesn't make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#advancedopts).
 
-6. Select **Transform Data** instead of **Load** as you might normally do.
-7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
-8. In the line that starts with **Source =**, replace the following text:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
-   ```
-
-   with:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
-   ```
-
-9. Select **Done**.
-10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
-
-## See Also
+## Related information
 
 [Enabling Your Business Data for Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  

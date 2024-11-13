@@ -37,16 +37,16 @@ The following articles describe local functionality that is unique to the United
 
 * General
   * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**  
+  * [E-Invoicing enable for the US market](../../finance-how-setup-edocuments-external.md) **Available Now**
 
 > [!NOTE]
 > If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  
 
 ## Future legislation requirements being investigated
 
-* New IRS 1099 functionality integrated with IRS via IRIS - **Planned before 2024 release wave 2**  
-* EFT improvements - **Planned for 2025 release wave 1**  
-* Tax improvements - **Planned for 2025 release wave 1**
-* Enabling e-document in the US market - **Planned for 24.5**  
+* New IRS 1099 functionality integrated with IRS via IRIS - **Planned for January 2025**  
+* EFT improvements - **Planned for 2026 release wave 1**  
+* Tax improvements - **Planned for 2026 release wave 1**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

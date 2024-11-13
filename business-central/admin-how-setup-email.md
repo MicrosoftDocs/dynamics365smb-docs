@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805, 9813, 9814, 1262, 1263
+ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary
 ms.date: 06/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

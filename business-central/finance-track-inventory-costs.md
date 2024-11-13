@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form:
-ms.date: 03/08/2024
+ms.date: 07/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -90,7 +90,7 @@ Use the **Log per** menu to view the outcome of cost adjustments:
 
 If one or more items fail, you can exclude the items from the adjustment run, and then include them in later runs. On the **Functions** menu, choose one of the following:
 
-* **Exclude Item from Adjustment** and **Include Item in Adjustment**: Temporarily disable and then re-enable cost adjustment for a selected item. Cost adjustment continues to keep costs accurate for other items while you investigate an issue with a specific item.
+* **Exclude item from adjustment** and **Include item in adjustment**: Temporarily disable and then re-enable cost adjustment for a selected item. Cost adjustment continues to keep costs accurate for other items while you investigate an issue with a specific item.
 
 ## Post adjusted costs to the general ledger
 
@@ -100,11 +100,11 @@ Typically, new value entries are posted to the general ledger according to the s
 
 Use the following options on the **Diagnostics** menu to troubleshoot cost adjustment runs.
 
-* **Export Item Data**: Export item-related data to a text file. You can use the file for further analysis in a sandbox environment or attach it to a support request when investigating costing calculation issues.
-* **Import Item Data**: Import the previously exported text file back into the database. This action is only enabled in sandbox environments or evaluation companies.
+* **Export item data**: Export item-related data to a text file. You can use the file for further analysis in a sandbox environment or attach it to a support request when investigating costing calculation issues.
+* **Import item data**: Import the previously exported text file back into the database. This action is only enabled in sandbox environments or evaluation companies.
 * **Reset Cost Is Adjusted**: Reset the **Cost Is Adjusted** toggle on items, production orders, or assembly orders. This setting allows you to force the rerun of the cost adjustment for them.
-* **Costing Issues Detection Report**: Diagnose typical data issues cause calculation errors in costing. It checks whether the item ledger entries, value entries, item application entries, and capacity ledger entries are correct.
-* **Delete Item Data**: Clear all item-related tables in the database. This action is only available in sandbox environments or evaluation companies.
+* **Costing Issues Detection report**: Diagnose typical data issues cause calculation errors in costing. It checks whether the item ledger entries, value entries, item application entries, and capacity ledger entries are correct.
+* **Delete item data**: Clear all item-related tables in the database. This action is only available in sandbox environments or evaluation companies.
 
 ## See also
 

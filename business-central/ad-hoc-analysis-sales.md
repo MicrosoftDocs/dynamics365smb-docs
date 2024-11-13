@@ -18,9 +18,9 @@ This article explains how to use the **Data Analysis** feature to analyze sales 
 
 Use the following list pages for ad-hoc analysis of sales processes:
 
-- [Sales Orders](https://businesscentral.dynamics.com/?page=9305)
+- [Sales Orders](https://businesscentral.dynamics.com/?page=9305&layout=analysis)
 - General Ledger Entries
-- [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25)
+- [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis)
 - Item Ledger Entries
 - Posted Sales Invoices
 - Sales Return Orders
@@ -37,15 +37,15 @@ The following sections provide examples of sales scenarios in [!INCLUDE [prod_sh
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Sales (expected sales volume)](#example-sales-expected-sales-volume) | Analyze your expected sales volume. | [Sales Orders](https://businesscentral.dynamics.com/?page=9305) | **Sell-to Customer Name**, **Sell-to Customer No.**, **No.** , **Amount**, **Document Date Year**, and **Document Date Month**. |
-| [Sales (Customer sales by volume)](#example-sales-customer-sales-by-volume) | Get an overview of the customers that purchase the most, or that owe the most. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Document No.**, **Amount**, and **Remaining Amount**. |
-| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount**. |
+| [Sales (expected sales volume)](#example-sales-expected-sales-volume) | Analyze your expected sales volume. | [Sales Orders](https://businesscentral.dynamics.com/?page=9305&layout=analysis) | **Sell-to Customer Name**, **Sell-to Customer No.**, **No.** , **Amount**, **Document Date Year**, and **Document Date Month**. |
+| [Sales (Customer sales by volume)](#example-sales-customer-sales-by-volume) | Get an overview of the customers that purchase the most, or that owe the most. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis) | **Customer Name**, **Document No.**, **Amount**, and **Remaining Amount**. |
+| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis) | **Customer Name**, **Due Date**, and **Remaining Amount**. |
 
 ## Example: Sales (expected sales volume)
 
 To analyze your expected sales volume and sales amounts for unshipped orders for each customer by year or month, follow these steps:
 
-1. Open the [Sales Orders](https://businesscentral.dynamics.com/?page=9305) list and turn on analysis mode.
+1. Open the [Sales Orders](https://businesscentral.dynamics.com/?page=9305&layout=analysis) list and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Sell-to Customer Name**, **Sell-to Customer No.**, and **No.** fields to the **Row Groups** area. Drag the fields in that order.
@@ -58,7 +58,7 @@ To analyze your expected sales volume and sales amounts for unshipped orders for
 
 To produce an overview of the customers that purchase the most or that owe the most, follow these steps:
 
-1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list, and switch on analysis mode.
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis) list, and switch on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Drag the **Customer Name** field to the **Row Groups** area, and the **Document No.** field below it.
 1. Choose the **Amount** and **Remaining Amount** fields.
@@ -73,7 +73,7 @@ The following image shows the result of these steps.
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, follow these steps:
 
-1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and turn on analysis mode.
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis) list and turn on analysis mode.
 1. On the **Columns** menu, remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Customer Name** field to the **Row Groups** area, and drag the **Remaining Amount** field to the **Values** area.

@@ -4,6 +4,7 @@ description: Responsible AI FAQs provide information about the AI technology use
 ms.date: 06/06/2024
 ms.custom: 
   - responsible-ai-faqs
+  - copilot-learning-hub
 ms.topic: article
 author: jswymer
 ms.author: jswymer
@@ -20,8 +21,9 @@ ms.collection:
 
 - [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 - [Analysis assist (preview)](faqs-analysis-assist.md)
-- [Bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+- [Bank reconciliation assist](faqs-bank-reconciliation.md)
 - [Chat with Copilot (preview)](faqs-chat-with-copilot.md)
 - [Marketing text suggestions](faqs-marketing-text.md)
 - [Sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
+- [Suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md)

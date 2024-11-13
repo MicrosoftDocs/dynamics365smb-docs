@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 9297, 5845, 30, 
-ms.date: 05/24/2024
+ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -28,7 +28,7 @@ In the **Type** field on the **Item Card** page, you can select what the item is
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|
-|Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|Yes|
+|Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|Yes|
 
 ## Costing methods for types of items
 
@@ -43,6 +43,10 @@ For noninventory and service items, cost is recorded in the **Cost Amount (Non-I
 You can set up items that you offer to your customers but you don't manage in until you sell them as catalog items. Although catalog items are similar to regular items of the type **Non-Inventory** in this respect, don't confuse the two because there are differences. To learn more, go to [Work with Catalog Items](inventory-how-work-nonstock-items.md).
 
 Customer items that you service, such as a printer, are called service items. Service items have nothing to do with regular or catalog items. However, service components can be regular items. To learn more, go to [Set Up Service Items and Service Item Components](service-how-setup-service-items.md).
+
+## Resources
+
+In addition to the item type *Item*, sales and purchase documents also allow you to use the item type *Resource*. Like items, resources support dimensions, price lists, and units of measure. <!--With introduction of types *Service* and *Non-Inventory* we do not have any intention to add any extra capabilities for type Resource in purchase and sales processes. We recommend using items of applicable type instead. Resources will continue get new functionality to track the time and effort that is involved with performing and providing services and will stay important part of project and service management. Because many partner solutions use resources, we do not plan to deprecate them in the sales or purchase documents.-->
 
 ## See also
 

@@ -18,7 +18,7 @@ This article explains how to use the **Data Analysis** feature to analyze sustai
 
 Use the following list pages for ad-hoc analysis of sustainability data:
 
-- [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220)
+- [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis)
 
 ## Sustainability ad-hoc analysis scenarios
 
@@ -32,15 +32,15 @@ The following sections provide examples of sustainability scenarios in [!INCLUDE
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Emission overview (sum by category)](#example-emission-overview-sum-by-category) | Analyze your emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
-| [Average emissions by category](#example-average-emissions-by-category) | Analyze your average emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
-| [Emissions by scope](#example-emissions-by-scope) | Analyze your emissions by scope. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Emission Scope**, **Account Category**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
+| [Emission overview (sum by category)](#example-emission-overview-sum-by-category) | Analyze your emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
+| [Average emissions by category](#example-average-emissions-by-category) | Analyze your average emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
+| [Emissions by scope](#example-emissions-by-scope) | Analyze your emissions by scope. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis) | **Emission Scope**, **Account Category**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
 
 ## Example: Emission overview (sum by category)
 
 To analyze your emissions by category, follow these steps:
 
-1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) page and turn on analysis mode.
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis) page and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Account Category** and **Account Name** fields to the **Row Groups** area. Drag the fields in that order.
@@ -55,7 +55,7 @@ The following image shows the result of these steps.
 
 To analyze your average emissions by category, follow these steps:
 
-1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) page and turn on analysis mode.
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis) page and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Account Category** and **Account Name** fields to the **Row Groups** area. Drag the fields in that order.
@@ -71,7 +71,7 @@ The following image shows the result of these steps.
 
 To analyze your emissions by scope, follow these steps:
 
-1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) page and turn on analysis mode.
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220&layout=analysis) page and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Emission Scope** and **Account Category** fields to the **Row Groups** area. Drag the fields in that order.

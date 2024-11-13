@@ -1,13 +1,13 @@
 ---
-title: About Production Orders
-description: Learn about production orders, and how they're used to manage the conversion of purchased materials into manufactured items. 
+title: About production orders
+description: Learn about production orders, and how to use them to manage the conversion of purchased materials into manufactured items. 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917 
-ms.date: 02/22/2024
+ms.date: 11/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -63,10 +63,10 @@ The production order status controls how the production order behaves within app
 
 ### Simulated production order  
 
-A simulated production order is unique, based on the following characteristics:  
+A simulated production order is unique because of the following characteristics:  
 
 - As the name implies, it's a simulation you can use for quotes and costing. For example, when the Research and Development department wants to get a cost estimate on a proposed item. A simulated production order serves as an example of a production order.  
-- They don't influence the planning of orders. Planning (MPS and MRP) doesn't considers and isn't affected by simulated production orders. Also, a simulated production order can't be used as a template because it disappears when you change its status.  
+- They don't influence the planning of orders. MPS and MRP don't consider and aren't affected by simulated production orders. Also, you can't use a simulated production order as a template because it disappears when you change its status.  
 
 ### Planned production order  
 

@@ -1,12 +1,12 @@
 ---
 title: EU third-party purchase transactions
-description: This article article explains how to set up and use European Union (EU) third-party purchase transactions.
+description: This article explains how to set up and use European Union (EU) third-party purchase transactions.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 50, 51, 52, 187, 317
 ms.search.keywords: EU3P, EU 3-P, EU 3-Party
-ms.date: 07/05/2024
+ms.date: 08/12/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -32,14 +32,14 @@ Even if the feature is preinstalled as an extension, it isn't activated by defau
 
 ## Use EU third-party trade functionality
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** (or another purchase document), and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** (or another purchase document), and then select the related link.
 2. Select an existing purchase invoice, or select **New** to create a new one.
 3. On the **Invoice Details** FastTab, select the **EU 3-Party Trade** checkbox.
 4. Select **OK**.
 
 ## Include or exclude EU third-party trade records on the VAT statement
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then select the related link.
 2. On the **VAT Statement** page, select one of the following options to show EU third-party trade records by using the **EU 3-Party Trade Filter** field.
 
     | Option | Description |
@@ -48,9 +48,8 @@ Even if the feature is preinstalled as an extension, it isn't activated by defau
     | EU3 | Show only records where the **EU 3-Party Trade** field in documents was marked. |
     | Non-EU3 | Show only records where the **EU 3-Party Trade** field in documents wasn't marked. |
 
-
 ## See also
-[Financial Management](finance.md)  
-[Work with Business Central](ui-work-product.md)
+[Financial Management](finance.md)    
+[Work with Business Central](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

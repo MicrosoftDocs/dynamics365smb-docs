@@ -56,7 +56,7 @@ On the **Customized Pages** page, you can delete customizations, and you can tro
 
 ## Delete all customizations for a profile
 
-You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
+You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#delete-all-personalizations-made-by-a-specific-user).
 
 - On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.
 
@@ -64,7 +64,7 @@ The layout on pages for the profile is reset to the default layout.
 
 ## Delete customization for specific pages for a profile
 
-You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
+You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user aren't deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#delete-personalizations-for-specific-pages).
 
 1. On the **Profile (Role)** page, choose the **Manage customized pages** action.
 2. On the **Customized Pages** page, select one or more lines for page customizations that you want to delete, and then choose the **Delete** action.

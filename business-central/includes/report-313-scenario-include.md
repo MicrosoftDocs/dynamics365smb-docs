@@ -1,0 +1,1 @@
+Analyze item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amounts, and volume of item purchases.

@@ -29,9 +29,9 @@ The following procedure is based on a customer card. The steps are similar for a
 
     The **Fields** FastTab lists fields where the values are different for the two customers. This means that if the selected customer is really a duplicate, then only few fields should be listed, such as typing errors and other data entry mistakes.
 
-    The **Related Tables** FastTab lists tables where there are fields with a relation to both customers. The **Current Count** and **Duplicate Count** fields show the number of fields in related tables where the **No.** value of both the current and the duplicate customer is used. On the **Merge Duplicate** page, this section is informational only, however, if merge conflicts exist, you'll resolve them on the **Merge Duplicate Conflicts** page. See steps 8 through 12.   
+    The **Related Tables** FastTab lists tables where there are fields with a relation to both customers. The **Current Count** and **Duplicate Count** fields show the number of fields in related tables where the **No.** value of both the current and the duplicate customer is used. On the **Merge Duplicate** page, this section is informational only, however, if merge conflicts exist, you'll resolve them on the **Merge Duplicate Conflicts** page. Refer to steps 8 through 12.
 
-5. For each field where you want to use another value than the current one, select the **Override** check box. The value in the **Alternate Value** field will then be transferred to the current record when you complete the process.
+5. For each field where you want to use another value than the current one, select the **Override** checkbox. The value in the **Alternate Value** field will then be transferred to the current record when you complete the process.
 6. When you have finished selecting which values to keep or override, choose the **Merge** action.
 
     The system checks if the merge of values for the duplicate customer into the current customer causes any conflicts. A conflict exists if a value in at least one primary-key field is the same for both customers while the value in the **No** field is different for the two customers.
@@ -54,7 +54,7 @@ The following procedure is based on a customer card. The steps are similar for a
 14. On the **Merge Duplicate** page, choose the **Merge** action again, and then select the **Yes** button in the confirmation message box.
 
 > [!NOTE]
-> For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Searching for Duplicate Contacts](marketing-setup-contacts.md#searching-for-duplicate-contacts).
+> For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Search for duplicate contacts](marketing-setup-contacts.md#search-for-duplicate-contacts).
 
 ## See also
 

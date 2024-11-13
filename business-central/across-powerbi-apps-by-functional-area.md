@@ -13,6 +13,8 @@ ms.custom: bap-template
 
 # Power BI apps for functional areas
 
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
 | Functional areas     | Landing pages                |
@@ -23,6 +25,7 @@ ms.custom: bap-template
 | Inventory            | [Power BI Inventory app](inventory-powerbi-app.md) |
 | Inventory Valuation  | [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md) |
 | Projects             | [Power BI Projects app](projects-powerbi-app.md) |
+| Manufacturing        | [Power BI Manufacturing app](manufacturing-powerbi-app.md) |
 
 ## Reports in the Power BI Finance app
 

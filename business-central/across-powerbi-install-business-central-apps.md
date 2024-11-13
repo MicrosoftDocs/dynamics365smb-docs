@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 
 # Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for Business Central
 
-<!--**TODO**: Add note about 2024 release wave 2 (25.1). Is an include file in the PR for PBI sales app-->
+[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]. The apps are specific to each functional area of [!INCLUDE [prod_short](includes/prod_short.md)]. The apps include:
 

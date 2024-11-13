@@ -1,6 +1,6 @@
 ---
 title: Vendor - Order Detail (report)
-description: Analyze your outstanding purchase orders to understand your expected purchase volume grouped by vendor.
+description: Analyze your outstanding purchase orders to understand your expected purchase volume by vendor.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Vendor - Order Detail (report)
 
-The **Vendor - Order Detail** report shows each purchase order and the line level breakdown for each vendor. The report includes:
+The **Vendor - Order Detail** report shows each purchase order and the line-level breakdown for each vendor. The report includes:
 
-* Outstanding purchase receipts
-* Applied line and invoice discounts
-* Outstanding amounts
+* Outstanding purchase receipts.
+* Applied line and invoice discounts.
+* Outstanding amounts.
 
 Lines that have an expected receipt date in the past are included in the quantity on back order.
 
@@ -55,13 +55,13 @@ Please include your data sources and URLs
 
 Procurement specialists use the report to:
 
-* Analyze outstanding purchase orders from vendors. The report provides a concise view of all purchase orders and their line level breakdowns from each vendor. Use this information to analyze your expected purchase volume grouped by vendor and make informed decisions on managing their purchasing activities.
-* Identify overdue back orders. The report includes information on outstanding receipts and expected receipt dates for each purchase order. Use this information to compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. This comparison can help identify potential supply chain issues so you can take action to avoid delays.
+* Analyze outstanding purchase orders from vendors. The report provides a concise view of all purchase orders and their line-level breakdown for each vendor. Use this information to analyze your expected purchase volume by vendor and make informed decisions about managing their purchasing activities.
+* Identify overdue back orders. The report includes information about outstanding receipts and expected receipt dates for each purchase order. Use this information to compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. This comparison can help identify potential supply chain issues so that you can take action to avoid delays.
 
 Procurement managers use the report to:
 
-* Monitor vendor performance. The report provides a complete view of purchase orders and their line level breakdowns from each vendor. Use this information to monitor vendor performance and identify discrepancies in pricing or delivery timelines.
-* Analyze procurement trends. The report provides a comprehensive view of all purchase orders and their line level breakdowns. Use this information to analyze procurement trends, identify patterns, and make informed decisions on ways to optimize procurement activities.
+* Monitor vendor performance. The report provides a complete view of purchase orders and their line-level breakdown for each vendor. Use this information to monitor vendor performance and identify discrepancies in pricing or delivery timelines.
+* Analyze procurement trends. The report provides a comprehensive view of all purchase orders and their line-level breakdown. Use this information to analyze procurement trends, identify patterns, and make informed decisions about ways to optimize procurement activities.
 
 ## Try the report
 
@@ -69,10 +69,10 @@ Try the report here: [Vendor - Order Detail](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,10 +40,10 @@ On the **Customers** page, use the **Contract** action to quickly create a new c
 
 To create a contract, follow these steps:
 
-1. Choose the [!Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, then choose the related link.
+1. Choose the :::image type="content" source="../../media/ui-search/search_small.png" alt-text="Tell me what you want to do icon."::: icon, enter **Customers**, then choose the related link.
 2. Select the customer, and then choose the **Contract** action.
 3. Optionally, fill in the **Contract Type** and **Description** fields. To learn more about contract types, go to [Contract types](../setup/contract-types.md).
-4. In the **Assigned User ID** field, choose the employee who's responsible for the contract. 
+4. In the **Assigned User ID** field, choose the employee who's responsible for the contract.
 5. If needed, change the values in the **Currency Code**, **Payment Terms Code**, and **Payment Method Code** fields on the **Invoice Details**. The values were copied from the customer in step 1.
 6. Select whether a **Detail Overview** is to be output for invoices.
 7. On the **Shipping and Billing** FastTab, verify the values in the **Ship-to** and **Bill-to** fields.

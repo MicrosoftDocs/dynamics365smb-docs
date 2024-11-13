@@ -1,6 +1,6 @@
 ---
 title: Customer - Trial Balance (report)
-description: Analyze and reconcile your customer balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by customer.
+description: Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,15 +17,15 @@ ai.usage: ai-assisted
 
 # Customer - Trial Balance (report)
 
-The **Customer - Trial Balance** report shows a detail balance for selected customers.
+The **Customer - Trial Balance** report shows balance details for selected customers.
 
-If you specify a date range in the date filter, for each customer the report displays:
+If you specify a date range in the date filter, the report displays the following details for each customer:
 
-* The beginning balance.
-* Transactions in the period and their remaining amount and due date.
-* The ending balance.
+* Beginning balance
+* Transactions in the period and their remaining amount and due date
+* Ending balance
 
-You can run the report in your local currency or in the customer's currency. You can exclude customers that didn't have transactions in the period.
+You can run the report in either your local currency or the customer's currency. You can exclude customers that didn't have transactions in the period.
 
 > [!TIP]
 > If you need a more detailed version of this type of report, use the **Customer Detail Trial Balance** (104) report.
@@ -65,7 +65,7 @@ Sales representatives use the report to:
 
 * Follow up on pending payments by tracking outstanding balances for customers.
 * Verify that customer balances are accurate before making sales decisions or recommendations.
-* Identify opportunities to up-sell or cross-sell based on customer transaction history.
+* Identify opportunities to up-sell or cross-sell, based on customer transaction history.
 
 Sales managers use the report to:
 
@@ -77,17 +77,17 @@ Finance analysts use the report to:
 
 * Reconcile customer balances with the general ledger and ensure accurate financial records.
 * Analyze transaction patterns and identify potential financial risks or opportunities.
-* Use the report as a source for financial forecasting and planning.
+* Serve as a source for financial forecasting and planning.
 
-Account receivables specialists use the report to:
+Accounts receivable specialists use the report to:
 
-* Monitor past-due balances and follow up on overdue payments and minimize the risk of bad debts.
-* Identify accounts with high outstanding balances and prioritize collections efforts.
+* Monitor past-due balances, follow up on overdue payments, and minimize the risk of bad debts.
+* Identify accounts with high outstanding balances and prioritize collection efforts.
 * Provide customers with accurate account information upon request.
 
 Finance managers use the report to:
 
-* Monitor the performance of the account receivables department by reviewing key metrics, such as the average collection period and bad debt ratio.
+* Monitor the performance of the accounts receivable department by reviewing key metrics, such as the average collection period and bad debt ratio.
 * Identify trends and patterns in customer payment behavior to inform credit policies and collection strategies.
 * Ensure compliance with accounting standards and regulations by reconciling customer balances with the general ledger and audit trails.
 
@@ -97,7 +97,7 @@ Try the report here: [Customer - Trial Balance](https://businesscentral.dynamics
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
 [Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  

@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Customer - Order Detail (report)
 
-The **Customer - Order Detail** report shows each sales order and the line level breakdown for each customer. The report includes information about unfulfilled shipments, applied line/invoice discounts, and outstanding amounts. 
+The **Customer - Order Detail** report shows each sales order and the line-level breakdown for each customer. The report includes information about unfulfilled shipments, applied line/invoice discounts, and outstanding amounts. 
 
 Lines that have a shipment date in the past are included in the quantity on back order.
 
@@ -53,15 +53,15 @@ Please include your data sources and URLs
 
 Sales representatives use the report to:
 
-* Analyze outstanding sales orders by customer, and identify trends or patterns in their purchasing behavior.
+* Analyze outstanding sales orders by customer and identify trends or patterns in their purchasing behavior.
 * Determine which orders have the highest outstanding amounts and prioritize follow-up accordingly.
 * Identify overdue back orders and communicate updated shipping timelines to customers.
 
 Sales managers use the report to:
 
 * Analyze the backlog of sales orders and identify bottlenecks in the order fulfillment process.
-* Identify which customers have the highest outstanding orders and prioritize follow-up.
-* Forecast future sales volumes, and adjust procurement strategies.
+* Identify which customers have the most outstanding orders and prioritize follow-up.
+* Forecast future sales volumes and adjust procurement strategies.
 
 Customer service representatives use the report to:
 
@@ -75,10 +75,10 @@ Try the report here: [Customer - Order Detail](https://businesscentral.dynamics.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

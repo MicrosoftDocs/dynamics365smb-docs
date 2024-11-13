@@ -1,0 +1,1 @@
+Analyze the capacity of work centers or machine centers. 

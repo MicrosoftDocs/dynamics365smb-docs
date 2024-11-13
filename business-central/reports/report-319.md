@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Payments on Hold (report)
 
-The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. You can put vendor ledger entries on hold if there's a dispute about a supplier document. This report helps you maintain transparency and efficiency when you handle vendor disputes, so your employees can effectively manage and resolve issues.
+The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. You can put vendor ledger entries on hold if there is a dispute about a supplier document. This report helps you maintain transparency and efficiency when you handle vendor disputes, so that your employees can effectively manage and resolve issues.
 
-To put an entry on hold, enter any value in the **On Hold** field. There's no validation on this field.
+To put an entry on hold, enter any value in the **On Hold** field. No validation is done on this field.
 
 ## Use cases
 
@@ -52,11 +52,11 @@ Please include your data sources and URLs
 
 Procurement coordinators use the report to:
 
-* Manage vendor disputes. The report provides a checklist of all vendor ledger entries where the On Hold field isn't blank. Use this information to manage vendor disputes effectively and ensure timely resolution.
+* Manage vendor disputes. The report provides a checklist of all vendor ledger entries where the **On Hold** field isn't blank. Use this information to manage vendor disputes effectively and ensure timely resolution.
 
-Accounts payables specialists use the report to:
+Accounts payable specialists use the report to:
 
-* Streamline invoice processing. The report provides information on vendor ledger entries that are on hold due to disputes. Use this information to streamline invoice processing and avoid delays in payments.
+* Streamline invoice processing. The report provides information about vendor ledger entries that are on hold because of disputes. Use this information to streamline invoice processing and avoid delays in payments.
 
 Controllers use the report to:
 
@@ -68,10 +68,10 @@ Try the report here: [Payments on Hold](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)   
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

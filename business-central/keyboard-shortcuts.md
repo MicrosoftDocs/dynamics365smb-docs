@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2024
+ms.date: 10/23/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -20,8 +20,7 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard shortcuts 
 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
-> [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icon that opens a PDF")
-
+> [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2024.pdf "Icon that opens a PDF")
 
 ## Overview
 
@@ -63,8 +62,9 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and the text isn't selected in the field, then the entire value is copied. If you select any text in the field, then the selected text is copied.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version.|
 |<kbd>Ctrl</kbd>+<kbd>F12</kbd>|Switch between wide and narrow layout view.|
-|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. Learn more in [Personalize your workspace](ui-personalization-user.md).|  
 |<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
+|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. Learn more in [Personalize your workspace](ui-personalization-user.md).|  
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F1</kbd>|Open the **Help & Support** page. Learn more in [Resources for help and support](product-help-and-support.md#help--support-page).|
 |<kbd>F5</kbd>|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is updated with any changes made by others while you're working.|
 |<kbd>Ctrl</kbd>+<kbd>O</kbd>|Open the **Available Companies** pane for switching to another company or environment. Learn more in [Switching to another company or environment](ui-organization-switch.md).|
 |<kbd>Enter</kbd>|Enable or access the element or control that is in focus.|
@@ -248,7 +248,7 @@ The following table describes the shortcuts on a numeric keypad.
 
 |Select these keys<br/>(in macOS)|To do this|
 |--------------------------------|----------|
-|<kbd>Alt</kbd>+<kbd>Decimal Separator</kbd>|Switch the output of the decimal separator key to either a period (.) or the character determined by the **Region** setting of the **My Settings** page. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).|
+|<kbd>Alt</kbd>+<kbd>Decimal Separator</kbd>|Switch the output of the decimal separator key to either a period (.) or the character determined by the **Region** setting of the **My Settings** page. Learn more in [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).|
 
 ## Access keys for action bar and navigation menu
 

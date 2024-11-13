@@ -1,6 +1,6 @@
 ---
 title: Save and personalize List Views
-description: Learn how to create your own views for filtered lists and how to save, rename and manage those Views.
+description: Learn how to create your own views for filtered lists and how to save, rename, and manage those views.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Save and personalize List Views
+# Save and personalize list views
 
 When you set a filter on a list and you want to keep the filter for later, you can save it as a view. To learn more about filtering lists, go to [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -21,15 +21,15 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 ## To save a view
 
 1. Open any list page.
-2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or select <kbd>Shift</kbd>+<kbd>F3</kbd> to open the filter pane.
+2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or select <kbd>Shift</kbd>+<kbd>F3</kbd>.
 3. Set one or more new filters. To learn more, go to [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. When you set  the filters, choose the ![Save View.](media/save_view_icon.png "Save View") icon.
 
-    If you set a filter for a list view that is already saved as a view, the existing view is updated when you save.
+    If you set a filter for a list view that was already saved as a view, the existing view updates when you save.
 5. If you're saving a new view, enter a name for the view in the **All (Copy)** box, such as "Items I own".
-6. Select the <kbd>Enter</kbd> key or move the cursor from the text box to accept the name.
+6. To accept the name, select the <kbd>Enter</kbd> key or move the cursor from the text box.
 
-If you don't give it a name, it's named **All (Copy)**.
+If you don't give it a name, the default name is **All (Copy)**.
 
 > [!TIP]
 > Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? To learn more, go to [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).

@@ -1,6 +1,6 @@
 ---
 title: Customer - Order Summary (report)
-description: Analyze your nonshipped orders in order to understand your expected sales volume. Assists you to forecast your expected monthly sales revenue.
+description: Analyze your nonshipped orders to understand your expected sales volume. This information helps you forecast your expected monthly sales revenue.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Customer - Order Summary (report)
 
-The **Customer - Order Summary** report shows the sales order detail with the quantity not yet shipped for each customer in three periods of 30 days each, starting from a date you specify. You can also display orders to ship before and after the three periods, and the total order detail for each customer.
+The **Customer - Order Summary** report shows the sales order details, including the quantity not yet shipped for each customer in three periods of 30 days each, starting from a date that you specify. You can also display orders to ship before and after the three periods, and the total order details for each customer.
 
-For a detailed breakdown for each order line, use the **Customer - Order Detail** Report.
+For a detailed breakdown of each order line, use the **Customer - Order Detail** report.
 
 ## Use cases
 
@@ -57,22 +57,22 @@ Please include your data sources and URLs
 Sales representatives use the report to:
 
 * Analyze customer order history and identify trends or patterns in their purchasing behavior.
-* Determine which customers have the highest outstanding orders and prioritize follow-up.
+* Determine which customers have the most outstanding orders and prioritize follow-up.
 * Identify the orders to ship in the next 30 days and communicate shipping timelines to customers.
 
 Sales managers use the report to:
 
 * Analyze sales performance across customers and regions.
-* Determine which customers have the highest outstanding orders and prioritize follow-up.
-* Identify bottlenecks or inefficiencies in the sales process and make data-driven decisions to improve performance.
+* Determine which customers have the most outstanding orders and prioritize follow-up.
+* Identify bottlenecks or inefficiencies in the sales process, and make data-driven decisions to improve performance.
 
 ## Try the report
 
-Try the report here: [107](https://businesscentral.dynamics.com?report=107)
+Try the report here: [Customer - Order Summary](https://businesscentral.dynamics.com?report=107)
 
 <!-- [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)] -->
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
 [Accounts receivable report overview](../receivables-reports.md)  

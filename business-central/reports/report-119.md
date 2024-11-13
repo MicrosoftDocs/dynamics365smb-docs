@@ -1,6 +1,6 @@
 ---
 title: Customer - Sales list (report)
-description: Get an overview of customer sales for a period. You can use it to report to the customs and tax authorities.
+description: Get an overview of customer sales for a period. You can use the information to report to customs and tax authorities.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,10 +19,10 @@ ai.usage: ai-assisted
 
 The **Customer - Sales list** report shows customer sales for a period. You can choose to include only customers with total sales that exceed a minimum amount. You can also specify whether you want the report to show address details for each customer.
 
-The report is based on recorded sales in local currency (LCY) from customer ledger entries. The total reported sales are in LCY. The total is based on the customers you included in the report. That is, the customers that: 
+The report is based on recorded sales in the local currency (LCY) from customer ledger entries. The total reported sales are in LCY. The total is based on the customers that you include in the report. In other words, it's based on the customers that: 
 
 * Are within the filters on the **Customer** FastTab.
-* Have total sales greater than the amount specified in the **Amounts (LCY) Greater Than** field on the **Options** FastTab.
+* Have total sales that exceed the amount specified in the **Amounts (LCY) Greater Than** field on the **Options** FastTab.
 
 ## Use cases
 
@@ -75,7 +75,7 @@ Try the report here: [Customer - Sales list](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
 [Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  

@@ -1,0 +1,1 @@
+Get an overview of the components in an item's bill of materials, for both assembly and production.

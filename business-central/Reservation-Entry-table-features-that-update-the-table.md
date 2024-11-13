@@ -179,7 +179,7 @@ The **Source Subtype** field indicates which Source Subtype the reservation entr
 
 The **Suppressed Action Msg.** field records when an existing supply has already been partially processed, for example, when a purchase order has already been partially received or a production order has consumptions posted against it.
 
-When Planning is executed, [!INCLUDE[prod_short](includes/prod_short.md)] marks this field and sets the **Reservation Entry Status** field to *Surplus8. The following example serves as an illustration:
+When Planning is executed, [!INCLUDE[prod_short](includes/prod_short.md)] marks this field and sets the **Reservation Entry Status** field to **Surplus**. The following example serves as an illustration:
 
 1. Open Item 80001. Set the following fields:
   - **Reordering Policy**: Lot-for-Lot

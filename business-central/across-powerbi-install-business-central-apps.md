@@ -19,17 +19,17 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on role centers and in the Role Explorer.
+- Navigation links on Role Centers and in the Role Explorer.
 
 ## Prerequisites
 
-To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you need to have:
+To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
 - An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
 - A [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
-   - The user who you use to refresh the data.
+   - The user who refreshes the data.
    - Each user who accesses the reports.
 
 To learn more, go to [Get started with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md#get-started).

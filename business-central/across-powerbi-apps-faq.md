@@ -5,34 +5,36 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/29/2024
+ms.date: 11/13/2024
 ms.author: kepontop
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Frequently Asked Questions (FAQ) for the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps
+# Frequently asked questions about the Power BI apps in Business Central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This article contains Frequently Asked Questions (FAQ) for the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
+This article provides answers to frequently asked questions (FAQs) about the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)].
 
+## What Power BI licenses do I need?
 
-## What Power BI licenses are needed for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps?
+You need [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses for the following users:
 
-You need [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses for the users who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps, the users who refresh the data, and the users who access the reports.
+- Users who install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps.
+- Users who refresh the data.
+- Users who access the reports.
 
-For more information, see [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites)
+To learn more, go to [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites).
 
+## Can I get a copy of the source code (.pbix files) for the apps?
 
-## Is it possible to get a copy of the source code (pbix files) for the apps?
+No. At the moment, the source code (.pbix files) for the apps isn't available. However, its availability might change in a later release.
 
-No. At the moment, the source code (pbix files) for the apps is not available, but this might change in a later release.
-
-
-## Are the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps available for on-premises installations?
+## Are the apps available for on-premises installations?
 
 No. At the moment, the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available for online environments.
-
 
 ## See also
 

@@ -2,7 +2,7 @@ The following table describes the reports in the Power BI Sales app and how you 
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | -------------------------------------- | ---------- |
-| Analyze high level information on sales activities. Identify sales figures for quantity or amounts from both posted and unposted documents.| [Sales Overview](../ https://businesscentral.dynamics.com?page=36998) | [About Sales Overview](sales-powerbi-sales-overview.md) |
+| Analyze high level information on sales activities. Identify sales figures for quantity or amounts from both posted and unposted documents.| [Sales Overview](../ https://businesscentral.dynamics.com?page=36998) | [About Sales Overview](../sales-powerbi-sales-overview.md) |
 | Analyze sales by weekday over different periods. The heat maps highlight the days on which you sell the most, which helps you identify patterns in your sales.|[Daily Sales](https://businesscentral.dynamics.com?page=36999)| [About Daily Sales](../sales-powerbi-daily-sales.md) |
 | Analyze sales trends by smoothing out spikes and drops using the **30 Day Moving Averages** report. | [Moving Average](https://businesscentral.dynamics.com?page=37000) | [About Moving Average](../sales-powerbi-moving-average.md) |
 | Analyze the aggregated sales over a rolling 12-month period. Use this analysis as an alternative to a Year-to-Date report. |[Moving Annual Total](https://businesscentral.dynamics.com?page=37001) | [About Moving Annual Total](../sales-powerbi-moving-annual-total.md) |

@@ -88,7 +88,7 @@ To manually import external e-documents, follow these steps:
 5. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
 6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it. 
 
-### E-documents with purchase orders  
+## E-documents with purchase orders  
 
 ### Link purchase orders with the received e-documents
 
@@ -100,7 +100,7 @@ If your **Vendor** configured the **Receive E-Document To** field to work with *
 
 3. If the **Purchase Order** for this particular vendor doesn't exist when a new **E-Document** is created, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same model of creation that already exists for new **Purchase Invoices**. The **Document Status** of this **E-Document** is set to **Processed**, and the **E-Document Status** in the **Service Status** subpage is set to **Imported document created**. After which, this link is visible in the **Document** field on this specific **E-Document**.   
 
-#### Matching lines from received e-document with purchase order  
+### Matching lines from received e-document with purchase order  
 
 You can match your received electronic documents with purchase orders' lines from two different places: from the **E-Document** page or from the **Purchase Order** page. The easiest way to locate the already linked **Purchase Orders** is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. All nonlinked documents can be found using the tile **Waiting Purchase E-Invoices** where you have a list of **E-Documents** that you need to review.  
 
@@ -112,7 +112,7 @@ There's also two ways to match lines. One way is to do it manually, as described
 > [!NOTE]
 > If the VAT percentage differs between the incoming document and the company's VAT percentage, matching documents can't be used in a multi-country environment.  
 
-##### Matching lines from purchase order  
+#### Matching lines from purchase order  
 
 You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin process, use the following steps:  
 
@@ -162,7 +162,7 @@ If you want to add some tolerance and allow the difference between lines in **E-
 3. This setup applies to all the matching lines, but again considering tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
 4. Close the page.
 
-##### Matching lines from e-document  
+#### Matching lines from e-document  
 
 You can match the lines on the **E-Document** page. To begin, use the following steps:  
 

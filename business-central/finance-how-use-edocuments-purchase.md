@@ -90,7 +90,7 @@ To manually import external e-documents, follow these steps:
 
 ### E-documents with purchase orders  
 
-#### To link purchase orders with the received e-documents
+### Link purchase orders with the received e-documents
 
 If your **Vendor** configured the **Receive E-Document To** field to work with **Purchase Orders**, once an electronic document is created in [!INCLUDE[prod_short](includes/prod_short.md)] (manually or from external end point), [!INCLUDE[prod_short](includes/prod_short.md)] does the following steps:  
 
@@ -102,7 +102,9 @@ If your **Vendor** configured the **Receive E-Document To** field to work with *
 
 #### Matching lines from received e-document with purchase order  
 
-You can match your received electronic documents with purchase orders’ lines from two different places: from the **E-Document** page or from the **Purchase Order** page. The easiest way to locate the already linked **Purchase Orders** is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. All nonlinked documents can be found using the tile **Waiting Purchase E-Invoices** where you have a list of **E-Documents** that you need to review.  
+You can match your received electronic documents with purchase orders' lines from two different places: from the **E-Document** page or from the **Purchase Order** page. The easiest way to locate the already linked **Purchase Orders** is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. All nonlinked documents can be found using the tile **Waiting Purchase E-Invoices** where you have a list of **E-Documents** that you need to review.  
+
+There's also two ways to match lines. One way is to do it manually, as described in the article. The other way is to use the E-document matching assistance with Copilot. Copilot is the AI-powered assistant that helps people across your organization unlock their creativity and automate tedious tasks. The **E-Document Matching Assistance** feature helps users to easily match their received electronic invoices with existing purchase order lines, using large language modules (LLM) model for matching lines between two different documents. Learn more in [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
 
 > [!NOTE]
 > The **E-Document Activities** with these two tiles can be found in the following **Role Centers**: Business Manager Evaluation, Business Manager, Accountant, Inventory Manager, and Shipping and Receiving.  
@@ -147,7 +149,7 @@ You can match the lines from the **Purchase Orders** list or from one of the ope
     1. **Vendor Invoice No.** and **Document Date** on the document header are updated with values from the electronic document that you'd received and linked. 
     2. **Qty. to Invoice** in lines are updated with the values from the **Qty. to Invoice** column from the **Purchase Order Matching** page based on the match you did. 
     3. Now you can post the document by choosing the **Post** action.  
-    4. Once you post the document, the **Document** field on the **E-Document** page are changed the value and it will relate to the **Posted Purchase Invoice**. 
+    4. Once you post the document, the **Document** field on the **E-Document** page changes value to relate to the **Posted Purchase Invoice**.
     5. Close the page.  
 
 > [!IMPORTANT]
@@ -168,10 +170,6 @@ You can match the lines on the **E-Document** page. To begin, use the following 
 2. Select the **E-Document** that you want to match.   
 3. Choose the **Match Purchase Order** action to open the **Purchase Order Matching** page.  
 4. Repeat the same steps that you used when you started matching from purchase orders.
-
-### E-document matching assistance with Copilot  
-
-Copilot is the AI-powered assistant that helps people across your organization unlock their creativity and automate tedious tasks. The **E-Document Matching Assistance** feature helps users to easily match their received electronic invoices with existing purchase order lines, using large language modules (LLM) model for matching lines between two different documents. Learn more in [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
 
 ## Overview of e-document statuses
 

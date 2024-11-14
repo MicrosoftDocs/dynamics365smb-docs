@@ -1,7 +1,7 @@
 ---
 title: FAQ for bank account reconciliation assist with Copilot (preview)
 description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 08/13/2024
+ms.date: 11/14/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -21,7 +21,7 @@ These frequently asked questions (FAQ) describe the AI impact of Microsoft Copil
 
 Bank reconciliation is a common accounting task where organizations review their bank account statements to identify transactions that should be registered in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this task is used to identify periodic bank fees or small employee expenses.
 
-Bank reconciliation is typically a multi-step process. First, bank statements are imported into [!INCLUDE[prod_short](includes/prod_short.md)]. Next, transactions are matched with ledger entries. Finally, new ledger entries are posted to reflect any residual transactions that were not previously known to your ledgers.
+Bank reconciliation is typically a multi-step process. First, bank statements are imported into [!INCLUDE[prod_short](includes/prod_short.md)]. Next, transactions are matched with ledger entries. Finally, new ledger entries are posted to reflect any residual transactions that weren't previously known to your ledgers.
 
 Copilot in [!INCLUDE[prod_short](includes/prod_short.md)] reduces the manual effort by matching more transactions and suggesting general ledger (G/L) accounts that you can post to.
 
@@ -86,7 +86,7 @@ No. Use of Copilot is optional. [!INCLUDE[prod_short](includes/prod_short.md)] o
 
 Each time that Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window by using the like (thumbs up) and dislike (thumbs down) controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.
 
-## See also
+## Related information
 
 [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
 [Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement)  

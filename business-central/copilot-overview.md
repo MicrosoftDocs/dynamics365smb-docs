@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 11/13/2024
+ms.date: 11/15/2024
 ms.custom: bap-template
 ---
 
@@ -84,7 +84,11 @@ Microsoft empowers people to achieve more through copilots that are adapted to d
 
 ## Does Copilot in Business Central work with Copilot for Microsoft 365?
 
-Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. However, Microsoft 365 Copilot for Finance, which is a standalone product, can connect to Business Central and use it as the back-end data repository. Learn more about Microsoft 365 Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information about Microsoft 365 Copilot for Finance at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
+Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. Meaning, Copilot features inside Business Central are unaware of your Microsoft 365 data.
+
+Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to utilize Business Central data. One such option is Microsoft 365 Copilot for Finance, a standalone product that utilizes general GPT training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
+
+Learn more about Microsoft 365 Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
 
 ## Is Copilot available for Business Central online only?
 

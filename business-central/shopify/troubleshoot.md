@@ -158,6 +158,10 @@ The user who requested access doesn’t have the rights to manage apps (the abil
 
 The updated version of the connector requires more permissions (application scopes) than the user who requested access has. You might be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**. If the required permissions are missing, which you can see in the error message, ask the account owner to grant the required permissions.
 
+### Error: The application scope is changed, please request a new access token for the store 'YOUR SHOPIFY STORE'.
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
 Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).

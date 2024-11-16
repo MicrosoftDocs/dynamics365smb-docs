@@ -376,7 +376,7 @@ The Budget Amount PYMAT (Fiscal) measure calculates the previous year moving ann
 ## Budget Amount Moving Averages
 - [Budget Amount AVG 1Y (Fiscal)](#budget-amount-avg-1y-fiscal)
 - [Budget Amount AVG 30D (Fiscal)](#budget-amount-avg-30d-fiscal)
-- [Budget Amount AVG 3M (Fiscal)](#budget-amount-avg-30m-fiscal)
+- [Budget Amount AVG 3M (Fiscal)](#budget-amount-avg-3m-fiscal)
 
 ### Budget Amount AVG 1Y (Fiscal)
 

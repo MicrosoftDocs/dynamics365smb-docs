@@ -23,9 +23,10 @@ The **Balance Sheet by Month** report provides a detailed, month-to-month view o
 
 Executives or senior leaders can use the report to make informed decision about the company's financial health. You can effectively manage liquidity by comparing current assets to liabilities and ensure you can meet your short-term obligations. It also provides insights into debt levels relative to equity, which helps you make clearer decisions about your financing and capital structure.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-- [**Balance at Date**](####) -->
+- [**Balance at Date**](finance-powerbi-kpis.md#balance-at-date)
+
 
 ## Data used in the report
 

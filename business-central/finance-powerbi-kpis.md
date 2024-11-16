@@ -21,6 +21,8 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI and measure is described, including how it is calculated and what data was used in the calculations.
 
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 
 ## Activity KPIs
 

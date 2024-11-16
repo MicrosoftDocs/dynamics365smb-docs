@@ -27,13 +27,16 @@ COOs use the report to measure the return on resources and machinery over time, 
 
 Manufacturing managers use this report to identify the historical utilization rate of machinery and resources. The report provides insights into the capacity used and available over time. This data identifies downtimes, busy periods, and bottlenecks. Use this information to improve capacity planning and optimize the use of machinery and resources. A low utilization rate means you have idle resources, which is good for efficiency. Conversely, if the utilization rate is high, it means your production output increased, and you might consider investing in new machines for production.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Historical Utilization* report includes the following KPIs and measures: 
 
-- [Capacity Used (Hours)](####)
-- [Utilization %](####)
-- [Capacity Available (Hours)](####) -->
+- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
+- [Utilization %](manufacturing-powerbi-kpis.md#utilization)
+- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 
 ## Data used in the report
 

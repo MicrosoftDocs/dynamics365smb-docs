@@ -1013,6 +1013,7 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-avergage-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
 
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 

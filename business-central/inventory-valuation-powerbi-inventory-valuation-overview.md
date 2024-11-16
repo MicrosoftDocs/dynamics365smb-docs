@@ -29,7 +29,7 @@ Managers use the report to get a clear picture of the total value of on-hand inv
 
 ## Key Performance Indicators (KPIs)
 
-The *Inventory Valuation by Location* report includes the following KPIs:
+The *Inventory Valuation Overview* report includes the following KPIs:
 
 - [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
 - [**Ending Balance Posted to G/L**](inventory-valuation-powerbi-kpis.md#ending-balance-posted-to-gl)
@@ -38,10 +38,11 @@ The *Inventory Valuation by Location* report includes the following KPIs:
 - [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-qty)
 - [**Decreases Quantity**](inventory-valuation-powerbi-kpis.md#decreases-qty)
 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
-## Data used in the Inventory Valuation by Location report
+## Data used in the Inventory Valuation Overview report
 
 The report uses data from the following tables in [!INCLUDE [prod_short](includes/prod_short.md)]:
 

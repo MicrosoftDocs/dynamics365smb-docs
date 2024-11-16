@@ -32,7 +32,7 @@ Project managers use the report to gain a better understanding of the health of 
 
 ## Key Performance Indicators (KPIs)
 
-The *Project Overview* reoprt includes the following KPIs:
+The *Project Overview* report includes the following KPIs:
 
 - [**% Complete**](projects-powerbi-kpis.md#-complete)
 - [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)

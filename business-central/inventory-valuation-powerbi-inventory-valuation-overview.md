@@ -27,20 +27,19 @@ Executives use the report to get a high-level view of the company's inventory va
 
 Managers use the report to get a clear picture of the total value of on-hand inventory. You can also use this report to see key movements.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory Valuation by Location* report includes the following KPIs:
 
-- [**Ending Balance Value**](###)
-- [**Ending Balance Posted to G/L**](###)
-- [**Variance**](###)
-- [**Invoiced Quantity**](###)
-- [**Increases Qty**](###)
-- [**Decreases Qty**](###)
+- [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
+- [**Ending Balance Posted to G/L**](inventory-valuation-powerbi-kpis.md#ending-balance-posted-to-gl)
+- [**Variance**](inventory-valuation-powerbi-kpis.md#variance)
+- [**Invoiced Quantity**](inventory-valuation-powerbi-kpis.md#invoiced-quantity)
+- [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-qty)
+- [**Decreases Quantity**](inventory-valuation-powerbi-kpis.md#decreases-qty)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the Inventory Valuation by Location report
 

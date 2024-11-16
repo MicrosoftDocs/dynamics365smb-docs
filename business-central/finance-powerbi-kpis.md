@@ -1157,7 +1157,7 @@ The Variance to Budget measure calculates the difference between the actual net 
 
 ## G/L Budget Entry Measures
 - [Budget Amount](#budget-amount)
-- [Budget Balance at Date](#budget-balance-at-date)
+- [Budget Amount at Date](#budget-amount-at-date)
 
 ### Budget Amount
 **Formula**   
@@ -1175,10 +1175,14 @@ The Budget Balance at Date measure calculates the budgeted balance at a specific
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](#TODO)   
-[Ad-hoc analysis of projects data](#TODO)   
-[Built-in projects reports](#TODO)   
-[Projects analytics overview](#TODO)  
-[Projects overview](#TODO)
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
+[Built-in core finance reports](finance-reports.md)  
+[Built-in fixed assets reports](fa-reports.md)  
+[Built-in accounts receivable reports](receivables-reports.md)  
+[Built-in accounts payable reports](payables-reports.md)  
+[Financial analytics overview](bi.md)  
+[Finance overview](finance.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

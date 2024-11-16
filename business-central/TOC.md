@@ -536,7 +536,7 @@ ms.service: dynamics-365-business-central
 #### [Average Collection Period](finance-powerbi-average-collection-period.md)
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
 #### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
-#### [Finance KPI overview](finance-powerbi-finance-kpis.md) 
+#### [Finance KPI overview](finance-powerbi-kpis.md) 
 
 <!-- 
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)

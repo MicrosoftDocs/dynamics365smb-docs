@@ -30,6 +30,8 @@ Finance administrators use the report to manage and review the operating expense
 
 ## Key Performance Indicators (KPIs)
 
+The report includes the following KPIs and measures: 
+
 - [**Net Change**](finance-powerbi-kpis.md#net-change)
 
 

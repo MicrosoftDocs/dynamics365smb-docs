@@ -25,6 +25,8 @@ Executives or senior leaders can use the report to make informed decision about 
 
 ## Key Performance Indicators (KPIs)
 
+The report includes the following KPIs and measures: 
+
 - [**Balance at Date**](finance-powerbi-kpis.md#balance-at-date)
 
 

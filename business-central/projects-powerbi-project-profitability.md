@@ -25,20 +25,19 @@ The statistics help you identify projects with low or no profit, and can point y
 
 Leadership teams use the report to identify high and low performing projects, and make changes to ensure profit goals are met.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-The *Project Profitability* reoprt includes the following KPIs:
-- [**Actual Profit**](####)
-- [**Actual (Total Cost)**](####)
-- [**Actual Profit Margin %**](###)
-- [**Billable (Invoiced Price)**](####)
-- [**Budget (Total Price)**](####)
-- [**Budget (Total Cost)**](####)
-- [**Budget Profit Margin %**](####)
+The *Project Profitability* report includes the following KPIs:
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
+- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
+- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
+- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
+- [**Budget (Total Price)**](projects-powerbi-kpis.md#budget-total-price)
+- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
+- [**Budget Profit Margin %**](projects-powerbi-kpis.md#budget-profit-margin-)
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

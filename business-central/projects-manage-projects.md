@@ -42,6 +42,7 @@ This section describes the analytical tools you can use to get insights into you
 | Learn about WIP (Work in Process), a feature that ensures correct financial statements and enables you to estimate the financial value of projects that are ongoing. |[Understanding WIP Methods](projects-understanding-wip.md) <br><br> [Monitor project progress and performance](projects-how-monitor-progress-performance.md)  |
 | Explore built-in project reports. | [Built-in project report overview](project-reports.md) |
 
+For more information, see [Project management analytics overview](projects-analytics-overview.md)
 
 ## Working with projects
 
@@ -59,6 +60,7 @@ The following table describes a sequence of tasks, with links to articles that d
 ## See Also
 
 [Setting Up Project Management](projects-setup-projects.md)  
+[Project management analytics overview](projects-analytics-overview.md)  
 [Power BI Projects app](projects-powerbi-app.md)   
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Change Which Features are Displayed](ui-experiences.md)  

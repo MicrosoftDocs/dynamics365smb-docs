@@ -818,6 +818,8 @@ ms.service: dynamics-365-business-central
 ### [Project management overview](projects-manage-projects.md)
 
 ### Project management analytics
+#### [Project management analytics overview](projects-analytics-overview.md)
+
 #### [Power BI Projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
 ##### [Projects Tasks](projects-powerbi-project-tasks.md)

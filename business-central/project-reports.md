@@ -4,7 +4,7 @@ description: See which project reports and analytics are available in the standa
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014
+ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014, Report_1015
 ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -27,6 +27,7 @@ The following articles describe some of the key tasks for analyzing the state of
 
 ## See also
 
+[Project management analytics overview](projects-analytics-overview.md)  
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project management](projects-manage-projects.md)  
 

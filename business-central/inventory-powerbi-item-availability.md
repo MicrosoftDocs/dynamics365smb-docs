@@ -27,20 +27,21 @@ Customer service teams use this report to identify availability of specific item
 
 For inventory management teams, the information in this report can help you keep adequate stock levels of each item. For example, the information can help you coordinate other teams to increase production of specific items, or create purchase orders to replenish stock.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Item Availability* report includes the following KPIs:
 
-- [**Projected Available Balance**](####)
-- [**Inventory (Quantity)**](####)
-- [**Gross Requirement**](####)
-- [**Scheduled Receipt**](####)
-- [**Planned Order Receipt**](####)
-- [**Planned Order Release**](####)
+- [**Projected Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
+- [**Gross Requirement**](inventory-powerbi-kpis.md#gross-requirement)
+- [**Scheduled Receipt**](inventory-powerbi-kpis.md#scheduled-receipt)
+- [**Planned Order Receipt**](inventory-powerbi-kpis.md#planned-order-receipt)
+- [**Planned Order Release**](inventory-powerbi-kpis.md#planned-order-releases)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

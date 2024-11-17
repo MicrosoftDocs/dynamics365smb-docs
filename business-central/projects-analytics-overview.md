@@ -113,8 +113,8 @@ To learn more about reports that are relevant for project management, go to [Bui
 ## See also
 
 [Power BI Projects app](projects-powerbi-app.md)  
-[Built-in Projects reports](project-reports.md)  
 [Monitor project progress and performance](projects-how-monitor-progress-performance.md)  
+[Built-in Projects reports](project-reports.md)  
 [Project management overview](projects-manage-projects.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

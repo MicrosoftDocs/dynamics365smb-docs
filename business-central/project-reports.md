@@ -1,6 +1,6 @@
 ---
-title: Project Reports and Analytics
-description: See which project reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
+title: Project Reports
+description: See which project reports are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -10,7 +10,8 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Project Reports and Analytics in Business Central
+
+# Project Reports in Business Central
 
 Project reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows project and business professionals to get insights and statistics about current and past project activities.  
 
@@ -22,17 +23,9 @@ Project reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows proj
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## Tasks
-
-The following articles describe some of the key tasks for analyzing the state of your business:
-
-* [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)  
-
-
 ## See also
 
 [Project management analytics overview](projects-analytics-overview.md)  
-[Setting Up Project Management](projects-setup-projects.md)  
-[Project management](projects-manage-projects.md)  
+[Project management overview](projects-manage-projects.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -96,11 +96,9 @@ To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc a
 
 ## Built-in reports for projects
 
-[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help project organizations report on their data.
+[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports to help project organizations report on their data.
 
-To get an overview of available reports, choose **All Reports** on your Home page. This action opens the Report Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Project** heading, choose **Explore**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-projects.png":::
+[!INCLUDE [report-explorer-projects](includes/report-explorer-projects.md)] 
 
 To learn more about reports that are relevant for project management, go to [Built-in project reports](project-reports.md).
 

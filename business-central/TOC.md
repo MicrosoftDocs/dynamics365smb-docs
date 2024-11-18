@@ -705,6 +705,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports

@@ -13,14 +13,23 @@ ms.collection:
 
 # Sales order agent overview
 
-The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation. The sale order agent initiates the process by monitoring a specified mailbox for emails that requests a quote for items, with the general flow as follows:
+The sales order agent automates the process of taking sales orders, from the customer’s request for a quote to the order creation. The sales order agent initiates the process by monitoring a designated mailbox for emails requesting a quote for items, and then creates tasks that move the request through the process with human oversight as follows:
 
-- Receives a customer's order by e-mail.
-- Analyzes the e-mail to identify the customer from the registered list in Business Central. 
-- Prepares a sales quote with the requested items based on item availability
-- Sends the quote to the customer after approval
-- Converts the quote into a sales order upon customer approval
+- Receives a customer’s order by email.
+- Analyzes the email to identify the customer from the registered list in Business Central.
+- Prepares a sales quote with the requested items based on item availability.
+- Sends the quote to the customer after approval.
+- Converts the quote into a sales order upon customer approval.
 
+
+The sales order agent automates the entire sales order process, starting from the customer's request for a quote and concluding with the creation of the order. It begins by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks under human supervision to handle the request:
+
+- The agent identifies an email that requests a quote and creates a task for internal review.
+- Once approved internally, the agent examines the email to determine the customer's identity from the registered list in Business Central.
+- Based on the availability of items, the agent prepares a sales quote that includes the requested items along with an email reply to the customer.
+- Once approved, the agent promptly sends the quote to the customer.
+- Upon receiving the customer's approval, the agent converts the quote into a sales order.
+- 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 > 

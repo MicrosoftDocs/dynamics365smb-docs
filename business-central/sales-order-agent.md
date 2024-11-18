@@ -13,21 +13,21 @@ ms.collection:
 
 # Sales order agent overview
 
-The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request for a quotes to creating the order. It starts by receiving a customer's order by e-mail. Analyzing the content of that e-mail, it then identifies the customer from the registered list in Business Central, prepares a sales quote with the requested items, checks availability of items, sends the quote to the customer for approval, and upon confirmation, converts the quote into a sales order.
-<br><br>  
+The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to creating the order:
+
+- Receives a customer's order by e-mail.
+- Analyzes the e-mail to identify the customer from the registered list in Business Central
+- Prepares a sales quote with the requested items based on item availability
+- Sends the quote to the customer for approval.
+- Upon confirmation, converts the quote into a sales order.
 
 > [!Video https://www.youtube.com/watch?v=6icbmbLc_Og]
 
 *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
   
+## Transparency and intervention
 
-## Intended uses
-
-The sales order agent is intended to handle the end-to-end sales order capturing process. This process includes taking the customer’s order by e-mail, iterating on the details with the customer via e-mail, preparing the sales quote with the requested items, checking the availability of the items, sending the quote to the customer for approval, and finally converting the quote to a sales order upon receiving customer confirmation.
-
-## Transparency and humna intervention
-
-Business Central maintains full transparency and provides you control over changes made by the sales order agent. The sales order agent brings humans in the loop during the entire process by issuing in-product notifications to users that must be addressed in order fo the agent to continue. This happens before any outbound e-mail communications—such as sending a final sales quote or an order to a customer— when the sales order agent needs users to provide some missing details to get unblocked, or to provide business approval for important changes.  
+The sales order agent maintains full transparency by including humans in the loop during the entire process. The agent enables you to review and confirm changes before they're committed to the system and shared with the customer. It issues  in-product notifications that users must address before the agent can continues. For example, a user must approve any outbound e-mail messages to customer before they're sent or provide missing details to about a request.
 
 For each task performed by the sales order agent, users get a detailed timeline that shows the key steps taken by the sales order agent and human users, including the email conversation. Users can review this information and update the values and actions the sales order agent suggested if needed. Business Central can also display the reasoning used by the sales order agent and citations that have led to suggesting a certain value.
 

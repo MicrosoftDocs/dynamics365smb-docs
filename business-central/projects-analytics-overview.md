@@ -14,12 +14,11 @@ ms.custom: bap-template
 
 # Project analytics
 
-Businesses capture lots of data during daily activities that supports business intelligence (BI) for project managers such as 
+Businesses capture lots of data during daily activities that supports business intelligence (BI) for project managers, such as:
 
-- costing performance for projects
-- completion rates for projects
-- financial data for projects. 
-
+- Cost performance for projects
+- Completion rates for projects
+- Financial data for projects
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's project data:
 
@@ -39,20 +38,19 @@ When you think about the analytics needs in projects management, it might help t
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
-People in different roles have different needs when it comes to data, and they use the data in different ways. For example, people in project management  interact with data differently than people in finance.
+People in different roles have different needs when it comes to data, and they use the data in different ways. For example, people in project management interact with data differently than people in finance.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-| Role               | Data aggregation  | Typical ways to consume data                      | 
-|------------------- |-------------------| ------------------------------------------------- |
-|COO / CFO / CEO     | Performance data  | KPIs, dashboards, financial reports               |
-|Project Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      | 
+| Role  | Data aggregation | Typical ways to consume data          | 
+|------------------- |-------------------| ---------------------- |
+|COO / CFO / CEO | Performance data  | KPIs, dashboards, financial reports               |
+|Project Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      |
 |Project participant | Detailed data     | Built-in operational reports, on-screen task data |
-
 
 ## Using Power BI to monitor project KPIs
 
-A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In project management, people often use the following KPIs to monitor their core project performance:
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In project management, people often use the following KPIs to monitor project performance:
 
 - % Complete
 - % Invoiced
@@ -64,16 +62,15 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 
 :::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
 
-All of these project KPIs (and more) are available in the Project Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)].
+These KPIs (and more) are available for projects in the Project Power BI app for [!INCLUDE [prod_short](includes/prod_short.md)].
 
-To learn more, go to [Power BI Projects app](projects-powerbi-app.md)
+To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
 
 ### Reports in the Power BI Projects app
 
 [!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
 
 To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
-
 
 ## Ad-hoc analysis of project data
 
@@ -83,7 +80,6 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 - Open in Excel
 
 The Data Analysis feature lets you open almost any list page, such as **Project Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
-
 
 Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
@@ -98,17 +94,15 @@ To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc a
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports to help project organizations report on their data.
 
-[!INCLUDE [report-explorer-projects](includes/report-explorer-projects.md)] 
+[!INCLUDE [report-explorer-projects](includes/report-explorer-projects.md)]
 
 To learn more about reports that are relevant for project management, go to [Built-in project reports](project-reports.md).
 
-
 ## On-screen project analytics
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you project overviews and tasks to do such as
+[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you project overviews and tasks to do, such as:
 
 - [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
-
 
 ## See also
 

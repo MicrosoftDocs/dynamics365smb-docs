@@ -536,6 +536,7 @@ ms.service: dynamics-365-business-central
 #### [Average Collection Period](finance-powerbi-average-collection-period.md)
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
 #### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+#### [Finance KPI overview](finance-powerbi-kpis.md) 
 
 <!-- 
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
@@ -704,6 +705,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
@@ -759,7 +761,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
-<!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
+##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
 #### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
@@ -2192,7 +2194,8 @@ ms.service: dynamics-365-business-central
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
 ### Power BI apps for Business Central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-#### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)

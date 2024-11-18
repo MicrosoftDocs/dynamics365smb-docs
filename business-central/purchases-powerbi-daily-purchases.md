@@ -26,14 +26,14 @@ Purchasing managers can analyze data to allocate budgets and staff, ensuring tha
 
 Purchasers track daily purchases and ensure they stay within budget. Use this report to monitor daily purchase activities and identify purchases or days that might exceed the budget.
 
----
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Daily Purchases* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](####)  
-- [**Purchase Amount**](####) -->
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)  
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+
 
 ## Data used in the report
 

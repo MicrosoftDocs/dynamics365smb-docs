@@ -31,22 +31,23 @@ Manufacturing team members can use this report to gauge inventory levels across 
 
 The procurement team can use this report to gauge inventory levels across all bins and plan purchase orders to ensure that quantities in bins stay at a reasonable level.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Bin Contents* report includes the following KPIs:
 
-- [**Quantity in Adjustment Bin**](###)
-- [**Available Quantity to Take**](###)
-- [**Warehouse Quantity**](####)
-- [**Pick Quantity (Base)**](####)
-- [**ATO Components Pick Qty.**](####)
-- [**Put-Away Quantity (Base)**](####)
-- [**Negative Adjmt. Qty. (Base)**](####)
-- [**Positive Adjmt. Qty. (Base)**](###)
+- [**Quantity in Adjustment Bin**](inventory-powerbi-kpis.md#quantity-in-adjustment-bin)
+- [**Available Quantity to Take**](inventory-powerbi-kpis.md#available-qty-to-take)
+- [**Warehouse Quantity**](inventory-powerbi-kpis.md#warehouse-quantity)
+- [**Pick Quantity (Base)**](inventory-powerbi-kpis.md#pick-quantity-base)
+- [**ATO Components Pick Qty.**](inventory-powerbi-kpis.md#ato-components-pick-qty)
+- [**Put-Away Quantity (Base)**](inventory-powerbi-kpis.md#put-away-quantity-base)
+- [**Negative Adjmt. Qty. (Base)**](inventory-powerbi-kpis.md#negative-adjmt-qty-base)
+- [**Positive Adjmt. Qty. (Base)**](inventory-powerbi-kpis.md#positive-adjmt-qty-base)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

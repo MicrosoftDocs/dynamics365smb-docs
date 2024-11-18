@@ -29,22 +29,23 @@ The report helps leadership teams make informed strategic planning decisions by 
 
 Managers use the report to track key items. You can identify items that you purchase in large volumes and monitor their sales performance, or find items that you aren't purchasing enough of to keep up with demand.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Purchase and Sales Quantity* report includes the following KPIs:
 
-- [**Net Qty. Purchased**](####)
-- [**Net Qty. Sold**](####)
-- [**Quantity**](####)
-- [**Inventory (Quantity)**](####)
-- [**Gross Requirement**](####)
-- [**Scheduled Receipt**](####)
-- [**Planned Order Receipt**](####)
-- [**Projected Available Balance**](####)
+- [**Net Qty. Purchased**](inventory-powerbi-kpis.md#net-qty-purchased)
+- [**Net Qty. Sold**](inventory-powerbi-kpis.md#net-qty-sold)
+- [**Quantity**](inventory-powerbi-kpis.md#quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
+- [**Gross Requirement**](inventory-powerbi-kpis.md#gross-requirement)
+- [**Scheduled Receipt**](inventory-powerbi-kpis.md#scheduled-receipt)
+- [**Planned Order Receipt**](inventory-powerbi-kpis.md#planned-order-receipt)
+- [**Projected Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

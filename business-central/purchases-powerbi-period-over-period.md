@@ -29,14 +29,16 @@ CEOs can get insights into your organization's purchase spending over time. By c
 
 Purchasing managers can use this report to analyze the growth amount and growth percentage, and evaluate spending over the current fiscal year in comparison to the previous fiscal year. This information can help you adjust purchasing plans and allocate budgets effectively.
 
-<!-- ## Key Performance Indicators (KPIs)
+
+## Key Performance Indicators (KPIs)
 
 The *Period-Over-Period* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)  
-- [**Previous Period**](####)  
-- [**Period-over-Period Growth Amount**](####)  
-- [**Period-over-Period Growth %**](####)   -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)  
+- [**Previous Period**](purchases-powerbi-kpis.md#purchase-amount-pp-fiscal)
+- [**Period-over-Period Growth Amount**](purchases-powerbi-kpis.md#purchase-amount-pop-fiscal)  
+- [**Period-over-Period Growth %**](purchases-powerbi-kpis.md#purchase-amount-pop--fiscal)  
+
 
 ## Data used in the report
 

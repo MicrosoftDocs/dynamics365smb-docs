@@ -43,7 +43,7 @@ To fit this category, you might have a role such as:
 
 ### Example scenario: improving resource usage
 
-Manufacturing managers ensure that all production orders are completed on time and within budget. Using the [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) and [Average Production Times](manufacturing-powerbi-avergage-production-times.md) reports, you can analyze the production time for each order and identify opportunities to optimize the production process.
+Manufacturing managers ensure that all production orders are completed on time and within budget. Using the [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) and [Average Production Times](manufacturing-powerbi-average-production-times.md) reports, you can analyze the production time for each order and identify opportunities to optimize the production process.
 
 The [Allocated Hours](manufacturing-powerbi-allocated-hours.md) report provides a detailed breakdown of allocated hours and aggregates them by work center. This report can help you catch unexpected spikes in resource usage.
 
@@ -66,6 +66,7 @@ To improve production efficiency, you track the allocated hours for each work ce
 
 ## Use the reports
 
+[!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 
 
 ## See also

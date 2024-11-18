@@ -27,14 +27,14 @@ Purchasing managers want a clear understanding of purchasing activities and how 
 
 Purchasers make purchasing decisions for specific items or categories. You want to ensure that you make informed decisions and get the best value for the organization. Use this report to track purchase amounts and quantities for items or categories.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Purchases by Item* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)
-- [**Purchase Quantity**](####)
-- [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####) -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
 
 ## Data used in the report
 

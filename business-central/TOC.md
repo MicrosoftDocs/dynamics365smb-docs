@@ -767,6 +767,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
+##### [Inventory Valuation KPIs](inventory-valuation-powerbi-kpis.md)
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 

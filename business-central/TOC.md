@@ -536,6 +536,7 @@ ms.service: dynamics-365-business-central
 #### [Average Collection Period](finance-powerbi-average-collection-period.md)
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
 #### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+#### [Finance KPI overview](finance-powerbi-kpis.md) 
 
 <!-- 
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
@@ -704,6 +705,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
@@ -759,12 +761,13 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
-<!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
+##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
 #### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
+##### [Inventory Valuation KPIs](inventory-valuation-powerbi-kpis.md)
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 
@@ -1011,9 +1014,10 @@ ms.service: dynamics-365-business-central
 ##### [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) 
 ##### [Consumption Variance](manufacturing-powerbi-consumption-variance.md) 
 ##### [Capacity Variance](manufacturing-powerbi-capacity-variance.md) 
-##### [Average Production Times](manufacturing-powerbi-avergage-production-times.md) 
+##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
 
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
@@ -2192,7 +2196,8 @@ ms.service: dynamics-365-business-central
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
 ### Power BI apps for Business Central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-#### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)

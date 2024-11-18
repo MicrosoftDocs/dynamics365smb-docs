@@ -28,16 +28,17 @@ The audiences for the report are:
 
 Finance administrators can use the report to prioritize vendor payments and take advantage of discounts for early payments. By aging the report based on due dates and setting the appropriate aging period buckets, you can effectively manage payment schedules. This approach enhances cash flow and strengthens relationships with key vendors.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Aged Payables (Back Dating)* report includes the following KPIs and measures: 
 
-- [**Balance (Accounts Payable)**](####)
-- [**Current (Payables)**](####)
-- [**Bucket 1 (Payables)**](####)
-- [**Bucket 2 (Payables)**](####)
-- [**Bucket 3 (Payables)**](####)
-- [**Bucket 4 (Payables)**](####) -->
+- [**Balance (Accounts Payable)**](finance-powerbi-kpis.md#balance-accounts-payable)
+- [**Current (Payables)**](finance-powerbi-kpis.md#current-payables)
+- [**Bucket 1 (Payables)**](finance-powerbi-kpis.md#bucket-1-payables)
+- [**Bucket 2 (Payables)**](finance-powerbi-kpis.md#bucket-2-payables)
+- [**Bucket 3 (Payables)**](finance-powerbi-kpis.md#bucket-3-payables)
+- [**Bucket 4 (Payables)**](finance-powerbi-kpis.md#bucket-4-payables)
+
 
 ## Data used in the report
 

@@ -27,17 +27,18 @@ Inventory managers use the report to ensure each lot has an optimized stock leve
 
 The report helps warehouse staff members by providing a way to check inventory amounts in each lot. This information can help you make key decisions, ensure that inventory is properly managed, and avoid stock-outs.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory by Lot No.* report includes the following KPIs:
 
-- [**Quantity**](####)
-- [**Inventory (Quantity)**](####)
-- [**Expired Inventory**](###)
+- [**Quantity**](inventory-powerbi-kpis.md#quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
+- [**Expired Inventory**](inventory-powerbi-kpis.md#expired-inventory)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

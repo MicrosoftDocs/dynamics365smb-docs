@@ -25,25 +25,26 @@ This report is meant to allow all users to explore the total inventory for an it
 
 Inventory managers use the report to get clear and concise information regarding each item. The report helps ensure you maintain consistent stock levels across all items. It shows inventory levels across a range of documents so you can track receipt, requirement, and production levels.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory by Item* report includes the following KPIs:
 
-- [**Inventory (Quantity)**](####)
-- [**Qty. on Purch. Order**](####)
-- [**Qty. on Prod. Order**](####)
-- [**Qty. on Prod. Order Comp Lines**](####)
-- [**Qty. on Sales Order**](####)
-- [**Qty. on Sales Return Order**](####)
-- [**Qty. on Service Order**](####)
-- [**Qty. on Projects**](####)
-- [**Qty. on Assembly Order**](####)
-- [**Qty. on Asm. Component**](####)
-- [**Qty. in Transit**](###)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
+- [**Qty. on Purch. Order**](inventory-powerbi-kpis.md#qty-on-purch-order)
+- [**Qty. on Prod. Order**](inventory-powerbi-kpis.md#qty-on-prod-order)
+- [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-kpis.md#qty-on-prod-order-comp-lines)
+- [**Qty. on Sales Order**](inventory-powerbi-kpis.md#qty-on-sales-order)
+- [**Qty. on Sales Return Order**](inventory-powerbi-kpis.md#qty-on-sales-return-order)
+- [**Qty. on Service Order**](inventory-powerbi-kpis.md#qty-on-service-order)
+- [**Qty. on Projects**](inventory-powerbi-kpis.md#qty-on-projects)
+- [**Qty. on Assembly Order**](inventory-powerbi-kpis.md#qty-on-assembly-order)
+- [**Qty. on Asm. Component**](inventory-powerbi-kpis.md#qty-on-asm-component)
+- [**Qty. in Transit**](inventory-powerbi-kpis.md#qty-in-transit)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

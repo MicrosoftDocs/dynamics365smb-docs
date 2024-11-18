@@ -27,15 +27,16 @@ The report helps managers identify key tracking information for each lot or seri
 
 For warehouse or inventory managers, the report provides a clear picture of the stock levels of each bin across your organization the item tracking information. Use this information to make decisions about procurement or production.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Bin Contents by Item Tracking* report includes the following KPIs:
 
-- [**Warehouse Quantity**](###)
+- [**Warehouse Quantity**](inventory-powerbi-kpis.md#warehouse-quantity)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

@@ -135,14 +135,7 @@ To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc a
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help inventory organizations report on their data.
 
-To get an overview of available reports, choose **All Reports** on your Home page. This action opens the Report Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-sales.png":::
-
-<!-- The built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel. -->
+[!INCLUDE [inventory_reports_report_explorer](includes/inventory-reports-report-explorer-include.md)]
 
 To learn more about reports that are relevant for inventory, go to [Built-in inventory and warehouse reports](inventory-WMS-reports.md).
 

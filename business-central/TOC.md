@@ -521,6 +521,7 @@ ms.service: dynamics-365-business-central
 #### [Extend service commitments](UBB/masterdata/service-commitments.md)
 
 ## Financial analytics 
+<!-- Financial analytics start -->
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
@@ -564,6 +565,7 @@ ms.service: dynamics-365-business-central
 #### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 #### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
 #### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+#### [Analyze your payment practices](ui-payment-practices.md)
 
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
@@ -580,8 +582,8 @@ ms.service: dynamics-365-business-central
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
 #### [Built-in fixed assets reports](fa-reports.md)
+
 #### Accounts payable reports
-##### [Built-in accounts receivable reports](receivables-reports.md)
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
@@ -597,19 +599,7 @@ ms.service: dynamics-365-business-central
 ##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
-<!-- 
-##### [Vendor Item catalog](reports/report-320.md)
-##### [Purchase Reservation Availability](reports/report-409.md)
-##### [Inventory Purchase Orders](reports/report-709.md)
-##### [Inventory Vendor Purchases](reports/report-714.md)
-##### [Item/vendor catalog](reports/report-720.md) 
-##### [Purchase Statistics](reports/report-312.md)
-##### [Payments on Hold](reports/report-319.md)
-##### [Payment Practice](reports/report-page 687.md)
--->
-
 #### Accounts receivable reports
-##### [Built-in accounts payable reports](payables-reports.md)
 ##### [Accounts receivable report overview](receivables-reports.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
@@ -624,11 +614,12 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
-
+<!-- Financial analytics end -->
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
 ### Sales analytics 
+<!-- Sales analytics start -->
 #### [Sales analytics overview](sales-analytics-overview.md)
 
 #### [Power BI sales app](sales-powerbi-app.md)
@@ -662,6 +653,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
+<!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
@@ -691,6 +683,7 @@ ms.service: dynamics-365-business-central
 ### [Purchasing overview](purchasing-manage-purchasing.md)
 
 ### Purchasing analytics 
+<!-- Purchasing analytics start -->
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
 #### [Power BI Purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
@@ -708,6 +701,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
+
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
 ##### [Vendor - List](reports/report-301.md)
@@ -725,6 +719,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+<!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)
@@ -747,6 +742,7 @@ ms.service: dynamics-365-business-central
 ### [Inventory overview](inventory-manage-inventory.md)
 
 ### Inventory analytics 
+<!-- Inventory analytics start -->
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
 #### [Power BI Inventory app](inventory-powerbi-app.md)
@@ -797,6 +793,7 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 ##### [Planning Availability](reports/report-99001048.md)
 ##### [Production Forecast](reports/report-990003804.md)
+<!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
@@ -821,6 +818,7 @@ ms.service: dynamics-365-business-central
 ### [Project management overview](projects-manage-projects.md)
 
 ### Project management analytics
+<!-- Project management analytics start -->
 #### [Project management analytics overview](projects-analytics-overview.md)
 
 #### [Power BI Projects app](projects-powerbi-app.md)
@@ -848,6 +846,7 @@ ms.service: dynamics-365-business-central
 ##### [Items per Project](reports/report-1013.md)
 ##### [Project per Item](reports/report-1014.md)
 ##### [Project Register](reports/report-1015.md)
+<!-- Project management analytics end -->
 
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
@@ -863,6 +862,7 @@ ms.service: dynamics-365-business-central
 ### [Fixed assets overview](fa-manage.md)
 
 ### Fixed assets analytics
+<!-- Fixed assets analytics start -->
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
@@ -894,6 +894,7 @@ ms.service: dynamics-365-business-central
 ##### [Maintenance - Analysis](reports/report-5630.md)
 ##### [Maintenance - Details](reports/report-5634.md)
 ##### [Maintenance - Next Service](reports/report-5635.md)
+<!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)

@@ -20,7 +20,7 @@ In the Danish localization, Microsoft Dynamics 365 [!INCLUDE [prod_short](../../
 > This feature allows to report **_draft VAT Return version_** to skat.dk website from [!INCLUDE [prod_short](../../includes/prod_short.md)]. You will still need to manually login into your account on the tax authorities site, review the draft and submit it finally. Reporting such draft needs to be set up first in the tax authorities account. (See “Onboarding legal entities” on skat.dk)
 
 > [!NOTE]
-> Before you begin, make sure that the **VAT Return E-Submission** app has been installed and enabled. 
+> Before you begin, make sure that the **Electronic VAT Declaration for Denmark** app has been installed and enabled. 
 
 To generate a VAT return and send it directly to the Danish Tax Agency's VAT API, complete the following setup:
 

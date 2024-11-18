@@ -39,11 +39,10 @@ The *Inventory Valuation by Location* report includes the following KPIs:
 
 - [**Beginning Balance Value**](inventory-valuation-powerbi-kpis.md#beginning-balance-value)
 - [**Increases Value**](inventory-valuation-powerbi-kpis.md#increases-qty)
-- [**Decreases Value**](inventory-valuation-powerbi-kpis.md#decreases-qty)
+- [**Decrease Qty.**](inventory-valuation-powerbi-kpis.md#decrease-qty)
 - [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
-
 
 ## Data used in the Inventory Valuation by Location report
 

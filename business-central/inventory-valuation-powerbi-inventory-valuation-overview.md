@@ -36,11 +36,9 @@ The *Inventory Valuation Overview* report includes the following KPIs:
 - [**Variance**](inventory-valuation-powerbi-kpis.md#variance)
 - [**Invoiced Quantity**](inventory-valuation-powerbi-kpis.md#invoiced-quantity)
 - [**Increases Quantity**](inventory-valuation-powerbi-kpis.md#increases-qty)
-- [**Decreases Quantity**](inventory-valuation-powerbi-kpis.md#decreases-qty)
-
+- [**Decrease Qty.**](inventory-valuation-powerbi-kpis.md#decrease-qty)
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
-
 
 ## Data used in the Inventory Valuation Overview report
 

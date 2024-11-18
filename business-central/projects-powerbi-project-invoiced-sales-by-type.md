@@ -23,18 +23,20 @@ The **Project Invoiced Sales by Type** report breaks down your sales by each typ
 
 Project managers use the report to track the different type of sales entries. You can see how you charge for the different resources per project. Additionally, you can measure values for items and G/L accounts related to the project.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-The *Project Invoiced Sales by Type* reoprt includes the following KPIs:
-- [**% Invoiced**](###)
-- [**Quantity**](###)
-- [**Billable (Invoiced Price)**](###)
-- [**Billable (Total Price)**](###)
-- [**Actual (Total Price)**](####)
+The *Project Invoiced Sales by Type* report includes the following KPIs:
+
+- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
+- [**Quantity**](projects-powerbi-kpis.md#quantity)
+- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
+- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
+- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 
 ## Data used in the report
 

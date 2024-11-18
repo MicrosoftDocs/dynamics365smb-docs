@@ -23,21 +23,20 @@ The **Project Tasks** report breaks down each project and shows metrics for thei
 
 Project Managers use the report to track the progress of project tasks and make good decisions about the resources involved. This report can also provide cost and pricing information to ensure you stay within budget.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-The *Project Tasks* reoprt includes the following KPIs:
-- [**Actual (Total Price)**](####)
-- [**Actual (Total Cost)**](###)
-- [**Actual Profit**](####)
-- [**Actual Profit Margin %**](####)
-- [**Billable (Invoiced Price)**](####)
-- [**Billable (Total Price)**](####)
-- [**Budget (Total Cost)**](####)
-- [**Realization %**](####)
+The *Project Tasks* report includes the following KPIs:
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
+- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
+- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
+- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
+- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
+- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
+- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
+- [**Realization %**](projects-powerbi-kpis.md#realization-)
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

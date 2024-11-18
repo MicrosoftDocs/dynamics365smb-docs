@@ -56,4 +56,5 @@ Try the report here: [Project Invoiced Sales by Type](https://businesscentral.dy
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
+[Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)  

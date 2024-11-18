@@ -11,7 +11,7 @@ ms.collection:
   - get-started
 ---
 
-# Set up the sales order
+# Set up the sales order agent
 
 This article explains the tasks required to set up the sales ore agent.
 

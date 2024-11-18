@@ -33,19 +33,18 @@ Executives use this report to gain an overall understanding of your organization
 
 Managers use the report to monitor the value of on-hand inventory. This information can keep you informed about increases and decreases in the value of your stock over time.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory Valuation by Item* report includes the following KPIs:
 
-- [**Ending Balance Qty**](###)
-- [**Beginning Balance Value**](###)
-- [**Increase Value**](###)
-- [**Decrease Value**](###)
-- [**Ending Balance Value**](###)
+- [**Ending Balance Quantity**](inventory-valuation-powerbi-kpis.md#ending-balance-qty)
+- [**Beginning Balance Value**](inventory-valuation-powerbi-kpis.md#beginning-balance-value)
+- [**Ending Balance Value**](inventory-valuation-powerbi-kpis.md#ending-balance-value)
+- [**Increases Value**](inventory-valuation-powerbi-kpis.md#increases-value)
+- [**Decreases Value**](inventory-valuation-powerbi-kpis.md#decreases-value)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations.
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
 
 ## Data used in the Inventory Valuation by Item report
 

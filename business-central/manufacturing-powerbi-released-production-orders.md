@@ -27,13 +27,14 @@ Manufacturing managers use the report to track released production orders. By an
 
 Production supervisors use this report to monitor expected and finished quantities. This information helps you prioritize and schedule the next items for production. For example, if the finished quantity is close to the expected quantity, you can prioritize the next item for production. If the finished quantity is much lower than the expected quantity, you might need to adjust the production schedule to ensure you compete the order on time.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Released Production Orders* report includes the following KPIs and measures: 
 
-- [Expected Quantity (Base)]()
-- [Finished Quantity (Base)]()
-- [Qty. Variance]() -->
+- [Expected Quantity (Base)](manufacturing-powerbi-kpis.md#expected-quantity-base)
+- [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
+- [Qty. Variance](manufacturing-powerbi-kpis.md#qty-variance)
+
 
 ## Data used in the report
 

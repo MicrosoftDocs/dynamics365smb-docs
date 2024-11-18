@@ -38,22 +38,24 @@ You activate or deactivate the agent from the **Copilot & AI Capabilities** page
 
 1. Turn on the **Active** toggle.
 1. Select **Manage user access** to specify the users that can manage or interact with the agent.
+
+   By default, you account is granted **UserAndOwner** access to agent. You can add more users now or later. Learn more in [Manage user access to the sales order agent ](#manage-user-access-to-the-sales-order-agent).
 1. Select **Update** to complete the set up.
 
 The **Sales Order Agent** badge changes to ![Shows the sales order agent icon after configured](media/soa-activated-icon.png), which indicates the sales order agent is ready to handle incoming sales quote requests to the mailbox.
 
 When the sales order agent is activated, a scheduled task that runs every minute on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the sales order agent imports the message into Business Central and verifies whether there is already a task for the mail thread. If a task for the thread already exists, the sales order agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message. 
 
-## Manage user accesssales order agent permissions and user access 
+## Manage user access to the sales order agent 
 
-The sales order agent has a user account in Business Central similar to other users. By default, the sales order agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the necessary objects, data, and UI elements (such as pages, fields, and actions) needed for handling sales quote requests. 
+The sales order agent has a user account in Business Central similar to other users. By default, the sales order agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the necessary objects, data, and UI elements (such as pages, fields, and actions) needed for handling sales quote requests.
 
-As an administrator, you can manage which users have permission to access the sales order agent. You can specify the extent to which tasks can be delegated to it, the communication channels for receiving orders (such as email), and the stages of the order process to integrate (for instance, whether to convert a generated sales quote into an order).
+As an administrator, you can manage which users have permission to access the sales order agent and and the tasks they can perform to prosees incoming requests. <!--> You can specify the extent to which tasks can be delegated to it, the communication channels for receiving orders (such as email), and the stages of the order process to integrate (for instance, whether to convert a generated sales quote into an order).-->
 
-You configure permissions and user access from the **sales order agent card page. To open this page, complete the following steps: 
+You configure user access during the agent configuration or later from **Sales Order Agent** card page, describe in the follwoing steps To open this page, complete the following steps: 
 
-1. Press Alt+Q, search for Agents, and then choose the related link.
-1. On the Agents page, select sales order agent. 
+1. Press <kbd>Alt</kbd>+<kbd>Q</kbd>, search for **Agents**, and then choose the related link.
+1. On the **Agents** page, select sales order agent. 
 
 ## Next steps
 

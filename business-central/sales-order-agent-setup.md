@@ -42,7 +42,8 @@ The **Sales Order Agent** badge changes to ![Shows the sales order agent icon af
 
 When the sales order agent is active, a scheduled task that runs every minute on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the sales order agent imports the message into Business Central and verifies whether there is already a task for the mail thread. If a task for the thread already exists, the sales order agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
-> [!]
+> [!NOTE] 
+> The badge indicates the agent is configured with mailbox, but it's not active. To verify select the bacg > configure.
 
 ## Manage user access to the sales order agent 
 

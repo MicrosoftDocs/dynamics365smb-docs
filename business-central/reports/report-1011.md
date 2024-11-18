@@ -69,6 +69,7 @@ Try the report here: [Project Suggested Billing](https://businesscentral.dynamic
 
 ## See also
 
-[Project Reports and Analytics in Business Central](../project-reports.md)  
+[Project Reports](../project-reports.md)  
+[Project management analytics overview](../projects-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

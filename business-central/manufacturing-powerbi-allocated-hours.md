@@ -27,13 +27,15 @@ For example, if you notice that a work center is underused, you can assign more 
 
 Manufacturing workers use this report to optimize the use of resources. You can analyze the allocated time in hours of each work center, and then plan your work accordingly.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Allocated Hours* report includes the following KPIs and measures: 
 
-- [Load %](####)
-- [Allocated Time (Hours)](####)
-- [Capacity Available (Hours)](####) -->
+- [Load %](manufacturing-powerbi-kpis.md#load)
+- [Allocated Time (Hours)](manufacturing-powerbi-kpis.md#allocated-time-hours)
+- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

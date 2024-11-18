@@ -705,6 +705,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
@@ -760,12 +761,13 @@ ms.service: dynamics-365-business-central
 ##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
 ##### [Bin Contents](inventory-powerbi-bin-contents.md)
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
-<!-- ##### [Inventory KPIs](inventory-powerbi-inventory-app-kpi.md) -->
+##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
 #### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
+##### [Inventory Valuation KPIs](inventory-valuation-powerbi-kpis.md)
 
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
 
@@ -819,6 +821,8 @@ ms.service: dynamics-365-business-central
 ### [Project management overview](projects-manage-projects.md)
 
 ### Project management analytics
+#### [Project management analytics overview](projects-analytics-overview.md)
+
 #### [Power BI Projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
 ##### [Projects Tasks](projects-powerbi-project-tasks.md)
@@ -827,6 +831,7 @@ ms.service: dynamics-365-business-central
 ##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
 ##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
 ##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+##### [Projects KPI overview](projects-powerbi-kpis.md) 
 
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
@@ -1011,9 +1016,10 @@ ms.service: dynamics-365-business-central
 ##### [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) 
 ##### [Consumption Variance](manufacturing-powerbi-consumption-variance.md) 
 ##### [Capacity Variance](manufacturing-powerbi-capacity-variance.md) 
-##### [Average Production Times](manufacturing-powerbi-avergage-production-times.md) 
+##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
 
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 

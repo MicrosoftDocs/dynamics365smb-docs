@@ -44,6 +44,7 @@ Project managers want to know how each project is performing and get high-level 
 ## See also
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Project management analytics overview](projects-analytics-overview.md)   
 [Built-in Projects reports](project-reports.md)  
 [Project management overview](projects-manage-projects.md)  
 

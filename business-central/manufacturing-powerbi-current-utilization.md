@@ -27,12 +27,14 @@ COOs use the report to monitor the percentage of use of resources on production 
 
 Manufacturing managers use the report to understand the capacity of machine and work centers. The report provides insights into the capacity used by hour, allowing you to optimize the use of your machine and work centers. You can use the gauges to track today's utilization percentage and the current week's utilization percentage, and adjust the production schedules accordingly. The report helps you ensure that you complete production orders on time by keeping the utilization rate above the required threshold.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Current Utilization* report includes the following KPIs and measures: 
 
-- [Capacity Used (Hours)](####)
-- [Utilization %](####) -->
+- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
+- [Utilization %](manufacturing-powerbi-kpis.md#utilization)
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

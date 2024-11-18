@@ -27,16 +27,17 @@ Inventory managers use the report to optimize stock levels for each serial numbe
 
 The report gives warehouse staff a clear picture of the quantities of each serial number, so you can manage inventory efficiently and avoid stock-outs.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory by Serial No.* report includes the following KPIs:
 
-- [**Quantity**](####)
-- [**Inventory (Quantity)**](####) 
+- [**Quantity**](inventory-powerbi-kpis.md#quantity)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
 
-Select the link for a key performance indicator to learn more about what it means, how the report calculates it, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

@@ -31,11 +31,12 @@ Purchasers can use this report to analyze the purchasing activities for a specif
 - Drill down into the data and identify which suppliers provide the most cost-effective items.
 - Analyze the volume of purchases over time.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Purchases Decomposition* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)   -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+
 
 ## Data used in the report
 

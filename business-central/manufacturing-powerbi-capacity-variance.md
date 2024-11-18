@@ -27,14 +27,16 @@ Manufacturing managers use the report to track and manage capacity costs for pro
 
 Production supervisors use this report to monitor the performance of production lines and ensure they operate within budget. By tracking the actual capacity costs against the expected costs, you can quickly uncover deviations. For example, the report might show that the cost of raw materials increased significantly. You can investigate whether the issue is due to supplier pricing or production inefficiencies.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Capacity Variance* report includes the following KPIs and measures: 
 
-- [Capacity Cost Amt. Deviation %](####)
-- [Expected Capacity Cost Amount](####)
-- [Capacity Cost Amt. (Actual)](####)
-- [Capacity Cost Amt. Variance](####) -->
+- [Capacity Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#capacity-cost-amt-deviation)
+- [Expected Capacity Cost Amount](manufacturing-powerbi-kpis.md#expected-capacity-cost-amount)
+- [Capacity Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#capacity-cost-amt-actual)
+- [Capacity Cost Amt. Variance](manufacturing-powerbi-kpis.md#capacity-cost-amt-variance)
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -27,15 +27,17 @@ Manufacturing managers use the report to understand the average time it takes to
 
 Production supervisors use this report to monitor the production time for a particular item and the quantity produced on production orders. For example, you notice that the production time for a particular item is longer than expected. You can use the report to identify the cause of the delay and optimize the production process to increase efficiency.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Average Production Times* report includes the following KPIs and measures: 
 
-- [Setup Time per Unit (Hours)](####)
-- [Run Time per Unit (Hours)](####)
-- [Stop Time per Unit (Hours)](####)
-- [Capacity Used per Unit (Hours)](####)
-- [Finished Quantity (Base)](####) -->
+- [Setup Time per Unit (Hours)](manufacturing-powerbi-kpis.md#setup-time-per-unit-hours)
+- [Run Time per Unit (Hours)](manufacturing-powerbi-kpis.md#run-time-per-unit-hours)
+- [Stop Time per Unit (Hours)](manufacturing-powerbi-kpis.md#stop-time-per-unit-hours)
+- [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
+- [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

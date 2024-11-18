@@ -1013,9 +1013,10 @@ ms.service: dynamics-365-business-central
 ##### [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) 
 ##### [Consumption Variance](manufacturing-powerbi-consumption-variance.md) 
 ##### [Capacity Variance](manufacturing-powerbi-capacity-variance.md) 
-##### [Average Production Times](manufacturing-powerbi-avergage-production-times.md) 
+##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
 
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 

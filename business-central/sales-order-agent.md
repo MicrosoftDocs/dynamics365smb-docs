@@ -13,7 +13,7 @@ ms.collection:
 
 # Sales order agent overview
 
-The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to creating the order:
+The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation. 
 
 - Receives a customer's order by e-mail.
 - Analyzes the e-mail to identify the customer from the registered list in Business Central
@@ -21,10 +21,6 @@ The sales order agent automates the task of taking sales order, handling the end
 - Sends the quote to the customer for approval.
 - Upon confirmation, converts the quote into a sales order.
 
-> [!Video https://www.youtube.com/watch?v=6icbmbLc_Og]
-
-*The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
-  
 ## Transparency and intervention
 
 The sales order agent maintains full transparency by including humans in the loop during the entire process. The agent enables you to review and confirm changes before they're committed to the system and shared with the customer. It issues  in-product notifications that users must address before the agent can continues. For example, a user must approve any outbound e-mail messages to customer before they're sent or provide missing details to about a request.
@@ -38,6 +34,10 @@ The agent is readily available in the product. You only need to activate it by s
 When configuring the sales order agent, users can define the list of other users who can delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order). 
 
 
+> [!Video https://www.youtube.com/watch?v=6icbmbLc_Og]
+
+*The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
+  
 <!--
 ### Capabilities 
 

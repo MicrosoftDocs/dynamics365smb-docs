@@ -536,6 +536,7 @@ ms.service: dynamics-365-business-central
 #### [Average Collection Period](finance-powerbi-average-collection-period.md)
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
 #### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+#### [Finance KPI overview](finance-powerbi-kpis.md) 
 
 <!-- 
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
@@ -704,6 +705,7 @@ ms.service: dynamics-365-business-central
 ##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
 ##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
 ##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
 
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 #### Built-in purchasing reports
@@ -2191,7 +2193,8 @@ ms.service: dynamics-365-business-central
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
 ### Power BI apps for Business Central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-#### [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
@@ -2469,10 +2472,10 @@ ms.service: dynamics-365-business-central
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
-### [FAQ for analysis assist](faqs-analysis-assist.md)
+### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
-### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
@@ -2483,7 +2486,7 @@ ms.service: dynamics-365-business-central
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
-### [FAQ for marketing text suggestions](faqs-marketing-text.md)
+### [Responsible AI FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
@@ -2493,10 +2496,10 @@ ms.service: dynamics-365-business-central
 ### [Process sales orders using sales order agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for sales order agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
-### [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
+### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
-### [FAQ for Suggest Number Series with Copilot](faq-suggest-number-series-with-copilot.md)
+### [Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
@@ -2505,6 +2508,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
+## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for sales order agent](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)

@@ -13,25 +13,22 @@ ms.collection:
 
 # Set up the sales order agent
 
-## Activate the sales order agent
+The sale order agent automates processing sales quote requests to orders by monitoring incoming emails to a designated mailbox. To set up the sales order agent working, you first need make sure it's activated on the **Copilot & AI Capabilities** page. Once it's activated, you configure the agent to monitor the desired mailbox, and manage user access to the agent.
 
-The sales order agent is activated by default, but it can be deactivated by an administrator. If the ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** badge is present in the navigation menu at the top, then it's activated.  
+## Turn on the sales order agent
 
-You activate or deactivate the agent from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The sales order agent is listed under **Production ready previews**. Learn more about activating and deactivating Copilot features in [Configure Copilot and AI capabilities](enable-ai.md).
+The sales order agent is turned on by default. If the ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agents is on, but not yet configured to process sales orders.
 
-## Set up the sales order agent
+You turn the agent on or off from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The sales order agent is listed under **Production ready previews**. Learn more about in [Configure Copilot and AI capabilities](enable-ai.md).
 
+## Configure the sales order agent
 
-### Prerequisites
+1. Set up the email account for sales recieving incoming requests for quotes and orders. 
 
-- Set up e-mail
+   The sales order agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 
-   The sales order agent monitors incoming emails to mailbox that's used for sales quote requests. To configure the sales order agent, you need to know the email account of the mailbox that you want it to monitor. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
-
-### Configure the sales order agent
-
-1. At the top of the screen, select ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.  
-1. On the Configure the Copilot agent page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field the e-mail account you want to monitor.
+1. In the top the role center, select ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.  
+1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field the email account you want to monitor.
 
    ![Shows the sales order agent configuration page](media/soa-configuration.png)
 
@@ -41,9 +38,11 @@ You activate or deactivate the agent from the **Copilot & AI Capabilities** page
    By default, you account is granted **UserAndOwner** access to agent. You can add more users now or later. Learn more in [Manage user access to the sales order agent ](#manage-user-access-to-the-sales-order-agent).
 1. Select **Update** to complete the set up.
 
-The **Sales Order Agent** badge changes to ![Shows the sales order agent icon after configured](media/soa-activated-icon.png), which indicates the sales order agent is ready to handle incoming sales quote requests to the mailbox.
+The **Sales Order Agent** badge changes to ![Shows the sales order agent icon after configured](media/soa-activated-icon.png), which indicates the sales order agent is active ready to handle incoming sales quote requests to the mailbox.
 
-When the sales order agent is activated, a scheduled task that runs every minute on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the sales order agent imports the message into Business Central and verifies whether there is already a task for the mail thread. If a task for the thread already exists, the sales order agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message. 
+When the sales order agent is active, a scheduled task that runs every minute on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the sales order agent imports the message into Business Central and verifies whether there is already a task for the mail thread. If a task for the thread already exists, the sales order agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
+
+> [!]
 
 ## Manage user access to the sales order agent 
 

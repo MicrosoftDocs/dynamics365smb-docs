@@ -27,16 +27,21 @@ CFOs use the report to analyze monthly profitability trends for the fiscal year.
 
 Finance administrators use the report to manage and review the operating expenses by a Department dimension. For example, if you spot an unexpected rise in costs, you could filter the report by department to identify the department responsible for the increased expenditure. This information can help you investigate and realign the department budget, if needed.
 
-<!-- ## Key Performance Indicators (KPIs)
 
-- [**Net Change**](####)
+## Key Performance Indicators (KPIs)
+
+The report includes the following KPIs and measures: 
+
+- [**Net Change**](finance-powerbi-kpis.md#net-change)
+
 
 ## Data used in the report
 
 The *Income Statement by Month* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - G/L Entry
-- G/L Account -->
+- G/L Account
+
 
 ## Try the report
 

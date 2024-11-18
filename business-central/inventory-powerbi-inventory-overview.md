@@ -32,34 +32,34 @@ Leadership and management can gauge inventory levels across locations and get an
 
 Management teams use the report to paint a picture of the stock information without having to drill down. The report gives a clear view of stock you're receiving and the demand that's currently in the system.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory Overview* report includes the following KPIs:
 
-- [**Inventory (Quantity)**](####)
-- [**Scheduled Receipt**](####)
-- [**Planned Order Receipt**](####)
-- [**Gross Requirement**](####)
-- [**Projected Available Balance**](####)
-- [**Qty. on Sales Order**](####)
-- [**Qty. on Purch. Return**](####)
-- [**Qty. on Service Order**](####)
-- [**Qty. on Projects**](####)
-- [**Qty. on Prod. Order Comp Lines**](####)
-- [**Trans Order Shipment**](####)
-- [**Planning Issues**](####)
-- [**Qty. on Asm. Component**](####)
-- [**FP Order Receipt (Qty.)**](####)
-- [**Rel. Order Receipt (Qty.)**](####)
-- [**Qty. on Purch. Order**](####)
-- [**Qty. in Transit**](####)
-- [**Trans. Order Receipt (Qty.)**](####)
-- [**Qty. on Assembly Order**](####)
-- [**Qty. on Sales Return Order**](####)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
+- [**Scheduled Receipt**](inventory-powerbi-kpis.md#scheduled-receipt)
+- [**Planned Order Receipt**](inventory-powerbi-kpis.md#planned-order-receipt)
+- [**Gross Requirement**](inventory-powerbi-kpis.md#gross-requirement)
+- [**Projected Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**Qty. on Sales Order**](inventory-powerbi-kpis.md#qty-on-sales-order)
+- [**Qty. on Purch. Return**](inventory-powerbi-kpis.md#qty-on-purch-return)
+- [**Qty. on Service Order**](inventory-powerbi-kpis.md#qty-on-service-order)
+- [**Qty. on Projects**](inventory-powerbi-kpis.md#qty-on-projects)
+- [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-kpis.md#qty-on-prod-order-comp-lines)
+- [**Trans Order Shipment**](inventory-powerbi-kpis.md#trans-order-shipment-qty)
+- [**Planning Issues**](inventory-powerbi-kpis.md#planning-issues-qty)
+- [**Qty. on Asm. Component**](inventory-powerbi-kpis.md#qty-on-asm-component)
+- [**FP Order Receipt (Qty.)**](inventory-powerbi-kpis.md#fp-order-receipt-qty)
+- [**Rel. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#rel-order-receipt-qty)
+- [**Qty. on Purch. Order**](inventory-powerbi-kpis.md#qty-on-purch-order)
+- [**Qty. in Transit**](inventory-powerbi-kpis.md#qty-in-transit)
+- [**Trans. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#trans-order-receipt-qty)
+- [**Qty. on Assembly Order**](inventory-powerbi-kpis.md#qty-on-assembly-order)
+- [**Qty. on Sales Return Order**](inventory-powerbi-kpis.md#qty-on-sales-return-order)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
 
 ## Data used in the report
 

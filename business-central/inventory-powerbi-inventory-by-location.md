@@ -27,15 +27,16 @@ Warehouse managers can use the report to check whether each location has appropr
 
 For supply chain managers, the report provides information about where you store each item. With this information, you can make informed decisions about shipping and ensure that items are delivered on time and at the lowest cost.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Inventory by Location* report includes the following KPIs:
 
-- [**Inventory (Quantity)**](####)
+- [**Inventory (Quantity)**](inventory-powerbi-kpis.md#inventory-quantity)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

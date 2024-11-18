@@ -13,18 +13,18 @@ ms.collection:
 
 # Sales order agent overview
 
-The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation:
+The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation. The sale order agent initiates the process by monitoring a specified mailbox for emails that requests a quote for items, with the general flow as follows:
 
 - Receives a customer's order by e-mail.
 - Analyzes the e-mail to identify the customer from the registered list in Business Central. 
 - Prepares a sales quote with the requested items based on item availability
-- Sends the quote to the customer for approval.
+- Sends the quote to the customer after approval
 - Converts the quote into a sales order upon customer approval
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 > 
-> *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
+> *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*
   
 ## Transparency and intervention
 
@@ -36,15 +36,12 @@ For each task done by the agent, users get a detailed timeline of the key steps 
 
 The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can use the agent to process orders. <!--delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order).--> 
 
-
 <!--
 ### Capabilities 
 
 The sales order agent operates based on its instructions and user configuration. It uses AI to identify and carry out the steps needed to complete this task within the Business Central environment. 
 
 The sales order agent is provided with its own set of high-level business instructions, which describe its purpose, outline the task it needs to perform and additional considerations it needs to take when performing the steps. These instructions are defined in the sales order agent code and are not visible to the users. 
-
-
 
 ### Operation through logical UI API
 

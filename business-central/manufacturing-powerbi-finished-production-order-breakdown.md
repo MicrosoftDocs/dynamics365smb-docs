@@ -41,6 +41,8 @@ The *Finished Production Order Breakdown* report includes the following KPIs and
 - [Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#cost-amt-deviation)
 - [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

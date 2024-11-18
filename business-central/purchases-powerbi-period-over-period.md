@@ -39,6 +39,9 @@ The *Period-Over-Period* report includes the following KPIs and measures:
 - [**Period-over-Period Growth Amount**](purchases-powerbi-kpis.md#purchase-amount-pop-fiscal)  
 - [**Period-over-Period Growth %**](purchases-powerbi-kpis.md#purchase-amount-pop--fiscal)  
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

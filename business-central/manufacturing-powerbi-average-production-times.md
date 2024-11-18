@@ -37,6 +37,8 @@ The *Average Production Times* report includes the following KPIs and measures:
 - [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
 - [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

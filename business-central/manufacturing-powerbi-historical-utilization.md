@@ -35,6 +35,8 @@ The *Historical Utilization* report includes the following KPIs and measures:
 - [Utilization %](manufacturing-powerbi-kpis.md#utilization)
 - [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 

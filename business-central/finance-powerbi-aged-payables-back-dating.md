@@ -39,6 +39,9 @@ The *Aged Payables (Back Dating)* report includes the following KPIs and measure
 - [**Bucket 3 (Payables)**](finance-powerbi-kpis.md#bucket-3-payables)
 - [**Bucket 4 (Payables)**](finance-powerbi-kpis.md#bucket-4-payables)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

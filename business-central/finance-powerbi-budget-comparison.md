@@ -37,6 +37,9 @@ The *Budget Comparison* report includes the following KPIs and measures:
 - [**Variance to Budget**](finance-powerbi-kpis.md#variance-to-budget)
 - [**Variance to Budget %**](finance-powerbi-kpis.md#variance-to-budget-)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

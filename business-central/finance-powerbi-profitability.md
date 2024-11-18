@@ -36,17 +36,18 @@ The audiences for the report are:
 
 Executives use the report to analyze gross and net profits over time. Combining global and shortcut dimensions with fiscal period filters lets you quickly visualize trends and gain insights into key drivers of financial performance.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Profitability* report includes the following KPIs and measures: 
 
-- [**Gross Profit**](####)
-- [**Gross Profit Margin**](####)
-- [**Net Profit**](####)
-- [**Net Profit Margin**](####)
-- [**Revenue**](####)
-- [**Cost of Goods Sold**](####)
-- [**Expense**](####) -->
+- [**Gross Profit**](finance-powerbi-kpis.md#gross-profit)
+- [**Gross Profit Margin**](finance-powerbi-kpis.md#gross-profit-margin)
+- [**Net Profit**](finance-powerbi-kpis.md#net-profit)
+- [**Net Profit Margin**](finance-powerbi-kpis.md#net-profit-margin)
+- [**Revenue**](finance-powerbi-kpis.md#revenue)
+- [**Cost of Goods Sold**](finance-powerbi-kpis.md#cost-of-goods-sold)
+- [**Expense**](finance-powerbi-kpis.md#expense)
+
 
 ## Data used in the report
 

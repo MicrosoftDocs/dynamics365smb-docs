@@ -1,8 +1,8 @@
 ---
 title: Set up sales order agent
-description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/03/2024
-ms.topic: how-to
+description: Learn about the sales order Copilot agent in Business Central.
+ms.date: 11/18/2024
+ms.topic: overview
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -16,25 +16,27 @@ ms.collection:
 The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation:
 
 - Receives a customer's order by e-mail.
-- Analyzes the e-mail to identify the customer from the registered list in Business Central
+- Analyzes the e-mail to identify the customer from the registered list in Business Central. 
 - Prepares a sales quote with the requested items based on item availability
 - Sends the quote to the customer for approval.
-- Upon confirmation, converts the quote into a sales order.
+- Converts the quote into a sales order upon customer approval
 
+> [!TIP]
+> Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
+> 
+> *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
+  
 ## Transparency and intervention
 
 The sales order agent maintains full transparency by including humans in the loop during the entire process. The agent enables you to review and confirm changes before they're committed to the system and shared with the customer. It issues  in-product notifications that users must address before the agent can continues. For example, a user must approve any outbound e-mail messages to customer before they're sent or provide missing details to about a request.
 
-For each task performed by the sales order agent, users get a detailed timeline that shows the key steps taken by the sales order agent and human users, including the email conversation. Users can review this information and update the values and actions the sales order agent suggested if needed. Business Central can also display the reasoning used by the sales order agent and citations that have led to suggesting a certain value.
+For each task done by the agent, users get a detailed timeline of the key steps taken by the sales order agent and humans, including the email communications, reviews, and modifications.
 
 ## Setup and user access management
 
-The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order). 
+The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can use the agent to process orders. <!--delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order).--> 
 
-> [!Video https://www.youtube.com/watch?v=6icbmbLc_Og]
 
-*The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
-  
 <!--
 ### Capabilities 
 

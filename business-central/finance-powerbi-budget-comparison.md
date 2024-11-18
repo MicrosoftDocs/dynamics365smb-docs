@@ -28,14 +28,15 @@ The audiences for the report are:
 
 Executive or finance managers use the report to monitor your company's financial performance. By filtering by different G/L budgets, shortcut dimensions, and fiscal periods, you can assess performance against various benchmarks. Analyzing the net change and variance metrics helps you identify accounts that need attention, ultimately leading to improved planning and more strategic decision-making.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Budget Comparison* report includes the following KPIs and measures: 
 
-- [**Net Change**](####)
-- [**Budget Amount**](####)
-- [**Variance to Budget**](####)
-- [**Variance to Budget %**](####) -->
+- [**Net Change**](finance-powerbi-kpis.md#net-change)
+- [**Budget Amount**](finance-powerbi-kpis.md#budget-amount)
+- [**Variance to Budget**](finance-powerbi-kpis.md#variance-to-budget)
+- [**Variance to Budget %**](finance-powerbi-kpis.md#variance-to-budget-)
+
 
 ## Data used in the report
 

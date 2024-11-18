@@ -13,7 +13,7 @@ ms.collection:
 
 # Sales order agent overview
 
-The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation. 
+The sales order agent automates the task of taking sales order, handling the end-to-end process from the customer's request to order's creation:
 
 - Receives a customer's order by e-mail.
 - Analyzes the e-mail to identify the customer from the registered list in Business Central
@@ -27,12 +27,9 @@ The sales order agent maintains full transparency by including humans in the loo
 
 For each task performed by the sales order agent, users get a detailed timeline that shows the key steps taken by the sales order agent and human users, including the email conversation. Users can review this information and update the values and actions the sales order agent suggested if needed. Business Central can also display the reasoning used by the sales order agent and citations that have led to suggesting a certain value.
 
-## Setup
+## Setup and user access management
 
-The agent is readily available in the product. You only need to activate it by specifying the email inbox you want the agent to monitor. The sales order agent is also configurable, allowing you to define its name, a list of other users who can delegate the process of taking the sales orders to it, and more. 
-
-When configuring the sales order agent, users can define the list of other users who can delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order). 
-
+The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order). 
 
 > [!Video https://www.youtube.com/watch?v=6icbmbLc_Og]
 

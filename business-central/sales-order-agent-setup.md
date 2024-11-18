@@ -1,7 +1,7 @@
 ---
 title: Set up sales order agent
-description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/03/2024
+description: Learn how to activate the sales order agent and manage user access.
+ms.date: 1/18/2024
 ms.topic: how-to
 author: jswymer
 ms.author: jswymer
@@ -13,8 +13,6 @@ ms.collection:
 
 # Set up the sales order agent
 
-This article explains the tasks required to set up the sales ore agent.
-
 ## Activate the sales order agent
 
 The sales order agent is activated by default, but it can be deactivated by an administrator. If the ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** badge is present in the navigation menu at the top, then it's activated.  
@@ -22,6 +20,7 @@ The sales order agent is activated by default, but it can be deactivated by an a
 You activate or deactivate the agent from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The sales order agent is listed under **Production ready previews**. Learn more about activating and deactivating Copilot features in [Configure Copilot and AI capabilities](enable-ai.md).
 
 ## Set up the sales order agent
+
 
 ### Prerequisites
 

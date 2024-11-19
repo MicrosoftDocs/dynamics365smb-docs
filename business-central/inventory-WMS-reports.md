@@ -15,6 +15,10 @@ ms.service: dynamics-365-business-central
 
 Inventory and warehouse reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives inventory and business professionals insights and statistics about current and past inventory and warehouse activities.  
 
+## Explore inventory reports with Report Explorer
+
+[!INCLUDE [inventory_reports_report_explorer](includes/inventory-reports-report-explorer-include.md)]
+
 ## Inventory and warehouse report overview
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
@@ -45,14 +49,6 @@ After you install the app, you can use the **Print Label** action to print 1D an
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customized version.
 >
 > Check with your equipment supplier to learn how to print Word documents on your device.  
-
-## Explore inventory reports with Report Explorer
-
-To get an overview of the reports that are available for inventory, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**.
-
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-sales.png":::
-
-To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
 ## See also
 

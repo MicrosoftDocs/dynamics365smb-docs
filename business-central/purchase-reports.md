@@ -14,6 +14,10 @@ ms.service: dynamics-365-business-central
 
 Purchasing reports and analytical tasks give procurement and business professionals insights and statistics about current and past purchase activities.
 
+## Explore purchasing reports with Report Explorer
+
+[!INCLUDE [purchasing_reports_report_explorer](includes/purchasing-reports-report-explorer-include.md)]
+
 ## Purchasing report overview
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
@@ -25,14 +29,6 @@ The following articles describe some of the key tasks for analyzing the state of
 - [View the availability of items](inventory-how-availability-overview.md)
 - [Calculate dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-## Explore purchase reports with Report Explorer
-
-To get an overview of the reports that are available for purchasing, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Purchasing** heading, choose **Explore**.
-
-:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Example of reports on a role center." lightbox="media/report-explorer-purchasing.png":::
-
-To learn more, go to [Finding reports with the Role Explorer](ui-role-explorer.md).
 
 ## See also
 

@@ -19,7 +19,7 @@ Project reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows proj
 
 [!INCLUDE [report-explorer-projects](includes/report-explorer-projects.md)] 
 
-## Reports
+## Project report overview
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 

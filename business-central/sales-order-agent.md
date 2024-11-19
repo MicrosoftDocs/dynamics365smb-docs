@@ -22,13 +22,12 @@ The sales order agent automates the process of taking sales orders, from the cus
 - Converts the quote into a sales order upon customer approval.
 
 
-The sales order agent automates the entire sales order process, starting from the customer's request for a quote and concluding with the creation of the order. It begins by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks under human supervision to handle the request:
+The sales order agent automates the entire sales order process, starting from a customer's request for a quote and concluding with the creation of an order. It begins by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks under human supervision to handle the request:
 
-- The agent identifies an email that requests a quote and creates a task for internal review.
-- Once approved internally, the agent examines the email to determine the customer's identity from the registered list in Business Central.
-- Based on the availability of items, the agent prepares a sales quote that includes the requested items along with an email reply to the customer.
-- Once approved, the agent promptly sends the quote to the customer.
-- Upon receiving the customer's approval, the agent converts the quote into a sales order.
+- The agent identifies an email that requests a quote and creates a task for someone in the you company review the request.
+- Once approved internally, the agent examines the email to determine the customer's identity, checks item availability, and prepares a sales quote with an email reply to the customer for intermal review
+- Once approved internally, the agent sends the quote to the customer's confirmation via email.
+- Upon receiving the customer's confirmation, the agent converts the quote into a sales order and assigns a task for internal review.
 - 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).

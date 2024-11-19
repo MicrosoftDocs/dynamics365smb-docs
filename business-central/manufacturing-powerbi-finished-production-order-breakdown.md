@@ -27,19 +27,23 @@ Manufacturing managers use the report to track the progress of production orders
 
 Production supervisors use this report to track the progress of production orders and ensure that the production process is running smoothly. The report provides insights into the expected quantity versus the finished quantity, which helps identify discrepancies.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Finished Production Order Breakdown* report includes the following KPIs and measures: 
 
-- [Quantity (Base)](####)
-- [Qty. Variance](####)
-- [Qty. Deviation %](####)
-- [Expected Cost Amt.](####)
-- [Finished Cost Amt (Actual)](####)
-- [Cost Amt. Variance](####)
-- [Cost Amt. Deviation](####)
-- [Cost Amt. Deviation %](####)
-- [Capacity Used per Unit (Hours)](####) -->
+- [Expected Quantity (Base)](manufacturing-powerbi-kpis.md#expected-quantity-base)
+- [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
+- [Qty. Variance](manufacturing-powerbi-kpis.md#qty-variance)
+- [Qty. Deviation %](manufacturing-powerbi-kpis.md#qty-deviation)
+- [Expected Cost Amt.](manufacturing-powerbi-kpis.md#expected-cost-amt)
+- [Finished Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#finished-cost-amt-actual)
+- [Cost Amt. Variance](manufacturing-powerbi-kpis.md#cost-amt-variance)
+- [Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#cost-amt-deviation)
+- [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -47,6 +47,9 @@ The *Purchases Overview* report includes the following KPIs and measures:
 - [**No. of Received Not Invd. Purchase Orders**](purchases-powerbi-kpis.md#no-of-received-not-invd-purchase-orders)
 - [**No. of Purchase Invoices**](purchases-powerbi-kpis.md#no-of-purchase-invoices)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -38,6 +38,9 @@ The *Average Collection Period* report includes the following KPIs and measures:
 - [**Revenue**](finance-powerbi-kpis.md#revenue)
 - [**Accounts Receivable (Average)**](finance-powerbi-kpis.md#accounts-receivable-average)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

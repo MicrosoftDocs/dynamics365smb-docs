@@ -27,13 +27,17 @@ Manufacturing managers use this report to ensure that loads on work centers don'
 
 Production supervisors use this report to analyze the load percentage and allocated time for work center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all work centers so production runs smoothly.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Work Center Load* report includes the following KPIs and measures: 
 
-- [Load %]()
-- [Allocated Time (Hours)]()
-- [Capacity Available (Hours)]() -->
+- [Load %](manufacturing-powerbi-kpis.md#load)
+- [Allocated Time (Hours)](manufacturing-powerbi-kpis.md#allocated-time-hours)
+- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

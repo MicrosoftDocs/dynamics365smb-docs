@@ -29,17 +29,19 @@ CFOs can check which projects have low realization, and send invoices accordingl
 
 Project managers use this report to identify projects with completed work that isn't invoiced.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-The *Project Realization* reoprt includes the following KPIs:
-- [**Actual (Total Price)**](####)
-- [**Billable (Invoiced Price)**](####)
-- [**Realization %**](####)
-- [**Realization Variance%**](####)
+The *Project Realization* report includes the following KPIs:
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+- [**Actual (Total Price)**](projects-powerbi-kpis.md#actual-total-price)
+- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
+- [**Realization %**](projects-powerbi-kpis.md#realization-)
+- [**Realization Variance**](projects-powerbi-kpis.md#realization-variance)
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 
 ## Data used in the report
 
@@ -59,4 +61,5 @@ Try the report here: [Project Realization](https://businesscentral.dynamics.com?
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
+[Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)

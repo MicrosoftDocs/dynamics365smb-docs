@@ -37,6 +37,10 @@ The *Purchases by Location* report includes the following KPIs and measures:
 - [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
 - [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 ## Data used in the report
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:

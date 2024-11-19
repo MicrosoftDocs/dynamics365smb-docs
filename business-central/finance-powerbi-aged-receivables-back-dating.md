@@ -39,6 +39,9 @@ The *Aged Receivables (Back Dating)* report includes the following KPIs and meas
 - [**Bucket 3 (Receivables)**](finance-powerbi-kpis.md#bucket-3-receivables)
 - [**Bucket 4 (Receivables)**](finance-powerbi-kpis.md#bucket-4-receivables)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

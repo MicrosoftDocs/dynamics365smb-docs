@@ -29,24 +29,25 @@ Managers can use the report to ensure that stock levels are high enough to maint
 
 Procurement officers can view sales and production volumes and ensure your available balance meets the requirements for each item. With this information, you can make informed decisions on the items you should replenish.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Gross Requirement* report includes the following KPIs:
 
-- [**Gross Requirement**](####)
-- [**Project Available Balance**](####)
-- [**Qty. on Sales Order**](####)
-- [**Qty. on Purch. Return**](####)
-- [**Qty. on Service Order**](####)
-- [**Qty. on Projects**](####)
-- [**Qty. on Prod. Order Comp Lines**](####)
-- [**Trans. Order Shipment (Qty)**](####)
-- [**Planning Issues (Qty)**](###)
-- [**Qty. on Asm. Component**](###)
+- [**Gross Requirement**](inventory-powerbi-kpis.md#gross-requirement)
+- [**Project Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**Qty. on Sales Order**](inventory-powerbi-kpis.md#qty-on-sales-order)
+- [**Qty. on Purch. Return**](inventory-powerbi-kpis.md#qty-on-purch-return)
+- [**Qty. on Service Order**](inventory-powerbi-kpis.md#qty-on-service-order)
+- [**Qty. on Projects**](inventory-powerbi-kpis.md#qty-on-projects)
+- [**Qty. on Prod. Order Comp Lines**](inventory-powerbi-kpis.md#qty-on-prod-order-comp-lines)
+- [**Trans. Order Shipment (Qty)**](inventory-powerbi-kpis.md#trans-order-shipment-qty)
+- [**Planning Issues (Qty)**](inventory-powerbi-kpis.md#planning-issues-qty)
+- [**Qty. on Asm. Component**](inventory-powerbi-kpis.md#qty-on-asm-component)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

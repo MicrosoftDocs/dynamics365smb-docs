@@ -167,6 +167,7 @@ The totalling accounts should be set up such as the following example:
 
 ## See also
 
+[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Power BI finance app](finance-powerbi-app.md)   
 [Financial analytics overview](bi.md)  
 [Finance overview](finance.md)  

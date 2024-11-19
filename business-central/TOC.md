@@ -538,6 +538,8 @@ ms.service: dynamics-365-business-central
 #### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
 #### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
 #### [Finance KPI overview](finance-powerbi-kpis.md) 
+#### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
+
 
 <!-- 
 #### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)

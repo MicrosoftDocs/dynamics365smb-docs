@@ -1108,12 +1108,52 @@ ms.service: dynamics-365-business-central
 
 ## Service management
 ### [Service management](service-service.md)
+### Service management analytics
+#### [View service statistics](service-service-statistics.md)
+#### Service management reports
+##### [Service management report overview](service-reports.md)
+##### [Service Order](reports/report-5900.md)
+##### [Service Item Line Labels](reports/report-5901.md)
+##### [Service Quote](reports/report-5902.md)
+##### [Service Tasks](reports/report-5904.md)
+##### [Service Order - Response Time](reports/report-5908.md)
+##### [Service Profit (Resp. Centers)](reports/report-5909.md)
+##### [Service Profit (Serv. Orders)](reports/report-5910.md)
+##### [Service - Invoice](reports/report-5911.md)
+##### [Service - Credit Memo](reports/report-5912.md)
+##### [Service - Shipment](reports/report-5913.md)
+##### [Service Document - Test](reports/report-5915.md)
+##### [Service Items](reports/report-5935.md)
+##### [Service Item Worksheet](reports/report-5936.md)
+##### [Service Items Out of Warranty](reports/report-5937.md)
+##### [Service Profit (Service Items)](reports/report-5938.md)
+##### [Service Item - Resource Usage](reports/report-5939.md)
+##### [Dispatch Board](reports/report-5955.md)
+##### [Service Load Level](reports/report-5956.md)
+##### [Service Contract](reports/report-5970.md)
+##### [Service Contract-Detail](reports/report-5971.md)
+##### [Service Contract Quote](reports/report-5972.md)
+##### [Service Contract Quote-Detail](reports/report-5973.md)
+##### [Contract Quotes to Be Signed](reports/report-5974.md)
+##### [Service Profit (Contracts)](reports/report-5976.md)
+##### [Service Contract - Customer](reports/report-5977.md)
+##### [Serv. Contract - Salesperson](reports/report-5978.md)
+##### [Maintenance Visit - Planning](reports/report-5980.md)
+##### [Contr. Gain/Loss - Resp. Ctr.](reports/report-5981.md)
+##### [Maintenance Performance](reports/report-5982.md)
+##### [Contract Gain/Loss Entries](reports/report-5983.md)
+##### [Contract Invoicing - Test](reports/report-5984.md)
+##### [Contract Price Update - Test](reports/report-5985.md)
+##### [Expired Contract Lines - Test](reports/report-5987.md)
+##### [Contr. Serv. Orders - Test](reports/report-5988.md)
+##### [Serv. Pricing Profitability](reports/report-6080.md)
+##### [Prepaid Contr. Entries](reports/report-6086.md)
+
 ### Planning service
 #### [Planning service management](service-plan-service.md)
 #### [Service price management](service-service-price-management.md)
 #### [Service order status and repair status](service-service-order-status-and-repair-status.md)
 #### [Allocation status and repair status of service items](service-allocation-status-and-repair-status.md)
-#### [View service statistics](service-service-statistics.md)
 ### Fulfill service contracts
 #### [Fulfill service contracts](service-fulfill-service-contracts.md)
 #### [Multiple contracts](service-multiple-contracts.md)
@@ -1129,6 +1169,7 @@ ms.service: dynamics-365-business-central
 #### [Service posting](service-service-posting.md)
 #### [Post service orders and credit memos](service-how-to-post-service-orders.md)
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
+
 <!--Shopify-->
 ## Online store with shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)

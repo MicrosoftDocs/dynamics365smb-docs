@@ -74,11 +74,81 @@ The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps currently work per 
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
 
+## Run the **Connect to Power BI** assisted setup guide.
+
+After installing the Power BI apps you want to use, it is time to configure how they should interact with your company in BC.
+
+> [!NOTE]
+> This configuration can be managed by stepping through the **Connect to Power BI** assisted setup guide, or by navigating to the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+
+You can Configure the following components in the assisted setup guide 
+
+1. Calendar Type 
+1. UTC Offset
+1. Date Table Range
+1. Working Days
+1. Report Mapping
+
+
+### Calendar Type Configuration
+
+Choose which type of calendar the year boundaries are applied to. 
+
+- **Fiscal**: 12-month calendar that begins in any month of the year and ends twelve months after.
+- **Standard**: 12-month calendar that begins on January 1 and ends on December 31.
+- **Weekly**: Calendar that supports: 445, 454, or 544 week groupings. The first and last day of the year might not correspond to a first and last day of a month, respectively.
+
+> [!IMPORTANT]
+> By default, all [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports are configured to use Fiscal Calendar date fields and Fiscal Time Intelligence measures. 
+
+<!-- If you choose a calendar type other than Fiscal, you will need to edit the Power BI reports and change the date field references and measure references accordingly.  -->
+
+### UTC Offset
+
+Defines the UTC time zone in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] date table.
+
+The UTC Offset allows your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model to accurately calculate what the current day is in respect to your geographical location. This is necessary because your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps might be hosted in a data center located in a different region.
+
+UTC offsets are based on [!INCLUDE [prod_short](includes/prod_short.md)] time zones.
+
+### Date Table Range
+
+The **Starting Date** and **Ending Date** fields are set automatically based on your Accounting Periods in [!INCLUDE [prod_short](includes/prod_short.md)]. Based on these dates, [!INCLUDE [powerbi-name](includes/powerbi-name.md)] will generate a series of continuous dates for your date table. 
+
+> [!NOTE]
+> If you have Budgets that extend past the last date in your Account Period table, you will need to manually set the Ending Date to accommodate the extended range.
+
+### Working Days
+
+You can define which days of the week you consider "working days". The default setting is Monday to Friday.
+
+### Embedded Report Mapping
+
+To enable the embedded report pages in [!INCLUDE [prod_short](includes/prod_short.md)], you need to setup links to the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] service.
+
+1. For each functional area in [!INCLUDE [prod_short](includes/prod_short.md)], select the ellipsis to open the **Select Power BI Workspace** page.
+1. Select the corresponding workspace where the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is stored.
+1. Select the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] Report (app) you wish to link.
+
+
+## Connecting the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models to [!INCLUDE [prod_short](includes/prod_short.md)]
+
+This part of the configuration must be done in the semantic models in your [Power BI service](https://app.powerbi.com). 
+
+Each semantic model require two parameters to be populated:
+- ENVIRONMENT
+- COMPANY
+
+The values for each can be found in the connection details of the assisted setup guide or on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+
+
 ## Get the latest data
 
 Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a semantic model (also known as a dataset) that gets data from [!INCLUDE [prod_short](includes/prod_short.md)] APIs. Make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE [prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing* the model. Depending on your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] setup, refreshing might not happen automatically. You can refresh data manually, or by scheduling a refresh. You can do a manual refresh at any time. A scheduled refresh lets you refresh data automatically at defined time intervals.
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
+
+
 
 ## See also
 

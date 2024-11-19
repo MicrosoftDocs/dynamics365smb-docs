@@ -9,20 +9,26 @@ ms.search.keywords: reporting
 ms.search.form: Report_5980_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Maintenance Visit - Planning (report)
 
-The **Maintenance Visit - Planning** report shows service dates of all the maintenance visits for the chosen responsibility centers. 
+The **Maintenance Visit - Planning** report shows the service dates of all maintenance visits for selected responsibility centers.
 
-The report displays information such as service zone code, group code, contract number, customer number, service period, as well as the service date. 
+The report displays information such as:
 
-You can select the schedule for one or more responsibility centers. 
+- Service zone code
+- Group code
+- Contract number
+- Customer number
+- Service period
+- Service date
 
+You can select the schedule for one or more responsibility centers.
 
 ## Use cases
 
@@ -49,16 +55,13 @@ Maintenance Visit - Planning
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -66,10 +69,9 @@ Try the report here: [Maintenance Visit - Planning](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

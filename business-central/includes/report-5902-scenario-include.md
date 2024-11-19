@@ -1,1 +1,1 @@
-Generate a service quote document that you can send to your customer.
+Generate a service quote that you can send to your customer.

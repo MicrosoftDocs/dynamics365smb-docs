@@ -1,1 +1,1 @@
-Analyze maintenance performance for your responsibility centers.
+Analyze maintenance performance for responsibility centers.

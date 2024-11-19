@@ -9,18 +9,26 @@ ms.search.keywords: reporting
 ms.search.form: Report_5971_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Service Contract-Detail (report)
 
-The **Service Contract-Detail** report shows details about your service contracts. 
+The **Service Contract-Detail** report shows details about your service contracts.
 
-The report displays information such as item number, description, variant code, serial number, service period, contract value, contract discount, and contract amounts.
+The report displays information such as: 
 
+- Item number
+- Description
+- Variant code
+- Serial number
+- Service period
+- Contract value
+- Contract discount
+- Contract amounts
 
 ## Use cases
 
@@ -47,16 +55,13 @@ Service Contract-Detail
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -64,10 +69,9 @@ Try the report here: [Service Contract-Detail](https://businesscentral.dynamics.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

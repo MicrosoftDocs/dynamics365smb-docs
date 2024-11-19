@@ -1,1 +1,1 @@
-Get an overview on profit for service orders.
+Get an overview of profit for service orders.

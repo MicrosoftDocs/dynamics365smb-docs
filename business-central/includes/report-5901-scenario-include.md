@@ -1,1 +1,1 @@
-Get an overview of service items in your service orders. 
+Get an overview of service items that are included in service orders. 

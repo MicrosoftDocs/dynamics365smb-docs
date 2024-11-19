@@ -9,20 +9,25 @@ ms.search.keywords: reporting
 ms.search.form: Report_5972_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Service Contract Quote (document report)
 
-The **Service Contract Quote** report is meant for producing a document that you can send to your customer.
+Use the **Service Contract Quote** report to produce quotes that you can send to your customer.
 
-The report displays information such as contract number, starting date, invoice period and discount, as well as the annual amount. 
+The report displays information such as:
 
-You can include either all service contract quotes or selected service contract quotes in the report output.
+- Contract number
+- Starting date
+- Invoice period
+- Discount
+- Annual amount 
 
+You can include either all or selected service contract quotes in the report.
 
 ## Use cases
 
@@ -49,16 +54,13 @@ Service Contract Quote
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -66,10 +68,9 @@ Try the report here: [Service Contract Quote](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

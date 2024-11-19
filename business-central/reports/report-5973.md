@@ -9,20 +9,22 @@ ms.search.keywords: reporting
 ms.search.form: Report_5973_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Service Contract Quote-Detail (report)
 
 The **Service Contract Quote-Detail** report shows a detailed list of all your service contract quotes.
 
-The report displays information such as service items, as well as the service contract discounts. 
+The report displays information such as:
+
+- Service items
+- Service contract discounts
 
 The quoted amounts are summarized for each contract.
-
 
 ## Use cases
 
@@ -49,16 +51,13 @@ Service Contract Quote-Detail
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -66,10 +65,9 @@ Try the report here: [Service Contract Quote-Detail](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

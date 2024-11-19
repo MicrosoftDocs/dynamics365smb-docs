@@ -1,1 +1,1 @@
-Generate a service credit memo document that you can send to your customer.
+Generate a service credit memo that you can send to your customer.

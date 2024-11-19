@@ -1,1 +1,1 @@
-Analyze response times for service orders that have been shipped.
+Analyze response times for service orders that are shipped.

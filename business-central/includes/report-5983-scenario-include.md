@@ -1,1 +1,1 @@
-Get an overview of shows all your service contract gain/loss entries.
+Get an overview of service contract entries for gains and losses.

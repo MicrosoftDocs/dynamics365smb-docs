@@ -1,1 +1,1 @@
-Analyze which contract lines have expired and need to be removed from service contracts up to the date that you have specified.
+Find contract lines that are expired up to a date that you specify. Then remove them from the service contracts.

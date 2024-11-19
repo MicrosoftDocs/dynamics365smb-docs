@@ -1,1 +1,1 @@
-Get an overview of what is needed for a service repair task.
+Get an overview of what's needed to complete a service repair task.

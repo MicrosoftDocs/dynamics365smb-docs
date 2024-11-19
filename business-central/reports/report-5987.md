@@ -1,6 +1,6 @@
 ---
 title: Expired Contract Lines - Test (report)
-description: Analyze which contract lines have expired and need to be removed from service contracts up to the date that you have specified.
+description: Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -9,22 +9,27 @@ ms.search.keywords: reporting
 ms.search.form: Report_5987_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Expired Contract Lines - Test (report)
 
-The **Expired Contract Lines - Test** report shows which contract lines have expired and need to be removed from service contracts up to the date that you have specified.
+The **Expired Contract Lines - Test** report shows contract lines that are expired and need to be removed from service contracts up to the date that you specify.
 
-The report displays information such as contract numbers, the service items to be removed, the contract expiration dates, and line amounts. 
+The report displays information such as:
 
-You can run the report different output options:
-* Enter the date up to which you want to check for expired contract lines. The report includes contract lines with contract expiration dates on or before this date.
-* Select a reason code for the removal of lines from the contract. 
+- Contract numbers
+- Service items to remove
+- Contract expiration dates
+- Line amounts
 
+The report offers options for the output:
+
+- Enter the date up to which you want to check for expired contract lines. The report includes contract lines with contract expiration dates on or before this date.
+- Select a reason code for the removal of lines from the contract.
 
 ## Use cases
 
@@ -51,16 +56,13 @@ Expired Contract Lines - Test
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -68,10 +70,9 @@ Try the report here: [Expired Contract Lines - Test](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

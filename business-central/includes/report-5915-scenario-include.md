@@ -1,1 +1,1 @@
-Test that service orders, invoices or credit memos look right before you post them.
+Verify whether service orders, invoices, or credit memos are correct before you post them.

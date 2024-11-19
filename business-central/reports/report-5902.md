@@ -9,18 +9,24 @@ ms.search.keywords: reporting
 ms.search.form: Report_5902_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Service Quote (document report)
 
-The **Service Quote** report is meant for producing a document that you can send to your customer.
+Use the **Service Quote** report to produce a service quote that you can send to your customer.
 
-The report displays information such as the service quote number, status, order date and time, as well as the customer name and address. You can print all the service quotes or selected service quotes.
+The report displays information such as:
 
+- Service quote number
+- Status
+- Order date and time
+- Customer name and address. 
+
+You can print all or selected service quotes.
 
 ## Use cases
 
@@ -47,16 +53,13 @@ Service Quote
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -64,10 +67,9 @@ Try the report here: [Service Quote](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

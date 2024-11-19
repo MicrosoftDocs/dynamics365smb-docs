@@ -1,1 +1,1 @@
-Get an overviee of your dispatch board.
+Get an overview of your dispatch board.

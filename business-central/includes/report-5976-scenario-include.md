@@ -1,1 +1,1 @@
-Get an overview on profit for service contracts.
+Get an overview of profit for service contracts.

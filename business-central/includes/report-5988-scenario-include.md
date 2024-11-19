@@ -1,1 +1,1 @@
-Analyze which service contracts include service items that are due for service within the specified period.
+Find service contracts that include service items that are due for service within a period you specify.

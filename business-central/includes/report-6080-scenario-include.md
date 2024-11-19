@@ -1,1 +1,1 @@
-Analyze your service pricing profit.
+Analyze profits from your service pricing.

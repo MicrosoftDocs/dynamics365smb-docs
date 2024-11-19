@@ -9,20 +9,29 @@ ms.search.keywords: reporting
 ms.search.form: Report_5981_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Contr. Gain/Loss - Resp. Ctr. (report)
 
-The **Contr. Gain/Loss - Resp. Ctr.** report shows an analysis of gains and losses made on contracts attached to the different responsibility centers.
+The **Contr. Gain/Loss - Resp. Ctr.** report shows an analysis of gains and losses made on contracts attached to responsibility centers.
 
-The report displays information such as responsibility center, customer number, ship-to code, customer name, contract group code, contract number, change status, change date, and amount. 
+The report displays information such as: 
 
-You can select to show details of the contract gain/loss entry.
+- Responsibility center
+- Customer number
+- Ship-to code
+- Customer name
+- Contract group code
+- Contract number
+- Change status
+- Change date
+- Amount
 
+You can select whether to show details about the contract gain and loss entries.
 
 ## Use cases
 
@@ -49,16 +58,13 @@ Contr. Gain/Loss - Resp. Ctr.
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -66,10 +72,9 @@ Try the report here: [Contr. Gain/Loss - Resp. Ctr.](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

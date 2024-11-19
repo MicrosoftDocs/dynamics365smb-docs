@@ -9,27 +9,31 @@ ms.search.keywords: reporting
 ms.search.form: Report_5913_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Service - Shipment (document report)
 
-The **Service - Shipment** report is meant for producing a document that you can send to your customer.
+Use the **Service - Shipment** report to produce shipment documents that you can send to your customer.
 
-The report displays information such as shipment number and date, item description and quantity, as well as the customer's name, address and contact number.
+The report displays information such as:
 
-Only posted shipments are included in the report.
+- Shipment number and date
+- Item description and quantity
+- Customer name, address, and contact number
 
-The report allows for different output options:
-* Get multiple copies of the shipment, in addition to the original. The copies are marked Copy.
-* Show the correction lines that are related to undoing quantity posting.
-* Add an appendix to the report with information about the lot and serial numbers that are in the shipment.
+The report only includes posted shipments.
 
-You can include either all service shipments or selected service shipments in the report output.
+The report provides options for different outputs:
 
+- Get multiple copies of the shipment. The copies are marked with **Copy**.
+- Show the correction lines that are related to undoing posted quantities.
+- Add an appendix to the report with the lot and serial numbers that are in the shipment.
+
+You can include either all or selected service shipments in the report.
 
 ## Use cases
 
@@ -56,16 +60,13 @@ Service - Shipment
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -73,10 +74,9 @@ Try the report here: [Service - Shipment](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

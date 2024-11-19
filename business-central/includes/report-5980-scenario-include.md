@@ -1,1 +1,1 @@
-Generate a report with all your schedules for maintenance visits.
+Generate a report that shows all your scheduled maintenance visits.

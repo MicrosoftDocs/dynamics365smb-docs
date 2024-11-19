@@ -9,22 +9,27 @@ ms.search.keywords: reporting
 ms.search.form: Report_5988_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Contr. Serv. Orders - Test (report)
 
-The **Contr. Serv. Orders - Test** report shows which service contracts include service items that are due for service within the specified period.
+The **Contr. Serv. Orders - Test** report shows which service contracts include service items that are due for service within a period you specify.
 
-The report displays information such as the numbers of contracts, the numbers and the names of customers, as well as some other information relating to the service orders that are created for the period that you have specified. 
+The report displays information such as:
 
-You can run the report different output options:
-* Enter the starting date for the period that you want to create contract service orders for. The report includes contracts with service items that have next planned service dates on or later than this date.
-* Enter the ending date for the period that you want to create contract service orders for. The report includes contracts with service items with next planned service dates on or earlier than this date.
+- Numbers of contracts
+- Numbers and the names of customers
 
+The report also includes information about the service orders that are created for the period that you specified.
+
+The report offers options for the output:
+
+- Enter the starting date for the period that you want to create contract service orders for. The report includes contracts with service items that have next planned service dates on or later than this date.
+- Enter the ending date for the period that you want to create contract service orders for. The report includes contracts with service items with next planned service dates on or earlier than this date.
 
 ## Use cases
 
@@ -51,16 +56,13 @@ Contr. Serv. Orders - Test
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -68,10 +70,9 @@ Try the report here: [Contr. Serv. Orders - Test](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

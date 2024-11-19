@@ -1,1 +1,1 @@
-Get an overview of which service contracts need price updates up to the date that you have specified.
+Get an overview of service contracts that need price updates up to a date that you specify.

@@ -1,1 +1,1 @@
-Get an overview of contract quotes to be signed and optionally add a forecast of future contract quotes to be signed.
+Get an overview of contract quotes that you need to sign. Optionally, add a forecast of contract quotes to sign in the future.

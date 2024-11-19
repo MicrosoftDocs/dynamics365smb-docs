@@ -9,18 +9,24 @@ ms.search.keywords: reporting
 ms.search.form: Report_5935_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Service Items (report)
 
 The **Service Items** report shows a list of registered service items, grouped by customer.
 
-The report displays information such as item description, customer number, serial number, service item group code, variant code, and number of active contracts. 
+The report displays information such as: 
 
+- Item description
+- Customer number
+- Serial number
+- Service item group code
+- Variant code
+- Number of active contracts
 
 ## Use cases
 
@@ -47,16 +53,13 @@ Service Items
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases   
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -64,10 +67,9 @@ Try the report here: [Service Items](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,1 +1,1 @@
-Get an overview of the transfer of prepaid service contract ledger entries amounts from prepaid accounts to income accounts.
+Get an overview of the transfer of prepaid service contract ledger entry amounts from prepaid accounts to income accounts.

@@ -1,6 +1,6 @@
 ---
 title: Contract Invoicing - Test (report)
-description: See which service contracts are due for invoicing up to the date that you have specified.
+description: See which service contracts are due for invoicing up to the date that you specify.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -9,22 +9,28 @@ ms.search.keywords: reporting
 ms.search.form: Report_5984_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Contract Invoicing - Test (report)
 
-The **Contract Invoicing - Test** report shows information such as contract numbers, customer numbers, contract invoice periods and amounts, next invoice dates, and the number of service invoices that are created. 
+The **Contract Invoicing - Test** report shows information such as:
 
-You can test which service contracts are due for invoicing up to the date that you have specified.
+- Contract numbers
+- Customer numbers
+- Contract invoice periods and amounts
+- Next invoice dates
+- Number of service invoices
 
-The report allows for different output options:
-* enter the date that you want to use as the posting date on the service invoices that are created.
-* enter the date up to which you want to invoice contracts. The report includes contracts with the next invoice dates on or before this date.
+You can test which service contracts are due for invoicing up to a date that you specify.
 
+The report offers options for the output:
+
+- Enter the date that you want to use as the posting date on the service invoices.
+- Enter the date up to which you want to invoice contracts. The report includes contracts with the next invoice dates on or before this date.
 
 ## Use cases
 
@@ -51,16 +57,13 @@ Contract Invoicing - Test
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -68,10 +71,9 @@ Try the report here: [Contract Invoicing - Test](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

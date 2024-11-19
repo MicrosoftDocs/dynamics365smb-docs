@@ -9,22 +9,27 @@ ms.search.keywords: reporting
 ms.search.form: Report_6086_Primary
 ms.date: 11/2/2024
 ms.service: dynamics-365-business-central
-# ms.custom:
-#  - ai-gen-docs-bap
-#  - ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.custom:
+  - ai-gen-docs-bap
+ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Prepaid Contr. Entries (report)
 
-The **Prepaid Contr. Entries** report shows the transfer of prepaid service contract ledger entries amounts from prepaid accounts to income accounts up to the date you have specified.
+The **Prepaid Contr. Entries** report shows the transfer of prepaid service contract ledger entries amounts from prepaid accounts to income accounts up to the date you specify.
 
-The report displays information such as contract numbers, service items, account numbers, and amounts posted. 
+The report displays information such as:
 
-You can run the report different output options:
-* Enter the date up to which you want to post prepaid entries. The report includes service ledger entries with posting dates on or before this date.
-* Enter the date that you want to use as the posting date on the service ledger entries.
+- Contract numbers
+- Service items
+- Account numbers
+- Amounts posted
 
+The report offers options for the output:
+
+- Enter the date up to which you want to post prepaid entries. The report includes service ledger entries with posting dates on or before this date.
+- Enter the date that you want to use as the posting date on the service ledger entries.
 
 ## Use cases
 
@@ -51,16 +56,13 @@ Prepaid Contr. Entries
 
 ## Report description
 
-
 ### What the report does
 
 ### Use cases
 
-
 Please include your data sources and URLs
 
 -->
-
 
 ## Try the report
 
@@ -68,10 +70,9 @@ Try the report here: [Prepaid Contr. Entries](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## See also
 
-[Service management report overview](../service-reports.md)   
-[Service management](../service-service.md)    
+[Service management report overview](../service-reports.md)  
+[Service management](../service-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

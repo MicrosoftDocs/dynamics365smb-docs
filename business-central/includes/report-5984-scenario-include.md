@@ -1,1 +1,1 @@
-See which service contracts are due for invoicing up to the date that you have specified.
+Find service contracts that are due for invoicing up to a date that you specify.

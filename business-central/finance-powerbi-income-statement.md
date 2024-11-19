@@ -34,6 +34,9 @@ The report includes the following KPIs and measures:
 
 - [**Net Change**](finance-powerbi-kpis.md#net-change)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

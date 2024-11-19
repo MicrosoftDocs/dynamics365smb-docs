@@ -36,6 +36,8 @@ The *Capacity Variance* report includes the following KPIs and measures:
 - [Capacity Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#capacity-cost-amt-actual)
 - [Capacity Cost Amt. Variance](manufacturing-powerbi-kpis.md#capacity-cost-amt-variance)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

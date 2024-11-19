@@ -38,7 +38,7 @@ The *Project Realization* report includes the following KPIs:
 - [**Realization %**](projects-powerbi-kpis.md#realization-)
 - [**Realization Variance**](projects-powerbi-kpis.md#realization-variance)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

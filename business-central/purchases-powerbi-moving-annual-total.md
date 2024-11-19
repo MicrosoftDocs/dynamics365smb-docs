@@ -38,6 +38,9 @@ The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 - [**Moving Annual Total Growth %**](purchases-powerbi-kpis.md#purchase-amount-matg--fiscal)
 - [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

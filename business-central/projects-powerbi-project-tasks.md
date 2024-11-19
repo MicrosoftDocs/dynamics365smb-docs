@@ -36,6 +36,8 @@ The *Project Tasks* report includes the following KPIs:
 - [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
 - [**Realization %**](projects-powerbi-kpis.md#realization-)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

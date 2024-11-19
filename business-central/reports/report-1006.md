@@ -19,6 +19,8 @@ ai.usage: ai-assisted
 
 The **Project Planning Lines** report shows the planning and project task lines for a project. The report includes information such as the line type, quantities, unit of measure, total costs, and so on.
 
+You can choose whether the currency displays in local currency or foreign currency.
+
 ## Use cases
 
 [!INCLUDE[report-1006-scenario](../includes/report-1006-scenario-include.md)]
@@ -63,6 +65,7 @@ Try the report here: [Project Planning Lines](https://businesscentral.dynamics.c
 
 ## See also
 
-[Project Reports and Analytics in Business Central](../project-reports.md)
+[Project Reports](../project-reports.md)  
+[Project management analytics overview](../projects-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

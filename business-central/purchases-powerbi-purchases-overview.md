@@ -33,14 +33,23 @@ CEOs can use the report to keep track of purchasing activities. This report give
 
 Purchasing managers can identify where you might be overspending or underspending. For example, you might notice that your organization spent a lot on a specific item category, but the quantity of purchases was lower than expected. You might review vendor contracts, find alternative vendors with better prices, or negotiate better terms with existing vendors. By taking these actions, you can optimize purchasing activities, reduce costs, and comply with the overall budget.
 
-<!-- ## Key Performance Indicators (KPIs)
+
+## Key Performance Indicators (KPIs)
 
 The *Purchases Overview* report includes the following KPIs and measures: 
 
-- [**Total Purchase Amount**](####)
-- [**Outstanding Amount (excluding VAT)**](####)
-- [**Amount Received but Not Invoiced (excluding VAT)**](####)
-- [**Invoiced Amount**](####) -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Outstanding Amount (excluding VAT)**](purchases-powerbi-kpis.md#outstanding-amount-excl-vat)
+- [**Amount Received but Not Invoiced (excluding VAT)**](purchases-powerbi-kpis.md#amt-rcd-not-invd-excl-vat)
+- [**Invoiced Amount**](purchases-powerbi-kpis.md#invoiced-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**No. of Outstanding Purchase Orders**](purchases-powerbi-kpis.md#no-of-outstanding-purchase-orders)
+- [**No. of Received Not Invd. Purchase Orders**](purchases-powerbi-kpis.md#no-of-received-not-invd-purchase-orders)
+- [**No. of Purchase Invoices**](purchases-powerbi-kpis.md#no-of-purchase-invoices)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

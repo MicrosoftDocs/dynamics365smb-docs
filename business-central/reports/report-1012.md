@@ -21,6 +21,8 @@ The **Projects per Customer** report shows a list of all projects, grouped by cu
 
 Use the report to compare the scheduled price, the percentage of completion, the invoiced price, and the percentage of invoiced amounts for each **Bill-to Customer**.
 
+The report subtotals amounts for each customer. At the end of the report, all amounts are totaled.
+
 ## Use cases
 
 [!INCLUDE[report-1012-scenario](../includes/report-1012-scenario-include.md)]
@@ -65,6 +67,7 @@ Try the report here: [Projects per Customer](https://businesscentral.dynamics.co
 
 ## See also
 
-[Project Reports and Analytics in Business Central](../project-reports.md)  
+[Project Reports](../project-reports.md)  
+[Project management analytics overview](../projects-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

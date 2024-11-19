@@ -1,6 +1,6 @@
 ---
 title: Sales Reservation Avail. (report)
-description: Get an overview of which items are available to fulfill sales orders and help ensure that inventory reservations are accurate.
+description: Get an overview of which items are available to fulfill sales orders, and help ensure that inventory reservations are accurate.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -22,11 +22,11 @@ The **Sales Reservation Avail.** report shows the availability of items for ship
 > [!NOTE]
 > You must use the reservations feature for the report to show data.
 
-You determine whether the report indicates the status of each document or of each sales line.
+You decide whether the report indicates the status of each document or each sales line.
 
-When you print (not just preview) the report, you can also update the quantity that is available for shipment in the **Qty. to Ship** field on the sales lines. Then you can use the report to determine which documents to post.
+When you print (not just preview) the report, you can also update the quantity available for shipment in the **Qty. to Ship** field on the sales lines. You can then use the report to determine which documents to post.
 
-The report also includes the ability to specify the amounts to ship.
+You can also use the report to specify the amounts to ship.
 
 > [!NOTE]
 > This report isn't available for advanced warehouse functionality.
@@ -65,21 +65,21 @@ Please include your data sources and URLs
 
 Sales representatives use the report to:
 
-* Ensure that inventory reservations are accurate and up-to-date for sales orders.
-* Identify which items are or aren't available for shipment and provide accurate delivery estimates to customers.
-* Specify the amounts to ship, and determine which sales orders you can fulfill based on inventory availability.
+* Ensure that inventory reservations are accurate and up to date for sales orders.
+* Identify which items are and aren't available for shipment, and provide accurate delivery estimates to customers.
+* Specify the amounts to ship and determine which sales orders you can fulfill, based on inventory availability.
 
 Sales managers use the report to:
 
-* Monitor inventory levels and ensure that there's sufficient stock available to fulfill sales orders.
-* Identify discrepancies between inventory reservations and actual stock levels to avoid over-committing inventory.
-* Make informed decisions about which sales orders to prioritize based on inventory availability.
+* Monitor inventory levels and ensure that sufficient stock is available to fulfill sales orders.
+* Identify discrepancies between inventory reservations and actual stock levels to avoid overcommitting inventory.
+* Make informed decisions about which sales orders to prioritize, based on inventory availability.
 
 Warehouse managers use the report to:
 
-* Monitor inventory levels and ensure that there's sufficient stock available to fulfill sales orders.
-* Specify the amounts to ship, and determine which sales orders you can fulfill based on inventory availability.
-* Ensure that inventory reservations are accurate and up-to-date for sales orders to avoid over-committing inventory.
+* Monitor inventory levels and ensure that sufficient stock is available to fulfill sales orders.
+* Specify the amounts to ship and determine which sales orders you can fulfill, based on inventory availability.
+* Ensure that inventory reservations are accurate and up to date for sales orders, to avoid overcommitting inventory.
 
 ## Try the report
 
@@ -87,10 +87,10 @@ Try the report here: [Sales Reservation Avail.](https://businesscentral.dynamics
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

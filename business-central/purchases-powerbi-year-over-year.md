@@ -31,13 +31,17 @@ COOs ensure that the purchasing department operates efficiently and effectively.
 
 Purchasing managers ensure that the company sources goods at the best price without compromising quality. Use this report to track purchasing trends across different categories and identify areas where you can save. For example, you might notice a rapid increase in purchases of a category of products. With this information in mind, you can work with the manufacturing team to identify whether to change item planning or supplier selection to optimize product cost and quality.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Year-Over-Year* report includes the following KPIs and measures: 
 
-- [**Current Year**](####)
-- [**Previous Year (Fiscal)**](####)
-- [**Current Year YOY (Fiscal)**](####) -->
+- [**Current Year**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Previous Year (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
+- [**Current Year YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

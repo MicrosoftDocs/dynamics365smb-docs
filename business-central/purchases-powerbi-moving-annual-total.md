@@ -27,15 +27,20 @@ CEOs can use the report to monitor the overall purchasing performance over the l
 
 Purchasing managers can use this report to analyze the purchasing data over the last 12 months, and analyze purchase amounts for specific periods. You can identify purchasing performance by analyzing the MAT growth and growth percentage in each month. These measures offer insight into how your team performs during each period. By identifying the areas where purchasing increased, you can take necessary actions to optimize the purchasing process and ensure you're using purchasing budget efficiently.
 
-<!-- ## Key Performance Indicators (KPIs)
+
+## Key Performance Indicators (KPIs)
 
 The *Moving Annual Total (MAT)* report includes the following KPIs and measures:
 
-- [**Moving Annual Total (MAT)**](####)
-- [**Previous Year Moving Annual Total (PYMAT)**](####)
-- [**Moving Annual Total Growth Amount**](####)
-- [**Moving Annual Total Growth %**](####)
-- [**Purchase Amount**](####) -->
+- [**Moving Annual Total (MAT)**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
+- [**Previous Year Moving Annual Total (PYMAT)**](purchases-powerbi-kpis.md#purchase-amount-pymat-fiscal)
+- [**Moving Annual Total Growth Amount**](purchases-powerbi-kpis.md#purchase-amount-matg-fiscal)
+- [**Moving Annual Total Growth %**](purchases-powerbi-kpis.md#purchase-amount-matg--fiscal)
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

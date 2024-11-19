@@ -1,13 +1,13 @@
 ---
-title: Add Attachments, Links, and Notes on Records
+title: Add attachments, links, and notes on records
 description: Attach a hyperlink to a document or a website to a specific record, such as a customer or document.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/15/2023
+ms.date: 11/13/2024
 ms.custom: bap-template
-ms.search.form: 8896
+ms.search.form: 8896,
 ms-service: dynamics-365-business-central
 ms.service: dynamics-365-business-central
 ---
@@ -99,15 +99,15 @@ The following procedure is based on a sales order. The steps are similar for all
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to write a note on, and then choose the **Attachments** tab in the FactBox.
 3. In the **Notes** section, choose the **+** icon.
-4. In the **Note** field, write any text, such as "This is an urgent order.".
+4. In the **Note** field, write any text, such as "This is an urgent order."
 5. Choose the **OK** button.
 
 The note is now attached to the sales order.
 
 ## See also  
+
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoming Documents](across-income-documents.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

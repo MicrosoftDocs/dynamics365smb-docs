@@ -16,7 +16,7 @@ Once the sales order agent is activated, it monitors the mailbox for incoming em
 
 ## Get started
 
-You collaborate with the sales order agent to review and convert quotes into orders using the Tasks view in the Copilot pane. 
+You collaborate with the sales order agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane. 
 
 To access this view, select the  sales order agent badge on the right side of the navigation menu at the top. A red circle with a number on the icon indicates tasks needing attention.  
 

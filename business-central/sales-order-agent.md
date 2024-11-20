@@ -22,7 +22,7 @@ ms.collection:
 - Sends the quote to the customer after approval.
 - Converts the quote into a sales order upon customer approval.-->
 
-The sales order agent automates the process of taking sales orders, starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the porcess by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
+The sales order agent automates the process of taking sales orders, starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the process by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
 
 <!--
 - The agent identifies an email that requests a quote and creates a task for someone in the you company review the request.
@@ -32,10 +32,15 @@ The sales order agent automates the process of taking sales orders, starting fro
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
->
-> *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*
 
-## Understand the general flow
+<!--
+> *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*-->
+
+## How it works 
+
+A sales order agent uses AI to process sales orders. It interacts with the Business Central web client via an API, accessing data and using UI elements to show its actions onscreen. Acting autonomously, the agent generates sales quotes and handles various tasks without manual input but keeps the user informed and involves them when needed. An email dispatcher continuously monitors the company mailbox, triggering the agent to perform tasks and send results like prepared sales quotes in response. Learn more in [FAQ for sales order agent ](faqs-sales-order-taker-agent.md).
+
+### Understand the general flow
 
 Processing a sales quote request into an order involves 3 participants: 
 
@@ -43,7 +48,7 @@ Processing a sales quote request into an order involves 3 participants:
 - Sales order agent, which monitors the mailbox and handles the incoming request and creates the quote and order  
 - Business Central user who reviews agent tasks (reviewer)
 
-The general flow is illustrated as follows. The actually flow might vary depending factors such a follow up requests, changes made in review, blocking issues, and so one.
+The general flow is illustrated in the figure foolwed by more details of the steps. The actually flow might vary depending factors such as follow up requests, changes or cancellations in review, blocking issues, and so one.
 
 ![Shows the sales order agent flow](media/soa-flow.svg)
 
@@ -52,10 +57,10 @@ The general flow is illustrated as follows. The actually flow might vary dependi
 1. Reviewer: Reviews/confirms the step with email.  
 1. Sales order agent: 
 
-    1. Finds the requested items. 
+    1. Finds the requested items.
     1. Finds the contact. 
     1. Creates the sales quote. 
-    1. Adds review step with a reply email with attached sales quote as pdf. 
+    1. Adds review step with a reply email with attached sales quote as pdf.
 1. Reviewer: Reviews/confirms email and sales quotes. 
 1. Sales order agent: Sends email and sales quote PDF to customer. 
 1. Customer: Review sales quote and sends email requesting order. 
@@ -107,4 +112,3 @@ The sales order agent is invoked by a built-in e-mail dispatcher, running as a s
 ## Related information
 
 [Configure Copilot and AI capabilities](enable-ai.md)  
-

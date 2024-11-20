@@ -16,7 +16,12 @@ ms.custom: bap-template
 
 Businesses capture lots of data during daily activities that supports business intelligence (BI) for manufacturing, such as:
 
-- TODO
+- Utilization
+- Capacity
+- Work center load
+- Production time
+- Production scrap
+
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's project data:
 
@@ -50,10 +55,12 @@ People in different roles have different needs when it comes to data, and they u
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In manufacturing, people often use the following KPIs to monitor production performance:
 
-- TODO
+- Capacity Used (Hours) - current or historical 
+- Utilization % - current or historical 
+- Work Center Load %, Allocated Time (Hours), or Capacity Available (Hours)
+- Cost Amount Variance / Deviation %
 
-TODO
-:::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
+:::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
 
 These KPIs (and more) are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)].
 

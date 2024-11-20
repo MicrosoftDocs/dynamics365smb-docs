@@ -28,7 +28,7 @@ A sales order agent uses AI to create and manage tasks for processing sales orde
 
 The agent relies on an email dispatcher that continuously monitors a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and then sends results, such as prepared sales quotes, to the customer in response.
 
-Learn more in [FAQ for sales order agent ](faqs-sales-order-taker-agent.md).
+Learn more in [FAQ for sales order agent](faqs-sales-order-taker-agent.md).
 
 ## Understand the general flow
 
@@ -36,7 +36,7 @@ Processing a sales quote request into an order involves three participants:
 
 - Customer who requests a sales quote via email
 - Sales order agent, which monitors the mailbox and handles the incoming request and creates the quote and order  
-- Business Central user who reviews agent tasks (reviewer)
+- Business Central user who reviews agent tasks
 
 The general flow is illustrated in the figure, which is followed by more details of the steps. The actual flow might vary depending on factors such as follow-up requests, changes or cancellations in review, blocking issues, and so one.
 

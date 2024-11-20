@@ -23,7 +23,7 @@ Businesses capture lots of data during daily activities that supports business i
 - Production scrap
 
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's project data:
+[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's manufacturing data:
 
 - Power BI reports for manufacturing
 - Ad-hoc analysis on lists
@@ -55,10 +55,10 @@ People in different roles have different needs when it comes to data, and they u
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In manufacturing, people often use the following KPIs to monitor production performance:
 
-- Capacity Used (Hours) - current or historical 
-- Utilization % - current or historical 
+- Capacity Used (Hours), either current or historical 
+- Utilization %, either current or historical 
 - Work Center Load %, Allocated Time (Hours), or Capacity Available (Hours)
-- Cost Amount Variance / Deviation %
+- Cost Amount Variance or Deviation %
 
 :::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
 

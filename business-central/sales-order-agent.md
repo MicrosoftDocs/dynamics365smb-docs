@@ -30,7 +30,7 @@ The agent relies on an email dispatcher that continuously monitors a designated 
 
 Learn more in [FAQ for sales order agent ](faqs-sales-order-taker-agent.md).
 
-### Understand the general flow
+## Understand the general flow
 
 Processing a sales quote request into an order involves three participants: 
 

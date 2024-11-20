@@ -1,0 +1,106 @@
+---
+title: Manufacturing analytics
+description: Business Central has features that can help you gather, analyze, and share data from your manufacturing processes for business intelligence and decision-making in your organization.
+author: kennienp
+ms.author: kepontop
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 
+ms.date: 11/20/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+---
+
+# Manufacturing analytics
+
+Businesses capture lots of data during daily activities that supports business intelligence (BI) for manufacturing, such as:
+
+- TODO
+
+[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's project data:
+
+- Power BI reports for manufacturing
+- Ad-hoc analysis on lists
+- Ad-hoc analysis of data in Excel (using Open in Excel)
+- Built-in manufacturing analytics tools
+- Built-in manufacturing reports
+
+Each of these features has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
+
+This article introduces how you can use these analytical features to gain insights into your manufacturing processes.
+
+## Analytics needs in manufacturing
+
+When you think about the analytics needs in manufacturing, it might help to use a persona-based model that describes different analytics needs at a high-level.
+
+:::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
+
+People in different roles have different needs when it comes to data, and they use the data in different ways. For example, people in manufacturing interact with data differently than people in finance.
+
+:::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
+
+| Role  | Data aggregation | Typical ways to consume data          | 
+|------------------- |-------------------| ---------------------- |
+| COO / CFO / CEO | Performance data  | KPIs, dashboards, financial reports               |
+| Plant Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      |
+| Factory worker | Detailed data     | Built-in operational reports, on-screen task data |
+
+## Using Power BI to monitor manufacturing KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In manufacturing, people often use the following KPIs to monitor production performance:
+
+- TODO
+
+TODO
+:::image type="content" source="media/projects/project-overview.png" alt-text="Screenshot of the Projects Overview Power BI Report" lightbox="media/projects/project-overview.png":::
+
+These KPIs (and more) are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)].
+
+To learn more, go to [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
+
+### Reports in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)]
+
+[!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
+
+To learn more, go to [Power BI Manufacturing app](manufacturing-powerbi-app.md).
+
+## Ad-hoc analysis of manufacturing data
+
+Sometimes, you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
+
+- Data analysis on ledger list pages
+- Open in Excel
+
+The Data Analysis feature lets you open almost any list page, such as **Item Ledger Entries** or **Capacity Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
+
+Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
+
+> [!TIP]
+> If you configure OneDrive for system features, the Excel workbook opens in your browser.
+
+<!-- coming later
+To learn more about how to do ad-hoc analysis on production data, go to [Ad hoc analysis of inventory data](ad-hoc-analysis-manufacturing.md). 
+-->
+
+## Built-in reports for manufacturing
+
+[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports to help manufacturing organizations report on their data.
+
+[!INCLUDE [report-explorer-manufacturing](includes/report-explorer-manufacturing.md)]
+
+To learn more about reports that are relevant for manufacturing, go to [Built-in production report overview](production-reports.md).
+
+## On-screen manufacturing analytics
+
+[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you manufacturing overviews and tasks to do, such as:
+
+- [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)  
+
+## See also
+
+[Power BI Manufacturing app](manufacturing-powerbi-app.md)  
+[View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)  
+[Built-in production report overview](production-reports.md)  
+[Manufacturing overview](production-manage-manufacturing.md)  
+[!INCLUDE[footer-include](includes/footer-banner.md)]

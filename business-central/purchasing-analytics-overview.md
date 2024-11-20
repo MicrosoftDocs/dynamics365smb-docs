@@ -109,16 +109,7 @@ To learn more about how to do ad-hoc analysis on purchasing data, go to [Ad hoc 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help purchasing organizations report on their data.
 
-To get an overview of available reports, choose **All Reports** on the top of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Example of reports on the XXX role center." lightbox="media/report-explorer-purchasing.png":::
-
-<!-- Built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel. -->
-
-To learn more about reports that are relevant for purchasing, go to [Built-in purchasing reports](purchase-reports.md).
+[!INCLUDE [purchasing_reports_report_explorer](includes/purchasing-reports-report-explorer-include.md)]
 
 ## On-screen purchasing analytics
 

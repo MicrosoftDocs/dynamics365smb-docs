@@ -42,6 +42,9 @@ The *Actual vs Budget* report includes the following KPIs and measures:
 - [**Variance**](purchases-powerbi-kpis.md#budget-quantity-variance)  
 - [**Variance %**](purchases-powerbi-kpis.md#budget-quantity-variance-)  
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

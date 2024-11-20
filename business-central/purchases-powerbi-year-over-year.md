@@ -39,6 +39,9 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 - [**Previous Year (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
 - [**Current Year YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

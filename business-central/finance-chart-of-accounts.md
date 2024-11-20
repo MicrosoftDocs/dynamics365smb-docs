@@ -76,6 +76,14 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).
 
+## Organize general ledger (G/L) data using account categories
+
+The **G/L Account Categories** page lets you create simple financial reports based on your chart of accounts.  
+
+By providing categories, subcategories, and account mapping to your chart of accounts, [!INCLUDE [prod_short](includes/prod_short.md)] includes basic financial reporting out of the box. If you're just getting started with financial reporting, the standard reports are excellent options until you become more experienced.
+
+For more information, see [Organize general ledger (G/L) data using account categories](bi-account-categories.md).
+
 ## Get a quick overview of your finances
 
 The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to scroll to view different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is the same as the **Chart of Accounts** page (though with fewer columns), so it's easy to understand. You can expand or collapse the hierarchical levels. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
@@ -108,6 +116,7 @@ Here are some best practices that you might consider when you develop and mainta
 ## See also
 
 [Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)    
+[Organize general ledger (G/L) data using account categories](bi-account-categories.md)   
 [Understand the general ledger](finance-general-ledger.md)  
 [Financial analytics](bi.md)    
 [Finance overview](finance.md)    

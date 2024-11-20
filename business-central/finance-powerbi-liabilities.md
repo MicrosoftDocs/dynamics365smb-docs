@@ -48,6 +48,9 @@ The *Liabilities* report includes the following KPIs and measures:
 - [**Assets**](finance-powerbi-kpis.md#assets)
 - [**Balance at Date (Neg)**](finance-powerbi-kpis.md#balance-at-date-neg)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -34,7 +34,7 @@ The report includes the following key performance indicators (KPIs) and measures
 - [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
 - [**Sales Amount Average 30D**](sales-powerbi-sales-kpis.md#sales-amount-avg-30d-fiscal)
 
-Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

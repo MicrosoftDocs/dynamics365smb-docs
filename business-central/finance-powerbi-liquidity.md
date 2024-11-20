@@ -46,6 +46,9 @@ The *Liquidity* report includes the following KPIs and measures:
 - [**Purchase Prepayments**](finance-powerbi-kpis.md#purchase-prepayments)
 - [**Liquid Assets**](finance-powerbi-kpis.md#liquid-assets)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -22,6 +22,7 @@ The general content about analytics is also available in special versions for ma
 | Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
 | Inventory | [Inventory analytics overview](inventory-analytics-overview.md) |
 | Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
+| Projects | [Project management analytics](projects-analytics-overview.md) |
 
 
 ## See also

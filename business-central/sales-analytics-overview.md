@@ -113,16 +113,7 @@ To learn more about how to do ad-hoc analysis on sales data, go to [Ad hoc analy
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help sales organizations report on their data.
 
-To get an overview of available reports, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-sales.png":::
-
-The built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel.
-
-To learn more about reports that are relevant for sales, go to [Built-in sales reports](sales-reports.md).
+[!INCLUDE [sales_reports_report_explorer](includes/sales-reports-report-explorer-include.md)]
 
 ## On-screen sales analytics
 

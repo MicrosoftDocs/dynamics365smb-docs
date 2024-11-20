@@ -45,6 +45,9 @@ Before you can convert a catalog item to a regular item, you must specify how to
 
 A new item card pre-filled with information from the catalog item and an item template are created. You can edit the information about the new item if needed. To learn more about creating items, go to [Register New Items](inventory-how-register-new-items.md).
 
+> [!NOTE]  
+> An item reference is automatically item between the vendor's item number and your new item number. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).
+
 ## To sell a catalog item and convert it to a normal item
 
 The following process uses a sales order, but the steps are the same for blanket sales orders and quotes.
@@ -54,10 +57,13 @@ The following process uses a sales order, but the steps are the same for blanket
 3. On a new sales line, in the **Type** field, select **Item**, but leave the **No.** field empty.
 4. Choose the **Line** action, and then choose the **Select Catalog Items** action.
 5. On the **Catalog Items** page, select the catalog item that you want to sell, and then choose the **OK** button.
-6. When the sales order is complete, choose the **Post** action.
+   The catalog item gets converted to a normal item automatically, and newly create normal item is selected in the sales line.
+7. When the sales order is complete, choose the **Post** action.
 
-> [!NOTE]  
-> An item reference is automatically item between the vendor's item number and your new item number. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).
+> [!IMPORTANT]
+> If you changed you mind and delete the sales line, the automatically created item will be deleted also. That helps to keep your item list free of unnecessary entries.
+> Be aware that the item will be deleted also in case you converted it manually and even did some adjustments, like added new units of measure or updated prices or cost. Of course deletion won't happen if this item is already used in other sales or purchase lines, assembly BOMs, or has ledger entries. 
+
 
 ## See also
 

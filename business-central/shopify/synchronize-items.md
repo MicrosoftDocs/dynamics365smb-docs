@@ -171,7 +171,7 @@ The following table outlines the effects of the **Barcode** field.
 |Taxable|Fixed value: enabled.|Not used.|
 |Tax codes|**Tax Group Code**. Only relevant for sales taxes. Learn more at [Set up Taxes](setup-taxes.md).|Not used.|
 
-## Import and export product information using Shopify Metafields
+### Import and export product information using Shopify Metafields
 
 Shopify's platform includes data models for fundamental commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform enables you to extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product or variant. The additional information stored in metafields can be almost anything related to a resource. Some examples are specifications, size charts, downloadable documents, release dates, images, or part numbers.
 
@@ -180,7 +180,51 @@ You can import and export data stored in metafields. [!INCLUDE [prod_short](../i
 You can access and edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Products** and **Shopify Variants** pages.
 
 > [!NOTE] 
-> The page is editable if the **Product Sync** field is set to **Products to Shopify** and the **Can update Shopify products** toggle is turned on. When you add a record, the connector sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield. You can't edit types that have AssistEdit functionality defined directly on the line.
+> The page is editable if the **Product Sync** field is set to **Products to Shopify** and the **Can update Shopify products** toggle is turned on. When you add a record, the connector immidiatelly sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield.
+> Further edits of records will be synchronized with Shopify at the next product synchronization.
+> You can't edit types that have AssistEdit functionality defined directly on the line.
+
+
+#### Supported metafield content types
+**Date and time:**
+- Date
+- Date and time
+	
+**Measurements:**
+- Dimension
+- Volume
+- Weight
+		
+**Number:**
+- Decimal
+- Integer
+
+**Text:**
+- Single line text
+- Multi-line text
+- NOT SUPPORTED: Rich text
+
+**References:**
+- Product
+- Variant
+- Collection
+- File
+- Metaobject
+- Page
+- NOT SUPPORTED: Company
+- NOT SUPPORTED: Customer
+
+**Other:**
+- True or false
+- Color
+- URL
+- Money
+- NOT SUPPORTED: Link
+- NOT SUPPORTED: Rating
+
+**Advanced:**
+- Mixed reference
+- JSON
 
 ### Tags
 

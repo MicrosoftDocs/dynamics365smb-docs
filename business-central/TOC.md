@@ -1010,7 +1010,7 @@ ms.service: dynamics-365-business-central
 
 ### Manufacturing analytics
 <!-- Manufacturing analytics start -->
-#### [Manufacturing analytics overview](projects-analytics-overview.md)
+#### [Manufacturing analytics overview](manufacturing-analytics-overview.md)
 #### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
 ##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
 ##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 

@@ -52,8 +52,8 @@ The general flow is as follows:
 1. Reviewer: Reviews/confirms the confirmation email for a sale order. 
 1. Sales order agent: 
 
-    1. Converts quote to order. 
-    1. Adds review task with outgoing email confirming order. 
+    1. Converts quote to order.
+    1. Adds review task with outgoing email confirming order.
 1. Reviewer: Reviews/confirms outgoing email. 
 1. Sales order agent: Sends email to customer. 
 

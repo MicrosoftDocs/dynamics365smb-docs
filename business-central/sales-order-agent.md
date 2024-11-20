@@ -21,24 +21,56 @@ The sales order agent automates the process of taking sales orders, from the cus
 - Sends the quote to the customer after approval.
 - Converts the quote into a sales order upon customer approval.
 
+The sales order agent automates the process of taking sales orders, starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the porcess by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
 
-The sales order agent automates the entire sales order process, starting from a customer's request for a quote and concluding with the creation of an order. It begins by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks under human supervision to handle the request:
+
 
 - The agent identifies an email that requests a quote and creates a task for someone in the you company review the request.
 - Once approved internally, the agent examines the email to determine the customer's identity, checks item availability, and prepares a sales quote with an email reply to the customer for intermal review
 - Once approved internally, the agent sends the quote to the customer's confirmation via email.
 - Upon receiving the customer's confirmation, the agent converts the quote into a sales order and assigns a task for internal review.
-- 
+
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
-> 
+>
 > *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*
+
+## Understand the general flow
+
+Processing a sales quote request into an order involves 3 participants: 
+
+- Customer who requests a sales quote via email
+- Sales order agent, which monitors the mailbox and handles the incoming request and creates the quote and order  
+- Business Central user who reviews agent tasks (reviewer)
+
+The general flow is as follows:
+
+1. Customer: Sends email to Business Central mailbox asking for a sales quote for items. 
+1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing incoming request. 
+1. Reviewer: Reviews/confirms the step with email.  
+1. Sales order agent: 
+
+    1. Finds the requested items. 
+    1. Finds the contact. 
+    1. Creates the sales quote. 
+    1. Adds review step with a reply email with attached sales quote as pdf. 
+1. Reviewer: Reviews/confirms email and sales quotes. 
+1. Sales order agent: Sends email and sales quote PDF to customer. 
+1. Customer: Review sales quote and sends email requesting order. 
+1. Sales order agent: Picks up email and adds review step 
+1. Reviewer: Reviews/confirms the confirmation email for a sale order. 
+1. Sales order agent: 
+
+    1. Converts quote to order. 
+    1. Adds review task with outgoing email confirming order. 
+1. Reviewer: Reviews/confirms outgoing email. 
+1. Sales order agent: Sends email to customer. 
   
-## Transparency and intervention
+<!--## Transparency and intervention
 
 The sales order agent maintains full transparency by including humans in the loop during the entire process. The agent enables you to review and confirm changes before they're committed to the system and shared with the customer. It issues  in-product notifications that users must address before the agent can continues. For example, a user must approve any outbound e-mail messages to customer before they're sent or provide missing details to about a request.
 
-For each task done by the agent, users get a detailed timeline of the key steps taken by the sales order agent and humans, including the email communications, reviews, and modifications.
+For each task done by the agent, users get a detailed timeline of the key steps taken by the sales order agent and humans, including the email communications, reviews, and modifications.-->
 
 ## Setup and user access management
 

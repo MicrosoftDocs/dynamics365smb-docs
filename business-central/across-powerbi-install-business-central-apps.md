@@ -81,7 +81,7 @@ After installing the Power BI apps you want to use, it is time to configure how 
 > [!NOTE]
 > This configuration can be managed by stepping through the **Connect to Power BI** assisted setup guide, or by navigating to the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
 
-You can Configure the following components in the assisted setup guide 
+You can configure the following components in the assisted setup guide 
 
 1. Calendar Type 
 1. UTC Offset
@@ -105,7 +105,7 @@ Choose which type of calendar the year boundaries are applied to.
 
 ### UTC Offset
 
-Defines the UTC time zone in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] date table.
+Define the UTC time zone in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] date table.
 
 The UTC Offset allows your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model to accurately calculate what the current day is in respect to your geographical location. This is necessary because your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps might be hosted in a data center located in a different region.
 

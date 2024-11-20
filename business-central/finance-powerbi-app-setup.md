@@ -78,7 +78,7 @@ For more information on how to work with G/L account categories, see [G/L accoun
 
 The [!INCLUDE [prod_short](includes/powerbi-name.md)] Finance app has been setup with a default mapping of G/L account categories in [!INCLUDE [prod_short](includes/prod_short.md)] to corresponding values in the [!INCLUDE [prod_short](includes/powerbi-name.md)] Finance semantic model. This mapping is needed for the finance KPIs and reports to show correct values. 
 
-Below, you can see the default mapping of parameters in the Power BI Finance semantic model to the **G/L Account Categories** in Business Central. You can change the default values of the **Business Central Category** columns to your choice of G/L account categories by choosing the XXX action in the YYY setup page.
+Below, you can see the default mapping of parameters in the Power BI Finance semantic model to the **G/L Account Categories** in Business Central. You can change the default values of the **Business Central Category** columns to your choice of G/L account categories by choosing the **Power BI Account Categories** action in the **Power BI Connector Setup** setup page or by navigating directly to the **Power BI Account Categories** page.
 
 ### Level 1 Categories
 

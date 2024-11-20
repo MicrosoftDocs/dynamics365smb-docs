@@ -14,13 +14,15 @@ ms.collection:
 
 The sales order agent automates the process of taking sales orders; starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the process by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
 
+The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can use the agent to process orders.
+
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
 <!--
 > *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*-->
 
-## How it works
+## How it operates
 
 A sales order agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates autonomously for many tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
 
@@ -61,10 +63,6 @@ The general flow is illustrated in the figure, which is followed by more details
 1. Reviewer: Reviews/confirms outgoing email. 
 1. Sales order agent: Sends email to customer. 
   
-## Setup and user access management
-
-The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can use the agent to process orders. <!--delegate their tasks to the sales order agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated sales quote into an order).--> 
-
 ## Next steps
 
 - [Set up the sales order agent](sales-order-agent-setup.md)

@@ -77,20 +77,18 @@ Analyzing by payment terms code allows you to quickly identify customers who hav
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
 
+## Set up the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]
 
-## Setting up the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]
+For the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] to show correct KPIs and reports, there are a few things to set up in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-For the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] to show correct KPIs and reports, you need to do additional setup in [!INCLUDE [prod_short](includes/prod_short.md)]:
+1. Set up G/L account categories for your chart of accounts.
+1. Map G/L account categories to corresponding categories in the [!INCLUDE [prod_short](includes/powerbi-name.md)] Finance semantic model.
 
-1. Setup G/L account categories for your chart of accounts. 
-1. Map G/L account categories to corresponding categories used in the [!INCLUDE [prod_short](includes/powerbi-name.md)] Finance semantic model.
-
-For more information, see [Setting up the Power BI finance app](finance-powerbi-app-setup.md).
-
+To learn more, go to [Setting up the Power BI finance app](finance-powerbi-app-setup.md).
 
 ## See also
 
-[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
+[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Setting up the Power BI finance app](finance-powerbi-app-setup.md)  
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  

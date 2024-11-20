@@ -93,6 +93,7 @@ The following table describes how you can use the reports in the Power BI Purcha
 
 ## See also
 
+[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Built-in purchasing reports](purchase-reports.md)  

@@ -98,14 +98,7 @@ For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who report on fixed assets.
 
-To get an overview of available reports, choose **All reports** at the top of your Home page. This action opens the Role Explorer page, which is filtered to the features in the **Report & Analysis** option. To find reports related to fixed assets, in the **Find** field, enter **fixed assets**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-fixed-assets.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-fixed-assets.png":::
-
-<!-- Built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel. -->
+[!INCLUDE [fa_reports_report_explorer](includes/fa-reports-report-explorer-include.md)]
 
 For more information about reports that are relevant for fixed assets, see [Built-in fixed assets reports](fa-reports.md).
 

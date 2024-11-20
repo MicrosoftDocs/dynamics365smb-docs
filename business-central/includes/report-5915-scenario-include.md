@@ -1,0 +1,1 @@
+Verify whether service orders, invoices, or credit memos are correct before you post them.

@@ -43,6 +43,8 @@ The *Inventory Valuation by Item* report includes the following KPIs:
 - [**Increases Value**](inventory-valuation-powerbi-kpis.md#increases-value)
 - [**Decreases Value**](inventory-valuation-powerbi-kpis.md#decreases-value)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 

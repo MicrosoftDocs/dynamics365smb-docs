@@ -46,6 +46,9 @@ The *Financial Overview* report includes the following KPIs and measures:
 - [**Days Sales Of Inventory**](finance-powerbi-kpis.md#days-sales-of-inventory---dsi)
 - [**Days Payable Outstanding**](finance-powerbi-kpis.md#days-payable-outstanding---dpo)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

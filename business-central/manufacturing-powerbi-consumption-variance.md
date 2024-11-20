@@ -36,6 +36,8 @@ The *Consumption Variance* report includes the following KPIs and measures:
 - [Consumed Cost Amount (Actual)](manufacturing-powerbi-kpis.md#consumed-cost-amount-actual)
 - [Consumption Cost Amt. Variance](manufacturing-powerbi-kpis.md#consumption-cost-amt-variance)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

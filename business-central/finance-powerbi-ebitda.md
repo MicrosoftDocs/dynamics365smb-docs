@@ -48,6 +48,9 @@ The *EBITDA* report includes the following KPIs and measures:
 - [**Extraordinary Expense**](finance-powerbi-kpis.md#extraordinary-expense)
 - [**Depreciation and Amortization**](finance-powerbi-kpis.md#depreciation-and-amortization)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

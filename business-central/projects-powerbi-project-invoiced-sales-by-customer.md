@@ -38,7 +38,7 @@ The *Project Invoiced Sales by Customer* report includes the following KPIs:
 - [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
 - [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

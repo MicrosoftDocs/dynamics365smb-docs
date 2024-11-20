@@ -35,6 +35,9 @@ The *Released Production Orders* report includes the following KPIs and measures
 - [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
 - [Qty. Variance](manufacturing-powerbi-kpis.md#qty-variance)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

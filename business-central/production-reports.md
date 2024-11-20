@@ -12,11 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Production Reports and Analytics in Business Central
 
 Production reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows production and business professionals to get insights and statistics about current and past production activities.  
 
 ## Reports
+
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
 ## Tasks

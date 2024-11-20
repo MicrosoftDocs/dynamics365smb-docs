@@ -43,6 +43,8 @@ The *Project Overview* report includes the following KPIs:
 - [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
 - [**Project Count**](projects-powerbi-kpis.md#project-count)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

@@ -35,6 +35,8 @@ The *Expected Capacity Need* report includes the following KPIs and measures:
 - [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
 - [Capacity Used Variance (Hours)](manufacturing-powerbi-kpis.md#capacity-used-variance-hours)
 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report

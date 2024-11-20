@@ -38,7 +38,7 @@ The report includes the following key performance indicators (KPI) and measures:
 - [**Sales Amount MTD (Fiscal)**](sales-powerbi-sales-kpis.md#sales-amount-mtd-fiscal)
 - [**Gross Profit MTD (Fiscal)**](sales-powerbi-sales-kpis.md#gross-profit-mtd-fiscal)
 
-Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

@@ -37,7 +37,7 @@ The report includes the following key performance indicators (KPI) and measures:
 - [**Gross Profit**](sales-powerbi-sales-kpis.md#gross-profit)
 - [**Gross Profit Margin**](sales-powerbi-sales-kpis.md#gross-profit-margin)
 
-Select the link for a KPI to learn more about what it means, how the report calculates it, and what data was used in the calculations.
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

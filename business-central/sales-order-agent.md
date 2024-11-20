@@ -24,7 +24,7 @@ The agent is readily available in the product. You only need to activate it by s
 
 ## How it operates
 
-A sales order agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates autonomously for many tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
+A sales order agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
 
 The agent relies on an email dispatcher that continuously monitors a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and then sends results, such as prepared sales quotes, to the customer in response.
 

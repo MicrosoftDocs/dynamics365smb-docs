@@ -22,7 +22,7 @@ The agent is readily available in the product. You only need to activate it by s
 <!--
 > *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*-->
 
-## How it operates
+## Operation
 
 A sales order agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
 
@@ -30,7 +30,7 @@ The agent relies on an email dispatcher that continuously monitors a designated 
 
 Learn more in [FAQ for sales order agent](faqs-sales-order-taker-agent.md).
 
-## Understand the general flow
+## Process flow
 
 Processing a sales quote request into an order involves three participants: 
 

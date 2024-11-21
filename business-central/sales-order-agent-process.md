@@ -29,9 +29,9 @@ To access this view, select ![Shows sales order agent icon with an open action.]
 
 ![Shows the task view with steps](media/sot-task-view-callouts.png)
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view (2) opens to display tasks (3) recently created by the sales order agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
+The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view (2) opens to display tasks recently created by the sales order agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
-For each sales quote request, the sales order agent adds a task for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
+For each sales quote request, the sales order agent adds a task (3) for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 
 ## View timeline and details of steps
 

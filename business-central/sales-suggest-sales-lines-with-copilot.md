@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
-ms.date: 02/02/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
@@ -83,7 +83,7 @@ There is a **Reliability** field that displays **High (80+)**, **Medium (60-80)*
 
 This step confirms that you want to transfer the lines to a sales document. You can delete or edit the transferred lines there as well, or delete the whole document.
 
-## See also
+## Related information
 
 [FAQ for Sales Line Suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 [Configure Copilot and AI capabilities](enable-ai.md)

@@ -178,7 +178,7 @@ ms.service: dynamics-365-business-central
 #### [Run batch jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the look of externally facing documents
 #### [About report and document layouts](ui-manage-report-layouts.md)
-#### [Get started create layouts](ui-get-started-layouts.md)
+#### [Get started creating layouts](ui-get-started-layouts.md)
 #### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel layouts](ui-excel-report-layouts.md)
 #### [Work with RDLC layouts](ui-rdlc-report-layouts.md)
@@ -293,7 +293,7 @@ ms.service: dynamics-365-business-central
 
 ## Finance
 ### [Finance overview](finance.md)
-### [Financial reports](finance-reports.md)
+### [Financial analytics](bi.md)
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
@@ -519,10 +519,33 @@ ms.service: dynamics-365-business-central
 #### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
 #### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
 #### [Extend service commitments](UBB/masterdata/service-commitments.md)
+
 ## Financial analytics 
+<!-- Financial analytics start -->
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
+### [Power BI finance app](finance-powerbi-app.md)
+#### [Financial Overview](finance-powerbi-financial-overview.md)
+#### [Income Statement](finance-powerbi-income-statement.md)
+#### [Balance Sheet](finance-powerbi-balance-sheet.md)
+#### [Budget Comparison](finance-powerbi-budget-comparison.md)
+#### [Liquidity KPIs](finance-powerbi-liquidity.md)
+#### [Profitability](finance-powerbi-profitability.md)
+#### [Liabilities](finance-powerbi-liabilities.md)
+#### [EBITDA](finance-powerbi-ebitda.md)
+#### [Average Collection Period](finance-powerbi-average-collection-period.md)
+#### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
+#### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+#### [Finance KPI overview](finance-powerbi-kpis.md) 
+#### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
+
+
+<!-- 
+#### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
+#### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
+#### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
+-->
 
 ### Financial reporting (Implementing financial statements and KPIs)
 #### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
@@ -544,6 +567,7 @@ ms.service: dynamics-365-business-central
 #### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 #### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
 #### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+#### [Analyze your payment practices](ui-payment-practices.md)
 
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
@@ -560,8 +584,8 @@ ms.service: dynamics-365-business-central
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
 #### [Built-in fixed assets reports](fa-reports.md)
+
 #### Accounts payable reports
-##### [Built-in accounts receivable reports](receivables-reports.md)
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
@@ -577,20 +601,7 @@ ms.service: dynamics-365-business-central
 ##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
-<!-- 
-
-##### [Vendor Item catalog](reports/report-320.md)
-##### [Purchase Reservation Availability](reports/report-409.md)
-##### [Inventory Purchase Orders](reports/report-709.md)
-##### [Inventory Vendor Purchases](reports/report-714.md)
-##### [Item/vendor catalog](reports/report-720.md) 
-##### [Purchase Statistics](reports/report-312.md)
-##### [Payments on Hold](reports/report-319.md)
-##### [Payment Practice](reports/report-page 687.md)
--->
-
 #### Accounts receivable reports
-##### [Built-in accounts payable reports](payables-reports.md)
 ##### [Accounts receivable report overview](receivables-reports.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
@@ -605,11 +616,28 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
+<!-- Financial analytics end -->
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
 ### Sales analytics 
+<!-- Sales analytics start -->
 #### [Sales analytics overview](sales-analytics-overview.md)
+
+#### [Power BI sales app](sales-powerbi-app.md)
+##### [Sales overview](sales-powerbi-sales-overview.md)
+##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Moving Average](sales-powerbi-moving-average.md)
+##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
+##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Sales by Item](sales-powerbi-sales-by-item.md)
+##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
+##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
+##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
+
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
@@ -627,6 +655,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
+<!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
@@ -654,9 +683,27 @@ ms.service: dynamics-365-business-central
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
+
 ### Purchasing analytics 
+<!-- Purchasing analytics start -->
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
+#### [Power BI Purchasing app](purchases-powerbi-app.md)
+##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
+##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
+##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
+##### [Moving Averages](purchases-powerbi-moving-averages.md)  
+##### [Moving Annual Total](purchases-powerbi-moving-annual-total.md)  
+##### [Period-Over-Period](purchases-powerbi-period-over-period.md)  
+##### [Year-Over-Year](purchases-powerbi-year-over-year.md)  
+##### [Purchases by Item](purchases-powerbi-purchases-by-item.md)  
+##### [Purchases by Vendor](purchases-powerbi-purchases-by-vendor.md)  
+##### [Purchases by Purchaser](purchases-powerbi-purchases-by-purchaser.md)  
+##### [Purchases by Location](purchases-powerbi-purchases-by-location.md) 
+##### [Actual vs Budget](purchases-powerbi-actual-vs-budget.md)
+##### [Purchases KPI overview](purchases-powerbi-kpis.md) 
+
 #### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
+
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
 ##### [Vendor - List](reports/report-301.md)
@@ -674,6 +721,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+<!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)
@@ -694,12 +742,37 @@ ms.service: dynamics-365-business-central
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
+
 ### Inventory analytics 
+<!-- Inventory analytics start -->
 #### [Inventory analytics overview](inventory-analytics-overview.md)
+
+#### [Power BI Inventory app](inventory-powerbi-app.md)
+##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
+##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
+##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
+##### [Purchase and Sales Quantity](inventory-powerbi-purchase-and-sales-qty.md)
+##### [Item Availability](inventory-powerbi-item-availability.md)
+##### [Gross Requirement](inventory-powerbi-gross-requirement.md)
+##### [Scheduled Receipt](inventory-powerbi-scheduled-receipt.md)
+##### [Inventory by Lot](inventory-powerbi-inventory-by-lot.md)
+##### [Inventory by Serial No.](inventory-powerbi-inventory-by-serial-no.md)
+##### [Bin Contents](inventory-powerbi-bin-contents.md)
+##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
+##### [Inventory KPIs](inventory-powerbi-kpis.md)
+
+#### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
+##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
+##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
+##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
+##### [Inventory Valuation KPIs](inventory-valuation-powerbi-kpis.md)
+
 #### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
+
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Status](reports/report-706.md)
 ##### [Inventory Availability Plan](reports/report-707.md)
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
@@ -710,6 +783,7 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
+##### [Item Substitutions](reports/report-5701.md) 
 ##### [Item Charges - Specification](reports/report-5806.md) 
 ##### [Item Age Composition - Quantity](reports/report-5807.md) 
 ##### [Item Age Composition - Value](reports/report-5808.md) 
@@ -719,11 +793,9 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Shipment Status](reports/report-7313.md) 
 ##### [Warehouse Bin List](reports/report-7319.md) 
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
-
-
-<!-- 
-##### [](reports/report-.md) 
--->
+##### [Planning Availability](reports/report-99001048.md)
+##### [Production Forecast](reports/report-990003804.md)
+<!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
@@ -746,7 +818,38 @@ ms.service: dynamics-365-business-central
 
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
-### [Project reports](project-reports.md)
+
+### Project management analytics
+<!-- Project management analytics start -->
+#### [Project management analytics overview](projects-analytics-overview.md)
+
+#### [Power BI Projects app](projects-powerbi-app.md)
+##### [Projects Overview](projects-powerbi-project-overview.md)
+##### [Projects Tasks](projects-powerbi-project-tasks.md)
+##### [Projects Profitability](projects-powerbi-project-profitability.md)
+##### [Projects Realization](projects-powerbi-project-realization.md)
+##### [Projects Performance to Budget](projects-powerbi-project-performance-to-budget.md)
+##### [Projects Invoiced Sales by Type](projects-powerbi-project-invoiced-sales-by-type.md)
+##### [Projects Invoiced Sales by Customer](projects-powerbi-project-invoiced-sales-by-customer.md)
+##### [Projects KPI overview](projects-powerbi-kpis.md) 
+
+#### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+
+#### Built-in project reports
+##### [Project report overview](project-reports.md)
+##### [Project Journal - Test](reports/report-1005.md)
+##### [Project Planning Lines](reports/report-1006.md)
+##### [Project Transaction Detail](reports/report-1007.md)
+##### [Project Analysis](reports/report-1008.md)
+##### [Project Actual to Budget](reports/report-1009.md)
+##### [Project WIP to G/L](reports/report-1010.md)
+##### [Project Suggested Billing](reports/report-1011.md)
+##### [Projects per Customer](reports/report-1012.md)
+##### [Items per Project](reports/report-1013.md)
+##### [Project per Item](reports/report-1014.md)
+##### [Project Register](reports/report-1015.md)
+<!-- Project management analytics end -->
+
 ### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
 ### [Use time sheets](projects-how-use-time-sheets.md)
@@ -754,7 +857,6 @@ ms.service: dynamics-365-business-central
 ### [Record usage for project](projects-how-record-job-usage.md)
 ### [Manage project supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
-### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
 ### [Assemble to project](projects-assemble-to-project.md)
 
@@ -762,6 +864,7 @@ ms.service: dynamics-365-business-central
 ### [Fixed assets overview](fa-manage.md)
 
 ### Fixed assets analytics
+<!-- Fixed assets analytics start -->
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
@@ -770,7 +873,30 @@ ms.service: dynamics-365-business-central
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-#### [Built-in fixed assets reports](fa-reports.md)
+#### Fixed assets reports
+##### [Fixed assets report overview](fa-reports.md)
+##### [Fixed Asset Analysis](reports/report-5600.md)
+##### [Fixed Asset List](reports/report-5601.md)
+##### [Fixed Asset Journal - Test](reports/report-5602.md)
+##### [Fixed Asset Register](reports/report-5603.md)
+##### [Fixed Asset Details](reports/report-5604.md)
+##### [Fixed Asset Book Value 01](reports/report-5605.md)
+##### [Fixed Asset Book Value 02](reports/report-5606.md)
+##### [Fixed Asset Projected Value](reports/report-5607.md)
+##### [Fixed Asset - Acquisition List](reports/report-5608.md)
+##### [Fixed Asset G/L Analysis](reports/report-5610.md)
+##### [Fixed Asset Document Nos.](reports/report-5636.md)
+##### [Insurance - Analysis](reports/report-5620.md)
+##### [Insurance - List](reports/report-5621.md)
+##### [Insurance Journal - Test](reports/report-5622.md)
+##### [Insurance Register](reports/report-5623.md)
+##### [Insurance - Coverage Details](reports/report-5624.md)
+##### [Insurance - Tot. Value Insured](reports/report-5625.md)
+##### [Insurance - Uninsured FAs](reports/report-5626.md)
+##### [Maintenance - Analysis](reports/report-5630.md)
+##### [Maintenance - Details](reports/report-5634.md)
+##### [Maintenance - Next Service](reports/report-5635.md)
+<!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
@@ -787,6 +913,24 @@ ms.service: dynamics-365-business-central
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)
+### Relationship management analytics
+#### [Relationship management report overview](marketing-reports.md)
+#### [Contact - List](reports/report-5050.md) 
+#### [Contact - Company Summary](reports/report-5051.md) 
+#### [Contact - Person Summary](reports/report-5053.md) 
+#### [Contact - Cover Sheet](reports/report-5055.md) 
+#### [Contact - Labels](reports/report-5056.md) 
+#### [Salesperson - Opportunities](reports/report-5058.md) 
+#### [Campaign - Details](reports/report-5060.md) 
+#### [Opportunity - List](reports/report-5061.md) 
+#### [Opportunity - Details](reports/report-5068.md) 
+#### [Sales Cycle - Analysis](reports/report-5062.md) 
+#### [Segment - Contacts](reports/report-5063.md) 
+#### [Segment - Cover Sheet](reports/report-5064.md) 
+#### [Segment - Labels](reports/report-5065.md) 
+#### [Questionnaire - Handouts](reports/report-5066.md) 
+#### [Questionnaire - Test](reports/report-5067.md) 
+
 ### [Set up relationship management](marketing-setup-marketing.md)
 ### Manage contacts
 #### [Contacts](marketing-contacts.md)
@@ -839,7 +983,17 @@ ms.service: dynamics-365-business-central
 
 ## Assembly management
 ### [Assemble items](assembly-assemble-items.md)
-### [Assembly reports](assembly-reports.md)
+### Assembly analytics
+#### [Assembly report overview](assembly-reports.md)
+#### [Assembly BOMs](reports/report-801.md)
+#### [Item - Able to Make (Time)](reports/report-5871.md)
+#### [BOM Cost Share Distribution](reports/report-5872.md)
+#### [Where-used list](reports/report-809.md)
+#### [BOM - Raw Materials](reports/report-810.md)
+#### [BOM - Sub-Assemblies](reports/report-811.md)
+#### [Assembly BOM - End Items](reports/report-812.md)
+#### [Assemble to order - Sales](reports/report-915.md)
+
 ### [Understand assemble-to-order and assemble-to-stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an assemble-to-order sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble items](assembly-how-to-assemble-items.md)
@@ -853,7 +1007,53 @@ ms.service: dynamics-365-business-central
 
 ## Manufacturing
 ### [Manufacturing overview](production-manage-manufacturing.md)
-### [Production reports](production-reports.md)
+
+### Manufacturing analytics
+<!-- Manufacturing analytics start -->
+#### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
+##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
+##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
+##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
+##### [Allocated Hours](manufacturing-powerbi-allocated-hours.md) 
+##### [Expected Capacity Need](manufacturing-powerbi-expected-capacity-need.md) 
+##### [Finished Production Order Breakdown](manufacturing-powerbi-finished-production-order-breakdown.md) 
+##### [Consumption Variance](manufacturing-powerbi-consumption-variance.md) 
+##### [Capacity Variance](manufacturing-powerbi-capacity-variance.md) 
+##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
+##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
+##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
+
+#### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
+
+#### Built-in production reports
+##### [Production report overview](production-reports.md)
+##### [Production Order - WIP](reports/report-5802.md) 
+##### [Item - Able to Make (Time)](reports/report-5871.md) 
+##### [BOM Cost Share Distribution](reports/report-5872.md) 
+##### [Quantity Explosion of BOM](reports/report-99000753.md)
+##### [Rolled-up Cost Shares](reports/report-99000754.md) 
+##### [Single-Level Cost Shares](reports/report-99000755.md) 
+##### [Detailed Calculation](reports/report-99000756.md)
+##### [Where-Used (Top Level)](reports/report-99000757.md)
+##### [Item BOM Compare list](reports/report-99000758.md)
+##### [Work Center List](reports/report-99000759.md) 
+##### [Machine Center List](reports/report-99000760.md) 
+##### [Prod. Order - Job Card](reports/report-99000762.md) 
+##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
+##### [Prod. Order - Calculation](reports/report-99000767.md)
+##### [Prod. Order Detailed Calc](reports/report-99000768.md) 
+##### [Capacity Task list](reports/report-99000780.md)
+##### [Work Center Load](reports/report-99000783.md)
+##### [Machine Center Load](reports/report-99000784.md)
+##### [Work Center Load](reports/report-99000785.md) 
+##### [Machine Center Load](reports/report-99000786.md) 
+##### [Routing Sheet](reports/report-99000787.md) 
+##### [Prod. Order Shortage list](reports/report-99000788.md)
+##### [Subcontractor Dispatch List](reports/report-99000789.md) 
+##### [Production Order Statistics](reports/report-99000791.md)
+<!-- Manufacturing analytics end -->
+
 ### [About production orders](production-about-production-orders.md)
 ### [Create production orders](production-how-to-create-production-orders.md)
 ### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -862,7 +1062,6 @@ ms.service: dynamics-365-business-central
 ### [Batch post output and run times](production-how-to-post-output-quantity.md)
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
-### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 ### [Post capacities](production-how-to-post-capacities.md)
 ### [About finished production order costs](finance-about-finished-production-order-costs.md)
 
@@ -911,12 +1110,52 @@ ms.service: dynamics-365-business-central
 
 ## Service management
 ### [Service management](service-service.md)
+### Service management analytics
+#### [View service statistics](service-service-statistics.md)
+#### Service management analytics
+##### [Service management report overview](service-reports.md)
+##### [Service Order](reports/report-5900.md)
+##### [Service Item Line Labels](reports/report-5901.md)
+##### [Service Quote](reports/report-5902.md)
+##### [Service Tasks](reports/report-5904.md)
+##### [Service Order - Response Time](reports/report-5908.md)
+##### [Service Profit (Resp. Centers)](reports/report-5909.md)
+##### [Service Profit (Serv. Orders)](reports/report-5910.md)
+##### [Service - Invoice](reports/report-5911.md)
+##### [Service - Credit Memo](reports/report-5912.md)
+##### [Service - Shipment](reports/report-5913.md)
+##### [Service Document - Test](reports/report-5915.md)
+##### [Service Items](reports/report-5935.md)
+##### [Service Item Worksheet](reports/report-5936.md)
+##### [Service Items Out of Warranty](reports/report-5937.md)
+##### [Service Profit (Service Items)](reports/report-5938.md)
+##### [Service Item - Resource Usage](reports/report-5939.md)
+##### [Dispatch Board](reports/report-5955.md)
+##### [Service Load Level](reports/report-5956.md)
+##### [Service Contract](reports/report-5970.md)
+##### [Service Contract-Detail](reports/report-5971.md)
+##### [Service Contract Quote](reports/report-5972.md)
+##### [Service Contract Quote-Detail](reports/report-5973.md)
+##### [Contract Quotes to Be Signed](reports/report-5974.md)
+##### [Service Profit (Contracts)](reports/report-5976.md)
+##### [Service Contract - Customer](reports/report-5977.md)
+##### [Serv. Contract - Salesperson](reports/report-5978.md)
+##### [Maintenance Visit - Planning](reports/report-5980.md)
+##### [Contr. Gain/Loss - Resp. Ctr.](reports/report-5981.md)
+##### [Maintenance Performance](reports/report-5982.md)
+##### [Contract Gain/Loss Entries](reports/report-5983.md)
+##### [Contract Invoicing - Test](reports/report-5984.md)
+##### [Contract Price Update - Test](reports/report-5985.md)
+##### [Expired Contract Lines - Test](reports/report-5987.md)
+##### [Contr. Serv. Orders - Test](reports/report-5988.md)
+##### [Serv. Pricing Profitability](reports/report-6080.md)
+##### [Prepaid Contr. Entries](reports/report-6086.md)
+
 ### Planning service
 #### [Planning service management](service-plan-service.md)
 #### [Service price management](service-service-price-management.md)
 #### [Service order status and repair status](service-service-order-status-and-repair-status.md)
 #### [Allocation status and repair status of service items](service-allocation-status-and-repair-status.md)
-#### [View service statistics](service-service-statistics.md)
 ### Fulfill service contracts
 #### [Fulfill service contracts](service-fulfill-service-contracts.md)
 #### [Multiple contracts](service-multiple-contracts.md)
@@ -932,6 +1171,7 @@ ms.service: dynamics-365-business-central
 #### [Service posting](service-service-posting.md)
 #### [Post service orders and credit memos](service-how-to-post-service-orders.md)
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
+
 <!--Shopify-->
 ## Online store with shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
@@ -2000,6 +2240,10 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
+### Power BI apps for Business Central
+#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Introduction to Business Central and Power BI](admin-powerbi.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
@@ -2277,10 +2521,10 @@ ms.service: dynamics-365-business-central
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
-### [FAQ for analysis assist](faqs-analysis-assist.md)
+### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
-### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
@@ -2288,18 +2532,18 @@ ms.service: dynamics-365-business-central
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
-### [FAQ for marketing text suggestions](faqs-marketing-text.md)
+### [Responsible AI FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
-### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Suggest item substitutions (preview)
-### [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
+### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
-### [FAQ for Suggest Number Series with Copilot](faq-suggest-number-series-with-copilot.md)
+### [Responsible AI FAQ for Suggest Number Series with Copilot](faq-suggest-number-series-with-copilot.md)
 ## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
+### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
@@ -2307,6 +2551,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
+## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
 ## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)

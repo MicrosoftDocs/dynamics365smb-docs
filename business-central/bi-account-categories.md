@@ -12,11 +12,11 @@ ms.search.form: 108, 490, 790
 ms.service: dynamics-365-business-central
 ---
 
-# Organize report data using account categories
+# Organize general ledger (G/L) data using account categories
 
 The **G/L Account Categories** page lets you create simple financial reports based on your chart of accounts.  
 
-By providing categories, subcategories, and account mapping to your chart of accounts, [!INCLUDE [prod_short](includes/prod_short.md)] includes basic financial reporting out of the box. If you're just getting started with financial reporting, the standard reports are excellent options until you become more established.
+By providing categories, subcategories, and account mapping to your chart of accounts, [!INCLUDE [prod_short](includes/prod_short.md)] includes basic financial reporting out of the box. If you're just getting started with financial reporting, the standard reports are excellent options until you become more experienced.
 
 ## Use G/L account categories
 

@@ -1,0 +1,1 @@
+Examine your component requirements and assess the availability of stock on the projected due dates. Identify discrepancies between the required components and their inventory levels, and ensure that all materials are available for consumption when they're needed. Proactively address potential shortages and avoid delays in production processes.

@@ -14,19 +14,19 @@ ms.service: dynamics-365-business-central
 
 To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It goes beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
-## Reports
-
-[!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
-
 ## Explore finance reports with Report Explorer
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
+## Accounts receivable report overview
+
+[!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 ## See also
 
 [Key financial reports](finance-reports.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
+[Power BI finance app](finance-powerbi-app.md)   
 [Financial analytics](bi.md)   
 [Sales analytics](sales-analytics-overview.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

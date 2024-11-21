@@ -1,20 +1,20 @@
 ---
-title: About Planning Functionality
+title: About planning functionality
 description: Learn how planning uses demand and supply data to suggest how to balance supply to meet demand.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 5430,
-ms.date: 09/19/2023
+ms.date: 11/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# About Planning Functionality
+# About planning functionality
 
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
 
-For more information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
+To learn more, go to [Design Details: Supply Planning](design-details-supply-planning.md).  
 
 > [!NOTE]  
 > For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -35,7 +35,7 @@ The planning system is driven by anticipated and actual customer demand, as well
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
 
 > [!TIP]
-> The planning system relies on how your organization uses locations. For more information, see [Planning With or Without Locations](production-planning-with-without-locations.md).
+> The planning system relies on how your organization uses locations. To learn more, go to [Planning With or Without Locations](production-planning-with-without-locations.md).
 
 ## Planning with manual transfer orders
 
@@ -123,7 +123,7 @@ The planning system will suggest a supply order to meet the demand on its due da
 Violating the safety stock level is considered an exception because it shouldn't occur if the reorder point has been set correctly.
 
 > [!NOTE]
-> Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description for the **Respect Planning Parameters for Exception Warnings** field in the [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md) article.
+> Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. To learn more, go to the description for the **Respect Planning Parameters for Exception Warnings** field in the [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md) article.
 
 ### Attention
 
@@ -146,18 +146,14 @@ As described in [Planning](production-planning.md), you can choose between two w
 The **Requisition Worksheet** page lists items that you want to order. You can enter items in the worksheet in the following ways:
 
 - Enter the items manually in the worksheet and fill in the relevant fields.
-
 - Use the **Calculate Plan** batch job. This calculates a replenishment plan for items and stockkeeping units that have been set up with a replenishment system of **Purchase** or **Transfer**. When you use this batch job, the program automatically fills in the **Action Message** field with a suggestion for an action you can take to replenish the item. This could be increasing the item quantity on an existing order or creating a new order, for example.
-
 - If you have used the **Calculate Plan** batch job from the **Planning Worksheet** page to calculate a replenishment plan, you can use the **Carry Out Action Message** batch job to copy purchase and transfer order proposals from the planning worksheet to the requisition worksheet. This is practical if separate users are responsible for handling production orders and purchase/transfer orders.
-
 - You can use the **Drop Shipment** action to fill in the requisition worksheet lines. This action uses the **Get Sales Orders** batch job to determine the sales order lines that you want to designate for a drop shipment.
-
 - You can use the **Special Order** action to fill in the requisition worksheet lines. This action uses the **Get Sales Orders** batch job to determine the sales order lines that you want to designate for a special order.
 
-Requisition worksheet lines contain detailed information about the items that need to be reordered. You can edit and delete the lines to adjust your replenishment plan, and you can further process the lines by using the **Carry Out Action Message** batch job. 
+Requisition worksheet lines contain detailed information about the items that need to be reordered. You can edit and delete the lines to adjust your replenishment plan, and you can further process the lines by using the **Carry Out Action Message** batch job.
 
-For details about planning with locations and transfers, see [Planning With or Without Locations](production-planning-with-without-locations.md).
+To learn more about planning with locations and transfers, go to [Planning With or Without Locations](production-planning-with-without-locations.md).
 
 > [!TIP]
 > When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organize the lines by sorting on a column name. This is especially useful on the Planning Worksheet page because they it can be used for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
@@ -172,6 +168,5 @@ For details about planning with locations and transfers, see [Planning With or W
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

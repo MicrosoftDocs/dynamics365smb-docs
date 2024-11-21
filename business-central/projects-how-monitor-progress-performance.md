@@ -151,6 +151,7 @@ On the **Project Ledger Entries** page, you can review the entries that are asso
 ## See also
 
 [Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)    
+[Project management analytics overview](projects-analytics-overview.md)  
 [Managing Projects](projects-manage-projects.md)    
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Finance](finance.md)    

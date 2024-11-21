@@ -1,5 +1,5 @@
 ---
-title: Set up sales order agent
+title: Sales order agent overview
 description: Learn about the sales order Copilot agent in Business Central.
 ms.date: 11/18/2024
 ms.topic: overview

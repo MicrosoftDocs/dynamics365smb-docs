@@ -55,13 +55,13 @@ Template apps are available to install from Microsoft AppSource. To install or u
 
 | To get the template app for... | Use this install link             |
 |--------------------------------| --------------------------------- |
-| Finance                        | https://aka.ms/bc-pbi-finance-app |
-| Sales                          | https://aka.ms/bc-pbi-sales-app   |
-| Purchasing                     | https://aka.ms/bc-pbi-purchase-app|
-| Inventory                      | https://aka.ms/bc-pbi-inventory-app |
-| Inventory Valuation | https://aka.ms/bc-pbi-inventory-valuation-app| 
-| Manufacturing   | https://aka.ms/bc-pbi-manufacturing-valuation-app |
-| Projects        | https://aka.ms/bc-pbi-projects-valuation-app      |
+| Finance                        | https://aka.ms/bc-pbi-finance-app                 |
+| Sales                          | https://aka.ms/bc-pbi-sales-app                   |
+| Purchasing                     | https://aka.ms/bc-pbi-purchase-app                |
+| Inventory                      | https://aka.ms/bc-pbi-inventory-app               |
+| Inventory Valuation            | https://aka.ms/bc-pbi-inventory-valuation-app     | 
+| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-valuation-app |
+| Projects                       | https://aka.ms/bc-pbi-projects-valuation-app      |
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 

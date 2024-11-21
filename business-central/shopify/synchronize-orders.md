@@ -1,7 +1,7 @@
 ---
 title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales orders from Shopify.
-ms.date: 09/15/2024
+ms.date: 10/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
@@ -114,7 +114,7 @@ The following procedure describes how to import and update the sales orders.
 > [!NOTE]  
 > Archived orders in Shopify can't be imported. If you need to check the order status, open the order from the [orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel and review order details.
 > 
-> Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **Checkout** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel. 
+> Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **General** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to import orders to open the **Shopify Shop Card** page.
@@ -288,18 +288,18 @@ When you run the report, the following happens in [!INCLUDE [prod_short](../incl
 Update the **Shopify Order ID** field based on the results of the sync:
 
 * Successful export: update the **Shopify Order ID** field with the ID of the order in Shopify.
-Export failed: set "-1"
-Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
+* Export failed: set "-1"
+* Invoice is excluded from sync for a reason listed in the conditions mentioned earlier: set "-2"
 
-The same pattern is used in the posted sales shipment, where the **Update Document** page lets you replace **-1** and **-2** or **0** to retry the export.
+>[!Note]
+>The same pattern is used in the posted sales shipment, where the **Update Document** page lets you replace **-1** and **-2** with **0** to retry the export.
 
 **Shopify**
 
-The connector uses GraphQL to:
+The Shopify connector does the following steps:
 
-* Create a draft order with header and item lines
-* Complete the draft order
-* Convert the draft order it to an order
+* Creates a draft order with header and item lines
+* Converts the draft order it to an order
 
 **Fields export to order headers and lines**
 
@@ -316,7 +316,7 @@ The following fields export on the order lines:
 * Tax amounts. Because the Graph API doesn't currently support the TaxLine object, the calculated tax is added as a custom product. Tax information from [!INCLUDE [prod_short](../includes/prod_short.md)] won’t be available in the tax report in Shopify Admin. To prevent Shopify from recalculating taxes, orders are marked as **Tax Exempt**.
 * Quantity, in whole numbers. Shopify doesn’t support fractions.
 
-### Effect on the process of synchronizing orders**
+### Effect on the process of synchronizing orders
 
 Synchronization imports the order and checks whether it was exported earlier. If it was exported earlier:
 
@@ -359,6 +359,11 @@ The tracking company is populated in the following order (from highest to lowest
 1. **Code**
 
 If the **Package Tracking URL** field is filled in for the shipping agent record, the shipping confirmation contains a tracking URL.
+
+>[!Tip]
+>If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle on the **Shopify Shop card** page.
+>
+>The **Shipping Agent Code** and **Shipping Agent Service Code** can be automatically filled in based on settings on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
 
 ## Returns and refunds
 

@@ -25,11 +25,11 @@ Sale order agent is activated, you have permission to use it. Learn more in [Set
 
 You collaborate with the sales order agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
 
-To access this view, select the  sales order agent badge on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
+To access this view, select ![Shows sales order agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
 
 ![Shows the task view with steps](media/sot-task-view-callouts.png)
 
-The **Tasks** view opens in the **Copilot pane**, showing tasks recently created by the sales order agent, with those requiring attention&mdash;like reviewing an incoming or outgoing email&mdash;at the top of the list.  
+The **Tasks** view displays tasks recently created by the sales order agent, with those requiring attention&mdash;like reviewing an incoming or outgoing email&mdash;at the top of the list.  
 
 For each sales quote request, the sales order agent adds a "task" in the "Tasks" view for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 

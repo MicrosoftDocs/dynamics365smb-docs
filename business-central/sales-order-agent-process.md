@@ -14,7 +14,7 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#understand-the-general-flow).
+When the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#process-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

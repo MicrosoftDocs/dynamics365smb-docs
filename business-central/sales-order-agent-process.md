@@ -12,7 +12,7 @@ ms.custom: bap-template #Required; don't change.
 
 # Process sales quotes and orders with sales order agent
 
-Once the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the general flow](sales-order-agent.md#understand-the-general-flow).<!--For example, it matches senders to registered customers, finds requested items in the inventory, and creates sales quotes. It can then send the quotes to prospects and convert them to sales orders depending on the replies.-->
+Once the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#understand-the-general-flow).<!--For example, it matches senders to registered customers, finds requested items in the inventory, and creates sales quotes. It can then send the quotes to prospects and convert them to sales orders depending on the replies.-->
 
 ## Get started
 
@@ -46,7 +46,7 @@ Steps requiring your intervention are listed under **Needs Attention** in the Ta
 1. Review the contents of the email. If you want to continue with the process, go to the next step. If you want to cancel, and make changes as n
 1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane.  
 
-After confirming the step, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
+After confirmation, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
 
 ## Next steps
 

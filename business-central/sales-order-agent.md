@@ -26,7 +26,11 @@ The agent is readily available in the product. You only need to activate it by s
 
 ## Operation
 
-A sales order agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
+The Sales Order Agent uses AI to perform its tasks. Conceptually, it interacts with the Business Central functionality in a similar way Business Central users interact with it. The agent is provided with a general description (or _instructions_), expressed in natural language, of how the process of capturing sales orders should be handled. It then uses the UI elements captions, tooltips and other properties, combined with the data presented on Business Central pages and its instructions to perfrom the task step by step, starting from the designated Role Center, as a user would.  
+
+It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
+
+Automatically resolves validation errors where possible​
 
 The agent relies on an email dispatcher that continuously monitors a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and then sends results, such as prepared sales quotes, to the customer in response.
 
@@ -34,7 +38,7 @@ The agent relies on an email dispatcher that continuously monitors a designated 
 //DRAFT​
 Checks available​ inventory, unit of measure, attributes, variants
 Can be triggered automatically and on demand, by internal and external processes​
-Automatically resolves validation errors where possible​
+
 Acts within defined permissions and profile (role)​
 Brings humans in the loop to validate key decisions​
 , detecting and flagging irrelevant and malicious e-mail content​ ​

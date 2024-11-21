@@ -25,9 +25,7 @@ You turn the agent on or off from the **Copilot & AI Capabilities** page, as you
 
 1. Set up the email account for sales receiving incoming requests for quotes and orders. 
 
-   The sales order agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
-
-<!-- Sorry, your Copilot isn't activated for Sales Order Agent-->
+   The sales order agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md). <!-- Sorry, your Copilot isn't activated for Sales Order Agent-->
 
 1. In the navigation bar at the top of the role center, select ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.  
 1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field the email account you want to monitor.
@@ -45,7 +43,7 @@ The **Sales Order Agent** badge changes to ![Shows the sales order agent icon af
 When the sales order agent is active, a scheduled task that runs every minute on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the sales order agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the sales order agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
-> The *tba* badge indicates the agent is configured with mailbox, but it's not active. To check, select the *tba* badge > **Activate**. 
+> The *tba* badge indicates the agent is configured with mailbox, but it's not active. To check, select the *tba* badge > **Activate**.
 
 ## Manage user access to the sales order agent
 

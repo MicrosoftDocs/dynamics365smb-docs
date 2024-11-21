@@ -10,15 +10,15 @@ ms.date: 11/13/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Process sales quotes and orders using the sales order agent 
+# Process sales quotes and orders with sales order agent
 
-Once the sales order agent is activated, it monitors the mailbox for incoming emails about sales quote requests. It matches senders to registered customers, finds requested items in the inventory, and creates sales quotes. It can then send the quotes to prospects and convert them to sales orders depending on the replies.  
+Once the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the general flow](sales-order-agent.md#understand-the-general-flow).<!--For example, it matches senders to registered customers, finds requested items in the inventory, and creates sales quotes. It can then send the quotes to prospects and convert them to sales orders depending on the replies.-->
 
 ## Get started
 
-You collaborate with the sales order agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane. 
+You collaborate with the sales order agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
 
-To access this view, select the  sales order agent badge on the right side of the navigation menu at the top. A red circle with a number on the icon indicates tasks needing attention.  
+To access this view, select the  sales order agent badge on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
 
 A screenshot of a computer
 
@@ -26,27 +26,25 @@ The **Tasks** view opens in the **Copilot pane**, showing tasks recently created
 
 For each sales quote request, the sales order agent adds a "task" in the "Tasks" view for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 
-Learn more about the steps in the process in [Understand the general flow](sales-order-agent.md#understand-the-general-flow).
+## View sales order agent task timeline of steps
 
-## View sales order agent task timeline
-
-To view the steps that a task has gone through chronologically, click the task in the Tasks view or select **...** (More options) > **Show Details**.  
+From **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
 
 ## Review a step
 
-Your intervention is required for various steps in the process of creating a sale order, for example: 
+Your intervention is required for various steps in the process of creating a sale order, for example:
 
-- Review and confirm incoming email requests for sales quotes from customers. 
-- Review and confirm the sales quote and outgoing email created by the sales order agent for the customer. 
-- Provide assistance to the sales order agent for resolving a problem. 
+- Review and confirm incoming email requests for sales quotes from customers.
+- Review and confirm the sales quotes and order, along with outgoing emails created by the sales order agent for the customer.
+- Provide assistance to the sales order agent for fixing a problem.
 
 Steps requiring your intervention are listed under **Needs Attention** in the Tasks view. To review a step: 
 
-1. On the step, select … (More options) > Review.  
+1. On the step, select **...** (More options) > **Review**.  
 
-   The Tasks view switches to display the Review pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
-1. Review the contents of the email and make changes as needed. 
-1. When you’re satisfied with the content, select Confirm on in the Review pane.  
+   The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
+1. Review the contents of the email. If you want to continue with the process, go to the next step. If you want to cancel, and make changes as n
+1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane.  
 
 After confirming the step, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
 

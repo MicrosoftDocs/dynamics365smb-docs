@@ -52,10 +52,9 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
 After confirmation, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
 
-## Discard and reinstae messages
+## Discard and revive messages
 
 ## Modify documents
-
 
 ## Stop and resume task
 

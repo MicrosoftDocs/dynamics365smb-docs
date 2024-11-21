@@ -13,7 +13,7 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The sale order agent automates processing sales quote requests to orders by monitoring incoming emails to a designated mailbox. To set up the sales order agent working, you first need make sure it's turned on using the **Copilot & AI Capabilities** page. Once the agent is turned on, you configure it to monitor the desired mailbox, and manage user access to the agent.
+The sale order agent automates processing sales quote requests to orders by monitoring incoming emails to a designated mailbox. To set up the sales order agent, you first need make sure it's turned on using the **Copilot & AI Capabilities** page. Once the agent is turned on, you configure it to monitor the desired mailbox, and manage user access to the agent.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

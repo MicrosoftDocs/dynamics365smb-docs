@@ -54,6 +54,8 @@ As an administrator, you can manage which users have permission to use the sales
 1. Press <kbd>Alt</kbd>+<kbd>Q</kbd>, search for **Agents**, and then choose the related link.
 1. On the **Agents** page, select sales order agent. 
 
+Need more info. Currently there are two option UserandOwner and User. Note sure what these mean.
+
 ## Next steps
 
 <!--Remove all the comments in this template before you sign-off or merge to the main branch.-->

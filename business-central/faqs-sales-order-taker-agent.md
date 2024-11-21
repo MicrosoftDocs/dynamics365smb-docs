@@ -80,14 +80,8 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 |Category|Scenario|
 |-|-|
-|Quotes<br><br>Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |Single/multi-turn with approval by customer. Up to three items.|
-||Quote request with four or more items|
-|||Request for quote by item reference. Up to three lines.|
-||Quote sent but not approved by customer.|
-||Quote request from unknown customer.|
-||Quote request for unknown item.|
-|Information<br><br>Requests for information about items followed by a quote request|Single and multi-turn with quote based on information|
-||Request for information about unknown items|
+|Quotes<br><br>Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |<ul><li>Single/multi-turn with approval by customer. Up to three items.</li><li>Quote request with four or more items</li><li>Request for quote by item reference. Up to three lines.</li><li>Quote sent but not approved by customer</li><li>Quote request from unknown customer.</li><li>Quote request for unknown item.</li></ul>|
+|Information<br><br>Requests for information about items followed by a quote request|<ul><li>Single and multi-turn with quote based on information</li><li>Request for information about unknown items</li></ul>|
 
 ## What are the limitations of sales order agent? How can users minimize the impact of the sales order agent limitations when using the system?
 

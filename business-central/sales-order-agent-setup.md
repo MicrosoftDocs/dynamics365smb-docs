@@ -30,15 +30,15 @@ You turn the agent on or off from the **Copilot & AI Capabilities** page, as you
    The sales order agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md). <!-- Sorry, your Copilot isn't activated for Sales Order Agent-->
 
 1. In the navigation bar at the top of the role center, select ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.  
-1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field the email account you want to monitor.
+1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) the email account you want to monitor.
 
    ![Shows the sales order agent configuration page](media/soa-configuration.png)
 
-1. Turn on the **Active** toggle.
-1. Select **Manage user access** to specify the users that can manage or interact with the agent.
+1. Turn on the **Active** toggle (4).
+1. Select **Manage user access** (5) to specify the users that can manage or interact with the agent.
 
    By default, you're granted **UserAndOwner** access to agent. You can add more users now or later. Learn more in [Manage user access to the sales order agent ](#manage-user-access-to-the-sales-order-agent).
-1. Select **Update** to complete the setup.
+1. Select **Update** (6) to complete the setup.
 
 The **Sales Order Agent** badge changes to ![Shows the sales order agent icon after configured](media/soa-activated-icon.png), which indicates the agent is active and ready to handle incoming quote requests to the mailbox.
 

@@ -34,10 +34,6 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view (2)
 
 For each sales quote request, the sales order agent adds a task (3) for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 
-## View timeline and details of steps
-
-From ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
-
 ## Review a step
 
 Your intervention is required for various steps in the process of creating a sale order, for example:
@@ -55,6 +51,17 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
 After confirmation, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
+
+## Discard and reinstae messages
+
+## Modify documents
+
+
+## Stop and resume task
+
+## View timeline and details of steps
+
+From ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
 
 ## Related information
 

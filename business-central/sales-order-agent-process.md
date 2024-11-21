@@ -1,11 +1,12 @@
 ---
-title: How-to topic template #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+title: Process sales quotes and orders with sales order agent (preview)
+description: Learn how to work with the sales order agent to process sales quotes and orders.
+author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.topic: how-to
+ms.collection:
+  - bap-ai-copilot
 ms.date: 11/13/2024
 ms.custom: bap-template #Required; don't change.
 ---
@@ -51,7 +52,7 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
    The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
 1. Review the contents of the email. 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process, select **Stop**.
+1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
 After confirmation, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
 

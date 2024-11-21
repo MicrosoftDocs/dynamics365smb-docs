@@ -8,7 +8,6 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
-  - get-started
 ---
 # Sales order agent overview (preview)
 

@@ -10,18 +10,21 @@ ms.collection:
   - bap-ai-copilot
   - get-started
 ---
+# Set up sales order agent (preview)
 
-# Set up the sales order agent
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The sale order agent automates processing sales quote requests to orders by monitoring incoming emails to a designated mailbox. To set up the sales order agent working, you first need make sure it's turned on using the **Copilot & AI Capabilities** page. Once the agent is turned on, you configure it to monitor the desired mailbox, and manage user access to the agent.
 
-## Turn on the sales order agent
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+## Turn on sales order agent
 
 The sales order agent is turned on by default. If the ![Shows the sales order agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent is on, but not yet configured to process sales orders.
 
 You turn the agent on or off from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The sales order agent is listed under **Production ready previews**. Learn more about in [Configure Copilot and AI capabilities](enable-ai.md).
 
-## Configure the sales order agent
+## Configure  sales order agent
 
 1. Set up the email account for sales receiving incoming requests for quotes and orders. 
 
@@ -45,7 +48,7 @@ When the sales order agent is active, a scheduled task that runs every minute on
 > [!NOTE]
 > The *tba* badge indicates the agent is configured with mailbox, but it's not active. To check, select the *tba* badge > **Activate**.
 
-## Manage user access to the sales order agent
+## Manage user access to sales order agent
 
 The sales order agent has a user account in Business Central similar to other users. By default, the sales order agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the necessary objects, data, and UI elements (such as pages, fields, and actions) needed for handling sales quote requests.
 
@@ -58,4 +61,10 @@ Need more info. Currently there are two option UserandOwner and User. Note sure 
 
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+[Process sales quotes and orders with sales order agent](sales-order-agent-process.md)
+
+## Related information
+
+[Sales order agent overview](sales-order-agent.md)  
+[FAQ for sales order agent](faqs-sales-order-taker-agent.md)
+[Configure Copilot and AI capabilities](enable-ai.md)  

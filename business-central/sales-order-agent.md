@@ -10,7 +10,9 @@ ms.collection:
   - bap-ai-copilot
   - get-started
 ---
-# Sales order agent overview
+# Sales order agent overview (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The sales order agent automates the process of taking sales orders; starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the process by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
 
@@ -19,8 +21,7 @@ The agent is readily available in the product. You only need to activate it by s
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
-<!--
-> *The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced.*-->
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Operation
 
@@ -66,7 +67,7 @@ The general flow is illustrated in the figure, which is followed by more details
 ## Next steps
 
 - [Set up the sales order agent](sales-order-agent-setup.md)
-- [Process sales quotes and orders using the sales order agent](sales-order-agent-process.md)
+- [Process sales quotes and orders with sales order agent](sales-order-agent-process.md)
 
 ## Related information
 

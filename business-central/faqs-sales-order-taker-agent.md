@@ -9,15 +9,19 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# FAQ for sales order agent 
+# FAQ for sales order agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of sales order agent feature in Business Central.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is the sales order agent?
 
 The sales order agent is an integrated copilot with agent capabilities that automates the task of taking sales orders. The agent can handle the entire sales order capturing process. It starts by receiving a customer's order by email. It then identifies the customer from the registered list in Business Central, prepares a quote with the requested items, checks availability of items, sends the quote to the customer for approval, and upon confirmation, converts it to  sales order.
 
-The agent is readily available in the product. You just need to activate it. <!--The agent is also configurable. For example, you can define a list of users who can delegate the process of taking the sales orders. Or, specify the channel for receiving the orders (for example, by e-mail), and select the steps to include or exclude in that process. -->Once you activate the agent, it's ready to process sales orders.  
+The agent is readily available in the product. You just need to activate it. The agent is also configurable. For example, you can define a list of users who can delegate the process of taking the sales orders. Or, specify the channel for receiving the orders (for example, by e-mail), and select the steps to include or exclude in that process. Once you activate the agent, it's ready to process sales orders.  
 
 ## What are capabilities of the sales order agent?
 
@@ -53,15 +57,6 @@ To support of and in addition to the task of taking and processing sales orders,
   Business Central maintains full transparency and provides control over changes made by the agent. The agent brings humans in the loop when their attention is required by issuing in-product notifications that are displayed on the role center. For example, a notification happens before any outbound e-mail communications, such as sending a final sales quote or an order to a customer, when the agent needs more details to get unblocked, or when approval for important changes.  
 
   For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the e-mail conversation. Users can review this information and update the values and actions the agent suggested if needed. Business Central can also display the reasoning used by the agent and citations that led to a suggested value.
-
-<!--
-
-- **User directives:** Operating based on user directives, the agent utilizes AI to complete necessary steps within the Business Central environment and seeks user intervention when specific situations arise.
-- **Configuration settings:** Users can define the list of delegators, channels for receiving orders (for example, email), and select which steps to include or exclude in the process.
-- **Controlled access** The agent is granted access solely to the necessary parts of the product to perform its duties. It comes with predefined permissions and UI roles that can be assigned by the configuring user.
-- **External Orchestrator:** The agent is invoked by an external orchestrator, Copilot Studio, which monitors the company mailbox (specified in the agent configuration settings). The orchestrator hands over emails received from the customer to the agent and sends results of the agent's work (prepared sales quote with requested items) in response.
-- **Transparency and control:** Maintains full transparency and control over changes made by the agent, providing notifications, a task context and history view, and detailed review options.
-- **Auditing the agent trail:** Actions done by the agent, including navigating pages, creating and modifying records, and calling actions, carry the agent’s user ID. This user ID appears in the same places and in the same way as with others users, such as in list views, history, posted documents, notifications, and more. Additionally, Business Central records and displays the user (owner or delegator) who delegated the task to the agent.-->
 
 ## What is the intended use of the sales order agent?
 
@@ -134,18 +129,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 ## Is this capability extensible?
 
 Currently, this capability isn't extensible by partners. 
-<!--
-
-Business Central users maintain full transparency and control over the changes made by the sales order agent by: 
-
-- Receiving notifications from the agent, when it requires help, or when the process demands human review (e.g. for all outbound messages).
-- Understanding task context and history through a 'timeline' view.
-- Reviewing detailed changes and suggestions made by the agent within a task
-- Adjusting changes and approving task continuation.
-- Getting a detailed review of an entity, surfacing all changes and suggestions made by the agent within a specific task, allowing humans to review and adjust these changes and sign off on proceeding with the task.
-- Reviewing the agent's KPIs to assess the impact of its work.-->
 
 ## Related information
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -15,7 +15,7 @@ ms.collection:
 
 The sales order agent automates the process of taking sales orders; starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the process by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
 
-The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can use the agent to process orders.
+The agent is readily available in the product. In most cases, you only need to activate it by specifying an email inbox you want the agent to monitor. Learn in more in [Set up the sales order agent](sales-order-agent-setup.md).
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).

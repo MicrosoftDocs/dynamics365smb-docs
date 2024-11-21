@@ -50,8 +50,8 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 1. On the step, select **...** (More options) > **Review**.  
 
    The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
-1. Review the contents of the email. If you want to continue with the process, go to the next step. If you want to cancel, and make changes as n
-1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane.  
+1. Review the contents of the email. 
+1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process, select **Stop**.
 
 After confirmation, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
 

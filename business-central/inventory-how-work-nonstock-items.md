@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/16/2024
+ms.date: 11/21/2024
 ms.custom: bap-template
 ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
@@ -43,10 +43,10 @@ Before you can convert a catalog item to a regular item, you must specify how to
 2. Open the card for a catalog item that you want to convert to a normal item.
 3. On the **Catalog Item Card** page, choose the **Create Item** action.
 
-A new item card pre-filled with information from the catalog item and an item template are created. You can edit the information about the new item if needed. To learn more about creating items, go to [Register New Items](inventory-how-register-new-items.md).
+A new item card prefilled with information from the catalog item and an item template is created. You can edit the information about the new item if needed. To learn more about creating items, go to [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
-> An item reference is automatically item between the vendor's item number and your new item number. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).
+> An item reference is automatically created between the vendor's item number and your new item number. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).
 
 ## To sell a catalog item and convert it to a normal item
 
@@ -57,20 +57,19 @@ The following process uses a sales order, but the steps are the same for blanket
 3. On a new sales line, in the **Type** field, select **Item**, but leave the **No.** field empty.
 4. Choose the **Line** action, and then choose the **Select Catalog Items** action.
 5. On the **Catalog Items** page, select the catalog item that you want to sell, and then choose the **OK** button.
-   The catalog item gets converted to a normal item automatically, and newly create normal item is selected in the sales line.
-7. When the sales order is complete, choose the **Post** action.
+   The catalog item automatically converts to a normal item, and the new normal item is selected on the sales line.
+6. When the sales order is complete, choose the **Post** action.
 
 > [!IMPORTANT]
-> If you changed you mind and delete the sales line, the automatically created item will be deleted also. That helps to keep your item list free of unnecessary entries.
-> Be aware that the item will be deleted also in case you converted it manually and even did some adjustments, like added new units of measure or updated prices or cost. Of course deletion won't happen if this item is already used in other sales or purchase lines, assembly BOMs, or has ledger entries. 
-
+> If you change you mind and delete the sales line, the automatically created item is also deleted. Deleting the item helps reduce clutter in you list of items.
+>
+> The item is also deleted if you convert the item manually, or make changes such as adding new units of measure or updating prices or cost. However, the item won't be deleted if it's already used in sales or purchase lines, assembly BOMs, or has ledger entries.
 
 ## See also
 
-[Register New Items](inventory-how-register-new-items.md)    
-[Create Special Orders](sales-how-to-create-special-orders.md)    
-[Inventory](inventory-manage-inventory.md)    
+[Register New Items](inventory-how-register-new-items.md)  
+[Create Special Orders](sales-how-to-create-special-orders.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

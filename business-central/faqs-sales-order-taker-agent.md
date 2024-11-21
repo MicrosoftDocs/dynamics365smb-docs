@@ -134,4 +134,9 @@ Currently, this capability isn't extensible by partners.
 
 ## Related information
 
+[Sales order agent overview](sales-order-agent.md)  
+[Set up the sales order agent](sales-order-agent-setup.md)  
+[Process sales quotes and orders with sales order agent](sales-order-agent-process.md)  
+[Configure Copilot and AI capabilities](enable-ai.md) 
+
 [!INCLUDE[footer-include](includes/footer-banner.md)]

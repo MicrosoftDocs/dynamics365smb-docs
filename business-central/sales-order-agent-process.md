@@ -13,9 +13,13 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Once the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#understand-the-general-flow).
+When the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#understand-the-general-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+## Prerequisites
+
+Sale order agent is activated, you have permission to use it. Learn more in [Set up sales order agent](sales-order-agent-setup.md).
 
 ## Get started
 
@@ -29,7 +33,7 @@ The **Tasks** view opens in the **Copilot pane**, showing tasks recently created
 
 For each sales quote request, the sales order agent adds a "task" in the "Tasks" view for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 
-## View sales order agent task timeline of steps
+## View timeline and details of steps
 
 From **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
 

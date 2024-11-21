@@ -78,16 +78,16 @@ The sales order agent is intended to handle the end-to-end sales order capturing
 
 We defined a set of categories and scenarios and created test cases for each as described in the following table. In total, we have a suite of 50 test cases.
 
-|Category|Description|Test case|
-|-|-|-|
-|Quotes|Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |Single/multi-turn with approval by customer. Up to three items.|
-|||Quote request with four or more items|
+|Category|Scenario|
+|-|-|
+|Quotes<br><br>Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |Single/multi-turn with approval by customer. Up to three items.|
+||Quote request with four or more items|
 |||Request for quote by item reference. Up to three lines.|
-|||Quote sent but not approved by customer.|
-|||Quote request from unknown customer.|
-|||Quote request for unknown item.|
-|Information|Requests for information about items followed by a quote request|Single and multi-turn with quote based on information|
-|||Request for information about unknown items|
+||Quote sent but not approved by customer.|
+||Quote request from unknown customer.|
+||Quote request for unknown item.|
+|Information<br><br>Requests for information about items followed by a quote request|Single and multi-turn with quote based on information|
+||Request for information about unknown items|
 
 ## What are the limitations of sales order agent? How can users minimize the impact of the sales order agent limitations when using the system?
 

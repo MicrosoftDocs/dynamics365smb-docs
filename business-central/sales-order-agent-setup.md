@@ -49,9 +49,7 @@ When the sales order agent is active, a scheduled task that runs every minute on
 
 The sales order agent has a user account in Business Central similar to other users. By default, the sales order agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the necessary objects, data, and UI elements (such as pages, fields, and actions) needed for handling sales quote requests.
 
-As an administrator, you can manage which users have permission to use the sales order agent. <!-- You can specify the extent to which tasks can be delegated to it, the communication channels for receiving orders (such as email), and the stages of the order process to integrate (for instance, whether to convert a generated sales quote into an order).-->
-
-You configure user access during the agent configuration or later from **Sales Order Agent** card page, describe in the following steps To open this page, complete the following steps: 
+As an administrator, you can manage which users have permission to use the sales order agent. You can configure user access during the configuration or later from **Sales Order Agent** card page as described in the following steps. 
 
 1. Press <kbd>Alt</kbd>+<kbd>Q</kbd>, search for **Agents**, and then choose the related link.
 1. On the **Agents** page, select sales order agent. 

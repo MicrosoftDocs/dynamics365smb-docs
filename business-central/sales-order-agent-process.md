@@ -38,7 +38,7 @@ Your intervention is required for various steps in the process of creating a sal
 - Review and confirm the sales quotes and order, along with outgoing emails created by the sales order agent for the customer.
 - Provide assistance to the sales order agent for fixing a problem.
 
-Steps requiring your intervention are listed under **Needs Attention** in the Tasks view. To review a step: 
+Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step: 
 
 1. On the step, select **...** (More options) > **Review**.  
 

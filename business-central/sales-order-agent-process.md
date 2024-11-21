@@ -27,7 +27,7 @@ You collaborate with the sales order agent to review and convert quotes into ord
 
 To access this view, select the  sales order agent badge on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
 
-*A screenshot of a computer*
+![Shows the task view with steps](media/sot-task-view-callouts.png)
 
 The **Tasks** view opens in the **Copilot pane**, showing tasks recently created by the sales order agent, with those requiring attention&mdash;like reviewing an incoming or outgoing email&mdash;at the top of the list.  
 
@@ -35,7 +35,7 @@ For each sales quote request, the sales order agent adds a "task" in the "Tasks"
 
 ## View timeline and details of steps
 
-From **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
+From ![Shows the task view icon](media/sot-task-view-icon.png) ***Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
 
 ## Review a step
 

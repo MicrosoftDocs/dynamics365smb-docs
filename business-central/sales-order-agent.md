@@ -42,26 +42,29 @@ The general flow is illustrated in the figure, which is followed by more details
 
 ![Shows the sales order agent flow](media/soa-flow.svg)
 
-1. Customer: Sends email to Business Central mailbox asking for a sales quote for items. 
-1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing incoming request. 
-1. Reviewer: Reviews/confirms the step with email.  
+1. Customer: Sends an email to the Business Central mailbox asking for a quote for items.
+1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing incoming request.
+1. Reviewer: Reviews/confirms the step that includes the email.  
 1. Sales order agent: 
 
     1. Finds the requested items.
-    1. Finds the contact. 
-    1. Creates the sales quote. 
-    1. Adds review step with a reply email with attached sales quote as pdf.
-1. Reviewer: Reviews/confirms email and sales quotes. 
-1. Sales order agent: Sends email and sales quote PDF to customer. 
-1. Customer: Review sales quote and sends email requesting order. 
-1. Sales order agent: Picks up email and adds review step 
-1. Reviewer: Reviews/confirms the confirmation email for a sale order. 
+    1. Finds the contact.
+    1. Creates the sales quote based on availability.
+    1. Adds a review step with a reply email with attached sales quote as pdf.
+1. Reviewer: Reviews/confirms the sales quotes and reply email.
+1. Sales order agent: Sends the email and sales quote PDF to the customer.
+1. Customer: Review sales quote and sends a confirmation email requesting order.
+1. Sales order agent: Picks up email and adds review step.
+1. Reviewer: Reviews/confirms the confirmation email for a sale order.
+1. Sales order agent:
+
+    1. Converts the sales quote to an order.
+    1. Adds a review task with outgoing email and attached sales order confirming order.
+1. Reviewer: Reviews/confirms outgoing email.
 1. Sales order agent: 
 
-    1. Converts quote to order. 
-    1. Adds review task with outgoing email confirming order. 
-1. Reviewer: Reviews/confirms outgoing email. 
-1. Sales order agent: Sends email to customer. 
+    1. Commits the order.
+    1. Sends email to customer.
   
 ## Next steps
 

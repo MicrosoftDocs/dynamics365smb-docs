@@ -1,10 +1,10 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate the Sales Order Agent and manage user access.
-ms.date: 1/18/2024
+ms.date: 11/22/2024
 ms.topic: how-to
-author: jswymer
-ms.author: jswymer
+author: dmc-dk
+ms.author: dmitrych
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
@@ -19,7 +19,7 @@ The Sales Order Agent helps Business Central users automate the entire process o
 
 ## Manage Sales Order Agent capability
 
-The Sales Order Agent capability is turned on by default on the **Copilot & AI Capabilities** page. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent capability is on, but the agent is not yet active as it needs to be configured and activated to process customers' requests for sales orders.
+The Sales Order Agent capability is turned on by default on the **Copilot & AI Capabilities** page. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent capability is on, but the agent isn't yet active as it needs to be configured and activated to process customers' requests for sales orders.
 
 You turn the agent capability on or off from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more about in [Configure Copilot and AI capabilities](enable-ai.md).
 
@@ -28,17 +28,16 @@ You turn the agent capability on or off from the **Copilot & AI Capabilities** p
 1. In the navigation bar at the top of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.  
 1. Set up the email account for sales receiving incoming requests for quotes and orders. 
 
-The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md). <!-- Sorry, your Copilot isn't activated for Sales Order Agent-->
+   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 
-> [!Important]
-> The public-facing email account your sales team uses to receive requests for quotes may often receive irrelevant emails or junk. While the agent can detect and flag irrelevant or malicious emails, it would still need to review and process every email that arrives in the designated mailbox, consuming AI resources unnecessarily. Therefore, we recommend configuring a separate, internal-facing mailbox to which you can easily copy or move relevant emails from the public-facing email account for the agent to pick up and process.
+   > [!IMPORTANT]
+   > The public-facing email account your sales team uses to receive requests for quotes may often receive irrelevant emails or junk. While the agent can detect and flag irrelevant or malicious emails, it would still need to review and process every email that arrives in the designated mailbox, consuming AI resources unnecessarily. Therefore, we recommend configuring a separate, internal-facing mailbox to which you can easily copy or move relevant emails from the public-facing email account for the agent to pick up and process.
 
 1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) the email account you want the agent to monitor.
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
 
 1. Select **Manage user access** (5) to specify the users that can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent ](#manage-user-access-to-the-sales-order-agent).
-   
 1. Turn on the **Active** toggle (4).
 1. Select **Update** (6) to complete the setup.
 
@@ -60,7 +59,7 @@ Business Central provides the following system permission sets for administrator
 * **"Configure All Agents"**: Grants access to manage the configuration settings of the Sales Order Agent.
 * **"Manage Agent Tasks"**: Allows users to work with agent tasks displayed in the Copilot pane.
 
-Additionally, the following updates have been made to existing permission sets and entitlements:
+Additionally, the following updates were made to existing permission sets and entitlements:
 
 * The **"SECURITY"** permission set now includes the "Configure All Agents" permission.
 * The **"System Execute - Basic"** permission set now includes the "Manage Agent Tasks" permission.

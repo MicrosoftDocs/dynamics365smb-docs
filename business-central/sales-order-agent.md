@@ -13,9 +13,9 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The sales order agent automates the process of taking sales orders; starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the process by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
+The Sales Order Agent automates the process of taking sales orders; starting from a customer's request for a quote and concluding with the creation of an order. The agent begins the process by monitoring a designated mailbox for emails that seek a quote for items. From there, it orchestrates a series of tasks, under human supervision, to handle the request and eventually create the order in the system.
 
-The agent is readily available in the product. In most cases, you only need to activate it by specifying an email inbox you want the agent to monitor. Learn in more in [Set up the sales order agent](sales-order-agent-setup.md).
+The agent is readily available in the product. In most cases, you only need to activate it by specifying an email inbox you want the agent to monitor. Learn in more in [Set up the Sales Order Agent](sales-order-agent-setup.md).
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
@@ -24,11 +24,11 @@ The agent is readily available in the product. In most cases, you only need to a
 
 ## Operation
 
-A sales order agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
+A Sales Order Agent uses AI to create and manage tasks for processing sales orders. The agent interacts with the Business Central web client through an API, reading data from pages and accessing UI elements to display its actions onscreen. It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
 
 The agent relies on an email dispatcher that continuously monitors a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and then sends results, such as prepared sales quotes, to the customer in response.
 
-Learn more in [FAQ for sales order agent](faqs-sales-order-taker-agent.md).
+Learn more in [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md).
 
 ## Process flow
 
@@ -40,7 +40,7 @@ Processing a sales quote request into an order involves three participants:
 
 The general flow is illustrated in the figure, which is followed by more details of the steps. The actual flow might vary depending on factors such as follow-up requests, changes or cancellations in review, blocking issues, and so one.
 
-![Shows the sales order agent flow](media/soa-flow.svg)
+![Shows the Sales Order Agent flow](media/soa-flow.svg)
 
 1. Customer: Sends an email to the Business Central mailbox asking for a quote on items.
 1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing incoming request.
@@ -68,8 +68,8 @@ The general flow is illustrated in the figure, which is followed by more details
   
 ## Next steps
 
-- [Set up the sales order agent](sales-order-agent-setup.md)
-- [Process sales quotes and orders with sales order agent](sales-order-agent-process.md)
+- [Set up the Sales Order Agent](sales-order-agent-setup.md)
+- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
 
 ## Related information
 

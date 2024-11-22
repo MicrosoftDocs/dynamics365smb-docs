@@ -13,11 +13,12 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Order Agent helps Business Central users automate the entire process of capturing sales orders from their customers. It uses AI to analyze customers’ requests received via email, engage in multi-turn​ e-mail conversations with them, clarifying their requests if important details are missing, checking and informing the customer about availability of the items they are looking for, following up with a sales quote, formatted as a PDF, listing the requested items, quantities, units of measure, prices and taxes and other important details. 
+The Sales Order Agent helps Business Central users automate the entire process of capturing sales orders from their customers. It uses AI to analyze customers’ requests received via email, locate the customer in Business Central and engage in multi-turn email conversations with them to clarify requests if important details are missing or more choices available, check and inform the customer about the availability of the items they are looking for, and follow up with a sales quote. The quote is formatted as a PDF and includes the requested items, quantities, units of measure, prices, taxes, and other important details.
 
-Should the customer decide to update the quote, adding or updating the sales lines, the agent helps with that as well, finding the quote and making the requested changes. When the customer confirms the quote accuracy, the agent proceeds with converting it to a sales order, which is then also shared with the customer via e-mail.   
+If the customer decides to update the quote by adding or modifying sales lines, the agent assists with these changes by locating the quote and making the requested updates. Once the customer confirms the quote's accuracy, the agent converts it into a sales order, which is then also shared with the customer via email.
 
-The agent is readily available in the product. You only need to activate it by specifying an email inbox you want the agent to monitor. You can also specify the users who can use the agent to process cusotmers' orders.
+The agent is readily available in the product. To activate it, you only need to specify the email inbox you want the agent to monitor. Additionally, you can specify your preferences for certain aspects of the agent's behavior and designate the users authorized to use the agent to process customers' orders, enabling the agent to act on behalf of a company, department, or team — not just an individual user.
+
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
@@ -26,11 +27,16 @@ The agent is readily available in the product. You only need to activate it by s
 
 ## Operation
 
-The Sales Order Agent uses AI to perform its tasks. Conceptually, it interacts with the Business Central functionality in a similar way Business Central users interact with it. The agent is provided with a general description (or _instructions_), expressed in natural language, of how the process of capturing sales orders should be handled. It then uses the UI elements captions, tooltips and other properties, combined with the data presented on Business Central pages and its instructions to perfrom the task step by step, starting from the designated Role Center, as a user would.  
+The Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary, whether in specific scenarios, for instance to review outgoing messages, or based on configured preferences. 
 
-It operates without human intervention (autonomously) for most tasks, acting on behalf of the company or users, but always keeps users informed and involves them when needed or required in specific scenarios.
+Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of capturing sales orders should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, it navigates the pages, invokes UI actions and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal, as neither its interaction surface nor its steps are hardcoded but are determined by AI based on the context of each step.
 
-Automatically resolves validation errors where possible​
+This flexibility enables the agent to discover and interact with relevant custom fields and actions, as well as attempt to automatically resolve validation errors by processing displayed error messages and adjusting the input accordingly.
+
+The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to, while the profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and a profile are assigned to the agent out of the box; however, administrators can update these as needed.
+
+> [!Note]
+> The Sales Order Agent is provided as an app, pre-installed in the countries where it is being previewed. The app includes agent-specific pages, permission sets, and a profile. While in preview, the app is not extensible by developers, nor is it possible to view or adjust the agent's instructions.
 
 The agent relies on an email dispatcher that continuously monitors a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and then sends results, such as prepared sales quotes, to the customer in response.
 
@@ -39,7 +45,7 @@ The agent relies on an email dispatcher that continuously monitors a designated 
 Checks available​ inventory, unit of measure, attributes, variants
 Can be triggered automatically and on demand, by internal and external processes​
 
-Acts within defined permissions and profile (role)​
+
 Brings humans in the loop to validate key decisions​
 , detecting and flagging irrelevant and malicious e-mail content​ ​
 
@@ -51,7 +57,8 @@ starting from a customer's request for a quote and concluding with the creation 
 
 
 
-Agents can work autonomously, perform assigned tasks, respond to different events and inputs, reason over the state of data, and overcome errors based on user input and the context of the Business Central user experience. Agents require minimal to no intervention from users, while bringing them in if circumstances require their attention. Agents can act on behalf of a company, department, or team, not just a user.  
+Agents can work autonomously, perform assigned tasks, respond to different events and inputs, reason over the state of data, and overcome errors based on user input and the context of the Business Central user experience. 
+
 
 Learn more in [FAQ for sales order agent](faqs-sales-order-taker-agent.md).
 

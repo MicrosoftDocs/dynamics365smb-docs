@@ -13,50 +13,65 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The sale order agent automates processing sales quote requests to orders by monitoring incoming emails to a designated mailbox. To set up the Sales Order Agent, you first need make sure it's turned on using the **Copilot & AI Capabilities** page. Once the agent is turned on, you configure it to monitor the desired mailbox, and manage user access to the agent.
+The Sales Order Agent helps Business Central users automate the entire process of capturing sales orders from their customers, monitoring incoming emails to a designated mailbox. 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Turn on Sales Order Agent
+## Manage Sales Order Agent capability
 
-The Sales Order Agent is turned on by default. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent is on, but not yet configured to process sales orders.
+The Sales Order Agent capability is turned on by default on the **Copilot & AI Capabilities** page. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent capability is on, but the agent is not yet active as it needs to be configured and activated to process customers' requests for sales orders.
 
-You turn the agent on or off from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more about in [Configure Copilot and AI capabilities](enable-ai.md).
+You turn the agent capability on or off from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more about in [Configure Copilot and AI capabilities](enable-ai.md).
 
-## Configure  Sales Order Agent
-
-1. Set up the email account for sales receiving incoming requests for quotes and orders. 
-
-   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md). <!-- Sorry, your Copilot isn't activated for Sales Order Agent-->
+## Configure and activate Sales Order Agent
 
 1. In the navigation bar at the top of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.  
-1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) the email account you want to monitor.
+1. Set up the email account for sales receiving incoming requests for quotes and orders. 
+
+The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md). <!-- Sorry, your Copilot isn't activated for Sales Order Agent-->
+
+> [!Important]
+> The public-facing email account your sales team uses to receive requests for quotes may often receive irrelevant emails or junk. While the agent can detect and flag irrelevant or malicious emails, it would still need to review and process every email that arrives in the designated mailbox, consuming AI resources unnecessarily. Therefore, we recommend configuring a separate, internal-facing mailbox to which you can easily copy or move relevant emails from the public-facing email account for the agent to pick up and process.
+
+1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) the email account you want the agent to monitor.
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
 
+1. Select **Manage user access** (5) to specify the users that can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent ](#manage-user-access-to-the-sales-order-agent).
+   
 1. Turn on the **Active** toggle (4).
-1. Select **Manage user access** (5) to specify the users that can manage or interact with the agent.
-
-   By default, you're granted **UserAndOwner** access to agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent ](#manage-user-access-to-the-sales-order-agent).
 1. Select **Update** (6) to complete the setup.
 
 The **Sales Order Agent** badge changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), which indicates the agent is active and ready to handle incoming quote requests to the mailbox.
 
-When the Sales Order Agent is active, a scheduled task that runs every minute on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
+When the Sales Order Agent is active, a scheduled task that runs every 20 seconds on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
 > The *tba* badge indicates the agent is configured with mailbox, but it's not active. To check, select the *tba* badge > **Activate**.
 
 ## Manage user access to Sales Order Agent
 
-The Sales Order Agent has a user account in Business Central similar to other users. By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the necessary objects, data, and UI elements (such as pages, fields, and actions) needed for handling sales quote requests.
+The Sales Order Agent has a user account in Business Central, similar to other users. You can find it on the Agents page.
 
-As an administrator, you can manage which users have permission to use the Sales Order Agent. You can configure user access during the configuration or later from **Sales Order Agent** card page as described in the following steps. 
+By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be disabled first to make these changes.
 
-1. Press <kbd>Alt</kbd>+<kbd>Q</kbd>, search for **Agents**, and then choose the related link.
-1. On the **Agents** page, select Sales Order Agent. 
+Business Central provides the following system permission sets for administrators to control access to the agent's functionality:
 
-Need more info. Currently there are two option UserandOwner and User. Note sure what these mean.
+* **"Configure All Agents"**: Grants access to manage the configuration settings of the Sales Order Agent.
+* **"Manage Agent Tasks"**: Allows users to work with agent tasks displayed in the Copilot pane.
+
+Additionally, the following updates have been made to existing permission sets and entitlements:
+
+* The **"SECURITY"** permission set now includes the "Configure All Agents" permission.
+* The **"System Execute - Basic"** permission set now includes the "Manage Agent Tasks" permission.
+* The **"System Tables - Basic"** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
+* Essential and Premium license entitlements now include **"Manage Agent Tasks"** permissions.
+* All license types include **"Configure All Agents"** permissions.
+As an administrator, you can manage which users have permission to use the Sales Order Agent. You can configure user access during setup or later through the **Sales Order Agent** card page by selecting the **Manage user access link**.
+
+To configure the Sales Order Agent, users need to have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
+
+To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
 
 ## Next steps
 

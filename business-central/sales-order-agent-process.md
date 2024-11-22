@@ -1,6 +1,6 @@
 ---
-title: Process sales quotes and orders with sales order agent (preview)
-description: Learn how to work with the sales order agent to process sales quotes and orders.
+title: Process sales quotes and orders with Sales Order Agent (preview)
+description: Learn how to work with the Sales Order Agent to process sales quotes and orders.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -10,41 +10,37 @@ ms.collection:
 ms.date: 11/13/2024
 ms.custom: bap-template #Required; don't change.
 ---
-# Process sales quotes and orders with sales order agent (preview)
+# Process sales quotes and orders with Sales Order Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When the sales order agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#understand-the-general-flow).
+When the Sales Order Agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, its starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#process-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
-Sale order agent is activated, and you have permission to use it. Learn more in [Set up sales order agent](sales-order-agent-setup.md).
+Sale order agent is activated, and you have permission to use it. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
 
 ## Get started
 
-You collaborate with the sales order agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
+You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
 
-To access this view, select ![Shows sales order agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** (1) on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
+To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** (1) on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
 
 ![Shows the task view with steps](media/sot-task-view-callouts.png)
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view (2) opens to display tasks recently created by the sales order agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
+The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view (2) opens to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
-For each sales quote request, the sales order agent adds a task (3) for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
-
-## View timeline and details of steps
-
-From ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
+For each sales quote request, the Sales Order Agent adds a task (3) for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 
 ## Review a step
 
 Your intervention is required for various steps in the process of creating a sale order, for example:
 
 - Review and confirm incoming email requests for sales quotes from customers.
-- Review and confirm the sales quotes and order, along with outgoing emails created by the sales order agent for the customer.
-- Provide assistance to the sales order agent for fixing a problem.
+- Review and confirm the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
+- Provide assistance to the Sales Order Agent for fixing a problem.
 
 Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step: 
 
@@ -54,11 +50,21 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 1. Review the contents of the email. 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
-After confirmation, the sales order agent moves the task on for more processing. After some time, a new notification appears on the sales order agent badge. Follow the same flow to verify and approve the results.
+After confirmation, the Sales Order Agent moves the task on for more processing. After some time, a new notification appears on the Sales Order Agent badge. Follow the same flow to verify and approve the results.
+
+## Discard and revive messages
+
+## Modify documents
+
+## Stop and resume task
+
+## View timeline and details of steps
+
+From ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
 
 ## Related information
 
 [Sales order agent overview](sales-order-agent.md)  
-[Set up the sales order agent](sales-order-agent-setup.md)  
-[FAQ for sales order agent](faqs-sales-order-taker-agent.md)
+[Set up the Sales Order Agent](sales-order-agent-setup.md)  
+[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
 [Configure Copilot and AI capabilities](enable-ai.md)  

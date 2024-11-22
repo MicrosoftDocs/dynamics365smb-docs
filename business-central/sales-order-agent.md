@@ -43,7 +43,7 @@ The agent helps with composing email bodies based on the context of the current 
 > [!Note]
 > The Sales Order Agent is provided as an app, pre-installed in the countries where it is being previewed. The app includes agent-specific pages, permission sets, and a profile. While in preview, the app is not extensible by developers, nor is it possible to view or adjust the agent's instructions.
 
-Learn more in [FAQ for sales order agent](faqs-sales-order-taker-agent.md).
+Learn more in [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md).
 
 ## Process flow
 
@@ -55,7 +55,7 @@ Processing a sales quote request into an order involves three participants:
 
 The general flow is illustrated in the figure, which is followed by more details of the steps. The actual flow might vary depending on factors such as follow-up requests, changes or cancellations in review, blocking issues, and so on.
 
-![Shows the sales order agent flow](media/soa-flow.svg)
+![Shows the Sales Order Agent flow](media/soa-flow.svg)
 
 1. Customer: Sends email to Business Central mailbox asking for a sales quote for items. 
 1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing incoming request. 
@@ -78,8 +78,8 @@ The general flow is illustrated in the figure, which is followed by more details
   
 ## Next steps
 
-- [Set up the sales order agent](sales-order-agent-setup.md)
-- [Process sales quotes and orders with sales order agent](sales-order-agent-process.md)
+- [Set up the Sales Order Agent](sales-order-agent-setup.md)
+- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
 
 ## Related information
 

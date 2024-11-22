@@ -1,6 +1,6 @@
 ---
-title: FAQ for sales order agent
-description: This FAQ provides information about the AI technology used by sales order agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+title: FAQ for Sales Order Agent
+description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 11/19/2024
 ms.custom: 
   - responsible-ai-faqs
@@ -11,21 +11,21 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# FAQ for sales order agent (preview)
+# FAQ for Sales Order Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of sales order agent feature in Business Central.
+These frequently asked questions (FAQ) describe the AI impact of Sales Order Agent feature in Business Central.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## What is the sales order agent?
+## What is the Sales Order Agent?
 
-The sales order agent is an integrated copilot with agent capabilities that automates the task of taking sales orders. The agent can handle the entire sales order capturing process. It starts by receiving a customer's order by email. It then identifies the customer from the registered list in Business Central, prepares a quote with the requested items, checks availability of items, sends the quote to the customer for approval, and upon confirmation, converts it to  sales order.
+The Sales Order Agent is an integrated copilot with agent capabilities that automates the task of taking sales orders. The agent can handle the entire sales order capturing process. It starts by receiving a customer's order by email. It then identifies the customer from the registered list in Business Central, prepares a quote with the requested items, checks availability of items, sends the quote to the customer for approval, and upon confirmation, converts it to  sales order.
 
 The agent is readily available in the product. You just need to activate it. The agent is also configurable. For example, you can define a list of users who can delegate the process of taking the sales orders. Or, specify the channel for receiving the orders (for example, by e-mail), and select the steps to include or exclude in that process. Once you activate the agent, it's ready to process sales orders.  
 
-## What are capabilities of the sales order agent?
+## What are capabilities of the Sales Order Agent?
 
 To support of and in addition to the task of taking and processing sales orders, the agent has the following capabilities:
 
@@ -39,7 +39,7 @@ To support of and in addition to the task of taking and processing sales orders,
 
 - Task execution and interaction
 
-  To execute its tasks, the sales order agent interacts with the Business Central web client using a logical representation of the UI called the logical UI API.  
+  To execute its tasks, the Sales Order Agent interacts with the Business Central web client using a logical representation of the UI called the logical UI API.  
 
   Through the logical UI API, the agent can read data displayed on the product pages and access properties of the UI elements, such as page names/descriptions, fields, actions, and tooltips. It can then combine that data with the user-provided instructions from the agent configuration and the data received via e-mail messages. The agent then uses AI and conventional business knowledge to orchestrate the necessary steps to complete each step and the overall task.
 
@@ -52,7 +52,7 @@ To support of and in addition to the task of taking and processing sales orders,
 
   The agent seeks user intervention when specific situations arise, for instance, when preparing outbound communications or providing business approval for key operations.  
 
-  The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over e-mails received from the customers to the sales order agent and sends results of the agent's work, such as prepared sales quote with requested items, in response. 
+  The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over e-mails received from the customers to the Sales Order Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response. 
 
 - Transparency and change control
 
@@ -60,9 +60,9 @@ To support of and in addition to the task of taking and processing sales orders,
 
   For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the e-mail conversation. Users can review this information and update the values and actions the agent suggested if needed. Business Central can also display the reasoning used by the agent and citations that led to a suggested value.
 
-## What is the intended use of the sales order agent?
+## What is the intended use of the Sales Order Agent?
 
-The sales order agent is intended to handle the end-to-end sales order capturing process. This process includes:
+The Sales Order Agent is intended to handle the end-to-end sales order capturing process. This process includes:
 
 - Taking the customer’s order by e-mail
 - Iterating on the details with the customer via e-mail
@@ -71,7 +71,7 @@ The sales order agent is intended to handle the end-to-end sales order capturing
 - Sending the quote to the customer for approval
 - Converting the quote to a sales order upon receiving customer confirmation.
 
-## How was the sales order agent evaluated? What metrics are used to measure performance?
+## How was the Sales Order Agent evaluated? What metrics are used to measure performance?
 
 We defined a set of categories and scenarios and created test cases for each as described in the following table. In total, we have a suite of 50 test cases.
 
@@ -80,17 +80,17 @@ We defined a set of categories and scenarios and created test cases for each as 
 |Quotes<br><br>Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |<ul><li>Single/multi-turn with approval by customer. Up to three items.</li><li>Quote request with four or more items</li><li>Request for quote by item reference. Up to three lines.</li><li>Quote sent but not approved by customer</li><li>Quote request from unknown customer.</li><li>Quote request for unknown item.</li></ul>|
 |Information<br><br>Requests for information about items followed by a quote request|<ul><li>Single and multi-turn with quote based on information</li><li>Request for information about unknown items</li></ul>|
 
-## What are the limitations of sales order agent? How can users minimize the impact of the sales order agent limitations when using the system?
+## What are the limitations of Sales Order Agent? How can users minimize the impact of the Sales Order Agent limitations when using the system?
 
 - Languages
 
   - The system was tested with the content (emails and product localization) provided in US English. 
-  - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly. 
-  - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French. 
+  - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly.
+  - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
 
 - E-mailing
 
-  - The agent reads inbound emails via a shared inbox on Microsoft Exchange. Learn more in [Set up email](admin-how-setup-email.md). Other ways to receive email aren’t supported.
+  - The agent reads inbound emails via a shared inbox on Microsoft Exchange. Learn more in [Set up email](admin-how-setup-email.md). Other ways to receive email aren't supported.
   - The agent doesn't read files attached to emails.  
   - Large emails might exceed the number of tokens that can be processed in one request. This condition leads the agent to trigger a request for a human to investigate (similar to how a human is requested to approve whether the agent approves an email). 
   - E-mail messages generated by the agent might contain incorrect information. The agent is designed to ask a human user to review and edit every outbound message if necessary.  
@@ -105,19 +105,19 @@ We defined a set of categories and scenarios and created test cases for each as 
 
   - If the agent stops working, it notifies the users in the same place that it normally notifies users when it needs approval to process an email. Examples are if the agent loses access to the shared mailbox or calls to the LLM (large language models) are failing.
   - Delegated administrators can't activate the agent.  
-  - It's only possible to configure and use one sales order agent per Business Central company.  
+  - It's only possible to configure and use one Sales Order Agent per Business Central company.  
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
 - Access control and permissions
 
-  Like with any other user in Business Central, the sales order agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that an administrator or configuring user can assign to the agent. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.  
+  Like with any other user in Business Central, the Sales Order Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that an administrator or configuring user can assign to the agent. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.  
 
-  We strongly encourage using the permission sets and the profile included with the sales order agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
+  We strongly encourage using the permission sets and the profile included with the Sales Order Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
 
 - Transparency and notifications
 
-  Business Central users can maintain full transparency and control over the changes made by the sales order agent by using other experiences, which enable them to:
+  Business Central users can maintain full transparency and control over the changes made by the Sales Order Agent by using other experiences, which enable them to:
 
   - Receive notifications on the role center that come from the agent when it requires help or when the process demands human review. For example, review is required for all inbound and outbound messages, approvals, adding missing data, and similar reasons.
   - Get a better understanding of the specific task context and history (“timeline” view), including key steps involved in it.
@@ -133,5 +133,10 @@ We defined a set of categories and scenarios and created test cases for each as 
 Currently, this capability isn't extensible by partners. 
 
 ## Related information
+
+[Sales order agent overview](sales-order-agent.md)  
+[Set up the Sales Order Agent](sales-order-agent-setup.md)  
+[Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)  
+[Configure Copilot and AI capabilities](enable-ai.md) 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

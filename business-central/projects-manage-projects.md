@@ -11,10 +11,11 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Project management
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], you can perform common project management tasks, such as configuring a project and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual projects, but also of the allocation of employees, machinery and other resources being used in all projects.
 
+[!INCLUDE[prod_short](includes/prod_short.md)] supports common project accounting, but you can do much more: perform common project management tasks, such as configuring a project and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual projects, but also of the allocation of employees, machinery and other resources being used in all projects.
 
 ## Get started with projects
 
@@ -46,10 +47,10 @@ For more information, see [Project management analytics overview](projects-analy
 
 ## Working with projects
 
-The following table describes a sequence of tasks, with links to articles that describe them.
+The following table describes a sequence of tasks withing project management and accounting, with links to articles that describe them.
 
-| To | See |
-| --- | --- |
+| To... | See |
+| ----- | --- |
 | Budget for resources to be used in projects and compare actual item and resource usage to budgeted usage to improve the quality and cost efficiency of future projects. |[Manage Project Budgets](projects-how-manage-budgets.md) |
 | Review and record usage on various parts of your project, which is automatically updated as you modify and transfer information from project planning lines to project journals or project invoices for posting. |[Record Usage for Projects](projects-how-record-job-usage.md) |
 | Purchase supplies for a project, either on purchase orders or invoices, and record item and time usage. |[Manage Project Supplies](projects-how-manage-project-supplies.md) |

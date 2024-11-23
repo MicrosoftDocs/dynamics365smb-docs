@@ -11,6 +11,7 @@ ms.date: 11/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # About production orders
 
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders route work through various work or machine centers on the shop floor.  
@@ -44,7 +45,7 @@ You create production orders using information from:
 - Machine centers  
 - Work centers  
 
-## Limitations on creating production orders  
+## Reserving and tracking production orders to their source
 
 Production orders are automatically reserved and tracked to their source when:  
 
@@ -58,6 +59,14 @@ For more information, see [Track Relations Between Demand and Supply](production
 Production orders created through other means aren't automatically reserved and tracked.
 
 ## Production order status  
+
+A production order can have one of the following five status codes: 
+
+- Simulated 
+- Planned 
+- Firm Planned 
+- Released 
+- Finished
 
 The production order status controls how the production order behaves within application. The order's status dictates the form and content of the production. The production orders are displayed in different pages according to their status. You can't change the status of a production order manually. You must use the **Change Status** function in the individual production order or in the **Change Production Order Status** page.  
 

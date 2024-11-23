@@ -24,7 +24,7 @@ Maybe you want to modify existing report layouts provided in [!INCLUDE[prod_shor
 | To | See |
 |--|--|
 | Learn more about the different layout types (Word, Excel, and RDLC) | [Layout types (Word, Excel, and RDLC)](ui-manage-report-layouts.md) |
-| Learn about how you can create a new report layout. | [Create a new Layout](ui-how-create-custom-report-layout.md) |
+| Learn about how you can create a new report layout. | [Create a new Layout](ui-get-started-layouts.md?tabs=copy#create) |
 | Learn about which fonts are installed in [!INCLUDE[prod_short](includes/prod_short.md)] online so that they can be used in report layouts. | [Using fonts in Layouts](ui-fonts.md) |
 | To learn how to work with Word layouts. | [Work with Word Layouts](ui-how-add-fields-word-report-layout.md) |
 | To learn how to import/export layout files. | [Import/Export a Layout](ui-how-import-and-export-report-layout.md) |

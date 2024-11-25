@@ -50,71 +50,6 @@ ms.service: dynamics-365-business-central
 ##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
 ##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
 
-### Design details
-#### [Application design details overview](design-details-application-design.md)
-#### Design details: Inventory costing
-##### [Inventory costing design details](design-details-inventory-costing.md)
-##### [Design details: Costing methods](design-details-costing-methods.md)  
-##### [Design details: Change the costing method for items](design-details-changing-costing-methods.md)
-##### [Design details: Item application](design-details-item-application.md)  
-##### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-##### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
-##### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  
-##### [Design details: Average cost](design-details-average-cost.md)  
-##### [Design details: Variance](design-details-variance.md)  
-##### [Design details: Rounding](design-details-rounding.md)  
-##### [Design details: Cost components](design-details-cost-components.md)  
-##### [Design details: Inventory periods](design-details-inventory-periods.md)  
-##### [Design details: Inventory posting](design-details-inventory-posting.md)  
-##### [Design details: Production order posting](design-details-production-order-posting.md)  
-##### [Design details: Assembly order posting](design-details-assembly-order-posting.md)  
-##### [Design details: Reconciliation with the general ledger](design-details-reconciliation-with-the-general-ledger.md)  
-##### [Design details: Accounts in the general ledger](design-details-accounts-in-the-general-ledger.md)
-##### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
-##### [Design details: Revaluation](design-details-revaluation.md)
-#### Design details: Posting date on adjustment value entry
-##### [Posting date on adjustment value entry overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Design details: Dimension set entries
-##### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)
-##### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)
-##### [Design details: Table structure](design-details-table-structure.md)
-#### Design details: Supply planning
-##### [Supply planning design details](design-details-supply-planning.md)
-##### [Design details: Central concepts of the planning system](design-details-central-concepts-of-the-planning-system.md)  
-##### [Design details: Reservation, order tracking, and action messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Design details: Balancing demand and supply](design-details-balancing-demand-and-supply.md)  
-##### [Design details: Handling reordering policies](design-details-handling-reordering-policies.md)  
-##### [Design details: Planning parameters](design-details-planning-parameters.md)  
-##### [Design details: Planning assignment table](design-details-planning-assignment-table.md)  
-##### [Design details: Transfers in planning](design-details-transfers-in-planning.md)
-<!-- #### Design Details: Warehouse Management
-<!-- ##### [Warehouse Management Design Details](design-details-warehouse-management.md) -->
-<!-- ##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)   -->
-<!-- ##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md-->
-<!-- ##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   -->
-<!-- ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   -->
-#### [Design details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)  
-<!-- ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   -->
-<!-- ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md) -->
-#### Design details: Item tracking
-##### [Item tracking design details](design-details-item-tracking.md)
-##### [Design details: Item tracking design](design-details-item-tracking-design.md)  
-##### [Design details: Item tracking posting structure](design-details-item-tracking-posting-structure.md)  
-##### [Design details: Active versus historic item tracking entries](design-details-active-versus-historic-item-tracking-entries.md)  
-##### [Design details: Item Tracking Lines page](design-details-item-tracking-lines-window.md)  
-##### [Design details: Item tracking availability](design-details-item-tracking-availability.md)  
-##### [Design details: Item tracking and planning](design-details-item-tracking-and-planning.md)  
-##### [Design details: Item tracking and reservations](design-details-item-tracking-and-reservations.md)  
-##### [Design details: Item tracking in the warehouse](design-details-item-tracking-in-the-warehouse.md)
-#### Design details: General journal post line
-##### [General journal post line design details](design-details-general-journal-post-line.md)
-##### [General journal post line overview](design-details-general-journal-post-line-overview.md)  
-##### [Design details: Post interface structure](design-details-posting-interface-structure.md)  
-##### [Design details: Post engine structure](design-details-posting-engine-structure.md)  
-#### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
-#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
@@ -2346,6 +2281,7 @@ ms.service: dynamics-365-business-central
 ### [Certifications](compliance/compliance-certifications.md)
 ## [Service overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 ## [Trial features that connect to other Microsoft services](privacy-connected-services.md)
+
 # Development and administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administration tasks in Business Central
@@ -2436,6 +2372,8 @@ ms.service: dynamics-365-business-central
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)
+
+<!-- Design details start -->
 ## Design details
 ### [Application design details overview](design-details-application-design.md)
 ### Design details: Supply planning
@@ -2499,6 +2437,8 @@ ms.service: dynamics-365-business-central
 #### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)  
 #### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)  
 #### [Design details: Table structure](design-details-table-structure.md)
+<!-- Design details end -->
+
 <!--migrate to BC online-->
 ## Migrate to Business Central online
 ### [Introduction](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)

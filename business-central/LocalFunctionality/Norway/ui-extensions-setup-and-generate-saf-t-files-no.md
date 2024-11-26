@@ -37,13 +37,13 @@ Set up the SAF-T extension through Assisted Setup, which provides an easy, step-
 2. Choose **Set up SAF-T**.
 3. The first page in the setup guide explains what you are about to set up. Choose **Next**.
 4. Choose the SAF-T version you want to use for reporting.  
-5. In the **Mapping Type** field, choose the type of Chart of Accounts you want to SAF-T accounts, and then choose **Next**. 
+5. In the in **Mapping Type** field, choose the type of Chart of Accounts you want to SAF-T accounts, and then choose **Next**. 
 
    > [!Note]
-   > If you're using the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)], there are some additional steps.
+   > If you are using the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)], there are some additional steps.
    > 1. Download and import source files with SAF-T accounts. Download the SAF-T mapping files from [Skatteetaten's repo on Github](https://github.com/Skatteetaten/saf-t).
    > 2. Choose **Import The Source Files For Mapping**.
-   > 3. Import all required files. If you're setting up the mapping for income statement import files, make sure to import mapping codes for all records with **Income Statement** in the **Source Type** column.
+   > 3. Import all required files. If you are setting up the mapping for income statement import files, make sure to import mapping codes for all records with **Income Statement** in the **Source Type** column.
    > 4. For each imported file, choose **Update mapping codes from file**.
 
 6. To define the period for the first SAF-T reporting, choose **Accounting Period**, confirm the data range, and then choose **Next**.

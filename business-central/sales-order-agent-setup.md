@@ -54,7 +54,7 @@ The Sales Order Agent has a user account in Business Central, similar to other u
 
 By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be first disabled to make these changes.
 
-Business Central provides the following system permission sets for administrators to control user access to the agent's functionality:
+Business Central provides the following system permission for administrators to control user access to the agent's functionality:
 
 * **"Configure All Agents"**: Grants access to manage the configuration settings of the Sales Order Agent.
 * **"Manage Agent Tasks"**: Allows users to work with agent tasks displayed in the Copilot pane.
@@ -72,6 +72,18 @@ As an administrator, you can manage which users have permission to use the Sales
 To configure the Sales Order Agent, users need to have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
 
 To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
+
+## Choose how the agent helps with inquiries, quotes, and orders.
+
+There are several configuration options that define how the agent assistes with inquiries, quotes, and orders:
+
+|Option|Description|Default|
+|-|-|-|
+|Match only to items with availability as requested|When on, the agent only includes items in a quote that will be available on the delivery date requested in the inquiry.  |On|
+|Create sales documents|When on, the agent can create sales quotes and orders from email inquiries based on the remaining options in this table. When off, the remaining options are irrelevant and can’t be set.|On|
+|Review quotes when created and updated|When on, a review step for a Business Central user is added to a task before a quote is created or modified. The step is added into the process after a Business Central user confirms a quote’s acceptance email from the customer. When off, quotes are created or modified without requiring user review. |Off|
+|Make orders from quotes|When on, the agent converts confirmed sales quotes into orders. Orders are created after the customer agrees to the quote via email and the Business Central user confirms the email. |On|
+|Review orders when created and updated|When on, a review step for a Business Central user is added to a task before an order is created or modified. The step is added into the process after a Business Central user confirms an order’s acceptance email from the customer. When off, orders are created or modified without requiring user review. |Off|
 
 ## Next steps
 

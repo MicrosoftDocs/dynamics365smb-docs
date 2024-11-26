@@ -22,7 +22,7 @@ The Sales Order Agent helps Business Central users automate the entire process o
 
 ## Functionality and features
 
-### Customer and Business Central users involvement
+### Customer and Business Central user involvement
 
 If the customer decides to update the quote by adding or modifying sales lines, the agent assists with these changes by locating the quote and making the requested updates. Once the customer confirms the quote's accuracy, the agent converts it into a sales order, which is then also shared with the customer via email, following user's confirmation. 
 
@@ -32,7 +32,7 @@ Users can inspect the agent's steps and created sales documents. They can easily
 
 The agent is readily available in the product. To activate it, you need to specify the email inbox you want the agent to monitor. Additionally, you can specify your preferences for certain aspects of the agent's behavior and designate the users authorized to use the agent to process customers' orders, enabling the agent to act on behalf of a company, department, or team—not just an individual user.
 
-## Operation
+### Operation
 
 The Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review outgoing messages or to provide missing details, or based on configured preferences.
 
@@ -40,15 +40,15 @@ Conceptually, the agent interacts with Business Central functionality in a manne
 
 This flexibility enables the agent to discover and interact with relevant custom fields and actions. It can also attempt to automatically resolve validation errors by processing displayed error messages and adjusting the input accordingly.
 
-### Permissions and profiles
-
-The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to, while the profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and a profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
-
 ### Email monitoring and communications
 
 The agent relies on an internal email dispatcher, running as a background task, to continuously monitor a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and subsequently sends results, such as prepared sales quotes or orders, to the customer in response.
 
 The agent helps with composing email bodies based on the context of the current step. For instance, it can list available inventory or provide a brief description of the attached sales quote or sales order. Additionally, it can detect and flag irrelevant or potentially malicious email content, prompting users to review and decide how to proceed.  
+
+### Permissions and profiles
+
+The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to, while the profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and a profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
 
 ## Process flow
 

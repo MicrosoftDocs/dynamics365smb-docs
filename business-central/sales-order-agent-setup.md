@@ -73,17 +73,17 @@ To configure the Sales Order Agent, users need to have the **"Configure All Agen
 
 To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
 
-## Choose how the agent helps with inquiries, quotes, and orders.
+## Choose how the agent helps with inquiries, quotes, and orders
 
-There are several configuration options that define how the agent assistes with inquiries, quotes, and orders:
+There are several configuration options that define how the agent assists with inquiries, quotes, and orders. You specify these options on the second page of the **Configure the Copilot agent**.
 
 |Option|Description|Default|
 |-|-|-|
-|Match only to items with availability as requested|When on, the agent only includes items in a quote that will be available on the delivery date requested in the inquiry.  |On|
-|Create sales documents|When on, the agent can create sales quotes and orders from email inquiries based on the remaining options in this table. When off, the remaining options are irrelevant and can’t be set.|On|
-|Review quotes when created and updated|When on, a review step for a Business Central user is added to a task before a quote is created or modified. The step is added into the process after a Business Central user confirms a quote’s acceptance email from the customer. When off, quotes are created or modified without requiring user review. |Off|
+|Match only to items with availability as requested|When on, the agent only includes items in a quote that will be available on the delivery date requested in the inquiry.|On|
+|Create sales documents|When on, the agent can create sales quotes and orders from email inquiries based on the remaining options in this table. When off, the remaining options are irrelevant and can't be set.|On|
+|Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to a task before it creates or modifies quotes. The step is added into the process after a Business Central user confirms a quote's acceptance email from the customer. When off, the agent creates or modifies quotes without requiring user review. |Off|
 |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders. Orders are created after the customer agrees to the quote via email and the Business Central user confirms the email. |On|
-|Review orders when created and updated|When on, a review step for a Business Central user is added to a task before an order is created or modified. The step is added into the process after a Business Central user confirms an order’s acceptance email from the customer. When off, orders are created or modified without requiring user review. |Off|
+|Review orders when created and updated|When on, the agent adds a review step for a Business Central user to a task before it creates or modifies orders. The step is added into the process after a Business Central user confirms an order’s acceptance email from the customer. When off, the agent creates or modifies orders without requiring user review.|Off|
 
 ## Next steps
 

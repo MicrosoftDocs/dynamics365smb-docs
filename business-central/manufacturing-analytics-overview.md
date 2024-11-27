@@ -22,7 +22,6 @@ Businesses capture lots of data during daily activities that supports business i
 - Production time
 - Production scrap
 
-
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's manufacturing data:
 
 - Power BI reports for manufacturing
@@ -31,17 +30,17 @@ Businesses capture lots of data during daily activities that supports business i
 - Built-in manufacturing analytics tools
 - Built-in manufacturing reports
 
-Each of these features has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
+Each feature has its advantages and disadvantages, depending on the type of analysis you want to do and your role. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
 This article introduces how you can use these analytical features to gain insights into your manufacturing processes.
 
 ## Analytics needs in manufacturing
 
-When you think about the analytics needs in manufacturing, it might help to use a persona-based model that describes different analytics needs at a high-level.
+When you think about analytics in manufacturing, it might help to use a persona-based model that describes different needs at a high-level.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
-People in different roles have different needs when it comes to data, and they use the data in different ways. For example, people in manufacturing interact with data differently than people in finance.
+People in different roles have different needs when it comes to data, and they use data in different ways. For example, people in manufacturing interact with data differently than people in finance.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
@@ -51,14 +50,14 @@ People in different roles have different needs when it comes to data, and they u
 | Plant Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      |
 | Factory worker | Detailed data     | Built-in operational reports, on-screen task data |
 
-## Using Power BI to monitor manufacturing KPIs
+## Using Power BI to monitor key performance indicators in manufacturing
 
-A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In manufacturing, people often use the following KPIs to monitor production performance:
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Businesses often use the following KPIs to monitor production performance:
 
-- Capacity Used (Hours), either current or historical 
-- Utilization %, either current or historical 
-- Work Center Load %, Allocated Time (Hours), or Capacity Available (Hours)
-- Cost Amount Variance or Deviation %
+- Capacity used (hours), either current or historical
+- Utilization percentage, either current or historical
+- Work center load percentage, allocated time (hours), or available capacity (hours)
+- Cost amount variance or deviation percentage
 
 :::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
 
@@ -74,7 +73,7 @@ To learn more, go to [Power BI Manufacturing app](manufacturing-powerbi-app.md).
 
 ## Ad-hoc analysis of manufacturing data
 
-Sometimes, you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
+Sometimes you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
 
 - Data analysis on ledger list pages
 - Open in Excel

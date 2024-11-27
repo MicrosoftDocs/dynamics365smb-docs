@@ -30,6 +30,8 @@ You can use the following sales documents with e-documents functionality:
 
 To create and send an e-invoice to a customer, you must create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md).
 
+Before posting, you can choose to add the attachment to this invoice if you want it embedded in your Peppol file format.
+
 After you post the sales document, open the **Posted Sales Invoices** page to access the related **E-Documents** page.
 
 ### View e-documents   

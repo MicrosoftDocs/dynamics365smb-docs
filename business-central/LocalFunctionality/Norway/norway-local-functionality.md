@@ -17,7 +17,7 @@ The following articles describe local functionality that is unique to the Norweg
 ## Feature availability
 
 * VAT
-    * [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available Now**
+    * [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available Now, v1.30 supported from January**
     * [Norwegian VAT Reporting - new ID-porten system update](norwegian-vat-reporting.md) **Available Now**
     * [Norwegian VAT Codes](norwegian-vat-codes.md) **Available Now**  
     * [How to Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md) **Available Now**
@@ -77,8 +77,7 @@ The following articles describe local functionality that is unique to the Norweg
  
 ## Future legislation requirements being investigated 
 
-* SAF-T 1.3 format **Planned for January 2025**
-* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 2**
+* Redesigned and upgraded non-deductible VAT **Planned for 2026 release wave 1**
 * E-invoicing based on new e-document framework that needs to be investigated
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

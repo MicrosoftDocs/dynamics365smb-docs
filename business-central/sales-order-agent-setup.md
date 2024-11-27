@@ -58,7 +58,7 @@ The **Sales Order Agent** badge changes to ![Shows the Sales Order Agent icon af
 When the Sales Order Agent is active, a scheduled task that runs every 20 seconds on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
-> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) badge indicates the agent is configured with mailbox, but it's not active. To check, select the *tba* badge > **Activate**.
+> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with mailbox, but it's not active. To activate it, select ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) **Sale Order Agent**, and then ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure** to reopen the  the **Configure the Copilot agent** page.
 
 ## Manage agent permissions and user access
 

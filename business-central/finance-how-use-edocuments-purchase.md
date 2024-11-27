@@ -88,6 +88,10 @@ To manually import external e-documents, follow these steps:
 5. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
 6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it. 
 
+#### Work with attachments  
+
+Peppol and similar e-invoicing files are machine-readable formats and not easy for human reading. To improve this, Peppol made it possible to embed a PDF file into the Peppol BIS 3 format as a binary object. If your incoming Peppol BIS 3 file has an embedded PDF, Business Central will automatically process it and add the PDF as an attachment to the purchase document once it's created.
+
 ## E-documents with purchase orders  
 
 ### Link purchase orders with the received e-documents

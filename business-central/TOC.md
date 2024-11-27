@@ -913,7 +913,7 @@ ms.service: dynamics-365-business-central
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)
-### Built-in relationship management reports
+### Relationship management analytics
 #### [Relationship management report overview](marketing-reports.md)
 #### [Contact - List](reports/report-5050.md) 
 #### [Contact - Company Summary](reports/report-5051.md) 
@@ -983,7 +983,7 @@ ms.service: dynamics-365-business-central
 
 ## Assembly management
 ### [Assemble items](assembly-assemble-items.md)
-### Built-in assembly reports
+### Assembly analytics
 #### [Assembly report overview](assembly-reports.md)
 #### [Assembly BOMs](reports/report-801.md)
 #### [Item - Able to Make (Time)](reports/report-5871.md)
@@ -1113,7 +1113,7 @@ ms.service: dynamics-365-business-central
 ### [Service management](service-service.md)
 ### Service management analytics
 #### [View service statistics](service-service-statistics.md)
-#### Service management reports
+#### Service management analytics
 ##### [Service management report overview](service-reports.md)
 ##### [Service Order](reports/report-5900.md)
 ##### [Service Item Line Labels](reports/report-5901.md)

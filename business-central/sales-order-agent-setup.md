@@ -35,6 +35,7 @@ The Sales Order Agent helps Business Central users automate the entire process o
 ## Activate and configure Sales Order Agent
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.
+
 1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) the email account you want the agent to monitor.
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
@@ -58,7 +59,7 @@ The **Sales Order Agent** badge changes to ![Shows the Sales Order Agent icon af
 When the Sales Order Agent is active, a scheduled task that runs every 20 seconds on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
-> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with mailbox, but it's not active. To activate it, select ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) **Sale Order Agent**, and then ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure** to reopen the  the **Configure the Copilot agent** page. From there, turn on the **Active** toglle, and then select **Update**.  
+> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with mailbox, but it's not active. To activate it, select the icon, and then slect ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure** to reopen the **Configure the Copilot agent** page. From there, turn on the **Active** toggle.
 
 ## Manage agent permissions and user access
 

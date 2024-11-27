@@ -26,7 +26,6 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 > [!IMPORTANT]  
 > This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features. If you haven't upgraded your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-
 ## Assisted setup
 
 To use assisted setup for the Intrastat, follow these steps:  
@@ -37,7 +36,7 @@ To use assisted setup for the Intrastat, follow these steps:
 4. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
 
     > [!NOTE]
-    > Intrastat Reporting Core app can be installed on any base app, regardless of whether it is the EU or not, but this feature is intended for regulatory reporting in EU countries, Microsoft provides full regulatory and localization support only in EU countries. If you're in EU countries where Microsoft does'nt provide localization support, you must find partner-based localization support, and for other countries you can use without support. You might have to install a country/region-specific Intrastat app in addition to the core extension to meet the local requirements. The country-specific apps can only be installed on base apps as they are intednded for localization purposes, unlike Intrastat, which has one core app and local apps (the country-specific ones).  
+    > You can install the Intrastat Reporting Core app on any base app country version, regardless of whether it's in the EU. However, this feature is intended for regulatory reporting in EU countries. Microsoft provides full regulatory and localization support only in EU countries. If you're in an EU country where Microsoft doesn't provide localization support, you must find partner-based localization support. You might have to install a country/region-specific Intrastat app in addition to the core extension to meet local requirements. The country-specific apps can only be installed on base apps because they're intended for localization purposes. Intrastat Core has one core app and country-specific local apps.  
 
 ## Intrastat configuration
 
@@ -154,9 +153,9 @@ If you want to change how Intrastat works, and the default configuration isn't e
 
 Customer and vendor cards include the **Intrastat Partner Type** field, which has the same option values as the **Partner Type** field: 
 
-- "" (blank)
-- *Company*
-- *Person*
+- (blank)
+- Company
+- Person
 
 The **Intrastat Partner Type** field replaced the **Partner Type** field in Intrastat reporting. The **Partner Type** field is used in the Single Euro Payments Area (SEPA) to define the SEPA Direct Debit Scheme (Core or B2B). The **Intrastat Partner Type** field is used for Intrastat reporting only. Therefore, you can specify different values for the two fields if necessary.
 
@@ -179,7 +178,7 @@ In addition to **Intrastat Report Setup**, **Data Exchange Definitions**, and **
 | --------- | --------------- |
 | **Net Weight** | Weight is one of the basic configurations  that are related to Intrastat reporting, because the total weight is mandatory for reporting. To be ready for this requirement, enter a value in the **Net Weight** field on the item or fixed asset card. |
 | **Country of Origin Code** | Use the two-letter ISO Alpha Codes on the item or fixed asset card for the country/region where the good was obtained or produced. If the good was produced in more than one country/region, the country/region of origin is the last country/region where it was processed. |
-| **VAT identification number of the partner operator in the Member State of import** | This number is the VAT-ID of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among the Member States and allows the Member States to allocate the received data to the importing company in their own country/region. Reporting units must report on the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. |
+| **VAT identification number of the partner operator in the Member State of import** | This number is the VAT-ID of the partner operator in the member state of import. The VAT-ID is also used in the exchange of intra-EU-export data among the member states and allows the member states to allocate the received data to the importing company in their own country/region. Reporting units must report on the VAT-ID of the company that declared the intra-Union acquisition of goods in the member state of import. |
 
 Optionally, you can also set up:
 
@@ -195,7 +194,7 @@ Optionally, you can also set up:
 
 ### Set up transaction nature codes
 
-1. select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Types**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Types**, and then select the related link.
 2. Fill in the field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### Other related configurations
@@ -204,7 +203,7 @@ Before you use the Intrastat reporting feature, you must define fields on the it
 
 #### Item cards
 
-To enter Intrastat information item, follow these steps.
+To enter Intrastat information on an item, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
 2. Select the item you want to configure.
@@ -278,44 +277,43 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 >
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
-## Automate the process of inheriting the Country of Origin for Items 
+## Automate the process of inheriting the country of origin for items
 
 > [!NOTE]
-> If the user wants to use the *Country of Origin* inheritance from the purchase document to the sales invoice, this is only possible using *Item Tracking Lines*. Otherwise, the system won't use the default value.
+> If you want to transfer the country of origin from the purchase document to the sales invoice, you must use item tracking lines. Otherwise, the system won't use the default value.
 
-### How to set up  
+The sections that follow describe how to set up the transfer.
 
-#### Intrastat report 
+### Intrastat report
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link. 
 2. In the **Intrastat Report Setup** in the **Default Country Code for Item Tracking** field, choose the **Purchase Headers** option.  
 
-#### Item  
+### Item  
 
-To use this automated feature, you must enable item tracking for these items, either serial numbers, lots, or both of them. To enable item tracking for the item, follow the steps.
+You must enable item tracking for these items, either serial numbers, lots, or both. To enable item tracking for the item, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then select the related link.
 2. Choose the item that you want to configure.
 3. On the **Item Card** page, on the **Item Tracking** FastTab, select one of item tracking codes using the **Item Tracking Code** field.
-4. When selecting, you can see how item tracking codes are configured.
-5. Select the one you want and select **OK**.
+4. When you make a selection, you can see how the item tracking codes are configured.
+5. Select the code you want, and select **OK**.
 
-### Use the Item in any of the Purchase documents 
+### Use the item in purchase documents
 
-Once you select the item that has an **Item Tracking Code** enabled in the purchase line, you must follow the steps.  
+After you select an item that has item tracking enabled on the purchase line, follow these steps.  
 
 1. Om the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
-2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.**, and entering value in **Quantity (Base)** field, choose one of the following options:  
-   1. The **Lot No. Information Card** action if you're using lots.   
+2. On the **Item Tracking Lines** page, after you fill in the **Serial No.** or **Lot No.** fields and enter a value in the **Quantity (Base)** field, choose one of the following options:  
+   1. The **Lot No. Information Card** action if you're using lots.
    2. The **Serial No. Information Card** action if you're using serial numbers.  
-3. You can choose **New** (**+**) to create new information card on the **Lot No. Information Card** or **Serial No. Information Card** page. 
-4. The **Country/Region Code** is populated with the **Country/Region Code** from your document **Purchase Header**.
-5. If you want to change **Country/Region Code**, you can do it manually.
-6. Close the page.
-7. Repeat this process for each line on the **Item Tracking Lines** page where you configured item tracking.
-8. Close the **Item Tracking Lines** page.
+3. You can choose **New** (**+**) to create new lot or serial numbers on the **Lot No. Information Card** or **Serial No. Information Card** pages. 
+4. The **Country/Region Code** is populated with the **Country/Region Code** from the purchase document. You can change it if you want.
+5. Close the page.
+6. Repeat this process for each line on the **Item Tracking Lines** page where you configured item tracking.
+7. Close the **Item Tracking Lines** page.
 
-When you work with **Sales Invoice**, [!INCLUDE[prod_short](includes/prod_short.md)] automatically collects the **Country/Region Code** for any lot or serial number you choose. You can always check the code using the **Item Tracking Lines** from the sales lines.  
+When you work with sales invoices, [!INCLUDE[prod_short](includes/prod_short.md)] automatically collects the **Country/Region Code** for any lot or serial number you choose. You can always check the code using the **Item Tracking Lines** action from the sales lines.  
 
 These **Country/Region Codes** are automatically populated in the **Country/Region of Origin Code** field in the **Intrastat Report Lines**.  
 
@@ -324,7 +322,7 @@ These **Country/Region Codes** are automatically populated in the **Country/Regi
 Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries/regions must enter can differ, as can the file format that they must use for reporting.
 
 > [!NOTE]
-> If the user doesn't create the **Lot No. Information Card** or **Serial No. Information Card** for any specific lot or serial number, the system will not use the **Country/Region Code** from the purchase header, and instead, the system will use the **Country/Region Code** from the **Item** card.  
+> If you don't fill in the **Lot No. Information Card** or **Serial No. Information Card** pages for a lot or serial number, [!INCLUDE [prod_short](includes/prod_short.md)] won't use the **Country/Region Code** from the purchase document. Instead, the information comes from the **Item** card.  
 
 ### Austria
 
@@ -379,8 +377,8 @@ The process of working with Intrastat reports is the same as in global feature.
 
 ## See also
 
-[Intrastat Reporting in Business Central](finance-how-report-intrastat.md)    
-[Financial Management](finance.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  
+[Financial Management](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

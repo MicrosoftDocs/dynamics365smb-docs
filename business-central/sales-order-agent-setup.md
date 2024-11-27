@@ -45,7 +45,7 @@ The Sales Order Agent helps Business Central users automate the entire process o
 
     |Option|Description|Default|
     |-|-|-|
-    |Match only to items with availability as requested|When on, the agent only includes items that will be available on the customer's requested delivery date requested.|On|
+    |Match only to items with availability as requested|When on, the agent only includes items that have available on the customer's requested delivery date requested.|On|
     |Create sales documents|When on, the agent can create sales quotes and orders from email inquiries based on the remaining options in this table. When off, the remaining options are irrelevant and can't be set.|On|
     |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to a task before it creates or modifies quotes. The step is added into the process after a Business Central user confirms a quote's acceptance email from the customer. When off, the agent creates or modifies quotes without requiring user review. |Off|
     |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders. Orders are created after the customer agrees to the quote via email and the Business Central user confirms the email. |On|

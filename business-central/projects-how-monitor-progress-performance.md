@@ -1,5 +1,4 @@
 ---
-
 title: Monitor project progress and performance
 description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they're ongoing.
 author: brentholtorf

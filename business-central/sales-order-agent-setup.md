@@ -60,30 +60,31 @@ When the Sales Order Agent is active, a scheduled task that runs every 20 second
 > [!NOTE]
 > The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) badge indicates the agent is configured with mailbox, but it's not active. To check, select the *tba* badge > **Activate**.
 
-## Manage user access to Sales Order Agent
+## Manage agent permissions and user access
 
 The Sales Order Agent has a user account in Business Central, similar to other users. You can find it on the Agents page.
 
 By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be first disabled to make these changes.
 
+### User access
+
 Business Central provides the following system permission for administrators to control user access to the agent's functionality:
 
-* **"Configure All Agents"**: Grants access to manage the configuration settings of the Sales Order Agent.
-* **"Manage Agent Tasks"**: Allows users to work with agent tasks displayed in the Copilot pane.
+- **Configure All Agents**: Grants access to manage the configuration settings of the Sales Order Agent.
+- **Manage Agent Tasks**: Allows users to work with agent tasks displayed in the Copilot pane.
 
 Additionally, the following updates were made to existing permission sets and entitlements:
 
-* The **"SECURITY"** permission set now includes the **Configure All Agents** permission.
-* The **"System Execute - Basic"** permission set now includes the **Manage Agent Tasks** permission.
-* The **"System Tables - Basic"** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
-* Essential and Premium license entitlements now include **"Manage Agent Tasks"** permissions.
-* All license types include **"Configure All Agents"** permissions.
+- The **SECURITY** permission set now includes the **Configure All Agents** permission.
+- The **System Execute - Basic** permission set now includes the **Manage Agent Tasks** permission.
+- The **System Tables - Basic** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
+- Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
+- All license types include **Configure All Agents** permissions.
 
 As an administrator, you can manage which users have permission to use the Sales Order Agent. You can configure user access during setup or later through the **Sales Order Agent** card page by selecting the **Manage user access link**.
 
-To configure the Sales Order Agent, users need to have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
-
-To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
+- To configure the Sales Order Agent, users need to have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
+- To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
 
 <!--
 ## Choose how the agent helps with inquiries, quotes, and orders

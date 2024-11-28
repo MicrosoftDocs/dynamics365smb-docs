@@ -43,6 +43,7 @@ The following table describes on how you can use each report in the app.
 
 ## See also
 
+[Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  

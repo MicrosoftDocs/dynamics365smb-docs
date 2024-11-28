@@ -29,14 +29,18 @@ The audiences for the report are:
 
 Executive or finance managers use this report to monitor and track the effectiveness of your collection process. By analyzing and tracking the average collection period in days, you can identify trends that might affect cash flow. The report can help ensure that you collect receivables quickly enough to cover upcoming cash needs, and help you plan for better cash flow. By monitoring the average collection period, you can anticipate cash flow shortages.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Average Collection Period* report includes the following KPIs and measures: 
 
-- [**Average Collection Period (Days)**](####)
-- [**No. of Days**](####)
-- [**Revenue**](####)
-- [**Accounts Receivable (Average)**](####) -->
+- [**Average Collection Period (Days)**](finance-powerbi-kpis.md#average-collection-period-days)
+- [**No. of Days**](finance-powerbi-kpis.md#no-of-days)
+- [**Revenue**](finance-powerbi-kpis.md#revenue)
+- [**Accounts Receivable (Average)**](finance-powerbi-kpis.md#accounts-receivable-average)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

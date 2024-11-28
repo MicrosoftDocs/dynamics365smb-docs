@@ -21,11 +21,13 @@ When you prepare a balance sheet and income statement, you might have to generat
 
 This article describes the built-in reports for fixed assets.
 
+## Explore fixed assets reports with Report Explorer
+
+[!INCLUDE [fa_reports_report_explorer](includes/fa-reports-report-explorer-include.md)]
 
 ## Fixed assets core reports
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
-
 
 ## Fixed assets insurance reports
 
@@ -35,10 +37,6 @@ This article describes the built-in reports for fixed assets.
 
 [!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
 
-
-## Explore finance reports with Report Explorer
-
-[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## See also
 

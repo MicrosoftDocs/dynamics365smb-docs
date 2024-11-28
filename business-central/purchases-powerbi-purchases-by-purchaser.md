@@ -27,14 +27,18 @@ Purchasing managers can easily identify top purchasers and track their purchasin
 
 Purchaser can use this report to monitor purchasing activities, including purchase amounts and quantities. This report also shows the items you bought the most and how they contribute to overall spending. This information can help you make good decisions about future purchases.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Purchases by Purchaser* report includes the following KPIs and measures:
 
-- [**Purchase Amount**](####)
-- [**Purchase Quantity**](####)
-- [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####) -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

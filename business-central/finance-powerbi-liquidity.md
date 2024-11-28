@@ -33,18 +33,22 @@ For a more conservative assessment, you can analyze the quick ratio, which remov
 
 Finally, you could review the cash ratio, which focuses on liquid assets to meet financial obligations. This perspective is the most conservative, and focuses on cash and cash equivalents to meet current liabilities.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Liquidity* report includes the following KPIs and measures: 
 
-- [**Current Ratio**](####)
-- [**Quick Ratio**](####)
-- [**Cash Ratio**](####)
-- [**Current Assets**](####)
-- [**Current Liabilities**](####)
-- [**Inventory**](####)
-- [**Purchase Prepayments**](####)
-- [**Liquid Assets**](####) -->
+- [**Current Ratio**](finance-powerbi-kpis.md#current-ratio)
+- [**Quick Ratio**](finance-powerbi-kpis.md#quick-ratio)
+- [**Cash Ratio**](finance-powerbi-kpis.md#cash-ratio)
+- [**Current Assets**](finance-powerbi-kpis.md#current-assets)
+- [**Current Liabilities**](finance-powerbi-kpis.md#current-liabilities)
+- [**Inventory**](finance-powerbi-kpis.md#inventory)
+- [**Purchase Prepayments**](finance-powerbi-kpis.md#purchase-prepayments)
+- [**Liquid Assets**](finance-powerbi-kpis.md#liquid-assets)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

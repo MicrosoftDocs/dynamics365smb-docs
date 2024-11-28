@@ -33,17 +33,22 @@ The audiences for the report are:
 - Directors
 - Other high-level decision makers
 
-<!-- ## Key Performance Indicators (KPIs)
+
+## Key Performance Indicators (KPIs)
 
 The *Financial Overview* report includes the following KPIs and measures: 
 
-- [**Revenue**](####)
-- [**Net Profit**](####)
-- [**Net Profit Margin**](####)
-- [**Assets**](####)
-- [**Days Sales Outstanding**](####)
-- [**Days Sales Of Inventory**](####)
-- [**Days Payable Outstanding**](####) -->
+- [**Revenue**](finance-powerbi-kpis.md#revenue)
+- [**Net Profit**](finance-powerbi-kpis.md#net-profit)
+- [**Net Profit Margin**](finance-powerbi-kpis.md#net-profit-margin)
+- [**Assets**](finance-powerbi-kpis.md#assets)
+- [**Days Sales Outstanding**](finance-powerbi-kpis.md#days-sales-outstanding---dso)
+- [**Days Sales Of Inventory**](finance-powerbi-kpis.md#days-sales-of-inventory---dsi)
+- [**Days Payable Outstanding**](finance-powerbi-kpis.md#days-payable-outstanding---dpo)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

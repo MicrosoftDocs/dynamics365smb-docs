@@ -1,0 +1,1 @@
+Get an overview on profit for responsibility centers.

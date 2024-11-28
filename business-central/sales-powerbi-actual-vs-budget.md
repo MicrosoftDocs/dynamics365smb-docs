@@ -43,7 +43,7 @@ The **Actual vs Budget** report includes the following key performance indicator
 - [**Budget Quantity Variance**](sales-powerbi-sales-kpis.md#budget-quantity-variance)  
 - [**Budget Quantity Variance %**](sales-powerbi-sales-kpis.md#budget-quantity-variance-percent)  
 
-Select the link for a KPI to learn more about what it means, how [!INCLUDE [prod_short](includes/prod_short.md)] calculates it, and what data was used in the calculations.
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

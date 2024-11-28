@@ -27,14 +27,18 @@ Purchasing managers can use the report to analyze vendor performance. You can id
 
 Purchasers can use this report to monitor purchasing activities and identify the suppliers of specific products. For example, if you need a list of suppliers for the components of dining chair assemblies, you can view the purchase quantities and amounts spent on each vendor. The report can help you select the best vendor to buy from.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Purchases by Vendor* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)
-- [**Purchase Quantity**](####)
-- [**% GT Purchase Amount**](####)
-- [**% GT Purchase Amount PY (Fiscal)**](####) -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-kpis.md#-gt-purchase-amount-py-fiscal)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

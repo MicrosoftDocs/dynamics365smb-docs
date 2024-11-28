@@ -19,6 +19,9 @@ This article lists and describes the key performance indicators (KPIs) included 
 
 Explore the KPIs to learn more about how they can help you achieve your business goals.
 
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
+
 ## Customer Table
 
 **Customer Measures**
@@ -534,7 +537,6 @@ This measure calculates the percentage growth in sales between the current and p
 - Sales Line
 - Date (Fiscal Calendar)
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## See also
 

@@ -29,18 +29,22 @@ Purchasing managers can use this report to analyze purchasing data and make deci
 
 Purchasers can monitor the variance metrics to ensure that you're meeting your purchasing targets. Use this report to see the purchasing performance of specific item categories, and items that you purchase. With this information, you can identify opportunities to reduce cost and optimize your approach to purchasing specific items.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Actual vs Budget* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](####)  
-- [**Purchase Amount**](####)  
-- [**Budget Quantity**](####)  
-- [**Budget Amount**](####)
-- [**Budget Amount Variance**](####)
-- [**Budget Amount Variance %**](####)  
-- [**Variance**](####)  
-- [**Variance %**](####)   -->
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)  
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)  
+- [**Budget Quantity**](purchases-powerbi-kpis.md#budget-quantity)  
+- [**Budget Amount**](purchases-powerbi-kpis.md#budget-amount)  
+- [**Budget Amount Variance**](purchases-powerbi-kpis.md#budget-amount-variance)
+- [**Budget Amount Variance %**](purchases-powerbi-kpis.md#budget-amount-variance-)  
+- [**Variance**](purchases-powerbi-kpis.md#budget-quantity-variance)  
+- [**Variance %**](purchases-powerbi-kpis.md#budget-quantity-variance-)  
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

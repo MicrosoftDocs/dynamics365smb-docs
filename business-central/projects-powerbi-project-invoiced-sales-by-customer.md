@@ -29,17 +29,19 @@ Project managers use the report to track sales to each customer for each individ
 
 People in leadership teams want to a high-level view of your project sales and which customers you sell to. The report can give you a clear understanding of this data to help you make informed business decisions.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-The *Project Invoiced Sales by Customer* reoprt includes the following KPIs:
-- [**% Invoiced**](###)
-- [**Quantity**](###)
-- [**Billable (Invoiced Price)**](###)
-- [**Billable (Total Price)**](###)
+The *Project Invoiced Sales by Customer* report includes the following KPIs:
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
+- [**Quantity**](projects-powerbi-kpis.md#quantity)
+- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
+- [**Billable (Total Price)**](projects-powerbi-kpis.md#billable-total-price)
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
+
 
 ## Data used in the report
 
@@ -60,4 +62,5 @@ Try the report here: [Project Invoiced Sales by Customer](https://businesscentra
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
+[Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)

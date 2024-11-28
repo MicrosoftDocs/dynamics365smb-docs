@@ -35,18 +35,22 @@ Executives can use the report to evaluate your company's financial position befo
 
 Next, you could assess the debt ratio and debt-to-equity ratios. These key performance indicators provide insight into the company's leverage and risk profile. For example, a high debt-to-equity ratio could indicate that the company has a high reliance on borrowed funds. This type of data can help inform how you decide to finance the expansion project.  
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Liabilities* report includes the following KPIs and measures: 
 
-- [**Liabilities**](####)
-- [**Current Liabilities**](####)
-- [**Payroll Liabilities**](####)
-- [**Longterm Liabilities**](####)
-- [**Debt Ratio**](####)
-- [**Debt/Equity Ratio**](####)
-- [**Assets**](####)
-- [**Balance at Date (Neg)**](####) -->
+- [**Liabilities**](finance-powerbi-kpis.md#liabilities)
+- [**Current Liabilities**](finance-powerbi-kpis.md#current-liabilities)
+- [**Payroll Liabilities**](finance-powerbi-kpis.md#payroll-liabilities)
+- [**Longterm Liabilities**](finance-powerbi-kpis.md#longterm-liabilities)
+- [**Debt Ratio**](finance-powerbi-kpis.md#debt-ratio)
+- [**Debt/Equity Ratio**](finance-powerbi-kpis.md#debtequity-ratio)
+- [**Assets**](finance-powerbi-kpis.md#assets)
+- [**Balance at Date (Neg)**](finance-powerbi-kpis.md#balance-at-date-neg)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -31,22 +31,26 @@ Executives use the report to evaluate cash flow potential before making strategi
 
 EBITDA is good for comparing cash flow potential across similar businesses. EBIT offers a fuller picture of profit by including asset-related costs, which is essential for assessing long-term operational efficiency.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *EBITDA* report includes the following KPIs and measures: 
 
-- [**Operating Profit - EBIT**](####)
-- [**EBITDA**](####)
-- [**Revenue**](####)
-- [**Interest Revenue**](####)
-- [**Extraordinary Revenue**](####)
-- [**FX Gains Revenue**](####)
-- [**Expense**](####)
-- [**Interest Expense**](####)
-- [**FX Losses Expense**](####)
-- [**Tax Expense**](####)
-- [**Extraordinary Expense**](####)
-- [**Depreciation and Amortization**](####) -->
+- [**Operating Profit - EBIT**](finance-powerbi-kpis.md#-change-in-operating-profit---ebit)
+- [**EBITDA**](finance-powerbi-kpis.md#ebitda)
+- [**Revenue**](finance-powerbi-kpis.md#revenue)
+- [**Interest Revenue**](finance-powerbi-kpis.md#interest-revenue)
+- [**Extraordinary Revenue**](finance-powerbi-kpis.md#extraordinary-revenue)
+- [**FX Gains Revenue**](finance-powerbi-kpis.md#fx-gains-revenue)
+- [**Expense**](finance-powerbi-kpis.md#expense)
+- [**Interest Expense**](finance-powerbi-kpis.md#interest-expense)
+- [**FX Losses Expense**](finance-powerbi-kpis.md#fx-losses-expense)
+- [**Tax Expense**](finance-powerbi-kpis.md#tax-expense)
+- [**Extraordinary Expense**](finance-powerbi-kpis.md#extraordinary-expense)
+- [**Depreciation and Amortization**](finance-powerbi-kpis.md#depreciation-and-amortization)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

@@ -27,11 +27,15 @@ COOs use the report to measure the effectiveness of manufacturing processes and 
 
 For manufacturing managers, this report reveals important measures about capacity scrap quantity. By analyzing the scrap rate, you can identify areas that need improvement, such as processes or materials. For example, a high scrap rate for a particular item category might indicate a problem with the materials it uses. By addressing these issues, you can optimize resource use to reduce waste and save costs.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Production Scrap* report includes the following KPIs and measures: 
 
-- [Capacity Scrap Quantity]() -->
+- [Capacity Scrap Quantity](manufacturing-powerbi-kpis.md#capacity-scrap-qty)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

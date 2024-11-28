@@ -27,14 +27,18 @@ Manufacturing managers use the report to monitor and manage the consumption cost
 
 Production supervisors use this report to track the consumption costs of production lines and ensure they operate within budget. By tracking the actual costs against the expected costs, you can quickly find and report deviations so the manufacturing manager can address them.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Consumption Variance* report includes the following KPIs and measures: 
 
-- [Consumption Cost Amt. Deviation %](####)
-- [Expected Consumption Cost Amount](####)
-- [Consumed Cost Amount (Actual)](####)
-- [Consumption Cost Amt. Variance](####) -->
+- [Consumption Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#consumption-cost-amt-deviation)
+- [Expected Consumption Cost Amount](manufacturing-powerbi-kpis.md#expected-consumption-cost-amount)
+- [Consumed Cost Amount (Actual)](manufacturing-powerbi-kpis.md#consumed-cost-amount-actual)
+- [Consumption Cost Amt. Variance](manufacturing-powerbi-kpis.md#consumption-cost-amt-variance)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

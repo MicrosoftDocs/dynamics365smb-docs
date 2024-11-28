@@ -28,16 +28,20 @@ The audiences for the report are:
 
 Finance administrators use the report to identify overdue invoices and prioritize collection efforts. By reviewing the aging buckets, you can focus on customers with significant outstanding balances that don't align with payment terms. Expanding the report matrix can help you identify specific invoices that are past due and need action.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Aged Receivables (Back Dating)* report includes the following KPIs and measures: 
 
-- [**Balance (Accounts Receivable)**](####)
-- [**Current (Receivables)**](####)
-- [**Bucket 1 (Receivables)**](####)
-- [**Bucket 2 (Receivables)**](####)
-- [**Bucket 3 (Receivables)**](####)
-- [**Bucket 4 (Receivables)**](####) -->
+- [**Balance (Accounts Receivable)**](finance-powerbi-kpis.md#balance-accounts-receivable)
+- [**Current (Receivables)**](finance-powerbi-kpis.md#current-receivables)
+- [**Bucket 1 (Receivables)**](finance-powerbi-kpis.md#bucket-1-receivables)
+- [**Bucket 2 (Receivables)**](finance-powerbi-kpis.md#bucket-2-receivables)
+- [**Bucket 3 (Receivables)**](finance-powerbi-kpis.md#bucket-3-receivables)
+- [**Bucket 4 (Receivables)**](finance-powerbi-kpis.md#bucket-4-receivables)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

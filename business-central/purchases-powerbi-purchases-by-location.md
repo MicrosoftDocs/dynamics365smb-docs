@@ -27,23 +27,19 @@ Purchasing managers can use the report to analyze purchasing trends across diffe
 
 Purchasers can use this report to monitor purchasing activities across warehouse locations. For example, you can find item categories and items with low quantities that require attention to prevent stock-outs or disruptions in production. Use this information to plan ahead and work with your team to ensure that you meet purchase demand across locations.
 
-## Key performance indicators
 
-The report includes the following key performance indicators (KPIs):
-
-- **Purchase Amount**
-- **Purchase Quantity**
-- **% GT Purchase Amount**
-- **% GT Purchase Quantity**
-
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Purchases by Location* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](####)
-- [**Purchase Quantity**](####)
-- [**% GT Purchase Amount**](####)
-- [**% GT Purchase Quantity**](####) -->
+- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
+- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
+- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
+
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 

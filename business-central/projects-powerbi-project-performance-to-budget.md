@@ -23,21 +23,20 @@ The **Project Performance to Budget** report can help you keep your projects und
 
 Project managers want a clear view of projects to ensure they're on budget. The report lets them compare the budget and actual costs of each project.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-The *Project Performance to Budget* reoprt includes the following KPIs:
-- [**Actual (Total Cost)**](####)
-- [**Budget (Total Price)**](####)
-- [**Total Cost Variance to Budget**](####)
-- [**Total Cost Variance to Budget %**](####)
-- [**Total Cost Variance**](####)
-- [**Total Cost Variance %**](####)
-- [**% Complete**](###)
-- [**% Invoiced**](###)
+The *Project Performance to Budget* report includes the following KPIs:
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
+- [**Budget (Total Price)**](projects-powerbi-kpis.md#budget-total-price)
+- [**Total Cost Variance to Budget**](projects-powerbi-kpis.md#total-cost-variance-to-budget)
+- [**Total Cost Variance to Budget %**](projects-powerbi-kpis.md#total-cost-variance-to-budget-)
+- [**% Complete**](projects-powerbi-kpis.md#-complete)
+- [**% Invoiced**](projects-powerbi-kpis.md#-invoiced)
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
@@ -58,4 +57,5 @@ Try the report here: [Project Performance to Budget](https://businesscentral.dyn
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  
 [Built-in Projects reports](project-reports.md)  
+[Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)

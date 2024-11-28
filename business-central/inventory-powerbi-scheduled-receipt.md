@@ -27,23 +27,24 @@ Managers use the report to track inventory levels and ensure that stock levels k
 
 For warehouse receipt workers, this report offers detailed information about inbound stock from internal and external sources. This information can help you coordinate future purchasing and production levels.
 
-<!-- ## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The *Scheduled Receipt* report includes the following KPIs:
 
-- [**Scheduled Receipt**](####)
-- [**Projected Available Balance**](####)
-- [**FP Order Receipt (Qty.)**](####)
-- [**Rel. Order Receipt (Qty.)**](####)
-- [**Qty. On Purchase Order**](####)
-- [**Qty. in Transit**](####)
-- [**Trans. Order Receipt (Qty.)**](####)
-- [**Qty. on Assembly Order**](####)
-- [**Qty. on Sales Return Order**](####)
+- [**Scheduled Receipt**](inventory-powerbi-kpis.md#scheduled-receipt)
+- [**Projected Available Balance**](inventory-powerbi-kpis.md#projected-available-balance)
+- [**FP Order Receipt (Qty.)**](inventory-powerbi-kpis.md#fp-order-receipt-qty)
+- [**Rel. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#rel-order-receipt-qty)
+- [**Qty. On Purchase Order**](inventory-powerbi-kpis.md#qty-on-purch-order)
+- [**Qty. in Transit**](inventory-powerbi-kpis.md#qty-in-transit)
+- [**Trans. Order Receipt (Qty.)**](inventory-powerbi-kpis.md#trans-order-receipt-qty)
+- [**Qty. on Assembly Order**](inventory-powerbi-kpis.md#qty-on-assembly-order)
+- [**Qty. on Sales Return Order**](inventory-powerbi-kpis.md#qty-on-sales-return-order)
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
-[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] -->
+[!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)] 
+
 
 ## Data used in the report
 

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
-ms.date: 07/05/2024
+ms.date: 11/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Define document layouts for customers and vendors
@@ -20,7 +20,7 @@ Before you can define which document layout to use for which processes, and whic
 
 The steps in the following sections describe how to define sales document layouts from the **Customer Card** page. For vendors, the steps are the same from the **Vendor Card** page.
 
-## To load the standard document layouts for sales documents for a customer
+## Load the standard document layouts for sales documents for a customer
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
@@ -28,27 +28,27 @@ The steps in the following sections describe how to define sales document layout
 
 The **Document Layouts** page displays all layouts that are available for sales documents. 
 
-## To select a custom report layout to use for the sales document layout
+## Select a report layout to use for the sales document layout
 
-The following steps assume that you already have a custom report layout for the type of document. If you don't already a custom report layout, you need to create one first. Learn more in [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
+The following steps assume that you already have a custom report layout for the type of document. If you don't already a custom report layout, you need to create one first. Learn more in [Get started creating report layouts](ui-get-started-layouts.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
-3. On the **Document Layouts** page, on the line for a report layout that you want to use a custom layout for, choose the **Custom Layout Description** field.
+3. On the **Document Layouts** page, on the line for a report layout that you want to use a layout for, select the **Custom Layout Description** field.
 
-   > [!TIP]
-   > By default, the Custom Layout Description field is hidden. If the field isn't available, you can personalize the page to add it. To personalize the page, choose the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="The Settings icon."::: icon, and then choose **Personalize**. To learn more about personalizing pages, go to [Personalize your workspace](ui-personalization-user.md).
+   >![!TIP]
+   > By default, the Custom Layout Description field is hidden. If the field isn't available, you can personalize the page to add it. To personalize the page, choose the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="The Settings icon."::: icon, and then choose **Personalize**. Learn more about personalizing pages in [Personalize your workspace](ui-personalization-user.md).-->
 
-1. On the **Custom Report Layouts** page, select the document layout that you want to use for the type of sales document. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
+4. On the **Custom Report Layouts** page, select the document layout that you want to use for the type of sales document. Learn more about personalizing pages in [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
-## To specify which contact receives which document layout for a customer
+## Specify which contact receives which document layout for a customer
 
 To save time when you send documents to customer and vendor contacts by email, specify their email addresses on document layouts. For example, you can always send customer statements to their accountant contacts and sales orders to their purchasers, or purchase orders to vendor salespeople.
 
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, choose the **Select Email from Contacts** action.
 2. On the **Contacts** page, select one or more contacts, and then choose **OK**.
 
-## See Also
+## Related information
 
 [Update Custom Report Layouts](ui-update-report-layouts.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  

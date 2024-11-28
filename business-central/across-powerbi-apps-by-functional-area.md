@@ -1,5 +1,5 @@
 ---
-title: Power BI apps for functional areas
+title: Power BI apps/reports for functional areas
 description: Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
 author: kennienp
 ms.author: kepontop
@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Power BI apps for functional areas
+# Power BI apps/reports for functional areas
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
 [!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
 
-| Functional areas     | Landing pages                |
+| Functional area      | Landing page                 |
 |----------------------| ---------------------------- |
 | Finance              | [Power BI Finance app](finance-powerbi-app.md) |
 | Sales                | [Power BI Sales app](sales-powerbi-app.md) |

@@ -15,9 +15,7 @@ ms.custom: bap-template
 
 To correctly manage resource activities, you must set up your resources and the related costs and prices. The project-related prices, discounts, and cost factor rules are set up on the project card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
 
-When resources are used or sold in a project, the prices and costs associated with them are retrieved from the information that you set up.
-
-You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a project for five hours, the project would be calculated based on the amount per hour.
+You specify the default amount per hour when you set up a resource. The price and cost amounts apply when you use or sell resources in a project. For example, if you use a specific machine for five hours, the calculation is based on the amount per hour.
 
 > [!NOTE]
 > You can't purchase external resources for a specific project. We recommend that you use items of the type Service instead.
@@ -32,7 +30,7 @@ Create a card for each resource that you want to use in projects.
 
 ## To set up a resource group
 
-You can combine several resources in one resource group. All capacities and budgets of resource groups are accumulated from the individual resources. It is also possible to enter capacities for resource groups either independently of the accumulated values or in addition to them.
+You can combine several resources in one resource group. All capacities and budgets of resource groups are accumulated from the individual resources. You can also enter capacities for resource groups either independently of the accumulated values or in addition to them.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource groups**, and then choose the related link.
 2. Choose the **New** action.
@@ -40,7 +38,7 @@ You can combine several resources in one resource group. All capacities and budg
 
 ## To set capacity for a resource
 
-To calculate how much time a resource can spend on projects, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in project planning lines that contain the resource. For more information, see [Create Projects](projects-how-create-jobs.md).
+To calculate how much time a resource can spend on projects, you must set their capacity. Capacity represents a resource's available time for a period on the work calendar. This setup is used when you fill in project planning lines that contain the resource. For more information, see [Create Projects](projects-how-create-jobs.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Open the relevant resource card, and then choose the **Resource Capacity** action.
@@ -57,7 +55,7 @@ To calculate how much time a resource can spend on projects, their capacity must
 
 ## To set up alternate resource costs
 
-In addition to the cost specified on the resource card, you can set up alternate costs for each resource. For example, if you pay an employee a higher hourly rate for overtime, you can set up a resource cost for the overtime rate. The alternate cost that you set up for the resource will override the cost on the resource card when you use the resource in the resource journal.
+In addition to the cost specified on the resource card, you can set up alternate costs for each resource. For example, if you pay an employee a higher hourly rate for overtime, you can set up a resource cost for the overtime rate. The alternate cost that you set up for the resource overrides the cost on the resource card when you use the resource in the resource journal.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
 2. Select the resource for that you want to set up one or more alternate costs for, and then choose the **Costs** action.  

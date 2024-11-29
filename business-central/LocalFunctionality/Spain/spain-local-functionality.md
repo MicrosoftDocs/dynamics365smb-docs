@@ -69,7 +69,8 @@ The following articles describe local functionality unique to the Spanish versio
 
 ## Future legislation requirements being investigated
 
-* Spanish e-invoicing - **Planned for December 2024**  
+* Spanish e-invoicing - **Planned for December 2024**
+* Adding new period type - Quarter to the SII file - **Planned for January 2025**  
 * Requirements related to the *Antifraud Law* in Spain and how they affect Business Central are being investigated. 
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

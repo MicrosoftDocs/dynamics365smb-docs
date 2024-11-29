@@ -27,7 +27,7 @@ Carbon Credit in [!INCLUDE[prod_short](includes/prod_short.md)] can be set as th
 3. Once the item is created, select the **GHG Credit** field on the **Sustainability** FastTab and add the value of carbon credit using the **Carbon Credit Per UOM** field.
 
 > [!NOTE]
-> **Carbon Credit Per UOM** represents the amount of CO₂ in the unit of measure configured in the **Emission Unit of Measure Code** in the **Sustainability Setup**. So, this means the total value of carbon credit as the amount of credited CO₂ per one **Base Unit of Measure** of used item.  
+> **Carbon Credit Per UOM** represents the amount of CO₂ in the unit of measure configured in the **Emission Unit of Measure Code** in the **Sustainability Setup**. So, this means the total value of carbon credit is the amount of credited CO₂ per one **Base Unit of Measure** of used item.  
 
 > [!NOTE]
 > You can set up any type of item, whether it's inventory, service, or non-inventory, as a carbon credit.  
@@ -41,9 +41,9 @@ To work with any purchase-related documents, follow the steps:
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon and:  
    1. Enter **Purchase Invoices** if you want invoice as a **Document Type**, and then select the related link.  
    2. Enter **Purchase Orders** if you want order as a **Document Type**, and then select the related link.   
-2. Populate document header based on the following instruction [how to work with purchase invoices and orders](purchasing-how-record-purchases.md). 
-3. Choose the item configure as a carbon credit in the **No.** field in the purchase document lines, and add appropriate **Quantity** and **Direct Unit Cost**. 
-4. Add the **Sustainability Account No.** you would use for decreasing your carbon dioxide (CO₂) value. System will automatically populate the value in the **Emission CO2** field based on the value you have configured in the **Carbon Credit Per UOM** field on the **Item** card.
+2. Populate the document header based on the following instruction [how to work with purchase invoices and orders](purchasing-how-record-purchases.md). 
+3. Choose the item configured as a carbon credit in the **No.** field in the purchase document lines, and add appropriate **Quantity** and **Direct Unit Cost**. 
+4. Add the **Sustainability Account No.** you would use for decreasing your carbon dioxide (CO₂) value. The system will automatically populate the value in the **Emission CO2** field based on the value you have configured in the **Carbon Credit Per UOM** field on the **Item** card.
 5. Post the document.
 
 > [!NOTE]
@@ -51,12 +51,12 @@ To work with any purchase-related documents, follow the steps:
 
 ### Sustainability journals 
 
-To work with **Sustainability Journal** follow the steps:  
+To work with **Sustainability Journal** follow these steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link. 
 2. On the **Sustainability Journal** page, enter as many lines as you intend to post in the same batch.  
 3. Choose the **GHG Credit** in the **Document Type** field.    
-4. In the **Account No.** field, you can select only non-blocked sustainability accounts where the **Direct Posting** field is selected and the **Accounting Type** field is set to **Posting**. The accounts must also be configured with a category and a subcategory. Choose the appropriate account to post carbon credits.
+4. In the **Account No.** field, you can select only non-blocked sustainability accounts where the **Direct Posting** field is selected and the **Accounting Type** field is set to **Posting**. The accounts must also be configured with a category and a subcategory. Choose the appropriate account to post-carbon credits.
 5. Select **Manual Input** and enter the value you want to post as a carbon credit to the **Emission CO2** field.  
 6. Post the journal.   
 

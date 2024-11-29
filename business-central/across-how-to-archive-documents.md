@@ -1,20 +1,20 @@
 ---
-title: Archive Sales and Purchase Documents
-description: You can archive sales and purchase orders, quotes, return orders, and blanket orders.
+title: Archive sales, purchase, project, and service documents
+description: You can archive orders, quotes, return orders, and blanket orders.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/26/2024
+ms.date: 08/20/2024
 ms.custom: bap-template
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.service: dynamics-365-business-central
 ---
 # Archive documents
 
-You can archive sales and purchase orders, quotes, return orders, and blanket orders. If you're using Project Management features, you can also archive your projects. You can archive documents and projects several times, which saves a different archived version each time.
+You can archive sales, purchase, and service orders, quotes, return orders, and blanket orders. If you're using Project Management features, you can also archive your projects. You can archive documents and projects several times, which saves a different archived version each time.
 
-For sales documents, if the original still exists and isn't posted, you can use the **Restore** action to overwrite it with an archived version. 
+For sales documents, if the original still exists and isn't posted, you can use the **Restore** action to overwrite it with an archived version.
 
 > [!NOTE]
 > You can only restore sales documents and projects. The action isn't available for archived purchase documents.
@@ -25,12 +25,16 @@ For archived documents where the original is deleted, you can reuse the content 
 
 You can automate archiving to create a new version of the archived document when someone does the following things:
 
-* Changes or deletes a document or project.
+* Changes the status or deletes a document or project.
 * Prints, downloads, or sends a document by email.
 * Converts a quote to an order or invoice.
 * Posts an order.
 
-The following steps describes how to set up automatic archiving of sales documents from the **Sales & Receivables Setup** page. The steps are similar for purchase documents and projects. For purchase documents, use the **Purchase & Payables** page. For projects, use the **Project Setup** page.
+The following steps describes how to set up automatic archiving of sales documents from the **Sales & Receivables Setup** page. The steps are similar for purchase documents and projects. 
+
+* For purchase documents, use the **Purchase & Payables** page. 
+* For projects, use the **Project Setup** page.
+* For services, use the **Service Management Setup** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Archiving** FastTab, specify whether to turn on automatic archiving for the various types of sales documents. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -55,7 +59,9 @@ The sales order is archived. You can view it on the **Archived Sales Orders** pa
 
 ## To restore a non-posted sales document or a project from the archive
 
-The following procedure describes how to restore an archived sales order to the original sales order. Restoring a document is only possible when the original document isn't posted. The steps are similar for all orders, blanket orders, return orders, and quotes, and also for projects.
+You can restore documents only if the original document isn't posted.
+
+The following procedure describes how to restore an archived sales order to the original sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.
 2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
@@ -72,7 +78,7 @@ There are a few things to note about creating retention policies for archived do
 * When you set up the retention policy, you can specify that you want the policy to delete all archived versions except the most recent. For example, you might have 10 versions and want to keep a copy of the latest. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] calculates the expiration date for documents based on the date of the most recent archived version.
 
-## See Also
+## See also
 
 [Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  

@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.devlang: al
   ms.search.keywords: phone, tablet
-  ms.date: 04/27/2022
+  ms.date: 10/25/2024
   ms.author: jswymer
   ms.service: dynamics-365-business-central
 title: Business Central Add-in for Outlook FAQ
@@ -37,6 +37,10 @@ sections:
         answer: |
           Some features in Business Central require significant workspace to provide a great experience and aren't available when using the Outlook add-in pane. For example, any step-by-step wizard page isn't available in the pane. To overcome this, you can pop out the page in the add-in using the "Pop out" action. The popout window can be stretched to any size including expanding to fill your screen.
 
+      - question: |
+          Does the Outlook add-in work on a shared mailbox?
+        answer: |
+          No, not currently.  
 additionalContent: |
 
   ## See also

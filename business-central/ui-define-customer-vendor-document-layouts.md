@@ -33,8 +33,8 @@ The **Document Layouts** page displays all layouts that are available for sales 
 The following steps assume that layout you want for the type of document is already created. Learn more about creating layouts in [Get started creating report layouts](ui-get-started-layouts.md).
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
-2. Open the **Customer Card** page for the customer, and then select the **Document Layouts** action.
-3. On the **Document Layouts** page, on the line for document layout that you want to use a report layout for, set the **Email Body Layout** and **Email Attachment Layout** fields. You can choose different layouts for each.
+1. Open the **Customer Card** page for the customer, and then select the **Document Layouts** action.
+1. On the **Document Layouts** page, on the line for document layout that you want to use a report layout for, set the **Email Body Layout** and **Email Attachment Layout** fields. You can choose different layouts for each.
 
    >![!NOTE]
    > If you want to use a legacy custom report layout, set the layout in the **Custom Layout Description** field. By default, the **Custom Layout Description** field is hidden. If the field isn't available, you can personalize the page to add it. To personalize the page, select the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="The Settings icon."::: icon, and then select **Personalize**. Learn more about legacy custom report layouts in [(Legacy) Create and modify custom report layouts](ui-how-create-custom-report-layout.md)

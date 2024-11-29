@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 06/13/2024
+ms.date: 10/01/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -139,7 +139,102 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 
 When using the **Edit in Excel** in [!INCLUDE [prod_short](includes/prod_short.md)], either by selecting **Edit in Excel** action on a page or when the Excel add-in loads after opening an Excel workbook, you might encounter the following error: _Metadata was unable to be retrieved for entity \<entity name\> as it was not found_.
 
-This error occurs when the page you are attempting to modify becomes too complex for **Edit in Excel** to process effectively. The primary cause is the installation of multiple extensions that add fields with identical field names to the same parent page, leading to conflicts.
+This error occurs when the page you're attempting to modify becomes too complex for **Edit in Excel** to process effectively. The primary cause is the installation of multiple extensions that add fields with identical field names to the same parent page, leading to conflicts. It's also possible for a single extension to block the metadata generation.
+
+### Single extension blocking metadata creation
+
+Consider the following scenario involving extension _A_, which includes the page extension _CustomerCardExtA_ and the page _WebViewerA_ where _PageType = CardPart_.
+
+When metadata is generated for the _Customer Card_ page, the algorithm evaluates each individual field, including those fields added by extensions. However, if extension _A_ is installed, this process fails because _WebViewerA_ doesn't share the same source table as the _Customer Card_ page.
+
+To resolve this issue, you should add a _Customer_ `SourceTable` property to the _WebViewerA_ page. An example of this modification can be observed in the code snippets containing _CustomerCardExtB_ and _WebViewerB_.
+
+In some cases, you might need to embed the `CardPart` on multiple pages without referencing a specific source table. For such scenarios, we recommend creating a separate `CardPart` for each page where you also need to generate metadata and refactoring the shared logic into a codeunit.
+
+```AL
+pageextension 50120 CustomerCardExtA extends "Customer Card"
+{
+    layout
+    {
+        addlast(content)
+        {
+            part("Bing WebViewer"; "WebViewer")
+            {
+                ApplicationArea = All;
+            }
+        }
+    }
+}
+```
+
+```AL
+page 50120 "WebViewerA"
+{
+    ApplicationArea = All;
+    Caption = 'WebViewer', Locked = true;
+    PageType = CardPart;
+
+    layout
+    {
+        area(Content)
+        {
+            usercontrol(WebViewer; WebPageViewer)
+            {
+                #region ControlAddInReady
+                trigger ControlAddInReady(callbackUrl: Text)
+                begin
+                    CurrPage.WebViewer.Navigate('https://www.bing.com')
+                end;
+                #endregion ControlAddInReady
+            }
+        }
+    }
+}
+```
+
+```AL
+pageextension 50120 CustomerCardExtB extends "Customer Card"
+{
+    layout
+    {
+        addlast(content)
+        {
+            part("Bing WebViewer"; "WebViewer")
+            {
+                ApplicationArea = All;
+            }
+        }
+    }
+}
+```
+
+```AL
+page 50120 "WebViewerB"
+{
+    ApplicationArea = All;
+    Caption = 'WebViewer', Locked = true;
+    PageType = CardPart;
+    SourceTable = Customer;
+
+    layout
+    {
+        area(Content)
+        {
+            usercontrol(WebViewer; WebPageViewer)
+            {
+                #region ControlAddInReady
+                trigger ControlAddInReady(callbackUrl: Text)
+                begin
+                    CurrPage.WebViewer.Navigate('https://www.bing.com')
+                end;
+                #endregion ControlAddInReady
+            }
+        }
+    }
+}
+```
+
+### Multiple extensions causing collisions
 
 To resolve this issue, there are two potential solutions:
 

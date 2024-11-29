@@ -1,0 +1,1 @@
+Analyze vendor balances at the end of each period. Monitor unpaid invoices, and prioritize payments for overdue accounts. Easily reconcile vendor subledgers against payables accounts in the general ledger, assuming that direct posting is disabled.

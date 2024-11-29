@@ -46,7 +46,11 @@ To calculate how much time a resource can spend on projects, their capacity must
 2. Open the relevant resource card, and then choose the **Resource Capacity** action.
 3. On the **Resource Capacity** page, in the **View By** field, specify the length of the period, such as **Day**, that is shown on columns on the **Resource Capacity Matrix** FastTab.
 4. For each resource on a line, specify for each period on the columns the number of hours that the resource is available.
-5. Alternatively, to detail the resource's weekly capacity within a starting and ending date, choose the **Set Capacity** action.
+5. Alternatively, to detail the resource's capacity for a specific period, choose the **Set Capacity** action.
+
+   > [!TIP]
+   > If you're setting capacity for a group of people who typically work the same hours, you can save a little time and ensure consistency by choosing a work hour template. For example, you might have one work hour template for full time technicians, and another for technicians that work part time. To learn more about work hour templates, go to [To set up work hour templates](service-how-setup-work-service-hours.md#to-set-up-work-hour-templates).
+
 6. On the **Resource Capacity Settings** page, fill in the fields as necessary.
 7. Choose the **Update Capacity** action. The **Resource Capacity** page is updated with the entered capacity.
 8. Close the page.

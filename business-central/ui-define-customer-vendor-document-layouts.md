@@ -23,8 +23,8 @@ The steps in the following sections describe how to define sales document layout
 ## Load the standard document layouts for sales documents for a customer
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
-3. On the **Document Layouts** page, choose the **Copy from Report Selection** action.
+1. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
+1. On the **Document Layouts** page, choose the **Copy from Report Selection** action.
 
 The **Document Layouts** page displays all layouts that are available for sales documents.
 
@@ -44,7 +44,7 @@ The following steps assume that layout you want for the type of document is alre
 To save time when you send documents to customer and vendor contacts by email, specify their email addresses on document layouts. For example, you can always send customer statements to their accountant contacts and sales orders to their purchasers, or purchase orders to vendor salespeople.
 
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, select the **Select Email from Contacts** action.
-2. On the **Contacts** page, select one or more contacts, and then select **OK**.
+1. On the **Contacts** page, select one or more contacts, and then select **OK**.
 
 ## Related information
 

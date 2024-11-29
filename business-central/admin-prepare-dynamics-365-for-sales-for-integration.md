@@ -38,7 +38,6 @@ When you install the Integration Solution, permissions for the integration user 
 
 * Dynamics 365 Business Central Integration Administrator
 * Dynamics 365 Business Central Integration User
-* Dynamics 365 Business Central Product Availability User
 
 > [!NOTE]
 > To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:

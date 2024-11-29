@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
+
 ms.date: 11/28/2024
 ms.service: dynamics-365-business-central
 ---
@@ -23,8 +24,8 @@ The steps in the following sections describe how to define sales document layout
 ## Load the standard document layouts for sales documents for a customer
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
-3. On the **Document Layouts** page, choose the **Copy from Report Selection** action.
+1. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
+1. On the **Document Layouts** page, choose the **Copy from Report Selection** action.
 
 The **Document Layouts** page displays all layouts that are available for sales documents. 
 
@@ -33,13 +34,13 @@ The **Document Layouts** page displays all layouts that are available for sales 
 The following steps assume that you already have a custom report layout for the type of document. If you don't already a custom report layout, you need to create one first. Learn more in [Get started creating report layouts](ui-get-started-layouts.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
-3. On the **Document Layouts** page, on the line for a report layout that you want to use a layout for, select the **Custom Layout Description** field.
+1. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
+1. On the **Document Layouts** page, on the line for a report layout that you want to use a layout for, select the **Custom Layout Description** field.
 
    >![!TIP]
    > By default, the Custom Layout Description field is hidden. If the field isn't available, you can personalize the page to add it. To personalize the page, choose the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="The Settings icon."::: icon, and then choose **Personalize**. Learn more about personalizing pages in [Personalize your workspace](ui-personalization-user.md).-->
 
-4. On the **Custom Report Layouts** page, select the document layout that you want to use for the type of sales document. Learn more about personalizing pages in [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
+1. On the **Custom Report Layouts** page, select the document layout that you want to use for the type of sales document. Learn more about personalizing pages in [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 ## Specify which contact receives which document layout for a customer
 

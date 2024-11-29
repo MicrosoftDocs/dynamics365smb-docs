@@ -1,0 +1,1 @@
+Get an overview of when service and repairs are planned for your fixed assets. 

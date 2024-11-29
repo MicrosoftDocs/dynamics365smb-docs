@@ -1,0 +1,1 @@
+Analyze the load on a machine center.

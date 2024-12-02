@@ -1,6 +1,6 @@
 ---
 title: Suggest item substitutions with Copilot
-description: Find substitute items faster with assistance from Copilot.
+description: Assign substitute items faster with assistance from Copilot.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -9,7 +9,7 @@ ms.date: 12/02/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
-ms.search.form: 5839_Primary
+ms.search.form: 30, 31, 5716_Primary
 ---
 
 # Find item substitutions faster with Copilot
@@ -22,9 +22,9 @@ This article explains how to create item substitution entries faster by letting 
 
 ## About suggest item substitutions with Copilot
 
-To ensure they can fulfill orders quickly, businesses often assign similar items to each other so they can use them as substitutes. For example, when the original item requested is out of stock. The suggest item substitutions with Copilot feature can speed up the process of finding similar items. The feature uses our large language model combined with embedded search. The feature isn't a general-purpose chat, but a highly specific and integrated experience for finding items to use as substitutes on orders. The feature has a distinct skill that helps you find data about similar items.
+To ensure they can fulfill orders quickly, businesses often assign similar items to each other so they can use them as substitutes. For example, when the original item requested is out of stock. The suggest item substitutions with Copilot feature can speed up the process of finding similar items. The feature uses our large language model combined with embedded search.
 
-Information that describes products is stored in multiple places in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, item numbers and descriptions are stored in the Item table, multiple barcodes are stored in the Item Reference table, and item properties are stored in the Item Attributes table. While you might prompt for *Red bicycle*, the actual product might be *Crimson Tourer**, where *Bicycle* is a product category and *Red* is an attribute.
+Information about products is stored in multiple places in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, item numbers and descriptions are stored in the Item table, multiple barcodes are stored in the Item Reference table, and item properties are stored in the Item Attributes table. While you might prompt for *Red bicycle*, the actual product might be *Crimson Tourer**, where *Bicycle* is an item category and *Red* is an attribute.
 
 ## Available languages
 
@@ -35,10 +35,6 @@ Information that describes products is stored in multiple places in [!INCLUDE [p
 - The suggest item substitutions feature is activated. An administrator must complete this task. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
 - You're familiar with creating and managing product (item) information.
 
-## Adjust the search
-
-By default, suggest item substitutions with Copilot uses the item description as search criteria, which you can adjust to fine-tune search results.
-
 ## Suggest item substitutions on item substitution entries
 
 This process describes how to get suggestions for substitute items.
@@ -48,6 +44,10 @@ This process describes how to get suggestions for substitute items.
 3. Choose the **Substitutions** action.
 4. On the **Item Substitution Entry** page, choose **Suggest with Copilot**.
 5. Review the suggestions. To learn more, go to [Review, save, discard, or regenerate suggestions](#review-save-discard-or-regenerate-suggestions).
+
+## Adjust the search
+
+By default, suggest item substitutions with Copilot uses the item description as search criteria, which you can adjust to fine-tune search results.
 
 ## Review, save, discard, or regenerate suggestions
 

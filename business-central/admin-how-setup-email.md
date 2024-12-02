@@ -30,7 +30,7 @@ Email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for out
 There are a couple of requirements for setting up and using the email features.
 
 * To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
-* Everyone who will use the email features must be a fully-licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
+* Everyone who uses the email features must be a fully licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
 
 ## Add email accounts
 
@@ -44,9 +44,9 @@ The following table describes the email extensions that are available by default
 |---------|---------|---------|
 |**Microsoft 365 Connector**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This option requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Current User Connector**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
-|**SMTP Connector**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
+|**SMTP Connector**|Use Simple Mail Transfer Protocol (SMTP) protocol to send emails.|Allow communications through your SMTP mail server. |
 
-The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions, including the **Outlook REST API** extension, require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions, including the **Outlook REST API** extension, require that the **Allow HttpClient Requests** setting is enabled. To check whether it's enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
 External users, such as delegated admins and external accountants, can't use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -64,7 +64,7 @@ External users, such as delegated admins and external accountants, can't use the
 
 ## Use SMTP
 
-If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails will be sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails will be sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
+If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails are sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails are sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
 > To use Auth 2.0 for SMTP authentication, consider the following:
@@ -95,7 +95,7 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 is this still true?-->
 ## Assign email scenarios to email accounts
 
-Email scenarios are processes that involve sending a document. For example, a sales or purchase order or a notification, such as an invitation to an external accountant. Specific email accounts can be used for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want. A scenario can only be assigned to one email account at a time. The default email account will be used for all scenarios that aren't assigned to an account.
+Email scenarios are processes that involve sending a document. For example, a sales or purchase order or a notification, such as an invitation to an external accountant. Specific email accounts can be used for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want. A scenario can only be assigned to one email account at a time. The default email account is used for all scenarios that aren't assigned to an account.
 
 On the **Email Scenario Assignment** page, you can choose the **Set Default Attachments** action to add attachments to email scenarios. The attachments will always be available when you compose an email for a document related to the scenario. Each email scenario can have one or more default attachments. Default attachments are automatically added to emails for the email scenario. For example, when you send a sales order by email, the default attachment specified for the Sales Order scenario will be added. Default attachments display in the **Attachments** section at the bottom of the **Compose an Email** page. You can manually add non-default attachments to the email.
 
@@ -152,10 +152,10 @@ You can use reports to include key information from sales, purchase, and service
 6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
     > [!NOTE]
     > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] will help you create a copy when you import a custom layout for a standard report. The name of your new custom report layout will be prefixed with "Copy of."
-7. If you want to let customers use a payment service, such as PayPal, you'll need to set up the service. Afterward, the PayPal information and link are inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
+7. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
-Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
+Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
 
 ## Use a substitute sender address on outbound email messages
 
@@ -210,8 +210,8 @@ Administrators can switch on the telemetry feature in [!INCLUDE[prod_short](incl
 
 - An email was sent successfully  
 - An attempt to send an email failed   
-- Authentication to a SMTP server succeded/failed  
-- Connection to a SMTP server succeded/failed  
+- Authentication to an SMTP server succeded/failed  
+- Connection to an SMTP server succeded/failed  
 
 You can use this data to monitor email usage and to troubleshoot email failures. Learn more at [Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 
@@ -247,7 +247,7 @@ If you're using the SMTP Connector and want to use OAuth 2.0 for authentication,
 |Office 365 Exchange Online / User.Read |Delegated|Sign in and read user profile.         |
 
 When you create your app registration, note the following information. You'll need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
- 
+
 * Application (client) ID
 * Redirect URI (optional)
 * Client secret
@@ -290,7 +290,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## See also
+## Related information
 
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

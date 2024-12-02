@@ -22,7 +22,7 @@ This article explains how to create item substitution entries faster by letting 
 
 ## About suggest item substitutions with Copilot
 
-Suggest item substitutions with Copilot can assist with creating item substitutions by identify similar items using LLM combined with embedding search. The feature isn't a general-purpose chat, but a highly specific and integrated experience for finding items to use as substitutes on orders. The feature has a distinct skill that helps you find data about similar items.
+To ensure they can fulfill orders quickly, businesses often assign similar items to each other so they can use them as substitutes. For example, when the original item requested is out of stock. The suggest item substitutions with Copilot feature can speed up the process of finding similar items. The feature uses our large language model combined with embedded search. The feature isn't a general-purpose chat, but a highly specific and integrated experience for finding items to use as substitutes on orders. The feature has a distinct skill that helps you find data about similar items.
 
 Information that describes products is stored in multiple places in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, item numbers and descriptions are stored in the Item table, multiple barcodes are stored in the Item Reference table, and item properties are stored in the Item Attributes table. While you might prompt for *Red bicycle*, the actual product might be *Crimson Tourer**, where *Bicycle* is a product category and *Red* is an attribute.
 

@@ -68,7 +68,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 
 > [!IMPORTANT]
 > To use Auth 2.0 for SMTP authentication, consider the following:
-
+>
 > - All users must be on the same Microsoft Entra tenant.
 > - You can't use **Specific User** as the **Sender type** to send emails as the specified user, as you can with BASIC auth. The reason is that OAUTH 2.0 uses the credentials of the current (signed-in) user.
 > - For Business Central on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary
-ms.date: 06/03/2024
+ms.date: 12/02/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -67,9 +67,11 @@ External users, such as delegated admins and external accountants, can't use the
 If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails will be sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails will be sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> To use OAuth for SMTP, all users must be on the same Microsoft Entra tenant. 
-> 
-> You must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> To use Auth 2.0 for SMTP authentication, consider the following:
+
+> - All users must be on the same Microsoft Entra tenant.
+> - You can't use **Specific User** as the **Sender type** to send emails as the specified user, as you can with BASIC auth. The reason is that OAUTH 2.0 uses the credentials of the signed in user.
+> - For Business Central on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 

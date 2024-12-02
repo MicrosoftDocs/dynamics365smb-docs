@@ -38,7 +38,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 ## Prerequisites
 
-- **Bank account reconciliation** capability is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- The **Bank account reconciliation** capability is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 - You're familiar with bank account reconciliation in Business Central. Learn more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot

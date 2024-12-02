@@ -39,7 +39,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 ## Prerequisites
 
-* Sales line suggestion with Copilot is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).
+* **Sales line suggestions** capability is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).
 * You're familiar with creating sales orders.
 
 ## Examples of prompts

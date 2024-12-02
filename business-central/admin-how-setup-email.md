@@ -70,7 +70,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 > To use Auth 2.0 for SMTP authentication, consider the following:
 >
 > - All users must be on the same Microsoft Entra tenant.
-> - You can't use **Specific User** as the **Sender type** to send emails as the specified user, as you can with BASIC auth. The reason is that OAUTH 2.0 uses the credentials of the current (signed-in) user.
+> - You can't use **Specific User** as the **Sender type** as you can with Basic authentication. The reason is that OAUTH 2.0 uses the credentials of the current (signed-in) user.
 > - For Business Central on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
@@ -230,21 +230,21 @@ The settings that are specific to the email capabilities are the delegated permi
 
 |API / Permission Name  |Type  |Description  |
 |---------|---------|---------|
-|Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
-|Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
-|Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
-|Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
-|Microsoft Graph / Mail.Send.Shared|Delegated|Shared Mailbox|
+|Microsoft Graph/User.Read |Delegated|Sign in and read user profile.         |
+|Microsoft Graph/Mail.ReadWrite |Delegated|Compose email messages.         |
+|Microsoft Graph/Mail.Send|Delegated|Send email messages.         |
+|Microsoft Graph/offline_access|Delegated|Maintain data access consent.|
+|Microsoft Graph/Mail.Send.Shared|Delegated|Shared Mailbox|
 
 If you're using the SMTP Connector and want to use OAuth 2.0 for authentication, the permissions are slightly different. The following table lists the permissions.
 
 |API / Permission Name  |Type  |Description  |
 |---------|---------|---------|
-|Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
-|Microsoft Graph / openid|Delegated|Sign users in.|
-|Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
-|Microsoft Graph / SMTP.Send|Delegated|Send emails from mailboxes using SMTP AUTH.         |
-|Office 365 Exchange Online / User.Read |Delegated|Sign in and read user profile.         |
+|Microsoft Graph/offline_access|Delegated|Maintain data access consent.|
+|Microsoft Graph/openid|Delegated|Sign users in.|
+|Microsoft Graph/User.Read |Delegated|Sign in and read user profile.         |
+|Microsoft Graph/SMTP.Send|Delegated|Send emails from mailboxes using SMTP AUTH.         |
+|Office 365 Exchange Online/User.Read |Delegated|Sign in and read user profile.         |
 
 When you create your app registration, note the following information. You'll need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
 

@@ -17,6 +17,10 @@ ms.reviewer: bholtorf
 
 Production reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows production and business professionals to get insights and statistics about current and past production activities.  
 
+## Explore production reports with Report Explorer
+
+[!INCLUDE [report-explorer-manufacturing](includes/report-explorer-manufacturing.md)]
+
 ## Reports
 
 [!INCLUDE [production_reports](includes/production-reports-include.md)]

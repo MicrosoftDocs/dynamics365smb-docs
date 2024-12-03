@@ -112,7 +112,7 @@ As an administrator, you can manage which users have permission to use the Sales
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
-   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](/media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 ---
 

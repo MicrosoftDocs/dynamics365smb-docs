@@ -35,7 +35,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
 ### Prerequisites
 
-Marketing text suggestions feature is activated on your environment. This task is typically done by an admin. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- The **Marketing text suggestions** capability is activated by an administrator. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
 ### Create first draft with Copilot
 

@@ -17,7 +17,7 @@ You can set up default reports to use to print sales, purchases, and service doc
 
 ## Available report selections
 
-The **Report Selections** pages specify the reports to print in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
+The **Report Selections** pages specify the reports to print in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example.
 
 The following table describes where you can find information about the different pages.  
 

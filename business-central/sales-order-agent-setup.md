@@ -67,13 +67,15 @@ When the Sales Order Agent is active, a scheduled task that runs every 20 second
 
 The Sales Order Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
 
-The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be first disabled to make these changes.
+The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. 
 
-You can't modify the **SOA AGENT – EDIT** permission set directly, because it is a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set.
+You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify it to suit your needs, then add to **Agent Permission Sets** section, along with any other permission sets.
+
+Before you can add or delete permission sets applied to the agent, you must change the **State** to disabled. When your dome making changes, set it back to **Enabled**.
 
 ### Manage user access to the agent
 
-The following system permissions are available for controlling user access to the agent's functionality:
+As an administrator, you can specify which users have permission to use or configure the Sales Order Agent. The following system permissions are available for controlling user access to the agent's functionality:
 
 - **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of the Sales Order Agent.
 - **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
@@ -86,10 +88,10 @@ These system permissions are also included in the following permission sets, ent
 - Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
 - All license types include **Configure All Agents** permissions.
 
-As an administrator, you can manage which users have permission to use the Sales Order Agent. You can configure user access during set up, by selecting the **Manage user access link**, or later, by using the **Sales Order Agent** card page.
+You can configure user access during setup, by selecting **Manage user access** in **Configure the Copilot agent** page, or later, by using the **Sales Order Agent** card page.
 
-- To configure the Sales Order Agent, users must have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
-- To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
+- To enable a user to configure the Sales Order Agent, they must have the **"Configure All Agents"** permission as a minimum or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
+- To enable a user to work with agent tasks displayed in the Copilot pane, they must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as an agent user on the **Select users that can manage or interact with the Agent page**.
 
 ### Configure user access to Sale Order Agent
 

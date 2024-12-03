@@ -78,7 +78,7 @@ The following system permissions are available for controlling user access to th
 - **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of the Sales Order Agent.
 - **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
 
-These system permissions are included in following permission sets, entitlements, and license types:
+These system permissions are also included in the following permission sets, entitlements, and license types:
 
 - The **SECURITY** permission set includes the **Configure All Agents** permission.
 - The **System Execute - Basic** permission set includes the **Manage Agent Tasks** permission.
@@ -93,7 +93,7 @@ As an administrator, you can manage which users have permission to use the Sales
 
 ### Configure user access to Sale Order Agent
 
-# [From Configure Sales Order Agent page](#tab/singletenant)
+# [From Configure Sales Order Agent page](#tab/soaconfig)
 
 1. Open the **Configure the Copilot agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
@@ -104,7 +104,7 @@ As an administrator, you can manage which users have permission to use the Sales
    - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
-# [From Sales Order Agent card page](#tab/singletenant)
+# [From Sales Order Agent card page](#tab/soapage)
 
 1. To open the **Sales Order Agent** card page, search for (<kbd>Alt</kbd>+<kbd>Q</kbd>) **Agents**, and then select select **SALES ORDER AGENT - [COMPANY]**
 1. Set **Status** to **Disabled** to deactivate the agent.

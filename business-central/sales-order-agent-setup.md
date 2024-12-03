@@ -98,17 +98,17 @@ As an administrator, you can manage which users have permission to use the Sales
 1. Open the **Configure the Copilot agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order 
 1. Turn off the **Active** toggle.
 1. Select **Manage user access**.
-1. On the **Select users that can manage or interact with the Agent** page, you can do the follwoing steps:
+1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
-   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](/media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 # [From Sales Order Agent card page](#tab/singletenant)
 
 1. To open the **Sales Order Agent** card page, search for (<kbd>Alt</kbd>+<kbd>Q</kbd>) **Agents**, and then select select **SALES ORDER AGENT - [COMPANY]**
 1. Set **Status** to **Disabled** to deactivate the agent.
-1. In the **User access* section, the **Select users that can manage or interact with the Agent** page, you can do the follwoing steps:
+1. In the **User access** section, you can do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.

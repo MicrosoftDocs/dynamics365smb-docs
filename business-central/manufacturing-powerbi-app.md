@@ -68,7 +68,6 @@ To improve production efficiency, you track the allocated hours for each work ce
 
 [!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 
-
 ## See also
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   

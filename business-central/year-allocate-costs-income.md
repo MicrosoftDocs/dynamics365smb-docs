@@ -28,7 +28,7 @@ The allocation features work with recurring general journals and in fixed asset 
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
 > [!IMPORTANT]  
-> Note that on the _Recurring General Journals_ page, two options to allocate costs seem to present themselves. One is the _Allocations_ feature (the content of this article) and the other is the _Allocation Account_ option in the _Account Type_ field on the lines of the journal. The latter is not a supported option on _Recurring General Journals_.
+> Note that on the **Recurring General Journals** page, two options to allocate costs seem to present themselves. One is the **Allocations** feature (the content of this article) and the other is the **Allocation Account** option in the **Account Type** field on the lines of the journal. The latter is not a supported option on **Recurring General Journals**.
 
 ## To set up allocation keys
 

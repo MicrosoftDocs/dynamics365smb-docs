@@ -13,7 +13,7 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Order Agent helps Business Central users automate the entire process of capturing sales orders from their customers, monitoring incoming emails to a designated mailbox. This article explains how to set up the agent and it's functionality. Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
+The Sales Order Agent helps Business Central users automate the entire process of capturing sales orders from their customers, monitoring incoming emails to a designated mailbox. The agent is set up and configured on a company basis. This article explains how to set up the agent and it's functionality. Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -63,13 +63,15 @@ When the Sales Order Agent is active, a scheduled task that runs every 20 second
 
 ## Manage agent permissions and user access
 
-The Sales Order Agent has a user account in Business Central, similar to other users. You can find it on the Agents page.
+### Agent permissions to objects, data, and UI elements
+
+The Sales Order Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]**.
 
 By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be first disabled to make these changes.
 
-### User access
+### User access to the agent
 
-Business Central provides the following system permission for administrators to control user access to the agent's functionality:
+The following system permission are available for controlling user access to the agent's functionality:
 
 - **Configure All Agents**: Grants access to manage the configuration settings of the Sales Order Agent.
 - **Manage Agent Tasks**: Allows users to work with agent tasks displayed in the Copilot pane.

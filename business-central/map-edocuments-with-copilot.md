@@ -28,14 +28,9 @@ You can now update an existing purchase order in Business Central with the infor
 
 [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
-## Activate Copilot  
+## Prerequisites
 
-If you didn't activate the **E-Document Matching Assistance** Copilot, you must do so manually. To enable the **E-Document Matching Assistance** copilot, follow these steps: 
-
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Copilot & AI Capabilities**, and then select the related link. 
-2. In the list of capabilities select **E-Document Matching Assistance** and change the status to **Active**.  
-
-You can start using Copilot as soon as you activate it. 
+- The **E-Document Matching Assistance** capability is activated by an administrator. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).  
 
 ## Identify purchase orders
 

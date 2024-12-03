@@ -28,7 +28,7 @@ The allocation features work with recurring general journals and in fixed asset 
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
 > [!IMPORTANT]  
-> **Allocation Accounts** are not supported in **Recurring General Journals**. While the **Allocation Account** option is selectable in the **Account Type** field on the lines of the journal, this option is not supported here.
+> **Allocation Accounts** are not supported in recurring journals. While the **Allocation Account** option is selectable in the **Account Type** field on the lines of the journal, this option is not supported here. Intead, use the Allocations feature as is described in this article.
 
 Allocation Accounts are not supported on the Recurring Journals. You should use Allocations feature that is exposed on the Recurring Journals. If you have defined the Allocation Accounts already in a previous version of Business Central, update the setup to use Allocations. 
 

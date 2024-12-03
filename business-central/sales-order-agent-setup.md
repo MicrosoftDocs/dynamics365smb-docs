@@ -59,48 +59,62 @@ The **Sales Order Agent** badge changes to ![Shows the Sales Order Agent icon af
 When the Sales Order Agent is active, a scheduled task that runs every 20 seconds on the mailbox is added to the job queue. This task monitors unread messages in the mailbox. If an unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
-> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with mailbox, but it's not active. To activate it, select the icon, and then slect ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure** to reopen the **Configure the Copilot agent** page. From there, turn on the **Active** toggle.
+> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with mailbox, but it's not active. To activate it, select the icon, and then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure** to reopen the **Configure the Copilot agent** page. From there, turn on the **Active** toggle.
 
 ## Manage agent permissions and user access
 
-### Agent permissions to objects, data, and UI elements
+### Manage agent permissions to objects, data, and UI elements
 
-The Sales Order Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]**.
+The Sales Order Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
 
-By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be first disabled to make these changes.
+The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. You can change the agent's permissions on the **Agents** page; however, the agent must be first disabled to make these changes.
 
-### User access to the agent
+You can't modify the **SOA AGENT – EDIT** permission set directly, because it is a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set.
 
-The following system permission are available for controlling user access to the agent's functionality:
+### Manage user access to the agent
 
-- **Configure All Agents**: Grants access to manage the configuration settings of the Sales Order Agent.
-- **Manage Agent Tasks**: Allows users to work with agent tasks displayed in the Copilot pane.
+The following system permissions are available for controlling user access to the agent's functionality:
 
-Additionally, the following updates were made to existing permission sets and entitlements:
+- **Configure All Agents** (ID 9665): Grants a user access to manage the configuration settings of the Sales Order Agent.
+- **Manage Agent Tasks** (ID 9670): Allows a user to work with agent tasks displayed in the Copilot pane.
 
-- The **SECURITY** permission set now includes the **Configure All Agents** permission.
-- The **System Execute - Basic** permission set now includes the **Manage Agent Tasks** permission.
+These system permissions are included in following permission sets, entitlements, and license types:
+
+- The **SECURITY** permission set includes the **Configure All Agents** permission.
+- The **System Execute - Basic** permission set includes the **Manage Agent Tasks** permission.
 - The **System Tables - Basic** permission set includes all virtual tables used by the agent (labeled as "Agent *" tables).
 - Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
 - All license types include **Configure All Agents** permissions.
 
-As an administrator, you can manage which users have permission to use the Sales Order Agent. You can configure user access during setup or later through the **Sales Order Agent** card page by selecting the **Manage user access link**.
+As an administrator, you can manage which users have permission to use the Sales Order Agent. You can configure user access during set up, by selecting the **Manage user access link**, or later, by using the **Sales Order Agent** card page.
 
-- To configure the Sales Order Agent, users need to have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
+- To configure the Sales Order Agent, users must have the **"Configure All Agents"** permission (included in SUPER and SECURITY permission sets) or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
 - To work with agent tasks displayed in the Copilot pane, users must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as agent users on the **Select users that can manage or interact with the Agent page**.
 
-<!--
-## Choose how the agent helps with inquiries, quotes, and orders
+### Configure user access to Sale Order Agent
 
-There are several configuration options that define how the agent assists with inquiries, quotes, and orders. You specify these options on the second page of the **Configure the Copilot agent**.
+# [From Configure Sales Order Agent page](#tab/singletenant)
 
-|Option|Description|Default|
-|-|-|-|
-|Match only to items with availability as requested|When on, the agent only includes in a quote the items that will be available on the cutomer's requested delivery date requested.|On|
-|Create sales documents|When on, the agent can create sales quotes and orders from email inquiries based on the remaining options in this table. When off, the remaining options are irrelevant and can't be set.|On|
-|Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to a task before it creates or modifies quotes. The step is added into the process after a Business Central user confirms a quote's acceptance email from the customer. When off, the agent creates or modifies quotes without requiring user review. |Off|
-|Make orders from quotes|When on, the agent converts confirmed sales quotes into orders. Orders are created after the customer agrees to the quote via email and the Business Central user confirms the email. |On|
-|Review orders when created and updated|When on, the agent adds a review step for a Business Central user to a task before it creates or modifies orders. The step is added into the process after a Business Central user confirms an order’s acceptance email from the customer. When off, the agent creates or modifies orders without requiring user review.|Off|-->
+1. Open the **Configure the Copilot agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order 
+1. Turn off the **Active** toggle.
+1. Select **Manage user access**.
+1. On the **Select users that can manage or interact with the Agent** page, you can do the follwoing steps:
+
+   - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
+   - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](/media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+
+# [From Sales Order Agent card page](#tab/singletenant)
+
+1. To open the **Sales Order Agent** card page, search for (<kbd>Alt</kbd>+<kbd>Q</kbd>) **Agents**, and then select select **SALES ORDER AGENT - [COMPANY]**
+1. Set **Status** to **Disabled** to deactivate the agent.
+1. In the **User access* section, the **Select users that can manage or interact with the Agent** page, you can do the follwoing steps:
+
+   - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
+   - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](/media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
+
+---
 
 ## Next steps
 

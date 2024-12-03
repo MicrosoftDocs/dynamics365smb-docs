@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/23/2024
+ms.date: 11/22/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -32,7 +32,7 @@ You can chat with Copilot to get answers to the following classes of questions:
 
 You can ask Copilot to explain a specific concept related to [!INCLUDE[prod_short](includes/prod_short.md)], like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Copilot searches the official [!INCLUDE[prod_short](includes/prod_short.md)] documentation published by Microsoft, and provides an answer based on the documentation.
 
-- Copilot uses the knowledge on Microsoft Learn (not a broad web search) to semantically search only Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] documentation on Microsoft Learn.
+- Copilot uses the knowledge on Microsoft Learn (not a broad web search) to semantically search only Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] documentation on Microsoft Learn. This includes product documentation, release plans, local functionality content, and troubleshooting content.
 
 - Copilot doesn't take action, create new data, or modify any configuration. It simply summarizes any paragraphs it finds on Microsoft Learn that match the question or prompt in chat.
 

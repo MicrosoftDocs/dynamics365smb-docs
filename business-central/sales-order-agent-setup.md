@@ -95,7 +95,7 @@ As an administrator, you can manage which users have permission to use the Sales
 
 # [From Configure Sales Order Agent page](#tab/singletenant)
 
-1. Open the **Configure the Copilot agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order 
+1. Open the **Configure the Copilot agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
 1. Select **Manage user access**.
 1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:

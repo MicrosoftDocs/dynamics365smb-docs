@@ -135,10 +135,12 @@ Do this part of the configuration in the semantic models in your [Power BI servi
 
 Each semantic model requires two parameters:
 
-- ENVIRONMENT
-- COMPANY
+- Environment (holds the environment name)
+- Company (holds the company name. Note that the company parameter is case sensitive. )
 
 You can find these values in the connection details of the assisted setup guide or on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+
+
 
 ## Get the latest data
 

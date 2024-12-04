@@ -34,15 +34,16 @@ Assign one or more recurring sales lines to a customer so that they are availabl
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a relevant customer.
-3. Choose the **Recurring Sales Lines** action.
-4. On the **Recurring Sales Lines** page, select codes for the recurring sales lines that you want to be able to insert on sales documents for the customer.
-5. Fill in the other fields to define when, how, and where the recurring sales lines are to be used.  
+3. Select **Related** and **Sales**
+4. Choose the **Recurring Sales Lines** action.
+5. On the **Recurring Sales Lines** page, select codes for the recurring sales lines that you want to be able to insert on sales documents for the customer.
+6. Fill in the other fields to define when, how, and where the recurring sales lines are to be used.  
 
     If you plan to use the recurring sales lines set together with the **Create Recurring Sales Invoices** batch job, use the **Valid From Date** and **Valid To Date** fields to restrict when the recurring sales lines are used for creation of invoices. For more information, see [Create multiple sales invoices based on standard sales lines](sales-how-work-standard-lines.md#create-multiple-sales-invoices-based-on-recurring-sales-lines).
 
     You can also specify a direct-debit payment method and a direct-debit mandate. The sales invoices that are created with the **Create Recurring Sales Invoices** batch job will then include the information required to collect payment with SEPA direct debit. For more information, see [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
 
-6. In the four fields where you select how the lines are inserted on four document types, select one of the following options:
+7. In the four fields where you select how the lines are inserted on four document types, select one of the following options:
 
 |Option|Description|
 |------|-----------|

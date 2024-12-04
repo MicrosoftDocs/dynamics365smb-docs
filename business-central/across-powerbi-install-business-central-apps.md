@@ -26,11 +26,20 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
 - An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
-- A [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
+
+- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to 
+    - install template apps from AppSource
+    - use shared workspaces.
+
+The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
    - The user who refreshes the data.
    - Each user who accesses the reports.
+
+An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use Premium capacity. 
+
+
 
 To learn more, go to [Get started with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md#get-started).
 

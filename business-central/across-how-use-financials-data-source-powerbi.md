@@ -77,11 +77,11 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
       - **Company name**
         - **Advanced APIs**
 
-          This folder lists advanced APIs published by Microsoft, like the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) and [custom APIs for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Custom APIs are further grouped in folders according to the [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API source code.
+          This folder lists advanced APIs published by Microsoft, like the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) and APIs published by other organizations (these APIs are called Custom APIs). Custom APIs are further grouped in folders according to the [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API source code.
 
         - **Standard APIs v2.0**
 
-          This folder lists the APIs exposed in the [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+          This folder lists the data APIs exposed in the [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). You use these APIs to read data from the BC database, such as master data (customer, vendor, item, ...), transactions (general ledger entries, customer entries, ...), or setup data (dimensions, payment methods, unit of measure, ...).
 
         - **Web services \(legacy)**
 

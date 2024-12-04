@@ -1,5 +1,5 @@
 ---
-title: Work with financial overviews in Excel
+title: Work with financial overviews in Excel (legacy)
 description: Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.
 author: brentholtorf
 ms.topic: overview
@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analyzing financial statements in Microsoft Excel
+# Analyzing financial statements in Microsoft Excel (legacy)
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides KPIs and get overviews of your company's finances. The following are examples of ways to analyze KPIs and overviews in Excel:
 
@@ -21,6 +21,9 @@ ms.reviewer: bholtorf
 > By default, the reports you can view in Excel are designed to help you analyze the current year. The Income Statement report is an exception, however. That report lets you filter the data to include previous years in your analyses.
 
 ## Get the overview and the details in Excel
+
+> [!NOTE]
+> This feature is being deprecated and will be removed in a later version of [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1)
 
 In the Business Manager and Accountant Role Centers, the **Reports** action lets you choose the financial statements to view in Excel. When you choose a statement, it will be opened in Excel or Excel Online. An add-in connects the data to [!INCLUDE [prod_short](includes/prod_short.md)]. However, you have to sign in with the same account that you use with [!INCLUDE [prod_short](includes/prod_short.md)]. The following table lists the reports and where they're available.  
 

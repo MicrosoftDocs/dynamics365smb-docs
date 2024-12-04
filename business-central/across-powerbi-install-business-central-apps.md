@@ -31,7 +31,7 @@ To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUD
     - install template apps from AppSource
     - use shared workspaces.
 
-The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
+The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
    - The user who refreshes the data.

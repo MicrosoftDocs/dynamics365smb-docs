@@ -85,7 +85,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
         - **Web services \(legacy)**
 
-          This folder lists pages, codeunits, and queries that are published as web services in Business Central. 
+          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. It is discouraged to use this legacy method for reading data from [!INCLUDE [prod_short](includes/prod_short.md)]. Instead, it is recommended to use APIs. 
 
     <!--
     > [!NOTE]

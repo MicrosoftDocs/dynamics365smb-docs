@@ -69,7 +69,7 @@ The Sales Order Agent has a user account in Business Central, similar to other u
 
 The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Sales Order Agent is assigned the **SOA AGENT – EDIT** permission set. This permission set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests. 
 
-You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify it to suit your needs, then add to **Agent Permission Sets** section, along with any other permission sets.
+You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
 
 Before you can add or delete permission sets applied to the agent, you must change the **State** to disabled. When your dome making changes, set it back to **Enabled**.
 
@@ -90,12 +90,14 @@ These system permissions are also included in the following permission sets, ent
 
 You can configure user access during setup, by selecting **Manage user access** in **Configure the Copilot agent** page, or later, by using the **Sales Order Agent** card page.
 
-- To enable a user to configure the Sales Order Agent, they must have the **"Configure All Agents"** permission as a minimum or be listed as agent users with the **Can Configure** field selected on the **Select users that can manage or interact with the Agent** page.
-- To enable a user to work with agent tasks displayed in the Copilot pane, they must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as an agent user on the **Select users that can manage or interact with the Agent page**.
+- To enable a user to configure the Sales Order Agent, the user must have the **"Configure All Agents"** permission as a minimum or be listed as an agent user with the **Can Configure** field selected. 
+- To enable a user to work with agent tasks displayed in the Copilot pane, they must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as an agent user.
 
-### Configure user access to Sale Order Agent
+### Add agent users
 
-# [From Configure Sales Order Agent page](#tab/soaconfig)
+There are two ways to add and configure agent users:
+
+# [From Configure Sales Order Agent](#tab/soaconfig)
 
 1. Open the **Configure the Copilot agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.

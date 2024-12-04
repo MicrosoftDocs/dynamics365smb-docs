@@ -4,51 +4,50 @@ description: You can print monthly and quarterly Intrastat reports and submit th
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 06/18/2021
+ms.date: 12/04/2024
 ms.search.form: 12116
-ms.author: bholtorf
+ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: altotovi
 ---
+
 # Print Intrastat Reports for Italy
 
-[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
+> [!NOTE]
+> This documentation is based on new redesigned Intrastat experience with enhanced features available from the 2022 release wave 2. If you are using old functionality based on Intrastat journals, learn more about old Intrastat experince at the [Print old Intrastat for Italy](intrastat-for-italy-old.md). Old feature is not available in Business Centra online. 
 
 You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.  
 
-The following Intrastat reports are available:  
+## Set up Intrastat reporting
 
-- **Intrastat - Checklist** report  
-- **Intrastat - Form** report  
+[!INCLUDE[Set up Intrastat reporting](../finance-how-setup-report-intrastat.md)]
 
-## To print quarterly or monthly reports  
+## Work with Intrastat reporting
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
-2. Select the required journal batch.  
-3. To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, choose the **Monthly Report** action or the **Quarterly Report** action.  
-4. On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
-5. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
-6. On the **Intrastat Journal** page, to save the report details to a diskette, choose the **Make Diskette** action.  
+[!INCLUDE[Work with Intrastat reporting](../finance-how-report-intrastat.md)]
 
-    > [!NOTE]  
-    >  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  
+## Local Italian functionalities
 
-## To print Intrastat - Checklist reports  
+### Additional parameters   
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat - Checklist**, and then choose the related link.  
-2. On the **Options** FastTab, select the **Show Intrastat Journal Lines** check box to include detailed information about the journal lines in the report.  
-3. On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
-4. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
+When you create new **Intrastat Report**, you need to make additional setup at the **Export Parameters** FastTab. You can choose the period for reporting choosing one of the following options at the **Periodicity** field: Month, Quarter, Year. You can also choose the **Type** - Purchases or Sales, to choose the type of item ledger entries to be included.  
 
-## To print Intrastat - Form reports  
+You also need to enter the **File Disk No.** to specifiy the floppy disk number if you are creating a reporting disk. If you want to specify if you want to include intra-community entries from drop shipment documents to **Intrastat Report**, you need to mark the **Include Intra-Community Entries** field.   
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat - Form**, and then choose the related link.  
-2. On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
-3. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
+> [!NOTE]  
+>  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  
+    
+### Corrective Intrastat report  
+
+A corrective Intrastat report in Italy is a declaration submitted to correct errors or make adjustments to previously filed Intrastat reports.   
+
+To prepare corrective intrastat report you previously must post the credit memo and it must be applied to the posted invoice. Corrective credit memo cannot be in the same period as original invoice.  
+
+If you already posted and applied documents, you can prepare new intarsta report and mark the **Corrective Entry** field to specify if the Intrastat report has an adjusting entry, and also populate the **Corrected Intrastat Report No.** field to specify the corrected report.  
+
 
 ## See also
 
-[Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)  
 [Italy Local Functionality](italy-local-functionality.md)  
 [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 

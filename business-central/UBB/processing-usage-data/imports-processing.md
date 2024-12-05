@@ -89,7 +89,6 @@ If you don't turn on the **Unit Price from Import** toggle, one of the following
 * Usage Quantity
 * Fixed Quantity
 * Unit Cost Surcharge
-* Consumed Quantity
 
 These methods are described in the following sections.
 
@@ -104,10 +103,6 @@ When you process usage data, the original quantity remains fixed. The customer i
 ### Unit Cost Surcharge
 
 This pricing method disregards the imported usage quantity. The cost price plus the surcharge specified in the service commitments is charged to the customer. This option is often used for consumption-based billing. In this case, all individual prices of the usage data for a subscription are aggregated and the surcharge is calculated on the total.
-
-### Consumed Quantity
-
-This pricing method also disregards the quantity in the service object. In contrast to the **Usage Quantity** method, you can also process non-integer consumption quantities with decimal places. However, all usage data isn't aggregated in one service commitment, as with the **Unit Cost Surcharge** method. It's a combination of the two pricing methods. Similarly, the sales price per unit is also determined on a quantity-dependent basis using the related item (via the service commitment and the service object), and the contract partner (**Sell-to Customer No.** field) in the customer contract.
 
 ### Pricing for partial periods
 

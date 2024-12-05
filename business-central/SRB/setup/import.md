@@ -132,7 +132,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 
 * Mandatory fields always apply to the creation of billable contract lines. Mandatory fields, for example, for comment lines, differ.
 
-If the processing is successful, service commitments and contract lines are created and **Service Object created** is selected. 
+If the processing is successful, service commitments and contract lines are created and **Service Object created** is selected.
 
 * The **Processed by** field shows the user who performed the processing.
 * The **Processed on** field shows the date and time of the processing.
@@ -157,11 +157,11 @@ The fields in the following table only need to be considered if billing is to ta
 |Name|Description|To be filled|
 |:--|:--|:--|
 |Usage Based Billing (Boolean)|Indicates whether usage data is used as the basis for invoicing.|Optional|
-|Usage Based Pricing (Option: Usage Quantity, Fixed Quantity, Unit Cost Surcharge, Consumed Quantity)|Specifies the method for calculating prices on the Customer side.|Optional|
-|Pricing Unit Cost Surcharge % (Decimal)|Specifies the surcharge in percent for the Customer price calculation, if Unit Cost Surcharge is to be used.|Optional|
+|Usage Based Pricing (Option: Usage Quantity, Fixed Quantity, Unit Cost Surcharge)|Specifies the method for calculating prices on the customer side.|Optional|
+|Pricing Unit Cost Surcharge % (Decimal)|Specifies the surcharge as a percent for the customer price calculation, if you use unit cost surcharge.|Optional|
 |Supplier Reference Entry No. (Integer)|Indicates the sequence number of the related reference.|Optional|
 
 ## See also
 
 [General setup](general.md)  
-[Contract types](contract-types.md)  
+[Contract types](contract-types.md)

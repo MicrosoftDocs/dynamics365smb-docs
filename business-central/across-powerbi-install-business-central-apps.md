@@ -37,7 +37,7 @@ The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be
    - The user who refreshes the data.
    - Each user who accesses the reports.
 
-An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use Premium capacity. 
+An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use [!INCLUDE [powerbi-name](includes/powerbi-name.md)] or [!INCLUDE [fabric-name](includes/fabric-name.md)] Premium capacity. 
 
 
 

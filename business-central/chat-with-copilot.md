@@ -1,6 +1,6 @@
 ---
 title: Chat with Copilot (preview)
-description: Learn how to use chat with Copilot to find data and get help in Business Central
+description: Learn how to use chat with Copilot to find data and get help in Business Central.
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -26,7 +26,7 @@ Microsoft Copilot is an AI-powered assistant that helps spark creativity, boost 
 
 - Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
 
-  By working together with the analysis assist feature, Copilot can also aggregate data for you. Prompting chat to group records or perform calculations, such as summing or averaging, generates an analysis tab displaying the results.
+  By working together with the analysis assist feature, Copilot can also aggregate data for you. Prompting chat to group records or performing calculations, such as summing or averaging, generates an analysis tab displaying the results.
 - Get explanations or step-by-step guidance on various tasks. For example, ask "Help me understand dimensions" or "How do I post a sales order." [Learn more](#prompting-for-aggregating-data-on-analysis-tabs).
 - Understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
 
@@ -40,7 +40,7 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
 - The display language in Business Central is set to English. Learn more in [Change basic settings](ui-change-basic-settings.md#language). 
 - The **Chat** capability is activated by an administrator. Learn more in [Configuring Copilot and AI capabilities](enable-ai.md).
-- You're signed in to a Business Central environment that's hosted in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
+- You're signed in to a Business Central environment hosted in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
 
 Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
@@ -111,7 +111,7 @@ Your questions to Copilot vary depending on your role, current task, the process
 
 Prompt: `Find the Item with Description 'ATHENS Desk'`
 
-In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list. You indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
+In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list. You indicate the field 'Description' must be a specific text that you typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
 
 Prompt: `Give me the latest invoice for adatum`
 

@@ -1,6 +1,6 @@
 ---
 title: Chat with Copilot (preview)
-description: Learn how to use chat with Copilot to find data and get help in Business Central.
+description: Learn how to use chat with Copilot to find data and get help in Business Central
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer

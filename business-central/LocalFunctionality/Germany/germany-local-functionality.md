@@ -59,13 +59,13 @@ The following articles describe local functionality that is unique to the German
 
 * Adding XRechnung e-invoicing format **Planned for December 2024**
 * Receiving e-documents via Peppol network **Planned for December 2024**
-* GDPdU/GoDB update **Planned for 2025 release wave 2**
+* GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 1**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 
-[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)    
+[Certification of Business Central for German market (document is in German)](https://swb.bdo.de/certificate/MS_D365BC_PS_880_DE_2018)    
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
 

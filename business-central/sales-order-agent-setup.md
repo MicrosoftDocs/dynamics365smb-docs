@@ -13,7 +13,9 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Order Agent helps Business Central users automate the entire process of capturing sales orders from their customers, monitoring incoming emails to a designated mailbox. The agent is set up and configured on a company basis. This article explains how to set up the agent and it's functionality. Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
+The Sales Order Agent in Business Central automates sales orders processing from customer requests received via email. This article explainson how to set up and activate the Sales Order Agent, configure its settings, and manage user access.
+
+Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -23,14 +25,14 @@ The Sales Order Agent helps Business Central users automate the entire process o
 
    The Sales Order Agent capability is on by default. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent capability is on, but the agent isn't yet active; it must be configured and activated to process customers' requests for sales orders.
 
-   You turn the agent capability on or off from the **Copilot & AI Capabilities** page, as you do with other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more about in [Configure Copilot and AI capabilities](enable-ai.md).
+   Turn the agent capability on or off from the **Copilot & AI Capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
 - Set up the email account for sales receiving incoming requests for quotes and orders.
 
    The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 
    > [!IMPORTANT]
-   > The public-facing email account your sales team uses to receive requests for quotes may often receive irrelevant emails or junk. While the agent can detect and flag irrelevant or malicious emails, it would still need to review and process every email that arrives in the designated mailbox, consuming AI resources unnecessarily. Therefore, we recommend configuring a separate, internal-facing mailbox to which you can easily copy or move relevant emails from the public-facing email account for the agent to pick up and process.
+   > The public-facing email account your sales team uses to receive requests for quotes may often receive irrelevant emails, malicious, or junk. While the agent can detect and flag these emails, it still needs to review and process every email that arrives in the designated mailbox, consuming AI resources unnecessarily. We recommend configuring a separate, internal-facing mailbox to which you can easily copy or move relevant emails from the public-facing email account for the agent to process.
 
 ## Activate and configure Sales Order Agent
 
@@ -90,7 +92,7 @@ These system permissions are also included in the following permission sets, ent
 
 You can configure user access during setup, by selecting **Manage user access** in **Configure the Copilot agent** page, or later, by using the **Sales Order Agent** card page.
 
-- To enable a user to configure the Sales Order Agent, the user must have the **"Configure All Agents"** permission as a minimum or be listed as an agent user with the **Can Configure** field selected. 
+- To enable a user to configure the Sales Order Agent, the user must have the **"Configure All Agents"** permission as a minimum or be listed as an agent user with the **Can Configure** field selected.
 - To enable a user to work with agent tasks displayed in the Copilot pane, they must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as an agent user.
 
 ### Add agent users
@@ -128,4 +130,4 @@ There are two ways to add and configure agent users:
 
 [Sales order agent overview](sales-order-agent.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)

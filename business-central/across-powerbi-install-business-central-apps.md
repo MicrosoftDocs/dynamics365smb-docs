@@ -5,9 +5,11 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/29/2024
+ms.date: 12/06/2024
 ms.author: kepontop
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -26,11 +28,21 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
 - An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
-- A [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
+
+- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
+
+    - Install template apps from AppSource.
+    - Use shared workspaces.
+
+The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
    - The user who refreshes the data.
    - Each user who accesses the reports.
+
+An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use [!INCLUDE [powerbi-name](includes/powerbi-name.md)] or [!INCLUDE [fabric-name](includes/fabric-name.md)] Premium capacity. 
+
+
 
 To learn more, go to [Get started with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md#get-started).
 

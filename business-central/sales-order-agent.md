@@ -20,7 +20,7 @@ The Sales Order Agent helps Business Central users automate the entire process o
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Functionality and features
+## Functionality
 
 ### Activation and configuration
 

@@ -1,16 +1,16 @@
 ---
-title: Print Intrastat Reports for Italy - Old feature
-description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central.
+title: Print Intrastat Reports for Italy - Deprecated feature
+description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in Italy.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 12/06/2024
-ms.search.form: 12116
+ms.search.form: 12116,
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
-# Print Intrastat Reports for Italy
+# Print Intrastat Reports for Italy - Deprecated feature
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 

@@ -4,12 +4,14 @@ description: You can print monthly and quarterly Intrastat reports and submit th
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 06/18/2021
-ms.search.form: 12116
+ms.date: 12/06/2024
+ms.search.form: 12116,
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
+
 # Print Intrastat Reports for Italy
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
@@ -46,7 +48,7 @@ The following Intrastat reports are available:
 2. On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
 3. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)  
 [Italy Local Functionality](italy-local-functionality.md)  

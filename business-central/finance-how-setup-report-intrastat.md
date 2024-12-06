@@ -3,10 +3,10 @@ title: Set up Intrastat reporting
 description: This article explains how to set up Intrastat reporting features to report trade with companies in other EU countries/regions.
 author: altotovi 
 ms.author: altotovi
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 08/28/2024
+ms.date: 12/08/2024
 ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
@@ -57,11 +57,11 @@ Follow the steps to set up Intrastat reporting.
    | **Report Shipments** | Specifies that you must include shipments of dispatched items in Intrastat reports. |
    | **Include Drop Shipments** | Specifies if drop shipment transactions are included in Intrastat reports. To learn more, see [Work with Intrastat Reporting](finance-how-report-intrastat.md).  |  
    | **Shipments Based On**  | Specifies the country code based on which Intrastat report lines are taken.  |
-   | **Sales VAT Reg. No. Based On** | Specifies based on which customer code, or document VAT number is taken for the Intrastat report. Users can choose to have default value from **Sell-to** or **Bill-to** customer or to use **Document** as an option. If user uses multiple VAT numbers feature, **Document** option is recommended option for accurate **Country/Region Code** and **VAT Reg. No.** information on Intrastat report based on Ship-to details from document header. |
-   | **Purchase VAT Reg. No. Based On** | Specifies based on which vendor code, or document VAT number is taken for the Intrastat report. Users can choose to have default value from **Buy-from** or **Pay-to** vendor or to use **Document** as an option. |
-   | **Project VAT Reg. No. Based On** | Specifies based on which customer code VAT number is taken for the Intrastat report. Users can choose to have default value from **Sell-to** or **Bill-to** customer. |
-   | **Sales Intrastat Info Based On** | Specifies based on which customer code Intrastat settings are added to the document. |
-   | **Purchase Intrastat Info Based On** | Specifies based on which vendor code Intrastat settings are added to the document. |
+   | **Sales VAT Reg. No. Based On** | Specifies which customer code, or document VAT number is taken for the Intrastat report. Users can choose to have the default value from **Sell-to** or **Bill-to** customer or to use **Document** as an option. If the user uses multiple VAT numbers feature, **Document** option is recommended option for accurate **Country/Region Code** and **VAT Reg. No.** information on the Intrastat report based on Ship-to details from the document header. |
+   | **Purchase VAT Reg. No. Based On** | Specifies which vendor code, or document VAT number is taken for the Intrastat report. Users can choose to have the default value from **Buy-from** or **Pay-to** vendor or to use **Document** as an option. |
+   | **Project VAT Reg. No. Based On** | Specifies which customer code VAT number is taken for the Intrastat report. Users can choose to have the default value from **Sell-to** or **Bill-to** customer. |
+   | **Sales Intrastat Info Based On** | Specifies which customer code Intrastat settings are added to the document. |
+   | **Purchase Intrastat Info Based On** | Specifies which vendor code Intrastat settings are added to the document. |
    | **Company VAT No. on File** | Specifies how the company's VAT registration number is exported to the Intrastat file.  |
    | **Vendor VAT No. on File** | Specifies how a vendor's VAT registration number is exported to the Intrastat file.  |
    | **Customer VAT No. on File** | Specifies how a customer's VAT registration number is exported to the Intrastat file.  |

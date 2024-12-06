@@ -95,7 +95,7 @@ You can configure user access during setup, by selecting **Manage user access** 
 - To enable a user to configure the Sales Order Agent, the user must have the **"Configure All Agents"** permission as a minimum or be listed as an agent user with the **Can Configure** field selected.
 - To enable a user to work with agent tasks displayed in the Copilot pane, they must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as an agent user.
 
-### Add agent users
+#### Add agent users
 
 There are two ways to add and configure agent users:
 

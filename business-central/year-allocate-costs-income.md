@@ -7,16 +7,16 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.form: 283, 5629
-ms.date: 08/08/2024
+ms.date: 12/06/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # Allocate recurring costs and income
 
-You can allocate an entry in a recurring general journal to several accounts when you post the journal. To learn more about recurring general journals, go to [Work with recurring journals](ui-work-general-journals.md#work-with-recurring-journals). 
+You can allocate an entry in a recurring general journal to several accounts when you post the journal. To learn more about recurring general journals, go to [Work with recurring journals](ui-work-general-journals.md#work-with-recurring-journals).
 
-The allocation can be made by three different methods:
+The following allocation methods are available:
 
 * Quantity
 * Percentage (%)
@@ -27,9 +27,14 @@ The allocation features work with recurring general journals and in fixed asset 
 
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
+> [!IMPORTANT]  
+> **Allocation Accounts** aren't supported in recurring journals. While the **Allocation Account** option is available in the **Account Type** field on the lines of the journal, this option isn't supported. Instead, use the allocations feature as described in this article.
+>
+> If you defined allocation accounts in a previous version of [!INCLUDE [prod_short](includes/prod_short.md)], update the setup to use allocations.
+
 ## To set up allocation keys
 
-You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.  
+You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be a quantity, percentage, or amount.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journals**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** page.
@@ -45,7 +50,7 @@ You can allocate an entry in a recurring general journal to several different ac
 10. After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** page. The **Allocated Amt. (USD)** field is filled in and matches the **Amount** field.
 11. Post the journal.
 
-## To change an allocation key that has already been set up
+## To change an allocation key that is already set up
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journals**, and then choose the related link.
 2. On the **Recurring General Journals** page, select the journal with the allocation.

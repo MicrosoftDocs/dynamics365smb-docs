@@ -21,11 +21,11 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
 
 ## Set up Intrastat reporting
 
-[!INCLUDE[Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md)]
+Learn more in [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md).
 
 ## Work with Intrastat reporting
 
-[!INCLUDE[Work with Intrastat reporting](../../finance-how-report-intrastat.md)]
+Learn more in [Work with Intrastat reporting](../../finance-how-report-intrastat.md).
 
 ## Local Italian functionalities
 

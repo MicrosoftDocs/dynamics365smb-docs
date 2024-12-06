@@ -13,7 +13,7 @@ ms.collection:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Order Agent in Business Central automates sales orders processing from customer requests received via email. This article explainson how to set up and activate the Sales Order Agent, configure its settings, and manage user access.
+The Sales Order Agent in Business Central automates sales orders processing from customer requests received via email. This article explains how to set up and activate the Sales Order Agent, configure its settings, and manage user access.
 
 Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
@@ -23,7 +23,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 - Turn on the Sales Order Agent capability
 
-   The Sales Order Agent capability is on by default. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, then the agent capability is on, but the agent isn't yet active; it must be configured and activated to process customers' requests for sales orders.
+   The Sales Order Agent capability is on by default. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** badge appears in the navigation menu at the top, the agent capability is on, but the agent isn't active yet; it must be configured and activated to process customer requests for sales orders.
 
    Turn the agent capability on or off from the **Copilot & AI Capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
@@ -38,17 +38,17 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.
 
-1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) the email account you want the agent to monitor.
+1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) to the email account you want the agent to monitor.
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
 
-1. Select **Manage user access** (4) to specify the users that can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent ](#manage-user-access-to-the-sales-order-agent).
+1. Select **Manage user access** (4) to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-user-access-to-the-sales-order-agent).
 1. Turn on the **Active** toggle (5).
-1. On the right side of the page, select the **Go to next card** arrow (6), and then choose how the agent helps with inquiries, quotes, and orders. There are several options to choose from:
+1. On the right side of the page, select the **Go to next card** arrow (6), and then choose how the agent helps with inquiries, quotes, and orders. There are several options:
 
     |Option|Description|Default|
     |-|-|-|
-    |Match only to items with availability as requested|When on, the agent only includes items that have available on the customer's requested delivery date requested.|On|
+    |Match only to items with availability as requested|WWhen turned on, the agent checks inventory to determine whether the requested item quantity is available according  on the customer’s requested delivery date and location code. For example, if a customer requests 5 chairs and only 2 types of chairs are available, the agent recommends|On|
     |Create sales documents|When on, the agent can create sales quotes and orders from email inquiries based on the remaining options in this table. When off, the remaining options are irrelevant and can't be set.|On|
     |Review quotes when created and updated|When on, the agent adds a review step for a Business Central user to a task before it creates or modifies quotes. The step is added into the process after a Business Central user confirms a quote's acceptance email from the customer. When off, the agent creates or modifies quotes without requiring user review. |Off|
     |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders. Orders are created after the customer agrees to the quote via email and the Business Central user confirms the email. |On|

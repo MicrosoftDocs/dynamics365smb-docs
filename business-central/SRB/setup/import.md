@@ -70,7 +70,7 @@ The **Imported Service Objects** page serves as an intermediate step for the dat
 | Name | Description | To be filled |
 |--|--|--|
 |Entry No. (Integer)|System field of the table (consecutive number of records) - is created automatically and is in the background.|*Never*|
-|Service Object No. (Code20)|The service object is created with this number. To facilitate the assignment of service commitments, always import this number. The number series must allow manual number assignment.|**Always**|.
+|Service Object No. (Code20)|The service object is created with this number. To facilitate the assignment of service commitments, always import this number. The number series must allow manual number assignment.|**Always**|
 |Customer No. (Code20)|Indicates the number of the customer to whom the service commitments were sold. It's mandatory for the assignment to customer contracts.|**Always**|
 |Item No. (Code20)|Indicates the item number of the service object. It should be an item with service commitments or a service commitment item.|**Always**|
 |Description (Text100)|Indicates the description of the service object. If the description is empty, it uses the item's description when the service object is created.|Optional|
@@ -122,7 +122,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 |Invoicing Item No. (Code20)|Indicates which item is used in the contract invoice for invoicing the periodic service commitments. It must be an item with the **Service Commitment Option**=**Invoicing Item**.|Optional|
 |Notice Period (Dateformula)|Specifies a Dateformula for the lead time that a cancellation must have before the service commitment is ended. The **Subsequent Term** is also used to determine the rate at which **Cancellation Possible Until** and **Term Until** are updated. Thus, for a subsequent term of **1M**, the notice period is recurrently postponed by one month.|Optional|
 |Initial Term (Dateformula)|Specifies a Dateformula for calculating the minimum term of the service commitment. If the **Initial Term** is filled in and no **Subsequent Term** is entered, the **Service End Date** is automatically set to the end of the initial term.|Optional|
-|Subsequent Term (Dateformula)|Specifies a Dateformula for automatic extension after the initial term and the rhythm of updating **Cancellation Possible Until** and **Term Until**. If the field is blank, and either the initial term or the notice period are set at the same time, the service end date is automatically set to the expiration date of the initial term or the notice period.|**Always**|.
+|Subsequent Term (Dateformula)|Specifies a Dateformula for automatic extension after the initial term and the rhythm of updating **Cancellation Possible Until** and **Term Until**. If the field is blank, and either the initial term or the notice period are set at the same time, the service end date is automatically set to the expiration date of the initial term or the notice period.|**Always**|
 |Billing Rhythm (Dateformula)|Specifies the rhythm at which the service commitments are billed. Via a Dateformula, the rhythm can be set to, for example, monthly, quarterly, or yearly calculation.|**Always**|
 |Print Line (Boolean)|Specifies whether a line is output when the sales document is printed.|Optional|
 |Formatting (Option: Normal, Bold, Italic)|Specifies whether a line in the sales document is printed bold or italic (default: *Normal*).|Optional|

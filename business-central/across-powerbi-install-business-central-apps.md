@@ -153,12 +153,27 @@ Each semantic model requires two parameters:
 You can find these values in the connection details of the assisted setup guide or on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
 
 
-
-## Get the latest data
+## Get the latest data (refresh the semantic model)
 
 Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a semantic model (also known as a dataset) that gets data from [!INCLUDE [prod_short](includes/prod_short.md)] APIs. Make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE [prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing* the model. Depending on your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] setup, refreshing might not happen automatically. You can refresh data manually, or by scheduling a refresh. You can do a manual refresh at any time. A scheduled refresh lets you refresh data automatically at defined time intervals.
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
+
+
+## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
+
+As mentioned above, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, you will get notified in two ways:
+1. An update banner appears in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] informing you that a new app version is available. 
+1. You receive a notification in Power BI's notification pane.
+
+When updating a template app, it is very important that you are aware of your options and their overwrite behaviours on any changes that you might have done to the reports. You can choose to 
+- Update the workspace and the app, or
+- Update only workspace content without updating the app, or
+- Install another copy of the app into a new workspace.
+
+For more information, see [Install, share, and update template apps in your organization](/power-bi/connect-data/service-template-apps-install-distribute#update-a-template-app). 
+
+
 
 ## See also
 

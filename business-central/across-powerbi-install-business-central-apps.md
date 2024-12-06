@@ -5,9 +5,11 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/29/2024
+ms.date: 12/06/2024
 ms.author: kepontop
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -27,9 +29,10 @@ To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUD
 
 - An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
 
-- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to 
-    - install template apps from AppSource
-    - use shared workspaces.
+- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
+
+    - Install template apps from AppSource.
+    - Use shared workspaces.
 
 The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 

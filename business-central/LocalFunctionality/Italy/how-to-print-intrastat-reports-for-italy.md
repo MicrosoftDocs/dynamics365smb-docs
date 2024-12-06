@@ -9,6 +9,7 @@ ms.search.form: 12116
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
+ms.custom: bap-template
 ---
 
 # Set up and print Intrastat reports for Italy
@@ -46,7 +47,7 @@ To prepare corrective intrastat report, you previously must post the credit memo
 If you already posted and applied documents, you can prepare a new Intrastat report and mark the **Corrective Entry** field to specify if the Intrastat report has an adjusting entry, and also populate the **Corrected Intrastat Report No.** field to specify the corrected report.  
 
 
-## See also
+## Related information
 
 [Italy Local Functionality](italy-local-functionality.md)  
 [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  

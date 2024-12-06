@@ -73,7 +73,7 @@ The **Agent Permission Sets** section lists all the permission sets currently as
 
 You can't modify the **SOA AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **SOA AGENT – EDIT** permission set, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
 
-Before you can add or delete permission sets applied to the agent, you must change the **State** to disabled. When your dome making changes, set it back to **Enabled**.
+Before you can add or delete permission sets applied to the agent, you must change the **State** to disabled. When your done making changes, set it back to **Enabled**.
 
 ### Manage user access to the agent
 

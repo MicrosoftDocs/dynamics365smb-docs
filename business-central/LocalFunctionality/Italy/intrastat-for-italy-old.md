@@ -4,11 +4,11 @@ description: You can print monthly and quarterly Intrastat reports and submit th
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 06/18/2021
+ms.date: 12/06/2024
 ms.search.form: 12116
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ---
 # Print Intrastat Reports for Italy
 

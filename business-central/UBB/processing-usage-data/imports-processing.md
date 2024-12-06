@@ -31,13 +31,13 @@ The following table describes the actions on the **Usage Data Imports** page.
 |Action  |Description  |
 |---------|---------|
 |New Import    |  Prepare a new import.       |
-|Process     |  * **Import file** Opens a file dialog to add the import file to the selected import.<br>* **Process Data** processes the imported usage data, but doesn't create invoices. The individual steps **Create Imported Lines**, **Process Imported Lines**, **Create Usage Data Billing**, and **Process Usage Data Billing** automatically run one after the other.       |
+|Process     |  * **Import file** Open a file dialog to add the import file to the selected import.<br>* **Process Data** processes the imported usage data, but doesn't create invoices. The individual steps **Create Imported Lines**, **Process Imported Lines**, **Create Usage Data Billing**, and **Process Usage Data Billing** automatically run one after the other.       |
 |Create Customer Invoices     | Create a sales invoice for all contract elements in the selected import. This action creates a separate invoice document for each customer contract. The contract invoices post directly if you choose **Post documents**.        |
 |Create Vendor Invoices     |  Create a purchase invoice for all contract components in the selected import. This action creates a separate invoice document for each vendor contract. Because a vendor invoice number is required to post purchase invoices, the option to post the generated documents directly isn't available.       |
 |Manual Processing     |  As an alternative to automatic processing of usage data by using the **Process Data** action, you can open the individual actions separately.       |
 |Create Imported Lines     | Generate the usage data as raw data based on the import file. The data uses the [data exchange definitions](../masterdata/dataexchangedefinitions.md) assigned to the [usage data supplier](../masterdata/suppliers.md). To open the imported lines, use the lookup in the **No. of Imported Lines** field.        |
 |Process Imported Lines     |  When you process the imported lines, [!INCLUDE [prod_short](../../includes/prod_short.md)] tries to create a link between the usage data and the service commitments or service objects. If errors occur during processing, you can use the **No. of Imported Line Errors** field to explore them. After you correct the errors, you can run the processing step again.       |
-|Create Usage Data Billing     | Generate the data you need to bill customers based on the imported lines. This depends on your configuration.        |
+|Create Usage Data Billing     | Generate the data you need to bill customers based on the imported lines. Depends on your configuration.        |
 |Process Usage Data Billing     | Determine pricing for the usage data. Pricing depends on the [methods for pricing](#methods-for-pricing) you use and the period. If errors occur during processing, you can use the lookup in the **No. of Usage Data Billing Errors** field to access the errors. After you correct the errors, you can run the processing step again.       |
 |Remove Usage Data Lines & Billing     |  Delete the usage data that the import file generated, and then regenerate it. This is useful, for example, if errors occur during processing that you can resolve by using a different [data exchange definition](../masterdata/dataexchangedefinitions.md).       |
 |Usage Data Billing     | * **Customer Contracts** opens an overview of the customer contracts in the import.<br>* **Customer Contract Invoices** opens an overview of the customer contract invoices created for the import, but aren't posted.<br>* **Posted Customer Contract Invoices** opens an overview of the customer contract invoices created and posted for the import.<br>* **Vendor Contracts** opens an overview of the vendor contracts in the import.<br>* **Vendor Contract Invoices** opens an overview of the vendor contract invoices created for the import, but aren't posted.<br>* **Posted Vendor Contract Invoices** opens an overview of the vendor contract invoices created and posted for the import.        |
@@ -89,7 +89,6 @@ If you don't turn on the **Unit Price from Import** toggle, one of the following
 * Usage Quantity
 * Fixed Quantity
 * Unit Cost Surcharge
-* Consumed Quantity
 
 These methods are described in the following sections.
 
@@ -104,10 +103,6 @@ When you process usage data, the original quantity remains fixed. The customer i
 ### Unit Cost Surcharge
 
 This pricing method disregards the imported usage quantity. The cost price plus the surcharge specified in the service commitments is charged to the customer. This option is often used for consumption-based billing. In this case, all individual prices of the usage data for a subscription are aggregated and the surcharge is calculated on the total.
-
-### Consumed Quantity
-
-This pricing method also disregards the quantity in the service object. In contrast to the **Usage Quantity** method, you can also process non-integer consumption quantities with decimal places. However, all usage data isn't aggregated in one service commitment, as with the **Unit Cost Surcharge** method. It's a combination of the two pricing methods. Similarly, the sales price per unit is also determined on a quantity-dependent basis using the related item (via the service commitment and the service object), and the contract partner (**Sell-to Customer No.** field) in the customer contract.
 
 ### Pricing for partial periods
 

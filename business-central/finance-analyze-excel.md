@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027,
-ms.date: 11/13/2024
+ms.date: 12/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -23,7 +23,7 @@ ms.reviewer: bholtorf
 ## Get the overview and the details in Excel
 
 > [!NOTE]
-> This feature is being deprecated and will be removed in a later version of [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1)
+> This feature is being deprecated and will be removed in a later version of [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
 
 In the Business Manager and Accountant Role Centers, the **Reports** action lets you choose the financial statements to view in Excel. When you choose a statement, it will be opened in Excel or Excel Online. An add-in connects the data to [!INCLUDE [prod_short](includes/prod_short.md)]. However, you have to sign in with the same account that you use with [!INCLUDE [prod_short](includes/prod_short.md)]. The following table lists the reports and where they're available.  
 

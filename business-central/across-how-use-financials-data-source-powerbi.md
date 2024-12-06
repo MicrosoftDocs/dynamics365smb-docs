@@ -81,11 +81,11 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
         - **Standard APIs v2.0**
 
-          This folder lists the data APIs exposed in the [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). You use these APIs to read data from the BC database, such as master data (customer, vendor, item, ...), transactions (general ledger entries, customer entries, ...), or setup data (dimensions, payment methods, unit of measure, ...).
+          This folder lists the data APIs exposed in the [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). You use these APIs to read data from the [!INCLUDE [prod_short](includes/prod_short.md)] database, such as master data (customer, vendor, item, and so on), transactions (general ledger entries, customer entries, and so on), or setup data (dimensions, payment methods, unit of measure, and so on).
 
         - **Web services \(legacy)**
 
-          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. It is discouraged to use this legacy method for reading data from [!INCLUDE [prod_short](includes/prod_short.md)]. Instead, it is recommended to use APIs. 
+          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. It is discouraged to use this legacy method for reading data from [!INCLUDE [prod_short](includes/prod_short.md)]. Instead, we recommend that you use APIs.
 
     <!--
     > [!NOTE]
@@ -101,11 +101,11 @@ Once the data is loaded, you can see it in the right navigation on the page. At 
 
 ## Creating accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. To learn more, go to [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
 
 ## Creating reports to display data associated with a list in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-You can create reports that are displayed in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page and change when different rows are selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. Learn more in [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+You can create reports that display in a FactBox on a [!INCLUDE [prod_short](includes/prod_short.md)] list page, and change when different rows are selected in the list. Creating these reports is similar to other reports, except there are a few things to do to make sure the reports display as expected. To learn more, go to [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
 
@@ -133,19 +133,18 @@ To publish a report, select **Publish** on the **Home** tab of the ribbon or fro
 
 ## Distribute or share a report
 
-There are a couple ways to get reports to your coworkers and others:
+There are a couple of ways to share reports:
 
-- Share report from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] (recommended)
+- Share a report from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] (recommended)
 
-    If you have a [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] license or use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)], you can share the report with others, directly from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Learn more at [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    If you have a [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] license or use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)], you can share the report directly from your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. To learn more, go to [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 - Distribute reports as .pbix files.
 
-    Reports are stored on your computer as .pbix files. You can distribute the report .pbix file to users, like any other file. Then, users can upload the file to their [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. See [Upload reports from files](across-working-with-powerbi.md#upload).
+    Reports are stored on your computer as .pbix files. You can distribute the .pbix file to users, like any other file. Then, the people you shared the file with can upload it to their [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. To learn more, go to [Upload reports from files](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
-    > Distributing reports in this manner means that refreshing data for reports is done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
-
+    > Distributing reports in this way means that refreshing data for reports is done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
 
 ## How to develop cross-company or cross-environment [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports
 
@@ -235,6 +234,5 @@ If you're using a custom API, we recommend you rework the AL code to make sure i
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

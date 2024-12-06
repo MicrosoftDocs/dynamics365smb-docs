@@ -1,20 +1,20 @@
 ---
-title: Print Intrastat Reports for Italy
+title: Set up and Print Intrastat Reports for Italy
 description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 12/04/2024
+ms.date: 12/08/2024
 ms.search.form: 12116
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: altotovi
+ms.reviewer: solsen
 ---
 
-# Print Intrastat Reports for Italy
+# Set up and print Intrastat reports for Italy
 
 > [!NOTE]
-> This documentation is based on new redesigned Intrastat experience with enhanced features available from the 2022 release wave 2. If you are using old functionality based on Intrastat journals, learn more about old Intrastat experince at the [Print old Intrastat for Italy](intrastat-for-italy-old.md). Old feature is not available in Business Centra online. 
+> This article is based on new redesigned Intrastat experience with enhanced features available from the 2022 release wave 2. If you're using old functionality based on Intrastat journals, learn more about old Intrastat experince at the [Print Intrastat for Italy](intrastat-for-italy-old.md). The old feature isn't available in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. 
 
 You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.  
 
@@ -28,22 +28,22 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
 
 ## Local Italian functionalities
 
-### Additional parameters   
+### Additional parameters
 
-When you create new **Intrastat Report**, you need to make additional setup at the **Export Parameters** FastTab. You can choose the period for reporting choosing one of the following options at the **Periodicity** field: Month, Quarter, Year. You can also choose the **Type** - Purchases or Sales, to choose the type of item ledger entries to be included.  
+When you create new a **Intrastat Report**, you need to make another setup at the **Export Parameters** FastTab. You can choose the period for reporting choosing one of the following options at the **Periodicity** field: Month, Quarter, Year. You can also choose the **Type** - Purchases or Sales, to choose the type of item ledger entries to be included.  
 
-You also need to enter the **File Disk No.** to specifiy the floppy disk number if you are creating a reporting disk. If you want to specify if you want to include intra-community entries from drop shipment documents to **Intrastat Report**, you need to mark the **Include Intra-Community Entries** field.   
+You also need to enter the **File Disk No.** to specify the floppy disk number if you're creating a reporting disk. If you want to specify whether to include intra-community entries from drop shipment documents to **Intrastat Report**, you need to mark the **Include Intra-Community Entries** field.
 
 > [!NOTE]  
->  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  
+> Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  
     
 ### Corrective Intrastat report  
 
-A corrective Intrastat report in Italy is a declaration submitted to correct errors or make adjustments to previously filed Intrastat reports.   
+A corrective Intrastat report in Italy is a declaration submitted to correct errors or make adjustments to previously filed Intrastat reports.
 
-To prepare corrective intrastat report you previously must post the credit memo and it must be applied to the posted invoice. Corrective credit memo cannot be in the same period as original invoice.  
+To prepare corrective intrastat report, you previously must post the credit memo, and it must be applied to the posted invoice. Corrective credit memo can't be in the same period as original invoice.  
 
-If you already posted and applied documents, you can prepare new intarsta report and mark the **Corrective Entry** field to specify if the Intrastat report has an adjusting entry, and also populate the **Corrected Intrastat Report No.** field to specify the corrected report.  
+If you already posted and applied documents, you can prepare a new Intrastat report and mark the **Corrective Entry** field to specify if the Intrastat report has an adjusting entry, and also populate the **Corrected Intrastat Report No.** field to specify the corrected report.  
 
 
 ## See also

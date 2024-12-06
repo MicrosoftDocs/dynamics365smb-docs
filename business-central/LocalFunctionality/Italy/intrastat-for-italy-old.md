@@ -1,6 +1,6 @@
 ---
-title: Print Intrastat Reports for Italy
-description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central.
+title: Print Intrastat Reports for Italy - Deprecated feature
+description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in Italy.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
@@ -8,11 +8,9 @@ ms.date: 12/06/2024
 ms.search.form: 12116,
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
-ms.custom: bap-template
+ms.reviewer: solsen
 ---
-
-# Print Intrastat Reports for Italy
+# Print Intrastat Reports for Italy - Deprecated feature
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -48,7 +46,7 @@ The following Intrastat reports are available:
 2. On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
 3. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
-## Related information
+## See also
 
 [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)  
 [Italy Local Functionality](italy-local-functionality.md)  

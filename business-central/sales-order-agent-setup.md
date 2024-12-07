@@ -42,7 +42,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
 
-1. Select **Manage user access** (4) to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-user-access-to-the-sales-order-agent).
+1. Select **Manage user access** (4) to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle (5).
 1. On the right side of the page, select the **Go to next card** arrow (6), and then choose how the agent helps with inquiries, quotes, and orders. There are several options:
 

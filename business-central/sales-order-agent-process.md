@@ -34,7 +34,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view (2)
 
 For each sales quote request, the Sales Order Agent adds a task (3) for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
 
-## Review a step
+## Review 
 
 Your intervention is required for various steps in the process of creating a sale order, for example:
 
@@ -44,9 +44,12 @@ Your intervention is required for various steps in the process of creating a sal
 
 Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step: 
 
-1. On the step, select **...** (More options) > **Review**.  
+1. In **Task** view, select the step requesting review or assistance. <!-- On the step, select **...** (More options) > **Review**.  -->
 
-   The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
+   The timeline of the task's steps opens, focused on the review step.
+
+1. Read the message provided in the step. If you want to continue, select **Review**. If you want to cancel the process and discard the task, select **Stop**.
+1The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
 1. Review the contents of the email. 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
@@ -60,7 +63,7 @@ After confirmation, the Sales Order Agent moves the task on for more processing.
 
 ## View timeline and details of steps
 
-From ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Details**.  
+From ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of task, in chronological order. Click on the task or select **...** (More options) > **Show Timeline**.  
 
 ## Related information
 

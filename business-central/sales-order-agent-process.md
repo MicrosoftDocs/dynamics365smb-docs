@@ -14,7 +14,7 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-After the Sales Order Agent is activated, it monitors the designated mailbox for incoming emails about item inquiries from customers. When it identifies a potential request, it starts the process for converting the request to an order. Some steps in the process require your intervention. Learn more about the steps in the process in [Understand the process flow](sales-order-agent.md#process-flow).
+After the Sales Order Agent is activated, it monitors the designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request to an order. Some steps require your intervention. Learn more in [Understand the process flow](sales-order-agent.md#process-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -32,9 +32,9 @@ To access this view, select ![Shows Sales Order Agent icon with an open action.]
 
 The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
-For each sales quote request, the Sales Order Agent adds a task for tracking, reviewing, and processing the quote into an order. A task can consist of multiple steps that make up a timeline of the entire process.
+For each sales quote request, the Sales Order Agent adds a task to track, review, and process the quote into an order. A task can consist of multiple steps that form a timeline of the entire process.
 
-## Review 
+## Review and assist in steps
 
 Your intervention is required for various steps in creating a sales order, such as:
 
@@ -42,23 +42,36 @@ Your intervention is required for various steps in creating a sales order, such 
 - Review and confirm the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
 - Provide assistance to the Sales Order Agent for fixing a problem.
 
-The review steps depend, in part, on how the Sales Order Agent is configured.
+The review steps depend, in part, on how the Sales Order Agent is configured. Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
 
-Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
+1. In **Task** view, select the step requesting review or assistance. <!-- On the step, select **...** (More options) > **Review**.  -->
 
-1. On the step, select **...** (More options) > **Review**.
+   The task timeline opens, focused on the selected step, which includes a brief description.
 
-   The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.
-1. Review the contents of the email.
+1. Select **Review**.
+
+   The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the email contents.
+
+   
+1. Review the email contents.
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
 After confirmation, the Sales Order Agent moves the task on for more processing. After some time, a new notification appears on the Sales Order Agent badge. Follow the same flow to verify and approve the results.
 
-## Discard and revive messages
-
 ## Modify documents
 
-## Stop and resume task
+## Stop a task from a step
+
+Most steps of a task include a **Stop** button that allows you to terminate the process. When you select **Stop**, a task isn't terminated immediately;&mdash;you're asked to confirm before the task is stopped.
+
+Before you stop a task, consider the following behavior:
+
+- Stopped tasks can't be restarted.
+- Stopping the task might leave some results incomplete or unwanted, requiring follow-up actions. Follow-up actions depend on where in the process the task was stopped.
+
+  For example, if you stop a task after a sales quote is created, the sales quote remains stored in the
+
+Copilot is powered by AI, so mistakes are possible. Review output carefully before use. [Learn more](https://review.learn.microsoft.com/help/platform/ai-responsible?branch=main)
 
 ## View timeline and details of steps
 

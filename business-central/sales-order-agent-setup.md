@@ -37,7 +37,7 @@ You turn the agent capability on or off from the **Copilot & AI Capabilities** p
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
 
-1. Select **Manage user access** (4) to specify the users that can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent ](#manage-user-access-to-the-sales-order-agent).
+1. Select **Manage user access** (4) to specify the users that can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent ](#manage-user-access-to-sales-order-agent).
 1. Turn on the **Active** toggle (5).
 1. Select **Update** (6) to complete the setup.
 

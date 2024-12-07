@@ -44,12 +44,9 @@ Your intervention is required for various steps in the process of creating a sal
 
 Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step: 
 
-1. In **Task** view, select the step requesting review or assistance. <!-- On the step, select **...** (More options) > **Review**.  -->
+1. On the step, select **...** (More options) > **Review**. 
 
-   The timeline of the task's steps opens, focused on the review step.
-
-1. Read the message provided in the step. If you want to continue, select **Review**. If you want to cancel the process and discard the task, select **Stop**.
-1The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
+   The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the contents of the incoming or outgoing email.  
 1. Review the contents of the email. 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** on in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 

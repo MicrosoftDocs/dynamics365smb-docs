@@ -34,7 +34,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view ope
 
 For each sales quote request, the Sales Order Agent adds a task to track, review, and process the quote into an order. A task can consist of multiple steps that form a timeline of the entire process.
 
-## Review and assist in steps
+## Review and assist
 
 Your intervention is required for various steps in creating a sales order, such as:
 
@@ -52,7 +52,7 @@ The review steps depend, in part, on how the Sales Order Agent is configured. St
 
    The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the email contents.
 
-   
+
 1. Review the email contents.
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
@@ -67,11 +67,10 @@ Most steps of a task include a **Stop** button that allows you to terminate the 
 Before you stop a task, consider the following behavior:
 
 - Stopped tasks can't be restarted.
-- Stopping the task might leave some results incomplete or unwanted, requiring follow-up actions. Follow-up actions depend on where in the process the task was stopped.
+- Stopping the task might leave some results incomplete or unwanted, and it might require follow-up actions. Follow up actions depend on where in the process the task was stopped.
 
-  For example, if you stop a task after a sales quote is created, the sales quote remains stored in the
-
-Copilot is powered by AI, so mistakes are possible. Review output carefully before use. [Learn more](https://review.learn.microsoft.com/help/platform/ai-responsible?branch=main)
+  For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state it depending on your company policy.
+- Stopped tasks aren't deleted right away. You can still explore a stopped task's timeline until it's deleted, which is typically done by an administrator.
 
 ## View timeline and details of steps
 

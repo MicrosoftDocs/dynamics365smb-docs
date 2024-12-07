@@ -188,7 +188,7 @@ To help you better understand personalization, here are some pointers.
 - Changes to a page in a pane take effect on the page wherever it appears.  
 - You can't personalize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
-- If a part or group is hidden, ghosted fields still shows inside it, but you can't drag-drop or add/show that field until you make the group/part visible.
+- If a part or group is hidden, ghosted fields still show inside it, but you can't drag-drop or add/show that field until you make the group/part visible.
 
 > [!NOTE]
 > Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax. It applies to all design modes, not just personalization.

@@ -14,7 +14,9 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-After the Sales Order Agent is activated, it monitors the designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request to an order. Some steps require your intervention. Learn more in [Understand the process flow](sales-order-agent.md#process-flow).
+This article explains how to work with the Sales Order Agent, which automates sales order creation from customer requests. The Sales Order Agent monitors the designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request to an order. Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent.
+
+Learn more about Sales Order Agent process in [ales Order Agent overview](sales-order-agent.md#process-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -26,21 +28,21 @@ The Sales Order Agent is activated, and you have permission to use it. Learn mor
 
 You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
 
-To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks needing attention.  
+To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the right side of the navigation menu at the top. A red circle with a number on the badge indicates the number of tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png)
 
 The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
-For each sales quote request, the Sales Order Agent adds a task to track, review, and process the quote into an order. A task can consist of multiple steps that form a timeline of the entire process.
+For each sales quote request, the Sales Order Agent adds a task to track, review, and process the quote into an order. A task can consist of multiple steps that form a timeline of the process.
 
 ## Review and assist
 
 Your intervention is required for various steps in creating a sales order, such as:
 
-- Review and confirm incoming email requests for sales quotes from customers.
-- Review and confirm the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
-- Provide assistance to the Sales Order Agent for fixing a problem.
+- Reviewing and confirming incoming email requests for sales quotes from customers.
+- Reviewing and confirming the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
+- Providing assistance to the Sales Order Agent for fixing a problem.
 
 The review steps depend, in part, on how the Sales Order Agent is configured. Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
 
@@ -52,7 +54,6 @@ The review steps depend, in part, on how the Sales Order Agent is configured. St
 
    The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the email contents.
 
-
 1. Review the email contents.
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
 
@@ -60,9 +61,9 @@ After confirmation, the Sales Order Agent moves the task on for more processing.
 
 ## Modify documents
 
-## Stop a task from a step
+## Stop a task
 
-Most steps of a task include a **Stop** button that allows you to terminate the process. When you select **Stop**, a task isn't terminated immediately;&mdash;you're asked to confirm before the task is stopped.
+Most steps of a task include a **Stop** button that allows you to terminate the process. When you select **Stop**, a task isn't terminated immediately&mdash;you're asked to confirm before the task is stopped.
 
 Before you stop a task, consider the following behavior:
 
@@ -70,7 +71,7 @@ Before you stop a task, consider the following behavior:
 - Stopping the task might leave some results incomplete or unwanted, and it might require follow-up actions. Follow up actions depend on where in the process the task was stopped.
 
   For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state it depending on your company policy.
-- Stopped tasks aren't deleted right away. You can still explore a stopped task's timeline until it's deleted, which is typically done by an administrator.
+- Stopped tasks aren't deleted right away. You can still explore a stopped task's timeline until it's deleted, typically by an administrator.
 
 ## View timeline and details of steps
 

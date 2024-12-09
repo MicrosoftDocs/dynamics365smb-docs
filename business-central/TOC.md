@@ -570,7 +570,6 @@ ms.service: dynamics-365-business-central
 #### [Analyze your payment practices](ui-payment-practices.md)
 
 ### Built-in finance reports
-#### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### Key finance reports
 ##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
@@ -616,6 +615,10 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
+
+#### Legacy reports (will be removed)
+##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+
 <!-- Financial analytics end -->
 
 ## Sales

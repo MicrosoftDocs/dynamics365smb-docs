@@ -114,7 +114,7 @@ There are two ways to add and configure agent users:
 
 # [From Sales Order Agent card page](#tab/soapage)
 
-1. To open the **Sales Order Agent** card page, search for (<kbd>Alt</kbd>+<kbd>Q</kbd>) **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**
+1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**
 1. Set **Status** to **Disabled** to deactivate the agent.
 1. In the **User access** section, you can do the following steps:
 

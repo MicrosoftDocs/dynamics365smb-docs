@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
-ms.date: 11/11/2024
+ms.date: 12/09/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
@@ -60,6 +60,48 @@ Note that the prompt works, even with multiple typos.
 Prompt: *Hello, I am interested in buying some accessories for my XXXX Laptop, such as a wireless mouse, a keyboard cover, and a laptop bag. I wonder if you have any recommendations or suggestions for these items. Do you have any special offers or discounts for loyal customers like me? Kind regards, M*
 
 Note that XXXX Laptop is not included in search.
+
+## Types of matching criteria
+
+When you search for an item using a FullText index, we extract both primary and additional keywords. For example, we break down the search term "Red Coffee Table" into primary keywords "Coffee" and "Table," and some synonyms and additional keywords, "Red".
+
+There are the following methods for matching criteria:
+
+- [Balanced](#balanced-matching-criteria)
+- [Precise](#precise-matching-criteria)
+- [Permissive](#permissive-matching-criteria)
+
+The following sections provide examples of how matching criteria works. The examples assume that there are the following items in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+- Red Coffee Table
+- Blue Coffee Table
+- Green Coffee Table
+- Red Side Table
+- Dining Table
+
+### Balanced matching criteria
+
+The primary keywords "Coffee" and "Table" are required. The additional keyword "Red" is optional. This search returns items such as:
+
+- Red Coffee Table
+- Blue Coffee Table
+- Green Coffee Table
+
+### Precise matching criteria
+
+The primary keywords "Coffee" and "Table" are required. The additional keyword "Red" is required. This search returns items such as:
+
+- Red Coffee Table
+
+### Permissive matching criteria
+
+The primary keywords "Coffee" and "Table" are optional. The additional keyword "Red" is optional. This search returns items such as:
+
+- Red Coffee Table
+- Blue Coffee Table
+- Green Coffee Table
+- Red Side Table
+- Dining Table
 
 ## Suggest lines on a sales document
 

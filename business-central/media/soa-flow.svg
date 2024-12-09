@@ -5377,11 +5377,11 @@
 			<text x="10.31" y="505.23" class="st10" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Review and confirm  </text>		</g>
 		<g id="shape1028-79" v:mID="1028" v:groupContext="shape" transform="translate(177.824,-23.4338)">
 			<title>Sheet.1028</title>
-			<desc>Commit order</desc>
+			<desc>Send order</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="53.6988" cy="502.545" width="107.4" height="35.433"/>
 			<rect x="0" y="484.829" width="107.398" height="35.433" class="st6"/>
-			<text x="22.82" y="505.55" class="st10" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Commit order</text>		</g>
+			<text x="29.32" y="505.55" class="st10" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Send order</text>		</g>
 		<g id="shape1029-82" v:mID="1029" v:groupContext="shape" transform="translate(118.031,-405.083)">
 			<title>Sheet.1029</title>
 			<path d="M0 520.26 L49.97 520.26" class="st11"/>

@@ -23,19 +23,25 @@ These frequently asked questions (FAQ) describe the AI impact of Sales Order Age
 
 The Sales Order Agent is an integrated copilot with agent capabilities that automates the task of taking sales orders. The agent can handle the entire sales order capturing process. It starts by receiving a customer's order by email. It then identifies the customer from the registered list in Business Central, prepares a quote with the requested items, checks availability of items, sends the quote to the customer for approval, and upon confirmation, converts it to  sales order.
 
-The agent is readily available in the product. You just need to activate it. The agent is also configurable. For example, you can define a list of users who can delegate the process of taking the sales orders. Or, specify the channel for receiving the orders (for example, by e-mail), and select the steps to include or exclude in that process. Once you activate the agent, it's ready to process sales orders.  
+The agent is available in the product and ready to use after activation. It's configurable, allowing you to:
+
+- Define users who can delegate the sales order process.
+- Specify the order receiving channel, for example, email
+- Select the steps to include or exclude.
+
+Once you activate the agent, it's ready to process sales orders.  
 
 ## What are capabilities of the Sales Order Agent?
 
-To support of and in addition to the task of taking and processing sales orders, the agent has the following capabilities:
+The agent supports taking and processing sales orders with the following capabilities:
 
 - Operational instructions and configuration
 
   The agent operates based on its instructions and user configuration. It uses AI to identify and carry out the steps needed to complete this task within the Business Central environment.
 
-  The agent is provided with its own set of high-level business instructions. These instructions describe its purpose, the tasks it needs to perform, and other considerations it needs to take when performing the steps. They're defined in the agent code and aren't visible to the users.
+  The agent has its own set of high-level business instructions that describe its purpose, tasks, and considerations. These instructions are defined in the agent code and aren't visible to users.
   
-  The agent is also configurable. For example, you can specify: the users who can delegate the process of taking the sales orders, the channels for receiving the orders (for example, by e-mail), and the steps to include or exclude in the process.
+  The agent is also configurable. For example, you can specify: the users who can delegate the process of taking the sales orders, the channels for receiving the orders (for example, by email), and the steps to include or exclude in the process.
 
 - Task execution and interaction
 
@@ -43,16 +49,17 @@ To support of and in addition to the task of taking and processing sales orders,
 
   Through the logical UI API, the agent can read data displayed on the product pages and access properties of the UI elements, such as page names/descriptions, fields, actions, and tooltips. It can then combine that data with the user-provided instructions from the agent configuration and the data received via e-mail messages. The agent then uses AI and conventional business knowledge to orchestrate the necessary steps to complete each step and the overall task.
 
-  The agent attempts to overcome errors and adapt when conditions change (for example, when another user enters new data on a page). It can also engage in multi-turn e-mail conversation with the customer placing the order, if it needs to clarify or confirm their requirements.  
+  The agent tries to overcome errors and adapt to changing conditions, like when another user enters new data on a page. It can also engage in multi-turn email conversations with customers to clarify or confirm requirements.
 
 - Access and permissions
 
-  The agent runs as its own user in Business Central and is granted access solely to the necessary parts of the product to perform its task. It comes with a predefined permission set and UI role (profile). that limits the parts of the product the agent can access and the UI elements it can interact with, such as page, fields, and actions.
+  The agent runs as its own user in Business Central and is granted access only to the necessary parts of the product. It comes with a predefined permission set and UI role (profile) that limits the parts of the product and UI elements (such as pages, fields, actions) it can access.
+
 - User intervention and notification
 
-  The agent seeks user intervention when specific situations arise, for instance, when preparing outbound communications or providing business approval for key operations.  
+  The agent seeks user intervention in specific situations, such as preparing outbound communications or providing business approval for key operations.
 
-  The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over e-mails received from the customers to the Sales Order Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response. 
+  The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over e-mails received from the customers to the Sales Order Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response.
 
 - Transparency and change control
 
@@ -99,13 +106,40 @@ We defined a set of categories and scenarios and created test cases for each as 
 
   - The agent can only create sales quote and sales order documents. It can't create or work with the other sales documents (such as blank orders, invoices, or credit memos) or documents in other areas of the product (such as purchase or service orders).
   - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central.  
-  - Posting of documents isn't supported.  
+  - Posting of documents isn't supported.
+
+- **Variant Code** isn't currently supported
+  
+    If you can ship a product in two different colors, for example, the agent finds the product but leaves the **Variant Code** field empty. You need to fill in the field manually.
+
+    How you name your products can affect output. For example, using cryptic abbreviations versus friendly names can reduce output quality.
+
+    For products, the following table lists the tables and fields that Agent searches.
+
+    |Table|Fields|
+    |-|-|
+    |Items|No.<br>Description<br>Description 2<br>Search Description<br>GTIN<br>Vendor Item Number|
+    |Item Variant|Code<br>Description<br>Description 2|
+    |Item Reference|Reference No.<br>Description<br>Description 2|
+    |Item Attributes|Name<br>Value|
+    |Item Category| Code<br>Description<br>Parent Category - 1 Level|
+    |Item Translation|Language<br>Description<br>Description 2|
+    |Item Identifier|Code|
+    |Extended text Line|Text|
+
+- Finding products
+
+  Although the agent can find products based on vague, incomplete, or inaccurate descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text.
+
+- Pricing
+
+  <!-- needs clarification-->Because Business Central has advanced, and often adjusted, price/discount calculation logic, the most reliable way to get price is to create sales document, for example quote. This is exactly what agent tries to do.
 
 - Other limitations
 
   - If the agent stops working, it notifies the users in the same place that it normally notifies users when it needs approval to process an email. Examples are if the agent loses access to the shared mailbox or calls to the LLM (large language models) are failing.
   - Delegated administrators can't activate the agent.  
-  - It's only possible to configure and use one Sales Order Agent per Business Central company.  
+  - It's only possible to configure and use one Sales Order Agent per Business Central company.
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
@@ -130,7 +164,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 ## Is this capability extensible?
 
-Currently, this capability isn't extensible by partners. 
+Currently, this capability isn't extensible by partners.
 
 ## Related information
 

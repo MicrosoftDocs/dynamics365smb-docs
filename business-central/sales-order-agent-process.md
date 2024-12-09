@@ -18,7 +18,9 @@ This article explains how to work with the Sales Order Agent, which automates sa
 
 Learn more about Sales Order Agent process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
+<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+
 
 ## Prerequisites
 

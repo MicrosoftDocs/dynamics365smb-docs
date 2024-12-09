@@ -17,7 +17,9 @@ The Sales Order Agent in Business Central automates sales orders processing from
 
 Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
+<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+
 
 ## Prerequisites
 

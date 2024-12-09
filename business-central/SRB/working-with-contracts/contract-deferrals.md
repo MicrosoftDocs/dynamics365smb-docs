@@ -1,6 +1,6 @@
 ---
 title: Contract deferrals
-description: You can use contract deferrals in subscription and recurring billing.
+description: You can use contract deferrals in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Contract deferrals
 
-[!INCLUDE [prod_short](../../includes/prod_short.md)] provides a control option that when an invoice is prebilled, the customer-side revenues and vendor-side costs from future months are not yet posted to revenue or expense in the month the invoice is created. In this case, the net invoice amount is not posted to a revenue or expense account, but to an accrual account. This deferrals will later be released to income on a monthly basis.
+In subscription billing, managing the timing of revenue and expense recognition is important. [!INCLUDE prod_short] offers contract deferrals, which allow you to defer customer-side revenues and vendor-side costs to future periods. These amounts aren't posted to revenue or expense accounts at the time of invoicing but are instead posted to accrual accounts and released to income on a monthly basis.
 
 ## Prerequisites and setup
 
@@ -101,76 +101,76 @@ To control deferrals and for submissions to auditors, you can export the deferra
 
 ### Example 1: 1 year, full months
 
-* Base amount for deferrals: 1,200.00
-* Start date: 01.01.2021
-* End date: 12/31/2021
-* Basis monthly amount: 1,200.00
-* Number of full months: 12
-* Monthly amount: 100,00
+* **Base amount for deferrals:** 1,200.00
+* **Start date:** 01.01.2021
+* **End date:** 12/31/2021
+* **Basis monthly amount:** 1,200.00
+* **Number of full months:** 12
+* **Monthly amount:** 100,00
 
 |Posting Date|Number of Days|Deferral Base Amount|Amount|
 |--|--|--|--|
-|01.01.2021|31|1.200,00|100,00|
-|01.02.2021|28|1.200,00|100,00|
-|01.03.2021|31|1.200,00|100,00|
-|01.04.2021|30|1.200,00|100,00|
-|01.05.2021|31|1.200,00|100,00|
-|01.06.2021|30|1.200,00|100,00|
-|01.07.2021|31|1.200,00|100,00|
-|01.08.2021|31|1.200,00|100,00|
-|01.09.2021|30|1.200,00|100,00|
-|01.10.2021|31|1.200,00|100,00|
-|01.11.2021|30|1.200,00|100,00|
-|01.12.2021|31|1.200,00|100,00|
+|01/01/2021|31|1,200.00|100.00|
+|01/02/2021|28|1,200.00|100.00|
+|01/03/2021|31|1,200.00|100.00|
+|01/04/2021|30|1,200.00|100.00|
+|01/05/2021|31|1,200.00|100.00|
+|01/06/2021|30|1,200.00|100.00|
+|01/07/2021|31|1,200.00|100.00|
+|01/08/2021|31|1,200.00|100.00|
+|01/09/2021|30|1,200.00|100.00|
+|01/10/2021|31|1,200.00|100.00|
+|01/11/2021|30|1,200.00|100.00|
+|01/12/2021|31|1,200.00|100.00|
 
 ### Example 2: 1 year with subperiods
 
-* Basis amount for deferrals: 1,200.00
-* Start date: 01/15/2021
-* End date: 01/14/2022
-* Basis monthly amount: 1,098.08
-* Number of full months: 11
-* Monthly amount: 99.83
+* **Basis amount for deferrals:** 1,200.00
+* **Start date:** 01/15/2021
+* **End date:** 01/14/2022
+* **Basis monthly amount:** 1,098.08
+* **Number of full months:** 11
+* **Monthly amount:** 99.83
 
 |Posting Date|Number of Days|Deferral Base Amount|Amount|
 |--|--|--|--|
-|15.01.2021|17|1.200,00|55,89|
-|01.02.2021|28|1.200,00|99,83|
-|01.03.2021|31|1.200,00|99,83|
-|01.04.2021|30|1.200,00|99,83|
-|01.05.2021|31|1.200,00|99,83|
-|01.06.2021|30|1.200,00|99,83|
-|01.07.2021|31|1.200,00|99,83|
-|01.08.2021|31|1.200,00|99,83|
-|01.09.2021|30|1.200,00|99,83|
-|01.10.2021|31|1.200,00|99,83|
-|01.11.2021|30|1.200,00|99,83|
-|01.12.2021|31|1.200,00|99,83|
-|01.01.2022|14|1.200,00|45,98|
+|15/01/2021|17|1,200.00|55.89|
+|01/02/2021|28|1,200.00|99.83|
+|01/03/2021|31|1,200.00|99.83|
+|01/04/2021|30|1,200.00|99.83|
+|01/05/2021|31|1,200.00|99.83|
+|01/06/2021|30|1,200.00|99.83|
+|01/07/2021|31|1,200.00|99.83|
+|01/08/2021|31|1,200.00|99.83|
+|01/09/2021|30|1,200.00|99.83|
+|01/10/2021|31|1,200.00|99.83|
+|01/11/2021|30|1,200.00|99.83|
+|01/12/2021|31|1,200.00|99.83|
+|01/01/2022|14|1,200.00|45.98|
 
 ### Example 3: less than 1 year with subperiods
 
-* Basis amount for deferrals: 1,022.47
-* Start date: 01/15/2021
-* End date: 21.11.2021
-* Basis monthly amount: 897.54
-* Number of full months: 9
-* Monthly amount: 99.73
+* **Basis amount for deferrals:** 1,022.47
+* **Start date:** 01/15/2021
+* **End date:** 21.11.2021
+* **Basis monthly amount:** 897.54
+* **Number of full months:** 9
+* **Monthly amount:** 99.73
 
 |Posting Date|Number of Days|Deferral Base Amount|Amount|
 |--|--|--|--|
-|15.01.2021|17|1.022,47|55,89|
-|01.02.2021|28|1.022,47|99,73|
-|01.03.2021|31|1.022,47|99,73|
-|01.04.2021|30|1.022,47|99,73|
-|01.05.2021|31|1.022,47|99,73|
-|01.06.2021|30|1.022,47|99,73|
-|01.07.2021|31|1.022,47|99,73|
-|01.08.2021|31|1.022,47|99,73|
-|01.09.2021|30|1.022,47|99,73|
-|01.10.2021|31|1.022,47|99,73|
-|01.11.2021|21|1.022,47|69,01|
+|15/01/2021|17|1,022.47|55.89|
+|01/02/2021|28|1,022.47|99.73|
+|01/03/2021|31|1,022.47|99.73|
+|01/04/2021|30|1,022.47|99.73|
+|01/05/2021|31|1,022.47|99.73|
+|01/06/2021|30|1,022.47|99.73|
+|01/07/2021|31|1,022.47|99.73|
+|01/08/2021|31|1,022.47|99.73|
+|01/09/2021|30|1,022.47|99.73|
+|01/10/2021|31|1,022.47|99.73|
+|01/11/2021|21|1,022.47|69.01|
 
 ## See also
 
-[Contract renewal](contract-renewal.md)  
+[Contract renewal](contract-renewal.md)

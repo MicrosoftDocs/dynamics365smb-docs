@@ -95,7 +95,7 @@ The initial language is determined by your administrator or by your browser sett
 You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Administrators can modify the list of languages shown to users when selecting their language and region. This can be done in the **Allowed Languages** page. This allows administrators to only allow certain languages for which they know that language apps have been installed. It make the action of selecting language simpler. 
+> Administrators can modify the list of languages shown to users when selecting their language and region. This can be done in the **Allowed Languages** page. This allows administrators to only allow certain languages for which they know that language apps have been installed. This makes the action of selecting language simpler for users. 
 
 ## Time zone
 

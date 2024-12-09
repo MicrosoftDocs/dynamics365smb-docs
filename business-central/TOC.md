@@ -2203,13 +2203,14 @@ ms.service: dynamics-365-business-central
 #### [Design details: Accounts in the general ledger](design-details-accounts-in-the-general-ledger.md)
 #### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
 #### [Design details: Revaluation](design-details-revaluation.md)
-<!-- ### Design details: Warehouse management -->
+### Design details: Warehouse management
+#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 <!-- #### [Warehouse management overview](design-details-warehouse-management.md) -->
 <!-- #### [Design details: Warehouse overview](design-details-warehouse-overview.md) -->  
 <!-- #### [Design details: Warehouse setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
 <!-- #### [Design details: Inbound warehouse flow](design-details-inbound-warehouse-flow.md)  -->
 <!-- #### [Design details: Internal warehouse flows](design-details-internal-warehouse-flows.md) --> 
-### [Design details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)  
+#### [Design details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)  
 <!-- #### [Design details: Outbound warehouse flow](design-details-outbound-warehouse-flow.md)  -->
 <!-- #### [Design details: Integration with inventory](design-details-integration-with-inventory.md)-->
 ### Design details: Item tracking
@@ -2227,6 +2228,9 @@ ms.service: dynamics-365-business-central
 #### [General journal post line overview](design-details-general-journal-post-line-overview.md)  
 #### [Design details: Posting interface structure](design-details-posting-interface-structure.md)  
 #### [Design details: Posting engine structure](design-details-posting-engine-structure.md)  
+
+### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
+
 ### Design details: Dimension set entries
 #### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)  
 #### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)  

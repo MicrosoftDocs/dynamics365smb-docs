@@ -20,12 +20,15 @@ The adjustments outlined in this article are applied universally across all your
 ## Video and training
 
 The following video shows some of the ways in which you can personalize your Role Center.
-
+>
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
 ## About personalization
+
+
+
 
 You can make various adjustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the **Personalizing** banner using the [personalization mode](#start-personalizing-by-using-the-personalization-mode). You can also readily make the following adjustments on any list page without using the personalization mode.
 

@@ -62,7 +62,7 @@ Following comprehensive functionalities are covered under Posting No. Series:
 
 ## Setting up Posting No. Series
 You need to create a set up for posting of documents. The following procedure shows how to set up posting number series.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posting No. Series**, and then choose the related link.
+1. Choose the :::image type="content" source="../../media/ui-search/search_small.png" alt-text="Icon that opens the TellMe search."::: icon, enter **Posting No. Series**, and then choose the related link.
 2. Click on **New**.
 3. Fill in the fields as described in the following table.
 

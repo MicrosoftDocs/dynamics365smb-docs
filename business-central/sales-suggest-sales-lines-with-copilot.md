@@ -116,9 +116,9 @@ This process describes how to suggest lines on a sales order. The steps are the 
 
 After Copilot suggests the items to add to lines, review its suggestions and decide whether they're what you want:
 
-* To discard a single proposed line, select it in the list, and then choose the **Delete Line** action.
-* To discard all proposed lines and close the Copilot window, choose the Discard button (trash can) next to the **Keep it** button.
-* To transfer the lines shown in the Copilot window, choose **Keep it**. 
+- To discard a single proposed line, select it in the list, and then choose the **Delete Line** action.
+- To discard all proposed lines and close the Copilot window, choose the Discard button (trash can) next to the **Keep it** button.
+- To transfer the lines shown in the Copilot window, choose **Keep it**. 
 
 There's a **Reliability** field that displays **High (80+)**, **Medium (60-80)**, and **Low (60-)** scores and points you to lines that need attention.
 

@@ -1,5 +1,5 @@
 ---
-title: Suggest item substitutions with Copilot
+title: Suggest substitute items with Copilot
 description: Assign substitute items faster with assistance from Copilot.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,13 +12,13 @@ ms.collection:
 ms.search.form: 30, 31, 5716_Primary
 ---
 
-# Find substitute items with Copilot
+# Suggest substitute items with Copilot
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-This article explains how to create item substitution entries faster by letting Copilot suggest the items to add.
+This article explains how to find and assign substitute items faster by letting Copilot suggest the items to add.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## About item substitution suggestions
 

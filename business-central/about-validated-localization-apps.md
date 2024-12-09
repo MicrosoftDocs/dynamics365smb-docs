@@ -36,12 +36,15 @@ Apps in the validated localization pilot program contain a set of functionalitie
 
 ## Validated Localization app business requirements  
 
-- The Validated Localization app provider complies with all requirements to be a CSP indirect provider.  
-- The Validated Localization app provider brings to market a minimum of offerings across five countries/regions, which bundle Dynamics 365 Business Central with a Validated Localization app. 
-- The Validated Localization app provider has a minimum of 10 [!INCLUDE[prod_short](includes/prod_short.md)] online customers with production environments, which are actively using the Validated Localization app. 
-- The Validated Localization app provider submits a business plan on a yearly basis to the program v-team. This includes planned marketing and readiness activities to promote the bundled offering with the CSP Indirect Resellers in applicable countries/regions. Plan can be submitted at the start of each quarter to [Microsoft localization team](mailto:d365bcloc@microsoft.com).  
-- Validated Localization apps are made available to all customers and partners who want to benefit from it.     
-- The Validated Localization App provider engages in recurring workstreams with Microsoft.
+- The Validated Localization App provider complies with all requirements to be a CSP indirect provider.  
+- The Validated Localization App provider brings to market a minimum of offerings across five countries/regions, which bundle Dynamics 365 Business Central with a Validated Localization App. 
+- The Validated Localization App provider has a minimum of 10 [!INCLUDE[prod_short](includes/prod_short.md)] online customers with production environments, which are actively using the Validated Localization App. 
+- The Validated Localization App provider submits a business plan on a yearly basis to the program v-team. This includes planned marketing and readiness activities to promote the bundled offering with the CSP Indirect Resellers in applicable countries/regions. Plan can be submitted at the start of each quarter to [Microsoft localization team](mailto:d365bcloc@microsoft.com).  
+- Validated Localization Apps are made available to all customers and partners who want to benefit from it.     
+- The Validated Localization App provider engages in recurring workstreams with Microsoft.    
+- The Validated Localization App provider must maintain its status as an Embedded Localization Partner.  
+- To maintain its status, the Validated Localization App provider agrees to continuously adhere to the business, functional, and technical requirements outlined on this page. 
+ 
 
 ## Validated Localization app functional and technical requirements  
 

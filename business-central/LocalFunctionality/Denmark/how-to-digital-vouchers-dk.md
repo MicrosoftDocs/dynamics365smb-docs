@@ -54,6 +54,9 @@ Follow these steps to set up specific source codes for digital vouchers.
 
 ## Use the functionality
 
+> [!IMPORTANT]
+> Digital vouchers are enabled by default, and you must retain your vouchers, which can significantly increase your database consumption. To mitigate this, use lower resolution scans for your purchase invoices. For your sales invoices, create layouts with smaller images or none at all, as attachments will be automatically generated based on the layout you use. All these attachments will be stored in your database and impact its size, but you can minimize this by avoiding the upload of large files.   
+
 ### Purchase documents
 
 Open one of the purchase documents, and set the required fields. Before you post the document, follow these steps to add a digital voucher.

@@ -38,13 +38,15 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.
 
-1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle (1), select the **Mailbox** check box (2), and then set **Mailbox** field (3) to the email account you want the agent to monitor.
+1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.
 
    ![Shows the Sales Order Agent configuration page](media/soa-configuration.png)
 
-1. Select **Manage user access** (4) to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
-1. Turn on the **Active** toggle (5).
-1. On the right side of the page, select the **Go to next card** arrow (6), and then choose how the agent helps with inquiries, quotes, and orders. There are several options:
+1. Select **Manage user access** to specify the users who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Sales Order Agent](#manage-agent-permissions-and-user-access).
+1. Turn on the **Active** toggle.
+1. On the right side of the page, select the **Go to next card** arrow to choose how the agent helps with inquiries, quotes, and orders.
+
+    There are several options described in the following table:
 
     |Option|Description|Default|
     |-|-|-|
@@ -54,7 +56,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
     |Make orders from quotes|When on, the agent converts confirmed sales quotes into orders. Orders are created after the customer agrees to the quote via email and the Business Central user confirms the email.<br><br>When off, you have to create the order manually.|On|
     |Review orders when created and updated|When on, the agent adds a review step to a task before it creates or modifies orders. The step is added into the process after a Business Central user confirms the customer's email accepting the quote.<br><br>When off, the agent creates or modifies orders without requiring a user to review the order. The order is created after a Business Central user confirms the customer’s email accepting the quote. |Off|
 
-1. Select **Update** (7) to complete the setup.
+1. Select **Update** to complete the setup.
 
 The **Sales Order Agent** badge changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), which indicates the agent is active and ready to handle incoming quote requests to the mailbox.
 

@@ -47,7 +47,7 @@ This process describes how to get Copilot to suggest substitute items.
 
 ## Adjust the search
 
-By default, the capability uses the item description as search criteria, which you can adjust to fine-tune search results. To view the prompt, select the **Edit** icon in the Copilot window. For example, you can add more details to the prompt such as colors, sizes, or other item attributes.
+By default, the capability uses the item description as search criteria, which you can adjust if you want to fine-tune the search results. To edit the prompt, select the :::image type="content" source="media/edit-pencil.png" alt-text="Edit the prompt."::: icon in the Copilot window. For example, you can add more details to the prompt such as colors, sizes, or other item attributes.
 
 ## Review, save, discard, or regenerate suggestions
 

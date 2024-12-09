@@ -20,7 +20,6 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 <!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 
-
 ## Prerequisites
 
 - Turn on the Sales Order Agent capability

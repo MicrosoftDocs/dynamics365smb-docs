@@ -71,7 +71,7 @@ When you enter your prompt in the **Suggest Sales Lines** window, the **Matching
 - [Balanced](#balanced-matching-criteria) is a blend of required and optional keywords. This option typically generates fewer suggestions.
 - [Precise](#precise-matching-criteria) means that all keywords are required. This option typically generates the fewest suggestions.
 
-The following sections provide examples of how matching criteria works. The examples are based on the following fictitious items:
+The following sections provide examples of how matching works. The examples are based on a prompt for "Red Coffee Table" and you have the following fictitious items:
 
 - Red Coffee Table
 - Blue Coffee Table

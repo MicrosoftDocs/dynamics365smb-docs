@@ -61,7 +61,7 @@ Prompt: *Hello, I'm interested in buying some accessories for my XXXX Laptop, su
 
 Note that XXXX Laptop isn't included in search.
 
-## Options for matching keywords
+## Options for matching keywords in prompts
 
 When you search for an item using a FullText index, we extract both primary and extra keywords. For example, we break down the search term "Red Coffee Table" into primary keywords "Coffee" and "Table," and some synonyms and other keywords, such as "Red."
 

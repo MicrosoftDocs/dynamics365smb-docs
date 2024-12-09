@@ -21,7 +21,6 @@ Learn more about Sales Order Agent process in [Sales Order Agent overview](sales
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 <!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 
-
 ## Prerequisites
 
 The Sales Order Agent is activated, and you have permission to use it. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
@@ -46,7 +45,10 @@ Your intervention is required for various steps in creating a sales order to mov
 - Reviewing and confirming the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
 - Providing assistance to the Sales Order Agent for fixing a problem.
 
-The review steps depend on how the Sales Order Agent is configured. Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
+> [!NOTE]
+> You might not need to review sales quotes and orders depending on how an admin configures the Sales Order Agent.
+
+Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
 
 1. In **Task** view, select the step requesting review or assistance.
 

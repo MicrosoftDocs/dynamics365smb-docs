@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017, 3563_Primary
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
@@ -93,6 +93,9 @@ Changes the display language. This field appears only when there's more than one
 The initial language is determined by your administrator or by your browser settings when you sign up for [!INCLUDE[prod_short](includes/prod_short.md)]. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
 
 You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+> [!NOTE]
+> Administrators can modify the list of selectable languages shown to users when selecting their language and region. This can be done in the **Allowed Languages** page. This allows administrators to only allow certain languages for which they know that language apps have been installed. It make the action of selecting language simpler. 
 
 ## Time zone
 

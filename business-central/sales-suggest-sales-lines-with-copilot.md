@@ -67,9 +67,9 @@ When you search for an item using a FullText index, we extract both primary and 
 
 There are the following methods for matching criteria:
 
-- [Balanced](#balanced-matching-criteria)
-- [Precise](#precise-matching-criteria)
-- [Permissive](#permissive-matching-criteria)
+- [Balanced](#balanced-matching-criteria) is a blend of required and optional keywords.
+- [Precise](#precise-matching-criteria) means that all keywords are required.
+- [Permissive](#permissive-matching-criteria) means that all keywords are optional.
 
 The following sections provide examples of how matching criteria works. The examples assume that there are the following items in [!INCLUDE [prod_short](includes/prod_short.md)]:
 

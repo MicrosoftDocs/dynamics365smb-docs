@@ -33,7 +33,7 @@ Microsoft Copilot is an AI-powered assistant that helps spark creativity, boost 
   
 Using chat with Copilot streamlines your workflow by bypassing traditional navigation and product help. Watch [Work smarter with Copilot in Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2250609) to learn more.
 
-Copilot's source responses are generated from the official [Microsoft Dynamics 365 Business Central documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/) page.
+Copilot's source responses are generated from the official [Microsoft Dynamics 365 Business Central documentation](https://learn.microsoft.com/dynamics365/business-central/) page.
 
 ## Prerequisites
 

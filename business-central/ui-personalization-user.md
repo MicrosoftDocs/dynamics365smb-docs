@@ -104,6 +104,7 @@ When you want to show or hide an action, the options under the arrowhead define 
 
 1. Choose the arrowhead for an action or action group.
 2. Choose from one of the following options:
+
    |Option|What it does|
    |------|------------|
    |**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group remains in the other locations. |
@@ -143,12 +144,11 @@ You can clear all personalization changes that you made within a single part by 
 
 ## <a name="fields"></a> Work with fields and columns
 
-
-
-
 When personalizing a page, you use the **Add field to page** pane to include fields or columns on the page that are currently hidden from view. To open this pane, select the **+ Field** action near the top of the page. Unlike other hidden elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
 
 Here are some general guidelines to follow when using the **Add field to page** pane:
+
+
 
 - By default, the pane lists all hidden fields. Hidden fields are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
 - You can filter the list to show other fields, for example, those fields currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes based on the filter option you choose.

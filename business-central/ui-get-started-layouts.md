@@ -67,32 +67,32 @@ There are different methods for creating a new layout. The easiest methods invol
 By copying an existing layout, you can quickly create a new layout that is identical to it. You can then make modifications by exporting the new layout.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
+2. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
 
     If you select an extension layout, you're asked whether you want to edit a copy of it. Select **Yes**.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-1. In the **Layout Name** field, enter a new name.
-1. Set the **Save Changes to Copy** option to **On**.
-1. Select **OK**.
+3. In the **Layout Name** field, enter a new name.
+4. Set the **Save Changes to Copy** option to **On**.
+5. Select **OK**.
 
     The new layout appears on the **Report Layouts** page.
 
-1. [Make any changes that you want to make to the new layout](#modify).
+6. [Make any changes that you want to make to the new layout](#modify).
 
 ### [Export existing as copy and import as new](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
+2. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
 
     The layout file is downloaded to your device.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-1. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
+3. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
     Learn more:
 
@@ -100,9 +100,9 @@ By copying an existing layout, you can quickly create a new layout that is ident
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
     * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
 
-1. Make the required changes to the file, and then save it.
-1. On the **Report Layouts** page, select **New**.
-1. In the **Add New Layout for a Report** dialog box, set the following fields.
+4. Make the required changes to the file, and then save it.
+5. On the **Report Layouts** page, select **New**.
+6. In the **Add New Layout for a Report** dialog box, set the following fields.
 
     | Field | Description | Mandatory |
     |---|---|---|
@@ -111,8 +111,8 @@ By copying an existing layout, you can quickly create a new layout that is ident
     | Description | Enter more detailed information about the layout. | No |
     | Format Options | Set this field to match the type of the layout (for example, **Word**, **Excel**, or **RDLC**). | Yes |
 
-1. Select **OK**.
-1. Follow one of these steps to upload the layout file for the report:
+7. Select **OK**.
+8. Follow one of these steps to upload the layout file for the report:
 
     [!INCLUDE[file-upload](includes/file-upload.md)]
 
@@ -125,9 +125,9 @@ To view how the report looks with the new layout, select the layout in the list,
 When you create a new layout from a blank layout, you must design it completely. The layout file provides all the report fields that you can add and arrange as you require.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select any layout that is for the same report that you want use the new layout for.
-1. Select **New**.
-1. In the **Add New Layout for a Report** dialog box, set the following fields.
+2. Select any layout that is for the same report that you want use the new layout for.
+3. Select **New**.
+4. In the **Add New Layout for a Report** dialog box, set the following fields.
 
     | Field | Description | Mandatory |
     |---|---|---|
@@ -136,12 +136,12 @@ When you create a new layout from a blank layout, you must design it completely.
     | Description | Enter more detailed information about the layout. | No |
     | Format Options | Set this field to match the type of the layout (for example, **Word**, **Excel**, or **RDLC**). | Yes |
 
-1. Turn on the **Create a blank layout from the report object** option.
-1. Select **OK**.
+5. Turn on the **Create a blank layout from the report object** option.
+6. Select **OK**.
 
     The new layout appears in the list. The layout is blank, but all the report fields and captions are available so that you can start to add them to the layout.
 
-1. You can now start to [design the layout](#modify).
+7. You can now start to [design the layout](#modify).
 
 ---
 
@@ -150,14 +150,14 @@ When you create a new layout from a blank layout, you must design it completely.
 Follow these steps to modify an existing user-defined layout.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the layout that you want to modify, and then select the **Export Layout** action.
+2. Select the layout that you want to modify, and then select the **Export Layout** action.
 
     The layout file is downloaded to your device.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-1. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
+3. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
     Learn more:
 
@@ -165,40 +165,40 @@ Follow these steps to modify an existing user-defined layout.
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
     * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
 
-1. Make the required changes to the file, and then save it.
-1. On the **Report Layouts** page, select the existing layout, and then select the **Replace Layout** action.
-1. Select **OK** and then **Choose** to open File Explorer on your device.
-1. Find and select the Excel file, and then select **Open**.
+4. Make the required changes to the file, and then save it.
+5. On the **Report Layouts** page, select the existing layout, and then select the **Replace Layout** action.
+6. Select **OK** and then **Choose** to open File Explorer on your device.
+7. Find and select the Excel file, and then select **Open**.
 
     The selected file is uploaded to the layout, and you're returned to the **Report Layouts** page.
 
-1. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
+8. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
 
 ## <a name="replace"></a>Replace a layout
 
 Follow these steps to replace the existing user-defined layout file with a new file.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the existing layout, and then select the **Replace Layout** action.
-1. Select **OK** and then **Choose** to open File Explorer on your device.
-1. Find and select the Excel file, and then select **Open**.
+2. Select the existing layout, and then select the **Replace Layout** action.
+3. Select **OK** and then **Choose** to open File Explorer on your device.
+4. Find and select the Excel file, and then select **Open**.
 
     The selected file is uploaded to the layout, and you're returned to the **Report Layouts** page.
 
-1. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
+5. To view how the report looks with the new layout, select the layout in the list, and then select **Run Report**.
 
 ## <a name="rename"></a>Rename a layout
 
 Follow these steps if you want to change the name and description of a user-defined layout.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the layout that you want to rename, and then select the **Edit Info** action.
+2. Select the layout that you want to rename, and then select the **Edit Info** action.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-1. In the **Layout Name**, enter a new name.
-1. Select **OK**.
+3. In the **Layout Name**, enter a new name.
+4. Select **OK**.
 
 ## Related information
 

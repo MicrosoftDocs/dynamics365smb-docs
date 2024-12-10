@@ -14,7 +14,7 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to use the Sales Order Agent to process sales orders from customer requests. The Sales Order Agent is a Copilot feature that automates sales orders based on customer inquiries about products/items received via email.
+This article explains how to use the Sales Order Agent to process sales orders from customer requests. The Sales Order Agent is a Copilot feature that automates taking sales orders based on customer inquiries about products/items received via email.
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 

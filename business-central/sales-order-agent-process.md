@@ -14,9 +14,14 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to work with the Sales Order Agent, which automates sales order creation from customer requests. The Sales Order Agent monitors the designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request to an order. Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent.
+In this article, you learn how to use the Sales Order Agent to process sales orders from customer requests. The Sales Order Agent is a Copilot feature that automates sales orders based on customer inquiries about products/items received via email.
+
+The agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+
+Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve any missing details and allow for modifications to the original request, if necessary.
 
 Learn more about Sales Order Agent process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
+
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 <!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
@@ -66,7 +71,7 @@ After confirmation, the Sales Order Agent moves the task on for more processing.
 
 ## Modify sales quotes and orders
 
-You may need to modify sales quotes or orders created by the agent during a review step or a request for assistance.
+You might need to modify sales quotes or orders created by the agent during a review step or a request for assistance.
 
 When you select **Review**, the quote or order opens for you to inspect. Make changes as needed, then select **Confirm** in the **Review** pane. The agent then processes the document, creating a PDF for inclusion in the outgoing email to the customer.
 
@@ -90,5 +95,5 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
 
 [Sales order agent overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
-[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
+[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  

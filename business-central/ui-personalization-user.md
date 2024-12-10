@@ -11,6 +11,9 @@ ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006
 ms.date: 11/04/2024
 ms.author: jswymer
 ---
+
+<!-- No link for the action in line 38? -->
+
 # Personalize your workspace
 
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
@@ -20,17 +23,14 @@ The adjustments outlined in this article are applied universally across all your
 ## Video and training
 
 The following video shows some of the ways in which you can personalize your Role Center.
->
+
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
 ## About personalization
 
-
-
-
-You can make various adjustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most adjustments you do by first activating the **Personalizing** banner using the [personalization mode](#start-personalizing-by-using-the-personalization-mode). You can also readily make the following adjustments on any list page without using the personalization mode.
+You can make various adjustments, such as move or hide fields, columns, actions, and entire parts, and add new fields. You do most adjustments by first activating the **Personalizing** banner using the [personalization mode](#start-personalizing-by-using-the-personalization-mode). You can also readily make the following adjustments on any list page without using the personalization mode:
 
 - [Resize a column](#resize-a-column)
 - [Create, rename, or edit a view](ui-views.md)
@@ -39,7 +39,7 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 
 ### Resize a column
 
-There are two ways to change the width of a column in any list, including in dropdowns for looking up field values: 
+There are two ways to change the width of a column in any list, including in dropdown lists for looking up field values: 
 
 - In the header of a list, select and drag the boundary between two columns.
 - Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
@@ -47,18 +47,18 @@ There are two ways to change the width of a column in any list, including in dro
 ## Start personalizing by using the personalization mode
 
 1. Open any page that you want to personalize.
-1. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
+1. In the upper-right corner, select **Settings** ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") and then choose the **Personalize** action.
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
     > [!NOTE]
     > To navigate during personalization, use <kbd>Ctrl</kbd>+<kbd>Click</kbd> on an action if it is highlighted by the arrowhead.
 
-    If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") on the banner, you can't personalize the page. For more information, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
+    If you see **Personalize lock** ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or **Personalization blocked** ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") on the banner, you can't personalize the page. For more information, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
 
 1. To change a user interface (UI) element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with an arrowhead or border. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and state of the UI element.
 1. To add a field, choose the **+ Field** action. From the **Add Field to Page** pane, drag and drop a field into the desired position on the page.
-1. When you finish changing the layout of one or more pages, choose the **Done** button on the **Personalizing** banner.
+1. When you finish changing the layout of one or more pages, choose **Done** on the **Personalizing** banner.
 
 For more information, see [What You Can Personalize](#What).
 

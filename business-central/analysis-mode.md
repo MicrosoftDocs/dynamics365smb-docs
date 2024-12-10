@@ -21,7 +21,7 @@ This article explains how to use the data analysis feature from list pages and q
 
 ## Prerequisites
 
-- If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. Learn how to turn on new features using [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions for users who you don't want to access the analysis mode.
 
 > [!NOTE]
@@ -46,9 +46,9 @@ Follow these steps to start using the analysis mode.
 
    Each area is explained in the sections that follow.
 
-3. Use the different areas to manipulate, summarize, and analyze data. See the sections that follow for details.
+1. Use the different areas to manipulate, summarize, and analyze data. See the sections that follow for details.
 
-4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button.
+1. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button.
 
    The analysis tabs that you added remain until you delete them. If you return to the analysis mode again, you see them exactly as you left them.
 
@@ -149,7 +149,7 @@ The extra fields are named *\<field name\> Year*, *\<field name\> Quarter*, and 
 
 ## Pivot mode
 
-You can use pivot mode to analyze large amount of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
+You can use pivot mode to analyze large amounts of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
 To turn pivot mode on and off, turn on the **Pivot Mode** toggle on the **Columns** pane (3). When you turn on pivot mode, the **Column labels** area appears in the pane. Use the **Column labels** area to group sum totals for rows into categories. Fields that you add to the **Column labels** area show as columns in the data area (1).
 
@@ -196,7 +196,7 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
    ![Shows the copy link dialog for an analysis tab](media/analysis-link-copied.svg)
 
 1. Select **Copy**.
-1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so on.
+1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, or OneNote.
 1. Recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis tab that they create.  
 
 ## Examples of how to analyze data
@@ -218,7 +218,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Customer Name** field to the **Row Groups** area, and drag **Remaining Amount** to the **Values** area.
 1. Drag the **Due Date Month** field to the **Column Labels** area.
-1. To do the analysis for a given year or quarter, apply a filter in the **Analysis Filters** menu (located below the **Columns** menu on the right).
+1. Use the **Analysis Filters** menu (located below the **Columns** menu on the right) to apply a filter and analyze data for a given year or quarter.
 1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis.
 
 ### Ad hoc data analysis examples by functional area

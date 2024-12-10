@@ -14,14 +14,14 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 
 > **APPLIES TO:** Public preview in Business Central 2023 release wave 1 and later for analyzing list pages; Generally available in Business Central 2023 release wave 2 for analyzing data from list pages and queries.
 
-This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
+This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
 
 > [!TIP]
 > A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So the best way to learn about what you can do in analysis mode is to try things out.
 
 ## Prerequisites
 
-- If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management.](/dynamics365/business-central/dev-itpro/administration/feature-management)
+- If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. Learn how to turn on new features using [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions for users who you don't want to access the analysis mode.
 
 > [!NOTE]
@@ -38,7 +38,7 @@ Follow these steps to start using the analysis mode.
 
    For example, to work with the **Customer Ledger Entries** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link. 
 
-2. In the action bar at the top of the page, select the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
+1. In the action bar at the top of the page, select the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
 
     The analysis mode opens the data in an experience that's optimized for data analysis. While in analysis mode, the normal action bar is replaced with a special analysis mode bar. The following figure illustrates the different areas of a page in the analysis mode.
 

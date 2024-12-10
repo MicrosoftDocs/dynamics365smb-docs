@@ -12,7 +12,7 @@ ms.date: 11/04/2024
 ms.author: jswymer
 ---
 
-<!-- No link for the action in line 38? -->
+<!-- No link for the action in line 38? In line 127, something is missing from this: "Moving the flow makes a copy the flow to the destination". Not sure what line 134 is about. -->
 
 # Personalize your workspace
 
@@ -132,15 +132,19 @@ To move an action or action group into another action group that is empty, drag 
 ## <a name="Parts"></a>Personalize parts
 
 Point to or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd>
-Parts are areas on a page that are typically composed of multiple fields, charts, or other content. A part shows a colored border when you focus on the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its' contents.
 
-- To move a part, drag and drop it to the desired position. A colored line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
+Parts are areas on a page that are typically composed of multiple fields, charts, or other content. A part shows a colored border when you focus on the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its contents.
+
+- To move a part, drag and drop it into the desired position. A colored line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
 - You can hide a part by choosing the **Hide** option under the arrowhead.
 - When you start personalizing or navigate to a new page, any parts that are currently hidden appear on the page with distinctive visuals to indicate they're hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
 
-You can clear all personalization changes that you made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part; not the placement or visibility of the part on the page.  
+You can clear all personalization changes that you made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
 
 ## <a name="fields"></a> Work with fields and columns
+
+
+
 
 When personalizing a page, you use the **Add field to page** pane to include fields or columns on the page that are currently hidden from view. To open this pane, select the **+ Field** action near the top of the page. Unlike other hidden elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
 

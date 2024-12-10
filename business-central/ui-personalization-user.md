@@ -104,11 +104,10 @@ When you want to show or hide an action, the options under the arrowhead define 
 
 1. Choose the arrowhead for an action or action group.
 2. Choose from one of the following options:
-
    |Option|What it does|
    |------|------------|
    |**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group remains in the other locations. |
-   |**Hide**|This option appears if the action or action group isn't located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option makes the action or action group disappear from the navigation bar or action bar. However, in personalizing mode, the action or action group are still shown in the current position, except that it appears dimmed.|
+   |**Hide**|This option appears if the action or action group isn't located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option makes the action or action group disappear from the navigation bar or action bar. However, in personalizing mode, the action or action group is still shown in the current position, except that it appears dimmed.|
    |**Show**|This option appears if the action or action group is hidden (dimmed). Choosing this option makes the action or action group appear on the navigation bar or action bar.|
 
 ### Move actions and action groups
@@ -118,8 +117,9 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 - You can move individual actions into the promoted categories, but you can't rearrange the order of the actions in the category.
 - You can't move an action group into a promoted category.
 
-1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
-2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
+To move an action or action group, drag and drop it into the desired position, like you do with fields and columns.
+
+To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
 ### About the Automate menu
 

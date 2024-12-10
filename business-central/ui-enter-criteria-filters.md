@@ -194,7 +194,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 
 | Sample expression | Records that are shown |
 |---|---|
-| `1200\|1300` | Numbers with 1200 or 1300 |
+| `1200|1300` | Numbers with 1200 or 1300 |
 
 #### (<>) Not equal to
 
@@ -266,8 +266,8 @@ When you enter criteria, you can use all the numbers and letters that you normal
 
 | Sample expression | Records that are shown |
 |---|---|
-| `5999\|8100..8490` | Any records that have the number 5999 or a number in the range from 8100 through 8490 |
-| `..1299\|1400..` | Records that have a number that is less than or equal to 1299, or a number that is greater than or equal to 1400 (that is, all numbers except 1300 through 1399) |
+| `5999|8100..8490` | Any records that have the number 5999 or a number in the range from 8100 through 8490 |
+| `..1299|1400..` | Records that have a number that is less than or equal to 1299, or a number that is greater than or equal to 1400 (that is, all numbers except 1300 through 1399) |
 | `>50&<100 `| Records that have a number that is greater than 50 and less than 100 (that is, all numbers from 51 through 99) |
 
 ### <a name="symbols"></a>Filter on values that contain symbols

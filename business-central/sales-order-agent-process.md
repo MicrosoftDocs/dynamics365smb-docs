@@ -14,7 +14,7 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-In this article, you learn how to use the Sales Order Agent to process sales orders from customer requests. The Sales Order Agent is a Copilot feature that automates sales orders based on customer inquiries about products/items received via email.
+This article explains how to use the Sales Order Agent to process sales orders from customer requests. The Sales Order Agent is a Copilot feature that automates sales orders based on customer inquiries about products/items received via email.
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 

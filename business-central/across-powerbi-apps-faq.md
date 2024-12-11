@@ -54,8 +54,6 @@ No. At the moment, the source code (.pbix files) for the apps isn't available. H
 
 No. At the moment, the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available for online environments.
 
-
-
 ## See also
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  

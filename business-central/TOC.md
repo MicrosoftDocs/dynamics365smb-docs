@@ -570,7 +570,6 @@ ms.service: dynamics-365-business-central
 #### [Analyze your payment practices](ui-payment-practices.md)
 
 ### Built-in finance reports
-#### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### Key finance reports
 ##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
@@ -616,6 +615,10 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
+
+#### Legacy reports (will be removed)
+##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+
 <!-- Financial analytics end -->
 
 ## Sales
@@ -2538,6 +2541,7 @@ ms.service: dynamics-365-business-central
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Suggest item substitutions (preview)
+### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)

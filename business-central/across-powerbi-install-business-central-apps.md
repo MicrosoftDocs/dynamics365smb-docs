@@ -5,9 +5,11 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 10/29/2024
+ms.date: 12/06/2024
 ms.author: kepontop
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -26,11 +28,19 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 To install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)], you must have:
 
 - An environment in [!INCLUDE [prod_short](includes/prod_short.md)] online (it comes ready to integrate with [!INCLUDE [powerbi-name](includes/powerbi-name.md)].)
-- A [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
+
+- Entitlements/permissions in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] to:
+
+    - Install template apps from AppSource.
+    - Use shared workspaces.
+
+The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be met with a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license for the following users:
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
    - The user who refreshes the data.
    - Each user who accesses the reports.
+
+An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use [!INCLUDE [powerbi-name](includes/powerbi-name.md)] or [!INCLUDE [fabric-name](includes/fabric-name.md)] Premium capacity.
 
 To learn more, go to [Get started with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md#get-started).
 
@@ -74,7 +84,7 @@ The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps currently work per 
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
 
-## Run the Connect to Power BI assisted setup guide.
+## Run the Connect to Power BI assisted setup guide
 
 After you install your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, you can configure them to suit your business:
 
@@ -135,18 +145,33 @@ Do this part of the configuration in the semantic models in your [Power BI servi
 
 Each semantic model requires two parameters:
 
-- ENVIRONMENT
-- COMPANY
+- Environment (holds the environment name)
+- Company (holds the company name. The company parameter is case sensitive. )
 
-You can find these values in the connection details of the assisted setup guide or on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+You can find these values in the connection details of the assisted setup guide or on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
 
-## Get the latest data
+## Get the latest data (refresh the semantic model)
 
 Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a semantic model (also known as a dataset) that gets data from [!INCLUDE [prod_short](includes/prod_short.md)] APIs. Make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE [prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing* the model. Depending on your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] setup, refreshing might not happen automatically. You can refresh data manually, or by scheduling a refresh. You can do a manual refresh at any time. A scheduled refresh lets you refresh data automatically at defined time intervals.
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
-## See also
+## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
+
+The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, we notify you in two ways:
+
+- An update banner displays in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] informing you that a new version is available.
+- A notification displays in Power BI's notification pane.
+
+When you update a template app, it's important that you're aware of your options and how they might overwrite earlier changes to the reports. You can choose to:
+
+- Update the workspace and the app.
+- Update workspace content only, without updating the app.
+- Install another copy of the app in a new workspace.
+
+To learn more, go to [Install, share, and update template apps in your organization](/power-bi/connect-data/service-template-apps-install-distribute#update-a-template-app).
+
+## Related information
 
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  

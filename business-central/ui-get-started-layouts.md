@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 ---
 # Get started creating report layouts
 
-Business Central includes many built-in layouts that you can use on your reports. Other layouts might have been added as part of other extensions. In addition, you can create your own report layouts, either from scratch or based on an existing layout.
+Business Central includes many built-in layouts that you can use on your reports. Other layouts might be added as part of other extensions. In addition, you can create your own report layouts, either from scratch or based on an existing layout.
 
 > [!NOTE]
 > You can also use report layouts to add content to email messages. Report layouts can help save time and ensure consistency by reusing the same content when you communicate with your customers. Only custom report layouts of the **Word** type can be used with email. Layouts of the **RDLC** type can't be used. Learn more in [Set up reusable email texts and layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
@@ -25,7 +25,7 @@ It can be helpful to think of a report layout as a file that is imported and ass
 The process of setting up a layout for a report involves three or four basic tasks.
 
 1. Choose the layout type.
-2. Export a copy of an existing layout to use as a starting point.
+2. Export a copy of an existing layout so that you can use it as a starting point.
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
 

@@ -28,6 +28,24 @@ You need [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses
 
 To learn more, go to [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites).
 
+## Can I install the same app multiple times for different companies or environments?
+
+Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app. 
+
+For more information, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
+
+## Can I use the same app to do reporting across multiple companies or environments?
+
+No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
+
+## How do I refresh the data in an app?
+
+See [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
+
+## How do I update an app?
+
+See [Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app](./across-powerbi-install-business-central-apps.md#updating-a-include-powerbi-name-app).
+
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
 No. At the moment, the source code (.pbix files) for the apps isn't available. However, its availability might change in a later release.
@@ -35,6 +53,8 @@ No. At the moment, the source code (.pbix files) for the apps isn't available. H
 ## Are the apps available for on-premises installations?
 
 No. At the moment, the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available for online environments.
+
+
 
 ## See also
 

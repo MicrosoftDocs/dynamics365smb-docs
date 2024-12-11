@@ -1,6 +1,6 @@
 ---
 title: Getting the Business Central Add-in for Excel
-description: Learn about how to get users the Business Central add-in for Excel. 
+description: Learn how to get users the Business Central Add-in for Excel. 
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -11,44 +11,44 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Get the Business Central add-in for Excel
+# Get the Business Central Add-in for Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select an **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Overview
 
 ### About the add-in
 
-The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from on the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).
+The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [View and Edit in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
-> The add-in works on Windows only; not macOS.
+> The add-in works on Windows only.
 
 ### About deployment as an admin
 
-With [!INCLUDE[prod_short](includes/prod_short.md)] online, there are a few deployment options for getting the add-in to users. One option is *individual acquisition*, where you let users install the add-in themselves. With this option, users must have access to downloading files from the Office Store. Another option is to set up *Centralized Deployment* in the Microsoft 365 admin center to automatically deploy the add-in to your entire organization, groups, or specific users. Centralized Deployment provides a way to get the add-in to users if your organization doesn't give users access to the Office Store.
+With [!INCLUDE[prod_short](includes/prod_short.md)] online, there are a few deployment options for getting the add-in to users. One option is *individual acquisition*, where users install the add-in themselves. With this option, users must have access to downloading files from the Office Store. Another option is to set up *Centralized Deployment* in the Microsoft 365 admin center to automatically deploy the add-in to your entire organization, groups, or specific users. Centralized Deployment provides a way to get the add-in to users if your organization doesn't give users access to the Office Store.
 
-For the end-user, the installation experience is different for the two deployment scenarios:
+For the user, the installation experience is different for the two deployment scenarios:
 
 - With individual acquisition, the first time users choose the **Edit in Excel** action, the **New Office Add-in** pane opens in Excel. To install the add-in, the user chooses **Trust this add-in**, which in turn installs the add-in directly from the Office Store. Users then sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using their user name and password.
 
-- With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)]
+- With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. A third deployment option is a manual installation of the add-in directly from Excel. With this option, users need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
+With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. A third deployment option is a manual installation of the add-in directly from Excel. With this option, users need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="switch"></a>Switching from individual acquisition to Centralized Deployment or the other way around
 
-When you change from individual acquisition of the add-in to Centralized Deployment, or vice versa, Excel files that users created before the transition are affected. After the transition, users can still open any Excel worksheets previously created using the **Edit in Excel** action or created manually by configuring the Excel add-in. But they can't update the data in the file from Business Central or push updates to Business Central
+When you change from individual acquisition of the add-in to Centralized Deployment, or vice versa, it affects Excel files that users created before the transition. After the transition, users can still open any Excel worksheets previously created using the **Edit in Excel** action or created manually by configuring the Excel add-in. But they can't update the data in the file from Business Central or push updates to Business Central.
 
-This condition is caused by the fact that each Excel file gets assigned an "add-in" identifier. In the transition to or from Centralized Deployment, a different ID is assigned, so the earlier ID becomes blocked.
+This is because each Excel file gets assigned an "add-in" identifier. In the transition to or from Centralized Deployment, a different ID is assigned, so the earlier ID becomes blocked.
 
 ## Preparation (on-premises only)
 
-[!INCLUDE[prod_short](includes/prod_short.md)] on-premises requires that your environment is configured for the add-in. If not, the **Edit in Excel** action isn't available to users. Learn more in [Setting up the Excel add-In for editing Business Central data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) in the Developer and IT Pro help.
+[!INCLUDE[prod_short](includes/prod_short.md)] on-premises requires that your environment is configured for the add-in. If not, the **Edit in Excel** action isn't available to users. Learn more in [Setting up the Business Central add-in for Excel in Business Central on-premises](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) in the Developer and IT Pro help.
 
 ## Deploy the add-in by using Centralized Deployment
 
-Centralized Deployment is a feature in Microsoft 365 admin center that you use to automatically install add-ins in users' Office apps, like Excel. To help you with Centralized Deployment, [!INCLUDE[prod_short](includes/prod_short.md)] includes the **Excel Add-in Centralized Deployment** assisted setup.
+Centralized Deployment is a feature in the Microsoft 365 admin center that you use to automatically install add-ins in users' Office apps, like Excel. To help you with Centralized Deployment, [!INCLUDE[prod_short](includes/prod_short.md)] includes the **Excel Add-in Centralized Deployment** assisted setup.
 
 ### Before you begin
 
@@ -57,13 +57,13 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 - If you're transitioning from individual acquisition, learn more in [Switching from individual acquisition to Centralized Deployment](#switch).
 
 > [!NOTE]
-> Enabling Centralized Deployment affects features that use the Excel add-in, such as the **Edit in Excel** action. It has no effect on other Excel-related features and or permissions assigned to users in [!INCLUDE[prod_short](includes/prod_short.md)]
+> Enabling Centralized Deployment affects features that use the Excel add-in, such as the **Edit in Excel** action. It has no effect on other Excel-related features or permissions assigned to users in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### Set up Centralized Deployment of the add-in
 
 In this task, you work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Microsoft 365 admin center.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Excel Add-in Centralized Deployment**, then choose the related link.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Excel Add-in Centralized Deployment**, and then choose the related link.
 2. Read the information on the **Business Central Excel add-in setup** page and choose **Next**.
 3. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2163967) and go to **Integrated Apps**<!--**Add-ins**-->.
 
@@ -78,15 +78,15 @@ In this task, you work in both [!INCLUDE[prod_short](includes/prod_short.md)] an
 4. Go back to **Excel Add-in Centralized Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)], and choose **Next**.
 5. Turn on **Use Centralized Deployment**, and choose **Finish**.
 
-    If you don't turn on this switch, [!INCLUDE[prod_short](includes/prod_short.md)] get the add-in directly from the Office Store.
+    If you don't turn on this switch, [!INCLUDE[prod_short](includes/prod_short.md)] gets the add-in directly from the Office Store.
 
-When finished, you can always change the deployment in Microsoft 365 admin center, like assigning more users. For more information about deploying add-ins in the admin center, see [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
+When finished, you can always change the deployment in the Microsoft 365 admin center, like assigning more users. For more information about deploying add-ins in the admin center, see [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > If you have more than one environment, you must run the **Excel Add-in Centralized Deployment** assisted setup on each environment that you want to use Centralized Deployment. However, you don't have to configure the Centralized Deployment in Microsoft 365 again. The only thing you have to do is turn on the **Use Centralized Deployment** switch in the assisted setup. 
 
 > [!NOTE]
-> It can take up to 24 hours before users the add-in deploys automatically in Excel of users.
+> It can take up to 24 hours before the add-in deploys automatically in Excel for users.
 
 ## <a name="install"></a>Individual acquisition: Install the add-in manually for your own use
 
@@ -94,9 +94,13 @@ In most cases, when you open Excel from Business Central, the add-in is either i
 
 1. Open Excel, then open any Excel workbook.
 1. On the **Home** tab, select **Add-ins** > **More Add-ins**.
-1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see there, select it, then choose **Add**. If you don't see it, go to **Store**, then search for *Microsoft Dynamics Office Add-In* and follow the instruction on screen to add it.
+1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see it there, select it, and then choose **Add**. If you don't see it, go to **Store**, and then search for *Microsoft Dynamics Office Add-In* and follow the instructions to add it.
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
+
+
+
+
 
 ### Configure the Business Central connection
 

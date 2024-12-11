@@ -1,6 +1,6 @@
 ---
 title: Building Reports in Power BI Desktop to Display Business Central Data
-description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
+description: Learn how to make your data a Power BI source and build insightful business reports.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -36,7 +36,7 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
     Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a username and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
@@ -49,16 +49,16 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. Once connected, you can start to build the report.
 
 1. Start [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
-2. Select **Get Data**.
+1. Select **Get Data**.
 
     If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-3. On the **Get Data** page, select **Online Services**.
-4. In the **Online Services** pane, do one of the following steps:
+1. On the **Get Data** page, select **Online Services**.
+1. In the **Online Services** pane, do one of the following steps:
 
     - To connect to [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Dynamics 365 Business Central**, then **Connect**.
     <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
-5. Sign-in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
+1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
 
     If you aren't signed in to [!INCLUDE [prod_short](includes/prod_short.md)] from [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], you're prompted to sign in.
 

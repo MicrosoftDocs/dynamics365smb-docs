@@ -156,6 +156,20 @@ Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a seman
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
+## Permissions
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], the user used for refreshing the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have read permissions to the tables used in the model. These tables are currently documented in the KPI article for the app, e.g. for the [!INCLUDE [powerbi-sales-app-name](includes/power-bi-sales-app.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user need read permissions on: https://learn.microsoft.com/en-us/dynamics365/business-central/sales-powerbi-sales-kpis
+
+In the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], it is recommended to add multiple admins for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app workspaces. Users who should be allowed to view report pages in an app should be granted Read permissions on the app.
+
+For the embedded pages in [!INCLUDE [prod_short](includes/prod_short.md)], permission sets exist for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app. Should you need to exclude read access to all or some of these pages, you can simply exclude the permission set (or permission on individual pages) for the users.
+
+## Governance of [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspaces
+
+Consider having the template app workspaces highly governed and not used directly for the embedded experience. For more information, see [Workspace governance level](/power-bi/guidance/powerbi-implementation-planning-workspaces-tenant-level-planning#workspace-governance-level).
+
+Instead, you can consider having a workspace used for the embed experience, where copies or custom versions of the template reports live. By doing this, you can help mitigate the problem of losing report customisations when upgrading the template app workspace. For more information on how to copy a report to another workspace, see [Copy reports from other workspaces](/power-bi/connect-data/service-datasets-copy-reports)
+
 ## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, we notify you in two ways:

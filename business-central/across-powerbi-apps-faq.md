@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 11/13/2024
+ms.date: 12/11/2024
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -44,7 +44,7 @@ To learn more, go to [Get the latest data (refresh the semantic model)](./across
 
 ## How do I update an app?
 
-To learn more, go to [Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app](./across-powerbi-install-business-central-apps.md#updating-a-include-powerbi-name-app).
+To learn more, go to [Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app](across-powerbi-install-business-central-apps.md#updating-a-include-powerbi-nameincludespowerbi-namemd-app).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 

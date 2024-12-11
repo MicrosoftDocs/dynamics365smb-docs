@@ -12,7 +12,7 @@ ms.date: 11/04/2024
 ms.author: jswymer
 ---
 
-<!-- No link for the action in line 38? In line 127, something is missing from this: "Moving the flow makes a copy the flow to the destination". Not sure what line 134 is about. -->
+<!-- No link for the action in line 38? In line 127, something is missing from this: "Moving the flow makes a copy the flow to the destination". Not sure what line 134 is about. In line 194, should it be "analysis mode" instead of "analyze mode" in this sentence: "If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off." -->
 
 # Personalize your workspace
 
@@ -186,20 +186,20 @@ At some point, you might want to undo some or all of the personalization changes
 
 ## Tips and other points of interest
 
-To help you better understand personalization, here are some pointers.
+To help you better understand personalization, here are some pointers:
 
 - When you make changes to a card page that you open from a list, the changes take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added is also shown.
 - Changes that you make affect all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you also see the change on the **Customers** page when the Role Center is set to Sales Order Processor.
 - Changes to a page in a pane take effect on the page wherever it appears.  
 - You can't personalize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
-- Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
-- If a part or group is hidden, ghosted fields still show inside it, but you can't drag-drop or add/show that field until you make the group/part visible.
+- Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/hiding/moving those fields is also independent without one affecting the other.
+- If a part or group is hidden, ghosted fields still show inside it, but you can't drag-and-drop or add/show that field until you make the group/part visible.
 
 > [!NOTE]
 > Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax. It applies to all design modes, not just personalization.
 >
 > Administrators can make the same layout changes as users by customizing a profile (role), which can be assigned to multiple users. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
-Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
+Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customize Business Central](ui-customizing-overview.md).
 
 ## See also
 

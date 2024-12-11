@@ -21,9 +21,9 @@ This article explains how to create sales documents faster by letting Copilot su
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Sales line suggestions with Copilot
+## Sales line suggestions
 
-Sales line suggestion with Copilot can assist with creating lines on sales documents such as sales quotes, orders, and invoices based on structured input or natural language. The feature isn't a general-purpose chat, but a highly specific and integrated experience that you can use on sales documents. The feature offers two distinct skills that help you find data about individual products or the entire documents.
+Sales line suggestion can assist with creating lines on sales documents such as sales quotes, orders, and invoices based on structured input or natural language. The feature isn't a general-purpose chat, but a highly specific and integrated experience that you can use on sales documents. The feature offers two distinct skills that help you find data about individual products or entire documents.
 
 - Find products
 
@@ -31,7 +31,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 - Find documents by reference
 
-  People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
+  People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company-assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
 
 ## Supported languages
 
@@ -39,11 +39,11 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 ## Prerequisites
 
-- The **Sales Line Suggestions** capability is activated by an administrator. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & AI** page. Learn more at [Configure Copilot and AI capabilities](enable-ai.md).
 
 ## Examples of prompts
 
-Suggest sales lines with Copilot can handle a wide variety of prompt input. This section offers some examples of prompts for various scenarios we tested.
+Suggest sales lines with Copilot can handle a wide variety of prompt input. This section offers examples of prompts for various scenarios we tested.
 
 ### Sample inquiry to repeat a document
 
@@ -55,7 +55,7 @@ Prompt: *2 Red Kids Biicycle*
 
 The prompt works, even with multiple typos.
 
-### A user copies an inquiry from an inbound communication and pastes it to the Sales Lines Suggestions page
+### A user copies an inquiry from an inbound communication and pastes it onto the Sales Lines Suggestions page
 
 Prompt: *Hello, I'm interested in buying some accessories for my XXXX Laptop, such as a wireless mouse, a keyboard cover, and a laptop bag. I wonder if you have any recommendations or suggestions for these items. Do you have any special offers or discounts for loyal customers like me? Kind regards, M*
 

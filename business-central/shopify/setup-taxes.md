@@ -1,7 +1,7 @@
 ---
 title: Set up taxes for Shopify connection
 description: How to set up taxes in Shopify and Business Central.
-ms.date: 05/29/2024
+ms.date: 12/09/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf

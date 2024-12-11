@@ -9,7 +9,7 @@ ms.author: altotovi
 ms.custom: references_regions
 ---
 
-# Development of validated localization apps
+# Development of Validated Localization apps
 
 This article describes the requirements and guidelines for developing a Validated Localization app for [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -20,9 +20,9 @@ This article describes the requirements and guidelines for developing a Validate
 In the following sections, you can find requirements and guidelines. You can reach out to the program team if you want to participate in this program and comply with the below requirements by contacting us through [Microsoft localization team](mailto:d365bcloc@microsoft.com).
 
 > [!IMPORTANT]
-> The [!INCLUDE[prod_short](includes/prod_short.md)] Validated Localization apps initiative is currently being rolled out as a pilot program. Below requirements and benefits can change based upon the partner and customer feedback.  
+> The [!INCLUDE[prod_short](includes/prod_short.md)] Validated Localization apps initiative is currently being rolled out as a pilot program. The following requirements and benefits can change based upon the partner and customer feedback.  
 
-Apps in the validated localization pilot program contain a set of functionalities addressing local regulatory requirements that fall within one of the categories in the following list.  
+Apps in the Validated Localization pilot program contain a set of functionalities addressing local regulatory requirements that fall within one of the categories in the following list.  
 
 - **Regulatory requirements** - local functionality that helps businesses fulfill their legal requirements, such as tax reporting, local E-invoicing formats, local GAAP, and other regulatory requirements.
 - **National standards requirement** – local functionality that addresses local standards, such as address formats, national banking formats, or local interpretations of global standards.
@@ -32,7 +32,7 @@ Apps in the validated localization pilot program contain a set of functionalitie
 > Local market needs or industry requirements should not be included in the preferred localization apps. If apps contain these functionalities, the apps can't be approved as Validated Localization apps.
 
 > [!NOTE]
-> Local functionality is beneficial to the productivity business processes in a country and thereby adding value to business but aren't required from a regulatory perspective, such as specific banking and payment formats, expense reports, HR features, payroll, and similar smaller or bigger, and nice-to-have features should be isolated into other apps. If apps contain these functionalities, they aren't approved as Validated Localization apps.   
+> Local functionality is beneficial to the productivity business processes in a country and thereby adds value to a business but isn't required from a regulatory perspective, such as specific banking and payment formats, expense reports, HR features, and payroll. Similar smaller or bigger, and nice-to-have features should be isolated into other apps. If apps contain these functionalities, they aren't approved as Validated Localization apps.
 
 ## Validated Localization app business requirements  
 
@@ -75,12 +75,12 @@ In addition to the technical requirements for the preferred localization app, th
 
 ### Technical requirements  
 
-In the following, you find a list of requirements that you must meet before submitting the Validated Localization app as an extension for validation. This list doesn’t change the [technical validation list](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) and only extends requirements from there.  
+The following are requirements that you must meet before submitting the Validated Localization app as an extension for validation. This list doesn’t change the [technical validation list](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) and only extends requirements from there.  
 
-- The Validated Localization app providers must build the Validated Localization app based on the W1 base app.  
-- The Validated Localization app providers must follow Microsoft lifecycle and support policies.
-- Mandatory test automation must cover a minimum of 80% of code. Test automation must cover all business processes that change with the Validated Localization app.  
-- The Validated Localization app providers must update and/or test its Validated Localization app before the official launch of new release (minimum with the RC before new release) to confirm there are no issues. 
+- Providers must build the Validated Localization app based on the W1 base app.  
+- Providers must follow Microsoft lifecycle and support policies.   
+- Mandatory test automation must cover a minimum 80% of code and all business processes that change with the Validated Localization app must be covered by test automation.  
+- Providers must update and/or test its Validated Localization app before the official launch of new release (minimum with the RC before new release) to confirm there are no issues. 
 - All objects in the Validated Localization app code must be in English.   
 - The Validated Localization app providers must follow Microsoft policy for obsolete objects and breaking changes and best practices for deprecation of the AL Code.  
 - The Validated Localization app providers should add new events if required by the market (other implementation partners or customers) if it makes reasonable business sense. The events must follow Microsoft policy and practice. Otherwise, the validated localization app providers must provide a response to justify why it doesn't make reasonable business sense to add them.
@@ -88,9 +88,9 @@ In the following, you find a list of requirements that you must meet before subm
 - If a Validated Localization app extends the [!INCLUDE[prod_short](includes/prod_short.md)] data model with new tables and/or fields, the Validated Localization app provider must set the **DataClassification** property correctly.
 
 > [!NOTE]  
-> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or web services.
+> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example, APIs or web services.
 
-## See also
+## Related information
 
 [Technical validation](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Development of a standard Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

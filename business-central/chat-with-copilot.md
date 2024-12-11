@@ -24,23 +24,22 @@ This article explains how to chat with Copilot to get answers about your company
 
 Microsoft Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
 
-- Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum."
+- Find business data for your company in Business Central. Use chat to look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum".
 
-  By working together with the analysis assist feature, Copilot can also aggregate data for you. Prompting chat to group records or perform calculations, such as summing or averaging, generates an analysis tab displaying the results.
-- Get explanations or step-by-step guidance on various tasks. For example, ask "Help me understand dimensions" or "How do I post a sales order." [Learn more](#prompting-for-aggregating-data-on-analysis-tabs).
-- Understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+  Copilot can also organize data for you. Just ask it to group records or do calculations like adding or averaging, and it generates an analysis tab, displaying the results.
 
-Copilot's sources responses from the official information available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/).
+- Get explanations or step-by-step guidance on various tasks. For example, ask: "Help me understand dimensions" or "How do I post a sales order". Learn more about prompting in [Prompting for aggregating data on analysis tabs](#prompting-for-aggregating-data-on-analysis-tabs).
+- Know the purpose and use of each field. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
   
-Using chat with Copilot streamlines your workflow by bypassing traditional navigation and product help.
-  
-> [Watch video](https://go.microsoft.com/fwlink/?linkid=2250609)
+Using chat with Copilot streamlines your workflow by bypassing traditional navigation and product help. Watch [Work smarter with Copilot in Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2250609) to learn more.
+
+Copilot's source responses are generated from the official [Microsoft Dynamics 365 Business Central documentation](https://learn.microsoft.com/dynamics365/business-central/) page.
 
 ## Prerequisites
 
 - The display language in Business Central is set to English. Learn more in [Change basic settings](ui-change-basic-settings.md#language). 
 - The **Chat** capability is activated by an administrator. Learn more in [Configuring Copilot and AI capabilities](enable-ai.md).
-- You're signed in to a Business Central environment that's hosted in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
+- You're signed in to a Business Central environment hosted in the United States. Consult an administrator if you're not sure. Learn more in [How to find the Azure region of a Business Central environment](ai-copilot-data-movement.md#how-to-find-the-azure-region-of-a-business-central-environment).
 
 Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
@@ -58,14 +57,14 @@ Learn more about geographic and language availability at [Copilot international 
 
    > [!TIP]
    > Copilot includes a couple of features that can help you write questions:
-   > - To help formulate questions, select one of the prompt guides&mdash;**Find**, **Explain**, or **Guide**&mdash;available the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the ![Shows prompt guide icon](media/prompt-guide-icon.png) **View Prompts**  icon above **Ask a question** box ![Shows callout number 4](media/callout-number-4.svg). Prompt guides are predefined short phrases that begin a question or prompt. They save you time, guide Copilot's responses toward a category of answers, and help you learn how to phrase questions to get the best responses.
+   > - To help formulate questions, select one of the prompt guides&mdash;**Find**, **Explain**, or **Guide**&mdash;available at the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the ![Shows prompt guide icon](media/prompt-guide-icon.png) **View Prompts**  icon above **Ask a question** box ![Shows callout number 4](media/callout-number-4.svg). Prompt guides are predefined short phrases that begin a question or prompt. They save you time, guide Copilot's responses toward a category of answers, and help you learn how to phrase questions to get the best responses.
    > - Select the prompt suggestions above the **View prompts** button ![Shows callout number 5](media/callout-number-5.svg) to automatically ask a predefined question to see how the questions and answers work. Prompt suggestions are only available when you're using the CRONUS demonstration company.
 
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).
 
-   Depending on your question, the answer can contain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
+   The answers you receive depend on your question—it could include text, links to pages in Business Central, or helpful articles from Microsoft Learn.
 
-   To assist you better, Chat might ask for more details about your prompt and offer you to choose from a few options. In some instances, Chat follows an answer with related prompt suggestions for you to choose from ![Shows callout number 5](media/callout-number-5.svg).
+   To assist you better, Chat might ask for more details about your prompt and give you a few options to choose from. In some instances, Chat follows an answer with related prompt suggestions for you to choose from ![Shows callout number 5](media/callout-number-5.svg).
 
 1. Ask another question to refine the answer.
 
@@ -73,7 +72,7 @@ Learn more about geographic and language availability at [Copilot international 
 
 ## Clear chat to start over
 
-If you want to switch to a different topic of conversation with Copilot, select the ![Shows the clear chat icon](media/clear-chat-icon.png) **Start a new Copilot chat session**  icon at the bottom of the Copilot pane above the question box. This action clears Copilot's memory of your last few messages. Starting over is often helpful after a lengthy conversation with many messages, and it can help Copilot deliver more accurate answers.
+To switch to a different topic with Copilot, select the ![Shows the clear chat icon](media/clear-chat-icon.png) **Start a new Copilot chat session**  icon at the bottom of the Copilot pane, just above the question box. This clears Copilot's memory of your last few messages. Starting over is often helpful after a lengthy conversation and it can help Copilot deliver more accurate answers.
 
 The chat also clears if you close or sign out of Business Central.
 
@@ -89,11 +88,11 @@ Here are some ways you can improve the answers you get from Copilot:
 - Use natural language, expressing the questions in a friendly and conversational manner.
 - Use keywords, phrases, and terms that you know are used in Business Central, either in the app or documentation.
 - Ask follow-up questions or rephrase the last question if the initial response doesn't fully answer your questions.
-- Clear the current chat session to start over if you're asking a question on a different subject matter than previous question.
+- Clear the current chat session to start over if you're asking a question on a different subject matter than the previous question.
 
 ### Prompting for aggregating data on analysis tabs
 
-If you prompt using phrases related to data aggregation, chat creates an analysis tab that you can open from a link it replies with in the Copilot pane. For example, the following figure illustrates an answer you could get for the prompt: "In which countries are my top customer":
+If you prompt using phrases related to data aggregation, chat creates an analysis tab that you can open from a link it replies with in the Copilot pane. For example, the following figure illustrates an answer you could get for the prompt: "In which countries are my top customer?":
 
 ![Shows a link tot ana analysis tab in the chat with Copilot pane](media/chat-analysis-tab.png)
 
@@ -107,11 +106,11 @@ Learn more about analysis tabs in [Analyze data in lists with help from Copilot]
 
 ### Example prompts
 
-Your questions to Copilot vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that show different ways of asking questions in the chat pane that can inspire you to write your own questions based on your situation.
+Your questions to Copilot vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. Here are some examples to show different ways to ask questions in the chat pane to help inspire you to write your own based on your situation.
 
 Prompt: `Find the Item with Description 'ATHENS Desk'`
 
-In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list. You indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
+In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list. You indicate the field 'Description' must be a specific text that you typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
 
 Prompt: `Give me the latest invoice for adatum`
 
@@ -119,7 +118,7 @@ In this example, you ask Copilot to locate a record, but the question is less pr
 
 Prompt: `Show me customer ledger entries for Adatum from about three weeks ago`
 
-In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot can usually understand common expressions and business terms.
+In this example, you ask Copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot can usually understand common expressions and business terms.
 
 Prompt: `How does I save my filterrings for later?`
 

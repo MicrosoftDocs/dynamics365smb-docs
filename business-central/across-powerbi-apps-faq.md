@@ -44,7 +44,7 @@ To learn more, go to [Get the latest data (refresh the semantic model)](./across
 
 ## How do I update an app?
 
-To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-include-powerbi-nameincludespowerbi-namemd-app).
+To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 

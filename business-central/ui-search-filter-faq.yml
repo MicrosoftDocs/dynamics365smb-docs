@@ -27,7 +27,7 @@ sections:
       - question: |
           Exactly which fields are matched when searching?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] applies the search criteria to all fields that are visible on the page. If a field has been hidden, such as by using personalization, search won't consider this field. Search criteria are applied to fields only if their data type matches that of the search criteria. For example, searching for the term *today* will search all text and code fields for the literal value "today", and also any date fields where *today* is evaluated as an expression for the current date, but won't search in any numeric fields. For more information on filter criteria, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
+          [!INCLUDE[prod_short](includes/prod_short.md)] applies the search criteria to all fields that are visible on the page. If a field has been hidden, such as by using personalization, search won't consider this field. Search criteria are applied to fields only if their data type matches that of the search criteria. For example, searching for the term *today* will search all text and code fields for the literal value "today", and also any date fields where *today* is evaluated as an expression for the current date, but won't search in any numeric fields. For more information on filter criteria, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md#filter-criteria-and-operators).
           
       - question: |
           Is there a keyboard experience for search and filter?

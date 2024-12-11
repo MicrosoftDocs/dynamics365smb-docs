@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 ---
 # Get the Business Central Add-in for Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select an **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select the **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Overview
 
@@ -98,38 +98,34 @@ In most cases, when you open Excel from Business Central, the add-in is either i
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
 
-
-
-
-
 ### Configure the Business Central connection
 
 If a user can't connect automatically, you can unblock them by asking them to follow these steps:
 
 1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If you don't see it, choose the ![More option button in Excel.](media/cogwheel.png) icon at the top to open the options dialog. 
-2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it the URL of the web client, like `https://myBCserver/240`.
+2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it to the URL of the web client, like `https://myBCserver/240`.
 3. Choose **OK**, and then confirm that the app reloads.
 4. When prompted, sign in with your Business Central user name and password.
 5. Optionally, choose the environment and company that you want to connect to.
 
 The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], and you can edit data and publish the changes to [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Prepare devices and network for the Excel Add-In
+## Prepare devices and network for the Excel add-in
 
 Network services such as proxies or firewalls must allow routing between each client device on which the add-in is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## Troubleshooting
 
-Sometimes, users run into problems with the Excel add-in. This section gives some tips for how to unblock users in certain circumstances.
+Sometimes, users run into problems with the Excel add-in. This section gives tips for how to unblock users in certain circumstances.
 
 |Problem  |Solution or workaround  |Comments  |
 |---------|---------|---------|
-|The add-in doesn't start <br><br>For example, the user gets the message "Add-in Warning: This add-in is no longer available." when trying to use the add-in. This particular problem can happen if centralized deployment is configured correctly, but the user wasn't assigned access.|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In those cases, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Data doesn't load into Excel|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]. Or, open the workbook in Excel in a browser.|If the user specified a company name that contains special characters, the add-in can't connect. |
+|The add-in doesn't start. <br><br>For example, the user gets the message "Add-in Warning: This add-in is no longer available" when trying to use the add-in. This particular problem can happen if Centralized Deployment is configured correctly, but the user wasn't assigned access.|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In that case, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|Data doesn't load into Excel.|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]. Or, open the workbook in Excel in a browser.|If the user specified a company name that contains special characters, the add-in can't connect. |
 |Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)].|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customized, remove the extensions, and then try again.|
-|The dates are wrong  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] doesn't get messed up.|         |
-|For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** check boxes for the published page. Selecting these check boxes excludes noneditable FlowFields and field from the eTag calculation. |These check boxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
-|Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might be caused by an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only|
+|The dates are wrong.  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] doesn't get messed up.|         |
+|For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** checkboxes for the published page. Selecting these checkboxes excludes noneditable FlowFields and fields from the eTag calculation. |These checkboxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
+|Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might be caused by an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only.|
 | The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
 
 ## Known limitations in business logic
@@ -137,11 +133,11 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 |Page  |Limitation| Comments  |
 |-------|---------|---------|
 |Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal'. Client callbacks aren't supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to options. Setting **Alternate Shipping Address** to **Ship-to** opens the **Ship-to Address List** modal dialog, which isn't compatible with Edit in Excel.|  
-|Project Journal|Update of the **Unit Price** field doesn't trigger an update of the **Line Amount**. Instead, it updates **Line Discount**.| Using the web client, you can update fields in any order&;price, amount, line discount. Other fields are updated automatically. To avoid cascade updates, the fields have some advanced logic that relies on xRec, which behaves differently when called via APIs.|
+|Project Journal|Update of the **Unit Price** field doesn't trigger an update of the **Line Amount**. Instead, it updates **Line Discount**.| Using the web client, you can update fields in any order—price, amount, line discount. Other fields are updated automatically. To avoid cascade updates, the fields have advanced logic that relies on xRec, which behaves differently when called via APIs.|
 
 ## Known limitations in metadata generation
 
-When using the **Edit in Excel** in [!INCLUDE [prod_short](includes/prod_short.md)], either by selecting **Edit in Excel** action on a page or when the Excel add-in loads after opening an Excel workbook, you might encounter the following error: _Metadata was unable to be retrieved for entity \<entity name\> as it was not found_.
+When using the **Edit in Excel** in [!INCLUDE [prod_short](includes/prod_short.md)], either by selecting the **Edit in Excel** action on a page or when the Excel add-in loads after opening an Excel workbook, you might encounter the following error: _Metadata was unable to be retrieved for entity \<entity name\> as it was not found_.
 
 This error occurs when the page you're attempting to modify becomes too complex for **Edit in Excel** to process effectively. The primary cause is the installation of multiple extensions that add fields with identical field names to the same parent page, leading to conflicts. It's also possible for a single extension to block the metadata generation.
 
@@ -242,11 +238,11 @@ page 50120 "WebViewerB"
 
 To resolve this issue, there are two potential solutions:
 
-1. **Disable Extensions**:  To identify which extension is causing the conflict, you can disable extensions that affect the page one at a time. However, this approach might not be ideal if the extensions in question are necessary for your business processes.
+1. **Disable extensions**: To identify which extension is causing the conflict, you can disable extensions that affect the page one at a time. However, this approach might not be ideal if the extensions in question are necessary for your business processes.
 
-2. **Modify Extension Code**: This solution involves analyzing the root cause of the issue and addressing it by modifying the code of the conflicting extensions.
+2. **Modify extension code**: This solution involves analyzing the root cause of the issue and addressing it by modifying the code of the conflicting extensions.
 
-To better understand this issue, consider the following example involving the **Customer Card** page (ID 21). When you are on the **Customer List** page (ID 22) and select **Edit in Excel**, a web service is generated in the background that exposes the fields from the **Customer Card** page. This web service includes all page fields defined on the **Customer Card** page, while table fields are only be exposed if they correspond to a page field or are part of the primary key.
+To better understand this issue, consider the following example involving the **Customer Card** page (ID 21). When you are on the **Customer List** page (ID 22) and select **Edit in Excel**, a web service is generated in the background that exposes the fields from the **Customer Card** page. This web service includes all page fields defined on the **Customer Card** page, while table fields are only exposed if they correspond to a page field or are part of the primary key.
 
 When an extension is installed that extends the **Customer Card** page, the fields added by the extension are also exposed in the web service. While extensions can't create page fields with the same names as those fields already existing on the **Customer Card** page, conflicts can still arise when multiple extensions add fields with identical names.
 
@@ -310,9 +306,9 @@ tableextension 50102 CustomerTableExtension extends Customer
 }
 ```
 
-In this scenario, both extensions A and B add a page field named `ShoeSize` to the **Customer Card** page. This condition results in a conflict, which leads  to a metadata generation failure for the **Customer Card**  page.
+In this scenario, both extensions A and B add a page field named `ShoeSize` to the **Customer Card** page. This condition results in a conflict, which leads to a metadata generation failure for the **Customer Card** page.
 
-To resolve this issue, you need access to the code of at least one of the extensions, and then modify the conflicting page field names to avoid collisions.
+To resolve this, you need access to the code of at least one of the extensions, and then to modify the conflicting page field names to avoid collisions.
 
 <!--
 ## Deploy the Excel add-in for Business Central online
@@ -347,7 +343,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## See Also
+## See also
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Business Central](ui-work-product.md)  

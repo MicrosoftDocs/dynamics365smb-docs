@@ -1,13 +1,13 @@
 ---
 title: Change basic settings for the current user
-description: Learn how to change some basic settings in Business Central, for example, your role and role center, company, work date, and time zones.
+description: Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017, 3563_Primary
-ms.date: 05/24/2024
+ms.date: 12/11/2024
 ms.service: dynamics-365-business-central
 ---
 # Change basic settings
@@ -90,12 +90,12 @@ The **Region** setting determines how dates, times, numbers, and currencies are 
 
 Changes the display language. This field appears only when there's more than one language to choose from.
 
-The initial language is determined by your administrator or by your browser settings when you sign up for [!INCLUDE[prod_short](includes/prod_short.md)]. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
+When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], your administrator or your browser settings determine the initial language. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
 
 You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Administrators can modify the list of languages shown to users when selecting their language and region. This can be done in the **Allowed Languages** page. This allows administrators to only allow certain languages for which they know that language apps have been installed. This makes the action of selecting language simpler for users. 
+> On the **Allowed Languages** page, administrators can modify the list of languages that shows when people select their language and region. Administrators can show only the languages for which they know a language app is installed. Keeping the list of languages short and accurate makes it easier for people to choose a supported language.
 
 ## Time zone
 

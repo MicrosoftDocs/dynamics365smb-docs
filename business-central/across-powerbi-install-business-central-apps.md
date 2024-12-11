@@ -168,7 +168,7 @@ For the embedded pages in [!INCLUDE [prod_short](includes/prod_short.md)], permi
 
 Consider having the template app workspaces highly governed and not used directly for the embedded experience. For more information, see [Workspace governance level](/power-bi/guidance/powerbi-implementation-planning-workspaces-tenant-level-planning#workspace-governance-level).
 
-Instead, you can consider having a workspace used for the embed experience, where copies or custom versions of the template reports live. By doing this, you can help mitigate the problem of losing report customisations when upgrading the template app workspace. For more information on how to copy a report to another workspace, see [Copy reports from other workspaces](/power-bi/connect-data/service-datasets-copy-reports)
+Instead, you can consider having a single workspace per company that you use for the embed experience. In this workspace, you keep copies or custom versions of the template reports. By doing this, you can help mitigate the problem of losing report customisations when upgrading the template app workspace. For more information on how to copy a report to another workspace, see [Copy reports from other workspaces](/power-bi/connect-data/service-datasets-copy-reports)
 
 ## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
 

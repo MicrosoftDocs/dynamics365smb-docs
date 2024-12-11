@@ -148,8 +148,6 @@ When personalizing a page, you use the **Add field to page** pane to include fie
 
 Here are some general guidelines to follow when using the **Add field to page** pane:
 
-
-
 - By default, the pane lists all hidden fields. Hidden fields are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
 - You can filter the list to show other fields, for example, those fields currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes based on the filter option you choose.
   
@@ -157,11 +155,11 @@ Here are some general guidelines to follow when using the **Add field to page** 
 - Selecting a field in the list highlights its location on the page. If the field's currently hidden, its location by design is shown in a shaded state. 
 - To get more details about a field in the list, point to it or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to display a tooltip.
 - The fields available in the **Add field to page** pane are determined by the developer of the page and its source table or by a profile admin who [customized the page](ui-personalization-manage.md). You can't create new ones.
-- Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
+- Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/hiding/moving those fields is also independent without one affecting the other.
 
 ### Add a field so it's visible on the page
 
-From **Add field to page** pane, there are two ways to include a field that's currently hidden on the page:
+From the **Add field to page** pane, there are two ways to include a field that's currently hidden on the page:
 
 - Drag the field to the desired position. A thick horizontal or vertical line indicates the target location.
 - Select the field in the list, then go to the shaded field on the page and select the **Show** option.
@@ -176,15 +174,15 @@ At some point, you might want to undo some or all of the personalization changes
 1. On the **Personalizing** banner, choose the **Clear personalization** action.
 2. Choose one of the following options.  
 
-> [!CAUTION]
-> Clearing personalization can't be undone.
+   > [!CAUTION]
+   > Clearing personalization can't be undone.
 
-|Option|What it does|
-|------|------------|
-|**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
-|**Only Actions**|Clears any personalization changes that you ever made on the navigation or action bars on the page.|
-|**Only Fields and Columns**|Clears any personalization changes that you ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
-|**All**|Clears all personalization changes that you made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
+   |Option|What it does|
+   |------|------------|
+   |**Only Navigation Menu**|Clears any personalization changes that you made to the navigation menu that is shared across the Role Center and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
+   |**Only Actions**|Clears any personalization changes that you made on the navigation or action bars on the page.|
+   |**Only Fields and Columns**|Clears any personalization changes that you made to the page except changes on the navigation or action bars. Such changes include changes to fields, columns, parts, and tiles. |
+   |**All**|Clears all personalization changes that you made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
 
 ## Tips and other points of interest
 

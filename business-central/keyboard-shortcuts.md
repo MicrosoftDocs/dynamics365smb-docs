@@ -86,7 +86,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 | <kbd>Shift</kbd>+<kbd>F9</kbd> | Post and print a document. | The same. |
 | <kbd>Shift</kbd>+<kbd>F10</kbd> | Open a menu of options that are available for the selected row. | The same. |
 | <kbd>Alt</kbd>+<kbd>D</kbd> | Open the dimension set entries. | The same. |
-| <kbd>Ctrl</kbd>+<kbd>F7</kbd> | Open ledger entries, logs entries, cost entries, and other types of entries. | |
+| <kbd>Ctrl</kbd>+<kbd>F7</kbd> | Open ledger entries, log entries, cost entries, and other types of entries. | |
 | <kbd>Ctrl</kbd>+<kbd>F9</kbd> | Release a document. | The same. |
 | <kbd>F7</kbd> | Open statistics. | The same. |
 | <kbd>F9</kbd> | Post, issue, register, or reverse a document. | The same. |
@@ -162,7 +162,7 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Ctrl</kbd>+<kbd>Up arrow</kbd> | Open the previous record for an entity. |
 | <kbd>Ctrl</kbd>+<kbd>Insert</kbd> | Insert a new line in documents. |
 | <kbd>Ctrl</kbd>+<kbd>Delete</kbd> | Delete the line in documents, journals, and worksheets. |
-| <kbd>Ctrl</kbd>+<kbd>F7</kbd> | Open ledger entries, logs entries, cost entries, and other types of entries. |
+| <kbd>Ctrl</kbd>+<kbd>F7</kbd> | Open ledger entries, log entries, cost entries, and other types of entries. |
 | <kbd>Ctrl</kbd>+<kbd>F9</kbd> | Release a document. |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> | Maximize the line items part on a document page. Select this keyboard shortcut again to return to the normal display. Learn more in [Focusing on Line Items](ui-enter-data.md#Focus). |
 | <kbd>F6</kbd> | Move to the next FastTab or part (subpage). |
@@ -205,7 +205,7 @@ To set a date field, you can manually enter the date, or you can open a calendar
 
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|
-| <kbd>t</kbd> | Enter the current date. The *t* stands for "today". |
+| <kbd>t</kbd> | Enter the current date. The *t* stands for "today." |
 | <kbd>w</kbd> | Enter the work date. Learn more in [Work date](ui-change-basic-settings.md#work-date). |
 
 ## <a name="reportpreviewshortcuts"></a>Keyboard shortcuts in the report preview

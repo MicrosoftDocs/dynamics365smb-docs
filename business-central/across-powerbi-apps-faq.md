@@ -32,7 +32,7 @@ To learn more, go to [Installing Power BI apps for Business Central (prerequisit
 
 Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app. 
 
-For more information, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
+To learn more, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
 
 ## Can I use the same app to do reporting across multiple companies or environments?
 
@@ -40,11 +40,11 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 ## How do I refresh the data in an app?
 
-See [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
+To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
 ## How do I update an app?
 
-See [Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app](./across-powerbi-install-business-central-apps.md#updating-a-include-powerbi-name-app).
+To learn more, go to [Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app](./across-powerbi-install-business-central-apps.md#updating-a-include-powerbi-name-app).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 

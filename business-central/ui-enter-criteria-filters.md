@@ -115,7 +115,7 @@ For lists, the filters are shown in a filter pane that appears to the left of th
 
 ### Filter by using option fields
 
-For "ordinary" fields that hold data, setup date, or business data, you can set filters both by selecting data and by entering filter values. You can also use symbols to define advanced filter criteria. Learn more in [Entering filter criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
+For "ordinary" fields that hold data, setup date, or business data, you can set filters both by selecting data and by entering filter values. You can also use symbols to define advanced filter criteria. Learn more in the [Enter filter criteria](#enter-filter-criteria) section.
 
 However, for fields of the **Option** type, you can set a filter only by selecting one or more available options in a dropdown list. An example of an option field is the **Status** field on the **Sales Orders** page.
 

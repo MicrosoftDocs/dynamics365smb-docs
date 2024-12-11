@@ -79,7 +79,7 @@ After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCL
 
 When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
 
-The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps currently work per company in [!INCLUDE [prod_short](includes/prod_short.md)]. If you have multiple companies in your [!INCLUDE [prod_short](includes/prod_short.md)] environment, you must install and set up a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app for each company.
+[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
 
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
@@ -156,7 +156,7 @@ Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a seman
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
-## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
+## Updating a Power BI app
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, we notify you in two ways:
 

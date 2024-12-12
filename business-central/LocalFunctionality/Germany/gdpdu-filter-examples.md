@@ -1,6 +1,6 @@
 ---
-title: GDPdU Filter Examples [DE]
-description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports.
+title: GoBD Filter Examples [DE]
+description: The following topic provides examples of how you can use and combine different filter types when you set up your GoBD exports.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -12,9 +12,9 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# GDPdU Filter Examples in the German Version
+# GoBD Filter Examples in the German Version
 
-The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports. By setting filters appropriately, you can improve performance.  
+The following topic provides examples of how you can use and combine different filter types when you set up your GoBD exports. By setting filters appropriately, you can improve performance.  
 
 The following examples use the G/L Entry and Cust. Ledger Entry tables for data. They assume that you have specified the following date in the **Export Business Data** batch job.  
 
@@ -82,7 +82,7 @@ Results of the export:
 
 ## See Also
 
-[Set Up Data Exports for a Digital Audit (GoBD/GDPdU)](how-to-set-up-data-exports-for-digital-audits.md)  
+[Set Up Data Exports for a Digital Audit (GoBD)](how-to-set-up-data-exports-for-digital-audits.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

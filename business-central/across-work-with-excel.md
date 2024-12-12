@@ -1,6 +1,6 @@
 ---
-title: Viewing and Editing in Excel From Business Central
-description: Learn about how you can open the pages in Microsoft Excel from Business Central for better data analysis.
+title: Viewing and editing in Excel from Business Central
+description: Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 ---
 # View and edit in Excel from Business Central
 
-With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel, and view it there. Depending on the page, you have two options for viewing in Excel. Both options are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
+With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel and view it there. Depending on the page, you have two options for viewing in Excel. Both are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
 ## Open in Excel
 
@@ -58,7 +58,7 @@ You can switch the company that you're working with. To switch company, select t
 If you make changes to the add-in, you must reload it to update the connection. To reload, use the ![Excel add-in menu](media/excel-addin-menu.png "Excel add-in menu") menu in the top-right corner of the add-in. If you can't load the add-in, talk to your administrator. If you're the administrator, see [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md).
 
 > [!NOTE]
-> The add-in works with Excel for the web (online) from any device as long as as use a supported browser. It also works with the Excel app for Windows (PC); but not for macOS.
+> The add-in works with Excel for the web (online) from any device as long as you use a supported browser. It also works with the Excel app for Windows (PC), but not for macOS.
 >
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been configured by your administrator, and only available for the Web client. For administrators, if you want to learn how to install the Excel add-in, see [Setting up the Excel Add-In for Editing Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 

@@ -19,7 +19,11 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
 
 For Intrastat reporting, you must provide paper reports and files, which must be in ASCII format for Germany. [!INCLUDE[prod_short](../../includes/prod_short.md)] includes reports and batch jobs that generate all of the information that must be sent to the German tax authorities. This information automatically includes both receipt and delivery of goods. The Intrastat file contains information from the lines in the **Intrastat** journal.  
 
-## To print the German Intrastat checklist  
+## Deprecated Intrastat Funcionallity
+
+In the following text you can read details about deprecated old Intrastat Journals functionality. For new updated version of Intrastat, you can find instruction [here](/../../finance-how-setup-report-intrastat.md).  
+
+### To print the German Intrastat checklist  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch name.
@@ -33,7 +37,7 @@ For Intrastat reporting, you must provide paper reports and files, which must be
 6. Optionally, on the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
 7. Choose the **Print** button to print the Intrastat checklist or choose the **Preview** button to view it on the screen.  
 
-## To print the German Intrastat form  
+### To print the German Intrastat form  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch name.  
@@ -42,7 +46,7 @@ For Intrastat reporting, you must provide paper reports and files, which must be
 5. Optionally, on the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
 6. Choose the **Print** button to print the Intrastat checklist or choose the **Preview** button to view it on the screen.  
 
-## To export Intrastat information to a disk  
+### To export Intrastat information to a disk  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch name.  

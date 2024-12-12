@@ -13,15 +13,15 @@ ms.service: dynamics-365-business-central
 
 # Submit and report the IRS 1099 forms
 
-## Register with IRS  
+## Register with the IRS  
 
 > [!IMPORTANT]
-> The integration functionality via IRIS APIs will be ready until releasing **2025 release wave 1**.  
+> Integration via IRIS APIs will be available in one of the upcoming minor releases.  
 
 After you submit the document to the IRS by using the API, the status of the **IRS 1099 Form Document** changes to **Submitted**.  
 
 > [!NOTE]
-> More details about the integration will be available when we deliver the new feature. 
+> More details about the integration will be available when we deliver the new feature.
 
 ## To print  
 

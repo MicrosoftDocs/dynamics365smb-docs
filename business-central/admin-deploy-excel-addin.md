@@ -137,7 +137,7 @@ Sometimes, users run into problems with the Excel add-in. This section gives tip
 
 ## Known limitations in metadata generation
 
-When using the **Edit in Excel** in [!INCLUDE [prod_short](includes/prod_short.md)], either by selecting the **Edit in Excel** action on a page or when the Excel add-in loads after opening an Excel workbook, you might encounter the following error: _Metadata was unable to be retrieved for entity \<entity name\> as it was not found_.
+When using **Edit in Excel** in [!INCLUDE [prod_short](includes/prod_short.md)], either by selecting the **Edit in Excel** action on a page or when the Excel add-in loads after opening an Excel workbook, you might encounter the following error: _Metadata was unable to be retrieved for entity \<entity name\> as it was not found_.
 
 This error occurs when the page you're attempting to modify becomes too complex for **Edit in Excel** to process effectively. The primary cause is the installation of multiple extensions that add fields with identical field names to the same parent page, leading to conflicts. It's also possible for a single extension to block the metadata generation.
 

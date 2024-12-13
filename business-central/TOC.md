@@ -607,7 +607,6 @@ ms.service: dynamics-365-business-central
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Summary Aging Simp.](reports/report-109.md)
 ##### [Customer - Top 10 List](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md)
 ##### [Customer/Item Sales](reports/report-113.md)
@@ -618,6 +617,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Customer - Summary Aging Simp.](reports/report-109.md)
 ##### [Aged Accounts Receivables](reports/report-120.md)
 
 <!-- Financial analytics end -->

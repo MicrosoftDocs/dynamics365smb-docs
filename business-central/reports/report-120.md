@@ -17,6 +17,10 @@ ai.usage: ai-assisted
 
 # Aged Accounts Receivables (report)
 
+> [!NOTE]
+> This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables Excel** report instead. For more information, see [About *Aged Accounts Receivables Excel*](../reports/report-4402.md).
+
+
 The **Aged Accounts Receivables** report shows the number of outstanding customer invoices, credit memos, and payments.
 
 You can configure the report's aging to generate three equal length periods as of a date you specify. For example, the periods might be the three previous months from the end of the current month. The report calculates the customer's outstanding balance for each period, and balances due before or after the three periods.

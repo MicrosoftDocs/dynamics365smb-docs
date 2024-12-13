@@ -414,7 +414,7 @@ ms.service: dynamics-365-business-central
 #### [Close income statement accounts](year-close-income-statement.md)
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
 
-### Work with the chart of accounts and General Ledger (G/L)
+### Work with the chart of accounts and general ledger (G/L)
 #### [Understand the general ledger](finance-general-ledger.md)
 #### [Understand the chart of accounts](finance-chart-of-accounts.md)
 #### [Review accounts](finance-review-accounts.md)
@@ -433,7 +433,7 @@ ms.service: dynamics-365-business-central
 #### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
 #### [Import payroll transactions](finance-how-import-payroll-transactions.md)
 
-### Working with Currencies
+### Working with currencies
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
@@ -661,7 +661,7 @@ ms.service: dynamics-365-business-central
 <!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
-### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
@@ -690,7 +690,7 @@ ms.service: dynamics-365-business-central
 ### Purchasing analytics 
 <!-- Purchasing analytics start -->
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
-#### [Power BI Purchasing app](purchases-powerbi-app.md)
+#### [Power BI purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
 ##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
 ##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
@@ -750,7 +750,7 @@ ms.service: dynamics-365-business-central
 <!-- Inventory analytics start -->
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
-#### [Power BI Inventory app](inventory-powerbi-app.md)
+#### [Power BI inventory app](inventory-powerbi-app.md)
 ##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
 ##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
 ##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
@@ -764,7 +764,7 @@ ms.service: dynamics-365-business-central
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 ##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
-#### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
+#### [Power BI inventory valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
@@ -826,7 +826,7 @@ ms.service: dynamics-365-business-central
 <!-- Project management analytics start -->
 #### [Project management analytics overview](projects-analytics-overview.md)
 
-#### [Power BI Projects app](projects-powerbi-app.md)
+#### [Power BI projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
 ##### [Projects Tasks](projects-powerbi-project-tasks.md)
 ##### [Projects Profitability](projects-powerbi-project-profitability.md)
@@ -959,7 +959,7 @@ ms.service: dynamics-365-business-central
 #### [Track email message exchanges](marketing-set-up-email-logging.md)
 #### [Process sales opportunities](marketing-processing-sales-opportunities.md)
 ### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
-### [Use Dynamics 365 for sales from Business Central](marketing-integrate-dynamicscrm.md)
+### [Use Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 #### [Couple and synchronize records manually](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [View the status of a synchronization](admin-how-to-view-synchronization-status.md)
 
@@ -1014,7 +1014,7 @@ ms.service: dynamics-365-business-central
 ### Manufacturing analytics
 <!-- Manufacturing analytics start -->
 #### [Manufacturing analytics overview](manufacturing-analytics-overview.md)
-#### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
+#### [Power BI manufacturing app](manufacturing-powerbi-app.md)
 ##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
 ##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
 ##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
@@ -2541,6 +2541,7 @@ ms.service: dynamics-365-business-central
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Suggest item substitutions (preview)
+### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)

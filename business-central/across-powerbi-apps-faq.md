@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 11/13/2024
+ms.date: 12/11/2024
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -27,6 +27,24 @@ You need [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses
 - Users who access the reports.
 
 To learn more, go to [Installing Power BI apps for Business Central (prerequisites)](across-powerbi-install-business-central-apps.md#prerequisites).
+
+## Can I install the same app multiple times for different companies or environments?
+
+Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app. 
+
+To learn more, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
+
+## Can I use the same app to do reporting across multiple companies or environments?
+
+No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
+
+## How do I refresh the data in an app?
+
+To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
+
+## How do I update an app?
+
+To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 

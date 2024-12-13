@@ -79,7 +79,7 @@ After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCL
 
 When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
 
-The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps currently work per company in [!INCLUDE [prod_short](includes/prod_short.md)]. If you have multiple companies in your [!INCLUDE [prod_short](includes/prod_short.md)] environment, you must install and set up a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app for each company.
+[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
 
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
@@ -158,17 +158,17 @@ To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)
 
 ## Permissions
 
-In [!INCLUDE [prod_short](includes/prod_short.md)], the user used for refreshing the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have read permissions to the tables used in the model. These tables are currently documented in the KPI article for the app, e.g. for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user need read permissions on: [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
+In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have Read permissions to the tables in the model. These tables are currently documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user needs Read permissions for: [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 
-In the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], it is recommended to add multiple admins for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app workspaces. Users who should be allowed to view report pages in an app should be granted Read permissions on the app.
+In the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], we recommend that you add multiple admins for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app workspace. Grant Read permissions to users who should be able to view report pages in an app.
 
-For the embedded pages in [!INCLUDE [prod_short](includes/prod_short.md)], permission sets exist for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app. Should you need to exclude read access to all or some of these pages, you can simply exclude the permission set (or permission on individual pages) for the users.
+For the embedded pages in [!INCLUDE [prod_short](includes/prod_short.md)], there are permission sets for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app. If you need to exclude read access to all or some of these pages, you can exclude the permission set (or permission on individual pages) for the users.
 
 ## Governance of [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspaces
 
-Consider having the template app workspaces highly governed and not used directly for the embedded experience. For more information, see [Workspace governance level](/power-bi/guidance/powerbi-implementation-planning-workspaces-tenant-level-planning#workspace-governance-level).
+Consider having the template app workspaces highly governed and not used directly for the embedded experience. To learn more, go to [Workspace governance level](/power-bi/guidance/powerbi-implementation-planning-workspaces-tenant-level-planning#workspace-governance-level).
 
-Instead, you can consider having a single workspace per company that you use for the embed experience. In this workspace, you keep copies or custom versions of the template reports. By doing this, you can help mitigate the problem of losing report customisations when upgrading the template app workspace. For more information on how to copy a report to another workspace, see [Copy reports from other workspaces](/power-bi/connect-data/service-datasets-copy-reports).
+Instead, consider having a single workspace per company that you use for the embed experience. In this workspace, keep copies or custom versions of the template reports. This helps mitigate the problem of losing report customizations when you upgrade the template app workspace. To learn more about how to copy a report to another workspace, go to [Copy reports from other workspaces](/power-bi/connect-data/service-datasets-copy-reports).
 
 ## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
 

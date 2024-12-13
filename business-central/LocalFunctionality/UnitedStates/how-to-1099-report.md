@@ -1,6 +1,6 @@
 ---
 title: Report and submit the IRS 1099 form [US]
-description: Learn how to submit and report the 1099 tax forms in the United States version.
+description: Learn how to submit and report the 1099 tax form in the United States version.
 author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, tax, IRS, IRIS, FIRE
@@ -13,15 +13,15 @@ ms.service: dynamics-365-business-central
 
 # Submit and report the IRS 1099 forms
 
-## Register with IRS  
+## Register with the IRS  
 
 > [!IMPORTANT]
-> Before **2024 release wave 2**, the integration functionality via IRIS APIs will be ready.  
+> Integration via IRIS APIs will be available in one of the upcoming minor releases.  
 
 After you submit the document to the IRS by using the API, the status of the **IRS 1099 Form Document** changes to **Submitted**.  
 
 > [!NOTE]
-> More details about the integration will be available when we deliver the new feature. 
+> More details about the integration will be available when we deliver the new feature.
 
 ## To print  
 
@@ -38,7 +38,7 @@ After calculation, you can use the **Print** action to print the document. When 
 > [!NOTE]
 > You can't send the document via email if its **Status** isn't **Submitted**. This restriction helps you avoid sending an un-submitted document to the vendor. 
 
-To be able to send form documents to your vendor, you must set up the consent and the email on the **Vendor Card** page. These settings include enabling the **Receiving 1099 E-Form Consent** field to acknowledge that your vendor has provided signed consent to receive their 1099 form electronically using email.  
+To send forms to your vendor, you must set up the consent and the email on the **Vendor Card** page. These settings include enabling the **Receiving 1099 E-Form Consent** field to acknowledge that your vendor provided signed consent to receive their 1099 form electronically using email.  
 
 > [!NOTE]
 > If your vendor gives consent for delivering 1099 forms via email, you can use the **E-Mail For IRS** field, but you can also keep this field blank and fill-in the standard **E-Mail** field. It will be used for sending instead.  
@@ -53,11 +53,11 @@ values on the **Email** FastTab of the document if you select **Show more**. Aft
 
 To send 1099 form to one specific vendor, you can do so from the chosen **1099 Form Document** by choosing the **Send Email** action. It's also possible to automate this process, and to send emails for multiple 1099 documents. To do that, open the **IRS 1099 Form Documents** list page, select one or more documents, and choose the **Send Email** action.  
 
-After you run the **Send Email** action, select the report type you want to send. You can choose **Copy B** or **Copy 2** (required in some situations). By default, emails are sent only to those vendors to whom they haven't been sent before. If you want to send emails for all selected documents (and resending for some of them), enable the **Resend Email** option on the request page. 
+After you run the **Send Email** action, select the report type you want to send. You can choose **Copy B** or **Copy 2** (required in some situations). By default, emails are sent only to vendors you haven't already sent them to. If you want to send emails for all selected documents (and resending for some of them), enable the **Resend Email** option on the request page. 
 
 After you select **OK**, an email is sent immediately for one document or, if you're sending multiple emails, it will be scheduled through the **Job Queue Entry**. If the email is sent successfully for a certain document, the **Copy B Sent** or **Copy 2 Sent** flag is set on the **IRS 1099 Form Document** page.   
 
-If you try to send email for only one document and sending failed, an error dialog displays. If you try to send email for multiple documents and sending fails, the error will be logged to the **Email Error Log** field on the **IRS 1099 Form Document** page. When the job for sending multiple documents is finished, the results are recorded in the activity log. To open the **Activity Log** page, choose the **Activity Log** action on the **IRS 1099 Form Documents** page. 
+If you try to send email for only one document and sending failed, an error dialog displays. If you try to send email for multiple documents and sending fails, the error is logged to the **Email Error Log** field on the **IRS 1099 Form Document** page. When the job for sending multiple documents is finished, the results are recorded in the activity log. To open the **Activity Log** page, choose the **Activity Log** action on the **IRS 1099 Form Documents** page. 
 
 ## See also 
 

@@ -1,6 +1,6 @@
 ---
 title: Aged Accounts Receivables (report)
-description: Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
+description: Legacy report for analyzing customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

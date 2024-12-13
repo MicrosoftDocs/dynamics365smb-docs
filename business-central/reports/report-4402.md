@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The **Aged Accounts Receivables Excel** report shows aggregated ageing data based on customer ledger entries in an Excel workbook. 
 
-The data is aggregated and bucketed according to the ‘Aged as of' and ‘period length' parameters in the reports request page. The aggregated data is summarised per the 2 global dimensions.
+The data is aggregated and bucketed according to the ‘Aged as of' and ‘Period length' parameters in the reports request page. The aggregated data is summarised per the 2 global dimensions.
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts receivables:
 - By period (LCY)
@@ -28,6 +28,10 @@ The report Excel workbook contains four worksheets that you can use to analyze y
 - CustomerAgingData
 
 Each worksheet represents a different dimension to your analysis.
+
+> [!NOTE]
+> This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If you see a banner with a text about external data connections, you might need to choose the botton **Enable content** to load data. The report does not connect to any external data sources, all calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to see data in the reports.
+
 
 ## By period (LCY) worksheet
 

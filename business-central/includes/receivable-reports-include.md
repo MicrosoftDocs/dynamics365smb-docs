@@ -16,7 +16,7 @@ The following table describes some of the key reports in accounts receivable. Th
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
-| [!INCLUDE [report-4402-scenario](../includes/report-4402-scenario-include.md)] | [Aged Accounts Receivables (Excel)](https://businesscentral.dynamics.com?report=4402) | [About *Aged Accounts Receivables (Excel)*](../reports/report-4402.md) | 4402 |
+| [!INCLUDE [report-4402-scenario](../includes/report-4402-scenario-include.md)] | [Aged Accounts Receivable (Excel)](https://businesscentral.dynamics.com?report=4402) | [About *Aged Accounts Receivable (Excel)*](../reports/report-4402.md) | 4402 |
 | [!INCLUDE [report-101-scenario](../includes/report-101-scenario-include.md)] | [Customer List](https://businesscentral.dynamics.com?report=101) | [About *Customer List*](../reports/report-101.md) | 101 |
 | Check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers. | [Customer - Detail Trial Balance](https://businesscentral.dynamics.com?report=104) | [About *Customer - Detail Trial Balance*](../reports/report-104.md) | 104 | 
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About *Customer - Order Summary*](../reports/report-107.md) | 107 |

@@ -104,7 +104,7 @@ There are multiple other options for analyzing your aged accounts receivables. T
 
 - [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
 - [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
-- [Aged Accounts Receivables Excel report](report-4402.md)
+- [Aged Accounts Receivable Excel report](report-4402.md)
 
 
 ## Learn more

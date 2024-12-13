@@ -15,13 +15,32 @@ ms.service: dynamics-365-business-central
 
 ## Register with the IRS  
 
+The new version of the 1099 functionality does not support printing 1099 reports directly on pre-printed forms. Users can submit 1099 forms using magnetic media or through integration with the IRIS. If users prefer to manually populate their 1099 forms, they can gather all necessary information from the **IRS 1099 Form Documents** and fill them out manually outside of the system.   
+
+Users can print or email 1099 copy substitutes to their vendors, including all the details required by the original forms.    
+
+### Submit using integration with IRIS  
+
 > [!IMPORTANT]
 > Integration via IRIS APIs will be available in one of the upcoming minor releases.  
 
 After you submit the document to the IRS by using the API, the status of the **IRS 1099 Form Document** changes to **Submitted**.  
 
 > [!NOTE]
-> More details about the integration will be available when we deliver the new feature.
+> More details about the integration will be available when we deliver the new feature.  
+
+### Submit using Magnetic Media  
+
+Submitting 1099 forms as magnetic media using the FIRE portal is optional for cloud users. However, it is the only available option for on-premises users because the Microsoft security certificate for A2A communication can only be used in the cloud.  
+
+To prepare magnetic media for submission, follow these steps: 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1099 FIRE**, and then choose the related link.  
+2. On the request page specifiy the tax year for the 1099 forms that you want to report in the **Calendar Year** field and the control code of the transmitter that is used to electronically file 1099 forms in the **Transmitter Control Code** field. 
+3. Populate other fields as required and choose **OK**.   
+
+> [!NOTE]
+> If you want to test this functionality, mark the **Test File** field to print a test file of the information that will be filed electronically.  
 
 ## To print  
 

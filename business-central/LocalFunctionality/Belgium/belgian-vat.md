@@ -36,6 +36,21 @@ For fixed assets, the non-deductible VAT depreciates just like the base acquisit
 
 If you select the **Incl. Non Deductible VAT** field in a VAT statement line, non-deductible VAT is included in the VAT amount. The **Calc. and Post VAT Settlement** report adds the non-deductible part of that amount to the **Non Ded. VAT Amount** and **Non Ded. Source Curr. VAT Amt.** fields in the resulting VAT entries.  
 
+## Multiple VAT Numbers for Customers   
+
+The new feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups** and **General Business Posting Groups** for addresses in another country, has been enabled in the Belgian localization. You can find more information [here](/../../finance-how-use-multiple-vat-registrations.md). 
+
+In addition to different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups**, users in the Belgian localization need to work with the **Enterprise No.** as well. When users open the **Alternative Customer VAT Registration** page, they can add the **Enterprise No.** for their customer if the address is in another country, if applicable. Users can populate this information, and [!INCLUDE[prod_short](../../includes/prod_short.md)] will behave as follows when working with sales documents:  
+
+- If the customer is from Belgium and the ship-to address is in Belgium, the **Enterprise No.** will come from the **Customer** card. 
+- If the customer is from Belgium and the ship-to address is not in Belgium, the **Enterprise No.** will be removed.   
+- If the customer is not from Belgium and the ship-to address is in Belgium, the **Enterprise No.** will come from the **Alternative Customer VAT Registration** page. 
+- If the customer is not from Belgium and the ship-to address is not in Belgium, the **Enterprise No.** will not exist.  
+
+> [!NOTE]
+> If there is a change in the **Enterprise No.** in a sales document, it will be displayed on the **Confirm Alternative Customer VAT Registration** dialog page.  
+
+
 ## See Also
 
 [Belgium Local Functionality](belgium-local-functionality.md)  

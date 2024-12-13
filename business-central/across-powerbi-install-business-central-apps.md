@@ -170,7 +170,7 @@ Consider having the template app workspaces highly governed and not used directl
 
 Instead, consider having a single workspace per company that you use for the embed experience. In this workspace, keep copies or custom versions of the template reports. This helps mitigate the problem of losing report customizations when you upgrade the template app workspace. To learn more about how to copy a report to another workspace, go to [Copy reports from other workspaces](/power-bi/connect-data/service-datasets-copy-reports).
 
-## Updating a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app
+## Updating a Power BI app
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are available as template app on AppSource. When a new version of a template app becomes available, we notify you in two ways:
 

@@ -107,7 +107,7 @@ The Data analysis feature lets you open almost a list page, such as General Ledg
 
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 
-Similarly, you can use the **Open in Excel** action to open a list page for ledger entries, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)], Analyze Data, What-If Analysis, or Forecast Sheet.
+Similarly, you can use the **Open in Excel** action to open a list page for ledger entries, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as [!INCLUDE [excel-copilot-name](includes/excel-copilot-name.md)], Analyze Data, What-If Analysis, or Forecast Sheet.
 
 :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
 

@@ -86,7 +86,7 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-vendor-ledger-entries-payments-on-hold-example.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries-payments-on-hold-example.png":::
+:::image type="content" source="media/data-analysis-vendor-ledger-entries-payments-on-hold-example.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page to find On hold entries." lightbox="media/data-analysis-vendor-ledger-entries-payments-on-hold-example.png":::
 
 
 ## Data foundation for ad-hoc analysis on purchasing

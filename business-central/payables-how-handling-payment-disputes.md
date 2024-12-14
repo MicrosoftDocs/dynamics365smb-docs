@@ -36,8 +36,10 @@ For instance, on the **Vendor ledger entries** page you can set a filter on the 
 <>''
 ```
 
+
 You can also take the vendor ledger entries list page into analysis mode and define an analysis tab. To learn more, go to
 [Using data analysis to show vendor ledger entries on hold](ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)
+
 
 Or you can run the [Payments on Hold](reports/report-319.md) report.
 

@@ -20,8 +20,8 @@ The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
-| [!INCLUDE [pbireport-average-collection-period-scenario-include](includes/pbireport-average-collection-period-scenario-include.md)]  | [Average Collection Period](https://businesscentral.dynamics.com?page=36992) | [About Average Collection Period](../finance-powerbi-average-collection-period.md) |
-| [!INCLUDE [pbireport-aged-receivables-back-dating-include](includes/pbireport-aged-receivables-back-dating-include.md)] | [Aged Receivables (Back Dating)](https://businesscentral.dynamics.com?page=36993) | [About Aged Receivables (Back Dating)](../finance-powerbi-aged-receivables-back-dating.md) |
+| [!INCLUDE [pbireport-average-collection-period-scenario-include](includes/pbireport-average-collection-period-scenario-include.md)]  | [Average Collection Period](https://businesscentral.dynamics.com?page=36992) | [About Average Collection Period](finance-powerbi-average-collection-period.md) |
+| [!INCLUDE [pbireport-aged-receivables-back-dating-include](includes/pbireport-aged-receivables-back-dating-include.md)] | [Aged Receivables (Back Dating)](https://businesscentral.dynamics.com?page=36993) | [About Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md) |
 
 To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 

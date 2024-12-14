@@ -27,11 +27,11 @@ You can mark a vendor ledger entry *On hold* if there is a dispute about a suppl
 The **Suggest Vendor Payments** batch job excludes vendor ledger entries that are **On Hold**. To learn more, go to [Suggest vendor payments](payables-how-suggest-vendor-payments.md).
 
 
-## Analyzing vendor ledger entry On hold
+## Analyzing On hold vendor ledger entries 
 
 There are multiple other options for analyzing entries on hold. 
 
-For instance, you can set filter the On Hold field on the vendor ledger entries list page to *<>''*.
+For instance, you can set filter the On Hold field on the vendor ledger entries list page to **<>''**.
 
 You can also take the vendor ledger entries list page into analysis mode and define an analysis tab. To learn more, go to
 [Using data analysis to show vendor ledger entries on hold](ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)

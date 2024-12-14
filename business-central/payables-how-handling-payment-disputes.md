@@ -43,12 +43,19 @@ You can also take the vendor ledger entries list page into analysis mode and def
 
 Or you can run the [Payments on Hold](reports/report-319.md) report.
 
+## Block vendors
+
+Related to marking vendor ledger entres On hold, you can also block a vendor, for example because of insolvency, so that the vendor can't be added to purchase documents or so that no payments can be posted for the vendor. 
+
+To learn more, go to [Block vendors](payables-how-block-vendors.md).
+
 
 ## Learn more
 
 [Using data analysis to show vendor ledger entries on hold](ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)  
 [Payments on Hold (report)](reports/report-319.md)  
 [Suggest vendor payments](payables-how-suggest-vendor-payments.md)  
+[Block vendors](payables-how-block-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
 
 

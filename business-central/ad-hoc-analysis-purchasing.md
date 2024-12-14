@@ -82,7 +82,7 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Vendor Name**, **Document Type**, and **Document No.** fields to the **Row Groups** area, and then drag the **Remaining Amount** field to the **Values** area.
 1. Drag the **On Hold** field to the **Column Labels** area.
-1. Rename your analysis tab to **Aged Payable Accounts On Hold**, or something that describes this analysis.
+1. Rename your analysis tab to **Payments On Hold**, or something that describes this analysis.
 
 The following image shows the result of these steps.
 

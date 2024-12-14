@@ -28,7 +28,16 @@ The following table describes the options for blocking vendors.
 2. Select the vendor that you want to block.
 3. In the **Blocked** field, choose one of the options for blocking.
 
+
+## Handling vendor payment disputes
+
+Related to blocking a vendor, you can mark vendor ledger entries *On hold* if there is a dispute about a supplier document. 
+
+To learn more, go to [Handling vendor payment disputes](payables-how-handling-payment-disputes.md).
+
 ## See also  
+
+[Handling vendor payment disputes](payables-how-handling-payment-disputes.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Making Payments](payables-make-payments.md)  
 [Managing Payables](payables-manage-payables.md)

@@ -68,6 +68,16 @@ Try the report here: [Payments on Hold](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are multiple other options for analyzing entries on hold. 
+
+For instance, you can set filter the On Hold field on the vendor ledger entries list page to *<>''*.
+
+Or you can take the vendor ledger entries list page into analysis mode and define an analysis tab. To learn more, go to
+[Using data analysis to show vendor ledger entries on hold](../ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)
+
+
 ## Related information
 
 [Purchase reports](../purchase-reports.md)  

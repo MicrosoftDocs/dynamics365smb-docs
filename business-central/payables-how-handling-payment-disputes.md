@@ -41,7 +41,7 @@ Or you can run the [Payments on Hold](reports/report-319.md) report.
 
 ## Learn more
 
-[Using data analysis to show vendor ledger entries on hold](../ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)  
+[Using data analysis to show vendor ledger entries on hold](ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)  
 [Payments on Hold (report)](reports/report-319.md)  
 [Suggest vendor payments](payables-how-suggest-vendor-payments.md)  
 [Managing Payables](payables-manage-payables.md)  

@@ -72,7 +72,7 @@ Try the report here: [Payments on Hold](https://businesscentral.dynamics.com?rep
 
 There are multiple other options for analyzing entries on hold. 
 
-For instance, on the vendor ledger entries list page you can set a filter on the **On Hold** field to this value
+For instance, on the **Vendor ledger entries** page you can set a filter on the **On Hold** field to this value
 ``` Filter
 <>''
 ```

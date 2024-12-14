@@ -31,7 +31,7 @@ The **Suggest Vendor Payments** batch job excludes vendor ledger entries that ar
 
 There are multiple other options for analyzing entries on hold. 
 
-For instance, you can set a filter on the **On Hold** field on the vendor ledger entries list page to this value
+For instance, on the **Vendor ledger entries** page you can set a filter on the **On Hold** field to this value
 ``` Filter
 <>''
 ```

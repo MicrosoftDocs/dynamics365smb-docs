@@ -591,7 +591,6 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
@@ -618,7 +617,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
-
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 <!-- Financial analytics end -->
 
 ## Sales
@@ -713,7 +712,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)

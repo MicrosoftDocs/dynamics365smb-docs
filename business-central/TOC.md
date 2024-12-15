@@ -319,7 +319,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
-#### [Accounts payable reports and analytics](payables-reports.md)
+#### [Accounts payable analytics](payables-reports.md)
 #### Make payments
 ##### [Make payments](payables-make-payments.md)
 ##### [Work with general journals](ui-work-general-journals.md)

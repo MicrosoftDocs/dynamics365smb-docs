@@ -66,7 +66,7 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Vendor Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
 ### Example: Finance (Sales invoices by G/L account)
 

@@ -21,19 +21,28 @@ The *Vendor - Summary Aging* report is a legacy report for aged accounts payable
 
 You can choose a period length and a date to use for an *overdue per* date.
 
-
 ## Try the report
 
 Try the report here: [Vendor - Summary Aging](https://businesscentral.dynamics.com?report=305)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are multiple other options for analyzing your aged accounts payables. To learn more, go to
+
+- [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
+- [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)
+- [Aged Accounts Payable Excel](../reports/report-4403.md)
+
 
 ## See also
 
-[Accounts receivable report overview](../receivables-reports.md)  
+[Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)  
+[Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)  
+[Aged Accounts Payable Excel](../reports/report-4403.md)  
+[Accounts receivable analytics](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

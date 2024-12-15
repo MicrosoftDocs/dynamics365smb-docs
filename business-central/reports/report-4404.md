@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Vendor - Top 10 List Excel (report)
 
-The **Vendor - Top 10 List Excel** report shows 
+The **Vendor - Top 10 List Excel** report shows aggregated purchase (LCY) and balance (LCY) data for the top number of vendors selected. The data is aggregated for the period specified in the request page's Datefilter parameters.
 
 The report Excel workbook contains two worksheets that you can use to analyze your vendors:
 - Top Vendor List

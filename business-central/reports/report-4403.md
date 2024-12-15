@@ -31,7 +31,9 @@ The report Excel workbook contains four worksheets that you can use to analyze y
 
 Each worksheet represents a different dimension to your analysis.
 
-[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
+<!-- add when 4402 report article is merged to main
+[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)] 
+-->
 
 > [!NOTE]
 > This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If you see a banner with a text about external data connections, you might need to choose the botton **Enable content** to load data. The report does not connect to any external data sources, all calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to see data in the reports.
@@ -68,16 +70,18 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 
 This worksheet shows the raw data used in the report. 
 
+<!-- add when 4402 report article is merged to main
 You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-payable-vendor-aging-data.png" alt-text="Screenshot of the VendorAgingData worksheet":::
+-->
 
 To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a)
 
 
 ## Use cases
 
-[!INCLUDE [report-4403-scenario](../includes/report-4402-scenario-include.md)]
+[!INCLUDE [report-4403-scenario](../includes/report-4403-scenario-include.md)]
 
 
 ## Try the report

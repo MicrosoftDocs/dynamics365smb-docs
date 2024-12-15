@@ -587,7 +587,6 @@ ms.service: dynamics-365-business-central
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Aged Accounts Payable Excel](reports/report-4403.md)
-##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
@@ -619,6 +618,7 @@ ms.service: dynamics-365-business-central
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
 ##### [Vendor - Summary Aging (legacy)](reports/report-305.md)
+##### [Aged Accounts Payable](reports/report-322.md)
 
 <!-- Financial analytics end -->
 

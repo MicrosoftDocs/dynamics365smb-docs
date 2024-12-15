@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Vendor - Top 10 List (report)
 
-The **Vendor - Top 10 List** report provides a list of the vendors with the most transactions in a selected period. If needed, you can display more than 10 vendors.
+The **Vendor - Top 10 List** report provides a list of the vendors with the most transactions in a selected period. If needed, you can display more than 10 vendors. It also benchmarks these vendors to the total purchases and balance across all vendors in the selected period.
 
 Vendors are sorted by purchase amounts in the selected period. The list gives a quick overview of the vendors with the largest balance and the highest purchase volume.
 

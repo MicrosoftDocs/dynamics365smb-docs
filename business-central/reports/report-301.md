@@ -85,14 +85,14 @@ One popular choice is to use the Data Analysis feature on the **Vendors** page. 
 
 You can also use the [Purchases by Vendor](../purchases-powerbi-purchases-by-vendor.md) report in the [!INCLUDE [power-bi-purchasing-app-name](../includes/power-bi-purchasing-app-name.md)].
 
-:::image type="content" source="media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="media/purchases/purchases-by-vendor.png":::
+:::image type="content" source="../media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="../media/purchases/purchases-by-vendor.png":::
 
 
 ## See also
 
-[Purchases by Vendor (Power BI)](../purchases-powerbi-purchases-by-vendor.md)
-[Accounts payable analytics](../payables-reports.md)
-[Purchasing analytics overview](../purchasing-analytics-overview.md)
+[Purchases by Vendor (Power BI)](../purchases-powerbi-purchases-by-vendor.md)  
+[Accounts payable analytics](../payables-reports.md)  
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

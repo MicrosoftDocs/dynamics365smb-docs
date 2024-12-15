@@ -12,7 +12,7 @@ The following table describes some key reports for accounts payable. The reports
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
-| [!INCLUDE[report-666-scenario](../includes/report-666-scenario-include.md)] | [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=666) | [About *Vendor - Top 10 List Excel*](../reports/report-666.md) | 666 |
+| [!INCLUDE[report-4404-scenario](../includes/report-4404-scenario-include.md)] | [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=4404) | [About *Vendor - Top 10 List Excel*](../reports/report-4404.md) | 4404 |
 | [!INCLUDE[report-301-scenario](../includes/report-301-scenario-include.md)] | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
 | This is a legacy report for aged accounts payable. We recommend that you use **Aged Accounts Payables** report instead. | [Vendor - Summary Aging](https://businesscentral.dynamics.com?report=305) | [About *Vendor - Summary Aging*](../reports/report-305.md) | 305 |

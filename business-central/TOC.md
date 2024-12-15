@@ -617,7 +617,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
-##### [Vendor - List](reports/report-301.md)
+##### [Vendor - List (legacy)](reports/report-301.md)
 
 <!-- Financial analytics end -->
 
@@ -725,7 +725,7 @@ ms.service: dynamics-365-business-central
 ##### [Item/vendor catalog](reports/report-720.md)
 
 #### Legacy reports (will be removed)
-##### [Vendor - List](reports/report-301.md)
+##### [Vendor - List (legacy)](reports/report-301.md)
 
 <!-- Purchasing analytics end -->
 

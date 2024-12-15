@@ -586,7 +586,6 @@ ms.service: dynamics-365-business-central
 
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
@@ -618,6 +617,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Vendor - List](reports/report-301.md)
 
 <!-- Financial analytics end -->
 
@@ -709,7 +709,6 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
@@ -724,6 +723,10 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+
+#### Legacy reports (will be removed)
+##### [Vendor - List](reports/report-301.md)
+
 <!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

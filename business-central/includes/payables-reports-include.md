@@ -25,6 +25,8 @@ The following table describes some key reports for accounts payable. The reports
 | [!INCLUDE[report-321-scenario](../includes/report-321-scenario-include.md)] | [Vendor - Balance to Date](https://businesscentral.dynamics.com?report=321) | [About *Vendor - Balance to Date*](../reports/report-321.md) | 321 |
 | [!INCLUDE[report-322-scenario](../includes/report-322-scenario-include.md)] | [Aged Accounts Payable](https://businesscentral.dynamics.com?report=322) | [About *Aged Accounts Payable*](../reports/report-322.md) | 322 |
 | [!INCLUDE[report-329-scenario](../includes/report-329-scenario-include.md)] | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
+| This is a legacy report for vendor analysis. We recommend that you use data analysis on the **Vendors** list instead. | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
+
 
 <!-- Remove after 2025-01-01
 

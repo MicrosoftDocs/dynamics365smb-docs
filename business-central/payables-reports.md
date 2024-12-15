@@ -20,8 +20,8 @@ The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
-| [!INCLUDE [pbireport-aged-payables-back-dating-include](includes/pbireport-aged-payables-back-dating-include.md)] | [Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994) | [About Aged Payables (Back Dating)](../finance-powerbi-aged-payables-back-dating.md) |
-| [!INCLUDE [pbireport-detailed-vendor-ledger-entries-include](includes/pbireport-detailed-vendor-ledger-entries-include.md)] | [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996) | [About Detailed Vendor Ledger Entries](../finance-powerbi-detailed-vendor-ledger-entries.md) |
+| [!INCLUDE [pbireport-aged-payables-back-dating-include](includes/pbireport-aged-payables-back-dating-include.md)] | [Aged Payables (Back Dating)](https://businesscentral.dynamics.com?page=36994) | [About Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md) |
+| [!INCLUDE [pbireport-detailed-vendor-ledger-entries-include](includes/pbireport-detailed-vendor-ledger-entries-include.md)] | [Detailed Vendor Ledger Entries](https://businesscentral.dynamics.com?page=36996) | [About Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md) |
 
 To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 

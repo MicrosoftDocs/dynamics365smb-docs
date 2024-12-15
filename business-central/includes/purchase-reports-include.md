@@ -12,7 +12,6 @@ The following table describes some of the key reports related to purchasing. The
 
 | To do this | Open this report in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
-| [!INCLUDE[report-301-scenario](../includes/report-301-scenario-include.md)] | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
 | [!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)] | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
 | [!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)] | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |
@@ -26,3 +25,4 @@ The following table describes some of the key reports related to purchasing. The
 | Explore the availability of items for shipment on purchase documents, such as return orders. | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 | Analyze outstanding purchase orders to understand the expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
+| This is a legacy report for vendor analysis. We recommend that you use data analysis on the **Vendors** list instead. | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |

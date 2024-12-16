@@ -1,6 +1,6 @@
 ---
-title: Handling vendor payment disputes
-description: Read about how to hande vendor payment disputes
+title: Handle vendor payment disputes
+description: Learn how to handle vendor payment disputes.
 author: kennieNP
 ms.topic: conceptual
 ms.devlang: al
@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Handling vendor payment disputes
+# Handle vendor payment disputes
 
-You can mark a vendor ledger entry *On hold* if there is a dispute about a supplier document. This allows for maintaining transparency and efficiency when you handle vendor disputes, so that your employees can effectively manage and resolve issues.
+You can mark a vendor ledger entry as **On hold** if there's a dispute about a supplier document. The on hold status helps you maintain transparency and efficiency while you manage and resolve the issue.
 
-## To mark a vendor ledger entry On hold
+## To set a vendor ledger entry on hold
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor ledger entries**, and then choose the related link.
 2. Select the entry that you want to mark.
 3. Choose **Edit List**. You can now enter up to 3 characters (likely your initials) in the **On Hold** field to indicate the document is on hold. 
 
-## On hold entries and the Suggest Vendor Payments batch job
+## On hold entries, and the Suggest Vendor Payments batch job
 
 The **Suggest Vendor Payments** batch job excludes vendor ledger entries that are **On Hold**. To learn more, go to [Suggest vendor payments](payables-how-suggest-vendor-payments.md).
 
@@ -45,18 +45,16 @@ Or you can run the [Payments on Hold](reports/report-319.md) report.
 
 ## Block vendors
 
-Related to marking vendor ledger entres On hold, you can also block a vendor, for example because of insolvency, so that the vendor can't be added to purchase documents or so that no payments can be posted for the vendor. 
+You can also block a vendor, for example because of insolvency, so that people can't select the vendor for purchase documents, or so that they can't post payments to the vendor.
 
 To learn more, go to [Block vendors](payables-how-block-vendors.md).
 
-
-## Learn more
+## Related information
 
 [Using data analysis to show vendor ledger entries on hold](ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)  
 [Payments on Hold (report)](reports/report-319.md)  
 [Suggest vendor payments](payables-how-suggest-vendor-payments.md)  
 [Block vendors](payables-how-block-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 10/14/2024
+ms.date: 12/16/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -26,4 +26,4 @@ The following table describes some of the key reports related to purchasing. The
 | Explore the availability of items for shipment on purchase documents, such as return orders. | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 | Analyze outstanding purchase orders to understand the expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
-| This is a legacy report for vendor analysis. We recommend that you use **Vendor - Top 10 List Excel** report instead. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
+| This report is a legacy report for vendor analysis. We recommend that you use the **Vendor - Top 10 List Excel** report instead. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |

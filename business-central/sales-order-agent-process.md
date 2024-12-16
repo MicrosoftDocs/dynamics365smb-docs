@@ -34,7 +34,7 @@ The Sales Order Agent is activated, and you have permission to use it. Learn mor
 
 You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** tab in the **Copilot** pane.
 
-To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right side of the navigation menu. A red circle with a number on the badge indicates the tasks that need attention.
+To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right side of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png)
 
@@ -42,7 +42,8 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab open
 
 For each sales quote request, the Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
-By hovering over the Sales Order Agent icon on the role center, you can get an overview of the agent's KPIs (Key Performance Indicators) that summarize the impact of the agent's work in your organization. For example, you can get an overview of the number of sales quotes or orders created by the agent, the time saved by your team not doing the tasks automated by the agent and the total amount of the sales orders created.
+> [!TIP]
+> Hover over the **Sales Order Agent** icon on the role center to get an overview of the agent's KPIs (Key Performance Indicators) that summarize the impact of the agent's work in your organization. For example, get an overview of the number of sales quotes or orders created by the agent, the time saved by your team by not doing the tasks automated by the agent, and the total amount of the sales orders created.
 
 ## Review and assist
 
@@ -67,7 +68,7 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task.
 
-After confirmation, the Sales Order Agent continues processing the task. When a new notification appears on the Sales Order Agent badge after some time, follow the same flow to verify and approve the results.
+After confirmation, the Sales Order Agent continues processing the task. When a new notification appears on the Sales Order Agent icon after some time, follow the same flow to verify and approve the results.
 
 ## Modify sales quotes and orders
 

@@ -34,7 +34,7 @@ Each worksheet represents a different dimension in your analysis.
 
 ## Top Customer List worksheet
 
-This worksheet shows current sales amounts and balance in LCY by customer. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
+This worksheet shows current sales amounts and balance in local currency (LCY) by customer. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
 With filters and slicers, you can zoom into a single customer or a group of customers.
 

@@ -24,6 +24,6 @@ The following table describes some of the key reports for sales. The reports hel
 | Analyze outstanding sales orders to understand expected sales volumes for items. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates. | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About *Inventory Order Details*](../reports/report-708.md) | 708 |
 | Get an overview of sales orders that you can't fulfill because items are out of stock.  | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About *Inventory Sales Back Orders*](../reports/report-718.md) | 718 |
 | Explore sales orders that are covered when you pick items from inventory. | [Inventory Picking List](https://businesscentral.dynamics.com?report=813) | [About *Inventory Picking List*](../reports/report-813.md) | 813 |
-| This report is a legacy report for vendor analysis. See report documentation for alternatives. | [Customer - Top 10 list](https://businesscentral.dynamics.com?report=111) | [About *Customer - Top 10 list*](../reports/report-111.md) | 111 |
+| This report is a legacy report for sales analysis. See report documentation for alternatives. | [Customer - Top 10 list](https://businesscentral.dynamics.com?report=111) | [About *Customer - Top 10 list*](../reports/report-111.md) | 111 |
 
 

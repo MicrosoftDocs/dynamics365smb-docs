@@ -20,7 +20,7 @@ The Sales Order Agent works by monitoring a designated mailbox for incoming cust
 
 Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve any missing details and allow for modifications to the original request, if necessary.
 
-Learn more about the Sales Order Agent and its process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
+Learn more about the Sales Order Agent and the process flow in [Sales Order Agent overview](sales-order-agent.md#how-the-agent-processes-requests).
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 

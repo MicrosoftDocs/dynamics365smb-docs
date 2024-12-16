@@ -78,8 +78,6 @@ When it finds the items, the agent checks the items' availability by analyzing m
 
 Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request.
 
-Learn more about Sales Order Agent process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
-
 ## Process flow for users
 
 Processing a sales quote request into an order involves three participants:

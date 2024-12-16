@@ -49,9 +49,10 @@ For each sales quote request, the Sales Order Agent adds a task to track, review
 
 Your intervention is required for various steps in creating a sales order to move it through the process, such as:
 
-- Reviewing and confirming incoming email requests for sales quotes from customers.
-- Reviewing and confirming the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
-- Providing assistance to the Sales Order Agent for fixing a problem.
+- Reviewing and confirming incoming email requests for sales quotes or orders from customers.
+- Reviewing and confirming the sales quotes and orders created by the agent.
+- Reviewing and confirming with outgoing emails created by the agent to the customer.
+- Providing assistance to the agent for fixing a problem or provising clarication.
 
 > [!NOTE]
 > You might not need to review sales quotes and orders depending on how an admin configures the Sales Order Agent.

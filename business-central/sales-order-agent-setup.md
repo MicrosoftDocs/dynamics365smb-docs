@@ -95,6 +95,8 @@ As an administrator, you can specify which users have permission to use or confi
    - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
+---
+
 ### Manage agent permissions to objects, data, and UI elements
 
 The Sales Order Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **SALES ORDER AGENT - [COMPANY]** to open the agent card page.
@@ -120,8 +122,6 @@ These system permissions are also included in the following permission sets, ent
 
 - To enable a user to configure the Sales Order Agent, the user must have the **"Configure All Agents"** permission as a minimum or be listed as an agent user with the **Can Configure** field selected.
 - To enable a user to work with agent tasks displayed in the Copilot pane, they must have the **"Manage Agent Tasks"** permission (either explicitly or as part of their Essential or Premium license permissions) and be listed as an agent user.
-
----
 
 ## Next steps
 

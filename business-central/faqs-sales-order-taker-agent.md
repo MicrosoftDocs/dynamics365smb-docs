@@ -106,7 +106,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 - Entities and data the agent can work with
 
-  - The agent can only create sales quote and sales order documents. It can't create or work with the other sales documents (such as blank orders, invoices, or credit memos) or documents in other areas of the product (such as purchase or service orders).
+  - The agent can only create and edit sales quotes. It can convert a quote to an order. It can't create or work with the other sales documents (such as blank orders, invoices, or credit memos) or documents in other areas of the product (such as purchase or service orders).
   - The agent can edit sales quotes, but not sales orders.
   - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central.  
   - Posting of documents isn't supported.
@@ -136,7 +136,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 - Pricing
 
-  <!-- needs clarification-->Because Business Central has advanced, and often adjusted, price/discount calculation logic, the most reliable way to get price is to create sales document, for example quote. This is exactly what agent tries to do.
+   Because Business Central has advanced, and often adjusted, price/discount calculation logic, the most reliable way to get price is to create sales document, for example quote. This is exactly what agent tries to do. The agent doesn't provide a price if there's no sales quote available. In some instances, such as when asking the customer clarifying questions about the requested item, the price might not be included, even though it could be useful.
 
 - Other limitations
 

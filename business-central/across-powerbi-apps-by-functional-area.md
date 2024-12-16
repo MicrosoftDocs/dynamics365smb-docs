@@ -39,7 +39,7 @@ To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 
 To learn more, go to [Power BI sales app](sales-powerbi-app.md).
 
-## Reports in the Power BI Purchasing app
+## Reports in the [!INCLUDE [power-bi-purchasing-app-name](includes/power-bi-purchasing-app-name.md)]
 
 [!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
 

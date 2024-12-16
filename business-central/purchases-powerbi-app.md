@@ -11,11 +11,11 @@ ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Power BI Purchase app
+# [!INCLUDE [power-bi-purchasing-app-name](includes/power-bi-purchasing-app-name.md)]
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The Power BI Purchase app for [!INCLUDE [prod_short](includes/prod_short.md)] provides executives, purchasing managers, and procurement teams with valuable insights into purchasing activities. This app can help you streamline purchasing processes, improve decision-making at all levels of the organization, and optimize spending by offering detailed analytics and visualizations of purchasing data. Use its reports to increase transparency, efficiency, and cost savings in your daily operations.
+The [!INCLUDE [power-bi-purchasing-app-name](includes/power-bi-purchasing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)] provides executives, purchasing managers, and procurement teams with valuable insights into purchasing activities. This app can help you streamline purchasing processes, improve decision-making at all levels of the organization, and optimize spending by offering detailed analytics and visualizations of purchasing data. Use its reports to increase transparency, efficiency, and cost savings in your daily operations.
 
 ## Purchases analytics for the leadership team
 

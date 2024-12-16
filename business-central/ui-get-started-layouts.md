@@ -6,21 +6,21 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 11/05/2024
+ms.date: 12/16/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 # Get started creating report layouts
 
-Business Central includes many built-in layouts that you can use on your reports. Other layouts might be added as part of other extensions. In addition, you can create your own report layouts, either from scratch or based on an existing layout.
+[!INCLUDE [prod_short](includes/prod_short.md)] includes many built-in layouts that you can use on your reports. Other layouts might be added as part of extensions. In addition, you can create your own report layouts, either from scratch or based on an existing layout.
 
 > [!NOTE]
-> You can also use report layouts to add content to email messages. Report layouts can help save time and ensure consistency by reusing the same content when you communicate with your customers. Only custom report layouts of the **Word** type can be used with email. Layouts of the **RDLC** type can't be used. Learn more in [Set up reusable email texts and layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
+> You can also use report layouts to add content to email messages. Report layouts can help save time and ensure consistency by reusing the same content when you communicate with your customers. Only custom report layouts of the **Word** type can be used with email. You can't use layouts of the **RDLC** with email. Learn more in [Set up reusable email texts and layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
 ## Overview of report layouts
 
-It can be helpful to think of a report layout as a file that is imported and assigned to a report. You manage all layouts in Business Central in basically the same way, regardless of the layout type. Usually, you work from the **Report Layouts** page. The layouts differ mainly in the way that you design them. Each layout is designed by using the software that the layout is built on, such Word, Excel, or SQL Server Report Builder.
+It can be helpful to think of a report layout as a file that is imported and assigned to a report. You manage all layouts in [!INCLUDE [prod_short](includes/prod_short.md)] in basically the same way, regardless of the layout type. Usually, you work from the **Report Layouts** page. The layouts differ mainly in the way that you design them. Each layout is designed by using the software that the layout is built on, such Word, Excel, or SQL Server Report Builder.
 
 The process of setting up a layout for a report involves three or four basic tasks.
 

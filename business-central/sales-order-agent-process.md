@@ -77,7 +77,7 @@ After confirmation, the Sales Order Agent moves the task on for more processing.
 
 You might need to modify sales quotes or orders created by the agent during a review step or a request for assistance. When you select **Review**, the quote or order opens for you to inspect. Make changes as needed, then select **Confirm** in the **Review** pane. The agent then processes the document, creating a PDF for inclusion in the outgoing email to the customer.
 
-You also have the opportunity to modify a quote or a order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard** on the step. This action pauses the task to allow you to open the quote or order and makes changes.
+You also have the opportunity to modify a quote or a order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard step** on the step. This action stops the task temporarily to allow you to open the quote or order and makes changes and then resume the step.
 
 ![Shows the discard step acion on a sales order agent task.](media/soa-discard-step.png)
 

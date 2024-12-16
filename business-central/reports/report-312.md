@@ -62,10 +62,21 @@ Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are several other ways to analyze your vendors. 
+
+- The **Vendors** list and the **Vendor** card both include a Vendor Statistics section in the factbox.
+- The **Vendor** card includes a Statistics action that opens the **Vendor Statistics** page.
+- All reports in the [!INCLUDE [power-bi-purchasing-app-name](includes/power-bi-purchasing-app-name.md)] support filtering to one or more vendors. To learn more, go to [Power BI Purchasing app](../purchases-powerbi-app.md).
+
+
+
 ## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Power BI Purchasing app](../purchases-powerbi-app.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,13 +1,13 @@
 ---
 title: Process sales quotes and orders with Sales Order Agent (preview)
-description: Learn how to work with the Sales Order Agent to process sales quotes and orders.
+description: Learn how to work with the Sales Order Agent to process sales quotes and orders from customer requests made via email.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/13/2024
+ms.date: 12/16/2024
 ms.custom: bap-template
 ---
 # Process sales quotes and orders with Sales Order Agent (preview)
@@ -20,11 +20,11 @@ This article explains how to use the Sales Order Agent to automate taking sales 
 
 ## How it works
 
-The agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts preparing a sales quote. For example, it verifies that the customer, requesting the items, is registered in Business Central, it checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+The agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
-The agent ensures that a request from one customer cannot be about another customer's requests. When a request is being processed by the agent, it first identifies the customer in Business Central using the sender's email address (the agent searches among the registered Business Central contacts and then looks up the customer linked to that contact). If the customer is not found, the agent stops task processing and requests intervention from the user. If the customer is found, the agent filters out all sales quotes and orders that do not belong to this customer, ensuring it only creates and updates documents belonging to the customer that had sent the email.
+The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address (the agent searches among the registered Business Central contacts and then looks up the customer linked to that contact). If the customer isn't found, the agent stops processing the task and requests intervention from the user. If the customer is found, the agent filters out all sales quotes and orders that don't belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
 
-Analyzing the incoming emails, agent can detect multiple parameters for preparing a new sales quote or updating an existing one, such as the items themselves, their attributes, quantities, units of measure, requested delivery date, external document number and more. The agent then searches for these items in the Business Central's inventory, within a wide range of related tables.
+The agent analyzes incoming emails to detect parameters for preparing a new sales quote or updating an existing one. Apart from the items tehmselves, parameters might include the item attributes, quantities, units of measure, requested delivery date, external document number, and more. The agent then searches for these items in the Business Central's inventory, within a wide range of related tables.
 
 |Table|Fields|
 |-|-|
@@ -62,7 +62,7 @@ To access this view, select ![Shows Sales Order Agent icon with an open action.]
 
 The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
-For each sales quote request, the Sales Order Agent adds a task to track, review, follow up on updates and eventually process the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
+For each sales quote request, the Sales Order Agent adds a task to track, review, and follow up on updates and eventually process the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 ## Review and assist
 
@@ -77,7 +77,7 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
 1. In **Task** tab, select the step requesting review or assistance.
 
-   The task *timeline* opens, focused on the selected step. The timelines displays each step of a task, past and present, in chronological order.
+   The task *timeline* opens, focused on the selected step. The timeline displays each step of a task, past and present, in chronological order.
 
 1. Select **Review** for the step.
 
@@ -85,7 +85,7 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
 1. Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** and the agent will no longer be processing this task. 
+1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** and the agent no longer processes this task.
 
 After confirmation, the Sales Order Agent moves the task on for more processing. After some time, a new notification appears on the Sales Order Agent badge. Follow the same flow to verify and approve the results.
 
@@ -93,7 +93,7 @@ After confirmation, the Sales Order Agent moves the task on for more processing.
 
 You might need to modify sales quotes or orders created by the agent during a review step or when the agent requests assistance, based on its configuration. When you select **Review**, the quote or order opens for you to inspect. Make changes as needed, then select **Confirm** in the **Review** pane. The agent then processes the document, creating a PDF for inclusion in the outgoing email to the customer.
 
-You also have the opportunity to modify a quote or a order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard step** on the step. This action stops the task temporarily to allow you to open the quote or order and makes changes and then resume the step.
+You also have the opportunity to modify a quote or order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard step** on the step. This action stops the task temporarily to allow you to open the quote or order and makes changes and then resume the step.
 
 ![Shows the discard step acion on a sales order agent task.](media/soa-discard-step.png)
 
@@ -102,8 +102,8 @@ You also have the opportunity to modify a quote or a order during the review ste
 
 After you make the changes, return the **Tasks** tab, select one of the options for resuming the task, and the select **Send**:
 
-- **I have updated the quote** or **I have updated the order** - Select one of these options if you have made changes to the quote or order. The agent generates a new PDF and email for the customer.
-- **Just resume** - Select this option if you haven't changed the quote or order. The agent doesn't generate a new quote or order, and keeps the original email as before.  
+- **I have updated the quote** or **I have updated the order** - Select one of these options if you made changes to the quote or order. The agent generates a new PDF and email for the customer.
+- **Just resume** - Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order, and keeps the original email as before.  
 
 ![Shows the resume step acion on a sales order agent task.](media/soa-resume-step.png)
 

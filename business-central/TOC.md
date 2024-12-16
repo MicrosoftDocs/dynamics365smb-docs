@@ -297,7 +297,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
-#### [Accounts receivable reports and analytics](receivables-reports.md)
+#### [Accounts receivable analytics](receivables-reports.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payment application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)
@@ -319,7 +319,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
-#### [Accounts payable reports and analytics](payables-reports.md)
+#### [Accounts payable analytics](payables-reports.md)
 #### Make payments
 ##### [Make payments](payables-make-payments.md)
 ##### [Work with general journals](ui-work-general-journals.md)
@@ -341,6 +341,7 @@ ms.service: dynamics-365-business-central
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
+#### [Handling vendor payment disputes](payables-how-handling-payment-disputes.md)
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
@@ -414,7 +415,7 @@ ms.service: dynamics-365-business-central
 #### [Close income statement accounts](year-close-income-statement.md)
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
 
-### Work with the chart of accounts and General Ledger (G/L)
+### Work with the chart of accounts and general ledger (G/L)
 #### [Understand the general ledger](finance-general-ledger.md)
 #### [Understand the chart of accounts](finance-chart-of-accounts.md)
 #### [Review accounts](finance-review-accounts.md)
@@ -433,7 +434,7 @@ ms.service: dynamics-365-business-central
 #### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
 #### [Import payroll transactions](finance-how-import-payroll-transactions.md)
 
-### Working with Currencies
+### Working with currencies
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
@@ -570,7 +571,6 @@ ms.service: dynamics-365-business-central
 #### [Analyze your payment practices](ui-payment-practices.md)
 
 ### Built-in finance reports
-#### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### Key finance reports
 ##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
@@ -587,12 +587,10 @@ ms.service: dynamics-365-business-central
 
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
@@ -603,19 +601,23 @@ ms.service: dynamics-365-business-central
 
 #### Accounts receivable reports
 ##### [Accounts receivable report overview](receivables-reports.md)
+##### [Aged Accounts Receivables Excel](reports/report-4402.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Summary Aging Simp.](reports/report-109.md)
 ##### [Customer - Top 10 List](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md)
 ##### [Customer/Item Sales](reports/report-113.md)
-##### [Aged Accounts Receivables](reports/report-120.md)
 ##### [Customer - Balance to Date](reports/report-121.md)
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
 ##### [Customer Statement](reports/report-1316.md)
+
+#### Legacy reports (will be removed)
+##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Vendor - List (legacy)](reports/report-301.md)
+
 <!-- Financial analytics end -->
 
 ## Sales
@@ -658,7 +660,7 @@ ms.service: dynamics-365-business-central
 <!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
-### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
@@ -687,7 +689,7 @@ ms.service: dynamics-365-business-central
 ### Purchasing analytics 
 <!-- Purchasing analytics start -->
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
-#### [Power BI Purchasing app](purchases-powerbi-app.md)
+#### [Power BI purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
 ##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
 ##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
@@ -706,11 +708,10 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)
@@ -721,6 +722,10 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+
+#### Legacy reports (will be removed)
+##### [Vendor - List (legacy)](reports/report-301.md)
+
 <!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -747,7 +752,7 @@ ms.service: dynamics-365-business-central
 <!-- Inventory analytics start -->
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
-#### [Power BI Inventory app](inventory-powerbi-app.md)
+#### [Power BI inventory app](inventory-powerbi-app.md)
 ##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
 ##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
 ##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
@@ -761,7 +766,7 @@ ms.service: dynamics-365-business-central
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 ##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
-#### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
+#### [Power BI inventory valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
@@ -823,7 +828,7 @@ ms.service: dynamics-365-business-central
 <!-- Project management analytics start -->
 #### [Project management analytics overview](projects-analytics-overview.md)
 
-#### [Power BI Projects app](projects-powerbi-app.md)
+#### [Power BI projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
 ##### [Projects Tasks](projects-powerbi-project-tasks.md)
 ##### [Projects Profitability](projects-powerbi-project-profitability.md)
@@ -956,7 +961,7 @@ ms.service: dynamics-365-business-central
 #### [Track email message exchanges](marketing-set-up-email-logging.md)
 #### [Process sales opportunities](marketing-processing-sales-opportunities.md)
 ### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
-### [Use Dynamics 365 for sales from Business Central](marketing-integrate-dynamicscrm.md)
+### [Use Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 #### [Couple and synchronize records manually](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [View the status of a synchronization](admin-how-to-view-synchronization-status.md)
 
@@ -1011,7 +1016,7 @@ ms.service: dynamics-365-business-central
 ### Manufacturing analytics
 <!-- Manufacturing analytics start -->
 #### [Manufacturing analytics overview](manufacturing-analytics-overview.md)
-#### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
+#### [Power BI manufacturing app](manufacturing-powerbi-app.md)
 ##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
 ##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
 ##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
@@ -2538,6 +2543,7 @@ ms.service: dynamics-365-business-central
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Suggest item substitutions (preview)
+### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)

@@ -24,6 +24,23 @@ The agent monitors a designated mailbox for incoming customer emails about item 
 
 The agent ensures that a request from one customer cannot be about another customer's requests. When a request is being processed by the agent, it first identifies the customer in Business Central using the sender's email address (the agent searches among the registered Business Central contacts and then looks up the customer linked to that contact). If the customer is not found, the agent stops task processing and requests intervention from the user. If the customer is found, the agent filters out all sales quotes and orders that do not belong to this customer, ensuring it only creates and updates documents belonging to the customer that had sent the email.
 
+Analyzing the incoming emails, agent can detect multiple parameters for preparing a new sales quote or updating an existing one, such as the items themselves, their attributes, quantities, units of measure, requested delivery date, external document number and more. The agent then searches for these items in the Business Central's inventory, within a wide range of related tables.
+
+    |Table|Fields|
+    |-|-|
+    |Items|No.<br>Description<br>Description 2<br>Search Description<br>GTIN<br>Vendor Item Number|
+    |Item Variant|Code<br>Description<br>Description 2|
+    |Item Reference|Reference No.<br>Description<br>Description 2|
+    |Item Attributes|Name<br>Value|
+    |Item Category| Code<br>Description<br>Parent Category - 1 Level|
+    |Item Translation|Language<br>Description<br>Description 2|
+    |Item Identifier|Code|
+    |Extended text Line|Text|
+    
+Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
+
+When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more. 
+
 Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve any missing details and allow for modifications to the original request, if necessary.
 
 Learn more about Sales Order Agent process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
@@ -52,7 +69,7 @@ For each sales quote request, the Sales Order Agent adds a task to track, review
 While the agent does the bulk of work autonomously, it asks for user intervention when required for various steps to move through the process, such as:
 
 - Reviewing and confirming incoming email requests from customers.
-- Reviewing and confirming the sales quotes and orders (if an admin configured the Sales Order Agent to do so).
+- Reviewing and confirming the sales quotes and orders if an admin configured the Sales Order Agent to do so.
 - Reviewing outgoing emails created by the Sales Order Agent for the customer.
 - Providing assistance to the Sales Order Agent when it needs to get unblocked, for example to provide missing data.
 

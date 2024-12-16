@@ -45,11 +45,11 @@ There are several other ways to analyze your customers. To learn more, go to:
 
 - [Power BI Sales app](../sales-powerbi-app.md)
 - [Using data analysis to analyze sales](../ad-hoc-analysis-sales.md)
-- [Customer Top List Excel (report)](reports/report-4409.md)   
+- [Customer Top List Excel (report)](report-4409.md)   
 
 ## Related information
 
-[Customer Top List Excel (report)](reports/report-4409.md)  
+[Customer Top List Excel (report)](report-4409.md)  
 [Sales reports](../sales-reports.md)  
 [Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
 [Power BI Sales app](../sales-powerbi-app.md)  

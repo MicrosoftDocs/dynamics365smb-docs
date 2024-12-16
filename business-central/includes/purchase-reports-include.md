@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 10/14/2024
+ms.date: 12/16/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -15,7 +15,6 @@ The following table describes some of the key reports related to purchasing. The
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
 | [!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)] | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
 | [!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)] | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |
-| [!INCLUDE[report-311-scenario](../includes/report-311-scenario-include.md)] | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
 | [!INCLUDE[report-312-scenario](../includes/report-312-scenario-include.md)] | [Purchase Statistics](https://businesscentral.dynamics.com?report=312) | [About *Purchase Statistics*](../reports/report-312.md) | 312 |
 | [!INCLUDE[report-313-scenario](../includes/report-313-scenario-include.md)] | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About *Vendor/Item Purchases*](../reports/report-313.md) | 313 |
 | [!INCLUDE[report-319-scenario](../includes/report-319-scenario-include.md)] | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |
@@ -25,4 +24,4 @@ The following table describes some of the key reports related to purchasing. The
 | Explore the availability of items for shipment on purchase documents, such as return orders. | [Purchase Reservation Availability](https://businesscentral.dynamics.com?report=409)| [About *Purchase Reservation Availability*](../reports/report-409.md) | 409 |
 | Analyze outstanding purchase orders to understand the expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About *Inventory Purchase Orders*](../reports/report-709.md) | 709 |
 | Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About *Inventory Vendor Purchases*](../reports/report-714.md) | 714 |
-| This is a legacy report for vendor analysis. We recommend that you use data analysis on the **Vendors** list instead. | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
+| This report is a legacy report for vendor analysis. We recommend that you use the **Vendor - Top 10 List Excel** report instead. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |

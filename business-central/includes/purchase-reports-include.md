@@ -12,6 +12,7 @@ The following table describes some of the key reports related to purchasing. The
 
 | To do this | Open this report in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
+| [!INCLUDE[report-4403-scenario](../includes/report-4403-scenario-include.md)] | [Aged Accounts Payable Excel](https://businesscentral.dynamics.com?report=4403) | [About *Aged Accounts Payable Excel*](../reports/report-4403.md) | 4403 |
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
 | [!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)] | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
 | [!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)] | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |

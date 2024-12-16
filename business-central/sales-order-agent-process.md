@@ -26,17 +26,17 @@ The agent ensures that a request from one customer cannot be about another custo
 
 Analyzing the incoming emails, agent can detect multiple parameters for preparing a new sales quote or updating an existing one, such as the items themselves, their attributes, quantities, units of measure, requested delivery date, external document number and more. The agent then searches for these items in the Business Central's inventory, within a wide range of related tables.
 
-    |Table|Fields|
-    |-|-|
-    |Items|No.<br>Description<br>Description 2<br>Search Description<br>GTIN<br>Vendor Item Number|
-    |Item Variant|Code<br>Description<br>Description 2|
-    |Item Reference|Reference No.<br>Description<br>Description 2|
-    |Item Attributes|Name<br>Value|
-    |Item Category| Code<br>Description<br>Parent Category - 1 Level|
-    |Item Translation|Language<br>Description<br>Description 2|
-    |Item Identifier|Code|
-    |Extended text Line|Text|
-    
+|Table|Fields|
+|-|-|
+|Items|No.<br>Description<br>Description 2<br>Search Description<br>GTIN<br>Vendor Item Number|
+|Item Variant|Code<br>Description<br>Description 2|
+|Item Reference|Reference No.<br>Description<br>Description 2|
+|Item Attributes|Name<br>Value|
+|Item Category| Code<br>Description<br>Parent Category - 1 Level|
+|Item Translation|Language<br>Description<br>Description 2|
+|Item Identifier|Code|
+|Extended text Line|Text|
+
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more. 

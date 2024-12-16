@@ -19,11 +19,11 @@ The following table describes some key reports for accounts payable. The reports
 | [!INCLUDE[report-312-scenario](../includes/report-312-scenario-include.md)] | [Purchase Statistics](https://businesscentral.dynamics.com?report=312) | [About *Purchase Statistics*](../reports/report-312.md) | 312 |
 | [!INCLUDE[report-313-scenario](../includes/report-313-scenario-include.md)] | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About *Vendor/Item Purchases*](../reports/report-313.md) | 313 |
 | [!INCLUDE[report-317-scenario](../includes/report-317-scenario-include.md)] | [Vendor Pre-Payment Journal](https://businesscentral.dynamics.com?report=317) | [About *Vendor Pre-Payment Journal*](../reports/report-317.md) | 317 |
-| [!INCLUDE[report-319-scenario](../includes/report-319-scenario-include.md)] | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |
 | [!INCLUDE[report-321-scenario](../includes/report-321-scenario-include.md)] | [Vendor - Balance to Date](https://businesscentral.dynamics.com?report=321) | [About *Vendor - Balance to Date*](../reports/report-321.md) | 321 |
 | [!INCLUDE[report-329-scenario](../includes/report-329-scenario-include.md)] | [Vendor - Trial Balance](https://businesscentral.dynamics.com?report=329) | [About *Vendor - Trial Balance*](../reports/report-329.md) | 329 |
 | This is a legacy report for vendor analysis. See report documentation for alternatives. | [Vendor - List](https://businesscentral.dynamics.com?report=301) | [About *Vendor - List*](../reports/report-301.md) | 301 |
 | This is a legacy report for aged accounts payable. See report documentation for alternatives. | [Vendor - Summary Aging](https://businesscentral.dynamics.com?report=305) | [About *Vendor - Summary Aging*](../reports/report-305.md) | 305 |
+| This is a legacy report for accounts payables. See report documentation for alternatives. | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |
 | This is a legacy report for aged accounts payable. See report documentation for alternatives. | [Aged Accounts Payable](https://businesscentral.dynamics.com?report=322) | [About *Aged Accounts Payable*](../reports/report-322.md) | 322 |
 
 <!-- Remove after 2025-01-01

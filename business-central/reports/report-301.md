@@ -77,9 +77,7 @@ Try the report here: [Vendor - List](https://businesscentral.dynamics.com?report
 
 ## Alternative reports
 
-There are multiple other options for analyzing your vendors. 
-
-One popular choice is to use the Data Analysis feature on the **Vendors** page. You might need to personalize the page to show fields that are not shown on the page.
+There are several ways to analyze your vendors. One popular choice is to use the Data Analysis feature on the **Vendors** page. You might need to personalize the page to add some fields.
 
 :::image type="content" source="../media/data-analysis-vendor-list.png" alt-text="Screenshot of a data analysis tab on the Vendors page":::
 
@@ -87,12 +85,10 @@ You can also use the [Purchases by Vendor](../purchases-powerbi-purchases-by-ven
 
 :::image type="content" source="../media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="../media/purchases/purchases-by-vendor.png":::
 
-
-## See also
+## Related information
 
 [Purchases by Vendor (Power BI)](../purchases-powerbi-purchases-by-vendor.md)  
 [Accounts payable analytics](../payables-reports.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

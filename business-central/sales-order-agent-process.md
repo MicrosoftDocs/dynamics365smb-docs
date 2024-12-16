@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
 ms.date: 11/13/2024
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template
 ---
 # Process sales quotes and orders with Sales Order Agent (preview)
 
@@ -35,13 +35,13 @@ The Sales Order Agent is activated, and you have permission to use it. Learn mor
 
 ## Get started
 
-You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
+You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** tab in the **Copilot** pane.
 
 To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right side of the navigation menu. A red circle with a number on the badge indicates the tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png)
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
+The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
 For each sales quote request, the Sales Order Agent adds a task to track, review, and process the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
@@ -49,34 +49,47 @@ For each sales quote request, the Sales Order Agent adds a task to track, review
 
 Your intervention is required for various steps in creating a sales order to move it through the process, such as:
 
-- Reviewing and confirming incoming email requests for sales quotes from customers.
-- Reviewing and confirming the sales quotes and order, along with outgoing emails created by the Sales Order Agent for the customer.
-- Providing assistance to the Sales Order Agent for fixing a problem.
+- Reviewing and confirming incoming email requests for sales quotes or orders from customers.
+- Reviewing and confirming the sales quotes and orders created by the agent.
+- Reviewing and confirming with outgoing emails created by the agent to the customer.
+- Providing assistance to the agent for fixing a problem or provising clarication.
 
 > [!NOTE]
 > You might not need to review sales quotes and orders depending on how an admin configures the Sales Order Agent.
 
-Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
+Steps requiring intervention are listed under **Needs Attention** in the **Tasks** tab. To review a step:
 
-1. In **Task** view, select the step requesting review or assistance.
+1. In **Task** tab, select the step requesting review or assistance.
 
-   The task timeline opens, focused on the selected step, which includes a brief description.
+   The task *timeline* opens, focused on the selected step. The timelines displays each step of a task, past and present, in chronological order.
 
-1. Select **Review**.
+1. Select **Review** for the step.
 
-   The **Tasks** view switches to the **Review** pane, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
+   The **Tasks** tab switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
 
 1. Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
+1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** step in **Tasks** tab. If you want to cancel the process and discard the task, select **Stop**.
 
 After confirmation, the Sales Order Agent moves the task on for more processing. After some time, a new notification appears on the Sales Order Agent badge. Follow the same flow to verify and approve the results.
 
 ## Modify sales quotes and orders
 
-You might need to modify sales quotes or orders created by the agent during a review step or a request for assistance.
+You might need to modify sales quotes or orders created by the agent during a review step or a request for assistance. When you select **Review**, the quote or order opens for you to inspect. Make changes as needed, then select **Confirm** in the **Review** pane. The agent then processes the document, creating a PDF for inclusion in the outgoing email to the customer.
 
-When you select **Review**, the quote or order opens for you to inspect. Make changes as needed, then select **Confirm** in the **Review** pane. The agent then processes the document, creating a PDF for inclusion in the outgoing email to the customer.
+You also have the opportunity to modify a quote or a order during the review step for an outgoing email. In this case, select **...** (More options) > **Discard step** on the step. This action stops the task temporarily to allow you to open the quote or order and makes changes and then resume the step.
+
+![Shows the discard step acion on a sales order agent task.](media/soa-discard-step.png)
+
+> [!NOTE]
+> **Discard step** is available only on review steps for outgoing emails.
+
+After you make the changes, return the **Tasks** tab, select one of the options for resuming the task, and the select **Send**:
+
+- **I have updated the quote** or **I have updated the order** - Select one of these options if you have made changes to the quote or order. The agent generates a new PDF and email for the customer.
+- **Just resume** - Select this option if you haven't changed the quote or order. The agent doesn't generate a new quote or order, and keeps the original email as before.  
+
+![Shows the resume step acion on a sales order agent task.](media/soa-resume-step.png)
 
 ## Stop a task
 
@@ -90,9 +103,14 @@ Before you stop a task, consider the following behavior:
   For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state depending on your company policy.
 - Stopped tasks aren't deleted immediately. You can still explore a task's timeline until it's deleted, typically by an administrator.
 
+<!--
+## Discard and resume a taks to modify a quote or order
+
+The **Discard**  action ellwo
+
 ## View timeline and details of steps
 
-From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.
+From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.-->
 
 ## Related information
 

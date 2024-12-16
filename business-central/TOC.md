@@ -297,7 +297,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
-#### [Accounts receivable reports and analytics](receivables-reports.md)
+#### [Accounts receivable analytics](receivables-reports.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payment application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)

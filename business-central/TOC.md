@@ -587,12 +587,12 @@ ms.service: dynamics-365-business-central
 
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
@@ -618,9 +618,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
-##### [Customer - Summary Aging Simp.](reports/report-109.md)
-##### [Aged Accounts Receivables](reports/report-120.md)
-
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 <!-- Financial analytics end -->
 
 ## Sales
@@ -711,11 +709,12 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)

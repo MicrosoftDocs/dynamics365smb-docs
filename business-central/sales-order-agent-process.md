@@ -63,6 +63,8 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab open
 
 For each sales quote request, the Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
+By hovering over the Sales Order Agent icon on the role center, you can get an overview of the agent's KPIs (Key Performance Indicators) that summarize the impact of the agent's work in your organization. For example, you can get an overview of the number of sales quotes or orders created by the agent, the time saved by your team not doing the tasks automated by the agent and the total amount of the sales orders created.
+
 ## Review and assist
 
 While the agent does the bulk of work autonomously, it asks for user intervention when required for various steps to move through the process, such as:

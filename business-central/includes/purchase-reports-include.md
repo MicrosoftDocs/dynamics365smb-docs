@@ -13,6 +13,7 @@ The following table describes some of the key reports related to purchasing. The
 | To do this | Open this report in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
 | [!INCLUDE[report-4403-scenario](../includes/report-4403-scenario-include.md)] | [Aged Accounts Payable Excel](https://businesscentral.dynamics.com?report=4403) | [About *Aged Accounts Payable Excel*](../reports/report-4403.md) | 4403 |
+| [!INCLUDE[report-4404-scenario](../includes/report-4404-scenario-include.md)] | [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=4404) | [About *Vendor - Top 10 List Excel*](../reports/report-4404.md) | 4404 |
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
 | [!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)] | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
 | [!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)] | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |
@@ -27,4 +28,3 @@ The following table describes some of the key reports related to purchasing. The
 | This report is a legacy report for vendor analysis. See report documentation for alternatives. | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
 | This is a legacy report for accounts payable. See report documentation for alternatives. | [Payments on Hold](https://businesscentral.dynamics.com?report=319) | [About *Payments on Hold*](../reports/report-319.md) | 319 |
 | This is a legacy report for aged accounts payable. See report documentation for alternatives. | [Aged Accounts Payable](https://businesscentral.dynamics.com?report=322) | [About *Aged Accounts Payable*](../reports/report-322.md) | 322 |
-

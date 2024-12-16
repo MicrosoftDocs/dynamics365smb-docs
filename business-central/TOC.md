@@ -523,6 +523,7 @@ ms.service: dynamics-365-business-central
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Aged Accounts Payable Excel](reports/report-4403.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
@@ -644,6 +645,8 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
+##### [Aged Accounts Payable Excel](reports/report-4403.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)

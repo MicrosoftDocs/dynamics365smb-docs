@@ -1,5 +1,5 @@
 ---
-title: Aged Accounts Payables (Excel report)
+title: Vendor - Top 10 List Excel (Excel report)
 description: Analyze the effect of vendors on cash flow, and prioritize vendor payments.
 author: kennieNP
 ms.author: kepontop

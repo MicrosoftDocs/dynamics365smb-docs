@@ -35,13 +35,13 @@ The Sales Order Agent is activated, and you have permission to use it. Learn mor
 
 ## Get started
 
-You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** view in the **Copilot** pane.
+You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** tab in the **Copilot** pane.
 
 To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right side of the navigation menu. A red circle with a number on the badge indicates the tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png)
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
+The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
 For each sales quote request, the Sales Order Agent adds a task to track, review, and process the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
@@ -57,19 +57,19 @@ Your intervention is required for various steps in creating a sales order to mov
 > [!NOTE]
 > You might not need to review sales quotes and orders depending on how an admin configures the Sales Order Agent.
 
-Steps requiring intervention are listed under **Needs Attention** in the **Tasks** view. To review a step:
+Steps requiring intervention are listed under **Needs Attention** in the **Tasks** tab. To review a step:
 
-1. In **Task** view, select the step requesting review or assistance.
+1. In **Task** tab, select the step requesting review or assistance.
 
    The task *timeline* opens, focused on the selected step. The timelines displays each step of a task, past and present, in chronological order.
 
-1. Select **Review**.
+1. Select **Review** in the step.
 
-   The **Tasks** view switches to the **Review**, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
+   The **Tasks** tab switches to **Review**, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
 
 1. Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to cancel the process and discard the task, select **Stop**.
+1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** in the **Tasks** tab. If you want to cancel the process and discard the task, select **Stop**.
 
 After confirmation, the Sales Order Agent moves the task on for more processing. After some time, a new notification appears on the Sales Order Agent badge. Follow the same flow to verify and approve the results.
 
@@ -79,10 +79,14 @@ You might need to modify sales quotes or orders created by the agent during a re
 
 You also have the opportunity to modify a quote or a order during the step for reviewing an outgoing email to the customer. In this case, select the **Discard** action on the step. This action pause the task to allow you to open the quote or order and makes changes.
 
-After you make the changes, return the task view, select one of the options for resuming the task, and the select **Send**:
+![alt text](image-2.png)
+
+After you make the changes, return the **Tasks** tab, select one of the options for resuming the task, and the select **Send**:
 
 - **I have updated the quote** or **I have updated the order** - Select one of these options if you have mad changes to the quote or order, and you want the agent to generate a new PDF and email for the customer.
 - **Just resume** - Select this option if you haven't changed the quote or order. With this option, the agent doesn't generate a new quote or order, and keeps the original email as before.  
+
+![alt text](image-1.png)
 
 ## Stop a task
 

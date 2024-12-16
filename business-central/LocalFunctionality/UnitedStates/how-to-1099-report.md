@@ -15,13 +15,32 @@ ms.service: dynamics-365-business-central
 
 ## Register with the IRS  
 
+You can't print 1099 reports directly on pre-printed forms. You can submit 1099 forms using magnetic media or through integration with the IRIS. If you prefer to manually populate your 1099 forms, you can gather all necessary information from the **IRS 1099 Form Documents** and fill them out manually, outside of [!INCLUDE [prod_short](../../includes/prod_short.md)].
+
+You can print or email 1099 copy substitutes to your vendors, including all the details the original form requires.
+
+### Submit using integration with IRIS  
+
 > [!IMPORTANT]
 > Integration via IRIS APIs will be available in one of the upcoming minor releases.  
 
 After you submit the document to the IRS by using the API, the status of the **IRS 1099 Form Document** changes to **Submitted**.  
 
 > [!NOTE]
-> More details about the integration will be available when we deliver the new feature.
+> More details about the integration will be available when we deliver the new feature.  
+
+### Submit using magnetic media  
+
+Submitting 1099 forms as magnetic media using the FIRE portal is optional for cloud users. However, it's the only available option for on-premises users because the Microsoft security certificate for A2A communication can only be used in the cloud.  
+
+To prepare magnetic media for submission, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1099 FIRE**, and then choose the related link.  
+2. On the request page, specify the tax year for the 1099 forms that you want to report in the **Calendar Year** field, and the control code of the transmitter that is used to electronically file 1099 forms in the **Transmitter Control Code** field.
+3. Fill in the other fields as necessary, and choose **OK**.
+
+> [!NOTE]
+> If you want to test this functionality, select the **Test File** field to print a test file.  
 
 ## To print  
 
@@ -31,12 +50,12 @@ After calculation, you can use the **Print** action to print the document. When 
 - Copy C is for the sender.
 - Copy 2 is the second copy for the vendor.
 
-## Email automation 
+## Email automation
 
-### Prerequisites 
+### Prerequisites
 
 > [!NOTE]
-> You can't send the document via email if its **Status** isn't **Submitted**. This restriction helps you avoid sending an un-submitted document to the vendor. 
+> You can't send the document via email if its **Status** isn't **Submitted**. This restriction helps you avoid sending an un-submitted document to the vendor.
 
 To send forms to your vendor, you must set up the consent and the email on the **Vendor Card** page. These settings include enabling the **Receiving 1099 E-Form Consent** field to acknowledge that your vendor provided signed consent to receive their 1099 form electronically using email.  
 

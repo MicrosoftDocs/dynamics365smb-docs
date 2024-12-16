@@ -297,7 +297,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
-#### [Accounts receivable reports and analytics](receivables-reports.md)
+#### [Accounts receivable analytics](receivables-reports.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payment application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)
@@ -319,7 +319,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
-#### [Accounts payable reports and analytics](payables-reports.md)
+#### [Accounts payable analytics](payables-reports.md)
 #### Make payments
 ##### [Make payments](payables-make-payments.md)
 ##### [Work with general journals](ui-work-general-journals.md)
@@ -341,6 +341,7 @@ ms.service: dynamics-365-business-central
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
+#### [Handling vendor payment disputes](payables-how-handling-payment-disputes.md)
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
@@ -586,12 +587,10 @@ ms.service: dynamics-365-business-central
 
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Summary Aging](reports/report-305.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
@@ -602,15 +601,14 @@ ms.service: dynamics-365-business-central
 
 #### Accounts receivable reports
 ##### [Accounts receivable report overview](receivables-reports.md)
+##### [Aged Accounts Receivables Excel](reports/report-4402.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Summary Aging Simp.](reports/report-109.md)
 ##### [Customer - Top 10 List](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md)
 ##### [Customer/Item Sales](reports/report-113.md)
-##### [Aged Accounts Receivables](reports/report-120.md)
 ##### [Customer - Balance to Date](reports/report-121.md)
 ##### [Customer - Detail Trial Bal.](reports/report-129.md)
 ##### [Customer - Payment Receipt](reports/report-211.md)  
@@ -618,6 +616,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Vendor - List (legacy)](reports/report-301.md)
 
 <!-- Financial analytics end -->
 
@@ -709,11 +708,10 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)
@@ -724,6 +722,10 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+
+#### Legacy reports (will be removed)
+##### [Vendor - List (legacy)](reports/report-301.md)
+
 <!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

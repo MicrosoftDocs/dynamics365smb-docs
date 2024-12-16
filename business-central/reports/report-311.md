@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_311_Primary
-ms.date: 10/14/2024
+ms.date: 12/16/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -33,7 +33,7 @@ Try the report here: [Vendor - Top 10 List](https://businesscentral.dynamics.com
 
 ## Alternative reports
 
-There are multiple other options for analyzing your vendors. To learn more, go to
+There are several other ways to analyze your vendors. To learn more, go to:
 
 - [Power BI Purchasing app](../purchases-powerbi-app.md)
 - [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)

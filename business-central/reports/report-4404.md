@@ -17,34 +17,33 @@ ai.usage: ai-assisted
 
 # Vendor - Top 10 List Excel (report)
 
-The **Vendor - Top 10 List Excel** report shows aggregated purchase (LCY) and balance (LCY) data for the top number of vendors selected. The data is aggregated for the period specified in the request page's Datefilter parameters.
+The **Vendor - Top 10 List Excel** report shows aggregated purchase and balance data in local currency (LCY) for the top number of vendors selected. The data is aggregated for the period specified in the request page's **Date filter** parameters.
 
 The report Excel workbook contains two worksheets that you can use to analyze your vendors:
+
 - Top Vendor List
 - TopVendorData
 
-Each worksheet represents a different dimension to your analysis.
+Each worksheet represents a different dimension in your analysis.
 
 <!-- add when 4402 report article is merged to main
 [!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)] 
 -->
 
 > [!NOTE]
-> This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If you see a banner with a text about external data connections, you might need to choose the botton **Enable content** to load data. The report does not connect to any external data sources, all calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to see data in the reports.
-
+> This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
 
 ## Top Vendor List worksheet
 
-This worksheet shows current purchase amounts and balance in local currency by vendor and with the ability to see data grouped by a Year-Quarter-Month-Day hierachy on Due Date.
+This worksheet shows current purchase amounts and balance in LCY by vendor. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
 With filters and slicers, you can zoom into a single vendor or a group of vendors.
 
 :::image type="content" source="../media/excel-top-10-vendors-top-vendor-list.png" alt-text="Screenshot of the Top Vendor List worksheet":::
 
-
 ## TopVendorData worksheet
 
-This worksheet shows the raw data used in the report. 
+This worksheet shows the raw data used in the report.
 
 <!-- add when 4402 report article is merged to main
 You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
@@ -52,8 +51,7 @@ You can use this worksheet for data analysis assisted by built-in tools in Excel
 :::image type="content" source="../media/finance/excel-excel-top-10-vendors-top-vendor-data.png" alt-text="Screenshot of the TopVendorData worksheet":::
 -->
 
-To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a)
-
+To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
 
 ## Use cases
 
@@ -89,17 +87,16 @@ Please include your data sources and URLs
 
 Procurement managers use the report to:
 
-* Monitor vendor performance. The report provides a complete view of the vendors with the most transactions in a selected period. Use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
-* Prioritize vendor payments. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to prioritize vendor payments and manage cash flow effectively.
+- Monitor vendor performance. The report provides a complete view of the vendors with the most transactions in a selected period. Use this information to monitor vendor performance and identify any discrepancies in pricing or delivery timelines.
+- Prioritize vendor payments. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to prioritize vendor payments and manage cash flow effectively.
 
 Accounts payable specialists use the report to:
 
-* Manage vendor relationships. The report provides a comprehensive view of the vendors that the company purchases from the most. Use this information to monitor and manage vendor relationships, ensure timely payments, and avoid potential disputes with vendors.
+- Manage vendor relationships. The report provides a comprehensive view of the vendors that the company purchases from the most. Use this information to monitor and manage vendor relationships, ensure timely payments, and avoid potential disputes with vendors.
 
 Controllers use the report to:
 
-* Forecast cash flow. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to forecast cash flow, identify potential cash flow issues, and take action to avoid disruptions in cash flow.
-
+- Forecast cash flow. The report provides a quick overview of the vendors with the largest balance and the highest purchase volume. Use this information to forecast cash flow, identify potential cash flow issues, and take action to avoid disruptions in cash flow.
 
 ## Try the report
 
@@ -109,12 +106,12 @@ Try the report here: [Vendor - Top 10 List Excel](https://businesscentral.dynami
 
 ## Alternative reports
 
-There are multiple other options for analyzing your vendors. To learn more, go to
+There are several other ways to analyze your vendors. To learn more, go to:
 
 - [Power BI Purchasing app](../purchases-powerbi-app.md)
 - [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)
 
-## See also
+## Related information
 
 [Power BI Purchasing app](../purchases-powerbi-app.md)  
 [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)  

@@ -81,7 +81,7 @@ You also have the opportunity to modify a quote or order during the review step 
 > [!NOTE]
 > **Discard step** is available only on review steps for outgoing emails.
 
-After you make the changes, return the **Tasks** tab, select one of the options for resuming the task, and the select **Send**:
+After you make the changes, return to the **Tasks** tab, select one of the following options for resuming the task, and then select **Send**:
 
 - **I have updated the quote** or **I have updated the order** - Select one of these options if you made changes to the quote or order. The agent generates a new PDF and email for the customer.
 - **Just resume** - Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order, and keeps the original email as before.  

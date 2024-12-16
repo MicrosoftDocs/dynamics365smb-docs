@@ -1,17 +1,17 @@
 ---
-title: Getting the Business Central Add-in for Excel
+title: Getting the Business Central add-in for Excel
 description: Learn how to get users the Business Central Add-in for Excel. 
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2024
+ms.date: 12/16/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Get the Business Central Add-in for Excel
+# Get the Business Central add-in for Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select the **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -40,7 +40,7 @@ With both these deployment options, the add-in is automatically configured to co
 
 When you change from individual acquisition of the add-in to Centralized Deployment, or vice versa, it affects Excel files that users created before the transition. After the transition, users can still open any Excel worksheets previously created using the **Edit in Excel** action or created manually by configuring the Excel add-in. But they can't update the data in the file from Business Central or push updates to Business Central.
 
-This is because each Excel file gets assigned an "add-in" identifier. In the transition to or from Centralized Deployment, a different ID is assigned, so the earlier ID becomes blocked.
+This situation happens because each Excel file gets assigned an "add-in" identifier. In the transition to or from Centralized Deployment, a different ID is assigned, so the earlier ID becomes blocked.
 
 ## Preparation (on-premises only)
 
@@ -54,7 +54,7 @@ Centralized Deployment is a feature in the Microsoft 365 admin center that you u
 
 - Learn more about preventing users from downloading from the Office store at [Manage add-ins in the admin center](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Verify that Centralized Deployment works for your organization. Learn more at [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
-- If you're transitioning from individual acquisition, learn more in [Switching from individual acquisition to Centralized Deployment](#switch).
+- Learn more about transitioning from individual acquisition at [Switching from individual acquisition to Centralized Deployment](#switch).
 
 > [!NOTE]
 > Enabling Centralized Deployment affects features that use the Excel add-in, such as the **Edit in Excel** action. It has no effect on other Excel-related features or permissions assigned to users in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -94,7 +94,7 @@ In most cases, when you open Excel from Business Central, the add-in is either i
 
 1. Open Excel, then open any Excel workbook.
 1. On the **Home** tab, select **Add-ins** > **More Add-ins**.
-1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see it there, select it, and then choose **Add**. If you don't see it, go to **Store**, and then search for *Microsoft Dynamics Office Add-In* and follow the instructions to add it.
+1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see it there, select it, and then choose **Add**. If you don't see it, go to **Store**, and then search for *Microsoft Dynamics Office add-In* and follow the instructions to add it.
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
 
@@ -112,7 +112,7 @@ The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], 
 
 ## Prepare devices and network for the Excel add-in
 
-Network services such as proxies or firewalls must allow routing between each client device on which the add-in is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
+Network services such as proxies or firewalls must allow routing between each client device on which the add-in is installed and many service endpoints. For a list of endpoints, go to [Preparing your network for the Excel add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## Troubleshooting
 
@@ -125,14 +125,14 @@ Sometimes, users run into problems with the Excel add-in. This section gives tip
 |Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)].|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customized, remove the extensions, and then try again.|
 |The dates are wrong.  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] doesn't get messed up.|         |
 |For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** checkboxes for the published page. Selecting these checkboxes excludes noneditable FlowFields and fields from the eTag calculation. |These checkboxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
-|Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might be caused by an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only.|
+|Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might happen because of an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only.|
 | The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
 
 ## Known limitations in business logic
 
 |Page  |Limitation| Comments  |
 |-------|---------|---------|
-|Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal'. Client callbacks aren't supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to options. Setting **Alternate Shipping Address** to **Ship-to** opens the **Ship-to Address List** modal dialog, which isn't compatible with Edit in Excel.|  
+|Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal.' Client callbacks aren't supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to options. Setting **Alternate Shipping Address** to **Ship-to** opens the **Ship-to Address List** modal dialog, which isn't compatible with Edit in Excel.|  
 |Project Journal|Update of the **Unit Price** field doesn't trigger an update of the **Line Amount**. Instead, it updates **Line Discount**.| Using the web client, you can update fields in any order—price, amount, line discount. Other fields are updated automatically. To avoid cascade updates, the fields have advanced logic that relies on xRec, which behaves differently when called via APIs.|
 
 ## Known limitations in metadata generation
@@ -308,7 +308,7 @@ tableextension 50102 CustomerTableExtension extends Customer
 
 In this scenario, both extensions A and B add a page field named `ShoeSize` to the **Customer Card** page. This condition results in a conflict, which leads to a metadata generation failure for the **Customer Card** page.
 
-To resolve this, you need access to the code of at least one of the extensions, and then to modify the conflicting page field names to avoid collisions.
+To resolve this issue, you need access to the code of at least one of the extensions, and then to modify the conflicting page field names to avoid collisions.
 
 <!--
 ## Deploy the Excel add-in for Business Central online

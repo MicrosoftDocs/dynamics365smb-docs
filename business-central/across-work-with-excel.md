@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 06/13/2024
+ms.date: 12/16/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -19,7 +19,7 @@ With pages that display a list of records in rows and columns, such as a list of
 
 With the **Open in Excel** action, you can make changes to the records in Excel, but you can't publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. You can only save the changes to the Excel file, without affecting data in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- With this action, Excel respects any filters on the page that limit the records shown. The Excel workbook will contain the same rows and columns that appear on the page in [!INCLUDE[prod_short](includes/prod_short.md)].
+- Excel respects filters on the page that limit the records shown. The Excel workbook has the same rows and columns that appear on the page in [!INCLUDE[prod_short](includes/prod_short.md)].
 - This action works on both Windows and macOS.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
@@ -34,15 +34,15 @@ With the **Open in Excel** action, you can make changes to the records in Excel,
 
 ## Edit in Excel
 
-The **Edit in Excel** action is available on most lists, but not all. With the **Edit in Excel** action, you make changes to records in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. When Excel opens, you'll see the **Excel Add-in** pane on the right.
+The **Edit in Excel** action is available on most lists, but not all. With the **Edit in Excel** action, you make changes to records in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. When Excel opens, the **Excel Add-in** pane displays.
 
-- With this action, Excel respects most filters on the page that limit the records shown, so the Excel workbook will contain almost the same records and columns.
+- With this action, Excel respects most filters on the page that limit the records shown, so the Excel workbook has almost the same records and columns.
 - To get the latest data from [!INCLUDE[prod_short](includes/prod_short.md)], choose **Refresh** in the Excel Add-in pane.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 ### First-time sign-in
 
-The **Edit in Excel** action requires that the Business Central add-in is installed in Excel. In some cases, your administrator may have set up the add-in to install automatically for you. In this case, you just have to sign in to Business Central in the **Excel Add-in** pane with your user name and password. Otherwise, the **New Office Add-in** pane opens. To install the add-in, choose **Trust this add-in**, which will install the add-in directly from the Office Store.
+The **Edit in Excel** action requires that the Business Central add-in is installed in Excel. In some cases, your administrator might set up the add-in to install automatically for you. In this case, you just have to sign in to Business Central in the **Excel Add-in** pane with your user name and password. Otherwise, the **New Office Add-in** pane opens. To install the add-in, choose **Trust this add-in**, which installs the add-in directly from the Office Store.
 
 If the add-in doesn't install, either contact your admin or try to install it manually. For more information, see [Install the add-in manually for your own use](admin-deploy-excel-addin.md#install).
 
@@ -62,7 +62,7 @@ If you make changes to the add-in, you must reload it to update the connection. 
 
 ### Limits when using Excel for the web
 
-When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook may have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features. 
+When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook might have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features. 
 
 <!--## See the differences between the options
 <br><br>  

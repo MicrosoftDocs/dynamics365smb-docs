@@ -95,11 +95,12 @@ Business Central doesn't yet offer granular, object-level permissions so that on
 After you enable and consent to the features, you're ready to try them out. Go to the following articles:
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
-- [Analyze list data with help of Copilot](analysis-assist.md)
+- [Analyze list data with Copilot](analysis-assist.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
+- [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
 
 ## Related information
 

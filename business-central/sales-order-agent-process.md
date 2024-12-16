@@ -96,13 +96,14 @@ Before you stop a task, consider the following behavior:
   For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state depending on your company policy.
 - Stopped tasks aren't deleted immediately. You can still explore a task's timeline until it's deleted, typically by an administrator.
 
+<!--
 ## Discard and resume a taks to modify a quote or order
 
 The **Discard**  action ellwo
 
 ## View timeline and details of steps
 
-From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.
+From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.-->
 
 ## Related information
 

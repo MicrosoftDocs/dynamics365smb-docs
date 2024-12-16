@@ -88,8 +88,7 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 
 <!-- :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png"::: -->
 
-> [!TIP]
-> If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
+[!INCLUDE [onedrive-excel-online](includes/onedrive-excel-online.md)]
 
 For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md).
 

@@ -1,0 +1,1 @@
+Analyze entries posted to the Vendor Ledger and Detailed Vendor Sub Ledger.

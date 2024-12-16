@@ -1,6 +1,6 @@
 ---
 title: Aged Accounts Receivables (report)
-description: Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
+description: Legacy report for analyzing customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,6 +17,9 @@ ai.usage: ai-assisted
 
 # Aged Accounts Receivables (report)
 
+> [!NOTE]
+> This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables Excel** report instead. To learn more, go to [About *Aged Accounts Receivables Excel*](../reports/report-4402.md).
+
 The **Aged Accounts Receivables** report shows the number of outstanding customer invoices, credit memos, and payments.
 
 You can configure the report's aging to generate three equal length periods as of a date you specify. For example, the periods might be the three previous months from the end of the current month. The report calculates the customer's outstanding balance for each period, and balances due before or after the three periods.
@@ -24,7 +27,7 @@ You can configure the report's aging to generate three equal length periods as o
 > [!TIP]
 > Businesses often use the start and end dates as the names for each period, or the total number of days the periods include. For example, 1 - 31 days.
 
-The report calculates a total percentage of outstanding amounts for each period, to help you easily identify the current state of customer debts.
+To help you easily identify the current state of customer debts, the report calculates a total percentage of outstanding amounts for each period.
 
 The report can either show a summed balance for each customer, or a detailed breakdown of each outstanding document.
 
@@ -94,7 +97,15 @@ Try the report here: [Aged Accounts Receivables](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Alternative reports
+
+There are several other ways to analyze your aged accounts receivables. To learn more, go to:
+
+* [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
+* [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
+* [Aged Accounts Receivable Excel report](report-4402.md)
+
+## Learn more
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  

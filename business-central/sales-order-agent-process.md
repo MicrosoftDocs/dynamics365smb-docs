@@ -16,34 +16,13 @@ ms.custom: bap-template
 
 This article explains how to use the Sales Order Agent to automate taking sales orders based on customer inquiries about products/items received via email.
 
+The Sales Order Agent works by monitoring a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+
+Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve any missing details and allow for modifications to the original request, if necessary.
+
+Learn more about the Sales Order Agent and its process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
+
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
-
-## How it works
-
-The agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
-
-The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address (the agent searches among the registered Business Central contacts and then looks up the customer linked to that contact). If the customer isn't found, the agent stops processing the task and requests intervention from the user. If the customer is found, the agent filters out all sales quotes and orders that don't belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
-
-The agent analyzes incoming emails to detect parameters for preparing a new sales quote or updating an existing one. Apart from the items themselves, parameters might include the item attributes, quantities, units of measure, requested delivery date, external document number, and more. The agent then searches for these items in the Business Central's inventory, within a wide range of related tables.
-
-|Table|Fields|
-|-|-|
-|Items|No.<br>Description<br>Description 2<br>Search Description<br>GTIN<br>Vendor Item Number|
-|Item Variant|Code<br>Description<br>Description 2|
-|Item Reference|Reference No.<br>Description<br>Description 2|
-|Item Attributes|Name<br>Value|
-|Item Category| Code<br>Description<br>Parent Category - 1 Level|
-|Item Translation|Language<br>Description<br>Description 2|
-|Item Identifier|Code|
-|Extended text Line|Text|
-
-Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
-
-When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more. 
-
-Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request.
-
-Learn more about Sales Order Agent process in [Sales Order Agent overview](sales-order-agent.md#process-flow).
 
 <!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 

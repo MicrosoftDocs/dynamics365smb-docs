@@ -63,13 +63,13 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
 
    The task *timeline* opens, focused on the selected step. The timelines displays each step of a task, past and present, in chronological order.
 
-1. Select **Review** in the step.
+1. Select **Review** for the step.
 
-   The **Tasks** tab switches to **Review**, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
+   The **Tasks** tab switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
 
 1. Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** in the **Tasks** tab. If you want to cancel the process and discard the task, select **Stop**.
+1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** step in **Tasks** tab. If you want to cancel the process and discard the task, select **Stop**.
 
 After confirmation, the Sales Order Agent moves the task on for more processing. After some time, a new notification appears on the Sales Order Agent badge. Follow the same flow to verify and approve the results.
 

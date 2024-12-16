@@ -537,11 +537,11 @@ ms.service: dynamics-365-business-central
 #### Accounts receivable reports
 ##### [Accounts receivable report overview](receivables-reports.md)
 ##### [Aged Accounts Receivables Excel](reports/report-4402.md)
+##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Top 10 List](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md)
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Balance to Date](reports/report-121.md)
@@ -553,7 +553,7 @@ ms.service: dynamics-365-business-central
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
 ##### [Vendor - Summary Aging (legacy)](reports/report-305.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
-
+##### [Customer - Top 10 List (legacy)](reports/report-111.md)
 <!-- Financial analytics end -->
 
 ## Sales
@@ -580,10 +580,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Top 10 list](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Sales list](reports/report-119.md) 
@@ -593,6 +593,8 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
+#### Legacy reports (will be removed)
+##### [Customer - Top 10 list (legacy)](reports/report-111.md)
 <!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)

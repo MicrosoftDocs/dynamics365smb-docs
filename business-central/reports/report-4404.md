@@ -45,7 +45,7 @@ This worksheet shows the raw data used in the report.
 
 You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
 
-:::image type="content" source="../media/excel-excel-top-10-vendors-top-vendor-data.png" alt-text="Screenshot of the TopVendorData worksheet":::
+:::image type="content" source="../media/excel-top-10-vendors-top-vendor-data.png" alt-text="Screenshot of the TopVendorData worksheet":::
 
 To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
 

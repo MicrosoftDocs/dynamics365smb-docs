@@ -523,7 +523,6 @@ ms.service: dynamics-365-business-central
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Aged Accounts Payable Excel](reports/report-4403.md)
-##### [Vendor - List](reports/report-301.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
@@ -551,8 +550,9 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Vendor - List (legacy)](reports/report-301.md)
 ##### [Vendor - Summary Aging (legacy)](reports/report-305.md)
-##### [Aged Accounts Payable](reports/report-322.md)
+##### [Aged Accounts Payable (legacy)](reports/report-322.md)
 
 <!-- Financial analytics end -->
 
@@ -647,12 +647,10 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor Item catalog](reports/report-320.md)
-##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
@@ -661,7 +659,8 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Vendor - List (legacy)](reports/report-301.md)
-
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
+##### [Aged Accounts Payable (legacy)](reports/report-322.md)
 <!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

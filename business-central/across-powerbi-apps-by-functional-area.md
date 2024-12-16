@@ -27,7 +27,7 @@ ms.custom: bap-template
 | Projects             | [Power BI Projects app](projects-powerbi-app.md) |
 | Manufacturing        | [Power BI Manufacturing app](manufacturing-powerbi-app.md) |
 
-## Reports in the Power BI Finance app
+## Reports in the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)]
 
 [!INCLUDE [power-bi-finance-app](includes/power-bi-finance-app.md)]
 

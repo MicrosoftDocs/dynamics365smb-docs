@@ -18,13 +18,14 @@ ms.collection:
 These frequently asked questions (FAQ) describe the AI impact of Sales Order Agent feature in Business Central.
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 
+<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 
 ## What is the Sales Order Agent?
 
 The Sales Order Agent is an integrated AI agent that automates the task of handling requests for sales quotes and sales orders from customers. The agent can manage the entire sales order capturing process, from receiving a customer's order by email, locating the customer among the registered customers in Business Central, checking items availability, preparing a quote with the requested items, following up with the customer on any changes needed to finalize the quote, receiving quote approval, and converting it to a sales order.
-Find out more here: https://review.learn.microsoft.com/en-us/dynamics365/business-central/sales-order-agent-process?toc=%2Fdynamics365%2Fbusiness-central%2Ftoc.json&branch=deliv539602-sales-order-taker
+
+Learn more in [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md).
 
 ## What are capabilities of the Sales Order Agent?
 
@@ -32,13 +33,15 @@ The agent supports handling requests for sales quotes and sales orders from cust
 
 - Agent configuration
 
-The agent is available directly within Business Central. You can configure and activate the agent to help your team or organization improve the sales process. For example, you can specify the users who can participate in the process of reviewing and approving the sales documents created by the agent, the mailbox for receiving the customer requests and settings for searching your items and involving the users for reviewing the agent work. Find out more here: https://review.learn.microsoft.com/en-us/dynamics365/business-central/sales-order-agent-setup?toc=%2Fdynamics365%2Fbusiness-central%2Ftoc.json&branch=deliv539602-sales-order-taker&tabs=soaconfig
+  The agent is available directly within Business Central. You can configure and activate the agent to help your team or organization improve the sales process. For example, you can specify the users who can participate in the process of reviewing and approving the sales documents created by the agent. You can also specify the mailbox for receiving the customer requests and settings for searching your items and involving the users for reviewing the agent work.
+
+  Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
 
 - Task execution and interaction
 
-The agent operates based on its instructions and user configuration. The instructions describe its purpose, tasks, and high level considerations for how to perform the flow. These instructions are defined in the agent code and aren't visible to users. The agent uses AI to identify and carry out the steps needed to complete its task within the Business Central environment. Find out more here: https://review.learn.microsoft.com/en-us/dynamics365/business-central/sales-order-agent?toc=%2Fdynamics365%2Fbusiness-central%2Ftoc.json&branch=deliv539602-sales-order-taker#operation   
+  The agent operates based on its instructions and user configuration. The instructions describe its purpose, tasks, and high level considerations for how to perform the flow. These instructions are defined in the agent code and aren't visible to users. The agent uses AI to identify and carry out the steps needed to complete its task within the Business Central environment. Learn more in [Sales Order Agent overview](sales-order-agent.md).
 
-The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over e-mails received from the customers to the Sales Order Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response.
+  The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over e-mails received from the customers to the Sales Order Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response.
   
 - Access and permissions
 
@@ -48,7 +51,7 @@ The agent is invoked by a built-in e-mail dispatcher that runs as a scheduled ta
 
   The agent seeks user intervention in specific situations, such as preparing outbound communications or providing business review and approval for key operations.
 
-  Business Central maintains full transparency and provides control over changes made by the agent. The agent brings humans in the loop when their attention is required by issuing in-product notifications that are displayed on the role center. For example, a notification happens before any outbound e-mail communications, such as sending a final sales quote or an order to a customer, when the agent needs more details to get unblocked, or when approval for important changes.  
+  Business Central maintains full transparency and provides control over changes made by the agent. The agent brings humans in the loop when their attention is required by issuing in-product notifications that are displayed on the role center. For example, a notification occurs before any outbound e-mail communications to a customer, when the agent needs more details to get unblocked, or when approval for important changes.  
 
   For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the e-mail conversation. Users can review this information and update the values and actions the agent suggested if needed. Business Central can also display the reasoning used by the agent and citations that led to a suggested value.
 
@@ -83,32 +86,32 @@ We defined a set of categories and scenarios and created test cases for each as 
 - E-mailing
 
   - The agent reads inbound emails via a shared inbox on Microsoft Exchange. Learn more in [Set up email](admin-how-setup-email.md). Other ways to receive email aren't supported.
-  - The agent only uses the email body to get the details of the request, it does not process files attached to emails.  
+  - The agent only uses the email body to get the details of the request, it doesn't process files attached to emails.  
   - Large emails might exceed the number of tokens that can be processed in one request. This condition leads the agent to trigger a request for a human to investigate (similar to how a human is requested to approve whether the agent approves an email). 
-  - E-mail messages generated by the agent may contain incorrect information. The agent is designed to ask a human user to review and edit every outbound message if necessary.  
+  - E-mail messages generated by the agent might contain incorrect information. The agent is designed to ask a human user to review and edit every outbound message if necessary.  
 
 - Entities and data the agent can work with
 
   - The agent is designed to work with sales quotes and sales orders. It can't create or work with the other sales documents (such as blank orders, invoices, or credit memos) or documents in other areas of the product (such as purchase or service orders).
-  - The agent does not create new items, contacts, or customers. It only works with the entities that are already registered in Business Central. The agent is designed to ask a human user to provide additional information or perform the task manually, when it cannot find this data in Business Central.   
-  - The agent does not post documents.
-  - Based on additional customer requests, the agent can make changes to the sales quotes, but not to the sales orders.
-  - The agent is designed to work with sales lines of type "Item", other sales line types, such as Resource, Charge (Item), Allocation Account, Fixed Asset are not supported.
-  - At this stage the agent supports creation of up to 15 item lines per sales document. Increasing the number of lines might result in lower-quality output.
+  - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central. The agent is designed to ask a human user to provide additional information or perform the task manually, when it can't find this data in Business Central.   
+  - The agent doesn't post documents.
+  - Based on more customer requests, the agent can make changes to the sales quotes, but not to the sales orders.
+  - The agent is designed to work with sales lines of type "Item", other sales line types, such as Resource, Charge (Item), Allocation Account, Fixed Asset aren't supported.
+  - At this stage, the agent supports creation of up to 15 item lines per sales document. Increasing the number of lines might result in lower-quality output.
   - How you name your products can affect agent output. For example, using cryptic abbreviations versus friendly names can reduce output quality.
 
-- When adding items to a sales document, the use of the item's **Variant Code** isn't currently supported. It leaves the **Variant Code** field empty. 
-     
+- When adding items to a sales document, the use of the item's **Variant Code** isn't currently supported. It leaves the **Variant Code** field empty.
+
 - Pricing and discounts requests
 
-   Business Central has advanced price/discount calculation logic, often extended by the ISV solutions. Therefore the most reliable way to get the item price is to create a sales document, for example quote. This is why the agent is designed not to provide or update any pricing and discount information by email. Prices and default discounts are calculated by the Business Central own business logic and included with a sales quote document. Requests for changing discounts and pricing are not accepted by the agent, instead they are surfaced to the users for applying them manually. 
+   Business Central has an advanced price/discount calculation logic, often extended by the ISV solutions. Therefore, the most reliable way to get the item price is to create a sales document, for example, a quote. For this reason, the agent is designed *not* to provide or update any pricing and discount information by email. Prices and default discounts are calculated by the Business Central own business logic and included with a sales quote document. Requests for changing discounts and pricing aren't accepted by the agent. Instead, they're surfaced to the users for applying them manually. 
 
 - Other considerations
 
   - Delegated administrators can't activate the agent.  
   - It's only possible to configure and use one Sales Order Agent per Business Central company.
   - The agent uses the regional settings specified by its user account.
-  - While the agent may recognize and interact with the custom fields and actions introduced by customizations and ISV solutions, which are added to the agent's profile and permissions, the results may be of varying quality and should be thoroughly tested. Improving reliability of working with the custom elements may require adjustments to the agent's instructions, which is currently not supported. 
+  - While the agent can recognize and interact with the custom fields and actions introduced by customizations and ISV solutions, which are added to the agent's profile and permissions, the results might vary in quality and should be thoroughly tested. Improving reliability of working with the custom elements might require adjustments to the agent's instructions, which is currently not supported. 
   
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
@@ -118,7 +121,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 
   We strongly encourage using the permission sets and the profile included with the Sales Order Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
 
-  Find out more here: https://review.learn.microsoft.com/en-us/dynamics365/business-central/sales-order-agent-setup?toc=%2Fdynamics365%2Fbusiness-central%2Ftoc.json&branch=deliv539602-sales-order-taker&tabs=soaconfig#manage-agent-permissions-and-user-access
+  Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
 
 - Transparency and notifications
 

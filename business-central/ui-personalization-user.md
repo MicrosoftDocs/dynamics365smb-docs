@@ -12,8 +12,6 @@ ms.date: 12/16/2024
 ms.author: jswymer
 ---
 
-<!-- No link for the action in line 38? In line 127, something is missing from this: "Moving the flow makes a copy the flow to the destination". Not sure what line 134 is about. In line 194, should it be "analysis mode" instead of "analyze mode" in this sentence: "If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off." -->
-
 # Personalize your workspace
 
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
@@ -125,14 +123,14 @@ To move an action or action group into another action group that is empty, drag 
 ### About the Automate menu
 
 - You can't hide or move the **Automate** menu or the **Power Automate** submenu and its actions.
-- You can move flows included under the **Automate** item, but you can't hide them using personalization. Moving the flow makes a copy the flow to the destination, it doesn't remove it from the **Automate** item.
+- You can move flows included under the **Automate** item, but you can't hide them using personalization. Moving the flow makes a copy the flow in the destination, it doesn't remove it from the **Automate** item.
 
 > [!TIP]
 > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="Parts"></a>Personalize parts
 
-Point to or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd>
+Hover over or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to get information about a field.
 
 Parts are areas on a page that are typically composed of multiple fields, charts, or other content. A part shows a colored border when you focus on the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its contents.
 
@@ -191,7 +189,7 @@ To help you better understand personalization, here are some pointers:
 - When you make changes to a card page that you open from a list, the changes take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added is also shown.
 - Changes that you make affect all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you also see the change on the **Customers** page when the Role Center is set to Sales Order Processor.
 - Changes to a page in a pane take effect on the page wherever it appears.  
-- You can't personalize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you happen to switch to personalization mode while the page is in analysis mode, then analyze mode is automatically switched off.
+- You can't personalize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you happen to switch to personalization mode while the page is in analysis mode, then analysis mode is automatically switched off.
 - Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/hiding/moving those fields is also independent without one affecting the other.
 - If a part or group is hidden, ghosted fields still show inside it, but you can't drag-and-drop or add/show that field until you make the group/part visible.
 

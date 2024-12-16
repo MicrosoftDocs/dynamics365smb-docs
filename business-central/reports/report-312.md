@@ -68,7 +68,7 @@ There are several other ways to analyze your vendors.
 
 - The **Vendors** list and the **Vendor** card both include a Vendor Statistics section in the factbox.
 - The **Vendor** card includes a Statistics action that opens the **Vendor Statistics** page.
-- All reports in the [!INCLUDE [power-bi-purchasing-app-name](includes/power-bi-purchasing-app-name.md)] support filtering to one or more vendors. To learn more, go to [Power BI Purchasing app](../purchases-powerbi-app.md).
+- All reports in the [!INCLUDE [power-bi-purchasing-app-name](../includes/power-bi-purchasing-app-name.md)] support filtering to one or more vendors. To learn more, go to [Power BI Purchasing app](../purchases-powerbi-app.md).
 
 
 

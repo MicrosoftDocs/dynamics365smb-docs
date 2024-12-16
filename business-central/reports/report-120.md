@@ -18,8 +18,7 @@ ai.usage: ai-assisted
 # Aged Accounts Receivables (report)
 
 > [!NOTE]
-> This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables Excel** report instead. For more information, see [About *Aged Accounts Receivables Excel*](../reports/report-4402.md).
-
+> This is a legacy version of an accounts receivables aging report. We recommend you use the **Aged Accounts Receivables Excel** report instead. To learn more, go to [About *Aged Accounts Receivables Excel*](../reports/report-4402.md).
 
 The **Aged Accounts Receivables** report shows the number of outstanding customer invoices, credit memos, and payments.
 
@@ -28,7 +27,7 @@ You can configure the report's aging to generate three equal length periods as o
 > [!TIP]
 > Businesses often use the start and end dates as the names for each period, or the total number of days the periods include. For example, 1 - 31 days.
 
-The report calculates a total percentage of outstanding amounts for each period, to help you easily identify the current state of customer debts.
+To help you easily identify the current state of customer debts, the report calculates a total percentage of outstanding amounts for each period.
 
 The report can either show a summed balance for each customer, or a detailed breakdown of each outstanding document.
 
@@ -100,12 +99,11 @@ Try the report here: [Aged Accounts Receivables](https://businesscentral.dynamic
 
 ## Alternative reports
 
-There are multiple other options for analyzing your aged accounts receivables. To learn more, go to
+There are several other ways to analyze your aged accounts receivables. To learn more, go to:
 
-- [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
-- [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
-- [Aged Accounts Receivable Excel report](report-4402.md)
-
+* [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
+* [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
+* [Aged Accounts Receivable Excel report](report-4402.md)
 
 ## Learn more
 

@@ -28,7 +28,7 @@ Try the report here: [Customer - Summary Aging Simp.](https://businesscentral.dy
 
 ## Alternative reports
 
-There are multiple other options for analyzing your aged accounts receivables. To learn more, go to
+There are several other ways to analyze your aged accounts receivables. To learn more, go to:
 
 - [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
 - [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)

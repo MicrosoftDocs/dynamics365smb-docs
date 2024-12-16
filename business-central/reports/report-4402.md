@@ -17,61 +17,57 @@ ai.usage: ai-assisted
 
 # Aged Accounts Receivables Excel (report)
 
-The **Aged Accounts Receivables Excel** report shows aggregated ageing data based on customer ledger entries in an Excel workbook. 
+The **Aged Accounts Receivables Excel** report shows aggregated aging data based on customer ledger entries in an Excel workbook.
 
-The data is aggregated and bucketed according to the ‘Aged as of' and ‘Period length' parameters in the reports request page. The aggregated data is summarised per the 2 global dimensions.
+The data is aggregated and bucketed according to the **Aged as of** and **Period length** parameters in the report's request page. The aggregated data is summarized for the two global dimensions.
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts receivables:
+
 - By period (LCY)
 - By Period (FCY)
 - Due by Currencies
 - CustomerAgingData
 
-Each worksheet represents a different dimension to your analysis.
+Each worksheet represents a different dimension for your analysis.
 
 [!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
 
 > [!NOTE]
-> This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If you see a banner with a text about external data connections, you might need to choose the botton **Enable content** to load data. The report does not connect to any external data sources, all calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to see data in the reports.
-
+> This report does the calculations when you view it in Excel online, or when you download and open it. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
 
 ## By period (LCY) worksheet
 
-This worksheet shows amounts in local currency by customer and with the ability to see data grouped by a Year-Quarter-Month-Day hierachy on Due Date.
+This worksheet shows amounts in local currency by customer and with the ability to group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
 With filters and slicers, you can zoom into a single customer or a group of customers.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-By-period-(LCY).png" alt-text="Screenshot of the By period (LCY) worksheet":::
 
-
 ## By Period (FCY) worksheet
 
-This worksheet shows amounts in foreign currency by customer and with the ability to see data grouped by a Year-Quarter-Month-Day hierachy on Due Date.
+This worksheet shows amounts in foreign currency (FCY) by customer and with the ability to group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
-With filters and slicers, you can zoom into a single customer or a group of customers. You can also filter by one or more Currency Codes, should you need this. 
+With filters and slicers, you can zoom into a single customer or a group of customers. You can also filter by one or more currency codes, if needed.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-By-period-(FCY).png" alt-text="Screenshot of the By period (FCY) worksheet":::
 
-
 ## Due by Currencies worksheet
 
-This worksheet shows amounts by currency code and with the ability to see data grouped by a Year-Quarter-Month-Day hierachy on Due Date.
+This worksheet shows amounts by currency code and with the ability to group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
-With filters and slicers, you can zoom into a single customer or a group of customers. You can also filter by one or more Currency Codes, should you need this. 
+With filters and slicers, you can zoom into a single customer or a group of customers. You can also filter by one or more currency codes, if needed.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-Due-by-Currencies.png" alt-text="Screenshot of the Due by Currencies worksheet":::
 
-
 ## CustomerAgingData worksheet
 
-This worksheet shows the raw data used in the report. 
+This worksheet shows the raw data used in the report.
 
 You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-CustomerAgingData.png" alt-text="Screenshot of the CustomerAgingData worksheet":::
 
-To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a)
-
+To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
 
 ## Use cases
 
@@ -117,21 +113,21 @@ Please include your data sources and URLs
 
 Accounts receivable professionals use the report to:
 
-* Reconcile customer subledgers against the receivables accounts in the general ledger and ensure that all outstanding balances are accurate and complete.
-* Identify discrepancies or errors in customer transactions and investigate them.
-* Get data to prepare financial statements such as income statements or balance sheets.
+- Reconcile customer subledgers against the receivables accounts in the general ledger and ensure that all outstanding balances are accurate and complete.
+- Identify discrepancies or errors in customer transactions and investigate them.
+- Get data to prepare financial statements, such as income statements or balance sheets.
 
 Collections specialists use the report to:
 
-* Identify overdue customer accounts and prioritize follow-up activities based on how overdue the payments are.
-* Analyze customer payment history to identify patterns or trends in late payments and proactively address issues.
-* Prepare collection reports or dashboards for internal or external stakeholders.
+- Identify overdue customer accounts and prioritize follow-up activities based on how overdue the payments are
+- Analyze customer payment history to identify patterns or trends in late payments and proactively address issues.
+- Prepare collection reports or dashboards for internal or external stakeholders.
 
 Credit analysts use the report to:
 
-* Analyze customer payment history to make recommendations for credit limits or payment terms.
-* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
-* Get data to prepare financial reports for stakeholders such as investors or executives.
+- Analyze customer payment history to make recommendations for credit limits or payment terms.
+- Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+- Get data to prepare financial reports for stakeholders such as investors or executives.
 
 ## Try the report
 
@@ -141,13 +137,12 @@ Try the report here: [Aged Accounts Receivables Excel](https://businesscentral.d
 
 ## Alternative reports
 
-There are multiple other options for analyzing your aged accounts receivables. To learn more, go to
+There are several other ways to analyze your aged accounts receivables. To learn more, go to:
 
 - [Aged Receivables (Back Dating) in Power BI](../finance-powerbi-aged-receivables-back-dating.md)
 - [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
 
-
-## See also
+## Related information
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  

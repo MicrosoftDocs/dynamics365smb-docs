@@ -319,7 +319,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
-#### [Accounts payable reports and analytics](payables-reports.md)
+#### [Accounts payable analytics](payables-reports.md)
 #### Make payments
 ##### [Make payments](payables-make-payments.md)
 ##### [Work with general journals](ui-work-general-journals.md)
@@ -341,6 +341,7 @@ ms.service: dynamics-365-business-central
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
+#### [Handling vendor payment disputes](payables-how-handling-payment-disputes.md)
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)

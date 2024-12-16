@@ -29,14 +29,13 @@ Try the report here: [Vendor - Summary Aging](https://businesscentral.dynamics.c
 
 ## Alternative reports
 
-There are multiple other options for analyzing your aged accounts payables. To learn more, go to
+There are several other ways to analyze aged accounts payable. To learn more, go to:
 
 - [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
 - [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)
 - [Aged Accounts Payable Excel](../reports/report-4403.md)
 
-
-## See also
+## Related information
 
 [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)  
 [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)  

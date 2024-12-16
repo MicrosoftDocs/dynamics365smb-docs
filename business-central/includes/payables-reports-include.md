@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 ---
 
 
-The following table describes some key reports for accounts payable. The reports are designed to help different roles in the finance departments make informed decisions.
+The following table describes some key reports for accounts payable. The reports are designed to help different roles in finance departments make informed decisions.
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
@@ -17,7 +17,6 @@ The following table describes some key reports for accounts payable. The reports
 | [!INCLUDE[report-304-scenario](../includes/report-304-scenario-include.md)] | [Vendor - Detail Trial Balance](https://businesscentral.dynamics.com?report=304) | [About *Vendor - Detail Trial Balance*](../reports/report-304.md) | 304 |
 | [!INCLUDE[report-307-scenario](../includes/report-307-scenario-include.md)] | [Vendor - Order Summary](https://businesscentral.dynamics.com?report=307) | [About *Vendor - Order Summary*](../reports/report-307.md) | 307 |
 | [!INCLUDE[report-308-scenario](../includes/report-308-scenario-include.md)] | [Vendor - Order Detail](https://businesscentral.dynamics.com?report=308) | [About *Vendor - Order Detail*](../reports/report-308.md) | 308 |
-| [!INCLUDE[report-311-scenario](../includes/report-311-scenario-include.md)] | [Vendor - Top 10 List](https://businesscentral.dynamics.com?report=311) | [About *Vendor - Top 10 List*](../reports/report-311.md) | 311 |
 | [!INCLUDE[report-312-scenario](../includes/report-312-scenario-include.md)] | [Purchase Statistics](https://businesscentral.dynamics.com?report=312) | [About *Purchase Statistics*](../reports/report-312.md) | 312 |
 | [!INCLUDE[report-313-scenario](../includes/report-313-scenario-include.md)] | [Vendor/Item Purchases](https://businesscentral.dynamics.com?report=313) | [About *Vendor/Item Purchases*](../reports/report-313.md) | 313 |
 | [!INCLUDE[report-317-scenario](../includes/report-317-scenario-include.md)] | [Vendor Pre-Payment Journal](https://businesscentral.dynamics.com?report=317) | [About *Vendor Pre-Payment Journal*](../reports/report-317.md) | 317 |

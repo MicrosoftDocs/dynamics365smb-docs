@@ -156,7 +156,7 @@ The following example shows how to set up the totaling accounts.
 
 1. A **Begin-Total** account of **1300 (Vehicles)** and the **End-Total** account of **1390 (Vehicles, Total)**.
 2. The totaling defined for the **End-Total** is **1300..1390**. Any other combination for your totaling account (such as 1300..1340, 1310..1390, or 1310..1340, etc.) can cause the error.
-3. One **Begin-Total** account can only be used in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the Finance Power BI app can't match it to an **End-Total** account.
+3. One **Begin-Total** account can only be used in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)] can't match it to an **End-Total** account.
 
 ## See also
 

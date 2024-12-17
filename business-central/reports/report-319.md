@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Payments on Hold (report)
 
-The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. You can put vendor ledger entries on-hold if there's a dispute about a supplier document. This report helps you maintain transparency and efficiency when you handle vendor disputes, so that your employees can effectively manage and resolve issues.
+The **Payments on Hold** report shows a checklist of all vendor ledger entries where the **On Hold** field isn't blank. The report helps you maintain transparency and efficiency when you handle vendor disputes, so that your employees can effectively manage and resolve issues.
 
-To put an entry on hold, enter any value in the **On Hold** field. No validation is done on this field.
+To learn more, go to [Handling vendor payment disputes](../payables-how-handling-payment-disputes.md).
 
 ## Use cases
 
@@ -89,6 +89,7 @@ Or, you can take the vendor ledger entries list page into analysis mode and defi
 
 ## Related information
 
+[Handling vendor payment disputes](../payables-how-handling-payment-disputes.md)   
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
 [Purchase reports](../purchase-reports.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  

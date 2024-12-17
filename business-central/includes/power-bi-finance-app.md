@@ -1,4 +1,4 @@
-The following table describes the reports in the Power BI Finance app, and how you can use them.
+The following table describes the reports in the [!INCLUDE [power-bi-finance-app-name](power-bi-finance-app-name.md)], and how you can use them.
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |

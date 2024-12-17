@@ -75,7 +75,7 @@ The following image shows the result of these steps.
 
 ## Example: finance (accounts payable) - vendor ledger entries on hold
 
-To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, follow these steps:
+To see vendor ledger entries on hold, follow these steps:
 
 1. Open the [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis) list page, and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).

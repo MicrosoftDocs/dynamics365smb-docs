@@ -34,9 +34,5 @@ ms.service: dynamics-365-business-central
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Financial analytics](bi.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[Finance](finance.md)  
-[Local Functionality Overview](about-localization.md)  
-[Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

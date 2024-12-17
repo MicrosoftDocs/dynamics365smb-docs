@@ -509,7 +509,8 @@ ms.service: dynamics-365-business-central
 #### Key finance reports
 ##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
-##### [Trial Balance](reports/report-6.md) 
+##### [Trial Balance Excel](reports/report-4405.md)
+##### [Trial Balance (legacy)](reports/report-6.md) 
 ##### [Trial Balance/Previous Year](reports/report-7.md) 
 ##### [Trial Balance/Budget](reports/report-9.md)
 ##### [Closing Trial Balance](reports/report-10.md)
@@ -518,6 +519,7 @@ ms.service: dynamics-365-business-central
 ##### [Dimensions - Detail](reports/report-28.md)
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
+
 #### [Built-in fixed assets reports](fa-reports.md)
 
 #### Accounts payable reports

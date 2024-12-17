@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11300, 11301,11303,11306,11307,11308
-ms.date: 03/02/2022
+ms.date: 12/17/2024
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
@@ -16,42 +16,41 @@ ms.reviewer: bholtorf
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Belgian extensions to the VAT reporting capabilities so that you can print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
 
-- Monthly/Quarterly declaration - This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.  
+- Monthly/Quarterly declaration - Use this report to create monthly or quarterly VAT declarations, depending on your company revenue.  
 
 - VAT annual listing (on paper/disk)
 
-    This report is used to annually report all amounts invoiced for both goods and services to all Belgian companies with a registered VAT number.  
+    Use this report to annually report all amounts invoiced for both goods and services to all Belgian companies with a registered VAT number.  
 
 - EC sales list
 
-    This report is used to report the sales of goods to other countries/regions in the European Union. For more information, see [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
+    Use this report to report the sales of goods to other countries/regions in the European Union. To learn more, go to [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
 
-You are also required to provide a printed statement detailing the VAT transactions to the Belgian tax authorities. For more information, see VAT Statement.  
+You're also required to provide a printed statement detailing the VAT transactions to the Belgian tax authorities.
 
-## Non-Deductible VAT
+## Nondeductible VAT
 
-In Belgium, VAT can be fully or partially deductible. Expenses such as representation cost or purchases of cars are only partially deductible, and the transaction must specify how much of the VAT is non-deductible. For example, you create a general ledger account for fixed assets such as cars, and another account for representation cost. For each account, you specify how much of the reported VAT is non-deductible by setting the **Percentage Non deductible VAT** field. Then, when you post a transaction, the deductible VAT will post to the corresponding VAT account, and the non-deductible VAT will be added to the base amount and posted to the same account as a tangible or intangible asset.  
+In Belgium, VAT can be fully or partially deductible. Expenses such as representation cost or purchases of cars are only partially deductible, and the transaction must specify how much of the VAT is nondeductible. For example, you create a general ledger account for fixed assets such as cars, and another account for representation cost. For each account, you specify how much of the reported VAT is nondeductible by setting the **Percentage Non deductible VAT** field. Then, when you post a transaction, the deductible VAT posts to the corresponding VAT account. The nondeductible VAT is added to the base amount and posted to the same account as a tangible or intangible asset.  
 
-For fixed assets, the non-deductible VAT depreciates just like the base acquisition cost of the fixed asset. You must set up separate fixed asset posting groups for each percentage of non-deductible VAT. You must do this because each fixed asset posting group posts to a general ledger account where the **Percentage Non deductible VAT** field specifies how much VAT must post to the same account as the fixed asset.  
+For fixed assets, the nondeductible VAT depreciates just like the base acquisition cost of the fixed asset. You must set up separate fixed asset posting groups for each percentage of nondeductible VAT. You must do so because each fixed asset posting group posts to a general ledger account where the **Percentage Non deductible VAT** field specifies how much VAT must post to the same account as the fixed asset.  
 
-If you select the **Incl. Non Deductible VAT** field in a VAT statement line, non-deductible VAT is included in the VAT amount. The **Calc. and Post VAT Settlement** report adds the non-deductible part of that amount to the **Non Ded. VAT Amount** and **Non Ded. Source Curr. VAT Amt.** fields in the resulting VAT entries.  
+If you select the **Incl. Non Deductible VAT** field in a VAT statement line, nondeductible VAT is included in the VAT amount. The **Calc. and Post VAT Settlement** report adds the nondeductible part of that amount to the **Non Ded. VAT Amount** and **Non Ded. Source Curr. VAT Amt.** fields in the resulting VAT entries.  
 
-## Multiple VAT Numbers for Customers   
+## Multiple VAT numbers for customers
 
-The new feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups** and **General Business Posting Groups** for addresses in another country, has been enabled in the Belgian localization. You can find more information [here](/../../finance-how-use-multiple-vat-registrations.md). 
+The feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups** for addresses in another country, are available in the Belgian localization. To learn more, go to [Multiple VAT registration numbers](/../../finance-how-use-multiple-vat-registrations.md).
 
-In addition to different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups**, users in the Belgian localization need to work with the **Enterprise No.** as well. When users open the **Alternative Customer VAT Registration** page, they can add the **Enterprise No.** for their customer if the address is in another country, if applicable. Users can populate this information, and [!INCLUDE[prod_short](../../includes/prod_short.md)] will behave as follows when working with sales documents:  
+In addition to different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups**, businesses using the Belgian localization also need to work with the **Enterprise No.**. When you open the **Alternative Customer VAT Registration** page, you can add the **Enterprise No.** for the customer if their address is in another country. After you enter this information, [!INCLUDE[prod_short](../../includes/prod_short.md)] does the following things when you're working with sales documents:  
 
-- If the customer is from Belgium and the ship-to address is in Belgium, the **Enterprise No.** will come from the **Customer** card. 
-- If the customer is from Belgium and the ship-to address is not in Belgium, the **Enterprise No.** will be removed.   
-- If the customer is not from Belgium and the ship-to address is in Belgium, the **Enterprise No.** will come from the **Alternative Customer VAT Registration** page. 
-- If the customer is not from Belgium and the ship-to address is not in Belgium, the **Enterprise No.** will not exist.  
+- If the customer is from Belgium and the ship-to address is in Belgium, the **Enterprise No.** comes from the **Customer** card.
+- If the customer is from Belgium and the ship-to address isn't in Belgium, the **Enterprise No.** is removed.
+- If the customer isn't from Belgium and the ship-to address is in Belgium, the **Enterprise No.** comes from the **Alternative Customer VAT Registration** page.
+- If the customer isn't from Belgium and the ship-to address isn't in Belgium, the **Enterprise No.** isn't available.  
 
 > [!NOTE]
-> If there is a change in the **Enterprise No.** in a sales document, it will be displayed on the **Confirm Alternative Customer VAT Registration** dialog page.  
+> If there's a change in the **Enterprise No.** in a sales document, it displays on the **Confirm Alternative Customer VAT Registration** dialog.  
 
-
-## See Also
+## Related information
 
 [Belgium Local Functionality](belgium-local-functionality.md)  
 [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)  

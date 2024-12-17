@@ -80,6 +80,13 @@ For instance, on the **Vendor ledger entries** page you can set a filter on the 
 Or, you can take the vendor ledger entries list page into analysis mode and define an analysis tab. To learn more, go to
 [Using data analysis to show vendor ledger entries on hold](../ad-hoc-analysis-purchasing.md#example-finance-accounts-payable---vendor-ledger-entries-on-hold)
 
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Cynthia Priebe](https://www.linkedin.com/in/cynthia-priebe-dcp/) | Microsoft MVP and Business Central Functional Consultant
+
+
 ## Related information
 
 [Handling vendor payment disputes](../payables-how-handling-payment-disputes.md)   

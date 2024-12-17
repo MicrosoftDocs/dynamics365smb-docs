@@ -84,7 +84,7 @@ You also have the opportunity to modify a quote or order during the review step 
 After you make the changes, return to the **Tasks** tab, select one of the following options for resuming the task, and then select **Send**:
 
 - **I have updated the quote** or **I have updated the order** - Select one of these options if you made changes to the quote or order. The agent generates a new PDF and email for the customer.
-- **Just resume** - Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order, and keeps the original email as before.  
+- **Just resume** - Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order and keeps the original email as before.  
 
 ![Shows the resume step acion on a sales order agent task.](media/soa-resume-step.png)
 

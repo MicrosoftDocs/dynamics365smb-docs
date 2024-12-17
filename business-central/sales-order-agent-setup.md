@@ -24,9 +24,9 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 - Turn on the Sales Order Agent capability
 
-   When the Sales Order Agent app is installed on the **Extension Management** page, the capability is turned on by default on the **Copilot & AI Capabilities** page. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the navigation menu at the top, the agent capability is on but isn't active yet. It must be configured and activated to process customer requests for sales orders.
+   When the Sales Order Agent app is installed on the **Extension Management** page, the capability is turned on by default. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the navigation menu at the top, the agent capability is on but isn't active yet. It must be configured and activated to process customer requests for sales orders.
 
-   Turn the agent capability on or off from the **Copilot & AI Capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+   You turn the agent capability on or off from the **Copilot & AI Capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
 - Set up the email account for sales receiving incoming requests for quotes and orders.
 

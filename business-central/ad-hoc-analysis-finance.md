@@ -40,6 +40,7 @@ The following sections provide examples of finance scenarios in [!INCLUDE [prod_
 | [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 | [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 
+
 ### Example: Finance (Accounts Receivable)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, follow these steps:
@@ -51,6 +52,10 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. Drag the **Due Date Month** field to the **Column Labels** area.
 1. To do the analysis for a given year or quarter, apply a filter in the **Analysis Filters** menu (located below the **Columns** menu on the right).
 1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-customer-ledger-entries-ar-example.png" alt-text="Example of how to do an AR data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries-ar-example.png":::
 
 ### Example: Finance (Accounts Payable)
 
@@ -66,7 +71,7 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Vendor Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
 ### Example: Finance (Sales invoices by G/L account)
 

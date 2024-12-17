@@ -21,7 +21,7 @@ For Intrastat reporting, you must provide paper reports and files, which must be
 
 ## Deprecated Intrastat Funcionallity
 
-In the following text you can read details about deprecated old Intrastat Journals functionality. For new updated version of Intrastat, you can find instruction [here](/../../finance-how-setup-report-intrastat.md).  
+This article provides details about the deprecated Intrastat Journals functionality. To learn more about the updated version of Intrastat, go to [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md).  
 
 ### To print the German Intrastat checklist  
 

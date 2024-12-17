@@ -38,7 +38,7 @@ If you select the **Incl. Non Deductible VAT** field in a VAT statement line, no
 
 ## Multiple VAT numbers for customers
 
-The feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups** for addresses in another country, are available in the Belgian localization. To learn more, go to [Multiple VAT registration numbers](/../../finance-how-use-multiple-vat-registrations.md).
+The feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups** for addresses in another country, are available in the Belgian localization. To learn more, go to [Multiple VAT registration numbers](../../finance-how-use-multiple-vat-registrations.md).
 
 In addition to different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups**, businesses using the Belgian localization also need to work with the **Enterprise No.**. When you open the **Alternative Customer VAT Registration** page, you can add the **Enterprise No.** for the customer if their address is in another country. After you enter this information, [!INCLUDE[prod_short](../../includes/prod_short.md)] does the following things when you're working with sales documents:  
 

@@ -23,7 +23,7 @@ Data is shown for both local currency (LCY) and additional reporting currency (A
 
 The aggregation is for the period specified in the report's request page's Datefilter parameter and summarised per the 2 global dimensions per g/l account category.
 
-The report Excel workbook contains three worksheets that you can use to analyze your aged accounts receivables:
+The report Excel workbook contains three worksheets that you can use to analyze your trial balance:
 
 - Trial Balance (LCY)
 - Trial Balance (ACY)
@@ -38,7 +38,7 @@ Each worksheet represents a different dimension for your analysis.
 
 ## Trial Balance (LCY) worksheet
 
-This worksheet the balance in local currency (FCY).
+This worksheet shows the trial balance with amounts in local currency (FCY).
 
 With filters and slicers, you can zoom into the balance as seen from global dimensions, or by account categories and subcategories.
 
@@ -46,7 +46,7 @@ With filters and slicers, you can zoom into the balance as seen from global dime
 
 ## Trial Balance (ACY) worksheet
 
-This worksheet the balance in additional reporting currency (ACY).
+This worksheet shows the trial balance with amounts in additional reporting currency (ACY). This worksheet is only showing data if the Additional Reporting Currency is in use. 
 
 With filters and slicers, you can zoom into the balance as seen from global dimensions, or by account categories and subcategories.
 

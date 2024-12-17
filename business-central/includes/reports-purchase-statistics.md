@@ -1,12 +1,12 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 07/13/2021
+ms.date: 12/17/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-The report shows purchase statistics for each vendor. The statistics include information for five periods, starting on the date that you specify. 
+The report shows purchase statistics for each vendor. The statistics include information for five periods, starting on the date that you specify.
 
 You can specify the period length, such as 14 days, 1 month, or 1 quarter.
 
@@ -14,6 +14,6 @@ The report includes the total purchases, payments, finance charges, and discount
 
 Statistics are calculated for:
 
-* purchases before the date entered, 
-* at three intervals from the date entered,
-* purchases made after the third interval.
+* Purchases before the date entered.
+* At three intervals from the date entered
+* Purchases made after the third interval.

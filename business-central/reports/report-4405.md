@@ -66,6 +66,8 @@ To learn more, go to [Get started with Copilot in Excel](https://support.microso
 
 [!INCLUDE [report-4405-scenario](../includes/report-4405-scenario-include.md)]
 
+Use the report to verify the accuracy of your financial data by ensuring that debits and credits balance. Businesses typically use the report at the end of an accounting period to prepare financial statements and assess their financial health.
+
 <!-- 
 Prompt
 

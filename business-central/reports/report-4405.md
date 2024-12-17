@@ -133,7 +133,7 @@ There are several other ways to analyze your balance. To learn more, go to:
 
 ## Related information
 
-[Balance Sheet (Power BI)](finance-powerbi-balance-sheet.md)  
+[Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)  
 [Trial Balance (legacy)](../reports/report-6.md)  
 [Key finance report overview](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

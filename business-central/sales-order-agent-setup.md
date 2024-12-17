@@ -24,7 +24,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 - Turn on the Sales Order Agent capability
 
-   When the Sales Order Agent app is installed on the **Sales Order Agent** page, the Sales Order Agent capability is on by default in the **Copilot & AI Capabilities** page. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the navigation menu at the top, the agent capability is on, but the agent isn't active yet. It must be configured and activated to process customer requests for sales orders.
+   When the Sales Order Agent app is installed on the **Sales Order Agent** page, the Sales Order Agent capability is turned on by default on the **Copilot & AI Capabilities** page. If the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the navigation menu at the top, the agent capability is on, but the agent isn't active yet. It must be configured and activated to process customer requests for sales orders.
 
    Turn the agent capability on or off from the **Copilot & AI Capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
@@ -33,7 +33,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
    The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 
    > [!IMPORTANT]
-   > If you use a shared Microsoft 365 mailbox, set up mailbox delegation in the Exchange admin center to provide permissions to read and send emails from this mailbox to the users who can activate the agent. The same applies when you use a personal Microsoft 365 account. Provide other users permission to read and manage emails unless you will be the one activating the agent.
+   > If you use a shared Microsoft 365 mailbox, set up mailbox delegation in the Exchange admin center to provide permissions to read and send emails from this mailbox to the users who can activate the agent. The same applies when you use a personal Microsoft 365 account. Provide other users with permission to read and manage emails unless you are the one activating the agent.
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 
@@ -63,7 +63,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.
 
-When the Sales Order Agent is active, a scheduled task that runs every 20 seconds on the mailbox is added to the job queue. This task monitors new unread messages in the mailbox. If a new unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
+When the Sales Order Agent is active, a scheduled task added to job queue runs every 20 seconds on the mailbox. This task monitors new unread messages in the mailbox. If a new unread message is found, the Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, the Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
 > The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Sales Order Agent** to reopen the configuration page. From there, turn on the **Active** toggle.

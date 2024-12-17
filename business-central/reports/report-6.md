@@ -27,6 +27,8 @@ Use the report to verify the accuracy of your financial data by ensuring that de
 
 ## Use cases
 
+[!INCLUDE [report-6-scenario](../includes/report-6-scenario-include.md)]
+
 <!-- 
 Prompt
 
@@ -83,10 +85,23 @@ Try the report here: [Trial Balance](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are several other ways to analyze your balance. To learn more, go to:
+
+- [Trial Balance Excel](../reports/report-4405.md)
+- [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
+- [Financial Reporting](../bi-how-work-account-schedule.md)
+
+
 ## See also
 
+[Trial Balance Excel](../reports/report-4405.md)  
+[Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Power BI finance app](../finance-powerbi-app.md)  
+[Financial Reporting](../bi-how-work-account-schedule.md)
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

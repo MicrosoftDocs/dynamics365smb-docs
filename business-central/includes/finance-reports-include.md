@@ -12,7 +12,11 @@ The following table describes some key financial reports. The reports are design
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
 | Audit and reconcile general ledger balances at the end of a period by viewing the net change, opening balance, each transaction in the period, and the closing balance grouped by G/L account. | [Detail Trial Balance](https://businesscentral.dynamics.com?report=4) | [About *Detail Trial Balance*](../reports/report-4.md) | 4 |
-| View a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance. | [Trial Balance](https://businesscentral.dynamics.com?report=6) | [About *Trial Balance*](../reports/report-6.md) | 6 |
+| [!INCLUDE [report-6-scenario](../includes/report-6-scenario-include.md)] | [Trial Balance](https://businesscentral.dynamics.com?report=6) | [About *Trial Balance*](../reports/report-6.md) | 6 |
+
+| [!INCLUDE [report-4405-scenario](../includes/report-4405-scenario-include.md)] | [Trial Balance Excel](https://businesscentral.dynamics.com?report=4405) | [About *Trial Balance Excel*](../reports/report-4405.md) | 4405 |
+
+
 | View a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance compared to the same period in the previous calendar year. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
 | View a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance compared to the budget. | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | [About *Trial Balance/Budget*](../reports/report-9.md) | 9 |
 | Check end of financial year figures, excluding closing entries, and compare this year and the previous year. | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About *Closing Trial Balance*](../reports/report-10.md) | 10 |

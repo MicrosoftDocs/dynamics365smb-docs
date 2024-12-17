@@ -27,7 +27,7 @@ Read detailed information how to set up the E-Documents framework [here](../../f
 
 To set up the format for the E-Document service, follow these steps:  
 
-1. Select the [!Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
 2. Select **New**, and on the **E-Document Services** page, on the **General** FastTab, in the **Document Format** field, choose **PEPPOL BIS 3.0** or **XRechnung**.  
 3. Configure the fields as described in [Set up e-documents](../../finance-how-setup-edocuments.md).
 4. Close the page.

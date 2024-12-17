@@ -33,7 +33,7 @@ Try the report here: [Financial Reporting](https://businesscentral.dynamics.com?
 
 ## Alternative reports
 
-There are several other ways to analyze your general ledger (G/L) transactions. To learn more, go to:
+There are several other ways to analyze your general ledger (G/L) data. To learn more, go to:
 
 - [Analyze finance data from the Chart of Accounts page](../finance-general-ledger.md)
 - [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

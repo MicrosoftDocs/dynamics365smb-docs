@@ -100,8 +100,8 @@ The **My Job Queue** part on your home page shows the job queues entries that yo
 
 The part shows the following information:
 
-* Which documents with your ID in the **Assigned User ID** field are being processed or are queued, including documents that are posting in the background. 
-* Whether there was an error when posting a document or in the job queue entry. 
+* Which documents with your ID in the **User ID** field are being processed or are queued, including documents that are posting in the background.
+* Whether there was an error when posting a document or in the job queue entry.
 
 The My Job Queue part also lets you cancel a document posting.
 

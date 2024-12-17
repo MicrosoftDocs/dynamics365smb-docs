@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_322_Primary
-ms.date: 10/14/2024
+ms.date: 12/16/2024
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -85,8 +85,19 @@ Try the report here: [Aged Accounts Payable](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are several other ways to analyze aged accounts payable. To learn more, go to:
+
+* [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
+* [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)
+* [Aged Accounts Payable Excel](../reports/report-4403.md)
+
 ## Related information
 
+[Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)  
+[Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)  
+[Aged Accounts Payable Excel](../reports/report-4403.md)  
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  

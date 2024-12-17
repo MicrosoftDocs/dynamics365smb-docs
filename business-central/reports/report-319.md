@@ -84,7 +84,7 @@ Or, you can take the vendor ledger entries list page into analysis mode and defi
 
 [!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
-- [Cynthia Priebe](https://www.linkedin.com/in/cynthia-priebe-dcp/) | Microsoft MVP, Microsoft Certified Trainer (MCT), and Business Central Functional Consultant
+- [Cynthia Priebe](https://www.linkedin.com/in/cynthia-priebe-dcp/) | Microsoft MVP and Business Central Functional Consultant
 
 
 ## Related information

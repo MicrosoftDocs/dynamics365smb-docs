@@ -28,15 +28,14 @@ Each worksheet represents a different dimension in your analysis.
 
 [!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)] 
 
-
 > [!NOTE]
-> This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
+> This report does calculations when you view it in Excel online or download and open it on your computer. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
 
 ## Top Customer List worksheet
 
 This worksheet shows current sales amounts and balance in local currency (LCY) by customer. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
 
-With filters and slicers, you can zoom into a single customer or a group of customers.
+With filters and slicers, you can zoom in on a single customer or a group of customers.
 
 :::image type="content" source="../media/excel-top-10-customers-top-customer-list.png" alt-text="Screenshot of the Top Customer List worksheet":::
 
@@ -44,10 +43,9 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 
 This worksheet shows the raw data used in the report.
 
-You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
+You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)], or the What-if-analysis or Forecast Sheet tools.
 
 :::image type="content" source="../media/excel-top-10-customers-top-customer-data.png" alt-text="Screenshot of the TopCustomerData worksheet":::
-
 
 To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
 
@@ -88,34 +86,33 @@ Please include your data sources and URLs
 
 Sales representatives use the report to:
 
-* Identify which customers bought the most within a selected period and prioritize follow-up.
-* Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
-* Identify sales trends and adjust sales strategies.
+- Identify which customers bought the most within a selected period and prioritize follow-up.
+- Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
+- Identify sales trends and adjust sales strategies.
 
 Sales managers use the report to:
 
-* Analyze sales performance across customers and regions.
-* Determine which customers have the largest outstanding balances and prioritize follow-up.
-* Identify sales trends and make data-driven decisions to improve performance.
+- Analyze sales performance across customers and regions.
+- Determine which customers have the largest outstanding balances and prioritize follow-up.
+- Identify sales trends and make data-driven decisions to improve performance.
 
 Credit or accounts receivable managers use the report to:
 
-* Identify customers with outstanding balances and prioritize follow-up.
-* Analyze sales trends and adjust credit policies.
-* Forecast future cash flows and adjust collection strategies.
+- Identify customers with outstanding balances and prioritize follow-up.
+- Analyze sales trends and adjust credit policies.
+- Forecast future cash flows and adjust collection strategies.
 
 Marketing managers use the report to:
 
-* Analyze sales trends across customers and regions.
-* Identify the customers with the highest sales volume and target them for future marketing campaigns.
-* Identify sales trends and adjust marketing strategies.
+- Analyze sales trends across customers and regions.
+- Identify the customers with the highest sales volume and target them for future marketing campaigns.
+- Identify sales trends and adjust marketing strategies.
 
 Customer success managers use the report to:
 
-* Identify the customers with the highest sales volume and provide them with personalized support.
-* Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
-* Identify sales trends and make data-driven decisions to improve customer satisfaction.
-
+- Identify the customers with the highest sales volume and provide them with personalized support.
+- Identify overdue payments or outstanding balances, and communicate updated payment timelines to customers.
+- Identify sales trends and make data-driven decisions to improve customer satisfaction.
 
 ## Try the report
 

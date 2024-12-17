@@ -68,7 +68,7 @@ To configure reporting periods and forms, follow the steps:
 2. On the **IRS Reporting Periods** page, you can specify the time period that the report applies.
 **Starting** and **Ending Date** for their validity. To set up specific 1099 forms for this period, you need to run the **Forms** action to open the **IRS Reporting Periods** page.
 3. Run the **Forms** action to open the **IRS 1099 Forms** page.  
-4. On the **IRS 1099 Forms** page, you can specify different 1099 form types, such as MISC, NEC, etc. As all of these form types have more than one source with different rules, you need to set up them. To do so, you need to run the **Form Boxes** action to open the **IRS 1099 Form Boxes** page.  
+4. On the **IRS 1099 Forms** page, you can specify different 1099 form types, such as MISC, NEC, etc. As all of these form types have more than one source with different rules, you need to set them up. To do so, you need to run the **Form Boxes** action to open the **IRS 1099 Form Boxes** page.   
 5. On the **IRS 1099 Form Boxes** page, you can set up different sources for your form type using **No.** and **Description** fields, and you must fill in the **Minimum Reportable Amount** based on the IRS instruction for this reporting year, and those minimum reportable amounts can be populated whether a certain form box needs to be reported or not. 
 6. Close the **IRS 1099 Form Boxes** page.   
 7. Close the **IRS 1099 Forms** page.    

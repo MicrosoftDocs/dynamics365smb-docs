@@ -33,7 +33,7 @@ ms.custom: bap-template
 
 To learn more, go to [Power BI finance app](finance-powerbi-app.md).
 
-## Reports in the Power BI Sales app
+## Reports in the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)]
 
 [!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
 

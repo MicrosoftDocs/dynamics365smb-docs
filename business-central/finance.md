@@ -65,7 +65,7 @@ This section describes analytical tools you can use to get insights into your fi
 | Analyze cash flow. | [Analyze cash flow](finance-analyze-cash-flow.md) |
 | Explore built-in key financial reports. | [Built-in key finance reports](finance-reports.md) |
 | Explore built-in key fixed assets reports. | [Built-in fixed assets reports](fa-reports.md) |
-| Explore built-in key accounts receivable reports. | [Built-in accounts receivable reports](receivables-reports.md)
+| Analyze accounts receivable data with Power BI, Data analysis, or Excel. | [Accounts receivable analytics](receivables-reports.md)
 | Explore built-in accounts payable reports. | [Built-in accounts payable reports](payables-reports.md)
 
 ## VAT and taxes

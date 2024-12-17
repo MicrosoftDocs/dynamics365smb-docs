@@ -206,14 +206,14 @@ Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange O
 
 ## Optional: Monitor email usage and troubleshoot email failures with telemetry
 
-Administrators can switch on the telemetry feature in [!INCLUDE[prod_short](includes/prod_short.md)] to get data about usage and failures of different capabilities in the system. For email, we log the following operations:
+Administrators can switch on the telemetry feature in [!INCLUDE[prod_short](includes/prod_short.md)] to get data about usage and failures of different capabilities. For email, we log the following operations:
 
-- An email was sent successfully  
-- An attempt to send an email failed   
-- Authentication to an SMTP server succeded/failed  
-- Connection to an SMTP server succeded/failed  
+* An email was sent successfully  
+* An attempt to send an email failed
+* Authentication to an SMTP server succeded/failed  
+* Connection to an SMTP server succeded/failed  
 
-You can use this data to monitor email usage and to troubleshoot email failures. Learn more at [Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
+Learn more at [Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 
 ## Set up email for Business Central on-premises
 
@@ -259,13 +259,13 @@ If you have trouble using the SMTP protocol to send email after you connect [!IN
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
 
-After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application Microsoft Entra ID Registration** page to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
+After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Microsoft Entra application registration** page to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application Microsoft Entra ID Registration**, and then choose the related link.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Microsoft Entra application registration**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. In this case, the guide will also include the Email Application Microsoft Entra ID Registration page for adding the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Alternatively, if you're connecting for the first time, you can run the **Set up email** assisted setup guide. In this case, the guide includes the Email Microsoft Entra application registration page for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 

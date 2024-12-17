@@ -75,11 +75,20 @@ Try the report here: [Vendor - List](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Alternative reports
 
-[Accounts receivable report overview](../receivables-reports.md)  
-[Key finance report overview](../finance-reports.md)  
-[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
-[Financial analytics overview](../bi.md)  
+There are several ways to analyze your vendors. One popular choice is to use the Data Analysis feature on the **Vendors** page. You might need to personalize the page to add some fields.
+
+:::image type="content" source="../media/data-analysis-vendor-list.png" alt-text="Screenshot of a data analysis tab on the Vendors page":::
+
+You can also use the [Purchases by Vendor](../purchases-powerbi-purchases-by-vendor.md) report in the [!INCLUDE [power-bi-purchasing-app-name](../includes/power-bi-purchasing-app-name.md)].
+
+:::image type="content" source="../media/purchases/purchases-by-vendor.png" alt-text="Screenshot of the Purchases by Vendor Power BI report" lightbox="../media/purchases/purchases-by-vendor.png":::
+
+## Related information
+
+[Purchases by Vendor (Power BI)](../purchases-powerbi-purchases-by-vendor.md)  
+[Accounts payable analytics](../payables-reports.md)  
+[Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

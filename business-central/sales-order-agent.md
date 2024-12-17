@@ -29,13 +29,13 @@ The agent is readily available in the product. To activate it, you specify the e
 
 ### Permissions and profiles
 
-The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to, while the profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and a profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
+The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to. The profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and the profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
 
 ### Operation
 
 The Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review outgoing messages or to provide missing details, or based on configured preferences.
 
-Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of capturing sales orders should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, it navigates the pages, invokes UI actions, and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal because the agent’s interaction surface and steps aren’t hardcoded. Instead, AI determines them based on the context of each step.
+Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of capturing sales orders should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, the agent navigates the pages, invokes UI actions, and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal because the agent’s interaction surface and steps aren’t hardcoded. Instead, AI determines them based on the context of each step.
 
 This flexibility enables the agent to discover and interact with relevant custom fields and actions. It can also attempt to automatically resolve validation errors by processing displayed error messages and adjusting the input accordingly.
 
@@ -51,10 +51,34 @@ Users can inspect the agent's steps and created sales documents. They can easily
 
 If the customer decides to update the quote by sending another email listing required changes, the agent assists with these changes by locating the quote and making the requested updates. Once the customer confirms the quote's accuracy, the agent converts it into a sales order, which is then also shared with the customer via email, following user's confirmation. 
 
-The agent always involves designated Business Central users to review and approve all outgoing messages, before they are sent to the customers. 
+The agent always involves designated Business Central users to review and approve all outgoing messages, before they're sent to the customers. 
 
+## How the agent processes requests
 
-## Process flow
+The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+
+The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address (the agent searches among the registered Business Central contacts and then looks up the customer linked to that contact). If the customer isn't found, the agent stops processing the task and requests intervention from the user. If the customer is found, the agent filters out all sales quotes and orders that don't belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
+
+The agent analyzes incoming emails to detect parameters for preparing a new sales quote or updating an existing one. Apart from the items themselves, parameters might include the item attributes, quantities, units of measure, requested delivery date, external document number, and more. The agent then searches for these items in the Business Central's inventory, within a wide range of related tables.
+
+|Table|Fields|
+|-|-|
+|Items|No.<br>Description<br>Description 2<br>Search Description<br>GTIN<br>Vendor Item Number|
+|Item Variant|Code<br>Description<br>Description 2|
+|Item Reference|Reference No.<br>Description<br>Description 2|
+|Item Attributes|Name<br>Value|
+|Item Category| Code<br>Description<br>Parent Category - 1 Level|
+|Item Translation|Language<br>Description<br>Description 2|
+|Item Identifier|Code|
+|Extended text Line|Text|
+
+Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
+
+When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more.
+
+Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request.
+
+## Process flow for users
 
 Processing a sales quote request into an order involves three participants:
 

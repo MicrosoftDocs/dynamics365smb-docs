@@ -16,11 +16,11 @@ ms.custom: bap-template
 
 This article explains how to use the Sales Order Agent to automate taking sales orders based on customer inquiries about products/items received via email.
 
-The Sales Order Agent works by monitoring a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+The Sales Order Agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer with the quote as a PDF attachment.
 
-Some steps require your intervention, such as reviewing email correspondence and providing assistance to the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve any missing details and allow for modifications to the original request, if necessary.
+Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 
-Learn more about the Sales Order Agent and the process flow in [Sales Order Agent overview](sales-order-agent.md#how-the-agent-processes-requests).
+Learn more about the Sales Order Agent and its process flow in [Sales Order Agent overview](sales-order-agent.md#how-the-agent-processes-requests).
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 
@@ -34,7 +34,7 @@ The Sales Order Agent is activated, and you have permission to use it. Learn mor
 
 You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** tab in the **Copilot** pane.
 
-To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right side of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
+To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png)
 
@@ -43,7 +43,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab open
 For each sales quote request, the Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 > [!TIP]
-> Hover over the **Sales Order Agent** icon on the role center to get an overview of the agent's KPIs (Key Performance Indicators) that summarize the impact of the agent's work in your organization. For example, get an overview of the number of sales quotes or orders created by the agent, the time saved by your team by not doing the tasks automated by the agent, and the total amount of the sales orders created.
+> Hover over the **Sales Order Agent** icon on the role center to get an overview of the agent's KPIs (Key Performance Indicators) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total amount of sales orders created.
 
 ## Review and assist
 
@@ -84,7 +84,7 @@ You also have the opportunity to modify a quote or order during the review step 
 After you make the changes, return to the **Tasks** tab, select one of the following options for resuming the task, and then select **Send**:
 
 - **I have updated the quote** or **I have updated the order** - Select one of these options if you made changes to the quote or order. The agent generates a new PDF and email for the customer.
-- **Just resume** - Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order, and keeps the original email as before.  
+- **Just resume** - Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order and keeps the original email as before.  
 
 ![Shows the resume step acion on a sales order agent task.](media/soa-resume-step.png)
 

@@ -66,11 +66,12 @@ To configure reporting periods and forms, follow the steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Reporting Periods**, and then choose the related link.  
 2. On the **IRS Reporting Periods** page, you can specify the time period that the report applies.
-**Starting** and **Ending Date** for their validity. To set up specific 1099 forms for this period, you need to run the **Forms** action to open the **IRS Reporting Periods** page.  
-1. On the **IRS 1099 Forms** page, you can specify different 1099 form types, such as MISC, NEC, etc. As all of these form types have more than one source with different rules, you need to set up them. To do so, you need to run the **Form Boxes** action to open the **IRS 1099 Form Boxes** page.  
-1. On the **IRS 1099 Form Boxes** page, you can set up different sources for your form type using **No.** and **Description** fields, and you must fill in the **Minimum Reportable Amount** based on the IRS instruction for this reporting year, and those minimum reportable amounts can be populated whether a certain form box needs to be reported or not. 
-1. Close the **IRS 1099 Form Boxes** page.   
-1. Close the **IRS 1099 Forms** page.    
+**Starting** and **Ending Date** for their validity. To set up specific 1099 forms for this period, you need to run the **Forms** action to open the **IRS Reporting Periods** page.
+3. Run the **Forms** action to open the **IRS 1099 Forms** page.  
+4. On the **IRS 1099 Forms** page, you can specify different 1099 form types, such as MISC, NEC, etc. As all of these form types have more than one source with different rules, you need to set up them. To do so, you need to run the **Form Boxes** action to open the **IRS 1099 Form Boxes** page.  
+5. On the **IRS 1099 Form Boxes** page, you can set up different sources for your form type using **No.** and **Description** fields, and you must fill in the **Minimum Reportable Amount** based on the IRS instruction for this reporting year, and those minimum reportable amounts can be populated whether a certain form box needs to be reported or not. 
+6. Close the **IRS 1099 Form Boxes** page.   
+7. Close the **IRS 1099 Forms** page.    
 
 > [!NOTE]
 > Every year, users must create a new reporting period. Recommendation is to use the **Copy Setup From** action on the **IRS Reporting Periods** page and choose the reporting period they want to copy from. With this process, all forms, form boxes, vendor setup, adjustment and form statement, except the form documents will be copied to the selected period.  
@@ -109,9 +110,10 @@ Users might need to make some additional setup on the **Vendor card** page. To d
 
 To print the form substitute documents, there are a few setups you must use. For every single printing form, there's a **Form Statement**. These statements are already configured, but users can change or update through configuration. To do this, follow the steps:  
 
-1. To configure or customize the printing form, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **IRS 1099 Forms**, and then choose the related link. 
-2. When you open the **IRS 1099 Forms** page for a specific form **No.**, choose the **Edit Statement** action.  
-3. The **IRS 1099 Form Statement** page opens, and, on this page, you can set up the filters and rules, which will be applied to the form document lines for printing. You can use the following fields to set up the 1099 form statement:  
+1. To configure or customize the printing form, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **IRS Reporting Periods**, and then choose the related link.
+2. Run the **Forms** action to open the **IRS 1099 Forms** page.
+3. When you open the **IRS 1099 Forms** page for a specific form **No.**, choose the **Edit Statement** action.  
+4. The **IRS 1099 Form Statement** page opens, and, on this page, you can set up the filters and rules, which will be applied to the form document lines for printing. You can use the following fields to set up the 1099 form statement:  
 
    - **Row No.** – Specifies a number that identifies the line, and it's used as a form box number on the printed report.  
    - **Description** – Specifies a description of the 1099 form box on the printed report.  
@@ -120,7 +122,7 @@ To print the form substitute documents, there are a few setups you must use. For
    - **Row Totaling** – Specifies a row-number interval or a series of row numbers.  
    - **Print with** – Specifies whether amounts on the 1099 form box will be printed with their original sign using the option **Sign** or with the sign reversed using the option **Opposite Sign**. 
 
-4. Close the page.
+5. Close the page.
 
 > [!NOTE]  
 > Also, for every single form you can set up the recipient instructions. These instructions will be printed on the second page of the report layout, and this is required for the form printing by IRS as they explain meaning of each form box. 

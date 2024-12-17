@@ -17,13 +17,13 @@ ai.usage: ai-assisted
 
 # Trial Balance Excel (report)
 
-The **Trial Balance Excel** report shows aggregated general ledger data for the trial balance with debit/credit columns for net change and balance. 
+The **Trial Balance Excel** report shows aggregated general ledger data for the trial balance with debit and credit columns for net change and balance.
 
-Data is shown for both local currency (LCY) and additional reporting currency (ACY), the latter only showing data if the Additional Reporting Currency is in use. 
+Data is shown for both local currency (LCY) and additional reporting currency (ACY). However, it only shows data for the latter if you use ACY.
 
-The aggregation is for the period specified in the report's request page's Datefilter parameter and summarised per the 2 global dimensions per g/l account category.
+The aggregation is for the period specified by the Datefilter parameter on the report's request page and summarized for the two global dimensions per G/L account category.
 
-The report Excel workbook contains three worksheets that you can use to analyze your trial balance:
+The Excel workbook contains three worksheets that you can use to analyze your trial balance:
 
 - Trial Balance (LCY)
 - Trial Balance (ACY)
@@ -38,17 +38,17 @@ Each worksheet represents a different dimension for your analysis.
 
 ## Trial Balance (LCY) worksheet
 
-This worksheet shows the trial balance with amounts in local currency (FCY).
+This worksheet shows the trial balance with amounts in LCY.
 
-With filters and slicers, you can zoom into the balance as seen from global dimensions, or by account categories and subcategories.
+Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
 :::image type="content" source="../media/excel-trial-balance-trial-balance-lcy.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
 ## Trial Balance (ACY) worksheet
 
-This worksheet shows the trial balance with amounts in additional reporting currency (ACY). This worksheet is only showing data if the Additional Reporting Currency is in use. 
+This worksheet shows the trial balance with amounts in ACY. The report requires that you use ACY.
 
-With filters and slicers, you can zoom into the balance as seen from global dimensions, or by account categories and subcategories.
+Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
 :::image type="content" source="../media/excel-trial-balance-trial-balance-acy.png" alt-text="Screenshot of the Trial Balance (ACY) worksheet":::
 
@@ -56,7 +56,7 @@ With filters and slicers, you can zoom into the balance as seen from global dime
 
 This worksheet shows the raw data used in the report.
 
-You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
+You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)], or the What-if-analysis or Forecast Sheet tools.
 
 :::image type="content" source="../media/excel-trial-balance-trial-balance-data.png" alt-text="Screenshot of the TrialBalanceData worksheet":::
 
@@ -102,22 +102,21 @@ Please include your data sources and URLs
 
 Financial analysts use the report to:
 
-* Analyze the financial trends of the business by reviewing the balances and net changes of each account in the chart of accounts over time.
-* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
-* Use the report data to prepare financial reports for stakeholders such as investors or executives.
+- Analyze the financial trends of the business by reviewing the balances and net changes of each account in the chart of accounts over time.
+- Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+- Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
 Accountants use the report to:
 
-* Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
-* Verify the accuracy of the financial data by ensuring that debits and credits balance.
-* Analyze the financial health of the business by reviewing the net changes and closing balances of each account in the chart of accounts.
+- Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
+- Verify the accuracy of the financial data by ensuring that debits and credits balance.
+- Analyze the financial health of the business by reviewing the net changes and closing balances of each account in the chart of accounts.
 
 Controllers use the report to:
 
-* Monitor the financial performance of the business by reviewing the balances and net changes of each account in the chart of accounts.
-* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
-* Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
-
+- Monitor the financial performance of the business by reviewing the balances and net changes of each account in the chart of accounts.
+- Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+- Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
 ## Try the report
 

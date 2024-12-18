@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 36961_Primary, 37059, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993,36994, 36995, 36996, 36997
-ms.date: 11/19/2024
+ms.date: 12/18/2024
 ms.service: dynamics-365-business-central
 ---
 
@@ -130,7 +130,7 @@ Level 3 categories are the subcategories of Level 2 with indentation.
 
 If you experience issues with the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], the information in the following sections might help you get unblocked.
 
-### Getting the "Column ‘Entry No.’ in Table ‘G/L Entries’ contains a duplicate value" error?
+### Getting the "Column Entry No. in Table G/L Entries contains a duplicate value" error?
 
 When you refresh data from your [!INCLUDE [prod_short](includes/prod_short.md)] environment into the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], a refresh error might happen with the following error message:
 
@@ -142,16 +142,9 @@ Please try again later or contact support. If you contact support, please provid
 Data source error: Column '<oii>Entry No.</oii>' in Table '<oii>G/L Entries</oii>' contains a duplicate value
 ```
 
-We are aware of this issue and are working on a fix. 
+This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
 
-
-**Technical details**
-
-This error indicates that there are duplicate G/L Entries in the Finance fact table (in the semantic model). The error is triggered when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
-
-The current Balance Sheet G/L Entries query has a hard coded filter transformation. This filter assumes that the source code for closing entries is CLSINCOME. This leads the model to allow closing entries to exist in both the Balance Sheet query and the Closing Entries query, resulting in duplicate entries.
-
-
+The current Balance Sheet G/L Entries query has a hard-coded filter transformation. This filter assumes that the source code for closing entries is CLSINCOME. This leads the model to allow closing entries to exist in both the Balance Sheet query and the Closing Entries query, resulting in duplicate entries.
 
 ### Getting the "Column ‘G/L Account No.’ in Table ‘G/L Account’ contains a duplicate value" error?
 

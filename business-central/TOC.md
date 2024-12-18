@@ -509,39 +509,41 @@ ms.service: dynamics-365-business-central
 #### Key finance reports
 ##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
-##### [Trial Balance](reports/report-6.md) 
+##### [Trial Balance Excel](reports/report-4405.md)
+##### [Trial Balance (legacy)](reports/report-6.md) 
 ##### [Trial Balance/Previous Year](reports/report-7.md) 
-##### [Trial Balance/Budget](reports/report-9.md)
+##### [Trial Balance/Budget Excel](reports/report-4406.md)
+##### [Trial Balance/Budget (legacy)](reports/report-9.md)
 ##### [Closing Trial Balance](reports/report-10.md)
 ##### [Financial Report](reports/report-25.md)
 ##### [Dimensions - Total](reports/report-27.md)
 ##### [Dimensions - Detail](reports/report-28.md)
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
+
 #### [Built-in fixed assets reports](fa-reports.md)
 
 #### Accounts payable reports
 ##### [Accounts payable report overview](payables-reports.md)
 ##### [Aged Accounts Payable Excel](reports/report-4403.md)
-##### [Vendor - List](reports/report-301.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Pre-Payment Journal](reports/report-317.md)
-##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor - Balance to Date](reports/report-321.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
 #### Accounts receivable reports
 ##### [Accounts receivable report overview](receivables-reports.md)
 ##### [Aged Accounts Receivables Excel](reports/report-4402.md)
+##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Detail Trial Balance](reports/report-104.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Top 10 List](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md)
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Balance to Date](reports/report-121.md)
@@ -551,9 +553,10 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Vendor - List (legacy)](reports/report-301.md)
 ##### [Vendor - Summary Aging (legacy)](reports/report-305.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
-
+##### [Customer - Top 10 List (legacy)](reports/report-111.md)
 <!-- Financial analytics end -->
 
 ## Sales
@@ -580,10 +583,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Top 10 list](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Sales list](reports/report-119.md) 
@@ -593,6 +596,8 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
+#### Legacy reports (will be removed)
+##### [Customer - Top 10 list (legacy)](reports/report-111.md)
 <!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -644,15 +649,14 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
+##### [Aged Accounts Payable Excel](reports/report-4403.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
-##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor Item catalog](reports/report-320.md)
-##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
@@ -661,7 +665,9 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Vendor - List (legacy)](reports/report-301.md)
-
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
+##### [Payments on Hold (legacy)](reports/report-319.md)
+##### [Aged Accounts Payable (legacy)](reports/report-322.md)
 <!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -979,8 +985,6 @@ ms.service: dynamics-365-business-central
 ##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
 ##### [Item BOM Compare list](reports/report-99000758.md)
-##### [Work Center List](reports/report-99000759.md) 
-##### [Machine Center List](reports/report-99000760.md) 
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
 ##### [Prod. Order - Calculation](reports/report-99000767.md)
@@ -994,6 +998,9 @@ ms.service: dynamics-365-business-central
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
 ##### [Production Order Statistics](reports/report-99000791.md)
+#### Legacy reports (will be removed)
+##### [Work Center List (legacy)](reports/report-99000759.md) 
+##### [Machine Center List (legacy)](reports/report-99000760.md) 
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)
@@ -1115,7 +1122,7 @@ ms.service: dynamics-365-business-central
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
 
 <!--Shopify-->
-## Online store with shopify
+## Online store with Shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1123,7 +1130,7 @@ ms.service: dynamics-365-business-central
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Automate Shopify synchronization using job queue](shopify/background.md)
+### [Automate Shopify synchronization using the job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)

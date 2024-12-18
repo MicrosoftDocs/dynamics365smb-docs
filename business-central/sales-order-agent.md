@@ -67,7 +67,7 @@ The agent ensures that a request from one customer can't be about another custom
 
   This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email
 
-- If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registerd as a customer.
+- If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registered as a customer.
 - If no contact is found, the agent filters out all documents, and it might request user intervention because it can't find the document.
 
    The agent raises the notification to inform you that the contact email wasn't found. To fix this issue, you can either register a new contact/customer or update the contact information of the existing contact or a customer.

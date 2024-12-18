@@ -17,11 +17,9 @@ ai.usage: ai-assisted
 
 # Trial Balance/Budget Excel (report)
 
-The **Trial Balance/Budget Excel** report shows aggregated general ledger data for the trial balance with debit/credit columns for net change and balance.
+The **Trial Balance/Budget Excel** report shows aggregated general ledger data for the trial balance with debit and credit columns for net change and balance. In addition to net change and balance amounts, the report shows the net budget amounts and budget balances for comparison.
 
-In addition to net change and balance amounts, the report also shows the net budget amounts and budget balances for comparison. 
-
-The aggregation is for the period specified in the report's request page's Datefilter parameter and summarised per the 2 global dimensions per g/l account category.
+The aggregation is for the period specified in the **Datefilter** parameter on the report's request page, and summarized for the two global dimensions per G/L account category.
 
 The Excel workbook contains two worksheets that you can use to analyze your trial balance vs budget:
 
@@ -37,7 +35,7 @@ Each worksheet represents a different dimension for your analysis.
 
 ## Trial Balance vs. Budget worksheet
 
-This worksheet shows the trial balance vs. budget with amounts in local currency (LCY).
+This worksheet shows the trial balance vs. the budget with amounts in local currency (LCY).
 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
@@ -59,7 +57,6 @@ To learn more, go to [Get started with Copilot in Excel](https://support.microso
 
 Use the report to assess how well you're following your financial plans and identify variances between actual and budgeted amounts. The report is useful for financial analysis and decision-making at the end of an accounting period or fiscal year.
 
-
 <!-- 
 Prompt
 
@@ -72,7 +69,6 @@ As a <persona>, use the report to
 
 Do not capitalize the persona names. 
 Do not start lines with ""Use the data to""
-
 
 ## Report description
 Shows a trial balance in comparison to a budget. You can choose to see a trial balance for selected dimensions. Use this report at the close of an accounting period or fiscal year.
@@ -90,21 +86,21 @@ Please include your data sources and URLs
 
 Financial analysts use the report to:
 
-* Analyze the financial performance of the business. Review the variances between actual and budgeted amounts of each account in the chart of accounts.
-* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
-* Use the report data to prepare financial reports for stakeholders such as investors or executives.
+- Analyze the financial performance of the business. Review the variances between actual and budgeted amounts of each account in the chart of accounts.
+- Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+- Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
 Accountants use the report to:
 
-* Use the report data in comparison with budget amounts to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
-* Verify the accuracy of the financial data by ensuring that debits and credits balance, and compare the actual vs. budgeted amounts.
-* Analyze the financial health of the business. Review the variances between the actual and budgeted amounts of each account in the chart of accounts.
+- Use the report data in comparison with budget amounts to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
+- Verify the accuracy of the financial data by ensuring that debits and credits balance, and compare the actual vs. budgeted amounts.
+- Analyze the financial health of the business. Review the variances between the actual and budgeted amounts of each account in the chart of accounts.
 
 Controllers use the report to:
 
-* Monitor the financial performance of the business. Review the variances between actual and budgeted amounts for each account in the chart of accounts.
-* Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
-* Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
+- Monitor the financial performance of the business. Review the variances between actual and budgeted amounts for each account in the chart of accounts.
+- Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
+- Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
 ## Try the report
 

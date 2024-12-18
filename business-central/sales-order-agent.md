@@ -57,7 +57,23 @@ The agent always involves designated Business Central users to review and approv
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
-The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address (the agent searches among the registered Business Central contacts and then looks up the customer linked to that contact). If the customer isn't found, the agent stops processing the task and requests intervention from the user. If the customer is found, the agent filters out all sales quotes and orders that don't belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
+Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request. Learn more in [Agent process flow](#agent-process-flow).
+
+### Identifying customers/contacts and related documents
+
+The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then looks up the customer linked to that email:
+
+- If a customer is found, the agent filters to use only sales quotes and orders that belong to the customer.
+
+  This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email
+
+- If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registered as a customer.
+- If no contact is found, the agent filters out all documents, and it might request user intervention because it can't find the document.
+
+To prevent the agent from requesting intervention and to help  incoming messages, the agent verifies whether the contact is registered and displays a notification on the incoming message review page if it isn't. To resolve this issue, you can either register a new contact/customer or update the contact information of an existing contact/customer. The agent generates the notification to indicate that the contact email wasn't found.
+
+
+### Finding products/items
 
 The agent analyzes incoming emails to detect parameters for preparing a new sales quote or updating an existing one. Apart from the items themselves, parameters might include the item attributes, quantities, units of measure, requested delivery date, external document number, and more. The agent then searches for these items in Business Central's inventory, within a wide range of related tables.
 
@@ -75,8 +91,6 @@ The agent analyzes incoming emails to detect parameters for preparing a new sale
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more.
-
-Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request.
 
 ## Agent process flow
 

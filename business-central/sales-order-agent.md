@@ -57,14 +57,20 @@ The agent always involves designated Business Central users to review and approv
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
 
-Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed (learn more in the section [Agent process flow](#agent-process-flow)). Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request.
+Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request. Learn more in [Agent process flow](#agent-process-flow).
 
 ### Identifying the customer and its related documents
 
-The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then then looks up the customer linked to that email:
+The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then looks up the customer linked to that email:
 
-- If a customer isn't found, the agent stops processing the task and requests intervention from the user with a message like `A contact with email [email address] is not found.`.
-- If the customer is found, the agent filters out all sales quotes and orders that don't belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
+- If a customer is found, the agent filters to use only sales quotes and orders that belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
+
+  The agent can also filter for quotes created for a contact, if contact isn't registered as a customer yet. Quotes can be sent to contacts without the need to create a customer.
+
+- If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registerd as a customer.
+- If no contact is found, the agent filters out all documents, and it might request user intervention because it can't find the document.
+
+   The agent also raises the notification to inform you that the contact email wasn't found. To fix this issue, you can either register a new contact/customer or update the contact information of the existing contact or a customer.
 
 ### Finding products/items
 

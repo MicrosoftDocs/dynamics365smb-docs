@@ -63,14 +63,14 @@ Some steps require your intervention, like reviewing email correspondence and as
 
 The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then looks up the customer linked to that email:
 
-- If a customer is found, the agent filters to use only sales quotes and orders that belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
+- If a customer is found, the agent filters to use only sales quotes and orders that belong to the customer.
 
-  The agent can also filter for quotes created for a contact, if contact isn't registered as a customer yet. Quotes can be sent to contacts without the need to create a customer.
+  This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email
 
 - If a contact is found but it's not a customer, the agent filters to use only documents belonging to the contact. Quotes can be sent to contacts that aren't registerd as a customer.
 - If no contact is found, the agent filters out all documents, and it might request user intervention because it can't find the document.
 
-   The agent also raises the notification to inform you that the contact email wasn't found. To fix this issue, you can either register a new contact/customer or update the contact information of the existing contact or a customer.
+   The agent raises the notification to inform you that the contact email wasn't found. To fix this issue, you can either register a new contact/customer or update the contact information of the existing contact or a customer.
 
 ### Finding products/items
 

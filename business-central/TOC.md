@@ -984,8 +984,6 @@ ms.service: dynamics-365-business-central
 ##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
 ##### [Item BOM Compare list](reports/report-99000758.md)
-##### [Work Center List](reports/report-99000759.md) 
-##### [Machine Center List](reports/report-99000760.md) 
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
 ##### [Prod. Order - Calculation](reports/report-99000767.md)
@@ -999,6 +997,9 @@ ms.service: dynamics-365-business-central
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
 ##### [Production Order Statistics](reports/report-99000791.md)
+#### Legacy reports (will be removed)
+##### [Work Center List (legacy)](reports/report-99000759.md) 
+##### [Machine Center List (legacy)](reports/report-99000760.md) 
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)

@@ -509,7 +509,8 @@ ms.service: dynamics-365-business-central
 #### Key finance reports
 ##### [Key finance report overview](finance-reports.md)
 ##### [Detail Trial Balance](reports/report-4.md) 
-##### [Trial Balance](reports/report-6.md) 
+##### [Trial Balance Excel](reports/report-4405.md)
+##### [Trial Balance (legacy)](reports/report-6.md) 
 ##### [Trial Balance/Previous Year](reports/report-7.md) 
 ##### [Trial Balance/Budget](reports/report-9.md)
 ##### [Closing Trial Balance](reports/report-10.md)
@@ -518,6 +519,7 @@ ms.service: dynamics-365-business-central
 ##### [Dimensions - Detail](reports/report-28.md)
 ##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ##### [Trial Balance by Period](reports/report-38.md)
+
 #### [Built-in fixed assets reports](fa-reports.md)
 
 #### Accounts payable reports
@@ -1119,7 +1121,7 @@ ms.service: dynamics-365-business-central
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
 
 <!--Shopify-->
-## Online store with shopify
+## Online store with Shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1127,7 +1129,7 @@ ms.service: dynamics-365-business-central
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Automate Shopify synchronization using job queue](shopify/background.md)
+### [Automate Shopify synchronization using the job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)

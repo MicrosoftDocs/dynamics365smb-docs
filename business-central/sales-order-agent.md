@@ -59,7 +59,7 @@ The agent monitors a designated mailbox for incoming customer emails about item 
 
 Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request.
 
-### Identifying the customer
+### Identifying the customer and its related documents
 
 The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then then looks up the customer linked to that email:
 

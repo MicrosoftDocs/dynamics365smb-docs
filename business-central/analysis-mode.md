@@ -76,13 +76,6 @@ The data area is where the rows and columns of the list page query are shown and
   - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
 
-### Want to Export data to Excel?
-
-Right-click on the data area or a selection of cells to export data.
-
-:::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
-
-
 ### Summary bar (2)
 
 The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data updates.
@@ -172,6 +165,13 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
+
+## Want to Export data to Excel?
+
+Right-click on the data area or a selection of cells to export data.
+
+:::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
+
 
 ## Analyze large amounts of data
 

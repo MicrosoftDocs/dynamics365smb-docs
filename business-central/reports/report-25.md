@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Financial Report (report)
 
-The **Financial Report** report shows general ledger (G/L) transactions in a given period, grouped by a setup (a report definition) you have defined for rows and columns in the Financial Reporting feature.
+The **Financial Report** report shows general ledger (G/L) transactions in a given period, grouped by a setup (a report definition) you defined for rows and columns in the Financial Reporting feature.
 
 ## Learn more about the Financial Reporting feature
 
@@ -39,10 +39,9 @@ There are several other ways to analyze your general ledger (G/L) data. To learn
 - [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 - [Power BI finance app](../finance-powerbi-app.md)
 
+## Related information
 
-## See also
-
-[Prepare financial reporting](../bi-how-work-account-schedule.md)   
+[Prepare financial reporting](../bi-how-work-account-schedule.md)  
 [Analyze finance data from the Chart of Accounts page](../finance-general-ledger.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

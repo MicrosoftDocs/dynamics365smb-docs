@@ -1120,7 +1120,7 @@ ms.service: dynamics-365-business-central
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
 
 <!--Shopify-->
-## Online store with shopify
+## Online store with Shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1128,7 +1128,7 @@ ms.service: dynamics-365-business-central
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Automate Shopify synchronization using job queue](shopify/background.md)
+### [Automate Shopify synchronization using the job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)

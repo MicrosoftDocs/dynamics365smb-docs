@@ -61,9 +61,9 @@ Some steps require your intervention, like reviewing email correspondence and as
 
 ### Identifying the customer
 
-The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches among the registered Business Central contacts, and then looks up the customer linked to that contact. 
+The agent ensures that a request from one customer can't be about another customer's requests. When the agent processes a request, it first identifies the customer in Business Central using the sender's email address. The agent searches for the email among the registered Business Central contacts, sales quotes and orders, and then then looks up the customer linked to that email:
 
-- If the customer isn't found, the agent stops processing the task and requests intervention from the user with a message like `A contact with email [email address] is not found.`.
+- If a customer isn't found, the agent stops processing the task and requests intervention from the user with a message like `A contact with email [email address] is not found.`.
 - If the customer is found, the agent filters out all sales quotes and orders that don't belong to the customer. This behavior ensures that the agent only creates and updates documents belonging to the customer that sent the email.
 
 ### Finding products/items

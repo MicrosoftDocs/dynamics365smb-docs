@@ -11,6 +11,7 @@ ms.service: dynamics-365-business-central
 ## Learn
 ### [Resources for users](resources-for-users.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Visit our video library](across-videos.md)
 ### Business process walkthroughs
 #### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -152,7 +153,6 @@ ms.service: dynamics-365-business-central
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
-### [Visit our video library](across-videos.md)
 ### [Get technical support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 # Business functionality

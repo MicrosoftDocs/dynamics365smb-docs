@@ -76,9 +76,6 @@ You can also specify how the adjustment handles dimensions for unrealized gains 
 > [!NOTE]
 > To use the preview capability, you need to turn on the **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** feature on the **[Feature Management](https://businesscentral.dynamics.com/?page=2610)** page.
 
-> [!IMPORTANT]
-> Due to local requirements in Switzerland, we don't recommend that you enable **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** in the Swiss (CH) country version.
-
 ## Preview the effect of an adjustment
 
 You can preview the effect that an exchange rate adjustment has on posting before you actually post by choosing the **Preview Posting** action on the **Exch. Rates Adjustment** report (Report 596) request page. On the request page, you can specify what to include in the preview:

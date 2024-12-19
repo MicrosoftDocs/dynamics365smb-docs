@@ -47,13 +47,6 @@ People in different roles have different needs when it comes to data, and they u
 |Purchasing Manager      | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Purchasing Officer / Purchasing Agent | Detailed data     | Built-in operational reports <br> On-screen task data |
 
-<!-- 
-## Purchasing KPIs
-
-A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
-
-- TODO  
--->
 
 ## Using Power BI to monitor purchasing KPIs
 

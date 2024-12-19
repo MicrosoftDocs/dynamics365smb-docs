@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_10, Report_25, Report_27, Report_28, Report_33, Report_38, Report_4405, Report_10007, Report_10008
 ms.date: 05/20/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -34,9 +34,5 @@ ms.service: dynamics-365-business-central
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Power BI finance app](finance-powerbi-app.md)  
 [Financial analytics](bi.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[Finance](finance.md)  
-[Local Functionality Overview](about-localization.md)  
-[Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

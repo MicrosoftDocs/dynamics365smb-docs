@@ -24,6 +24,7 @@ The following table describes a sequence of tasks within accounts payable, with 
 
 | To | See |
 | --- | --- |
+| Analyze accounts payable data with Power BI, Data analysis, or Excel. | [Built-in accounts payable reports](payables-reports.md) |
 | Generate due vendor payments or employee reimbursements, prepare check payments, and export payments to a bank file when posting. |[Making Payments](payables-make-payments.md) |
 | Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Apply vendor payments to unpaid purchase invoices manually. |[Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md) |

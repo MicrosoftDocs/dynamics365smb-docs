@@ -1,6 +1,6 @@
 ---
 title: Keyboard shortcuts
-description: View the complete list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
+description: View a list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
@@ -14,7 +14,7 @@ ms.reviewer: jswymer
 
 # Keyboard shortcuts
 
-This article provides an overview of some of the key combinations (keyboard shortcuts) that you can use when you work with [!INCLUDE[prod_short](includes/prod_short.md)].
+This article provides an overview of key combinations (keyboard shortcuts) that you can use when you work with [!INCLUDE[prod_short](includes/prod_short.md)].
 
 You can find an overview of the most popular keyboard shortcuts in [Keyboard shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
@@ -33,9 +33,9 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 Most of the keyboard shortcuts are the same, regardless of whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are enclosed in parentheses in the following sections.
 
 > [!NOTE]
-> Business Central supports only a single character set for data. Therefore, some characters might not be supported in your environment, and you might experience issues if you try to retrieve data that was entered by using a different character set. For example, if your environment supports only English and Russian characters, data might not be stored correctly if you enter it in a language that uses different characters. This issue can also apply to keyboard shortcuts. You should contact your system administrator to ensure that you know which languages your instance of Business Central supports.
+> [!INCLUDE [prod_short](includes/prod_short.md)] supports only a single character set for data. Therefore, some characters might not be supported in your environment, and you might experience issues if you try to retrieve data that was entered by using a different character set. For example, if your environment supports only English and Russian characters, data might not be stored correctly if you enter it in a language that uses different characters. This issue can also apply to keyboard shortcuts. You should contact your system administrator to ensure that you know which languages your instance of [!INCLUDE [prod_short](includes/prod_short.md)] supports.
 >
-> In addition to the global keyboard shortcuts that this article describes, some business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], the <kbd>F9</kbd> key posts a document, and <kbd>Ctrl</kbd>+<kbd>F7</kbd> shows the ledger entries for a record when you open the record in a card. This article includes some of the more common business-specific shortcuts. These shortcuts appear in italic type. Be aware that the shortcuts might differ in your solution. In the user interface, the tooltip for an action shows the actual keyboard shortcut that is required.
+> In addition to the global keyboard shortcuts that this article describes, some business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], the <kbd>F9</kbd> key posts a document, and <kbd>Ctrl</kbd>+<kbd>F7</kbd> shows the ledger entries for a record when you open the record in a card. This article includes some of the more common business-specific shortcuts. Be aware that the shortcuts might differ in your solution. In the user interface, the tooltip for an action shows the keyboard shortcut to use.
 
 ## <a name="Keyboard"></a>General keyboard shortcuts
 
@@ -57,7 +57,7 @@ The following table describes the keyboard shortcuts for navigating and accessin
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | Close a newly created page, and then open a new one where you can create a new record. The effect of <kbd>Alt</kbd>+<kbd>F9</kbd> is similar. It posts a document and creates a new one. |
 | <kbd>Alt</kbd>+<kbd>T</kbd> | Open the **My Settings** page. |
 | <kbd>Alt</kbd>+<kbd>Right arrow</kbd> | Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. This keyboard shortcut is used when the usual dropdown button (<kbd>Alt</kbd>+<kbd>Down arrow</kbd>) in the same field is used for another purpose. |
-| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> | Show information in the company badge. As of the Business Central 2022 release wave 2 (version 21), this keyboard shortcut is no longer supported. It's replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> | Show information in the company badge. As of the Business Central 2022 release wave 2 (version 21), this keyboard shortcut is no longer supported. Its replacement is <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd> | Open and close the page inspection pane. The page inspection pane shows information about the page, such as its source table, fields, filters, and extensions. Learn more in [Inspecting pages in Business Central](across-inspect-page.md). |
 | <kbd>Ctrl</kbd>+<kbd>C</kbd> | Copy the value of a field. If the field is in focus, and specific text in the field isn't selected, the entire value is copied. If any text in the field is selected, only that text is copied. |
 | <kbd>Ctrl</kbd>+<kbd>F1</kbd> | Open either the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version. |
@@ -71,7 +71,7 @@ The following table describes the keyboard shortcuts for navigating and accessin
 | <kbd>Esc</kbd> | Close the current page or dropdown list. |
 | <kbd>Tab</kbd> | Move focus to the next control or element on a page, such as an action, button, field, or list heading. |
 | <kbd>Shift</kbd>+<kbd>Tab</kbd> | Move focus to the previous control or element on a page, such as an action, button, field, or list heading. |
-| <kbd>Y</kbd> and <kbd>N</kbd> | <p>Activate the **Yes** and **No** buttons in dialog boxes.</p><p>**Note:** The actual keys that are used vary, depending on your current language as it's specified on the **My Settings** page. For example, if your current language is German, you select <kbd>J</kbd> to activate the **Ja** ("Yes") button and <kbd>N</kbd> to activate the **Nein** ("No") button. |
+| <kbd>Y</kbd> and <kbd>N</kbd> | <p>Activate the **Yes** and **No** buttons in dialog boxes.</p><p>**Note:** The actual keys vary, depending on your current language. You specify your language on the **My Settings** page. For example, if your current language is German, you select <kbd>J</kbd> to activate the **Ja** ("Yes") button and <kbd>N</kbd> to activate the **Nein** ("No") button. |
 
 ## <a name="lists"></a>Keyboard shortcuts in lists
 
@@ -140,13 +140,13 @@ Many page types in [!INCLUDE[prod_short](includes/prod_short.md)] contain grids 
 | <kbd>Shift</kbd>+<kbd>F3</kbd> | <p>Open and close the filter pane.</p><ul><li>If the filter pane isn't already open, open it, and move focus to the **+&nbsp;Filter** action under **Filter list by**. You can then start to add a field filter just by selecting the <kbd>Enter</kbd> key.</li><li>If the filter pane is already open, close it, but don't clear any filters that you added.</li></ul> |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> | <p>Open and close the filter pane.</p><ul><li>If the filter pane isn't already open, open it, and move focus to the **+&nbsp;Filter** action under **Filter total by**. You can then start to add a totals filter just by selecting the <kbd>Enter</kbd> key.</li><li>If the filter pane is already open, close it, but don't clear any filters that you added.</li></ul> |
 | <kbd>Alt</kbd>+<kbd>F3</kbd> | <p>Toggle filtering to the selected value.</p><ul><li>If the column isn't already filtered, apply a column filter on the selected field value in the list. In this case, the keyboard shortcut has the same effect as selecting **Filter to this value** for a column heading. It opens the filter pane and sets the filter to the selected value, but focus remains on the cell in the list.</li><li>If the column is already filtered, clear the filter on it.</li></ul> |
-| <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> | <p>Open the filter pane, and add a filter on the selected column in the list. Focus is moved to the new filter field so that you can immediately start to enter the filter criteria.</p><p>This keyboard shortcut has the same effect as selecting **Filter** for the column heading.</p><p>If there is already a filter on the field, a new filter is added.</p> |
+| <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> | <p>Open the filter pane, and add a filter on the selected column in the list. Focus is moved to the new filter field so that you can immediately start to enter the filter criteria.</p><p>This keyboard shortcut has the same effect as selecting **Filter** for the column heading.</p><p>If there's already a filter on the field, a new filter is added.</p> |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> | <p>Reset filters. This keyboard shortcut has the same effect as selecting **Reset filters** in the filter pane. It applies to field and totals filters.</p><p>Filters return to the default filters for the current view. If the current view is **All**, a filter reset is equivalent to returning to an unfiltered view that shows all records.</p> |
 | <kbd>Ctrl</kbd>+<kbd>Enter</kbd> | Move focus from the filter pane back to the list. |
 
 ## Keyboard shortcuts in cards and documents
 
-The following keyboard shortcuts are available on card pages, such as **Customer Card**, and document pages, such as **Sales Order**. They are used to show and modify records.
+The following keyboard shortcuts are available on card pages, such as **Customer Card**, and document pages, such as **Sales Order**. They're used to show and modify records.
 
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|
@@ -175,7 +175,7 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 
 ## <a name="QuickEntry"></a>Quick entry shortcuts for fields
 
-The following keyboard shortcuts are related to the Quick Entry feature on cards, documents, and list pages. In the case of a list, these shortcuts can't be used when the list is in the tile view. Learn more about Quick Entry in [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
+The following keyboard shortcuts are related to the Quick Entry feature on cards, documents, and list pages. For list pages, you can't use these shortcuts when the list is in the tile view. Learn more about Quick Entry in [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|
@@ -187,9 +187,9 @@ The following keyboard shortcuts are related to the Quick Entry feature on cards
 
 To set a date field, you can manually enter the date, or you can open a calendar (date picker) where you can select the date that you want. The following table describes the keyboard shortcuts for the calendar.
 
-| Select these keys<br>(these keys in macOS) | To do this |
+| Select these keys | To do this |
 |---|---|
-| <kbd>Ctrl</kbd>+<kbd>Home</kbd> | <p>Open the calendar if it's closed.</p><p>**Note:** This keyboard shortcut doesn't work if the date field is in a grid. In that case, <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row of the grid.</p> |
+| <kbd>Ctrl</kbd>+<kbd>Home</kbd> | <p>Open a closed calendar.</p><p>**Note:** This keyboard shortcut doesn't work if the date field is in a grid. In that case, <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row of the grid.</p> |
 | <kbd>Ctrl</kbd>+<kbd>Home</kbd><br>(<kbd>Cmd</kbd>+<kbd>Home</kbd>) | Move to the current month and the current day. |
 | <kbd>Left arrow</kbd><br>(<kbd>Left arrow</kbd>) | Move to the previous day. |
 | <kbd>Right arrow</kbd><br>(<kbd>Right arrow</kbd>) | Move to the next day. |
@@ -217,8 +217,8 @@ To set a date field, you can manually enter the date, or you can open a calendar
 | <kbd>Ctrl</kbd>+<kbd>0</kbd> (zero)<br>(<kbd>Cmd</kbd>+<kbd>0</kbd>) | Fit the entire page on the page. |
 | <kbd>Ctrl</kbd>+<kbd>Home</kbd><br>(<kbd>Cmd</kbd>+<kbd>Home</kbd>) | Go to the first page of the report. |
 | <kbd>Ctrl</kbd>+<kbd>End</kbd><br>(<kbd>Cmd</kbd>+<kbd>End</kbd>) | Go to the last page of the report. |
-| <kbd><kbd>Left arrow</kbd></kbd> | Scroll to the left when the page is zoomed in and isn't completely visible. |
-| <kbd>Right arrow</kbd> | Scroll to the right when the page is zoomed in and isn't completely visible. |
+| <kbd><kbd>Left arrow</kbd></kbd> | Scroll horizontally to the left. |
+| <kbd>Right arrow</kbd> | Scroll horizontally to the right. |
 | <kbd>Page down</kbd><br>(<kbd>Fn</kbd>+<kbd>Down arrow</kbd>) | Go to the next page of the report. |
 | <kbd>Page up</kbd><br>(<kbd>Fn</kbd>+<kbd>Up arrow</kbd>) | Go to the previous page of the report. |
 
@@ -252,7 +252,7 @@ The following table describes the keyboard shortcuts on a numeric keypad.
 
 ## Access keys for action bar and navigation menu
 
-Access keys are keyboard shortcuts you can use to select specific actions in the action bar and on the navigation menu for easier navigation. They are similar to the access keys in Excel and Word. Access keys are available in the Business Central web client only when the display language is set to one of the [supported languages](#supported-languages).
+Access keys are keyboard shortcuts you can use to select specific actions in the action bar and on the navigation menu for easier navigation. They're similar to the access keys in Excel and Word. Access keys are available in the Business Central web client only when the display language is set to one of the [supported languages](#supported-languages).
 
 To use access keys on a page, first select the <kbd>Alt</kbd> key to show *key tips*. Key tips are letters in small boxes next to the actions in the action bar and on the navigation menu. 
 

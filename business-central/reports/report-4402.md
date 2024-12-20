@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Aged Accounts Receivables Excel (report)
 
-The **Aged Accounts Receivables Excel** report shows aggregated and summarized aging data based on customer ledger entries in an Excel workbook.
+The **Aged Accounts Receivables Excel** report shows aggregated and summarized aging data based on customer ledger entries.
 
 Data is aggregated and bucketed according to the **Aged as of** and **Period length** parameters in the report's request page. It is summarized by the two global dimensions. 
 

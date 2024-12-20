@@ -34,7 +34,7 @@ The report Excel workbook contains two worksheets that you can use to analyze yo
 
 ## Top Customer List worksheet
 
-This worksheet shows current sales amounts and balance in local currency (LCY) by customer. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
+This worksheet shows current sales amounts and balance in local currency (LCY) by customer. 
 
 With filters and slicers, you can zoom in on a single customer or a group of customers.
 

@@ -1,5 +1,5 @@
 ---
-title: Aged Accounts Receivables (Excel report)
+title: Aged Accounts Receivable (Excel report)
 description: Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 author: kennieNP
 ms.author: kepontop
@@ -15,9 +15,9 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Aged Accounts Receivables Excel (report)
+# Aged Accounts Receivable Excel (report)
 
-The **Aged Accounts Receivables Excel** report shows aggregated and summarized aging data based on customer ledger entries.
+The **Aged Accounts Receivable Excel** report shows aggregated and summarized aging data based on customer ledger entries.
 
 Data is aggregated and bucketed according to the **Aged as of** and **Period length** parameters in the report's request page. It is summarized by the two global dimensions. 
 
@@ -128,7 +128,7 @@ Credit analysts use the report to:
 
 ## Try the report
 
-Try the report here: [Aged Accounts Receivables Excel](https://businesscentral.dynamics.com?report=4402)
+Try the report here: [Aged Accounts Receivable Excel](https://businesscentral.dynamics.com?report=4402)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

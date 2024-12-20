@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Trial Balance Excel (report)
 
-The **Trial Balance Excel** report shows aggregated and summarized general ledger data for trial balance with debit and credit columns for net change and balance.
+The **Trial Balance Excel** report shows aggregated and summarized general ledger data for a trial balance with debit and credit columns for net change and balance.
 
-You can see a trial balance both for local currency (LCY) and additional reporting currency (ACY). However, the report only shows data for the latter if you have setup the additional reporting currency feature.
+You get your trial balance shown both in local currency (LCY) and additional reporting currency (ACY). However, the report only shows data for the latter if you have setup the additional reporting currency feature.
 
 Data is aggregated for the period specified by the Datefilter parameter on the report's request page and summarized by the two global dimensions per G/L account category.
 

@@ -108,6 +108,12 @@ There are several other ways to analyze your vendors. To learn more, go to:
 - [Power BI Purchasing app](../purchases-powerbi-app.md)
 - [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)
 
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+
 ## Related information
 
 [Power BI Purchasing app](../purchases-powerbi-app.md)  
@@ -115,6 +121,5 @@ There are several other ways to analyze your vendors. To learn more, go to:
 [Purchase reports](../purchase-reports.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 [Accounts payable analytics](../receivables-reports.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

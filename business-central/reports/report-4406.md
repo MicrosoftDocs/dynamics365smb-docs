@@ -115,6 +115,12 @@ There are several other ways to analyze your balance. To learn more, go to:
 - [Trial Balance/Budget (legacy)](../reports/report-9.md)
 - [Financial Reporting](../bi-how-work-account-schedule.md)
 
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+
 ## Related information
 
 [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)  

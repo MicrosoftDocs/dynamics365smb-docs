@@ -83,6 +83,12 @@ There are several other ways to analyze aged accounts payable. To learn more, go
 - [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
 - [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)
 
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+
 ## Related information
 
 [Accounts payable analytics](../receivables-reports.md)  

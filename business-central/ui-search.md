@@ -44,7 +44,7 @@ The **On current page** section lets you find actions on the page you have open.
 
 The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. Learn more in [Add a Page Action to Your Role Center](ui-bookmarks.md).
 
-The pages and tasks that are listed depend on the user experience you chose for your company. The **Essential** experience gives access to fewer pages and tasks than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. Learn more about user experiences in [Customizing Your [!INCLUDE[prod_short](includes/prod_short.md)] Experience](ui-experiences.md).
+The pages and tasks that are listed depend on the user experience you chose for your company. The **Essentials** experience gives access to fewer pages and tasks than the **Premium** experience does. The first time you sign in, you use the **Essentials** experience. Learn more about user experiences in [Customizing Your [!INCLUDE[prod_short](includes/prod_short.md)] Experience](ui-experiences.md).
 
 ## Find a report or archived information
 

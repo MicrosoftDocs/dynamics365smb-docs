@@ -73,9 +73,15 @@ The data area is where the rows and columns of the list page query are shown and
 - To access several actions that you can do on columns, right-click the column or hover over it and select the menu icon ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png). For example:
 
   - To pin a column to the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.
-  - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.
+  - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.   
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
-- Export data in Excel or CSV format. Right-click on the data area or a selection of cells to export.
+
+Note that in the data area, you can filter on all columns, including totals such as sum or count. 
+
+:::image type="content" source="media/analysis-mode-filter-on-totals.png" alt-text="Screenshot of how to filter on totals in analysis mode":::
+
+
+
 
 ### Summary bar (2)
 
@@ -166,6 +172,13 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
+
+## Want to Export data to Excel?
+
+Right-click on the data area or a selection of cells to export data.
+
+:::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
+
 
 ## Analyze large amounts of data
 

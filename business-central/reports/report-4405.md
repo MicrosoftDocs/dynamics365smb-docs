@@ -17,24 +17,23 @@ ai.usage: ai-assisted
 
 # Trial Balance Excel (report)
 
-The **Trial Balance Excel** report shows aggregated general ledger data for the trial balance with debit and credit columns for net change and balance.
+The **Trial Balance Excel** report shows aggregated and summarized general ledger data for the trial balance with debit and credit columns for net change and balance.
 
 Data is shown for both local currency (LCY) and additional reporting currency (ACY). However, it only shows data for the latter if you use ACY.
 
-The aggregation is for the period specified by the Datefilter parameter on the report's request page and summarized for the two global dimensions per G/L account category.
+Data is aggregated for the period specified by the Datefilter parameter on the report's request page and summarized by the two global dimensions per G/L account category.
 
 The Excel workbook contains three worksheets that you can use to analyze your trial balance:
 
-- Trial Balance (LCY)
-- Trial Balance (ACY)
+- Trial Balance (LCY), 
+- Trial Balance (ACY), and
 - TrialBalanceData
 
-Each worksheet represents a different dimension for your analysis.
+[!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
 [!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
 
-> [!NOTE]
-> This report does the calculations when you view it in Excel online, or when you download and open it. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
+[!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
 ## Trial Balance (LCY) worksheet
 
@@ -54,13 +53,11 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 ## TrialBalanceData worksheet
 
-This worksheet shows the raw data used in the report.
-
-You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)], or the What-if-analysis or Forecast Sheet tools.
+[!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
 :::image type="content" source="../media/excel-trial-balance-trial-balance-data.png" alt-text="Screenshot of the TrialBalanceData worksheet":::
 
-To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
+[!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
 ## Use cases
 

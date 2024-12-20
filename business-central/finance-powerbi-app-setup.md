@@ -142,8 +142,8 @@ Please try again later or contact support. If you contact support, please provid
 Data source error: Column '<oii>Entry No.</oii>' in Table '<oii>G/L Entries</oii>' contains a duplicate value
 ```
 
-If you receive this error, unfortunately, you are affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]. We are working on a fix for this.
-
+> [!NOTE]
+> If you get this error, you're affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]. We're working on a fix for this.
 
 This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
 
@@ -177,7 +177,7 @@ The following example shows how to set up the totaling accounts.
 2. The totaling defined for the **End-Total** is **1300..1390**. Any other combination for your totaling account (such as 1300..1340, 1310..1390, or 1310..1340, etc.) can cause the error.
 3. One **Begin-Total** account can only be used in one **End-Total** account. If you use a **Begin-Total** account in two or more **End-Total** accounts, the [!INCLUDE [power-bi-finance-app-name](includes/power-bi-finance-app-name.md)] can't match it to an **End-Total** account.
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Power BI finance app](finance-powerbi-app.md)  

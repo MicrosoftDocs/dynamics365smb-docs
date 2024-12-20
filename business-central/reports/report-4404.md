@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The **Vendor - Top 10 List Excel** report shows summarized purchase and balance data in local currency (LCY) for the top number of vendors selected. 
 
-You can specify how meny vendors you can to include in the report.
+You can specify how many vendors to include in the report.
 
 Data is summarized for the period specified in the request page's **Date filter** parameters. 
 

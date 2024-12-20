@@ -142,6 +142,9 @@ Please try again later or contact support. If you contact support, please provid
 Data source error: Column '<oii>Entry No.</oii>' in Table '<oii>G/L Entries</oii>' contains a duplicate value
 ```
 
+If you receive this error, unfortunately, you are affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]. We are working on a fix for this.
+
+
 This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
 
 The current Balance Sheet G/L Entries query has a hard-coded filter transformation. This filter assumes that the source code for closing entries is CLSINCOME. This leads the model to allow closing entries to exist in both the Balance Sheet query and the Closing Entries query, resulting in duplicate entries.

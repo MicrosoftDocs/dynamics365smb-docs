@@ -22,7 +22,7 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. Standard configurations for most business processes are built-in, but you can change the configuration to suit your business needs. 
 
-Take a tour of some of the key capabilities for managing finances. <br><br>  
+Maybe start with a short tour of some of the key capabilities for managing finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 

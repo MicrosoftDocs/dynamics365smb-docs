@@ -75,28 +75,33 @@ Empower people to be more collaborative, productive, and impactful with the powe
 
 | To... | Learn more here... |
 | ----- | ------------------ |
-| Connect Microsoft Teams to Business Central and efficiently share and interact with real-time data, transforming Teams into a centralized hub for all your daily operations. | []() |
-| Connect real-time data from Business Central to Microsoft Outlook. Save time with visibility into customer and vendor information such as sales, purchase details, and more without leaving your inbox. | []() |
-| Export any Business Central data to an Excel worksheet. Save time by bulk updating records in Excel and uploading the revised records to Business Central. Get timely operational insights from Business Central as Excel reports. | []() |
+| Connect Microsoft Teams to [!INCLUDE[prod_short](includes/prod_short.md)] and efficiently share and interact with real-time data, transforming Teams into a centralized hub for all your daily operations. | [Sharing Business Central records and page links in Microsoft Teams](across-working-with-teams.md) |
+| Connect real-time data from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft Outlook. Save time with visibility into customer and vendor information such as sales, purchase details, and more without leaving your inbox. | [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md) |
+| Export any [!INCLUDE[prod_short](includes/prod_short.md)] data to Excel. Save time by bulk updating records in Excel and uploading the revised records to [!INCLUDE[prod_short](includes/prod_short.md)]. Get timely operational insights from [!INCLUDE[prod_short](includes/prod_short.md)] as Excel reports. | [View and edit in Excel from Business Central](across-work-with-excel.md) |
+
+<!-- 
+TODO: need a landing page for Microsoft 365 integrations 
+-->
 
 
 ## Connected to Power Platform
 
-Integrating Business Central with the Microsoft Power Platform offers a solution that enhances business productivity and efficiency. It provides a set of tools that enable you to analyze data, build solutions, automate processes, and create virtual agents. 
+Integrating [!INCLUDE[prod_short](includes/prod_short.md)] with the Microsoft Power Platform offers a solution that enhances business productivity and efficiency. It provides a set of tools that enable you to analyze data, build solutions, automate processes, and create virtual agents. 
 
 | To... | Learn more here... |
 | ----- | ------------------ |
-| Use Power Automate to set up and use workflows to connect business-process tasks performed by different users | []() |
-| Get insights into your Business Central data with Power BI and create custom visualizations and reports. | []() |
-| Use Power Apps to build the perfect app solution for your business domain—one that uses Business Central data and processes and maximizes your productivity. | []() |
-| Build conversational experiences that connect to knowledge and data from Business Central and can operate standalone. | []() |
-| Power Pages you can develop low-code business websites delivering vital information and services 
-to your customers | []() |
+| Set up and use Power Automate workflows to connect business-process tasks performed by different users | [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md) |
+| Get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with Power BI and create custom visualizations and reports. | [Work with Power BI reports in Business Central](across-working-with-powerbi.md) |
+| Build Power App solutions for your business domain with [!INCLUDE[prod_short](includes/prod_short.md)] data and processes | [Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md) |
+
+<!-- 
+TODO: need a landing page for Power Platform integrations 
+-->
 
 
-## Workflows and automation
+## IS THIS NEEDED??? Workflows and automation
 
-Use workflows and other automation to streamline your business processes. Workflows automate repetitive tasks, reducing the need for manual intervention and speeding up processes. In Business Central, you can create custom workflows tailored to your specific business needs and use other automation options such as Job Queue to maximize efficiency. 
+Use workflows and other automation to streamline your business processes. Workflows automate repetitive tasks, reducing the need for manual intervention and speeding up processes. In [!INCLUDE[prod_short](includes/prod_short.md)], you can create custom workflows tailored to your specific business needs and use other automation options such as Job Queue to maximize efficiency. 
 
 | To... | Learn more here... |
 | ----- | ------------------ |
@@ -105,9 +110,9 @@ Use workflows and other automation to streamline your business processes. Workfl
 || []() |
 
 
-## Development and integration capabilities
+## IS THIS NEEDED??? Development and integration capabilities
 
-Customize and extend your Business Central experience in the product with tools available. You can extend Business Central with add-on apps, vertical or horizontal solutions, and integrate with other products and third-party services.
+Customize and extend your [!INCLUDE[prod_short](includes/prod_short.md)] experience in the product with tools available. You can extend [!INCLUDE[prod_short](includes/prod_short.md)] with add-on apps, vertical or horizontal solutions, and integrate with other products and third-party services.
 
 | To... | Learn more here... |
 | ----- | ------------------ |
@@ -125,6 +130,7 @@ You can also use the search capabilities in [!INCLUDE [prod_short](includes/prod
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
+
 ## Microsoft Learn
 
 In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section. See also the [Learn more using the product documentation](product-help-and-support.md#learn-more-using-the-product-documentation) section.
@@ -137,18 +143,10 @@ If you prefer watching content rather than read it, then [visit our video librar
 > Unless otherwise specified, articles on Microsoft Learn reflect the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.yml).
 
 
-## Development and administration content
-
-- [Development and Administration](/dynamics365/business-central/dev-itpro/index)
-- [Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
-- [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
-- [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
-- [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
-
-
-
 
 ## More information
+
+TODO: clean this up
 
 [Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central quickstarts](quick-start-business-central.md)  

@@ -14,11 +14,11 @@ ms.service: dynamics-365-business-central
 
 # Analytics, business intelligence, and reporting overview
 
-Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] provides reports and analytics tools that cover basic and complex business processes for such organizations. You can also do ad-hoc analyses directly from your home page.  
+Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] provides reports and analytics tools that cover basic and complex business processes for such organizations. 
 
 ## Analytics needs in organizations
 
-When you think about analytics needs in organizations, it might help to use a mental model based on personas described on a high-level, and their different analytics needs.
+When thinking about analytics needs in your organization, it might help to use a mental model based on personas described on a high-level, and their different analytics needs.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
@@ -32,6 +32,7 @@ Use the following sections to learn more about ways to consume data from [!INCLU
 
 - Financial Reports
 - KPIs and dashboards
+- Power BI apps
 - Ad-hoc analysis
 - Reports
 

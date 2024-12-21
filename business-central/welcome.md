@@ -22,6 +22,11 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. Standard configurations for most business processes are built-in, but you can change the configuration to suit your business needs. 
 
+Take a tour of some of the key capabilities for managing finances. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+
+
 | To... | Learn more here... |
 | ----- | ------------------ |
 |Make and collect payments, manage your cash flow, defer income and revenue, prepare year-end closing, and manage fixed assets.|[Finance](finance.md)|
@@ -42,6 +47,8 @@ To learn more, go to [Business functionality supported by Business Central](acro
 
 With Copilot in Business Central, small and medium-sized organizations empower their employees through intuitive AI tools that boost creativity and save time. 
 
+![Shows a link tot ana analysis tab in the chat with Copilot pane](media/chat-analysis-tab.png)
+
 | To... | Learn more here... |
 | ----- | ------------------ |
 | Calculate, summarize, and examine data by expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category." | [Analyze data in lists with Analysis Assist Copilot](analysis-assist.md) | 
@@ -59,6 +66,8 @@ To learn more, go to [About Copilot in Business Central](copilot-overview.md)
 
 Empower any role in your organization with the insights they need to make decisions based on data. Use financial reporting and KPIs in your leadership team, create overview reports for middle management, and operational reports for staff. Group and pivot data from any list to perform an ad-hoc analysis directly in the application. Export and analyze your data in Excel if that is your tool of choice. Each area in the application comes with out of the box analytics.
 
+:::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
+
 | To... | Learn more here... |
 | ----- | ------------------ |
 | Set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. | [Using Financial reporting to produce financial statements and KPIs](bi.md) |
@@ -72,6 +81,8 @@ To learn more, go to [Analytics overview](reports-bi-reporting.md)
 ## Connected to Microsoft 365
 
 Empower people to be more collaborative, productive, and impactful with the power of collaborative applications. When Business Central and Microsoft 365 work together, small and medium-sized businesses can boost productivity and redefine how work gets done. With data delivered directly to familiar apps like Outlook, Excel, and Teams, employees get the information they need without switching between applications.
+
+![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-files.png)
 
 | To... | Learn more here... |
 | ----- | ------------------ |
@@ -88,6 +99,8 @@ TODO: need a landing page for Microsoft 365 integrations
 
 Integrating [!INCLUDE[prod_short](includes/prod_short.md)] with the Microsoft Power Platform offers a solution that enhances business productivity and efficiency. It provides a set of tools that enable you to analyze data, build solutions, automate processes, and create virtual agents. 
 
+:::image type="content" source="media/power-automate-menu.svg" alt-text="Shows the Automate action in the action bar with expanded actions.":::
+
 | To... | Learn more here... |
 | ----- | ------------------ |
 | Set up and use Power Automate workflows to connect business-process tasks performed by different users | [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md) |
@@ -103,23 +116,25 @@ TODO: need a landing page for Power Platform integrations
 
 Use workflows and other automation to streamline your business processes. Workflows automate repetitive tasks, reducing the need for manual intervention and speeding up processes. In [!INCLUDE[prod_short](includes/prod_short.md)], you can create custom workflows tailored to your specific business needs and use other automation options such as Job Queue to maximize efficiency. 
 
+<!-- 
 | To... | Learn more here... |
 | ----- | ------------------ |
 || []() |
 || []() |
 || []() |
-
+ -->
 
 ## IS THIS NEEDED??? Development and integration capabilities
 
 Customize and extend your [!INCLUDE[prod_short](includes/prod_short.md)] experience in the product with tools available. You can extend [!INCLUDE[prod_short](includes/prod_short.md)] with add-on apps, vertical or horizontal solutions, and integrate with other products and third-party services.
 
+<!-- 
 | To... | Learn more here... |
 | ----- | ------------------ |
 || []() |
 || []() |
 || []() |
-
+ -->
 
 
 ## Getting help inside [!INCLUDE [prod_short](includes/prod_short.md)]

@@ -129,13 +129,7 @@ If you prefer, you can use business intelligence tools that aren't embedded in [
 
 The content in this general article is also available in special versions for many functional areas in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-| If you work with... | See |
-| --- | --- |
-| Finance | [Financial analytics](bi.md) |
-| Sales | [Sales analytics](sales-analytics-overview.md) |
-| Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
-| Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
-
+[!INCLUDE [analytics-by-functional-areas-overview-table](includes/analytics-by-functional-areas-overview-table.md)]
 
 ## See also
 
@@ -146,6 +140,6 @@ The content in this general article is also available in special versions for ma
 [Use reports in your daily work](reports-use-reports.md)  
 [Overview of built-in reports](reports-available-reports.md)  
 [Exploring reports per Role](ui-role-explorer.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Analytics by functional area](analytics-by-functional-area.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

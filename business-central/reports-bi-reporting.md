@@ -60,6 +60,14 @@ Identifying and tracking KPIs lets you know whether your business is on the righ
 
 To learn more about KPIs, go to [Using key performance indicators to meet your business goals](./analytics-about-kpis.md)
 
+## Built-in Power BI apps 
+
+[!INCLUDE [powerbi-apps-overview](includes/powerbi-apps-overview.md)]
+
+:::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
+
+To learn more, go to [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+
 ## Ad-hoc data analysis
 
 You might just want to check whether the numbers add up correctly, quickly confirm or debunk a hypothesis about the business, or maybe look for anomalies in your financial data. For ad-hoc analyses, you might not have a built-in report that helps answer your questions. For ad-hoc analyses, use these two features:
@@ -83,7 +91,7 @@ To learn more about ad-how analyses, go to [Ad hoc data analysis](reports-adhoc-
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. Reports organize and present the information in an easy-to-read format you can use in Excel, print, or save as a file.  
 
-As an example of an interactive report in Excel, the ***Aged Accounts Receivable** report lets you analyze what your customers owe you and when payments are due.
+As an example of an interactive report in Excel, the **Aged Accounts Receivable** report lets you analyze what your customers owe you and when payments are due.
 
 :::image type="content" source="media/aged-accounts-receivables-excel.png" alt-text="Example of the interactive aged accounts receivables report in Excel." lightbox="media/aged-accounts-receivables-excel.png":::
 
@@ -133,6 +141,7 @@ The content in this general article is also available in special versions for ma
 
 [Using Financial reporting to produce financial statements and KPIs](bi.md)  
 [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)  
+[Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)  
 [Doing ad-hoc data analysis](reports-adhoc-analysis.md)  
 [Use reports in your daily work](reports-use-reports.md)  
 [Overview of built-in reports](reports-available-reports.md)  

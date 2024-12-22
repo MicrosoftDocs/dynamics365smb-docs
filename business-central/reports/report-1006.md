@@ -21,6 +21,9 @@ The **Project Planning Lines** report shows the planning and project task lines 
 
 You can choose whether the currency displays in local currency or foreign currency.
 
+:::image type="content" source="../media/reports/report-1006.png" alt-text="Screenshot of the Project Planning Lines report PDF output" lightbox="../media/reports/report-1006.png":::
+
+
 ## Use cases
 
 [!INCLUDE[report-1006-scenario](../includes/report-1006-scenario-include.md)]

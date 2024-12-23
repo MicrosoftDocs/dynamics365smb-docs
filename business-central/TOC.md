@@ -523,8 +523,8 @@ ms.service: dynamics-365-business-central
 
 #### [Built-in fixed assets reports](fa-reports.md)
 
-#### Accounts payable reports
-##### [Accounts payable report overview](payables-reports.md)
+#### Accounts payable analytics
+##### [Accounts payable analytics overview](payables-reports.md)
 ##### [Aged Accounts Payable Excel](reports/report-4403.md)
 ##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
@@ -536,8 +536,8 @@ ms.service: dynamics-365-business-central
 ##### [Vendor - Balance to Date](reports/report-321.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 
-#### Accounts receivable reports
-##### [Accounts receivable report overview](receivables-reports.md)
+#### Accounts receivable analytics
+##### [Accounts receivable analytics overview](receivables-reports.md)
 ##### [Aged Accounts Receivables Excel](reports/report-4402.md)
 ##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer List](reports/report-101.md)
@@ -553,10 +553,11 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+##### [Customer - Top 10 List (legacy)](reports/report-111.md)
+##### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
 ##### [Vendor - List (legacy)](reports/report-301.md)
 ##### [Vendor - Summary Aging (legacy)](reports/report-305.md)
 ##### [Aged Accounts Payable](reports/report-322.md)
-##### [Customer - Top 10 List (legacy)](reports/report-111.md)
 <!-- Financial analytics end -->
 
 ## Sales

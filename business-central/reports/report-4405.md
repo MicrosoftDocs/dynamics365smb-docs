@@ -19,14 +19,14 @@ ai.usage: ai-assisted
 
 The **Trial Balance Excel** report shows aggregated and summarized general ledger data for a trial balance with debit and credit columns for net change and balance.
 
-You get your trial balance shown both in local currency (LCY) and additional reporting currency (ACY). However, the report only shows data for the latter if you have setup the additional reporting currency feature.
+Your trial balance shows in both your local currency (LCY) and additional reporting currency (ACY). However, the report only shows data for the latter if you have setup the additional reporting currency feature.
 
 Data is aggregated for the period specified by the Datefilter parameter on the report's request page and summarized by the two global dimensions per G/L account category.
 
 The Excel workbook contains three worksheets that you can use to analyze your trial balance:
 
-- Trial Balance (LCY), 
-- Trial Balance (ACY), and
+- Trial Balance (LCY)
+- Trial Balance (ACY)
 - TrialBalanceData
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
@@ -37,7 +37,7 @@ The Excel workbook contains three worksheets that you can use to analyze your tr
 
 ## Trial Balance (LCY) worksheet
 
-This worksheet shows the trial balance with amounts in LCY. In the current version of the report, the accounts from the chart of account hierachy are not implemented as a hiercahy the report. This means that expanding/collapsing an account node in the report does not show data summarized to the node.
+This worksheet shows the trial balance with amounts in LCY. The accounts from the chart of account hierarchy don't display as a hierarchy in the report. You can't expand or collapse an account in the report to summarize its data.
 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 

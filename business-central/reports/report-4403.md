@@ -23,9 +23,9 @@ Data is aggregated and bucketed according to the **Aged as of** and **Period len
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts payable:
 
-- By period (LCY),
-- By Period (FCY),
-- Due by Currencies, and
+- By period (LCY)
+- By Period (FCY)
+- Due by Currencies
 - CustomerAgingData
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]

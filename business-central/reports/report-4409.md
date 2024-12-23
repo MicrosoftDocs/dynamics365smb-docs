@@ -17,13 +17,13 @@ ai.usage: ai-assisted
 
 # Customer - Top 10 List Excel (report)
 
-The **Customer - Top 10 List Excel** report shows summarized sales and balance data in local currency (LCY) for the top number of customers selected. 
+The **Customer - Top 10 List Excel** report shows summarized sales and balance data in local currency (LCY) for the top number of customers selected.
 
 Data is summarized for the period specified in the request page's Datefilter parameter.
 
 The report Excel workbook contains two worksheets that you can use to analyze your customers:
 
-- Top Customer List,
+- Top Customer List
 - TopCustomerData
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
@@ -34,7 +34,7 @@ The report Excel workbook contains two worksheets that you can use to analyze yo
 
 ## Top Customer List worksheet
 
-This worksheet shows current sales amounts and balance in local currency (LCY) by customer. 
+This worksheet shows current sales amounts and balance in LCY by customer.
 
 With filters and slicers, you can zoom in on a single customer or a group of customers.
 

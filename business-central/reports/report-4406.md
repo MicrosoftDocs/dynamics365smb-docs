@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Trial Balance/Budget Excel (report)
 
-The **Trial Balance/Budget Excel** report shows general ledger data subtotaled by general ledger account for net change, percent of budget net, net budget, balance, percent of budget balance and budget balance. Amounts are is shown in local currency (LCY).
+The **Trial Balance/Budget Excel** report shows general ledger data subtotaled by general ledger account for net change, percent of budget net, net budget, balance, percent of budget balance and budget balance. Amounts are in local currency (LCY).
 
 Data is aggregated for the period specified in the **Datefilter** parameter on the report's request page, and summarized by the two global dimensions per G/L account category.
- 
-The Excel workbook contains two worksheets that you can use to analyze your trial balance vs budget:
+
+The Excel workbook contains two worksheets that you can use to analyze your trial balance vs. budget:
 
 - Trial Balance vs. Budget,
 - TrialBalanceBudgetData
@@ -34,7 +34,7 @@ The Excel workbook contains two worksheets that you can use to analyze your tria
 
 ## Trial Balance vs. Budget worksheet
 
-This worksheet shows the trial balance vs. the budget with amounts in local currency (LCY).
+This worksheet shows the trial balance vs. the budget with amounts in LCY.
 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 

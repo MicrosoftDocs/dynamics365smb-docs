@@ -1,0 +1,2 @@
+> [!NOTE]
+> This report does the calculations when you view it in Excel online, or when you download and open it. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.

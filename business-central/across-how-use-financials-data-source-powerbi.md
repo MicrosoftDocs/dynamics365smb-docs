@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] and build powerful reports about the state of your business.
 
-This article describes how to start using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] or share them with all users in your organization. When the reports are in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
+This article describes how to start using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] or share them with all users in your organization. When the reports are in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], users with access can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Get ready
 
@@ -85,7 +85,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
         - **Web services \(legacy)**
 
-          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. It's discouraged to use this legacy method for reading data from [!INCLUDE [prod_short](includes/prod_short.md)]. Instead, we recommend that you use APIs.
+          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. Using this legacy method to read data from [!INCLUDE [prod_short](includes/prod_short.md)] is discouraged. We suggest using APIs instead.
 
     <!--
     > [!NOTE]
@@ -97,7 +97,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 Once the data is loaded, you can see it in the right navigation on the page. At this point, you're connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data, and you can begin building your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report.  
 
 > [!TIP]
-> For more information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], see [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+> For more information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], go to [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
 ## Creating accessible reports
 
@@ -123,7 +123,7 @@ The theme file is available as a json file on Microsoft Power BI Community Theme
 
 ### Import the theme on a report
 
-After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more at [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more in [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## Publish reports
 

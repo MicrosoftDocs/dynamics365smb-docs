@@ -143,7 +143,13 @@ For more information, see these overviews for reports that are relevant for fina
 
 ## On-screen finance task pages
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you financial overviews and tasks to do.
+[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you financial overviews and tasks to do:
+
+- [Show general ledger entries and balances from the Chart of Accounts page](#show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page)
+- [View actual amounts compared to budgeted amounts for all accounts and for several periods](#view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods)
+- [Analyze data by dimensions](#analyze-data-by-dimensions)
+- [Analyzing cash flow](#analyzing-cash-flow)
+
 
 ### Show general ledger entries and balances from the Chart of Accounts page
 

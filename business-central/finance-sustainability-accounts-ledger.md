@@ -86,13 +86,16 @@ If you set the **Calculation Foundation** field, the following table explains ho
 | **Scope 3** | | | |
 | Purchased goods and services, and capital goods | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Cost (GL), and so on |
 | Upstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
-| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Tons of cargo |
+| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *)|
 | Downstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
-| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Tons of cargo |
+| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *)|
 | Waste generated in operations and end-of-life treatment of sold products | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Waste |
 | Business travel and employee commuting | Distance | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of the used company car, rental car, train, flight, and so on |
 | | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Hotel stays |
 | | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on |
+
+> [!IMPORTANT]
+> This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when using the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations, as emissions do not increase linearly with weight. A more accurate approach is to use the **Load Factor**, representing the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before finalizing calculations.   
 
 ## Account subcategories
 

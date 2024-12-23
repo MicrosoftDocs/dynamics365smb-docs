@@ -130,7 +130,6 @@ Built-in reports come in two flavors:
 
 For more information, see these overviews for reports that are relevant for finance.
 
-- [Built-in finance Excel reports](finance-analyze-excel.md)
 - [Built-in key finance reports](finance-reports.md)
 - [Built-in fixed assets reports](fa-reports.md)
 - [Built-in accounts receivable reports](receivables-reports.md)
@@ -198,7 +197,6 @@ To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
-[Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  
 [Built-in fixed assets reports](fa-reports.md)  
 [Built-in accounts receivable reports](receivables-reports.md)  

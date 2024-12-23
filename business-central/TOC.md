@@ -230,7 +230,8 @@ ms.service: dynamics-365-business-central
 ### [Finance overview](finance.md)
 
 <!-- Financial analytics start -->
-### [Financial analytics overview](bi.md)
+### Financial analytics 
+#### [Financial analytics overview](bi.md)
 #### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- #### [Financial KPIs](bi-finance-kpis.md) -->
 #### [Power BI finance app](finance-powerbi-app.md)

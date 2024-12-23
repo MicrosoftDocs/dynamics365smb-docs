@@ -34,9 +34,9 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
   - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
     Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
-  - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
+  - A username and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a username and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a username and web service access key to connect. The account might be your own user account, or your organization may have a specific account for this purpose.-->
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
@@ -64,7 +64,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
     - For [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prod_short](includes/prod_short.md)]. When done, select **Connect**.
 
-    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
+    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the username and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
     > After you connect to [!INCLUDE[prod_short](includes/prod_short.md)], you won't be prompted again to sign in. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
@@ -101,7 +101,7 @@ Once the data is loaded, you can see it in the right navigation on the page. At 
 
 ## Creating accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. To learn more, go to [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet the specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. To learn more, go to [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
 
 ## Creating reports to display data associated with a list in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -112,7 +112,7 @@ You can create reports that display in a FactBox on a [!INCLUDE [prod_short](inc
 Before building your report, we recommend that you download and import the [!INCLUDE [prod_short](includes/prod_short.md)] theme file. The theme file creates a color palette so you can build reports with the same color styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps, without requiring you to define custom colors for each visual.
 
 > [!NOTE]
-> This task is optional. You can always create your reports, and then download and apply the style template later.
+> This task is optional. You can always create your reports and then download and apply the style template later.
 
 ### Download the theme
 
@@ -213,7 +213,7 @@ When you connect to [!INCLUDE [prod_short](includes/prod_short.md)] online from 
 If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
 
 1. Make sure you're using the right credentials to access [!INCLUDE [prod_short](includes/prod_short.md)]. These credentials might not be the same credentials you use to access [!INCLUDE [powerbi-name](includes/powerbi-name.md)]. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
-2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you have to specify "PRODUCTION (fabrikam)" as environment name.
+2. If your environment is an embedded ISV environment, you need to specify the embedded ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embedded ISV named Fabrikam, you must specify "PRODUCTION (fabrikam)" as environment name.
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
 

@@ -175,7 +175,9 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
 
-In financial analysis, a dimension is data you add to a G/L entry as a kind of marker. This data is used to group G/L entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. You can use dimensions on entries in journals, documents, and budgets. For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
+In financial analysis, a dimension is data you add to a G/L entry as a kind of marker. This data is used to group G/L entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. You can use dimensions on entries in journals, documents, and budgets. 
+
+To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ### Analyzing cash flow
 

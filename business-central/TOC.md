@@ -1062,7 +1062,7 @@ ms.service: dynamics-365-business-central
 ### [Service management](service-service.md)
 ### Service management analytics
 #### [View service statistics](service-service-statistics.md)
-#### Service management analytics
+#### Service management reports
 ##### [Service management report overview](service-reports.md)
 ##### [Service Order](reports/report-5900.md)
 ##### [Service Item Line Labels](reports/report-5901.md)

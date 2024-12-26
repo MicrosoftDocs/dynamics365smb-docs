@@ -37,7 +37,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-## Get ready to use [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
+## Get ready to use Power BI
 
 There are a few tasks that must be done before you can start using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> The tasks depend on your role in your organization, and what you want to do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:
 

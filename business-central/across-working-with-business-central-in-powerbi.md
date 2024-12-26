@@ -22,7 +22,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
 For using [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, it must be enabled for Power BI integration. This task is typically done by an administrator. For more information about enabling Power BI integration with Business Central online, see [Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md).
 
-Some features are only available with Business Central online, not on-premises. For more information, see [Introduction to Business Central and Power BI](admin-powerbi.md#what-you-can-do-with-power-bi-and-business-central)
+Some features are only available with Business Central online, not on-premises. For more information, see [Introduction to Business Central and Power BI](admin-powerbi.md#get-ready-to-use-powerbi)
 
 ## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 

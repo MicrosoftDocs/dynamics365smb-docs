@@ -23,10 +23,10 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 |Feature|Description|Online|On-premises|Learn more|
 |-------|-----------|--------------|-----------|----------------|
+| [!INCLUDE[prod_short](includes/prod_short.md)] apps in [!INCLUDE[powerbi-name](includes/powerbi-name.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] publishes many different apps for [!INCLUDE[powerbi-name](includes/powerbi-name.md)] on Microsoft AppSource. These apps create detailed reports and dashboards in your [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] for viewing [!INCLUDE[prod_short](includes/prod_short.md)] data. |![Works online.](media/check.png)||[Available [!INCLUDE[powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE[prod_short](includes/prod_short.md)]](across-powerbi-apps-by-functional-area.md) |
 |View [!INCLUDE[prod_short](includes/prod_short.md)] data in [!INCLUDE[powerbi-name](includes/powerbi-name.md)]|You can view your data from [!INCLUDE[prod_short](includes/prod_short.md)] in reports in [!INCLUDE[powerbi-name](includes/powerbi-name.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online includes some predefined [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports. Or, your organization might have some custom reports.|![Works online.](media/check.png)|![Works on-premises](media/check.png)|[Here...](across-working-with-powerbi.md)|
 |View [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports in the [!INCLUDE[prod_short](includes/prod_short.md)] client.| [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that display [!INCLUDE[prod_short](includes/prod_short.md)] data can be embedded directly in parts [!INCLUDE[prod_short](includes/prod_short.md)] pages. You can switch the part to display any report that is made available to you. |![works online.](media/check.png)|![Works on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Here...](across-working-with-powerbi.md).|
 |Create reports and dashboards in [!INCLUDE[powerbi-name](includes/powerbi-name.md)] that display [!INCLUDE[prod_short](includes/prod_short.md)] data.|Use [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create your own reports and dashboards. You can publish the reports to your own [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or share them with others within your organization.|![Works online.](media/check.png)|![works on-premises](media/check.png)|[Here...](across-how-use-financials-data-source-powerbi.md)|
-|[!INCLUDE[prod_short](includes/prod_short.md)] apps in [!INCLUDE[powerbi-name](includes/powerbi-name.md)]| [!INCLUDE[prod_short](includes/prod_short.md)] publishes three apps for [!INCLUDE[powerbi-name](includes/powerbi-name.md)] on Microsoft AppSource. These apps create detailed reports and dashboards in your [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] for viewing [!INCLUDE[prod_short](includes/prod_short.md)] data. Available apps include: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 |Work with [!INCLUDE [prod_short](includes/prod_short.md)] data in datamarts and dataflows|Starting in July 2022, you can use the [!INCLUDE [prod_short](includes/prod_short.md)] connector in Power Query Online to dataflows that you share across different reports and dashboards.|![works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
@@ -54,15 +54,22 @@ There are a few tasks that must be done before you can start using [!INCLUDE[pow
 - If you're an admin who needs to set up [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md).
 - If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the features, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md).
 
-## See also
 
-[Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   
-[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Data Source](across-how-use-financials-data-source-powerbi.md)  
+## Learn more about [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
+
+The following articles can help you get familiar with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
+
 [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)  
 [What is [!INCLUDE[powerbi-name](includes/powerbi-name.md)]?](/power-bi/fundamentals/power-bi-overview)  
 [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)  
 [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
 [Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
+
+
+## See also
+
+[Available [!INCLUDE[powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE[prod_short](includes/prod_short.md)]](across-powerbi-apps-by-functional-area.md)  
+[Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)     
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

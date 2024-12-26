@@ -23,7 +23,7 @@ It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md
 
 ## What you can do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] and Business Central
 
-There are various features for working with [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[powerbi-name](includes/powerbi-name.md)]. Some things you can do from [!INCLUDE[powerbi-name](includes/powerbi-name.md)], while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
+[!INCLUDE[prod_short](includes/prod_short.md)] includes multiple [!INCLUDE[powerbi-name](includes/powerbi-name.md)] features. Some things you can do from [!INCLUDE[powerbi-name](includes/powerbi-name.md)], while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
 
 |Feature|Description|Online|On-premises|Learn more|
 |-------|-----------|--------------|-----------|----------------|

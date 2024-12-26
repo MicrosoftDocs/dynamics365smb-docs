@@ -67,16 +67,16 @@ There are a few tasks that must be done before you can start using [!INCLUDE[pow
 
 The following articles can help you get familiar with using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in general
 
-[What is [!INCLUDE[powerbi-name](includes/powerbi-name.md)]?](/power-bi/fundamentals/power-bi-overview)  
-[[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)  
-[Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   
+- [What is [!INCLUDE[powerbi-name](includes/powerbi-name.md)]?](/power-bi/fundamentals/power-bi-overview)  
+- [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)  
+- [Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   
 
 
 The following articles can help you get familiar with creating [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports
 
-[Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)  
-[Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
-[Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
+- [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)  
+- [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
+- [Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 ## See also

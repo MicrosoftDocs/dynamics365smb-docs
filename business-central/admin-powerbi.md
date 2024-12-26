@@ -46,8 +46,8 @@ There are a few tasks that must be done before you can start using [!INCLUDE[pow
 - As an *administrator*, you're responsible for the management of the organization-wide settings that control how Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)] work.
 - As a *report creator*, you want to build custom [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that you can share with other users.
 
-|Task &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | User |Administrator|Report creator|More information|
-|-----------------|:----:|:-----------:|:------------:|----------------|
+| To...  | User |Administrator|Report creator| Learn more... |
+|--------|:----:|:-----------:|:------------:|---------------|
 |Get a [!INCLUDE[powerbi-name](includes/powerbi-name.md)] account.|![yet another checkmark.](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. <br /><br/>Sign-up requires that you have a license, but in most cases you should already have a free license. To learn more, go to [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] Licensing](admin-powerbi-setup.md#license). |
 | Use built-in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | ![it's a checkmark](media/check.png) | | | Get started here: [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md) |
 | Enable [!INCLUDE [powerbi-name](includes/powerbi-name.md)] integration for [!INCLUDE [prod_short](includes/prod_short.md)] | | ![it's a checkmark](media/check.png) | | [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md) |
@@ -59,16 +59,21 @@ There are a few tasks that must be done before you can start using [!INCLUDE[pow
 
 ## Next steps
 
-- If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the features, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md). Or go to [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md) to setup your own scorecards.
+- If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the reports, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md). Or go to [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md) to setup your own scorecards.
 - If you're an admin who needs to set up [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md).
 
 
 ## Learn more about [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
 
-The following articles can help you get familiar with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
+The following articles can help you get familiar with using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in general
 
-[[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)  
 [What is [!INCLUDE[powerbi-name](includes/powerbi-name.md)]?](/power-bi/fundamentals/power-bi-overview)  
+[[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)  
+[Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   
+
+
+The following articles can help you get familiar with creating [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports
+
 [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)  
 [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
 [Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  

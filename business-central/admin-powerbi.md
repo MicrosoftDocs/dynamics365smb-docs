@@ -1,6 +1,6 @@
 ---
-title: Introduction to Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
-description: Get an overview of using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] to get insights and KPIs from your Business Central data.
+title: Introduction to Business Central and Power BI
+description: Get an overview of using Power BI to get insights and KPIs from your Business Central data.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
@@ -11,7 +11,8 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Introduction to Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
+
+# Introduction to Business Central and Power BI
 
 It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with [[!INCLUDE[powerbi-name](includes/powerbi-name.md)]](https://powerbi.microsoft.com) - a data visualization system from Microsoft. [!INCLUDE[powerbi-name](includes/powerbi-name.md)] retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data so that you can build dashboards and reports based on that data. [!INCLUDE[powerbi-name](includes/powerbi-name.md)] provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customize the visualization, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the [!INCLUDE[powerbi-name](includes/powerbi-name.md)] web site.
 

@@ -46,7 +46,7 @@ There are a few tasks that must be done before you can start using [!INCLUDE[pow
 - As an *administrator*, you're responsible for the management of the organization-wide settings that control how Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)] work.
 - As a *report creator*, you want to build custom [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that you can share with other users.
 
-|Task| User |Administrator|Report creator|More information|
+|Task &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| User |Administrator|Report creator|More information|
 |-----------------|:----:|:-----------:|:------------:|----------------|
 |Get a [!INCLUDE[powerbi-name](includes/powerbi-name.md)] account.|![yet another checkmark.](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. <br /><br/>Sign-up requires that you have a license, but in most cases you should already have a free license. To learn more, go to [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] Licensing](admin-powerbi-setup.md#license). |
 | Use built-in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | ![it's a checkmark](media/check.png) | | | Get started here: [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md) |

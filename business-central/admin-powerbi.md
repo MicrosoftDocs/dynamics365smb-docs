@@ -41,11 +41,11 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 There are a few tasks that must be done before you can start using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> The tasks depend on your role in your organization, and what you want to do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:
 
-- As a *business user*, you want to view [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports, either in the [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or in Business Central
+- As a *user*, you want to view [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports, either in the [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or in Business Central
 - As an *administrator*, you're responsible for the management of the organization-wide settings that control how Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)] work.
 - As a *report creator*, you want to build custom [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that you can share with other users.
 
-|Task|Business user|Administrator|Report creator|More information|
+|Task|User|Administrator|Report creator|More information|
 |----|-------------|-------------|-----------------------|----------------|
 |Get a [!INCLUDE[powerbi-name](includes/powerbi-name.md)] account.|![yet another checkmark.](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. <br /><br/>Sign-up requires that you have a license, but in most cases you should already have a free license, For more information, see [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] Licensing](admin-powerbi-setup.md#license). |
 | Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | | ![it's a checkmark](media/check.png) | | [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md) |

@@ -15,7 +15,11 @@ ms.service: dynamics-365-business-central
 
 It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with [[!INCLUDE[powerbi-name](includes/powerbi-name.md)]](https://powerbi.microsoft.com) - a data visualization system from Microsoft. [!INCLUDE[powerbi-name](includes/powerbi-name.md)] retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data so that you can build dashboards and reports based on that data. [!INCLUDE[powerbi-name](includes/powerbi-name.md)] provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customize the visualization, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the [!INCLUDE[powerbi-name](includes/powerbi-name.md)] web site.
 
+:::image type="content" source="media/finance/financial-overview.png" alt-text="Screenshot of the Finance Overview report" lightbox="media/finance/financial-overview.png":::
+
+<!--  
 ![[!INCLUDE[powerbi-name](includes/powerbi-name.md)] and Business Central.](media/power-bi-intro.png)
+ -->
 
 ## What you can do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] and Business Central
 

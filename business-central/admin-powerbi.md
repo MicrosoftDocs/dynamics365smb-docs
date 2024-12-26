@@ -41,7 +41,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 There are a few tasks that must be done before you can start using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> The tasks depend on your role in your organization, and what you want to do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:
 
-- As a *user*, you want to view [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports, either in the [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or in Business Central
+- As a *user*, you want to view [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports, either in the [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or in Business Central.
 - As an *administrator*, you're responsible for the management of the organization-wide settings that control how Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)] work.
 - As a *report creator*, you want to build custom [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that you can share with other users.
 
@@ -58,7 +58,7 @@ There are a few tasks that must be done before you can start using [!INCLUDE[pow
 ## Next steps
 
 - If you're an admin who needs to set up [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md).
-- If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the features, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md).
+- If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the features, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md). Or go to [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md) to setup your own scorecards.
 
 
 ## Learn more about [!INCLUDE[powerbi-name](includes/powerbi-name.md)]

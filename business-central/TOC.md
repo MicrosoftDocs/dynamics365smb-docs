@@ -2262,7 +2262,7 @@ ms.service: dynamics-365-business-central
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
 ### Power BI and Business Central
-#### [Business Central and Power BI overview](admin-powerbi.md)
+#### [Power BI overview](admin-powerbi.md)
 #### [Work with Power BI reports](across-working-with-powerbi.md)
 #### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
 #### Power BI apps for Business Central

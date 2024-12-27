@@ -844,6 +844,7 @@ ms.service: dynamics-365-business-central
 ##### [Maintenance - Analysis](reports/report-5630.md)
 ##### [Maintenance - Details](reports/report-5634.md)
 ##### [Maintenance - Next Service](reports/report-5635.md)
+#### Legacy reports (will be removed)
 <!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)

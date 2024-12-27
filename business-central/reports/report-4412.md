@@ -47,7 +47,7 @@ This worksheet shows fixed asset details in the given time periods, such as book
 
 The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code, project one or more currency codes, if needed.
 
-:::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet":::
+:::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet":::
 
 ## VendorAgingData worksheet
 

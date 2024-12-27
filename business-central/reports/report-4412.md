@@ -49,7 +49,7 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet" lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
 
-## VendorAgingData worksheet
+## FixedAssetData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 

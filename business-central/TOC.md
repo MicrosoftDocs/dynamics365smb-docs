@@ -827,7 +827,6 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset List](reports/report-5601.md)
 ##### [Fixed Asset Journal - Test](reports/report-5602.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
-##### [Fixed Asset Details](reports/report-5604.md)
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
 ##### [Fixed Asset Projected Value](reports/report-5607.md)
@@ -845,8 +844,10 @@ ms.service: dynamics-365-business-central
 ##### [Maintenance - Details](reports/report-5634.md)
 ##### [Maintenance - Next Service](reports/report-5635.md)
 #### Legacy reports (will be removed)
-<!-- Fixed assets analytics end -->
 ##### [Fixed Asset Analysis (legacy)](reports/report-5600.md)
+##### [Fixed Asset Details (legacy)](reports/report-5604.md)
+
+<!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)

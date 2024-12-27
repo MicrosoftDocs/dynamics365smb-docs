@@ -1,0 +1,82 @@
+---
+title: Fixed Asset Details (Excel report)
+description: 
+author: kennieNP
+ms.author: kepontop
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: reporting
+ms.search.form: Report_4411_Primary
+ms.date: 12/27/2024
+ms.service: dynamics-365-business-central
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 12/27/2024
+ai.usage: ai-assisted
+---
+
+# Fixed Asset Details Excel (report)
+
+The **Fixed Asset Details Excel** report shows fixed assets ledger entries for one or more fixed assets for a given depreciation book.
+
+You can choose to include reversed entries and/or inactive fixed assets.
+
+The report Excel workbook contains three worksheets that you can use to analyze your aged accounts payable:
+
+- Fixed Asset Details, and
+- FixedAssetData
+
+[!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
+
+[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
+
+[!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
+
+## Fixed Asset Details worksheet
+
+This worksheet shows fixed assets ledger entries sorted by fixed asset No. You can see data for asset description, posting date, FA posting category, FA posting type, document type, document number, description,	amount, number of depreciation days, user ID (who did it), G/L entry number, and entry number.
+
+The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code or project code, if needed.
+
+:::image type="content" source="../media/excel-Fixed-Asset-Details-Fixed-Asset-Details.png" alt-text="Screenshot of the Fixed Asset Details worksheet" lightbox="../media/excel-Fixed-Asset-Details-Fixed-Asset-Details.png":::
+
+## FixedAssetData worksheet
+
+This worksheet shows the raw data used in the report. 
+
+[!INCLUDE [excel-reports-data-worksheet-use-it-for](../includes/excel-reports-data-worksheet-use-it-for.md)]
+
+:::image type="content" source="../media/excel-Fixed-Asset-Details-FixedAssetData.png" alt-text="Screenshot of the FixedAssetData worksheet" lightbox="../media/excel-Fixed-Asset-Details-FixedAssetData.png":::
+
+[!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Use cases
+
+[!INCLUDE [report-4411-scenario](../includes/report-4411-scenario-include.md)]
+
+## Try the report
+
+Try the report here: [Fixed Asset Details Excel](https://businesscentral.dynamics.com?report=4411)
+
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Alternative reports
+
+There are several other ways to analyze your fixed assets. To learn more, go to:
+
+- [Fixed Asset Details (legacy report)](report-5604.md)
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+
+## Related information
+
+[Ad-hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  
+[Fixed assets analytics overview](../fa-analytics-overview.md)  
+[Financial analytics overview](../bi.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,10 +9,6 @@ ms.search.keywords: reporting
 ms.search.form: Report_5604_Primary
 ms.date: 10/23/2024
 ms.service: dynamics-365-business-central
-ms.custom:
- - ai-gen-docs-bap
- - ai-seo-date: 10/23/2024
-ai.usage: ai-assisted
 ---
 
 # Fixed Asset Details (report)

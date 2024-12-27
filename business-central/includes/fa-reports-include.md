@@ -11,7 +11,7 @@ The following table describes some of the key reports in fixed asset management.
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
-| [!INCLUDE[report-4412-scenario](../includes/report-4412-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=4412) | [About *Fixed Asset Analysis Excel*](../reports/report-4412.md) | 4412 |
+| [!INCLUDE[report-4412-scenario](../includes/report-4412-scenario-include.md)] | [Fixed Asset Analysis Excel](https://businesscentral.dynamics.com?report=4412) | [About *Fixed Asset Analysis Excel*](../reports/report-4412.md) | 4412 |
 | [!INCLUDE[report-5601-scenario](../includes/report-5601-scenario-include.md)] | [Fixed Asset List](https://businesscentral.dynamics.com?report=5601) | [About *Fixed Asset List*](../reports/report-5601.md) | 5601 |
 | [!INCLUDE[report-5602-scenario](../includes/report-5602-scenario-include.md)] | [Fixed Asset Journal - Test](https://businesscentral.dynamics.com?report=5602) | [About *Fixed Asset Journal - Test*](../reports/report-5602.md) | 5602 |
 | [!INCLUDE[report-5603-scenario](../includes/report-5603-scenario-include.md)] | [Fixed Asset Register](https://businesscentral.dynamics.com?report=5603) | [About *Fixed Asset Register*](../reports/report-5603.md) | 5603 |
@@ -23,7 +23,7 @@ The following table describes some of the key reports in fixed asset management.
 | [!INCLUDE[report-5610-scenario](../includes/report-5610-scenario-include.md)] | [Fixed Asset G/L Analysis](https://businesscentral.dynamics.com?report=5610) | [About *Fixed Asset G/L Analysis*](../reports/report-5610.md) | 5610 |
 | [!INCLUDE[report-5611-scenario](../includes/report-5611-scenario-include.md)] | [FA Posting Group - Net Change Report](https://businesscentral.dynamics.com?report=5611) | [About *FA Posting Group - Net Change Report*](../reports/report-5611.md) | 5611 |
 | [!INCLUDE[report-5636-scenario](../includes/report-5636-scenario-include.md)] | [Fixed Asset Document Nos.](https://businesscentral.dynamics.com?report=5636) | [About *Fixed Asset Document Nos.*](../reports/report-5636.md) | 5636 |
-| [!INCLUDE[report-5600-scenario](../includes/report-5600-scenario-include.md)] | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset Analysis (legacy)*](../reports/report-5600.md) | 5600 |
+| This is a legacy report for fixed assets. See report documentation for alternatives. | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset Analysis (legacy)*](../reports/report-5600.md) | 5600 |
 
 
 <!-- remove after 2025-01-01

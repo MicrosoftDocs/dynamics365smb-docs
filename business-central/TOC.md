@@ -825,12 +825,12 @@ ms.service: dynamics-365-business-central
 ##### [Fixed assets report overview](fa-reports.md)
 ##### [Fixed Asset Analysis Excel](reports/report-4412.md)
 ##### [Fixed Asset Details Excel](reports/report-4411.md)
+##### [Fixed Asset Projected Value Excel](reports/report-4413.md)
 ##### [Fixed Asset List](reports/report-5601.md)
 ##### [Fixed Asset Journal - Test](reports/report-5602.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
-##### [Fixed Asset Projected Value](reports/report-5607.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
 ##### [Fixed Asset Document Nos.](reports/report-5636.md)
@@ -847,7 +847,7 @@ ms.service: dynamics-365-business-central
 #### Legacy reports (will be removed)
 ##### [Fixed Asset Analysis (legacy)](reports/report-5600.md)
 ##### [Fixed Asset Details (legacy)](reports/report-5604.md)
-
+##### [Fixed Asset Projected Value (legacy)](reports/report-5607.md)
 <!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)

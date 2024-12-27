@@ -1,6 +1,6 @@
 ---
 title: Fixed Asset Details (Excel report)
-description: 
+description: Get details about fixed assets transactions and reference data that can help you manage your fixed assets.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

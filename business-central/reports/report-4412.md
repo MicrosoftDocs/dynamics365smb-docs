@@ -21,7 +21,7 @@ The **Fixed Asset Analysis Excel** report shows different fixed asset details in
 
 You can specify the starting and ending dates for the report, and whether you want to include only sold assets or include inactive fixed assets.
 
-The report Excel workbook contains three worksheets that you can use to analyze your aged accounts payable:
+The report Excel workbook contains three worksheets that you can use to analyze your fixed assets data:
 
 - Fixed Asset Analysis,
 - Book Value, and

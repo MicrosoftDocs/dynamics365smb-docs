@@ -25,54 +25,6 @@ You can choose to include reversed entries in the report.
 
 [!INCLUDE[report-5604-scenario](../includes/report-5604-scenario-include.md)]
 
-<!-- 
-
-Prompt
-
-Below is a report in an ERP system. Provide 3-4 use cases for different personas working with fixed asset management or finance for fixed assets.
-
-Format like this:    
-  
-As a <persona>, use the report to    
-* use case 1  
-* use case 2    
-
-Do not capitalize the persona names. 
-
-Do not start lines with "Use the data to"
-
-## Report name
-Fixed Asset Details
-
-## Report description
-The Fixed Asset Details report provides a comprehensive overview of all relevant information pertaining to each fixed asset owned by an organization. This report serves as a detailed transaction information and reference tool for asset management.
-
-### What the report does
-The Fixed Asset Details report shows the fixed asset ledger entries for fixed assets. It provides detailed information about each fixed asset, including acquisition cost, depreciation, and book value.
-
-
-Please include your data sources and URLs
-
--->
-
-Fixed asset managers use the report to:
-
-* Track the current status of fixed assets and their location in an organization.
-* Plan for the future replacement or upgrade of fixed assets based on their age and condition.
-* Calculate the depreciation of fixed assets and ensure that it complies with accounting standards.
-
-Facilities managers use the report to:
-
-* Track the maintenance history and service records for each fixed asset.
-* Identify any upcoming maintenance or service needs for fixed assets and plan accordingly.
-* Monitor the condition of fixed assets and identify opportunities for repair or replacement.
-
-Financial analysts use the report to:
-
-* Analyze the value of fixed assets over time and identify trends or patterns.
-* Calculate the return on investment for fixed assets and assess their overall contribution to the organization's financial performance.
-* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
-
 ## Try the report
 
 Try the report here: [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604)

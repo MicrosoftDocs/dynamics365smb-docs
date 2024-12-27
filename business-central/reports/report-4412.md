@@ -35,11 +35,11 @@ The report Excel workbook contains three worksheets that you can use to analyze 
 
 ## Fixed Asset Analysis worksheet
 
-This worksheet shows details on your fixed assets, such as fixed assets class, sub class, sescription, acquisition date, disposal date, and their value at the starting date and ending date of the specified period.
+This worksheet shows details on your fixed assets, such as fixed assets class, sub class, description, acquisition date, disposal date, and their value at the starting date and ending date of the specified period.
 
 The filters and slicers on the worksheet let you zoom in on a , or location. You can also filter by department code, project one or more currency codes, if needed.
 
-:::image type="content" source="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet":::
+:::image type="content" source="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet" lightbox="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png":::
 
 ## Book Value worksheet
 
@@ -47,13 +47,13 @@ This worksheet shows fixed asset details in the given time periods, such as book
 
 The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code, project one or more currency codes, if needed.
 
-:::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet":::
+:::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet" lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
 
 ## VendorAgingData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
-:::image type="content" source="../media/excel-fixed-assets-analysis-FixedAssetData.png" alt-text="Screenshot of the FixedAssetData worksheet":::
+:::image type="content" source="../media/excel-fixed-assets-analysis-FixedAssetData.png" alt-text="Screenshot of the FixedAssetData worksheet" lightbox="../media/excel-fixed-assets-analysis-FixedAssetData.png":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 

@@ -37,15 +37,15 @@ The report Excel workbook contains three worksheets that you can use to analyze 
 
 This worksheet shows details on your fixed assets, such as fixed assets class, sub class, description, acquisition date, disposal date, and their value at the starting date and ending date of the specified period.
 
-The filters and slicers on the worksheet let you zoom in on a , or location. You can also filter by department code or project code, if needed.
+The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code or project code, if needed.
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet" lightbox="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png":::
 
 ## Book Value worksheet
 
-This worksheet shows fixed asset details in the given time periods, such as book value, depreciation, and acquisitions. 
+This worksheet shows fixed asset details in the given time periods, such as book value, depreciations, and acquisitions. 
 
-The filters and slicers on the worksheet let you zoom in on a , or location. You can also filter by department code or project code, if needed.
+The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code or project code, if needed.
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet" lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
 

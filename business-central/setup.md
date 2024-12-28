@@ -89,7 +89,7 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 
 ## Set up apps
 
-On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some aps that are listed in [the **Extension Management** page](https://businesscentral.dynamics.com/?page=2500). Starting in October 2022, each app provides a link to launch its setup page - just choose the **Set up** action.  
+On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some aps that are listed in [the **Extension Management** page](https://businesscentral.dynamics.com/?page=2500). Each app provides a link to launch its setup page - just choose the **Set up** action.  
 
 You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding AppSource apps. Learn more at [Customizing Business Central Online Using Extensions](ui-extensions.md).  
 

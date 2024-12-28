@@ -23,6 +23,8 @@ Some areas described below require you to be an administrator in your [!INCLUDE[
 
 From the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, you can access assisted setup guides to help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more about how to access all assisted and manual setup pages at [Getting Ready to Do Business](ui-get-ready-business.md).
 
+:::image type="content" source="media/assisted-setup.png" alt-text="Screenshot of the assisted setup page" lightbox="media/assisted-setup.png":::
+
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 

@@ -18,8 +18,8 @@ In case you prefer to use business intelligence tools that are not embedded in [
 | --- | --- |
 |Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 |Analyze data with your own Power BI resource| [Using Power BI with Business Central](admin-powerbi.md) |
-|Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/devenv-extract-data) (opens in the Developer documentation)|
-|Read Business Central data using APIs.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0) (opens in the Developer documentation) |
+|Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/developer/devenv-extract-data) <br>(opens in the Developer documentation)|
+|Read Business Central data using APIs.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0) <br>(opens in the Developer documentation) |
 
 ## See Also
 

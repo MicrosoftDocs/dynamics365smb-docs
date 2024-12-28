@@ -7,7 +7,6 @@ ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -19,13 +18,12 @@ In case you prefer to use business intelligence tools that are not embedded in [
 | --- | --- |
 |Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 |Analyze data with your own Power BI resource| [Using Power BI with Business Central](admin-powerbi.md) |
-|Analyze financial statements with Excel| [Analyze Financial Statements with Excel](finance-analyze-excel.md) |
-|Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
-|Read Business Central data using the API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
+|Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer?toc=/dynamics365/business-central/toc.json#efficient-extracts-to-data-lakes-or-data-warehouses)|
+|Read Business Central data using APIs.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0?toc=/dynamics365/business-central/toc.json) |
 
 ## See Also
 
-[Business Intelligence and Reporting Overview](reports-use-reports.md)
+[Analytics overview](reports-bi-reporting.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

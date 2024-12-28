@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analyze Data in Business Intelligence Tools
+# Analyze data in Business Intelligence tools
 
 In case you prefer to use business intelligence tools that are not embedded in [!INCLUDE[prod_short](includes/prod_short.md)], this page provided guidance on tools and methods to achieve this.
 

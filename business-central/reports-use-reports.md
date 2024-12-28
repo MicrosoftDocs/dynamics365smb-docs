@@ -26,6 +26,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Run a report with the same options and filters using saved settings on the request page. | [Managing saved report settings](reports-saving-reusing-settings.md)|
 | Learn how to change the default layout for a report. | [Set the layout used by a report](ui-set-report-layout.md) |
 | View and analyze data from a report dataset in Microsoft Excel. | [Save report dataset to Excel from the request page](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
+| Learn how to change the default layout for a report (legacy method, will be removed in a later release). | [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md) |
 
 
 ## Alternatives to reports

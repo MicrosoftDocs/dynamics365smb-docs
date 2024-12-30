@@ -228,7 +228,110 @@ ms.service: dynamics-365-business-central
 
 ## Finance
 ### [Finance overview](finance.md)
-### [Financial analytics](bi.md)
+
+<!-- Financial analytics start -->
+### Financial analytics 
+#### [Financial analytics overview](bi.md)
+#### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
+<!-- #### [Financial KPIs](bi-finance-kpis.md) -->
+#### [Power BI finance app](finance-powerbi-app.md)
+##### [Financial Overview](finance-powerbi-financial-overview.md)
+##### [Income Statement](finance-powerbi-income-statement.md)
+##### [Balance Sheet](finance-powerbi-balance-sheet.md)
+##### [Budget Comparison](finance-powerbi-budget-comparison.md)
+##### [Liquidity KPIs](finance-powerbi-liquidity.md)
+##### [Profitability](finance-powerbi-profitability.md)
+##### [Liabilities](finance-powerbi-liabilities.md)
+##### [EBITDA](finance-powerbi-ebitda.md)
+##### [Average Collection Period](finance-powerbi-average-collection-period.md)
+##### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
+##### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+##### [Finance KPI overview](finance-powerbi-kpis.md) 
+##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
+
+
+<!-- 
+##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
+##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
+##### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
+-->
+
+#### Financial reporting (Implementing financial statements and KPIs)
+##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
+##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [Organize report data using account categories](bi-account-categories.md)
+##### [Design your own financial reports](bi-design-financial-reports.md)
+##### [Row definitions in financial reporting](bi-row-definitions.md)
+##### [Column definitions in financial reporting](bi-column-definitions.md)
+##### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
+##### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+##### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+##### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
+##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
+##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+
+#### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
+
+#### Built-in finance analysis tools
+##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
+##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
+##### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+##### [Analyze your payment practices](ui-payment-practices.md)
+
+#### Built-in finance reports
+##### Key finance reports
+###### [Key finance report overview](finance-reports.md)
+###### [Detail Trial Balance](reports/report-4.md) 
+###### [Trial Balance Excel](reports/report-4405.md)
+###### [Trial Balance (legacy)](reports/report-6.md) 
+###### [Trial Balance/Previous Year](reports/report-7.md) 
+###### [Trial Balance/Budget Excel](reports/report-4406.md)
+###### [Trial Balance/Budget (legacy)](reports/report-9.md)
+###### [Closing Trial Balance](reports/report-10.md)
+###### [Financial Report](reports/report-25.md)
+###### [Dimensions - Total](reports/report-27.md)
+###### [Dimensions - Detail](reports/report-28.md)
+###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
+###### [Trial Balance by Period](reports/report-38.md)
+
+##### [Built-in fixed assets reports](fa-reports.md)
+
+##### Accounts payable analytics
+###### [Accounts payable analytics overview](payables-reports.md)
+###### [Aged Accounts Payable Excel](reports/report-4403.md)
+###### [Vendor - Top 10 List Excel](reports/report-4404.md)
+###### [Vendor - Detail Trial Balance](reports/report-304.md)
+###### [Vendor - Order Summary](reports/report-307.md)
+###### [Vendor - Order Detail](reports/report-308.md)
+###### [Purchase statistics](reports/report-312.md)
+###### [Vendor/Item Purchases](reports/report-313.md)
+###### [Vendor Pre-Payment Journal](reports/report-317.md)
+###### [Vendor - Balance to Date](reports/report-321.md)
+###### [Vendor - Trial Balance](reports/report-329.md) 
+
+##### Accounts receivable analytics
+###### [Accounts receivable analytics overview](receivables-reports.md)
+###### [Aged Accounts Receivables Excel](reports/report-4402.md)
+###### [Customer Top List Excel](reports/report-4409.md)
+###### [Customer List](reports/report-101.md)
+###### [Customer - Detail Trial Balance](reports/report-104.md)
+###### [Customer - Order Summary](reports/report-107.md)
+###### [Customer - Order Detail](reports/report-108.md)
+###### [Sales Statistics](reports/report-112.md)
+###### [Customer/Item Sales](reports/report-113.md)
+###### [Customer - Balance to Date](reports/report-121.md)
+###### [Customer - Detail Trial Bal.](reports/report-129.md)
+###### [Customer - Payment Receipt](reports/report-211.md)  
+###### [Customer Statement](reports/report-1316.md)
+
+##### Legacy reports (will be removed)
+###### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+###### [Customer - Top 10 List (legacy)](reports/report-111.md)
+###### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
+###### [Vendor - List (legacy)](reports/report-301.md)
+###### [Vendor - Summary Aging (legacy)](reports/report-305.md)
+###### [Aged Accounts Payable](reports/report-322.md)
+<!-- Financial analytics end -->
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
@@ -456,109 +559,6 @@ ms.service: dynamics-365-business-central
 #### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
 #### [Extend service commitments](UBB/masterdata/service-commitments.md)
 
-## Financial analytics 
-<!-- Financial analytics start -->
-### [Financial analytics overview](bi.md)
-### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
-<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
-### [Power BI finance app](finance-powerbi-app.md)
-#### [Financial Overview](finance-powerbi-financial-overview.md)
-#### [Income Statement](finance-powerbi-income-statement.md)
-#### [Balance Sheet](finance-powerbi-balance-sheet.md)
-#### [Budget Comparison](finance-powerbi-budget-comparison.md)
-#### [Liquidity KPIs](finance-powerbi-liquidity.md)
-#### [Profitability](finance-powerbi-profitability.md)
-#### [Liabilities](finance-powerbi-liabilities.md)
-#### [EBITDA](finance-powerbi-ebitda.md)
-#### [Average Collection Period](finance-powerbi-average-collection-period.md)
-#### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
-#### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
-#### [Finance KPI overview](finance-powerbi-kpis.md) 
-#### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
-
-
-<!-- 
-#### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
-#### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
-#### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
--->
-
-### Financial reporting (Implementing financial statements and KPIs)
-#### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
-#### [Prepare financial reporting](bi-how-work-account-schedule.md)
-#### [Organize report data using account categories](bi-account-categories.md)
-#### [Design your own financial reports](bi-design-financial-reports.md)
-#### [Row definitions in financial reporting](bi-row-definitions.md)
-#### [Column definitions in financial reporting](bi-column-definitions.md)
-#### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
-#### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-#### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-#### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
-#### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
-#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-
-### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
-
-### Built-in finance analysis tools
-#### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
-#### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-#### [Analyze Cash Flow](finance-analyze-cash-flow.md)
-#### [Analyze your payment practices](ui-payment-practices.md)
-
-### Built-in finance reports
-#### Key finance reports
-##### [Key finance report overview](finance-reports.md)
-##### [Detail Trial Balance](reports/report-4.md) 
-##### [Trial Balance Excel](reports/report-4405.md)
-##### [Trial Balance (legacy)](reports/report-6.md) 
-##### [Trial Balance/Previous Year](reports/report-7.md) 
-##### [Trial Balance/Budget Excel](reports/report-4406.md)
-##### [Trial Balance/Budget (legacy)](reports/report-9.md)
-##### [Closing Trial Balance](reports/report-10.md)
-##### [Financial Report](reports/report-25.md)
-##### [Dimensions - Total](reports/report-27.md)
-##### [Dimensions - Detail](reports/report-28.md)
-##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
-##### [Trial Balance by Period](reports/report-38.md)
-
-#### [Built-in fixed assets reports](fa-reports.md)
-
-#### Accounts payable analytics
-##### [Accounts payable analytics overview](payables-reports.md)
-##### [Aged Accounts Payable Excel](reports/report-4403.md)
-##### [Vendor - Top 10 List Excel](reports/report-4404.md)
-##### [Vendor - Detail Trial Balance](reports/report-304.md)
-##### [Vendor - Order Summary](reports/report-307.md)
-##### [Vendor - Order Detail](reports/report-308.md)
-##### [Purchase statistics](reports/report-312.md)
-##### [Vendor/Item Purchases](reports/report-313.md)
-##### [Vendor Pre-Payment Journal](reports/report-317.md)
-##### [Vendor - Balance to Date](reports/report-321.md)
-##### [Vendor - Trial Balance](reports/report-329.md) 
-
-#### Accounts receivable analytics
-##### [Accounts receivable analytics overview](receivables-reports.md)
-##### [Aged Accounts Receivables Excel](reports/report-4402.md)
-##### [Customer Top List Excel](reports/report-4409.md)
-##### [Customer List](reports/report-101.md)
-##### [Customer - Detail Trial Balance](reports/report-104.md)
-##### [Customer - Order Summary](reports/report-107.md)
-##### [Customer - Order Detail](reports/report-108.md)
-##### [Sales Statistics](reports/report-112.md)
-##### [Customer/Item Sales](reports/report-113.md)
-##### [Customer - Balance to Date](reports/report-121.md)
-##### [Customer - Detail Trial Bal.](reports/report-129.md)
-##### [Customer - Payment Receipt](reports/report-211.md)  
-##### [Customer Statement](reports/report-1316.md)
-
-#### Legacy reports (will be removed)
-##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
-##### [Customer - Top 10 List (legacy)](reports/report-111.md)
-##### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
-##### [Vendor - List (legacy)](reports/report-301.md)
-##### [Vendor - Summary Aging (legacy)](reports/report-305.md)
-##### [Aged Accounts Payable](reports/report-322.md)
-<!-- Financial analytics end -->
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -823,14 +823,14 @@ ms.service: dynamics-365-business-central
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
-##### [Fixed Asset Analysis](reports/report-5600.md)
+##### [Fixed Asset Analysis Excel](reports/report-4412.md)
+##### [Fixed Asset Details Excel](reports/report-4411.md)
+##### [Fixed Asset Projected Value Excel](reports/report-4413.md)
 ##### [Fixed Asset List](reports/report-5601.md)
 ##### [Fixed Asset Journal - Test](reports/report-5602.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
-##### [Fixed Asset Details](reports/report-5604.md)
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
-##### [Fixed Asset Projected Value](reports/report-5607.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
 ##### [Fixed Asset Document Nos.](reports/report-5636.md)
@@ -844,6 +844,10 @@ ms.service: dynamics-365-business-central
 ##### [Maintenance - Analysis](reports/report-5630.md)
 ##### [Maintenance - Details](reports/report-5634.md)
 ##### [Maintenance - Next Service](reports/report-5635.md)
+#### Legacy reports (will be removed)
+##### [Fixed Asset Analysis (legacy)](reports/report-5600.md)
+##### [Fixed Asset Details (legacy)](reports/report-5604.md)
+##### [Fixed Asset Projected Value (legacy)](reports/report-5607.md)
 <!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)
@@ -1955,9 +1959,12 @@ ms.service: dynamics-365-business-central
 ##### [Print troubleshoot reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit regulatory alerts](submit-regulatory-alerts.md)
 
-<!--setup-->
+<!--setup start -->
 ## Set up Business Central
 ### [Overview of tasks](setup.md)
+### [Set up Company information](admin-company-information.md)
+### [Create number series](ui-create-number-series.md)
+### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up finance
 #### [Set up finance](finance-setup-finance.md)
 #### [Set up payment methods](finance-payment-methods.md)
@@ -2102,6 +2109,8 @@ ms.service: dynamics-365-business-central
 ##### [Setup best practices: Global planning setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup best practices: Reordering policies](setup-best-practices-reordering-policies.md)
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
+### [Get Business Central on your mobile device](install-mobile-app.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2126,6 +2135,7 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set up connections
+<!--TODO: add overview page -->
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
 ##### [Overview](admin-outlook.md)
@@ -2167,20 +2177,17 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
-#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
-### [Company information](admin-company-information.md)
-### [Create number series](ui-create-number-series.md)
-### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)
 #### [Email printers](admin-printer-setup-email.md)
 #### [Specify a default printer](ui-specify-printer-selection-reports.md)
+### Import data
+#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
+#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 ### [Set up online maps](across-online-maps-setup.md)
-### [Get Business Central on your mobile device](install-mobile-app.md)
-### [Get Business Central on your desktop](install-desktop-app.md)
+<!-- Setup end -->
 
 <!-- Design details start -->
 ## Design details

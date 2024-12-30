@@ -1,6 +1,6 @@
 ---
 title: Use reports in your daily work
-description: Provides a overview of all the reporting features that are supported in the Business Central product.
+description: Provides an overview of the reporting features in Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -16,8 +16,8 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 
 | To | Go to |
 | --- | --- |
-| Get an overview of available built-in reports using the Report Explorer | [Finding reports with the Report Explorer](ui-role-explorer.md#open-the-role-explorer-filtered-to-show-reports) |
-| Get an overview of available built-in reports | [Report overview](reports-available-reports.md) |
+| Get an overview of available built-in reports using the Report Explorer. | [Finding reports with the Report Explorer](ui-role-explorer.md#open-the-role-explorer-filtered-to-show-reports) |
+| Get an overview of available built-in reports. | [Report overview](reports-available-reports.md) |
 | Learn how to run a standard report using the request page. | [Run and print Reports](ui-work-report.md) |
 | Quickly find your favorite reports using bookmarks in your Role Center. | [Bookmarking a report](ui-bookmarks.md) |
 | Learn how to specify default printers for different reports. | [Set up default printers](ui-specify-printer-selection-reports.md#default) |
@@ -26,7 +26,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Run a report with the same options and filters using saved settings on the request page. | [Managing saved report settings](reports-saving-reusing-settings.md)|
 | Learn how to change the default layout for a report. | [Set the layout used by a report](ui-set-report-layout.md) |
 | View and analyze data from a report dataset in Microsoft Excel. | [Save report dataset to Excel from the request page](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
-| Learn how to change the default layout for a report (legacy method, will be removed in a later release). | [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md) |
+| Learn how to change the default layout for a report. We'll remove this legacy method in a future release. | [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md) |
 
 ## Alternatives to reports
 

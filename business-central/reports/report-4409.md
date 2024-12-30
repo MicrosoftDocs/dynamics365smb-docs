@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Customer - Top 10 List Excel (report)
 
-The **Customer - Top 10 List Excel** report shows shows summarized sales and balance data in local currency (LCY) for the number of customers and for the period specified in the request page's *Quantity* and *Datefilter* parameters. Note: *Quantity* is the number of "top" customers to rank.
+The **Customer - Top 10 List Excel** report shows shows summarized sales and balance data in local currency (LCY) for the number of customers and for the period specified in the request page's **Quantity** and **Datefilter** parameters. The Quantity parameter is the number of "top" customers to rank.
 
 The report Excel workbook contains two worksheets that you can use to analyze your customers:
 

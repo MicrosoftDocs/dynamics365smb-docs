@@ -18,6 +18,9 @@ Form 1096 is used to transmit paper tax forms to the Internal Revenue Service (I
 > [!NOTE]
 > 1096 Form reporting supports only the IRS codes supported for 1099 Form reporting in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If you add manually other IRS codes to the 1096 Form lines, those codes will not be printed on the report.
 
+> [!IMPORTANT]
+> The IRS 1096 feature is compatible only with the [old 1099 functionality](set-up-use-irs1099-form.md), which allowed submission using manually printed 1099 forms. The [new IRS 1099 feature](set-up-use-irs1099-form-v24.md) supports only electronic submissions and does not support manually printed forms, so the 1096 form is not required and this feature is not compatible with the new IRS 1099 feature.   
+
 ## Enable the extension
 
 Form 1096 is an extension. After you install the extension in your environment you must enable it, as described in the following steps.

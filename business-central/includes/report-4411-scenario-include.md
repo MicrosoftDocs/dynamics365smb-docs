@@ -1,0 +1,1 @@
+Get details about fixed assets transactions and reference data that can help you manage your fixed assets.

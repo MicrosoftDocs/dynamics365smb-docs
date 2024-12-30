@@ -2296,7 +2296,6 @@ ms.service: dynamics-365-business-central
 ### [Share and export reports with the report inbox](ui-work-report-inbox.md)
 ### [Manage saved report settings](reports-saving-reusing-settings.md)
 ### [Set the layout used by a report](ui-set-report-layout.md)
-### [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)

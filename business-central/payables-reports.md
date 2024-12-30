@@ -16,7 +16,9 @@ ms.service: dynamics-365-business-central
 
 ## Analyze accounts payable with Power BI
 
-The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] has multiple reports that are relevant in accounts payable
+The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] has multiple reports that are relevant in accounts payable.
+
+:::image type="content" source="media/finance/aged-payables-report.png" alt-text="Screenshot of the Aged Payables (Back Dating) report" lightbox="media/finance/aged-payables-report.png":::
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |

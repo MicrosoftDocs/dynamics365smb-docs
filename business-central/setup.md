@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of your organization. The [Business Central quick start](quick-start-business-central.md) articles help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. This article provides an overview of how you can configure [!INCLUDE [prod_short](includes/prod_short.md)] for your organization.
 
-For example, the chart of accounts is prefilled with posting accounts that are ready for use. You can, of course, change the chart of accounts to suit your needs. Learn more at [Finance](finance.md).
+For example, the chart of accounts is prefilled with posting accounts that are ready for use. You can change the chart of accounts to suit your needs. Learn more at [Finance](finance.md).
 
 Some of the tasks and tools that this article describes require that you're an administrator in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. Learn more at [Administration](admin-setup-and-administration.md).  
 
@@ -60,7 +60,7 @@ In addition to the assisted setup guides, you can manually set up specific busin
 | Set up your own and your vendors' bank accounts and enable services for importing and exporting bank files. |[Setting Up Banking](bank-setup-banking.md) |
 | Configure the rules and values that define your company's sales policies, register new customers, and set up how you communicate with customers. |[Setting Up Sales](sales-setup-sales.md) |
 | Configure the rules and values that define your company's purchasing policies, register new vendors, and prioritize your vendors for payment processing. |[Setting Up Purchasing](purchasing-setup-purchasing.md) |
-| Configure the rules and values that define the company's inventory policies, set up locations if you keep inventory in multiple warehouses, and categorize your items to improve searching and sorting. |[Setting Up Inventory](inventory-setup-inventory.md) |
+| Configure the rules and values that define your inventory policies. Set up locations if you keep inventory in multiple warehouses. Categorize your items to improve searches and sorting. |[Setting Up Inventory](inventory-setup-inventory.md) |
 | Set up resources, time sheets, and projects to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets and set up how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
@@ -68,13 +68,13 @@ In addition to the assisted setup guides, you can manually set up specific busin
 |Establish standard services, symptoms, and fault codes and set up the service items, resources, and documentation needed to provide service to your customers.|[Setting Up Service Management](service-setup-service.md)|
 |Read best practices for setting up items for inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
 
-## Use Outlook, Teams, Onedrive, Power BI, Power Automate, and Power Apps
+## Use Outlook, Teams, OneDrive, Power BI, Power Automate, and Power Apps
 
-You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience by connecting to other Microsoft products, such as: 
+You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience by connecting to other Microsoft products, such as:
 
 - Outlook
 - Teams
-- Onedrive
+- OneDrive
 - Power BI
 - Power Automate
 - Power Apps.
@@ -83,7 +83,7 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 | --- | --- |
 |Use Business Central Outlook add-ins to explore financial data related to customers and vendors, or create and send financial documents, such as quotes and invoices.|[Use Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
 |Use Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)] | [Business Central and Microsoft Teams](across-teams-overview.md) |
-|Use OneDrive for Business with [!INCLUDE [prod_short](includes/prod_short.md)] to store your files. | [Business Central and OneDrive](across-onedrive-overview.md) |
+|Use OneDrive with [!INCLUDE [prod_short](includes/prod_short.md)] to store your files. | [Business Central and OneDrive](across-onedrive-overview.md) |
 |Get insights into your [!INCLUDE [prod_short](includes/prod_short.md)] data with Power BI and the [!INCLUDE [prod_short](includes/prod_short.md)] content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
 |Use your [!INCLUDE [prod_short](includes/prod_short.md)] data as part of a workflow in Power Automate.|[Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
 |Make your [!INCLUDE [prod_short](includes/prod_short.md)] data available as a data source in Power Apps.|[Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)|

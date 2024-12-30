@@ -1,1 +1,5 @@
-Get an overview of your fixed asset, including book value, depreciation, and acquisitions for a given time period.
+Get an overview of your fixed assets for a given period of time, including: 
+
+- Book values
+- Depreciation
+- Acquisitions

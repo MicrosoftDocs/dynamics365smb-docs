@@ -17,13 +17,11 @@ ai.usage: ai-assisted
 
 # Fixed Asset Details Excel (report)
 
-The **Fixed Asset Details Excel** report shows fixed assets ledger entries for one or more fixed assets for a given depreciation book.
-
-You can choose to include reversed entries and/or inactive fixed assets.
+The **Fixed Asset Details Excel** report shows fixed assets ledger entries for one or more fixed assets for a given depreciation book. You can choose to include reversed entries and inactive fixed assets.
 
 The report Excel workbook contains two worksheets that you can use to analyze your fixed assets data:
 
-- Fixed Asset Details, and
+- Fixed Asset Details
 - FixedAssetData
 
 [!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
@@ -34,15 +32,15 @@ The report Excel workbook contains two worksheets that you can use to analyze yo
 
 ## Fixed Asset Details worksheet
 
-This worksheet shows fixed assets ledger entries sorted by fixed asset No. You can see data for asset description, posting date, FA posting category, FA posting type, document type, document number, description,	amount, number of depreciation days, user ID (who did it), G/L entry number, and entry number.
+This worksheet shows fixed assets ledger entries sorted by fixed asset numbers. It shows data for asset description, posting date, FA posting category, FA posting type, document type, document number, description, amount, number of depreciation days, user ID (who did it), G/L entry number, and entry number.
 
-The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code or project code, if needed.
+The filters and slicers on the worksheet let you zoom in on a fixed asset's class, subclass, or location. You can also filter by department code or project code, if needed.
 
 :::image type="content" source="../media/excel-Fixed-Asset-Details-Fixed-Asset-Details.png" alt-text="Screenshot of the Fixed Asset Details worksheet" lightbox="../media/excel-Fixed-Asset-Details-Fixed-Asset-Details.png":::
 
 ## FixedAssetData worksheet
 
-This worksheet shows the raw data used in the report. 
+This worksheet shows the raw data used in the report.
 
 [!INCLUDE [excel-reports-data-worksheet-use-it-for](../includes/excel-reports-data-worksheet-use-it-for.md)]
 
@@ -86,22 +84,21 @@ Please include your data sources and URLs
 
 Fixed asset managers use the report to:
 
-* Track the current status of fixed assets and their location in an organization.
-* Plan for the future replacement or upgrade of fixed assets based on their age and condition.
-* Calculate the depreciation of fixed assets and ensure that it complies with accounting standards.
+- Track the current status of fixed assets and their location in an organization.
+- Plan for the future replacement or upgrade of fixed assets based on their age and condition.
+- Calculate the depreciation of fixed assets and ensure that it complies with accounting standards.
 
 Facilities managers use the report to:
 
-* Track the maintenance history and service records for each fixed asset.
-* Identify any upcoming maintenance or service needs for fixed assets and plan accordingly.
-* Monitor the condition of fixed assets and identify opportunities for repair or replacement.
+- Track the maintenance history and service records for each fixed asset.
+- Identify any upcoming maintenance or service needs for fixed assets and plan accordingly.
+- Monitor the condition of fixed assets and identify opportunities for repair or replacement.
 
 Financial analysts use the report to:
 
-* Analyze the value of fixed assets over time and identify trends or patterns.
-* Calculate the return on investment for fixed assets and assess their overall contribution to the organization's financial performance.
-* Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
-
+- Analyze the value of fixed assets over time and identify trends or patterns.
+- Calculate the return on investment for fixed assets and assess their overall contribution to the organization's financial performance.
+- Identify discrepancies or errors in the fixed asset ledger entries and work with the accounting team to correct them.
 
 ## Try the report
 

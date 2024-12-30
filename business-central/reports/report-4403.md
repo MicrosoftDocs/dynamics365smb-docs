@@ -17,9 +17,7 @@ ai.usage: ai-assisted
 
 # Aged Accounts Payables Excel (report)
 
-The **Aged Accounts Payables Excel** report shows aggregated and summarized aging data based on vendor ledger entries.
-
-Data is aggregated and bucketed according to the **Aged as of** and **Period length** parameters in the report's request page. It is summarized by the two global dimensions.
+The **Aged Accounts Payables Excel** report uses vendor ledger entries to aggregate and bucket data according to the Aged as of and Period length parameters in the report's request page. Data is summarized by the two global dimensions.
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts payable:
 

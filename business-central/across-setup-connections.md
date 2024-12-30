@@ -26,7 +26,6 @@ The following table provides links to articles that describe how you can set up 
 | Integration to Power Automate | [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md) |
 | Integration to Power Apps | [Use Power Apps with Business Central data](across-how-use-financials-data-source-powerapps.md) |
 | Integration to [!INCLUDE [bookings-name](includes/bookings-name.md)] | [Use Microsoft bookings with Business Central](finance-bookings.md) |
-| Integration to cloud printers | [Set up printers in Business Central online](admin-printer-setup-overview.md) |
 
 ## More information
 
@@ -38,6 +37,5 @@ The following table provides links to articles that describe how you can set up 
 [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md)  
 [Use Power Apps with Business Central data](across-how-use-financials-data-source-powerapps.md)  
 [Use Microsoft bookings with Business Central](finance-bookings.md)  
-[Set up printers in Business Central online](admin-printer-setup-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Consolidated Trial Balance (Excel report)
-description: TODO
+description: Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the debit and credit net change and closing balance.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

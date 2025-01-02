@@ -18,12 +18,12 @@ ms.reviewer: jswymer
 | ------------ | --------- |
 | Integration to [!INCLUDE [excel-name](includes/excel-name.md)] | [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md) |
 | Integration to [!INCLUDE [outlook-name](includes/outlook-name.md)] | [Get the Business Central add-in for Outlook](admin-outlook.md) |
+| Integration to [!INCLUDE [word-name](includes/word-name.md)] | [Get the Business Central add-in for Word (administrator documentation)](/dynamics365/business-central/dev-itpro/developer/word-layout-add-in) |
 | Integration to [!INCLUDE [teams-name](includes/teams-name.md)] | [Get the Business Central app for Teams](across-install-app-for-teams.md) |
 | Integration to [!INCLUDE [onedrive-for-business-name](includes/onedrive-for-business-name.md)] | [OneDrive integration for Business Central](across-onedrive-overview.md) |
 | Integration to [!INCLUDE [powerbi-name](includes/powerbi-name.md)] | [Enable Power BI integration for Business Central](admin-powerbi-setup.md) |
 | Integration to Power Automate | [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md) |
 | Integration to Power Apps | [Use Power Apps with Business Central data](across-how-use-financials-data-source-powerapps.md) |
-| Integration to [!INCLUDE [bookings-name](includes/bookings-name.md)] | [Use Microsoft Bookings with Business Central](finance-bookings.md) |
 
 ## Related information
 

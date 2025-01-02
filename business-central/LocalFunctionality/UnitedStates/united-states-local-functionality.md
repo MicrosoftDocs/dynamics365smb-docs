@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 06/11/2024
+ms.date: 01/02/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -26,7 +26,7 @@ The following articles describe local functionality that is unique to the United
       * [IRS 1099 Forms Setup](set-up-use-irs1099-form-v24.md) **Available Now (24.0)**
       * [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now (24.0)**
       * [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now (24.0)**
-      * [Work with 1099 APIs](irs1099-api.md) **Available Now (25.2)**
+      * [Work with 1099 APIs](/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api) **Available Now (25.2)**
   * 1099 Features planned for deprecation from 27.0: 
      * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
      * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  

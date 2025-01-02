@@ -68,7 +68,7 @@ In addition to the assisted setup guides, you can manually set up specific busin
 |Establish standard services, symptoms, and fault codes and set up the service items, resources, and documentation needed to provide service to your customers.|[Setting Up Service Management](service-setup-service.md)|
 |Read best practices for setting up items for inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
 
-## Use Outlook, Teams, OneDrive, Power BI, Power Automate, and Power Apps
+## Connect to other Microsoft products
 
 You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience by connecting to other Microsoft products, such as:
 
@@ -77,7 +77,9 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 - OneDrive
 - Power BI
 - Power Automate
-- Power Apps.
+- Power Apps
+- Field Service
+- Sales
 
 | To | Go to |
 | --- | --- |
@@ -88,6 +90,8 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 |Use your [!INCLUDE [prod_short](includes/prod_short.md)] data as part of a workflow in Power Automate.|[Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
 |Make your [!INCLUDE [prod_short](includes/prod_short.md)] data available as a data source in Power Apps.|[Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Do bulk invoicing of appointments created in Microsoft Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
+|Create and manage work orders, track the progress of service tasks, assign resources, and capture consumption details.|[Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)|
+|View information in [!INCLUDE [prod_short](includes/prod_short.md)] while you're working in [!INCLUDE [crm_md](includes/crm_md.md)].|[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 
 ## Set up apps
 

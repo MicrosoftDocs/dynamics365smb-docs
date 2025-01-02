@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1096, irs
 ms.search.form: 10019, 10020, 10021
-ms.date: 02/09/2024
+ms.date: 01/02/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -16,10 +16,10 @@ ms.reviewer: bholtorf
 Form 1096 is used to transmit paper tax forms to the Internal Revenue Service (IRS) in the United States. This feature lets you run the Form 1096 report in [!INCLUDE[prod_short](../../includes/prod_short.md)] and send it to the IRS, if necessary. The feature is only related to already transmitted 1099 paper forms.
 
 > [!NOTE]
-> 1096 Form reporting supports only the IRS codes supported for 1099 Form reporting in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If you add manually other IRS codes to the 1096 Form lines, those codes will not be printed on the report.
+> 1096 Form reporting supports only the IRS codes that are supported for 1099 Form reporting in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If you add other IRS codes to the 1096 Form lines, those codes won't print on the report.
 
 > [!IMPORTANT]
-> The IRS 1096 feature is compatible only with the [old 1099 functionality](set-up-use-irs1099-form.md), which allowed submission using manually printed 1099 forms. The [new IRS 1099 feature](set-up-use-irs1099-form-v24.md) supports only electronic submissions and does not support manually printed forms, so the 1096 form is not required and this feature is not compatible with the new IRS 1099 feature.   
+> The IRS 1096 feature is compatible only with the [legacy 1099 functionality](set-up-use-irs1099-form.md), which lets you submit printed 1099 forms. The [new IRS 1099 feature](set-up-use-irs1099-form-v24.md) supports only electronic submissions, and not printed forms, so the 1096 form isn't required and this feature isn't compatible with the IRS 1099 feature.
 
 ## Enable the extension
 

@@ -1,1 +1,1 @@
-Onedrive for Business
+OneDrive

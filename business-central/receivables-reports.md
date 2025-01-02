@@ -18,6 +18,8 @@ To help you manage accounts receivable, [!INCLUDE [prod_short](includes/prod_sho
 
 The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] has multiple reports for accounts receivable.
 
+:::image type="content" source="media/finance/average-collection-period-report.png" alt-text="Screenshot of the Average Collection Period report" lightbox="media/finance/average-collection-period-report.png":::
+
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |
 | [!INCLUDE [pbireport-average-collection-period-scenario-include](includes/pbireport-average-collection-period-scenario-include.md)]  | [Average Collection Period](https://businesscentral.dynamics.com?page=36992) | [About Average Collection Period](finance-powerbi-average-collection-period.md) |

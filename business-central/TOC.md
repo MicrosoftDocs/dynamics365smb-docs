@@ -2135,7 +2135,7 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set up connections
-<!--TODO: add overview page -->
+#### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
 ##### [Overview](admin-outlook.md)

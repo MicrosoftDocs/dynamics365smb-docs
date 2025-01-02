@@ -112,31 +112,6 @@ TODO: need a landing page for Power Platform integrations
 -->
 
 
-## IS THIS NEEDED??? Workflows and automation
-
-Use workflows and other automation to streamline your business processes. Workflows automate repetitive tasks, reducing the need for manual intervention and speeding up processes. In [!INCLUDE[prod_short](includes/prod_short.md)], you can create custom workflows tailored to your specific business needs and use other automation options such as Job Queue to maximize efficiency. 
-
-<!-- 
-| To... | Learn more here... |
-| ----- | ------------------ |
-|| []() |
-|| []() |
-|| []() |
- -->
-
-## IS THIS NEEDED??? Development and integration capabilities
-
-Customize and extend your [!INCLUDE[prod_short](includes/prod_short.md)] experience in the product with tools available. You can extend [!INCLUDE[prod_short](includes/prod_short.md)] with add-on apps, vertical or horizontal solutions, and integrate with other products and third-party services.
-
-<!-- 
-| To... | Learn more here... |
-| ----- | ------------------ |
-|| []() |
-|| []() |
-|| []() |
- -->
-
-
 ## Getting help inside [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you aren't sure where to find what you're looking for, you can **filter by titles** in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.  
@@ -161,25 +136,18 @@ If you prefer watching content rather than read it, then [visit our video librar
 
 ## More information
 
-TODO: clean this up
-
-[Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Explore Dynamics 365 Business Central capabilities](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 [Business Central quickstarts](quick-start-business-central.md)  
 [Getting Started with Business Central](ui-get-ready-business.md)  
 [Visit Our Video Library](across-videos.md)  
-[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
-[Use [!INCLUDE[prod_short](includes/prod_short.md)] as my Business Inbox in Outlook](admin-outlook.md)  
-[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
-[Work with Dimensions](finance-dimensions.md)  
+[Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Learn more using the product documentation](product-help-and-support.md#learn-more-using-the-product-documentation)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 [What's new and changed](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
-[Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
-[Explore Dynamics 365 Business Central capabilities](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

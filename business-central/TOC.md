@@ -288,6 +288,7 @@ ms.service: dynamics-365-business-central
 ###### [Trial Balance/Budget Excel](reports/report-4406.md)
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
 ###### [Closing Trial Balance](reports/report-10.md)
+###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)
@@ -2135,7 +2136,7 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set up connections
-<!--TODO: add overview page -->
+#### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
 ##### [Overview](admin-outlook.md)

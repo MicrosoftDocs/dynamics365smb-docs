@@ -29,11 +29,11 @@ Form 1096 is an extension. After you install the extension in your environment y
 2. Find **Feature: Enable using Form 1096 to transmit paper Tax Forms to the IRS in the United States** and in the **Enabled for** field, choose **All Users**.
 3. When you enable the feature, use the setup guide to set it up. The only information required is to specify the **IRS 1096 Form No. Series** to use. This number series is used to assign numbers for 1096 forms per certain period.
 
-If you didn’t use the setup guide to configure **IRS 1096 Form No. Series**, you can do so on the **Purchases & Payables Setup** page. Fill in the **IRS 1096 Form No. Series** field on the **Number Series** FastTab.
+If you didn't use the setup guide to configure **IRS 1096 Form No. Series**, you can do so on the **Purchases & Payables Setup** page. Fill in the **IRS 1096 Form No. Series** field on the **Number Series** FastTab.
 
 Complete the following steps to set up more required fields for reporting.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.   
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.
 2. To specify the EIN number to show on the report, on the **Communication** FastTab in the **EIN Number** field, enter the number you registered with IRS.  
 3. To specify who communicates with the IRS, in the **IRS Contact No.** field, select the employee responsible for this communication.  
 
@@ -49,11 +49,11 @@ Complete the following steps to set up more required fields for reporting.
 5. After you create the new forms, choose **OK**. A confirmation displays the message, **IRS 1096 forms have been created**.
 
 > [!NOTE]
-> The system automatically creates a 1096 form for each of the IRS codes posted in vendor ledger entries during the period you defined.
+> [!INCLUDE [prod_short](../../includes/prod_short.md)] automatically creates a 1096 form for each of the IRS codes posted in vendor ledger entries during the period you defined.
 
 You can open the forms to check their details make corrections if needed.
 
-The General FastTab contains the following information.
+The **General** FastTab contains the following information.
 
 - **Starting Date** - Specifies the starting date of the period specified for the form.
 - **Ending Date** - Specifies the ending date of the period specified for the form.
@@ -68,9 +68,9 @@ The General FastTab contains the following information.
 The lines contain the following information. Amounts are summarized per **Vendors** and **IRS Codes**.
 
 - **IRS Code** - Specifies the IRS code.
-- **Vendor no.** – Specifies the vendor number.
-- **Calculated Amount** – Specifies the amount per period and IRS code calculated by the **Create Forms** action. You can't change this value. You can check amounts in the **Vendor Ledger Entries** field for each record.
-- **Calculated Adjustment Amount** – Specifies the adjustment amount per period and IRS code calculated by the **Create Forms** action. You can check amounts in the **IRS 1099 Adjustments** field for each record.
+- **Vendor no.** - Specifies the vendor number.
+- **Calculated Amount** - Specifies the amount per period and IRS code calculated by the **Create Forms** action. You can't change this value. You can check amounts in the **Vendor Ledger Entries** field for each record.
+- **Calculated Adjustment Amount** - Specifies the adjustment amount per period and IRS code calculated by the **Create Forms** action. You can check amounts in the **IRS 1099 Adjustments** field for each record.
 - **Manually changed** - Specifies that the line was changed manually. This field is marked automatically if a record is changed manually.
 - **Amount** - Specifies the amount used for printing the form. This value matches the calculated amount minus the calculated adjustment amount after choosing the **Create Forms** action. You can change this value. If you change this amount manually, the **Manually changed** field is marked.
 
@@ -80,8 +80,8 @@ The lines contain the following information. Amounts are summarized per **Vendor
 2. Open the form you want to edit.
 3. If you want to update an amount:
 
-   * Locate the line you want to update and mark the **Amount** field.
-   * Enter the value you want to report. The **Manually changed** field is marked and the **Total Amount to Report** field on the header is updated.
+   - Locate the line you want to update and mark the **Amount** field.
+   - Enter the value you want to report. The **Manually changed** field is marked and the **Total Amount to Report** field on the header is updated.
 
 4. If you want to add a new record, enter a new line, and fill in values you need for reporting in the **IRS Code**, **Vendor no.**, and **Amount** fields. The **Total Amount to Report** field on the header are updated.
 5. In both of situations, when you make a change in the **1096 Form**, [!INCLUDE [prod_short](../../includes/prod_short.md)] automatically fills in the following fields on the **History** FastTab:
@@ -104,8 +104,7 @@ The lines contain the following information. Amounts are summarized per **Vendor
 
 ## See also
 
-[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)   
+[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)  
 [United States Local Functionality](united-states-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

@@ -288,6 +288,7 @@ ms.service: dynamics-365-business-central
 ###### [Trial Balance/Budget Excel](reports/report-4406.md)
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
 ###### [Closing Trial Balance](reports/report-10.md)
+###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)
@@ -1959,9 +1960,12 @@ ms.service: dynamics-365-business-central
 ##### [Print troubleshoot reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit regulatory alerts](submit-regulatory-alerts.md)
 
-<!--setup-->
+<!--setup start -->
 ## Set up Business Central
 ### [Overview of tasks](setup.md)
+### [Set up Company information](admin-company-information.md)
+### [Create number series](ui-create-number-series.md)
+### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up finance
 #### [Set up finance](finance-setup-finance.md)
 #### [Set up payment methods](finance-payment-methods.md)
@@ -2106,6 +2110,8 @@ ms.service: dynamics-365-business-central
 ##### [Setup best practices: Global planning setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup best practices: Reordering policies](setup-best-practices-reordering-policies.md)
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
+### [Get Business Central on your mobile device](install-mobile-app.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2130,6 +2136,7 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set up connections
+#### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
 ##### [Overview](admin-outlook.md)
@@ -2171,20 +2178,17 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
-#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
-### [Company information](admin-company-information.md)
-### [Create number series](ui-create-number-series.md)
-### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)
 #### [Email printers](admin-printer-setup-email.md)
 #### [Specify a default printer](ui-specify-printer-selection-reports.md)
+### Import data
+#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
+#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 ### [Set up online maps](across-online-maps-setup.md)
-### [Get Business Central on your mobile device](install-mobile-app.md)
-### [Get Business Central on your desktop](install-desktop-app.md)
+<!-- Setup end -->
 
 <!-- Design details start -->
 ## Design details
@@ -2293,7 +2297,6 @@ ms.service: dynamics-365-business-central
 ### [Share and export reports with the report inbox](ui-work-report-inbox.md)
 ### [Manage saved report settings](reports-saving-reusing-settings.md)
 ### [Set the layout used by a report](ui-set-report-layout.md)
-### [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 06/11/2024
+ms.date: 01/02/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -20,15 +20,17 @@ The following articles describe local functionality that is unique to the United
 * Tax
   * [Basic Tax Setup](us-tax-setup.md) **Available Now**
   * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**
+  * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**  
+  * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**  
   * [IRS 1099 Forms Overview](introduction-to-the-irs-forms.md) **Available Now (24.0)**
       * [IRS 1099 Forms Setup](set-up-use-irs1099-form-v24.md) **Available Now (24.0)**
       * [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now (24.0)**
       * [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now (24.0)**
-  * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
-  * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  
+      * [Work with 1099 APIs](/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api) **Available Now (25.2)**
+  * 1099 Features planned for deprecation from 27.0: 
+     * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
+     * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  
   * [Set Up and Use the IRS 1096 Form](set-up-use-irs1096-form.md) **Available Now**
-  * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**  
-  * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**  
 
 * Banking & Payments
   * [Create Deposits](how-to-create-deposits.md) **Available Now**  

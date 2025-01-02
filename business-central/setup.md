@@ -84,7 +84,7 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 
 | To | Go to |
 | --- | --- |
-|Use Business Central Outlook add-ins to explore financial data related to customers and vendors, or create and send financial documents, such as quotes and invoices.|[Use Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
+|Use Business Central Outlook add-ins to explore financial data related to customers and vendors, or create and send financial documents, such as quotes and invoices.|[Use Business Central as Your Business Inbox in [!INCLUDE [outlook-name-short](includes/outlook-name-short.md)]](admin-outlook.md)|
 |Use Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)] | [Business Central and Microsoft Teams](across-teams-overview.md) |
 |Use [!INCLUDE [word-name](includes/word-name.md)] with [!INCLUDE [prod_short](includes/prod_short.md)] | [Work with Word layouts](ui-how-add-fields-word-report-layout.md) |
 |Use OneDrive with [!INCLUDE [prod_short](includes/prod_short.md)] to store your files. | [Business Central and OneDrive](across-onedrive-overview.md) |

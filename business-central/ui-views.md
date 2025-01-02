@@ -12,7 +12,7 @@ ms.reviewer: bholtorf
 ---
 # Save and personalize list views
 
-When you set a filter on a list and you want to keep the filter for later, you can save it as a view. To learn more about filtering lists, go to [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
+When you set a filter on a list and you want to keep the filter for later, you can save it as a view. To learn more about filtering lists, go to [Set filters on lists](ui-enter-criteria-filters.md#set-filters-on-lists).
 
 If views exist, the **Views** group appears at the top of the filter pane. Views are variations of the list that is preconfigured with filters. You can define and save as many views as you want per list. The views will be available the next time you open the list, from any device or browser.
 
@@ -22,7 +22,7 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 
 1. Open any list page.
 2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or select <kbd>Shift</kbd>+<kbd>F3</kbd>.
-3. Set one or more new filters. To learn more, go to [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
+3. Set one or more new filters. To learn more, go to [Set filters on lists](ui-enter-criteria-filters.md#set-filters-on-lists).
 4. When you set  the filters, choose the ![Save View.](media/save_view_icon.png "Save View") icon.
 
     If you set a filter for a list view that was already saved as a view, the existing view updates when you save.

@@ -50,71 +50,6 @@ ms.service: dynamics-365-business-central
 ##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
 ##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
 
-### Design details
-#### [Application design details overview](design-details-application-design.md)
-#### Design details: Inventory costing
-##### [Inventory costing design details](design-details-inventory-costing.md)
-##### [Design details: Costing methods](design-details-costing-methods.md)  
-##### [Design details: Change the costing method for items](design-details-changing-costing-methods.md)
-##### [Design details: Item application](design-details-item-application.md)  
-##### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-##### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
-##### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  
-##### [Design details: Average cost](design-details-average-cost.md)  
-##### [Design details: Variance](design-details-variance.md)  
-##### [Design details: Rounding](design-details-rounding.md)  
-##### [Design details: Cost components](design-details-cost-components.md)  
-##### [Design details: Inventory periods](design-details-inventory-periods.md)  
-##### [Design details: Inventory posting](design-details-inventory-posting.md)  
-##### [Design details: Production order posting](design-details-production-order-posting.md)  
-##### [Design details: Assembly order posting](design-details-assembly-order-posting.md)  
-##### [Design details: Reconciliation with the general ledger](design-details-reconciliation-with-the-general-ledger.md)  
-##### [Design details: Accounts in the general ledger](design-details-accounts-in-the-general-ledger.md)
-##### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
-##### [Design details: Revaluation](design-details-revaluation.md)
-#### Design details: Posting date on adjustment value entry
-##### [Posting date on adjustment value entry overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Design details: Dimension set entries
-##### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)
-##### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)
-##### [Design details: Table structure](design-details-table-structure.md)
-#### Design details: Supply planning
-##### [Supply planning design details](design-details-supply-planning.md)
-##### [Design details: Central concepts of the planning system](design-details-central-concepts-of-the-planning-system.md)  
-##### [Design details: Reservation, order tracking, and action messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Design details: Balancing demand and supply](design-details-balancing-demand-and-supply.md)  
-##### [Design details: Handling reordering policies](design-details-handling-reordering-policies.md)  
-##### [Design details: Planning parameters](design-details-planning-parameters.md)  
-##### [Design details: Planning assignment table](design-details-planning-assignment-table.md)  
-##### [Design details: Transfers in planning](design-details-transfers-in-planning.md)
-<!-- #### Design Details: Warehouse Management
-<!-- ##### [Warehouse Management Design Details](design-details-warehouse-management.md) -->
-<!-- ##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)   -->
-<!-- ##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md-->
-<!-- ##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   -->
-<!-- ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   -->
-#### [Design details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)  
-<!-- ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   -->
-<!-- ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md) -->
-#### Design details: Item tracking
-##### [Item tracking design details](design-details-item-tracking.md)
-##### [Design details: Item tracking design](design-details-item-tracking-design.md)  
-##### [Design details: Item tracking posting structure](design-details-item-tracking-posting-structure.md)  
-##### [Design details: Active versus historic item tracking entries](design-details-active-versus-historic-item-tracking-entries.md)  
-##### [Design details: Item Tracking Lines page](design-details-item-tracking-lines-window.md)  
-##### [Design details: Item tracking availability](design-details-item-tracking-availability.md)  
-##### [Design details: Item tracking and planning](design-details-item-tracking-and-planning.md)  
-##### [Design details: Item tracking and reservations](design-details-item-tracking-and-reservations.md)  
-##### [Design details: Item tracking in the warehouse](design-details-item-tracking-in-the-warehouse.md)
-#### Design details: General journal post line
-##### [General journal post line design details](design-details-general-journal-post-line.md)
-##### [General journal post line overview](design-details-general-journal-post-line-overview.md)  
-##### [Design details: Post interface structure](design-details-posting-interface-structure.md)  
-##### [Design details: Post engine structure](design-details-posting-engine-structure.md)  
-#### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
-#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
@@ -293,11 +228,115 @@ ms.service: dynamics-365-business-central
 
 ## Finance
 ### [Finance overview](finance.md)
-### [Financial analytics](bi.md)
+
+<!-- Financial analytics start -->
+### Financial analytics 
+#### [Financial analytics overview](bi.md)
+#### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
+<!-- #### [Financial KPIs](bi-finance-kpis.md) -->
+#### [Power BI finance app](finance-powerbi-app.md)
+##### [Financial Overview](finance-powerbi-financial-overview.md)
+##### [Income Statement](finance-powerbi-income-statement.md)
+##### [Balance Sheet](finance-powerbi-balance-sheet.md)
+##### [Budget Comparison](finance-powerbi-budget-comparison.md)
+##### [Liquidity KPIs](finance-powerbi-liquidity.md)
+##### [Profitability](finance-powerbi-profitability.md)
+##### [Liabilities](finance-powerbi-liabilities.md)
+##### [EBITDA](finance-powerbi-ebitda.md)
+##### [Average Collection Period](finance-powerbi-average-collection-period.md)
+##### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
+##### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
+##### [Finance KPI overview](finance-powerbi-kpis.md) 
+##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
+
+
+<!-- 
+##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
+##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
+##### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
+-->
+
+#### Financial reporting (Implementing financial statements and KPIs)
+##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
+##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [Organize report data using account categories](bi-account-categories.md)
+##### [Design your own financial reports](bi-design-financial-reports.md)
+##### [Row definitions in financial reporting](bi-row-definitions.md)
+##### [Column definitions in financial reporting](bi-column-definitions.md)
+##### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
+##### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+##### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+##### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
+##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
+##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+
+#### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
+
+#### Built-in finance analysis tools
+##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
+##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
+##### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+##### [Analyze your payment practices](ui-payment-practices.md)
+
+#### Built-in finance reports
+##### Key finance reports
+###### [Key finance report overview](finance-reports.md)
+###### [Detail Trial Balance](reports/report-4.md) 
+###### [Trial Balance Excel](reports/report-4405.md)
+###### [Trial Balance (legacy)](reports/report-6.md) 
+###### [Trial Balance/Previous Year](reports/report-7.md) 
+###### [Trial Balance/Budget Excel](reports/report-4406.md)
+###### [Trial Balance/Budget (legacy)](reports/report-9.md)
+###### [Closing Trial Balance](reports/report-10.md)
+###### [Consolidated Trial Balance Excel](reports/report-4410.md)
+###### [Financial Report](reports/report-25.md)
+###### [Dimensions - Total](reports/report-27.md)
+###### [Dimensions - Detail](reports/report-28.md)
+###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
+###### [Trial Balance by Period](reports/report-38.md)
+
+##### [Built-in fixed assets reports](fa-reports.md)
+
+##### Accounts payable analytics
+###### [Accounts payable analytics overview](payables-reports.md)
+###### [Aged Accounts Payable Excel](reports/report-4403.md)
+###### [Vendor - Top 10 List Excel](reports/report-4404.md)
+###### [Vendor - Detail Trial Balance](reports/report-304.md)
+###### [Vendor - Order Summary](reports/report-307.md)
+###### [Vendor - Order Detail](reports/report-308.md)
+###### [Purchase statistics](reports/report-312.md)
+###### [Vendor/Item Purchases](reports/report-313.md)
+###### [Vendor Pre-Payment Journal](reports/report-317.md)
+###### [Vendor - Balance to Date](reports/report-321.md)
+###### [Vendor - Trial Balance](reports/report-329.md) 
+
+##### Accounts receivable analytics
+###### [Accounts receivable analytics overview](receivables-reports.md)
+###### [Aged Accounts Receivables Excel](reports/report-4402.md)
+###### [Customer Top List Excel](reports/report-4409.md)
+###### [Customer List](reports/report-101.md)
+###### [Customer - Detail Trial Balance](reports/report-104.md)
+###### [Customer - Order Summary](reports/report-107.md)
+###### [Customer - Order Detail](reports/report-108.md)
+###### [Sales Statistics](reports/report-112.md)
+###### [Customer/Item Sales](reports/report-113.md)
+###### [Customer - Balance to Date](reports/report-121.md)
+###### [Customer - Detail Trial Bal.](reports/report-129.md)
+###### [Customer - Payment Receipt](reports/report-211.md)  
+###### [Customer Statement](reports/report-1316.md)
+
+##### Legacy reports (will be removed)
+###### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+###### [Customer - Top 10 List (legacy)](reports/report-111.md)
+###### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
+###### [Vendor - List (legacy)](reports/report-301.md)
+###### [Vendor - Summary Aging (legacy)](reports/report-305.md)
+###### [Aged Accounts Payable](reports/report-322.md)
+<!-- Financial analytics end -->
 
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
-#### [Accounts receivable reports and analytics](receivables-reports.md)
+#### [Accounts receivable analytics](receivables-reports.md)
 #### Apply payments automatically and reconcile bank accounts
 ##### [Payment application overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile payments use automatic application](receivables-how-reconcile-payments-auto-application.md)
@@ -319,7 +358,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)
-#### [Accounts payable reports and analytics](payables-reports.md)
+#### [Accounts payable analytics](payables-reports.md)
 #### Make payments
 ##### [Make payments](payables-make-payments.md)
 ##### [Work with general journals](ui-work-general-journals.md)
@@ -341,6 +380,7 @@ ms.service: dynamics-365-business-central
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
+#### [Handling vendor payment disputes](payables-how-handling-payment-disputes.md)
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
@@ -414,7 +454,7 @@ ms.service: dynamics-365-business-central
 #### [Close income statement accounts](year-close-income-statement.md)
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
 
-### Work with the chart of accounts and General Ledger (G/L)
+### Work with the chart of accounts and general ledger (G/L)
 #### [Understand the general ledger](finance-general-ledger.md)
 #### [Understand the chart of accounts](finance-chart-of-accounts.md)
 #### [Review accounts](finance-review-accounts.md)
@@ -433,7 +473,7 @@ ms.service: dynamics-365-business-central
 #### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
 #### [Import payroll transactions](finance-how-import-payroll-transactions.md)
 
-### Working with Currencies
+### Working with currencies
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
@@ -520,106 +560,6 @@ ms.service: dynamics-365-business-central
 #### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
 #### [Extend service commitments](UBB/masterdata/service-commitments.md)
 
-## Financial analytics 
-<!-- Financial analytics start -->
-### [Financial analytics overview](bi.md)
-### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
-<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
-### [Power BI finance app](finance-powerbi-app.md)
-#### [Financial Overview](finance-powerbi-financial-overview.md)
-#### [Income Statement](finance-powerbi-income-statement.md)
-#### [Balance Sheet](finance-powerbi-balance-sheet.md)
-#### [Budget Comparison](finance-powerbi-budget-comparison.md)
-#### [Liquidity KPIs](finance-powerbi-liquidity.md)
-#### [Profitability](finance-powerbi-profitability.md)
-#### [Liabilities](finance-powerbi-liabilities.md)
-#### [EBITDA](finance-powerbi-ebitda.md)
-#### [Average Collection Period](finance-powerbi-average-collection-period.md)
-#### [Aged Receivables (Back Dating)](finance-powerbi-aged-receivables-back-dating.md)
-#### [Aged Payables (Back Dating)](finance-powerbi-aged-payables-back-dating.md)
-#### [Finance KPI overview](finance-powerbi-kpis.md) 
-#### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
-
-
-<!-- 
-#### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
-#### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
-#### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
--->
-
-### Financial reporting (Implementing financial statements and KPIs)
-#### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
-#### [Prepare financial reporting](bi-how-work-account-schedule.md)
-#### [Organize report data using account categories](bi-account-categories.md)
-#### [Design your own financial reports](bi-design-financial-reports.md)
-#### [Row definitions in financial reporting](bi-row-definitions.md)
-#### [Column definitions in financial reporting](bi-column-definitions.md)
-#### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
-#### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-#### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-#### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
-#### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
-#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-
-### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
-
-### Built-in finance analysis tools
-#### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
-#### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-#### [Analyze Cash Flow](finance-analyze-cash-flow.md)
-#### [Analyze your payment practices](ui-payment-practices.md)
-
-### Built-in finance reports
-#### Key finance reports
-##### [Key finance report overview](finance-reports.md)
-##### [Detail Trial Balance](reports/report-4.md) 
-##### [Trial Balance](reports/report-6.md) 
-##### [Trial Balance/Previous Year](reports/report-7.md) 
-##### [Trial Balance/Budget](reports/report-9.md)
-##### [Closing Trial Balance](reports/report-10.md)
-##### [Financial Report](reports/report-25.md)
-##### [Dimensions - Total](reports/report-27.md)
-##### [Dimensions - Detail](reports/report-28.md)
-##### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
-##### [Trial Balance by Period](reports/report-38.md)
-#### [Built-in fixed assets reports](fa-reports.md)
-
-#### Accounts payable reports
-##### [Accounts payable report overview](payables-reports.md)
-##### [Vendor - List](reports/report-301.md)
-##### [Vendor - Detail Trial Balance](reports/report-304.md)
-##### [Vendor - Summary Aging](reports/report-305.md)
-##### [Vendor - Order Summary](reports/report-307.md)
-##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
-##### [Purchase statistics](reports/report-312.md)
-##### [Vendor/Item Purchases](reports/report-313.md)
-##### [Vendor Pre-Payment Journal](reports/report-317.md)
-##### [Payments on Hold](reports/report-319.md)
-##### [Vendor - Balance to Date](reports/report-321.md)
-##### [Aged Accounts Payable](reports/report-322.md)
-##### [Vendor - Trial Balance](reports/report-329.md) 
-
-#### Accounts receivable reports
-##### [Accounts receivable report overview](receivables-reports.md)
-##### [Customer List](reports/report-101.md)
-##### [Customer - Detail Trial Balance](reports/report-104.md)
-##### [Customer - Order Summary](reports/report-107.md)
-##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Summary Aging Simp.](reports/report-109.md)
-##### [Customer - Top 10 List](reports/report-111.md)
-##### [Sales Statistics](reports/report-112.md)
-##### [Customer/Item Sales](reports/report-113.md)
-##### [Aged Accounts Receivables](reports/report-120.md)
-##### [Customer - Balance to Date](reports/report-121.md)
-##### [Customer - Detail Trial Bal.](reports/report-129.md)
-##### [Customer - Payment Receipt](reports/report-211.md)  
-##### [Customer Statement](reports/report-1316.md)
-
-#### Legacy reports (will be removed)
-##### [Finance Excel reports (legacy)](finance-analyze-excel.md)
-
-<!-- Financial analytics end -->
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -645,10 +585,10 @@ ms.service: dynamics-365-business-central
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
+##### [Customer Top List Excel](reports/report-4409.md)
 ##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Customer - Top 10 list](reports/report-111.md)
 ##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
 ##### [Customer - Sales list](reports/report-119.md) 
@@ -658,10 +598,12 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
+#### Legacy reports (will be removed)
+##### [Customer - Top 10 list (legacy)](reports/report-111.md)
 <!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
-### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
@@ -690,7 +632,7 @@ ms.service: dynamics-365-business-central
 ### Purchasing analytics 
 <!-- Purchasing analytics start -->
 #### [Purchasing analytics overview](purchasing-analytics-overview.md)
-#### [Power BI Purchasing app](purchases-powerbi-app.md)
+#### [Power BI purchasing app](purchases-powerbi-app.md)
 ##### [Purchases Overview](purchases-powerbi-purchases-overview.md)
 ##### [Purchases Decomposition](purchases-powerbi-purchases-decomposition.md)
 ##### [Daily Purchases](purchases-powerbi-daily-purchases.md)  
@@ -709,21 +651,25 @@ ms.service: dynamics-365-business-central
 
 #### Built-in purchasing reports
 ##### [Purchasing report overview](purchase-reports.md)
-##### [Vendor - List](reports/report-301.md)
+##### [Aged Accounts Payable Excel](reports/report-4403.md)
+##### [Vendor - Top 10 List Excel](reports/report-4404.md)
 ##### [Vendor - Detail Trial Balance](reports/report-304.md)
 ##### [Vendor - Order Summary](reports/report-307.md)
 ##### [Vendor - Order Detail](reports/report-308.md)
-##### [Vendor - Top 10 List](reports/report-311.md)
 ##### [Purchase statistics](reports/report-312.md)
 ##### [Vendor/Item Purchases](reports/report-313.md)
-##### [Payments on Hold](reports/report-319.md)
 ##### [Vendor Item catalog](reports/report-320.md)
-##### [Aged Accounts Payable](reports/report-322.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Item/vendor catalog](reports/report-720.md)
+
+#### Legacy reports (will be removed)
+##### [Vendor - List (legacy)](reports/report-301.md)
+##### [Vendor - Top 10 List (legacy)](reports/report-311.md)
+##### [Payments on Hold (legacy)](reports/report-319.md)
+##### [Aged Accounts Payable (legacy)](reports/report-322.md)
 <!-- Purchasing analytics end -->
 
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -750,7 +696,7 @@ ms.service: dynamics-365-business-central
 <!-- Inventory analytics start -->
 #### [Inventory analytics overview](inventory-analytics-overview.md)
 
-#### [Power BI Inventory app](inventory-powerbi-app.md)
+#### [Power BI inventory app](inventory-powerbi-app.md)
 ##### [Inventory Overview](inventory-powerbi-inventory-overview.md)
 ##### [Inventory by Item](inventory-powerbi-inventory-by-item.md)
 ##### [Inventory by Location](inventory-powerbi-inventory-by-location.md)
@@ -764,7 +710,7 @@ ms.service: dynamics-365-business-central
 ##### [Bin Contents by Item Tracking](inventory-powerbi-bin-contents-by-item-tracking.md)
 ##### [Inventory KPIs](inventory-powerbi-kpis.md)
 
-#### [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
+#### [Power BI inventory valuation app](inventory-valuation-powerbi-app.md)
 ##### [Inventory Valuation Overview](inventory-valuation-powerbi-inventory-valuation-overview.md)
 ##### [Inventory Valuation by Item](inventory-valuation-powerbi-inventory-valuation-by-item.md)
 ##### [Inventory Valuation by Location](inventory-valuation-powerbi-inventory-valuation-by-location.md)
@@ -826,7 +772,7 @@ ms.service: dynamics-365-business-central
 <!-- Project management analytics start -->
 #### [Project management analytics overview](projects-analytics-overview.md)
 
-#### [Power BI Projects app](projects-powerbi-app.md)
+#### [Power BI projects app](projects-powerbi-app.md)
 ##### [Projects Overview](projects-powerbi-project-overview.md)
 ##### [Projects Tasks](projects-powerbi-project-tasks.md)
 ##### [Projects Profitability](projects-powerbi-project-profitability.md)
@@ -878,14 +824,14 @@ ms.service: dynamics-365-business-central
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### Fixed assets reports
 ##### [Fixed assets report overview](fa-reports.md)
-##### [Fixed Asset Analysis](reports/report-5600.md)
+##### [Fixed Asset Analysis Excel](reports/report-4412.md)
+##### [Fixed Asset Details Excel](reports/report-4411.md)
+##### [Fixed Asset Projected Value Excel](reports/report-4413.md)
 ##### [Fixed Asset List](reports/report-5601.md)
 ##### [Fixed Asset Journal - Test](reports/report-5602.md)
 ##### [Fixed Asset Register](reports/report-5603.md)
-##### [Fixed Asset Details](reports/report-5604.md)
 ##### [Fixed Asset Book Value 01](reports/report-5605.md)
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
-##### [Fixed Asset Projected Value](reports/report-5607.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
 ##### [Fixed Asset Document Nos.](reports/report-5636.md)
@@ -899,6 +845,10 @@ ms.service: dynamics-365-business-central
 ##### [Maintenance - Analysis](reports/report-5630.md)
 ##### [Maintenance - Details](reports/report-5634.md)
 ##### [Maintenance - Next Service](reports/report-5635.md)
+#### Legacy reports (will be removed)
+##### [Fixed Asset Analysis (legacy)](reports/report-5600.md)
+##### [Fixed Asset Details (legacy)](reports/report-5604.md)
+##### [Fixed Asset Projected Value (legacy)](reports/report-5607.md)
 <!-- Fixed assets analytics end -->
 
 ### [Set up fixed assets](fa-setup.md)
@@ -959,7 +909,7 @@ ms.service: dynamics-365-business-central
 #### [Track email message exchanges](marketing-set-up-email-logging.md)
 #### [Process sales opportunities](marketing-processing-sales-opportunities.md)
 ### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
-### [Use Dynamics 365 for sales from Business Central](marketing-integrate-dynamicscrm.md)
+### [Use Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 #### [Couple and synchronize records manually](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [View the status of a synchronization](admin-how-to-view-synchronization-status.md)
 
@@ -1014,7 +964,7 @@ ms.service: dynamics-365-business-central
 ### Manufacturing analytics
 <!-- Manufacturing analytics start -->
 #### [Manufacturing analytics overview](manufacturing-analytics-overview.md)
-#### [Power BI Manufacturing app](manufacturing-powerbi-app.md)
+#### [Power BI manufacturing app](manufacturing-powerbi-app.md)
 ##### [Current Utilization](manufacturing-powerbi-current-utilization.md) 
 ##### [Historical Utilization](manufacturing-powerbi-historical-utilization.md) 
 ##### [Work Center Load](manufacturing-powerbi-work-center-load.md) 
@@ -1041,8 +991,6 @@ ms.service: dynamics-365-business-central
 ##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
 ##### [Item BOM Compare list](reports/report-99000758.md)
-##### [Work Center List](reports/report-99000759.md) 
-##### [Machine Center List](reports/report-99000760.md) 
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
 ##### [Prod. Order - Calculation](reports/report-99000767.md)
@@ -1056,6 +1004,9 @@ ms.service: dynamics-365-business-central
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
 ##### [Production Order Statistics](reports/report-99000791.md)
+#### Legacy reports (will be removed)
+##### [Work Center List (legacy)](reports/report-99000759.md) 
+##### [Machine Center List (legacy)](reports/report-99000760.md) 
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)
@@ -1116,7 +1067,7 @@ ms.service: dynamics-365-business-central
 ### [Service management](service-service.md)
 ### Service management analytics
 #### [View service statistics](service-service-statistics.md)
-#### Service management analytics
+#### Service management reports
 ##### [Service management report overview](service-reports.md)
 ##### [Service Order](reports/report-5900.md)
 ##### [Service Item Line Labels](reports/report-5901.md)
@@ -1177,7 +1128,7 @@ ms.service: dynamics-365-business-central
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
 
 <!--Shopify-->
-## Online store with shopify
+## Online store with Shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1185,7 +1136,7 @@ ms.service: dynamics-365-business-central
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Automate Shopify synchronization using job queue](shopify/background.md)
+### [Automate Shopify synchronization using the job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -2009,9 +1960,12 @@ ms.service: dynamics-365-business-central
 ##### [Print troubleshoot reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit regulatory alerts](submit-regulatory-alerts.md)
 
-<!--setup-->
+<!--setup start -->
 ## Set up Business Central
 ### [Overview of tasks](setup.md)
+### [Set up Company information](admin-company-information.md)
+### [Create number series](ui-create-number-series.md)
+### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up finance
 #### [Set up finance](finance-setup-finance.md)
 #### [Set up payment methods](finance-payment-methods.md)
@@ -2156,6 +2110,8 @@ ms.service: dynamics-365-business-central
 ##### [Setup best practices: Global planning setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup best practices: Reordering policies](setup-best-practices-reordering-policies.md)
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
+### [Get Business Central on your mobile device](install-mobile-app.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2180,6 +2136,7 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set up connections
+#### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
 ##### [Overview](admin-outlook.md)
@@ -2221,20 +2178,88 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
-#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
-### [Company information](admin-company-information.md)
-### [Create number series](ui-create-number-series.md)
-### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)
 #### [Email printers](admin-printer-setup-email.md)
 #### [Specify a default printer](ui-specify-printer-selection-reports.md)
+### Import data
+#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
+#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 ### [Set up online maps](across-online-maps-setup.md)
-### [Get Business Central on your mobile device](install-mobile-app.md)
-### [Get Business Central on your desktop](install-desktop-app.md)
+<!-- Setup end -->
+
+<!-- Design details start -->
+## Design details
+### [Application design details overview](design-details-application-design.md)
+### Design details: Supply planning
+#### [Supply planning overview](design-details-supply-planning.md)
+#### [Design details: Central concepts of the planning system](design-details-central-concepts-of-the-planning-system.md)  
+#### [Design details: Reservation, order tracking, and action messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
+#### [Design details: Balance demand and supply](design-details-balancing-demand-and-supply.md)  
+#### [Design details: Handle reorder policies](design-details-handling-reordering-policies.md)  
+#### [Design details: Plan parameters](design-details-planning-parameters.md)  
+#### [Design details: Plan assignment table](design-details-planning-assignment-table.md)  
+#### [Design details: Transfers in planning](design-details-transfers-in-planning.md)
+### Design details: Inventory costing
+#### [Costing overview](design-details-inventory-costing.md)
+#### [Design details: Cost methods](design-details-costing-methods.md)  
+#### [Design details: Change the cost method for items](design-details-changing-costing-methods.md)
+#### [Design details: Item application](design-details-item-application.md)  
+#### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+#### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
+#### Design details: Posting date on adjustment value entry
+#### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
+#### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  
+#### [Design details: Average cost](design-details-average-cost.md)  
+#### [Design details: Variance](design-details-variance.md)  
+#### [Design details: Rounding](design-details-rounding.md)  
+#### [Design details: Cost components](design-details-cost-components.md)  
+#### [Design details: Inventory periods](design-details-inventory-periods.md)  
+#### [Design details: Inventory posting](design-details-inventory-posting.md)  
+#### [Design details: Production order posting](design-details-production-order-posting.md)  
+#### [Design details: Assembly order posting](design-details-assembly-order-posting.md)  
+#### [Design details: Reconciliation with the general ledger](design-details-reconciliation-with-the-general-ledger.md)  
+#### [Design details: Accounts in the general ledger](design-details-accounts-in-the-general-ledger.md)
+#### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
+#### [Design details: Revaluation](design-details-revaluation.md)
+### Design details: Warehouse management
+#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
+<!-- #### [Warehouse management overview](design-details-warehouse-management.md) -->
+<!-- #### [Design details: Warehouse overview](design-details-warehouse-overview.md) -->  
+<!-- #### [Design details: Warehouse setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
+<!-- #### [Design details: Inbound warehouse flow](design-details-inbound-warehouse-flow.md)  -->
+<!-- #### [Design details: Internal warehouse flows](design-details-internal-warehouse-flows.md) --> 
+#### [Design details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)  
+<!-- #### [Design details: Outbound warehouse flow](design-details-outbound-warehouse-flow.md)  -->
+<!-- #### [Design details: Integration with inventory](design-details-integration-with-inventory.md)-->
+### Design details: Item tracking
+#### [Item tracking overview](design-details-item-tracking.md)
+#### [Design details: Item tracking design](design-details-item-tracking-design.md)  
+#### [Design details: Item tracking posting structure](design-details-item-tracking-posting-structure.md)  
+#### [Design details: Active versus historic item tracking entries](design-details-active-versus-historic-item-tracking-entries.md)  
+#### [Design details: Item tracking lines page](design-details-item-tracking-lines-window.md)  
+#### [Design details: Item tracking availability](design-details-item-tracking-availability.md)  
+#### [Design details: Item tracking and planning](design-details-item-tracking-and-planning.md)  
+#### [Design details: Item tracking and reservations](design-details-item-tracking-and-reservations.md)  
+#### [Design details: Item tracking in the warehouse](design-details-item-tracking-in-the-warehouse.md)
+### Design details: General journal post line
+#### [General journal post line](design-details-general-journal-post-line.md)
+#### [General journal post line overview](design-details-general-journal-post-line-overview.md)  
+#### [Design details: Posting interface structure](design-details-posting-interface-structure.md)  
+#### [Design details: Posting engine structure](design-details-posting-engine-structure.md)  
+
+### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
+
+### Design details: Dimension set entries
+#### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)  
+#### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)  
+#### [Design details: Table structure](design-details-table-structure.md)
+<!-- Design details end -->
+
 
 <!--Reporting landing page-->
 # Analytics, business intelligence, and reporting 
@@ -2272,7 +2297,6 @@ ms.service: dynamics-365-business-central
 ### [Share and export reports with the report inbox](ui-work-report-inbox.md)
 ### [Manage saved report settings](reports-saving-reusing-settings.md)
 ### [Set the layout used by a report](ui-set-report-layout.md)
-### [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)
@@ -2350,6 +2374,7 @@ ms.service: dynamics-365-business-central
 ### [Certifications](compliance/compliance-certifications.md)
 ## [Service overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 ## [Trial features that connect to other Microsoft services](privacy-connected-services.md)
+
 # Development and administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administration tasks in Business Central
@@ -2440,69 +2465,8 @@ ms.service: dynamics-365-business-central
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)
-## Design details
-### [Application design details overview](design-details-application-design.md)
-### Design details: Supply planning
-#### [Supply planning overview](design-details-supply-planning.md)
-#### [Design details: Central concepts of the planning system](design-details-central-concepts-of-the-planning-system.md)  
-#### [Design details: Reservation, order tracking, and action messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
-#### [Design details: Balance demand and supply](design-details-balancing-demand-and-supply.md)  
-#### [Design details: Handle reorder policies](design-details-handling-reordering-policies.md)  
-#### [Design details: Plan parameters](design-details-planning-parameters.md)  
-#### [Design details: Plan assignment table](design-details-planning-assignment-table.md)  
-#### [Design details: Transfers in planning](design-details-transfers-in-planning.md)
-### Design details: Inventory costing
-#### [Costing overview](design-details-inventory-costing.md)
-#### [Design details: Cost methods](design-details-costing-methods.md)  
-#### [Design details: Change the cost method for items](design-details-changing-costing-methods.md)
-#### [Design details: Item application](design-details-item-application.md)  
-#### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-#### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
-#### Design details: Posting date on adjustment value entry
-#### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
-#### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  
-#### [Design details: Average cost](design-details-average-cost.md)  
-#### [Design details: Variance](design-details-variance.md)  
-#### [Design details: Rounding](design-details-rounding.md)  
-#### [Design details: Cost components](design-details-cost-components.md)  
-#### [Design details: Inventory periods](design-details-inventory-periods.md)  
-#### [Design details: Inventory posting](design-details-inventory-posting.md)  
-#### [Design details: Production order posting](design-details-production-order-posting.md)  
-#### [Design details: Assembly order posting](design-details-assembly-order-posting.md)  
-#### [Design details: Reconciliation with the general ledger](design-details-reconciliation-with-the-general-ledger.md)  
-#### [Design details: Accounts in the general ledger](design-details-accounts-in-the-general-ledger.md)
-#### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
-#### [Design details: Revaluation](design-details-revaluation.md)
-<!-- ### Design details: Warehouse management -->
-<!-- #### [Warehouse management overview](design-details-warehouse-management.md) -->
-<!-- #### [Design details: Warehouse overview](design-details-warehouse-overview.md) -->  
-<!-- #### [Design details: Warehouse setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
-<!-- #### [Design details: Inbound warehouse flow](design-details-inbound-warehouse-flow.md)  -->
-<!-- #### [Design details: Internal warehouse flows](design-details-internal-warehouse-flows.md) --> 
-### [Design details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)  
-<!-- #### [Design details: Outbound warehouse flow](design-details-outbound-warehouse-flow.md)  -->
-<!-- #### [Design details: Integration with inventory](design-details-integration-with-inventory.md)-->
-### Design details: Item tracking
-#### [Item tracking overview](design-details-item-tracking.md)
-#### [Design details: Item tracking design](design-details-item-tracking-design.md)  
-#### [Design details: Item tracking posting structure](design-details-item-tracking-posting-structure.md)  
-#### [Design details: Active versus historic item tracking entries](design-details-active-versus-historic-item-tracking-entries.md)  
-#### [Design details: Item tracking lines page](design-details-item-tracking-lines-window.md)  
-#### [Design details: Item tracking availability](design-details-item-tracking-availability.md)  
-#### [Design details: Item tracking and planning](design-details-item-tracking-and-planning.md)  
-#### [Design details: Item tracking and reservations](design-details-item-tracking-and-reservations.md)  
-#### [Design details: Item tracking in the warehouse](design-details-item-tracking-in-the-warehouse.md)
-### Design details: General journal post line
-#### [General journal post line](design-details-general-journal-post-line.md)
-#### [General journal post line overview](design-details-general-journal-post-line-overview.md)  
-#### [Design details: Posting interface structure](design-details-posting-interface-structure.md)  
-#### [Design details: Posting engine structure](design-details-posting-engine-structure.md)  
-### Design details: Dimension set entries
-#### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)  
-#### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)  
-#### [Design details: Table structure](design-details-table-structure.md)
+
+
 <!--migrate to BC online-->
 ## Migrate to Business Central online
 ### [Introduction](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
@@ -2533,6 +2497,9 @@ ms.service: dynamics-365-business-central
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+## Map e-documents (preview)
+### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
@@ -2540,22 +2507,27 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Responsible AI FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Sales order agent (preview)
+### [Overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
+### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
+### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
+### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
-### [Responsible AI FAQ for Suggest Number Series with Copilot](faq-suggest-number-series-with-copilot.md)
-## Map e-documents (preview)
-### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
+### [Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
+## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
-## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)

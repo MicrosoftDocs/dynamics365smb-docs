@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Consolidated Trial Balance Excel (report)
 
-The **Consolidated Trial Balance Excel** report shows Net Change or Balance of the different G/L Accounts for the selected period, aggregated per business unit.
+The **Consolidated Trial Balance Excel** report shows the net change or balances of G/L accounts for a selected period, aggregated for each business unit.
 
-<!-- The Excel workbook contains TODO worksheets that you can use to analyze your trial balance:
+<!-- The Excel workbook contains worksheets that you can use to analyze your trial balance:
 
 - TODO 
 -->
@@ -57,7 +57,6 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 ## Use cases
 
 [!INCLUDE [report-4410-scenario](../includes/report-4410-scenario-include.md)]
-
 
 ## Try the report
 

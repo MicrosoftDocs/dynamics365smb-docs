@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4410_Primary
-ms.date: 12/13/2024
+ms.date: 01/03/2025
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Consolidated Trial Balance Excel (report)
 
-The **Consolidated Trial Balance Excel** report shows the net change or balances of G/L accounts for a selected period, aggregated for each business unit.
+The **Consolidated Trial Balance Excel** report shows the net change or balances of general ledger accounts for a selected period, aggregated for each business unit.
 
 The Excel workbook contains worksheets that you can use to analyze your trial balance:
 
@@ -33,38 +33,31 @@ The Excel workbook contains worksheets that you can use to analyze your trial ba
 
 [!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
+Filters and slicers let you zoom in on the balance as seen from business units, global dimensions, or by account categories and subcategories.
+
 ## Trial Balance (LCY) worksheet
 
-This worksheet shows the trial balance for the consolidation company with amounts in local currency (LCY). 
-
-Filters and slicers let you zoom in on the balance as seen from business units, global dimensions, or by account categories and subcategories.
+This worksheet shows the trial balance for the consolidation company with amounts in local currency (LCY).
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-Trial-Balance-LCY.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
 ## By Business Unit (LCY) worksheet
 
-This worksheet shows the trial balance for the consolidation company with amounts in local currency (LCY) and where amounts are shown for every business unit. 
-
-Filters and slicers let you zoom in on the balance as seen from business units, global dimensions, or by account categories and subcategories.
+This worksheet shows the trial balance for the consolidation company with amounts in LCY for your business units.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-By-Business-Unit-LCY.png" alt-text="Screenshot of the By Business Unit (LCY) worksheet":::
 
 ## Trial Balance (ACY) worksheet
 
-This worksheet shows the trial balance for the consolidation company with amounts in Additional Reporting Currency (ACY). The report requires that you use ACY, if not then no data is shown.
-
-Filters and slicers let you zoom in on the balance as seen from business units, global dimensions, or by account categories and subcategories.
+This worksheet shows the trial balance for the consolidation company with amounts in additional reporting currency (ACY). The report requires that you use ACY. If you don't use ACY, the report doesn't show data.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-Trial-Balance-ACY.png" alt-text="Screenshot of the Trial Balance (ACY) worksheet":::
 
 ## By Business Unit (ACY) worksheet
 
-This worksheet shows the trial balance for the consolidation company with amounts in Additional Reporting Currency (ACY) and where amounts are shown for every business unit. 
-
-Filters and slicers let you zoom in on the balance as seen from business units, global dimensions, or by account categories and subcategories.
+This worksheet shows the trial balance for the consolidation company with amounts in ACY for your business units.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-By-Business-Unit-ACY.png" alt-text="Screenshot of the By Business Unit (ACY) worksheet":::
-
 
 ## TrialBalanceData worksheet
 

@@ -1,14 +1,15 @@
 ---
 title: Connect Excel, Word, Outlook, OneDrive, Power BI, and more products to Business Central
-description: Learn how to set up connections to Business Central
+description: Learn how to set up connections to Business Central.
 author: kennienp
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Excel, Word, Outlook, Onedrive, Power BI
-ms.date: 12/30/2024
+ms.date: 01/03/2025
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ms.custom: bap-template
 ---
 # Connect Excel, Outlook, Word, OneDrive, Power BI, and more products to Business Central
 

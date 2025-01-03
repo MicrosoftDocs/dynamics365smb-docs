@@ -33,7 +33,7 @@ Later, you can review the purchase lines linked to the project either from the *
 
 ### Use a semi-automated replenishment process for a project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
 2. Open a project that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 4. The **Create Purchase Orders** page shows a line for each item on the project. Lines for both fully available quantities and unavailable quantities show by default. To show only unavailable quantities, choose the **Show Unavailable** action.
@@ -51,14 +51,19 @@ You can review the purchase lines linked to the project either from the **Projec
 
 The following procedure shows how to use a purchase invoice to purchase products for a project. The same steps apply when using a purchase order.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Project No.** and **Project Task No.** fields, select the information of the project that you want to purchase items or services for. Use the personalization tools if a field isn't visible. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
     The value that you select in the **Project Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then project planning lines that are ready to be invoiced to the customer are created. To learn more, go to [Invoice Projects](projects-how-invoice-jobs.md).
-4. Choose the **Post** action.
 
-## To view the value of purchases for a project
+### Posting purchases and impact on inventory and WIP
+
+When posting receipt, the inventory is received and immidiatelly written-off by item ledger entry of type *Negative Adjustment*. At this stage project ledger entries do not include purchase order lines that are not General Ledger to avoid impact on WIP calculation.
+
+Project ledger entries are created when a purchase order is invoiced, either through the Invoice option in Post Purchase Order or from Purchase Invoice, by using Get Receipt Lines followed by Post Purchase Invoice.
+
+### To view the value of purchases for a project:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
 2. Open a relevant project card.

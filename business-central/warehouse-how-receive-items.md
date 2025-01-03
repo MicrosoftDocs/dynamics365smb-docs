@@ -32,7 +32,7 @@ When items arrive at a warehouse that is set up to process warehouse receipts, y
 You can create warehouse receipt in one of two ways:
 
 * In a push fashion, when work is done on an order-by-order basis. Choose the **Create Warehouse Receipt** action in the source document, such as Purchase Order, Sales Return Order, or Transfer Order to create warehouse receipt for one source document.
-* In a pull fashion, where you use the **Release** action in the source document, such as a purchase order, sales return order, or transfer order to release the document to the warehouse. A warehouse employee creates a **Warehouse Receipt** for one or many released source documents. The following procedure described how to create a warehouse receipt in a pull fashion. The following procedure describes how to create a warehouse receipt in a pull fashion.
+* In a pull fashion, where you use the **Release** action in the source document, such as a purchase order, sales return order, or transfer order to release the document to the warehouse. A warehouse employee creates a **Warehouse Receipt** for one or many released source documents. The following procedure described how to create a warehouse receipt in a pull fashion.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, then choose the related link.  
 2. Choose the **New** action.  

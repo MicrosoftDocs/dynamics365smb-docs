@@ -75,6 +75,7 @@ The following table lists the permissions that are required to use the Copilot f
 | Map e-documents | Permission on page 6166, **E-Doc. PO Copilot Prop**. |
 | Marketing text suggestions | Permission on page 5836, **Copilot Marketing Text**. |
 | Sales line suggestions | Permission on page 7275, **Sales Line AI Suggestions**, and page 7276, **Sales Line AI Suggestions Sub**. |
+|Sales Order Agent|Learn more in [Manage agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 
 To grant or deny access to specific non-Microsoft Copilot and AI capabilities, consult the feature's documentation or publisher for the required permissions.
 

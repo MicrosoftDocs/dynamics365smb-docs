@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 ---
 # Get the Business Central add-in for Outlook
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you can view financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
+With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in [!INCLUDE [outlook-name](includes/outlook-name.md)]. With the [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [outlook-name-short](includes/outlook-name-short.md)] add-in, you can view financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
 
 There are two ways to get the Business Central add-in for Outlook installed, depending on your role in the organization:
 
@@ -80,7 +80,7 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 1. Repeat step 9 through 11 for the other add-in file if you want.
 
 > [!IMPORTANT]
-> A green check mark appears when the add-in is deployed to the admin center. However, it can take up to 24 hours before users see the add-in in Outlook app. Users might have to restart Outlook as well.
+> A green check mark appears when the add-in is deployed to the admin center. However, it can take up to 24 hours before users see the add-in in the [!INCLUDE [outlook-name-short](includes/outlook-name-short.md)] app. Users might have to restart Outlook as well.
 
 When finished, you can always change the deployment in Microsoft 365 admin center, like assigning more users. For more information about deploying add-ins in the admin center, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
@@ -93,7 +93,7 @@ If your organization allows it, you can install the Business Central add-in for 
 3. If you want to receive a welcome email message from Business Central with overview of using the add-in, turn on **Send sample email message**.
 4. Select **Finish** to complete the installation.
 
-Business Central now connects to your email server and installs the add-in in your Outlook. This operation doesn't take long. You're now ready to start using the add-in in Outlook.
+Business Central now connects to your email server and installs the add-in in your [!INCLUDE [outlook-name-short](includes/outlook-name-short.md)]. This operation doesn't take long. You're now ready to start using the add-in in [!INCLUDE [outlook-name-short](includes/outlook-name-short.md)].
 
 ### <a name="onprem"></a>For Business Central on-premises
 

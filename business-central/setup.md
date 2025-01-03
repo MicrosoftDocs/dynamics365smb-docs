@@ -72,10 +72,11 @@ In addition to the assisted setup guides, you can manually set up specific busin
 
 You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience by connecting to other Microsoft products, such as:
 
-- Outlook
-- Teams
-- OneDrive
-- Power BI
+- [!INCLUDE [outlook-name](includes/outlook-name.md)]
+- [!INCLUDE [teams-name](includes/teams-name.md)]
+- [!INCLUDE [word-name](includes/word-name.md)]
+- [!INCLUDE [onedrive-for-business-name](includes/onedrive-for-business-name.md)]
+- [!INCLUDE [powerbi-name](includes/powerbi-name.md)]
 - Power Automate
 - Power Apps
 - Field Service
@@ -83,13 +84,13 @@ You can enhance your [!INCLUDE[prod_short](includes/prod_short.md)] experience b
 
 | To | Go to |
 | --- | --- |
-|Use Business Central Outlook add-ins to explore financial data related to customers and vendors, or create and send financial documents, such as quotes and invoices.|[Use Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
+|Use Business Central Outlook add-ins to explore financial data related to customers and vendors, or create and send financial documents, such as quotes and invoices.|[Use Business Central as Your Business Inbox in [!INCLUDE [outlook-name-short](includes/outlook-name-short.md)]](admin-outlook.md)|
 |Use Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)] | [Business Central and Microsoft Teams](across-teams-overview.md) |
+|Use [!INCLUDE [word-name](includes/word-name.md)] with [!INCLUDE [prod_short](includes/prod_short.md)] | [Work with Word layouts](ui-how-add-fields-word-report-layout.md) |
 |Use OneDrive with [!INCLUDE [prod_short](includes/prod_short.md)] to store your files. | [Business Central and OneDrive](across-onedrive-overview.md) |
 |Get insights into your [!INCLUDE [prod_short](includes/prod_short.md)] data with Power BI and the [!INCLUDE [prod_short](includes/prod_short.md)] content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
 |Use your [!INCLUDE [prod_short](includes/prod_short.md)] data as part of a workflow in Power Automate.|[Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
 |Make your [!INCLUDE [prod_short](includes/prod_short.md)] data available as a data source in Power Apps.|[Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)|
-|Do bulk invoicing of appointments created in Microsoft Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
 |Create and manage work orders, track the progress of service tasks, assign resources, and capture consumption details.|[Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)|
 |View information in [!INCLUDE [prod_short](includes/prod_short.md)] while you're working in [!INCLUDE [crm_md](includes/crm_md.md)].|[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 

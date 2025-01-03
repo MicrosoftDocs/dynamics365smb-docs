@@ -1,5 +1,5 @@
 ---
-title: OneDrive with Business Central FAQ
+title: OneDrive in Business Central FAQ
 description: Get answers for some typical questions about working with OneDrive for work or school (formerly known as OneDrive for Business) and Business Central.
 author: brentholtorf
 ms.topic: get-started

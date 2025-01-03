@@ -41,6 +41,8 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-Trial-Balance-LCY.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Business Unit (LCY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in LCY for your business units.

@@ -17,11 +17,7 @@ ai.usage: ai-assisted
 
 # Aged Accounts Payables Excel (report)
 
-The **Aged Accounts Payables Excel** report shows aggregated aging data based on vendor ledger entries.
-
-The data is aggregated and bucketed according to the **Aged as of** and **Period length** parameters in the report's request page.
-
-The aggregated data is summarized for the two global dimensions.
+The **Aged Accounts Payables Excel** report uses vendor ledger entries to aggregate and bucket data according to the Aged as of and Period length parameters in the report's request page. Data is summarized by the two global dimensions.
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts payable:
 
@@ -30,13 +26,11 @@ The report Excel workbook contains four worksheets that you can use to analyze y
 - Due by Currencies
 - CustomerAgingData
 
-Each worksheet represents a different dimension for your analysis.
+[!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
-[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)] 
+[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
 
-
-> [!NOTE]
-> This report does the calculations when you view it in Excel online or download and open it on your computer. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
+[!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
 ## By period (LCY) worksheet
 
@@ -64,14 +58,11 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 ## VendorAgingData worksheet
 
-This worksheet shows the raw data used in the report.
-
-You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
+[!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
 :::image type="content" source="../media/excel-aged-accounts-payable-vendor-aging-data.png" alt-text="Screenshot of the VendorAgingData worksheet":::
 
-
-To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
+[!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
 ## Use cases
 
@@ -89,6 +80,12 @@ There are several other ways to analyze aged accounts payable. To learn more, go
 
 - [Aged Payables (Back Dating) in Power BI](../finance-powerbi-aged-payables-back-dating.md)
 - [Using data analysis to analyze accounts payable](../ad-hoc-analysis-finance.md#example-finance-accounts-payable)
+
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
 
 ## Related information
 

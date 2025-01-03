@@ -17,23 +17,22 @@ ai.usage: ai-assisted
 
 # Customer - Top 10 List Excel (report)
 
-The **Customer - Top 10 List Excel** report shows aggregated sales and balance data in local currency (LCY) for the top number of customers selected. The data is aggregated for the period specified in the request page's Datefilter parameter.
+The **Customer - Top 10 List Excel** report shows shows summarized sales and balance data in local currency (LCY) for the number of customers and for the period specified in the request page's **Quantity** and **Datefilter** parameters. The Quantity parameter is the number of "top" customers to rank.
 
 The report Excel workbook contains two worksheets that you can use to analyze your customers:
 
 - Top Customer List
 - TopCustomerData
 
-Each worksheet represents a different dimension in your analysis.
+[!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
-[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)] 
+[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
 
-> [!NOTE]
-> This report does calculations when you view it in Excel online or download and open it on your computer. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
+[!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
 ## Top Customer List worksheet
 
-This worksheet shows current sales amounts and balance in local currency (LCY) by customer. You can group data by a Year-Quarter-Month-Day hierarchy on the due date.
+This worksheet shows current sales amounts and balance in LCY by customer.
 
 With filters and slicers, you can zoom in on a single customer or a group of customers.
 
@@ -41,13 +40,11 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 
 ## TopCustomerData worksheet
 
-This worksheet shows the raw data used in the report.
-
-You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)], or the What-if-analysis or Forecast Sheet tools.
+[!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
 :::image type="content" source="../media/excel-top-10-customers-top-customer-data.png" alt-text="Screenshot of the TopCustomerData worksheet":::
 
-To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
+[!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
 ## Use cases
 
@@ -126,6 +123,12 @@ There are several other ways to analyze your customers. To learn more, go to:
 
 - [Power BI Sales app](../sales-powerbi-app.md)
 - [Using data analysis to analyze sales](../ad-hoc-analysis-sales.md)
+
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
 
 ## Related information
 

@@ -93,7 +93,7 @@ At Microsoft, we're constantly listening to feedback from our diverse user commu
 
 If you want to participate in improving OneDrive integration, or have an idea that would improve file sharing and collaboration in [!INCLUDE[prod_short](includes/prod_short.md)], add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## Does OneDrive work with guest users and delegated admins?
+## Does OneDrive work for guest users and delegated admins?
 
 The OneDrive features don't work when you're signed in to Business Central as a guest user. For example, if you select **Open in OneDrive** or **Share** on a file, you get the message "Could not connect to your OneDrive for Business."
 

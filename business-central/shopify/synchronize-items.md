@@ -307,7 +307,7 @@ Update:
 
 Deletion:
 
-Based on the value in **Action for Removed Products** on the **Shopify Shop Card** page, the product gets updated in Shopify when the record is deleted from the **Shopify Products** page.
+Based on the value in **Action for Removed Products and Blocked Items** on the **Shopify Shop Card** page, the product gets updated in Shopify when the record is deleted from the **Shopify Products** page.
 
 * **Blank**: Nothing happens. If needed, perform the required action from the **Shopify admin**.
 * **Status to Draft**: The status of the product in Shopify is set to *Draft*.

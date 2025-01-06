@@ -4,7 +4,7 @@ description: Manage Business Central integration with Microsoft Teams.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 08/14/2024
+ms.date: 01/06/2025
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.custom: bap-template
@@ -26,7 +26,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
 - Required licenses
 
-    The [!INCLUDE[prod_short](includes/prod_short.md)] app requires a Teams license through a Microsoft 365 Business or Enterprise subscription. Standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
+    The [!INCLUDE[prod_short](includes/prod_short.md)] app requires users to have a Teams license through a Microsoft 365 Business or Enterprise plan, Microsoft Teams EEA, or similar plan that includes Microsoft Teams. Standalone Teams plans such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
 
     Most features of the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams also require a [!INCLUDE [prod_short](includes/prod_short.md)] license, as shown in the following table.
 
@@ -58,23 +58,23 @@ Learn more in the Microsoft Teams documentation at:
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 release wave 1 or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
+  Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online, not on-premises.
 
 - Codeunit **2718 Page Summary Provider** is published as a web service:
 
-    This codeunit is published as a web service by default. The codeunit is part of the [!INCLUDE [prod_short](includes/prod_short.md)] system application. It's used to get the field data for a [!INCLUDE [prod_short](includes/prod_short.md)] page added to a Teams conversation. Learn more about publishing web services in [Publish a Web Service](across-how-publish-web-service.md).
+  This codeunit is published as a web service by default. The codeunit is part of the [!INCLUDE [prod_short](includes/prod_short.md)] system application. It's used to get the field data for a [!INCLUDE [prod_short](includes/prod_short.md)] page added to a Teams conversation. Learn more about publishing web services in [Publish a Web Service](across-how-publish-web-service.md).
 
 - <a name="permissions"></a>User permissions:
 
-    For the most part, the contact search, pages, and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
+  For the most part, the contact search, pages, and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-    - To search for contacts, users must have at least read permission to the **Contacts** table. 
-    - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
-    - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to [!INCLUDE [prod_short](includes/prod_short.md)].
-    - To view more details for a card or open the record in [!INCLUDE [prod_short](includes/prod_short.md)], users must have read permission on the page and its data.
-    - To change data, user's need modify permissions.
-    
-    Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+  - To search for contacts, users must have at least read permission to the **Contacts** table. 
+  - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
+  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to [!INCLUDE [prod_short](includes/prod_short.md)].
+  - To view more details for a card or open the record in [!INCLUDE [prod_short](includes/prod_short.md)], users must have read permission on the page and its data.
+  - To change data, user's need modify permissions.
+
+  Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## Installing the Business Central app by using Centralized Deployment
 
@@ -98,9 +98,9 @@ The Microsoft Teams admin center is where you configure Teams app setup policies
 4. Go back to **Teams App Centralized Deployment** in Business Central and select **Done**.
 
 > [!IMPORTANT]
-> It can take up to 24 hours for the app set up policy to be applied and the app deployed to users.
+> It can take up to 24 hours for the app setup policy to be applied and the app deployed to users.
 
-## Managing privacy and compliance 
+## Managing privacy and compliance
 
 Microsoft Teams provides extensive controls for compliance and management of sensitive or personally identifiable data&mdash;including data added to chats and channels by the [!INCLUDE [prod_short](includes/prod_short.md)] app.
 
@@ -117,13 +117,13 @@ You prevent specific users or groups from sending cards to chats or channels by 
 
 You can also use information barriers to prevent individuals or groups from communicating with each other. To learn more, see [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Data loss prevention features in the Microsoft 365 Security & Compliance Center can't be applied specifically to cards. But they can be applied to the chat messages that contain the cards.
+Data loss prevention features in the Microsoft Purview can't be applied specifically to cards. But they can be applied to the chat messages that contain the cards.
 
 ### Responding to data requests
 
 You allow team members and team owners to delete messages that contain sensitive cards by setting up messaging policies, like: **Owners can delete sent messages** and **Users can delete sent messages**. Learn more at [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
-Content search and eDiscovery compliance features in the Microsoft 365 Security & Compliance Center can also be applied to cards.
+Content search and eDiscovery compliance features in the Microsoft Purview can also be applied to cards.
 
 Because card data in Teams is a copy of data in [!INCLUDE [prod_short](includes/prod_short.md)], you can also use [!INCLUDE [prod_short](includes/prod_short.md)] features to export a customer’s data if requested. Learn more  about privacy in [!INCLUDE [prod_short](includes/prod_short.md)] in [Privacy FAQ for Business Central Customers](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
@@ -135,7 +135,7 @@ When a record is shared with others in a Teams chat or channel, a card with fiel
 |-|-|
 |![Image that shows a card in Teams when the record summery is turned on.](media/card-settings-example-on.png)|![Image that shows a card in Teams when the record summery is turned off.](media/card-settings-example-off.png)|
 
-You configure the setting per environment. So when you turn the record summary on or off, it will affect all companies in the environment.
+You configure the setting per environment. So when you turn the record summary on or off, it affects all companies in the environment.
 
 1. In Business Central, open the environment that you want to change.
 

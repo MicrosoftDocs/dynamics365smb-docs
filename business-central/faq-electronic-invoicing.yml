@@ -58,12 +58,12 @@ sections:
         answer: For Business Central users in Belgium, Business Central supports PEPPOL format as required.
       - question: What about supported formats in Spain?
         answer: For Business Central users in Span, Business Central supports FacturaE format.
-      - question: What about e-invoicing in Mexico, India and Italy?
+      - question: What about e-invoicing in Mexico, India, and Italy?
         answer: Business Central currently supports e-invoicing in these three countries. However these e-invoicing features are not based on new E-Documents framework and Microsoft has a plan to migrate them to new framework in the next period.
       - question: What about e-invoicing in Australia and New Zealand?
-        answer: E-invoicing in Australia and New Zealand is not enforced by the law. However companies are highly encouraged to use e-invoicing and Microsoft already planned to introduct PEPPOL A-NZ format with 2025 release wave 1.
+        answer: E-invoicing in Australia and New Zealand isn't enforced by law. However, companies are highly encouraged to use e-invoicing and Microsoft already planned to introduct PEPPOL A-NZ format with 2025 release wave 1.
       - question: Will Microsoft support other localizations?
-        answer: Microsoft will support e-invoicing localizations in country/regions where have official localization, based on regulatory enforcement dates for B2B transactions. For other non-Microsoft localizations, find localization on AppSource.
+        answer: Microsoft will support e-invoicing localizations in country/regions with official localization, based on regulatory enforcement dates for B2B transactions. For other non-Microsoft localizations, find localization on AppSource.
 
 additionalContent: |
   ## Next steps

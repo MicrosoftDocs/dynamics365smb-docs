@@ -14,7 +14,7 @@ ms.search.form: 7775
 
 # Copilot data movement across geographies
 
-Although Copilot in Business Central is available in all geographic areas where Business Central online is available, it requires the Microsoft Azure OpenAI Service, which is available only in specific regions.  
+Although Copilot in Business Central is available in all geographic areas where Business Central online is available, it requires Microsoft Azure OpenAI Service, which is available only in specific regions.  
 
 Depending on where your environment is hosted, you might need to allow data to move outside of your primary data residency to an Azure OpenAI endpoint located in another geography. You provide consent in the **Copilot & AI capabilities** page. If you don't provide consent, Copilot won't be available to your organization. Learn how to provide consent in [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
 
@@ -25,7 +25,7 @@ Individual Copilot features might not be available in all geographies. Learn mor
 When you use Copilot, your inputs (prompts) and outputs (results), including any personal data, might move outside of your geography to the location where the Azure OpenAI Service endpoint is hosted. We might store prompt and output data for up to 24 hours to monitor for abuse, but we don't look at it unless our automated systems flag it for review. We don't use your data to train, retrain, or improve Azure OpenAI Service foundation models. Learn more at [Abuse Monitoring](/azure/ai-services/openai/concepts/abuse-monitoring).
 
 > [!IMPORTANT]
-> If your Business Central environment is hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary. Learn more about EU Data Boundary countries and datacenter locations at [What is the EU Data Boundary?](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations).
+> If your Business Central environment is hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary. Learn more about EU Data Boundary countries and datacenter locations at [What is the EU Data Boundary?](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations)
 
 The following table describes when and how data can move across geographies for Copilot in Business Central. 
 

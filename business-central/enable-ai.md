@@ -72,6 +72,7 @@ The following table lists the permissions that are required to use the Copilot f
 | Analysis assist | The **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640, **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
 | Bank reconciliation assist | Permission on page 7250, **Bank Acc. Rec. AI Proposal**, and page 7252, **Trans. To GL Acc. AI Proposal**. |
 | Chat | There are no permissions or permission sets that control access to chat on a per-user basis. If chat is activated, it's available to all users. |
+| Suggest item substitutions | Permission on page 7410 **Item Subst. Suggestion** and page 7411 **Item Subst. Suggestion Sub**.|
 | Map e-documents | Permission on page 6166, **E-Doc. PO Copilot Prop**. |
 | Marketing text suggestions | Permission on page 5836, **Copilot Marketing Text**. |
 | Sales line suggestions | Permission on page 7275, **Sales Line AI Suggestions**, and page 7276, **Sales Line AI Suggestions Sub**. |

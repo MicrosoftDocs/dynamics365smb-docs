@@ -1218,7 +1218,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up declaration types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Export Intrastat third-party declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banking & payments
-##### [Electronic banking (BE](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Electronic banking (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 ##### [Electronic payments (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Set up export protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
 ##### [Summarize Payment Lines and General Journal Lines](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
@@ -1295,7 +1295,7 @@ ms.service: dynamics-365-business-central
 ##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Payables and Receivables
-##### [Exchange Rates Adjustment Feature)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Exchange Rates Adjustment Feature](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
 ##### [Multiple Payables and Receivables Accounts](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
 ##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
 ##### [Sales Correcting Documents](LocalFunctionality/Czech/sales-correcting-documents.md)

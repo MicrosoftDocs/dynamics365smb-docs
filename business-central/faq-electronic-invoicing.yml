@@ -23,12 +23,12 @@ sections:
       - question: Which is last version of PEPPOL supported by Business Central?
         answer: The last version of PEPPOL supported by the default version of Business Central is **PEPPOL BIS 3.0**.
       - question: Does Business Central support formats other than PEPPOL?
-        answer: Yes, Business Central supports other formats based on specific local requirments, but they are no part of W1.
+        answer: Yes, Business Central supports other formats based on specific local requirments, but they're not part of W1.
   - name: Apps
     questions:
       - question: Are there apps that can help us with electronic invoicing?
         answer: |
-          Yes! The following list provides examples of existing apps for Business Central that support electronic invoicing in the latest formats. Note that it is not a complete list and you can find all of the on the AppSource:
+          Yes! The following list provides examples of existing apps for Business Central that support electronic invoicing in the latest formats. Note that it's not a complete list and you can find all of the on AppSource:
           - [Pagero - E-Invoicing app (Belgium, Denmark, Germany, Finland, France, Italy, Luxemburg, Norway, Saudi Arabia, Singapore, Spain, Sweden, United Kingdom, USA)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
           - [Oseberg Solutions - E-invoice PEPPOL Bis (Norway)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
           - [BCS Itera - E-Invoicing for Finland](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.e-invoicing-finland%7CPAPPID.d88e27d5-57ce-4504-ab72-f73bb6702b59?tab=Overview)
@@ -45,7 +45,7 @@ sections:
           - [Atp Yazılım ve Teknoloji for Turkey](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.raveelektrikgkaynaklarretimvepazticas1619610351109%7CAID.einvoice%7CPAPPID.b018b806-93be-4d7f-ace6-1204515d697a?tab=Overview)
           - [KSA e-invoice Samadhan for Kingdom of Saudi Arabia](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.einvoicing_saudiarabia%7CPAPPID.e51bc9c4-217b-455a-8e8f-63865a7e3562?tab=Overview)
           - [Malaysia e-invoice Samadhan](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.einvoicemalaysia%7CPAPPID.ed58c283-3de2-4365-84e5-852b97284da4?tab=Overview)
-          - Romanian e-Invoice by Intelligent Systems](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromanianeinvoice-is%7CPAPPID.b4348354-f93c-4d84-991b-d326cd9705a5?tab=Overview)
+          - [Romanian e-Invoice by Intelligent Systems](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromanianeinvoice-is%7CPAPPID.b4348354-f93c-4d84-991b-d326cd9705a5?tab=Overview)
           - [Arggo Romanian e-Invoice](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.arggo-consulting-romania-4477495%7CAID.arggo_efactura_romania%7CPAPPID.ae9a581c-5b49-429b-bf31-669f76d24694?tab=Overview)
           - [Softera E-invoice for Lithuania](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_e_invoice%7CPAPPID.b62d22fd-1800-4b7f-a9c3-38878b53ef5b?tab=Overview)
   - name: Localizations

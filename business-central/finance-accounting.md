@@ -47,7 +47,7 @@ It's easy to invite your external accountant. Open the **Users** page, and then 
 
 ### Add your accountant to your Microsoft 365 in the Azure portal
 
-If your administrator or reselling partner don't want to use the **Invite External Accountant** guide, they can add an external user in the Azure portal and assign this user the *External Accountant* license. Learn more in [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your administrator or reselling partner doesn't want to use the **Invite External Accountant** guide, they can add an external user in the Azure portal and assign this user the *External Accountant* license. Learn more in [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### Add your accountant as a guest user
 

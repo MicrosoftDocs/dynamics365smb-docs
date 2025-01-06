@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 01/06/2024
+ms.date: 01/06/2025
 ms.author: jswymer
 ms.custom: bap-template
 ---

@@ -69,13 +69,13 @@ The following table lists the permissions that are required to use the Copilot f
 
 | Copilot feature | Required permissions |
 |---|---|
-| Analysis assist | The **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640, **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
-| Bank reconciliation assist | Permission on page 7250, **Bank Acc. Rec. AI Proposal**, and page 7252, **Trans. To GL Acc. AI Proposal**. |
+| Analysis assist | The **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat | There are no permissions or permission sets that control access to chat on a per-user basis. If chat is activated, it's available to all users. |
 | Suggest substitute items| Permission on page 7410 **Item Subst. Suggestion** and page 7411 **Item Subst. Suggestion Sub**.|
-| Map e-documents | Permission on page 6166, **E-Doc. PO Copilot Prop**. |
-| Marketing text suggestions | Permission on page 5836, **Copilot Marketing Text**. |
-| Sales line suggestions | Permission on page 7275, **Sales Line AI Suggestions**, and page 7276, **Sales Line AI Suggestions Sub**. |
+| Map e-documents | Permission on page 6166 **E-Doc. PO Copilot Prop**. |
+| Marketing text suggestions | Permission on page 5836 **Copilot Marketing Text**. |
+| Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
 |Sales Order Agent|Learn more in [Manage agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 
 To grant or deny access to specific non-Microsoft Copilot and AI capabilities, consult the feature's documentation or publisher for the required permissions.

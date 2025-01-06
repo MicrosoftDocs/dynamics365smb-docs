@@ -287,10 +287,6 @@ Yes. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] repre
 No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in Teams.
 There are currently no plans to synchronize the two lists together. When you use the Teams feature **Share someone's contact info** from the chat compose box, it has no relation to Business Central contacts.
 
-### What is the minimum version of [!INCLUDE [prod_short.md](includes/prod_short.md)] for contact search?
-
-Contact search requires that you've installed the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams version 1.0.4 or later, and you're connecting to [!INCLUDE [prod_short.md](includes/prod_short.md)] environments of version 18 or later.
-
 ### Can I search from my mobile device?
 
 Contact search isn't available from Teams for iOS and Teams for Android at this time.

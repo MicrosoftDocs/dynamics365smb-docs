@@ -201,8 +201,8 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/finance
-          - text: Finance reports
-            url: /dynamics365/business-central/finance-reports
+          - text: Financial analytics
+            url: /dynamics365/business-central/bi
 #          - text: Manage receivables
 #            url: /dynamics365/business-central/receivables-manage-receivables
           - text: Manage payables
@@ -215,8 +215,8 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/sales-manage-sales
-          - text: Sales reports
-            url: /dynamics365/business-central/sales-reports
+          - text: Sales analytics
+            url: /dynamics365/business-central/sales-analytics-overview
       #    - text: Register new customers 
       #      url: /dynamics365/business-central/sales-how-register-new-customers   
       #    - text: Make Sales Quotes
@@ -227,8 +227,8 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/purchasing-manage-purchasing
-          - text: Purchase reports
-            url: /dynamics365/business-central/purchase-reports
+          - text: Purchasing analytics
+            url: /dynamics365/business-central/purchasing-analytics-overview
           - text: Record purchases 
             url: /dynamics365/business-central/purchasing-how-record-purchases   
  #         - text: Request quotes
@@ -239,59 +239,62 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/inventory-manage-inventory
-          - text: Inventory and Warehouse Reports
-            url: /dynamics365/business-central/inventory-WMS-reports
+          - text: Inventory analytics
+            url: /dynamics365/business-central/inventory-analytics-overview
           - text: Register items
             url: /dynamics365/business-central/inventory-how-register-new-items
 #          - text: Work with BOMs
 #            url: /dynamics365/business-central/inventory-how-work-boms
 #          - text: Categorize items
 #            url: /dynamics365/business-central/inventory-how-categorize-items
-      - title: Project management
+      - title: Warehouse management
         links:
           - text: Overview
-            url: /dynamics365/business-central/projects-manage-projects
-          - text: Project reports
-            url: /dynamics365/business-central/project-reports
-          - text: Create jobs
-            url: /dynamics365/business-central/projects-how-create-jobs
-#          - text: Use resources for projects
- #           url: /dynamics365/business-central/projects-how-use-resources
-   #       - text: Use time sheets
-    #        url: /dynamics365/business-central/projects-how-use-time-sheets
+            url: /dynamics365/business-central/warehouse-manage-warehouse
+          - text: Warehouse reports
+            url: /dynamics365/business-central/inventory-WMS-reports
+          - text: Put items
+            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+#          - text: Move items
+#            url: /dynamics365/business-central/warehouse-move-items
+#          - text: Pick items
+#            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
       - title: Fixed assets
         links:
           - text: Overview
             url: /dynamics365/business-central/fa-manage
-          - text: Fixed asset reports
-            url: /dynamics365/business-central/fa-reports
+          - text: Fixed assets analytics
+            url: /dynamics365/business-central/fa-analytics-overview
           - text: Acquire fixed assets
             url: /dynamics365/business-central/fa-how-acquire
 #          - text: Maintain fixed assets
  #           url: /dynamics365/business-central/fa-how-maintain
  #         - text: Insure fixed assets
- #           url: /dynamics365/business-central/fa-how-insure
-      - title: Relationship management
+ #           url: /dynamics365/business-central/fa-how-insure      
+      - title: Project management
         links:
           - text: Overview
-            url: /dynamics365/business-central/marketing-relationship-management
-          - text: Contacts
-            url: /dynamics365/business-central/marketing-contacts
-          - text: Segments
-            url: /dynamics365/business-central/marketing-segments
-#        - text: Interactions
-#            url: /dynamics365/business-central/marketing-interactions-overview
-#          - text: Opportunities
-#            url: /dynamics365/business-central/marketing-manage-sales-opportunities
-
-      - title: Human resources
+            url: /dynamics365/business-central/projects-manage-projects
+          - text: Project management analytics
+            url: /dynamics365/business-central/projects-analytics-overview
+          - text: Create projects
+            url: /dynamics365/business-central/projects-how-create-jobs
+#          - text: Use resources for projects
+ #           url: /dynamics365/business-central/projects-how-use-resources
+   #       - text: Use time sheets
+    #        url: /dynamics365/business-central/projects-how-use-time-sheets
+      - title: Service management
         links:
           - text: Overview
-            url: /dynamics365/business-central/hr-manage-human-resources
-          - text: Register employees
-            url: /dynamics365/business-central/hr-how-register-employees
-          - text: Manage employee absence
-            url: /dynamics365/business-central/hr-how-manage-absence
+            url: /dynamics365/business-central/service-service
+          - text: Planning
+            url: /dynamics365/business-central/service-plan-service
+          - text: Fulfill service contracts
+            url: /dynamics365/business-central/service-fulfill-service-contracts
+#          - text: Deliver service
+#            url: /dynamics365/business-central/service-deliver-service
+#          - text: Create service quotes
+#            url: /dynamics365/business-central/service-how-to-create-service-quotes
       - title: Planning
         links:
           - text: Overview
@@ -320,38 +323,14 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/production-manage-manufacturing
-          - text: Production reports
-            url: /dynamics365/business-central/production-reports
+          - text: Manufacturing analytics
+            url: /dynamics365/business-central/manufacturing-analytics-overview
           - text: Create production orders
             url: /dynamics365/business-central/production-about-production-orders
   #        - text: Subcontract manufacturing
   #          url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
   #        - text: Post consumption and output
   #          url: /dynamics365/business-central/production-how-to-register-consumption-and-output
-      - title: Warehouse management
-        links:
-          - text: Overview
-            url: /dynamics365/business-central/warehouse-manage-warehouse
-          - text: Warehouse reports
-            url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Put items
-            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
-#          - text: Move items
-#            url: /dynamics365/business-central/warehouse-move-items
-#          - text: Pick items
-#            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
-      - title: Service management
-        links:
-          - text: Overview
-            url: /dynamics365/business-central/service-service
-          - text: Planning
-            url: /dynamics365/business-central/service-plan-service
-          - text: Fulfill service contracts
-            url: /dynamics365/business-central/service-fulfill-service-contracts
-#          - text: Deliver service
-#            url: /dynamics365/business-central/service-deliver-service
-#          - text: Create service quotes
-#            url: /dynamics365/business-central/service-how-to-create-service-quotes
       - title: Online store with Shopify
         links:
           - text: Get started
@@ -364,6 +343,26 @@ additionalContent:
 #            url: /dynamics365/business-central/shopify/transactions-and-payouts
 #          - text: Set up taxes for the Shopify connection
 #            url: /dynamics365/business-central/shopify/setup-taxes
+      - title: Relationship management
+        links:
+          - text: Overview
+            url: /dynamics365/business-central/marketing-relationship-management
+          - text: Contacts
+            url: /dynamics365/business-central/marketing-contacts
+          - text: Segments
+            url: /dynamics365/business-central/marketing-segments
+#        - text: Interactions
+#            url: /dynamics365/business-central/marketing-interactions-overview
+#          - text: Opportunities
+#            url: /dynamics365/business-central/marketing-manage-sales-opportunities
+      - title: Human resources
+        links:
+          - text: Overview
+            url: /dynamics365/business-central/hr-manage-human-resources
+          - text: Register employees
+            url: /dynamics365/business-central/hr-how-register-employees
+          - text: Manage employee absence
+            url: /dynamics365/business-central/hr-how-manage-absence
       - title: Local functionality
         links:
           - text: Overview
@@ -414,12 +413,12 @@ additionalContent:
 #            url: /dynamics365/business-central/across-work-with-excel
       - title: BI, reporting, and data analysis
         links:
-          - text: Overview
+          - text: Analytics overview
             url: /dynamics365/business-central/reports-bi-reporting
-          - text: Run, schedule, and print reports
-            url: /dynamics365/business-central/ui-work-report
-          - text: Work with Power BI reports in Business Central
-            url: /dynamics365/business-central/across-working-with-powerbi
+          - text: Built-in Power BI reports
+            url: /dynamics365/business-central/across-powerbi-apps-by-functional-area
+          - text: Analyze your data
+            url: /dynamics365/business-central/reports-adhoc-analysis
         # - text: Change layout
         #    url: /dynamics365/business-central/ui-set-report-layout                                                   
         #  - text: Analyze list data with analysis mode

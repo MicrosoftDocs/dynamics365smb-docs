@@ -35,7 +35,7 @@ Once your accountant has access to your [!INCLUDE[prod_short](includes/prod_shor
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
-It's easy to invite your external accountant. Open the **Users** page, and then select the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
+To invite your external accountant, open the **Users** page and select **Invite External Accountant** in the ribbon. An email is prepared for you; just add your accountant's work email and send the invitation.
 
 > [!Note]  
 > This requires that you have set up SMTP email. Learn more in [Set Up Email](admin-how-setup-email.md).  
@@ -47,7 +47,7 @@ It's easy to invite your external accountant. Open the **Users** page, and then 
 
 ### Add your accountant to your Microsoft 365 tenant
 
-If your administrator or reselling partner doesn't want to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central, and then assign this user the *External Accountant* license. You can add a user by using Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your administrator or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### Add your accountant as a guest user
 
@@ -65,7 +65,7 @@ If your administrator or reselling partner doesn't want to use the **Invite Exte
    A notification appears in the upper right with the message **Successfully invited user**.
 1. After you send the invitation, the guest user receives an email invitation to join your organization. Once they accept the invitation, the user account is automatically added to the directory as a guest.
 
-Next, you must assign the new guest user a license to [!INCLUDE[prod_short](includes/prod_short.md)].
+Next, assign the new guest user a license to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### Give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -82,7 +82,7 @@ If successful, the license is assigned to the guest user, and the guest account 
 
 ### Import the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The accountant receives an email that notifies them that they have access to your Microsoft Entra ID. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
+The accountant receives an email notifying them that they have access to your Microsoft Entra ID. Next, give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### Add the accountant to the right company
 

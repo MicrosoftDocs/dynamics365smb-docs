@@ -45,17 +45,17 @@ It's easy to invite your external accountant. Open the **Users** page, and then 
 >
 > This task requires access to managing users and licenses in Microsoft Entra ID. The user who sends this invitation must be assigned at least the [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) role in the Microsoft 365 admin center. Learn more in [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
-### Add your accountant to your Microsoft 365 in the Azure portal
+### Add your accountant to your Microsoft 365 tenant
 
-If your administrator or reselling partner doesn't want to use the **Invite External Accountant** guide, they can add an external user in the Azure portal and assign this user the *External Accountant* license. Learn more in [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your administrator or reselling partner doesn't want to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central, and then assign this user the *External Accountant* license. You can add a user by using Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### Add your accountant as a guest user
 
-1. Open the [Microsoft admin center](https://admin.microsoft.com).
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) as at least a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator).
 1. In the navigation pane on along the left side, select **Users** > **Guest users**.
 1. Select **Add a guest user**.
 
-   You're redirected to the Azure Active Directory portal.
+   You're redirected to the Azure portal.
 1. On the **New user** page, select **Invite user** and then add the accountant's email address and information about your external accountant.  
 
    Optionally, include a personal welcome message to the accountant to let them know that you're adding them to your [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -73,9 +73,9 @@ Next, you must assign the new guest user a license to [!INCLUDE[prod_short](incl
 1. Select the accountant's guest user account in the list, then select **Manage product licenses** to open the guest user profile pane.
 1. Under **Licenses and apps**, select **Dynamics 365 Business Central External Accountant** license.  
 
-    If this license isn't available, contact your reselling partner to add the license to your subscription.
+   If this license isn't available, contact your reselling partner to add the license to your subscription.
 
-    Specifically for evaluation purposes in a trial tenant, you can use an available **Dynamics 365 Business Central for IWs** license instead. However, you can't use this type of license if you already purchased [!INCLUDE[prod_short](includes/prod_short.md)].
+   Specifically for evaluation purposes in a trial tenant, you can use an available **Dynamics 365 Business Central for IWs** license instead. However, you can't use this type of license if you already purchased [!INCLUDE[prod_short](includes/prod_short.md)].
 1. Select **Save changes**.
 
 If successful, the license is assigned to the guest user, and the guest account is created.
@@ -84,15 +84,30 @@ If successful, the license is assigned to the guest user, and the guest account 
 
 The accountant receives an email that notifies them that they have access to your Microsoft Entra ID. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### To add the accountant to the right company
+#### Add the accountant to the right company
 
-1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] company that you want to give the accountant access to at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
-3. Select the **Get New Users from Microsoft 365** action.
+1. Sign in to [Business Central](https://businesscentral.dynamics.com).
+1. Open company that you want to give the accountant access to. Learn more in [Switching to Another Company or Environment](ui-organization-switch.md).
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
+1. Select the **Get New Users from Microsoft 365** action.
 
 This action imports the user account that you created in the Azure portal to the company. Learn more in [To add a user in Business Central](ui-how-users-permissions.md#adduser).  
 
-If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+If you want to give access to multiple companies, then you must sign in to each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+
+### Inform accountant how to sign in to Business Central
+
+Unlike internal users, who access Business Central using the common endpoint URL `https://businesscentral.dynamics.com`, guest users must access your Business Central environment using it's fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
+
+Guest users can sign in using two different methods. They open thier browser, enter the fully qualified domain name in the address, and then sign in using thier username and password. Alternatively, they can:
+
+1. Enter `https://businesscentral.dynamics.com` in the browser address.
+1. Select **Sign in options**
+1. Select **Sign in to an organization**.
+1. Enter the domain name of your organization, for exampleb `contoso.com`, and then select **Next**.
+1. Sign in using thier username and password.
+
+Learn more in [B2B collaboration invitation redemption](/entra/external-id/redemption-experience).
 
 ## Related information
 

@@ -150,6 +150,8 @@ Each semantic model requires two parameters:
 
 You can find these values in the connection details of the assisted setup guide or on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
 
+To set or change values for the parameters, open the app workspace in your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Then locate the semantic model and choose *More options*. Now choose *Settings* and then *Parameters*.
+
 ## Get the latest data (refresh the semantic model)
 
 Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a semantic model (also known as a dataset) that gets data from [!INCLUDE [prod_short](includes/prod_short.md)] APIs. Make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE [prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing* the model. Depending on your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] setup, refreshing might not happen automatically. You can refresh data manually, or by scheduling a refresh. You can do a manual refresh at any time. A scheduled refresh lets you refresh data automatically at defined time intervals.

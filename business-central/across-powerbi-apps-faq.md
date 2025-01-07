@@ -51,6 +51,10 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
+## How do I change the connection parameters for an app?
+
+To learn more, go to [Connect the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models to [!INCLUDE [prod_short](includes/prod_short.md)]](./across-powerbi-install-business-central-apps.md#connect-the-include-powerbi-name-semantic-models-to-include-prod_short).
+
 ## How do I update an app?
 
 To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).

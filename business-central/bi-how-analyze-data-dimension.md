@@ -76,7 +76,7 @@ Use the following procedure to update an analysis view from the **Analysis by Di
 
 ## See also
 
-[Financial Business Intelligence](bi.md)  
+[Financial analytics overview](bi.md)   
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

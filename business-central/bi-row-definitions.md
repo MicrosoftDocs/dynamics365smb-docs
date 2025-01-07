@@ -89,7 +89,7 @@ To import or export financial report row definitions, follow these steps:
 
 [Column definitions in financial reporting](bi-column-definitions.md)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
-[Financial Business Intelligence](bi.md)  
+[Financial analytics overview](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

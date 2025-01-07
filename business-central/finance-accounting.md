@@ -21,7 +21,7 @@ Any business must do its books and sign off on the accounting. Some businesses e
 
 The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. The ribbon at the top of the page gives you access to more actions. For example, to open financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, there are other areas, such as **Posted Documents** with the various types of documents that the company posted.  
 
-If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch a list of videos right from your Role Center. You can also launch a **Getting Started** tour that points out key areas.  
+If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], select **Product Videos** to watch videos or **Get Started** for a tour of key areas in the Role Center.
 
 ## Company Hub
 
@@ -95,14 +95,14 @@ This action imports the user account that you created in the Azure portal to the
 
 If you want to give access to multiple companies, then you must sign in to each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
-### Tell your accountant how to sign in to Business Central
+### Tell your external accountant how to sign in to Business Central
 
-Unlike internal users, who access Business Central using the common endpoint URL `https://businesscentral.dynamics.com`, guest users must access your Business Central environment using its fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
+Unlike internal users, who access Business Central using the common URL `https://businesscentral.dynamics.com`, guest users like external accounts must access Business Central using its fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
 
-Guest users can sign in using two different methods. They open their browser, enter the fully qualified domain name in the address, and then sign in using their username and password. Alternatively, they can:
+Guest users can sign in using two different methods. They can open their browser, enter the fully qualified domain name in the address, and then sign in using their username and password. Alternatively, they can:
 
 1. Enter `https://businesscentral.dynamics.com` in the browser address.
-1. Select **Sign in options**
+1. Select **Sign in options**.
 1. Select **Sign in to an organization**.
 1. Enter the domain name of your organization, for example `contoso.com`, and then select **Next**.
 1. Sign in using their username and password.

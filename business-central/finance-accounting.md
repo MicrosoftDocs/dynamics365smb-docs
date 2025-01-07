@@ -95,7 +95,7 @@ This action imports the user account that you created in the Azure portal to the
 
 If you want to give access to multiple companies, then you must sign in to each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
-### Inform your accountant how to sign in to Business Central
+### Tell your accountant how to sign in to Business Central
 
 Unlike internal users, who access Business Central using the common endpoint URL `https://businesscentral.dynamics.com`, guest users must access your Business Central environment using its fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
 

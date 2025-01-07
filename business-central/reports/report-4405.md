@@ -43,6 +43,8 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 :::image type="content" source="../media/excel-trial-balance-trial-balance-lcy.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## Trial Balance (ACY) worksheet
 
 This worksheet shows the trial balance with amounts in ACY. The report requires that you use ACY.
@@ -50,6 +52,8 @@ This worksheet shows the trial balance with amounts in ACY. The report requires 
 Filters and slicers let you zoom in on the balance as seen from global dimensions, or by account categories and subcategories.
 
 :::image type="content" source="../media/excel-trial-balance-trial-balance-acy.png" alt-text="Screenshot of the Trial Balance (ACY) worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## TrialBalanceData worksheet
 

@@ -49,17 +49,23 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-By-Business-Unit-LCY.png" alt-text="Screenshot of the By Business Unit (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## Trial Balance (ACY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in additional reporting currency (ACY). The report requires that you use ACY. If you don't use ACY, the report doesn't show data.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-Trial-Balance-ACY.png" alt-text="Screenshot of the Trial Balance (ACY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Business Unit (ACY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in ACY for your business units.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-By-Business-Unit-ACY.png" alt-text="Screenshot of the By Business Unit (ACY) worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## TrialBalanceData worksheet
 

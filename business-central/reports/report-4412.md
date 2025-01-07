@@ -45,6 +45,8 @@ The filters and slicers on the worksheet let you zoom in on a fixed asset's clas
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet" lightbox="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## Book Value worksheet
 
 This worksheet shows fixed asset details in the given time periods, such as:
@@ -56,6 +58,8 @@ This worksheet shows fixed asset details in the given time periods, such as:
 The filters and slicers on the worksheet let you zoom in on a fixed assets class, sub class, or location. You can also filter by department code or project code, if needed.
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet" lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## FixedAssetData worksheet
 

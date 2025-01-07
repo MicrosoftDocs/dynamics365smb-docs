@@ -40,6 +40,8 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-By-period-(LCY).png" alt-text="Screenshot of the By period (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Period (FCY) worksheet
 
 This worksheet shows amounts in foreign currency (FCY) by customer and with the ability to group data by a Year-Quarter-Month-Day hierarchy on the due date.
@@ -48,6 +50,8 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-By-period-(FCY).png" alt-text="Screenshot of the By period (FCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## Due by Currencies worksheet
 
 This worksheet shows amounts by currency code and with the ability to group data by a Year-Quarter-Month-Day hierarchy on the due date.
@@ -55,6 +59,8 @@ This worksheet shows amounts by currency code and with the ability to group data
 With filters and slicers, you can zoom into a single customer or a group of customers. You can also filter by one or more currency codes, if needed.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-Due-by-Currencies.png" alt-text="Screenshot of the Due by Currencies worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## CustomerAgingData worksheet
 

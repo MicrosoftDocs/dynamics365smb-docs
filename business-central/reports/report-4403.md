@@ -40,6 +40,8 @@ The filters and slicers let you zoom in on a single vendor or a group of vendors
 
 :::image type="content" source="../media/excel-aged-accounts-payable-by-period-LCY.png" alt-text="Screenshot of the By period (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Period (FCY) worksheet
 
 This worksheet shows amounts in foreign currency (FCY) by vendor, and you can group data by a Year-Quarter-Month-Day hierarchy on the due date.
@@ -48,6 +50,8 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 :::image type="content" source="../media/excel-aged-accounts-payable-by-period-FCY.png" alt-text="Screenshot of the By period (FCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## Due by Currencies worksheet
 
 This worksheet shows amounts by currency code, and you can group data by a Year-Quarter-Month-Day hierarchy on the due date.
@@ -55,6 +59,8 @@ This worksheet shows amounts by currency code, and you can group data by a Year-
 The filters and slicers let you zoom in on a vendor or a group of vendors. You can also filter by one or more currency codes, if needed.
 
 :::image type="content" source="../media/excel-aged-accounts-payable-due-by-currencies.png" alt-text="Screenshot of the Due by Currencies worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## VendorAgingData worksheet
 

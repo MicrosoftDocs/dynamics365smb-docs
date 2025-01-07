@@ -99,7 +99,7 @@ If you want to give access to multiple companies, then you must sign in to each 
 
 Unlike internal users who access Business Central using the common URL `https://businesscentral.dynamics.com`, guest users must use the fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
 
-Guest users can sign in using two methods. They can open their browser, enter the fully qualified domain name in the address, and sign in using their username and password. Alternatively, they can:
+Guest users can sign in using two methods. They can open their browser, enter the fully qualified domain name in the address bar, and sign in using their username and password. Alternatively, they can:
 
 1. Enter `https://businesscentral.dynamics.com` in the browser address bar.
 1. Select **Sign in options**.

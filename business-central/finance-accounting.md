@@ -25,29 +25,29 @@ If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], select **Produc
 
 ## Company Hub
 
-If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies, you might find it useful to use the **Company Hub** page to keep track of work. Learn more in [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
+If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies, use the **Company Hub** page to keep track of work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
 ## <a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
 
-If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licenses of type External Accountant. For more information about licensing, download the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+If you use an external accountant to manage your books and financial reporting, your admin can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licenses of type External Accountant. For more information about licensing, download the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-Once your accountant has access to your [!INCLUDE[prod_short](includes/prod_short.md)], they can use the **Accountant** Role Center for easy access to the pages for their work. They can also use the company hub in their own [!INCLUDE [prod_short](includes/prod_short.md)] to manage their work. Learn more in [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
+Once your accountant has access to your [!INCLUDE[prod_short](includes/prod_short.md)], they can use the **Accountant** Role Center for easy access to the pages for their work. They can also use the company hub in their own [!INCLUDE [prod_short](includes/prod_short.md)] to manage their work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
-To invite your external accountant, open the **Users** page and select **Invite External Accountant** in the ribbon. An email is prepared for you; just add your accountant's work email and send the invitation.
+To invite your external accountant, open the **Users** page and select **Invite External Accountant** in the ribbon. An email is prepared for you. Just add your accountant's work email and send the invitation.
 
 > [!Note]  
 > This requires that you have set up SMTP email. Learn more in [Set Up Email](admin-how-setup-email.md).  
 
 > [!IMPORTANT]  
-> The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation can't be sent.
+> The accountant's email address must be a work address based on Microsoft Entra ID. If the accountant uses another type of email, the invitation can't be sent.
 >
 > This task requires access to managing users and licenses in Microsoft Entra ID. The user who sends this invitation must be assigned at least the [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) role in the Microsoft 365 admin center. Learn more in [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
 ### Add your accountant to your Microsoft 365 tenant
 
-If your administrator or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your admin or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### Add your accountant as a guest user
 
@@ -65,7 +65,7 @@ If your administrator or reselling partner prefers not to use the **Invite Exter
    A notification appears in the upper right with the message **Successfully invited user**.
 1. After you send the invitation, the guest user receives an email invitation to join your organization. Once they accept the invitation, the user account is automatically added to the directory as a guest.
 
-Next, assign the new guest user a license to [!INCLUDE[prod_short](includes/prod_short.md)].
+Next, assign the new guest user a license for [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### Give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -82,9 +82,9 @@ If successful, the license is assigned to the guest user, and the guest account 
 
 ### Import the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The accountant receives an email notifying them that they have access to your Microsoft Entra ID. Next, give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
+The accountant receives an email notifying them that they have access to your Microsoft Entra ID. Next, give them access to the correct company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### Add the accountant to the right company
+#### Add the accountant to the correct company
 
 1. Sign in to [Business Central](https://businesscentral.dynamics.com).
 1. Open company that you want to give the accountant access to. Learn more in [Switching to Another Company or Environment](ui-organization-switch.md).
@@ -120,6 +120,5 @@ Learn more in [B2B collaboration invitation redemption](/entra/external-id/redem
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

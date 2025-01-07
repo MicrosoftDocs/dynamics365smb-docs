@@ -283,30 +283,6 @@ additionalContent:
  #           url: /dynamics365/business-central/fa-how-maintain
  #         - text: Insure fixed assets
  #           url: /dynamics365/business-central/fa-how-insure      
-      - title: Project management
-        links:
-          - text: Overview
-            url: /dynamics365/business-central/projects-manage-projects
-          - text: Project management analytics
-            url: /dynamics365/business-central/projects-analytics-overview
-          - text: Create projects
-            url: /dynamics365/business-central/projects-how-create-jobs
-#          - text: Use resources for projects
- #           url: /dynamics365/business-central/projects-how-use-resources
-   #       - text: Use time sheets
-    #        url: /dynamics365/business-central/projects-how-use-time-sheets
-      - title: Service management
-        links:
-          - text: Overview
-            url: /dynamics365/business-central/service-service
-          - text: Planning
-            url: /dynamics365/business-central/service-plan-service
-          - text: Fulfill service contracts
-            url: /dynamics365/business-central/service-fulfill-service-contracts
-#          - text: Deliver service
-#            url: /dynamics365/business-central/service-deliver-service
-#          - text: Create service quotes
-#            url: /dynamics365/business-central/service-how-to-create-service-quotes
       - title: Planning
         links:
           - text: Overview
@@ -343,6 +319,30 @@ additionalContent:
   #          url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
   #        - text: Post consumption and output
   #          url: /dynamics365/business-central/production-how-to-register-consumption-and-output
+      - title: Project management
+        links:
+          - text: Overview
+            url: /dynamics365/business-central/projects-manage-projects
+          - text: Project management analytics
+            url: /dynamics365/business-central/projects-analytics-overview
+          - text: Create projects
+            url: /dynamics365/business-central/projects-how-create-jobs
+#          - text: Use resources for projects
+ #           url: /dynamics365/business-central/projects-how-use-resources
+   #       - text: Use time sheets
+    #        url: /dynamics365/business-central/projects-how-use-time-sheets
+      - title: Service management
+        links:
+          - text: Overview
+            url: /dynamics365/business-central/service-service
+          - text: Planning
+            url: /dynamics365/business-central/service-plan-service
+          - text: Fulfill service contracts
+            url: /dynamics365/business-central/service-fulfill-service-contracts
+#          - text: Deliver service
+#            url: /dynamics365/business-central/service-deliver-service
+#          - text: Create service quotes
+#            url: /dynamics365/business-central/service-how-to-create-service-quotes
       - title: Relationship management
         links:
           - text: Overview

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
-ms.date: 11/28/2024
+ms.date: 01/03/25
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -19,7 +19,7 @@ Any business must do its books and sign off on the accounting. Some businesses e
 
 ## Accountant Role Center
 
-The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. The ribbon at the top of the page gives you access to more actions. For example, to open financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, you see other areas, such as **Posted Documents** with the various types of documents that the company posted.  
+The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. The ribbon at the top of the page gives you access to more actions. For example, to open financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, there are other areas, such as **Posted Documents** with the various types of documents that the company posted.  
 
 If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch a list of videos right from your Role Center. You can also launch a **Getting Started** tour that points out key areas.  
 
@@ -41,7 +41,7 @@ It's easy to invite your external accountant. Open the **Users** page, and then 
 > This requires that you have set up SMTP email. Learn more in [Set Up Email](admin-how-setup-email.md).  
 
 > [!IMPORTANT]  
-> The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation cannot be sent.
+> The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation can't be sent.
 >
 > This task requires access to managing users and licenses in Microsoft Entra ID. The user who sends this invitation must be assigned at least the [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) role in the Microsoft 365 admin center. Learn more in [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
@@ -95,17 +95,17 @@ This action imports the user account that you created in the Azure portal to the
 
 If you want to give access to multiple companies, then you must sign in to each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. Learn more in [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
-### Inform accountant how to sign in to Business Central
+### Inform your accountant how to sign in to Business Central
 
-Unlike internal users, who access Business Central using the common endpoint URL `https://businesscentral.dynamics.com`, guest users must access your Business Central environment using it's fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
+Unlike internal users, who access Business Central using the common endpoint URL `https://businesscentral.dynamics.com`, guest users must access your Business Central environment using its fully qualified domain name. The fully qualified domain name has the format `https://businesscentral.dynamics.com/<tenant ID or domain name>`, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee` or `https://businesscentral.dynamics.com/contoso.com`.
 
-Guest users can sign in using two different methods. They open thier browser, enter the fully qualified domain name in the address, and then sign in using thier username and password. Alternatively, they can:
+Guest users can sign in using two different methods. They open their browser, enter the fully qualified domain name in the address, and then sign in using their username and password. Alternatively, they can:
 
 1. Enter `https://businesscentral.dynamics.com` in the browser address.
 1. Select **Sign in options**
 1. Select **Sign in to an organization**.
-1. Enter the domain name of your organization, for exampleb `contoso.com`, and then select **Next**.
-1. Sign in using thier username and password.
+1. Enter the domain name of your organization, for example `contoso.com`, and then select **Next**.
+1. Sign in using their username and password.
 
 Learn more in [B2B collaboration invitation redemption](/entra/external-id/redemption-experience).
 

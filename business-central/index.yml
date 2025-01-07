@@ -259,6 +259,18 @@ additionalContent:
 #            url: /dynamics365/business-central/warehouse-move-items
 #          - text: Pick items
 #            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
+      - title: Online store with Shopify
+        links:
+          - text: Get started
+            url: /dynamics365/business-central/shopify/get-started
+          - text: Synchronize Customers with Shopify
+            url: /dynamics365/business-central/shopify/synchronize-customers
+          - text: Synchronize and fulfill sales orders with Shopify
+            url: /dynamics365/business-central/shopify/synchronize-orders
+#          - text: Synchronize Transactions and payouts
+#            url: /dynamics365/business-central/shopify/transactions-and-payouts
+#          - text: Set up taxes for the Shopify connection
+#            url: /dynamics365/business-central/shopify/setup-taxes
       - title: Fixed assets
         links:
           - text: Overview
@@ -331,18 +343,6 @@ additionalContent:
   #          url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
   #        - text: Post consumption and output
   #          url: /dynamics365/business-central/production-how-to-register-consumption-and-output
-      - title: Online store with Shopify
-        links:
-          - text: Get started
-            url: /dynamics365/business-central/shopify/get-started
-          - text: Synchronize Customers with Shopify
-            url: /dynamics365/business-central/shopify/synchronize-customers
-          - text: Synchronize and fulfill sales orders with Shopify
-            url: /dynamics365/business-central/shopify/synchronize-orders
-#          - text: Synchronize Transactions and payouts
-#            url: /dynamics365/business-central/shopify/transactions-and-payouts
-#          - text: Set up taxes for the Shopify connection
-#            url: /dynamics365/business-central/shopify/setup-taxes
       - title: Relationship management
         links:
           - text: Overview

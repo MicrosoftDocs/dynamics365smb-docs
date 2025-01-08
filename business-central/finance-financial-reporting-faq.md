@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Frequently asked questions about the Financial Reporting feature in Business Central
+# Financial Reporting frequently asked questions (FAQ) 
 
-This article provides answers to frequently asked questions (FAQs) about the Financial Reporting feature in [!INCLUDE [prod_short](includes/prod_short.md)].
+This article provides answers to frequently asked questions about the Financial Reporting feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
 ## New report/row/column definitions are not available after an upgrade. How do I get access to them?

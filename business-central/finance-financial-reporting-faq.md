@@ -16,19 +16,19 @@ ms.custom: bap-template
 
 This article provides answers to frequently asked questions (FAQs) about the Financial Reporting feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-<!-- This question is not ready for publish
+
 ## New report/row/column definitions are not available after an upgrade. How do I get access to them?
 
-Finanical report/row/column definitions are stored as data in the [!INCLUDE [prod_short](prod_short.md)] database. To make sure your definitions are not overwritten or changed during upgrades, new report/row/column definitions are only available in new [!INCLUDE [prod_short](prod_short.md)] companies. 
+Finanical report/row/column definitions are stored as data in the [!INCLUDE [prod_short](prod_short.md)] database. To make sure your definitions are not overwritten or changed during upgrades, new report/row/column definitions are only available in new [!INCLUDE [prod_short](prod_short.md)] tenants. 
 
 If you want to make new report/row/column definitions available in existing companies, do as follows:
-1. creating a new company 
+1. Create a new tenant 
 1. Export the definitions you would like as configuration packages. 
-1. Shift to the company where you want the new definitions.
+1. Login to your tenant and shift to the company where you want the new definitions.
 1. Import configuration packages with the new definitions. 
 
 To learn more, go to [Import or export financial report definitions](bi-how-work-account-schedule.md#import-or-export-financial-report-definitions). 
--->
+
 
 ## Which users can run or modify financial reports?
 

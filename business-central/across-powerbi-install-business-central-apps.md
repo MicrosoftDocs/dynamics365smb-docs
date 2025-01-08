@@ -150,7 +150,7 @@ Each semantic model requires two parameters:
 
 You can find these values in the connection details of the assisted setup guide or on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
 
-To set or change values for the parameters, open the app workspace in your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Then locate the semantic model and choose *More options*. Now choose *Settings* and then *Parameters*.
+To set or change values for the parameters, open the app workspace in your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Locate the semantic model, and choose **More options**. Now choose **Settings**, and then **Parameters**.
 
 ## Get the latest data (refresh the semantic model)
 

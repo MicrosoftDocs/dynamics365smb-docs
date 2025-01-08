@@ -239,11 +239,10 @@ The following table lists the permission sets that control whether you can view 
 
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  
-[Run and Print Reports](ui-work-report.md)  
-[Financial Business Intelligence](bi.md)  
+[The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
+[Financial analytics overview](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

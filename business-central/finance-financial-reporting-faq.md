@@ -19,7 +19,7 @@ This article provides answers to frequently asked questions (FAQs) about the Fin
 
 ## New report/row/column definitions are not available after an upgrade. How do I get access to them?
 
-Finanical report/row/column definitions are stored as data in the [!INCLUDE [prod_short](prod_short.md)] database. To make sure your definitions are not overwritten or changed during upgrades, new report/row/column definitions are only available in new [!INCLUDE [prod_short](prod_short.md)] tenants. 
+Finanical report/row/column definitions are stored as data in the [!INCLUDE [prod_short](includes/prod_short.md)] database. To make sure your definitions are not overwritten or changed during upgrades, new report/row/column definitions are only available in new [!INCLUDE [prod_short](includes/prod_short.md)] tenants. 
 
 If you want to make new report/row/column definitions available in existing companies, do as follows:
 1. Create a new tenant 

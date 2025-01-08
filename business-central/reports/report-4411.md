@@ -50,6 +50,10 @@ This worksheet shows the raw data used in the report.
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4411-scenario](../includes/report-4411-scenario-include.md)]
@@ -107,6 +111,10 @@ Financial analysts use the report to:
 Try the report here: [Fixed Asset Details Excel](https://businesscentral.dynamics.com?report=4411)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

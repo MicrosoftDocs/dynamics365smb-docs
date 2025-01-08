@@ -35,10 +35,10 @@ After your accountant can access your [!INCLUDE[prod_short](includes/prod_short.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
-It's easy to invite your external accountant. Open the **Users** page, and then select the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
+It's easy to invite your external accountant. In [!INCLUDE [prod_short](includes/prod_short.md)], open the **Users** page, and then select the **Invite external accountant** action. [!INCLUDE [prod_short](includes/prod_short.md)] prepares an email for you. Just add your accountant's work email, and send the invitation.  
 
 > [!Note]  
-> This requires that you have set up SMTP email. Learn more in [Set Up Email](admin-how-setup-email.md).  
+> This action requires that you set up email in your [!INCLUDE [prod_short](includes/prod_short.md)] to use SMTP. Learn more in [Set Up Email](admin-how-setup-email.md).  
 
 > [!IMPORTANT]  
 > The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation cannot be sent.
@@ -52,12 +52,13 @@ If your administrator or reselling partner doesn't want to use the **Invite Exte
 #### Add your accountant as a guest user
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com).
-1. In the navigation pane, select **Users**, then **New user**, and then **Invite external user**.
+1. In the navigation pane, select **Users**.
+1. On the **Users** page, select **New user**, and then **Invite external user**.
 1. On the **Invite external user** page, add the accountant's email address and other information about them.  
 
    Optionally, include a personal welcome message to let the accountant know that you're adding them to your [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Select **Review + Invite** to automatically send the invitation.
+1. When you're finished, select **Review + Invite**.
 1. Review the information, and then choose **Invite**.
 
 After you send the invitation, the external user receives an email invitation to join your organization. After they accept the invitation, the user account is added as a guest.

@@ -24,7 +24,7 @@ To create or edit a row definition, follow these steps:
 1. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, explore the financial reports in the CRONUS demonstration company.
 
     > [!NOTE]
-    > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. If you add elements with identifiers that start with the same 10 characters, you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
+    > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. Adding elements with identifiers that start with the same 10 characters creates duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
 
    > [!NOTE]
    > The columns you define on each line in the row definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
@@ -61,7 +61,7 @@ You can use G/L account categories to change the layout of your financial statem
 Another benefit of using G/L account categories over the raw G/L accounts in your row definitions is that a change in your chart of accounts structure doesn't affect your financial reports.
 
 > [!NOTE]
-> The top-level account categories, such as the **Liabilities** node, are fixed and you can't add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.
+> The top-level account categories, such as the **Liabilities** node, are fixed, and you can't add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.
 >
 > You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes. Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger.md#account-categories).
 
@@ -78,7 +78,7 @@ Row definitions aren't versioned. When you change a row definition, the old vers
 You can import and export financial row definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial reporting row definitions, existing records with the same names as those you are importing are replaced with the new definitions. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
+> When you import row definitions, the records replace existing records with the same names. It doesn't overwrite existing row or column definitions that the report definition uses.
 
 To import or export financial report row definitions, follow these steps:
 

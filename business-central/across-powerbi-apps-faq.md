@@ -53,7 +53,7 @@ To learn more, go to [Get the latest data (refresh the semantic model)](./across
 
 ## How do I change the connection parameters for an app?
 
-To learn more, go to [Connect the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models to [!INCLUDE [prod_short](includes/prod_short.md)]](across-powerbi-install-business-central-apps.md#connect-the-include-powerbi-nameincludespowerbi-namemd-semantic-models-to-include-prod_shortincludesprod_shortmd).
+To learn more, go to [Connect the Power BI semantic models to Business Central](across-powerbi-install-business-central-apps.md#connect-the-power-bi-semantic-models-to-business-central).
 
 ## How do I update an app?
 

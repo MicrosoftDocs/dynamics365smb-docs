@@ -139,7 +139,7 @@ To enable the embedded report pages in [!INCLUDE [prod_short](includes/prod_shor
 1. Select the workspace where you store the corresponding [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app.
 1. Select the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report (app) you want to map.
 
-## Connect the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models to [!INCLUDE [prod_short](includes/prod_short.md)]
+## Connect the Power BI semantic models to Business Central
 
 Do this part of the configuration in the semantic models in your [Power BI service](https://app.powerbi.com).
 

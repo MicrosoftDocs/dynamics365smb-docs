@@ -112,7 +112,7 @@ Try the report here: [Fixed Asset Details Excel](https://businesscentral.dynamic
 
 There are several other ways to analyze your fixed assets. To learn more, go to:
 
-- [Fixed Asset Details (legacy report)](report-5604.md)
+- [Fixed Asset (FA) Details (legacy report)](report-5604.md)
 - [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
 
 ## Contributors
@@ -120,6 +120,7 @@ There are several other ways to analyze your fixed assets. To learn more, go to:
 [!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
 - [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+- [Steve Chinsky ](https://www.linkedin.com/in/steve-chinsky-321a20/) | Microsoft MVP
 
 ## Related information
 

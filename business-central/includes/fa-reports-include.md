@@ -24,7 +24,7 @@ The following table describes some of the key reports in fixed asset management.
 | [!INCLUDE[report-5611-scenario](../includes/report-5611-scenario-include.md)] | [FA Posting Group - Net Change Report](https://businesscentral.dynamics.com?report=5611) | [About *FA Posting Group - Net Change Report*](../reports/report-5611.md) | 5611 |
 | [!INCLUDE[report-5636-scenario](../includes/report-5636-scenario-include.md)] | [Fixed Asset Document Nos.](https://businesscentral.dynamics.com?report=5636) | [About *Fixed Asset Document Nos.*](../reports/report-5636.md) | 5636 |
 | This is a legacy report for fixed assets. See report documentation for alternatives. | [Fixed Asset Analysis](https://businesscentral.dynamics.com?report=5600) | [About *Fixed Asset Analysis (legacy)*](../reports/report-5600.md) | 5600 |
-| This is a legacy report for fixed assets. See report documentation for alternatives. | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset Details (legacy)*](../reports/report-5604.md) | 5604 |
+| This is a legacy report for fixed assets. See report documentation for alternatives. | [Fixed Asset Details](https://businesscentral.dynamics.com?report=5604) | [About *Fixed Asset (FA) Details (legacy)*](../reports/report-5604.md) | 5604 |
 | This is a legacy report for fixed assets. See report documentation for alternatives. | [Fixed Asset Projected Value](https://businesscentral.dynamics.com?report=5607) | [About *Fixed Asset Projected Value (legacy)*](../reports/report-5607.md) | 5607 |
 
 

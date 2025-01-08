@@ -40,6 +40,8 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 :::image type="content" source="../media/excel-trial-balance-vs-budget-worksheet.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## TrialBalanceBudgetData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]

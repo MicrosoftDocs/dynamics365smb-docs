@@ -38,6 +38,8 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 
 :::image type="content" source="../media/excel-top-10-customers-top-customer-list.png" alt-text="Screenshot of the Top Customer List worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## TopCustomerData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]

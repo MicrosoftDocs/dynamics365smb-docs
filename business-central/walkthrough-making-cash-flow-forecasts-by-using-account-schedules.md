@@ -131,15 +131,15 @@ Ken is now ready to assign the column definition to the financial report name.
 
 ## View and print the cash flow forecast
 
-1. On the **Financial Reports** page, choose the **Forecast** financial report to view the cash flow forecast.  
+1. On the **Financial Reports** page, choose the **Forecast** financial report [Financial analytics overview](bi.md)  to view the cash flow forecast.  
 2. On the **Financial Report** page, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula used to calculate that amount. You can also filter the amounts by date and dimension.  
 3. Choose the **Print** action to print the cash flow forecast.  
 
 ## See also
 
-[Work with Financial Reports](bi-how-work-account-schedule.md)  
+[Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
+[Financial analytics overview](bi.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

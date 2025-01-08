@@ -38,6 +38,8 @@ The filters and slicers on the worksheet let you zoom in on a fixed asset's clas
 
 :::image type="content" source="../media/excel-Fixed-Asset-Projected-Value-Projected-Value.png" alt-text="Screenshot of the Fixed Asset Details worksheet" lightbox="../media/excel-Fixed-Asset-Projected-Value-Projected-Value.png":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## FixedAssetData worksheet
 
 This worksheet shows the raw data used in the report.

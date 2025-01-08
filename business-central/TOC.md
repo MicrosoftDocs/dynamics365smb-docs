@@ -227,13 +227,16 @@ ms.service: dynamics-365-business-central
 ##### [Map fields for the AMC banking 365 fundamentals extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 ## Finance
+
 ### [Finance overview](finance.md)
 
 <!-- Financial analytics start -->
-### Financial analytics 
+### Financial analytics
+
 #### [Financial analytics overview](bi.md)
 #### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- #### [Financial KPIs](bi-finance-kpis.md) -->
+
 #### [Power BI finance app](finance-powerbi-app.md)
 ##### [Financial Overview](finance-powerbi-financial-overview.md)
 ##### [Income Statement](finance-powerbi-income-statement.md)
@@ -249,7 +252,6 @@ ms.service: dynamics-365-business-central
 ##### [Finance KPI overview](finance-powerbi-kpis.md) 
 ##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
 
-
 <!-- 
 ##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
 ##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
@@ -257,6 +259,7 @@ ms.service: dynamics-365-business-central
 -->
 
 #### Financial reporting (Implementing financial statements and KPIs)
+
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
 ##### [Organize report data using account categories](bi-account-categories.md)
@@ -269,21 +272,22 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-##### [Financial Reporting FAQ]()
-
-
+##### [Frequently asked questions about the Financial Reporting feature in Business Central](finance-financial-reporting-faq.md)
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
+
 ##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 ##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
 ##### [Analyze Cash Flow](finance-analyze-cash-flow.md)
 ##### [Analyze your payment practices](ui-payment-practices.md)
 
 #### Built-in finance reports
+
 ##### Key finance reports
+
 ###### [Key finance report overview](finance-reports.md)
-###### [Detail Trial Balance](reports/report-4.md) 
+###### [Detail Trial Balance](reports/report-4.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 
 ###### [Trial Balance/Previous Year](reports/report-7.md) 
@@ -300,6 +304,7 @@ ms.service: dynamics-365-business-central
 ##### [Built-in fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
+
 ###### [Accounts payable analytics overview](payables-reports.md)
 ###### [Aged Accounts Payable Excel](reports/report-4403.md)
 ###### [Vendor - Top 10 List Excel](reports/report-4404.md)

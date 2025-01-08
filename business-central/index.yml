@@ -253,12 +253,10 @@ additionalContent:
             url: /dynamics365/business-central/warehouse-manage-warehouse
           - text: Warehouse reports
             url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Put items
-            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+          - text: Pick Items with Inventory Picks
+            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
 #          - text: Move items
 #            url: /dynamics365/business-central/warehouse-move-items
-#          - text: Pick items
-#            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
       - title: Online store with Shopify
         links:
           - text: Get started
@@ -287,8 +285,8 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/production-planning
-          - text: Plan with or without locations
-            url: /dynamics365/business-central/production-planning-with-without-locations
+          - text: Run Full Planning, MPS, or MRP
+            url: /dynamics365/business-central/production-how-to-run-mps-and-mrp
           - text: Create a forecast
             url: /dynamics365/business-central/production-how-to-create-a-forecast
 #          - text: Create production orders from sales order

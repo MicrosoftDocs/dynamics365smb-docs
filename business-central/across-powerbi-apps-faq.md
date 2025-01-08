@@ -35,11 +35,11 @@ To learn more, go to [Installing Power BI apps for Business Central (prerequisit
 You need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the following reasons:
 
 1. it is required to be able to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
-2. it is required for sharing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. 
+2. it is required for sharing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
 
 ## Can I install the same app multiple times for different companies or environments?
 
-Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app. 
+Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app.
 
 To learn more, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
 
@@ -53,7 +53,7 @@ To learn more, go to [Get the latest data (refresh the semantic model)](./across
 
 ## How do I change the connection parameters for an app?
 
-To learn more, go to [Connect the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models to [!INCLUDE [prod_short](includes/prod_short.md)]](./across-powerbi-install-business-central-apps.md#connect-the-include-powerbi-name-semantic-models-to-include-prod_short).
+To learn more, go to [Connect the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models to [!INCLUDE [prod_short](includes/prod_short.md)]](across-powerbi-install-business-central-apps.md#connect-the-include-powerbi-nameincludespowerbi-namemd-semantic-models-to-include-prod_shortincludesprod_shortmd).
 
 ## How do I update an app?
 
@@ -67,7 +67,7 @@ No. At the moment, the source code (.pbix files) for the apps isn't available. H
 
 No. At the moment, the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are only available for online environments.
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  

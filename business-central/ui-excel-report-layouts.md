@@ -23,7 +23,8 @@ This article explains some important things you need to know to get started with
 
 Benefits of using Excel layouts:
 
-- Create interactive reports using visualizations such as slicers.
+- As a user, you can create your own report layouts with Excel, either from scratch or based on an existing layout.
+- An Excel report layout can contain multiple worksheets, be interactive and use visualizations, pivot tables, and slicers.
 - View raw data from the report dataset, which helps you understand how the report works and where the data in visuals comes from.
 - Use built-in Microsoft Office features to do post-processing on rendered reports, including:
   - [Protecting worksheets](https://support.microsoft.com/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
@@ -44,7 +45,12 @@ There are basically two tasks involved in setting up an Excel layout of a report
 
 ## Task 1: Create the Excel layout file
 
-There are several ways to create an Excel layout file for a report.
+There are several ways to create an Excel layout file for a report:
+* From any report,
+* From another Excel report layout, or
+* From Visual Studio Code.
+
+In the tabs below, you can learn more about each approach.
 
 ### [From any report](#tab/any-report)
 
@@ -74,7 +80,7 @@ If there's already an Excel layout for a report, you can use the existing layout
 3. On the report's request page, choose **Download**.
 4. Open the file in Excel, make the changes, then save the file.
 
-### [From AL code](#tab/from-code)
+### [From Visual Studio Code](#tab/from-code)
 
 This method is the most advanced way to create an Excel report layout. It requires knowledge of AL code and is intended for programmers. In this approach, the Excel layouts are part of an extension package you install. Learn more at [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
 

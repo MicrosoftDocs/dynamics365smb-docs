@@ -79,13 +79,13 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 ## Currently unsupported features; however, we're tracking them and may consider adding them
 
 - Markets
-  - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
 - Draft orders
 
 ## Is the Shopify Connector extensible?
 
-Yes, the Shopify Connector is extensible. Check GitHub to access the [list of extensibility points](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) and explore some [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+The Shopify Connector offers a few points of extensibility. We're keeping the number of points to a minimum so that we can follow the rapid development on the Shopify side without introducing breaking changes. However most important scenarios are covered. For more details and examples, see [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+Instead of building every modification as extension, we suggest exploring if you can contribute code to the Shopify Connector through a co-development process.
 
 ## Is the Shopify Connector open for contribution?
 

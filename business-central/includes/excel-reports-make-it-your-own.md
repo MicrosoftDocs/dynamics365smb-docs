@@ -1,3 +1,3 @@
-As a user, you can create your own report layouts with Excel, either from scratch or based on an existing layout. If you want to modify the layout for this report, you just need to export the *layout* (not the workbook resulting from running the report) from [!INCLUDE [prod_short](prod_short.md)], change what you need, and then import the layout back into [!INCLUDE [prod_short](prod_short.md)].
+You can create your own report layouts with Excel, either from scratch or based on an existing layout. To modify the layout for the report, export the *layout* (not the workbook that resulted from running the report) from [!INCLUDE [prod_short](prod_short.md)], make your changes, and then import the layout into [!INCLUDE [prod_short](prod_short.md)].
 
-To learn more, please go to [Export a report layout](../ui-excel-report-layouts.md#from-another-excel-report-layout).
+To learn more, go to [Export a report layout](../ui-excel-report-layouts.md#from-another-excel-report-layout).

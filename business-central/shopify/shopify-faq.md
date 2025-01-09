@@ -27,7 +27,7 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
 - Support for more than one Shopify shop
   - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
 - Bidirectional synchronization of items or products
-  - The connector synchronizes images, item variants, bar codes, vendor item numbers, extended and marketing texts, and tags.  
+  - The connector synchronizes images, item variants, bar codes, vendor item numbers, extended and marketing texts, tags and metafields.  
   - Export item attributes to Shopify.  
   - Use selected customer price groups and discounts to define prices exported to Shopify.
   - Define prices and discounts for product catalogs linked to B2B companies.

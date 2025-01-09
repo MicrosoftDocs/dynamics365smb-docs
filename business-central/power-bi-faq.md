@@ -35,7 +35,7 @@ Yes. Learn more at [Download a report from the Power BI service to Power BI Desk
 
 No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.
 
-## [License](#tab/license)
+## [License and access](#tab/license)
 
 <!-- 14 -->
 ### Do I need a Power BI Pro license to publish reports?
@@ -52,6 +52,10 @@ You can't share reports or install the Business Central apps for Power BI. The f
 ### If someone shares a report with another person, then that person needs a Pro license to see the report. Are there plans to make this capability possible with the free license?
 
 We don't have control over this requirement. Power BI sets this requirement. Learn more at [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).  
+
+### Can guest users and delegated admins use the Power BI functionality in Business Central
+
+No. This scenario isn't supported.
 
 ## [Designer](#tab/designer)
 

@@ -52,6 +52,10 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4404-scenario](../includes/report-4404-scenario-include.md)]
@@ -102,6 +106,10 @@ Controllers use the report to:
 Try the report here: [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=4404)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

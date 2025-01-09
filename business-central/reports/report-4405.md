@@ -63,6 +63,10 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4405-scenario](../includes/report-4405-scenario-include.md)]
@@ -124,6 +128,10 @@ Controllers use the report to:
 Try the report here: [Trial Balance Excel](https://businesscentral.dynamics.com?report=4405)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

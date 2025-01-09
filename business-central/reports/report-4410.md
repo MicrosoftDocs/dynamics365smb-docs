@@ -75,6 +75,10 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4410-scenario](../includes/report-4410-scenario-include.md)]
@@ -85,11 +89,16 @@ Try the report here: [Consolidated Trial Balance Excel](https://businesscentral.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
+
 ## Alternative reports
 
 There are several other ways to analyze your balance. To learn more, go to:
 
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
+- [Income Statement (Power BI)](../finance-powerbi-income-statement.md)
 - [Financial Reporting](../bi-how-work-account-schedule.md)
 
 ## Contributors
@@ -97,6 +106,8 @@ There are several other ways to analyze your balance. To learn more, go to:
 [!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
 - [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+- [Steve Chinsky ](https://www.linkedin.com/in/steve-chinsky-321a20/) | Microsoft MVP
+- [Rob Delprado](https://www.linkedin.com/in/robb-delprado/) | Microsoft MVP
 
 ## Related information
 

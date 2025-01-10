@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Financial Reporting Auditing
 
-The **Financial Reports** feature gives users insights into the financial data shown on your chart of accounts (COA). 
+The **Financial Reporting** feature gives users insights into the financial data shown on your chart of accounts (COA). 
 
 This article explain ways you can audit changes to your financial report definitions and how to control access to financial reports.
 
@@ -21,7 +21,7 @@ This article explain ways you can audit changes to your financial report definit
 
 Using the Change Log feature, you can log any changes done to financial report definitions, such as what changed, who changed it, and when the change was made.
 
-The following table lists the table and their Ids you need for setting this up.
+The following table lists the [!INCLUDE [prod_short](includes/prod_short.md)] tables and their Ids you need for setting this up.
 
 | To track changes for... | Enable change log on table with Id |
 | ----------------------- | ---------------------------------- |
@@ -29,7 +29,7 @@ The following table lists the table and their Ids you need for setting this up.
 | Row Definition          | 84  |
 | Column Definition       | 333 |
 
-To learn more, go to [Log changes](across-log-changes.md).
+To learn more about the Change Log feature, go to [Log changes](across-log-changes.md).
 
 
 ## Get notified when financial report definitions change

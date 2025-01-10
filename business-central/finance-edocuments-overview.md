@@ -36,6 +36,26 @@ The documentation explains e-documents in detail. It shows the capabilities of t
 | [Exchanging Data Electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents such as bank files and currency exchange rates. | 
 | [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md) | Learn how to use Copilot to improve your efficiency when working with e-documents. |
 
+## Localizations  
+
+Microsoft currently supports the following localizations:  
+
+| Article | Description | 
+|---------|-------------|
+| Australian E-Invoicing | Peppol A-NZ format is coming soon - 2025 release wave 1. |
+| [Belgian E-Invoicing](finance-how-setup-edocuments-external.md) | Supported Peppol BIS 3 format. |
+| [Danish E-Invoicing](localfunctionality/denmark/how-to-edocuments-nemhadel.md) | Supported both Peppol BIS 3 and OIOUBL formats. |
+| French E-Invoicing | Will be supported in 2026. |
+| [German E-Invoicing](LocalFunctionality/Germany/germany-einvoicing.md) | Suppoerted Peppol BIS 3 and XRechnung. ZUGFeRD will come later this year. |
+| Indian E-Invoicing | Using new E-Documents framework - TBD |
+| Italian E-Invoicing | Using new E-Documents framework - TBD |
+| Mexican E-Invoicing | Using new E-Documents framework - TBD |
+| New Zealand E-Invoicing | Peppol A-NZ format is coming soon - 2025 release wave 1. |
+| [Spanish E-Invoicing](LocalFunctionality/Spain/spain-einvoicing.md) | Supported Factura-E format. |
+
+> [!NOTE]
+> For non-Microsoft localizations, please visit the AppSource.  
+
 ## See also
 
 [Financial Management](finance.md)    

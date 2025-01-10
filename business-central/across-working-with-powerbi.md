@@ -31,7 +31,7 @@ Power BI reports give you insight into your [!INCLUDE[prod_short](includes/prod_
 
 Before you can use Power BI with [!INCLUDE[prod_short](includes/prod_short.md)], you'll need to sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
+Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/). Learn more in [Sign in to the Power BI service](/power-bi/consumer/end-user-sign-in). 
 
 The Power BI service hosts all the reports available to you. To see a report in your personal workspace, select **My Workspace** > **Reports**. Then just select the report that you want to view. If you have access to one or more shared Power BI workspaces, you can also see reports in those workspaces.
 
@@ -133,8 +133,7 @@ After the report uploads to your Power BI workspace, it automatically uploads to
 Power BI Reports can be distributed among users as .pbix files. If you have a .pbix file, you can upload the file to a workspace. To upload a report, do the following steps:
 
 1. In your new workspace, select **Get Data**.
-
-2. In the Files box, select **Get**.
+1. In the Files box, select **Get**.
 
 3. Select **Local File**, navigate to where you saved the file, and select **Open**.
 

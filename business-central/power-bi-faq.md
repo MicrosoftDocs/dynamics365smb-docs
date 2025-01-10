@@ -35,7 +35,7 @@ Yes. Learn more at [Download a report from the Power BI service to Power BI Desk
 
 No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.
 
-## [License and access](#tab/license)
+## [Licenses and access](#tab/license)
 
 <!-- 14 -->
 ### Do I need a Power BI Pro license to publish reports?
@@ -53,9 +53,17 @@ You can't share reports or install the Business Central apps for Power BI. The f
 
 We don't have control over this requirement. Power BI sets this requirement. Learn more at [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).  
 
-### Can guest users and delegated admins use the Power BI functionality in Business Central
+### Can guest users and delegated admins use Power BI with Business Central like other users?
 
-No. This scenario isn't supported.
+Yes, but there is a slight difference 
+
+Guest users can sign in using two different methods. They open thier browser, enter the fully qualified domain name in the address, and then sign in using thier username and password. Alternatively, they can:
+
+Enter https://businesscentral.dynamics.com in the browser address.
+Select Sign in options
+Select Sign in to an organization.
+Enter the domain name of your organization, for exampleb contoso.com, and then select Next.
+Sign in using thier username and password.
 
 ## [Designer](#tab/designer)
 
@@ -195,6 +203,8 @@ In Power BI Desktop, do the following steps:
 
 Then next time you connect to Business Central to get data, you'll be asked to sign in.
 
+
+
 ## [Performance](#tab/performance)
 
 <!-- 17 -->
@@ -247,6 +257,25 @@ Some API pages, including most API v2.0 pages, have fields based on [AL Enum obj
 
 ---
 
+<!--
+if report showing data from wrong BC, clear the data source 
+
+To clear a data source in Power BI, you can follow these steps:
+
+1 Open Power BI Desktop:
+2. Go to Data Source Settings: Click on File > Options and settings > Data source settings.
+3. Select the Data Source: In the Data Source Settings window, select the data source you want to clear.
+4. Clear Permissions: Click on Clear Permissions to remove the stored credentials for the selected data source1.
+
+https://support.biconnector.com/support/solutions/articles/8000072804-how-to-clear-cache-of-power-bi-desktop-
+
+
+
+https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-azure-ad-b2b#discoverability-for-b2b-content
+
+https://www.syntera.ch/blog/2024/05/14/login-to-power-bi-with-guest-account/
+
+-->
 ## See also
 
 [Power BI Licensing](admin-powerbi-setup.md#license)  

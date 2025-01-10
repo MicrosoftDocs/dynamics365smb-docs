@@ -272,6 +272,7 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+##### [Financial Reporting Auditing](finance-financial-reporting-auditing.md)
 ##### [Financial Reporting FAQ](finance-financial-reporting-faq.md)
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 

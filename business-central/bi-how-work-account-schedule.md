@@ -230,6 +230,7 @@ To learn more about how to import or export financial report row or column defin
 
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  
+[Financial Reporting Auditing](finance-financial-reporting-auditing.md)   
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  

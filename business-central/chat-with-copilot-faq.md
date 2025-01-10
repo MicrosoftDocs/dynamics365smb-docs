@@ -21,18 +21,20 @@ This article answers some common questions about chatting with Copilot in [!INCL
 ## Can admins grant or deny permission to individual users to get access to chat?
 
 No, there's no permission or permission set for chat. If chat is activated on the [Copilot and AI capabilities](enable-ai.md) page, every user in an environment has access to chat.
- 
+
 ## Is chat available on tablet, phone, or other form factors?
 
 No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_client.md)] web client.
 
+## In which countries or regions can I chat with Copilot?
+
+Chat is rolling out to all Business Central countries and regions from January 2025, starting with 48 countries in update 25.3 and more with 25.4. If you are unable to access the Chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
+
 ## I don't use Business Central in English. What are my options?
 
-Currently, chat is only available in English. You can change your user language to English in [My Settings](ui-change-basic-settings.md#language).
+As of January 2025, chat is available no matter which language you use in Business Central.
 
-## What version of Business Central do I need for chat?
-
-Chat is available in public preview from version 24.0 (2024 release wave 1).
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Does chat work with my customizations?
 
@@ -41,7 +43,7 @@ It depends on the type of question you ask Copilot. For example:
 - If you ask questions to find records, it can find records in your custom tables that use custom fields.
 - If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
 
-## How do I open a record or page with chat?
+## How do I open a record or page from chat?
 
 When you ask Copilot to find records in [!INCLUDE[prod_short](includes/prod_short.md)], it shows any records it finds as selectable tiles or links in the chat pane. While in preview, Copilot doesn't automatically navigate to any page.
 
@@ -63,9 +65,9 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## What can I do if the chat pane doesn't show?
 
-Check that your user language in **My Settings** is set to English, and that your environment is of version 24.0 or later. On the Copilot and AI Capabilities page, make sure the administrator has switched on consent for data across geographies and has activated chat. Also, make sure your environment localization isn't Canada.
-
-If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling the feature out to your region. Copilot rolled out to US customers first in April 2024, and then over the course of weeks will roll out to other country/region localizations.
+- On the Copilot and AI Capabilities page, make sure your administrator has activated Chat.  
+- If your Business Central is of version 25.3, <feature management instructions go here> 
+- If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling out this feature to your region. You can track planned available for each Azure geography at
 
 ## Why does Copilot only show three records in the Chat pane?
 

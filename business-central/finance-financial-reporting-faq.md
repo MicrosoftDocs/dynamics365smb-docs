@@ -29,10 +29,6 @@ To make new report, row, or column definitions available in existing companies, 
 
 To learn more, go to [Import or export financial report definitions](bi-how-work-account-schedule.md#import-or-export-financial-report-definitions).
 
-## Which users can run or modify financial reports?
-
-To learn more, go to [Permissions for viewing or editing financial reports](bi-how-work-account-schedule.md#permissions-for-viewing-or-editing-financial-reports).
-
 ## Why don't the numbers in my report balance with the general ledger?
 
 When you create new financial reports, you might find that they don't balance with the general ledger. To learn more about possible reasons and ways to fix these issues, go to [Balancing reports to the general ledger](bi-troubleshoot-financial-reports.md#balancing-reports-to-the-general-ledger).
@@ -44,6 +40,24 @@ One way to quickly identify errors in the design of your financial reporting is 
 ## When should I use net change vs. balance at date?
 
 A typical mistake that financial reporting users make is to incorrectly combine row and column definitions. When column definitions use net change as the row type, the columns are most appropriately combined with income statement reports. When column definitions use balance at date as the row type, the columns are most appropriately combined with balance sheet reports. To learn more, go to [When to use net change or balance at date](bi-troubleshoot-financial-reports.md#when-to-use-net-change-or-balance-at-date).
+
+## Which users can run or modify financial reports?
+
+To learn more, go to [Permissions for viewing or editing financial reports](finance-financial-reporting-auditing.md#permissions-for-viewing-or-editing-financial-reports).
+
+## How can I setup auditing on changes to financial reports?
+
+To learn more, go to [Setting up change log on financial report definitions](finance-financial-reporting-auditing.md#setting-up-change-log-on-financial-report-definitions).
+
+## How can I get notified when financial report definitions change?
+
+To learn more, go to [Get notified when financial report definitions change](finance-financial-reporting-auditing.md#get-notified-when-financial-report-definitions-change).
+
+## How can I analyze changes to financial reports?
+
+To learn more, go to [Analyze changes to financial report definitions](finance-financial-reporting-auditing.md#analyze-changes-to-financial-report-definitions).
+
+
 
 ## Related information
 

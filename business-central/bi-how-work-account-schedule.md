@@ -226,15 +226,6 @@ To learn more about how to import or export financial report row or column defin
 - [Import or export financial reporting row definitions](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions), or
 - [Import or export financial reporting column definitions](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## Permissions for viewing or editing financial reports
-
-The following table lists the permission sets that control whether you can view financial reports or edit financial report definitions.
-
-| Access   | Permission set |
-|------------------------| ----------------------- |
-| View financial reports. | **Account Schedules - View** |
-| Edit financial report definitions, including row and column definitions. | **Account Schedules - Edit** |
-
 ## See also
 
 [Row definitions in financial reporting](bi-row-definitions.md)  

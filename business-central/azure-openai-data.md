@@ -30,7 +30,7 @@ Each time you use Copilot, your inputs (prompts) and outputs (results), includin
 > - It isn't moved to another geographic region.
 > - AI isn't trained on that data.  
 
-## Example Copilot features and their data flow 
+## Example Copilot features and their data flow
 
 For a high-level understanding of the type of data sent to Azure OpenAI Service, the following table provides three simplified examples of how Business Central sends prompts and data to the service.
 
@@ -44,8 +44,7 @@ The table isn't an exhaustive list of features and doesn't provide a complete an
 
 ## Related information
 
-[Copilot data movement across geographies](ai-copilot-data-movement.md)
-[Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)
+[Copilot data movement across geographies](ai-copilot-data-movement.md)  
+[Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
-[FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
-
+[FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  

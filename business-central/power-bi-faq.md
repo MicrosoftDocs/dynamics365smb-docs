@@ -69,7 +69,7 @@ From the Power BI service, use the tenant switcher:
 
 Learn more in [Distribute Power BI content to external guest users](/power-bi/enterprise/service-admin-azure-ad-b2b#tenant-switcher).
 
-# [From Power BI service (app.powerbi.com)](#tab/powerbiservice)
+# [From Power BI service (app.powerbi.com)](#tab/powerbidesktop)
 
 > [!NOTE]
 > This method isn't supported. You might experience un expected behavior.
@@ -87,6 +87,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 1. Select **Next**.
 1. On the **Pick an account** dialog box, select your account, and then sign in usual.
 
+---
 ## [Designer](#tab/designer)
 
 <!-- 7 -->

@@ -53,13 +53,13 @@ You can't share reports or install the Business Central apps for Power BI. The f
 
 We don't have control over this requirement. Power BI sets this requirement. Learn more at [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).  
 
-### How do guest users and delegated admins access reports and data my organization?
+### How do guest users and delegated admins access my organization's reports and data?
 
 External users, like guest users and delegated admins, use a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
 
-To work with reports and data from your organization, external users must connect to your Microsoft 365 tenant. The connection method is different for Power BI service and Power BI Desktop.
+To work with your organization's reports and data, external users must connect to your Microsoft 365 tenant. The connection method differs in Power BI service and Power BI Desktop.
 
-# [From Power BI service (app.powerbi.com)](#tab/powerbiservice)
+#### In Power BI service (app.powerbi.com)
 
 From the Power BI service, use the tenant switcher:
 
@@ -69,7 +69,7 @@ From the Power BI service, use the tenant switcher:
 
 Learn more in [Distribute Power BI content to external guest users](/power-bi/enterprise/service-admin-azure-ad-b2b#tenant-switcher).
 
-# [From Power BI service (app.powerbi.com)](#tab/powerbidesktop)
+#### In Power BI Desktop 
 
 > [!NOTE]
 > This method isn't supported. You might experience un expected behavior.

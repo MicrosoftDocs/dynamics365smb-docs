@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Microsoft 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=2b0d907c-c59a-4bcc-a42c-bc2c7e6499a8]
 
 > [!TIP]
 > Do want an app on your Windows or macOS computer desktop? See [Get the Business Central Desktop App](install-desktop-app.md).

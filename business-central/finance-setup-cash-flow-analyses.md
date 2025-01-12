@@ -24,7 +24,7 @@ If you want some help to decide what to do with your cash, have a look at the ch
 This article describes where the data in the charts comes from and, if necessary, what to do to start using the charts.
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=4ecab63b-f107-4666-b88f-656a133a0f78]
 
 ## The Cash Cycle and Income & Expense charts
 

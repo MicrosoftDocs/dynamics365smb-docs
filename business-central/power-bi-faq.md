@@ -72,7 +72,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 #### In Power BI Desktop 
 
 > [!NOTE]
-> This method isn't supported. You might experience un expected behavior.
+> This method isn't supported. You might experience unexpected behavior.
 
 1. Open Power BI Desktop.
 1. In the upper-right corner, select **Sign in**.
@@ -87,7 +87,6 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 1. Select **Next**.
 1. On the **Pick an account** dialog box, select your account, and then sign in usual.
 
----
 ## [Designer](#tab/designer)
 
 <!-- 7 -->

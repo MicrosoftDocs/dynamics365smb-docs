@@ -22,7 +22,7 @@ The adjustments outlined in this article are applied universally across all your
 
 The following video shows some of the ways in which you can personalize your Role Center.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=d76e5d60-ecc2-462b-bba2-18d6deee3534]
 
 For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
@@ -83,7 +83,7 @@ Personalization lets you decide which actions to show on the navigation and acti
 
 The following video shows how you can personalize actions on pages and Role Centers.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=88d1055a-6b3d-4767-bbf7-98a78170e394]
 
 Personalizing the navigation and action bars is done basically the same as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
 

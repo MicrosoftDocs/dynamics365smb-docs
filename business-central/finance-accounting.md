@@ -33,7 +33,7 @@ If a third-party accountant manages your books and financial reporting, your adm
 
 After your accountant can access your [!INCLUDE[prod_short](includes/prod_short.md)], they can use the **Accountant** Role Center for easy access to the pages for their work. They can also use the company hub in their own [!INCLUDE [prod_short](includes/prod_short.md)] to manage their work. Learn more in [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=7ba6427f-cdf0-480d-8c98-b51f65437146]
 
 It's easy to invite your external accountant. In [!INCLUDE [prod_short](includes/prod_short.md)], open the **Users** page, and then select the **Invite external accountant** action. [!INCLUDE [prod_short](includes/prod_short.md)] prepares an email for you. Just add your accountant's work email, and send the invitation.  
 

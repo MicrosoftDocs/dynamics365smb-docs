@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Power BI  FAQ
+# Power BI FAQ
 
 This article answers some of the questions you might have about working with Power BI and [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -53,11 +53,11 @@ You can't share reports or install the Business Central apps for Power BI. The f
 
 We don't have control over this requirement. Power BI sets this requirement. Learn more at [Share Power BI dashboards and reports with coworkers and others](/power-bi/collaborate-share/service-share-dashboards).  
 
-### How do guest users and delegated admins access my organization's reports and data?
+### How do guest users and delegated admins access my organization's data and reports?
 
 External users, like guest users and delegated admins, use a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
 
-To work with your organization's reports and data, external users must connect to your Microsoft 365 tenant. The connection method differs in Power BI service and Power BI Desktop.
+To access and design report's with your organization's data, external users must connect to your Microsoft 365 tenant. The connection method differs in Power BI service and Power BI Desktop.
 
 #### In Power BI service (app.powerbi.com)
 
@@ -69,7 +69,9 @@ From the Power BI service, use the tenant switcher:
 
 Learn more in [Distribute Power BI content to external guest users](/power-bi/enterprise/service-admin-azure-ad-b2b#tenant-switcher).
 
-#### In Power BI Desktop 
+#### In Power BI Desktop
+
+This method requires that the domain name of the Microsoft 365 tenant you want to sign in to, for example, `contoso.onmicrosoft.com`.
 
 > [!NOTE]
 > This method isn't supported. You might experience unexpected behavior.
@@ -77,7 +79,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 1. Open Power BI Desktop.
 1. In the upper-right corner, select **Sign in**.
 
-   If you're aleady signed in, first sign out by selecting your name or profile picture, and then **Sign out**.
+   If you're already signed in, first sign out by selecting your name or profile picture, and then **Sign out**.
 
 1. Enter your email address, and then select **Continue**.
 1. On the **Pick an account** dialog box, select **Use another account**.
@@ -96,7 +98,7 @@ Web services are an old technology and aren't recommended to use with Power BI. 
 
 ### Can I build a Power BI report using the Sales Invoice Lines or Journal Lines APIs?
 
-The most commonly used line records are available in the [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). So you can use them to build reports in Power BI by selecting them in the **Dynamics 365 Business Central** connector. However, the **Lines** APIs are designed to be used only with specific filters, and might not work in your scenario. You might get an error similar to "You must specify an ID or a Document ID to get the lines." To fix this problem, do the following steps when getting data from Business Central for the report in Power BI Desktop:
+The most commonly used line records are available in the [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). So you can use them to build reports in Power BI by selecting them in the **Dynamics 365 Business Central** connector. However, the **Lines** APIs are designed for use with specific filters only, and might not work in your scenario. You might get an error similar to "You must specify an ID or a Document ID to get the lines." To fix this problem, do the following steps when getting data from Business Central for the report in Power BI Desktop:
 
 1. Instead of including the data source for the lines entity, add the parent data source. For example, add **Sales Invoice** instead of **Sales Invoice Lines**.
 2. Select **Transform Data** in the Power BI Desktop action bar.
@@ -181,9 +183,9 @@ By default, the Power BI connector reads data from a read-only replica of the Bu
 
 If you have old reports based on Business Central data, they don't connect to the read-only database replica. In this case, consider recreating the query inside Power BI so that it uses the latest defaults.
 
-### <a name="databasemods"></a>When I use the Power BI connector to connect to my custom [!INCLUDE [prod_short](includes/prod_short.md)] API page, I get the error "Cannot insert a record. Current connection intent is Read-Only.". How can I fix it?
+### <a name="databasemods"></a>When I use the Power BI connector to connect to my custom [!INCLUDE [prod_short](includes/prod_short.md)] API page, I get the error "Cannot insert a record. Current connection intent is Read-Only." How can I fix it?
 
-Reports that use Business Central data connect to a read-only replica of the Business Central database by default. In rare cases, this behavior might cause the error "Current connection intent is Read-Only". This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
+Reports that use Business Central data connect to a read-only replica of the Business Central database by default. In rare cases, this behavior might cause the error "Current connection intent is Read-Only.". This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
 
 To fix this issue by forcing the Business Central connector to allow this behavior, see [Building Power BI Reports to Display Business Central Data - Fixing Problems](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
@@ -224,8 +226,6 @@ In Power BI Desktop, do the following steps:
 2. Select **Dynamics Business Central** from the list, then select **Clear permissions** > **Delete**.
 
 Then next time you connect to Business Central to get data, you'll be asked to sign in.
-
-
 
 ## [Performance](#tab/performance)
 
@@ -298,15 +298,15 @@ https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-azure-ad-b2b
 https://www.syntera.ch/blog/2024/05/14/login-to-power-bi-with-guest-account/
 
 -->
-## See also
+## Related information
 
-[Power BI Licensing](admin-powerbi-setup.md#license)  
-[Business Central and Power BI Introduction](admin-powerbi.md)  
+[Power BI licensing](admin-powerbi-setup.md#license)  
+[Business Central and Power BI introduction](admin-powerbi.md)  
 [Power BI Integration Overview](admin-powerbi-overview.md)  
 [Enabling Power BI in Business Central](admin-powerbi-setup.md)  
-[Work with Power BI Reports in Business Central](across-working-with-powerbi.md)  
+[Work with Power BI reports in Business Central](across-working-with-powerbi.md)  
 [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)  
-[Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md)  
+[Building Power BI Reports to display Business Central data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI documentation](/power-bi/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

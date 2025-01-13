@@ -29,7 +29,7 @@ Use posting periods to specify when users can post to the general ledger.
 
 When you're closing an accounting period, you might want to prevent new posts from coming in, or allow only certain people to post transactions. The following video shows how to control when, and who, can post transactions to your general ledger.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fAB8]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c53fd593-9cb6-4244-a21f-8fea6a602b4e]
 
 ## See also
 

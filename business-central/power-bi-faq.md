@@ -57,7 +57,7 @@ We don't have control over this requirement. Power BI sets this requirement. Lea
 
 External users, like guest users and delegated admins, use a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
 
-To access and design report's with your organization's data, external users must connect to your Microsoft 365 tenant. The connection method differs in Power BI service and Power BI Desktop.
+To access and design reports with your organization's data, external users must connect to your Microsoft 365 tenant. The connection method differs in Power BI service and Power BI Desktop.
 
 #### In Power BI service (app.powerbi.com)
 
@@ -71,7 +71,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 
 #### In Power BI Desktop
 
-The method requires that the domain name of the Microsoft 365 tenant you want to sign in to, for example, `contoso.onmicrosoft.com`.
+The methods in this section require that guest users know the domain name of your Microsoft 365 tenant, such as `contoso.onmicrosoft.com`.
 
 > [!NOTE]
 > This method isn't supported. You might experience unexpected behavior.

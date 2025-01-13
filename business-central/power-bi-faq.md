@@ -71,10 +71,27 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 
 #### In Power BI Desktop
 
-This method requires that the domain name of the Microsoft 365 tenant you want to sign in to, for example, `contoso.onmicrosoft.com`.
+The method requires that the domain name of the Microsoft 365 tenant you want to sign in to, for example, `contoso.onmicrosoft.com`.
 
 > [!NOTE]
 > This method isn't supported. You might experience unexpected behavior.
+
+##### Change data source to host's Business Central tenant for creating and refreshing reports
+
+1. Clear the current data source connection. Learn more in [How do I change or clear the user account I'm currently using to connect to Business Central from Power BI Desktop](#how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop).
+1. If you're refreshing an existing report, select **Refresh** in the ribbon. If you're creating a new report, select **Get Data**.
+1. When you get to the **Dynamics Business Central** connector dialog box, select **Sign in**.
+
+   :::image type="content" source="media/power-bi-desktop-connector-sign-in.png" alt-text="Shows a screenshot of the the Business Central connector sign-in dialog box":::
+1. On the **Pick an account** dialog box, select **Use another account**.
+1. On the **Sign in** dialog box, select **Sign-in options**.
+1. On the **Sign in options** dialog box, select **Sign in to an organization**.
+1. On the **Find your organization** dialog box, enter the domain name of the tenant, for example, `contoso.onmicrosoft.com`.
+1. Select **Next**.
+1. On the **Pick an account** dialog box, select your account, and then sign in usual.
+1. On the **Dynamics Business Central** connector dialog, select **Connect**.
+
+##### Change tenant to host's Business Central tenant for publishing reports
 
 1. Open Power BI Desktop.
 1. In the upper-right corner, select **Sign in**.

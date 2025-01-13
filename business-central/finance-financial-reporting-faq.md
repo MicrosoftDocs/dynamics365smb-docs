@@ -43,11 +43,11 @@ A typical mistake that financial reporting users make is to incorrectly combine 
 
 ## Which users can run or modify financial reports?
 
-To learn more, go to [Permissions for viewing or editing financial reports](finance-financial-reporting-auditing.md#permissions-for-viewing-or-editing-financial-reports).
+To learn more, go to [Permissions to view or edit financial reports](finance-financial-reporting-auditing.md#permissions-to-view-or-edit-financial-reports).
 
 ## How can I setup auditing on changes to financial reports?
 
-To learn more, go to [Setting up change log on financial report definitions](finance-financial-reporting-auditing.md#setting-up-change-log-on-financial-report-definitions).
+To learn more, go to [Set up the Change Log for financial report definitions](finance-financial-reporting-auditing.md#set-up-the-change-log-for-financial-report-definitions).
 
 ## How can I get notified when financial report definitions change?
 
@@ -56,8 +56,6 @@ To learn more, go to [Get notified when financial report definitions change](fin
 ## How can I analyze changes to financial reports?
 
 To learn more, go to [Analyze changes to financial report definitions](finance-financial-reporting-auditing.md#analyze-changes-to-financial-report-definitions).
-
-
 
 ## Related information
 

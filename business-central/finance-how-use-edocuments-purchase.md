@@ -26,6 +26,13 @@ The following purchase documents can be used with e-documents functionality:
 > [!NOTE]
 > From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.  
 
+> [!NOTE]
+> When you receive an electronic document from a specific vendor, Business Central will try match this e-document with the existing vendor in the system by verifying the following information in this order:
+> 1. **GLN** (from the Vendor card)
+> 2. **VAT Registration No.** (from the Vendor card)
+> 3. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vednor card)
+> 4. **Name** and **Address** (from the Vendor card)
+
 ## E-documents in purchases
 
 The receipt of purchase e-documents in Dynamics 365 Business Central can be done as a batch job or manually.  

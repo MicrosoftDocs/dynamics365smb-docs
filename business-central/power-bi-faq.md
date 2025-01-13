@@ -76,24 +76,23 @@ The method requires that the domain name of the Microsoft 365 tenant you want to
 > [!NOTE]
 > This method isn't supported. You might experience unexpected behavior.
 
-##### Change data source to host's Business Central tenant for creating and refreshing reports
+##### Creating and refreshing reports: Change data source to host's Business Central tenant
 
 1. Clear the current data source connection. Learn more in [How do I change or clear the user account I'm currently using to connect to Business Central from Power BI Desktop](#how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop).
 1. Select **Get Data**.
 1. On the **Get Data** page, select **Online Services** > **Dynamics 365 Business Central** > **Connect**.
-    <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
-1. On the **Dynamics Business Central** connector dialog box, select **Sign in** and then follow the instructions to [sign in to the host's organization](#sign-in-to-hosts-business-central-tenant).
+1. On the **Dynamics Business Central** connector dialog box, select **Sign in** and then follow the instructions to [sign in to the host's organization](#sign-in-to-hosts-organization).
 
    :::image type="content" source="media/power-bi-desktop-connector-sign-in.png" alt-text="Shows a screenshot of the the Business Central connector sign-in dialog box":::
 
-##### Change tenant to host's Business Central tenant for publishing reports
+##### Publishing reports: Switch to host's Business Central tenant
 
 1. Open Power BI Desktop.
 1. In the upper-right corner, select **Sign in**.
 
    If you're already signed in, first sign out by selecting your name or profile picture, and then **Sign out**.
 
-1. Enter your email address, select **Continue**, and then follow the instructions to [sign in to the host's organization](#sign-in-to-hosts-business-central-tenant).
+1. Enter your email address, select **Continue**, and then follow the instructions to [sign in to the host's organization](#sign-in-to-hosts-organization).
 
 ##### Sign in to host's organization
 

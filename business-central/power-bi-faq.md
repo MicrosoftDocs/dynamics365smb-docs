@@ -71,7 +71,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 
 #### In Power BI Desktop
 
-The methods in this section require that guest users know the domain name of the host's Microsoft 365 tenant, such as `contoso.onmicrosoft.com`.
+The methods in this section require that guest users know the domain name of your Microsoft 365 tenant, such as `contoso.onmicrosoft.com`.
 
 > [!NOTE]
 > The methods in this sections aren't supported. You might experience unexpected behavior.

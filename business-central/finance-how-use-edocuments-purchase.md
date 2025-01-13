@@ -6,10 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 11/14/2024
+ms.date: 01/13/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ---
 
 # Use e-documents in the purchases process
@@ -27,10 +27,11 @@ The following purchase documents can be used with e-documents functionality:
 > From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.  
 
 > [!NOTE]
-> When you receive an electronic document from a specific vendor, Business Central will try match this e-document with the existing vendor in the system by verifying the following information in this order:
+> When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
+>
 > 1. **GLN** (from the Vendor card)
 > 2. **VAT Registration No.** (from the Vendor card)
-> 3. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vednor card)
+> 3. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vendor card)
 > 4. **Name** and **Address** (from the Vendor card)
 
 ## E-documents in purchases

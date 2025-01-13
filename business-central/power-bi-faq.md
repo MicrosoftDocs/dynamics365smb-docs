@@ -74,7 +74,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 The methods in this section require that guest users know the domain name of your Microsoft 365 tenant, such as `contoso.onmicrosoft.com`.
 
 > [!NOTE]
-> The methods in this sections aren't supported. You might experience unexpected behavior.
+> The methods in this section aren't supported. You might experience unexpected behavior.
 
 ##### Creating and refreshing reports: Change data source to host's Business Central tenant
 

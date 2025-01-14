@@ -78,11 +78,11 @@ Support for document types is based on the **Document Format**. To check which d
 
 ## Set up a document sending profile
 
-You can set up a preferred method of sending sales documents for each customer. In this way, you don't have to choose a sending option every time when you choose the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles and then select among them in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the default profile for all customers, except customers where the **Document Sending Profile** field is set to a different sending profile.
+You can set up a preferred method of sending sales documents for each customer. If you do, you don't have to select a sending option every time you choose the **Post and Send** action. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
 
-This functionality is used to set up electronic invoicing automation. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. It's either the profile set up for the customer or the default profile for all customers.
+This feature is used to set up electronic invoicing automation. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. It's either the profile set up for the customer or the default profile for all customers.
 
-Follow these steps to set up a document sending profile.
+To set up a document sending profile, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profile**, and then select the related link.
 2. On the **Document Sending Profiles** page, select **New**.
@@ -100,7 +100,7 @@ Follow these steps to set up a document sending profile.
 
 ## Set up the workflow
 
-To set up a workflow for the e-document features, follow these steps.
+To set up a workflow for e-documents, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow Templates**, and then select the related link.
 2. If you can't find **E-Document Workflow Templates** on the **Workflow Templates** page, select **Reset Microsoft Templates**. **E-Document Workflow Templates** should then appear. Close the page.

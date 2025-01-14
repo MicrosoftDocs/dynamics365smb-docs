@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 01/06/2025
+ms.date: 01/14/2025
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -116,5 +116,5 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 [FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [FAQ for sales line suggestions](faq-sales-suggest-sales-lines-with-copilot.md)  
-[FAQ for suggest substitute items](faq-suggest-item-substitutions-with-copilot)  
+[FAQ for suggest substitute items](faq-suggest-item-substitutions-with-copilot.md)  
 [Marketing text suggestions overview](ai-overview.md)

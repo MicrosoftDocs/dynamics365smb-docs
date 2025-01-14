@@ -41,11 +41,15 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-Trial-Balance-LCY.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Business Unit (LCY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in LCY for your business units.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-By-Business-Unit-LCY.png" alt-text="Screenshot of the By Business Unit (LCY) worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## Trial Balance (ACY) worksheet
 
@@ -53,11 +57,15 @@ This worksheet shows the trial balance for the consolidation company with amount
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-Trial-Balance-ACY.png" alt-text="Screenshot of the Trial Balance (ACY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Business Unit (ACY) worksheet
 
 This worksheet shows the trial balance for the consolidation company with amounts in ACY for your business units.
 
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-By-Business-Unit-ACY.png" alt-text="Screenshot of the By Business Unit (ACY) worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## TrialBalanceData worksheet
 
@@ -66,6 +74,10 @@ This worksheet shows the trial balance for the consolidation company with amount
 :::image type="content" source="../media/excel-Consolidated-Trial-Balance-TrialBalanceData.png" alt-text="Screenshot of the TrialBalanceData worksheet":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -77,11 +89,16 @@ Try the report here: [Consolidated Trial Balance Excel](https://businesscentral.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
+
 ## Alternative reports
 
 There are several other ways to analyze your balance. To learn more, go to:
 
 - [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)
+- [Income Statement (Power BI)](../finance-powerbi-income-statement.md)
 - [Financial Reporting](../bi-how-work-account-schedule.md)
 
 ## Contributors
@@ -89,6 +106,8 @@ There are several other ways to analyze your balance. To learn more, go to:
 [!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
 - [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+- [Steve Chinsky ](https://www.linkedin.com/in/steve-chinsky-321a20/) | Microsoft MVP
+- [Rob Delprado](https://www.linkedin.com/in/robb-delprado/) | Microsoft MVP
 
 ## Related information
 

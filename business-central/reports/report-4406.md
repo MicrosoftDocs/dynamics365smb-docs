@@ -40,6 +40,8 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 
 :::image type="content" source="../media/excel-trial-balance-vs-budget-worksheet.png" alt-text="Screenshot of the Trial Balance (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## TrialBalanceBudgetData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
@@ -47,6 +49,10 @@ Filters and slicers let you zoom in on the balance as seen from global dimension
 :::image type="content" source="../media/excel-trial-balance-vs-budget-data.png" alt-text="Screenshot of the TrialBalanceData worksheet":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -104,6 +110,10 @@ Controllers use the report to:
 Try the report here: [Trial Balance/Budget Excel](https://businesscentral.dynamics.com?report=4406)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

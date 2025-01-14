@@ -40,7 +40,7 @@ The following table describes a sequence of tasks, with links to the articles th
 This video shows how to set up a workflow requiring a user to request someone else's approval before they can change information about an existing customer or create a new customer.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=271a3685-6a23-425f-aaa2-3bada2104290]
 -->
 ## Related information
 

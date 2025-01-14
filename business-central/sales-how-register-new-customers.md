@@ -17,7 +17,7 @@ Customers are your source of income. You must register each customer you sell to
 
 Before you can register new customers, you must set up various sales codes to choose from when you fill in customer cards. Learn more at [Setting Up Sales](sales-setup-sales.md).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=37d3ec2a-71c2-4f0d-9a94-62c83805fbfa]
 
 ## Add new customers
 

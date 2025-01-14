@@ -51,7 +51,7 @@ Retention periods can be as long or as short as you want. To create retention pe
 
 This video provides an example of how to set up a retention policy.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=511928c9-f956-45f6-8748-0c96f7ff0d33]
 
 ## Apply retention policies
 

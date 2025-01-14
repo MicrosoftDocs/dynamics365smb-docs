@@ -45,6 +45,8 @@ The filters and slicers on the worksheet let you zoom in on a fixed asset's clas
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png" alt-text="Screenshot of the Fixed Asset Analysis worksheet" lightbox="../media/excel-fixed-assets-analysis-fixed-assets-analysis.png":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## Book Value worksheet
 
 This worksheet shows fixed asset details in the given time periods, such as:
@@ -57,6 +59,8 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 
 :::image type="content" source="../media/excel-fixed-assets-analysis-book-value.png" alt-text="Screenshot of the Book Value worksheet" lightbox="../media/excel-fixed-assets-analysis-book-value.png":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## FixedAssetData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
@@ -64,6 +68,10 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 :::image type="content" source="../media/excel-fixed-assets-analysis-FixedAssetData.png" alt-text="Screenshot of the FixedAssetData worksheet" lightbox="../media/excel-fixed-assets-analysis-FixedAssetData.png":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -74,6 +82,10 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 Try the report here: [Fixed Asset Analysis Excel](https://businesscentral.dynamics.com?report=4412)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

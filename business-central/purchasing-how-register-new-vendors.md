@@ -20,7 +20,7 @@ Before you register new vendors, you must set up various purchase codes to selec
 Vendor cards hold the information required to buy products from each vendor. Learn more at [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
 <br /><br />  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=7188b662-bc49-45ef-8152-82898076b235]
 
 ## Adding new vendors
 

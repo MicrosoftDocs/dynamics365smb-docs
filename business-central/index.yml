@@ -145,7 +145,7 @@ additionalContent:
 #            url: /dynamics365/business-central/ui-change-basic-settings
 #          - text: Switch environment or company
 #            url: /dynamics365/business-central/ui-organization-switch
-#           - text: Personalize UI
+#           - text: Personalize pages
 #             url: /dynamics365/business-central/ui-personalization-user
 #           - text: Manage notifications
 #             url: /dynamics365/business-central/ui-smart-notifications
@@ -253,7 +253,7 @@ additionalContent:
             url: /dynamics365/business-central/warehouse-manage-warehouse
           - text: Warehouse reports
             url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Pick Items with Inventory Picks
+          - text: Pick items with inventory picks
             url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
 #          - text: Move items
 #            url: /dynamics365/business-central/warehouse-move-items
@@ -261,11 +261,11 @@ additionalContent:
         links:
           - text: Get started
             url: /dynamics365/business-central/shopify/get-started
-          - text: Synchronize Customers with Shopify
+          - text: Synchronize customers with Shopify
             url: /dynamics365/business-central/shopify/synchronize-customers
           - text: Synchronize and fulfill sales orders with Shopify
             url: /dynamics365/business-central/shopify/synchronize-orders
-#          - text: Synchronize Transactions and payouts
+#          - text: Synchronize transactions and payouts
 #            url: /dynamics365/business-central/shopify/transactions-and-payouts
 #          - text: Set up taxes for the Shopify connection
 #            url: /dynamics365/business-central/shopify/setup-taxes
@@ -285,7 +285,7 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/production-planning
-          - text: Run Full Planning, MPS, or MRP
+          - text: Run full planning, MPS, or MRP
             url: /dynamics365/business-central/production-how-to-run-mps-and-mrp
           - text: Create a forecast
             url: /dynamics365/business-central/production-how-to-create-a-forecast
@@ -395,7 +395,7 @@ additionalContent:
             url: /dynamics365/business-central/ui-change-basic-settings
           - text: Switch environment or company
             url: /dynamics365/business-central/ui-organization-switch
-          - text: Personalize UI
+          - text: Personalize pages
             url: /dynamics365/business-central/ui-personalization-user
 #          - text: Manage notifications
 #            url: /dynamics365/business-central/ui-smart-notifications
@@ -507,7 +507,7 @@ additionalContent:
       links:
       - text: Overview
         url: /dynamics365/business-central/ui-customizing-overview
-#      - text: Install and Uninstall Extensions
+#      - text: Install and uninstall extensions
 #        url: /dynamics365/business-central/dev-itpro/ui-extensions-install-uninstall
       - text: Customize pages for profiles
         url: /dynamics365/business-central/ui-personalization-manage
@@ -527,7 +527,7 @@ additionalContent:
         url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
       - text: AL language reference
         url: /dynamics365/business-central/dev-itpro/developer/
-    #  - text: System and Base application
+    #  - text: System and Base applications
     #    url: /dynamics365/business-central/application/    
     - title: Develop for integration
       links:

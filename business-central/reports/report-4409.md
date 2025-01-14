@@ -48,6 +48,10 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)]
@@ -118,6 +122,10 @@ Customer success managers use the report to:
 Try the report here: [Customer - Top 10 List Excel](https://businesscentral.dynamics.com?report=4409)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

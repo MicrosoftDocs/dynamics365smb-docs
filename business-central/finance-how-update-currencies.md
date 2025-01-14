@@ -115,7 +115,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 > [!Important]
 > Before you can use the batch job, you need to enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=e871f958-fe42-4cf3-bb8a-e97f4c7658de]
 
 ## Set up a currency exchange rate service
 
@@ -136,7 +136,7 @@ You can use an external service to keep your currency exchange rates up to date.
 
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=76914b80-c36a-4d74-95fa-0cdf5c5c0bfa]
 
 ## Update currency exchange rates through a service
 

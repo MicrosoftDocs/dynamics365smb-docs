@@ -46,7 +46,7 @@ Audits are also included in the detailed checks of your company’s accounting r
 
 The following video covers the basics of fixed assets:
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=32fa27be-9e9a-4637-bc9b-87eb994f5ae0]
 
 ## Initial setup of fixed assets
 

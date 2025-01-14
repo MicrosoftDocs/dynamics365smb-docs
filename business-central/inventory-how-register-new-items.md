@@ -19,7 +19,7 @@ Items, among other products, are the basis of your business, the goods, or servi
 
 The following video shows how to set up an item on the Item Card page. However, you can also set up new items by copying existing ones. To learn more, go to [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=a5e825b2-e309-4753-bdff-a6947dc314e6]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 

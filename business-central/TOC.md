@@ -1949,17 +1949,20 @@ ms.service: dynamics-365-business-central
 ### United States
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
-##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
-##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
-#### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
-#### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
-##### [Set up and use the IRS 1099 form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
-##### [Regulatory 1099 format changes and details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
+##### Sales taxes
+###### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
+###### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
+###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+##### IRS1099
+###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
+###### Deprecated 1099 feature
+####### [Set up and use the IRS 1099 form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+####### [Regulatory 1099 format changes and details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Set up and use the IRS 1096 form](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
-##### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking & payments
 ##### [Create deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Reconcile bank accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)

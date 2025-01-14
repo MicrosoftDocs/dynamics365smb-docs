@@ -227,13 +227,16 @@ ms.service: dynamics-365-business-central
 ##### [Map fields for the AMC banking 365 fundamentals extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 ## Finance
+
 ### [Finance overview](finance.md)
 
 <!-- Financial analytics start -->
-### Financial analytics 
+### Financial analytics
+
 #### [Financial analytics overview](bi.md)
 #### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 <!-- #### [Financial KPIs](bi-finance-kpis.md) -->
+
 #### [Power BI finance app](finance-powerbi-app.md)
 ##### [Financial Overview](finance-powerbi-financial-overview.md)
 ##### [Income Statement](finance-powerbi-income-statement.md)
@@ -249,14 +252,14 @@ ms.service: dynamics-365-business-central
 ##### [Finance KPI overview](finance-powerbi-kpis.md) 
 ##### [Setting up the Power BI finance app](finance-powerbi-app-setup.md)
 
-
 <!-- 
 ##### [General Ledger Entries](finance-powerbi-general-ledger-entries.md)
 ##### [Detailed Vendor Ledger Entries](finance-powerbi-detailed-vendor-ledger-entries.md)
 ##### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
 -->
 
-#### Financial reporting (Implementing financial statements and KPIs)
+#### Financial reporting
+
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
 ##### [Organize report data using account categories](bi-account-categories.md)
@@ -266,28 +269,33 @@ ms.service: dynamics-365-business-central
 ##### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
 ##### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ##### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-##### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
+##### [Troubleshoot financial reporting](bi-troubleshoot-financial-reports.md)
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-
+##### [Audit changes in financial reporting](finance-financial-reporting-auditing.md)
+##### [Financial reporting FAQ](finance-financial-reporting-faq.md)
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
+
 ##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 ##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-##### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+##### [Analyze cash flow](finance-analyze-cash-flow.md)
 ##### [Analyze your payment practices](ui-payment-practices.md)
 
 #### Built-in finance reports
+
 ##### Key finance reports
+
 ###### [Key finance report overview](finance-reports.md)
-###### [Detail Trial Balance](reports/report-4.md) 
+###### [Detail Trial Balance](reports/report-4.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 
 ###### [Trial Balance/Previous Year](reports/report-7.md) 
 ###### [Trial Balance/Budget Excel](reports/report-4406.md)
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
 ###### [Closing Trial Balance](reports/report-10.md)
+###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)
@@ -297,6 +305,7 @@ ms.service: dynamics-365-business-central
 ##### [Built-in fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
+
 ###### [Accounts payable analytics overview](payables-reports.md)
 ###### [Aged Accounts Payable Excel](reports/report-4403.md)
 ###### [Vendor - Top 10 List Excel](reports/report-4404.md)
@@ -1217,7 +1226,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up declaration types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Export Intrastat third-party declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banking & payments
-##### [Electronic banking (BE](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Electronic banking (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 ##### [Electronic payments (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Set up export protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
 ##### [Summarize Payment Lines and General Journal Lines](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
@@ -1294,7 +1303,7 @@ ms.service: dynamics-365-business-central
 ##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Payables and Receivables
-##### [Exchange Rates Adjustment Feature)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Exchange Rates Adjustment Feature](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
 ##### [Multiple Payables and Receivables Accounts](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
 ##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
 ##### [Sales Correcting Documents](LocalFunctionality/Czech/sales-correcting-documents.md)
@@ -1962,9 +1971,12 @@ ms.service: dynamics-365-business-central
 ##### [Print troubleshoot reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit regulatory alerts](submit-regulatory-alerts.md)
 
-<!--setup-->
+<!--setup start -->
 ## Set up Business Central
 ### [Overview of tasks](setup.md)
+### [Set up Company information](admin-company-information.md)
+### [Create number series](ui-create-number-series.md)
+### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up finance
 #### [Set up finance](finance-setup-finance.md)
 #### [Set up payment methods](finance-payment-methods.md)
@@ -2109,6 +2121,8 @@ ms.service: dynamics-365-business-central
 ##### [Setup best practices: Global planning setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup best practices: Reordering policies](setup-best-practices-reordering-policies.md)
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
+### [Get Business Central on your mobile device](install-mobile-app.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2133,6 +2147,7 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set up connections
+#### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
 ##### [Overview](admin-outlook.md)
@@ -2174,20 +2189,17 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
-#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
-### [Company information](admin-company-information.md)
-### [Create number series](ui-create-number-series.md)
-### [Set up base calendars](across-how-to-assign-base-calendars.md)
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)
 #### [Email printers](admin-printer-setup-email.md)
 #### [Specify a default printer](ui-specify-printer-selection-reports.md)
+### Import data
+#### [Import business data from other finance systems](across-import-data-configuration-packages.md)
+#### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 ### [Set up online maps](across-online-maps-setup.md)
-### [Get Business Central on your mobile device](install-mobile-app.md)
-### [Get Business Central on your desktop](install-desktop-app.md)
+<!-- Setup end -->
 
 <!-- Design details start -->
 ## Design details
@@ -2296,7 +2308,6 @@ ms.service: dynamics-365-business-central
 ### [Share and export reports with the report inbox](ui-work-report-inbox.md)
 ### [Manage saved report settings](reports-saving-reusing-settings.md)
 ### [Set the layout used by a report](ui-set-report-layout.md)
-### [(Legacy) Set the layout used by a report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)

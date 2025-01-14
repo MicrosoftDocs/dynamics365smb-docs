@@ -10,7 +10,7 @@ If your company operates in more than one country or region, it's probably impor
 
 The following video explains how to set up your local currency.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1iM1n]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=d1008bb9-c45d-439a-8ce7-f30f5f655f42]
 
 Next, you must set up currency codes for each currency that you use if you buy or sell in currencies other than your local currency (LCY). Also bank accounts can be created using currencies. It is possible to record G/L transactions in different currencies, however, the G/L transaction will always be posted in the local currency (LCY).
 

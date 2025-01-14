@@ -74,7 +74,7 @@ The following video shows the basic steps to set up a bank account in [!INCLUDE[
 
 <br /><br />
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=047a5a25-1f7d-423d-b96d-c4ea45042779]
 
 > [!WARNING]
 > Some fields may contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. Learn more at [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).

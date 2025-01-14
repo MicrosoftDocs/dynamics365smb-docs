@@ -69,6 +69,10 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4412-scenario](../includes/report-4412-scenario-include.md)]
@@ -78,6 +82,10 @@ The filters and slicers on the worksheet let you zoom in on a fixed assets class
 Try the report here: [Fixed Asset Analysis Excel](https://businesscentral.dynamics.com?report=4412)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

@@ -70,6 +70,10 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4402-scenario](../includes/report-4402-scenario-include.md)]
@@ -135,6 +139,10 @@ Credit analysts use the report to:
 Try the report here: [Aged Accounts Receivable Excel](https://businesscentral.dynamics.com?report=4402)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

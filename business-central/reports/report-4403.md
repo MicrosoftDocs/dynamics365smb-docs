@@ -70,6 +70,10 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
 
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
+
 ## Use cases
 
 [!INCLUDE [report-4403-scenario](../includes/report-4403-scenario-include.md)]
@@ -79,6 +83,10 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 Try the report here: [Aged Accounts Payables Excel](https://businesscentral.dynamics.com?report=4403)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

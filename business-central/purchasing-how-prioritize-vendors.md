@@ -18,7 +18,7 @@ ms.reviewer: bholtorf
 
 First, you must prioritize your vendors by assigning numbers to them.
 <br><br>
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=283f5ccb-3cbb-48c5-b50d-fd91466e8094]
 
 ## To prioritize vendors
 

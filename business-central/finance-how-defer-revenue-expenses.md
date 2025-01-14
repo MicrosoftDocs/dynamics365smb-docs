@@ -110,7 +110,7 @@ If you've done that, you must make an exception for deferrals to allow them to b
 
 The following video shows how to define the period in which you allow people to post deferred revenue and expenses, and how to specify exceptions.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5d98a594-6b1c-45a5-b93a-1fb670a051e5]
 
 ## See also
 

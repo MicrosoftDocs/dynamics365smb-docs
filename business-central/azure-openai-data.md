@@ -36,7 +36,7 @@ For a high-level understanding of the data sent to Azure OpenAI Service, the fol
 
 The table isn't an exhaustive list of features and doesn't provide a complete and accurate picture of every data point sent to the service.
 
-|Copilot feature|Example user interaction|Example of what is sent to Azure OpenAI Service|
+|Copilot feature|Example of user interaction|Example of data sent to Azure OpenAI Service|
 |-|-|-|
 |Chat|User asks Copilot to "show customer Adatum" |<ul><li>System instructions to interpret and act on the user's message, including system-defined constraints and AI safeguards.</li><li>The list of most likely table and page names, the list of available field names for those objects, along with descriptive information such as teaching tips and tooltips.</li></ul>| 
 |Analysis assist|While viewing the Items list, the user asks Copilot to display "items by category" |<ul><li>System instructions to generate an analysis tab, constraints, and AI safeguards.</li><li>The list of column captions from the Items list, along with tooltips and similar descriptive information.</li><li>If the list includes option fields with predefined values, the possible values are included</li></ul>|

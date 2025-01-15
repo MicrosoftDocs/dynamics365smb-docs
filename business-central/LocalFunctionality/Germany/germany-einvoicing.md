@@ -20,7 +20,7 @@ The following article provides information about how to work with the German loc
 
 Read detailed information how to set up the E-Documents framework [here](../../finance-how-setup-edocuments.md).  
 
-## Set up local formats  
+### Set up local formats  
 
 > [!NOTE]
 > Currently, the E-Document framework for the German localization supports the XRechnung (UBL) and Peppol BIS 3 formats. The ZUGFeRD format isn't supported yet.
@@ -32,12 +32,23 @@ To set up the format for the E-Document service, follow these steps:
 3. Configure the fields as described in [Set up e-documents](../../finance-how-setup-edocuments.md).
 4. Close the page.
 
+### Using buying reference on the e-invoice
+
+When you are working with the e-invoices in the sales process you should show youw buyer reference on this invoice. To configure how you will use buyer references, follow these steps:  
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link. 
+2. Select the **Buyer Reference Mandatory** field on the **Export** FastTab to specify whether the buyer reference is mandatory for the document.   
+3. Select from where buyer references will be used choosing one of the options on the **Buyer Reference** field.  
+   1. If you choose the **Your reference** option you will be required to populate the **Your reference** field on the sales document. 
+   2. If you choose the **Customer reference** system will use the **E-Invoice Routing No** from the **Customer** card.  
+4. Close the page.    
+
 ## Working with E-invoices
 
 Read detailed information about how to use the E-Documents framework in purchase [Use e-documents in the purchases process](../../finance-how-use-edocuments-purchase.md) and in the sales [Use e-documents in the sales process](../../finance-how-use-edocuments.md).  
 
 > [!NOTE]
-> E-invoicing in purchase is available starting with version 25.2. We will enable sales in version 25.3.  
+> E-invoicing in purchase processes is available starting with version 25.2., and its enablement in the sales starting from version 25.3.  
 
 ## Related information
 

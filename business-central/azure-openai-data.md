@@ -47,4 +47,4 @@ The table isn't an exhaustive list of features and doesn't provide a complete an
 [Copilot data movement across geographies](ai-copilot-data-movement.md)  
 [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
-[FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
+[FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  

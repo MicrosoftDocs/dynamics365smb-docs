@@ -2493,12 +2493,11 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and AI capabilities
-## Overview
-### [Copilot in Business Central](copilot-overview.md)
-### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
+### [About Copilot in Business Central](copilot-overview.md)
 ## Manage Copilot and AI capabilities
 ### [Configure Copilot and AI capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)

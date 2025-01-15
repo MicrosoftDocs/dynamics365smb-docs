@@ -23,7 +23,7 @@ This article provides an outline of bookkeeping processes, including the rules, 
 
 The following video introduces some of the key capabilities for accounting and bookkeeping.
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=2887ddfe-3d46-47b3-8308-9715457ef939]
 
 The following table describes a sequence of tasks and provides links to the articles that cover them.
 

@@ -70,8 +70,8 @@ Template apps are available to install from Microsoft AppSource. To install or u
 | Purchasing                     | https://aka.ms/bc-pbi-purchase-app                |
 | Inventory                      | https://aka.ms/bc-pbi-inventory-app               |
 | Inventory Valuation            | https://aka.ms/bc-pbi-inventory-valuation-app     | 
-| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-valuation-app |
-| Projects                       | https://aka.ms/bc-pbi-projects-valuation-app      |
+| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-app |
+| Projects                       | https://aka.ms/bc-pbi-projects-app      |
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 

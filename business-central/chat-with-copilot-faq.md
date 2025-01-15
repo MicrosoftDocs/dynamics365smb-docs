@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 01/10/2025
+ms.date: 01/15/2025
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -24,11 +24,11 @@ No, there's no permission or permission set for chat. If chat is activated on th
 
 ## Is chat available on tablet, phone, or other form factors?
 
-No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_client.md)] web client.
+No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_client.md)].
 
 ## In which countries or regions can I chat with Copilot?
 
-Chat is rolling out to all Business Central countries and regions from January 2025, starting with 48 countries in update 25.3 and more with 25.4. If you are unable to access the Chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
+Chat is rolling out to all Business Central countries and regions from the end of January 2025, starting with 48 countries in update 25.3 and more with 25.4. If you are unable to access the Chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
 
 ## I don't use Business Central in English. What are my options?
 
@@ -65,9 +65,9 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## What can I do if the chat pane doesn't show?
 
-- On the Copilot and AI Capabilities page, make sure your administrator has activated Chat.  
-- If your Business Central is of version 25.3, <feature management instructions go here> 
-- If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling out this feature to your region. You can track planned available for each Azure geography at
+- Make sure your Business Central is version 25.3 or later.
+- Make sure the entry for "Chat with Copilot" is enabled for all users in the **Feature Management** page,
+- If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling out this feature to your region. You can track planned available for each Azure geography at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Why does Copilot only show three records in the Chat pane?
 

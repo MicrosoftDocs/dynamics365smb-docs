@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 10/01/2024
+ms.date: 01/15/2025
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -37,6 +37,7 @@ Copilot's source responses are generated from the official [Microsoft Dynamics 3
 
 ## Prerequisites
 
+- The Chat with Copilot feature is enabled on the Feature Management page by an administrator. Learn more in [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - The **Chat** capability is activated by an administrator. Learn more in [Configuring Copilot and AI capabilities](enable-ai.md).
 
 ## Get started using chat with Copilot

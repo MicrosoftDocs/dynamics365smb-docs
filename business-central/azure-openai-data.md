@@ -10,7 +10,7 @@ ms.date: 01/10/2025
 ms.custom: bap-template 
 ---
 # Azure OpenAI Service and Business Central data 
- 
+
 Copilot in Business Central uses AI from the Azure OpenAI Service, hosted and operated by Microsoft and built with enterprise-grade security, privacy, and compliance controls. This article explains the data that the service processes when you use Copilot.
 
 ## How Business Central communicates with Azure OpenAI Service
@@ -32,15 +32,15 @@ Each time you use Copilot, your inputs (prompts) and outputs (results), includin
 
 ## Example Copilot features and their data flow
 
-For a high-level understanding of the type of data sent to Azure OpenAI Service, the following table provides three simplified examples of how Business Central sends prompts and data to the service.
+For a high-level understanding of the data sent to Azure OpenAI Service, the following table provides three examples of how Business Central sends prompts and data to the service.
 
 The table isn't an exhaustive list of features and doesn't provide a complete and accurate picture of every data point sent to the service.
 
-|Copilot feature|Example user interaction|Example contents of a prompt|
+|Copilot feature|Example user interaction|Example of what is sent to Azure OpenAI Service|
 |-|-|-|
-|Chat|User asks Copilot to "show customer Adatum" |System instructions to interpret and act on the user’s message, including system-defined constraints and AI safeguards. The list of most likely table and page names, the list of available field names for those objects, along with descriptive information such as teaching tips and tooltips.| 
-|Analysis assist|While viewing the Items list, the user asks Copilot to display "items by category" |The prompts typically include:<ul><li>System instructions to generate an analysis tab, constraints, and AI safeguards.</li><li>The list of column captions from the Items list, along with tooltips and similar descriptive information.</li><li>If the list includes option fields with predefined values, the possible values are included</li></ul>|
-|Bank account reconciliation assist|User activates the **Reconcile** Copilot action on the details page |The prompts  typically include:<ul><li>System instructions to compare records, constraints, and AI safeguards.</li><li>The list of bank statement lines (transaction descriptions, dates, and amounts) that the user requested Copilot to process. Additionally, the minimal list of bank account ledger entry records or G/L account names they're compared with.</li></ul>|
+|Chat|User asks Copilot to "show customer Adatum" |<ul><li>System instructions to interpret and act on the user's message, including system-defined constraints and AI safeguards.</li><li>The list of most likely table and page names, the list of available field names for those objects, along with descriptive information such as teaching tips and tooltips.</li></ul>| 
+|Analysis assist|While viewing the Items list, the user asks Copilot to display "items by category" |<ul><li>System instructions to generate an analysis tab, constraints, and AI safeguards.</li><li>The list of column captions from the Items list, along with tooltips and similar descriptive information.</li><li>If the list includes option fields with predefined values, the possible values are included</li></ul>|
+|Bank account reconciliation assist|User activates the **Reconcile** Copilot action on the details page |<ul><li>System instructions to compare records, constraints, and AI safeguards.</li><li>The list of bank statement lines (transaction descriptions, dates, and amounts) that the user requested Copilot to process. Additionally, the minimal list of bank account ledger entry records or G/L account names they're compared with.</li></ul>|
 
 ## Related information
 

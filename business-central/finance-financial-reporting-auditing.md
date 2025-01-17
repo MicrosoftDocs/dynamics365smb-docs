@@ -1,5 +1,5 @@
 ---
-title: Audit changes in financial reporting
+title: Audit changes to financial reporting
 description: Learn how to track the changes people make to your financial reports.
 author: kennienp
 ms.author: kepontop
@@ -11,7 +11,7 @@ ms.search.keywords: account schedule, financial report, auditing
 ms.search.form: Report_25, 103, 108, 488
 ms.service: dynamics-365-business-central
 ---
-# Audit changes in financial reporting
+# Audit changes to financial reporting
 
 Financial reporting helps you gather insights into the financial data in your chart of accounts (COA). This article explains ways to monitor changes to your financial report definitions, and how to control access to financial reports.
 

@@ -56,6 +56,21 @@ To control which reports update when you generate financial reports, update the 
 
 You can remap and update these reports at any time. If you choose to regenerate them, you can choose to keep the original reports and create copies with the new mapping.
 
+## Set up the change log for account categories
+
+If you need to monitor changes to your account categories, consider setting up change log on this data.
+
+To do so, you must specify the tables you want to monitor. The following table lists the tables and their IDs.
+
+| Table | Table ID |
+|------ | -------- |
+| G/L Account Category | 570 |
+
+To learn more about the Change Log, go to [Log changes](across-log-changes.md).
+
+To add an extra layer of security around your account category definitions, you can monitor changes and get an email when someone changes a value. To learn more, go to [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
+
+
 ## See also
 
 [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  

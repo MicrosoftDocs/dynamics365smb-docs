@@ -14,7 +14,7 @@ ms.reviewer: soumramani
 
 # Electronic invoicing in Germany
 
-The following article provides information on how to work with the German localization of the E-Document framework.
+This article provides information on how to work with the German localization of the E-Document framework.
 
 ## E-Documents framework setup
 

@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 12/11/2024
+ms.date: 01/17/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -51,11 +51,11 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
-## I cannot see any dimension data in my reports
+## I can't see any dimension data in my reports
 
-Check if the job queue entry for updating dimension set data has been stopped.
+Check whether the job queue entry for updating dimension set data is stopped.
 
-To learn more, go to [Job queue entry for updating Dimension Set Entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries)
+To learn more, go to [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
 
 ## How do I change the connection parameters for an app?
 

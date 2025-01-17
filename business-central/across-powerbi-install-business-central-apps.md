@@ -168,9 +168,9 @@ Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a seman
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
-## Job queue entry for updating Dimension Set Entries
+## Job queue entry for updating dimension set entries
 
-For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry than runs the *Update Dim. Set Entries* codeunit must run at least once. If you change dimension sets or values, the codeunit must run again. Therefore, it is recommended to run the corresponding job queue entry once a week or maybe once a night (schedule it outside normal working hours).
+For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
 
 ## Permissions
 

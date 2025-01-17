@@ -51,6 +51,12 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 
 To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
 
+## I cannot see any dimension data in my reports
+
+Check if the job queue entry for updating dimension set data has been stopped.
+
+To learn more, go to [Job queue entry for updating Dimension Set Entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries)
+
 ## How do I change the connection parameters for an app?
 
 To learn more, go to [Connect the Power BI semantic models to Business Central](across-powerbi-install-business-central-apps.md#connect-the-power-bi-semantic-models-to-business-central).

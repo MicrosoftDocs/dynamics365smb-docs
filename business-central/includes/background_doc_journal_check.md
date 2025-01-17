@@ -19,4 +19,4 @@ To enable the feature, on the **My Notifications** page, choose the following ch
 
 The following video explains real-time data check.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l0pR]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=1d2e99a2-6608-46fd-bb18-a3dd6a16775d]

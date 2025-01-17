@@ -36,7 +36,7 @@ Using barcodes can help streamline your inbound, outbound, and internal warehous
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
-After you install the app, you can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
+You can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
 
 |Page  |Field values barcodes can include  |
 |---------|---------|

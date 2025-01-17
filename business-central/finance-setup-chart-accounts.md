@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that is ready to support your business. You can, however, change the default accounts, and you can add new accounts.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=944c65b0-9b0f-4d35-b330-de2fad57143a]
 
 ## Add or change accounts
 
@@ -47,7 +47,7 @@ Turning on the **Block Deletion of G/L Accounts** field is often a best practice
 
 This video shows how to specify whether, and when, people can delete G/L accounts.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=b13b7e4c-5e2f-4f23-80cc-fccbc58d2fd2]
 
 ## Learning path: Set up the chart of accounts in Dynamics 365 Business Central
 

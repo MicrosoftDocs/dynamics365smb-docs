@@ -31,7 +31,9 @@ When you create new financial reports, you might find that they don't balance to
 * A formula incorrectly shows a positive value as negative or a negative value as positive.
 * A totaling account is being used on a row instead of a posting account.
 
-After you double-check these possible causes, if you still have an imbalance, run the **Trial Balance** report. This report can serve as a reference point because it correctly lists all G/L accounts in your chart of accounts and always balances to zero. You can compare this version of the trial balance to the rows of your financial report to identify and correct the error.
+## Testing a financial report against Trial Balance reports
+
+After you double-check the possible causes stated in the [Balancing reports to the general ledger](#balancing-reports-to-the-general-ledger) section, if you still have an imbalance, consider running one of the **Trial Balance** reports. These reports can serve as a reference point because they correctly lists all G/L accounts in your chart of accounts and always balances to zero. You can compare this version of the trial balance to the rows of your financial report to identify and correct the error.
 
 When you run the Trial Balance report, fill out the report options as follows for a clean, simple, and balanced report to review.
 
@@ -42,6 +44,12 @@ When you run the Trial Balance report, fill out the report options as follows fo
 * On the **Filter** FastTab, in the **Account Type** field, choose **Posting**.
 * In the **Date Filter** field, enter the date for the report. <!--Need a better description here.-->
 * Turn off all other toggles and leave all other fields blank.
+
+## Testing a financial report against a data analysis on G/L entries
+
+A different method for testing a financial report than what is described in the [Testing a financial report against Trial Balance reports](#testing-a-financial-report-against-trial-balance-reports) section is to use the Data Analysis feature on the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) page. This allows you to group and summarize amounts by G/L account or G/L account category, and set filters on relevant data properties, such as G/L account, G/L account category, or posting date.
+
+To learn more and see some examples of analyses, go to [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
 ## Adding check figures
 

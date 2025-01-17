@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 12/06/2024
+ms.date: 01/17/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -138,6 +138,16 @@ To enable the embedded report pages in [!INCLUDE [prod_short](includes/prod_shor
 1. For each functional area in [!INCLUDE [prod_short](includes/prod_short.md)], select the ellipsis to open the **Select Power BI Workspace** page.
 1. Select the workspace where you store the corresponding [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app.
 1. Select the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report (app) you want to map.
+
+## Restrict the amount of data that loads to Power BI
+
+If you want to restrict the amount of data that loads to the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], you can define filters on each app.
+
+On the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page, choose an app for which you want to set up data filtering. The semantic models use these settings when they refresh the data.
+
+All apps support start and end date filtering, where you specify the start and end date of an interval.
+
+Some apps also support other filter options, such as *Start/End Date* or *Relative Date*. With the *Relative Date* type, you can apply a custom date formula.
 
 ## Connect the Power BI semantic models to Business Central
 

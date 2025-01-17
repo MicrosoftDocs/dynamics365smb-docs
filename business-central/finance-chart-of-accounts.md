@@ -92,9 +92,9 @@ The **Chart of Accounts** page displays accounts in a hierarchical list that off
 
 In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the Business Manager or Accountant role, you can control user permissions to give the right people access to the relevant tables. To learn more, go to [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Set up the change log for G/L accounts
+## Audit changes to G/L accounts setup
 
-If you need to monitor changes to your G/L accounts, consider setting up change log on this data.
+If you need to log and monitor changes to your G/L accounts setup, consider setting up change log on this data.
 
 To do so, you must specify the tables you want to monitor. The following table lists the tables and their IDs.
 

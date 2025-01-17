@@ -1426,7 +1426,7 @@ ms.service: dynamics-365-business-central
 #### Banking & payments
 ##### [Print vendor payments list reports](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 #### Core finance
-##### [German Electronic Invocing](LocalFunctionality/Germany/germany-einvoicing.md)
+##### [Electronic invoicing](LocalFunctionality/Germany/germany-einvoicing.md)
 ##### [Export and print Intrastat reports](LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md)
 ##### [Post a negative entry](LocalFunctionality\Germany\how-to-post-a-negative-entry.md)
 ##### [Process for digital audits](LocalFunctionality/Germany/process-for-digital-audits.md)

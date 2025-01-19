@@ -80,10 +80,26 @@ Because errors in the sales process are mostly related to the availability of th
 
 There are two common errors:  
 
-- If you want to use this specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error if you want to use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.** value that you want to use. 
-- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. Learn more in [Use Item References](inventory-how-use-item-cross-refs.md). 
+- If you want to use this specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error if you want to use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.** value that you want to use. Learn more about [account mapping here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
+- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. Learn more how to [use item references here](inventory-how-use-item-cross-refs.md). 
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.   
+
+#### To map text on an e-document to a specific vendor account
+
+For E-Documents, if you want to map lines with the expenses you need to map description with **G/L Account** and you need to use the **Map Text to Account** action to define that a certain text on a vendor invoice received from the **E-Document Service** is mapped to a certain vendor account. Going forward, any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
+
+In addition to mapping to a vendor account or G/L accounts, you can also map text to a bank account. This option is useful, for example, for electronic documents for expenses that are already paid, and for which you want to create a general journal line that is ready to post to a bank account.
+
+1. Select the relevant E-Document line with the showed error message, and then choose the **Map Text to Account** action. The **Text-to-Account Mapping** page opens.
+2. In the **Mapping Text** field, enter any text that occurs on vendor invoices that you want to create purchase documents or journal lines for. You can enter up to 50 characters.
+3. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
+4. In the **Debit Acc. No.** field, enter the debit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
+
+   > [!NOTE]
+   > Do not use the **Credit Acc. No.**, **Bal. Source Type** and **Bal. Source No.** fields in connection with E-documents.
+
+5. Repeat steps 2 through 5 for all error messages on E-documents that you want to automatically create **G/L Accounts** and documents for.  
 
 #### Manually import invoices  
 

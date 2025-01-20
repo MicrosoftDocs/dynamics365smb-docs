@@ -137,7 +137,7 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 > [!NOTE]
 > The error handling described above is not available on item, resource, employee, and fixed asset journals, or for G/L accounts added in local versions of posting groups.
 
-# Audit changes to posting groups
+## Audit changes to posting groups
 
 You can use the Change Log feature to capture changes users make to your posting group setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)]
 

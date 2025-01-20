@@ -45,6 +45,7 @@ The following table lists some examples of finance setup tables where you might 
 | Posting groups      | FA Posting Group | 5606 |
 | Posting groups      | Vendor Posting Group | 93 | 
 
+To learn more about setteing up the finance area, go to [Setting Up Finance](finance-setup-finance.md).
 
 ## Get notified when system setup change
 
@@ -65,6 +66,6 @@ To learn more, go to [Analyze data in the Change Log](across-log-changes.md#anal
 
 [Log changes](across-log-changes.md)  
 [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields)  
-[Setting Up Finance](finance-setup-finance.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

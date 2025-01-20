@@ -57,6 +57,8 @@ You can use the Data Analysis feature to answer questions such as:
 - Which definition changed?
 - Who changed it, and when?
 
+:::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Example of how to do data analysis on the Change Log Entries page (Who changed What data When)." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
+
 To learn more, go to [Analyze data in the Change Log](across-log-changes.md#analyze-data-in-the-change-log).
 
 ## Related information

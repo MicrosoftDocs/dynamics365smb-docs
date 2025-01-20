@@ -39,12 +39,12 @@ The following table describes a sequence of tasks, with links to the topics that
 |Periodically adjust additional currency equivalents to make up for fluctuating exchange rates.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 |Define multiple interest rates to use for different periods for delayed payments in trade transactions.|[Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)|
 |Arrange for amounts to be automatically rounded as invoices are created.|[Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)|
-| Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 |Enable invoicing of a customers not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority. | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
-|Ensure a journel entry is allocated between different accounts, such as quantity, percentage, or amount, when you post it to the journal.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
+|Ensure a journal entry is allocated between different accounts, such as quantity, percentage, or amount, when you post it to the journal.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
 |Set up source codes and reason codes to help track audit trails.|[Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)|
+| Set up audit on changes to your finance setup | [Audit changes to your setup](across-setup-auditing.md) |
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
 > [!TIP]

@@ -2116,6 +2116,7 @@ ms.service: dynamics-365-business-central
 #### [Set up service contracts](service-how-setup-service-contracts.md)
 ### Set up best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 #### Setup best practices: supply planning
 ##### [Setup supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)
@@ -2124,6 +2125,9 @@ ms.service: dynamics-365-business-central
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
 ### [Get Business Central on your mobile device](install-mobile-app.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
+
+### [Audit changes to your setup](across-setup-auditing.md)
+
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2146,7 +2150,7 @@ ms.service: dynamics-365-business-central
 #### [Create workflows from workflow templates](across-how-to-create-workflows-from-workflow-templates.md)
 #### [Export and import approval workflows](across-how-to-export-and-import-workflows.md)
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-<!--Connectors-->
+<!--Connectors start-->
 ### Set up connections
 #### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
@@ -2191,6 +2195,7 @@ ms.service: dynamics-365-business-central
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
+<!-- Connectors end -->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)

@@ -20,7 +20,17 @@ ms.service: dynamics-365-business-central
 
 You can use the Change Log feature to capture changes users make to your setup. For example, you can find out what changed, who changed it, and when the change was made.
 
-To use the Change Log for system setup, you must specify the tables you want it to monitor. The following table lists some examples of tables and their IDs.
+To use the Change Log for system setup, you must specify the tables you want it to monitor. 
+
+> [!TIP]
+> If you want to track changes to data that is not shown in the table, you can use the page inspection tool on the page that shows the data to find the corresponding table name and ID. For learn more, go to [Inspecting and Troubleshooting Pages](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages?tabs=table) in the 
+[!INCLUDE[dev-itpro-docs](includes/dev-itpro-docs.md)].
+
+To learn more about the Change Log, go to [Log changes](across-log-changes.md).
+
+### Audit changes to your finance setup
+
+The following table lists some examples of finance setup tables where you might want to setup change tracking.
 
 | If you want to audit changes to... | Table | Table ID |
 | ---------------------------------- | ----- | -------- |
@@ -35,11 +45,6 @@ To use the Change Log for system setup, you must specify the tables you want it 
 | Posting groups      | FA Posting Group | 5606 |
 | Posting groups      | Vendor Posting Group | 93 | 
 
-> [!TIP]
-> If you want to track changes to data that is not shown in the table, you can use the page inspection tool on the page that shows the data to find the corresponding table name and ID. For learn more, go to [Inspecting and Troubleshooting Pages](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages?tabs=table) in the 
-[!INCLUDE[dev-itpro-docs](includes/dev-itpro-docs.md)].
-
-To learn more about the Change Log, go to [Log changes](across-log-changes.md).
 
 ## Get notified when system setup change
 

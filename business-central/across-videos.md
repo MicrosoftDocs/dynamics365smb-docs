@@ -27,7 +27,7 @@ You can also view our "how to" videos, plus much other content, on the YouTube p
 ## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Dynamics 365 channel on YouTube](https://aka.ms/BCYouTube)
+[Dynamics 365 Business Central channel on YouTube](https://aka.ms/BCYouTube)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Learn how to configure the Sustainability module to track and repor
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, role center, fees
+ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, water, waste, value chain, role center, fees
 ms.search.form: 6221, 6235, 6245
 ms.date: 08/22/2024
 ms.author: altotovi
@@ -39,6 +39,9 @@ To configure these settings, follow these steps:
     | Field | Description |
     |-------|-------------|
     | **Emission Unit of Measure Code** | Enter the unit of measure code that is used to register emissions. |
+    | **Waste Unit of Measure Code** | Enter the the waste unit of measure code used for register waste intensity. |
+    | **Water Unit of Measure Code** | Enter the water unit of measure code used for register water intensity. |
+    | **Disch. Into Water Unit of Measure Code** | Enter the unit of measure code used to register discharged into water. |
     | **Emission Decimal Places** | Enter the number of decimal places that are shown for emission amounts. The default setting, *2:5*, means that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
     | **Country/Region Mandatory** | Select this field if you want to make the country/region field mandatory. Users can set the country/region field in journals even if you don't select this field. However, by selecting it, you require that users set the country/region field before posting. |
     | **Responsibility Center Mandatory** | Select this field if you want to make the responsibility center mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. Users can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
@@ -53,8 +56,17 @@ To configure these settings, follow these steps:
     | Field | Description |
     |-------|-------------|
     | **Use Emissions In Purchase Documents** | If you enable this field, sustainability related fields and features appear in the purchase documents, such as **Sustainability Account** or different emissions. |
+    | **Enable Value Chain tracking** | If you enable this field, you will enable posting of **Sustainability Value Entries** through value chain operations and the visibility of sustainabilitt related fields in operational documents and journals. |
+    | **G/L Account Emissions** | Specifies the enablement of default **Sustainability Account** on the **G/L Account** card. |
+    | **Item Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Item** card. |
+    | **Item Charge Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Item Charge** (currently not operating). |
+    | **Resource Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Resource** card. |
+    | **Work Machine Center Emissions** | Specifies the enablement of default **Sustainability Account** emissions on the **Work Center** and **Machine Center** cards. |
 
-4. On the **Calculations** FastTab, configure the required fields that are related to the formulas that are used to calculate emissions.
+    > [!NOTE]
+    > If you select the **Use Emissions In Purchase Documents** field, it will enable the visibility of the sustainability account and emission fields in the purchase documents. However, when you post the document, the system will only create **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.    
+
+5. On the **Calculations** FastTab, configure the required fields that are related to the formulas that are used to calculate emissions.
 
     | Field | Description |
     |-------|-------------|
@@ -62,7 +74,7 @@ To configure these settings, follow these steps:
     | **Distance Decimal Places** | Enter the number of decimal places that are shown for distance measurements. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
     | **Custom Amount Decimal Places** | Enter the number of decimal places that are shown for custom amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
 
-5. On the **Reporting** FastTab, complete the setup by configuring the fields that are related to reporting to authorities.
+6. On the **Reporting** FastTab, complete the setup by configuring the fields that are related to reporting to authorities.
 
     > [!NOTE]
     > In version 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] doesn't support reporting to any authority. Therefore, the fields that are related to the configuration of this functionality on the **Reporting** FastTab are intended for future reporting capabilities. However, partners can also use these fields in localized versions.
@@ -91,6 +103,17 @@ To calculate the carbon equivalent factor, you can use the following example: If
 > The **Carbon Fee** field on the **Sustainability Ledger Entries** isn't calculated based on the **CO2 Emission** values. Instead, as a foundation for this formula, [!INCLUDE[prod_short](includes/prod_short.md)] uses the **CO2e Emission** field. The **CO2e Emission** field is calculated based on all the emissions posted to an entry and the **Carbon Equivalent Factor** configured for each of the gases on the **Emission Fees** page.  
 
 If you didn't configure the **Emission Fees** before posting your sustainability entries, and you want to calculate your carbon fees and CO2e retroactively, you need to run the **Calculate Emission Fees** action to update values on the **Sustainability Ledger Entries**.  
+
+## Responsibility Center
+
+**Responsibility Center** can be used for posting any type of entries related to the sustainability, where it represents specific facility. However if you want to use water management in the sustainability module, you shoudl configure a few additional information. You can set up your responsibility center as usual, and only add additionaly information openning the **Sustainability** FastTab and populating the following fields:  
+
+| Field | Description |
+|-----------|----------------------------------|
+| **Water Capacity Dimension** | Specifies the capacity dimension. For example, Area or Volume. |
+| **Water Capacity Quantity (Month)** | Indicates the total water capacity quantity of the responsibility center. |
+| **Water Capacity Unit** | Specifies the unit of measure that describes capacity quantity. |
+
 
 ## See also
 

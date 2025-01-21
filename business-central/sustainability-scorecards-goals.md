@@ -14,7 +14,7 @@ ms.reviewer: solsen
 
 # Sustainability scorecards and goals overview
 
-This article offers guidance on how to create scorecards and goals, and how to update the status of goals. Scorecards and goals allow organizations to curate sustainability metrics and track them against key business objectives. Goals can be created based on current and target values, so users can keep track of the progress of current emissions compared to previous periods.  
+This article offers guidance on how to create scorecards and goals, and how to update the status of goals. Scorecards and goals allow organizations to curate sustainability metrics and track them against key business objectives. Goals can be created based on current and target values, so users can keep track of the progress of current gas emissions, or water/waste intensity, compared to previous periods.  
 
 ## Create a scorecard  
 
@@ -31,7 +31,7 @@ To create new a *Sustainability Scorecard*, follow these steps:
 
 ## Create goals  
 
-To create a new *Sustainability Goal*, follow these steps:
+To create a new **Sustainability Goal**, follow these steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Scorecards**, and then select the related link.
 
@@ -45,21 +45,21 @@ To create a new *Sustainability Goal*, follow these steps:
 
 6. Users can decide to create a *Sustainability Goal* for the entire company, a specific country/region, or a facility. If users want to create a specific goal, they must choose the country or region in the **Country/Region Code** field or the facility in the **Responsibility Center** field.  
 
-7. Select the **Start Date** and **End Date** fields to set up a dedicated period for tracking current values. This configuration determines the values in the following fields: **Current Value for CO2**, **Current Value for CH4**, and **Current Value for N2O**. 
+7. Select the **Start Date** and **End Date** fields to set up a dedicated period for tracking current values. This configuration determines the values in the following fields: **Current Value for CO2**, **Current Value for CH4**, **Current Value for N2O**, **Current Value for Water Intensity**, and **Current Value for Waste Intesity'.  
 
-8. Select the **Baseline Start Date** and **Baseline End Date** fields to set up a dedicated baseline period for comparing current values. This configuration determines the values in the following fields: **Baseline for CO2**, **Baseline for CH4**, and **Baseline for N2O**.
+8. Select the **Baseline Start Date** and **Baseline End Date** fields to set up a dedicated baseline period for comparing current values. This configuration determines the values in the following fields: **Baseline for CO2**, **Baseline for CH4**, **Baseline for N2O**, **Baseline for Water Intensity**, and **Baseline for Waste Intesity'.  
 
-9. Users also can add target values in the selected **Unit of Measure** field for the current period using the following fields: **Target Value for CO2**, **Target Value for CH4**, and **Target Value for N2O**.   
+9. Users also can add target values in the selected **Unit of Measure** field for the current period using the following fields: **Target Value for CO2**, **Target Value for CH4**, **Target Value for N2O**, **Target Value for Water Intensity**, and **Target Value for Waste Intesity'.   
 
 10. One of these goals can be selected as a **Main Goal**. Values from the main goal are used on the **Sustainability Manager** role center.  
 
 If you have many goals on the page, you can use the **Show My Goals** action to see only your goals; if you want to show all, you must run the **Show All Goals** action.  
 
 > [!NOTE]
-> *Sustainability Goals* can only be created for a specific *Sustainability Scorecard*; you can't create goals that aren't related to the scorecard, but you can create more goals for one scorecard. You can have only one **Sustainability Goal** marked as the **Main Goal**.
+> **Sustainability Goals** can only be created for a specific **Sustainability Scorecard**; you can't create goals that aren't related to the scorecard, but you can create more goals for one scorecard. You can have only one **Sustainability Goal** marked as the **Main Goal**.  
 
 > [!NOTE]
-> Users can set up different combinations of goals for the whole company, specific countries or regions, and a responsibility center for one *Sustainability Scorecard*. Users can also use different periods for the same model of tracking. 
+> Users can set up different combinations of goals for the whole company, specific countries or regions, and a responsibility center for one **Sustainability Scorecard**. Users can also use different periods for the same model of tracking.  
 
 ## See also
 

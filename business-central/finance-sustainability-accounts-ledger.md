@@ -18,9 +18,9 @@ This article explains how to manage the chart of sustainability accounts (CoSA),
 
 ## Chart of sustainability accounts
 
-The chart of sustainability accounts (CoSA) forms the foundational structured list that is used to record all emissions data. It serves as a framework that categorizes and organizes sustainability accounts based on their attributes, such as the scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking. It has the same structure as a traditional chart of accounts but is customized specifically to monitor sustainability-related data and metrics in an organization.
+The chart of sustainability accounts (CoSA) forms the foundational structured list that is used to record all emissions, water, and waste data. It serves as a framework that categorizes and organizes sustainability accounts based on their attributes, such as the scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking. It has the same structure as a traditional chart of accounts but is customized specifically to monitor sustainability-related data and metrics in an organization.  
 
-Users can add sustainability account categories and sustainability account subcategories to define how the system behaves. In this way, they can select dedicated emissions to track, emission factors, formulas, and similar configurations.
+Users can add sustainability account categories and sustainability account subcategories to define how the system behaves. In this way, they can select dedicated emissions, water, or waste for tracking, emission factors, formulas, and similar configurations.   
 
 > [!NOTE]
 > Based on the greenhouse gas (GHG) standards, there are three emission scopes:
@@ -28,6 +28,11 @@ Users can add sustainability account categories and sustainability account subca
 > - **Scope 1 emissions** include emissions from stationary and mobile combustion, and from inadvertent fugitive emissions.
 > - **Scope 2 emissions** include indirect emissions from the generation of energy that is purchased from utility providers.
 > - **Scope 3 emissions** include a wide spectrum of emissions, from purchased goods and services and capital goods, to fuel and energy–related activities, to upstream and downstream transportation, to generated waste, to business travel and employee commuting, and so on.
+>
+> But there is a fourth scope included as the **Out of scope** for specific situation when user cannot assing specific emission to the transaction.
+
+> [!NOTE]
+> Users can also select the **Water/Waste** as one of options in the **Emission Scope** when they want to post transactions related to the water and waste management.  
 
 From the CoSA, you can do things such as:
 
@@ -49,7 +54,7 @@ For accounts of the **Total** account type, you must set the **Totaling** field.
 For accounts of the **End-Total** type, the Indent function automatically sets the **Totaling** field. After you set up all the accounts, select the **Indent Chart of Sustainability Accounts** action to run the Indent function and set the **Totaling** field.
 
 > [!IMPORTANT]
-> The Indent function overwrites the value of all fields for **End-Total** accounts. Therefore, if you entered definitions in the **Totaling** field for **End-Total** accounts before you ran the Indent function, you must enter them again after you run it.
+> The **Indent Chart of Sustainability Accounts** function overwrites the value of all fields for **End-Total** accounts. Therefore, if you entered definitions in the **Totaling** field for **End-Total** accounts before you ran the **Indent Chart of Sustainability Accounts** function, you must enter them again after you run it.  
 
 ### Delete accounts
 
@@ -57,16 +62,20 @@ You can delete a sustainability account. However, you must first make sure that 
 
 ## Account categories
 
-Users must add a sustainability account category to each sustainability account to define how the system behaves. They can select emission scopes, dedicated emissions to track, formulas, and similar configurations.
+Users must add a sustainability account category to each sustainability account to define how the system behaves. They can select emission scopes (gas, water or waste), dedicated to type of transaction to track, formulas, and similar configurations.  
 
 To review sustainability account categories, follow the steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link.
 2. On the **Sustainability Account Categories** page, you can edit the existing list or create a new category. To create a new category, select the **New** action.
 3. Set the **Code** and **Description** fields.
-4. In the **Emission Scope** field, select one of the scope options.
-5. Select the gas emissions that you want to track. Currently, the following options are available: **CO2**, **CH4**, and **N2O**. You can select any combination that you want to track, but you must select at least one emission.
-6. In the **Calculation Foundation** field, you can select the calculation foundation (formula) to use for emission calculations if you don't know the accurate emission amount. You can select one of the following options: **Fuel/Electricity**, **Distance**, **Installation**, or **Custom**.
+4. In the **Emission Scope** field, select one of the scope options related to gas emissions or water or waste intensity.
+5. Select the gas emissions, or water or waste intensity, that you want to track. Currently, the following options are available: **CO2**, **CH4**, **N2O**, **Water Intesity**, **Discharged Into Water**, and **Waste Intensity**. You can select any combination that you want to track, but you must select at least one of them.
+
+    > [!NOTE]
+    > If you choose one of gas emissions scopes as the **Emission Scope** you can select the **CO2**, **CH4**, or **N2O**, but you cannot select the **Water Intesity**, **Discharged Into Water**, or **Waste Intensity**. Also, if you select **Water/Waste** as the **Emission Scope**, you can select only the  **Water Intesity**, **Discharged Into Water**, or **Waste Intensity**, but you cannot select the **CO2**, **CH4**, or **N2O**.   
+
+6. In the **Calculation Foundation** field, you can select the calculation foundation (formula) to use for emission calculations if you don't know the accurate emission or water/waste intensity amount. You can select one of the following options: **Fuel/Electricity**, **Distance**, **Installation**, or **Custom**.
 
     > [!NOTE]
     > If the set of available formulas in the **Calculation Foundation** field isn't enough, you can extend the field and add more calculations to the system for use in the sustainability journals.
@@ -94,7 +103,7 @@ If you set the **Calculation Foundation** field, the following table explains ho
 | Waste generated in operations and end-of-life treatment of sold products | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Waste |
 | Business travel and employee commuting | Distance | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of the used company car, rental car, train, flight, and so on |
 | | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Hotel stays |
-| | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on |
+| | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on. This formula is only one used for Water or Waste Intensity calculation. |
 
 > [!IMPORTANT]
 > This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when using the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations, as emissions don't increase linearly with weight. A more accurate approach is to use the **Load Factor**, representing the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before finalizing calculations.   
@@ -113,8 +122,11 @@ To review sustainability account subcategories, follow the steps:
     - **Emission Factor CO2** – The emission factor for carbon dioxide (CO<sub>2</sub>) emission.
     - **Emission Factor CH4** – The emission factor for methane (CH<sub>4</sub>) emission.
     - **Emission Factor N2O** – The emission factor for nitrous oxide (N<sub>2</sub>O) emission.
+    - **Water Intensity Factor** - The intensity factor for Water.
+    - **Discharged Into Water Factor** - The intensity factor for Discharged Into Water.
+    - **Waste Intensity Factor** - The intensity factor for Waste.
 
-5. If the subcategory is related to renewable energy, select the **Renewable Energy** field.
+5. If the subcategory is related to renewable energy, select the **Renewable Energy** field, but you can select this field only if this is related to gas emissions and to to water or waste.  
 
 > [!NOTE]
 > The **Import Data** and **Import From** fields are intended for potential integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
@@ -132,6 +144,10 @@ To open this ledger for one specific account, use the **Ledger Entries** action 
 
 > [!IMPORTANT]
 > After you post your data to the sustainability ledger, you can't delete it. If you made a mistake, you can post a reverse transaction that has the same details but uses the negative sign for the amount.
+
+> [!NOTE]
+> If you posted entries before enabling **CO<sub>2</sub>e** in the **Emission Fees** page, you can run the **Update Carbon Fees** action from the **Emission Fees** page to recalculate carbon equivalent to in all transactions in the **Sustainability Ledger Entries**.  
+
 
 ## Related information
 

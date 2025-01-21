@@ -4,7 +4,7 @@ description: Learn how to record greenhouse gas (GHG) emissions.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, journal
+ms.search.keywords: Sustainability, ESG, emission, GHG, water, waste, intensity, CSRD, journal
 ms.search.form: 6216, 6219, 6220
 ms.date: 09/09/2024
 ms.author: altotovi
@@ -14,14 +14,14 @@ ms.reviewer: bholtorf
 
 # Record sustainability entries
 
-Users can manually record greenhouse gas (GHG) emissions in the sustainability ledger manually using sustainability journals or any kind of purchase-related documents.  
+Users can manually record greenhouse gas (GHG) emissions or water and waste intensity in the sustainability ledger manually using sustainability journals. Greenhouse gas (GHG) emissions can be recorder also using any kind of purchase-related documents or general journal.  
 
 > [!NOTE]
-> Using any kind of purchase-related documents to record greenhouse gas (GHG) emissions is available starting with the *2024 release wave 2*.  
+> Posting water and waste intensity and using general journal for posting emissions will be enabled starting *2025 release wave 1*.  
 
 ## Sustainability journals
 
-Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in Business Central. Users who have the necessary information can manually enter emissions in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions based on specific known parameters that correspond to various types of sources and accounts.
+Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in [!INCLUDE [prod_short](includes/prod_short.md)]. Users who have the necessary information can manually enter emissions and water or waste intesity in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions or water or waste intesity based on specific known parameters that correspond to various types of sources and accounts.   
 
 The information that you enter in a journal is temporary and can be changed while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
 
@@ -29,7 +29,7 @@ The information that you enter in a journal is temporary and can be changed whil
 
 By default, there are two sustainability journal templates: the standard template and the recurring template.
 
-For each journal template, you can set up your own personal journal as a journal batch. To do so, select the **Batches** action on the **Sustainability Journal Templates** page, and then create the new **sustainability journal batch** on the new page. For example, you can define your own journal batch for each emission scope by using the **Emission Scope** option and then selecting among the three existing scopes. For each batch, you can add or change the **Source Code** and **Reason Code** values.
+For each journal template, you can set up your own personal journal as a journal batch. To do so, select the **Batches** action on the **Sustainability Journal Templates** page, and then create the new **Sustainability Journal Batch** on the new page. For example, you can define your own journal batch for each emission scope by using the **Emission Scope** option and then selecting among the four existing scopes or **Water/Waste** option. For each batch, you can add or change the **Source Code** and **Reason Code** values.   
 
 > [!TIP]
 > If you have many lines, you can help reduce the risk of mistakes by having one journal batch for each emission type. Alternatively, you can use the common batch for all emission types.
@@ -46,7 +46,7 @@ To work with sustainability journals, follow these steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link.
 2. On the **Sustainability Journal** page, enter as many lines as you plan to post in the same batch.
-3. For internal documents, you can leave the **Document Type** field blank. If not, you can select **Invoice** or **Credit Memo**.
+3. For internal documents, you can leave the **Document Type** field blank. If not, you can select **Invoice**, **Credit Memo** or **GHG Credit**.  
 4. In the **Account No.** field, you can select only non-blocked sustainability accounts where the **Direct Posting** field is selected and the **Accounting Type** field is set to **Posting**. The accounts must also be configured with a category and a subcategory.
 
     > [!NOTE]
@@ -54,16 +54,20 @@ To work with sustainability journals, follow these steps:
 
 5. You can either manually fill in the emission amounts or use formulas.
 
-    - If you have accurate information about the emission and want to post it (that is, if you have the information on the received invoice), select the **Manual Input** field to indicate that you'll manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields because they become noneditable. However, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields remain editable, and you can enter your data directly in them.
-    - If you don't have accurate knowledge of the emission and must calculate it, don't select the **Manual Input** field. In this case, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields become noneditable. However, you can enter your calculation details based on the formula that you're using. Learn more about the formulas that are defined in the **sustainability account category** in [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md#account-categories).
+    - If you have accurate information about the gas emission, or water or waste intesity and want to post it (that is, if you have the information on the received invoice, or some other measured model), select the **Manual Input** field to indicate that you'll manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields because they become noneditable. However, the **Emission CO2**, **Emission CH4**, **Emission N2O**, **Water Intensity**, **Discharged Into Water**, and **Waste Intesity** fields remain editable, and you can enter your data directly in them. 
+    - If you don't have accurate knowledge of the gas emission, or water or waste intesity and must calculate it, don't select the **Manual Input** field. In this case, the **Emission CO2**, **Emission CH4**, **Emission N2O**, **Water Intensity**, **Discharged Into Water**, and **Waste Intesity** fields become noneditable. However, you can enter your calculation details based on the formula that you're using. Learn more about the formulas that are defined in the **sustainability account category** in [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md#account-categories).  
 
 6. To post the journal, select the **Post** action. When you post in a sustainability journal, entries are generated in the sustainability ledger.
 
-If your formula is based on the **Calculate from General Ledger** option in the sustainability account category, you must use the **Collect Amount from G/L Entries** action before you post the journal, to calculate emissions based on this data source. Additionally, if you made changes to the emission factors after the journal lines were populated, you must select the **Recalculate** action to get the proper amount in the journal.
+> [!NOTE]
+> For water and waste intensity calculation, users can use only formula with the **Custom Amount** where it will be multiplied with the emission factor from the **Sustainability Account Subcategory**.  
+
+> [!IMPORTANT]
+> If your formula is based on the **Calculate from General Ledger** option in the sustainability account category, you must use the **Collect Amount from G/L Entries** action before you post the journal, to calculate emissions based on this data source. Additionally, if you made changes to the emission factors after the journal lines were populated, you must select the **Recalculate** action to get the proper amount in the journal.
 
 ### Changing Account Subcategories in the journal line  
 
-It's important to know that you can have more than one *Account Subcategory* related to one *Sustainability Account*, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting. To use a different subcategory for each account, you can easily change this value on the **Sustainability Journal** line, but you can only select subcategories that are already associated with the specific account and account category.   
+It's important to know that you can have more than one **Account Subcategory** related to one **Sustainability Account**, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting. To use a different subcategory for each account, you can easily change this value on the **Sustainability Journal** line, but you can only select subcategories that are already associated with the specific account and account category.   
 
 > [!TIP]
 > For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one *Account* and create as many *Account Subcategories* as you need for cars with different emission factors. When you work in your *Sustainability Journal*, you can easily change your *Account Subcategory* based on the car type you choose to use for recording emissions. 
@@ -105,6 +109,13 @@ To work with any purchase-related documents, follow these steps:
 > [!NOTE]
 > You can also create and post **Purchase Credit Memo**. You can do it manually or by using some of the following options: **Cancel**, **Correct**, or **Create Corrective Credit Memo**, in which case the system will copy the existing values from the posted invoice.  
 
+## General Journals  
+
+You can eventually use **General Journal** for posting gas emissions together with the financial amounts. So, this option will be mainly used if you want to post your incoming invoices using journal and not documents. In this situation you can [use general journals](ui-work-general-journals.md) as usual, but before posting journals, you should add emissions. There is no option for formula usage in general journals and after selecting the right **Sustainability Account No." for the journal line you want to use you can add only total emission amounts in the following fields: **Total Emission CO2**, **Total Emission CH4**, or **Total Emission N2O**. After posting lines will be recorded in the **Sustainabilioty Ledger Entries** and even if you have included carbon equivalent calculation, system will calculate it.
+
+> [!NOTE]
+> You can select the **Sustainability Account No.** in the journal line only if **Document Type** for this line has selected **Invoice** or **Credit Memo** options. For all other options, it will not be possible to select the **Sustainability Account No.** and post emissions.  
+
 ## See also
 
 [Finance](finance.md)    
@@ -113,7 +124,9 @@ To work with any purchase-related documents, follow these steps:
 [Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)    
 [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)   
-[Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
+[Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)   
+[How to work with general journals](ui-work-general-journals.md)  
+[How to work with purchase invoices and orders](purchasing-how-record-purchases.md) 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

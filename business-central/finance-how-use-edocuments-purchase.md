@@ -85,7 +85,7 @@ After you fix the errors and warnings, you can manually specify when the system 
 
 To map lines with expenses for E-Documents, you need to map description with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
 
-In addition to mapping to a vendor account or G/L accounts, you can also map text to a bank account. Use this option for electronic documents related to expenses that have been paid, and for which you want to create a general journal line that is ready to post to a bank account.
+In addition to mapping to a vendor account or G/L accounts, you can also map text to a bank account. Use this option for electronic documents related to expenses that are paid. It is for e-documents for which you want to create a general journal line that is ready to post to a bank account.
 
 1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 2. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
@@ -106,11 +106,11 @@ To manually import external e-documents, follow these steps:
 3. Select **Receive**, and upload the e-document file that you got from the vendor.
 4. If an error message occurs, open the e-document to fix the issues.
 5. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
-6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it. 
+6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it.
 
 #### Work with attachments  
 
-Peppol and similar e-invoicing files are machine-readable formats and not easy for human reading. To improve reading, Peppol made it possible to embed a PDF file into the Peppol BIS 3 format as a binary object. If your incoming Peppol BIS 3 file has an embedded PDF, Business Central automatically processes it and adds the PDF as an attachment to the purchase document after it's created.
+Peppol and similar e-invoicing files are machine-readable formats and not easy for human reading. To improve reading, Peppol made it possible to embed a PDF file into the Peppol BIS 3 format as a binary object. If your incoming Peppol BIS 3 file has an embedded PDF, Business Central automatically processes it and adds the PDF as an attachment to the purchase document after creating it.
 
 ## E-documents with purchase orders  
 

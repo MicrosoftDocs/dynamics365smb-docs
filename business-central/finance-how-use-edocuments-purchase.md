@@ -28,11 +28,11 @@ The following purchase documents can be used with e-documents functionality:
 > - From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.
 >
 > - When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
-   >
-   > 1. **GLN** (from the Vendor card)
-   > 1. **VAT Registration No.** (from the Vendor card)
-   > 1. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vendor card)
-   > 1. **Name** and **Address** (from the Vendor card)
+>
+  > 1. **GLN** (from the Vendor card)
+  > 1. **VAT Registration No.** (from the Vendor card)
+  > 1. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vendor card)
+  > 1. **Name** and **Address** (from the Vendor card)
 
 ## E-documents in purchases
 

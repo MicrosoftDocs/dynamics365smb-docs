@@ -25,13 +25,13 @@ The following purchase documents can be used with e-documents functionality:
 
 > [!NOTE]
 >
-- From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.
-- When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
-
-    1. **GLN** (from the Vendor card)
-    2. **VAT Registration No.** (from the Vendor card)
-    3. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vendor card)
-    4. **Name** and **Address** (from the Vendor card)
+> - From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.
+>
+> - When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
+    > 1. **GLN** (from the Vendor card)
+    > 2. **VAT Registration No.** (from the Vendor card)
+    > 3. **Participation Identifier** from the **Service Participant** page (using the **E-Document Service Participation** field from the Vendor card)
+    > 4. **Name** and **Address** (from the Vendor card)
 
 ## E-documents in purchases
 
@@ -46,8 +46,10 @@ Follow these steps to configure vendors to work properly with incoming electroni
 3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document to be generated from the received e-document.
 
    > [!NOTE]
-   - In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
-   - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, the [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.  
+   >
+   > - In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
+   >
+   > - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, the [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.
 
 4. Choose one of the options you want to use for the selected vendor.
 5. Close the page.

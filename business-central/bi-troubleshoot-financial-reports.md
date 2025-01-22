@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/10/2024
+ms.date: 01/22/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103_Primary, 104_Primary, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
@@ -47,9 +47,9 @@ When you run the Trial Balance report, fill out the report options as follows fo
 
 ## Testing a financial report against a data analysis on G/L entries
 
-A different method for testing a financial report than what is described in the [Testing a financial report against Trial Balance reports](#testing-a-financial-report-against-trial-balance-reports) section is to use the Data Analysis feature on the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) page. This allows you to group and summarize amounts by G/L account or G/L account category, and set filters on relevant data properties, such as G/L account, G/L account category, or posting date.
+A different method for testing a financial report than what is described in the [Testing a financial report against Trial Balance reports](#testing-a-financial-report-against-trial-balance-reports) section is to use the data analysis feature on the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) page. This allows you to group and summarize amounts by G/L account or G/L account category, and set filters on relevant data properties, such as G/L account, G/L account category, or posting date.
 
-To learn more and see some examples of analyses, go to [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
+Learn more in [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
 ## Adding check figures
 

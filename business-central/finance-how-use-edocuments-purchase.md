@@ -50,7 +50,7 @@ Follow these steps to configure vendors to work properly with incoming electroni
    >
    > - In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
    >
-   > - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, the [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.
+   > - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.
 
 4. Choose one of the options you want to use for the selected vendor.
 5. Close the page.

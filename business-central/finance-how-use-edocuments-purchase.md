@@ -81,7 +81,7 @@ Because errors in the sales process are mostly related to the availability of th
 There are two common errors:  
 
 - If you want to use this specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error, if you want to use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.** value that you want to use. Learn more about account mapping [here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
-- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. For more information, see [use item references](inventory-how-use-item-cross-refs.md).
+- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. Learn more in [use item references](inventory-how-use-item-cross-refs.md).
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.
 

@@ -33,7 +33,7 @@ When you create new financial reports, you might find that they don't balance to
 
 ## Testing a financial report against Trial Balance reports
 
-After you double-check the possible causes stated in the [Balancing reports to the general ledger](#balancing-reports-to-the-general-ledger) section, if you still have an imbalance, consider running one of the **Trial Balance** reports. These reports can serve as a reference point because they correctly lists all G/L accounts in your chart of accounts and always balances to zero. You can compare this version of the trial balance to the rows of your financial report to identify and correct the error.
+After you double-check the possible causes stated in the [Balancing reports to the general ledger](#balancing-reports-to-the-general-ledger) section, if you still have an imbalance, consider running one of the **Trial Balance** reports. These reports can serve as a reference point because they correctly lists all G/L accounts in your chart of accounts and always balance to zero. You can compare this version of the trial balance to the rows of your financial report to identify and correct the error.
 
 When you run the Trial Balance report, fill out the report options as follows for a clean, simple, and balanced report to review.
 

@@ -83,9 +83,9 @@ To set up default sustainability values for the **Resource**, follow these steps
 3. On the **Sustainability** FastTab use the **Default Sust. Account** field to select the sustaianability account you want to use as a default one.  
 4.  Populate the following fields for default emissions for this item:   
 
-   1. **Default CO2 Emission** 
-   2. **Default CH4 Emission**  
-   3. **Default N2O Emission** 
+    1. **Default CO2 Emission** 
+    2. **Default CH4 Emission**  
+    3. **Default N2O Emission** 
 
 5. Run the **Calculate CO2e** action to calculate **CO2e per Unit** field. 
 

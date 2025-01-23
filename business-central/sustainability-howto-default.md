@@ -81,11 +81,11 @@ To set up default sustainability values for the **Resource**, follow these steps
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **resources**, and then select the related link. 
 2. Open the card for a resource for which you want to set up default values.
 3. On the **Sustainability** FastTab use the **Default Sust. Account** field to select the sustaianability account you want to use as a default one.  
-4.  Populate the following fields for default emissions for this item:   
+4. Populate the following fields for default emissions for this resource:   
 
-    1. **Default CO2 Emission** 
-    2. **Default CH4 Emission**  
-    3. **Default N2O Emission** 
+   1. **Default CO2 Emission**
+   2. **Default CH4 Emission**  
+   3. **Default N2O Emission** 
 
 5. Run the **Calculate CO2e** action to calculate **CO2e per Unit** field. 
 
@@ -95,16 +95,65 @@ To set up default sustainability values for the **Resource**, follow these steps
 6. By default this action will offer update only for this one resource, but you can change the filter and apply it to different resources range.  
 
 > [!NOTE]
-> The calculation of CO2e (carbon equivalent) is based on the default emissions you have populated for this item and the setup you have in the **Emission Fees** table.  
+> The calculation of CO2e (carbon equivalent) is based on the default emissions you have populated for this resource and the setup you have in the **Emission Fees** table.  
 
 7. Close the page.    
 
 ## Work Centers
 
+To set up default sustainability values for the **Work Center**, follow these steps:  
 
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work centers**, and then select the related link. 
+2. Open the **Work Center Card** for a work center for which you want to set up default values.  
+3. On the **Sustainability** FastTab use the **Default Sust. Account** field to select the sustaianability account you want to use as a default one.  
+4. Populate the following fields for default emissions for this work center:   
+
+   1. **Default CO2 Emission** 
+   2. **Default CH4 Emission**  
+   3. **Default N2O Emission** 
+
+5. Run the **Calculate CO2e** action to calculate **CO2e per Unit** field. 
+
+> [!NOTE]
+> You must use the **Calculate CO2e** action to calculate the **CO2e per Unit** field, as there are no other transactions that impact these values as we have in the case of items.  
+
+6. By default this action will offer update only for this one work center, but you can change the filter and apply it to different work centers range range.  
+
+> [!NOTE]
+> The calculation of CO2e (carbon equivalent) is based on the default emissions you have populated for this work center and the setup you have in the **Emission Fees** table.  
+
+7. Close the page.    
+
+> [!NOTE]
+> You can run the **Calculate CO2e** action even from the **Work Centers** list and this action can be applied not only to work centers, but also to machine centers.  
 
 ## Machine Centers
 
+To set up default sustainability values for the **Machine Center**, follow these steps:  
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Machine centers**, and then select the related link. 
+2. Open the **Machine Center Card** for a machine center for which you want to set up default values.  
+3. On the **Sustainability** FastTab use the **Default Sust. Account** field to select the sustaianability account you want to use as a default one.  
+4. Populate the following fields for default emissions for this machine center:   
+
+   1. **Default CO2 Emission** 
+   2. **Default CH4 Emission**  
+   3. **Default N2O Emission** 
+
+5. Run the **Calculate CO2e** action to calculate **CO2e per Unit** field. 
+
+> [!NOTE]
+> You must use the **Calculate CO2e** action to calculate the **CO2e per Unit** field, as there are no other transactions that impact these values as we have in the case of items.  
+
+6. By default this action will offer update only for this one machine center, but you can change the filter and apply it to different machine centers range range.  
+
+> [!NOTE]
+> The calculation of CO2e (carbon equivalent) is based on the default emissions you have populated for this machine center and the setup you have in the **Emission Fees** table.  
+
+7. Close the page.    
+
+> [!NOTE]
+> You can run the **Calculate CO2e** action even from the **Machine Centers** list and this action can be applied not only to machine centers, but also to work centers.  
 
 
 ## See also  

@@ -35,11 +35,31 @@ To configure these settings, follow these steps:
     | **Resource Emissions** | Specifies the enablement of default **Sustainability Account** and emissions on the **Resource** card. |
     | **Work Machine Center Emissions** | Specifies the enablement of default **Sustainability Account** and emissions on the **Work Center** and **Machine Center** cards. |
 
-    > [!NOTE]
-    > Keep in mind that even if you selected the **Use Emissions In Purchase Documents** field, it will not automaticall activate the Sustainability Value Chain functionallity. Haing enable only this field will enable using emissions in the purchase documents, but if you want to use purchase documents in the value chain operations you must select the **Enable Value Chain tracking** field as well.  
+> [!NOTE]
+> Keep in mind that even if you selected the **Use Emissions In Purchase Documents** field, it will not automaticall activate the Sustainability Value Chain functionallity. Haing enable only this field will enable using emissions in the purchase documents, but if you want to use purchase documents in the value chain operations you must select the **Enable Value Chain tracking** field as well.  
 
-    > [!NOTE]
-    > The **Item Charge** functionallity currently is not supported within the Sustainability Value Chain process. This feature will be added in 2025 release wave 2.  
+> [!NOTE]
+> The **Item Charge** functionallity currently is not supported within the Sustainability Value Chain process. This feature will be added in 2025 release wave 2.  
 
-## Emission Fees
+## Emission Fees  
 
+As a prerequisite for using sustainability value chain functionallity you must configure carbon dioxide equivalents (CO2e) as complete value chain works only for CO2e and not for each of gasses. To do so, you need to configure the **Emission Fees** page. To set up this information, follow these steps:  
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Emission Fees**, and then select the related link. 
+2. In the **Emission Type** field, choose the GHG emission you want to configure: **CO2**, **CH4**, or **N2O**. This field is mandatory.   
+3. The **Carbon Equivalent Factor** specifies the coefficient that converts the impact of various greenhouse gases into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** is always *1* and you can't modify this value, because CO2 is the reference gas used for calculating the global warming potential (GWP) of other greenhouse gases; since CO2 is the baseline, its GWP is set to *1*. For other GHG gases, you must configure the values manually.  
+
+> [!NOTE]
+> To calculate the carbon equivalent factor, you can use the following example: If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, you need to divide 1 by 298 and the result you need to populate is 0.00336.  
+
+To track internal carbon fees or use another features related to using carbon dioxide equivalents (CO2e), read [detailed explanation here](finance-sustainability-setup.md). 
+
+
+## See also  
+[Sustainability Value Chain overview](value-chain-howto-overview.md)  
+[Sustainability Management overview](finance-manage-sustainability.md) 
+[Sustainability setup](finance-sustainability-setup.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

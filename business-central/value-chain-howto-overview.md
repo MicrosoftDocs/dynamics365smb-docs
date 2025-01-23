@@ -25,7 +25,7 @@ The sustainability value chain functionallity enables you to use data you got fr
 
 By leveraging the Sustainability Value Chain functionallity, businesses can achieve a higher level of accuracy in sustainability reporting, provide better communication with customers related to emissions in their products, better align with regulatory demands, and actively contribute to reducing their environmental footprint.  
 
-##  How doesn the system keep data related to value chain  
+##  How does the system keep data related to value chain  
 
 To track sustainability value chain in Business Central, users will record and use transactions from the **Sustainability Value Entries** page.  
 
@@ -34,13 +34,16 @@ To track sustainability value chain in Business Central, users will record and u
 
 The **Sustainability Value Entry** table in Business Central is a crucial component for managing and tracking the value of embedded carbon footprint in items. It records all changes in the CO2e emissions of inventory items, including purchases, localtion transfers, production, sales, etc. This table helps ensure accurate CO2e (carbon equivalent) valuation and provides detailed insights into the emissions impact of inventory transactions.  
 
+> [!IMPORTANT]
+> Sustainability value chain functionality uses only average method of CO2e emission calculation per Item. An item's **CO2e per Unit** is calculated as the average **CO2e per Unit** at each point in time after a purchase.   
+
 ## Available fetures   
 
 To get started with sustainability value chain functionallity, use the following articles.  
 
 | Article | Description |
 |---------|-------------|
-| [Value Chain Setup](value-chain-howto-setup.md) | This article provides information how to enable value chain in Business Central ans all aditional setup you need to make. |
+| [Value Chain Setup](value-chain-howto-setup.md) | This article provides information how to enable value chain in Business Central and all aditional setup you need to make. |
 | [Default emission values](sustainability-howto-default.md) | This article provides information how to set up default values on you master data you will use across the system. |
 | [Value Chain in Purchase](value-chain-howto-purchase.md) | This article provides information to help you understanding how value chain process starts with the purchase process. |
 | [Value Chain in Transfers](value-chain-howto-transfer.md) | This article provides information how to work with transfer order related to their impact to the sustainability value chain process. |

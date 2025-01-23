@@ -50,9 +50,12 @@ To set up default sustainability values for the **Item**, follow these steps:
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link. 
 2. Open the card for an item for which you want to set up default values.  
 3. Add the default sustainability account:   
+
    1. On the **Sustainability** FastTab use the **Default Sust. Account** field to select the sustaianability account you want to use as a default one.  
    2. If you have configure default sustainability accounts on item categories, select the **Item Category Code** you want to use on the **Item** FastTab and default value for this category will updae the value in **Default Sust. Account** field for this item. 
+
 4. Populate the following fields for default emissions for this item:   
+
    1. **Default CO2 Emission** 
    2. **Default CH4 Emission**  
    3. **Default N2O Emission** 
@@ -79,9 +82,11 @@ To set up default sustainability values for the **Resource**, follow these steps
 2. Open the card for a resource for which you want to set up default values.
 3. On the **Sustainability** FastTab use the **Default Sust. Account** field to select the sustaianability account you want to use as a default one.  
 4.  Populate the following fields for default emissions for this item:   
+
    1. **Default CO2 Emission** 
    2. **Default CH4 Emission**  
    3. **Default N2O Emission** 
+
 5. Run the **Calculate CO2e** action to calculate **CO2e per Unit** field. 
 
 > [!NOTE]

@@ -1,6 +1,6 @@
 ---
 title: Synchronize customers and companies
-description: Import customers from or export to Shopify. 
+description: Import customers and companies from or export to Shopify. 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf

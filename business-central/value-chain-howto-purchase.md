@@ -46,10 +46,10 @@ Additionally, when you post the document, system will update the **CO2e per Unit
 
 ## See also  
 
-[Sustainability Value Chain Overview](value-chain-howto-overview.md)
-[Sustainability Management overview](finance-manage-sustainability.md) 
-[Sustainability setup](finance-sustainability-setup.md)    
+[Sustainability Value Chain Overview](value-chain-howto-overview.md)  
+[Sustainability Management overview](finance-manage-sustainability.md)  
+[Sustainability setup](finance-sustainability-setup.md)   
 [Record sustainability entries](finance-sustainability-journal.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

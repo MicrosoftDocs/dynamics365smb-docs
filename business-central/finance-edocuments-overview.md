@@ -42,7 +42,7 @@ Microsoft currently supports the following localizations:
 
 | Article | Description | 
 |---------|-------------|
-| Australian E-Invoicing | Peppol A-NZ format is coming soon - 2025 release wave 1. |
+| Australian E-Invoicing | Peppol PINT A-NZ format is coming soon - 2025 release wave 1. |
 | [Belgian E-Invoicing](finance-how-setup-edocuments-external.md) | Supported Peppol BIS 3 format. |
 | [Danish E-Invoicing](localfunctionality/denmark/how-to-edocuments-nemhadel.md) | Supported both Peppol BIS 3 and OIOUBL formats. |
 | French E-Invoicing | Will be supported in 2026. |
@@ -50,7 +50,8 @@ Microsoft currently supports the following localizations:
 | Indian E-Invoicing | Using new E-Documents framework - TBD |
 | Italian E-Invoicing | Using new E-Documents framework - TBD |
 | Mexican E-Invoicing | Using new E-Documents framework - TBD |
-| New Zealand E-Invoicing | Peppol A-NZ format is coming soon - 2025 release wave 1. |
+| New Zealand E-Invoicing | Peppol PINT A-NZ format is coming soon - 2025 release wave 1. |
+| [Norway E-Invoicing](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md) | Supported Peppol BIS 3 format. |
 | [Spanish E-Invoicing](LocalFunctionality/Spain/spain-einvoicing.md) | Supported Factura-E format. |
 
 > [!NOTE]

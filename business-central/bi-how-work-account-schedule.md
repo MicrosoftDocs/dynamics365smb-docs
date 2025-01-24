@@ -131,76 +131,6 @@ You can use a financial report to create a statement that compares general ledge
 
 Now you can copy and paste your budget statement into a spreadsheet.  
 
-## Integrate financial reports with Excel
-
-You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
-
-### Set up Excel integration for a financial report (create an Excel template)
-
-To set up Excel integration for a financial report, follow these steps to create an Excel template.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
-1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
-1. Choose the **Create New Document** action. This action downloads a template Excel workbook with a single worksheet named after the report name.
-1. Copy the worksheet, and rename it to **Data**.
-1. Rename the report worksheet to your liking.
-1. In the report worksheet, mark all cells that show data from the financial report (including column and row headers). On the **Home** ribbon, find the **Number** menu and choose **General** as the format.
-1. Choose the left most cell of the area with data from the financial report, and set a reference to the equivalent cell in the Data worksheet. Drag the formula to the right to extend it to all cells in the first row, and then drag the row down to cover all rows in the financial report.
-1. Hide the **Data** worksheet.
-1. Format the report worksheet to suit your needs.
-1. Save the workbook in OneDrive, or a similar place where the file is backed up and versioned.
-1. Close the workbook.
-
-> [!NOTE]
-> If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
-
-### Example: Use and update an Excel template to create a monthly report
-
-You can create an Excel template that contains the reports that you include in your reporting package. Each report in the workbook must have a data tab and a tab that has the formatted report. When you update your monthly package, use the **Update Copy of Existing Document** for each report. Be sure to save after each update.
-
-Follow these steps to produce your monthly financial report.
-
-1. Choose the financial report you used to create the Excel template. 
-1. Change the date filter to the next month.
-1. Choose the **Export to Excel** and **Update Copy of Existing Document** actions.
-1. Select the template you saved. Make sure that the Excel file is closed. Otherwise, an error message will state that the file is in use.
-1. The next screen shows the tabs that are available in the Excel workbook. Choose the **Data** tab, and then choose **OK**. If you choose the tab labeled **IS**, your formatting will be overwritten and you'll need to start over.
-1. The Excel workbook is created. Be sure to enable editing to show your changes.
-1. Save the workbook with a different name than the original template.
-
-### Run a financial report with an Excel template
-
-To run a financial report with an Excel template, follow these steps:
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
-1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
-1. Choose the **Update Copy of Existing Document** action.
-1. Upload your Excel template (close the Excel workbook before uploading it).
-1. On the **Name/Value Lookup** page, choose the Data worksheet.
-1. [!INCLUDE[prod_short](includes/prod_short.md)] runs the financial report and merges the resulting data with your Excel template.
-
-## Print and save financial reports
-
-You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as Excel workbooks, Word documents, PDF, and XML files.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, select the report to print, then choose the **Print** action.
-1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. In the **Printer** field, select the device to which the report is sent.
-    1. The **(Handled by the browser)** option indicates there's no designated printer for the report. In this case, the browser handles the printout and display the standard printing steps, where you can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Teams.
-1. Choose the **Print** action.
-
-### Schedule a financial report or save as a PDF, Word, or Excel document
-
-You can save a financial report in file formats such as PDF, XML, Word, or Excel. [!INCLUDE[prod_short](includes/prod_short.md)] can also generate recurring financial reports.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, choose the **Print** action.
-1. Set the report accordingly, then choose the **Send to** action.
-1. Select the file format or the **Schedule** action, and choose **OK**.
-1. To generate a scheduled or recurring financial report, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For recurring financial reports, set the **Earliest Start Date/Time** and **Expiration Date/Time** fields with the first and last date, respectively, to generate the financial report. Also, select on which days the report is generated by setting the **Next Run Date Formula** field following the format explained in the [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas) section.
-
-
 ## Best practices for working with financial report definitions
 
 Financial report definitions aren't versioned. When you change a report definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with financial report definitions:
@@ -225,6 +155,20 @@ To learn more about how to import or export financial report row or column defin
 
 - [Import or export financial reporting row definitions](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions), or
 - [Import or export financial reporting column definitions](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
+
+
+## Integrate financial reports with Excel
+
+You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
+
+To learn more, go to [How to integrate financial reports with Excel](./finance-financial-reporting-view-a-report.md#integrate-financial-reports-with-excel).
+
+## Print and save financial reports
+
+You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files. 
+
+To learn more, go to [How to print and save financial reports](./finance-financial-reporting-view-a-report.md#print-and-save-financial-reports).
+
 
 ## See also
 

@@ -1,6 +1,6 @@
 ---
-title: Support for Shopify Connector
-description: Support options related to the Shopify connector.
+title: Support for the Shopify Connector
+description: Support options related to the Shopify Connector.
 ms.date: 05/01/2024
 ms.topic: article
 ms.service: dynamics-365-business-central

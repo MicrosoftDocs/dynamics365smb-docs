@@ -1,0 +1,90 @@
+---
+title: Shopify Connector Overview
+description: Learn to use Shopify Connector to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.
+author: andreipanko
+ms.author: andreipa
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 04/26/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+---
+
+# What is Shopify?
+
+Shopify is a subscription-based application that allows anyone to set up an online store and sell products. The Shopify platform offers online retailers a suite of services for payments, marketing, shipping, and customer engagement.
+
+# What is the Microsoft Dynamics 365 Business Central Shopify Connector?
+
+With the Shopify Connector, businesses can link their Shopify stores with [!INCLUDE[prod_short](../includes/prod_short.md)] to maximize business productivity. Using the Shopify Connector, they can access and manage insights from their business and their Shopify online store as one unit.
+
+## Capabilities
+
+- Support for more than one Shopify shop
+  - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
+- Bidirectional synchronization of items or products
+  - The connector synchronizes images, item variants, bar codes, vendor item numbers, extended and marketing texts, tags and metafields.  
+  - Export item attributes to Shopify.  
+  - Use selected customer price groups and discounts to define prices exported to Shopify.
+  - Define prices and discounts for product catalogs linked to B2B companies.
+  - Decide whether items can be created automatically or only allow updates to existing products.
+- Synchronization of inventory levels
+  - Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  - Update inventory levels on multiple locations in Shopify.  
+- Bidirectional synchronization of customers and companies
+  - Smart-map customers by phone and email.  
+  - Use specific country/region templates when creating customers, which helps ensure that tax settings are correct.  
+- Import orders from Shopify
+  - Include orders created in various sales channels, such as online store, **Shopify POS** or **B2B**.
+  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud, return, refund or cancelation information.
+  - During import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
+  - Receive payout information from Shopify Payments.
+- Track fulfillment information
+  - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
+- Headless integration
+  - Enable automatic synchronization of products, inventory, orders, fulfillments, and more.
+
+# Why did Microsoft and Shopify form this partnership?
+
+[!INCLUDE[prod_short](../includes/prod_long.md)] teamed up with Shopify to help our customers create a better shopping experience. While Shopify provides merchants with an easy-to-use commerce solution, [!INCLUDE[prod_short](../includes/prod_short.md)] offers comprehensive business management across finance, sales, service, and operations teams. Use the seamless connection between the applications to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.
+
+## Setup and run synchronization
+
+The following table describes a sequence of tasks related to setting up and running synchronizations, with links to the articles that describe them.
+
+|**To**|**See**|  
+|------------|-------------|  
+| Connect Business Central to the Shopify online store| [Get started with the Shopify connector](shopify/get-started.md)|
+| Set up and run synchronizations of items between Shopify and Business Central | [Synchronize items with Shopify](shopify/synchronize-items.md)|
+| Send inventory levels to Shopify|[Synchronize inventory with Shopify](shopify/synchronize-items.md#sync-inventory-to-shopify)|
+| Send main price and nondiscounted price to Shopify |[Synchronize prices with Shopify](shopify/synchronize-items.md#sync-prices-with-shopify)|
+| Learn how various settings in Shopify affect the storefront prices and taxes that display to customers| [Set up taxes for the Shopify connection](shopify/setup-taxes.md)|
+| Import customers and companies from or export to Shopify.| [Synchronize customers and companies with Shopify](shopify/synchronize-customers.md)|
+| Set up and run import and processing of sales orders from Shopify.| [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)|
+| Set up and run import of transactions and payouts from Shopify.| [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)|
+| Configure synchronization of data between Business Central and Shopify in the background.| [Automate Shopify synchronization using job queue](shopify/background.md)|
+
+## Demonstations and testing
+
+The following table contains links the articles that help you to try, demonstrate and explore Shopify Connector
+
+|**To**|**See**|  
+|------------|-------------|  
+| Create and Set up a Shopify Account for testing| [Create and set up a Shopify account](shopify/shopify-account.md)|
+| Try various integration scenarios for demonstrating workflow between Shopify and Business Central| [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)|
+| Review testing approaches | [Testing strategies](shopify/shopify-account.md#testing-strategies)|
+
+## Support and troubleshooting 
+
+Find information related to support and troubleshooting.
+
+|**To**|**See**|  
+|------------|-------------|  
+| Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.| [Troubleshoot the Shopify connector](shopify/troubleshoot.md)|
+| Learn implementation details related to the Shopify connector.| [FAQ for the Shopify connector](shopify/shopify-faq.md)|
+
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

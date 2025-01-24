@@ -47,6 +47,10 @@ In the **Dimensions** menu, you can choose to filter data according to (global) 
 > [!TIP]
 > Use the **Recalculate** action if you need to refresh the data on the screen based on changes to settings in these two menus. 
 
+### How to hide/show the Row No. field on a report
+
+The **Row No.** field might be shown on a report when viewing it on-screen. If you want to hide or show the field there (it is not shown when viewing the report in PDF), you can do so with personalization on the page. To learn more, go to [Personalize your workspace](ui-personalization-user.md).
+
 
 ## Integrate financial reports with Excel
 
@@ -67,6 +71,10 @@ To set up Excel integration for a financial report, follow these steps to create
 1. Format the report worksheet to suit your needs.
 1. Save the workbook in OneDrive, or a similar place where the file is backed up and versioned.
 1. Close the workbook.
+
+
+> [!TIP]
+> The **Row No.** field is shown on the data worksheet, but you might not want to include it on your layouted worksheets. 
 
 > [!NOTE]
 > If you make changes to the row or column definitions of the report you created a template for, you must update the template too. Each row and column in the Excel template must be in the same position as the generated report.
@@ -120,7 +128,7 @@ You can save a financial report in file formats such as PDF. [!INCLUDE[prod_shor
 
 ## See also
 
-
+[Prepare financial reporting](bi-how-work-account-schedule.md)   
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

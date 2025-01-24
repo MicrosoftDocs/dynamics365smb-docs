@@ -172,6 +172,7 @@ To learn more, go to [How to print and save financial reports](./finance-financi
 
 ## See also
 
+[View a financial report](finance-financial-reporting-view-a-report.md)  
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  
 [Financial Reporting Auditing](finance-financial-reporting-auditing.md)   

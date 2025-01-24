@@ -15,11 +15,11 @@ ms.custom: bap-template
 
 Shopify is a subscription-based application that allows anyone to set up an online store and sell products. The Shopify platform offers online retailers a suite of services for payments, marketing, shipping, and customer engagement.
 
-# What is the Microsoft Dynamics 365 Business Central Shopify Connector?
+## What is the Microsoft Dynamics 365 Business Central Shopify Connector?
 
 With the Shopify Connector, businesses can link their Shopify stores with [!INCLUDE[prod_short](../includes/prod_short.md)] to maximize business productivity. Using the Shopify Connector, they can access and manage insights from their business and their Shopify online store as one unit.
 
-## Capabilities
+### Capabilities
 
 - Support for more than one Shopify shop
   - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
@@ -45,7 +45,7 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
 - Headless integration
   - Enable automatic synchronization of products, inventory, orders, fulfillments, and more.
 
-# Why did Microsoft and Shopify form this partnership?
+## Why did Microsoft and Shopify form this partnership?
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] teamed up with Shopify to help our customers create a better shopping experience. While Shopify provides merchants with an easy-to-use commerce solution, [!INCLUDE[prod_short](../includes/prod_short.md)] offers comprehensive business management across finance, sales, service, and operations teams. Use the seamless connection between the applications to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.
 
@@ -73,7 +73,7 @@ The following table contains links the articles that help you to try, demonstrat
 |------------|-------------|  
 | Create and Set up a Shopify Account for testing| [Create and set up a Shopify account](shopify-account.md)|
 | Try various integration scenarios for demonstrating workflow between Shopify and Business Central| [Walkthrough: Set up and use the Shopify connector](walkthrough-setting-up-and-using-shopify.md)|
-| Review testing approaches | [Testing strategies](shopify-account.md#testing-strategies)|
+| Review testing approaches | [Testing strategies](get-started.md#testing-strategies)|
 
 ## Support and troubleshooting 
 
@@ -86,6 +86,6 @@ Find information related to support and troubleshooting.
 | Check support options for Shopify Connector| [Support for the Shopify Connector](shopify-support.md)|
 
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

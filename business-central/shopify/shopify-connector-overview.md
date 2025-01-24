@@ -6,7 +6,7 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/26/2025
+ms.date: 01/24/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -55,15 +55,15 @@ The following table describes a sequence of tasks related to setting up and runn
 
 |**To**|**See**|  
 |------------|-------------|  
-| Connect Business Central to the Shopify online store| [Get started with the Shopify connector](shopify/get-started.md)|
-| Set up and run synchronizations of items between Shopify and Business Central | [Synchronize items with Shopify](shopify/synchronize-items.md)|
-| Send inventory levels to Shopify|[Synchronize inventory with Shopify](shopify/synchronize-items.md#sync-inventory-to-shopify)|
-| Send main price and nondiscounted price to Shopify |[Synchronize prices with Shopify](shopify/synchronize-items.md#sync-prices-with-shopify)|
-| Learn how various settings in Shopify affect the storefront prices and taxes that display to customers| [Set up taxes for the Shopify connection](shopify/setup-taxes.md)|
-| Import customers and companies from or export to Shopify.| [Synchronize customers and companies with Shopify](shopify/synchronize-customers.md)|
-| Set up and run import and processing of sales orders from Shopify.| [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)|
-| Set up and run import of transactions and payouts from Shopify.| [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)|
-| Configure synchronization of data between Business Central and Shopify in the background.| [Automate Shopify synchronization using job queue](shopify/background.md)|
+| Connect Business Central to the Shopify online store| [Get started with the Shopify connector](get-started.md)|
+| Set up and run synchronizations of items between Shopify and Business Central | [Synchronize items with Shopify](synchronize-items.md)|
+| Send inventory levels to Shopify|[Synchronize inventory with Shopify](synchronize-items.md#sync-inventory-to-shopify)|
+| Send main price and nondiscounted price to Shopify |[Synchronize prices with Shopify](synchronize-items.md#sync-prices-with-shopify)|
+| Learn how various settings in Shopify affect the storefront prices and taxes that display to customers| [Set up taxes for the Shopify connection](setup-taxes.md)|
+| Import customers and companies from or export to Shopify.| [Synchronize customers and companies with Shopify](synchronize-customers.md)|
+| Set up and run import and processing of sales orders from Shopify.| [Synchronize and fulfill sales orders with Shopify](synchronize-orders.md)|
+| Set up and run import of transactions and payouts from Shopify.| [Synchronize transactions and payouts](transactions-and-payouts.md)|
+| Configure synchronization of data between Business Central and Shopify in the background.| [Automate Shopify synchronization using job queue](background.md)|
 
 ## Demonstations and testing
 
@@ -71,9 +71,9 @@ The following table contains links the articles that help you to try, demonstrat
 
 |**To**|**See**|  
 |------------|-------------|  
-| Create and Set up a Shopify Account for testing| [Create and set up a Shopify account](shopify/shopify-account.md)|
-| Try various integration scenarios for demonstrating workflow between Shopify and Business Central| [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)|
-| Review testing approaches | [Testing strategies](shopify/shopify-account.md#testing-strategies)|
+| Create and Set up a Shopify Account for testing| [Create and set up a Shopify account](shopify-account.md)|
+| Try various integration scenarios for demonstrating workflow between Shopify and Business Central| [Walkthrough: Set up and use the Shopify connector](walkthrough-setting-up-and-using-shopify.md)|
+| Review testing approaches | [Testing strategies](shopify-account.md#testing-strategies)|
 
 ## Support and troubleshooting 
 
@@ -81,8 +81,9 @@ Find information related to support and troubleshooting.
 
 |**To**|**See**|  
 |------------|-------------|  
-| Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.| [Troubleshoot the Shopify connector](shopify/troubleshoot.md)|
-| Learn implementation details related to the Shopify connector.| [FAQ for the Shopify connector](shopify/shopify-faq.md)|
+| Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.| [Troubleshoot the Shopify connector](troubleshoot.md)|
+| Learn implementation details related to the Shopify connector.| [FAQ for the Shopify connector](shopify-faq.md)|
+| Check support options for Shopify Connector| [Support for the Shopify Connector](shopify-support.md)|
 
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

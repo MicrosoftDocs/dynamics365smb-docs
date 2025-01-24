@@ -24,7 +24,7 @@ Additionally, you can have a look at the [FAQ](shopify-faq.md), [Troubleshooting
 ### Microsoft Partner
 Business Central is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for consulting and other services. Your Microsoft partner is a valuable resource. If you don’t have one, you can use the [Contact a Microsoft partner](https://go.microsoft.com/fwlink/?linkid=828707) form.
 
-If there's a problem that the partner can't resolve, they can [submit a support request to Microsoft](/dynamics365/business-central/dev-itpro/administration//manage-technical-supportmanage-technical-support#escalating-support-issues-to-microsoft).
+If there's a problem that the partner can't resolve, they can [submit a support request to Microsoft](/dynamics365/business-central/dev-itpro/administration//manage-technical-support#escalating-support-issues-to-microsoft).
 
 ## Shopify
 

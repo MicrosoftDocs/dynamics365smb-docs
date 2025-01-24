@@ -17,14 +17,14 @@ ms.reviewer: bholtorf
 The Shopify Connector is covered by the current support model. Learn more at [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (in English only).
 
 ### Self service
-The Shopify Connector is well documented, and majority of questions we receive can be solved by exploring product documentation. In the [Shopify](shopify-connector-overview.md) section, you will find descriptions of processes such as synchronizing products and orders, as well as conceptual information about the mapping of various entities. 
+The Shopify Connector is well documented, and most questions we receive can be solved by exploring product documentation. In the [Shopify](shopify-connector-overview.md) section, you find descriptions of processes such as synchronizing products and orders, and conceptual information about the mapping of various entities. 
 
-Additionally, you can have a look at the [FAQ](shopify-faq.md), [Troubleshooting Guide](troubleshoot.md) or a collection of [walkthroughs](walkthrough-setting-up-and-using-shopify.md) (how-to). 
+Additionally, you can have a look at the [FAQ](shopify-faq.md), [Troubleshooting Guide](troubleshoot.md), or a collection of [walkthroughs](walkthrough-setting-up-and-using-shopify.md) (how-to). 
 
 ### Microsoft Partner
 Business Central is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for consulting and other services. Your Microsoft partner is a valuable resource. If you don’t have one, you can use the [Contact a Microsoft partner](https://go.microsoft.com/fwlink/?linkid=828707) form.
 
-If there is a problem that the partner can't resolve, they can [submit a support request to Microsoft](/dynamics365/business-central/dev-itpro/administration//manage-technical-supportmanage-technical-support#escalating-support-issues-to-microsoft).
+If there's a problem that the partner can't resolve, they can [submit a support request to Microsoft](/dynamics365/business-central/dev-itpro/administration//manage-technical-supportmanage-technical-support#escalating-support-issues-to-microsoft).
 
 ## Shopify
 

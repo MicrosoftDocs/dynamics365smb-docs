@@ -26,17 +26,7 @@ The Shopify connector doesn't work with other Dynamics 365 applications, like Dy
 
 ## What support is offered for the Shopify Connector?
 
-### [!INCLUDE[prod_short](../includes/prod_short.md)]
-
-The Shopify Connector is covered by the current support model. Learn more at [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (in English only).
-
-Get help from a consultant who knows the Shopify Connector for [!INCLUDE[prod_short](../includes/prod_short.md)], to meet your unique, business-specific requirements. Search in [Consultancy Services](https://aka.ms/BCShopifyConsultant).
-
-### Shopify
-
-Get help with Shopify from the [General Shopify Help Center](https://help.shopify.com/), or from [24/7 Support for your store as a Shopify merchant](https://help.shopify.com/questions#/).
-
-You can also explore [Experts Marketplace](https://experts.shopify.com/) to find the right experts who offer services for Shopify merchants.
+See [Support for the Shopify Connector](shopify-support.md)
 
 ## Currently unsupported features; however, we're tracking them and may consider adding them
 

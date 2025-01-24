@@ -1,20 +1,73 @@
 ---
-title: EHF electronic invoicing in Norway
+title: Electronic invoicing in Norway
 description: Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on (UBL).
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.search.form: 21, 459
-ms.date: 05/21/2024
+ms.search.form: 21, 459, 359, 360, 6103, 6133
+ms.date: 01/24/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# EHF electronic invoicing in Norway
+# Electronic invoicing in Norway
 Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on Universal Business Language (UBL). If a company doesn't send these documents electronically, the authorities can deny payment. The standard supported format for electronic exchange between parties is the Ehandel.no format. For more information on EHF electronic invoicing, see [Anskaffelser.no](https://www.anskaffelser.no).  
 
-## Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
+## New E-Documents framework
+
+This article explains how to set up E-Documents functionality when it's connected to external endpoints.
+
+> [!NOTE] Before you use the functionality that's described in this article, install the **E-Documents Connector with External Endpoints** app or other coonector you want to use on the top of the global **E-Document Core** app. This app can be used for default integration with the external (third-party) access points to automate the e-document flow. 
+
+### Set up the connection
+
+[!INCLUDE[e-documents connectors](includes/edocuments-connectors-include.md)]
+
+Based on the endpoint service provider you chose,, the next steps might be different. You can find details about set up parameters for all available service providers [here](finance-edocuments-connectors.md).
+
+### Set up company information
+
+Before you start using e-documents, update your **Company Information** page by completing the following steps:
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.
+2. In addition to filling in the usual fields, you must also fill in the following fields:
+
+    | Field name | Description |
+    |---|---|
+    | SWIFT Code | Specify the SWIFT code (international bank identifier code) of your primary bank. |
+    | Bank Branch No. | Specify the bank's four-digit branch number. |
+    | VAT Registration No. | Specify the company's value-added tax (VAT) registration number. |
+
+3. Close the page.
+
+### Set up customers to receive e-documents
+
+To enable customers to receive your e-documents, complete the following steps:
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then select the related link.
+2. Open the **Customer** card.
+3. In addition to filling in the usual fields, in the **GLN** field, specify the customer in connection with the sending of electronic documents.
+4. Mark the **Use GLN in Electronic Documents** field to indicate whether the Global Location Number (GLN) is used as a party identification number in electronic documents.
+5. Close the page.
+
+### Other setup
+
+Before you start to work with e-documents, set up the e-document **workflows** and **document sending profiles** to use your workflows. After the service connection is established, you can start to use your e-document solution.
+
+### Available service providers
+
+Microsoft wants to encourage access point providers to add their connectors on top of our **E-Document Core** framework.
+
+Currently, Pagero and Avalara are only access point providers that's covered by this system. Microsoft has no contractual obligation with them. Therefore, you must make a contract with them to get all the necessary credentials.
+
+We'll update this list as we get new e-document exchange access point providers.
+
+## Legacy electronic invoicing
+
+> [!NOTE] This article is related for old electroni invoicing in Business Central and localized for usage in Norway, but as Business Central has new E-Documents framework we highly recommend moving to the new solution.  
+
+### Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 From January  2019, the requirements for sending electronic invoices are based on the PEPPOL BIS Billing 3.0 standard. For more information, see the [EHF Billing 3.0](https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/) page from the Agency of Public Management and eGovernment. Companies that are already sending electronic documents in the pre-2019 format can continue to do so during 2019.
 
 > [NOTE!]
@@ -56,6 +109,9 @@ VAT percentages and the type of transaction determine the VAT Type that is expor
 Make sure you set up the correct value in the **VAT Scheme** field on the **Countries/Regions** page.
 
 ## See also  
+[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)    
+[How to use e-documents in Business Central](finance-how-use-edocuments.md)    
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 [Set up customers for EHF](how-to-set-up-customers-for-ehf.md)
 
 

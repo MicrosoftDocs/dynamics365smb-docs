@@ -303,25 +303,6 @@ Some API pages, including most API v2.0 pages, have fields based on [AL Enum obj
 
 ---
 
-<!--
-if report showing data from wrong BC, clear the data source 
-
-To clear a data source in Power BI, you can follow these steps:
-
-1 Open Power BI Desktop:
-2. Go to Data Source Settings: Click on File > Options and settings > Data source settings.
-3. Select the Data Source: In the Data Source Settings window, select the data source you want to clear.
-4. Clear Permissions: Click on Clear Permissions to remove the stored credentials for the selected data source1.
-
-https://support.biconnector.com/support/solutions/articles/8000072804-how-to-clear-cache-of-power-bi-desktop-
-
-
-
-https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-azure-ad-b2b#discoverability-for-b2b-content
-
-https://www.syntera.ch/blog/2024/05/14/login-to-power-bi-with-guest-account/
-
--->
 ## Related information
 
 [Power BI licensing](admin-powerbi-setup.md#license)  

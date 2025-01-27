@@ -55,12 +55,21 @@ We don't have control over this requirement. Power BI sets this requirement. Lea
 
 ### How do guest users and delegated admins access my organization's data and reports?
 
-External users, like guest users and delegated admins, use a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
+External users, like guest users and delegated admins, typically have a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
 
+To access your organization's data and shared workspaces or reports, external users must connect to your Microsoft 365 tenant. From Power BI service, they can use the tenant switcher (preview) to connect:
+
+1. Sign in to [Power BI](https://app.powerbi.com).
+1. Select your profile picture to open your account manager and select **Switch** next to **Tenant name**.
+1. In the **Switch tenant (preview)** dialog, open the dropdown menu and choose the tenant you want to navigate to.
+
+However, Power BI Desktop doesn't support guest users connecting to a provider tenant's data source or service for creating and publishing reports. Guest users need to use the Power BI service, including Get Data, to upload Power BI Desktop files.
+
+Learn more about the features and limitations for guests users in [Distribute Power BI content to external guest users](/power-bi/enterprise/service-admin-azure-ad-b2b).
+<!--
 To access and design reports with your organization's data, external users must connect to your Microsoft 365 tenant. The connection method differs in Power BI service and Power BI Desktop.
 
-#### In Power BI service (app.powerbi.com)
-
+#### In Power BI service
 From the Power BI service, use the tenant switcher:
 
 1. Sign in to [Power BI](https://app.powerbi.com).
@@ -74,7 +83,7 @@ Learn more in [Distribute Power BI content to external guest users](/power-bi/en
 The methods in this section require that guest users know the domain name of your Microsoft 365 tenant, such as `contoso.onmicrosoft.com`.
 
 > [!NOTE]
-> The methods in this section aren't supported. You might experience unexpected behavior.
+> The methods described in this section aren't supported. You might experience unexpected behavior.
 
 ##### Creating and refreshing reports: Change data source to host's Business Central tenant
 
@@ -102,7 +111,7 @@ The methods in this section require that guest users know the domain name of you
 1. On the **Find your organization** dialog box, enter the domain name of the tenant, for example, `contoso.onmicrosoft.com`.
 1. Select **Next**.
 1. On the **Pick an account** dialog box, select your account, and then sign in usual.
-1. On the **Dynamics Business Central** connector dialog, select **Connect**.
+1. On the **Dynamics Business Central** connector dialog, select **Connect**.-->
 
 ## [Designer](#tab/designer)
 
@@ -184,7 +193,7 @@ No. Not at this point.
 
 When it comes to web services, published queries are usually faster than equivalent published pages. The reason is that queries are optimized for reading data and don’t contain expensive triggers like OnAfterGetRecord.
 
-Web services are based on pages or queries that are built for access from the web and usually not optimized for access from external services. Even though the Business Central connector still supports getting data from web services, we encourage you to use API pages instead of web services whenever possible.
+Web services are based on pages or queries that are built for access from the web and not optimized for access from external services. Even though the Business Central connector still supports getting data from web services, we encourage you to use API pages instead of web services whenever possible.
 
 <!-- 13 --> 
 ### Is there a way for an end user to create a web service with a column that's in a Business Central table, but not a page? Or does the developer have to create a custom query? 

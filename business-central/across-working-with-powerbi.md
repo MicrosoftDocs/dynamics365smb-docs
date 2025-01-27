@@ -12,7 +12,7 @@ ms.reviewer: jswymer
 ---
 # Work with Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-In this article, you learn some of the basics about working with reports. This includes viewing Power BI reports inside [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards), and editing Power BI reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
+In this article, you learn some of the basics about working with reports. Learn about viewing Power BI reports inside [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards) and editing Power BI reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
 ## Overview
 
@@ -47,7 +47,7 @@ When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], an emp
 2. The **Set Up Power BI Reports in Business Central** assisted setup starts. Select **Next** to continue.
 3. On the **Check your Power BI License** page, do one of the following steps:
 
-    - If you haven't yet signed up for Power BI, select the [Go to Power BI homepage](https://powerbi.microsoft.com). Sign up for an account, then come back to [!INCLUDE[prod_short](includes/prod_short.md)] and finish the setup.
+    - If you didn't sign up for Power BI yet, select the [Go to Power BI homepage](https://powerbi.microsoft.com). Sign up for an account, then come back to [!INCLUDE[prod_short](includes/prod_short.md)] and finish the setup.
 
     - If you already have a license, select **Next**.
 4. In the next page, [!INCLUDE[prod_short](includes/prod_short.md)] will now upload a demo report to Power BI. This step takes a few minutes, so it runs in the background. To complete the setup, select **Next**, then **Finish**.
@@ -100,8 +100,8 @@ The **Power BI Reports Selection** page shows a list of all the Power BI reports
 
 If you don't see any reports on the **Power BI Reports Selection** page, or don't see the report you want, choose **Get Reports**. This action lets you look for reports from two locations: *My Organization* or from *Services*.
 
-- Choose **My Organization** to go to the Power BI services. From here, you can view the reports within your organization that you have rights to view. You can then add them to your workspace.
-- Choose **Services** to go to Microsoft AppSource where you can install Power BI apps.  
+- Select **My Organization** to go to the Power BI services. From here, you can view the reports within your organization that you have rights to view. You can then add them to your workspace.
+- Select **Services** to go to Microsoft AppSource where you can install Power BI apps.  
 
 > [!TIP]
 > If you have Power BI Desktop, you can also create new Power BI reports. Then, once those reports are published to your Power BI workspace, they appear on the **Power BI Reports Selection** page.  

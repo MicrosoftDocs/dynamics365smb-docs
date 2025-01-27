@@ -25,7 +25,7 @@ When someone enters a quantity for an item on a sales document that exceeds the 
 
 The following video shows a scenario where someone is creating a sales order, and the quantity exceeds the available inventory level for the item at its location.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h9hL]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ff723ca6-22b8-4a0e-aef5-b19bab3bfd84]
 
 ## See also
 

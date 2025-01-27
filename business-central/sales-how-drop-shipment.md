@@ -17,7 +17,7 @@ A drop shipment is the shipment of items from one of your vendors directly to on
 When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address**, you can link the two documents to instruct the vendor to ship directly to the customer.
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=58c81aa9-7190-476a-9fd9-75a9841549f7]
 
 ## To create a sales order for drop shipment
 

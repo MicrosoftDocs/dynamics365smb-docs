@@ -40,6 +40,8 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-By-period-(LCY).png" alt-text="Screenshot of the By period (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Period (FCY) worksheet
 
 This worksheet shows amounts in foreign currency (FCY) by customer and with the ability to group data by a Year-Quarter-Month-Day hierarchy on the due date.
@@ -47,6 +49,8 @@ This worksheet shows amounts in foreign currency (FCY) by customer and with the 
 With filters and slicers, you can zoom into a single customer or a group of customers. You can also filter by one or more currency codes, if needed.
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-By-period-(FCY).png" alt-text="Screenshot of the By period (FCY) worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## Due by Currencies worksheet
 
@@ -56,6 +60,8 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-Due-by-Currencies.png" alt-text="Screenshot of the Due by Currencies worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## CustomerAgingData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
@@ -63,6 +69,10 @@ With filters and slicers, you can zoom into a single customer or a group of cust
 :::image type="content" source="../media/finance/excel-aged-accounts-receivable-CustomerAgingData.png" alt-text="Screenshot of the CustomerAgingData worksheet":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -129,6 +139,10 @@ Credit analysts use the report to:
 Try the report here: [Aged Accounts Receivable Excel](https://businesscentral.dynamics.com?report=4402)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

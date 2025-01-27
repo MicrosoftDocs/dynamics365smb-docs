@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_704, Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320
+ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
 ms.date: 08/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -36,7 +36,7 @@ Using barcodes can help streamline your inbound, outbound, and internal warehous
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
-After you install the app, you can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
+You can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
 
 |Page  |Field values barcodes can include  |
 |---------|---------|

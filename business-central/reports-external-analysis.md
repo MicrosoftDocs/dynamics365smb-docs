@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: feature overview
-ms.date: 02/03/2022
+ms.date: 01/27/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -14,14 +14,14 @@ ms.reviewer: bholtorf
 
 In case you prefer to use business intelligence tools that are not embedded in [!INCLUDE[prod_short](includes/prod_short.md)], this page provided guidance on tools and methods to achieve this.
 
-| To | See |
+| Task | Learn more |
 | --- | --- |
 |Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 |Analyze data with your own Power BI resource| [Using Power BI with Business Central](admin-powerbi.md) |
 |Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/developer/devenv-extract-data) <br>(opens in the Developer documentation)|
 |Read Business Central data using APIs.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0) <br>(opens in the Developer documentation) |
 
-## See Also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)
 

@@ -172,7 +172,7 @@ Request a new token because the updated version of the connector requires more p
 
 ### The app couldn’t be loaded. This app can’t load due to an issue with browser cookies. Try enabling cookies in your browser, switching to another browser, or contacting the developer to get support
 
-It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [verify permissions to make HTTP requests](#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment).
+It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [Verify and enable permissions to make HTTP requests in a nonproduction environment](#verify-and-enable-permissions-to-make-http-requests-in-a-nonproduction-environment).
 
 ## See also
 

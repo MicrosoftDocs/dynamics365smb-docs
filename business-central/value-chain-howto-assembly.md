@@ -15,13 +15,16 @@ ms.reviewer:
 
 # Sustainability Value Chain in Assembly Orders   
 
-The preprequisite for enabling usage of sustainability value chain in the assembly orders processes is to have enabled the **Enable Value Chain tracking** field in the **Sustainability Setup**.  
+The preprequisite for enabling usage of sustainability value chain in the assembly orders processes is to have enabled the **Enable Value Chain tracking**, **Item Emissions** and **Resource Emissions** fields in the **Sustainability Setup**.  
 
 To do so, follow next steps:   
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link. 
 2. First check if the basic setup already exists. If it doesn't exist, follow [this intstruction](finance-sustainability-setup.md) to setup it.  
-3. On the **Procurement** FastTab, select the **Enable Value Chain tracking** field.   
+3. On the **Procurement** FastTab, select the following fields:
+   1. **Enable Value Chain tracking** to enable sustainability value entries postings through value chain operations and the visibility of these fields in operational documents and journals.
+   2. **Item Emissions** to enable default sustainability account and emissions on the **Item** card.
+   3. **Resource Emissions** to enable default sustainability account and emissions on the **Resource** card.
 5. Close the page.   
 
 ## Working with assembly orders  

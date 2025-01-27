@@ -36,50 +36,46 @@ It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Azure. For more information, see [Registering [!INCLUDE [prod_short](includes/prod_short.md)] on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
+<!--[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]-->
 
 ## Get ready to use Power BI
 
-There are a few tasks that must be done before you can start using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> The tasks depend on your role in your organization, and what you want to do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:
+There are a few tasks that must be done before you can start using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] with [!INCLUDE[prod_short](includes/prod_short.md)]. The tasks depend on your role in your organization and what you want to do with [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:
 
-- As a *user*, you want to view [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports, either in the [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or in Business Central.
-- As an *administrator*, you're responsible for the management of the organization-wide settings that control how Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)] work.
-- As a *report creator*, you want to build custom [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports that you can share with other users.
+- As a *user*, you want to view [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports in the [!INCLUDE[powerbi-service-name](includes/powerbi-service-name.md)] or Business Central.
+- As an *administrator*, you're responsible for managing the organization-wide settings that control how Business Central and [!INCLUDE[powerbi-name](includes/powerbi-name.md)] work.
+- As a *report creator*, you want to build custom [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports to share with other users.
 
 | To...  | User |Administrator|Report creator| Learn more... |
 |--------|:----:|:-----------:|:------------:|---------------|
-|Get a [!INCLUDE[powerbi-name](includes/powerbi-name.md)] account.|![yet another checkmark.](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. <br /><br/>Sign-up requires that you have a license, but in most cases you should already have a free license. To learn more, go to [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] Licensing](admin-powerbi-setup.md#license). |
-| Use built-in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | ![it's a checkmark](media/check.png) | | | Get started here: [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md) |
-| Enable [!INCLUDE [powerbi-name](includes/powerbi-name.md)] integration for [!INCLUDE [prod_short](includes/prod_short.md)] | | ![it's a checkmark](media/check.png) | | [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md) |
-| Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | | ![it's a checkmark](media/check.png) | | [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md) <br><br> [Power BI apps FAQ](across-powerbi-apps-faq.md) |
-|Get [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] |||![again a checkmark.](media/check.png)|To download, go to [[!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)]](https://powerbi.microsoft.com/desktop/). For more information, see [Get [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)]](/power-bi/fundamentals/desktop-get-the-desktop). |
-|Expose Business Central data to [!INCLUDE[powerbi-name](includes/powerbi-name.md)]||![it's a checkmark.](media/check.png)|![again a checkmark](media/check.png)|[Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata) |
-|Enable [!INCLUDE[powerbi-name](includes/powerbi-name.md)] integration<br />(on-premises only)||![it's a checkmark.](media/check.png)||[Set up Business Central on-premises for [!INCLUDE[powerbi-name](includes/powerbi-name.md)] integration](across-working-with-business-central-in-powerbi.md#setup) |
+|Get a [!INCLUDE[powerbi-name](includes/powerbi-name.md)] account|![Checkmark](media/check.png)|![Checkmark](media/check.png)|![Checkmark](media/check.png)|Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. <br /><br/>Sign-up requires that you have a license, but in most cases you should already have a free license. To learn more, go to [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] Licensing](admin-powerbi-setup.md#license). |
+|Use built-in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | ![Checkmark](media/check.png) | | | Get started here: [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md) |
+|Enable [!INCLUDE[powerbi-name](includes/powerbi-name.md)] integration for [!INCLUDE [prod_short](includes/prod_short.md)] | | ![Checkmark](media/check.png) | | [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md) |
+| Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)] | | ![Checkmark](media/check.png) | | [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md) <br><br> [Power BI apps FAQ](across-powerbi-apps-faq.md) |
+|Get [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] |||![Checkmark](media/check.png)|To download, go to [[!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)]](https://powerbi.microsoft.com/desktop/). For more information, see [Get [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)]](/power-bi/fundamentals/desktop-get-the-desktop). |
+|Expose Business Central data to [!INCLUDE[powerbi-name](includes/powerbi-name.md)]||![Checkmark](media/check.png)|![Checkmark](media/check.png)|[Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata) |
+|Enable [!INCLUDE[powerbi-name](includes/powerbi-name.md)] integration<br />(on-premises only)||![Checkmark](media/check.png)||[Set up Business Central on-premises for [!INCLUDE[powerbi-name](includes/powerbi-name.md)] integration](across-working-with-business-central-in-powerbi.md#setup) |
 
+## Learn more about [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
+
+The following articles help you get familiar with using [!INCLUDE[powerbi-name](includes/powerbi-name.md)]:
+
+- [What is [!INCLUDE[powerbi-name](includes/powerbi-name.md)]?](/power-bi/fundamentals/power-bi-overview)
+- [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)
+- [Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)
+
+The following articles help you get familiar with creating [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports:
+
+- [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)
+- [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)
+- [Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
 
 ## Next steps
 
 - If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the reports, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md). Or go to [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md) to setup your own scorecards.
 - If you're an admin who needs to set up [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md).
 
-
-## Learn more about [!INCLUDE[powerbi-name](includes/powerbi-name.md)]
-
-The following articles can help you get familiar with using [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in general
-
-- [What is [!INCLUDE[powerbi-name](includes/powerbi-name.md)]?](/power-bi/fundamentals/power-bi-overview)  
-- [[!INCLUDE[powerbi-name](includes/powerbi-name.md)] documentation](/power-bi/)  
-- [Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   
-
-
-The following articles can help you get familiar with creating [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports
-
-- [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)  
-- [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
-- [Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
-
-
-## See also
+## Related information
 
 [Available [!INCLUDE[powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE[prod_short](includes/prod_short.md)]](across-powerbi-apps-by-functional-area.md)  
 [Track KPIs with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] metrics](track-kpis-with-power-bi-metrics.md)   

@@ -17,9 +17,7 @@ ai.usage: ai-assisted
 
 # Aged Accounts Payables Excel (report)
 
-The **Aged Accounts Payables Excel** report shows aggregated and summarized aging data based on vendor ledger entries.
-
-Data is aggregated and bucketed according to the **Aged as of** and **Period length** parameters in the report's request page. It is summarized by the two global dimensions.
+The **Aged Accounts Payables Excel** report uses vendor ledger entries to aggregate and bucket data according to the Aged as of and Period length parameters in the report's request page. Data is summarized by the two global dimensions.
 
 The report Excel workbook contains four worksheets that you can use to analyze your aged accounts payable:
 
@@ -42,6 +40,8 @@ The filters and slicers let you zoom in on a single vendor or a group of vendors
 
 :::image type="content" source="../media/excel-aged-accounts-payable-by-period-LCY.png" alt-text="Screenshot of the By period (LCY) worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## By Period (FCY) worksheet
 
 This worksheet shows amounts in foreign currency (FCY) by vendor, and you can group data by a Year-Quarter-Month-Day hierarchy on the due date.
@@ -49,6 +49,8 @@ This worksheet shows amounts in foreign currency (FCY) by vendor, and you can gr
 The filters and slicers let you zoom in on a vendor or a group of vendors. You can also filter by one or more currency codes, if needed.
 
 :::image type="content" source="../media/excel-aged-accounts-payable-by-period-FCY.png" alt-text="Screenshot of the By period (FCY) worksheet":::
+
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
 
 ## Due by Currencies worksheet
 
@@ -58,6 +60,8 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 
 :::image type="content" source="../media/excel-aged-accounts-payable-due-by-currencies.png" alt-text="Screenshot of the Due by Currencies worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## VendorAgingData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
@@ -65,6 +69,10 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 :::image type="content" source="../media/excel-aged-accounts-payable-vendor-aging-data.png" alt-text="Screenshot of the VendorAgingData worksheet":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -75,6 +83,10 @@ The filters and slicers let you zoom in on a vendor or a group of vendors. You c
 Try the report here: [Aged Accounts Payables Excel](https://businesscentral.dynamics.com?report=4403)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

@@ -143,7 +143,7 @@ Data source error: Column '<oii>Entry No.</oii>' in Table '<oii>G/L Entries</oii
 ```
 
 > [!NOTE]
-> If you get this error, you're affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)]. We're working on a fix for this.
+> If you get this error, you're affected by a bug in the semantic model for the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)].
 
 This error indicates that there are duplicate G/L entries in the Finance fact table in the semantic model. The error displays when we attempt to combine the three sub-queries (Balance Sheet G/L Entries, Income Statement G/L Entries, and Close Income Statement G/L Entries) into the single G/L Entries Fact table.
 

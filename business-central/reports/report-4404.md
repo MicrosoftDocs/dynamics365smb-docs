@@ -42,6 +42,8 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 
 :::image type="content" source="../media/excel-top-10-vendors-top-vendor-list.png" alt-text="Screenshot of the Top Vendor List worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## TopVendorData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
@@ -49,6 +51,10 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 :::image type="content" source="../media/excel-top-10-vendors-top-vendor-data.png" alt-text="Screenshot of the TopVendorData worksheet":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -100,6 +106,10 @@ Controllers use the report to:
 Try the report here: [Vendor - Top 10 List Excel](https://businesscentral.dynamics.com?report=4404)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

@@ -29,21 +29,22 @@ To do so, follow next steps:
 
 ## Working with production BOM
 
+To learn how to work with the **Production BOM**, read 
 
 ## Working with routings
 
+To learn how to work with the **Routing**, read
 
 ## Working with production orders  
 
 To learn how to work with the production orders read this instruction [about production orders](production-about-production-orders.md) and [how to create production order](production-how-to-create-production-orders.md). However, the connection of production orders with the sustainability value chain is demonstrated by tracking the emissions for items and work or machine centers consumed during the production process and transferring these total emission values to the produced items - finished goods.  
 
-To use **Production Order** in the sustainability value chain process, you need to add CO2e (carbon equivalent) emission in all lines. You can do it for each of lines using the **Total CO2e** field where you will add total emission for the quantity related to the **Item** or **Resource** in this assembly order line.   ????????????????????????????????????????????????????????????????????????????????????????????????????????????
+To use **Production Order** in the sustainability value chain process, you need to add CO2e (carbon equivalent) emission in all posted entries through journals used in production process. So, you can start with the process using the **Released Production Order**. To use sustainability value chain functionality in production orders, all items (raw materials) and work/machine centers you want to use must have preconfigured **Sustainability Account No.** and emissions.  
 
-To do so, follow next steps:   ?????????????????????????????????????????????????????????
+To do so, follow next steps:   
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly orders**, and then select the related link.
-2. Create new assembly order or open the existing one you want to use.   
-3. Follow these instructions to [create new assembly order](assembly-how-to-assemble-items.md#to-assemble-an-item-to-stock).   
-4. If your items and resources in the assembly order lines had already configured default sustainability accounts and emissions, these values will be added in the **Sustainability Account No.** and **Total CO2e** fields. You can change these values if you want. 
-5. If you didn't have these default values for your items or resources, you first need to choose the right **Sustainability Account No.** and after that to populate the **Total CO2e** field with the total emission amount for this line (for the whole quantity, regardless how many items will be assembled in this moment as system will recalculate for the specific consumption). 
-6. 
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released production orders**, and then select the related link.
+2. Create new production order.   
+3. Follow the instructions [how to create production order](production-how-to-create-production-orders.md).   
+4. Run the **Refresh** action to ...
+5. 

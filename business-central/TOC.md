@@ -2296,10 +2296,11 @@ ms.service: dynamics-365-business-central
 ### [Overview](reports-adhoc-analysis.md)
 ### [Sort, search, and filter](ui-enter-criteria-filters.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Save and personalize list views](ui-views.md)
 ### [Analyze page data in Excel](across-work-with-excel.md)
-### [Analyze report data with Excel](report-analyze-excel.md)
 ### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)
+### [Analyze report data with Excel](report-analyze-excel.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)

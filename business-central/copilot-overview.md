@@ -12,7 +12,7 @@ ms.date: 11/15/2024
 ms.custom: bap-template
 ---
 
-# About Copilot in Business Central
+# Copilot in Business Central overview
 
 This article answers common questions about Microsoft Copilot in Dynamics 365 Business Central.
 

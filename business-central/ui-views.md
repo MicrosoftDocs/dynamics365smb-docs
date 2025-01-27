@@ -46,6 +46,7 @@ As the number of views on a page grows, you might need more control over how vie
 ## See also
 
 [List Views FAQ](ui-views-faq.yml)  
+[Analyze list data using data analysis mode](analysis-mode.md)   
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

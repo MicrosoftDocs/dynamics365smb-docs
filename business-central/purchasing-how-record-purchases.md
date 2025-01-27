@@ -89,7 +89,7 @@ In all other aspects, purchase orders work the same as purchase invoices. The fo
 
 <br><br>
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=f04b1ed3-5cb0-4fa8-8cd0-24069ee893d2]
 
 ## Receive items with a purchase order
 
@@ -114,7 +114,7 @@ When more goods arrive than were ordered, you might want to receive them instead
 
 The following video shows how to work with over-receipts.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2PE]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=61ce06f8-b3e7-42fd-b332-85f09d65a4e1]
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
 ### Set up over-receipts

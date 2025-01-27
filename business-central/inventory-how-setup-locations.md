@@ -18,7 +18,7 @@ Locations are places such as warehouses where you buy, store, or sell items. [!I
 You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. To learn more, go to [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=fe5ed50e-2e5d-47d4-8616-92ae4639f400]
 
 ## Location cards
 

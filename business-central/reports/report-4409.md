@@ -17,9 +17,7 @@ ai.usage: ai-assisted
 
 # Customer - Top 10 List Excel (report)
 
-The **Customer - Top 10 List Excel** report shows summarized sales and balance data in local currency (LCY) for the top number of customers selected.
-
-Data is summarized for the period specified in the request page's Datefilter parameter.
+The **Customer - Top 10 List Excel** report shows shows summarized sales and balance data in local currency (LCY) for the number of customers and for the period specified in the request page's **Quantity** and **Datefilter** parameters. The Quantity parameter is the number of "top" customers to rank.
 
 The report Excel workbook contains two worksheets that you can use to analyze your customers:
 
@@ -40,6 +38,8 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 
 :::image type="content" source="../media/excel-top-10-customers-top-customer-list.png" alt-text="Screenshot of the Top Customer List worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## TopCustomerData worksheet
 
 [!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
@@ -47,6 +47,10 @@ With filters and slicers, you can zoom in on a single customer or a group of cus
 :::image type="content" source="../media/excel-top-10-customers-top-customer-data.png" alt-text="Screenshot of the TopCustomerData worksheet":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -118,6 +122,10 @@ Customer success managers use the report to:
 Try the report here: [Customer - Top 10 List Excel](https://businesscentral.dynamics.com?report=4409)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
 
 ## Alternative reports
 

@@ -36,5 +36,5 @@ To do so, follow next steps:
 2. Create new assembly order or open the existing one you want to use.   
 3. Follow these instructions to [create new assembly order](assembly-how-to-assemble-items.md#to-assemble-an-item-to-stock).   
 4. If your items and resources in the assembly order lines had already configured default sustainability accounts and emissions, these values will be added in the **Sustainability Account No.** and **Total CO2e** fields. You can change these values if you want. 
-5. If you didn't have these default values in your items or resources, you first need to choose the right **Sustainability Account No.** and after that to populate the **Total CO2e** field with the total emission amount for this line (for the whole quantity, regardless how many items will be assembled in this moment as system will recalculate for the specific consumption). 
+5. If you didn't have these default values for your items or resources, you first need to choose the right **Sustainability Account No.** and after that to populate the **Total CO2e** field with the total emission amount for this line (for the whole quantity, regardless how many items will be assembled in this moment as system will recalculate for the specific consumption). 
 6. 

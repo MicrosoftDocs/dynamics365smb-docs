@@ -24,7 +24,7 @@ If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch 
 
 ## Business Central YouTube channel
 
-You can also view our "how to" videos, plus much other content, on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel. Learn more at [aka.ms/BCYoutube](https://aka.ms/BCYoutube).
+View our "how to" videos and more on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel at [aka.ms/BCYoutube](https://aka.ms/BCYoutube).
 
 ## Related information
 

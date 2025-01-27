@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: video, library, how to
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/11/2021
+ms.date: 01/27/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Visit Our Video Library
+# Visit our video library
 
 You found our documentation. But some people prefer to watch content rather than read it. To that end, we're producing short, easily digestible videos. Most videos supplement our user assistance, and some of them can be viewed on their own.  
 
@@ -22,15 +22,13 @@ If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel
+## Business Central YouTube channel
 
-You can also view our "how to" videos, plus much other content, on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel. To learn more, go to [aka.ms/BCYoutube](https://aka.ms/BCYoutube).
+You can also view our "how to" videos, plus much other content, on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel. Learn more at [aka.ms/BCYoutube](https://aka.ms/BCYoutube).
 
-
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel](https://aka.ms/BCYoutube)  
-
+[Dynamics 365 Business Central channel on YouTube](https://aka.ms/BCYouTube)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

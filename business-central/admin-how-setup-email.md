@@ -60,7 +60,7 @@ External users, such as delegated admins and external accountants, can't use the
 > If you want to use S2S authentication and the email features, use the SMTP connector option.
 <br><br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a18f480a-f0d5-4248-8acb-ec667a7f53e1]
 
 ## Use SMTP
 

@@ -1,6 +1,6 @@
 ---
 title: Building Reports in Power BI Desktop to Display Business Central Data
-description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
+description: Learn how to make your data a Power BI source and build insightful business reports.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] and build powerful reports about the state of your business.
 
-This article describes how to start using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] or share them with all users in your organization. When the reports are in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], users that are set up for it can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
+This article describes how to start using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)] to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data. After you create reports, you can publish them to your [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] or share them with all users in your organization. When the reports are in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], users with access can view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Get ready
 
@@ -34,9 +34,9 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
   - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
     Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
-  - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
+  - A username and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a username and web service access key to connect. The account might be your own user account, or your organization may have a specific account for this purpose.-->
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
@@ -49,22 +49,22 @@ This article describes how to start using [!INCLUDE [powerbi-desktop-name](inclu
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)]. Once connected, you can start to build the report.
 
 1. Start [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
-2. Select **Get Data**.
+1. Select **Get Data**.
 
     If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-3. On the **Get Data** page, select **Online Services**.
-4. In the **Online Services** pane, do one of the following steps:
+1. On the **Get Data** page, select **Online Services**.
+1. In the **Online Services** pane, do one of the following steps:
 
     - To connect to [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Dynamics 365 Business Central**, then **Connect**.
     <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
-5. Sign-in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
+1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
 
     If you aren't signed in to [!INCLUDE [prod_short](includes/prod_short.md)] from [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], you're prompted to sign in.
 
     - For [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prod_short](includes/prod_short.md)]. When done, select **Connect**.
 
-    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
+    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the username and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
     > After you connect to [!INCLUDE[prod_short](includes/prod_short.md)], you won't be prompted again to sign in. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
@@ -85,7 +85,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
         - **Web services \(legacy)**
 
-          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. It is discouraged to use this legacy method for reading data from [!INCLUDE [prod_short](includes/prod_short.md)]. Instead, we recommend that you use APIs.
+          This folder lists pages, codeunits, and queries that are published as web services in [!INCLUDE [prod_short](includes/prod_short.md)]. Using this legacy method to read data from [!INCLUDE [prod_short](includes/prod_short.md)] is discouraged. We suggest using APIs instead.
 
     <!--
     > [!NOTE]
@@ -97,11 +97,11 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 Once the data is loaded, you can see it in the right navigation on the page. At this point, you're connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data, and you can begin building your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report.  
 
 > [!TIP]
-> For more information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], see [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+> For more information about using [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)], go to [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
 ## Creating accessible reports
 
-It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. To learn more, go to [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaptation to meet the specific needs of different users. Make sure the design lets users take advantage of assistive technologies, like screen readers. [!INCLUDE [powerbi-name](includes/powerbi-name.md)] includes various accessibility features, tools, and guidelines to help. To learn more, go to [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] documentation.
 
 ## Creating reports to display data associated with a list in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -112,7 +112,7 @@ You can create reports that display in a FactBox on a [!INCLUDE [prod_short](inc
 Before building your report, we recommend that you download and import the [!INCLUDE [prod_short](includes/prod_short.md)] theme file. The theme file creates a color palette so you can build reports with the same color styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps, without requiring you to define custom colors for each visual.
 
 > [!NOTE]
-> This task is optional. You can always create your reports, and then download and apply the style template later.
+> This task is optional. You can always create your reports and then download and apply the style template later.
 
 ### Download the theme
 
@@ -123,7 +123,7 @@ The theme file is available as a json file on Microsoft Power BI Community Theme
 
 ### Import the theme on a report
 
-After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more at [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+After you download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. Learn more in [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## Publish reports
 
@@ -213,7 +213,7 @@ When you connect to [!INCLUDE [prod_short](includes/prod_short.md)] online from 
 If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
 
 1. Make sure you're using the right credentials to access [!INCLUDE [prod_short](includes/prod_short.md)]. These credentials might not be the same credentials you use to access [!INCLUDE [powerbi-name](includes/powerbi-name.md)]. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
-2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you have to specify "PRODUCTION (fabrikam)" as environment name.
+2. If your environment is an embedded ISV environment, you need to specify the embedded ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embedded ISV named Fabrikam, you must specify "PRODUCTION (fabrikam)" as environment name.
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
 

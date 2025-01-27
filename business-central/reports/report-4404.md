@@ -17,19 +17,22 @@ ai.usage: ai-assisted
 
 # Vendor - Top 10 List Excel (report)
 
-The **Vendor - Top 10 List Excel** report shows aggregated purchase and balance data in local currency (LCY) for the top number of vendors selected. The data is aggregated for the period specified in the request page's **Date filter** parameters.
+The **Vendor - Top 10 List Excel** report shows summarized purchase and balance data in local currency (LCY) for the top number of vendors selected. 
+
+You can specify how many vendors to include in the report.
+
+Data is summarized for the period specified in the request page's **Date filter** parameters. 
 
 The report Excel workbook contains two worksheets that you can use to analyze your vendors:
 
-- Top Vendor List
+- Top Vendor List, 
 - TopVendorData
 
-Each worksheet represents a different dimension in your analysis.
+[!INCLUDE [excel-reports-use-the-worksheets](../includes/excel-reports-use-the-worksheets.md)]
 
-[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)] 
+[!INCLUDE [onedrive-excel-online](../includes/onedrive-excel-online.md)]
 
-> [!NOTE]
-> This report performs calculations when viewed in Excel online or when downloaded and opened on your computer. If a banner displays text about external data connections, you might need to choose the **Enable content** button to load data. The report doesn't connect to any external data sources. All calculations are done in Excel with Power Query. In some cases (depending on the security configurations for your organization), you might also need to right-click on a pivot table in one of the worksheets and choose **Refresh** to update data in the reports.
+[!INCLUDE [excel-reports-enable-content-note](../includes/excel-reports-enable-content-note.md)]
 
 ## Top Vendor List worksheet
 
@@ -39,15 +42,19 @@ With filters and slicers, you can zoom into a single vendor or a group of vendor
 
 :::image type="content" source="../media/excel-top-10-vendors-top-vendor-list.png" alt-text="Screenshot of the Top Vendor List worksheet":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## TopVendorData worksheet
 
-This worksheet shows the raw data used in the report.
-
-You can use this worksheet for data analysis assisted by built-in tools in Excel, such as [!INCLUDE [excel-copilot-name](../includes/excel-copilot-name.md)] or the What-if-analysis or Forecast Sheet tools.
+[!INCLUDE [excel-reports-data-worksheet](../includes/excel-reports-data-worksheet.md)]
 
 :::image type="content" source="../media/excel-top-10-vendors-top-vendor-data.png" alt-text="Screenshot of the TopVendorData worksheet":::
 
-To learn more, go to [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a).
+[!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -100,12 +107,22 @@ Try the report here: [Vendor - Top 10 List Excel](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
+
 ## Alternative reports
 
 There are several other ways to analyze your vendors. To learn more, go to:
 
 - [Power BI Purchasing app](../purchases-powerbi-app.md)
 - [Using data analysis to analyze vendors](../ad-hoc-analysis-purchasing.md)
+
+## Contributors
+
+[!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
+
+- [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
 
 ## Related information
 
@@ -114,6 +131,5 @@ There are several other ways to analyze your vendors. To learn more, go to:
 [Purchase reports](../purchase-reports.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 [Accounts payable analytics](../receivables-reports.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

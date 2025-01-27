@@ -92,5 +92,6 @@ Budgets can be included on any report when included on the column definition. By
 ## See also
 
 [Examples of custom financial reports](bi-examples-custom-financial-reports.md)  
-[Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
 [Organize report data using account categories](bi-account-categories.md)  
+[Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
+[Financial analytics overview](bi.md)   

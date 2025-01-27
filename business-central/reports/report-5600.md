@@ -90,6 +90,13 @@ Try the report here: [Fixed Asset Analysis](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are several other ways to analyze your fixed assets. To learn more, go to:
+
+- [Fixed Asset Analysis Excel](report-4412.md)
+- [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
+
 ## See also
 
 [Fixed assets report overview](../fa-reports.md)  

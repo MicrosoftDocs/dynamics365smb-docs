@@ -24,7 +24,7 @@ The following sections describe a sequence of tasks, with links to the articles 
 
 This video introduces some of the key capabilities for managing finances. <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=2887ddfe-3d46-47b3-8308-9715457ef939]
 
 ## Get started with finance capabilities
 

@@ -21,7 +21,7 @@ In case you prefer to use business intelligence tools that are not embedded in [
 |Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/developer/devenv-extract-data) <br>(opens in the Developer documentation)|
 |Read Business Central data using APIs.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0) <br>(opens in the Developer documentation) |
 
-## See Also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)
 

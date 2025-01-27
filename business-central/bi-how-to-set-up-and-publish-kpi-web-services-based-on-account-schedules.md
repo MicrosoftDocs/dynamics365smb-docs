@@ -34,7 +34,8 @@ You can now create financial reports in Power BI based on the web service, or se
 
 ## See also
 
-[Financial Business Intelligence](bi.md)  
+[Prepare financial reporting](bi-how-work-account-schedule.md)  
+[Financial analytics overview](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

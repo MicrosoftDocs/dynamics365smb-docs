@@ -55,7 +55,7 @@ We don't have control over this requirement. Power BI sets this requirement. Lea
 
 ### How do guest users and delegated admins access my organization's data and reports?
 
-External users, like guest users and delegated admins, typically have a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
+There are some differences and limitations for external users, like guest users and delegated admins. For instance, external users typically have a Power BI license assigned by their own organization. When they sign in to Power BI or Power BI Desktop, they connect to their organization's tenant and shared workspaces by default.
 
 To access your organization's data and shared workspaces or reports, external users must connect to your Microsoft 365 tenant. From Power BI service, they can use the tenant switcher (preview) to connect:
 
@@ -63,7 +63,7 @@ To access your organization's data and shared workspaces or reports, external us
 1. In the upper-right corner, select the profile picture to open the account manager, and then select **Switch** next to **Tenant name**.
 1. In the **Switch tenant (preview)** dialog, open the dropdown menu and choose the tenant.
 
-Power BI Desktop doesn't support guest users connecting to a provider tenant's data source or service for creating and publishing reports. Guest users need to use the Power BI service to upload Power BI Desktop files.
+Power BI Desktop doesn't support connecting to a provider tenant's data source or service for creating and publishing reports. External users need to use the Power BI service to upload Power BI Desktop files.
 
 Learn more about the features and limitations for guests users in [Distribute Power BI content to external guest users](/power-bi/enterprise/service-admin-azure-ad-b2b).
 <!--

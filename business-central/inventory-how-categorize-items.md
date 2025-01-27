@@ -19,7 +19,7 @@ To maintain an overview of your items and to help you sort and find items, it's 
 To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=4c02e1d8-7569-4eb4-94cf-105899787978]
 
 ## To create an item category
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.

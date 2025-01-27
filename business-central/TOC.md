@@ -2282,13 +2282,14 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
-### Power BI apps for Business Central
-#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
-#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
-### [Introduction to Business Central and Power BI](admin-powerbi.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+### Power BI and Business Central
+#### [Power BI overview](admin-powerbi.md)
+#### [Work with Power BI reports](across-working-with-powerbi.md)
+#### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+#### Power BI apps for Business Central
+##### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+##### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+##### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis

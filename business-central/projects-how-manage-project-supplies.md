@@ -59,7 +59,7 @@ The following procedure shows how to use a purchase invoice to purchase products
 
 ### How posting purchases affects inventory and WIP
 
-When you post a receipt, the inventory is received and immediately written-off by an item ledger entry of the type **Negative Adjustment**. To avoid affecting WIP calculation, the project ledger entries don't include purchase order lines that aren't General Ledger.
+When you post a receipt, the inventory is received and immediately written-off by an item ledger entry of the type **Negative Adjustment**. To avoid affecting WIP calculation, the project ledger entries don't include purchase order lines that aren't of the type **G/L Account**.
 
 Project ledger entries are created as follows:
 

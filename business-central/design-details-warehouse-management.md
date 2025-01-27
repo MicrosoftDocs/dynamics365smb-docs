@@ -236,8 +236,10 @@ Learn more at [Enable Picking Items by FEFO](warehouse-picking-by-fefo.md).
 
 Put-away templates specify a set of prioritized rules that apply when you create put-aways. For example, a put-away template can require you to place items in a bin with bin content that has the same UOM. If a similar bin with enough capacity can't be found, the item must be placed in an empty bin. You assign a put-away template to an item and a location.  
 
+
 ## See also
 
+[Inventory and warehouse reports](inventory-WMS-reports.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

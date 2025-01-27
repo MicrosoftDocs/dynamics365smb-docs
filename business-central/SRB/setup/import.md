@@ -28,9 +28,9 @@ To import customers, items, service commitments, vendor contracts, and so on, cr
 |Item Service Commitment Packages|70920758|
 |Vendor Contract|70920763|
 
-## Import customer contracts, contract lines, service objects and service commitments
+## Import customer contracts, contract lines, service objects, and service commitments
 
-There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Contracts**, **Imported Service Objects**, and **Imported Service Commitments** pages. Use the following tables to import and create service objects, service commitments, and contract lines.
+There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Contracts**, **Imported Service Objects**, and **Imported Service Commitments** pages. Use the following tables to import and create service objects, service commitments, and contract lines.
 
 |Name|Table|
 |:--|:--|
@@ -44,7 +44,7 @@ The **Imported Customer Contracts** page serves as an intermediate step for the 
 
 |Name|Description|To fill|
 |:--|:--|:--|
-|Contract No. (Code20)|Specifies the number of the contracts to create. Contract lines (service commitments) are assigned by means of the contract Number. Note that before processing, the number series must be set to allow manual number assignment.|Always|
+|Contract No. (Code20)|Specifies the number of the contracts to create. Contract lines (service commitments) are assigned using the contract number. The number series must allow manual number assignment.|Always|
 |Sell-to Customer No. (Code20)|Indicates the number of the customer who receives the contractual services and is invoiced by default.|Always|
 |Sell-to Contact No. (Code20)|Specifies the number of the contact that receives the contractual services. In the contract, the number is the **Sell-to Customer No.** from that customer, if empty.|Optional|
 |Bill-to Contact No. (Code20)|Indicates the customer to whom you send the contract invoice. If the field is empty, the contract uses the ***Standard (Customer)**.|Optional|
@@ -65,15 +65,15 @@ If the processing is successful, a customer contract is created and **Contract C
 
 ### Import service objects
 
-The **Imported Service Objects** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Service Objects** action to create the service objects. The action always process all lines that aren't processed, regardless of filters and selection.
+The **Imported Service Objects** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Service Objects** action to create the service objects. The action always processes all lines that aren't processed, regardless of filters and selection.
 
 | Name | Description | To be filled |
 |--|--|--|
 |Entry No. (Integer)|System field of the table (consecutive number of records) - is created automatically and is in the background.|*Never*|
-|Service Object No. (Code20)|The service object is created with this number. To facilitate the assignment of service commitments, always import this number. Note that before processing, the number series must be set to allow manual number assignment.|**Always**|.
+|Service Object No. (Code20)|The service object is created with this number. To facilitate the assignment of service commitments, always import this number. The number series must allow manual number assignment.|**Always**|
 |Customer No. (Code20)|Indicates the number of the customer to whom the service commitments were sold. It's mandatory for the assignment to customer contracts.|**Always**|
 |Item No. (Code20)|Indicates the item number of the service object. It should be an item with service commitments or a service commitment item.|**Always**|
-|Description (Text100)|Indicates the description of the service object. If the description is empty, it will be filled by the item when the service object is created.|Optional|
+|Description (Text100)|Indicates the description of the service object. If the description is empty, it uses the item's description when the service object is created.|Optional|
 |Quantity (Decimal)|Indicates the quantity of the service object.|**Always**|
 |Customer Reference (Text35)|Indicates the reference by which the customer knows the service object.|Optional|
 |Bill-to Cust. No. (Code20)|A different invoice recipient (Customer) can be specified here. Related fields are filled automatically (for example, Bill-to Contact No., and so on).|Optional|
@@ -95,24 +95,24 @@ If the processing is successful, a service object is created and **Service Objec
 
 ### Import service commitments
 
-The **Imported Services Commitments** page serves as an intermediate step for the data transfer of service commitments and contract lines. Use the **Create Service Commitments** action to import and process the data. This can be used to create comment lines in contracts, service commitments that aren't billed, and contract lines and service commitments that are billed. The action always processes all lines that aren't processed, regardless of filters and selection.
+The **Imported Services Commitments** page serves as an intermediate step for the data transfer of service commitments and contract lines. Use the **Create Service Commitments** action to import and process the data. This action can create comment lines in contracts, service commitments that aren't billed, and contract lines and service commitments that are billed. The action always processes all lines that aren't processed, regardless of filters and selection.
 
 | Name | Description | To be filled |
 |---|---|---|
 |Entry No. (Integer)| System field of the table (consecutive number of records) - is created automatically and is in the background | **Never** |
 |Service Object No. (Code20)|The created service commitment is assigned to this service object.|**Always**|
-|Service Commitment Line No. (Integer)|Indicates the line number of the service in the service object. If no line number is specified, one will be determined automatically.| **Optional** |
+|Service Commitment Line No. (Integer)|Indicates the line number of the service in the service object. If no line number is specified, one is determined automatically.| **Optional** |
 |Partner (Option: Customer, Vendor)|Indicates whether to invoice the service commitments on the vendor side (purchase invoice) or customer side (sales invoice).|**Always**|
 |Contract (Code20)|Indicates the number of the contract in which the service commitment is to be created as a contract line. Service commitments with **Invoicing via**=**Sales** can't be called up in contracts.|**Optional**|
-|Contract Line No. (Integer)|Indicates the line number of the contract line. If no line number is specified, one will be determined automatically.|Optional|
+|Contract Line No. (Integer)|Indicates the line number of the contract line. If no line number is specified, one is determined automatically.|Optional|
 |Contract Line Type (Option: Comment, Service Commitment)|Specifies the type of the contract line.|**Always**|
-|Package Code (Code20)|Specifies the code of the service commitment package. If a vendor contract line has the same service object and package code as the customer contract line, the customer contract dimension is copied to the vendor contract line.|**Optional**|
+|Package Code (Code20)|Specifies the code of the service commitment package. A vendor contract line might have the same service object and package code as the customer contract line. When that's the case, the customer contract dimension is copied to the vendor contract line.|**Optional**|
 |Template Code (Code20)|Indicates the name of the service commitment template from which the service commitment was copied to the service commitment package. It's just for information purposes.|**Optional**|
-|Description (Text100)|Indicates the description of the service commitments. If no description is specified, it will be filled based on the service commitments.|**Always**|
-|Service Start Date (Date)|Indicates from which date the service commitments is valid and will be charged.|**Always**|
+|Description (Text100)|Indicates the description of the service commitments. If no description is specified, it's filled based on the service commitments.|**Always**|
+|Service Start Date (Date)|Indicates from which date the service commitments is valid and can be charged.|**Always**|
 |Service End Date (Date)|Indicates until which date the service commitments is valid.|Optional|
-|Next Billing Date (Date)|Indicates the date of the next possible billing. If the field is empty, it will be filled automatically by the **Service Start Date**.|Optional|
-|Calculation Base Amount (Decimal)|Indicates the base amount from which the price will be calculated. Note that the **Price** field in service commitments is always calculated and never *imported*.|**Always**|
+|Next Billing Date (Date)|Indicates the date of the next possible billing. If the field is empty, it's filled automatically by the **Service Start Date**.|Optional|
+|Calculation Base Amount (Decimal)|Indicates the base amount from which the price is calculated. The **Price** field in service commitments is always calculated and never imported.|**Always**|
 |Calculation Base % (Decimal)|Indicates the percentage to use to calculate the service commitment price. 100% means that the price of the service commitment is equal to the calculation base amount.|**Always**|
 |Discount % (Decimal)|Indicates the percentage discount for the service commitments.|Optional|
 |Discount Amount (Decimal)|Indicates the discount amount to apply to the service commitments. Only **Discount %** or **Discount Amount** must be filled for the import to apply a discount.|Optional|
@@ -122,7 +122,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 |Invoicing Item No. (Code20)|Indicates which item is used in the contract invoice for invoicing the periodic service commitments. It must be an item with the **Service Commitment Option**=**Invoicing Item**.|Optional|
 |Notice Period (Dateformula)|Specifies a Dateformula for the lead time that a cancellation must have before the service commitment is ended. The **Subsequent Term** is also used to determine the rate at which **Cancellation Possible Until** and **Term Until** are updated. Thus, for a subsequent term of **1M**, the notice period is recurrently postponed by one month.|Optional|
 |Initial Term (Dateformula)|Specifies a Dateformula for calculating the minimum term of the service commitment. If the **Initial Term** is filled in and no **Subsequent Term** is entered, the **Service End Date** is automatically set to the end of the initial term.|Optional|
-|Subsequent Term (Dateformula)|Specifies a Dateformula for automatic extension after the initial term and the rhythm of updating **Cancellation Possible Until** and **Term Until**. If the field is blank and either the initial term or the notice period are set at the same time, the service end date is automatically set to the expiration date of the initial term or the notice period.|**Always**|.
+|Subsequent Term (Dateformula)|Specifies a Dateformula for automatic extension after the initial term and the rhythm of updating **Cancellation Possible Until** and **Term Until**. If the field is blank, and either the initial term or the notice period are set at the same time, the service end date is automatically set to the expiration date of the initial term or the notice period.|**Always**|
 |Billing Rhythm (Dateformula)|Specifies the rhythm at which the service commitments are billed. Via a Dateformula, the rhythm can be set to, for example, monthly, quarterly, or yearly calculation.|**Always**|
 |Print Line (Boolean)|Specifies whether a line is output when the sales document is printed.|Optional|
 |Formatting (Option: Normal, Bold, Italic)|Specifies whether a line in the sales document is printed bold or italic (default: *Normal*).|Optional|
@@ -132,7 +132,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 
 * Mandatory fields always apply to the creation of billable contract lines. Mandatory fields, for example, for comment lines, differ.
 
-If the processing is successful, service commitments and contract lines are created and **Service Object created** is selected. 
+If the processing is successful, service commitments and contract lines are created and **Service Object created** is selected.
 
 * The **Processed by** field shows the user who performed the processing.
 * The **Processed on** field shows the date and time of the processing.
@@ -141,11 +141,11 @@ If the processing is successful, service commitments and contract lines are crea
 > [!TIP]
 > To create a comments line in a contract, the **Contract No.**, **Description**, and **Invoicing via**=*Contract* must be entered.
 
-The following fields only need to be considered if you use a currency different from the local currency. The currency is defined by the contract. To avoid the conversion at a different rate, currencies can be imported.
+The following fields only need to be considered if you use a currency different from the local currency. The contract defines the currency. To avoid the conversion at a different rate, you can import currencies.
 
 |Name|Description|To be filled|
 |:--|:--|:--|
-|Discount Amount (MW) (Decimal)|Indicates the discount amount in local currency that will be applied to the service commitments.|Optional|
+|Discount Amount (MW) (Decimal)|Indicates the discount amount in local currency that applies to the service commitments.|Optional|
 |Service Amount (MW) (Decimal)|Indicates the amount minus the discount granted in local currency. In the contract, the **Service Amount** and not the **Service Amount (MW)** is used for invoicing.|Optional|
 |Currency Code (Code10)|Indicates the currency for the service commitments.|Optional|
 |Currency Factor (Decimal)|Indicates the currency factor valid for the service commitments, which is used to convert the amounts into local currency.|Optional|
@@ -157,11 +157,11 @@ The fields in the following table only need to be considered if billing is to ta
 |Name|Description|To be filled|
 |:--|:--|:--|
 |Usage Based Billing (Boolean)|Indicates whether usage data is used as the basis for invoicing.|Optional|
-|Usage Based Pricing (Option: Usage Quantity, Fixed Quantity, Unit Cost Surcharge, Consumed Quantity)|Specifies the method for calculating prices on the Customer side.|Optional|
-|Pricing Unit Cost Surcharge % (Decimal)|Specifies the surcharge in percent for the Customer price calculation, if Unit Cost Surcharge is to be used.|Optional|
+|Usage Based Pricing (Option: Usage Quantity, Fixed Quantity, Unit Cost Surcharge)|Specifies the method for calculating prices on the customer side.|Optional|
+|Pricing Unit Cost Surcharge % (Decimal)|Specifies the surcharge as a percent for the customer price calculation, if you use unit cost surcharge.|Optional|
 |Supplier Reference Entry No. (Integer)|Indicates the sequence number of the related reference.|Optional|
 
 ## See also
 
 [General setup](general.md)  
-[Contract types](contract-types.md)  
+[Contract types](contract-types.md)

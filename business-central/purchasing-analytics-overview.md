@@ -22,6 +22,7 @@ Businesses capture lots of data during daily activities that supports business i
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's purchasing data:
 
+- Power BI reports for purchasing
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using open in Excel)
 - Built-in sales reports
@@ -46,19 +47,28 @@ People in different roles have different needs when it comes to data, and they u
 |Purchasing Manager      | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Purchasing Officer / Purchasing Agent | Detailed data     | Built-in operational reports <br> On-screen task data |
 
-<!-- 
-## Purchasing KPIs
 
-A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
+## Using Power BI to monitor purchasing KPIs
 
-- TODO  
--->
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In procurement, people often use the following KPIs to monitor their procurement organization's performance:
+
+- Outstanding Amount (excluding VAT)
+- Amount Received but Not Invoiced (excluding VAT)
+- Period-over-Period Purchases Growth (Amount or in percentage)
+- Purchases by Item/Vendor/Location/Purchaser
+- Actual purchases vs Budget
+
+:::image type="content" source="media/purchases/purchases-overview.png" alt-text="Screenshot of the Purchases Overview Power BI report" lightbox="media/purchases/purchases-overview.png":::
+
+These purchasing KPIs, and more, are available in the Power BI Purchasing app for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Power BI Purchasing app](purchases-powerbi-app.md).
+
+[!INCLUDE [power-bi-purchasing-app](includes/power-bi-purchasing-app.md)]
 
 ## Use financial reporting to produce financial statements and KPIs (related to purchasing)
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for purchasing, you can set up financial reports on the general ledger (G/L) accounts that you use to track purchase postings.
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, and products, and easily retrieve these groups for analysis. Among other purposes, use dimensions when you define analysis views and create financial reports. To learn more, go to [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
@@ -92,16 +102,7 @@ To learn more about how to do ad-hoc analysis on purchasing data, go to [Ad hoc 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help purchasing organizations report on their data.
 
-To get an overview of available reports, choose **All Reports** on the top of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Example of reports on the XXX role center." lightbox="media/report-explorer-purchasing.png":::
-
-<!-- Built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel. -->
-
-To learn more about reports that are relevant for purchasing, go to [Built-in purchasing reports](purchase-reports.md).
+[!INCLUDE [purchasing_reports_report_explorer](includes/purchasing-reports-report-explorer-include.md)]
 
 ## On-screen purchasing analytics
 
@@ -110,7 +111,6 @@ To learn more about reports that are relevant for purchasing, go to [Built-in pu
 - [View the Availability of Items](inventory-how-availability-overview.md)  
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
 
 ### Show purchasing-related general ledger entries and balances from the Chart of Accounts page
 
@@ -137,6 +137,7 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 ## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)  
+[Power BI Purchasing app](purchases-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  

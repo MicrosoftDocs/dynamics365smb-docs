@@ -19,15 +19,9 @@ ai.usage: ai-assisted
 
 The **Fixed Asset G/L Analysis** report shows an analysis of your fixed assets with various types of data for individual assets and groups of assets.
 
-On the **Fixed Assets** FastTab, you can set filters if you want the report to include only certain fixed assets.
-
-On the **Options** FastTab, tailor the report to meet specific needs.
-
-The report is similar to the **Fixed Asset Analysis** report, but it's typically used to reconcile to the general ledger (G/L) and validate disposal entries.
-
 The report assumes that you know which G/L accounts are specified in the posting setup.
 
-If you activate G/L integration for a depreciation book, this report shows amounts posted to the G/L from fixed assets. The report is based on the posting date in the fixed assets (FA) ledger, whereas all other reports use the FA posting date.
+The amounts in this report are calculated from fixed asset ledger entries based on the posting date. If you have set up integration to general ledger for the current depreciation book, you can find the same amounts in the corresponding general ledger entries. The **Fixed Asset - Analysis report**, which is similar, uses fixed asset posting dates.
 
 ## Use cases
 

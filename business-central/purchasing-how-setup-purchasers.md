@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=972e1f65-ecf9-4392-82fb-e5866c173249]
 
 ## To set up purchasers
 

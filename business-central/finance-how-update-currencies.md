@@ -65,7 +65,7 @@ Because exchange rates fluctuate constantly, you need to adjust other currency e
 You can use the **Adjust Exchange Rates** batch job to manually adjust the exchange rates for posted customer, vendor, and bank account entries. The batch job can also update other reporting currency amounts on G/L entries.  
 
 > [!TIP]
-> You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
+> You can use a service to update exchange rates automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
 
 You can also specify how the adjustment handles dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 
@@ -76,8 +76,8 @@ You can also specify how the adjustment handles dimensions for unrealized gains 
 > [!NOTE]
 > To use the preview capability, you need to turn on the **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** feature on the **[Feature Management](https://businesscentral.dynamics.com/?page=2610)** page.
 
-> [!IMPORTANT]
-> Due to local requirements in Switzerland, we don't recommend that you enable **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** in the Swiss (CH) country version.
+> [!NOTE]
+> This capability isn't available in the Swiss version right now, but it's coming soon. We're working on it.
 
 ## Preview the effect of an adjustment
 
@@ -115,7 +115,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 > [!Important]
 > Before you can use the batch job, you need to enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=e871f958-fe42-4cf3-bb8a-e97f4c7658de]
 
 ## Set up a currency exchange rate service
 
@@ -136,7 +136,7 @@ You can use an external service to keep your currency exchange rates up to date.
 
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=76914b80-c36a-4d74-95fa-0cdf5c5c0bfa]
 
 ## Update currency exchange rates through a service
 

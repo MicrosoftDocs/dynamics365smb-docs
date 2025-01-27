@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5600_Primary, Report_5601_Primary, Report_5603_Primary, Report_5604_Primary, Report_5605_Primary, Report_5606_Primary, Report_5607_Primary, Report_5608_Primary, Report_5610_Primary
+ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610, Report_5611
 ms.date: 10/29/2024
 ms.service: dynamics-365-business-central
 
@@ -18,15 +18,25 @@ When you prepare a balance sheet and income statement, you might have to generat
 * Accumulated depreciation and book value at the end of a period.
 * List your fixed assets for inventory, insurance, and other management purposes.
 
-This article describes the most used reports for fixed assets.
 
-## Reports
+This article describes the built-in reports for fixed assets.
+
+## Explore fixed assets reports with Report Explorer
+
+[!INCLUDE [fa_reports_report_explorer](includes/fa-reports-report-explorer-include.md)]
+
+## Fixed assets core reports
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
-## Explore finance reports with Report Explorer
+## Fixed assets insurance reports
 
-[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+[!INCLUDE [fa_insurance_reports](includes/fa-insurance-reports-include.md)]
+
+## Fixed assets maintenance reports
+
+[!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
+
 
 ## See also
 

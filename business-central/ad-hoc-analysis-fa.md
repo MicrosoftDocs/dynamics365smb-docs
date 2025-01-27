@@ -21,6 +21,13 @@ Use the following list pages to start doing ad-hoc analysis of fixed assets proc
 - [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604&layout=analysis)
 - [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis)
 
+<!-- TODO: add examples for 
+
+insurance coverage ledger entries
+
+-->
+
+
 ## Fixed assets ad-hoc analysis scenarios
 
 Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:

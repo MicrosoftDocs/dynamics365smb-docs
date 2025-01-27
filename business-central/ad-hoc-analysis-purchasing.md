@@ -38,6 +38,8 @@ The following sections provide examples of purchasing scenarios in [!INCLUDE [pr
 | ---- | ----- | ------------------------------- |------------------- |
 | [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | [Purchase lines](https://businesscentral.dynamics.com/?page=518&layout=analysis) | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these fields), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** <br><br> **NOTE:** You must personalize the page to add these fields. To learn more, go to [Personalize your workspace](ui-personalization-user.md). | 
 | [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+| [Finance (Accounts Payable)](#example-finance-accounts-payable---vendor-ledger-entries-on-hold) | Get an overview of vendor ledger entries that have been marked On Hold | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis) | **Vendor Name**, **Document Type**, **Document No.**, **On Hold**, and **Remaining Amount**. |
+
 
 ## Example: goods received, not invoiced (GRNI) overview
 
@@ -70,6 +72,22 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+
+## Example: finance (accounts payable) - vendor ledger entries on hold
+
+To see vendor ledger entries on hold, follow these steps:
+
+1. Open the [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis) list page, and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
+1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
+1. Drag the **Vendor Name**, **Document Type**, and **Document No.** fields to the **Row Groups** area, and then drag the **Remaining Amount** field to the **Values** area.
+1. Drag the **On Hold** field to the **Column Labels** area.
+1. Rename your analysis tab to **Payments On Hold**, or something that describes this analysis.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-vendor-ledger-entries-payments-on-hold-example.png" alt-text="Example of how to do data analysis on the Vendor Ledger Entries page to find On hold entries." lightbox="media/data-analysis-vendor-ledger-entries-payments-on-hold-example.png":::
+
 
 ## Data foundation for ad-hoc analysis on purchasing
 

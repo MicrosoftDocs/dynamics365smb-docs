@@ -14,7 +14,7 @@ ms.reviewer: bholtorf
 
 In case you prefer to use business intelligence tools that are not embedded in [!INCLUDE[prod_short](includes/prod_short.md)], this page provided guidance on tools and methods to achieve this.
 
-| To | See |
+| Task | Learn more |
 | --- | --- |
 |Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 |Analyze data with your own Power BI resource| [Using Power BI with Business Central](admin-powerbi.md) |

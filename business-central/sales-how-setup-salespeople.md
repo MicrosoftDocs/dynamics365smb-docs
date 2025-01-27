@@ -16,7 +16,7 @@ Many companies want to follow an individual employee's performance as a basis fo
 
 When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=a6cbce42-6a16-4e85-83bc-ee4519ad4afc]
 
 ## To set up a salesperson code
 

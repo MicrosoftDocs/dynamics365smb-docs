@@ -64,5 +64,5 @@ On the **Statistical Accounts** page, use the **Statistical Accounts Balance** a
 
 ## See Also
 
-[Financial Business Intelligence](bi.md)  
-[Financial Reports and Analytics in Business Central](finance-reports.md)
+[Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
+[Financial analytics overview](bi.md)  

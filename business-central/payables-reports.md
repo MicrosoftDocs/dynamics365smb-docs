@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
+ms.search.form: 347, Report_33, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
 ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ---
@@ -16,7 +16,9 @@ ms.service: dynamics-365-business-central
 
 ## Analyze accounts payable with Power BI
 
-The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] has multiple reports that are relevant in accounts payable
+The [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)] has multiple reports that are relevant in accounts payable.
+
+:::image type="content" source="media/finance/aged-payables-report.png" alt-text="Screenshot of the Aged Payables (Back Dating) report" lightbox="media/finance/aged-payables-report.png":::
 
 | To... | Open in Business Central (CTRL+select) | Learn more |
 | ----- | ---------------------------------------- | ---------- |

@@ -66,13 +66,13 @@ The following articles help you get familiar with using [!INCLUDE[powerbi-name](
 
 The following articles help you get familiar with creating [!INCLUDE[powerbi-name](includes/powerbi-name.md)] reports:
 
-- [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)] ](/power-bi/desktop-quickstart-connect-to-data)
+- [Quickstart: Connect to data in [!INCLUDE[powerbi-desktop-name](includes/powerbi-desktop-name.md)]](/power-bi/desktop-quickstart-connect-to-data)
 - [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)
 - [Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
 
 ## Next steps
 
-- If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the reports, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md). Or go to [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md) to setup your own scorecards.
+- If [!INCLUDE[powerbi-name](includes/powerbi-name.md)] is already set up, and you want to try the reports, go to [Work with [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Reports in Business Central](across-working-with-powerbi.md). Or go to [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md) to set up your own scorecards.
 - If you're an admin who needs to set up [!INCLUDE[powerbi-name](includes/powerbi-name.md)] in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling [!INCLUDE[powerbi-name](includes/powerbi-name.md)] Integration](admin-powerbi-setup.md).
 
 ## Related information

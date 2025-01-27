@@ -6,9 +6,8 @@ ms.topic: conceptual
 ms.author: bholtorf
 ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
-ms.date: 12/15/2023
+ms.date: 01/27/2025
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -40,7 +39,7 @@ Retention periods can be as long or as short as you want. To create retention pe
 ### Set up a retention policy
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
-2. Select **New** to create a new Retention Policy. 
+2. Select **New** to create a new retention policy. 
 3. In the **Table ID** field, choose the table that you want to include in the policy.
 4. In the **Retention Period** field, specify the length of time for which to keep the data in the table.
 5. Optional: You can apply the policy to specific data in a table, rather than all records, by filtering the data for each line. The policy will apply only to the records that the filters return. To specify the filter criteria, turn off the **Apply to all records** toggle. The **Record Retention Policy** FastTab displays, where you can set filter criteria. To learn more about how filters work, go to [Filtering](ui-enter-criteria-filters.md#filtering).

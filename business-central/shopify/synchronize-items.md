@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
-description: Set up and run synchronizations of items between Shopify and Business Central
-ms.date: 08/30/2024
+description: Set up and run synchronizations of items between Shopify and Business Central.
+ms.date: 01/27/2025
 ms.topic: article
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -179,52 +179,62 @@ You can import and export data stored in metafields. [!INCLUDE [prod_short](../i
 
 You can access and edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Products** and **Shopify Variants** pages.
 
-> [!NOTE] 
-> The page is editable if the **Product Sync** field is set to **Products to Shopify** and the **Can update Shopify products** toggle is turned on. When you add a record, the connector immidiatelly sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield.
-> Further edits of records will be synchronized with Shopify at the next product synchronization.
+> [!NOTE]
+> The page is editable if the **Product Sync** field is set to **Products to Shopify**, and the **Can update Shopify products** toggle is turned on. When you add a record, the connector immediately sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield.
+> Further edits of records synchronize with Shopify during the next product synchronization.
 > You can't edit types that have AssistEdit functionality defined directly on the line.
 
-
 #### Supported metafield content types
+
 **Date and time:**
-- Date
-- Date and time
-	
+
+* Date
+* Date and time
+
 **Measurements:**
-- Dimension
-- Volume
-- Weight
-		
+
+* Dimension
+* Volume
+* Weight
+
 **Number:**
-- Decimal
-- Integer
+
+* Decimal
+* Integer
 
 **Text:**
-- Single line text
-- Multi-line text
-- NOT SUPPORTED: Rich text
+
+* Single line text
+* Multi-line text
+
+> [!NOTE]
+> Rich text isn't supported.
 
 **References:**
-- Product
-- Variant
-- Collection
-- File
-- Metaobject
-- Page
-- NOT SUPPORTED: Company
-- NOT SUPPORTED: Customer
+
+* Product
+* Variant
+* Collection
+* File
+* Metaobject
+* Page
+
+> [!NOTE]
+> Company and Customer aren't supported.
 
 **Other:**
-- True or false
-- Color
-- URL
-- Money
-- NOT SUPPORTED: Link
-- NOT SUPPORTED: Rating
+
+* True or false
+* Color
+* URL
+* Money
+* NOT SUPPORTED: Link
+* NOT SUPPORTED: Rating
 
 **Advanced:**
-- Mixed reference
-- JSON
+
+* Mixed reference
+* JSON
 
 ### Tags
 
@@ -242,8 +252,8 @@ To enable this capability, use the **UoM as Variant** and **Variant Option Name*
 
 > [!NOTE]
 >
-> * When dealing with matrix of variants, for example Color and UoM and you want to import products into [!INCLUDE[prod_short](../includes/prod_short.md)], you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that **SKU** field in Shopify has same value for all units of measure and include both item no. and variant code.
-> * In [!INCLUDE[prod_short](../includes/prod_short.md)], availability is calculated per item/item variant and not by unit of measure. It means the same availability is assigned to each variant representing the unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when available quantity in Shopify isn't accurate. Example: Item that is sold in PCS and Box of six. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is six PCS. Item exported to Shopify as Product with two variants. After inventory syncs, the inventory level in Shopify is six for variant PCS and one for variant BOX. The buyer can explore the store and see that product is available in both options and place an order for one BOX. The next buyer can see that BOX isn't available, but there are still six PCS. The value will update with the next inventory sync.
+> * When you're dealing with a matrix of variants, for example Color and UoM, and you want to import products into [!INCLUDE[prod_short](../includes/prod_short.md)], you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that the **SKU** field in Shopify has the same value for all units of measure and include both item numbers and variant codes.
+> * [!INCLUDE[prod_short](../includes/prod_short.md)] calculates availability per item/item variant and not by unit of measure. The same availability is assigned to each variant representing the unit of measure (with respect to **Qty. per Unit of Measure**), which can lead to cases where the available quantity in Shopify isn't accurate. Example: Item that is sold in PCS and Box of six. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is six PCS. Item is exported to Shopify as Product with two variants. After inventory syncs, the inventory level in Shopify is six for variant PCS and one for variant Box. The buyer can explore the store and see that product is available in both options and place an order for one Box. The next buyer can see that Box isn't available, but there are still six PCS. The value will update with the next inventory sync.
 > * You can't add a unit of measure option to existing products with variants (specific result depends on other settings, such as **SKU Mapping**).
 
 ### URL and Preview URL

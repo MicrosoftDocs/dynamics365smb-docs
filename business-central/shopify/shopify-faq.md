@@ -1,12 +1,13 @@
 ---
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
-ms.date: 05/01/2024
+ms.date: 01/27/2025
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.custom: bap-template
 
 ---
 
@@ -26,7 +27,7 @@ The Shopify connector doesn't work with other Dynamics 365 applications, like Dy
 
 ## What support is offered for the Shopify Connector?
 
-See [Support for the Shopify Connector](shopify-support.md)
+To learn more, go to [Support for the Shopify Connector](shopify-support.md).
 
 ## Currently unsupported features; however, we're tracking them and may consider adding them
 
@@ -36,8 +37,8 @@ See [Support for the Shopify Connector](shopify-support.md)
 
 ## Is the Shopify Connector extensible?
 
-The Shopify Connector offers a few points of extensibility. We're keeping the number of points to a minimum so that we can follow the rapid development on the Shopify side without introducing breaking changes. However most important scenarios are covered. For more details and examples, see [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
-Instead of building every modification as extension, we suggest exploring if you can contribute code to the Shopify Connector through a co-development process.
+The Shopify Connector offers a few points of extensibility. We're keeping the number of points to a minimum so that we can follow the rapid development on the Shopify side without introducing breaking changes. However, the most important scenarios are covered. To learn more and explore some examples, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+Instead of building every modification as an extension, we suggest that you investigate whether you can contribute code to the Shopify Connector through a codevelopment process with Microsoft.
 
 ## Is the Shopify Connector open for contribution?
 

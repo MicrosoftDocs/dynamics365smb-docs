@@ -26,7 +26,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
 - Required licenses
 
-    The [!INCLUDE[prod_short](includes/prod_short.md)] app requires users to have a Teams license through a Microsoft 365 Business or Enterprise plan, Microsoft Teams EEA, or similar plan that includes Microsoft Teams. Standalone Teams plans such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
+    The [!INCLUDE[prod_short](includes/prod_short.md)] app requires a Teams license through a Microsoft 365 Business or Enterprise plan, Microsoft Teams EEA, or a similar plan that includes Microsoft Teams. Standalone Teams plans like Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
 
     Most features of the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams also require a [!INCLUDE [prod_short](includes/prod_short.md)] license, as shown in the following table.
 

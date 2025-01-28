@@ -1,0 +1,1 @@
+Maintain information about the vendor.

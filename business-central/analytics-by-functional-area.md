@@ -15,14 +15,7 @@ ms.custom: bap-template
 
 The general content about analytics is also available in special versions for many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-| If you work with... | See |
-| --- | --- |
-| Finance | [Financial analytics](bi.md) |
-| Sales | [Sales analytics](sales-analytics-overview.md) |
-| Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
-| Inventory | [Inventory analytics overview](inventory-analytics-overview.md) |
-| Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
-
+[!INCLUDE [analytics-by-functional-areas-overview-table](includes/analytics-by-functional-areas-overview-table.md)]
 
 ## See also
 

@@ -1,0 +1,1 @@
+Get an overview of sales stages, to-dos, and planned to-dos for an opportunity.

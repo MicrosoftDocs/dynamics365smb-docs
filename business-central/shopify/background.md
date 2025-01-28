@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 05/26/2024
+ms.date: 10/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -62,11 +62,16 @@ To learn more about posting sales orders in a batch, go to [To create a job queu
 On the **Business Manager** Role Center, the **Shopify Activities** part offers several cues that can help you quickly identify whether there are issues with Shopify Connector.
 
 - **Unmapped Customers**: Shopify customer is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Unmapped Companies**: Shopify company (B2B) is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
 - **Unmapped Products** - Shopify product is imported, but isn't linked to a corresponding item entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
 - **Unprocessed Orders**: Shopify orders are imported, but sales documents in [!INCLUDE [prod_short](../includes/prod_short.md)] weren't created, often because of unmapped products or customers.
 - **Unprocessed Shipments**: Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
 - **Shipments Errors**: Shopify Connector couldn't synchronize posted sales shipments with Shopify.
 - **Synchronization Errors**: There are failed job queue entries related to synchronization with Shopify.
+- **Unprocessed Order Updates**: There are shopify orders that have already been processed in [!INCLUDE [prod_short](../includes/prod_short.md)], but an edition was received from Shopify. Because changes weren't synchronized to the processed order in [!INCLUDE [prod_short](../includes/prod_short.md)], you need to update the processed documents to match the received data from Shopify. To learn more, go to [Effect of order editing](synchronize-orders.md#effect-of-order-editing).
+
+> [!Tip]
+> Use the **Set up cues** action in the **Shopify Activities** part to define thresholds for cue styles. By default, the cue displays in yellow if the count is between one and five, and in red if count is five or higher.
 
 ## See also
 

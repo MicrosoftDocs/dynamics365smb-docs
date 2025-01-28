@@ -1,13 +1,13 @@
 ---
 title: Inventory analytics
-description: Business Central contains many features to help you gather, analyze, and share valuable data on your inventory for business intelligence and decision-making within your organization.
+description: Business Central has features that can help you gather, analyze, and share data from your inventory for business intelligence and decision-making in your organization.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 37032, 37031, 37027, 37023, 37024, 37029, 37030, 37022, 37026, 37028, 37057, 37058, 37056, Report_704, Report_707, Report_708, Report_709, Report_711, Report_713, Report_714, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
-ms.date: 05/03/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,6 +22,7 @@ Businesses capture lots of data during daily activities that supports business i
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's inventory data:
 
+- Power BI reports for inventory
 - Ad-hoc analysis on lists
 - Ad-hoc analysis of data in Excel (using Open in Excel)
 - Built-in inventory analytics tools
@@ -55,11 +56,52 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Using Power BI to monitor inventory KPIs
+
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their core inventory performance:
+
+- Number of Scheduled Receipt
+- Number of Planned Order Receipt
+- Gross Requirement
+- Projected Available Balance
+- Quantity on Sales Orders, Purchase Returns, Service Orders, Projects, Production Orders, or Assemply Component
+- Inventory by Item/Location/Lot/Serial No.
+
+:::image type="content" source="media/inventory/inventory-overview.png" alt-text="Screenshot of the Inventory Overview Power BI Report" lightbox="media/inventory/inventory-overview.png":::
+
+For inventory valuation, you can use the following KPIs to monitor the value kept in your inventory:
+
+- Ending balance inventory value
+- Variance by item/location
+- Invoiced Quantity
+- Increases/Decreases in quantity (by item/location)
+
+:::image type="content" source="media/inventory-valuation/inventory-valuation-by-location.png" alt-text="Screenshot of the Inventory Valuation by Location Power BI Report" lightbox="media/inventory-valuation/inventory-valuation-by-Location.png":::
+
+All of these purchasing KPIs (and more) are available in the Inventory Power BI apps for [!INCLUDE [prod_short](includes/prod_short.md)].
+
+To learn more, go to:
+
+- [Power BI Inventory app](inventory-powerbi-app.md)
+- [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)
+
+### Reports in the Power BI Inventory app
+
+[!INCLUDE [power-bi-inventory-app](includes/power-bi-inventory-app.md)]
+
+To learn more, go to [Power BI Inventory app](inventory-powerbi-app.md).
+
+### Reports in the Power BI Inventory Valuation app
+
+[!INCLUDE [power-bi-inventory-valuation-app](includes/power-bi-inventory-valuation-app.md)]
+
+To learn more, go to [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md).
+
 ## Use financial reporting to produce financial statements and KPIs related to inventory
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for inventory management, you can set up financial reports on the general ledger (G/L) accounts that you use to track inventory postings.
 
-Dimensions play an important role in business intelligence. A dimension is data that you add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson. Among other purposes, use dimensions when you define analysis views and create financial reports. To learn more, go to [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
@@ -93,14 +135,7 @@ To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc a
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help inventory organizations report on their data.
 
-To get an overview of available reports, choose **All Reports** on your Home page. This action opens the Report Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-sales.png":::
-
-<!-- The built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel. -->
+[!INCLUDE [inventory_reports_report_explorer](includes/inventory-reports-report-explorer-include.md)]
 
 To learn more about reports that are relevant for inventory, go to [Built-in inventory and warehouse reports](inventory-WMS-reports.md).
 
@@ -144,14 +179,16 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 
 ## See also
 
-[Company consolidation](finance-consolidated-company-reporting.md)   
+[Company consolidation](finance-consolidated-company-reporting.md)  
+[Power BI Inventory app](inventory-powerbi-app.md)  
+[Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
-[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -24,6 +24,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | --- | --- |
 |Define default settings for the use of contacts and interactions and set up number series.|[Setting Up Relationship Management](marketing-setup-marketing.md)|
 |Define the external entities that you have business relations with. For example, customers, prospective customers, vendors, lawyers, and consultants, either as Person type or Company type.|[Managing Contacts](marketing-contacts.md)|
+|Analyze your relationship management data. | [Relationship management report overview](marketing-reports.md) |
 |Manage all types of communications between your company and your contacts, such as by email, letter, telephone, meetings.|[Managing Interactions](marketing-interactions.md)|
 |Define segments to select a group of contacts according to specific criteria, such as the industry that the contacts belong to.|[Managing Segments](marketing-segments.md)|
 |Process incoming leads by creating opportunities and associating them to salespeople so that you can keep track of potential sales.|[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)|

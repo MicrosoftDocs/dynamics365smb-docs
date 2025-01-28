@@ -1,6 +1,6 @@
 ---
-title: Purchase statistics
-description: Keep track of vendor performance and ensure that your company is getting the best value for its money
+title: Purchase statistics (report)
+description: Keep track of vendor performance and ensure that your company is getting the best value for its money.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -46,7 +46,7 @@ Please include your data sources and URLs
 Procurement analysts use the report to:
 
 * Monitor vendor performance. The report provides a comprehensive view of purchase statistics for each vendor over a period of time. Use this information to monitor vendor performance and identify discrepancies in pricing or delivery timelines.
-* Evaluate vendor discounts. The report includes information on payment discounts taken and lost. Use this information to evaluate vendor discounts and identify opportunities to save cost.
+* Evaluate vendor discounts. The report includes information about payment discounts that were taken and lost. Use this information to evaluate vendor discounts and identify opportunities to save cost.
 
 Accounts payable specialists use the report to:
 
@@ -62,10 +62,21 @@ Try the report here: [Purchase statistics](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Alternative reports
+
+There are several other ways to analyze your vendors. 
+
+- The **Vendors** list and the **Vendor** card both include a Vendor Statistics section in the factbox.
+- The **Vendor** card includes a Statistics action that opens the **Vendor Statistics** page.
+- All reports in the [!INCLUDE [power-bi-purchasing-app-name](../includes/power-bi-purchasing-app-name.md)] support filtering to one or more vendors. To learn more, go to [Power BI Purchasing app](../purchases-powerbi-app.md).
+
+
+
+## Related information
 
 [Purchase reports](../purchase-reports.md)  
 [Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
+[Power BI Purchasing app](../purchases-powerbi-app.md)  
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

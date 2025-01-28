@@ -1,7 +1,7 @@
 ---
 title: FAQ for mapping e-documents with purchase orders
 description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 02/23/2024
+ms.date: 11/11/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -64,7 +64,7 @@ Test data represents both typical use and use by bad actors. Performance was mea
 
 **E-documents Matching Assistance** performs best when external (e-invoice) and internal ([!INCLUDE [prod_short](includes/prod_short.md)]) item descriptions, and unit of measures are all in the same language. Mixed languages or mixed language of item descriptions often result in fewer matches and suggestions.  
 
-Suggested matching of items from e-invoices with items in purchase orders performs best in English language. Although you can use this feature in any language that [!INCLUDE [prod_short](includes/prod_short.md)] supports, you might experience fewer item matches in other languages. For more information about language, go to [In which geographies and languages is E-documents Matching Assistance available?](#in-which-geographies-and-languages-is-e-documents-matching-assistance-available).
+Suggested matching of items from e-invoices with items in purchase orders performs best in English language. Although you can use this feature in any language that [!INCLUDE [prod_short](includes/prod_short.md)] supports, you might experience fewer item matches in other languages. Learn more in the section [In which geographies and languages is E-documents Matching Assistance available?](#in-which-geographies-and-languages-is-e-documents-matching-assistance-available).
 
 ## In which geographies and languages is E-documents Matching Assistance available?
 
@@ -109,10 +109,10 @@ No, whether you use Copilot is up to you. [!INCLUDE [prod_short](includes/prod_s
 
 Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the **Like** and **Dislike** controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.  
 
-## See also
+## Related information
 
 [E-Documents overview](finance-edocuments-overview.md)  
 [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)  
-[Learn more at copilot data movement across geographies](ai-copilot-data-movement.md).
+[Copilot data movement across geographies](ai-copilot-data-movement.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

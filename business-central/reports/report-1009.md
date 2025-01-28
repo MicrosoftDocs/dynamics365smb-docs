@@ -19,6 +19,8 @@ ai.usage: ai-assisted
 
 The **Project Actual to Budget** report shows scheduled and used amounts for selected projects. The lines of the selected projects show quantity, total cost, and line amount.
 
+You can choose whether the currency displays in local currency or foreign currency.
+
 This report is intended for completed projects, although you can use it at any time during a project.
 
 > [!NOTE]
@@ -69,6 +71,7 @@ Try the report here: [Project Actual to Budget](https://businesscentral.dynamics
 
 ## See also
 
-[Project Reports and Analytics in Business Central](../project-reports.md)  
+[Project Reports](../project-reports.md)  
+[Project management analytics overview](../projects-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

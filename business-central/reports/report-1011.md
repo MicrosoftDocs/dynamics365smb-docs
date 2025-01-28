@@ -19,6 +19,10 @@ ai.usage: ai-assisted
 
 The **Project Suggested Billing** report shows a list of all projects, grouped by customer. It shows how much you already invoiced the customer, and how much remains to invoice. The remaining amount is the suggested billing.
 
+At the end of the report, all amounts are totaled.
+
+You can choose whether the currency displays in local currency or foreign currency.
+
 > [!NOTE]
 > This report isn't available in the US, Canada, and Mexico. Instead, use the **Project Cost Suggested Billing** (10219) report.
 
@@ -65,6 +69,7 @@ Try the report here: [Project Suggested Billing](https://businesscentral.dynamic
 
 ## See also
 
-[Project Reports and Analytics in Business Central](../project-reports.md)  
+[Project Reports](../project-reports.md)  
+[Project management analytics overview](../projects-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

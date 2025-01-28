@@ -1,5 +1,5 @@
 ---
-title: Project Transaction Detail (report)
+title: Project Task Transaction Detail (report)
 description: Get an overview of posted project tasks, such as resources and items. 
 author: kennieNP
 ms.author: kepontop
@@ -15,11 +15,11 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Project Transaction Detail (report)
+# Project Task Transaction Detail (report)
 
-The **Project Transaction Detail** report shows an overview of posted project tasks, such as resources and items.
+The **Project Task Transaction Detail** report shows an overview of posted project tasks, such as resources and items. It includes a detailed information about the total costs and total sales, plus information concerning line discounts, and so on.
 
-It includes a detailed information about the total costs and total prices, plus information concerning line discounts, and so on.
+You can choose whether the currency displays in local currency or foreign currency.
 
 The data the report shows comes from the project ledger entries.
 
@@ -44,7 +44,7 @@ Do not capitalize the persona names.
 Do not start lines with "Use the data to"
 
 ## Report name
-Project Transaction Detail
+Project Task Transaction Detail
 
 ## Report description
 The *Project Transaction Detail* report shows an overview of the posted project tasks such as resources and items. 
@@ -62,12 +62,13 @@ Please include your data sources and URLs
 
 ## Try the report
 
-Try the report here: [Project Transaction Detail](https://businesscentral.dynamics.com?report=1007)
+Try the report here: [Project Task Transaction Detail](https://businesscentral.dynamics.com?report=1007)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## See also
 
-[Project Reports and Analytics in Business Central](../project-reports.md)  
+[Project Reports](../project-reports.md)  
+[Project management analytics overview](../projects-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 06/13/2024
+ms.date: 01/15/2025
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -21,18 +21,20 @@ This article answers some common questions about chatting with Copilot in [!INCL
 ## Can admins grant or deny permission to individual users to get access to chat?
 
 No, there's no permission or permission set for chat. If chat is activated on the [Copilot and AI capabilities](enable-ai.md) page, every user in an environment has access to chat.
- 
+
 ## Is chat available on tablet, phone, or other form factors?
 
-No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_client.md)] web client.
+No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_client.md)].
+
+## In which countries or regions can I chat with Copilot?
+
+Chat is rolling out to all Business Central countries and regions from the end of January 2025, starting with 48 countries in update 25.3 and more with 25.4. If you are unable to access the Chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
 
 ## I don't use Business Central in English. What are my options?
 
-Currently, chat is only available in English. You can change your user language to English in [My Settings](ui-change-basic-settings.md#language).
+As of January 2025, chat is available no matter which language you use in Business Central.
 
-## What version of Business Central do I need for chat?
-
-Chat is available in public preview from version 24.0 (2024 release wave 1).
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Does chat work with my customizations?
 
@@ -41,7 +43,7 @@ It depends on the type of question you ask Copilot. For example:
 - If you ask questions to find records, it can find records in your custom tables that use custom fields.
 - If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
 
-## How do I open a record or page with chat?
+## How do I open a record or page from chat?
 
 When you ask Copilot to find records in [!INCLUDE[prod_short](includes/prod_short.md)], it shows any records it finds as selectable tiles or links in the chat pane. While in preview, Copilot doesn't automatically navigate to any page.
 
@@ -63,9 +65,9 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## What can I do if the chat pane doesn't show?
 
-Check that your user language in **My Settings** is set to English, and that your environment is of version 24.0 or later. On the Copilot and AI Capabilities page, make sure the administrator has switched on consent for data across geographies and has activated chat. Also, make sure your environment localization isn't Canada.
-
-If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling the feature out to your region. Copilot rolled out to US customers first in April 2024, and then over the course of weeks will roll out to other country/region localizations.
+- Make sure your Business Central is version 25.3 or later.
+- Make sure the entry for "Chat with Copilot" is enabled for all users in the **Feature Management** page,
+- If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling out this feature to your region. You can track planned available for each Azure geography at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Why does Copilot only show three records in the Chat pane?
 
@@ -77,7 +79,7 @@ While in preview, Chat with Copilot can help you find records, explain concepts,
 
 ## Can I use speech instead of typing my prompts?
 
-You can chat with Copilot by using voice typing to talk instead of type your words in the Chat pane. Voice typing uses online speech recognition and is available with Windows. To use voice, activate the chat message box, then use the <kbd>Windows</kbd>+<kbd>H</kbd> shortcut and start speaking. For more information, see [Use voice typing to talk instead of type on your PC](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).
+You can chat with Copilot by using voice typing to talk instead of type your words in the Chat pane. Voice typing uses online speech recognition and is available with Windows. To use voice, activate the chat message box, then use the <kbd>Windows</kbd>+<kbd>H</kbd> shortcut and start speaking. Learn more at [Use voice typing to talk instead of type on your PC](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).
 
 ## Next steps
 

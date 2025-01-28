@@ -19,6 +19,8 @@ ai.usage: ai-assisted
 
 The **Fixed Asset - Acquisition List** report lists all fixed assets acquired in a given date range. You can also include fixed assets that are created but aren't acquired.
 
+The report shows information such as the fixed asset number, description, responsible employee, fixed asset location code, serial number, and acquisition date.
+
 ## Use cases
 
 [!INCLUDE[report-5608-scenario](../includes/report-5608-scenario-include.md)]

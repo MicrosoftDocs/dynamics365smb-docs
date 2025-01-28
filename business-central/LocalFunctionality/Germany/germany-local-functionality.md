@@ -31,12 +31,13 @@ The following articles describe local functionality that is unique to the German
     * [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**
 
 * Core Finance
+    * [German Electronic Invocing](germany-einvoicing.md) **Available Now**
     * [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md) **Available Now**
     * [Post a Negative Entry](how-to-post-a-negative-entry.md) **Available Now**
     * [Process for Digital Audits](process-for-digital-audits.md) **Available Now**
     * [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-digital-audits.md) **Available Now**
     * [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md) **Available Now**
-    * [GDPDU Filter Examples](gdpdu-filter-examples.md) **Available Now**
+    * [GoBD Filter Examples](gdpdu-filter-examples.md) **Available Now**
     * [Upgrade a .DTD Definition File](how-to-upgrade-a-.dtd-definition-file.md) **Available Now**
     * [Walkthrough: Exporting Data for a Digital Audit](walkthrough-exporting-data-for-a-digital-audit.md) **Available Now**
 
@@ -57,15 +58,14 @@ The following articles describe local functionality that is unique to the German
 
 ## Future legislation requirements being investigated
 
-* Adding XRechnung e-invoicing format **Planned for December 2024**
-* Receiving e-documents via Peppol network **Planned for December 2024**
-* GDPdU/GoDB update **Planned for 2025 release wave 2**
+* Adding ZUGFeRD e-invoicing format **Planned for 2025 release wave 1**
+* GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 1**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 
-[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)    
+[Certification of Business Central for German market (document is in German)](https://swb.bdo.de/certificate/MS_D365BC_PS_880_DE_2018)    
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
 

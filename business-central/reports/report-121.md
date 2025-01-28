@@ -1,6 +1,6 @@
 ---
 title: Customer - Balance to date (report)
-description: Get a detailed balance for selected customers, for example at the close of an accounting period or fiscal year.
+description: Get a detailed balance for selected customers at the close of an accounting period or fiscal year, for example.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,10 +19,10 @@ ai.usage: ai-assisted
 
 The **Customer - Balance to date** report shows the open customer ledger entries until the ending date.
 
-This report shows similar content as the customer statement but with no indication if the entry is overdue.
+This report shows similar content to the customer statement, but it doesn't indicate whether the entry is overdue.
 
 > [!NOTE]
-> The date filter applies to the detailed customer ledger entries. You might have payments later than the ending date that are applied to invoices within the date range. Those invoices appear in the report because they weren't closed by the ending date.
+> The date filter applies to the detailed customer ledger entries. You might have payments that are later than the ending date, but that are applied to invoices within the date range. Those invoices appear in the report because they weren't closed by the ending date.
 
 ## Use cases
 
@@ -64,17 +64,20 @@ Sales representatives use the report to:
 * Track the payment status of customers and follow up on overdue balances.
 * Identify the customers with the highest outstanding balances and follow up to help collection efforts.
 
-As a sales manager, use the report to:
-* Monitor the performance of sales representatives in terms of collecting payments from customers.
-* Identify customers that might be bad for 
+Sales managers use the report to:
 
-As an accounts receivable specialist, use the report to:
-* Identify customers who have overdue balances and take appropriate actions to collect payments.
+* Monitor the performance of sales representatives in terms of collecting payments from customers.
+* Identify customers that might be bad for.
+
+Accounts receivable specialists use the report to:
+
+* Identify customers with overdue balances and take appropriate action to collect payments.
 * Review the payment history of customers and investigate discrepancies or potential issues.
 * Monitor the aging of customer balances and prioritize collection efforts based on the level of delinquency.
 
-As a finance manager, use the report to:
-* Analyze the performance of the accounts receivable function, such as average collection period and bad debt ratio.
+Finance managers use the report to:
+
+* Analyze the performance of the accounts receivable function, such as the average collection period and bad debt ratio.
 * Monitor the cash flow and liquidity of the company by reviewing the accounts receivable balance.
 * Review the customer aging report to identify trends and potential risks to the company's financial health.
 
@@ -84,11 +87,10 @@ Try the report here: [Customer - Balance to date](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)   
-[Sales analytics overview](../sales-analytics-overview.md)   
+[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
+[Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

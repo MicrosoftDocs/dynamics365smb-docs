@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_704, Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320
+ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
 ms.date: 08/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -14,6 +14,10 @@ ms.service: dynamics-365-business-central
 # Inventory and warehouse reports and analytical tasks
 
 Inventory and warehouse reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives inventory and business professionals insights and statistics about current and past inventory and warehouse activities.  
+
+## Explore inventory reports with Report Explorer
+
+[!INCLUDE [inventory_reports_report_explorer](includes/inventory-reports-report-explorer-include.md)]
 
 ## Inventory and warehouse report overview
 
@@ -32,7 +36,7 @@ Using barcodes can help streamline your inbound, outbound, and internal warehous
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
-After you install the app, you can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
+You can use the **Print Label** action to print 1D and 2D barcodes from the pages listed in the following table.
 
 |Page  |Field values barcodes can include  |
 |---------|---------|
@@ -45,14 +49,6 @@ After you install the app, you can use the **Print Label** action to print 1D an
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customized version.
 >
 > Check with your equipment supplier to learn how to print Word documents on your device.  
-
-## Explore inventory reports with Report Explorer
-
-To get an overview of the reports that are available for inventory, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**.
-
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-sales.png":::
-
-To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
 ## See also
 

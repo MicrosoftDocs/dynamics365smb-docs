@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.topic: faq
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 08/14/2024
+ms.date: 01/06/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -14,13 +14,13 @@ ms.reviewer: jswymer
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-This article answers some of the questions you may have about working with Microsoft Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
+This article answers some of the questions you might have about working with Microsoft Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## [General](#tab/general)
 
 ### How do I sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in Teams?
 
-After installing the app, you'll be asked to sign in the first time you use it, when you paste a [!INCLUDE [prod_short.md](includes/prod_short.md)] link into Teams chat, or choose the **Details** action on a card in Teams. Depending on your Teams client, you may have to enter the credentials you use to access [!INCLUDE [prod_short.md](includes/prod_short.md)].
+After installing the app, you'll be asked to sign in the first time you use it, when you paste a [!INCLUDE [prod_short.md](includes/prod_short.md)] link into Teams chat, or choose the **Details** action on a card in Teams. Depending on your Teams client, you might have to enter the credentials you use to access [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### How do I sign out of the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in Teams?
 
@@ -36,11 +36,11 @@ Yes. To search for contacts in a different company, go to [Settings](across-team
 
 ### In which countries or regions is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app available? 
 
-The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't restricted by country or region. The app is available in all markets currently supported by the Teams marketplace. 
+The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't restricted by country or region. The app is available in all markets currently supported by the Teams marketplace.
 
 ### Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app work with any localization of [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
-Yes. The app is intended to work with any localization of [!INCLUDE [prod_short.md](includes/prod_short.md)], whether that localization is offered directly from Microsoft or through a partner. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
+Yes. The app works with any localization of [!INCLUDE [prod_short.md](includes/prod_short.md)], whether offered by Microsoft or a partner.  Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="language"></a>Which languages does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app support?
 
@@ -53,7 +53,7 @@ The following table explains how the experience differs for message authors and 
 
 |Who|Card|Card details |
 |-|----|--------------| 
-|Message author |Displays in the language that's specified for you in Teams. If [!INCLUDE [prod_short.md](includes/prod_short.md)] doesn't offer that same language, the card is displayed in English. |Displayed in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)], which may include languages from language apps provided by partners. |
+|Message author |Displays in the language that's specified for you in Teams. If [!INCLUDE [prod_short.md](includes/prod_short.md)] doesn't offer that same language, the card is displayed in English. |Displayed in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)], which might include languages from language apps provided by partners. |
 |Message recipient |Displays in the language of the message author. |Displays in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)]. |
 
 Get a list of supported languages for [!INCLUDE [prod_short.md](includes/prod_short.md)] in [Supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
@@ -82,7 +82,7 @@ Mobile users are encouraged to install both the mobile app and the app for Teams
 
 ### Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app work in all Teams clients?
 
-No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't supported when installed as a package for macOS or Linux. On those platforms, you access Teams using a supported browser instead.
+No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't supported when installed as a package for macOS or Linux. On those platforms, use a supported browser to access Teams.
 
 Learn more about minimum requirements in [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
@@ -90,7 +90,7 @@ Learn more about the choice of Teams clients and how to install them at [Get cli
 
 ### Which Teams client is best for [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
-There are only minor differences and limitations between Teams clients that may affect your experience with the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams. When choosing a Teams client, consider:
+There are only minor differences and limitations between Teams clients that might affect your experience with the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams. When choosing a Teams client, consider:
 
 - The camera and location can't be accessed from the details window in the Teams desktop app.
 - Phone numbers can't be activated from the details window in Teams for iOS, Android, or in the browser.
@@ -102,7 +102,7 @@ If you're a reselling partner, you might want to have an environment that you ca
 
 ### Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams cater to my customization and personalization?
 
-The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display cards for links to customer pages and tables in [!INCLUDE [prod_short.md](includes/prod_short.md)], such as those pages and tables originating from your own custom extensions or from AppSource.
+The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display cards for links to customer pages and tables in [!INCLUDE [prod_short.md](includes/prod_short.md)], such as those pages and tables from your own custom extensions or AppSource.
 
 The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_short.md](includes/prod_short.md)] customizations installed for your organization. Cards don't consider any role-specific customizations or user personalization. However, the card details window shows record details as you would see them in [!INCLUDE [prod_short.md](includes/prod_short.md)], including extensions, role customizations, and user personalization.
 
@@ -129,7 +129,7 @@ Contact your administrator to learn how your organization handles the privacy of
 
 ### How do I uninstall the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
-To remove the app that you installed for yourself, go to any chat compose box, find the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, right-click the icon and choose **Uninstall**.  
+To remove the app that you installed for yourself, go to any chat compose box, find the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, right-click the icon, and select **Uninstall**.  
 
 ### Will Microsoft continue to improve the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
@@ -155,7 +155,7 @@ Any person in your chat or channel who has:
 
 The recommended content that you can choose from in the **Tab content** option on a tab is based on your Role Center. The recommend content only includes list pages, like Customers, Sales Orders, and Vendors - not individuals card page alike a specific customer or vendor.
 
-Specifically, recommended content includes:
+Specifically, the recommended content includes:
 
 - Actions in the top navigation menu of the role center
 - Any list pages you've bookmarked.
@@ -219,7 +219,7 @@ Yes, as long as the chat isn't a draft (that is, a message hasn't been sent to i
 
 ### Can I switch companies within a tab?
 
-No. 
+No.
 
 ### Is this different than using Teams' generic ability to create a tab that hosts a website?
 
@@ -239,21 +239,21 @@ Search terms aren't matched against any custom fields added to the **Contacts** 
 
 ### Do search results include companies and persons?
 
-Yes. In [!INCLUDE [prod_short.md](includes/prod_short.md)], contacts can be of type **Company** or type **Person**, where one or more persons may be associated with a company. In the search results, companies and persons have different icons.
+Yes. In [!INCLUDE [prod_short.md](includes/prod_short.md)], contacts can be of type **Company** or type **Person**, where one or more persons can be associated with a company. In the search results, companies and persons have different icons.
 
 ### Do contacts of any business relationship appear in the results?
 
-Yes. Some contacts may represent customers or vendors, or both. Other contacts with no defined business relation typically represent prospective customers. Contacts with other business relations, including any custom relations you've configured in [!INCLUDE [prod_short.md](includes/prod_short.md)], will also be displayed in the search results.
+Yes. Some contacts can represent customers or vendors, or both. Other contacts with no defined business relation typically represent prospective customers. Contacts with other business relations, including any custom relations you've configured in [!INCLUDE [prod_short.md](includes/prod_short.md)], will also be displayed in the search results.
 
 ### Can I look up contact details during meetings?
 
 Yes. You can look up contact information, history of interaction, and related documents for your customer or vendor during a Teams meeting or call while the meeting is happening, without leaving Teams.
 
-In fact, you can look up contact details from anywhere in Teams by using the command box. You can, for example, look up contact details from the Teams calendar to help you set up meetings.
+In fact, you can look up contact details from anywhere in Teams by using the **Search** box. You can, for example, look up contact details from the Teams calendar to help you set up meetings.
 
 ### How do I view my last interactions with a contact?
 
-The details window for a contact displays interaction log entries. The interaction log entries provide the history of interactions that your organization has had with the specific contact. The interactions may include emails you've exchanged, calls you've received, or documents you've sent.
+The details window for a contact displays interaction log entries. The interaction log entries provide the history of interactions that your organization has had with the specific contact. The interactions can include emails you've exchanged, calls you've received, or documents you've sent.
 
 For interactions to be displayed, [!INCLUDE [prod_short.md](includes/prod_short.md)] must be configured to track interactions. To learn more about logging interactions, see [Record Interactions With Contacts](marketing-interactions.md).
 
@@ -267,11 +267,11 @@ From the details window for a contact, find the **Create Interaction** action, a
 
 ### How do I view recent documents for a customer or vendor?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] typically relates a contact with a customer or vendor record that in turn is related to business transaction records, such as sales quotes or purchase invoices. To view related documents for a contact, go to the details window for the contact, choose the **Business Relation** field value or use the actions to navigate to the associated customer or vendor. On the customer or vendor page, expand the FactBox pane to reveal statistics for various documents that you can drill down into. Your experience may differ based on your customizations and personalization.
+[!INCLUDE [prod_short.md](includes/prod_short.md)] typically relates a contact with a customer or vendor record that in turn is related to business transaction records, such as sales quotes or purchase invoices. To view related documents for a contact, go to the details window for the contact, select the **Business Relation** field value or use the actions to navigate to the associated customer or vendor. On the customer or vendor page, expand the FactBox pane to reveal statistics for various documents that you can drill down into. Your experience can differ based on your customizations and personalization.
 
 ### How do I search for contacts using special characters?
 
-You can enter search criteria using almost any unicode characters. However, [!INCLUDE [prod_short.md](includes/prod_short.md)] reserves the following symbols for other uses: **=**, **.**, **\***, and **@**. Using these symbols in your search terms may not return the expected results. If you don't see the expected results, enclose the symbols in your search terms in single quotes, for example, **Contoso'='2**.
+You can enter search criteria using almost any unicode characters. However, [!INCLUDE [prod_short.md](includes/prod_short.md)] reserves the following symbols for other uses: **=**, **.**, **\***, and **@**. Using these symbols in your search terms might not return the expected results. If you don't see the expected results, enclose the symbols in your search terms in single quotes, for example, **Contoso'='2**.
 
 ### How can I search contacts stored in a different company?
 
@@ -284,12 +284,7 @@ Yes. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] repre
 
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] synchronize contacts with Teams?
 
-No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in Teams.
-There are currently no plans to synchronize the two lists together.
-
-### What is the minimum version of [!INCLUDE [prod_short.md](includes/prod_short.md)] for contact search?
-
-Contact search requires that you've installed the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams version 1.0.4 or later, and you're connecting to [!INCLUDE [prod_short.md](includes/prod_short.md)] environments of version 18 or later.
+No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in Teams. There are currently no plans to synchronize the two lists together. When you use the Teams feature **Share someone's contact info** from the chat compose box, it has no relation to Business Central contacts.
 
 ### Can I search from my mobile device?
 
@@ -311,11 +306,11 @@ Yes. Searching for contacts from Teams is based on [!INCLUDE [prod_short.md](inc
 
 After you sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams for the first time, the app will attempt to determine your preferred company in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the app can't determine the company, you might have to go to the **Settings** and choose the company you wish to search in. This situation happens, for example, if you have access to multiple companies across environments in your organization. In this case, you'll have to choose a company before you can start searching.  
 
-The app may also ask you to visit the **Settings** if you don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, there are no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license.
+The app can also ask you to visit the **Settings** if you don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, there are no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license.
 
 ### I'd like to search for items or records from other tables. Can I do this from Teams?
 
-Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list, which may include vendors, customers, and other contacts.
+Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list, which can include vendors, customers, and other contacts.
 
 If you'd like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
 
@@ -336,7 +331,7 @@ When pasting a link to the root Web client Url, such as https://businesscentral.
 
 You can't delete a card that you've already sent to chat. But you can delete the entire message that the card is a part of.
 
-As the message author, you can delete any messages you sent to chats with a person, group, or channel&mdash;unless your administrator has set up policies that prevent deleting messages. If you moderate a channel as a channel owner, your administrator may have also granted you permission to delete any messages in the channel, including those messages sent by other users.
+As the message author, you can delete any messages you sent to chats with a person, group, or channel&mdash;unless your administrator has set up policies that prevent deleting messages. If you moderate a channel as a channel owner, your administrator might have also granted you permission to delete any messages in the channel, including those messages sent by other users.
 
 Deleting a message that contains a card doesn't delete or affect any data in [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
@@ -346,7 +341,7 @@ No. The field values on a card in Teams, including any images, are based on the 
 
 ### Why don't cards show more information instead of just the page name and details button?
 
-An administrator may have configured the Teams integration so that cards don't show data about records. For more information, see [Show or hide record data on cards](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+An administrator might have configured the Teams integration so that cards don't show data about records. For more information, see [Show or hide record data on cards](admin-teams-integration.md#show-or-hide-record-data-on-cards).
 
 ### Will others see my card if they don't have the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams? 
 
@@ -360,7 +355,7 @@ If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies,
 
 ### Where is the save button in the details window in Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] automatically saves changes you make to any field as soon as you leave the field. To leave a field, click/tap anywhere outside the field or use the Tab key to move to the next field. When data appears in a dialog within the details window, you may need to choose the **OK** button to have [!INCLUDE [prod_short.md](includes/prod_short.md)] save your changes.
+[!INCLUDE [prod_short.md](includes/prod_short.md)] automatically saves changes you make to any field as soon as you leave the field. To leave a field, click/tap anywhere outside the field or use the Tab key to move to the next field. When data appears in a dialog within the details window, you might need to choose the **OK** button to have [!INCLUDE [prod_short.md](includes/prod_short.md)] save your changes.
 
 ### If I choose to view details for a card, will other users see my details window?
 

@@ -217,3 +217,4 @@ The following image shows the structure of the report in this example.
 [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
 [Walkthrough: Make cash flow forecasts using financial reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)  
 [Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md)  
+[Financial analytics overview](bi.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
+ms.search.form: 5601_Primary, 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -46,7 +46,7 @@ Audits are also included in the detailed checks of your company’s accounting r
 
 The following video covers the basics of fixed assets:
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=32fa27be-9e9a-4637-bc9b-87eb994f5ae0]
 
 ## Initial setup of fixed assets
 

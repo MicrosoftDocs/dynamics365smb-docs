@@ -4,7 +4,7 @@ description: Describes how to add users to Business Central online or on-premise
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
 ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -106,7 +106,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 > Running the synchronization of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
 
 > [!NOTE]
-> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
+> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is a [Dynamics 365 administrator](/entra/identity/role-based-access-control/permissions-reference#dynamics-365-administrator). Those users will update the next time they sign in to the environment.
 
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a license change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
@@ -175,7 +175,7 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 
 ## Analyze user status by license type
 
-You can use the **Data Analysis** feature to analyze data on the [Users](https://businesscentral.dynamics.com/?page=9800) page. You don't have to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Users by status" or "Users by license type," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
+You can use the **Data Analysis** feature to analyze data on the [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) page. You don't have to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Users by status" or "Users by license type," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
 
 ### User analysis scenarios
 
@@ -183,14 +183,14 @@ The following sections provide examples of scenarios where analyzing the user li
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Users by status](#example-users-by-status) | See a list of users based on their status (enabled/disabled). | [Users](https://businesscentral.dynamics.com/?page=9800) | **Status**, **User Name**, **Full Name**, **Authorization email**, and **License Type**. |
-| [Users by license type](#example-users-by-license-type) | See a list of users based on their license type. | [Users](https://businesscentral.dynamics.com/?page=9800) | **License Type**, **Status**,  **User Name**, **Full Name**, and **Authorization email**. |
+| [Users by status](#example-users-by-status) | See a list of users based on their status (enabled/disabled). | [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) | **Status**, **User Name**, **Full Name**, **Authorization email**, and **License Type**. |
+| [Users by license type](#example-users-by-license-type) | See a list of users based on their license type. | [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) | **License Type**, **Status**,  **User Name**, **Full Name**, and **Authorization email**. |
 
 ### Example: Users by status
 
 To analyze users by status, follow these steps:
 
-1. Open the [Users](https://businesscentral.dynamics.com/?page=9800) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
+1. Open the [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
 1. On the **Columns** menu, remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **Status** (user enabled/disabled) and **License Type** fields to the **Row Groups** area.
 1. Choose the fields **User Name**, **Full Name**, and **Authorization email**.
@@ -204,7 +204,7 @@ The following image shows the result of these steps.
 
 To analyze users by license type, follow these steps:
 
-1. Open the [Users](https://businesscentral.dynamics.com/?page=9800) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
+1. Open the [Users](https://businesscentral.dynamics.com/?page=9800&layout=analysis) list, and choose the :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: icon to turn on analysis mode.
 1. On the **Columns** menu, remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **License Type** and **Status** (user enabled/disabled) fields to the **Row Groups** area.
 1. Choose the **User Name**, **Full Name**, and **Authorization email** fields.

@@ -40,7 +40,8 @@ This section describes the analytical tools you can use to get insights into you
 
 | To... | See |
 | --- | --- |
-| Learn about capabilities for analyzing purchase data. | [Purchasing analytics overview](purchasing-analytics-overview.md) |
+| Get an overview of your capabilities for analyzing purchase data. | [Purchasing analytics overview](purchasing-analytics-overview.md) |
+| Analyze and monitor your procurement KPIs with the Power BI Purchasing app. | [Power BI Purchasing app](purchases-powerbi-app.md) |
 | Do ad-hoc analysis of purchase data directly on list pages and queries. | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
 | Explore built-in purchase reports. | [Built-in purchasing reports](purchase-reports.md) |
 

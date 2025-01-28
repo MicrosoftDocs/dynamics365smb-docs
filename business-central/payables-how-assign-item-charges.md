@@ -1,16 +1,17 @@
 ---
-title: Assign Item Charges to Sales and Purchases
+title: Assign item charges to sales and purchases
 description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 11/08/2023
+ms.date: 07/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Use item charges to account for additional trade costs
 
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all other direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
@@ -35,7 +36,7 @@ For both purchase and sales documents, you can assign an item charge in two ways
 
 This video shows how to handle an extra shipping cost as part of inventory costing.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=35aa5336-39c8-46a2-b8eb-9ac925a17802]
 
 ## To set up item charge numbers
 
@@ -53,7 +54,7 @@ If you know the item charge when you post a purchase invoice for the item, follo
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.
-5. In the **Quantity** field, enter the units of the item charge that you are invoiced for.
+5. In the **Quantity** field, enter the units of the item charge that you're invoiced for.
 6. In the **Direct Unit Cost** field, enter the amount of the item charge.
 7. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

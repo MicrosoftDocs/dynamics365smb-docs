@@ -10,8 +10,8 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Categorize items
 
 To maintain an overview of your items and to help you sort and find items, it's useful to organize your items in item categories.
@@ -19,7 +19,7 @@ To maintain an overview of your items and to help you sort and find items, it's 
 To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=4c02e1d8-7569-4eb4-94cf-105899787978]
 
 ## To create an item category
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
@@ -47,11 +47,11 @@ If you change your mind about an item category, you can delete it. However, if t
 
 ## See also
 
-[Work with Item Attributes](inventory-how-work-item-attributes.md)  
-[Manage Product Variants](inventory-item-variants.md)  
-[Register New Items](inventory-how-register-new-items.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with Item Attributes](inventory-how-work-item-attributes.md)    
+[Manage Product Variants](inventory-item-variants.md)    
+[Register New Items](inventory-how-register-new-items.md)    
+[Inventory](inventory-manage-inventory.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

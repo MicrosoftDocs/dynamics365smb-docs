@@ -1,0 +1,1 @@
+Get an overview of service contracts for each customer in a selected time period.

@@ -1,0 +1,1 @@
+Get an overview of service contracts for each salesperson for a selected period. For example, the overview can help you calculate and document commissions. 

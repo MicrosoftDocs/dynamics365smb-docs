@@ -6,13 +6,15 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 05/07/2024
+ms.date: 01/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
 # Chart of sustainability accounts and ledger
+
+This article explains how to manage the chart of sustainability accounts (CoSA), categories and subcategories, and details about sustainability ledger entries.
 
 ## Chart of sustainability accounts
 
@@ -86,13 +88,16 @@ If you set the **Calculation Foundation** field, the following table explains ho
 | **Scope 3** | | | |
 | Purchased goods and services, and capital goods | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Cost (GL), and so on |
 | Upstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
-| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Tons of cargo |
+| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *)|
 | Downstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
-| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Tons of cargo |
+| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *)|
 | Waste generated in operations and end-of-life treatment of sold products | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Waste |
 | Business travel and employee commuting | Distance | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of the used company car, rental car, train, flight, and so on |
 | | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Hotel stays |
 | | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on |
+
+> [!IMPORTANT]
+> This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when using the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations, as emissions don't increase linearly with weight. A more accurate approach is to use the **Load Factor**, representing the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before finalizing calculations.   
 
 ## Account subcategories
 
@@ -114,6 +119,11 @@ To review sustainability account subcategories, follow the steps:
 > [!NOTE]
 > The **Import Data** and **Import From** fields are intended for potential integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
 
+It's important to know that you can have more than one *Account Subcategory* related to one *Sustainability Account*, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting.  
+
+> [!TIP]
+> For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one *Account* and create as many *Account Subcategories* as you need for cars with different emission factors. When you work in your *Sustainability Journal*, you can easily change your *Account Subcategory* based on the car type you choose to use for recording emissions.  
+
 ## Sustainability ledger entries
 
 The sustainability ledger stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.
@@ -123,7 +133,7 @@ To open this ledger for one specific account, use the **Ledger Entries** action 
 > [!IMPORTANT]
 > After you post your data to the sustainability ledger, you can't delete it. If you made a mistake, you can post a reverse transaction that has the same details but uses the negative sign for the amount.
 
-## See also
+## Related information
 
 [Finance](finance.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  

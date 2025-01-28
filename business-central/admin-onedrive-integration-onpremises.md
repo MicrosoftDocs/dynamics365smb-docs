@@ -4,7 +4,7 @@ description: Learn about how to set up Business Central on-premises to integrate
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: OneDrive, share, browser
-ms.date: 06/13/2024
+ms.date: 09/01/2024
 ms.author: jswymer
 ms.service: dynamics-365-op
 ms.reviewer: jswymer
@@ -73,7 +73,7 @@ Use this procedure if you're using Business Central 2022 release wave 2 (version
    - If the test succeeds, choose **Done**, then you're ready to go.
    - If the test fails, you get a message that describes the problem. Typically the problem has to do with the URL that you provided. Choose **OK** to return to the **Configure Business Central** page, verify the URL, and try again.
    - If you haven't already set up the Microsoft Entra ID registered app, the **Set Up Microsoft Entra ID** guide opens.
-6. When completed, the privacy notice for OneDrive integration is agreed for all users. If you want to change it so users must agree or disagree for themselves, then go the **Privacy Notices Status** page and select **Let User Decide** for the OneDrive integration. Users will then be prompted to agree or disagree with the privacy notice the first time they use the OneDrive features. For more information, see [Privacy Notices](privacy-notices-status.md).
+6. When completed, the privacy notice for OneDrive integration is agreed for all users. If you want to change it so users must agree or disagree for themselves, then go the **Privacy Notices Status** page and select **Let User Decide** for the OneDrive integration. Users will then be prompted to agree or disagree with the privacy notice the first time they use the OneDrive features. Learn more in [Privacy Notices](privacy-notices-status.md).
 
 ## Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] version 19 and 20
 
@@ -95,7 +95,7 @@ Use this procedure if you're using Business Central 2022 release wave 1 (version
 6. In the **Client Secret** field, enter the secret from your registered app. 
 
 > [!IMPORTANT]
-> The **SharePoint Connection Setup** page is used to configure multiple legacy features. The **General** section configures the connection to OneDrive, and the **Shared Documents** section redirects files to SharePoint instead. The  **SharePoint Connection Setup** has been deprecated and will be removed in coming release. We recommend that you do not configure the **Shared Documents** section. For more information, see [Deprecated Features in the Base App ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
+> The **SharePoint Connection Setup** page is used to configure multiple legacy features. The **General** section configures the connection to OneDrive, and the **Shared Documents** section redirects files to SharePoint instead. The  **SharePoint Connection Setup** has been deprecated and will be removed in coming release. We recommend that you do not configure the **Shared Documents** section. Learn more in [Deprecated Features in the Base App ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
 ## After upgrade to version 21
 
@@ -127,18 +127,18 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 
    In **OneDrive Setup** while making the switch, you get a message similar to the following text: 
 
-  `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This means the client id will change to NNNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN, you may want to test it has the correct permissions.`
+   **The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This means the client id will change to NNNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN, you may want to test it has the correct permissions.**
 
   `NNNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN` represents the client ID of the app in **Set up your Microsoft Entra accounts** that OneDrive integration has been switched to. 
 
   > [!IMPORTANT]
-  > For new OneDrive integration to work after you make the switch, you have to grant the app permission to the SharePoint API in Azure portal. You can do this step before or after you switch to the new OneDrive setup. For more information, see the section [Register an app in Microsoft Entra ID for OneDrive integration](#registerapp).
+  > For new OneDrive integration to work after you make the switch, you have to grant the app permission to the SharePoint API in Azure portal. You can do this step before or after you switch to the new OneDrive setup. Learn more in the section [Register an app in Microsoft Entra ID for OneDrive integration](#registerapp).
 
 - If the app in **Set up your Microsoft Entra accounts** is the same as the app in **SharePoint Connection Setup**, the OneDrive integration uses the same app as before, except from the configuration in the **Set up your Microsoft Entra accounts** setup.
 
    In **OneDrive Setup** while making the switch, you get a message similar to the following text:
 
-    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (5F78CADE-19C0-49BF-AF84-306D0579B50E).`
+   **The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (aaaabbbb-0000-cccc-1111-dddd2222eeee).**
 
 - If there's no app configured in the **Set up your Microsoft Entra accounts** setup, the OneDrive integration uses the same app as before.
 
@@ -146,7 +146,7 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 
    In **OneDrive Setup** while making the switch, you get a message similar to the following text:
 
-   `The Microsoft Entra application used for authentication will be configured for all Business Central integrations`.
+   **The Microsoft Entra application used for authentication will be configured for all Business Central integrations.**
 
 ### Run OneDrive setup to switch to the new OneDrive integration
 
@@ -162,8 +162,8 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 
    If the test succeeds, select **done**, and you're ready to go. Otherwise, use the messages on the page to help you fix the problem.
 
-## See also
+## Related information
+
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
-
+[OneDrive FAQ](admin-onedrive-faq.md)  

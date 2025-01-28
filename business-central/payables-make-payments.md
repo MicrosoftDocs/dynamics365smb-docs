@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Making payments
+# Make payments
 
 You pay vendors or customers, or reimburse your employees, by posting payment lines on the **Payment Journal** page. The payment journal is a general journal that's optimized for making payments, and offers lots of powerful actions. For example, the **Suggest Vendor Payments** action that finds vendor payments that are due, and the **Vendor - Summary Aging** report that shows an overview of due vendor payments.  
 

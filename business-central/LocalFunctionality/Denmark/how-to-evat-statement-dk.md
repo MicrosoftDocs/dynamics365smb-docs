@@ -6,9 +6,8 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: vat, return, statement, electronic, denmark, submission, skat
 ms.search.form: 
-ms.date: 04/24/2024
+ms.date: 08/06/2024
 ms.author: altotovi
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -21,7 +20,7 @@ In the Danish localization, Microsoft Dynamics 365 [!INCLUDE [prod_short](../../
 > This feature allows to report **_draft VAT Return version_** to skat.dk website from [!INCLUDE [prod_short](../../includes/prod_short.md)]. You will still need to manually login into your account on the tax authorities site, review the draft and submit it finally. Reporting such draft needs to be set up first in the tax authorities account. (See “Onboarding legal entities” on skat.dk)
 
 > [!NOTE]
-> Before you begin, make sure that the **VAT Return E-Submission** app has been installed and enabled. 
+> Before you begin, make sure that the **Electronic VAT Declaration for Denmark** app has been installed and enabled. 
 
 To generate a VAT return and send it directly to the Danish Tax Agency's VAT API, complete the following setup:
 
@@ -43,6 +42,9 @@ If you use on-premises [!INCLUDE [prod_short](../../includes/prod_short.md)] ver
 1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then select the related link.
 2. Select **New** to create a _client certificate_. This certificate is a company certificate (VOCES3) that's issued by MitID Erhverv (OCES3). It must include a private key for signing.
 3. Select **New** to create a _server certificate_. This certificate is a certificate that NemVirksomhed provides to verify response XML.
+
+> [!NOTE]
+> If you opt for the online option, the Microsoft Denmark A/S *CVR number* must be used to authorize your [!INCLUDE [prod_short](../../includes/prod_short.md)] in your company's _skat.dk_ profile. This allows the [!INCLUDE [prod_short](../../includes/prod_short.md)] to submit VAT drafts, as Microsoft already provides a default certificate for connecting to the _skat.dk_.
 
 ### Set up electronic VAT declaration 
 
@@ -97,6 +99,6 @@ You can download a **Response** message by selecting **Download**. If the status
 ## See also
 
 [Financial Management](../../finance.md)    
-[VAT Management Overview](../../finance-manage-vat.md)  
+[VAT Management Overview](../../finance-manage-vat.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 
 ---
@@ -33,6 +33,7 @@ The following table describes a sequence of tasks, with links to the articles th
 
 | To | See |
 | --- | --- |
+| Get an overview of the capabilities for analyzing receivables. | [Accounts receivable analytics](receivables-reports.md) |
 | Apply payments to open customer or vendor ledger entries based on an imported bank statement file or feed. Reconcile the bank account after you apply all payments. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Apply payments to open customer ledger entries based on a list of unpaid sales documents on the **Payment Registration** page. |[Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Post cash receipts or refunds for customers in the cash receipt journal and apply to customer ledger entries, either from the journal or from posted ledger entries. |[Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md) |
@@ -44,6 +45,7 @@ The following table describes a sequence of tasks, with links to the articles th
 
 ## See also
 
+[Accounts receivable analytics](receivables-reports.md)   
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

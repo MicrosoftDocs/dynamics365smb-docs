@@ -15,7 +15,7 @@ ms.custom: bap-template
 # Set up and print Intrastat reports for Italy
 
 > [!NOTE]
-> This article is based on new redesigned Intrastat experience with enhanced features available from the 2022 release wave 2. If you're using old functionality based on Intrastat journals, learn more about old Intrastat experince at the [Print Intrastat for Italy](intrastat-for-italy-old.md). The old feature isn't available in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. 
+> This article is based on new redesigned Intrastat experience with enhanced features available from the 2022 release wave 2. If you're using old functionality based on Intrastat journals, learn more about old Intrastat experience at the [Print Intrastat for Italy](intrastat-for-italy-old.md). The old feature isn't available in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. 
 
 You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.  
 

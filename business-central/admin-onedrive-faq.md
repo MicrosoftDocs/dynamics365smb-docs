@@ -1,12 +1,12 @@
 ---
 title: OneDrive in Business Central FAQ
 description: Get answers for some typical questions about working with OneDrive for work or school (formerly known as OneDrive for Business) and Business Central.
-author: brentholtorf
+author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 01/03/2025
-ms.author: bholtorf
+ms.date: 01/28/2025
+ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
@@ -95,9 +95,11 @@ If you want to participate in improving OneDrive integration, or have an idea th
 
 ## Does OneDrive work for guest users and delegated admins?
 
-The OneDrive features don't work when you're signed in to Business Central as a guest user. For example, if you select **Open in OneDrive** or **Share** on a file, you get the message "Could not connect to your OneDrive for Business."
+OneDrive features don't work when you're signed in to Business Central as a guest user. For example, if you select **Open in OneDrive** or **Share** on a file, you get the message "Could not connect to your OneDrive for Business."
 
 If you're signed in as a delegated admin, files are downloaded instead of connecting to OneDrive.
+
+These limitations apply to all OneDrive-based features in Business Central, including file sharing, opening, or editing.
 
 ## Troubleshooting
 

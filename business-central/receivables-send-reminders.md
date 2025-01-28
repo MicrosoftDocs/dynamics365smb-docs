@@ -5,10 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 436, 437, 442, 431, 432, 434
-ms.date: 03/12/2024
+ms.date: 07/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: bholtorf
 ---
 # Send reminders of outstanding balances
 

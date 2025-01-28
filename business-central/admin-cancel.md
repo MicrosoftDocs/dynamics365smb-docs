@@ -8,6 +8,7 @@ ms.search.keywords: remove, delete
 ms.date: 06/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Unsubscribe or Remove [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -1,129 +1,144 @@
 ---
 title: Chart of sustainability accounts and ledger
-description: Learn how to manage Chart of Sustainability Accounts, Categories, and Subcategories and details about Sustainability Ledger Entries.
+description: Learn how to manage the chart of sustainability accounts (CoSA), categories and subcategories, and details about sustainability ledger entries.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 04/02/2024
+ms.date: 01/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Chart of sustainability accounts and ledger 
+# Chart of sustainability accounts and ledger
 
-## Chart of sustainability accounts  
+This article explains how to manage the chart of sustainability accounts (CoSA), categories and subcategories, and details about sustainability ledger entries.
 
-The **Chart of Sustainability Accounts** (CoSA) forms the foundational structured list used for recording all emissions data. It functions as a framework that categorizes and organizes sustainability accounts based on their attributes, such as scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking, following the same structure as a traditional **Chart of Accounts** but customized specifically for monitoring sustainability-related data and metrics within an organization. 
- 
-Users can add **Account Categories** and **Subcategories** to define how the system behaves, selecting dedicated emissions for tracking, emission factors, formulas, and similar configurations.  
+## Chart of sustainability accounts
 
->[!NOTE]
->To be familarized with scopes, based on the GHG (Greenhouse gases) standards, there are three emissions scopes:  
->- **Scope 1 emissions**: include emissions that are emitted from stationery and mobile combustion, and from inadvertent fugitive emissions. 
->- **Scope 2 emissions**: include indirect emissions from the generation of energy that is purchased from utility providers. 
->- **Scope 3 emissions**: include a wide spectrum of emissions, from purchased goods, and services and capital goods, fuel and energy related activities, upstream and downstream transportation, generated waste, business travel and employee commuting, etc. 
+The chart of sustainability accounts (CoSA) forms the foundational structured list that is used to record all emissions data. It serves as a framework that categorizes and organizes sustainability accounts based on their attributes, such as the scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking. It has the same structure as a traditional chart of accounts but is customized specifically to monitor sustainability-related data and metrics in an organization.
 
-From the **Chart of Sustainability Accounts** (CoSA), you can do things like:  
+Users can add sustainability account categories and sustainability account subcategories to define how the system behaves. In this way, they can select dedicated emissions to track, emission factors, formulas, and similar configurations.
 
--	View reports that show sustainability ledger entries and balances. 
--	Open the **Sustainability Account Card** to add or change settings.  
--	See the category and subcategory for that account.   
--	View separate balances for each of the emissions for a single account. 
--	Add single or multiple **Dimensions** to each of the accounts and set dimension filter. 
-	
-You can add, change, or delete **Sustainability Accounts**. However, to prevent discrepancies, you can't delete a **Sustainability Account** if there are one or more ledger entries associated with this account.  
+> [!NOTE]
+> Based on the greenhouse gas (GHG) standards, there are three emission scopes:
+>
+> - **Scope 1 emissions** include emissions from stationary and mobile combustion, and from inadvertent fugitive emissions.
+> - **Scope 2 emissions** include indirect emissions from the generation of energy that is purchased from utility providers.
+> - **Scope 3 emissions** include a wide spectrum of emissions, from purchased goods and services and capital goods, to fuel and energy–related activities, to upstream and downstream transportation, to generated waste, to business travel and employee commuting, and so on.
 
-### Add or change accounts  
+From the CoSA, you can do things such as:
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link. 
-2. On the **Chart of Sustainability Accounts** (CoSA) page, you can open each **Sustainability Account**, and then add or change settings. Hover over a field to read a short description. 
+- View reports that show sustainability ledger entries and balances.
+- Open the sustainability account card to add or change settings.
+- View the category and subcategory for the account. 
+- View separate balances for each emission for a single account.
+- Add single or multiple dimensions to each account and set dimension filters.
 
-For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function. After you have set up all the accounts, choose the **Indent Chart of Sustainability Accounts** action to do that.  
+You can add, change, or delete sustainability accounts. However, to prevent discrepancies, you can't delete a sustainability account if one or more ledger entries are associated with it.
 
->[!IMPORTANT]
->If you have entered definitions in the **Totaling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.  
+### Add or change accounts
 
-### Delete accounts  
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link.
+2. On the **Chart of Sustainability Accounts** page, you can open each sustainability account, and then add or change settings. Hover over a field to read a short description.
 
-You can delete a **Sustainability Account**. However, before you delete it, you must be sure that there are one or more ledger entries associated with this account, as Business Central will prevent you from deleting a **Sustainability Account** in this situation.  
+For accounts of the **Total** account type, you must set the **Totaling** field.
 
-## Account categories   
+For accounts of the **End-Total** type, the Indent function automatically sets the **Totaling** field. After you set up all the accounts, select the **Indent Chart of Sustainability Accounts** action to run the Indent function and set the **Totaling** field.
 
-Users need to add the **Sustainability Account Category** to each of **Sustainability Accounts**, to define how the system behaves, selecting emission scopes, dedicated emissions for tracking, formulas, and similar configurations.  
+> [!IMPORTANT]
+> The Indent function overwrites the value of all fields for **End-Total** accounts. Therefore, if you entered definitions in the **Totaling** field for **End-Total** accounts before you ran the Indent function, you must enter them again after you run it.
 
-To review **Sustainability Account Categories**, follow the steps: 
+### Delete accounts
 
-1.	Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link. 
-2.	On the **Sustainability Account Categories** page, you can edit the existing list or create a new category. For creating new category, select the **New** action.  
-3.	Fill in the **Code** and **Description** fields.   
-4.	Set up the **Emission Scope** field, choosing one of scope options.  
-5.	Select the gas emissions that you want to track. Currently, you can use one of the options: **CO2**, **CH4**, or **N2O**. You can choose any combination that you want to track, but, you must have minimum one emission for tracking.  
-6.	In the **Calculation Foundation** field, you can choose any one of formulas that you want to use, in case you don't know the accurate emission amount. Here, you can specify the calculation foundation (formula) for emission calculation. You can choose one of the following options: **Fuel/Electricity**, **Distance**, **Installation**, or **Custom**. 
-7.	If you choose **Custom** formula, you can configure custom description in the **Custom Value** field.  
+You can delete a sustainability account. However, you must first make sure that no ledger entries are associated with it. Business Central prevents you from deleting a sustainability account if one or more ledger entries are associated with it.
 
->[!NOTE]
->If this set of offered formulas in the **Calculation Foundation** field is not enough, you can extend this field and add more calculations to the system to be used in the **Sustainability Journals**.  
+## Account categories
 
-If you use the **Calculation Foundation** (formulas), there's an explanation, how system will calculate based on the option you have chosen (**EF** is the **Emission Factor** that you can configure in the **Sustainability Account Subcategory** page): 
+Users must add a sustainability account category to each sustainability account to define how the system behaves. They can select emission scopes, dedicated emissions to track, formulas, and similar configurations.
 
-|  Emission Type  |  Calculation Foundation  |  Formula         | Comment      |
-|------------|--------------|------------------------------|---------------------------------|
-| **SCOPE 1**  |
-| Stationary combustion | Fuel/Electricity | Emission = Fuel * EF | _i.e.,  Fuel = Amount of fuel spent for Boilers, Heaters, Thermal oxidizers..._ |
-| Mobile combustion | Fuel/Electricity | Emission = Fuel * EF | _i.e.,  Fuel = Amount of fuel spent for on-road or non-road vehicles, rail..._ |
-|  |  |  Emission = Distance * EF | _i.e.,  Distance = Milleage of on-road or non-road vehicles, rail..._ |
-| Fugitive emissions | Installation | Emission = Installation multiplier * Custom Amount / 100 * Time Factor | _i.e.,  Custom Amount = Assembly losses, Annual leak rate..._ |
-| **SCOPE 2**  |
-| Utillity providers | Fuel/Electricity | Emission = Electricity * EF | _i.e., Fuel/Electricity = Electricity quantity, Steam quantity, Heating unit..._ |
-|  | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Thermal unit, Ton-hour..._ |
-| **SCOPE 3**  |
-| Purchased goods and services, and capital goods | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Cost (GL)..._ |
-| Upstream transportation and distribution | Distance | Emission = Distance * EF |  |
-|  | Distance | Emission = Distance * Multiplier * EF | _Multiplier = Toins of cargo_ |
-| Downstream transportation and distribution | Distance | Emission = Distance * EF |  |
-|  | Distance | Emission = Distance * Multiplier * EF | _Multiplier = Toins of cargo_ |
-| Waste generated in operations and end-of-life treatment of sold products | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Waste_ |
-| Business travel and employee commuting | Distance | Emission = Distance * EF | _i.e., Distance = Milleage of the used company car, rental car, train, flight..._ |
-|  | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Hotel stays..._ |
-|  | Fuel/Electricity | Emission = Fuel * EF | _i.e., Fuel = Amount of fuel spent in the company car, rental car..._ |
+To review sustainability account categories, follow the steps:
 
-## Account subcategories  
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link.
+2. On the **Sustainability Account Categories** page, you can edit the existing list or create a new category. To create a new category, select the **New** action.
+3. Set the **Code** and **Description** fields.
+4. In the **Emission Scope** field, select one of the scope options.
+5. Select the gas emissions that you want to track. Currently, the following options are available: **CO2**, **CH4**, and **N2O**. You can select any combination that you want to track, but you must select at least one emission.
+6. In the **Calculation Foundation** field, you can select the calculation foundation (formula) to use for emission calculations if you don't know the accurate emission amount. You can select one of the following options: **Fuel/Electricity**, **Distance**, **Installation**, or **Custom**.
 
-Users need to add the **Sustainability Account Subcategory** to each of **Sustainability Accounts** to define emission factors that will be used in the formulas, but it's based on the emission tracking choice in the **Sustainability Account Category**.  
+    > [!NOTE]
+    > If the set of available formulas in the **Calculation Foundation** field isn't enough, you can extend the field and add more calculations to the system for use in the sustainability journals.
 
-To review **Sustainability Account Subcategories**, follow the steps:  
+7. If you selected **Custom** in the **Calculation Foundation** field, you can configure a custom description in the **Custom Value** field.
 
-1.	Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Subcategories**, and then select the related link. 
-2.	On the **Sustainability Account Subcategories** page, you can edit the existing list or create a new category. For creating new category, select the **New** action.  
-3.	Fill in the **Code** and **Description** fields.   
-4.	Based on the gas emissions that you want to track in the **Sustainability Account Category**, and connect this subcategory with, you can also populate one or more emission factors: 
+If you set the **Calculation Foundation** field, the following table explains how the system calculates emissions based on the option that you selected. (In this table, *EF* represents the **Emission Factor** value that you can configure on the **Sustainability Account Subcategory** page.)
 
-   - **Emission Factor CO2** - Specifies the emission factor for CO2 emission.  
-   - **Emission Factor CH4** - Specifies the emission factor for CH4 emission. 
-   - **Emission Factor N2O** - Specifies the emission factor for N2O emission.  
+| Emission Type | Calculation Foundation | Formula | Comment |
+|---------------|------------------------|---------|---------|
+| **Scope 1** | | | |
+| Stationary combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for boilers, heaters, thermal oxidizers, and so on |
+| Mobile combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for on-road or non-road vehicles, rail, and so on |
+| | | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of on-road or non-road vehicles, rail, and so on |
+| Fugitive emissions | Installation | *Emission* = *Installation multiplier* &times; *Custom Amount* &divide; 100 &times; *Time Factor* | *Custom Amount* = Assembly losses, annual leak rate, and so on |
+| **Scope 2** | | | |
+| Utility providers | Fuel/Electricity | *Emission* = *Electricity* &times; *EF* | *Fuel/Electricity* = Electricity quantity, steam quantity, heating unit, and so on |
+| | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Thermal unit, ton-hour, and so on |
+| **Scope 3** | | | |
+| Purchased goods and services, and capital goods | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Cost (GL), and so on |
+| Upstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
+| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *)|
+| Downstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
+| | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *)|
+| Waste generated in operations and end-of-life treatment of sold products | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Waste |
+| Business travel and employee commuting | Distance | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of the used company car, rental car, train, flight, and so on |
+| | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Hotel stays |
+| | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on |
 
-5.	If this subcategory is related to renewable energy, select the **Renewable Energy** field.   
+> [!IMPORTANT]
+> This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when using the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations, as emissions don't increase linearly with weight. A more accurate approach is to use the **Load Factor**, representing the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before finalizing calculations.   
 
->[!NOTE]
->**Import Data** and **Import From** fields are intended for potential integration with external systems that are used for collecting emission factors, but in **2024 release wave 1** they cannot be used as a feature by default.  
+## Account subcategories
 
-## Sustainability Ledger Entries  
+Users must add a sustainability account subcategory to each sustainability account. This subcategory defines the emission factors that are used in the formulas, based on the emission tracking choice in the sustainability account category.
 
-**Sustainability Ledger** stores the history of all posted sustainability transactions, organizing all emission data according to the **Chart of Sustainability Accounts**. When a user posts the **Sustainability Journal**, all crucial data will be recorded there. All active reports are generated based on the **Sustainability Ledger Entries**.   
+To review sustainability account subcategories, follow the steps:
 
-User can open this ledger for one specific account using the **Ledger Entries** action from the **Chart of Sustainability Account** page or, to open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.  
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Subcategories**, and then select the related link. 
+2. On the **Sustainability Account Subcategories** page, you can edit the existing list or create a new category. To create a new category, select the **New** action.
+3. Set the **Code** and **Description** fields.
+4. Based on the gas emissions that you want to track in the sustainability account category and connect this subcategory with, you can also set one or more emission factors: 
 
->[!IMPORTANT]
->Once you post your data into the Sustainability Ledger, you cannot delete them. In case you made a mistake, you can post the reverse trasaction using the same details, but using the negative sign for amount.  
+    - **Emission Factor CO2** – The emission factor for carbon dioxide (CO<sub>2</sub>) emission.
+    - **Emission Factor CH4** – The emission factor for methane (CH<sub>4</sub>) emission.
+    - **Emission Factor N2O** – The emission factor for nitrous oxide (N<sub>2</sub>O) emission.
 
-## See also  
-[Finance](finance.md)    
-[Sustainability management overview](finance-manage-sustainability.md)
-[Sustainability Setup](finance-sustainability-setup.md)
-[How to record emissions](finance-sustainability-journal.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+5. If the subcategory is related to renewable energy, select the **Renewable Energy** field.
 
+> [!NOTE]
+> The **Import Data** and **Import From** fields are intended for potential integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
+
+It's important to know that you can have more than one *Account Subcategory* related to one *Sustainability Account*, but only one can be set as the default value. You must set the default value for the account every time if you want to use it for posting.  
+
+> [!TIP]
+> For example, if you want to use one account for business cars, but you have different car types with different emission factors, you can set up one *Account* and create as many *Account Subcategories* as you need for cars with different emission factors. When you work in your *Sustainability Journal*, you can easily change your *Account Subcategory* based on the car type you choose to use for recording emissions.  
+
+## Sustainability ledger entries
+
+The sustainability ledger stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.
+
+To open this ledger for one specific account, use the **Ledger Entries** action on the **Chart of Sustainability Account** page. To open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.
+
+> [!IMPORTANT]
+> After you post your data to the sustainability ledger, you can't delete it. If you made a mistake, you can post a reverse transaction that has the same details but uses the negative sign for the amount.
+
+## Related information
+
+[Finance](finance.md)  
+[Sustainability management overview](finance-manage-sustainability.md)  
+[Sustainability Setup](finance-sustainability-setup.md)  
+[How to record emissions](finance-sustainability-journal.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,10 +3,10 @@ title: Set Up Universal Print Printers #Required; page title displayed in search
 description: Learn how you can use Universal Print to provide cloud printing in Business Central. #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: jswymer #Required; your GitHub user alias, with correct capitalization.
 ms.author: jswymer #Required; your Microsoft alias; optional team alias.
-ms.reviewer: jswymer #Required; Microsoft alias of content publishing team member.
-ms.service: dynamics-365-business-central #Required; per approved Microsoft taxonomy (https://taxonomy.docs.microsoft.com/TaxonomyServiceAdminPage/#/taxonomy/detail/2022-04-07T09:00:02.5587920Z!a892accc-6925-4c06-8723-fb5e30ba7ca3/product).
-ms.topic: how-to #Required; don't change.
-ms.date: 01/26/2023
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.date: 06/14/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -35,9 +35,9 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
     Learn more at [License Universal Print](/universal-print/fundamentals/universal-print-license).
 
-  - You have the **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Azure.
+  - You have at least the [Printer Administrator](/entra/identity/role-based-access-control/permissions-reference#printer-administrator) role in Microsoft Entra ID.
 
-    To manage Universal Print, your account must have **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
+    To manage Universal Print, your account must have at least the [Printer Administrator](/entra/identity/role-based-access-control/permissions-reference#printer-administrator) role in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online and on-premises:
 
@@ -93,20 +93,20 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     After a printer is registered, you can view and modify printer properties, such as default preferences.
 
-    Learn more at [Managing Printer Settings using the Universal Print Portal](/universal-print/portal/configure-printer-settings).
+    Learn more at [Managing Printer Settings using the Universal Print Portal](/universal-print/reference/portal/printer-settings).
 
 5. Share the printers with users.
 
-    Any printer you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will need to be added to a *printer share* in Universal Print. Any user who needs access to the printer must be added as a member of the printer share. Learn more at [Share a Printer](/universal-print/portal/share-printers).
+    Any printer you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will need to be added to a *printer share* in Universal Print. Any user who needs access to the printer must be added as a member of the printer share. Learn more at [Share a Printer](/universal-print/reference/portal/share-printers).
 
     > [!TIP]
-    > You can always add or remover users later. Learn more at [Printer Permissions](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    > You can always add or remover users later. Learn more at [Configure user permssions for printer share](/universal-print/reference/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 6. Enable document conversion.
 
     Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdashin many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
-    Learn more at [Document Conversion Overview](/universal-print/portal/document-conversion).
+    Learn more at [Document conversion](/universal-print/reference/portal/settings#2-document-conversion).
 
 Now, you're ready to add the printers to [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 

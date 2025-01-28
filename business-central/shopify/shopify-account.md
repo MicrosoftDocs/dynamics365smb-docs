@@ -5,7 +5,7 @@ ms.date: 03/04/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30101, 30102 
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 ---
@@ -35,7 +35,7 @@ In the **Shopify Admin** of the created shop, apply the following **Settings**:
   1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* in test mode. For more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
-- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
+- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**General**](https://www.shopify.com/admin/settings/general) settings in your **Shopify admin**.
 - Consider selecting the *Company name - Optional* option in the **Customer information** section of the checkout settings.
 - Enable the **Show tipping options at checkout** option in the **Tipping** section of the checkout settings, if you plan to demonstrate tipping.
 
@@ -56,7 +56,7 @@ After creating the store, in the **Shopify Admin** of the created shop, apply th
   1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* in test mode. Learn more at [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
      
-- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
+- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**General**](https://www.shopify.com/admin/settings/general) settings in your **Shopify admin**.
 - Consider selecting the *Company name - Optional* option in the **Customer information** section of the checkout settings.
 - If you plan to demonstrate tipping, enable the **Show tipping options at checkout** option in the **Tipping** section of the checkout settings.
 

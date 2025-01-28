@@ -9,6 +9,7 @@ ms.search.form: 459, 5919
 ms.date: 06/21/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up EHF in the Norwegian Version
 You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.  

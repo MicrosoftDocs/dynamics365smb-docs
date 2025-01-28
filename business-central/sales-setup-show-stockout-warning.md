@@ -3,7 +3,7 @@ title: Display a stockout warning
 description: Learn how to control whether a warning displays when an order quantity exceeds inventory levels for an item.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: trade, sell, configure
 ms.search.form:
@@ -25,7 +25,7 @@ When someone enters a quantity for an item on a sales document that exceeds the 
 
 The following video shows a scenario where someone is creating a sales order, and the quantity exceeds the available inventory level for the item at its location.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h9hL]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ff723ca6-22b8-4a0e-aef5-b19bab3bfd84]
 
 ## See also
 

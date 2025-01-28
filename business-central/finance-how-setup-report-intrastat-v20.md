@@ -1,22 +1,24 @@
 ---
-title: Set Up and Report Intrastat
+title: Set up and report Intrastat
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries/regions.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 05/23/2022
+ms.date: 08/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Set Up and Report Intrastat
+
+# Set up and report Intrastat
 
 All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** page to complete periodic Intrastat reports.
 
 [!INCLUDE[intrastat-2022w2](includes/intrastat-2022w2.md)]
 
-## Required and Optional Setups
+## Required and optional Setups
 
 > [!IMPORTANT]
 > Customer cards and Vendor cards include a field, **Intrastat Partner Type**, that has the same option values as the **Partner Type** field: *"" (blank)*, *Company*, and *Person*. The **Intrastat Partner Type** field has replaced the **Partner Type** field in Intrastat reporting. **Partner Type** is used in SEPA to define the SEPA Direct Debit Scheme (Core or B2B). **Intrastat Partner Type** is used for Intrastat reporting only. This way, you can specify different values for the two fields, if you need to.

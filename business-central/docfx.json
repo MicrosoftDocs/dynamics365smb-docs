@@ -52,6 +52,7 @@
       "search.audienceType": "enduser, admin",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
       "ms.service": "dynamics-365-business-central",
+      "ms.reviewer": "jswymer",
       "recommendations": "true"
     },
     "fileMetadata": {
@@ -66,6 +67,9 @@
       },
       "ms.service":{
         "**.*": "dynamics-365-business-central"
+      },
+      "ms.custom":{
+        "LocalFunctionality/**.*": "references_regions"
       }
     },
     "template": [],

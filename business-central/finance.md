@@ -1,30 +1,30 @@
 ---
-title: Financial Management (contains video)
+title: Financial management (contains video)
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 05/01/2024
+ms.date: 11/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Financial Management
+# Financial management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
-The following sections describe a sequence of tasks, with links to the topics that describe them.  
+The following sections describe a sequence of tasks, with links to the articles that describe them.  
 
 ## Take a video tour
 
 This video introduces some of the key capabilities for managing finances. <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=2887ddfe-3d46-47b3-8308-9715457ef939]
 
 ## Get started with finance capabilities
 
@@ -55,8 +55,9 @@ This section describes analytical tools you can use to get insights into your fi
 
 | To... | See |
 | --- | --- |
-| Learn about capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
-| Set up financial reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
+| Get an overview of the capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
+| Analyze and monitor your finance KPIs with the Power BI Finance app. | [Power BI finance app](finance-powerbi-app.md) |
+| Set up consolidated financial reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
 | Set up and use financial reporting to produce statements and overviews. | [Prepare financial reporting](bi-how-work-account-schedule.md) |
 | Perform ad-hoc analysis of financial data directly on list pages and queries. | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
 | Analyze financial data from your chart of accounts. | [Analyze finance data from the chart of accounts](finance-general-ledger.md) |
@@ -64,7 +65,7 @@ This section describes analytical tools you can use to get insights into your fi
 | Analyze cash flow. | [Analyze cash flow](finance-analyze-cash-flow.md) |
 | Explore built-in key financial reports. | [Built-in key finance reports](finance-reports.md) |
 | Explore built-in key fixed assets reports. | [Built-in fixed assets reports](fa-reports.md) |
-| Explore built-in key accounts receivable reports. | [Built-in accounts receivable reports](receivables-reports.md)
+| Analyze accounts receivable data with Power BI, Data analysis, or Excel. | [Accounts receivable analytics](receivables-reports.md)
 | Explore built-in accounts payable reports. | [Built-in accounts payable reports](payables-reports.md)
 
 ## VAT and taxes

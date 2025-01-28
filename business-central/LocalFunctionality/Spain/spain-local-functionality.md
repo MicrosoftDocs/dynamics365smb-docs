@@ -4,9 +4,10 @@ description: The following articles describe the different local functionality i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/25/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Spain local functionality in the Spanish version
@@ -45,6 +46,7 @@ The following articles describe local functionality unique to the Spanish versio
   * [Cash payments](payments-in-cash.md) **Available Now**
 
 * Electronic invoicing
+  * [E-Invoicing Factura-E](spain-einvoicing.md) **Available Now**
   * [Cartera module](cartera-module.md) **Available Now**
   * [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   * [Payments Cartera module](payments-cartera-module.md) **Available Now**
@@ -68,9 +70,7 @@ The following articles describe local functionality unique to the Spanish versio
 
 ## Future legislation requirements being investigated
 
-* Spanish e-invoicing - **planned for 2024 release wave 2**  
-* SII Statuses - **planned for 2024 release wave 2**  
-* Requirements related with the *Antifraud Law* in Spain and the impact on Business Central are subject of investigation. 
+* Requirements related to the *Antifraud Law* in Spain and how they affect Business Central are being investigated. 
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

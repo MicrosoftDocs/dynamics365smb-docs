@@ -3,7 +3,7 @@ title: Manage the Intercompany Inbox and Outbox
 description: Intercompany transactions you receive from your partners are listed in the intercompany inbox, where you process them manually or automatically.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/06/2023
 ms.custom: bap-template
@@ -51,7 +51,7 @@ If you accepted a transaction in your inbox but then deleted the document or jou
 You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.
 
 > [!NOTE]  
-> If the intercompany partners are in the same database, the partners can automatically accept transactions. The go directly to the **Handled Intercompany Inbox Transactions** and **Handled Intercompany Outbox Transactions** pages. To learn more about auto-accepting transactions, go to [Auto-accept transactions from intercompany partners](intercompany-how-setup.md#auto-accept-transactions-from-intercompany-partners).  
+> If the intercompany partners are in the same database, the partners can automatically accept transactions. The go directly to the **Handled Intercompany Inbox Transactions** and **Handled Intercompany Outbox Transactions** pages. To learn more about auto-accepting transactions, go to [Auto-accept transactions from intercompany partners](intercompany-how-setup.md#autoaccept-transactions-from-intercompany-partners).  
 >
 > * For the synchronization partner, on the **Intercompany Setup** page, turn on the **Auto. Send Transactions** toggle.
 > * For partner companies, on the **Intercompany Partner** page, turn on the **Auto. Accept Transactions** toggle.  

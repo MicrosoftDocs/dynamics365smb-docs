@@ -1,12 +1,13 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 03/26/2024
+ms.date: 10/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
 # Run tasks in the background
@@ -43,7 +44,9 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync catalog prices**|Report 30116 Shopify sync catalog prices (B2B)|
 
 > [!NOTE]
-> Some elements might be updated by several tasks. For example, when you import orders, depending on the setting in the **Shopify Shop Card**, the system may also import and update customer and/or product data. Remember to use the same job queue category to avoid conflicts.
+> Some elements might be updated by several tasks. For example, when you import orders, depending on the setting on the **Shopify Shop Card** page, the system may also import and update customer and/or product data. To avoid conflicts, remember to use the same job queue category.
+>
+> Use the **Report Request Page** action to define filters. For example, you can specify that you import orders only when their status is **Fully Paid**.
 
 Other tasks that can be helpful to automate further processing of sales documents:
 
@@ -59,11 +62,16 @@ To learn more about posting sales orders in a batch, go to [To create a job queu
 On the **Business Manager** Role Center, the **Shopify Activities** part offers several cues that can help you quickly identify whether there are issues with Shopify Connector.
 
 - **Unmapped Customers**: Shopify customer is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Unmapped Companies**: Shopify company (B2B) is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
 - **Unmapped Products** - Shopify product is imported, but isn't linked to a corresponding item entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
 - **Unprocessed Orders**: Shopify orders are imported, but sales documents in [!INCLUDE [prod_short](../includes/prod_short.md)] weren't created, often because of unmapped products or customers.
 - **Unprocessed Shipments**: Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
 - **Shipments Errors**: Shopify Connector couldn't synchronize posted sales shipments with Shopify.
 - **Synchronization Errors**: There are failed job queue entries related to synchronization with Shopify.
+- **Unprocessed Order Updates**: There are shopify orders that have already been processed in [!INCLUDE [prod_short](../includes/prod_short.md)], but an edition was received from Shopify. Because changes weren't synchronized to the processed order in [!INCLUDE [prod_short](../includes/prod_short.md)], you need to update the processed documents to match the received data from Shopify. To learn more, go to [Effect of order editing](synchronize-orders.md#effect-of-order-editing).
+
+> [!Tip]
+> Use the **Set up cues** action in the **Shopify Activities** part to define thresholds for cue styles. By default, the cue displays in yellow if the count is between one and five, and in red if count is five or higher.
 
 ## See also
 

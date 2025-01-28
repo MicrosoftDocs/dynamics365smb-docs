@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough of Basic Jobs
 

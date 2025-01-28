@@ -8,6 +8,7 @@ ms.search.keywords: Teams, web client, troubleshooting, errors
 ms.date: 12/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Setting up and troubleshooting your browser to work with Business Central Web Client
 

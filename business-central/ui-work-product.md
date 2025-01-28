@@ -1,38 +1,37 @@
 ---
-title: Working with Business Central  (contains video)
+title: Working with Business Central
 description: Describes how to interact with data in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 09/19/2023
+ms.date: 11/13/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
 # Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 
 While you're working in [!INCLUDE [prod_short](includes/prod_short.md)], you interact with data in different ways. For example, you create records, enter data, sort and filter data, write notes, and export data to other applications.
 
-There are lots of ways to customize the appearance of pages: 
+There are lots of ways to customize the appearance of pages:
 
-* Adjust the size and position of any page
-* Expand the width of columns and increase the height of column headers
-* Change how you sort data in columns. 
+- Adjust the size and position of any page.
+- Expand the width of columns and increase the height of column headers.
+- Change how you sort data in columns.
 
 If you want to use the horizontal scroll bar to view all columns on a list page or on document lines, there's a vertical freeze pane to keep some columns from scrolling.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Tips and Tricks
+## <a name="cheatsheet"></a>Tips and tricks
 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
 > [ ![Icon for the PDF file.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
-## Links to Learn More
+## Links to learn more
 
 The following table lists some of the general functionality and provides links to articles that describe them.
 
@@ -91,7 +90,7 @@ When you search for and open a list page, such as the **Sales Orders** list, it'
 
 When you open the same list page from your home page, the **Manage** action isn't available. Instead, to open an individual sales order, choose the **Number** field. In this view, you can't pin the action bar.  
 
-## See Also
+## See also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up Business Central](setup.md)  

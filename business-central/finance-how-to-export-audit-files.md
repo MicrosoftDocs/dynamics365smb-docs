@@ -7,9 +7,9 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
 ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
-ms.date: 04/04/2023
+ms.date: 08/07/2024
 ms.author: altotovi
-ms.reviewer: kfend
+ms.reviewer: bholtorf
 ---
 
 # Audit file export
@@ -49,7 +49,7 @@ Most formats that are required by authorities for G/L accounts require a specifi
 Follow these steps to provide the G/L account mapping for audit file export.
 
 1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), enter **G/L Account mapping**, and then select the related link.
-2. On the **G/L Mapping** page, select **New** to create a mapping.
+2. On the **G/L Account Mapping** page, select **New** to create a mapping.
 3. In the **Code** field, specify the mapping code that represents the reporting period.
 4. In the **Standard Account Type** field, select the type of standard G/L accounts.
 5. In the **Audit File Export Format** field, specify the audit file export format that the standard G/L accounts are linked to.
@@ -96,9 +96,9 @@ Follow these steps to provide the G/L account mapping for audit file export.
 > If you have multiple entries to export, we don't recommend that you export them in the current session, because of possible performance issues. Instead, we recommend that you use parallel processing during non-working days or hours.
 
 ## See also
-[Financial Management](finance.md)  
-[Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
-[Work with Dimensions](finance-dimensions.md)  
-[Work with Business Central](ui-work-product.md)
+[Financial Management](finance.md)    
+[Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)    
+[Work with Dimensions](finance-dimensions.md)    
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

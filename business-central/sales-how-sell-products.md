@@ -3,7 +3,7 @@ title: Create a customer sales order and sell products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305
@@ -95,7 +95,7 @@ The related item and customer ledger entries are now created in your system, and
 
 The values in fields that show amounts can be positive or negative, depending on whether the value represents a credit or a debit. This video shows how to work with fields that show amounts.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=66cfa140-9766-44a6-b024-f4dc5f204a1d]
 
 ## See also
 

@@ -1,0 +1,1 @@
+Analyze earnings from an individual customer or trends in earnings.

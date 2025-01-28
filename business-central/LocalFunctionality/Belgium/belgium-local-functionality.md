@@ -4,9 +4,10 @@ description: The following articles describe the various local functionalities i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 02/08/2024
+ms.date: 08/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Belgium local functionality
 
@@ -54,7 +55,7 @@ The following articles describe local functionality that is unique to the Belgia
     * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
 
-* Electronic Invoicing
+* Electronic invoicing
     * [Electronic Invoicing in Belgium via PEPPOL access point](../../finance-how-setup-edocuments-external.md) **Available Now**
   
 * Core finance
@@ -72,7 +73,8 @@ The following articles describe local functionality that is unique to the Belgia
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT **Planned for 2024 release wave 2**
+* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**
+* Adding Enterprise No. to the Multiple VAT for Customers **Planned for 25.2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

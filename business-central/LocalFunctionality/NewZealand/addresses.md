@@ -1,13 +1,14 @@
 ---
-    title: Addresses in New Zealand
-    description: This article explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/23/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Addresses in New Zealand
+description: This article explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/23/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Addresses in the New Zealand version
 

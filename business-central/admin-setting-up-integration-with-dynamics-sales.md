@@ -3,7 +3,7 @@ title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Micro
 description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 01/12/2024
@@ -19,7 +19,7 @@ This article provides an overview of how to set up the user accounts that are re
 To set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)], you must sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with a user account that is assigned to the [!INCLUDE[prod_short](includes/prod_short.md)] Essential or [!INCLUDE[prod_short](includes/prod_short.md)] Premium license. We'll use this account one time to install and configure some required components.
 
 > [!IMPORTANT]
-> During set-up, you'll be asked to provide credentials for the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment. Provide the credentials of an account that is a licensed user and assigned to the **System Administrator** security role on the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment and global admin on the tenant to which the environment belongs. This account doesn't need a license to [!INCLUDE[prod_short](includes/prod_short.md)] because it will be used only to do set-up tasks in the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment.
+> During set-up, you'll be asked to provide credentials for the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment. Provide the credentials of an account that is a licensed user and assigned to the **System Administrator** security role on the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment and [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) role on the tenant to which the environment belongs. This account doesn't need a license to [!INCLUDE[prod_short](includes/prod_short.md)] because it will be used only to do set-up tasks in the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment.
 >
 > After the connection setup is done, you can remove this [!INCLUDE[prod_short](includes/cds_long_md.md)] user. The integration will continue using the user account that is automatically created specifically for the integration.
 

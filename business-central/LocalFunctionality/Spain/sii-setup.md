@@ -9,7 +9,9 @@ ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
 ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
+
 # Set Up SII for VAT Reporting in the Spanish Version
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports the Spanish SII requirements for VAT reporting (Immediate Information Supply).  
@@ -27,6 +29,7 @@ ms.service: dynamics-365-business-central
    If you don't enable batch submissions, each document is submitted when it's posted, and the result is shown on the **SII History** page.
    
 5. Configure the other fields, import a valid certificate, and specify the relevant endpoints with the target URLs. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+6. Choose the **Tax Period** option for reporting. Default value is **Monthly**, but user can choose **Quarterly** if needed. If user use **Quarterly** it will be showed in the XML message.  
 
 ## Job batch submission thresholds
 

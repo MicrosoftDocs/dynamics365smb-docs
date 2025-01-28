@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Increase efficiency in your warehouse with accurate, real-time information about factors that can affect available quantities. For example: 
@@ -76,7 +77,7 @@ These quantities might be available, but you might not be able to pick them yet.
 
 The difference between **Avail. Qty. Excluding Shipment Bin** and reserved quantity in warehouse is the quantity available for picking without impacting reserved stock.
 
-The following immage illustrates the allocation of avalable quantity for reserved quanity.
+The following immage illustrates the allocation of available quantity for reserved quanity.
 
 :::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Maximum quantity considered for picking when reservation involved.":::
 

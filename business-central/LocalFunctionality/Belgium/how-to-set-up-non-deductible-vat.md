@@ -1,17 +1,16 @@
 ---
-    title: How to Set Up Non-Deductible VAT [BE]
+    title: How to set up Non-Deductible VAT [BE]
     description: You can calculate the VAT amounts for specific types of expenses that can be partially declared as VAT.
-
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 06/17/2021
+    ms.date: 07/08/2024
     ms.author: bholtorf
-
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
-# Set Up Non-Deductible VAT in the Belgian Version
+# Set up Non-Deductible VAT in the Belgian version
 You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT. For example, on the **G/L Account Card** page, if you enter 75 in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.  
 
 > [!NOTE]  
@@ -24,7 +23,7 @@ You can calculate VAT amounts for specific types of expenses that can be partial
 3.  Enter the amount in **% Non deductible VAT** field.  
 4.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Belgian VAT](belgian-vat.md)   
  [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)
 

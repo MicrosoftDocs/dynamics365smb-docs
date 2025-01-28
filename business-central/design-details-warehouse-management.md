@@ -34,8 +34,8 @@ You can configure warehouse features in various ways. It's important to choose o
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Purchase order|Sales order| Production order -> Consumption journal|  
 |Basic|Consolidated receive/ship posting for multiple orders.|**Require Receipt**<br>**Require Ship**.|Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Order(s) -> Warehouse Receipt|Sales Order -> Warehouse Shipment|Same as above.|
-|Basic|Order-by-order.|Require Put-away or Require Pick. </br><br/> **NOTE**: Although the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source documents at locations where you select these checkboxes.|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Purchase Order -> Inventory Put-away|Sales Order -> Inventory Pick|Production Order -> Inventory Pick|
-|Advanced|Consolidated receive/ship posting for multiple orders.<br /><br />Consolidated pick/put-away activities for multiple source documents.|Require Receipt + Require Put-away,</br> Require Ship + Require Pick|Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Order(s) -> Warehouse Receipt -> Warehouse Put-away|Sales Order(s) -> Warehouse Shipment(s) -> Pick Worksheet -> Warehouse Pick(s)| Production order -> Pick Worksheet -> Warehouse Pick(s) -> Consumption journal|
+|Basic|Order-by-order.|Purchase, Sales, Service & Transfer: Require Put-away or Require Pick. </br><br/> Production, Assembly, Projects: Inventory Pick, Inventory Movement, Inventory Put-Away </br></br>**NOTE**: You can still post receipts, shipments, consumption, output directly from the source documents at locations where you activated these settings.|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Purchase Order -> Inventory Put-away|Sales Order -> Inventory Pick|Production Order -> Inventory Pick|
+|Advanced|Consolidated receive/ship posting for multiple orders.<br /><br />Consolidated pick/put-away activities for multiple source documents.|Purchase, Sales, Service & Transfer: Require Receive + Require Put-away,</br> Require Ship + Require Pick</br></br> Production, Assembly, Projects: Warehouse Pick |Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Order(s) -> Warehouse Receipt -> Warehouse Put-away|Sales Order(s) -> Warehouse Shipment(s) -> Pick Worksheet -> Warehouse Pick(s)| Production order -> Pick Worksheet -> Warehouse Pick(s) -> Consumption journal|
 |Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above.|Same as above.| Production order -> Pick Worksheet -> Warehouse Pick(s) Consumption journal|
 
 Complexity increases with the size of your organization and how many departments and people are involved. A process can be simple, for example, when the same person creates and posts a sales document. Processes can also be more complex, and involve several steps and people. The following steps are an example of a more complex process:
@@ -230,12 +230,16 @@ Warehouse activities in all pick and movement documents are sorted according to 
 
 When picking by FEFO, items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to the temporary FEFO item tracking list.  
 
+Learn more at [Enable Picking Items by FEFO](warehouse-picking-by-fefo.md).
+
 #### Put-away template
 
 Put-away templates specify a set of prioritized rules that apply when you create put-aways. For example, a put-away template can require you to place items in a bin with bin content that has the same UOM. If a similar bin with enough capacity can't be found, the item must be placed in an empty bin. You assign a put-away template to an item and a location.  
 
+
 ## See also
 
+[Inventory and warehouse reports](inventory-WMS-reports.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

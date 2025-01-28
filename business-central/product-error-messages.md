@@ -3,7 +3,7 @@ title: Warnings and error messages
 description: Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
@@ -57,7 +57,7 @@ Actions on error messages take you directly to the page where a field is causing
 
 The following video shows how to use actionable error messages to get unblocked.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2sM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=e104e107-e297-4994-b612-d13349a78bda]
 
 ### Tip for developers
 

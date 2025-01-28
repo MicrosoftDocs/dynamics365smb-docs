@@ -6,9 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 
-ms.date: 04/10/2024
+ms.date: 09/16/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # E-documents overview
@@ -30,7 +31,8 @@ The documentation explains e-documents in detail. It shows the capabilities of t
 | [Use e-documents in sales](finance-how-use-edocuments.md) | Learn how to use e-documents functionality for sales invoices, their statuses, logs, and action messages.| 
 | [Use e-documents in purchase](finance-how-use-edocuments-purchase.md) | Learn how to use e-documents functionality for purchase invoices and orders, their statuses, logs, and action messages.|
 | [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Learn how to extend e-documents functionality with specific local or industry requirements by creating more apps on top of this one. |
-| [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md) | Learn how to use external access points for automation in delivering and receiving your e-documents. |
+| [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md) | Learn how to use external access points for automation in delivering and receiving your e-documents. |
+| [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md) | Learn how to set up parameters and credentials for e-documents with specific external endpoints. |
 | [Exchanging Data Electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents such as bank files and currency exchange rates. | 
 | [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md) | Learn how to use Copilot to improve your efficiency when working with e-documents. |
 

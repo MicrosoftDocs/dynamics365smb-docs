@@ -6,10 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 04/08/2024
+ms.date: 08/26/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
+
 # Work with Intrastat reporting
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system for collecting trade statistics of goods within these countries/regions. You use **Intrastat Report** to complete periodic Intrastat reporting (typically monthly), collecting, recording, and reporting trade of goods as per local government legislation.
@@ -17,18 +19,16 @@ All companies in the European Union (EU) must report their trade with other EU c
 Intrastat reporting is based on basic EU regulations that apply to all countries/regions; however, in practice, there are some differences within the individual countries/regions. Each country/region has its rules of what exactly and how to report.
 
 > [!IMPORTANT]  
-> This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features and [must be switched on for existing companies](finance-how-setup-report-intrastat.md#enable-the-new-intrastat-experience). Contact your administrator to switch on and set up the new capability.
->
-> Read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
+> This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features, but if you didn't upgrade your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
 > [!NOTE]  
 > Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering  the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
-> We currently expect this feature to be available from November 2022 as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page.
+> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
 
 ## Fill in the Intrastat report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat List**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report List**, and choose the related link.
 2. Choose **New** action to create a new **Intrastat Report**.
 3. If you need to enter some internal information about the **Intrastat Report**, fill in this information in the **Description** field.
 4. In the **Statistic Period** field, specify the month to report data for. Enter the period as a four-digit number with no spaces or symbols. Depending on your country/region, enter either the month first and then the year, or vice versa. For example, enter either *2206* or *0622* for June 2022.
@@ -61,7 +61,7 @@ After you fill in the **Intrastat Report**, you can run the **Checklist Report**
 
 Run the **Intrastat Report Checklist** report to check Intrastat lines before they're exported to the required format. The check is run inside the **Intrastat Report**.
 
-## Recalculating weight or supplementary unit of measure
+## Recalculate weight or supplementary unit of measure
 
 If you got the error message *'Total Weight' in Intrastat Report Line must not be blank*, it's probably because you didn't set the **Net Weight** field on the used source, item, or fixed asset. In this case, search for the item or fixed asset card and add the required value. After that, you just need to reopen the **Intrastat Report** and follow these steps:
 
@@ -141,9 +141,9 @@ When you enable this option, the system uses the following rules, but only if yo
 
 ## See also
 
-[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)  
-[Financial Management](finance.md)  
-[Drop Shipment](sales-how-drop-shipment.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)    
+[Financial Management](finance.md)    
+[Drop Shipment](sales-how-drop-shipment.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

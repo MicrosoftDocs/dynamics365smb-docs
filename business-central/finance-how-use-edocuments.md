@@ -9,6 +9,7 @@ ms.search.form: 42, 43, 132, 6103, 6133, 6121, 9301, 9305
 ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Use e-documents in the sales process
@@ -28,6 +29,8 @@ You can use the following sales documents with e-documents functionality:
 ## E-documents in sales  
 
 To create and send an e-invoice to a customer, you must create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md).
+
+Before posting, you can choose to add the attachment to this invoice if you want it embedded in your Peppol file format.
 
 After you post the sales document, open the **Posted Sales Invoices** page to access the related **E-Documents** page.
 

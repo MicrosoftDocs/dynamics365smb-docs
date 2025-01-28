@@ -1,13 +1,15 @@
 ---
-    title: Application design details
-    description: This content contains detailed technical information about complex application features in Business Central.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/13/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Application design details
+description: This content contains detailed technical information about complex application features in Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/11/2024
+ms.service: dynamics-365-business-central
+
 ---
 # Application design details
 
@@ -24,6 +26,8 @@ Design details content is aimed at implementers, developers, and super users who
 |Learn how system keeps a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.|[Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)|
 |Learn about historic and the current design of item tracking functionality and how it integrates with the reservation system to include serial/lot numbers in availability calculations.|[Design Details: Item Tracking](design-details-item-tracking.md)|  
 |Learn about the General Journal Posting Line feature.|[Design Details: General Journal Post Line](design-details-general-journal-post-line.md)|
+|Learn about the different models for handling non-deductible VAT amounts related to items and fixed assets.|[Design details: Non-deductible VAT](design-details-nondeductible-vat.md)|
+|Learn how to allow concurrent numbering for warehouse register records and warehouse entries.|[Design details: Creating Warehouse Entries](design-details-warehouse-entries.md)|
 
 ## See also
 

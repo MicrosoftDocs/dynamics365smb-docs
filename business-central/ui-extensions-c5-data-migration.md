@@ -9,6 +9,7 @@ ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883
 ms.date: 12/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # The C5 data migration extension
@@ -91,7 +92,7 @@ If you migrate accounts, the following data is also migrated:
 * Historical G/L transactions  
 
 > [!NOTE]
-> Historical G/L transactions are treated a little differently. When you migrate data you set a **Current Period** parameter. This parameter specifies how to process G/L transactions. Transactions after this date are migrated individually. Transactions before this date are aggregated per account and migrated as a single amount. For example, let's say there are transactions in 2015, 2016, 2017, 2018, and you specify January 01, 2017 in the Current Period field. For each account, amounts for transactions on or before December 31, 2106, will be aggregated in a single general journal line for each G/L account. All transactions after this date will be migrated individually.
+> Historical G/L transactions are treated a little differently. When you migrate data you set a **Current Period** parameter. This parameter specifies how to process G/L transactions. Transactions after this date are migrated individually. Transactions before this date are aggregated per account and migrated as a single amount. For example, let's say there are transactions in 2015, 2016, 2017, 2018, and you specify January 01, 2017 in the Current Period field. For each account, amounts for transactions on or before December 31, 2016, will be aggregated in a single general journal line for each G/L account. All transactions after this date will be migrated individually.
 
 ## File size requirements
 

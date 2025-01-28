@@ -1,16 +1,17 @@
 ---
-title: Create a Vendor Card to Register a New Vendor (contains video)
+title: Create a vendor card to register a new vendor
 description: Learn how to create a vendor card to register a new vendor or supplier and save vendor cards as a template.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 09/05/2022
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Register New Vendors
+# Register new vendors
 
 Vendors provide the products you sell. Each vendor you purchase from must be registered with a vendor card.
 
@@ -19,7 +20,7 @@ Before you register new vendors, you must set up various purchase codes to selec
 Vendor cards hold the information required to buy products from each vendor. Learn more at [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
 <br /><br />  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=7188b662-bc49-45ef-8152-82898076b235]
 
 ## Adding new vendors
 

@@ -41,17 +41,17 @@ Starting in 2023 release wave 2, version 23, the company badge appears in the br
 
 The following video shows how to work with company badges.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2PC]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=fefe2ce4-d700-4e04-b319-b8557e75dfe9]
  
 ### Set the company badge
 
-Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis if the company badge makes it easier for users to identify the company they're working in.
+On the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis. A company badge can make it easier to identify the company you're working in.
 
 1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 2. When done, refresh the browser (select <kbd>Ctrl</kbd>+<kbd>F5</kbd>) to update the badge in the client.  
 
-> [!NOTE]
-> The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name.
+> [!TIP]
+> A company badge also indicates the type of environment the company is in. A round company badge signifies a production environment, and a square badge signifies a sandbox environment.
 
 ## Change company display name
 
@@ -59,7 +59,7 @@ The company name is always displayed at the top left corner and works as an acti
 
 1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2. In the **Name** field, enter the new company name.
-3. Leave the page. The system restarts and displays the new company in the top-left corner.
+3. Leave the page. [!INCLUDE [prod_short](includes/prod_short.md)] restarts and displays the new company in the top-left corner.
 
 ## Experience
 

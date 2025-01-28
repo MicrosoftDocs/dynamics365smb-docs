@@ -1,5 +1,5 @@
 ---
-title: Get Business Central on your mobile device (contains video)
+title: Get Business Central on your mobile device
 description: This article describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
 author: jswymer
 ms.topic: get-started
@@ -8,13 +8,14 @@ ms.search.keywords: desktop, Windows, app
 ms.date: 12/13/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Getting Business Central on your mobile device
 
 Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Microsoft 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=2b0d907c-c59a-4bcc-a42c-bc2c7e6499a8]
 
 > [!TIP]
 > Do want an app on your Windows or macOS computer desktop? See [Get the Business Central Desktop App](install-desktop-app.md).

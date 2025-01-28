@@ -1,23 +1,27 @@
 ---
 title: Pick for internal operations in advanced warehouse configurations
-description: If your locations use picking and shipping, pick components for production, assembly, and job activities on the Warehouse Pick page.
+description: If your locations use picking and shipping, pick components for production, assembly, and project activities on the Warehouse Pick page.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/23/2024
+ms.date: 08/12/2024
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
 
-# Pick for production, assembly, or jobs in advanced warehouse configurations
+# Pick for production, assembly, or projects in advanced warehouse configurations
 
-How you pick components for production, jobs, or assembly orders depend on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+How you pick components for production, projects, or assembly orders depend on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-In an advanced warehouse configuration for the outbound flow (pick), turn on the **Require Pick** and **Require Shipment** toggles on the **Location Card** page for the location.
+In an advanced warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, use the following settings:
 
-When the location is set up to require warehouse pick processing and warehouse shipment processing, use warehouse pick documents to create and process pick information before you post the usage or consumption of components.  
+* Production, in the **Prod. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+* Assembly, in the **Asm. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+* Project management, in the **Project Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+
+When the location is set up to require warehouse pick processing, use warehouse pick documents to create and process pick information before you post the usage or consumption of components.  
 
 You can't create a warehouse pick document from scratch. Picks are part of a workflow where a person who is processing an order creates them in a push fashion, or the warehouse employee creates them in a pull fashion:
 
@@ -30,7 +34,7 @@ To pick or move components for source documents in a pull fashion, you must rele
 |---------------------|--------------------|  
 |Production Order|Change the order status to Released or create a released production order right away.|  
 |Assembly Order|Change status to Released.|
-|Jobs | Change status to Open or create job with status Open right away.|  
+|Projects | Change status to Open or create project with status Open right away.|  
 
 ## Production
 
@@ -49,12 +53,10 @@ Use **Warehouse Pick** documents to move assembly components to the assembly are
 
 ## Project management  
 
-Use **Warehouse Pick** documents to pick job components in the flow to project management.
+Use **Warehouse Pick** documents to pick project components in the flow to project management.
 
 > [!NOTE]
-> The ability to pick components for project planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
->
-> Jobs don't support advanced configurations where the **Directed pick and Put-away** toggle is turned on.
+> You can't use the **Project No.** and **Project Task No.** fields in a purchase order together with locations where the **Directed Put-Away and Pick** toggle is turned on. You must post receipts and consumption separately with the fully directed warehouse flow.
 
 ## Check whether items are available for picking
 
@@ -63,10 +65,9 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 ## To create pick documents in bulk with the pick worksheet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
-
 2. Choose the **Get Warehouse Documents** action.  
 
-    The list shows the released production, jobs, assembly orders that have been forwarded to the pick function. The orders include those for which pick instructions have already been created. Documents with pick lines that have been picked and registered aren't shown on this list.  
+    The list shows the released production, projects, and assembly orders that have been forwarded to the pick function. The orders include those for which pick instructions are already created. Documents with pick lines that have been picked and registered aren't shown on this list.  
 3. Select the orders for which you want to prepare a pick.
 
     > [!NOTE]  
@@ -93,13 +94,13 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
     |Option|Description|
     |-|-|
     |Per Whse. Document|Creates separate pick documents for worksheet lines with the same warehouse source document.|
-    |Per Cust./Vend./Loc.|Creates separate pick documents for each customer (jobs)|
+    |Per Cust./Vend./Loc.|Creates separate pick documents for each customer (project)|
     |Per Item|Creates separate pick documents for each item in the pick worksheet.|
     |Per From Zone|Creates separate pick documents for each zone that you take the items from.|
     |Per Bin|Creates separate pick documents for each bin that you take the items from.|
     |Per Due Date|Creates separate pick documents for source documents that have the same due date.|
 
-    Specify how to create the pick documents by selecting from the following options.  
+    Use the following options to specify how to create the pick documents.  
 
     |Option|Description|
     |-|-|
@@ -113,7 +114,7 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 
 8. Choose the **OK** button.  
 
-## To pick items for a productions order, assembly order, job
+## To pick items for a production order, assembly order, or project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 
@@ -123,7 +124,7 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 
     If the warehouse is set up to use bins, the items’ default bins are used to suggest where to take the items from. The instructions contain at least two separate lines for Take and Place actions.  
 
-    Operation areas such as production shop floors might have a default bin for the components they require. If so, the default bin code is added to the warehouse pick document to indicate where to put the items. For more information, see the tooltips for the **To-Production Bin Code**, the **To-Assembly Bin Code**, the **To-Job Bin Code** fields.
+    Operation areas such as production shop floors might have a default bin for the components they require. If so, the default bin code is added to the warehouse pick document to indicate where to put the items. For more information, see the tooltips for the **To-Production Bin Code**, the **To-Assembly Bin Code**, the **To-Project Bin Code** fields.
 
     If the warehouse is set up to use directed put-away and pick, the bin rankings are used to calculate the best bins to pick from. Those bins are suggested on the pick lines. The instructions contain at least two separate lines for Take and Place actions.  
 
@@ -141,7 +142,7 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
   > [!NOTE]  
   > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** field. If you sort by ship-to, sorting is done first by destination type based on the **Warehouse Destination Type** field.
 
-4. After you pick and place the items in the production, assembly or job area or bin, choose the **Register Pick** action.  
+4. After you pick and place the items in the production, assembly or project area or bin, choose the **Register Pick** action.  
 
     You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or project journal. The following articles provide more information:
 

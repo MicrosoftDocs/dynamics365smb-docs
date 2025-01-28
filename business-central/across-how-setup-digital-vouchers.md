@@ -3,14 +3,13 @@ title: Set up digital vouchers
 description: This article explains how to set up and use enforced digital vouchers in Microsoft Dynamics 365 Business Central.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: 
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: digital voucher, voucher, attachment, setup
 ms.search.form: 5579, 5582, 5587
 ms.date: 11/17/2023
 ms.custom: bap-template
-
+ms.reviewer: bholtorf
 ---
 
 # Set up digital vouchers

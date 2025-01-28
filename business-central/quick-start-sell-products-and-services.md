@@ -1,5 +1,5 @@
 ---
-title: Sales Quick Start (contains video)
+title: Sales Quick Start
 description: Learn how to fill in the first critical fields about products and customers in Business Central so that you can start your sales processes.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,6 +9,7 @@ ms.date: 09/29/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sales Quick Start
@@ -21,7 +22,7 @@ This video shows how to set up an item to sell in [!INCLUDE[prod_short](includes
 
 <br>
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=a5e825b2-e309-4753-bdff-a6947dc314e6]
 
 ### Set up a new item
 
@@ -35,7 +36,7 @@ This video shows how to set up a new customer in [!INCLUDE[prod_short](includes/
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=37d3ec2a-71c2-4f0d-9a94-62c83805fbfa]
 
 ### Set up a new customer
 

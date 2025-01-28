@@ -3,7 +3,7 @@ title: Introduction to Contoso Coffee Demo Data
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.date: 09/20/2023
 ms.topic: article
 ms.service: dynamics-365-business-central

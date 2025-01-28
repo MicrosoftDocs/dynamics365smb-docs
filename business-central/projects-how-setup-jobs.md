@@ -1,19 +1,19 @@
 ---
-title: Set Up Projects, Prices, and Project Posting Groups
+title: Set up projects, prices, and project posting groups
 description: Describes how to set up general information about projects.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.service: dynamics-365-business-central
 ---
-# Set Up projects, prices, and project posting groups
+# Set up projects, prices, and project posting groups
 
-As a project manager, you can set up projects that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you'll use project features.
+As a project manager, you can set up each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you'll use project features.
 
 For each project, specify various information:
 
@@ -28,25 +28,7 @@ For each project, specify various information:
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page.
-
-### Specify a default location for project items
-
-You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
-
-If you define a **To-Project Bin Code** on the location, the bin code is populated when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
-
-These fields are the defaults when you create project tasks. Existing project tasks don't change.
-
-There are a few things to know about using default locations:
-
-* For project tasks, if you define a **To-Project Bin Code** on the location, the bin code is assigned when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
-* For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
-* For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
-
-### Invoice multiple customers for project tasks 
-
-When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
+> The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking, and reservation capabilities for project.
 
 ### To set up project usage tracking
 
@@ -61,6 +43,22 @@ After you set up usage tracking by turning on the **Apply Usage Link by Default*
 
 > [!IMPORTANT]
 > If you don't specify a value in the **Line Type** field on the project journal line or purchase line, project planning lines aren't created when you post the project journal or purchase document.
+
+### Invoice multiple customers for project tasks
+
+When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers.  Use the **Default Task Billing Method** field to specify whether you're billing one customer, or multiple customers by default. You can change task billing method for a specific project by using the **Task Billing Method** field on the **Project Card** page. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
+
+### Synchronize the cost of used items
+
+The cost of an item (inventory value) that you purchase and later use in project might change during its lifetime. For example, because a freight cost is added to its purchase cost after you post the usage of the item.
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], you can manually or automatically adjust item costs. The adjustment is reflected in the value entries and general ledger. To learn more, go to [Managing Inventory Cost](finance-manage-inventory-costs.md)
+
+In relation to projects, you also have options for how to reflect those adjustments.
+
+To ensure that cost changes automatically adjust in a project each time the **Adjust Cost - Item Entries** batch job is run, turn on the **Automatic Update Project Item Cost** toggle.
+
+If you keep it off, remember to run the **Update Job Project Cost** task manually or by using a job queue entry.
 
 ## To set up prices for resources, items, and general ledger accounts for projects
 
@@ -79,9 +77,9 @@ When you choose a resource, item, or general ledger account for a project, [!INC
 
 |Column1  |Column2  |
 |---------|---------|
-|**Project Resources**|The **Project Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource is used on project planning lines and project journals when you enter a resource, or a resource assigned to the resource group. This price overrides prices specified on the **Resource Price/Resource Group Prices** page.|
 |**Project Items**|The **Project Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the project planning lines and project journals when this item is entered. This price overrides the regular customer price (the "best price" mechanism) for items. To use the regular customer price, don't specify project item prices for the project.|
 |**General Ledger Accounts**|The information in the **Project Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the project planning lines and project journals when this general ledger account is entered and added to a project. When you choose a general ledger account, project planning lines and project journals use the value in the **Unit Price** field for the general ledger project expense.|
+|**Project Resources**|The **Project Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource is used on project planning lines and project journals when you enter a resource, or a resource assigned to the resource group. This price overrides prices specified on the **Resource Price/Resource Group Prices** page.|
 
 #### [New Experience](#tab/new-experience)
 

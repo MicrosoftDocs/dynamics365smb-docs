@@ -284,8 +284,7 @@ Yes. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] repre
 
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] synchronize contacts with Teams?
 
-No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in Teams.
-There are currently no plans to synchronize the two lists together. When you use the Teams feature **Share someone's contact info** from the chat compose box, it has no relation to Business Central contacts.
+No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in Teams. There are currently no plans to synchronize the two lists together. When you use the Teams feature **Share someone's contact info** from the chat compose box, it has no relation to Business Central contacts.
 
 ### Can I search from my mobile device?
 

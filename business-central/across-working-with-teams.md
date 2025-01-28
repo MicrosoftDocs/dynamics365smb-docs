@@ -57,7 +57,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
     > If you get a message like: *Business Central wants to show a preview of this link.*, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
 
     > [!NOTE]
-    > Depending on you're Business Central version, the first time you paste a link into a conversation, you might be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to connect to [!INCLUDE [prod_short](includes/prod_short.md)]. Follow the on-screen instructions. You'll only have to do this step once.
+    > Depending on your Business Central version, the first time you paste a link into a conversation, you might be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to connect to [!INCLUDE [prod_short](includes/prod_short.md)]. Follow the on-screen instructions. You'll only have to do this step once.
 
 6. Wait a moment while a card is generated in the message box.
 7. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation can see the card.

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 05/03/2024
+ms.date: 01/10/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -28,7 +28,7 @@ Tracking changes can affect performance, which can cost you time, and increase t
 > [!NOTE]
 > The Change Log doesn't track changes for fields that use the `autoIncrement property`. An example of a field that uses the property is the Integer field on the Error Messages and VAT Report Line tables.
 
-Also for performance reasons, the change log is turned off during the process of upgrading [!INCLUDE [prod_short](includes/prod_short.md)] to the next version. In addition to speeding up the upgrade process, turning off the log also helps reduce clutter in the chance log. As soon as the upgrade is complete, the log starts tracking changes again.
+Also for performance reasons, the change log is turned off during the process of upgrading [!INCLUDE [prod_short](includes/prod_short.md)] to the next version. In addition to speeding up the upgrade process, turning off the log also helps reduce clutter in the change log. As soon as the upgrade is complete, the log starts tracking changes again.
 
 > [!Important]
 > Changes display in the **Change Log Entries** only after the user's session is restarted, which happens as follows:

@@ -38,6 +38,8 @@ The filters and slicers on the worksheet let you zoom in on a fixed asset's clas
 
 :::image type="content" source="../media/excel-Fixed-Asset-Details-Fixed-Asset-Details.png" alt-text="Screenshot of the Fixed Asset Details worksheet" lightbox="../media/excel-Fixed-Asset-Details-Fixed-Asset-Details.png":::
 
+[!INCLUDE [excel-pivottable-tip](../includes/excel-pivottable-tip.md)]
+
 ## FixedAssetData worksheet
 
 This worksheet shows the raw data used in the report.
@@ -47,6 +49,10 @@ This worksheet shows the raw data used in the report.
 :::image type="content" source="../media/excel-Fixed-Asset-Details-FixedAssetData.png" alt-text="Screenshot of the FixedAssetData worksheet" lightbox="../media/excel-Fixed-Asset-Details-FixedAssetData.png":::
 
 [!INCLUDE [excel-reports-get-started-with-copilot-excel](../includes/excel-reports-get-started-with-copilot-excel.md)]
+
+## Other worksheets
+
+[!INCLUDE [excel-reports-other-worksheets](../includes/excel-reports-other-worksheets.md)]
 
 ## Use cases
 
@@ -106,6 +112,10 @@ Try the report here: [Fixed Asset Details Excel](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Make the report your own
+
+[!INCLUDE [excel-reports-make-it-your-own](../includes/excel-reports-make-it-your-own.md)]
+
 ## Alternative reports
 
 There are several other ways to analyze your fixed assets. To learn more, go to:
@@ -118,6 +128,8 @@ There are several other ways to analyze your fixed assets. To learn more, go to:
 [!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
 
 - [Kim Dallefeld](https://www.linkedin.com/in/kim-dallefeld/) | Microsoft MVP
+- [Steve Chinsky ](https://www.linkedin.com/in/steve-chinsky-321a20/) | Microsoft MVP
+- [Rob Delprado](https://www.linkedin.com/in/robb-delprado/) | Microsoft MVP
 
 ## Related information
 

@@ -41,7 +41,7 @@ Starting in 2023 release wave 2, version 23, the company badge appears in the br
 
 The following video shows how to work with company badges.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2PC]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=fefe2ce4-d700-4e04-b319-b8557e75dfe9]
  
 ### Set the company badge
 

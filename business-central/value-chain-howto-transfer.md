@@ -37,6 +37,9 @@ When you post the **Transfer Order**, you can find entries related to the transf
 3. On the **Find entries** page find the **Sustainability Value Entry** and click to open the page with the transactions related to this document. 
 4. Close the page.   
 
+> [!NOTE]
+> Whether or not you select the **Direct Transfer** field on the **Transfer Order** header, the system will create new **Sustainability Value Entries** only for transactions related to the **Posted Transfer Shipment**.
+
 This transactions will increase the **CO2e per Unit** for transferred items using the average method.  
 
 

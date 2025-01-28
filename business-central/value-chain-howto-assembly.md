@@ -40,4 +40,23 @@ To do so, follow next steps:
 3. Follow these instructions to [create new assembly order](assembly-how-to-assemble-items.md#to-assemble-an-item-to-stock).   
 4. If your items and resources in the assembly order lines had already configured default sustainability accounts and emissions, these values will be added in the **Sustainability Account No.** and **Total CO2e** fields. You can change these values if you want. 
 5. If you didn't have these default values for your items or resources, you first need to choose the right **Sustainability Account No.** and after that to populate the **Total CO2e** field with the total emission amount for this line (for the whole quantity, regardless how many items will be assembled in this moment as system will recalculate for the specific consumption). 
-6. 
+
+> [!NOTE]
+> Although the total CO2e emission amount is displayed for each line, there is a field in the table called **CO2e per Unit** that is derived from the **Item** or **Resource** card and is used for calculations. However, if the user modifies the **Total CO2e** field on the line, the **CO2e per Unit** will be recalculated based on the total emission and quantity for that line.  
+
+6. Look at the fields **CO2e per Unit** and **Total CO2e** on the **Posting** FastTab to see total calculated emission as well as per unit of the assembled item after posting. 
+7. If values are correct, you can run the **Post** action to post the order.   
+8. After posting the order, if you **Quantity to Assemble** was less than **Quantity**, the **Posted Total CO2e** fields on header and lines will be updated with the belonging total CO2e emission.  
+
+After posting the order, you can open the **Posted Assembly Order** to find the **Total CO2e** field for the posted document on the **Posting** FastTab. You will also see the updated value in the **CO2e per Unit** field for the newly assembled item. Additionally, you can check the result by opening the **Item** card used as the assembled item to see that the **CO2e per Unit** on the **Sustainability** FastTab has been updated based on the values from the posted assembly order.
+
+
+## See also  
+
+[Sustainability Value Chain Overview](value-chain-howto-overview.md)  
+[Sustainability Management overview](finance-manage-sustainability.md)  
+[Sustainability setup](finance-sustainability-setup.md)   
+[Record sustainability entries](finance-sustainability-journal.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

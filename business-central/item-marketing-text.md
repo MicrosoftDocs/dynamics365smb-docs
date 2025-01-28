@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/10/2024
+ms.date: 11/14/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -22,24 +22,24 @@ There are two ways to create the marketing text. The easiest way to get started 
 
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 
-- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on. [Learn more about item attributes](inventory-how-work-item-attributes.md).
+- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on. Learn more about item attributes in [Work with item attributes](inventory-how-work-item-attributes.md).
 - The item’s **Description** field.
 - The item category. [Learn more about categorizing items](inventory-how-categorize-items.md).
 - Selectable style preferences like tone of voice, format, and length.
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
-### Available languages
+### Supported languages
 
-[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ### Prerequisites
 
-Marketing text suggestions feature is activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
+- The **Marketing text suggestions** capability is activated by an administrator. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
 ### Create first draft with Copilot
 
-Complete the following steps to add marketing text to an existing item. To learn how to create a new item, go to [Register new items](inventory-how-register-new-items.md).
+Complete the following steps to add marketing text to an existing item. Learn how to create a new item in [Register new items](inventory-how-register-new-items.md).
 
 1. In Business Central, open the item that you want to modify by completing the following steps:
 
@@ -132,7 +132,7 @@ Text is always generated in the language defined by your user [settings](ui-chan
 3. Make changes to text directly in the **Marketing Text** box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
 4. Select **OK** when done to save the text.
 
-## See also
+## Related information
 
 [Marketing text suggestions overview](ai-overview.md)  
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  

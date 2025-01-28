@@ -1,0 +1,1 @@
+View a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance.

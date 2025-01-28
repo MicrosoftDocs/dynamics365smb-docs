@@ -1,0 +1,1 @@
+Analyze the manufacturing costs for an item, including its production bill of materials details, routing operations, and associated expenses. Scrap costs are accounted for, which gives you an accurate total cost for producing items.

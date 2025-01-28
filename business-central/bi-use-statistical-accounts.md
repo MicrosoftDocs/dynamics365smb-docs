@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/07/2023
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, financial report
-ms.search.form: 2632, 2631, 2633, 2623, 2634
+ms.search.form: 2632_Primary, 2631, 2633, 2623, 2634
 ms.service: dynamics-365-business-central
 ---
 # Analyze Data with Statistical Accounts
@@ -64,5 +64,5 @@ On the **Statistical Accounts** page, use the **Statistical Accounts Balance** a
 
 ## See Also
 
-[Financial Business Intelligence](bi.md)  
-[Financial Reports and Analytics in Business Central](finance-reports.md)
+[Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
+[Financial analytics overview](bi.md)  

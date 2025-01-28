@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 5601, 5600, 5615, 5616, 5617
+ms.search.form: 5601, 5600, 5615, 5616, 5617, Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
 ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -88,8 +88,7 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 
 <!-- :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png"::: -->
 
-> [!TIP]
-> If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
+[!INCLUDE [onedrive-excel-online](includes/onedrive-excel-online.md)]
 
 For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md).
 
@@ -98,14 +97,7 @@ For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who report on fixed assets.
 
-To get an overview of available reports, choose **All reports** at the top of your Home page. This action opens the Role Explorer page, which is filtered to the features in the **Report & Analysis** option. To find reports related to fixed assets, in the **Find** field, enter **fixed assets**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
-
-:::image type="content" source="media/report-explorer-fixed-assets.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-fixed-assets.png":::
-
-<!-- Built-in reports come in two flavors:
-
-- Designed for print (pdf).
-- Designed for analysis in Excel. -->
+[!INCLUDE [fa_reports_report_explorer](includes/fa-reports-report-explorer-include.md)]
 
 For more information about reports that are relevant for fixed assets, see [Built-in fixed assets reports](fa-reports.md).
 

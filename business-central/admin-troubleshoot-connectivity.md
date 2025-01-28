@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: connectivity, troubleshooting, connection problems
-ms.date: 11/24/2023
+ms.date: 01/09/2024
 ms.author: jswymer
 ROBOTS: NOINDEX
 ms.service: dynamics-365-business-central
@@ -34,10 +34,10 @@ ms.reviewer: jswymer
     https://businesscentral.dynamics.com/connectivity
     ```
 
-    Or, if the URL includes the tenant ID, like `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, then you'd enter:
+    Or, if the URL includes the tenant ID, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee`, then you'd enter:
 
     ```http
-    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee/connectivity
     ```
  
 3. On the **Troubleshooting Connectivity** page, choose **Start check**.

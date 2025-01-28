@@ -8,11 +8,11 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 06/19/2024
+ms.date: 11/15/2024
 ms.custom: bap-template
 ---
 
-# About Copilot in Business Central
+# Copilot in Business Central overview
 
 This article answers common questions about Microsoft Copilot in Dynamics 365 Business Central.
 
@@ -23,6 +23,20 @@ Copilot is the AI-powered assistant that helps spark creativity, boost productiv
 ## Where can I find the list of Copilot features in Business Central?
 
 Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Learn more in [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI).
+
+## How does Copilot approach security, privacy, and compliance?
+
+Copilot is built on the Microsoft cloud and designed for enterprise use, with the security, privacy, and compliance controls that our customers expect. Here's some key points to common questions:
+
+- When a user interacts with Copilot, it inherits their data permissions and can't read any more data than the user already has access to.
+- Microsoft doesn't read your prompts or use your data to train AI models without your explicit permission.
+- For customers within the EU Data Boundary, data doesn't move outside that boundary. 
+
+Learn more about Copilot data security and privacy in Dynamics 365 at [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy) and data movement across geographies in [Copilot data movement across geographies](ai-copilot-data-movement.md).
+
+## How does Copilot approach AI safety?
+
+Generative AI within Copilot in Business Central aligns with Microsoft's responsible AI principles, including fairness, reliability, safety, privacy and security, inclusiveness, transparency, and accountability. Learn more in [Responsible AI FAQs for Business Central](responsible-ai-overview.md) or explore our [Responsible AI transparency report](https://aka.ms/RAITransparencyReport2024).
 
 ## Is Copilot free?
 
@@ -38,7 +52,7 @@ Business Central offers numerous AI-powered features. Some features, such as sal
 
 ## Is Copilot in Business Central available worldwide?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more in [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Is Copilot aware of my environment customizations?
 
@@ -52,7 +66,7 @@ Copilot in Business Central relies on powerful AI foundation models that are cou
 
 You can extend and enhance Copilot in Business Central by using tools that are part of Business Central's standard development platform. Learn more in [Integrating AI using Developer Tools for Copilot](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
 
-You can also connect copilots by using Copilot Studio. In addition, you can implement your own standalone AI-powered apps and services that connect to Business Central. Learn more in [Adopt, extend and build Copilot experiences across the Microsoft Cloud](/microsoft-cloud/dev/copilot/overview).
+You can also connect copilots by using Copilot Studio. In addition, you can implement your own standalone AI-powered apps and services that connect to Business Central. Learn more in [Adopt, extend, and build Copilot experiences across the Microsoft Cloud](/microsoft-cloud/dev/copilot/overview).
 
 ## How do I stay up with the latest news about Copilot in Business Central?
 
@@ -70,7 +84,11 @@ Microsoft empowers people to achieve more through copilots that are adapted to d
 
 ## Does Copilot in Business Central work with Copilot for Microsoft 365?
 
-Currently, there is no connection between Copilot in Business Central and Copilot for Microsoft 365.
+Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. Meaning, Copilot features inside Business Central are unaware of your Microsoft 365 data.
+
+Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to utilize Business Central data. One such option is Microsoft 365 Copilot for Finance, a standalone product that utilizes general GPT training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
+
+Learn more about Microsoft 365 Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
 
 ## Is Copilot available for Business Central online only?
 
@@ -80,11 +98,7 @@ Yes, Copilot is exclusive to Business Central online. Therefore, it isn't availa
 
 Currently, because of technical limitations, we can't offer Copilot to customers who run independent software vendor (ISV) Embed apps. ISVs can extend Copilot with their own functionality or provide alternative uses of generative AI.
 
-## How does Copilot approach AI safety?
-
-Generative AI within Copilot in Business Central is aligned with Microsoft's responsible AI principles, including fairness, reliability, safety, privacy and security, inclusiveness, transparency, and accountability. Learn more in [Responsible AI FAQs for Business Central](responsible-ai-overview.md).
-
-## See also
+## Related information
 
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Analyze data in lists with Copilot](analysis-assist.md)  

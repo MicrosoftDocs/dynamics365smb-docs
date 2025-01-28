@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.service: dynamics-365-business-central
   ms.search.keywords: phone, tablet
-  ms.date: 03/18/2024
+  ms.date: 10/25/2024
   ms.author: bholtorf
   ms.reviewer: jswymer 
   ms.custom: bap-template 
@@ -62,9 +62,9 @@ sections:
           Yes, you can! It's a slightly different way to signing in, that's all. For more information, Go to [Use Business Central on-premises?](install-mobile-app.md#use-business-central-on-premises).  
 
       - question: |
-          Can a guest user use the app to access our Business Central solution?
+          Can a guest or external user use the app to access our Business Central solution?
         answer: |
-          No. Guest users are invited users from a different Microsoft Entra tenant than yours. In this case, the app will authenticate to the guest user's primary Microsoft Entra tenant and try to open the Business Central endpoint on that tenant instead of yours.  
+          No. Guest users are invited users from a different Microsoft Entra tenant than yours. In this case, the app will authenticate to the guest user's primary Microsoft Entra tenant and try to open the Business Central endpoint on that tenant instead of yours. External users, even those who are members, can't use the app to access Business Central. 
 
 additionalContent: |
 

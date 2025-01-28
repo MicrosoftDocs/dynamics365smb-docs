@@ -38,7 +38,6 @@ When you install the Integration Solution, permissions for the integration user 
 
 * Dynamics 365 Business Central Integration Administrator
 * Dynamics 365 Business Central Integration User
-* Dynamics 365 Business Central Product Availability User
 
 > [!NOTE]
 > To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:
@@ -101,7 +100,7 @@ For bidirectional synchronization, you make sales orders available for synchroni
 
 The **Enable Legacy Sales Order Integration** option synchronizes only from Sales to [!INCLUDE [prod_short](includes/prod_short.md)]. For this option, you use the **Submit** action in Sales to make orders available for synchronization. When you do, you can no longer change any information on the order. When you synchronize, the order is transferred to [!INCLUDE [prod_short](includes/prod_short.md)] with the status **Released**.
 
-To use this option, you must provide credentials for an administrator user account in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+To use this option, you must provide credentials for an administrator user account in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, see [Handle Sales Order Data](marketing-integrate-dynamicscrm.md#handle-sales-order-data).
 
 > [!NOTE]
 > The **Bidirectional Synch of Sales Orders** and **Enable Legacy Sales Order Integration** options are mutually exclusive. You can't use both options at the same time.

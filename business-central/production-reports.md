@@ -4,18 +4,25 @@ description: See which production reports and analytics are available in the sta
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5871, Report_5872, Report_99000753, Report_99000756, Report_99000757, Report_99000758, Report_99000791, Report_99000780, Report_99000783, Report_99000784, Report_99000788, Report_99000767
+ms.search.form: Report_5802, Report_5871, Report_5872, Report_99000753, Report_99000756, Report_99000757, Report_99000758, Report_99000762, Report_99000791, Report_99000780, Report_99000783, Report_99000784, Report_99000788, Report_99000767, Report_99000791
+
 ms.date: 06/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Production Reports and Analytics in Business Central
 
 Production reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows production and business professionals to get insights and statistics about current and past production activities.  
 
+## Explore production reports with Report Explorer
+
+[!INCLUDE [report-explorer-manufacturing](includes/report-explorer-manufacturing.md)]
+
 ## Reports
+
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
 ## Tasks

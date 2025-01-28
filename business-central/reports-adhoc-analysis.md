@@ -16,10 +16,11 @@ Sometimes you need to analyze data in [!INCLUDE[prod_short](includes/prod_short.
 
 | To | See |
 | --- | --- |
-| Learn how to analyze data by sorting, searching, and filtering it. | [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md) and [Searching and Filtering FAQ](ui-search-filter-faq.yml) |
+| Analyze data on a list by sorting, searching, and filtering it. | [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md) and [Searching and Filtering FAQ](ui-search-filter-faq.yml) |
+| Save the settings you use frequently on a list as a view | [Save and personalize list views](ui-views.md)|
 | View and analyze data from a page in Microsoft Excel | [View and Edit in Excel](across-work-with-excel.md) |
-| View and analyze data from a report dataset in Excel | [ Analyzing Report Data with Excel and XML](report-analyze-excel.md) |
 | Analyze list data directly from a page |[Analyze list data using data analysis mode](analysis-mode.md)|
+| View and analyze data from a report dataset in Excel | [ Analyzing Report Data with Excel and XML](report-analyze-excel.md) |
 
 ## Ad-hoc data analysis by functional area
 
@@ -27,9 +28,8 @@ The general content about ad-hoc data analysis is also available in special vers
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-
 ## See also
 
-[Business Intelligence and Reporting Overview](ui-work-report.md)
+[Analytics overview](reports-bi-reporting.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

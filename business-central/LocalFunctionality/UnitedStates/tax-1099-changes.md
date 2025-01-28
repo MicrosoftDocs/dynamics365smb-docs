@@ -5,11 +5,16 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: local, 1099
 ms.search.form: 10015, 10016, 10018, 10900, 315, 466, 467, 468, 469
-ms.date: 02/09/2024
+ms.date: 04/01/2024
+ms.reviewer: bholtorf
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
+
 # Regulatory 1099 format changes and details
+
+> [!IMPORTANT]
+> From version 24.0, you can start using new 1099 functionality for better transparency, integration, and automation. To do this, you must enable this new feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you do not enable it earlier, [!INCLUDE[prod_short](../../includes/prod_short.md)] will automatically do it with the version 27.0, so we recommend to start using the new version right now.    
 
 The Internal Revenue Service (IRS) periodically issues updates to the format used in the 1099 Form Box. This article lists changes to the codes and requirements in the IRS 1099 forms.
 
@@ -49,11 +54,11 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], the new 1099 Form Box c
 
 ## Regulatory 1099 format changes December 2018
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], a new 1099 Form Box code *DIV-05* has been added, and all the 1099 codes from DIV-05 to DIV-11 were upgraded to codes from DIV-06 to DIV-12. When you open the **IRS 1099 Form Box** page, a notification pops up to upgrade the form boxes. If you change the 1099 code on the **Vendor Card** page, a notification will display asking if you want to update the 1099 codes for all the associated entries (like purchase documents, journal lines, posted invoices, credit memos and vendor ledger entries).  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], a new 1099 Form Box code *DIV-05* has been added, and all the 1099 codes from DIV-05 to DIV-11 were upgraded to codes from DIV-06 to DIV-12. When you open the **IRS 1099 Form Box** page, a notification pops up to upgrade the form boxes. If you change the 1099 code on the **Vendor Card** page, a notification will display asking if you want to update the 1099 codes for all the associated entries (like purchase documents, journal lines, posted invoices, credit memos, and vendor ledger entries).  
 
 ## See also
 
-[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)  
+[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form-v24.md)  
 [United States Local Functionality](united-states-local-functionality.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Record Purchase](../../purchasing-how-record-purchases.md)  

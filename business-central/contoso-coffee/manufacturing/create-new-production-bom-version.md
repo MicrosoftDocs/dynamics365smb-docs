@@ -1,11 +1,12 @@
 ---
-    title: Create a New Production BOM and BOM Version
-    description: Walkthrough to learn how to add another coffee maker to Contoso Coffee's product line in Business Central.
-    ms.date: 04/01/2022
-    ms.topic: article
-    ms.service: dynamics-365-business-central
-    author: brentholtorf
-    ms.author: bholtorf
+title: Create a New Production BOM and BOM Version
+description: Walkthrough to learn how to add another coffee maker to Contoso Coffee's product line in Business Central.
+ms.date: 04/01/2022
+ms.topic: article
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Create a New Production BOM and BOM Version
 

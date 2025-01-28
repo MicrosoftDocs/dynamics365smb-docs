@@ -7,7 +7,6 @@ ms.topic: faq
 ms.date: 04/03/2023
 ms.custom: bap-template 
 author: jswymer
-ms.service: dynamics365-business-central 
 ---
 
 # AI-powered item marketing text (preview) with Copilot FAQ
@@ -110,7 +109,7 @@ For more information, see [Data, privacy, and security for Azure OpenAI Service]
 
 As part of providing the Azure OpenAI previews, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
 
-Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 ## [Privacy](#tab/privacy)
 
@@ -118,7 +117,7 @@ Authorized Microsoft personnel may review data that has triggered our automated 
 
 The capability collects your answer to the **Is this a good suggestion?** question on the **Create with Copilot** page, which can be either a thumbs-up (I like it) or thumbs-down (Needs improvement).
 
-We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
 ---

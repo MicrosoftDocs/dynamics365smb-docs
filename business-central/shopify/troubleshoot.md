@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/24/2023
+ms.date: 01/27/2025
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -29,7 +29,7 @@ The logging features can make it easier to identify why an error occurred. On th
 
 - **Disabled** - Don't log information about errors.
 - **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
-- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actually sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
+- **All** - Log the request/response pairs for all transactions, including successful pairs. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want insights about the data that was sent and received. Some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
 
 ### To review logs
 
@@ -75,7 +75,7 @@ This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../inc
 
 ## Request the access token
 
-If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopify account, try to request the access token from Shopify. You might need to request a new token if there were changes to the security keys or required permissions (application scopes).
+If [!INCLUDE[prod_short](../includes/prod_short.md)] doesn't connect to your Shopify account, request the access token from Shopify. You might need to request a new token if there were changes to the security keys or required permissions (application scopes).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shops**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
@@ -84,7 +84,7 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopi
 
 The **Has AccessKey** toggle is turned on.
 
-## Verify and enable permissions to make HTTP requests in a non-production environment
+## Verify and enable permissions to make HTTP requests in a nonproduction environment
 
 To work correctly, the Shopify Connector extension requires permission to make HTTP requests. HTTP requests are prohibited for all extensions when you run tests in sandbox environments.
 
@@ -114,9 +114,9 @@ The following procedures describe how to rotate the access token used by the Sho
 
 ### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'
 
-To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a third-party extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method in the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a partner extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method in the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method).
 
-To verify that the problem is caused by a third-party extension, use the **Copy information to clipboard** link in the error message and copy the content to a text editor. The information contains an **AL call stack**, where the top line is the line where the error occurred. The following example shows an AL call stack.
+To verify that the problem is caused by a partner extension, use the **Copy information to clipboard** link in the error message and copy the content to a text editor. The information contains an **AL call stack**, where the top line is the line where the error occurred. The following example shows an AL call stack.
 
 AL call stack:
 
@@ -144,19 +144,35 @@ On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** to
 
 ### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
-You may have used the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-is-the-shopify-connector-available-for).
+The [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) might use the client URL with the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products work with the Shopify Connector?](shopify-faq.md#which-microsoft-products-work-with-the-shopify-connector).
 
 ### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
-Contact Shopify support within seven days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#shopify).
+Contact Microsoft support via your Business Central partner within seven days of experiencing this error, and provide the Request ID. To learn more, see [Support for the Shopify Connector](shopify-support.md).
 
-### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
+### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app
 
-The user who requested access doesn’t have the rights to manage apps (the ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
+The user who requested access doesn’t have the rights to manage apps (the ability to manage and install apps and channels, as well as potentially approve app charges). You might be able to resolve  issue by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
+
+### You need permissions to update Dynamics 365 Business Central. Ask the store owner to update this app. Or contact them for access to: [PERMISSION]
+
+The updated version of the connector requires more permissions (application scopes) than the user who requested access has. You might be able to resolve this issue by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**. If the required permissions are missing, which you can see in the error message, ask the account owner to grant the required permissions.
+
+### Error: The application scope is changed, please request a new access token for the store 'YOUR SHOPIFY STORE'
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
 Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+
+### [API] Invalid API key or access token (unrecognized login or wrong password)
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+
+### The app couldn’t be loaded. This app can’t load due to an issue with browser cookies. Try enabling cookies in your browser, switching to another browser, or contacting the developer to get support
+
+It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [Verify and enable permissions to make HTTP requests in a nonproduction environment](#verify-and-enable-permissions-to-make-http-requests-in-a-nonproduction-environment).
 
 ## See also
 

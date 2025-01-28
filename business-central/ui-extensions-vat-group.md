@@ -3,12 +3,13 @@ title: The VAT Group Management extension for the United Kingdom
 description: You can engage with other businesses to form a VAT group where all members report VAT in a single return.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: VAT, value added tax, report
 ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 
-ms.date: 12/12/2023
+ms.date: 06/03/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # The VAT Group Management extension for the United Kingdom
@@ -91,7 +92,7 @@ Before VAT group members start their setup (listed below), they need to contact 
 3. In the **VAT Group Role** field, choose **Member** then **Next**.
 4. Copy the value of the **Group Member ID** field, and then share it with the VAT group representative so they can add your company as an approved member of the group.
 5. In the **Group Representative Product Version** field, specify the version of [!INCLUDE[prod_short](includes/prod_short.md)] the representative is using.
-6. In the **API URL** field, enter the API URL provided by the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative`.
+6. In the **API URL** field, enter the API URL provided by the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/aaaabbbb-0000-cccc-1111-dddd2222eeee/UKRepresentative`.
 7. In the **Group Representative Company** field, enter the company name of the VAT group representative, such as, **CRONUS UK Ltd**.
 8. In the **Authentication Type** field, choose **OAuth2**. If the VAT group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online, enable the **Group Representative Uses Business Central Online** toggle, and then choose **Next**.
 
@@ -156,7 +157,7 @@ The **VAT Group Submissions** page lists the VAT returns that members have submi
 
 To report VAT for the group, on the **VAT Returns** page, create a VAT return for your company only. Afterward, include the most recent VAT submissions from VAT group members by choosing the **Include Group VAT** action.  
 
-When the group representative has submitted the group's VAT return to the authorities, the representative then normally runs the **Calculate and Post VAT Settlement** action. This action closes open VAT Entries and transfers amounts to the VAT settlement account. Currently, this action doesn't take the group submissions into account. Only the VAT entries of the VAT group representative company are posted. The VAT group member submission amounts must be posted to the VAT settlement amount manually, so the VAT group representative's VAT settlement account reflects the liability of what was reported to the authorities. This behavior changes in an upcoming update of [!INCLUDE[prod_short](includes/prod_short.md)], so the entire group VAT (the total amount on report lines of the VAT return) is settled.
+When the group representative has submitted the group's VAT return to the authorities, the representative then normally runs the **Calculate and Post VAT Settlement** action. This action closes open VAT Entries and transfers amounts to the VAT settlement account. Currently, this action doesn't take the group submissions into account. Only the VAT entries of the VAT group representative company are posted. The VAT group member submission amounts must be posted using the **Post Group VAT Settlement** action.
 
 > [!IMPORTANT]
 > The VAT group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a VAT framework that consists of VAT returns and VAT return periods. You cannot use VAT groups in markets with other implementations of local VAT reporting, such as Austria, Germany, Italy, Spain, and Switzerland.

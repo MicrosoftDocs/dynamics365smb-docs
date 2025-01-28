@@ -3,7 +3,7 @@ title: Walkthrough of service orders for service items
 description: This article guides you through several core processes that involve service orders and items.
 author: andreipa
 ms.author: andreipa
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template

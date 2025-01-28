@@ -1,9 +1,10 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Increase efficiency in your warehouse with accurate, real-time information about factors that can affect available quantities. For example: 
@@ -70,10 +71,27 @@ The **Avail. Qty. Excluding Shipment Bin** field shows the quantity that's avail
 * They're already picked for shipments.
 * They're in blocked item lots or serial numbers.
 * They're in blocked bins.
+* They're in dedicated bins.
 
 These quantities might be available, but you might not be able to pick them yet. They could still be in the receipt, storage, or quality-assurance areas. You can move them to the picking area by processing a put-away or movement worksheet.
 
 The difference between **Avail. Qty. Excluding Shipment Bin** and reserved quantity in warehouse is the quantity available for picking without impacting reserved stock.
+
+The following immage illustrates the allocation of available quantity for reserved quanity.
+
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Maximum quantity considered for picking when reservation involved.":::
+
+**Legend**
+
+|Letter  |Description  |
+|---------|---------|
+|P     |Quantity to pick         |
+|TR    |Total Reserved Qty. in Warehouse.  ​       |
+|RS    |Reserved quantities that are already picked and are ready for shipment, usage, or consumption       |
+|A     |Avail. Qty. Excluding Shipment Bin​         |
+|B     |Quantity in dedicated or blocked bins, blocked item lots, or serial numbers         |
+
+While there's enough available quantity in warehouse to satisfy the pick completely, it'll lead to the fact that the total reserved quantity is allocated against the quantities in dedicated or blocked bins, which prevents picking for this demand. Because reserved demand has higher priority, [!INCLUDE [prod_short](prod_short.md)] reduces the quantity to pick to prevent negative impact, such as the inability to pick, on reserved demand.
 
 ### Other details
 

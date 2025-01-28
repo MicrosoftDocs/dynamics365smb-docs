@@ -1,17 +1,18 @@
 ---
-    title: Transactions for Input Service Distributor
-    description: Transactions for Input Service Distributor
+title: Transactions for Input Service Distributor
+description: Transactions for Input Service Distributor
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Transactions for Input Service Distributor
 

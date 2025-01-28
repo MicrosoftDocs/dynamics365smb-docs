@@ -1,13 +1,14 @@
 ---
 title: OneDrive for Business FAQ
-description: Get answers for some typical questions about working with OneDrive for Business and Business Central.
+description: Get answers for some typical questions about working with OneDrive for work or school (formerly known as OneDrive for Business) and Business Central.
 author: brentholtorf
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 09/09/2022
+ms.date: 06/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # OneDrive for Business FAQ
 
@@ -34,7 +35,7 @@ No. This integration is exclusively intended for OneDrive for Business and only 
 ## Where can I see OneDrive service health?
 
 Administrators can access the Service health dashboard as part of the Microsoft 365 admin center. The dashboard includes OneDrive’s service availability. Go to [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
- 
+
 ## Is OneDrive integration available to [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 
 Yes, but unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, it does require more setup. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).  
@@ -81,8 +82,8 @@ In the **OneDrive Setup** assisted setup guide for setting up OneDrive integrati
 
 |Option|Description|
 |------|----------|
-|**Use OneDrive for app features**|If you turn on this option, the **Open in OneDrive** and **Share** actions are made available on files in Business Central, like files attached to documents or in the report inbox. These actions let users copy, open, and share files in OneDrive. For more information, see [Opening and Sharing Business Central Files in OneDrive](across-share-onedrive.md).
-|**Use OneDrive for system features**|Turning on this option activates the following features:<ul><li> The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).</li><li> Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#saving-a-report-to-a-file).|
+|**Use for app features**|If you turn on this option, the **Open in OneDrive** and **Share** actions are made available on files in Business Central, like files attached to documents or in the report inbox. These actions let users copy, open, and share files in OneDrive. For more information, see [Opening and Sharing Business Central Files in OneDrive](across-share-onedrive.md).
+|**Use for system features**|Turning on this option activates the following features:<ul><li> The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).</li><li> Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).|
 
 ## Will Microsoft continue to improve the integration to OneDrive?
 

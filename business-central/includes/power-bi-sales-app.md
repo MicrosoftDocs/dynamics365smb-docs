@@ -1,0 +1,17 @@
+The following table describes the reports in the Power BI Sales app and how you can use them.
+
+| To... | Open in Business Central (CTRL+select) | Learn more |
+| ----- | -------------------------------------- | ---------- |
+| Analyze high level information on sales activities. Identify sales figures for quantity or amounts from both posted and unposted documents.| [Sales Overview](https://businesscentral.dynamics.com?page=36998) | [About Sales Overview](../sales-powerbi-sales-overview.md) |
+| Analyze sales by weekday over different periods. The heat maps highlight the days on which you sell the most, which helps you identify patterns in your sales.|[Daily Sales](https://businesscentral.dynamics.com?page=36999)| [About Daily Sales](../sales-powerbi-daily-sales.md) |
+| Analyze sales trends by smoothing out spikes and drops using the **30 Day Moving Averages** report. | [Moving Average](https://businesscentral.dynamics.com?page=37000) | [About Moving Average](../sales-powerbi-moving-average.md) |
+| Analyze the aggregated sales over a rolling 12-month period. Use this analysis as an alternative to a Year-to-Date report. |[Moving Annual Total](https://businesscentral.dynamics.com?page=37001) | [About Moving Annual Total](../sales-powerbi-moving-annual-total.md) |
+| Compare sales in one period with the same period in a prior year, quarter, or month. |[Period-Over-Period Growth](https://businesscentral.dynamics.com?page=37002) | [About Period-Over-Period Growth](../sales-powerbi-period-over-period-growth.md) |
+| Analyze accumulating sales for a desired period. | [Month-To-Date](https://businesscentral.dynamics.com?page=37003) | [About Month-To-Date](../sales-powerbi-month-to-date.md)|
+| Analyze sales by item and view key sales metrics as a percentage of total sales. | [Sales by Item](https://businesscentral.dynamics.com?page=37004) | [About Sales by Item](../sales-powerbi-sales-by-item.md) |
+| Analyze sales by customer and view key metrics. Metrics include sales amount, sales quantity, cost amount, gross profit, gross profit margin, and the sales amount as a percent of total sales.  | [Sales by Customer](https://businesscentral.dynamics.com?page=37005)  | [About Sales by Customer](../sales-powerbi-sales-by-customer.md) |
+| Analyze sales by salesperson and view key metrics. Metrics include sales amount, sales quantity, cost amount, gross profit, gross profit margin, and the sales amount as a percent of total sales.  | [Sales by Salesperson](https://businesscentral.dynamics.com?page=37006) | [About Sales by Salesperson](../sales-powerbi-sales-by-salesperson.md) |
+| Analyze sales by location and view key metrics. Metrics include sales amount, sales quantity, cost amount, gross profit, gross profit margin, and the sales amount as a percent of total sales.  | [Sales by Location](https://businesscentral.dynamics.com?page=ID)  | [About Sales by Location](../sales-powerbi-sales-by-location.md)  |
+| Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget](https://businesscentral.dynamics.com?page=37008) | [About Actual vs. Budget](../sales-powerbi-actual-vs-budget.md) |
+
+[!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

@@ -1,23 +1,25 @@
 ---
-title: Defer Revenues and Expenses
-description: To recognize revenues and expenses in periods when the transaction was not posted, you can automatically defer or postpone them over a specified schedule.
+title: Defer revenues and expenses
+description: Learn how to automatically defer or postpone revenues and expenses in periods when the transaction wasn't posted, or postpone them over a specified schedule.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
-ms.date: 12/06/2023
+ms.date: 08/08/2024
 ms.custom: bap-template
-
-
 ms.service: dynamics-365-business-central
 ---
-# Defer Revenues and Expenses
 
-To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.
+# Defer revenues and expenses
+
+To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can automatically defer revenues and expenses over a specified schedule.
 
 To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
+
+> [!NOTE]
+> Sales and purchase journals validate the source code. The validation requires that the source code for sales and sales journals, and purchase and purchase journals respectively, aren't identical when you're using deferrals. If it's set up to be identical, you can work around this limitation by creating a template and batch that use another source code.
 
 ## To set up a G/L account for deferral
 
@@ -36,9 +38,9 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 4. In the **Calc. Method** field, specify how the **Amount** field for each period on the **Deferral Schedule** page is calculated. You can choose between the following options:
 
    * **Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.
-   * **Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.
-   * **Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.
-   * **User-Defined**: The periodic deferral amounts are not calculated. You must manually fill the **Amount** field for each period in the Deferral Schedule page. For more information, see the “To change a deferral schedule from a sales invoice” section.
+   * **Equal per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.
+   * **Days per Period**: The periodic deferral amounts are calculated according to the number of days in the period.
+   * **User-Defined**: The periodic deferral amounts aren't calculated. You must manually fill the **Amount** field for each period in the Deferral Schedule page. For more information, see the “To change a deferral schedule from a sales invoice” section.
 5. In the **Period Desc.** field, specify a description that will be shown on entries for the deferral posting. You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.
 
    * %1 = The day number of the period posting date
@@ -55,9 +57,9 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 > [!NOTE]  
 > The steps in this procedure are the same as when you assign a deferral template to a G/L account or a resource.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
-3. In the **Default Deferral Template** field, select the relevant deferral template.
+3. On the **Costs & Posting** FastTab, in the **Default Deferral Template** field, select the relevant deferral template.
 
 ## To change a deferral schedule from a sales invoice
 
@@ -108,7 +110,7 @@ If you've done that, you must make an exception for deferrals to allow them to b
 
 The following video shows how to define the period in which you allow people to post deferred revenue and expenses, and how to specify exceptions.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5d98a594-6b1c-45a5-b93a-1fb670a051e5]
 
 ## See also
 

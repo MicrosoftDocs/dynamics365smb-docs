@@ -1,15 +1,16 @@
 ---
-title: Set Up Approval Workflows (contains video)
+title: Set up approval workflows
 description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords:
-ms.date: 09/13/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 12/09/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Set Up Approval Workflows
+# Set up approval workflows
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. Learn more at [Use Approval Workflows](across-use-workflows.md).
 
@@ -34,14 +35,14 @@ The following table describes a sequence of tasks, with links to the articles th
 |Share workflows with other [!INCLUDE[prod_short](includes/prod_short.md)] databases.|[Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)|  
 |Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## Example of an approval workflow
+<!--## Example of an approval workflow
 
 This video shows how to set up a workflow requiring a user to request someone else's approval before they can change information about an existing customer or create a new customer.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
-
-## See also
+> [!Video https://learn-video.azurefd.net/vod/player?id=271a3685-6a23-425f-aaa2-3bada2104290]
+-->
+## Related information
 
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

@@ -1,14 +1,15 @@
 ---
-title: Register new customers by creating a Customer Card (contains video)
+title: Register new customers by creating a Customer Card
 description: Describes how to create a customer card to register information about each new customer or client you sell to.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Register new customers
 
@@ -16,8 +17,7 @@ Customers are your source of income. You must register each customer you sell to
 
 Before you can register new customers, you must set up various sales codes to choose from when you fill in customer cards. Learn more at [Setting Up Sales](sales-setup-sales.md).
 
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=37d3ec2a-71c2-4f0d-9a94-62c83805fbfa]
 
 ## Add new customers
 
@@ -80,6 +80,14 @@ You can choose not to receive warnings when the customer's credit limit is excee
     |**Credit Limit**|The value in the **Credit Limit** field on the customer's card is compared with the customer's balance, and a warning is shown if the customer's balance exceeds this amount.|
     |**Overdue Balance**|The **Balance Due** field on the customer's card is checked, and a warning is shown if the customer has an overdue balance.|
     |**No Warning**|No credit warnings are shown regarding the customer's status.|
+
+## Assign a salesperson
+
+You can assign salespeople to customer ship-to address rather than their billing address so your sales reports reflect the true geographical distribution of your sales. Assigning a salesperson to a customer's ship-to address gives you more precise insights and optimizes resource allocation.
+
+Assign a salesperson on the **Customer** card page by choosing **Customer**, and then **Ship-To Addresses** to open the **Ship-to Addresses List** page. Choose **Manage**, and then **Edit** to open the **Ship-to Address** card page. Enter or choose a **Salesperson Code** to select the salesperson.
+
+When you choose the **Alternate Shipping Address** option as a **Ship-To** location on a sales document, the **Salesperson Code** updates to match the salesperson from the **Ship-to** rather than the **Bill-to** address. 
 
 ## See also
 

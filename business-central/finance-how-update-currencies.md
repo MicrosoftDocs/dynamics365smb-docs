@@ -1,17 +1,17 @@
 ---
-title: Update Currency Exchange Rates (contains video)
+title: Update currency exchange rates
 description: Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 11/13/2023
+ms.date: 08/12/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
+
 # Update currency exchange rates
 
 If you trade in different currencies, you need to keep track of the changes in currency exchange rates. [!INCLUDE [prod_short](includes/prod_short.md)] helps you manage and update the exchange rates manually or automatically and set up a currency exchange rate service.
@@ -31,7 +31,7 @@ You can specify the currency codes in the **Currencies** list, including extra i
 
 ## Exchange rates
 
-The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
+The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Currency Exchange Rates** page includes the following fields:
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
@@ -65,7 +65,7 @@ Because exchange rates fluctuate constantly, you need to adjust other currency e
 You can use the **Adjust Exchange Rates** batch job to manually adjust the exchange rates for posted customer, vendor, and bank account entries. The batch job can also update other reporting currency amounts on G/L entries.  
 
 > [!TIP]
-> You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
+> You can use a service to update exchange rates automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
 
 You can also specify how the adjustment handles dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 
@@ -76,8 +76,8 @@ You can also specify how the adjustment handles dimensions for unrealized gains 
 > [!NOTE]
 > To use the preview capability, you need to turn on the **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** feature on the **[Feature Management](https://businesscentral.dynamics.com/?page=2610)** page.
 
-> [!IMPORTANT]
-> Due to local requirements in Switzerland, we don't recommend that you enable **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** in the Swiss (CH) country version.
+> [!NOTE]
+> This capability isn't available in the Swiss version right now, but it's coming soon. We're working on it.
 
 ## Preview the effect of an adjustment
 
@@ -115,11 +115,11 @@ The adjustment entries are assigned the default dimensions from the accounts the
 > [!Important]
 > Before you can use the batch job, you need to enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=e871f958-fe42-4cf3-bb8a-e97f4c7658de]
 
 ## Set up a currency exchange rate service
 
-You can use an external service to keep your currency exchange rates up to date, such as FloatRates. 
+You can use an external service to keep your currency exchange rates up to date.
 
 > [!NOTE]
 > Most exchange rate services provide data that is compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you need to customize your import process. You can use the data exchange framework to do that by adding your own codeunit. You'll probably need some help from a developer to do that. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
@@ -127,14 +127,16 @@ You can use an external service to keep your currency exchange rates up to date,
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then select the related link.
 2. Select the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Turn on the **Enabled** toggle to enable the service.
+4. Map the fields from the XML file to the currency exchange rates table in the source field.
+5. Apply any necessary transformation rules.
+6. Turn on the **Enabled** toggle to enable the service.
 
 > [!NOTE]
 > The following video shows how you can connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  only returns the first currency found. The setting should be `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=76914b80-c36a-4d74-95fa-0cdf5c5c0bfa]
 
 ## Update currency exchange rates through a service
 
@@ -145,19 +147,17 @@ Follow the steps given to update the currency exchange rates through a service:
 
 ## Correct mistakes
 
-Every now and then you might need to correct a mistake in a payment transaction that's associated with adjustments to foreign currency gains and losses. You can use the **Reverse transaction** action on the **Bank Ledger Entries**, **Customer Ledger Entries**, and **Vendor Ledger Entries** pages to unapply and reverse the payment transaction.
+Every now and then you might need to correct a mistake in a payment transaction that's associated with adjustments to foreign currency gains and losses. You can use the **Reverse transaction** action on the **Bank Account Ledger Entries**, **Customer Ledger Entries**, and **Vendor Ledger Entries** pages to unapply and reverse the payment transaction.
 
 > [!NOTE]
 > When you unapply and reverse a payment for an entry that had currency exchange rate adjustments associated with it, the reversal posts reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
 
-## See Also
-
 ## See also
 
-[Currencies in Business Central](finance-currencies.md)  
-[Set Up Currencies](finance-set-up-currencies.md)  
-[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
-[Closing Years and Periods](year-close-years-periods.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Currencies in Business Central](finance-currencies.md)    
+[Set Up Currencies](finance-set-up-currencies.md)    
+[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)    
+[Closing Years and Periods](year-close-years-periods.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

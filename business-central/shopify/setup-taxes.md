@@ -1,14 +1,16 @@
 ---
 title: Set up taxes for Shopify connection
 description: How to set up taxes in Shopify and Business Central.
-ms.date: 08/19/2022
+ms.date: 12/09/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
-# Set Up Taxes for the Shopify Connection
+# Set up taxes for the Shopify connection
 
 In this article, we'll investigate how various settings in Shopify affect the storefront prices and taxes that display to customers. We'll also cover how to configure [!INCLUDE[prod_short](../includes/prod_short.md)] to support the settings in Shopify. This article is not intended to be a comprehensive taxation guide. To learn more, contact your local tax authority or a tax professional.  
 
@@ -38,11 +40,11 @@ The toggle is typically enabled for the following countries/regions:
 * Spain
 * Sweden
 * Switzerland
-* United Kingdom. 
+* United Kingdom
 
-In markets such as these, a price of 100 EUR defined on the product card already contains value-added tax (VAT). The price, including VAT, displays to the customer in the storefront and at checkout.  
+In markets such as these, a price of 100 EUR defined on the product card already contains value-added tax (VAT). The price, including VAT, is displayed to the customer in the storefront and at checkout.  
 
-In the USA and Canada, customers don't expect prices to include tax. Tak is added at checkout, so the **All prices include tax** toggle is usually turned off. In this case, a price $100 defined on the product card is the price without tax. At checkout, taxes are added to the price.
+In the USA and Canada, customers don't expect to see prices with taxes because the final tax depends on where products ship to. Tax is added at checkout, so the **All prices include tax** toggle is usually turned off. In this case, a price of $100 defined on the product card is the price without tax. At checkout, taxes are added to the price.
 
 To support the scenario where **All prices include tax** is selected, in [!INCLUDE[prod_short](../includes/prod_short.md)], fill in the following fields on the **Shopify shop card** page:  
 
@@ -51,7 +53,7 @@ To support the scenario where **All prices include tax** is selected, in [!INCLU
 
 Now define item prices in the **Item Card** or **Sales Price List** fields, with or without tax. When exporting prices to Shopify, [!INCLUDE [prod_short](../includes/prod_short.md)] includes domestic taxes in the calculated price and shows that price for the product in Shopify.
 
-[!Note]
+> [!NOTE]
 > These settings affect the export of prices. When you import orders from Shopify, the setting for the **Prices including VAT** field comes from the **Customer Template** on the Shopify shop card, or the customer template per country/region. Even if you use the default customer for imported orders, you must fill in the **Customer Template Code**.
 
 ## If you sell internationally
@@ -130,6 +132,8 @@ In the following example, the **All prices include tax** toggle is turned on. Th
 |Price displayed in the storefront|1200|1250|
 |Tax rate percentage|20|25|
 |Price at checkout|1200|1250|
+
+Shopify uses the tax rate in the foreign country/region when it calculates final prices.
 
 ### Collect VAT set to micro-business exemption
 

@@ -1,31 +1,36 @@
 ---
-title: Pick or Move Items for Production, Assembly, or Jobs in Basic Warehouse Configurations
+title: Pick or move items for production,aAssembly, or projects in basic warehouse configurations
 description: When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 12/16/2022
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: 9330, 931, 990008, 89, 900, 902
 ---
-# Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations
+# Pick for production, assembly, or projects in basic warehouse configurations
 
-How you pick components for production, jobs, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+How you pick components for production, projects, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-In a basic warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, turn on the **Require Pick** toggle but turn off the **Require Shipment** toggle.
+In a basic warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, activate following settings:
+
+* Production, select **Inventory Pick/Movement** in the **Prod. Consumption Whse. Handling** field.
+* Assembly, select **Inventory Movement** in the **Asm. Consumption Whse. Handling** field.
+* Project management, select **Inventory Pick** in the **Project Consumption Whse. Handling** field.
 
 Use the following documents for internal operations:
 
-* Inventory Pick
-* Inventory Movement
+* Inventory pick
+* Inventory movement
 
 ## Inventory picks
 
-* When you register an inventory pick for an internal operation, such as production or a job, the consumption of the picked components is posted at the same time.
+* When you register an inventory pick for an internal operation, such as production or a project, the consumption of the picked components is posted at the same time.
+
 * The **Bin Mandatory** toggle on the **Location Card** page is optional.
-* When you use inventory picks, the **Bin Code** field on a production order component line or job planning lines defines the *take* bin. Components are decreased in the take bin when you post consumption.
+* When you use inventory picks, the **Bin Code** field on a production order component line or project planning lines defines the *take* bin. Components are decreased in the take bin when you post consumption.
 
 ## Inventory movements
 
@@ -34,9 +39,6 @@ Use the following documents for internal operations:
 * When you register an inventory movement for an internal operation, you only record the physical movement of the components to a bin in the operation area. You don't post consumption.
 * When you use inventory movements, the **Bin Code** field on production order component lines defines the *place* bin in the operation area. The place bin is where warehouse employees must place the components.
 * Register the consumption of the picked components separately by posting a consumption journal or assembly order.
-
->[!NOTE]
-> Even if the **Require Pick** toggle is turned off, you can use a **Warehouse Pick** document. Warehouse pick documents are similar to **Inventory Pick** documents. This is useful if you want to use picks in operations and ship in outbound warehouse flows.
 
 ### Production
 
@@ -55,16 +57,14 @@ Use **Inventory Movement** documents to move assembly components to the assembly
 
 ### Project management  
 
-Use **Inventory Pick** documents to pick job components in the flow to project management.
+Use **Inventory Pick** documents to pick project components in the flow to project management.
 
-For locations that use bins, you can extend the flow to jobs with **Inventory Movement** documents.
+For locations that use bins, you can extend the flow to project with **Inventory Movement** documents.
 
 > [!NOTE]
-> The ability to pick components for job planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
->
-> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the job planning line when it creates inventory picks. To use inventory picks for jobs, you must turn on the **Apply Usage Link** toggle on the **Job Card** page for the job. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up job usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the project planning line when it creates inventory picks. To use inventory picks for projects, you must turn on the **Apply Usage Link** toggle on the **Project Card** page for the projects. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up project usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Pick or move for production, assembly, and jobs in a basic warehouse configuration
+## Pick or move for production, assembly, and projects in a basic warehouse configuration
 
 You can create an inventory pick or inventory movement in three ways:  
 
@@ -74,13 +74,13 @@ You can create an inventory pick or inventory movement in three ways:
 
 ### To create an inventory pick from the source document
 
-1. On the source document, which can be a production order or job, choose the **Create Inventory Put-away/Pick** action.  
+1. On the source document, which can be a production order or project, choose the **Create Inventory Put-away/Pick** action.  
 2. Select the **Create Invt. Pick** checkbox.
 3. Choose the **OK** button.
 
 ### To create an inventory movement from the source document
 
-1. On the source document, which can be a production order, assembly order, or job, choose the **Create Inventory Put-away/Pick** action.  
+1. On the source document, which can be a production order, assembly order, or project, choose the **Create Inventory Put-away/Pick** action.  
 2. Select the **Create Invt. Movement** checkbox.
 3. Choose the **OK** button.
 
@@ -99,7 +99,7 @@ To pick or move components for source documents in two steps, you must release t
 |---------------------|--------------------|  
 |Production Order|On the **Planned Production Order** page, change the status of an order to **Released**, or use the **Released Production Order** page to create a released production order.|  
 |Assembly Order|Change status of an assembly order to **Released**.|
-|Jobs | Change a job's status to **Open**, or create job with status Open right away.|  
+|Projects | Change a project's status to **Open**, or create project with status Open right away.|  
 
 A warehouse employee assigned to picking items can create an inventory put-away document for the source document.  
 
@@ -140,7 +140,7 @@ The following happens during the posting process:
 
 The following happens during the posting process:
 
-* Warehouse entries now indicate that the components are in the bins specified on the source document order lines. For example, the assembly order, production component, or job planning line.
+* Warehouse entries now indicate that the components are in the bins specified on the source document order lines. For example, the assembly order, production component, or project planning line.
 
 >[!NOTE]
 > Unlike when you move components with inventory picks, consumption isn't posted when you register an inventory movement. You register consumption as a separate step by posting the source document.

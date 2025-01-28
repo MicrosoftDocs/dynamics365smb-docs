@@ -3,7 +3,7 @@ title: Printer Setup and Management Overview
 description: Learn what the different printer opportunities in Business Central  
 author: jswymer 
 ms.author: jswymer 
-ms.reviewer: jswymer 
+ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.topic: overview 
 ms.date: 09/28/2023

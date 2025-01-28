@@ -1,25 +1,25 @@
 ---
-title: How to Reserve Items 
+title: How to reserve items 
 description: Learn about reserving items for sales orders, purchase orders, and production orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.forms: 498, 497
-ms.date: 09/19/2023
+ms.date: 05/14/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
-# Reserve Items
+
+# Reserve items
 
 You can reserve items for sales orders, purchase orders, service orders, assembly orders, transfer orders, and production orders. You can also reserve items in inventory or inbound on open document or journal lines. You do this on the **Reservation** page.
 
 Each line you open to reserve items on the **Reservation** page displays information about one type of line (sales, purchase, or journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 > [!TIP]
-> Based on the quantities you’ve reserved in inventory, [!INCLUDE [prod_short](includes/prod_short.md)] displays a status on the documents so that you’re quickly aware of the next step. For example, to indicate that you can ship a sales order or start to work on a job, assembly, or production order. The status also helps reduce the risk of accidental partial shipments or hold-ups due to missing stock for production and assembly orders.
+> Based on the quantities you’ve reserved in inventory, [!INCLUDE [prod_short](includes/prod_short.md)] displays a status on the documents so that you’re quickly aware of the next step. For example, to indicate that you can ship a sales order or start to work on a project, assembly, or production order. The status also helps reduce the risk of accidental partial shipments or hold-ups due to missing stock for production and assembly orders.
 >
 > The **Reserved from stock** field can help you understand whether you can ship or pick for a specific order or order line. For lines, the Reserved from stock field is available on FactBoxes. To access the information for the entire order, the field is on the **Statistics** page.
 
@@ -51,8 +51,8 @@ In the following procedure, a firm planned production order is used.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, then choose the related link.  
 2. Open the firm planned production order you want to reserve parent items for.  
 3. Select the relevant production order line.  
-4. On the **Lines** FastTab, choose the **Reserve** action.
-5. On the **Reservation** page, select the **Sales Line, Order** line, then choose the **Reserve from Current Line** action.  
+4. On the **Lines** FastTab, in the **Functions** group, choose the **Reserve** action.
+5. On the **Reservation** page, select the Sales Line, Order Line, then choose the **Reserve from Current Line** action.  
 
 The quantity you entered in the firm planned production order line is now reserved.
 
@@ -77,16 +77,17 @@ The quantity you entered in the firm planned production component line is now re
 Use the **Reservation Worksheet** page to reserve and allocate incoming goods in bulk. For example, bulk reservations can help ensure that quantities are available for your sales and production orders. You can have multiple batches for different purposes. For example, you might allocate production orders on a weekly basis but reserve daily for sales.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reservation Worksheet**, then choose the related link.  
-2. Choose the **Get Demand** action, and then specify the kind of demand you want to reserve from available inventory.
-3. Fill in the filters as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-4. Optional: To allocate the items right away, choose the **Allocate** action.
-5. On the **Allocation Policy** page, choose a policy for each step
+2. Choose the **Get Demand** action. The **Get Demand to Reserve** page opens.
+1. On the **Get Demand to Reserve** page, specify the kind of demand you want to reserve from available inventory.
+1. Fill in the filters as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+1. Optional: To allocate the items right away, choose the **Allocate** action.
+1. On the **Allocation Policy** page, choose a policy for each step.
 
    |Allocation policy  |Description  |
    |---------|---------|
-   |Basic     | Allocates stock to a demand if there are no conflicts and the demand can be fully covered. For example, you have sales order A with a quantity of 10, and a job with a quantity of 7. If you have 20 in stock, both demands receive full quantity. If your stock is 12, no stock is allocated. You must manually allocate the quantity.        |
+   |Basic (No Conflicts)     | Allocates stock to a demand if there are no conflicts and the demand can be fully covered. For example, you have sales order A with a quantity of 10, and a job with a quantity of 7. If you have 20 in stock, both demands receive full quantity. If your stock is 12, no stock is allocated. You must manually allocate the quantity.        |
    |Equally    | Distributes available stock to demand equally. For example, you have a sales order with a quantity of 10, and a job with a quantity of 7. If your stock level is 20, then both demands will receive full quantity. If your stock is 12, then both demands will get 6.        |
-   |By Customer Priority|Distribution based on Priority field in the customer card. In cases of insufficient quantities, the system will prioritize supplying customers with the highest priority.|
+   |By Customer Priority|Distribution based on the **Priority** field on the **Customer Card** page. In cases of low inventory quantities, Business Central supplies higher-priority customers first.|
 
 6. To reserve all lines where **Accept** is turned on, choose the **Make reservation** action.
     
@@ -104,7 +105,7 @@ You can change an item reservation.
 You can cancel an item reservation.
 
 1. From the document line you want to cancel a reservation from, on the **Lines** FastTab, choose the **Reserve** action.  
-2. On the **Reservation** page, choose the **Reservation Entries** action.  
+2. On the **Reservation** page, choose the **Reservation Entries** action on the **Lines** FastTab.  
 3. On the **Reservation Entries** page, choose the **Cancel Reservation** action.  
 4. Confirm the subsequent message by choosing the **Yes** button.  
 
@@ -117,7 +118,7 @@ From outbound documents for item-tracked items, such as sales orders or producti
 
 Learn more at [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
-This practice is referred to as a specific reservation, because you reserve from the quantity of item X that belongs to lot X. In contrast, if you reserve only from quantities of item X, then it is simply a normal, non-specific, reservation. Learn more at [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md).
+This practice is referred to as a specific reservation, because you reserve from the quantity of item X that belongs to lot X. In contrast, if you reserve only from quantities of item X, then it's simply a normal, non-specific, reservation. Learn more at [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md).
 
 The following procedure is based on a sales order.
 

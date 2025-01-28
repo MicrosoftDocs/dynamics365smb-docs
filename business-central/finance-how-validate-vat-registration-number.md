@@ -4,7 +4,7 @@ description: Let Business Central validate VAT registration numbers for your con
 author: jswymer
 
 ms.topic: conceptual
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 249, 575, 1279
 ms.date: 06/16/2021

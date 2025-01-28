@@ -4,7 +4,7 @@ description: You can store external business documents by attaching the document
 author: jswymer
 ms.topic: how-to
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 02/23/2023
+ms.date: 02/27/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms-service: dynamics-365-business-central
@@ -18,6 +18,8 @@ You can store external business documents in [!INCLUDE[prod_short](includes/prod
 From the **Chart of Accounts** and **General Ledger Entries** pages, you can use a search function to find general ledger entries for posted purchase and sales documents that don't have incoming document records and then centrally link to existing records or create new ones with attached document files. For more information, see [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md).
 
 The following procedures show how to attach a file to a vendor ledger entry or an existing purchase invoice that wasn't created from an incoming document record. Attaching a file to posted purchase or sales documents works in a similar way.
+
+[!INCLUDE [incoming-doc-archived-doc](includes/incoming-doc-archived-doc.md)]
 
 ## Create and connect an incoming document record from a purchase invoice
 

@@ -4,9 +4,10 @@ description: The following articles describe the different local functionality i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 01/12/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Spain local functionality in the Spanish version
@@ -45,6 +46,7 @@ The following articles describe local functionality unique to the Spanish versio
   * [Cash payments](payments-in-cash.md) **Available Now**
 
 * Electronic invoicing
+  * [E-Invoicing Factura-E](spain-einvoicing.md) **Available Now**
   * [Cartera module](cartera-module.md) **Available Now**
   * [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   * [Payments Cartera module](payments-cartera-module.md) **Available Now**
@@ -68,17 +70,13 @@ The following articles describe local functionality unique to the Spanish versio
 
 ## Future legislation requirements being investigated
 
-* New approach of sending multiple documents in SII - **planned for 23.4**
-* Introduce the "Ignore in SII" option for the G/L Account - **planned for 23.5** 
-* Spanish e-invoicing - **planned for 2024 release wave 2**  
-* SII Statuses - **planned for 2024 release wave 2**  
-* Requirements related with the *Antifraud Law* in Spain and the impact on Business Central are subject of investigation. 
+* Requirements related to the *Antifraud Law* in Spain and how they affect Business Central are being investigated. 
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

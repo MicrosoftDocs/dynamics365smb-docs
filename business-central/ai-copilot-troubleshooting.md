@@ -3,11 +3,11 @@ title: Troubleshoot Copilot and AI capabilities
 description: Learn how to fix common issues that you might encounter while working with Copilot and AI capabilities in Business Central.
 author: jswymer
 ms.author: jswymer 
-ms.reviewer: jswymer 
+ms.reviewer: jswymer
 ms.topic: troubleshooting 
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/01/2024
+ms.date: 11/11/2024
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
 ---
@@ -19,7 +19,7 @@ Copilot is an AI-powered functionality in Business Central that assists in vario
 
 If Copilot functionality, such as the **Draft with Copilot** action for marketing text suggestions or the **Reconcile with Copilot** action for bank account reconciliation assist, doesn't appear on a page as expected, check the following:
 
-- If the feature is controlled under Feature Management, make sure that it's enabled. [Learn more about feature management](admin-feature-management.md).
+- Make sure that the feature is enabled if it's controlled under Feature Management. [Learn more about feature management](admin-feature-management.md).
 
 - Make sure that the functionality isn't hidden by personalization. [Learn more about personalization](ui-personalization-user.md).
 
@@ -34,7 +34,7 @@ When you try to use Copilot and you get an error similar to **Sorry, Copilot is 
 
 If none of the AI features from Microsoft are shown in the **Copilot & AI capabilities** page, it's likely because you have one or more embed apps installed on your environment. Embed apps can offer their own Copilot capabilities, but capabilities published by Microsoft aren't compatible with environments having embed apps.
 
-## See also
+## Related information
 
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Marketing text suggestions with Copilot](ai-overview.md)  

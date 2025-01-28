@@ -1,13 +1,14 @@
 ---
-    title: Electronic documents in Business Central
-    description: This is an overview of how to use the Data Exchange Framework to manage the exchange of data in business documents like bank files and currency exchange rates.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
-    ms.date: 06/10/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Electronic documents in Business Central
+description: This is an overview of how to use the Data Exchange Framework to manage the exchange of data in business documents like bank files and currency exchange rates.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Exchanging Data Electronically

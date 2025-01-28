@@ -1,12 +1,13 @@
 ---
-title: Connect to Microsoft Dataverse (contains video)
+title: Connect to Microsoft Dataverse
 description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 business app.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.forms: 7200, 7201
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Connect to Microsoft Dataverse
@@ -29,7 +30,13 @@ There are a few pieces of information to have ready before you create the connec
 
 > [!Note]
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and aren't using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
+
+## Link your Business Central and Dataverse environments
+
+Businesses want to keep their data safe and secure within their privacy boundary, and especially when their business management application integrates with other apps. By linking [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environments, you’ll not only achieve those considerations, but also give your administrators an easier way to create and maintain your integrations with other Dynamics 365 apps.
+
+In the [!INCLUDE [prod_short](includes/prod_short.md)] admin center, you can link your [!INCLUDE [prod_short](includes/prod_short.md)] environment to your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment. [!INCLUDE [prod_short](includes/prod_short.md)] can use the information from the link to make it easier, and more secure, to integrate with other Dynamics 365 apps, such as Sales and Field Service. For example, the linked [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment URL is available by default on the **Dataverse Connection Setup** page and when you run the **Dataverse Connection Setup** assisted setup guide.
 
 ## Allow for different currencies
 
@@ -119,7 +126,7 @@ The following procedure describes how to set up the connection manually on the *
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=eebe94d1-5ead-4943-b720-ca403d111e9d]
 
 -->
 

@@ -6,22 +6,21 @@ ms.topic: get-started
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.search.form: 9204,
-ms.date: 04/01/2021
+ms.search.form: 9204,9200
+ms.date: 07/27/2024
 ms.author: soalex
-
 ms.service: dynamics-365-business-central
 ---
 # Manage user settings and preferences
 
 As an administrator, you can configure user settings in [!INCLUDE[prod_short](includes/prod_short.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
 
-Get an overview of all users in the **Users** list, and change individual settings by choosing the **User Settings** action for the relevant user.
+Get an overview of all users in the **Users** list, and change individual settings by selecting the **User Settings** action for the relevant user.
 
 > [!TIP]
-> The **User Settings** list shows the current settings for each user. To view or edit individual users, choose the **View** or **Edit** action.
+> The **User Settings** list shows the current settings for each user. To view or edit individual users, select the **View** or **Edit** action.
 
-The **User Settings Card** page is similar to the **My Settings** page that each user has access to, and it is a powerful tool for you as the administrator for setting default settings and clearing personalized pages, for example.  
+The **User Settings** card page is similar to the **My Settings** page that each user has access to, and it is a powerful tool for you as the administrator for setting default settings and clearing personalized pages, for example.  
 
 ## Types of user settings
 
@@ -61,15 +60,15 @@ The **User Settings Card** page is similar to the **My Settings** page that each
 
 ## Overview of all user-specific changes
 
-As the administrator, you can get an overview of individual changes to [!INCLUDE [prod_short](includes/prod_short.md)] that each user might have made to various pages in [!INCLUDE [prod_short](includes/prod_short.md)]. As users make changes to their experience in [!INCLUDE [prod_short](includes/prod_short.md)], these changes will be reflected in the **User Personalizations** list. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
+As the administrator, you can get an overview of individual changes to [!INCLUDE [prod_short](includes/prod_short.md)] that each user might have made to various pages in [!INCLUDE [prod_short](includes/prod_short.md)]. As users make changes to their experience in [!INCLUDE [prod_short](includes/prod_short.md)], these changes are reflected in the **Personalized Pages** list. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## To review or delete user personalizations
+## Review or delete user personalizations
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalized Pages**, and then choose the related link.
-2. This shows the list of users and their personalized pages. To clear a user's personalization, click the relevant row, or choose **Manage**, and then choose **Delete**.
+1. Select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalized Pages**, and then select the related link.
+2. This shows the list of users and their personalized pages. To clear a user's personalization, click the relevant row, or select **Manage**, and then select **Delete**.
 
 This deletes the personalization, and the user's experience of the relevant page returns to the default state.
 

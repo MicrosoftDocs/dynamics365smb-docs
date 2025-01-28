@@ -1,18 +1,18 @@
 ---
-title: Define Granular Permissions
+title: Define granular permissions
 description: This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 02/08/2023
-
+ms.search.form: 1, 119, 8930, 9800, 9802, 9807, 9808, 9816_Primary, 9830, 9831, 9855_Primary, 9862_Primary, 9874_Primary, 9878_Primary, 9865_Primary
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Assign Permissions to Users and Groups
+# Assign permissions to users and groups
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -37,10 +37,10 @@ For more information, see [Delegated administrator access to Business Central On
 
 |To  |See  |
 |---------|---------|
-|To make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [To manage permissions through user groups](#to-manage-permissions-through-user-groups) |
-|To manage permission sets for specific users | [To assign permission sets to users](#to-assign-permission-sets-to-users) |
-|To learn how to define a permission set|[To create a permission set](#to-create-a-permission-set)|
-|To view or troubleshoot a user's permissions|[To get an overview of a user's permissions](#to-get-an-overview-of-a-users-permissions)|
+|To make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Manage permissions through user groups](#manage-permissions-through-user-groups) |
+|To manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
+|To learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
+|To view or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|
 |To learn about record-level security|[Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -48,7 +48,7 @@ For more information, see [Delegated administrator access to Business Central On
 >
 > You can also define the features that are available to users in the user interface and how they interact with them through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## To create a permission set
+## Create a permission set
 
 > [!NOTE]
 > In 2022 release wave 2 we made it easier to add permissions to permission sets. Rather than adding permissions individually, you can add entire permission sets. If needed, you can then exclude individual permissions in them. For more information, see [To add other permission sets](#to-add-other-permission-sets). To make that possible, we replaced the Permission Set page with a new one. The key differences are the new **Permission Sets** and **Results** panes, and the **Included permissions** FactBox. To continue using the replaced Permissions page, on the **Permission Sets** page, choose the **Permissions (legacy)** action.
@@ -117,7 +117,7 @@ Excluding a permission set excludes all of the permissions in the set. [!INCLUDE
 2. Calculate the full list of excluded permissions
 3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
 
-## To copy a permission set
+## Copy a permission set
 
 Create a new permission set by copying another. The new set will include all of the permissions and permission sets from the set you copied. How the permissions and permission sets are arranged in the new permission set differs, depending on your choice in the **Copy operation** field. The following table describes the options.
 
@@ -135,7 +135,7 @@ Create a new permission set by copying another. The new set will include all of 
 > [!NOTE]
 > The notification requires that the **Original System permission set changed** notification is enabled on the **My Notifications** page.
 
-## To create or modify permissions by recording your actions
+## Create or modify permissions by recording your actions
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 
@@ -172,11 +172,11 @@ In multi-tenant environments, a permission set will be imported into a specific 
 
 The permission sets are imported.
 
-## To remove obsolete permissions from all permission sets
+## Remove obsolete permissions from all permission sets
 
 On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
-## To set up time constraints for users
+## Set up time constraints for users
 
 Administrators can define periods of time during which specified users are able to post. Administrators can also specify if the system logs how much time users are signed in. Similarly, administrators can assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
 
@@ -185,7 +185,15 @@ Administrators can define periods of time during which specified users are able 
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
-## To manage permissions through user groups
+## Control access to specific companies
+
+When you have multiple companies in Business Central, managing permissions across companies requires extra consideration. You might not want users to have identical access rights to all companies. Instead, you may need to grant users' permissions based on their company affiliations. To support this scenario, when you assign permission sets to individual users or security groups, you have the option to select a specific company to which the permission set applies. The company isn't explicitly specified within the permission set, but rather when the permission set is assigned to the user or security group.
+
+If you don't specify the company when assigning a permission set, the permission set then applies to all companies. If you want a permission set to apply to more than one company, but not all companies, add the permission set specifically for each company separately.
+
+Learn how at [Assign permission sets to users](#assign-permission-sets-to-users) or [Assign permissions to a security group](ui-security-groups.md#assign-permissions-to-a-security-group).
+
+## Manage permissions through user groups
 
 User groups help you manage permission sets across the company. [!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their license. You can add users manually to a user group, and you can create new user groups as copies of existing ones.  
 
@@ -228,7 +236,7 @@ The new user group is added to the **User Groups** page. Proceed to add users. F
 3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
 4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
 
-### To assign a permission set on the **Permission Set by User Group** page
+### To assign a permission set on the Permission Set by User Group page
 
 The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
 
@@ -239,11 +247,11 @@ The following procedure explains how to assign permission sets to a user group o
 
 You can also assign permissions sets directly to a user.
 
-## To assign permission sets to users
+## Assign permission sets to users
 
 A permission set is a collection of permissions for specific database objects. All users must be assigned one or more permission sets before they can access [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-A [!INCLUDE[prod_short](includes/prod_short.md)] solution contains predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see the [To create a permission set](#to-create-a-permission-set) section.
+A [!INCLUDE[prod_short](includes/prod_short.md)] solution contains predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see the [Create a permission set](#create-a-permission-set) section.
 
 > [!NOTE]
 > If you do not want to restrict a user's access more than already defined by the license, you can assign a special permission set called SUPER to the user. This permission set ensures that the user can access all objects specified in the license.
@@ -258,22 +266,26 @@ You can assign permissions sets to users in two ways:
 ### To assign a permission set on a user card
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-2. Select the user that you want to assign permission to.
-Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
-3. Choose the **Edit** action to open the **User Card** page.
-4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. Select the user that you want to assign permission to.
 
-   Use the **Company** field to apply to permission set to a specific company. If you leave the field blank, then it applies to all companies.
+   Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
+1. Choose the **Edit** action to open the **User Card** page.
+1. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [Create or edit a permission set](ui-define-granular-permissions.md#create-a-permission-set).
+
+   If you want the permission set to apply to a specific company, set the **Company** field to that company. If you want the permission set to apply to all companies, leave the **Company** field blank. [Learn more](#control-access-to-specific-companies).
 
 ## To assign a permission set on the Permission Set by User page
 
+This method makes it easier for you to assign different permission sets to multiple users. 
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-2. On the **Users** page, choose the **Permission Set by User** action.
-3. On the **Permission Set by User** page, select the **[user name]** checkbox on a line for the relevant permission set to assign the set to the user.
+1. On the **Users** page, choose the **Permission Set by User** action.
+1. If you want the permission sets to apply only to a specific company, set the **Company name** field to that company. If you want the permission set to apply to all companies, leave the **Company name** field blank. [Learn more](#control-access-to-specific-companies).
+1. On the **Permission Set by User** page, select the **[user name]** checkbox on a line for the relevant permission set to assign the set to the user.
 
     Select the **All Users** checkbox to assign the permission set to all users.
 
-## To get an overview of a user's permissions
+## Get an overview of a user's permissions
 
 You can view other users' effective permissions only if you're assigned to the SECURITY or SUPER permissions. 
 
@@ -294,7 +306,7 @@ The **Effective Permissions** page offers additional information about the sourc
     >
     > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement.
     >
-    > For an explanation of ranking, see [To create a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > For an explanation of ranking, see [Create a permission set](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 
@@ -307,7 +319,8 @@ The **Effective Permissions** page offers additional information about the sourc
 
 For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. In this way, the user can't access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in the administration content.
 
-## Viewing permission changes telemetry
+
+## View permission changes telemetry
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes that are done to permission to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and admin help:
 

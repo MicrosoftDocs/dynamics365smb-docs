@@ -1,13 +1,13 @@
 ---
 title: Set up time sheets and their approval
 description: Learn how to use time sheets to track time for projects and resources.
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 mw.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.search.form: 977, 462, 76, 77, 462
+ms.search.form: 977, 462, 76, 77, 462, 946_Primary, 949_Primary
 ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -24,7 +24,7 @@ Optionally, specify whether and how time sheets are approved. Depending on the n
 * One or more users as the time sheet administrator and approver for all time sheets.
 * A time sheet approver for each resource.
 
-When you have set up time sheets, you can create time sheets for resources, and the resources can post time sheet lines. Optionally, assign time sheets to job planning lines. To learn more, go to [Use Time Sheets](projects-how-use-time-sheets.md).  
+When you have set up time sheets, you can create time sheets for resources, and the resources can post time sheet lines. Optionally, assign time sheets to project planning lines. To learn more, go to [Use Time Sheets](projects-how-use-time-sheets.md).  
 
 ## Set up time sheets with the assisted setup guide
 
@@ -71,8 +71,8 @@ The following sections describe how to set up time sheets if you don't use the *
 | Option | Description |
 | --- | --- |
 | **Never** |The user in the **Time Sheet Approver User ID** field on the resource card approves the time sheet. |
-| **Always** |The user in the **Person Responsible** field on the job card approves the time sheet. |
-| **Machine Only** |If the machine time sheet is linked with a job, then the user in the **Person Responsible** field on the job card approves the time sheet. If the machine time sheet is linked with a resource, then the user in the **Time Sheet Approver User ID** field on the resource card approves the time sheet. |
+| **Always** |The user in the **Person Responsible** field on the Project Card approves the time sheet. |
+| **Machine Only** |If the machine time sheet is linked with a job, then the user in the **Person Responsible** field on the Project Card approves the time sheet. If the machine time sheet is linked with a resource, then the user in the **Time Sheet Approver User ID** field on the resource card approves the time sheet. |
 
 ### Assign a time sheet administrator manually
 

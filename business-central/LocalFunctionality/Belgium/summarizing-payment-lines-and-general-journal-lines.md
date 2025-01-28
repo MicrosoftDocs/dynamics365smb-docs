@@ -8,6 +8,7 @@ ms.date: 06/25/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Summarizing payment lines and general journal lines in the Belgian version
 

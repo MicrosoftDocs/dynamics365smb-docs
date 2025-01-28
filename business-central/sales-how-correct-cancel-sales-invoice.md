@@ -1,12 +1,12 @@
 ---
-title: Correct or Cancel a Posted Sales Invoice
-description: This topic describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
+title: Correct or cancel a posted sales invoice
+description: This article describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: undo, credit memo, return
-ms.date: 02/20/2024
+ms.date: 03/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

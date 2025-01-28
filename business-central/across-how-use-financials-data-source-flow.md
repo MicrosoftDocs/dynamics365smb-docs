@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, 
 ms.search.form: 1500, 
-ms.date: 08/31/2023
+ms.date: 06/07/2024
 ms.custom: bap-template 
 ---
 
@@ -107,7 +107,7 @@ Creating new flows or modifying and managing existing ones (like turning them on
 These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, go to the following articles in the Business Central Dev and IT Pro help:
 
 - [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Create automated flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (also covers approval flows)
+- [Create automated flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (also covers approval flows)
 - [Create instant flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Manage Power Automate flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

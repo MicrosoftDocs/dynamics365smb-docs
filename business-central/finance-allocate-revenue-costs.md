@@ -3,12 +3,13 @@ title: Allocate revenue and costs to multiple general ledger accounts
 description: Learn how to allocate costs to one or more accounts in your general ledger.
 author: brentholtorf
 ms.author: bholtorf
-ms.date: 09/04/2023
+ms.date: 08/08/2024
 ms.topic: conceptual
 ms.search.keywords: allocate, allocation, accounts
 ms.search.form: 39, 2673, 2670, 2674, 
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Allocate revenue and costs to multiple general ledger accounts
@@ -24,7 +25,7 @@ The following table introduces the allocation methods you can use.
 |Allocation Method  |Description  |
 |---------|---------|
 |Fixed     | When you want to split up expenses in a way that's repeated over a longer period of time, you can use a fixed allocation. A fixed allocation lets you define the allocation split. This split will only change when you change the setup on the **Allocation Account** page.        |
-|Variable     | To distribute revenue or expenses based on values that change over time, use the variable allocation method. Variable allocations let you specify the sources to use to calculate the allocation percentages. This method is useful, for example, for splitting employee costs that according to varying headcounts in departments or divisions. Another example is the distributing the cost of rent based on production floor footage that might vary per production line over time. Variable allocations use a combination of dimensions and statistical accounts to determine how amounts distribute for a period of time. To learn more about statistical accounts, go to [Analyze Data with Statistical Accounts](bi-use-statistical-accounts.md). To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).        |
+|Variable     | To distribute revenue or expenses based on values that change over time, use the variable allocation method. Variable allocations let you specify the sources to use to calculate the allocation percentages. This method is useful, for example, for splitting employee costs that according to varying headcounts in departments or divisions. Another example is the distributing the cost of rent based on production floor footage that might vary per production line over time. Variable allocations use a combination of dimensions and statistical accounts to determine how amounts distribute over a period of time. To learn more about statistical accounts, go to [Analyze Data with Statistical Accounts](bi-use-statistical-accounts.md). To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).        |
 
 ## Use a fixed share or percentage method to allocate amounts
 
@@ -92,6 +93,6 @@ The following steps describe how to post an allocation transaction from a genera
     1. In the **Allocation Account No.** field, choose the allocation account that's set up to use the Inherit from parent option. 
 1. Choose **Post**.
 
-## See Also
+## See also
 
 [Work with General Journals](ui-work-general-journals.md)  

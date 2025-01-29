@@ -90,6 +90,9 @@ To calculate the carbon equivalent factor, you can use the following example: If
 > [!NOTE]
 > The **Carbon Fee** field on the **Sustainability Ledger Entries** isn't calculated based on the **CO2 Emission** values. Instead, as a foundation for this formula, [!INCLUDE[prod_short](includes/prod_short.md)] uses the **CO2e Emission** field. The **CO2e Emission** field is calculated based on all the emissions posted to an entry and the **Carbon Equivalent Factor** configured for each of the gases on the **Emission Fees** page.  
 
+> [!TIP]
+> To use CO2e for all emissions (*CO2e of CO2*, *CO2e of CH4*, and *CO2e of N2O*), set the **Carbon Equivalent Factor** to **1** for all options - **CO2**, **CH4**, and **N2O**. This way, you can have CO2e for all emissions, and the **CO2e** field will display the total carbon equivalent.  
+
 If you didn't configure the **Emission Fees** before posting your sustainability entries, and you want to calculate your carbon fees and CO2e retroactively, you need to run the **Calculate Emission Fees** action to update values on the **Sustainability Ledger Entries**.  
 
 ## See also

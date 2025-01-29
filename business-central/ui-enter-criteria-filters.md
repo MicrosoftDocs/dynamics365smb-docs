@@ -328,6 +328,7 @@ In the vendor number (**No**) field, use the `%myvendors` filter token to show a
 [Searching and filtering FAQ](ui-search-filter-faq.yml)  
 [Save and personalize list views](ui-views.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Search and filter lists](keyboard-shortcuts.md#KeyboardFilter)
+[Search and filter shortcuts](keyboard-shortcuts.md#KeyboardFilter)
+[Analyze list data using data analysis mode](analysis-mode.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

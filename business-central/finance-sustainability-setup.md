@@ -43,19 +43,19 @@ To configure these settings, follow these steps:
     | **Water Unit of Measure Code** | Enter the water unit of measure code that you use to register water intensity. |
     | **Disch. Into Water Unit of Measure Code** | Enter the unit of measure code that you use to register discharged into water. |
     | **Emission Decimal Places** | Enter the number of decimal places that show for emission amounts. The default setting, *2:5*, means that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places show for all amounts. |
-    | **Country/Region Mandatory** | Select this field if you want to make the country/region field mandatory. You can set the country/region field in journals even if you don't select this field. However, by selecting it, you require that users set the country/region field before posting. |
-    | **Responsibility Center Mandatory** | Select this field if you want to make the responsibility center mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. You can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
-    | **Block Calculation Foundation Change If Ledger Entries Exist** | Select this field if you want to prevent changes to the calculation foundation (formula) at the account category level when the formula has already been applied to sustainability entries. |
-    | **Enable Background Error Check** | Select this field if you want to enable the background error check of sustainability journal lines. |
+    | **Country/Region Mandatory** | Make the country/region field mandatory. You can set the country/region field in journals even if you don't select this field. However, by selecting it, you require that users set the country/region field before posting. |
+    | **Responsibility Center Mandatory** | Make the responsibility center mandatory. The responsibility center can be used as a facility, so that you can measure facility-based emissions. You can set the responsibility center field in journals even if you don't select this field. However, by selecting it, you require that users set the responsibility center field before posting. |
+    | **Block Calculation Foundation Change If Ledger Entries Exist** | Prevent changes to the calculation foundation (formula) at the account category level when the formula was already applied to sustainability entries. |
+    | **Enable Background Error Check** | Enable validations for sustainability journal lines. The validations run in the background. |
 
     > [!NOTE]
-    > After you enable or turn off the background error check in journals, you must sign in again before you start the new setup.
+    > After you turn on or turn off validations in journals, sign in again before you start the new setup.
 
 3. On the **Procurement** FastTab, configure the fields that are required to use sustainability features in the purchase process.  
 
     | Field | Description |
     |-------|-------------|
-    | **Use Emissions In Purchase Documents** | Enable sustainability related fields and features appear on purchase documents, such as **Sustainability Account** or different emissions. |
+    | **Use Emissions In Purchase Documents** | Enable sustainability related fields and features to appear on purchase documents, such as **Sustainability Account** or different emissions. |
     | **Enable Value Chain tracking** | Enable posting of **Sustainability Value Entries** through value chain operations and the visibility of sustainability related fields in operational documents and journals. |
     | **G/L Account Emissions** | Enable a default **Sustainability Account** on the **G/L Account** card page. |
     | **Item Emissions** | Enable default **Sustainability Account** emissions on the **Item** card page. |
@@ -95,21 +95,21 @@ To track internal carbon fees or calculate your emissions using carbon dioxide (
 3. Specify the **Scope Type**. If you leave this field blank, it applies to all scopes, but you can configure it for each scope.  
 4. Specify a **Starting Date** and **Ending Date**. These dates let you use different configurations for different periods.
 5. The **Country/Region Code** and **Responsibility Code** are optional fields that you can use if you want to have different carbon fees or carbon equivalent factors per country/region or per facility (responsibility center).
-6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on some local or regional regulations, or for internal calculations. The **Carbon Fee** is calculated every time when you post emissions and this information is visible on the **Sustainability Ledger Entries**, without any additional posting on **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup**, and you can fill this field only for the line where the **Emission Type** is **CO2**.
+6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. You can use this field based on some local or regional regulations, or for internal calculations. The **Carbon Fee** is calculated every time you post emissions. This information displays on the **Sustainability Ledger Entries**, without more posting to the **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup**, and you can fill this field only for the line where the **Emission Type** is **CO2**.
 7. The **Carbon Equivalent Factor** specifies the coefficient that converts the effect of various GHGs into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** is always *1* and you can't modify this value because CO2 is the reference gas used for calculating the global warming potential (GWP) of other GHGs. Because CO2 is the baseline, its GWP is set to *1*. For other GHGs, you must configure the values manually.
-To calculate the carbon equivalent factor, use the following example. If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, you need to divide 1 by 298 and the result you need to populate is 0.00336.  
+To calculate the carbon equivalent factor, use the following example. If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, divide 1 by 298. The result you need to add is 0.00336.  
 
 > [!NOTE]
 > The **Carbon Fee** field on the **Sustainability Ledger Entries** isn't calculated based on the **CO2 Emission** values. Instead, as a foundation for this formula, [!INCLUDE[prod_short](includes/prod_short.md)] uses the **CO2e Emission** field. The **CO2e Emission** field is calculated based on all the emissions posted to an entry and the **Carbon Equivalent Factor** configured for each of the gases on the **Emission Fees** page.  
 
 > [!TIP]
-> To use CO2e for all emissions (*CO2e of CO2*, *CO2e of CH4*, and *CO2e of N2O*), set the **Carbon Equivalent Factor** to **1** for all options - **CO2**, **CH4**, and **N2O**. This way, you can have CO2e for all emissions, and the **CO2e** field will display the total carbon equivalent.  
+> To use CO2e for all emissions (*CO2e of CO2*, *CO2e of CH4*, and *CO2e of N2O*), set the **Carbon Equivalent Factor** to **1** for the **CO2**, **CH4**, and **N2O** options. This setting gives you CO2e for all emissions, and the **CO2e** field displays the total carbon equivalent.  
 
-If you didn't configure the **Emission Fees** before posting your sustainability entries, and you want to calculate your carbon fees and CO2e retroactively, you need to run the **Calculate Emission Fees** action to update values on the **Sustainability Ledger Entries**.  
+If you didn't configure the **Emission Fees** before you posted sustainability entries, and you want to calculate your carbon fees and CO2e retroactively, run the **Calculate Emission Fees** action to update values on the sustainability ledger entries.  
 
 ## Responsibility Center
 
-You can use the **Responsibility Center** to post any type of entries related to sustainability, where it represents a specific facility. However if you want to use water management in sustainability, configure some additional information. You can set up your responsibility center as usual, and fill in the fields on the **Sustainability** FastTab as described in the following table.  
+Use the **Responsibility Center** to post entries related to sustainability, where it represents a specific facility. However, if you want to use water management in sustainability, configure some additional information. You can set up your responsibility center as usual, and fill in the fields on the **Sustainability** FastTab as described in the following table.  
 
 | Field | Description |
 |-----------|----------------------------------|

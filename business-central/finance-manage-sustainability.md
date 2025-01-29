@@ -14,34 +14,38 @@ ms.reviewer: bholtorf
 
 # Sustainability management overview
 
-> [!IMPORTANT]
-> This feature is available in Business Central starting from **2024 release wave 1**.  
-
-Business Central offers a sustainability management feature that helps you monitor and manage your organization's and its effect on the environment. This feature is designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions. In this way, it facilitates proper insights. The feature supports the basic process of collecting emission data via sustainability journals or purchase documents, and recalculation of emissions to CO2 equivalent. You can either manually enter known data or use built-in methods for calculating emissions footprints; calculation using formulas are available for use only when using sustainability journals.   
+Business Central offers a sustainability management feature that helps you monitor and manage your organization's and its effect on the environment. This feature is designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions, water and waste intensity. In this way, it facilitates proper insights. The feature supports the basic process of collecting gas emission, water and waste intensity data via sustainability and general journals or purchase documents, and recalculation of emissions to the CO2 equivalent (CO2e). You can either manually enter known data or use built-in methods for calculating emissions footprints; calculation using formulas are available for use only when using sustainability journals.   
 
 > [!NOTE]
-> This solution is still in early stages of development and new set of features will be added with the next release.  
+> New set of features is expected to be added with every release.  
 
-The first version of the feature focuses on GHG emissions. The environmental, social, and governance (ESG) standard defines three emission scopes:
+Base on the Greenhouse Gas (GHG) Protocol we use three emission scopes:  
 
-- **Scope 1 emissions** include emissions from stationary and mobile combustion, and from inadvertent fugitive emissions.
-- **Scope 2 emissions** include indirect emissions from the generation of energy that is purchased from utility providers.
-- **Scope 3 emissions** include a wide spectrum of emissions, from purchased goods and services and capital goods, to fuel and energy–related activities, to upstream and downstream transportation, to generated waste, to business travel and employee commuting, and so on.
+- **Scope 1 emissions** include emissions from stationary and mobile combustion, and from inadvertent fugitive emissions.  
+- **Scope 2 emissions** include indirect emissions from the generation of energy that is purchased from utility providers.  
+- **Scope 3 emissions** include a wide spectrum of emissions, from purchased goods and services and capital goods, to fuel and energy–related activities, to upstream and downstream transportation, to generated waste, to business travel and employee commuting, and so on. 
 
-With this feature, you can:
+But in Business Central we have these additional options:  
 
-- Set up emission factors for different sources and categories of GHG emissions.
-- Record emission data in sustainability journals, either manually or by using predefined calculation methods.
-- Record emission data directly working with purchase documents.
-- Record purchase of carbon credit using purchase documents.
-- Calculate internal carbon fee.
-- Recalculate emission of all gasses to CO2 equivalent using formulas.
-- Post emission entries (and carbon credits) to the sustainability ledger, where you can view and analyze the emission data by various dimensions.
-- Set scorecards and goals and compare them with baseline and targeted values.
-- Generate sustainability reports that show your organization's GHG emissions performance.
-- Use financial reports for cross functional reporting.
+- **Out of scope emissions** include emissions that fall outside these defined categories but are still relevant for a complete understanding of an organization's environmental impact; this can include emissions from activities or sources that are not directly controlled by the organization but still contribute to the overall carbon footprint, or i.e. Carbon Credit as it does not have specific scope. 
+- **Water/Waste** option refers to the measurement and estimation of water withdrawn or discharged and waste disposed or diverted, based on intensity factors, to provide a comprehensive understanding of an organization's environmental impact.   
 
-To get started with sustainability management, use the following articles.
+With this se of features, you can:
+
+- Set up emission factors for different sources and categories of GHG emissions, water and waste. 
+- Record emission, or water and waste intensity data in sustainability journals, either manually or by using predefined calculation methods.
+- Record emission data directly working with purchase documents or general journals.  
+- Record purchase of carbon credit using purchase documents or sustainability journal. 
+- Calculate internal carbon fee.   
+- Recalculate emission of all gasses to the CO2 equivalent using formulas.  
+- Post emission entries (and carbon credits) to the sustainability ledger, where you can view and analyze the emission data by various dimensions. 
+- Set scorecards and goals and compare them with baseline and targeted values.  
+- Generate sustainability reports that show your organization's GHG emissions or water and waste intensity performance.  
+- Use financial reports for cross functional reporting.   
+- Operate with the value chain for Scope 3 across various operations (Public Preview). 
+- Inegrate sustainability solution with the 3rd party systems using APIs.  
+
+To get started with sustainability management, use the following articles.   
 
 | Article | Description |
 |---------|-------------|

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, water, waste, intensity, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 09/09/2024
+ms.date: 01/29/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -14,16 +14,16 @@ ms.reviewer: bholtorf
 
 # Record sustainability entries
 
-Users can manually record greenhouse gas (GHG) emissions or water and waste intensity in the sustainability ledger manually using sustainability journals. Greenhouse gas (GHG) emissions can be recorder also using any kind of purchase-related documents or general journal.  
+You can manually record greenhouse gas (GHG) emissions or water and waste intensity in the sustainability ledger by using sustainability journals. You can also use purchase documents or general journals to record GHG emissions.  
 
-> [!NOTE]
-> Posting water and waste intensity and using general journal for posting emissions will be enabled starting *2025 release wave 1*.  
+<!--> [!NOTE]
+> Posting water and waste intensity and using general journals for posting emissions will be enabled starting *2025 release wave 1*.  -->
 
 ## Sustainability journals
 
-Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in [!INCLUDE [prod_short](includes/prod_short.md)]. Users who have the necessary information can manually enter emissions and water or waste intesity in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions or water or waste intesity based on specific known parameters that correspond to various types of sources and accounts.   
+Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in [!INCLUDE [prod_short](includes/prod_short.md)]. You can manually enter emissions and water or waste intensity in a journal. Alternatively, if you don't have the information, you can use built-in formulas to accurately calculate emissions or water or waste intensity based on parameters that correspond to various types of sources and accounts.
 
-The information that you enter in a journal is temporary and can be changed while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
+The information that you enter in a journal is temporary and you can change it while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
 
 ### Use journal templates and batches
 

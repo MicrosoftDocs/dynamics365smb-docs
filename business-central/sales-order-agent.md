@@ -106,6 +106,7 @@ Processing a sales quote request into an order involves three participants:
     > Hello,
     >
     > We are in the process of purchasing furniture for our lodge, and after reviewing your website I would like to request a quote for the following items:
+    >
     > - 2 Antwerp tables
     > - 4 Berlin chairs
     > - 4 Rome chairs
@@ -114,7 +115,7 @@ Processing a sales quote request into an order involves three participants:
     >
     > Thank you,
     >
-    > [Your Name]
+    > [Name]
 
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order
 - Business Central user who reviews agent tasks

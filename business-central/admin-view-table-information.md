@@ -4,7 +4,7 @@ description: Learn how you can view information about the database tables in Bus
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
-ms.search.form: 8700,
+ms.search.form: 8700_Primary
 ms.date: 11/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 The **8700 Table Information** page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains.
 
-This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.
+This information is useful for troubleshooting performance problems, because it let's you see the distribution of data size across tables.
 
 ## View table information
 

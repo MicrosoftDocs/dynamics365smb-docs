@@ -1,6 +1,6 @@
 ---
 title: Change which features are displayed
-description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
+description: Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -21,13 +21,13 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| **Essential** |Shows all actions and fields for all common business functionality.|
+| **Essentials** |Shows all actions and fields for all common business functionality.|
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
-The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essential and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=2264940) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2264939).
+The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essentials and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=2264940) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2264939).
 
 > [!IMPORTANT]  
-> Users of type Team Member, Internal Admin, External Accountant, and Delegated Admin can be assigned a different plan than other users in the solution. Only users of type Evaluation or Premium can change the value in the **Experience** field from Essential to Premium.
+> Users of type Team Member, Internal Admin, External Accountant, and Delegated Admin can be assigned a different plan than other users in the solution. Only users of type Evaluation or Premium can change the value in the **Experience** field from Essentials to Premium.
 
 > [!NOTE]
 > In 2024 release wave 1, a user with the Premium plan can sign in to a company that's using the Essentials plan. However, the Premium user can't use any of the features that the Premium license provides. The same isn't true in the opposite direction. Users who have the Essentials plan can't sign in to a company that's using the Premium plan.

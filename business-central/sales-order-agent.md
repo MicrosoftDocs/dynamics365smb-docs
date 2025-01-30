@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 11/22/2024
+ms.date: 01/30/2025
 ms.topic: overview
 author: dmc-dk
 ms.author: dmitrych
@@ -72,7 +72,6 @@ The agent ensures that a request from one customer can't be about another custom
 
 To prevent the agent from requesting intervention and to assist with reviewing incoming messages, the agent verifies whether the contact is registered and displays a notification on the incoming message review page if it isn't. To resolve this issue, you can either register a new contact/customer or update the contact information of an existing contact/customer. The agent generates the notification to indicate that the contact email wasn't found.
 
-
 ### Finding products/items
 
 The agent analyzes incoming emails to detect parameters for preparing a new sales quote or updating an existing one. Apart from the items themselves, parameters might include the item attributes, quantities, units of measure, requested delivery date, external document number, and more. The agent then searches for these items in Business Central's inventory, within a wide range of related tables.
@@ -90,13 +89,33 @@ The agent analyzes incoming emails to detect parameters for preparing a new sale
 
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 
+> [!NOTE]
+> It might take up to 15 minutes for newly entered data to become searchable as the system re-indexes the tables in the background.
+
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more.
 
 ## Agent process flow
 
 Processing a sales quote request into an order involves three participants:
 
-- Customer who requests a sales quote via email
+- Customer who requests a sales quote via email.
+
+    Here's an example of an email:
+
+    > Hello,
+    >
+    > We are in the process of purchasing furniture for our lodge, and after reviewing your website I would like to request a quote for the following items:
+    >
+    > - 2 Antwerp tables
+    > - 4 Berlin chairs
+    > - 4 Rome chairs
+    >
+    > Could you please provide a sales quote? We will need the items delivered by March 2nd. Additionally, please note our purchase order number: DC1011234.
+    >
+    > Thank you,
+    >
+    > [Name]
+
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order
 - Business Central user who reviews agent tasks
 

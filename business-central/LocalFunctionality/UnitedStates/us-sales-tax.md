@@ -13,6 +13,7 @@ ms.reviewer: bholtorf
 ---
 # Sales tax in the US version
 
+
 [!INCLUDE [sales-tax](../includes/CAMXUS/sales-tax-setup.md)]
 
 If you set up new tax areas and tax jurisdictions, you must make sure that you fill in the fields correctly. In the United States, states, counties, cities, and localities can charge sales tax. Companies collect and remit sales tax to these government authorities for products sold to end users. Sales tax can also be charged to existing sales tax. For example, tax can be calculated on a sales invoice amount that already includes the tax from other jurisdictions.  

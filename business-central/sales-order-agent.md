@@ -109,9 +109,11 @@ Processing a sales quote request into an order involves three participants:
     > - 2 Antwerp tables
     > - 4 Berlin chairs
     > - 4 Rome chairs
-    > Could you please provide a sales quote? We will need the items delivered by March 2nd.
-    > Additionally, please note our purchase order number: DC1011234.
+    >
+    > Could you please provide a sales quote? We will need the items delivered by March 2nd. Additionally, please note our purchase order number: DC1011234.
+    >
     > Thank you,
+    >
     > [Your Name]
 
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order

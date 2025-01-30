@@ -90,6 +90,9 @@ The agent analyzes incoming emails to detect parameters for preparing a new sale
 
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 
+> [!Note]
+> It may take up to 15 minutes for newly entered data to become searchable, as the system re-indexes the tables in the background, requiring some time to complete.
+
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more.
 
 ## Agent process flow
@@ -97,6 +100,19 @@ When it finds the items, the agent checks the items' availability by analyzing m
 Processing a sales quote request into an order involves three participants:
 
 - Customer who requests a sales quote via email
+
+> [!Example] Example of an e-mail
+> Hello,
+
+> We are in the process of purchasing furniture for our lodge, and after reviewing your website I would like to request a quote for the following items:
+> - 2 Antwerp tables
+> - 4 Berlin chairs
+> - 4 Rome chairs
+> Could you please provide a sales quote? We will need the items delivered by March 2nd.
+> Additionally, please note our purchase order number: DC1011234.
+> Thank you,
+> [Your Name]
+
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order
 - Business Central user who reviews agent tasks
 

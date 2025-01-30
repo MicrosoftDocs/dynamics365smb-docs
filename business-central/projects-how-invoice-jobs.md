@@ -17,8 +17,8 @@ During a project, costs from resource usage, materials, and project-related purc
 You can invoice:
 
 * Multiple projects using a **Project Create Sales Invoice** task.
-* Whole projects or subprojects within a project, or individual project planning lines using the relevant action in the project pages.
-* Combine multiple project planning lines from different projects into a single sales invoice using the **Get Project Planning Lines** action on the **Sales Invoice** page.
+* Whole projects, some projects within a project, or individual project planning lines using the relevant action in the project pages.
+* Combine multiple project planning lines from different projects into a single sales invoice using **Get Project Planning Lines** action on the **Sales Invoice** page.
 
 ## To create multiple project sales invoices
 

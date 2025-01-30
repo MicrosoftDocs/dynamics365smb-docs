@@ -6,6 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.topic: overview 
+ms.search.form: 2616_Primary
 ms.date: 09/28/2023
 ms.custom: bap-template 
 ---

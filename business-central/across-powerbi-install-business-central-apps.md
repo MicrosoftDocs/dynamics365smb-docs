@@ -79,10 +79,13 @@ After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCL
 
 When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
 
-[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
-
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
+
+### Need Power BI apps for multiple companies?
+
+[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
+
 
 ## Run the Connect to Power BI assisted setup guide
 

@@ -48,7 +48,7 @@ On the **Dimensions** FastTab, you can choose to filter data according to global
 > [!TIP]
 > If you change a setting, to refresh the data on the screen, use the **Recalculate** action.
 
-### How to show or hide the Row No. field on a report
+### Show or hide the Row No. field on a report
 
 The **Row No.** field might show when you view a report on-screen. The field doesn't show when you view the report in a PDF. To show or hide the field, personalize the page. To learn more, go to [Personalize your workspace](ui-personalization-user.md).
 
@@ -84,9 +84,10 @@ You can create an Excel template that contains the reports that you include in y
 
 Follow these steps to produce your monthly financial report.
 
-1. Choose the financial report you used to create the Excel template.
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+1. Choose the financial report you used to create the Excel template, and then choose the **View Financial Report** action.
 1. Change the date filter to the next month.
-1. Choose the **Export to Excel** and **Update Copy of Existing Document** actions.
+1. Choose the **Update Excel template with data** action.
 1. Select the template you saved. Make sure that the Excel file is closed. Otherwise, an error message states that the file is in use.
 1. The next screen shows the tabs that are available in the Excel workbook. Choose the **Data** tab, and then choose **OK**. If you choose the tab labeled **IS**, your formatting is overwritten and you must start over.
 1. The Excel workbook is created. Be sure to enable editing to show your changes.

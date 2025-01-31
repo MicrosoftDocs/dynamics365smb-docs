@@ -202,6 +202,7 @@ To learn more, go to [Install, share, and update template apps in your organizat
 
 ## Related information
 
+[Power BI apps FAQ](across-powerbi-apps-faq.md)  
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

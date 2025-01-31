@@ -72,6 +72,7 @@ For more information, see [Power BI Manufacturing app](manufacturing-powerbi-app
 ## See also
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
+[Power BI apps FAQ](across-powerbi-apps-faq.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

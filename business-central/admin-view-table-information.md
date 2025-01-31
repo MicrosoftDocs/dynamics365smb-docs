@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 8700_Primary
-ms.date: 11/13/2024
+ms.date: 01/31/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 The **8700 Table Information** page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains.
 
-This information is useful for troubleshooting performance problems, because it let's you see the distribution of data size across tables.
+This information is useful for troubleshooting performance problems because it shows the distribution of data sizes across tables.
 
 ## View table information
 
@@ -36,10 +36,10 @@ The following table describes the information provided for each table:
 |Compression|The type of compression, **Row**, **Page**, or **None** that is applied to the table in the database. To learn more, go to [Data compression](/sql/relational-databases/data-compression/data-compression?).|
 
 > [!NOTE]
-> If you delete data in a table, [!INCLUDE[prod_short](includes/prod_short.md)] starts several processes behind the scenes to make sure that everything is cleaned up in your database. The values on the Table Information page will not update until those processes are complete, which can take a while. The amount of time you'll have to wait can vary, depending on the size of your database.
+> If you delete data in a table, [!INCLUDE[prod_short](includes/prod_short.md)] starts several processes behind the scenes to make sure that everything is cleaned up in your database. The values on the Table Information page don't update until those processes are complete, which can take a while. The amount of time it takes can vary, depending on the size of your database.
 
 > [!IMPORTANT]  
-> The **Table Information** page shows data and index sizes, and the sum of table sizes will not match the total capacity used, because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly
+> The **Table Information** page shows data and index sizes. The sum of table sizes doesn't match the total capacity used because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly
 
 ## See also
 

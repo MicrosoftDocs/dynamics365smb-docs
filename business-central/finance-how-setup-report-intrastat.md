@@ -308,9 +308,9 @@ You must enable item tracking for these items, either serial numbers, lots, or b
 
 After you select an item that has item tracking enabled on the purchase line, follow these steps.  
 
-1. Om the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
-2. On the **Item Tracking Lines** page, after you fill in the **Serial No.** or **Lot No.** fields and enter a value in the **Quantity (Base)** field, choose one of the following options:  
-   1. The **Lot No. Information Card** action if you're using lots.
+1. On the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
+2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.**, and entering value in **Quantity (Base)** field, choose one of the following options:  
+   1. The **Lot No. Information Card** action if you're using lots.   
    2. The **Serial No. Information Card** action if you're using serial numbers.  
 3. You can choose **New** (**+**) to create new lot or serial numbers on the **Lot No. Information Card** or **Serial No. Information Card** pages. 
 4. The **Country/Region Code** is populated with the **Country/Region Code** from the purchase document. You can change it if you want.

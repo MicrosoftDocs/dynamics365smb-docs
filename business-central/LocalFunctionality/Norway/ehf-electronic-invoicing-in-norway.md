@@ -91,6 +91,7 @@ To send documents electronically, you must assign European Article Numbering (EA
 You can specify where to store electronic documents on the **Sales & Receivables Setup** page. You can also use the [Document exchange functionality](../../across-how-to-set-up-electronic-document-sending-and-receiving.md) to generate and send them.
 
 ## VAT treatment  
+
 VAT percentages and the type of transaction determine the VAT Type that is exported in the electronic document.  
 
 |XML|Type| 
@@ -109,13 +110,14 @@ VAT percentages and the type of transaction determine the VAT Type that is expor
 |K|VAT exempt for European Economic Area (EEA) intra-community supply of goods and services|
 
 ## VAT scheme
+
 Make sure you set up the correct value in the **VAT Scheme** field on the **Countries/Regions** page.
 
-## See also  
-[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)    
-[How to use e-documents in Business Central](finance-how-use-edocuments.md)    
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-[Set up customers for EHF](how-to-set-up-customers-for-ehf.md)
+## Related information
 
+[Set up e-documents](../../finance-how-setup-edocuments.md)  
+[Use e-documents in the sales process](../../finance-how-use-edocuments.md)  
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Set up customers for EHF](how-to-set-up-customers-for-ehf.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

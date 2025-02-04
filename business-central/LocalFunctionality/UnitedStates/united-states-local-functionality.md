@@ -7,7 +7,7 @@ ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
 ms.date: 01/02/2025
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ---
 
@@ -27,7 +27,7 @@ The following articles describe local functionality that is unique to the United
       * [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now (24.0)**
       * [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now (24.0)**
       * [Work with 1099 APIs](/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api) **Available Now (25.2)**
-  * 1099 Features planned for deprecation from 27.0: 
+  * 1099 Features planned for deprecation from 27.0:
      * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
      * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  
   * [Set Up and Use the IRS 1096 Form](set-up-use-irs1096-form.md) **Available Now**
@@ -42,7 +42,7 @@ The following articles describe local functionality that is unique to the United
   * [E-Invoicing enable for the US market](../../finance-how-setup-edocuments-external.md) **Available Now**
 
 > [!NOTE]
-> If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  
+> If you have customers in Europe, you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  
 
 ## Future legislation requirements being investigated
 
@@ -54,8 +54,8 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+- [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+- [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

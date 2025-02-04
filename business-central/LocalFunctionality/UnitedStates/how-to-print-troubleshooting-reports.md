@@ -4,11 +4,11 @@ description: Several troubleshooting reports are available to assist Microsoft C
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords:
+ms.search.keywords: troubleshooting reports
 ms.date: 11/23/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
 # Print troubleshooting reports in the US version
 
@@ -16,9 +16,8 @@ ms.reviewer: bholtorf
 
 ## See also
 
-[United States Local Functionality](united-states-local-functionality.md)  
-[Finance](../../finance.md)  
-[Setting Up Finance](../../finance.md)  
-
+- [United States Local Functionality](united-states-local-functionality.md)  
+- [Finance](../../finance.md)  
+- [Setting Up Finance](../../finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

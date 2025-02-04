@@ -17,16 +17,16 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
 
 ## New E-Documents framework
 
-This article explains how to set up E-Documents functionality when it's connected to external endpoints.
+This article explains how to set up E-Documents functionality connected to external endpoints.
 
 > [!NOTE]
-> Before you use the features that this article describes, install the **E-Documents Connector with External Endpoints** app or another connector to use on the top of the global **E-Document Core** app. This app can be used for default integration with the external (third-party) access points to automate the e-document flow.
+> Before you use the features that this article describes, install the **E-Documents Connector with External Endpoints** app or another connector to use on the top of the global **E-Document Core** app. This app can be used for default integration with the external (non-Microsoft) access points to automate the e-document flow.
 
 ### Set up the connection
 
 [!INCLUDE [edocuments-connectors-include](../../includes/edocuments-connectors-include.md)]
 
-Based on the endpoint service provider you chose, the next steps might be different. For details about the set up parameters for all available service providers, go to [Connect E-Documents to external access points](../../finance-edocuments-connectors.md).
+Based on the endpoint service provider you chose, the next steps might be different. For details about the setup parameters for all available service providers, go to [Connect E-Documents to external access points](../../finance-edocuments-connectors.md).
 
 ### Set up company information
 

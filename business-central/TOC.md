@@ -11,6 +11,7 @@ ms.service: dynamics-365-business-central
 ## Learn
 ### [Resources for users](resources-for-users.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Visit our video library](across-videos.md)
 ### Business process walkthroughs
 #### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -152,7 +153,6 @@ ms.service: dynamics-365-business-central
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
-### [Visit our video library](across-videos.md)
 ### [Get technical support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 # Business functionality
@@ -258,7 +258,7 @@ ms.service: dynamics-365-business-central
 ##### [Detaild Customer Ledger Entries](finance-powerbi-detailed-customer-ledger-entries.md)
 -->
 
-#### Financial reporting (Implementing financial statements and KPIs)
+#### Financial reporting
 
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
@@ -269,17 +269,18 @@ ms.service: dynamics-365-business-central
 ##### [Walkthrough: Create custom financial reports](bi-examples-custom-financial-reports.md)
 ##### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ##### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-##### [Troubleshoot Financial Reporting](bi-troubleshoot-financial-reports.md)
+##### [Troubleshoot financial reporting](bi-troubleshoot-financial-reports.md)
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-##### [Financial Reporting FAQ](finance-financial-reporting-faq.md)
+##### [Audit changes in financial reporting](finance-financial-reporting-auditing.md)
+##### [Financial reporting FAQ](finance-financial-reporting-faq.md)
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
 
 ##### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 ##### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-##### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+##### [Analyze cash flow](finance-analyze-cash-flow.md)
 ##### [Analyze your payment practices](ui-payment-practices.md)
 
 #### Built-in finance reports
@@ -841,6 +842,7 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
+##### [FA Posting Group - Net Change Report](reports/report-5611.md)
 ##### [Fixed Asset Document Nos.](reports/report-5636.md)
 ##### [Insurance - Analysis](reports/report-5620.md)
 ##### [Insurance - List](reports/report-5621.md)
@@ -1425,6 +1427,7 @@ ms.service: dynamics-365-business-central
 #### Banking & payments
 ##### [Print vendor payments list reports](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 #### Core finance
+##### [German electronic invoicing](LocalFunctionality/Germany/germany-einvoicing.md)
 ##### [Export and print Intrastat reports](LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md)
 ##### [Post a negative entry](LocalFunctionality\Germany\how-to-post-a-negative-entry.md)
 ##### [Process for digital audits](LocalFunctionality/Germany/process-for-digital-audits.md)
@@ -1948,17 +1951,20 @@ ms.service: dynamics-365-business-central
 ### United States
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
-##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
-##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
-##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
-#### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
-#### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
-##### [Set up and use the IRS 1099 form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
-##### [Regulatory 1099 format changes and details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
+##### Sales taxes
+###### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
+###### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+###### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
+###### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+##### IRS1099
+###### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+###### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+###### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+###### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
+###### Deprecated 1099 feature
+####### [Set up and use the IRS 1099 form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+####### [Regulatory 1099 format changes and details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Set up and use the IRS 1096 form](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
-##### [Set up use tax and purchase tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Set up unrealized sales tax and sales payment discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking & payments
 ##### [Create deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Reconcile bank accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
@@ -2276,23 +2282,25 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
-### Power BI apps for Business Central
-#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
-#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
-### [Introduction to Business Central and Power BI](admin-powerbi.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+### Power BI and Business Central
+#### [Power BI overview](admin-powerbi.md)
+#### [Work with Power BI reports](across-working-with-powerbi.md)
+#### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+#### Power BI apps for Business Central
+##### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+##### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+##### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis
 ### [Overview](reports-adhoc-analysis.md)
 ### [Sort, search, and filter](ui-enter-criteria-filters.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Save and personalize list views](ui-views.md)
 ### [Analyze page data in Excel](across-work-with-excel.md)
-### [Analyze report data with Excel](report-analyze-excel.md)
 ### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)
+### [Analyze report data with Excel](report-analyze-excel.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
@@ -2493,6 +2501,7 @@ ms.service: dynamics-365-business-central
 ## Manage Copilot and AI capabilities
 ### [Configure Copilot and AI capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)

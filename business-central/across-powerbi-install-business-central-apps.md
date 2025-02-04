@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 12/06/2024
+ms.date: 01/17/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -70,8 +70,8 @@ Template apps are available to install from Microsoft AppSource. To install or u
 | Purchasing                     | https://aka.ms/bc-pbi-purchase-app                |
 | Inventory                      | https://aka.ms/bc-pbi-inventory-app               |
 | Inventory Valuation            | https://aka.ms/bc-pbi-inventory-valuation-app     | 
-| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-valuation-app |
-| Projects                       | https://aka.ms/bc-pbi-projects-valuation-app      |
+| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-app |
+| Projects                       | https://aka.ms/bc-pbi-projects-app      |
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 
@@ -79,10 +79,13 @@ After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCL
 
 When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] subscription, you must choose a workspace for the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic model and reports. We recommend that you use one workspace for each app because it's easier to set up functional boundaries with access controls for users and user groups.
 
-[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
-
 > [!IMPORTANT]
 > To install a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app, you need a [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] license.
+
+### Need Power BI apps for multiple companies?
+
+[!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
+
 
 ## Run the Connect to Power BI assisted setup guide
 
@@ -139,6 +142,16 @@ To enable the embedded report pages in [!INCLUDE [prod_short](includes/prod_shor
 1. Select the workspace where you store the corresponding [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app.
 1. Select the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report (app) you want to map.
 
+## Restrict the amount of data that loads to Power BI
+
+If you want to restrict the amount of data that loads to the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], you can define filters on each app.
+
+On the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page, choose an app for which you want to set up data filtering. The semantic models use these settings when they refresh the data.
+
+All apps support start and end date filtering, where you specify the start and end date of an interval.
+
+Some apps also support other filter options, such as *Start/End Date* or *Relative Date*. With the *Relative Date* type, you can apply a custom date formula.
+
 ## Connect the Power BI semantic models to Business Central
 
 Do this part of the configuration in the semantic models in your [Power BI service](https://app.powerbi.com).
@@ -189,6 +202,7 @@ To learn more, go to [Install, share, and update template apps in your organizat
 
 ## Related information
 
+[Power BI apps FAQ](across-powerbi-apps-faq.md)  
 [Power BI apps by functional area](across-powerbi-apps-by-functional-area.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  
 [Work with Power BI reports](across-working-with-powerbi.md)  

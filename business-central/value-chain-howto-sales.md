@@ -1,5 +1,5 @@
 ---
-title: Sustainability Value Chain in Sales
+title: Sustainability value chain in sales
 description: Learn about working with items and their embedded carbon footprints during the sales process.
 author: altotovi
 ms.topic: conceptual
@@ -9,26 +9,26 @@ ms.search.form: 42, 43
 ms.date: 01/22/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: 
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Sustainability Value Chain in Sales    
+# Sustainability value chain in sales
 
-When you sell the items, system will update teh **CO2e per Unit** field from the **Item** card for each of the sales lines where emissions exist. This information will come from the **Item** card calculated using the average calculation method.  
+When you sell items, [!INCLUDE [prod_short](includes/prod_short.md)] updates the **CO2e per Unit** field from the **Item** card for each sales line that contains emission values. It uses the average calculation method to calculate the value.  
 
-When you post all sales document, posted document will keep the **CO2e per Unit** and **Total CO2e** values for each of lines.   
+When you post all sales documents, the posted documents keep the **CO2e per Unit** and **Total CO2e** values for each line.
 
-The result of posting will be shown as a new **Sustainability Value Entry** for each of lines with the **Sale** as an **Item Ledger Entry Type**
+The result of posting shows as a new sustainability value entry for each line that has **Sale** as its **Item Ledger Entry Type**.
 
 > [!NOTE]
-> In this moment, the **CO2e per Unit** and **Total CO2e** values are not used in default report layouts, but if users want to show these details on prinouts, they can create new document report to show this data.  
+> The **CO2e per Unit** and **Total CO2e** values aren't used in default report layouts. However, if you want to show these details when you print reports, you can create a new document report to show this data.  
 
-
-## See also  
+## Related information  
 
 [Sustainability Value Chain Overview](value-chain-howto-overview.md)  
 [Sustainability Management overview](finance-manage-sustainability.md)  
-[Sustainability setup](finance-sustainability-setup.md)   
-[Record sustainability entries](finance-sustainability-journal.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+[Sustainability setup](finance-sustainability-setup.md)  
+[Record sustainability entries](finance-sustainability-journal.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

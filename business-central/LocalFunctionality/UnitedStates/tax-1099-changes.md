@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 # Regulatory 1099 format changes and details
 
 > [!IMPORTANT]
-> From version 24.0, you can start using new 1099 functionality for better transparency, integration, and automation. To do this, you must enable this feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you didn't enable it earlier, [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically does it with the version 27.0. Therefore, we recommend you to use version 24.0.
+> From version 24.0, you can start using the 1099 functionality for better transparency, integration, and automation. To do this, you must enable this feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you don't enable it, [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically enables it with version 27.0. Therefore, we recommend you use this version.
 
 The Internal Revenue Service (IRS) periodically issues updates to the format used in the 1099 Form Box. This article lists changes to the codes and requirements in the IRS 1099 forms.
 

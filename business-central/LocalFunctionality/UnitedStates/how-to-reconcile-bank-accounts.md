@@ -73,7 +73,7 @@ You can post bank reconciliation if you reconciled the bank accounts on the **Ba
 Follow these steps to view the posted bank account reconciliations:
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-1. Choose the bank account that you want to view the posted reconciliations for, and then choose the **Related** action, choose the **Bank Acc.** action, and then choose the **Posted Reconciliations** action.  
+1. Choose the bank account that you want to view the posted reconciliations for > **Related** action > **Bank Acc.** action > **Posted Reconciliations** action.  
 1. Select the relevant statement that you want to view.  
 1. In the worksheet that appears, choose the **Print** action or the **Send** action, and make the relevant selections in the report options page.  
 

@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 # Set up and use the IRS 1099 form
 
 > [!IMPORTANT]
-> From version 24.0, you can start using this new 1099 functionality for better transparency, integration, and automation. To do this, you must enable this new feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you don't enable it earlier, [!INCLUDE[prod_short](../../includes/prod_short.md)] will automatically do it with the version 27.0, so we recommend to start using the new version right now.  
+> From version 24.0, you can start using the 1099 functionality for better transparency, integration, and automation. To do this, you must enable this feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you don't enable it, [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically enables it with the version 27.0. Therefore, we recommend you use this version.
 
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
 

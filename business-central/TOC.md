@@ -11,6 +11,7 @@ ms.service: dynamics-365-business-central
 ## Learn
 ### [Resources for users](resources-for-users.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Visit our video library](across-videos.md)
 ### Business process walkthroughs
 #### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -152,7 +153,6 @@ ms.service: dynamics-365-business-central
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
-### [Visit our video library](across-videos.md)
 ### [Get technical support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 # Business functionality
@@ -262,6 +262,7 @@ ms.service: dynamics-365-business-central
 
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [View a financial report](finance-financial-reporting-view-a-report.md)
 ##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
@@ -842,6 +843,7 @@ ms.service: dynamics-365-business-central
 ##### [Fixed Asset Book Value 02](reports/report-5606.md)
 ##### [Fixed Asset - Acquisition List](reports/report-5608.md)
 ##### [Fixed Asset G/L Analysis](reports/report-5610.md)
+##### [FA Posting Group - Net Change Report](reports/report-5611.md)
 ##### [Fixed Asset Document Nos.](reports/report-5636.md)
 ##### [Insurance - Analysis](reports/report-5620.md)
 ##### [Insurance - List](reports/report-5621.md)
@@ -1855,6 +1857,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up payment days and non-payment periods](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 ##### [Cash payments](LocalFunctionality/Spain/payments-in-cash.md)
 #### Electronic invoices
+##### [Electronic invoicing in Spain](LocalFunctionality/Spain/spain-einvoicing.md)
 ##### [Cartera module](LocalFunctionality/Spain/cartera-module.md)
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
@@ -2286,23 +2289,25 @@ ms.service: dynamics-365-business-central
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
-### Power BI apps for Business Central
-#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
-#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
-### [Introduction to Business Central and Power BI](admin-powerbi.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+### Power BI and Business Central
+#### [Power BI overview](admin-powerbi.md)
+#### [Work with Power BI reports](across-working-with-powerbi.md)
+#### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+#### Power BI apps for Business Central
+##### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+##### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+##### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis
 ### [Overview](reports-adhoc-analysis.md)
 ### [Sort, search, and filter](ui-enter-criteria-filters.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Save and personalize list views](ui-views.md)
 ### [Analyze page data in Excel](across-work-with-excel.md)
-### [Analyze report data with Excel](report-analyze-excel.md)
 ### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)
+### [Analyze report data with Excel](report-analyze-excel.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)

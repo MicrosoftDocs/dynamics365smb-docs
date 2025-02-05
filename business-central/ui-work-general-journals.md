@@ -18,7 +18,9 @@ Most financial transactions are posted to the general ledger through documents s
 * Purchasing
 * Payments
 * Using recurring journals to post accruals
-* Refunding employee expenses by posting journal lines in journals  
+* Refunding employee expenses 
+
+by posting journal lines from journals.
 
 Most journals are based on the general journal, and you can process all transactions on the **General Journals** page. Learn more at [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 

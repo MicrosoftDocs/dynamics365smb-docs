@@ -1,17 +1,18 @@
 ---
-title: Create Production Order Headers
+title: Create a production order
 description: You can create a production order manually, and the first step is to create a production order header.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 9325, 99000815, 99000829, 9900083
-ms.date: 04/01/2021
+ms.date: 02/05/2025
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Create Production Order Headers
+
+# Create a production order header
 
 You can create a production order manually, and the first step is to create a production order header.
 
@@ -32,7 +33,18 @@ In the following procedure, a firm planned production order is created. You can 
 
 When production requirements change, such as components or operations, you can quickly replan the production order. For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).  
 
-## See Also
+## Print barcodes for the finished goods
+
+To remove a step or two from the process of tracking finished goods, [!INCLUDE [prod_short](includes/prod_short.md)] offers a **Print Label** action on the **Released Production Order** and **Finished Production Order** pages. The action prints a report that includes the **Item No.**, **Description**, **Unit of Measure**, and 1D and 2D barcode information from the orders. On the request page, you can also specify whether to print the **Lot No.**, **Serial No.** or **Package No.** values as barcodes.
+
+> [!NOTE]
+> Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template.
+>
+> Check with your equipment supplier to learn how to print Word documents on your device.
+
+ If you decide to clone the report to create your own custom version, you can easily connect if you select **Prod. Output Item Label** on the **Report Selection Production Order** page.
+
+## Related information
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

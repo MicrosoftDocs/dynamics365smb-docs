@@ -4,8 +4,8 @@ description: Several troubleshooting reports are available to assist Microsoft C
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: troubleshooting reports
-ms.date: 11/23/2023
+ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
+ms.date: 02/04/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

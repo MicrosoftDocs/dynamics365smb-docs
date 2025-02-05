@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, tax, IRS, IRIS, FIRE
 ms.search.form: 100136, 10037, 10048, 10050, 10051
-ms.date: 04/01/2024
+ms.date: 02/04/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central

@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
-ms.date: 03/28/2024
+ms.date: 02/04/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central

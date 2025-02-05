@@ -6,11 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: use tax, purchase tax, sales tax
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 06/22/2021
+ms.date: 02/04/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
+
 # Set up Use Tax and Purchase Tax in the US version
 
 [!INCLUDE [use-tax-purchase-tax-setup](../includes/CAMXUS/use-tax-purchase-tax-setup.md)]

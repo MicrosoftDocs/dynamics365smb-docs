@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Set up unrealized sales tax and sales payment discounts
+# Set up unrealized sales tax and sales payment discounts in the Canadian Version
 
 [!INCLUDE [unrealized-sales-tax-sales-payment-discounts-setup](../includes/CAMXUS/unrealized-sales-tax-sales-payment-discounts-setup.md)]
 

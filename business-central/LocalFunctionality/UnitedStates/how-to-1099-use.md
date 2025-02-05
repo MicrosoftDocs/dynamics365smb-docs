@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, tax, taxes, IRS
 ms.search.form: 50, 51, 132, 10036, 10037, 10049
-ms.date: 05/09/2024
+ms.date: 02/04/2025
 ms.author: altotovi
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
@@ -52,8 +52,8 @@ If you didn’t configure the vendor properly, and forgot to add specific **Form
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1099 Vendor Form Box Setup**, and then choose the related link.  
 1. On the **IRS 1099 Vendor Form Box Setup** page, configure all necessary information and then choose the **Propagate** action for this vendor.
-1. Choose how the new form box setup makes updates. You need to decide for which period you want to propagate this change and if you want to update existing opened purchase documents or vendor ledger entries, or both. 
-1. Close the page. Now you can continue with 1099 forms calculations. 
+1. Choose how the new form box setup makes updates. You need to decide for which period you want to propagate this change and if you want to update existing opened purchase documents or vendor ledger entries, or both.
+1. Close the page. Now you can continue with 1099 forms calculations.
 
 ## Create 1099 form documents
 

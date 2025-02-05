@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: local, sales tax, tax group
 ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
-ms.date: 07/12/2024
+ms.date: 02/04/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

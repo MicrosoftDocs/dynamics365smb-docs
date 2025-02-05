@@ -6,7 +6,7 @@ ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: tax, setup
 ms.search.form: 485
-ms.date: 09/21/2022
+ms.date: 02/04/2025
 ms.author: bholtorf
 ms.reviewer: v-soumramani
 ---

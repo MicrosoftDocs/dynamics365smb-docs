@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: local, 1099
 ms.search.form: 10015, 10016, 10018, 10900, 315, 466, 467, 468, 469
-ms.date: 04/01/2024
+ms.date: 02/04/2025
 ms.reviewer: v-soumramani
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

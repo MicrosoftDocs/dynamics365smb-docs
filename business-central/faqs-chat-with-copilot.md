@@ -68,7 +68,7 @@ You can provide feedback to every Copilot response and report inaccurate or inap
   
 - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810).
   
-- Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
+- Microsoft might disable the Copilot features for selected customers if abuse of the functionality is detected.
 
 ## What are the limitations of Chat with Copilot? How can users minimize the impact of the Chat with Copilot limitations when using the system?
 
@@ -78,11 +78,9 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
 - Language limitations
 
-  - Chat is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. 
+  - [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
-    If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of these locales, chat isn't available. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
-
-    If you chat with Copilot in any other language, Copilot might respond in the same language, in English, or not at all. While in preview, chat is intended for use with the English language only.
+    If you chat with Copilot in a language other than English, Copilot might either respond in the same language, in English, or not at all. While in preview, chat is intended for use with the English language only.
 
   - The quality of answers can be lower under the following conditions:
     - The language of chat messages to Copilot is something other than en-US.

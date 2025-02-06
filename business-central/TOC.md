@@ -262,6 +262,7 @@ ms.service: dynamics-365-business-central
 
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [View a financial report](finance-financial-reporting-view-a-report.md)
 ##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
@@ -272,8 +273,9 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot financial reporting](bi-troubleshoot-financial-reports.md)
 ##### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 ##### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-##### [Audit changes in financial reporting](finance-financial-reporting-auditing.md)
+##### [Audit changes to financial reporting](finance-financial-reporting-auditing.md)
 ##### [Financial reporting FAQ](finance-financial-reporting-faq.md)
+
 #### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 #### Built-in finance analysis tools
@@ -1856,6 +1858,7 @@ ms.service: dynamics-365-business-central
 ##### [Set up payment days and non-payment periods](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 ##### [Cash payments](LocalFunctionality/Spain/payments-in-cash.md)
 #### Electronic invoices
+##### [Electronic invoicing in Spain](LocalFunctionality/Spain/spain-einvoicing.md)
 ##### [Cartera module](LocalFunctionality/Spain/cartera-module.md)
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
@@ -2117,6 +2120,7 @@ ms.service: dynamics-365-business-central
 #### [Set up service contracts](service-how-setup-service-contracts.md)
 ### Set up best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
+### [Get Business Central on your desktop](install-desktop-app.md)
 #### Setup best practices: supply planning
 ##### [Setup supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)
@@ -2125,6 +2129,9 @@ ms.service: dynamics-365-business-central
 #### [Setup best practices: Costing methods](setup-best-practices-costing-method.md)
 ### [Get Business Central on your mobile device](install-mobile-app.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
+
+### [Audit changes to your setup](across-setup-auditing.md)
+
 ### Set up email
 #### [Set up email](admin-how-setup-email.md)
 #### Set up your business inbox in Microsoft Outlook
@@ -2147,7 +2154,7 @@ ms.service: dynamics-365-business-central
 #### [Create workflows from workflow templates](across-how-to-create-workflows-from-workflow-templates.md)
 #### [Export and import approval workflows](across-how-to-export-and-import-workflows.md)
 #### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-<!--Connectors-->
+<!--Connectors start-->
 ### Set up connections
 #### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
@@ -2192,6 +2199,7 @@ ms.service: dynamics-365-business-central
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
+<!-- Connectors end -->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
 #### [Universal print Printers](admin-printer-setup-universal-print.md)

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/11/2024
+ms.date: 02/06/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 108, 490, 790
@@ -56,7 +56,19 @@ To control which reports update when you generate financial reports, update the 
 
 You can remap and update these reports at any time. If you choose to regenerate them, you can choose to keep the original reports and create copies with the new mapping.
 
-## See also
+## Audit changes to account categories
+
+If you want to monitor your account categories and log changes to their definitions, consider setting up the Change Log to audit the data. When you set up the Change Log, you specify the tables you want to monitor. The following table lists the table for account categories and its ID.
+
+| Table | Table ID |
+|------ | -------- |
+| G/L Account Category | 570 |
+
+To learn more about the Change Log, go to [Log changes](across-log-changes.md).
+
+To add an extra layer of security to your account category definitions, you can monitor changes and get an email when someone changes a value. To learn more, go to [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
+
+## Related information
 
 [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
 [Design your own financial reports](bi-design-financial-reports.md)  

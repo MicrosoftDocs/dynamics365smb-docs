@@ -76,8 +76,8 @@ On the **Field Service Setting** page, make the following changes:
 
 After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-* Download and install the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the Field Service Integration app, and choose the **Set up** action to run the assisted setup guide.
-* On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide.
+1. Download and install the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the Field Service Integration app, and choose the **Set up** action to run the assisted setup guide.
+2. On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide.
 
 This section describes the key settings in the guide.
 
@@ -109,6 +109,10 @@ The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](incl
 * The **Use as In-Transit** toggle is turned off.
 * **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
 * **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. To let people view item availability, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages, turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, an Inventory Availability by Location API becomes available as a Dataverse virtual table and a synthetic relationship is created between this virtual table and the native **Products** table in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).  
+
+In [!INCLUDE [field-service-short](includes/field-service-short.md)], you can use the **Open in Business Central** action to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
 
 ## Standard Field Service entity mapping for synchronization
 

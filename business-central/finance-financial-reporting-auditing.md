@@ -1,5 +1,5 @@
 ---
-title: Audit changes in financial reporting
+title: Audit changes to financial reporting
 description: Learn how to track the changes people make to your financial reports.
 author: kennienp
 ms.author: kepontop
@@ -11,15 +11,23 @@ ms.search.keywords: account schedule, financial report, auditing
 ms.search.form: Report_25, 103, 108, 488
 ms.service: dynamics-365-business-central
 ---
-# Audit changes in financial reporting
+# Audit changes to financial reporting
 
 Financial reporting helps you gather insights into the financial data in your chart of accounts (COA). This article explains ways to monitor changes to your financial report definitions, and how to control access to financial reports.
 
-## Set up the change log for financial report definitions
+## Set up the Change Log for financial report definitions
 
 The Change Log captures changes people make to the definitions for financial reports. For example, you can find out what changed, who changed it, and when the change was made.
 
-To learn more, go to [Audit changes to your setup](across-setup-auditing.md#audit-changes-to-your-setup)
+To use the Change Log for financial reporting, you specify the tables you want it to monitor. The following table lists the tables and their IDs.
+
+| Table | Table ID |
+|------ | -------- |
+| Report Definition       | 88  |
+| Row Definition          | 84  |
+| Column Definition       | 333 |
+
+To learn more about the Change Log, go to [Log changes](across-log-changes.md).
 
 ## Get notified when financial report definitions change
 

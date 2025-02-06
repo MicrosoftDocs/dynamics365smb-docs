@@ -141,6 +141,17 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 
 You can use the Change Log feature to capture changes users make to your posting group setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)]
 
+The following table lists the table for posting group and their IDs.
+
+| Table | Table ID |
+| ----- | -------- |
+| Gen. Product Posting Group | 251 |
+| Customer Posting Group | 92 |
+| Inventory Posting Group | 94 |
+| FA Posting Group | 5606 |
+| Vendor Posting Group | 93 |
+
+
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 

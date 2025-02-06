@@ -22,18 +22,21 @@ You can use the Change Log feature to capture changes to your setup. For example
 
 To use the Change Log to monitor your setup, you must specify the tables you want it to monitor. The following table lists some examples of finance setup tables where you might want to setup change tracking. To learn more about the Change Log, go to [Log changes](across-log-changes.md).
 
-| If you want to audit changes to... | Table | Table ID |
-| ---------------------------------- | ----- | -------- |
-| Financial Reporting | Report Definition | 88  |
-| Financial Reporting | Row Definition    | 84  |
-| Financial Reporting | Column Definition | 333 |
-| Payment methods     | Payment Method    | 289 |
-| Payment terms       | Payment Terms     | 3 |
-| Posting groups      | Gen. Product Posting Group | 251 |
-| Posting groups      | Customer Posting Group | 92 |
-| Posting groups      | Inventory Posting Group | 94 |
-| Posting groups      | FA Posting Group | 5606 |
-| Posting groups      | Vendor Posting Group | 93 |
+| If you want to audit changes to... | Table | Table ID | Learn more... |
+| ---------------------------------- | ----- | -------- | ------------- |
+| Financial Reporting  | Report Definition | 88  | [Audit changes to financial reporting](finance-financial-reporting-auditing.md) |
+| Financial Reporting  | Row Definition    | 84  | [Audit changes to financial reporting](finance-financial-reporting-auditing.md) |
+| Financial Reporting  | Column Definition | 333 | [Audit changes to financial reporting](finance-financial-reporting-auditing.md) |
+| General ledger (G/L) | G/L Account       | 15 | [Audit changes to G/L accounts setup](finance-chart-of-accounts.md#audit-changes-to-gl-accounts-setup) |
+| General ledger (G/L) | G/L Account Category | 570 | [Audit changes to account categories](bi-account-categories.md#audit-changes-to-account-categories) |
+| Payment methods      | Payment Method    | 289 | [Audit changes to payment methods](finance-payment-methods.md#audit-changes-to-payment-methods) |
+| Payment terms        | Payment Terms     | 3 | [Audit changes to payment terms](finance-payment-terms.md) |
+| Posting groups       | Gen. Product Posting Group | 251 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
+| Posting groups       | Customer Posting Group | 92 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
+| Posting groups       | Inventory Posting Group | 94 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
+| Posting groups       | FA Posting Group | 5606 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
+| Posting groups       | Vendor Posting Group | 93 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
+
 
 To learn more about setting up the finance area, go to [Setting Up Finance](finance-setup-finance.md).
 

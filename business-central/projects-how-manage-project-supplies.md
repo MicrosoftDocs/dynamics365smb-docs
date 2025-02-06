@@ -7,14 +7,14 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020 
-ms.date: 08/20/2024
+ms.date: 01/27/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
 ---
 # Manage project supplies
 
-You should manage project supplies of items, services, and expenses as an integral and critical aspect of all projects. You can use inventory quantities or make project-specific purchases through purchase orders or purchase invoices. For example, a service project on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the project that uses it.
+You should manage project supplies of items, services, and expenses as an integral part of all projects. You can use inventory quantities or make project-specific purchases through purchase orders or purchase invoices. For example, when service on a computer requires a new disk, you create a purchase invoice to buy a new disk and record the project that uses it.
 
 If the purchase process doesn't require you to record the physical transaction separately, you can process a purchase on the **Project G/L Journal** page. For more information, see [To post a project-related expense](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
 
@@ -33,16 +33,16 @@ Later, you can review the purchase lines linked to the project either from the *
 
 ### Use a semi-automated replenishment process for a project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
 2. Open a project that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 4. The **Create Purchase Orders** page shows a line for each item on the project. Lines for both fully available quantities and unavailable quantities show by default. To show only unavailable quantities, choose the **Show Unavailable** action.
-5. The **Quantity to Purchase** field contains the unavailable quantity. To purchase a different quantity, edit the value in the field. 
+5. The **Quantity to Purchase** field contains the unavailable quantity. To purchase a different quantity, edit the value in the field.
 
    > [!Note]
    > You can also change the **Quantity to Purchase** field on unavailable lines, even though they represent fully available quantities.
 
-6. You can also turn on the **Reserve** toggle if you want to reserve the quantity on the purchase line against a demand ninstead of filling out the **Project No.** and **Project Task NO.** fields on the purchase line. By default, the **Reserve** toggle is hidden on the page. You can personalize the page to add the toggle. To learn more, go to [Personalize your workspace](ui-personalization-user.md).
+6. You can also turn on the **Reserve** toggle if you want to reserve the quantity on the purchase line against a demand instead of filling out the **Project No.** and **Project Task NO.** fields on the purchase line. By default, the **Reserve** toggle is hidden on the page. You can personalize the page to add the toggle. To learn more, go to [Personalize your workspace](ui-personalization-user.md).
 7. Select **OK**.
 
 You can review the purchase lines linked to the project either from the **Project Card** page or **Project Planning Lines** by choosing the **Purchase Lines** action.
@@ -51,21 +51,29 @@ You can review the purchase lines linked to the project either from the **Projec
 
 The following procedure shows how to use a purchase invoice to purchase products for a project. The same steps apply when using a purchase order.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Project No.** and **Project Task No.** fields, select the information of the project that you want to purchase items or services for. Use the personalization tools if a field isn't visible. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
     The value that you select in the **Project Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then project planning lines that are ready to be invoiced to the customer are created. To learn more, go to [Invoice Projects](projects-how-invoice-jobs.md).
-4. Choose the **Post** action.
 
-## To view the value of purchases for a project
+### How posting purchases affects inventory and WIP
+
+When you post a receipt, the inventory is received and immediately written-off by an item ledger entry of the type **Negative Adjustment**. To avoid affecting WIP calculation, the project ledger entries don't include purchase order lines that aren't of the type **G/L Account**.
+
+Project ledger entries are created as follows:
+
+* From a purchase order, when you choose the **Post** action and choose **Invoice**.
+* From a purchase invoice, when you choose the **Get Receipt Lines** action on the **Lines** FastTab, and then the **Post** action.
+
+### To view the value of purchases for a project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
 2. Open a relevant project card.
 
     On the **Tasks** FastTab, the **Outstanding Orders** field shows the total outstanding amount, in local currency, of inventory items and services on purchase documents for the project task line.  
 
-    The **Amt. Rec. Not Invoiced** field shows the value of items delivered on purchase documents, but not yet invoiced.  
+    The **Amt. Rec. Not Invoiced** field shows the value of items delivered on purchase documents but not invoiced.  
 3. Choose either of the fields to open the **Purchase Lines** page where you can review information about the related purchase document lines, including which items or services are received.
 
 ## To post a project-related expense
@@ -76,7 +84,7 @@ If you incur extraordinary or one-time project expenses, you can use the **Proje
 2. Create a new line and enter information about the expense, including information in the **Project No.** and **Project Task No** fields.  
 3. When the journal is complete, choose the **Post** action.
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

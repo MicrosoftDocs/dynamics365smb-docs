@@ -35,7 +35,7 @@ For example, invoice will be issued for INR 10000 on which there is no GST is ch
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
-    |**Purchas or Services Account**|10000|  
+    |**Purchase or Services Account**|10000|  
     |**Vendor Account**|-10000|
 
 

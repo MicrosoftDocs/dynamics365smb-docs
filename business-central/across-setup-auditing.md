@@ -1,5 +1,5 @@
 ---
-title: Audit changes to your setup for financial reporting
+title: Audit changes to your setup
 description: Learn how to track the changes people make to your setup.
 author: kennienp
 ms.author: kepontop
@@ -12,9 +12,9 @@ ms.search.form: 103, 108, 488
 ms.service: dynamics-365-business-central
 ---
 
-# Audit changes to your setup for financial reporting
+# Audit changes to your setup
 
-[!INCLUDE[prod_short](includes/prod_short.md)] allows you to configure your system in many ways. This article explains ways to monitor changes to your setup for financial reporting.
+[!INCLUDE[prod_short](includes/prod_short.md)] allows you to configure your system in many ways. This article explains ways to monitor changes to your setup for financial auditing.
 
 ## Set up the Change Log to capture changes
 

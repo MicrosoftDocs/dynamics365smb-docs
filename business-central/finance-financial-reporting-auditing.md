@@ -42,7 +42,7 @@ You can use the Data Analysis feature to answer questions such as:
 - Which definition changed?
 - Who changed it, and when?
 
-To learn more, go to [Get notified when system setup change](across-setup-auditing.md#analyze-changes-to-system-setup).
+To learn more, go to [Analyze changes to your setup](across-setup-auditing.md#analyze-changes-to-your-setup).
 
 ## Permissions to view or edit financial reports
 

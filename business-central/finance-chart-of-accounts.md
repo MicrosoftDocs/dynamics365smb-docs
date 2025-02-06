@@ -5,7 +5,7 @@ author: kennienp
 ms.topic: conceptual
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 08/06/2024
+ms.date: 02/06/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -15,19 +15,19 @@ ms.service: dynamics-365-business-central
 
 A chart of accounts (COA) serves as a comprehensive directory of financial accounts and their corresponding reference numbers. A COA typically has of two main categories of accounts:
 
-- Balance sheet accounts: These accounts track your company’s assets, debts, and net worth.
-- Income statement accounts: These accounts record income from various sources and also track expenses.
+* Balance sheet accounts: These accounts track your company’s assets, debts, and net worth.
+* Income statement accounts: These accounts record income from various sources and also track expenses.
 
 Balance sheet accounts are further categorized into three groups:
 
-1. Asset accounts: These accounts track all the valuable resources owned by your company.
-1. Liability accounts: They record your company’s debts.
-1. Equity accounts: Represent the residual value in the business after subtracting liabilities from assets.
+* Asset accounts: These accounts track all the valuable resources owned by your company.
+* Liability accounts: They record your company’s debts.
+* Equity accounts: Represent the residual value in the business after subtracting liabilities from assets.
 
 Income accounts are divided into two groups:
 
-1. Revenue accounts: These accounts capture your company’s income from various sources.
-1. Expense accounts: These accounts capture all your company’s expenses.
+* Revenue accounts: These accounts capture your company’s income from various sources.
+* Expense accounts: These accounts capture all your company’s expenses.
 
 Use the COA to record transactions in your organization’s general ledger. Each account typically has an identifier (account number) and a descriptive caption or header, and they're systematically coded based on their account type.
 
@@ -94,9 +94,7 @@ In a small organization, such as the CRONUS demonstration company, most users ca
 
 ## Audit changes to G/L accounts setup
 
-If you need to log and monitor changes to your G/L accounts setup, consider setting up change log on this data.
-
-To do so, you must specify the tables you want to monitor. The following table lists the tables and their IDs.
+If you want to monitor your G/L accounts and log changes to their definitions, consider setting up the Change Log to audit the data. When you set up the Change Log, you specify the tables you want to monitor. The following table lists the table for G/L accounts and its ID.
 
 | Table | Table ID |
 |------ | -------- |
@@ -104,7 +102,7 @@ To do so, you must specify the tables you want to monitor. The following table l
 
 To learn more about the Change Log, go to [Log changes](across-log-changes.md).
 
-To add an extra layer of security around your account category definitions, you can monitor changes and get an email when someone changes a value. To learn more, go to [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
+To add an extra layer of security around your G/L account definitions, you can monitor changes and get an email when someone changes a value. To learn more, go to [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
 
 <!-- ## Standard chart of accounts in different regions
 Uncomment when we have more examples added to our localization documentation

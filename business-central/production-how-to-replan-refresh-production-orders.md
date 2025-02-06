@@ -27,7 +27,8 @@ The Refresh function calculates changes made to a production order header and do
 You can either insert the production order lines manually or use the function that calculates the production order lines from the header.  
 
 > [!NOTE]
-> If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
+> If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.
+> Even if the **Lines** option is disabled, non-top-level lines in a Make-to-order environment will be deleted; use the Replan function to restore them.
 
 ## To replan a production order
 

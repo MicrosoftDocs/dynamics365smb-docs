@@ -43,13 +43,13 @@ The following excerpt of a row definition illustrates how row formulas work (not
 | R	      | Product Revenue	 | Posting Accounts      | 40000..40209                 | | Yes | 
 | R	      | Discounts and Returns | Posting Accounts | 40910..40919 \| 40940..49999 | | Yes | 
 | F1      | Total Revenue    | Formula               | R                            | | Yes | 
-|         | Revenue calculation end   | Formula      |                              | | No   |
+|         | ## Revenue calculation end   | Formula      |                              | | No   |
 | L       | Total liabilites  | Account Category     | Liabilities                  | | Yes | 
-|         | ## Revenue to liabilities | Formula      | F1 / L                          | | Yes | 
+|         | Revenue to liabilities | Formula      | F1 / L                          | | Yes | 
 
 The example illustrates some different tips and tricks:
 * you can use a formula row as a "code comment" (remember to set the Show option to No).
-* the formula in row F1 summarizes all numbers from rows with row No. **R** (so Row No. do not need to be unique)
+* the formula in row F1 summarizes all numbers from rows with Row No. **R** (so Row No. do not need to be unique)
 * you can use results from previous calculations in new row formulas
 
 
@@ -112,12 +112,12 @@ The following excerpt of a row definition illustrates how you can use account ca
 
 | Row No. | Description	| Totaling Type | Totaling | ... | Show | 
 | ------- | -----------	| ------------- | -------- | --- | ---- |
-|         | Worlds smallest balance sheet | Formula     |  | | No |
+|         | // Worlds smallest balance sheet | Formula |   | | No |
 | A       | ASSETS        | Account Category | Assets      | | Yes |
 | L       | LIABILITIES   | Account Category | Liabilities | | Yes |
-|         |               | Underline   |                  | | Yes |
-|         | Balance       | Formula     | A+L              | | Yes |
-|         |               | Double underline               | | Yes |
+|         |               | Underline        |             | | Yes |
+|         | Balance       | Formula          | A+L         | | Yes |
+|         |               | Double underline |             | | Yes |
 
 
 > [!NOTE]

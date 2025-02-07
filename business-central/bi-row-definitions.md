@@ -110,14 +110,14 @@ Another benefit of using G/L account categories over the raw G/L accounts in you
 
 The following excerpt of a row definition illustrates how you can use account categories (note that your chart of accounts structure and use of account categories might look different than in the example):
 
-| Row No. | Description	| Totaling Type | Totaling | ... | Show | 
-| ------- | -----------	| ------------- | -------- | --- | ---- |
-|         | // Worlds smallest balance sheet | Formula |   | | No |
-| A       | ASSETS        | Account Category | Assets      | | Yes |
-| L       | LIABILITIES   | Account Category | Liabilities | | Yes |
-|         |               | Underline        |             | | Yes |
-|         | Balance       | Formula          | A+L         | | Yes |
-|         |               | Double underline |             | | Yes |
+| Row No. | Description	                     | Totaling Type    | Totaling    | ... | Show | 
+| ------- | -------------------------------- | ---------------- | ----------- | --- | ---- |
+|         | // Worlds smallest balance sheet | Formula          |             |     | No   |
+| A       | Total assets                     | Account Category | Assets      |     | Yes  |
+| L       | Total liabilities                | Account Category | Liabilities |     | Yes  |
+|         |                                  | Underline        |             |     | Yes  |
+|         | Balance                          | Formula          | A+L         |     | Yes  |
+|         |                                  | Double underline |             |     | Yes  |
 
 
 > [!NOTE]

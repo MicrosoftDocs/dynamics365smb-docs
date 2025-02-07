@@ -31,9 +31,9 @@ To create or edit a row definition, follow these steps:
 
 1. To format the rows, choose the **Bold**, **Italic**, **Underline**, and **Double Underline** checkboxes. To learn more about formatting, go to [Format your financial reporting](#format-rows-in-your-financial-reports).
 
-## Working with formulas in row lines
+## Working with row formulas
 
-A powerful feature in Financial Reporting is that you can use values computed in previous rows in formulas in subsequent rows. This is done by setting the **Totaling Type** to *Formula* and then write your calculation in corresponding **Totalling** field on the same row.
+A powerful feature in Financial Reporting is that you can use values computed in previous rows in row formulas defined in subsequent rows. This is done by setting the **Totaling Type** to *Formula* and then write your calculation in corresponding **Totalling** field on the same row.
 
 The following excerpt of a row definition illustrates how row formulas work (note that your chart of accounts structure might look different than the accounts shown below):
 
@@ -107,6 +107,18 @@ The following table describes the different visibility options on a row:
 You can use G/L account categories to change the layout of your financial statements. For example, after you set up your account categories on the **G/L Account Categories** page, you can choose the **Generate Financial Reports** action and update the underlying financial reports for the core financial reports. The next time you run one of these reports, such as the **Balance Statement** report, new totals, and subentries are added.
 
 Another benefit of using G/L account categories over the raw G/L accounts in your row definitions is that a change in your chart of accounts structure doesn't affect your financial reports.
+
+The following excerpt of a row definition illustrates how you can use account categories (note that your chart of accounts structure and use of account categories might look different than in the example):
+
+| Row No. | Description	| Totaling Type | Totaling | ... | Show | 
+| ------- | -----------	| ------------- | -------- | --- | ---- |
+|         | Worlds smallest balance sheet | Formula     |  | | No |
+| A       | ASSETS        | Account Category | Assets      | | Yes |
+| L       | LIABILITIES   | Account Category | Liabilities | | Yes |
+|         |               | Underline   |                  | | Yes |
+|         | Balance       | Formula     | A+L              | | Yes |
+|         |               | Double underline               | | Yes |
+
 
 > [!NOTE]
 > The top-level account categories, such as the **Liabilities** node, are fixed, and you can't add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.

@@ -30,7 +30,7 @@ To use the Change Log to monitor your setup, you must specify the tables you wan
 | General ledger (G/L) | G/L Account       | 15 | [Audit changes to G/L accounts setup](finance-chart-of-accounts.md#audit-changes-to-gl-accounts-setup) |
 | General ledger (G/L) | G/L Account Category | 570 | [Audit changes to account categories](bi-account-categories.md#audit-changes-to-account-categories) |
 | Payment methods      | Payment Method    | 289 | [Audit changes to payment methods](finance-payment-methods.md#audit-changes-to-payment-methods) |
-| Payment terms        | Payment Terms     | 3 | [Audit changes to payment terms](finance-payment-terms.md) |
+| Payment terms        | Payment Terms     | 3 | [Audit changes to payment terms](finance-payment-terms.md#audit-changes-to-payment-terms ) |
 | Posting groups       | Gen. Product Posting Group | 251 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
 | Posting groups       | Customer Posting Group | 92 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |
 | Posting groups       | Inventory Posting Group | 94 | [Audit changes to posting groups](finance-posting-groups.md#audit-changes-to-posting-groups) |

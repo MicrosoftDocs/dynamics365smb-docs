@@ -24,12 +24,38 @@ To create or edit a row definition, follow these steps:
 1. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, explore the financial reports in the CRONUS demonstration company.
 
     > [!NOTE]
-    > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. Adding elements with identifiers that start with the same 10 characters creates duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
+    > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. You use these identifiers for calculated rows in the **Totalling** field. If needed, you can manually edit the identifiers after you insert the elements. 
 
    > [!NOTE]
-   > The columns you define on each line in the row definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
+   > The columns you define in a column definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
-1. To format the rows, choose the **Bold**, **Italic**, **Underline**, and **Double Underline** checkboxes. To learn more about formatting, go to [Format your financial reporting](#format-your-financial-reporting).
+1. To format the rows, choose the **Bold**, **Italic**, **Underline**, and **Double Underline** checkboxes. To learn more about formatting, go to [Format your financial reporting](#format-rows-in-your-financial-reports).
+
+## Working with formulas in row lines
+
+A powerful feature in Financial Reporting is that you can use values computed in previous rows in the row definition in formulas in subsequent rows. This is done by setting the **Totaling Type** to *Formula* and then write your calculation in corresponding **Totalling** field on the same row.
+
+The following excerpt of a row definition illustrates how row formulas work
+
+| Row No. | Description	| Totaling Type | Totaling | ... | Show | 
+| ------- | -----------	| ------------- | -------- | --- | ---- |
+|         | Revenue calculation start | Formula      |                              | | No   |
+| R	      | Product Revenue	 | Posting Accounts      | 40000..40209                 | | Yes | 
+| R	      | Job Revenue	     | Posting Accounts      | 40410..40429                 | | Yes | 
+| R	      | Services Revenue | Posting Accounts      | 40210..40309 \| 40430..40909 | | Yes | 
+| R	      | Other Revenue	 | Posting Accounts      | 40310..40409 \| 40920..40939 | | Yes | 
+| R	      | Discounts and Returns | Posting Accounts | 40910..40919 \| 40940..49999 | | Yes | 
+| F1      | Total Revenue    | Formula               | R                            | | Yes | 
+|         | Revenue calculation end   | Formula      |                              | | No   |
+| ... | ...	| ... | ... | ... | ... |
+| F2      | Total Discounts  | Formula               | D                     | | Yes | 
+| F       | Total Revenue - Discount  | Formula      | R-D                   | | Yes | 
+
+The example illustrates some different tips and tricks:
+* you can use a formula row as a "code comment" (remember to set the Show option to No).
+* the formula in row F1 summarizes all numbers from rows with row No. **R** (so Row No. do not need to be unique)
+* you can use results from previous calculations in new row formulas
+
 
 ## Built-in row definitions
 
@@ -47,12 +73,38 @@ To create or edit a row definition, follow these steps:
 > [!NOTE]
 > The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending on how you set up your G/L accounts, dimensions, G/L account categories, and budgets, adjust the sample row and column definitions and the finance reports that use them to match your setup.
 
-## Format your financial reporting
+## Format rows in your financial reports
 
-On the **Row Definition** page, you can format your row definitions to provide visual cues that make it easier to find key information quickly. For example, lines that calculate totals often use bold font.
+On the **Row Definition** page, you can format the rows in a row definition to provide visual cues that make it easier to find key information quickly. For example, lines that calculate totals often use bold font.
+
+The following table describes the different formatting options on a row:
+
+| Formatting property | How the row is displayed | On-screen | PDF/Print | 
+| ------------------- | ------------------------ | --------- | --------- | 
+| Bold                | The row header will be formatted in bold. | Yes | Yes | 
+| Italic              | The row header will be formatted in italic. | No | Yes | 
+| Underline           | The columns in the report will be formatted with an underline. Typically used for rows that display a sub total. | No | Yes | 
+| Double Underline    | The columns in the report will be formatted with an double underline. Typically used for rows that display a total. | No | Yes | 
+| New Page            | If you want to make a report with different sections separated by page breaks in the report output (for PDF or print), use this property on a row. This will trigger a page break after the row.  | No | Yes | 
+| Show Opposite Sign  | The data in columns in the report will be formatted with opposite sign of how they are calculated. Typically used to show debits in reports as negative amounts with a minus sign and credits as positive amounts. | Yes | Yes | 
 
 > [!NOTE]
 > Some of the formatting options don't carry over to reports when you use the Export to Excel action. If you often export reports to Excel, you might just use the tools that Excel provides rather than row definitions.
+
+## Conditional visibility of rows in your financial reports
+
+On the **Row Definition** page, you can define how rows appear when in the report output (for PDF or print). This is controlled by the **Show** property on the row.
+
+The following table describes the different visibility options on a row:
+
+| Value of the **Show** property | How the row is displayed |
+| ------------------------------ | ------------------------ |
+| Yes | Row is always shown |
+| No | Row is never shown. Use this for rows that are only used in calculation steps. |
+| If any column not zero | If any column in the report has a non-zero value, then the row is shown. Else it is hidden. |
+| When positive balance | If column data in the report has positive values, then the row is shown. Else it is hidden. |
+| When negative balance | If column data in the report has negative values, then the row is shown. Else it is hidden. |
+
 
 ## Use G/L account categories to change the layout of your financial statements
 

@@ -87,6 +87,19 @@ The following table describes the different formatting options on a row:
 > [!NOTE]
 > Some of the formatting options don't carry over to reports when you use the Export to Excel action. If you often export reports to Excel, you might just use the tools that Excel provides rather than row definitions.
 
+## Adding empty lines in your financial reports
+
+If you want to add an empty line to a financial report, you can add a row and set the **Totalling Type** field. 
+
+The following table describes the different formatting options for a row that define an empty line:
+
+| Value of the **Totalling Type** property | How the row is displayed | On-screen | PDF/Print | 
+| ---------------------------------------- | ------------------------ | --------- | --------- | 
+| Formula (with empty Totalling value)     | The row will show as empty | Yes | Yes | 
+| Underline           | The columns on the row will show empty and will be formatted with an underline. Typically used for rows that display a section. | No | Yes | 
+| Double Underline    | The columns on the row will show empty and will be formatted with an double underline. Typically used for rows that display final part of a section. | No | Yes | 
+
+
 ## Conditional visibility of rows in your financial reports
 
 On the **Row Definition** page, you can define how rows appear when in the report output (for PDF or print). This is controlled by the **Show** property on the row.

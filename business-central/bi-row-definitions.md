@@ -39,7 +39,7 @@ The following excerpt of a row definition illustrates how row formulas work (not
 
 | Row No. | Description	| Totaling Type | Totaling | ... | Show | 
 | ------- | -----------	| ------------- | -------- | --- | ---- |
-|         | Revenue calculation start | Formula      |                              | | No   |
+|         | ## Revenue calculation start | Formula      |                              | | No   |
 | R	      | Product Revenue	 | Posting Accounts      | 40000..40209                 | | Yes | 
 | R	      | Job Revenue	     | Posting Accounts      | 40410..40429                 | | Yes | 
 | R	      | Services Revenue | Posting Accounts      | 40210..40309 \| 40430..40909 | | Yes | 
@@ -48,7 +48,7 @@ The following excerpt of a row definition illustrates how row formulas work (not
 | F1      | Total Revenue    | Formula               | R                            | | Yes | 
 |         | Revenue calculation end   | Formula      |                              | | No   |
 | L       | Total liabilites  | Account Category     | Liabilities                  | | Yes | 
-|         | Revenue to liabilities | Formula      | F1 / L                          | | Yes | 
+|         | ## Revenue to liabilities | Formula      | F1 / L                          | | Yes | 
 
 The example illustrates some different tips and tricks:
 * you can use a formula row as a "code comment" (remember to set the Show option to No).

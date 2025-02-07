@@ -93,7 +93,7 @@ If you want to add an empty line to a financial report, you can add a row and se
 
 The following table describes the different formatting options for a row that define an empty line:
 
-| Value of the **Totalling Type** property | How the row is displayed | On-screen | PDF/Print | 
+| Value of the *Totalling Type* property | How the row is displayed | On-screen | PDF/Print | 
 | ---------------------------------------- | ------------------------ | --------- | --------- | 
 | Formula (with empty Totalling value)     | The row will show as empty | Yes | Yes | 
 | Underline           | The columns on the row will show empty and will be formatted with an underline. Typically used for rows that display a section. | No | Yes | 
@@ -106,7 +106,7 @@ On the **Row Definition** page, you can define how rows appear when in the repor
 
 The following table describes the different visibility options on a row:
 
-| Value of the **Show** property | How the row is displayed |
+| Value of the *Show* property | How the row is displayed |
 | ------------------------------ | ------------------------ |
 | Yes | Row is always shown |
 | No | Row is never shown. Use this for rows that are only used in calculation steps. |

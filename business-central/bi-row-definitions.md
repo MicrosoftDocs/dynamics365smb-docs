@@ -41,9 +41,6 @@ The following excerpt of a row definition illustrates how row formulas work (not
 | ------- | -----------	| ------------- | -------- | --- | ---- |
 |         | ## Revenue calculation start | Formula      |                              | | No   |
 | R	      | Product Revenue	 | Posting Accounts      | 40000..40209                 | | Yes | 
-| R	      | Job Revenue	     | Posting Accounts      | 40410..40429                 | | Yes | 
-| R	      | Services Revenue | Posting Accounts      | 40210..40309 \| 40430..40909 | | Yes | 
-| R	      | Other Revenue	 | Posting Accounts      | 40310..40409 \| 40920..40939 | | Yes | 
 | R	      | Discounts and Returns | Posting Accounts | 40910..40919 \| 40940..49999 | | Yes | 
 | F1      | Total Revenue    | Formula               | R                            | | Yes | 
 |         | Revenue calculation end   | Formula      |                              | | No   |

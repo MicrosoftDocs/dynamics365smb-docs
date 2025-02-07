@@ -33,9 +33,9 @@ To create or edit a row definition, follow these steps:
 
 ## Working with formulas in row lines
 
-A powerful feature in Financial Reporting is that you can use values computed in previous rows in the row definition in formulas in subsequent rows. This is done by setting the **Totaling Type** to *Formula* and then write your calculation in corresponding **Totalling** field on the same row.
+A powerful feature in Financial Reporting is that you can use values computed in previous rows in formulas in subsequent rows. This is done by setting the **Totaling Type** to *Formula* and then write your calculation in corresponding **Totalling** field on the same row.
 
-The following excerpt of a row definition illustrates how row formulas work
+The following excerpt of a row definition illustrates how row formulas work (note that your chart of accounts structure might look different than the accounts shown below):
 
 | Row No. | Description	| Totaling Type | Totaling | ... | Show | 
 | ------- | -----------	| ------------- | -------- | --- | ---- |
@@ -47,9 +47,8 @@ The following excerpt of a row definition illustrates how row formulas work
 | R	      | Discounts and Returns | Posting Accounts | 40910..40919 \| 40940..49999 | | Yes | 
 | F1      | Total Revenue    | Formula               | R                            | | Yes | 
 |         | Revenue calculation end   | Formula      |                              | | No   |
-| ... | ...	| ... | ... | ... | ... |
-| F2      | Total Discounts  | Formula               | D                     | | Yes | 
-| F       | Total Revenue - Discount  | Formula      | R-D                   | | Yes | 
+| L       | Total liabilites  | Account Category     | Liabilities                  | | Yes | 
+|         | Revenue to liabilities | Formula      | F1 / L                          | | Yes | 
 
 The example illustrates some different tips and tricks:
 * you can use a formula row as a "code comment" (remember to set the Show option to No).

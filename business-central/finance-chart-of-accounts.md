@@ -94,15 +94,17 @@ In a small organization, such as the CRONUS demonstration company, most users ca
 
 ## Audit changes to G/L accounts setup
 
-If you want to monitor your G/L accounts and log changes to their definitions, consider setting up the Change Log to audit the data. When you set up the Change Log, you specify the tables you want to monitor. The following table lists the table for G/L accounts and its ID.
+You can use the Change Log feature to capture changes users make to your G/L accounts. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)] 
+
+The following table lists the table for G/L accounts and its ID.
 
 | Table | Table ID |
-|------ | -------- |
+| ----- | -------- |
 | G/L Account | 15 |
 
-To learn more about the Change Log, go to [Log changes](across-log-changes.md).
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
-To add an extra layer of security around your G/L account definitions, you can monitor changes and get an email when someone changes a value. To learn more, go to [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
+
 
 <!-- ## Standard chart of accounts in different regions
 Uncomment when we have more examples added to our localization documentation

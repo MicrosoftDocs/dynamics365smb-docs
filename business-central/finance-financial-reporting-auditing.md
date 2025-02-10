@@ -17,9 +17,9 @@ Financial reporting helps you gather insights into the financial data in your ch
 
 ## Set up the Change Log for financial report definitions
 
-The Change Log captures changes people make to the definitions for financial reports. For example, you can find out what changed, who changed it, and when the change was made.
+You can use the Change Log feature to capture changes users make to the definitions for financial reports. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)] 
 
-To use the Change Log for financial reporting, you specify the tables you want it to monitor. The following table lists the tables and their IDs.
+The following table lists the table for financial report definitions and their IDs.
 
 | Table | Table ID |
 |------ | -------- |
@@ -27,7 +27,7 @@ To use the Change Log for financial reporting, you specify the tables you want i
 | Row Definition          | 84  |
 | Column Definition       | 333 |
 
-To learn more about the Change Log, go to [Log changes](across-log-changes.md).
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 ## Get notified when financial report definitions change
 

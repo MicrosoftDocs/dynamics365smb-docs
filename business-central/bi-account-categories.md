@@ -58,15 +58,15 @@ You can remap and update these reports at any time. If you choose to regenerate 
 
 ## Audit changes to account categories
 
-If you want to monitor your account categories and log changes to their definitions, consider setting up the Change Log to audit the data. When you set up the Change Log, you specify the tables you want to monitor. The following table lists the table for account categories and its ID.
+You can use the Change Log feature to capture changes users make to your G/L account categories. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)] 
+
+The following table lists the table for G/L account categories and its ID.
 
 | Table | Table ID |
-|------ | -------- |
+| ----- | -------- |
 | G/L Account Category | 570 |
 
-To learn more about the Change Log, go to [Log changes](across-log-changes.md).
-
-To add an extra layer of security to your account category definitions, you can monitor changes and get an email when someone changes a value. To learn more, go to [Monitor sensitive fields](across-log-changes.md#monitor-sensitive-fields).
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 ## Related information
 

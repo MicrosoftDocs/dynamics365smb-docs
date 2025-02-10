@@ -58,6 +58,8 @@ To learn about what you can do to ensure the best performance of web services, a
 
 Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are faster at loading data in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
 
+Another reason for why you should not base your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports on UI pages exposes as OData web services is stability. Fields on UI pages in the [!INCLUDE[prod_short](includes/prod_short.md)] application can change between updates of the application, either done by the app publisher (the organization that develops the code), or with per-tenant extensions or apps that modify the page. In either case, the [!INCLUDE[prod_short](includes/prod_short.md)] platform do not know of any [!INCLUDE [powerbi-name](includes/powerbi-name.md)] report dependency to the page objects, and so the change in the UI page might break your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports. This problem does not exist if you base your reports on API pages or queries.
+
 <!--## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 
 This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.

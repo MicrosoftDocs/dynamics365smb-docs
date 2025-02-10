@@ -20,7 +20,7 @@ This article provides answers to frequently asked questions (FAQs) about the [!I
 
 ## What [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses do I need?
 
-You need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
+To use the Power BI apps, you need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
 
 - Users who install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps.
 - Users who refresh the data.
@@ -37,6 +37,9 @@ You need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the fo
 1. it is required to be able to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
 2. it is required for sharing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
 
+The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows a user to embed their own reports into their own client experience. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in their personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
+
+ 
 ## Can I install the same app multiple times for different companies or environments?
 
 Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app.

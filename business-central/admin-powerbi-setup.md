@@ -20,18 +20,18 @@ This article describes how to get [!INCLUDE[prod_short](includes/prod_short.md)]
 
 With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI license that provides access to the most common features in [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. You can also purchase a Power BI Pro license that provides access to additional features. The following table provides an overview of the features available with each license.
 
-|Power License|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](powerbi-name.md)] Apps|
+|Power License|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] Apps|
 |-------------|--------||
 |Power BI free|![a checkmark.](media/check.png) (in your personal workspace)  | ![another checkmark](media/check.png) (in your personal workspace) |(limited)|(limited)||
 |Power BI Pro|![yet another checkmark.](media/check.png) |![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
 
-You cannot use a [!INCLUDE [powerbi-name](powerbi-name.md)] free license for the [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](powerbi-name.md)] Apps. To learn more, go to [Prerequisites for installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md#prerequisites)
+You cannot use a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] free license for the [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] Apps. To learn more, go to [Prerequisites for installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md#prerequisites)
 
-To learn more about [!INCLUDE [powerbi-name](powerbi-name.md)] licensing in general, go to [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
+To learn more about [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licensing in general, go to [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
 ## <a name="exposedata"></a>Expose data through API or OData web services
 
-[!INCLUDE[prod_short](includes/prod_short.md)] offers two ways to expose data that can be consumed by [!INCLUDE [powerbi-name](powerbi-name.md)] reports: API pages or queries, and Open Data Protocol (OData) web services.
+[!INCLUDE[prod_short](includes/prod_short.md)] offers two ways to expose data that can be consumed by [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports: API pages or queries, and Open Data Protocol (OData) web services.
 
 ### API pages and queries (recommended)
 
@@ -39,12 +39,12 @@ To learn more about [!INCLUDE [powerbi-name](powerbi-name.md)] licensing in gene
 
 Developers can define page objects and query objects that are of the type *API*. This way, they can expose data from database tables through a webhook-supported, OData v4-enabled, REST service. This type of data can't be displayed in the user interface, but is intended for building reliable integration services.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online comes available with a set of built-in APIs, which you can use to get data for the most common business entities, like customers, items, sales orders, and more. No extra work or setup is required to use these APIs as a data source for [!INCLUDE [powerbi-name](powerbi-name.md)] reports. For more information about these APIs, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+[!INCLUDE[prod_short](includes/prod_short.md)] online comes available with a set of built-in APIs, which you can use to get data for the most common business entities, like customers, items, sales orders, and more. No extra work or setup is required to use these APIs as a data source for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports. For more information about these APIs, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online also supports custom APIs. Application developers of [!INCLUDE[prod_short](includes/prod_short.md)] solutions can create their own API pages and queries and package them into apps. You then install the apps on your tenant. Once installed, you use the API pages for your [!INCLUDE [powerbi-name](powerbi-name.md)] reports, like you'd do with the built-in APIs (v2.0). For more information about how to create an API by exposing pages or queries, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+[!INCLUDE[prod_short](includes/prod_short.md)] online also supports custom APIs. Application developers of [!INCLUDE[prod_short](includes/prod_short.md)] solutions can create their own API pages and queries and package them into apps. You then install the apps on your tenant. Once installed, you use the API pages for your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports, like you'd do with the built-in APIs (v2.0). For more information about how to create an API by exposing pages or queries, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
 > [!IMPORTANT]
-> Starting in February 2022, [!INCLUDE [powerbi-name](powerbi-name.md)] reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. As a consequence, AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord. These database modifications, in some cases, may cause performance problems and prevent the report from refreshing data. For more information, see [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in the [!INCLUDE[prod_short](includes/prod_short.md)] development content.
+> Starting in February 2022, [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. As a consequence, AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord. These database modifications, in some cases, may cause performance problems and prevent the report from refreshing data. For more information, see [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in the [!INCLUDE[prod_short](includes/prod_short.md)] development content.
 >
 > In rare cases, the behavior will cause an error when a user tries get data from the API for a report in Power BI Desktop. However, if database modifications are necessary in the custom API, Power BI Desktop users can force the behavior. For more information, see [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
@@ -56,7 +56,7 @@ To learn about what you can do to ensure the best performance of web services, a
 
 ### Choosing whether to use API pages or OData web services
 
-Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are faster at loading data in [!INCLUDE [powerbi-name](powerbi-name.md)] reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
+Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are faster at loading data in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
 
 <!--## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 

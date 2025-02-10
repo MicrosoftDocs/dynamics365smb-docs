@@ -1,5 +1,5 @@
 ---
-title: Working with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in Business Central| Microsoft Docs
+title: Working with Power BI reports in Business Central
 description: Get insight, business intelligence, and KPIs from your Business Central data with Power BI using [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)].
 author: jswymer
 ms.topic: get-started
@@ -63,7 +63,7 @@ The connection process starts. During the process, [!INCLUDE [prod_short](includ
 
 [!INCLUDE [powerbi-apps-overview-table](includes/powerbi-apps-overview-table.md)]
 
-The [!INCLUDE [powerbi-name](powerbi-name.md)] apps are free to install and use, the only requirement is that users need to have a non-free Power BI license. To learn more, go to [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
+The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are free to install and use, the only requirement is that users need to have a non-free Power BI license. To learn more, go to [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
 
 
 <!--#### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises

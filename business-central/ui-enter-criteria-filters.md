@@ -69,11 +69,15 @@ If you want to find all blue chairs in the CRONUS demo company, you might enter 
 
 If you want to mimic the behavior of legacy search when you use modern search, you can enclose your search text in quotation marks, just as you can do in popular search engines. In this way, you refine the results by excluding any that aren't exact matches. For example, if you enter `"blue chair"` as the search text, modern search returns no results, because that exact text doesn't occur in any item name in the demo data.
 
+Another difference is that modern search finds words that *start* with the letters you have entered. If you enter 'hair' it will not find the word 'chair'.
+
 > [!NOTE]
 > - Modern search covers only columns that a developer designates for it. If you can't find existing data, try legacy search.
 >
 >    Learn more about how to designate columns for modern search in [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
 >
+> - The search indexes used for modern search are updated in the background. This will normally complete within few seconds, but you may in some cases experience that very recent data changes do not show up in modern search results.
+>   
 > - If the **Use modern search** option isn't available on the dropdown menu, one of the following factors might be the cause:
 >
 >    - Modern search isn't enabled for your environment. Administrators can enable the **Use optimized text search in lists** feature on the **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).

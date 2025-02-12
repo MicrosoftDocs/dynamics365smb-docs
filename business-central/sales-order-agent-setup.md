@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate the Sales Order Agent and manage user access.
-ms.date: 11/27/2024
+ms.date: 02/12/2025
 ms.topic: how-to
 author: dmc-dk
 ms.author: dmitrych
@@ -30,10 +30,10 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 - Set up the email account for sales receiving incoming requests for quotes and orders.
 
-   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
+   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account (user mailbox)or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 
    > [!IMPORTANT]
-   > If you use a shared Microsoft 365 mailbox, set up mailbox delegation in the Exchange admin center to provide permissions to read and send emails from this mailbox to the users who can activate the agent. The same applies when you use a personal Microsoft 365 account. Provide other users with permission to read and manage emails unless you are the one activating the agent.
+   > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal (user) mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox?view=o365-worldwide#use-the-eac-to-edit-shared-mailbox-delegation).
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 

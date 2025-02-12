@@ -1,4 +1,4 @@
-To get an overview of the types of transactions that happpen to your general ledger and the types of sources for them, do as follows:
+To get an overview of the types of transactions that happened to your general ledger and the types of sources for them, do as follows:
 
 1. Open the [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis) list and choose :::image type="content" source="../media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).

@@ -12,13 +12,13 @@ ms.date: 02/12/2025
 ms.service: dynamics-365-business-central
 ---
 
-# Analyze general ledger transactions
+# Analyze general ledger (G/L) transactions
 
-When a transaction is posted to the general ledger, the following data is stored in the [!INCLUDE[prod_short](includes/prod_short.md)] database: one or more rows in the general ledger entries and one row in the G/L register.
+When a transaction is posted to the general ledger, the following data is stored in the [!INCLUDE[prod_short](includes/prod_short.md)] database: a single row in the G/L register table and one or more rows in the G/L Entry table.
 
 ## Analyzing the G/L register
 
-You can use the G/L Registers page for financial reporting and transaction tracking. The page gives you an overview of all transactions to the general ledger with the ability to navigate to related entries in subledgers, such as VAT entries or Customer Ledger Entries. You can also see which user who did the transaction and when it was recorded in the database.
+You can use the G/L Registers page for financial reporting and transaction tracking. The page gives you an overview of all transactions to the general ledger with the ability to navigate to related entries in subledgers, such as VAT entries or Customer Ledger Entries. You can also see which type of transaction that occured, the user who did the transaction and when it was recorded in the database.
 
 The G/L Registers page is particularly useful during audits, as it provides auditors with easy access to related detailed transaction information. It helps identify any discrepancies, errors, or unusual entries that may require further investigation. 
 

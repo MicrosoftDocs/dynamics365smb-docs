@@ -130,21 +130,7 @@ To see your assets over the asset accounts from the chart of account, broken dow
 
 ### Example: Finance (transaction overview)
 
-To get an overview of the types of transactions that happpen to your general ledger and the types of sources for them, do as follows:
-
-1. Open the [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis) list and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
-1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
-1. Drag the **Source code** field to the **Row Groups** area.
-1. Rename your analysis tab to **GL entries by source**, or something that describes this analysis.
-
-> [!TIP]
-> You can perform this analysis during or after go-live of your environment to understand which types of transactions are used and which types are not yet being used.
-
-
-The following image shows the result of these steps.
-
-:::image type="content" source="media/data-analysis-gl-registers-example.png" alt-text="Example of how to do analyze G/L transactions by type on the G/L Registers page." lightbox="media/data-analysis-gl-registers-example.png":::
-
+[!INCLUDE [gl-register-analysis-example](includes/gl-register-analysis-example.md)]
 
 
 ## Data foundation for ad-hoc analysis on finance
@@ -155,9 +141,11 @@ To learn more, go to the following articles:
 
 - [Data foundation for ad-hoc analysis on sales](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Data foundation for ad-hoc analysis on purchasing](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
+- [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 
 ## See also
 
+[Analyze G/L entries](finance-how-to-analyze-gl-entries.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  
 [Financial analytics overview](bi.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  

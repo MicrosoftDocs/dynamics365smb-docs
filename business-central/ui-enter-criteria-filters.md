@@ -75,9 +75,9 @@ Another difference is that modern search finds words that *start* with the lette
 >
 > - Modern search covers only columns that a developer designates for it. If you can't find existing data, try legacy search.
 >
->    Learn more about how to designate columns for modern search in [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
+>   Learn more about how to designate columns for modern search in [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
 >
-> - The search indexes used for modern search are updated in the background, usually within a few seconds. But in some cases experience recent data changes don't immediately show up in modern search results.
+> - The search indexes used for modern search are updated in the background, usually within a few seconds. But in some cases, recent data changes don't immediately show up in modern search results.
 >
 > - If the **Use modern search** option isn't available on the dropdown menu, one of the following factors might be the cause:
 >

@@ -22,7 +22,7 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 ## Prerequisites for activating and configuring Sales Order Agent
 
-- Set up the email account for sales receiving incoming requests for quotes and orders.
+- Set up the email account for receiving incoming requests for sales quotes and orders.
 
    The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account (user mailbox)or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 

@@ -19,6 +19,7 @@ This article explains how to use the **Data Analysis** feature to analyze financ
 Use the following list pages to start doing ad-hoc analysis of finance processes:
 
 - [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis)
+- [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis)
 - [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis)
 - [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis)
 
@@ -39,6 +40,7 @@ The following sections provide examples of finance scenarios in [!INCLUDE [prod_
 | [Finance (Sales invoices by G/L account)](#example-finance-sales-invoices-by-gl-account) | See how your sales invoices distribute over G/L accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account name**, **Source Code**, **G/L Account name**, **G/L Account No.**, **Debit Amount**, **Credit Amount**, **Posting Date Year**, **Posting Date Quarter**, and **Posting Date Month** |
 | [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 | [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
+| [Finance (transaction overview)](#example-finance-transaction-overview) | Get an overview of the types of transactions that happpen to your general ledger and the types of sources for them.  | [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis) | **Source code**. |
 
 
 ### Example: Finance (Accounts Receivable)
@@ -124,6 +126,26 @@ To see your assets over the asset accounts from the chart of account, broken dow
    > To see which accounts are used in your setup, run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report.
 
 1. Rename your analysis tab to **Income by Month**, or something that describes this analysis.
+
+
+### Example: Finance (transaction overview)
+
+To get an overview of the types of transactions that happpen to your general ledger and the types of sources for them, do as follows:
+
+1. Open the [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis) list and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
+1. Drag the **Source code** field to the **Row Groups** area.
+1. Rename your analysis tab to **GL entries by source**, or something that describes this analysis.
+
+> [!TIP]
+> You can perform this analysis during or after go-live of your environment to understand which types of transactions are used and which types are not yet being used.
+
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-gl-registers-example.png" alt-text="Example of how to do analyze G/L transactions by type on the G/L Registers page." lightbox="media/data-analysis-gl-registers-example.png":::
+
+
 
 ## Data foundation for ad-hoc analysis on finance
 

@@ -20,18 +20,20 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 <!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
 
-## Prerequisites for activating and configuring Sales Order Agent
+## Prerequisites
+
+Before configuring and activating the sales order agent, ensure the following prerequisites are met:
 
 - Set up the email account for receiving incoming requests for sales quotes and orders.
 
-   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account (user mailbox)or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
+   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account (user mailbox) or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
 
    > [!IMPORTANT]
-   > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox?view=o365-worldwide#use-the-eac-to-edit-shared-mailbox-delegation).
+   > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 
-- Turn on the **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings (sandbox enviroments only)
+- Turn on the **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings (sandbox environments only)
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 

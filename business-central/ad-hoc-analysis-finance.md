@@ -137,7 +137,7 @@ To see your assets over the asset accounts from the chart of account, broken dow
 
 When you post journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **G/L Entry** table. Therefore, ad-hoc analysis on general finance is typically done on the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) page. For accounts receivable and payable, you can analyze [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) and [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29), respectively.
 
-To learn more, go to the following articles:
+Learn more in the following articles:
 
 - [Data foundation for ad-hoc analysis on sales](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Data foundation for ad-hoc analysis on purchasing](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)

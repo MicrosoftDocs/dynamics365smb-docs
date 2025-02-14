@@ -30,6 +30,9 @@ The following articles describe local functionality that is unique to the New Ze
     * [Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md) **Available Now**
     * [Print Goods and Services Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) **Available Now**
 
+* Electronic documents
+    * [E-Invocing Peppol PINT A-NZ](how-to-nz-einvoice.md)
+
 * Banking & payments
     * [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md) **Available Now**
     * [Create Check Installments](how-to-create-check-installments.md) **Available Now**

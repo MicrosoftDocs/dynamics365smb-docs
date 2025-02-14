@@ -31,6 +31,9 @@ The following articles describe local functionality that is unique to the Austra
     * [Adjust Settlement Exchange Rates for VAT Entries](how-to-adjust-settlement-exchange-rates-for-vat-entries.md) **Available Now**
     * [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) **Available Now**
 
+* Electronic documents
+    * [E-Invocing Peppol PINT A-NZ](how-to-au-einvoice.md)
+    
 * Banking & Payments
     * [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md) **Available Now**
     * [Create Check Installments](how-to-create-check-installments.md) **Available Now**
@@ -53,7 +56,7 @@ The following articles describe local functionality that is unique to the Austra
 ## Future legislation requirements being investigated
 
 * ANZ Peppol format for E-Documents **Planned for 2025 release wave 1**  
-* Payment Times Reporting Bill Compliance **Planned for 2026 release wave 1**
+* Payment Times Reporting Bill Compliance **Planned for 2025 release wave 1**
 * Taxable payments annual report (TPAR) **Planned for 2026 release wave 1**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

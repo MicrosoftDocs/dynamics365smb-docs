@@ -33,7 +33,7 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 - [Resize a column](#resize-a-column)
 - [Create, rename, or edit a view](ui-views.md)
 - [Bookmark the page](ui-bookmarks.md)
-- Hide or resize a FactBox
+- [Hide or resize a FactBox](#hide-or-resize-a-factbox)
 - Expand/collapse hierarchical list
 
 ### Resize a column
@@ -50,7 +50,7 @@ A FactBox is a pane along the right side of a page that displays more informatio
 :::image type="content" source="media/factbox.png" alt-text="Shows the FactBox position in the web client":::
 
 - To hide or show the FactBox, select the ![Shows the collapse or expand FactBox icon in Business Central](media/collapse-expand-factbox.png) **Collapse/Expand the FactBox pane** icon at the top of the FactBox pane.
-- To resize the width of the FactBox, drag the vertical divider between the FactBox and main content. Double-click the divider to reset the width to default.
+- To resize the FactBox, drag the vertical divider between the FactBox and main content. Double-click the divider to reset the width to default.
 
 ## Start personalizing by using the personalization mode
 

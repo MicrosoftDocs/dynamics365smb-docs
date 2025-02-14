@@ -33,6 +33,7 @@ You can make various adjustments, such as move or hide fields, columns, actions,
 - [Resize a column](#resize-a-column)
 - [Create, rename, or edit a view](ui-views.md)
 - [Bookmark the page](ui-bookmarks.md)
+- Hide or resize a FactBox
 - Expand/collapse hierarchical list
 
 ### Resize a column
@@ -41,6 +42,15 @@ There are two ways to change the width of a column in any list, including in dro
 
 - Select and drag the boundary between two columns in the header of a list.
 - Double-click the boundary between two columns to autofit the width of the column. The width adjusts to the optimal size for readability.
+
+### Hide or resize a FactBox
+
+A FactBox is a pane along the right side of a page that displays more information related to the record on the page.
+
+:::image type="content" source="media/factbox.png" alt-text="Shows the FactBox position in the web client":::
+
+- To hide or show the FactBox, select the ![Shows the collapse or expand FactBox icon in Business Central](media/collapse-expand-factbox.png) **Collapse/Expand the FactBox pane** icon at the top of the FactBox pane.
+- To resize the width of the FactBox, drag the vertical divider between the FactBox and main content. Double-click the divider to reset the width to default.
 
 ## Start personalizing by using the personalization mode
 

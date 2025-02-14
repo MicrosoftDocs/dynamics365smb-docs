@@ -23,7 +23,10 @@ By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [f
 
 Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is built on top of Dynamics 365 Sales, you must [set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) and [enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-You must download the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917), and install it in [!INCLUDE [prod_short](includes/prod_short.md)].
+You must download the following apps from AppSource, and install them in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* [Field Service Integration](https://appsource.microsoft.com/en-us/product/DynamicsCE/microsoftdynsmb.businesscentral_virtualentity)
+* [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917)
 
 ### Permissions and security roles for user accounts
 
@@ -98,22 +101,6 @@ After you finish the setup, run a full synchronization from the **Dynamics 365 F
 * Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
 * Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
-### Additional synchronization of locations and warehouses
-
-You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
-
-The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](includes/prod_short.md)]) integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, in [!INCLUDE [prod_short](includes/prod_short.md)] you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page.
-
-[!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
-
-* The **Use as In-Transit** toggle is turned off.
-* **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
-* **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
-
-In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. To let people view item availability, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages, turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, an Inventory Availability by Location API becomes available as a Dataverse virtual table and a synthetic relationship is created between this virtual table and the native **Products** table in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).  
-
-In [!INCLUDE [field-service-short](includes/field-service-short.md)], you can use the **Open in Business Central** action to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
-
 ## Standard Field Service entity mapping for synchronization
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronize](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
@@ -129,6 +116,22 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 
 > [!NOTE]
 > The LOCATIONS integration table mapping is available only if the **Location Mandatory** toggle on the **Inventory Setup** page is turned on.
+
+### Additional synchronization of locations and warehouses
+
+You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
+
+The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](includes/prod_short.md)]) integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, in [!INCLUDE [prod_short](includes/prod_short.md)] you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
+
+* The **Use as In-Transit** toggle is turned off.
+* **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+* **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. 
+
+To let people view item availability, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages, turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, an Inventory Availability by Location API becomes available as a Dataverse virtual table and a synthetic relationship is created between this virtual table and the native **Products** table in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).  
 
 ## Use data in both applications
 
@@ -148,6 +151,8 @@ You can add items of the type service as **Work Order Services**, and get costs 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
 You can use **Open in Business Central** in [!INCLUDE [field-service-short](includes/field-service-short.md)] to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
+In [!INCLUDE [field-service-short](includes/field-service-short.md)], you can use the **Open in Business Central** action to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
 
 ### Business Central
 

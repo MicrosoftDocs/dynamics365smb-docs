@@ -117,7 +117,7 @@ You can print financial reports using your device's printing services. [!INCLUDE
 1. Choose the **Print** action.
 
 > [!TIP]
-> Your company name is always shown on the upper right in the PDF. If you define a *Display Name* on the **Companies** list page, then this will be shown instead of the **Name** (which is not easy to change).
+> Your company name is always shown on the upper right in the PDF. If you define a *Display Name* on the **Companies** list page, then this will be shown instead of the *Name* field (which is not easy to change).
 
 
 ### Schedule a financial report or save as a PDF document

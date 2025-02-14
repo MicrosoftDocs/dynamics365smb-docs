@@ -40,6 +40,8 @@ Charles, the service manager, creates a Service Order for a repair scenario, len
 3. Lend a replacement while item is being repaired
    1. In the Lines, select **LOANER1** as the Loaner No. Confirm the issuance of the Loaner by selecting **Yes** to lend out the Loaner. 
    2. Choose the Functions action **Get Std. Service Codes**, select standard code associated with service group and select **Ok**.
+4. You can close service order page and return to the role center.
+ 
    
 ### Results
 
@@ -67,12 +69,14 @@ The service technician marks loaner as returned, registers performed work.
     |Item|SER102|2|
 
    4. Select *FINISHED* in the **Repair Status Code** field
+   5. You can close service item worksheet and service tasks pages and return to the role center.
     
 2. Mark loaner as returned
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Loaners**, and then choose the related link.
    2. Locate the loaner to mark as returned.
    3. Choose the **Receive** action 
    4. Confirm the return of the Loaner by selecting **Yes** to return the Loaner.
+   5. You can close loaners page and return to the role center.
       
 ### Results
 

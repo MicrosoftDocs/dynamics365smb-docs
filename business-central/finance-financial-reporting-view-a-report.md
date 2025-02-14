@@ -116,6 +116,10 @@ You can print financial reports using your device's printing services. [!INCLUDE
     1. The **(Handled by the browser)** option indicates that a printer isn't specified for the report. In this case, the browser handles the printout and displays the standard printing steps. You can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or the app for Teams.
 1. Choose the **Print** action.
 
+> [!TIP]
+> Your company name is always shown on the upper right in the PDF. If you define a *Display Name* on the **Companies** list page, then this will be shown instead of the **Name** (which is not easy to change).
+
+
 ### Schedule a financial report or save as a PDF document
 
 You can save a financial report in file formats such as PDF. [!INCLUDE[prod_short](includes/prod_short.md)] can also generate recurring financial reports.

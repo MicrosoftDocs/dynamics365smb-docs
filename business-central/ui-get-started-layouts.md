@@ -46,6 +46,7 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Replace the current layout file that a report uses with a new version of the layout file. | [Replace a layout](#replace) |
 | Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
+| Mark a layout as obsolete | [Mark a layout as obsolete](#mark-a-layout-as-obsolete) |
 
 ## <a name="decide"></a>Decide what type of layout you want
 
@@ -200,7 +201,7 @@ Follow these steps if you want to change the name and description of a user-defi
 3. In the **Layout Name**, enter a new name.
 4. Select **OK**.
 
-## <a name="rename"></a>Mark a layout as obsolete
+## Mark a layout as obsolete
 
 A layout can become obsolete for various reasons. For example, the underlying data model may change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it will likely be removed in a later release, so they should use an alternative layout.
 

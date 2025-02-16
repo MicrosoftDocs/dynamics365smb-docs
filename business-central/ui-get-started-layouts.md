@@ -205,12 +205,15 @@ Follow these steps if you want to change the name and description of a user-defi
 
 A layout can become obsolete for various reasons. For example, the underlying data model might change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it will likely be removed in a later release, so they should use an alternative layout.
 
-To identify which layouts are obsolete, refer to the **Obsolete** column on the **Report Layouts page**. You can mark a user-defined layout as obsolete if needed. Extension layouts are marked as obsolete by the extension publisher and can't be changed.
+To identify which layouts are obsolete, refer to the **Obsolete** column on the **Report Layouts page**. You can mark a user-defined layout as obsolete if needed. 
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want to change, and then select the **Edit Info** action.
 3. Turn on the **Mark layout as obsolete** toggle.
 4. Select **OK**.
+
+> [!NOTE]
+> Extension layouts are marked as obsolete in AL code using the [ObsoleteState property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-obsoletestate-property) and can't be changed using the **Edit Info** action.
 
 ## Related information
 

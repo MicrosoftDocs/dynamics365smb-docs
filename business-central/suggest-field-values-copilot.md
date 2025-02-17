@@ -37,11 +37,11 @@ Copilot is available on most editable fields on a page. For example, it's not av
 
 When Copilot finds suggestions, they're automatically entered in the fields along with ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons.
 
-![Shows a suggested field with the accept and discard buttons.](media/autofill-suggested-value-field.svg).
+![Shows a suggested field with the accept and discard buttons.](media/autofill-suggested-value-field.svg)
 
 Review the suggestions for each field. Suggestions aren't saved until you accept them.
 
-- Select the ![Shows the details icon for a suggestion](media/autofill-info.png) to see the reasoning behind it.
+- Select the ![Shows the details icon for a suggestion](media/autofill-info.png) to see the reasoning behind the value.
 - Select **Accept the suggestion** to save the value in Business Central, similar to entering it manually without Copilot.
 - Select **Discard the suggestion** to clear the value and delete the changes.
 

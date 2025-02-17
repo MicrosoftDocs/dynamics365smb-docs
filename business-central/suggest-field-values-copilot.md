@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 Copilot includes an autofill feature that lets you fill in editable fields on your page automatically. The autofill feature is available on card and document pages, like a sales order, an item, or a customer card. Use autofill when you're creating or modifying a record.
 
-Copilot provides field values as suggestions that you can keep, replace, or discard. Suggestions can be based on your Business Central data, such as the values most frequently or recently used on records. They can also be AI-generated, based on a field's option values, lookup values, or page context.
+Field values from Copilot are suggestions that you can keep, replace, or discard. Suggestions can be based on your Business Central data, such as the values most frequently or recently used on records. They can also be AI-generated, based on a field's option values, lookup values, or page context.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -35,9 +35,9 @@ Copilot is available on most editable fields on a page. For example, it's not av
 
 ![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg).
 
-When Copilot finds suggestions, they're automatically entered in the fields with the ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons.
+When Copilot finds suggestions, they're automatically entered in the fields along with ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons.
 
-![Shows a suggested field with the accept and discard buttons.](media/autofill-field.svg).
+![Shows a suggested field with the accept and discard buttons.](media/autofill-suggested-value-field.svg).
 
 Review the suggestions for each field. Suggestions aren't saved until you accept them.
 

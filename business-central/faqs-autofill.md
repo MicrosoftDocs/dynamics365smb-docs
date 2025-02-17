@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQ for Autofill (preview)
+title: Responsible AI FAQ for autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 ms.date: 02/17/2025
 ms.custom: 
@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-# Responsible AI FAQ for Autofill (preview)
+# Responsible AI FAQ for autofill (preview)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -93,7 +93,7 @@ Business Central collects the minimum data required for Microsoft to offer the s
 
 ## Related information
 
-[Autofill]()  
+[Autofill](suggest-field-values-copilot.md)  
 [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
 [Azure OpenAI Service and Business Central data](azure-openai-data.md)  
 [Copilot data movement across geographies](ai-copilot-data-movement.md)  

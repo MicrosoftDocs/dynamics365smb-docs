@@ -94,7 +94,7 @@ Business Central doesn't yet offer granular, object-level permissions so that on
 
 ## Next steps
 
-For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent)
+For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#activate-and-configure-sales-order-agent)
 
 For other Copilot features, you're ready to try them out. Learn more in the following articles:
 

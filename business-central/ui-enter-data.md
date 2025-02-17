@@ -58,11 +58,9 @@ When the cursor is shown at the end of the field value:
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
-## Use Copilot's autofill feature to get field value suggestions
+## Use Copilot's autofill feature to assist in filling in fields
 
-When drafting a new record or editing an existing record, Copilot can suggest values for some editable fields on the page. Learn more in [Autofill is available for fields (but not columns) 
-
-
+When drafting a new record or editing an existing record, Copilot can suggest values for editable fields on the page. Learn more in [Get assistance filling in fields with Copilot](suggest-field-values-copilot.md).
 
 ## Keyboard Shortcuts
 

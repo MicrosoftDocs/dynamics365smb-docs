@@ -21,14 +21,14 @@ When you first launch [!INCLUDE[prod_short](includes/prod_short.md)], some apps 
 
 For example, Microsoft provides an app that lets you integrate with PayPal Payments Standard. This extension is installed by default. But, an extension that offers integration with another payment service might come along. In that case, you can install the new extension and then choose which to use.  
 
-To use an app, you must have the permissions to the installed objedts.
+To use an app, you must have the permissions to the installed objects.
 
-To install or uninstall apps from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the **D365 Extension Mgt.** user group, or you must have the **EXTEN. MGT. - ADMIN** permission set explicitly. If you're an administrator, you can assign user groups and permissions to other users in your company. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).  
+To install or uninstall apps from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the **D365 Extension Mgt.** user group, or you must have the **EXTEN. MGT. - ADMIN** permission set explicitly. If you're an administrator, you can assign user groups and permissions to other users in your company. Learn more in [Create Users According to Licenses](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]  
 > For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you cannot upload per-tenant extensions or install AppSource apps through the **Extension Management** page. You cannot install AppSource apps on-premises, including in Docker-based deployments.
 
-You manage the apps on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link. For more information, see [Install and Uninstall apps](ui-extensions-install-uninstall.md).
+You manage the apps on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link. Learn more in [Install and Uninstall apps](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
 > If you think you should have access to an app but you cannot find its functionality, check the **Extension Management** page - if the app is not listed there, you can install it as described in the following section.  
@@ -36,7 +36,7 @@ You manage the apps on the **Extension Management** page. You can access this pa
 > [!NOTE]  
 > Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)] online. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to AppSource from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Microsoft AppSource Apps** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the **View AppSource** action, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). For more information, see [Manage AppSource apps](admin-manage-appsource-apps.md).
+You can also get to AppSource from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Microsoft AppSource Apps** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the **View AppSource** action, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Learn more in [Manage AppSource apps](admin-manage-appsource-apps.md).
 
 If you choose an app, you can read about what the app does, and you can access Help for the app to learn more. When you choose to get an app, you must agree to the terms of use. If you get the app from the AppSource website, sign in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
 

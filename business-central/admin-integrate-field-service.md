@@ -25,8 +25,8 @@ Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is bui
 
 You must download the following apps from AppSource, and install them in your [!INCLUDE [prod_short](includes/prod_short.md)] environment:
 
-- [Field Service Integration](https://appsource.microsoft.com/en-us/product/DynamicsCE/microsoftdynsmb.businesscentral_virtualentity)
-- [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917)
+- [Field Service Integration](https://go.microsoft.com/fwlink/?linkid=2277917)
+- [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2304910)
 
 > [!NOTE]
 > The Business Central Virtual Table app is optional. It's required only if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
@@ -142,9 +142,13 @@ When technicians prepare work orders, it's helpful that they can be sure that th
 
 The first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
 
-Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must map that virtual table to the native **Products** table in [!INCLUDE [field-service-short](includes/field-service-short.md)]. There's an assisted setup guide to help you do that.
+Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must create a synthetic relation between the following tables:
 
-To create the mapping, follow these steps:
+- The native **Product** and **Work Order Product** tables in [!INCLUDE [field-service-short](includes/field-service-short.md)] and the **Item Availability** virtual table that shows item availability.
+
+There's an assisted setup guide to help you create the synthetic relation.
+
+To create the synthetic relation, follow these steps:
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, use the **Synthetic Relations** action
 1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide.
@@ -164,7 +168,7 @@ To create the mapping, follow these steps:
 
 To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).  
 
-The next thing to do is to create the view that people use in [!INCLUDE [field-service-short](includes/field-service-short.md)] to check the inventory of products. You create the view in the **Power Apps admin center**.
+The next thing to do is to create and customize the associated view that people use in [!INCLUDE [field-service-short](includes/field-service-short.md)] to check the inventory of products.
 
 To create the view, follow these steps:
 

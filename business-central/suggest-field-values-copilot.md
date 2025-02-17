@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot includes an autofill feature that lets you fill in editable fields on your page automatically. The autofill feature is available on card and document pages, like a sales order, an item, or a customer card. Use autofill when you're creating or modifying a record.
+Copilot includes an autofill feature that you use fill in editable fields on your page automatically. The autofill feature is available on card and document pages, like a sales order, an item, or a customer card. Use autofill when you're creating or modifying a record.
 
 Field values from Copilot are suggestions that you can keep, replace, or discard. Suggestions can be based on your Business Central data, such as the values most frequently or recently used on records. They can also be AI-generated, based on a field's option values, lookup values, or page context.
 

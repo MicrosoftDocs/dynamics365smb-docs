@@ -7,9 +7,10 @@ ms.reviewer: solsen
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
-ms.date: 06/27/2024
+ms.date: 02/17/2025
 ms.service: dynamics-365-business-central
 ---
+
 # Customizing Business Central online using apps
 
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] online by installing apps that add functionality, changes behavior, or gives you access to new online services, for example. These apps are also called *extensions* because they *extend* [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -20,7 +21,7 @@ When you first launch [!INCLUDE[prod_short](includes/prod_short.md)], some apps 
 
 For example, Microsoft provides an app that lets you integrate with PayPal Payments Standard. This extension is installed by default. But, an extension that offers integration with another payment service might come along. In that case, you can install the new extension and then choose which to use.  
 
-To use an app, you must have the permission sets that were installed with it.
+To use an app, you must have the permissions to the installed objedts.
 
 To install or uninstall apps from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the **D365 Extension Mgt.** user group, or you must have the **EXTEN. MGT. - ADMIN** permission set explicitly. If you're an administrator, you can assign user groups and permissions to other users in your company. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).  
 
@@ -43,10 +44,12 @@ When you install an app, you might have to set it up, such as specifying an acco
 
 If you uninstall an app, and you then change your mind, you can install it again. When you uninstall an app, your data is preserved. If you install the app again, it's still available. There are some apps that are required, and you can't uninstall them from the **Extension Management** page.
 
-Some apps are provided by Microsoft, and other apps are provided by [other companies](ui-extensions-other.md). All apps are tested before they're made available to you, but we recommend that you access the links that are provided with each extension to learn more about the app before you choose to install it.  
-
 > [!NOTE]  
 > You can keep an eye out for new apps from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+
+## Understanding the risks of installing apps
+
+[!INCLUDE [ui-extensions-risk-install-apps](includes/ui-extensions-risk-install-apps.md)]
 
 ## Apps and data transfer
 

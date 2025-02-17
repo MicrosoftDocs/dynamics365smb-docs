@@ -23,10 +23,13 @@ By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [f
 
 Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is built on top of Dynamics 365 Sales, you must [set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) and [enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-You must download the following apps from AppSource, and install them in [!INCLUDE [prod_short](includes/prod_short.md)]:
+You must download the following apps from AppSource, and install them in your [!INCLUDE [prod_short](includes/prod_short.md)] environment:
 
-* [Field Service Integration](https://appsource.microsoft.com/en-us/product/DynamicsCE/microsoftdynsmb.businesscentral_virtualentity)
-* [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917)
+- [Field Service Integration](https://appsource.microsoft.com/en-us/product/DynamicsCE/microsoftdynsmb.businesscentral_virtualentity)
+- [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917)
+
+> [!NOTE]
+> The Business Central Virtual Table app is optional. It's required only if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
 
 ### Permissions and security roles for user accounts
 
@@ -34,21 +37,21 @@ When you install the Integration Solution, permissions for the integration user 
 
 #### Sales
 
-* Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration Administrator
-* Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration User
-* Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Product Availability User
+- Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration Administrator
+- Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration User
+- Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Product Availability User
 
 #### Business Central
 
 Users who post project journals must have the following permission set:
 
-* Dynamics 365 Sales Integration
+- Dynamics 365 Sales Integration
 
 #### Field Service
 
 To use the integrated data, users must have the following security role:
 
-* Business Central Field Service Integration
+- Business Central Field Service Integration
 
 For example, users must have this role to connect work orders to [!INCLUDE [prod_short](includes/prod_short.md)] for processing.
 
@@ -62,15 +65,15 @@ For example, users must have this role to connect work orders to [!INCLUDE [prod
 > [!NOTE]
 > To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:
 >
-> * You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
-> * You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
+> - You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
+> - You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
 
 ### Other settings in Field Service
 
 On the **Field Service Setting** page, make the following changes:
 
-* On the **Purchase** tab, clear the **Use of Products Out of Stock** field. Otherwise, you might get an "out of stock" warning when you choose a product that's out of stock in [!INCLUDE [field-service-short](includes/field-service-short.md)], but is in stock in [!INCLUDE [prod_short](includes/prod_short.md)].
-* On the **Work Order / Booking** tab, turn off the **Calculate Price** and **Calculate Cost** toggles. In the **Work Order Invoice Creation** field, choose **Never**.
+- On the **Purchase** tab, clear the **Use of Products Out of Stock** field. Otherwise, you might get an "out of stock" warning when you choose a product that's out of stock in [!INCLUDE [field-service-short](includes/field-service-short.md)], but is in stock in [!INCLUDE [prod_short](includes/prod_short.md)].
+- On the **Work Order / Booking** tab, turn off the **Calculate Price** and **Calculate Cost** toggles. In the **Work Order Invoice Creation** field, choose **Never**.
 
 > [!NOTE]
 > Setting up a connection to [!INCLUDE [field-service-short](includes/field-service-short.md)] removes the coupling between resources and products. To make [!INCLUDE [prod_short](includes/prod_short.md)] items available in [!INCLUDE [field-service-short](includes/field-service-short.md)], update the **Field Service Product Type** field to match the **Type** field on the items in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a product or service](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
@@ -79,10 +82,12 @@ On the **Field Service Setting** page, make the following changes:
 
 After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-1. Download and install the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the Field Service Integration app, and choose the **Set up** action to run the assisted setup guide.
+1. Download and install the **Field Service Integration** app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the Field Service Integration app, and choose the **Set up** action to run the assisted setup guide.
 2. On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide.
 
 This section describes the key settings in the guide.
+
+Optionally, if you want to enable technicians to view information about item availability from work orders, choose the **Install Business Central Virtual Table app** link.
 
 To let people post consumption of items and services in [!INCLUDE [field-service-short](includes/field-service-short.md)] work orders, specify the **Project Journal Template** and **Project Journal Batch** to use to post consumption of products and services.
 
@@ -92,14 +97,14 @@ You can also specify when work order products and service lines synchronize to [
 
 After work order products and services synchronize to project journals in [!INCLUDE [prod_short](includes/prod_short.md)], you can choose whether to post the project journals manually. Choose the appropriate option in the **Automatically post project journals lines** field:
 
-* When a work order is complete.
-* When work order products or services are used.
+- When a work order is complete.
+- When work order products or services are used.
 
 After you finish the setup, run a full synchronization from the **Dynamics 365 Field Service Integration Setup** page. This action synchronizes table mappings for things like:
 
-* Project tasks for projects with the **Apply Usage Link** set. This synchronization makes [!INCLUDE [prod_short](includes/prod_short.md)] projects available for selection in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-* Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
-* Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
+- Project tasks for projects with the **Apply Usage Link** set. This synchronization makes [!INCLUDE [prod_short](includes/prod_short.md)] projects available for selection in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+- Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
+- Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
 ## Standard Field Service entity mapping for synchronization
 
@@ -107,15 +112,15 @@ The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [p
 
 Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following standard integration table mappings:
 
-* **PJLINE-WORDERPRODUCT** - Maps work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
-* **PJLINE-WORDERSERVICE** - Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
-* **PROJECTTASK** - Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-* **RESOURCE-BOOKABLERSC** - Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-* **SVCITEM-CUSTASSET** - (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-* **LOCATIONS** - Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+- **PJLINE-WORDERPRODUCT** - Maps work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
+- **PJLINE-WORDERSERVICE** - Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
+- **PROJECTTASK** - Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+- **RESOURCE-BOOKABLERSC** - Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+- **SVCITEM-CUSTASSET** - (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+- **LOCATIONS** - Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
 > [!NOTE]
-> The LOCATIONS integration table mapping is available only if the **Location Mandatory** toggle on the **Inventory Setup** page is turned on.
+> The **LOCATIONS** integration table mapping is available only if the **Location Mandatory** toggle on the **Inventory Setup** page is turned on.
 
 ### Additional synchronization of locations and warehouses
 
@@ -125,13 +130,54 @@ The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](incl
 
 [!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
 
-* The **Use as In-Transit** toggle is turned off.
-* **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
-* **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+- The **Use as In-Transit** toggle is turned off.
+- **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
+- **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory)
 
-In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. 
+In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs.
 
-To let people view item availability, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages, turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, an Inventory Availability by Location API becomes available as a Dataverse virtual table and a synthetic relationship is created between this virtual table and the native **Products** table in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).  
+### View item availability in Business Central from Field Service
+
+When technicians prepare work orders, it's helpful that they can be sure that the items they need to do the work are available. This section describes how to let people view item availability information from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
+The first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
+
+Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must map that virtual table to the native **Products** table in [!INCLUDE [field-service-short](includes/field-service-short.md)]. There's an assisted setup guide to help you do that.
+
+To create the mapping, follow these steps:
+
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, use the **Synthetic Relations** action
+1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide.
+1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **CRM Product**.
+1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.
+1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide again.
+1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **FS Work Order Product**.
+1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.
+1. Choose **Next**.
+1. In the **Field in the FS Work Order Product table** field, choose **Product Id**.
+1. In the **Field in the Item Availability by Location table** field, choose **itemNo**.
+1. Choose **Finish** to complete the guide.
+1. To make your setup available in [!INCLUDE [field-service-short](includes/field-service-short.md)], in the **Power Apps admin center**, choose the view, and then choose the **Save and Publish** action.
+
+> [!NOTE]
+> It can take a few moments to create the synthetic relations.
+
+To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).  
+
+The next thing to do is to create the view that people use in [!INCLUDE [field-service-short](includes/field-service-short.md)] to check the inventory of products. You create the view in the **Power Apps admin center**.
+
+To create the view, follow these steps:
+
+1. In **Power Apps admin center**, on the navigation pane, choose **Tables**.
+1. Choose the **Item Availability by Location** table.
+1. In the **Data experiences** part, choose **Views**.
+1. Choose the **View column** action, and then choose the columns you want the view to include. The following columns are typical choices:
+
+    - **Location Code** shows where the product is available.
+    - **Item No.** confirms you're looking at the correct product.
+    - **Item Description** provides information about the product.
+    - **Unit of Measure Code** gives you an idea of the space you'll need.
+    - **Remaining Quantity** shows how much of the product is available at each location.
 
 ## Use data in both applications
 
@@ -152,7 +198,9 @@ You can book a resource and relate the **Bookings** to work order services using
 
 You can use **Open in Business Central** in [!INCLUDE [field-service-short](includes/field-service-short.md)] to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-In [!INCLUDE [field-service-short](includes/field-service-short.md)], you can use the **Open in Business Central** action to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
+Use the **Open in Business Central** action to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
+
+From the **Work Order** and **Product** pages, you can view where, and how much, of an item is available. On the **Related** menu, choose **Items Availability by Location**.
 
 ### Business Central
 
@@ -171,7 +219,7 @@ Use the **Project Planning Lines** page to track posting and invoicing of consum
 
 Use the **Locations in Field Service** action on the **Locations** and **Location Card** pages to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. You can view the allocated product quantity from work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] as part of the gross requirements in Business Central's inventory availability calculation. Demand generated by orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] automatically become an input for planning.
 
-## See also
+## Related information
 
 [Integrate with Microsoft Dataverse via data sync](admin-common-data-service.md)  
 [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)

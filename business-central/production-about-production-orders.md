@@ -113,6 +113,8 @@ A finished production order is unique, based on the following characteristics:
 - Finished production orders are used for reporting and to support the ability to track back to other orders (for example, sales, production, and purchases). The ability to track back to a finished production order allows you to review the detailed history.  
 - You can't change finished production orders.  
 
+#### Reopen a finished production order to make corrections
+
 After you complete a production order and set its status to **Finished**, you might discover a mistake. For example, you might find that consumption is missing or the item tracking information is incorrect. To make sure that your inventory and cost transactions are correct, use the **Reopen** action on the **Finished Production Orders** page to make adjustments. However, to protect your data there are a few restrictions:
 
 - You can reopen one finished order at a time.

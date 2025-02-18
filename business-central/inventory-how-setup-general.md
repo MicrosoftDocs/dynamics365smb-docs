@@ -43,7 +43,7 @@ To allow people to post inventory transactions at the same time, you can enable 
 
 If you enable the feature, [!INCLUDE [prod_short](includes/prod_short.md)] assigns entry numbers for each table from SequenceNumbers in the database, which allows more people to post transactions at the same time. The result can be that sometimes inventory entries from two or more transactions are interleaved. For example, an item register might contain any or all of the entry tables, as shown in the following image.
 
-:::image type="content" source="media/interleaved inventory tables.png" alt-text="The item register with several entry tables.":::
+:::image type="content" source="media/interleaved inventory tables.png" alt-text="Screenshot that shows the item register with several entry tables." lightbox="media/interleaved inventory tables.png":::
 
 If you don’t enable the feature, when someone posts an inventory transaction the tables are locked and other users can’t post inventory transactions. [!INCLUDE [prod_short](includes/prod_short.md)] finds the last entry in each table and assigns a number that’s one higher. This numbering ensures that entries that belong to the same register are consecutive, but prevents other people from posting at the same time.
 

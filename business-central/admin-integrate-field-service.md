@@ -110,23 +110,32 @@ After you finish the setup, run a full synchronization from the **Dynamics 365 F
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronize](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
-Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following standard integration table mappings:
+Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following standard integration table mappings.
 
-- **PJLINE-WORDERPRODUCT** - Maps work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
-- **PJLINE-WORDERSERVICE** - Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
-- **PROJECTTASK** - Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-- **RESOURCE-BOOKABLERSC** - Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-- **SVCITEM-CUSTASSET** - (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-- **LOCATIONS** - Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
+|Integration table mapping  |Data the mapping synchronizes  |
+|---------|---------|
+|**PJLINE-WORDERPRODUCT** | Maps work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].  |
+|**PJLINE-WORDERSERVICE** |  Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].  |
+|**PROJECTTASK** |  Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].  |
+|**RESOURCE-BOOKABLERSC**  | Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].  |
+|**SVCITEM-CUSTASSET**     | (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].        |
+|**LOCATIONS**     |  Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. <br><br> **Note:** The **LOCATIONS** integration table mapping is available only if you turn on the **Location Mandatory** toggle on the **Inventory Setup** page.      |
+|**SRVORDER**| Maps service orders in [!INCLUDE [prod_short](includes/prod_short.md)] to work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)], including the status of the orders. |
+|**SRVORDERITEMLINE**| Maps service item lines in [!INCLUDE [prod_short](includes/prod_short.md)] to work order incidents in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
+|**SRVORDERLINE-ITEM**| Maps service item lines in [!INCLUDE [prod_short](includes/prod_short.md)] with work order incidents in [!INCLUDE [field-service-short](includes/field-service-short.md)]. |
+|**SRVORDERLINE-RESOURCE**|**NEED INFORMATION**|
+|**SRVORDERLINE-SERVICE**|**NEED INFORMATION**|
+|**SRVORDERTYPE**| Maps service order types in [!INCLUDE [prod_short](includes/prod_short.md)] to work order types in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
 
 > [!NOTE]
-> The **LOCATIONS** integration table mapping is available only if the **Location Mandatory** toggle on the **Inventory Setup** page is turned on.
+> The integration also maps fields that show item availability information in [!INCLUDE [prod_short](includes/prod_short.md)] on work orders and products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. However, the mapping happens through a virtual table, and not an integration table. To learn more about virtual tables and viewing item availability, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
 
 ### Additional synchronization of locations and warehouses
 
 You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
 
-The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](includes/prod_short.md)]) integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, in [!INCLUDE [prod_short](includes/prod_short.md)] you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page.
+The data synchronizes through a unidirectional (from [!INCLUDE [prod_short](includes/prod_short.md)]) integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)] .
 
 [!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
 

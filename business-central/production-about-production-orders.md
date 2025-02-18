@@ -195,7 +195,7 @@ In the production journal, consumption quantities are posted as negative item le
 
 ## Related information
 
-[Manufacturing](production-manage-manufacturing.md)
+[Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  

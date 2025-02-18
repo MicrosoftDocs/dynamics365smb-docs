@@ -29,6 +29,22 @@ Field values from Copilot are suggestions that you can keep, replace, or discard
 
 The autofill feature is activated. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
+<!--
+## Limitations
+
+- Supported languages
+
+  [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
+
+- Supported pages types
+
+  The autofill feature is available on card and document pages, like a sales order, an item, or a customer card. It isn't available list pages or in FactBoxes.
+
+- Supported field types
+
+  The autofill feature is available on editable fields only. It's not available on fields in columns, data and time fields, es, like a sales order, an item, or a customer card. It isn't available list pages or in FactBoxes.-->
+
+
 ## Use autofill
 
 Copilot is available on most editable fields on a page. For example, it's not available on fields in columns, fields that set a date, or fields that get their value from a number series. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.

@@ -11,7 +11,6 @@ The following table describes the built-in reports in project management.
 
 | To...  | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 | ------ | ------------------------------------------------------------ | ---------- | -- |
-
 | [!INCLUDE[report-1005-scenario](../includes/report-1005-scenario-include.md)] | [Project Journal - Test](https://businesscentral.dynamics.com?report=1005) | [About *Project Journal - Test*](../reports/report-1005.md) | 1005 |
 | [!INCLUDE[report-1006-scenario](../includes/report-1006-scenario-include.md)] | [Project Planning Lines](https://businesscentral.dynamics.com?report=1006) | [About *Project Planning Lines*](../reports/report-1006.md) | 1006 |
 | [!INCLUDE[report-1007-scenario](../includes/report-1007-scenario-include.md)] | [Project Task Transaction Detail](https://businesscentral.dynamics.com?report=1007) | [About *Project Task Transaction Detail*](../reports/report-1007.md) | 1007 |

@@ -48,7 +48,7 @@ The autofill feature is activated. Learn more in [Configure Copilot and agent ca
   - Toggle switches
   - Fields that uniquely identify a record, such as fields defined by number series.
 
-## Use autofill to fill in fields
+## Use autofill on fields
 
 <!--Start by opening the page for editing. Copilot is available only on specific editable fields on a page. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.-->
 

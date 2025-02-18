@@ -15,9 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot includes an autofill feature that you use to fill in editable fields on your page automatically. The autofill feature is available on card and document pages, like a sales order, an item, or a customer card. Use autofill when you're creating or modifying a record.
-
-Field values from Copilot are suggestions that you can keep, replace, or discard. Suggestions can be based on your Business Central data, such as the values most frequently or recently used on records. They can also be AI-generated, based on a selection of a field's option values, lookup values, or page context.
+Copilot's autofill feature assists you by automatically filling in editable fields on your page. Use autofill when creating or modifying a record. It suggests field values that you can choose to keep, replace, or discard. These suggestions are based on your Business Central data, such as frequently or recently used values, or they can be AI-generated based on option values, lookup values, or page context.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -38,8 +36,7 @@ The autofill feature is activated. Learn more in [Configure Copilot and agent ca
 
 - Pages types
 
-  The autofill feature is available on card, document, and worksheet pages, like an item, sales order, or put-away workheet. It isn't available in lists, FactBoxes, assisted setup guides, or other dialog boxes.
-
+  The autofill feature is available on card, document, and worksheet pages, like an item, sales order, or put-away worksheet. It isn't available in lists, FactBoxes, assisted setup guides, or other dialog boxes.
 - Field types
 
   The autofill feature is available on editable fields in FastTabs only. It's not available on:
@@ -49,11 +46,14 @@ The autofill feature is activated. Learn more in [Configure Copilot and agent ca
   - Masked fields
   - Date/time fields
   - Toggle switches
-  - Fields that uniquely identify a record, for example, as defined by number series.
+  - Fields that uniquely identify a record, such as fields defined by number series.
 
-## Use autofill
+## Use autofill to fill in fields
 
-Copilot is available on most editable fields on a page. For example, it's not available on fields in columns, fields that set a date, or fields that get their value from a number series. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.
+Start by opening the page for editing. Copilot is available only on specific editable fields on a page. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.
+
+Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon. If the icon doesn't appear, autofill isn't available for the field, so try another field.
+
 
 ![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg).
 

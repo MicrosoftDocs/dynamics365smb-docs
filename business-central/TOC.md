@@ -1179,6 +1179,8 @@ ms.service: dynamics-365-business-central
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Print goods and service tax settlement reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Electronic documents
+##### [E-Invoicing in Peppol PINT A-NZ Format](LocalFunctionality/Australia/how-to-au-einvoice.md)
 #### Banking & payments
 ##### [Compare bank cash flow](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
 ##### [Create check installments](LocalFunctionality/Australia/how-to-create-check-installments.md)
@@ -1688,6 +1690,8 @@ ms.service: dynamics-365-business-central
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Print goods and services tax settlement reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Electronic documents
+##### [E-Invoicing in Peppol PINT A-NZ Format](LocalFunctionality/NewZealand/how-to-nz-einvoice.md)
 #### Banking & payments
 ##### [Compare bank cash flow](LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md)
 ##### [Create check installments](LocalFunctionality/NewZealand/how-to-create-check-installments.md)

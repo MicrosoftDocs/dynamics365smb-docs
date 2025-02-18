@@ -1,5 +1,5 @@
 ---
-title: Get assistance filling in fields with Copilot (preview)
+title: Autofill fields with Copilot (preview)
 description: Learn how to use Copilot's autofill feature to assist you in filling in fields on card and document pages.
 author: jswymer
 ms.author: jswymer

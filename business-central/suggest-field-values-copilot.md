@@ -11,7 +11,7 @@ ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
-# Get assistance filling in fields with Copilot (preview)
+# Autofill fields with Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,28 +21,35 @@ Field values from Copilot are suggestions that you can keep, replace, or discard
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
+<!--
 ## Supported languages
 
 [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
-
+-->
 ## Prerequisites
 
 The autofill feature is activated. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
-<!--
 ## Limitations
 
-- Supported languages
+- Languages
 
   [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
 
-- Supported pages types
+- Pages types
 
-  The autofill feature is available on card and document pages, like a sales order, an item, or a customer card. It isn't available list pages or in FactBoxes.
+  The autofill feature is available on card, document, and worksheet pages, like an item, sales order, or put-away workheet. It isn't available in lists, FactBoxes, assisted setup guides, or other dialog boxes.
 
-- Supported field types
+- Field types
 
-  The autofill feature is available on editable fields only. It's not available on fields in columns, data and time fields, es, like a sales order, an item, or a customer card. It isn't available list pages or in FactBoxes.-->
+  The autofill feature is available on editable fields in FastTabs only. It's not available on:
+
+  - Fields in columns
+  - Multiline text fields
+  - Masked fields
+  - Date/time fields
+  - Toggle switches
+  - Fields that uniquely identify a record, for example, as defined by number series.
 
 ## Use autofill
 

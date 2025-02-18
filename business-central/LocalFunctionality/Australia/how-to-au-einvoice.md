@@ -35,8 +35,11 @@ To set up the format for the E-Document service, follow these steps:
 
 ## Working with E-invoices
 
-You can read detailed information about how to use the [E-Documents framework in purchase processes](../../finance-how-use-edocuments-purchase.md) and in [sales processes](../../finance-how-use-edocuments.md).  
+To learn more about using the E-Documents framework into your purchasing and sales workflows, refer to these articles:
 
+- [Use e-documents in the sales process](../../finance-how-use-edocuments.md)
+- [Use e-documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)
+  
 ## See also
 
 - [Set up e-documents](../../finance-how-setup-edocuments.md)  

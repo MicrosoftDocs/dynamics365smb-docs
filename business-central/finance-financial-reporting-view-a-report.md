@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # View a financial report on-screen, as a PDF, or in Excel
 
-After you set up definitions for your financial reports, you can start using the data to support your finance and accounting processes. The Financial Reporting feature offers multiple ways for you to view the reports:
+After you set up definitions for your financial reports, you can start using the data to support your finance and accounting processes. The Financial Reporting feature offers multiple ways to view the reports:
 
 - On-screen, with drill-through to the underlying numbers.
 - As PDF documents designed for sharing and printing.
@@ -104,7 +104,6 @@ Follow these steps to produce your monthly financial report.
 1. The Excel workbook is updated with data and downloaded to you. Be sure to enable editing to show your changes when opening the workbook.
 1. Save the workbook with a different name than the original template.
 
-
 ## Print and save financial reports
 
 You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files.
@@ -117,8 +116,7 @@ You can print financial reports using your device's printing services. [!INCLUDE
 1. Choose the **Print** action.
 
 > [!TIP]
-> Your company name is always shown on the upper right in the PDF. If you define a *Display Name* on the **Companies** list page, then this will be shown instead of the *Name* field (which is not easy to change).
-
+> The name of your company always shows in the upper right of the PDF. If you specify a **Display Name** on the **Companies** list page, that name shows instead of the name in the **Name** field (which isn't easy to change).
 
 ### Schedule a financial report or save as a PDF document
 

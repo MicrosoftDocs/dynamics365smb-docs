@@ -44,7 +44,6 @@ The autofill feature is activated. Learn more in [Configure Copilot and agent ca
 
   The autofill feature is available on editable fields only. It's not available on fields in columns, data and time fields, es, like a sales order, an item, or a customer card. It isn't available list pages or in FactBoxes.-->
 
-
 ## Use autofill
 
 Copilot is available on most editable fields on a page. For example, it's not available on fields in columns, fields that set a date, or fields that get their value from a number series. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.

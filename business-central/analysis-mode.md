@@ -66,7 +66,7 @@ In the analysis mode, the page is divided into two areas:
 
 The data area is where the rows and columns of the list page query are shown and data is summarized. The data area provides a versatile way to control the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in the last row, unless you define row groups. In this case, the sums appear as a subtotal for the groups.  
 
-![Shows an overview of a data area on a page in the analysis mode](media/analysis-mode-data-area.png)
+:::image type="content" source="media/analysis-mode-data-area.png" alt-text="Shows an overview of a data area on a page in the analysis mode" lightbox="media/analysis-mode-data-area.png":::
 
 - To move a column, select it and drag it to where it makes the most sense in your analysis.
 - To sort on a column, select the column header. To sort on multiple columns, select and hold the <kbd>Shift</kbd> key while selecting the column headers you want to sort on.

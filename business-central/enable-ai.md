@@ -1,5 +1,5 @@
 ---
-title: Configure Copilot and AI capabilities
+title: Configure Copilot and agent capabilities
 description: This article explains how to enable Copilot in an environment.
 author: jswymer
 ms.author: jswymer
@@ -12,7 +12,7 @@ ms.collection:
 ms.search.form: 7771,7772_Primary,7775_Primary
 ---
 
-# Configure Copilot and AI capabilities
+# Configure Copilot and agent capabilities
 
 This article explains how to control Microsoft Copilot and other AI capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.
 
@@ -22,7 +22,7 @@ Copilot is a system feature and an integral part of Business Central. Like most 
 
     This task is required only if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more about this task](#allow-data-movement-across-geographies).
 
-- Activate the feature on the **Copilot & AI capabilities** page. [Learn more about this task](#activate-features).
+- Activate the feature on the **Copilot & agent capabilities** page. [Learn more about this task](#activate-features).
 
 If any of these requirements aren't met, the feature isn't available for use.
 
@@ -36,30 +36,30 @@ If any of these requirements aren't met, the feature isn't available for use.
 
 ## Allow data movement across geographies
 
-This section applies only if the **Allow data movement** toggle switch appears near the top of the **Copilot & AI capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task.
+This section applies only if the **Allow data movement** toggle switch appears near the top of the **Copilot & agent capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task.
 
-![Screenshot that shows the Allow data movement option on the Copilot & AI capabilities page.](media/allow-data-movement-v2.png)
+![Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.](media/copilot-and-ai-capabilties-page.svg)
 
 The presence of the **Allow data movement** toggle indicates that the location of your Business Central environment (where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 You can choose to disallow data movement, which deactivates Copilot and all features. To allow or disallow data movement across geographies:
 
-1. In Business Central, search for and open the **Copilot & AI capabilities** page.
+1. In Business Central, search for and open the **Copilot & agent capabilities** page.
 1. Switch the **Allow data movement** toggle on or off as desired.
 
-After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & AI capabilities** page.
+After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & agent capabilities** page.
 
 ## Activate features
 
-Copilot and AI capabilities are active by default when they're made available in preview or become generally available. On the **Copilot & AI capabilities** page, you can turn individual features off or on again for all users.
+Copilot and AI capabilities are active by default when they're made available in preview or become generally available. On the **Copilot & agent capabilities** page, you can turn individual features off or on again for all users.
 
-1. In Business Central, search for and open the **Copilot & AI capabilities** page.
+1. In Business Central, search for and open the **Copilot & agent capabilities** page.
 1. The page lists all available Copilot and AI-related features and their status (*Active* or *Inactive*). The features are divided into two sections: preview and generally available.
 
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & AI capabilities page.](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
 ## Granting user access
 

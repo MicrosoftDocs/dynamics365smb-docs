@@ -32,7 +32,7 @@ Information about products is stored in multiple places in [!INCLUDE [prod_short
 
 ## Prerequisites
 
-- Your administrator must activate the **Create product information** capability on the **Copilot & AI Capabilities** page. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
+- Your administrator must activate the **Create product information** capability on the **Copilot & agent capabilities** page. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
 - You're familiar with creating and managing product (item) information.
 
 ## Suggest item substitutions on item substitution entries

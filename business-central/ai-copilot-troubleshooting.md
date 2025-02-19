@@ -27,12 +27,12 @@ If Copilot functionality, such as the **Draft with Copilot** action for marketin
 
 When you try to use Copilot and you get an error similar to **Sorry, Copilot is not activated for \[feature\]**, there are a couple things to check:
 
-- First, make sure that the feature is activated on the **Copilot & AI capabilities** page. [Learn more about activating Copilot and AI capabilities](enable-ai.md#activate-features). 
+- First, make sure that the feature is activated on the **Copilot & agent capabilities** page. [Learn more about activating Copilot and AI capabilities](enable-ai.md#activate-features). 
 - Next, make sure that privacy notice statement for Azure OpenAI integration isn't set to **Disagree for everyone**. If it is, change it to **Agree for everyone**. [Learn more about privacy notices](privacy-notices-status.md).
 
-## Copilot capabilities from Microsoft not listed on Copilot & AI Capabilities page
+## Copilot capabilities from Microsoft not listed on Copilot & agent capabilities page
 
-If none of the AI features from Microsoft are shown in the **Copilot & AI capabilities** page, it's likely because you have one or more embed apps installed on your environment. Embed apps can offer their own Copilot capabilities, but capabilities published by Microsoft aren't compatible with environments having embed apps.
+If none of the AI features from Microsoft are shown in the **Copilot & agent capabilities** page, it's likely because you have one or more embed apps installed on your environment. Embed apps can offer their own Copilot capabilities, but capabilities published by Microsoft aren't compatible with environments having embed apps.
 
 ## Related information
 

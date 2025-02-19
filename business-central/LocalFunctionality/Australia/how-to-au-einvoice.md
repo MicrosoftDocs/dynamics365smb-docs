@@ -29,7 +29,7 @@ To set up the format for the E-Document service, follow these steps:
 
 1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link. The **E-Document Services** page displays.
 1. On the **General** FastTab, select **New**. In the **Document Format** field, choose **PINT A-NZ**.  
-1. Configure the fields as described in [Set up e-documents](../../finance-how-setup-edocuments.md).
+1. Configure the fields as described in [Set up E-Documents](../../finance-how-setup-edocuments.md).
 1. In the **Service Integration** field, you can select any service provider available for the Australian market with whom you have an agreement.  
 1. Close the page.  
 

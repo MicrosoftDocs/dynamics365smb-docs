@@ -7,17 +7,16 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_1106_Primary
-ms.date: 02/18/2024
-ms.service: dynamics-365-business-central
-# ms.custom:
-#   - ai-gen-docs-bap
-# ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.date: 02/18/2025
+ms.custom:
+   - ai-gen-docs-bap
+   - ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Resource Utilization (report)
 
-The **Resource Utilization** report shows quantities of capacity and usage for each project resource in their Base Unit of Measure. It also shows the balance remaining to show if resources are under or over utilized.
+The **Resource Utilization** report shows quantities of capacity and usage for each project resource in their base unit of measure. It also shows the balance remaining, which can indicate whether the resources were under or over utilized.
 
 ## Use cases
 
@@ -29,7 +28,7 @@ Try the report here: [Resource Utilization](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

@@ -5,21 +5,19 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.search.keywords: reporting
 ms.search.form: Report_1103_Primary
-ms.date: 02/18/2024
-ms.service: dynamics-365-business-central
-# ms.custom:
-#   - ai-gen-docs-bap
-# ai-seo-date: 10/23/2024
-# ai.usage: ai-assisted
+ms.date: 02/18/2025
+ms.custom:
+   - ai-gen-docs-bap
+   - ai-seo-date: 10/23/2024
+ai.usage: ai-assisted
 ---
 
 # Resource Register (report)
 
-The **Resource Register** report shows one or more selected resource registers. 
+The **Resource Register** report shows one or more selected resource registers.
 
-You can filter the report to show only the register entries that you want to see. If you don't set a filter, the report can be impractical because it can contain a large amount of information. 
+You can filter the report to show only the register entries that you're interested in. If you don't set a filter, the report might be impractical because it can contain a large amount of information.
 
 ## Use cases
 

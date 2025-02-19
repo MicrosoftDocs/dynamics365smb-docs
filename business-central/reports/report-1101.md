@@ -8,18 +8,15 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_1101_Primary
 ms.date: 02/18/2025
-ms.service: dynamics-365-business-central
-# ms.custom:
-#   - ai-gen-docs-bap
-# ai-seo-date: 02/18/2025
-# ai.usage: ai-assisted
+ms.custom:
+   - ai-gen-docs-bap
+   - ai-seo-date: 02/18/2025
+ai.usage: ai-assisted
 ---
 
 # Resource – List (report)
 
-The **Resource – List** report shows basic information for project resources, such as No., Name, Resource Group No., Gen. Prod Posting Group, and Global Dimensions. 
-
-Use this report, for example, to maintain information about a resource.
+The **Resource – List** report shows basic information about project resources. Use this report, for example, to maintain information about a resource.
 
 ## Use cases
 
@@ -31,7 +28,7 @@ Try the report here: [Resource – List](https://businesscentral.dynamics.com?re
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

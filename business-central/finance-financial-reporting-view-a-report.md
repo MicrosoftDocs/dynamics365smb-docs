@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # View a financial report on-screen, as a PDF, or in Excel
 
-After you set up definitions for your financial reports, you can start using the data to support your finance and accounting processes. The Financial Reporting feature offers multiple ways for you to view the reports:
+After you set up definitions for your financial reports, you can start using the data to support your finance and accounting processes. The Financial Reporting feature offers multiple ways to view the reports:
 
 - On-screen, with drill-through to the underlying numbers.
 - As PDF documents designed for sharing and printing.
@@ -104,7 +104,6 @@ Follow these steps to produce your monthly financial report.
 1. The Excel workbook is updated with data and downloaded to you. Be sure to enable editing to show your changes when opening the workbook.
 1. Save the workbook with a different name than the original template.
 
-
 ## Print and save financial reports
 
 You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files.
@@ -115,6 +114,9 @@ You can print financial reports using your device's printing services. [!INCLUDE
 1. In the **Printer** field, select the device to which the report is sent.
     1. The **(Handled by the browser)** option indicates that a printer isn't specified for the report. In this case, the browser handles the printout and displays the standard printing steps. You can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or the app for Teams.
 1. Choose the **Print** action.
+
+> [!TIP]
+> The name of your company always shows in the upper right of the PDF. If you specify a **Display Name** on the **Companies** list page, that name shows instead of the name in the **Name** field (which isn't easy to change).
 
 ### Schedule a financial report or save as a PDF document
 

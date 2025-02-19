@@ -106,12 +106,11 @@ After you finish the setup, run a full synchronization from the **Dynamics 365 F
 - Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
 - Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
-## Standard Field Service entity mapping for synchronization
+## Integration table mappings for synchronization
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronize](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
-Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following standard integration table mappings.
-
+Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following integration table mappings.
 
 |Integration table mapping  |Data the mapping synchronizes  |
 |---------|---------|
@@ -123,15 +122,16 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 |**LOCATIONS**     |  Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. <br><br> **Note:** The **LOCATIONS** integration table mapping is available only if you turn on the **Location Mandatory** toggle on the **Inventory Setup** page.      |
 |**SRVORDER**| Maps service orders in [!INCLUDE [prod_short](includes/prod_short.md)] to work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)], including the status of the orders. |
 |**SRVORDERITEMLINE**| Maps service item lines in [!INCLUDE [prod_short](includes/prod_short.md)] to work order incidents in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
-|**SRVORDERLINE-ITEM**| Maps service item lines in [!INCLUDE [prod_short](includes/prod_short.md)] with work order incidents in [!INCLUDE [field-service-short](includes/field-service-short.md)]. |
-|**SRVORDERLINE-RESOURCE**|**NEED INFORMATION**|
-|**SRVORDERLINE-SERVICE**|**NEED INFORMATION**|
+|**SRVORDERLINE-ITEM**| Maps items on service order lines in [!INCLUDE [prod_short](includes/prod_short.md)] with work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. |
+|**SRVORDERLINE-RESOURCE**| Maps resources on service order lines in [!INCLUDE [prod_short](includes/prod_short.md)] with bookable resource booking in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
+|**SRVORDERLINE-SERVICE**|Maps service lines in [!INCLUDE [prod_short](includes/prod_short.md)] with work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)]. |
 |**SRVORDERTYPE**| Maps service order types in [!INCLUDE [prod_short](includes/prod_short.md)] to work order types in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
+|**SVCITEM-CUSTASSET**|Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] with customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
 
 > [!NOTE]
-> The integration also maps fields that show item availability information in [!INCLUDE [prod_short](includes/prod_short.md)] on work orders and products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. However, the mapping happens through a virtual table, and not an integration table. To learn more about virtual tables and viewing item availability, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
+> The integration also maps fields that show item availability information in [!INCLUDE [prod_short](includes/prod_short.md)] on work orders and products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. However, the mapping happens through a virtual table, and not an integration table. Some setup is required. To learn more about virtual tables and viewing item availability, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
 
-### Additional synchronization of locations and warehouses
+### Synchronize location and warehouse data
 
 You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
 
@@ -153,7 +153,7 @@ The first thing to do is to install the [Business Central Virtual Table](https:/
 
 Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must create a synthetic relation between the following tables:
 
-- The native **Product** and **Work Order Product** tables in [!INCLUDE [field-service-short](includes/field-service-short.md)] and the **Item Availability** virtual table that shows item availability.
+- The native **Product** and **Work Order Product** tables in [!INCLUDE [field-service-short](includes/field-service-short.md)] and the **Item Availability** virtual table that shows item availability. 
 
 There's an assisted setup guide to help you create the synthetic relation.
 
@@ -194,30 +194,60 @@ To create the view, follow these steps:
 
 ### Integrate service management features
 
-Integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)] lets you manage service tasks, consumption, and financial transactions to benefit service technicians, service managers, and finance teams. It's a powerful solution for managing work orders and consumption in [!INCLUDE [field-service-short](includes/field-service-short.md)] and efficiently invoicing and fulfilling them in [!INCLUDE [prod_short](includes/prod_short.md)].
+Integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)] lets you manage service tasks, consumption, and financial transactions to benefit service technicians, service managers, and finance teams. It's a powerful solution for managing work orders and consumption in [!INCLUDE [field-service-short](includes/field-service-short.md)] and efficiently invoicing and fulfilling them in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration is bi-directional, meaning that when you enter or change data in either app, the data updates in the other.
 
-To integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] with service management features in [!INCLUDE [prod_short](includes/prod_short.md)], you must have a **Premium** license. When you do, on the **Company Information** page in [!INCLUDE [prod_short](includes/prod_short.md)], set the **User Experience** field to **Premium**.
+> [!NOTE]
+> When you enable the integration with service management features, you also enable the integration with projects. You can't enable only the service management integration.
 
-You can enable the integration in the **Integration Type** field by selecting **Project (default)** or **Service** in the following places:
+#### Set up the integration with service management features
+
+You must have a **Premium** license. When you do, on the **Company Information** page in [!INCLUDE [prod_short](includes/prod_short.md)], set the **User Experience** field to **Premium**.
+
+You can enable the integration in the **Integration Type** field by selecting **Project and Service** in the following places:
 
 - In the **Set up integration to Dynamics 365 Field Service** assisted setup guide.
 - On the **Dynamics 365 Field Service Integration Setup** page.
 
-When the **Integration Type** field is set to **Service**, the following things happen when you enable the integration:
+When the **Integration Type** field is set to **Project and Service**, the following things happen when you enable the integration:
 
-- Adds integration table mappings for service order types, service documents, service lines, and service item lines.
+- Creates a solution in Power Apps named **Microsoft Dynamics 365 Business Central Field Service Integration (service)**.
+- Adds integration table mappings for service order types, service documents, service lines, and service item lines. To learn more about the table mappings, go to [Integration table mappings for synchronization](#integration-table-mappings-for-synchronization).
 - Turns on the **Archive Orders** toggle on the **Service Management Setup** page.
 - Makes the **Service Order Type** field on service orders mandatory because the **Work Order Type** is mandatory on [!INCLUDE [field-service-short](includes/field-service-short.md)] work orders.
-
 - Fields in the headers on service orders and work orders transfer information, such as the **Service Account**, **Billing Account**, and **Work Order Type**.
 - **Service Item Lines** and **Work Order Incidents** in [!INCLUDE [field-service-short](includes/field-service-short.md)] transfer information about the customer assets being repaired.
 - **Service Line** fields and **Work Order Products** and **Work Order Services** fields, such as **Qty. to Ship**, **Qty. to Invoice**, and **Qty. to Consume**.
 
-When a technician marks a work order product or service as **Used** on a work order with a specific work order type, the lines sync to a service order. Consumption is also posted, based on settings on the **Dynamics 365 Field Service Integration Setup** page.
+In [!INCLUDE [prod_short](includes/prod_short.md)], make the following settings on the **Service Management Setup** page:
+
+- Turn on the **Service Order Type Mandatory** toggle. This setting is required because [!INCLUDE [field-service-short](includes/field-service-short.md)] requires a work order type.
+- Make sure that the number series you use is set up to allow manual numbering. On the **No. Series** page, select the **Manual Nos.** checkbox for the number series. Manual numbering lets you create work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] and synchronize them with service orders. [!INCLUDE [prod_short](includes/prod_short.md)] uses the order number from [!INCLUDE [field-service-short](includes/field-service-short.md)].
+- Turn off the **One Service Item Line/Order** toggle. This setting lets you have more than one work item line.
+
+When a technician marks a work order product or service as **Used** on a work order with a specific work order type, the lines synchronize to a service order. Consumption is also posted, based on settings on the **Dynamics 365 Field Service Integration Setup** page.
 
 During consumption and invoice posting in [!INCLUDE [prod_short](includes/prod_short.md)], the consumed and invoiced quantities are updated on the original work order product and work order service lines in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-If you choose **Enable Inventory Availability by Location** when you set up the integration, you can view the allocated product quantity from work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] as part of the gross requirements in [!INCLUDE [prod_short](includes/prod_short.md)]'s inventory availability calculation. Demand generated by orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] automatically becomes input for planning through synced service orders.
+If you choose **Enable Inventory Availability by Location** when you set up the integration, you can view the allocated product quantity from work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] as part of the gross requirements in [!INCLUDE [prod_short](includes/prod_short.md)]'s inventory availability calculation. Demand generated by orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] automatically becomes input for planning through synchronized service orders.
+
+As service or work orders progress toward completion, their status changes. The following table shows how the statues align in both apps.
+
+|[!INCLUDE [prod_short](includes/prod_short.md)] status  |[!INCLUDE [field-service-short](includes/field-service-short.md)] status  | Alignment |
+|---------|-----------|---------|
+|Pending  |Unscheduled| Bidirectional per mapping to account for item demand. |
+|Pending  |Scheduled  | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. Synchronizes the quantity to ship and the quantity to invoice.|
+|In process | In progress | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. Synchronizes the quantity to ship and the quantity to invoice. |
+|Finished | Completed     | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. Ready for posting in Business Central. |
+|Finished | Posted        | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. When completely invoiced or deleted after partial invoicing in [!INCLUDE [prod_short](includes/prod_short.md)].|
+|N/A     | Canceled      | Not synchronized. Manual alignment is needed for canceled work orders. |
+
+### Upgrade your integration to include service management features
+
+If you set up the integration to only include projects, but decide to add service management features later, that's easy to do in just a few steps. Remember that you must have a Premium license though.
+
+1. On the **Dynamics 365 Field Service Integration Setup** page, turn off the **Enabled** toggle.
+1. In the **Integration Type** field, choose **Project and Service**.
+1. Turn on the **Enabled** toggle.
 
 ## Use data in both applications
 

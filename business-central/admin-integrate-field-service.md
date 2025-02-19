@@ -29,7 +29,7 @@ You must download the following apps from AppSource, and install them in your [!
 - [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2304910)
 
 > [!NOTE]
-> The Business Central Virtual Table app is optional. It's required only if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
+> The [!INCLUDE [prod_short](includes/prod_short.md)] Virtual Table app is optional. You only need it if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
 
 ### Permissions and security roles for user accounts
 
@@ -97,8 +97,8 @@ You can also specify when work order products and service lines synchronize to [
 
 After work order products and services synchronize to project journals in [!INCLUDE [prod_short](includes/prod_short.md)], you can choose whether to post the project journals manually. Choose the appropriate option in the **Automatically post project journals lines** field:
 
-- When a work order is complete.
-- When work order products or services are used.
+- When a work order is complete
+- When work order products or services are used
 
 After you finish the setup, run a full synchronization from the **Dynamics 365 Field Service Integration Setup** page. This action synchronizes table mappings for things like:
 
@@ -189,7 +189,7 @@ To create the view, follow these steps:
     - **Location Code** shows where the product is available.
     - **Item No.** confirms you're looking at the correct product.
     - **Item Description** provides information about the product.
-    - **Unit of Measure Code** gives you an idea of the space you'll need.
+    - **Unit of Measure Code** gives you an idea of the space you need.
     - **Remaining Quantity** shows how much of the product is available at each location.
 
 ### Integrate service management features
@@ -211,7 +211,7 @@ You can enable the integration in the **Integration Type** field by selecting **
 When the **Integration Type** field is set to **Project and Service**, the following things happen when you enable the integration:
 
 - Creates a solution in Power Apps named **Microsoft Dynamics 365 Business Central Field Service Integration (service)**.
-- Adds integration table mappings for service order types, service documents, service lines, and service item lines. To learn more about the table mappings, go to [Integration table mappings for synchronization](#integration-table-mappings-for-synchronization).
+- Adds integration table mappings for service order types, service documents, service lines, and service item lines. To learn more about the table mappings, go to [Integration table mappings for synchronization](#integration-table-mappings-for-synchronization). The table mappings for service management have **SVC** in their names.
 - Turns on the **Archive Orders** toggle on the **Service Management Setup** page.
 - Makes the **Service Order Type** field on service orders mandatory because the **Work Order Type** is mandatory on [!INCLUDE [field-service-short](includes/field-service-short.md)] work orders.
 - Fields in the headers on service orders and work orders transfer information, such as the **Service Account**, **Billing Account**, and **Work Order Type**.
@@ -224,10 +224,6 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], make the following settings 
 - Make sure that the number series you use is set up to allow manual numbering. On the **No. Series** page, select the **Manual Nos.** checkbox for the number series. Manual numbering lets you create work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] and synchronize them with service orders. [!INCLUDE [prod_short](includes/prod_short.md)] uses the order number from [!INCLUDE [field-service-short](includes/field-service-short.md)].
 - Turn off the **One Service Item Line/Order** toggle. This setting lets you have more than one work item line.
 
-When a technician marks a work order product or service as **Used** on a work order with a specific work order type, the lines synchronize to a service order. Consumption is also posted, based on settings on the **Dynamics 365 Field Service Integration Setup** page.
-
-During consumption and invoice posting in [!INCLUDE [prod_short](includes/prod_short.md)], the consumed and invoiced quantities are updated on the original work order product and work order service lines in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-
 If you choose **Enable Inventory Availability by Location** when you set up the integration, you can view the allocated product quantity from work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] as part of the gross requirements in [!INCLUDE [prod_short](includes/prod_short.md)]'s inventory availability calculation. Demand generated by orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] automatically becomes input for planning through synchronized service orders.
 
 As service or work orders progress toward completion, their status changes. The following table shows how the statues align in both apps.
@@ -238,7 +234,7 @@ As service or work orders progress toward completion, their status changes. The 
 |Pending  |Scheduled  | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. Synchronizes the quantity to ship and the quantity to invoice.|
 |In process | In progress | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. Synchronizes the quantity to ship and the quantity to invoice. |
 |Finished | Completed     | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. Ready for posting in Business Central. |
-|Finished | Posted        | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. When completely invoiced or deleted after partial invoicing in [!INCLUDE [prod_short](includes/prod_short.md)].|
+|Finished | Posted        | [!INCLUDE [field-service-short](includes/field-service-short.md)] to [!INCLUDE [prod_short](includes/prod_short.md)]. When fully invoiced or deleted after partial invoicing in [!INCLUDE [prod_short](includes/prod_short.md)].|
 |N/A     | Canceled      | Not synchronized. Manual alignment is needed for canceled work orders. |
 
 ### Upgrade your integration to include service management features
@@ -262,15 +258,19 @@ You can add inventory and noninventory items as **Work Order Products** on work 
 You can add items of the type service as **Work Order Services**, and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab).
 
 > [!NOTE]
-> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they'll synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
+> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
-You can use **Open in Business Central** in [!INCLUDE [field-service-short](includes/field-service-short.md)] to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)].
+You can use the **Open in Business Central** action in [!INCLUDE [field-service-short](includes/field-service-short.md)] to open a location that's coupled to a warehouse.
 
-Use the **Open in Business Central** action to open a location in [!INCLUDE [prod_short](includes/prod_short.md)] that's coupled to a warehouse in [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
+Use the **Open in Business Central** action to open a location that's coupled to a warehouse. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
 
 From the **Work Order** and **Product** pages, you can view where, and how much, of an item is available. On the **Related** menu, choose **Items Availability by Location**.
+
+When you mark a work order product or service as **Used** on a work order with a specific work order type, the lines synchronize to a service order. Consumption is also posted, based on settings on the **Dynamics 365 Field Service Integration Setup** page.
+
+During consumption and invoice posting in [!INCLUDE [prod_short](includes/prod_short.md)], the quantities are updated on the original work order product and work order service lines in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
 ### Business Central
 
@@ -281,7 +281,10 @@ The **Quantity To Bill** and **Duration To Bill** values are copied to the **Qty
 Use the **Project Planning Lines** page to track posting and invoicing of consumption on work orders. From the **Project Planning Lines** page, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)]. Afterward, you can synchronize them with [!INCLUDE [field-service-short](includes/field-service-short.md)] and keep track of the status of the invoices.
 
 > [!NOTE]
-> Work order services with a booking that uses a bookable resource that's coupled to a [!INCLUDE [prod_short](includes/prod_short.md)] resource synchronize to two project journal lines: one line of type **Budget** for the coupled resource, and another line of type **Billable** for the item being serviced.
+> Work order services with a booking that uses a bookable resource that's coupled to a [!INCLUDE [prod_short](includes/prod_short.md)] resource synchronize to two project journal lines:
+>
+> - One line of type **Budget** for the coupled resource
+> - One line of type **Billable** for the item being serviced
 >
 > The product that's chosen on the work order service must be coupled to an item of the type **Service** in [!INCLUDE [prod_short](includes/prod_short.md)]. Also, the base unit of measure for the item must be set to the **Hours Unit of Measure** that's chosen on the **Dynamics 365 Field Service Integration Setup** page.
 >

@@ -12,7 +12,7 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ---
 # Analyze list page and query data using data analysis feature
 
-> **APPLIES TO:** Public preview in Business Central 2023 release wave 1 for analyzing list pages; Generally available in Business Central 2023 release wave 2 for analyzing data from list pages and queries.
+> **APPLIES TO:** Public preview in [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 1 for analyzing list pages. Generally available in [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 2 for analyzing data from list pages and queries.
 
 This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
 
@@ -80,7 +80,6 @@ Note that in the data area, you can filter on all columns, including totals such
 
 :::image type="content" source="media/analysis-mode-filter-on-totals.png" alt-text="Screenshot of how to filter on totals in analysis mode" lightbox="media/analysis-mode-filter-on-totals.png":::
 
-
 ### Summary bar (2)
 
 The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data updates.
@@ -116,7 +115,7 @@ The **Columns** pane is one of two panes that work together to define your analy
 To move a field from one area to another, select the grab icon ![Shows the button for grabbing a field in the analysis mode](media/column-grab-icon.png) next to the column in the list and drag it into the target area. You're prevented from moving a field to an area where it isn't allowed.
 
 > [!NOTE]
-> If you use personalization to add/remove fields from a list page, your choice of visibility is reflected in the **Columns** pane. An added field will have the show checkbox set to false. To include the added field in an analysis definition, simply check its box in the **Columns** pane. To learn more about personalization, go to [Add/remove fields and columns on a page](ui-personalization-user.md#fields). 
+> If you use personalization to add or remove fields from a list page, your choice of visibility is reflected in the **Columns** pane. An added field has the **Show** checkbox cleared. To include the added field in an analysis definition, select the checkbox in the **Columns** pane. To learn more about personalization, go to [Add/remove fields and columns on a page](ui-personalization-user.md#fields).
 
 ### Analysis filters (4)
 

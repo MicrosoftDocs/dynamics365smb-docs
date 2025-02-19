@@ -37,14 +37,14 @@ To set up the format for the E-Document service, follow these steps:
 
 To learn more about using the E-Documents framework into your purchasing and sales workflows, refer to these articles:
 
-- [Use e-documents in the sales process](../../finance-how-use-edocuments.md)
-- [Use e-documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)
+- [Use E-Documents in the sales process](../../finance-how-use-edocuments.md)
+- [Use E-Documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)
 
 ## See also
 
-- [Set up e-documents](../../finance-how-setup-edocuments.md)  
-- [How to use e-documents in sales](../../finance-how-use-edocuments.md)  
-- [How to use e-documents in purchase](../../finance-how-use-edocuments-purchase.md)  
-- [Australian Local Functionality](new-zealand-local-functionality.md)  
+- [Set up E-Documents](../../finance-how-setup-edocuments.md)  
+- [How to use E-Documents in sales](../../finance-how-use-edocuments.md)  
+- [How to use E-Documents in purchase](../../finance-how-use-edocuments-purchase.md)  
+- [Australian local functionality](new-zealand-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

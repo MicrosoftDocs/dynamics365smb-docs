@@ -1,6 +1,6 @@
 ---
 title: Resource – List (report)
-description: Analyze resource data to ensure it is accurate and up-to date.
+description: Analyze resource data to ensure it's accurate and up-to-date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf

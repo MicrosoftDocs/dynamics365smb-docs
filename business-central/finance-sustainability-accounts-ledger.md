@@ -81,7 +81,7 @@ If you set the **Calculation Foundation** field, the following table explains ho
 | Stationary combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for boilers, heaters, thermal oxidizers, and so on |
 | Mobile combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for on-road or non-road vehicles, rail, and so on |
 | | | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of on-road or non-road vehicles, rail, and so on |
-| Fugitive emissions | Installation | *Emission* = *Installation multiplier* &times; *Custom Amount* &divide; 100 &times; *Time Factor* | *Custom Amount* = Assembly losses, annual leak rate, and so on |
+| Fugitive emissions | Installation | *Emission* = *Installation multiplier* &times; *Custom Amount* &divide; 100 &times; *Time Factor* &times; *EF* | *Custom Amount* = Assembly losses, annual leak rate, and so on |
 | **Scope 2** | | | |
 | Utility providers | Fuel/Electricity | *Emission* = *Electricity* &times; *EF* | *Fuel/Electricity* = Electricity quantity, steam quantity, heating unit, and so on |
 | | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Thermal unit, ton-hour, and so on |

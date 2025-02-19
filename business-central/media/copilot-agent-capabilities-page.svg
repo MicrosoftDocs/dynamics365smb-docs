@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="943.24713"
-   height="856.03369"
-   viewBox="0 0 943.24713 856.03369"
+   width="944.44714"
+   height="859.77539"
+   viewBox="0 0 944.44714 859.77539"
    data-stacking-context="true"
    aria-owns="html1"
    version="1.1"
@@ -39,7 +39,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.74529781"
      inkscape:cx="483.02839"
-     inkscape:cy="588.35542"
+     inkscape:cy="589.69716"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -53,7 +53,7 @@
      data-stacking-context="true"
      mask="url(#mask-for-html11)"
      clip-path="url(#clipPath865)"
-     transform="translate(-792.97162,-50.986332)">
+     transform="translate(-792.97162,-49.78633)">
     <mask
        id="mask-for-html11">
       <rect
@@ -34091,10 +34091,20 @@ src: local(&quot;device-segoe-mdl2-assets&quot;);
 }
     </style>
   <rect
-     style="fill:none;fill-opacity:1;stroke-width:2.4;stroke-dasharray:none;stroke:#d3d3d3;stroke-opacity:1"
+     style="fill:none;fill-opacity:1;stroke:#d3d3d3;stroke-width:2.40171;stroke-dasharray:none;stroke-opacity:1"
      id="rect867"
-     width="944.58887"
-     height="857.37537"
-     x="-1.3417455"
-     y="0" />
+     width="941.90369"
+     height="857.37366"
+     x="1.3426001"
+     y="1.200855" />
+  <path
+     id="rect17819"
+     style="fill:none;stroke:#e91c1c;stroke-width:3;stroke-dasharray:none"
+     d="m 308.01151,325.88524 h 94.90021 c 0.35772,0 0.64573,0.13132 0.64573,0.29444 v 43.17375 c 0,0.16312 -0.28801,0.29445 -0.64573,0.29445 h -94.90021 c -0.35771,0 -0.64573,-0.13133 -0.64573,-0.29445 v -43.17375 c 0,-0.16312 0.28802,-0.29444 0.64573,-0.29444 z"
+     inkscape:label="Rectangle callout" />
+  <path
+     id="rect17819-5"
+     style="fill:none;stroke:#e91c1c;stroke-width:3;stroke-dasharray:none"
+     d="m 254.32344,692.15405 h 94.90017 c 0.3578,0 0.6458,0.13132 0.6458,0.29444 v 43.17375 c 0,0.16312 -0.288,0.29445 -0.6458,0.29445 h -94.90017 c -0.35771,0 -0.64573,-0.13133 -0.64573,-0.29445 v -43.17375 c 0,-0.16312 0.28802,-0.29444 0.64573,-0.29444 z"
+     inkscape:label="Rectangle callout" />
 </svg>

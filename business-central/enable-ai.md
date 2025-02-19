@@ -59,7 +59,7 @@ Copilot and AI capabilities are active by default when they're made available in
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilties-page.svg#lightbox)
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox)
 
 ## Granting user access
 

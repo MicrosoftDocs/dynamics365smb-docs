@@ -117,9 +117,8 @@ A finished production order is unique, based on the following characteristics:
 
 After you complete a production order and set its status to **Finished**, you might discover a mistake. For example, you might find that consumption is missing or the item tracking information is incorrect. To make sure that your inventory and cost transactions are correct, use the **Reopen** action on the **Finished Production Orders** page to make adjustments. However, to protect your data there are a few restrictions:
 
-- You can reopen one finished order at a time.
-- The orders can't have output.
-- WIP cost is written off to your inventory adjustment account.
+- You can only reopen an order one time.
+- You can't reopen an order that has no output and cost was written off to an adjustment account.
 
 ## Production order execution  
 

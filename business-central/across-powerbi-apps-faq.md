@@ -20,10 +20,10 @@ This article provides answers to frequently asked questions (FAQs) about the [!I
 
 ## What [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses do I need?
 
-You need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
+To use the Power BI apps, you need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
 
 - Users who install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps.
-- Users who refresh the data.
+- Users who refresh the report data.
 - Users who access the reports.
 
 Alternatively, you can use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)].
@@ -32,10 +32,12 @@ To learn more, go to [Installing Power BI apps for Business Central (prerequisit
 
 ## Why do I need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses?
 
-You need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the following reasons:
+You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the following reasons:
 
-1. it is required to be able to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
-2. it is required for sharing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
+1. You must install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
+2. You must share a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
+
+The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
 
 ## Can I install the same app multiple times for different companies or environments?
 

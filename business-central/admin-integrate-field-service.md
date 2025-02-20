@@ -110,7 +110,7 @@ After you finish the setup, run a full synchronization from the **Dynamics 365 F
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronize](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
-Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following integration table mappings.
+The following integration table mappings install if you choose the **Project (default)** integration type.
 
 |Integration table mapping  |Data the mapping synchronizes  |
 |---------|---------|
@@ -120,6 +120,11 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 |**RESOURCE-BOOKABLERSC**  | Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].  |
 |**SVCITEM-CUSTASSET**     | (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].        |
 |**LOCATIONS**     |  Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. <br><br> **Note:** The **LOCATIONS** integration table mapping is available only if you turn on the **Location Mandatory** toggle on the **Inventory Setup** page.      |
+
+In addition to those, the following integration table mappings install if you choose the **Project and Service** integration type.
+
+|Integration table mapping  |Data the mapping synchronizes  |
+|---------|---------|
 |**SRVORDER**| Maps service orders in [!INCLUDE [prod_short](includes/prod_short.md)] to work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)], including the status of the orders. |
 |**SRVORDERITEMLINE**| Maps service item lines in [!INCLUDE [prod_short](includes/prod_short.md)] to work order incidents in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
 |**SRVORDERLINE-ITEM**| Maps items on service order lines in [!INCLUDE [prod_short](includes/prod_short.md)] with work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. |

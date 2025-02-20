@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot's autofill feature assists you by automatically filling in editable fields on your page. Use autofill when creating or modifying a record. It suggests field values that you can choose to keep, replace, or discard. These suggestions are based on your Business Central data, such as frequently or recently used values, or they can be AI-generated based on option values, lookup values, or page context.
+Copilot's autofill feature assists you by automatically filling in editable fields on your page. Use autofill when creating or modifying a record. It suggests field values that you can choose to keep or discard. These suggestions are based on your Business Central data, such as frequently or recently used values, or they can be AI-generated based on option values, lookup values, or page context.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

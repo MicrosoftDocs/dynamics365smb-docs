@@ -9,6 +9,7 @@ ms.collection:
   - bap-ai-copilot
 ms.date: 12/16/2024
 ms.custom: bap-template
+ms.search.form: 4400, 4410_Primary
 ---
 # Process sales quotes and orders with Sales Order Agent (preview)
 

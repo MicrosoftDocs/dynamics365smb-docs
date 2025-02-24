@@ -1,5 +1,5 @@
 ---
-title: Item availability (preview)
+title: Item availability in Sales Order Agent (preview)
 description: Learn about the item availability used by the Sales Order agent and how you cant test results on your own.
 author: jswymer
 ms.author: jswymer
@@ -10,15 +10,19 @@ ms.collection:
 ms.date: 02/21/2025
 ms.custom: bap-template
 ---
-# Item availability (preview)
+# Item availability in Sales Order Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Item Availability** page is part of the Sales Order Agent extension. The Sales Order Agent uses this page as part of the order taking process to check item availability, if configured, before the agent adds items requested by customers.
+The **Item Availability** page is part of the Sales Order Agent extension for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration steps and field descriptions.
 
-As a reviewer, you can also use the **Item Availability** page. If the Sales Order Agent finds unavailable items, a request for assistance step is added to the flow. Select the **Item Availability** link to open the page and review and adjust items.
+## Overview
 
-Learn how to configure the agent in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
+Admins can set up the Sales Order Agent to select only available items for sales quotes or orders. Learn how to configure the agent in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
+
+When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to verify an item's availability on the requested delivery date before adding it the quote or order.
+
+As a reviewer, you can also use the **Item Availability** page. If the Sales Order Agent finds unavailable items, a request for assistance step is added to the flow. Select the **Item Availability** link to open this page and review and adjust items.
 
 ## How it works
 

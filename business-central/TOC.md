@@ -808,6 +808,11 @@ ms.service: dynamics-365-business-central
 ##### [Items per Project](reports/report-1013.md)
 ##### [Project per Item](reports/report-1014.md)
 ##### [Project Register](reports/report-1015.md)
+##### [Resource – List](reports/report-1101.md)
+##### [Resource Register](reports/report-1103.md)
+##### [Resource Statistics](reports/report-1105.md)
+##### [Resource Utilization](reports/report-1106.md)
+##### [Resource - Cost Breakdown](reports/report-1107.md)
 <!-- Project management analytics end -->
 
 ### [Create projects](projects-how-create-jobs.md)
@@ -1016,9 +1021,9 @@ ms.service: dynamics-365-business-central
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
 ##### [Production Order Statistics](reports/report-99000791.md)
-#### Legacy reports (will be removed)
-##### [Work Center List (legacy)](reports/report-99000759.md) 
-##### [Machine Center List (legacy)](reports/report-99000760.md) 
+#### Obsolete reports (will be removed)
+##### [Work Center List (obsolete)](reports/report-99000759.md) 
+##### [Machine Center List (obsolete)](reports/report-99000760.md) 
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)

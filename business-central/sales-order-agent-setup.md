@@ -8,6 +8,7 @@ ms.author: dmitrych
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 4400_Primary, 4410
 ---
 # Set up Sales Order Agent (preview)
 

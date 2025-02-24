@@ -14,16 +14,16 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Order Agent uses the **Item Availability** page to check if requested items are available for sale on a specific date in the requested quantity from the related location. It also shows the specific price and discount for the customer making the request.
+The **Item Availability** page is part of the Sales Order Agent extension. The Sales Order Agent uses this page to check item availability if configured. Before adding items requested by customers, it checks availability on the requested date, in the requested quantity, and at the customer's location. It also shows the specific price and discount for the customer. As a reviewer, you can also use the **Item Availability** page. If the Sales Order Agent finds unavailable items, a request for assistance step is added to the flow. Select the **Item Availability** link to open the page and review and adjust items.
 
 ## How it works
 
 Before calculating the availability and prices for requested items, the agent searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 
 > [!IMPORTANT]
-> **Customer No.** and **Location Filter** values set by the agent are not shown in the Sales Order Agent timeline. In order to test the agent results, these fields must be calculated and set manually.
+> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline. In order to test the agent results, these fields must be calculated and set manually.
 
-After setting these fields, the agent sets the **Date Filter** and **Quantity Filter for each item in the request. The Date Filter is validated with the requested date, and the Quantity Filter is filled with the requested quantity of the item (currently only in Base Unit of Measure).
+After setting these fields, the agent sets the **Date Filter** and **Quantity Filter** for each item in the request. The Date Filter is validated with the requested date, and the Quantity Filter is filled with the requested quantity of the item (currently only in Base Unit of Measure).
 For each item from the search result, the following fields are calculated:
 
 |Field|Description|

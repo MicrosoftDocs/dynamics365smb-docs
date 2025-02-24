@@ -1,0 +1,47 @@
+---
+title: Item availability (preview)
+description: Learn about the item availability used by the Sales Order agent and how you cant test results on your own.
+author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.topic: conceptual
+ms.collection:
+  - bap-ai-copilot
+ms.date: 02/21/2025
+ms.custom: bap-template
+---
+# Item availability (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+The **Item Availability** page is part of the Sales Order Agent extension. The Sales Order Agent uses this page as part of the order taking process to check item availability, if configured, before the agent adds items requested by customers.
+
+As a reviewer, you can also use the **Item Availability** page. If the Sales Order Agent finds unavailable items, a request for assistance step is added to the flow. Select the **Item Availability** link to open the page and review and adjust items.
+
+Learn how to configure the agent in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
+
+## How it works
+
+Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
+
+> [!NOTE]
+> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline or on the **Item Availability** page when you open it from the timeline. To test the agent results yourself, set these fields manually.
+
+After setting these fields, the agent checks the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure. For each item, the following fields are calculated:
+
+|Field|Description|
+|-|-|
+|Requested Quantity Available|Indicates whether the quantity of items requested by the customer, specified by the **Quantity Filter** field, is available. If the **Quantity Filter** is less than or equal to the **Available Quantity (Base UOM)**, the item is available, and the check box is selected. If the **Quantity Filter** field is greater than item isn't available, and the check box is cleared. |
+|Available Quantity (Base UOM)|Shows the projected available balance of item quantity on the date specified by the **Date Filter**. Calculate the value by adding the current item inventory in ledger entries to the items in scheduled receipts (inbound transactions like purchase and transfer orders). Then, subtract the items in gross requirements (outbound transactions like sales, service, and production orders). You can select the value to display the totals for item ledger entries and each receipt type. Then, you can drill down to view the source of these totals.|
+|Unit of Measure Code|Shows the item's sales unit of measure code. If the field is empty, the base unit of measure is used.|
+|Unit of Measure|The item's sales or base unit of measure description. Learn more in [Set Up Units of Measure](inventory-how-setup-units-of-measure.md).|
+|Available Quantity|Shows the available quantity in base unit of measure (UOM) recalculated to the sales unit of measure.|
+|Unit Price Including Discount|Shows the items' price including discount calculated for a specified customer on a specified date. Learn more in [Record special sales prices and discounts](sales-how-record-sales-price-discount-payment-agreements.md).|
+|Availability Level|Shows the level of the item's availability, such as ***Available** or **Out of Stock**. The value is calculated based on the **Available Quantity (Base UOM)** compared to the **Safety Stock  Quantity** specified on the item or storekeeping unit card. Learn more about safety stock in [Design Details: Balancing supply and demand](design-details-balancing-demand-and-supply.md).|
+
+## Related information
+
+[Sales order agent overview](sales-order-agent.md)  
+[Set up the Sales Order Agent](sales-order-agent-setup.md)  
+[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)  

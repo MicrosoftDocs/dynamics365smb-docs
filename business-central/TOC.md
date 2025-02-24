@@ -2541,6 +2541,7 @@ ms.service: dynamics-365-business-central
 ### [Overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
+### [Item availabity in Sales Order Agent](sales-order-agent-item-availability.md)
 ### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)

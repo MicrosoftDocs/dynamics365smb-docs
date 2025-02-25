@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Item Availability** page is part of the Sales Order Agent extension for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration steps and field descriptions.
+The **Item Availability** page is part of the Sales Order Agent extension for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 
@@ -22,18 +22,18 @@ The **Item Availability** page is part of the Sales Order Agent extension for ch
 
 Admins can set up the Sales Order Agent to select only available items for sales quotes or orders. Learn how in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
 
-When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to verify an item's availability before adding it the quote or order. If an item isn't available, reviewers are notified by a **Request Assistance** step in the timelines on agent's**Task** tab.
+When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to check an item's availability before adding it the quote or order. If an item isn't available, reviewers are notified by a **Request Assistance** step in the timelines on agent's **Task** tab.
 
+![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability.png)
 
+As a reviewer, you can use the **Item Availability** page to verify the availability. To open the page, select **Review Select the **Item Availability** link to open this page and review and adjust items.
 
-As a reviewer, you can also use the **Item Availability** page to check availability Select the **Item Availability** link to open this page and review and adjust items.
-
-## How availability is determined
+## How it works
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 
 > [!NOTE]
-> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline or on the **Item Availability** page when you open it from the timeline. To test the agent results yourself, set these fields manually.
+> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline or on the **Item Availability** page when you open it from the timeline. To test the agent results asa reviewe, set these fields manually.
 
 After setting these fields, the agent checks the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure. For each item, the following fields are calculated:
 

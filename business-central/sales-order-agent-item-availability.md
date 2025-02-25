@@ -26,7 +26,7 @@ When this capability is turned on, the Sales Order Agent uses the **Item Availab
 
 As a reviewer, you can also use the **Item Availability** page. If the Sales Order Agent finds unavailable items, a request for assistance step is added to the flow. Select the **Item Availability** link to open this page and review and adjust items.
 
-## How it works
+## How availability is determined
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 

@@ -121,7 +121,7 @@ Processing a sales quote request into an order involves three participants:
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order
 - Business Central user who reviews agent tasks
 
-### General flows
+### General flow
 
 The general flow is illustrated in the figure, which is followed by more details of the steps. The actual flow might vary depending on factors such as follow-up requests, changes or cancellations in review, blocking issues, and so on.
 

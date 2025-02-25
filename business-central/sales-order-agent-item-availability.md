@@ -28,14 +28,14 @@ When this capability is turned on, the Sales Order Agent uses the **Item Availab
 
 ![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability.png)
 
-As a reviewer, you can use the **Item Availability** page to verify the availability. To open the page, select **Review Select the **Item Availability** link to open this page and review and adjust items.
+As a reviewer, you can use the **Item Availability** page to verify the availability. To open the page, select **Review** or the **Item Availability** link.
 
-## How item avaiability is determined
+## How to use the item availability page
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 
 > [!NOTE]
-> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline or on the **Item Availability** page when you open it from the timeline. To test the agent results asa reviewe, set these fields manually.
+> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline or on the **Item Availability** page when you open it from the timeline. To test the agent results as a reviewer, set these fields manually.
 
 After setting these fields, the agent checks the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure. For each item, the following fields are calculated:
 

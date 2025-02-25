@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 The **Item Availability** page is part of the Sales Order Agent extension for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
 
-![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability-page.svg)
+![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability-page-clip.svg)
 
 [!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
 

@@ -26,7 +26,7 @@ How the planning system controls item supply is determined by various settings o
 
 ## Define whether the item is planned  
 
-To include an item or SKU in the planning process, you must assign it a reordering policy. Otherwise, it must be planned manually, for example, by using the Order Planning feature.  
+To include an item or SKU in the planning process, you must assign it a reordering policy. Otherwise, it must be planned manually, for example, by using the **Order Planning** page.  
 
 ## Define when to reorder  
 
@@ -72,7 +72,7 @@ A planner can fine-tune planning parameters to limit rescheduling suggestions, a
 |---------------------------------|---------------------------------------|  
 |**Rescheduling Period**|This field determines whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.<br><br>**Note:** This parameter only works with the **Lot-for-Lot** reordering policy.|  
 |**Lot Accumulation Period**|With the reordering policy Lot-for-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
-|**Dampener Period**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> The dampener period specifies a period of time during which you don't want the planning system to propose to reschedule existing supply orders forward. This limits the number of insignificant rescheduling of existing supply to a later date if the rescheduled date is within the dampener period.<br /><br /> As a result, a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.|  
+|**Dampener Period**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> The dampener period specifies a period of time during which you don't want the planning system to propose to reschedule existing supply orders forward. This limits the number of insignificant rescheduling of existing supply to a later date if the rescheduled date is within the dampener period.<br /><br /> As a result, a positive delta between the suggested new supply date and the original supply date is always larger than the dampener period.|  
 
 > [!NOTE]
 > With the reordering policy Lot-for-Lot, the value of the **Lot Accumulation Period** field must be equal to or larger than the value of the **Dampener Period** field. Otherwise, the dampener period is reduced during the planning routine to match the lot accumulation period.  
@@ -131,7 +131,7 @@ As an alternative to the automatic calculation that occurs dynamically if the fi
 > [!NOTE]
 > Although you turn on the **Dynamic Low-Level Code** field selected, the low-level codes of component items aren't changed dynamically if a parent BOM is deleted or set to non-certified. This case might make it difficult to add new items to the end of the product structure because it might exceed the maximum number of low-level codes. Therefore, for large product structures that reach the low-level code limit, you can run the **Calculate Low Level Code** batch job frequently to maintain the structure.  
 
-## See also  
+## Related information
 
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  

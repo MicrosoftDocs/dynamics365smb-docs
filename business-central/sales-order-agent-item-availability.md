@@ -30,7 +30,7 @@ When this capability is turned on, the Sales Order Agent uses the **Item Availab
 
 As a reviewer, you can use the **Item Availability** page to verify the availability. To open the page, select **Review Select the **Item Availability** link to open this page and review and adjust items.
 
-## How it works
+## How item avaiability is determined
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 

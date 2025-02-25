@@ -22,9 +22,11 @@ The **Item Availability** page is part of the Sales Order Agent extension for ch
 
 Admins can set up the Sales Order Agent to select only available items for sales quotes or orders. Learn how in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
 
-When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to verify an item's availability before adding it the quote or order. If an item isn't available, reviewers are notified by a timeline step in the agent's **Task** tab.
+When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to verify an item's availability before adding it the quote or order. If an item isn't available, reviewers are notified by a **Request Assistance** step in the timelines on agent's**Task** tab.
 
-As a reviewer, you can also use the **Item Availability** page. If the Sales Order Agent finds unavailable items, a request for assistance step is added to the flow. Select the **Item Availability** link to open this page and review and adjust items.
+
+
+As a reviewer, you can also use the **Item Availability** page to check availability Select the **Item Availability** link to open this page and review and adjust items.
 
 ## How availability is determined
 

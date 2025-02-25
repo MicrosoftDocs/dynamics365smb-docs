@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 01/30/2025
+ms.date: 02/25/2025
 ms.topic: overview
 author: dmc-dk
 ms.author: dmitrych
@@ -96,6 +96,8 @@ When it finds the items, the agent checks the items' availability by analyzing m
 
 ## Agent process flow
 
+### Partcipants
+
 Processing a sales quote request into an order involves three participants:
 
 - Customer who requests a sales quote via email.
@@ -119,28 +121,30 @@ Processing a sales quote request into an order involves three participants:
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order
 - Business Central user who reviews agent tasks
 
+### General flows
+
 The general flow is illustrated in the figure, which is followed by more details of the steps. The actual flow might vary depending on factors such as follow-up requests, changes or cancellations in review, blocking issues, and so on.
 
 ![Shows the Sales Order Agent flow](media/soa-flow.svg)
 
-1. Customer: Sends email to Business Central mailbox asking for a sales quote for items.
-1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
-1. Reviewer: Reviews/confirms the step with email.  
-1. Sales order agent:
+1. **Customer:** Sends email to Business Central mailbox asking for a sales quote for items.
+1. **Sales order agent:** Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
+1. **Reviewer:** Reviews/confirms the step with email.  
+1. **Sales order agent:**
     1. Finds the contact or customer.
-    1. Finds the requested items and verifies their availability.
-    1. Creates the sales quote. 
+    1. Finds the requested items and verifies their availability. Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md)
+    1. Creates the sales quote.
     1. Adds review step with a reply email with attached sales quote as pdf.
-1. Reviewer: Reviews/confirms email and sales quotes. 
-1. Sales order agent: Sends email and sales quote PDF to customer.
-1. Customer: Review sales quote and sends email requesting order.
-1. Sales order agent: Picks up email and adds review step.
-1. Reviewer: Reviews/confirms the confirmation email for a sale order.
-1. Sales order agent:
+1. **Reviewer:** Reviews/confirms email and sales quotes. 
+1. **Sales order agent:** Sends email and sales quote PDF to customer.
+1. **Customer:** Review sales quote and sends email requesting order.
+1. **Sales order agent: **Picks up email and adds review step.
+1. **Reviewer:** Reviews/confirms the confirmation email for a sale order.
+1. **Sales order agent:**
     1. Converts quote to order.
     1. Adds review task with outgoing email confirming order.
-1. Reviewer: Reviews/confirms outgoing email.
-1. Sales order agent: Sends email to customer.
+1. **Reviewer:** Reviews/confirms outgoing email.
+1. **Sales order agent:** Sends email to customer.
   
 ## Next steps
 

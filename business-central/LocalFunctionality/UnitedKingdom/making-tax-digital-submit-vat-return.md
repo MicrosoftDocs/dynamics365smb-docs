@@ -20,7 +20,7 @@ His Majesty's Revenue and Customs (HMRC) implemented the first steps of *Making 
   Businesses must now keep all their records digitally. For users of finance systems, such as [!INCLUDE [prod_short](../../includes/prod_short.md)], this requirement is already met because they already keep their records digitally.  
 * Submit VAT return electronically using [software recognized by HMRC](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).  
 
-Since 2021, the electronic statements must also include information that helps prevent fraud. For more information, see [Send Fraud Prevention Data](fraud-prevention-data.md).  
+Since 2021, the electronic statements must also include information that helps [prevent fraud](fraud-prevention-data.md).
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
@@ -40,7 +40,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the VAT Ret
 The *Making Tax Digital* integration uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
   
 > [!NOTE]
-> The following procedure describes the steps to set up Making Tax Digital in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. If you're using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some additional steps. For more information, see the [Setup requirements for on-premises versions](#setup-requirements-for-on-premises-versions) section before you start to set up the service connection.
+> The following procedure describes the steps to set up Making Tax Digital in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. If you're using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some [additional steps]. Refer to the [Setup requirements for on-premises versions](#setup-requirements-for-on-premises-versions) section before you start to set up the service connection.
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 1. On the **Service Connections** page, choose **HMRC VAT Setup**.
@@ -52,10 +52,10 @@ The *Making Tax Digital* integration uses a service connection to communicate wi
     > [!NOTE]
     > [!INCLUDE[prod_short](../../includes/prod_short.md)] uses the authorization code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you used to register with HMRC, choose **Yes**.
 
-You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
+You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Learn more about setting up VAT reporting, [here](../../finance-setup-vat.md#set-up-vat-reporting).  
 
 > [!IMPORTANT]
-> Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. For more information, see [IP addresses](fraud-prevention-data.md#ip-addresses).
+> Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the [IP address](fraud-prevention-data.md#ip-addresses) of the user who sends the VAT report.
 
 ### Setup requirements for on-premises versions
 
@@ -78,7 +78,7 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
     e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
     f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
-1. Create an application registration for Business Central in Azure portal. For more information, see [Registering Business Central On-Premises in Microsoft Entra ID for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure). When you set up the service connection in [!INCLUDE [prod_short](../../includes/prod_short.md)], you need the following information from the registration:
+1. Create an [application registration for Business Central in Azure portal](/dynamics365/business-central/dev-itpro/administration/register-app-azure). When you set up the service connection in [!INCLUDE [prod_short](../../includes/prod_short.md)], you need the following information from the registration:
 
     * Client ID
     * Client Secret

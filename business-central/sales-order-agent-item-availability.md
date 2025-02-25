@@ -28,9 +28,17 @@ When this capability is turned on, the Sales Order Agent uses the **Item Availab
 
 ![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability.png)
 
-As a reviewer, you can use the **Item Availability** page to verify the availability. To open the page, select **Review** or the **Item Availability** link.
+As a reviewer, use the **Item Availability** page to verify that the items are unavailable, allowing the agent to create a reply email to the customer. You can't use it to change item quantity or add new items.
 
-## How to use the item availability page
+Here's the general flow:
+
+1. Select **Review** or the **Item Availability** link to open the **Item Availability** page.
+1. Verify that the items in question are unavailable. Refer to the next section for details about how the page works.
+1. When you're finished reviewing availability, return to the confirmation step in the **Tasks** tab and select **Confirm**.
+
+The agent creates an email about the unavailable items for your review.
+
+## How to check item availability page
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 

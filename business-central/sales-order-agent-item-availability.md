@@ -46,14 +46,14 @@ Before the agent calculates the availability and prices for requested items, its
 
 After setting these fields, the agent calculates the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure.
 
-As a reviewer, these fields aren't automatically set to the values the agent used. To check availability, set the fields manually based on the customer's request. 
+As a reviewer, these fields aren't automatically set to the values the agent used. To check availability, set the fields manually based on the customer's request.
 
 For each item, the following fields are calculated:
 
 |Field|Description|
 |-|-|
 |Requested Quantity Available|Indicates whether the quantity of items requested by the customer, specified by the **Quantity Filter** field, is available. If the **Quantity Filter** is less than or equal to the **Available Quantity (Base UOM)**, the item is available, and the check box is selected. If the **Quantity Filter** field is greater than item isn't available, and the check box is cleared. |
-|Available Quantity (Base UOM)|Shows the projected available balance of item quantity on the date specified by the **Date Filter**. Calculate the value by adding the current item inventory in ledger entries to the items in scheduled receipts (inbound transactions like purchase and transfer orders). Then, subtract the items in gross requirements (outbound transactions like sales, service, and production orders). You can select the value to display the totals for item ledger entries and each receipt type. Then, you can drill down to view the source of these totals.|
+|Available Quantity (Base UOM)|Shows the projected available balance of item quantity on the date specified by the **Date Filter**. Calculated by adding the current item inventory in ledger entries to the items in scheduled receipts (inbound transactions like purchase and transfer orders). Then, subtract the items in gross requirements (outbound transactions like sales, service, and production orders). You can select the value to display the totals for item ledger entries and each receipt type. Then, you can drill down to view the source of these totals.|
 |Unit of Measure Code|Shows the item's sales unit of measure code. If the field is empty, the base unit of measure is used.|
 |Unit of Measure|The item's sales or base unit of measure description. Learn more in [Set Up Units of Measure](inventory-how-setup-units-of-measure.md).|
 |Available Quantity|Shows the available quantity in base unit of measure (UOM) recalculated to the sales unit of measure.|
@@ -64,5 +64,6 @@ For each item, the following fields are calculated:
 
 [Sales order agent overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
+[Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  

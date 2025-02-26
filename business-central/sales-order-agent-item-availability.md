@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Item Availability** page is part of the Sales Order Agent extension for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
+The **Item Availability** page is part of the Sales Order Agent for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
 
 ![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability-page-clip.svg)
 
@@ -22,14 +22,17 @@ The **Item Availability** page is part of the Sales Order Agent extension for ch
 
 ## Overview
 
-Admins can set up the Sales Order Agent to select only available items for sales quotes or orders. Learn how in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
+Admins can set up the Sales Order Agent to select only available items for sales quotes or orders. Learn more in [Set up Sales Order Agent (preview)](sales-order-agent-setup.md).
 
-When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to check an item's availability before adding it the quote or order. If an item isn't available, reviewers are notified by a **Request Assistance** step in the timelines on agent's **Task** tab.
+When this capability is turned on, the Sales Order Agent uses the **Item Availability** page to check an item's availability before adding it the quote or order. If an item isn't available, reviewers are notified by a **Request Assistance** step in the timeline for the task in **Task** tab.
 
 ![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability.png)
 
-As a reviewer, use the **Item Availability** page to verify that the items are unavailable, allowing the agent to create a reply email to the customer. You can't use it to change item quantity or add new items.
+As a reviewer, you use the **Item Availability** page to verify that items are unavailable and then decide whether you want to stop the task or you want agent to proceed. You can't use it to change itemsand quantity at this point but if you confirm the step, the agent creates an email to the customer about the unavailable items for your review.
 
+As a reviewer, use the **Item Availability** page to verify that items are unavailable. Decide whether to stop the task or let the agent proceed. You can't change items and quantity at this point. If you confirm the step, the agent creates an email to the customer about the unavailable items for your review.
+
+<!--
 Here's the general flow:
 
 1. Select **Review** or the **Item Availability** link to open the **Item Availability** page.
@@ -37,15 +40,19 @@ Here's the general flow:
 1. When you're finished reviewing availability, return to the confirmation step in the **Tasks** tab and select **Confirm**.
 
 The agent creates an email about the unavailable items for your review.
+-->
 
 ## How to check item availability page
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 
-> [!NOTE]
-> **Customer No.** and **Location Filter** values set by the agent aren't shown in the Sales Order Agent timeline or on the **Item Availability** page when you open it from the timeline. To test the agent results as a reviewer, set these fields manually.
+After setting these fields, the agent checks the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure. 
 
-After setting these fields, the agent checks the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure. For each item, the following fields are calculated:
+As a reviewer, the **Customer No.** and **Location Filter** values that the agent used aren't shown in the Sales Order Agent timeline or on the **Item Availability** page. The check the availbility set set these fields manually. 
+The total amount of the (compressed) data stored in the environment database. The amount includes size of keys/indexes and blob data.
+The total amount of compressed data stored in the environment database, including the size of keys, indexes, and blob data.
+
+For each item, the following fields are calculated:
 
 |Field|Description|
 |-|-|

@@ -46,11 +46,9 @@ The agent creates an email about the unavailable items for your review.
 
 Before the agent calculates the availability and prices for requested items, its searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
 
-After setting these fields, the agent checks the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure. 
+After setting these fields, the agent calculates the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure.
 
-As a reviewer, the **Customer No.** and **Location Filter** values that the agent used aren't shown in the Sales Order Agent timeline or on the **Item Availability** page. The check the availbility set set these fields manually. 
-The total amount of the (compressed) data stored in the environment database. The amount includes size of keys/indexes and blob data.
-The total amount of compressed data stored in the environment database, including the size of keys, indexes, and blob data.
+As a reviewer, the fields aren't set to the values the agent used. To check availability, set the fields manually based on the customer's request. 
 
 For each item, the following fields are calculated:
 

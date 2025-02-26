@@ -25,7 +25,7 @@ The job queue entries automatically synchronize data in the subsidiary companies
 > - A [!INCLUDE [prod_short](includes/prod_short.md)] license.
 > - Permission sets that allow them to reschedule a background task in the subsidiary company.
 >
-> Otherwise, the change happens with the next unconditional synchronization run. The unconditional synchronization is controlled by the **Inactivity Timeout Period** field on the job queue entry.
+> Otherwise, the change happens in the next unconditional synchronization run. The unconditional synchronization is controlled by the **Inactivity Timeout Period** field on the job queue entry.
 
 However, sometimes things go wrong, and there might be situations that you need to manage or investigate. For example, if people change the same record in both the source company and a subsidiary, synchronization fails so that you can specify the change that's correct. Or, the source company might install an extension that changes the schema of one of the tables you're synchronizing by adding a field or two. If you want to synchronize the new fields in the subsidiaries, install the same extensions and update the table schemas in their setup.
 

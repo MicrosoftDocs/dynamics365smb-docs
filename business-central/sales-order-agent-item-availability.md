@@ -9,6 +9,7 @@ ms.collection:
   - bap-ai-copilot
 ms.date: 02/21/2025
 ms.custom: bap-template
+ms.search.form: 4400, 4410_Primary
 ---
 # Item availability in Sales Order Agent (preview)
 

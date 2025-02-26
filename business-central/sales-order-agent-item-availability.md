@@ -46,7 +46,7 @@ Before the agent calculates the availability and prices for requested items, its
 
 After setting these fields, the agent calculates the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure.
 
-As a reviewer, the fields aren't set to the values the agent used. To check availability, set the fields manually based on the customer's request. 
+As a reviewer, these fields aren't automatically set to the values the agent used. To check availability, set the fields manually based on the customer's request. 
 
 For each item, the following fields are calculated:
 

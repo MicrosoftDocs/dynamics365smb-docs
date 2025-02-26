@@ -28,8 +28,6 @@ When this capability is turned on, the Sales Order Agent uses the **Item Availab
 
 ![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability.png)
 
-As a reviewer, you use the **Item Availability** page to verify that items are unavailable and then decide whether you want to stop the task or you want agent to proceed. You can't use it to change itemsand quantity at this point but if you confirm the step, the agent creates an email to the customer about the unavailable items for your review.
-
 As a reviewer, use the **Item Availability** page to verify that items are unavailable. Decide whether to stop the task or let the agent proceed. You can't change items and quantity at this point. If you confirm the step, the agent creates an email to the customer about the unavailable items for your review.
 
 <!--

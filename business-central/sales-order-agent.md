@@ -8,6 +8,7 @@ ms.author: dmitrych
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 4400, 4410
 ---
 # Sales Order Agent overview (preview)
 

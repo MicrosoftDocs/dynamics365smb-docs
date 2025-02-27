@@ -530,13 +530,11 @@ For more information, see [Barcode Fonts with Business Central Online](/dynamics
 
 ## Fonts to be used with Optical Character Recognition (OCR)
 
-Fonts to use for Optical Character Recognition (OCR) scenarios are installed and available to use in both Word and RDLC report layouts.
+Fonts to use for Optical Character Recognition (OCR) scenarios are installed and available to use in both Word and RDLC report layouts. Both OCR-a and OCR-b scenarios are supported.
 
-* The font `IDAutomationOCRa` is provided for OCR-a compatibility with ANSI X3.17 and IS0 1073/I.
+* The font `IDAutomationOCRa` is provided for OCR-a compatibility with ANSI X3.17 and IS0 1073/I. To learn more, go to [IDAutomation OCR-A & OCR-B Font Package](https://www.idautomation.com/ocr-a-and-ocr-b-fonts).
 <!-- * OCR-b compatibility is achieved across current specifications with the curved-end font design. The OCR-b software fonts were created from ANSI INCITS 49-1975 (R2002), formerly ANSI X3.49-1975 (R2000) in agreement with the revised IS0 R 1073 standard. -->
-
-To learn more about specifications of OCR fonts, go to [IDAutomation OCR-A & OCR-B Font Package](https://www.idautomation.com/ocr-a-and-ocr-b-fonts).
-
+* The font `OCRB` is provided for OCR-b scenarios. To learn more, go to [OCRB font family](https://learn.microsoft.com/typography/font-list/ocrb).
 
 
 ## See Also

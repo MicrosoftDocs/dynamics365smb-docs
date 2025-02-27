@@ -44,7 +44,7 @@ To create a batch, on the **Inventory Cost Adjustment** page, do one of the foll
 * Choose **Run cost adjustment**, choose **Item Batches**, and then enter a filter in the **Item Filter** field.
   
 > [!TIP]
-> To quickly create another batch for all items that are not already included in a batch, on the **Cost Adjustment - Item Batches** page, choose **Add Missing Items**.
+> To quickly create another batch for all items that aren't already included in a batch, on the **Cost Adjustment - Item Batches** page, choose **Add Missing Items**.
 
 When a run for a batch finishes, the batch has one of the following status on the **Item Batches** page:
 
@@ -96,7 +96,7 @@ If one or more items fail, you can exclude the items from the adjustment run, an
 
 To manage the processing scope of cost adjustments for items that have a high volume of transactions, you can do the adjustments on a period-by-period basis. You can do that in just a few steps. On the **Inventory Cost Adjustment** page, select the item to adjust, choose the **Cost Adjmt. Entry Points** action. Next, choose the **Valuation Date** until which you want to complete the adjustment, and then choose the **Adjust Cost Until Valuation Date** action.
 
-These steps adjust entries for the selected item up to the chosen date, and affects entries across all locations and variants. The item won't be marked as adjusted until all periods are fully adjusted.
+These steps adjust entries for the selected item up to the chosen date, and affects entries across all locations and variants. The item is marked as adjusted when all periods are fully adjusted.
 
 You can also adjust costs for individual production and assembly orders. On the **Inventory Cost Adjustment** page, select one or more production or assembly orders, and then choose the **Adjust Cost for Selected Orders** action.
 
@@ -122,7 +122,7 @@ When you open the **Inventory Cost Adjustment** page, a notification might state
 
 [!INCLUDE [prod_short](includes/prod_short.md)] issues warnings in the following scenarios:
 
-* Cost adjustment is neither set for automatic runs nor run manually.
+* Cost adjustment isn't set for automatic runs or run manually.
 * Average cost adjustment settings aren't optimal for performance.
 * Inventory periods aren't in use.
 * Many periods require adjustment.
@@ -135,11 +135,11 @@ Scanning happens automatically during normal system usage, but you can start it 
 
 ## Use the Cost Adjustment Tracer feature
 
-Cost adjustment can take time to complete, which is often due to a high volume of entries, but can also be due to data errors of a setup that isn't optimal. Because the cause is often unclear, you can use the Cost Adjustment Tracer feature to gain visibility and get some help to diagnose data-related issues.
+Cost adjustment can take time to complete. For example, due to a high volume of entries, data errors, or a setup that isn't optimal. Because the cause is often unclear, you can use the Cost Adjustment Tracer feature to gain visibility and get some help to diagnose data-related issues.
 
 To use the Cost Adjustment Tracer feature, on the **Inventory Cost Adjustment** page, choose **Item Batches**. Create a batch for one or more items, fill in the **Timeout (minutes)** field, select the **Trace** checkbox, and then choose the **Run** action.
 
-During the cost adjustment process, [!INCLUDE [prod_short](includes/prod_short.md)] records AL events, items, locations, variants, entries, and orders it processes. When the cost adjustment completes or reaches the specified timeout, it saves the results in the **Trace Log**. To daccess the recorded details, select **Trace Log**. Due to the potentially large volume of log entries, we recommend that you turn on the **Analysis View** mode to summarize the data.
+During the cost adjustment process, [!INCLUDE [prod_short](includes/prod_short.md)] records AL events, items, locations, variants, entries, and orders it processes. When the cost adjustment completes or reaches the specified time-out, it saves the results in the **Trace Log**. To access the recorded details, select **Trace Log**. Due to the potentially large volume of log entries, we recommend that you turn on the **Analysis View** mode to summarize the data.
 
 ## Related information
 

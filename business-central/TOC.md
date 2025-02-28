@@ -1021,9 +1021,9 @@ ms.service: dynamics-365-business-central
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
 ##### [Production Order Statistics](reports/report-99000791.md)
-#### Legacy reports (will be removed)
-##### [Work Center List (legacy)](reports/report-99000759.md) 
-##### [Machine Center List (legacy)](reports/report-99000760.md) 
+#### Obsolete reports (will be removed)
+##### [Work Center List (obsolete)](reports/report-99000759.md) 
+##### [Machine Center List (obsolete)](reports/report-99000760.md) 
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)

@@ -118,7 +118,7 @@ When you generate an electronic document to request a stamp, [!INCLUDE[prod_shor
 
 The PAC returns an XML document that has the original string, but this file also includes a section for the digital stamp. In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export the XML files for documents that have a digital stamp and learn more about the data that goes into each XML element.  
 
-## See also
+## Related information
 
 - [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
 - [Set Up PAC Web Services](how-to-set-up-pac-web-services.md)  

@@ -15,7 +15,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## See also
+## Related information
 
 - [Mexico Local Functionality](mexico-local-functionality.md)  
 - [Finance](../../finance.md)  

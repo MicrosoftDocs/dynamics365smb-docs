@@ -33,7 +33,7 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
 1. The first page in the setup guide explains what you are about to set up. Choose the **Next** button.
 1. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation that you want to be set on vendors in the system.
 
-    Every entry in the report must be assigned a **Type of Operation** value. There are three valid types: **Prof. Services**, **Lease and Rent**, and **Others**. You aren't allowed to report the **Lease and Rent** type of operation for a vendor that isn't local. All vendors are updated with the setting chosen here.
+    Every entry in the report must be assigned a **Type of Operation** value. There are three valid types: **Prof. Services**, **Lease and Rent**, and **Others**. You aren't allowed to report the **Lease and Rent** type of operation for a vendor that isn't local. All vendors are updated with the chosen setting.
 
 1. Choose a value in the **Type of Operation** field, and then choose the **Next** button.
 1. Choose the **Open Vendor List** action to select another **Type of Operation** value individually for vendors if you want the setting to be different from what you chose in the previous step.
@@ -45,7 +45,7 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
 
     Adding a link to a DIOT concept is done by clicking the number in the **VAT Link Count** field. Note, that not all DIOT concepts must be linked. DIOT concepts with **None** in the **Column Type** field exist for legacy reasons and can't be linked. For records where the **VAT Link Count** field isn't filled in, you should investigate if you have VAT entries that fall under this DIOT concept and add the corresponding link. DIOT records where the **VAT Link Count** field is filled in indicate that links are already created or don't have to be created.
 
-1. Choose the **Next** button. 
+1. Choose the **Next** button.
    The setup of DIOT is now finished.
 1. Choose the **Finish** button.
 
@@ -72,7 +72,7 @@ This field will only affect the DIOT report calculations and not the actual post
 
 When the report runs without errors, you are prompted to save the file **Diot.txt**, which you can then send to authorities.
 
-## See also
+## Related information
 
 - [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 - [Getting Ready for Doing Business](../../ui-get-ready-business.md)  

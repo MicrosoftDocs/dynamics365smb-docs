@@ -42,7 +42,7 @@ For the file that contains journal transactions:
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Elect. Accounting**, and then choose the related link.
 1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
-## See also
+## Related information
 
 [Mexico Local Functionality](mexico-local-functionality.md)
 

@@ -87,7 +87,7 @@ To create Comercio Exterior Complement:
 > [!NOTE]  
 > If you want to create an invoice for foreign trade, the **CFDI Export Code** field must be different from **01** because that value is used for domestic invoices only.  
 
-## See also
+## Related information
 
 - [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
 - [Electronic Invoicing](electronic-invoicing.md)  

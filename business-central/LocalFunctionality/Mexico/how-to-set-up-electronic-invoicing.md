@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
 
 > [!IMPORTANT]  
-> The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. For more information, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
+> The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. Learn more in [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
 >
 > Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you may need to grant explicit SMTP permissions to each relevant user and computer. The documents are sent from the address that is specified on the **Company Information** page.  
 
@@ -50,9 +50,9 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |Field|Description|
     |------------------------------------|---------------------------------------|
     |**Enabled**|Choose this field to switch to use digitally signed documents, and then fill in the remaining fields on this FastTab.|
-    |**SAT Certificate**|Specify the SAT certificate. Learn about adding certificates in [Add the certificates](how-to-set-up-pac-web-services.md#add-the-certificates) section.|
+    |**SAT Certificate**|Specify the SAT certificate. The section on [adding certificates](how-to-set-up-pac-web-services.md#add-the-certificates) provides information on how to add certificates.|
     |**Send PDF Report**|Choose this field to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
-    |**PAC Code**|Specify the authorized service provider, PAC, that you want to apply digital stamps to your electronic invoices. Learn about setting Up PAC Web Services, [here](how-to-set-up-pac-web-services.md).|
+    |**PAC Code**|Specify the authorized service provider, PAC, that you want to apply digital stamps to your electronic invoices. Learn more in [Set up PAC web services](how-to-set-up-pac-web-services.md).|
     |**PAC Environment**|Specify if your company is using the web services of your authorized service provider, PAC, in a test environment or a production environment.|
 
 Optionally, you can ask your Microsoft Certified Partner to modify the text that is included in the email that is sent when you send electronic invoices. The text is stored as text variables in codeunit 10145, which can be [extended by a developer](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).  
@@ -173,7 +173,7 @@ If you prefer to map the fields yourself, then you must update the following pag
 1. In the **SAT Payment Form** field, specify the number of the SAT payment form.
 1. Repeat steps 1-2 for all payment terms.
 
-## See also
+## Related information
 
 - [Electronic Invoicing](electronic-invoicing.md)  
 - [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  

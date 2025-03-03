@@ -18,15 +18,15 @@ Mexican companies must be able to print and send Carta de Porte-compliant packin
 > [!NOTE]
 > The **Carta de Porte** feature in the Mexican Business Central localization is currently at version **3.1** and becomes effective with version 24.4.
 > [!IMPORTANT]
-> The documents must include a digital signature, which requires a connection to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). Learn about setting up PAC web services, [here](how-to-set-up-pac-web-services.md).  
+> The documents must include a digital signature, which requires a connection to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). Learn more in [Set up PAC web services](how-to-set-up-pac-web-services.md).
 >
-> Also, as of January 2022, you must update the Carta de Porte catalogs that define the various codes. Microsoft provides a downloadable package at [this location](https://microsoft.com) that you can import using RapidStart Services. Information on importing business data from other finance systems is available, [here](../../across-import-data-configuration-packages.md). Alternatively, if you only use few codes, you can update the current catalogs manually.
+> Also, as of January 2022, you must update the Carta de Porte catalogs that define the various codes. Microsoft provides a downloadable package at [this location](https://microsoft.com) that you can import using RapidStart Services. Learn more in [Import business data from other finance systems](../../across-import-data-configuration-packages.md). Alternatively, if you only use few codes, you can update the current catalogs manually.
 
 ## Get started
 
-Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for Carta de Porte-compliant shipments and transfer orders, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files are generated. Refer to the [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) article for information on setting up electronic invoicing. If you need more information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
+Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for Carta de Porte-compliant shipments and transfer orders, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files are generated. Learn more in [Set up electronic invoicing](how-to-set-up-electronic-invoicing.md). The [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website provides information on SAT certificates and keys.
 
-You also must specify the web services that you use to communicate with the PAC in order to obtain digital stamps. Learn about setting up PAC web services, [here](how-to-set-up-pac-web-services.md).
+You also must specify the web services that you use to communicate with the PAC in order to obtain digital stamps. Learn more in [Set up PAC web services](how-to-set-up-pac-web-services.md).
 
 > [!IMPORTANT]  
 > SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice.  
@@ -79,9 +79,9 @@ For each line on the document, you must also specify the **Custom Transit Number
 Then, when you post the shipment, the required information is carried forward to the posted sales shipment. You can then send or print the document that now includes the Carta de Porte information.  
 
 > [!TIP]
-> The same applies when you create and post a transfer order. Learn about transferring inventory between locations, [here](../../inventory-how-transfer-between-locations.md).  
+> The same applies when you create and post a transfer order. Learn more in [Transferring inventory between locations](../../inventory-how-transfer-between-locations.md).  
 
-## See also
+## Related information
 
 - [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)    
 - [Set Up PAC Web Services](how-to-set-up-pac-web-services.md)    

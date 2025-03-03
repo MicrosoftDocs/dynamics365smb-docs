@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: CFDI, packing slips, transfer orders, Carta de Porte
-ms.date: O2/26/2025
+ms.date: 02/26/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

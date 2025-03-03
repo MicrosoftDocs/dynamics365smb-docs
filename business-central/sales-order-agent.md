@@ -52,7 +52,11 @@ Users can inspect the agent's steps and the created sales documents. They can ea
 
 If the customer decides to update the quote by sending another email listing required changes, the agent assists with these changes by locating the quote and making the requested updates. Once the customer confirms the quote's accuracy, the agent converts it into a sales order, which is then also shared with the customer via email, following user's confirmation. 
 
-The agent always involves designated Business Central users to review and approve all outgoing messages, before they're sent to the customers. 
+The agent always involves designated Business Central users to review and approve all outgoing messages, before they're sent to the customers.
+
+### Billing for use
+
+The Sales Order Agent uses Copilot messages for AI interactions, which incur charges based on your license and interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
 
 ## How the agent processes requests
 

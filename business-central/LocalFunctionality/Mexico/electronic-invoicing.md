@@ -39,17 +39,17 @@ The CFDI file is an XML file that contains:
 
 ## Get started
 
-Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where you generate the CFDI files. Learn more about setting up electronic invoicing, [here](how-to-set-up-electronic-invoicing.md). Refer to [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website, for information about SAT certificates and keys.  
+Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where you generate the CFDI files. Learn more in [Set up electronic invoicing](how-to-set-up-electronic-invoicing.md). Refer to [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website, for information about SAT certificates and keys.  
 
 > [!TIP]
 > Use the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
 
-You must also specify the web services that you use to communicate with the PAC to obtain digital stamps. Learn more about setting up PAC Web services, [here](how-to-set-up-pac-web-services.md).  
+You must also specify the web services that you use to communicate with the PAC to obtain digital stamps. Learn more in [Set up PAC Web Services](how-to-set-up-pac-web-services.md).
 
 > [!IMPORTANT]  
 > SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice.  
 
-You must also specify information about your company and each of your customers and vendors.  You can learn about setting up electronic invoicing, [here](how-to-set-up-electronic-invoicing.md).  
+You must also specify information about your company and each of your customers and vendors. Learn more in [Set up electronic invoicing](how-to-set-up-electronic-invoicing.md).  
 
 ## Send electronic documents
 

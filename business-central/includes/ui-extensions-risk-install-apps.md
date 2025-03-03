@@ -1,6 +1,6 @@
 Some apps are provided by Microsoft, and other apps are provided by other companies. 
 
-We recommend that you access the links that are provided with each extension to learn more about the app before you choose to install it
+We recommend that you access the links that are provided with each extension to learn more about the app before you choose to install it.
 
 When you install an app, that app may have different test, compliance and security standards than Dynamics 365 Business Central. For example, some apps may:
 

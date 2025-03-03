@@ -7,7 +7,7 @@ ms.reviewer: solsen
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
-ms.date: 02/17/2025
+ms.date: 03/03/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -53,14 +53,7 @@ If you uninstall an app, and you then change your mind, you can install it again
 
 ## Apps and data transfer
 
-When apps communicate with other services, they might transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment, such as the following examples:
-
-* AMC Banking 365 Fundamentals Extension
-* Image Analyzer
-* Late Payment Prediction
-* PayPal Payments Standard
-* Sales and Inventory Forecast
-* WorldPay Payments Standard
+When apps communicate with other services, they might transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment. Examples of such apps include banking, payment, payroll, and forecasting services.
 
 The same is true for the base application, such as the following capabilities:
 

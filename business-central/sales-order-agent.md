@@ -147,7 +147,7 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Reviewer:** Reviews/confirms outgoing email.
 1. **Sales order agent:** Sends email to customer.
 
-### Billing for use
+## Billing for use
 
 The Sales Order Agent uses Copilot messages for AI interactions, which incur charges based on your license and interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
   

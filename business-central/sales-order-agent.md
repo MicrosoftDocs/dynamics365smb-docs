@@ -54,10 +54,6 @@ If the customer decides to update the quote by sending another email listing req
 
 The agent always involves designated Business Central users to review and approve all outgoing messages, before they're sent to the customers.
 
-### Billing for use
-
-The Sales Order Agent uses Copilot messages for AI interactions, which incur charges based on your license and interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
-
 ## How the agent processes requests
 
 The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
@@ -150,6 +146,10 @@ The general flow is illustrated in the figure, which is followed by more details
     1. Adds review task with outgoing email confirming order.
 1. **Reviewer:** Reviews/confirms outgoing email.
 1. **Sales order agent:** Sends email to customer.
+
+### Billing for use
+
+The Sales Order Agent uses Copilot messages for AI interactions, which incur charges based on your license and interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
   
 ## Next steps
 

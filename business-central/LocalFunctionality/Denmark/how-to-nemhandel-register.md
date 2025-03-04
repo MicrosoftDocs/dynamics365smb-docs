@@ -6,10 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: nemhandel, nemhandelsregisteret, notification, registration, denmark
 ms.search.form: 1
-ms.date: 03/29/2024
+ms.date: 03/03/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
 
 # Notification and registration for the NemHandelsregisteret in Denmark
@@ -27,14 +27,14 @@ If the company is already registered, and if a valid Central Business Register (
 > [!NOTE]
 > A notification appears on the **Company Information** page and on the following role centers: Accountant, Business Manager, Administration of users, security groups and permissions, Sales Order Processor, and Sales and Relationship Manager.
 
-## Registration with the NemHandelsregisteret 
+## Registration with the NemHandelsregisteret
 
 > [!IMPORTANT]
 > Before you begin registration, you must enter a valid CVR number in the **Registration No.** field on the **Company Information** page.
 
 To start registration, select the **Register in Nemhandelsregisteret** link in the notification. Before the external system calls are made, or before you open the NemHandelsregisteret registration form, you must confirm your consent.
 
-After you complete the registration with the NemHandelsregisteret, the existing notification disappears, because Microsoft Dynamics 365 Business Central confirms that the company's CVR number from the **Registration No.** field on the **Company Information** page has been registered with the NemHandelsregisteret through the API call. In Business Central's internal records, the company has a status of **registered in NemHandelsregisteret**.
+After you complete the registration with the NemHandelsregisteret, the existing notification disappears, because Microsoft Dynamics 365 Business Central confirms that the company's CVR number from the **Registration No.** field on the **Company Information** page is registered with the NemHandelsregisteret through the API call. In Business Central's internal records, the company has a status of **registered in NemHandelsregisteret**.
 
 ## Other important facts
 
@@ -43,14 +43,14 @@ If the company is registered with the NemHandelsregisteret, and if it has set th
 Additionally, when you select **Copy** on the **Companies** page, the new company is created, and the **Registered with Nemhandel** and **Registration No.** fields are left blank.
 
 > [!NOTE]
-> These limitations work only if the environment is a production environment. In a sandbox environment, you can delete the company without limitations. 
+> These limitations work only if the environment is a production environment. In a sandbox environment, you can delete the company without limitations.
 >
-> If you don't enter a valid CVR number in the **Registration No.** field, you can't use e-documents in Denmark.
+> If you don't enter a valid CVR number in the **Registration No.** field, you can't use E-documents in Denmark.
 
-## See also
+## Related information
 
-[Financial Management](../../finance.md)  
-[VAT Management Overview](../../finance-manage-vat.md)  
-[E-documents Overview](../../finance-edocuments-overview.md)
+- [Financial Management](../../finance.md)  
+- [VAT Management Overview](../../finance-manage-vat.md)  
+- [E-documents Overview](../../finance-edocuments-overview.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

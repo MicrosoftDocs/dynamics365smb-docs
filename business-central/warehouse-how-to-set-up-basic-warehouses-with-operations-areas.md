@@ -1,18 +1,18 @@
 ---
-title: Set Up Basic Warehouses with Operations Areas
+title: Set up basic warehouses with operations areas
 description: Set up warehouse operations areas and use inventory movements, picks and put-aways to move goods between them.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776
-ms.date: 06/25/2021
-ms.author: bholtorf
-
+ms.date: 03/04/2025
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Set Up Basic Warehouses with Operations Areas
+# Set up basic warehouses with operations areas
 
 If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:  
 
@@ -21,7 +21,7 @@ If internal operation areas such as production or assembly exist in basic wareho
 - **Inventory Put-away** page.
 
 > [!NOTE]
-> Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  
+> Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these checkboxes.  
 
 To use these pages with internal operations, such as to pick and move components to production, you must make some or all the following setup steps depending on how much control you need:  
 
@@ -34,20 +34,24 @@ Bin codes that are set up on location cards define a default warehouse flow for 
 The following procedures are based on setting up basic warehouse activities around a production area. The steps are similar for other operation areas, such as assembly, service management, and jobs.  
 
 > [!NOTE]  
->  In the following procedure, the **Bin Mandatory** setup field on location cards is selected as a precondition because that is considered the foundation for any level of warehouse management.  
+> In the following procedure, the **Bin Mandatory** setup field on location cards is selected as a precondition because that is considered the foundation for any level of warehouse management.  
 
 ## To enable inventory documents for internal operation activities
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the location card you want to set up.  
-3.  On the **Warehouse** FastTab, select the **Require Put-away** check box to indicate that, when an inbound or internal source document with a bin code is released, an inventory put-away or an inventory movement document can be created.  
-4.  Select the **Require Pick** check box to indicate that when an outbound or internal source document with a bin code is created, an inventory pick or an inventory movement document must be created.  
+3. On the **Warehouse** FastTab, select the **Require Put-away** checkbox to indicate that, when an inbound or internal source document with a bin code is released, an inventory put-away or an inventory movement document can be created.  
+4. Select the **Require Pick** checkbox to indicate that when an outbound or internal source document with a bin code is created, an inventory pick or an inventory movement document must be created.  
 
 ## To define a default bin structure in the production area
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.  
-3.  On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This means that the **Flushing Method** field contains **Forward** or **Backward**.  
+3. On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This setup means that the **Flushing Method** field contains **Forward** or **Backward**.  
+
+   > [!TIP]
+   > You can also record flushing without requiring a pick. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To flush without picking, the item must use the **Pick + Manual** flushing method. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
+
 4. In the **To-Production Bin Code** field, enter the code of the bin in the production area where components that are picked for production at this location are placed by default before they can be consumed. Items that are placed in this bin are typically set up for manual consumption posting. This means that the **Flushing Method** field contains **Manual** or **Pick + Forward** or **Pick + Backward** for warehouse picks and inventory movements.  
 
     > [!NOTE]  
@@ -72,7 +76,7 @@ For more information, see [Assembly Management](assembly-assemble-items.md).
 ### To set up that an inventory movement is automatically created when the inventory pick for the assembly item is created
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Setup**, and then choose the related link.
-2. Select the **Create Movements Automatically** check box.
+2. Select the **Create Movements Automatically** checkbox.
 
 ### To set up the bin in the assembly area where components are placed by default before they can be consumed in assembly
 

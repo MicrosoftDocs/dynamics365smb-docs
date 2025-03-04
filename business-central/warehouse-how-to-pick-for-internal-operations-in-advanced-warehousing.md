@@ -146,7 +146,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
     You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or project journal. The following articles provide more information:
 
-    * [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
+    * [Register Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)
     * [Assemble Items](assembly-how-to-assemble-items.md)
     * [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
 
@@ -157,6 +157,7 @@ Flushing methods affect the flow of components in production. Learn more at [Flu
 * Use a **Warehouse Pick** document to record the pick for items that use the **Manual** flushing method. You need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
 * Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Forward**, **Pick + Backward** flushing method. Consumption of the components happens automatically either when you change the status of the production order or by starting or ending an operation. All required components must be available. Otherwise, posting flushed consumption stop for that component.
 * Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Components are automatically consumed either when you change of status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items](warehouse-move-items.md).
+* Use a **Warehouse Pick** or **Warehouse Movement** document to record flushing without requiring a pick. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To flush without picking, the item must use the **Pick + Manual** flushing method. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
 ### Example
 
@@ -171,7 +172,7 @@ The following steps describe the actions that different people take and the rela
 5. The warehouse employee registers the pick. The quantity is transferred from the pick bin to the consumption bin. The **Qty. Picked** field on the component list for all picked items is updated.
 
     > [!NOTE]  
-    >  Only the quantity picked can be consumed.  
+    > Only the quantity picked can be consumed.  
 6. The machine operator informs the production manager that the end items are finished.
 7. The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either **Manual** flushing method.
 8. The shop floor supervisor uses the output journal or production journal to post the output. The quantity of component items that use **Pick + Forward** or **Pick + Backward** flushing methods with routing links is deducted from the To-Production bin.
@@ -188,14 +189,12 @@ In scenarios where a produced item consists of raw materials and semi-finished i
 However, if semi-finished items are available on stock, the planning system suggests that you consume those instead of producing the whole quantity. For example, a produced item requires five semi-finished components, but three are already in stock. In this case, five semi-finished items are listed in the production order components, but only two are produced in the same production order as a separate production order line.
 Such a setup isn't compatible with warehouse picks and, depending on frequency, you must either change the manufacturing policy for such semi-finished items to **Make-to-stock** or manually split the production order component line when you need to pick the semi-finished items produced earlier.
 
+## Related information
 
-## See also
-
-- [Manage Inventory](inventory-manage-inventory.md)  
-- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-- [Assembly Management](assembly-assemble-items.md)  
-- [Warehouse Management Overview](design-details-warehouse-management.md)
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Manage Inventory](inventory-manage-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

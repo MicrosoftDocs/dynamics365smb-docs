@@ -231,7 +231,9 @@ It's also possible to connect the system with the community support and instruct
 
 **Requirement**: The bookkeeping system can support the reporting of VAT via the Danish Tax Agency's VAT API.
 
-How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply: [!INCLUDE[prod_short](../../includes/prod_short.md)] supports reporting of VAT return via the Danish Tax Agency's VAT API and update statuses given by authorities, but also enables downloading response messages. Reade more how to [Submit VAT returns electronically](how-to-evat-statement-dk.md).  
+**How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply?**
+
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports reporting of VAT return via the Danish Tax Agency's VAT API and update statuses given by authorities, but also enables downloading response messages. Reade more how to [Submit VAT returns electronically](how-to-evat-statement-dk.md).  
 
 ### Annex 2, 8 – 9
 

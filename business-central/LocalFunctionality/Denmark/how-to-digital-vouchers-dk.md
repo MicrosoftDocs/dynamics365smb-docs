@@ -82,7 +82,7 @@ You can find the attachment from the posted document or from the **General Ledge
 
 You can't delete an attached document after posting is completed. However, you can add more attachments after posting is completed.
 
-## See also
+## Related information
 
 - [Financial Management](../../finance.md)  
 - [Denmark Local Functionality](denmark-local-functionality.md)  

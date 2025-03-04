@@ -20,10 +20,10 @@ After you set up master data synchronization, when you synchronize for the first
 The job queue entries automatically synchronize data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
 
 > [!NOTE]
-> For the automatic synchronization to work, the user who made the change in the source company must have the following:
+> For the automatic synchronization to work, the user who makes the change in the source company must have:
 >
 > - A [!INCLUDE [prod_short](includes/prod_short.md)] license.
-> - Permission sets that allow them to reschedule a background task in the subsidiary company.
+> - Permission sets that allow them to reschedule a background task in the subsidiary company. To learn more about the required license and permissions, go to [Before you start](admin-set-up-data-sync.md#before-you-start).
 >
 > Otherwise, the change happens in the next unconditional synchronization run. The unconditional synchronization is controlled by the **Inactivity Timeout Period** field on the job queue entry.
 

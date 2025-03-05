@@ -26,6 +26,10 @@ Learn more about the Sales Order Agent and its process flow in [Sales Order Agen
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
+## Supported languages
+
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+
 ## Prerequisites
 
 The Sales Order Agent is activated, and you have permission to use it. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).

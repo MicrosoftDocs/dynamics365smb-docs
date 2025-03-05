@@ -142,6 +142,13 @@ The general flow is illustrated in the figure, which is followed by more details
     1. Adds review task with outgoing email confirming order.
 1. Reviewer: Reviews/confirms outgoing email.
 1. Sales order agent: Sends email to customer.
+
+## Billing for use
+
+The Sales Order Agent uses Copilot messages for AI interactions, which incur charges based on your license and interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization). The Sales Order Agent uses the Generative Answer event to interpret inbound emails from customers and to draft reply emails to be sent to customers. To create or update Sales Quotes and Sales Orders, the Sales Order Agent uses the Autonomous Action event. To learn more about Copilot Studio message scenarios and events, go [here](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
+
+In the general flow outlined above, the sales order agent would use a Generative Answer event for steps 2, 4.d, 7, and 10.b, and it would use an Autonomous Action event for steps 4.c and 10.a, totalling four Generative Answer and two Autonomous Action events for a typical sales order taken by the Sales Order Agent.
+
   
 ## Next steps
 

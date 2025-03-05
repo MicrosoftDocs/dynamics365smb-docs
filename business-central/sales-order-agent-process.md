@@ -34,7 +34,7 @@ The Sales Order Agent is activated, and you have permission to use it. Learn mor
 
 You collaborate with the Sales Order Agent to review and convert quotes into orders using the **Tasks** tab in the **Copilot** pane.
 
-To access this view, select ![Shows Sales Order Agent icon with an open action.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
+To access this view, select ![Shows Sales Order Agent icon.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png)
 

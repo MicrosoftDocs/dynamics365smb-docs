@@ -17,7 +17,7 @@ ms.search.form: 4400, 4410_Primary
 
 The **Item Availability** page is part of the Sales Order Agent for checking item availability during the sale order taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
 
-![Screenshot of the Sales Order Agent task tab that shows a request for assistance step about item availability](media/soa-item-availability-page-clip.svg)
+![Screenshot of item availability page](media/soa-item-availability-page-clip.svg)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->

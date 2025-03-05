@@ -34,10 +34,6 @@ Before configuring and activating the sales order agent, ensure the following pr
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
 
-- Set up the Business Central environment for billing Copilot and agent capabilities.
-
-   Agents use Microsoft Copilot Studio messages when a user runs it, which your company is charged for. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
-
 - Turn on the **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings (sandbox environments only)
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.

@@ -139,7 +139,7 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Reviewer:** Reviews/confirms email and sales quotes. 
 1. **Sales order agent:** Sends email and sales quote PDF to customer.
 1. **Customer:** Review sales quote and sends email requesting order.
-1. **Sales order agent: **Picks up email and adds review step.
+1. **Sales order agent:** Picks up email and adds review step.
 1. **Reviewer:** Reviews/confirms the confirmation email for a sale order.
 1. **Sales order agent:**
     1. Converts quote to order.

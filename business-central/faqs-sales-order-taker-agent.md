@@ -92,7 +92,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 - Entities and data the agent can work with
 
   - The agent is designed to work with sales quotes and sales orders. It can't create or work with the other sales documents (such as blank orders, invoices, or credit memos) or documents in other areas of the product (such as purchase or service orders).
-  - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central. The agent is designed to ask a human user to provide additional information or perform the task manually, when it can't find this data in Business Central.   
+  - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central. The agent is designed to ask a human user to provide additional information or perform the task manually, when it can't find this data in Business Central.
   - The agent doesn't post documents.
   - Based on more customer requests, the agent can make changes to the sales quotes, but not to the sales orders.
   - The agent is designed to work with sales lines of type "Item", other sales line types, such as Resource, Charge (Item), Allocation Account, Fixed Asset aren't supported.

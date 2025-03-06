@@ -19,7 +19,7 @@ The **Item Availability** page is part of the Sales Order Agent for checking ite
 
 ![Screenshot of item availability page](media/soa-item-availability-page-clip.svg)
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Overview

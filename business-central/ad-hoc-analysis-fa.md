@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 5604, 20
+ms.search.form: 5604, 20, Query_123_Primary
 ms.date: 05/02/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -92,9 +92,18 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see depreciation over time." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
+## Using the Fixed Assets Ad-hoc Analysis query
+
+[!INCLUDE [prod_short](includes/2024_releasewave2.md)]
+
+Starting from [!INCLUDE [prod_short](includes/prod_short.md)] version 25.3, can use the [Fixed Assets Ad-hoc Analysis](https://businesscentral.dynamics.com/?query=123) query to analyze fixed asset ledger entries. The query adds additional information to the ledger entries, such as fixed asset class/subclass, location, and deprecition book.
+
 ## Data foundation for ad-hoc analysis on fixed assets
 
 When you post fixed asset journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **FA Entry** table. Therefore, ad-hoc analysis on fixed assets is typically done on the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) page.
+
+Starting from [!INCLUDE [prod_short](includes/prod_short.md)] version 25.3, you might also want to use the [Fixed Assets Ad-hoc Analysis](https://businesscentral.dynamics.com/?query=123) query.
+
 
 ## Contributors
 

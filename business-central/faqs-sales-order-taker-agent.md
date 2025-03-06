@@ -17,9 +17,8 @@ ms.collection:
 
 These frequently asked questions (FAQ) describe the AI impact of Sales Order Agent feature in Business Central.
 
-[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
-
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## What is the Sales Order Agent?
 

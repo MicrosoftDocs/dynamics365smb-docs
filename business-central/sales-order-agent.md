@@ -145,7 +145,7 @@ The general flow is illustrated in the figure, which is followed by more details
 
 ## Billing for use (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 The Sales Order Agent uses Copilot messages for AI interactions, which incur charges based on your license and interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
 

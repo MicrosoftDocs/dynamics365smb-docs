@@ -505,14 +505,14 @@ ms.service: dynamics-365-business-central
 ##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
 
-### Set up and use e-documents
+### Set up and use E-Documents
 #### [E-Documents overview](finance-edocuments-overview.md)
-#### [Set up e-documents](finance-how-setup-edocuments.md)
-#### [Use e-documents in sales](finance-how-use-edocuments.md)
-#### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
-#### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
-#### [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md)
-#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+#### [Set up E-Documents](finance-how-setup-edocuments.md)
+#### [Use E-Documents in sales](finance-how-use-edocuments.md)
+#### [Use E-Documents in purchases](finance-how-use-edocuments-purchase.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
+#### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Sustainability management
 #### [Sustainability management overview](finance-manage-sustainability.md)
@@ -1184,6 +1184,8 @@ ms.service: dynamics-365-business-central
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Print goods and service tax settlement reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Electronic documents
+##### [E-Invoicing in Peppol PINT A-NZ Format](LocalFunctionality/Australia/how-to-au-einvoice.md)
 #### Banking & payments
 ##### [Compare bank cash flow](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
 ##### [Create check installments](LocalFunctionality/Australia/how-to-create-check-installments.md)
@@ -1693,6 +1695,8 @@ ms.service: dynamics-365-business-central
 ##### [Adjust settlement exchange rates for VAT entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Calculate goods and services tax on prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Print goods and services tax settlement reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Electronic documents
+##### [E-Invoicing in Peppol PINT A-NZ Format](LocalFunctionality/NewZealand/how-to-nz-einvoice.md)
 #### Banking & payments
 ##### [Compare bank cash flow](LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md)
 ##### [Create check installments](LocalFunctionality/NewZealand/how-to-create-check-installments.md)
@@ -2527,9 +2531,9 @@ ms.service: dynamics-365-business-central
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-## Map e-documents (preview)
-### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
-### [Responsible AI FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
+## Map E-Documents (preview)
+### [Map E-Documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [Responsible AI FAQ for mapping E-Documents with purchase orders using Copilot](faqs-map-edocuments.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
@@ -2555,7 +2559,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
-## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
+## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)

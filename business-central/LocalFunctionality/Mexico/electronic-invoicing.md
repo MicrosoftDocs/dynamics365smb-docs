@@ -41,6 +41,12 @@ The CFDI file is an XML file that contains:
 
 Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where you generate the CFDI files. Learn more in [Set up electronic invoicing](how-to-set-up-electronic-invoicing.md). Refer to [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website, for information about SAT certificates and keys.  
 
+In [!INCLUDE[prod_short](../../includes/prod_short.md)] it is possible to use different SAT certificates for company branches. In addition to the SAT certificate set in the General Ledger Setup, you can assign a separate SAT certificate for each location associated with a company branch. To use this functionality, the Multiple SAT Certificates option must be enabled in General Ledger Setup:
+- If Multiple SAT Certificates is disabled, the certificate from General Ledger Setup is used for signing all electronic documents.
+- If Multiple SAT Certificates is enabled, the system checks the "SAT Certificate" field on the Location Card and uses it for documents associated with that location.
+- For Transfer Shipments, the certificate is determined by the "Transfer-From Code" location.
+- The "SAT Certificate Name" and "SAT Certificate Source" fields on the posted document card show which SAT certificate is used to sign the electronic document.
+
 > [!TIP]
 > Use the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
 

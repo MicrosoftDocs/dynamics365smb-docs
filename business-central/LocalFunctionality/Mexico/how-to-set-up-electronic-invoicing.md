@@ -51,6 +51,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |------------------------------------|---------------------------------------|
     |**Enabled**|Choose this field to switch to use digitally signed documents, and then fill in the remaining fields on this FastTab.|
     |**SAT Certificate**|Specify the SAT certificate. The section on [adding certificates](how-to-set-up-pac-web-services.md#add-the-certificates) provides information on how to add certificates.|
+    |**Multiple SAT Certificates**|Enable this option to be able to assign additional SAT certificates to locations associated with company branches.|
     |**Send PDF Report**|Choose this field to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
     |**PAC Code**|Specify the authorized service provider, PAC, that you want to apply digital stamps to your electronic invoices. Learn more in [Set up PAC web services](how-to-set-up-pac-web-services.md).|
     |**PAC Environment**|Specify if your company is using the web services of your authorized service provider, PAC, in a test environment or a production environment.|
@@ -114,6 +115,7 @@ Finally, you must add information about locations you use. The following section
     |**SAT Locality Code**|Enter the city, town, district, or similar definition where the domicile of origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
     |**SAT Suburb Code**|Enter the SAT suburb code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
     |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT Certificate**|Specify the SAT certificate issued by the tax authority to the company branch at this location. To enable this field, set "Multiple SAT Certificates" option in the General Ledger Setup. If a document is posted with a location that has an assigned SAT certificate, that certificate is used for signing the electronic document. Otherwise, the certificate from General Ledger Setup is applied.|
 1. Repeat step 2 for all other locations.  
 
 ## Set up cancellation reasons

@@ -22,7 +22,7 @@ Before you can create a combined shipment, you must post, but not invoice, more 
 ## To manually combine shipments on a single invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
-2. Choose the **New** action. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md) or [Create service invoices or credit memos](service-how-create-invoices.md).
+2. Choose the **New** action, and then fill in the fields as necessary. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md) or [Create service invoices or credit memos](service-how-create-invoices.md).
 3. In the **Sell-to Customer No.** field, enter the customer to invoice for the shipped items.  
 4. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
 5. Select the shipment line that you want to include in the invoice:  

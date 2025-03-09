@@ -97,6 +97,20 @@ The actions that open pages are organized under nodes named after the features o
   - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action in the top-right corner.
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
+## Learn more about an element on the role explorer
+
+[!INCLUDE[2025_releasewave1](includes/2025_releasewave1.md)]
+
+Some elements on the role explorer have teaching tip texts defined. If that is the case, the element will show a small information icon to the right of the title. You can get these texts shown in a small dialog by choosing the icon.
+
+:::image type="content" source="../media/report-explorer-more-information.png" alt-text="Example of how the more information window is shown on an element on the role explorer." lightbox="../media/report-explorer-more-information.png":::
+
+## Explore an element on the role explorer
+
+[!INCLUDE[2025_releasewave1](includes/2025_releasewave1.md)]
+
+All elements on the role explorer have the ability for you to open the page or report in a new window while still keeping the role explorer open. You explore an element by choosing the *Open in a new window* icon to the left of the element title. If the element has a teaching tip defined, the *Open in a new window* icon is located on the information dialog.
+
 ## See also
 
 [Finding Pages and Information with Tell Me](ui-search.md)  

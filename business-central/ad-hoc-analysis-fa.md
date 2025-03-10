@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5604, 20, Query_123_Primary
-ms.date: 05/02/2024
+ms.date: 03/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -26,7 +26,6 @@ Use the following list pages to start doing ad-hoc analysis of fixed assets proc
 insurance coverage ledger entries
 
 -->
-
 
 ## Fixed assets ad-hoc analysis scenarios
 
@@ -94,24 +93,21 @@ The following image shows the result of these steps.
 
 ## Using the Fixed Assets Ad-hoc Analysis query
 
-[!INCLUDE [prod_short](includes/2024_releasewave2.md)]
-
-Starting from [!INCLUDE [prod_short](includes/prod_short.md)] version 25.3, can use the [Fixed Assets Ad-hoc Analysis](https://businesscentral.dynamics.com/?query=123) query to analyze fixed asset ledger entries. The query adds additional information to the ledger entries, such as fixed asset class/subclass, location, and deprecition book.
+You can use the [Fixed Assets Ad-hoc Analysis](https://businesscentral.dynamics.com/?query=123) query to analyze fixed asset ledger entries. The query adds additional information to the ledger entries, such as the fixed asset class, subclass, location, and depreciation book.
 
 ## Data foundation for ad-hoc analysis on fixed assets
 
 When you post fixed asset journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **FA Entry** table. Therefore, ad-hoc analysis on fixed assets is typically done on the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) page.
 
-Starting from [!INCLUDE [prod_short](includes/prod_short.md)] version 25.3, you might also want to use the [Fixed Assets Ad-hoc Analysis](https://businesscentral.dynamics.com/?query=123) query.
-
+You might also want to use the [Fixed Assets Ad-hoc Analysis](https://businesscentral.dynamics.com/?query=123) query.
 
 ## Contributors
 
-*Microsoft maintains this article. Parts of the examples were originally written by the following contributor.*
+Microsoft maintains this article. Parts of the examples were originally written by the following contributor.
 
-* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consultant
+- [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consultant
 
-## See also
+## Related information
 
 [Analyze list and query data with analysis mode](analysis-mode.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)  
@@ -119,6 +115,6 @@ Starting from [!INCLUDE [prod_short](includes/prod_short.md)] version 25.3, you 
 [Fixed assets overview](fa-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+[!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

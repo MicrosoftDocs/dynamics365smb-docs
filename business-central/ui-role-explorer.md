@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: role explorer, find features, navigate
 ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
-ms.date: 07/15/2024
+ms.date: 03/10/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -29,9 +29,9 @@ You can open the role explorer from the role center and all list pages and from 
 
 When you first open the role center, it shows links to most features available for your role.
 
-## Open the role explorer filtered to show reports 
+## Open the role explorer filtered to show reports
 
-You can open the role explorer in a view that's filtered to show reports from the role center and all list pages and from the **Tell Me** window:
+You can open the role explorer in a filtered view that shows reports from the role center and all list pages and from the **Tell Me** window:
 
 - On your Role Center or any list page, choose the **All Reports** link to the right of the navigation bar.
 - In the **Tell Me** window, choose the **exploring reports** action at the bottom.
@@ -40,9 +40,9 @@ You can open the role explorer in a view that's filtered to show reports from th
 
 The actions that open pages or reports are organized under nodes named after the features or application areas. You can collapse or expand each node individually, or all nodes together.
 
-- To expand/collapse an individual node, choose the node. This applies to top-level nodes and sub nodes.
-- To expand/collapse all top-level nodes on the page, but leave the sub-nodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
-- To expand/collapse all top-levels node and all sub nodes under it, choose **...** at the top, then choose the **Expand All** or **Collapse All** action.
+- To expand/collapse an individual top-level or subnode, choose the node.
+- To expand/collapse all top-level nodes on the page, but leave the subnodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
+- To expand/collapse all top-levels node and all subnodes under it, choose **...** at the top, then choose the **Expand All** or **Collapse All** action.
 
 ## Search for features
 
@@ -53,7 +53,7 @@ To quickly locate features, select **Find**, then enter a word or phrase for the
 To explore roles other than your own, select **Explore more roles**. The role center displays each role under its own heading, with links to its features. You can find and go to features just like you do when exploring your role.
 
 > [!NOTE]
-> You'll only access roles that are set up to show in the role explorer. If a role isn't available, it's probably not set up for it. For more information, see [Manage Profiles](admin-users-profiles-roles.md). 
+> You can only access roles that are set up to show in the role explorer. If a role isn't available, it probably isn't set up to show. To learn more, go to [Manage Profiles](admin-users-profiles-roles.md).
 
 When exploring other roles, you can also narrow down the exploration by using the **Report & Analysis** and **Administration** actions at the top of the role center.
 
@@ -91,9 +91,9 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 
 The actions that open pages are organized under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
-- To expand/collapse a node, choose the node. This applies to top-level nodes and sub nodes.
+- To expand/collapse a top-level or subnode, choose the node.
 - To expand/collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner.
-- To expand/collapse all top-levels node and all sub nodes under it, do one of the following steps:
+- To expand/collapse all top-levels node and all subnodes under it, do one of the following steps:
   - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action in the top-right corner.
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
@@ -101,7 +101,7 @@ The actions that open pages are organized under nodes named after the features o
 
 [!INCLUDE[2025_releasewave1](includes/2025_releasewave1.md)]
 
-Some elements on the role explorer have teaching tip texts defined. If that is the case, the element will show a small information icon to the right of the title. You can get these texts shown in a small dialog by choosing the icon.
+Teaching tips are available for some elements on the role explorer. When that's the case, there's a small information icon next to their name that you can use to learn more about the elements.
 
 :::image type="content" source="media/report-explorer-more-information.png" alt-text="Example of how the more information window is shown on an element on the role explorer." lightbox="media/report-explorer-more-information.png":::
 
@@ -109,9 +109,9 @@ Some elements on the role explorer have teaching tip texts defined. If that is t
 
 [!INCLUDE[2025_releasewave1](includes/2025_releasewave1.md)]
 
-All elements on the role explorer have the ability for you to open the page or report in a new window while still keeping the role explorer open. You explore an element by choosing the *Open in a new window* icon to the left of the element title. If the element has a teaching tip defined, the *Open in a new window* icon is located on the information dialog.
+For all elements on the role explorer, you can open the page or report in a new window while keeping the role explorer open. To explore an element, choose the **Open in a new window** icon to the left of the element's name. If the element has a teaching tip, the **Open in a new window** icon is in the information dialog.
 
-## See also
+## Related information
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

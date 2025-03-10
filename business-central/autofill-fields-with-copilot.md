@@ -65,9 +65,10 @@ Suggestions are generated only for fields in the FastTab that you are on. When C
 
 Review the suggestion for each field and take appropriate action. Suggestions aren't saved until you accept them.
 
-- To learn more about a suggestion, select the ![Shows the details icon for a suggestion](media/autofill-info.png) citation icon next to the field, or press <kbd>Alt</kbd>+<kbd>i</kbd> in the field. The citation shows the source of the suggestion, like the most frequently or recently used value. Use the thumbs-up and thumbs-down icons to give feedback on the suggestion.
-- To save a suggestion, select ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** or <kbd>Alt</kbd>+<kbd>i</kbd> in the field or citation.
-- To reject a suggestion and keep the original value, select **Discard the suggestion** in the field or citation.
+- To learn more about a suggestion, select the ![Shows the details icon for a suggestion](media/autofill-info.png) citation icon next to the field, or press <kbd>Alt</kbd>+<kbd>i</kbd>. The citation shows the source of the suggestion, like the most frequently or recently used value. Use the thumbs-up and thumbs-down icons to give feedback.
+- To keep a suggestion, select ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** or press <kbd>Enter</kbd>.
+- To reject a suggestion and keep the original value, select ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** or press <kbd>Delete</kbd>.
+- To change a suggestion, select **Change** in the citation or press <kbd>F2</kbd>.
 
 You can also use the **Keep all** button in the upper right corner of the page to accept or discard suggestions on all fields.
 
@@ -80,3 +81,4 @@ When you leave the page, any unaccepted suggestions are automatically discarded.
 [Responsible AI FAQ for autofill (preview)](faqs-autofill.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Keyboard shortcuts](keyboard-shortcuts.md)

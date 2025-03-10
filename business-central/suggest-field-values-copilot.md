@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/18/2024
+ms.date: 03/10/2025
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: bap-template
@@ -15,7 +15,10 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot's autofill feature assists you by automatically filling in editable fields on your page. Use autofill when creating or modifying a record. It suggests field values that you can choose to keep or discard. These suggestions are based on your Business Central data, such as frequently or recently used values, or they can be AI-generated based on option values, lookup values, or page context.
+Copilot's autofill feature assists you by automatically filling in editable blank fields on your page. Use autofill when creating or modifying a record. It suggests field values that you can choose to keep or discard. These suggestions are based on your Business Central data, such as frequently or recently used values, or they can be AI-generated based on option values, lookup values, or page context.
+
+Lets add "suggestions are based on Business Central that only you have access to"
+And "Copilot never saves suggestions automatically, but presents them to you so that you can decide what to keep. Copilot uses AI and is not always correct."
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

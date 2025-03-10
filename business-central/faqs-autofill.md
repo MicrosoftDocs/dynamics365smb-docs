@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 02/17/2025
+ms.date: 03/10/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -50,7 +50,7 @@ Suggested values are displayed directly within the field editing experience, mak
 
 ## How was Autofill evaluated? What metrics are used to measure performance? 
 
-This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft.
+This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft in [Empowering responsible AI practices](https://aka.ms/RAI).
 
 The feature underwent extensive AI testing using Business Central's demonstration data and other fictitious business data. Testing covered various fields and pages from Business Central. Copilot’s output was evaluated for accuracy of suggested values, selection of the appropriate mechanism to suggest a value, grounding of suggested values in database data, and other metrics.
 
@@ -64,7 +64,7 @@ Microsoft might disable the Copilot features for selected customers if abuse of 
 
 Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, report it to Microsoft by using this feedback form: Report abuse. We analyze user feedback on the feature and use it to help us improve responses.
 
-You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the Copilot pane in Business Central.
+You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon in the information about an individual suggestion or for all suggestions in the group of fields.
 
 ## What are the AI limitations of Autofill? How can users minimize the impact of the limitations when using the system?
 

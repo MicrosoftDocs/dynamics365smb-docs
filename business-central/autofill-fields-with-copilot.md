@@ -22,38 +22,24 @@ And "Copilot never saves suggestions automatically, but presents them to you so 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-<!--
 ## Supported languages
 
 [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
--->
+
 ## Prerequisites
 
-The autofill feature is activated, and you have the permission to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
+The autofill capability is activated, and you have the permission to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
-## Limitations
+## Availability
 
-- Languages
+- The autofill feature is available on card and document pages, like the **Customer card** and **Sales order**.
 
-  [!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
+  It's not available on pages that list entities, like **Customers** and **Sales Orders**, or worksheet pages like the **Put-away Worksheet**.
+- On card and document pages, it's available on editable fields in FastTabs.
 
-- Pages types
-
-  The autofill feature is available on card, document, and worksheet pages, like an item, sales order, or put-away worksheet. It isn't available in lists, FactBoxes, assisted setup guides, or other dialog boxes.
-- Field types
-
-  The autofill feature is available on editable fields in FastTabs only. It's not available on:
-
-  - Fields in columns
-  - Multiline text fields
-  - Masked fields
-  - Date/time fields
-  - Toggle switches
-  - Fields that uniquely identify a record, such as fields defined by number series.
+   It's not available in fields in columns or FactBoxes, fields that show dates and times, or fields with multiple lines of free text.
 
 ## Use autofill on fields
-
-<!--Start by opening the page for editing. Copilot is available only on specific editable fields on a page. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.-->
 
 Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>i</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
 

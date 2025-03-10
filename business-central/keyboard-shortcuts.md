@@ -250,6 +250,15 @@ The following table describes the keyboard shortcuts on a numeric keypad.
 |---|---|
 | <kbd>Alt</kbd>+<kbd>Decimal separator</kbd> | Switch the output of the <kbd>Decimal separator</kbd> key between a period (.) and the character that is determined by the **Region** setting on the **My Settings** page. Learn more in [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal). |
 
+Shortcut What it does
+*** Alt+i:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
+When a suggestion is displayed, this shortcut displays information about the suggestion.
+
+Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
+Tab: Move to the next page control without affecting the field suggestion.
+*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
+F2: Edit the suggestion.
+
 ## Access keys for action bar and navigation menu
 
 Access keys are keyboard shortcuts you can use to select specific actions in the action bar and on the navigation menu for easier navigation. They're similar to the access keys in Excel and Word. Access keys are available in the Business Central web client only when the display language is set to one of the [supported languages](#supported-languages).

@@ -55,7 +55,7 @@ The autofill feature is activated, and you have the permission to use it. Learn 
 
 <!--Start by opening the page for editing. Copilot is available only on specific editable fields on a page. To check whether it's available on a field, select the field. If the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon appears, Copilot is available. Select the icon to get suggestions.-->
 
-Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon. If the icon doesn't appear, autofill isn't available for the field, so try another field.
+Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>i</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
 
 ![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg).
 
@@ -72,16 +72,6 @@ Review the suggestion for each field and take appropriate action. Suggestions ar
 You can also use the **Keep all** button in the upper right corner of the page to accept or discard suggestions on all fields.
 
 When you leave the page, any unaccepted suggestions are automatically discarded.
-
-
-Shortcut What it does
-*** Alt+i:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
-When a suggestion is displayed, this shortcut displays information about the suggestion.
-
-Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
-Tab: Move to the next page control without affecting the field suggestion.
-*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
-F2: Edit the suggestion.
 
 <!--The first time you use Copilot, you're asked to accept the terms to continue.-->
 

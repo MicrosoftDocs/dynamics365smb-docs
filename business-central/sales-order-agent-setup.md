@@ -48,6 +48,8 @@ Next, configure and activate the agent so it can process customer sales orders.
 
 ## Configure and activate Sales Order Agent
 
+Configure and activate the Sales Order Agent on a company basis. Only one Sales Order Agent is allowed per company.
+
 1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.
 
 1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.

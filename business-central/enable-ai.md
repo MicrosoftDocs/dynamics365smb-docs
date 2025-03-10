@@ -69,7 +69,8 @@ The following table lists the permissions that are required to use the Copilot f
 
 | Copilot feature | Required permissions |
 |---|---|
-| Analysis assist | The **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat | There are no permissions or permission sets that control access to chat on a per-user basis. If chat is activated, it's available to all users. |
 | Suggest substitute items| Permission on page 7410 **Item Subst. Suggestion** and page 7411 **Item Subst. Suggestion Sub**.|
@@ -100,6 +101,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
 - [Analyze list data with Copilot](analysis-assist.md)
+- [Autofill fields with Copilot](analysis-assist.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)

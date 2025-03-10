@@ -29,7 +29,7 @@ And "Copilot never saves suggestions automatically, but presents them to you so 
 -->
 ## Prerequisites
 
-The autofill feature is activated. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
+The autofill feature is activated, and you have the permission to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## Limitations
 

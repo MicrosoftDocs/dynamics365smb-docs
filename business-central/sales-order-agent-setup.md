@@ -1,10 +1,10 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate the Sales Order Agent and manage user access.
-ms.date: 02/12/2025
+ms.date: 03/10/2025
 ms.topic: how-to
-author: dmc-dk
-ms.author: dmitrych
+author: jswymer
+ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
@@ -38,7 +38,7 @@ Before configuring and activating the sales order agent, ensure the following pr
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 
-## Turn on the Sales Order Agent capability
+## Turn on the Sales Order Agent capability for the environment
 
 The agent capability is already on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
 

@@ -2525,7 +2525,7 @@ ms.service: dynamics-365-business-central
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
 ## Autofill (preview)
-### [Autofill fields with Copilot](suggest-field-values-copilot.md)
+### [Autofill fields with Copilot](autofill-fields-with-copilot.md)
 ### [Responsible AI FAQ for autofill](faqs-autofill.md)
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)

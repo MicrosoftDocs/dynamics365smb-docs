@@ -101,9 +101,10 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
 - [Analyze list data with Copilot](analysis-assist.md)
-- [Autofill fields with Copilot](analysis-assist.md)
+- [Autofill fields with Copilot](autofill-fields-with-copilot.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
@@ -113,6 +114,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  
+[FAQ for autofill with Copilot](faqs-autofill.md)  
 [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  

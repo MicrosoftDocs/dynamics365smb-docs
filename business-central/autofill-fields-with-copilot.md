@@ -73,6 +73,16 @@ You can also use the **Keep all** button in the upper right corner of the page t
 
 When you leave the page, any unaccepted suggestions are automatically discarded.
 
+
+Shortcut What it does
+*** Alt+i:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
+When a suggestion is displayed, this shortcut displays information about the suggestion.
+
+Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
+Tab: Move to the next page control without affecting the field suggestion.
+*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
+F2: Edit the suggestion.
+
 <!--The first time you use Copilot, you're asked to accept the terms to continue.-->
 
 ## Related information

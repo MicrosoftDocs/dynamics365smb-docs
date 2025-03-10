@@ -17,8 +17,7 @@ ms.custom: bap-template
 
 Copilot's autofill feature assists you by automatically filling in editable blank fields on your page. Use autofill when creating or modifying a record. It suggests field values that you can choose to keep or discard. These suggestions are based on your Business Central data, such as frequently or recently used values, or they can be AI-generated based on option values, lookup values, or page context.
 
-Lets add "suggestions are based on Business Central that only you have access to"
-And "Copilot never saves suggestions automatically, but presents them to you so that you can decide what to keep. Copilot uses AI and is not always correct."
+Suggestions are based on Business Central that only you have access to. Copilot never saves suggestions automatically, but presents them to you so that you can decide what to keep. Copilot uses AI and is not always correct.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -32,12 +31,9 @@ The autofill capability is activated, and you have the permission to use it. Lea
 
 ## Availability
 
-- The autofill feature is available on card and document pages, like the **Customer card** and **Sales order**.
+The autofill feature is available on card and document pages, like a **customer card** or a **sales order**, and only on editable fields in FastTabs, except fields that show values like IDs, dates/times, or multiple lines of text.
 
-  It's not available on pages that list entities, like **Customers** and **Sales Orders**, or worksheet pages like the **Put-away Worksheet**.
-- On card and document pages, it's available on editable fields in FastTabs.
-
-   It's not available in fields in columns or FactBoxes, fields that show dates and times, or fields with multiple lines of free text.
+It's not available on pages that list entities, like **Customers** and **Sales Orders**, or worksheet pages like the **Put-away Worksheet**. It's also not available in fields in columns or FactBoxes, fields that show dates and times, or fields with multiple lines of free text.
 
 ## Use autofill on fields
 

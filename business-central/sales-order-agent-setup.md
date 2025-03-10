@@ -48,7 +48,7 @@ Next, configure and activate the agent so it can process customer sales orders.
 
 ## Configure and activate Sales Order Agent
 
-Configure and activate the Sales Order Agent on a company basis. Only one Sales Order Agent is allowed per company.
+Configure and activate the Sales Order Agent for your company. Only one Sales Order Agent is allowed per company, but you can give access to many users.
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** > **Activate**.
 

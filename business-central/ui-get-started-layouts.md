@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 02/16/2025
+ms.date: 03/10/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -203,7 +203,7 @@ Follow these steps if you want to change the name and description of a user-defi
 
 ## Mark a layout as obsolete
 
-A layout can become obsolete for various reasons. For example, the underlying data model might change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it will likely be removed in a later release, so they should use an alternative layout.
+A layout can become obsolete for various reasons. For example, the data model might change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it will likely be removed in a later release, so they should use an alternative layout.
 
 To identify which layouts are obsolete, refer to the **Obsolete** column on the **Report Layouts page**. You can mark a user-defined layout as obsolete if needed. 
 

@@ -103,7 +103,7 @@ The actions that open pages are organized under nodes named after the features o
 
 Some elements on the role explorer have teaching tip texts defined. If that is the case, the element will show a small information icon to the right of the title. You can get these texts shown in a small dialog by choosing the icon.
 
-:::image type="content" source="../media/report-explorer-more-information.png" alt-text="Example of how the more information window is shown on an element on the role explorer." lightbox="../media/report-explorer-more-information.png":::
+:::image type="content" source="media/report-explorer-more-information.png" alt-text="Example of how the more information window is shown on an element on the role explorer." lightbox="media/report-explorer-more-information.png":::
 
 ## Explore an element on the role explorer
 

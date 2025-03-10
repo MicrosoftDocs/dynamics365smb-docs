@@ -27,7 +27,7 @@ Before configuring and activating the sales order agent, ensure the following pr
 
 - Set up the email account for receiving incoming requests for sales quotes and orders.
 
-   The Sales Order Agent monitors incoming emails to this mailbox. The email account can be either a Microsoft 365 personal account (user mailbox) or a shared mailbox in your organization. Learn more at [Set up e-mail](admin-how-setup-email.md).
+   The Sales Order Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
 
    > [!IMPORTANT]
    > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).

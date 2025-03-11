@@ -21,13 +21,13 @@ Copilot's autofill feature assists you by automatically filling in editable blan
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Supported languages
-
-[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
-
 ## Prerequisites
 
 Autofill is activated, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
+
+## Supported languages
+
+[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
 
 ## Availability
 

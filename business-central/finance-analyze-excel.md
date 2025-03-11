@@ -10,7 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analyzing financial statements in Microsoft Excel (legacy)
+# Analyzing financial statements in Microsoft Excel (obsolete)
+
+> [!NOTE]
+> This feature is being deprecated and will be removed in a later version of [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). To learn more about alternative finance reporting, go to [Financial analytics overview](bi.md).
+
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides KPIs and get overviews of your company's finances. The following are examples of ways to analyze KPIs and overviews in Excel:
 
@@ -21,9 +25,6 @@ ms.reviewer: bholtorf
 > By default, the reports you can view in Excel are designed to help you analyze the current year. The Income Statement report is an exception, however. That report lets you filter the data to include previous years in your analyses.
 
 ## Get the overview and the details in Excel
-
-> [!NOTE]
-> This feature is being deprecated and will be removed in a later version of [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
 
 In the Business Manager and Accountant Role Centers, the **Reports** action lets you choose the financial statements to view in Excel. When you choose a statement, it will be opened in Excel or Excel Online. An add-in connects the data to [!INCLUDE [prod_short](includes/prod_short.md)]. However, you have to sign in with the same account that you use with [!INCLUDE [prod_short](includes/prod_short.md)]. The following table lists the reports and where they're available.  
 
@@ -54,13 +55,15 @@ Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-
 
 The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_short.md)], and you can push changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. However, the ability to push data back to the database is not available for the financial reports you can view in Excel.  
 
+## Alternative to the obsolete reports
+
+There are several other ways to analyze your finance data. To learn more, go to [Financial analytics overview](bi.md).
+
+
 ## See also
 
+[Financial analytics overview](bi.md)   
 [Viewing and Editing in Excel From Business Central](across-work-with-excel.md)  
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Work with Business Central](ui-work-product.md)  
-
+[Finance overview](finance.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

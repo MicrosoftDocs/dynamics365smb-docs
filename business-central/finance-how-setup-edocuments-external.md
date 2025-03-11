@@ -57,7 +57,7 @@ Before you start to work with e-documents, set up the e-document **workflows** a
 
 Microsoft wants to encourage access point providers to add their connectors on top of our **E-Document Core** framework.
 
-Currently, Pagero is the only access point provider that's covered by this system. Microsoft has no contractual obligation with Pagero. Therefore, you must make a contract with them to get all the necessary credentials.
+Currently, Pagero and Avalara are only access point providers that's covered by this system. Microsoft has no contractual obligation with them. Therefore, you must make a contract with them to get all the necessary credentials.
 
 We'll update this list as we get new e-document exchange access point providers.
 

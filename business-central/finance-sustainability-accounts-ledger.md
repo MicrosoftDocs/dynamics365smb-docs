@@ -86,26 +86,26 @@ If you set the **Calculation Foundation** field, the following table explains ho
 | Emission Type | Calculation Foundation | Formula | Comment |
 |---------------|------------------------|---------|---------|
 | **Scope 1** | | | |
-| Stationary combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for boilers, heaters, thermal oxidizers, and so on |
-| Mobile combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for road or off road vehicles, rail, and so on |
-| | | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of road or off road vehicles, rail, and so on |
-| Fugitive emissions | Installation | *Emission* = *Installation multiplier* &times; *Custom Amount* &divide; 100 &times; *Time Factor* | *Custom Amount* = Assembly losses, annual leak rate, and so on |
+| Stationary combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for boilers, heaters, thermal oxidizers, and so on. |
+| Mobile combustion | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel that is spent for on-road or off-road vehicles, rail, and so on. |
+| | | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of on-road or off-road vehicles, rail, and so on. |
+| Fugitive emissions | Installation | *Emission* = *Installation multiplier* &times; *Custom Amount* &divide; 100 &times; *Time Factor* &times; *EF* | *Custom Amount* = Assembly losses, annual leak rate, and so on. |
 | **Scope 2** | | | |
-| Utility providers | Fuel/Electricity | *Emission* = *Electricity* &times; *EF* | *Fuel/Electricity* = Electricity quantity, steam quantity, heating unit, and so on |
-| | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Thermal unit, ton-hour, and so on |
+| Utility providers | Fuel/Electricity | *Emission* = *Electricity* &times; *EF* | *Fuel/Electricity* = Electricity quantity, steam quantity, heating unit, and so on. |
+| | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Thermal unit, ton-hour, and so on. |
 | **Scope 3** | | | |
-| Purchased goods and services, and capital goods | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Cost (GL), and so on |
+| Purchased goods and services, and capital goods | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Cost (GL), and so on. |
 | Upstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
 | | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *|
 | Downstream transportation and distribution | Distance | *Emission* = *Distance* &times; *EF* | |
 | | Distance | *Emission* = *Distance* &times; *Multiplier* &times; *EF* | *Multiplier* = Load Factor / Tons of cargo *|
 | Waste generated in operations and end-of-life treatment of sold products | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Waste |
-| Business travel and employee commuting | Distance | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of the used company car, rental car, train, flight, and so on |
+| Business travel and employee commuting | Distance | *Emission* = *Distance* &times; *EF* | *Distance* = Mileage of the used company car, rental car, train, flight, and so on. |
 | | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Hotel stays |
-| | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on. This formula is only one used for Water or Waste Intensity calculation. |
+| | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on. This is the only formula used for water or waste intensity calculation. |
 
 > [!IMPORTANT]
-> This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when you use the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations, as emissions don't increase linearly with weight. A more accurate approach is to use the **Load Factor**, representing the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before you finalize calculations.
+> This note applies to the formulas for **Upstream Transportation and Distribution** and **Downstream Transportation and Distribution** when you use the tons-of-cargo calculation model. While you can adapt the formulas, we recommend against using the exact number of tons of cargo as a multiplier. Instead, consult your sustainability advisor to ensure accurate calculations because emissions don't increase linearly with weight. A more accurate approach is to use the **Load Factor**, which represents the percentage of the truck's total capacity utilized (by weight or volume). The load factor can be calculated as **Weight of Cargo** / **Maximum Load Capacity of Truck**. But always confirm with your sustainability expert before you finalize calculations.
 
 ## Account subcategories
 
@@ -137,7 +137,7 @@ You can have more than one account subcategory for a sustainability account, but
 
 ## Sustainability ledger entries
 
-The sustainability ledger stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.
+The sustainability ledger stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When you post a sustainability journal, the data is recorded there. All active reports are generated based on the sustainability ledger entries.
 
 To open this ledger for a specific account, use the **Ledger Entries** action on the **Chart of Sustainability Account** page. To open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.
 

@@ -91,7 +91,7 @@ To analyze returned items sorted by the reasons for their return, follow these s
 1. Drag the **Posting Date Year**, **Posting Date Month**, and **Item No.** fields to the **Row Groups** area.
 1. Drag the **Quantity**, **Sales Amount**, and **Cost Amount (Actual)** fields to the **Values** area.
 1. Drag the **Posting Date Month** field to the **Column Groups** area.
-1. Rename your analysis tab to **Inventory troughput by Month** or something that describes this analysis.  
+1. Rename your analysis tab to **Inventory throughput by Month** or something that describes this analysis.  
 
 ## Inventory movements
 

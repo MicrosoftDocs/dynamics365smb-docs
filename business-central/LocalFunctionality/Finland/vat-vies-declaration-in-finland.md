@@ -4,11 +4,11 @@ description: Finnish enhancements allow you to comply with regulations for VAT a
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords:
-ms.date: 12/05/2023
+ms.search.keywords: VAT, sales reporting, European Union regulations, VAT-VIES
+ms.date: 02/13/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
 
 # VAT-VIES declaration in Finland
@@ -19,9 +19,8 @@ ms.reviewer: bholtorf
 
 ## See also
 
-[About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist)  
-[Finland Local Functionality](finland-local-functionality.md)  
-[Report VAT to Tax Authorities](../../finance-how-report-vat.md)
-
+- [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist)  
+- [Finland Local Functionality](finland-local-functionality.md)  
+- [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

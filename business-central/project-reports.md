@@ -4,7 +4,7 @@ description: See which project reports are available in the standard version of 
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014, Report_1015
+ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014, Report_1015, Report_1101, Report_1103, Report_1105, Report_1106, Report_1107
 ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

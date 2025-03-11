@@ -27,7 +27,7 @@ Copilot's autofill feature assists you by automatically filling in editable blan
 
 ## Prerequisites
 
-The autofill capability is activated, and you have the permission to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
+Autofill is activated, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## Availability
 

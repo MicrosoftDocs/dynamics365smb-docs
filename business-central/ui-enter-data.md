@@ -60,7 +60,9 @@ When the cursor is shown at the end of the field value:
 
 ## Use Copilot's autofill feature to assist in filling in fields
 
-When drafting a new record or editing an existing record, Copilot can suggest values for editable fields on the page. Learn more in [Get assistance filling in fields with Copilot](autofill-fields-with-copilot.md).
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+When drafting a new record or editing an existing record, Copilot can suggest values for editable fields on the page. Learn more in [Autofill fields with Copilot (preview)](autofill-fields-with-copilot.md).
 
 ## Keyboard Shortcuts
 

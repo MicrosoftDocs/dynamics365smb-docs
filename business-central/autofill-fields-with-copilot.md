@@ -35,23 +35,26 @@ The autofill feature is available on card and document pages, like a **Customer 
 
 It's unavailable in various places, including entity list pages like **Customers** and **Sales Orders**, worksheet pages like the **Put-away Worksheet**, and fields in columns and FactBoxes.
 
-
 ## Use autofill on fields
 
 Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>i</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
 
 ![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg).
 
-Suggestions are generated only for fields in the FastTab that you are on. When Copilot finds suggestions, they're automatically entered in the fields in italics along with ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons. Fields remain unchanged if suggestions aren't found or they don't support autofill.
+Suggestions are generated only for fields in the FastTab that you are on. When Copilot finds suggestions, they're automatically entered in the fields in italics along with the ![Shows the details icon for a suggestion](media/autofill-info.png) **Show details** icon. Fields remain unchanged if suggestions aren't found or they don't support autofill.
 
 ![Shows a suggested field with the accept and discard buttons.](media/autofill-suggested-value-field.svg)
 
+When you hover over or select a field that includes a suggestion, the ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons appear.
+
+### Review suggestions
+
 Review the suggestion for each field and take appropriate action. Suggestions aren't saved until you accept them.
 
-- To learn more about a suggestion, select the ![Shows the details icon for a suggestion](media/autofill-info.png) citation icon next to the field, or press <kbd>Alt</kbd>+<kbd>i</kbd>. The citation shows the source of the suggestion, like the most frequently or recently used value. Use the thumbs-up and thumbs-down icons to give feedback.
+- To learn more about a suggestion, select the ![Shows the details icon for a suggestion](media/autofill-info.png) **Show details** icon next to the field, or press <kbd>Alt</kbd>+<kbd>i</kbd>. The details include the source of the suggestion, like the most frequently or recently used value. Use the thumbs-up and thumbs-down icons to give feedback.
 - To keep a suggestion, select ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** or press <kbd>Enter</kbd>.
 - To reject a suggestion and keep the original value, select ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** or press <kbd>Delete</kbd>.
-- To change a suggestion, select **Change** in the citation or press <kbd>F2</kbd>.
+- To change a suggestion, select **Change** in the details or press <kbd>F2</kbd>.
 
 You can also use the **Keep all** button in the upper right corner of the page to accept or discard suggestions on all fields.
 

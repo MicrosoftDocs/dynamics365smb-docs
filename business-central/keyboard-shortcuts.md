@@ -4,7 +4,7 @@ description: View a list of key combinations (keyboard shortcuts) that you can u
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/23/2024
+ms.date: 03/11/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -153,7 +153,7 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Alt</kbd>+<kbd>D</kbd> | Open the dimension set entries. |
 | <kbd>Alt</kbd>+<kbd>F6</kbd> | Collapse or expand the current FastTab or part (subpage). |
 | <kbd>Alt</kbd>+<kbd>F9</kbd> | Create a new document, and post it. |
-| <kbd>Alt</kbd>+<kbd>I</kbd> | Open the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
+| <kbd>Alt</kbd>+<kbd>I</kbd> | en the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
 | <kbd>Alt</kbd>+<kbd>G</kbd> | Open the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
 | <kbd>Alt</kbd>+<kbd>N</kbd> | Open a page where you can create a new record. This keyboard shortcut has the same effect as selecting the **New** action. |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | Close a page, and then open a new one where you can create a new record. This keyboard shortcut has the same effect as selecting the **OK & New** action. |
@@ -173,6 +173,26 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Shift</kbd>+<kbd>F6</kbd> | Move to the previous FastTab or part (subpage). |
 | <kbd>Shift</kbd>+<kbd>F9</kbd> | Post and print a document. |
 | <kbd>Shift</kbd>+<kbd>F11</kbd> | Apply entries, get source documents, or get warehouse documents. |
+
+## Keyboard shortcuts to autofill fields with Copilot in cards and documents
+
+Theses shortcuts apply to fields on card and document pages when Autofill fields with Copilot feature is activated. Learn more in [Autofill fields with Copilot](autofill-fields-with-copilot.md).
+
+| Select these keys<br>(these keys in macOS) | To do this |
+|---|---|
+| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.<br><br>On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon.|
+|<kbd>Backspace</kbd>, <kbd>Delete</kbd>, or <kbd>Escape</kbd>|Discard the suggestion on a selected field to return to the value.|
+|<kbd>F2</kbd>|Edit a suggestion for a selected field.|
+
+<!--
+Shortcut What it does
+*** Alt+I:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
+When a suggestion is displayed, this shortcut displays information about the suggestion.
+
+Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
+Tab: Move to the next page control without affecting the field suggestion.
+*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
+F2: Edit the suggestion.-->
 
 ## <a name="QuickEntry"></a>Quick entry shortcuts for fields
 
@@ -250,15 +270,6 @@ The following table describes the keyboard shortcuts on a numeric keypad.
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|
 | <kbd>Alt</kbd>+<kbd>Decimal separator</kbd> | Switch the output of the <kbd>Decimal separator</kbd> key between a period (.) and the character that is determined by the **Region** setting on the **My Settings** page. Learn more in [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal). |
-
-Shortcut What it does
-*** Alt+i:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
-When a suggestion is displayed, this shortcut displays information about the suggestion.
-
-Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
-Tab: Move to the next page control without affecting the field suggestion.
-*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
-F2: Edit the suggestion.
 
 ## Access keys for action bar and navigation menu
 

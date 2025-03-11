@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/17/2025
+ms.date: 03/11/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -60,7 +60,7 @@ When the cursor is shown at the end of the field value:
 
 ## Use Copilot's autofill feature to assist in filling in fields
 
-When drafting a new record or editing an existing record, Copilot can suggest values for editable fields on the page. Learn more in [Get assistance filling in fields with Copilot](suggest-field-values-copilot.md).
+When drafting a new record or editing an existing record, Copilot can suggest values for editable fields on the page. Learn more in [Get assistance filling in fields with Copilot](autofill-fields-with-copilot.md).
 
 ## Keyboard Shortcuts
 

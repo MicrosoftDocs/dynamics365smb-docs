@@ -1,6 +1,6 @@
 ---
-title: Set up the Sustainability module
-description: Learn how to configure sustainability features to track and report your greenhouse gas emissions and carbon fees.
+title: Set up sustainability features in Business Central
+description: Learn how to configure the Sustainability module to track and report your greenhouse gas emissions and carbon fees.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -18,23 +18,23 @@ To use the sustainability features effectively, you need to set up some basic co
 
 ## Role Center  
 
-If your primary responsibilities involve sustainability processes, we recommend that you use the *Sustainability Manager* role center. This role center gives you easy access to the core sustainability features, and finance and procurement processes. It also shows you the most important sustainability-related key performance indicators (KPIs).
+If your primary responsibilities involve sustainability processes, we recommend that you use the **Sustainability Manager** Role Center. It gives easy access to the core features of sustainability, and the finance and procurement processes. It also shows the most important sustainability-related key performance indicators (KPIs).
 
-To configure this role center, follow the steps:  
+To configure the Role Center, follow the steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **My settings**, and then select the related link.
 2. In the **Role** field, select the **Available Roles** page.
-3. Choose the **Sustainability Manager** line.
+3. Choose **Sustainability Manager**.
 4. Select **OK**.
 
 ## Sustainability setup  
 
-You need to specify some general settings for the Sustainability module, such as the unit of measure for emissions, the decimal places for amounts, and whether some fields are mandatory or not.
+Specify some general settings for sustainability, such as the unit of measure for emissions, the decimal places for amounts, and whether some fields are mandatory.
 
 To configure these settings, follow these steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then select the related link.
-2. On the **General** FastTab, configure the required fields that are related to the Sustainability module.
+2. On the **General** FastTab, configure the required fields that are related to sustainability.
 
     | Field | Description |
     |-------|-------------|
@@ -66,29 +66,29 @@ To configure these settings, follow these steps:
     > [!NOTE]
     > The **Use Emissions in Purchase Documents** field makes the **Sustainability Account** and emission fields on purchase documents. However, when you post the document, [!INCLUDE [prod_short](includes/prod_short.md)] only creates **Sustainability Ledger Entries**. To activate posting to the **Sustainability Value Entries** and enable value chain tracking, you must also select the **Enable Value Chain Tracking** field.
 
-4. On the **Calculations** FastTab, configure the required fields that are related to the formulas that are used to calculate emissions.
+4. On the **Calculations** FastTab, configure the required fields for the formulas that calculate emissions.
 
     | Field | Description |
     |-------|-------------|
-    | **Fuel/Electricity Decimal Places** | Enter the number of decimal places that show for fuel/electricity amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places show for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places are shown for all amounts. |
-    | **Distance Decimal Places** | Enter the number of decimal places that show for distance measurements. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places are shown for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places show for all amounts. |
+    | **Fuel/Electricity Decimal Places** | Enter the number of decimal places that show for fuel/electricity amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places show for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places show for all amounts. |
+    | **Distance Decimal Places** | Enter the number of decimal places that show for distance measurements. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places show for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places show for all amounts. |
     | **Custom Amount Decimal Places** | Enter the number of decimal places that show for custom amounts. The default setting, *2:5*, indicates that a minimum of two decimal places and a maximum of five decimal places show for all amounts. You can also enter a fixed number. For example, if you enter *2*, two decimal places show for all amounts. |
 
 5. On the **Reporting** FastTab, complete the setup by configuring the fields that are related to reporting to authorities.
 
     > [!NOTE]
-    > In version 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] doesn't support reporting to any authority. Therefore, the fields that are related to the configuration of this functionality on the **Reporting** FastTab are intended for future reporting capabilities. However, partners can also use these fields in localized versions.
+    > In version 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] doesn't support reporting to any authorities. The fields that are related to the configuration of this functionality on the **Reporting** FastTab are intended for future reporting capabilities. However, partners can also use these fields in localized versions.
 
     | Field | Description |
     |-------|-------------|
     | **Emission Reporting Unit of Measure Code** | Enter the unit of measure code that you use to report emissions. You can use a different unit of measure when you report to authorities. This field isn't applicable to the standard reports. |
     | **Reporting UOM Factor** | Enter the unit of measure factor that you use to register emissions, if you use a different unit of measure when you report to authorities. |
     | **Emission Rounding Precision** | Enter the size of the interval that you use to round emission amounts when you report to authorities. |
-    | **Emission Rounding Type** | Specify how to round emission amounts when you report to authorities. The following options are available: **Nearest**, **Up**, and **Down**. |
+    | **Emission Rounding Type** | Choose how to round emission amounts when you report to authorities. |
 
 ## Emission fees
 
-To track internal carbon fees or calculate your emissions using carbon dioxide (CO2) equivalents, you need to configure the **Emission Fees** page. To set up this information, follow these steps:  
+To track internal carbon fees or calculate your emissions using carbon dioxide (CO2) equivalents, configure the **Emission Fees** page.  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Emission Fees**, and then select the related link. 
 2. In the **Emission Type** field, choose the greenhouse gas (GHG) emission you want to configure: **CO2**, **CH4**, or **N2O**. This field is mandatory.
@@ -100,7 +100,7 @@ To track internal carbon fees or calculate your emissions using carbon dioxide (
 To calculate the carbon equivalent factor, use the following example. If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, divide 1 by 298. The result you need to add is 0.00336.  
 
 > [!NOTE]
-> The **Carbon Fee** field on the **Sustainability Ledger Entries** isn't calculated based on the **CO2 Emission** values. Instead, as a foundation for this formula, [!INCLUDE[prod_short](includes/prod_short.md)] uses the **CO2e Emission** field. The **CO2e Emission** field is calculated based on all the emissions posted to an entry and the **Carbon Equivalent Factor** configured for each of the gases on the **Emission Fees** page.  
+> The **Carbon Fee** field on the **Sustainability Ledger Entries** isn't calculated based on the **CO2 Emission** values. Instead, as a foundation for this formula, [!INCLUDE[prod_short](includes/prod_short.md)] uses the **CO2e Emission** field. The **CO2e Emission** field is calculated based on all emissions posted to an entry. The **Carbon Equivalent Factor** is configured for each of the gases on the **Emission Fees** page.  
 
 > [!TIP]
 > To use CO2e for all emissions (*CO2e of CO2*, *CO2e of CH4*, and *CO2e of N2O*), set the **Carbon Equivalent Factor** to **1** for the **CO2**, **CH4**, and **N2O** options. This setting gives you CO2e for all emissions, and the **CO2e** field displays the total carbon equivalent.  

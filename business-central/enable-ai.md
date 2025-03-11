@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 01/14/2025
+ms.date: 03/11/2025
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -100,7 +100,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
 - [Analyze list data with Copilot](analysis-assist.md)
-- [Autofill fields with Copilot](autofill-fields-with-copilot.md)
+- [Autofill fields with Copilot (preview)](autofill-fields-with-copilot.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 - [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
@@ -113,7 +113,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  
-[FAQ for autofill with Copilot](faqs-autofill.md)  
+[FAQ for autofill with Copilot (preview)](faqs-autofill.md)  
 [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  

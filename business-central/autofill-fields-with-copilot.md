@@ -31,9 +31,9 @@ The autofill capability is activated, and you have the permission to use it. Lea
 
 ## Availability
 
-The autofill feature is available on card and document pages, like a **customer card** or a **sales order**, and only on editable fields in FastTabs, except fields that show values like IDs, dates/times, or multiple lines of text.
+The autofill feature is available on card and document pages, like a **Customer card** or a **Sales Order**. It's available on editable fields within FastTabs on these pages, excluding those displaying values like IDs, dates/times, or multiple lines of text.
 
-It's not available on pages that list entities, like **Customers** and **Sales Orders**, or worksheet pages like the **Put-away Worksheet**. It's also not available in fields in columns or FactBoxes, fields that show dates and times, or fields with multiple lines of free text.
+It's unavailable on entity list pages, such as **Customers** and **Sales Orders**, or worksheet pages like the **Put-away Worksheet**. It's also unavailable in column fields or FactBoxes.
 
 ## Use autofill on fields
 

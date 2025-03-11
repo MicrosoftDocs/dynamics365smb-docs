@@ -42,7 +42,7 @@ Open the page for editing, select a field, and then select the ![Shows the Copil
 
 ![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg).
 
-Suggestions are generated only for fields in the FastTab that you are on. When Copilot finds suggestions, they're automatically entered in the fields along with ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons. Fields remain unchanged if suggestions aren't found or they don't support autofill.
+Suggestions are generated only for fields in the FastTab that you are on. When Copilot finds suggestions, they're automatically entered in the fields in italics along with ![Shows the accept button for a Copilot suggestion](media/autofill-accept.png) **Accept the suggestion** and ![Shows the discard button for a Copilot suggestion](media/autofill-discard.png) **Discard the suggestion** buttons. Fields remain unchanged if suggestions aren't found or they don't support autofill.
 
 ![Shows a suggested field with the accept and discard buttons.](media/autofill-suggested-value-field.svg)
 

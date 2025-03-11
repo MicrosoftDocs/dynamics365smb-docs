@@ -1,13 +1,14 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 11/22/2024
+ms.date: 02/25/2025
 ms.topic: overview
 author: dmc-dk
 ms.author: dmitrych
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 4400, 4410
 ---
 # Sales Order Agent overview (preview)
 
@@ -18,8 +19,8 @@ The Sales Order Agent helps Business Central users automate capturing sales orde
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
-[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Functionality
 
@@ -51,7 +52,7 @@ Users can inspect the agent's steps and the created sales documents. They can ea
 
 If the customer decides to update the quote by sending another email listing required changes, the agent assists with these changes by locating the quote and making the requested updates. Once the customer confirms the quote's accuracy, the agent converts it into a sales order, which is then also shared with the customer via email, following user's confirmation. 
 
-The agent always involves designated Business Central users to review and approve all outgoing messages, before they're sent to the customers. 
+The agent always involves designated Business Central users to review and approve all outgoing messages, before they're sent to the customers.
 
 ## How the agent processes requests
 
@@ -72,7 +73,6 @@ The agent ensures that a request from one customer can't be about another custom
 
 To prevent the agent from requesting intervention and to assist with reviewing incoming messages, the agent verifies whether the contact is registered and displays a notification on the incoming message review page if it isn't. To resolve this issue, you can either register a new contact/customer or update the contact information of an existing contact/customer. The agent generates the notification to indicate that the contact email wasn't found.
 
-
 ### Finding products/items
 
 The agent analyzes incoming emails to detect parameters for preparing a new sales quote or updating an existing one. Apart from the items themselves, parameters might include the item attributes, quantities, units of measure, requested delivery date, external document number, and more. The agent then searches for these items in Business Central's inventory, within a wide range of related tables.
@@ -90,39 +90,63 @@ The agent analyzes incoming emails to detect parameters for preparing a new sale
 
 Although the agent can find products based on vague and incomplete descriptions, its effectiveness is influenced by the quality of product information in Business Central. You can improve the agent's ability to find products by enhancing descriptions, attributes, categories, and extended text of your inventory items.
 
+> [!NOTE]
+> It might take up to 15 minutes for newly entered data to become searchable as the system re-indexes the tables in the background.
+
 When it finds the items, the agent checks the items' availability by analyzing multiple parameters, such as required quantity, delivery date, location, scheduled and planned receipts and more.
 
 ## Agent process flow
 
+### Partcipants
+
 Processing a sales quote request into an order involves three participants:
 
-- Customer who requests a sales quote via email
+- Customer who requests a sales quote via email.
+
+    Here's an example of an email:
+
+    > Hello,
+    >
+    > We are in the process of purchasing furniture for our lodge, and after reviewing your website I would like to request a quote for the following items:
+    >
+    > - 2 Antwerp tables
+    > - 4 Berlin chairs
+    > - 4 Rome chairs
+    >
+    > Could you please provide a sales quote? We will need the items delivered by March 2nd. Additionally, please note our purchase order number: DC1011234.
+    >
+    > Thank you,
+    >
+    > [Name]
+
 - Sales order agent, which monitors the mailbox, handles the incoming request, and creates the quote and order
 - Business Central user who reviews agent tasks
+
+### General flow
 
 The general flow is illustrated in the figure, which is followed by more details of the steps. The actual flow might vary depending on factors such as follow-up requests, changes or cancellations in review, blocking issues, and so on.
 
 ![Shows the Sales Order Agent flow](media/soa-flow.svg)
 
-1. Customer: Sends email to Business Central mailbox asking for a sales quote for items.
-1. Sales order agent: Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
-1. Reviewer: Reviews/confirms the step with email.  
-1. Sales order agent:
+1. **Customer:** Sends email to Business Central mailbox asking for a sales quote for items.
+1. **Sales order agent:** Picks up unread email from inbox and creates a task with a step for reviewing the incoming request.
+1. **Reviewer:** Reviews/confirms the step with email.  
+1. **Sales order agent:**
     1. Finds the contact or customer.
-    1. Finds the requested items and verifies their availability.
-    1. Creates the sales quote. 
+    1. Finds the requested items and verifies their availability. Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md)
+    1. Creates the sales quote.
     1. Adds review step with a reply email with attached sales quote as pdf.
-1. Reviewer: Reviews/confirms email and sales quotes. 
-1. Sales order agent: Sends email and sales quote PDF to customer.
-1. Customer: Review sales quote and sends email requesting order.
-1. Sales order agent: Picks up email and adds review step.
-1. Reviewer: Reviews/confirms the confirmation email for a sale order.
-1. Sales order agent:
+1. **Reviewer:** Reviews/confirms email and sales quotes. 
+1. **Sales order agent:** Sends email and sales quote PDF to customer.
+1. **Customer:** Review sales quote and sends email requesting order.
+1. **Sales order agent:** Picks up email and adds review step.
+1. **Reviewer:** Reviews/confirms the confirmation email for a sale order.
+1. **Sales order agent:**
     1. Converts quote to order.
     1. Adds review task with outgoing email confirming order.
-1. Reviewer: Reviews/confirms outgoing email.
-1. Sales order agent: Sends email to customer.
-  
+1. **Reviewer:** Reviews/confirms outgoing email.
+1. **Sales order agent:** Sends email to customer.
+
 ## Next steps
 
 - [Set up the Sales Order Agent](sales-order-agent-setup.md)

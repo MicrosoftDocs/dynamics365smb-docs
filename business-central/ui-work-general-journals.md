@@ -6,19 +6,19 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 07/15/2024
+ms.date: 02/06/2025
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ---
 # Work with general journals
 
-Most financial transactions are posted to the general ledger through documents such as purchase invoices and sales orders. However, you can also process business activities such as:
+Most financial transactions are posted to the general ledger through documents such as purchase invoices and sales orders. However by posting journal lines, you can also process business activities such as:
 
 * Purchasing
 * Payments
 * Using recurring journals to post accruals
-* Refunding employee expenses by posting journal lines in journals  
+* Refunding employee expenses
 
 Most journals are based on the general journal, and you can process all transactions on the **General Journals** page. Learn more at [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 

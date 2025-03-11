@@ -12,7 +12,7 @@ ms.search.keywords: copilot, AI, chat
 ---
 # Responsible AI FAQ for autofill (preview)
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of Copilot’s Autofill feature in Business Central.
 

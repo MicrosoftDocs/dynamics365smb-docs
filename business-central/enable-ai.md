@@ -11,7 +11,6 @@ ms.collection:
   - bap-ai-copilot
 ms.search.form: 7771,7772_Primary,7775_Primary
 ---
-
 # Configure Copilot and AI capabilities
 
 This article explains how to control Microsoft Copilot and other AI capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.

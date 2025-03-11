@@ -221,6 +221,8 @@ Follow these steps if you want to validate a user-defined layout.
 
 ## <a name="troubleshoot"></a>Get information about a layout
 
+[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
+
 Follow these steps if you need to share information about a layout with someone, eg. for troubleshooting errors.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]

@@ -46,6 +46,9 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Replace the current layout file that a report uses with a new version of the layout file. | [Replace a layout](#replace) |
 | Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
+| Validate a layout. | [Validate a layout](#validate) |
+| Delete a (user-defined) layout. | [Delete a layout](#delete) |
+
 
 ## <a name="decide"></a>Decide what type of layout you want
 
@@ -192,13 +195,57 @@ Follow these steps to replace the existing user-defined layout file with a new f
 Follow these steps if you want to change the name and description of a user-defined layout.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-2. Select the layout that you want to rename, and then select the **Edit Info** action.
+1. Select the layout that you want to rename, and then select the **Edit Info** action.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-3. In the **Layout Name**, enter a new name.
-4. Select **OK**.
+1. In the **Layout Name**, enter a new name.
+1. Select **OK**.
+
+
+## <a name="validate"></a>Validate a layout
+
+[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
+
+Follow these steps if you want to validate a user-defined layout.
+
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select the layout that you want to rename, and then select the **Validate** action.
+
+    > [!TIP]
+    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+
+1. This opens up a dialog with validation results.
+
+
+## <a name="troubleshoot"></a>Get information about a layout
+
+Follow these steps if you need to share information about a layout with someone, eg. for troubleshooting errors.
+
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select the layout that you want to gather information for, and then select the **Show layout info** action.
+
+    > [!TIP]
+    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+
+1. In the **Layout information** dialog, select all text and copy it.
+
+
+## <a name="delete"></a>Delete a layout
+
+Follow these steps if you want to delete a user-defined layout.
+
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select the layout that you want to rename, and then select the **Delete** action.
+
+    > [!TIP]
+    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+
+1. In the **Delete layout** dialog, select **Yes**.
+
+
+
 
 ## Related information
 

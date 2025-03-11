@@ -174,9 +174,13 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Shift</kbd>+<kbd>F9</kbd> | Post and print a document. |
 | <kbd>Shift</kbd>+<kbd>F11</kbd> | Apply entries, get source documents, or get warehouse documents. |
 
-## Keyboard shortcuts to autofill fields with Copilot in cards and documents
+## Keyboard shortcuts to autofill fields with Copilot (preview)
 
-Theses shortcuts apply to fields on card and document pages when Autofill fields with Copilot feature is activated. Learn more in [Autofill fields with Copilot](autofill-fields-with-copilot.md).
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+These shortcuts apply to fields on card and document pages when the Autofill fields with Copilot feature is activated. Learn more in [Autofill fields with Copilot](autofill-fields-with-copilot.md).
 
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|

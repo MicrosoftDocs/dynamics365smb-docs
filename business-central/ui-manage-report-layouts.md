@@ -84,11 +84,11 @@ In addition to the type, layouts are further divided into three categories, base
 
    Learn more in [Get Started Creating Report Layouts](ui-get-started-layouts.md).
 
-* Custom layouts
+* Custom layouts (obsolete)
 
-  Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts.
+  Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the now obsolete **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts.
 
-  Learn more in [(Legacy) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
+  Learn more in [(Obsolete) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 Lear more about which type is best for you in [Decide what type of layout you want](ui-get-started-layouts.md#decide).
 

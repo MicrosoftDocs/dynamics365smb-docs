@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# (Legacy) Create and modify custom report layouts
+# (Obsolete) Create and modify custom report layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 

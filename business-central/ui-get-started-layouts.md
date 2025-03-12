@@ -195,13 +195,13 @@ Follow these steps to replace the existing user-defined layout file with a new f
 Follow these steps if you want to change the name and description of a user-defined layout.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-1. Select the layout that you want to rename, and then select the **Edit Info** action.
+2. Select the layout that you want to rename, and then select the **Edit Info** action.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-1. In the **Layout Name**, enter a new name.
-1. Select **OK**.
+3. In the **Layout Name**, enter a new name.
+4. Select **OK**.
 
 ## <a name="validate"></a>Validate a layout
 
@@ -210,12 +210,12 @@ Follow these steps if you want to change the name and description of a user-defi
 To validate a user-defined layout, follow these steps.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-1. Select the layout that you want to rename, and then select the **Validate** action.
+2. Select the layout that you want to rename, and then select the **Validate** action.
 
     > [!TIP]
     > To find a layout, use the Search field, the Filter pane, or column sorting.
 
-1. A dialog opens to show the validation results.
+3. A dialog opens to show the validation results.
 
 ## <a name="troubleshoot"></a>Get information about a layout
 
@@ -224,24 +224,24 @@ To validate a user-defined layout, follow these steps.
 To share information about a layout with someone, for example, to get help troubleshooting an error, follow these steps.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-1. Select the layout that you want to gather information for, and then select the **Show layout info** action.
+2. Select the layout that you want to gather information for, and then select the **Show layout info** action.
 
     > [!TIP]
     > To find a layout, use the Search field, the Filter pane, or column sorting.
 
-1. In the **Layout information** dialog, select all text and then copy it.
+3. In the **Layout information** dialog, select all text and then copy it.
 
 ## <a name="delete"></a>Delete a layout
 
 To delete a user-defined layout, follow these steps.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-1. Select the layout that you want to rename, and then select the **Delete** action.
+2. Select the layout that you want to rename, and then select the **Delete** action.
 
     > [!TIP]
     > To find a layout, use the Search field, the Filter pane, or column sorting.
 
-1. In the **Delete layout** dialog, select **Yes**.
+3. In the **Delete layout** dialog, select **Yes**.
 
 ## Related information
 

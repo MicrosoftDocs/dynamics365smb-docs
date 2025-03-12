@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/10/2025
+ms.date: 03/12/2025
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: bap-template
@@ -31,7 +31,7 @@ Autofill is activated, and you have the required permissions to use it. Learn mo
 
 ## Supported languages
 
-[!INCLUDE[copilot-geo-and-language-availability](includes/copilot-language-support.md)]
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Availability
 

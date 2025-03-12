@@ -51,6 +51,7 @@ The **Financial Reports** page shows how all financial reports follow a pattern 
 - Description
 - Row definition
 - Column definition
+- Internal description (introduced in [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)])
 
 :::image type="content" source="media/financial-reports.png" alt-text="Shows how all financial reports are constructed from a row definition and a column definition." lightbox="media/financial-reports.png":::
 
@@ -79,16 +80,23 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
 1. On the **Financial Reports** page, choose the **New** action to create a new financial report name. Alternatively, to reuse settings from an existing financial report, choose the report, and then choose the **Copy Report Definition** action.
-1. Fill in the report short name (you can't change the name later) and description.
+1. Fill in the report short name (you can't change the name later) and description (in the [!INCLUDE[prod_short](includes/2025_releasewave1_name.md)] this field is called *Display title*).
 1. Choose a row definition and a column definition.
 1. Optionally, choose analysis views for the row and column definitions.
 1. Choose the **View Financial Report** action to access more properties on the financial report.
-1. On the **Options** FastTab, you can edit the report description, change the row and column definitions, and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
+1. On the **Options** FastTab, you can edit the report title, change the row and column definitions, write an internal description (available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later) and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
 1. On the **Dimensions** FastTab, you can define dimension filters for the report.
-1. You can preview the report in the area below the **Dimensions** FastTab.
+1. If you want the report output to include an introductory and/or a closing paragraph, add them from the *Definitions* menu (these fields are available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later).  
+1. You can now preview the report in the area below the **Dimensions** FastTab.
 
 > [!NOTE]
 > When you open a financial report in View or Edit mode, the Filter pane is available. Don't use the Filter pane to set filters for the data in your report. Such filters can cause errors or might not actually filter the data. Instead, use the fields on the **Options** and **Dimensions** FastTabs to set up filters for the report.
+
+### Adding introductory and/or closing paragraphs
+
+[!INCLUDE[prod_short](includes/2025_releasewave1_name.md)] and later).  
+
+If you want the report output to include an introductory and/or a closing paragraph, you can add them from the *Definitions* menu 
 
 ### Create or edit a row definition
 

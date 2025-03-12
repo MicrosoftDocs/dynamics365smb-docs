@@ -1,12 +1,12 @@
 ---
 title: Get started creating report layouts
-description: Learn how to create layouts to personalize the appearance of a report when it's viewed, printed, or saved.
+description: Learn how to create layouts to personalize the appearance of a report when you view, print, or save it.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 12/16/2024
+ms.date: 03/12/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -49,25 +49,23 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Validate a layout. | [Validate a layout](#validate) |
 | Delete a (user-defined) layout. | [Delete a layout](#delete) |
 
-
 ## <a name="decide"></a>Decide what type of layout you want
 
 The first task when you create a layout is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want. You can choose among the **Word**, **Excel**, and **RDLC** layout types. Your choice depends on how you want the generated report to look. It also depends on your knowledge of the software that is used to create the layout, such as Word, Excel, and SQL Server Report Builder.
 
-* **Excel** layouts are generally the easiest to create and modify because the features for summarizing data, adding graphics, and styling are common Excel features.
-* Not all reports have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with **RDLC** or **Word** layouts. The same is true for documents.
+* **Excel** layouts are generally the easiest to create and modify because the features for summarizing data, adding graphics, and styling are common Excel features. However, not all reports have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with **RDLC** or **Word** layouts. The same is true for documents.
 * If you're making only style changes, such as changes to the font type, size, and colors, a **Word** layout is a good choice.
 * The capabilities for adding and rearranging data fields are more advanced in **Word** and **RDLC** layouts than in **Excel** layouts.
-* **Word** and **RDLC** layouts are a good choice for reports that will eventually be printed.
+* **Word** and **RDLC** layouts are a good choice for reports that you might print.
 * The general design concepts for **Word** and **RDLC** layouts are similar. However, each type has specific design features that affect how the generated report looks in [!INCLUDE[prod_short](includes/prod_short.md)]. Therefore, the same report might look different, depending on whether a **Word** layout or an **RDLC** layout is used.
 
 ## <a name="create"></a>Create a new layout
 
 There are different methods for creating a new layout. The easiest methods involve using a copy of an existing layout. For these methods, you can either save the existing layout directly as a copy, or export it and then import it into a new layout. Another, more advanced method is to create a layout from scratch by using a blank layout.
 
-### [Save existing as copy](#tab/copy)
+### [Copy a layout](#tab/copy)
 
-By copying an existing layout, you can quickly create a new layout that is identical to it. You can then make modifications by exporting the new layout.
+Copying an existing layout lets you quickly create a new, identical layout that you can customize to suit your needs.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
@@ -78,14 +76,14 @@ By copying an existing layout, you can quickly create a new layout that is ident
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
 3. In the **Layout Name** field, enter a new name.
-4. Set the **Save Changes to Copy** option to **On**.
+4. Turn on the **Save Changes to Copy** toggle, if it isn't already on.
 5. Select **OK**.
 
     The new layout appears on the **Report Layouts** page.
 
-6. [Make any changes that you want to make to the new layout](#modify).
+If needed, you can change the settings in your new layout. To learn more, go to [Change settings in a new layout](#modify).
 
-### [Export existing as copy and import as new](#tab/export)
+### [Export a copy of a layout, and import it as a new layout](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
@@ -97,7 +95,7 @@ By copying an existing layout, you can quickly create a new layout that is ident
 
 3. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
-    Learn more:
+    To learn more, go to the following articles:
 
     * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
@@ -105,12 +103,12 @@ By copying an existing layout, you can quickly create a new layout that is ident
 
 4. Make the required changes to the file, and then save it.
 5. On the **Report Layouts** page, select **New**.
-6. In the **Add New Layout for a Report** dialog box, set the following fields.
+6. In the **Add New Layout for a Report** dialog box, fill in the fields described in the following table.
 
     | Field | Description | Mandatory |
     |---|---|---|
     | Report ID | Enter the ID that is assigned to the report. | Yes |
-    | Layout Name | Enter a brief descriptive name for the layout to help you easily identify it. | Yes |
+    | Layout Name | Enter a brief, descriptive name for the layout to help you easily identify it. | Yes |
     | Description | Enter more detailed information about the layout. | No |
     | Format Options | Set this field to match the type of the layout (for example, **Word**, **Excel**, or **RDLC**). | Yes |
 
@@ -203,51 +201,45 @@ Follow these steps if you want to change the name and description of a user-defi
 1. In the **Layout Name**, enter a new name.
 1. Select **OK**.
 
-
 ## <a name="validate"></a>Validate a layout
 
 [!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
 
-Follow these steps if you want to validate a user-defined layout.
+To validate a user-defined layout, follow these steps.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to rename, and then select the **Validate** action.
 
     > [!TIP]
-    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+    > To find a layout, use the Search field, the Filter pane, or column sorting.
 
-1. This opens up a dialog with validation results.
-
+1. A dialog opens to show the validation results.
 
 ## <a name="troubleshoot"></a>Get information about a layout
 
 [!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
 
-Follow these steps if you need to share information about a layout with someone, eg. for troubleshooting errors.
+To share information about a layout with someone, for example, to get help troubleshooting an error, follow these steps.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to gather information for, and then select the **Show layout info** action.
 
     > [!TIP]
-    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+    > To find a layout, use the Search field, the Filter pane, or column sorting.
 
-1. In the **Layout information** dialog, select all text and copy it.
-
+1. In the **Layout information** dialog, select all text and then copy it.
 
 ## <a name="delete"></a>Delete a layout
 
-Follow these steps if you want to delete a user-defined layout.
+To delete a user-defined layout, follow these steps.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to rename, and then select the **Delete** action.
 
     > [!TIP]
-    > To find the layout that you want, use the search field, the filter pane, and column sorting.
+    > To find a layout, use the Search field, the Filter pane, or column sorting.
 
 1. In the **Delete layout** dialog, select **Yes**.
-
-
-
 
 ## Related information
 
@@ -255,6 +247,6 @@ Follow these steps if you want to delete a user-defined layout.
 [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)  
 [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)  
 [Run and print reports in Business Central](ui-work-report.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

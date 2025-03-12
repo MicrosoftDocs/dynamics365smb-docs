@@ -53,6 +53,18 @@ The following table lists the permission sets that control whether you can view 
 | View financial reports. | **Account Schedules - View** |
 | Edit financial report definitions, including row and column definitions. | **Account Schedules - Edit** |
 
+<!-- 
+## Telemetry on changes to financial report definitions  
+
+2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
+-->
+
+<!-- 
+## Audit changes to financial report definitions with Microsoft Purview
+
+2025w1: add link to purview administrator article 
+-->
+
 ## Related information
 
 [Prepare financial reporting](bi-how-work-account-schedule.md)  

@@ -37,11 +37,8 @@ On the **Options** FastTab, specify how the report shows data. For example:
 
 - Use the **View by** field to specify the period for which to summarize data. Specifying a period is a good way to make the data more granular.
 - Use the **Date Filter** field to show amounts for a certain data or date range.
-
-<!-- uncomment for 2025w1
-- The **Show All Lines** toggle specifies whether the page should display all lines, or exclude empty lines. This option is only available in 2025 release wave 1 and later.
-- The **** field allows you to define how you want negative numbers to be formatted 
--->
+- The **Show All Lines** toggle specifies whether the page should display all lines, or exclude empty lines (as defined in the row definition). This was introduced in [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)].
+- The **** field allows you to define how you want negative numbers to be formatted (introduced in [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)].)
 
 On the **Dimensions** FastTab, you can choose to filter data according to global dimensions.
 
@@ -51,6 +48,7 @@ On the **Dimensions** FastTab, you can choose to filter data according to global
 ### Show or hide the Row No. field on a report
 
 The **Row No.** field might show when you view a report on-screen. The field doesn't show when you view the report in a PDF. To show or hide the field, personalize the page. To learn more, go to [Personalize your workspace](ui-personalization-user.md).
+
 
 ## Integrate financial reports with Excel
 
@@ -104,6 +102,64 @@ Follow these steps to produce your monthly financial report.
 1. The Excel workbook is updated with data and downloaded to you. Be sure to enable editing to show your changes when opening the workbook.
 1. Save the workbook with a different name than the original template.
 
+
+## Save Excel templates as Excel layouts
+
+[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+
+Instead of saving your Excel templates locally, you can import them into [!INCLUDE[prod_short](includes/prod_short.md)] with the Excel layouts for Financial Reporting feature.
+
+### Manage Excel layouts for a financial report 
+
+To manage Excel layouts for a financial report, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+1. On the **Financial Reports** page, select the financial report to enable with Excel layouts, and then choose the **Definitions** menu.
+1. Choose the **Excel Layouts** action.
+1. This opens the **Financial Report Excel Layouts** page where you can create, import, export, run, and delete layouts.
+
+### Create a new Excel layout for a financial report 
+
+To create a new Excel layout for a financial report, follow these steps:
+
+1. Navigate to the **Financial Report Excel Layouts** page for the report.
+1. To create a new layout, fill in the fields *Code*, *Description*, and *File name*. Now choose the **Run/Export** action to download the Excel template. 
+1. Create your layout using the same methods as described in the [Set up Excel integration for a financial report (create an Excel template)](#set-up-excel-integration-for-a-financial-report-create-an-excel-template) above.
+1. When your layout is ready for testing, close the Excel workbook and choose the **Import** action. Upload your Excel workbook.
+
+### Run a financial report with an Excel layout
+
+To run a financial report with an Excel layout, follow these steps:
+
+1. Navigate to the **Financial Report Excel Layouts** page for the report.
+1. Mark the row with the layout.
+1. Choose the **Run/Export** action.
+
+### Replace an Excel layout for a financial report 
+
+To replace a financial report with a new Excel layout, follow these steps:
+
+1. Navigate to the **Financial Report Excel Layouts** page for the report.
+1. Mark the row with the layout.
+1. Choose the **Import** action. Upload the new Excel workbook.
+
+### Define a default Excel layout for a financial report 
+
+To define a default Excel layout for a financial report, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+1. On the **Financial Reports** page, select the financial report, and then choose the **Options** FastTab.
+1. In the **Default Excel Layout** field, choose the default Excel layout for the report.
+
+### Run a financial report with a default Excel layout
+
+To run a financial report with a default Excel layout, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+1. On the **Financial Reports** page, select the financial report, and then choose the **Export to Excel/Print** Menu.
+1. Choose the **Open in Excel (using layout)** action.
+
+
 ## Print and save financial reports
 
 You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files.
@@ -113,6 +169,8 @@ You can print financial reports using your device's printing services. [!INCLUDE
 1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. In the **Printer** field, select the device to which the report is sent.
     1. The **(Handled by the browser)** option indicates that a printer isn't specified for the report. In this case, the browser handles the printout and displays the standard printing steps. You can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or the app for Teams.
+1. In the **Layouts** field, you can choose between layouts for portrait or landscape orientation. This was introduced in [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)].)
+1. If you want to control how negative numbers show in the report output (in PDF), you can go to the **Options** FastTab and choose your preferred format, minus sign or parenthesis, with the *Negative Amount Format* option. This will override any default format defined on the report.
 1. Choose the **Print** action.
 
 > [!TIP]
@@ -131,6 +189,9 @@ You can save a financial report in file formats such as PDF. [!INCLUDE[prod_shor
 ## Related information
 
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
+<!-- 
+2025w1: add link to administrator article for Financial Report Usage telemetry
+-->
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

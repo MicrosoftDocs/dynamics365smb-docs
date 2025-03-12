@@ -84,7 +84,7 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
 1. Choose a row definition and a column definition.
 1. Optionally, choose analysis views for the row and column definitions.
 1. Choose the **View Financial Report** action to access more properties on the financial report.
-1. On the **Options** FastTab, you can edit the report title, change the row and column definitions, write an internal description (available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later) and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
+1. On the **Options** FastTab, you can edit the report title, change the row and column definitions, write an internal description or set the formatting for negative numbers (available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later), and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierarchy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
 1. On the **Dimensions** FastTab, you can define dimension filters for the report.
 1. If you want the report output to include an introductory and/or a closing paragraph, add them from the *Definitions* menu (these fields are available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later).  
 1. You can now preview the report in the area below the **Dimensions** FastTab.
@@ -94,9 +94,16 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
 
 ### Adding introductory and/or closing paragraphs
 
-[!INCLUDE[prod_short](includes/2025_releasewave1_name.md)] and later).  
+[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
 
-If you want the report output to include an introductory and/or a closing paragraph, you can add them from the *Definitions* menu 
+If you want the report output to include an introductory and/or a closing paragraph, you can add them from the *Definitions* menu. When exporting the report to PDF or Excel, these paragraphs will be added before and after the report body.
+
+### Choosing a format for negative numbers
+
+[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+
+If you want to control how negative numbers show in the report output (both on-screen and in PDF), you can go to the **Options** FastTab and choose your preferred format, minus sign or parenthesis, with the *Negative Amount Format* option. 
+
 
 ### Create or edit a row definition
 
@@ -109,17 +116,20 @@ Row definitions also provide settings for formatting your report. Most of the op
 
 To learn more, go to [Row definitions in financial reporting](bi-row-definitions.md).
 
+
 ### Create or edit a column definition
 
 Use column definitions to specify the columns to include in the report. For example, you can design a report layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns in a column definition. For example, multiple columns are useful for displaying budgets for 12 months with a column that shows the total.
 
 To learn more, go to [Column definitions in financial reporting](bi-column-definitions.md).
 
+
 ## Using dimensions in financial reports
 
 In financial analysis, a dimension is data you add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. You can use dimensions on entries in journals, documents, and budgets.
 
 Each dimension describes the focus of analysis. So, a two-dimensional analysis, for example, would be sales per area. By using more than two dimensions when you create an entry, you can carry out a more complex analysis. An example of a complex analysis is exploring sales per sales campaign per customer group per area. That gives you greater insight into your business, such as how well your business is operating, where it is or isn't thriving, and where you should allocate more resources. That insight helps you make more informed business decisions. To learn more, go to [Work with Dimensions](finance-dimensions.md).
+
 
 ## Set up financial reports with overviews
 
@@ -169,7 +179,7 @@ To learn more about how to import or export financial report row or column defin
 
 You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
 
-To learn more, go to [How to integrate financial reports with Excel](./finance-financial-reporting-view-a-report.md#integrate-financial-reports-with-excel).
+To learn more, go to [How to integrate financial reports with Excel](finance-financial-reporting-view-a-report.md#integrate-financial-reports-with-excel).
 
 ## Print and save financial reports
 
@@ -183,6 +193,9 @@ To learn more, go to [How to print and save financial reports](./finance-financi
 [View a financial report](finance-financial-reporting-view-a-report.md)  
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Column definitions in financial reporting](bi-column-definitions.md)  
+<!-- 
+2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
+-->
 [Financial Reporting Auditing](finance-financial-reporting-auditing.md)   
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Financial analytics overview](bi.md)  

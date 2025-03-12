@@ -67,7 +67,9 @@ There are different methods for creating a new layout. The easiest methods invol
 
 Copying an existing layout lets you quickly create a new, identical layout that you can customize to suit your needs.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+
+   The **Report Layouts** page lists all layouts that are available for all reports.
 2. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
 
     If you select an extension layout, you're asked whether you want to edit a copy of it. Select **Yes**.
@@ -85,7 +87,7 @@ If needed, you can change the settings in your new layout. To learn more, go to 
 
 ### [Export a copy of a layout, and import it as a new layout](#tab/export)
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
 
     The layout file is downloaded to your device.
@@ -125,7 +127,7 @@ To view how the report looks with the new layout, select the layout in the list,
 
 When you create a new layout from a blank layout, you must design it completely. The layout file provides all the report fields that you can add and arrange as you require.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select any layout that is for the same report that you want use the new layout for.
 3. Select **New**.
 4. In the **Add New Layout for a Report** dialog box, set the following fields.
@@ -150,17 +152,17 @@ When you create a new layout from a blank layout, you must design it completely.
 
 Follow these steps to modify an existing user-defined layout.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select the layout that you want to modify, and then select the **Export Layout** action.
 
-    The layout file is downloaded to your device.
+    The layout file downloads to your device.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
 3. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
-    Learn more:
+    To learn more, go to the following articles:
 
     * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
@@ -179,7 +181,7 @@ Follow these steps to modify an existing user-defined layout.
 
 Follow these steps to replace the existing user-defined layout file with a new file.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select the existing layout, and then select the **Replace Layout** action.
 3. Select **OK** and then **Choose** to open File Explorer on your device.
 4. Find and select the Excel file, and then select **Open**.
@@ -192,7 +194,7 @@ Follow these steps to replace the existing user-defined layout file with a new f
 
 Follow these steps if you want to change the name and description of a user-defined layout.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 1. Select the layout that you want to rename, and then select the **Edit Info** action.
 
     > [!TIP]
@@ -207,7 +209,7 @@ Follow these steps if you want to change the name and description of a user-defi
 
 To validate a user-defined layout, follow these steps.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 1. Select the layout that you want to rename, and then select the **Validate** action.
 
     > [!TIP]
@@ -221,7 +223,7 @@ To validate a user-defined layout, follow these steps.
 
 To share information about a layout with someone, for example, to get help troubleshooting an error, follow these steps.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 1. Select the layout that you want to gather information for, and then select the **Show layout info** action.
 
     > [!TIP]
@@ -233,7 +235,7 @@ To share information about a layout with someone, for example, to get help troub
 
 To delete a user-defined layout, follow these steps.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 1. Select the layout that you want to rename, and then select the **Delete** action.
 
     > [!TIP]

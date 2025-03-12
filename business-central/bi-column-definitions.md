@@ -102,9 +102,6 @@ To calculate by regular time periods, enter a formula in the **Comparison Date F
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
-[!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
-
-
 ## See where a column definition is used
 
 [!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
@@ -115,6 +112,11 @@ To understand in which reports a column definition is used, follow these steps:
 1. Choose the **Where-Used** action. This opens a list of reports that use the definition.
 
 Knowing the usage of a column definition prior to updating it helps you determine the impact of your change.
+
+## Best practices for working with column definitions
+
+[!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs2.md)]
+
 
 ## Import or export financial report column definitions
 

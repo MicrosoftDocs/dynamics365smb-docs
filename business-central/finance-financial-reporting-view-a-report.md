@@ -187,11 +187,10 @@ You can save a financial report in file formats such as PDF. [!INCLUDE[prod_shor
 1. To generate a scheduled or recurring financial report, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For recurring financial reports, set the **Earliest Start Date/Time** and **Expiration Date/Time** fields with the first and last date, respectively, to generate the financial report. Also, select the days on which to generate the report by filling in the **Next Run Date Formula** field. To learn more about date formulas, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 ## Related information
-
-[Prepare financial reporting](bi-how-work-account-schedule.md)  
 <!-- 
 2025w1: add link to administrator article for Financial Report Usage telemetry
 -->
+[Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

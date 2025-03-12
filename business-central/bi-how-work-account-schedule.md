@@ -189,13 +189,12 @@ To learn more, go to [How to print and save financial reports](./finance-financi
 
 
 ## See also
-
-[View a financial report](finance-financial-reporting-view-a-report.md)  
-[Row definitions in financial reporting](bi-row-definitions.md)  
-[Column definitions in financial reporting](bi-column-definitions.md)  
 <!-- 
 2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
 -->
+[View a financial report](finance-financial-reporting-view-a-report.md)  
+[Row definitions in financial reporting](bi-row-definitions.md)  
+[Column definitions in financial reporting](bi-column-definitions.md)  
 [Financial Reporting Auditing](finance-financial-reporting-auditing.md)   
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Financial analytics overview](bi.md)  

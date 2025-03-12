@@ -179,11 +179,11 @@ To import or export financial report row definitions, follow these steps:
 1. Choose the row definition, then choose the **Import Row Definition** or **Export Row Definition** action, depending on what you want to do.
 
 ## Related information
-
-[Column definitions in financial reporting](bi-column-definitions.md)  
 <!-- 
 2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
 -->
+
+[Column definitions in financial reporting](bi-column-definitions.md)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  
 [Finance](finance.md)  

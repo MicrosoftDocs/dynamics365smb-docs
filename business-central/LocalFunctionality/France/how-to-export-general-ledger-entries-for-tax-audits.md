@@ -28,7 +28,7 @@ If you do not close your fiscal year or do not run the **Close Year** action bef
 > -   ValidDate = Start date specified on the report's request page  
 
 > [!NOTE]  
->  Before exporting general ledger entries, make sure you have marked G/L Accounts to be detailed when exporting opening balances. This is usually a requirement for bank, customer and vendor G/L Accounts. This is done by enabling the checkbox in the field **Detailed Balance** on th **G/L Account Card** page.
+>  Before exporting general ledger entries, make sure you have marked G/L Accounts to be detailed when exporting opening balances. This is usually a requirement for bank, customer and vendor G/L Accounts. This is done by enabling the checkbox in the field **Detailed Balance** on the **G/L Account Card** page.
 >   
 
 ## To export general ledger entries to a text file for a tax audit  

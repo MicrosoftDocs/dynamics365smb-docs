@@ -115,7 +115,7 @@ Knowing the usage of a column definition prior to updating it helps you determin
 
 ## Best practices for working with column definitions
 
-[!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs2.md)]
+<!-- [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs2.md)] -->
 
 
 ## Import or export financial report column definitions

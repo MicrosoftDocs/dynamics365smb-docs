@@ -14,7 +14,7 @@ ms.search.form: 7771,7772_Primary,7775_Primary
 
 # Configure Copilot and agent capabilities
 
-This article explains how to control Microsoft Copilot and other AI capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.
+This article explains how to control Microsoft Copilot and agent capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.
 
 Copilot is a system feature and an integral part of Business Central. Like most system features, you don't grant access to individual users, and you can't turn Copilot on or off. However, Copilot offers data governance controls and the option to deactivate individual Copilot and AI capabilities for each environment. There are different levels of access control for AI capabilities, depending on the feature:
 

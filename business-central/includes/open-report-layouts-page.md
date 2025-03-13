@@ -3,4 +3,4 @@ ms.service: dynamics-365-business-central
 ---
 1. Choose the ![Lightbulb that opens the Tell Me feature 0.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
-   The **Report Layouts** page lists all layouts that are available for all reports.
+   The **Report layouts** page lists all available layouts for reports.

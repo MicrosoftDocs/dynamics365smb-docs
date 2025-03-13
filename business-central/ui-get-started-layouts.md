@@ -68,7 +68,6 @@ There are different methods for creating a new layout. The easiest methods invol
 Copying an existing layout lets you quickly create a new, identical layout that you can customize.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-
    The **Report Layouts** page lists all layouts that are available for all reports.
 
 1. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
@@ -86,7 +85,7 @@ Copying an existing layout lets you quickly create a new, identical layout that 
 
 If needed, you can change the settings in your new layout. To learn more, go to [Change settings in a new layout](#modify).
 
-### [Export a copy of a layout, and import it as a new layout](#tab/export)
+### [Export a layout copy and import it as a new layout](#tab/export)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature. 0](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 1. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
@@ -98,7 +97,7 @@ If needed, you can change the settings in your new layout. To learn more, go to 
 
 1. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
-    To learn more, go to the following articles:
+    Learn more in the following articles:
 
     * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
@@ -163,7 +162,7 @@ Follow these steps to modify an existing user-defined layout.
 
 3. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
-    To learn more, go to the following articles:
+    Learn more in the following articles:
 
     * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)

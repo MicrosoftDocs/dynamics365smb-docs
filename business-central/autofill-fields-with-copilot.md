@@ -62,7 +62,7 @@ Review the suggestion for each field and take appropriate action. Suggestions ar
 
 You can also use the **Keep all** button in the upper right corner of the page to accept or discard suggestions on all fields.
 
-When you leave the page, any unaccepted suggestions are automatically discarded.
+When you leave the page while there are unaccepted suggestions, Copilot asks you to accept or discard suggestions first.
 
 <!--The first time you use Copilot, you're asked to accept the terms to continue.-->
 

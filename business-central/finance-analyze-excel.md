@@ -56,7 +56,7 @@ The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_sho
 
 ## Alternative to obsolete reports
 
-Explore other ways to analyze your finance data. Learn more on [Financial analytics overview](bi.md).
+Explore other ways to analyze your finance data. Learn more in [Financial analytics overview](bi.md).
 
 ## Related information
 

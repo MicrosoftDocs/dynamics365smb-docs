@@ -67,8 +67,7 @@ There are different methods for creating a new layout. The easiest methods invol
 
 Copying an existing layout lets you quickly create a new, identical layout that you can customize.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-   The **Report Layouts** page lists all layouts that are available for all reports.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)] The **Report Layouts** page lists all layouts that are available for all reports.
 
 1. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
 
@@ -205,7 +204,7 @@ Follow these steps if you want to change the name and description of a user-defi
 
 ## <a name="validate"></a>Validate a layout
 
-[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
+<!--[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]-->
 
 To validate a user-defined layout, follow these steps.
 

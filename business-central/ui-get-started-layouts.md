@@ -68,7 +68,6 @@ There are different methods for creating a new layout. The easiest methods invol
 Copying an existing layout lets you quickly create a new, identical layout that you can customize.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)] The **Report Layouts** page lists all layouts that are available for all reports.
-
 1. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
 
     If you select an extension layout, you're asked whether you want to edit a copy of it. Select **Yes**.
@@ -180,7 +179,7 @@ Follow these steps to modify an existing user-defined layout.
 
 Follow these steps to replace the existing user-defined layout file with a new file.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature. 0](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select the existing layout, and then select the **Replace Layout** action.
 3. Select **OK** and then **Choose** to open File Explorer on your device.
 4. Find and select the Excel file, and then select **Open**.

@@ -55,7 +55,7 @@ Word layouts are based on Word documents (.docx file type). Word layouts enable 
 
 <!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-To learn more, go to [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
+Learn more in [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
 
 ### Excel
 
@@ -63,7 +63,7 @@ Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let
 
 [![Shows the an example of an Excel layout.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
 
-To learn more, go to [Work with Excel Layouts](ui-excel-report-layouts.md).
+Learn more in [Work with Excel Layouts](ui-excel-report-layouts.md).
 
 ### RDLC
 
@@ -71,13 +71,13 @@ RDLC layouts are based on client report definition layout files (.rdl or .rdlc f
 
 [![Shows the an example of an RDLC layout.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
 
-To learn more, go to [Work with RDLC Layouts](ui-rdlc-report-layouts.md).
+Learn more in [Work with RDLC Layouts](ui-rdlc-report-layouts.md).
 
 ### External
 
-An external layout type refers to an advanced type that's designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout varies depending on the provider.
+An external layout type refers to an advanced type designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout varies depending on the provider.
 
-To learn more, go to [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
+Learn more in [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
 ## Layout sources
 
@@ -91,13 +91,13 @@ In addition to the type, layouts are further divided into three categories, base
 
    The other source of layouts is the people who use [!INCLUDE [prod_short](includes/prod_short.md)]. People with the right permissions can add new layouts in various ways. For example, you could start from an existing extension layout or a user-defined layout. You can identify user-defined layouts on the **Report Layouts** page because the **Extension** column is blank.
 
-   To learn more, go to [Get Started Creating Report Layouts](ui-get-started-layouts.md).
+   Learn more in [Get Started Creating Report Layouts](ui-get-started-layouts.md).
 
 * Custom layouts (obsolete)
 
   Custom layouts are also layouts that users create. The difference is that these layouts are created from the now obsolete **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts.
 
-  To learn more, go to [(Obsolete) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
+  Learn more in [(Obsolete) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 To learn more about which type is best for you, go to [Decide what type of layout you want](ui-get-started-layouts.md#decide).
 
@@ -125,7 +125,7 @@ For information about how to switch the layout currently used on a report, see [
 
 ## View report layout lifecycle telemetry
 
-You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send data to an Application Insights resource in Microsoft Azure about the actions users take on report layouts, like adding, modifying, deleting, and more. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. To learn more, go to the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
+You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send data to an Application Insights resource in Microsoft Azure about the actions users take on report layouts, like adding, modifying, deleting, and more. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. Learn more in the following articles of the Developer and IT Pro help:
 
 * [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 * [Analyzing report layout lifecycle telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace?toc=/dynamics365/business-central/toc.json)

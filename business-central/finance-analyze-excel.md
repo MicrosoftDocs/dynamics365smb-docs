@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027,
-ms.date: 12/06/2024
+ms.date: 02/13/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -13,8 +13,7 @@ ms.reviewer: bholtorf
 # Analyzing financial statements in Microsoft Excel (obsolete)
 
 > [!NOTE]
-> This feature is being deprecated and will be removed in a later version of [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). To learn more about alternative finance reporting, go to [Financial analytics overview](bi.md).
-
+> This feature is deprecated and will be removed in a later [!INCLUDE [prod_short](includes/prod_short.md)] release. Learn more in [Deprecated features in the base app](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). Learn more about alternative finance reporting in [Financial analytics overview](bi.md).
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides KPIs and get overviews of your company's finances. The following are examples of ways to analyze KPIs and overviews in Excel:
 
@@ -55,14 +54,13 @@ Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-
 
 The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_short.md)], and you can push changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. However, the ability to push data back to the database is not available for the financial reports you can view in Excel.  
 
-## Alternative to the obsolete reports
+## Alternative to obsolete reports
 
-There are several other ways to analyze your finance data. To learn more, go to [Financial analytics overview](bi.md).
+Explore other ways to analyze your finance data. Learn more on [Financial analytics overview](bi.md).
 
+## Related information
 
-## See also
-
-[Financial analytics overview](bi.md)   
+[Financial analytics overview](bi.md)  
 [Viewing and Editing in Excel From Business Central](across-work-with-excel.md)  
 [Finance overview](finance.md)  
 

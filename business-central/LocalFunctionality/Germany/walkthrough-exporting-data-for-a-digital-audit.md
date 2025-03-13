@@ -145,20 +145,20 @@ Next, Sean adds the **G/L Entry** table to the source and then adds fields from 
 
     |Field number|Field name|  
     |------------------|----------------|  
-    |1|**No.**|  
-    |2|**Name**|  
-    |4|**Account Type.**|  
-    |31|**Balance at Date**|  
-    |32|**Net Change**|  
+    |**1**|**No.**|  
+    |**2**|**Name**|  
+    |**4**|**Account Type.**|  
+    |**31**|**Balance at Date**|  
+    |**32**|**Net Change**|  
 
 1. On the **Data Export Record Source** page, select the line for the **G/L Entry** table, and then in the **Fields** pane, in the toolbar, choose the **Add** action.  
 1. Choose the following fields, and then choose the **OK** button.  
 
     |Field number|Field name|  
     |------------------|----------------|  
-    |4|**Posting Date**|  
-    |5|**Document Type**|  
-    |17|**Amount**|  
+    |**4**|**Posting Date**|  
+    |**5**|**Document Type**|  
+    |**17**|**Amount**|  
 
 Sean added the **Posting Date** field from the **G/L Entry** table because Cassie needs the data to be filtered based on the posting date. Now, Sean uses the field to specify the field on the **G/L Entry** table that uses to calculate the period for the data export.  
 
@@ -188,11 +188,11 @@ Next, Sean adds the **Customer** and **Vendor** tables.
 
     |Field number|Field name|  
     |------------------|----------------|  
-    |1|**No.**|  
-    |2|**Name**|  
-    |21|**Customer Posting Group**|  
-    |59|**Balance (LCY)**|  
-    |61|**Net Change (LCY)**|  
+    |**1**|**No.**|  
+    |**2**|**Name**|  
+    |**21**|**Customer Posting Group**|  
+    |**59**|**Balance (LCY)**|  
+    |**61**|**Net Change (LCY)**|  
 
 1. Repeat the previous two steps to add the **Balance (LCY)** field again.  
 1. Choose the line for the first instance of the **Balance (LCY)** field, and then, in the **Datefilter Handling** field, choose **Startdate**.  
@@ -203,12 +203,12 @@ Next, Sean adds the **Customer** and **Vendor** tables.
 
     |**Field No.**|**Field Name**|**Field Class**|**Datefilter Handling**|**Export Field Name**|  
     |---------------------------------------|----------------------------------------|-----------------------------------------|-------------------------------------------------|------------------------------------------------|  
-    |1|**No.**|**Normal**||**No**|  
-    |2|**Name**|**Normal**||**Name**|  
-    |21|**Customer Posting Group**|**Normal**||**CustomerPostingGroup**|  
-    |59|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
-    |59|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
-    |61|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
+    |**1**|**No.**|**Normal**||**No**|  
+    |**2**|**Name**|**Normal**||**Name**|  
+    |**21**|**Customer Posting Group**|**Normal**||**CustomerPostingGroup**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
+    |**61**|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
 
     > [!TIP]  
     > To change the order of the fields, select a field, and then choose the **Move Up** or the  **Move Down** action.  
@@ -231,12 +231,12 @@ Sean added the **Customer** table to the data export source. Now, he adds the **
 
     |**Field No.**|**Field Name**|**Field Class**|**Datefilter Handling**|**Export Field Name**|  
     |---------------------------------------|----------------------------------------|-----------------------------------------|-------------------------------------------------|------------------------------------------------|  
-    |1|**No.**|**Normal**||**No**|  
-    |2|**Name**|**Normal**||**Name**|  
-    |21|**Vendor Posting Group**|**Normal**||**VendorPostingGroup**|  
-    |59|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
-    |59|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
-    |61|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
+    |**1**|**No.**|**Normal**||**No**|  
+    |**2**|**Name**|**Normal**||**Name**|  
+    |**21**|**Vendor Posting Group**|**Normal**||**VendorPostingGroup**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
+    |**59**|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
+    |**61**|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
 
 Sean almost completes the setup, but wants to verify that the data export source meets the technical requirements of the auditors' tool.  
 

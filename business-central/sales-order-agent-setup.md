@@ -8,6 +8,7 @@ ms.author: dmitrych
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 4400_Primary, 4410
 ---
 # Set up Sales Order Agent (preview)
 
@@ -17,8 +18,8 @@ The Sales Order Agent in Business Central automates processing sales orders from
 
 Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
-[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Prerequisites
 
@@ -37,11 +38,11 @@ Before configuring and activating the sales order agent, ensure the following pr
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Sales Order Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 
-- Turn on the Sales Order Agent capability
+## Turn on the Sales Order Agent capability
 
-   The agent capability is already on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
+The agent capability is already on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
 
-   If not, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+If not, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 
 Next, configure and activate the agent so it can process customer sales orders.
 
@@ -140,4 +141,4 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 [Sales order agent overview](sales-order-agent.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
-[Configure Copilot and AI capabilities](enable-ai.md)
+[Configure Copilot and AI capabilities](enable-ai.md)  

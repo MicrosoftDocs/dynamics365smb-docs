@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 01/14/2025
+ms.date: 03/11/2025
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -69,7 +69,8 @@ The following table lists the permissions that are required to use the Copilot f
 
 | Copilot feature | Required permissions |
 |---|---|
-| Analysis assist | The **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat | There are no permissions or permission sets that control access to chat on a per-user basis. If chat is activated, it's available to all users. |
 | Suggest substitute items| Permission on page 7410 **Item Subst. Suggestion** and page 7411 **Item Subst. Suggestion Sub**.|
@@ -94,14 +95,16 @@ Business Central doesn't yet offer granular, object-level permissions so that on
 
 ## Next steps
 
-For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent)
+For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
 
 For other Copilot features, you're ready to try them out. Learn more in the following articles:
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
 - [Analyze list data with Copilot](analysis-assist.md)
+- [Autofill fields with Copilot (preview)](autofill-fields-with-copilot.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
@@ -111,6 +114,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  
+[FAQ for autofill with Copilot (preview)](faqs-autofill.md)  
 [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  

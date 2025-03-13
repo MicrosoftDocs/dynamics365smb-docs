@@ -222,16 +222,15 @@ Validate a user-defined layout to check for problems and view the results. Follo
 
 <!--[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]-->
 
-View information 
-To share information about a layout with someone, for example, to get help troubleshooting an error, follow these steps.
+View information about the layout, such as its ID, the report it's based on, and when it was created and last modified. This information is useful for troubleshooting. Follow these steps to view layout information.
 
 1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-1. Select the layout that you want to gather information for, and then select the **Show layout info** action.
+1. Select the layout you want to gather information for, and then select the **Show layout info** action.
 
     > [!TIP]
-    > To find a layout, use the Search field, the Filter pane, or column sorting.
+    > To find a layout, use the search field, the filter pane, or column sorting.
 
-1. In the **Layout information** dialog, select all text and then copy it.
+1. In the **Layout information** dialog, select the text and copy it to share with others.
 
 ## <a name="delete"></a>Delete a layout
 

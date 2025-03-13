@@ -47,7 +47,7 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
 | Validate a layout. | [Validate a layout](#validate) |
-| Delete a user-defined layout. | [Get information about a layout](#get-information-about-a-layout) |
+| View information about a layout. | [Get information about a layout](#get-information-about-a-layout) |
 | Delete a user-defined layout. | [Delete a layout](#delete) |
 
 ## <a name="decide"></a>Decide what type of layout you want

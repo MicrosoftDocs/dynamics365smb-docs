@@ -28,7 +28,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 ## Prerequisites
 
-- An administrator must activate the **Analyze list** capability on the **Copilot & agent capabilities** page and grand users permissions to use analysis mode. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).  
+- An administrator must activate the **Analyze list** capability on the **Copilot & agent capabilities** page and grand users permissions to use analysis mode. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).  
 
 ## Get started
 

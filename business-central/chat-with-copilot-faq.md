@@ -20,7 +20,7 @@ This article answers some common questions about chatting with Copilot in [!INCL
 
 ## Can admins grant or deny permission to individual users to get access to chat?
 
-No, there's no permission or permission set for chat. If chat is activated on the [Copilot and AI capabilities](enable-ai.md) page, every user in an environment has access to chat.
+No, there's no permission or permission set for chat. If chat is activated on the [Copilot and agent capabilities](enable-ai.md) page, every user in an environment has access to chat.
 
 ## Is chat available on tablet, phone, or other form factors?
 
@@ -71,7 +71,7 @@ Microsoft Learn online service endpoints are available in the US, Switzerland, a
 
 If your Business Central environment is deployed to any other Azure geography, Business Central connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. In this case, when you use chat to ask for explanations on how to do things in Business Central, only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography, where they're processed and not stored for more than one day.
 
-To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and AI capabilities](enable-ai.md#activate-features).
+To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
 
 ## What can I do if the chat pane doesn't show?
 

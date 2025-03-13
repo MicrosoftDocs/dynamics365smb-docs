@@ -32,7 +32,7 @@ Information about products is stored in multiple places in [!INCLUDE [prod_short
 
 ## Prerequisites
 
-- Your administrator must activate the **Create product information** capability on the **Copilot & agent capabilities** page. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
+- Your administrator must activate the **Create product information** capability on the **Copilot & agent capabilities** page. [Learn more about how to configure Copilot and agent capabilities](enable-ai.md).
 - You're familiar with creating and managing product (item) information.
 
 ## Suggest item substitutions on item substitution entries
@@ -60,5 +60,5 @@ After Copilot suggests the items to add, review the suggestions and decide wheth
 ## Related information
 
 [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)  
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)

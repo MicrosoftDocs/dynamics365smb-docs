@@ -39,7 +39,7 @@ Sales line suggestion can assist with creating lines on sales documents such as 
 
 ## Prerequisites
 
-- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & AI** page. Learn more at [Configure Copilot and AI capabilities](enable-ai.md).
+- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & AI** page. Learn more at [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## Examples of prompts
 
@@ -127,4 +127,4 @@ This step confirms that you want to transfer the lines to a sales document. You 
 ## Related information
 
 [FAQ for Sales Line Suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-[Configure Copilot and AI capabilities](enable-ai.md)
+[Configure Copilot and agent capabilities](enable-ai.md)

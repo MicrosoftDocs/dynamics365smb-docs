@@ -1,6 +1,6 @@
 ---
-title: Troubleshoot Copilot and AI capabilities
-description: Learn how to fix common issues that you might encounter while working with Copilot and AI capabilities in Business Central.
+title: Troubleshoot Copilot and agent capabilities
+description: Learn how to fix common issues that you might encounter while working with Copilot and agent capabilities in Business Central.
 author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
@@ -11,9 +11,9 @@ ms.date: 11/11/2024
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
 ---
-# Troubleshoot Copilot and AI capabilities
+# Troubleshoot Copilot and agent capabilities
 
-Copilot is an AI-powered functionality in Business Central that assists in various tasks like drafting marketing text and reconciling bank accounts. If you're experiencing trouble with Copilot or other AI capabilities, this article can help you identify and fix common issues.
+Copilot is an AI-powered functionality in Business Central that assists in various tasks like drafting marketing text and reconciling bank accounts. If you're experiencing trouble with Copilot or other agent capabilities, this article can help you identify and fix common issues.
 
 ## Copilot doesn't appear on pages
 
@@ -27,7 +27,7 @@ If Copilot functionality, such as the **Draft with Copilot** action for marketin
 
 When you try to use Copilot and you get an error similar to **Sorry, Copilot is not activated for \[feature\]**, there are a couple things to check:
 
-- First, make sure that the feature is activated on the **Copilot & agent capabilities** page. [Learn more about activating Copilot and AI capabilities](enable-ai.md#activate-features). 
+- First, make sure that the feature is activated on the **Copilot & agent capabilities** page. [Learn more about activating Copilot and agent capabilities](enable-ai.md#activate-features). 
 - Next, make sure that privacy notice statement for Azure OpenAI integration isn't set to **Disagree for everyone**. If it is, change it to **Agree for everyone**. [Learn more about privacy notices](privacy-notices-status.md).
 
 ## Copilot capabilities from Microsoft not listed on Copilot & agent capabilities page
@@ -36,6 +36,6 @@ If none of the AI features from Microsoft are shown in the **Copilot & agent cap
 
 ## Related information
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Marketing text suggestions with Copilot](ai-overview.md)  
 [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  

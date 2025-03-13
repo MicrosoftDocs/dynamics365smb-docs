@@ -109,5 +109,5 @@ Each time Copilot provides suggestions, you can provide feedback to Microsoft di
 
 ## See also
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)

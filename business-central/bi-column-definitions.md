@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/10/2024
+ms.date: 03/13/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 488_Primary, 489_Primary, 490, 764, 765, 766
@@ -21,10 +21,9 @@ Use column definitions to specify the columns to include in a report. For exampl
 To create a new column definition, follow these steps:
 
 1. On the **(Financial Report) Column Definitions** page, choose the **New** action.
-1. Provide a unique name (code) for the defition
-1. Provide a descriptive name for the definition in the *Description* field. This description is not shown on the final report but is used to provide context when using the definition.
-1. Provide an internal description for the definition (available from the [!INCLUDE[2025_releasewave1_name](includes/2025_releasewave1_name.md)] and later)
-
+1. Provide a unique name for the definition.
+1. In the **Description** field, provide a descriptive name for the definition. This description provides context when you use the definition, but doesn't show on the report.
+1. Provide an internal description for the definition.
 
 ## Edit the content of a column definition
 
@@ -33,10 +32,12 @@ To edit the content of a column definition, follow these steps.
 > [!NOTE]
 > Printed, previewed, and saved versions of a financial report display a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.
 
-1. On the **(Financial Report) Column Definitions** page, select the relevant definition, and then choose the **Edit Column Definition** action.
-1. On the **Column Definition** page, create a row for each column of financial data that should be shown in the financial report. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. On the **(Financial Report) Column Definitions** page, select the definition, and then choose the **Edit Column Definition** action.
+1. On the **Column Definition** page, create a row for each column of financial data that should show in the financial report. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. Choose **OK**.
-1. Open the **Financial Report** page from time to time to verify the new column definition works as intended.
+
+> [!TIP]
+> Open the **Financial Report** page from time to time to verify that the new column definition works as intended.
 
 ## Built-in column definitions
 
@@ -102,21 +103,18 @@ To calculate by regular time periods, enter a formula in the **Comparison Date F
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
-## See where a column definition is used
+## Find the reports that use a column definition
 
 [!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
 
-To understand in which reports a column definition is used, follow these steps:
+Before you change a column definition, it can be helpful to know which reports use it so that you understand the effect of your change. To find out which reports use a column definition, follow these steps:
 
-1. On the **(Financial Report) Column Definitions** page, select the relevant definition, and then choose the **Edit Column Definition** action.
-1. Choose the **Where-Used** action. This opens a list of reports that use the definition.
-
-Knowing the usage of a column definition prior to updating it helps you determine the impact of your change.
+1. On the **(Financial Report) Column Definitions** page, select the definition, and then choose the **Edit Column Definition** action.
+1. To open a list of reports that use the definition, choose the **Where-Used** action.
 
 ## Best practices for working with column definitions
 
 <!-- [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs2.md)] -->
-
 
 ## Import or export financial report column definitions
 

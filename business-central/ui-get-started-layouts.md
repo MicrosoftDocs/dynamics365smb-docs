@@ -1,6 +1,6 @@
 ---
 title: Get started creating report layouts
-description: Learn how to create layouts to personalize the appearance of a report when you view, print, or save it.
+description: Learn how to create and customize report layouts in Dynamics 365 Business Central. Personalize your reports for viewing, printing, or saving.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -47,17 +47,17 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
 | Validate a layout. | [Validate a layout](#validate) |
-| Delete a (user-defined) layout. | [Delete a layout](#delete) |
+| Delete a user-defined layout. | [Delete a layout](#delete) |
 
 ## <a name="decide"></a>Decide what type of layout you want
 
 The first task when you create a layout is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want. You can choose among the **Word**, **Excel**, and **RDLC** layout types. Your choice depends on how you want the generated report to look. It also depends on your knowledge of the software that is used to create the layout, such as Word, Excel, and SQL Server Report Builder.
 
-* **Excel** layouts are generally the easiest to create and modify because the features for summarizing data, adding graphics, and styling are common Excel features. However, not all reports have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with **RDLC** or **Word** layouts. The same is true for documents.
+* **Excel** layouts are generally the easiest to create and modify because summarizing data, adding graphics, and styling are common Excel features. However, not all reports have datasets optimized for Excel layouts. Aggregations and complex calculations work best with **RDLC** or **Word** layouts. The same applies to documents.
 * If you're making only style changes, such as changes to the font type, size, and colors, a **Word** layout is a good choice.
 * The capabilities for adding and rearranging data fields are more advanced in **Word** and **RDLC** layouts than in **Excel** layouts.
-* **Word** and **RDLC** layouts are a good choice for reports that you might print.
-* The general design concepts for **Word** and **RDLC** layouts are similar. However, each type has specific design features that affect how the generated report looks in [!INCLUDE[prod_short](includes/prod_short.md)]. Therefore, the same report might look different, depending on whether a **Word** layout or an **RDLC** layout is used.
+* **Word** and **RDLC** layouts are good choices for printable reports.
+* The design concepts for **Word** and **RDLC** layouts are similar, but each has specific features that affect the report's appearance in [!INCLUDE[prod_short](includes/prod_short.md)]. The same report might look different depending on whether a **Word** or **RDLC** layout is used.
 
 ## <a name="create"></a>Create a new layout
 
@@ -65,21 +65,22 @@ There are different methods for creating a new layout. The easiest methods invol
 
 ### [Copy a layout](#tab/copy)
 
-Copying an existing layout lets you quickly create a new, identical layout that you can customize to suit your needs.
+Copying an existing layout lets you quickly create a new, identical layout that you can customize.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature. 0](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 
    The **Report Layouts** page lists all layouts that are available for all reports.
-2. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
+
+1. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
 
     If you select an extension layout, you're asked whether you want to edit a copy of it. Select **Yes**.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-3. In the **Layout Name** field, enter a new name.
-4. Turn on the **Save Changes to Copy** toggle, if it isn't already on.
-5. Select **OK**.
+1. In the **Layout Name** field, enter a new name.
+1. Turn on the **Save Changes to Copy** toggle, if it isn't already on.
+1. Select **OK**.
 
     The new layout appears on the **Report Layouts** page.
 
@@ -88,14 +89,14 @@ If needed, you can change the settings in your new layout. To learn more, go to 
 ### [Export a copy of a layout, and import it as a new layout](#tab/export)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature. 0](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-2. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
+1. Select the layout that you want to copy for the new layout, and then select the **Export Layout** action.
 
     The layout file is downloaded to your device.
 
     > [!TIP]
     > To find the layout that you want, use the search field, the filter pane, and column sorting.
 
-3. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
+1. Open the layout file in the appropriate application, such as Word (for a .docx file) or Excel (for an .xlsx file).
 
     To learn more, go to the following articles:
 
@@ -103,9 +104,9 @@ If needed, you can change the settings in your new layout. To learn more, go to 
     * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
     * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
 
-4. Make the required changes to the file, and then save it.
-5. On the **Report Layouts** page, select **New**.
-6. In the **Add New Layout for a Report** dialog box, fill in the fields described in the following table.
+1. Make the required changes to the file, and then save it.
+1. On the **Report Layouts** page, select **New**.
+1. In the **Add New Layout for a Report** dialog box, fill in the fields described in the following table.
 
     | Field | Description | Mandatory |
     |---|---|---|
@@ -114,8 +115,8 @@ If needed, you can change the settings in your new layout. To learn more, go to 
     | Description | Enter more detailed information about the layout. | No |
     | Format Options | Set this field to match the type of the layout (for example, **Word**, **Excel**, or **RDLC**). | Yes |
 
-7. Select **OK**.
-8. Follow one of these steps to upload the layout file for the report:
+1. Select **OK**.
+1. Follow one of these steps to upload the layout file for the report:
 
     [!INCLUDE[file-upload](includes/file-upload.md)]
 

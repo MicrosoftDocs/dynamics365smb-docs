@@ -79,7 +79,7 @@ Repeat these steps if you want to add another set of project planning lines. You
 
 ## Issue a credit memo for a project
 
-When a credit is due to a customer for something you invoiced for a project, you can create a credit memo to reimburse them. You can issue a credit memo for job planning lines of the types **Contract* or **Both Schedule and Contract. This ensures that job planning always reflects the correct planned invoice/credit memo lines for the project prior to posting sales invoices and credit memos.
+When a credit is due to a customer for something you invoiced for a project, you can create a credit memo to reimburse them. You can issue a credit memo for job planning lines of the types **Billable** or **Both Budget and Billable**. This credit memo ensures that job planning always reflects the correct planned invoice/credit memo lines for the project before you post sales invoices and credit memos. To learn more about sales credit memos, go to [Process sales returns or cancellations](sales-how-process-sales-returns-cancellations.md).
 
 To issue a credit memo for a planning line, follow these steps:
 
@@ -90,7 +90,9 @@ To issue a credit memo for a planning line, follow these steps:
 1. Choose the **Project Planning Lines** action.
 1. Create a new planning line, and enter the same information as the line you want to credit. However, in the **Quantity** field, enter the same quantity but as a negative value. For example, if the quantity you want to credit is 10, enter a quantity of -10.
 1. Choose the **Create Sales Credit Memo** action.
-1. On the **Project Transfer to Credit Memo** page, fill in the fields as necessary, and then choose *OK**.
+1. On the **Project Transfer to Credit Memo** page, fill in the fields as necessary, and then choose **OK**.
+1. To review and post the credit memo, on the **Project Planning Lines** page, choose the **Sales invoices/credit memos** action.
+1. On the **Sales Credit Memo** page, review the details. If it looks good, post the memo. 
 
 ## Related information
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary
-ms.date: 03/12/2025
+ms.date: 03/13/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -47,6 +47,7 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
 | Validate a layout. | [Validate a layout](#validate) |
+| Delete a user-defined layout. | [Get information about a layout](#get-information-about-a-layout) |
 | Delete a user-defined layout. | [Delete a layout](#delete) |
 
 ## <a name="decide"></a>Decide what type of layout you want
@@ -67,7 +68,7 @@ There are different methods for creating a new layout. The easiest methods invol
 
 Copying an existing layout lets you quickly create a new, identical layout that you can customize.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 
    The **Report Layouts** page lists all layouts for all reports.
 1. Select the layout that you want to copy for the new layout, and then select the **Edit Info** action.
@@ -127,7 +128,7 @@ To view how the report looks with the new layout, select the layout in the list,
 
 When you create a new layout from a blank layout, you must design it completely. The layout file provides all the report fields that you can add and arrange as you require.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select any layout that is for the same report that you want use the new layout for.
 1. Select **New**.
 1. In the **Add New Layout for a Report** dialog box, set the following fields.
@@ -152,7 +153,7 @@ When you create a new layout from a blank layout, you must design it completely.
 
 Follow these steps to modify an existing user-defined layout.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to modify, and then select the **Export Layout** action.
 
     The layout file downloads to your device.
@@ -181,7 +182,7 @@ Follow these steps to modify an existing user-defined layout.
 
 Follow these steps to replace the existing user-defined layout file with a new file.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the existing layout, and then select the **Replace Layout** action.
 1. Select **OK** and then **Choose** to open File Explorer on your device.
 1. Find and select the Excel file, and then select **Open**.
@@ -194,7 +195,7 @@ Follow these steps to replace the existing user-defined layout file with a new f
 
 Follow these steps if you want to change the name and description of a user-defined layout.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to rename, and then select the **Edit Info** action.
 
     > [!TIP]
@@ -207,23 +208,24 @@ Follow these steps if you want to change the name and description of a user-defi
 
 <!--[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]-->
 
-To validate a user-defined layout, follow these steps.
+Validate a user-defined layout to check for problems and view the results. Follow these steps to validate a layout.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
-1. Select the layout that you want to rename, and then select the **Validate** action.
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. Select the layout you want to validate, and then select the **Validate** action.
 
     > [!TIP]
-    > To find a layout, use the Search field, the Filter pane, or column sorting.
+    > To find a layout, use the Search field, Filter pane, or column sorting.
 
 1. A dialog opens to show the validation results.
 
-## <a name="troubleshoot"></a>Get information about a layout
+## Get information about a layout
 
-[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]
+<!--[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]-->
 
+View information 
 To share information about a layout with someone, for example, to get help troubleshooting an error, follow these steps.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to gather information for, and then select the **Show layout info** action.
 
     > [!TIP]
@@ -235,7 +237,7 @@ To share information about a layout with someone, for example, to get help troub
 
 To delete a user-defined layout, follow these steps.
 
-1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)].
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout that you want to delete, and then select the **Delete** action.
 
     > [!TIP]

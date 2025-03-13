@@ -121,7 +121,7 @@ ms.service: dynamics-365-business-central
 #### [Set the layout used by a report](ui-set-report-layout.md)
 #### [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md)
 #### [Available fonts](ui-fonts.md)
-#### Use legacy features
+#### Use obsolete features
 ##### [Create and modify custom report layouts](ui-how-create-custom-report-layout.md)
 ##### [Import and export custom report layouts](ui-how-import-and-export-report-layout.md)
 ##### [Update custom report layouts](ui-update-report-layouts.md)

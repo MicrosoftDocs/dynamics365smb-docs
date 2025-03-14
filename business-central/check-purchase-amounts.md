@@ -31,8 +31,6 @@ If the total amount on the document differs from the total amount of its lines, 
 
 ## Related information
   
-[Set up validation of purchase amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
-
 [Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

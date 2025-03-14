@@ -1684,7 +1684,6 @@ ms.service: dynamics-365-business-central
 #### Purchasing
 ##### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 ##### [Edit document amounts in purchase invoices and credit memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
-##### [Set up validation of purchase amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 #### General
 ##### [CMR notes](LocalFunctionality/Netherlands/cmr-notes.md)
 ##### [Dutch postal codes](LocalFunctionality/Netherlands/dutch-post-codes.md)
@@ -2071,6 +2070,7 @@ ms.service: dynamics-365-business-central
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 #### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
+#### [Set up validation of purchase amounts](how-to-set-up-validation-of-purchase-amounts.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)

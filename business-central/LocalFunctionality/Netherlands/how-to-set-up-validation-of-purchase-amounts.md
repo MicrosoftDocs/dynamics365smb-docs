@@ -1,48 +1,47 @@
 ---
-title: Set Up Validation of Purchase Amounts [NL]
-description: Activate the Check Doc. Total Amounts function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo.
+title: Set up validation of purchase amounts
+description: You can validate the total amount on purchase invoices and credit memos before you post the documents.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 06/25/2021
+ms.date: 03/14/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Set Up Validation of Purchase Amounts in the Dutch Version
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can activate the **Check Doc. Total Amounts** function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo. By default, the purchase document total amount is validated when you post. The total amount of the inserted purchase lines must be equal to the amount including VAT and the VAT amount. To validate the purchase document amount automatically, you must enter the document amount including VAT and the document amount VAT in the **Purchase Invoice** or **Purchase Credit Memo** page.  
+# Set up validation of purchase amounts
 
-If you have only one purchase line or several purchase lines with the same VAT percentage, the correct document amount VAT is calculated automatically when you insert the purchase lines and the document amount including VAT. If you have several purchase lines with different VAT percentages, the document amount VAT value must be changed manually.  
+> [!NOTE]
+> Businesses around the world can benefit from this functionality, so in 2025 release wave 1 we moved it out of the Dutch version and made it available to everyone.
 
-You can also locate when the document total amounts and the total amounts of the inserted purchase lines are different. You can activate the **Show Totals on Purch. Inv./CM.** option to view the following in the inserted purchase lines:  
+You can validate the total amount on purchase invoices and credit memos before you post the documents. You can turn on the **Check Doc. Total Amounts** toggle on the **Purchases & Payables Setup** page. By default, [!INCLUDE [prod_short](../../includes/prod_short.md)] validates the total amount when you post the document. The total amount of the purchase lines must equal the amount including VAT and the VAT amount. To validate the amount automatically, you must enter the document amount including VAT and the document amount VAT on the **Purchase Invoice** or **Purchase Credit Memo** page.  
 
-- Total amount  
-- Total base amount  
-- Total VAT amount  
-- Total amount including VAT  
+If you have only one purchase line, or several purchase lines with the same VAT percentage, the correct document amount VAT is calculated automatically when you add the purchase lines and the document amount including VAT. If you have several purchase lines with different VAT percentages, you must manually change the document amount VAT value.  
 
-The calculated amounts are displayed in the purchase invoice or purchase credit memo. By default, this total amount is not displayed.  
+If the total amount on the document differs from the total amount of its lines, you can add a few values to the page that can help you find out why. You can add the total amount, total base amount, total VAT amount, and total amount including VAT values. The values display at the bottom of the document. To avoid clutter on the page during daily work, these values are hidden. To add these values to the document, turn on the **Show Totals on Purch. Inv.-CM.** toggle on the **Purchases & Payables Setup** page.  
 
-You can activate this option only if the purchase invoice or purchase credit memo has:  
+You can turn on this option only if the purchase invoice or purchase credit memo has:  
 
 - A minimum of one purchase line.  
 - The quantity field specified.  
 
 ## To set up validation of total amounts for purchase documents  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
-2.  On the **General** FastTab, fill in the fields as described in the following table.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
+2. On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Show Totals on Purch. Inv./CM.**|Select to recalculate the totals on all purchase invoices and credit memos. This can take more time depending on the number of documents that must be recalculated.|  
-    |**Check Doc. Total Amounts**|Select to modify the **Doc. Amount Incl. VAT** and **Doc. Amount VAT** fields in the **Purchase Invoice** and **Purchase Credit Memo** pages.|  
+    |**Show Totals on Purch. Inv./CM.**|Recalculate the totals on all purchase invoices and credit memos. Depending on how many documents you have, the recalculation can take some time.|  
+    |**Check Doc. Total Amounts**|Verify the **Doc. Amount Incl. VAT** and **Doc. Amount VAT** fields on the purchase invoices and credit memos.|  
 
-3.  Choose the **OK** button.  
+3. Choose the **OK** button.  
 
-## See Also  
+## Related information
+
+[Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)  
+[Setting Up Purchases](../../sales-how-work-standard-lines.md)  
+
 [Netherlands Local Functionality](netherlands-local-functionality.md)  
-[Setting Up Purchases](../../sales-how-work-standard-lines.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

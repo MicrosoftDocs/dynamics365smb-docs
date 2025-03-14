@@ -954,7 +954,12 @@
         },
         {
             "source_path": "business-central/manufacturing-powerbi-avergage-production-times.md",
-            "redirect_url": "/business-central/manufacturing-powerbi-average-production-times.md",
+            "redirect_url": "/dynamics365/business-central/manufacturing-powerbi-average-production-times.md",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/localfunctionality/netherlands/check-purchase-amounts.md",
+            "redirect_url": "/dynamics365/business-central/check-purchase-amounts",
             "redirect_document_id": "false"
          }
         

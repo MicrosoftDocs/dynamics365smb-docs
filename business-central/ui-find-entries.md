@@ -2,11 +2,10 @@
 title: Finding Related Entries for Documents
 description: Learn how to find documents, business contacts, and item entries that are related to each other.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: find
-ms.search.form: 344
+ms.search.form: 344_Primary
 ms.date: 05/23/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central

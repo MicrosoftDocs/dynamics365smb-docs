@@ -104,7 +104,14 @@ If you want to set up multiple alternate resource prices based on the standard p
 
 ### Allow multiple people to post resource transactions at the same time
 
-To allow people to post transactions for resources at the same time, you can enable the **Enable multiple users to post resource ledger entries at the same time** feature update on the **Feature Management** page. By default, the feature isn’t enabled.
+To allow people to post transactions for resources at the same time, enable the **Enable multiple users to post resource ledger entries at the same time** feature update on the **Feature Management** page. By default, the feature isn’t enabled.
+
+> [!NOTE]
+> Similar features are available for project, inventory, and warehouse entries. To learn more, go to:
+>
+> * [Allow multiple people to post project transactions at the same time](projects-how-setup-jobs.md#allow-multiple-people-to-post-project-transactions-at-the-same-time)
+> * [Allow workers to post inventory transactions at the same time](inventory-how-setup-general.md#allow-workers-to-post-transactions-at-the-same-time)
+> * [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 
 If you enable the feature, [!INCLUDE [prod_short](includes/prod_short.md)] assigns entry numbers for each table from `SequenceNumbers` in the database, which allows people to post transactions at the same time. The result can be that sometimes entries from two or more transactions are interleaved.
 

@@ -37,9 +37,16 @@ To learn more about costing in general, go to [Managing Inventory Costs](finance
 
 If you want to include warehouse handling times in the order promising calculation on purchase lines, you can set it up as a default for inventory on the **Inventory Setup** page, and for your location. To learn more, go to [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).  
 
-## Allow workers to post inventory transactions at the same time
+## Allow workers to post transactions at the same time
 
 To allow people to post inventory transactions at the same time, you can enable the **Enable multiple users to post item ledger entries and value entries at the same time** feature on the **Feature Management** page. By default, the feature isn’t enabled.
+
+> [!NOTE]
+> Similar features are available for project, resource, and warehouse entries. To learn more, go to:
+>
+> * [Allow multiple people to post project transactions at the same time](projects-how-setup-jobs.md#allow-multiple-people-to-post-project-transactions-at-the-same-time)
+> * [Allow multiple people to post resource transactions at the same time](projects-how-setup-resources.md#allow-multiple-people-to-post-resource-transactions-at-the-same-time)
+> * [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 
 If you enable the feature, [!INCLUDE [prod_short](includes/prod_short.md)] assigns entry numbers for each table from `SequenceNumbers` in the database, which allows more people to post transactions at the same time. The result can be that sometimes inventory entries from two or more transactions are interleaved. For example, an item register might contain any or all of the entry tables, as shown in the following image.
 

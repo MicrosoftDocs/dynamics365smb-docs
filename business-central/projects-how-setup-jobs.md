@@ -120,6 +120,13 @@ One aspect of planning projects is deciding which posting accounts to use for pr
 
 To allow people to post transactions for projects at the same time, you can enable the **Enable multiple users to post job ledger entries at the same time** feature update on the **Feature Management** page. By default, the feature isn’t enabled.
 
+> [!NOTE]
+> Similar features are available for resource, inventory, and warehouse entries. To learn more, go to:
+>
+> * [Allow multiple people to post resource transactions at the same time](projects-how-setup-resources.md#allow-multiple-people-to-post-resource-transactions-at-the-same-time)
+> * [Allow workers to post inventory transactions at the same time](inventory-how-setup-general.md#allow-workers-to-post-transactions-at-the-same-time)
+> * [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
+
 If you enable the feature, [!INCLUDE [prod_short](includes/prod_short.md)] assigns entry numbers for each table from `SequenceNumbers` in the database, which allows people to post transactions at the same time. The result can be that sometimes entries from two or more transactions are interleaved.
 
 There's a similar feature for inventory transactions. An item register might contain any or all of the entry tables, as shown in the following image.

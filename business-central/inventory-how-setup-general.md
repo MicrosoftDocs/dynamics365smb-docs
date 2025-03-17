@@ -39,9 +39,9 @@ If you want to include warehouse handling times in the order promising calculati
 
 ## Allow workers to post inventory transactions at the same time
 
-To allow people to post inventory transactions at the same time, you can enable the **Concurrent Inventory Posting** feature on the **Feature Management** page. By default, the feature isn’t enabled.
+To allow people to post inventory transactions at the same time, you can enable the **Enable multiple users to post item ledger entries and value entries at the same time** feature on the **Feature Management** page. By default, the feature isn’t enabled.
 
-If you enable the feature, [!INCLUDE [prod_short](includes/prod_short.md)] assigns entry numbers for each table from SequenceNumbers in the database, which allows more people to post transactions at the same time. The result can be that sometimes inventory entries from two or more transactions are interleaved. For example, an item register might contain any or all of the entry tables, as shown in the following image.
+If you enable the feature, [!INCLUDE [prod_short](includes/prod_short.md)] assigns entry numbers for each table from `SequenceNumbers` in the database, which allows more people to post transactions at the same time. The result can be that sometimes inventory entries from two or more transactions are interleaved. For example, an item register might contain any or all of the entry tables, as shown in the following image.
 
 :::image type="content" source="media/interleaved inventory tables.png" alt-text="Screenshot that shows the item register with several entry tables." lightbox="media/interleaved inventory tables.png":::
 

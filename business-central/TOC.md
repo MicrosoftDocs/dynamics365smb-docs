@@ -2566,6 +2566,8 @@ ms.service: dynamics-365-business-central
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
 ### [Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)
+## Summarize (preview)
+### [Responsible AI FAQ for summarize](faqs-summarize.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)

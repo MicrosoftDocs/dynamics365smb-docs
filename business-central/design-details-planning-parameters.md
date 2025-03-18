@@ -40,8 +40,6 @@ The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty
 
 On the **Manufacturing Setup** page, you should set the default safety lead time to at least one day. The due date of the demand might be known, but not the due time. The planning schedules backward to meet gross demand. If you don't define a safety lead time, the goods might arrive too late to meet the demand.  
 
-If you discover that you need the supply before the due date that planning set, you can manually reschedule the production order. To do that, you must turn on the **Manual Scheduling** toggle on the **Manufacturing Setup** page. If needed, in the **Safety Lead Time for Manual Scheduling** field, you can also specify an amount of buffer time to add to the end date when you manually reschedule a production order. You can move the due date to the current date or a future date, or change the end date directly by changing the starting date.
-
 The **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period** fields also play a role in defining when to reorder. To learn more, go to [Optimize When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## Define how much to reorder

@@ -78,7 +78,7 @@ To set up the E-Document Service, follow these steps.
    | Embed document PDF to export| Specify whether to embed a PDF version of the e-document in the e-document file when you export.|
 
    > [!NOTE]
-   > The **Embed document PDF to export** option can make life a little easier. When you post a document, [!INCLUDE [prod_short](includes/prod_short.md)] creates a PDF file and embeds it as an attachment in the PEPPOL format to provide a human-readable version in addition to the full XML.  
+   > The **Embed document PDF to export** option can make life a little easier. When you post a document, [!INCLUDE [prod_short](includes/prod_short.md)] creates a PDF file and embeds it as a PDF attachment in the e-document. The PDF is a human-readable version that's easier to understand than the full XML of the PEPPOL format.
 
 ### Supported document types
 

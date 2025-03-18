@@ -28,7 +28,7 @@ The following table describes what happens when items or variants are blocked.
 
 When you use the **Copy from Document** action to create new documents based on existing documents, you're notified if items or variants on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
-## To block an item or item variant  
+## To block an item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Depending on what you want to do, select the item, and then turn on one or more of the following toggles:
@@ -36,18 +36,19 @@ When you use the **Copy from Document** action to create new documents based on 
     * **Sales Blocked**
     * **Service Blocked**
     * **Purchasing Blocked**  
-    * **Production Blocked**
+3. To block the item from use in production output, fill in the **Production Blocked** field.
 
 ## To block an item variant  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Select the item that has a variant you want to block, choose **Variants**, and then turn on one or more of the following toggles:  
+2. Select the item that has a variant you want to block, choose **Variants**, and then select one or more of the following checkboxes:  
 
     * **Blocked**
     * **Sales Blocked**
     * **Service Blocked**
     * **Purchasing Blocked**  
-    * **Production Blocked**
+
+3. To block the item from use in production output, fill in the **Production Blocked** field.
 
 ## Related information  
 

@@ -98,14 +98,11 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 
 #### Manually import invoices  
 
-To manually import external e-documents, follow these steps:
+To manually import one or more external e-documents, follow these steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Service**, and then select the related link.
-2. On the **E-Document Service** page, select the active service.
-3. Select **Receive**, and upload the e-document file that you got from the vendor.
-4. If an error message displays, open the e-document to fix the issues.
-5. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
-6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.  
+1. On the **E-Documents** page, choose the **New From File** action.
+1. On the **E-Document Services** page, choose the service, and then upload the documents.
 
 #### Work with attachments  
 
@@ -199,14 +196,6 @@ To get a better overview of all e-documents in the company, you can select the *
   - Processed
     - In Progress
     - Error
-
-## Manually import e-documents
-
-To manually import one or more external e-documents, follow these steps:
-
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.  
-1. On the **E-Documents** page, choose the **New From File** action.
-1. On the **E-Document Services** page, choose the service, and then upload the documents.
 
 ## Related information
 

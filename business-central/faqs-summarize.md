@@ -53,21 +53,13 @@ To ensure customer safety and data protection, this feature underwent rigorous t
 
 ## How does Microsoft monitor the quality of generated content?
 
-Microsoft has various automated systems in place to ensure that output from Copilot is of the highest quality. Automated systems also detect abuse, and ensure safety for our customers and their data by filtering
-harmful content.
+Microsoft has various automated systems in place to ensure that output from Copilot is of the highest quality. Automated systems also detect abuse, and ensure safety for our customers and their data by filtering harmful content.
 
-Microsoft might disable Copilot features for specific customers if abuse
-is detected.
+Microsoft might disable Copilot features for specific customers if abuse is detected.
+ 
+Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, you can also report it to Microsoft by using this feedback form: Report abuse. We analyze user feedback on the feature and use it to help us improve responses.
 
-Users have the opportunity to provide feedback to every Copilot response
-and report inaccurate or inappropriate content to help Microsoft improve
-this feature. If you encounter inappropriate content, you can also
-report it to Microsoft by using this feedback form: Report abuse. We
-analyze user feedback on the feature and use it to help us improve
-responses.
-
-You provide feedback by using the like (thumbs up) or dislike (thumbs
-down) icons that are displayed alongside generated content.
+You provide feedback by using the like (thumbs up) or dislike (thumbs down) icons that are displayed alongside generated content.
 
 ## What are the AI limitations of Summarize? How can users minimize the impact of the limitations when using the system?
 
@@ -78,21 +70,21 @@ to review and verify responses before making decisions that could affect stakeho
 
 - Geographic and language availability
 
-    This Copilot feature is available in all supported Business Central countries/regions. However, the feature uses Microsoft Azure OpenAI
-    Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where
-    Azure OpenAI Service isn't available, administrators must allow data to move across geographies. Learn more at Copilot data movement across geographies.
-    
-    This feature was validated and is supported in English language. While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience.
-    
-    Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+  This Copilot feature is available in all supported Business Central countries/regions. However, the feature uses Microsoft Azure OpenAI
+  Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where
+  Azure OpenAI Service isn't available, administrators must allow data to move across geographies. Learn more at Copilot data movement across geographies.
+  
+  This feature was validated and is supported in English language. While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience.
+  
+  Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 - Certain industry, product, and subject limitations
 
-    Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot due to the sensitive nature of that domain. 
+  Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot due to the sensitive nature of that domain. 
 
 - Summaries about people
 
-    Summaries about people, such as customers, vendors or employees in Business Central, may result in limited output from Copilot due to additional safety mechanisms designed to reduce risk of inaccuracies. Even though Copilot is not designed to provide recommendations or conclusions about people, your should use your judgment to review and verify responses before making decisions.
+  Summaries about people, such as customers, vendors or employees in Business Central, may result in limited output from Copilot due to additional safety mechanisms designed to reduce risk of inaccuracies. Even though Copilot is not designed to provide recommendations or conclusions about people, your should use your judgment to review and verify responses before making decisions.
 
 ## What data does Summarize collect and how is it used?
 

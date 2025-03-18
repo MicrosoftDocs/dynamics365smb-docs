@@ -2,14 +2,15 @@
 title: Use e-documents in the purchase process
 description: Learn how to use the e-document functionality that is related to purchase invoices and orders.
 author: altotovi
+ms.author: altotovi
+ms.reviewer: soumramani
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 01/21/2025
-ms.author: altotovi
+ms.date: 03/18/2025
 ms.service: dynamics-365-business-central
-ms.reviewer: soumramani
+ms.custom: bap-template
+
 ---
 
 # Use e-documents in the purchases process
@@ -24,10 +25,7 @@ The following purchase documents can be used with e-documents functionality:
 - General journals
 
 > [!NOTE]
->
-> From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.
-> [!NOTE]
-> When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
+> You can connect purchase orders with received e-documents. When you receive an electronic document from a specific vendor, [!INCLUDE [prod_short](includes/prod_short.md)] matches the e-document with the vendor by verifying the following information in this order:
 >
 > 1. **GLN** (from the Vendor card)
 > 1. **VAT Registration No.** (from the Vendor card)
@@ -44,13 +42,13 @@ Follow these steps to configure vendors to work properly with incoming electroni
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
 2. Choose the vendor you want to configure.
-3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document to be generated from the received e-document.
+3. On the **Receiving** FastTab, in the **Receive E-Document To** field, specify the default purchase document to generate from the received e-document.
 
    > [!NOTE]
    >
-   > - In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
+   > - In the **Receive E-Document To** field, you can either select a **Purchase Invoice** or **Purchase Order** based on what you want to create from the received e-invoice. This selection doesn't affect the creation of corrective documents. In both scenarios, [!INCLUDE [prod_short](includes/prod_short.md)] generates a credit memo.
    >
-   > - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.
+   > - If you choose the **Purchase Order** option in the **Receive E-Document To** field, [!INCLUDE [prod_short](includes/prod_short.md)] tries to update an existing purchase order. If the purchase order for the vendor on the received e-document doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new purchase order. It creates the order using the same approach as when it creates new purchase invoices. To learn more, go to [To work with purchase invoices](#to-work-with-purchase-invoices).
 
 4. Choose one of the options you want to use for the selected vendor.
 5. Close the page.
@@ -66,7 +64,7 @@ Every time a **Job Queue** is selected to run, if the external service has incom
 
 1. After the batch job finishes running, the newly imported invoices are listed on the **E-Documents** page, together with their basic detail information.
 2. To view more details, open a specific e-document.
-3. If there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if it's configured on the **Vendor Card** page (that the system automatically created). To open the document, select the link.
+3. If there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if it's configured on the **Vendor Card** page (that [!INCLUDE [prod_short](includes/prod_short.md)] automatically created). To open the document, select the link.
 
    > [!NOTE]
    > This system-created document isn't the posted document.
@@ -85,6 +83,15 @@ There are two common errors:
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.
 
+### Recreate a deleted purchase invoice or credit memo
+
+Mistakes happen, so it's important to be able to fix them quickly. If you accidentally delete a purchase invoice or credit memo and can't link the incoming e-document to the correct one, you can now recreate a new purchase document based on details in the e-document. Problem solved, and you can go take care of other business.
+
+If you accidentally delete a purchase invoice or credit memo, you can't proceed with the e-document connection with the regular purchase document in Business Central. To get yourself unstuck, you can run the **Recreate Document** action from the e-document. The action creates an unposted purchase invoice or credit memo based on the type of incoming document, its information, and the G/L mapping or item references used.
+
+> [!NOTE]
+> The action works only with unposted purchase invoices and credit memos. It doesn't work for purchase orders.
+
 #### To map text on an e-document to a specific vendor account
 
 To map lines with expenses for E-Documents, you need to map description with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
@@ -93,7 +100,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 
 1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 2. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
-3. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
+3. In the **Vendor No.** field, enter the vendor to create the purchase document or journal line for.
 4. In the **Debit Acc. No.** field, enter the debit-type G/L account that is inserted on resulting purchase document or journal line of type G/L Account.
 
    > [!NOTE]
@@ -134,6 +141,7 @@ You can match your received electronic documents with purchase orders' lines fro
 
 > [!TIP]
 > There are two ways to match lines. One way is to do it manually, as described in the article. The other way is to use the **E-document matching assistance with Copilot**. The E-document matching assistance feature helps you match received electronic invoices with existing purchase order lines by using large language modules (LLM) model. Learn more about using Copilot in [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
+
 > [!NOTE]
 > If the VAT percentage differs between the incoming document and the company's VAT percentage, matching documents can't be used in a multi-country environment.  
 
@@ -207,12 +215,12 @@ To get a better overview of all e-documents in the company, you can select the *
 
 ## Related information
 
-- [Set up e-documents](finance-how-setup-edocuments.md)
-- [Use e-document in the sales process](finance-how-use-edocuments.md)
-- [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-- [Financial Management](finance.md)
-- [Invoice sales](sales-how-invoice-sales.md)
-- [Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)
-- [Work with Business Central](ui-work-product.md)
+[Set up e-documents](finance-how-setup-edocuments.md)  
+[Use e-document in the sales process](finance-how-use-edocuments.md)  
+[Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Financial Management](finance.md)  
+[Invoice sales](sales-how-invoice-sales.md)  
+[Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

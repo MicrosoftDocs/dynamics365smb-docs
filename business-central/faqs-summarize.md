@@ -15,8 +15,7 @@ ms.search.keywords: copilot, AI, chat
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of
-Copilot’s summarize feature in Business Central.
+These frequently asked questions (FAQ) describe the AI impact of Copilot’s summarize feature in Business Central.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

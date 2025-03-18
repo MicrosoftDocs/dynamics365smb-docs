@@ -40,7 +40,8 @@ To set up the E-Document Service, follow these steps.
 
     | Field | Description |
     |-------|-------------|
-    | Automatic Import | Specify whether documents should be automatically imported from the service. |    
+    | Automatic Import | Specify whether documents should be automatically imported from the service. |
+    | Automatic processing| Specify whether [!INCLUDE [prod_short](includes/prod_short.md)] uses your e-document setup to automatically create a purchase document based on the received e-document. If you choose **No**, [!INCLUDE [prod_short](includes/prod_short.md)] creates the e-document, but you must review its details before you create the purchase document. |
     | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
     | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
     | Lookup Item Reference | Specify whether to search for items by item reference during import. |

@@ -24,10 +24,7 @@ The following purchase documents can be used with e-documents functionality:
 - General journals
 
 > [!NOTE]
->
-> From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.
-> [!NOTE]
-> When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
+> When you receive an electronic document from a vendor, [!INCLUDE [prod_short](includes/prod_short.md)] tries to match this e-document with the vendor by verifying the following information in this order:
 >
 > 1. **GLN** (from the Vendor card)
 > 1. **VAT Registration No.** (from the Vendor card)
@@ -36,7 +33,7 @@ The following purchase documents can be used with e-documents functionality:
 
 ## E-documents in purchases
 
-The receipt of purchase e-documents in Dynamics 365 Business Central can be done as a batch job or manually.  
+You can receive purchase e-documents manually, or by using the **Receive** batch job.  
 
 ### Set up vendors to work with different purchase documents  
 
@@ -87,6 +84,11 @@ Every time a job queue entry runs, if the external service has incoming invoices
    1. On the **Received purchase document data** page, review the details. If things look good, choose **OK**.
    1. To process the invoice, follow the steps described for **Automatic processing**.
 
+   > [!TIP]
+   > When you receive an incoming e-document, it's typically in XML or similar format that can be difficult, if not impossible, to read. For example, if you aren't technical and don't understand the XML format, it might be hard to review an invoice before you process it. To make it easier for everyone to review incoming e-documents, invoices and credit memos have an **E-invoice Lines** FastTab that displays details from the imported file, such as line and header information, in a way that's easy to understand.
+   >
+   > The preview feature is only available for invoice and credit memo types of incoming e-documents.
+
 ### Handle errors and warnings
 
 Because errors in the sales process are mostly related to the availability of the service, the incoming document can contain multiple reasons. The most common reason for an error is that the system can't recognize the lines on the e-document that you got from your vendor. Therefore, it can't enter lines in your purchase invoice.
@@ -106,7 +108,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 
 1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 2. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
-3. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
+3. In the **Vendor No.** field, enter the vendor to create the purchase document or journal line for.
 4. In the **Debit Acc. No.** field, enter the debit-type G/L account that is inserted on resulting purchase document or journal line of type G/L Account.
 
    > [!NOTE]
@@ -220,12 +222,12 @@ To get a better overview of all e-documents in the company, you can select the *
 
 ## Related information
 
-- [Set up e-documents](finance-how-setup-edocuments.md)
-- [Use e-document in the sales process](finance-how-use-edocuments.md)
-- [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-- [Financial Management](finance.md)
-- [Invoice sales](sales-how-invoice-sales.md)
-- [Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)
-- [Work with Business Central](ui-work-product.md)
+[Set up e-documents](finance-how-setup-edocuments.md)  
+[Use e-document in the sales process](finance-how-use-edocuments.md)  
+[Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Financial Management](finance.md)  
+[Invoice sales](sales-how-invoice-sales.md)  
+[Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

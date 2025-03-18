@@ -2,32 +2,27 @@
 title: Use e-documents in the purchase process
 description: Learn how to use the e-document functionality that is related to purchase invoices and orders.
 author: altotovi
+ms.author: altotovi
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 01/21/2025
-ms.author: altotovi
-ms.service: dynamics-365-business-central
-ms.reviewer: soumramani
+ms.date: 03/18/2025
+ms.custom: bap-template
+
 ---
 
 # Use e-documents in the purchases process
 
-You can use configured electronic documents (e-documents) with the purchase documents.
-
-The following purchase documents can be used with e-documents functionality:  
+You can use configured electronic documents (e-documents) with the following purchase documents:  
 
 - Purchase invoices
-- Purchase orders (from version 24.0)
+- Purchase orders
 - Purchase credit memos
 - General journals
 
 > [!NOTE]
->
-> From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.
-> [!NOTE]
-> When you receive an electronic document from a specific vendor, Business Central tries to match this e-document with the existing vendor in the system by verifying the following information in this order:
+> When you receive an e-document from a specific vendor, [!INCLUDE [prod_short](includes/prod_short.md)] matches the e-document with the vendor by verifying the following information in this order:
 >
 > 1. **GLN** (from the Vendor card)
 > 1. **VAT Registration No.** (from the Vendor card)
@@ -36,21 +31,21 @@ The following purchase documents can be used with e-documents functionality:
 
 ## E-documents in purchases
 
-The receipt of purchase e-documents in Dynamics 365 Business Central can be done as a batch job or manually.  
+You can receive purchase e-documents manually or by using a batch job.  
 
 ### Set up vendors to work with different purchase documents  
 
-Follow these steps to configure vendors to work properly with incoming electronic invoices:
+Follow these steps to configure vendors for incoming electronic invoices:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
 2. Choose the vendor you want to configure.
-3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document to be generated from the received e-document.
+3. In the **Receiving** FastTab, in the **Receive E-Document To** field, specify the default purchase document to generate from the received e-document.
 
    > [!NOTE]
    >
-   > - In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
+   > - In the **Receive E-Document To** field, you can either select a **Purchase Invoice** or **Purchase Order** based on what you want to create from the received e-invoice. This selection doesn't affect the creation of corrective documents. In both scenarios, [!INCLUDE [prod_short](includes/prod_short.md)] generates a credit memo.
    >
-   > - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.
+   > - If you choose the **Purchase Order** option in the **Receive E-Document To** field, [!INCLUDE [prod_short](includes/prod_short.md)] tries to update an existing purchase order. If the purchase order doesn't exist for a vendor in the received e-document, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new purchase order. It creates the order using the same approach as when it creates a new purchase invoice. To learn more, go to [To work with purchase invoices](#to-work-with-purchase-invoices).
 
 4. Choose one of the options you want to use for the selected vendor.
 5. Close the page.
@@ -60,9 +55,9 @@ Follow these steps to configure vendors to work properly with incoming electroni
 #### Run the batch job  
 
 > [!NOTE]
-> This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality exists.  
+> This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality is available.  
 
-Every time a **Job Queue** is selected to run, if the external service has incoming invoices that were sent from your vendor, the system collects and imports those invoices. To complete the process, follow these steps:
+Every time a **Job Queue** is selected to run, if the external service has incoming invoices from your vendor, [!INCLUDE [prod_short](includes/prod_short.md)] collects and imports the invoices. To complete the process, follow these steps:
 
 1. After the batch job finishes running, the newly imported invoices are listed on the **E-Documents** page, together with their basic detail information.
 2. To view more details, open a specific e-document.
@@ -108,13 +103,13 @@ To manually import external e-documents, follow these steps:
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Service**, and then select the related link.
 2. On the **E-Document Service** page, select the active service.
 3. Select **Receive**, and upload the e-document file that you got from the vendor.
-4. If an error message occurs, open the e-document to fix the issues.
+4. If an error message displays, open the e-document to fix the issues.
 5. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
 6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it.
 
 #### Work with attachments  
 
-Peppol and similar e-invoicing files are machine-readable formats and not easy for human reading. To improve reading, Peppol made it possible to embed a PDF file into the Peppol BIS 3 format as a binary object. If your incoming Peppol BIS 3 file has an embedded PDF, Business Central automatically processes it and adds the PDF as an attachment to the purchase document after creating it.
+Peppol and similar e-invoicing files are machine-readable formats that aren't easy for people to read. To improve reading, Peppol made it possible to embed a PDF file into the Peppol BIS 3 format as a binary object. If your incoming Peppol BIS 3 file has an embedded PDF, [!INCLUDE [prod_short](includes/prod_short.md)] automatically processes it and adds the PDF as an attachment to the purchase document after creating it.
 
 ## E-documents with purchase orders  
 
@@ -205,14 +200,22 @@ To get a better overview of all e-documents in the company, you can select the *
     - In Progress
     - Error
 
+## Manually import e-documents
+
+To manually import one or more external e-documents, follow these steps:
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.  
+1. On the **E-Documents** page, choose the **New From File** action.
+1. On the **E-Document Services** page, choose the service, and then upload the documents.
+
 ## Related information
 
-- [Set up e-documents](finance-how-setup-edocuments.md)
-- [Use e-document in the sales process](finance-how-use-edocuments.md)
-- [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-- [Financial Management](finance.md)
-- [Invoice sales](sales-how-invoice-sales.md)
-- [Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)
-- [Work with Business Central](ui-work-product.md)
+[Set up e-documents](finance-how-setup-edocuments.md)  
+[Use e-document in the sales process](finance-how-use-edocuments.md)  
+[Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Financial Management](finance.md)  
+[Invoice sales](sales-how-invoice-sales.md)  
+[Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)  
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

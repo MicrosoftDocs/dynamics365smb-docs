@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 02/25/2025
+ms.date: 03/19/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -39,7 +39,7 @@ After you correct (revert) the records, you can change the status of the product
 
 Setup: Activate the **Finish Order Without Output** toggle in the **Manufacturing Setup** page.
 
-> [!NOTE] 
+> [!NOTE]
 > After you turn on the toggle, you can't turn it off again. However, you can decide whether to write-off WIP for each order individually.
 
 When you change the status of a released production order that has consumption or capacity ledger entries but no output, you can turn on the **Allow Finishing Prod. Order with no output** toggle on the **Change production order status** page. 
@@ -48,6 +48,13 @@ The accumulated WIP amounts are posted to your inventory adjustment account. Rem
 
 - The **Gen. Bus. Posting Group** field on the production order.
 - The **Gen. Prod. Posting Group** field on the produced item.
+
+## Reopen a finished production order to make corrections
+
+After you complete a production order and set its status to **Finished**, you might discover a mistake. For example, you might find that consumption is missing or the item tracking information is incorrect. To make sure that your inventory and cost transactions are correct, use the **Reopen** action on the **Finished Production Orders** page to make adjustments. However, to protect your data there are a few restrictions:
+
+- You can only reopen an order one time.
+- You can't reopen an order that has no output and cost was written off to an adjustment account.
 
 ## Related information
 

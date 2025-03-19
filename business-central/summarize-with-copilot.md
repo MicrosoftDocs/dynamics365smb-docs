@@ -12,15 +12,20 @@ ms.custom: bap-template
 
 # Summarize records with Copilot
 
-Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. The summary includes two or three concise bullet points that provide details and insights about the data. It helps you understand the data and identify areas that might need attention. You interact with the summary to navigate, explore, and act on your data.
+Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. The summary includes two or three concise bullet points that provide details and insights about the data. The summary helps you understand the data and identify areas that need attention. You can interact with the summary to link to data sources and open related pages, so you can act on your data.
+
+
 
 ## Prerequisites
 
-The **Summarize** capability is active in your Business Central environment, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md)
+The **Summarize** capability is active, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md)
 
 ## How to use the Summarize
 
 Open a record, and Copilot generates a summary in the **Summary** section at the top of the FactBox pane on the right side.
+
+
+
 
 
 - Ask for more insights
@@ -33,13 +38,14 @@ Open a record, and Copilot generates a summary in the **Summary** section at the
 
 - Regenerate the summary
 
-  Select the **Regenerate summary** icon to generate a new summary again. This keeps the summary up to date with changes to the record and related data.
+  Select the **Regenerate summary** icon to generate a new summary again. This keeps the summary up to date with changes to the record and , related data, or both.
 
-## Hide and show the summary
+## Show or hide the summary
 
 
 
-## Next steps
 
-- Learn more about [Copilot in Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/copilot).
+## Related information
+
+
 

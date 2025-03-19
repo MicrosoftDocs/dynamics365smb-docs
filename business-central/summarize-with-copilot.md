@@ -28,17 +28,21 @@ The **Summarize** capability is active, and you have the required permissions to
 
 ## Availability
 
-This feature is available on most card and document pages, like a **Customer card** or a **Sales Order**. If it's not avaialble on a page as expected, it might be hidden. L 
+This feature is available on most card and document pages, like a **Customer card** or a **Sales Order**. If it's not avaialble on a page as expected, it might be hidden.  
 
-## How to use the Summarize
+## Summarize a record
 
-Open a record, and Copilot generates a summary in the **Summary** part at the top of the FactBox pane on the right side.
+1. Open the record.
+1. In the **Summary** part at the top of the FactBox pane on the right side, select the ![Shows the down arrow head icon to expand the FactBox pane.](media/expand-factbox-icon.png) **Expand summary** icon to generate the summary.
 
-![Shows the summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg)
+   ![Shows the summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg)
 
-If the summary doesn't generate select the down arrow head. 
+  > [!TIP]
+  > If the **Summary** part is expanded when the page opens, Copilot generates the summary immediately without your interaction. If the **Summary** is expanded when you close the page, Copilot automatically generates the summary the next time you open the page for a record.
 
-![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
+1. The summary appears in a moment for you to review and interact with.
+
+   ![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
 
 - Ask for more insights
 
@@ -46,11 +50,11 @@ If the summary doesn't generate select the down arrow head.
 
 - Explore the data
 
-  Some summary text is linked, so you can preview or navigate to the data source. Select the links to view details or take action based on the summarized data.
+  Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.
 
 - Regenerate the summary
 
-  Select the **Regenerate summary** icon to generate a new summary again. This keeps the summary up to date with changes to the record and , related data, or both.
+  Select the **Regenerate summary** icon to generate a new summary that's updated with changes to the record and related data.
 
 ## Show or hide the summary
 

@@ -33,7 +33,7 @@ This feature is available on most card and document pages, like a **Customer car
 ## Summarize a record
 
 1. Open the record.
-1. In the **Summary** part at the top of the FactBox pane on the right side, select the ![Shows the down arrow head icon to expand the FactBox pane.](media/expand-factbox-icon.png) **Expand summary** icon to generate the summary.
+1. In the **Summary** part at the top of the FactBox pane on the right side, select the ![Shows the down arrow head icon to expand the FactBox pane.](media/down-arrow-head.png.png) **Expand summary** icon to generate the summary.
 
    ![Shows the summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg)
 

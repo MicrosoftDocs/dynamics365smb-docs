@@ -36,6 +36,10 @@ Open a record, and Copilot generates a summary in the **Summary** part at the to
 
 ![Shows the summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg)
 
+If the summary doesn't generate select the down arrow head. 
+
+![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
+
 - Ask for more insights
 
   If you want more information, select the **More insights** button in the FactBox. The Chat with Copilot pane opens to display more points of interest. You can ask follow-up questions to learn how to use Business Central to take action based on those insights.

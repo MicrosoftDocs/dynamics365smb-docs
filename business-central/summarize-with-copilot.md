@@ -37,8 +37,8 @@ This feature is available on most card and document pages, like a **Customer car
 
    ![Shows the summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg)
 
-  > [!TIP]
-  > If the **Summary** part is expanded when the page opens, Copilot generates the summary immediately without your interaction. If the **Summary** is expanded when you close the page, Copilot automatically generates the summary the next time you open the page for a record.
+   > [!TIP]
+   > If the **Summary** part is expanded when the page opens, Copilot generates the summary immediately without your interaction. If the **Summary** is expanded when you close the page, Copilot automatically generates the summary the next time you open the page for a record.
 
 1. The summary appears in a moment for you to review and interact with.
 

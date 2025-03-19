@@ -2,8 +2,7 @@
 title: Responsible AI FAQ for autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 ms.date: 03/10/2025
-ms.custom: 
-  - responsible-ai-faqs
+ms.custom: responsible-ai-faqs
 ms.topic: article
 author: jswymer
 ms.author: jswymer

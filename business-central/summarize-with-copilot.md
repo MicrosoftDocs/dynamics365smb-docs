@@ -48,8 +48,11 @@ Open a record, and Copilot generates a summary in the **Summary** part at the to
 
 ## Show or hide the summary
 
-To show the **Summary** part, select 
+To show the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the FactBox pane.
 
+To hide the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the **Summary** part.
+
+Because the **Summary** part is in the FactBox pane, it's hidden if the FactBox pane is collapsed. To show the FactBox pane, select the ![Shows the icon to expand the FactBox pane.](media/expand-factbox-icon.png) **Expand FactBox pane** icon.
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 01/27/2025
+ms.date: 03/18/2025
 ms.topic: article
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 The preceding two scenarios are always enabled.
 
-A third scenario is to manage data in Shopify but import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data migration events, such as when you want to connect an existing online shop with a new [!INCLUDE[prod_short](../includes/prod_short.md)] environment.
+A third scenario is to manage data in Shopify but import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data migration events, such as when you want to connect an existing online shop with a new [!INCLUDE[prod_short](../includes/prod_short.md)] environment. The connector always creates or updates product variants in bulk.
 
 ## Define item synchronizations
 
@@ -32,11 +32,10 @@ A third scenario is to manage data in Shopify but import those items in bulk to 
    |------|-----------|
    |**Blank**| Products are imported together with the importing of orders. Products are exported to Shopify if a user runs the **Add Item** action from the **Shopify Products** page. This option is the default process.|
    |**To Shopify**| Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to enable the **Can Update Shopify Product** field. If it isn't enabled, it equals the **Blank** (default process) option. Learn more in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|
-   |**From Shopify**| Choose this option if you plan to import products from Shopify in bulk, either manually using the **Sync Product** action or using the job queue for recurring updates. Learn more in the [Import items from Shopify](synchronize-items.md#import-items-from-shopify) section.|
+   |**From Shopify**| Choose this option if you plan to import products from Shopify in bulk, either manually using the **Sync Product** action or using the job queue for recurring updates. To learn more, go to [Import items from Shopify](synchronize-items.md#import-items-from-shopify).|
 
    > [!NOTE]
    > Changing **Sync Item** from **From Shopify** to **To Shopify** won't have an effect unless you enable **Can Update Shopify Products**.
-
 
 ## Overview of ways to manage product information in both apps
 
@@ -51,7 +50,7 @@ To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and
 
 ## Import items from Shopify
 
-First, import items either in bulk from Shopify or together with orders to add them to the **Shopify Product** and **Shopify Variant** tables. Then, map imported products and variants to items and variants in [!INCLUDE[prod_short](../includes/prod_short.md)]. Manage the process using the following settings:
+First, import items either in bulk from Shopify or together with orders to add them to the **Shopify Product** and **Shopify Variant** tables. Then, map imported products and variants to items and variants in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector always creates or updates product variants in bulk. Manage the process using the following settings:
 
 |Field|Description|
 |------|-----------|

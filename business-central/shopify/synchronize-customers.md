@@ -4,7 +4,7 @@ description: Import customers and companies from or export to Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 01/27/2025
+ms.date: 03/18/2025
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
@@ -196,6 +196,24 @@ Alternatively, use the **Start Company Sync** action on the **Shopify Company** 
 
 You can schedule the task to run in an automated way. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
-## See also
+## Import and export more data using Shopify metafields
+
+Shopify's platform includes data models for basic commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform lets you extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product, customer, or company. The additional information stored in metafields can be almost anything related to a resource. Some examples are preferences, credit limits, loyalty programs, social media links, or segment information.
+
+You can import and export data stored in metafields into [!INCLUDE [prod_short](../includes/prod_short.md)]. Also, there's an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
+
+You can edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Customers**, **Shopify Customer Card**, **Shopify Companies**, or **Shopify Company Card** pages.
+
+> [!Note]
+> You can edit the **Shopify Metafields** page in the following cases:
+>
+> * For a Shopify customer, if the **Customer Import from Shopify** field is set to **None** or **With Order Import**, and the **Can Update Shopify Customers** toggle is turned on.
+> * For a Shopify company, if the **Company  Import from Shopify** field is set to **None** or **With Order Import**, and the **Can Update Shopify Companies** toggle is turned on.
+>
+> When you add a new record, the connector immediately sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield. You can't edit types that have AssistEdit functionality defined directly on the line.
+
+If standard metafields are defined, you can use the **Get Metafield Definitions** action to get the list from Shopify. All supported metafields are imported. You only need to update the values.
+
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

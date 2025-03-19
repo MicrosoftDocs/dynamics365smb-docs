@@ -32,7 +32,7 @@ This feature is available on most card and document pages, like a **Customer car
 
 ## How to use the Summarize
 
-Open a record, and Copilot generates a summary in the **Summary** section at the top of the FactBox pane on the right side.
+Open a record, and Copilot generates a summary in the **Summary** part at the top of the FactBox pane on the right side. if 
 
 - Ask for more insights
 
@@ -48,7 +48,7 @@ Open a record, and Copilot generates a summary in the **Summary** section at the
 
 ## Show or hide the summary
 
-
+To show the **Summary** part, select 
 
 
 ## Related information

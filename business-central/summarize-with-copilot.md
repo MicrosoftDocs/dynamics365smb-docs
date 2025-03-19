@@ -46,8 +46,7 @@ This feature is available on most card and document pages, like a **Customer car
 
    - Ask for more insights
 
-     If you want more information, select the **More insights** button in the FactBox. The Chat with Copilot pane opens to display more points of interest. You can ask follow-up questions to learn how to use Business Central to take action based on those insights.
-
+     Select the **Show more** button to get more information about the record. The chat with Copilot pane opens and generates more points of interest.
    - Explore the data
 
      Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.

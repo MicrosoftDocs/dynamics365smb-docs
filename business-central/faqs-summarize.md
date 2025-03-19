@@ -46,7 +46,7 @@ Summaries don't automatically trigger actions on behalf of the user or the organ
 
 This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft.
 
-The feature underwent extensive AI testing using Business Central's demonstration data supplemented with additional, fictitious business data and volume data. Testing primarily covered various fields and pages from Business Central’s base application, with some testing also carried out on custom pages and fields. Copilot’s output was evaluated for accuracy of ranked insights, use of  language, grounding of values in database data, and other metrics.
+The feature underwent extensive AI testing using Business Central's demonstration data supplemented with extra, fictitious business data and volume data. Testing primarily covered various fields and pages from Business Central’s base application, with some testing also carried out on custom pages and fields. Copilot’s output was evaluated for accuracy of ranked insights, use of  language, grounding of values in database data, and other metrics.
 
 To ensure customer safety and data protection, this feature underwent rigorous testing to detect and deflect harmful content, jailbreaks, and other risks.
 
@@ -77,7 +77,7 @@ Organizations that operate in some business domains, such as medical, drugs, leg
 
 - Summaries about people
 
-Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of additional safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
+Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of other safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
 
 ## What data does Summarize collect and how is it used?
 

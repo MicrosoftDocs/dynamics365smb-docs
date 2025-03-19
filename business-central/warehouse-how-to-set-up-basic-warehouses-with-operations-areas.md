@@ -14,14 +14,21 @@ ms.custom: bap-template
 ---
 # Set up basic warehouses with operations areas
 
-If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:  
+If you have internal operation areas, such as production or assembly areas, you can use the following basic warehouse documents to record your warehouse activities:  
 
 - **Inventory Movement** page.  
 - **Inventory Pick** page.  
 - **Inventory Put-away** page.
 
+To use these documents, you must set up one or more of the following fields on the the **Location Card** page for the location:
+
+- The **Bin Mandatory** field.
+- The **Inventory Pick/Movement** option in the **Prod. Consumption Whse. Handling** field.
+- The **Inventory Movement** option in the **Asm. Consumption Whse. Handling** field.
+- The **Inventory Put-Away** in the **Prod. Output Whse. Handling** field.
+
 > [!NOTE]
-> Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these checkboxes.  
+> You can still post output and consumption directly from the source documents and journals.  
 
 To use these pages with internal operations such as to pick and move components to production, depending on how much control you need you must do some or all the following steps:  
 
@@ -29,30 +36,33 @@ To use these pages with internal operations such as to pick and move components 
 - Define default bin structures for components and end items flowing to and from operation resources.  
 - Make to- and from- bins that are dedicated to specific operation resources. Dedicated bins prevent the items from being picked for outbound documents.
 
-Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department. Other functionality exists to make sure that when items are placed in a certain bin, they can't be moved or picked to other activities. For more information, see [To create dedicated component bins](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
+Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department. Other functionality exists to make sure that when items are placed in a certain bin, they can't be moved or picked to other activities. To learn more, go to [To create dedicated component bins](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 The following procedures are based on setting up basic warehouse activities around a production area. The steps are similar for other operation areas, such as assembly, service management, and jobs.  
 
 > [!NOTE]  
-> In the following procedure, the **Bin Mandatory** setup field on location cards is selected as a precondition because that is considered the foundation for any level of warehouse management.  
+> The following procedures assume that the **Bin Mandatory** toggle is turned on for the location.  
 
 ## To enable inventory documents for internal operation activities
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the location card you want to set up.  
-3. On the **Warehouse** FastTab, select the **Require Put-away** checkbox to indicate that, when an inbound or internal source document with a bin code is released, an inventory put-away or an inventory movement document can be created.  
-4. Select the **Require Pick** checkbox to indicate that when an outbound or internal source document with a bin code is created, an inventory pick or an inventory movement document must be created.  
+3. On the **Warehouse** FastTab, select **Inventory Put-Away** in the **Prod. Output Whse. Handling** field to indicate that when someone releases an internal source document with a bin code, an inventory put-away or movement document can be created.  
+4. To require that an inventory pick or an inventory movement document when you create an outbound or internal source document with a bin code, fill in the following fields:
+
+   - In the **Prod. Consumption Whse. Handling field**, choose **Inventory Pick/Movement**.
+   - In the **Asm. Consumption Whse. Handling** field, choose **Inventory Movement**.  
 
 ## To define a default bin structure in the production area
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.  
-3. On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This setup means that the **Flushing Method** field contains **Forward** or **Backward**.  
+3. On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This setup means that the **Flushing Method** field contains **Forward**, **Backward**, or **Manual**.  
 
    > [!TIP]
    > You can also record flushing without requiring a pick. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To flush without picking, the item must use the **Pick + Manual** flushing method. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
-4. In the **To-Production Bin Code** field, enter the code of the bin in the production area where components that are picked for production at this location are placed by default before they can be consumed. Items that are placed in this bin are typically set up for manual consumption posting. Manual posting means that the **Flushing Method** field contains **Manual**, **Pick + Forward**, **Pick + Backward**, or **Pick + Manual** for warehouse picks and inventory movements.  
+4. In the **To-Production Bin Code** field, enter the code of the bin in the production area where components that are picked for production at this location are placed by default before they can be consumed. Items that are placed in this bin are typically set up for manual picking. The **Flushing Method** field contains **Pick + Forward**, **Pick + Backward**, or **Pick + Manual** for warehouse picks and inventory movements.  
 
     > [!NOTE]  
     > When you use inventory picks, the **Bin Code** field on a production order component line defines the *take* bin from where components are decreased when posting consumption. When you use inventory movements, the **Bin Code** field on production order component lines defines the *place* bin in the operation area where the warehouse worker must place the components.  
@@ -67,7 +77,7 @@ This flow chart shows how the **Bin Code** field on production order component l
 
 ## To define a default bin structure in the assembly area
 
-Components for assembly orders can't be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Pick or move for Production, Assembly, or Jobs in Basic Warehouse](warehouse-how-to-pick-for-production.md).
+Components for assembly orders can't be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. To learn more, go to [Pick or move for Production, Assembly, or Jobs in Basic Warehouse](warehouse-how-to-pick-for-production.md).
 
 When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. To learn more, go to [Handling assemble-to-order items with inventory picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
@@ -93,7 +103,7 @@ The value in this field is automatically inserted in the **Bin Code** field on a
 Bin codes that are set up on location cards define a default warehouse flow for specific warehouse activities, such as consumption of components in an assembly area. Other functionality exists to make sure that when items are placed in a default bin, they can't be moved or picked to other activities.
 
 > [!NOTE]
-> This setup is only possible for locations where the Bin Mandatory field is selected.
+> This setup is only possible for locations where the **Bin Mandatory** field is selected.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.
@@ -104,7 +114,7 @@ Bin codes that are set up on location cards define a default warehouse flow for 
 From this bin, the assembly items are shipped immediately, via an inventory pick, to fulfill the sales order.
 
 > [!NOTE]
-> This field can't be used if the location is set up to use directed pick and put-away.
+> You can't use this field if the location is set up to use directed pick and put-away.
 
 The bin code is copied from the sales order line to the assembly order header to communicate to assembly workers where to place the output to ready it for shipping. It's also copied to the inventory pick line to communicate to warehouse workers where to take it from to ship it.
 
@@ -115,7 +125,7 @@ The value in this field is automatically inserted in the Bin Code field on sales
 
 If the **Asm.-to-Order Shpt. Bin Code** is blank, then the **From-Assembly Bin Code** field is used instead. If both setup fields are blank, then the last used bin with content is used in the **Bin Code** field on sales order lines.
 
-The same bin code is in turn copied to the **Bin Code** field on the inventory pick line that manages the shipment of the assemble-to-order quantity. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
+The same bin code is in turn copied to the **Bin Code** field on the inventory pick line that manages the shipment of the assemble-to-order quantity. To learn more, go to [Handling assemble-to-order items with inventory picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.
@@ -143,10 +153,9 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 
 ## Related information
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
+[Warehouse Management Overview](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 08/12/2024
+ms.date: 03/19/2025
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
@@ -154,10 +154,10 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 Flushing methods affect the flow of components in production. Learn more at [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md). Depending on the selected flushing method, you can pick components for production om the following ways:
 
-* Use a **Warehouse Pick** document to record the pick for items that use the **Manual** flushing method. You need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
+* Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Manual** flushing method. You need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
 * Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Forward**, **Pick + Backward** flushing method. Consumption of the components happens automatically either when you change the status of the production order or by starting or ending an operation. All required components must be available. Otherwise, posting flushed consumption stop for that component.
 * Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Components are automatically consumed either when you change of status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items](warehouse-move-items.md).
-* Use a **Warehouse Pick** or **Warehouse Movement** document to record flushing without requiring a pick. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To flush without picking, the item must use the **Pick + Manual** flushing method. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
+* Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the Manual flushing method. You need to register consumption separately. For example, skipping the pick might be useful for components which, due to their nature, you store in the shop floor zone so there's no need to pick. However, you might still have to manually post consumption, for example, because the consumed quantity can vary or require item tracking. To learn more, go to [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
 ### Example
 

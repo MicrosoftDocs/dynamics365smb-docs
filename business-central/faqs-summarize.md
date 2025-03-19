@@ -89,6 +89,6 @@ Business Central collects the minimum data required for Microsoft to offer the s
 
 ## Related information
 
-[FAQ for Copilot data security and privacy](https://review.learn.microsoft.com/en-us/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
-[Azure OpenAI Service and Business Central data](https://review.learn.microsoft.com/en-us/dynamics365/business-central/azure-openai-data)  
-[Copilot data movement across geographies](https://review.learn.microsoft.com/en-us/dynamics365/business-central/ai-copilot-data-movement)  
+[FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
+[Azure OpenAI Service and Business Central data](azure-openai-data.md)  
+[Copilot data movement across geographies](ai-copilot-data-movement.md)  

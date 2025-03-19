@@ -1,5 +1,5 @@
 ---
-title: Summarize with Copilot
+title: Summarize a record with Copilot
 description: Learn how to use the Summarize feature with Copilot in Business Central to get an overview of your data and identify what needs your attention.
 author: jswymer
 ms.author: jswymer
@@ -10,11 +10,11 @@ ms.date: 03/18/2025
 ms.custom: bap-template
 ---
 
-# Summarize a record with Copilot
+# Summarize records with Copilot
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. The summary includes two or three concise bullet points that provide details and insights about the data. The summary helps you understand the data and identify areas that need attention. You can interact with the summary to link to data sources and open related pages, so you can act on your data.
+Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. The summary includes two or three concise bullet points that provide details and insights about the data. The summary helps you understand the data and identify areas that need attention. Interact with the summary to link to data sources and open related pages, so you can act on your data.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -44,17 +44,17 @@ This feature is available on most card and document pages, like a **Customer car
 
    ![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
 
-- Ask for more insights
+   - Ask for more insights
 
-  If you want more information, select the **More insights** button in the FactBox. The Chat with Copilot pane opens to display more points of interest. You can ask follow-up questions to learn how to use Business Central to take action based on those insights.
+     If you want more information, select the **More insights** button in the FactBox. The Chat with Copilot pane opens to display more points of interest. You can ask follow-up questions to learn how to use Business Central to take action based on those insights.
 
-- Explore the data
+   - Explore the data
 
-  Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.
+     Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.
 
-- Regenerate the summary
+   - Regenerate the summary
 
-  Select the **Regenerate summary** icon to generate a new summary that's updated with changes to the record and related data.
+     Select the **Regenerate summary** icon to generate a new summary that's updated with changes to the record and related data.
 
 ## Show or hide the summary
 
@@ -64,5 +64,7 @@ This feature is available on most card and document pages, like a **Customer car
 
 ## Related information
 
-
-
+[Responsible AI FAQ for summarize](faqs-summarize.md)  
+[FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
+[About Copilot in Business Central](copilot-overview.md)  

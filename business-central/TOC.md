@@ -2567,6 +2567,7 @@ ms.service: dynamics-365-business-central
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
 ### [Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)
 ## Summarize (preview)
+### [Summarize records with Copilot](summarize-with-copilot.md)
 ### [Responsible AI FAQ for summarize](faqs-summarize.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)

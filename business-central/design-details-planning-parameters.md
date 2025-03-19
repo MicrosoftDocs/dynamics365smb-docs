@@ -6,7 +6,6 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/11/2025
-ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -20,10 +19,10 @@ How the planning system controls item supply is determined by various settings o
 |-------------|---------------|
 |Define whether the item is planned|Reordering Policy = Blank|
 |Define when to reorder|Time Bucket<br /><br /> Reorder Point<br /><br /> Safety Lead Time|
-|Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> -   Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Inventory<br />-   Order<br />-   Lot-for-Lot|
+|Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> - Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Inventory<br />- Order<br />- Lot-for-Lot|
 |Optimize when and how much to reorder|Rescheduling Period<br /><br /> Lot Accumulation Period<br /><br /> Dampener Period|
 |Modify the supply orders|Minimum Order Quantity<br /><br /> Maximum Order Quantity<br /><br /> Order Multiple|
-|Delimit the planned item|Manufacturing Policy:<br /><br /> -  Make-to-Stock<br />- Make-to-Order|
+|Delimit the planned item|Manufacturing Policy:<br /><br /> - Make-to-Stock<br />- Make-to-Order|
 
 ## Define whether the item is planned  
 

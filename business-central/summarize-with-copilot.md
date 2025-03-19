@@ -12,21 +12,27 @@ ms.custom: bap-template
 
 # Summarize records with Copilot
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. The summary includes two or three concise bullet points that provide details and insights about the data. The summary helps you understand the data and identify areas that need attention. You can interact with the summary to link to data sources and open related pages, so you can act on your data.
 
-
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
 The **Summarize** capability is active, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md)
 
+## Supported languages
+
+[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+
+## Availability
+
+This feature is available on most card and document pages, like a **Customer card** or a **Sales Order**. If it's not avaialble on a page as expected, it might be hidden. L 
+
 ## How to use the Summarize
 
 Open a record, and Copilot generates a summary in the **Summary** section at the top of the FactBox pane on the right side.
-
-
-
-
 
 - Ask for more insights
 

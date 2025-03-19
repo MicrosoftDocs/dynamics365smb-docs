@@ -28,7 +28,7 @@ The **Summarize** capability is active, and you have the required permissions to
 
 ## Availability
 
-This feature is available on most card and document pages, like a **Customer card** or a **Sales Order**. If it's not avaialble on a page as expected, it might be hidden.  
+This feature is available on most card and document pages, like a **Customer card** or a **Sales Order**. If it's not avaialble on a page as expected, it might be hidden.  [Learn how to how or hide the summary](#show-or-hide-the-summary).
 
 ## Summarize a record
 

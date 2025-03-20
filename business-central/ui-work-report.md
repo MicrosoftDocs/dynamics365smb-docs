@@ -165,6 +165,25 @@ The fields under the **Advanced** FastTab set limitations on the generated repor
 > [!NOTE]
 > The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
+## Get help for a report
+
+You can get help for using a report in two different ways
+
+1. Report teaching tip
+1. Help pane
+
+### Report teaching tip
+Many reports in [!INCLUDE[prod_short](includes/prod_short.md)] have a teaching tip defined to increase the user's chance of success with the report. The title and description of these teaching tip try to answer the following hypothetical questions:
+
+- What is this report about?
+- What can I do with this report?
+
+With teaching tips, the report creator try helping you explain logic that is relevant to the report therefore allowing you to get on with a reporting task right away without being blocked. After you dismiss a teaching tip, you can choose or hover over the report title in the request page. This action reopens the teaching tip. 
+
+### Help pane for a report
+
+If you activate the help pane when the report request page is open, you can find the teaching tip text (if defined on the report). You can also find relevant links to documentation articles that explain topics related to the report in more depth. 
+
 ## See also
 
 - [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

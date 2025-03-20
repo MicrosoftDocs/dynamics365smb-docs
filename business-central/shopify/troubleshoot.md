@@ -110,14 +110,6 @@ The following procedures describe how to rotate the access token used by the Sho
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
-## Sorting in the Shopify Orders to Import page
-
-The **Shopify Orders to Import** page now shows the newest orders on top. The page is useful for troubleshooting issues with order imports. You can assess the orders that are available, and take the next steps:
-
-- Check whether an error blocked the import of a specific order, and explore the error's details. Select the **Has Error** field.
-- Process only specific orders. Fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.
-- Delete orders from the **Shopify Orders to Import** page to exclude them from the sync.
-
 ## Known issues
 
 ### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'

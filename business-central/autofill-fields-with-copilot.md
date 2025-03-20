@@ -85,6 +85,12 @@ When you leave the page while there are unaccepted suggestions, Copilot asks you
 
 <!--The first time you use Copilot, you're asked to accept the terms to continue.-->
 
+### Autofill behavior with other data-entry features
+
+Business Central offers many other features that reduce data entry, such as customer templates and business process settings that default values. In some cases, when you specify the value for a field, Business Central validates and automatically sets related fields, like zip code and country. Unlike Copilot, these features don't use AI, and values are saved immediately.
+
+When Copilot suggests a field value and you use any feature that saves a value to the same field, Copilot's suggestion is always discarded in favor of the value set by Business Central.
+
 ## Related information
 
 [Responsible AI FAQ for autofill (preview)](faqs-autofill.md)  

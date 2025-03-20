@@ -29,6 +29,8 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 
+It can be useful for people who work with Shopify Admin to see whether orders synchronized to Business Central. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization.
+
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
 If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. For example, you might turn off the toggle if you sell digital goods or want to use another notification mechanism.
@@ -181,8 +183,6 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 5. Choose **Yes**.
 
 If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created. 
-
-It can be useful for people who work with Shopify Admin to see whether orders synchronized to Business Central. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization.
 
 A sales document is created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
 

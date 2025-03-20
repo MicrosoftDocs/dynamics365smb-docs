@@ -54,9 +54,7 @@ To support the scenario where **All prices include tax** is selected, in [!INCLU
 Now define item prices in the **Item Card** or **Sales Price List** fields, with or without tax. When exporting prices to Shopify, [!INCLUDE [prod_short](../includes/prod_short.md)] includes domestic taxes in the calculated price and shows that price for the product in Shopify.
 
 > [!NOTE]
-> These settings affect the export of prices. When you import orders from Shopify, the setting for the **Prices including VAT** field comes from the **Customer Template** on the Shopify shop card, or the customer template per country/region. Even if you use the default customer for imported orders, you must fill in the **Customer Template Code**.
-
-The **Price Including VAT** toggle in the **Shopify Shop Card** page doesn't affect the creation of sales documents. The information about whether prices include tax comes directly from Shopify, which is useful when selling to different markets using the **Include or exclude tax based on your customer's country** setting in Shopify Admin.
+> These settings affect the export of prices. When you import orders from Shopify, the information about whether prices include tax comes directly from Shopify, which is useful when selling to different markets using the **Include or exclude tax based on your customer's country** setting in Shopify Admin.
 
 > [!Important] 
 > For merchants using the US or Canadian localizations, select **Include sales tax in product price and shipping rate** in Shopify Admin. If enabled, you can't convert imported orders into sales documents because [!INCLUDE [prod_short](../includes/prod_short.md)] doesn't support backward sales tax calculation.

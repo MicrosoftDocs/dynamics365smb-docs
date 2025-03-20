@@ -16,8 +16,8 @@ ms.reviewer: bholtorf
 
 You can manually record greenhouse gas (GHG) emissions or water and waste intensity in the sustainability ledger by using sustainability journals. You can also use purchase documents or general journals to record GHG emissions.  
 
-<!--> [!NOTE]
-> Posting water and waste intensity and using general journals for posting emissions will be enabled starting *2025 release wave 1*.  -->
+> [!NOTE]
+> Posting water and waste intensity and using general journals for posting emissions will be enabled starting *2025 release wave 1*.
 
 ## Sustainability journals
 

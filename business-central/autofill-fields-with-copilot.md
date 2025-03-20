@@ -35,9 +35,9 @@ Autofill is activated, and you have the required permissions to use it. Learn mo
 
 ## Availability
 
-The autofill feature is available on card and document pages, like a **Customer card** or a **Sales Order**. It's available on editable fields within FastTabs on these pages, excluding those listed in the following section.
+The autofill feature is available on card and document pages, like a **Customer card** or a **Sales Order**. It's available on editable fields within FastTabs on these pages, except those listed in the following section.
 
-### Where the autofill feature isn't available
+### Where the feature isn't available
 
 The autofill feature isn't available on these types of pages:
 
@@ -52,10 +52,10 @@ The autofill feature isn't available on these fields regardless of the page type
 - Fields in the FactBox pane.
 - Fields in rows and columns.
 - Multiline text fields.
-- Masked fields, like passwords and secrets.
-- Date/time fields.
+- Masked fields like passwords and secrets.
+- Date and time fields
 - Toggle switches.
-- Fields that uniquely identify a record, such as IDs and numbers from a series.
+- Fields that uniquely identify a record like IDs and numbers from a series.
 - Certain fields depending on your country/region. For example, Copilot can't make suggestions for address fields until web search powered by Bing is available in your country/region.
 
 ## Use autofill on fields

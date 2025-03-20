@@ -4,7 +4,7 @@ description: Import customers and companies from or export to Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 01/27/2025
+ms.date: 03/20/2025
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
@@ -155,16 +155,15 @@ Whether you import companies from Shopify in bulk or when you import orders, use
 |Field|Description|
 |------|-----------|
 |**Company Import from Shopify**|Select **All Companies** if you plan to import customers from Shopify in bulk, either manually using the **Sync Companies** action or via the job queue for recurring updates. Regardless of the selection, the customer information is always imported together with the order. However, the use of this information depends on the **Shopify Company Templates** and settings in the **Company Mapping Type** field.|
-|**Company Mapping Type**|Define how you want the connector to do the mapping.</br></br>- **By Email/Phone** if you want the connector to map the imported Shopify companies to an existing customer in Business Central using email and phone from the main contact.</br></br>- Select **Always Take the Default Company** if you want the system to use the company in the **Default Company No.** field. </br></br>- Select **By Tax Id** if you want the connector to map the imported Shopify companies to an existing customer in Business Central using tax details. Use the **Company Tax ID Mapping** field to specify where tax details are stored. |
-|**Company Tax ID Mapping**| Specifies if company tax details are stored in the **Registration Number** or the **VAT Registration No.** field.|
+|**Company Mapping Type**|Define how you want the connector to do the mapping.</br></br>- **By Email/Phone** if you want the connector to map the imported Shopify companies to an existing customer in [!INCLUDE [prod_short](../includes/prod_short.md)] using the main contact's email and phone number.</br></br>- Select **Always Take the Default Company** if you want to use the company in the **Default Company No.** field. </br></br>- Select **By Tax ID** if you want the connector to use tax details to map the imported Shopify companies to an existing customer in [!INCLUDE [prod_short](../includes/prod_short.md)]. Use the **Company Tax ID Mapping** field to specify where to store tax details. |
+|**Company Tax ID Mapping**| Specifies whether to store company tax details in the **Registration Number** or the **VAT Registration No.** field.|
 |**Shopify Can Update Company**| Select this field if you want the connector to update the customers it finds when the **By Email/Phone** option is selected in the **Company Mapping Type** field.|
 |**Auto Create Unknown Companies**| Select this field if you want the connector to create new customers when the **By Email/Phone** option is selected in the **Company Mapping Type** field. A new customer is created using the imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
 |**Customer/Company Template Code**|Use this field together with **Auto Create Unknown Company**.</br></br>- Choose the default template to use for automatically created customers. Make sure the mandatory fields are filled in on the template, such as the **Gen. Business Posting Group**, **Customer Posting Group**, **Value-added tax (VAT)** or other tax-related fields.</br></br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation.</br></br>Learn more at [Set up Taxes](setup-taxes.md).|
 
-
 > [!NOTE]  
 > The company must have a main contact. Otherwise, the connector skips to company.
-> The oldest location is used as source of infomration when create or update customer in Business Central.
+> The oldest location is used as source of information when creating or updating the customer in [!INCLUDE [prod_short](../includes/prod_short.md)].
 > Only the main contact is imported.
 
 ### Important settings when exporting B2B companies to Shopify

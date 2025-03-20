@@ -153,7 +153,7 @@ The Shopify Connector imports orders in two steps:
      * Transactions
      * Returns and refunds, if configured
 
-The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and take the next steps:
+The **Shopify Orders to Import** page is useful for troubleshooting order import issues. It shows the newest orders on top. You can assess the orders that are available and take the next steps:
 
 * Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
 * Process only specific orders. Fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.

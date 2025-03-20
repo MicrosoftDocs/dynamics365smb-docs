@@ -146,41 +146,30 @@ If you use B2B in Shopify, you can create companies in addition to customers. Yo
 
 ### Important settings when importing B2B companies from Shopify
 
-The Shopify Connector imports all company locations, including payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. The location is marked as the **Default**. When you export a customer as a Shopify company, the Shopify Connector creates one company location. In [!INCLUDE [prod_short](../includes/prod_short.md)], this location is marked as the **Default**.
-
-The Company Location feature in Shopify allows merchants to define default payment terms. When you export customer information as a Shopify company, payment term details transfer to Shopify and are stored in the default company location if:
-
-* The **Payment Term** field in the **Customer Card** contains a value.
-* A corresponding record is located in the **Shopify Payment Terms Mapping** page.
+The Shopify Connector imports all company locations, including payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**. 
 
 When you import a Shopify company, you can see associated payment terms for each company location. If the Shopify Connector is configured to update the customer, it uses the payment term from the default location. It's important that the corresponding record exists on the **Shopify Payment Terms Mapping** page.
-
-In Shopify, each company location can have a tax ID. When you export a customer as a Shopify company, the tax ID is stored in the default company location. The new **Company Tax ID Mapping** field on the **Shopify Shop Card** page lets you choose to send either the **Registration Number** or the **VAT Registration No.** as the tax ID.
-
-When you import Shopify companies, the tax ID at the default **Shopify Location** helps map imported companies to existing customers. Select **By Tax ID** in the **Company Mapping Type** field on the **Shopify Shop Card** page to activate the mapping logic.
 
 Whether you import companies from Shopify in bulk or when you import orders, use the settings in the following table to manage the process.
 
 |Field|Description|
 |------|-----------|
 |**Company Import from Shopify**|Select **All Companies** if you plan to import customers from Shopify in bulk, either manually using the **Sync Companies** action or via the job queue for recurring updates. Regardless of the selection, the customer information is always imported together with the order. However, the use of this information depends on the **Shopify Company Templates** and settings in the **Company Mapping Type** field.|
-|**Company Mapping Type**|Define how you want the connector to do the mapping.</br></br>- **By Email/Phone** if you want the connector to map the imported Shopify companies to an existing customer in Business Central using email and phone from the main contact.</br></br>- Select **Always Take the Default Company** if you want the system to use the company in the **Default Company No.** field. |
+|**Company Mapping Type**|Define how you want the connector to do the mapping.</br></br>- **By Email/Phone** if you want the connector to map the imported Shopify companies to an existing customer in Business Central using email and phone from the main contact.</br></br>- Select **Always Take the Default Company** if you want the system to use the company in the **Default Company No.** field. </br></br>- Select **By Tax Id** if you want the connector to map the imported Shopify companies to an existing customer in Business Central using tax details. Use the **Company Tax ID Mapping** field to specify where tax details are stored. |
+|**Company Tax ID Mapping**| Specifies if company tax details are stored in the **Registration Number** or the **VAT Registration No.** field.|
 |**Shopify Can Update Company**| Select this field if you want the connector to update the customers it finds when the **By Email/Phone** option is selected in the **Company Mapping Type** field.|
 |**Auto Create Unknown Companies**| Select this field if you want the connector to create new customers when the **By Email/Phone** option is selected in the **Company Mapping Type** field. A new customer is created using the imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
 |**Customer/Company Template Code**|Use this field together with **Auto Create Unknown Company**.</br></br>- Choose the default template to use for automatically created customers. Make sure the mandatory fields are filled in on the template, such as the **Gen. Business Posting Group**, **Customer Posting Group**, **Value-added tax (VAT)** or other tax-related fields.</br></br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation.</br></br>Learn more at [Set up Taxes](setup-taxes.md).|
 
+
 > [!NOTE]  
 > The company must have a main contact. Otherwise, the connector skips to company.
-> Only one oldest location is imported.
+> The oldest location is used as source of infomration when create or update customer in Business Central.
 > Only the main contact is imported.
 
 ### Important settings when exporting B2B companies to Shopify
 
 You can export existing customers to Shopify in bulk as a company. In each case, a company and one default location are created and one main contact. It's also possible to create a catalog.
-
-When you export data to Shopify, the tax ID, company ID, and company/attention details are included in the sync to improve order information and traceability.
-
-The Shopify Connector allows individual prices and discounts, which complement the global and customer price group/customer discount group pricing structures. These individual prices and discounts provide greater flexibility and personalization for B2B customers. When you export a customer as a Shopify company, if you configured the Shopify Connector to create a catalog, the **Customer No.** field is filled in for the catalog. This value ensures that the connector uses the specific customer to calculate prices, which eliminates the need to fill in the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields. You just need to turn on the **Sync Prices** toggle and select **Sync Prices** to start synchronizing catalog prices so that your customers get consistent pricing in Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 When you export a customer as a Shopify company, the **Company ID** field is filled in with the value in the **No.** field from the **Customer Card** page, which helps traceability. Also, the connector fills in the **Company/Attention** field on the new company location with the company name. The name is used on imported orders.
 
@@ -188,7 +177,12 @@ When you export a customer as a Shopify company, the **Company ID** field is fil
 |------|-----------|
 |**Can update Shopify Companies**| Enable this option if you want to generate updates later from Business Central for companies that already exist in Shopify.|
 |**Default Contact Permissions**| Specify which permissions must be assigned to the main contact; you can choose between **None**, **Ordering only**, and **Location admin**.|
-|**Auto Create Catalog**| Enable this option if you want to create a catalog that includes all products. A catalog is created for each exported company.|
+|**Auto Create Catalog**| Enable this option if you want to create a catalog that includes all products. A catalog is created for each exported company. When you export a customer as a Shopify company, if you configured the Shopify Connector to create a catalog, the **Customer No.** field is filled in for the catalog. This value ensures that the connector uses the specific customer to calculate prices, which eliminates the need to fill in the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields. You just need to turn on the **Sync Prices** toggle and select **Sync Prices** to start synchronizing catalog prices so that your customers get consistent pricing in Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].|
+|**Company Tax ID Mapping**| Specifies if company tax details are stored in the **Registration Number** or the **VAT Registration No.** field.|
+
+The Company Location feature in Shopify allows merchants to define default payment terms. When you export customer information as a Shopify company, payment term details transfer to Shopify and are stored in the default company location if:
+* The **Payment Term** field in the **Customer Card** contains a value.
+* A corresponding record is located in the **Shopify Payment Terms Mapping** page.
 
 ### Export a B2B company to Shopify
 

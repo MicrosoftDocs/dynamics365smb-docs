@@ -35,9 +35,11 @@ Autofill is activated, and you have the required permissions to use it. Learn mo
 
 ## Availability
 
+### Where the feature is available
+
 The autofill feature is available on card and document pages, like a **Customer card** or a **Sales Order**. It's available on editable fields within FastTabs on these pages, except those listed in the following section.
 
-####### Where the feature isn't available
+### Where the feature isn't available
 
 The autofill feature isn't available on these types of pages:
 

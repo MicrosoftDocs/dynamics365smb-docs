@@ -142,9 +142,22 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 ## B2B Companies
 
-If you use B2B in Shopify, you can create companies in addition to customers. You can link one or more individual customers to a company. You can also define payment terms, locations, and catalogs.
+If you use B2B in Shopify, you can create companies in addition to customers. You can link one or more individual customers to a company.
 
-## Important settings when importing B2B companies from Shopify
+### Important settings when importing B2B companies from Shopify
+
+The Shopify Connector imports all company locations, including payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. The location is marked as the **Default**. When you export a customer as a Shopify company, the Shopify Connector creates one company location. In [!INCLUDE [prod_short](../includes/prod_short.md)], this location is marked as the **Default**.
+
+The Company Location feature in Shopify allows merchants to define default payment terms. When you export customer information as a Shopify company, payment term details transfer to Shopify and are stored in the default company location if:
+
+* The **Payment Term** field in the **Customer Card** contains a value.
+* A corresponding record is located in the **Shopify Payment Terms Mapping** page.
+
+When you import a Shopify company, you can see associated payment terms for each company location. If the Shopify Connector is configured to update the customer, it uses the payment term from the default location. It's important that the corresponding record exists on the **Shopify Payment Terms Mapping** page.
+
+In Shopify, each company location can have a tax ID. When you export a customer as a Shopify company, the tax ID is stored in the default company location. The new **Company Tax ID Mapping** field on the **Shopify Shop Card** page lets you choose to send either the **Registration Number** or the **VAT Registration No.** as the tax ID.
+
+When you import Shopify companies, the tax ID at the default **Shopify Location** helps map imported companies to existing customers. Select **By Tax ID** in the **Company Mapping Type** field on the **Shopify Shop Card** page to activate the mapping logic.
 
 Whether you import companies from Shopify in bulk or when you import orders, use the settings in the following table to manage the process.
 
@@ -161,9 +174,15 @@ Whether you import companies from Shopify in bulk or when you import orders, use
 > Only one oldest location is imported.
 > Only the main contact is imported.
 
-## Important settings when exporting B2B companies to Shopify
+### Important settings when exporting B2B companies to Shopify
 
 You can export existing customers to Shopify in bulk as a company. In each case, a company and one default location are created and one main contact. It's also possible to create a catalog.
+
+When you export data to Shopify, the tax ID, company ID, and company/attention details are included in the sync to improve order information and traceability.
+
+The Shopify Connector allows individual prices and discounts, which complement the global and customer price group/customer discount group pricing structures. These individual prices and discounts provide greater flexibility and personalization for B2B customers. When you export a customer as a Shopify company, if you configured the Shopify Connector to create a catalog, the **Customer No.** field is filled in for the catalog. This value ensures that the connector uses the specific customer to calculate prices, which eliminates the need to fill in the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields. You just need to turn on the **Sync Prices** toggle and select **Sync Prices** to start synchronizing catalog prices so that your customers get consistent pricing in Shopify and [!INCLUDE [prod_short](../includes/prod_short.md)].
+
+When you export a customer as a Shopify company, the **Company ID** field is filled in with the value in the **No.** field from the **Customer Card** page, which helps traceability. Also, the connector fills in the **Company/Attention** field on the new company location with the company name. The name is used on imported orders.
 
 |Field|Description|
 |------|-----------|
@@ -171,9 +190,9 @@ You can export existing customers to Shopify in bulk as a company. In each case,
 |**Default Contact Permissions**| Specify which permissions must be assigned to the main contact; you can choose between **None**, **Ordering only**, and **Location admin**.|
 |**Auto Create Catalog**| Enable this option if you want to create a catalog that includes all products. A catalog is created for each exported company.|
 
-## Export a B2B company to Shopify
+### Export a B2B company to Shopify
 
-### Initial sync of B2B companies from Business Central to Shopify
+#### Initial sync of B2B companies from Business Central to Shopify
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Company**, and choose the related link.
 2. Choose the **Add Company** action.
@@ -186,7 +205,7 @@ The resulting company and customers are automatically created in Shopify.
 > [!NOTE]  
 > The initial sync of companies from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Can Update Shopify Company** settings.
 
-### Sync B2B company
+### Sync a B2B company
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shop**, and then choose the related link.
 2. Select the specific shop for which you want to synchronize customers.
@@ -196,6 +215,6 @@ Alternatively, use the **Start Company Sync** action on the **Shopify Company** 
 
 You can schedule the task to run in an automated way. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
-## See also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

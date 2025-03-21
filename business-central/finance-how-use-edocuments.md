@@ -65,6 +65,14 @@ If there's an issue with the service provider, and the document can't be sent, l
 
 After the issue is fixed, manually run the **Send Document** actions. If you need different actions, such as **Recreated Document**, **Cancel Document**, or **Get Approval**, you can run them.
 
+## Manually create e-documents when they weren't created automatically
+
+Using e-documents requires some configuration, and sometimes people get that wrong. If there was a problem with your setup when you posted sales documents, [!INCLUDE [prod_short](includes/prod_short.md)] might not automatically create e-documents for them. If that happens, after you fix your setup, you can generate new e-documents from the posted documents.
+
+To check whether [!INCLUDE [prod_short](includes/prod_short.md)] created an e-document, open the **Posted Sales Invoice** page and select the **Open E-Document** action. If [!INCLUDE [prod_short](includes/prod_short.md)] doesn't find a related e-document, a message displays. Review your settings for your e-documents and correct any mistakes. To learn more about the setup, go to [Set up e-documents](finance-how-setup-edocuments.md).
+
+When you're ready, you can run the **Create New E-Document** action to generate an e-document based on the workflow rules.
+
 ## Overview of e-document statuses
 
 To get a better overview of all e-documents in the company, you can select the **Accountant** role center where e-document statuses exist. There, you can find e-document activities that have the following statuses:
@@ -74,14 +82,6 @@ To get a better overview of all e-documents in the company, you can select the *
     - Processed
     - In Progress
     - Error
-
-## Manually create e-documents when they weren't created automatically
-
-Using e-documents requires some configuration, and sometimes people get that wrong. If there was a problem with your setup when you posted sales documents, [!INCLUDE [prod_short](includes/prod_short.md)] might not automatically create e-documents for them. If that happens, after you fix your setup, you can generate new e-documents from the posted documents.
-
-To check whether [!INCLUDE [prod_short](includes/prod_short.md)] created an e-document, open the **Posted Sales Invoice** page and select the **Open E-Document** action. If [!INCLUDE [prod_short](includes/prod_short.md)] doesn't find a related e-document, a message displays. Review your settings for your e-documents and correct any mistakes. To learn more about the setup, go to [Set up e-documents](finance-how-setup-edocuments.md).
-
-When you're ready, you can run the **Create New E-Document** action to generate an e-document based on the workflow rules.
 
 ## Related information
 

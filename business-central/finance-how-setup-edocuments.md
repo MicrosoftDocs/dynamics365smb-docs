@@ -2,14 +2,14 @@
 title: Set up e-documents
 description: Learn how to set up e-documents functionality.
 author: altotovi
+ms.author: altotovi
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 05/02/2024
-ms.author: altotovi
+ms.date: 03/18/2025
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Set up e-documents
@@ -18,16 +18,16 @@ ms.reviewer: bholtorf
 > The E-Documents core module is a framework. By default, there's no **Service Integration** field. If you find the **Document Format** options by default, remember that they're offered as examples. Localization apps must provide format detail because they're specific to local requirements.
 
 > [!NOTE]
-> As of version 23.2, a standard PEPPOL document format is a global format in the **Document Format** field. Keep in mind that you probably can't use this format as is. It's a W1 format that Microsoft provides to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use this format.
+> A standard PEPPOL document format is a global format in the **Document Format** field. Keep in mind that you probably can't use this format as is. It's a W1 format that Microsoft provides to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use this format.
 
 The first step to configure electronic documents (e-documents) is to set up the E-Documents Service for e-document communication.
 
-## Set up the E-Document Service
+## Set up an e-document service
 
-To set up the E-Document Service, follow these steps.
+To set up an e-document service, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. Select **New**, and then, on the **E-Document Services** page, on the **General** FastTab, configure the fields as described in the following table.
+2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -35,12 +35,13 @@ To set up the E-Document Service, follow these steps.
     | Description | Enter a brief description of the electronic export setup. |
     | Document Format | The export format of the electronic export setup. By default, there are two options in this field. You can select **PEPPOL BIS 3** as a generic code-based format or **Data Exchange** when you must set up predocuments of specific formats on the **Data Exchange Definition** FastTab.</p> |
     | Service Integration | Select the integration code for the electronic export setup. Currently, the only option is **No integration**. |
-    | Use Batch Processing | Specify whether the service uses batch processing for export. |
 
-3. On the **Imported Parameters** FastTab, configure the fields as described in the following table.
+3. On the **Importing** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
+    | Automatic Import | Specify whether documents should be automatically imported from the service. |
+    | Automatic processing| Specify whether [!INCLUDE [prod_short](includes/prod_short.md)] uses your e-document setup to automatically create a purchase document based on the received e-document. If you choose **No**, [!INCLUDE [prod_short](includes/prod_short.md)] creates the e-document, but you must review its details before you create the purchase document. |
     | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
     | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
     | Lookup Item Reference | Specify whether to search for items by item reference during import. |
@@ -49,11 +50,9 @@ To set up the E-Document Service, follow these steps.
     | Validate Line Discount | Specify whether to validate a line discount during import. |
     | Apply Invoice Discount | Specify whether to apply an invoice discount during import. |
     | Verify Totals | Specify whether to verify invoice totals during import. |
-    | Update Order | Specify whether to update the corresponding purchase order. |
     | Create Journal Lines | Specify whether a journal line must be created instead of a purchase document. Select this option when you want to use journals as a destination for your invoices. |
     | General Journal Template Name | Specify the name of the general journal template that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
     | General Journal Batch Name | Specify the name of the general journal batch that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
-    | Auto Import | Specify whether documents should be automatically imported from the service. |
     | Batch Start Time | Specify the start time for import jobs. |
     | Minutes between runs | Specify the number of minutes between import job runs. |
 
@@ -67,10 +66,20 @@ To set up the E-Document Service, follow these steps.
 
 > [!NOTE]
 > There are data exchange definitions for the PEPPOL format that are related to sales and purchase documents. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them.
+>
+> If you configured the **Data Exchange Definition** format in your localization, you can add a line for the document types that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+>
+> If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option for your format in the **Document Format** field.  
 
-If you configured the **Data Exchange Definition** format in your localization, you can add a line for the document types that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+5. On the **Exporting** FastTab, fill in the fields as described in the following table:
 
-If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option for your format in the **Document Format** field.  
+   |Field  |Description  |
+   |---------|---------|
+   | Batch Exporting | Specify whether the service uses batch processing to export e-documents. |
+   | Embed document PDF to export| Specify whether to embed a PDF version of the e-document in the e-document file when you export.|
+
+   > [!NOTE]
+   > The **Embed document PDF to export** option can make life a little easier. When you post a document, [!INCLUDE [prod_short](includes/prod_short.md)] creates a PDF file and embeds it as a PDF attachment in the e-document. The PDF is a human-readable version that's easier to understand than the full XML of the PEPPOL format.
 
 ### Supported document types
 

@@ -22,12 +22,12 @@ ms.reviewer: bholtorf
 
 The first step to configure electronic documents (e-documents) is to set up the E-Documents Service for e-document communication.
 
-## Set up the E-Document Service
+## Set up an e-document service
 
-To set up the E-Document Service, follow these steps.
+To set up an e-document service, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. Select **New**, and then, on the **E-Document Services** page, on the **General** FastTab, configure the fields as described in the following table.
+2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -37,10 +37,12 @@ To set up the E-Document Service, follow these steps.
     | Service Integration | Select the integration code for the electronic export setup. Currently, the only option is **No integration**. |
     | Use Batch Processing | Specify whether the service uses batch processing for export. |
 
-3. On the **Imported Parameters** FastTab, configure the fields as described in the following table.
+3. On the **Importing** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
+    | Automatic Import | Specify whether documents should be automatically imported from the service. |
+    | Automatic processing| Specify whether processes documents immediately, or requires that someone reviews and confirms the information.|
     | Validate Receiving Company | Specify whether the receiving company information must be validated during import. |
     | Resolve Unit Of Measure | Specify whether to resolve the unit of measure during import. |
     | Lookup Item Reference | Specify whether to search for items by item reference during import. |
@@ -53,7 +55,6 @@ To set up the E-Document Service, follow these steps.
     | Create Journal Lines | Specify whether a journal line must be created instead of a purchase document. Select this option when you want to use journals as a destination for your invoices. |
     | General Journal Template Name | Specify the name of the general journal template that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
     | General Journal Batch Name | Specify the name of the general journal batch that's used for journal line creation. This field is applicable when you want to use journals as a destination for your invoices. |
-    | Auto Import | Specify whether documents should be automatically imported from the service. |
     | Batch Start Time | Specify the start time for import jobs. |
     | Minutes between runs | Specify the number of minutes between import job runs. |
 

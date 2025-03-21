@@ -4,16 +4,18 @@ description: The Transaction Text field shows information about the automatic ap
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords:
-ms.date: 12/12/2023
+ms.search.keywords: transaction text, automatic application, payment reconciliation journal, FIK number, Denmark
+ms.date: 03/03/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# FIK details in the payment reconciliation journal
-The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard. For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).  
 
- The following table describes the six values that might be shown in the **Transaction Text** field.  
+# FIK details in the payment reconciliation journal
+
+The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard. Learn more in [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).  
+
+The following table describes the six values that might be shown in the **Transaction Text** field.
 
 |Transaction Text|Description|  
 |-----------------------------------------|---------------------------------------|  
@@ -24,9 +26,9 @@ The **Transaction Text** field on the **Payment Reconciliation Journal** page sh
 |**Duplicate FIK Number**|The system has discovered that there are payments that have similar FIK numbers.|  
 |**Invoice Already Paid**|The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.|  
 
-## See also  
-[Denmark Local Functionality](denmark-local-functionality.md)  
-[Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)
+## Related information
 
+- [Denmark Local Functionality](denmark-local-functionality.md)  
+- [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

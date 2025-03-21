@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_119_Primary
-ms.date: 10/03/2024
+ms.date: 03/12/2025
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
@@ -23,6 +23,9 @@ The report is based on recorded sales in the local currency (LCY) from customer 
 
 * Are within the filters on the **Customer** FastTab.
 * Have total sales that exceed the amount specified in the **Amounts (LCY) Greater Than** field on the **Options** FastTab.
+
+> [!TIP]
+> When you specify the period for the report, you use a date filter. To learn about entering date filters, go to [Period](../ui-enter-date-ranges.md#period).
 
 ## Use cases
 

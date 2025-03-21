@@ -46,6 +46,10 @@ Use **Inventory Pick** documents for picking production components in the flow t
 
 For a location that uses bins, you can extend the flow to production by using **Inventory Movement** documents. Inventory movements are especially useful for component flushing. To learn more about how component consumption is flushed from the To-Production or Open Shop Floor Bins, go to [Flushing Production Components in a Basic Warehouse Configuration](#flushing-production-components-in-a-basic-warehouse-configuration).
 
+#### Over-picking in production
+
+[!INCLUDE [manufacturing-overpicks](includes/manufacturing-overpicks.md)]
+
 ### Assembly  
 
 Use **Inventory Movement** documents to move assembly components to the assembly area.

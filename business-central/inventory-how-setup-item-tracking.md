@@ -90,6 +90,7 @@ You can create opening balances for the items you track. Because you can choose 
 3. Choose **New** to create a new batch, and then turn on the **Item Tracking on Lines** toggle.
 4. Choose **OK** to select the batch you created.
 5. Fill in the fields on the item journal line as necessary. Note that the **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available (if the feature is enabled).
+    1. Alternatively choose the **Edit in Excel** action. In Excel, you can now fill in columns, including **Serial No.**, **Lot No.**, **Package No.**, **Expiration Date**, and **Warranty Date**. When you're done, choose **Publish** to send changes to  [!INCLUDEprod_short].
 6. Choose the **Post** action to adjust inventory.
 
 > [!NOTE] 
@@ -102,9 +103,6 @@ You can create opening balances for the items you track. Because you can choose 
 3. Choose the **Register** action to make the inventory adjustments. Remember, you'll need to synchronize the adjusted warehouse entries with the related item ledger entries. To learn more, go to [synchronize the adjusted warehouse entries](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
 For bulk imports, use configuration packages to import data to the journals.
-
-> [!NOTE]
-> You can't use **Edit in Excel** to create journal lines with tracking information.
 
 ## See also
 

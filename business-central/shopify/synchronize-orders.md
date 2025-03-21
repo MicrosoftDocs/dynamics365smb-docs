@@ -1,21 +1,21 @@
 ---
 title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales orders from Shopify.
-ms.date: 10/24/2024
-ms.topic: article
-ms.service: dynamics-365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.date: 03/20/2025
+ms.topic: article
+ms.service: dynamics-365-business-central
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 ms.custom: bap-template
 ---
 
 # Synchronize and fulfill sales orders
 
-This article describes the necessary settings and steps that you must complete to synchronize and fulfill sales orders with Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
+This article describes the settings and steps that you must complete to synchronize and fulfill sales orders with Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Set the import of orders on the Shopify Shop Card
+## Set up the import of orders on the Shopify Shop Card
 
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
@@ -28,6 +28,8 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 * **Tip account**  
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
+
+It can be useful for people who work with Shopify Admin to see whether orders synchronized to Business Central. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization.
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
@@ -112,8 +114,8 @@ The location mapping is required to fill in the **Location Code** for sales docu
 The following procedure describes how to import and update the sales orders.
 
 > [!NOTE]  
-> Archived orders in Shopify can't be imported. If you need to check the order status, open the order from the [orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel and review order details.
-> 
+> You can't import orders that are archived in Shopify. If you need to check the order status, open the order from the [orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel and review its details.
+>
 > Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **General** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
@@ -151,7 +153,7 @@ The Shopify Connector imports orders in two steps:
      * Transactions
      * Returns and refunds, if configured
 
-The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and take the next steps:
+The **Shopify Orders to Import** page is useful for troubleshooting order import issues. It shows the newest orders on top. You can assess the orders that are available and take the next steps:
 
 * Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
 * Process only specific orders. Fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.
@@ -180,7 +182,7 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 4. Select the order for which you want to create a sales document and choose the **Create Sales Documents** action.
 5. Choose **Yes**.
 
-If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created.
+If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created. 
 
 A sales document is created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
 
@@ -231,7 +233,7 @@ Example: You have an online store and a Shopify POS. For your POS, you want to u
 
 Each job queue imports and processes orders within the defined filters and uses the rules from the corresponding Shopify Shop card. For example, they create point of sales orders for the default customer.
 
-> [!Important]
+> [!IMPORTANT]
 > To avoid conflicts when processing orders, use the same job queue category for both job queue entries.
 
 ### Effect of order editing

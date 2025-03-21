@@ -26,7 +26,7 @@ How the planning system controls item supply is determined by various settings o
 
 ## Define whether the item is planned  
 
-To include an item or SKU in the planning process, you must assign it a reordering policy. Otherwise, it must be planned manually, for example, by using the Order Planning feature.  
+To include an item or SKU in the planning process, you must assign it a reordering policy. Otherwise, it must be planned manually, for example, by using the **Order Planning** page.  
 
 ## Define when to reorder  
 
@@ -131,7 +131,7 @@ As an alternative to the automatic calculation that occurs dynamically if the fi
 > [!NOTE]
 > Although you turn on the **Dynamic Low-Level Code** field selected, the low-level codes of component items aren't changed dynamically if a parent BOM is deleted or set to noncertified. This case might make it difficult to add new items to the end of the product structure because it might exceed the maximum number of low-level codes. Therefore, for large product structures that reach the low-level code limit, you can run the **Calculate Low Level Code** batch job frequently to maintain the structure.  
 
-## Related information  
+## Related information
 
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  

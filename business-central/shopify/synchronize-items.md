@@ -99,6 +99,10 @@ You manage the process of exporting items using these settings:
 > [!NOTE]
 > When you want to export many items and variants, some might be blocked. You can't include blocked items and variants in price calculations, so they aren't exported. The Connector skips those items and variants, so you don't need to filter them on the **Add Item to Shopify** request page.
 
+### Activate sales channels
+
+When you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify, you can choose which sales channels to activate directly from the **Shopify Sales Channels** page. The **Shopify Sales Channels** page shows all available channels in Shopify. Just activate the ones you want, and the Shopify Connector handles the rest. If you haven't set up this page yet, don't worry. Your products default to the Online Store.
+
 ### Sync product translations to Shopify
 
 Automatically synchronizing translations from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify guarantees consistent product descriptions and details across various languages. Offering customers product information in their native language enhances accessibility and satisfaction, which can boost conversion rates and foster customer loyalty.

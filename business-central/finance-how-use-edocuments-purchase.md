@@ -22,7 +22,6 @@ You can use configured electronic documents (e-documents) with the following pur
 - General journals
 
 > [!NOTE]
-
 > When you receive an e-document from a specific vendor, [!INCLUDE [prod_short](includes/prod_short.md)] matches the e-document with the vendor by verifying the following information in this order:
 >
 > 1. **GLN** (from the Vendor card)
@@ -40,7 +39,7 @@ Follow these steps to configure vendors for incoming electronic invoices:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
 2. Choose the vendor you want to configure.
-3. In the **Receiving** FastTab, in the **Receive E-Document To** field, specify the default purchase document to generate from the received e-document.
+3. On the **Receiving** FastTab, in the **Receive E-Document To** field, specify the default purchase document to generate from the received e-document.
 
    > [!NOTE]
    >
@@ -60,7 +59,6 @@ Follow these steps to configure vendors for incoming electronic invoices:
 > This batch job automates the process of collecting your incoming invoices. It works only in countries or regions where the functionality is available.  
 
 Every time a **Job Queue** is selected to run, if the external service has incoming invoices from your vendor, [!INCLUDE [prod_short](includes/prod_short.md)] collects and imports the invoices. To complete the process, follow these steps:
-
 
 1. After the batch job finishes, the **E-Documents** page lists the imported invoices and their basic details.
 2. To view more details, open a specific e-document.
@@ -100,6 +98,15 @@ There are two common errors:
 - If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. Learn more in [use item references](inventory-how-use-item-cross-refs.md).
 
 After you fix the errors and warnings, you can manually specify when to create a purchase invoice based on your setup by selecting **Create Document**.
+
+### Recreate a deleted purchase invoice or credit memo
+
+Mistakes happen, so it's important to be able to fix them quickly. If you accidentally delete a purchase invoice or credit memo and can't link the incoming e-document to the correct one, you can now recreate a new purchase document based on details in the e-document. Problem solved, and you can go take care of other business.
+
+If you accidentally delete a purchase invoice or credit memo, you can't proceed with the e-document connection with the regular purchase document in Business Central. To get yourself unstuck, you can run the **Recreate Document** action from the e-document. The action creates an unposted purchase invoice or credit memo based on the type of incoming document, its information, and the G/L mapping or item references used.
+
+> [!NOTE]
+> The action works only with unposted purchase invoices and credit memos. It doesn't work for purchase orders.
 
 #### To map text on an e-document to a specific vendor account
 
@@ -147,6 +154,7 @@ You can match your received electronic documents with purchase orders' lines fro
 
 > [!TIP]
 > There are two ways to match lines. One way is to do it manually, as described in the article. The other way is to use the **E-document matching assistance with Copilot**. The E-document matching assistance feature helps you match received electronic invoices with existing purchase order lines by using large language modules (LLM) model. Learn more about using Copilot in [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md).
+
 > [!NOTE]
 > If the VAT percentage differs between the incoming document and the company's VAT percentage, matching documents can't be used in a multi-country environment.  
 

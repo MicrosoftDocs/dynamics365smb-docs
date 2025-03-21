@@ -2448,6 +2448,7 @@ ms.service: dynamics-365-business-central
 #### [Define data retention policies](admin-data-retention-policies.md)
 #### [Manage data encryption](admin-manage-data-encryption.md)
 #### [View database locks](admin-view-database-locks.md)
+### [Specify the languages that are available in your Business Central environment](admin-allowed-languages.md)
 ### [Set up printers](ui-specify-printer-selection-reports.md)
 ### [Privacy notices status](privacy-notices-status.md)
 ### [Create new companies](about-new-company.md)

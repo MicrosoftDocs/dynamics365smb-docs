@@ -69,7 +69,7 @@ In the preview, use the menu bar on the report preview to:
 
 - Pan the document
   
-  You can move the visible area of the report in any direction to view other areas of the report. Panning is helpful when you've zoomed in to see details. Using your mouse, for example, select and hold the left mouse button anywhere in the report preview, and then move your mouse to select a section of the report.
+  You can move the visible area of the report in any direction to view other areas of the report. Panning is helpful when you zoom in to see details. Using your mouse, for example, select and hold the left mouse button anywhere in the report preview, and then move your mouse to select a section of the report.
 
 - Download to a PDF file on your computer or network.
 - Print
@@ -78,7 +78,7 @@ In the preview, use the menu bar on the report preview to:
 
 You can save a report to a PDF document, Microsoft Word document, Microsoft Excel workbook, or XML document by choosing **Send to**, then making your selection. A file is downloaded to your computer.
 
-If your organization has configured OneDrive for system features, instead of being downloaded, Excel workbooks and Word documents are opened in your browser using either Excel or Word for the web.
+If your organization configured OneDrive for system features, instead of being downloaded, Excel workbooks and Word documents are opened in your browser using either Excel or Word for the web.
 
 > [!TIP]
 > The **Microsoft Excel Document (data only)** and **XML Document** options are mostly for advanced purposes. You'd typically use these options to do detailed data analysis. Learn more at [Analyzing Report Data with Excel and XML](report-analyze-excel.md).
@@ -112,7 +112,7 @@ Learn more about job queue management at [Use Job Queues to Schedule Tasks](admi
 
 To print a report, select **Print** on the report request page or on the menu bar of the **Preview** page.
 
-When a report uses an Excel layout, you won't see the **Printer** field or **Print** or **Preview** buttons. Instead, there's a **Download** option. To print, select **Download**, then open the downloaded file in Excel and print from there.
+When a report uses an Excel layout, you don't have the **Printer** field or **Print** or **Preview** buttons. Instead, there's a **Download** option. To print, select **Download**, then open the downloaded file in Excel and print from there.
 
 ### <a name="Printer"></a>Printer
 
@@ -122,7 +122,7 @@ The **Printer** field on the request page shows the name of printer the report i
 > The **(Handled by the browser)** option indicates there's no designated printer for the report. In this case, the browser handles the printout and displays the standard printing steps, where you can choose a local printer connected to your computer. The **(Handled by the browser)** option isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Microsoft Teams.
 
 > [!TIP]
-> The printer that's selected for you by default is set up on the **Printer Selections** page. Learn more about how you can change the default printer in the [Set up default printers](ui-specify-printer-selection-reports.md#default) section.
+> The printer selected for you by default is set up on the **Printer Selections** page. Learn more about how you can change the default printer in the [Set up default printers](ui-specify-printer-selection-reports.md#default) section.
 
 ### Print reports in Thai
 
@@ -163,11 +163,11 @@ The fields under the **Advanced** FastTab set limitations on the generated repor
 |Maximum documents|500|
 
 > [!NOTE]
-> The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> The maximum values might be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## Get help for a report
 
-You can get help using a report in two ways: report teaching tip and help pane.
+You can get help using a report in two ways: teaching tips and help pane.
 
 ### Teaching tip for a report
 

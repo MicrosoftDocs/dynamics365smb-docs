@@ -22,12 +22,12 @@ ms.custom: bap-template
 
 The first step to configure electronic documents (e-documents) is to set up the E-Documents Service for e-document communication.
 
-## Set up the E-Document Service
+## Set up an e-document service
 
-To set up the E-Document Service, follow these steps.
+To set up an e-document service, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. Select **New**, and then, on the **E-Document Services** page, on the **General** FastTab, configure the fields as described in the following table.
+2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|

@@ -514,21 +514,6 @@ ms.service: dynamics-365-business-central
 #### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
 #### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
-### Sustainability management
-#### [Sustainability management overview](finance-manage-sustainability.md)
-#### [Sustainability setup](finance-sustainability-setup.md)
-#### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
-#### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
-#### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
-#### [Work with carbon credit](sustainability-carbon-credit.md)
-#### [Sustainability certificates](sustainability-certificates.md)
-#### Sustainability analytics
-##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
-##### [Built-in sustainability reports](sustainability-reports.md)
-##### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
-#### Sustainability APIs
-##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
-
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
 ##### [Company consolidation](finance-consolidated-company-reporting.md)
@@ -687,6 +672,7 @@ ms.service: dynamics-365-business-central
 ### [Record purchases](purchasing-how-record-purchases.md)
 ### [Request quotes](purchasing-how-request-quotes.md)
 ### [Purchase items for a sale](purchasing-how-purchase-products-sale.md)
+### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 <!-- ### [Post Purchases](ui-post-purchases.md) -->
 ### [Correct or cancel unpaid purchase invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Combine receipts on a single invoice](purchasing-how-to-combine-receipts.md)
@@ -1143,6 +1129,31 @@ ms.service: dynamics-365-business-central
 #### [Service posting](service-service-posting.md)
 #### [Post service orders and credit memos](service-how-to-post-service-orders.md)
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
+
+<!--Sustainability-->
+## Sustainability management
+### [Sustainability management overview](finance-manage-sustainability.md)
+### [Sustainability setup](finance-sustainability-setup.md)
+### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
+### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
+### [Work with carbon credit](sustainability-carbon-credit.md)
+### [Sustainability certificates](sustainability-certificates.md)
+### Sustainability Value Chain
+#### [Sustainability Value Chain](value-chain-howto-overview.md)
+#### [Value Chain Setup](value-chain-howto-setup.md)
+#### [Default emission values](sustainability-howto-default.md)
+#### [Value Chain in Purchase](value-chain-howto-purchase.md)
+#### [Value Chain in Transfers](value-chain-howto-transfer.md)
+#### [Value Chain in Assembly process](value-chain-howto-assembly.md)
+#### [Value Chain in Production process](value-chain-howto-mfg.md)
+#### [Value Chain in Sales](value-chain-howto-sales.md)
+### Sustainability analytics
+#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+#### [Built-in sustainability reports](sustainability-reports.md)
+#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+### Sustainability APIs
+#### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 <!--Shopify-->
 ## Online store with Shopify
@@ -1671,9 +1682,8 @@ ms.service: dynamics-365-business-central
 ##### [Apply and unapply general ledger entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Required descriptions in G/L entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Purchasing
-##### [Check purchase amounts](LocalFunctionality/Netherlands/check-purchase-amounts.md)
+##### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 ##### [Edit document amounts in purchase invoices and credit memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
-##### [Set up validation of purchase amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 #### General
 ##### [CMR notes](LocalFunctionality/Netherlands/cmr-notes.md)
 ##### [Dutch postal codes](LocalFunctionality/Netherlands/dutch-post-codes.md)
@@ -2060,6 +2070,7 @@ ms.service: dynamics-365-business-central
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 #### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
+#### [Set up validation of purchase amounts](how-to-set-up-validation-of-purchase-amounts.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)
@@ -2524,6 +2535,9 @@ ms.service: dynamics-365-business-central
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
+## Autofill (preview)
+### [Autofill fields with Copilot](autofill-fields-with-copilot.md)
+### [Responsible AI FAQ for autofill](faqs-autofill.md)
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
@@ -2557,6 +2571,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
+## [FAQ for autofill](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)

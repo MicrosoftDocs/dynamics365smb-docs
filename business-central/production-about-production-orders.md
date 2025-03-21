@@ -171,7 +171,7 @@ You can use any combination of automatic flushing and manually recorded informat
 
 Finally, if you enter consumption and output manually, you need to determine the sequence in which you're going to record this information. You can record consumption first and use a shortcut method to enter the information, which is based on expected quantity of output. Or, you can enter output first, using the **Explode Routing** action. You would then record consumption based on actual quantity of output.  
 
-### Production journal  
+### Production journals  
 
 The [Production Journal](production-how-to-register-consumption-and-output.md) combines the functions of a consumption journal and output journals into one journal, which is accessed directly from the released production order.  
 

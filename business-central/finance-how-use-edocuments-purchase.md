@@ -55,7 +55,7 @@ Follow these steps to configure vendors for incoming electronic invoices:
 #### Run the batch job  
 
 > [!NOTE]
-> This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality is available.  
+> This batch job automates the process of collecting your incoming invoices. It works only in countries or regions where the functionality is available.  
 
 Every time a **Job Queue** is selected to run, if the external service has incoming invoices from your vendor, [!INCLUDE [prod_short](includes/prod_short.md)] collects and imports the invoices. To complete the process, follow these steps:
 
@@ -96,7 +96,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 
 5. Repeat steps 2 through 5 for all error messages on E-documents that you want to automatically create **G/L Accounts** and documents for.  
 
-#### Manually import invoices  
+#### Manually import one or more invoices  
 
 To manually import one or more external e-documents, follow these steps:
 

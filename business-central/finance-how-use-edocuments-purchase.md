@@ -22,6 +22,7 @@ You can use configured electronic documents (e-documents) with the following pur
 - General journals
 
 > [!NOTE]
+
 > When you receive an e-document from a specific vendor, [!INCLUDE [prod_short](includes/prod_short.md)] matches the e-document with the vendor by verifying the following information in this order:
 >
 > 1. **GLN** (from the Vendor card)
@@ -31,7 +32,7 @@ You can use configured electronic documents (e-documents) with the following pur
 
 ## E-documents in purchases
 
-You can receive purchase e-documents manually or by using a batch job.  
+You can receive purchase e-documents manually, or by using the **Receive** batch job.  
 
 ### Set up vendors to work with different purchase documents  
 
@@ -55,21 +56,41 @@ Follow these steps to configure vendors for incoming electronic invoices:
 #### Run the batch job  
 
 > [!NOTE]
+
 > This batch job automates the process of collecting your incoming invoices. It works only in countries or regions where the functionality is available.  
 
 Every time a **Job Queue** is selected to run, if the external service has incoming invoices from your vendor, [!INCLUDE [prod_short](includes/prod_short.md)] collects and imports the invoices. To complete the process, follow these steps:
 
-1. After the batch job finishes running, the newly imported invoices are listed on the **E-Documents** page, together with their basic detail information.
+
+1. After the batch job finishes, the **E-Documents** page lists the imported invoices and their basic details.
 2. To view more details, open a specific e-document.
-3. If there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if it's configured on the **Vendor Card** page (that the system automatically created). To open the document, select the link.
+3. Depending on whether your e-document setup automatically processes invoices, or requires that you review and confirm the details before processing, follow these steps. To learn more about how to require confirmation, go to [Set up e-documents](finance-how-setup-edocuments.md).
+
+   **Automatic processing**
+
+   1. If you automatically process invoices, and there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if a number series is specified on the **Vendor Card** page. To open the document, select the link.
 
    > [!NOTE]
    > This system-created document isn't the posted document.
 
-4. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. If everything is correct, post the document.  
-5. When you post the purchase document, the **Record** field on the **E-Document** is updated from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open the posted purchase invoice.
+   2. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. If everything is correct, post the document.  
+   3. When you post the purchase document, the **Record** field on the **E-Document** is updated from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open the posted purchase invoice.
 
-Details about logs are the same as they are in the sales process for e-documents.  
+   Details about logs are the same as they are in the sales process for e-documents.  
+
+   **Review and confirm before processing**
+
+   1. If you must review and confirm the details before processing the invoice, open the document.
+   1. On the **E-Document** page, choose the **View extracted data** action.
+   1. On the **Received purchase document data** page, review the details. If things look good, choose **OK**.
+   1. To process the invoice, follow the steps described for **Automatic processing**.
+
+   > [!TIP]
+   > When you receive an incoming e-document, it's typically in XML or similar format that can be difficult, if not impossible, to read. For example, if you aren't technical and don't understand the XML format, it might be hard to review an invoice before you process it. To make it easier for everyone to review incoming e-documents, invoices and credit memos have an **E-invoice Lines** FastTab that displays details from the imported file, such as line and header information, in a way that's easy to understand.
+   >
+   > The preview feature is only available for invoice and credit memo types of incoming e-documents.
+
+### Handle errors and warnings
 
 Because errors in the sales process are mostly related to the availability of the service, the incoming document can contain multiple reasons. The most common reason for an error is that the system can't recognize the lines on the e-document that you got from your vendor. Therefore, it can't enter lines in your purchase invoice.
 
@@ -78,7 +99,7 @@ There are two common errors:
 - If you want to use this specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error, if you want to use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.** value that you want to use. Learn more about account mapping [here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
 - If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. Learn more in [use item references](inventory-how-use-item-cross-refs.md).
 
-After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.
+After you fix the errors and warnings, you can manually specify when to create a purchase invoice based on your setup by selecting **Create Document**.
 
 #### To map text on an e-document to a specific vendor account
 
@@ -88,7 +109,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 
 1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 2. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
-3. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
+3. In the **Vendor No.** field, enter the vendor to create the purchase document or journal line for.
 4. In the **Debit Acc. No.** field, enter the debit-type G/L account that is inserted on resulting purchase document or journal line of type G/L Account.
 
    > [!NOTE]

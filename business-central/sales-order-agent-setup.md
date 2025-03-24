@@ -98,7 +98,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 #### [From Sales Order Agent card page](#tab/soapage)
 
-1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**
+1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
 1. Set **Status** to **Disabled** to deactivate the agent.
 1. In the **User access** section, you can do the following steps:
 
@@ -134,6 +134,12 @@ These system permissions are also included in the following permission sets, ent
 Users can configure the Sales Order Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
 
 Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
+
+## Manage language and regional setting
+
+
+1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
+1. 
 
 ## Next steps
 

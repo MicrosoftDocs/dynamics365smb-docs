@@ -20,7 +20,7 @@ This article answers some common questions about chatting with Copilot in [!INCL
 
 ## Can admins grant or deny permission to individual users to get access to chat?
 
-Starting in 2025 release wave 1 (update 26.0), admins can control precisely who has access to Chat with Copilot. Learn more in [Configure Copilot and AI capabilities](enable-ai.md#granting-user-access).
+Starting in 2025 release wave 1 (update 26.0), admins can control precisely who has access to Chat with Copilot. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#granting-user-access).
 
 ## Can Copilot answer questions about any records? 
 
@@ -47,7 +47,7 @@ It depends on the type of question you ask Copilot. For example:
 - If you ask questions to find records, it can find records in your custom tables that use custom fields.
 - If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
 
-Learn how to improve Copilot output as a developer in []().
+Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-considerations).
 
 ## How does Copilot locate records? 
 
@@ -73,7 +73,8 @@ You can use the Copy button to copy a message from earlier in your conversation 
 
 ## Can I customize or extend chat?
 
-While in preview, the chat pane and Copilot's responses can't be modified in any way through customization, add-ins, or personalization.
+While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools or personalization. 
+Fnd more information about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-considerations).
 
 ## Does Copilot search for data in other companies or environments?
 
@@ -91,9 +92,10 @@ To prevent chat from connecting to the Microsoft Learn online service, deactivat
 
 ## What can I do if the chat pane doesn't show?
 
-- Make sure your [!INCLUDE[prod_short](includes/prod_short.md)] is version 25.3 or later.
-- Make sure the entry for "Chat with Copilot" is enabled for all users in the **Feature Management** page,
-- If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling out this feature to your region. You can track planned available for each Azure geography at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+- Make sure your [!INCLUDE[prod_short](includes/prod_short.md)] is version 25.4 or later.
+- For Business Central versions 25.4 to 25.5, make sure the entry for "Chat with Copilot" is enabled for all users in the **Feature Management** page.
+- Make sure you have permission to chat with Copilot. Learn more in [Configure Copilot & agent capabilities](enable-ai.md#granting-user-access).
+- For Business Central version 26 and later, make sure **Chat** is active in the **Copilot & agent capabilities** page. In some countries and regions, Chat with Copilot isn't active by default. Learn more in [Configure Copilot & agent capabilities](enable-ai.md).
 
 ## Why does Copilot only show three records in the chat pane?
 

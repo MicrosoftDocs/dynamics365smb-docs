@@ -44,7 +44,7 @@ This feature is available on most card and document pages, like a **Customer car
 
    ![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
 
-   Review the summary before making any decisions because the content is AI-generated and might be incorrect or inaccurate.
+   Review the summary before making any decisions. The content is AI-generated and might be incorrect or inaccurate.
 
    - Explore the data
 
@@ -56,7 +56,7 @@ This feature is available on most card and document pages, like a **Customer car
 
    - Regenerate the summary
 
-     Select the **Regenerate summary** icon to generate a new summary that's updated with changes to the record and related data. The same summary appears for a few minutes before generate a new one, but you can request a summary from the latest data at any time.
+     Select the **Regenerate summary** icon to generate a new summary, updated with changes to the record and related data. The same summary appears for a few minutes before a new one is automatically generated, but you can request a summary from the latest data at any time.
 
 ## Show or hide the summary
 

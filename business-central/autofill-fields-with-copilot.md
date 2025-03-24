@@ -97,5 +97,5 @@ When Copilot suggests a field value and you use any feature that saves a value t
 
 [Responsible AI FAQ for autofill (preview)](faqs-autofill.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Keyboard shortcuts](keyboard-shortcuts.md)

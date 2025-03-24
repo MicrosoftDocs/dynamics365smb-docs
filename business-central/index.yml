@@ -437,9 +437,9 @@ additionalContent:
 #            url: /dynamics365/business-central/about-localization
   - title: Administer and develop
     items:
-    - title: Copilot and AI capabilities
+    - title: Copilot and agent capabilities
       links:
-      - text: Configure Copilot and AI capabilities
+      - text: Configure Copilot and agent capabilities
         url: /dynamics365/business-central/enable-ai
       - text: Extend Copilot in Business Central
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page

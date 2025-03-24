@@ -97,6 +97,14 @@ To prevent chat from connecting to the Microsoft Learn online service, deactivat
 - Make sure you have permission to chat with Copilot. Learn more in [Configure Copilot & agent capabilities](enable-ai.md#granting-user-access).
 - For Business Central version 26 and later, make sure **Chat** is active in the **Copilot & agent capabilities** page. In some countries and regions, Chat with Copilot isn't active by default. Learn more in [Configure Copilot & agent capabilities](enable-ai.md).
 
+## How is Microsoft improving chat with Copilot?
+
+While we're continually working on improving reliability and response time, we've also announced the next expansion of Chat where Copilot will be able to answer question about how to use installed add-on apps [Chat with Copilot to learn how to use installed add-on apps](/dynamics365/release-plan/2025wave1/smb/dynamics365-business-central/chat-copilot-learn-use-installed-add-on-apps).
+
+We encourage administrators to also try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature Update: Improved search when chatting with Copilot** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
+
+We look forward to hear your feedback about how Copilot can provide better assistance to your workday. 
+
 ## Why does Copilot only show three records in the chat pane?
 
 When you ask Copilot to find records, the way you phrase the question determines how Copilot identifies and applies filters on pages to find what you are looking for. To keep answers concise, the chat pane displays a maximum of three record tiles, even when Copilot finds more relevant records.

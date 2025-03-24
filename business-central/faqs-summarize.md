@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for summarize (preview)
 description: Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 03/10/2025
+ms.date: 03/24/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -32,21 +32,21 @@ Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts prod
 
 - From the initial summary, users can ask for more insights, where Copilot displays more points in the Copilot pane. Users can ask follow-up questions to learn how to use Business Central to take action based on those insights.
 
-- No matter where the summary is displayed, Copilot makes it easy to review and explore the data points referenced in the summary. This data is hyperlinked and can be previewed or help you navigate to the source where you can view the details or take action.
+- When any summary is displayed, Copilot makes it easy to review and learn about the facts referenced by the summary. These references are hyperlinked, so that users can quickly view or navigate to the source where they can explore details and take action.
 
-While the summary text is AI-generated, each insight is grounded in real data from Business Central. Copilot inherits the user’s data permissions and can’t read any more data than the user already has access to.
+While the summary text is AI-generated, each insight is grounded in factual data from Business Central. Copilot inherits the user’s data permissions and can’t read any more data than the user already has access to.
 
 ## What is the intended use of summarize?
 
-This feature helps people understand their business data, reduces the time it takes to sift through Business Central’s rich dataset, and makes Business Central easier to use. It isn’t designed to make decisions, provide recommendations, or advise on how to act or optimize your business.
+This feature helps people understand their business data, reduces the time it takes to sift through Business Central’s rich dataset, and makes Business Central easier to use. It isn't designed to make decisions on your behalf, provide recommendations, or advise on how to act or optimize your business.
 
 Summaries don't automatically trigger actions on behalf of the user or the organization, and they don't persist to the database for other automated functions to use.
 
 ## How was Summarize evaluated? What metrics are used to measure performance?
 
-This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft.
+This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft in [Empowering responsible AI practices](https://aka.ms/RAI).
 
-The feature underwent extensive AI testing using Business Central's demonstration data supplemented with extra, fictitious business data and volume data. Testing primarily covered various fields and pages from Business Central’s base application, with some testing also carried out on custom pages and fields. Copilot’s output was evaluated for accuracy of ranked insights, use of  language, grounding of values in database data, and other metrics.
+The feature underwent extensive AI testing using Business Central's demonstration data supplemented with extra, fictitious business data and volume data. Testing primarily covered various fields and pages from Business Central’s base application, with some testing also carried out on custom pages and fields. Copilot’s output was evaluated for accuracy of ranked insights, use of language, grounding of values in database data, and other metrics.
 
 To ensure customer safety and data protection, this feature underwent rigorous testing to detect and deflect harmful content, jailbreaks, and other risks.
 
@@ -54,9 +54,9 @@ To ensure customer safety and data protection, this feature underwent rigorous t
 
 Microsoft has various automated systems to ensure that output from Copilot is of the highest quality. Automated systems also detect abuse and ensure safety for our customers and their data by filtering harmful content.
 
-Microsoft might disable Copilot features for specific customers if abuse is detected.
+Microsoft might turn off Copilot features for specific customers if abuse is detected.
  
-Users can provide feedback on every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, report it to Microsoft using this feedback form: Report abuse. We analyze user feedback and use it to improve responses.
+Users can provide feedback on every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, report it to Microsoft using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). We analyze user feedback and use it to improve responses.
 
 You provide feedback by using the like (thumbs up) or dislike (thumbs down) icons that are displayed alongside generated content.
 
@@ -78,6 +78,8 @@ Organizations that operate in some business domains, such as medical, drugs, leg
 - Summaries about people
 
 Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of other safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
+
+It isn't designed to make decisions on your behalf, provide
 
 ## What data does Summarize collect and how is it used?
 

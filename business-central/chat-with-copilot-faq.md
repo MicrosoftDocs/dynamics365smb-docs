@@ -20,8 +20,11 @@ This article answers some common questions about chatting with Copilot in [!INCL
 
 ## Can admins grant or deny permission to individual users to get access to chat?
 
-No, there's no permission or permission set for chat. If chat is activated on the [Copilot and AI capabilities](enable-ai.md) page, every user in an environment has access to chat.
-Starting with 2025 release wave 1, administrators can control precisely who has access to Chat with Copilot. See <permissions>
+Starting in 2025 release wave 1 (update 26.0), admins can control precisely who has access to Chat with Copilot. Learn more in [Configure Copilot and AI capabilities](enable-ai.md#granting-user-access).
+
+## Can Copilot answer questions about any records? 
+
+When chatting with Copilot about records and pages, Copilot searches your company data within [!INCLUDE[prod_short](includes/prod_short.md)] on your behalf and can only access the data you have permission to access. [!INCLUDE[prod_short](includes/prod_short.md)]'s extensive security, privacy, and compliance controls also apply to Copilot. For example, you can't ask Copilot to show masked or secret fields or retrieve records controlled by record-level security.
 
 ## Is chat available on tablet, phone, or other form factors?
 
@@ -29,11 +32,11 @@ No, the chat pane is only available on the [!INCLUDE[web_client](includes/web_cl
 
 ## In which countries or regions can I chat with Copilot?
 
-Chat is rolling out to all Business Central countries and regions from the end of January 2025, starting with 48 countries in update 25.3 and more with 25.4. If you're unable to access the chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
+Starting in update 25.4, chat is available in all [!INCLUDE[prod_short](includes/prod_short.md)] countries and regions. If you're unable to access the chat pane, find the answer in [What can I do if the chat pane doesn't show?](#what-can-i-do-if-the-chat-pane-doesnt-show)
 
 ## I don't use Business Central in English. What are my options?
 
-As of January 2025, chat is available no matter which language you use in Business Central.
+As of January 2025, chat is available no matter which language you use in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
@@ -43,6 +46,18 @@ It depends on the type of question you ask Copilot. For example:
 
 - If you ask questions to find records, it can find records in your custom tables that use custom fields.
 - If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
+
+Learn how to improve Copilot output as a developer in []().
+
+## How does Copilot locate records? 
+
+When you chat with Copilot and ask to find a single record, multiple records, or a field from a record, Copilot uses various mechanisms to search for this information. Copilot will generate the appropriate sorting and filtering on list pages and their corresponding source tables. It uses the fields on the page, as well as those on the underlying table, as part of these operations and in its responses. 
+
+## Does Copilot have access to all fields on a table? 
+
+No, there are certain fields that Copilot never uses when finding records. For example, it always excludes fields that may contain passwords or other secrets. For technical information about which field data types are excluded, see <link to new article>. 
+
+Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and may not be part of Copilot’s response. For example, if your administrator has not granted you permission to personalize Business Central, Copilot will only reveal the same fields that are typically shown on the list pages. 
 
 ## How do I open a record or page from chat?
 
@@ -68,15 +83,15 @@ Copilot only searches for records in the company you're currently signed into. I
 
 The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation. Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md).
 
-Microsoft Learn online service endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and Business Central always connects to endpoints in Switzerland or Europe Azure geographies.
+Microsoft Learn online service endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 
-If your Business Central environment is deployed to any other Azure geography, Business Central connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. In this case, when you use chat to ask for explanations on how to do things in Business Central, only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography, where they're processed and not stored for more than one day.
+If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. In this case, when you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography, where they're processed and not stored for more than one day.
 
 To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & AI capabilities** page. Learn more in [Configure Copilot and AI capabilities](enable-ai.md#activate-features).
 
 ## What can I do if the chat pane doesn't show?
 
-- Make sure your Business Central is version 25.3 or later.
+- Make sure your [!INCLUDE[prod_short](includes/prod_short.md)] is version 25.3 or later.
 - Make sure the entry for "Chat with Copilot" is enabled for all users in the **Feature Management** page,
 - If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling out this feature to your region. You can track planned available for each Azure geography at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
@@ -86,7 +101,7 @@ When you ask Copilot to find records, the way you phrase the question determines
 
 ## Why does Copilot give incorrect answers to calculations?
 
-While in preview, chat with Copilot can help you find records, explain concepts, and guide you to how to complete tasks in Business Central. Other use cases aren't supported, such as adding up a field across records or calculating the average monthly amount. We hope to add basic mathematics abilities to Copilot in the future.
+While in preview, chat with Copilot can help you find records, explain concepts, and guide you to how to complete tasks in [!INCLUDE[prod_short](includes/prod_short.md)]. Other use cases aren't supported, such as adding up a field across records or calculating the average monthly amount. We hope to add basic mathematics abilities to Copilot in the future.
 
 ## Can I use speech instead of typing my prompts?
 

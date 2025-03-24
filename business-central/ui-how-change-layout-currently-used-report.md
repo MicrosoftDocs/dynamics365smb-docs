@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# (Legacy) Set the Layout Used by a Report
+# (Obsolete) Set the Layout Used by a Report
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 

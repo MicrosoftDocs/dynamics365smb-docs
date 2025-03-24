@@ -47,7 +47,7 @@ It depends on the type of question you ask Copilot. For example:
 - If you ask questions to find records, it can find records in your custom tables that use custom fields.
 - If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
 
-Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-considerations).
+Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
 ## How does Copilot locate records? 
 
@@ -55,9 +55,9 @@ When you ask to find a single record, multiple records, or a field from a record
 
 ## Does Copilot have access to all fields on a table? 
 
-No, there are certain fields that Copilot never uses when finding records. For example, it always excludes fields that might contain passwords or other secrets. For technical information about which field data types are excluded, see <link to new article>. 
+No, Copilot never uses certain fields when finding records. For example, it excludes fields that might contain passwords or other secrets. Learn which field data types are excluded in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
-Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your administrator hasn't granted you permission to personalize Business Central, Copilot only reveals the same fields that are typically shown on the list pages. 
+Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your administrator hasn't granted you permission to personalize Business Central, Copilot reveals only the same fields that are typically shown on the list pages. 
 
 ## How do I open a record or page from chat?
 

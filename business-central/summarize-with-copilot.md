@@ -44,7 +44,7 @@ This feature is available on most card and document pages, like a **Customer car
 
    ![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
 
-   Review the summary before making any decisions. The content is AI-generated and might be incorrect or conatun inaccuracies.
+   Review the summary before making any decisions because the content is AI-generated and might be incorrect or inaccurate.
 
    - Explore the data
 

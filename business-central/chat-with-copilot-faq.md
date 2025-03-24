@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/06/2025
+ms.date: 03/24/2025
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -24,7 +24,7 @@ Starting in 2025 release wave 1 (update 26.0), admins can control precisely who 
 
 ## Can Copilot answer questions about any records? 
 
-When chatting with Copilot about records and pages, Copilot searches your company data within [!INCLUDE[prod_short](includes/prod_short.md)] on your behalf and can only access the data you have permission to access. [!INCLUDE[prod_short](includes/prod_short.md)]'s extensive security, privacy, and compliance controls also apply to Copilot. For example, you can't ask Copilot to show masked or secret fields or retrieve records controlled by record-level security.
+When you chat with Copilot about records and pages, Copilot searches your company data within [!INCLUDE[prod_short](includes/prod_short.md)] on your behalf and can only access the data you have permission to access. [!INCLUDE[prod_short](includes/prod_short.md)]'s extensive security, privacy, and compliance controls also apply to Copilot. For example, you can't ask Copilot to show masked or secret fields or retrieve records controlled by record-level security.
 
 ## Is chat available on tablet, phone, or other form factors?
 
@@ -51,13 +51,13 @@ Learn how to improve Copilot output as a developer in [Influencing Copilot and a
 
 ## How does Copilot locate records? 
 
-When you chat with Copilot and ask to find a single record, multiple records, or a field from a record, Copilot uses various mechanisms to search for this information. Copilot will generate the appropriate sorting and filtering on list pages and their corresponding source tables. It uses the fields on the page, as well as those on the underlying table, as part of these operations and in its responses. 
+When you ask to find a single record, multiple records, or a field from a record, Copilot uses various mechanisms to search for this information. Copilot generates the appropriate sorting and filtering on list pages and their corresponding source tables. It uses the fields on the page and fields on the underlying tables as part of these operations and in its responses.
 
 ## Does Copilot have access to all fields on a table? 
 
-No, there are certain fields that Copilot never uses when finding records. For example, it always excludes fields that may contain passwords or other secrets. For technical information about which field data types are excluded, see <link to new article>. 
+No, there are certain fields that Copilot never uses when finding records. For example, it always excludes fields that might contain passwords or other secrets. For technical information about which field data types are excluded, see <link to new article>. 
 
-Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and may not be part of Copilot’s response. For example, if your administrator has not granted you permission to personalize Business Central, Copilot will only reveal the same fields that are typically shown on the list pages. 
+Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your administrator hasn't granted you permission to personalize Business Central, Copilot only reveals the same fields that are typically shown on the list pages. 
 
 ## How do I open a record or page from chat?
 
@@ -73,8 +73,8 @@ You can use the Copy button to copy a message from earlier in your conversation 
 
 ## Can I customize or extend chat?
 
-While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools or personalization. 
-Fnd more information about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-considerations).
+While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. 
+Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-considerations).
 
 ## Does Copilot search for data in other companies or environments?
 
@@ -86,7 +86,7 @@ The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for o
 
 Microsoft Learn online service endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 
-If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. In this case, when you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography, where they're processed and not stored for more than one day.
+If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
 
 To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
 
@@ -99,11 +99,11 @@ To prevent chat from connecting to the Microsoft Learn online service, deactivat
 
 ## How is Microsoft improving chat with Copilot?
 
-While we're continually working on improving reliability and response time, we've also announced the next expansion of Chat where Copilot will be able to answer question about how to use installed add-on apps [Chat with Copilot to learn how to use installed add-on apps](/dynamics365/release-plan/2025wave1/smb/dynamics365-business-central/chat-copilot-learn-use-installed-add-on-apps).
+We're continually working on improving reliability and response time. We announced the next expansion of chat where Copilot can answer questions about how to use installed add-on apps. Learn more in [Chat with Copilot to learn how to use installed add-on apps](/dynamics365/release-plan/2025wave1/smb/dynamics365-business-central/chat-copilot-learn-use-installed-add-on-apps).
 
-We encourage administrators to also try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature Update: Improved search when chatting with Copilot** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
+We encourage administrators to try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature Update: Improved search when chatting with Copilot** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields, and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
 
-We look forward to hear your feedback about how Copilot can provide better assistance to your workday. 
+We look forward to getting your feedback about how Copilot can provide better assistance to your workday.
 
 ## Why does Copilot only show three records in the chat pane?
 

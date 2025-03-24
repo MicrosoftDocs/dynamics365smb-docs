@@ -18,10 +18,10 @@ This article explains how to control Microsoft Copilot and agent capabilities in
 
 Copilot is a system feature and an integral part of Business Central. Like most system features, you can't turn Copilot on or off. However, Business Central provides extensive transparency and control for administrators, including:
 
-- Understand which Copilot and agent capabilities are available to your environment
-- deactivate individual capabilities
-- grant or deny access to individual users for each capability
-- data governance controls
+- Understand which Copilot and agent capabilities are available to your environment.
+- Deactivate individual capabilities.
+- Grant or deny access to individual users for each capability.
+- Data governance controls.
 
 There are different levels of access control for agent capabilities, depending on the feature:
 

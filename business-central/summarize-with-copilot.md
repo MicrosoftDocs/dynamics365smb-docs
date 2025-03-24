@@ -52,7 +52,7 @@ This feature is available on most card and document pages, like a **Customer car
 
    - Ask for more insights
 
-     Select the **Show more** button to get more information about the record. The Copilot pane opens to the **Chat** tab on the right side and generates more points of interest.
+     Select the **Show more** button to get more information about the record. The Copilot pane opens on the right side and generates more points of interest.
 
    - Regenerate the summary
 

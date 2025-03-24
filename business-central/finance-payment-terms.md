@@ -34,6 +34,19 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 >
 > In some countries/regions, you *can* set up payment terms with partial payments. To learn whether your country/region supports this capability, go to the **Local Functionality** section in the table of contents on the left side of a [Microsoft Learn](about-localization.md) article.
 
+## Audit changes to payment terms
+
+You can use the Change Log feature to capture changes users make to your payment terms setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)]
+
+The following table lists the table for payment terms and its ID.
+
+| Table | Table ID |
+|------ | -------- |
+| Payment Terms    | 3 |
+
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
+
+
 ## See also
 
 [Set Up Payment Methods](finance-payment-methods.md)  

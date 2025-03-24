@@ -23,7 +23,7 @@ You can use an output journal to:
 > [!NOTE]
 > If you use a production routing, inventory is updated only when you post output quantity for the last operation.
 
-The **Production Journal** page lets you do the same tasks as in the **Output Journal** page, and also do consumption posting tasks. For more information, see [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md).
+The **Production Journal** page lets you do the same tasks as the **Output Journal** page, and also do consumption posting tasks. To learn more, go to [Register Consumption and Output for a Released Production Order Line](production-how-to-register-consumption-and-output.md).
 
 ## To post output quantities and/or register run times for one or more production order lines
 

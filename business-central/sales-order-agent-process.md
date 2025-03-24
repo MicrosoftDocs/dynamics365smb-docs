@@ -133,4 +133,4 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
 [Sales order agent overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

@@ -88,7 +88,7 @@ Microsoft Learn online service endpoints are available in the US, Switzerland, a
 
 If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. In this case, when you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography, where they're processed and not stored for more than one day.
 
-To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & AI capabilities** page. Learn more in [Configure Copilot and AI capabilities](enable-ai.md#activate-features).
+To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
 
 ## What can I do if the chat pane doesn't show?
 

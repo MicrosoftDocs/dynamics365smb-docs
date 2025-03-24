@@ -21,6 +21,7 @@ This article answers some common questions about chatting with Copilot in [!INCL
 ## Can admins grant or deny permission to individual users to get access to chat?
 
 No, there's no permission or permission set for chat. If chat is activated on the [Copilot and AI capabilities](enable-ai.md) page, every user in an environment has access to chat.
+Starting with 2025 release wave 1, administrators can control precisely who has access to Chat with Copilot. See <permissions>
 
 ## Is chat available on tablet, phone, or other form factors?
 

@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 03/18/2025
+ms.date: 03/24/2025
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. The summary includes two or three concise bullet points that provide details and insights about the data. The summary helps you understand the data and identify areas that need attention. Interact with the summary to link to data sources and open related pages, so you can act on your data.
+Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. Copilot uses AI to generate two or three concise bullet points that provide details and insights about the data tailored to your role in Business Central. The summary helps you understand the data and identify areas that need attention. Interact with the summary to link to data sources and open related pages, so you can act on your data.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -44,18 +44,23 @@ This feature is available on most card and document pages, like a **Customer car
 
    ![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
 
-   - Ask for more insights
+   Review the summary before making any decisions. The content is AI-generated and might be incorrect or conatun inaccuracies.
 
-     Select the **Show more** button to get more information about the record. The chat with Copilot pane opens and generates more points of interest.
    - Explore the data
 
-     Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.
+     Summaries are based on data from the record, FactBoxes that display related information, and related pages that show aggregated information like statistics pages. Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.
+
+   - Ask for more insights
+
+     Select the **Show more** button to get more information about the record. The Copilot pane opens to the **Chat** tab on the right side and generates more points of interest.
 
    - Regenerate the summary
 
-     Select the **Regenerate summary** icon to generate a new summary that's updated with changes to the record and related data.
+     Select the **Regenerate summary** icon to generate a new summary that's updated with changes to the record and related data. The same summary appears for a few minutes before generate a new one, but you can request a summary from the latest data at any time.
 
 ## Show or hide the summary
+
+Business Central remembers whether you collapsed, expanded, or hid the **Summary** the last time you had the page open.
 
 - To show the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the FactBox pane.
 - To hide the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the **Summary** part.

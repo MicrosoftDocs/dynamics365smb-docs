@@ -74,6 +74,9 @@ Configure and activate the Sales Order Agent for your company. Only one Sales Or
     |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
 
 1. Select **Update** to complete the setup.
+1. Ensure the Sales Order Agent's language is set to a supported language.
+
+   As the user who configures the agent, the agent is set up with the same language as your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
 
 The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.
 
@@ -140,10 +143,11 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 ## Change language and regional settings
 
-
+The agent is validated and supported in English (EN) in the following locales: Australia (AU), Canada (CA), United Kingdom (UK), United States (US). While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
-1. 
+1. Select **User Settings**.
+1. Set **Lanaguage** to  the 
 
 ## Next steps
 

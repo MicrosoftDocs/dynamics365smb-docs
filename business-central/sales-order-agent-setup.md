@@ -18,7 +18,8 @@ The Sales Order Agent in Business Central automates processing sales orders from
 
 Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Prerequisites
@@ -143,11 +144,11 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 ## Change language and regional settings
 
-The agent is validated and supported in English (EN) in the following locales: Australia (AU), Canada (CA), United Kingdom (UK), United States (US). While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
 
 1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
 1. Select **User Settings**.
-1. Set **Lanaguage** to  the 
+1. Set **Lanaguage** to a supported English locale.
 
 ## Next steps
 
@@ -155,6 +156,6 @@ The agent is validated and supported in English (EN) in the following locales: A
 
 ## Related information
 
-[Sales order agent overview](sales-order-agent.md)  
+[Sales Order Agent overview](sales-order-agent.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
 [Configure Copilot and AI capabilities](enable-ai.md)  

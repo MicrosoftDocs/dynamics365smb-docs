@@ -23,14 +23,12 @@ Some steps require your intervention, such as reviewing email correspondence and
 
 Learn more about the Sales Order Agent and its process flow in [Sales Order Agent overview](sales-order-agent.md#how-the-agent-processes-requests).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Supported languages
 
-The agent is validated and supported in English (EN) in the following locales: Australia (AU), Canada (CA), United Kingdom (UK), United States (US). While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
-
-[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
 
 ## Prerequisites
 
@@ -132,7 +130,7 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
 
 ## Related information
 
-[Sales order agent overview](sales-order-agent.md)  
+[Sales Order Agent Overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  

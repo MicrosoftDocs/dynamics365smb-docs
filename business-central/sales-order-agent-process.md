@@ -47,7 +47,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab open
 For each sales quote request, the Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 > [!TIP]
-> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the role or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's KPIs (Key Performance Indicators) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total amount of sales orders created.
+> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the role or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's KPIs (Key Performance Indicators) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
 
 ## Review and assist
 
@@ -132,9 +132,7 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
 
 - You might need to correct the quantities in the created document when non-base units of measurement differ from the standard ones.  
 
-  For example, if the system treats 1 kilogram as 900 grams and a customer requests 2 kilograms, the system might generate a document showing 2000 grams instead of 1800 grams or 2 kilograms.
-
-- Reliability will be poor if BC user completely changes the email drafted by the Agent for item availability before sending it to the customer. This is more evident when the external customer follows up with an email using anaphora ("them", "it". Etc.), example, "I want them all".
+  For example, if the system treats 1 kilogram as 900 grams and a customer requests 2 kilograms, the system might generate a document showing 2,000 grams instead of 1,800 grams or 2 kilograms.
 
 - Reliability decreases if you significantly change the email the agent drafts about item availability before sending it to the customer.
 

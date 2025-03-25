@@ -25,6 +25,9 @@ Learn more about the agent in [Sales Order Agent overview](sales-order-agent.md)
 
 Before configuring and activating the sales order agent, ensure the following prerequisites are met:
 
+- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), GB (Great Britain), NZ (New Zealand), or US (United States).
+
+  Sales Order Agent is currently unavailable in other countries/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 - Set up the email account for receiving incoming requests for sales quotes and orders.
 
    The Sales Order Agent monitors incoming emails to this mailbox. The email account must be a **Microsoft 365** type (user mailbox or shared mailbox) in your organization. Learn more at [Set up email](admin-how-setup-email.md).
@@ -136,6 +139,8 @@ Users can configure the Sales Order Agent if they have the **Configure All Agent
 Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
 
 ## Change language and regional settings
+
+
 
 1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
 1. 

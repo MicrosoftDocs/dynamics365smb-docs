@@ -128,6 +128,40 @@ The **Discard**  action ellwo
 
 From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.-->
 
+## Challenges impacting reliability in handling customer requests
+
+- You might need to correct the quantities in the created document when non-base units of measurement differ from the standard ones.  
+
+  For example, if the system treats 1 kilogram as 900 grams and a customer requests 2 kilograms, the system might generate a document showing 2000 grams instead of 1800 grams or 2 kilograms.
+
+- Reliability will be poor if BC user completely changes the email drafted by the Agent for item availability before sending it to the customer. This is more evident when the external customer follows up with an email using anaphora ("them", "it". Etc.), example, "I want them all".
+
+- Reliability decreases if you significantly change the email the agent drafts about item availability before sending it to the customer.
+
+  This issue is more apparent when the external customer follows up with an email using pronouns like "them" or "it" or other word instead of reiterating quantities and names. For example, the customer replies, "I want them all."
+
+- The agent searches for items using item attributes, but the attributes aren't shown to the agent on the item availability page. This condition decreases reliability for customer requests that depend specifically on the attributes.
+
+  Consider the following example:
+
+  1. Items in the database:
+  
+     `[{no: ITEM-1, description: Shirt, attributes: Linen}, {no: ITEM-2, description: Shirt, attributes: Cotton}]`
+
+  2. Customer's initial request email:
+
+     `I want a quote for nice shirts`
+
+  3. Agent's reply email:
+  
+     `We have X quantity of ITEM-1 Shirt and ITEM-2 Shirt`
+
+  4. Customer's response email:
+  
+     `I want the ones with linen material`
+
+- Reliability decreases when the agent retrieves information from multiple email exchanges with the customer, and the customer includes pronouns or vague references such as "that," "them," or "it" in their requests.
+
 ## Related information
 
 [Sales Order Agent Overview](sales-order-agent.md)  

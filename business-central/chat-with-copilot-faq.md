@@ -74,7 +74,7 @@ You can use the Copy button to copy a message from earlier in your conversation 
 ## Can I customize or extend chat?
 
 While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. 
-Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-considerations).
+Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
 ## Does Copilot search for data in other companies or environments?
 

@@ -135,8 +135,7 @@ Users can configure the Sales Order Agent if they have the **Configure All Agent
 
 Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
 
-## Manage language and regional setting
-
+## Change language and regional settings
 
 1. To open the **Sales Order Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **SALES ORDER AGENT - [COMPANY]**.
 1. 

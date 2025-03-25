@@ -48,7 +48,7 @@ When you use the **Copy from Document** action to create new documents based on 
     * **Service Blocked**
     * **Purchasing Blocked**  
 
-3. To block the item from use in production output, fill in the **Production Blocked** field.
+3. To block the variant from use in production output, fill in the **Production Blocked** field.
 
 ## Related information  
 

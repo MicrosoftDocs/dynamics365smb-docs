@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.form: 240_Primary, Report_16, 1826, 1827
 ms.service: dynamics-365-business-central
 ---
 

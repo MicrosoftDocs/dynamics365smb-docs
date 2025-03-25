@@ -164,5 +164,5 @@ Each time Copilot provides suggestions, you can provide feedback to Microsoft di
 ## Related information
 
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)  

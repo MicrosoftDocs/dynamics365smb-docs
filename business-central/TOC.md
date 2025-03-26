@@ -514,21 +514,6 @@ ms.service: dynamics-365-business-central
 #### [Parameters for setting the E-Documents connector with external endpoints](finance-edocuments-connectors.md)
 #### [Extending E-Documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
-### Sustainability management
-#### [Sustainability management overview](finance-manage-sustainability.md)
-#### [Sustainability setup](finance-sustainability-setup.md)
-#### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
-#### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
-#### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
-#### [Work with carbon credit](sustainability-carbon-credit.md)
-#### [Sustainability certificates](sustainability-certificates.md)
-#### Sustainability analytics
-##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
-##### [Built-in sustainability reports](sustainability-reports.md)
-##### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
-#### Sustainability APIs
-##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
-
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
 ##### [Company consolidation](finance-consolidated-company-reporting.md)
@@ -1003,20 +988,11 @@ ms.service: dynamics-365-business-central
 ##### [Item - Able to Make (Time)](reports/report-5871.md) 
 ##### [BOM Cost Share Distribution](reports/report-5872.md) 
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
-##### [Rolled-up Cost Shares](reports/report-99000754.md) 
-##### [Single-Level Cost Shares](reports/report-99000755.md) 
-##### [Detailed Calculation](reports/report-99000756.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
-##### [Item BOM Compare list](reports/report-99000758.md)
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
-##### [Prod. Order - Calculation](reports/report-99000767.md)
 ##### [Prod. Order Detailed Calc](reports/report-99000768.md) 
 ##### [Capacity Task list](reports/report-99000780.md)
-##### [Work Center Load](reports/report-99000783.md)
-##### [Machine Center Load](reports/report-99000784.md)
-##### [Work Center Load](reports/report-99000785.md) 
-##### [Machine Center Load](reports/report-99000786.md) 
 ##### [Routing Sheet](reports/report-99000787.md) 
 ##### [Prod. Order Shortage list](reports/report-99000788.md)
 ##### [Subcontractor Dispatch List](reports/report-99000789.md) 
@@ -1024,6 +1000,15 @@ ms.service: dynamics-365-business-central
 #### Obsolete reports (will be removed)
 ##### [Work Center List (obsolete)](reports/report-99000759.md) 
 ##### [Machine Center List (obsolete)](reports/report-99000760.md) 
+##### [Rolled-up Cost Shares (obsolete)](reports/report-99000754.md) 
+##### [Single-Level Cost Shares (obsolete)](reports/report-99000755.md) 
+##### [Detailed Calculation (obsolete)](reports/report-99000756.md)
+##### [Item BOM Compare list (obsolete)](reports/report-99000758.md)
+##### [Work Center Load (obsolete)](reports/report-99000783.md)
+##### [Machine Center Load (obsolete)](reports/report-99000784.md)
+##### [Work Center Load (obsolete)](reports/report-99000785.md) 
+##### [Machine Center Load (obsolete)](reports/report-99000786.md) 
+##### [Prod. Order - Calculation (obsolete)](reports/report-99000767.md)
 <!-- Manufacturing analytics end -->
 
 ### [About production orders](production-about-production-orders.md)
@@ -1143,6 +1128,31 @@ ms.service: dynamics-365-business-central
 #### [Service posting](service-service-posting.md)
 #### [Post service orders and credit memos](service-how-to-post-service-orders.md)
 #### [Lend and receive loaners](service-how-to-lend-receive-loaners.md)
+
+<!--Sustainability-->
+## Sustainability management
+### [Sustainability management overview](finance-manage-sustainability.md)
+### [Sustainability setup](finance-sustainability-setup.md)
+### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
+### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
+### [Work with carbon credit](sustainability-carbon-credit.md)
+### [Sustainability certificates](sustainability-certificates.md)
+### Sustainability Value Chain
+#### [Sustainability Value Chain](value-chain-howto-overview.md)
+#### [Value Chain Setup](value-chain-howto-setup.md)
+#### [Default emission values](sustainability-howto-default.md)
+#### [Value Chain in Purchase](value-chain-howto-purchase.md)
+#### [Value Chain in Transfers](value-chain-howto-transfer.md)
+#### [Value Chain in Assembly process](value-chain-howto-assembly.md)
+#### [Value Chain in Production process](value-chain-howto-mfg.md)
+#### [Value Chain in Sales](value-chain-howto-sales.md)
+### Sustainability analytics
+#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+#### [Built-in sustainability reports](sustainability-reports.md)
+#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+### Sustainability APIs
+#### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 <!--Shopify-->
 ## Online store with Shopify
@@ -2524,6 +2534,9 @@ ms.service: dynamics-365-business-central
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)
+## Autofill (preview)
+### [Autofill fields with Copilot](autofill-fields-with-copilot.md)
+### [Responsible AI FAQ for autofill](faqs-autofill.md)
 ## Bank account reconciliation assist
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
@@ -2557,6 +2570,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
+## [FAQ for autofill](faqs-autofill.md)
 ## [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)

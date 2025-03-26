@@ -136,7 +136,7 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
 
 - Reliability decreases if you significantly change the email the agent drafts about item availability before sending it to the customer.
 
-  This issue is more apparent when the external customer follows up with an email using pronouns like "them" or "it" or other words instead of reiterating quantities and names. For example, the customer replies, "I want them all."
+  This issue is more apparent when the external customer follows up with an email using pronouns like "them" or "it" and other words instead of repeating specific quantities and names. For example, the customer replies, "I want them all."
 
 - The agent searches for items using item attributes, but the attributes aren't shown to the agent on the item availability page. This condition decreases reliability for customer requests that depend specifically on the attributes.
 

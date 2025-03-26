@@ -128,7 +128,7 @@ The **Discard**  action ellwo
 
 From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.-->
 
-## Scenarios impacting reliability in handling customer requests
+## Scenarios that impact reliability in handling customer requests
 
 - You might need to correct the quantities in the created document when non-base units of measurement differ from the standard ones.  
 

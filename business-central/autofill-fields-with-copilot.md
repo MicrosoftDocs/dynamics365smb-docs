@@ -45,7 +45,7 @@ The autofill feature isn't available on these types of pages:
 
 - List pages like **Customers** and **Sales Orders**.
 - Worksheet pages like the **Put-away Worksheet**.
-- Assisted setup pages like **Set up sales tax** and **Set up outgoing email**.
+- Setup pages, like **Company information** and **General Ledger Setup**, and assisted setup pages, like **Set up sales tax** and **Set up outgoing email**.
 - Task dialogs.
 
 The autofill feature isn't available on these fields regardless of the page type:
@@ -64,7 +64,7 @@ The autofill feature isn't available on these fields regardless of the page type
 
 Open the page for editing, select a field, and then select the ![Shows the Copilot icon for generating suggestions for field values.](media/copilot-star-unfilled.png) **Suggest a value for this field and related fields** icon or press <kbd>Alt</kbd>+<kbd>i</kbd>. If the icon doesn't appear, autofill isn't available for the field, so try another field.
 
-![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg).
+![Shows a card page with a Copilot icon for generating suggestions for field values.](media/autofill-field.svg)
 
 Suggestions are generated only for fields in the FastTab that you are on. When Copilot finds suggestions, they're automatically entered in the fields in italics along with the ![Shows the details icon for a suggestion](media/autofill-info.png) **Show details** icon. Fields remain unchanged if suggestions aren't found or they don't support the autofill feature.
 

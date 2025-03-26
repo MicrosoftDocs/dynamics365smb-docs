@@ -158,7 +158,7 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
   
      `I want the ones with linen material`
 
-- Reliability decreases when the agent retrieves information from multiple email exchanges with the customer, and the customer includes pronouns or vague references such as "that," "them," or "it" in their requests.
+- Reliability decreases when the agent retrieves information from multiple email exchanges with a customer, and the customer uses pronouns or vague references like "that," "them," or "it" in their requests.
 
 ## Related information
 

@@ -45,7 +45,7 @@ The autofill feature isn't available on these types of pages:
 
 - List pages like **Customers** and **Sales Orders**.
 - Worksheet pages like the **Put-away Worksheet**.
-- Assisted setup pages like **Set up sales tax** and **Set up outgoing email**.
+- Setup pages, like **Company information** and **General Ledger Setup**, and assisted setup pages, like **Set up sales tax** and **Set up outgoing email**.
 - Task dialogs.
 
 The autofill feature isn't available on these fields regardless of the page type:

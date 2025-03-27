@@ -63,7 +63,7 @@ By default, the status of new price lists is **Draft**. When you're ready to sta
 To review price lists and prices that apply for specific customers or vendors, on the **Customer** or **Vendor** pages, choose either **Sales Price Lists** or **Purchase Price Lists** action. For items and resources, you can view price list lines by choosing **Sales Prices** or **Purchase Prices** on the **Item** and **Resource** pages.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Choose the customer, and then choose the **Sales Price Lists** action. 
+2. Choose the customer, and then choose the **Sales Price Lists** action.
 3. Choose **New** to create a new sales price list.
 4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Add items to the list in one of the following ways:

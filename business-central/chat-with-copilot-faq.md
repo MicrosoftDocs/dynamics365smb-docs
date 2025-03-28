@@ -55,9 +55,9 @@ When you ask to find a single record, multiple records, or a field from a record
 
 ## Does Copilot have access to all fields on a table? 
 
-No, Copilot never uses certain fields when finding records. For example, it excludes fields that might contain passwords or other secrets. Learn which field data types are excluded in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
+No. Copilot can access to most but not all fields when finding records. For example, it excludes fields that might contain passwords or other secrets. Learn which field data types are excluded in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
-Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your administrator hasn't granted you permission to personalize Business Central, Copilot reveals only the same fields that are typically shown on the list pages. 
+Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your admin hasn't given you permission to personalize Business Central, Copilot shows only the fields typically displayed by default on the list pages.
 
 ## How do I open a record or page from chat?
 

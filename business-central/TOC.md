@@ -336,7 +336,7 @@ ms.service: dynamics-365-business-central
 ###### [Customer Statement](reports/report-1316.md)
 
 ##### Legacy reports (will be removed)
-###### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+###### [Finance Excel reports (obsolete)](finance-analyze-excel.md)
 ###### [Customer - Top 10 List (legacy)](reports/report-111.md)
 ###### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
 ###### [Vendor - List (legacy)](reports/report-301.md)

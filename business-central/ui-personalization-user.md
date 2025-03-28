@@ -52,6 +52,8 @@ A FactBox is a pane along the right side of a page that displays more informatio
 - To hide or show the FactBox, select the ![Shows the collapse or expand FactBox icon in Business Central](media/collapse-expand-factbox.png) **Collapse/Expand the FactBox pane** icon at the top of the FactBox pane.
 - To resize the FactBox, drag the vertical divider between the FactBox and main content. Double-click the divider to reset the width to default.
 
+   If you can't resize the FactBox, you're either using Business Central version earlier than 26.0, or **Feature: Optimize screen estate usage for web** isn't turned on in **Feature Management**. Contact your admin, or learn more in [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
 ## Start personalizing by using the personalization mode
 
 1. Open any page that you want to personalize.

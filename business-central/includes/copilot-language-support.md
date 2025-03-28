@@ -1,7 +1,7 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 06/10/2024
+ms.date: 02/17/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer

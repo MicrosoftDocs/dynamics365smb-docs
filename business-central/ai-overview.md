@@ -58,7 +58,7 @@ Poor suggestions can result when vague or generic product names are used and spe
 
 To get started, you'll need a Business Central (v23.1 and later) environment that's enabled with Copilot.
 
-- If you're an existing Business Central customer, your Business Central admin will have to set up an environment that's enabled for marketing text suggestions. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- If you're an existing Business Central customer, your Business Central admin will have to set up an environment that's enabled for marketing text suggestions. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
 - If you're not a Business Central customer but want to try it out, you can sign up for a free trial. Learn more in [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
 
@@ -66,7 +66,7 @@ Once you have an environment or trail that ready, go to [Add marketing text to i
 
 ## Related information
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Add marketing text to items with Copilot](item-marketing-text.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [Get Started with the Shopify Connector](shopify/get-started.md)  

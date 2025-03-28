@@ -78,9 +78,8 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 - Languages
 
-  - [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+  - [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
   - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly.
-  - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
 
 - Emailing
 

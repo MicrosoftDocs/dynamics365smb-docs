@@ -121,7 +121,7 @@ ms.service: dynamics-365-business-central
 #### [Set the layout used by a report](ui-set-report-layout.md)
 #### [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md)
 #### [Available fonts](ui-fonts.md)
-#### Use legacy features
+#### Use obsolete features
 ##### [Create and modify custom report layouts](ui-how-create-custom-report-layout.md)
 ##### [Import and export custom report layouts](ui-how-import-and-export-report-layout.md)
 ##### [Update custom report layouts](ui-update-report-layouts.md)
@@ -672,6 +672,7 @@ ms.service: dynamics-365-business-central
 ### [Record purchases](purchasing-how-record-purchases.md)
 ### [Request quotes](purchasing-how-request-quotes.md)
 ### [Purchase items for a sale](purchasing-how-purchase-products-sale.md)
+### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 <!-- ### [Post Purchases](ui-post-purchases.md) -->
 ### [Correct or cancel unpaid purchase invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Combine receipts on a single invoice](purchasing-how-to-combine-receipts.md)
@@ -1016,6 +1017,7 @@ ms.service: dynamics-365-business-central
 ### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Post consumption and output for one released production order line](production-how-to-register-consumption-and-output.md)
 ### [Batch post consumption](production-how-to-post-consumption.md)
+### [Cancel production orders that have consumption](production-cancel-production-orders-that-have-consumption.md)
 ### [Batch post output and run times](production-how-to-post-output-quantity.md)
 ### [Reverse output posting](production-how-to-reverse-output-posting.md)
 ### [Post scrap](production-how-to-post-scrap.md)
@@ -1681,9 +1683,8 @@ ms.service: dynamics-365-business-central
 ##### [Apply and unapply general ledger entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Required descriptions in G/L entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Purchasing
-##### [Check purchase amounts](LocalFunctionality/Netherlands/check-purchase-amounts.md)
+##### [Check amounts on purchase invoices and credit memos](check-purchase-amounts.md)
 ##### [Edit document amounts in purchase invoices and credit memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
-##### [Set up validation of purchase amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 #### General
 ##### [CMR notes](LocalFunctionality/Netherlands/cmr-notes.md)
 ##### [Dutch postal codes](LocalFunctionality/Netherlands/dutch-post-codes.md)
@@ -2070,6 +2071,7 @@ ms.service: dynamics-365-business-central
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 #### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
+#### [Set up validation of purchase amounts](how-to-set-up-validation-of-purchase-amounts.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)
@@ -2446,6 +2448,7 @@ ms.service: dynamics-365-business-central
 #### [Define data retention policies](admin-data-retention-policies.md)
 #### [Manage data encryption](admin-manage-data-encryption.md)
 #### [View database locks](admin-view-database-locks.md)
+### [Specify the languages that are available in your Business Central environment](admin-allowed-languages.md)
 ### [Set up printers](ui-specify-printer-selection-reports.md)
 ### [Privacy notices status](privacy-notices-status.md)
 ### [Create new companies](about-new-company.md)
@@ -2458,7 +2461,7 @@ ms.service: dynamics-365-business-central
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
-## [Copilot and AI capabilities](enable-ai.md)
+## [Copilot and agent capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
@@ -2524,13 +2527,13 @@ ms.service: dynamics-365-business-central
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
-# Copilot and AI capabilities
+# Copilot and agent capabilities
 ## [About Copilot in Business Central](copilot-overview.md)
-## Manage Copilot and AI capabilities
-### [Configure Copilot and AI capabilities](enable-ai.md)
+## Manage Copilot and agent capabilities
+### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
-### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
+### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)

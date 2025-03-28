@@ -78,9 +78,8 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 - Languages
 
-  - [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+  - [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
   - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly.
-  - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
 
 - Emailing
 
@@ -144,6 +143,6 @@ Currently, this capability isn't extensible by partners.
 [Sales order agent overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
 [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)  
-[Configure Copilot and AI capabilities](enable-ai.md) 
+[Configure Copilot and agent capabilities](enable-ai.md) 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

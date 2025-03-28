@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate the Sales Order Agent and manage user access.
-ms.date: 03/10/2025
+ms.date: 03/13/2025
 ms.topic: how-to
 author: jswymer
 ms.author: jswymer
@@ -46,7 +46,7 @@ Before configuring and activating the sales order agent, ensure the following pr
 
 The agent capability is already on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
 
-If not, turn it on from the **Copilot & AI Capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+If not, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
 Next, configure and activate the agent so it can process customer sales orders.
 
@@ -158,4 +158,4 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 [Sales Order Agent overview](sales-order-agent.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

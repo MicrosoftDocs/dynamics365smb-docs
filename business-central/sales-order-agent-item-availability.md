@@ -68,4 +68,4 @@ For each item, the following fields are calculated:
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
 [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

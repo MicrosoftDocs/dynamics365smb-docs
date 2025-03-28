@@ -154,4 +154,4 @@ The general flow is illustrated in the figure, which is followed by more details
 
 ## Related information
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

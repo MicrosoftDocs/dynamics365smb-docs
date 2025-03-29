@@ -162,5 +162,5 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 ## Related information
 
 [Sales Order Agent overview](sales-order-agent.md)  
-[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
+[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

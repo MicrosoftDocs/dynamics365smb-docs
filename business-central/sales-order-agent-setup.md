@@ -82,7 +82,7 @@ Configure and activate the Sales Order Agent for your company. Only one Sales Or
 1. Select **Update** to complete the setup.
 1. Ensure the Sales Order Agent's language is set to a supported language.
 
-   As the user who configures the agent, the agent is set up with the same language as your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
+   When you configure the agent, it uses the same language as the display language of your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
 
 The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.
 

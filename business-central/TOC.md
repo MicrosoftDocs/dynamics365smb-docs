@@ -336,7 +336,7 @@ ms.service: dynamics-365-business-central
 ###### [Customer Statement](reports/report-1316.md)
 
 ##### Legacy reports (will be removed)
-###### [Finance Excel reports (legacy)](finance-analyze-excel.md)
+###### [Finance Excel reports (obsolete)](finance-analyze-excel.md)
 ###### [Customer - Top 10 List (legacy)](reports/report-111.md)
 ###### [Aged Accounts Receivables (Legacy)](reports/report-120.md)
 ###### [Vendor - List (legacy)](reports/report-301.md)
@@ -2569,6 +2569,9 @@ ms.service: dynamics-365-business-central
 ## Suggest number series (preview)
 ### [Suggest number series with Copilot](suggest-number-series-copilot.md)
 ### [Responsible AI FAQ for suggest number series with Copilot](faq-suggest-number-series-with-copilot.md)
+## Summarize (preview)
+### [Summarize records with Copilot](summarize-with-copilot.md)
+### [Responsible AI FAQ for summarize](faqs-summarize.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)

@@ -46,6 +46,7 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Replace the current layout file that a report uses with a new version of the layout file. | [Replace a layout](#replace) |
 | Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
+| Mark a layout as obsolete | [Mark a layout as obsolete](#mark-a-layout-as-obsolete) |
 | Validate a layout. | [Validate a layout](#validate) |
 | View information about a layout. | [Get information about a layout](#get-information-about-a-layout) |
 | Delete a user-defined layout. | [Delete a layout](#delete) |
@@ -243,6 +244,20 @@ To delete a user-defined layout, follow these steps.
     > To find a layout, use the Search field, the Filter pane, or column sorting.
 
 1. In the **Delete layout** dialog, select **Yes**.
+
+## Mark a layout as obsolete
+
+A layout can become obsolete for various reasons. For example, the data model might change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it will likely be removed in a later release, so they should use an alternative layout.
+
+To identify which layouts are obsolete, refer to the **Obsolete** column on the **Report Layouts page**. You can mark a user-defined layout as obsolete if needed. 
+
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+2. Select the layout that you want to change, and then select the **Edit Info** action.
+3. Turn on the **Mark layout as obsolete** toggle.
+4. Select **OK**.
+
+> [!NOTE]
+> Extension layouts are marked as obsolete in AL code using the [ObsoleteState property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-obsoletestate-property) and can't be changed using the **Edit Info** action.
 
 ## Related information
 

@@ -146,16 +146,9 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Reviewer:** Reviews/confirms outgoing email.
 1. **Sales order agent:** Sends email to customer.
 
-## Billing for use (preview)
+## Billing for use
 
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](https://review.learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing?branch=js-aimonetization).
-
-> [!IMPORTANT]
->
-> - This is a preview feature that's available with version 26.0 sandbox environments in Great Britain (GB) and United States (US).
-> Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
+The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ## Next steps
 

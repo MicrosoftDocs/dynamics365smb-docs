@@ -10,7 +10,7 @@ ms.date: 03/24/2025
 ms.custom: bap-template
 ---
 
-# Summarize records with Copilot
+# Summarize records with Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

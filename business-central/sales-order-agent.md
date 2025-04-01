@@ -21,7 +21,6 @@ The Sales Order Agent helps Business Central users automate capturing sales orde
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
-
 ## Functionality
 
 ### Activation and configuration
@@ -146,6 +145,10 @@ The general flow is illustrated in the figure, which is followed by more details
     1. Adds review task with outgoing email confirming order.
 1. **Reviewer:** Reviews/confirms outgoing email.
 1. **Sales order agent:** Sends email to customer.
+
+## Billing for use
+
+The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ## Next steps
 

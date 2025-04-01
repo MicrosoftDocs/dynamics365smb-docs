@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.topic: conceptual 
 ms.collection: bap-ai-copilot
-ms.date: 01/10/2025
+ms.date: 04/01/2025
 ms.custom: bap-template 
 ---
 # Azure OpenAI Service and Business Central data 

@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 03/30/2025
+ms.date: 04/01/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article

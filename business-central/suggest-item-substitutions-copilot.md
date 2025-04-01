@@ -3,9 +3,9 @@ title: Suggest substitute items with Copilot
 description: Assign substitute items faster with assistance from Copilot.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/02/2024
+ms.date: 04/01/2025
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot

@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 12/18/2024
+ms.date: 03/30/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -17,7 +17,7 @@ ms.collection:
 
 These frequently asked questions (FAQ) describe the AI impact of Sales Order Agent feature in Business Central.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## What is the Sales Order Agent?

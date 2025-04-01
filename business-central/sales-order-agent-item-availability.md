@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/21/2025
+ms.date: 03/30/2025
 ms.custom: bap-template
 ms.search.form: 4400, 4410_Primary
 ---
@@ -19,7 +19,7 @@ The **Item Availability** page is part of the Sales Order Agent for checking ite
 
 ![Screenshot of item availability page](media/soa-item-availability-page-clip.svg)
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Overview

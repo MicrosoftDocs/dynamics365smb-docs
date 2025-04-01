@@ -37,6 +37,9 @@ Before configuring and activating the sales order agent, ensure the following pr
    > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
+- Set up the Business Central environment for billing agent capabilities (preview version 26.0 sandbox environments in Great Britain and United States only).
+
+   Agents use Microsoft Copilot Studio messages when a user runs it, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 - Turn on the **Allow HttpClient Requests** toggle in the **Sales Order Agent** extension settings (sandbox environments only)
 
@@ -44,9 +47,11 @@ Before configuring and activating the sales order agent, ensure the following pr
 
 ## Turn on the Sales Order Agent capability for the environment
 
-The agent capability is already on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
+The agent capability is on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
 
-If not, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
+![Shows the Sales Order Agent icon on a role center](media/soa-in-role-center.svg)
+
+If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Sales Order Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
 Next, configure and activate the agent so it can process customer sales orders.
 
@@ -77,7 +82,7 @@ Configure and activate the Sales Order Agent for your company. Only one Sales Or
 1. Select **Update** to complete the setup.
 1. Ensure the Sales Order Agent's language is set to a supported language.
 
-   As the user who configures the agent, the agent is set up with the same language as your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
+   When you configure the agent, it uses the same language as the display language of your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
 
 The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming quote requests to the mailbox.
 
@@ -157,5 +162,5 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 ## Related information
 
 [Sales Order Agent overview](sales-order-agent.md)  
-[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)
+[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

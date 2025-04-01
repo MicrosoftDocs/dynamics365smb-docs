@@ -2586,3 +2586,4 @@ ms.service: dynamics-365-business-central
 ## [FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
 ## [FAQ for suggest number series with Copilot (preview)](faq-suggest-number-series-with-copilot.md)
+## [FAQ for summarize (preview)](faqs-summarize.md)

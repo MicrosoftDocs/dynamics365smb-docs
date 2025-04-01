@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 11/14/2024
+ms.date: 04/01/2025
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -35,7 +35,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
 ### Prerequisites
 
-- The **Marketing text suggestions** capability is activated by an administrator. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
+- The **Marketing text suggestions** capability is activated by an administrator. Learn more in [Configure Copilot & agent capabilities](enable-ai.md).
 
 ### Create first draft with Copilot
 

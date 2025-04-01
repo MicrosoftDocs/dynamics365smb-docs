@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 02/25/2025
+ms.date: 04/01/2025
 ms.topic: overview
 author: dmc-dk
 ms.author: dmitrych

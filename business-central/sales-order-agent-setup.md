@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Order Agent
 description: Learn how to activate the Sales Order Agent and manage user access.
-ms.date: 03/13/2025
+ms.date: 04/01/2025
 ms.topic: how-to
 author: jswymer
 ms.author: jswymer

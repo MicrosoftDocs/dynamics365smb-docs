@@ -3,10 +3,10 @@ title: Suggest number series with Copilot (preview)
 description: This article provides information about the AI technology used in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: article
 ms.search.form:
-ms.date: 09/18/2024
+ms.date: 04/01/2025
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: bap-template

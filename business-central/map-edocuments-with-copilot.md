@@ -3,12 +3,12 @@ title: Map e-documents to purchase order lines with Copilot
 description: Learn about how to use Copilot to map e-documents to purchase order lines.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: how-to 
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 11/14/2024
+ms.date: 04/01/2025
 ms.custom: bap-template 
 ---
 

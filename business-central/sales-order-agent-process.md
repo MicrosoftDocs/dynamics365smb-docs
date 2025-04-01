@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/27/2025
+ms.date: 03/30/2025
 ms.custom: bap-template
 ms.search.form: 4400, 4410
 ---
@@ -23,12 +23,12 @@ Some steps require your intervention, such as reviewing email correspondence and
 
 Learn more about the Sales Order Agent and its process flow in [Sales Order Agent overview](sales-order-agent.md#how-the-agent-processes-requests).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## Supported languages
 
-[!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
+[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab open
 For each sales quote request, the Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 > [!TIP]
-> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the role or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's KPIs (Key Performance Indicators) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total amount of sales orders created.
+> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the role or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's KPIs (Key Performance Indicators) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
 
 ## Review and assist
 
@@ -128,9 +128,41 @@ The **Discard**  action ellwo
 
 From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** view, you can view the details of each step of a task in chronological order. Click on the task or select **...** (More options) > **Show Details**.-->
 
+## Scenarios impacting reliability in handling customer requests
+
+- You might need to correct the quantities in the created document when non-base units of measurement differ from the standard ones.  
+
+  For example, if the system treats 1 kilogram as 900 grams and a customer requests 2 kilograms, the system might generate a document showing 2,000 grams instead of 1,800 grams or 2 kilograms.
+
+- Reliability decreases if you significantly change the email the agent drafts about item availability before sending it to the customer.
+
+  This issue is more apparent when the external customer follows up with an email using pronouns like "them" or "it" and other words instead of repeating specific quantities and names. For example, the customer replies, "I want them all."
+
+- The agent searches for items using item attributes, but the attributes aren't shown to the agent on the item availability page. This condition decreases reliability for customer requests that depend specifically on the attributes.
+
+  Consider the following example:
+
+  1. Items in the database:
+  
+     `[{no: ITEM-1, description: Shirt, attributes: Linen}, {no: ITEM-2, description: Shirt, attributes: Cotton}]`
+
+  2. Customer's initial request email:
+
+     `I want a quote for nice shirts`
+
+  3. Agent's reply email:
+  
+     `We have X quantity of ITEM-1 Shirt and ITEM-2 Shirt`
+
+  4. Customer's response email:
+  
+     `I want the ones with linen material`
+
+- Reliability decreases when the agent retrieves information from multiple email exchanges with a customer, and the customer uses pronouns or vague references like "that," "them," or "it" in their requests.
+
 ## Related information
 
-[Sales order agent overview](sales-order-agent.md)  
+[Sales Order Agent Overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

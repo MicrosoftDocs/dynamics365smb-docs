@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.topic: conceptual
 ms.custom: bap-template 
-ms.date: 10/01/2024
+ms.date: 02/14/2025
 ---
 # Where is personalization stored?
 
@@ -59,7 +59,7 @@ The following table indicates which UI adjustments are roaming, local, or both. 
 |Page|Show as wide or narrow||X|
 ||Bookmark the page|X*||
 |Other UI|Collapse or expand field section||X|
-||Collapse or expand FactBox pane||X|
+||Resize, collapse, or expand FactBox pane||X|
 ||Show FactBox pane attachments or details||X|
 ||Collapse or expand page inspection pane||X|
 ||Collapse or expand part on a page||X|

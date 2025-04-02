@@ -105,8 +105,8 @@ You can't change the **Serial No.** and **Lot No.** fields. However, you can del
 
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes. There are two ways to add serial and lot numbers to outbound transactions:  
 
-- Select from existing serial or lot numbers. This applies when item tracking numbers are already assigned in an inbound transaction.
-- Assign new serial or lot numbers for outbound transactions. This applies when item tracking numbers aren't assigned to items until they're sold and ready to ship.
+* Select from existing serial or lot numbers. This applies when item tracking numbers are already assigned in an inbound transaction.
+* Assign new serial or lot numbers for outbound transactions. This applies when item tracking numbers aren't assigned to items until they're sold and ready to ship.
 
 ### To select from existing serial or lot numbers  
 
@@ -247,7 +247,7 @@ The following tables list the pages that support barcode scanning for item track
 |Warehouse Activity Line     |* Serial No.<br><br>* Lot No.<br><br>* Package No.<br><br>**Note**: The following pages use the Warehouse Activity Line page:<br><br>* page 5780 "Whse. Pick Subform"<br><br>* page 7378 "Invt. Pick Subform"<br><br>* page 5771 "Whse. Putaway Subform"<br><br>* page 7316 "Warehouse Movement Subform"<br><br>* page 7376 "Invt. Putaway Subform"<br><br>* page 7383 "Invt. Movement Subform"        |
 |Whse. Phys. Invt. Journal     |* Serial No.<br><br>* Lot No.<br><br>* Package No.         |
 
-## See also
+## Related information
 
 [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  

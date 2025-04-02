@@ -3,12 +3,12 @@ title: Map e-documents to purchase order lines with Copilot
 description: Learn about how to use Copilot to map e-documents to purchase order lines.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: how-to 
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 11/14/2024
+ms.date: 04/01/2025
 ms.custom: bap-template 
 ---
 
@@ -30,7 +30,7 @@ You can now update an existing purchase order in Business Central with the infor
 
 ## Prerequisites
 
-- The **E-Document Matching Assistance** capability is activated by an administrator. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).  
+- The **E-Document Matching Assistance** capability is activated by an administrator. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).  
 
 ## Identify purchase orders
 
@@ -99,5 +99,5 @@ When you want to run matching from the purchase order, select the **Map E-Docume
 [E-documents overview](finance-edocuments-overview.md)  
 [Use e-documents in sales](finance-how-use-edocuments.md)  
 [Use e-documents in purchase](finance-how-use-edocuments-purchase.md)  
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  

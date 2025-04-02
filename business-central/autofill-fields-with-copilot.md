@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/12/2025
+ms.date: 04/01/2025
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: bap-template
@@ -97,5 +97,5 @@ When Copilot suggests a field value and you use any feature that saves a value t
 
 [Responsible AI FAQ for autofill (preview)](faqs-autofill.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Keyboard shortcuts](keyboard-shortcuts.md)

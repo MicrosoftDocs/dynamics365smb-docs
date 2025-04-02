@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.topic: conceptual 
 ms.collection: bap-ai-copilot
-ms.date: 01/10/2025
+ms.date: 04/01/2025
 ms.custom: bap-template 
 ---
 # Azure OpenAI Service and Business Central data 
@@ -46,5 +46,5 @@ The table isn't an exhaustive list of features and doesn't provide a complete an
 
 [Copilot data movement across geographies](ai-copilot-data-movement.md)  
 [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external)  
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  

@@ -1,7 +1,7 @@
 ---
 title: Sales Order Agent overview (preview)
 description: Learn about the sales order Copilot agent in Business Central.
-ms.date: 02/25/2025
+ms.date: 04/01/2025
 ms.topic: overview
 author: dmc-dk
 ms.author: dmitrych
@@ -19,9 +19,8 @@ The Sales Order Agent helps Business Central users automate capturing sales orde
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
-
 ## Functionality
 
 ### Activation and configuration
@@ -147,6 +146,10 @@ The general flow is illustrated in the figure, which is followed by more details
 1. **Reviewer:** Reviews/confirms outgoing email.
 1. **Sales order agent:** Sends email to customer.
 
+## Billing for use
+
+The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+
 ## Next steps
 
 - [Set up the Sales Order Agent](sales-order-agent-setup.md)
@@ -154,4 +157,4 @@ The general flow is illustrated in the figure, which is followed by more details
 
 ## Related information
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

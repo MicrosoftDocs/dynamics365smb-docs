@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 03/10/2025
+ms.date: 04/01/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -66,7 +66,7 @@ Microsoft has various automated systems in place to ensure that output from Copi
 
 Microsoft might disable the Copilot features for selected customers if abuse of the functionality is detected. 
 
-Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, report it to Microsoft by using this feedback form: Report abuse. We analyze user feedback on the feature and use it to help us improve responses.
+Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). We analyze user feedback on the feature and use it to help us improve responses.
 
 You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon in the information about an individual suggestion or for all suggestions in the group of fields.
 
@@ -78,11 +78,7 @@ You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon
 
 - Geographic and language availability
 
-  This Copilot feature is available in all supported Business Central countries/regions. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. Learn more at Copilot data movement across geographies.
-
-  This feature was validated and is supported in English language. While it can be used in other languages, it might not function as intended. Language quality might vary based on the user's interaction or system settings, which might impact accuracy and the user experience.
-
-  Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+  [!INCLUDE [copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
 
 - Certain industry, product, and subject limitations
 

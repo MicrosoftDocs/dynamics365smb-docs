@@ -81,6 +81,15 @@ You can find the attached voucher from the posted document or from the **General
 
 You can't delete an attached document after posting is completed. However, you can add more attachments after posting is completed.
 
+### Use digital vouchers with recurring journals
+
+In a case you want to use enforced digital vouchers with general recurring journals, you need to check the following setup to ensure that system will behave as you expect.
+
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates**, and then select the related link.  
+2. Select the **Unlink Incoming Documents On Posting** column, if you want that the incoming document will be unlinked from the journal when it is posted.   
+
+If you do not select this field, digital voucher will stay linked for the line even this journal has been posted.   
+
 ## See also
 
 [Financial Management](finance.md)  

@@ -208,6 +208,21 @@ If you want to add some tolerance and allow the difference between lines in **E-
 3. This setup applies to all the matching lines, but again considering tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
 4. Close the page.
 
+##### Other options  
+
+If your inbound electronic invoice contains lines that are not present in your purchase order, the system will prevent posting the document, as partial posting of an incoming invoice is not possible. Therefore, you must ensure all invoice lines are correctly mapped to the purchase order. If you encounter this issue, follow these steps to resolve it:
+
+1. Choose the line not existing in the purchase order in the **Imported Lines** FastTab on your **Purchase Order Matching** and run the **Create Purchase Order Line** line action.  
+2. In the opened page for this line you can chooce the type of line you would like to have created in your **Purchase Order** in the **Type** field. You can choose any of line types.
+3. Base on the line type you can choose the **No.** to specify what you received (item, general ledger account, resource...).   
+4. Unit of measure, Quantity, Amount, Discount and other values will be copeid from the inbound invoice line.
+5. You can eventually select the **Learn matching rule** field to specify whether a matching rule should be created. This feature works only for items and G/L accounts and in this case the **Item References** are created for **Items** and **Text To Account mappings** are created for **G/L Accounts**.
+6. Select OK.
+7. New purchase order line will be automatically created in the Purchase Order and it will be showed in the **Purchase Orer Lines** FastTab on your **Purchase Order Matching** page where you can map them. 
+
+> [!NOTE]
+> You can change the **Quantity** but your unit amount will be recalculated to get the same total amount as in the original invoice line.  
+
 #### Matching lines from e-document  
 
 You can match the lines on the **E-Document** page. To begin, use the following steps:  

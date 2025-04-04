@@ -16,13 +16,22 @@ ms.reviewer: bholtorf
 
 This article explains how to set up E-Documents functionality when it's connected to external endpoints.
 
-Before you use the functionality that's described in this article, install the **E-Documents Connector with External Endpoints** app on the top of the global **E-Document Core** app. This app can be used for default integration with the external (third-party) access points to automate the e-document flow. Because this app represents only some of the selected connectors, you aren't limited to existing integrations in it. Most of the connectors will be available on AppSource in the future.
+Before you use the functionality that's described in this article, you need to install one of the E-Documents connectors with external endpoints apps on the top of the global **E-Document Core** app. These app can be used for default integration with the external (third-party) access points to automate the e-document flow. Because these apps represent only some of the selected connectors, you aren't limited to existing integrations in it. Most of the connectors will be available directly on AppSource in the future. 
 
-## Set up the connection
+## Install E-Documents connector  
+
+To install one of default E-Documents connector you should follow next steps: 
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link. 
+2. Choose the **Install E-Documents integration from AppSource** action to open the **Microsoft AppSource apps** page with the list of E-Document connectors first party apps for installation.
+3. When you decide which connector you would like to use select the **View on AppSource** action.
+4. Install the app from the AppSource.
+
+## Set up the connection 
 
 [!INCLUDE[e-documents connectors](includes/edocuments-connectors-include.md)]
 
-Based on the endpoint service provider you chose,, the next steps might be different. You can find details about set up parameters for all available service providers [here](finance-edocuments-connectors.md).
+Based on the endpoint service provider you chose, the next steps might be different. You can find details about set up parameters for all available service providers [here](finance-edocuments-connectors.md).
 
 ## Set up company information
 
@@ -57,9 +66,17 @@ Before you start to work with e-documents, set up the e-document **workflows** a
 
 Microsoft wants to encourage access point providers to add their connectors on top of our **E-Document Core** framework.
 
-Currently, Pagero and Avalara are only access point providers that's covered by this system. Microsoft has no contractual obligation with them. Therefore, you must make a contract with them to get all the necessary credentials.
+Currently, the following list of access point providers are covered by by default in Business Central:  
 
-We'll update this list as we get new e-document exchange access point providers.
+- Avalara
+- B2BRouter
+- Logiq
+- Pagero
+- SignUp
+
+Microsoft has no contractual obligation with these providers. Therefore, you must make a contract with them to get all the necessary credentials and these services can require additional licensing or payments for their services.
+
+We'll update this list as soon as we enable new e-document exchange access point providers.  
 
 ## See also
 

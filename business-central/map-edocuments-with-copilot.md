@@ -61,7 +61,7 @@ When you want to run matching from the purchase order, select the **Map E-Docume
 
     |Field name |Description |
     |--------|-----------------|
-    |Auto-matched | Specifies the number of matches proposed automatically. This number is based on a string comparison and if there's 80% or more description overlapping, the system matches these descriptions automatically without using Copilot capabilities. |
+    |Auto-matched | Specifies the number of matches proposed automatically. This number is based on a string comparison and if there's 80% or more description overlapping, the system matches these descriptions automatically without using Copilot capabilities. System will also shows lines as auto-matched as item references exist with appropriate conditions. |
     |Copilot matched | Specifies the number of matches proposed by Copilot using both string and semantic comparison. |
     |E-Document No. | Specifies the linked e-document number. |
     |Invoice Total Amount Excl. VAT | Specifies the total invoice amount excluding VAT. |
@@ -76,6 +76,7 @@ When you want to run matching from the purchase order, select the **Map E-Docume
        |E-Document Line Description | Specifies the e-document line description (coming from the original e-document file). |
        |Matched Quantity | Specifies the quantity that is applied to the purchase order line. |
        |Proposal | Specifies the action proposed by AI, and these suggested actions are related to matching the purchase order lines. |
+       |Learn Matching Rule | Specifies whether a matching rule should be created for this proposal. If you select this field, the **Item References** will be created for **Items** and **Text To Account Mappings** will be created for **G/L Accounts**. |
 
     1. All fully suggested and matched lines are marked with green color. If there's an issue, for example, a different price but within the allowed price range, this line is marked with a yellow color. If there's any similarity between the description fields but the price difference is larger than allowed, this line is marked with a red color.
     1. If you aren't satisfied with some suggestions, you can delete them using the **Delete Line** action.  

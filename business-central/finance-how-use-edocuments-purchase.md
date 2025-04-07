@@ -162,7 +162,7 @@ You can match your received electronic documents with purchase orders' lines fro
 
 You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin process, use the following steps:  
 
-1. Select the **Linked Purchase Orders** tile on your Role Center if there's any number.
+1. Select the **Linked Purchase Orders** tile on your Role Center if there's a number.
 2. Choose one of the two options for matching:
 
    - If you want to match the lines from the **Purchase Orders** list, select the **Purchase Order** line that you want to match and select the **Map E-Document Lines** action.  
@@ -184,48 +184,48 @@ You can match the lines from the **Purchase Orders** list or from one of the ope
     4. On the **Imported Lines** side, you can also locate the **Quantity** field as a total quantity from e-invoice and the **Matched Quantity** field specifying the quantity that already matched to the purchase order lines.
     5. On the **Purchase Orders Lines** side, you can also find the **Available Quantity** as the quantity that can be matched to this line (received, but not invoiced quantity) and **Qty. to Invoice**, specifying the quantity that is already matched to this line.
     6. To match lines, select the lines on both sides that you want to match and select the **Match Manually** action. The matched lines are marked in green.
-    7. It's possible to match one to one, but it's also possible to match many to one or one to many, selecting more lines on one or another side before choosing the **Match Manually** action.
+    7. It's possible to match one to one, but it's also possible to match many to one or one to many, by selecting more lines on one side or the other before you choose the **Match Manually** action.
     8. You can also select the **Match Automatically** action to automatically match all lines with the same **Type**, **No.**, **Unit Price**, **Discount**, and **Unit of Measure**.
     9. If you make a mistake, you can select the **Remove Match** action to remove the matched lines on the purchase order side or select the **Reset Matching** action to reset all that match.
     10. If your **E-Document** has many lines, you can select the **Show Pending Lines** action during the matching process to remove all the e-document lines if they're already matched. If you need to view all the lines, you can always select the **Show All Lines** action. 
 
-4. After you finish the matching, you need to select the **Apply To Purchase Order** action.
-5. After you apply the matching to the **Purchase Order**, [!INCLUDE[prod_short](includes/prod_short.md)] will update the following fields:
+4. After you finish the matching, select the **Apply To Purchase Order** action.
+5. After you apply the matching to the purchase order, [!INCLUDE[prod_short](includes/prod_short.md)] updates the following fields:
 
-    1. **Vendor Invoice No.** and **Document Date** on the document header are updated with values from the electronic document that you'd received and linked. 
-    2. **Qty. to Invoice** in lines are updated with the values from the **Qty. to Invoice** column from the **Purchase Order Matching** page based on the match you did.
+    1. The **Vendor Invoice No.** and **Document Date** fields on the document header update with values from the electronic document that you received and linked.
+    2. The **Qty. to Invoice** field on the lines update with the values from the **Qty. to Invoice** column from the **Purchase Order Matching** page based on the match.
     3. Now you can post the document by choosing the **Post** action.  
-    4. After you post the document, the **Document** field on the **E-Document** page changes value to relate to the **Posted Purchase Invoice**.
+    4. After you post the document, the value in the **Document** field on the **E-Document** page changes to relate to the **Posted Purchase Invoice**.
     5. Close the page.  
 
 > [!IMPORTANT]
 > By default, you can match only the lines that have the same total amount in both documents. That means **Direct Unit Cost** together with the applied Line **Discount %** must be the same, because in one document you can have an amount without discount and in another with discount.  
 
-If you want to add some tolerance and allow the difference between lines in **E-invoice** and **Purchase Order**, follow these steps:
+If you want to add tolerance and allow the difference between lines in e-invoice and purchase order, follow these steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then select the related link.  
-2. You want to allow tolerance in the **E-Document Matching Difference %** field, specifying the maximum allowed percentage of cost difference when matching an incoming **E-Document** line with the **Purchase Order** line.
-3. This setup applies to all the matching lines, but again considering tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
+2. Allow tolerance in the **E-Document Matching Difference %** field by specifying the maximum percentage of cost difference to allow when matching an incoming e-document line with a purchase order line.
+3. This setup applies to all the matching lines, but considers the tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
 4. Close the page.
 
 ##### Other options  
 
-If your inbound electronic invoice contains lines that are not present in your purchase order, the system will prevent posting the document, as partial posting of an incoming invoice is not possible. Therefore, you must ensure all invoice lines are correctly mapped to the purchase order. If you encounter this issue, follow these steps to resolve it:
+If your inbound electronic invoice has lines that aren't on your purchase order, [!INCLUDE [prod_short](includes/prod_short.md)] prevents you from posting the document because you can't partially post an incoming invoice. Therefore, you must ensure that you all invoice lines are correctly mapped to the purchase order. If you experience this issue, follow these steps to resolve it:
 
-1. Choose the line not existing in the purchase order in the **Imported Lines** FastTab on your **Purchase Order Matching** and run the **Create Purchase Order Line** line action.  
-2. In the opened page for this line you can chooce the type of line you would like to have created in your **Purchase Order** in the **Type** field. You can choose any of line types.
-3. Base on the line type you can choose the **No.** to specify what you received (item, general ledger account, resource...).   
-4. Unit of measure, Quantity, Amount, Discount and other values will be copeid from the inbound invoice line.
-5. You can eventually select the **Learn matching rule** field to specify whether a matching rule should be created. This feature works only for items and G/L accounts and in this case the **Item References** are created for **Items** and **Text To Account mappings** are created for **G/L Accounts**.
-6. Select OK.
-7. New purchase order line will be automatically created in the Purchase Order and it will be showed in the **Purchase Orer Lines** FastTab on your **Purchase Order Matching** page where you can map them. 
+1. On the **Imported Lines** FastTab on the **Purchase Order Matching** page, choose the line that doesn't exist on the purchase order. Now choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="Screenshot of the AssistEdit button."::: button, and choose the **Create Purchase Order Line** action.  
+2. On the **E-Doc. Create Purch Order Line** page, in the **Type** field, choose the type of line you want to create in your purchase order. You can choose any of type.
+3. Based on the line type, you can choose the **No.** to specify what you received. For example, an item, general ledger account, resource, and so on.
+4. The unit of measure, quantity, amount, discount, and other values are copied from the inbound invoice line.
+5. You can select the **Learn matching rule** field to specify whether to create a matching rule. This feature works only for items and G/L accounts. Item references are created for items and text to account mappings are created for G/L accounts.
+6. Select **OK**.
+7. A purchase order line is created on the purchase order, and you can map it on the **Purchase Order Lines** FastTab on the **Purchase Order Matching** page.
 
 > [!NOTE]
-> You can change the **Quantity** but your unit amount will be recalculated to get the same total amount as in the original invoice line.  
+> If you change the quantity, the unit amount recalculates to the same total amount as the original invoice line.  
 
 #### Matching lines from e-document  
 
-You can match the lines on the **E-Document** page. To begin, use the following steps:  
+To match the lines on the **E-Document** page, follow these steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.
 2. Select the **E-Document** that you want to match.
@@ -234,12 +234,12 @@ You can match the lines on the **E-Document** page. To begin, use the following 
 
 ## Overview of e-document statuses
 
-To get a better overview of all e-documents in the company, you can select the **Accountant** role center where e-document statuses exist. There, you can find e-document activities that have the following statuses:
+To get a better overview of all e-documents in the company, you can select the **Accountant** Role Center where e-document statuses exist. There, you can find e-document activities that have the following statuses:
 
 - **Incoming e-documents:**
   - Processed
-    - In Progress
-    - Error
+  - In Progress
+  - Error
 
 ## Related information
 

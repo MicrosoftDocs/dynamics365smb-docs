@@ -23,11 +23,11 @@ You can open data in Excel from any journal, list, or worksheet. You just open t
 
 Each list includes some columns. The export to Excel includes any columns that are in your current view. Change the columns by opening the shortcut menu for any column, and then specifying which columns that you want to see. The list of columns is different for most lists. The columns reflect the structure in the database that stores your data. If you aren't sure what type of data a certain column contains, add it to your view. You can always remove it again.  
 
+Learn more in [View and edit in Excel from Business Central](across-work-with-excel.md).
+
 ### Edit data in Excel
 
-Your [!INCLUDE[prod_short](includes/prod_short.md)] experience includes an add-in for Excel so you can edit data in Excel. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
-
-Learn more in [View and edit in Excel from Business Central](across-work-with-excel.md).
+Your [!INCLUDE[prod_short](includes/prod_short.md)] experience includes an add-in for Excel so you can edit data in Excel. Learn more in [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
 ## Exporting data to other finance systems
 

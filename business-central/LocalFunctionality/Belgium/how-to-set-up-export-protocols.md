@@ -29,7 +29,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
 
  After you set up export protocols, you can use them in your electronic banking payment journals.  
 
-## Process
+## Setup process
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Protocols**, and then choose the related link.  
 1. Choose the **New** action.  

@@ -19,7 +19,7 @@ ms.reviewer: v-soumramani
 
 The Intrastat establishment number is a company identification number that is printed on the Intrastat declaration.  
 
-## Set up an Intrastat establishment number
+## Setup process
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 1. Enter the Intrastat establishment number in the **Intrastat Establishment No.** field.  

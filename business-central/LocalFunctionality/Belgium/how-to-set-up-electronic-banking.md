@@ -19,7 +19,7 @@ With electronic banking, you can make electronic payments to domestic, internati
 - Electronic banking setup.  
 - IBLC/BLWI codes - Learn more in [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
-## Set up electronic banking  
+## Setup process
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Banking Setup**, and then choose the related link.  
 1. On the **Electronic Banking Setup** page, fill in the fields as described in the following table.

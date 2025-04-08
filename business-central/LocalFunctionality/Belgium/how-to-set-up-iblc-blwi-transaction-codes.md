@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 In order to process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute. These are international identification codes for the different types of payment transactions. The IBLC/BLWI codes are used only for international payments.  
 
-## Set up IBLC/BLWI transaction codes  
+## Setup process
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IBLC/BLWI Transaction Codes**, and then choose the related link.  
 1. Choose the **New** action.  

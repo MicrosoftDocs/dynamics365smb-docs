@@ -15,7 +15,7 @@ ms.reviewer: v-soumramani
 
 You can set up the general ledger to use the work date as the posting date for customer or vendor open entries on an invoice, payment, or credit memo.  
 
-## Process
+## Setup process
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 1. Select the **Use Workdate for Appl./Unappl.** field.  

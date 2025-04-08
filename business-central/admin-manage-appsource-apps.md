@@ -31,7 +31,7 @@ As with other list pages, you get support for Analysis Mode, for example, so tha
 
 Install AppSource apps using the **Extension Management** page in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more in [Customizing Business Central online using apps](ui-extensions.md).  
 
-Admins upgrade AppSource apps using the [!INCLUDE[prod_short](includes/prod_short.md)] admin center. Learn more in [Managing Apps](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps).  
+Upgrade AppSource apps using the [!INCLUDE[prod_short](includes/prod_short.md)] admin center. Learn more in [Managing Apps](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps).  
 
 ## See also
 

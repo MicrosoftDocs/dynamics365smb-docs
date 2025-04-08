@@ -39,7 +39,7 @@ There are a few ways to set which layout a report uses. Each way has advantages,
 
 ## Set the layout from the Report Layouts page
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Find the layout in the list, select it, then select the **Set Default** action at the top of the page.
 
 ## Set the layout from Report Layout Selection page

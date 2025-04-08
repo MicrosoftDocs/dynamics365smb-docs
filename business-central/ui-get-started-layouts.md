@@ -251,7 +251,7 @@ A layout can become obsolete for various reasons. For example, the data model mi
 
 To identify which layouts are obsolete, refer to the **Obsolete** column on the **Report Layouts page**. You can mark a user-defined layout as obsolete if needed. 
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want to change, and then select the **Edit Info** action.
 3. Turn on the **Mark layout as obsolete** toggle.
 4. Select **OK**.

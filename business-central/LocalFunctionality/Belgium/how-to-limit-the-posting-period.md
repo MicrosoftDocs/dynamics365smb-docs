@@ -1,6 +1,6 @@
 ---
 title: How to Limit the Posting Period [BE]
-description: Understand the methods to limit the posting period at three distinct levels: company-wide, user-specific, and template-based.
+description: Understand the methods to limit the posting period at three distinct levels - company-wide, user-specific, and template-based.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

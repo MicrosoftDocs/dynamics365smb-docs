@@ -66,7 +66,7 @@ After setting up domiciliation, you can start generating domiciliation suggestio
 When the batch job is finished, the domiciliation journal contains all open customer ledger entries that match the filters.  
 
 > [!NOTE]  
-> The domiciliation suggestions include only customers who have a Domiciliation number set up. Learn more in the [Set up domiciliation](#set-up-domiciliations) section.  
+> The domiciliation suggestions include only customers who have a Domiciliation number set up. Learn more in the [Set up domiciliation](#set-up-domiciliation) section.  
 
 ## Edit and delete domiciliation lines
 

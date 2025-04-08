@@ -90,14 +90,14 @@ Follow these steps to set up Intrastat reporting.
    | **Data Exch. Def. Code – Shipment** | Specifies the data exchange definition code to generate the Intrastat file for shipped goods. This field is available only if the **Split Receipts/Shipments Files** field is set to **Yes**. |
 
 6. On the **Numbering** FastTab, enter a value in the **Intrastat Nos** field.
-7. On the **Mandatory Fields** FastTab, turn on any of the following toggles to require people to fill in important fields on sales, purchase, and transfer documents. Making these fields mandatory helps ensure complete and accurate Intrastat reports. Verification happens during when you post the documents.
+7. On the **Mandatory Fields** FastTab, turn on any of the following toggles to require people to fill in important fields on sales, purchase, and transfer documents. Making these fields mandatory helps ensure that your Intrastat reports are complete and accurate. Verification happens when you post the documents.
 
    |Toggle  |Field made mandatory  |Documents  |
    |---------|---------|---------|
    |**Transaction Type Mandatory**     |     **Transaction Type**    |    Sales, purchase, and transfer     |
-   |**Transaction Spec. Mandatory**     |  **Transaction Specification**       |  Transfer       |
-   |**Transport Method Mandatory**     |   **Transport Method**      |  Transfer       |
-   |**Shipment Method Mandatory**     |  **Shipment Method**, **Code**       | * **Shipment Method** field on purchase and transfers.</br>* **Code** field under **Shipment Method** on sales.         |
+   |**Transaction Spec. Mandatory**     |  **Transaction Specification**       |  Sales, and transfer       |
+   |**Transport Method Mandatory**     |   **Transport Method**      |  Sales, and transfer       |
+   |**Shipment Method Mandatory**     |  **Shipment Method**, **Code**       | * **Shipment Method** or **Shipment Method Code** fields on purchase and transfers.</br>* **Code** field under **Shipment Method** on sales.         |
 
 ### Set up a reporting file
 

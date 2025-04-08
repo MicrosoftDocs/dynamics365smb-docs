@@ -44,7 +44,7 @@ The following articles describe local functionality that is unique to the Belgia
     * [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
-    * [Print Payment Files](how-to-print-payment-files.md#to-print-a-payment-file) **Available Now**
+    * [Print Payment Files](how-to-print-payment-files.md#print-a-payment-file) **Available Now**
     * [Activate SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#activate-sepa-payments-in-the-belgian-version) **Available Now**
     * [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Available Now**
     * [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**

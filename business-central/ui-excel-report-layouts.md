@@ -66,13 +66,13 @@ Follow these steps to create an Excel layout from any report, regardless of the 
 
 If there's already an Excel layout for a report, you can use the existing layout as a starting point. There are two approaches to getting a copy of the layout. You can either export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download an Excel layout file that includes all the sheets of the existing file. The difference is when you download it from the request page, the layout includes actual data. The data isn't required, but it helps when you design the layout.
 
-#### Approach 1: Export the layout from the **Report Layouts** page
+**Approach 1: Export the layout from the Report Layouts page**
 
 1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the Excel layout from the list, and then choose the **Export Layout** action.
 3. Open the file in Excel, make your changes, and then save the file.
 
-#### Approach 2: Download the layout from the report's request page
+**Approach 2: Download the layout from the report's request page**
 
 1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. On the **Report Layouts** page, choose any layout for the report, and then choose the **Run Report** action.

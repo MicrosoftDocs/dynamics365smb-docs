@@ -1,6 +1,6 @@
 ---
 title: Use e-documents in the purchase process
-description: Learn how to use the e-document functionality that is related to purchase invoices and orders.
+description: Learn how to configure and use e-documents for purchase invoices, orders and credit memos in Dynamics 365 Business Central.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -14,9 +14,9 @@ ms.reviewer: soumramani
 
 # Use e-documents in the purchases process
 
-You can use configured electronic documents (e-documents) with the purchase documents.
+You can use configured electronic documents (e-documents) with purchase documents.
 
-The following purchase documents can be used with e-documents functionality:  
+The following purchase documents can be used with e-document functionality:  
 
 - Purchase invoices
 - Purchase orders (from version 24.0)
@@ -62,9 +62,9 @@ Follow these steps to configure vendors to work properly with incoming electroni
 > [!NOTE]
 > This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality exists.  
 
-Every time a **Job Queue** is selected to run, if the external service has incoming invoices that were sent from your vendor, the system collects and imports those invoices. To complete the process, follow these steps:
+Every time a **Job Queue** runs, if the external service has incoming invoices from your vendor, the system collects and imports those invoices. To complete the process, follow these steps:
 
-1. After the batch job finishes running, the newly imported invoices are listed on the **E-Documents** page, together with their basic detail information.
+1. After the batch job finishes running, the newly imported invoices are listed on the **E-Documents** page with their basic details.
 2. To view more details, open a specific e-document.
 3. If there are no errors or issues in the e-document, the **Record** field maps the document number of the purchase invoice if it's configured on the **Vendor Card** page (that the system automatically created). To open the document, select the link.
 
@@ -72,16 +72,16 @@ Every time a **Job Queue** is selected to run, if the external service has incom
    > This system-created document isn't the posted document.
 
 4. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. If everything is correct, post the document.  
-5. When you post the purchase document, the **Record** field on the **E-Document** is updated from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open the posted purchase invoice.
+5. When you post the purchase document, the **Record** field on the **E-Document** updates from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open it.
 
 Details about logs are the same as they are in the sales process for e-documents.  
 
-Because errors in the sales process are mostly related to the availability of the service, the incoming document can contain multiple reasons. The most common reason for an error is that the system can't recognize the lines on the e-document that you got from your vendor. Therefore, it can't enter lines in your purchase invoice.
+Errors in the sales process are mostly related to the availability of the service. The incoming document can contain multiple reasons for errors. The most common reason is that the system can't recognize the lines on an e-document from your vendor and can't enter lines in your purchase invoice.
 
 There are two common errors:  
 
-- If you want to use this specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error, if you want to use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.** value that you want to use. Learn more about account mapping [here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
-- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map the external item with your item numbers by using the item reference list. Learn more in [use item references](inventory-how-use-item-cross-refs.md).
+- If you want to use a specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error when using use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.**. Learn more about account mapping [here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
+- If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map external items with your item numbers by using the item reference list. Learn more in [use item references](inventory-how-use-item-cross-refs.md).
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.
 
@@ -89,7 +89,7 @@ After you fix the errors and warnings, you can manually specify when the system 
 
 To map lines with expenses for E-Documents, you need to map description with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
 
-In addition to mapping to a vendor account or G/L accounts, you can also map text to a bank account. Use this option for electronic documents related to expenses that are paid. It is for e-documents for which you want to create a general journal line that is ready to post to a bank account.
+In addition to mapping text to a vendor account or G/L accounts, you can also map text to a bank account for electronic documents related to paid expenses. This option creates a general journal line that is ready to post to a bank account.
 
 1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 2. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
@@ -128,7 +128,7 @@ If your **Vendor** configured the **Received E-Document To** field to work with 
 
 3. If the **Purchase Order** for this particular vendor doesn't exist when a new **E-Document** is created, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same model of creation that already exists for new **Purchase Invoices**. The **Document Status** of this **E-Document** is set to **Processed**, and the **E-Document Status** in the **Service Status** subpage is set to **Imported document created**. After which, this link is visible in the **Document** field on this specific **E-Document**.
 
-### Matching lines from received e-document with purchase order  
+### Match lines from received e-document with purchase order  
 
 You can match your received electronic documents with purchase orders' lines from two different places: from the **E-Document** page or from the **Purchase Order** page. The easiest way to locate the already linked **Purchase Orders** is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. All nonlinked documents can be found using the tile **Waiting Purchase E-Invoices** where you have a list of **E-Documents** that you need to review. The **E-Document Activities** with these two tiles can be found in the following **Role Centers**: Business Manager Evaluation, Business Manager, Accountant, Inventory Manager, and Shipping and Receiving.
 
@@ -137,7 +137,7 @@ You can match your received electronic documents with purchase orders' lines fro
 > [!NOTE]
 > If the VAT percentage differs between the incoming document and the company's VAT percentage, matching documents can't be used in a multi-country environment.  
 
-#### Matching lines from purchase order  
+#### Match lines from purchase order  
 
 You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin process, use the following steps:  
 
@@ -187,7 +187,7 @@ If you want to add some tolerance and allow the difference between lines in **E-
 3. This setup applies to all the matching lines, but again considering tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
 4. Close the page.
 
-#### Matching lines from e-document  
+#### Match lines from e-document  
 
 You can match the lines on the **E-Document** page. To begin, use the following steps:  
 

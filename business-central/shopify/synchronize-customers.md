@@ -208,7 +208,7 @@ Alternatively, use the **Start Company Sync** action on the **Shopify Company** 
 
 You can schedule the task to run in an automated way. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
-## Import and export customer infomration using Shopify metafields
+## Import and export customer information using Shopify metafields
 
 Shopify's platform includes data models for basic commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform lets you extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as customer, or company. The additional information stored in metafields can be almost anything related to a resource. Some examples are preferences, credit limits, loyalty programs, social media links, or segment information.
 

@@ -178,7 +178,7 @@ The following table outlines the effects of the **Barcode** field.
 
 Shopify's platform includes data models for fundamental commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform enables you to extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product or variant. The additional information stored in metafields can be almost anything related to a resource. Some examples are specifications, size charts, downloadable documents, release dates, images, or part numbers.
 
-You can import and export data stored in metafields. [!INCLUDE [prod_short](../includes/prod_short.md)] also provides an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
+You can import and export data stored in metafields. [!INCLUDE [prod_short](../includes/prod_short.md)]. Also, there's an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
 
 You can access and edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Products** and **Shopify Variants** pages.
 
@@ -187,7 +187,12 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 > Further edits of records synchronize with Shopify during the next product synchronization.
 > You can't edit types that have AssistEdit functionality defined directly on the line.
 
+If standard metafields are defined, you can use the **Get Metafield Definitions** action to get the list from Shopify. All supported metafields are imported. You only need to update the values.
+
 #### Supported metafield content types
+
+> [!NOTE]
+> Metafields definitions with *List of values* aren't supported.
 
 **Date and time:**
 
@@ -221,9 +226,8 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 * File
 * Metaobject
 * Page
-
-> [!NOTE]
-> Company and Customer aren't supported.
+* Company
+* Customer
 
 **Other:**
 
@@ -231,8 +235,9 @@ You can access and edit metafields on the **Shopify Metafields** page, which you
 * Color
 * URL
 * Money
-* NOT SUPPORTED: Link
-* NOT SUPPORTED: Rating
+
+> [!NOTE]
+> Link and Rating aren't supported.
 
 **Advanced:**
 

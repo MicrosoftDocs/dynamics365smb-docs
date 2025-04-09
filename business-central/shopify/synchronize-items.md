@@ -382,11 +382,12 @@ You can export prices for synchronized items in the ways described in the follow
 2. Choose the **Sync Prices to Shopify** action.
 
 > [!NOTE]
-> There are a few things to note about price calculations.
+> There are a few things to note about price calculations and synchronization.
 >
 > * When it determines a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
 > * To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
 > * The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action doesn't affect the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. The **Compare at Price** is updated only if the main price changed.
+> * If there are 100 or more prices to be updated, the connector executes update asynchronously. You can check the status of the synchronization in the **Shopify Bulk Operations** page.
 
 ### Price synchronization for B2B
 
@@ -410,11 +411,12 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
    |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. |
    |**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. |
 
-   The second strategy is to use the new **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
+   The second strategy is to use the **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
 
-4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** to start synchronizing catalog prices.
+4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
 
-You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs don't contain products. You manage catalog content in Shopify Admin.
+You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). 
+Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 

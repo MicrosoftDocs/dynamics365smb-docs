@@ -33,7 +33,7 @@ Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts prod
 
 - When any summary is displayed, Copilot makes it easy to review and learn about the facts referenced by the summary. These references are hyperlinked, so that users can quickly view or navigate to the source where they can explore details and take action.
 
-While the summary text is AI-generated, each insight is grounded in factual data from Business Central. Copilot inherits the user’s data permissions and can’t read any more data than the user already has access to.
+While the summary text is AI-generated, each insight is grounded in factual data from Business Central. Copilot inherits the user's data permissions and can’t read any more data than the user already has access to.
 
 ## What is the intended use of summarize?
 

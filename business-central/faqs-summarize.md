@@ -29,7 +29,7 @@ Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts prod
 
 - A concise summary is displayed as a FactBox on most card and document pages in Business Central. It typically provides the top two or three insightful points as brief sentences.
 
-- From the initial summary, users can select **Show more** get more information about the record. The Copilot pane opens and generates more points of interest.
+- From the initial summary, users can select **Show more** to get more information about the record. The Copilot pane opens and generates additional points of interest.
 
 - When any summary is displayed, Copilot makes it easy to review and learn about the facts referenced by the summary. These references are hyperlinked, so that users can quickly view or navigate to the source where they can explore details and take action.
 

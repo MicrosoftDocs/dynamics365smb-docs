@@ -45,7 +45,7 @@ The following procedure is based on a purchase invoice. The steps are similar fo
 1. Do one of the following steps:
 
    - Select **Documents**, and then select **Upload files**. 
-   - Select **Documents**, select **Show details files**, and then select **Attach files**.
+   - Select **Documents**, select **Show details**, and then select **Attach files**.
 1. On the **Select files** dialog box, do one of the following steps to attach a file:
 
    [!INCLUDE[file-upload](includes/file-upload.md)]

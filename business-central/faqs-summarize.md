@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for summarize (preview)
 description: Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
-ms.date: 04/01/2025
+ms.date: 04/14/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -25,16 +25,15 @@ Business Central users often need an overview of their data and what urgently ne
 
 Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts productivity, and eliminates tedious tasks. Copilot uses AI to generate an insightful summary of any record, making it effortless for people to learn what is important or urgent.
 
-
 ## What are the capabilities of summarize?
 
 - A concise summary is displayed as a FactBox on most card and document pages in Business Central. It typically provides the top two or three insightful points as brief sentences.
 
-- From the initial summary, users can ask for more insights, where Copilot displays more points in the Copilot pane. Users can ask follow-up questions to learn how to use Business Central to take action based on those insights.
+- From the initial summary, users can select **Show more** to get more information about the record. The Copilot pane opens and generates additional points of interest.
 
 - When any summary is displayed, Copilot makes it easy to review and learn about the facts referenced by the summary. These references are hyperlinked, so that users can quickly view or navigate to the source where they can explore details and take action.
 
-While the summary text is AI-generated, each insight is grounded in factual data from Business Central. Copilot inherits the user’s data permissions and can’t read any more data than the user already has access to.
+While the summary text is AI-generated, each insight is grounded in factual data from Business Central. Copilot inherits the user's data permissions and can’t read any more data than the user already has access to.
 
 ## What is the intended use of summarize?
 
@@ -73,13 +72,11 @@ to review and verify responses before making decisions that could affect stakeho
 
 - Certain industry, product, and subject limitations
 
-Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot because of the sensitive nature of that domain.
+  Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot because of the sensitive nature of that domain.
 
 - Summaries about people
 
-Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of other safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
-
-It isn't designed to make decisions on your behalf, provide
+  Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of other safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
 
 ## What data does Summarize collect and how is it used?
 
@@ -91,6 +88,7 @@ Business Central collects the minimum data required for Microsoft to provide the
 
 ## Related information
 
+[Summarize records with Copilot](summarize-with-copilot.md)  
 [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)  
 [Azure OpenAI Service and Business Central data](azure-openai-data.md)  
 [Copilot data movement across geographies](ai-copilot-data-movement.md)  

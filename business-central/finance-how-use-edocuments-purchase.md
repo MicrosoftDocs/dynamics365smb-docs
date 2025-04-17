@@ -1,6 +1,6 @@
 ---
 title: Use e-documents in the purchase process
-description: Learn how to configure and use e-documents for purchase invoices, orders and credit memos in Dynamics 365 Business Central.
+description: Learn how to configure and use e-documents for purchase invoices, orders, and credit memos in Dynamics 365 Business Central.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -12,11 +12,9 @@ ms.service: dynamics-365-business-central
 ms.reviewer: soumramani
 ---
 
-# Use e-documents in the purchases process
+# Use e-documents in the purchase process
 
-You can use configured electronic documents (e-documents) with purchase documents.
-
-The following purchase documents can be used with e-document functionality:  
+You can use configured electronic documents (e-documents) with the following purchase documents:
 
 - Purchase invoices
 - Purchase orders (from version 24.0)
@@ -36,7 +34,7 @@ The following purchase documents can be used with e-document functionality:
 
 ## E-documents in purchases
 
-The receipt of purchase e-documents in Dynamics 365 Business Central can be done as a batch job or manually.  
+You can get the receipt of purchase e-documents in Dynamics 365 Business Central as a batch job or manually.  
 
 ### Set up vendors to work with different purchase documents  
 
@@ -44,18 +42,18 @@ Follow these steps to configure vendors to work properly with incoming electroni
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link.
 2. Choose the vendor you want to configure.
-3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document to be generated from the received e-document.
+3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document you want to generate from the received e-document.
 
    > [!NOTE]
    >
-   > - In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
+   > - In the **Receive E-Document To** field, you can either select a **Purchase Invoice** or **Purchase Order** based on what you would like to create from the received e-invoice. This selection doesn't affect the creation of corrective documents; in both scenarios, the system generates a **Credit Memo**.
    >
-   > - If the user chooses the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders, but if the purchase order for a vendor in the received **E-Document** doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this page later.
+   > - If you choose the **Purchase Order** option in the **Receive E-Document To** field, the system tries to update one of the existing purchase orders. However, if the purchase order for a vendor in the received **E-Document** doesn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] creates a new **Purchase Order**, using the same approach as creating the new **Purchase Invoices** explained in this article later.
 
 4. Choose one of the options you want to use for the selected vendor.
 5. Close the page.
 
-### To work with purchase invoices  
+### Work with purchase invoices  
 
 #### Run the batch job  
 
@@ -80,21 +78,21 @@ Errors in the sales process are mostly related to the availability of the servic
 
 There are two common errors:  
 
-- If you want to use a specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error when using use G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.**. Learn more about account mapping [here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
+- If you want to use a specific line from your vendor invoice that was directly posted to the general ledger (G/L) account, you must correctly configure the **Mapping Text** value. To bypass this error when using G/L accounts, select the **Map Text to Account** to create a specific mapping of the **Mapping Text** value with the **Debit Acc. No.**. Learn more about account mapping [here](finance-how-use-edocuments-purchase.md#to-map-text-on-an-e-document-to-a-specific-vendor-account).  
 - If you want to track the inventory and use lines from your vendor invoice to fill in the items on your document lines, you must correctly configure the **Item Reference No.** value. To bypass this error, map external items with your item numbers by using the item reference list. Learn more in [use item references](inventory-how-use-item-cross-refs.md).
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.
 
 #### To map text on an e-document to a specific vendor account
 
-To map lines with expenses for E-Documents, you need to map description with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
+To map lines with expenses for E-Documents, you need to map descriptions with **G/L Account**. Then, use the **Map Text to Account** action to link specific text on a vendor invoice from the **E-Document Service** to a vendor account. Any part of the E-document description that exists as a mapping text means that the **Vendor No.** field on the resulting document or journal lines of type **G/L Account** are filled with the vendor in question.
 
 In addition to mapping text to a vendor account or G/L accounts, you can also map text to a bank account for electronic documents related to paid expenses. This option creates a general journal line that is ready to post to a bank account.
 
 1. Select the relevant E-Document line with the displayed error message and then choose **Map Text to Account** action. The **Text-to-Account Mapping** page displays.
 2. In the **Mapping Text** field, enter any text that appears on vendor invoices for which you want to create purchase documents or journal lines. You can enter up to 50 characters.
 3. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
-4. In the **Debit Acc. No.** field, enter the debit-type G/L account that is inserted on resulting purchase document or journal line of type G/L Account.
+4. In the **Debit Acc. No.** field, enter the debit-type G/L account that is inserted on the resulting purchase document or journal line of type G/L Account.
 
    > [!NOTE]
    > Don't use the **Credit Acc. No.**, **Bal. Source Type, and **Bal. Source No.** fields with E-documents.
@@ -110,7 +108,7 @@ To manually import external e-documents, follow these steps:
 3. Select **Receive**, and upload the e-document file that you got from the vendor.
 4. If an error message occurs, open the e-document to fix the issues.
 5. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
-6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it.
+6. After you create the document in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it.
 
 #### Work with attachments  
 
@@ -139,17 +137,16 @@ You can match your received electronic documents with purchase orders' lines fro
 
 #### Match lines from purchase order  
 
-You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin process, use the following steps:  
+You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin the process, use the following steps:  
 
 1. Select the **Linked Purchase Orders** tile on your Role Center if there's any number.
 2. Choose one of the two options for matching:
 
    - If you want to match the lines from the **Purchase Orders** list, select the **Purchase Order** line that you want to match and select the **Map E-Document Lines** action.  
    - If you want to first open the **Purchase Order**, open the document and then select the **Map E-Document Lines** action.
-
 3. Because both options have the same process, the **Purchase Order Matching** page opens with the following content:
 
-    1. In the header you can find the following information, which can help you to map the lines easier:
+    1. In the header, you can find the following information, which can help you to map the lines easier:
 
        |Field name |Description |
        |--------|-----------------|
@@ -160,12 +157,12 @@ You can match the lines from the **Purchase Orders** list or from one of the ope
 
     2. In the lines, you can find the lines imported from the **E-Document** file on the left side and the lines from the existing **Purchase Order** on the right.  
     3. All lines on both sides have item numbers and descriptions, together with the **Direct Unit Cost** and **Line Discount %**.  
-    4. On the **Imported Lines** side, you can also locate the **Quantity** field as a total quantity from e-invoice and the **Matched Quantity** field specifying the quantity that already matched to the purchase order lines.
+    4. On the **Imported Lines** side, you can also locate the **Quantity** field as a total quantity from e-invoice and the **Matched Quantity** field specifying the quantity that is already matched to the purchase order lines.
     5. On the **Purchase Orders Lines** side, you can also find the **Available Quantity** as the quantity that can be matched to this line (received, but not invoiced quantity) and **Qty. to Invoice**, specifying the quantity that is already matched to this line.
     6. To match lines, select the lines on both sides that you want to match and select the **Match Manually** action. The matched lines are marked in green.
     7. It's possible to match one to one, but it's also possible to match many to one or one to many, selecting more lines on one or another side before choosing the **Match Manually** action.
     8. You can also select the **Match Automatically** action to automatically match all lines with the same **Type**, **No.**, **Unit Price**, **Discount**, and **Unit of Measure**.
-    9. If you make a mistake, you can select the **Remove Match** action to remove the matched lines on the purchase order side or select the **Reset Matching** action to reset all that match.
+    9. If you make a mistake, you can select the **Remove Match** action to remove the matched lines on the purchase order side or select the **Reset Matching** action to reset all matches.
     10. If your **E-Document** has many lines, you can select the **Show Pending Lines** action during the matching process to remove all the e-document lines if they're already matched. If you need to view all the lines, you can always select the **Show All Lines** action. 
 
 4. After you finish the matching, you need to select the **Apply To Purchase Order** action.

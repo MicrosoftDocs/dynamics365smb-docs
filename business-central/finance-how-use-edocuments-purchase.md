@@ -58,7 +58,7 @@ Follow these steps to configure vendors to work properly with incoming electroni
 #### Run the batch job  
 
 > [!NOTE]
-> This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality exists.  
+> This batch job is for automated collection of your incoming invoices. It can work only in a country/region where the functionality exists.  
 
 Every time a **Job Queue** runs, if the external service has incoming invoices from your vendor, the system collects and imports those invoices. To complete the process, follow these steps:
 

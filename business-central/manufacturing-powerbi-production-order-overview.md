@@ -50,11 +50,17 @@ Together, these visuals offer a comprehensive snapshot of production health, emp
 
 The *Machine Center Load* report includes the following KPIs and measures:
 
-- [Machine Center Capacity Effective]()
-- [Machine Center Allocated Time]()
-- [Machine Center Availability After Orders]()
-- [Machine Center Load]()
-- [Machine Center Expected Efficiency %]()
+- [Actual Capacity Cost]()
+- [Actual Capacity Cost Overhead]()
+- [Actual Manufacturing Overhead Cost]()
+- [Actual Material Cost]()
+- [Actual Subcontracted Cost]()
+- [Total Actual Cost]()
+- [Total Expected Cost]()
+- [Total Standard Cost]()
+- [No. of Production Orders]()
+- [Finished %]()
+- [Remaining %]()
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

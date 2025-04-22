@@ -24,7 +24,7 @@ For CEOs, you want to evaluate return trends to inform key business decisions. F
 
 As a product manager, you want to identify the item attributes which contribute the most to return orders, to inform future product development. By analyzing the return amount, you identify a specific item category with significantly lower profitability. These insights assist in identifying a persistent component fault and implement production process improvements to reduce item defects.
 
-As a salesperson, this report helps you monitor individual customer returns, to assist with managing client relationships. Using this report, you notice that a particular customer has had an increased return amount over the past month. Using this information, you decide to offer a special discount to re-build client trust in the business.
+As a salesperson, this report helps you monitor individual customer returns, to assist with managing client relationships. Using this report, you notice that a particular customer has the highest [Return Rate](sales-powerbi-kpis.md#return-rate) and their return amount increased over the past month. Using this information, you decide to offer a special discount to re-build client trust in the business.
 
 ## Key Performance Indicators (KPIs)
 

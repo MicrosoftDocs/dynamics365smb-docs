@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 # Machine Center Load (Power BI Report)
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+[!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
 The **Machine Center Load** report measures the load and the allocated capacity of each machine center. Use this report to ensure that machine centers aren't overloaded.
 

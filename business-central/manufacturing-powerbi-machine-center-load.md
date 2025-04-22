@@ -53,7 +53,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Work Center Load](https://businesscentral.dynamics.com?page=37042)
+Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

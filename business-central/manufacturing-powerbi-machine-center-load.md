@@ -24,9 +24,9 @@ The **Machine Center Load** report measures the load and the allocated capacity 
 
 The report is meant for manufacturing managers and supervisors.
 
-Manufacturing managers use this report to ensure that loads on work centers don't exceed their available capacity. By analyzing the load percentage and allocated time, you can identify overloaded work centers and take steps to reduce the workload. For example, you might adjust the production schedule or allocate more resources to a particular work center. Additionally, by monitoring the work center load, you can ensure room for contingencies in cases where a work center is loaded to 100%.
+Manufacturing managers use this report to ensure that loads on machine centers don't exceed their available capacity. By analyzing the load percentage and allocated time, you can identify overloaded machine centers and take steps to reduce the workload. For example, you might adjust the production schedule or allocate more resources to a particular machine center. Additionally, by monitoring the machine center load, you can ensure room for contingencies in cases where a machine center is loaded to 100%.
 
-Production supervisors use this report to analyze the load percentage and allocated time for work center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all work centers so production runs smoothly.
+Production supervisors use this report to analyze the load percentage and allocated time for machine center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all machine centers so production runs smoothly.
 
 ## Key Performance Indicators (KPIs)
 

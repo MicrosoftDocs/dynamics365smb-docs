@@ -70,9 +70,12 @@ The *Machine Center Load* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Calendar Entry
-- Prod Order Capacity Need
-- Machine Center
+- Production Order Line
+- Capacity Ledger Entry
+- Item Ledger Entry
+- Value Entry
+- Inventory Adjustment Entry Order Line
+- Production Order
   
 ## Try the report
 

@@ -14,5 +14,6 @@ The following table describes the reports in the Power BI Sales app and how you 
 | Analyze sales by location and view key metrics. Metrics include sales amount, sales quantity, cost amount, gross profit, gross profit margin, and the sales amount as a percent of total sales.  | [Sales by Location](https://businesscentral.dynamics.com?page=ID)  | [About Sales by Location](../sales-powerbi-sales-by-location.md)  |
 | Analyze item sales budgets against actual sales. View target variances for both sales amounts and sales quantity. | [Actual vs. Budget](https://businesscentral.dynamics.com?page=37008) | [About Actual vs. Budget](../sales-powerbi-actual-vs-budget.md) |
 Analyze high level information on sales quote activities. Identify sales figures relating to sales amounts or quantity for prospective customers. | [Sales Quote Overview]( https://businesscentral.dynamics.com?page=37104) | [About Sales Quote Overview](sales-powerbi-sales-quote-overview.md) | 
+| Analyze high level information on return orders and view key metrics like Sales Amount, Sales Quantity and Return Rate. | [Return Order Overview]( https://businesscentral.dynamics.com?page=37105) | [About Return Order Overview](sales-powerbi-return-order-overview.md) | 
 
 [!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

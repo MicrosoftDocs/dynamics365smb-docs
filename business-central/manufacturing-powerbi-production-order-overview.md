@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 The **Machine Center Load** report measures the load and the allocated capacity of each machine center. Use this report to ensure that machine centers aren't overloaded.
 
-:::image type="content" source="media/manufacturing/machine-center-load.png" alt-text="Screenshot of the Machine Center Load Power BI Report" lightbox="media/manufacturing/machine-center-load.png":::
+:::image type="content" source="media/manufacturing/production-order-overview.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview.png":::
 
 ## Use the report
 

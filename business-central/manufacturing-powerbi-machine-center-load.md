@@ -48,7 +48,6 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Calendar Entry
 - Prod Order Capacity Need
-- Production Order
 - Machine Center
   
 ## Try the report

@@ -30,11 +30,13 @@ Production supervisors use this report to analyze the load percentage and alloca
 
 ## Key Performance Indicators (KPIs)
 
-The *Work Center Load* report includes the following KPIs and measures:
+The *Machine Center Load* report includes the following KPIs and measures:
 
-- [Load %](manufacturing-powerbi-kpis.md#load)
-- [Allocated Time (Hours)](manufacturing-powerbi-kpis.md#allocated-time-hours)
-- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+- [Machine Center Capacity Effective]()
+- [Machine Center Allocated Time]()
+- [Machine Center Availability After Orders]()
+- [Machine Center Load]()
+- [Machine Center Expected Efficiency %]()
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

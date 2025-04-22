@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008
+ms.search.form: 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37100, 37101, 37102, 37103, 37104, 37105
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
@@ -23,10 +23,27 @@ The dimension tables provide more context and attributes to the transactional da
 
 ## Fact tables
 
-Fact tables store transactional data and support summarizations such as SUM, AVG, COUNT, and more. There are two fact tables in the Power BI Sales app:
+Fact tables store transactional data and support summarizations such as SUM, AVG, COUNT, and more. There are three fact tables in the Power BI Sales app:
 
+- [Opportunity Entries](#opportunity-entries)
 - [Sales](#sales)
 - [Sales Budget](#sales-budget)
+
+### Opportunity Entries
+Data from the following tables are used:
+
+- Opportunity Entries
+
+#### Table Definition
+
+| Power BI Field Name | Business Central Field Name | Description |
+| ------ | -------------- | ---------- |
+| Action Taken | Action Taken | Specifies the action taken when the opportunity entry was last updated. |
+| Active | Active | Specifies that the opportunity entry is active. |
+| Date of Change | Date of Change | Specifies the date when the opportunity entry was last changed. |
+| Estimated Close Date | Estimated Close Date | Specifies the estimated date when the opportunity entry will be closed. |
+| Opportunity Entry No. | Entry No. | Specifies the opportunity entry's no. |
+| Opportunity No. | Opportunity No. | Specifies the opportunity's no. |
 
 ### Sales
 

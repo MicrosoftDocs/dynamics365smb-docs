@@ -15,7 +15,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Production Scrap** report shows the quantity of capacity scrap each month, with a breakdown by code, location, and item category. This information helps uncover where waste is happening so you can take steps to reduce it.
+The **Production Scrap** report presents key KPIs like Scrap % and Scrap Quantity by Work Center, Machine Center, Source No. and Production Order.
+
+The Production Order Scrap % KPI card highlights the relationship between Finished Quantity and Scrap Quantity, giving you an intuitive understanding of the drivers behind the production order scrap percent.
+
+The Scrap Quantity Over Time line chart shows how scrap quantity changes over time. This allows you to identify trends in production scrap as processes change.
+
+Work Center and Machine Center statistics are displayed in the KPI Bar. Work Center Scrap % and Machine Center Scrap % are derived from the Work Center Scrap and Work Center Output respectively. These figures help you understand the efficiency of your production facilities at a glance.
+
+The Scrap % by Production Order bar chart gives you an easy way to compare scrap rates across different productions orders. Cross filter this report by the Scrap Quantity vs. Expected Scrap Quantity by Source No. bar chart to identify which production orders contribute to the scrap rate.
+
+The Scrap Quantity by Scrap Code allows you to quickly compare and analyze why scrap occurred.
+
+Used in conjunction, these report visuals work together to inform you. They help uncover where and why waste is happening, so you can take steps to reduce it.
 
 :::image type="content" source="media/manufacturing/production-scrap.png" alt-text="Screenshot of the Production Scrap Power BI Report" lightbox="media/manufacturing/production-scrap.png":::
 
@@ -29,11 +41,20 @@ For manufacturing managers, this report reveals important measures about capacit
 
 ## Key Performance Indicators (KPIs)
 
-The *Production Scrap* report includes the following KPIs and measures: 
+The *Production Scrap* report includes the following KPIs and measures:
 
-- [Capacity Scrap Quantity](manufacturing-powerbi-kpis.md#capacity-scrap-qty)
+- [Production Order Scrap %]()
+- [Finished Quantity]()
+- [Scrap Quantity]()
+- [Work Center Scrap %]()
+- [Work Center Scrap]()
+- [Work Center Output]()
+- [Machine Center Scrap %]()
+- [Machine Center Scrap]()
+- [Machine Center Output]()
+- [Expected Production Order Scrap Quantity]()
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -42,8 +63,9 @@ The *Production Scrap* report includes the following KPIs and measures:
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Capacity Ledger Entry
-- Location
-- Item Category
+- Production Order
+- Machine Center
+- Work Center
 
 ## Try the report
 

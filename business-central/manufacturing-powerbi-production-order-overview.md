@@ -12,21 +12,39 @@ ms.date: 04/22/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Machine Center Load (Power BI Report)
+# Production Order Overview (Power BI Report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The **Machine Center Load** report measures the load and the allocated capacity of each machine center. Use this report to ensure that machine centers aren't overloaded.
+The **Production Order Overview** report provides a high-level summary of your organization's production order activities. This report filters out finished production orders so that only current production order data is included. The report showcases key performance metrics (KPIs), such as:
+
+- The number of production orders
+- Completion rate measured as Finished %
+- Actual Total Cost
+- Total Expected Cost
+- Total Standard Cost
+
+The **No. of Production Orders by Status** bar chart breaks down productions orders by status, allowing you to quickly see the volume of documents at different stages of production.
+
+The **Completion Ratios by Source No** is a 100% stacked bar chart that shows the completion rate of each source item by visualizing the percentage of quantity finished vs. remaining. Each bar represents a source item, making it easy to see which source items are fully complete, partially complete, or yet to start. This helps you monitor progress at a glance and prioritize follow-ups for delayed or underperforming orders.
+
+The **Total Actual Cost Breakdown** pie chart divides [Total Actual Cost]() into its sub-components: [Actual Capacity Cost Overhead](), [Actual Material Cost](), [Actual Capacity Cost](), [Actual Subcontracted Cost](), and [Actual Manufacturing Overhead Cost](). This visualization helps manufacturing managers quickly understand where costs are concentrated and supports more informed cost control decisions.
+
+The **Current Production Orders** table lists detailed information for each production order, including the Production Order Number and Status, Source No., Planned Quantity, Finished Quantity, and Starting Date. It provides additional context when interacting with other visuals in the report, helping you drill into specific orders for deeper analysis.
 
 :::image type="content" source="media/manufacturing/production-order-overview.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview.png":::
 
 ## Use the report
 
-The report is meant for manufacturing managers and supervisors.
+Manufacturing managers and supervisors use this report to monitor the progress, cost, and status of production orders to ensure efficient and balanced operations.
 
-Manufacturing managers use this report to ensure that loads on machine centers don't exceed their available capacity. By analyzing the load percentage and allocated time, you can identify overloaded machine centers and take steps to reduce the workload. For example, you might adjust the production schedule or allocate more resources to a particular machine center. Additionally, by monitoring the machine center load, you can ensure room for contingencies in cases where a machine center is loaded to 100%.
+Manufacturing managers rely on this report to track production order completion rates, evaluate actual production costs, and identify potential delays or cost overruns. The Completion Ratios by Source Number chart highlights which orders are progressing as expected and which may require follow-up. The Total Actual Cost Breakdown pie chart provides a clear view of cost distribution, helping managers pinpoint major cost drivers and make informed decisions to control expenses.
 
-Production supervisors use this report to analyze the load percentage and allocated time for machine center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all machine centers so production runs smoothly.
+Production supervisors use the Number of Production Orders by Status chart to keep track of order volumes across different stages of production, helping them identify workflow bottlenecks. The Current Production Orders table serves as a detailed reference for ongoing orders, allowing supervisors to provide updates to management, verify progress, and support production scheduling.
+
+Cross-highlighting between visuals provides additional context and insight—for example, selecting a specific status or production order dynamically updates the related charts and tables. This interactive capability allows users to drill down into specific areas of interest and better understand how individual orders contribute to overall performance.
+
+Together, these visuals offer a comprehensive snapshot of production health, empowering teams to maintain output targets, control costs, and ensure timely delivery.
 
 ## Key Performance Indicators (KPIs)
 

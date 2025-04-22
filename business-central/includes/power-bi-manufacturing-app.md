@@ -12,6 +12,6 @@ The following table describes how you can use the reports in the Power BI Manufa
 | Analyze capacity variance for each work center and production order and identify capacity constraints. | [Capacity Variance](https://businesscentral.dynamics.com?page=37047) | [About Capacity Variance](../manufacturing-powerbi-capacity-variance.md) |
 | Monitor average production times for each item and work center to improve your production planning. | [Average Production Times](https://businesscentral.dynamics.com?page=37048) | [About Average Production Times](../manufacturing-powerbi-average-production-times.md) |
 | Analyze released production orders by item, work center, and time period so you ensure they complete on time. | [Released Production Orders](https://businesscentral.dynamics.com?page=37049) | [About Released Production Orders](../manufacturing-powerbi-released-production-orders.md) |
-| Track production scrap by item, work center, and time period to identify production waste and reduce costs. | [Production Scrap](https://businesscentral.dynamics.com?page=37055) | [About Production Scrap](../manufacturing-powerbi-production-scrap.md) |
+| Track production scrap by production order, source item, work center, and machine center to identify production waste and reduce costs. | [Production Scrap](https://businesscentral.dynamics.com?page=37055) | [About Production Scrap](../manufacturing-powerbi-production-scrap.md) |
 
 [!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

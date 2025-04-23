@@ -83,10 +83,53 @@ The app uses data from the following table:
 
 The star schema model uses dimension tables to support the data model and allow you to filter and group.
 
+- [Close Opportunity Code](#close-opportunity-code)
+- [Contact](#contact)
 - [Customer](#customer)
 - [Item](#item)
+- [Item Category](#item-category) 
 - [Location](#location)
+- [Opportunities](#opportunities)
+- [Reason Code](#reason-code)
+- [Sales Cycle Stage](#sales-cycle-stage)
 - [Salesperson](#salesperson)
+
+### Close Opportunity Code
+
+The app uses data from the following table:
+
+- Close Opportunity Code
+
+#### Table definition
+
+| Power BI field name | Business Central field name | Description |
+| ------ | -------------- | ---------- |
+| Close Opportunity Code | Code | Specifies the code for closing the opportunity. |
+| Close Opportunity Description |  Description | Specifies the description of the reason for closing the opportunity. |
+| Close Opportunity Type |  Type | Specifies whether the opportunity was a success or failure. |
+
+### Contact
+
+The app uses data from the following table:
+
+- Contact
+
+#### Table definition
+
+| Power BI field name | Business Central field name | Description |
+| ------ | -------------- | ---------- |
+| Contact Name | Name | Specifies the contact name. |
+| Contact No. | No. | Specifies the number for the contact. |
+| Contact No. and Name | - | Specifies a combination of contact number and contact name in Power BI. |
+| Contact Type | Type | Specifies the contact type, either company or person. |
+| Company Name | Company Name | Specifies the name of the company for the contact. |
+| Company No. | Company No. | Specifies the number for the contact's company |
+| Contact Address | Address | Specifies the address for the contact. |
+| Contact Address 2 | Address 2 | Specifies the secondary address details for the contact. |
+| Contact City | City | Specifies the city for the contact. |
+| Contact Country/Region Code | Country/Region Code | Specifies the country/region the contact's address is in. |
+| Contact County | County | Specifies the state for the contact. |
+| Contact Post Code | Post Code | Specifies the postal code of the address. |
 
 ### Customer
 
@@ -116,7 +159,6 @@ The app uses data from the following table:
 The app uses data from the following tables:
 
 - Item
-- Item Category
 
 #### Table definition
 
@@ -128,8 +170,20 @@ The app uses data from the following tables:
 | Base Unit of Measure | Base Unit of Measure | Specifies the base unit of measure. |
 | Unit Cost |  Unit Cost | Specifies the unit cost. |
 | Inventory Posting Group | Inventory Posting Group | Specifies the inventory posting group. |
-| Item Category Code |  Code | Specifies the item category. |
-| Item Category Description |  Description | Specifies the description of the item category the item belongs to. |
+
+### Item Category
+
+The app uses data from the following tables:
+
+- Item Category
+
+#### Table definition
+
+| Power BI field name | Business Central field name | Description |
+| ------ | -------------- | ---------- |
+| Item Category Code | Code | Specifies the code for the item category. |
+| Item Category Description |  Description | Specifies the description of the item category. |
+| Item Category Code Hierarchy |  - | Specifies the related item category code levels, based on the parent category. |
 
 ### Location
 
@@ -137,12 +191,57 @@ The app uses data from the following table:
 
 - Location
 
-### Table definition
+#### Table definition
 
 | Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
 | Location Code | Code | Specifies the ID of the location. |
 | Location Name |  Name | Specifies the name of the location. |
+
+### Opportunities
+
+The app uses data from the following tables:
+
+- Opportunity
+
+#### Table definition
+
+| Power BI field name | Business Central field name | Description |
+| ------ | -------------- | ---------- |
+| Opportunity No. | No. | Specifies the number of the opportunity. |
+| Description | Description | Specifies the description of the opportunity. |
+| Closed | Closed | Specifies that the opportunity is closed. |
+| Opportunity Creation Date | Creation Date | Specifies the date the opportunity was created. |
+| Sales Document No. | Sales Document No. | Specifies the number of the sales document assigned to the opportunity. |
+| Sales Document Type | Sales Document Type | Specifies the type of the sales document assigned to the opportunity. |
+| Status | Status | Specifies the status for the opportunity. |
+
+### Reason Codes
+
+The app uses data from the following tables:
+
+- Return Reason
+
+#### Table definition
+
+| Power BI field name | Business Central field name | Description |
+| ------ | -------------- | ---------- |
+| Return Reason Code | Code | Specifies the code for the return reason. |
+| Return Reason Description |  Description | Specifies the description for the return reason. |
+
+### Sales Cycle Stages
+
+The app uses data from the following tables:
+
+- Sales Cycle Stage
+
+#### Table definition
+
+| Power BI field name | Business Central field name | Description |
+| ------ | -------------- | ---------- |
+| Sales Cycle Code | Sales Cycle Code | Specifies the sales cycle code for the sales cycle stage. |
+| Sales Cycle Stage | Stage | Specifies the number for the stage within the sales cycle. |
+| Sales Cycle Description | Sales Cycle Description | Specifies the description for the sales cycle stage. |
 
 ### Salesperson
 

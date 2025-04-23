@@ -28,7 +28,7 @@ The following articles describe local functionality that is unique to the French
   - [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
   - [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-statuses-for-a-payment-class) **Available Now**
   - [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-steps-for-a-payment-class) **Available Now**
-  - [Set Up Payment Classes](how-to-set-up-payment-classes.md#to-set-up-a-payment-class) **Available Now**
+  - [Set Up Payment Classes](how-to-set-up-payment-classes.md#steps-to-set-up-a-payment-class) **Available Now**
   - [Archive Payment Slips](how-to-archive-payment-slips.md) **Available Now**
   - [Create Payment Slips](how-to-create-payment-slips.md) **Available Now**
   - [Export Payments](how-to-export-payments.md) **Available Now**

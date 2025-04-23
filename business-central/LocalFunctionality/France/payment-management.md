@@ -20,9 +20,9 @@ You can manage customer and vendor payments using payment slips. Before you crea
 
 - **Payment class** – The type of payment that you want to perform, for example, bill of exchange, electronic payment, or check. Learn more in [Set Up Payment Classes](how-to-set-up-payment-classes.md).  
 
-- **Payment status** – The progress level of a payment document. You must define a set of statuses for each payment class. Learn more in [To set up payment statuses for a payment class](how-to-set-up-payment-classes.md#to-set-up-payment-statuses-for-a-payment-class).  
+- **Payment status** – The progress level of a payment document. You must define a set of statuses for each payment class. Learn more in [To set up payment statuses for a payment class](how-to-set-up-payment-classes.md#set-up-payment-statuses-for-a-payment-class).  
 
-- **Payment steps** – A payment that is executed at a specified time. After a payment step is completed, you can move the payment document from one status to another. If a step involves posting debit or credit entries, you must define additional actions in the **Payment Step Ledger** table. Learn more in [To set up payment steps for a payment class](how-to-set-up-payment-classes.md#to-set-up-payment-steps-for-a-payment-class).  
+- **Payment steps** – A payment that is executed at a specified time. After a payment step is completed, you can move the payment document from one status to another. If a step involves posting debit or credit entries, you must define additional actions in the **Payment Step Ledger** table. Learn more in [To set up payment steps for a payment class](how-to-set-up-payment-classes.md#set-up-payment-steps-for-a-payment-class).  
 
 - **Payment address for vendors and customers** – The address that is used for a vendor or a customer at the time of settlement. The payment address can be different from the vendor's or customer's default address. Learn more in [Set Up Payment Addresses](how-to-set-up-payment-addresses.md).  
 

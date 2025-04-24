@@ -175,6 +175,14 @@ To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)
 
 For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
 
+## Want links to show up in Report Explorer?
+
+Visibility of functional areas shown in the Report Explorer are controlled through profiles (sometimes called *Departmental Role Center Profiles*). 
+
+You can turn the visibility of Departmental Role Center Profiles on/off from the *Profiles* page. For a profile to be visible, you must set the properties **Enabled** and **Show in Role Explorer** to true.
+
+The built-in Departmental Role Center Profiles have filled in a **Description** with the text "Navigation menu only".
+
 ## Permissions
 
 In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have Read permissions to the tables in the model. These tables are currently documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user needs Read permissions for: [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)

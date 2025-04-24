@@ -71,9 +71,6 @@ Every time a **Job Queue** runs, if the external service has incoming invoices f
 
 1. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. If everything is correct, post the document.  
 1. When you post the purchase document, the **Record** field on the **E-Document** updates from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open it.
-   1. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. If everything is correct, post the document.  
-   1. When you post the purchase document, the **Record** field on the **E-Document** updates from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open it.
-
    Details about logs are the same as they are in the sales process for e-documents.  
 
    **Review and confirm before processing**

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: posting period, French version
-ms.date: 04/16/2025
+ms.date: 04/24/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -21,8 +21,7 @@ When you specify posting periods, you limit the period in which posting is allow
 1. On the **General Ledger Setup** page, in the **Allow Posting From** field, specify the start date of the posting period.  
 1. In the **Allow Posting To** field, specify the end date of the posting period.  
 
-   The dates are validated against the allowed posting ranges to make sure that they belong to open fiscal years. Learn more in Allowed Posting Range.  
-
+   The dates are validated against the allowed posting ranges to make sure that they belong to open fiscal years.
 1. To verify what the allowed posting range is, choose the **Get Allowed Posting Range** action. The dates that you define here apply to the whole company, that is, to all users.  
 
 > [!NOTE]  

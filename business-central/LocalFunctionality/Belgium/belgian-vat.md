@@ -4,27 +4,23 @@ description: Belgian enhancements of the VAT reporting feature enable you to eas
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords:
+ms.search.keywords: VAT reporting feature, print VAT transaction details, Belgian version
 ms.search.form: 11300, 11301,11303,11306,11307,11308
-ms.date: 12/17/2024
+ms.date: 04/01/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Belgian VAT
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Belgian extensions to the VAT reporting capabilities so that you can print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
 
-- Monthly/Quarterly declaration - Use this report to create monthly or quarterly VAT declarations, depending on your company revenue.  
+- **Monthly/Quarterly declaration**: Use this report to create monthly or quarterly VAT declarations, depending on your company revenue.  
 
-- VAT annual listing (on paper/disk)
+- **VAT annual listing (on paper/disk)**: Use this report to annually report all amounts invoiced for both goods and services to all Belgian companies with a registered VAT number.  
 
-    Use this report to annually report all amounts invoiced for both goods and services to all Belgian companies with a registered VAT number.  
-
-- EC sales list
-
-    Use this report to report the sales of goods to other countries/regions in the European Union. To learn more, go to [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
+- **EC sales list**: Use this report to report the sales of goods to other countries/regions in the European Union. Learn more in [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
 
 You're also required to provide a printed statement detailing the VAT transactions to the Belgian tax authorities.
 
@@ -38,7 +34,7 @@ If you select the **Incl. Non Deductible VAT** field in a VAT statement line, no
 
 ## Multiple VAT numbers for customers
 
-The feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups** for addresses in another country, are available in the Belgian localization. To learn more, go to [Multiple VAT registration numbers](../../finance-how-use-multiple-vat-registrations.md).
+The feature for using multiple VAT registration numbers for customers, including adding different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups** for addresses in another country, are available in the Belgian localization. Learn more in [Multiple VAT registration numbers](../../finance-how-use-multiple-vat-registrations.md).
 
 In addition to different **VAT Registration Numbers**, **VAT Business Posting Groups**, and **General Business Posting Groups**, businesses using the Belgian localization also need to work with the **Enterprise No.**. When you open the **Alternative Customer VAT Registration** page, you can add the **Enterprise No.** for the customer if their address is in another country. After you enter this information, [!INCLUDE[prod_short](../../includes/prod_short.md)] does the following things when you're working with sales documents:  
 
@@ -52,9 +48,8 @@ In addition to different **VAT Registration Numbers**, **VAT Business Posting Gr
 
 ## Related information
 
-[Belgium Local Functionality](belgium-local-functionality.md)  
-[Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)  
-[Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)  
-
+- [Belgium Local Functionality](belgium-local-functionality.md)  
+- [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)  
+- [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

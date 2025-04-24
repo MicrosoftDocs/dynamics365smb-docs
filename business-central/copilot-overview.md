@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 02/17/2025
+ms.date: 04/01/2025
 ms.custom: bap-template
 ---
 
@@ -78,7 +78,7 @@ For news about Copilot and other AI innovation in Business Central, you can foll
 
 Copilot in Business Central is automatically available when you provision a Microsoft Entra tenant with a Business Central environment on the [Customer Digital Experiences (CDX)](https://aka.ms/CDX) site. Learn more about how to prepare demonstrations in [Prepare demonstration environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-Depending on the environment that you provision, extra setup might be required. Learn more in [Configure Copilot and AI capabilities](/dynamics365/business-central/enable-ai).
+Depending on the environment that you provision, extra setup might be required. Learn more in [Configure Copilot and agent capabilities](/dynamics365/business-central/enable-ai).
 
 ## Is there a difference between Copilot in Business Central and Copilot for Microsoft 365?
 
@@ -102,7 +102,7 @@ Currently, because of technical limitations, we can't offer Copilot to customers
 
 ## Related information
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Analyze data in lists with Copilot](analysis-assist.md)  
 [Chat with Copilot](chat-with-copilot.md)  
 [Create marketing text with Copilot](item-marketing-text.md)  

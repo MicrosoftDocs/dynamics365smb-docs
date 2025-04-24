@@ -38,7 +38,7 @@ You can apply the payments from customers to the open invoices from accounts rec
     |**Account Type**|The account type to which the entry is to be posted.|  
     |**Account No.**|The account number to which the entry is to be posted.|  
     |**Description**|The description of the entry. This field automatically populates the description of the account number selected in the **Account No.** field.|  
-    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G/L Account**. Learn more in [VAT Product Posting Groups](../../finance-posting-groups#tax-posting-groups).|  
+    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G/L Account**. Learn more in [VAT Product Posting Groups](../../finance-posting-groups.md#tax-posting-groups).|  
     |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br><br/> If this amount includes the VAT amount, then select the **Amount incl. VAT** checkbox.|  
 
 1. Choose the **Post** action.  

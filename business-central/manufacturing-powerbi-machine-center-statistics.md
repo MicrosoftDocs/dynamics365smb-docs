@@ -1,6 +1,6 @@
 ---
 title: Machine Center Statistics
-description: The Machine Center Statistics report shows the load and the allocated capacity of each machine center.
+description: The Machine Center Statistics report shows key performance indicators for each machine center.
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
@@ -8,35 +8,66 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 # TODO correct page id must be added
 # ms.search.form: 37042_Primary 
-ms.date: 04/22/2024
+ms.date: 04/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Machine Center Load (Power BI Report)
+# Machine Center Statistics (Power BI Report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The **Machine Center Load** report measures the load and the allocated capacity of each machine center. Use this report to ensure that machine centers aren't overloaded.
+The **Machine Center Statistics** Power BI Report offers a comprehensive view of operational performance across all machine centers. Through a combination of high-level metrics and granular details, this report provides insights needed to evaluate efficiency, resource utilization, and production outcomes. The KPI Cards and Machine Center Efficiency Bar Chart provide concise summaries of key performance indicators (KPIs), enabling quick assessments of machine center performance. For a deeper analysis, users can leverage the detailed insights presented in the Statistic Details Table to support decision-making and drive operational improvements.
 
-:::image type="content" source="media/manufacturing/machine-center-statistics.png" alt-text="Screenshot of the Machine Center Load Power BI Report" lightbox="media/manufacturing/machine-center-statistics.png":::
+:::image type="content" source="media/manufacturing/machine-center-statistics.png" alt-text="Screenshot of the Machine Center Statistics Power BI Report" lightbox="media/manufacturing/machine-center-statistics.png":::
+
+The **Machine Center Scrap %** KPI Card highlights the Machine Center's Scrap Percentage, an essential measure of performance. It calculates the ratio of scrap generated to the total output processed by the machine center. Serving as a key indicator, this visual allows users to quickly assess operational efficiency and pinpoint areas for improvement
+
+The **Machine Center Load** KPI Card provides a holistic view of the Machine Center's workload and capacity by showcasing three essential measures: Machine Center Load, Allocated Time, and Capacity (Effective). It enables users to assess resource utilization, identify bottlenecks, and evaluate operational efficiency within the machine center
+
+The **Machine Center Efficiency** Bar Chart visualizes the actual efficiency of each machine center, organized by machine center number. It provides a visual comparison of efficiency levels, enabling users to identify performance variations and target areas for operational improvements.
+
+The **Statistics Details** table provides a detailed summary of each machine center, including its associated work center and a range of key performance indicators (KPIs). The listed KPIs cover various aspects of performance, such as capacity, efficiency, cost, time allocation, output, scrap metrics, and runtime statistics. These include:
+
+- Machine Center Total Capacity
+- Machine Center Capacity Effective
+- Machine Center Expected Efficiency %
+- Machine Center Actual Need
+- Machine Center Actual Efficiency %
+- Machine Center Actual Total Cost
+- Machine Center Allocated Time
+- Machine Center Output
+- Machine Center Scrap
+- Machine Center Scrap %
+- Machine Center Run Time
+- Machine Center Stop Time
+- Machine Center Stop %
 
 ## Use the report
 
-The report is meant for manufacturing managers and supervisors.
+The Machine Center Statistics report is designed for manufacturing managers and production supervisors to analyze machine center performance and efficiency.
 
-Manufacturing managers use this report to ensure that loads on machine centers don't exceed their available capacity. By analyzing the load percentage and allocated time, you can identify overloaded machine centers and take steps to reduce the workload. For example, you might adjust the production schedule or allocate more resources to a particular machine center. Additionally, by monitoring the machine center load, you can ensure room for contingencies in cases where a machine center is loaded to 100%.
+Manufacturing managers use this report to assess key statistics related to machine center operations. By reviewing the performance metrics, managers can identify areas for improvement, optimize resource allocation, and ensure that machine centers operate at peak efficiency. This information helps with strategic planning and maintaining smooth production workflows.
 
-Production supervisors use this report to analyze the load percentage and allocated time for machine center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all machine centers so production runs smoothly.
+Production supervisors rely on this report to monitor machine center performance. By analyzing data on output levels, scrap rates, capacity needs, and potential bottlenecks, supervisors can make informed decisions to address inefficiencies and maintain steady production.
 
 ## Key Performance Indicators (KPIs)
 
 The *Machine Center Load* report includes the following KPIs and measures:
 
+- [Machine Center Total Capacity]()
 - [Machine Center Capacity Effective]()
-- [Machine Center Allocated Time]()
-- [Machine Center Availability After Orders]()
-- [Machine Center Load]()
 - [Machine Center Expected Efficiency %]()
+- [Machine Center Actual Need]()
+- [Machine Center Actual Efficiency %]()
+- [Machine Center Actual Total Cost]()
+- [Machine Center Allocated Time]()
+- [Machine Center Output]()
+- [Machine Center Scrap]()
+- [Machine Center Scrap %]()
+- [Machine Center Run Time]()
+- [Machine Center Stop Time]()
+- [Machine Center Stop %]()
+- [Machine Center Load]()
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

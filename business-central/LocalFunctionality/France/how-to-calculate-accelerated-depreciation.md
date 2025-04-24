@@ -34,7 +34,7 @@ Entries are transferred to the fixed asset general journal when you select an ac
     |**Use Force No. of Days**|Select to use the number of days in the **Force No. of Days** field for the depreciation calculation.|  
     |**Force No. of Days**|The number of days for the depreciation calculation. You can only enter a number in this field if the **Use Force No of Days** checkbox is selected.|  
     |**Posting Date**|The posting date for the calculated depreciation.<br><br/> You can leave this field blank if the **Use Same FA + G/L Posting Dates** field in the accounting depreciation book is selected. The posting date is copied to the resulting journal lines.|  
-    |**Document No.**|The document number for the fixed asset journal batch. Leave this field blank if you set up a numbering series for the fixed asset journal batch on the **No. Series** page. Learn more in [No. Series](/business-central/ui-create-number-series.md).|  
+    |**Document No.**|The document number for the fixed asset journal batch. Leave this field blank if you set up a numbering series for the fixed asset journal batch on the **No. Series** page. Learn more in [No. Series](../../ui-create-number-series.md).|
     |**Posting Description**|The posting description for the fixed asset journal entries.|  
     |**Insert Bal. Account**|Select to automatically insert balancing accounts in the resulting journal. The **Calculate Depreciation** batch job only uses balancing accounts that are defined in the FA Posting Group.|  
 

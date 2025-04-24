@@ -1,13 +1,13 @@
 ---
 title: Sales Quote Overview (Power BI report)
-description: The *Sales Quote Overview* report provides detailed information on your organization's Sales Quote activities. 
+description: The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities. 
 author: kennienp
 ms.author: kepontop
-ms.reviewer: bholtorf
+ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37104_Primary
-ms.date: 10/26/2024
+ms.date: 04/24/2024
 ms.service: dynamics-365-business-central
 ---
 
@@ -15,9 +15,9 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The *Sales Quote Overview* report provides detailed information on your organization's sales quotes for customers and prospects, highlighting the number of quotes, total value, profit rates, and sales quote amount over time. Additionally, this report provides a quick view of sales quote documents by customer, sales quote amount by salesperson and by item category, to gain insights into upcoming sales performance.
+The **Sales Quote Overview** report provides detailed information on your organization's sales quotes for customers and prospects, highlighting the number of quotes, total value, profit rates, and sales quote amount over time. Additionally, this report provides a quick view of sales quote documents by customer, sales quote amount by salesperson and by item category, to gain insights into upcoming sales performance.
 
-## How to use the report
+## Use the report
 
 This report is targeted towards management and sales teams to help them track the organization's prospective sales, to ensure the business is on track to meet budget goals and maintain profitability.
 
@@ -25,28 +25,28 @@ As a sales manager, you may want to monitor the performance of salespeople and t
 
 As a salesperson, the *Sales Quote Overview* report can be used to review your upcoming sales performance and identify areas of improvement. Additionally, by analyzing the sales quote amount by item category you may gain insights into higher-performing items during the sales quote stage. This information can be used to focus your sales pitches towards items with increased engagement.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators
 
-The *Sales Quote Overview* report includes the following KPIs and measures: 
+The report includes the following key performance indicators (KPIs) and measures:
 
-- [**No. of Sales Quotes**](sales-powerbi-kpis.md#no-of-sales-quotes)
-- [**Sales Amount**](sales-powerbi-kpis.md#sales-amount)
-- [**Gross Profit**](sales-powerbi-kpis.md#gross-profit)
-- [**Gross Profit Margin**](sales-powerbi-kpis.md#gross-profit-margin)
+- **[No. of Sales Quotes](sales-powerbi-sales-kpis.md#no-of-sales-quotes)**
+- **[Sales Amount](sales-powerbi-sales-kpis.md#sales-amount)**
+- **[Gross Profit](sales-powerbi-sales-kpis.md#gross-profit)**
+- **[Gross Profit Margin](sales-powerbi-sales-kpis.md#gross-profit-margin)**
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 
 ## Data used in the report
 
-The *Sales Quote Overview* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Sales Line
 - Customer
 - Item
-- Salesperson
+- Salesperson/Purchaser
 
 ## Try the report
 
@@ -56,9 +56,9 @@ Try the report here: [Sales Quote Overview](https://businesscentral.dynamics.com
 
 ## See also
 
-[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)   
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
-[Built-in sales reports](sales-reports.md)   
+[Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Built-in sales reports](sales-reports.md)  
 [Sales analytics overview](sales-analytics-overview.md)  
 [Sales overview](sales-manage-sales.md)  
 

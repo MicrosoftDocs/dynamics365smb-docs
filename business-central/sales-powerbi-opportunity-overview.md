@@ -1,13 +1,13 @@
 ---
 title: Opportunity Overview (Power BI report)
-description: The *Opportunity Overview* report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location.
+description: The Opportunity Overview report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: bholtorf
+ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 37103_Primary
-ms.date: 10/26/2024
+ms.date: 04/24/2024
 ms.service: dynamics-365-business-central
 ---
 
@@ -15,15 +15,15 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The *Opportunity Overview* report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location. This report includes key insights into opportunity progression, prospect demographics and performance of closed opportunities.
+The **Opportunity Overview** report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location. This report includes key insights into opportunity progression, prospect demographics and performance of closed opportunities.
 
-## How to use the report
+## Use the report
 
 This report is targeted towards management and sales teams to help them track ongoing opportunities and the value expected to be generated.
 
 As a sales manager, you want to oversee the opportunity pipeline and monitor the performance of salespeople. Using this report, you can review the value by location and Sales Cycle Stage, informing you on focal demographics. This can empower you to engage future sales and inform you on where to invest in new marketing campaigns. Additionally, you can analyze key metrics for each salesperson to provide support accordingly.
 
-For example, by reviewing the the [Win/Loss %](sales-powerbi-kpis.md#win-loss) you identify a salesperson who is underperforming. Using this information, you invest in further training and mentorship to improve their opportunity outcomes and overall profitability.
+For example, by reviewing the the [Win/Loss %](sales-powerbi-sales-kpis.md#win-loss) you identify a salesperson who is under performing. Using this information, you invest in further training and mentorship to improve their opportunity outcomes and overall profitability.
 
 As a salesperson, the *Opportunity Overview* helps you to monitor your sales performance and manage opportunity progress. Using the sales cycle and location information, you are encouraged to nurture a diverse portfolio of prospects. Meanwhile, the sales cycle stage insights motivate you to action tasks and advance opportunities.
 
@@ -31,22 +31,21 @@ For example, using the report you identify an opportunity in the initial stage w
 
 ## Key Performance Indicators (KPIs)
 
-The *Opportunity Overview* report includes the following KPIs and measures: 
+The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Calculated Current Value**](sales-powerbi-kpis.md#calculated-current-value)
-- [**Estimated Value**](sales-powerbi-kpis.md#estimated-value)
-- [**No. of Opportunities**](sales-powerbi-kpis.md#no-of-opportunities)
-- [**Opportunity Sales Quote Amount**](sales-powerbi-kpis.md#opportunity-sales-quote-amount)
-- [**Win/Loss %**](sales-powerbi-kpis.md#win-loss)
+- **[Calculated Current Value](sales-powerbi-sales-kpis.md#calculated-current-value)**
+- **[Estimated Value](sales-powerbi-sales-kpis.md#estimated-value)**
+- **[No. of Opportunities](sales-powerbi-sales-kpis.md#no-of-opportunities)**
+- **[Opportunity Sales Quote Amount](sales-powerbi-sales-kpis.md#opportunity-sales-quote-amount)**
+- **[Win/Loss %](sales-powerbi-sales-kpis.md#win-loss)**
 
-
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
 ## Data used in the report
 
-The *Opportunity Overview* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Contact
 - Opportunities

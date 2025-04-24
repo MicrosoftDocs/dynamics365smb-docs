@@ -1,6 +1,6 @@
 ---
 title: Machine Center Statistics
-description: The Machine Center Load report shows the load and the allocated capacity of each machine center.
+description: The Machine Center Statistics report shows the load and the allocated capacity of each machine center.
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 The **Machine Center Load** report measures the load and the allocated capacity of each machine center. Use this report to ensure that machine centers aren't overloaded.
 
-:::image type="content" source="media/manufacturing/machine-center-load.png" alt-text="Screenshot of the Machine Center Load Power BI Report" lightbox="media/manufacturing/machine-center-load.png":::
+:::image type="content" source="media/manufacturing/machine-center-statistics.png" alt-text="Screenshot of the Machine Center Load Power BI Report" lightbox="media/manufacturing/machine-center-statistics.png":::
 
 ## Use the report
 

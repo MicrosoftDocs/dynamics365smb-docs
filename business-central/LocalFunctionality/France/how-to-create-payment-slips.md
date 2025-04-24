@@ -65,7 +65,7 @@ The following procedure describes how to create payment slips for vendor payment
     |**Last Payment Date**|The last payment date for the vendor ledger entries that are to be included in the batch job.|  
     |**Find Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  
     |**Summarize per**|The criteria for summarizing the payment line.|  
-    |**Use Vendor Priority**|Select to sort the suggested payments based on the value in the **Priority** field on the vendor cards. Learn more in [Priority](/business-central/purchasing-how-prioritize-vendors.md).|  
+    |**Use Vendor Priority**|Select to sort the suggested payments based on the value in the **Priority** field on the vendor cards. Learn more in [Priority](../../purchasing-how-prioritize-vendors.md).|  
     |**Available Amount (LCY)**|The maximum amount that is available for payments in local currency.|  
     |**Currency Filter**|The code for the currency to be included in the batch job.|  
 

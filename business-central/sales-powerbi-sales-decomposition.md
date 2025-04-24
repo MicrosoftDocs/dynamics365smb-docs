@@ -17,6 +17,8 @@ ms.service: dynamics-365-business-central
 
 The **Sales Decomposition** report provides a detailed analysis of sales metrics, breaking them down into their key contributing components. This report empowers users to understand what is driving changes in sales performance and why.
 
+:::image type="content" source="media/powerbi/sales/sales-decomposition.png" alt-text="Screenshot of the Sales Decomposition report" lightbox="media/powerbi/sales/sales-decomposition.png":::
+
 ## Use the report
 
 Leadership and management teams use the report to identify trends, break down sales metrics into their key contributing components, and make informed adjustments to strategies.

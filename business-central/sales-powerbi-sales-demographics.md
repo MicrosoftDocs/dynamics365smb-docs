@@ -17,6 +17,8 @@ ms.service: dynamics-365-business-central
 
 The **Sales Demographics** report provides a comprehensive analysis of sales performance across different demographic segments, offering valuable insights into customer behavior and preferences to optimize sales strategies.
 
+:::image type="content" source="media/powerbi/sales/sales-demographics.png" alt-text="Screenshot of the Sales Demographics report" lightbox="media/powerbi/sales/sales-demographics.png":::
+
 ## Use the report
 
 Leadership and management teams use the report to to gain a deeper understanding of sales performance based on demographic factors. This report is helpful for analyzing sales metrics by item category, customer posting group, document type, and geographical location to identify trends and opportunities for growth.

@@ -17,6 +17,8 @@ ms.service: dynamics-365-business-central
 
 The **Opportunity Overview** report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location. This report includes key insights into opportunity progression, prospect demographics and performance of closed opportunities.
 
+:::image type="content" source="media/powerbi/sales/sales-opportunity-overview.png" alt-text="Screenshot of the Opportunity Overview report" lightbox="media/powerbi/sales/sales-opportunity-overview.png":::
+
 ## Use the report
 
 This report is targeted towards management and sales teams to help them track ongoing opportunities and the value expected to be generated.

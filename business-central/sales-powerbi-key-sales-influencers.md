@@ -21,6 +21,8 @@ The Key Influencers visual uses AI to identify the most significant factors affe
 
 Additionally, the Top Segments tab summarizes the segments analyzed in the Key Influencers visual, giving you an overview of the areas that contribute most to your sales outcomes. Together, these tools provide a comprehensive view of sales drivers and help uncover opportunities for optimization.
 
+:::image type="content" source="media/powerbi/sales/sales-key-sales-influencers.png" alt-text="Screenshot of the Key Sales Influencers report" lightbox="media/powerbi/sales/sales-key-sales-influencers.png":::
+
 ## Use the report
 
 Leadership and management teams use the report to identify the primary drivers of sales performance and uncover actionable insights.

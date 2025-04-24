@@ -17,6 +17,8 @@ ms.service: dynamics-365-business-central
 
 The **Sales Quote Overview** report provides detailed information on your organization's sales quotes for customers and prospects, highlighting the number of quotes, total value, profit rates, and sales quote amount over time. Additionally, this report provides a quick view of sales quote documents by customer, sales quote amount by salesperson and by item category, to gain insights into upcoming sales performance.
 
+:::image type="content" source="media/powerbi/sales/sales-quote-overview.png" alt-text="Screenshot of the Sales Quote Overview report" lightbox="media/powerbi/sales/sales-quote-overview.png":::
+
 ## Use the report
 
 This report is targeted towards management and sales teams to help them track the organization's prospective sales, to ensure the business is on track to meet budget goals and maintain profitability.

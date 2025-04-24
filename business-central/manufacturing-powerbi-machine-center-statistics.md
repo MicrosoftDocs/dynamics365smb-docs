@@ -52,7 +52,7 @@ Production supervisors rely on this report to monitor machine center performance
 
 ## Key Performance Indicators (KPIs)
 
-The *Machine Center Load* report includes the following KPIs and measures:
+The *Machine Center Statistics* report includes the following KPIs and measures:
 
 - [Machine Center Total Capacity]()
 - [Machine Center Capacity Effective]()
@@ -83,7 +83,7 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
   
 ## Try the report
 
-Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Machine Center Statistics](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

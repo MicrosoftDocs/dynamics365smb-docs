@@ -1,6 +1,6 @@
 ---
 title: Electronic invoicing in Germany
-description: Learn how to setup and work with the German localization of the E-Document framework.
+description: Learn how to set up and work with the German localization of the E-Document framework.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al

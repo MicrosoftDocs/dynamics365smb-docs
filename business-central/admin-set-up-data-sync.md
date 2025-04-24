@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 05/07/2024
 ms.custom: bap-template
-ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
+ms.search.form: 7230, 7233, 5338, 7236, 672, 7234, 7230_Primary, 7233_Primary, 7234_Primary, 7236_Primary
 ---
 
 # Get ready to synchronize master data

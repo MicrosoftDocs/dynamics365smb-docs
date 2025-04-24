@@ -77,8 +77,9 @@ The *Machine Center Statistics* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Calendar Entry
+- Capacity Ledger Entry
 - Prod Order Capacity Need
+- Calendar Entry
 - Machine Center
   
 ## Try the report

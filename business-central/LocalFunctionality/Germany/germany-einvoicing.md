@@ -48,7 +48,7 @@ When you configure e-invoices in the sales process, make sure to display your bu
 Learn more in [Use e-documents in the purchases process](../../finance-how-use-edocuments.md), which provides information about the E-Documents framework in purchase processes.  
 
 > [!NOTE]
-> E-invoicing in purchase processes is available starting with version 25.2, and its enablement in ales starts from version 25.3.  
+> E-invoicing in purchase processes is available starting with version 25.2, and its enablement in sales starts from version 25.3.  
 
 ## Related information
 

@@ -17,6 +17,8 @@ ms.service: dynamics-365-business-central
 
 The *Return Order Overview* report tracks and analyzes return orders, providing insights into return amounts, quantities, reasons for return, and the financial impact on the organization. This gives a high-level summary of return trends for particular item categories and customers, and analyzes the return amount over time.
 
+:::image type="content" source="media/powerbi/sales/sales-returns-overview.png" alt-text="Screenshot of the Return Order Overview report" lightbox="media/powerbi/sales/sales-returns-overview.png":::
+
 ## Use the report
 This report is targeted towards leadership and management teams to help them identify the key factors contributing to return orders and credit memos.
 

@@ -1,6 +1,6 @@
 ---
 title: Production Order Overview
-description: The Production Order Overview report 
+description: The Production Order Overview report provides a high-level summary of your organization's production order activities.
 author: kennienp
 ms.author: kepontop
 ms.reviewer:

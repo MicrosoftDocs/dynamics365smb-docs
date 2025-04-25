@@ -16,51 +16,37 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The **Production Order Overview** report provides a high-level summary of your organization's production order activities. This report filters out finished production orders so that only current production order data is included. The report showcases key performance metrics (KPIs), such as:
-
-- The number of production orders
-- Completion rate measured as Finished %
-- Actual Total Cost
-- Total Expected Cost
-- Total Standard Cost
-
-The **No. of Production Orders by Status** bar chart breaks down productions orders by status, allowing you to quickly see the volume of documents at different stages of production.
-
-The **Completion Ratios by Source No** is a 100% stacked bar chart that shows the completion rate of each source item by visualizing the percentage of quantity finished vs. remaining. Each bar represents a source item, making it easy to see which source items are fully complete, partially complete, or yet to start. This helps you monitor progress at a glance and prioritize follow-ups for delayed or underperforming orders.
-
-The **Total Actual Cost Breakdown** pie chart divides [Total Actual Cost]() into its sub-components: [Actual Capacity Cost Overhead](), [Actual Material Cost](), [Actual Capacity Cost](), [Actual Subcontracted Cost](), and [Actual Manufacturing Overhead Cost](). This visualization helps manufacturing managers quickly understand where costs are concentrated and supports more informed cost control decisions.
-
-The **Current Production Orders** table lists detailed information for each production order, including the Production Order Number and Status, Source No., Planned Quantity, Finished Quantity, and Starting Date. It provides additional context when interacting with other visuals in the report, helping you drill into specific orders for deeper analysis.
+The **Prod. Order List** page organizes all production orders and offers a mix of high-level summaries, categorical insights, and detailed records. It helps you efficiently evaluate key metrics, including costs and order counts, while enabling deeper exploration of specific details like statuses, source items, and document-level dates. Additionally, this page allows you to track planned versus finished output and analyze variances across production orders for better decision-making.
 
 :::image type="content" source="media/manufacturing/prod-order-list.png" alt-text="Screenshot of the Prod Order List Power BI Report" lightbox="media/manufacturing/prod-order-list.png":::
 
+The **Total Actual Cost** KPI card presents key performance indicators (KPIs) related to cost analysis. The primary KPI displayed is the *Actual Total Cost*, serving as the central metric for monitoring actual manufacturing costs. Below this metric, comparative measures like *Total Expected Cost* and *Total Standard Cost* are provided, offering context for evaluating cost performance. Additionally, variance percentages are displayed beneath these measures, highlighting the deviations relative to the *Actual Total Cost*.
+
+The **No. of Production Orders by Status** bar chart represents the distribution of production orders based on their statuses. It uses the measure 'No. of Production Orders' to calculate the distinct count of production orders, while the production order status field acts as the dimension, classifying orders into categories such as "Released," "Planned," and "Finished."
+
+The **No. of Production Orders by Source Item** bar chart displays the distribution of production orders based on their originating source items. It uses the measure 'No. of Production Orders' to calculate the distinct count of production orders, while the Source No. field serves as the dimension, classifying orders by their respective source items.
+
+The **Prod. Order List Details** table serves as the final visual on the page, offering document-level details for each production order. Key fields included are the status, production order no., source no., routing no., starting, ending, and due dates, planned quantity, finished quantity, and variance quantity. When used in conjunction with the bar charts, this table provides deeper context, allowing users to analyze the highlighted dimensions in greater detail and gain a more comprehensive understanding of the data.
+
 ## Use the report
 
-Manufacturing managers and supervisors use this report to monitor the progress, cost, and status of production orders to ensure efficient and balanced operations.
+Manufacturing managers use the **Prod. Order List** page to monitor key metrics and ensure efficient production operations. The **Total Actual Cost** KPI card helps them analyze manufacturing costs by comparing *Actual Total Cost* with *Total Expected Cost* and *Total Standard Cost*, while the variance percentages highlight any significant deviations. The **No. of Production Orders by Status** and **No. of Production Orders by Source Item** bar charts enable managers to quickly assess production progress and resource allocation. By analyzing these visuals together with the **Prod. Order List Details** table, managers can evaluate planned versus finished output, identify variances, and make data-driven decisions to address issues like cost overruns or production delays.
 
-Manufacturing managers rely on this report to track production order completion rates, evaluate actual production costs, and identify potential delays or cost overruns. The Completion Ratios by Source Number chart highlights which orders are progressing as expected and which may require follow-up. The Total Actual Cost Breakdown pie chart provides a clear view of cost distribution, helping managers pinpoint major cost drivers and make informed decisions to control expenses.
-
-Production supervisors use the Number of Production Orders by Status chart to keep track of order volumes across different stages of production, helping them identify workflow bottlenecks. The Current Production Orders table serves as a detailed reference for ongoing orders, allowing supervisors to provide updates to management, verify progress, and support production scheduling.
-
-Cross-highlighting between visuals provides additional context and insight—for example, selecting a specific status or production order dynamically updates the related charts and tables. This interactive capability allows users to drill down into specific areas of interest and better understand how individual orders contribute to overall performance.
-
-Together, these visuals offer a comprehensive snapshot of production health, empowering teams to maintain output targets, control costs, and ensure timely delivery.
+Production supervisors rely on the **Prod. Order List** page to manage day-to-day operations and keep production on schedule. The **No. of Production Orders by Status** bar chart helps supervisors monitor the distribution of orders across different stages, enabling them to spot bottlenecks or delays. The **Prod. Order List Details** table provides document-level details, such as planned and finished quantities, starting and due dates, and routing information, allowing supervisors to track specific orders closely. Using the **No. of Production Orders by Source Item** bar chart, supervisors can assess how production orders are distributed across source items, facilitating better resource planning. Together, these insights support more effective coordination and progress updates for smooth production workflows.
 
 ## Key Performance Indicators (KPIs)
 
-The *Machine Center Load* report includes the following KPIs and measures:
+The *Prod. Order List* report includes the following KPIs and measures:
 
-- [Actual Capacity Cost]()
-- [Actual Capacity Cost Overhead]()
-- [Actual Manufacturing Overhead Cost]()
-- [Actual Material Cost]()
-- [Actual Subcontracted Cost]()
-- [Total Actual Cost]()
-- [Total Expected Cost]()
-- [Total Standard Cost]()
+- [Actual Total Cost]()
+- [Expected Total Cost]()
+- [Standard Total Cost]()
+- [Total Expected Cost Dev %]()
+- [Total Standard Cost Dev %]()
 - [No. of Production Orders]()
-- [Finished %]()
-- [Remaining %]()
+- [Planned Quantity]()
+- [Finished Quantity]()
+- [Variance Quantity]()
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -70,16 +56,16 @@ The *Machine Center Load* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Production Order Line
-- Capacity Ledger Entry
 - Item Ledger Entry
-- Value Entry
-- Inventory Adjustment Entry Order Line
+- Capacity Ledger Entry
+- Value Entries
 - Production Order
+- Production Order Line
+- Inventory Adjustment Entry Order Line
   
 ## Try the report
 
-Try the report here: [Production Order Overview](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Prod. Order List](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

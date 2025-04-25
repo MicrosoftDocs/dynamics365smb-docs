@@ -1,6 +1,6 @@
 ---
-title: Production Order Overview
-description: The Production Order Overview report 
+title: Prod.Order List
+description: The Prod. Order List report 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 # TODO correct page id must be added
 # ms.search.form: 37042_Primary 
-ms.date: 04/22/2024
+ms.date: 04/25/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Production Order Overview (Power BI Report)
+# Prod. Order List (Power BI Report)
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
@@ -32,7 +32,7 @@ The **Total Actual Cost Breakdown** pie chart divides [Total Actual Cost]() into
 
 The **Current Production Orders** table lists detailed information for each production order, including the Production Order Number and Status, Source No., Planned Quantity, Finished Quantity, and Starting Date. It provides additional context when interacting with other visuals in the report, helping you drill into specific orders for deeper analysis.
 
-:::image type="content" source="media/manufacturing/production-order-overview.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview.png":::
+:::image type="content" source="media/manufacturing/prod-order-list.png" alt-text="Screenshot of the Prod Order List Power BI Report" lightbox="media/manufacturing/prod-order-list.png":::
 
 ## Use the report
 

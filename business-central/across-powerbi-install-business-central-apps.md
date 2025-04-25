@@ -21,7 +21,7 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Role Centers and in the Role Explorer.
+- Navigation links on Role Centers and Role Explorer.
 
 ## Prerequisites
 
@@ -86,13 +86,12 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 
 [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
 
-
 ## Run the Connect to Power BI assisted setup guide
 
 After you install your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, you can configure them to suit your business:
 
 - Get help with the set-up process by using the **Connect to Power BI** assisted setup guide.
-- Set up things yourself on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+- Set up things yourself on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
 
 The assisted setup guide helps you configure the following components:
 
@@ -177,15 +176,14 @@ For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/po
 
 ## Want links to show up in Report Explorer?
 
-Visibility of functional areas shown in the Report Explorer are controlled through profiles (sometimes called *Departmental Role Center Profiles*). 
+Profiles, sometimes called *Departmental Role Center Profiles*, control whether functional areas show in Report Explorer. To specify whether Departmental Role Center Profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
 
-You can turn the visibility of Departmental Role Center Profiles on/off from the *Profiles* page. For a profile to be visible, you must set the properties **Enabled** and **Show in Role Explorer** to true.
-
-The built-in Departmental Role Center Profiles have filled in a **Description** with the text "Navigation menu only".
+> [!TIP]
+> For the built-in Departmental Role Center Profiles, the **Description** field contains *Navigation menu only*.
 
 ## Permissions
 
-In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have Read permissions to the tables in the model. These tables are currently documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user needs Read permissions for: [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
+In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have **Read** permissions to the tables in the model. The tables are documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], to explore the [!INCLUDE [prod_short](includes/prod_short.md)] tables that a user needs Read permissions for, go to [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md).
 
 In the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], we recommend that you add multiple admins for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app workspace. Grant Read permissions to users who should be able to view report pages in an app.
 

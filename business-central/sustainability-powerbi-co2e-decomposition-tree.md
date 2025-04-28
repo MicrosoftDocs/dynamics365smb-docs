@@ -36,7 +36,7 @@ Click on the link for a KPI to learn more about what it means, how it is calcula
 
 ## Data used in the report
 
-The *Co2e Decomposition Tree* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The *CO2e Decomposition Tree* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 - Sustainability Ledger Entry
 - Sustainability Account Category
@@ -45,7 +45,7 @@ The *Co2e Decomposition Tree* report use data from the following tables in [!INC
 
 ## Try the report
 
-Try the report here: [Co2e Decomposition Tree](https://businesscentral.dynamics.com?page=37070)
+Try the report here: [CO2e Decomposition Tree](https://businesscentral.dynamics.com?page=37108)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

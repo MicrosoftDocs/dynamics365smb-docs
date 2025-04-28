@@ -62,7 +62,7 @@ The *Sustainability Overview* report use data from the following tables in [!INC
 
 ## Try the report
 
-Try the report here: [Sustainability Overview](https://businesscentral.dynamics.com?page=37067)
+Try the report here: [Sustainability Overview](https://businesscentral.dynamics.com?page=37084)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

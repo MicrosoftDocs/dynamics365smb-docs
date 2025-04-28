@@ -45,7 +45,7 @@ The *Emissions by Category and Scope* report use data from the following tables 
 
 ## Try the report
 
-Try the report here: [Emissions by Category and Scope](https://businesscentral.dynamics.com?page=37071)
+Try the report here: [Emissions by Category and Scope](https://businesscentral.dynamics.com?page=37088)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

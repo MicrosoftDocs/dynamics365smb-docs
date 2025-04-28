@@ -59,7 +59,7 @@ The *Realized Emissions vs Target* report use data from the following tables in 
 
 ## Try the report
 
-Try the report here: [Realized Emissions vs Target](https://businesscentral.dynamics.com?page=37068)
+Try the report here: [Realized Emissions vs Target](https://businesscentral.dynamics.com?page=37085)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

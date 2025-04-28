@@ -44,7 +44,7 @@ The *CO2e Analysis* report use data from the following tables in [!INCLUDE[prod_
 
 ## Try the report
 
-Try the report here: [CO2e Analysis](https://businesscentral.dynamics.com?page=37072)
+Try the report here: [CO2e Analysis](https://businesscentral.dynamics.com?page=37089)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

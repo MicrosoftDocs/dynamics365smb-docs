@@ -50,7 +50,7 @@ The *Social Analysis* report use data from the following tables in [!INCLUDE[pro
 
 ## Try the report
 
-Try the report here: [Social Analysis](https://businesscentral.dynamics.com?page=37074)
+Try the report here: [Social Analysis](https://businesscentral.dynamics.com?page=37091)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

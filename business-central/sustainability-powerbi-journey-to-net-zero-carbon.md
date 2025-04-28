@@ -27,10 +27,10 @@ A Sustainability Manager can use this report to monitor key Carbon Emissions and
 
 The *Journey to Net Zero Carbon* report includes the following KPIs and measures: 
 
-- [**CO2e Emissions (Excl Credits)**](sustainability-powerbi-kpis.md#co2e)//TO DO
-- [**Purchased Carbon Credits**](sustainability-powerbi-kpis.md#purchase)//TO DO
+- [**CO2e Emissions (Excl Credits)**](sustainability-powerbi-kpis.md#co2e-emissions-excl-credits)
+- [**Purchased Carbon Credits**](sustainability-powerbi-kpis.md#purchased-carbon-credits)
 - [**CO2e Emissions**](sustainability-powerbi-kpis.md#co2e-emissions)
-- [**CO2 Emissions**](sustainability-powerbi-kpis.md#co2-emissions)// Should this be in the report?
+- [**CO2 Emissions**](sustainability-powerbi-kpis.md#co2-emissions)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 
@@ -46,7 +46,7 @@ The *Journey to Net Zero Carbon* report use data from the following tables in [!
 
 ## Try the report
 
-Try the report here: [Journey to Net Zero Carbon](https://businesscentral.dynamics.com?page=37073)
+Try the report here: [Journey to Net Zero Carbon](https://businesscentral.dynamics.com?page=37090)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

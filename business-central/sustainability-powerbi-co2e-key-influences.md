@@ -45,7 +45,7 @@ The *Co2e Key Influences* report use data from the following tables in [!INCLUDE
 
 ## Try the report
 
-Try the report here: [Co2e Key Influences](https://businesscentral.dynamics.com?page=37070)
+Try the report here: [Co2e Key Influences](https://businesscentral.dynamics.com?page=37093)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

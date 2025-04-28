@@ -56,7 +56,7 @@ The *Realized Emissions vs Baseline* report use data from the following tables i
 
 ## Try the report
 
-Try the report here: [Realized Emissions vs Baseline](https://businesscentral.dynamics.com?page=37069)
+Try the report here: [Realized Emissions vs Baseline](https://businesscentral.dynamics.com?page=37086)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

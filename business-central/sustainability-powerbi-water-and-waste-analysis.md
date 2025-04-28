@@ -27,16 +27,13 @@ The *Water and Waste Analysis*....
 The *Water and Waste Analysis* report includes the following KPIs and measures: 
 
 - [**Water Realized (%)**](sustainability-powerbi-kpis.md#water-realized-)
-- [**Water vs Baseline (%)**](sustainability-powerbi-kpis.md#water-vs) // TO DO
+- [**Water Intensity vs Baseline (%)**](sustainability-powerbi-kpis.md#water-intensity-vs-baseline-)
 - [**Waste Realized (%)**](sustainability-powerbi-kpis.md#waste-realized-)
-- [**Waste vs Baseline (%)**](sustainability-powerbi-kpis.md#water-realized-)// TO DO
-- [**Water Dish vs Baseline (%)**](sustainability-powerbi-kpis.md#water-realized-)// TO DO
-- [**Water Intensity**](sustainability-powerbi-kpis.md#water-intensity) // TO DO
-- [**Water Available**](sustainability-powerbi-kpis.md#water-intensity)// TO DO
-- [**Facility Capacity**](sustainability-powerbi-kpis.md#water-intensity)// TO DO
-
-
-
+- [**Waste Intensity vs Baseline (%)**](sustainability-powerbi-kpis.md#waste-intensity-vs-baseline-)
+- [**Discharged Into Water vs Baseline (%)**](sustainability-powerbi-kpis.md#discharged-into-water-vs-baseline-)
+- [**Water Intensity**](sustainability-powerbi-kpis.md#water-intensity)
+- [**Water Available**](sustainability-powerbi-kpis.md#water-available)
+- [**Facility Capacity**](sustainability-powerbi-kpis.md#facility-capactity)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
@@ -55,7 +52,7 @@ The *Water and Waste Analysis* report use data from the following tables in [!IN
 
 ## Try the report
 
-Try the report here: [Water and Waste Analysis](https://businesscentral.dynamics.com?page=37070)
+Try the report here: [Water and Waste Analysis](https://businesscentral.dynamics.com?page=37087)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

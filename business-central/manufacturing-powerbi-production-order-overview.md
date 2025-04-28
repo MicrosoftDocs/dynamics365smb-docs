@@ -24,6 +24,8 @@ The **Production Order Overview** report provides a high-level summary of your o
 - Total Expected Cost
 - Total Standard Cost
 
+:::image type="content" source="media/manufacturing/production-order-overview.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview.png":::
+
 The **No. of Production Orders by Status** bar chart breaks down productions orders by status, allowing you to quickly see the volume of documents at different stages of production.
 
 The **Completion Ratios by Source No** is a 100% stacked bar chart that shows the completion rate of each source item by visualizing the percentage of quantity finished vs. remaining. Each bar represents a source item, making it easy to see which source items are fully complete, partially complete, or yet to start. This helps you monitor progress at a glance and prioritize follow-ups for delayed or underperforming orders.
@@ -31,8 +33,6 @@ The **Completion Ratios by Source No** is a 100% stacked bar chart that shows th
 The **Total Actual Cost Breakdown** pie chart divides [Total Actual Cost]() into its sub-components: [Actual Capacity Cost Overhead](), [Actual Material Cost](), [Actual Capacity Cost](), [Actual Subcontracted Cost](), and [Actual Manufacturing Overhead Cost](). This visualization helps manufacturing managers quickly understand where costs are concentrated and supports more informed cost control decisions.
 
 The **Current Production Orders** table lists detailed information for each production order, including the Production Order Number and Status, Source No., Planned Quantity, Finished Quantity, and Starting Date. It provides additional context when interacting with other visuals in the report, helping you drill into specific orders for deeper analysis.
-
-:::image type="content" source="media/manufacturing/production-order-overview.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview.png":::
 
 ## Use the report
 

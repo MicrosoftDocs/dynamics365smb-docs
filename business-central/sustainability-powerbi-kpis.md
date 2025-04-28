@@ -373,9 +373,8 @@ A Sum of [CO2e Emissions](#co2e-emissions) based on the Start and End date from 
 - [CH4 Emissions](#ch4-emissions)
 - [CH4 Emissions Balance at Date ](#balance-at-date-ch4-emissions)
 - [CH4 Emissions Balance](#balance-ch4-emissions)
-- [CH4 Baseline](#co2-emissions) 
-- [CH4 vs Baseline (%)](#co2-emissions)
-
+- [CH4 Baseline](#ch4-baseline) 
+- [CH4 vs Baseline (%)](#ch4-vs-baseline-)
 
 - [N2O Emissions](#n2o-emissions)
 - [N2O Emissions Balance](#n2o-emissions)
@@ -384,14 +383,42 @@ A Sum of [CO2e Emissions](#co2e-emissions) based on the Start and End date from 
 - [N2O vs Baseline (%)](#co2-emissions)
 
 - [CO2e Emissions](#co2e-emissions)
+- [CO2e Emissions (Excl Credits)](#co2e-emissions)
 - [CO2e Emissions Balance](#n2o-emissions)
 - [CO2e Emissions Balance at Date](#n2o-emissions)
 - [CO2e Baseline](#co2-emissions) 
 - [CO2e vs Baseline (%)](#co2-emissions)
 
 - [Discharged Into Water](#discharged-into-water)
+- [Discharged Into Water Balance](#TODO)
+- [Discharged Into Water Balance at Date](#TODO)
+- [Discharged Into Water DOD](#TODO)
+- [Discharged Into Water PD](#TODO)
+- [Discharged Into Water PY](#TODO)
+- [Discharged Into Water YOY](#TODO)
+- [Discharged Into Water Baseline](#TODO)
+- [Discharged Into Water vs Baseline (%)](#TODO)
+
 - [Water Intensity](#water-intensity)
+- [Water Intensity Baseline](#TODO)
+- [Water Intensity Baseline at Date](#TODO)
+- [Water Intensity DOD](#TODO)
+- [Water Intensity PD](#TODO)
+- [Water Intensity PY](#TODO)
+- [Water Intensity YOY](#TODO)
+- [Water Intensity Baseline](#TODO)
+- [Water Intensity vs Baseline (%)](#TODO)
+- [Water Available](#TODO)
+
 - [Waste Intensity](#waste-intensity)
+- [Waste Intensity Balance](#TODO)
+- [Waste Intensity Balance at Date](#TODO)
+- [Waste Intensity DOD](#TODO)
+- [Waste Intensity PD](#TODO)
+- [Waste Intensity PY](#TODO)
+- [Waste Intensity YOY](#wTODO)
+- [Waste Baseline](#TODO)
+- [Waste vs Baseline (%)](#TODO)
 
 - [Purchased Carbon Credits](#purchased-carbon-credits)
 
@@ -441,16 +468,16 @@ Sum of CH4 from the Sustainability Ledger Entry.
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance at Date CH4 Emissions
+### CH4 Emissions Balance at Date 
 **Formula**  
-The Balance at Date CH4 Emissions measure calculates the cumulative [CH4](#ch4) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
+The Balance at Date CH4 Emissions measure calculates the cumulative [CH4 Emissions](#ch4-emissions) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance CH4 Emissions
+### CH4 Emissions Balance 
 **Formula**  
-The Balance measure calculates the total [ CH4](#ch4) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+The Balance measure calculates the total [CH4 Emissions](#ch4-emissions) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
 
 **Data Sources**
 - Sustainability Ledger Entry
@@ -481,14 +508,14 @@ Sum of N2O from the Sustainability Ledger Entry.
 
 ### Balance at Date N2O Emissions
 **Formula**  
-The Balance at Date N2O Emissions measure calculates the cumulative [N2O](#n20) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
+The Balance at Date N2O Emissions measure calculates the cumulative [N2O Emissions](#n2o-emissions) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Balance N2O Emissions
 **Formula**  
-The Balance measure calculates the total [N2O](#n20) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+The Balance measure calculates the total [N2O Emissions](#n2o-emissions) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
 
 **Data Sources**
 - Sustainability Ledger Entry
@@ -517,16 +544,23 @@ Sum of CO2e from the Sustainability Ledger Entry.
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance at Date CO2e Emissions
+### CO2e Emissions (Excl Credits) 
 **Formula**  
-The Balance at Date CO2e Emissions measure calculates the cumulative [CO2e](#co2e) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
+CO2e Emissions (Excl Credits) uses the existing [CO2e Emissions](#co2e-emissions) and filters to where the document type is not GHG Credit.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance CO2e Emissions
+### CO2e Emissions Balance at Date
 **Formula**  
-The Balance measure calculates the total [CO2e](#co2e) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+The Balance at Date CO2e Emissions measure calculates the cumulative [CO2e Emissions](#co2e-emissions) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### CO2e Emissions Balance
+**Formula**  
+The Balance measure calculates the total [CO2e Emissions](#co2e-emissions) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
 
 **Data Sources**
 - Sustainability Ledger Entry
@@ -555,16 +589,58 @@ Sum of Discharged into Water from the Sustainability Ledger Entry.
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance at Date Discharged Into Water
+### Discharged Into Water Balance
+**Formula**  
+The Balance measure calculates the total [Discharged Into Water](#discharged-into-water) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Discharged Into Water Balance at Date 
 **Formula**  
 The Balance at Date Discharged Into Water measure calculates the cumulative [Discharged Into Water](#discharged-into-water) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance Discharged Into Water
+### Discharged Into Water DOD
 **Formula**  
-The Balance measure calculates the total [Discharged Into Water](#discharged-into-water) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Discharged Into Water PD
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Discharged Into Water PY
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Discharged Into Water YOY
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Discharged Into Water Baseline
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Discharged Into Water vs Baseline (%)
+**Formula**  
+//TODO
 
 **Data Sources**
 - Sustainability Ledger Entry
@@ -576,19 +652,69 @@ Sum of Water Intensity from the Sustainability Ledger Entry.
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance at Date Water Intensity
+### Water Intensity Balance at Date
 **Formula**  
 The Balance at Date Water Intensity measure calculates the cumulative [Water Intensity](#water-intensity) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance Water Intensity
+### Water Intensity Balance
 **Formula**  
 The Balance Water Intensity measure calculates the total [Water Intensity](#water-intensity) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
 
 **Data Sources**
 - Sustainability Ledger Entry
+
+### Water Intensity DOD
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Water Intensity PD
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Water Intensity PY
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Water Intensity YOY
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Water Intensity Baseline
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Water Intensity vs Baseline (%)
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Water Available
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
 
 ### Waste Intensity
 **Formula**  
@@ -597,23 +723,65 @@ Sum of Waste Intensity from the Sustainability Ledger Entry.
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance at Date Waste Intensity
+### Waste Intensity Balance at Date 
 **Formula**  
 The Balance at Date Discharged Into Water measure calculates the cumulative [Water Intensity](#waste-intensity) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance Waste Intensity
+### Waste Intensity Balance
 **Formula**  
 The Balance measure calculates the total [Waste Intensity](#waste-intensity) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
+### Waste Intensity DOD
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Waste Intensity PD
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Waste Intensity PY
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Waste Intensity YOY
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Waste Intensity Baseline
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
+### Waste Intensity vs Baseline (%)
+**Formula**  
+//TODO
+
+**Data Sources**
+- Sustainability Ledger Entry
+
 ### Purchased Carbon Credits
 **Formula**  
-The Balance measure calculates the total [Waste Intensity](#waste-intensity) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+Purchased Carbon Credit uses the existing [CO2e Emissions](#co2e-emissions) and filters to where the document type is GHG Credit.
 
 **Data Sources**
 - Sustainability Ledger Entry

@@ -26,7 +26,8 @@ The *CO2e Analysis*....
 
 The *CO2e Analysis* report includes the following KPIs and measures: 
 
-- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
+- [**CO2e Emissions**](sustainability-powerbi-kpis.md#co2e-emissions)
+- [**Purchased Carbon Credits**](sustainability-powerbi-kpis.md#purchased-carbon-credits)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 

@@ -26,8 +26,21 @@ The *Realized Emissions vs Baseline*....
 
 The *Realized Emissions vs Baseline* report includes the following KPIs and measures: 
 
-- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
-
+- [**CO2e vs Baseline (%)**](sustainability-powerbi-kpis.md#co2e-vs-baseline-)
+- [**CO2e Current Value**](sustainability-powerbi-kpis.md#co2e-current-value)
+- [**CO2e Baseline**](sustainability-powerbi-kpis.md#co2e-baseline)
+- [**CO2 vs Baseline (%)**](sustainability-powerbi-kpis.md#co2-vs-baseline-)
+- [**CO2 Current Value**](sustainability-powerbi-kpis.md#co2-current-value)
+- [**CO2 Baseline**](sustainability-powerbi-kpis.md#co2-vs-baseline-)
+- [**CO2 Emissions**](sustainability-powerbi-kpis.md#co2-emissions)
+- [**CH4 vs Baseline (%)**](sustainability-powerbi-kpis.md#ch4-vs-baseline-)
+- [**CH4 Current Value**](sustainability-powerbi-kpis.md#ch4-current-value)
+- [**CH4 Baseline**](sustainability-powerbi-kpis.md#ch4-baseline)
+- [**CH4 Emissions**](sustainability-powerbi-kpis.md#ch4-emissions)
+- [**N2O vs Baseline (%)**](sustainability-powerbi-kpis.md#n2o-vs-baseline-)
+- [**N2O Current Value**](sustainability-powerbi-kpis.md#n2o-current-value)
+- [**N2O Baseline**](sustainability-powerbi-kpis.md#n2o-baseline)
+- [**N2O Emissions**](sustainability-powerbi-kpis.md#n2o-emissions)
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
 

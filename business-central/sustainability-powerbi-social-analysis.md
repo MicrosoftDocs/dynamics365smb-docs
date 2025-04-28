@@ -26,7 +26,13 @@ The *Social Analysis*....
 
 The *Social Analysis* report includes the following KPIs and measures: 
 
-- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
+- [**Male Employee (%)**](sustainability-powerbi-kpis.md#male-employees-)
+- [**Female Employee (%)**](sustainability-powerbi-kpis.md#female-employees-)
+- [**Other Employee (%)**](sustainability-powerbi-kpis.md#other-employees-)
+- [**Absence Hours (%)**](sustainability-powerbi-kpis.md#employee-absences-)
+- [**Employee Amount**](sustainability-powerbi-kpis.md#employee-amount)
+- [**No. of Employees**](sustainability-powerbi-kpis.md#no-of-employees)
+- [**Employee Qualifications**](sustainability-powerbi-kpis.md#employee-qualifications)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 

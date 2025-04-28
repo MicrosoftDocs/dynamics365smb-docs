@@ -26,7 +26,17 @@ The *Water and Waste Analysis*....
 
 The *Water and Waste Analysis* report includes the following KPIs and measures: 
 
-- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
+- [**Water Realized (%)**](sustainability-powerbi-kpis.md#water-realized-)
+- [**Water vs Baseline (%)**](sustainability-powerbi-kpis.md#water-vs) // TO DO
+- [**Waste Realized (%)**](sustainability-powerbi-kpis.md#waste-realized-)
+- [**Waste vs Baseline (%)**](sustainability-powerbi-kpis.md#water-realized-)// TO DO
+- [**Water Dish vs Baseline (%)**](sustainability-powerbi-kpis.md#water-realized-)// TO DO
+- [**Water Intensity**](sustainability-powerbi-kpis.md#water-intensity) // TO DO
+- [**Water Available**](sustainability-powerbi-kpis.md#water-intensity)// TO DO
+- [**Facility Capacity**](sustainability-powerbi-kpis.md#water-intensity)// TO DO
+
+
+
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 

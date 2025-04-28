@@ -26,7 +26,22 @@ The *Realized Emissions vs Target*....
 
 The *Realized Emissions vs Target* report includes the following KPIs and measures: 
 
-- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
+- [**CO2e Realized (%)**](sustainability-powerbi-kpis.md#co2e-realized-)
+- [**CO2e Current Value**](sustainability-powerbi-kpis.md#co2e-current-value)
+- [**CO2e Target**](sustainability-powerbi-kpis.md#co2e-target)
+- [**CO2e Emissions**](sustainability-powerbi-kpis.md#co2e-emissions)
+- [**CO2 Realized (%)**](sustainability-powerbi-kpis.md#co2-realized-)
+- [**CO2 Current Value**](sustainability-powerbi-kpis.md#co2-current-value)
+- [**CO2 Target**](sustainability-powerbi-kpis.md#co2-target)
+- [**CO2 Emissions**](sustainability-powerbi-kpis.md#co2-emissions)
+- [**CH4 Realized (%)**](sustainability-powerbi-kpis.md#ch4-realized-)
+- [**CH4 Current Value**](sustainability-powerbi-kpis.md#ch4-current-value)
+- [**CH4 Target**](sustainability-powerbi-kpis.md#ch4-target)
+- [**CH4 Emissions**](sustainability-powerbi-kpis.md#ch4-emissions)
+- [**N2O Realized (%)**](sustainability-powerbi-kpis.md#n2o-realized-)
+- [**N2O Current Value**](sustainability-powerbi-kpis.md#n2o-current-value)
+- [**N2O Realized (%)**](sustainability-powerbi-kpis.md#n2o-realized-)
+- [**N2O Emissions**](sustainability-powerbi-kpis.md#n2o-emissions)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
@@ -40,6 +55,7 @@ The *Realized Emissions vs Target* report use data from the following tables in 
 
 - Sustainability Ledger Entry
 - Sustainability Account Category
+- Sustainability Goals
 
 ## Try the report
 

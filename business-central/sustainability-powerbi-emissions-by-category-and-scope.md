@@ -26,7 +26,9 @@ The *Emissions by Category and Scope*....
 
 The *Emissions by Category and Scope* report includes the following KPIs and measures: 
 
-- [**Metric One**](sustainability-powerbi-kpis.md#metric-one)
+- [**CO2 Emissions**](sustainability-powerbi-kpis.md#co2-emissions)
+- [**CH4 Emissions**](sustainability-powerbi-kpis.md#ch4-emissions)
+- [**N2O Emissions**](sustainability-powerbi-kpis.md#n2o-emissions)
 
 
 Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 

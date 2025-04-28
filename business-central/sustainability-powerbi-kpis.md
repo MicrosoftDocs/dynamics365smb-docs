@@ -210,13 +210,13 @@ Measures the water capacity of the facility (Responsibilty Centre). This will be
 ## Sustainability Goals Table
 
 **Sustainability Goals Measures**
-- [CO2 Current Value](#co2-target)
+- [CO2 Current Value](#co2-current-value)
 - [CO2 Target](#co2-target)
 - [CO2 Realized (%)](#co2-target)
 - [CH4 Current Value](#ch4-target)
 - [CH4 Target](#ch4-target)
 - [CH4 Realized (%)](#ch4-target)
-- [N2O Current Value](#n2o-target)
+- [N2O Current Value](#n20-current-value)
 - [N2O Target](#n2o-target)
 - [N2O Realized (%)](#n2o-target)
 - [Waste Current Value](#waste-target)
@@ -225,10 +225,12 @@ Measures the water capacity of the facility (Responsibilty Centre). This will be
 - [Water Current Value](#water-target)
 - [Water Target](#water-target)
 - [Water Realized (%)](#water-target)
+- [CO2e Current Value](#co2e-current-value)
 
-### CH4 Current Value
+
+### CO2 Current Value
 **Formula**  
-A Sum of [CO2 Emissions](#co2) based on the Start and End date from the selected scorecard(s)
+A Sum of [CO2 Emissions](#co2-emissions) based on the Start and End date from the selected scorecard(s)
 
 **Data Sources**
 - Sustainability Ledger Entries
@@ -276,7 +278,7 @@ A calculation of the CH4 Current Value divided by the CH4 Emissions
 - Sustainability Ledger Entries
 - Sustainability Goals
 
-### N20 Current Value
+### N2O Current Value
 **Formula**  
 A Sum of [N2O Emissions](#n2o) based on the Start and End date from the selected scorecard(s)
 
@@ -351,6 +353,14 @@ A calculation of the Water Current Value divided by the Water Emissions
 - Sustainability Ledger Entries
 - Sustainability Goals
 
+### CO2e Current Value
+**Formula**  
+A Sum of [CO2e Emissions](#co2e-emissions) based on the Start and End date from the selected scorecard(s)
+
+**Data Sources**
+- Sustainability Ledger Entries
+- Sustainability Goals
+
 ## Sustainability Ledger Entries Table
 
 **Sustainability Ledger Entries Measures**
@@ -373,7 +383,7 @@ A calculation of the Water Current Value divided by the Water Emissions
 - [N2O Baseline](#co2-emissions) 
 - [N2O vs Baseline (%)](#co2-emissions)
 
-- [CO2e](#co2e)
+- [CO2e Emissions](#co2e-emissions)
 - [CO2e Emissions Balance](#n2o-emissions)
 - [CO2e Emissions Balance at Date](#n2o-emissions)
 - [CO2e Baseline](#co2-emissions) 
@@ -382,6 +392,9 @@ A calculation of the Water Current Value divided by the Water Emissions
 - [Discharged Into Water](#discharged-into-water)
 - [Water Intensity](#water-intensity)
 - [Waste Intensity](#waste-intensity)
+
+- [Purchased Carbon Credits](#purchased-carbon-credits)
+
 
 ### CO2 Emissions
 **Formula**  
@@ -450,7 +463,7 @@ A Sum of [CH4 Emissions](#ch4-emissions) based on the Baseline Start and End Dat
 - Sustainability Ledger Entry
 - Sustainability Goals
 
-### CO2 vs Baseline (%)
+### CH4 vs Baseline (%)
 **Formula**  
 A calculation of the CH4 Current Value divided by the CH4 Baseline
 
@@ -598,5 +611,11 @@ The Balance measure calculates the total [Waste Intensity](#waste-intensity) acr
 **Data Sources**
 - Sustainability Ledger Entry
 
-**Baseline Calculation Measures**
+### Purchased Carbon Credits
+**Formula**  
+The Balance measure calculates the total [Waste Intensity](#waste-intensity) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
+
+**Data Sources**
+- Sustainability Ledger Entry
+
 

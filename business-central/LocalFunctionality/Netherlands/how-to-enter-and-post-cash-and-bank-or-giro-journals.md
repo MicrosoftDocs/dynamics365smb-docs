@@ -1,11 +1,11 @@
 ---
 title: How to Enter and Post Cash and Bank or Giro Journals
-description: In Business Central, use the cash and bank journals to record transactions affecting cash and bank accounts via Cash Book and Bank Book.
+description: Learn how to use the cash and bank journals to record transactions affecting cash and bank accounts via Cash Book and Bank Book.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: cash journals, bank journals, cash book, bank book, Dutch version, Netherlands, cash and bank accounts, telebanking
-ms.date: 03/17/2025
+ms.date: 04/24/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -77,7 +77,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 > [!NOTE]  
 > If there's a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry.  
 
-The entries are posted to the general ledger. Learn more in **General Ledger Entries**.  
+The entries are posted to the general ledger. Learn more in [General Ledger Entries](../../finance-general-ledger.md).  
 
 ## Related information
 

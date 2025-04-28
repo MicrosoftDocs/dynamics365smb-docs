@@ -605,43 +605,47 @@ The Balance at Date Discharged Into Water measure calculates the cumulative [Dis
 
 ### Discharged Into Water DOD
 **Formula**  
-//TODO
+The Discharged Into Water DOD calculates the difference between the Discharged Into Water and the Discharged Into Water PD. It calcualtes the Discharge Into Water change directly in the measure as [Discharged Into Water PD](#discharged-into-water-pd) - [Discharged Into Water](#discharged-into-water)
+
+Discharge Into Water Change / [Discharged Into Water PD](#discharged-into-water)
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Discharged Into Water PD
 **Formula**  
-//TODO
+The Discharged Into Water PD calculates the [Discharged Into Water](#discharged-into-water) for the prior day.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Discharged Into Water PY
 **Formula**  
-//TODO
+The Discharged Into Water PY calculates the [Discharged Into Water](#discharged-into-water) for the prior year.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Discharged Into Water YOY
 **Formula**  
-//TODO
+The Discharged Into Water YOY calculates the difference between the Discharged Into Water and the Discharged Into Water PY. It calcualtes the Discharge Into Water change directly in the measure as [Discharged Into Water PY](#discharged-into-water-py) - [Discharged Into Water](#discharged-into-water)
 
+Discharge Into Water Change / [Discharged Into Water PY](#discharged-into-water)
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Discharged Into Water Baseline
 **Formula**  
-//TODO
+A Sum of [Discharged Into Water](#discharged-into-water) based on the Baseline Start and End Date from the selected scorecard(s) to determine a Baseline value.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Discharged Into Water vs Baseline (%)
 **Formula**  
-//TODO
+A calculation of the Discharged Into Water divided by the Baseline
 
+[Discharged Into Water](#discharged-into-water) / [Baseline](#discharged-into-water-balance) 
 **Data Sources**
 - Sustainability Ledger Entry
 
@@ -668,49 +672,55 @@ The Balance Water Intensity measure calculates the total [Water Intensity](#wate
 
 ### Water Intensity DOD
 **Formula**  
-//TODO
+The Water Intensity DOD calculates the difference between the Water Intensity and the Water Intensity PD. It calcualtes the Water Intensity Change directly in the measure as [Water Intensity PD](#water-intensity-pd) - [Water Intensity](#water-intensity)
+
+Water Intensity Change / [Water Intensity PD](#water-intensity-pd)
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Water Intensity PD
 **Formula**  
-//TODO
+The Water Intensity PD calculates the [Water Intensity](#water-intensity) for the prior day.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Water Intensity PY
 **Formula**  
-//TODO
+The Water Intensity PY calculates the [Water Intensity](#water-intensity) for the prior year.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Water Intensity YOY
 **Formula**  
-//TODO
+The Water Intensity YOY calculates the difference between the Water Intensity and the Water Intensity PY. It calcualtes the Water Intensity Change directly in the measure as [Water Intensity PY](#2ater-intensity-py) - [Water Intensity](#water-intensity)
 
+Water Intensity Change / [Water Intensity PY](#water-intensity-py)
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Water Intensity Baseline
 **Formula**  
-//TODO
+A Sum of [Water Intensity](#water-intensity) based on the Baseline Start and End Date from the selected scorecard(s) to determine a Baseline value.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Water Intensity vs Baseline (%)
 **Formula**  
-//TODO
+A calculation of the Water Intensity divided by the Baseline.
 
+[Water Intensity](#water-intensity) / [Baseline](#water-intensity-baseline) 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Water Available
 **Formula**  
-//TODO
+Water Available is calculated as Facility Capacity minus Water Intensity.
+
+[Facility Capacity](#facility-capactity) / [Water Intensity](#water-intensity) 
 
 **Data Sources**
 - Sustainability Ledger Entry
@@ -739,43 +749,46 @@ The Balance measure calculates the total [Waste Intensity](#waste-intensity) acr
 
 ### Waste Intensity DOD
 **Formula**  
-//TODO
+The Waste Intensity DOD calculates the difference between the Waste Intensity and the Waste Intensity PD. It calcualtes the Waste Intensity Change directly in the measure as [Waste Intensity PD](#waste-intensity-pd) - [Waste Intensity](#waste-intensity)
 
+Waste Intensity Change / [Waste Intensity PD](#waste-intensity-pd)
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Waste Intensity PD
 **Formula**  
-//TODO
+The Waste Intensity PD calculates the [Waste Intensity](#waste-intensity) for the prior day.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Waste Intensity PY
 **Formula**  
-//TODO
+The Waste Intensity PY calculates the [Waste Intensity](#waste-intensity) for the prior year.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Waste Intensity YOY
 **Formula**  
-//TODO
+The Waste Intensity YOY calculates the difference between the Waste Intensity and the Waste Intensity PY. It calcualtes the Waste Intensity Change directly in the measure as [Waste Intensity PY](#waste-intensity-py) - [Waste Intensity](#waste-intensity)
 
+Waste Intensity Change / [Waste Intensity PY](#waste-intensity-py)
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Waste Intensity Baseline
 **Formula**  
-//TODO
+A Sum of [Waste Intensity](#waste-intensity) based on the Baseline Start and End Date from the selected scorecard(s) to determine a Baseline value.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
 ### Waste Intensity vs Baseline (%)
 **Formula**  
-//TODO
+A calculation of the Waste Intensity divided by the Baseline
 
+[Waste Intensity](#waste-intensity) / [Baseline](#waste-intensity-baseline) 
 **Data Sources**
 - Sustainability Ledger Entry
 

@@ -16,7 +16,13 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
+ The **Production Order WIP** report provides insights into the work-in-progress (WIP) inventory across production orders, displaying both trends and detailed valuation data.
+
 :::image type="content" source="media/manufacturing/production-order-wip.png" alt-text="Screenshot of the Production Order WIP Power BI Report" lightbox="media/manufacturing/production-order-wip.png":::
+
+The **Production Order WIP Report** consists of two key visuals designed to provide insights into work-in-progress (WIP) inventory. The top visual is a timeline chart that showcases the Ending Balance Value of WIP inventory over time. By plotting the Ending Balance Value as the Y-axis and the Month Year as the X-axis, this visual offers a clear trend analysis, allowing users to observe fluctuations and patterns in WIP inventory.
+
+Below the timeline is the **Inventory Valuation - WIP** table, which provides a detailed breakdown of production order-related inventory valuation. The table includes essential columns such as Production Order, Description, Source Type, Source No., Starting and Ending Dates, Beginning Balance, Consumption, Capacity, Output, and Ending Balance Value. Together, these visuals provide both high-level and detailed perspectives on WIP inventory.
 
 ## Use the report
 
@@ -24,15 +30,11 @@ ms.service: dynamics-365-business-central
 
 The *Production Order WIP* report includes the following KPIs and measures:
 
-- [Actual Total Cost]()
-- [Expected Total Cost]()
-- [Standard Total Cost]()
-- [Total Expected Cost Dev %]()
-- [Total Standard Cost Dev %]()
-- [No. of Production Orders]()
-- [Planned Quantity]()
-- [Finished Quantity]()
-- [Variance Quantity]()
+- [Beginning Balance Value]()
+- [Consumption Value]()
+- [Output Value]()
+- [Capacity Value]()
+- [Ending Balance Value]()
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -42,12 +44,8 @@ The *Production Order WIP* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Item Ledger Entry
-- Capacity Ledger Entry
-- Value Entries
+- Value Entry
 - Production Order
-- Production Order Line
-- Inventory Adjustment Entry Order Line
   
 ## Try the report
 

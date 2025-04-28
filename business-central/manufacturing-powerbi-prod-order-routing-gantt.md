@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The Prod. Order Routings Gantt report provides an overview of production processes, combining visual and tabular formats to enhance user understanding. The report helps users monitor and analyze production tasks, offering insights into scheduling, durations, and task locations. 
+The Prod. Order Routings Gantt report provides an overview of production processes, combining visual and tabular formats to enhance user understanding. The report helps users monitor and analyze production tasks, offering insights into scheduling, durations, and task locations.
 
 :::image type="content" source="media/manufacturing/prod-order-routing-gantt.png" alt-text="Screenshot of the Prod Order Routing Gantt Power BI Report" lightbox="media/manufacturing/prod-order-routing-gantt.png":::
 
@@ -41,19 +41,16 @@ The **Routing Line Details** table serves as a tabular representation of product
 
 ## Use the report
 
+   Manufacturing managers utilize the Prod. Order Routing Gantt report to gain an overview of production scheduling and routing processes. The **Production Time Line** Gantt chart visual helps them monitor task durations and sequencing. The bar colors and contextual information on machine centers or work centers allow managers to quickly identify resource usage and task assignments. Paired with the **Routing Line Details** table, they can analyze production timelines, evaluate task completion dates, and compare actual durations with planned expectations. This enables managers to detect delays, optimize schedules, and ensure resources are allocated effectively across work centers and machine centers.  
+
+   Production supervisors rely on the Prod. Order Routing Gantt report to manage day-to-day production tasks and maintain operational efficiency. The Gantt chart visualizes production order tasks so that supervisors can easily track which operations are occurring at what locations and for how long. The red-marked non-working days help supervisors identify gaps or conflicts in scheduling and address potential bottlenecks. Meanwhile, the **Routing Line Details** table provides starting and ending date times with total task durations by day and by hours. Together, the Gantt visual and tabular components of the report support effective coordination for smooth production workflows.  
+
 ## Key Performance Indicators (KPIs)
 
-The *Prod. Order List* report includes the following KPIs and measures:
+The *Prod. Order Routing Gantt* report includes the following KPIs and measures:
 
-- [Actual Total Cost]()
-- [Expected Total Cost]()
-- [Standard Total Cost]()
-- [Total Expected Cost Dev %]()
-- [Total Standard Cost Dev %]()
-- [No. of Production Orders]()
-- [Planned Quantity]()
-- [Finished Quantity]()
-- [Variance Quantity]()
+- [Total Duration Hours]()
+- [Total Duration Days]()
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
@@ -63,16 +60,12 @@ The *Prod. Order List* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Item Ledger Entry
-- Capacity Ledger Entry
-- Value Entries
+- Prod. Order Routing Line
 - Production Order
-- Production Order Line
-- Inventory Adjustment Entry Order Line
   
 ## Try the report
 
-Try the report here: [Prod. Order List](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
+Try the report here: [Prod. Order Routing Gantt](https://businesscentral.dynamics.com?page=)<!-- TODO Set page ID for link -->
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

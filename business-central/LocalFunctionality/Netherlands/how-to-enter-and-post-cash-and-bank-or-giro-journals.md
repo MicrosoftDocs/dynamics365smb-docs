@@ -38,13 +38,15 @@ You can apply the payments from customers to the open invoices from accounts rec
     |**Account Type**|The account type to which the entry is to be posted.|  
     |**Account No.**|The account number to which the entry is to be posted.|  
     |**Description**|The description of the entry. This field automatically populates the description of the account number selected in the **Account No.** field.|  
-    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G/L Account**. Learn more in [VAT Product Posting Groups](../../finance-posting-groups.md#tax-posting-groups).|  
-    |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br><br/> If this amount includes the VAT amount, then select the **Amount incl. VAT** checkbox.|  
+    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G/L Account**. Learn more in VAT Product Posting Groups.|  
+    |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br><br> If this amount includes the VAT amount, then select the **Amount incl. VAT** checkbox.|  
 
 1. Choose the **Post** action.  
 
-    > [!NOTE]  
-    > If there's a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry. The entries are posted to the general ledger. Learn more in [General Ledger Entries](../../finance-general-ledger.md).  
+   > [!NOTE]  
+   > If there's a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry.  
+
+   The entries are posted to the general ledger. Learn more in **General Ledger Entries**.  
 
 ## Post bank or giro journals  
 
@@ -68,7 +70,7 @@ You can apply the payments from customers to the open invoices from accounts rec
     |**Identification**|The identification number that links the statement line to a payment history line.|  
     |**Description**|The description of the entry.|  
     |**VAT Prod. Posting Group**|The VAT product posting group code that is used when you post the entry on the statement line.|  
-    |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br><br/> If this amount includes the VAT amount, then select the **Amount incl. VAT** checkbox.|  
+    |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br><br> If this amount includes the VAT amount, then select the **Amount incl. VAT** checkbox.|  
 
 1. Choose the **Post** action.  
 
@@ -80,7 +82,7 @@ The entries are posted to the general ledger. Learn more in [General Ledger Entr
 ## Related information
 
 - [Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)  
-- [Telebanking](telebanking.md)
+- [Telebanking](telebanking.md)   
 - [Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
 - [Applying Payments Automatically and Reconciling Bank Accounts](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
 

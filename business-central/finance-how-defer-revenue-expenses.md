@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: postpone
-ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
+ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707, Report_1700, Report_1701, Report_1702
 ms.date: 08/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -85,7 +85,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 
 G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.** field in the deferral template, for example, "Expenses deferred for February 2016".
 
-## To review posted deferrals in the Sales Deferral Summary report
+## To review posted deferrals in the Sales Deferral Summary or the Purchasing Deferral Summary report
 
 > [!NOTE]  
 > The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.

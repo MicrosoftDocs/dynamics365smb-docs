@@ -46,7 +46,7 @@ You can use templates to filter service commitments. The **Partner** specified i
 > [!NOTE]
 > When you create price update proposals, some filters are applied automatically:
 >
-> * Service commitments where the **Usage Based Billing** toggle is on aren't included.
+> * Service commitments where the **UsageBased Billing** toggle is on aren't included.
 > * Only service commitments with the **Invoicing via** field set to **Contract** are included.
 > * Contract lines that are **Closed** aren't included.
 > * Contract lines marked with **Exclude from Price Update** aren't included.

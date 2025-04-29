@@ -1,6 +1,6 @@
 ---
-title: Currencies
-description: You can use currencies in subscription and recurring billing.
+title: Manage subscriptions in foreign currencies 
+description: You can use foreign currencies in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,7 +11,7 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Currencies
+# Manage subscriptions in foreign currencies
 
 In [!INCLUDE [prod_short](../../includes/prod_short.md)], you can make transactions in foreign currencies by entering a currency code. For example, on a sales order or the customer or vendor contract. To learn more about using foreign currencies, go to [Update currency exchange rates](../../finance-how-update-currencies.md).
 

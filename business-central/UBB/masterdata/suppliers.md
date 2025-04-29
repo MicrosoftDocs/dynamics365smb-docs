@@ -1,6 +1,6 @@
 ---
 title: Usage data suppliers
-description: You can use suppliers in usage based billing.
+description: You can use suppliers in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -36,4 +36,4 @@ You can use custom usage data processing, for example, if the usage data is only
 
 ## See also
 
-[Overview of usage based billing](../welcome.md)  
+[Overview of usage-based billing](../welcome.md)  

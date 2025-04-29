@@ -152,12 +152,12 @@ The following fields only need to be considered if you use a currency different 
 |Date Currency Factor (Date)|Indicates the date when the currency factor was last updated.|Optional|
 |Calculation Base Amount (MW) (Decimal)|Indicates the basis on which the price in local currency is calculated.|Optional|
 
-The fields in the following table only need to be considered if billing is to take place with usage based billing.
+The fields in the following table only need to be considered if billing is to take place with usage-based billing.
 
 |Name|Description|To be filled|
 |:--|:--|:--|
-|Usage Based Billing (Boolean)|Indicates whether usage data is used as the basis for invoicing.|Optional|
-|Usage Based Pricing (Option: Usage Quantity, Fixed Quantity, Unit Cost Surcharge)|Specifies the method for calculating prices on the customer side.|Optional|
+|Usage-Based Billing (Boolean)|Indicates whether usage data is used as the basis for invoicing.|Optional|
+|UsageBased Pricing (Option: Usage Quantity, Fixed Quantity, Unit Cost Surcharge)|Specifies the method for calculating prices on the customer side.|Optional|
 |Pricing Unit Cost Surcharge % (Decimal)|Specifies the surcharge as a percent for the customer price calculation, if you use unit cost surcharge.|Optional|
 |Supplier Reference Entry No. (Integer)|Indicates the sequence number of the related reference.|Optional|
 

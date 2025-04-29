@@ -535,26 +535,26 @@ ms.service: dynamics-365-business-central
 ##### [Use service commitments](SRB/working-with-contracts/so-service-commitments.md)
 ##### [Update prices](SRB/working-with-contracts/price-update.md)
 ##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
-##### [Deferrals in contracts](SRB/working-with-contracts/contract-deferrals.md)
+##### [Defer revenue and expenses in contracts](SRB/working-with-contracts/contract-deferrals.md)
 ##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
 #### Sales
-##### [Sales process](SRB/sales/sales-service-commitments.md)
+##### [Sales with service commitments](SRB/sales/sales-service-commitments.md)
 ##### [Price determination of service commitments](SRB/sales/price-calculation.md)
 ##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
 ##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
 #### [Recurring billing](SRB/recurring-billing.md)
 #### [Posting documents](SRB/posting-documents.md)
 #### [Purchasing](SRB/purchases.md)
-### Usage based billing
-#### [Overview of usage based billing](UBB/welcome.md)
-#### [Import and process data](UBB/processing-usage-data/imports-processing.md) 
-#### [Use data exchange definitions](UBB/masterdata/dataexchangedefinitions.md)
-#### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
-#### [Manage usage data supplier references](UBB/masterdata/references.md)
-#### [Manage customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
-#### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
-#### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
-#### [Extend service commitments](UBB/masterdata/service-commitments.md)
+#### Bill subscriptions based on usage
+##### [Overview of usage-based billing](UBB/welcome.md)
+##### [Import and process usage data](UBB/processing-usage-data/imports-processing.md) 
+##### [Use data exchange definitions to record usage](UBB/masterdata/dataexchangedefinitions.md)
+##### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
+##### [Manage usage data supplier references](UBB/masterdata/references.md)
+##### [Manage usage for customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
+##### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
+##### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
+##### [Extend service commitments](UBB/masterdata/service-commitments.md)
 
 
 ## Sales

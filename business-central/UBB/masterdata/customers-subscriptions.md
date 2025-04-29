@@ -1,6 +1,6 @@
 ---
-title: Usage based billing customers and subscriptions 
-description: You can use customer subscriptions in usage based billing.
+title: Usage-based billing customers and subscriptions 
+description: You can use customer subscriptions in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Usage based billing customers and subscriptions
+# Usage-based billing customers and subscriptions
 
 In addition to the usage data that changes per import, there's also data that's more like master data because it doesn't change. This master data includes the customers for whom you import usage data, and the subscriptions that link the service commitments to bill. For customers, this data is helpful but not required, whereas without a subscription you can't bill usage data.
 
@@ -20,7 +20,7 @@ In addition to the usage data that changes per import, there's also data that's 
 
 The **Usage Data Customers** page displays the customers you process usage data for. For [Usage data suppliers](suppliers.md), use the **Create customers** field to specify whether to create usage data customers when you import usage data. To learn more, go to [Create customers based on usage data](#create-customers-based-on-usage-data). Because the entries are based on usage data and thus represent the supplier's data, the entries might differ from the master data in [!INCLUDE [prod_short](../../includes/prod_short.md)]. Therefore, you can create a link based on the customer. This data isn't required to process and bill usage data. The page just helps clarify things.
 
-The **Supplier No.** field helps you identify the supplier that records belong to. The **Customer No.** field lets you link to the master data. Usage based billing customers that aren't linked to a customer display in a teal colored font. Entries that display in a black font are linked. The **Supplier Reference** field contains the unique ID of the customer at the supplier. This value contains a link to the [usage data supplier references](references.md) of the type **Customer** that's automatically created when you process usage data.
+The **Supplier No.** field helps you identify the supplier that records belong to. The **Customer No.** field lets you link to the master data. Usage-based billing customers that aren't linked to a customer display in a teal colored font. Entries that display in a black font are linked. The **Supplier Reference** field contains the unique ID of the customer at the supplier. This value contains a link to the [usage data supplier references](references.md) of the type **Customer** that's automatically created when you process usage data.
 
 ### Create customers based on usage data
 

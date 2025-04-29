@@ -1,6 +1,6 @@
 ---
 title: Data exchange definitions
-description: You can use data exchange definitions in usage based billing.
+description: You can use data exchange definitions in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -15,16 +15,16 @@ ms.custom: bap-template
 
 Data exchange is a standard feature in [!INCLUDE [prod_short](../../includes/prod_short.md)]. To learn more about data exchange and data exchange definitions, go to [Set up data exchange definitions](../../across-how-to-set-up-data-exchange-definitions.md). 
 
-Data exchange definitions are fundamental to import and process data in usage based billing. This article summarizes the key aspects.
+Data exchange definitions are fundamental to import and process data in usage-based billing. This article summarizes the key aspects.
 
-The data exchange definition example in this article refers to an import file for usage data. It's a CSV file in UTF-8 encoding with column separators as semicolons. To learn more, go to [Import data in usage based billing](../processing-usage-data/imports-processing.md).
+The data exchange definition example in this article refers to an import file for usage data. It's a CSV file in UTF-8 encoding with column separators as semicolons. To learn more, go to [Import data in usage-based billing](../processing-usage-data/imports-processing.md).
 
 ## Definition for data import
 
 For billing, you must first import and process data. To learn more, go to [Imports and processing](../processing-usage-data/imports-processing.md). For [!INCLUDE [prod_short](../../includes/prod_short.md)] to extract the data from the CSV file, it needs the data's schema. The schema is available on the [usage data supplier](suppliers.md).
 
 > [!NOTE]
-> Usage based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can import and export data exchange definitions on the **Data Exchange Definition** page by using the **Import Data Exchange Definition** and **Export Data Exchange Definition** actions.
+> Usage-based billing provides the **USAGEBASED** data exchange definition as an example. You can use the definition, but you must adapt it to your setup. You can import and export data exchange definitions on the **Data Exchange Definition** page by using the **Import Data Exchange Definition** and **Export Data Exchange Definition** actions.
 
 The **Data Exchange Definitions** page has the following FastTabs:
 

@@ -1,6 +1,6 @@
 ---
-title: Import data in usage based billing
-description: You can import and process data in usage based billing.
+title: Import data in usage-based billing
+description: You can import and process data in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Import data in usage based billing
+# Import data in usage-based billing
 
 This article explains how to import and process usage data, and discusses the different [methods for pricing](#methods-for-pricing) usage data.
 
@@ -79,7 +79,7 @@ The purchasing side is when **Vendor** is selected in the **Partner** field on t
 
 The customer price calculation, on the other hand, depends mainly on two things:
 
-* The value in the **Usage Based Pricing** field of the [service commitments](../masterdata/service-commitments.md) for the usage data.
+* The value in the **Usage-Based Pricing** field of the [service commitments](../masterdata/service-commitments.md) for the usage data.
 * The setting of the **Unit Price from Import** field at the [Usage data suppliers](../masterdata/suppliers.md).
 
 If you turn on the **Unit Price from Import** toggle in the supplier settings, the import file must contain this data. In addition, the [data exchange definition](../masterdata/dataexchangedefinitions.md) must take this information into account. In this case, price calculation doesn't happen because the supplier of the usage data includes the sales prices, and this toggle overrides price calculation.
@@ -171,7 +171,7 @@ If there isn't a connection between a subscription and a service commitment, you
 
 Usage data is typically supplier-side, which means it's probably missing the data you need for customer-side billing. You create the data for a customer partner for each vendor usage data record when you generate the **Usage Data Billing** (via **Create Usage Data Billing**) to use later for customer-side billing. You can use the lookup in the **No. of Usage Data Billing** field to access the details.
 
-Records in usage based billing are vendor neutral, meaning all usage data is normalized regardless of the original source.
+Records in usage-based billing are vendor neutral, meaning all usage data is normalized regardless of the original source.
 
 1. When you process usage data billing (via **Process Usage Data Billing**), the data in the respective vendor or customer Contract lines, in the service objects, and in the service commitments are updated based on the new usage data (quantities and prices). In addition, the sales price is calculated for each data record where the **Partner** field contains **Customer** (see [methods for pricing](#methods-for-pricing)). If you get an error, use the lookup in the **No. of Usage Data Billing Errors** field to access the details.
 
@@ -194,5 +194,5 @@ When you process usage data, the assignment is made either via the vendor servic
 ## See also
 
 [Linking subscription with service object](connect-subscription-service-object.md)  
-[Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md)  
+[Usage-based billing customers and subscriptions](../masterdata/customers-subscriptions.md)  
 [Extension of service commitments](../masterdata/service-commitments.md)  

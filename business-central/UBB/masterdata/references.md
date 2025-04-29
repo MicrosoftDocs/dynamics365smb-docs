@@ -1,6 +1,6 @@
 ---
 title: Usage data supplier references
-description: You can use references in usage based billing.
+description: You can use references in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -50,6 +50,6 @@ To maintain the customer reference, you can open the reference table by using th
 
 ## See also
 
-[Usage based billing customers and subscriptions](customers-subscriptions.md)  
+[Usage-based billing customers and subscriptions](customers-subscriptions.md)  
 [Extend contract](../processing-usage-data/extend-contract.md)  
 [Extension of service commitments](service-commitments.md)  

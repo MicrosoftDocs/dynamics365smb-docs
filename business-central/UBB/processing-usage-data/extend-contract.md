@@ -1,6 +1,6 @@
 ---
 title: Extend contract 
-description: You can extend contracts in usage based billing.
+description: You can extend contracts in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -13,7 +13,7 @@ ms.custom: bap-template
 ---
 # Extend contract
 
-To extend a contract, use the **Extend Contract** action on the **Customer Contract** or **Vendor Contract** pages. The feature is part of subscription billing, but you also use it in usage based billing. This article describes the differences. To learn more about extending contracts, go to [Extend contract](../../SRB/working-with-contracts/customer-contracts.md#extend-contract).
+To extend a contract, use the **Extend Contract** action on the **Customer Contract** or **Vendor Contract** pages. The feature is part of subscription billing, but you also use it in usage-based billing. This article describes the differences. To learn more about extending contracts, go to [Extend contract](../../SRB/working-with-contracts/customer-contracts.md#extend-contract).
 
 ## Extend a contract based on a subscription
 

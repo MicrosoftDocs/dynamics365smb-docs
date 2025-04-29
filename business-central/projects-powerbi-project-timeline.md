@@ -31,7 +31,7 @@ For team members involved in project execution, the report serves as a tool for 
 
 The report includes the following key performance indicators (KPI) and measures:
 
-- [**Project Task Starting Date**](projects-powerbi-kpis.md#*project-task-starting-date)
+- [**Project Task Starting Date**](projects-powerbi-kpis.md#project-task-starting-date)
 - [**Project Task Ending Date**](projects-powerbi-kpis.md#project-task-ending-date)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 

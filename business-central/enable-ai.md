@@ -25,6 +25,9 @@ Copilot is a system feature and an integral part of Business Central. Like most 
 
 There are different levels of access control for agent capabilities, depending on the feature:
 
+
+
+
 - Allow data movement across geographical regions.
 
     This task is required only if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more about this task](#allow-data-movement-across-geographies).

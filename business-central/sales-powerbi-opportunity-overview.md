@@ -25,7 +25,7 @@ This report is targeted towards management and sales teams to help them track on
 
 As a sales manager, you want to oversee the opportunity pipeline and monitor the performance of salespeople. Using this report, you can review the value by location and Sales Cycle Stage, informing you on focal demographics. This can empower you to engage future sales and inform you on where to invest in new marketing campaigns. Additionally, you can analyze key metrics for each salesperson to provide support accordingly.
 
-For example, by reviewing the the [Win/Loss %](sales-powerbi-sales-kpis.md#win-loss) you identify a salesperson who is under performing. Using this information, you invest in further training and mentorship to improve their opportunity outcomes and overall profitability.
+For example, by reviewing the the [Win/Loss %](sales-powerbi-sales-kpis.md#win-loss-percent) you identify a salesperson who is under performing. Using this information, you invest in further training and mentorship to improve their opportunity outcomes and overall profitability.
 
 As a salesperson, the *Opportunity Overview* helps you to monitor your sales performance and manage opportunity progress. Using the sales cycle and location information, you are encouraged to nurture a diverse portfolio of prospects. Meanwhile, the sales cycle stage insights motivate you to action tasks and advance opportunities.
 
@@ -39,7 +39,7 @@ The report includes the following key performance indicators (KPIs) and measures
 - **[Estimated Value](sales-powerbi-sales-kpis.md#estimated-value)**
 - **[No. of Opportunities](sales-powerbi-sales-kpis.md#no-of-opportunities)**
 - **[Opportunity Sales Quote Amount](sales-powerbi-sales-kpis.md#opportunity-sales-quote-amount)**
-- **[Win/Loss %](sales-powerbi-sales-kpis.md#win-loss)**
+- **[Win/Loss %](sales-powerbi-sales-kpis.md#win-loss-percent)**
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 

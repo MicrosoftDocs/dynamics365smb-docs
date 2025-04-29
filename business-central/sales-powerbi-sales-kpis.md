@@ -214,7 +214,7 @@ Average of the Chance of Success from the Opportunity Entries table.
 **Data Sources**
 - Opportunity Entries
 
-### Average Completed %
+### Average Completed Percent
 **Formula**  
 Average of the Completed value from the Opportunity Entries table.
 
@@ -242,7 +242,7 @@ Sum of the Estimated Value from the Opportunity Entries table.
 **Data Sources**
 - Opportunity Entries
 
-### Win/Loss Percent
+### Win Loss Percent
 **Formula**  
 The **No. of Won Opportunities** divided by the sum of the  **No. of Won Opportunities** and the **No. of Lost Opportunities**.
 

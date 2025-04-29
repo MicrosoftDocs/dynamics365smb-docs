@@ -90,8 +90,8 @@ The star schema model uses dimension tables to support the data model and allow 
 - [Item Category](#item-category) 
 - [Location](#location)
 - [Opportunities](#opportunities)
-- [Reason Code](#reason-code)
-- [Sales Cycle Stage](#sales-cycle-stage)
+- [Reason Code](#reason-codes)
+- [Sales Cycle Stage](#sales-cycle-stages)
 - [Salesperson](#salesperson)
 
 ### Close Opportunity Code

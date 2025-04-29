@@ -156,14 +156,14 @@ This measure calculates the Sales Amount, where the Document Type = Quote and th
 
 **Opportunity Entry Measures**
 - [Active Calculated Current Value](#active-calculated-current-value)
-- [Active Chance of Success %](#active-chance-of-success)
+- [Active Chance of Success %](#active-chance-of-success-percent)
 - [Active Estimated Value](#active-estimated-value)
-- [Average Chance of Success %](#average-chance-of-success)
-- [Average Completed %](#average-completed)
-- [Average Probability %](#average-probability)
+- [Average Chance of Success %](#average-chance-of-success-percent)
+- [Average Completed %](#average-completed-percent)
+- [Average Probability %](#average-probability-percent)
 - [Calculated Current Value](#calculated-current-value)
 - [Estimated Value](#estimated-value)
-- [Win/Loss %](#win-loss)
+- [Win/Loss %](#win-loss-percent)
 
 ### No. of Lost Opportunities
 **Formula**  
@@ -193,7 +193,7 @@ Sum of the Calculated Current Value from the Opportunity Entries table, where Ac
 **Data Sources**
 - Opportunity Entries
 
-### Active Chance of Success %
+### Active Chance of Success Percent
 **Formula**  
 Average of the Chance of Success from the Opportunity Entries table, where Active = true.
 
@@ -207,7 +207,7 @@ Sum of the Estimated Value from the Opportunity Entries table, where Active = tr
 **Data Sources**
 - Opportunity Entries
 
-### Average Chance of Success %
+### Average Chance of Success Percent
 **Formula**  
 Average of the Chance of Success from the Opportunity Entries table.
 
@@ -221,7 +221,7 @@ Average of the Completed value from the Opportunity Entries table.
 **Data Sources**
 - Opportunity Entries
 
-### Average Probability %
+### Average Probability Percent
 **Formula**  
 Average of the Probability value from the Opportunity Entries table.
 
@@ -242,9 +242,9 @@ Sum of the Estimated Value from the Opportunity Entries table.
 **Data Sources**
 - Opportunity Entries
 
-### Win/Loss %
+### Win/Loss Percent
 **Formula**  
-*Win/Loss % = [No. of Won Opportunities](#no-of-won-opportunities) / ( [No. of Won Opportunities](#no-of-won-opportunities) + [No. of Lost Opportunities](#no-of-lost-opportunities) )*
+The **No. of Won Opportunities** divided by the sum of the  **No. of Won Opportunities** and the **No. of Lost Opportunities**.
 
 **Data Sources**
 - Opportunity Entries

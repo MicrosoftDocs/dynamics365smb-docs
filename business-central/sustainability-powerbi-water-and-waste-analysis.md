@@ -13,14 +13,16 @@ ms.service: dynamics-365-business-central
 
 # Water and Waste Analysis (Power BI Report)
 
-The *Water and Waste Analysis*....
+The *Water and Waste Analysis* provides a detailed analysis on the an organizations usaged of water and waste. This is broken down by facility and location and can be used to easily identify capacities of faciliites, usage and the different types of water and waste. This is further emphasised by the Year-Over-Year and Day-Over-Day calculations so users can see how they are progressing.
 
 :::image type="content" source="media/sustainability/water-and-waste-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/water-and-waste-analysis.png":::
 
 
 ## How to use the report
 
+As a Sustainability Manager, the *Water and Waste Analysis* report can be used to monitor the water usage and waste geneneration at an organizational level. This can be narrowed down to see how each facility or location is performing against the latter in terms of avaiable capacity, usage and the different types.
 
+As a Facility Manager, you can quickly and effectively see how your faciliy is going against the Baseline and Targets set for you and compare the different types. 
 
 ## Key Performance Indicators (KPIs)
 

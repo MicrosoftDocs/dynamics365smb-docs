@@ -40,7 +40,7 @@ There are particular import tables for importing customer contracts, contract li
 
 ### Import customer contracts
 
-The **Imported Customer Contracts** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Customer Contracts** action to create the customer contracts (just headers, no lines). The action always processes all rows that aren't processed, regardless of filters and selection.
+The **Imported Customer Contracts** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Customer Subscription Contracts** action to create the customer contracts (just headers, no lines). The action always processes all rows that aren't processed, regardless of filters and selection.
 
 |Name|Description|To fill|
 |:--|:--|:--|
@@ -65,7 +65,7 @@ If the processing is successful, a customer contract is created and **Contract C
 
 ### Import service objects
 
-The **Imported Service Objects** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Service Objects** action to create the service objects. The action always processes all lines that aren't processed, regardless of filters and selection.
+The **Imported Service Objects** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Subscriptions** action to create the service objects. The action always processes all lines that aren't processed, regardless of filters and selection.
 
 | Name | Description | To be filled |
 |--|--|--|

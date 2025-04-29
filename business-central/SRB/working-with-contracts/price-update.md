@@ -32,7 +32,7 @@ On the **Contract Price Update** page, a price update proposal is created with t
 
 Future planned price updates don't take effect immediately. A price increase on 01.01 shouldn't change the price in December. Planned service commitments are created specifically for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
 
-If a period in which a price update was applied is credited, the price  automatically resets to the original price. At the same time, a planned service commitment is created, which saves the reset price update. If the period is invoiced again, the price update is reapplied. In this way, the prices of the periods are retained. Invoices and credit notes can be created with the original amounts.
+If a period in which a price update was applied is credited, the price  automatically resets to the original price. At the same time, a planned subscription line is created, which saves the reset price update. If the period is invoiced again, the price update is reapplied. In this way, the prices of the periods are retained. Invoices and credit notes can be created with the original amounts.
 
 ## Templates
 
@@ -121,7 +121,7 @@ If filtering the service commitments in a template is too complex or not possibl
 
 Proposal lines are proposals for a price update. The service commitments or contract lines aren't updated at this point. Based on the data, the proposal might differ from the actual update in regards to the **Perform Update on** date. You can set a date in the past for **Perform Update on**. However, the price in periods already invoiced doesn't change.
 
-If a planned service commitment has **Price update** or **Contract extension** selected in the **Type of update** field, a proposal line isn't created for the service commitment. The planned service commitments would overwrite the price update in any case. It would come down to the sequence of execution, which is avoided at this point of time. A price update and contract renewal are potentially binding agreements, which is why the combination is currently avoided when you run the **Create Proposal** action.
+If a planned subscription line has **Price update** or **Contract extension** selected in the **Type of update** field, a proposal line isn't created for the service commitment. The planned subscription lines would overwrite the price update in any case. It would come down to the sequence of execution, which is avoided at this point of time. A price update and contract renewal are potentially binding agreements, which is why the combination is currently avoided when you run the **Create Proposal** action.
 
 ### Delete proposal lines
 
@@ -145,7 +145,7 @@ Use the **Perform price update** action to apply the price update and delete all
 
 Changes that were made to these fields in the meantime are overwritten. Changes made to other fields are retained.
 
-If the price update can't apply immediately, planned service commitments are created. For example, you might not be able to apply a price update for the following reasons:
+If the price update can't apply immediately, planned subscription lines are created. For example, you might not be able to apply a price update for the following reasons:
 
 * There are billing lines for a contract line.
 
@@ -157,12 +157,12 @@ If the price update can't apply immediately, planned service commitments are cre
 
    If the **Next Billing Date** is before **Next Price Update** (for example, 22.11.2023 is before 31.12.2023), there's a period that must be invoiced with the old price.
 
-The planned service commitment is a copy of the service commitment with a few differences. The fields that are overwritten immediately are taken from the proposal line. In addition, the dates in the **Perform update on**, **Perform update on**, and **Price Binding Period** fields are copied from the proposal line. The planned service commitment is created with **Price update** in the **Type of update** field.
+The planned subscription line is a copy of the service commitment with a few differences. The fields that are overwritten immediately are taken from the proposal line. In addition, the dates in the **Perform update on**, **Perform update on**, and **Price Binding Period** fields are copied from the proposal line. The planned subscription line is created with **Price update** in the **Type of update** field.
 
 > [!NOTE]
-> In the **Planned Service Commitments** list, use the **Type of Update** field to filter to get a list of price updates that were created or performed but aren't yet in effect.
+> In the **Planned Subscription Lines** list, use the **Type of Update** field to filter to get a list of price updates that were created or performed but aren't yet in effect.
 
-The price update of the planned service commitments is automatically applied as soon as possible. When you post contract invoices, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether there are planned service commitments for the contract lines and whether it can apply their price updates. If an invoice is posted, there can no longer be any billing lines or unposted documents.
+The price update of the planned subscription lines is automatically applied as soon as possible. When you post contract invoices, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether there are planned subscription lines for the contract lines and whether it can apply their price updates. If an invoice is posted, there can no longer be any billing lines or unposted documents.
 The only remaining condition is that you must invoice the service commitments until the date in the **Next Price Update** field. The date in the **Next Billing Date** field must not be before the date in the **Next Price Update** field. If this condition is met, the same fields are updated in the service commitment as when the price update is applied immediately.
 
 An archived service commitment is created for every applied price update.
@@ -173,7 +173,7 @@ The date in the **Perform update on** field corresponds to the date in the **Nex
 > [!IMPORTANT]
 > If the date in the **Perform Update on** field is before the date in the **Next Price Update** field, the price update can still be applied if the service commitment was invoiced until or beyond **Next Price Update**. The **Perform Update on** date is changed to **Next Billing Date** - 1D in the archived service commitment because the price update only came into effect at the end of the last period. In this case, the decisive factor as to whether the price update can be applied is that the complete period for which the old price applies is invoiced.
 
-The price update in the planned service commitments applies when an invoice is posted.
+The price update in the planned subscription lines applies when an invoice is posted.
 
 **Example 1**
 
@@ -192,7 +192,7 @@ The price update can take effect immediately.
 
 **Example 2**
 
-The price update can't take effect immediately. A planned service commitment is created to save the price update and apply it later automatically (when posting an invoice as soon as the conditions are met).
+The price update can't take effect immediately. A planned subscription line is created to save the price update and apply it later automatically (when posting an invoice as soon as the conditions are met).
 
 | Type|Next Billing Date|Next Price Update|Perform Update on|Price Binding Period|Price |
 |:--|:--|:--|:--|:--|:--|
@@ -205,7 +205,7 @@ The price update can't take effect immediately. A planned service commitment is 
 |Archived service commitments|01.01.2025|31.12.2024|31.12.2024|1Y|Old|
 
 > [!IMPORTANT]
-> Price updates and the date in the **Perform Update on** field in planned service commitments don't affect the invoicing of service commitment. The price update applies automatically after invoicing.
+> Price updates and the date in the **Perform Update on** field in planned subscription lines don't affect the invoicing of service commitment. The price update applies automatically after invoicing.
 
 The **Next Price Update** date doesn't adjust to the changed date when the price update actually took effect.
 
@@ -226,9 +226,9 @@ Price updates never take effect in the middle of invoiced periods. A service com
 
 When this invoice is credited again, the date in the **Next Billing Date** field is again 01.01.2024. On this date, the old price was originally valid and the price update wasn't in effect. The price update is canceled and the original prices as of 01.01.2024 are restored. The contract invoices can be issued with the original prices.
 
-When the price update is withdrawn, a planned service commitment is created to reapply the price update (31.01.2024) when you invoice the period again.
+When the price update is withdrawn, a planned subscription line is created to reapply the price update (31.01.2024) when you invoice the period again.
 
-The planned service commitment that is created together with a credit memo has the date 31.01.2024 in **Perform update on** in the example. The reason for this is that the price update didn't come into effect until 31.01.2024 and only applies to the next period. For **Perform Update on**, the **Next Billing Date** after the invoice is never used, as otherwise the price update would be incorrectly canceled in the following period.
+The planned subscription line that is created together with a credit memo has the date 31.01.2024 in **Perform update on** in the example. The reason for this is that the price update didn't come into effect until 31.01.2024 and only applies to the next period. For **Perform Update on**, the **Next Billing Date** after the invoice is never used, as otherwise the price update would be incorrectly canceled in the following period.
 
 **Example**
 
@@ -238,11 +238,11 @@ Archived service commitment **Perform Update on** 01.02.2024
 Invoice 01.02.2024 - 29.02.2024 (new price applies without restriction for the period)
 Credit Memo --> The price update shouldn't be canceled.
 
-If prices were edited manually, they're used when the price update is canceled and reapplied. In this case, however, it's more difficult to trace the steps using archived and planned service commitments.
+If prices were edited manually, they're used when the price update is canceled and reapplied. In this case, however, it's more difficult to trace the steps using archived and planned subscription lines.
 
 If the prices were changed after the credit memo, the price update overwrites them.
 
-The price update can be canceled/deleted after the credit memo by deleting the planned service commitments.
+The price update can be canceled/deleted after the credit memo by deleting the planned subscription lines.
 
 ## See also
 

@@ -79,10 +79,10 @@ When posting the contract invoice, contract deferrals are created using the foll
 
 ## Release deferrals
 
-The **Contract Deferrals Release** batch report is used to release invoice deferrals. This report runs through all contract deferrals (customer and vendor), filters using **Posting Until Date** from the report request page to the **Posting Date** and **Document Posting Date** fields, and reposts the items thus found from the accrual account to the cost or revenue account. The release takes place for debit-side and credit-side contract accruals at the same time. The **Posting Date** field from the report request page is used as the posting date for the closure. At the same time, the status in **Released** field in the contract deferrals is set to **Yes**.
+The **Subscription Contract Deferrals Release** batch report is used to release invoice deferrals. This report runs through all contract deferrals (customer and vendor), filters using **Posting Until Date** from the report request page to the **Posting Date** and **Document Posting Date** fields, and reposts the items thus found from the accrual account to the cost or revenue account. The release takes place for debit-side and credit-side contract accruals at the same time. The **Posting Date** field from the report request page is used as the posting date for the closure. At the same time, the status in **Released** field in the contract deferrals is set to **Yes**.
 We recommend that you run the release of contract deferrals on a monthly basis (for example, at the end of the month).
 
-When posting the release, the source code is used, which is stored in the **Contract Deferrals Release** field in the **Source Code Setup** page.
+When posting the release, the source code is used, which is stored in the **Subscription Contract Deferrals Release** field in the **Source Code Setup** page.
 
 > [!NOTE]
 > * If deferrals were created by a contract invoice, they are automatically fully released on the **Posting Date of Credit Memo** when the contract invoice is credited.

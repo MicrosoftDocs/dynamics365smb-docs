@@ -61,12 +61,12 @@ When you ship a sales order, the contract lines are either renewed or a **Planne
 
 If one of these fields was changed and the contract line isn't invoiced up to the **Service End Date**, a **Planned Service Commitment** is created. The **Planned Service Commitment** saves the changes to the contract line to ensure that you can invoice the contract line with the current conditions until the **Service End Date**.
 
-If you invoice the contract line up to the **Service End Date**, the contract line updates from the associated planned service commitment. The planned service commitment is deleted after the update.
+If you invoice the contract line up to the **Service End Date**, the contract line updates from the associated planned subscription line. The planned subscription line is deleted after the update.
 
 > [!NOTE]
-> You can review the planned service commitments for specific contract lines by using the **Planned Service Commitment exists** field on the **Lines** FastTab on the **Customer Contract** page.
+> You can review the planned subscription lines for specific contract lines by using the **Planned Service Commitment exists** field on the **Lines** FastTab on the **Customer Contract** page.
 
-The **Planned Service Commitments** page shows all planned service commitments for all contracts. Because planned service commitments can also exist for vendor service commitments, this field is also available on vendor contract lines.
+The **Planned Subscription Lines** page shows all planned subscription lines for all contracts. Because planned subscription lines can also exist for vendor service commitments, this field is also available on vendor contract lines.
 
 ## Customer contract
 

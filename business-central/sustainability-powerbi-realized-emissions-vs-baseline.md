@@ -13,14 +13,18 @@ ms.service: dynamics-365-business-central
 
 # Realized Emissions vs Baseline (Power BI Report)
 
-The *Realized Emissions vs Baseline*....
+The *Realized Emissions vs Baseline* report allows users to compare their actual emisssions against a predefined baseline from the scorecard. With this, they can compare different periods against each other to ensure they are tracking well against the baseline they have set. 
 
 :::image type="content" source="media/sustainability/realized-emissions-vs-baseline.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/realized-emissions-vs-baseline.png":::
 
 
 ## How to use the report
 
+As a Sustainability Manager, the report can be used to evaluate the organizations carbon footprint against the baseline allowing comparision against this and the actual. With this, it can help to identify trends and deviations. With this information they can make informed decisions about where to make changes to ensure they are improving against the baseline.
 
+For an Executive, this report provides a highlevel view for them to identify how they are performing against the baseline. This can assist them in ensuring their long-term vision is coming true and can assited in making changes where required around the future strategies.
+
+For an Environmental Analyst, they can use this data to identify specific areas or emissions baselines that are not being met and conduct a root cause analysis to propose actionable recommendations.
 
 ## Key Performance Indicators (KPIs)
 

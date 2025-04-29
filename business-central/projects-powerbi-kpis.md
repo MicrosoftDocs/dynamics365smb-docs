@@ -315,6 +315,22 @@ The Planning Line Total Price (LCY) measure calculates the total price of all pr
 **Data Sources**
 - Job Ledger Entry
 
+### Project Task Starting Date
+
+**Formula**  
+The Project Task Starting Date column calculates the earliest planning date for a project task, helping to identify when the task is scheduled to begin.
+
+**Data Sources**
+- Job Planning Line
+
+### Project Task Ending Date
+
+**Formula**  
+The Project Task Ending Date column calculates the latest planning date for a project task, helping to identify when the task is scheduled to end.
+
+**Data Sources**
+- Job Planning Line
+
 ## Purchase Measures
 - [Amount on PO](#amount-on-po)
 - [Amount Rcvd. Not Invoiced](#amount-rcvd-not-invoiced)

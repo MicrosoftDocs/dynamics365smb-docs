@@ -2245,14 +2245,14 @@ ms.service: dynamics-365-business-central
 #### [Design details: Plan parameters](design-details-planning-parameters.md)  
 #### [Design details: Plan assignment table](design-details-planning-assignment-table.md)  
 #### [Design details: Transfers in planning](design-details-transfers-in-planning.md)
-### Design details: Inventory costing
+### Design details: Inventory costing 
 #### [Costing overview](design-details-inventory-costing.md)
 #### [Design details: Cost methods](design-details-costing-methods.md)  
 #### [Design details: Change the cost method for items](design-details-changing-costing-methods.md)
 #### [Design details: Item application](design-details-item-application.md)  
 #### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
-#### Design details: Posting date on adjustment value entry
+#### Design details: Posting date on adjustment value entry <!-- When you open Microsoft Learn, the left menu contains two lines: "Design details: Posting date on adjustment value entry." One of them seems to be unnecessary, as it has a link to https://learn.microsoft.com/en-us/ -->
 #### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)  

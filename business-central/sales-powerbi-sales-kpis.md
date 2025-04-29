@@ -274,6 +274,18 @@ Sum of the Estimated Value from the Opportunity Entries table.
 
    - [Shipped Not Invoiced Amount](#shipped-not-invoiced-amount)
    - [Shipped Not Invoiced Quantity](#shipped-not-invoiced-quantity)
+
+- **Pareto Measures**
+   - [Pareto Color Cutoff](#pareto-color-cutoff)
+   - [Pareto Cumulative Gross Profit](#pareto-cumulative-gross-profit)
+   - [Pareto Cumulative Gross Profit %](#pareto-cumulative-gross-profit-percent)
+   - [Pareto Customer Cutoff Rank](#pareto-customer-cutoff-rank)
+   - [Pareto Customer Rank by Gross Profit](#pareto-customer-rank-by-gross-profit)
+   - [Pareto Cutoff Cumulative Gross Profit](#pareto-cutoff-cumulative-gross-profit)
+   - [Pareto Cutoff Customer](#pareto-cutoff-customer)
+   - [Pareto Cutoff Customer Rank](#pareto-cutoff-customer-rank)
+   - [Pareto Cutoff Gross Profit %](#pareto-cutoff-gross-profit-percent)
+   - [Pareto Total Gross Profit](#pareto-total-gross-profit)
 - [Cost Amount](#cost-amount)
 - [Cost Amount Non-Inv](#cost-amount-non-inv)
 - [Gross Profit](#gross-profit)
@@ -337,6 +349,106 @@ The sum of the **Sales Amount** column from the **Sales** table where the **Sour
 **Formula**  
 
 The sum of the **Sales Qty. (Base)** column from the **Sales** table where the **Source Type** **Sales Order Shipped Not Invoiced**.
+
+### Pareto Color Cutoff
+
+**Formula**  
+
+The Color Cutoff where **Pareto Customer Rank by Gross Profit** exceeds the **Pareto Customer Rank by Gross Profit.**
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Cumulative Gross Profit
+
+**Formula**  
+
+The **Cumulative Gross Profit** based on the **Pareto Customer Rank by Gross Profit**
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Cumulative Gross Profit Percent
+
+**Formula**  
+
+The **Cumulative Gross Profit** divided by the **Total Gross Profit**.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Customer Cutoff Rank
+
+**Formula**  
+
+The maximum **Pareto Customer Rank** based on the **Pareto Cutoff Customer Rank**.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Customer Rank by Gross Profit
+
+**Formula**  
+
+The **Pareto Customer Rank** ordered by the **Gross Profit** on the Sales table.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Cutoff Cumulative Gross Profit
+
+**Formula**  
+
+The **Cumulative Gross Profit** for the **Pareto Cutoff Customer**.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Cutoff Customer
+
+**Formula**  
+
+The Customer with the maximum difference of the **Pareto Cumulative Gross Profit** minus the **Pareto Value**.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Cutoff Customer Rank
+
+**Formula**  
+
+The **Pareto Customer Rank by Gross Profit** for the **Pareto Cutoff Customer**.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Cutoff Gross Profit Percent
+
+**Formula**  
+
+The **Pareto Cumulative Gross Profit** for the **Pareto Cutoff Customer**.
+
+**Data Source**
+
+- Sales Line
+
+### Pareto Total Gross Profit
+
+**Formula**  
+
+The **Total Gross Profit** from the Sales Table for all Sales.
+
+**Data Source**
+
+- Sales Line
 
 **Data Source**
 

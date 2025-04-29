@@ -20,7 +20,7 @@ The *Realized Emissions vs Target* compares your actual Emission usage against t
 
 ## How to use the report
 
-As a Sustainability Manager, the report can be used to evaluate the organizations carbon footprint against the predefined targets helping to identify trends and devisations. With this information they can make informed decisions about where to make changes to ensure targets are met.
+As a Sustainability Manager, the report can be used to evaluate the organizations carbon footprint against the predefined targets helping to identify trends and deviations. With this information they can make informed decisions about where to make changes to ensure targets are met.
 
 For an Executive, this report provides a highlevel view for them to identify if the targets they have documented are being met and can identify where these are not. With this information they can make more informed decisions around the longer term strategies.
 

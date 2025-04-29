@@ -17,6 +17,8 @@ ms.service: dynamics-365-business-central
 
 The **Project Timeline** report monitors project timelines to ensure timely delivery, with insights into task durations, dates, and critical paths. This report includes details about the project number, tasks number, description, starting and ending dates.
 
+:::image type="content" source="media/projects/project-timeline.png" alt-text="Screenshot of the Project Timeline Power BI Report" lightbox="media/projects/project-timeline.png":::
+
 ## Use the report
 
 Project managers and team members use the report to effectively monitor and plan project timelines.

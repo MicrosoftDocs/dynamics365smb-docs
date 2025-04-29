@@ -13,14 +13,18 @@ ms.service: dynamics-365-business-central
 
 # Realized Emissions vs Target (Power BI Report)
 
-The *Realized Emissions vs Target*....
+The *Realized Emissions vs Target* compares your actual Emission usage against that set by the Target. This provides users key information on the specific targets that have been set via the Scorecard and directly compares this against the actual usage. With this information the user is able to see how they are tracking against the targets and can make informed decisions.
 
 :::image type="content" source="media/sustainability/realized-emissions-vs-target.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/realized-emissions-vs-target.png":::
 
 
 ## How to use the report
 
+As a Sustainability Manager, the report can be used to evaluate the organizations carbon footprint against the predefined targets helping to identify trends and devisations. With this information they can make informed decisions about where to make changes to ensure targets are met.
 
+For an Executive, this report provides a highlevel view for them to identify if the targets they have documented are being met and can identify where these are not. With this information they can make more informed decisions around the longer term strategies.
+
+For an Environmental Analyst, they can use this data to identify specific areas or emissions targets that are not being met and conduct a root cause analysis to propose actionable recommendations.
 
 ## Key Performance Indicators (KPIs)
 

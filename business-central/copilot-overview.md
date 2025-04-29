@@ -26,7 +26,7 @@ Copilot includes a constantly expanding set of capabilities that help users in d
 
 ## How does Copilot approach security, privacy, and compliance?
 
-Copilot is built on the Microsoft cloud and designed for enterprise use, with the security, privacy, and compliance controls that our customers expect. Here's some key points to common questions:
+Copilot is built on the Microsoft cloud and designed for enterprise use, with the security, privacy, and compliance controls that our customers expect. Here are some key points to common questions:
 
 - When a user interacts with Copilot, it inherits their data permissions and can't read any more data than the user already has access to.
 - Microsoft doesn't read your prompts or use your data to train AI models without your explicit permission.

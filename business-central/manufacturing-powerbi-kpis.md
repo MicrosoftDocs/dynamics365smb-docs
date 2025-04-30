@@ -28,6 +28,20 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Capacity (Effective)]()
 - [Capacity (Total)]()
 
+## Capacity Ledger Entries
+
+### Capacity Ledger Entry Measures
+
+- [Capacity Ledger Output Quantity]()
+- [Capacity Ledger Quantity]()
+- [Direct Cost]()
+- [Overhead Cost]()
+- [Run Time]()
+- [Scrap %]()
+- [Scrap Quantity]()
+- [Setup Time]()
+- [Stop Time]()
+
 ## Production Orders
 
 ### Production Order Measures

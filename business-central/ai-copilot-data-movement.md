@@ -29,6 +29,7 @@ When you use Copilot, your inputs (prompts) and outputs (results), including any
 
 The following table describes when and how data can move across geographies for Copilot in Business Central. 
 
+
 | Azure&nbsp;region&nbsp;where&nbsp;your&nbsp;Business&nbsp;Central environment is hosted | Azure geography where Azure OpenAI Service is hosted |Consent required for data movement across geographies? |How to allow data to move across geographic areas|
 | - | - | - |-|
 |<ul><li>Australia (South East)</li><li>United Kingdom (South, West)</li><li>India (Central, South)</li><li>United States (Central, East, North Central, South Central, West)</li></ul>|Within the same geographic area of your Business Central environment|No|No action required. Data doesn't move across geographies in this scenario. |

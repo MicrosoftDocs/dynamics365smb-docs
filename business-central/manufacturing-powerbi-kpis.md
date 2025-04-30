@@ -25,6 +25,15 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Production Order Measures
 
+- [Actual Time Used]()
+- [Average Production Time Per Finished Quantity]()
+- [Expected Production Order Scrap Quantity]()
+- [Finished %]()
+- [No. of Production Orders]()
+- [Planned Quantity]()
+- [Remaining %]()
+- [Variance Quantity]()
+
 ### Production Order Statistics
 
 #### Actual Costs

@@ -46,9 +46,10 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Item Ledger Entry Measures
 
-- [Consumption Quantity]()
+- [Item Ledger Entry Consumption Quantity]()
+- [Item Ledger Entry Cost Amount Actual]()
+- [Item Ledger Entry Output Quantity]()
 - [Item Ledger Entry Quantity]()
-- [Output Quantity]()
 
 ## Machine Center
 
@@ -98,6 +99,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Operation Run Time]()
 - [Operation Setup Time]()
 - [Operation Wait Time]()
+- [Prod Order Routing Expected Capacity Need]()
+- [Prod Order Routing Expected Capacity Ovhd. Cost]()
+- [Prod Order Routing Expected Operation Cost Amt.]()
 - [Total Duration Days]()
 - [Total Duration Hours]()
 

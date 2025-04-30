@@ -21,6 +21,13 @@ Explore the list of KPIs below to learn more about how they can help you achieve
 
 Each KPI is described, including how it is calculated and what data was used in the calculations.
 
+## Calendar Entries
+
+### Calendar Entry Measures
+
+- [Capacity (Effective)]()
+- [Capacity (Total)]()
+
 ## Production Orders
 
 ### Production Order Measures

@@ -196,6 +196,27 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Standard Subcontracted Cost Dev %]()
 - [Total Standard Cost Dev %]()
 
+## Value Entries
+
+### Production Order - WIP
+
+- [Beginning Balance Value]()
+- [Capacity Value]()
+- [Consumption Value]()
+- [Cost Posted to G/L]()
+- [Ending Balance Value]()
+- [Output Value]()
+
+### Value Entry Measures
+
+- [Cost Amount Actual]()
+- [Cost Amount Expected]()
+- [Cost Posted to G/L]()
+- [Expected Cost]()
+- [Expected Cost Posted to G/L]()
+- [ILE Quantity]()
+- [Valued Quantity]()
+
 ## Work Center
 
 ### Work Center Measures

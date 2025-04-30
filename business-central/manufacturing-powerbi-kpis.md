@@ -108,6 +108,26 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Standard Subcontracted Cost Dev %]()
 - [Total Standard Cost Dev %]()
 
+## Work Center
+
+### Work Center Measures
+
+- [Work Center Availability After Orders]()
+- [Work Center Load]()
+- [Work Center Output]()
+- [Work Center Scrap]()
+- [Work Center Scrap %]()
+
+### Work Center Statistics
+
+- [Work Center Actual Efficieny %]()
+- [Work Center Actual Need]()
+- [Work Center Actual Total Cost]()
+- [Work Center Allocated Time]()
+- [Work Center Capacity (Effective)]()
+- [Work Center Capacity (Total)]()
+- [Work Center Expected Efficiency %]()
+
 ## Capacity KPIs
 
 - [Capacity Cost Amt. Deviation %](#capacity-cost-amt-deviation)

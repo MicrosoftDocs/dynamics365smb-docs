@@ -50,6 +50,29 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Item Ledger Entry Quantity]()
 - [Output Quantity]()
 
+## Machine Center
+
+### Machine Center Measures
+
+- [Machine Center Availability After Orders]()
+- [Machine Center Load]()
+- [Machine Center Output]()
+- [Machine Center Run Time]()
+- [Machine Center Scrap]()
+- [Machine Center Scrap %]()
+- [Machine Center Stop %]()
+- [Machine Center Stop Time]()
+
+### Machine Center Statistics
+
+- [Machine Center Actual Efficiency %]()
+- [Machine Center Actual Need]()
+- [Machine Center Total Cost]()
+- [Machine Center Allocated Time]()
+- [Machine Center Capacity (Effective)]()
+- [Machine Center Capacity (Total)]()
+- [Machine Center Expected Efficiency %]()
+
 ## Production Orders
 
 ### Production Order Measures
@@ -156,29 +179,6 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Work Center Capacity (Effective)]()
 - [Work Center Capacity (Total)]()
 - [Work Center Expected Efficiency %]()
-
-## Machine Center
-
-### Machine Center Measures
-
-- [Machine Center Availability After Orders]()
-- [Machine Center Load]()
-- [Machine Center Output]()
-- [Machine Center Run Time]()
-- [Machine Center Scrap]()
-- [Machine Center Scrap %]()
-- [Machine Center Stop %]()
-- [Machine Center Stop Time]()
-
-### Machine Center Statistics
-
-- [Machine Center Actual Efficiency %]()
-- [Machine Center Actual Need]()
-- [Machine Center Total Cost]()
-- [Machine Center Allocated Time]()
-- [Machine Center Capacity (Effective)]()
-- [Machine Center Capacity (Total)]()
-- [Machine Center Expected Efficiency %]()
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

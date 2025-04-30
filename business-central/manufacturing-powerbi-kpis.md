@@ -81,6 +81,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Needed Time]()
 - [Needed Time (MS)]()
 
+## Prod Order Components
+
+### Prod Order Component Measures
+
+- [Prod Order Component Cost Amount]()
+- [Prod Order Component Expected Qty. (Base)]()
+- [Prod Order Component Remaining Qty. (Base)]()
+
 ## Production Orders
 
 ### Production Order Measures

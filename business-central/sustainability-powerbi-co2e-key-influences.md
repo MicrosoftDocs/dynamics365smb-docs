@@ -13,13 +13,16 @@ ms.service: dynamics-365-business-central
 
 # Co2e Key Influences (Power BI Report)
 
-The *Co2e Key Influences*....
+The *Co2e Key Influences* leverages the Key Influences visual within Power BI to analyse the data and identify the primary influences impacting an organizations CO2e Emissions. By analyzing key variables, the report provides a deeper understanding of how these factors impact the CO2e figure enabling more informed decisions.
 
 :::image type="content" source="media/sustainability/co2e-key-influences.png" alt-text="Screenshot of the CO2e Key Influences Power BI report" lightbox="media/sustainabiliy/water-and-waste-analysis.png":::
 
 
 ## How to use the report
 
+As a Sustainability Manager, the report can provide them quick key points for their CO2e Emissions without having to sift through the data. The report can quickly highlight actionable factors that can assist in meeting the sustainability targets.
+
+For the Executive team, the report assists them in gaining a high-level understanding of the primary driving factors of the organizations CO2e emissions. This can assist them to align their sustainability efforts and assist in making informed decisions for the future.
 
 
 ## Key Performance Indicators (KPIs)

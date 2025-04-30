@@ -89,6 +89,18 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Prod Order Component Expected Qty. (Base)]()
 - [Prod Order Component Remaining Qty. (Base)]()
 
+## Prod Order Routing Lines
+
+### Prod Order Routing Measures
+
+- [Expected Operation Cost]()
+- [Operation Move Time]()
+- [Operation Run Time]()
+- [Operation Setup Time]()
+- [Operation Wait Time]()
+- [Total Duration Days]()
+- [Total Duration Hours]()
+
 ## Production Orders
 
 ### Production Order Measures

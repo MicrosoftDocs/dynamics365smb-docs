@@ -2245,7 +2245,7 @@ ms.service: dynamics-365-business-central
 #### [Design details: Plan parameters](design-details-planning-parameters.md)  
 #### [Design details: Plan assignment table](design-details-planning-assignment-table.md)  
 #### [Design details: Transfers in planning](design-details-transfers-in-planning.md)
-### Design details: Inventory costing 
+### Design details: Inventory costing
 #### [Costing overview](design-details-inventory-costing.md)
 #### [Design details: Cost methods](design-details-costing-methods.md)  
 #### [Design details: Change the cost method for items](design-details-changing-costing-methods.md)

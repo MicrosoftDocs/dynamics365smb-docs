@@ -140,7 +140,7 @@ In summary, you can or shouldn't do the following things on the **Data** sheet:
 ## Related information
 
 [Creating an Excel layout report (developer documentation)](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout?toc=/dynamics365/business-central/toc.json)  
-[Managing Report Layouts](ui-manage-report-layouts.md)  
+[Managing report layouts](ui-manage-report-layouts.md)  
 [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  
 [Import and Export a Custom Report or Document Layout (Legacy)](ui-how-import-and-export-report-layout.md)  
 [Analyzing Report Data with Excel](report-analyze-excel.md)  

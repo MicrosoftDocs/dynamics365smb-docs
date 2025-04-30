@@ -186,7 +186,7 @@ When the report request page is open, select the **Help** question mark in the t
 
 Learn more in [Help pane](product-help-and-support.md#help-pane)
 
-## See also
+## Related informtation
 
 - [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 - [Use Reports in Daily Work](reports-use-reports.md)  

@@ -73,6 +73,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Machine Center Capacity (Total)]()
 - [Machine Center Expected Efficiency %]()
 
+## Prod Order Capacity Need
+
+## Prod Order Capacity Need Measures
+
+- [Allocated Time]()
+- [Needed Time]()
+- [Needed Time (MS)]()
+
 ## Production Orders
 
 ### Production Order Measures

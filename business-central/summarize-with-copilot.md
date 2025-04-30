@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 04/01/2025
+ms.date: 04/14/2025
 ms.custom: bap-template
 ---
 
@@ -50,7 +50,7 @@ This feature is available on most card and document pages, like a **Customer car
 
      Summaries are based on data from the record, FactBoxes that display related information, and related pages that show aggregated information like statistics pages. Some summary text is linked, so you can go to the data source. Select the links to view details or take action based on the summarized data.
 
-   - Ask for more insights
+   - Get more insights
 
      Select the **Show more** button to get more information about the record. The Copilot pane opens on the right side and generates more points of interest.
 

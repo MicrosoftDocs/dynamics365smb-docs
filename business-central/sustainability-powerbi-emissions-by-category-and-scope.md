@@ -13,14 +13,16 @@ ms.service: dynamics-365-business-central
 
 # Emissions by Category and Scope (Power BI Report)
 
-The *Emissions by Category and Scope*....
+The *Emissions by Category and Scope* highlights an overview of the emissions values broken down into each individual emissions and breaking this down further by Account Category then into Sub-Category and the different Scopes. With this, a user can identify key Account Categories that are tracking high emissions and make an informed decision on where to make changes.
 
 :::image type="content" source="media/sustainability/emissions-by-category-and-scope.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/emissions-by-category-and-scope.png":::
 
 
 ## How to use the report
 
+As a Sustainability Manager, the report provides clear and concise information on the organizations emissions. The report can be used to identify key irregularities based on a specific scope or a category.
 
+For a Procurment Manager, they can use this report to analyse the impacts of Scope 3 emissions tied to the purchase og goods and services. This can help them to identify key suppliers and prioritze partnerships with more sustainable vendors.
 
 ## Key Performance Indicators (KPIs)
 

@@ -13,14 +13,18 @@ ms.service: dynamics-365-business-central
 
 # CO2e Analysis (Power BI Report)
 
-The *CO2e Analysis*....
+The *CO2e Analysis* report provides a key view on the CO2e impacts across the different business factors. This is broken down by the CO2e month on month but also broken down by the Category. 
+
+Additionally the report highlights the purchased Carbon Credits allow organizations to see their credit offsets based on the different years and months.
 
 :::image type="content" source="media/sustainability/co2e-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/co2e-analysis.png":::
 
 
 ## How to use the report
 
+For Sustainability Managers, they can use this report to monitor the CO2e Emissions and can effectively evaluate the carbon offset that they purchased over a given period. This can assist in helping them strategize both reduction and offsetting efforts.
 
+As someone on the executive team, the report can be used to understand the gross emissions and impact of the carbon credits enabling them to communicate progress on net emissions to stakeholders and ensure alignment with the ESG commitments.
 
 ## Key Performance Indicators (KPIs)
 

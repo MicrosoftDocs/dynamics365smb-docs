@@ -25,9 +25,6 @@ Copilot is a system feature and an integral part of Business Central. Like most 
 
 There are different levels of access control for agent capabilities, depending on the feature:
 
-
-
-
 - Allow data movement across geographical regions.
 
     This task is required only if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more about this task](#allow-data-movement-across-geographies).
@@ -69,7 +66,7 @@ Copilot and agent capabilities are active by default when they're made available
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox)
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox "Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.")
 
 ## Granting user access
 

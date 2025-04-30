@@ -101,6 +101,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Total Duration Days]()
 - [Total Duration Hours]()
 
+## Production Order Lines
+
+### Production Order Line Measures
+
+- [Production Order Line Finished Quantity (Base)]
+- [Production Order Line Quantity (Base)]
+- [Production Order Line Remaining Quantity (Base)]
+
 ## Production Orders
 
 ### Production Order Measures

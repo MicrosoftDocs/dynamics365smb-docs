@@ -42,6 +42,14 @@ Each KPI is described, including how it is calculated and what data was used in 
 - [Setup Time]()
 - [Stop Time]()
 
+## Item Ledger Entries
+
+### Item Ledger Entry Measures
+
+- [Consumption Quantity]()
+- [Item Ledger Entry Quantity]()
+- [Output Quantity]()
+
 ## Production Orders
 
 ### Production Order Measures

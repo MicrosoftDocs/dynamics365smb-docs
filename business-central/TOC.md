@@ -528,18 +528,18 @@ ms.service: dynamics-365-business-central
 ### Subscription billing
 #### [Overview of subscription billing](SRB/welcome.md)
 #### Contracts
-##### [Manage contracts, service objects, and service commitments](SRB/working-with-contracts/contracts-services-mgmt.md)
+##### [Manage contracts, service objects, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
 ##### [Create customer contracts](SRB/working-with-contracts/customer-contracts.md)
 ##### [Create vendor contracts](SRB/working-with-contracts/vendor-contracts.md)
 ##### [Use service objects](SRB/working-with-contracts/service-objects.md)
-##### [Use service commitments](SRB/working-with-contracts/so-service-commitments.md)
+##### [Use subscription lines](SRB/working-with-contracts/so-service-commitments.md)
 ##### [Update prices](SRB/working-with-contracts/price-update.md)
 ##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
 ##### [Defer revenue and expenses in contracts](SRB/working-with-contracts/contract-deferrals.md)
 ##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
 #### Sales
-##### [Sales with service commitments](SRB/sales/sales-service-commitments.md)
-##### [Price determination of service commitments](SRB/sales/price-calculation.md)
+##### [Sales with subscription lines](SRB/sales/sales-service-commitments.md)
+##### [Price determination of subscription lines](SRB/sales/price-calculation.md)
 ##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
 ##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
 #### [Recurring billing](SRB/recurring-billing.md)
@@ -554,7 +554,7 @@ ms.service: dynamics-365-business-central
 ##### [Manage usage for customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
 ##### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
 ##### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
-##### [Extend service commitments](UBB/masterdata/service-commitments.md)
+##### [Extend subscription lines](UBB/masterdata/service-commitments.md)
 
 
 ## Sales
@@ -2036,8 +2036,8 @@ ms.service: dynamics-365-business-central
 ###### [Set up contract types](SRB/setup/contract-types.md)
 ###### [Import contracts and contract lines](SRB/setup/import.md)
 ###### [Use the job queue](SRB/setup/job-queue.md)
-###### [Use service commitments and items](SRB/masterdata/items.md)
-###### [Manage service commitments](SRB/masterdata/service-commitments.md)
+###### [Use subscription lines and items](SRB/masterdata/items.md)
+###### [Manage subscription lines](SRB/masterdata/service-commitments.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)

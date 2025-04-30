@@ -173,4 +173,4 @@ To control deferrals and for submissions to auditors, you can export the deferra
 
 ## See also
 
-[Contract renewal](contract-renewal.md)
+[Subscription contract renewal](contract-renewal.md)

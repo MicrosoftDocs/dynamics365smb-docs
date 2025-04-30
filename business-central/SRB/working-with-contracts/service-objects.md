@@ -51,12 +51,12 @@ When serial number tracked items are delivered with service commitments, one ser
 > [!NOTE]
 > If service object stores a serial number, this information will appear depending on settings for invoice details. To learn more, go to [Invoice details](../setup/general.md#invoice-details).
 
-## Service object attributes
+## Subscription Attributes
 
 Attributes let you describe items in detail using any number of criteria. The same is possible for service objects. Two FactBoxes are available for this purpose, both on the card and in the overview.
 
 * The **Item Attributes** FactBox shows the attributes that are stored for the item of the service object.
-* The **Service Object Attributes** FactBox shows the characteristics that are specific to a service object. To maintain the specific characteristics of a service object, open the **Service Object Attribute Values** page either via the dropdown menu of the FactBox or by using the **Attributes** action.
+* The **Subscription Attributes** FactBox shows the characteristics that are specific to a service object. To maintain the specific characteristics of a service object, open the **Subscription Attribute Values** page either via the dropdown menu of the FactBox or by using the **Attributes** action.
 
 You can also define a feature as **Primary**. The primary attribute displays on the **Service Object Card** page on the **General** FastTab. You might need to choose **Show more**. Here, the description of the primary attribute is used as the field name. You can output the primary attribute of a service object when you bill the related service commitments in the contract invoice. To learn about the configuration this requires, go to [Invoice details](../setup/general.md#invoice-details).
 

@@ -1,5 +1,5 @@
 ---
-title: Contract renewal
+title: Subscription contract renewal
 description: You can renew contracts in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,17 +11,17 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Contract renewal
+# Subscription contract renewal
 
 Some contract lines are set to end at a certain date. On the **Customer Contract** and **Vendor Contract** pages, you can use the **Renewal Quote** action to extend these contract lines. When you do, you can specify a renewal period and create a sales quote. The **Service End Date** (in the Service Commitment / Contract line) is extended when you convert the sales quote to a sales order and ship it.
 
-## Create a contract renewal quote
+## Create a subscription contract renewal quote
 
-You can create a contract renewal quote on the **Contract Renewal** and **Customer Contract** pages. Use the **Contract Renewal** page to create contract renewal quotes for all contract lines that are about to expire or have expired. To filter for specific contract lines, choose the :::image type="content" source="../../LocalFunctionality/India/image/search_small.png" alt-text="TellMe search icon."::: TellMe search icon to open the **Contract Renewal** page. Use the **Get Contract Lines** action to open a filter page and filter for the contract lines to renew. To learn more, go to [Get contract lines](#get-contract-lines).
+You can create a subscription contract renewal quote on the **Subscription Contract Renewal** and **Customer Contract** pages. Use the **Contract Renewal** page to create contract renewal quotes for all contract lines that are about to expire or have expired. To filter for specific contract lines, choose the :::image type="content" source="../../LocalFunctionality/India/image/search_small.png" alt-text="TellMe search icon."::: TellMe search icon to open the **Contract Renewal** page. Use the **Get Contract Lines** action to open a filter page and filter for the contract lines to renew. To learn more, go to [Get contract lines](#get-contract-lines).
 
 ### Get contract lines
 
-The **Get Contract Lines** action on the **Contract Renewal** page shows a filter page. On the filter page, set a date in the **Service End Date** field to specify the earliest **Service End Date** from which to show contract lines. The **Add Vendor Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the service objects of the relevant vendor contract lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Service End Date** are also considered for contract fenewals.
+The **Get Contract Lines** action on the **Subscription contract renewal** page shows a filter page. On the filter page, set a date in the **Service End Date** field to specify the earliest **Service End Date** from which to show contract lines. The **Add Vendor Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the service objects of the relevant vendor contract lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Service End Date** are also considered for contract fenewals.
 
 Therefore, if you turn on **Add Vendor Contract Lines** toggle, all vendor-side service commitments for the same service object are also considered for renewal.
 
@@ -33,11 +33,11 @@ If you need more filters, you can filter by any field on the **Customer Contract
 To renew a contract line, specify a value in the **Renewal Term** field. It is prefilled from the **Initial Term** of the corresponding contract line. You can change the value to match the desired term of renewal.
 
 > [!CAUTION]
-> You can only create a contract renewal line if there isn't a line on a sales quote for renewal for the contract line.
+> You can only create a subscription contract renewal line if there isn't a line on a sales quote for renewal for the contract line.
 
 ### Create quotes
 
-Use the **Create Quotes** action on the **Contract Renewal** page to create sales quotes. You can create quotes for all lines, or selected lines. All contract renewal lines for which sales quotes are created are deleted.
+Use the **Create Quotes** action on the **Subscription Contract Renewal** page to create sales quotes. You can create quotes for all lines, or selected lines. All subscription contract renewal lines for which sales quotes are created are deleted.
 
 If the **Renewal Term** field on the renewal line is blank, the renewal line isn't included a quote and won't be renewed.
 
@@ -70,20 +70,20 @@ The **Planned Subscription Lines** page shows all planned subscription lines for
 
 ## Customer contract
 
-Use the **Create Contract Renewal Quote** action on the **Customer Contract** page to renew a specific customer contract. The action opens the **Select Contract Lines for Renewal** page.
+Use the **Create Contract Renewal Quote** action on the **Customer Contract** page to renew a specific customer contract. The action opens the **Select Subscription Contract Lines for Renewal** page.
 
 > [!CAUTION]
-> The **Create Contract Renewal Quote** action deletes existing contract renewal lines. 
+> The **Create Contract Renewal Quote** action deletes existing subscription contract renewal lines. 
 >
 > You can't create a new sales quote for a contract line if there is a sales quote or sales order for the line.
 
-The **Select Contract Lines for Renewal** page only shows valid contract lines. A contract line is valid if a **Service End Date** is set and the line isn't closed.
+The **Select Subscription Contract Lines for Renewal** page only shows valid contract lines. A contract line is valid if a **Service End Date** is set and the line isn't closed.
 
 To renew a contract line, specify a value in the **Renewal Term** field. The default value comes from the **Initial Term** field on the corresponding contract line. You can change the value to set the desired renewal term.
 
 If the **Renewal Term** field on the renewal line is blank, the renewal line won't be included on the sales quote.
 
-when you choose**OK** to close the **Select Contract Lines for Renewal** page, a sales quote is created. The steps to [Create quotes](#create-quotes) and [Sales orders](#sales-orders) are the same as the steps described in this article.
+when you choose**OK** to close the **Select Subscription Contract Lines for Renewal** page, a sales quote is created. The steps to [Create quotes](#create-quotes) and [Sales orders](#sales-orders) are the same as the steps described in this article.
 
 ## See also
 

@@ -54,7 +54,7 @@ In addition to these automatic filters, we recommended that you enter `<>''` (no
 
 We also recommend that you exclude service commitments with the **Discount** toggle on in the service commitment filter. Discounts can be changed with the price update, if needed. However, this procedure is rather unusual.
 
-If you want to exclude service commitments with a limited term that could potentially be the subject of contract renewal, filter service commitments for an empty **Service End Date**.
+If you want to exclude service commitments with a limited term that could potentially be the subject of subscription contract renewal, filter service commitments for an empty **Service End Date**.
 
 You might need to change filters after you change the template. For example, if a customer contract is filtered and the partner is changed to **Vendor**, the filter remains on the customer contract. When you create a proposal is created, no services are found as there are no services with partner **Vendor** in a customer contract.
 
@@ -121,7 +121,7 @@ If filtering the service commitments in a template is too complex or not possibl
 
 Proposal lines are proposals for a price update. The service commitments or contract lines aren't updated at this point. Based on the data, the proposal might differ from the actual update in regards to the **Perform Update on** date. You can set a date in the past for **Perform Update on**. However, the price in periods already invoiced doesn't change.
 
-If a planned subscription line has **Price update** or **Contract extension** selected in the **Type of update** field, a proposal line isn't created for the service commitment. The planned subscription lines would overwrite the price update in any case. It would come down to the sequence of execution, which is avoided at this point of time. A price update and contract renewal are potentially binding agreements, which is why the combination is currently avoided when you run the **Create Proposal** action.
+If a planned subscription line has **Price update** or **Contract extension** selected in the **Type of update** field, a proposal line isn't created for the service commitment. The planned subscription lines would overwrite the price update in any case. It would come down to the sequence of execution, which is avoided at this point of time. A price update and subscription contract renewal are potentially binding agreements, which is why the combination is currently avoided when you run the **Create Proposal** action.
 
 ### Delete proposal lines
 

@@ -161,5 +161,5 @@ For lines, you can use the **Billing Lines** and the **Archived Billing Lines** 
 
 ## See also
 
-[Contract renewal](contract-renewal.md)  
+[Subscription contract renewal](contract-renewal.md)  
 [Contract deferrals](contract-deferrals.md)  

@@ -38,7 +38,7 @@ For each document line, the details underlying the calculation can be accessed b
 
 ## Additional information in contract invoices
 
-To be able to react to different needs regarding the order of the output of information in contract invoices, in the [Invoice details](setup/general.md#invoice-details) you can specify at which position in the contract invoice which information should output. It is possible to control the output of the names of the contractor and the service recipient as well as other information about service objects and service commitments.
+To be able to react to different needs regarding the order of the output of information in contract invoices, in the [Invoice details](setup/general.md#invoice-details) you can specify at which position in the contract invoice which information should output. It is possible to control the output of the names of the contractor and the service recipient as well as other information about service objects and subscription lines.
 
 ## Post document
 

@@ -30,17 +30,17 @@ To import customers, items, service commitments, vendor contracts, and so on, cr
 
 ## Import customer contracts, contract lines, service objects, and service commitments
 
-There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Contracts**, **Imported Service Objects**, and **Imported Service Commitments** pages. Use the following tables to import and create service objects, service commitments, and contract lines.
+There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Subscription Contracts**, **Imported Subscriptions**, and **Imported Subscription Lines** pages. Use the following tables to import and create service objects, service commitments, and contract lines.
 
 |Name|Table|
 |:--|:--|
-|Imported Customer Contracts|70920710|
-|Imported Service Objects|70920708|
-|Imported Service Commitments|70920709|
+|Imported Customer Subscription Contracts|70920710|
+|Imported Subscriptions|70920708|
+|Imported Subscription Lines|70920709|
 
 ### Import customer contracts
 
-The **Imported Customer Contracts** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Customer Subscription Contracts** action to create the customer contracts (just headers, no lines). The action always processes all rows that aren't processed, regardless of filters and selection.
+The **Imported Customer Subscription Contracts** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Customer Subscription Contracts** action to create the customer contracts (just headers, no lines). The action always processes all rows that aren't processed, regardless of filters and selection.
 
 |Name|Description|To fill|
 |:--|:--|:--|
@@ -65,7 +65,7 @@ If the processing is successful, a customer contract is created and **Contract C
 
 ### Import service objects
 
-The **Imported Service Objects** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Subscriptions** action to create the service objects. The action always processes all lines that aren't processed, regardless of filters and selection.
+The **Imported Subscriptions** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Subscriptions** action to create the service objects. The action always processes all lines that aren't processed, regardless of filters and selection.
 
 | Name | Description | To be filled |
 |--|--|--|

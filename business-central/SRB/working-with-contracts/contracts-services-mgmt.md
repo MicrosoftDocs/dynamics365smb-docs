@@ -25,7 +25,7 @@ Contracts are used to organize service commitments for billing to customers and 
 
 * The **Service Start Date** describes the date from which the service commitment is valid and can be invoiced.
 * The **Service End Date** is the date the service commitments ends and can no longer be billed. The date can be entered manually when a service commitments is terminated.
-* **Planned Subscription Lines Exist** shows that a [Contract renewal](contract-renewal.md) has happened for this service commitment, but the renewal is not yet valid because the service commitment has not yet been fully invoiced.
+* **Planned Subscription Lines Exist** shows that a [Subscription contract renewal](contract-renewal.md) has happened for this service commitment, but the renewal is not yet valid because the service commitment has not yet been fully invoiced.
 * The **Next Billing Date** indicates the due date of the next billing. The date is automatically recalculated during the billing run. The date is *grayed out* if invoiced to Service End Date.
 * The **Calculation Base Amount** is the basis of valuation of the service commitments. When selling an item with additional recurring service commitments, the Calculation Base Amount is the value of the item.
 * The **Billing Rhythm** specifies the Dateformula for rhythm in which the service is invoiced. Using a Dateformula rhythm can be, for example, a monthly, a quarterly or a yearly invoicing.

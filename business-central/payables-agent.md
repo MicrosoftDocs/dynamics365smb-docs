@@ -22,7 +22,7 @@ The Payables Agent helps Business Central users automate the processing of vendo
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 ## Functionality
-The functionality of this preview does not represent the full vision of the Payables Agent. It is the beginning of this agent and many more features and AI is intended to be infused in the Payables Agent. In time, the agent is intended to assist with purchase order matching, approval of invoices, anomaly detection, and many other things to support in the accounts payables processes and accounting.
+The functionality of this preview does not represent the full vision of the Payables Agent. We are in the early stages of the Payables Agent and many more features and AI is intended to be added to it. In time, the agent is intended to assist with purchase order matching, approval of invoices, anomaly detection, and many other things to support in the accounts payables processes and accounting.
 
 ### Activation and configuration
 

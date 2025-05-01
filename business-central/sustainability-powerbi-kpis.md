@@ -4,10 +4,10 @@ description: Get an overview of all the KPIs and measures in the semantic model 
 author: 
 ms.author: 
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 04/28/2025
+ms.date: 
 ms.service: dynamics-365-business-central
 ---
 

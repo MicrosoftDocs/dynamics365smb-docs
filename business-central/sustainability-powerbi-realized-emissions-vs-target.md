@@ -1,13 +1,13 @@
 ---
 title: Realized Emissions vs Target
-description: 
-author: kennienp
-ms.author: kepontop
-ms.reviewer: bholtorf
-ms.topic: conceptual
+description: The Realized Emissions by Target report breaks down your carbon emissions and allows for comparison against the target. This allows you to effectively monitor planned progress and drive continuous improvement to sustainability goals.
+author: 
+ms.author: 
+ms.reviewer:
+ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 10/26/2024
+ms.date: 
 ms.service: dynamics-365-business-central
 ---
 

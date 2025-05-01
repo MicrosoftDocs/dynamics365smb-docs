@@ -1,10 +1,10 @@
 ---
 title: Sustainabiltiy Overview
-description: 
-author: kennienp
-ms.author: kepontop
-ms.reviewer: bholtorf
-ms.topic: conceptual
+description: The Sustainability Overview gives you a high-level view of all the key sustainability metrics.
+author: 
+ms.author: 
+ms.reviewer: 
+ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 

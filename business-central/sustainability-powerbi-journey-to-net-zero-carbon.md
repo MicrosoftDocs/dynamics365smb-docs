@@ -1,13 +1,13 @@
 ---
 title: Journey to Net Zero Carbon
-description: 
+description: The Journey to Net Zero highlights the journey to net zero within an organization.
 author: 
 ms.author: 
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 10/26/2024
+ms.date: 
 ms.service: dynamics-365-business-central
 ---
 

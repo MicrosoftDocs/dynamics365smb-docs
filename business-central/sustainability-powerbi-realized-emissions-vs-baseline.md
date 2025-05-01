@@ -1,13 +1,13 @@
 ---
 title: Realized Emissions vs Baseline
-description: 
-author: kennienp
-ms.author: kepontop
-ms.reviewer: bholtorf
-ms.topic: conceptual
+description: The Realized Emissions by Bassline report breaks down your carbon emissions and allows for comparison against a defined baseline period. This allows you to track your progress against the baseline and monitor trends against a previous period.
+author: 
+ms.author: 
+ms.reviewer: 
+ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 10/26/2024
+ms.date: 
 ms.service: dynamics-365-business-central
 ---
 

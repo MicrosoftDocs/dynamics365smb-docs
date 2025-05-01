@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQ for autofill (preview)
+title: Responsible AI FAQ for Autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 ms.date: 04/01/2025
 ms.custom: 
@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-# Responsible AI FAQ for autofill (preview)
+# Responsible AI FAQ for Autofill (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -22,7 +22,7 @@ These frequently asked questions (FAQ) describe the AI impact of Copilot’s Aut
 
 ## What is Autofill?
 
-Manually entering data can be time-consuming and error-prone, both for casual users of Business Central, and expert users that are tasked with entering records throughout their entire workday.  
+Manually entering data can be time-consuming and error-prone, both for casual users of Business Central and expert users who are tasked with entering records throughout their workday.  
 
 Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts productivity, and eliminates tedious tasks. Copilot uses AI to suggest and fill out field values automatically on your page, instead of typing or looking up things across screens. You can choose to keep or discard the suggestions. 
 

@@ -20,7 +20,7 @@ Additionally the report highlights the purchased Carbon Credits allow organizati
 :::image type="content" source="media/sustainability/co2e-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/co2e-analysis.png":::
 
 
-## How to use the report
+## Use the report
 
 For Sustainability Managers, they can use this report to monitor the CO2e Emissions and can effectively evaluate the carbon offset that they purchased over a given period. This can assist in helping them strategize both reduction and offsetting efforts.
 

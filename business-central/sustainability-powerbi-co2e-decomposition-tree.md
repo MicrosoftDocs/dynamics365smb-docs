@@ -18,7 +18,7 @@ The *Co2e Decomposition Tree* breaks down the CO2e emissions across multiple dif
 :::image type="content" source="media/sustainability/co2e-decomposition-tree.png" alt-text="Screenshot of the CO2e Decomposition Tree Power BI report" lightbox="media/sustainabiliy/water-and-waste-analysis.png":::
 
 
-## How to use the report
+## Use the report
 
 For a Sustainability Manager, this report allows users to explore the different CO2e emissions based on multiple different factors allowing users to focus on areas with the highest impact and seeing a clear breakdown from their.
 

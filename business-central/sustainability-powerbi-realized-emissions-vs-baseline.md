@@ -18,7 +18,7 @@ The *Realized Emissions vs Baseline* report allows users to compare their actual
 :::image type="content" source="media/sustainability/realized-emissions-vs-baseline.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/realized-emissions-vs-baseline.png":::
 
 
-## How to use the report
+## Use the report
 
 As a Sustainability Manager, the report can be used to evaluate the organizations carbon footprint against the baseline allowing comparision against this and the actual. With this, it can help to identify trends and deviations. With this information they can make informed decisions about where to make changes to ensure they are improving against the baseline.
 

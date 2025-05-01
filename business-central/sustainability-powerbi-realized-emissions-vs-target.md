@@ -18,7 +18,7 @@ The *Realized Emissions vs Target* compares your actual Emission usage against t
 :::image type="content" source="media/sustainability/realized-emissions-vs-target.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/realized-emissions-vs-target.png":::
 
 
-## How to use the report
+## Use the report
 
 As a Sustainability Manager, the report can be used to evaluate the organizations carbon footprint against the predefined targets helping to identify trends and deviations. With this information they can make informed decisions about where to make changes to ensure targets are met.
 

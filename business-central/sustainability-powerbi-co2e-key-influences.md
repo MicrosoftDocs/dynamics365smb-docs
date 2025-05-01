@@ -18,7 +18,7 @@ The *Co2e Key Influences* leverages the Key Influences visual within Power BI to
 :::image type="content" source="media/sustainability/co2e-key-influences.png" alt-text="Screenshot of the CO2e Key Influences Power BI report" lightbox="media/sustainabiliy/water-and-waste-analysis.png":::
 
 
-## How to use the report
+## Use the report
 
 As a Sustainability Manager, the report can provide them quick key points for their CO2e Emissions without having to sift through the data. The report can quickly highlight actionable factors that can assist in meeting the sustainability targets.
 

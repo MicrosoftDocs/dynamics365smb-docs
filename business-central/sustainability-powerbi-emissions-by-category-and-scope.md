@@ -18,7 +18,7 @@ The *Emissions by Category and Scope* highlights an overview of the emissions va
 :::image type="content" source="media/sustainability/emissions-by-category-and-scope.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/emissions-by-category-and-scope.png":::
 
 
-## How to use the report
+## Use the report
 
 As a Sustainability Manager, the report provides clear and concise information on the organizations emissions. The report can be used to identify key irregularities based on a specific scope or a category.
 

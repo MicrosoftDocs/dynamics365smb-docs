@@ -18,7 +18,7 @@ The *Social Analysis* expands the report pack beyond the environmental aspects o
 :::image type="content" source="media/sustainability/social analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/social analysis.png":::
 
 
-## How to use the report
+## Use the report
 
 For a member of the executive team, this report can be used to gain a clear understanding of employee turnover and better understand the distrubtion of employees through age, gender, unions. 
 

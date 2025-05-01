@@ -23,7 +23,7 @@ Using this report you can get a high level view of how your organization is trac
 
 :::image type="content" source="media/sustainability/sustainability-overview.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/sustainability-overview.png":::
 
-## How to use the report
+## Use the report
 
 The report is intended for use based on the following roles
 - Sustainability Manager

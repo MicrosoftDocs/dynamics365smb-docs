@@ -18,7 +18,7 @@ The *Journey to Net Zero Carbon* provides an organization a clear picture to mon
 :::image type="content" source="media/sustainability/journey-to-net-zero-carbon.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/journey-to-net-zero-carbon.png":::
 
 
-## How to use the report
+## Use the report
 The report can be used by a variety of different users based on their needs within an organization.
 
 A Sustainability Manager can use this report to monitor key Carbon Emissions and renewable energy usage. This can information can be used to be used to identify areas where the emissions can be reduce based on the different scopes and or the dimensions. They can also use this report to track their emissions year over year and aim to see a reduction in emissions and get closer to net zero.

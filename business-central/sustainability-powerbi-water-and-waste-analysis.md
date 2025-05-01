@@ -18,7 +18,7 @@ The *Water and Waste Analysis* provides a detailed analysis on the an organizati
 :::image type="content" source="media/sustainability/water-and-waste-analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/water-and-waste-analysis.png":::
 
 
-## How to use the report
+## Use the report
 
 As a Sustainability Manager, the *Water and Waste Analysis* report can be used to monitor the water usage and waste geneneration at an organizational level. This can be narrowed down to see how each facility or location is performing against the latter in terms of avaiable capacity, usage and the different types.
 

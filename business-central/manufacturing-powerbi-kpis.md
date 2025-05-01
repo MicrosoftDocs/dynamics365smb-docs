@@ -302,13 +302,45 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Machine Center Statistics
 
-- [Machine Center Actual Efficiency %]()
-- [Machine Center Actual Need]()
-- [Machine Center Total Cost]()
+- [Machine Center Actual Efficiency %](#machine-center-actual-efficiency-percent)
+- [Machine Center Actual Need](#machine-center-actual-need)
+- [Machine Center Actual Total Cost](#machine-center-actual-total-cost)
 - [Machine Center Allocated Time](#machine-center-allocated-time)
 - [Machine Center Capacity (Effective)](#machine-center-capacity-effective)
-- [Machine Center Capacity (Total)]()
-- [Machine Center Expected Efficiency %]()
+- [Machine Center Capacity (Total)](#machine-center-capacity-total)
+- [Machine Center Expected Efficiency %](#machine-center-expected-efficiency-percent)
+
+#### Machine Center Actual Efficiency Percent
+
+**Formula**
+
+- The **Machine Center Actual Efficiency %** measure calculates the actual efficiency for machine centers by dividing the **[Machine Center Actual Need](#machine-center-actual-need)** by the **[Machine Center Capacity (Total)]()**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Calendar Entry
+
+#### Machine Center Actual Need
+
+**Formula**
+
+- The **Machine Center Actual Need** measure calculates the total actual time required for machine centers by summing the **setupTime**, **runTime**, and **stopTime** columns in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center". This is done using the `SUMX` function over the filtered table.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Machine Center Actual Total Cost
+
+**Formula**
+
+- The **Machine Center Actual Total Cost** measure calculates the total actual cost for machine centers by adding the **[Direct Cost](#direct-cost)** and **[Overhead Cost](#overhead-cost)** measures, filtered to include only rows in the *Capacity Ledger Entries* table where **Type** is "Machine Center".
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Value Entry
 
 #### Machine Center Allocated Time
 
@@ -325,6 +357,26 @@ This measure determines the indirect cost for capacity ledger entries by summing
 **Formula**
 
 - The **Machine Center Capacity (Effective)** measure calculates the total effective capacity for machine centers by summing the **Capacity Effective** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Machine Center".
+
+**Data Source**
+
+- Calendar Entry
+
+#### Machine Center Capacity (Total)
+
+**Formula**
+
+- The **Machine Center Capacity (Total)** measure calculates the total capacity for machine centers by summing the **Capacity Total** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Machine Center".
+
+**Data Source**
+
+- Calendar Entry
+
+#### Machine Center Expected Efficiency Percent
+
+**Formula**
+
+- The **Machine Center Expected Efficiency %** measure calculates the expected efficiency for machine centers by dividing the **[Machine Center Capacity (Effective)](#machine-center-capacity-effective)** by the **[Machine Center Capacity (Total)](#machine-center-capacity-total)**.
 
 **Data Source**
 

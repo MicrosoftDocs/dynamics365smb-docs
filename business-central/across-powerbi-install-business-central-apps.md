@@ -176,10 +176,10 @@ For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/po
 
 ## Want links to show up in Report Explorer?
 
-The profiles (roles) selected to be displayed in the Role Explorer control the functional areas show in Report Explorer. To specify whether profiles are displayed, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
+The profiles (roles) selected to display in the Role Explorer control the functional areas that show in Report Explorer. To specify whether profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
 
 > [!TIP]
-> The built-in profiles shown in Report Explorer, the **Description** field contains *Navigation menu only*.
+> For the built-in profiles that show in Report Explorer, the **Description** field contains **Navigation menu only**.
 
 ## Permissions
 

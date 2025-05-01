@@ -25,8 +25,28 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Calendar Entry Measures
 
-- [Capacity (Effective)]()
-- [Capacity (Total)]()
+- [Capacity (Effective)](#capacity-effective)
+- [Capacity (Total)](#capacity-total)
+
+#### Capacity (Effective)
+
+**Formula**
+
+- This measure, **Capacity (Effective)**, calculates the total effective capacity from the Calendar Entries table by summing up all values in the Capacity Effective column.
+
+**Data Source**
+
+- Calendar Entry
+
+#### Capacity (Total)
+
+**Formula**
+
+- This measure, **Capacity (Total)**, calculates the overall total effective capacity from the Calendar Entries table by summing up all values in the Capacity Total column.
+
+**Data Source**
+
+- Calendar Entry
 
 ## Capacity Ledger Entries
 

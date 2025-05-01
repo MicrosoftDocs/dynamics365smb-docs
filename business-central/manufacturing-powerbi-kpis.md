@@ -160,10 +160,50 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Item Ledger Entry Measures
 
-- [Consumption Quantity]()
-- [Cost Amount Actual]()
-- [Output Quantity]()
-- [Quantity]()
+- [Consumption Quantity](#consumption-quantity)
+- [Item Ledger Entry Cost Amount Actual](#item-ledger-entry-cost-amount-actual)
+- [Output Quantity](#output-quantity)
+- [Quantity](#quantity)
+
+#### Consumption Quantity
+
+**Formula**
+
+- The **Consumption Quantity** measure calculates the total [Quantity](#quantity) of item ledger entries where the **Entry Type** is "Consumption" by filtering the *Item Ledger Entries* table before summing.
+
+**Data Source**
+
+- Item Ledger Entry
+
+#### Item Ledger Entry Cost Amount Actual
+
+**Formula**
+
+- The **Item Ledger Entry Cost Amount Actual** measure calculates the total actual cost recorded in the Item Ledger Entries table by summing up all values in the **costAmountActual** column.
+
+**Data Source**
+
+- Item Ledger Entry
+
+#### Output Quantity
+
+**Formula**
+
+- The **Output Quantity** measure calculates the total [Quantity](#quantity) of item ledger entries where the **Entry Type** is "Output" by filtering the *Item Ledger Entries* table before summing.
+
+**Data Source**
+
+- Item Ledger Entry
+
+#### Quantity
+
+**Formula**
+
+- The **Quantity** measure sums the values in the *qty* column of the Item Ledger Entries table to calculate the total quantity across all records.
+
+**Data Source**
+
+- Item Ledger Entry
 
 ## Machine Center
 

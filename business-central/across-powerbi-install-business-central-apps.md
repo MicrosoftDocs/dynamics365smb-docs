@@ -176,10 +176,10 @@ For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/po
 
 ## Want links to show up in Report Explorer?
 
-Profiles, sometimes called *Departmental Role Center Profiles*, control whether functional areas show in Report Explorer. To specify whether Departmental Role Center Profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
+The profiles (roles) selected to display in the Role Explorer control the functional areas that show in Report Explorer. To specify whether profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
 
 > [!TIP]
-> For the built-in Departmental Role Center Profiles, the **Description** field contains *Navigation menu only*.
+> For the built-in profiles that show in Report Explorer, the **Description** field contains **Navigation menu only**.
 
 ## Permissions
 

@@ -386,9 +386,40 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Prod Order Capacity Need Measures
 
-- [Allocated Time]()
-- [Needed Time]()
-- [Needed Time (MS)]()
+- [Allocated Time](#allocated-time)
+- [Needed Time](#needed-time)
+- [Needed Time (MS)](#needed-time-ms)
+
+#### Allocated Time
+
+**Formula**
+
+- The **Allocated Time** measure calculates the total allocated time by summing the **allocatedTime** column in the *Prod Order Capacity Need* table, filtered to include only rows where **Requested Only** is FALSE.
+
+**Data Source**
+
+- Prod Order Capacity Need
+
+#### Needed Time
+
+**Formula**
+
+- The **Needed Time** measure calculates the total needed time by summing the **neededTime** column in the *Prod Order Capacity Need* table.
+
+**Data Source**
+
+- Prod Order Capacity Need
+
+#### Needed Time (MS)
+
+**Formula**
+
+- The **Needed Time (MS)** measure calculates the total needed time in manufacturing-specific units by dividing the sum of **neededTimeMs** from the *Prod Order Capacity Need* table by a **Time Factor**. The **Time Factor** is retrieved using `LOOKUPVALUE` based on the capacity unit of measure selected in the *Manufacturing Setup* table.
+
+**Data Source**
+
+- Prod Order Capacity Need
+- Manufacturing Setup
 
 ## Prod Order Components
 

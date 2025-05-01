@@ -425,9 +425,39 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Prod Order Component Measures
 
-- [Prod Order Component Cost Amount]()
-- [Prod Order Component Expected Qty. (Base)]()
-- [Prod Order Component Remaining Qty. (Base)]()
+- [Prod Order Component Cost Amount](#prod-order-component-cost-amount)
+- [Prod Order Component Expected Qty. (Base)](#prod-order-component-expected-qty-base)
+- [Prod Order Component Remaining Qty. (Base)](#prod-order-component-remaining-qty-base)
+
+#### Prod Order Component Cost Amount
+
+**Formula**
+
+- The **Prod Order Component Cost Amount** measure calculates the total cost of production order components by summing the **costAmount** column in the *Prod Order Components* table.
+
+**Data Source**
+
+- Prod Order Component
+
+#### Prod Order Component Expected Qty. (Base)
+
+**Formula**
+
+- The **Prod Order Component Expected Qty. (Base)** measure calculates the total expected quantity (in base units) of production order components by summing the **expectedQtyBase** column in the *Prod Order Components* table.
+
+**Data Source**
+
+- Prod Order Component
+
+#### Prod Order Component Remaining Qty. (Base)
+
+**Formula**
+
+- The **Prod Order Component Remaining Qty. (Base)** measure calculates the total remaining quantity (in base units) of production order components by summing the **remainingQtyBase** column in the *Prod Order Components* table.
+
+**Data Source**
+
+- Prod Order Component
 
 ## Prod Order Routing Lines
 

@@ -40,7 +40,7 @@ The usage-based billing features in subscription billing offer a flexible way to
 * Do accurate daily billing, even for quantity changes and partial periods.
 * Create billing proposals with details for all services to bill in a single overview.
 * Overview billing details in contract invoices. If needed, the overview can show all items individually.
-* Issue contract credits and refunds. Unused quantities can automatically lead to credit memos for vendor and customer contract invoices.
+* Issue contract credits and refunds. Unused quantities can automatically lead to credit memos for vendor and customer subscription contract invoices.
 
 ## The process flow in usage-based billing
 
@@ -57,12 +57,12 @@ You link usage data and related usage data subscriptions contracts through servi
 The final step is to create contract invoices. You can create invoices for the contracts that include the usage-based service commitments from several places:
 
 * The **Recurring Billing** page
-* The **Customer Contract** and **Vendor Contract** pages
+* The **Customer Subscription Contract** and **Vendor Subscription Contract** pages
 * The **Usage Data Imports** page
 
 ## See also
 
-[Extension of service commitments](masterdata/service-commitments.md)  
-[Linking subscription with service object](processing-usage-data/connect-subscription-service-object.md)  
+[Extension of subscription lines](masterdata/service-commitments.md)  
+[Linking subscription with subscriptions](processing-usage-data/connect-subscription-service-object.md)  
 [Imports and processing](processing-usage-data/imports-processing.md)
-[Extend contract](processing-usage-data/extend-contract.md)
+[Extend subscription contracts](processing-usage-data/extend-contract.md)

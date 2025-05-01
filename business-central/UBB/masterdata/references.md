@@ -14,10 +14,10 @@ ms.custom: bap-template
 
 # Usage data supplier references
 
-To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [service commitment](service-commitments.md#service-commitment-packages), which is part of a vendor or customer contract.
+To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [service commitment](service-commitments.md#service-commitment-packages), which is part of a vendor or customer subscription contract.
 
 > [!NOTE]
-> You can only charge service commitments that are part of a vendor or customer contract.
+> You can only charge service commitments that are part of a vendor or customer subscription contract.
 
 The usage data usually only knows the subscription to which it's related. The service commitments, however, know to which contract they're assigned. The link is the subscriptions that connect to a service commitment.
 

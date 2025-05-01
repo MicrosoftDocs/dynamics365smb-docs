@@ -13,22 +13,22 @@ ms.service: dynamics-365-business-central
 
 # Subscription contract renewal
 
-Some contract lines are set to end at a certain date. On the **Customer Contract** and **Vendor Contract** pages, you can use the **Renewal Quote** action to extend these contract lines. When you do, you can specify a renewal period and create a sales quote. The **Service End Date** (in the Service Commitment / Contract line) is extended when you convert the sales quote to a sales order and ship it.
+Some contract lines are set to end at a certain date. On the **Customer Subscription Contract** and **Vendor Subscription Contract** pages, you can use the **Renewal Quote** action to extend these contract lines. When you do, you can specify a renewal period and create a sales quote. The **Service End Date** (in the subscription line or subscription contract line) is extended when you convert the sales quote to a sales order and ship it.
 
 ## Create a subscription contract renewal quote
 
-You can create a subscription contract renewal quote on the **Subscription Contract Renewal** and **Customer Contract** pages. Use the **Contract Renewal** page to create contract renewal quotes for all contract lines that are about to expire or have expired. To filter for specific contract lines, choose the :::image type="content" source="../../LocalFunctionality/India/image/search_small.png" alt-text="TellMe search icon."::: TellMe search icon to open the **Contract Renewal** page. Use the **Get Contract Lines** action to open a filter page and filter for the contract lines to renew. To learn more, go to [Get contract lines](#get-contract-lines).
+You can create a subscription contract renewal quote on the **Subscription Contract Renewal** and **Customer Subscription Contract** pages. Use the **Subscription Contract Renewal** page to create renewal quotes for all contract lines that are about to expire or have expired. To filter for specific contract lines, choose the :::image type="content" source="../../LocalFunctionality/India/image/search_small.png" alt-text="TellMe search icon."::: TellMe search icon to open the **Subscription Contract Renewal** page. Use the **Get Subscription Contract Lines** action to open a filter page and filter for the contract lines to renew. To learn more, go to [Get contract lines](#get-contract-lines).
 
 ### Get contract lines
 
-The **Get Contract Lines** action on the **Subscription contract renewal** page shows a filter page. On the filter page, set a date in the **Service End Date** field to specify the earliest **Service End Date** from which to show contract lines. The **Add Vendor Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the service objects of the relevant vendor contract lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Service End Date** are also considered for contract fenewals.
+The **Get Contract Lines** action on the **Subscription Contract Renewal** page shows a filter page. On the filter page, set a date in the **Subscription Line End Date** field to specify the earliest end date from which to show contract lines. The **Add Vendor Subscription Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the service objects of the relevant vendor contract lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Subscription Line End Date** are also considered for contract renewals.
 
-Therefore, if you turn on **Add Vendor Contract Lines** toggle, all vendor-side service commitments for the same service object are also considered for renewal.
+Therefore, if you turn on **Add Vendor Subscription Contract Lines** toggle, all vendor-side service commitments for the same service object are also considered for renewal.
 
-If you need more filters, you can filter by any field on the **Customer Contract** and **Service Commitments** pages. After you confirm the filters, renewal lines are created for all valid contract lines. A contract line is valid if you specify a **Service End Date** for the filter and the line isn't closed. The **Contract Renewal** page shows all lines.
+If you need more filters, you can filter by any field on the **Customer Subscription Contract** and **Subscription Lines** pages. After you confirm the filters, renewal lines are created for all valid contract lines. A contract line is valid if you specify a **Subscription Line End Date** for the filter and the line isn't closed. The **Contract Renewal** page shows all lines.
 
 > [!NOTE]
-> Contract lines are closed when they reach the date in the **Service End Date** field. You can access closed contract lines on the **Closed Lines** FastTab on the **Contract Card** page. To reopen closed lines, clear the **Closed** checkbox.
+> Contract lines are closed when they reach the date in the **Subscription Line End Date** field. You can access closed contract lines on the **Closed Lines** FastTab on the **Vendor Subscription Contract** or **Customer Subscription Contract** pages. To reopen closed lines, clear the **Closed** checkbox.
 
 To renew a contract line, specify a value in the **Renewal Term** field. It is prefilled from the **Initial Term** of the corresponding contract line. You can change the value to match the desired term of renewal.
 
@@ -64,13 +64,13 @@ If one of these fields was changed and the contract line isn't invoiced up to th
 If you invoice the contract line up to the **Service End Date**, the contract line updates from the associated planned subscription line. The planned subscription line is deleted after the update.
 
 > [!NOTE]
-> You can review the planned subscription lines for specific contract lines by using the **Planned Service Commitment exists** field on the **Lines** FastTab on the **Customer Contract** page.
+> You can review the planned subscription lines for specific contract lines by using the **Planned Service Commitment exists** field on the **Lines** FastTab on the **Customer Subscription Contract** page.
 
 The **Planned Subscription Lines** page shows all planned subscription lines for all contracts. Because planned subscription lines can also exist for vendor service commitments, this field is also available on vendor contract lines.
 
-## Customer contract
+## Customer subscription contract
 
-Use the **Create Contract Renewal Quote** action on the **Customer Contract** page to renew a specific customer contract. The action opens the **Select Subscription Contract Lines for Renewal** page.
+Use the **Create Contract Renewal Quote** action on the **Customer Subscription Contract** page to renew a specific customer subscription contract. The action opens the **Select Subscription Contract Lines for Renewal** page.
 
 > [!CAUTION]
 > The **Create Contract Renewal Quote** action deletes existing subscription contract renewal lines. 

@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Extend contract
 
-To extend a contract, use the **Extend Contract** action on the **Customer Contract** or **Vendor Contract** pages. The feature is part of subscription billing, but you also use it in usage-based billing. This article describes the differences. To learn more about extending contracts, go to [Extend contract](../../SRB/working-with-contracts/customer-contracts.md#extend-contract).
+To extend a contract, use the **Extend Subscription Contract** action on the **Customer Subscription Contract** or **Vendor Subscription Contract** pages. The feature is part of subscription billing, but you also use it in usage-based billing. This article describes the differences. To learn more about extending contracts, go to [Extend subscription contracts](../../SRB/working-with-contracts/customer-contracts.md#extend-contract).
 
 ## Extend a contract based on a subscription
 
-In addition to the **Customer Contract** or **Vendor Contract** pages, the **Extend Contract** action is also available on the **Usage Data Subscriptions** page, and from the lookup in the **No. of Imported Lines** field on the **Usage Data Imports** page. This action is useful if errors occur when processing imported lines due to service commitments and service objects that don't exist.
+In addition to the **Customer Subscription Contract** or **Vendor Subscription Contract** pages, the **Extend Contract** action is also available on the **Usage Data Subscriptions** page, and from the lookup in the **No. of Imported Lines** field on the **Usage Data Imports** page. This action is useful if errors occur when processing imported lines due to service commitments and service objects that don't exist.
 
 The **Subscription** field is available on the **Extend Contract** page on the **Vendor** FastTab. When you open the page from the **Usage Data Subscriptions** or **Imported Lines** pages, the subscription is automatically predefined. When you open the page from the menu, you can also select the subscription using the AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="AssistEdit icon."::: button. The **Quantity** and **Provision Start Date** fields are predefined based on the subscription. The item is also preselected if it was found through [references for products](../masterdata/references.md#references-for-products). If not, you can select it manually.
 

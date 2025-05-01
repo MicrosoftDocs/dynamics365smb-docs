@@ -32,7 +32,7 @@ When assigning service commitments to a contract, [!INCLUDE [prod_short](../../i
 
 ## Update exchange rates on service objects
 
-The method described in this section ensures that prices for service commitments in a foreign currency don't automatically change as a result of a change in the exchange rate. However, you might need to use the **Update exchange rates** action to adjust the exchange rate manually. The action is available on the **Service Object**, **Customer Contract**, and **Vendor Contract** pages.
+The method described in this section ensures that prices for service commitments in a foreign currency don't automatically change as a result of a change in the exchange rate. However, you might need to use the **Update exchange rates** action to adjust the exchange rate manually. The action is available on the **Service Object**, **Customer  Contract**, and **Vendor Contract** pages.
 
 > [!NOTE]
 > If you manually change some fields, other fields also update.

@@ -57,7 +57,7 @@ The **Imported Customer Subscription Contracts** page serves as an intermediate 
 |Detail Overview (Boolean)|Determines whether the billing details for this contract are automatically output with invoices and credit memos. Options: Empty (default), Without prices, Complete|Optional|
 |Dimensions from Project No. (Code20)| Specifies the project from which the dimensions for the contract are used.|Optional|
 
-If the processing is successful, a customer contract is created and **Contract Created** is selected.
+If the processing is successful, a customer subscription contract is created and **Contract Created** is selected.
 
 * The **Processed by** field shows the user who performed the processing.
 * The **Processed on** field shows the date and time of the processing.
@@ -106,7 +106,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 |Contract (Code20)|Indicates the number of the contract in which the service commitment is to be created as a contract line. Service commitments with **Invoicing via**=**Sales** can't be called up in contracts.|**Optional**|
 |Contract Line No. (Integer)|Indicates the line number of the contract line. If no line number is specified, one is determined automatically.|Optional|
 |Contract Line Type (Option: Comment, Service Commitment)|Specifies the type of the contract line.|**Always**|
-|Package Code (Code20)|Specifies the code of the subscription package. A vendor contract line might have the same service object and package code as the customer contract line. When that's the case, the customer contract dimension is copied to the vendor contract line.|**Optional**|
+|Package Code (Code20)|Specifies the code of the subscription package. A vendor contract line might have the same service object and package code as the customer subscription contract line. When that's the case, the customer subscription contract dimension is copied to the vendor contract line.|**Optional**|
 |Template Code (Code20)|Indicates the name of the subscription package line template from which the service commitment was copied to the subscription package. It's just for information purposes.|**Optional**|
 |Description (Text100)|Indicates the description of the service commitments. If no description is specified, it's filled based on the service commitments.|**Always**|
 |Service Start Date (Date)|Indicates from which date the service commitments is valid and can be charged.|**Always**|

@@ -32,7 +32,7 @@ The following table describes the actions on the **Usage Data Imports** page.
 |---------|---------|
 |New Import    |  Prepare a new import.       |
 |Process     |  * **Import file** Open a file dialog to add the import file to the selected import.<br>* **Process Data** processes the imported usage data, but doesn't create invoices. The individual steps **Create Imported Lines**, **Process Imported Lines**, **Create Usage Data Billing**, and **Process Usage Data Billing** automatically run one after the other.       |
-|Create Customer Invoices     | Create a sales invoice for all contract elements in the selected import. This action creates a separate invoice document for each customer contract. The contract invoices post directly if you choose **Post documents**.        |
+|Create Customer Invoices     | Create a sales invoice for all contract elements in the selected import. This action creates a separate invoice document for each customer subscription contract. The contract invoices post directly if you choose **Post documents**.        |
 |Create Vendor Invoices     |  Create a purchase invoice for all contract components in the selected import. This action creates a separate invoice document for each vendor contract. Because a vendor invoice number is required to post purchase invoices, the option to post the generated documents directly isn't available.       |
 |Manual Processing     |  As an alternative to automatic processing of usage data by using the **Process Data** action, you can open the individual actions separately.       |
 |Create Imported Lines     | Generate the usage data as raw data based on the import file. The data uses the [data exchange definitions](../masterdata/dataexchangedefinitions.md) assigned to the [usage data supplier](../masterdata/suppliers.md). To open the imported lines, use the lookup in the **No. of Imported Lines** field.        |
@@ -40,7 +40,7 @@ The following table describes the actions on the **Usage Data Imports** page.
 |Create Usage Data Billing     | Generate the data you need to bill customers based on the imported lines. Depends on your configuration.        |
 |Process Usage Data Billing     | Determine pricing for the usage data. Pricing depends on the [methods for pricing](#methods-for-pricing) you use and the period. If errors occur during processing, you can use the lookup in the **No. of Usage Data Billing Errors** field to access the errors. After you correct the errors, you can run the processing step again.       |
 |Remove Usage Data Lines & Billing     |  Delete the usage data that the import file generated, and then regenerate it. This is useful, for example, if errors occur during processing that you can resolve by using a different [data exchange definition](../masterdata/dataexchangedefinitions.md).       |
-|Usage Data Billing     | * **Customer Contracts** opens an overview of the customer contracts in the import.<br>* **Customer Contract Invoices** opens an overview of the customer contract invoices created for the import, but aren't posted.<br>* **Posted Customer Contract Invoices** opens an overview of the customer contract invoices created and posted for the import.<br>* **Vendor Contracts** opens an overview of the vendor contracts in the import.<br>* **Vendor Contract Invoices** opens an overview of the vendor contract invoices created for the import, but aren't posted.<br>* **Posted Vendor Contract Invoices** opens an overview of the vendor contract invoices created and posted for the import.        |
+|Usage Data Billing     | * **Customer Contracts** opens an overview of the customer contracts in the import.<br>* **Customer Subscription Contract Invoices** opens an overview of the customer subscription contract invoices created for the import, but aren't posted.<br>* **Posted Customer Subscription Contract Invoices** opens an overview of the customer subscription contract invoices created and posted for the import.<br>* **Vendor Contracts** opens an overview of the vendor contracts in the import.<br>* **Vendor Contract Invoices** opens an overview of the vendor contract invoices created for the import, but aren't posted.<br>* **Posted Vendor Contract Invoices** opens an overview of the vendor contract invoices created and posted for the import.        |
 
 > [!NOTE]
 > **Imported Lines** <br/>
@@ -94,7 +94,7 @@ These methods are described in the following sections.
 
 ### Usage Quantity
 
-Calculate the price based on the quantity contained in the usage data. The service commitments find the service object, and thus the related item. If needed, the appropriate price scale is determined through the quantity. The deciding factor here is the contract partner (in the **Sell-to Customer No.** field on the **Customer Contract** page), not the invoice recipient. Based on the period to be billed (which the **Charge Start Date** and **Charge End Date** fields define), the partial period is calculated to the day, with a corresponding daily price in the case of a pro-rata billing period.
+Calculate the price based on the quantity contained in the usage data. The service commitments find the service object, and thus the related item. If needed, the appropriate price scale is determined through the quantity. The deciding factor here is the contract partner (in the **Sell-to Customer No.** field on the **Customer Subscription Contract** page), not the invoice recipient. Based on the period to be billed (which the **Charge Start Date** and **Charge End Date** fields define), the partial period is calculated to the day, with a corresponding daily price in the case of a pro-rata billing period.
 
 ### Fixed Quantity
 
@@ -167,18 +167,18 @@ On the **Usage Data Imports** page, use the **Process Data** action to process t
 1. After you import the reconciliation file, the raw data is generated as individual lines based on the import file via **Create Imported Lines**. You can access the details by using the lookup in the **No. of Imported Lines** field.
 2. When you process the imported lines (**Process Imported Lines**), the imported usage data merges with the service commitments and thus the service objects. [Subscriptions](../masterdata/customers-subscriptions.md) are the links that establish the connection. If required, you can set up the supplier to create these records automatically. To learn more, go to [Settings on the supplier](../masterdata/suppliers.md#settings-on-the-supplier). Specifically, the usage data contains the ID of the subscription to which it belongs. Each subscription has a [usage data supplier reference](../masterdata/references.md) associated with the service commitments through the **Supplier Reference Entry No.** field. When usage data merges with service commitments, among other things, the validity of the service commitments is checked. If it isn't valid, an error shows. If you get an error, you can use the lookup in the **No. of Imported Line Errors** field to access the records.
 
-If there isn't a connection between a subscription and a service commitment, you can create one using the [Linking subscription with service object](connect-subscription-service-object.md) feature, provided that the service commitment and the service object exist. If this isn't the case, you can create them using the [Extend Contract](extend-contract.md) action on the customer contract.
+If there isn't a connection between a subscription and a service commitment, you can create one using the [Linking subscription with service object](connect-subscription-service-object.md) feature, provided that the service commitment and the service object exist. If this isn't the case, you can create them using the [Extend Contract](extend-contract.md) action on the customer subscription contract.
 
 Usage data is typically supplier-side, which means it's probably missing the data you need for customer-side billing. You create the data for a customer partner for each vendor usage data record when you generate the **Usage Data Billing** (via **Create Usage Data Billing**) to use later for customer-side billing. You can use the lookup in the **No. of Usage Data Billing** field to access the details.
 
 Records in usage-based billing are vendor neutral, meaning all usage data is normalized regardless of the original source.
 
-1. When you process usage data billing (via **Process Usage Data Billing**), the data in the respective vendor or customer Contract lines, in the service objects, and in the service commitments are updated based on the new usage data (quantities and prices). In addition, the sales price is calculated for each data record where the **Partner** field contains **Customer** (see [methods for pricing](#methods-for-pricing)). If you get an error, use the lookup in the **No. of Usage Data Billing Errors** field to access the details.
+1. When you process usage data billing (via **Process Usage Data Billing**), the data in the respective vendor or customer subscription contract lines, in the service objects, and in the service commitments are updated based on the new usage data (quantities and prices). In addition, the sales price is calculated for each data record where the **Partner** field contains **Customer** (see [methods for pricing](#methods-for-pricing)). If you get an error, use the lookup in the **No. of Usage Data Billing Errors** field to access the details.
 
 The next step is billing, which typically happens as follows:
 
 * First, with the incoming invoice accompanying the usage data of the supplier.
-* Then, with billing with customer contract invoices for the customers.
+* Then, with billing with customer subscription contract invoices for the customers.
 
 ## Vendor and customer usage data
 

@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 ## Dimension value for customer contracts
 
-In the [General setup](setup/general.md), **Autom. Insert Cust. Contr. Dimension Value** controls whether the Customer Contract No. is automatically created as a new dimension value for each new Customer Contract. This is then automatically assigned to the respective contract.
+In the [General setup](setup/general.md), **Autom. Insert Cust. Contr. Dimension Value** controls whether the customer subscription contract number is automatically created as a new dimension value for each new customer subscription contract. This is then automatically assigned to the respective contract.
 
 
 ## Dimension Value for Customers
@@ -25,13 +25,13 @@ In the **Sales & Receivables Setup** it is controlled via **Autom. Insert Cust. 
 
 
 ## Other dimensions
-* **Customer Contract** <br/>
-    The **Dimensions from Project No.** field can be used to fetch the dimensions from the specified Project into the respective Customer Contract via lookup.
-* **Customer Contract Line** <br/>
-    * Dimensions are basically stored on the subscription lines, but are accessible via the contract lines. When assigning Services Commitments to a Customer Contract, the dimensions of the customer contract header are passed to the subscription lines. Additional dimensions are added and Dimension Values of existing dimensions are overwritten. However, no dimensions are deleted.
-    * In addition, when assigning services to a customer contract and updating the dimensions at the subscription lines a check is performed whether there are any vendor subscription lines that refer to the same Subscription package line template. If such a vendor Service Commitment is found, the dimensions of the Customer Contract Header are also passed to the vendor Service Commitment(s).
-    * When deleting a contract line, the dimensions of the customer contract header are removed in the related subscription lines.
-    * When changing a dimension in the Customer Contract Header (changing a dimension value, adding a dimension, removing a dimension), the change will transfer to the subscription lines in the same way as for sales documents.
+* **Customer Subscription Contract** <br/>
+    The **Dimensions from Project No.** field can be used to fetch the dimensions from the specified project into the respective customer subscription contract via a lookup.
+* **Customer Subscription Contract Line** <br/>
+    * Dimensions are basically stored on the subscription lines, but are accessible via the contract lines. When assigning subscription lines to a customer subscription contract, the dimensions of the customer subscription contract header are passed to the subscription lines. Additional dimensions are added and Dimension Values of existing dimensions are overwritten. However, no dimensions are deleted.
+    * In addition, when assigning services to a customer subscription contract and updating the dimensions at the subscription lines a check is performed whether there are any vendor subscription lines that refer to the same Subscription package line template. If such a vendor Service Commitment is found, the dimensions of the customer subscription contract Header are also passed to the vendor Service Commitment(s).
+    * When deleting a contract line, the dimensions of the customer subscription contract header are removed in the related subscription lines.
+    * When changing a dimension in the customer subscription contract header (changing a dimension value, adding a dimension, removing a dimension), the change transfers to the subscription lines in the same way as for sales documents.
 * **Vendor Contract Line** <br/>
     * When assigning services commitments to a vendor contract, the dimensions of the vendor contract header are transferred to the subscription lines. Additional dimensions are added and dimension values of existing dimensions are overwritten. However, no dimensions are deleted.
     * When deleting a contract line, the dimensions of the vendor contract header are removed in the related subscription lines.

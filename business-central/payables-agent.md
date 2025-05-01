@@ -71,9 +71,12 @@ The agent involves designated Business Central users if it is unsure how to proc
 
 ## How the agent processes requests
 
-The agent monitors a designated mailbox for incoming customer emails about item inquiries. The mailbox is specified in the Sales Order Agent configuration (learn more in [Set up Sales Order Agent](sales-order-agent-setup.md)). When the agent identifies a potential request in an email, it starts to prepare a sales quote. For example, it verifies whether the customer is registered in Business Central. It then checks item availability, creates a sales quote, and prepares an email response to the customer that includes the quote as a PDF attachment.
+The agent monitors mailboxes and SharePoint/OneDrive folders and looks for PDF documents. This is achieved via the **E-Documents Connector for Microsoft 365** which will automatically be set up when the agent is configured (learn more in [Set up Payables Agent](payables-agent-setup.md)). You determine if you want to monitor mailboxes and/or folders in SharePoint and OneDrive. Regardless of the source the agent will import the PDF into **Inbound E-Documents** extract invoice information with Azure Document Intelligence. Then, the agent will create an AI generated draft of its interpretation of the invoice, and the draft is now ready for further processing by a user.
 
-Some steps require your intervention, like reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles back-and-forth email exchanges with the customer to resolve missing details and allow modifications to the original request. Learn more in [Agent process flow](#agent-process-flow).
+Some steps require the user's intervention, like selecting the correct vendor to use for the invoice if the vendor could not be identified confidently by the agent. Learn more in [Agent process flow](#agent-process-flow).
+
+> [!NOTE]
+> While the agent is in preview, it is recommended to use a designated mailbox for receiving vendor invoices. If a mailbox is used by multiple agents (i.e. shared with the Sales Order Agent) it will cause conflict of ownership of incoming emails.
 
 ### Identifying customers/contacts and related documents
 

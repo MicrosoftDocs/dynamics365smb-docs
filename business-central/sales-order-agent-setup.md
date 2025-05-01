@@ -1,6 +1,6 @@
 ---
 title: Set up Sales Order Agent
-description: Learn how to activate the Sales Order Agent and manage user access.
+description: Learn how to activate Sales Order Agent and manage user access.
 ms.date: 04/01/2025
 ms.topic: how-to
 author: jswymer
@@ -47,7 +47,7 @@ Before configuring and activating Sales Order Agent, ensure the following prereq
 
 ## Turn on the Sales Order Agent capability for the environment
 
-The agent capability is on if the **Sales Order Agent** icon ![Shows the Sales Order Agent icon](media/soa-icon.png) appears in the top navigation menu of the role center.
+The agent capability is on if the ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent** icon appears in the top navigation menu of the role center.
 
 ![Shows the Sales Order Agent icon on a role center](media/soa-in-role-center.svg "Shows the Sales Order Agent icon on a role center")
 
@@ -59,7 +59,7 @@ Next, configure and activate the agent so it can process customer sales orders.
 
 Configure and activate Sales Order Agent for your company. Only one Sales Order Agent is allowed per company, but you can give access to many users.
 
-1. In the navigation bar at the upper right of the role center, select **Sales Order Agent** ![Shows the Sales Order Agent icon](media/soa-icon.png)  > **Activate**.
+1. In the navigation bar at the upper right of the role center, select ![Shows the Sales Order Agent icon](media/soa-icon.png) **Sales Order Agent**   > **Activate**.
 
 1. On the **Configure the Copilot agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** checkbox, and then set the **Mailbox** field to the email account you want the agent to monitor.
 
@@ -80,7 +80,7 @@ Configure and activate Sales Order Agent for your company. Only one Sales Order 
     |Review orders when created and updated|When on, the agent adds a review step for a Business Central user to review and confirm the sales order before creating an outgoing email with the order details and attachment. <br><br>When off, the agent creates the sales order as requested and then automatically proceeds with creating an outgoing email with the order as an attachment. The user must review and confirm the order before the agent sends it to the customer. |Off|
 
 1. Select **Update** to complete the setup.
-1. Ensure the Sales Order Agent's language is set to a supported language.
+1. Ensure Sales Order Agent's language is set to a supported language.
 
    When you configure the agent, it uses the same language as the display language of your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
 
@@ -89,7 +89,7 @@ The **Sales Order Agent** icon changes to ![Shows the Sales Order Agent icon aft
 When Sales Order Agent is active, a scheduled task added to job queue runs every 20 seconds on the mailbox. This task monitors new unread messages in the mailbox. If a new unread message is found, Sales Order Agent imports the message into Business Central and verifies whether there's already a task for the mail thread. If a task for the thread already exists, Sales Order Agent incorporates the new message into the existing task. Otherwise, it creates a new task for the message.
 
 > [!NOTE]
-> The ![Shows the Sales Order Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with the mailbox, but it's not active. To activate, select the icon, then select **Configure Sales Order Agent** ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) to reopen the configuration page. From there, turn on the **Active** toggle.
+> The ![Shows the Sales Order Agent icon when the agent is configured but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with the mailbox, but it's not active. To activate, select the icon, then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Sales Order Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
 
 ## Manage agent permissions and user access
 
@@ -99,14 +99,14 @@ As an administrator, you can specify which users have permission to use or confi
 
 #### [From Configure Sales Order Agent](#tab/soaconfig)
 
-1. Open the **Configure Sales Order Agent** page by selecting **Sales Order Agent** ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png)  > **Configure** ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png).
+1. Open the **Configure Sales Order Agent** page by selecting ![Shows the Sales Order Agent icon after configured](media/soa-activated-icon.png) **Sales Order Agent** > ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
 1. Select **Manage user access**.
 1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox. <br><br> The **Can configure** setting defines whether a user has access to update the agent configuration (for example, updating the designated mailbox, activating and deactivating the agent, and other settings) or only to work with the agent tasks (for example, reviewing and confirming agent steps).
-   - To remove a user's access to the agent, select **Show more options** ![Shows the icon to show more option on a field](media/show-more-options-icon.png) next to the user name, and then select **Delete**.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 #### [From Sales Order Agent card page](#tab/soapage)
 
@@ -116,7 +116,7 @@ As an administrator, you can specify which users have permission to use or confi
 
    - To add a user, select an empty line, select the **User Name** field, and then select the user from the list.
    - To give a user permission to configure Sales Order Agent, select the **Can configure** checkbox.
-   - To remove a user's access to the agent, select **Show more options** ![Shows the icon to show more option on a field](media/show-more-options-icon.png) next to the user name, and then select **Delete**.
+   - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 ---
 

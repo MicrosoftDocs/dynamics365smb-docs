@@ -14,7 +14,7 @@ ms.search.form: 4400, 4410
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Order Agent helps Business Central users automate capturing sales orders. The agent uses AI to analyze customer requests received via email, locate the customer in Business Central, and engage in multi-turn email conversations to clarify requests if important details are missing or more choices are available. It also checks and informs the customer about the availability of the items they're looking for and follows up with a sales quote. The quote is formatted as a PDF and includes the requested items, quantities, units of measure, prices, taxes, requested delivery dates, provided external document reference, and other important details.
+Sales Order Agent helps Business Central users automate capturing sales orders. The agent uses AI to analyze customer requests received via email, locate the customer in Business Central, and engage in multi-turn email conversations to clarify requests if important details are missing or more choices are available. It also checks and informs the customer about the availability of the items they're looking for and follows up with a sales quote. The quote is formatted as a PDF and includes the requested items, quantities, units of measure, prices, taxes, requested delivery dates, provided external document reference, and other important details.
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Sales Order Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
@@ -33,7 +33,7 @@ The agent operates within the permissions and profile (role) assigned to it by t
 
 ### Operation
 
-The Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review outgoing messages or to provide missing details, based on configured preferences.
+Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review outgoing messages or to provide missing details, based on configured preferences.
 
 Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of capturing sales orders should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, the agent navigates the pages, invokes UI actions, and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal because the agent’s interaction surface and steps aren’t hardcoded. Instead, AI determines them based on the context of each step.
 
@@ -148,7 +148,7 @@ The general flow is illustrated in the figure, which is followed by more details
 
 ## Billing for use
 
-The Sales Order Agent uses Microsoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+Sales Order Agent uses Microsoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ## Next steps
 

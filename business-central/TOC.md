@@ -529,7 +529,7 @@ ms.service: dynamics-365-business-central
 #### [Overview of subscription billing](SRB/welcome.md)
 #### Contracts
 ##### [Manage contracts, service objects, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
-##### [Create customer contracts](SRB/working-with-contracts/customer-contracts.md)
+##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)
 ##### [Create vendor contracts](SRB/working-with-contracts/vendor-contracts.md)
 ##### [Use service objects](SRB/working-with-contracts/service-objects.md)
 ##### [Use subscription lines](SRB/working-with-contracts/so-service-commitments.md)
@@ -2035,8 +2035,8 @@ ms.service: dynamics-365-business-central
 ##### Overview
 ###### [General Setup](SRB/setup/general.md)
 ###### [Assign permissions](SRB/setup/permissions.md)
-###### [Set up contract types](SRB/setup/contract-types.md)
-###### [Import contracts and contract lines](SRB/setup/import.md)
+###### [Set up subscription contract types](SRB/setup/contract-types.md)
+###### [Import subscription contracts and contract lines](SRB/setup/import.md)
 ###### [Use the job queue](SRB/setup/job-queue.md)
 ###### [Use subscription lines and items](SRB/masterdata/items.md)
 ###### [Manage subscription lines](SRB/masterdata/service-commitments.md)

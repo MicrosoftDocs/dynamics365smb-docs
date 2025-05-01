@@ -48,7 +48,7 @@ A service object doesn't contain any billing-relevant information. That informat
 
 Service commitments describe the content of agreements with customers and suppliers. They exist in customer-side and vendor-side forms, and always belong to a service object. Service commitments contain billing information, such as the quantity to bill, the billing period, and the amount.
 
-The service commitments of a service object and the creation of service commitments are defined through a multi-level hierarchy. It includes service commitment templates and service commitment packages that you can assign to items. Service objects are created through the sale of these items, to which the associated service commitments are assigned and available.
+The service commitments of a service object and the creation of service commitments are defined through a multi-level hierarchy. It includes subscription package line templates and subscription packages that you can assign to items. Service objects are created through the sale of these items, to which the associated service commitments are assigned and available.
 
 You can offer service commitments to prospects or customers already during the sales phase. For this purpose, you can add more service commitments to the offered items, which you can then offer simultaneously or sell at the same time.
 
@@ -58,7 +58,7 @@ If the service is a service commitment (see Types of Services), you can ad
 
 ## Flow of subscription billing​
 
-The following illustration shows that items are set up with service commitment packages with one or more service commitments. When the quote or order is shipped, the item becomes a service object. The service commitments assigned to the service object must be assigned to a contract to be billed on a recurring basis. The contract and its service commitments contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
+The following illustration shows that items are set up with subscription packages with one or more service commitments. When the quote or order is shipped, the item becomes a service object. The service commitments assigned to the service object must be assigned to a contract to be billed on a recurring basis. The contract and its service commitments contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
 
 :::image type="content" source="../media/srbFlow.png" alt-text="Shows the flow in subscription billing.":::
 

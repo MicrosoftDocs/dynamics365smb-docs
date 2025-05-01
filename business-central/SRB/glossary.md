@@ -56,8 +56,8 @@ The most important terms can be looked up in this glossary.
 * **Initial Term** <br/> The Dateformula used to calculate the minimum term of service commitment. If the **Initial Term** is specified but you don't enter a **Subsequent Term**, the **Service End Date** is set to the end of the **Initial Term**.
 * **Invoice Preview** <br/> Action to create a print preview for an unposted invoice.
 * **Invoicing Item** <br/> An item so identified is used to bill extra service commitments sold for another item.
-* **Invoicing Item No.** <br/> Indicates which item in the contract invoice is used to bill for the periodic service in a service commitment package line.
-* **Invoicing via** <br/> Indicates whether the service is billed via a contract or sales document in a service commitment package line.
+* **Invoicing Item No.** <br/> Indicates which item in the contract invoice is used to bill for the periodic service in a subscription package line.
+* **Invoicing via** <br/> Indicates whether the service is billed via a contract or sales document in a subscription package line.
 
 ## N
 
@@ -66,7 +66,7 @@ The most important terms can be looked up in this glossary.
 ## P
 
 * **Posting document** <br/> These documents are invoices or credit notes that aren't posted.
-* **Price Group** <br/> Specifies the customer price group (for example, in the service commitment package) that is considered in pricing the service commitments.
+* **Price Group** <br/> Specifies the customer price group (for example, in the subscription package) that is considered in pricing the service commitments.
 
 ## R
 
@@ -80,10 +80,10 @@ The most important terms can be looked up in this glossary.
 * **Service Commitment** <br/> Service commitments represent obligations to customers and vendors.
 * **Service Commitment Item** <br/> Can be used in sales documents, but are charged exclusively through contracts.
 * **Service Commitment Option** <br/> Indicates whether a service commitment can be deposited for an item or whether it's an item for billing services.
-* **Service Commitment Package** <br/> Use to bundle service commitment package lines and manage price groups. Assign service commitment packages to items.
-* **Service Commitment Package Line** <br/> Specifications for service commitments are defined using the service commitment package line. When the item is entered in a quote or order, the specifications from the service commitment package line are applied to the service.
+* **Subscription Package** <br/> Use to bundle subscription package lines and manage price groups. Assign subscription packages to items.
+* **Subscription Package Line** <br/> Specifications for service commitments are defined using the subscription package line. When the item is entered in a quote or order, the specifications from the subscription package line are applied to the service.
 * **Service Commitment Start Formula** <br/> Specifies the date from which a service commitment is valid using a formula. By using this Dateformula, the validity can be automatically set to, for example, the first of the following month. If the field remains empty, the service commitment is valid from delivery.
-* **Service Commitment Template** <br/> Serves as the default for a service commitment and can be selected in the service commitment package line.
+* **Subscription package line template** <br/> Serves as the default for a service commitment and can be selected in the subscription package line.
 * **Service End Date** <br/> Indicates the date until which the service commitment is valid.
 * **Service Object** <br/> service objects represent a history of products sold to a customer. Service commitments are created in service objects.
 * **Service Start Date** <br/> The date from which the service commitments are valid and charged.

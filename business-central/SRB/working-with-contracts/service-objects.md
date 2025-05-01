@@ -64,7 +64,7 @@ For the description of the attributes, you can store translations in a similar w
 
 ## Enter service commitments in a service object
 
-Because you can't manually create service commitments themselves cannot be created manually, an item is required to create service commitments. You must specify an item for the service object. Use the **Assign Service Commitments** action to view the **Service Commitment Packages** with the item's service commitments. The action opens the selection page of the same name, where you can enter a **Service and Calculation Start Date** and select service commitment packages. Only service commitment packages that aren't created as service commitments for the service object are available.
+Because you can't manually create service commitments themselves cannot be created manually, an item is required to create service commitments. You must specify an item for the service object. Use the **Assign Service Commitments** action to view the subscription packages with the item's service commitments. The action opens the selection page of the same name, where you can enter a **Service and Calculation Start Date** and select subscription packages. Only subscription packages that aren't created as service commitments for the service object are available.
 
 For all selected service packages, the related service commitments are created in the service object and display on the **Services** FastTab. The prices from the item card are used as a basis for the price calculation. If an end user is entered, the prices in the service commitments are updated with the customer-specific prices on demand, if necessary. If the end user is assigned before the service commitments are created, the customer-specific prices are used directly.
 
@@ -75,7 +75,7 @@ For all selected service packages, the related service commitments are created i
 
 For service objects whose items aren't configured for item tracking (lot or serial number mandatory), you can change the quantity directly on the service object. The result is a recalculation of the service amounts in the associated service commitments and contract lines.
 
-You can't change the quantity for service objects whose items are configured for item tracking (lot or serial number mandatory). Service objects with lot number tracking retain the quantity from the delivery or the initial entry. You can only create service objects with serial number tracking with a quantity of **1**.
+You can't change the quantity for service objects whose items are configured for item tracking (lot or serial number mandatory). Service objects with lot number tracking retain the quantity from the delivery or the initial entry. You can only create subscriptions with serial number tracking with a quantity of **1**.
 
 ## See also
 

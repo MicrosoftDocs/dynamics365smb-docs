@@ -30,7 +30,7 @@ You can filter the contract lines to update to all fields on the contract, servi
 
 On the **Contract Price Update** page, a price update proposal is created with the selected template. There, you can check all proposed price updates. Group the proposal lines by contract or customer to make the easier to review. Afterward, you can apply all price updates.
 
-Future planned price updates don't take effect immediately. A price increase on 01.01 shouldn't change the price in December. Planned service commitments are created specifically for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
+Future planned price updates don't take effect immediately. A price increase on 01.01 shouldn't change the price in December. Planned Subscription Lines are created specifically for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
 
 If a period in which a price update was applied is credited, the price  automatically resets to the original price. At the same time, a planned subscription line is created, which saves the reset price update. If the period is invoiced again, the price update is reapplied. In this way, the prices of the periods are retained. Invoices and credit notes can be created with the original amounts.
 
@@ -92,7 +92,7 @@ The dateformula presets the date in the **Include Contract Lines Up To Date** fi
 
 In each service commitment and contract line, the **Next Price Update** field indicates when you can apply the next price update. This displays the end of the price binding periods and prevents the price from being changed several times in succession by mistake.
 
-The **Next Price Update** field is calculated from the **Service Start Date** and the **Price Binding Period** on the service commitment package line when the service commitment is created. For a price update, the **Next Price Update** date recalculates with the **Price Binding Period** from the template and changed in the service commitment.
+The **Next Price Update** field is calculated from the **Service Start Date** and the **Price Binding Period** on the subscription package line when the service commitment is created. For a price update, the **Next Price Update** date recalculates with the **Price Binding Period** from the template and changed in the service commitment.
 
 > [!NOTE]
 > You can change the **Next Price Update** date manually at any time. The price of a service commitment can be changed at any time, regardless of the **Next Price Update** date.
@@ -198,7 +198,7 @@ The price update can't take effect immediately. A planned subscription line is c
 |:--|:--|:--|:--|:--|:--|
 |service commitment before price update|01.01.2024|31.12.2023|-|1Y|Old|
 |Proposal Price update|-|31.12.2024|15.01.2024|1Y|Neu|
-|Planned service commitments necessary|||01.01.2024 is before 15.01.2024||
+|Planned Subscription Lines necessary|||01.01.2024 is before 15.01.2024||
 |Planned service commitment|01.01.2024|31.12.2024|15.01.2024|1Y|New|
 |Invoice 01.01.2024 - 31.12.2024||||Old|
 |Service commitment after price update|01.01.2025|31.12.2024|-|1Y|New|

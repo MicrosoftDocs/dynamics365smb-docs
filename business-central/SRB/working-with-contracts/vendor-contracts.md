@@ -42,7 +42,7 @@ Alternatively, the **Services without Vendor Contracts** page can also be access
 > You can only transfer service commitments that have the **Vendor** as **Partner** to vendor contracts. Because you can't store a vendor in the service object, you can assign vendor-side service commitments to any vendor contract.
 
 > [!NOTE]
-> Service commitments are usually created automatically when the shipment is posted in the sales order. The prerequisite for this is a corresponding setup in the item used or the service commitment package.
+> Service commitments are usually created automatically when the shipment is posted in the sales order. The prerequisite for this is a corresponding setup in the item used or the subscription package.
 
 ## Extend contract
 

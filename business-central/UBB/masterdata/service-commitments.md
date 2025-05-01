@@ -16,15 +16,15 @@ ms.custom: bap-template
 
 Usage-based billing extends the service commitments in [subscription billing](../../SRB/welcome.md), so this article only describes the differences. To learn more about service commitments and how to set them up, go to [Service commitments in subscription billing](../../SRB/masterdata/service-commitments.md).
 
-## Service commitment templates
+## Subscription package line templates
 
-Using service commitment templates is optional. To learn more about the additional fields for usage-based billing, go to [Service commitment packages](#service-commitment-packages).
+Using subscription package line templates is optional. To learn more about the additional fields for usage-based billing, go to [Subscription packages](#service-commitment-packages).
 
-## Service commitment packages
+## Subscription packages
 
-You can use both service commitment templates and service commitment package lines to create the default settings required to process usage data.
+You can use both subscription package line templates and subscription package lines to create the default settings required to process usage data.
 
-Service commitments that come from a package line are generally billed based on usage. This is done in the form of usage data that you [import and process](../processing-usage-data/imports-processing.md). Therefore, the **Usage-based Billing** field in the service commitment package determines the service object. The **Usage-based Pricing** field is only relevant on the sales side, and is decisive for billing. On the purchasing side, the purchase prices from the usage data are used for vendor or supplier contract invoices.
+Service commitments that come from a package line are generally billed based on usage. This is done in the form of usage data that you [import and process](../processing-usage-data/imports-processing.md). Therefore, the **Usage-based Billing** field in the subscription package determines the service object. The **Usage-based Pricing** field is only relevant on the sales side, and is decisive for billing. On the purchasing side, the purchase prices from the usage data are used for vendor or supplier contract invoices.
 
 * The **Usage-based Pricing** field defines how prices are determined. The following options are available:
     * If **Usage-based Billing** is set, but the **Usage-based Pricing** field is blank, no pricing is determined for the usage data.

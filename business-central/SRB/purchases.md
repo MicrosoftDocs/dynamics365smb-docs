@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Purchasing in subscription billing
 
-In subscription billing, you purchase items with subscription lines in the same way as purchasing features in [!INCLUDE [prod_short](../includes/prod_short.md)]. To learn more, go to [Purchasing](../purchasing-manage-purchasing.md). You map recurring purchases, such as rentals, maintenance, or subscription, with subscription lines. Subscription lines have **Vendor** specified in the **Partner** field on the service commitment package lines. A service commitment package can have lines for both customer and vendor subscription lines.
+In subscription billing, you purchase items with subscription lines in the same way as purchasing features in [!INCLUDE [prod_short](../includes/prod_short.md)]. To learn more, go to [Purchasing](../purchasing-manage-purchasing.md). You map recurring purchases, such as rentals, maintenance, or subscription, with subscription lines. Subscription lines have **Vendor** specified in the **Partner** field on the subscription package lines. A subscription package can have lines for both customer and vendor subscription lines.
 
 ## Sales quotes and orders
 

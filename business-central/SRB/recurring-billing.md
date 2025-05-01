@@ -92,7 +92,7 @@ Invoices are created for each *Invoice Recipient*. Payment Terms, Payment Method
 To learn more about the posting documents that are created, go to [Posting documents](posting-documents.md).
 
 > [!TIP]
-> Contract lines to be invoiced in advance and in arrears can be proposed for invoicing via different billing templates, if required. This is possible through the interaction of **Next Billing Date** and the **Billing Date**, provided that no **Billing To** date is used. Alternatively or additionally, the contracts to be billed differently can also be distinguished from each other using different types of contracts. To learn more, go to [Contract types](setup/contract-types.md). The contract type can be used as a filter in the billing templates.
+> Contract lines to be invoiced in advance and in arrears can be proposed for invoicing via different billing templates, if required. This is possible through the interaction of **Next Billing Date** and the **Billing Date**, provided that no **Billing To** date is used. Alternatively or additionally, the contracts to be billed differently can also be distinguished from each other using different types of contracts. To learn more, go to [Subscription contract types](setup/contract-types.md). The contract type can be used as a filter in the billing templates.
 
 ## Need to update
 

@@ -70,7 +70,7 @@ When the service commitments in a contract transfer, contract lines are created 
 > [!NOTE]
 > If an alternate ship-to party isn't entered in the contract when the first service is assigned to a customer contract, the contract uses the ship-to party assigned to the service object. This assignment makes it easier to create a contract when you map a partner model.
 >
-> Service commitments are usually created automatically when you post the shipment in the sales order. The requirement is a corresponding setup in the item or service commitment package.
+> Service commitments are usually created automatically when you post the shipment in the sales order. The requirement is a corresponding setup in the item or subscription package.
 
 > [!TIP]
 > Editing contract lines instead of service commitments in the individual service objects makes work easier. Because the content of service commitments that are billed together are usually similar, making them part of the same contract can make it easier to access and edit them from the contract.

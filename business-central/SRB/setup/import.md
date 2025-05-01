@@ -11,26 +11,26 @@ ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Import of contracts and contract lines
+# Import contracts and contract lines
 
-Before you can set up contracts and contract lines, you must create some data, or import it from another system. In addition to customers, vendors, and items, you must create service commitment packages, service commitment package lines, and more. You use configuration packages to import data. The data for customer contracts, contract lines, service objects, and service commitments imports to tables created specifically for processing the data.
+Before you can set up contracts and contract lines, you must create some data, or import it from another system. In addition to customers, vendors, and items, you must create subscription packages, subscription package lines, and more. You use configuration packages to import data. The data for customer contracts, contract lines, service objects, and service commitments imports to tables created specifically for processing the data.
 
-## Import of master data
+## Import master data
 
 To import customers, items, service commitments, vendor contracts, and so on, create [Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages).
 
 |Name|Table|
 |:--|:--|
 |Items|27|
-|Service Commitment Templates|70920754|
-|Service Commitment Packages|70920755|
-|Service Commitment Package Lines|70920756|
-|Item Service Commitment Packages|70920758|
+|Subscription Package Line Templates|70920754|
+|Subscription Packages|70920755|
+|Subscription Package Lines|70920756|
+|Item Subscription Packages|70920758|
 |Vendor Contract|70920763|
 
 ## Import customer contracts, contract lines, service objects, and service commitments
 
-There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Subscription Contracts**, **Imported Subscriptions**, and **Imported Subscription Lines** pages. Use the following tables to import and create service objects, service commitments, and contract lines.
+There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Subscription Contracts**, **Imported Subscriptions**, and **Imported Subscription Lines** pages. Use the following tables to import and create subscriptions, service commitments, and contract lines.
 
 |Name|Table|
 |:--|:--|
@@ -106,8 +106,8 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 |Contract (Code20)|Indicates the number of the contract in which the service commitment is to be created as a contract line. Service commitments with **Invoicing via**=**Sales** can't be called up in contracts.|**Optional**|
 |Contract Line No. (Integer)|Indicates the line number of the contract line. If no line number is specified, one is determined automatically.|Optional|
 |Contract Line Type (Option: Comment, Service Commitment)|Specifies the type of the contract line.|**Always**|
-|Package Code (Code20)|Specifies the code of the service commitment package. A vendor contract line might have the same service object and package code as the customer contract line. When that's the case, the customer contract dimension is copied to the vendor contract line.|**Optional**|
-|Template Code (Code20)|Indicates the name of the service commitment template from which the service commitment was copied to the service commitment package. It's just for information purposes.|**Optional**|
+|Package Code (Code20)|Specifies the code of the subscription package. A vendor contract line might have the same service object and package code as the customer contract line. When that's the case, the customer contract dimension is copied to the vendor contract line.|**Optional**|
+|Template Code (Code20)|Indicates the name of the subscription package line template from which the service commitment was copied to the subscription package. It's just for information purposes.|**Optional**|
 |Description (Text100)|Indicates the description of the service commitments. If no description is specified, it's filled based on the service commitments.|**Always**|
 |Service Start Date (Date)|Indicates from which date the service commitments is valid and can be charged.|**Always**|
 |Service End Date (Date)|Indicates until which date the service commitments is valid.|Optional|

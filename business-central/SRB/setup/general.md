@@ -23,9 +23,9 @@ If a location requires a dedicated warehouse activity when picking items (**Requ
 
 ### General
 
-The **Default Period Calculation​** determines which period calculation option is set on a service commitment package line. To learn more about the **Align to Start of Month** and **Align to End of Month** options, go to [Managing contracts, service objects, and services commitments](../working-with-contracts/contracts-services-mgmt.md). By changing the default, the value updates in all existing service commitments, sales service commitments, and service commitment package lines. If the existing records aren't updated, the period calculation isn't changed. Only the default value for creating new service commitment package lines changes.
+The **Default Period Calculation​** determines which period calculation option is set on a subscription package line. To learn more about the **Align to Start of Month** and **Align to End of Month** options, go to [Managing contracts, service objects, and services commitments](../working-with-contracts/contracts-services-mgmt.md). By changing the default, the value updates in all existing service commitments, sales service commitments, and subscription package lines. If the existing records aren't updated, the period calculation isn't changed. Only the default value for creating new subscription package lines changes.
 
-You can set a date formula in the **Overdue Date Formula** field that filters for overdue subscription lines in the **Service Commitments - Overdue** cue in the **Subscription & Recurring Billing** Role Center. For example, you can enter **3D** if you want the cue to count a service commitment as overdue if the service commitment's next billing date is three or more days past the work date. If you leave the field blank, the cue doesn't show anything.
+You can set a date formula in the **Overdue Date Formula** field that filters for overdue subscription lines in the **Service Commitments - Overdue** cue in the **Subscription Billing** Role Center. For example, you can enter **3D** if you want the cue to count a service commitment as overdue if the service commitment's next billing date is three or more days past the work date. If you leave the field blank, the cue doesn't show anything.
 
 If a location requires a dedicated warehouse activity when picking items (The **Require Pick** toggle is turned on on the **Location Card** page on the **Warehouse** FastTab), the item is subsequently delivered via commission. To handle the base date for the calculation of the service start differently, the reference date can be specified via the **Service Start Date for Warehouse Picking**. It is used when the item is shipped from a commission or warehouse pick. To learn more about warehouse and logistics features, go to [Set up locations](../../inventory-how-setup-locations.md).
 
@@ -64,7 +64,7 @@ You can also specify whether additional texts that are added for contract lines 
 
 ## Item templates
 
-Item templates contain the **Service Commitment Option** and **Service Commitment Packages** so they're predefined for new records.
+Item templates contain the **Service Commitment Option** and **Subscription Packages** so they're predefined for new records.
 
 ## General posting setup
 
@@ -74,7 +74,7 @@ The default G/L accounts to be used are set up in the same way as the Business C
 
 ## Reports
 
-Along with **Subscription & Recurring Billing**, the **Essentials** app is installed. The app includes, among others, enhancements to the dataset of the following standard reports:
+Along with **Subscription Billing**, the **Essentials** app is installed. The app includes, among others, enhancements to the dataset of the following standard reports:
 
 * Purchase
    * Purchase Order

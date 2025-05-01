@@ -46,10 +46,10 @@ Contracts are used to organize service commitments for billing to customers and 
 
 It is possible - permanently or for a limited period - to grant a flat discount (invoice discount) for the entire contract. This can be used, for example, if the customer changes the license model or if a permanent discount on the service commitment is subsequently agreed.
 
-The discount can only be defined in the [Service commitment templates​](../masterdata/service-commitments.md#service-commitment-templates) and the [Service commitment packages​](../masterdata/service-commitments.md#service-commitment-packages). Amounts for service commitment packages that allow discounts act as discounts in billing. The process of creating a service object and billing is identical to the established processes. When creating the billing prosal via [Recurring billing](../recurring-billing.md), billing lines created for contract lines with discounts are created with a negative quantity and therefore a negative Service Amount. This discount amount is subsequently taken into account when posting documents are created.
+The discount can only be defined in the [Subscription package line templates​](../masterdata/service-commitments.md#service-commitment-templates) and the [Subscription packages​](../masterdata/service-commitments.md#service-commitment-packages). Amounts for subscription packages that allow discounts act as discounts in billing. The process of creating a service object and billing is identical to the established processes. When creating the billing prosal via [Recurring billing](../recurring-billing.md), billing lines created for contract lines with discounts are created with a negative quantity and therefore a negative Service Amount. This discount amount is subsequently taken into account when posting documents are created.
 
 > [!NOTE]
-> A service commitment package in which an invoice discount is defined can only be assigned to items with **Service Commitment Option** chosen in the **Service Commitment Item** field.
+> A subscription package in which an invoice discount is defined can only be assigned to items with **Service Commitment Option** chosen in the **Service Commitment Item** field.
 
 Invoice discounts are applicable to both customer and vendor contracts. They're also taken into regards in credit Memos and in contract deferrals.
 

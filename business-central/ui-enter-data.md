@@ -2,12 +2,11 @@
 title: Enter Data in Business Central
 description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 03/23/2022
+ms.date: 03/11/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -22,7 +21,7 @@ The examples in this article use the demonstration data.
 
 ## Work with editable fields
 
-Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a gray background.   
+Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a gray background.
 
 Some editable fields provide a picker to help you specify a value.  
 
@@ -44,6 +43,7 @@ To modify the value of a field, you must first set focus to that field. You set 
 When you interact with fields in the user interface, [!INCLUDE[prod_short](includes/prod_short.md)] typically favors selecting the entire field value to make it easier for you to replace that value.
 
 When the entire field value is selected:
+
 - Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the <kbd>Alt</kbd>+<kbd>Down Arrow</kbd> keyboard shortcut.
 - Use the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key to clear the value.
 
@@ -57,6 +57,12 @@ When the cursor is shown at the end of the field value:
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
+
+## Use Copilot's autofill feature to assist in filling in fields (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+When drafting a new record or editing an existing record, Copilot can suggest values for editable fields on the page. Learn more in [Autofill fields with Copilot (preview)](autofill-fields-with-copilot.md).
 
 ## Keyboard Shortcuts
 

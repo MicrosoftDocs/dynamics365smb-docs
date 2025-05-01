@@ -209,28 +209,130 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Machine Center Measures
 
-- [Machine Center Availability After Orders]()
-- [Machine Center Load]()
-- [Machine Center Output]()
-- [Machine Center Run Time]()
-- [Machine Center Scrap]()
-- [Machine Center Scrap %]()
-- [Machine Center Stop %]()
-- [Machine Center Stop Time]()
+- [Machine Center Availability After Orders](#machine-center-availability-after-orders)
+- [Machine Center Load](#machine-center-load)
+- [Machine Center Output](#machine-center-output)
+- [Machine Center Run Time](#machine-center-run-time)
+- [Machine Center Scrap](#machine-center-scrap)
+- [Machine Center Scrap %](#machine-center-scrap-percent)
+- [Machine Center Stop %](#machine-center-stop-percent)
+- [Machine Center Stop Time](#machine-center-stop-time)
+
+#### Machine Center Availability After Orders
+
+**Formula**
+
+- The **Machine Center Availability After Orders** measure calculates the remaining available capacity for machine centers by subtracting the **[Machine Center Allocated Time](#machine-center-allocated-time)** from the **[Machine Center Capacity (Effective)](#machine-center-capacity-effective)**.
+
+**Data Source**
+
+- Prod Order Capacity Need
+- Calendar Entry
+
+#### Machine Center Load
+
+**Formula**
+
+- The **Machine Center Load** measure calculates the ratio of allocated time to effective capacity for machine centers by dividing the **[Machine Center Allocated Time](#machine-center-allocated-time)** by the **[Machine Center Capacity (Effective)](#machine-center-capacity-effective)**.
+
+**Data Source**
+
+- Prod Order Capacity Need
+- Calendar Entry
+
+#### Machine Center Output
+
+**Formula**
+
+- The **Machine Center Output** measure calculates the total output quantity for machine centers by summing the **outputQuantity** column in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center".
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Machine Center Run Time
+
+**Formula**
+
+- The **Machine Center Run Time** measure calculates the total run time for machine centers by summing the **runTime** and **setupTime** columns in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center". This is done using the `SUMX` function over the filtered table.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Machine Center Scrap
+
+**Formula**
+
+- The **Machine Center Scrap** measure calculates the total scrap quantity for machine centers by summing the **scrapQuantity** column in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center".
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Machine Center Scrap Percent
+
+**Formula**
+
+- The **Machine Center Scrap %** measure calculates the percentage of scrap for machine centers by dividing the **[Machine Center Scrap](#machine-center-scrap)** by the **[Machine Center Output](#machine-center-output)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Machine Center Stop Percent
+
+**Formula**
+
+- The **Machine Center Stop %** measure calculates the percentage of stop time for machine centers by dividing the **[Machine Center Stop Time](#machine-center-stop-time)** by the **[Machine Center Run Time](#machine-center-run-time)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Machine Center Stop Time
+
+**Formula**
+
+- The **Machine Center Stop Time** measure calculates the total stop time for machine centers by summing the **stopTime** column in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center".
+
+**Data Source**
+
+- Capacity Ledger Entry
 
 ### Machine Center Statistics
 
 - [Machine Center Actual Efficiency %]()
 - [Machine Center Actual Need]()
 - [Machine Center Total Cost]()
-- [Machine Center Allocated Time]()
-- [Machine Center Capacity (Effective)]()
+- [Machine Center Allocated Time](#machine-center-allocated-time)
+- [Machine Center Capacity (Effective)](#machine-center-capacity-effective)
 - [Machine Center Capacity (Total)]()
 - [Machine Center Expected Efficiency %]()
 
+#### Machine Center Allocated Time
+
+**Formula**
+
+- The **Machine Center Allocated Time** measure calculates the total allocated time for machine centers by summing the **allocatedTime** column in the *Prod Order Capacity Need* table, filtered to include only rows where **Type** is "Machine Center" and **Requested Only** is FALSE.
+
+**Data Source**
+
+- Prod Order Capacity Need
+
+#### Machine Center Capacity (Effective)
+
+**Formula**
+
+- The **Machine Center Capacity (Effective)** measure calculates the total effective capacity for machine centers by summing the **Capacity Effective** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Machine Center".
+
+**Data Source**
+
+- Calendar Entry
+
 ## Prod Order Capacity Need
 
-## Prod Order Capacity Need Measures
+### Prod Order Capacity Need Measures
 
 - [Allocated Time]()
 - [Needed Time]()

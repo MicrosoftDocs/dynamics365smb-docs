@@ -46,10 +46,10 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Item Ledger Entry Measures
 
-- [Item Ledger Entry Consumption Quantity]()
-- [Item Ledger Entry Cost Amount Actual]()
-- [Item Ledger Entry Output Quantity]()
-- [Item Ledger Entry Quantity]()
+- [Consumption Quantity]()
+- [Cost Amount Actual]()
+- [Output Quantity]()
+- [Quantity]()
 
 ## Machine Center
 
@@ -109,9 +109,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Production Order Line Measures
 
-- [Production Order Line Finished Quantity (Base)]
-- [Production Order Line Quantity (Base)]
-- [Production Order Line Remaining Quantity (Base)]
+- [Finished Quantity (Base)]()
+- [Quantity (Base)]()
+- [Remaining Quantity (Base)]()
 
 ## Production Orders
 

@@ -1,6 +1,6 @@
 ---
 title: Payables Agent overview (preview)
-description: Learn about the payables agent Copilot agent in Business Central.
+description: Learn about the Payables Agent in Business Central.
 ms.date: 07/01/2025
 ms.topic: overview
 author: dmc-dk
@@ -25,7 +25,7 @@ The Payables Agent helps Business Central users automate the processing of vendo
 
 ### Activation and configuration
 
-The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, specify your preferences for certain aspects of the agent's behavior and designate the users authorized to use the agent to process customers' orders, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
+The agent is readily available in the product. To activate it, you specify the email inbox and/or the SharePoint folder you want the agent to monitor. Additionally, specify your preferences for certain aspects of the agent's behavior and designate the users authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
 
 ### Permissions and profiles
 
@@ -33,17 +33,29 @@ The agent operates within the permissions and profile (role) assigned to it by t
 
 ### Operation
 
-The Sales Order Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review outgoing messages or to provide missing details, based on configured preferences.
+The Payables Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review suggested vendor invoice drafts, based on configured preferences.
 
-Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of capturing sales orders should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, the agent navigates the pages, invokes UI actions, and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal because the agent’s interaction surface and steps aren’t hardcoded. Instead, AI determines them based on the context of each step.
+Conceptually, the agent interacts with Business Central functionality in a manner similar to how Business Central users interact with it. The agent is provided with general instructions, expressed in natural language, outlining how the process of vendor invoices should be handled. It then uses UI metadata, such as captions, tooltips, and other properties, combined with the data presented on Business Central pages and its own instructions, to determine each step required to complete the task. Starting from the designated Role Center, the agent navigates the pages, invokes UI actions, and enters data as a user would. This approach allows a high degree of flexibility and adaptability for the agent to achieve its goal because the agent’s interaction surface and steps aren’t hardcoded. Instead, AI determines them based on the context of each step.
 
 This flexibility enables the agent to discover and interact with relevant custom fields and actions. It can also attempt to automatically resolve validation errors by processing displayed error messages and adjusting the input accordingly.
 
-### Email monitoring and communications
+### Email and SharePoint monitoring
 
-The agent relies on an internal email dispatcher running as a background task to continuously monitor a designated mailbox for item requests. The dispatcher triggers the agent to perform tasks and subsequently sends results, such as prepared sales quotes or orders, to the customer in response.
+The agent relies on an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices in the form of PDF documents. The dispatcher triggers the agent to perform tasks and subsequently imports the PDF document into **Inbound E-Documents**.
 
-The agent helps with composing email bodies based on the context of the current step. For instance, it can list available inventory or provide a brief description of the attached sales quote or sales order. Additionally, it can detect and flag irrelevant or potentially malicious email content, prompting users to review and decide how to proceed.  
+### OCR (Optical Character Recognition) analysis of vendor invoices
+
+For every imported PDF document that constitute a vendor invoice in **Inbound E-Documents**, the PDF is sent for OCR (Optical Character Recognition) analysis with Azure Document Intelligence and the result is stored in the same E-Document record. 
+
+The agent helps with categorizing imported PDF documnents where it is uncertain if the PDF is actually a vendor invoice. These can easily be identified in **Inbound E-Documents** via the **For review** view and from the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 
+
+### Processing invoice details
+A PDF document which, with high confidence, is considered a valid vendor invoice, is now processed by the agent which will start by identifying the vendor for which to create the purchase invoice draft. In this process, the agent may need the assistance of a user if the agent cannot confidently identify the correct vendor. 
+
+Once the vendor has been identified the processing of the invoice details can commence. Here, the agent uses a variety of different methods to arrive at the best possible suggestions. For example, the agent may consider a mix of AI, the history of vendor invoices, potential mapping of text to G/L accounts, Item References, Recurring Purchase Lines, and more. All of the agents suggestions for the specific vendor invoice will be recorded in a draft related to the specific **Inbound E-Document**. This draft can be reached either from the **Inbound E-Document** when not interacting with the agent, and will also be reffered and linked to when interacting with the agent, when there is a need to involve a user. 
+
+### Drafts of the suggested vendor invoice
+The draft page is called **Purchase document draft** and represents the place in the process where suggestions are presented to the user by the agent, and where the agent explains why certain suggestions have been made. This is helpful for users to learn about the agents reasoning and can help users make descision whether to adjust the suggestions before finalizing the draft.
 
 ### Customer and Business Central user involvement
 

@@ -52,15 +52,109 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 ### Capacity Ledger Entry Measures
 
-- [Capacity Ledger Output Quantity]()
-- [Capacity Ledger Quantity]()
-- [Direct Cost]()
-- [Overhead Cost]()
-- [Run Time]()
-- [Scrap %]()
-- [Scrap Quantity]()
-- [Setup Time]()
-- [Stop Time]()
+- [Capacity Ledger Output Quantity](#capacity-ledger-output-quantity)
+- [Capacity Ledger Quantity](#capacity-ledger-quantity)
+- [Direct Cost](#direct-cost)
+- [Overhead Cost](#overhead-cost)
+- [Run Time](#run-time)
+- [Scrap %](#scrap-percent)
+- [Scrap Quantity](#scrap-quantity)
+- [Setup Time](#setup-time)
+- [Stop Time](#stop-time)
+
+#### Capacity Ledger Output Quantity
+
+**Formula**
+
+- The Capacity Ledger Output Quantity measure calculates the total output quantity recorded in the Capacity Ledger Entries table by summing up all values in the outputQuantity column.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Capacity Ledger Quantity
+
+**Formula**
+
+- The Capacity Ledger Quantity measure calculates the total quantity recorded in the Capacity Ledger Entries table by summing up all values in the quantity column.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Direct Cost
+
+**Formula**
+
+- The Direct Cost measure calculates the cost amount actual from the Value Entries table, specifically filtering for entries categorized as Direct Cost.
+This measure determines the direct cost for capacity ledger entries by summing the related value entry cost amounts.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Value Entry
+
+#### Overhead Cost
+
+**Formula**
+
+- The Overhead Cost measure calculates the cost amount actual from the Value Entries table, specifically filtering for entries categorized as Indirect Cost.
+This measure determines the indirect cost for capacity ledger entries by summing the related value entry cost amounts.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Value Entry
+
+#### Run Time
+
+**Formula**
+
+- The Run Time measure calculates the total runtime recorded in the Capacity Ledger Entries table by summing up all values in the runtime column.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Scrap Percent
+
+**Formula**
+
+- The Scrap % measure calculates the percentage of scrapped output by dividing the Scrap Quantity by the total Output Quantity recorded in the Capacity Ledger Entries table.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Scrap Quantity
+
+**Formula**
+
+- The Scrap Quantity measure calculates the total amount of scrapped output recorded in the Capacity Ledger Entries table by summing up all values in the scrapQuantity column.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Setup Time
+
+**Formula**
+
+- The Setup Time measure calculates the total setup time recorded in the Capacity Ledger Entries table by summing up all values in the setupTime column.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Stop Time
+
+**Formula**
+
+- The Stop Time measure calculates the total stop time recorded in the Capacity Ledger Entries table by summing up all values in the stopTime column.
+
+**Data Source**
+
+- Capacity Ledger Entry
 
 ## Item Ledger Entries
 

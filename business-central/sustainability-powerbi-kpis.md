@@ -385,7 +385,7 @@ A calculation of the CO2e Current Value divided by the CO2e Emissions
 
 - [CH4 Emissions](#ch4-emissions)
 - [CH4 Emissions Balance at Date ](#ch4-emissions-balance-at-date)
-- [CH4 Emissions Balance](#balance-ch4-emissions)
+- [CH4 Emissions Balance](#ch4-emissions-balance)
 - [CH4 Baseline](#ch4-baseline) 
 - [CH4 vs Baseline (%)](#ch4-vs-baseline-)
 

@@ -16,7 +16,7 @@ In the Transfer Orders functionality, fields for Gen. Bus. Post. Groups for Ship
 
 In Transfer Route, fields for Gen. Bus. Post. Groups for Ship and Receive posting were added. This setup is automatically copied to transfer the order based on the used transfer route.
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

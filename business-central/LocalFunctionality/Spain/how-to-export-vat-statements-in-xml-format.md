@@ -41,7 +41,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 You can open or save the generated XML file. You can now submit the VAT statement to the tax authorities.  
 
-## See also  
+## Related information  
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)
 

@@ -22,7 +22,7 @@ You can use posting groups to print VAT information for each item on the sales i
 1. Select **Print VAT info on Invoice** to print the VAT information for each item on the respective sales invoice.  
 1. Create and post a sales invoice. Choose the **Preview** button to review the invoice and verify that it contains VAT information for each row from the posting group.  
 
-## See also
+## Related information
 
 - [Electronic Banking in Finland](electronic-banking-in-finland.md)  
 - [Set Up Posting Groups](../../finance-posting-groups.md)  

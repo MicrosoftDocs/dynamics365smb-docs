@@ -99,7 +99,7 @@ For example, there is a purchase invoice for INR 10,000 and 18% GST (i.e. 9% CGS
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Composite Vendor](GST-Purchase-Return-to-Composite-Vendor.md)
 
 

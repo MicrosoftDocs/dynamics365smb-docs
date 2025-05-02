@@ -47,7 +47,7 @@ You must submit periodic reports to the tax authorities to list all transactions
 
     You set up information, so that [!INCLUDE[prod_short](../../includes/prod_short.md)] tracks new transactions with VAT that meet the thresholds specified by the tax authorities. Before you create the first VAT transaction report, you should prepare the existing data. For more information, see [Update VAT Transactions Data](how-to-update-vat-transactions-data.md). You can then create VAT transactions reports. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).
 
-## See also  
+## Related information  
  [Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)

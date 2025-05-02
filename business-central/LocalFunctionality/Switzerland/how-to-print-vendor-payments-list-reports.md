@@ -29,7 +29,7 @@ The **Vendor Payments List** report provides a list of payments for each vendor.
 
  At the end of the report, the number of processed payments is displayed.  
 
-## See Also
+## Related information
 
 [Making Payments](../../payables-make-payments.md)
 

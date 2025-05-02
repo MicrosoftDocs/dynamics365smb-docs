@@ -55,7 +55,7 @@ If the capability is switched on, you can't post an entry if the variant isn't s
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)    
 [Set Up General Inventory Information](inventory-how-setup-general.md)    

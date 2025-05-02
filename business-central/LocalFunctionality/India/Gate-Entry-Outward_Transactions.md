@@ -98,7 +98,7 @@ System will automatically attach the Outward Gate Entry with the source number y
 
 
 
-## See Also 
+## Related information 
 [Gate Entry Overview](Gate-Entry-001-Basic-Setup.md)
 
 

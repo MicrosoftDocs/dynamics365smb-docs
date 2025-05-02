@@ -51,7 +51,7 @@ The following procedure shows how to create a Letter of Attorney.
 
 3. Choose the **OK** button.
 
-## See also
+## Related information
 
 [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  
 

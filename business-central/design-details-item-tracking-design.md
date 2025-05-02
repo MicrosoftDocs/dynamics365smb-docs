@@ -34,7 +34,7 @@ Codeunit 22, **Item Jnl. – Post Line**, now splits the posting according to th
 
 For more information, see [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md).  
 
-## See Also
+## Related information
 
 [Design Details: Item Tracking](design-details-item-tracking.md)
 

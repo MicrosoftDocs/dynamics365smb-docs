@@ -25,7 +25,7 @@ To process the control report, you must set up the VAT control report sections, 
 - Control report export - **Export** function exports control report to the file.
 - Closing lines - **Close lines** function fills the **Closed by Document No.** field on control report lines.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

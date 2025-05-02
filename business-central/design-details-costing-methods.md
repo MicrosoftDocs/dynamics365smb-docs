@@ -147,7 +147,7 @@ For items using the **Standard** costing method, inventory increases are valued 
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## See Also
+## Related information
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Variance](design-details-variance.md)  

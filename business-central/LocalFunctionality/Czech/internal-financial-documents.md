@@ -19,7 +19,7 @@ For the reasons above, this feature provides the following reports:
 - **General Journal** – Test Report is used to print documents from G/L Journals.
 - **General Ledger Document** - Report is used to print posted General Ledger operations.
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

@@ -194,7 +194,7 @@ If None is selected as the detail level, the report shows the following informat
 
 On the **Vendor** FastTab of the request page, you can define the vendor number or a range of numbers, depending on whether you want to print a report for one vendor or for many vendors.
 
-## See also
+## Related information
 
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

@@ -109,7 +109,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 > [!NOTE]  
 > The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
 
-## See Also
+## Related information
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planning](production-planning.md)  

@@ -295,7 +295,7 @@ When planning with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 You can add dampener time to resources to minimize operation splitting. This time lets [!INCLUDE [prod_short](includes/prod_short.md)] schedule the load on the last possible day by slightly exceeding the critical load percent.  
 
-## See also
+## Related information
 
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)  
 [Design Details: Planning Parameters](design-details-planning-parameters.md)  

@@ -44,7 +44,7 @@ On the **Project Card** page, you can now see a summary of the total budgeted co
 
 For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

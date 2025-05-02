@@ -26,7 +26,7 @@ Upload of KLADR can be carried out on separate regions as required.
 
 4. Select "OK."
 
-## See also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 

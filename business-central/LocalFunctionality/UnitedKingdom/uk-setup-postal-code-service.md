@@ -34,7 +34,7 @@ The GetAddress.io UK Postcodes extension uses the **getAddress** API to find add
 1. On the **GetAddress.io Config** page, paste the API key in the **API Key** field, and then choose **OK**.
 1. On the **Service Connections** page, verify that the **Address Provider** field shows **GetAddress.io**. If it does, the service is enabled.
 
-## See also
+## Related information
 
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 - [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  

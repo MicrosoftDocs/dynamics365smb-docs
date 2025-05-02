@@ -82,7 +82,7 @@ Microsoft partners and resellers can create an app that they can use to compile 
 > [!NOTE]
 > If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
 
-## See also
+## Related information
 
 [Install and Uninstall Apps](ui-extensions-install-uninstall.md)  
 [Customize Business Central](ui-customizing-overview.md)  

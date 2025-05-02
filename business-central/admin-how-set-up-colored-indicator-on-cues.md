@@ -60,7 +60,7 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Ambiguous**|Yellow|  
     |**Subordinate**|Gray|  
 
-## See Also
+## Related information
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

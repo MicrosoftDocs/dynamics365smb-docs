@@ -95,7 +95,7 @@ By default, when you uninstall an app that you've been using your data isn't del
 
 If you want to keep the data for an uninstalled app, you can delete the data later. The **Delete Orphaned Extension Data** page lists the apps that you still have data for. To delete the data, choose the app, and then choose **Delete Data**. 
 
-## See Also
+## Related information
 
 [Customize Business Central](ui-customizing-overview.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  

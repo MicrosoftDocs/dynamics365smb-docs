@@ -97,7 +97,7 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 4. In the **Bank Payment Type** field, choose **Electronic Payment**.  
 5. Choose the **Export** action.  
 
-## See also
+## Related information
 
 [Customizing Business Central for [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

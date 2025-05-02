@@ -33,7 +33,7 @@ After you create a recurring group, you can set up recurring orders on the blank
 
 5.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Recurring Orders](recurring-orders.md)   
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)   

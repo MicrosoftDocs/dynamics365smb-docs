@@ -23,7 +23,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## See also
+## Related information
 
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)    
 [Power BI sales app](sales-powerbi-app.md)  

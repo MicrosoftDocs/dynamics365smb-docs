@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 4. In the **Row No.** field, select the number of the financial report row for which you want to define a constant.
 5. In the **Totaling Type** field, select **Constant**, and then enter a constant value in the **Totaling** field.
 
-## See also
+## Related information
 
 [Work with Financial Reports](How-to-Work-with-Account-Schedules.md)  
 [Financial Reports Overview](account-schedules-overview.md)  

@@ -59,7 +59,7 @@ These features can be useful in quality control when you need to find out which 
 3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
 4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Work with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)  

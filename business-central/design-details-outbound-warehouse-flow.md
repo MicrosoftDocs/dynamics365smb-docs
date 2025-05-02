@@ -114,7 +114,7 @@ When all items on the warehouse shipment document are registered as picked, the 
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## See also
+## Related information
 
 [Warehouse Management](design-details-warehouse-management.md)  
 

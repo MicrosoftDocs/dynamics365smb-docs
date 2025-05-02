@@ -85,7 +85,7 @@ Tax rates can be defined for a combination of tax parameters defined as part of 
 
 
 
-## See Also 
+## Related information 
 [Tax Engine Configuration of Use Case](TaxEngine-003.1-Tax-Configuration.md)
 
 

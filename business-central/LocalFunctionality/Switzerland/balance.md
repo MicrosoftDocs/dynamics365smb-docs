@@ -29,7 +29,7 @@ You can choose between two options:
 
     The unposted balance for the currently displayed general journal only is calculated.
 
-## See also
+## Related information
 
 [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 

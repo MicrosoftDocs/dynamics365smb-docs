@@ -401,7 +401,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  

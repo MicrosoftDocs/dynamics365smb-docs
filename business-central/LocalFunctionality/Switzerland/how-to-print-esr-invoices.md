@@ -41,7 +41,7 @@ The following procedure describes how to print ESR sales invoices, but the same 
 
 You can also reprint the sales invoice ESR report or sales ESR coupon report.  
 
-## See also  
+## Related information  
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Import ESR Payments](how-to-import-esr-payments.md)
 

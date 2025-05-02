@@ -56,7 +56,7 @@ Posting gratuitous receipt of fixed assets operation is registered in one of the
 
 6. As a result of posting **FA Journals**, an acquisition entry is generated in the fixed asset Ledger for the depreciation book for tax accounting.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)
 

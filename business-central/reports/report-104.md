@@ -73,7 +73,7 @@ Try the report here: [Customer - Detail Trial Balance](https://businesscentral.d
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  

@@ -43,7 +43,7 @@ The IBAN type on the recipient bank account must match the payment reference typ
 > [!TIP]
 > If a vendor uses both types of accounts regularly, create multiple vendor bank accounts and use them accordingly. For more information, see [Using multiple bank accounts as issuers of QR-Bills](ui-extensions-qr-bill-management.md#multiplebankaccounts).
 
-## See Also
+## Related information
 
 [QR-Bill Management in the Swiss Version](ui-extensions-qr-bill-management.md)  
 [Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md)  

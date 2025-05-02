@@ -21,7 +21,7 @@ We're constantly adding to and improving [!INCLUDE[prod_short](includes/prod_sho
 
 Check back again soon though, and in the meantime you can explore other subjects on the [Dynamics 365 channel on YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## See Also
+## Related information
 [Visit our video library](across-videos.md)
 
  

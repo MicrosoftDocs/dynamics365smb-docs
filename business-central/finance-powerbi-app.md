@@ -86,7 +86,7 @@ For the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.
 
 To learn more, go to [Setting up the Power BI finance app](finance-powerbi-app-setup.md).
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Setting up the Power BI finance app](finance-powerbi-app-setup.md)  

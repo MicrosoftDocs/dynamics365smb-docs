@@ -26,7 +26,7 @@ The corrective invoice must meet the following requirements:
 - You must clearly indicate the invoice numbers for the invoices you're correcting.  
 - You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
 
-## See also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

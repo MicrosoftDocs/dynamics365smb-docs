@@ -28,7 +28,7 @@ New reports for transactions and history documentation added:
 - FA Assignment/Discharge
 - FA History
 
-## See also
+## Related information
 
 [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

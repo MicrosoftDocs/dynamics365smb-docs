@@ -20,7 +20,7 @@ Financial reports are one of the most extensively used features for analysis and
 - Formulas drill-down – Allows you to drill down on the results of formulas, including for totaling type formulas. By drilling down on the result of the formula, you get a new page containing the list of elements used to calculate the results and their descriptions.
 - Additional data sources – Enables you to perform analysis on value-added tax (VAT), customer, vendor, and value entries in addition to performing analysis on general ledger (G/L) entries.
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

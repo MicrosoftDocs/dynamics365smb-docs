@@ -87,7 +87,7 @@ The following table describes them.
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
 
-## See also  
+## Related information  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Purchasing](purchasing-manage-purchasing.md)    
 [Sales](sales-manage-sales.md)    

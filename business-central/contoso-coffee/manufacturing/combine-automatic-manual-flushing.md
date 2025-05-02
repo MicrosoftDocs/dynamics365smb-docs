@@ -104,7 +104,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 That's it for manual and automatic flushing of components.
 
-## See also
+## Related information
 
 [Flush Components According to Operation Output](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

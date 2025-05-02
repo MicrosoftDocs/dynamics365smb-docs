@@ -540,6 +540,6 @@ If the inventory level fails to sync with Shopify, try these checks.
 5. Go to the **Shopify Products** page, locate the specific product, and check the stock details in the **Shopify Inventory** FactBox. The FactBox gives an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. It also shows when when the specific inventory level was last synchronized. There's one record per location.
 6. Go to the **Shopify Log Entries** page, and check for entries with the **Has Error** enabled around the time the inventory level was synched (see previous step). To limit records, apply the **mutation inventorySetOnHandQuantities** filter to the **Request Preview** field. If such entries exist, open the **Shopify Log Entry** page and inspect the **Response Data** field. If there's a validation error on Shopify's side, the response includes the additional information in the **userErrors** section. To learn more about logging, go to [Logs](troubleshoot.md#logs).
 
-## See also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

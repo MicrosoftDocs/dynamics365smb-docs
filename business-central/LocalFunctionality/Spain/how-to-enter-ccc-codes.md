@@ -29,7 +29,7 @@ If you change the CCC code structure, the **CCC No.** field updates automaticall
     |**CCC Control Digits**|9-10|Identifies the control digits.|  
     |**CCC Bank Account No.**|11-20 (Spain)<br><br> 11-21 (Portugal)|Identifies the account number, which might be adjusted with preceding zeros.|  
 
-## See also  
+## Related information  
 
 [Spain Local Functionality](spain-local-functionality.md)
 

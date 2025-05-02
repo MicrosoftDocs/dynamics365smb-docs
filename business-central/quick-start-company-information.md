@@ -27,7 +27,7 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## See also  
+## Related information  
 
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

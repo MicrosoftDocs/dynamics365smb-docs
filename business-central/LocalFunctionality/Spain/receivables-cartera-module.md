@@ -47,7 +47,7 @@ You can use bill groups for the following:
 - Factoring without risk - The factoring company takes on the risks associated with nonpayment.  
 - Factoring with risk - You take on the risks associated with nonpayment.  
 
-## See also  
+## Related information  
  [Cartera Module](cartera-module.md)   
  [Payments Cartera Module](payments-cartera-module.md)
 

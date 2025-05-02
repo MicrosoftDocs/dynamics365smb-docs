@@ -59,7 +59,7 @@ To create a single purchase invoice for one or more lines on a sales document by
     A purchase invoice is created that contains one, more than one, or all the lines on the sales invoice.
 7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
-## See also
+## Related information
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

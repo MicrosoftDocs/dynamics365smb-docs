@@ -161,7 +161,7 @@ If you aren't using Microsoft Entra ID to manage identities and access, you need
 2. Choose **Actions**, and then **Renew Token**.
 3. Sign in with the Exchange Online account that the scheduled job uses to connect to the shared mailbox and process emails.
 
-## See also
+## Related information
 
 [Managing Relationships](marketing-relationship-management.md)
 

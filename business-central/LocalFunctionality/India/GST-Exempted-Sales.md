@@ -51,7 +51,7 @@ For example, there is a sales invoice and a sales credit memo for INR 10,000.
 
 
 
-## See Also 
+## Related information 
 [Sale to Registered and Unregistered Customer](GST-Sale-to-Registered-Unregistered-Customer.md)
 
 

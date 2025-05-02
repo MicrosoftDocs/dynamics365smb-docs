@@ -39,7 +39,7 @@ The application adds legislation requirements and reporting features to Business
 - Multi-circuit Accounting
 - Small regulatory features and best practices
 
-## See also  
+## Related information  
 
 [Czech Local Functionality](czech-local-functionality.md)  
 

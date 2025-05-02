@@ -39,7 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |View an item's projected available inventory by different views and see which gross requirements, planned order receipts, and other events influence it over time.|[View the Availability of Items](inventory-how-availability-overview.md)|  
 <!--|Perform selected planning activities, such as changing or adding planning worksheet lines, in a graphical view of the supply plan.|[Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## See also
+## Related information
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

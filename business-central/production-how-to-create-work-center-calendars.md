@@ -100,7 +100,7 @@ The calculated work center calendar will now define when and how much capacity i
 
 The capacity of the selected day has now decreased by the recorded absence time.  
 
-## See Also  
+## Related information  
 [Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
 [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

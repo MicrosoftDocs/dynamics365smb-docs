@@ -46,7 +46,7 @@ After you make a selection, enter the relevant search information in the fields 
 > [!TIP]
 > For a couple of examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
 
-## See also
+## Related information
 
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)  

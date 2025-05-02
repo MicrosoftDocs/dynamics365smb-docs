@@ -339,7 +339,7 @@ It's easy to find out which unit of measure a duration field uses. Enter a numbe
 
 For example, if the unit of measure is hours, the number 5 converts to 5 hrs.
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  

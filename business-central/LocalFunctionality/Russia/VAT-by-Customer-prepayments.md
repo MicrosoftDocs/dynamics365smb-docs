@@ -54,7 +54,7 @@ Fill in the fields:
 
 Click "OK". The system will automatically create corrective entries.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

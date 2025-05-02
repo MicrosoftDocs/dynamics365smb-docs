@@ -73,6 +73,6 @@ Oscar, the process engineer at Contoso Coffee, must set up a new production BOM 
 
 The new coffee maker is now set up as a production BOM with one version.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

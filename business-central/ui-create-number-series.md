@@ -99,7 +99,7 @@ The following procedure shows how to set up number series for the Sales area. Th
 
 The selected number now fills in the **No.** field on the card or document according to your settings.  
 
-## See also
+## Related information
 
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

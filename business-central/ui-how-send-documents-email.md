@@ -78,7 +78,7 @@ Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field th
 
 The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
 
-## See Also
+## Related information
 
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  

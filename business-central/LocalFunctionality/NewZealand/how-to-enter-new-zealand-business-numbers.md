@@ -29,7 +29,7 @@ An algorithm provided by the local tax office ensures that the number is in a va
 3. Expand the **Registration** FastTab.  
 4. In the **IRD No.** field, enter the New Zealand Inland Revenue Number.  
 
-## See also
+## Related information
 
 [New Zealand Business Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md)  
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  

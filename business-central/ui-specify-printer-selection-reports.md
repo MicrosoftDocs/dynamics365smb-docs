@@ -68,7 +68,7 @@ Instead of using the default printer when running a report, you can override thi
 
 Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
-## See also
+## Related information
 
 [Printer Management](admin-printer-setup-overview.md)  
 [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  

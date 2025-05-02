@@ -37,7 +37,7 @@ On the **Lines** FastTab, choose the **Line** action, and then choose the **Comp
 7.  Choose the **OK** button.  
 8.  On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The correct quantity of the components needed to satisfy the production BOM is calculated based on the manufacturing batch unit of measure.  
 
-## See Also  
+## Related information  
 [Create Routings](production-how-to-create-routings.md)  
 [Create Production BOMs](production-how-to-create-production-boms.md)     
 [Setting Up Manufacturing](production-configure-production-processes.md)  

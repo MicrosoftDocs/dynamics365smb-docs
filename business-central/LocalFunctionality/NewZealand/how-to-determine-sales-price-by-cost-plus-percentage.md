@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [determine-sales-price-cost-percentage](../includes/AUNZ/determine-sales-price-cost-percentage.md)]
 
-## See Also
+## Related information
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

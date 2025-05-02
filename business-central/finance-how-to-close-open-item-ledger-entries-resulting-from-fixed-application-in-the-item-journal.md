@@ -33,7 +33,7 @@ The following procedure shows how to close such entries by performing two correc
 
     The **Applies-to Entry** field specifies if the quantity in the item journal line should be applied to an already-posted document. If so, enter the entry number of the item ledger entry to which the item journal line should be applied.
 
-## See also
+## Related information
 
 [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)    
 [Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)    

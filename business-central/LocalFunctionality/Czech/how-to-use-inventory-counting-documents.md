@@ -19,7 +19,7 @@ For the reasons above, this feature provides the following reports:
 - Phys. Inventory List Report is used to print documents from Phys. Inventory Journals (existing report improved).
 - Phys. Invt. Counting Document Report is used to print posted Phys. Inventory operations.
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

@@ -108,7 +108,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 > [!NOTE]  
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  
 
-## See Also
+## Related information
 [Purchasing](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  

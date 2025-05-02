@@ -35,7 +35,7 @@ The data type is set to text for the general ledger account number or account co
 ## Viewing Temporary Balances in General Journals  
 Before posting a general journal you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics page that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. For more information, see [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md).  
 
-## See Also
+## Related information
 
 [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Switzerland Local Functionality](switzerland-local-functionality.md)  

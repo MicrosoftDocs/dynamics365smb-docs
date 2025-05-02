@@ -124,6 +124,6 @@ The following example shows a warranty set up as a subscription line. The warran
 
 The subscription line package contains both a customer and a vendor line, so the customer can make claims within the specified period, but these are also covered by subscription lines towards the supplier (for example, the vendor has provided warranty for the items sold).
 
-## See also
+## Related information
 
 [Sales process](../sales/sales-service-commitments.md)

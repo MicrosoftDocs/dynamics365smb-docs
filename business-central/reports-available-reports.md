@@ -105,7 +105,7 @@ To learn more, go to [Production Reports and Analytics in Business Central](prod
 For more information, see [Service management report overview](service-reports.md).
 
 
-## See also
+## Related information
 
 [Use reports in daily work](reports-use-reports.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

@@ -124,7 +124,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
 You can now bring the items to the shipment dock and post the shipment, including the related source document, on the **Warehouse Shipment** page. Learn more at [Ship Items](warehouse-how-ship-items.md).
 
-## See also
+## Related information
 
 - [Warehouse Management Overview](design-details-warehouse-management.md)
 - [Manage Inventory](inventory-manage-inventory.md)  

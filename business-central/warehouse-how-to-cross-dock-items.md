@@ -108,7 +108,7 @@ When a production order is released, the lines are available in the pick workshe
 
 If you aren't using bins, remember to check the cross-dock area from time to time, or rely on notifications from receipts that items for production have arrived.  
 
-## See Also  
+## Related information  
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

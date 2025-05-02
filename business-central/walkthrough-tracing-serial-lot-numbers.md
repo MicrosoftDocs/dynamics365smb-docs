@@ -297,7 +297,7 @@ Then you must create various purchase, production, and sales transactions with t
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 
-## See also
+## Related information
 
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  

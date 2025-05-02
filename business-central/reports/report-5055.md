@@ -65,7 +65,7 @@ Try the report here: [Contact - Cover Sheet](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Relationship management report overview](../marketing-reports.md)
 [Relationship management overview](../marketing-relationship-management.md)

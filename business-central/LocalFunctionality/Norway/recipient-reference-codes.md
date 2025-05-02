@@ -32,7 +32,7 @@ The recipient reference codes are described in the following table.
 |**%10**|The due date from the vendor ledger entry.|  
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
 
-## See also  
+## Related information  
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
 
 

@@ -16,7 +16,7 @@ Goods and services tax (GST) is the tax that is applied on most goods and servic
 
 [!INCLUDE [gst-posting-setup](../includes/AUNZ/gst-posting-setup.md)]
 
-## See Also
+## Related information
 
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
 

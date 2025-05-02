@@ -83,7 +83,7 @@ A warehouse employee can create a new inventory put-away based on the released s
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

@@ -104,7 +104,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 > [!NOTE]  
 >  You can only post the payment order after you have successfully exported the electronic payments.  
 
-## See Also  
+## Related information  
 [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

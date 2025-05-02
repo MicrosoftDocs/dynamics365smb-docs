@@ -14,7 +14,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Finance](../../finance.md)  

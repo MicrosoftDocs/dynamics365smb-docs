@@ -126,7 +126,7 @@ Here are some best practices that you might consider when you develop and mainta
 * Use dimensions to simplify your chart of accounts. Don't have specific G/L accounts for each product or department.
 * Add new G/L accounts as they come in, but remove accounts from your chart of accounts only during period-end of your finance period.
 
-## See also
+## Related information
 
 [Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)    
 [Organize general ledger (G/L) data using account categories](bi-account-categories.md)   

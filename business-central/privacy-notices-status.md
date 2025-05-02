@@ -50,7 +50,7 @@ On that page, you'll find a table with approval options.
 | **Disagree** | The user does not approve the privacy notice. |
 | **Approver User Name** | The one who approves the privacy notice. |
 
-## See also
+## Related information
 
 [Compliance Overview  ](/dynamics365/business-central/compliance/compliance-overview)  
 [Respond to Requests about Personal Data  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  

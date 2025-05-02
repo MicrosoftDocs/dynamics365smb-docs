@@ -59,7 +59,7 @@ Electronic documents can only be created after a document has been posted or iss
 
 An XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
 
-## See Also  
+## Related information  
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)
 
 

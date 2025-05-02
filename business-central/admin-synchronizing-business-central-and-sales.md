@@ -102,7 +102,7 @@ If you enable multi-company support on an integration table mapping, we recommen
 
 If your number series doesn't guarantee that primary key values are unique to each company, we recommend that you use prefixes. To start using prefixes, create a transformation rule on the integration field mapping. To learn more about transformation rules, go to [Handle differences in field values](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## See also  
+## Related information  
 
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

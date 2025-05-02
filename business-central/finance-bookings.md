@@ -39,7 +39,7 @@ The support for invoicing appointments from Bookings is simpler than the fuller 
 > [!NOTE]
 > In May 2022, we discovered an issue in the integration with Bookings. Currently, the sync from Bookings to [!INCLUDE [prod_short](includes/prod_short.md)] requires you to manually associate the invoices with customers in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

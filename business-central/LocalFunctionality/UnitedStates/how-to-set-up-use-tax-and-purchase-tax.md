@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [use-tax-purchase-tax-setup](../includes/CAMXUS/use-tax-purchase-tax-setup.md)]
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Reporting Sales Tax in the US](us-sales-tax.md)  

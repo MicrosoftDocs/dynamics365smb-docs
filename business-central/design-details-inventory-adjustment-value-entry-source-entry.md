@@ -351,7 +351,7 @@ It is a challenge to get the Inventory Valuation report to demonstrate Quantity 
 
 In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/fiscal year to be recognized for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/fiscal year. The first item charge with posting date January 2 could then be posted.  
 
-## See Also  
+## Related information  
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

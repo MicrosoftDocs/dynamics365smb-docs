@@ -35,7 +35,7 @@ After you set up the customer discount groups, you can enter the customer discou
 2. Open the **Customer Card** for a customer you want to be part of a customer discount group.
 3. On the **Invoicing** FastTab, in the **Customer Disc. Group** field, select the group code.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

@@ -56,7 +56,7 @@ The following procedure shows how to create tax registers.
 
 12. Choose **Show Related Entries** to view all the transactions of any entry ledger that is created.
 
-## See Also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

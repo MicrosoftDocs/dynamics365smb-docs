@@ -245,7 +245,7 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality t
 
 The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.  
 
-## See also
+## Related information
 
 - [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Business Central Quick Starts](quick-start-business-central.md)  

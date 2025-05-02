@@ -62,7 +62,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## See Also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 [Business Central Web Services for developers](/dynamics365/business-central/dev-itpro/webservices/web-services)  

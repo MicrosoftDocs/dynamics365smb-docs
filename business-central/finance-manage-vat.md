@@ -31,7 +31,7 @@ Value Added Tax (VAT) is an indirect tax on the consumption of goods and service
 | [Multiple VAT registration numbers](finance-how-use-multiple-vat-registrations.md) | Discover how to set up multiple value-added tax (VAT) registration numbers (as an alternative VAT rate) for your customers who operate in different countries. |
 
 
-## See also 
+## Related information 
 [Finance](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

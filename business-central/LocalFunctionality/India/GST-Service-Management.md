@@ -49,7 +49,7 @@ Service Management has been designed to streamline your organization’s service
 > [!NOTE]
 > - Accounting entries are similar to accounting entries generated for sales transactions.
 
-## See Also
+## Related information
 [GST Input Service Distribution Overview](GST-Input-Service-Distribution-Overview.md)
 
 

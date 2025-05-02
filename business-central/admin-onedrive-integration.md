@@ -86,7 +86,7 @@ The SharePoint admin center provides extensive control over policies that govern
 > [!NOTE]
 > Some features may be available only for specific plans.
 
-## See also
+## Related information
 
 [Business Central and OneDrive for Business Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  

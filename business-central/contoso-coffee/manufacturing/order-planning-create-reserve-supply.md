@@ -59,7 +59,7 @@ You are the production planner at Contoso Coffee. You created a production order
 
 That's it for order planning in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  
 [About Production Orders](../../production-about-production-orders.md)  

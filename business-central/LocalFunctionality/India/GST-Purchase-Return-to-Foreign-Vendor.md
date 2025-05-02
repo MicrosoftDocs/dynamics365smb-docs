@@ -73,7 +73,7 @@ For example, purchase credit memo or return order is issued for INR 10000, Custo
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Vendor with Overseas Place of Supply](GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
 
 

@@ -116,7 +116,7 @@ Verify that the page you want displayed is the first page in your report.
 
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
 
-## See also
+## Related information
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  

@@ -54,6 +54,6 @@ If you turn on duplicate search on the **Duplicates** FastTab on the **Marketing
 * Combine the duplicate contacts into a single contact that is the same for both the customer and vendor by using the **Merge With** capability on the **Contact Card** page. Typically, merging contacts is done only when the customer and vendor are the same legal entity. For more information, see [Merge Duplicate Records](sales-how-merge-duplicate-records.md). 
 * Delete the vendor business relation for the vendor or customer contact, and then use the **Link to Existing** action to link to a different contact.    
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  

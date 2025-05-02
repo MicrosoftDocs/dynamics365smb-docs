@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## See also
+## Related information
 
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Delivery Reminders](delivery-reminders.md)  

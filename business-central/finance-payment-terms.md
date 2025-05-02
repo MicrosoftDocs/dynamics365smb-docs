@@ -47,7 +47,7 @@ The following table lists the table for payment terms and its ID.
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 
-## See also
+## Related information
 
 [Set Up Payment Methods](finance-payment-methods.md)  
 [Set Up Prepayments](finance-set-up-prepayments.md)  

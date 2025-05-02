@@ -104,7 +104,7 @@ You fill in the fields in the opposite order, as follows:
 
 The ADM dimension will be copied from location EAST.
 
-## See also
+## Related information
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  

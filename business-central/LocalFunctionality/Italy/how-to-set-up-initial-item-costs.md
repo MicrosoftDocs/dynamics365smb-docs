@@ -24,7 +24,7 @@ On the **Before Start Item Cost** page, you can enter information about inventor
 
 The entries in this page are used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
 
-## See also  
+## Related information  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
 

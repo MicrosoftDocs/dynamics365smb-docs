@@ -64,7 +64,7 @@ In the United Kingdom, all vendors must export the data required for auditing in
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 - [Work with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)  
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  

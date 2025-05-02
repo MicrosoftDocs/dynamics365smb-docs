@@ -30,7 +30,7 @@ The following table provides an overview of tasks that you typically perform to 
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts, and post the year-end closing entry. |[Closing Books](year-close-books.md) |
 
-## See also
+## Related information
 
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

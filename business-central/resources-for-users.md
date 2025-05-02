@@ -98,7 +98,7 @@ Register for the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event on
 - [UG Summit](https://www.summitna.com/)
 - [DynamicsCon](https://dynamicscon.com/)
 
-## See also
+## Related information
 
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Business Functionality](across-business-functionality.md)  

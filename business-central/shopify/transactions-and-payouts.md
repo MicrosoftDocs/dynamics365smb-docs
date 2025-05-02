@@ -167,6 +167,6 @@ The Merchant imports their bank statement using a payment reconciliation journal
 
 The Shopify connector imports orders and transactions in **Shop Currency**. If you configure Shopify to use different currencies based on country, that might lead to some differences. For example, in a store where the local currency is Danish Krone (DKK), an order for a German customer totaling 13.95 EUR converts to 409.53 DKK in sales. However, the payment transaction shows 409.48 DKK.
 
-## See also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

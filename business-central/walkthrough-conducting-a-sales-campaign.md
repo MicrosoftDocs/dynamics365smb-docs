@@ -194,7 +194,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. On the **Segment** page, choose the **Log** action.  
 8. On the **Log Segment** page, clear the **Send Attachments** check box. Then choose the **OK** button to confirm the message that the segment has been logged.  
   
-## See also  
+## Related information  
 [Relationship Management](marketing-relationship-management.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

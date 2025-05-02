@@ -31,7 +31,7 @@ This feature in User Setup in combination with new User Setup Lines table allows
 - Allow Item Un-apply functionality
 
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

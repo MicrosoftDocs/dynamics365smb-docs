@@ -31,7 +31,7 @@ Unlike customer service commitments, you can assign vendor service commitments t
 > [!TIP]
 > The **Subscription Billing** Role Center shows whether there are vendor service commitments that aren't assigned to a contract.
 
-## See also
+## Related information
 
 [Service commitments](masterdata/service-commitments.md)  
 [Termination of contract components](working-with-contracts/service-commitment-cancellation.md)  

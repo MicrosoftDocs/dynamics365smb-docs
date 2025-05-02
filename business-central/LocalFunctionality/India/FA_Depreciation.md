@@ -70,7 +70,7 @@ Shift depreciation is used when manufacturing companies have multiple production
 
 
 
-## See Also 
+## Related information 
 [Fixed Asset Overview](FA_Overview.md)
 
 

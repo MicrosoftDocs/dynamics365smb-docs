@@ -13,7 +13,7 @@ ms.author: v-pejano
 # Mandatory returning of exact costs in manufacturing in the Czech version
 Mandatory returning of exact costs in manufacturing
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -53,7 +53,7 @@ This video shows how to specify whether, and when, people can delete G/L account
 
 Want to learn how to set up the chart of accounts in [!INCLUDE [prod_short](includes/prod_short.md)]? Then start on the following learning path [Set up the chart of accounts in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## See also
+## Related information
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

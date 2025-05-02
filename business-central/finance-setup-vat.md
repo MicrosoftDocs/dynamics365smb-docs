@@ -330,7 +330,7 @@ You must set up information about how the tax authorities in your country or reg
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## See also
+## Related information
 
 [Set Up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)    
 [Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    

@@ -60,7 +60,7 @@ The final step is to create contract invoices. You can create invoices for the c
 * The **Customer Subscription Contract** and **Vendor Subscription Contract** pages
 * The **Usage Data Imports** page
 
-## See also
+## Related information
 
 [Extension of subscription lines](masterdata/service-commitments.md)  
 [Linking subscription with subscriptions](processing-usage-data/connect-subscription-service-object.md)  

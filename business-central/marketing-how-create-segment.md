@@ -27,7 +27,7 @@ You can create segments to select a group of contacts, for example, if you want 
 
 You can now add contacts to the segment. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## See Also
+## Related information
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

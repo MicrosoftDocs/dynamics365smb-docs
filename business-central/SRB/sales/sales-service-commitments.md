@@ -89,6 +89,6 @@ Subscription line items can't be billed at all. Subscription line items can be r
 
 Depending on the setting in **Sales & Receivables Setup**, sales quotes are automatically archived when converted to a sales order or sales orders are automatically archived when deleted (fast tab *Archive*). Sales quotes and orders can also be archived manually using the **Archive Document** action. The sales subscription lines belonging to the lines are also archived.
 
-## See also
+## Related information
 
 [Subscription lines](../masterdata/service-commitments.md)

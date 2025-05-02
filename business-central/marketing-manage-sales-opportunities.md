@@ -27,7 +27,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create sales opportunities that you have from your contacts. |[Create Opportunities](marketing-how-create-opportunities.md) |
 | Move a sales opportunity through the sales cycle to completion. |[Process Sales Opportunities](marketing-processing-sales-opportunities.md) |
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

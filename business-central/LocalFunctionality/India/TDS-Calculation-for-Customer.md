@@ -83,7 +83,7 @@ It is required to identify the payment or invoice transaction against which TDS 
 
 
 
-## See Also 
+## Related information 
 [TDS Certificate Update](TDS-Certificate-Update.md)
 
 

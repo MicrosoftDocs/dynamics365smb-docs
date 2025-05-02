@@ -50,7 +50,7 @@ From the **Report Settings** page, you can:
 > [!NOTE]
 > The ability to save settings is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set by the developer.  
 
-## See Also
+## Related information
 
 [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 

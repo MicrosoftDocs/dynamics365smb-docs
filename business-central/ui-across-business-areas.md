@@ -45,7 +45,7 @@ The following table lists these general business areas with links to articles th
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 | Use online maps to find locations and directions to customers, vendors, and addresses in general. | [Use Online Maps to Find Locations and Directions](across-online-maps.md) |
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)  

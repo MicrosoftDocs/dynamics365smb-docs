@@ -32,7 +32,7 @@ The following table describes the insights that this extension provides for each
 |Project Manager| Displays a greeting, and link to product information.|
 |Administrator| Displays a greeting, and link to product information.|
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)
 

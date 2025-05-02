@@ -36,7 +36,7 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     7.  Run the **Implement Standard Cost Changes** batch job.  
 4.  Review and post the **Item Revaluation Journals** page, which has been populated with entries from the previous steps in this process.  
 
-## See also
+## Related information
 
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   

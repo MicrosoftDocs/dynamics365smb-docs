@@ -20,7 +20,7 @@ You can view all posted fixed asset entries for each fixed asset charge code. Th
 
 - Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Ledger Entries**, and then choose the related link.
 
-## See Also
+## Related information
 
 [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)  
 

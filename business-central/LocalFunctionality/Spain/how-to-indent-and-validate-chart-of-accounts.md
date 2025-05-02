@@ -44,7 +44,7 @@ You can indent and validate the chart of accounts on the **G/L Account Card** pa
 1.  On the **Chart of Accounts** page, choose the **Check Chart of Accounts** action.  
 2.  Choose the **Yes** button.  
 
-## See Also  
+## Related information  
 [Spain Local Functionality](spain-local-functionality.md)
 
 

@@ -25,7 +25,7 @@ To comply with accounting legislation (Accounting Law 563/1991 §17) at the end 
 - Close Balance Sheet – Report Close Balance Sheet added. This report creates lines in General Journal. These lines contain posting to the Closing Balance Sheet account.
 - Open Balance Sheet – Report Open Balance Sheet added. This report creates lines in General Journal. These lines contain posting to the Opening Balance Sheet Account.
 
-## See Also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

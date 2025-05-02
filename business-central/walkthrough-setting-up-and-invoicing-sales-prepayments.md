@@ -236,7 +236,7 @@ You've also posted a prepayment invoice, created a second prepayment invoice whe
 
 The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
 
-## See also
+## Related information
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  

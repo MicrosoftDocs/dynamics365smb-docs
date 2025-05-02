@@ -155,7 +155,7 @@ The following table lists the table for posting group and their IDs.
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 
-## See also
+## Related information
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)    
 [Setting Up Finance](finance-setup-finance.md)    

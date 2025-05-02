@@ -55,6 +55,6 @@ You can delete subscription lines if they aren't invoiced and aren't assigned to
 > [!NOTE]
 > Contract lines and subscription lines are always identical. If a contract line is edited, the change is automatically applied to the subscription lines.
 
-## See also
+## Related information
 
 [Managing contracts, service objects, and subscription lines](contracts-services-mgmt.md)

@@ -127,7 +127,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## See also
+## Related information
 
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -46,7 +46,7 @@ The **Swiss VAT Statement** is the standard calculation report for realizing VAT
 
 3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## Related information  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)
 

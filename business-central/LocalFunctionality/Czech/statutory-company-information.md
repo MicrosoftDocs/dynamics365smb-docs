@@ -24,7 +24,7 @@ Users can define document footers in different languages. Such footers can be us
 
 Additional company registration numbers and other registration information can be stored on the **Company Information** page and used in documents.
 
-## See also
+## Related information
 
 [Czech local functionality](czech-local-functionality.md)  
 [Statutory statements](statutory-statements.md)

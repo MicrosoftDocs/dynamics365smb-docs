@@ -32,5 +32,5 @@ Clicking on the header of the FactBox opens the **Subscription Line Packages per
 
 Similar to the FactBox, you can also use the **Subscription Lines** action to access the subscription lines for items.
 
-## See also
+## Related information
 

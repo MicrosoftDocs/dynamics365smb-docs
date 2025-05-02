@@ -85,7 +85,7 @@ To work with the functionality of calculating assessed tax, you must specify the
 
 15. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 [Setting Up Fixed Assets](../../fa-setup.md)  

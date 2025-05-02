@@ -41,7 +41,7 @@ When you rename the original My Company, the database tables that store your exi
 
 If you use both Invoicing and [!INCLUDE[prod_short](includes/prod_short.md)], the data is stored in two different containers (the two companies). Nothing is shared, so you'll have to manage customers and items in both companies.  
 
-## See Also
+## Related information
 [Frequently Asked Questions](across-faq.yml)  
 [Administration](admin-setup-and-administration.md)  
 

@@ -1024,12 +1024,109 @@ This measure provides a normalized view of the planned capacity usage for ongoin
 
 #### Expected Costs
 
-- [Expected Capacity Cost]()
-- [Expected Capacity Overhead Cost]()
-- [Expected Manufacturing Overhead Cost]()
-- [Expected Material Cost]()
-- [Expected Subcontracted Cost]()
-- [Total Expected Cost]()
+- [Expected Capacity Cost](#expected-capacity-cost)
+- [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)
+- [Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)
+- [Expected Material Cost](#expected-material-cost)
+- [Expected Subcontracted Cost](#expected-subcontracted-cost)
+- [Total Expected Cost](#total-expected-cost)
+
+##### Expected Capacity Cost
+
+**Formula**
+
+- The **Expected Capacity Cost** measure calculates the net expected cost of in-house capacity usage by subtracting **[Expected Subcontracted Cost](#expected-subcontracted-cost)** from **[Expected Operation Cost](#expected-operation-cost)**.
+
+**Data Source**
+
+- Prod Order Line
+- Prod Order Routing Line
+- Prod Order Component
+
+##### Expected Capacity Overhead Cost
+
+**Formula**
+
+- The **Expected Capacity Overhead Cost** measure calculates the total overhead cost expected from capacity usage by summing the **Expected Capacity Ovhd. Cost** field from the *Prod Order Routing Lines* table. This represents the anticipated indirect costs associated with capacity operations in the production process.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+##### Expected Manufacturing Overhead Cost
+
+**Formula**
+
+The **Expected Manufacturing Overhead Cost** measure calculates the total manufacturing overhead cost for a production order by:
+
+1. **Retrieving Direct Cost**:
+   It uses the variable **ExpMfgDirCost**, which represents the expected manufacturing direct cost.
+     - **ExpMfgDirCost** = [Expected Material Cost](#expected-material-cost) + [Expected Capacity Cost](#expected-capacity-cost) + [Expected Subcontracted Cost](#expected-subctracted-cost) + [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)
+
+2. **Iterating Over Production Order Lines**:
+   For each line, it adds:
+
+   - The value of **ExpOvhdCost**: Calculated by iterating over each row in the Production Order Lines table. Multiplying the overheadRate by the quantityBase.
+   - A percentage-based overhead component, calculated as the line’s **indirectCostPercent** multiplied by the total **ExpMfgDirCost**, divided by 100.
+
+3. **Summing the Result**:
+   `SUMX` aggregates the per-line overhead contributions into a total.
+
+**Data Source**
+
+- Prod. Order Line
+- Prod Order Routing Line
+- Prod Order Components
+
+##### Expected Material Cost
+
+**Formula**
+
+- The **Expected Material Cost** measure calculates the total expected cost of materials for a production order by summing the **costAmount** field from the *Prod Order Components* table. This represents the projected material expense based on the components planned for use.
+
+**Data Source**
+
+- Prod Order Component
+
+##### Expected Subcontracted Cost
+
+**Formula**
+
+The **Expected Subcontracted Cost** measure estimates the portion of expected capacity cost attributed to subcontracted operations by:
+
+1. **Identifying Subcontracting Work Centers**:
+   Filters the *Work Center* table to include only those with a **Subcontractor No.** (i.e., subcontracted operations).
+
+2. **Calculating Expected Operation Cost for Subcontracting**:
+   Computes **[Expected Operation Cost](#expected-operation-cost)** restricted to those subcontracting work centers.
+
+3. **Determining Share of Total Capacity Cost**:
+   Retrieves the **ShareOfTotalCapCost** for the current production order from the *Production Order Lines* table.
+
+4. **Final Calculation**:
+   Multiplies the **Expected Operation Cost for Subcontracting** by the order’s share of total capacity cost.
+
+**Data Source**
+
+- Prod Order Line
+- Prod Order Routing Line
+- Prod Order Component
+
+##### Total Expected Cost
+
+The **Total Expected Cost** measure calculates the overall anticipated cost of a production order by summing the following components:
+
+- **[Expected Material Cost](#expected-material-cost)**
+- **[Expected Capacity Cost](#expected-capacity-cost)**
+- **[Expected Subcontracted Cost](#expected-subcontracted-cost)**
+- **[Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)**
+- **[Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)**
+
+This measure provides a complete view of all expected production costs, combining direct and indirect, in-house and subcontracted expenses.
+**Data Source**
+
+- Prod Order Line
+- Prod Order Routing Line
 
 ##### Variance to Expected Cost
 

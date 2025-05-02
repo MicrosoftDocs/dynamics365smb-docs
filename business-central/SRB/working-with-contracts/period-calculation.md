@@ -41,7 +41,7 @@ When calculating a month, the start date plus one month minus one day (C
 
 ## Price calculation​ 
 
-The value of the **Billing Rhythm** field is not taken into account when calculating the price. The billing rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a billing line is calculated based on the **Price and Billing Base Period** field in the service commitment or contract line and the **Billed Base Period** field. 
+The value of the **Billing Rhythm** field is not taken into account when calculating the price. The billing rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a billing line is calculated based on the **Price and Billing Base Period** field in the subscription line or contract line and the **Billed Base Period** field. 
 
 If the invoiced period is a multiple of the billing base period, the price is multiplied accordingly.
 

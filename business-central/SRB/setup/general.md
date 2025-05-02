@@ -1,6 +1,6 @@
 ---
 title: General setup
-description: There are a few general things to set up for subscription and recurring billing.
+description: There are a few general things to set up for subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -23,9 +23,9 @@ If a location requires a dedicated warehouse activity when picking items (**Requ
 
 ### General
 
-The **Default Period Calculation​** determines which period calculation option is set on a subscription package line. To learn more about the **Align to Start of Month** and **Align to End of Month** options, go to [Managing contracts, subscriptions, and services commitments](../working-with-contracts/contracts-services-mgmt.md). By changing the default, the value updates in all existing subscription lines commitments, sales subscription lines, and subscription package lines. If the existing records aren't updated, the period calculation isn't changed. Only the default value for creating new subscription package lines changes.
+The **Default Period Calculation​** determines which period calculation option is set on a subscription package line. To learn more about the **Align to Start of Month** and **Align to End of Month** options, go to [Managing contracts, subscriptions, and subscription lines](../working-with-contracts/contracts-services-mgmt.md). By changing the default, the value updates in all existing subscription lines commitments, sales subscription lines, and subscription package lines. If the existing records aren't updated, the period calculation isn't changed. Only the default value for creating new subscription package lines changes.
 
-You can set a date formula in the **Overdue Date Formula** field that filters for overdue subscription lines in the **Service Commitments - Overdue** cue in the **Subscription Billing** Role Center. For example, you can enter **3D** if you want the cue to count a service commitment as overdue if the service commitment's next billing date is three or more days past the work date. If you leave the field blank, the cue doesn't show anything.
+You can set a date formula in the **Overdue Date Formula** field that filters for overdue subscription lines in the **Subscription lines - Overdue** cue in the **Subscription Billing** Role Center. For example, you can enter **3D** if you want the cue to count a subscription line as overdue if the subscription line's next billing date is three or more days past the work date. If you leave the field blank, the cue doesn't show anything.
 
 If a location requires a dedicated warehouse activity when picking items (The **Require Pick** toggle is turned on on the **Location Card** page on the **Warehouse** FastTab), the item is subsequently delivered via commission. To handle the base date for the calculation of the service start differently, the reference date can be specified via the **Service Start Date for Warehouse Picking**. It is used when the item is shipped from a commission or warehouse pick. To learn more about warehouse and logistics features, go to [Set up locations](../../inventory-how-setup-locations.md).
 
@@ -54,7 +54,7 @@ The **Origin Name for Collective Sales Invoice** field is a default that is tr
 You can also specify whether additional texts that are added for contract lines when you create invoices. Their descriptions are used in the invoice line. You set up additional texts on the **Subscription Contract Setup** page, on the **Invoice Details** FastTab. The **Additional Lines 1 to 5** are created as text lines below the respective invoice line, depending on the configuration. The following contents can be passed to the invoice:
 
 * Description of the subscription
-* Description of the service commitments
+* Description of the subscription lines
 * Customer reference
 * Serial number
 * Billing period
@@ -64,7 +64,7 @@ You can also specify whether additional texts that are added for contract lines 
 
 ## Item templates
 
-Item templates contain the **Service Commitment Option** and **Subscription Packages** so they're predefined for new records.
+Item templates contain the **Subscription Line Option** and **Subscription Packages** so they're predefined for new records.
 
 ## General posting setup
 
@@ -85,7 +85,7 @@ Along with **Subscription Billing**, the **Essentials** app is installed. The ap
    * Order Confirmation
    * Blanket Sales Order
    * Shipment
-   * Invoice (including details of service commitments invoiced)
+   * Invoice (including details of subscription lines invoiced)
    * Credit Memo
    * Reminder
 

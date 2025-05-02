@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Usage data supplier references
 
-To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [service commitment](service-commitments.md#service-commitment-packages), which is part of a vendor or customer subscription contract.
+To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [subscription line](service-commitments.md#service-commitment-packages), which is part of a vendor or customer subscription contract.
 
 > [!NOTE]
-> You can only charge service commitments that are part of a vendor or customer subscription contract.
+> You can only charge subscription lines that are part of a vendor or customer subscription contract.
 
-The usage data usually only knows the subscription to which it's related. The service commitments, however, know to which contract they're assigned. The link is the subscriptions that connect to a service commitment.
+The usage data usually only knows the subscription to which it's related. The subscription lines, however, know to which contract they're assigned. The link is the subscriptions that connect to a subscription line.
 
-For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the service commitments. This path is how the usage data finds the related subscription, service commitments, subscriptions, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer subscription contracts to bill for usage data.
+For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the subscription lines. This path is how the usage data finds the related subscription, subscription lines, subscriptions, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer subscription contracts to bill for usage data.
 
 ## References for subscriptions
 
@@ -52,4 +52,4 @@ To maintain the customer reference, you can open the reference table by using th
 
 [Usage-based billing customers and subscriptions](customers-subscriptions.md)  
 [Extend contract](../processing-usage-data/extend-contract.md)  
-[Extension of service commitments](service-commitments.md)  
+[Extension of subscription lines](service-commitments.md)  

@@ -1,6 +1,6 @@
 ---
 title: Purchasing in subscription billing
-description: Learn about purchasing in subscription and recurring billing.
+description: Learn about purchasing in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -18,20 +18,20 @@ In subscription billing, you purchase items with subscription lines in the same 
 
 ## Sales quotes and orders
 
-For purchases, subscription lines work in the same way as sales subscription lines. You can either extend a vendor contract with a new item, or create a sales document with subscription lines that have **Vendor** specified in the **Partner** field on the **Assign Subscription Lines** page. To learn more, go to [Sales process](sales/sales-service-commitments.md). Depending on the selection in the **Calculation Base Type** field, the value in the **Calculation Base Amount** field is determined from the **Unit Cost** field on the sales lines or the **Last Direct Cost** field on the item. To learn more, go to [Price determination of service commitments](sales/price-calculation.md).
+For purchases, subscription lines work in the same way as sales subscription lines. You can either extend a vendor contract with a new item, or create a sales document with subscription lines that have **Vendor** specified in the **Partner** field on the **Assign Subscription Lines** page. To learn more, go to [Sales process](sales/sales-service-commitments.md). Depending on the selection in the **Calculation Base Type** field, the value in the **Calculation Base Amount** field is determined from the **Unit Cost** field on the sales lines or the **Last Direct Cost** field on the item. To learn more, go to [Price determination of subscription lines](sales/price-calculation.md).
 
 ## Subscriptions
 
-When the item is delivered for an order, [!INCLUDE [prod_short](../includes/prod_short.md)] creates the subscription and its service commitments. You can specify both customer and vendor service commitments for the subscription.
+When the item is delivered for an order, [!INCLUDE [prod_short](../includes/prod_short.md)] creates the subscription and its subscription lines. You can specify both customer and vendor subscription lines for the subscription.
 
 ## Assign a vendor contract
 
-Unlike customer service commitments, you can assign vendor service commitments to any vendor contract.
+Unlike customer subscription lines, you can assign vendor subscription lines to any vendor contract.
 
 > [!TIP]
-> The **Subscription Billing** Role Center shows whether there are vendor service commitments that aren't assigned to a contract.
+> The **Subscription Billing** Role Center shows whether there are vendor subscription lines that aren't assigned to a contract.
 
 ## Related information
 
-[Service commitments](masterdata/service-commitments.md)  
+[Subscription lines](masterdata/service-commitments.md)  
 [Termination of contract components](working-with-contracts/service-commitment-cancellation.md)  

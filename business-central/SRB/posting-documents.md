@@ -1,6 +1,6 @@
 ---
 title: Posting documents
-description: Learn about posted documents in subscription and recurring billing.
+description: Learn about posted documents in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -51,4 +51,4 @@ When a document is posted, the associated billing lines are archived. These can 
 
 ## Related information
 
-[Managing contracts, subscriptions, and services commitments](working-with-contracts/contracts-services-mgmt.md)
+[Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)

@@ -1,29 +1,29 @@
 ---
-title: Canceling service commitments
-description: You can use cancel service commitments in subscription and recurring billing.
+title: Canceling planned subscription lines
+description: You can cancel planned subscription lines in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
 ms.search.form: 
-ms.date: 08/14/2024
+ms.date: 05/02/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Cancel contract components
+# Cancel planned subscription lines
 
-All contract lines contain information about their validity and termination dates. Thus, they can be terminated before the expiry or end dates can be changed. If validity and notice periods aren't set, the contract lines are valid indefinitely or can be terminated at any time.
+All subscription contract lines have information about their validity and termination dates. You can terminate lines before the expiry or end dates. If validity and notice periods aren't set, the contract lines are valid indefinitely or can be terminated at any time.
 
-## Cancel a contract Line or service commitment
+## Cancel a subscription contract line or subscription line
 
-Use the **Service End Date** field to specify a date on which you stop billing a contract line. The service end date doesn't depend on the dates in the **Cancellation Possible Until** and **Term Until** fields.
+Use the **Subscription Line End Date** field to specify a date on which you stop billing a subscription line. The end date doesn't depend on the dates in the **Cancellation Possible Until** and **Term Until** fields. 
 
-If there isn't an agreement with the supplier or customer, the field is blank. If the **Service End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. When you run the **Update Service Dates** action, the contract line is marked as closed. To learn more, go to [Customer subscription contracts](customer-contracts.md#customer-contracts).
+If there isn't an agreement with the supplier or customer, the field is blank. If the **Subscription Line End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. <!--When you run the **Update Service Dates** action, the contract line is marked as closed on the customer subscription contract. To learn more, go to [Customer subscription contracts](customer-contracts.md#customer-contracts). I don't see this action anywhere-->
 
 > [!NOTE]
-> If a contract line was billed by mistake because the **Service End Date** was incorrect, you can't just terminate it retroactively. The contract line would be considered billed for a period after the **Service End Date**. Therefore, you must first issue a credit memo. The credit memo resets the **Next Billing Date**, and you can terminate the contract line. This ensures that the process of crediting and ending the contract line is followed.
+> If a contract line was billed by mistake because the **Subscription Line End Date End Date** was incorrect, you can't just terminate it retroactively. The contract line would be considered billed for a period after the **Subscription Line End Date End Date**. Therefore, you must first issue a credit memo. The credit memo resets the **Next Billing Date**, and you can terminate the contract line. This ensures that the process of crediting and ending the contract line is followed.
 
 ## Termination dates and deadlines
 
@@ -48,5 +48,5 @@ Use the **Update Service Dates** action to update the notice dates. The action c
 
 ## Related information
 
-[Service commitments](so-service-commitments.md)  
+[Subscription lines](so-service-commitments.md)  
 [Customer subscription contracts](customer-contracts.md)  

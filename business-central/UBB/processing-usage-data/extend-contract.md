@@ -17,11 +17,11 @@ To extend a contract, use the **Extend Subscription Contract** action on the **C
 
 ## Extend a contract based on a subscription
 
-In addition to the **Customer Subscription Contract** or **Vendor Subscription Contract** pages, the **Extend Contract** action is also available on the **Usage Data Subscriptions** page, and from the lookup in the **No. of Imported Lines** field on the **Usage Data Imports** page. This action is useful if errors occur when processing imported lines due to service commitments and subscriptions that don't exist.
+In addition to the **Customer Subscription Contract** or **Vendor Subscription Contract** pages, the **Extend Contract** action is also available on the **Usage Data Subscriptions** page, and from the lookup in the **No. of Imported Lines** field on the **Usage Data Imports** page. This action is useful if errors occur when processing imported lines due to subscription lines and subscriptions that don't exist.
 
 The **Subscription** field is available on the **Extend Contract** page on the **Vendor** FastTab. When you open the page from the **Usage Data Subscriptions** or **Imported Lines** pages, the subscription is automatically predefined. When you open the page from the menu, you can also select the subscription using the AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="AssistEdit icon."::: button. The **Quantity** and **Provision Start Date** fields are predefined based on the subscription. The item is also preselected if it was found through [references for products](../masterdata/references.md#references-for-products). If not, you can select it manually.
 
-If you extend a contract, the created service commitments automatically have a link to the [references for subscriptions](../masterdata/references.md#references-for-subscriptions), based on which the future usage data can be found and processed.
+If you extend a contract, the created subscription lines automatically have a link to the [references for subscriptions](../masterdata/references.md#references-for-subscriptions), based on which the future usage data can be found and processed.
 
 > [!NOTE]
 > Because quantities in usage data can have decimal places, you can only use integer quantities in the subscription. Rounding happens when the field is preassigned.

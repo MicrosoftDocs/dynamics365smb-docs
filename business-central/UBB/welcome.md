@@ -24,7 +24,7 @@ If your company offers services on demand, it can be time-consuming to bill thes
 
 ## Usage data​
 
-If usage data is the basis for billing service commitments, you can import and process the data. Processing the data creates any data that missing, such as subscriptions, service commitments, and contracts. You process data one time per subscription. Afterwards, [!INCLUDE [prod_short](../includes/prod_short.md)] processes usage data automatically.
+If usage data is the basis for billing subscription lines, you can import and process the data. Processing the data creates any data that missing, such as subscriptions, subscription lines, and contracts. You process data one time per subscription. Afterwards, [!INCLUDE [prod_short](../includes/prod_short.md)] processes usage data automatically.
 
 The types of usage data can be quite different. The following types are widely used:
 
@@ -50,11 +50,11 @@ Afterwards, a new **Usage Data Import** is created for the supplier so that 
 
 The imported data is then processed. If an error occurs (e.g. because new usage data not previously known to the system is included in the import), the reasons for the non-processing can be corrected and the processing restarted.
 
-## Billing for usage-based service commitments​
+## Billing for usage-based subscription lines​
 
-You link usage data and related usage data subscriptions contracts through service commitments. When you process usage data, prices are calculated. For service commitments for vendors, the prices of the supplier are taken over. For service commitments for customers, the calculation is done using the corresponding methods for pricing.
+You link usage data and related usage data subscriptions contracts through subscription lines. When you process usage data, prices are calculated. For subscription lines for vendors, the prices of the supplier are taken over. For subscription lines for customers, the calculation is done using the corresponding methods for pricing.
 
-The final step is to create contract invoices. You can create invoices for the contracts that include the usage-based service commitments from several places:
+The final step is to create contract invoices. You can create invoices for the contracts that include the usage-based subscription lines from several places:
 
 * The **Recurring Billing** page
 * The **Customer Subscription Contract** and **Vendor Subscription Contract** pages

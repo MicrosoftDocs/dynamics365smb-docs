@@ -1,20 +1,20 @@
 ---
 title: Recurring billing
-description: You can use recurring billing in subscription and recurring billing.
+description: You can use recurring billing in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
 ms.search.form: 
-ms.date: 08/14/2024
+ms.date: 05/02/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Recurring billing
 
-You bill contracts from the **Recurring Billing** page. First you create a billing proposal, based on which the posting documents such as invoices and credit memos, in a second step. To learn more about posting documents, go to [Posting documents](posting-documents.md). The billing or the creation of the billing proposal is based on the contract lines, taking into account the date in the **Next Billing Date** field. To learn more, go to [Managing contracts, subscriptions, and services commitments](working-with-contracts/contracts-services-mgmt.md).
+You bill contracts from the **Recurring Billing** page. First you create a billing proposal, based on which the posting documents such as invoices and credit memos, in a second step. To learn more about posting documents, go to [Posting documents](posting-documents.md). The billing or the creation of the billing proposal is based on the contract lines, taking into account the date in the **Next Billing Date** field. To learn more, go to [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md).
 
 ## Work with billing proposals
 
@@ -26,7 +26,7 @@ The **Recurring Billing** page is structured as follows:
    * Via the **Billing Rhythm**, each contract line brings the information up to which date it should be billed by default. Via the **Billing to Date** field, this can be specified (differently) for all lines to be created. This can result in the period to be billed being shortened or also extended. The field is also predefined via the billing template and can also be changed. By means of a limitation it could be achieved, for example, that contract items added during a fiscal year are only invoiced until the end of the year/fiscal year in order to have a uniform Billing Rhythm again for the next billing period.
 * **Actions**
    * **Create Billing Proposal**
-    The action runs through all contract lines and suggests the service commitments to be billed based on the **Next Billing Date** and the **Billing to Date**. By changing the billing template and calling it again, additional lines can be added to the billing proposal.
+    The action runs through all contract lines and suggests the subscription lines to be billed based on the **Next Billing Date** and the **Billing to Date**. By changing the billing template and calling it again, additional lines can be added to the billing proposal.
     If the **Next Billing Date** is greater than the billing date, this line will be ignored. If the **Next Billing Date** is smaller than the Billing Date, the corresponding period (taking into account the Billing Rhythm) must be invoiced.
    * **Create Documents**
     The action creates Contract invoices or credit memos for the displayed lines for which no documents exist yet.
@@ -51,8 +51,8 @@ The **Recurring Billing** page is structured as follows:
     Use to view the dimensions stored on the associated contract line.
 * **Billing Proposal Lines**
    * The billing proposal lines show the details of the lines to be billed.
-   * In addition to the contractor and the contract, information about the subscription and the service commitments to be billed is also displayed.
-   * When **Create Billing Proposal** is called, one or more lines are created for each service commitments based on the **Next Billing Date** and the **Billing to Date**. Multiple lines are always created if the **Billing Rhythm** of the contract line fits several times into the period between **Next Billing Date** and **Billing to Date**. Each line displays information regarding the billing period (**Billing from** and **Billing to** fields) and the prices (**Service Amount**, **Price**, **Quantity** and **Discount** fields). Using this method, no contract line to be billed can be overlooked (as long as the filter criteria from the billing template are correct), as all past contract lines are automatically part of the filter.
+   * In addition to the contractor and the contract, information about the subscription and the subscription lines to be billed is also displayed.
+   * When **Create Billing Proposal** is called, one or more lines are created for each subscription lines based on the **Next Billing Date** and the **Billing to Date**. Multiple lines are always created if the **Billing Rhythm** of the contract line fits several times into the period between **Next Billing Date** and **Billing to Date**. Each line displays information regarding the billing period (**Billing from** and **Billing to** fields) and the prices (**Service Amount**, **Price**, **Quantity** and **Discount** fields). Using this method, no contract line to be billed can be overlooked (as long as the filter criteria from the billing template are correct), as all past contract lines are automatically part of the filter.
    * It is possible to define a grouping for the billing proposal in the **Billing Template** ([see next section](#billing-templates)). If a grouping is set in the currently selected Default, the billing proposal lines can be expanded and collapsed based on this criterion. This is done using the double arrow next to the **Partner Name** heading. In addition, individual blocks can also be expanded and collapsed. This is done using the single arrow next to the **Partner Name** field in the line.
    * If a posting document (invoice or credit memo) has already been created, it is displayed via **Document Type** and **Document No.**. A click on the Document No. opens the posting document.
 
@@ -63,13 +63,13 @@ The **Recurring Billing** page is structured as follows:
 
 By choosing the AssistEdit :::image type="content" source="../media/assist-edit-icon.png" alt-text="AssistEdit icon"::: in the **Billing Template** field, all available billing templates display. Each billing template requires a unique code and description as well as filter criteria and date calculation defaults. The date calculation defaults are specified in the form of date formulas. The actual date values are then calculated based on the working date when a billing template is selected/applied. This allows the defaults to be used over and over again.
 
-Use the **Partner** field to specify whether this default is used to bill the customer (*Customer* value) or vendor (*Vendor* value) service commitments.
+Use the **Partner** field to specify whether this default is used to bill the customer (*Customer* value) or vendor (*Vendor* value) subscription lines.
 
-To use a billing template you must enter filter criteria. The criteria determines the service commitments to bill. To define the filters, use the **Edit Filter** action. A page opens where you can specify filter criteria. In addition to the pre-set criteria, you can add criteria such as the contract type, the responsible user, or the salesperson. When you choose **OK** on the filter page, the criteria are saved in the billing template. This is to be recognized by the fact that in the field **Contract filter** a hook is set.
+To use a billing template you must enter filter criteria. The criteria determines the subscription lines to bill. To define the filters, use the **Edit Filter** action. A page opens where you can specify filter criteria. In addition to the pre-set criteria, you can add criteria such as the contract type, the responsible user, or the salesperson. When you choose **OK** on the filter page, the criteria are saved in the billing template. This is to be recognized by the fact that in the field **Contract filter** a hook is set.
 
-In the **Billing Date Formula** field, a Dateformula is entered that will be interpreted when the billing template is used in the **Billing Date** field. This field is then used to filter the service commitments to be billed (based on **Next Billing Date**) when creating the proposal lines. If no Dateformula is specified, the **Recurring Billing** will use the Work Date.
+In the **Billing Date Formula** field, a Dateformula is entered that will be interpreted when the billing template is used in the **Billing Date** field. This field is then used to filter the subscription lines to be billed (based on **Next Billing Date**) when creating the proposal lines. If no Dateformula is specified, the **Recurring Billing** will use the Work Date.
 
-The **Billing To Date Formula** field can optionally be used to enter a Dateformula which, if present, will be interpreted when the billing template is used in the **Billing To Date** field. This field is then used to set the end date of the billing in the service commitments to be billed. If no Dateformula is specified, the field in **Recurring Billing** will also remain empty and the lines will be proposed based on the information in the contract line.
+The **Billing To Date Formula** field can optionally be used to enter a Dateformula which, if present, will be interpreted when the billing template is used in the **Billing To Date** field. This field is then used to set the end date of the billing in the subscription lines to be billed. If no Dateformula is specified, the field in **Recurring Billing** will also remain empty and the lines will be proposed based on the information in the contract line.
 
 The **My Suggestions Only** field can be used to filter the billing proposal to those lines created by the user.
 
@@ -97,19 +97,19 @@ To learn more about the posting documents that are created, go to [Posting docum
 ## Need to update
 
 **Recurring Billing** has a multi-level mechanism to prevent data inconsistencies.
-If changes of any kind are made to a service commitment or contract line while lines are already created in the billing proposal, those lines will be highlighted twice in the billing proposal. On the one hand, the lines are displayed in red and bold and, on the other hand, they receive an indicator in the **Update Required** field, which shows that an update of the lines is necessary. When updating, the changed values are taken from the service commitments or the contract lines. The update can be done by running one of the **Create Billing Proposal** or **Refresh** actions. As long as the update has not been performed, no posting documents (invoice / credit memo) can be created.
+If changes of any kind are made to a subscription line or contract line while lines are already created in the billing proposal, those lines will be highlighted twice in the billing proposal. On the one hand, the lines are displayed in red and bold and, on the other hand, they receive an indicator in the **Update Required** field, which shows that an update of the lines is necessary. When updating, the changed values are taken from the subscription lines or the contract lines. The update can be done by running one of the **Create Billing Proposal** or **Refresh** actions. As long as the update has not been performed, no posting documents (invoice / credit memo) can be created.
 
-If an unposted document already exists, no changes can be made to the service commitments or contract lines. A corresponding error message will appear.
+If an unposted document already exists, no changes can be made to the subscription lines or contract lines. A corresponding error message will appear.
 
-Only changes that are *not billing relevant* can be made in the posting document itself. For example, changes can be made to the description of the lines or new lines can be added. For all other changes, the posting document must first be deleted, the changes made to the contract line (or service commitments), then the billing lines updated and the document recreated.
+Only changes that are *not billing relevant* can be made in the posting document itself. For example, changes can be made to the description of the lines or new lines can be added. For all other changes, the posting document must first be deleted, the changes made to the contract line (or subscription lines), then the billing lines updated and the document recreated.
 
 In addition, it is not possible to create multiple posting documents for the same billing line.
 
 > [!NOTE]
 > The moment a billing proposal is created for a contract line, the **Next Billing Date** field updates to show show the current status. If the billing line is deleted (or the billing period is changed), the field is automatically reset (or set based on the changed billing period).
 
-A credit memo to a contract invoice will also reset the **Next Billing Date** field. To ensure consistency of the contract line and service commitments, when crediting multiple contract invoices, the credits must be chronological.
+A credit memo to a contract invoice will also reset the **Next Billing Date** field. To ensure consistency of the contract line and subscription lines, when crediting multiple contract invoices, the credits must be chronological.
 
 ## Related information
 
-[Managing contracts, subscriptions, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
+[Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  

@@ -1,6 +1,6 @@
 ---
 title: Glossary 
-description: Explore terminology in subscription and recurring billing.
+description: Explore terminology in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -32,12 +32,12 @@ The most important terms can be looked up in this glossary.
 
 ## C
 
-* **Calculation Base %** <br/> The percentage for calculating the price of the service commitment. 100% means that the price of the service is equal to the Calculation Base Amount.
+* **Calculation Base %** <br/> The percentage for calculating the price of the subscription line. 100% means that the price of the service is equal to the Calculation Base Amount.
 * **Calculation Base Amount** <br/> The base amount for calculating the price.
-* **Calculation Base Type** <br/> Indicates how the service commitment price is calculated. "Item Price" uses the list price that is stored on the item. "Document Price" uses the price from the sales document. **Document Price and Discount** uses the price and discount from the sales document.
+* **Calculation Base Type** <br/> Indicates how the subscription line price is calculated. "Item Price" uses the list price that is stored on the item. "Document Price" uses the price from the sales document. **Document Price and Discount** uses the price and discount from the sales document.
 * **Contract** <br/> Contract refers to customer and vendor subscription contracts.
 * **Contract Deferrals** <br/> Costs and revenues that are posted in a specific period but relate to a future period can be deferrals. These deferrals can be displayed across the board or per contract.
-* **Contract line** <br/> Services commitments assigned to a contract automatically create contract lines that you bill via the **Recurring Billing** page.
+* **Contract line** <br/> Subscription lines assigned to a contract automatically create contract lines that you bill via the **Recurring Billing** page.
 * **Contract Type** <br/> Indicates the classification of the contract.
 * **Contractor** <br/> Customer or supplier for whom the contract is created.
 * **Credit Memo Preview** <br/> Function for creating a print preview for an unposted credit memo.
@@ -53,7 +53,7 @@ The most important terms can be looked up in this glossary.
 
 ## I
 
-* **Initial Term** <br/> The Dateformula used to calculate the minimum term of service commitment. If the **Initial Term** is specified but you don't enter a **Subsequent Term**, the **Service End Date** is set to the end of the **Initial Term**.
+* **Initial Term** <br/> The Dateformula used to calculate the minimum term of subscription line. If the **Initial Term** is specified but you don't enter a **Subsequent Term**, the **Service End Date** is set to the end of the **Initial Term**.
 * **Invoice Preview** <br/> Action to create a print preview for an unposted invoice.
 * **Invoicing Item** <br/> An item so identified is used to bill extra service commitments sold for another item.
 * **Invoicing Item No.** <br/> Indicates which item in the contract invoice is used to bill for the periodic service in a subscription package line.
@@ -75,8 +75,8 @@ The most important terms can be looked up in this glossary.
 
 ## S
 
-* **Sales Service Commitment** <br/> Services that are part of a line in the quote or order.
-* **Service Amount** <br/> Indicates the amount of a service commitment minus the discount granted.
+* **Sales subscription lines** <br/> Services that are part of a line in the quote or order.
+* **Service Amount** <br/> Indicates the amount of a subscription line minus the discount granted.
 * **Service Commitment** <br/> Service commitments represent obligations to customers and vendors.
 * **Service Commitment Item** <br/> Can be used in sales documents, but are charged exclusively through contracts.
 * **Service Commitment Option** <br/> Indicates whether a service commitment can be deposited for an item or whether it's an item for billing services.

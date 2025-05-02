@@ -1,6 +1,6 @@
 ---
 title: Contracts and services management
-description: You can manage contracts and services in subscription and recurring billing.
+description: You can manage contracts and services in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -35,8 +35,8 @@ Contracts are used to organize subscription lines for billing to customers and s
 * The **Discount Amount** indicates the discount applied to the subscription line.
 * The **Service Amount** is the result of the price, discount, and quantity of the Subscription.
 * The **Calculation Base Period** indicates the period to which the Service Amount applies. For example, enter 1M if the amount refers to one month or 12M if the amount refers to one year.
-**Invoicing via** specifies whether the service is charged recurrently or only stores information about the sale (e.g. for warranty extensions). Subscription lines with the *Contract* option can be called into contracts and billed recurring.
-*The **Partner** specifies whether the subscription lines are in Accounts Receivable or Accounts Payable. Accordingly, subscription lines can be called into customer or vendor subscription contracts and invoiced via A/P or sales invoices.
+**Invoicing via** specifies whether the service is charged recurrently or only stores information about the sale (for example, for warranty extensions). Subscription lines with the *Contract* option can be called into contracts and billed on a recurring basis.
+*The **Partner** specifies whether the subscription lines are in Accounts Receivable or Accounts Payable. Accordingly, subscription lines can be called into customer or vendor subscription contracts and invoiced.
 * The **Contract** indicates the contract through which the subscription lines will be billed.
 * The **Initial Term** indicates the minimum term of the subscription lines. If the field is filled in and no **Subsequent Term** is entered, the **Service End Date** is automatically set to the end of the initial term.
 *The **Subsequent Term** specifies the duration of the automatic extension after the initial term. In addition, it determines the rhythm of updating **Cancellation Possible Until** and **Term Until**. If the field is blank and either the initial term or the notice period are set at the same time, the **Service End Date** is automatically set to the expiration date of the initial term or the notice period.
@@ -44,14 +44,14 @@ Contracts are used to organize subscription lines for billing to customers and s
 
 ## Invoice discounts
 
-It is possible - permanently or for a limited period - to grant a flat discount (invoice discount) for the entire contract. This can be used, for example, if the customer changes the license model or if a permanent discount on the subscription line is subsequently agreed.
+You can grant a flat discount (invoice discount) for the entire contract permanently or for a limited period. This can be used, for example, if the customer changes the license model or if a permanent discount on the subscription line is agreed to.
 
-The discount can only be defined in the [Service commitment templates​](../masterdata/service-commitments.md#service-commitment-templates) and the [Service commitment packages​](../masterdata/service-commitments.md#service-commitment-packages). Amounts for service commitment packages that allow discounts act as discounts in billing. The process of creating a subscription and billing is identical to the established processes. When creating the billing prosal via [Recurring billing](../recurring-billing.md), billing lines created for contract lines with discounts are created with a negative quantity and therefore a negative Service Amount. This discount amount is subsequently taken into account when posting documents are created.
+The discount can only be defined in [Subscription line templates​](../masterdata/service-commitments.md#service-commitment-templates) and [Subscription packages​](../masterdata/service-commitments.md#service-commitment-packages). Amounts for subscription packages that allow discounts act as discounts in billing. The process of creating a subscription and billing it is identical to the established processes. When creating the billing proposal via [Recurring billing](../recurring-billing.md), billing lines created for contract lines with discounts are created with a negative quantity and therefore a negative service amount. This discount amount is taken into account when posting documents are created.
 
 > [!NOTE]
-> A service commitment package in which an invoice discount is defined can only be assigned to items with **Service Commitment Option** chosen in the **Service Commitment Item** field.
+> A subscription package in which an invoice discount is defined can only be assigned to items with **Subscription line Option** chosen in the **Subscription line Item** field.
 
-Invoice discounts are applicable to both customer and vendor subscription contracts. They're also taken into regards in credit Memos and in contract deferrals.
+Invoice discounts are applicable to both customer and vendor subscription contracts. They're also taken into regards in credit memos and in contract deferrals.
 
 ## Related information
 

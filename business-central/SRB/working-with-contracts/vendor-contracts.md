@@ -1,6 +1,6 @@
 ---
 title: Vendor subscription contracts
-description: You can use vendor subscription contracts in subscription and recurring billing.
+description: You can use vendor subscription contracts in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -35,20 +35,20 @@ The procedure for creating a new vendor contract is similar to that for customer
 
 ## Assign subscription lines to a vendor subscription contract
 
-To bill service commitments, they must be assigned to a contract. Use the **Get Service Commitments** action (under *Process*) to add new contract lines (service commitments) to the contract. The **Subscription Lines without Vendor Subscription Contract** page opens. The page lists all service commitments for vendors that you invoice via a contract, but aren't assigned to a contract. When called in a contract, the contract number and the vendor are predefined in the service commitments (in the **Assign to Contract No.** and **Vendor** fields). When you transfer service commitments to a contract, **Contract Lines** are created. The lines reflect the content of the service commitments. Changes to the contract lines are reflected in the service commitments. The **Quantity** field displays the quantity of the related subscription.
+To bill subscription lines, they must be assigned to a contract. Use the **Get Subscription lines** action (under *Process*) to add new contract lines (subscription lines) to the contract. The **Subscription Lines without Vendor Subscription Contract** page opens. The page lists all subscription lines for vendors that you invoice via a contract, but aren't assigned to a contract. When called in a contract, the contract number and the vendor are predefined in the subscription lines (in the **Assign to Contract No.** and **Vendor** fields). When you transfer subscription lines to a contract, **Contract Lines** are created. The lines reflect the content of the subscription lines. Changes to the contract lines are reflected in the subscription lines. The **Quantity** field displays the quantity of the related subscription.
 Alternatively, the **Subscription Lines without Vendor Subscription Contract** page can also be accessed via the Role Center or via TellMe search (*Alt+Q*). In this case, the contract number and vendor are not predefined.
 
 > [!NOTE]
-> You can only transfer service commitments that have the **Vendor** as **Partner** to vendor subscription contracts. Because you can't store a vendor in the subscription, you can assign vendor-side service commitments to any vendor contract.
+> You can only transfer subscription lines that have the **Vendor** as **Partner** to vendor subscription contracts. Because you can't store a vendor in the subscription, you can assign vendor-side subscription lines to any vendor contract.
 
 > [!NOTE]
-> Service commitments are usually created automatically when the shipment is posted in the sales order. The prerequisite for this is a corresponding setup in the item used or the subscription package.
+> Subscription lines are usually created automatically when the shipment is posted in the sales order. The prerequisite for this is a corresponding setup in the item used or the subscription package.
 
 ## Extend contract
 
-If you want to extend a contract by an additional component, use the **Extend Contract** action. The action creates a subscription and assigns the related service commitments to a customer and/or vendor contract.
+If you want to extend a contract by an additional component, use the **Extend Contract** action. The action creates a subscription and assigns the related subscription lines to a customer and/or vendor contract.
 
-The page is divided into three sections. In the first part, **Vendor**, use the **Vendor Subscription Lines without Vendor Subscription Contract Contract No.** field to select the vendor contract that is to accommodate the (possible) vendor-side service commitments. The field is only editable if **Extend Vendor Contract** is active. The second part of the page, **Customer**, is similar. In the third part, in the **Item No.** field, specify the item that corresponds to the new contract element. You can use the **Quantity** and **Provision Start Date** fields to add more detail. The AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: on **Additional Service Commitments** allows you to specify optional service commitments for the selected item.
+The page is divided into three sections. In the first part, **Vendor**, use the **Vendor Subscription Lines without Vendor Subscription Contract Contract No.** field to select the vendor contract that is to accommodate the (possible) vendor-side subscription lines. The field is only editable if **Extend Vendor Contract** is active. The second part of the page, **Customer**, is similar. In the third part, in the **Item No.** field, specify the item that corresponds to the new contract element. You can use the **Quantity** and **Provision Start Date** fields to add more detail. The AssistEdit :::image type="content" source="../../media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: on **Additional Subscription lines** allows you to specify optional subscription lines for the selected item.
 
 The page behaves slightly differently, depending on how it's called. Basically, the values of the last call are saved (per user). The settings are used to preset the next time the page is opened. When calling from a customer subscription contract, the **Customer** part is predefined accordingly. The same applies to the **Vendor** part for the call from a vendor contract. In both cases, the contract extension runs when you choose **OK**.
 
@@ -67,11 +67,11 @@ The fields on a terminated line aren't editable, except for **Closed**. If you c
 
 ## Merge contract lines
 
-Over time, you might purchase similar or identical service commitments from a supplier. For example, when you buy additional users for an existing license. To invoice these service commitments together, you can use the **Merge Contract Lines** action in the line menu of the vendor contract to combine these service commitments.
+Over time, you might purchase similar or identical subscription lines from a supplier. For example, when you buy additional users for an existing license. To invoice these subscription lines together, you can use the **Merge Contract Lines** action in the line menu of the vendor contract to combine these subscription lines.
 
 Before you use the action, select the contract lines to merged. You can merge contract lines only if all lines meet the following criteria:
 
-* Billing proposal lines don't exist for any of the service commitments.
+* Billing proposal lines don't exist for any of the subscription lines.
 * The dimensions are identical.
 * The end user details are identical.
 * The items of the subscriptions are identical.
@@ -86,7 +86,7 @@ However, the following can't be identical:
     * Description
     * Provision Start Date
     * Provision End Date
-* Service Commitments
+* Subscription lines
     * Description
     * Service Start Date
     * Cancellation possible until
@@ -95,7 +95,7 @@ However, the following can't be identical:
 > [!NOTE]
 > You can't call the action for text lines.
 
-Use the **Select Vendor Subscription Contract Line** page to select the contract line on which to combine the selected lines. A new subscription (as a copy of the subscription of the selected contract line), including service commitments, is created with the total quantity. The service commitments to combine are [closed](#closed-contract-lines), and the new service is added to the contract. In the old subscriptions, the **Provision End Date** field is set, if possible.
+Use the **Select Vendor Subscription Contract Line** page to select the contract line on which to combine the selected lines. A new subscription (as a copy of the subscription of the selected contract line), including subscription lines, is created with the total quantity. The subscription lines to combine are [closed](#closed-contract-lines), and the new service is added to the contract. In the old subscriptions, the **Provision End Date** field is set, if possible.
 
 ## Create an invoice per contract
 

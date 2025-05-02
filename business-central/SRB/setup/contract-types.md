@@ -1,6 +1,6 @@
 ---
 title: Subscription contract types
-description: You can use different types of contracts in subscription and recurring billing.
+description: You can use different types of contracts in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf

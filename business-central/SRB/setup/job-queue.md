@@ -1,6 +1,6 @@
 ---
 title: Job queue
-description: You can use job queue entries in subscription and recurring billing.
+description: You can use job queue entries in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ Businesses often use the job queue to automate recurring tasks in [!INCLUDE [pro
 
 For subscription billing, the following entry is created in the job queue:
 
-* **Update Service Dates** (codeunit 70920758): Automatically updates date fields in service commitments daily at 1:00 AM. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
+* **Update Service Dates** (codeunit 70920758): Automatically updates date fields in subscription lines daily at 1:00 AM. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
 
 ## Related information
 

@@ -22,7 +22,7 @@ Use the **Vendor Name** field to connect the supplier to a vendor. To learn more
 
 Currently, the **Type** field only offers the **Generic** option. This means that the data isn't imported through an interface, such as an API. Instead, you import data in CSV files. An API page is also provided as an interface for the generic import.
 
-The **Unit Price from Import** checkbox affects the customer pricing of the usage data and specifies whether to use the sales price from the usage data. If you select the checkbox, pricing based on service commitments is overwritten. In this case, the import file must contain the customer pricing and the data exchange definition. To learn more, go to [Data exchange definitions](dataexchangedefinitions.md) and [Settings on the supplier](#settings-on-the-supplier).
+The **Unit Price from Import** checkbox affects the customer pricing of the usage data and specifies whether to use the sales price from the usage data. If you select the checkbox, pricing based on subscription lines is overwritten. In this case, the import file must contain the customer pricing and the data exchange definition. To learn more, go to [Data exchange definitions](dataexchangedefinitions.md) and [Settings on the supplier](#settings-on-the-supplier).
 
 The **Vendor Invoice per** field specifies whether to create vendor invoices as a collective invoice per import, or as one invoice per customer/end user.
 

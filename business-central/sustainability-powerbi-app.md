@@ -13,6 +13,9 @@ ms.service: dynamics-365-business-central
 
 # Sustainabiltiy Power BI app
 
+[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+
+
 The Sustainability Power BI app provides a detailed insight into the emission usage of an organization allowing them to identify key areas to make changes. The app provides a variety of reports focusing on different key areas that organizations would want to keep track of such as [Water and Waste Analysis](sustainability-powerbi-water-and-waste-analysis.md), [Journey to Net Zero Carbon](sustainability-powerbi-journey-to-net-zero-carbon.md) and [Social Analysis](https://businesscentral.dynamics.com?page=37091) all to assist in Environment Social Governance (ESG) reporting.
 
 
@@ -26,7 +29,7 @@ To fit into this category you might have a role such as
 
 As someone on the Sustainability team, you want to consistently review your water and waste usage at specific facilities. Using the [Water and Waste Analysis](sustainability-powerbi-water-and-waste-analysis.md) report, you will be able to review the capacity at each facility and location to see the available capacity should it be required in future.
 
-:::image type="content" source="media/sustainability/water-waste-by-loc-fac.png" alt-text="Screenshot of the Water by Facility Location and Facility Capactiy Power BI" lightbox="media/sustainabiliy/water-waste-by-loc-fac.png":::
+:::image type="content" source="media\sustainability\water-waste-by-loc-fac.png" alt-text="Screenshot of the Water and Waste Analysis Snippet Power BI" lightbox="media\sustainability\water-waste-by-loc-fac.png":::
 
 The report also allows the team to track the different water and waste types along with the YOY and DOD change to ensure they are moving in the right direction.
 
@@ -41,11 +44,11 @@ To fit into this category you might have a role such as
 
 For someone on the executive team, you need to ensure targets you put in place for the organization are being met. Using the  [Realized Emissions vs Target](sustainability-powerbi-realized-emissions-vs-target.md) you can quickly and efficiently compare your actual emissions with your target and make informed decisions and where to make changes where required.
 
-:::image type="content" source="media/sustainability/co2e-comparision.png" alt-text="Screenshot of the CO2e Realized vs Target Power BI" lightbox="media/sustainabiliy/co2e-comparision.png":::
+:::image type="content" source="media\sustainability\co2e-comparision.png" alt-text="Screenshot of the Realized Emissions vs Target Snippet Power BI" lightbox="media\sustainability\co2e-comparision.png":::
 
 This can be compared alongside the [Journey to Net Zero Carbon](sustainability-powerbi-journey-to-net-zero-carbon.md) to ensure your organization is on the right track moving forward.
 
-:::image type="content" source="media/sustainability/journey-to-net-zero-snip.png" alt-text="Screenshot of the Water by Facility Location and Facility Capactiy Power BI" lightbox="media/sustainabiliy/journey-to-net-zero-snip.png":::
+:::image type="content" source="media\sustainability\journey-to-net-zero-snip.png" alt-text="Screenshot of the Journey To Net Zero Carbon Snippet Power BI" lightbox="media\sustainability\journey-to-net-zero-snip.png":::
 
 For an executive looking for a quick high-level view for their organization, they can utilize the [Sustainability Overview](sustainability-powerbi-sustainability-overview.md)
 

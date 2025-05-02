@@ -13,9 +13,11 @@ ms.service: dynamics-365-business-central
 
 # Realized Emissions vs Target (Power BI Report)
 
+[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+
 The *Realized Emissions vs Target* compares your actual Emission usage against that set by the Target. This provides users key information on the specific targets that have been set via the Scorecard and directly compares this against the actual usage. With this information the user is able to see how they are tracking against the targets and can make informed decisions.
 
-:::image type="content" source="media/sustainability/realized-emissions-vs-target.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/realized-emissions-vs-target.png":::
+:::image type="content" source="media\sustainability\realized-emissions-vs-target.png" alt-text="Screenshot of the Realized Emissions vs Target Power BI report" lightbox="media\sustainability\realized-emissions-vs-target.png":::
 
 
 ## Use the report

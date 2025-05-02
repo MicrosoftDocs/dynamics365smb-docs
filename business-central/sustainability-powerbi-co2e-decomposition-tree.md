@@ -13,9 +13,11 @@ ms.service: dynamics-365-business-central
 
 # Co2e Decomposition Tree (Power BI Report)
 
+[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+
 The *Co2e Decomposition Tree* breaks down the CO2e emissions across multiple different factors and allows users to structure it per business needs. The interactive nature of the decomposiution tree allows organizations to update and change their hierachical data to identify key contributing factors to the organizations overall emissions.
 
-:::image type="content" source="media/sustainability/co2e-decomposition-tree.png" alt-text="Screenshot of the CO2e Decomposition Tree Power BI report" lightbox="media/sustainabiliy/water-and-waste-analysis.png":::
+:::image type="content" source="media\sustainability\decomposition-tree.png" alt-text="Screenshot of the CO2e Decomposition Tree Power BI report" lightbox="media\sustainability\decomposition-tree.png":::
 
 
 ## Use the report

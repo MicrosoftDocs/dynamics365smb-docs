@@ -13,9 +13,11 @@ ms.service: dynamics-365-business-central
 
 # Social Analysis (Power BI Report)
 
+[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+
 The *Social Analysis* expands the report pack beyond the environmental aspects of ESG to extend the reporting to be on employee information. It highlights key metrics for an organization to see employee absences, gender split and employee activities through qualifications or unions.
 
-:::image type="content" source="media/sustainability/social analysis.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/social analysis.png":::
+:::image type="content" source="media\sustainability\social analysis.png" alt-text="Screenshot of the Social Analysis Power BI report" lightbox="media\sustainability\social analysis.png":::
 
 
 ## Use the report

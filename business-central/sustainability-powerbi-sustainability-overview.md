@@ -21,7 +21,7 @@ This is broken down by category, scope and month along with the water and Waste 
 
 Using this report you can get a high level view of how your organization is tracking and where to make changes around emissions.
 
-:::image type="content" source="media/sustainability/sustainability-overview.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/sustainability-overview.png":::
+:::image type="content" source="media\sustainability\sustainability-overview.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media\sustainability\sustainability-overview.png":::
 
 ## Use the report
 
@@ -40,7 +40,7 @@ The Sustainability Overview* report includes the following KPIs and measures:
 
 - [**CO2 Realized (%)**](sustainability-powerbi-kpis.md#co2-realized-)
 - [**CH4 Realized (%)**](sustainability-powerbi-kpis.md#ch4-realized-)
-- [**N2O Realized (%)**](sustainability-powerbi-kpis.md#n20-realized-)
+- [**N2O Realized (%)**](sustainability-powerbi-kpis.md#n2o-realized-)
 - [**Water Realized (%)**](sustainability-powerbi-kpis.md#water-realized-)
 - [**Waste Realized (%)**](sustainability-powerbi-kpis.md#waste-realized-)
 - [**CO2e Emissions**](sustainability-powerbi-kpis.md#co2e-emissions)

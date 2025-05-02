@@ -13,9 +13,11 @@ ms.service: dynamics-365-business-central
 
 # Journey to Net Zero Carbon (Power BI Report)
 
+[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+
 The *Journey to Net Zero Carbon* provides an organization a clear picture to monitor and analyze key metrics that can assist in reducing their carbon footprint. This is broken down by an organizations Global Dimensions or the Scopes to provide multiple scenarios for informed reporting.
 
-:::image type="content" source="media/sustainability/journey-to-net-zero-carbon.png" alt-text="Screenshot of the Sustainability Overview Power BI report" lightbox="media/sustainabiliy/journey-to-net-zero-carbon.png":::
+:::image type="content" source="media\sustainability\journey-to-net-zero-carbon.png" alt-text="Screenshot of the Journey to Net Zero Carbon Power BI report" lightbox="media\sustainability\journey-to-net-zero-carbon.png":::
 
 
 ## Use the report

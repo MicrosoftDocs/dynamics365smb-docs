@@ -577,9 +577,37 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Production Order Line Measures
 
-- [Finished Quantity (Base)]()
-- [Quantity (Base)]()
-- [Remaining Quantity (Base)]()
+- [Finished Quantity (Base)](#finished-quantity-base)
+- [Quantity (Base)](#quantity-base)
+- [Remaining Quantity (Base)](#remaining-quantity-base)
+
+#### Finished Quantity (Base)
+
+**Formula**
+
+- The **Finished Quantity (Base)** measure calculates the total finished quantity in base units for production order lines by summing the **finishedQtyBase** column in the *Production Order Lines* table.
+
+**Data Source**
+
+- Prod. Order Line
+
+#### Quantity (Base)
+
+- The **Quantity (Base)** measure calculates the total quantity in base units for production order lines by summing the **quantityBase** column in the *Production Order Lines* table.
+
+**Data Source**
+
+- Prod. Order Line
+
+#### Remaining Quantity (Base)
+
+**Formula**
+
+- The **Remaining Quantity (Base)** measure calculates the total remaining quantity in base units for production order lines by summing the **remainingQtyBase** column in the *Production Order Lines* table.
+
+**Data Source**
+
+- Prod. Order Line
 
 ## Production Orders
 

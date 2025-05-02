@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Sustainabiltiy Overview (Power BI Report)
 
-[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 The *Sustainability Overview* provides a high level understanding of the emissions along with water and waste usage for an organization.
 

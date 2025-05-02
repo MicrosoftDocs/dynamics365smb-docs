@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Emissions by Category and Scope (Power BI Report)
 
-[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 The *Emissions by Category and Scope* highlights an overview of the emissions values broken down into each individual emissions and breaking this down further by Account Category then into Sub-Category and the different Scopes. With this, a user can identify key Account Categories that are tracking high emissions and make an informed decision on where to make changes.
 

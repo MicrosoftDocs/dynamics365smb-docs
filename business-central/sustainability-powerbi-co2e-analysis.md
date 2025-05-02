@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # CO2e Analysis (Power BI Report)
 
-[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 The *CO2e Analysis* report provides a key view on the CO2e impacts across the different business factors. This is broken down by the CO2e month on month but also broken down by the Category. 
 

@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Realized Emissions vs Baseline (Power BI Report)
 
-[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 The *Realized Emissions vs Baseline* report allows users to compare their actual emisssions against a predefined baseline from the scorecard. With this, they can compare different periods against each other to ensure they are tracking well against the baseline they have set. 
 

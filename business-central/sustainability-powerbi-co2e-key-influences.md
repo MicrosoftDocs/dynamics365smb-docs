@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Co2e Key Influences (Power BI Report)
 
-[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 The *Co2e Key Influences* leverages the Key Influences visual within Power BI to analyse the data and identify the primary influences impacting an organizations CO2e Emissions. By analyzing key variables, the report provides a deeper understanding of how these factors impact the CO2e figure enabling more informed decisions.
 

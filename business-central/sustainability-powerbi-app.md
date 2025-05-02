@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Sustainabiltiy Power BI app
 
-[!INCLUDE[applies-to-2025w2]()]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 
 The Sustainability Power BI app provides a detailed insight into the emission usage of an organization allowing them to identify key areas to make changes. The app provides a variety of reports focusing on different key areas that organizations would want to keep track of such as [Water and Waste Analysis](sustainability-powerbi-water-and-waste-analysis.md), [Journey to Net Zero Carbon](sustainability-powerbi-journey-to-net-zero-carbon.md) and [Social Analysis](https://businesscentral.dynamics.com?page=37091) all to assist in Environment Social Governance (ESG) reporting.

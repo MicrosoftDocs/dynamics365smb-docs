@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Water and Waste Analysis (Power BI Report)
 
-[!INCLUDE[applies-to-2025w2](includes/applies-to-2025w2.md)]
+[!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
 The *Water and Waste Analysis* provides a detailed analysis on the an organizations usaged of water and waste. This is broken down by facility and location and can be used to easily identify capacities of faciliites, usage and the different types of water and waste. This is further emphasised by the Year-Over-Year and Day-Over-Day calculations so users can see how they are progressing.
 

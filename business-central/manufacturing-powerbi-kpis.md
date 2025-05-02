@@ -463,16 +463,115 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Prod Order Routing Measures
 
-- [Expected Operation Cost]()
-- [Operation Move Time]()
-- [Operation Run Time]()
-- [Operation Setup Time]()
-- [Operation Wait Time]()
-- [Prod Order Routing Expected Capacity Need]()
-- [Prod Order Routing Expected Capacity Ovhd. Cost]()
-- [Prod Order Routing Expected Operation Cost Amt.]()
-- [Total Duration Days]()
-- [Total Duration Hours]()
+- [Expected Operation Cost](#expected-operation-cost)
+- [Operation Move Time](#operation-move-time)
+- [Operation Run Time](#operation-run-time)
+- [Operation Setup Time](#operation-setup-time)
+- [Operation Wait Time](#operation-wait-time)
+- [Prod Order Routing Expected Capacity Need](#prod-order-routing-expected-capacity-need)
+- [Prod Order Routing Expected Capacity Ovhd. Cost](#prod-order-routing-expected-capacity-ovhd-cost)
+- [Prod Order Routing Expected Operation Cost Amt.](#prod-order-routing-expected-operation-cost-amt)
+- [Total Duration Days](#total-duration-days)
+- [Total Duration Hours](#total-duration-hours)
+
+#### Expected Operation Cost
+
+**Formula**
+
+- The **Expected Operation Cost** measure calculates the total expected operational cost by using `SUMX` to iterate over the *Prod Order Routing Lines* table and summing the difference between **Expected Operation Cost Amt.** and **Expected Capacity Ovhd. Cost** for each row.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Operation Move Time
+
+**Formula**
+-The **Operation Move Time** measure calculates the total move time for production order routing lines by summing the **Move Time** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Operation Run Time
+
+**Formula**
+
+- The **Operation Run Time** measure calculates the total run time for production order routing lines by summing the **Run Time** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Operation Setup Time
+
+**Formula**
+
+- The **Operation Setup Time** measure calculates the total setup time for production order routing lines by summing the **Setup Time** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Operation Wait Time
+
+**Formula**
+
+- The **Operation Wait Time** measure calculates the total wait time for production order routing lines by summing the **Wait Time** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Prod Order Routing Expected Capacity Need
+
+**Formula**
+
+- The **Prod Order Routing Expected Capacity Need** measure calculates the total expected capacity requirement for production order routing lines by summing the **Expected Capacity Need** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Prod Order Routing Expected Capacity Ovhd. Cost
+
+**Formula**
+
+- The **Prod Order Routing Expected Capacity Ovhd. Cost** measure calculates the total expected capacity overhead cost for production order routing lines by summing the **Expected Capacity Ovhd. Cost** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Prod Order Routing Expected Operation Cost Amt
+
+**Formula**
+
+- The **Prod Order Routing Expected Operation Cost Amt.** measure calculates the total expected operation cost amount for production order routing lines by summing the **Expected Operation Cost Amt.** column in the *Prod Order Routing Lines* table.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Total Duration Days
+
+**Formula**
+
+- The **Total Duration Days** measure calculates the total duration of production order routing lines in days by summing the **Duration Total Days** column in the *Prod Order Routing Lines* table. Duration Total Days column is calculated in Power Query from the Starting Date Time and Ending Date Time fields on the Prod Order Routing Line.
+
+**Data Source**
+
+- Prod Order Routing Line
+
+#### Total Duration Hours
+
+**Formula**
+
+- The **Total Duration Hours** measure calculates the total duration of production order routing lines in hours by summing the **Duration Total Hours** column in the *Prod Order Routing Lines* table. Duration Total Hours column is calculated in Power Query from the Starting Date Time and Ending Date Time fields on the Prod Order Routing Line.
+
+**Data Source**
+
+- Prod Order Routing Line
 
 ## Production Order Lines
 

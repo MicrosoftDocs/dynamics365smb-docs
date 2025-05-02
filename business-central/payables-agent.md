@@ -43,10 +43,6 @@ The end-to-end process handled by the Payables Agent is illustrated in the figur
 1. **Agent supervisor:** May be called upon to review, confirm or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
 1. **Payables Agent:** Finalizes the purchse document draft into a purchase invoice. Users can now see the invoice in the **Purchase Invoices** list.
 
-### Activation and configuration
-
-The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, designate the users authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
-
 
 ### Email monitoring
 
@@ -73,6 +69,10 @@ The action of finalizing a purchase draft will effectively create a purchase inv
 
 > [!NOTE]
 > Even though a regular purchase invoice entity in Business Central can be considered a draft until it is posted, the **Purchase document draft** page has been introduced as an intermediary stage to 1) present users with a option to make corrections before finalizing the draft into a real unposted purchase invoice, and to 2) have a designated stage to review AI generated content.
+
+## Activation and configuration
+
+The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, designate the users authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
 
 ## General agent operations
 

@@ -20,7 +20,7 @@ All contract lines contain information about their validity and termination date
 
 Use the **Service End Date** field to specify a date on which you stop billing a contract line. The service end date doesn't depend on the dates in the **Cancellation Possible Until** and **Term Until** fields.
 
-If there isn't an agreement with the supplier or customer, the field is blank. If the **Service End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. When you run the **Update Service Dates** action, the contract line is marked as closed. To learn more, go to [Customer contracts](customer-contracts.md#customer-contracts).
+If there isn't an agreement with the supplier or customer, the field is blank. If the **Service End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. When you run the **Update Service Dates** action, the contract line is marked as closed. To learn more, go to [Customer subscription contracts](customer-contracts.md#customer-contracts).
 
 > [!NOTE]
 > If a contract line was billed by mistake because the **Service End Date** was incorrect, you can't just terminate it retroactively. The contract line would be considered billed for a period after the **Service End Date**. Therefore, you must first issue a credit memo. The credit memo resets the **Next Billing Date**, and you can terminate the contract line. This ensures that the process of crediting and ending the contract line is followed.
@@ -41,7 +41,7 @@ For example, if there's a contract line with a **Next Billing Date** on **01.01.
 
 If either the **Cancellation possible until** or **Term until** dates change, the other field is recalculated. The **Cancellation period** is always used for this calculation. The next time the dates are updated, the values are used for the calculation.
 
-Use the **Update Service Dates** action to update the notice dates. The action can be called both in the contract and in the service object. For smooth operation, the action should always run in the job queue.
+Use the **Update Service Dates** action to update the notice dates. The action can be called both in the contract and in the subscription. For smooth operation, the action should always run in the job queue.
 
 > [!NOTE]
 > You can add the update of the end dates to the job queue by using **Update Serv. Comm. Term. Dates** (Codeunit 8058) to run automatically and autonomously. Typically, businesses run the codeunit once a day and outside business hours. The functionality corresponds to calling the action **Update Service Dates** in the contract card.
@@ -49,4 +49,4 @@ Use the **Update Service Dates** action to update the notice dates. The action c
 ## Related information
 
 [Service commitments](so-service-commitments.md)  
-[Customer contracts](customer-contracts.md)  
+[Customer subscription contracts](customer-contracts.md)  

@@ -34,7 +34,7 @@ On the **Usage Data Suppliers** page, you can use the **Settings** action to spe
 
 The **Usage Data Subscriptions** page displays the subscriptions that belong to the usage data to process. Similar to creating customers, on the import settings for a [usage data supplier](suppliers.md), you can use the **Create Subscriptions** toggle to specify whether to create a subscription when you import usage data or when you process it. To learn more, go to [Create subscriptions based on usage data](#create-subscriptions-based-on-usage-data). These entries represent the supplier's data regarding the customer's subscriptions. This data is required to process and bill usage data. If the data isn't created automatically for the supplier, you must create it by some other means. We recommend that you turn on the **Create Subscriptions** toggle so let [!INCLUDE [prod_short](../../includes/prod_short.md)] create the usage data subscriptions.
 
-Use the **Supplier No.** field to identify the supplier that records belong to. Use the **Extend Contract** action to link subscriptions to the customer and the service object. To learn more, go to [Extend contract](../processing-usage-data/extend-contract.md) and [Linking subscription with service object](../processing-usage-data/connect-subscription-service-object.md). Subscriptions that aren't associated with a service object display in a teal font. Subscriptions that display in a black font are linked. The **Supplier Reference** field contains the unique ID of the subscription at the supplier. This value contains a link to the [usage data supplier references](references.md) of the type **Subscription** that's automatically created when you process usage data.
+Use the **Supplier No.** field to identify the supplier that records belong to. Use the **Extend Contract** action to link subscriptions to the customer and the subscription. To learn more, go to [Extend contract](../processing-usage-data/extend-contract.md) and [Linking subscription with subscription](../processing-usage-data/connect-subscription-service-object.md). Subscriptions that aren't associated with a subscription display in a teal font. Subscriptions that display in a black font are linked. The **Supplier Reference** field contains the unique ID of the subscription at the supplier. This value contains a link to the [usage data supplier references](references.md) of the type **Subscription** that's automatically created when you process usage data.
 
 ### Create subscriptions based on usage data
 
@@ -56,4 +56,4 @@ If you set up the import settings for the supplier to create subscriptions that 
 
 [Usage data suppliers](suppliers.md)  
 [Usage data supplier references](references.md)  
-[Linking subscription with service object](../processing-usage-data/connect-subscription-service-object.md)  
+[Linking subscription with subscription](../processing-usage-data/connect-subscription-service-object.md)  

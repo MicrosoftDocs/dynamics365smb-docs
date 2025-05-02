@@ -22,7 +22,7 @@ You can update contract prices in the following ways:
 * Increase or decrease the **Calculation Base %** field by a percentage.
 * Update the prices of recurring service commitments with the list prices of the items.
 
-You can filter the contract lines to update to all fields on the contract, service commitment, and service objects. You can use templates to:
+You can filter the contract lines to update to all fields on the contract, service commitment, and subscriptions. You can use templates to:
 
 * Save the filters and price update methods.
 * Define when the price update is to take effect, until when contract lines are to be included.
@@ -40,7 +40,7 @@ Use the **Subscription Contract Price Update** page to create price update pro
 
 ### Filters
 
-You can use templates to filter service commitments. The **Partner** specified in the template determines whether vendor contracts or customer contracts are included in the price update. Use the **Contract filter**, **Service filter**, and **Service Object filter** fields. Choose a field to open the filter page.
+You can use templates to filter service commitments. The **Partner** specified in the template determines whether vendor subscription contracts or customer subscription contracts are included in the price update. Use the **Contract Filter**, **Service Filter**, and **Subscription Filter** fields. Choose a field to open the filter page.
 
 > [!NOTE]
 > When you create price update proposals, some filters are applied automatically:
@@ -72,7 +72,7 @@ There are three **Price Update Methods**:
 
 * **Recent Item Price**
 
-   Updates the **Calculation Base %** field in the service commitments with prices from the **Sales Price List** page. The prices for the service commitments are determined for the items in the service objects and the date in **Perform Update on** field. Price updates planned for the future get the prices planned in the sales price list. The discount percentage in the sales price list isn't taken into account in the query because they're often agreed on individually with customers.
+   Updates the **Calculation Base %** field in the service commitments with prices from the **Sales Price List** page. The prices for the service commitments are determined for the items in the subscriptions and the date in **Perform Update on** field. Price updates planned for the future get the prices planned in the sales price list. The discount percentage in the sales price list isn't taken into account in the query because they're often agreed on individually with customers.
 
 > [!IMPORTANT]
 > If a price would be set to zero or become negative due to a price update, a proposal line isn't created for the service commitment.

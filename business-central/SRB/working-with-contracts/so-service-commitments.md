@@ -1,6 +1,6 @@
 ---
-title: Subscription lines in service objects
-description: You can use subscription lines with service objects in subscription billing.
+title: Subscription lines in subscriptions
+description: You can use subscription lines with subscriptions in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Subscription lines in service objects
+# Subscription lines in subscriptions
 
 Subscription lines describe the monetary content of agreements with customers and suppliers as well as termination dates. In order for a subscription line to be billed recurrently, it must be assigned to a contract.
 
@@ -28,7 +28,7 @@ If a subscription line is assigned to a contract, almost all changes can be made
 
 ### Log changes to subscription lines
 
-Subscription lines can be edited as lines in the service objects. To learn more, go to [Service objects](service-objects.md) and contracts.
+Subscription lines can be edited in subscriptions. To learn more, go to [Subscriptions](service-objects.md) and contracts.
 
 If any of the following fields are edited, the subscription line is archived before the change is made:
 
@@ -43,7 +43,7 @@ If any of the following fields are edited, the subscription line is archived bef
 
 If the service amount changes due to quantity changes, the subscription line is also archived. In addition, changing the serial number will result in archiving, because the serial number is also present in the **Archived Subscription Lines**.
 
-If archived subscription lines exist, the **Archived Subscription Lines** checkbox on the service object is selected. Choose **Yes** to display the archived subscription lines, including the corresponding quantity of the service object. The timestamp and user who made the change can be viewed via the Page Inspector.
+If archived subscription lines exist, the **Archived Subscription Lines** checkbox on the subscription is selected. Choose **Yes** to display the archived subscription lines, including the corresponding quantity of the subscription. The timestamp and user who made the change can be viewed via the Page Inspector.
 
 > [!NOTE]
 > If several changes are made in quick succession to the same subscription line, only the original version is archived.
@@ -57,4 +57,4 @@ You can delete subscription lines if they aren't invoiced and aren't assigned to
 
 ## Related information
 
-[Managing contracts, service objects, and subscription lines](contracts-services-mgmt.md)
+[Managing contracts, subscriptions, and subscription lines](contracts-services-mgmt.md)

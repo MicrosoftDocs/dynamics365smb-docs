@@ -18,7 +18,7 @@ Subscription billing lets you bill for contractually agreed services on a recurr
 
 ## Flexible and user-friendly subscription management
 
-You assign the serviceable items you sell (service objects), whether it's the sale of an item with attached services, a rental agreement, or any other contractual agreement, to customers. While service objects are usually static, the associated service (service commitments) that you invoice on a recurring basis can change while a contract is active.
+You assign the serviceable items you sell (subscriptions), whether it's the sale of an item with attached services, a rental agreement, or any other contractual agreement, to customers. While subscriptions are usually static, the associated service (service commitments) that you invoice on a recurring basis can change while a contract is active.
 
 ## Features of subscription and recurring billing
 
@@ -32,23 +32,23 @@ You assign the serviceable items you sell (service objects), whether it's the sa
 
 ### Contracts​
 
-When business partners sign a contract, both partners assume obligations. In subscription billing, these obligations are called *service commitments*. Agreements with periodic billing are called *customer contracts* on the customer side, and *vendor contracts* on the supplier side.
+When business partners sign a contract, both partners assume obligations. In subscription billing, these obligations are called *service commitments*. Agreements with periodic billing are called *customer subscription contracts* on the customer side, and *vendor subscription contracts* on the supplier side.
 
-Use contracts to group the service commitments of multiple service objects so you can bill them together on a recurring basis. A contract in subscription billing is the technical equivalent of one or more actual contract documents that you bill to a customer.
+Use contracts to group the service commitments of multiple subscriptions so you can bill them together on a recurring basis. A contract in subscription billing is the technical equivalent of one or more actual contract documents that you bill to a customer.
 
-A contract defines the commercial framework (contractual partners, invoice recipients, accounting conditions). Service objects, and their service commitments, represent the components of the contract.
+A contract defines the commercial framework (contractual partners, invoice recipients, accounting conditions). Subscriptions, and their service commitments, represent the components of the contract.
 
-### Service objects​
+### Subscriptions
 
-A service object is something that the customer either buys, such as items, or for which a contractual agreement is results in mutual obligations. A service object is assigned to a customer. The service object is usually static, but the associated services (service commitments) can change. Also, you can store additional information in the service object that's independent of the service commitments.
+A subscription is something that the customer either buys, such as items, or for which a contractual agreement is results in mutual obligations. A subscription is assigned to a customer. A subscription is usually static, but the associated services (service commitments) can change. Also, you can store additional information in a subscription that's independent of the service commitments.
 
-A service object doesn't contain any billing-relevant information. That information belongs to the associated service commitments. Service commitments that aren't invoiced through a contract can also belong to a service object, for example, warranties.
+A subscription doesn't contain any billing-relevant information. That information belongs to the associated service commitments. Service commitments that aren't invoiced through a contract can also belong to a subscription, for example, warranties.
 
 ### Service commitments​
 
-Service commitments describe the content of agreements with customers and suppliers. They exist in customer-side and vendor-side forms, and always belong to a service object. Service commitments contain billing information, such as the quantity to bill, the billing period, and the amount.
+Service commitments describe the content of agreements with customers and suppliers. They exist in customer-side and vendor-side forms, and always belong to a subscription. Service commitments contain billing information, such as the quantity to bill, the billing period, and the amount.
 
-The service commitments of a service object and the creation of service commitments are defined through a multi-level hierarchy. It includes subscription package line templates and subscription packages that you can assign to items. Service objects are created through the sale of these items, to which the associated service commitments are assigned and available.
+The service commitments of a subscription and the creation of service commitments are defined through a multi-level hierarchy. It includes subscription package line templates and subscription packages that you can assign to items. Subscriptions are created through the sale of these items, to which the associated service commitments are assigned and available.
 
 You can offer service commitments to prospects or customers already during the sales phase. For this purpose, you can add more service commitments to the offered items, which you can then offer simultaneously or sell at the same time.
 
@@ -58,7 +58,7 @@ If the service is a service commitment (see Types of Services), you can ad
 
 ## Flow of subscription billing​
 
-The following illustration shows that items are set up with subscription packages with one or more service commitments. When the quote or order is shipped, the item becomes a service object. The service commitments assigned to the service object must be assigned to a contract to be billed on a recurring basis. The contract and its service commitments contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
+The following illustration shows that items are set up with subscription packages with one or more service commitments. When the quote or order is shipped, the item becomes a subscription. The service commitments assigned to the subscription must be assigned to a contract to be billed on a recurring basis. The contract and its service commitments contain the billing information. When posting contract invoices, contract deferrals are created. You can post the deferrals to the general ledger independently to recognize the revenue or cost of the invoices.
 
 :::image type="content" source="../media/srbFlow.png" alt-text="Shows the flow in subscription billing.":::
 
@@ -72,5 +72,5 @@ The **Overdue** and **Not invoiced** cues indicate that service commitment
 
 ## Related information
 
-[Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
+[Managing contracts, subscriptions, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
 [Recurring billing](recurring-billing.md)  

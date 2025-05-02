@@ -17,17 +17,17 @@ In subscription billing, managing the timing of revenue and expense recognition 
 
 ## Prerequisites and setup
 
-When posting a contract invoice, contract deferrals are automatically created if the **Without Contract Deferrals** toggle is off on the contract. Contract deferrals are used for deferred income (customer contracts) or prepaid expenses (vendor contracts).
+When posting a contract invoice, contract deferrals are automatically created if the **Without Contract Deferrals** toggle is off on the contract. Contract deferrals are used for deferred income (customer subscription contracts) or prepaid expenses (vendor subscription contracts).
 
 ## Contract deferrals customer subscription contract
 
-Use contract deferrals from customer contracts to defer revenues in sales invoices.
+Use contract deferrals from customer subscription contracts to defer revenues in sales invoices.
 
 The G/L accounts that are posted to are those that have been defined in posting groups for each combination of general business posting group and general product posting group possible in a business transaction. To learn more, go to [Set up posting groups](../../finance-posting-groups.md). In the customer subscription contract, this is the combination of the customer's general business posting group in the contract header and the general product posting group of the items. To learn more, go to [Service Commitments at Items](../masterdata/items.md).
 
 By default, the account used per combination is the one stored in the **Customer Subscription Contract Deferral Account** field on the **General Posting Setup** page. However, if the **Without Contract Deferrals** toggle is on on the **Customer Subscription Contract** page, the invoice amount is immediately posted as revenue to the account defined in the **Customer Subscription Contract Account** field. In this case, contract deferrals aren't created.
 
-### Opening contract deferrals from customer contracts
+### Opening contract deferrals from customer subscription contracts
 
 You can access customer subscription contract deferrals from the **Customer Subscription Contract** page using the **Customer Subscription Contract Deferrals** action. The **Customer Subscription Contract Deferrals** page displays the following details:
 
@@ -35,7 +35,7 @@ You can access customer subscription contract deferrals from the **Customer Subs
 * The **Contract No.** indicates the number of the contract for which the deferrals were created.
 * The **Document Type** indicates the document type used to create the deferrals.
 * The **Document No.** indicates the document number with which the deferral was generated.
-* The **Subscription Description** field contains the description of the associated service object that was invoiced via the document line.
+* The **Subscription Description** field contains the description of the associated subscription that was invoiced via the document line.
 * The **Subscription Line Description** field contains the description of the associated subscription line that was invoiced via the document line.
 * The **Bill-to Cust.-No.** is the number of the customer (invoice recipient) for which the deferrals were generated.
 * The **Customer No.** is the number of the customer (Contractor) for whom the deferrals were generated.
@@ -55,15 +55,15 @@ You can access customer subscription contract deferrals from the **Customer Subs
 > [!TIP]
 > The deferrals to create can also already be checked in the unposted contract invoices via the **Preview Posting**.
 
-## Contract deferrals vendor contracts
+## Contract deferrals vendor subscription contracts
 
-Contract deferrals from vendor contracts defer cost in purchase invoices. In the case of post-invoicing (for example, the retroactive calculation of service commitments), on the other hand, postings are always made immediately with an immediate effect on costs. Since the period is already in the past, contract deferrals are not needed here and are not created.
+Contract deferrals from vendor subscription contracts defer cost in purchase invoices. In the case of post-invoicing (for example, the retroactive calculation of service commitments), on the other hand, postings are always made immediately with an immediate effect on costs. Since the period is already in the past, contract deferrals are not needed here and are not created.
 
 Similar to the customer subscription contract, the G/L accounts to post to are determined using posting groups for the respective business transaction. In the vendor contract, this is the combination of the vendor's general business posting group in the Contract Header and the general product posting group of the item.
 
-By default, the account used is the **Vendor Contract Deferral Account** field in the **General Posting Setup**. However, if the **Without Contract Deferrals** toggle is on on the **Vendor Contract** page, the invoice amount is immediately posted as a cost to the account in the **Vendor Contract Account** field. In this case, contract deferrals aren't created.
+By default, the account used is the **Vendor Subscription Contract Deferral Account** field in the **General Posting Setup**. However, if the **Without Contract Deferrals** toggle is on on the **Vendor Subscription Contract** page, the invoice amount is immediately posted as a cost to the account in the **Vendor Subscription Contract Account** field. In this case, contract deferrals aren't created.
 
-### Calling subscription contract deferrals from vendor contracts
+### Calling subscription contract deferrals from vendor subscription contracts
 
 You can access vendor subscription contract deferrals on the **Vendor Subscription Contract** page using the **Vendor Subscription Contract Deferrals** action. The **Vendor Subscription Contract Deferrals** page is the same as the **Customer Subscription Contract Deferrals** page.
 

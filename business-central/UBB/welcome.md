@@ -24,7 +24,7 @@ If your company offers services on demand, it can be time-consuming to bill thes
 
 ## Usage data​
 
-If usage data is the basis for billing service commitments, you can import and process the data. Processing the data creates any data that missing, such as service objects, service commitments, and contracts. You process data one time per subscription. Afterwards, [!INCLUDE [prod_short](../includes/prod_short.md)] processes usage data automatically.
+If usage data is the basis for billing service commitments, you can import and process the data. Processing the data creates any data that missing, such as subscriptions, service commitments, and contracts. You process data one time per subscription. Afterwards, [!INCLUDE [prod_short](../includes/prod_short.md)] processes usage data automatically.
 
 The types of usage data can be quite different. The following types are widely used:
 

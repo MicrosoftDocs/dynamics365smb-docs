@@ -47,5 +47,5 @@ On the contract lines, the **Next Billing Date** reset when the credit memo was 
 
 ## Related information
 
-[Customer contracts](../working-with-contracts/customer-contracts.md)  
-[Vendor contracts](../working-with-contracts/vendor-contracts.md)  
+[Customer subscription contracts](../working-with-contracts/customer-contracts.md)  
+[Vendor subscription contracts](../working-with-contracts/vendor-contracts.md)  

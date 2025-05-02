@@ -13,11 +13,11 @@ ms.service: dynamics-365-business-central
 
 # Import contracts and contract lines
 
-Before you can set up contracts and contract lines, you must create some data, or import it from another system. In addition to customers, vendors, and items, you must create subscription packages, subscription package lines, and more. You use configuration packages to import data. The data for customer contracts, contract lines, service objects, and service commitments imports to tables created specifically for processing the data.
+Before you can set up contracts and contract lines, you must create some data, or import it from another system. In addition to customers, vendors, and items, you must create subscription packages, subscription package lines, and more. You use configuration packages to import data. The data for customer subscription contracts, contract lines, subscriptions, and service commitments imports to tables created specifically for processing the data.
 
 ## Import master data
 
-To import customers, items, service commitments, vendor contracts, and so on, create [Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages).
+To import customers, items, service commitments, vendor subscription contracts, and so on, create [Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages).
 
 |Name|Table|
 |:--|:--|
@@ -26,11 +26,11 @@ To import customers, items, service commitments, vendor contracts, and so on, cr
 |Subscription Packages|70920755|
 |Subscription Package Lines|70920756|
 |Item Subscription Packages|70920758|
-|Vendor Contract|70920763|
+|Vendor  Contract|70920763|
 
-## Import customer contracts, contract lines, service objects, and service commitments
+## Import customer subscription contracts, subscription contract lines, subscriptions, and service commitments
 
-There are particular import tables for importing customer contracts, contract lines, service objects, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Subscription Contracts**, **Imported Subscriptions**, and **Imported Subscription Lines** pages. Use the following tables to import and create subscriptions, service commitments, and contract lines.
+There are particular import tables for importing customer subscription contracts, contract lines, subscriptions, and service commitments. After the import, you can view, edit, and use the data to create corresponding records in [!INCLUDE [prod_short](../../includes/prod_short.md)] on the **Imported Customer Subscription Contracts**, **Imported Subscriptions**, and **Imported Subscription Lines** pages. Use the following tables to import and create subscriptions, service commitments, and contract lines.
 
 |Name|Table|
 |:--|:--|
@@ -38,9 +38,9 @@ There are particular import tables for importing customer contracts, contract li
 |Imported Subscriptions|70920708|
 |Imported Subscription Lines|70920709|
 
-### Import customer contracts
+### Import customer subscription contracts
 
-The **Imported Customer Subscription Contracts** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Customer Subscription Contracts** action to create the customer contracts (just headers, no lines). The action always processes all rows that aren't processed, regardless of filters and selection.
+The **Imported Customer Subscription Contracts** page serves as an intermediate step for the data transfer of subscriptions. The imported data displays on this page. Use the **Create Customer Subscription Contracts** action to create the customer subscription contracts (just headers, no lines). The action always processes all rows that aren't processed, regardless of filters and selection.
 
 |Name|Description|To fill|
 |:--|:--|:--|
@@ -63,31 +63,31 @@ If the processing is successful, a customer subscription contract is created and
 * The **Processed on** field shows the date and time of the processing.
 * Errors display in the **Error Text** field.
 
-### Import service objects
+### Import subscriptions
 
-The **Imported Subscriptions** page serves as an intermediate step for the data transfer of service objects. The imported data displays on this page. Use the **Create Subscriptions** action to create the service objects. The action always processes all lines that aren't processed, regardless of filters and selection.
+The **Imported Subscriptions** page serves as an intermediate step for the data transfer of subscriptions. The imported data displays on this page. Use the **Create Subscriptions** action to create the subscriptions. The action always processes all lines that aren't processed, regardless of filters and selection.
 
 | Name | Description | To be filled |
 |--|--|--|
 |Entry No. (Integer)|System field of the table (consecutive number of records) - is created automatically and is in the background.|*Never*|
-|Service Object No. (Code20)|The service object is created with this number. To facilitate the assignment of service commitments, always import this number. The number series must allow manual number assignment.|**Always**|
-|Customer No. (Code20)|Indicates the number of the customer to whom the service commitments were sold. It's mandatory for the assignment to customer contracts.|**Always**|
-|Item No. (Code20)|Indicates the item number of the service object. It should be an item with service commitments or a service commitment item.|**Always**|
-|Description (Text100)|Indicates the description of the service object. If the description is empty, it uses the item's description when the service object is created.|Optional|
-|Quantity (Decimal)|Indicates the quantity of the service object.|**Always**|
-|Customer Reference (Text35)|Indicates the reference by which the customer knows the service object.|Optional|
+|Subscription No. (Code20)|The subscription is created with this number. To facilitate the assignment of service commitments, always import this number. The number series must allow manual number assignment.|**Always**|
+|Customer No. (Code20)|Indicates the number of the customer to whom the service commitments were sold. It's mandatory for the assignment to customer subscription contracts.|**Always**|
+|Item No. (Code20)|Indicates the item number of the subscription. It should be an item with service commitments or a service commitment item.|**Always**|
+|Description (Text100)|Indicates the description of the subscription. If the description is empty, it uses the item's description when the subscription is created.|Optional|
+|Quantity (Decimal)|Indicates the quantity of the subscription.|**Always**|
+|Customer Reference (Text35)|Indicates the reference by which the customer knows the subscription.|Optional|
 |Bill-to Cust. No. (Code20)|A different invoice recipient (Customer) can be specified here. Related fields are filled automatically (for example, Bill-to Contact No., and so on).|Optional|
 |Bill-to Contact No. (Code20)|A different invoice recipient (Contact) can be specified here.|Optional|
 |Ship-to Code (Code10)|A different shipment address can be specified here. Related fields are filled automatically.|Optional|
 |Contact No. (Code20)|Can be specified if different from primary contact.|Optional|
 |Unit of measure (Code10)|Can be specified if different from the unit of the item.|Optional|
-|Serial No. (Code50)|Indicates the serial number of the service object. Service objects with serial number can only have a **Quantity**=**1**.|Optional|
-|Provision Start Date (Date)|Indicates the date from which the service object and the related service commitments were provided to the customer. It has no relevance for billing.|Optional|
-|Provision End Date (Date)|Indicates the date from which the service object and related service commitments are no longer available to the customer. It has no relevance for billing.|Optional|
-|Key (Text100)|Displays a key in the service object.|Optional|
-|Version (Text100)|Display of the version in the service object.|Optional|
+|Serial No. (Code50)|Indicates the serial number of the subscription. Subscriptions with serial number can only have a **Quantity**=**1**.|Optional|
+|Provision Start Date (Date)|Indicates the date from which the subscription and the related service commitments were provided to the customer. It has no relevance for billing.|Optional|
+|Provision End Date (Date)|Indicates the date from which the subscription and related service commitments are no longer available to the customer. It has no relevance for billing.|Optional|
+|Key (Text100)|Displays a key in the subscription.|Optional|
+|Version (Text100)|Display of the version in the subscription.|Optional|
 
-If the processing is successful, a service object is created and **Service Object Created** is selected.
+If the processing is successful, a subscription is created and **Subscription Created** is selected.
 
 * The **Processed by** field shows the user who performed the processing.
 * The **Processed on** field shows the date and time of the processing.
@@ -100,13 +100,13 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 | Name | Description | To be filled |
 |---|---|---|
 |Entry No. (Integer)| System field of the table (consecutive number of records) - is created automatically and is in the background | **Never** |
-|Service Object No. (Code20)|The created service commitment is assigned to this service object.|**Always**|
-|Service Commitment Line No. (Integer)|Indicates the line number of the service in the service object. If no line number is specified, one is determined automatically.| **Optional** |
+|Subscription No. (Code20)|The created service commitment is assigned to this subscription.|**Always**|
+|Service Commitment Line No. (Integer)|Indicates the line number of the service in the subscription. If no line number is specified, one is determined automatically.| **Optional** |
 |Partner (Option: Customer, Vendor)|Indicates whether to invoice the service commitments on the vendor side (purchase invoice) or customer side (sales invoice).|**Always**|
 |Contract (Code20)|Indicates the number of the contract in which the service commitment is to be created as a contract line. Service commitments with **Invoicing via**=**Sales** can't be called up in contracts.|**Optional**|
 |Contract Line No. (Integer)|Indicates the line number of the contract line. If no line number is specified, one is determined automatically.|Optional|
 |Contract Line Type (Option: Comment, Service Commitment)|Specifies the type of the contract line.|**Always**|
-|Package Code (Code20)|Specifies the code of the subscription package. A vendor contract line might have the same service object and package code as the customer subscription contract line. When that's the case, the customer subscription contract dimension is copied to the vendor contract line.|**Optional**|
+|Package Code (Code20)|Specifies the code of the subscription package. A vendor contract line might have the same subscription and package code as the customer subscription contract line. When that's the case, the customer subscription contract dimension is copied to the vendor contract line.|**Optional**|
 |Template Code (Code20)|Indicates the name of the subscription package line template from which the service commitment was copied to the subscription package. It's just for information purposes.|**Optional**|
 |Description (Text100)|Indicates the description of the service commitments. If no description is specified, it's filled based on the service commitments.|**Always**|
 |Service Start Date (Date)|Indicates from which date the service commitments is valid and can be charged.|**Always**|
@@ -132,7 +132,7 @@ The **Imported Services Commitments** page serves as an intermediate step for th
 
 * Mandatory fields always apply to the creation of billable contract lines. Mandatory fields, for example, for comment lines, differ.
 
-If the processing is successful, service commitments and contract lines are created and **Service Object created** is selected.
+If the processing is successful, service commitments and contract lines are created and **Subscription Created** is selected.
 
 * The **Processed by** field shows the user who performed the processing.
 * The **Processed on** field shows the date and time of the processing.
@@ -164,4 +164,4 @@ The fields in the following table only need to be considered if billing is to ta
 ## Related information
 
 [General setup](general.md)  
-[Contract types](contract-types.md)
+[Subscription contract types](contract-types.md)

@@ -24,7 +24,7 @@ The following table describes the permission sets required for subscription and 
 |SUB. BILLING ALL     |Subscription Billing All         | Gives read-only access to subscription billing tables        |
 |SUB. BILLING ADMIN      | Subscription Billing Admin        |  This permission set is for administrators or power users who need to access to create, modify and delete subscription package line templates and subscription packages and customize setup.       |
 |SUB. BILLING BASIC     |  Subscription Billing Basic        |  Gives access to perform the basic day-to-day setup tasks in subscription billing.        |
-|SUB. BILLING USER      |  Subscription Billing User        |  This permission set is for all users working with service commitments, service objects, and contracts. In addition, billing proposals can be created for contracts on the **Recurring Billing** page. However, this permission isn't intended for setting up, creating, and editing service commitment templates and subscription packages.       |
+|SUB. BILLING USER      |  Subscription Billing User        |  This permission set is for all users working with service commitments, subscriptions, and contracts. In addition, billing proposals can be created for contracts on the **Recurring Billing** page. However, this permission isn't intended for setting up, creating, and editing service commitment templates and subscription packages.       |
 
 ## Related information
 

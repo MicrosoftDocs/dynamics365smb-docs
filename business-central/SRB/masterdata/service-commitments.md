@@ -15,9 +15,9 @@ ms.service: dynamics-365-business-central
 
 Subscription lines represent obligations to customers and suppliers. They usually begin with the delivery of an item to the customer, include subsequent support, and govern billing arrangements. A subscription line can also be the subject of provision itself, for example, in the case of a support service.
 
-During the sales process, all relevant information about appropriately set up items is collected and stored in the form of a service object. The service object is created automatically when the item is delivered (posting of sales shipment).
+During the sales process, all relevant information about appropriately set up items is collected and stored in the form of a subscription. The subscription is created automatically when the item is delivered (posting of sales shipment).
 
-Subscription line templates and subscription line packages are available for mapping and setting up subscription lines. Subscription lines are grouped into contracts (customer and vendor contracts) for management and billing purposes.
+Subscription line templates and subscription line packages are available for mapping and setting up subscription lines. Subscription lines are grouped into contracts (customer and vendor subscription contracts) for management and billing purposes.
 
 Subscription lines include the details of the obligations that the supplier of a product assumes towards its customers, which in turn are covered by its supplier, if applicable.
 
@@ -31,7 +31,7 @@ You can create subscription line templates to simplify the process of creating s
 
 ## Subscription line packages​
 
-Subscription lines are grouped into subscription line packages. You can use then **Assigned Items** action to assign them to items. At the time of delivery, the variable parameters (such as price calculations and durations) are converted into absolute values and attached as subscription lines to the sold item (service object).
+Subscription lines are grouped into subscription line packages. You can use then **Assigned Items** action to assign them to items. At the time of delivery, the variable parameters (such as price calculations and durations) are converted into absolute values and attached as subscription lines to the sold item (subscription).
 
 A subscription line package corresponds to the unit that's offered and sold to the customer. Both the service liabilities to the customer and the service receivables towards the own suppliers can be stored.
 
@@ -40,8 +40,8 @@ A subscription line package corresponds to the unit that's offered and sold to t
 
 ## Overview of subscription line package​ fields
 
-* In addition to the unique **Code** and **Description**, you can specify a **Price Group** to use when pricing subscription lines. To learn more, go to [Price group in sales subscription lines and service objects​](#price-group-in-sales-subscription-lines-and-service-objects).
-* **Partner** specifies whether to create a customer or vendor subscription line later. Accordingly, the subscription lines can then be called into customer or vendor contracts and invoiced through purchase or sales invoices.
+* In addition to the unique **Code** and **Description**, you can specify a **Price Group** to use when pricing subscription lines. To learn more, go to [Price group in sales subscription lines and subscriptions​](#price-group-in-sales-subscription-lines-and-service-objects).
+* **Partner** specifies whether to create a customer or vendor subscription line later. Accordingly, the subscription lines can then be called into customer or vendor subscription contracts and invoiced through purchase or sales invoices.
 * **Template** indicates whether the line was created based on a subscription line template. Specifying a subscription line template is optional. You cal also manually enter the line.
 * **Description** specifies the description of the subscription line.
 * To learn more about the **Invoicing** field, go to [Types of Subscription Lines](#types-of-subscription-lines).
@@ -62,7 +62,7 @@ A subscription line package corresponds to the unit that's offered and sold to t
 
 ## Dimensions​
 
-If a subscription line package contains lines with both **Partner=Customer** and **Partner=Vendor**, the dimensions of the later customer contract line pass to the corresponding vendor contract line. This is important when you analyze data, for example, the service package code is identical in data on both customer and vendor sides.
+If a subscription line package contains lines with both **Partner=Customer** and **Partner=Vendor**, the dimensions of the later customer subscription contract line pass to the corresponding vendor contract line. This is important when you analyze data, for example, the service package code is identical in data on both customer and vendor sides.
 
 ## Price group in sales subscription lines and service objects​
 
@@ -73,20 +73,20 @@ Before the prices for the subscription lines in the sales document can be calcul
 * If a subscription line package without a price group isn't found, all subscription line packages are considered. The default package for the item applies directly. Others are display-only.
 * If no subscription line package is found, no sales subscription lines are created.
 
-The determination of subscription lines when manually creating a service object is done in the same way as the creation and calculation of sales subscription lines. However, if you change the end user (customer) in the service object, the subscription lines must be recalculated if the price group of the new end user (customer) and the service object differ. The user receives a corresponding query. If they confirm, the subscription lines are deleted and recreated based on the above criteria. Otherwise, the end user (customer) resets to the original value.
+The determination of subscription lines when manually creating a subscription is done in the same way as the creation and calculation of sales subscription lines. However, if you change the end user (customer) in the subscription, the subscription lines must be recalculated if the price group of the new end user (customer) and the subscription differ. The user receives a corresponding query. If they confirm, the subscription lines are deleted and recreated based on the above criteria. Otherwise, the end user (customer) resets to the original value.
 
 > [!NOTE]
-> You can only change the subscription lines in the service object if none of the services are linked to a customer subscription contract or vendor contract.
+> You can only change the subscription lines in the subscription if none of the services are linked to a customer subscription contract or vendor contract.
 
 ## Types of subscription lines​
 
 * Contract
 
-   A subscription line for a service object where the **Invoicing via** field is set to **Contract** will be brought to invoicing in a defined cycle. Optionally, you can specify terms and notice periods.
+   A subscription line for a subscription where the **Invoicing via** field is set to **Contract** will be brought to invoicing in a defined cycle. Optionally, you can specify terms and notice periods.
 
 * Sales
 
-  A subscription line for a service object where **Invoicing via** is set to **Sales** won't be invoiced. The service object and subscription line serve as information only (for example, for the warranty period or the after-sale to a warranty).
+  A subscription line for a subscription where **Invoicing via** is set to **Sales** won't be invoiced. The subscription and subscription line serve as information only (for example, for the warranty period or the after-sale to a warranty).
 
 > [!NOTE]
 > Only subscription lines whose template is set to **Contract** in the **Invoicing via** field can be assigned to a customer or vendor contract, and thus billed on a recurring basis through that contract.

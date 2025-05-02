@@ -21,9 +21,9 @@ You can create a subscription contract renewal quote on the **Subscription Contr
 
 ### Get contract lines
 
-The **Get Contract Lines** action on the **Subscription Contract Renewal** page shows a filter page. On the filter page, set a date in the **Subscription Line End Date** field to specify the earliest end date from which to show contract lines. The **Add Vendor Subscription Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the service objects of the relevant vendor contract lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Subscription Line End Date** are also considered for contract renewals.
+The **Get Contract Lines** action on the **Subscription Contract Renewal** page shows a filter page. On the filter page, set a date in the **Subscription Line End Date** field to specify the earliest end date from which to show contract lines. The **Add Vendor Subscription Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the subscriptions of the relevant lines are checked to see if any additional vendor-side service commitments exist. Open vendor service commitments associated with a vendor contract that have a **Subscription Line End Date** are also considered for contract renewals.
 
-Therefore, if you turn on **Add Vendor Subscription Contract Lines** toggle, all vendor-side service commitments for the same service object are also considered for renewal.
+Therefore, if you turn on **Add Vendor Subscription Contract Lines** toggle, all vendor-side service commitments for the same subscription are also considered for renewal.
 
 If you need more filters, you can filter by any field on the **Customer Subscription Contract** and **Subscription Lines** pages. After you confirm the filters, renewal lines are created for all valid contract lines. A contract line is valid if you specify a **Subscription Line End Date** for the filter and the line isn't closed. The **Contract Renewal** page shows all lines.
 
@@ -41,7 +41,7 @@ Use the **Create Quotes** action on the **Subscription Contract Renewal** page t
 
 If the **Renewal Term** field on the renewal line is blank, the renewal line isn't included a quote and won't be renewed.
 
-The lines created on the sales quote have the **Service Object** type, and the **Contract Renewal** toggle is turned on. You can change the sales service commitment and add new items to the sales quote. You can't add new service commitments to the sales lines.
+The lines created on the sales quote have the **Subscription** type, and the **Contract Renewal** toggle is turned on. You can change the sales service commitment and add new items to the sales quote. You can't add new service commitments to the sales lines.
 
 You can print sales quotes. Sales lines with the **Contract Renewal** toggle turned on print only the quantity to avoid confusion between renewing the service commitments and selling additional items. The prices of sales subscription lines are printed. The total of the sales service commitment to renew is printed separately and labeled **Contract Renewal**.
 
@@ -66,7 +66,7 @@ If you invoice the contract line up to the **Service End Date**, the contract li
 > [!NOTE]
 > You can review the planned subscription lines for specific contract lines by using the **Planned Service Commitment exists** field on the **Lines** FastTab on the **Customer Subscription Contract** page.
 
-The **Planned Subscription Lines** page shows all planned subscription lines for all contracts. Because planned subscription lines can also exist for vendor service commitments, this field is also available on vendor contract lines.
+The **Planned Subscription Lines** page shows all planned subscription lines for all contracts. Because planned subscription lines can also exist for vendor service commitments, this field is also available on lines.
 
 ## Customer subscription contract
 
@@ -87,6 +87,6 @@ when you choose**OK** to close the **Select Subscription Contract Lines for Rene
 
 ## Related information
 
-[Customer contracts](customer-contracts.md)  
-[Vendor contracts](vendor-contracts.md)  
+[Customer subscription contracts](customer-contracts.md)  
+[Vendor subscription contracts](vendor-contracts.md)  
 [Contract deferrals](contract-deferrals.md)  

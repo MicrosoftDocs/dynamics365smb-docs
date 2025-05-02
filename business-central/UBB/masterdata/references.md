@@ -21,7 +21,7 @@ To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short
 
 The usage data usually only knows the subscription to which it's related. The service commitments, however, know to which contract they're assigned. The link is the subscriptions that connect to a service commitment.
 
-For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the service commitments. This path is how the usage data finds the related subscription, service commitments, service objects, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer contracts to bill for usage data.
+For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the service commitments. This path is how the usage data finds the related subscription, service commitments, subscriptions, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer subscription contracts to bill for usage data.
 
 ## References for subscriptions
 

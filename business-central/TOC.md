@@ -528,10 +528,10 @@ ms.service: dynamics-365-business-central
 ### Subscription billing
 #### [Overview of subscription billing](SRB/welcome.md)
 #### Contracts
-##### [Manage contracts, service objects, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
+##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
 ##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)
-##### [Create vendor contracts](SRB/working-with-contracts/vendor-contracts.md)
-##### [Use service objects](SRB/working-with-contracts/service-objects.md)
+##### [Create vendor subscription contracts](SRB/working-with-contracts/vendor-contracts.md)
+##### [Use subscriptions](SRB/working-with-contracts/service-objects.md)
 ##### [Use subscription lines](SRB/working-with-contracts/so-service-commitments.md)
 ##### [Update prices](SRB/working-with-contracts/price-update.md)
 ##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
@@ -552,7 +552,7 @@ ms.service: dynamics-365-business-central
 ##### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
 ##### [Manage usage data supplier references](UBB/masterdata/references.md)
 ##### [Manage usage for customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
-##### [Link subscriptions with service objects](UBB/processing-usage-data/connect-subscription-service-object.md)
+##### [Link subscriptions with subscriptions](UBB/processing-usage-data/connect-subscription-service-object.md)
 ##### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
 ##### [Extend subscription lines](UBB/masterdata/service-commitments.md)
 

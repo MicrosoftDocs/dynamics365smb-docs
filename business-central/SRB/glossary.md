@@ -35,7 +35,7 @@ The most important terms can be looked up in this glossary.
 * **Calculation Base %** <br/> The percentage for calculating the price of the service commitment. 100% means that the price of the service is equal to the Calculation Base Amount.
 * **Calculation Base Amount** <br/> The base amount for calculating the price.
 * **Calculation Base Type** <br/> Indicates how the service commitment price is calculated. "Item Price" uses the list price that is stored on the item. "Document Price" uses the price from the sales document. **Document Price and Discount** uses the price and discount from the sales document.
-* **Contract** <br/> Contract refers to customer and vendor contracts.
+* **Contract** <br/> Contract refers to customer and vendor subscription contracts.
 * **Contract Deferrals** <br/> Costs and revenues that are posted in a specific period but relate to a future period can be deferrals. These deferrals can be displayed across the board or per contract.
 * **Contract line** <br/> Services commitments assigned to a contract automatically create contract lines that you bill via the **Recurring Billing** page.
 * **Contract Type** <br/> Indicates the classification of the contract.
@@ -49,7 +49,7 @@ The most important terms can be looked up in this glossary.
 
 ## E
 
-* **End User** <br/> The end user is the customer to whom the service commitments were sold. You specify end users for service objects.
+* **End User** <br/> The end user is the customer to whom the service commitments were sold. You specify end users for subscriptions.
 
 ## I
 
@@ -85,7 +85,7 @@ The most important terms can be looked up in this glossary.
 * **Service Commitment Start Formula** <br/> Specifies the date from which a service commitment is valid using a formula. By using this Dateformula, the validity can be automatically set to, for example, the first of the following month. If the field remains empty, the service commitment is valid from delivery.
 * **Subscription package line template** <br/> Serves as the default for a service commitment and can be selected in the subscription package line.
 * **Service End Date** <br/> Indicates the date until which the service commitment is valid.
-* **Service Object** <br/> service objects represent a history of products sold to a customer. Service commitments are created in service objects.
+* **Subscription** <br/> Subscriptions represent a history of products sold to a customer. Service commitments are created in subscriptions.
 * **Service Start Date** <br/> The date from which the service commitments are valid and charged.
 * **Subsequent Term** <br/> Specifies a Dateformula for automatic renewal after the Initial Term and the rate at which "Cancellation Possible Until" and "Term Until" are updated. If the field is blank and either the Initial Term or the Notice Period is set at the same time, the Service End Date is automatically set to the expiration date of the Initial Term or the Notice Period.
 
@@ -95,7 +95,7 @@ The most important terms can be looked up in this glossary.
 
 ## V
 
-* **Vendor Contract** <br/> Vendor Contracts can be used to retrieve and process vendor-side service commitments before creating vendor posting documents.
+* **Vendor Subscription Contract** <br/> Vendor subscription contracts can be used to retrieve and process vendor-side service commitments before creating vendor posting documents.
 
 ## Related information
 

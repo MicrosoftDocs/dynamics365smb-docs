@@ -125,4 +125,4 @@ The period calculation works almost the same in leap years as in normal years. T
 
 ## Related information
 
-[Customer contracts](customer-contracts.md)  
+[Customer subscription contracts](customer-contracts.md)  

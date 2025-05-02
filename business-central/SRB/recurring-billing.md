@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Recurring billing
 
-You bill contracts from the **Recurring Billing** page. First you create a billing proposal, based on which the posting documents such as invoices and credit memos, in a second step. To learn more about posting documents, go to [Posting documents](posting-documents.md). The billing or the creation of the billing proposal is based on the contract lines, taking into account the date in the **Next Billing Date** field. To learn more, go to [Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md).
+You bill contracts from the **Recurring Billing** page. First you create a billing proposal, based on which the posting documents such as invoices and credit memos, in a second step. To learn more about posting documents, go to [Posting documents](posting-documents.md). The billing or the creation of the billing proposal is based on the contract lines, taking into account the date in the **Next Billing Date** field. To learn more, go to [Managing contracts, subscriptions, and services commitments](working-with-contracts/contracts-services-mgmt.md).
 
 ## Work with billing proposals
 
@@ -45,13 +45,13 @@ The **Recurring Billing** page is structured as follows:
     The action opens the customer or vendor card of the current line.
    * **Contract** 
     The action opens the contract card of the current line.
-   * **Service Object** 
-    The action opens the service object of the current line.
+   * **Subscription** 
+    The action opens the subscription of the current line.
    * **Contract Line Dimensions** 
     Use to view the dimensions stored on the associated contract line.
 * **Billing Proposal Lines**
    * The billing proposal lines show the details of the lines to be billed.
-   * In addition to the contractor and the contract, information about the service object and the service commitments to be billed is also displayed.
+   * In addition to the contractor and the contract, information about the subscription and the service commitments to be billed is also displayed.
    * When **Create Billing Proposal** is called, one or more lines are created for each service commitments based on the **Next Billing Date** and the **Billing to Date**. Multiple lines are always created if the **Billing Rhythm** of the contract line fits several times into the period between **Next Billing Date** and **Billing to Date**. Each line displays information regarding the billing period (**Billing from** and **Billing to** fields) and the prices (**Service Amount**, **Price**, **Quantity** and **Discount** fields). Using this method, no contract line to be billed can be overlooked (as long as the filter criteria from the billing template are correct), as all past contract lines are automatically part of the filter.
    * It is possible to define a grouping for the billing proposal in the **Billing Template** ([see next section](#billing-templates)). If a grouping is set in the currently selected Default, the billing proposal lines can be expanded and collapsed based on this criterion. This is done using the double arrow next to the **Partner Name** heading. In addition, individual blocks can also be expanded and collapsed. This is done using the single arrow next to the **Partner Name** field in the line.
    * If a posting document (invoice or credit memo) has already been created, it is displayed via **Document Type** and **Document No.**. A click on the Document No. opens the posting document.
@@ -112,4 +112,4 @@ A credit memo to a contract invoice will also reset the **Next Billing Date** fi
 
 ## Related information
 
-[Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
+[Managing contracts, subscriptions, and services commitments](working-with-contracts/contracts-services-mgmt.md)  

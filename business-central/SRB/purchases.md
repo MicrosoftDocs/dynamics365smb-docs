@@ -20,9 +20,9 @@ In subscription billing, you purchase items with subscription lines in the same 
 
 For purchases, subscription lines work in the same way as sales subscription lines. You can either extend a vendor contract with a new item, or create a sales document with subscription lines that have **Vendor** specified in the **Partner** field on the **Assign Subscription Lines** page. To learn more, go to [Sales process](sales/sales-service-commitments.md). Depending on the selection in the **Calculation Base Type** field, the value in the **Calculation Base Amount** field is determined from the **Unit Cost** field on the sales lines or the **Last Direct Cost** field on the item. To learn more, go to [Price determination of service commitments](sales/price-calculation.md).
 
-## Service objects
+## Subscriptions
 
-When the item is delivered for an order, [!INCLUDE [prod_short](../includes/prod_short.md)] creates the service object and its service commitments. You can specify both customer and vendor service commitments for the service object.
+When the item is delivered for an order, [!INCLUDE [prod_short](../includes/prod_short.md)] creates the subscription and its service commitments. You can specify both customer and vendor service commitments for the subscription.
 
 ## Assign a vendor contract
 

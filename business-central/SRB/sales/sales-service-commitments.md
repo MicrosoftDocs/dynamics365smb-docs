@@ -40,7 +40,7 @@ You can check whether subscription lines are entered for the sales item in the *
 
 ## Shipping subscription lines
 
-When you ship an item on an order, a service object is automatically created if **Sales with Subscription Lines** or **Subscription Line Item** are selected in the **Subscription Line Option** field on the item. To learn more, go to [Subscription lines for items](../masterdata/items.md). The sales subscription lines for the sales item automatically transfer as subscription lines. A new service object is created for each shipment. Delivered subscription line items automatically display as invoiced, because the subscription lines are invoiced only through contracts.
+When you ship an item on an order, a subscription is automatically created if **Sales with Subscription Lines** or **Subscription Line Item** are selected in the **Subscription Line Option** field on the item. To learn more, go to [Subscription lines for items](../masterdata/items.md). The sales subscription lines for the sales item automatically transfer as subscription lines. A new subscription is created for each shipment. Delivered subscription line items automatically display as invoiced, because the subscription lines are invoiced only through contracts.
 
 > [!NOTE]
 > In sales orders, the behavior of subscription line items differs significantly from that of *normal* items in [!INCLUDE [prod_short](../../includes/prod_short.md)]. During an audit, the differences should be noted and explained to the auditor.
@@ -53,7 +53,7 @@ The item and value ledger entries for the subscription line items from sales ord
 
 When invoiced by a contract, item and value ledger entries are created with the **Invoiced Quantity** and **Sales Amount**.
 
-The item and its description, as well as the customer and the delivery address, transfer to the service object. The quantity on the service object corresponds to the quantity in the shipment. All values from the subscription lines in the order transfer to the subscription lines in the service object. The **Shipment Date** corresponds to the **Provision Start Date** in the service object.
+The item and its description, as well as the customer and the delivery address, transfer to the subscription. The quantity on the subscription corresponds to the quantity in the shipment. All values from the subscription lines in the order transfer to the subscription lines in the subscription. The **Shipment Date** corresponds to the **Provision Start Date** in the subscription.
 
 A **Agreed Sub. Line Start Date** can be entered in the sales subscription line for a sales item. If a **Agreed Sub. Line Start Date** is maintained in the sales subscription line, it's used as the **Service Start Date** and **Next Billing Date** in the service. If the field is blank, the **Service Start Date** and **Next Billing Date** are determined from the **Shipment Date** and **Subscription Line Start Formula** (the field is on the subscription line package line).
 
@@ -73,7 +73,7 @@ The **Term until** field indicates the next potential end date of a subscription
 
 If there is an agreed end date for a subscription line, specify an **Initial Term** date and leave the **Subsequent Term** empty. This way, upon delivery, the **Service End Date** is automatically determined based on the **Service Start Date**.
 
-To learn more about service objects and subscription lines, go to [Managing contracts, service objects, and subscription lines](../working-with-contracts/contracts-services-mgmt.md).
+To learn more about subscriptions and subscription lines, go to [Managing contracts, subscriptions, and subscription lines](../working-with-contracts/contracts-services-mgmt.md).
 
 ## Inventory picks
 

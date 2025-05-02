@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 ## Subscription Contract Setup
 
-Use the **Subscription Contract Setup** page to enter settings and defaults for creating and managing customer and vendor contracts. For example, use the page to specify the default number series.
+Use the **Subscription Contract Setup** page to enter settings and defaults for creating and managing customer and vendor subscription contracts. For example, use the page to specify the default number series.
 
 <!--### Inventory picks
 
@@ -23,7 +23,7 @@ If a location requires a dedicated warehouse activity when picking items (**Requ
 
 ### General
 
-The **Default Period Calculation​** determines which period calculation option is set on a subscription package line. To learn more about the **Align to Start of Month** and **Align to End of Month** options, go to [Managing contracts, service objects, and services commitments](../working-with-contracts/contracts-services-mgmt.md). By changing the default, the value updates in all existing subscription lines commitments, sales subscription lines, and subscription package lines. If the existing records aren't updated, the period calculation isn't changed. Only the default value for creating new subscription package lines changes.
+The **Default Period Calculation​** determines which period calculation option is set on a subscription package line. To learn more about the **Align to Start of Month** and **Align to End of Month** options, go to [Managing contracts, subscriptions, and services commitments](../working-with-contracts/contracts-services-mgmt.md). By changing the default, the value updates in all existing subscription lines commitments, sales subscription lines, and subscription package lines. If the existing records aren't updated, the period calculation isn't changed. Only the default value for creating new subscription package lines changes.
 
 You can set a date formula in the **Overdue Date Formula** field that filters for overdue subscription lines in the **Service Commitments - Overdue** cue in the **Subscription Billing** Role Center. For example, you can enter **3D** if you want the cue to count a service commitment as overdue if the service commitment's next billing date is three or more days past the work date. If you leave the field blank, the cue doesn't show anything.
 
@@ -37,7 +37,7 @@ Dimensions are usually used for analysis or reporting purposes. To learn more ab
 
 ### Number series
 
-The number series for customer contracts, vendor contracts, and service objects determine which number series are used to set default numbers when creating new entities.
+The number series for customer subscription contracts, vendor subscription contracts, and subscriptions determine which number series are used to set default numbers when creating new entities.
 
 ### Invoice details
 
@@ -53,7 +53,7 @@ The **Origin Name for Collective Sales Invoice** field is a default that is tr
 
 You can also specify whether additional texts that are added for contract lines when you create invoices. Their descriptions are used in the invoice line. You set up additional texts on the **Subscription Contract Setup** page, on the **Invoice Details** FastTab. The **Additional Lines 1 to 5** are created as text lines below the respective invoice line, depending on the configuration. The following contents can be passed to the invoice:
 
-* Description of the service object
+* Description of the subscription
 * Description of the service commitments
 * Customer reference
 * Serial number
@@ -68,9 +68,9 @@ Item templates contain the **Service Commitment Option** and **Subscription Pa
 
 ## General posting setup
 
-You set up the default G/L accounts to use in the same way as the [!INCLUDE [prod_short](../../includes/prod_short.md)] standard on the **General Posting Setup** page. The **Customer Subscription Contract Account**, **Customer Subscription Contract Deferral Account**, **Vendor Subscription Contract Account** and **Vendor Subscription Contract Deferral Account** are available for revenues from customer contracts, costs from vendor contracts and their respective deferrals. The fields are also included on the related **General Posting Setup** page. To learn more about how contract deferrals work, go to [Contract Deferrals](../working-with-contracts/contract-deferrals.md).
+You set up the default G/L accounts to use in the same way as the [!INCLUDE [prod_short](../../includes/prod_short.md)] standard on the **General Posting Setup** page. The **Customer Subscription Contract Account**, **Customer Subscription Contract Deferral Account**, **Vendor Subscription Contract Account** and **Vendor Subscription Contract Deferral Account** are available for revenues from customer subscription contracts, costs from vendor subscription contracts and their respective deferrals. The fields are also included on the related **General Posting Setup** page. To learn more about how contract deferrals work, go to [Contract Deferrals](../working-with-contracts/contract-deferrals.md).
 
-The default G/L accounts to be used are set up in the same way as the Business Central standard via [General Posting Setup](../../finance-posting-groups.md) page. The fields **Customer Subscription Contract Account**, **Customer Subscription Contract Deferral Account**, **Vendor Subscription Contract Account** and **Vendor Subscription Contract Deferral Account** are available for revenues from customer contracts, costs from vendor contracts and their respective deferrals. The fields are also included in the related **General Posting Setup** page. To learn more about how contract deferrals work and are handled, go to [Contract Deferrals](../working-with-contracts/contract-deferrals.md).
+The default G/L accounts to be used are set up in the same way as the Business Central standard via [General Posting Setup](../../finance-posting-groups.md) page. The fields **Customer Subscription Contract Account**, **Customer Subscription Contract Deferral Account**, **Vendor Subscription Contract Account** and **Vendor Subscription Contract Deferral Account** are available for revenues from customer subscription contracts, costs from vendor subscription contracts and their respective deferrals. The fields are also included in the related **General Posting Setup** page. To learn more about how contract deferrals work and are handled, go to [Contract Deferrals](../working-with-contracts/contract-deferrals.md).
 
 ## Reports
 
@@ -93,4 +93,4 @@ An additional layout for Word and for RDL is supplied for each report.
 
 ## Related information
 
-[Contract types](contract-types.md)
+[Subscription contract types](contract-types.md)

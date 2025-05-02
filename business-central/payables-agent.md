@@ -106,12 +106,10 @@ The agent involves designated Business Central users, agent supervisors, if it i
 
 ## Permissions and profiles
 
-The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to. The profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and the profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
+The agent operates within the permissions and profile (role) assigned to it by the administrator. See [Set up the Sales Order Agent](payables-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements) to learn more about setting up permissions and how they work for agents.
 
 ## Next steps
-
-- [Set up the Sales Order Agent](sales-order-agent-setup.md)
-- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
+- [Set up the Payables Agent](payables-agent-setup.md)
 
 ## Related information
 

@@ -85,7 +85,7 @@ Copying an existing layout lets you quickly create a new, identical layout that 
 
     The new layout appears on the **Report Layouts** page.
 
-If needed, you can change the settings in your new layout. To learn more, go to [CModify a layout](#modify).
+If needed, you can change the settings in your new layout. To learn more, go to [Modify a layout](#modify).
 
 ### [Export a layout copy and import it as a new layout](#tab/export)
 

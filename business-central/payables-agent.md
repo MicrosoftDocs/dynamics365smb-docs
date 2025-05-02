@@ -28,9 +28,6 @@ The functionality of this preview does not represent the full vision of the Paya
 * Anomaly detection
 * And many other things to support in the accounts payables processes and accounting.
 
-### Activation and configuration
-
-The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, designate the users authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
 
 ## Payables Agent process flow
 The end-to-end process handled by the Payables Agent is illustrated in the figure below, which is followed by more details of the steps. The actual flow might vary depending on factors such as clarity of analysed invoice details and existing purchase invoice history, blocking issues, and so on.
@@ -45,6 +42,11 @@ The end-to-end process handled by the Payables Agent is illustrated in the figur
 1. **Payables Agent:** Uses AI to suggest invoice details based on the extracted invoice information.
 1. **Agent supervisor:** May be called upon to review, confirm or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
 1. **Payables Agent:** Finalizes the purchse document draft into a purchase invoice. Users can now see the invoice in the **Purchase Invoices** list.
+
+### Activation and configuration
+
+The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, designate the users authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
+
 
 ### Email monitoring
 

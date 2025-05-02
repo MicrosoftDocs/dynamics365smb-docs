@@ -83,7 +83,7 @@ The action of finalizing a purchase draft will effectively create a purchase inv
 
 ## Activation and configuration
 
-The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, designate the additional agent supervisors authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
+The agent is readily available in the product. To activate it, see [Payables Agent Setup](payables-agent-setup.md) to learn more about setting up the Payables Agent for desired agent supervisors.
 
 
 ## Billing for use

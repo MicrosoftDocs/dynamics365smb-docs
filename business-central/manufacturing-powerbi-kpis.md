@@ -735,12 +735,12 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 #### Actual Costs
 
-- [Actual Capacity Cost]()
-- [Actual Capacity Overhead Cost]()
-- [Actual Manufacturing Overhead Cost]()
-- [Actual Material Cost]()
-- [Actual Subcontracted Cost]()
-- [Total Actual Cost]()
+- [Actual Capacity Cost](#actual-capacity-cost)
+- [Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)
+- [Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost)
+- [Actual Material Cost](#actual-material-cost)
+- [Actual Subcontracted Cost](#actual-subcontracted-cost)
+- [Total Actual Cost](#total-actual-cost)
 
 #### Actual Capacity Cost
 

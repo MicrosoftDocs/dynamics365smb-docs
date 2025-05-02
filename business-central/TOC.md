@@ -525,37 +525,6 @@ ms.service: dynamics-365-business-central
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
-### Subscription billing
-#### [Overview of subscription billing](SRB/welcome.md)
-#### Contracts
-##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
-##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)
-##### [Create vendor subscription contracts](SRB/working-with-contracts/vendor-contracts.md)
-##### [Use subscriptions](SRB/working-with-contracts/service-objects.md)
-##### [Use subscription lines](SRB/working-with-contracts/so-service-commitments.md)
-##### [Update prices](SRB/working-with-contracts/price-update.md)
-##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
-##### [Defer revenue and expenses in contracts](SRB/working-with-contracts/contract-deferrals.md)
-##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
-#### Sales
-##### [Sales with subscription lines](SRB/sales/sales-service-commitments.md)
-##### [Price determination of subscription lines](SRB/sales/price-calculation.md)
-##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
-##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
-#### [Recurring billing](SRB/recurring-billing.md)
-#### [Posting documents](SRB/posting-documents.md)
-#### [Purchasing](SRB/purchases.md)
-#### Bill subscriptions based on usage
-##### [Overview of usage-based billing](UBB/welcome.md)
-##### [Import and process usage data](UBB/processing-usage-data/imports-processing.md) 
-##### [Use data exchange definitions to record usage](UBB/masterdata/dataexchangedefinitions.md)
-##### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
-##### [Manage usage data supplier references](UBB/masterdata/references.md)
-##### [Manage usage for customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
-##### [Link subscriptions with subscriptions](UBB/processing-usage-data/connect-subscription-service-object.md)
-##### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
-##### [Extend subscription lines](UBB/masterdata/service-commitments.md)
-
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -621,6 +590,37 @@ ms.service: dynamics-365-business-central
 ### [Merge duplicate records](sales-how-merge-duplicate-records.md)
 ### [Work with recurring revenue](finance-recurring-invoicing.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
+### Subscription billing
+#### [Overview of subscription billing](SRB/welcome.md)
+#### Contracts
+##### [Manage contracts, subscriptions, and subscription lines](SRB/working-with-contracts/contracts-services-mgmt.md)
+##### [Create customer subscription contracts](SRB/working-with-contracts/customer-contracts.md)
+##### [Create vendor subscription contracts](SRB/working-with-contracts/vendor-contracts.md)
+##### [Use subscriptions](SRB/working-with-contracts/service-objects.md)
+##### [Use subscription lines](SRB/working-with-contracts/so-service-commitments.md)
+##### [Update prices](SRB/working-with-contracts/price-update.md)
+##### [Renew contracts](SRB/working-with-contracts/contract-renewal.md)
+##### [Defer revenue and expenses in contracts](SRB/working-with-contracts/contract-deferrals.md)
+##### [Terminate contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
+#### Sales
+##### [Sales with subscription lines](SRB/sales/sales-service-commitments.md)
+##### [Price determination of subscription lines](SRB/sales/price-calculation.md)
+##### [Handle currencies](SRB/sales/dealing-with-currencies.md)
+##### [Credit memos](SRB/sales/credit-memo-cancellation.md)
+#### [Recurring billing](SRB/recurring-billing.md)
+#### [Posting documents](SRB/posting-documents.md)
+#### [Purchasing](SRB/purchases.md)
+#### Bill subscriptions based on usage
+##### [Overview of usage-based billing](UBB/welcome.md)
+##### [Import and process usage data](UBB/processing-usage-data/imports-processing.md) 
+##### [Use data exchange definitions to record usage](UBB/masterdata/dataexchangedefinitions.md)
+##### [Manage usage data suppliers](UBB/masterdata/suppliers.md)
+##### [Manage usage data supplier references](UBB/masterdata/references.md)
+##### [Manage usage for customers and subscriptions](UBB/masterdata/customers-subscriptions.md)
+##### [Link subscriptions with subscriptions](UBB/processing-usage-data/connect-subscription-service-object.md)
+##### [Extend contracts](UBB/processing-usage-data/extend-contract.md)
+##### [Extend subscription lines](UBB/masterdata/service-commitments.md)
+
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)

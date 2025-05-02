@@ -2565,6 +2565,7 @@ ms.service: dynamics-365-business-central
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
 ## Payables agent (preview)
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)

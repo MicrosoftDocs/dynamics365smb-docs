@@ -742,7 +742,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 - [Actual Subcontracted Cost](#actual-subcontracted-cost)
 - [Total Actual Cost](#total-actual-cost)
 
-#### Actual Capacity Cost
+##### Actual Capacity Cost
 
 **Formula**
 
@@ -771,7 +771,7 @@ This complex calculation ties together various production and inventory details 
 - Capacity Ledger Entry
 - Inventory Adjmt. Entry (Order)
 
-#### Actual Capacity Overhead Cost
+##### Actual Capacity Overhead Cost
 
 **Formula**
 
@@ -781,7 +781,7 @@ This complex calculation ties together various production and inventory details 
 
 - Capacity Ledger Entry
 
-#### Actual Manufacturing Overhead Cost
+##### Actual Manufacturing Overhead Cost
 
 **Formula**
 
@@ -815,7 +815,7 @@ This measure captures both proportional overhead based on other costs and fixed 
 - Capacity Ledger Entry
 - Value Entry
 
-#### Actual Material Cost
+##### Actual Material Cost
 
 **Formula**
 
@@ -830,7 +830,7 @@ The result is then multiplied by -1 to reflect material consumption as a cost.
 
 - Value Entry
 
-#### Actual Subcontracted Cost
+##### Actual Subcontracted Cost
 
 **Formula**
 The **Actual Subcontracted Cost** measure calculates the total direct cost of subcontracted work associated with production orders. Here's how it works:
@@ -869,7 +869,7 @@ This measure isolates and aggregates costs related to subcontracted operations.
 - Capacity Ledger Entry
 - Inventory Adjmt. Entry (Order)
 
-#### Total Actual Cost
+##### Total Actual Cost
 
 **Formula**
 
@@ -893,12 +893,134 @@ This measure provides a comprehensive view of all actual costs incurred during t
 
 #### Capacity Need
 
-- [Prod Order Actual Capacity Need]()
-- [Prod Order Capacity Need Dev %]()
-- [Prod Order Capacity Need Variance]()
-- [Prod Order Expected Capacity Need]()
-- [Prod Order Expected Capacity Need (Finished)]()
-- [Prod Order Expected Capacity Need (Non Finished)]()
+- [Prod Order Actual Capacity Need](#prod-order-actual-capacity-need)
+- [Prod Order Capacity Need Dev %](#prod-order-capacity-need-dev-percent)
+- [Prod Order Capacity Need Variance](#prod-order-capacity-need-variance)
+- [Prod Order Expected Capacity Need](#prod-order-expected-capacity-need)
+- [Prod Order Expected Capacity Need (Finished)](#prod-order-expected-capacity-need-finished)
+- [Prod Order Expected Capacity Need (Non Finished)](#prod-order-expected-capacity-need-non-finished)
+
+##### Prod Order Actual Capacity Need
+
+**Formula**
+
+The **Prod Order Actual Capacity Need** measure calculates the actual capacity used for production orders, converted into the unit of measure specified in the manufacturing setup. Here's a breakdown of how it works:
+
+1. **Manufacturing Time Factor**:
+   Retrieves the appropriate time factor from the *Time Factors* table based on the capacity unit defined in the *Manufacturing Setup*.
+
+2. **Quantity Calculation** (`Qty` variable):
+   Iterates over filtered *Capacity Ledger Entries* (excluding subcontracting), and for each row:
+
+   - Determines the **Qty Per Capacity Unit of Measure** (defaulting to 1 if zero).
+   - Looks up the appropriate **Time Factor**:
+
+     - If the **Qty Per Capacity Unit of Measure** is zero, it uses the time factor based on the work center’s unit of measure.
+     - Otherwise, it uses the time factor based on the entry's own capacity unit.
+   - Computes the adjusted quantity as:
+     `quantity / QtyPerCapUnitOfMeasure * TimeFactor`.
+
+3. **Final Conversion**:
+   The total adjusted quantity is then divided by the **Manufacturing Time Factor** to express it in the target unit.
+
+This measure provides a standardized view of how much capacity was actually used, accounting for differences in units and time factors across capacity entries.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Manufacturing Setup
+
+##### Prod Order Capacity Need Dev Percent
+
+**Formula**
+
+- The **Prod Order Capacity Need Dev %** measure calculates the percentage deviation in capacity need by dividing the **[Prod Order Capacity Need Variance](#prod-order-capacity-need-variance)** by the **[Prod Order Expected Capacity Need](#prod-order-expected-capacity-need)**. This measure indicates how much the actual capacity usage differs from the expected need, expressed as a percentage.
+
+**Data Source**
+
+- Prod Order Routing Line
+- Prod Order Capacity Need
+- Capacity Ledger Entry
+- Manufacturing Setup
+
+##### Prod Order Capacity Need Variance
+
+**Formula**
+
+- The **Prod Order Capacity Need Variance** measure calculates the difference between the actual and expected capacity need for a production order by subtracting the **[Prod Order Expected Capacity Need](#prod-order-expected-capacity-need)** from the **[Prod Order Actual Capacity Need](#prod-order-actual-capacity-need)**. This measure quantifies how much more or less capacity was used than originally planned.
+
+**Data Sources**
+
+- Prod Order Routing Line
+- Prod Order Capacity Need
+- Capacity Ledger Entry
+- Manufacturing Setup
+
+##### Prod Order Expected Capacity Need
+
+**Formula**
+
+The **Prod Order Expected Capacity Need** measure returns the appropriate expected capacity need based on the status of the production order:
+
+- If the **Prod Order Status** is **"Finished"**, it returns **[Prod Order Expected Capacity Need (Finished)](#prod-order-expected-capacity-need-finished)**.
+- For all other statuses, it returns **[Prod Order Expected Capacity Need (Non Finished)](#prod-order-expected-capacity-need-non-finished)**.
+
+This ensures the measure reflects different logic depending on whether the production order is completed or still in progress.
+
+**Data Source**
+
+- Prod Order Routing Line
+- Prod Order Capacity Need
+- Manufacturing Setup
+
+##### Prod Order Expected Capacity Need (Finished)
+
+**Formula**
+
+The **Prod Order Expected Capacity Need (Finished)** measure calculates the expected capacity required for **finished** production orders, adjusted to a standardized unit of measure. Here's how it works:
+
+1. **Time Factor**:
+   Retrieves the time conversion factor from the *Time Factors* table based on the unit configured in the *Manufacturing Setup*.
+
+2. **Expected Capacity Need**:
+   Sums the **Expected Capacity Need** from the *Prod Order Routing Lines* table, filtering for:
+
+   - Production orders with status **"Finished"**
+   - Work centers that are **not subcontractors**
+
+3. **Conversion**:
+   Divides the total expected capacity by the **Time Factor** to express the result in the standard capacity unit.
+
+This measure provides a normalized view of planned capacity usage for completed production orders, excluding subcontracted operations.
+
+**Data Source**
+
+- Prod Order Routing Line
+- Manufacturing Setup
+
+##### Prod Order Expected Capacity Need (Non Finished)
+
+**Formula**
+
+The **Prod Order Expected Capacity Need (Non Finished)** measure calculates the expected capacity required for **non-finished** production orders, adjusted to a standardized unit of measure. Here's how it works:
+
+1. **Time Factor**:
+   Retrieves the time conversion factor from the *Time Factors* table based on the unit defined in the *Manufacturing Setup*.
+
+2. **Expected Capacity Need**:
+   Sums the **neededTimeMs** from the *Prod Order Capacity Need* table, filtering for:
+   - Production orders with a status **not equal to** "Finished"
+   - Work centers that are **not subcontractors** (i.e., **Work Center Subcontractor No.** is blank)
+
+3. **Conversion**:
+   Divides the total **neededTimeMs** by the **Time Factor** to express the result in the standard capacity unit.
+
+This measure provides a normalized view of the planned capacity usage for ongoing or unfinished production orders, excluding subcontracted operations.
+
+**Data Source**
+
+- Prod Order Capacity Need
+- Manufacturing Setup
 
 #### Expected Costs
 

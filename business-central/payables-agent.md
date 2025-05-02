@@ -52,21 +52,24 @@ The agent is readily available in the product. To activate it, you specify the e
 
 The agent relies on an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices in the form of PDF documents. The dispatcher triggers the agent to perform tasks and subsequently imports the PDF document into **Inbound E-Documents**.
 
-### OCR (Optical Character Recognition) analysis of vendor invoices
+> [!NOTE]
+> While the agent is in preview, it is recommended to use a designated mailbox for receiving vendor invoices. If a mailbox is used by multiple agents (i.e. shared with the Sales Order Agent) it will cause conflict of ownership of incoming emails.
 
-For every imported PDF document that constitute a vendor invoice in **Inbound E-Documents**, the PDF is sent for OCR (Optical Character Recognition) analysis with Azure Document Intelligence and the result is stored in the same E-Document record. 
+### Extraction of invoice data
 
-The agent helps with categorizing imported PDF documnents where it is uncertain if the PDF is actually a vendor invoice. These can easily be identified in **Inbound E-Documents** via the **For review** view and from the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 
+For every imported PDF document that constitute a vendor invoice in **Inbound E-Documents**, the PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence and the result is stored in the same E-Document record. 
+
+The agent helps with categorizing imported PDF documents where it is uncertain if the PDF is actually a vendor invoice. These can easily be identified in **Inbound E-Documents** via the **For review** view and from the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 
 
 ### Suggesting invoice details
-A PDF document which, with high confidence, is considered a valid vendor invoice, is now processed by the agent which will start by identifying the vendor for which to create the purchase invoice draft. In this process, the agent may need the assistance of a user if the agent cannot confidently identify the correct vendor. 
+A PDF document which, with high confidence, is considered a valid vendor invoice, is now processed by the agent which will start by identifying the vendor for which to create the purchase invoice draft. In this process, the agent may need the assistance of an agent supervisor if the agent cannot confidently identify the correct vendor. 
 
-Once the vendor has been identified the processing of the invoice details can commence. Here, the agent uses a variety of different methods to arrive at the best possible suggestions. For example, the agent may consider a mix of AI, the history of vendor invoices, potential mapping of text to G/L accounts, Item References, Recurring Purchase Lines, and more. All of the agents suggestions for the specific vendor invoice will be recorded in a draft related to the specific **Inbound E-Document**. This draft can be reached either from the **Inbound E-Document** when not interacting with the agent, and will also be reffered and linked to when interacting with the agent, when there is a need to involve a user. 
+Once the vendor has been identified the line-level processing of the invoice details begins. The agent uses a variety of different methods to arrive at the best possible suggestions. For example, the agent may consider a mix of AI, the history of vendor invoices, potential mapping of text to G/L accounts, Item References, Recurring Purchase Lines, and more. All of the agent's suggestions for the specific vendor invoice will be recorded in a **Purchase document draft** related to the specific **Inbound E-Document**. This draft can be reached either from the **Inbound E-Document** when not interacting with the agent, and will also be reffered and linked to when interacting with the agent in the agent sidcar in the Copilot pane, when there is a need to involve an agent supervisor. 
 
 ### Drafts of the suggested vendor invoice
-The draft page is called **Purchase document draft** and represents the place in the process where suggestions are presented to the user by the agent, and where the agent explains why certain suggestions have been made. This is helpful for users to learn about the agents reasoning and can help users make descision whether to adjust the suggestions before finalizing the draft.
+The **Purchase document draft** represents the place in the process where the agent's suggestions are presented to the user and where the agent explains why certain suggestions have been made. This is helpful for users to learn about the agent's reasoning and can help users make descision whether to adjust the suggestions before finalizing the draft.
 
-Once a draft has been finalized it will be linked to the purchase invoice that is created and no longer be editable. However, the draft will be kept as long as the purchase invoice exists.
+The action of finalizing a purchase draft will effectively create a purchase invoice based on the draft. Once a draft has been finalized it will be linked to the purchase invoice that is created and no longer be editable. However, the draft will be kept as long as the purchase invoice exists as a document.
 
 > [!NOTE]
 > Even though a regular purchase invoice entity in Business Central can be considered a draft until it is posted, the **Purchase document draft** page has been introduced as an intermediary stage to 1) present users with a option to make corrections before finalizing the draft into a real unposted purchase invoice, and to 2) have a designated stage to review AI generated content.
@@ -83,18 +86,9 @@ This flexibility enables the agent to discover and interact with relevant custom
 
 Users can inspect the agent's steps and the imported PDF invoices and suggested purchase invoice drafts. They can easily identify the data entered by the agent compared to data generated by Business Central's own business logic and imported data from the OCR analysis, and change the purchase invoice draft if needed.
 
-The agent involves designated Business Central users if it is unsure how to proceed with registering the invoice. For example if the vendor could not be identified with confidence.
+The agent involves designated Business Central users, agent supervisors, if it is unsure how to proceed with registering the invoice. For example if the vendor could not be identified with confidence.
 
-### How the agent processes requests
-
-The agent monitors mailboxes and SharePoint/OneDrive folders and looks for PDF documents. This is achieved via the **E-Documents Connector for Microsoft 365** which will automatically be set up when the agent is configured (learn more in [Set up Payables Agent](payables-agent-setup.md)). You determine if you want to monitor mailboxes and/or folders in SharePoint and OneDrive. Regardless of the source the agent will import the PDF into **Inbound E-Documents** extract invoice information with Azure Document Intelligence. Then, the agent will create an AI generated draft of its interpretation of the invoice, and the draft is now ready for further processing by a user.
-
-Some steps require the user's intervention, like selecting the correct vendor to use for the invoice if the vendor could not be identified confidently by the agent. Learn more in [Agent process flow](#agent-process-flow).
-
-> [!NOTE]
-> While the agent is in preview, it is recommended to use a designated mailbox for receiving vendor invoices. If a mailbox is used by multiple agents (i.e. shared with the Sales Order Agent) it will cause conflict of ownership of incoming emails.
-
-## Permissions and profiles
+### Permissions and profiles
 
 The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to. The profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and the profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
 

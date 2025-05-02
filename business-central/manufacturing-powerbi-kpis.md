@@ -613,14 +613,123 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 ### Production Order Measures
 
-- [Actual Time Used]()
-- [Average Production Time Per Finished Quantity]()
-- [Expected Production Order Scrap Quantity]()
-- [Finished %]()
-- [No. of Production Orders]()
-- [Planned Quantity]()
-- [Remaining %]()
-- [Variance Quantity]()
+- [Actual Time Used](#actual-time-used)
+- [Average Production Time Per Finished Quantity](#average-production-time-per-finished-quantity)
+- [Expected Production Order Scrap Quantity](#expected-production-order-scrap-quantity)
+- [Finished %](#finished-percent)
+- [No. of Production Orders](#no-of-production-orders)
+- [Planned Quantity](#planned-quantity)
+- [Remaining %](#remaining-percent)
+- [Variance Quantity](#variance-quantity)
+
+#### Actual Time Used
+
+**Forumla**
+
+- The **Actual Time Used** measure calculates the total actual time used by production orders. It first summarizes the production orders and computes the **Actual Time** by summing the **quantity** from the *Capacity Ledger Entries* table, only when there is a **[Finished Quantity](#finished-quantity)**. Then, it sums up these values across all production orders using `SUMX`.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Production Order
+
+#### Average Production Time Per Finished Quantity
+
+**Formula**
+
+- The **Average Production Time Per Finished Quantity** measure calculates the average time spent on production per finished quantity by dividing the **[Actual Time Used](#actual-time-used)** by the **[Finished Quantity](#finished-quantity)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Production Order
+
+#### Expected Production Order Scrap Quantity
+
+**Formula**
+
+- The **Expected Production Order Scrap Quantity** measure calculates the expected scrap quantity for production orders by multiplying the **[Finished Quantity](#finished-quantity)** by the **Prod Order Source No. Scrap %** for the selected production order.
+
+**Data Source**
+
+- Production Order
+- Item
+- Item Ledger Entries
+
+#### Finished Percent
+
+**Forumla**
+
+- The **Finished %** measure calculates the percentage of finished quantity relative to the planned quantity by dividing the **[Finished Quantity](#finished-quantity)** by the **[Planned Quantity](#planned-quantity)**.
+
+**Data Source**
+
+- Production Order
+- Item Ledger Entry
+
+#### Finished Quantity
+
+**Formula**
+
+- The **Finished Quantity** measure calculates the total finished quantity for each production order source number. It summarizes the Production Orders table by Production Order and Prod Order Source No., and then calculates the finished quantity by summing the qty from the Item Ledger Entries table where the Entry Type is "Output" and the Item No. matches the selected Prod Order Source No.. Finally, it sums the finished quantities across all production orders using SUMX.
+
+**Data Source**
+
+- Production Order
+- Item Ledger Entry
+
+#### No. of Production Orders
+
+**Formula**
+
+- The **No. of Production Orders** measure calculates the total number of production orders by counting the distinct entries in the **Production Order** column of the *Production Orders* table.
+
+**Data Source**
+
+- Production Order
+
+#### Planned Quantity
+
+**Formula**
+
+- The **Planned Quantity** measure calculates the total planned quantity for production orders by summing the **quantity** column in the *Production Orders* table.
+
+**Data Source**
+
+- Production Order
+
+#### Production Order Scrap Percent
+
+**Formula**
+
+- The **Production Order Scrap %** measure calculates the percentage of scrap quantity relative to the finished quantity by dividing the **[Scrap Quantity](#scrap-quantity)** by the **[Finished Quantity](#finished-quantity)**.
+
+**Data Source**
+
+- Item Ledger Entry
+- Capacity Ledger Entry
+
+#### Remaining Percent
+
+**Formula**
+
+- The **Remaining %** measure calculates the remaining percentage of the planned quantity that hasn't been finished. It checks if the **[Finished Quantity](#finished-quantity)** is less than the **[Planned Quantity](#planned-quantity)**. If true, it returns the negative of the **[Variance Quantity](#variance-quantity)** divided by the **[Planned Quantity](#planned-quantity)**. If the finished quantity is equal to or greater than the planned quantity, it returns **BLANK**.
+
+**Data Source**
+
+- Item Ledger Entry
+- Production Order
+
+#### Variance Quantity
+
+**Formula**
+
+- The **Variance Quantity** measure calculates the difference between the **[Finished Quantity](#finished-quantity)** and the **[Planned Quantity](#planned-quantity)**, indicating whether the production order has a surplus or deficit in finished quantity relative to what was planned.
+
+**Data Source**
+
+- Item Ledger Entry
+- Production Order
 
 ### Production Order Statistics
 

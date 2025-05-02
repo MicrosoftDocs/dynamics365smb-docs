@@ -61,11 +61,11 @@ To bill service commitments, you must assign them to a contract. On the **Custom
 If the **Ship-to Name** is the same in the service object and the contract, the field value displays in bold.
 
 > [!TIP]
-> You can also open the **Services Commitments without Customer Contracts** page by using the **Service Commitments without Contracts** part on the **Subscription & Recurring Billing** Role Center, or by using TellMe search. In this case, the service commitments aren't filtered and the contract number isn't predefined.
+> You can also open the **Services Commitments without Customer Contracts** page by using the **Service Commitments without Contracts** part on the **Subscription Billing** Role Center, or by using TellMe search. In this case, the service commitments aren't filtered and the contract number isn't predefined.
 >
-> In addition to the **Subscription & Recurring Billing**, the part is also available on the **Company Hub**, **Business Manager**, **Service Manager**, **Sales Order Processor**, **Project Manager** and **Sales & Relationship Manager** Role Centers.
+> In addition to **Subscription Billing**, the part is also available on the **Company Hub**, **Business Manager**, **Service Manager**, **Sales Order Processor**, **Project Manager** and **Sales & Relationship Manager** Role Centers.
 
-When the service commitments in a contract transfer, contract lines are created with the content of the service commitments. Changes to contract lines transfer to the service commitments. The **Quantity** field displays the quantity of the related service object.
+When the subscription lines are in a contract transfer, contract lines are created with the content of the subscription lines. Changes to contract lines transfer to the subscription lines. The **Quantity** field displays the quantity of the related service object.
 
 > [!NOTE]
 > If an alternate ship-to party isn't entered in the contract when the first service is assigned to a customer subscription contract, the contract uses the ship-to party assigned to the service object. This assignment makes it easier to create a contract when you map a partner model.

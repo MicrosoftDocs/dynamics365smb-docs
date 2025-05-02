@@ -43,7 +43,7 @@ If the **Renewal Term** field on the renewal line is blank, the renewal line isn
 
 The lines created on the sales quote have the **Service Object** type, and the **Contract Renewal** toggle is turned on. You can change the sales service commitment and add new items to the sales quote. You can't add new service commitments to the sales lines.
 
-You can print sales quotes. Sales lines with the **Contract Renewal** toggle turned on print only the quantity to avoid confusion between renewing the service commitments and selling additional items. The prices of sales service commitments are printed. The total of the sales service commitment to renew is printed separately and labeled **Contract Renewal**.
+You can print sales quotes. Sales lines with the **Contract Renewal** toggle turned on print only the quantity to avoid confusion between renewing the service commitments and selling additional items. The prices of sales subscription lines are printed. The total of the sales service commitment to renew is printed separately and labeled **Contract Renewal**.
 
 ## Sales orders
 

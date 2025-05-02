@@ -62,9 +62,9 @@ The following illustration shows that items are set up with subscription package
 
 :::image type="content" source="../media/srbFlow.png" alt-text="Shows the flow in subscription billing.":::
 
-## Subscription & Recurring Billing Role Center​
+## Subscription Billing Role Center​
 
-The **Subscription & Recurring Billing** Role Center collects the features for recurring billing in one place, so things are easy to find. In addition to the master and transaction data, the Role Center provides fast access to the history of posted receipts. Documents that aren't posted (open posting documents for customers or vendors), and services that aren't assigned to contracts (services commitments without contracts) also display to alert you that something might still need to be done.
+The **Subscription Billing** Role Center collects the features for recurring billing in one place, so things are easy to find. In addition to the master and transaction data, the Role Center provides fast access to the history of posted receipts. Documents that aren't posted (open posting documents for customers or vendors), and services that aren't assigned to contracts (services commitments without contracts) also display to alert you that something might still need to be done.
 
 The revenues and costs figures show the current and previous month's revenues and costs that were posted in connection with contract billing.
 

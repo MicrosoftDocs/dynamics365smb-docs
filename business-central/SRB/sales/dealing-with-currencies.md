@@ -17,7 +17,7 @@ In [!INCLUDE [prod_short](../../includes/prod_short.md)], you can make transacti
 
 ## Foreign currencies in service commitments
 
-If you enter a currency code on a sales order, for example, or if you specify a currency for a customer, the price on the order is converted to that currency. This conversion is the same for sales service commitments in subscription billing. In the service commitments for the service object, the **Currency Code** field also indicates the currency to which the **Service Amount** field refers.
+If you enter a currency code on a sales order, for example, or if you specify a currency for a customer, the price on the order is converted to that currency. This conversion is the same for sales subscription lines in subscription billing. In the service commitments for the service object, the **Currency Code** field also indicates the currency to which the **Service Amount** field refers.
 
 When you manually create a service object with service commitments, the **Currency Code** field and the corresponding fields in the service are initially empty, even if a currency code is specified for the customer. The currency code can remain blank because the contract that's used to bill the service determines which currency to use.
 

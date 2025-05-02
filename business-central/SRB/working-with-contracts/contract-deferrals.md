@@ -63,11 +63,11 @@ Similar to the customer subscription contract, the G/L accounts to post to are d
 
 By default, the account used is the **Vendor Contract Deferral Account** field in the **General Posting Setup**. However, if the **Without Contract Deferrals** toggle is on on the **Vendor Contract** page, the invoice amount is immediately posted as a cost to the account in the **Vendor Contract Account** field. In this case, contract deferrals aren't created.
 
-### Calling contract deferrals from vendor contracts
+### Calling subscription contract deferrals from vendor contracts
 
-You can access vendor contract deferrals on the **Vendor Subscription Contract** page using the **Vendor Subscription Contract Deferrals** action. The **Vendor Subscription Contract Deferrals** page is the same as the **Customer Subscription Contract Deferrals** page.
+You can access vendor subscription contract deferrals on the **Vendor Subscription Contract** page using the **Vendor Subscription Contract Deferrals** action. The **Vendor Subscription Contract Deferrals** page is the same as the **Customer Subscription Contract Deferrals** page.
 
-## Methodology for creating contract deferrals
+## Methodology for creating subscription contract deferrals
 
 When posting the contract invoice, contract deferrals are created using the following schema:
 
@@ -79,7 +79,8 @@ When posting the contract invoice, contract deferrals are created using the foll
 
 ## Release deferrals
 
-The **Subscription Contract Deferrals Release** batch report is used to release invoice deferrals. This report runs through all contract deferrals (customer and vendor), filters using **Posting Until Date** from the report request page to the **Posting Date** and **Document Posting Date** fields, and reposts the items thus found from the accrual account to the cost or revenue account. The release takes place for debit-side and credit-side contract accruals at the same time. The **Posting Date** field from the report request page is used as the posting date for the closure. At the same time, the status in **Released** field in the contract deferrals is set to **Yes**.
+The **Subscription Contract Deferrals Release** batch report is used to release invoice deferrals. This report runs through all contract deferrals (customer and vendor), filters using **Posting Until Date** from the report request page to the **Posting Date** and **Document Posting Date** fields, and reposts the items found from the accrual account to the cost or revenue account. The release takes place for debit-side and credit-side contract accruals at the same time. The **Posting Date** field from the report request page is used as the posting date for the closure. At the same time, the status in **Released** field in the contract deferrals is set to **Yes**.
+
 We recommend that you run the release of contract deferrals on a monthly basis (for example, at the end of the month).
 
 When posting the release, the source code is used, which is stored in the **Subscription Contract Deferrals Release** field in the **Source Code Setup** page.

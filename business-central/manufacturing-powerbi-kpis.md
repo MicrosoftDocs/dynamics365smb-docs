@@ -1137,7 +1137,7 @@ This measure provides a complete view of all expected production costs, combinin
 - [Expected Subcontracted Cost Variance](#expected-subcontracted-cost-variance)
 - [Total Expected Cost Variance](#total-expected-cost-variance)
 
-##### Expected Capacity Cost Variance
+###### Expected Capacity Cost Variance
 
 **Formula**
 
@@ -1151,7 +1151,7 @@ This measure provides a complete view of all expected production costs, combinin
 - Capacity Ledger Entry
 - Inventory Adjmt. Entry (Order)
 
-##### Expected Capacity Overhead Cost Variance
+###### Expected Capacity Overhead Cost Variance
 
 **Formula**
 
@@ -1162,7 +1162,7 @@ This measure provides a complete view of all expected production costs, combinin
 - Capacity Ledger Entry
 - Prod Order Routing Line
 
-##### Expected Manufacturing Overhead Cost Variance
+###### Expected Manufacturing Overhead Cost Variance
 
 **Formula**
 
@@ -1177,7 +1177,7 @@ This measure provides a complete view of all expected production costs, combinin
 - Prod Order Routing Line
 - Prod Order Component
 
-##### Expected Material Cost Variance
+###### Expected Material Cost Variance
 
 **Formula**
 
@@ -1188,7 +1188,7 @@ The **Expected Material Cost Variance** measure calculates the difference betwee
 - Value Entry
 - Prod Order Component
 
-##### Expected Subcontracted Cost Variance
+###### Expected Subcontracted Cost Variance
 
 **Formula**
 
@@ -1202,7 +1202,7 @@ The **Expected Material Cost Variance** measure calculates the difference betwee
 - Prod Order Routing Line
 - Prod Order Component
 
-##### Total Expected Cost Variance
+###### Total Expected Cost Variance
 
 **Formula**
 

@@ -79,7 +79,7 @@ The **Payables Agent** icon changes to ![Shows the Payables Agent icon after con
 
 
 > [!NOTE]
-> The ![Shows the Payables Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Sales Order Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
+> The ![Shows the Payables Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Payables Order Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
 
 ## Manage agent permissions and user access
 
@@ -105,7 +105,7 @@ As an administrator, you can specify which users have permission to use or confi
 1. In the **User access** section, you can do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
-   - To give a user permission to configure Sales Order Agent, select the **Can configure** check box.
+   - To give a user permission to configure Payables Agent, select the **Can configure** check box.
    - To remove a user's access to the agent, select ![Shows the icon to show more option on a field](media/show-more-options-icon.png) **Show more options** next to the user name, and then select **Delete**.
 
 ---
@@ -114,7 +114,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 The Payables Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **PAYABLES AGENT - [COMPANY]** to open the agent card page.
 
-The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Payables Agent has the **PAYABLES AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for handling sales quote requests.
+The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Payables Agent has the **PAYABLES AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for processing vendor invoices.
 
 You can't modify the **PAYABLES AGENT – EDIT** permission set directly, because it's a system permissions set. However, you can create a copy of **PAYABLES AGENT – EDIT** permission set, modify the copy to suit your needs, then add it to **Agent Permission Sets** section, along with any other permission sets.
 
@@ -133,13 +133,13 @@ These system permissions are also included in the following permission sets, ent
 - Essential and Premium license entitlements now include **Manage Agent Tasks** permissions.
 - All license types include **Configure All Agents** permissions.
 
-Users can configure the Sales Order Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
+Users can configure the Payables Agent if they have the **Configure All Agents** permission or are listed as an agent user with the **Can Configure** field selected.
 
 Users can work with agent tasks in the Copilot pane if they have the **Manage Agent Tasks** permission (either explicitly or as part of their Essential or Premium license permissions) and are listed as an agent user.
 
 ## Change language and regional settings
 
-[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
+[!INCLUDE[payables-agent-language-support](includes/payables-agent-language-support.md)]
 
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Select **User Settings**.

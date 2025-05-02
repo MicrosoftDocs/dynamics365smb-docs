@@ -80,7 +80,7 @@ The selected reason code will be copied to new journal batches created under thi
 
 When the invoice is posted, the reason code is copied to each general ledger, customer, and vendor entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

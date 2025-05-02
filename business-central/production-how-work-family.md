@@ -35,7 +35,7 @@ Forming production families reduces the scrap quantity because what would normal
 3. In the **Source Type** field, select **Family**.  
 4. In the **Source No.** field, select the relevant production family.
 
-## See Also
+## Related information
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

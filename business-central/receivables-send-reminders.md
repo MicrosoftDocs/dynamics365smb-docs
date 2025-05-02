@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## See Also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Multiple Interest Rates for Delayed Payment](finance-how-to-set-up-multiple-interest-rates.md)  

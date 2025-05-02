@@ -57,7 +57,7 @@ Rate of TCS is defined in combination of TCS nature of collection and assessee c
 
 
 
-## See Also 
+## Related information 
 [TCS 206C-1H-Transaction](TCS-206C-1H-Transactions.md)
 
 

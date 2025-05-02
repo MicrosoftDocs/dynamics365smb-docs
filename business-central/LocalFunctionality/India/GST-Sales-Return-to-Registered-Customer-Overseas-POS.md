@@ -55,7 +55,7 @@ For example, there's a sales credit memo for INR 10,000 and 18% IGST has to be c
 
 
 
-## See also 
+## Related information 
 [Sale Return from Registered and Unregistered Customer](GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 
 

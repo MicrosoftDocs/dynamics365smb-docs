@@ -26,7 +26,7 @@ If you use foreign currency in general ledger accounts, then the balance in the 
 
 3. Choose the **Close** button.  
 
-## See also
+## Related information
 
 [Swiss General Ledger Accounts](swiss-general-ledger-accounts.md)  
 [General Ledger Balance in the Swiss Version](balance.md)  

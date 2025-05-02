@@ -48,7 +48,7 @@ To process electronic payments, you must first set up bank reference files to de
 
 1. Choose the **OK** button.  
 
-## See also
+## Related information
 
 - [Electronic Banking in Finland](electronic-banking-in-finland.md)
 - [Generate Payment Files](how-to-generate-payment-files.md)

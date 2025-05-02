@@ -24,7 +24,7 @@ You can import and export financial reports into other companies and databases.
 > [!NOTE]
 > When you import financial reports, all existing records with primary key values that are equal to imported values are deleted.
 
-## See also
+## Related information
 
 [Work with Financial Reports](How-to-Work-with-Account-Schedules.md)  
 

@@ -79,7 +79,7 @@ Tooltips are accessed in different ways, depending on the client (web or mobile)
 
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

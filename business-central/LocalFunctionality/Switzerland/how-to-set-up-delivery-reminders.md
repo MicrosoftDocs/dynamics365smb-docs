@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
 
-## See also
+## Related information
 
 [Delivery Reminders](delivery-reminders.md)  
 [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  

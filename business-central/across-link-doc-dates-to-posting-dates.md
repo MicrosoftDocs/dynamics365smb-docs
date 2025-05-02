@@ -13,6 +13,6 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## See also
+## Related information
 
 [Setting Up Sales](sales-setup-sales.md)

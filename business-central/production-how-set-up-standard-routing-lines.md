@@ -30,7 +30,7 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 
 When you print the routing sheeting, you can choose to include the elements from the standard task that you added to the routing lines.
 
-## See Also
+## Related information
 
 [Create Routings](production-how-to-create-routings.md)  
 [Create Production BOMs](production-how-to-create-production-boms.md)  

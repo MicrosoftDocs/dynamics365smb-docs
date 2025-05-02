@@ -14,7 +14,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## See also
+## Related information
 
 [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md)  
 [Delivery Reminders](delivery-reminders.md)  

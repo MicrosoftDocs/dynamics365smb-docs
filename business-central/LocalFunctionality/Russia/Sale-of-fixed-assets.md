@@ -48,7 +48,7 @@ A sale or transfer of a fixed asset consists of two stages.
 
 4. Post the invoice.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)  
 

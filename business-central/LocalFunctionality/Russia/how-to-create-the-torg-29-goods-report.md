@@ -45,7 +45,7 @@ When you run the report for a location, the **Last Goods Report No.** and **Last
 
 3. Choose the **Print** button.
 
-## See Also
+## Related information
 
 [Setting Up Inventory](../../inventory-setup-inventory.md)  
 

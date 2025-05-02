@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [unrealized-sales-tax-sales-payment-discounts-setup](../includes/CAMXUS/unrealized-sales-tax-sales-payment-discounts-setup.md)]
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Reporting Sales Tax in the US](us-sales-tax.md)  

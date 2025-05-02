@@ -73,7 +73,7 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 
 For more information, see [Fixed Asset Book Value 02 (report)](reports/report-5606.md).
 
-## See also
+## Related information
 
 [Fixed Asset Book Value 02 (report)](reports/report-5606.md)  
 [Fixed Assets](fa-manage.md)  

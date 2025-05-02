@@ -29,7 +29,7 @@ The following table describes the options for blocking customers.
 2. Select a customer, and then choose the **Edit** action.
 3. In the **Blocked** field, choose what to block, as described in the table above.
 
-## See also  
+## Related information  
 [Register New Customers](sales-how-register-new-customers.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Managing Receivables](receivables-manage-receivables.md)  

@@ -41,7 +41,7 @@ Before you can receive optical character recognition (OCR) payments, you must ma
 
 The OCR payment files are posted to the cash receipt journal.  
 
-## See also  
+## Related information  
  [Electronic Banking in Norway](electronic-banking-in-norway.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   

@@ -118,7 +118,7 @@ If a location uses both put-away processing and receive processing and you have 
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

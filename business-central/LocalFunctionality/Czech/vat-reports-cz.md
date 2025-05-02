@@ -21,7 +21,7 @@ To fulfill the requirements in legislation reporting and local reporting practic
 - VAT List on Sales Adv. Letter
 - VAT List on Purch. Adv. Letter
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

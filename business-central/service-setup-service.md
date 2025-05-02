@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | Set up service items and service item components. |[Set Up Service Items](service-how-setup-service-items.md) |
 | Lay the groundwork for creating service contracts and contract quotes. |[Set Up Service Contracts](service-how-setup-service-contracts.md) |
 
-## See also
+## Related information
 [Service Management](service-service.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 

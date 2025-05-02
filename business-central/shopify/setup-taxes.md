@@ -179,6 +179,6 @@ While the imported Shopify order contains information about taxes, the taxes get
 * Multiple product tax or VAT rates. For example, some product categories are eligible for reduced tax rates. You can use the [tax override](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) feature in Shopify. When you import and create items [!INCLUDE[prod_short](../includes/prod_short.md)], they use the tax setup specified on the item template code in the Shopify shop. Before you import orders with such items, update the VAT product posting group.  
 * Address-dependent tax rates. Use the **Tax Area Priority** field together with **Customer Templates** table to overwrite standard logic that fills in the **Tax Area Code** in the sales document. The **Tax Area Priority** field specifies the priority regarding where the function should take the information about the country or region and state or province. Then the corresponding record in the Shopify customer templates is identified, and the **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** are used when a sales document is created.  
 
-## See Also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

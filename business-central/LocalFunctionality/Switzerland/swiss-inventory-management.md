@@ -25,7 +25,7 @@ Additional information, such as customer number, ship-to address code, and custo
 ## Invoices with multiple shipments  
 If multiple shipments are posted for a customer, then you can create a combined invoice with the **Get Shipment Lines** function. For more information, see the Get Shipment Lines page. When you use this function, the text created on the invoice lines includes information about the shipment number and the shipment date. For example, the text could appear as Shipment No. 102040 of 25.01.01. This allows you to easily track invoices with multiple shipments.  
 
-## See also  
+## Related information  
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
  [Set Up Locations](../../inventory-how-setup-locations.md)
 

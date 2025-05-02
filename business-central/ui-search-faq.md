@@ -56,7 +56,7 @@ No, but you can easily get this information from the Help pane. Just select the 
 
 The bookmark icon isn't displayed in the Tell Me window when personalization is disabled for a user role.
 
-## See Also  
+## Related information  
 
 [Save and Personalize List Views](ui-views.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  

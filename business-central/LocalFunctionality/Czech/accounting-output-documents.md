@@ -31,7 +31,7 @@ In order to comply with the legislation, reporting features, and local reporting
 - Fiscal Year Balance – standard report adjusted
 - Trial Balance by Period – standard report adjusted
 
-## See Also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

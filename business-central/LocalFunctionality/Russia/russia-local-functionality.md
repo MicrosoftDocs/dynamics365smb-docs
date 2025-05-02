@@ -103,7 +103,7 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
 
 Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, you could submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  

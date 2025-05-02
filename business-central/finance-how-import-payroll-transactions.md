@@ -31,7 +31,7 @@ To account for salary payments and related transactions, you must import and pos
     When you choose the **OK** button in the assisted setup guide, the **General Journal** page is filled with lines representing the transactions that the payroll file contains and with the relevant accounts prefilled in the **G/L Account** fields according to mappings you made in the guide.
 4. Edit or post the journal lines as for any other general ledger transactions. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).   
 
-## See also
+## Related information
 
 [Finance](finance.md)    
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)    

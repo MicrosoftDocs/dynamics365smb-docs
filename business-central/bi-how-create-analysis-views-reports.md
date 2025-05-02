@@ -103,7 +103,7 @@ With analysis reports you can analyze the dynamics of your sales according to ke
 > [!NOTE]  
 > Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, you won't need to select line and column templates on the **Sales Analysis Report** page. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
 
-## See also
+## Related information
 
 [Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  

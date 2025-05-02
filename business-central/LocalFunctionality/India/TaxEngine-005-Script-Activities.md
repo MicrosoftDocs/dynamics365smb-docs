@@ -187,7 +187,7 @@ Script extension contains UI elements and tables which are used in scripting of 
 
 
 
-## See Also 
+## Related information 
 [Tax Engine Design Consideration](TaxEngine-006-Design-Consideration.md)
 
 

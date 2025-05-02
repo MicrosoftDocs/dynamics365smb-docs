@@ -50,7 +50,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 
 If the cancellation is related to a partial invoice posting, then the originating purchase order line is updated to reflect the canceled invoiced quantity. The **Qty. to Invoice** and **Quantity Invoiced** fields on the related purchase order line are reset to the values before the partial posting.
 
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  

@@ -37,7 +37,7 @@ Make sure to check the features of each app to see if they match your business n
 
 Yes, Microsoft wants to enable you to connect to your bank and perform fundamental tasks in a modern and secure manner. This is why Microsoft supports partners who create apps for this purpose. 
 
-## See also
+## Related information
 
 - [Reconciling Bank Accounts](bank-manage-bank-accounts.md)    
 - [Make payments with the AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

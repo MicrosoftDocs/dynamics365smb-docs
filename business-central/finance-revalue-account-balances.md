@@ -58,7 +58,7 @@ This difference is important when you assess whether G/L revaluation is the righ
 > [!TIP]
 > We recommend that you ask your accountant or auditor which type of account is best for your business. Also, there might be an app for [!INCLUDE [prod_short](includes/prod_short.md)] on [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) that's just right for your business scenarios.
 
-## See also
+## Related information
 
 [Review Amounts in General Ledger Accounts](finance-review-accounts.md)    
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  

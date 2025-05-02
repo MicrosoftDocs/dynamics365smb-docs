@@ -51,7 +51,7 @@ You can't. If you accidentally delete sample data, ask your admin to create a ne
 
 As an admin, you can remove the Business Central trial subscription in the Microsoft 365 admin center. Learn more in [Removing a subscription](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#removing-a-subscription).
 
-## See also
+## Related information
 
 [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
 [Frequently Asked Questions about Using Business Central](across-faq.yml)  

@@ -90,7 +90,7 @@ To create or edit a row definition, follow these steps:
 3. In the **Totaling** field, choose one or more sustainability accounts using all applicable filters.
 4. If you choose **Formula** as a **Totaling Type**, you can use mathematical formulas in the **Totaling** column.  
 
-## See also
+## Related information
 
 [Sustainability Management Overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)  

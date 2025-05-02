@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 Users often post transactions like bad debt or other types of receivable/payable transactions that need to be recorded in Customer and Vendor Ledgers, but at the same time posted to different receivable/payable GL accounts, other than the one specified on Customer or Vendor posting groups. The easiest way to enable such functionality is to allow users to change Customer and Vendor posting groups in the moment of posing a particular transaction.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

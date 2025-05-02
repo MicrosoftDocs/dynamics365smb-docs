@@ -40,7 +40,7 @@ After you calculate and post the VAT settlement, VAT amounts are transferred to 
 
 The exported file can now be submitted to the tax authorities.  
 
-## See Also  
+## Related information  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 
 

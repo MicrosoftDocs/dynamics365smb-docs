@@ -67,7 +67,7 @@ You must create one remittance account for each bank account where payment is ma
 
 7.  Choose the **OK** button.  
 
-## See also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   

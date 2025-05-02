@@ -102,7 +102,7 @@ Then fill on the **Profile Question Details** page as follows:
 
 When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
-## See Also
+## Related information
 
 [Creating Contacts](marketing-create-contact-companies.md)  
 

@@ -26,7 +26,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## See also
+## Related information
 
 [Accounts Receivable Reports](receivables-reports.md)  
 [Accounts Payable Reports](payables-reports.md)  

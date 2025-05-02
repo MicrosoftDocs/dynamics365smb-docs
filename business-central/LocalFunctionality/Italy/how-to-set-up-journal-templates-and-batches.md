@@ -49,7 +49,7 @@ You can print Intrastat reports on the **Intrastat Jnl. Batches** page based on 
 
 4.  To close the page, choose the **OK** button.  
 
-## See Also  
+## Related information  
   [Italy Local Functionality](italy-local-functionality.md)   
  [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md)
 

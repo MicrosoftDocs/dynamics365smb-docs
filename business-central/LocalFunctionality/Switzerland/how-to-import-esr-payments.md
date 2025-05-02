@@ -33,7 +33,7 @@ You can import the Einzahlungsschein mit Referenznummer (ESR) invoice data from 
 
 The payments information is imported to the journal lines. The payments are automatically applied to the respective invoices according to unique ESR reference numbers.  
 
-## See Also  
+## Related information  
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Print ESR Invoices](how-to-print-esr-invoices.md)
 

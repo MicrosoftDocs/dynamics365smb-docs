@@ -162,7 +162,7 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
 
 5. Choose the **OK** button.
 
-## See also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Service Management](service-service.md)

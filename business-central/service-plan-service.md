@@ -25,7 +25,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Understand the relationship between the status of a repair, and the effect they have on allocated resources, and vice versa.|[Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)|  
 |Use statistics to analyze your service processes. | [Viewing Service Statistics](service-service-statistics.md) |
 
-## See Also
+## Related information
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Delivering Service](service-deliver-service.md)  
 [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  

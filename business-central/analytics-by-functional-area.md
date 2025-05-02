@@ -17,7 +17,7 @@ The general content about analytics is also available in special versions for ma
 
 [!INCLUDE [analytics-by-functional-areas-overview-table](includes/analytics-by-functional-areas-overview-table.md)]
 
-## See also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)  
 

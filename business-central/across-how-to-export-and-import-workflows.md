@@ -32,7 +32,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 > [!CAUTION]  
 > If the workflow code already exists in the database, the workflow steps will be overwritten with the steps in the imported workflow.  
 
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  

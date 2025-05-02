@@ -98,7 +98,7 @@ Service orders are not deleted automatically, however, if the total quantity on 
 3. Choose **OK**.  
 
 
-## See Also  
+## Related information  
 [Service Posting](service-service-posting.md)  
 [Post a Service Order](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  

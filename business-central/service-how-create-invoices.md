@@ -109,7 +109,7 @@ When you delete a service invoice, the following things happen:
 >
 > You can't delete a service invoice if its details, such as the invoicing period or the **Prepaid** toggle were changed in the related service contract. Make sure that you delete invoices before you change settings on the service contract.
 
-## See also
+## Related information
 
 [Post Service Invoices](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  

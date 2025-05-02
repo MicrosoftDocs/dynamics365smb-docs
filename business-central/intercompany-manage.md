@@ -70,7 +70,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

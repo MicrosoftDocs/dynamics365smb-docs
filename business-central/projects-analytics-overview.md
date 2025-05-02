@@ -104,7 +104,7 @@ To learn more about reports that are relevant for project management, go to [Bui
 
 - [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
-## See also
+## Related information
 
 [Power BI Projects app](projects-powerbi-app.md)  
 [Monitor project progress and performance](projects-how-monitor-progress-performance.md)  

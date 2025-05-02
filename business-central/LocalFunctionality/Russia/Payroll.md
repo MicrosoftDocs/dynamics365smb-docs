@@ -79,7 +79,7 @@ The organization and principle of calculation of both types of documents is the 
 
 5. For the formation of transactions in the Ledger and the possibility of payment of wages in the inter-period salary documents must be post.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)  
 

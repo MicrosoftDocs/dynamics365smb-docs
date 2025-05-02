@@ -131,7 +131,7 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 
 
-## See Also 
+## Related information 
 [GST Settlement](GST-Settelement.md)
 
 

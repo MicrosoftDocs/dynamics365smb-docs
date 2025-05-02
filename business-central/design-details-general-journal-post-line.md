@@ -24,7 +24,7 @@ This documentation provides detailed technical insight into the concepts and pri
 [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
 
-## See Also
+## Related information
 
 [Work with General Journals](ui-work-general-journals.md)
 [Design Details: General Journal Post Line (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  

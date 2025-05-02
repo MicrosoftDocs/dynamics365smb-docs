@@ -134,7 +134,7 @@ So, instead of setting up separate general ledger accounts for each department o
 
 To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
-## See also
+## Related information
 
 [Company consolidation](finance-consolidated-company-reporting.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

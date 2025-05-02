@@ -92,7 +92,7 @@ For example, if you are an accountant, your clients can invite you to their [!IN
 
 Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Microsoft Entra account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## See also
+## Related information
 
 [Add companies to your company hub](company-hub-add-company.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  

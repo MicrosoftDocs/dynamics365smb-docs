@@ -119,7 +119,7 @@ GST Input Service Distribution functionality is used to distribute CGST & SGST/I
 
 
 
-## See Also 
+## Related information 
 [GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md)
 
 

@@ -31,7 +31,7 @@ You can also adjust all VAT amounts in VAT entries that result from foreign curr
 
 Additional information, such as VAT rate and original currency amount, is transferred to the VAT entries. For more information, see the VAT Entry table.  
 
-## See Also
+## Related information
 
 [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
 [Create and Print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md)   

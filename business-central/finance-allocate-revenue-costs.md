@@ -93,6 +93,6 @@ The following steps describe how to post an allocation transaction from a genera
     1. In the **Allocation Account No.** field, choose the allocation account that's set up to use the Inherit from parent option. 
 1. Choose **Post**.
 
-## See also
+## Related information
 
 [Work with General Journals](ui-work-general-journals.md)  

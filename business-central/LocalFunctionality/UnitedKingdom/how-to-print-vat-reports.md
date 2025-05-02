@@ -80,7 +80,7 @@ You can use the following reports for VAT reporting:
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

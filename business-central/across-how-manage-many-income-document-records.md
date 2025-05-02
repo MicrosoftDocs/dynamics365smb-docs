@@ -47,7 +47,7 @@ All incoming document records are displayed, including records where the **Proce
 > [!NOTE]  
 > You can also perform this action for the individual record on the **Incoming Document Card** page.
 
-## See also
+## Related information
   
 [Create Incoming Document Records](across-how-create-income-document-records.md)
 [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)

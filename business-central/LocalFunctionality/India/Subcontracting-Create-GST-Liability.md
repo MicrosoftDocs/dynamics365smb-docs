@@ -52,7 +52,7 @@ If the subcontracting vendor does not return the material within specified perio
 
 
 
-## See Also 
+## Related information 
 [Subcontracting Report](Subcontracting-Reports.md)
 
 

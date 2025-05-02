@@ -24,7 +24,7 @@ If you're interested in the complete list of compliance offerings from Microsoft
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## See also
+## Related information
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  

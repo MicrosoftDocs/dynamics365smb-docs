@@ -131,7 +131,7 @@ Every hour, the **Payment Reconciliation Journal** page will display new payment
 > [!NOTE]  
 > Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page will not be imported.
 
-## See also
+## Related information
 
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

@@ -17,7 +17,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 
-## See also
+## Related information
 
 - [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist)  
 - [Finland Local Functionality](finland-local-functionality.md)  

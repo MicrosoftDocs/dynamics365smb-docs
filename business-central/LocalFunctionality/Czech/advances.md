@@ -107,7 +107,7 @@ Internal Documents:
 - VAT List on Purch. Adv. Letter
 - VAT List on Sales Adv. Letter
 
-## See Also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
 

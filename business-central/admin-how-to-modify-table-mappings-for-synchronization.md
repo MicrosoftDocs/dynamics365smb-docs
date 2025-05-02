@@ -148,7 +148,7 @@ You can add more templates, and use filters to define conditions under which [!I
 
 4. Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## See also  
+## Related information  
 
 [About Integrating Dynamics 365 Business Central with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Synchronizing Business Central and [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  

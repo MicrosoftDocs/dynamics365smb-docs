@@ -19,7 +19,7 @@ On the **Items** page, having pictures helps you get a quick overview of what yo
 
 You can import item pictures, either one by one or for multiple items in one go. For more information, see [Import Multiple Item Pictures](inventory-how-import-item-pictures.md).  
 
-## See Also
+## Related information
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Register New Items](inventory-how-register-new-items.md)  
 

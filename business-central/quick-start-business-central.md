@@ -65,7 +65,7 @@ Business Intelligence
 (reports)
 -->
 
-## See also
+## Related information
 
 [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Overview of Business Functionality](across-business-functionality.md)  

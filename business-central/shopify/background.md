@@ -73,6 +73,6 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 > [!Tip]
 > Use the **Set up cues** action in the **Shopify Activities** part to define thresholds for cue styles. By default, the cue displays in yellow if the count is between one and five, and in red if count is five or higher.
 
-## See also
+## Related information
 
 [Get started with the Shopify Connector](get-started.md)  

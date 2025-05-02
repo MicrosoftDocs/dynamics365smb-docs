@@ -89,7 +89,7 @@ Comparison date formula is typically used for reports that show weekly or daily 
 
 Budgets can be included on any report when included on the column definition. By selecting a ledger entry type of **Budget Entries**, and entering the **Budget Name** for the selected budget, you can easily show comparisons of actual to budget in reports.
 
-## See also
+## Related information
 
 [Examples of custom financial reports](bi-examples-custom-financial-reports.md)  
 [Organize report data using account categories](bi-account-categories.md)  

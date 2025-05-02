@@ -35,7 +35,7 @@ When you send the Report 347 declaration, you must include 347 declaration label
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **347 Declaration Labels**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields. For more information, see Declaration Labels.  
 
-## See also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)   
  [Report 347](report-347.md)
 

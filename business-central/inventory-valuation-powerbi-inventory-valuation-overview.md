@@ -55,7 +55,7 @@ Try the report here: [Inventory Valuation Overview](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)  

@@ -31,7 +31,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## See also
+## Related information
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  

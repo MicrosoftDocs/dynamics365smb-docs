@@ -30,7 +30,7 @@ First, you must prioritize your vendors by assigning numbers to them.
 
 If you do not want to prioritize a vendor, leave the **Priority** field blank. Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number. You can enter as many priority levels as necessary.
 
-## See also
+## Related information
 
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

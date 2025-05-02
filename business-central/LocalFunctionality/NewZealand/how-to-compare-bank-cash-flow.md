@@ -14,7 +14,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [compare-bank-cash-flow](../includes/AUNZ/compare-bank-cash-flow.md)]
 
-## See Also
+## Related information
 
 [Create Check Installments](how-to-create-check-installments.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

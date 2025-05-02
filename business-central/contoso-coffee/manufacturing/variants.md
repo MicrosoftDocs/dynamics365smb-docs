@@ -98,6 +98,6 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     9. For each created line, choose the **Components** action and review which paint is used.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

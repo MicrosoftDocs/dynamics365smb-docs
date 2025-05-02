@@ -46,7 +46,7 @@ You can import and export an existing custom report layout as a file to and from
 
  The original custom report layout is replaced with the imported report layout.  
 
-## See Also
+## Related information
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

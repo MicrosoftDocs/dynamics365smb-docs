@@ -34,6 +34,6 @@ On the **Usage Data Suppliers** page, use the **Settings** action to open the **
 
 You can use custom usage data processing, for example, if the usage data is only available in a non-standard structure. Use the **Additional Processing** field, if it's implemented. If it is, you might need to personalize the page to add it. To learn more, go to [Personalize your workspace](../../ui-personalization-user.md).
 
-## See also
+## Related information
 
 [Overview of usage based billing](../welcome.md)  

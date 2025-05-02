@@ -45,7 +45,7 @@ The following table contains a sequence of optional tasks to set up fixed assets
 | Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work. |[Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md) |
 | Learn about how to apply depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## See also
+## Related information
 
 [Fixed Assets overview](fa-manage.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)   

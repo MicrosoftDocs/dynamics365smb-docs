@@ -39,6 +39,6 @@ You can perform the following actions with attachments:
 * **Remove**: Remove the current attachment from an interaction template.
 * **Copy**: Copy attachments from another interaction template.
 
-## See Also
+## Related information
 
 [Record Interactions With Contacts](marketing-interactions.md)  

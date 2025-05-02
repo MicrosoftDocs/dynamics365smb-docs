@@ -26,7 +26,7 @@ You can use proportional VAT to calculate VAT when there's both deductible and n
 
 3.  Choose the **OK** button.  
 
-## See also  
+## Related information  
  [Proportional VAT](proportional-vat.md)   
  [Norway Local Functionality](norway-local-functionality.md)   
  

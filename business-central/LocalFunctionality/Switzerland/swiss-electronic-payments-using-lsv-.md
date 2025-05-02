@@ -30,7 +30,7 @@ You can download payment credit transactions in Einzahlungsschein mit Referenznu
 
 - After the LSV processing date, you can check the LSV journal lines. If all of the LSV journal lines are closed, then the status of the **LSV Status** field is updated to  **Finished**.  
 
-## See also  
+## Related information  
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   

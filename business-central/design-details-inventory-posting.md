@@ -122,7 +122,7 @@ Capacity and resource ledger entries represent the time that is posted as consum
 
 For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
-## See Also
+## Related information
 
  [Design Details: Inventory Costing](design-details-inventory-costing.md)  
  [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  

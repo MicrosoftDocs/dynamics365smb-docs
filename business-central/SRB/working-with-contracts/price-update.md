@@ -243,6 +243,6 @@ If the prices were changed after the credit memo, the price update overwrites th
 
 The price update can be canceled/deleted after the credit memo by deleting the planned service commitments.
 
-## See also
+## Related information
 
 [Currencies](../sales/dealing-with-currencies.md)

@@ -122,7 +122,7 @@ If you're using the Outlook app, just choose **Document Link** at the top of the
 > [!TIP]
 > Starting in 2022 release wave 1, documents open in a new browser window with all the capabilities that you know from [!INCLUDE [prod_short](includes/prod_short.md)]. You can navigate from a document to a list and back again, open lists in Excel, send documents to be printed, and run or preview related reports. You also have all of the familiar keyboard shortcuts right there when you open documents from Outlook.  
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

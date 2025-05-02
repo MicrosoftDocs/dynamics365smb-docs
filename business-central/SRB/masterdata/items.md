@@ -32,5 +32,5 @@ Clicking on the header of the FactBox opens the **Service Commitment Packages pe
 
 Similar to the FactBox, you can also use the **Service Commitments** action to access the service commitments for items.
 
-## See also
+## Related information
 

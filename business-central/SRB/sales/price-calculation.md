@@ -41,7 +41,7 @@ The price of a service commitment is automatically determined based on their set
 
    The price is calculated from the **Calculation Base Amount** and the **Calculation Base %**. The price is always valid for the entire **Calculation Base Amount**. For it's an annual price if a year (or 12 months) is entered in **Calculation Base Amount** and a monthly price if a month is entered in **Calculation Base Period**.
 
-## See also
+## Related information
 
 [Service commitments](../masterdata/service-commitments.md)  
 [Sales process](sales-service-commitments.md)  

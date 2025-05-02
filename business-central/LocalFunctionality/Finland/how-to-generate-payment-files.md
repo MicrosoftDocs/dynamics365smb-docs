@@ -24,7 +24,7 @@ To send electronic payments to vendors, you must first generate a payment file f
 1. Choose the **Domestic payments** or **Foreign payments** action.  
 1. Choose the **Yes** button to create a payment file.  
 
-## See also
+## Related information
 
 - [Electronic Banking in Finland](electronic-banking-in-finland.md)
 - [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)

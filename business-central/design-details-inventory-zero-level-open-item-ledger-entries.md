@@ -142,7 +142,7 @@ The following diagram shows how cost applications are made.
 
  The result is that inventory is zero and all item ledger entries are closed.  
 
-## See Also  
+## Related information  
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 

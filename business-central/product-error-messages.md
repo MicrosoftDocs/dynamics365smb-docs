@@ -66,7 +66,7 @@ If you're a developer, when you call the [TestField](/dynamics365/business-centr
 * If the error is on the page that's currently open.
 * If the user doesn't have permission to modify the underlying record.
 
-## See Also
+## Related information
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Frequently Asked Questions](across-faq.yml)  

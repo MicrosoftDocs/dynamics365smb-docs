@@ -210,7 +210,7 @@ To analyze users by license type, follow these steps:
 1. Choose the **User Name**, **Full Name**, and **Authorization email** fields.
 1. Rename your analysis tab to **Users by license type**, or something that describes this analysis.
 
-## See also
+## Related information
 
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

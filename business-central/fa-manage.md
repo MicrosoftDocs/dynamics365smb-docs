@@ -130,7 +130,7 @@ There are a few things you can implement in your accounting strategy for fixed a
 - Tag your assets. It’s essential to track and tag your assets throughout their lifecycle because many factors can affect their value. Tagging helps track your items throughout the stages of their lifecycle, and help prevent theft, eliminate misplacement, and support financial statistics.
 - Automate insight with fixed asset accounting software. Automating manual activities to track your data with fixed asset accounting software make processes easier to complete. Password protection can help provide access only to the people who need it and are trained for it.
 
-## See also
+## Related information
 
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)  

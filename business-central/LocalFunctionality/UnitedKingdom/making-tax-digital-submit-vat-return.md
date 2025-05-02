@@ -179,7 +179,7 @@ Due to a limitation at HMRC, it isn't possible to send test submissions of VAT R
 
 Some online documentation at HMRC uses the term *Sandbox*. A sandbox is an environment that software developers, such as Microsoft and others, can use to test features during development. This environment isn't intended for customer testing, and it isn't related to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
-## See also
+## Related information
 
 - [Send Fraud Prevention Data](fraud-prevention-data.md)  
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

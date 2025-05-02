@@ -36,7 +36,7 @@ Counting, adjusting, and reclassifying items can involve warehouse tasks that mu
 |Use the warehouse movement worksheet, internal pick and put-away to move items in advanced warehouse configurations with directed pick and put away.|[Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  

@@ -32,7 +32,7 @@ After the posting of the VAT date, it becomes a part of the posted documents and
 
 The system filters VAT entries by the **VAT Date** field (instead of **Posting Date**) by selecting the VAT period and preparing a report showing which entries are transferred to the Settlement account. Printouts also contain VAT date information.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)    
 [VAT Control Report](vat-control-report.md)  

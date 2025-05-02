@@ -22,7 +22,7 @@ In the **Work Center Card** and **Machine Center Card** pages, you can view the 
 
 Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.  
 
-## See Also  
+## Related information  
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  

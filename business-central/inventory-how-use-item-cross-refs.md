@@ -50,7 +50,7 @@ The following table lists the pages that support barcode scanning of item refere
 |Purchase Line     |   Item Reference No.      |
 |Sales Line     | Item Reference No.        |
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  

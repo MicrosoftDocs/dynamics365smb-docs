@@ -27,7 +27,7 @@ You set up the description and code for each shipment method on the **Shipment M
 > [!TIP]
 > If you use Incoterms, set up shipment methods to represent the relevant Incoterms rules.  
 
-## See Also
+## Related information
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Track Packages](sales-how-track-packages.md)  

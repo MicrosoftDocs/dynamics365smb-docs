@@ -38,7 +38,7 @@ To send electronic bank payments to vendors, you can export domestic or foreign 
 1. Create a transfer file for domestic or foreign vendor payments.  
 1. Send the payment transfer file to the bank.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)
 - [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)

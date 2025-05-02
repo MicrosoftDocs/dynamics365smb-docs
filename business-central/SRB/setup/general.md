@@ -91,6 +91,6 @@ Along with **Subscription & Recurring Billing**, the **Essentials** app is insta
 
 An additional layout for Word and for RDL is supplied for each report.
 
-## See also
+## Related information
 
 [Contract types](contract-types.md)

@@ -17,7 +17,7 @@ ARES stands for Access to Register of Economic Subjects. ARES is an information 
 The user can fill in ARES Http in Reg. No. Validation Service Setup.
 It's possible to run ARES actualization from Contact, Vendor and Customer Card. It's possible to search the company and decide which fields can be updated in [!INCLUDE[d365fin](../../includes/d365fin_md.md)](Name, Address, City, Post Code).
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  

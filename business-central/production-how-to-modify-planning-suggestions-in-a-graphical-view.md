@@ -87,7 +87,7 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## See also
+## Related information
 
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

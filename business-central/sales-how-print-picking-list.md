@@ -30,7 +30,7 @@ You can also save the picking list as a document, for example, to send to someon
 > [!NOTE]
 > If you used the **Explode BOM** function on the sales order, then only the components of the related assembly item are shown in the report. Learn more at [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)

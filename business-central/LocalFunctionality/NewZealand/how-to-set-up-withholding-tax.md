@@ -26,7 +26,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 [!INCLUDE [wht-posting-group-setup](../includes/AUNZ/wht-posting-group-setup.md)]
 
-## See also
+## Related information
 
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   

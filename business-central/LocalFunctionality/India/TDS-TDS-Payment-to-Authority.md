@@ -37,7 +37,7 @@ The TDS that have been deducted on various transactions, needs to be deposited t
 
 
 
-## See Also 
+## Related information 
 [TDS Overview](TDS-Overview.md)
 
 

@@ -20,7 +20,7 @@ After a serial or lot number has been added to an item at a warehouse location, 
 
 However, the reservation system does take warehouse activities into consideration when it calculates availability. For example, items that are allocated to picks, or registered as picked, cannot be reserved. For more information, see [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md).
 
-## See Also  
+## Related information  
 [Design Details: Item Tracking](design-details-item-tracking.md)  
 [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)  
 [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md)  

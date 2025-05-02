@@ -237,7 +237,7 @@ To view a group of certificates, start from the **Certificates of Supply** page,
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
 
-## See also
+## Related information
 
 [Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  

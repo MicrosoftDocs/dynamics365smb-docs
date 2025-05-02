@@ -92,7 +92,7 @@ The conversion removes the sales quote from the database. A sales invoice or a s
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

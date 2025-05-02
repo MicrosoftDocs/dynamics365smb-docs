@@ -88,7 +88,7 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 > [!NOTE]  
 >   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** page, then you must use the **Bank Account Reconciliation** page. For more information, see [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md).
 
-## See also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

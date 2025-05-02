@@ -73,7 +73,7 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 > [!TIP]
 > Don't forget that you need to post the purchase order invoice.
 
-## See also
+## Related information
 
 [Create Special Orders](sales-how-to-create-special-orders.md)  
 [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  

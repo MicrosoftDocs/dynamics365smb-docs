@@ -147,6 +147,6 @@ The following table describes a sequence of tasks, with links to the articles th
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## See also
+## Related information
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

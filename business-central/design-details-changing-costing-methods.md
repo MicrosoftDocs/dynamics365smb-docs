@@ -174,7 +174,7 @@ We recommend the following:
 1. Assess the feasibility of the process by taking one, or maybe a few, representative items through the entire process.
 2. Consider contacting an experienced partner who can help you with the process.
 
-## See Also
+## Related information
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Overview](design-details-inventory-costing.md)

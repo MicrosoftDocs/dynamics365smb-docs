@@ -23,7 +23,7 @@ Project reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows proj
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## See also
+## Related information
 
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)  

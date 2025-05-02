@@ -35,7 +35,7 @@ When you run the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] pr
 
 - The **Type** field for the VAT entry must not be **Settlement**.  
 
-## See also  
+## Related information  
 [Set Up VAT](../../finance-setup-vat.md)  
  [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)   

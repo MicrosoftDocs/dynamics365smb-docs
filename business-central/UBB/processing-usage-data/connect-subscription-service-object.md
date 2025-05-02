@@ -23,6 +23,6 @@ After setting the defaults, the subscriptions to process are selected, and you c
 > [!CAUTION]
 > You can't create new service objects using the method described here. To create new service objects, use the **Extend Contract** action. To learn more, go to [Extend contract](extend-contract.md).
 
-## See also
+## Related information
 
 [Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md)

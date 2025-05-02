@@ -30,7 +30,7 @@ To learn more, go to [Finding pages and reports with the role explorer](ui-role-
 [!INCLUDE [marketing_reports](includes/marketing-reports-include.md)]
 
 
-## See also
+## Related information
 
 [Relationship management overview](marketing-relationship-management.md)  
 

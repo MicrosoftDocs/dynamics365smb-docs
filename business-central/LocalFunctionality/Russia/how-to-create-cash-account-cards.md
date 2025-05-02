@@ -33,7 +33,7 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 3. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Petty Cash Management](Petty-Cash-Management.md)  
 [Bank and Cash Management](bank-and-cash-management.md)  

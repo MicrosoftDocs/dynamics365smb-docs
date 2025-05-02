@@ -183,7 +183,7 @@ In this example, the BLUE SKU is set up with an **Order** reordering policy. The
 
 If the demand is changed from 27 to 22, the planning system will lower the quantity through the chain. The binding reservation is also reduced.  
 
-## See Also  
+## Related information  
 
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)   

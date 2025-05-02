@@ -70,7 +70,7 @@ In order to cancel or change a previously made employee accrual, you must genera
 
 In the process of posting a journal line of this type, the specified entry is modified in the Employee Ledger Entries. The modification changes the Amount or end date of the operation.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)
 

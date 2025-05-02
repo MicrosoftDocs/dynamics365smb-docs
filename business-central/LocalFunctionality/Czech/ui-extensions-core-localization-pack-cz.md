@@ -74,7 +74,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

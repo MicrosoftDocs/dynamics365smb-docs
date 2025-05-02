@@ -23,7 +23,7 @@ You can set up troubleshooting guidelines that help technicians solve problems w
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, **Service Items**, or **Service Item Groups**, and then choose the related link.  
 2. Choose the relevant entity, and then choose the **Troubleshooting** action.  
 
-## See Also
+## Related information
 [Service Management](service-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

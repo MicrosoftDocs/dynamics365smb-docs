@@ -54,7 +54,7 @@ The list of bank data formats that are supported by the AMC Banking 365 Fundamen
 
 You have now signed up for the AMC Banking 365 Fundamentals extension. Proceed to reflect the sign-up information on every bank account that will use the service.
 
-## See Also
+## Related information
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

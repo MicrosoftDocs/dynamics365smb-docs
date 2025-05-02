@@ -32,7 +32,7 @@ Managing inventory costs is concerned with recording and reporting business oper
 |Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
 |Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 
-## See also
+## Related information
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

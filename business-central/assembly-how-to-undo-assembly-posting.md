@@ -51,7 +51,7 @@ The **Reversed** field on the assembly order changes to **Yes**. The assembly or
 > [!NOTE]  
 > To restore quantities from multiple partial postings in an assembly order, you must undo all the posted assembly orders by following steps 1 through 3.  
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

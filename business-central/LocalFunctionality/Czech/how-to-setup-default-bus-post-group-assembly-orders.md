@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 Default Business Posting Group in Assembly Orders
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

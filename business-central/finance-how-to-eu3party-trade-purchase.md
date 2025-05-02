@@ -48,7 +48,7 @@ Even if the feature is preinstalled as an extension, it isn't activated by defau
     | EU3 | Show only records where the **EU 3-Party Trade** field in documents was marked. |
     | Non-EU3 | Show only records where the **EU 3-Party Trade** field in documents wasn't marked. |
 
-## See also
+## Related information
 [Financial Management](finance.md)    
 [Work with Business Central](ui-work-product.md)    
 

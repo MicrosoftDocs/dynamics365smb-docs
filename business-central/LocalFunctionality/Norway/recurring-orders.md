@@ -15,7 +15,7 @@ You can use recurring orders to create blanket order templates so that sales ord
 
 You can use recurring groups to define a range of parameters that show how you make the orders. These groups are assigned to blanket orders that have to be created regularly. To create the recurring orders, you have to periodically run the create recurring orders process. For more information, see [Create Recurring Orders](how-to-create-recurring-orders.md).  
 
-## See also  
+## Related information  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   

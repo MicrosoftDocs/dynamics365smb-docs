@@ -81,7 +81,7 @@ You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kb
 
 [Learn more about copy and paste in theFAQ](faq-copy-paste.yml).
 
-## See also
+## Related information
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  

@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [calculating-distribution-amounts](../includes/AUNZ/calculating-distribution-amounts.md)]
 
-## See also
+## Related information
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 

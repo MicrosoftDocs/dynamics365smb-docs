@@ -113,7 +113,7 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 - **Service - Credit Memo CZ**
 - **Service - Shipment CZ**
 
-## See also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
 

@@ -29,7 +29,7 @@ Companies in Iceland are required to send the tax authority a data file in a pre
 1. Select a general ledger account that has an **Account Type** of **Posting**.  
 1. In the **IRS Number** field, select an IRS number from the list.  
 
-## See also
+## Related information
 
  [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md)
 

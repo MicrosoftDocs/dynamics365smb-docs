@@ -15,7 +15,7 @@ To comply with the legislation, companies require differentiation of accounting 
 
 Companies need to distinguish the posting of inventory movements of the same goods so they require line-break of physical inventory Journal line. Such accounting is required for legal reasons. For example, they need to have a different account for deficits in the limit, and another account for deficits over the limit.
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

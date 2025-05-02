@@ -24,7 +24,7 @@ Backdated transactions or cost adjustments often affect balances and stock valua
 
  When you close an inventory period, an inventory period entry is created by using the number of the last item register that falls in the inventory period. In addition, the time, date, and user code of the user closing the period are recorded in the inventory period entry. By using this information with the last item register for the previous period, you can see which inventory transactions were posted in the inventory period. It is also possible to reopen inventory periods if you need to post in a closed period. When you reopen an inventory period, an inventory period entry is created.  
 
-## See Also
+## Related information
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

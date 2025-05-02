@@ -24,7 +24,7 @@ You can use fixed asset charges to include additional charges on the purchase of
 
 In addition, you can also specify how the fixed asset will be depreciated. You can use various depreciation methods for your fixed assets. If you want to depreciate one or more fixed assets by several depreciation methods, you must set up multiple fixed asset depreciation methods.
 
-## See Also
+## Related information
 
 [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)  
 [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)  

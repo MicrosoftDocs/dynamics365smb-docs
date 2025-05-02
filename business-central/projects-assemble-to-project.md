@@ -42,7 +42,7 @@ This section describes known limitations for assemble to project.
 * You can't enter a negative quantity in the **Quantity to Assemble to Order** field.
 * You can't undo an assembly.
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Assembly Management](assembly-assemble-items.md)  

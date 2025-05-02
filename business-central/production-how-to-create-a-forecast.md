@@ -104,7 +104,7 @@ Then, you create a sales order with a quantity of 12 on location WEST. The plann
 > [!NOTE]  
 > You can also edit an existing forecast. On the **Demand Forecast Matrix** page, choose the **Copy Demand Forecast** action and populate the **Demand Forecast** page with an existing forecast. You can then edit quantities as appropriate.  
 
-## See also
+## Related information
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)

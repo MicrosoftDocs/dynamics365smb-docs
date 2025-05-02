@@ -277,7 +277,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.
 
-## See also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

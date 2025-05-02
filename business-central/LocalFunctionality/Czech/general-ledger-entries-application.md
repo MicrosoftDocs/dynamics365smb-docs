@@ -23,7 +23,7 @@ Partial application is allowed. The remaining amount for applying is shown on th
 
 User can run batch application by using the **G/L Entry Applying** report .
 
-## See Also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
 

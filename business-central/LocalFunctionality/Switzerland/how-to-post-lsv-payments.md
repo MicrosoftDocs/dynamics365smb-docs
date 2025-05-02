@@ -36,7 +36,7 @@ You can post payments after you receive Lastschrift Verfahren (LSV+) payment adv
 
 6.  Choose the **Post** action.  
 
-## See also  
+## Related information  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   

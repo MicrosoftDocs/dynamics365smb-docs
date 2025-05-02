@@ -154,7 +154,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 * The language of the label that is displayed when you run the report depends on the language setting of the report object.  
   
-## See Also
+## Related information
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)  
 

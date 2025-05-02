@@ -114,7 +114,7 @@ This feature doesn't require additional setup. However, if you upgrade your [!IN
 - If you have items, item variants, or item templates where the **Sales Blocked** toggle is turned on, the **Service Blocked** field is also turned on for those records during upgrade. This ensures that the existing sales blocked logic also applies to service management transactions.
 - Data upgrades only if you have at least one service item in your company, which means you're using the service management functionality and need the data upgrade. If you don't have service items, the data upgrade is skipped and the **Service Blocked** toggle is turned off by default for all items, item variants, and item templates.
 
-## See also
+## Related information
 
 [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [Setting Up Service Management](service-setup-service.md)  

@@ -26,7 +26,7 @@ If you extend a contract, the created service commitments automatically have a l
 > [!NOTE]
 > Because quantities in usage data can have decimal places, but you can only use integer quantities in the service object, (commercial) rounding takes place when the field is preassigned.
 
-## See also
+## Related information
 
 [Customer contracts](../../SRB/working-with-contracts/customer-contracts.md)  
 [Vendor contracts](../../SRB/working-with-contracts/vendor-contracts.md)  

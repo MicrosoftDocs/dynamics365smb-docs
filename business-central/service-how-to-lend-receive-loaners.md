@@ -37,7 +37,7 @@ You can use the **General Service Comment Sheet** page to register comments on r
 4. In the **Date** field, enter a date.  
 5. In the **Comment** field, enter a comment. You can enter a maximum of 80 characters. If you need to enter additional text, go to the next line. You can fill in as many lines as necessary.  
   
-## See Also  
+## Related information  
 [Set Up a Loaner Program](service-how-setup-loaner-program.md)   
 
 

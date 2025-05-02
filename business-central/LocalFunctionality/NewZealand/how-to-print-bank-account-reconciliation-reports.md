@@ -14,7 +14,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [print-bank-account-reconciliation-reports](../includes/AUNZ/print-bank-account-reconciliation-reports.md)]
 
-## See also
+## Related information
 
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)
 

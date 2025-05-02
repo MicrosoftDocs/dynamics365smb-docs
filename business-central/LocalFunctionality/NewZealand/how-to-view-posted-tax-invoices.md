@@ -30,7 +30,7 @@ The following procedure describes how to view the posted sales tax invoice, but 
 
 3.  Choose the **OK** button.  
 
-## See also  
+## Related information  
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
 
 

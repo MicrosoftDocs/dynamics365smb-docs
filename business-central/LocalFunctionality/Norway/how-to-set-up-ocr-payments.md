@@ -41,7 +41,7 @@ You can process electronic payments from customers according to a predefined pay
 > [!NOTE]  
 >  OCR payments can only be posted to cash receipt journals when the **Force Doc. Balance** field has been cleared in the **Gen. Journal Template** table. For more information, see Gen. Journal Template.  
 
-## See also  
+## Related information  
  [Electronic Banking in Norway](electronic-banking-in-norway.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   

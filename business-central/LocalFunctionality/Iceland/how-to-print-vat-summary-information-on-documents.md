@@ -23,7 +23,7 @@ The following procedure describes how to display VAT summary information on a sa
 1. In the list, select the relevant document, and then choose the **Print** action.  
 1. To display VAT information in the report, select the **Always Show VAT Summary** check box.  
 
-## See also
+## Related information
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 

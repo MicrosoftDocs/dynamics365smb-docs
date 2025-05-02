@@ -114,7 +114,7 @@ If you didn't select the **Depr. until FA Posting Date** checkbox, the asset wou
 
 *Total of depreciation = 100 + 15 + 55.54 = 170.54*
 
-## See also
+## Related information
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

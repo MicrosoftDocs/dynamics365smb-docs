@@ -283,7 +283,7 @@ When the planning system runs, it deletes all existing order tracking records an
 
 - The planning system creates links in a user-activated batch mode when it balances demand and supply, whereas order tracking creates the links automatically and dynamically as the user enters orders.  
 
-## See also  
+## Related information  
 
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)

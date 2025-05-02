@@ -24,9 +24,9 @@ Each KPI is described, including how it is calculated and what data was used in 
 ## Emission Fees Table
 
 **Emissions Fees Measures**
-- [CH4 Carbon Equivalent](#ch4-carbon-equivalent)
-- [CO2 Carbon Equivalent](#co2-carbon-equivalent)
-- [N2O Carbon Equivalent](#N2o-carbon-equivalent)
+- [CH4 Carbon Equivalent](#ch4-carbon-equivilent)
+- [CO2 Carbon Equivalent](#co2-carbon-equivilent)
+- [N2O Carbon Equivalent](#n2o-carbon-equivilent)
 - [CO2e Target](#co2e-target)
 
 
@@ -37,7 +37,7 @@ A sum of the Carbon Equivalent Factor where the Emission Type is CH4
 **Data Sources**
 - Emissions Fees
 
-### C02 Carbon Equivilent
+### CO2 Carbon Equivilent
 **Formula**  
 A sum of the Carbon Equivalent Factor where the Emission Type is CO2.
 
@@ -218,7 +218,7 @@ Measures the water capacity of the facility (Responsibilty Centre). This will be
 - [CH4 Current Value](#ch4-target)
 - [CH4 Target](#ch4-target)
 - [CH4 Realized (%)](#ch4-target)
-- [N2O Current Value](#n20-current-value)
+- [N2O Current Value](#n2o-current-value)
 - [N2O Target](#n2o-target)
 - [N2O Realized (%)](#n2o-target)
 - [Waste Current Value](#waste-target)
@@ -228,6 +228,7 @@ Measures the water capacity of the facility (Responsibilty Centre). This will be
 - [Water Target](#water-target)
 - [Water Realized (%)](#water-target)
 - [CO2e Current Value](#co2e-current-value)
+- [CO2e Realized (%)](#co2e-realized-)
 
 
 ### CO2 Current Value
@@ -257,7 +258,7 @@ A calculation of the CH4 Current Value divided by the CH4 Emissions
 
 ### CH4 Current Value
 **Formula**  
-A Sum of [CH4 Emissions](#ch4) based on the Start and End date from the selected scorecard(s)
+A Sum of [CH4 Emissions](#ch4-emissions) based on the Start and End date from the selected scorecard(s)
 
 **Data Sources**
 - Sustainability Ledger Entries
@@ -282,7 +283,7 @@ A calculation of the CH4 Current Value divided by the CH4 Emissions
 
 ### N2O Current Value
 **Formula**  
-A Sum of [N2O Emissions](#n2o) based on the Start and End date from the selected scorecard(s)
+A Sum of [N2O Emissions](#n2o-emissions) based on the Start and End date from the selected scorecard(s)
 
 **Data Sources**
 - Sustainability Ledger Entries
@@ -363,64 +364,74 @@ A Sum of [CO2e Emissions](#co2e-emissions) based on the Start and End date from 
 - Sustainability Ledger Entries
 - Sustainability Goals
 
+### CO2e Realized (%)
+**Formula**  
+A calculation of the CO2e Current Value divided by the CO2e Emissions
+
+[CO2e Current Value](#co2e-current-value) / [CO2e Target](#co2e-target) 
+
+**Data Sources**
+- Sustainability Ledger Entries
+- Sustainability Goals
+
 ## Sustainability Ledger Entries Table
 
 **Sustainability Ledger Entries Measures**
 - [CO2 Emissions](#co2-emissions)
-- [CO2 Emissions Balance](#balance-co2-emissions)
-- [CO2 Emissions Balance at Date ](#balance-at-date-co2-emissions)
-- [CO2 Baseline](#co2-emissions) 
-- [CO2 vs Baseline (%)](#co2-emissions)
+- [CO2 Emissions Balance](#co2-emissions-balance)
+- [CO2 Emissions Balance at Date ](#co2-emissions-balance-at-date)
+- [CO2 Baseline](#co2-baseline) 
+- [CO2 vs Baseline (%)](#co2-vs-baseline-)
 
 - [CH4 Emissions](#ch4-emissions)
-- [CH4 Emissions Balance at Date ](#balance-at-date-ch4-emissions)
+- [CH4 Emissions Balance at Date ](#ch4-emissions-balance-at-date)
 - [CH4 Emissions Balance](#balance-ch4-emissions)
 - [CH4 Baseline](#ch4-baseline) 
 - [CH4 vs Baseline (%)](#ch4-vs-baseline-)
 
 - [N2O Emissions](#n2o-emissions)
-- [N2O Emissions Balance](#n2o-emissions)
-- [N2O Emissions Balance at Date](#n2o-emissions)
-- [N2O Baseline](#co2-emissions) 
-- [N2O vs Baseline (%)](#co2-emissions)
+- [N2O Emissions Balance](#n2o-emissions-balance)
+- [N2O Emissions Balance at Date](#n2o-emissions-balance-at-date)
+- [N2O Baseline](#n2o-baseline) 
+- [N2O vs Baseline (%)](#n2o-vs-baseline-)
 
 - [CO2e Emissions](#co2e-emissions)
-- [CO2e Emissions (Excl Credits)](#co2e-emissions)
-- [CO2e Emissions Balance](#n2o-emissions)
-- [CO2e Emissions Balance at Date](#n2o-emissions)
-- [CO2e Baseline](#co2-emissions) 
-- [CO2e vs Baseline (%)](#co2-emissions)
+- [CO2e Emissions (Excl Credits)](#co2e-emissions-excl-credits)
+- [CO2e Emissions Balance](#co2e-emissions-balance)
+- [CO2e Emissions Balance at Date](#co2e-emissions-balance-at-date)
+- [CO2e Baseline](#co2-baseline) 
+- [CO2e vs Baseline (%)](#co2e-vs-baseline-)
 
 - [Discharged Into Water](#discharged-into-water)
-- [Discharged Into Water Balance](#TODO)
-- [Discharged Into Water Balance at Date](#TODO)
-- [Discharged Into Water DOD](#TODO)
-- [Discharged Into Water PD](#TODO)
-- [Discharged Into Water PY](#TODO)
-- [Discharged Into Water YOY](#TODO)
-- [Discharged Into Water Baseline](#TODO)
-- [Discharged Into Water vs Baseline (%)](#TODO)
+- [Discharged Into Water Balance](#discharged-into-water-balance)
+- [Discharged Into Water Balance at Date](#discharged-into-water-balance-at-date)
+- [Discharged Into Water DOD](#discharged-into-water-dod)
+- [Discharged Into Water PD](#discharged-into-water-pd)
+- [Discharged Into Water PY](#discharged-into-water-py)
+- [Discharged Into Water YOY](#discharged-into-water-yoy)
+- [Discharged Into Water Baseline](#discharged-into-water-baseline)
+- [Discharged Into Water vs Baseline (%)](#discharged-into-water-vs-baseline-)
 
 - [Water Intensity](#water-intensity)
-- [Water Intensity Baseline](#TODO)
-- [Water Intensity Baseline at Date](#TODO)
-- [Water Intensity DOD](#TODO)
-- [Water Intensity PD](#TODO)
-- [Water Intensity PY](#TODO)
-- [Water Intensity YOY](#TODO)
-- [Water Intensity Baseline](#TODO)
-- [Water Intensity vs Baseline (%)](#TODO)
-- [Water Available](#TODO)
+- [Water Intensity Baseline](#water-intensity-balance)
+- [Water Intensity Baseline at Date](#water-intensity-balance-at-date)
+- [Water Intensity DOD](#water-intensity-dod)
+- [Water Intensity PD](#water-intensity-pd)
+- [Water Intensity PY](#water-intensity-py)
+- [Water Intensity YOY](#water-intensity-yoy)
+- [Water Intensity Baseline](#water-intensity-baseline)
+- [Water Intensity vs Baseline (%)](#water-intensity-vs-baseline-)
+- [Water Available](#water-available)
 
 - [Waste Intensity](#waste-intensity)
-- [Waste Intensity Balance](#TODO)
-- [Waste Intensity Balance at Date](#TODO)
-- [Waste Intensity DOD](#TODO)
-- [Waste Intensity PD](#TODO)
-- [Waste Intensity PY](#TODO)
-- [Waste Intensity YOY](#wTODO)
-- [Waste Baseline](#TODO)
-- [Waste vs Baseline (%)](#TODO)
+- [Waste Intensity Balance](#waste-intensity-balance)
+- [Waste Intensity Balance at Date](#waste-intensity-balance-at-date)
+- [Waste Intensity DOD](#waste-intensity-dod)
+- [Waste Intensity PD](#waste-intensity-pd)
+- [Waste Intensity PY](#waste-intensity-py)
+- [Waste Intensity YOY](#waste-intensity-yoy)
+- [Waste Intensity Baseline](#waste-intensity-baseline)
+- [Waste vs Baseline (%)](#waste-intensity-vs-baseline-)
 
 - [Purchased Carbon Credits](#purchased-carbon-credits)
 
@@ -508,14 +519,14 @@ Sum of N2O from the Sustainability Ledger Entry.
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance at Date N2O Emissions
+### N2O Emissions Balance at Date 
 **Formula**  
 The Balance at Date N2O Emissions measure calculates the cumulative [N2O Emissions](#n2o-emissions) up to the latest date in the current filter context. It removes all date filters, then re-applies a filter to include only dates up to and including the maximum date within the selection. This provides a running balance up to the specified date.
 
 **Data Sources**
 - Sustainability Ledger Entry
 
-### Balance N2O Emissions
+### N2O Emissions Balance
 **Formula**  
 The Balance measure calculates the total [N2O Emissions](#n2o-emissions) across all dates, ignoring any filters on the Date table. By removing date-based filtering, this measure provides the full  value from the start to the end of the dataset, regardless of any date selections applied in the report.
 
@@ -697,7 +708,7 @@ The Water Intensity PY calculates the [Water Intensity](#water-intensity) for th
 
 ### Water Intensity YOY
 **Formula**  
-The Water Intensity YOY calculates the difference between the Water Intensity and the Water Intensity PY. It calcualtes the Water Intensity Change directly in the measure as [Water Intensity PY](#2ater-intensity-py) - [Water Intensity](#water-intensity)
+The Water Intensity YOY calculates the difference between the Water Intensity and the Water Intensity PY. It calcualtes the Water Intensity Change directly in the measure as [Water Intensity PY](#water-intensity-py) - [Water Intensity](#water-intensity)
 
 Water Intensity Change / [Water Intensity PY](#water-intensity-py)
 **Data Sources**

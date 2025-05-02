@@ -1,10 +1,10 @@
 ---
 title: Water and Waste Analysis
 description: The Water and Waste Analysis allows you to effectively monitor your water and waste usage by different metrics such as Water Type, Intensity Type, and Responsibility Center.
-author: 
-ms.author: 
+author: altotovi
+ms.author: altotovi
 ms.reviewer: 
-ms.topic: 
+ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 02/05/2025

@@ -4,7 +4,7 @@ description: The CO2e Analysis report provides detailed insight into you CO2e Em
 author: altotovi
 ms.author: altotovi
 ms.reviewer: 
-ms.topic: 
+ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 02/05/2025

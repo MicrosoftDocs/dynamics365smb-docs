@@ -14,19 +14,28 @@ ms.search.form: 4400, 4410
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Payables Agent helps Business Central users automate the processing of vendor invoices. The agent monitors mailboxes for incoming vendor invoices and uses AI to analyze the content of the invoices. It speeds up registration and processing of invoices by interpreting the invoice content and presents it to users in a draft. In doing so, the Payables Agent uses AI to suggest invoice details. Ideally, users will have to do very few or no corrections to the suggested invoice information before they finalize the draft and it becomes a real purchase invoice, ready for approval and posting.
+## Business value
+The Payables Agent intends to solve a decade old challenge: End-to-end processing of vendor invoices.
+
+Often, the processing of vendor invoices imposes bottlenecks in the company and relies on accounting knowledge and, in most cases, mapping of data and business rules to ensure correct invoice registration. 
+
+The core mandate for the Payables Agent is simple in concept: Acquire accounting skills and assist with correct registration of invoice, ideally removing the bottlenecks in the accounts payables processes, so this finance support function will not be an impeding factor in the growth ambitions of the company.
+
+ In essence, the Payables Agent agent monitors mailboxes for incoming vendor invoices and uses AI to analyze the content of the invoices and presents agent supervisors with invoice drafts for review. Ideally, users will have to do very few or no corrections to the suggested invoice information before they finalize drafts and invoices becomes real purchase invoices, ready for approval and posting. 
 
 > [!TIP]
 > Watch a short video in the Dynamics Business Central channel on YouTube at [Get started with the Payables Agent for Dynamics 365 Business Central](https://www.youtube.com/watch?v=6icbmbLc_Og).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
-## Functionality
-The functionality of this preview does not represent the full vision of the Payables Agent. We are in the early stages of the Payables Agent and many more features and AI is intended to be added to it. In time, the agent is intended to assist with:
+## Functionality in the preview
+The functionality of this preview does not represent the full vision of the Payables Agent. We are in the early stages of the Payables Agent and many more features are intended to be added to it, just as we expect the AI capabilities of the agent to enhance.
+
+In time, the agent is intended to also assist with:
 * Purchase order matching
 * Approval flows
 * Anomaly detection
-* And many other things to support in the accounts payables processes and accounting.
+* And other things to support in the accounts payables processes and accounting.
 
 
 ## Payables Agent process flow

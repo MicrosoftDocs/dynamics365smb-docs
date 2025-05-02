@@ -742,6 +742,155 @@ This measure determines the indirect cost for capacity ledger entries by summing
 - [Actual Subcontracted Cost]()
 - [Total Actual Cost]()
 
+#### Actual Capacity Cost
+
+**Formula**
+
+The **Actual Capacity Cost** measure calculates the actual cost of capacity usage based on production order lines and related inventory adjustments. Here's a breakdown of the calculation:
+
+1. **Variables for Production Order Details**:
+   The measure defines variables for the **Production Order Number**, **Production Order Line Number**, **Item Number**, and **Production Order Status** from the *Production Order Lines* table.
+
+2. **Inventory Adjustment Lines**:
+   It then creates a table of relevant inventory adjustment lines that correspond to the current production order line, with the condition that the **iSFinished** status is set to TRUE if the production order status is "Finished".
+
+3. **Inventory Adjustment Details**:
+   The measure selects the order number, item number, and order line number from the inventory adjustment lines.
+
+4. **Capacity Ledger Entries**:
+   It then filters the *Capacity Ledger Entries* table to match the **Order No.**, **Order Line No.**, and **Item No.** from the inventory adjustments and ensures **Subcontracting** is excluded.
+
+5. **Return the Actual Capacity Cost**:
+   Finally, the measure calculates the sum of **directCost** from the *Capacity Ledger Entries* table, dividing it by the **ShareOfCapCost** measure to account for the specific share of capacity costs.
+
+This complex calculation ties together various production and inventory details to derive the actual capacity cost for the production orders.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+
+#### Actual Capacity Overhead Cost
+
+**Formula**
+
+- The **Actual Capacity Overhead Cost** measure calculates the total overhead cost recorded in capacity ledger entries by summing the **overheadCost** column in the *Capacity Ledger Entries* table.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Actual Manufacturing Overhead Cost
+
+**Formula**
+
+The **Actual Manufacturing Overhead Cost** measure calculates the total overhead cost incurred during manufacturing by combining indirect cost percentages and per-unit overhead rates with actual production metrics. Here's how it works:
+
+1. **IndirectCost**:
+   It sums the **indirectCostPercent** values across all production order lines.
+
+2. **OverheadRate**:
+   It sums the **overheadRate** values across all production order lines.
+
+3. **OutputQty**:
+   It calculates the total output quantity from the *Item Ledger Entries* table, filtered to include only entries of type **"Output"**, and scoped to the currently selected production order.
+
+4. **Final Calculation**:
+   The measure multiplies the sum of:
+
+   - **[Actual Material Cost](#actual-material-cost)**
+   - **[Actual Capacity Cost](#actual-capacity-cost)**
+   - **[Actual Subcontracted Cost](#actual-subcontracted-cost)**
+   - **[Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)**
+
+   by the **IndirectCost** percentage (converted from percent to decimal), and then adds the product of **OutputQty** and **OverheadRate**.
+
+This measure captures both proportional overhead based on other costs and fixed overhead based on output volume.
+
+**Data Sources**
+
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Value Entry
+
+#### Actual Material Cost
+
+**Formula**
+
+The **Actual Material Cost** measure calculates the total material cost consumed in production by summing the **costAmountActual** from the *Value Entries* table, filtered to:
+
+- Exclude entries where **entryType** is "Rounding"
+- Include only entries where **Item Ledger Entry Type** is "Consumption"
+
+The result is then multiplied by -1 to reflect material consumption as a cost.
+
+**Data Source**
+
+- Value Entry
+
+#### Actual Subcontracted Cost
+
+**Formula**
+The **Actual Subcontracted Cost** measure calculates the total direct cost of subcontracted work associated with production orders. Here's how it works:
+
+1. **Context per Line**:
+   For each row in the *Production Order Lines* table, it defines key variables:
+
+   - ProdOrderNo
+   - ProdOrderLineNo
+   - ProdOrderItem
+   - ProdOrderStatus
+
+2. **Inventory Adjustment Matching**:
+   It retrieves matching rows from *Inventory Adjustment Entry Order Line* where:
+
+   - Order number, line number, and item match the production order line variables.
+   - The **iSFinished** flag corresponds to whether the production order is marked as "Finished".
+
+3. **Subcontracted Capacity Ledger Entries**:
+   It then filters the *Capacity Ledger Entries* table to:
+
+   - Match the order number, order line number, and item number from the inventory adjustment.
+   - Include only entries where **Subcontracting** is TRUE.
+
+4. **Cost Calculation**:
+   It calculates the total **directCost** from these filtered subcontracted capacity ledger entries and divides it by the **ShareOfCapCost** measure.
+
+5. **Aggregation**:
+   `SUMX` iterates this logic over all production order lines, returning the total actual subcontracted cost.
+
+This measure isolates and aggregates costs related to subcontracted operations.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+
+#### Total Actual Cost
+
+**Formula**
+
+The **Total Actual Cost** measure calculates the full cost of production by summing the following measures:
+
+- **[Actual Material Cost](#actual-material-cost)**
+- **[Actual Capacity Cost](#actual-capacity-cost)**
+- **[Actual Subcontracted Cost](#actual-subcontracted-cost)**
+- **[Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)**
+- **[Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost)**
+
+This measure provides a comprehensive view of all actual costs incurred during the production process.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Value Entry
+- Item Ledger Entry
+
 #### Capacity Need
 
 - [Prod Order Actual Capacity Need]()

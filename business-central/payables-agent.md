@@ -19,7 +19,7 @@ The Payables Agent intends to solve a decade old challenge: End-to-end processin
 
 Often, the processing of vendor invoices imposes bottlenecks in the company and relies on accounting knowledge and, in most cases, mapping of data and business rules to ensure correct invoice registration. 
 
-The core mandate for the Payables Agent is simple in concept: Acquire accounting skills and assist with correct registration of invoice, ideally removing the bottlenecks in the accounts payables processes, so this finance support function will not be an impeding factor in the growth ambitions of the company. A value proposition of the agent is that it requires virtually no setup except for activation of the agent. 
+The core mandate for the Payables Agent is simple in concept: Acquire accounting skills and assist with correct registration of invoices, ideally removing the bottlenecks in the accounts payables processes, so this finance support function will not be an impeding factor in the growth ambitions of the company. A value proposition of the agent is that it requires virtually no setup except for configuration and activation of the agent. 
 
  In essence, the Payables Agent agent monitors mailboxes for incoming vendor invoices and uses AI to analyze the content of the invoices and presents agent supervisors with invoice drafts for review. Ideally, users will have to do very few or no corrections to the suggested invoice information before they finalize drafts and invoices becomes real purchase invoices, ready for approval and posting. 
 

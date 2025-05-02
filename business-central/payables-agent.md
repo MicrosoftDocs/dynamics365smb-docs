@@ -28,6 +28,8 @@ The core mandate for the Payables Agent is simple in concept: Acquire accounting
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
+
+
 ## Functionality in the preview
 The functionality of this preview does not represent the full vision of the Payables Agent. We are in the early stages of the Payables Agent and many more features are intended to be added to it, just as we expect the AI capabilities of the agent to enhance.
 
@@ -44,7 +46,7 @@ The end-to-end process handled by the Payables Agent is illustrated in the figur
 ![Shows the Sales Order Agent flow](media/payables-agent-flow.png)
 
 1. **Vendor or employee:** Sends email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
-1. **Payables Agent:** Picks up unread emails that have PDF attachments from the mailbox and imports the PDF into **Inbound E-Documents** in Business Central.
+1. **Payables Agent:** Picks up PDF attachments from unread emails in the monitored mailbox and imports the PDF into **Inbound E-Documents** in Business Central.
 1. **Payables Agent:** Extacts invoice information from the PDF using the Azure Document Intelligence.
 1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted invoice information.
 1. **Agent supervisor:** May be called upon to assist the agent with identifying the vendor if the agent cannot confidently identify the right vendor.
@@ -83,6 +85,11 @@ The action of finalizing a purchase draft will effectively create a purchase inv
 
 The agent is readily available in the product. To activate it, you specify the email inbox you want the agent to monitor. Additionally, designate the users authorized to use the agent to process vendor invoices, enabling the agent to act on behalf of a company, department, or team&mdash;not just an individual user.
 
+
+## Billing for use
+
+The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+
 ## General agent operations
 
 The Payables Agent is designed to run autonomously in the background, using AI to perform its tasks while keeping users informed about key steps and involving them when necessary. Involvement might be needed in specific scenarios, for instance to review suggested vendor invoice drafts, based on configured preferences.
@@ -97,13 +104,9 @@ Users can inspect the agent's steps and the imported PDF invoices and suggested 
 
 The agent involves designated Business Central users, agent supervisors, if it is unsure how to proceed with registering the invoice. For example if the vendor could not be identified with confidence.
 
-### Permissions and profiles
+## Permissions and profiles
 
 The agent operates within the permissions and profile (role) assigned to it by the administrator. Permissions define which areas of the product (tables) the agent has access to. The profile outlines the UX elements (pages and actions) the agent can engage with during its work. Default permissions and the profile are assigned to the agent out of the box; however, administrators can update these permissions as needed.
-
-## Billing for use
-
-The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ## Next steps
 

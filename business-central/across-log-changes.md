@@ -154,7 +154,7 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send field moni
 
 You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. To learn more about retention policies, go to [Define Retention Policies](admin-data-retention-policies.md).
 
-## See Also
+## Related information
 
 [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields)  
 [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  

@@ -63,7 +63,7 @@ The following procedure describes how to set up automatic bills for sales and re
 
 Now, you can process customer bills and vendor bills so that they are handled automatically.  
 
-## See Also  
+## Related information  
  [Defining Payment Methods](../../finance-payment-methods.md) 
   [Italy Local Functionality](italy-local-functionality.md)
 

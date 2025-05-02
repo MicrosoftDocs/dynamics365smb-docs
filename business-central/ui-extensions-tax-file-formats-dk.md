@@ -16,7 +16,7 @@ If you engage in trade with companies, or internal branches or subsidiaries, in 
 
 The extension is free, you just need to install it.
 
-## See also
+## Related information
 [Customizing Business Central Using Extensions](ui-extensions.md)
 
 

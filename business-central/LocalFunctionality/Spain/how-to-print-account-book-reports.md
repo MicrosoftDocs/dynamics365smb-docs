@@ -49,7 +49,7 @@ When sending these reports to the authorities or auditors, you can include addit
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

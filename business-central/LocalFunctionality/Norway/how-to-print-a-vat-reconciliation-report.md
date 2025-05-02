@@ -26,7 +26,7 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also  
+## Related information  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 

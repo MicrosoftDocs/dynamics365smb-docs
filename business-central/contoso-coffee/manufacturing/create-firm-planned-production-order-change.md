@@ -59,6 +59,6 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
 The new production order is now set up, and Eduardo's requirements are met.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

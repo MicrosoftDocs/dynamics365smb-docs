@@ -40,7 +40,7 @@ If the payment transactions do not fulfill the requirements, an error message ap
 
 - If the invoice and credit memo are paid in the same payment transaction, the payment must occur on the same date using the same currency and exchange rate.  
 
-## See Also  
+## Related information  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

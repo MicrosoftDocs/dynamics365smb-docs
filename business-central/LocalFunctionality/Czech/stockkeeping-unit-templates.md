@@ -16,7 +16,7 @@ Set up templates that are being used as part of the stock keeping unit creation 
 Templates are defined for the combination of item category and location and you can set the basic parameters of the stock keeping unit, such as Replenishment System, Reordering Policy, etc.
 Templates can be used in a function that creates new stock keeping unit of items. When a new stock keeping unit is created, the parameter settings in the templates are automatically copied to the stock keeping unit cards.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

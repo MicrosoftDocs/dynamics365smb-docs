@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 Functionality that allows you to export the VIES to an XML file in the structure required by the financial administration. The XML file can then be uploaded to the financial administration portal and the VIES can be submitted electronically.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  

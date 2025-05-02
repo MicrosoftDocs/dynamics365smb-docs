@@ -126,7 +126,7 @@ Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## See also
+## Related information
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with the Sales module](sales-manage-sales.md)  

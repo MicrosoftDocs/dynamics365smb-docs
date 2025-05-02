@@ -59,7 +59,7 @@ There are a few ways to set which layout a report uses. Each way has advantages,
 
 Reports are designed to use a layout by default. You can switch back to the original default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
 
-## See Also
+## Related information
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

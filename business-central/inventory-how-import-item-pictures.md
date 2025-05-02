@@ -42,7 +42,7 @@ All common file formats are supported.
 
 The **Import Status** field is updated to show if the picture import was skipped or completed.       
 
-## See Also
+## Related information
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  

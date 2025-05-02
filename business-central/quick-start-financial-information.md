@@ -79,7 +79,7 @@ Bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] register banking
    The field is different from the **Bank Account No.** field also available in the **General** FastTab.
 4. Fill in the fields on the **Bank Account Card** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## See also
+## Related information
 
 [Set Up the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)  

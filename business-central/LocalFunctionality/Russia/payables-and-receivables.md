@@ -29,7 +29,7 @@ Use the following table to learn more about the payables and receivables feature
 |[Prepayment differences](prepayment-differences-invoices-prepayment-differences.md)|Enables you to post prepayment differences.|
 | [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md) | Enables you to set up agreements with customers and vendors. |
 
-## See also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

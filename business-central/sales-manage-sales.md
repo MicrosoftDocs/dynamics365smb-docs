@@ -104,7 +104,7 @@ The following table describes how to deal with other sales processes.
 | --- | --- |
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## See also
+## Related information
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  

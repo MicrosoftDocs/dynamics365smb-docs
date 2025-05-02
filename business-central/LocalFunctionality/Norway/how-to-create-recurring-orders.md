@@ -25,7 +25,7 @@ The create recurring orders process will find all of the recurring orders based 
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Recurring Orders](recurring-orders.md)   
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   

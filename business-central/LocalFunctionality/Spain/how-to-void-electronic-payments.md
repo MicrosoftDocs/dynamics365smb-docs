@@ -32,7 +32,7 @@ In the Spanish version of [!INCLUDE[prod_short](../../includes/prod_short.md)], 
     |-----|-----------|  
     |**Payment Order No.**|Specify the payment order number from which the payments will be voided.|  
 
-## See Also
+## Related information
 
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md)  

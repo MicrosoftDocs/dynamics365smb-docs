@@ -92,7 +92,7 @@ The following sections describe how to set up time sheets if you don't use the *
 > [!NOTE]  
 > You can't change the ID of the time sheet approver if there are time sheets that haven't been processed and have the status of **Submitted** or **Open**.
 
-## See also
+## Related information
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
 [How To Create Time Sheets](projects-how-use-time-sheets.md#create-time-sheets)  

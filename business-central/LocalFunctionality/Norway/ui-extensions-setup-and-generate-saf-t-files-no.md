@@ -97,7 +97,7 @@ There are a couple of things you can do to improve performance:
 
 Finally, for both online and on-premises, for very large exports with many transactions, you can also use the option to create multiple .ZIP files. This is useful if individual files per month are very large, or the count of files per date is too big. Use this option when the single large ZIP file will not validate on the authorities' web site due to its size, for example. Using this feature will split up the export into multiple ZIP files, up to 10 in alignment with the requirements that are stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files were generated and download them one by one.  
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 [Getting Ready for Doing Business](../../ui-get-ready-business.md)

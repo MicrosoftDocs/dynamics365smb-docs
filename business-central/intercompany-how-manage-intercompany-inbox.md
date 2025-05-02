@@ -106,7 +106,7 @@ The following procedure describes to re-create inbox transactions, but the same 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
 2. On the **Handled IC Inbox Transactions** page, select the line with the transaction that you want to re-create in the inbox, and then choose the **Re-create Inbox Transaction** action.  
 
-## See Also
+## Related information
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

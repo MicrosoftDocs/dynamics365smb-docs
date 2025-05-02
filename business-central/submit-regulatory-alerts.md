@@ -67,7 +67,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
       After you submit the alert, you'll get a confirmation that the alert was successfully submitted to Microsoft.
 
-## See also
+## Related information
 
 [Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Changing Language and Locale](about-locale-language.md)  

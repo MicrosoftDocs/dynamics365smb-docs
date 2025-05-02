@@ -37,7 +37,7 @@ For purchase invoices and sales invoices, the invoice amount is reduced by the d
 ## Shipment Documents  
 On the **Sales & Receivables Setup** page, the **Shipment on Ship and Invoice** field is used to turn off printing of additional shipment documents for purchase invoices and sales invoices. When you post an order, a posted shipment and a posted invoice are automatically created. If the printed invoice is also used as a shipment document, additional shipment documentation does not need to be printed. You can turn off printing of additional shipment documents for purchase invoices and sales invoices by clearing the **Shipment on Ship and Invoice** field on the **Sales & Receivables Setup** page. For more information, see the Sales & Receivables Setup table.  
 
-## See Also  
+## Related information  
  [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
  [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)

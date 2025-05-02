@@ -44,7 +44,7 @@ If item tracking numbers are assigned on the supply side without requiring speci
 
 For more information, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
 
-## See also  
+## Related information  
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   

@@ -72,7 +72,7 @@ For example, if a service recipient has a GSTIN for West Bengal and the Vendor h
 
 
 
-## See Also 
+## Related information 
 [GST Overview](GST-001-Basic-Setup.md)
 
 

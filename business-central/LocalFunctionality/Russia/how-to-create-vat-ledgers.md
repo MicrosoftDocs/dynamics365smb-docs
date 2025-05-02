@@ -45,7 +45,7 @@ You can create and store any number of VAT ledgers. For example, you can create 
 
 Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.
 
-## See Also
+## Related information
 
 [VAT Ledgers](VAT-Ledgers.md)  
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  

@@ -73,7 +73,7 @@ We recommend that you also consider exporting data from the following pages:
 
 For more information, see [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).
 
-## See also
+## Related information
 
 [Canceling Your Subscription for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

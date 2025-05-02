@@ -25,7 +25,7 @@ Accelerated depreciation allows companies that can demonstrate that an asset’s
 
 Reduced depreciation allows companies that can demonstrate that an asset’s use is less intense than that of a standard asset can use a lower depreciation rate for it, and recover the difference during the following fiscal years. Reduced depreciation allows companies to lengthen the period of an asset’s depreciation.  
 
-## See also  
+## Related information  
  [Fixed Assets](../../fa-manage.md)     
  [Italy Local Functionality](italy-local-functionality.md)   
  [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   

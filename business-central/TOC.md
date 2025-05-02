@@ -2255,7 +2255,7 @@ ms.service: dynamics-365-business-central
 #### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
 #### Design details: Posting date on adjustment value entry
-#### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 #### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  

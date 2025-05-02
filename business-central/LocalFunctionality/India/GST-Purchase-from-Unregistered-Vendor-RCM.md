@@ -112,7 +112,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
-## See Also 
+## Related information 
 [Purchase from SEZ Vendor](GST-Purchase-from-SEZ-Vendor.md)
 
 

@@ -40,7 +40,7 @@ The following table describes the settings:
 
 After you configure the modules you want to try out, choose the **Generate** action to create demonstration data for them.
 
-## See also
+## Related information
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  

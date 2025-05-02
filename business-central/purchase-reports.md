@@ -30,7 +30,7 @@ The following articles describe some of the key tasks for analyzing the state of
 - [Calculate dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## See also
+## Related information
 
 [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](purchasing-analytics-overview.md)  

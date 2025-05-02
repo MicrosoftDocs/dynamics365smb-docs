@@ -86,7 +86,7 @@ The number of entries that result from a date compression depends on how many fi
    > You can only compress data more than five years old. If you want to compress data less than five years old, contact your Microsoft partner. They need to use the `OnSetMinimumNumberOfYearsToKeep` event in the "Date Compression" codeunit to set the threshold.
 
 
-## See also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 

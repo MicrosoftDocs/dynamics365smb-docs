@@ -62,7 +62,7 @@ The following procedure describes how to create a new credit memo using the **Ge
 5. Choose the **Get Prepaid Contract Entries** action.  
 6. After the conversion is complete, VAT and service ledger entries will be correct.  
 
-## See also  
+## Related information  
 
 [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finance](finance.md)  

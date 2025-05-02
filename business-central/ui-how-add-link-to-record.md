@@ -105,7 +105,7 @@ The following procedure is based on a sales order. The steps are similar for all
 
 The note is now attached to the sales order.
 
-## See also  
+## Related information  
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoming Documents](across-income-documents.md)  

@@ -149,7 +149,7 @@ Tricia determines that the project tasks that were excluded from the calculation
     > [!NOTE]  
     > Suppose Tricia calculated and posted WIP for a project with incorrect dates. Following the method that was discussed earlier, Tricia can reverse the incorrect postings, correct the dates, and post to the general ledger.  
 
-## See also
+## Related information
 
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 [Walkthrough: Managing Projects](walkthrough-managing-projects-with-jobs.md)  

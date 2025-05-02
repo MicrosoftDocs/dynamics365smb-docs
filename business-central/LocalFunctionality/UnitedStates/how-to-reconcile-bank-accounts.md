@@ -116,7 +116,7 @@ Follow these steps to print a bank reconciliation report:
 1. On the **Bank Account** FastTab, choose the appropriate filters.  
 1. Choose the **Print** button to print the report. Choose the **Preview** button to view it.  
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Finance](../../finance.md)  

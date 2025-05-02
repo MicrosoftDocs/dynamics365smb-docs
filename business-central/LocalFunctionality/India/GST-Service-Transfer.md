@@ -75,7 +75,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
 
 
 
-## See Also 
+## Related information 
 [GST Stock Transfer](GST-Stock-Transfer.md)
 
 

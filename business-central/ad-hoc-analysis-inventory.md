@@ -117,7 +117,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 - For each purchase line, as applicable, entries are created in the **Item Ledger Entry** table (if the purchase line is of the Item type). In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables. To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-## See also
+## Related information
 
 [Analyze list and query data with analysis mode](analysis-mode.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

@@ -33,7 +33,7 @@ You can print the **Sales Invoice Book** report and **Purchases Invoice Book** r
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

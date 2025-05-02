@@ -43,7 +43,7 @@ You can get a map from your online map service that shows the address and locati
 > [!NOTE]
 > The online map opens in the default browser or app, which may request access to the device's location data.
 
-## See also
+## Related information
 
 [Set Up Online Maps](across-online-maps-setup.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

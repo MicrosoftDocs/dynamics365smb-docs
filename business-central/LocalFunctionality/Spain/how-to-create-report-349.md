@@ -60,7 +60,7 @@ Entries related to credit memos display on the **Customer/Vendor Warnings 349** 
 
 For corrections to amounts that were included in an earlier 349 declaration, the page can show more than one warning for a customer or vendor with the same values in the **Original Declaration FY** and **Original Declaration Period** fields. In that case, you should combine the corrections in a single line so that the appropriate amounts for the **Previous Declared Amount** field and the **Original Declared Amount** field are included in the 349 declaration.  
 
-## See Also  
+## Related information  
 [Report 349](report-349.md)   
 
 

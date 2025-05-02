@@ -142,7 +142,7 @@ The app uses data from the following table:
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  

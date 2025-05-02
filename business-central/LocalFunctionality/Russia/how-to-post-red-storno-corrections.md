@@ -74,7 +74,7 @@ The correction is posted, and any general ledger account correspondence that you
 
 3. Post the document.
 
-## See also
+## Related information
 
 [Set Up Inventory](Inventory-Setup.md)  
 

@@ -62,12 +62,12 @@ Read various conceptual information to understand the principles and definitions
 
 
 
-## See Also
+## Related information
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
-## See also  
+## Related information  
  [Finance](finance.md)  
  [Inventory](inventory-manage-inventory.md)   
  [Sales](sales-manage-sales.md)   

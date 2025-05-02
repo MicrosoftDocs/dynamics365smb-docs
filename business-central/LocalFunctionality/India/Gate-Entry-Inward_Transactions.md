@@ -103,7 +103,7 @@ The following processes describe how to create and attach an Inward Gate Entry.
 
 
 
-## See Also 
+## Related information 
 [Gate Entry Outward Transaction](Gate-Entry-Outward_Transactions.md)
 
 

@@ -396,6 +396,6 @@ Configure the Shopify shop as described here:
 * Shopify companies are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
 * Customers are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and select the related link.
 
-## See also
+## Related information
 
 [Get Started with the Shopify Connector](get-started.md)  

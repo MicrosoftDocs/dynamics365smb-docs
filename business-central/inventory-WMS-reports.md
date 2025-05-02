@@ -50,7 +50,7 @@ You can use the **Print Label** action to print 1D and 2D barcodes from the page
 >
 > Check with your equipment supplier to learn how to print Word documents on your device.  
 
-## See also
+## Related information
 
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

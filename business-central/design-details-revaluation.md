@@ -219,7 +219,7 @@ The result of the following entries will be 0, regardless of the posting date.
 13-05-23|Purchase|5|5.00|1
 26-04-23|Sale|-5|5.00|2
 
-## See Also  
+## Related information  
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)   
 [Design Details: Costing Methods](design-details-costing-methods.md)   

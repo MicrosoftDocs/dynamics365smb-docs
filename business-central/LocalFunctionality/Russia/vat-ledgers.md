@@ -45,7 +45,7 @@ The following procedure shows how to mark a VAT purchase ledger.
 
 These marked documents will be reflected in the purchase book or in the sales book. Sales return orders are marked by default.
 
-## See Also
+## Related information
 
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  

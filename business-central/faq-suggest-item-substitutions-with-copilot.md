@@ -107,7 +107,7 @@ No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.
 
-## See also
+## Related information
 
 [Configure Copilot and agent capabilities](enable-ai.md)  
 [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)

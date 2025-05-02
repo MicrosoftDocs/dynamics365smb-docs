@@ -64,7 +64,7 @@ At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero a
 
 Microsoft doesn't have a contractual obligation with Pagero and Avalara. That means, if you want to use their connectors, you must have a contract with them.
 
-## See also
+## Related information
 
 - [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
 - [How to set up e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)    

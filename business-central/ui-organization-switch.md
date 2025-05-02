@@ -99,7 +99,7 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can
 
 [![Shows the company hub page that lists all companies.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## See also
+## Related information
 
 [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

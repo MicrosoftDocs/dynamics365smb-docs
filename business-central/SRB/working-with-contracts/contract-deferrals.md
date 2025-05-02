@@ -171,6 +171,6 @@ To control deferrals and for submissions to auditors, you can export the deferra
 |01/10/2021|31|1,022.47|99.73|
 |01/11/2021|21|1,022.47|69.01|
 
-## See also
+## Related information
 
 [Contract renewal](contract-renewal.md)

@@ -64,7 +64,7 @@ Companies must pay withholding tax to the government for third-party services an
     > [!NOTE]
     > The amount in the new line in the **Payment Journal** page is the withholding tax payment amount.
 
-## See Also
+## Related information
 
 [Print Withholding Tax Reports](how-to-print-withholding-tax-reports.md)  
 [Set Up VAT](../../finance-setup-vat.md)  

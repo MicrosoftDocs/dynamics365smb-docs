@@ -32,7 +32,7 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 
 After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
 
-## See also
+## Related information
 
 [Closing Books](year-close-books.md)    
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)    

@@ -63,7 +63,7 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 |%8|Content of the **Currency Code** field on the finance charge memo header|  
 |%9|Content of the **Posting Date** field on the finance charge memo header|  
 
-## See also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  

@@ -48,7 +48,7 @@ Use the Interaction Log Entries page to view the status of interactions and canc
 
 You can delete interaction log entries that have been canceled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Canceled Interaction Log Entries**, choose the related link, and then fill in the information.
 
-## See Also
+## Related information
 
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

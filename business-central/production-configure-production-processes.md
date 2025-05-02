@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
 |Prepare work centers and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
-## See also
+## Related information
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Planning](production-planning.md)  

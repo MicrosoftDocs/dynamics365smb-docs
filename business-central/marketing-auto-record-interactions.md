@@ -23,7 +23,7 @@ You can set up the application to automatically record interactions for sales, p
 To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.  
 To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.
 
-## See also
+## Related information
 [Recording Interactions With Contacts](marketing-interactions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Finance](../../finance.md)  

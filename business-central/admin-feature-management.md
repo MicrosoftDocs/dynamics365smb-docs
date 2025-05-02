@@ -19,7 +19,7 @@ When Microsoft releases features or feature design improvements as part of minor
 
 Learn more in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## See also
+## Related information
 
 [New and planned features](/dynamics365-release-plan/2021wave1/)  
 

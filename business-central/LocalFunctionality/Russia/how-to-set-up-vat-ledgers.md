@@ -52,7 +52,7 @@ To use VAT ledgers, you must specify the relevant number series.
 
 Now, you can create VAT ledgers for purchases and sales.
 
-## See Also
+## Related information
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [Register VAT on Purchase Orders](How-to-Register-VAT-on-Purchase-Orders.md)  

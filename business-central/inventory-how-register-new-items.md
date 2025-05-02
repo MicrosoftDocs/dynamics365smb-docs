@@ -135,7 +135,7 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 
 If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)    
 [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)    

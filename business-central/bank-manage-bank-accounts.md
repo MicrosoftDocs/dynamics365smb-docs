@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the articles th
 > [!TIP]
 > Use bank reconciliation to help verify that your books are up-to-date, and do not post the reconciliation until you are satisfied with the reconciliation.
 
-## See also
+## Related information
 
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  

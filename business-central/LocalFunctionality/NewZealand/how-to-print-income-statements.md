@@ -25,7 +25,7 @@ You can use the **Income Statement** report to view the company's annual income 
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## Related information  
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
 [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)   

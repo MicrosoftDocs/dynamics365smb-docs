@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [wht-revenue-types-setup](../includes/AUNZ/wht-revenue-types-setup.md)]
 
-## See also
+## Related information
 
 [Withholding Tax](withholding-tax.md)   
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   

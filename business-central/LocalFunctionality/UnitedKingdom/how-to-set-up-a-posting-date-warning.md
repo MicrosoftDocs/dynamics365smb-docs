@@ -25,7 +25,7 @@ A warning message displays when you post or batch post sales and purchase docume
     > [!NOTE]  
     > A warning message displays when you post or batch post documents with a posting date not same as the work date. If you select **Replace Posting Date** checkbox while batch posting, you're warned about the replacing posting date not being the same as the work date.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

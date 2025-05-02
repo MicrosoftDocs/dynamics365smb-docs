@@ -112,7 +112,7 @@ When you unapply an erroneous application, correcting entries that are identical
 > [!IMPORTANT]  
 >   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.
 
-## See Also
+## Related information
 [Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

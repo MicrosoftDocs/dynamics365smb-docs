@@ -20,7 +20,7 @@ In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structur
 * UnapplyCustLedgEntry – post unapply of customer application, called from codeunit 226 CustEntry-Apply Posted Entries  
 * UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry-Apply Posted Entries  
   
-## See Also  
+## Related information  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

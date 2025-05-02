@@ -58,7 +58,7 @@ To explore the calculations behind the values on the **Statistics** FastTab, cho
 
 To print the document, choose the **Print** action.
 
-## See also
+## Related information
 
 [Finance reports](finance-reports.md)  
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  

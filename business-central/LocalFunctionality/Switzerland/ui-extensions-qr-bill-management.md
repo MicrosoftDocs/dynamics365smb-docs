@@ -158,7 +158,7 @@ You can scan or import QR-bills directly into a purchase journal. This option is
 
 When importing bank transactions (camt) on the **Payment Reconciliation Journals** page, it's assumed the file includes the payment reference and the corresponding **Customer Ledger Entries** is automatically found to settle the transaction.
 
-## See also
+## Related information
 
 [Swiss Electronic Payments](swiss-electronic-payments.md)  
 [Switzerland Local Functionality](switzerland-local-functionality.md)  

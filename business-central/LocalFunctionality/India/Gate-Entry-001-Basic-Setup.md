@@ -64,7 +64,7 @@ The **"Gate Entry"** system provides a physical control over the goods, which ar
 
 
 
-## See also 
+## Related information 
 [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md)
 
 

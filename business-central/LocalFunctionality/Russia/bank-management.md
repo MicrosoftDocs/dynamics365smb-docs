@@ -42,7 +42,7 @@ You can print the following required bank management documents.
 
  
 
-## See also 
+## Related information 
 
 [Set up a bank payment order](How-to-Set-Up-a-Bank-Payment-Order.md)
 

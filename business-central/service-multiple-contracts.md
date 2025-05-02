@@ -37,7 +37,7 @@ You can automatically create a service contract or contract quote for service it
 ## Creating Service Orders for Multiple Contracts  
 You can manually create a service order for a service item that is registered in multiple active contracts. A service contract is active when it is signed and not expired.  
   
-## See Also  
+## Related information  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
 

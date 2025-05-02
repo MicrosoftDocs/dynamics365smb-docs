@@ -113,7 +113,7 @@ Voucher setup is done to define the type of voucher, related transaction directi
 
 
 
-## See Also 
+## Related information 
 [Voucher Interface Transaction](Voucher-Interface-Transactions.md)
 
 

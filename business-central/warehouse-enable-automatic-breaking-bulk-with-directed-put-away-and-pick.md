@@ -40,7 +40,7 @@ You can view the results of the conversion process from one unit of measure to a
 > - Set up the base unit of measure for an item as the smallest unit of measure that you expect to handle in your warehouse processes.  
 > - Set up your alternative units of measure for the item as multiples of the base unit of measure.  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

@@ -28,7 +28,7 @@ At the time of accounting of the salary document, the formation of operations of
 
 Personal income tax is paid by forming a payment order to the tax authority.
 
-## See Also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)
 

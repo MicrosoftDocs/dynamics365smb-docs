@@ -27,7 +27,7 @@ After VAT posting is set up to handle unrealized VAT, any printed sales order, p
 5.  On the **General** FastTab, set the **Unrealized VAT Type** to **Percentage**.  
 6.  On the **Sales** and **Purchase** FastTabs, specify general ledger accounts for the various **VAT Unreal. Account** fields.  
 
-## See also  
+## Related information  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 
 

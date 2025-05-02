@@ -47,7 +47,7 @@ To select depreciation bonus transactions for posting for a period, select **Dep
 
 You can cancel depreciation bonus transactions by running the **Cancel FA Ledger Entries** batch job. After posting the depreciation bonus cancellation, all operations that are included in the depreciation bonus base must be manually selected as the depreciation bonus base.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)
 

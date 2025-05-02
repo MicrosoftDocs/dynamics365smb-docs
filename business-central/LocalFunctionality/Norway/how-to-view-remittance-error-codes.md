@@ -27,7 +27,7 @@ For a remittance error, the error code from the bank and an explanation of the e
 
 3.  Choose the **Close** button.  
 
-## See also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

@@ -41,7 +41,7 @@ The **Recurring Group Code** field on the **Blanket Sales Order** page defines d
 
 5.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Recurring Orders](recurring-orders.md)   
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)

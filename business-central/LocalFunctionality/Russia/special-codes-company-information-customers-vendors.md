@@ -68,7 +68,7 @@ FastTab **Payments**:
 - KPP Code
 - OKPO Code
 
-## See also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

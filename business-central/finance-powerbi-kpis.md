@@ -1173,7 +1173,7 @@ The Budget Balance at Date measure calculates the budgeted balance at a specific
 **Data Sources**
 - G/L Budget Entry
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  

@@ -27,6 +27,6 @@ The following video shows a scenario where someone is creating a sales order, an
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=ff723ca6-22b8-4a0e-aef5-b19bab3bfd84]
 
-## See also
+## Related information
 
 [Setting Up Sales](sales-setup-sales.md)

@@ -32,7 +32,7 @@ To use fiscal inventory valuation, you must set up inventory valuation methods.
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
 
 

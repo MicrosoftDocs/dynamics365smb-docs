@@ -89,7 +89,7 @@ The link between the blanket sales order and the originating sales order, and an
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  

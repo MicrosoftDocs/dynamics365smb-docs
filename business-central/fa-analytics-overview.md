@@ -134,7 +134,7 @@ So, instead of setting up separate general ledger accounts for each department o
 
 To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 
-## See also
+## Related information
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  

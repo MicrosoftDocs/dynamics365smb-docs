@@ -43,7 +43,7 @@ Prepayments are advance payments on purchase orders that are paid before the fin
 
 You can now track and record advance payments on purchase invoices.
 
-## See Also
+## Related information
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -196,7 +196,7 @@ In most cases, you can open ledger entries from the affected card or document. F
 
 You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. Learn more at [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. Learn more at [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## See also
+## Related information
 
 [Request Quotes](purchasing-how-request-quotes.md)  
 [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  

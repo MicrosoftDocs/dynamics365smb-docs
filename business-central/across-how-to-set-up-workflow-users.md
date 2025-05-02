@@ -36,7 +36,7 @@ On the **Workflow User Groups** page, you can specify where a participant engage
    > Typically, sequence numbers are sequential for users in a workflow user group. However, multiple users can have the same sequence number. When that's the case, only one of the users must approve a request before the workflow goes to the next step. For example, if user A and user B are both number two in the sequence, the workflow goes to the step three when when either user A or user B approves the request.
 6. Repeat step 5 to add more workflow users to the workflow user group.  
 
-## See also
+## Related information
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Approval Workflows](across-set-up-workflows.md)  

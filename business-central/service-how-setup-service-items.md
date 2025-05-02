@@ -54,7 +54,7 @@ You can set up service shelves that identify where you store your service items.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Shelves**, and then choose the related link.
 2. Fill in the fields as necessary.
 
-## See Also
+## Related information
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)   
 [Set Up Troubleshooting](service-how-setup-troubleshooting.md)
 

@@ -22,7 +22,7 @@ The sum of all withheld amounts is reported as a truncated whole number to the N
 
 [!INCLUDE [calculate-post-wht-settlements](../includes/AUNZ/calculate-post-wht-settlements.md)]
 
-## See also
+## Related information
 
 [Withholding Tax](withholding-tax.md)   
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   

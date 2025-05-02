@@ -106,7 +106,7 @@ If you encounter this error you need to adjust the dates for which the user is a
 
 To learn more, see [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## See Also  
+## Related information  
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  

@@ -29,7 +29,7 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
 
 3. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 

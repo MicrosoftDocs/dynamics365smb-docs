@@ -88,7 +88,7 @@ The information that you enter in a sustainability journal is temporary and you 
 
 To learn more about posting sustainability entries, go to [Record sustainability entries](finance-sustainability-journal.md).
 
-## See also
+## Related information
 
 [Record sustainability entries](finance-sustainability-journal.md)  
 [Built-in sustainability reports](sustainability-reports.md)   

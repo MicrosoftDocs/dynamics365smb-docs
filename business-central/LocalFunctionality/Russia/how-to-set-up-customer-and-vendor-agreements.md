@@ -64,7 +64,7 @@ On the **Navigate** tab, you can find the following functions:
 
 The agreements are fully synchronized with dimensions. You can post transactions and choose the dimension value code of the appropriate agreement from the list of agreements.
 
-## See Also
+## Related information
 
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  

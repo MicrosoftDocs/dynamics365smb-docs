@@ -62,7 +62,7 @@ The following table provides links to articles that describe typical tasks in pr
 | Post the consumption of materials, resources, and other expenses of project WIP. Monitor its financial value to maintain correct financial statements even though you post project expenses before you invoice the project. |[Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md) |
 | Invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
 
-## See also
+## Related information
 
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project management analytics overview](projects-analytics-overview.md)  

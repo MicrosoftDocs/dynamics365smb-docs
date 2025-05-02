@@ -192,7 +192,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
-## See Also 
+## Related information 
 [Purchase from Unregistered Vendor (Reverse Charge)](GST-Purchase-from-Unregistered-Vendor-RCM.md)
 
 

@@ -19,7 +19,7 @@ You can pay vendors using the electronic funds transfer (EFT) system in New Zeal
 
 [!INCLUDE [electronic-funds-transfer-eft](../includes/AUNZ/electronic-funds-transfer-eft.md)]
 
-## See Also
+## Related information
 
 [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

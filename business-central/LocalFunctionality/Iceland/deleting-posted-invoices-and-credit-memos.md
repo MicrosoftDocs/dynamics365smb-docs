@@ -24,7 +24,7 @@ If you activate the new [Icelandic localization based on W1 Base App](iceland-gl
 > [!NOTE]
 > The deletion is technically controlled with the new ENUM field **Document Retention Period** in the **General Ledger Setup** page. This field is hidden and has the **IS Docs Retention Period** option by default enabling this control.
 
-## See also  
+## Related information  
 
 [Invoice Sales](../../sales-how-invoice-sales.md)
 

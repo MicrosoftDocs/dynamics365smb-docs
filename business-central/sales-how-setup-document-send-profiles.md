@@ -31,7 +31,7 @@ When you choose the **Post and Send** action on a sales document, the **Post and
 2. Open the card of the customer who you want to set up a sending profile for.
 3. In the **Document Sending Profile** field, select a profile that you have set up as described in the previous procedure.
 
-## See Also
+## Related information
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

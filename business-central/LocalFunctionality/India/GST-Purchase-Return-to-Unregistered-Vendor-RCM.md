@@ -78,7 +78,7 @@ For example, purchase credit memo or return order is issued for INR 10,000 on wh
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Foreign Vendor](GST-Purchase-Return-to-Foreign-Vendor.md)
 
 

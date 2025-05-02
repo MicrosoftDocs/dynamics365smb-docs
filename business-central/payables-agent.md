@@ -106,7 +106,7 @@ The agent involves designated Business Central users, agent supervisors, if it i
 
 ## Permissions and profiles
 
-The agent operates within the permissions and profile (role) assigned to it by the administrator. See [Set up the Sales Order Agent](payables-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements) to learn more about setting up permissions and how they work for agents.
+The agent operates within the permissions and profile (role) assigned to it by the administrator. See [Manage agent permissions and user acces](payables-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements) to learn more about setting up permissions and how they work for agents.
 
 ## Next steps
 - [Set up the Payables Agent](payables-agent-setup.md)

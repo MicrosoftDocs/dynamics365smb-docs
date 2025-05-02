@@ -102,7 +102,7 @@ The following procedure shows how to print the INV-17 form and the Supplement to
 4. Choose the **Print** action, and then choose the **Invent. Act INV-17** action to print the inventory act.
 5. Choose the **Print** action, and then choose the **Supplement to Invent. Act INV-17** action to print the supplement to the inventory act.
 
-## See Also
+## Related information
 
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  

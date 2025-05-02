@@ -39,7 +39,7 @@ Creating and modifying RDLC layouts is an advanced task, which is typically done
 > [!NOTE]
 > Report Builder only recognizes the .rdl file type, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
 
-## See Also
+## Related information
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Set the Layout Used by a Report](ui-set-report-layout.md)  

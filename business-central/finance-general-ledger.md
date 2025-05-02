@@ -104,7 +104,7 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 To learn more about dimensions, go to [Set up default dimensions for customers, vendors, and other accounts](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
-## See also
+## Related information
 
 [Understand the chart of accounts](finance-chart-of-accounts.md)  
 [Work with Dimensions](finance-dimensions.md)  

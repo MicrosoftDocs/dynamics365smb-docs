@@ -26,7 +26,7 @@ The VAT Statement report contains many improvements, which enable the user to:
 - Add comments and attachments to export to the tax authorities.
 
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

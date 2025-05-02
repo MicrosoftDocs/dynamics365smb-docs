@@ -18,7 +18,7 @@ Controls have been added to the **Reverse Transaction Entries** page to comply w
 - You cannot delete posted invoices, credit memos, or general journals in the sales, purchase, or service area—even if they have been printed.  
 - You cannot reverse sales, purchase, or service headers for reserved documents.  
 
-## See Also  
+## Related information  
   [Italy Local Functionality](italy-local-functionality.md)  
   [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)
 

@@ -538,7 +538,7 @@ This measure calculates the percentage growth in sales between the current and p
 - Date (Fiscal Calendar)
 
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  

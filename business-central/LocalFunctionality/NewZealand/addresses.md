@@ -26,7 +26,7 @@ When you print an address that has a DPID, a bar code is printed together with t
 
 Contact your Microsoft partner for information on how to obtain AMAS software.  
 
-## See also  
+## Related information  
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
 

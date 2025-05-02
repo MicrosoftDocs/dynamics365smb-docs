@@ -26,7 +26,7 @@ To find your warehouse assignments, open the card page for a selected item. If w
 
 You can use the **Assigned User ID** field on the header to claim work assignments, if the warehouse manager does not assign particular instructions to individuals. Simply enter your user ID in the header of the warehouse before you begin work on an instruction. Your co-workers can then choose to work on other instructions, and the warehouse will avoid a duplication of effort.  
 
-## See Also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

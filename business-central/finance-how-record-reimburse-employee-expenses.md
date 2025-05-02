@@ -59,7 +59,7 @@ You reimburse employees by posting payments to their bank account on the **Payme
 
 You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journals** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
-## See also
+## Related information
 
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)    
 [Work with General Journals](ui-work-general-journals.md)    

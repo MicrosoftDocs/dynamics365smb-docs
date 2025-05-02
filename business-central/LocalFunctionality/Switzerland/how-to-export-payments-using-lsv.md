@@ -28,7 +28,7 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
 
 5.  All related lines are transferred to the LSV journal. The LSV file is generated in the predetermined folder.  
 
-## See Also  
+## Related information  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   

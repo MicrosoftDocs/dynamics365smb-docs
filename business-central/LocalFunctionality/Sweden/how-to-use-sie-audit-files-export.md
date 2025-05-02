@@ -48,7 +48,7 @@ The **Audit File Export Document** page includes a few fields that are specific 
 
     All other fields are set by default, based on your previous setup.
 
-## See also
+## Related information
 
 - [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)  
 - [Sweden Local Functionality](sweden-local-functionality.md)

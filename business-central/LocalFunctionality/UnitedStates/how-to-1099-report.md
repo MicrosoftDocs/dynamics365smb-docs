@@ -80,7 +80,7 @@ After you select **OK**, an email is sent immediately for one document or, if yo
 
 If you try to send email for only one document and sending failed, an error dialog displays. If you try to send email for multiple documents and sending fails, the error is logged to the **Email Error Log** field on the **IRS 1099 Form Document** page. When the job for sending multiple documents is finished, the results are recorded in the activity log. To open the **Activity Log** page, choose the **Activity Log** action on the **IRS 1099 Form Documents** page.
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)
 - [How to setup the IRS 1099 forms](set-up-use-irs1099-form-v24.md)

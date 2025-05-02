@@ -116,7 +116,7 @@ For example, purchase invoice will be issued for INR 10000, Custom Duty INR 1000
 
 
 
-## See Also 
+## Related information 
 [Purchase from Foreign Vendor](GST-Purchase-from-Foreign-Vendor.md)
 
 

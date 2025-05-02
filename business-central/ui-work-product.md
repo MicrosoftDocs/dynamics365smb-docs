@@ -90,7 +90,7 @@ When you search for and open a list page, such as the **Sales Orders** list, it'
 
 When you open the same list page from your home page, the **Manage** action isn't available. Instead, to open an individual sales order, choose the **Number** field. In this view, you can't pin the action bar.  
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up Business Central](setup.md)  

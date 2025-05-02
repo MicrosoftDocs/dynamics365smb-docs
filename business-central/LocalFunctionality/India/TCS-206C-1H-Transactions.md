@@ -102,7 +102,7 @@ For example, payment has been received from customer for INR 1,00,000 on which 0
 
 
 
-## See Also 
+## Related information 
 [TCS 206C-1H-Overview](TCS-206C-1H-Overview.md)
 
 

@@ -97,7 +97,7 @@ The most important terms can be looked up in this glossary.
 
 * **Vendor Contract** <br/> Vendor Contracts can be used to retrieve and process vendor-side service commitments before creating vendor posting documents.
 
-## See also
+## Related information
 
 [Overview of subscription billing](welcome.md)  
 [Overview of usage based billing](../UBB/welcome.md)

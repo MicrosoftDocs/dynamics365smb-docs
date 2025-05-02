@@ -66,7 +66,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-## See Also
+## Related information
     
  [Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   

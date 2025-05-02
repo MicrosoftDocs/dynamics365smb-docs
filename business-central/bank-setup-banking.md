@@ -25,7 +25,7 @@ To use electronic banking services to import bank statements and  export payment
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## See Also
+## Related information
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  

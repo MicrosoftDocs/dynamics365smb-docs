@@ -43,7 +43,7 @@ To turn PDF and image files into electronic documents that you can convert to in
 
 For more information, see [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).  
 
-## See also
+## Related information
 
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

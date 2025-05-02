@@ -16,7 +16,7 @@ Due to Czech legislation, it's necessary to calculate tax depreciations from the
 
 The tax depreciation is calculated annually and the **Force No. of Days** option is recommended for calculating the correct depreciation amount.
 
-## See also
+## Related information
 
 [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

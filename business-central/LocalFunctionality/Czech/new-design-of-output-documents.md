@@ -23,7 +23,7 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 - Naming of tax corrective documents based on Credit Memo type
 - Printout of documents related to advance payments
 
-## See Also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

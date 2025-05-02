@@ -15,7 +15,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [use-tax-purchase-tax-setup](../includes/CAMXUS/use-tax-purchase-tax-setup.md)]
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Reporting Sales Tax in Canada](ca-sales-tax.md)  

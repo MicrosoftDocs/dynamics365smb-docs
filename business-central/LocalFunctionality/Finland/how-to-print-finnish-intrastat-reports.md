@@ -28,7 +28,7 @@ The completed entries can be sent in a file to the Intrastat authorities, or you
 1. Choose the **Print** action, and then choose the **Checklist Report** action.  
 1. Choose the **Print** action.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)  
 - [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  

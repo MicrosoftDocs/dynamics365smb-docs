@@ -107,7 +107,7 @@ Avoid these common KPI mistakes:
 - Tracking KPIs without owners. Accountability matters, not just for the results but also for the process. Each KPI should have an owner responsible for monitoring, reporting, analysis, and action.
 - Failing to take action on your KPIs. Whether you’re meeting your goals or falling behind, KPIs are tools to help you make better decisions. So don’t track just for tracking’s sake—take action.
 
-## See also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)  
 [Using Financial reporting to produce financial statements and KPIs](bi.md)  

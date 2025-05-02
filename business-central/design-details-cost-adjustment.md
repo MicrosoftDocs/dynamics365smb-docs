@@ -171,7 +171,7 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 
 If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
 
-## See Also
+## Related information
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

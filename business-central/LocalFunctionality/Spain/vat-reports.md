@@ -41,7 +41,7 @@ You can report VAT on sales to other countries/regions in the European Union (EU
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 
-## See Also
+## Related information
 
 [Spain Local Functionality](spain-local-functionality.md)  
 [Report 340](report-340.md)  

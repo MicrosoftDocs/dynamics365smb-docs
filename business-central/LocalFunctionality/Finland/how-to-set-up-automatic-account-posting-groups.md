@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [automatic-account-posting-groups-setup](../includes/FISE/automatic-account-posting-groups-setup.md)]
 
-## See also
+## Related information
 
 - [Automatic Account Codes](automatic-account-codes.md)  
 - [Setting Up Posting Groups](../../finance-posting-groups.md)  

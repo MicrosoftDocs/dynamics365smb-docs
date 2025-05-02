@@ -24,7 +24,7 @@ There's also a print-out of the Agreement on Mutual Settlement of Receivables an
 - **Agreement on Mutual Settlement of Receivables and Payables** printout,
 - **Compensation posting** – posted Compensation is created, entries application is posted.
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

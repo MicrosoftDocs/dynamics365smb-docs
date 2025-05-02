@@ -24,7 +24,7 @@ European Union (EU) third-party trade occurs when you receive a purchase invoice
 1. On the **Invoice Details** FastTab, select the **EU 3-Party Trade** check box.  
 1. Choose the **OK** button.  
 
-## See also
+## Related information
 
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)   
 - [Sweden Local Functionality](sweden-local-functionality.md)

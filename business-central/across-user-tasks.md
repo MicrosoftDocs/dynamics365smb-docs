@@ -67,7 +67,7 @@ If you want to bulk delete all or some user tasks, use the **Delete User Tasks**
 
 * [Cynthia Priebe](https://www.linkedin.com/in/cynthia-priebe-dcp/) | Microsoft MVP
 
-## See also
+## Related information
 
 [Searching for a Page or Report](ui-search.md)  
 [Accountant Experiences in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

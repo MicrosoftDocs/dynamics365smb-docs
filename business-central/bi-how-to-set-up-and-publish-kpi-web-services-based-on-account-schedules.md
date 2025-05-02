@@ -32,7 +32,7 @@ You can now create financial reports in Power BI based on the web service, or se
 > [!NOTE]  
 > You can also publish the KPI web service by pointing to the **Financial Report KPI Web Service Setup** page object from the **Web Services** page. Learn more at [Publish a Web Service](across-how-publish-web-service.md).
 
-## See also
+## Related information
 
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  

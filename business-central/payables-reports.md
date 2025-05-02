@@ -50,7 +50,7 @@ You can use the [Payment Practice](https://businesscentral.dynamics.com?page=687
 For more information, go to the [Payment practices page](ui-payment-practices.md).
 
 
-## See also
+## Related information
 
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  

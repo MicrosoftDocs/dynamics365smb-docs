@@ -48,7 +48,7 @@ The TCS that have been collected from various transactions, need to be deposited
 
 
 
-## See Also 
+## Related information 
 [TCS Overview](TCS-Overview.md)
 
 

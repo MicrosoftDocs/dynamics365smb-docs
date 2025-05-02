@@ -187,7 +187,7 @@ You can post the journal line to update the total on the balancing account. You 
 
 If you don't post the journal line, its value is added to the value in the **Rem. Amount Incl. Discount** field on the **Payment Registration** page.  
 
-## See also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

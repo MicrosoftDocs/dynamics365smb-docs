@@ -17,7 +17,7 @@ When you enter a transaction number in the first line of a journal, the same tra
 
 Having a unique sequential transaction number, ordered by date, allows you to identify every transaction posted in a fiscal year.  
 
-## See also  
+## Related information  
  [Post and Print All Transactions for a Period](how-to-post-and-print-all-transactions-for-a-period.md)   
  [Spain Local Functionality](spain-local-functionality.md)
 

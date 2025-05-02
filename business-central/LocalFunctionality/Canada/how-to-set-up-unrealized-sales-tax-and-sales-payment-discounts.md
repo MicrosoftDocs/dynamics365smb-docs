@@ -15,7 +15,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [unrealized-sales-tax-sales-payment-discounts-setup](../includes/CAMXUS/unrealized-sales-tax-sales-payment-discounts-setup.md)]
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Reporting Sales Tax in Canada](ca-sales-tax.md)  

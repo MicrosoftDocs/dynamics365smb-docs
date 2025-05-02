@@ -126,7 +126,7 @@ In addition, all future entries of the same type have amounts recorded in both L
 > [!NOTE]  
 > The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
 
-## See also
+## Related information
 
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  

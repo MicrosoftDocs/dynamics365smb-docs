@@ -70,7 +70,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you create all the bins in your warehouse.  
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  

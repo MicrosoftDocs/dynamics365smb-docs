@@ -51,7 +51,7 @@ For example, add an entry for Spain where you want to get validation for name, s
 
 The next time that you specify a VAT registration number, the service validates the number and any additional data as determined by your validation templates. If the specified values are different from the values that are returned by the service, you will see the details in the **Validation Details** page where you can accept or reset the values.  
 
-## See Also
+## Related information
 
 [Set Up Value-Added Tax](finance-setup-vat.md)  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  

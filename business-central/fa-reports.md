@@ -38,7 +38,7 @@ This article describes the built-in reports for fixed assets.
 [!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
 
 
-## See also
+## Related information
 
 [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)  

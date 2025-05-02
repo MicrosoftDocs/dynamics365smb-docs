@@ -50,7 +50,7 @@ The **Microsoft Excel Document (data only)** option exports all columns, includi
 
 For more information about report design, see [Report Overview](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## See Also
+## Related information
 
 [Working with Reports](ui-work-report.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

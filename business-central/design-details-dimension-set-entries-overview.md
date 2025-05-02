@@ -40,7 +40,7 @@ Codeunit 408, Dimension Management, is a function library that handles common ta
 ## Performance Improvement  
 By storing dimension sets once in the database, database space is preserved and overall performance is improved.  
 
-## See Also
+## Related information
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
 [Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   

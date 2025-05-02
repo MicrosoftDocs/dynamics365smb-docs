@@ -34,6 +34,6 @@ Electronic invoice in Italy is named as FatturaPA. **FatturaPA** stands for **Fa
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
-## See Also
+## Related information
 
 [Italy Local Functionality](italy-local-functionality.md)

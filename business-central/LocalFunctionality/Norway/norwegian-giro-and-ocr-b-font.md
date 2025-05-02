@@ -19,7 +19,7 @@ The OCR-B-10 BT font is generally available from software vendors. In [!INCLUDE[
 
 You can use any OCR-B font, but if other fonts are used, a Microsoft Certified Partner is required to update the sales documents. Contact your partner for more information.  
 
-## See also
+## Related information
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

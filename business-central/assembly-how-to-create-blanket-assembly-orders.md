@@ -36,7 +36,7 @@ You can use assembly management to customize an assembly item to a customer's re
 
 The linked blanket assembly order and any customizations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
 
-## See also
+## Related information
 
 [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Assembly Management](assembly-assemble-items.md)  

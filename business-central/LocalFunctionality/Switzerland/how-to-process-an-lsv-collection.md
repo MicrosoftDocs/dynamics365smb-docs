@@ -51,7 +51,7 @@ All related lines are transferred to the LSV journal. After processing the LSV c
 
 3.  Choose the **OK** button.  
 
-## See also  
+## Related information  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   

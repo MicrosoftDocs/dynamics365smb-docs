@@ -102,7 +102,7 @@ The [Sales by Item](sales-powerbi-sales-by-item.md) report highlights product pe
 [!INCLUDE [power-bi-sales-app](includes/power-bi-sales-app.md)]
 
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

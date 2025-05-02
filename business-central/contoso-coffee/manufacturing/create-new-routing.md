@@ -55,6 +55,6 @@ Oscar, the process engineer, at Contoso Coffee, decides to create a new routing 
 
 The new routing is now set up.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

@@ -59,7 +59,7 @@ It is possible to consider only part of the amount of the VAT and write off the 
 
 3. Click OK. Post the journal.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

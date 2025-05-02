@@ -73,6 +73,6 @@ Here, you create a new released production order for 12 units of item SP-SCM1009
 
 The output of item SP-SCM1009 Airpot is now registered.
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

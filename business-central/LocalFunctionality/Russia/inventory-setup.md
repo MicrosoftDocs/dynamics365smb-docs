@@ -40,7 +40,7 @@ For more information, see [Post Red Storno Corrections](How-to-Post-Red-Storno-C
 
 If you select the Enable Red Storno field in the **Inventory Setup** window, then negative deviations are posted according to red storno when you run the **Adjust Cost - Item Entries** batch job.
 
-## See Also
+## Related information
 
 [Item Documents](Item-Documents.md)  
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  

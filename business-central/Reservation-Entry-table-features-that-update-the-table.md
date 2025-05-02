@@ -515,7 +515,7 @@ The reservation status isn't Surplus, as order tracking exists between the deman
 
 The last two entries have a reservation status Surplus, as these are Untracked Quantities generated on the planning worksheet related to reordering parameters Reorder Point and Reorder Quantity.
 
-## See also  
+## Related information  
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   

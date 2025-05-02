@@ -99,7 +99,7 @@ To create new 1099 form documents for the reporting years, follow these steps:
 
 1. Close the page.  
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)
 - [How to set up the IRS 1099 forms](set-up-use-irs1099-form-v24.md)

@@ -31,7 +31,7 @@ ms.reviewer: bholtorf
 2. Select the payment, and then choose the **Cancel Payment** action.  
 3. Choose the **Yes** button.  
 
-## See also
+## Related information
 
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   

@@ -57,7 +57,7 @@ Microsoft currently supports the following localizations:
 > [!NOTE]
 > For non-Microsoft localizations, please visit the AppSource.  
 
-## See also
+## Related information
 
 [Financial Management](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

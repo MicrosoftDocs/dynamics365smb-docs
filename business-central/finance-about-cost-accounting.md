@@ -69,7 +69,7 @@ Similar to budgeting in the general ledger, you can create budgets to plan for c
 
 Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard financial reports to define how your reports for the chart of cost types are displayed.  
 
-## See also
+## Related information
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Finance](finance.md)  

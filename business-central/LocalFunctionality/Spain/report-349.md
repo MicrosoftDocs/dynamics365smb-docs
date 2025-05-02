@@ -44,7 +44,7 @@ Then, when you create a sales order, you must make sure that you select the corr
 
 When you post the sales invoice, [!INCLUDE[prod_short](../../includes/prod_short.md)] saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
 
-## See Also  
+## Related information  
  [Create Report 349](how-to-create-report-349.md)
 
 

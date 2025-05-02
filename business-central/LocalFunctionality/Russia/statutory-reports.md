@@ -40,7 +40,7 @@ Statutory reports are based on financial reports and tax registers. For each sta
 | **Tax Difference**          | The data is based on a tax difference. Learn more at [Tax Differences](tax-differences.md). |
 | **Payroll Analysis Report** | The data is based on payroll analysis.                       |
 
-## See also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Differences](Tax-Differences.md)  

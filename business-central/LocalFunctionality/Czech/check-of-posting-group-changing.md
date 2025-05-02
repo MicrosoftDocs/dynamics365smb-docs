@@ -19,7 +19,7 @@ The standard functionality extends with checks if there's a request to change po
 - On the Item Card, you can change the item posting group if there are no open item entries and at the same time there are no uninvoiced closed item entries.
 - On the Bank Account Card, you can change the posting group of the bank account if the Balance or Balance (LCY) isn't zero.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

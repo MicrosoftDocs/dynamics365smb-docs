@@ -71,7 +71,7 @@ For example, there is an expense of INR 10,000 and 18% GST (i.e. 9% CGST and 9% 
 
 
 
-## See Also 
+## Related information 
 [GST on Advance Payment to Vendor](GST-GST-on-Advance-Payment-made-to-Vendor.md)
 
 

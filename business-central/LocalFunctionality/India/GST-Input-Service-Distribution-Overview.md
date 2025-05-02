@@ -92,7 +92,7 @@ This setup is required to define the GST components for distribution functionali
     |**Interstate Distribution**|Specify whether this is applicable for interstate distribution or not.|
 
 
-## See Also
+## Related information
 [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
 
 

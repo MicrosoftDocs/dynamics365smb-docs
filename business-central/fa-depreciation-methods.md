@@ -327,7 +327,7 @@ Use the manual method for assets that aren't subject to depreciation, for exampl
 
 If the built-in depreciation methods don't meet your needs, you can define your own depreciation method by using depreciation tables. To learn more about applying a user-defined depreciation method, go to [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
 
-## See also
+## Related information
 
 [Fixed Assets overview](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

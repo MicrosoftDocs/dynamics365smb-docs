@@ -57,7 +57,7 @@ For all exchanges of data in XML files, you can prepare the data exchange setup 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the Data Exchange Framework for Intrastat reporting where you can easily create timestamped files in different formats for export. [!INCLUDE[prod_short](includes/prod_short.md)] contains prepared formats for localized countries/regions and for default version. But you can change the out-of-box report or make your own.
 
-## See also
+## Related information
 
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

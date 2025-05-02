@@ -169,7 +169,7 @@ You can view information about settled periods in the **Settled VAT Period** pag
 
 Before January 2022, you used the **Tradesettlement** report to report VAT. This report is no longer described in this article, but you can read about it in the [Dynamics NAV 2016 documentation archive](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
 
-## See also
+## Related information
 
 [Norwegian VAT Codes](norwegian-vat-codes.md)  
 [Proportional VAT](proportional-vat.md)  

@@ -47,7 +47,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
     |**Hotel (Other Rate) %**|Enter an alternative VAT rate for accommodation that applies to certain transactions during the time period.|  
     |**Show Amounts in Add. Reporting Currency**|Select to show amounts in an additional reporting currency.|  
 
-## See also  
+## Related information  
  [Swiss Value Added Tax](swiss-value-added-tax.md)
 
 

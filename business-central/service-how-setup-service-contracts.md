@@ -49,7 +49,7 @@ Before you can work with contracts, you must set up the following:
 4. To define search criteria, fill in the other fields, such as **Country/Region Code**, **Territory Code**, and **Language Code**.  
 5. Fill in the **Gen. Bus. Posting Group** and **Customer Posting Group** fields.  
 
-## See Also
+## Related information
 [Setting Up Service Management](service-setup-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

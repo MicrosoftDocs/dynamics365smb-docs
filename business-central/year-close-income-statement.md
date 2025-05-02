@@ -30,7 +30,7 @@ The date on the lines that the batch job inserts in the journal is always a clos
 
 The **Close Income Statement** batch job can be used several times. You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the batch job again.
 
-## See also
+## Related information
 
 [Closing Books](year-close-books.md)    
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)    

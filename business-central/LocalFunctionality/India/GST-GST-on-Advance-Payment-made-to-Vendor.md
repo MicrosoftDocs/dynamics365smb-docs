@@ -71,7 +71,7 @@ If the vendor advance needs to be corrected or the entry is wrongly posted, in s
 
 
 
-## See Also 
+## Related information 
 [GST Application of Payment and Invoice](GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
 
 

@@ -31,7 +31,7 @@ The **Posted Documents without Incoming Document** page opens showing posted pur
 
 If a relevant incoming document record doesn't exist on the **Incoming Documents** page, then you can create it. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
-## See also
+## Related information
 
 [Create Incoming Document Records](across-how-create-income-document-records.md)
 [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)

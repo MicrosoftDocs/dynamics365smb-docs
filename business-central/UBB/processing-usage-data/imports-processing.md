@@ -191,7 +191,7 @@ When you process usage data, the assignment is made either via the vendor servic
 > [!NOTE]
 > If only a customer service commitment exists, only those where **Customer** is chosen in **Partner** field are created when processing the related usage data.
 
-## See also
+## Related information
 
 [Linking subscription with service object](connect-subscription-service-object.md)  
 [Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md)  

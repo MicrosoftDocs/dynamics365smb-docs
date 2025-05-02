@@ -47,7 +47,7 @@ The Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] co
 
 6.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
   [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)
 

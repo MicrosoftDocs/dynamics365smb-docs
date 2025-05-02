@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 The standard functionality of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] is extended by checking the time sequence of warehouse operations. After activating the check, ensure that it isn't possible to delivery items with a posting date preceding the posting date of its receipt.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

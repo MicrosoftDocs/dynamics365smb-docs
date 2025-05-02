@@ -96,7 +96,7 @@ Bonded warehouse transfer means transfer of stock from customs warehouse to comp
 
 
 
-## See Also 
+## Related information 
 [GST Service Transfer](GST-Service-Transfer.md)
 
 

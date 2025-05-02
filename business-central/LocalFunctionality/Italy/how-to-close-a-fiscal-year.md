@@ -58,7 +58,7 @@ Fiscal year closing involves the following steps:
 
 An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  
 
-## See Also  
+## Related information  
  [Closing Years and Periods](../../year-close-years-periods.md)   
  [Italy Local Functionality](italy-local-functionality.md)
 

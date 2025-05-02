@@ -37,7 +37,7 @@ Because credit memos are used for adjustment notes, each credit memo should sati
 - **Adjustment Note Date**: Automatically populated from the document date.  
 - **Adjustment**: These entries populate automatically. Adjustment notes can only be applied against a single document.  
 
-## See Also  
+## Related information  
 [Enter New Zealand IRD Numbers](how-to-enter-new-zealand-business-numbers.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

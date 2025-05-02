@@ -31,7 +31,7 @@ This feature in the standard version of Microsoft [!INCLUDE[d365fin](../../inclu
 The new calculation principle handles deviations from the currently adjusted exchange rate.
 The Adjust Exchange Rates batch job was extended to include the Czech Advance Payments module.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

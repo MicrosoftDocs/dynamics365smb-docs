@@ -55,7 +55,7 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 > [!TIP]
 > System will automatically update 'Nature of Supply' B2C for Unregistered Customer.
 
-## See Also 
+## Related information 
 [Exempted Sales](GST-Exempted-Sales.md)
 
 

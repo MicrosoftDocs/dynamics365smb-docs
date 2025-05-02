@@ -39,7 +39,7 @@ The following table provides links to articles that describe how to work with an
 | Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
 | Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
 
-## See also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)  
 [Business Central Quick Starts](quick-start-business-central.md)  

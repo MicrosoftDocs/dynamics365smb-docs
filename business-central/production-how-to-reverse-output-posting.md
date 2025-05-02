@@ -24,7 +24,7 @@ There are times when output posting must be reversed. An example of this would b
 
 The output journal entries are posted to the item ledger as a positive adjustment.  
 
-## See Also
+## Related information
 
  [Manufacturing](production-manage-manufacturing.md)
  [Setting Up Manufacturing](production-configure-production-processes.md)  

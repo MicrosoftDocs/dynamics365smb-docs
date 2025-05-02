@@ -29,7 +29,7 @@ The picking list includes only those items with a shipping quantity greater than
 4. On the **Options** FastTab, in the **No. of Copies** field, enter the required number of copies.  
 5. Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)  
 [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)  

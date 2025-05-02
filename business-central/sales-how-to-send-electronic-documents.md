@@ -47,7 +47,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports s
     > [!NOTE]  
     >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document.  
 
-## See Also
+## Related information
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  

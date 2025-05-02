@@ -122,7 +122,7 @@ After you correct dimensions, your data for cost accounting is out of sync. Cost
 
 You must manually identify where dimension corrections affect cost accounting, and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] doesn't currently provide an automated way to do that.
 
-## See also
+## Related information
 
 [Work with Dimensions](finance-dimensions.md)    
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)    

@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [calculate-gst-prepayments](../includes/AUNZ/calculate-gst-prepayments.md)]
 
-## See also
+## Related information
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

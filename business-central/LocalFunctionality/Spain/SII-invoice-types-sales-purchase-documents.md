@@ -79,7 +79,7 @@ The following sections show the output of the various types that are used for in
 |R4|Corrected invoice (other)|Same as for R1.|
 |R5|Corrected invoice in simplified invoices|Same as for R1 except the block is called `Contraparte`|
 
-## See also
+## Related information
 
 [Set Up SII for VAT Reporting in the Spanish Version](sii-setup.md)  
 [Spain Local Functionality](spain-local-functionality.md)  

@@ -72,7 +72,7 @@ When you run the report, check the box **Staff Arrangement** and select the desi
 
 Click OK to generate the report.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)  
 

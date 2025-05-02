@@ -18,7 +18,7 @@ The first step is for you, or maybe your accountant, to use the export features 
 
 For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).
 
-## See also
+## Related information
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)    
 [Finance](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

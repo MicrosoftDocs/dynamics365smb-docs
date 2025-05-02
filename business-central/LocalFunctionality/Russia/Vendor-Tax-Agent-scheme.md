@@ -151,7 +151,7 @@ Fill the fields in Vendor Card.
         - Currency Code
         - Amount - in USD/EUR
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

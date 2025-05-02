@@ -74,7 +74,7 @@ You can use a financial report to create a statement comparing general ledger fi
 
 Now you can copy and paste your budget statement into a spreadsheet.
 
-## See also
+## Related information
 
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  

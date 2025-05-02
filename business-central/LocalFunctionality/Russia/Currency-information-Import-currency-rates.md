@@ -42,7 +42,7 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 
 2. Enter the start and end dates of the period for which you want to adjust the exchange rates.
 
-## See also
+## Related information
 
 [Adjust Exchange Rates](Adjust-Exchange-Rates.md)  
 [Russia Local Functionality](russia-local-functionality.md)  

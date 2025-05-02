@@ -31,7 +31,7 @@ When you perform typical service, you often have to create service documents tha
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fill in the service lines linked to this service code.  
 
-## See Also
+## Related information
 
 [Service Management](service-service.md)
 

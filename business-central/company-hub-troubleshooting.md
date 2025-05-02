@@ -39,7 +39,7 @@ When you add a company or request a refresh of the data, [!INCLUDE [prod_short](
 
 If you've added a company but it is not displaying in the list, you can also use the **Reload all companies** action to update the list.
 
-## See also
+## Related information
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Add companies to your company hub](company-hub-add-company.md)  

@@ -46,7 +46,7 @@ To use accounts for unrealized VAT, follow these steps:
 > [!NOTE]  
 > The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
-## See also
+## Related information
 [Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

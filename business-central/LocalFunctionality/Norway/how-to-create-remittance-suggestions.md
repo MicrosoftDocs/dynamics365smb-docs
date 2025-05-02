@@ -37,7 +37,7 @@ You can create a remittance suggestion so that payment proposals are sent to ven
 
 4.  Choose the **OK** button.  
 
-## See also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

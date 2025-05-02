@@ -30,7 +30,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
 5.  Expand the **Fixed Asset** FastTab, and then select the appropriate filters.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## Related information  
  [Italian Fixed Assets](italian-fixed-assets.md)   
  [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
  [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  

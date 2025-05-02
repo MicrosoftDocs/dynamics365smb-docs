@@ -61,7 +61,7 @@ When posting the documents and journals, the values of these fields are transfer
 
 
 
-## See Also
+## Related information
 
 [Fixed Asset Inventory](Fixed-Asset-Inventory.md)
 

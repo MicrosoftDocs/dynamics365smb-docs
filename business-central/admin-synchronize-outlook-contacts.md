@@ -62,7 +62,7 @@ In both cases, contacts are only synchronized from Outlook if they have the requ
 > [!NOTE]
 > If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync. 
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Finance](finance.md)  

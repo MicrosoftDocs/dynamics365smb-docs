@@ -25,7 +25,7 @@ You can schedule when a batch job runs. For more information, see [Use Job Queue
 3. The page may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
 4. Choose the **OK** button to start the batch job.
 
-## See Also
+## Related information
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

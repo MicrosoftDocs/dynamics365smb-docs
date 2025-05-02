@@ -1,13 +1,13 @@
 ---
 title: CO2e Decomposition Tree
 description: The CO2e Decomposition Tree report breaks down CO2e emission metrics into its key contributing components to help users understand what is driving changes in CO2 emissions and why.
-author: 
-ms.author: 
+author: altotovi
+ms.author: altotovi
 ms.reviewer: 
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

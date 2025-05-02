@@ -1,13 +1,13 @@
 ---
 title: CO2e Key Influences
 description: The CO2e Key Influencers report identifies the key factors driving CO2e emission increases, highlighting the most impactful variables and trends based on the sustainability account categories.
-author: 
-ms.author: 
+author: altotovi
+ms.author: altotovi
 ms.reviewer: 
-ms.topic: 
+ms.topic: conceptual 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

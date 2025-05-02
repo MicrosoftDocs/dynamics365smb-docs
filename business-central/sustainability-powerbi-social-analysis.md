@@ -2,12 +2,12 @@
 title: Social Analysis
 description: The Social Analysis report displays employee details as part of Social reporting for ESG. 
 author: 
-ms.author:
-ms.reviewer: 
-ms.topic: 
+ms.author: altotovi
+ms.reviewer: altotovi
+ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

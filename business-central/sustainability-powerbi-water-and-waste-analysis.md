@@ -7,7 +7,7 @@ ms.reviewer:
 ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

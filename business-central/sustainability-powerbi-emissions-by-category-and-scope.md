@@ -1,13 +1,13 @@
 ---
 title: Emissions by Category and Scope
 description: The Emissions by Scope report breakdowns each emission type and showcases this based on the Account Category and the Scope so you can see how each account and scope is tracking.
-author: kennienp
-ms.author: 
+author: altotovi
+ms.author: altotovi
 ms.reviewer: 
-ms.topic: 
+ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

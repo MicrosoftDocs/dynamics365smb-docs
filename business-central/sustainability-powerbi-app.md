@@ -1,13 +1,13 @@
 ---
 title: Sustainabiltiy Power BI app
 description: The Power BI app for Sustainabiltiy in Business Central provides comprehensive Sustainabiltiy analytics to stakeholders at all levels of your organization.
-author: 
-ms.author: 
+author: altotovi
+ms.author: altotovi
 ms.reviewer: 
-ms.topic: 
+ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

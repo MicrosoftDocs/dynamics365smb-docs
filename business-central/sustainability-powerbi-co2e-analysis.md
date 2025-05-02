@@ -1,13 +1,13 @@
 ---
 title: CO2e Analysis
 description: The CO2e Analysis report provides detailed insight into you CO2e Emissions and how you are purchasing Carbon Credit.
-author: 
-ms.author: 
+author: altotovi
+ms.author: altotovi
 ms.reviewer: 
 ms.topic: 
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 
+ms.date: 02/05/2025
 ms.service: dynamics-365-business-central
 ---
 

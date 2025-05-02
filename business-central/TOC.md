@@ -1158,6 +1158,7 @@ ms.service: dynamics-365-business-central
 
 <!--Shopify-->
 ## Online store with Shopify
+### [Shopify connector overview](shopify/shopify-connector-overview.md)
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1168,6 +1169,7 @@ ms.service: dynamics-365-business-central
 ### [Automate Shopify synchronization using the job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
+### [Support for the Shopify connector](shopify/shopify-support.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->

@@ -1639,7 +1639,7 @@ Each measure is filtered to include only transactions that occurred **before the
 
 **Formula**
 
-The **Capacity Value** measure calculates the total actual cost associated with capacity usage by summing the **`costAmountActual`** field from the **'Value Entries'** table where the **Item Ledger Entry Type is blank**. This typically isolates capacity-related entries not linked to standard inventory transactions like consumption or output.
+The **Capacity Value** measure calculates the total actual cost associated with capacity usage by summing the **costAmountActual** field from the **'Value Entries'** table where the **Item Ledger Entry Type is blank**. This typically isolates capacity-related entries not linked to standard inventory transactions like consumption or output.
 
 **Data Source**
 
@@ -1649,7 +1649,7 @@ The **Capacity Value** measure calculates the total actual cost associated with 
 
 **Formula**
 
-The **Consumption Value** measure calculates the total negative actual cost of materials consumed by summing the **`costAmountActual`** from the **'Value Entries'** table where the **Item Ledger Entry Type** is **"Consumption"** and the **Entry Type** is **not "Revaluation"**. The negative sign reflects that consumption reduces inventory value.
+The **Consumption Value** measure calculates the total negative actual cost of materials consumed by summing the **costAmountActual** from the **'Value Entries'** table where the **Item Ledger Entry Type** is **"Consumption"** and the **Entry Type** is **not "Revaluation"**. The negative sign reflects that consumption reduces inventory value.
 
 **Data Source**
 
@@ -1674,10 +1674,10 @@ The **Ending Balance Value** measure calculates the total value of Work in Progr
 
 **Formula**
 
-The **Output Value** measure calculates the total negative value of **actual and expected output costs**. It does so by summing the `costAmountActual` and `costAmountExpected` fields from the **'Value Entries'** table for entries where:
+The **Output Value** measure calculates the total negative value of **actual and expected output costs**. It does so by summing the costAmountActual and costAmountExpected fields from the **'Value Entries'** table for entries where:
 
-- `Item Ledger Entry Type` is `"Output"`
-- `entryType` is `"Direct Cost"`
+- Item Ledger Entry Type is "Output"
+- entryType is "Direct Cost"
 
 Then, the result is multiplied by -1 to reflect it as a cost deduction.
 
@@ -1687,13 +1687,83 @@ Then, the result is multiplied by -1 to reflect it as a cost deduction.
 
 ### Value Entry Measures
 
-- [Cost Amount Actual]()
-- [Cost Amount Expected]()
-- [Cost Posted to G/L]()
-- [Expected Cost]()
-- [Expected Cost Posted to G/L]()
-- [ILE Quantity]()
-- [Valued Quantity]()
+- [Cost Amount Actual](#cost-amount-actual)
+- [Cost Amount Expected](#cost-amount-expected)
+- [Cost Posted to G/L](#cost-posted-to-gl)
+- [Expected Cost](#expected-cost)
+- [Expected Cost Posted to G/L](#expected-cost-posted-to-gl)
+- [Item Ledger Entry Quantity](#item-ledger-entry-quantity)
+- [Valued Quantity](#valued-quantity)
+
+#### Cost Amount Actual
+
+**Formula**
+
+The **Cost Amount Actual** measure calculates the total actual cost amount by summing the **costAmountActual** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
+
+#### Cost Amount Expected
+
+**Formula**
+
+The **Cost Amount Expected** measure calculates the total expected cost amount by summing the **costAmountExpected** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
+
+#### Cost Posted to G/L
+
+**Formula**
+
+The **Cost Posted to G/L** measure calculates the total cost amount posted to the General Ledger by summing the **costPostedtoGL** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
+
+#### Expected Cost
+
+**Formula**
+
+The **Expected Cost** measure calculates the total expected cost by summing the **expectedCost** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
+
+#### Expected Cost Posted to G/L
+
+**Formula**
+
+The **Expected Cost Posted to G/L** measure calculates the total expected cost posted to the General Ledger by summing the **expectedCostPostedtoGL** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
+
+#### Item Ledger Entry Quantity
+
+**Formula**
+
+The **Item Ledger Entry Quantity** measure calculates the total item ledger entry quantity by summing the **itemLedgerEntryQuantity** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
+
+#### Valued Quantity
+
+**Formula**
+
+The **Valued Quantity** measure calculates the total valued quantity of items by summing the **valuedQuantity** field from the **Value Entries** table.
+
+**Data Source**
+
+- Value Entry
 
 ## Work Center
 

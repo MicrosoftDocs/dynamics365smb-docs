@@ -1769,11 +1769,63 @@ The **Valued Quantity** measure calculates the total valued quantity of items by
 
 ### Work Center Measures
 
-- [Work Center Availability After Orders]()
-- [Work Center Load]()
-- [Work Center Output]()
-- [Work Center Scrap]()
-- [Work Center Scrap %]()
+- [Work Center Availability After Orders](#work-center-availability-after-orders)
+- [Work Center Load](#work-center-load)
+- [Work Center Output](#work-center-output)
+- [Work Center Scrap](#work-center-scrap)
+- [Work Center Scrap %](#work-center-scrap-percent)
+
+#### Work Center Availability After Orders
+
+**Formula**
+
+The **Work Center Availability After Orders** measure calculates the available capacity of a work center after considering the allocated time by subtracting the **[Work Center Allocated Time]** from the **[Work Center Capacity (Effective)]**.
+
+**Data Source**
+
+- Calendar Entry
+- Prod Order Capacity Need
+
+#### Work Center Load
+
+**Formula**
+
+The **Work Center Load** measure calculates the load on a work center by dividing the **[Work Center Allocated Time]** by the **[Work Center Capacity (Effective)]**, providing the ratio of the allocated time to the available capacity.
+
+**Data Source**
+
+- Calendar Entry
+- Prod Order Capacity Need
+
+#### Work Center Output
+
+**Formula**
+
+The **Work Center Output** measure calculates the total output quantity for a work center by summing the **outputQuantity** field from the **Capacity Ledger Entries** table, filtered where the **Type** is "Work Center."
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Work Center Scrap
+
+**Formula**
+
+The **Work Center Scrap** measure calculates the total scrap quantity for a work center by summing the **scrapQuantity** field from the **Capacity Ledger Entries** table, filtered where the **Type** is "Work Center."
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Work Center Scrap Percent
+
+**Formula**
+
+The **Work Center Scrap %** measure calculates the percentage of scrap relative to the total output for a work center by dividing the **[Work Center Scrap](#work-center-scrap)** by the **[Work Center Output](#work-center-output)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
 
 ### Work Center Statistics
 

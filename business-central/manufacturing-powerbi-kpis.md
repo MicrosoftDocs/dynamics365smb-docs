@@ -1316,12 +1316,110 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 #### Standard Costs
 
-- [Standard Capacity Cost]()
-- [Standard Capacity Overhead Cost]()
-- [Standard Manufacturing Overhead Cost]()
-- [Standard Material Cost]()
-- [Standard Subcontracted Cost]()
-- [Total Standard Cost]()
+- [Standard Capacity Cost](#standard-capacity-cost)
+- [Standard Capacity Overhead Cost](#standard-capacity-overhead-cost)
+- [Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost)
+- [Standard Material Cost](#standard-material-cost)
+- [Standard Subcontracted Cost](#standard-subcontracted-cost)
+- [Total Standard Cost](#total-standard-cost)
+
+##### Standard Capacity Cost
+
+**Formula**
+
+The **Standard Capacity Cost** measure calculates the standard capacity cost for production order lines, using either item master data or finalized inventory adjustments:
+
+- For each production order line:
+  - If the line is fully invoiced, use the finished quantity multiplied by the single-level capacity cost from the inventory adjustment.
+  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Capacity Cost from the Item Card.
+
+**Data Source**
+
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+##### Standard Capacity Overhead Cost
+
+**Formula**
+
+The **Standard Capacity Overhead Cost** measure calculates the standard capacity overhead cost for each production order line, using either item master data or finalized inventory adjustments:
+
+- For each production order line:
+  - If fully invoiced, multiply the finished quantity by the single-level capacity overhead cost from the inventory adjustment entry.
+  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Cap. Ovhd Cost from the Item Card.
+
+**Data Source**
+
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+##### Standard Manufacturing Overhead Cost
+
+**Formula**
+
+The **Standard Manufacturing Overhead Cost** measure calculates the standard manufacturing overhead cost for each production order line, using either finalized inventory adjustment data or standard item-level overhead rates.
+
+- For each production order line:
+  - If the line is fully invoiced, multiply the finished quantity by the single-level manufacturing overhead cost from the inventory adjustment.
+  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Mfg. Ovhd Cost from the Item Card.
+
+**Data Source**
+
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+##### Standard Material Cost
+
+**Formula**
+
+The **Standard Material Cost** measure calculates the standard material cost for each production order line based on either finalized inventory adjustments or item-level standard costs:
+
+- For each production order line:
+  - If the line is fully invoiced, multiply the finished quantity by the single-level material cost from the inventory adjustment entry.
+  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Material Cost from the Item Card.
+
+**Data Source**
+
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+##### Standard Subcontracted Cost
+
+**Formula**
+
+The **Standard Subcontracted Cost** measure calculates the standard subcontracted cost for each production order line based on either finalized inventory adjustments or item-level standard costs:
+
+- For each production order line:
+  - If the line is fully invoiced, multiply the finished quantity by the single-level subcontracted cost from the inventory adjustment entry.
+  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Subcontrd. Cost from the Item Card.
+
+**Data Source**
+
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+##### Total Standard Cost
+
+**Formula**
+
+The Total Standard Cost measure sums up the various standard cost components associated with a production order. The measure calculates the total standard cost by adding up the following:
+
+- [Standard Material Cost](#standard-material-cost)
+- [Standard Capacity Cost](#standard-capacity-cost)
+- [Standard Capacity Overhead Cost](#standard-capacity-overhead-cost)
+- [Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost)
+- [Standard Subcontracted Cost](#standard-subcontracted-cost)
+
+**Data Source**
+
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
 
 ##### Variance to Standard Cost
 

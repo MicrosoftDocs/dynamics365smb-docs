@@ -1407,7 +1407,7 @@ The **Standard Subcontracted Cost** measure calculates the standard subcontracte
 
 **Formula**
 
-The Total Standard Cost measure sums up the various standard cost components associated with a production order. The measure calculates the total standard cost by adding up the following:
+The **Total Standard Cost** measure sums up the various standard cost components associated with a production order. The measure calculates the total standard cost by adding up the following:
 
 - [Standard Material Cost](#standard-material-cost)
 - [Standard Capacity Cost](#standard-capacity-cost)
@@ -1423,12 +1423,100 @@ The Total Standard Cost measure sums up the various standard cost components ass
 
 ##### Variance to Standard Cost
 
-- [Standard Capacity Cost Variance]()
-- [Standard Capacity Overhead Cost Variance]()
-- [Standard Manufacturing Overhead Cost Variance]()
-- [Standard Material Cost Variance]()
-- [Standard Subcontracted Cost Variance]()
-- [Total Standard Cost Variance]()
+- [Standard Capacity Cost Variance](#standard-capacity-cost-variance)
+- [Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance)
+- [Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance)
+- [Standard Material Cost Variance](#standard-material-cost-variance)
+- [Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance)
+- [Total Standard Cost Variance](#total-standard-cost-variance)
+
+###### Standard Capacity Cost Variance
+
+**Formula**
+
+The **Standard Capacity Cost Variance** measure calculates the difference between the **[Actual Capacity Cost](#actual-capacity-cost)** and **[Standard Capacity Cost](#standard-capacity-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Capacity Overhead Cost Variance
+
+**Formula**
+
+The **Standard Capacity Overhead Cost Variance** measure calculates the difference between the **[Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)** and **[Standard Capacity Overhead Cost](#standard-capacity-overhead-cost)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Manufacturing Overhead Cost Variance
+
+**Formula**
+
+The **Standard Manufacturing Overhead Cost Variance** measure calculates the difference between the **[Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost)** and **[Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Value Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Material Cost Variance
+
+**Forumla**
+
+The **Standard Material Cost Variance** measure calculates the difference between the **[Actual Material Cost](#actual-material-cost)** and **[Standard Material Cost](#standard-material-cost)**.
+
+**Data Source**
+
+- Value Entry
+- Prod Order Line
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Subcontracted Cost Variance
+
+**Formula**
+
+The **Standard Subcontracted Cost Variance** measure calculates the difference between the **[Actual Subcontracted Cost](#actual-subcontracted-cost)** and **[Standard Subcontracted Cost](#standard-subcontracted-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Total Standard Cost Variance
+
+**Formula**
+
+The **Total Standard Cost Variance** measure calculates the total deviation from standard costs by summing the following individual variances:
+
+- **[Standard Material Cost Variance](#standard-material-cost-variance)**
+- **[Standard Capacity Cost Variance](#standard-capacity-cost-variance)**
+- **[Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance)**
+- **[Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance)**
+- **[Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance)**
+
+**Data Source**
+
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+- Value Entry
 
 ##### Variance to Standard Cost Deviation %
 

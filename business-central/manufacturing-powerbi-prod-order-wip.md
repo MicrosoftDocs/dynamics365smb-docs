@@ -30,11 +30,11 @@ Below the timeline is the **Inventory Valuation - WIP** table, which provides a 
 
 The *Production Order WIP* report includes the following KPIs and measures:
 
-- [Beginning Balance Value]()
-- [Consumption Value]()
-- [Output Value]()
-- [Capacity Value]()
-- [Ending Balance Value]()
+- [Beginning Balance Value](manufacturing-powerbi-kpis.md#beginning-balance-value)
+- [Consumption Value](manufacturing-powerbi-kpis.md#consumption-value)
+- [Output Value](manufacturing-powerbi-kpis.md#output-value)
+- [Capacity Value](manufacturing-powerbi-kpis.md#capacity-value)
+- [Ending Balance Value](manufacturing-powerbi-kpis.md#ending-balance-value)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

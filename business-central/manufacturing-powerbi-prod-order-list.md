@@ -38,15 +38,15 @@ Production supervisors rely on the **Prod. Order List** page to manage day-to-da
 
 The *Prod. Order List* report includes the following KPIs and measures:
 
-- [Actual Total Cost]()
-- [Expected Total Cost]()
-- [Standard Total Cost]()
-- [Total Expected Cost Dev %]()
-- [Total Standard Cost Dev %]()
-- [No. of Production Orders]()
-- [Planned Quantity]()
-- [Finished Quantity]()
-- [Variance Quantity]()
+- [Actual Total Cost](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [Expected Total Cost](manufacturing-powerbi-kpis.md#total-expected-cost)
+- [Standard Total Cost](manufacturing-powerbi-kpis.md#total-standard-cost)
+- [Total Expected Cost Dev %](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
+- [Total Standard Cost Dev %](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
+- [No. of Production Orders](manufacturing-powerbi-kpis.md#no-of-production-orders)
+- [Planned Quantity](manufacturing-powerbi-kpis.md#planned-quantity)
+- [Finished Quantity](manufacturing-powerbi-kpis.md#finished-quantity)
+- [Variance Quantity](manufacturing-powerbi-kpis.md#variance-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

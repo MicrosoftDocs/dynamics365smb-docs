@@ -1520,12 +1520,94 @@ The **Total Standard Cost Variance** measure calculates the total deviation from
 
 ##### Variance to Standard Cost Deviation %
 
-- [Standard Capacity Cost Dev %]()
-- [Standard Capacity Overhead Cost Dev %]()
-- [Standard Manufacturing Overhead Cost Dev %]()
-- [Standard Material Cost Dev %]()
-- [Standard Subcontracted Cost Dev %]()
-- [Total Standard Cost Dev %]()
+- [Standard Capacity Cost Dev %](#standard-capacity-cost-dev-percent)
+- [Standard Capacity Overhead Cost Dev %](#standard-capacity-overhead-cost-dev-percent)
+- [Standard Manufacturing Overhead Cost Dev %](#standard-manufacturing-overhead-cost-dev-percent)
+- [Standard Material Cost Dev %](#standard-material-cost-dev-percent)
+- [Standard Subcontracted Cost Dev %](#standard-subcontracted-cost-dev-percent)
+- [Total Standard Cost Dev %](#total-standard-cost-dev-percent)
+
+###### Standard Capacity Cost Dev Percent
+
+**Formula**
+
+The **Standard Capacity Cost Dev %** measure calculates the percentage deviation between the actual and standard capacity costs by dividing the **[Standard Capacity Cost Variance](#standard-capacity-cost-variance)** by the **[Standard Capacity Cost](#standard-capacity-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Capacity Overhead Cost Dev Percent
+
+**Formula**
+
+The **Standard Capacity Overhead Cost Dev %** measure calculates the percentage deviation between the actual and standard capacity overhead costs by dividing the **[Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance)** by the **[Standard Capacity Overhead Cost](#standard-capacity-overhead-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Manufacturing Overhead Cost Dev Percent
+
+**Formula**
+
+The **Standard Manufacturing Overhead Cost Dev %** measure calculates the percentage deviation between the actual and standard manufacturing overhead costs by dividing the **[Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance)** by the **[Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Value Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Material Cost Dev Percent
+
+**Formula**
+
+The **Standard Material Cost Dev %** measure calculates the percentage deviation between the actual and standard material costs by dividing the **[Standard Material Cost Variance](#standard-material-cost-variance)** by the **[Standard Material Cost](#standard-material-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Value Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Standard Subcontracted Cost Dev Percent
+
+**Formula**
+
+The **Standard Subcontracted Cost Dev %** measure calculates the percentage deviation between the actual and standard subcontracted costs by dividing the **[Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance)** by the **[Standard Subcontracted Cost](#standard-subcontracted-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+
+###### Total Standard Cost Dev Percent
+
+**Formula**
+
+The **Total Standard Cost Dev %** measure calculates the overall percentage deviation between actual and standard total costs by dividing the **[Total Standard Cost Variance](#total-standard-cost-variance)** by the **[Total Standard Cost](#total-standard-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Item
+- Value Entry
 
 ## Value Entries
 

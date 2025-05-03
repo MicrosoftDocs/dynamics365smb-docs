@@ -48,17 +48,17 @@ Production supervisors rely on this report to monitor work center performance. B
 
 The *Work Center Statistics* report includes the following KPIs and measures:
 
-- [Work Center Capacity (Total)]()
-- [Work Center Capacity (Effective)]()
-- [Work Center Expected Efficiency %]()
-- [Work Center Actual Need]()
-- [Work Center Actual Efficiency %]()
-- [Work Center Actual Total Cost]()
-- [Work Center Allocated Time]()
-- [Work Center Output]()
-- [Work Center Scrap]()
-- [Work Center Scrap %]()
-- [Work Center Load]()
+- [Work Center Capacity (Total)](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [Work Center Capacity (Effective)](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
+- [Work Center Expected Efficiency %](manufacturing-powerbi-kpis.md#work-center-expected-efficiency-percent)
+- [Work Center Actual Need](manufacturing-powerbi-kpis.md#work-center-actual-need)
+- [Work Center Actual Efficiency %](manufacturing-powerbi-kpis.md#work-center-actual-efficiency-percent)
+- [Work Center Actual Total Cost](manufacturing-powerbi-kpis.md#work-center-actual-total-cost)
+- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [Work Center Output](manufacturing-powerbi-kpis.md#work-center-output)
+- [Work Center Scrap](manufacturing-powerbi-kpis.md#work-center-scrap)
+- [Work Center Scrap %](manufacturing-powerbi-kpis.md#work-center-scrap-percent)
+- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

@@ -1613,12 +1613,77 @@ The **Total Standard Cost Dev %** measure calculates the overall percentage devi
 
 ### Production Order - WIP
 
-- [Beginning Balance Value]()
-- [Capacity Value]()
-- [Consumption Value]()
-- [Cost Posted to G/L]()
-- [Ending Balance Value]()
-- [Output Value]()
+- [Beginning Balance Value](#beginning-balance-value)
+- [Capacity Value](#capacity-value)
+- [Consumption Value](#consumption-value)
+- [Ending Balance Value](#ending-balance-value)
+- [Output Value](#output-value)
+
+#### Beginning Balance Value
+
+**Formula**
+
+The **Beginning Balance Value** measure calculates the value of work in progress (WIP) by summing the cumulative values of:
+
+- **[Consumption Value]()**
+- **[Capacity Value]()**
+- **[Output Value]()**
+
+Each measure is filtered to include only transactions that occurred **before the earliest date in the current filter context**. This provides the starting WIP balance.
+
+**Data Source**
+
+- Value Entry
+
+#### Capacity Value
+
+**Formula**
+
+The **Capacity Value** measure calculates the total actual cost associated with capacity usage by summing the **`costAmountActual`** field from the **'Value Entries'** table where the **Item Ledger Entry Type is blank**. This typically isolates capacity-related entries not linked to standard inventory transactions like consumption or output.
+
+**Data Source**
+
+- Value Entry
+
+#### Consumption Value
+
+**Formula**
+
+The **Consumption Value** measure calculates the total negative actual cost of materials consumed by summing the **`costAmountActual`** from the **'Value Entries'** table where the **Item Ledger Entry Type** is **"Consumption"** and the **Entry Type** is **not "Revaluation"**. The negative sign reflects that consumption reduces inventory value.
+
+**Data Source**
+
+- Value Entry
+
+#### Ending Balance Value
+
+**Formula**
+
+The **Ending Balance Value** measure calculates the total value of Work in Progress (WIP) at the end of the selected period. It's calculated by summing the following measures:
+
+- **[Beginning Balance Value](#beginning-balance-value)**
+- **[Consumption Value](#consumption-value)**
+- **[Capacity Value](#capacity-value)**
+- **[Output Value](#output-value)**
+
+**Data Source**
+
+- Value Entry
+
+### Output Value
+
+**Formula**
+
+The **Output Value** measure calculates the total negative value of **actual and expected output costs**. It does so by summing the `costAmountActual` and `costAmountExpected` fields from the **'Value Entries'** table for entries where:
+
+- `Item Ledger Entry Type` is `"Output"`
+- `entryType` is `"Direct Cost"`
+
+Then, the result is multiplied by -1 to reflect it as a cost deduction.
+
+**Data Source**
+
+- Value Entry
 
 ### Value Entry Measures
 

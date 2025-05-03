@@ -1779,7 +1779,7 @@ The **Valued Quantity** measure calculates the total valued quantity of items by
 
 **Formula**
 
-The **Work Center Availability After Orders** measure calculates the available capacity of a work center after considering the allocated time by subtracting the **[Work Center Allocated Time]** from the **[Work Center Capacity (Effective)]**.
+The **Work Center Availability After Orders** measure calculates the available capacity of a work center after considering the allocated time by subtracting the **[Work Center Allocated Time](#work-center-allocated-time)** from the **[Work Center Capacity (Effective)](#work-center-capacity-effective)**.
 
 **Data Source**
 
@@ -1790,7 +1790,7 @@ The **Work Center Availability After Orders** measure calculates the available c
 
 **Formula**
 
-The **Work Center Load** measure calculates the load on a work center by dividing the **[Work Center Allocated Time]** by the **[Work Center Capacity (Effective)]**, providing the ratio of the allocated time to the available capacity.
+The **Work Center Load** measure calculates the load on a work center by dividing the **[Work Center Allocated Time](#work-center-allocated-time)** by the **[Work Center Capacity (Effective)](#work-center-capacity-effective)**, providing the ratio of the allocated time to the available capacity.
 
 **Data Source**
 
@@ -1829,13 +1829,83 @@ The **Work Center Scrap %** measure calculates the percentage of scrap relative 
 
 ### Work Center Statistics
 
-- [Work Center Actual Efficieny %]()
-- [Work Center Actual Need]()
-- [Work Center Actual Total Cost]()
-- [Work Center Allocated Time]()
-- [Work Center Capacity (Effective)]()
-- [Work Center Capacity (Total)]()
-- [Work Center Expected Efficiency %]()
+- [Work Center Actual Efficieny %](#work-center-actual-efficiency-percent)
+- [Work Center Actual Need](#work-center-actual-need)
+- [Work Center Actual Total Cost](#work-center-actual-total-cost)
+- [Work Center Allocated Time](#work-center-allocated-time)
+- [Work Center Capacity (Effective)](#work-center-capacity-effective)
+- [Work Center Capacity (Total)](#work-center-capacity-total)
+- [Work Center Expected Efficiency %](#work-center-expected-efficiency-percent)
+
+#### Work Center Actual Efficiency Percent
+
+**Formula**
+
+The **Work Center Actual Efficiency %** measure calculates the actual efficiency of a work center by dividing the **[Work Center Actual Need](#work-center-actual-need)** by the **[Work Center Capacity (Total)](#work-center-capacity-total)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Calendar Entry
+
+#### Work Center Actual Need
+
+**Formula**
+
+The **Work Center Actual Need** measure calculates the total actual time required by summing the **setupTime**, **runTime**, and **stopTime** fields from the **Capacity Ledger Entries** table.
+
+**Data Source**
+
+- Capacity Ledger Entry
+
+#### Work Center Actual Total Cost
+
+- The **Work Center Actual Total Cost** measure calculates the total actual cost for work centers by adding the **[Direct Cost](#direct-cost)** and **[Overhead Cost](#overhead-cost)** measures.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Value Entry
+
+#### Work Center Allocated Time
+
+**Formula**
+
+- The **Work Center Allocated Time** measure calculates the total allocated time for work centers by summing the **allocatedTime** column in the *Prod Order Capacity Need* table, filtered to include only rows where **Requested Only** is FALSE.
+
+**Data Source**
+
+- Prod Order Capacity Need
+
+#### Work Center Capacity (Effective)
+
+**Formula**
+
+- The **Work Center Capacity (Effective)** measure calculates the total effective capacity for work centers by summing the **Capacity Effective** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Work Center".
+
+**Data Source**
+
+- Calendar Entry
+
+#### Work Center Capacity (Total)
+
+**Formula**
+
+- The **Work Center Capacity (Total)** measure calculates the total capacity for work centers by summing the **Capacity Total** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Work Center".
+
+**Data Source**
+
+- Calendar Entry
+
+#### Work Center Expected Efficiency Percent
+
+**Formula**
+
+- The **Work Center Expected Efficiency %** measure calculates the expected efficiency for work centers by dividing the **[Work Center Capacity (Effective)](#work-center-capacity-effective)** by the **[Work Center Capacity (Total)](#work-center-capacity-total)**.
+
+**Data Source**
+
+- Calendar Entry
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

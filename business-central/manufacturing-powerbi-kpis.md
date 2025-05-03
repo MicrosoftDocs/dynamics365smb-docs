@@ -1226,12 +1226,93 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 ##### Variance to Expected Cost Deviation %
 
-- [Expected Capacity Cost Dev %]()
-- [Expected Capacity Overhead Cost Dev %]()
-- [Expected Manufacturing Overhead Cost Dev %]()
-- [Expected Material Cost Dev %]()
-- [Expected Subcontracted Cost Dev %]()
-- [Total Expected Cost Dev %]()
+- [Expected Capacity Cost Dev %](#expected-capacity-cost-dev-percent)
+- [Expected Capacity Overhead Cost Dev %](#expected-capacity-overhead-cost-dev-percent)
+- [Expected Manufacturing Overhead Cost Dev %](#expected-manufacturing-overhead-cost-dev-percent)
+- [Expected Material Cost Dev %](#expected-material-cost-dev-percent)
+- [Expected Subcontracted Cost Dev %](#expected-subcontracted-cost-dev-percent)
+- [Total Expected Cost Dev %](#total-expected-cost-dev-percent)
+
+###### Expected Capacity Cost Dev Percent
+
+**Formula**
+
+- The **Expected Capacity Cost Dev %** measure calculates the percentage deviation between actual and expected capacity cost by dividing **[Expected Capacity Cost Variance](#expected-capacity-cost-variance)** by **[Expected Capacity Cost](#expected-capacity-cost)**.
+
+**Data Source**
+
+- Prod Order Line
+- Prod Order Routing Line
+- Prod Order Component
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+
+###### Expected Capacity Overhead Cost Dev Percent
+
+**Formula**
+
+- The **Expected Capacity Overhead Cost Dev %** measure calculates the percentage deviation between actual and expected capacity overhead costs by dividing **[Expected Capacity Overhead Cost Variance](#expected-capacity-overhead-cost-variance)** by **[Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)**.
+
+**Data Source**
+
+- Capacity Ledger Entry
+- Prod Order Routing Line
+
+###### Expected Manufacturing Overhead Cost Dev Percent
+
+**Formula**
+
+- The **Expected Manufacturing Overhead Cost Dev %** measure calculates the percentage deviation between actual and expected manufacturing overhead costs by dividing **[Expected Manufacturing Overhead Cost Variance](#expected-manufacturing-overhead-cost-variance)** by **[Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Item Ledger Entry
+- Capacity Ledger Entry
+- Value Entry
+- Prod Order Routing Line
+- Prod Order Component
+
+###### Expected Material Cost Dev Percent
+
+**Formula**
+
+- The **Expected Material Cost Dev %** measure calculates the percentage deviation between actual and expected material costs by dividing **[Expected Material Cost Variance](#expected-material-cost-variance)** by **[Expected Material Cost](#expected-material-cost)**.
+
+**Data Source**
+
+- Value Entry
+- Prod Order Component
+
+###### Expected Subcontracted Cost Dev Percent
+
+**Formula**
+
+- The **Expected Subcontracted Cost Dev %** measure calculates the percentage deviation between actual and expected subcontracted costs by dividing the **[Expected Subcontracted Cost Variance](#expected-subcontracted-cost-variance)** by **[Expected Subcontracted Cost](#expected-subcontracted-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Prod Order Routing Line
+- Prod Order Component
+
+###### Total Expected Cost Dev Percent
+
+**Formula**
+
+- The **Total Expected Cost Dev %** measure calculates the overall percentage deviation between actual and expected total costs by dividing the **[Total Expected Cost Variance](#total-expected-cost-variance)** by the **[Total Expected Cost](#total-expected-cost)**.
+
+**Data Source**
+
+- Prod. Order Line
+- Capacity Ledger Entry
+- Inventory Adjmt. Entry (Order)
+- Prod Order Routing Line
+- Prod Order Component
+- Value Entry
+- Item Ledger Entry
 
 #### Standard Costs
 

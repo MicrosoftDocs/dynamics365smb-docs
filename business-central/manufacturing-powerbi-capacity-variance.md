@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Capacity Variance** report gives an overview of the variance between expected and actual capacity costs on a monthly basis. This report helps you identify areas where costs are overrunning. You can optimize production processes, reduce costs, and improve overall performance.
 
-:::image type="content" source="media/manufacturing/capacity-variance.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/capacity-variance.png":::
+:::image type="content" source="media/manufacturing/capacity-variance-v26.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/capacity-variance-v26.png":::
 
 ## Use the report
 
@@ -29,14 +29,14 @@ Production supervisors use this report to monitor the performance of production 
 
 ## Key Performance Indicators (KPIs)
 
-The *Capacity Variance* report includes the following KPIs and measures: 
+The *Capacity Variance* report includes the following KPIs and measures:
 
 - [Capacity Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#capacity-cost-amt-deviation)
 - [Expected Capacity Cost Amount](manufacturing-powerbi-kpis.md#expected-capacity-cost-amount)
 - [Capacity Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#capacity-cost-amt-actual)
 - [Capacity Cost Amt. Variance](manufacturing-powerbi-kpis.md#capacity-cost-amt-variance)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

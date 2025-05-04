@@ -29,7 +29,7 @@ The Scrap Quantity by Scrap Code allows you to quickly compare and analyze why s
 
 Used in conjunction, these report visuals work together to inform you. They help uncover where and why waste is happening, so you can take steps to reduce it.
 
-:::image type="content" source="media/manufacturing/production-scrap.png" alt-text="Screenshot of the Production Scrap Power BI Report" lightbox="media/manufacturing/production-scrap.png":::
+:::image type="content" source="media/manufacturing/production-scrap-v26.png" alt-text="Screenshot of the Production Scrap Power BI Report" lightbox="media/manufacturing/production-scrap-v26.png":::
 
 ## Use the report
 

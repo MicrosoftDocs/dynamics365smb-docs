@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Current Utilization** report provides insights into the manufacturing capacity use and helps with capacity planning. It shows the capacity available and used by hours and the percentage of use.
 
-:::image type="content" source="media/manufacturing/current-utilization.png" alt-text="Screenshot of the Current Utilization Power BI Report" lightbox="media/manufacturing/current-utilization.png":::
+:::image type="content" source="media/manufacturing/current-utilization-v26.png" alt-text="Screenshot of the Current Utilization Power BI Report" lightbox="media/manufacturing/current-utilization-v26.png":::
 
 ## Use the report
 
@@ -29,12 +29,12 @@ Manufacturing managers use the report to understand the capacity of machine and 
 
 ## Key Performance Indicators (KPIs)
 
-The *Current Utilization* report includes the following KPIs and measures: 
+The *Current Utilization* report includes the following KPIs and measures:
 
 - [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
 - [Utilization %](manufacturing-powerbi-kpis.md#utilization)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

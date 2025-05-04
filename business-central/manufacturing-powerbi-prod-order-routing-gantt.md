@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 The Prod. Order Routings Gantt report provides an overview of production processes, combining visual and tabular formats to enhance user understanding. The report helps users monitor and analyze production tasks, offering insights into scheduling, durations, and task locations.
 
-:::image type="content" source="media/manufacturing/prod-order-routing-gantt.png" alt-text="Screenshot of the Prod Order Routing Gantt Power BI Report" lightbox="media/manufacturing/prod-order-routing-gantt.png":::
+:::image type="content" source="media/manufacturing/prod-order-routing-gantt-v26.png" alt-text="Screenshot of the Prod Order Routing Gantt Power BI Report" lightbox="media/manufacturing/prod-order-routing-gantt-v26.png":::
 
 The **Production Time Line (Gantt Chart Visual)** visualization provides a Gantt chart representation of production processes, enabling users to effectively monitor and analyze tasks within production orders. Key features of this visualization include:
 

@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Allocated Hours** report gives an overview of the allocated time, in hours, for each work center. The view of allocated hours can help you identify over and underused work centers. Additionally, the report includes indicators such as the load percentage, allocated time (hours), and capacity available (hours) for a quick summary of resource use.
 
-:::image type="content" source="media/manufacturing/allocated-hours.png" alt-text="Screenshot of the Allocated Hours Power BI Report" lightbox="media/manufacturing/allocated-hours.png":::
+:::image type="content" source="media/manufacturing/allocated-hours-v26.png" alt-text="Screenshot of the Allocated Hours Power BI Report" lightbox="media/manufacturing/allocated-hours-v26.png":::
 
 ## Use the report
 
@@ -29,13 +29,13 @@ Manufacturing workers use this report to optimize the use of resources. You can 
 
 ## Key Performance Indicators (KPIs)
 
-The *Allocated Hours* report includes the following KPIs and measures: 
+The *Allocated Hours* report includes the following KPIs and measures:
 
 - [Load %](manufacturing-powerbi-kpis.md#load)
 - [Allocated Time (Hours)](manufacturing-powerbi-kpis.md#allocated-time-hours)
 - [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

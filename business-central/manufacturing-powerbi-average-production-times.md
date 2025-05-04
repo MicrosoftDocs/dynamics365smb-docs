@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Average Production Times** report shows the detailed average production times for each item. The report can help you make informed decisions and optimize your production processes.
 
-:::image type="content" source="media/manufacturing/avergage-production-times.png" alt-text="Screenshot of the Average Production Times Power BI Report" lightbox="media/manufacturing/avergage-production-times.png":::
+:::image type="content" source="media/manufacturing/avergage-production-times-v26.png" alt-text="Screenshot of the Average Production Times Power BI Report" lightbox="media/manufacturing/avergage-production-times-v26.png":::
 
 ## Use the report
 
@@ -29,7 +29,7 @@ Production supervisors use this report to monitor the production time for a part
 
 ## Key Performance Indicators (KPIs)
 
-The *Average Production Times* report includes the following KPIs and measures: 
+The *Average Production Times* report includes the following KPIs and measures:
 
 - [Setup Time per Unit (Hours)](manufacturing-powerbi-kpis.md#setup-time-per-unit-hours)
 - [Run Time per Unit (Hours)](manufacturing-powerbi-kpis.md#run-time-per-unit-hours)
@@ -37,7 +37,7 @@ The *Average Production Times* report includes the following KPIs and measures:
 - [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
 - [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

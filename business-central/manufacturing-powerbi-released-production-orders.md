@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Released Production Orders** report provides detailed information about all released production orders, including expected versus finished quantities and the variance.
 
-:::image type="content" source="media/manufacturing/released-production-orders.png" alt-text="Screenshot of the Released Production Orders Power BI Report" lightbox="media/manufacturing/released-production-orders.png":::
+:::image type="content" source="media/manufacturing/released-production-orders-v26.png" alt-text="Screenshot of the Released Production Orders Power BI Report" lightbox="media/manufacturing/released-production-orders-v26.png":::
 
 ## Use the report
 
@@ -29,13 +29,13 @@ Production supervisors use this report to monitor expected and finished quantiti
 
 ## Key Performance Indicators (KPIs)
 
-The *Released Production Orders* report includes the following KPIs and measures: 
+The *Released Production Orders* report includes the following KPIs and measures:
 
 - [Expected Quantity (Base)](manufacturing-powerbi-kpis.md#expected-quantity-base)
 - [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
 - [Qty. Variance](manufacturing-powerbi-kpis.md#qty-variance)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

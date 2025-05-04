@@ -24,7 +24,7 @@ The **Production Order Overview** report provides a high-level summary of your o
 - Total Expected Cost
 - Total Standard Cost
 
-:::image type="content" source="media/manufacturing/production-order-overview.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview.png":::
+:::image type="content" source="media/manufacturing/production-order-overview-v26.png" alt-text="Screenshot of the Production Order Overview Power BI Report" lightbox="media/manufacturing/production-order-overview-v26.png":::
 
 The **No. of Production Orders by Status** bar chart breaks down productions orders by status, allowing you to quickly see the volume of documents at different stages of production.
 

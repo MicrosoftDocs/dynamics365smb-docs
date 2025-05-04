@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 The **Prod. Order List** page organizes all production orders and offers a mix of high-level summaries, categorical insights, and detailed records. It helps you efficiently evaluate key metrics, including costs and order counts, while enabling deeper exploration of specific details like statuses, source items, and document-level dates. Additionally, this page allows you to track planned versus finished output and analyze variances across production orders for better decision-making.
 
-:::image type="content" source="media/manufacturing/prod-order-list.png" alt-text="Screenshot of the Prod Order List Power BI Report" lightbox="media/manufacturing/prod-order-list.png":::
+:::image type="content" source="media/manufacturing/prod-order-list-v26.png" alt-text="Screenshot of the Prod Order List Power BI Report" lightbox="media/manufacturing/prod-order-list-v26.png":::
 
 The **Total Actual Cost** KPI card presents key performance indicators (KPIs) related to cost analysis. The primary KPI displayed is the *Actual Total Cost*, serving as the central metric for monitoring actual manufacturing costs. Below this metric, comparative measures like *Total Expected Cost* and *Total Standard Cost* are provided, offering context for evaluating cost performance. Additionally, variance percentages are displayed beneath these measures, highlighting the deviations relative to the *Actual Total Cost*.
 

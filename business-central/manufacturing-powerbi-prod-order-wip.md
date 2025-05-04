@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
  The **Production Order WIP** report provides insights into the work-in-progress (WIP) inventory across production orders, displaying both trends and detailed valuation data.
 
-:::image type="content" source="media/manufacturing/production-order-wip.png" alt-text="Screenshot of the Production Order WIP Power BI Report" lightbox="media/manufacturing/production-order-wip.png":::
+:::image type="content" source="media/manufacturing/production-order-wip-v26.png" alt-text="Screenshot of the Production Order WIP Power BI Report" lightbox="media/manufacturing/production-order-wip-v26.png":::
 
 The **Production Order WIP Report** consists of two key visuals designed to provide insights into work-in-progress (WIP) inventory. The top visual is a timeline chart that showcases the Ending Balance Value of WIP inventory over time. By plotting the Ending Balance Value as the Y-axis and the Month Year as the X-axis, this visual offers a clear trend analysis, allowing users to observe fluctuations and patterns in WIP inventory.
 

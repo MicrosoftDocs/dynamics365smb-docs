@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 The **Machine Center Statistics** Power BI Report offers a comprehensive view of operational performance across all machine centers. Through a combination of high-level metrics and granular details, this report provides insights needed to evaluate efficiency, resource utilization, and production outcomes. The KPI Cards and Machine Center Efficiency Bar Chart provide concise summaries of key performance indicators (KPIs), enabling quick assessments of machine center performance. For a deeper analysis, users can leverage the detailed insights presented in the Statistic Details Table to support decision-making and drive operational improvements.
 
-:::image type="content" source="media/manufacturing/machine-center-statistics.png" alt-text="Screenshot of the Machine Center Statistics Power BI Report" lightbox="media/manufacturing/machine-center-statistics.png":::
+:::image type="content" source="media/manufacturing/machine-center-statistics-v26.png" alt-text="Screenshot of the Machine Center Statistics Power BI Report" lightbox="media/manufacturing/machine-center-statistics-v26.png":::
 
 The **Machine Center Scrap %** KPI Card highlights the Machine Center's Scrap Percentage, an essential measure of performance. It calculates the ratio of scrap generated to the total output processed by the machine center. Serving as a key indicator, this visual allows users to quickly assess operational efficiency and pinpoint areas for improvement
 

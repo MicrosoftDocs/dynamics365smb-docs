@@ -5,6 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
+ms.search.form: 118_Primary
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 05/17/2024
 ms.service: dynamics-365-business-central

@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The **Allocated Hours** report gives an overview of the allocated time, in hours, for each work center. The view of allocated hours can help you identify over and underused work centers. Additionally, the report includes indicators such as the load percentage, allocated time (hours), and capacity available (hours) for a quick summary of resource use.
+The **Allocated Time** report gives an overview of the allocated time, in hours, for each work center. The view of allocated hours can help you identify over and underused work centers. Additionally, the report includes indicators such as the load percentage, allocated time (hours), and capacity available (hours) for a quick summary of resource use.
 
 :::image type="content" source="media/manufacturing/allocated-hours-v26.png" alt-text="Screenshot of the Allocated Hours Power BI Report" lightbox="media/manufacturing/allocated-hours-v26.png":::
 

@@ -915,8 +915,8 @@ The **Prod Order Actual Capacity Need** measure calculates the actual capacity u
    - Determines the **Qty Per Capacity Unit of Measure** (defaulting to 1 if zero).
    - Looks up the appropriate **Time Factor**:
 
-     - If the **Qty Per Capacity Unit of Measure** is zero, it uses the time factor based on the work center’s unit of measure.
-     - Otherwise, it uses the time factor based on the entry's own capacity unit.
+   - If the **Qty Per Capacity Unit of Measure** is zero, it uses the time factor based on the work center’s unit of measure.
+   - Otherwise, it uses the time factor based on the entry's own capacity unit.
    - Computes the adjusted quantity as:
      `quantity / QtyPerCapUnitOfMeasure * TimeFactor`.
 

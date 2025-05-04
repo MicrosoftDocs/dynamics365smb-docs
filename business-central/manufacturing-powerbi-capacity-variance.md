@@ -31,10 +31,16 @@ Production supervisors use this report to monitor the performance of production 
 
 The *Capacity Variance* report includes the following KPIs and measures:
 
-- [Capacity Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#capacity-cost-amt-deviation)
-- [Expected Capacity Cost Amount](manufacturing-powerbi-kpis.md#expected-capacity-cost-amount)
-- [Capacity Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#capacity-cost-amt-actual)
-- [Capacity Cost Amt. Variance](manufacturing-powerbi-kpis.md#capacity-cost-amt-variance)
+- [Actual Capacity Cost](manufacturing-powerbi-kpis.md#actual-capacity-cost)
+- [Expected Capacity Cost](manufacturing-powerbi-kpis.md#expected-capacity-cost)
+- [Standard Capacity Cost](manufacturing-powerbi-kpis.md#standard-capacity-cost)
+- [Expected Capacity Cost Variance](manufacturing-powerbi-kpis.md#expected-capacity-cost-variance)
+- [Standard Capacity Cost Variance](manufacturing-powerbi-kpis.md#standard-capacity-cost-variance)
+- [Expected Capacity Cost Dev %](manufacturing-powerbi-kpis.md#expected-capacity-cost-dev-percent)
+- [Standard Capacity Cost Dev %](manufacturing-powerbi-kpis.md#standard-capacity-cost-dev-percent)
+- [Prod Order Actual Capacity Need](manufacturing-powerbi-kpis.md#prod-order-actual-capacity-need)
+- [Prod Order Expected Capacity Need](manufacturing-powerbi-kpis.md#prod-order-expected-capacity-need)
+- [Prod Order Need Variance](manufacturing-powerbi-kpis.md#prod-order-capacity-need-variance)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

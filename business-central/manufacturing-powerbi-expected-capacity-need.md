@@ -31,9 +31,9 @@ Production supervisors use this report to understand the workload on your work c
 
 The *Expected Capacity Need* report includes the following KPIs and measures:
 
-- [Expected Capacity Need (Hours)](manufacturing-powerbi-kpis.md#expected-capacity-need-hours)
-- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
-- [Capacity Used Variance (Hours)](manufacturing-powerbi-kpis.md#capacity-used-variance-hours)
+- [Prod Order Expected Capacity Need](manufacturing-powerbi-kpis.md#prod-order-expected-capacity-need)
+- [Prod Order Actual Capacity Need](manufacturing-powerbi-kpis.md#prod-order-actual-capacity-need)
+- [Prod Order Capacity Need Dev %](manufacturing-powerbi-kpis.md#prod-order-capacity-need-dev-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

@@ -31,9 +31,11 @@ Manufacturing managers use this report to identify the historical utilization ra
 
 The *Historical Utilization* report includes the following KPIs and measures:
 
-- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
-- [Utilization %](manufacturing-powerbi-kpis.md#utilization)
-- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
+- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [Work Center Availability After Orders](manufacturing-powerbi-kpis.md#work-center-availability-after-orders)
+- [Work Center Capacity (Total)](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [Work Center Capacity (Effective)](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

@@ -31,15 +31,19 @@ Production supervisors use this report to track the progress of production order
 
 The *Finished Production Order Breakdown* report includes the following KPIs and measures:
 
-- [Expected Quantity (Base)](manufacturing-powerbi-kpis.md#expected-quantity-base)
-- [Finished Quantity (Base)](manufacturing-powerbi-kpis.md#finished-quantity-base)
-- [Qty. Variance](manufacturing-powerbi-kpis.md#qty-variance)
-- [Qty. Deviation %](manufacturing-powerbi-kpis.md#qty-deviation)
-- [Expected Cost Amt.](manufacturing-powerbi-kpis.md#expected-cost-amt)
-- [Finished Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#finished-cost-amt-actual)
-- [Cost Amt. Variance](manufacturing-powerbi-kpis.md#cost-amt-variance)
-- [Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#cost-amt-deviation)
-- [Capacity Used per Unit (Hours)](manufacturing-powerbi-kpis.md#capacity-used-per-unit-hours)
+- [Planned Quantity](manufacturing-powerbi-kpis.md#planned-quantity)
+- [Finished Quantity](manufacturing-powerbi-kpis.md#finished-quantity)
+- [Variance Quantity](manufacturing-powerbi-kpis.md#variance-quantity)
+- [Actual Material Cost](manufacturing-powerbi-kpis.md#actual-material-cost)
+- [Actual Capacity Cost](manufacturing-powerbi-kpis.md#actual-capacity-cost)
+- [Actual Capacity Overhead Cost](manufacturing-powerbi-kpis.md#actual-capacity-overhead-cost)
+- [Actual Manufacturing Overhead Cost](manufacturing-powerbi-kpis.md#actual-manufacturing-overhead-cost)
+- [Actual Subcontracted Cost](manufacturing-powerbi-kpis.md#actual-subcontracted-cost)
+- [Total Actual Cost](manufacturing-powerbi-kpis.md#total-actual-cost)
+- [Total Expected Cost Variance](manufacturing-powerbi-kpis.md#total-expected-cost-variance)
+- [Total Standard Cost Variance](manufacturing-powerbi-kpis.md#total-standard-cost-variance)
+- [Total Expected Cost Dev %](manufacturing-powerbi-kpis.md#total-expected-cost-dev-percent)
+- [Total Standard Cost Dev %](manufacturing-powerbi-kpis.md#total-standard-cost-dev-percent)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 

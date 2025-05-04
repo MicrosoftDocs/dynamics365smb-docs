@@ -624,7 +624,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 #### Actual Time Used
 
-**Forumla**
+**Formula**
 
 - The **Actual Time Used** measure calculates the total actual time used by production orders. It first summarizes the production orders and computes the **Actual Time** by summing the **quantity** from the *Capacity Ledger Entries* table, only when there is a **[Finished Quantity](#finished-quantity)**. Then, it sums up these values across all production orders using `SUMX`.
 
@@ -658,7 +658,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 #### Finished Percent
 
-**Forumla**
+**Formula**
 
 - The **Finished %** measure calculates the percentage of finished quantity relative to the planned quantity by dividing the **[Finished Quantity](#finished-quantity)** by the **[Planned Quantity](#planned-quantity)**.
 
@@ -1473,7 +1473,7 @@ The **Standard Manufacturing Overhead Cost Variance** measure calculates the dif
 
 ###### Standard Material Cost Variance
 
-**Forumla**
+**Formula**
 
 The **Standard Material Cost Variance** measure calculates the difference between the **[Actual Material Cost](#actual-material-cost)** and **[Standard Material Cost](#standard-material-cost)**.
 
@@ -1829,7 +1829,7 @@ The **Work Center Scrap %** measure calculates the percentage of scrap relative 
 
 ### Work Center Statistics
 
-- [Work Center Actual Efficieny %](#work-center-actual-efficiency-percent)
+- [Work Center Actual Efficiency %](#work-center-actual-efficiency-percent)
 - [Work Center Actual Need](#work-center-actual-need)
 - [Work Center Actual Total Cost](#work-center-actual-total-cost)
 - [Work Center Allocated Time](#work-center-allocated-time)

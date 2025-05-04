@@ -11,7 +11,7 @@ ms.date: 11/01/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Allocated Hours (Power BI Report)
+# Allocated Time (Power BI Report)
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 

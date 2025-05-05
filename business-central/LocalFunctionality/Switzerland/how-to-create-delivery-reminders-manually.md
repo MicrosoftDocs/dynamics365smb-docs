@@ -14,7 +14,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## See also
+## Related information
 
 [Delivery Reminders](delivery-reminders.md)  
 [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)  

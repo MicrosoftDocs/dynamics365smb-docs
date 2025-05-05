@@ -95,7 +95,7 @@ The details are shown in the **Fixed Asset Ledger Entries**.
 | Invoice | Acquisition Cost | 1,000.00 | 250.00 |
 | Invoice | Acquisition Cost | 250.00 | 0.00 |
 
-## See also
+## Related information
 
 [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)  
 [Finance](finance.md)  

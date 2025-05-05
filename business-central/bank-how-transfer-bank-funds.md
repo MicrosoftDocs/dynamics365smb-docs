@@ -66,7 +66,7 @@ To transfer funds between bank accounts that use different currencies, you must 
     > An amount without a sign is a debit, and an amount with a minus sign is a credit.
 10. Post the journal.
 
-## See also
+## Related information
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  

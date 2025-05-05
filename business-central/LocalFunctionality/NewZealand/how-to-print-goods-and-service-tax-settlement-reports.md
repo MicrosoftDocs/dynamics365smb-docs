@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [print-gst-settlement-reports](../includes/AUNZ/print-gst-settlement-reports.md)]
 
-## See Also
+## Related information
 
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)  
 

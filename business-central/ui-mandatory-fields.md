@@ -22,7 +22,7 @@ On the **Customer Card** page, the red asterisk appears in the **Name** field, i
 
 On the **Item Card** page, the red asterisk appears in the **Description** field to indicate that you can't enter the item on a document line, such as a sales order, unless this field is filled.
 
-## See Also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

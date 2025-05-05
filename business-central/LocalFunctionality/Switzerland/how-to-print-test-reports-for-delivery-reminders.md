@@ -22,7 +22,7 @@ A test report is a document that lets you review and modify a delivery reminder 
 3.  On the **Delivery Reminder - Test** page, set a filter if you want to print only selected delivery reminders.  
 4.  Choose the **Print** to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also  
+## Related information  
  [Delivery Reminders](delivery-reminders.md)   
  [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)   
  [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)

@@ -58,7 +58,7 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 3. Stockkeeping Unit Card
 4. Vendor Card
 
-## See also
+## Related information
 
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)  
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  

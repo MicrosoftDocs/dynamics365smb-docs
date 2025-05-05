@@ -45,7 +45,7 @@ You can't create a new billing line for a contract line if a posting document al
 
 On the contract lines, the **Next Billing Date** reset when the credit memo was created. After posting the credit memo, the contract lines can be edited and calculated with the new values.
 
-## See also
+## Related information
 
 [Customer contracts](../working-with-contracts/customer-contracts.md)  
 [Vendor contracts](../working-with-contracts/vendor-contracts.md)  

@@ -45,7 +45,7 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax is collected
 
 
 
-## See also 
+## Related information 
 [TCS Adjustment Entry](TCS-Adjustment-Entries.md)
 
 

@@ -59,7 +59,7 @@ When you reallocate a service item in an allocation entry that has the status **
   
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
-## See Also  
+## Related information  
 [Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
 

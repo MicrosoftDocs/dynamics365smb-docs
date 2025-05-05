@@ -24,7 +24,7 @@ When you first install the extension, a sample company helps you get started. Yo
 
 When you install the extension in your [!INCLUDE [prod_short](includes/prod_short.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Center and adds permissions to your user profile.
 
-## See also
+## Related information
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  

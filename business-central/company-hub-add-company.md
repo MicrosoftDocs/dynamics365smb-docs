@@ -41,7 +41,7 @@ When you have added your environments, your companies show up automatically. How
 > [!TIP]
 > In order to refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
 
-## See also
+## Related information
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Resources for Help and Support](product-help-and-support.md)  

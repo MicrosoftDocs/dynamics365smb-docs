@@ -59,7 +59,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 4. **In the Alternate Address List** page, fill in the fields as necessary.
 5. Repeat step 4 for each alternate address.
 
-## See Also
+## Related information
 
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  

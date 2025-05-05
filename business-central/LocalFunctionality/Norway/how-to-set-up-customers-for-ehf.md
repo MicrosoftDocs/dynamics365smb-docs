@@ -31,7 +31,7 @@ This topic only describes fields that apply to EHF. For more information on sett
 
 These fields are specific to EHF. The values are used in all EHF documents that you create for this customer. For more information, see [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md).  
 
-## See Also  
+## Related information  
  [Create Electronic Documents for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Set Up EHF](how-to-set-up-ehf.md)
 

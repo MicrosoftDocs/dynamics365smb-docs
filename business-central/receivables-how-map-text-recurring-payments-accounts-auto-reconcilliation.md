@@ -52,7 +52,7 @@ To always post expenses that are related to fees from a specific bank, MyBank, t
 | --- | --- | --- | --- | --- |
 | MyBank |BLANK |60400|G/L Account |BLANK |
 
-## See also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

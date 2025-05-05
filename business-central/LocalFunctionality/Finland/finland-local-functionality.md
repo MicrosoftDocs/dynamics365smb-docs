@@ -41,7 +41,7 @@ Automatic account codes delivered as an app **2023 Wave 1**.
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

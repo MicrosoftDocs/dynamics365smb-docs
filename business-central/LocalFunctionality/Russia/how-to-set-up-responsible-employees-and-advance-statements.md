@@ -201,7 +201,7 @@ The following procedure shows how to print the posted **Advance Statement**.
 
 5. Choose the **Print** button.
 
-## See Also
+## Related information
 
 [Human Resources](../../hr-manage-human-resources.md)  
 

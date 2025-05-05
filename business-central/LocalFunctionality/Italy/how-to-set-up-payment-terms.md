@@ -38,7 +38,7 @@ The **Payment Nos.** field on the **Payment Terms** page is updated. The payment
 
 After you set up the payment terms, you assign them to customers and vendors. Optionally, assign payment terms to your payment methods.  
 
-## See Also
+## Related information
 
 [Set Up Payment Terms in the Italian Version](../../finance-payment-terms.md)  
 [Defining Payment Methods](../../finance-payment-methods.md)  

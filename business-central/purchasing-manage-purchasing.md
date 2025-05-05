@@ -89,7 +89,7 @@ The following table describes how to deal with other purchase processes.
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See also
+## Related information
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  

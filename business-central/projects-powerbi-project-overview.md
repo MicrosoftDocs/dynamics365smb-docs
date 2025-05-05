@@ -61,7 +61,7 @@ Try the report here: [Project Overview](https://businesscentral.dynamics.com?pag
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  

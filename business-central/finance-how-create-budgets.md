@@ -94,7 +94,7 @@ Here are some tips for effective budget management:
 
 * [Michelle Serna](https://www.linkedin.com/in/michelleserna1/) | Director of ERP systems
 
-## See also
+## Related information
 
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Finance](finance.md)  

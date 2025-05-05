@@ -103,7 +103,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-## See also
+## Related information
 
 [Posting purchases](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

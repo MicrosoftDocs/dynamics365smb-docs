@@ -141,7 +141,7 @@ To assign exact cost reversing manually, you must choose the **Appl.-from Item E
 
 For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

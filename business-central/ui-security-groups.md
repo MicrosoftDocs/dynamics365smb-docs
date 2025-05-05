@@ -88,7 +88,7 @@ To use security groups exclusively, we recommend that you remove the license con
 
 You can remove license configurations on the **License Configuration** page. Choose a license, and then delete all permission sets assigned to it.
 
-## See Also
+## Related information
 
 [Create Users According to Licenses](ui-how-users-permissions.md)  
 [Set Up Business Central Access in Teams with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  

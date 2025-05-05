@@ -31,7 +31,7 @@ In the Russian version, prepayments work in a different way compared to the stan
 4. Select the line with the invoice to which you want to apply the prepayment, and then choose the **Set applies-to ID** action.
 6. Choose the **Post Application** action.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

@@ -123,6 +123,6 @@ The period calculation works almost the same in leap years as in normal years. T
 
 29.02.2024 - 30.03.2024 corresponds to one month. 29.02.2024 is the last day of February and 30.03.2024 is the penultimate day of March.
 
-## See also
+## Related information
 
 [Customer contracts](customer-contracts.md)  

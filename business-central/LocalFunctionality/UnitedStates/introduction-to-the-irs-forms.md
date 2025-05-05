@@ -49,7 +49,7 @@ To get started managing IRS 1099 functionality, see the following articles.
 | [Using IRS 1099](how-to-1099-use.md) | Learn how to prepare your document and how to create 1099 forms based on your entries. |
 | [Reporting IRS 1099](how-to-1099-report.md) | Learn how to submit your 1099 forms to the IRS and to send them to your vendors. |
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)
 - [How to setup the IRS 1099 forms](set-up-use-irs1099-form-v24.md)

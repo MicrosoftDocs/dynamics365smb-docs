@@ -74,7 +74,7 @@ When the project status is changed to Completed, the **Calculate WIP** task reve
 
 Dt **Project Sales Applied Account** Cr **Recognized Sales Account** , Amount: **Invoiced (Total Price)**
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

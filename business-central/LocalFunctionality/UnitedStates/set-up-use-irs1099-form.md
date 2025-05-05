@@ -107,7 +107,7 @@ The report uses the codes that apply to the form amount boxes from the **1099 Fo
 >
 > - Regulatory changes affecting this report and the table data are handled in end-of-year updates.
 
-## See also
+## Related information
 
 - [Regulatory 1099 Format Changes and Details](tax-1099-changes.md)  
 - [United States Local Functionality](united-states-local-functionality.md)  

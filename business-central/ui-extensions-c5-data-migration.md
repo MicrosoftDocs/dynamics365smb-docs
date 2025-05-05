@@ -153,7 +153,7 @@ One way to verify that your data migrated correctly is to look at the following 
 
 You can stop migrating data by choosing **Stop All Migrations**. If you do, all pending migrations are also stopped.
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

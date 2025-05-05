@@ -35,7 +35,7 @@ The following procedure describes how to define post codes for customers, but th
 
 4.  Choose the **OK** button.  
 
-## See also   
+## Related information   
  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
  [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Register New Vendors](../../purchasing-how-register-new-vendors.md)  

@@ -114,7 +114,7 @@ You can view the number of analyses you've done, and how many you can still do, 
 
 Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## See also
+## Related information
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Categorize Items](inventory-how-categorize-items.md)  

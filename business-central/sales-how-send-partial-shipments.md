@@ -19,7 +19,7 @@ By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in th
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## See also
+## Related information
 
 [Sell Products with a Customer Sales Order](sales-how-sell-products.md)  
 [Ship Items](warehouse-how-ship-items.md)  

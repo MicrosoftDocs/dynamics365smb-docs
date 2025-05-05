@@ -27,7 +27,7 @@ You can export financial report data into a digital file format approved by the 
 4. On the **Export Report to ASC format** page, on the **Options** FastTab, enter information into the relevant fields.  
 5. Choose **OK**.  
   
-## See also
+## Related information
 
 [Spain Local Functionality](spain-local-functionality.md)
 

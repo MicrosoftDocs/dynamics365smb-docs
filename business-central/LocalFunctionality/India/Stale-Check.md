@@ -72,7 +72,7 @@ Following is the process of managing stale cheque.
 
 
 
-## See also 
+## Related information 
 [GST Overview](GST-001-Basic-Setup.md)
 
 

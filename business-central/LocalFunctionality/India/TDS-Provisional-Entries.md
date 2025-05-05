@@ -97,7 +97,7 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 
 
-## See Also 
+## Related information 
 [TDS Adjustment Entry](TDS-Adjustment-Entries.md)
 
 

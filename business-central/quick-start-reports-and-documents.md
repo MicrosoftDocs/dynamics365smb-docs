@@ -65,7 +65,7 @@ The generated report file is automatically saved to your browser's download fold
 
 Learn more about how to customize reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
 
-## See also
+## Related information
 
 [Use Reports in Daily Work](reports-use-reports.md)  
 [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

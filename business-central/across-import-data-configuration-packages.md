@@ -73,7 +73,7 @@ The default configuration package supports the following tables:
 - Sales Price
 - Purchase Price
 
-## See Also
+## Related information
 
 [Migrating On-Premises Data to Business Central Online (in English only)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Set Up Company Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

@@ -33,7 +33,7 @@ When you set up number series for invoices, you must follow these guidelines:
 - Use only numeric characters.  
 - Do not precede numbers with zeros.  
 
-## See Also  
+## Related information  
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
  [Print ESR Invoices](how-to-print-esr-invoices.md)   
  [Import ESR Payments](how-to-import-esr-payments.md)   

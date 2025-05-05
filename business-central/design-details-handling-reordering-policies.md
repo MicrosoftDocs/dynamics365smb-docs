@@ -355,7 +355,7 @@ Because the supply order quantity is based on the actual demand, it can make sen
 * Increase the order to a specified minimum order quantity
 * Decrease the quantity to the specified maximum quantity (and thus create two or more supplies to reach the total needed quantity)
 
-## See Also  
+## Related information  
 
 [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  

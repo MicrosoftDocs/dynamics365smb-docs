@@ -75,7 +75,7 @@ If you usually buy or sell in units different from the base unit of measure, you
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** page.
 5. Select the code you want to set up as the default unit of measure for sales or purchasing respectively, and then choose the **OK** button.
 
-## See also
+## Related information
 
 [Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Register New Items](inventory-how-register-new-items.md)  

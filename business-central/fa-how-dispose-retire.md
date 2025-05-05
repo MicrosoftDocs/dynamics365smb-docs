@@ -46,7 +46,7 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
-## See also
+## Related information
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

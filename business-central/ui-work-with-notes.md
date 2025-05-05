@@ -43,7 +43,7 @@ ms.reviewer: jswymer
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## See Also
+## Related information
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

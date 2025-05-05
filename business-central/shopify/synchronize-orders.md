@@ -397,6 +397,6 @@ When dealing with gift cards, it's important to enter a value in the **Sold Gift
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 
-## See also
+## Related information
 
 [Get started with the Shopify Connector](get-started.md)  

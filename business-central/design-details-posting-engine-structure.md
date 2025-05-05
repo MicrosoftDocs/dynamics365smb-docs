@@ -31,7 +31,7 @@ Posting interface and some other functions in codeunit 12 use posting engine fun
 |CreateGLEntryVATCollectAdj|Same as CreateGLEntry, but with additional collection of adjustments and saving to temporary VAT buffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Same as CreateGLEntry, but also copies posting groups from VAT entry.|  
   
-## See Also  
+## Related information  
  [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

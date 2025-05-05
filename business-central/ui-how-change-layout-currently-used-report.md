@@ -56,7 +56,7 @@ The name of the selected custom layout is now shown in the **Custom Layout Descr
 
 You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
-## See Also
+## Related information
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

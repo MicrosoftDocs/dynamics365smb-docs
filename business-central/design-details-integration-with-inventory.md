@@ -44,7 +44,7 @@ To adjust the bin content, use a warehouse item journal, where you can enter the
   
 If you enter a positive quantity and post the line, then the inventory stored in the bin increases, and the quantity of the default adjustment bin decreases correspondingly.  
   
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  

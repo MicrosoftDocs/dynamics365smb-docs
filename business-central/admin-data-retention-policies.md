@@ -109,7 +109,7 @@ The following example includes a mandatory filter.
 
 After a developer has added tables to the list, an administrator can include them in a retention policy. 
 
-## See also
+## Related information
 
 [Analyzing Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Auditing Changes in Business Central](across-log-changes.md)  

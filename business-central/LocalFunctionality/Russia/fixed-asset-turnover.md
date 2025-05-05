@@ -61,7 +61,7 @@ The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** wi
 
  
 
-## See Also 
+## Related information 
 
 [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
 

@@ -55,7 +55,7 @@ For example, Purchase Return Order or Credit Memo has been issued for INR 10000 
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Registered Vendor](GST-Purchase-Return-to-Registered-Vendor.md)
 
 

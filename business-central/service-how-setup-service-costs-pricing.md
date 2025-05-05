@@ -57,7 +57,7 @@ When you work with service items and service orders, you may need to register ad
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
-## See Also
+## Related information
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
 

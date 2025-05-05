@@ -21,7 +21,7 @@ The purpose of the feature is:
 - To allow the accounting manager to enforce corrective posting of canceling in fixed assets  
 - To allow the user to enforce corrective posting with one select (in G/L, inventory, and project postings)  
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

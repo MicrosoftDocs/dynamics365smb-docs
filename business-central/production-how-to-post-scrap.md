@@ -28,7 +28,7 @@ If scrap is produced during processing, it can be entered in the output journal.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## See Also
+## Related information
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

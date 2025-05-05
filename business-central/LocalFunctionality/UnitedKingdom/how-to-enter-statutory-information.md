@@ -35,7 +35,7 @@ To comply with legal requirements, statutory information is available on the **S
 
 1. Choose the **OK** button.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

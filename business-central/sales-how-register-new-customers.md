@@ -89,7 +89,7 @@ Assign a salesperson on the **Customer** card page by choosing **Customer**, and
 
 When you choose the **Alternate Shipping Address** option as a **Ship-To** location on a sales document, the **Salesperson Code** updates to match the salesperson from the **Ship-to** rather than the **Bill-to** address. 
 
-## See also
+## Related information
 
 [Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  

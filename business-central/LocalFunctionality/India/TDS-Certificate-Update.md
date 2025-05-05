@@ -53,7 +53,7 @@ This topic explains how to track and update the TDS certificate receivable or re
 
 
 
-## See Also 
+## Related information 
 [TDS for Customer Overview](TDS-for-Customer-Overview.md)
 
 

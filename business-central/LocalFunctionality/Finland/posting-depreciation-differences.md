@@ -20,7 +20,7 @@ In Finland, the following depreciation methods are commonly used for fixed asset
 
 Finnish tax law requires the difference in accumulated depreciation between two methods to be calculated and posted in the general ledger.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)  
 - [Fixed Assets](../../fa-manage.md)

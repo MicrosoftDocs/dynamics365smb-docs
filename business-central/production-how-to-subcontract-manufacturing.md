@@ -96,7 +96,7 @@ When the purchase order is posted as invoiced, then the direct cost of the purch
 > [!NOTE]  
 > Expected costs are only managed for item transactions. Expected costs are not for immaterial transaction types, such as capacity posted via subcontract purchase orders. Don't be confused by the fact that posting a receipt might trigger posting of output. These transactions are separate and the expected cost of output is calculated independently.  
 
-## See also  
+## Related information  
 
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  

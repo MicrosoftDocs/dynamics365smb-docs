@@ -27,7 +27,7 @@ To ensure compliance with local tax reporting, use the **Tax Setup** page to def
 > [!TIP]
 > If you are in the US, we recommend running the **Tax Setup** together with the **Set Up Sales Tax** assisted guide. Learn more about the guide and other important pages and fields to set up in [Sales Tax in the US](us-sales-tax.md).
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Finance](../../finance.md)  

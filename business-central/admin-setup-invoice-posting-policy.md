@@ -47,7 +47,7 @@ The following table describes how invoice posting policies affect documents.
    > [!Note]
    > The setting doesn't affect posting of general journal lines where you can select **Invoice** in the **Document Type** field.
 
-## See Also
+## Related information
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  

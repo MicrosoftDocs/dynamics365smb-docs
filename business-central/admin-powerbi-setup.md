@@ -106,7 +106,7 @@ Dataflows enable you to ingest, transform, and load data into a Power BI workspa
 
 Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
 
-## See also
+## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

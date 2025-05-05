@@ -61,7 +61,7 @@ You can register employee absences on a daily basis or at some other interval th
 
     The **Abs. Overview by Periods Matrix** page opens showing employee absences broken down by periods.
 
-## See Also
+## Related information
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

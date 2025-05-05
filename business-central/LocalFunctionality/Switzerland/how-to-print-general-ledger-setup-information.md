@@ -29,7 +29,7 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## Related information  
 [Setting Up Finance](../../finance-setup-finance.md)
 
 

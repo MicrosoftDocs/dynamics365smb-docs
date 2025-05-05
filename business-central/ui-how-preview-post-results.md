@@ -19,7 +19,7 @@ On every document and journal that can be posted, you can choose the **Preview P
 4. On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.  
    The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.
 
-## See Also
+## Related information
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

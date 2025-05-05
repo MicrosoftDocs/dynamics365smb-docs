@@ -41,7 +41,7 @@ You might want to turn off the `ConcurrentWarehousingPosting` feature key if you
 * The feature relies on consecutive entry numbers.
 * The feature locks tables during a process.
 
-## See also
+## Related information
 
 [Application design details](design-details-application-design.md)  
 [Set up nondeductible VAT](finance-setup-nondeductible-vat.md)  

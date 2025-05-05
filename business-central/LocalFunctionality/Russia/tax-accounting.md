@@ -45,7 +45,7 @@ Transactions are processed using specific tax accounting principles that are app
 | Accumulation         | A synthetic register based on calculated algorithms defined during tax register set up. |
 
 
-## See Also
+## Related information
 
 [Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

@@ -99,7 +99,7 @@ For single cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] transfer
 
 In the **Cost Register** table, [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first, and last entry numbers of the cost entries that are created.
 
-## See also
+## Related information
 
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  

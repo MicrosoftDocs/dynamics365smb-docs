@@ -1907,6 +1907,9 @@ The **Work Center Actual Need** measure calculates the total actual time require
 
 - Calendar Entry
 
+## Related information
+
+
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  
 [Built-in production reports](production-reports.md)  

@@ -33,7 +33,7 @@ ms.reviewer: bholtorf
 > [!NOTE]  
 >  The KID cannot be used for credit memos. If a credit memo is part of the payment, invoices in the same payment must be treated as payments without a KID.  
 
-## See also  
+## Related information  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   

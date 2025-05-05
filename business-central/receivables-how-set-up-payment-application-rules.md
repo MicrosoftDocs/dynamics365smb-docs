@@ -74,7 +74,7 @@ The following table describes the standard payment application rules in [!INCLUD
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
-## See also
+## Related information
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

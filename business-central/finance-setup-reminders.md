@@ -109,7 +109,7 @@ If you create more reminders than you define levels for, the conditions for the 
 
 After you set up the reminder terms, you can assign them to customers on Customer Card pages. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 
-## See also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Send Reminders of Outstanding Balances](receivables-send-reminders.md)  

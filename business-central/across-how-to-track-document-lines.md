@@ -24,7 +24,7 @@ The following procedure describes how to track from a sales order line. The step
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

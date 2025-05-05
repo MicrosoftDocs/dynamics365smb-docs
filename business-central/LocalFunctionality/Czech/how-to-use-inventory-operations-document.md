@@ -20,7 +20,7 @@ For the reasons above, this feature provides the following reports:
 - Inventory Movement Report is used to print documents from inventory Journals.
 - Posted Inventory Document Report is used to print posted inventory operations.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

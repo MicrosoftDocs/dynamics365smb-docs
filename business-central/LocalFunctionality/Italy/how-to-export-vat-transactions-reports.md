@@ -48,7 +48,7 @@ It's only possible to change the lines and fields when the document has the stat
     > [!NOTE]  
     >  You can modify a report that has the status of Submitted only if you have enabled the **Modify Submitted Reports** check box on the **VAT Report Setup** page.  
 
-## See also  
+## Related information  
 [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md)
 
 

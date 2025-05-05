@@ -128,7 +128,7 @@ To import or export financial report column definitions, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Column Definitions**, and then choose the related link.
 1. Choose the row definition, and then choose the **Import Column Definition** or **Export Column Definition** action, depending on what you want to do.
 
-## See also
+## Related information
 <!-- 
 2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
 -->

@@ -65,7 +65,7 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
     In many cases, yes. As with all countries/regions for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country/region, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Vendor (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry delivers the features needed to comply. However, the business who uses the solution is responsible for compliance.
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 

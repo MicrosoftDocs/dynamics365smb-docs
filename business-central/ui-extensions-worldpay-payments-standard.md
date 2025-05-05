@@ -21,7 +21,7 @@ If you enable the extension, when you send a sales invoice by email the document
 
 Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you'll need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  

@@ -180,7 +180,7 @@ When you plan with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 > In case of operation splitting, the setup time is only assigned one time because it's assumed that some manual adjustment is done to optimize the schedule.
 
-## See also
+## Related information
 
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

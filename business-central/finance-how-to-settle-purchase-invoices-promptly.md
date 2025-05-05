@@ -28,7 +28,7 @@ If you need to pay the vendor by cash or check, you can post the payment when yo
 >
 > This customization is only required if you do not specify balancing accounts on the payment methods as describe above.
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

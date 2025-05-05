@@ -31,7 +31,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Export data for Intrastat reporting in [!INCLUDE[prod_short](includes/prod_short.md)].|[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)|
 |View which fields in [!INCLUDE[prod_short](includes/prod_short.md)] are mapped to file elements when exporting payment files by using the AMC Banking 365 Fundamentals extension.|[Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## See Also  
+## Related information  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Invoice Sales](sales-how-invoice-sales.md)   

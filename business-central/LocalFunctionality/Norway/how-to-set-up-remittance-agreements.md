@@ -75,7 +75,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
 
 12. Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   

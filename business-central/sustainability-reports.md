@@ -34,7 +34,7 @@ To get an overview of the reports that are available for sustainability, choose 
 
 To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
-## See also
+## Related information
 
 [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)   
 [Sustainability management overview](finance-manage-sustainability.md)   

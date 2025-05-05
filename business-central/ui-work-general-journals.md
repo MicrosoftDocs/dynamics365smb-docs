@@ -227,7 +227,7 @@ The following procedure is based on the **General Journals** page, but applies t
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can post the journal.
 
-## See Also
+## Related information
 
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

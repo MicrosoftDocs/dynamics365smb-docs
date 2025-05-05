@@ -36,7 +36,7 @@ To post maintenance costs, you must first enter an account number on the **FA Po
 > [!NOTE]  
 >   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).
 
-## See Also
+## Related information
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  

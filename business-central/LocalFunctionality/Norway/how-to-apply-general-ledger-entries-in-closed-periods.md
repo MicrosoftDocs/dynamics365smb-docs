@@ -26,7 +26,7 @@ ms.reviewer: bholtorf
 5.  On the **User Setup** page, select the **Application always Allowed** check box for each user who can apply entries to a closed period.  
 6.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
 [Norway Local Functionality](norway-local-functionality.md)
 
 

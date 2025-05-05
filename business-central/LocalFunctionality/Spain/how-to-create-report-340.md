@@ -50,7 +50,7 @@ This report is generated in a format approved by the tax authorities. You should
 
 If you print the posted document, for example, a posted sales invoice, it includes the following label: **Régimen especial del criterio de caja**.  
 
-## See also  
+## Related information  
  [Report 340](report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)

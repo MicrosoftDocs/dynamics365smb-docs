@@ -83,7 +83,7 @@ Try the report here: [Item Dimensions - Detail](https://businesscentral.dynamics
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)  
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  

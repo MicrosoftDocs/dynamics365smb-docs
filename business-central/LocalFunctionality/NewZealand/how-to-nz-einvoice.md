@@ -40,7 +40,7 @@ To learn more about using the E-Documents framework into your purchasing and sal
 - [Use E-Documents in the sales process](../../finance-how-use-edocuments.md)
 - [Use E-Documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)
 
-## See also
+## Related information
 
 - [Set up E-Documents](../../finance-how-setup-edocuments.md)  
 - [How to use E-Documents in sales](../../finance-how-use-edocuments.md)  

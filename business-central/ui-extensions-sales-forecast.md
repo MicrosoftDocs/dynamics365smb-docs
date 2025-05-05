@@ -65,7 +65,7 @@ Regarding throughput, we estimate that [!INCLUDE [prod_short](includes/prod_shor
 
 The Sales and Inventory Forecast extension doesn't support filtering, means you can't split items into separate batches.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  

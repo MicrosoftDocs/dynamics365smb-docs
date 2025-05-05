@@ -23,7 +23,7 @@ Typically, sales taxes apply to the retail sale of goods and services and are a 
 > [!IMPORTANT]
 > Although sales tax is available in the default version, Microsoft supports the use of sales tax in the United States and Canada only.
 
-## See also
+## Related information
 
 [Report Sales Tax in the US](localfunctionality/UnitedStates/us-sales-tax.md)    
 [Report Sales Tax in Canada](localfunctionality/canada/ca-sales-tax.md)    

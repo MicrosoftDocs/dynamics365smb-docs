@@ -52,7 +52,7 @@ When parts of a document line quantity are posted, only that particular quantity
 |**Item Tracking Lines** page|7|0|**5**|7|2|  
 |**T336**|7|0|0|7|7|  
 
-## See Also  
+## Related information  
  [Design Details: Item Tracking](design-details-item-tracking.md)   
  [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)
 

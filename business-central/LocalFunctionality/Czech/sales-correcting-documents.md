@@ -19,7 +19,7 @@ According to the VAT law amendment, it's necessary to differentiate types of Sal
 - Internal Correction
 - Insolvency Tax Document
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

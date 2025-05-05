@@ -42,7 +42,7 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 The posted sales shipment is updated.
 
-## See also
+## Related information
 
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

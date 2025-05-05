@@ -70,7 +70,7 @@ The general posting type will be handled in two ways, depending on the value in 
 |**Mandatory**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[prod_short](../../includes/prod_short.md)] verifies if the general posting type is specified, but there is no verification if the field is set to **Sale**.<br /><br /> **VAT Code 3** can be used for both sales and purchase documents.|  
 |**Same**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[prod_short](../../includes/prod_short.md)] verifies if the general posting type is set to **Sale**.<br /><br /> **VAT Code 3** can be used for sales documents, but not on purchase documents.<br /><br /> This enables you to restrict the use of VAT codes to predefined general posting types.|  
 
-## See Also  
+## Related information  
  [Norwegian VAT Reporting](norwegian-vat-reporting.md)
 
 

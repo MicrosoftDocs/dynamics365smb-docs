@@ -331,7 +331,7 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes th
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## See Also
+## Related information
 
 [Create Users According to Licenses](ui-how-users-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

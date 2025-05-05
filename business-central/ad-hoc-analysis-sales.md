@@ -90,7 +90,7 @@ After you enter information on a sales order and add all the sales order lines, 
 
 To learn more about posting sales, go to [Posting sales](ui-post-sales.md).
 
-## See also
+## Related information
 
 [Posting sales](ui-post-sales.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

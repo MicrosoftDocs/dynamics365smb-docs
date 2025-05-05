@@ -30,7 +30,7 @@ You cannot create an invoice without a customer number. This is true, even if yo
 >
 > You must enter a number for a receivables account for the posting group, even though the balance in this account will always be 0 after you post an invoice.  
 
-## See Also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Register New Customers](sales-how-register-new-customers.md)

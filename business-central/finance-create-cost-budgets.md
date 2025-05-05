@@ -27,7 +27,7 @@ You use the following pages to create and analyze cost budgets. Choose the ![Lig
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Center** report<br /><br /> **Cost Budget by Cost Object** report|  
 
-## See also
+## Related information
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Create G/L Budgets](finance-how-create-budgets.md)  

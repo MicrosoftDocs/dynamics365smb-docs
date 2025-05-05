@@ -101,7 +101,7 @@ To fulfill the requirements in legislation reporting and local reporting practic
 - VAT List on Sales Adv. Letter
 - VAT List on Purch. Adv. Letter
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)
 

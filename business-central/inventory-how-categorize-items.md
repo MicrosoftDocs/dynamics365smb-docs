@@ -45,7 +45,7 @@ If you change your mind about an item category, you can delete it. However, if t
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## See also
+## Related information
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)    
 [Manage Product Variants](inventory-item-variants.md)    

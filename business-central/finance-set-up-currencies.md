@@ -114,7 +114,7 @@ You can enter a currency code on a general journal line and post the line to a g
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## See also
+## Related information
 
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  

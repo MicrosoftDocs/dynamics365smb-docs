@@ -18,7 +18,7 @@ For more information, see [Encrypting Data in Dynamics 365 Business Central](/dy
 > [!Note]
 > You can turn on or turn off encryption only if you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)]. Encryption is always turned on for online versions, and you cannot turn it off.
 
-## See also  
+## Related information  
 [Administration](admin-setup-and-administration.md)
 
 

@@ -83,7 +83,7 @@ If an opportunity follows a sales cycle, you can move it to the next or previous
    * **Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.
 3. Fill in the other fields as needed, and then choose the **OK** button.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  

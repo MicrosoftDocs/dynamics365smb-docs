@@ -53,7 +53,7 @@ The following table provides links to articles where you can learn about the loc
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## See Also
+## Related information
 
 [Create environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Get Ready for Doing Business](ui-get-ready-business.md)  

@@ -112,7 +112,7 @@ The following standard reports are adjusted for the Czech Republic (new Group to
 - **Fixed Asset – G/L Analysis**
 - **Maintenance – Analysis**
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  

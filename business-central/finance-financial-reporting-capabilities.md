@@ -59,7 +59,7 @@ Financial reporting doesn't require that you know how to code. Finance professio
 * The basic differences between balance sheet and income statement accounts.
 * Basic formulas.
 
-## See also
+## Related information
 
 [Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md)  
 [Design your own financial reports](bi-design-financial-reports.md)  

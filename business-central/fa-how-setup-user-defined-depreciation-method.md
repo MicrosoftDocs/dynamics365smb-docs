@@ -95,7 +95,7 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 | 12/31/24 |Depreciation |None |None |0 |
 
 
-## See Also
+## Related information
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)  

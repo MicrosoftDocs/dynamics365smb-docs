@@ -120,7 +120,7 @@ If you keep the **Allow Data Sync to Shopify** toggle enabled, then other protec
 - Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, and synchronize prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
 - Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
 
-## See also
+## Related information
 
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
 

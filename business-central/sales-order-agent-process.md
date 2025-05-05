@@ -109,9 +109,6 @@ Learn more in [Item availability in Sales Order Agent (preview)](sales-order-age
 
 ## Stop a task
 
-
-
-
 Most steps of a task include a **Stop** button that lets you terminate the process. When you select **Stop**, a task isn't terminated immediately—you're asked to confirm before the task is stopped.
 
 Before you stop a task, consider the following behavior:

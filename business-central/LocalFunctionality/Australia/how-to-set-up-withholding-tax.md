@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: withholding tax, WHT, vendor payments, general ledger setup, product posting groups, business posting groups, Australian Taxation Office, ATO, business activity statement, BAS, Australian business number, ABN, Australian version
-ms.search.form: 28041, 28042, 28043, 118
+ms.search.form: 28041, 28042, 28043
 ms.date: 03/27/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

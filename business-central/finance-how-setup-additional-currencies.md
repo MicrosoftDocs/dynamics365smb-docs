@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: multiple currencies, foreign exchange rates
-ms.search.form: 5, 16,118, 483, 495
+ms.search.form: 5, 16, 118, 483, 495
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 

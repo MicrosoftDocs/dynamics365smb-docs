@@ -21,7 +21,7 @@ Sales Order Agent monitors a designated mailbox for incoming customer emails abo
 
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 
-Learn more about Sales Order Agent and its process flow in [Sales Order Agent overview](sales-order-agent.md#how-the-agent-processes-requests).
+Learn more about Sales Order Agent and its process flow in [How the agent processes requests](sales-order-agent.md#how-the-agent-processes-requests).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
@@ -158,11 +158,9 @@ From the ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** vie
   
      `I want the ones with linen material`
 
-- Reliability decreases when the agent retrieves information from multiple email exchanges with a customer, and the customer uses pronouns or vague references like "that," "them," or "it" in their requests.
-
 ## Related information
 
-[Sales Order Agent Overview](sales-order-agent.md)  
-[Set up the Sales Order Agent](sales-order-agent-setup.md)  
+[Sales Order Agent overview](sales-order-agent.md)  
+[Set up Sales Order Agent](sales-order-agent-setup.md)  
 [FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

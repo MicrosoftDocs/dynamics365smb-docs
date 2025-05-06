@@ -2,7 +2,7 @@
 title: Set up item units of measure
 description: You can set up multiple units of measure for items.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: UOM
 ms.date: 11/13/2024

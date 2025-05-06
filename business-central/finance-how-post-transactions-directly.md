@@ -4,7 +4,7 @@ description: You can create transactions on the General Journal page for busines
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251

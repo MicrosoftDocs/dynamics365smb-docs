@@ -4,7 +4,7 @@ description: Learn how to work with accounting periods to define when your compa
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 100,
 ms.date: 08/05/2024
 ms.service: dynamics-365-business-central

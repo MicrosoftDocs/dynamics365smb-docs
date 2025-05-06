@@ -4,7 +4,7 @@ description: You can track your progress when you review amounts in general ledg
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 08/06/2024
 ms.custom: bap-template
 ms.search.form: 20, 22207,

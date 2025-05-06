@@ -4,7 +4,7 @@ description: If you buy, store, or sell items in more than one place, you can se
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15

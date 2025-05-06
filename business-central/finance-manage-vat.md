@@ -2,7 +2,7 @@
 title: VAT management overview
 description: Learn how to manage VAT with the listed information and resources.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: 118, 472, 737, 743

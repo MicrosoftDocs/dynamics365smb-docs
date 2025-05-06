@@ -4,7 +4,7 @@ description: Use Accountant Role Center charts to analyze the flow of money in y
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818

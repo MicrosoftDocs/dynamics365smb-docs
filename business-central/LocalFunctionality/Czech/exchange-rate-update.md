@@ -4,7 +4,7 @@ description: This section describes local functionality for updating exchange ra
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: Czech, finance, CZ, Exchange, currency
 ms.date: 06/25/2021
 ms.reviewer: bholtorf

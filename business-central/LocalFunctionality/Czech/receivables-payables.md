@@ -2,7 +2,7 @@
 title: Payables and receivables in the Czech Version
 description: This section describes local functionality in the Czech version - Payables and Receivables.
 author: ACMartinKunes
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
 ms.date: 11/09/2023
 ms.reviewer: bholtorf

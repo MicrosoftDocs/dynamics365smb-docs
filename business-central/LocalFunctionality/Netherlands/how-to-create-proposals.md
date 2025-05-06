@@ -2,7 +2,7 @@
 title: How to Create Proposals
 description: Generate proposals manually or automatically based on either vendor or customer ledger entries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: generate proposals, proposals, generate proposals manually, generate proposals electronically, customer ledger entries, vendor ledger entries, Dutch version, Netherlands
 ms.date: 03/17/2025

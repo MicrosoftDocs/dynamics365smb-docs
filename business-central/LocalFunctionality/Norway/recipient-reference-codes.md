@@ -2,7 +2,7 @@
 title: Recipient reference codes [NO]
 description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/08/2023

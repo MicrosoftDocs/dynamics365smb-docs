@@ -2,7 +2,7 @@
 title: Italy local functionality
 description: The following outlined articles describe the local functionality in the Italian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 09/04/2024

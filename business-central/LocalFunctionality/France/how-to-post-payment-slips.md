@@ -2,7 +2,7 @@
 title: How to Post Payment Slips [FR]
 description: Learn the steps to post payment slips to complete payment transactions and create the associated financial data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: post payment slips, payment slip, French version
 ms.date: 04/15/2025

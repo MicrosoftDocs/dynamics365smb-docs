@@ -2,7 +2,7 @@
 title: Print bank account reconciliation reports [NZ]
 description: Describes how to print a report that displays open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/17/2023

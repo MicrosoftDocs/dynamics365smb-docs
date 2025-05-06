@@ -2,7 +2,7 @@
 title: Calculate goods and services tax on prepayments (NZ)
 description: Describes how to calculate Goods and Services Tax (GST) for partial payments or prepayments based on the total invoice amount, instead of on a partial amount.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 28164,28165,28166,28167

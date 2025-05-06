@@ -4,7 +4,7 @@ description: Describes the various scenarios when withholding tax (WHT) occurs a
 author: brentholtorf
 
     
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167

@@ -2,7 +2,7 @@
 title: How to Import Post Codes [NL]
 description: Import a file with post codes for marketing and relationship management activities, which is saved in the Post Code Range table.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: post codes, import post codes, relationship management, post code range, Dutch version, Netherlands
 ms.date: 03/18/2025

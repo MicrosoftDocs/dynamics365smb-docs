@@ -2,7 +2,7 @@
 title: Italian Subcontracting
 description: Master Production Scheduling (MPS) and Material Requirements Planning (MRP)enable contractors to manage their outsourced and subcontracted components.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: 12152, 12153, 12154, 12155, 12156, 35490, 35491
 ms.search.form: 

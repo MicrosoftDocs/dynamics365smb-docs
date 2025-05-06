@@ -2,7 +2,7 @@
 title: Create a purchase quote to request an offer
 description: Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346

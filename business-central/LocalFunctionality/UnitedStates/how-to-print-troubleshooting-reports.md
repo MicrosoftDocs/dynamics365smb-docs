@@ -2,7 +2,7 @@
 title: How to print troubleshooting reports [US]
 description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the US version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
 ms.date: 02/04/2025

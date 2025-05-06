@@ -3,7 +3,7 @@ title: Set Up Vendor Bank Account
 description: Learn how to associate bank accounts to vendor cards in Business Central, including contact information, SWIFT, and IBAN codes.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.date: 07/04/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf

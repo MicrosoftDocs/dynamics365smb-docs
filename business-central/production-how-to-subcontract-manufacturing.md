@@ -4,7 +4,7 @@ description: This article gives an extended overview of the extended functionali
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 99000886,
 ms.date: 06/22/2024

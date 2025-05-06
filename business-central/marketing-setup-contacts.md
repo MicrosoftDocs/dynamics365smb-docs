@@ -2,7 +2,7 @@
 title: Set up information for contacts
 description: Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.date: 11/03/2024

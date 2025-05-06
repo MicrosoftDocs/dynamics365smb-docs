@@ -2,7 +2,7 @@
 title: Block vendors
 description: Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 27,

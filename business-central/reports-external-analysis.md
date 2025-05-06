@@ -2,7 +2,7 @@
 title: Analyze Data in Business Intelligence Tools
 description: Provides an overview of how external Business Intelligence tools can interact with Business Central data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 01/27/2025

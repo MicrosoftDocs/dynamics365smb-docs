@@ -2,7 +2,7 @@
 title: How to issue delivery reminders [CH]
 description: After you create delivery reminders, you must issue and print them so that you can send reminders to vendors. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023

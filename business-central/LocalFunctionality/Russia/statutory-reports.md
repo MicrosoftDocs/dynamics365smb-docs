@@ -2,7 +2,7 @@
 title: Statutory reports in Russia
 description: Russian enhancements include support for statutory reports.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/08/2023
 ms.reviewer: bholtorf

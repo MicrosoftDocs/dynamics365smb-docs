@@ -2,7 +2,7 @@
 title: Setting up tax accounting in Russia
 description: Russian enhancements include tax accounting.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/13/2023
 ms.reviewer: bholtorf

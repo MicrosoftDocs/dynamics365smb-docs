@@ -2,7 +2,7 @@
 title: Currency information in Russia
 description: Russian enhancements include currency information for importing currency rates.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/06/2023
 ms.reviewer: bholtorf

@@ -4,7 +4,7 @@ description: The General Ledger Entries report provides a detailed view of indiv
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36995_Primary
 ms.date: 10/31/2024

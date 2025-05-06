@@ -4,7 +4,7 @@ description: The Inventory Valuation App KPIs provides a page to clearly identif
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 11/08/2024

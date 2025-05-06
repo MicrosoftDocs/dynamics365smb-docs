@@ -4,7 +4,7 @@ description: The Project Overview report highlights key high-level information a
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37033_Primary
 ms.date: 10/28/2024

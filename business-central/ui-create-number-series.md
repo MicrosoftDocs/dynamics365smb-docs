@@ -4,7 +4,7 @@ description: Learn how to set up number series that assign unique ID codes to ac
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: numbers, numbering
 ms.search.form: 456_Primary, 457_Primary, 458_Primary, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 09/20/2024

@@ -2,7 +2,7 @@
 title: Make cash flow forecasts using financial reports
 description: This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 08/01/2024

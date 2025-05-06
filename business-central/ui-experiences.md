@@ -4,7 +4,7 @@ description: Learn what the Essential and Premium user experience tiers mean for
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.search.form: 1,
 ms.date: 03/11/2024

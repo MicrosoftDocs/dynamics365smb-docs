@@ -2,7 +2,7 @@
 title: View a Test Report Before Posting a Sales or Purchase Document
 description: Before you post a document, for example, an order or a credit memo, you can test and review it to check for errors that might block posting.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form:
 ms.date: 04/01/2021

@@ -2,7 +2,7 @@
 title: Sustainability reports and analytics
 description: Explore the sustainability reports and analytics in the standard version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_6210, Report_6211, Report_6212
 ms.date: 05/17/2024

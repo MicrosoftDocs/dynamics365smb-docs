@@ -4,7 +4,7 @@ description: First-Expired-First-Out (FEFO) is a sorting method that ensures tha
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 08/12/2024

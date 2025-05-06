@@ -2,7 +2,7 @@
 title: Bookmark link to page or report on role center
 description: Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 

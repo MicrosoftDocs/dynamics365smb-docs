@@ -4,7 +4,7 @@ description: Outlines the assisted setup guides, videos, help articles, and page
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 06/10/2024

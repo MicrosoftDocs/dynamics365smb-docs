@@ -4,7 +4,7 @@ description: Learn about the different ways to handle inbound processes for rece
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

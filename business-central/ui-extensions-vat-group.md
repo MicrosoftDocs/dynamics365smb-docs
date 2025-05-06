@@ -4,7 +4,7 @@ description: You can engage with other businesses to form a VAT group where all 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: VAT, value added tax, report
 ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 
 ms.date: 06/03/2024

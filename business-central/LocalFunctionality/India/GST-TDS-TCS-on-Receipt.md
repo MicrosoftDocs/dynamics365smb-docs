@@ -5,7 +5,7 @@ description: GST TDS and GST TCS on Customer Payments
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021

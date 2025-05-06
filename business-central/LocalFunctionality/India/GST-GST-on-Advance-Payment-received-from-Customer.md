@@ -2,7 +2,7 @@
 title: GST on advance payment received from customer
 description: GST on Advance Payment received from Customer
 author: v-debapd
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 12/13/2023

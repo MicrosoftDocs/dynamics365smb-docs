@@ -5,7 +5,7 @@ description: Specifies Posting No. series required
 author: v-debapd
 
     
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 09/20/2021

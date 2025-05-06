@@ -2,7 +2,7 @@
 title: Audit trail and edit logs for accounting software in India
 description: This article provides information about the new Indian tax and companies legislation guidelines for accounting software.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, Indian, local, IN, English
 ms.date: 07/08/2024

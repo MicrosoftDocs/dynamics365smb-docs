@@ -2,7 +2,7 @@
 title: Design Details - Warehouse Setup
 description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021

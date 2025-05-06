@@ -4,7 +4,7 @@ description: To reconcile inventory and capacity ledger entries with the general
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 02/20/2024
 ms.service: dynamics-365-business-central

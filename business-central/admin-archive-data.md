@@ -4,7 +4,7 @@ description: Archiving data creates a low-cost backup of your records.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 01/30/2023
 ms.custom: bap-template
 ms.search.form: 630

@@ -2,7 +2,7 @@
 title: Design Details - Item Application | Microsoft Docs
 description: This topic describes where inventory quantity and value are recorded when you post an inventory transaction.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 06/08/2021

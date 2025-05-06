@@ -41,7 +41,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Use the **Capacity Journal** page to post consumed capacities that aren't assigned to a production order, such as maintenance work.|[Post Capacities](production-how-to-post-capacities.md)|  
 |Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 
-## See also
+## Related information
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

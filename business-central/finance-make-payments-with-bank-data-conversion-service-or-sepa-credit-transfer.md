@@ -162,7 +162,7 @@ You can re-export payment files from the **Credit Transfer Registers** page. Bef
 
 After your bank processes the electronic payment, post the payments. For more information, see [Making Payments](payables-make-payments.md).
 
-## See also
+## Related information
 
 [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
 [Managing Payables](payables-manage-payables.md)  

@@ -117,7 +117,7 @@ You define variations of workflows by filling in fields on workflow lines using 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## See also
+## Related information
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

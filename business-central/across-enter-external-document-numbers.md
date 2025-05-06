@@ -28,7 +28,7 @@ The following procedure explains how to specify an external document number on a
     On purchase documents, the relevant field is the **Vendor Invoice No.** field.
 4. Fill in any other required fields.  
 
-## See also
+## Related information
 
 [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)  
 [External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  

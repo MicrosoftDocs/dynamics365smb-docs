@@ -67,7 +67,7 @@ Many approval workflow steps are about notifying users of an event they must act
    2. Choose whether to receive an email or note notification under the  **Notification Method** field.
    3. Select the **Notification Schedule** to change the frequency and recurrence in which notifications are sent.
 
-## See also
+## Related information
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  

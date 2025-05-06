@@ -1158,6 +1158,7 @@ ms.service: dynamics-365-business-central
 
 <!--Shopify-->
 ## Online store with Shopify
+### [Shopify connector overview](shopify/shopify-connector-overview.md)
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
@@ -1168,6 +1169,7 @@ ms.service: dynamics-365-business-central
 ### [Automate Shopify synchronization using the job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
+### [Support for the Shopify connector](shopify/shopify-support.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
@@ -2253,7 +2255,7 @@ ms.service: dynamics-365-business-central
 #### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
 #### Design details: Posting date on adjustment value entry
-#### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Design details: Posting date on adjustment value entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 #### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  

@@ -66,7 +66,7 @@ From Control Panel:
 
 Consider using Outlook for the Web in one of the browsers supported by Business Central. For a list of supported browsers, see [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

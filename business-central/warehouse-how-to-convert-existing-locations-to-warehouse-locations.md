@@ -37,7 +37,7 @@ You can create zones and bins either before or after the conversion. The only bi
 
  For those locations that did not use warehouse management documents before the conversion, you must re-open and release any source documents that were partially received or partially shipped before the conversion.  
 
-## See Also  
+## Related information  
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

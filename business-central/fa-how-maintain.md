@@ -109,7 +109,7 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-## See also
+## Related information
 
 [Maintenance - Analysis](reports/report-5630.md)  
 [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)  

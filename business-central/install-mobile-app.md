@@ -53,7 +53,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 > [!NOTE]
 > If you're having problems getting the app to work properly, talk to your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## See also
+## Related information
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

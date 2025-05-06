@@ -64,7 +64,7 @@ Before you can begin using workflows, you must set up workflow users, create the
 | View workflow step instances with **Completed** status. | [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) |
 | Delete an approval workflow that will no longer be used. | [Delete Approval Workflows](across-how-to-delete-workflows.md) |
 
-## See also
+## Related information
 
 [Setting Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

@@ -96,7 +96,7 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 
 For more information and additional things you can do when creating a purchase invoice, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## See Also
+## Related information
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Purchasing Overview](Purchasing-manage-purchasing.md)  

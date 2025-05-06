@@ -119,7 +119,7 @@ For example, INR 1000 received from customer and 2% GST TDS (1% CGST, 1% SGST fo
     |**Bank Account**|980| 
 
 
-## See Also 
+## Related information 
 [GST Credit and Liability Adjustment](GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
 
 

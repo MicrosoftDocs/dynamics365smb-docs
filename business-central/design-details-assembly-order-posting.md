@@ -109,7 +109,7 @@ In general, posting dates are copied from a sales order to the linked assembly o
 You can change the posting date in the assembly order manually. However, it can not be later then posting date in the linked sales order. The system will keep this date unless you update the posting date in the sales order.
 
 
-## See Also  
+## Related information  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Production Order Posting](design-details-production-order-posting.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)  

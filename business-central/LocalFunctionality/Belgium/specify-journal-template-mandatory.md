@@ -4,7 +4,7 @@ description: Learn how to make the use of journal templates required in the Belg
 author: altotovi
 ms.topic: conceptual
 ms.search.keywords: journal templates, Belgian version
-ms.search.form: 118
+# ms.search.form: 118
 ms.date: 04/04/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central

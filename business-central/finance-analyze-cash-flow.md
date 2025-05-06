@@ -43,7 +43,7 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
 
-## See also
+## Related information
 
 [Setting Up Finance](finance-setup-finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

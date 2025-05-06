@@ -46,7 +46,7 @@ Use the **Update Service Dates** action to update the notice dates. The action c
 > [!NOTE]
 > You can add the update of the end dates to the job queue by using **Update Serv. Comm. Term. Dates** (Codeunit 8058) to run automatically and autonomously. Typically, businesses run the codeunit once a day and outside business hours. The functionality corresponds to calling the action **Update Service Dates** in the contract card.
 
-## See also
+## Related information
 
 [Service commitments](so-service-commitments.md)  
 [Customer contracts](customer-contracts.md)  

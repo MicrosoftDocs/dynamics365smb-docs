@@ -114,7 +114,7 @@ The version principle enables you to manage several versions of a routing. The s
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
 
-## See also
+## Related information
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

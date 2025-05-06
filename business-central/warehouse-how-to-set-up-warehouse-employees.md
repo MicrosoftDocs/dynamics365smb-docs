@@ -28,7 +28,7 @@ You must set up each user who performs warehouse activities as a warehouse emplo
 
 ## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

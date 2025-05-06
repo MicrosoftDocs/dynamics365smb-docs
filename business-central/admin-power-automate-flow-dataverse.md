@@ -85,7 +85,7 @@ When you add, delete, or modify an account in your [!INCLUDE [cds_long_md](inclu
 2. Use the [!INCLUDE[prod_short](includes/prod_short.md)] API to insert a record with the **entityName** set to **account** in the **Dataverse Entry Change** table. This parameter is the exact name of the Dataverse entity that you're creating the flow for.
 3. [!INCLUDE[prod_short](includes/prod_short.md)] will start the job queue entry that synchronizes customers with accounts.
 
-## See Also
+## Related information
 
 [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)  
 [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  

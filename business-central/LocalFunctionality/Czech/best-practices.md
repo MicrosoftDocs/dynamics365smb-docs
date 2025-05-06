@@ -25,7 +25,7 @@ Smaller regulatory features and local practices of Czech companies include the f
 - Additional fields on item ledger entries and value entries
 - Gen. Prod. Posting Group from SKU and Skip Update SKU on posting
 
-## See also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 
 

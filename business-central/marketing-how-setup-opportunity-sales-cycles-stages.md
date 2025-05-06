@@ -67,7 +67,7 @@ The following procedure describes how to assign activity tasks to opportunities.
 6. On the **Task List** page, select the new task, and then choose the **Assign Activities** action.
 7. On the **Assign Activity** page, fill in the fields as necessary, and then choose the **OK** button.
 
-## See Also
+## Related information
 
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  

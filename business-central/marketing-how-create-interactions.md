@@ -46,7 +46,7 @@ An interaction is recorded for each contact within the segment in the **Interact
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Postponed Interactions**, and then choose the related link.
 2. Choose the interaction you want to finish, and then choose the **Resume** action.
 
-## See also
+## Related information
 
 [Recording Interactions](marketing-interactions.md)  
 [Managing Contacts](marketing-contacts.md)  

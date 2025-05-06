@@ -442,7 +442,7 @@ The Budget Amount AVG 3M (Fiscal) measure calculates the average budet amount fo
 - Date (Fiscal Calendar)
 
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

@@ -19,6 +19,6 @@ For subscription billing, the following entry is created in the job queue:
 
 * **Update Service Dates** (codeunit 70920758): Automatically updates date fields in service commitments daily at 1:00 AM. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
 
-## See also
+## Related information
 
 [General setup](general.md)

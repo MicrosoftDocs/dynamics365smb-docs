@@ -101,7 +101,7 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is publishe
 2. Choose the **Use My Azure Subscription** check box.
 3. On the **Use My Azure Subscription** FastTab, enter the API URL and API key for your model.  
 
-## See also
+## Related information
 
 [Customizing Business Central Using Extensions](ui-extensions.md)    
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)    

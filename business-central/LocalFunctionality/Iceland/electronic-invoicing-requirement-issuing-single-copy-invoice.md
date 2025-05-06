@@ -19,7 +19,7 @@ Using this feature, you can send a legal statement with terms and limitations fo
 
 On the standard posted invoices (invoice and credit memo), legal text is inserted stating that the invoices originate from an ERP solution that complies with Regulation No. 598/1999.  
 
-## See also
+## Related information
 
 [Setting Up Sales](../../sales-setup-sales.md)  
 

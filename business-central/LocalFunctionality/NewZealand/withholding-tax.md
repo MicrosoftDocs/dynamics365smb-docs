@@ -50,7 +50,7 @@ The percentage withheld is specified in **WHT Posting Setup**. The amount to be 
 ## WHT for Foreign Suppliers  
 Ensure that a valid combination of **General Business** and **General Product Posting Groups** has been established for vendors for whom you need to withhold tax,other than for non-IRD.  
 
-## See Also  
+## Related information  
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
 [Set Up Vendors Without IRD for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   

@@ -34,7 +34,7 @@ Another way to quickly create a workflow is to import it, for example, if you ex
    The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate this is the first workflow created from the workflow template.  
 4. To customize the workflow, edit the workflow steps or add new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)  

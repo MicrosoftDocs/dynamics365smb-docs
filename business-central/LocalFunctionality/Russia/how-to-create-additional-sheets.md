@@ -87,7 +87,7 @@ Processing of corrective documents for sales book is similar to processing for p
 
 5. In the additional sheet, the **Date of Facture** field reflects the corrected document date.
 
-## See also
+## Related information
 
 [VAT Ledgers](VAT-Ledgers.md)
 

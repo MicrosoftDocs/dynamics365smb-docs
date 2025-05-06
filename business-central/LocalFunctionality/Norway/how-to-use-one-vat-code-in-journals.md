@@ -52,7 +52,7 @@ For example, the VAT rate posted in the journal is defined by the setup that you
 >   
 >  No changes are made to the posting.  
 
-## See Also  
+## Related information  
  [Norwegian VAT Codes](norwegian-vat-codes.md)
 
 

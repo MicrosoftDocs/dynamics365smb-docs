@@ -370,7 +370,7 @@ The Quantity on PO measure calculates the total quantity of items ordered in the
 **Data Sources**
 - Purchase Line
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  

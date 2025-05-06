@@ -143,7 +143,7 @@ Learn more in the following articles:
 - [Data foundation for ad-hoc analysis on purchasing](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 - [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 
-## See also
+## Related information
 
 [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

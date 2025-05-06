@@ -135,7 +135,7 @@ There are a couple of ways to reverse a posted bank deposit:
 > [!NOTE]
 > You can only reverse a register that contains a single type of entry. That is, the register must contain only customer entries or vendor entries, but not both. If a register contains both you must manually reverse the deposit.
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance.md)  

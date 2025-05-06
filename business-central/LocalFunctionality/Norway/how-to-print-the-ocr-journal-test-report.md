@@ -26,7 +26,7 @@ You can print the **OCR Journal – Test** report to test the imported payment t
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also  
+## Related information  
  [Electronic Banking in Norway](electronic-banking-in-norway.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   

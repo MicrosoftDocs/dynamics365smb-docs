@@ -168,7 +168,7 @@ It is required to pay the TDS and TCS to government authorities through Bank/Cas
 
 
 
-## See Also 
+## Related information 
 [Voucher Interface Overview](Vouche-Interface-Overview.md)
 
 

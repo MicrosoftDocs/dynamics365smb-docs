@@ -17,7 +17,7 @@ The amendment of VAT Law 235/2004 (§106a) introduced the concept of *Unreliable
 This feature uses this service to obtain published information and indicate payer status on vendor cards and purchase documents.
 The treasury department also publishes information about registered bank accounts of the payer (only these accounts are allowed for payments). Information about payer registered bank accounts is stored on the vendor bank account cards and used in cash management.
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

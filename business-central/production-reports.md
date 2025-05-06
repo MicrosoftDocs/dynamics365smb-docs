@@ -32,7 +32,7 @@ The following articles describe some of the key tasks for analyzing the state of
 * [View Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)  
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
-## See also
+## Related information
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

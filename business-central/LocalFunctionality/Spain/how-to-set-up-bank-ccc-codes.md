@@ -47,7 +47,7 @@ The following procedure describes how to set up bank CCC codes for existing cust
 
 3. Choose the **OK** button.  
 
-## See also
+## Related information
 
 [Set Up Bank Accounts](../../bank-how-setup-bank-accounts.md) 
 

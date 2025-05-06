@@ -35,7 +35,7 @@ You can now add this extended text to documents. The following procedure explain
 1. Open a sales order that has a sales line for an item with extended text. To learn more, go to [Sell Products](sales-how-sell-products.md).
 2. Select the line, and then choose the **Insert Ext. Text** action.
 
-## See also
+## Related information
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -48,7 +48,7 @@ The payment information is exported to the file that is set up in the remittance
 
 The payment journal is deleted and the transactions are transferred to the waiting journal.  
 
-## See also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

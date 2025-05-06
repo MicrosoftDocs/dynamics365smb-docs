@@ -78,7 +78,7 @@ Go to the **Web Services** page and make sure the following objects are publishe
 
 Learn more about publishing web services at [Publish a Web Service](across-how-publish-web-service.md).
 
-## See also
+## Related information
 
 [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Workflow](across-workflow.md)  

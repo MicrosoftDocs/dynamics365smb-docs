@@ -36,7 +36,7 @@ In many cases, registering for [!INCLUDE[prod_short](includes/prod_short.md)] ca
 
 For an overview of currently supported markets across Dynamics 365, see the [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability) deck. For an overview of local functionality in [!INCLUDE[prod_short](includes/prod_short.md)], see the [Local Functionality](about-localization.md) landing page.  
 
-## See Also
+## Related information
 
 [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
 [Dynamics 365 Business Central trial FAQ](trial-faq.md)  

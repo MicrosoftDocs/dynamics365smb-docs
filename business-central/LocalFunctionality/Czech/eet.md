@@ -47,7 +47,7 @@ With posting of defined documents (and with defined payment method) is created E
 - Certificate settings.  
 - EET POS terminals – identification of registered places.  
 
-## See Also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

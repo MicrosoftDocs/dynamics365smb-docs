@@ -163,7 +163,7 @@ When you correct an application, correcting entries are created and posted for a
 > [!IMPORTANT]  
 >   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.  
 
-## See Also
+## Related information
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

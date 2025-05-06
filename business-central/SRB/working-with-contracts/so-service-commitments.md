@@ -55,6 +55,6 @@ You can delete service commitments if they aren't invoiced and aren't assigned t
 > [!NOTE]
 > Contract lines and service commitments are always identical. If a contract line is edited, the change is automatically applied to the service commitments.
 
-## See also
+## Related information
 
 [Managing contracts, service objects, and services commitments](contracts-services-mgmt.md)  

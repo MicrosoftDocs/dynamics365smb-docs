@@ -211,7 +211,7 @@ To help you better understand personalization, here are some pointers:
 > Administrators can make the same layout changes as users by customizing a profile (role), which can be assigned to multiple users. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customize Business Central](ui-customizing-overview.md).
 
-## See also
+## Related information
 
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

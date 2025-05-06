@@ -54,7 +54,7 @@ Absence types defined by a considered order, recorded in the Employee Ledger Ent
 
 The considered order can be cancelled. The function is available in the form of a card of the considered order. Only orders for which wages are not calculated may be cancelled.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)
 

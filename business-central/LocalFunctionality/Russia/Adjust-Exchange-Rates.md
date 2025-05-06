@@ -34,7 +34,7 @@ The difference for Russian task and worldwide task - Russian report create adjus
 
    3. Click "Ok".
    
-   ## See Also 
+   ## Related information 
 
 [Russia Local Functionality](russia-local-functionality.md)
 

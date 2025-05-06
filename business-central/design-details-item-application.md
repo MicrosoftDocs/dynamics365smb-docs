@@ -236,7 +236,7 @@ Because of the way an item's unit cost is calculated, an incorrect item applicat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
 
-## See Also  
+## Related information  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  

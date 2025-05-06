@@ -97,7 +97,7 @@ Based on this example, you can modify the **Quantity to Assemble** field as foll
 * The minimum quantity you can enter is 1. You must assemble at least one unit to be able to sell the four units, assuming that the remaining three are available in inventory.  
 * The maximum quantity that you can enter is 4. This limit ensures that you don't assemble more of the item than you need for the sale.  
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

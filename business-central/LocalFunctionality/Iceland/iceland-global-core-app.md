@@ -27,7 +27,7 @@ To complete the migration to new localization model, follow these steps:
 1. Select the **I accept the data update** field to confirm that you understand the update procedure and agree to proceed. We highly recommend that you select the **Review Affected Data** link to review the affected data.
 1. Select **Finish**.
 
-## See also
+## Related information
 
 - [The list of Iceland local functionalities](iceland-local-functionality.md)  
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

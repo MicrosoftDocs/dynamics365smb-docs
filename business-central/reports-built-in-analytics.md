@@ -19,7 +19,7 @@ ms.custom: bap-template
 |Analyze data with built-in Power BI reports. | [Work with Power BI Reports](across-working-with-powerbi.md) |
 |Get insight into which reports users use| [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## See also
+## Related information
 
 [Analytics overview](reports-bi-reporting.md)
 

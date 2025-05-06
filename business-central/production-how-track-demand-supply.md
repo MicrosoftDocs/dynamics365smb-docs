@@ -47,7 +47,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 - Order multiple
 - Dampener (% of lot size)
 
-## See Also  
+## Related information  
 [Planning](production-planning.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

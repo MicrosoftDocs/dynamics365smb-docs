@@ -36,7 +36,7 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
    * Choose the  **Opportunities** action, and then choose **New**.
 4. Fill in the relevant fields.
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with Business Central](ui-work-product.md)

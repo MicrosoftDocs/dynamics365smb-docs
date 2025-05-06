@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Create and manage contractual agreements between you and your customers.|[Fulfilling Service Contracts](service-fulfill-service-contracts.md)|  
 |Provide service to customers, and invoice service orders.|[Delivering Service](service-deliver-service.md)|  
 
-## See also  
+## Related information  
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Projects](projects-how-create-jobs.md)  

@@ -22,7 +22,7 @@ Some general ledger accounts do not accept payment discounts or invoice discount
 5.  Enter information into the required fields.  
 6.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

@@ -174,7 +174,7 @@ If you get an error message related to authorization during the renewal of the *
 
 This should be a onetime setup after you enable multifactor authentication for the user selected in **VAT Report Setup**.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality in the British Version](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

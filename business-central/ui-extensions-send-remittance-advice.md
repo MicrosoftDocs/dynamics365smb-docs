@@ -22,7 +22,7 @@ You can send remittance advice in two different ways:
 * In the **Payment Journal** page, choose **Related**, **Payments**, **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines
 * In the **Vendor Ledger Entries** page, choose **Actions**, **Functions**, **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries
 
-## See Also
+## Related information
 
 [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  

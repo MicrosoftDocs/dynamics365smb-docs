@@ -202,7 +202,7 @@ Select **OK** to start the batch job. If you don't want to run the batch job now
 
 Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.
 
-## See also
+## Related information
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

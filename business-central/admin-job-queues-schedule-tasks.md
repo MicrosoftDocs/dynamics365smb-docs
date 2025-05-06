@@ -168,7 +168,7 @@ Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## See also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  

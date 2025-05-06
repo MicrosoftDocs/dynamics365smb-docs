@@ -226,7 +226,7 @@ After you create the data exchange definition for a specific data file, you can 
 3. Choose the **Import Data Exchange Definition** action.  
 4. Choose the file that you saved in step 1.  
 
-## See also
+## Related information
 
 [Set Up Data Exchange](across-set-up-data-exchange.md)  
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

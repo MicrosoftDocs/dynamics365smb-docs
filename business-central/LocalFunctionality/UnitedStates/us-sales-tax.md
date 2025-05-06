@@ -30,7 +30,7 @@ In the United States, when you sell to a customer at a location where you don't 
 > 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Copy Tax Setup**, then choose the related link.
 > 1. Select the company from which you want to copy the tax data, which setup information to copy, and choose **OK**.
 
-## See also
+## Related information
 
 - [Set Up Basic Tax Information](us-tax-setup.md)  
 - [Set Up Sales Tax - Watch a Video](https://youtu.be/AfD-D9uf6po)  

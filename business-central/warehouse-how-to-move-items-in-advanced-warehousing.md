@@ -142,7 +142,7 @@ If you must register the fact that items has been already moved to other bins wi
 2. Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3. Choose the **Register** action.  
 
-## See Also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

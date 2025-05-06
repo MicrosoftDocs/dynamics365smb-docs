@@ -30,7 +30,7 @@ The following procedure shows how to process a normalization function.
 4. Choose the **Print** action to print the report.
 5. Post the future expenses journal.
 
-## See Also
+## Related information
 
 [Tax Registers](Tax-Registers.md)  
 [Tax Differences](Tax-Differences.md)  

@@ -65,7 +65,7 @@ The following table outlines related tasks.
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

@@ -75,7 +75,7 @@ In the given scenario, two advance payments must made to vendor for INR 20,00,00
     |**TDS Payable Account**|-500|
 
 
-## See Also 
+## Related information 
 [TDS 194Q Overview](TDS-194Q-Section-Overview.md)
 
 

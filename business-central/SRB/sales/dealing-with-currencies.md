@@ -56,7 +56,7 @@ The method described in this section ensures that prices for service commitments
 
 You can automatically update exchange rates using the job queue. To learn more, go to [Update currency exchange rates](../../finance-how-update-currencies.md) and [Use job queues to schedule tasks](../../admin-job-queues-schedule-tasks.md).
 
-## See also
+## Related information
 
 [Price determination of service commitments](price-calculation.md)  
 [Customer contracts](../working-with-contracts/customer-contracts.md)  

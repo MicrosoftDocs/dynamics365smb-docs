@@ -30,7 +30,7 @@ You can print balance sheet reports and income statement reports to submit to ba
 1. On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.  
 1. Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.  
 
-## See also
+## Related information
 
 - [Work with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)
 - [Sweden Local Functionality](sweden-local-functionality.md)

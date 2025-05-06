@@ -57,7 +57,7 @@ After you have set up the customer price groups, you can enter the customer pric
 3. On the **Invoicing** FastTab, in the **Customer Price Group** field, select the **Customer Price Group** code.  
 
 
-## See Also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

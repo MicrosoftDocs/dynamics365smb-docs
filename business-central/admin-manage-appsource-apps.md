@@ -33,6 +33,6 @@ Install AppSource apps using the **Extension Management** page in [!INCLUDE[prod
 
 Upgrade AppSource apps using the [!INCLUDE[prod_short](includes/prod_short.md)] admin center. Learn more in [Managing Apps](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps).  
 
-## See also
+## Related information
 
 [Customizing Business Central online using apps](ui-extensions.md)  

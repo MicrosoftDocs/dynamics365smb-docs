@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: analysis, history, track
-ms.search.form: 18, 20_Primary, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.search.form: 18, 20_Primary, 37, 65, 99, 118, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 08/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
@@ -104,7 +104,7 @@ Dimensions are values that categorize entries so you can track and analyze them 
 
 To learn more about dimensions, go to [Set up default dimensions for customers, vendors, and other accounts](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
-## See also
+## Related information
 
 [Understand the chart of accounts](finance-chart-of-accounts.md)  
 [Work with Dimensions](finance-dimensions.md)  

@@ -67,7 +67,7 @@ The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)]
 
 For more information, go to [Change Which Features are Displayed](ui-experiences.md).  
 
-## See also
+## Related information
 
 [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Company Information Quick Start](quick-start-company-information.md)  

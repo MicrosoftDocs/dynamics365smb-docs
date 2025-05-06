@@ -27,7 +27,7 @@ This article describes the most used reports for service management.
 -->
 
 
-## See also
+## Related information
 
 [Service management](service-service.md)
 

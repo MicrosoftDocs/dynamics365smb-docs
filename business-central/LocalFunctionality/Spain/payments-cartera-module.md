@@ -34,7 +34,7 @@ Finance charges from financial entities are included.
 
 Payment confirmation is a service provided by a financial entity. With payment confirmation, you can manage a company’s payments to its suppliers, and use the invoice to charge the customers or vendors before the due date.  
 
-## See Also  
+## Related information  
  [Cartera Module](cartera-module.md)   
  [Receivables Cartera Module](receivables-cartera-module.md)
 

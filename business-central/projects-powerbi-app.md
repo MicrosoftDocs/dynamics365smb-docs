@@ -41,7 +41,7 @@ Project managers want to know how each project is performing and get high-level 
 [!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
 
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

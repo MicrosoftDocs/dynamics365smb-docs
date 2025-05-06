@@ -101,7 +101,7 @@ In response to any supply/demand imbalances, the following action messages are g
 |**Resch. & Chg. Qty.**|If both the dates and quantities of an order change, you must change plans with regard to both. Action messaging gathers both actions in one message, **Resched. and Chg. Qty.**, to ensure that the order network returns to balance.|  
 |**Cancel**|If a demand that has been covered on an order-to-order basis is deleted, an action message is generated to cancel the related supply order. If the relationship isn't order-to-order, an action message is generated to change in order to reduce the supply. If through other factors, such as inventory adjustments, a supply order isn't required at the time you generate the action messages, [!INCLUDE[prod_short](includes/prod_short.md)] suggests an action message of **Cancel** in the worksheet.|  
 
-## See also  
+## Related information  
 
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

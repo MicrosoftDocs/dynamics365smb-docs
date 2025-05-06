@@ -35,7 +35,7 @@ Depending on your need for details or aggregation when analyzing general ledger 
 - use the Chart of Accounts page to get a summary across all your G/L accounts. To learn more, go to [Analyze finance data from the Chart of Accounts](finance-general-ledger.md).
 - run or define a financial report. To learn more, go to [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md).
 
-## See also
+## Related information
 
 [Understand the general ledger](finance-general-ledger.md)  
 [Understand the chart of accounts](finance-chart-of-accounts.md)  

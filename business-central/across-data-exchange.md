@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Prepare to exchange data in a file by reusing the file’s XML schema. Set up data exchange definitions. Set up master data for electronic document sending. Set up various bank import/export fields.|[Setting Up Data Exchange](across-set-up-data-exchange.md)|  
 |Based on data exchange definitions, send PEPPOL invoices, receive PEPPOL invoices, import bank statements, and export bank payment files.|[Exchanging Data](across-exchange-data.md)|  
 
-## See Also  
+## Related information  
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

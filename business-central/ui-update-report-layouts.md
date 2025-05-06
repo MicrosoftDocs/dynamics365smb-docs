@@ -58,7 +58,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 After you modify the layout, try to update the layout again.  
 
-## See Also  
+## Related information  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
  [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 

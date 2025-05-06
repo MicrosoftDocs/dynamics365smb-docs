@@ -142,7 +142,7 @@ Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick compone
 
 For locations that use bins, the **To-Projects Bin Code** field on the location defines the default flows to the project area.
 
-## See also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 

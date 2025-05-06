@@ -57,7 +57,7 @@ If a contact person's age is below the age of legal consent according to the law
 > [!Note]
 > The Change Log can record details such as when, and by whom, the **Parental Consent Received** check box was chosen. An administrator can set that up by using the **Change Log Setup** guide, and also choosing the **Log Modification for Parental Consent Received** check box on the **Contact** card. For more information, see [Logging Changes](across-log-changes.md).  
 
-### See also
+### Related information
 
 <!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->

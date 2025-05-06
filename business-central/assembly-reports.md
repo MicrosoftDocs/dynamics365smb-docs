@@ -24,7 +24,7 @@ The following articles describe some of the key tasks for analyzing the state of
 
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

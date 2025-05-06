@@ -38,7 +38,7 @@ On the **Segment** page, when you choose **Log**, the application records the in
 
 On the **Logged Segments** page, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
 
-## See Also
+## Related information
 [Create Segments](marketing-how-create-segment.md)  
 [Create Interactions for Segments](marketing-how-create-interactions.md)  
 [Managing Segments](marketing-segments.md)  

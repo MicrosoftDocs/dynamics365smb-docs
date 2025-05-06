@@ -30,7 +30,7 @@ Before creating **Report 347**, the following file format restrictions will be c
 - Special characters must be converted to standard characters.  
 - If the field has no value, it will be blank for alphanumeric fields and populated with zeros for numeric fields.  
 
-## See Also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)   
  [Create Report 347](how-to-create-report-347.md)
 

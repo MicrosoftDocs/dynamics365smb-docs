@@ -67,7 +67,7 @@ If the customer advance needs to be corrected or the entry is wrongly posted, in
 
 
 
-## See also 
+## Related information 
 [GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 
 

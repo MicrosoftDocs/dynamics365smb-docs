@@ -53,7 +53,7 @@ The discount can only be defined in the [Service commitment templates​](../mas
 
 Invoice discounts are applicable to both customer and vendor contracts. They're also taken into regards in credit Memos and in contract deferrals.
 
-## See also
+## Related information
 
 [Customer contracts](customer-contracts.md)  
 [Vendor contracts](vendor-contracts.md)

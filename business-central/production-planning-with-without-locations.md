@@ -140,7 +140,7 @@ As you can see from the last scenario, the only way to get a correct result for 
 
 Therefore, if you often plan for demand at locations, then we recommend that you use the Stockkeeping Units capability.
 
-## See also
+## Related information
 
 [Planning](production-planning.md)  
 [Set Up Manufacturing](production-configure-production-processes.md)  

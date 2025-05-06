@@ -36,7 +36,7 @@ If there's an error or information is missing with a payment that was sent to th
 
 If there's a rejection, the error code from the bank and an explanation is displayed for the payment on the **Waiting Journal** page. You have to handle the rejection based how the remittance agreement was set up. For more information, see [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).  
 
-## See also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

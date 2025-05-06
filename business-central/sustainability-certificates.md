@@ -69,7 +69,7 @@ To add the sustainability certificate to the item follow the steps:
 3. In the **Sustainability** FastTab, select the certificate in the **Sust. Certificate No.** field. 
 4. Close the page.
 
-## See also
+## Related information
 
 - [Sustainability management overview](finance-manage-sustainability.md)  
 - [Sustainability setup](finance-sustainability-setup.md)    

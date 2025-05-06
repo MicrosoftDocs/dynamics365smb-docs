@@ -28,7 +28,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
 
 New value entries are now created to reflect the revaluations that you have posted. You can see the new values on the respective item cards.
 
-## See also
+## Related information
 [Design Details: Revaluation](design-details-revaluation.md)    
 [Inventory](inventory-manage-inventory.md)    
 [Sales](sales-manage-sales.md)    

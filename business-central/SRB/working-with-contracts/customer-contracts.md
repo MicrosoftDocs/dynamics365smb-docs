@@ -159,7 +159,7 @@ You can open related information from the contract. For example, you can access 
 
 For lines, you can use the **Billing Lines** and the **Archived Billing Lines** actions to access related information for the selected line. The **Archived Billing Lines** action opens the posted invoice and credit memo.
 
-## See also
+## Related information
 
 [Contract renewal](contract-renewal.md)  
 [Contract deferrals](contract-deferrals.md)  

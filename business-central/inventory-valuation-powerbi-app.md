@@ -41,7 +41,7 @@ The following table describes on how you can use each report in the app.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

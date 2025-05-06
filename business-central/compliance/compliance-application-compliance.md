@@ -96,7 +96,7 @@ Depending on the current local GAAPs, one of the major recognition and measureme
 
 Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and doesn't target small and medium-sized businesses, Basel II might have some implications for these organizations in reporting and analysis.
 
-## See also
+## Related information
 
 [Compliance](compliance-overview.md)  
 [Service Compliance](compliance-service-compliance.md)  

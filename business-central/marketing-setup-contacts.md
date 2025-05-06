@@ -173,7 +173,7 @@ To learn more, go to [Synchronizing contacts with customers, vendors, and bank a
 
 When you find a duplicate contact, you can use the **Merge Duplicate** page to merge it with a contact record that you want to keep. To learn more, go to [Merge Duplicate Records](sales-how-merge-duplicate-records.md).
 
-## See also
+## Related information
 
 [Managing Contacts](marketing-contacts.md)  
 [Create Contacts](marketing-create-contact-companies.md)  

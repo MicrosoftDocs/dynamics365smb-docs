@@ -30,7 +30,7 @@ New functionality on the **User Setup** page in combination with the new **User 
 - Allow complete job
 - Enable the ability to unapply items
 
-## See also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 
 

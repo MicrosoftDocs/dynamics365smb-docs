@@ -54,7 +54,7 @@ Payment journals are general journals that are optimized for making payments. Yo
 9. In the **Applies To Doc. No.** field, select the documents that require a refund.  
 10. After you complete all payment journal lines, choose the **Post/Print** action, choose the **Post and Print** action, and then choose **Yes**.  
   
-## See also
+## Related information
 
 [Make Check Payments](payables-how-work-checks.md)  
 [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

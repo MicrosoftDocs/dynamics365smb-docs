@@ -25,7 +25,7 @@ On the **WHT Entry** page, you can view details about the withholding tax, such 
 
 You can view the posted WHT entries on the **WHT Entry** page.  
 
-## See Also  
+## Related information  
 [Withholding Tax](withholding-tax.md)   
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   

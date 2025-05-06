@@ -45,7 +45,7 @@ To assign a template to an API, you must go through the following steps.
 
     The defined template is applied to a new record created through the API if, and only if, the conditions defined in the **Conditions** field are met by the values already defined for the new instance of the entity.
 
-## See Also
+## Related information
 
 [API Documentation](/dynamics-nav/fin-graph)  
 [Develop Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

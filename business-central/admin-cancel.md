@@ -27,7 +27,7 @@ You can read about how to export data to Excel in the [Exporting Data to Other F
 
 If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher, you can unpin it. No data is lost, and the step doesn't cancel your subscription.  
 
-## See Also
+## Related information
 
 [Business Central Trial FAQ](trial-faq.md)  
 [Trials and Subscriptions (for admins)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

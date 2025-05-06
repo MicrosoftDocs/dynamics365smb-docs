@@ -24,7 +24,7 @@ This feature provides improved efficiency and prevents users from making mistake
 - Bank statement rollover into a payment journal
 - Pairing entries in the payment journal and posting
 
-## See Also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

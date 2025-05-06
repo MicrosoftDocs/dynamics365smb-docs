@@ -26,7 +26,7 @@ If a warning is printed in the test report, you cannot transfer the payments to 
 3.  On the **Options** FastTab, select the **Show Dimensions** field to print dimensions on the test report.  
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## Related information  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

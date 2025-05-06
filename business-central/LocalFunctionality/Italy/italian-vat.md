@@ -91,7 +91,7 @@ To prepare your data for these reports, you must set up VAT posting to include V
 
 You must submit a VAT transactions report electronically to the tax authorities. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
 
-## See Also
+## Related information
 
 [Set Up VAT](../../finance-setup-vat.md)  
 [Report VAT](../../finance-how-report-vat.md)  

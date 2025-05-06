@@ -53,7 +53,7 @@ Rounding residuals can occur when you value the cost of an inventory decrease th
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## See Also  
+## Related information  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)

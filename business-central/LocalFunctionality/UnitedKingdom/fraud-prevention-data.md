@@ -89,7 +89,7 @@ Your company can sign up for any of the following endpoints:
 > [!IMPORTANT]
 > The **User IP Address Service** field is available in version 20.1 and later. Your admin can manage your organization's version of [!INCLUDE [prod_short](../../includes/prod_short.md)] in the admin center.
 
-## See also
+## Related information
 
 - [Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

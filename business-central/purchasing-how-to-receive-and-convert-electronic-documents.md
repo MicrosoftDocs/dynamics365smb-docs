@@ -56,7 +56,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  

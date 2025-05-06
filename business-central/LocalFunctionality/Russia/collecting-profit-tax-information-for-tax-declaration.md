@@ -28,7 +28,7 @@ In the tax accounting module, the following synthetic registers of the Profit Ta
 
  
 
-## See Also 
+## Related information 
 
 [Tax Accounting](Tax-Accounting.md)
 

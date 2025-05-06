@@ -42,7 +42,7 @@ Repeat steps 2 and 3 until you have set the priority for each of the four status
 
 Repeat these steps for each of the repair status options you want to create.
 
-## See Also
+## Related information
 
 [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  

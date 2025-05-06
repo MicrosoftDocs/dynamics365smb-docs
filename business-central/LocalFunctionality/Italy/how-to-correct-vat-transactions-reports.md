@@ -38,7 +38,7 @@ ms.reviewer: bholtorf
 6.  On the **General** FastTab, in the **Tax Auth. Receipt No.** field, specify the receipt number that you received from the tax authorities.  
 7.  Choose the **Mark as Submitted** action to finalize the report. The **Status** field is updated to Submitted.  
 
-## See also  
+## Related information  
  [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md)
 
 

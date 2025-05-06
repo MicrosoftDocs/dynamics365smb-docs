@@ -32,7 +32,7 @@ If the company decides to implement accounting in a foreign currency, then for o
 
 New VAT rate to additional reporting currency (Document Currency/Additional Reporting Currency) fields have been added to the purchase and sales documents to allow the currency rate to be adjusted if necessary. Similar functionality has been added on purchase and sales advances. The printing of document reports has also been modified.
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

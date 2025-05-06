@@ -28,7 +28,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Manage the contacts that are assigned to segments. |[Add Contacts to Segments](marketing-add-contact-segment.md) |
 | Learn about using interactions for segments, including logging. |[Managing Interactions for Segments](marketing-interaction-segments.md) |
 
-## See Also
+## Related information
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -74,7 +74,7 @@ Use the following procedure to update an analysis view from the **Analysis by Di
 > [!NOTE]  
 > To update some or all analysis views at the same time, use the **Update Analysis Views** batch job.  
 
-## See also
+## Related information
 
 [Financial analytics overview](bi.md)   
 [Finance](finance.md)  

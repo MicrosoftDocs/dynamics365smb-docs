@@ -101,6 +101,6 @@ If the source company installs a new extension, the subsidiary must also install
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## See Also
+## Related information
 
 [Get ready to synchronize master data](admin-set-up-data-sync.md)

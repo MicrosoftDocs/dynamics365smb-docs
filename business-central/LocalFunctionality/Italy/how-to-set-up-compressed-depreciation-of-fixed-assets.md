@@ -27,7 +27,7 @@ When you calculate depreciation, one line is generated for each fixed asset. For
 
 4.  Choose the **OK** button.  
 
-## See also  
+## Related information  
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
  [Italian Fixed Assets](italian-fixed-assets.md)   
  [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   

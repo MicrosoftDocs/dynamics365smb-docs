@@ -79,7 +79,7 @@ Provision is made available on customer master to capture whether aggregate turn
     |**Aggregate Turnover**|This field can be used to define aggregate Turnover in the immediate previous year exceeds Rs.10 crore to an assessee. The available options are: Less than 10 Crore, More than 10 Crore.|  
 
 
-## See Also 
+## Related information 
 [TDS 194Q Transactions](TDS-194Q-Transactions.md)
 
 

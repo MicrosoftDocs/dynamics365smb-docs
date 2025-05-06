@@ -61,7 +61,7 @@ Stock Register for Job Work report will give the details of transfer, consumptio
 
 
 
-## See Also 
+## Related information 
 [Subcontracting Overview](Subcontracting-001-Basic-Setup.md)
 
 

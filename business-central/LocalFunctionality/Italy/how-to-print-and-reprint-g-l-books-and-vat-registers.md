@@ -52,7 +52,7 @@ The following procedure describes how to view or change the page numbering for p
 
 When you update the **General Ledger Setup** page or the **VAT Registers** page with the page number of the last page of the printed report, make sure that you specify the correct page number. If the reprinted report starts with the wrong page number, the tax authorities won't accept the report. The **G/L Book Reprint Info** page and the **VAT Register Reprint Info** can help you identify the correct page number.  
 
-## See also  
+## Related information  
 
 [Italy Local Functionality](italy-local-functionality.md)
 

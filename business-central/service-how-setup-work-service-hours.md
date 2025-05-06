@@ -52,7 +52,7 @@ If you don't set up specific service hours for the service contract, the default
 6. If you want the service hours to be valid from a specific date, fill in the **Starting Date** field.  
 7. If you want the service hours to be valid on holidays, select the check box in the **Valid on Holidays** field.  
 
-## See Also  
+## Related information  
 [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Understanding Service Order and Repair Status](service-order-repair-status.md)  

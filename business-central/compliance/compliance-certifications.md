@@ -2,7 +2,7 @@
 title: Certifications of the service
 description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 01/18/2024
 ms.author: soalex

@@ -4,7 +4,7 @@ description: This article provides an overview of what you can do with financial
 author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: finace, reporting, business intelligence, BI
 ms.search.form: 

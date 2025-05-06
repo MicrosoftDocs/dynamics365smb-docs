@@ -4,7 +4,7 @@ description: This section describes Banking Documents Localization for Czech ext
 author: v-pejano
 
 
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Banking, Localization
 ms.date: 09/01/2021
 ms.reviewer: bholtorf

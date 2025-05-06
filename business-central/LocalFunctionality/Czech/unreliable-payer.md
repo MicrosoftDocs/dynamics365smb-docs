@@ -3,7 +3,7 @@ title: Czech local functionality - Unreliable payer [CZ]
 description: This feature uses treasury department service to obtain published information and indicate payer status on vendor cards and purchase documents.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 11/15/2023
 ms.reviewer: bholtorf

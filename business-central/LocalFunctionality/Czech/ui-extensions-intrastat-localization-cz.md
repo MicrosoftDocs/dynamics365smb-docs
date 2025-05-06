@@ -3,7 +3,7 @@ title: Intrastat Localization for Czech (Extension)
 description: Companies in the European Union (EU) are required to report trade with other countries/regions in the EU through Intrastat reporting or VAT Information Exchange System.
 author: v-pejano
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Intrastat, CZ
 ms.date: 09/30/2023
 ms.reviewer: bholtorf

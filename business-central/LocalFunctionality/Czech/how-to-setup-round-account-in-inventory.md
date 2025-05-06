@@ -3,7 +3,7 @@ title: Rounding account in inventory [CZ]
 description: The Rounding Account in the Inventory feature enables you to post all rounded costs to another General Ledger Account instead of the Inventory Adjustment Account.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/07/2023
 ms.reviewer: bholtorf

@@ -4,7 +4,7 @@ description: Use report layouts to customize documents, for example, to personal
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650, 9660
 ms.date: 03/12/2025

@@ -2,7 +2,7 @@
 title: Building Reports in Power BI Desktop to Display Business Central Data
 description: Learn how to make your data a Power BI source and build insightful business reports.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/23/2024

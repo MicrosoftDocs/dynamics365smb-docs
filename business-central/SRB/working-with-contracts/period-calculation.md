@@ -1,26 +1,26 @@
 ---
-title: Period calculation
+title: Period calculation for subscription contracts
 description: Learn about calculating periods in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8051_Primary,
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Period calculation
+# Period calculation for subscription contracts
 
-**Period calculation** controls how a period is determined for invoicing. Billing for a period length of one month works smoothly with subscription billing. However, if the start of the billing period is within the last three days of a month, the length of the month and the following month are not considered.
+The **Default Period calculation** field on the **Subscription Contract Setup** page controls how a period is determined for invoicing. Billing for a period length of one month works smoothly with subscription billing. However, if the start of the billing period is within the last three days of a month, the length of the month and the following month are not considered.
 
 A contract invoice issued for one month from February 28th (no leap year) ends with the standard calculation in [!INCLUDE [prod_short](../../includes/prod_short.md)] on March 27th (+ 1M - 1D). However, a recurring billing from the last day of a month should extend to the final day of the following month to represent a full month.
 
-To accommodate this, there is a choice to calculate periods using the standard method in [!INCLUDE [prod_short](../../includes/prod_short.md)] or the subscription billing method. The period calculation with the **Align to Start of Month** option uses the standard method in [!INCLUDE [prod_short](../../includes/prod_short.md)], whereas **Align to End of Month** uses a different method.
+To accommodate this, you can choose to calculate periods using the standard method in [!INCLUDE [prod_short](../../includes/prod_short.md)], or the subscription billing method. The period calculation with the **Align to Start of Month** option uses the standard method in [!INCLUDE [prod_short](../../includes/prod_short.md)], whereas **Align to End of Month** uses a different method.
 
-For all recurring billings, the **Align to End of Month** is generally recommended. It can be set as a default on the **Service & Contracts Setup** page.
+In general, we recommend the **Align to End of Month** setting for all recurring billings.
 
 ## Align to Start of Month​
 
@@ -30,7 +30,6 @@ The calculation of a month with the **Align to Start of Month** option as the�
 
 When calculating a month, the start date plus one month minus one day (CM-1D) is used to calculate the end of the period. For the calculation of two months, the start date plus two months minus one day (CM+1M-1D) is used to calculate the end of the period.
 
-
 |1M - 1T   |2M - 1T   |1Q - 1T  | 1Y-1T  |
 |---------|---------|---------|---------|
 |28.01.24 - 27.02.24  |  28.01.24 - 27.03.24 |  28.01.24 - 27.04.24 | 28.01.24 - 27.01.25         |
@@ -39,7 +38,7 @@ When calculating a month, the start date plus one month minus one day (C
 |31.01.24 - 28.02.24      |  31.01.24 - 30.03.24        |  31.01.24 - 29.04.24        |   31.01.24 - 30.01.25       |
 |29.02.24 - 28.03.24      |  29.02.24 - 28.04.24        |  29.02.24 - 28.05.24        |    29.02.24 - 27.02.25      |
 
-## Price calculation​ 
+## Price calculation​
 
 The value of the **Billing Rhythm** field is not taken into account when calculating the price. The billing rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a billing line is calculated based on the **Price and Billing Base Period** field in the subscription line or contract line and the **Billed Base Period** field. 
 
@@ -61,7 +60,6 @@ Price of the Billing lines=∑1nPrice of Contract lines.
 Number of days in the started period∗Days to be invoiced in the started period.
 Price of the Billing lines=1∑n​Number of days in the started period.
 Price of Contract lines​∗Days to be invoiced in the started period.
-
 
 |Start - End  |Price  |Billing Base Period  |Billing Rhythm  |Invoiced Period  |Price of the Billing Lines  |
 |---------|---------|---------|---------|---------|---------|

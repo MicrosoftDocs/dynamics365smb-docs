@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8059,
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ---
 

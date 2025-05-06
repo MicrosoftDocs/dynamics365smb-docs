@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8052, 8053, 8071, 
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ---
 
 # Subscription contract renewal
 
-Some contract lines are set to end at a certain date. On the **Customer Subscription Contract** and **Vendor Subscription Contract** pages, you can use the **Renewal Quote** action to extend these contract lines. When you do, you can specify a renewal period and create a sales quote. The **Service End Date** (in the subscription line or subscription contract line) is extended when you convert the sales quote to a sales order and ship it.
+Some contract lines are set to end at a certain date. On the **Customer Subscription Contract** and **Vendor Subscription Contract** pages, you can use the **Renewal Quotes** action to extend these contract lines. When you do, you can specify a renewal period and create a sales quote. The **Subscription Line End Date** (in the subscription line or subscription contract line) is extended when you convert the sales quote to a sales order and ship it.
 
 ## Create a subscription contract renewal quote
 
@@ -21,25 +21,25 @@ You can create a subscription contract renewal quote on the **Subscription Contr
 
 ### Get contract lines
 
-The **Get Contract Lines** action on the **Subscription Contract Renewal** page shows a filter page. On the filter page, set a date in the **Subscription Line End Date** field to specify the earliest end date from which to show contract lines. The **Add Vendor Subscription Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the subscriptions of the relevant lines are checked to see if any additional vendor-side subscription lines exist. Open vendor subscription lines associated with a vendor contract that have a **Subscription Line End Date** are also considered for contract renewals.
+The **Get Contract Lines** action on the **Subscription Contract Renewal** page shows a filter page. On the filter page, set a date in the **Subscription Line End Date Period** field to specify the earliest end date from which to show contract lines. The **Add Vendor Subscription Contract Lines** field specifies whether to include the related vendor-side contract lines. If so, the subscriptions of the relevant lines are checked to see if any additional vendor-side subscription lines exist. Open vendor subscription lines associated with a vendor contract that have a subscription line end date are also considered for contract renewals.
 
 Therefore, if you turn on **Add Vendor Subscription Contract Lines** toggle, all vendor-side subscription lines for the same subscription are also considered for renewal.
 
-If you need more filters, you can filter by any field on the **Customer Subscription Contract** and **Subscription Lines** pages. After you confirm the filters, renewal lines are created for all valid contract lines. A contract line is valid if you specify a **Subscription Line End Date** for the filter and the line isn't closed. The **Contract Renewal** page shows all lines.
+If you need more filters, you can filter by any field on the **Customer Subscription Contract** and **Subscription Lines** pages. After you confirm the filters, renewal lines are created for all valid contract lines. A contract line is valid if you specify a **Subscription Line End Date Period** for the filter and the line isn't closed. The **Contract Renewal** page shows all lines.
 
 > [!NOTE]
-> Contract lines are closed when they reach the date in the **Subscription Line End Date** field. You can access closed contract lines on the **Closed Lines** FastTab on the **Vendor Subscription Contract** or **Customer Subscription Contract** pages. To reopen closed lines, clear the **Closed** checkbox.
+> Contract lines are closed when they reach the date in the **Subscription Line End Date Period** field. You can access closed contract lines on the **Closed Lines** FastTab on the **Vendor Subscription Contract** or **Customer Subscription Contract** pages. To reopen closed lines, clear the **Closed** checkbox.
 
-To renew a contract line, specify a value in the **Renewal Term** field. It is prefilled from the **Initial Term** of the corresponding contract line. You can change the value to match the desired term of renewal.
+To renew a contract line, specify a value in the **Renewal Term** field. It is prefilled from the **Initial Term** of the corresponding contract line. You can change the value to match the term of renewal you want to use.
 
 > [!CAUTION]
-> You can only create a subscription contract renewal line if there isn't a line on a sales quote for renewal for the contract line.
+> You can only create a subscription contract renewal line if there isn't a line on a sales quote for renewing the contract line.
 
 ### Create quotes
 
 Use the **Create Quotes** action on the **Subscription Contract Renewal** page to create sales quotes. You can create quotes for all lines, or selected lines. All subscription contract renewal lines for which sales quotes are created are deleted.
 
-If the **Renewal Term** field on the renewal line is blank, the renewal line isn't included a quote and won't be renewed.
+If the **Renewal Term** field on the renewal line is blank, the renewal line isn't included in a quote and won't be renewed.
 
 The lines created on the sales quote have the **Subscription** type, and the **Contract Renewal** toggle is turned on. You can change the sales subscription lines and add new items to the sales quote. You can't add new subscription lines to the sales lines.
 
@@ -49,7 +49,7 @@ You can print sales quotes. Sales lines with the **Contract Renewal** toggle tur
 
 To renew contract lines, you must convert the sales quote into a sales order and ship the order. You can only ship sales lines marked as **Contract Renewal** in full or exclude them from delivery. Posting a shipment serves as a standard step to start processing. In this process, the line isn't actually shipped. Only the subscription lines for which the extension/renewal was offered updates. Therefore, there are neither posted shipments nor posted invoices for these renewals. You invoice subscription lines in the next contract invoice. However, shipments and invoices can be created for items that aren't **Contract Renewals**.
 
-When you ship a sales order, the contract lines are either renewed or a **Planned Subscription line** is created. If none of the following fields have been changed in the sales subscription lines, the contract line is renewed and the **Service End Date** changes:
+When you ship a sales order, the contract lines are either renewed or a **Planned Subscription line** is created. If none of the following fields were changed in the sales subscription lines, the contract line is renewed and the date in the **Subscription Line End Date** field changes:
 
 * Calculation Base Amount
 * Calculation Base %
@@ -59,12 +59,12 @@ When you ship a sales order, the contract lines are either renewed or a **Planne
 * Calculation Base Period
 * Billing Rhythm
 
-If one of these fields was changed and the contract line isn't invoiced up to the **Service End Date**, a **Planned Subscription line** is created. The **Planned Subscription line** saves the changes to the contract line to ensure that you can invoice the contract line with the current conditions until the **Service End Date**.
+If one of these fields was changed and the contract line isn't invoiced up to the **Subscription Line End Date**, a planned subscription line is created. The planned subscription line saves the changes to the contract line to ensure that you can invoice the contract line with the current conditions until the subscription line end date.
 
-If you invoice the contract line up to the **Service End Date**, the contract line updates from the associated planned subscription line. The planned subscription line is deleted after the update.
+If you invoice the contract line up to the subscription line end date, the contract line updates from the associated planned subscription line. The planned subscription line is deleted after the update.
 
 > [!NOTE]
-> You can review the planned subscription lines for specific contract lines by using the **Planned Subscription line exists** field on the **Lines** FastTab on the **Customer Subscription Contract** page.
+> You can review the planned subscription lines for specific contract lines by using the **Planned subscription line exists** field on the **Lines** FastTab on the **Customer Subscription Contract** page.
 
 The **Planned Subscription Lines** page shows all planned subscription lines for all contracts. Because planned subscription lines can also exist for vendor subscription lines, this field is also available on lines.
 

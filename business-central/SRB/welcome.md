@@ -73,4 +73,4 @@ The **Overdue** and **Not invoiced** cues indicate that subscription lines
 ## Related information
 
 [Managing contracts, subscriptions, and subscription lines](working-with-contracts/contracts-services-mgmt.md)  
-[Recurring billing](recurring-billing.md)
+[Recurring billing](recurring-billing.md)  

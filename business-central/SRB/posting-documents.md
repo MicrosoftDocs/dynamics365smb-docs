@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8071, 8053
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -44,7 +44,7 @@ To be able to react to different needs regarding the order of the output of info
 
 Posting documents for contracts can be posted and printed individually or in batches, as is usual in the purchasing and sales areas. Especially in the case of a large number of contracts, it makes sense to check the posting documents by batch after they have been generated, to post them in the batch and to print them in the batch. In addition, [Details for contract invoices](working-with-contracts/customer-contracts.md#details-for-contract-invoices) can be output per customer subscription contract invoice. These show the details relevant to the customer's contract invoice broken down in an understandable way.
 
-When a document is posted, the associated billing lines are archived. These can be subsequently accessed via the posted document line using the **Archived Billing Lines** action.
+When a document is posted, the associated billing lines are archived. These can be accessed via the posted document line using the **Archived Billing Lines** action.
 
 > [!NOTE]
 > When the documents are posted, the posting description in the customer ledger entries and vendor ledger entries can be used to trace from which contract the entry originates. If the document belongs to exactly one contract, the type of contract (customer or vendor contract) and the document number are included. If there are multiple contracts, **Multiple Customer Subscription Contracts** or **Multiple Vendor Subscription Contracts** (each in the user's language) is used.

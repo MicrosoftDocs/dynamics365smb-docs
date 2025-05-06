@@ -6,19 +6,19 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8025, 
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Update prices
 
-Regular price updates for contractually agreed, recurring subscription lines are typical in subscription models. With subscription billing, you can easily plan and apply price updates for contractual subscription lines.
+Regular price updates for contractually agreed, recurring subscription lines are typical in subscription models. With subscription billing, you can easily plan and apply price updates for subscription contract lines.
 
-You can update contract prices in the following ways:
+On the **Customer Subscription Contract** and **Vendor Subscription Contract** pages, you can update contract prices in the following ways:
 
-* Increase (or decrease) the price to a percentage.
+* Increase (or decrease) the **Price** by a percentage.
 * Increase or decrease the **Calculation Base %** field by a percentage.
 * Update the prices of recurring subscription lines with the list prices of the items.
 
@@ -28,79 +28,75 @@ You can filter the contract lines to update to all fields on the contract, subsc
 * Define when the price update is to take effect, until when contract lines are to be included.
 * Define how long the price isn't to change after the update (price binding agreement).
 
-On the **Subscription Contract Price Update** page, a price update proposal is created with the selected template. There, you can check all proposed price updates. Group the proposal lines by contract or customer to make the easier to review. Afterward, you can apply all price updates.
+On the **Subscription Contract Price Update** page, a price update proposal is created with the selected template. There, you can check all proposed price updates. Group the proposal lines by contract or customer to make them easier to review. Afterward, you can apply all price updates.
 
-Future planned price updates don't take effect immediately. A price increase on 01.01 shouldn't change the price in December. Planned Subscription Lines are created specifically for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
+Future planned price updates don't take effect immediately. A price increase on 01.01.25 shouldn't change the price in December. Planned subscription lines are created for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
 
 If a period in which a price update was applied is credited, the price  automatically resets to the original price. At the same time, a planned subscription line is created, which saves the reset price update. If the period is invoiced again, the price update is reapplied. In this way, the prices of the periods are retained. Invoices and credit notes can be created with the original amounts.
 
-## Templates
+## Use price update templates
 
-Use the **Subscription Contract Price Update** page to create price update proposals. To create a proposal, you must use a price update template. To access the list of templates, use the **Price Update Template** field.
+To create price update proposals, use the **Subscription Contract Price Update** page. To create a proposal, you must use a price update template. To access the list of templates, choose :::image type="content" source="../../media/assist-edit-icon.png" alt-text="Screenshot of the AssistEdit icon."::: in the **Price Update Template** field.
+
+The following sections explain the settings on the **Price Update Templates** page.
 
 ### Filters
 
-You can use templates to filter subscription lines. The **Partner** specified in the template determines whether vendor subscription contracts or customer subscription contracts are included in the price update. Use the **Contract Filter**, **Service Filter**, and **Subscription Filter** fields. Choose a field to open the filter page.
+You can use templates to filter subscription lines. On the **Subscription Lines** page, the selection in the **Partner** field determines whether the price update includes vendor or customer subscription contracts. Use the **Contract Filter**, **Subscription Line Filter**, and **Subscription Filter** fields. Choose a field to open the filter page.
 
 > [!NOTE]
-> When you create price update proposals, some filters are applied automatically:
+> When you create price update proposals, some filters apply automatically:
 >
-> * Subscription lines where the **UsageBased Billing** toggle is on aren't included.
+> * Subscription lines where the **Usage Based Billing** toggle is turned on are excluded.
 > * Only subscription lines with the **Invoicing via** field set to **Contract** are included.
-> * Contract lines that are **Closed** aren't included.
-> * Contract lines marked with **Exclude from Price Update** aren't included.
+> * Contract lines that are **Closed** are excluded.
+> * Contract lines marked with **Exclude from Price Update** are excluded.
 
-In addition to these automatic filters, we recommended that you enter `<>''` (not equal to empty) in the **Contract** subscription line filter. This setting excludes subscription lines that aren't assigned to a contract, or were deleted from the contract after you invoiced them completely, from the price update. The **Closed** field only exists in the contract lines. Accordingly, the automatic filter doesn't apply in these cases.
+In addition to these automatic filters, we recommended that you enter `<>''` (not equal to empty) in the **Subscription Line Filter** field. This setting excludes subscription lines that aren't assigned to a contract, or were deleted from the contract after you invoiced them completely, from the price update. The **Closed** field only exists in the contract lines. Accordingly, the automatic filter doesn't apply in these cases.
 
-We also recommend that you exclude subscription lines with the **Discount** toggle on in the subscription line filter. Discounts can be changed with the price update, if needed. However, this procedure is rather unusual.
+We also recommend that you exclude subscription lines with the **Discount** toggle on in the **Subscription Line** filter. Discounts can be changed with the price update, if needed. However, this procedure is rather unusual.
 
-If you want to exclude subscription lines with a limited term that could potentially be the subject of subscription contract renewal, filter subscription lines for an empty **Service End Date**.
+If you want to exclude subscription lines with a limited term that could potentially be the subject of subscription contract renewal, filter subscription lines for an empty **Subscription Line End Date**.
 
-You might need to change filters after you change the template. For example, if a customer subscription contract is filtered and the partner is changed to **Vendor**, the filter remains on the customer subscription contract. When you create a proposal is created, no services are found as there are no services with partner **Vendor** in a customer subscription contract.
+You might need to change filters after you change the template. For example, if a customer subscription contract is the filter and you change the partner to **Vendor**, remember to apply the vendor filter. Otherwise, when you create a proposal, no subscription lines are found because there are no lines with **Vendor** as the partner in a customer subscription contract.
 
 ### Price update method
 
-There are three **Price Update Methods**:
+On the **Price Update Templates** page, the **Price Update Method** field offers three options. The following table describes the options.
 
-* **Price by %**
-
-   Increases or decreases the price of the contract lines by the percentage in **Update Value %**. The use of negative values is possible. A price update of 2% for a contract line with a price of 100,-, increases the price to 102,-.
-
-* **Calculation Base by %**
-
-   Sets the **Calculation Base %** field to the value in **Update Value %**. A price update to 20% sets the **Calculation Base %** field to **20%**. With a filter on the old **Calculation Base %** field value, you can increase the percentages of all subscription lines to the new value.
-
-* **Recent Item Price**
-
-   Updates the **Calculation Base %** field in the subscription lines with prices from the **Sales Price List** page. The prices for the subscription lines are determined for the items in the subscriptions and the date in **Perform Update on** field. Price updates planned for the future get the prices planned in the sales price list. The discount percentage in the sales price list isn't taken into account in the query because they're often agreed on individually with customers.
+|Option  |Description  |
+|---------|---------|
+|**Calculation Base by %**     | Sets the **Calculation Base %** field to the value in **Update Value %**. A price update to 20% sets the **Calculation Base %** field to **20%**. With a filter on the old **Calculation Base %** field value, you can increase the percentages of all subscription lines to the new value.        |
+|**Price by %**     | Increases or decreases the price of the contract lines by the percentage in the **Update Value %** field. You can also use negative values. A price update of 2% for a contract line with a price of 100,-, increases the price to 102,-.        |
+|**Recent Item Price**     | Updates the **Calculation Base %** field in the subscription lines with prices from the **Sales Price List** page. The prices for the subscription lines are determined for the items in the subscriptions and the date in **Perform Update on** field. Price updates planned for the future get the prices planned in the sales price list. The discount percentage in the sales price list isn't taken into account in the query because they're often agreed on individually with customers.        |
 
 > [!IMPORTANT]
 > If a price would be set to zero or become negative due to a price update, a proposal line isn't created for the subscription line.
 
-### Perform update on (Dateformula)
+### Perform Update on Formula (Dateformula)
 
-The dateformula presets **Perform Update on** field on the **Subscription Contract Price Update** page. The date in the **Perform Update on** field determines when the price update should take effect. However, price updates can't take effect on any date. The price for periods already invoiced can't, and shouldn't be, changed. Accordingly, the price change takes effect on a later date. The price update takes effect on the last day of the last invoiced period. The old price applies to the period already invoiced and the new price applies to the subsequent period that isn't invoiced. This split avoids unnecessary discrepancies in billing and credit notes.
+The dateformula presets the **Perform Update on** field on the **Subscription Contract Price Update** page. The date in the **Perform Update on** field determines when the price update should take effect. However, price updates can't take effect on any date. The price for periods already invoiced can't be, and shouldn't be, changed. Accordingly, the price change takes effect on a later date. The price update takes effect on the last day of the last invoiced period. The old price applies to the period already invoiced and the new price applies to the subsequent period that isn't invoiced. This split avoids unnecessary discrepancies in billing and credit notes.
 
-The same applies to periods that aren't invoiced. For example if the date in the **Perform Update on** field is 15.01., then all days up to 15.01. must be charged at the old price. To learn more, go to [Update contract price](#update-contract-price).
+The same applies to periods that aren't invoiced. For example, if the date in the **Perform Update on** field is 01.15.25, then all days up to 01.15.25 must be charged at the old price. To learn more, go to [Update contract price](#update-contract-price).
 
 > [!NOTE]
 > If the date in the **Perform Update On** field is the same as the date in the **Next Billing Date** and **Next Price Update** fields, the price update applies immediately. In the archived subscription lines, **Perform Update On** is saved as **Next Billing Date** minus one day. By placing the price update in the previous period, you can invoice and credit the current period with the new prices without resetting the price update.
 
-### Include contract lines up to date (Dateformula)
+### Include Subscription Contract Lines up to Date Formula
 
-The dateformula presets the date in the **Include Contract Lines Up To Date** field on the **Subscription Contract Price Update** page. The date in the **Include Contract Lines Up To Date** field is compared with the date in the **Next Price Update** field in the subscription lines to determine whether the subscription line is eligible for a price update.
+The dateformula presets the date in the **Include Subscription Contract Lines up to Date Formula** field on the **Subscription Contract Price Update** page. The date in the **Include Contract Lines Up To Date** field is compared with the date in the **Next Price Update** field in the subscription lines to determine whether the subscription line is eligible for a price update.
 
 In each subscription line and contract line, the **Next Price Update** field indicates when you can apply the next price update. This displays the end of the price binding periods and prevents the price from being changed several times in succession by mistake.
 
-The **Next Price Update** field is calculated from the **Service Start Date** and the **Price Binding Period** on the subscription package line when the subscription line is created. For a price update, the **Next Price Update** date recalculates with the **Price Binding Period** from the template and changed in the subscription line.
+The **Next Price Update** field is calculated from the **Subscription Line Start Date** and the **Price Binding Period** fields on the subscription package line when the subscription line is created. For a price update, the **Next Price Update** date recalculates with the **Price Binding Period** from the template and changed in the subscription line.
 
 > [!NOTE]
-> You can change the **Next Price Update** date manually at any time. The price of a subscription line can be changed at any time, regardless of the **Next Price Update** date.
+> You can change the **Next Price Update** date manually at any time and you can change the price of a subscription line at any time, regardless of the **Next Price Update** date.
 > If a subscription line isn't eligible for a price update according to **Next Price Update**, a proposal line isn't created.
 
-### Price binding period
+### Price Binding Period
 
-The **Price Binding Period** determines how long the subscription line shouldn't be taken into account after a price update. If the price is only to increase one time within a year, enter the Dateformula *1Y*. When the price update happens, the **Next Price Update** field is automatically changed in the subscription line. The new date in the **Next Price Update** field is calculated from the **Perform Update on** plus **Price Binding period** fields. For example, 31.12.2023 + 1Y = 31.12.2024.
+The **Price Binding Period** field determines how long the subscription line shouldn't be taken into account after a price update. If the price is only to increase one time within a year, enter the dateformula **1Y**. When the price update happens, the **Next Price Update** field is automatically changed on the subscription line. The new date in the **Next Price Update** field is calculated from the **Perform Update on** plus **Price Binding period** fields. For example, 31.12.2023 + 1Y = 31.12.2024.
 
 ### Grouping
 

@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
+ms.search.form: 8059, 8054, 8051_Primary
 ms.date: 08/14/2024
 ms.service: dynamics-365-business-central
 ---
 
 # General setup
 
-## Subscription Contract Setup
+## Subscription contract setup
 
 Use the **Subscription Contract Setup** page to enter settings and defaults for creating and managing customer and vendor subscription contracts. For example, use the page to specify the default number series.
 

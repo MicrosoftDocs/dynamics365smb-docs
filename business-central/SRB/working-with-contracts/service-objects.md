@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8059, 8060_Primary, 
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -16,30 +16,33 @@ ms.custom: bap-template
 
 Subscriptions represent a history of products sold to a customer. They contain all information related to the delivered item:
 
-* Master data (item number and description).
-* Details of the sale (customer, delivery recipient, invoice recipient)
+* Master data, such as the item number and description.
+* Details of the sale, such as the customer, delivery recipient, and invoice recipient.
 * Quantity, date of provision, and date of next settlement
-* All subscription lines (sales and subscription lines including prices, terms, and cancellation periods).
+* All subscription lines, including sales and subscription lines with prices, terms, and cancellation periods.
 
-A subscription can be created automatically from a sales order using the shipment. To learn more, go to [Sales process](../sales/sales-service-commitments.md) and [Subscription lines at Items](../masterdata/items.md). When you create a subscription on a shipment, the information regarding the end user and the invoice recipient is taken from the order and the delivery. This also includes the **Your Reference** field, which is transferred to the **Customer Reference** field.
+A subscription can be created automatically from a sales order using the shipment. To learn more, go to [Sales process](../sales/sales-service-commitments.md) and [Subscription lines for items](../masterdata/items.md). When you create a subscription on a shipment, the information regarding the end user and the invoice recipient is taken from the order and the delivery. This also includes the **Your Reference** field, which is transferred to the **Customer Reference** field.
 
 Alternatively, you can also enter a subscription manually by creating a new record on the **Subscriptions** page and filling in the fields on each FastTab. This may be necessary, for example, in the case of a manual transfer of equipment or licenses.
 
 The subscription with the associated contract commitments forms the basis for the customer and vendor subscription contracts and their periodic recurring billing. To learn more, go to [Recurring billing](../recurring-billing.md).
 
 > [!NOTE]
-> Subscriptions display on the information pane on the customer, vendor, and contact. A click on the respective cue opens the corresponding overview.
+> Subscription attributes display on the information pane on the customer, vendor, and contact. A click on the respective cue opens the corresponding overview.
 
-To manually create a subscription, the following information is required:
+## Manually create a subscription
 
-* **No.** can be filled in by a number series.
-* **Item No.** defines the device, software, license, user, and so on, that will be billed recurrently. You can only select items with the **Subscription Line Option** set to **Sales with Subscription lines** or **Subscription Line Item**. 
-* The **Description** comes from the item, but you can edit it.
-* In the **Quantity** field, enter a positive integer to specify the number of devices/licenses whose subscription lines you bill recurrently.
-* The **End User** FastTab contains information (contact and customer information) about which customers purchased the item and the subscription lines. When you create a subscription manually, you must specify the customer.
-* The **Shipping and Billing** FastTab contains information about the (original) shipment of the product, and whether a different invoice recipient paid for the item. The contact details of the delivery recipient from the sales order are used. You can change the ship-to party if needed in the same way as for sales documents. The other delivery recipient fields update automatically.
+To manually create a subscription, follow these steps:
 
-As additional information, you can maintain the **Customer Reference**, **Version**, **Provision Start Date**, and the **Provision End Date**, whereby the **Provision Start Date** is automatically entered when the subscription is created via the delivery from a sales order.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subscriptions**, and then choose the related link.
+1. **No.** can be filled in by a number series.
+1. In the **Source No.** field, choose the item for the subscription. For example, the device, software, license, user, and so on, that you will bill recurrently. You can only select items with the **Subscription Option** set to **Sales with Subscription** or **Subscription Item**.
+1. The content in the **Description** field comes from the item, but you can edit it.
+1. In the **Quantity** field, specify the number of devices or licenses whose subscription lines you bill recurrently.
+1. On the **End User** FastTab, enter information about the customer that purchased the item and the subscription lines.
+1. The **Shipping and Billing** FastTab, enter information about the original shipment of the product, and whether a different invoice recipient paid for the item. Use the contact details of the delivery recipient from the sales order. You can change the ship-to party if needed in the same way as for sales documents. The other delivery recipient fields update automatically.
+
+As additional information, on the **General** FastTab, you can fill in the **Customer Reference**, **Version**, **Provision Start Date**, and **Provision End Date** fields. The **Provision Start Date** is automatically entered when the subscription is created by receiving a sales order. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > If a subscription has a customer reference, the reference appears below the corresponding invoice line.
@@ -51,11 +54,11 @@ When serial number tracked items are delivered with subscription lines, one subs
 > [!NOTE]
 > If a subscription stores a serial number, this information will appear depending on settings for invoice details. To learn more, go to [Invoice details](../setup/general.md#invoice-details).
 
-## Subscription Attributes
+## Subscription attributes
 
-Attributes let you describe items in detail using any number of criteria. The same is possible for subscriptions. Two FactBoxes are available for this purpose, both on the card and in the overview.
+On the **Subscription** page, the **Attributes** action lets you describe items in more detail. Two FactBoxes are available for this purpose, both on the card and in the overview.
 
-* The **Item Attributes** FactBox shows the attributes that are stored for the item of the subscription.
+* The **Item Attributes** FactBox shows the attributes that are specified for the item that's included in the subscription.
 * The **Subscription Attributes** FactBox shows the characteristics that are specific to a subscription. To maintain the specific characteristics of a subscription, open the **Subscription Attribute Values** page either via the dropdown menu of the FactBox or by using the **Attributes** action.
 
 You can also define a feature as **Primary**. The primary attribute displays on the **Subscription** page on the **General** FastTab. You might need to choose **Show more**. Here, the description of the primary attribute is used as the field name. You can output the primary attribute of a subscription when you bill the related subscription lines in the contract invoice. To learn about the configuration this requires, go to [Invoice details](../setup/general.md#invoice-details).

@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8053, 8071
+ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -19,7 +19,7 @@ Customer subscription contracts represent obligations to customers. The structur
 On the **Shipping and Billing** FastTab, you can specify ship-to and bill-to recipients for the contractor.
 
 * **Alternate shipping address** or **Custom Address** for the **Ship-to** address.
-   In the context of a contract, another word for *shipment recipient* could be *service recipient*. For example, you can use this concept in a partner model to record the end customer of the partner. Therefore, the ship-to information also serves as a visual indicator when assigning new contract elements. To learn more, go to [Assign subscription lines to a customer subscription contract](#assign-service-commitments-to-a-customer-contract).
+   In the context of a contract, another word for *shipment recipient* could be *service recipient*. For example, you can use this concept in a partner model to record the end customer of the partner. Therefore, the ship-to information also serves as a visual indicator when assigning new contract elements. To learn more, go to [Assign subscription lines to a customer subscription contract](#assign-subscription-lines-to-a-customer-subscription-contract).
 * **Custom Address** or **Another Customer** for the **Bill-to** address.
    Similar to sales orders, a deviating invoice recipient can be entered here. This is taken into account when creating the contract invoices.
 
@@ -30,9 +30,9 @@ On the **Shipping and Billing** FastTab, you can specify ship-to and bill-to rec
 
 The following are the high-level steps to create a contract for a customer.
 
-1. [Enter basic settings](#create-a-new-customer-contract).
-2. [Assign subscription lines](#assign-service-commitments-to-a-customer-contract).
-3. [Create invoice per contract](#create-invoice-per-contract).
+1. [Create a new customer subscription contract](#create-a-new-customer-subscription-contract).
+2. [Assign subscription lines to a customer subscription contract](#assign-subscription-lines-to-a-customer-subscription-contract)
+3. [Create an invoice per contract](#create-an-invoice-per-contract).
 
 ### Create a new customer subscription contract
 
@@ -80,11 +80,11 @@ When the subscription lines are in a contract transfer, contract lines are creat
 
 The next step is to create invoices for the contract.
 
-## Create invoice per contract
+## Create an invoice per contract
 
 In subscription billing, you typically create contract invoices from the **Recurring Billing** page. To learn more, go to [Recurring billing](../recurring-billing.md). Recurring billing is designed to generate billing proposals in batch. In addition, several options are available for creating posting documents, such as collective invoices. To learn more, go to [Posting documents](../posting-documents.md).
 
-However, it might also be useful to create a contract invoice for a contract that you're working on, without first creating a billing proposal. In that case, you can use the **Create Contract Invoice** action on the **Customer Subscription Contracts** and **Customer Subscription Contract** pages. You can specify the key date for billing in the **Billing Date** field, and, optionally, the date up to which billing is to take place in the **Billing To** field. In addition, you can specify the **Document Date** and the **Posting Date** for the posting documents to create. If you turn on the **Open document** toggle, the created document opens. Optionally, you can turn on the **Post document** toggle to post the created document directly. Except for **Billing To**, all fields are predefined with the work date specified on the **My Settings** page.
+However, it might also be useful to create a contract invoice for a contract that you're working on, without first creating a billing proposal. In that case, you can use the **Create Contract Invoice** action on the **Customer Subscription Contracts** and **Customer Subscription Contract** pages. You can specify the key date for billing in the **Billing Date** field, and, optionally, the date up to which billing is to take place in the **Billing to Date** field. In addition, you can specify the **Document Date** and the **Posting Date** for the posting documents to create. If you turn on the **Open document** toggle, the created document opens. Optionally, you can turn on the **Post document** toggle to post the created document directly. Except for **Billing to Date**, all fields are predefined with the work date specified on the **My Settings** page.
 
 > [!NOTE]
 > Creating a contract invoice as described here is only useful in individual cases.

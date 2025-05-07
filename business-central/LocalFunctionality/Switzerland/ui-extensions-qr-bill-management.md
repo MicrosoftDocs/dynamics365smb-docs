@@ -2,7 +2,7 @@
 title: QR-Bill Management [CH]
 description: This article describes the enhancements for the QR-Bill Management extension and how you can use Business Central to easily generate, send, and import your QR-bills.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.search.form: 11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518

@@ -41,7 +41,7 @@ This feature helps people understand their business data, reduces the time it ta
 
 Summaries don't automatically trigger actions on behalf of the user or the organization, and they don't persist to the database for other automated functions to use.
 
-## How was Summarize evaluated? What metrics are used to measure performance?
+## How was summarize evaluated? What metrics are used to measure performance?
 
 This feature is built in accordance with Microsoft's Responsible AI Standard. Learn more about responsible AI from Microsoft in [Empowering responsible AI practices](https://aka.ms/RAI).
 
@@ -59,11 +59,11 @@ Users can provide feedback on every Copilot response and report inaccurate or in
 
 You provide feedback by using the like (thumbs up) or dislike (thumbs down) icons that are displayed alongside generated content.
 
-## What are the AI limitations of Summarize? How can users minimize the impact of the limitations when using the system?
+## What are the AI limitations of summarize? How can users minimize the impact of the limitations when using the system?
 
 - General AI limitations
 
-AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. It's important to use your judgment
+  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. It's important to use your judgment
 to review and verify responses before making decisions that could affect stakeholders like customers and partners.
 
 - Geographic and language availability
@@ -78,11 +78,11 @@ to review and verify responses before making decisions that could affect stakeho
 
   Summaries about people, such as customers, vendors, or employees in Business Central, might result in limited output from Copilot because of other safety mechanisms designed to reduce the risk of inaccuracies. Even though Copilot isn't designed to provide recommendations or conclusions about people, you should use your judgment to review and verify responses before making decisions.
 
-## What data does Summarize collect and how is it used?
+## What data does summarize collect and how is it used?
 
 Business Central collects the minimum data required for Microsoft to provide the service.
 
-- Microsoft collects anonymized information about decisions made by Copilot and your interactions with the feature. It doesn't collect summary texts or other company data used or collected by  Copilot to generate summaries.
+- Microsoft collects anonymized information about decisions made by Copilot and your interactions with the feature. It doesn't collect summary texts or other company data used or collected by Copilot to generate summaries.
 
 - Microsoft doesn't use your business data to train the foundational models for the benefit of others. Learn more in [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
 

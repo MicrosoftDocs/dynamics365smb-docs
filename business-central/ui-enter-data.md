@@ -1,6 +1,6 @@
 ---
 title: Enter data in Business Central
-description: Many general features help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
+description: Many general features help you enter data easier, faster, and more precisely. The basic principles and advanced features are described here.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -13,11 +13,11 @@ ms.reviewer: jswymer
 ---
 # Entering data
 
-There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features for entering data are described in this article.  
+Many general features help you enter data easier, faster, and more precisely. The basic principles and advanced features for entering data are described in this article.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-The examples in this article use the demonstration data.
+The examples in this article use demonstration data.
 
 ## Work with editable fields
 
@@ -29,9 +29,9 @@ Some editable fields provide a picker to help you specify a value.
 |**Picker**        |**How it helps you specify a value**|
 |------------------|------------------------------------|
 |Date picker       |This picker displays a calendar that is based on your current regional settings. It helps you choose a single date.|
-|Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table|
-|Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
-|Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
+|Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table.|
+|Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists.|
+|Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as a pop-up window.|
 
 ### Modifying a field value
 
@@ -46,6 +46,8 @@ When the entire field value is selected:
 
 - Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the <kbd>Alt</kbd>+<kbd>Down Arrow</kbd> keyboard shortcut.
 - Use the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key to clear the value.
+
+
 
 select the <kbd>F2</kbd> key to toggle between selecting the entire field value or placing the cursor after the field's value. Placing the cursor at the end of the value makes it easier for you to append to the existing value.
 

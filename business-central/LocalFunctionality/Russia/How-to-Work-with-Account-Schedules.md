@@ -4,7 +4,7 @@ description: Russian enhancements include additional functionality around financ
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 05/26/2022
 ms.reviewer: bholtorf

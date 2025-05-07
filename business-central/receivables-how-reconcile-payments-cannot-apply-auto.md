@@ -2,7 +2,7 @@
 title: Using the transfer difference to account feature to reconcile payments
 description: Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, cash receipts
 ms.search.form: 1290, 1294, 1287

@@ -4,7 +4,7 @@ description: Learn how to configure Business Central so that you can use prepaym
 author: brentholtorf
 ms.reviewer: bholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 06/10/2024

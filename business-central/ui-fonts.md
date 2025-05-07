@@ -2,7 +2,7 @@
 title: Available fonts
 description: Learn about the preinstalled fonts that you can use for your externally facing reports.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form:

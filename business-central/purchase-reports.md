@@ -4,7 +4,7 @@ description: Learn which purchase reports are available in the standard version 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_307, Report_308, Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720 
 ms.date: 10/14/2024

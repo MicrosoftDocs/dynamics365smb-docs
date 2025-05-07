@@ -2,7 +2,7 @@
 title: Set Up Statuses for Service Orders and Repairs | Microsoft Docs
 description: You must set up nine repair status options that identify the progress of repair and maintenance of service items in service orders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021

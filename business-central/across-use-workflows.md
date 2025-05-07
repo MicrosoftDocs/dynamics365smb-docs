@@ -4,7 +4,7 @@ description: You can set up and use workflows to connect business-process tasks 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 1500, 1501, 1503, 1504, 1505
 ms.date: 02/20/2024

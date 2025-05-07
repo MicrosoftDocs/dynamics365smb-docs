@@ -3,7 +3,7 @@ title: Keep Track of Segments and Related Interactions
 description: Learn about creating segments to define groups of contacts and specifying interactions for segments.
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5091, 5139,

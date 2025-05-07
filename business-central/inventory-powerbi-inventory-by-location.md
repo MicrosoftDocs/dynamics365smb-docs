@@ -4,7 +4,7 @@ description: The Inventory by Location outlines inventory levels across location
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37023_Primary
 ms.date: 10/28/2024

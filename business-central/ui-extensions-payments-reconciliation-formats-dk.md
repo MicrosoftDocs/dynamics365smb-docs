@@ -2,7 +2,7 @@
 title: Payments and Reconciliations (DK) Extension
 description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021

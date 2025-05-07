@@ -4,7 +4,7 @@ description: The Sales by Item report gives a clear picture of your organization
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37004_Primary
 ms.date: 10/26/2024

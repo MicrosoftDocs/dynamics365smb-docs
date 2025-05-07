@@ -4,7 +4,7 @@ description: This topic describes how the costing method affects how actual and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central

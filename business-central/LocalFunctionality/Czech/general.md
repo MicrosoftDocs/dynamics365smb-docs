@@ -2,7 +2,7 @@
 title: Czech local functionality - General function
 description: This section describes the new functionality and general features in user setup for the local Czech version.
 author: ACMartinKunes
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
 ms.date: 11/20/2023
 ms.reviewer: bholtorf

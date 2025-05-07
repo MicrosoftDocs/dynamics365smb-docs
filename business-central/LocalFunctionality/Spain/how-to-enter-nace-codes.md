@@ -2,7 +2,7 @@
 title: How to Enter NACE Codes [ES]
 description: Learn about how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes with the Spanish version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021

@@ -2,7 +2,7 @@
 title: Swiss Electronic Payments Using ESR [CH]
 description: This topic explains the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 3010531, 3010532

@@ -4,7 +4,7 @@ description: This section describes local functionality for handling the year cl
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, finance, CZ, closing operations
 ms.date: 06/25/2021
 ms.reviewer: bholtorf

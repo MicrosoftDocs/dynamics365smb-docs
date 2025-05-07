@@ -3,7 +3,7 @@ title: Manage Segments and Select Contacts
 description: This topic outlines how to create a segment by selecting a group of contacts according to specific criteria to later target that segment with a campaign.
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092

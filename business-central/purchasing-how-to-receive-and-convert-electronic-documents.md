@@ -2,7 +2,7 @@
 title: Receive and convert electronic documents
 description: This article describes how to receive electronic documents directly from trading partners or from an OCR service.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 189, 190, 191 

@@ -2,7 +2,7 @@
 title: Close an LSV Collection [CH]
 description: You must close Lastschrift Verfahren (LSV+) collections to write LSV files that can be sent to the bank for payment collection. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835

@@ -3,7 +3,7 @@ title: Using the PayPal Payments Standard Extension
 description: This article describes how to use the standard extension to enable customers to make payments with PayPal.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 07/09/2024

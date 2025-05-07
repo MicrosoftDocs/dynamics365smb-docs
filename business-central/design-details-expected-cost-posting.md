@@ -2,7 +2,7 @@
 title: Design Details - Expected Cost Posting
 description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/20/2021

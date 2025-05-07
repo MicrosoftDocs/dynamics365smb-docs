@@ -2,7 +2,7 @@
 title: Create bins
 description: Generate groups of similar bins in the bin creation worksheet, create bins individually on the location card, or automatically on the Bin Creation Worksheet. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 12/13/2023

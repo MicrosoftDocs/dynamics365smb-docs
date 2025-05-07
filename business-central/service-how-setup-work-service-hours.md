@@ -2,7 +2,7 @@
 title: How to set up work hours and service hours
 description: Learn how to set up the work and service hours used to calculate the response date and time for service orders and quotes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/29/2024

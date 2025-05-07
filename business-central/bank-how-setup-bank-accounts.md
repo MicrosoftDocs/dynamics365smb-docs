@@ -4,7 +4,7 @@ description: Learn how bank accounts are used in Business Central, and how you c
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 05/24/2024

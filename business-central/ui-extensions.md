@@ -4,7 +4,7 @@ description: Learn all about adding functionality and customizing Business Centr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: solsen
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
 ms.date: 03/03/2025

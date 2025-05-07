@@ -4,7 +4,7 @@ description: You can verify that the total amount on purchase invoices and credi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 03/14/2025
 ms.service: dynamics-365-business-central

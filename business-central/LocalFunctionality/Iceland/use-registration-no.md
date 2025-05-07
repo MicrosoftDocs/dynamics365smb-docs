@@ -2,7 +2,7 @@
 title: Registration numbers in the Icelandic localization
 description: This article provides instructions about how to use registration numbers in the Icelandic localization.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: registration numbers, Icelandic localization
 ms.date: 02/06/2025

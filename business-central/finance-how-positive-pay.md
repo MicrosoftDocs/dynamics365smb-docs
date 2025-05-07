@@ -2,7 +2,7 @@
 title: Export positive pay files
 description: You can ensure your bank only clears validated checks and amounts by exporting a positive pay file that contains vendor and payment information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234

@@ -4,7 +4,7 @@ description: The Liabilities report provides an overview of all liabilities brok
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36990_Primary
 ms.date: 10/31/2024

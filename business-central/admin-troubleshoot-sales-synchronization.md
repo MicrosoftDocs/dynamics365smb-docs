@@ -2,7 +2,7 @@
 title: Troubleshooting Synchronization Errors
 description: This article provides guidance for identifying, troubleshooting, and resolving synchronization errors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/04/2024

@@ -4,7 +4,7 @@ description: This article explains how to move items in locations that use direc
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.form: 7351,

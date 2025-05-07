@@ -2,7 +2,7 @@
 title: E-documents overview
 description: This article provides an overview of the e-documents module.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 

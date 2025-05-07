@@ -2,7 +2,7 @@
 title: Walkthrough - Planning Supplies Manually
 description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand including planning a purchase, transfer, and production order.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2021

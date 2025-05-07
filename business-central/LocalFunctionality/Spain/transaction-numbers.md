@@ -2,7 +2,7 @@
 title: Transaction numbers
 description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/11/2023

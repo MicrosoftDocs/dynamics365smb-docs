@@ -4,7 +4,7 @@ description: Request, reject, or delegate an approval of, for example, a purchas
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: reject, delegate, request
 ms.search.form: 654, 662, 1500, 
 ms.date: 05/07/2024

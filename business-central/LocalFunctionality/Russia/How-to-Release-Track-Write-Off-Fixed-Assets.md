@@ -4,7 +4,7 @@ description: You can manage your fixed assets utilizing the fixed assets acts fe
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

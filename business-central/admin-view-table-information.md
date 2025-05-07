@@ -2,7 +2,7 @@
 title: View table information
 description: Learn how you can view information about the database tables in Business Central.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.form: 8700_Primary
 ms.date: 02/21/2025

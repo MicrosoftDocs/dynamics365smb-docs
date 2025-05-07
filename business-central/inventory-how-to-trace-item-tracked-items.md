@@ -2,7 +2,7 @@
 title: Trace item-tracked items
 description: You can see where an item-tracked item was used, including how and when it was received, produced, or returned with Item Tracing and Find Entries features.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 6520,

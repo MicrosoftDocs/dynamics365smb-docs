@@ -4,7 +4,7 @@ description: The *Moving Annual Total* report provides a total of sales over the
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37001_Primary
 ms.date: 10/26/2024

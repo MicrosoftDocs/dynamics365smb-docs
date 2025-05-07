@@ -4,7 +4,7 @@ description: To restrict a record from being used, you can incorporate two workf
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/26/2024

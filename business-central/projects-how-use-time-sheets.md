@@ -4,7 +4,7 @@ description: Learn how to create, submit, approve, and post time sheets for reso
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 02/05/2024

@@ -2,7 +2,7 @@
 title: Setting up and how to stale check
 description: Specifies Basic Setups and Process of how to stale check
 author: v-debapd
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 12/08/2023

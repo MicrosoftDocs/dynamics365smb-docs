@@ -2,7 +2,7 @@
 title: Sales returns from registered customers for goods with an overseas place of supply
 description: Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 author: v-debapd
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 11/28/2023

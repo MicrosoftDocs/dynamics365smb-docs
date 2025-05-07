@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Capacity Variance** report gives an overview of the variance between expected and actual capacity costs on a monthly basis. This report helps you identify areas where costs are overrunning. You can optimize production processes, reduce costs, and improve overall performance.
 
-:::image type="content" source="media/manufacturing/capacity-variance.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/capacity-variance.png":::
+:::image type="content" source="media/manufacturing/capacity-variance-v26.png" alt-text="Screenshot of the Capacity Variance Power BI Report" lightbox="media/manufacturing/capacity-variance-v26.png":::
 
 ## Use the report
 
@@ -29,14 +29,20 @@ Production supervisors use this report to monitor the performance of production 
 
 ## Key Performance Indicators (KPIs)
 
-The *Capacity Variance* report includes the following KPIs and measures: 
+The *Capacity Variance* report includes the following KPIs and measures:
 
-- [Capacity Cost Amt. Deviation %](manufacturing-powerbi-kpis.md#capacity-cost-amt-deviation)
-- [Expected Capacity Cost Amount](manufacturing-powerbi-kpis.md#expected-capacity-cost-amount)
-- [Capacity Cost Amt. (Actual)](manufacturing-powerbi-kpis.md#capacity-cost-amt-actual)
-- [Capacity Cost Amt. Variance](manufacturing-powerbi-kpis.md#capacity-cost-amt-variance)
+- [Actual Capacity Cost](manufacturing-powerbi-kpis.md#actual-capacity-cost)
+- [Expected Capacity Cost](manufacturing-powerbi-kpis.md#expected-capacity-cost)
+- [Standard Capacity Cost](manufacturing-powerbi-kpis.md#standard-capacity-cost)
+- [Expected Capacity Cost Variance](manufacturing-powerbi-kpis.md#expected-capacity-cost-variance)
+- [Standard Capacity Cost Variance](manufacturing-powerbi-kpis.md#standard-capacity-cost-variance)
+- [Expected Capacity Cost Dev %](manufacturing-powerbi-kpis.md#expected-capacity-cost-dev-percent)
+- [Standard Capacity Cost Dev %](manufacturing-powerbi-kpis.md#standard-capacity-cost-dev-percent)
+- [Prod Order Actual Capacity Need](manufacturing-powerbi-kpis.md#prod-order-actual-capacity-need)
+- [Prod Order Expected Capacity Need](manufacturing-powerbi-kpis.md#prod-order-expected-capacity-need)
+- [Prod Order Need Variance](manufacturing-powerbi-kpis.md#prod-order-capacity-need-variance)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

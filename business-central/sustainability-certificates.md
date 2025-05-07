@@ -2,7 +2,7 @@
 title: Sustainability certificates
 description: Learn how to set up and use sustainability certificates.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, certificate, green
 ms.search.form: 

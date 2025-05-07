@@ -2,7 +2,7 @@
 title: Sustainability value chain in assembly orders
 description: Learn how to work with assembly orders related to the sustainability value chain process.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, assembly
 ms.search.form: 900,

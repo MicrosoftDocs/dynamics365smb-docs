@@ -4,7 +4,7 @@ description: Describes how to use financial reports to create various views and 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: reporting
 ms.search.form: 104, 108, 490
 ms.date: 10/24/2024

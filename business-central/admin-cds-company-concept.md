@@ -2,7 +2,7 @@
 title: Data ownership models for synchronization
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021

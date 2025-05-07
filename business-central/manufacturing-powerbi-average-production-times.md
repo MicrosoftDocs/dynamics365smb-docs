@@ -4,7 +4,7 @@ description: The Average Production Times report shows the detailed average prod
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37048_Primary
 ms.date: 11/01/2024

@@ -2,7 +2,7 @@
 title: Print Balance Sheet and Income Statement Reports
 description: You can print balance sheet reports and income statement reports to submit to banks and other authorities.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: balance sheet, income statement reports, print reports
 ms.search.form: 9001, 9027

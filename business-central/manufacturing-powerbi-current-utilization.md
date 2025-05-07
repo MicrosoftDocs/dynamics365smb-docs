@@ -4,7 +4,7 @@ description: The Current Utilization report provides insights into the manufactu
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37040_Primary
 ms.date: 11/01/2024

@@ -5,7 +5,7 @@ ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 mw.reviewer: ivkoleti
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77, 462, 946_Primary, 949_Primary
 ms.date: 07/27/2023

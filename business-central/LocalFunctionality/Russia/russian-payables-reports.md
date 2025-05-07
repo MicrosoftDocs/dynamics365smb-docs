@@ -2,7 +2,7 @@
 title: Payables reports in Russia
 description: Russian enhancements include payables reports.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/14/2023
 ms.reviewer: bholtorf

@@ -4,7 +4,7 @@ description: Learn how to map tables and fields for synchronizing data between B
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/07/2024
 ms.custom: bap-template
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping

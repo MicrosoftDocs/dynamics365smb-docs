@@ -4,7 +4,7 @@ description: Learn how to define your local currency and the foreign currencies 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: currencies
 ms.search.form: 5, 118
 ms.date: 08/09/2024

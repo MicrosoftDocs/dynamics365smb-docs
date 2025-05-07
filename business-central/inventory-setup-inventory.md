@@ -4,7 +4,7 @@ description: Describes how to set up your stock and inventory processes, includi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461

@@ -2,7 +2,7 @@
 title: Create and print a Swiss VAT statement [CH]
 description: This article explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11023, 11024

@@ -4,7 +4,7 @@ description: It's easy to create a new, blank company in Business Central. An as
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.date: 03/08/2024
 ms.custom: bap-template
 ms.search.keywords: company, setup wizard

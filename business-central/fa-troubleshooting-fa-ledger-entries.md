@@ -3,7 +3,7 @@ title: The Troubleshooting FA Ledger Entries Extension
 description: It's easier to work with whole numbers. Use this extension to round amounts for fixed assets in the FA ledger.
 documentationcenter: ''
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021

@@ -4,7 +4,7 @@ description: Use invoice posting policies to control whether a user can post sal
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/12/2024
 ms.custom: bap-template
 ms.search.forms: 119, 9807, 

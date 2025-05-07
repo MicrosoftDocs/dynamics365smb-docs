@@ -2,7 +2,7 @@
 title: Currency Exchange Rates [DE]
 description: At fiscal year-end, adjust currency exchange rates for payables and receivables to ensure accurate annual balance valuation.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: adjust exchange rates, currency exchange rates, valuation methods, German version, Germany
 ms.date: 03/10/2025

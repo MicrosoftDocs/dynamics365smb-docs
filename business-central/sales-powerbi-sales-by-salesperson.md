@@ -4,7 +4,7 @@ description: The Sales by Salesperson report provides an overview of sales perfo
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37006_Primary
 ms.date: 10/26/2024

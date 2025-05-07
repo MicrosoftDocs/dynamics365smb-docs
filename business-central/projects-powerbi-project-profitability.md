@@ -4,7 +4,7 @@ description: The Project Profitability report highlights cost and pricing inform
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37035_Primary
 ms.date: 10/28/2024

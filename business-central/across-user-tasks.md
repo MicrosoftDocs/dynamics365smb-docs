@@ -2,7 +2,7 @@
 title: Assigning and managing tasks
 description: Learn how to assign tasks to users, including your accountant, and how to pick up and complete tasks.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: tasks, work
 ms.search.form:  1164, 1170, 1171, 1172, 1175, 1176, 1177

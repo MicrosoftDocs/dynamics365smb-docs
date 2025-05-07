@@ -4,7 +4,7 @@ description: Learn how to use the data analysis mode to analyze sustainability d
 author: brentholtorf
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI, sustainability, ESG
 ms.search.form: 6220,
 ms.date: 06/12/2024

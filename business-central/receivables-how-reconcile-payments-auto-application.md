@@ -2,7 +2,7 @@
 title: Reconcile payments using automatic application
 description: Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 389, 1290, 1294, 1287

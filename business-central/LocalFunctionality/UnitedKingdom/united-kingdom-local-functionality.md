@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.search.keywords: UK local functionality
 ms.reviewer: v-soumramani
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/21/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

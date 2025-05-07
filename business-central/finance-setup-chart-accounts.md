@@ -4,7 +4,7 @@ description: Learn about setting up your chart of accounts (COA) with the ledger
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16_Primary, 17, 18, 118, 386, 391
 ms.date: 04/23/2024

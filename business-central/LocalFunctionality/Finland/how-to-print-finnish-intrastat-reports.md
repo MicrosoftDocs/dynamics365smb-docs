@@ -4,7 +4,7 @@ description: This article explains how to print Finnish Intrastat Reports to rep
 services: project-madeira 
 documentationcenter: ''
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Finnish Intrastat Reports, Intrastat, Intrastat authorities
 ms.date: 02/12/2025

@@ -2,7 +2,7 @@
 title: Find Posted Documents without Incoming Documents
 description: You can search for general ledger entries for posted purchase and sales documents that don't have incoming electronic documents, such as imported invoices.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022

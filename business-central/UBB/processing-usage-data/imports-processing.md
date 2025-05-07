@@ -4,7 +4,7 @@ description: You can import and process data in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024

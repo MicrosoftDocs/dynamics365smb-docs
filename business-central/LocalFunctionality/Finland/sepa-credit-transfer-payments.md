@@ -2,7 +2,7 @@
 title: SEPA credit transfer payments (FI)
 description: Finnish enhancements allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Single Euro Payments Area, SEPA, credit transfer files, vendor payments
 ms.date: 02/13/2025

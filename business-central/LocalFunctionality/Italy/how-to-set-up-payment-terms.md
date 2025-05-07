@@ -2,7 +2,7 @@
 title: Set Up Payment Terms (IT)
 description: In the Italian version of Business Central, for each payment term, you can specify if the payment can be made in installments. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 12170, 12171, 12172, 12173, 12174
 ms.date: 04/01/2021

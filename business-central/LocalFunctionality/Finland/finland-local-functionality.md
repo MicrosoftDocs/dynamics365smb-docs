@@ -2,7 +2,7 @@
 title: Finland Local Functionality
 description: The following articles describe the various local functionality in the Finnish version of Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Finland local functionality
 ms.search.form: 32000006

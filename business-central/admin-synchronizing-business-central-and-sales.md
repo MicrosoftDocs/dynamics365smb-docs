@@ -4,7 +4,7 @@ description: The synchronization copies data between Microsoft Dataverse tables 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping

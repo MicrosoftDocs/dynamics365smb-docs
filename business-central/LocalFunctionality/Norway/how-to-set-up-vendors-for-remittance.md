@@ -2,7 +2,7 @@
 title: Set Up Vendors for Remittance [NO]
 description: Norwegian enhancements include automatically making payments to vendors to reduce errors that occur from manual data entry.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010

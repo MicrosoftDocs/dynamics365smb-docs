@@ -4,7 +4,7 @@ description: The Average Collection Period report provides a snapshot of the ave
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36992_Primary
 ms.date: 10/31/2024

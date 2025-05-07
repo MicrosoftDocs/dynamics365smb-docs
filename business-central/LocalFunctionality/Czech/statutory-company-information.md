@@ -3,7 +3,7 @@ title: Czech local functionality - Statutory company information [CZ]
 description: This feature allows users to define company officials and designate them as General Manager, Accounting, and Finance Managers in internal and external documents.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 11/20/2023
 ms.reviewer: bholtorf

@@ -2,7 +2,7 @@
 title: Cancel payments [NO]
 description: This article describes how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010

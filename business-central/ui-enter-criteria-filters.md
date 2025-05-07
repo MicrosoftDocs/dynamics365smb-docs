@@ -3,7 +3,7 @@ title: Sort, search, and filter data in lists, reports, or XMLports
 description: Learn how to work efficiently in lists by searching across your data, sorting columns, and refining results by using filter symbols and keyboard shortcuts.
 author: jswymer
 ms.author: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
 ms.date: 02/12/2025

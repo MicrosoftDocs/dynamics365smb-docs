@@ -4,7 +4,7 @@ description: This article describes how to correct, undo, or cancel a posted sal
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: undo, credit memo, return
 ms.date: 03/05/2024
 ms.service: dynamics-365-business-central

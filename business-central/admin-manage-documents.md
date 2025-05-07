@@ -4,7 +4,7 @@ description: Learn how to deal with accumulating historic documents (and reduce 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 107, 9035, 9040
 ms.date: 04/16/2024
 ms.service: dynamics-365-business-central

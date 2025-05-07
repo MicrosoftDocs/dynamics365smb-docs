@@ -4,7 +4,7 @@ description: Describes the different work in process (WIP) methods you can use t
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010,
 ms.date: 08/19/2024

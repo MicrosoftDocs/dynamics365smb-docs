@@ -4,7 +4,7 @@ description: Russian enhancements include financial report constants.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 08/26/2022
 ms.reviewer: bholtorf

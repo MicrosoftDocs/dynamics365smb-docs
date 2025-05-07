@@ -2,7 +2,7 @@
 title: Import and export data in the standard import export (SIE) format
 description: This article explains how to import and export general ledger data according to the standard import export (SIE) format for Sweden.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import data, export data, SIE, standard import export, audit files export
 ms.search.form: 5264, 5266, 5267, 5270, 5315

@@ -4,7 +4,7 @@ description: Setup option to decide if it should be possible to reuse External D
 author: sorenfriisalexandersen
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.reviewer: bholtorf
 ms.search.keywords:
 ms.date: 04/01/2021

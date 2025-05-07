@@ -2,7 +2,7 @@
 title: Run Full Planning, MPS, or MRP
 description: The planning system can calculate either Master Production Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000852, 99000860
 ms.date: 01/24/2024
 ms.author: bholtorf

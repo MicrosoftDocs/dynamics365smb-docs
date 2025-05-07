@@ -2,7 +2,7 @@
 title: Clean Up Data with Retention Policies
 description: You can specify how often you want to delete certain types of data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: bholtorf
 ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901

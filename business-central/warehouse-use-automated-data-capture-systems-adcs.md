@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814

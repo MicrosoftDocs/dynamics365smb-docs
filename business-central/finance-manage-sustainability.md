@@ -2,7 +2,7 @@
 title: Sustainability management overview
 description: Learn about the sustainability management feature by using the provided information and resources.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, carbon, CO2
 ms.search.form: 

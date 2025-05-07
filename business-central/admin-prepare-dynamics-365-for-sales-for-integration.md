@@ -4,7 +4,7 @@ description: Learn how to get Dynamics 365 Business Central ready to integrate w
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 07/02/2024
 ms.custom: bap-template

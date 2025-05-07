@@ -4,7 +4,7 @@ description: This feature provides the reports - Balance Sheet, Income Statement
 author: v-makune
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 08/26/2022
 ms.reviewer: bholtorf

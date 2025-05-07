@@ -2,7 +2,7 @@
 title: Set Up Purchasers and Assign Purchasers to Vendors
 description: If several purchasers, or purchasing agents, work at your company, you can organize them for statistical analysis.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116

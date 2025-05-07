@@ -2,7 +2,7 @@
 title: Keyboard quick reference - PC only
 description: A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users.
 author: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 06/13/2024
 ms.author: jswymer

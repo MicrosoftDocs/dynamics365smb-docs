@@ -4,7 +4,7 @@ description: The local functionality in the General ledger entries application a
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, finance, CZ, General ledger, Entries
 ms.date: 06/24/2021
 ms.reviewer: bholtorf

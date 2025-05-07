@@ -2,7 +2,7 @@
 title: Enter Statutory Information [UK]
 description: Statutory details are on the Statutory FastTab of the Company Information page.
 author: brentholtorf  
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: statutory information
 ms.search.form: 1

@@ -2,7 +2,7 @@
 title: Combine receipts on a single invoice
 description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 136, 145, 146, 9308

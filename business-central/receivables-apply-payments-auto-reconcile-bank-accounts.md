@@ -4,7 +4,7 @@ description: Outlines tasks to reconcile your bank, receivables, and payables ac
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1291, 1293, 1294

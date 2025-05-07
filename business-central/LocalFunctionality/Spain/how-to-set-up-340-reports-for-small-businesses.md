@@ -2,7 +2,7 @@
 title: Set up 340 reports for small businesses [ES]
 description: Set up your business to report on a cash basis with Cash Accounting Criteria (CAC) using the 340 Reports for Small Businesses.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10737, 10738, 10744

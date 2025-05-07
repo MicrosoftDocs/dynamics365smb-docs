@@ -4,7 +4,7 @@ description: Learn how you can troubleshoot and find solutions to error messages
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate

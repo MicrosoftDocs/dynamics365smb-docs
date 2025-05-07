@@ -2,7 +2,7 @@
 title: VAT rates for Switzerland
 description: In the Swiss version of Business Central if VAT rates, change you must use the VAT rate change tool as explained here.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 12/11/2023
 ms.author: bholtorf

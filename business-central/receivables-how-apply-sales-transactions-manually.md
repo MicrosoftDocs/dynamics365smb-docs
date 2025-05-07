@@ -4,7 +4,7 @@ description: Apply customer cash receipts or refunds to one or more open custome
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
 ms.date: 06/21/2024

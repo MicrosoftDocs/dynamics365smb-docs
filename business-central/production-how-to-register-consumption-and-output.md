@@ -4,7 +4,7 @@ description: This article explains how to register consumption and output for a 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 5510,
 ms.date: 04/08/2025
 ms.service: dynamics-365-business-central

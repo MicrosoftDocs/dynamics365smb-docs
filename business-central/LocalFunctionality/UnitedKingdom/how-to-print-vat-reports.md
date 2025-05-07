@@ -2,7 +2,7 @@
 title: Print VAT Reports [GB]
 description: This article explains the various VAT reports and provides guidance on how to print each of them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, VAT reports, print VAT reports
 ms.date: 02/19/2025

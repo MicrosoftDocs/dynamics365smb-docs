@@ -2,7 +2,7 @@
 title: Set Up GetAddress.io Extension [UK]
 description: Learn how to configure the GetAddress.io extension in the British version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: getaddress.io, postcodes, extension
 ms.search.form: 9142

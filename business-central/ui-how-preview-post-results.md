@@ -2,7 +2,7 @@
 title: Preview Entries Before You Post a Document or Journal
 description: You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf

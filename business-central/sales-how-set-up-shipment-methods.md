@@ -2,7 +2,7 @@
 title: Set Up Shipment Methods
 description: You can set up a code for each of your offered shipment methods, and enter information about them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: incoterms
 ms.search.form: 11, 130

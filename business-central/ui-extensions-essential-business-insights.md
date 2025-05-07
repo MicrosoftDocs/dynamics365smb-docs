@@ -3,7 +3,7 @@ title: Display actionable insights in Role Centers
 description: Learn how the Essential Business Insights extension rotates a series of business insights on Role Centers.
 documentationcenter: ''
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.search.form: 1439, 

@@ -2,7 +2,7 @@
 title: Why a Page is Locked from Personalization
 description: You might be blocked from personalizing a page. Read here about what you can do to unlock it so you can personalize it.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 

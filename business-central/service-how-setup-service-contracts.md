@@ -2,7 +2,7 @@
 title: Set Up Service Contracts
 description: Learn how to set up service contracts with required prerequisites including service contract groups, contract templates and customer templates.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service, cost, service order
 ms.date: 06/23/2021

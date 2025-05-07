@@ -4,7 +4,7 @@ description: The Reordering Policy field on item cards offers four different pla
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: best-practice
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/13/2024

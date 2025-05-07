@@ -4,7 +4,7 @@ description: Describes how to create a sales order linked to a purchase order to
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: direct shipment
 ms.date: 05/28/2024
 ms.service: dynamics-365-business-central

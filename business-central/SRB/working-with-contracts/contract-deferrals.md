@@ -13,19 +13,24 @@ ms.service: dynamics-365-business-central
 
 # Subscription contract deferrals
 
-In subscription billing, managing the timing of revenue and expense recognition is important. [!INCLUDE [prod_short](../../includes/prod_short.md)] offers contract deferrals that let you to defer customer-side revenues and vendor-side costs to future periods. These amounts aren't posted to revenue or expense accounts at the time of invoicing but are instead posted to accrual accounts and released to income on a monthly basis.
+In subscription billing, managing the timing of revenue and expense recognition is important. [!INCLUDE [prod_short](../../includes/prod_short.md)] offers contract deferrals that let you defer customer-side revenues and vendor-side costs to future periods. These amounts don't post to revenue or expense accounts when you post the invoice. Instead, they post to accrual accounts and release to income on a monthly basis.
 
 ## Prerequisites and setup
 
-When posting a contract invoice, contract deferrals are automatically created if the **Without Contract Deferrals** toggle is off on the contract. Use contract deferrals to defer income for customer subscription contracts or prepaid expenses for vendor subscription contracts.
+When you post a contract invoice, contract deferrals are automatically created if the **Without Contract Deferrals** toggle is off on the contract. Use contract deferrals to defer income for customer subscription contracts or prepaid expenses for vendor subscription contracts.
 
 ## Deferrals for customer subscription contracts
 
-Use contract deferrals from customer subscription contracts to defer revenues in sales invoices.
+To defer revenues in sales invoices, use contract deferrals from customer subscription contracts.
 
-The G/L accounts that are posted to are those that have been defined in posting groups for each combination of general business posting group and general product posting group possible in a business transaction. To learn more, go to [Set up posting groups](../../finance-posting-groups.md). In the customer subscription contract, this is the combination of the customer's general business posting group in the contract header and the general product posting group of the items. To learn more, go to [Subscription lines at Items](../masterdata/items.md).
+You define the G/L accounts to post to in posting groups for each combination of general business posting group and general product posting group possible in a business transaction. To learn more, go to [Set up posting groups](../../finance-posting-groups.md). In the customer subscription contract, this setup combines:
 
-By default, the account used per combination is stored in the **Customer Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Without Contract Deferrals** toggle is on on the **Customer Subscription Contract** page, the invoice amount is immediately posted as revenue to the account defined in the **Customer Subscription Contract Account** field. In this case, contract deferrals aren't created.
+* The customer's general business posting group in the contract header.
+* The general product posting group of the items.
+
+To learn more, go to [Subscription lines at Items](../masterdata/items.md).
+
+By default, the account used per combination is stored in the **Customer Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Without Contract Deferrals** toggle is on the **Customer Subscription Contract** page, the invoice amount is immediately posted as revenue to the account defined in the **Customer Subscription Contract Account** field. In this case, contract deferrals aren't created.
 
 ### Opening contract deferrals from customer subscription contracts
 
@@ -43,7 +48,7 @@ You can access customer subscription contract deferrals from the **Customer Subs
 * The basis for the deferrals for a document is represented in the **Deferral Base Amount** field.
 * The **Discount %** field contains the percentage rate associated with the **Discount Amount**.
 * The amount per deferrals is displayed in the **Amount** field.
-* The **Released** field indicates whether the deferral has already been released.
+* The **Released** field indicates whether the deferral was already released.
 * The **Contract Type** field displays the contract type of the associated contract.
 * The **User ID** field displays the ID of the user who posted the document and thus created the deferrals.
 * The **Document Posting Date** field contains the posting date of the document that was used to create the accrual.
@@ -57,11 +62,14 @@ You can access customer subscription contract deferrals from the **Customer Subs
 
 ## Deferrals vendor subscription contracts
 
-Contract deferrals from vendor subscription contracts defer cost in purchase invoices. In the case of post-invoicing (for example, the retroactive calculation of subscription lines), on the other hand, postings are always made immediately with an immediate effect on costs. Since the period is already in the past, contract deferrals are not needed here and are not created.
+Contract deferrals from vendor subscription contracts defer cost in purchase invoices. For post-invoicing (for example, the retroactive calculation of subscription lines), posting happens immediately with an immediate effect on costs. Because the period is already in the past, contract deferrals aren't needed so they aren't created.
 
-Similar to the customer subscription contract, the G/L accounts to post to are determined using posting groups for the respective business transaction. In the vendor contract, this is the combination of the vendor's general business posting group in the Contract Header and the general product posting group of the item.
+Similar to the customer subscription contract, the G/L accounts to post to are determined using posting groups for the business transaction. In the vendor contract, this setup combines:
 
-By default, the account used is the **Vendor Subscription Contract Deferral** field in the **General Posting Setup**. However, if the **Without Contract Deferrals** toggle is on on the **Vendor Subscription Contract** page, the invoice amount is immediately posted as a cost to the account in the **Vendor Subscription Contract Account** field. In this case, contract deferrals aren't created.
+* The vendor's general business posting group.
+* The item's general product posting group.
+
+By default, the account used is the **Vendor Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Without Contract Deferrals** toggle is on the **Vendor Subscription Contract** page, the invoice amount is immediately posted as a cost to the account in the **Vendor Subscription Contract Account** field. In this case, contract deferrals aren't created.
 
 ### Opening subscription contract deferrals from vendor subscription contracts
 
@@ -69,12 +77,12 @@ You can access vendor subscription contract deferrals on the **Vendor Subscripti
 
 ## Methodology for creating subscription contract deferrals
 
-When posting the contract invoice, contract deferrals are created using the following schema:
+When you post the contract invoice, contract deferrals are created using the following schema:
 
 * The total amount in the **Deferral Base Amount** field is divided among the number of deferrals to be created.
 * When the first deferral is created for the billing line, a check is made to see whether the start of the billing period is the first day of a month. If not, the **Amount** is prorated to the day (using **Deferral Base Amount**) based on the first month.
 * When the last deferral is created for the billing line, a check is made to see whether the end of the billing period is the last day of a month. If not, the **Amount** is prorated to the day using the **Deferral Base Amount** based on the last month.
-* Line discounts are not included in the **Deferral Base Amount**.
+* Line discounts aren't included in the **Deferral Base Amount**.
 * Rounding differences are added to the last deferral created for the invoice line.
 
 ## Release deferrals
@@ -88,17 +96,17 @@ The release takes place for debit-side and credit-side contract accruals at the 
 
 We recommend that you run the release of contract deferrals on a monthly basis (for example, at the end of the month).
 
-When posting the release, the source code is used, which is stored in the **Subscription Contract Deferrals Release** field in the **Source Code Setup** page.
+When you post the release, the source code is used. The source code is in the **Subscription Contract Deferrals Release** field in the **Source Code Setup** page.
 
 > [!NOTE]
 >
-> * If deferrals were created by a contract invoice, they're automatically fully released on the **Posting Date of Credit Memo** when the contract invoice is credited.
+> * If deferrals were created by a contract invoice, they're automatically released fully  on the **Posting Date of Credit Memo** when the contract invoice is credited.
 > * Contract deferrals shouldn't be released to future periods.
-> * Credit memos shouldn't post to past (supposedly closed) periods. The release and correction of the contract deferrals happen on the document date of the credit memo. This could distort the reporting and the advance VAT return already created. If the credit memo was posted in a past period, these two points, among others, must be corrected in coordination with the departments, such as internal financial accounting or your tax advisor.
+> * Credit memos shouldn't post to past (supposedly closed) periods. The release and correction of the contract deferrals happen on the document date of the credit memo. This mismatch could distort the reporting and the advance VAT return already created. If the credit memo was posted in a past period, these two points, among others, must be corrected in coordination with the departments, such as internal financial accounting or your tax advisor.
 
 ## Dimensions and updates
 
-If a dimension is updated on a contract line for which deferrals exist, it makes sense to update the related deferrals as well, so that subsequent resolution postings use the same dimensions. For this purpose, the action **Update Dimensions in Deferrals** is available on customer and vendor contract. The action updates the dimensions in all contract deferrals not yet released for the respective contract. If there are no deferrals for a contract, the action isn't available.
+If you change a dimension on a contract line for which deferrals exist, also update the related deferrals so that resolution postings use the same dimensions. Use the **Update Dimensions in Deferrals** action on the customer and vendor contract. The action updates the dimensions in all contract deferrals not yet released for the respective contract. If there are no deferrals for a contract, the action isn't available.
 
 ## Output of deferrals
 

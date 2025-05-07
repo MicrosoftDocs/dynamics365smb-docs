@@ -6,15 +6,15 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8042, 8044, 8035, 8038, 8036, 8041_Primary,
+ms.date: 05/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Import data in usage-based billing
 
-This article explains how to import and process usage data, and discusses the different [methods for pricing](#methods-for-pricing) usage data.
+This article explains how to import and process usage data, and discusses the different [methods for pricing](#methods-for-pricing).
 
 ## Import usage data
 
@@ -43,14 +43,13 @@ The following table describes the actions on the **Usage Data Imports** page.
 |Usage Data Billing     | * **Customer Subscription Contracts** opens an overview of the customer subscription contracts in the import.<br>* **Customer Subscription Contract Invoices** opens an overview of the customer subscription contract invoices created for the import, but aren't posted.<br>* **Posted Customer Subscription Contract Invoices** opens an overview of the customer subscription contract invoices created and posted for the import.<br>* **Vendor Subscription Contracts** opens an overview of the vendor subscription contracts in the import.<br>* **Vendor Subscription Contract Invoices** opens an overview of the vendor contract invoices created for the import, but aren't posted.<br>* **Posted Vendor Subscription Contract Invoices** opens an overview of the vendor contract invoices created and posted for the import.        |
 
 > [!NOTE]
-> **Imported Lines** <br/>
-> The **Usage Data Generic Import** page displays the raw data generated from the import files. This usually includes supplier information about the customers, the subscriptions, and the billing period. The **Unit Cost** and **Cost Amount** fields let you import unit prices and total prices. If the total price is available in the **Cost Amount** field, the **Unit Cost** is calculated based on the quantity. If the total price isn't available, it will be calculated based on the quantity and the **Unit Cost**.
+> The **Usage Data Generic Import** page displays the raw data generated from the import files. This usually includes supplier information about the customers, the subscriptions, and the billing period. The **Unit Cost** and **Cost Amount** fields let you import unit prices and total prices. If the total price is available in the **Cost Amount** field, the **Unit Cost** is calculated based on the quantity. If the total price isn't available, [!INCLUDE [prod_short](../../includes/prod_short.md)] calculates it based on the quantity and the unit cost.
 >
 > To open the **Usage Data Generic Import** page, use the lookup in the **No. of Imported Lines** field. To learn more about the processing steps, go to [Process: Import usage data](#import-usage-data).
 
-The **Usage Data Billing** page contains the data that serves as the basis for billing. Depending on how you set up the subscription lines, customer usage data is generated for each vendor usage data. In addition, customer pricing and the updating of prices in the subscription lines happens here in the last processing step. Customer pricing depends on the setting in the **Unit Price from Import** field on the [usage data suppliers](../masterdata/suppliers.md).
+The **Usage Data Billing Metadata** page contains the data that serves as the basis for billing. Depending on how you set up the subscription lines, customer usage data is generated for each vendor usage data. In addition, customer pricing and the updating of prices in the subscription lines happens here in the last processing step. Customer pricing depends on the setting in the **Unit Price from Import** field on the **Usage Data Suppliers** page. To learn more, go to [Usage Data Suppliers](../masterdata/suppliers.md).
 
-To open the **Usage Data Billing** page, use the lookup in the **No. of Usage Data Billing** field. To learn more about the processing steps, go to [Process: Process usage data](#process-usage-data).
+To open the **Usage Data Billing** page, On the **Usage Data Imports** page, use the lookup in the **No. of Usage Data Billing** field. To learn more about the processing steps, go to [Process: Process usage data](#process-usage-data).
 
 ### Import usage data via an API
 

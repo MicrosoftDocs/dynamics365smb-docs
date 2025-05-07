@@ -4,7 +4,7 @@ description: Learn to use Shopify Connector to synchronize orders, stock, and cu
 author: andreipanko
 ms.author: andreipa
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.date: 01/24/2025
 ms.service: dynamics-365-business-central

@@ -7,9 +7,9 @@ In tables and matrices, you can use back links to navigate directly to the relat
 ## Where you can expect to see it
  
 Back Links are added to tables and matrices that display aggregated values or detail entries in Power BI. Some examples include:
-1. **Daily Sales by Date**: Quickly navigate to detailed sales transactions for a specific day.
-2.	**Income Statement by Month**: View the underlying G/L entries for monthly financial summaries.
-3.	**Moving Annual Total Details**: Drill down to transaction-level details for moving annual totals.
+1. [**Daily Sales by Date**](../sales-powerbi-daily-sales.md): Quickly navigate to detailed sales transactions for a specific day.
+2.	[**Income Statement by Month**](../finance-powerbi-income-statement.md): View the underlying G/L entries for monthly financial summaries.
+3.	[**Moving Annual Total Details**](../purchases-powerbi-moving-annual-total.md): Drill down to transaction-level details for moving annual totals.
 
 ## How It Works
  
@@ -23,9 +23,9 @@ The filter context in Power BI such as the Date filter and other key fields is u
 
  
 ## Example
-Using the **Income Statement by Month** matrix in the Power BI Finance App.
+Using the [**Income Statement by Month**](../finance-powerbi-income-statement.md) matrix in the Power BI Finance App.
 
-The **Income Statement by Month** matrix in Power BI shows aggregated financial figures by G/L Accounts and Months. Without Back Links, users typically need to:
+The Income Statement by Month matrix in Power BI shows aggregated financial figures by G/L Accounts and Months. Without Back Links, users typically need to:
 1.	Drill through the numbers in Power BI.
 2.	Manually note down the entry numbers.
 3.	Reconcile and locate these entries in Business Central.

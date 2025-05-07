@@ -4,7 +4,7 @@ description: This article gives an overview of the reordering policies you can u
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

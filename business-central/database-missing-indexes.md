@@ -3,7 +3,7 @@ title: Database missing indexes in Business Central
 description: An overview of database missing indexes 
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: reference
 ms.search.keywords:
 ms.search.form: 9521
 audience: 

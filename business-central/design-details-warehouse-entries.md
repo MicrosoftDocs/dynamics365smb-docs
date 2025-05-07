@@ -4,7 +4,7 @@ description: Learn how to allow concurrent numbering for warehouse register reco
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2024

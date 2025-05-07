@@ -2,7 +2,7 @@
 title: Create Blanket Assembly Orders
 description: Create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905

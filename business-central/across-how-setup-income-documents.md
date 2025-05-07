@@ -2,7 +2,7 @@
 title: Set Up Incoming Documents
 description: Set up the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022

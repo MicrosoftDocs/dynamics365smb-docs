@@ -2,7 +2,7 @@
 title: Field mapping for exporting bank payment files | Microsoft Docs
 description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021

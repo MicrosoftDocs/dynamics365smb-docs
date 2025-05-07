@@ -4,7 +4,7 @@ description: Learn how to gather, analyze, and share data about fixed assets for
 author: brentholtorf
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617, Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
 ms.date: 05/22/2024

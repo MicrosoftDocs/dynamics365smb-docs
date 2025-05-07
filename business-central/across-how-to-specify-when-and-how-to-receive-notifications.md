@@ -4,7 +4,7 @@ description: When you set up users in approval workflows, you can specify how an
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 663, 1500, 1512, 1513, 

@@ -4,7 +4,7 @@ description: When you sell or otherwise dispose of a fixed asset, the disposal v
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633

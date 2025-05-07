@@ -1,8 +1,8 @@
-﻿---
+---
 title: Use Order Planning to Create and Reserve Supply
 description: Walkthrough to learn how to use order planning to create the required production order for the supply in Business Central.
 ms.date: 04/01/2022
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf

@@ -2,7 +2,7 @@
 title: Close income statement accounts
 description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 08/05/2024
 ms.author: jswymer

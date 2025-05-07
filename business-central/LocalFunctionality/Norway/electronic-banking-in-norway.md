@@ -2,7 +2,7 @@
 title: Electronic banking in Norway
 description: This article explains the Business Central Norwegian enhancements for handling electronic banking with many operations in the Norwegian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023

@@ -2,7 +2,7 @@
 title: Reclassify fixed assets
 description: You reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 5638, 5636, 5640, 5637, Report_5606
 ms.date: 11/07/2024
 ms.author: bholtorf

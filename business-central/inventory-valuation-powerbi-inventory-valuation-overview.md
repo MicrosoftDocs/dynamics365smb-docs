@@ -4,7 +4,7 @@ description: The Inventory Valuation Overview report shows item values on a loca
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37056_Primary
 ms.date: 10/30/2024

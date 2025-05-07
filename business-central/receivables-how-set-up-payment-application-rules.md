@@ -2,7 +2,7 @@
 title: Rules for automatic application of payments
 description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287

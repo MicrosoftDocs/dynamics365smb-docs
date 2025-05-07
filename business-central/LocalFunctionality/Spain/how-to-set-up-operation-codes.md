@@ -2,7 +2,7 @@
 title: How to Set Up Operation Codes
 description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021

@@ -4,7 +4,7 @@ description: If you want to invoice more than one shipment at a time, you can us
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/05/2025
 ms.service: dynamics-365-business-central

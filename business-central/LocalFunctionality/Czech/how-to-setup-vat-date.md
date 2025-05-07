@@ -3,7 +3,7 @@ title: Czech local functionality - Setup VAT date
 description: This section describes Czech local functionality - VAT Date and Setup of the VAT Date Feature.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 11/20/2023
 ms.reviewer: bholtorf

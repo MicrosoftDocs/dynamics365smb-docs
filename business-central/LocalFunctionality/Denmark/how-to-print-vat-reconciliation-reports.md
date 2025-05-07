@@ -2,7 +2,7 @@
 title: How to print VAT reconciliation reports [DK]
 description: In Business Central, the VAT Reconciliation report displays a list of general ledger accounts with their corresponding base amounts and VAT amounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: VAT, VAT reconciliation report, Denmark, reconciliation
 ms.date: 03/03/2025
 ms.author: bholtorf

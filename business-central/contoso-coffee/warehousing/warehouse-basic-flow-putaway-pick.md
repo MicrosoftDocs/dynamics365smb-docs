@@ -2,7 +2,7 @@
 title: Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration
 description: In Business Central, the inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 

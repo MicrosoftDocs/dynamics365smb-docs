@@ -2,7 +2,7 @@
 title: View Load on Work and Machine Centers
 description: From the Work Center card, you can view the load on the work centers as a result of released production orders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021

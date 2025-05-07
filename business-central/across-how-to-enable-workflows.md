@@ -2,7 +2,7 @@
 title: How to Enable Approval Workflows
 description: When you've created a workflow and are sure that it's ready to start, you must enable the workflow.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 09/08/2022

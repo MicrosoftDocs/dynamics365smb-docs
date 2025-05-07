@@ -2,7 +2,7 @@
 title: View posted tax invoices [NZ]
 description: Learn how to view posted sales tax invoices and purchase tax invoices in the New Zealand version of Business Central
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 28071, 28073, 28081, 28082
 ms.search.keywords: posted tax invoices, sales tax invoice, purchase tax invoice, New Zealand version

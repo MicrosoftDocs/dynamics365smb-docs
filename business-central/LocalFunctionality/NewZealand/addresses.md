@@ -2,7 +2,7 @@
 title: Addresses in New Zealand
 description: Learn how to use the address bar coding system, where each address is assigned a unique Delivery Point Identifier (DPID) to improve postal efficiency.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: address bar coding, DPID, delivery point identifier, New Zealand version
 ms.date: 05/05/2025

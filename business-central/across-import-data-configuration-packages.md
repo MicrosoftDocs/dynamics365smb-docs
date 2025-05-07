@@ -4,7 +4,7 @@ description: Use the default configuration package to add customer data in Excel
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: migration, Excel
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central

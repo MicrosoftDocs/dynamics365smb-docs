@@ -2,7 +2,7 @@
 title: Adjust Settlement Exchange Rates for VAT Entries (NZ)
 description: Use a batch job to settle VAT entries according to the government exchange rates in the New Zealand version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: settle VAT entries, VAT exchange rates, VAT settlement, adjust exchange rates, New Zealand
 ms.date: 05/05/2025
@@ -20,3 +20,4 @@ ms.reviewer: v-soumramani
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

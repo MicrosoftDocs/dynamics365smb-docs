@@ -4,7 +4,7 @@ description: This walkthrough takes you through all the stages involved in setti
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/11/2024
 ms.service: dynamics-365-business-central

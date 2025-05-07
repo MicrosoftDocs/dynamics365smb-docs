@@ -2,7 +2,9 @@
 title: View Withholding Tax Entries [NZ]
 description: Learn how to view entries posted with withholding tax (WHT) for a specified general ledger register in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+
+    
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: withholding tax entries, view WHT entries, general ledger register, New Zealand version
 ms.date: 05/07/2025

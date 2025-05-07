@@ -2,7 +2,7 @@
 title: Accountant experiences in Business Central
 description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 01/03/2025

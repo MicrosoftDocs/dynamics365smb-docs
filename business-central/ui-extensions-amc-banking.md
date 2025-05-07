@@ -2,7 +2,7 @@
 title: Using the AMC banking 365 fundamentals extension
 description: Learn how to easily exchange data with your banks by transforming data into the format that they require.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: bank, format, data
 ms.search.form: 20100, 20101, 20102, 20105, 20106, 20107, 20109, 

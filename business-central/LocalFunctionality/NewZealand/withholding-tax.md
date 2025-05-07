@@ -2,7 +2,9 @@
 title: Withholding Tax in the New Zealand version
 description: Learn about withholding tax (WHT) scenarios in New Zealand and how to manage them effectively.
 author: brentholtorf
-ms.topic: conceptual
+
+    
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: withholding tax scenarios, BAS submission, IRD number, New Zealand version 
 ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167

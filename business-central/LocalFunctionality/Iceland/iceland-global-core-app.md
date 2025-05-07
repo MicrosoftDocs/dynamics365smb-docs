@@ -2,7 +2,7 @@
 title: Iceland W1 core app setup
 description: This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.
 author: altotovi
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: delocalization, core app, core app setup
 ms.date: 02/06/2025

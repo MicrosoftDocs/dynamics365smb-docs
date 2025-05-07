@@ -4,7 +4,7 @@ description: This article explains how to use our predictive model to predict wh
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
 ms.date: 07/11/2024

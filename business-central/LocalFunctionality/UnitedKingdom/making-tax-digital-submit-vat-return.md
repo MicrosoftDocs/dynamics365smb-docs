@@ -2,7 +2,7 @@
 title: Making Tax Digital - Submitting VAT Returns
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: making tax digital, VAT, HMRC
 ms.search.form: 743, 10530, 10531, 10532, 10537, 10538, 10539, 
 ms.date: 02/20/2025

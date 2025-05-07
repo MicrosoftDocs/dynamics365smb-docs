@@ -2,7 +2,7 @@
 title: Print Balance Sheet Reports [NZ]
 description: Learn how to print the company's balance sheet report in the New Zealand version of Business Central
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: balance sheet report, print balance sheet report, New Zealand version
 ms.date: 05/06/2025

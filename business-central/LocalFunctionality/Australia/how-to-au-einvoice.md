@@ -2,7 +2,7 @@
 title: Electronic invoicing in Australia
 description: This article explains how to work with the Australian localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, e-invoice, electronic invoice, Peppol, PINT A-NZ
 ms.search.form: 

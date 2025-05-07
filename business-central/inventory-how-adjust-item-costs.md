@@ -4,7 +4,7 @@ description: You can adjust the inventory valuation of an item using the FIFO or
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 04/28/2025
 ms.service: dynamics-365-business-central

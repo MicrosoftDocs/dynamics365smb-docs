@@ -2,7 +2,7 @@
 title: Print test reports for delivery reminders [AT]
 description: After you create delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create delivery reminders, print test reports, issue delivery reminders
 ms.date: 03/06/2025

@@ -4,7 +4,7 @@ description: Learn how planning uses demand and supply data to suggest how to ba
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 5430,
 ms.date: 02/25/2025
 ms.custom: bap-template

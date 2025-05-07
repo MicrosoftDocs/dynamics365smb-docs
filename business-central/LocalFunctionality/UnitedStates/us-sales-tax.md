@@ -2,7 +2,7 @@
 title: Sales tax in the US Version
 description: Understand the setup of sales tax, including how tax groups, tax areas (such as states, counties, cities, and localities), tax jurisdictions, and tax details work.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: local, sales tax, tax group
 ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101

@@ -4,7 +4,7 @@ description: Describes how to plan resources and forecast and control the costs 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 02/22/2024

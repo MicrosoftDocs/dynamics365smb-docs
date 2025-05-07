@@ -4,7 +4,7 @@ description: The Inventory by Lot No. report shows total inventory broken down p
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37029_Primary
 ms.date: 10/28/2024

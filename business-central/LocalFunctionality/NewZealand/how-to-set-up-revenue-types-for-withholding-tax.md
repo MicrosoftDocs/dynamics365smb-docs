@@ -2,7 +2,7 @@
 title: Set up revenue types for withholding tax [NZ]
 description: Learn how to set up revenue types for withholding tax in the New Zealand version of Business Central. Revenue types help classify withholding tax (WHT) entries and are used for WHT certificates.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: revenue types, withholding tax, New Zealand version
 ms.search.form: 28042, 28043

@@ -2,7 +2,7 @@
 title: Using Business Central with Outlook
 description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 06/14/2024

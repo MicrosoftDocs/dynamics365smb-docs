@@ -4,7 +4,7 @@ description: You can define content to insert into the body of an email message,
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 41,
 ms.date: 05/01/2024

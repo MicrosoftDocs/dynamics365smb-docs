@@ -2,7 +2,7 @@
 title: Set Up Goods and Service Tax Posting [NZ]
 description: Learn how to set up posting for goods and services tax (GST) in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: GST, tax posting setup, tax setup, New Zealand
 ms.date: 05/06/2025

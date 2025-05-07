@@ -2,7 +2,7 @@
 title: Print and reprint G-L books VAT registers [IT]
 description: Tax authorities require that you submit two fiscal reports that list all posted ledger entries, the G/L Book - Print report and the VAT Register - Print report.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 12141, 12143, 12149, 12150
 ms.date: 11/29/2023

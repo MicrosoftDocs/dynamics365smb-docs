@@ -4,7 +4,7 @@ description: The Sales by Location report provides an overview of sales performa
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 10/26/2024

@@ -2,7 +2,8 @@
 title: Determine Sales Price by Cost Plus Percentage (NZ)
 description: Learn how to use the cost plus percentage function to set a sales price based on the cost of an item.
 author: brentholtorf
-ms.topic: conceptual
+    
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: cost plus percentage, set sales price, sales price calculation, sales price by cost, New Zealand version
 ms.date: 05/05/2025

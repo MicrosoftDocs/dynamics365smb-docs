@@ -2,7 +2,7 @@
 title: Create check installments [NZ]
 description: Learn how to create check installments for post-dated checks in the New Zealand version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: check installments, post-date checks, create check installments, New Zealand version
 ms.search.form: 28090,28091,28092,28093

@@ -2,7 +2,7 @@
 title: Payment lines and general journal lines [BE]
 description: Business Central summarizes payment lines and journal lines across domestic, international, SEPA, and non-Euro payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 11308
 ms.search.keywords: payment lines, journal lines, SEPA, summarize payment lines, summarize journal lines, Belgian version
 ms.date: 04/04/2025

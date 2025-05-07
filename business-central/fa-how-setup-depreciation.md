@@ -4,7 +4,7 @@ description: There are various methods of depreciation. In Business Central you 
 author: brentholtorf
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: write down
 ms.search.form: 5611_Primary, 
 ms.date: 06/28/2021

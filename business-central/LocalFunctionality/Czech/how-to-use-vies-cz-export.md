@@ -3,7 +3,7 @@ title: Czech Local Functionality - Vies - CZ export
 description: This functionality allows you to export the VAT Summary Report to an XML file.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, VIES, Localization, CZ
 ms.date: 11/07/2023
 ms.reviewer: bholtorf

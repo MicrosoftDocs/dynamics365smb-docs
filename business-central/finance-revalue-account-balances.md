@@ -4,7 +4,7 @@ description: Learn how to revalue general ledger account balances before you pro
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 08/06/2024
 ms.custom: bap-template
 ms.search.form: 

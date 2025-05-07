@@ -4,7 +4,7 @@ description: Word templates can make it easy to bulk create documents that are p
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.forms: 9989_Primary, 13, 9992_Primary, 9983_Primary

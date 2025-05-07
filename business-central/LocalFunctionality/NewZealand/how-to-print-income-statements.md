@@ -2,7 +2,7 @@
 title: Print Income Statements [NZ]
 description: Learn how to print the company's annual income statement in a report in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: income statement, income statement report, annual income statement, print income statement, New Zealand version
 ms.date: 05/06/2025

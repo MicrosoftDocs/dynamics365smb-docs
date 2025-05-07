@@ -2,7 +2,8 @@
 title: Electronic Funds Transfer (EFT) [NZ]
 description: Learn how to pay vendors using the electronic funds transfer (EFT) system in New Zealand.
 author: brentholtorf
-ms.topic: conceptual
+    
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: electronic funds transfer, EFT, New Zealand version
 ms.search.form: 11615

@@ -4,7 +4,7 @@ description: This topic outlines best practices on how to set up selected planni
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: best-practice
 ms.search.keywords:
 ms.date: 03/11/2025
 ms.service: dynamics-365-business-central

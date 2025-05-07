@@ -2,7 +2,7 @@
 title: Design Details - Item Tracking in the Warehouse
 description: Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 06/15/2021

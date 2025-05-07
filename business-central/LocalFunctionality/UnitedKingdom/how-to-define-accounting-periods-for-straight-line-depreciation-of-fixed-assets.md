@@ -2,7 +2,7 @@
 title: Straight-Line Depreciation of Fixed Assets in the UK
 description: Define 13 accounting periods to calculate straight-line depreciation in the UK version. Calculate daily depreciation and distribute it across these periods appropriately.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: straight line depreciation, fixed assets
 ms.search.form: 5610, 5611, 5619

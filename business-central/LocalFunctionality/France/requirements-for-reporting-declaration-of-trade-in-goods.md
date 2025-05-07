@@ -2,7 +2,7 @@
 title: Requirements for Reporting Declaration of Trade in Goods [FR]
 description: Learn about the required fields and steps for reporting the Declaration of Trade in Goods (DEB) in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: declaration of trade, DEB report, trade in goods, declaration reporting requirements, validate intrastat lines, intrastat, French version
 ms.date: 04/16/2025

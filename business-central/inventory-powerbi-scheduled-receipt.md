@@ -4,7 +4,7 @@ description: The Scheduled Receipt report lets you view inbound inventory per do
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37028_Primary
 ms.date: 10/28/2024

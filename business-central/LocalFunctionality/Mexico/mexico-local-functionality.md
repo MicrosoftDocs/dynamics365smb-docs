@@ -2,7 +2,7 @@
 title: Mexico local functionality
 description: The following articles provide descriptions of the local functionality in the Mexican version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Mexico, local functionality, Mexican version
 ms.date: 02/26/2025
 ms.author: bholtorf

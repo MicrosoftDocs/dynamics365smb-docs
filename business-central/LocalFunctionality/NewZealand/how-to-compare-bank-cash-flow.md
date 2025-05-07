@@ -2,7 +2,7 @@
 title: Compare Bank Cash Flow [NZ]
 description: Learn how to compare the flow of cash in a particular bank for a specified period in the New Zealand version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: cash flow comparison, bank cash flow, New Zealand version
 ms.date: 05/05/2025

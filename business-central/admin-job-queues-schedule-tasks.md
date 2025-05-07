@@ -4,7 +4,7 @@ description: Learn how to use job queue entries to run reports and codeunits.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/26/2024
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671

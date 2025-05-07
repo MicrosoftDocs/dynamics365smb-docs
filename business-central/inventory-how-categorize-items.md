@@ -4,7 +4,7 @@ description: To help you search for and find items, you can assign item attribut
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401

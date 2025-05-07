@@ -2,7 +2,7 @@
 title: How to import Swiss post codes [CH]
 description: You can import the latest Swiss post code file and use it to update the Post Code table to define post codes for customers or vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/14/2023

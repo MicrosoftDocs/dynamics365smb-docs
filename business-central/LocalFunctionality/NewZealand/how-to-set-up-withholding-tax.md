@@ -2,7 +2,7 @@
 title: Set up withholding tax [NZ]
 description: Learn how to set up product posting groups and business posting groups for Withholding tax (WHT) in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: withholding tax, withholding tax setup, product posting groups, business posting groups, New Zealand version
  ms.search.form: 28041, 28042, 28043, 118

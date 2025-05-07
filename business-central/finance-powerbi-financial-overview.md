@@ -4,7 +4,7 @@ description: The Financial Overview report gives a clear picture of your organiz
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 36984_Primary
 ms.date: 10/31/2024

@@ -2,7 +2,7 @@
 title: Service Items and Service Item Components
 description: Learn about the things you must set up before you can use service items, including default values such as response time and service price group.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/25/2021

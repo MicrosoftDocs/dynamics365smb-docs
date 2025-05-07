@@ -4,7 +4,7 @@ description: This topic describes the different ways you can process sales oppor
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: relationship, prospect
 ms.date: 12/28/2023
 ms.custom: bap-template

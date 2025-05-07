@@ -3,7 +3,7 @@ title: Check of output in inventory – time sequence [CZ]
 description: The following articles describe the local functionality for check of output in inventory – time sequence in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 11/09/2023
 ms.reviewer: bholtorf

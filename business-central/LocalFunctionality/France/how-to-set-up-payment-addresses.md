@@ -2,7 +2,7 @@
 title: Set Up Payment Addresses [FR]
 description: Learn how to configure payment addresses for vendors and customers to streamline settlement processes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: configure payment addresses, payment addresses, French version
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880

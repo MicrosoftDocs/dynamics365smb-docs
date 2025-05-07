@@ -4,7 +4,7 @@ description: You can manage contracts and services in subscription and recurring
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024

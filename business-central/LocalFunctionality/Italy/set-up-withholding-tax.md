@@ -2,7 +2,7 @@
 title: Set Up Withholding Tax (IT)
 description: In the Italian version, companies must pay withholding tax to the government for third-party services and vendor purchases. Learn how to set this up.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 10/29/2021
 ms.author: bholtorf

@@ -2,7 +2,7 @@
 title: Equivalence Charges (EC) [ES]
 description: An Equivalence Charge (EC) is a tax that is used in retail sales and in activities that don't follow VAT rules. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/14/2023

@@ -4,7 +4,7 @@ description: Use the Suggest Vendor Payments batch job to create payment lines f
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256,
 ms.date: 07/17/2024

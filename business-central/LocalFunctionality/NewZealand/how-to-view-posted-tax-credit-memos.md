@@ -2,7 +2,7 @@
 title: View posted tax credit memos [NZ]
 description: Learn how to view posted sales tax and purchase tax credit memos in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 28071, 28073, 28081, 28082
 ms.search.keywords: posted tax credit memos, sales tax credit memo, purchase tax credit memo, New Zealand version

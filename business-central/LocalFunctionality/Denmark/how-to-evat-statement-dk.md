@@ -2,7 +2,7 @@
 title: Submit VAT returns electronically
 description: This article describes how to set up and submit value-added tax (VAT) returns electronically in Denmark.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vat, return, statement, electronic, denmark, submission, skat
 ms.search.form: 

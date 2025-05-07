@@ -2,7 +2,7 @@
 title: Setup and generate SAF-T files
 description: Use this extension to setup and generate SAF-T files for the Norwegian authorities in Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: extension, saf-t, authorities, export, compliance
 ms.search.form: 10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 10680, 10685, 10686, 10687, 10688, 10689, 10690, 10691, 

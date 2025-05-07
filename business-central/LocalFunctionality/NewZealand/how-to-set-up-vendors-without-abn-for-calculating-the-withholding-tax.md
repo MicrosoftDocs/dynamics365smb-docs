@@ -2,7 +2,7 @@
 title: Set up vendors without IRD for calculating withholding tax (NZ)
 description: Learn how to set up vendors without IRD numbers to calculate withholding tax, ensuring compliance with New Zealand tax regulations for local vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: IRD number, calculate withholding tax, vendor setup, New Zealand tax compliance
 ms.search.form: 28043

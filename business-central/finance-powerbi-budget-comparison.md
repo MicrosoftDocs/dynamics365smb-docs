@@ -4,7 +4,7 @@ description: The Budget Comparison report provides a comparative analysis of G/L
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36987_Primary
 ms.date: 10/31/2024

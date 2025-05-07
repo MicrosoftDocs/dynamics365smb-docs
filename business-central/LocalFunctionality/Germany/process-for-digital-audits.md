@@ -4,7 +4,7 @@ description: Export data according to the digital audit process (GoBD/GDPdU) bas
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: data export, digital audit process, GoBD, GDPdU, German tax law, German version
 ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
 ms.date: 05/04/2024

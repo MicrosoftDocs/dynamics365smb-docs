@@ -2,7 +2,7 @@
 title: Apply General Ledger Entries [FR]
 description: Learn how to apply general ledger entries to justify ledger balances on asset and liability accounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: apply general ledger entries, apply G/L entries, liability accounts, asset accounts, French version
 ms.search.form: 16, 10842

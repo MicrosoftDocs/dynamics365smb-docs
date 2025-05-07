@@ -2,7 +2,7 @@
 title: Map IRS numbers to chart of accounts [IS]
 description: This article explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: prededined IRS, general ledger accounts, Internal Revenue Service
 ms.date: 02/06/2025

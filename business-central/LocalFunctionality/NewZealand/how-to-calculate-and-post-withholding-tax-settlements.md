@@ -2,7 +2,7 @@
 title: Calculate and post withholding tax settlements (NZ)
 description: Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/10/2023

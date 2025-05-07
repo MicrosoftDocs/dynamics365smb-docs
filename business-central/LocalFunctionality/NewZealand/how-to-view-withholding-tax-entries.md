@@ -4,7 +4,7 @@ description: Describes how to view entries that have been posted with withholdin
 author: brentholtorf
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021

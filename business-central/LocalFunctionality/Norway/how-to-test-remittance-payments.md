@@ -2,7 +2,7 @@
 title: Test Remittance Payments [NO]
 description: After you have set up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them in the Norwegian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010

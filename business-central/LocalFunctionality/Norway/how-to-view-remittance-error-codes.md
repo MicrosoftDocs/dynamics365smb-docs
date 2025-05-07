@@ -2,7 +2,7 @@
 title: View remittance error codes [NO]
 description: For a remittance error, the error code from the bank, and an explanation of the error is shown for the payment on the Waiting Journal page in the Norwegian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-error-codes
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010

@@ -2,7 +2,7 @@
 title: How to Set Up VAT Categories
 description: Learn how to set up VAT category codes for all XML elements required in the electronic VAT declaration.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT category codes, VAT XML elements, electronic VAT declaration, Dutch version, Netherlands
 ms.date: 03/18/2025

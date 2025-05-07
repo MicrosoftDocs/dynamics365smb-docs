@@ -2,7 +2,7 @@
 title: Print Intrastat Reports for Italy - Deprecated feature
 description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in Italy.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 12/06/2024
 ms.search.form: 12116,

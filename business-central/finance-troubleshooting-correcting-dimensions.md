@@ -4,7 +4,7 @@ description: Learn how to troubleshoot typical dimension errors, and how to corr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 08/08/2024

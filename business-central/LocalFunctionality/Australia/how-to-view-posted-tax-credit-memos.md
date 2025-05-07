@@ -2,7 +2,7 @@
 title: View posted tax credit memos [AU]
 description: View details of sales and purchase tax credit memos on the Posted Sales Tax Credit Memo and Posted Purch. Tax Credit Memo pages.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: view posted tax credit memos, sales tax credit memos, purchase tax credit memos, posted sales tax credit memo, posted purchase tax credit memo, Australian version
 ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 03/27/2025

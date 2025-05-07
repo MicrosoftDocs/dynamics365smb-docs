@@ -2,7 +2,7 @@
 title: About inventory costing
 description: Managing inventory costs is all about recording and reporting business operating costs, including the reporting of manufacturing costs and inventory costs.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/26/2024

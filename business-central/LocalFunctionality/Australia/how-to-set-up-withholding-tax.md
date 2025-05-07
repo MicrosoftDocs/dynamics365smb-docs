@@ -2,7 +2,7 @@
 title: Set Up Withholding Tax [AU]
 description: Learn how a company sets up withholding tax (WHT) for vendor payments on the General Ledger Setup page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: withholding tax, WHT, vendor payments, general ledger setup, product posting groups, business posting groups, Australian Taxation Office, ATO, business activity statement, BAS, Australian business number, ABN, Australian version
 ms.search.form: 28041, 28042, 28043

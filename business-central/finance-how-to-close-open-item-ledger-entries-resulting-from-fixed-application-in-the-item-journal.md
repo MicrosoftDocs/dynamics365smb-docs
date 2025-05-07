@@ -2,7 +2,7 @@
 title: Close item ledger entries that came from using fixed application
 description: Learn how you can create a fixed application between an inbound transaction and the original outbound transaction in the item journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 40
 ms.date: 07/30/2024

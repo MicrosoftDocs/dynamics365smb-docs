@@ -2,7 +2,7 @@
 title: How to work with responsibility centers
 description: Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 5714, 5715

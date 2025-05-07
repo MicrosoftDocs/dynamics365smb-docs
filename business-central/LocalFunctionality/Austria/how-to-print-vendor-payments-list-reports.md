@@ -2,7 +2,7 @@
 title: How to Print Vendor Payments List Reports [AT]
 description: The Vendor Payments List report in Austria provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vendor payments list, Austrian version, vendor payments
 ms.date: 03/06/2025

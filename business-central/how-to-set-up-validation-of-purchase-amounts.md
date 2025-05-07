@@ -4,7 +4,7 @@ description: You can validate the total amount on purchase invoices and credit m
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/14/2025
 ms.service: dynamics-365-business-central

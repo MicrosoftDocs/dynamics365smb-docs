@@ -2,7 +2,7 @@
 title: How to Create a VAT Statement
 description: You can submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: periodic report, VAT transactions, FDF file, VAT statement
 ms.date: 03/06/2025

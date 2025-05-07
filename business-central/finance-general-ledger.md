@@ -2,7 +2,7 @@
 title: Understand the general ledger and Chart of Accounts
 description: Describes the general ledger, chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20_Primary, 37, 65, 99, 118, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158

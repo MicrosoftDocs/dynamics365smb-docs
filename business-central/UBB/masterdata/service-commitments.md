@@ -1,5 +1,5 @@
 ---
-title: Subscription lines
+title: Subscription lines in usage billing
 description: You can use subscription lines in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Extension of subscription lines
+# Extension of subscription lines in usage billing
 
 Usage-based billing extends the subscription lines in [subscription billing](../../SRB/welcome.md), so this article only describes the differences. To learn more about subscription lines and how to set them up, go to [Subscription lines in subscription billing](../../SRB/masterdata/service-commitments.md).
 
 ## Subscription package line templates
 
-Using subscription package line templates is optional. To learn more about the additional fields for usage-based billing, go to [Subscription packages](#service-commitment-packages).
+Using subscription package line templates is optional. To learn more about the additional fields for usage-based billing, go to [Subscription packages](#subscription-packages).
 
 ## Subscription packages
 

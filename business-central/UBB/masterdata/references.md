@@ -6,18 +6,18 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8043, 8044
+ms.date: 05/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Usage data supplier references
 
-To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [subscription line](service-commitments.md#service-commitment-packages) that is part of a vendor or customer subscription contract.
+To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a subscription line package that is part of a vendor or customer subscription contract. To learn more, go to [subscription line packages](../../SRB/masterdata/service-commitments.md#subscription-line-packages).
 
 > [!NOTE]
-> You can only charge subscription lines that are part of a vendor or customer subscription contract.
+> You can only bill subscription lines that are part of a vendor or customer subscription contract.
 
 The usage data usually only knows the subscription to which it's related. The subscription lines, however, know to which contract they're assigned. The link is the subscriptions that connect to a subscription line.
 
@@ -44,7 +44,7 @@ The reference displays on the **Usage Data Supplier References** page as type **
 
 ## References for customers
 
-A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID has an entry on the **Usage Data Supplier References** page. When you have [usage data customers](customers-subscriptions.md#usage-data-customers), the record is also created automatically. Otherwise, you must create the reference manually.
+A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID has an entry on the **Usage Data Supplier References** page. When you have usage data customers, the record is also created automatically. Otherwise, you must create the reference manually. To learn more, go to [Usage data customers and suppliers](customers-subscriptions.md#usage-data-customers-and-suppliers).
 
 To maintain the customer reference, you can open the reference table by using the **Supplier Reference Entry No.** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
 

@@ -23,7 +23,7 @@ Subscription lines include the details of the obligations that the supplier of a
 
 The following image shows the use of subscription lines.
 
-:::image type="content" source="../../media/srb use of subscription lines.png" alt-text="Use of subscription lines.":::
+:::image type="content" source="../../media/srb use of service commitments.png" alt-text="Screenshot that shows the flow for subscription lines.":::
 
 ## Subscription line templates​
 

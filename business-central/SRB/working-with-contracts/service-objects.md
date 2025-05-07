@@ -34,7 +34,7 @@ The subscription with the associated contract commitments forms the basis for th
 
 To manually create a subscription, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subscriptions**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subscriptions**, and then choose the related link.
 1. **No.** can be filled in by a number series.
 1. In the **Source No.** field, choose the item for the subscription. For example, the device, software, license, user, and so on, that you will bill recurrently. You can only select items with the **Subscription Option** set to **Sales with Subscription** or **Subscription Item**.
 1. The content in the **Description** field comes from the item, but you can edit it.
@@ -49,7 +49,7 @@ As additional information, on the **General** FastTab, you can fill in the **Cus
 
 ## Subscriptions with serial numbers
 
-When serial number tracked items are delivered with subscription lines, one subscription is created for each serial number. The serial number is determined from the item tracking lines for the sales order line and transferred to the subscription in the **Serial No.** field. The field on the subscription is editable. The quantity in a serial number tracked subscription must always be one, and you can't change it. To store a serial number for a subscription, an item tracking must be set for the item. Changes can be tracked using archived subscription lines. To learn more, go to [Log changes to subscription lines](so-service-commitments.md#log-changes-to-service-commitments).
+When serial number tracked items are delivered with subscription lines, one subscription is created for each serial number. The serial number is determined from the item tracking lines for the sales order line and transferred to the subscription in the **Serial No.** field. The field on the subscription is editable. The quantity in a serial number tracked subscription must always be one, and you can't change it. To store a serial number for a subscription, an item tracking must be set for the item. Changes can be tracked using archived subscription lines. To learn more, go to [Log changes to subscription lines](so-service-commitments.md#log-changes-to-subscription-lines).
 
 > [!NOTE]
 > If a subscription stores a serial number, this information will appear depending on settings for invoice details. To learn more, go to [Invoice details](../setup/general.md#invoice-details).

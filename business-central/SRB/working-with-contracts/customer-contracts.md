@@ -47,7 +47,7 @@ To create a contract, follow these steps:
 5. If needed, change the values in the **Currency Code**, **Payment Terms Code**, and **Payment Method Code** fields on the **Invoice Details**. The values were copied from the customer in step 1.
 6. Select whether a **Detail Overview** is to be output for invoices.
 7. On the **Shipping and Billing** FastTab, verify the values in the **Ship-to** and **Bill-to** fields.
-8. The next step is to assign subscription lines. To learn more, go to [Assign subscription lines to a customer subscription contract](#assign-service-commitments-to-a-customer-contract).  
+8. The next step is to assign subscription lines. To learn more, go to [Assign subscription lines to a customer subscription contract](#assign-subscription-lines-to-a-customer-subscription-contract).  
 
 > [!TIP]
 > You can use the **Contract Type** and **Assigned User ID** fields as filters in subscription billing to bill contracts separately based on type and clerk.

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8071,
-ms.date: 08/14/2024
+ms.date: 05/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -106,7 +106,7 @@ Recurring billing can be useful for creating a contract invoice for a contract t
 > [!NOTE]
 > Creating a contract invoice as described here is only useful in individual cases.
 
-## Related information
+## Access related information
 
 You can access related information from a contract, and you can access all invoices and credit memos. You can view **Contract Deferrals** if the postings in the contract are deferred periodically.
 

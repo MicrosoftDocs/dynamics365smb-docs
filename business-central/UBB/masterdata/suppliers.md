@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8044_Primary, 8041, 8038
+ms.date: 05/07/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 Use the **Usage Data Supplier** page to manage information about the business partners who provide usage data for processing. A supplier is usually the provider of a service.
 
-In addition to a unique, self-assigned **No.**, you can enter an explanatory **Description** can be entered.
+In addition to a unique **No.**, you can enter an explanatory **Description**.
 
 Use the **Vendor Name** field to connect the supplier to a vendor. To learn more, go to [Methods for pricing](../processing-usage-data/imports-processing.md#methods-for-pricing).
 
@@ -28,7 +28,7 @@ The **Vendor Invoice per** field specifies whether to create vendor invoices as 
 
 ## Settings on the supplier
 
-On the **Usage Data Suppliers** page, use the **Settings** action to open the **Generic Import Settings page**, where you can specify various setting for data import. In addition to the [Data exchange definitions](dataexchangedefinitions.md) to use to import data, [Create Customers](customers-subscriptions.md#usage-data-customers) and [Create Subscriptions](customers-subscriptions.md#usage-data-subscriptions) toggles control whether you automatically create this data when you process usage data. In addition, the **Process without Usage Data Blobs** toggle indicates that data from the related blob field isn't used as the basis for processing the usage data. This is the case, for example, if you import usage data using an API. To learn more, go to [Import usage data via API](../processing-usage-data/imports-processing.md#import-usage-data-via-an-api). If you turn on the toggle, the first step in processing usage data is skipped because it leads to the imported lines being overwritten with **empty** and thus deleted.
+On the **Usage Data Suppliers** page, use the **Settings** action to open the **Generic Import Settings page**, where you can specify various setting for data import. In addition to the [Data exchange definitions](dataexchangedefinitions.md) to use to import data, the [Usage data customers and suppliers](customers-subscriptions.md#usage-data-customers-and-suppliers) and [Create Subscriptions](customers-subscriptions.md#usage-data-subscriptions) toggles control whether you automatically create this data when you process usage data. In addition, the **Process without Usage Data Blobs** toggle indicates that data from the related blob field isn't used as the basis for processing the usage data. This is the case, for example, if you import usage data using an API. To learn more, go to [Import usage data via API](../processing-usage-data/imports-processing.md#import-usage-data-via-an-api). If you turn on the toggle, the first step in processing usage data is skipped because it leads to the imported lines being overwritten with **Empty** and thus deleted.
 
 ### Custom processing of usage data
 
@@ -37,3 +37,4 @@ You can use custom usage data processing, for example, if the usage data is only
 ## Related information
 
 [Overview of usage-based billing](../welcome.md)  
+[Import data in usage-based billing](../processing-usage-data/imports-processing.md)  

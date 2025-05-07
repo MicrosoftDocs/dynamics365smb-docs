@@ -2,7 +2,7 @@
 title: Optimize Outlook for your Business Inbox
 description: Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 12/06/2023

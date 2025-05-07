@@ -2,7 +2,6 @@
 title: Print Goods and Service Tax Settlement Reports (NZ)
 description: Learn how to prepare and submit a periodic goods and services tax (GST) settlement in the New Zealand version of Business Central.
 author: brentholtorf
-    
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: GST settlement, GST settlement report, New Zealand version

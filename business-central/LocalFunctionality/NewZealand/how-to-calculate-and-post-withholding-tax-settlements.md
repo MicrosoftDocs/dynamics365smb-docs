@@ -30,4 +30,3 @@ The sum of all withheld amounts is reported as a truncated whole number to the N
 - [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

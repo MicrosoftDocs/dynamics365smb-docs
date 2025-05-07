@@ -20,4 +20,3 @@ ms.reviewer: v-soumramani
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

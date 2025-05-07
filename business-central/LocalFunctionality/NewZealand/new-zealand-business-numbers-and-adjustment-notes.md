@@ -2,7 +2,6 @@
 title: Inland Revenue Department Numbers and Adjustment Notes
 description: Learn about IRD numbers and adjustment notes and how they're supported in the New Zealand version of Business Central.
 author: brentholtorf
-    
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: IRD number, adjustment notes, credit memos

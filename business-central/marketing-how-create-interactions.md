@@ -3,7 +3,7 @@ title: Create interactions on contacts and segments
 description: Learn how to create interactions in Business Central for communication that you have with your contacts and segments.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.reviewer: bholtorf
 ms.date: 12/13/2023
 ms.custom: bap-template

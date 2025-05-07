@@ -4,10 +4,10 @@ description: Get an overview of the features for usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
-ms.date: 08/14/2024
+ms.date: 05/17/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -63,6 +63,6 @@ The final step is to create contract invoices. You can create invoices for the c
 ## Related information
 
 [Extension of subscription lines](masterdata/service-commitments.md)  
-[Linking subscription with subscriptions](processing-usage-data/connect-subscription-service-object.md)  
+[Linking supplier subscriptions with subscriptions](processing-usage-data/connect-subscription-service-object.md)  
 [Imports and processing](processing-usage-data/imports-processing.md)
 [Extend subscription contracts](processing-usage-data/extend-contract.md)

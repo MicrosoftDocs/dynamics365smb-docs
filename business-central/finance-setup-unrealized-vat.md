@@ -2,7 +2,7 @@
 title: Set up unrealized value added tax
 description: If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473

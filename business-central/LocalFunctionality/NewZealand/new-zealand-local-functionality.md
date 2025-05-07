@@ -2,7 +2,7 @@
 title: New Zealand local functionality
 description: The following articles describe the local functionality in the New Zealand version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: New Zealand, local functionality
 ms.date: 09/04/2024
 ms.author: bholtorf

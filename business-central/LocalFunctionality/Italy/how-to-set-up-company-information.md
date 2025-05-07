@@ -2,7 +2,7 @@
 title: How to set up company information
 description: Fiscal documents must contain all company information. You can enter all relevant data on the Company Information page when setting up a company.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/12/2023

@@ -4,7 +4,7 @@ description: Provides an overview of all the features that support analytics tas
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: feature overview
 ms.date: 04/30/2024
 ms.service: dynamics-365-business-central

@@ -4,7 +4,7 @@ description: Explore terminology in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: glossary
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -100,4 +100,4 @@ The most important terms can be looked up in this glossary.
 ## Related information
 
 [Overview of subscription billing](welcome.md)  
-[Overview of usage-based billing](../UBB/welcome.md)
+[Overview of usage based billing](../UBB/welcome.md)

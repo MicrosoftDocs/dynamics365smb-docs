@@ -2,7 +2,7 @@
 title: Canada Local Functionality 
 description: These articles describe the local functionality unique to the Canadian version of Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Canada local functionality, Canadian version features
 ms.date: 02/04/2025

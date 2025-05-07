@@ -4,9 +4,9 @@ description: Learn about calculating periods in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
-ms.search.form: 8051_Primary,
+ms.search.form: 8051_Primary, 8071, 8053
 ms.date: 05/06/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -124,3 +124,4 @@ The period calculation works almost the same in leap years as in normal years. T
 ## Related information
 
 [Customer subscription contracts](customer-contracts.md)  
+

@@ -4,7 +4,7 @@ description: Learn how you can install and uninstall apps and extensions in Busi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: solsen
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.date: 06/26/2024
 ms.custom: bap-template
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall

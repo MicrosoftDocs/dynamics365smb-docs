@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/06/2025
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post

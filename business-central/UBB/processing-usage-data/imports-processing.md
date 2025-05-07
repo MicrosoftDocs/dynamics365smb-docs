@@ -4,7 +4,7 @@ description: You can import and process data in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: 
 ms.search.form: 8042, 8044, 8035, 8038, 8036, 8041_Primary,
 ms.date: 05/07/2025
@@ -192,6 +192,6 @@ When you process usage data, the assignment is made either via the vendor subscr
 
 ## Related information
 
-[Linking subscription with subscription](connect-subscription-service-object.md)  
+[Linking supplier subscriptions with subscriptions](connect-subscription-service-object.md)  
 [Usage-based billing customers and subscriptions](../masterdata/customers-subscriptions.md)  
 [Extension of subscription lines](../masterdata/service-commitments.md)  

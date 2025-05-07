@@ -4,7 +4,7 @@ description: Get an overview of the features available for subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8067
 ms.date: 05/07/2025

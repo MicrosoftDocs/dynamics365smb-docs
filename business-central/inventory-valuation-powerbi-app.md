@@ -4,7 +4,7 @@ description: The Inventory Landing Page gives an overview of how the Inventory R
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37065_Primary, 37056, 37057, 37058
 ms.date: 10/28/2024

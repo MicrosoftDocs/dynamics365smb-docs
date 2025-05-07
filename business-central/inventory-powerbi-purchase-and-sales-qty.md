@@ -4,7 +4,7 @@ description: The Purchase and Sales Quantity report shows purchase and sales qua
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37025_Primary
 ms.date: 10/28/2024

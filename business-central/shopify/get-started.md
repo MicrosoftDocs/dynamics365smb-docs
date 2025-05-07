@@ -2,7 +2,7 @@
 title: Getting started with the connector for Shopify
 description: First steps when configuring a connection between Business Central and Shopify.
 ms.date: 01/27/2025
-ms.topic: article
+ms.topic: get-started
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 

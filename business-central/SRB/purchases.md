@@ -4,7 +4,7 @@ description: Learn about purchasing in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8057, 8014, 8015, 8004,
 ms.date: 05/07/2025

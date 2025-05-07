@@ -4,7 +4,7 @@ description: The following articles describe the local functionality in the Aust
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: v-soumramani
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Australia local functionality, Australian version
 ms.date: 03/25/2025
 ms.service: dynamics-365-business-central

@@ -4,7 +4,7 @@ description: You can revalue the inventory based on the valuation base that most
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/07/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

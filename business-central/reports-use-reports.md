@@ -2,7 +2,7 @@
 title: Use reports in your daily work
 description: Provides an overview of the reporting features in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 12/27/2024

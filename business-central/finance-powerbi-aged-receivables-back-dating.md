@@ -4,7 +4,7 @@ description: The Aged Receivables (Back Dating) report provides an overview of o
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36993_Primary
 ms.date: 10/31/2024

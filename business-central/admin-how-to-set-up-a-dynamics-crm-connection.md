@@ -4,7 +4,7 @@ description: Set up a connection between Business Central and Dataverse. Busines
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.forms: 7200, 7201
 ms.date: 02/28/2024

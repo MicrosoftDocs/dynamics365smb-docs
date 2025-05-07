@@ -2,7 +2,7 @@
 title: Use One VAT Code in Journals [NO]
 description: In Norway, you can use the feature one VAT code in a journal, so that you can post VAT by using a single field, VAT Code.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10602, 10697, 10698, 10604

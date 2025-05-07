@@ -5,7 +5,7 @@ description: Setting up Subcontracting
 author: v-debapd
 
     
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021

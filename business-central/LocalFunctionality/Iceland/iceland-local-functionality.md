@@ -2,7 +2,7 @@
 title: Iceland local functionality
 description: This article provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Iceland, Icelandic localization, Icelandic version
 ms.date: 02/06/2025

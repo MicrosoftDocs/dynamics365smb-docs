@@ -4,7 +4,7 @@ description: This article explains how to respond to requests about personal dat
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/14/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

@@ -4,7 +4,7 @@ description: Explore the reports and analytics in the standard version of Busine
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316, 36992, 36993
 ms.date: 12/16/2024

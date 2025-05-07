@@ -2,7 +2,7 @@
 title: Handle inventory and manufacturing costs
 description: Learn how many fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/30/2024

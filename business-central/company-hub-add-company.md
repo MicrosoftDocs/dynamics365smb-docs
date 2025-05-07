@@ -2,7 +2,7 @@
 title: Add companies to your company hub
 description: Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: accountant, accounting, company hub
 ms.search.form: 1151, 1155, 1166, 1165
 ms.date: 09/28/2023

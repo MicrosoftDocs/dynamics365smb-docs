@@ -2,7 +2,7 @@
 title: Calculating distribution amounts [NZ]
 description: Describes how to keep account balances in proportion to one another by reallocating the amount in one general ledger account to another.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/10/2023

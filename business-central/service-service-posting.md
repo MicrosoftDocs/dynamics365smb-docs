@@ -2,7 +2,7 @@
 title: Service Posting
 description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021

@@ -4,7 +4,7 @@ description: Learn about assembling items for sales orders or to keep in stock f
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: kit, kitting

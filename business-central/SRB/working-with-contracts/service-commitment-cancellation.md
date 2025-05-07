@@ -4,7 +4,7 @@ description: You can cancel planned subscription lines in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8004,
 ms.date: 05/02/2025

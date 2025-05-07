@@ -2,7 +2,7 @@
 title: Print Income Statements [NZ]
 description: Describes how print the company's annual income statement in a report in the New Zealand version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/25/2021

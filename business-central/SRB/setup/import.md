@@ -4,7 +4,7 @@ description: You can use import contracts and contract lines in subscription bil
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8013, 8008, 8009
 ms.date: 05/06/2025

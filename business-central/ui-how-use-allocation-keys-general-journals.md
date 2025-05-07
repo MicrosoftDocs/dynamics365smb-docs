@@ -2,7 +2,7 @@
 title: Use Allocation Keys in General Journals
 description: You can allocate an entry in a general journal to several different accounts when you post the journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cost accounting
 ms.search.form: 283, 284

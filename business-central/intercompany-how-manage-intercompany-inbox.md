@@ -4,7 +4,7 @@ description: Intercompany transactions you receive from your partners are listed
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: incoming document

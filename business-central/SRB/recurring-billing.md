@@ -4,7 +4,7 @@ description: You can use recurring billing in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8067_Primary, 
 ms.date: 05/02/2025

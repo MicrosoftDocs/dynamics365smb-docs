@@ -2,7 +2,7 @@
 title: Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs
 description: Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021

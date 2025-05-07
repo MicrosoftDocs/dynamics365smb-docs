@@ -4,7 +4,7 @@ description: You can manage subscription contracts in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8014, 8071, 8053, 8052, 8004, 8015
 ms.date: 05/06/2025

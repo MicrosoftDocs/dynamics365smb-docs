@@ -4,7 +4,7 @@ description: Learn to use features in Business Central designed manage and track
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central

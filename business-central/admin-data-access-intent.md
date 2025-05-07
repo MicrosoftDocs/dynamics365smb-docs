@@ -3,7 +3,7 @@ title: Manage database access intent in Business Central
 description: Change the database access intent for reports, API pages, and queries.
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9880
 ms.date: 04/01/2021

@@ -4,7 +4,7 @@ description: This article explains how Business Central complies with internatio
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

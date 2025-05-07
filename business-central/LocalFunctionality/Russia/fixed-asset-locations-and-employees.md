@@ -4,7 +4,7 @@ description: Russian enhancements include locations and employees for fixed asse
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

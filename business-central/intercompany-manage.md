@@ -4,7 +4,7 @@ description: With the Intercompany functionality, you can simplify business proc
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary

@@ -2,7 +2,7 @@
 title: Report and submit the IRS 1099 form [US]
 description: Learn how to submit and report the 1099 tax form in the United States version.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: local, 1099, tax, IRS, IRIS, FIRE
 ms.search.form: 100136, 10037, 10048, 10050, 10051
 ms.date: 02/04/2025

@@ -4,7 +4,7 @@ description: You use payment methods, for example, check, bank transfer, cash, o
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427,

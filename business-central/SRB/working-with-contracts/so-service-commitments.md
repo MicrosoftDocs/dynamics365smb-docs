@@ -4,7 +4,7 @@ description: You can use planned subscription lines with subscriptions in subscr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8014, 8004_Primary
 ms.date: 05/06/2025

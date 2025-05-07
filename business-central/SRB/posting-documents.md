@@ -4,7 +4,7 @@ description: Learn about posted documents in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8071, 8053
 ms.date: 05/06/2025

@@ -4,7 +4,7 @@ description: You can use credit memos in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059,
 ms.date: 08/14/2024
@@ -23,7 +23,7 @@ If deferrals were created by a contract invoice, they're automatically fully rel
 
 You can delete an invoice as long as it isn't posted. The billing lines are still in **Recurring Billing** page where you can edit, update, or delete them.
 
-To avoid discrepancy between contract and posting documents, the ability to edit unposted contract invoices or credit memos ([Posting documents](../posting-documents.md) is limited. The same applies to processing billing and contract lines if there's a posting document.
+To avoid discrepancy between contract and posting documents, the ability to edit unposted [Posting documents](../posting-documents.md) is limited. The same applies to processing billing and contract lines if there's a posting document.
 
 If the posting document was deleted, you can edit the billing and contract lines normally. After editing a contract line, the billing line must be updated before a new posting document is created. To learn more, go to [Need to update](../recurring-billing.md#need-to-update).
 

@@ -4,7 +4,7 @@ description: The EBITDA report provides an overview of your company's EBIT and E
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36991_Primary
 ms.date: 10/31/2024

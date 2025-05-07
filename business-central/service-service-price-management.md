@@ -2,7 +2,7 @@
 title: Service Price Management
 description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021

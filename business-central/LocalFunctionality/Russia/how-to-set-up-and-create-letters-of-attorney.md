@@ -2,7 +2,7 @@
 title: Set up and creating letters of attorney in Russia
 description: Russian enhancements include creating and printing letters of attorney.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/08/2023
 ms.reviewer: bholtorf

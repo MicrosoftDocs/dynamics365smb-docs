@@ -2,7 +2,7 @@
 title: Prepare for VAT transactions reports [IT]
 description: The following article explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/17/2023

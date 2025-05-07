@@ -4,7 +4,7 @@ description: Use payment terms to manage due dates and payment discounts.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 4,
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central

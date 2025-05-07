@@ -2,7 +2,7 @@
 title: Chart of accounts in Russia
 description: Russian enhancements include the chart of accounts.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/09/2023
 ms.reviewer: bholtorf

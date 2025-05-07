@@ -4,7 +4,7 @@ description: Learn how to use posting groups to save time and avoid mistakes whe
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/13/2024

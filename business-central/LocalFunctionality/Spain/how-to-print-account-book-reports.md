@@ -2,7 +2,7 @@
 title: How to print account book reports [ES]
 description: Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/22/2023

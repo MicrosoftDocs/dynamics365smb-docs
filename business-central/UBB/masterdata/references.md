@@ -4,7 +4,7 @@ description: You can use references in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Usage data supplier references
 
-To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [subscription line](service-commitments.md#service-commitment-packages), which is part of a vendor or customer subscription contract.
+To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [subscription line](service-commitments.md#service-commitment-packages) that is part of a vendor or customer subscription contract.
 
 > [!NOTE]
 > You can only charge subscription lines that are part of a vendor or customer subscription contract.
@@ -51,5 +51,5 @@ To maintain the customer reference, you can open the reference table by using th
 ## Related information
 
 [Usage-based billing customers and subscriptions](customers-subscriptions.md)  
-[Extend contract](../processing-usage-data/extend-contract.md)  
+[Extend a subscription contract](../processing-usage-data/extend-contract.md)  
 [Extension of subscription lines](service-commitments.md)  

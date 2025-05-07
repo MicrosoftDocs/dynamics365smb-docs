@@ -2,7 +2,7 @@
 title: United States local functionality
 description: These articles describe the local functionality in the United States version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: United States, local functionality
 ms.search.form: 315, 466, 467, 468, 469
 ms.date: 02/04/2025

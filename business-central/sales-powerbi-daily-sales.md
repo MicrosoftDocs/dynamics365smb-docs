@@ -4,7 +4,7 @@ description: The *Daily Sales* report provides a clear picture of your organizat
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36999_Primary
 ms.date: 10/26/2024

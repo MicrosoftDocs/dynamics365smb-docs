@@ -2,7 +2,7 @@
 title: How to Set the Work Date as the Posting Date [BE]
 description: Set the general ledger to use the work date as the posting date for customer or vendor open entries on invoices, payments, or credit memos.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Belgian version, posting date, work date, open entries
 ms.date: 04/03/2025

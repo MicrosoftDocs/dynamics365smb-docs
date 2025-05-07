@@ -4,7 +4,7 @@ description: There are a few general things to set up for subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: 
 ms.search.form: 8059, 8054, 8051_Primary
 ms.date: 08/14/2024

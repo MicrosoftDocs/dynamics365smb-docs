@@ -2,7 +2,7 @@
 title: The Image Analyzer Extension
 description: This extension lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.search.form: 2026, 2027, 2029, 

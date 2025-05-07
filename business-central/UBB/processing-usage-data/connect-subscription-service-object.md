@@ -4,7 +4,7 @@ description: You can link supplier subscriptions with subscriptions in usage-bas
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8031, 8042,
 ms.date: 05/07/2025

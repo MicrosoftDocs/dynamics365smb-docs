@@ -2,7 +2,7 @@
 title: Print Bank Account Reconciliation Reports 
 description: In the Australian version, the Bank Account Reconciliation report lists open bank ledger entries as either unpresented checks or unrecorded deposits.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: bank account reconciliation, unpresented checks, unrecorded deposits, bank account reconciliation report, bank ledger entries, Australian version
 ms.date: 03/26/2025

@@ -2,7 +2,7 @@
 title: How to Print Troubleshooting Reports [MX]
 description: Troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Mexican version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
 ms.date: 02/25/2025

@@ -2,7 +2,7 @@
 title: Account for the cost to dispose fixed asset in Russia
 description: Russian enhancements include accounting for the cost of disposing of fixed assets.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/14/2023
 ms.reviewer: bholtorf

@@ -2,7 +2,7 @@
 title: Print test reports for delivery reminders [CH]
 description: After you create delivery reminders and made needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023

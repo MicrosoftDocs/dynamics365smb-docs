@@ -3,7 +3,7 @@ title: Czech local functionality - Posting groups in transfer orders
 description: In the Transfer Orders functionality, fields for Gen. Bus. Post. Groups for Ship and Receive posting were added.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/09/2023
 ms.reviewer: bholtorf

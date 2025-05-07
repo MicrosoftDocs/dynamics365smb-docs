@@ -4,7 +4,7 @@ description: You can use job queue entries in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059,
 ms.date: 05/06/2025

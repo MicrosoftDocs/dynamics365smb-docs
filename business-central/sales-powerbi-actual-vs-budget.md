@@ -4,7 +4,7 @@ description: The Actual vs. Budget report provides a clear overview of your orga
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37008_Primary
 ms.date: 10/26/2024

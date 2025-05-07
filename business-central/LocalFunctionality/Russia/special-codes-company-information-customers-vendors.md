@@ -2,7 +2,7 @@
 title: Special codes for company information, customers, and vendors (RU)
 description: Russian enhancements include additional information about your company and each customer and vendor.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/27/2023
 ms.reviewer: bholtorf

@@ -2,7 +2,7 @@
 title: Microsoft Pay Standard
 description: The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 12/12/2023

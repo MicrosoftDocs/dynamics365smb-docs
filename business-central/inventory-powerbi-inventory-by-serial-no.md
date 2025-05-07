@@ -4,7 +4,7 @@ description: The Inventory by Serial No. report shows your total inventory broke
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37030_Primary
 ms.date: 10/28/2024

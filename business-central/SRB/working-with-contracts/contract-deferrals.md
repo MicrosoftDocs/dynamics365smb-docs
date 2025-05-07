@@ -1,17 +1,17 @@
 ---
-title: Contract deferrals
+title: Subscription contract deferrals
 description: You can use contract deferrals in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059, 8079, 8071, 314,
-ms.date: 08/14/2024
+ms.date: 05/07/2025
 ms.service: dynamics-365-business-central
 ---
 
-# Contract deferrals
+# Subscription contract deferrals
 
 In subscription billing, managing the timing of revenue and expense recognition is important. [!INCLUDE [prod_short](../../includes/prod_short.md)] offers contract deferrals that let you to defer customer-side revenues and vendor-side costs to future periods. These amounts aren't posted to revenue or expense accounts at the time of invoicing but are instead posted to accrual accounts and released to income on a monthly basis.
 

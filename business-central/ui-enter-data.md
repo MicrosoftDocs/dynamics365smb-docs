@@ -196,7 +196,7 @@ You can enter negative numbers in two ways. The number -20.5 can be entered as:
 
 In both cases, the amount will be recorded as -20.5.  
 
-If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
+If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. As an example, **10-20+** will result in 10 and not -10.  
 
 ## Entering dates and times
 
@@ -218,7 +218,7 @@ For manual date entry, you can enter two, four, six, or eight digits:
 - If the date you want is in the range 01/01/1950 through 12/31/2049, enter the year with two digits. Otherwise, enter the year with four digits.
 
   > [!NOTE]
-  > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, go to [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+  > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, go to [Configure Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 You can also enter a date as a weekday followed by a week number. Or, you can enter a year. For example, Mon25 or mon25 means Monday in week 25.  
 
@@ -283,9 +283,9 @@ For example, suppose you're using a numeric keyboard that uses a period (.) as t
 > [!TIP]
 > On occasion you may want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
-## More information
+## Related information
 
-[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+[Sort, search, and filter data in lists](ui-enter-criteria-filters.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

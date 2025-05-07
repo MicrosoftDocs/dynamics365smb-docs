@@ -1,6 +1,6 @@
 ---
-title: Enter Data in Business Central
-description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
+title: Enter data in Business Central
+description: Many general features help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Entering Data
+# Entering data
 
 There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features for entering data are described in this article.  
 

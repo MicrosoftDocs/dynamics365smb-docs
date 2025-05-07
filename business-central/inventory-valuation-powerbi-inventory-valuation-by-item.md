@@ -4,7 +4,7 @@ description: The Inventory Valuation by Item report shows item values on an item
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37057_Primary
 ms.date: 10/30/2024

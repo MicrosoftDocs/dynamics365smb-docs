@@ -4,7 +4,7 @@ description: The Income Statement by Month report provides a month-to-month view
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36985_Primary
 ms.date: 10/31/2024

@@ -4,7 +4,7 @@ description: The Balance Sheet by Month report provides a month-to-month view of
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36986_Primary
 ms.date: 10/31/2024

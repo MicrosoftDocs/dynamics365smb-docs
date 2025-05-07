@@ -4,7 +4,7 @@ description: The Project Tasks report breaks down each project and their tasks.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37034_Primary
 ms.date: 10/28/2024

@@ -4,7 +4,7 @@ description: The Power BI Projects app contains reports for an organization's pr
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37062_Primary, 37033, 37034, 37035, 37036, 37037, 37039
 ms.date: 10/28/2024

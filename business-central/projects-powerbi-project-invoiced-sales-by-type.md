@@ -4,7 +4,7 @@ description: The Project Invoiced Sales by Type report describes your sales acti
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37038_Primary
 ms.date: 10/28/2024

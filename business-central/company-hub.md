@@ -2,7 +2,7 @@
 title: Manage Work across Multiple Companies in the Company Hub
 description: Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 09/28/2023

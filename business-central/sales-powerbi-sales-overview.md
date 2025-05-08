@@ -4,7 +4,7 @@ description: The *Sales Overview* report provides a high-level summary of your o
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 36998_Primary
 ms.date: 10/26/2024

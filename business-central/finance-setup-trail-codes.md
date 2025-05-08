@@ -2,7 +2,7 @@
 title: Set Up Codes for Audit Trails
 description: Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279

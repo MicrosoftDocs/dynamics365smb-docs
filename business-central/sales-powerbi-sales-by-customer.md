@@ -4,7 +4,7 @@ description: The *Sales by Customer* report gives a clear picture of your organi
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37005_Primary
 ms.date: 10/26/2024

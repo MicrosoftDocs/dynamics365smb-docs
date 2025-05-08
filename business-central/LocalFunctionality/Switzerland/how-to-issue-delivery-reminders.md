@@ -2,7 +2,7 @@
 title: How to issue delivery reminders [CH]
 description: Learn how to issue and print delivery reminders after creating them to notify vendors effectively. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: issue delivery reminders, print delivery reminders, Swiss version
 ms.date: 04/29/2025

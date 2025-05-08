@@ -2,7 +2,7 @@
 title: Import ESR Payments [CH]
 description: Learn how to electronically import ESR files from your bank, which include details about paid invoices. You can also receive this file by mail.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import ESR files, paid invoices, ESR payments, ESR invoice data, Swiss version
 ms.search.form: 3010531, 3010532

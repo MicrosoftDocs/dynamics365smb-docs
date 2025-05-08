@@ -2,7 +2,7 @@
 title: Print Vendor Payments List Reports [CH]
 description: Learn how to generate the Vendor Payments List report, which provides a detailed overview of payments for each vendor, sorted either chronologically or by vendor grouping.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vendor payments list, vendor payments report, Swiss version
 ms.date: 04/29/2025

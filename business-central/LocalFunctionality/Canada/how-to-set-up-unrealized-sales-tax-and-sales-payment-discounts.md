@@ -2,7 +2,7 @@
 title: Unrealized Sales Tax Sales Payment Disc [CA]
 description: Use the General Ledger Setup page to set up unrealized sales tax and sales payment discounts in the Canadian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: unrealized sales tax, sales payments discounts, General Ledger Setup
 ms.date: 02/04/2025

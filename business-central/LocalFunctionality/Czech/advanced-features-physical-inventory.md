@@ -3,7 +3,7 @@ title: Czech local functionality - Advances features of physical inventory
 description: Companies need to distinguish the posting of inventory movements of the same goods so they require line-break of physical inventory Journal line.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 11/10/2023
 ms.reviewer: bholtorf

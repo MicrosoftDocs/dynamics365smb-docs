@@ -2,7 +2,7 @@
 title: Assign Delivery Reminder Codes to Vendors [CH]
 description: Learn how to assign delivery reminder terms to vendors in the Swiss version to enable reminders for overdue purchases.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: assign delivery reminder terms, delivery reminder terms, overdue purchases, Swiss version
 ms.search.form: 5005270, 5005272

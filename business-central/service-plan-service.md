@@ -2,7 +2,7 @@
 title: Planning Service Processes
 description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021

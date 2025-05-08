@@ -4,7 +4,7 @@ description: Learn about the sequence of tasks you must do to set up fixed asset
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: machinery, buildings
 ms.search.form: 5607,
 ms.date: 03/25/2024

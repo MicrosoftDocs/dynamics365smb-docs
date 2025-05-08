@@ -4,7 +4,7 @@ description: The Detailed Customer Ledger Entries report provides a detailed vie
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36997_Primary
 ms.date: 10/31/2024

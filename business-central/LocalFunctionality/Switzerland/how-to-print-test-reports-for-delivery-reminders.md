@@ -2,7 +2,7 @@
 title: Print test reports for delivery reminders [CH]
 description: Learn how to print test reports for delivery reminders in the Swiss version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: print test reports, delivery reminders, Swiss version
 ms.date: 04/29/2025

@@ -2,7 +2,7 @@
 title: Test Electronic Payments [BE]
 description: After electronic banking is set up and payment suggestions are generated, the payment journal lines can be tested for errors before posting them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic payments, test electronic payments, payment journal lines, Belgian version
 ms.search.form: 2000001

@@ -2,7 +2,7 @@
 title: Print the OCR journal - Test report
 description: You can print the OCR Journal – Test report to test the imported payment transactions in the cash receipt journal in the Norwegian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000100, 255

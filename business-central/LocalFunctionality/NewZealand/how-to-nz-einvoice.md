@@ -2,7 +2,7 @@
 title: Electronic invoicing in New Zealand
 description: This article explains how to work with the New Zealand localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, e-invoice, electronic invoice, Peppol, PINT A-NZ
 ms.search.form: 

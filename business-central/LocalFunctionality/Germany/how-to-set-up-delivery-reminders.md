@@ -2,7 +2,7 @@
 title: Set Up Delivery Reminders [DE]
 description: Use purchase delivery reminders in the German version of Business Central to notify vendors about overdue deliveries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: purchase delivery reminders, vendor reminders, overdue deliveries, German version
 ms.search.form: 5005270, 5005271, 5005271

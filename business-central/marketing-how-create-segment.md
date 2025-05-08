@@ -4,7 +4,7 @@ description: Describes how to create a segment for a group of contacts in Busine
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.form: 5091, 5093

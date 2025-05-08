@@ -2,7 +2,7 @@
 title: Set up delivery reminders (CH)
 description: Learn how to use purchase delivery reminders to remind vendors about overdue deliveries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: purchase delivery reminders, overdue deliveries, vendor reminders, Swiss version
 ms.search.form: 5005270, 5005272

@@ -2,7 +2,7 @@
 title: How to use banking and payment formats in Business Central
 description: Learn how to find and use banking and payment formats that suit your needs and comply with your country and bank requirements in Business Central.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: bank, format, payment, feed, stream, data exchange, AMC, link
 ms.search.form: 370, 1200, 20353

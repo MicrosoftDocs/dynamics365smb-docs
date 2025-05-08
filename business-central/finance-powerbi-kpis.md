@@ -4,7 +4,7 @@ description: Get an overview of all the KPIs and measures in the semantic model 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 10/31/2024

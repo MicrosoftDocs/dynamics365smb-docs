@@ -2,7 +2,7 @@
 title: Calculate Dates for purchases
 description: This article describes how you can calculate dates for purchases. 
 author: brentholtorf 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: 

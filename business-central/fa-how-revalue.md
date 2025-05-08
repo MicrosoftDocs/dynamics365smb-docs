@@ -4,7 +4,7 @@ description: Learn how to adjust the value of fixed assets, recording new amount
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 5628, 5629, 5633
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central

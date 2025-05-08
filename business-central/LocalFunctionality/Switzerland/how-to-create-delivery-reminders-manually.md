@@ -2,7 +2,7 @@
 title: How to create delivery reminders manually [CH]
 description: Learn how to manually create delivery reminders in Business Central for undelivered purchases in the Swiss version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create delivery reminders, undelivered purchases, manual delivery reminders, Swiss version
 ms.date: 04/28/2025

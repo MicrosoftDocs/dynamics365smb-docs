@@ -4,7 +4,7 @@ description: Set up workflows, workflow users and approval users to connect busi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 12/09/2024
 ms.service: dynamics-365-business-central

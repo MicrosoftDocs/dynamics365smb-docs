@@ -2,7 +2,7 @@
 title: Allocation Status and Repair Status | Microsoft Docs
 description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 04/01/2021

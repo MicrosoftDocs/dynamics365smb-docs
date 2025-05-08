@@ -2,7 +2,7 @@
 title: Create manual remittance payments [NO]
 description: Generally, payments are created automatically in the payment journal using the remittance suggestion function in the Norwegian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010

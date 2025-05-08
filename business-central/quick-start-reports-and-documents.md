@@ -4,7 +4,7 @@ description: Business Central offers built-in templates for reports and document
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 05/17/2024

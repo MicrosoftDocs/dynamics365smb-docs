@@ -2,7 +2,7 @@
 title: Export Payments Using LSV [CH]
 description: Learn how to export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: LSV files, export LSV files, write LSV files, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835

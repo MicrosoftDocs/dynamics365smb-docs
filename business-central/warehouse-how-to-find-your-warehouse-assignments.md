@@ -2,7 +2,7 @@
 title: Find Your Warehouse Assignments
 description: This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9000
 ms.date: 06/24/2021

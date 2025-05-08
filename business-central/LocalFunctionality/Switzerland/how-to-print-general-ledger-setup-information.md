@@ -2,7 +2,7 @@
 title: Print General Ledger Setup Information [CH]
 description: Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: G/L setup information, G/L setup, general setup information, Swiss version
 ms.date: 04/29/2025

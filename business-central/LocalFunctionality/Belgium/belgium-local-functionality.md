@@ -2,7 +2,7 @@
 title: Belgium local functionality
 description: The following articles describe the various local functionalities in the Belgian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Belgian version, Belgian local functionality
 ms.date: 04/01/2025
 ms.author: bholtorf

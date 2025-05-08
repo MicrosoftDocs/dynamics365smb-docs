@@ -4,7 +4,7 @@ description: Russian enhancements include inventory.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

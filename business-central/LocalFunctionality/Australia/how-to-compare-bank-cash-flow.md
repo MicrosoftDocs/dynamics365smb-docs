@@ -2,7 +2,7 @@
 title: Compare bank cash flow [AU]
 description: Use the Bank Detail Cashflow Compare report to compare the cash flow within a specific bank for a specified period in the Australian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: bank detail cashflow compare report, cash flow, Australian version
 ms.date: 03/25/2025

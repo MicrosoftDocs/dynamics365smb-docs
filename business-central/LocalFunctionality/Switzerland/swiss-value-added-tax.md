@@ -2,7 +2,7 @@
 title: Swiss Value Added [CH]
 description: This article explains several enhancements that have been made to the Swiss VAT reporting features.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Swiss VAT reporting, VAT amounts, VAT exchange rates, currency exchange rates, Swiss version
 ms.date: 05/02/2025

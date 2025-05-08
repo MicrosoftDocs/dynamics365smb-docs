@@ -2,7 +2,7 @@
 title: Expose objects as web services
 description: Publish objects as web services to make them immediately available for your Business Central solution.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 810_Primary
 ms.date: 01/31/2025
 ms.author: bholtorf

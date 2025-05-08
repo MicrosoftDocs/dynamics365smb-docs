@@ -2,7 +2,7 @@
 title: Manage Saved Settings for Reports and Batch Jobs
 description: Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021

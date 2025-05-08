@@ -2,7 +2,7 @@
 title: Process an LSV collection [CH]
 description: Learn how to create and process payments using LSV journals for Lastschrift Verfahren (LSV+) customers in the Swiss version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: process LSV collection, create LSV collection, LSV collection, LSV journal, LSV, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835

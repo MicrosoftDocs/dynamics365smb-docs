@@ -4,7 +4,7 @@ description: Learn how to track consumption of employee hours, machine hours, in
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 12/13/2023
 ms.service: dynamics-365-business-central

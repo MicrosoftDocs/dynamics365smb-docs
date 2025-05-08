@@ -2,7 +2,7 @@
 title: How to set up initial item costs [IT]
 description: The following article explains how to set up initial item costs with the Before Start Item Cost feature.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/24/2023

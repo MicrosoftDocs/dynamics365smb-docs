@@ -2,7 +2,7 @@
 title: Payables and receivables in Russia
 description: Russian enhancements include payables and receivables in the Russian version.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/07/2023
 ms.reviewer: bholtorf

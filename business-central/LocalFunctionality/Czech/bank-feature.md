@@ -4,7 +4,7 @@ description: This feature provides improved efficiency and prevents users from m
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
 ms.date: 06/17/2021
 ms.reviewer: bholtorf

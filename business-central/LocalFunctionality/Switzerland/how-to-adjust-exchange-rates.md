@@ -2,7 +2,7 @@
 title: How to Adjust Exchange Rates [CH]
 description: Learn how to use the official VAT currency conversion rates set by the Federal Tax Administration for taxable sales in foreign currencies.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT official rate, currency conversion, adjust exchange rates, taxable sales, Swiss version
 ms.date: 04/28/2025

@@ -4,7 +4,7 @@ description: You can block items and item variants from being entered on lines i
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: item, variant, product
 ms.date: 02/05/2025
 ms.service: dynamics-365-business-central

@@ -4,7 +4,7 @@ description: You must specify which type of data you store about people so that 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 1752,
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central

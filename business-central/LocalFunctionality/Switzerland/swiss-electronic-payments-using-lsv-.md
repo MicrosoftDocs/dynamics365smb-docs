@@ -2,7 +2,7 @@
 title: Swiss electronic payments using LSV+ [CH]
 description: Learn about the LSV+, or direct debit, which is an electronic payment method that permits companies to retrieve payments directly from their customers' bank accounts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: LSV+, direct debit, direct payment retrieval, Swiss version
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835

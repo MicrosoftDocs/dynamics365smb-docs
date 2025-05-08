@@ -2,7 +2,7 @@
 title: Print an Inventory Picking List from a Sales Order in Switzerland
 description: Learn how to print an inventory picking list directly from a sales order in the Swiss version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: inventory picking list, print picking list, Swiss version
 ms.date: 04/29/2025

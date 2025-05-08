@@ -2,7 +2,7 @@
 title: Set Up a Posting Date Warning [GB]
 description: Learn to set up the warning message displayed when posting sales and purchase documents with a posting date different from the work date.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: set up warning message, posting sales, posting purchase, posting date, work date
 ms.search.form: 459, 460

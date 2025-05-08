@@ -2,7 +2,7 @@
 title: View posted tax credit memos [NZ]
 description: Describes how to view details of sales tax credit memos, and purchase tax credit memos that are posted in the New Zealand version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 11/07/2023

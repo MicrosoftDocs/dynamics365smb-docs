@@ -4,7 +4,7 @@ description: Learn how to get help and support for Business Central. Including c
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.form: HelpAndSupport
 ms.date: 10/25/2024
 ms.custom: bap-template

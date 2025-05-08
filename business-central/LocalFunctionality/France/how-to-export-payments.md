@@ -2,7 +2,7 @@
 title: How to Export Payments
 description: Use the Payment Management module to export your payments electronically via a text file or XMLport.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment management module, payment export, French version
 ms.date: 04/15/2025

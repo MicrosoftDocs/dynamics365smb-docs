@@ -2,7 +2,7 @@
 title: View temporary balances in GL journals [CH]
 description: Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: temporary balances, G/L account balances, general ledger journals, Swiss version
 ms.search.form: 11500

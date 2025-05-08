@@ -2,7 +2,7 @@
 title: Print VAT Audit Reports
 description: Learn how Business Central supports the British requirements for VAT audits.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT audits
 ms.search.form: 317, 320

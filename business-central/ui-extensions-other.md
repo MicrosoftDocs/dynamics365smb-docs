@@ -2,7 +2,7 @@
 title: Business Central Extensions by Other Providers
 description: This article lists the apps and extensions to customize Business Central provided by other companies.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 02/17/2025

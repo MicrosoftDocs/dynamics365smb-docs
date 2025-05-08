@@ -2,7 +2,7 @@
 title: Swiss Electronic Payments
 description: Learn about electronic payment methods, ESR, LSV+, and SEPA credit transfers.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: electronic payment methods, ESR, LSV+, SEPA credit transfers, Swiss version
 ms.date: 04/30/2025

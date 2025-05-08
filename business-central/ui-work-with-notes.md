@@ -4,7 +4,7 @@ description: Attach a note to any record in the application. For example, if you
 author: jswymer
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
     ROBOTS: NOINDEX,NOFOLLOW

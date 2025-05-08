@@ -4,7 +4,7 @@ description: "This article describes how to troubleshoot access to camera and lo
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

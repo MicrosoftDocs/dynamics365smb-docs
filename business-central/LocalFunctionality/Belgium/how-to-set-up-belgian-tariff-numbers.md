@@ -2,7 +2,7 @@
 title: Set Up Belgian Tariff Numbers [BE]
 description: Learn how to set up eight-digit Belgian tariff numbers for compliance with customs and tax regulations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tariff, tariff numbers, item code, Intrastat, customs, tax regulations, conversion factor, Belgian version
 ms.search.form: 310

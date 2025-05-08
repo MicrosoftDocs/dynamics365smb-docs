@@ -2,7 +2,7 @@
 title: How to Print Swiss VAT Statements (older version)
 description: Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Swiss VAT statement, VAT statement, Swiss version
 ms.date: 04/29/2025

@@ -2,7 +2,7 @@
 title: Set up and invoicing sales prepayments
 description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 01/29/2024

@@ -1,7 +1,7 @@
 ---
 title: "Control add-in resiliency in Business Central"
 description: What to if control add-ins or custom controls are resulting in reduced functionality in Business Central.
-ms.topic: conceptual
+ms.topic: article
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 12/12/2023

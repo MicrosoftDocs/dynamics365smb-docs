@@ -4,7 +4,7 @@ description: Learn about the different built-in methods to depreciate or write-d
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: write down, depreciate, depreciation
 ms.search.form: 5611, 5629, 5633
 ms.date: 03/25/2024

@@ -4,7 +4,7 @@ description: You can use cancel service commitments in subscription and recurrin
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024

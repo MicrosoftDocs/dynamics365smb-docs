@@ -54,7 +54,7 @@ You must download the following apps from AppSource, and install them in your [!
 - [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2304910)
 
 > [!NOTE]
-> The [!INCLUDE [prod_short](includes/prod_short.md)] Virtual Table app is optional. You only need it if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [View item availability in Business Central from Field Service](#view-item-availability-in-business-central-from-field-service).
+> The [!INCLUDE [prod_short](includes/prod_short.md)] Virtual Table app is optional. You only need it if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [Make item availability information in Business Central available in Field Service](#make-item-availability-information-in-business-central-available-in-field-service).
 
 ### Assign permissions and security roles to user accounts
 

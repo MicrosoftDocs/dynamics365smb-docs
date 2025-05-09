@@ -3,9 +3,9 @@ title: Analyze list page and query data using data analysis
 description: Learn how to use the analysis mode in Business Central to analyze data.
 author: jswymer 
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 06/13/2024
+ms.date: 05/09/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -31,7 +31,7 @@ This article explains how to use the data analysis feature from list pages and q
 
 Follow these steps to start using the analysis mode.
 
->[!TIP]
+> [!TIP]
 > Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot.](analysis-assist.md)
 
 1. Open the list page or query.
@@ -116,6 +116,27 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 
 > [!NOTE]
 > If you use personalization to add or remove fields from a list page, your choice of visibility is reflected in the **Columns** pane. An added field has the **Show** checkbox cleared. To include the added field in an analysis definition, select the checkbox in the **Columns** pane. To learn more about personalization, go to [Add/remove fields and columns on a page](ui-personalization-user.md#fields).
+
+#### Add a field from a related table
+
+> [!NOTE]
+> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Data Analysis - Edit** permission set.
+
+Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis tabs. For example, if you're analyzing the **Customer Ledger Entries** page, you can add fields from the **Customer** table.  You can also group data by these related fields, enabling a more comprehensive and advanced data analysis.
+
+When you open the **Columns** pop-up menu, tables related to the current page's source table are suggested. If you want to see all suggestions, choose **Other source**.
+
+<!-- image and explanation -->
+
+If you don't find the table of field that you're looking for, there are a few things to check:
+
+- The table must be related to the source table of the page you're analyzing. 
+- You must have permission to access the table or field. If you don't have permission, the field won't be available in the list of fields to add.
+- The field must be a field that can be added to the analysis. For example, you can't add fields that are internal or not allowed in customizations.
+- The table or field must have a page associated with it. If the table or field doesn't have a page, you won't be able to add it to the analysis.
+- Certain types of fields, such as Media fields, aren't supported in analysis mode.
+- When you add related fields, all calculated fields are lost. 
+
 
 ### Analysis filters (4)
 

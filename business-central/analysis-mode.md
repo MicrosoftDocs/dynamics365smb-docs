@@ -128,7 +128,7 @@ When you open the **Columns** pop-up menu, tables related to the current page's 
 
 <!-- image and explanation -->
 
-If you don't find the table of field that you're looking for, there are a few things to check:
+If you don't find the table or field that you're looking for, there are a few things to check:
 
 - The table must be related to the source table of the page you're analyzing. 
 - You must have permission to access the table or field. If you don't have permission, the field won't be available in the list of fields to add.

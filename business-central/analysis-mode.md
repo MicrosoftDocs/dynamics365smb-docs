@@ -122,11 +122,15 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 > [!NOTE]
 > Adding fields from related tables is available from version 26.2 and to use it, you must have the **Data Analysis - Edit** permission set.
 
-Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer Ledger Entries** page, you can add fields from the **Customer** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
+Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
 
-From the **Analysis** context menu, you then select **Add columns from** option and then see the tables related to the current page's source table as suggestions. If you want to see all suggestions, choose **Other source...**. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can then choose the field that you want to add to your analysis tab as a new column. The field is added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab.
+To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can then choose the field that you want to add to your analysis tab as a new column. The field is added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
 
 :::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
+
+Instead, if you want to see all suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page, and then the field to show on your analysis view.
+
+:::image type="content" source="media/analysis-view-other-source.png" alt-text="Add columns from another source":::
 
 ##### Things to check
 

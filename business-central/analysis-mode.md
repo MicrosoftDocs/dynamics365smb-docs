@@ -122,9 +122,13 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 > [!NOTE]
 > Adding fields from related tables is available from version 26.2 and to use it, you must have the **Data Analysis - Edit** permission set.
 
-Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis tabs. For example, if you're analyzing the **Customer Ledger Entries** page, you can add fields from the **Customer** table.  You can also group data by these related fields, enabling a more comprehensive and advanced data analysis.
+Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis tabs. For example, if you're analyzing the **Customer Ledger Entries** page, you can add fields from the **Customer** table. You can group data by these related fields, enabling a more comprehensive and advanced data analysis.
 
-When you open the **Columns** pop-up menu, tables related to the current page's source table are suggested. If you want to see all suggestions, choose **Other source**.
+
+When you open the **Columns** pop-up menu, tables related to the current page's source table are suggested. If you want to see all suggestions, choose **Other source**. 
+
+You can access the **Add columns from** from the context menu on an analysis mode tab and an analysis mode column.The fields are inserted as new columns to the right.
+
 
 <!-- image and explanation -->
 

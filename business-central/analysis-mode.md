@@ -124,9 +124,11 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 
 Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer Ledger Entries** page, you can add fields from the **Customer** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
 
-From the **Analysis** context menu, you the select **Add columns from** option and then see the tables related to the current page's source table as suggestions. If you want to see all suggestions, choose **Other source...**. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can then choose the field that you want to add to your analysis tab as a new column. The field is added to the **Columns** pane and to the data area.
+From the **Analysis** context menu, you then select **Add columns from** option and then see the tables related to the current page's source table as suggestions. If you want to see all suggestions, choose **Other source...**. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can then choose the field that you want to add to your analysis tab as a new column. The field is added to the **Columns** pane and to the data area.
 
-<!-- image and explanation -->
+:::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
+
+##### Things to check
 
 If you don't find the table or field that you're looking for, there are a few things to check:
 

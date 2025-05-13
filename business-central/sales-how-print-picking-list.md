@@ -30,6 +30,20 @@ You can also save the picking list as a document, for example, to send to someon
 > [!NOTE]
 > If you used the **Explode BOM** function on the sales order, then only the components of the related assembly item are shown in the report. Learn more at [Work with Bills of Material](inventory-how-work-BOMs.md).
 
+## To print a single set of pick instructions for multiple sales documents
+
+It might be useful to print pick instructions so that a warehouse employees can pick for multiple sales documents from a single list.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the **Pick Instruction** action.
+1. In the **Document Type** field, choose the type of document you're working with.
+1. In the **No.** field, enter a filter expression to identify the documents. The following are examples of ways to filter.
+
+   * To filter on a consecutive series of document numbers, enter the first and last document numbers separated by **..**. For example, **10000..10010**.
+   * To filter on specific documents, enter the document numbers separated by a **|**. For example, **10000|10005|10010**.
+
+To learn more about filter criteria and operators, go to [Enter filter criteria](ui-enter-criteria-filters.md#enter-filter-criteria).
+
 ## Related information
 
 [Inventory](inventory-manage-inventory.md)  

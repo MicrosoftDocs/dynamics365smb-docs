@@ -128,7 +128,7 @@ To add fields from related tables, you select the **Add columns from** option fr
 
 :::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
 
-Instead, if you want to see all suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page, and then the field to show on your analysis view.
+If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page, and then the field to show on your analysis view.
 
 :::image type="content" source="media/analysis-view-other-source.png" alt-text="Add columns from another source":::
 

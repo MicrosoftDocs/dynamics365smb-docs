@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/13/2025
+ms.date: 05/14/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 103, 104, 108_Primary, 195, 196, 197, 198, 488, 489, 490_Primary, 764, 765, 766
@@ -107,6 +107,16 @@ If you want the report output to include an introductory and/or a closing paragr
 [!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
 
 If you want to control how negative numbers show in the report output (both on-screen and in PDF), you use the **Negative Amount Format** action on the **Options** FastTab to choose your preferred format. The format can be a minus sign or parentheses.
+
+### Show amounts in an additional currency (ACY)
+
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. If you designate a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and ACY on each G/L entry.
+
+Financial reports are based on G/L entries. To display report data in the additional reporting currency, select the **Show Amounts in Add. Reporting Currency** checkbox on the **Options** FastTab for the relevant report.
+
+> [!NOTE]
+> The **Show Amounts in Add. Reporting Currency** checkbox is only available if you set up an additional reporting currency (ACY).
+To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ### Create or edit a row definition
 

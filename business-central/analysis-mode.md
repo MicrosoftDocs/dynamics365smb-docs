@@ -120,7 +120,7 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 #### Add a field from a related table
 
 > [!NOTE]
-> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Data Analysis - Edit** permission set.
+> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Add Related Fields** permission set.
 
 Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
 

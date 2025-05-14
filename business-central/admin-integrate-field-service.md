@@ -19,9 +19,9 @@ The integration also facilitates the invoicing and fulfillment of work orders in
 
 By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)], you don't have to enter data manually or duplicate efforts. Integration also provides a comprehensive view of service operations and finances, enabling better decision-making and operational efficiency.
 
-## Types of integrations (*****THIS IS A NEW SECTION*****)
+## Types of integrations
 
-Depending on the business processes you need, you can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] with project management features only, or project management and service management features in [!INCLUDE [prod_short](includes/prod_short.md)]. 
+Depending on the business processes you need, you can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] with project management features only, or project management and service management features in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > The option to integrate with project management and service management is a package deal. That is, you can't integrate with service management features only. The option always integrates both sets of features.
@@ -32,6 +32,9 @@ For example, integrating [!INCLUDE [field-service-short](includes/field-service-
 - Improved tracking of repair parts and supplies for services.
 - Accurate service estimates and invoices.
 
+> [!NOTE]
+> Integrating with service management requires that you're using the Premium experience.
+
 ## Prerequisites
 
 > [!NOTE]
@@ -39,12 +42,10 @@ For example, integrating [!INCLUDE [field-service-short](includes/field-service-
 
 ### Integrate with Dataverse and Dynamics 365 Sales
 
-Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is built on top of Dynamics 365 Sales, you must:
+To integrate with [!INCLUDE [field-service-short](includes/field-service-short.md)], you must:
 
 - [Set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide).
 - [Enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
-
-To integrate with project and service management, your [!INCLUDE [field-service-short](includes/field-service-short.md)] and [!INCLUDE [prod_short](includes/prod_short.md)] must be in the same tenant. It's a requirement for using virtual tables.
 
 ### Install required apps
 
@@ -75,7 +76,8 @@ Users who post project journals must have the following permission set:
 
 - Dynamics 365 Sales Integration
 
-You must be using the **Premium** experience, which requires a license. To learn more about the license, go to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544). When you have the license, on the **Company Information** page in [!INCLUDE [prod_short](includes/prod_short.md)], set the **User Experience** field to **Premium**.
+> [!NOTE]
+> To integrate with project and service management, you must be using the **Premium** experience, which requires a license. To learn more about the license, go to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544). When you have the license, on the **Company Information** page in [!INCLUDE [prod_short](includes/prod_short.md)], set the **User Experience** field to **Premium**.
 
 #### Field Service
 
@@ -109,7 +111,6 @@ After you have a connection to Dataverse and Sales, you can set up your integrat
 
 The following list points out the key settings in the guide.
 
-- Optionally, if you want to enable technicians to view information about item availability from work orders, choose the **Install Business Central Virtual Table app** link.
 - To let people post consumption of items and services in [!INCLUDE [field-service-short](includes/field-service-short.md)] work orders, specify the **Project Journal Template** and **Project Journal Batch** to use to post consumption of products and services.
 - Because services are expressed in duration in [!INCLUDE [field-service-short](includes/field-service-short.md)], specify the **Hours Unit of Measure** to use to convert durations to quantities in [!INCLUDE [prod_short](includes/prod_short.md)].
 - You can also specify when work order products and service lines synchronize to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, they might synchronize when work order lines are used, or when someone completes a work order. Choose the appropriate option in the **Synchronize work order products/services** field.
@@ -118,13 +119,16 @@ The following list points out the key settings in the guide.
    - When a work order is complete
    - When work order products or services are used
 
+- Specify the **Integration Type** to integrate with project features only, or both project management and service management. The latter requires that you're using the Premium experience. To learn more, go to [Types of integrations](#types-of-integrations).
+- Optionally, if you want to enable technicians to view information about item availability from work orders, choose the **Install Business Central Virtual Table app** link.
+
 ### Run a full synchronization
 
 After you finish the setup, run a full synchronization from the **Dynamics 365 Field Service Integration Setup** page. This action synchronizes table mappings for things like:
 
 - Project tasks for projects with the **Apply Usage Link** set. This synchronization makes [!INCLUDE [prod_short](includes/prod_short.md)] projects available for selection in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 - Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
-- Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
+- Service-related documents, items, and entries (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
 #### Integration table mappings for synchronization
 
@@ -138,7 +142,6 @@ When you finish the assisted setup guide, integration mappings are created. The 
 |**PJLINE-WORDERSERVICE** |  Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].  |
 |**PROJECTTASK** |  Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].  |
 |**RESOURCE-BOOKABLERSC**  | Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)]. This mapping can also include resources that are users, which requires a few settings. To learn more, go to [Synchronize resources that are people as bookable resources](#synchronize-resources-that-are-people-as-bookable-resources).   |
-|**SVCITEM-CUSTASSET**     | (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].        |
 |**LOCATIONS**     |  Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. <br><br> **Note:** The **LOCATIONS** integration table mapping is available only if you turn on the **Location Mandatory** toggle on the **Inventory Setup** page.      |
 
 The following integration table mappings install if you choose the **Project and Service** integration type.
@@ -156,59 +159,15 @@ The following integration table mappings install if you choose the **Project and
 > [!NOTE]
 > The integration also maps fields that show item availability information in [!INCLUDE [prod_short](includes/prod_short.md)] on work orders and products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. However, the mapping happens through a virtual table, and not an integration table. Some setup is required. To learn more about virtual tables and viewing item availability, go to [Make item availability information in Business Central available in Field Service](#make-item-availability-information-in-business-central-available-in-field-service).
 
+> [!TIP]
+> To enable technicians who work with the data on mobile devices, you must synchronize resources of the type **Person** in [!INCLUDE [prod_short](includes/prod_short.md)] with a user resource type in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [Synchronize resources that are people as bookable resources](#synchronize-resources-that-are-people-as-bookable-resources).
+
 ## Set up the integration in Field Service
 
 On the **Field Service Setting** page, make the following changes:
 
 - On the **Purchase** tab, clear the **Use of Products Out of Stock** field. Otherwise, you might get an "out of stock" warning when you choose a product that's out of stock in [!INCLUDE [field-service-short](includes/field-service-short.md)], but is in stock in [!INCLUDE [prod_short](includes/prod_short.md)].
 - On the **Work Order / Booking** tab, turn off the **Calculate Price** and **Calculate Cost** toggles. In the **Work Order Invoice Creation** field, choose **Never**.
-
-> [!NOTE]
-> Setting up a connection to [!INCLUDE [field-service-short](includes/field-service-short.md)] removes the coupling between resources and products. To make [!INCLUDE [prod_short](includes/prod_short.md)] items available in [!INCLUDE [field-service-short](includes/field-service-short.md)], update the **Field Service Product Type** field to match the **Type** field on the items in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a product or service](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
-
-## Make item availability information in Business Central available in Field Service
-
-When technicians prepare work orders, it's helpful that they're sure that the items they need to do the work are available. This section describes how to set up things so people can view item availability information from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-
-### Synchronize location and warehouse data
-
-You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
-
-The data synchronizes from [!INCLUDE [prod_short](includes/prod_short.md)] through a unidirectional integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)].
-
-[!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
-
-- The **Use as In-Transit** toggle is turned off.
-- **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory).
-- **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory).
-
-In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs.
-
-### Set up virtual tables
-
-The first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
-
-Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must create a synthetic relation between the following tables:
-
-- The native **Product** and **Work Order Product** tables in [!INCLUDE [field-service-short](includes/field-service-short.md)] and the **Item Availability** virtual table that shows item availability.
-
-There's an assisted setup guide to help you create the synthetic relation. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data). To create the synthetic relation, follow these steps:
-
-1. In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, use the **Synthetic Relations** action
-1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide.
-1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **CRM Product**.
-1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.
-1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide again.
-1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **FS Work Order Product**.
-1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.
-1. Choose **Next**.
-1. In the **Field in the FS Work Order Product table** field, choose **Product Id**.
-1. In the **Field in the Item Availability by Location table** field, choose **itemNo**.
-1. Choose **Finish** to complete the guide.
-1. To make your setup available in [!INCLUDE [field-service-short](includes/field-service-short.md)], in the **Power Apps admin center**, choose the view, and then choose the **Save and Publish** action.
-
-> [!NOTE]
-> It can take a few moments to create the synthetic relations.
 
 ### Set up the view in Field Service
 
@@ -227,11 +186,9 @@ To create the view in [!INCLUDE [field-service-short](includes/field-service-sho
     - **Unit of Measure Code** gives you an idea of the space you need.
     - **Remaining Quantity** shows how much of the product is available at each location.
 
-## Synchronize resources that are people as bookable resources
+## Synchronize resources that are people with bookable resources
 
-You can synchronize resources of the type **People** in [!INCLUDE [prod_short](includes/prod_short.md)] with bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)]. The synchronization is bi-directional.
-
-**Stefan - Please provide a couple of bullets that illustrate why this is cool**
+You can synchronize resources of the type **Person** in [!INCLUDE [prod_short](includes/prod_short.md)] with bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)] that are the **User** type. The synchronization is bi-directional.
 
 1. On the **Integration Table Mapping** page, find the **RESOURCE-BOOKABLESC** mapping, and then edit its filters. In the **Resource Type** field, enter **Generic|Account|Equipment|User**.
 1. On the **User Setup** page, add an email address for the user that you want to link with the bookable resource. The address must match the address from the user on the tenant where your Dataverse environment is located.
@@ -290,50 +247,52 @@ If you set up the integration to only include projects, but decide to add servic
 1. In the **Integration Type** field, choose **Project and Service**.
 1. Turn on the **Enabled** toggle.
 
-## Use data in both applications
+## Optional: Make item availability information in Business Central available in Field Service
 
-The following sections describe the features where you can use the data that comes from [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)].
+When technicians prepare work orders, it's helpful that they're sure that the items they need to do the work are available. This section describes how to set up things so people can view item availability information from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-### Tasks in Field Service
+### Synchronize location and warehouse data
 
-You can [create work orders](/dynamics365/field-service/create-work-order) using the **Service Account** and **Billing Account** from [!INCLUDE [prod_short](includes/prod_short.md)]. On work orders, you must select the **Business Central Project Task** in the **External Project** field. Selecting a project lets you synchronize work order products and services to the appropriate project task in [!INCLUDE [prod_short](includes/prod_short.md)].
+You can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] warehouses with locations in [!INCLUDE [prod_short](includes/prod_short.md)]. The integration gives technicians information about the availability of a product or item at a specific location.
 
-You can add inventory and noninventory items as **Work Order Products** on work orders and get the quantity on hand and costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a work order from the work order form and record list](/dynamics365/field-service/create-work-order#create-a-work-order-from-the-work-order-form-and-record-list).
+The data synchronizes from [!INCLUDE [prod_short](includes/prod_short.md)] through a unidirectional integration table mapping between locations in [!INCLUDE [prod_short](includes/prod_short.md)] and warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To use the integration table mapping, you must turn on the **Location Mandatory** toggle on the **Inventory Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-You can add items of the type service as **Work Order Services**, and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab).
+[!INCLUDE [prod_short](includes/prod_short.md)] synchronizes locations with the following settings on the **Location Card** page:
 
-> [!NOTE]
-> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
+- The **Use as In-Transit** toggle is turned off.
+- **Project Consump. Whse. Handling** is different from Warehouse Pick (mandatory).
+- **Assm. Consump. Whse. Handling** is different from Warehouse Pick (mandatory).
 
-You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
+In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **Location Card** page, you can use the **Warehouse** action to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs.
 
-You can use the **Open in Business Central** action in [!INCLUDE [field-service-short](includes/field-service-short.md)] to open a location that's coupled to a warehouse. On the **Products** page, technicians can check how much of particular product is available at a warehouse they specify.
+### Set up virtual tables
 
-From the **Work Order** and **Product** pages, you can view where, and how much, of an item is available. On the **Related** menu, choose **Items Availability by Location**.
-
-When you mark a work order product or service as **Used** on a work order with a specific work order type, the lines synchronize to a service order. Consumption is also posted, based on settings on the **Dynamics 365 Field Service Integration Setup** page.
-
-During consumption and invoice posting in [!INCLUDE [prod_short](includes/prod_short.md)], the quantities are updated on the original work order product and work order service lines in [!INCLUDE [field-service-short](includes/field-service-short.md)].
-
-### Tasks in Business Central
-
-Depending on your settings on the **Field Service Integration Setup** page, when work orders include products and services, consumption information is transferred and posted using a **Project Journal** in [!INCLUDE [prod_short](includes/prod_short.md)].
-
-The **Quantity To Bill** and **Duration To Bill** values are copied to the **Qty- to Transfer to Invoice** field. Based on those values, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)] to invoice the customer. After the invoice is posted and synchronized to the Dynamics 365 Sales environment, or consumption is processed in [!INCLUDE [prod_short](includes/prod_short.md)], the quantity invoiced and quantity consumed display on the [!INCLUDE [prod_short](includes/prod_short.md)] tab on the **Work Order Product** and **Work Order Service** pages.  
-
-Use the **Project Planning Lines** page to track posting and invoicing of consumption on work orders. From the **Project Planning Lines** page, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)]. Afterward, you can synchronize them with [!INCLUDE [field-service-short](includes/field-service-short.md)] and keep track of the status of the invoices.
+The first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
 
 > [!NOTE]
-> Work order services with a booking that uses a bookable resource that's coupled to a [!INCLUDE [prod_short](includes/prod_short.md)] resource synchronize to two project journal lines:
->
-> - One line of type **Budget** for the coupled resource
-> - One line of type **Billable** for the item being serviced
->
-> The product that's chosen on the work order service must be coupled to an item of the type **Service** in [!INCLUDE [prod_short](includes/prod_short.md)]. Also, the base unit of measure for the item must be set to the **Hours Unit of Measure** that's chosen on the **Dynamics 365 Field Service Integration Setup** page.
->
-> You can create an invoice for an item of the type **Service** from the billable project planning line, and use the budget project planning line to register cost with the resource.
+> To use virtual tables when you integrate with project and service management, your [!INCLUDE [field-service-short](includes/field-service-short.md)] and [!INCLUDE [prod_short](includes/prod_short.md)] must be in the same tenant. It's a requirement for using virtual tables.
 
-Use the **Locations in Field Service** action on the **Locations** and **Location Card** pages to open a coupled location in [!INCLUDE [field-service-short](includes/field-service-short.md)], synchronize it, set up and delete couplings, and view synchronization logs. You can view the product quantity allocated from work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] as part of the gross requirements in Business Central's inventory availability calculation. Demand generated by orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] automatically becomes an input for planning.
+Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must create a synthetic relation between the following tables:
+
+- The native **Product** and **Work Order Product** tables in [!INCLUDE [field-service-short](includes/field-service-short.md)] and the **Item Availability** virtual table that shows item availability.
+
+There's an assisted setup guide to help you create the synthetic relation. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data). To create the synthetic relation, follow these steps:
+
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, use the **Synthetic Relations** action
+1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide.
+1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **CRM Product**.
+1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.
+1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide again.
+1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **FS Work Order Product**.
+1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.
+1. Choose **Next**.
+1. In the **Field in the FS Work Order Product table** field, choose **Product Id**.
+1. In the **Field in the Item Availability by Location table** field, choose **itemNo**.
+1. Choose **Finish** to complete the guide.
+1. To make your setup available in [!INCLUDE [field-service-short](includes/field-service-short.md)], in the **Power Apps admin center**, choose the view, and then choose the **Save and Publish** action.
+
+> [!NOTE]
+> It can take a few moments to create the synthetic relations.
 
 ## Related information
 

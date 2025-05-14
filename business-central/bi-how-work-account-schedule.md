@@ -108,6 +108,18 @@ If you want the report output to include an introductory and/or a closing paragr
 
 If you want to control how negative numbers show in the report output (both on-screen and in PDF), you use the **Negative Amount Format** action on the **Options** FastTab to choose your preferred format. The format can be a minus sign or parentheses.
 
+### Show numbers in additional currency (ACY)
+
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. If you designate a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and ACY on each G/L entry.
+
+Financial reports are based on G/L entries. To display report data in the additional reporting currency, select the **Show Amounts in Add. Reporting Currency** checkbox on the **Options** FastTab for the relevant report.
+
+> [!NOTE]
+> The **Show Amounts in Add. Reporting Currency** checkbox is only visible if additional reporting currency (ACY) has been setup.
+
+To learn more, go to [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+
+
 ### Create or edit a row definition
 
 Row definitions in financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. You can also calculate intermediate steps that aren't shown in the final report.

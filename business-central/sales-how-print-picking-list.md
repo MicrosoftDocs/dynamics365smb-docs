@@ -3,12 +3,13 @@ title: Print inventory picking list from sales order
 description: You can print an inventory picking list directly from a sales order, sales, invoice, and other outbound sales documents.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords:
-ms.date: 02/07/2024
+ms.search.forms: 9305,
+ms.date: 05/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 # Print the picking list
 
@@ -29,6 +30,20 @@ You can also save the picking list as a document, for example, to send to someon
 
 > [!NOTE]
 > If you used the **Explode BOM** function on the sales order, then only the components of the related assembly item are shown in the report. Learn more at [Work with Bills of Material](inventory-how-work-BOMs.md).
+
+## To print a single set of pick instructions for multiple sales documents
+
+You can use filters to consolidate picking for several sales documents into a single set of pick instructions.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the **Pick Instruction** action.
+1. In the **Document Type** field, choose the type of document you're working with.
+1. In the **No.** field, enter a filter to identify the documents. The following are examples of ways to filter.
+
+   * To filter on a consecutive series of document numbers, enter the first and last document numbers separated by **..**. For example, **10000..10010**.
+   * To filter on specific documents, enter each document number separated by a **|**. For example, **10000|10005|10010**.
+
+To learn more about filter criteria and operators, go to [Enter filter criteria](ui-enter-criteria-filters.md#enter-filter-criteria).
 
 ## Related information
 

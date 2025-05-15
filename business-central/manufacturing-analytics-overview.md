@@ -44,7 +44,7 @@ People in different roles have different needs when it comes to data, and they u
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-| Role  | Data aggregation | Typical ways to consume data          | 
+| Role  | Data aggregation | Typical ways to consume data          |
 |------------------- |-------------------| ---------------------- |
 | COO / CFO / CEO | Performance data  | KPIs, dashboards, financial reports               |
 | Plant Manager     | Trends, summaries | Built-in managerial reports, ad-hoc analysis      |
@@ -54,12 +54,12 @@ People in different roles have different needs when it comes to data, and they u
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Businesses often use the following KPIs to monitor production performance:
 
-- Capacity used (hours), either current or historical
-- Utilization percentage, either current or historical
-- Work center load percentage, allocated time (hours), or available capacity (hours)
-- Cost amount variance or deviation percentage
+- Total Actual Cost with all sub-cost calculations like Actual Material Cost, Actual Capacity Cost and more
+- Expected Cost, Expected Cost Variance and Expected Cost Dev %
+- Total Standard Cost, Standard Cost Variance and Standard Cost Dev %
+- Planned vs. Finished Quantity
 
-:::image type="content" source="media/manufacturing/finished-production-order-breakdown.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown.png":::
+:::image type="content" source="media/manufacturing/finished-production-order-breakdown-v26.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown-v26.png":::
 
 These KPIs (and more) are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)].
 

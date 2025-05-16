@@ -124,11 +124,11 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 
 Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
 
-To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can then choose the field that you want to add to your analysis tab as a new column. The field is added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
+To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. When you have chosen the field or fields to add, these are added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
 
 :::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
 
-If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page, and then the field to show on your analysis view.
+If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page they are available on, and then the field or fields to show on your analysis view.
 
 :::image type="content" source="media/analysis-view-other-source.png" alt-text="Add columns from another source":::
 

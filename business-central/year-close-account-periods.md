@@ -4,7 +4,7 @@ description: This article describes how to close the accounting periods that mak
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100,
 ms.date: 08/05/2024

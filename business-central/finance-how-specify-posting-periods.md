@@ -3,7 +3,7 @@ title: Specify posting periods
 description: You specify posting periods (posting start and end dates) to set up when users can post to the general ledger.
 author: brentholtorf
 editor: ''
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: user setup
 ms.search.form: 118

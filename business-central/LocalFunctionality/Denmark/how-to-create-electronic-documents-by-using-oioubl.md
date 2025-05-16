@@ -2,7 +2,7 @@
 title: Create Electronic Documents in an OIOUBL format
 description: When selling goods or services to a customer in the Danish public sector, it's mandatory to submit documents electronically.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Danish public sector, electronic documents, OIOUBL, credit memos, finance charge memos, reminders
 ms.search.form: 

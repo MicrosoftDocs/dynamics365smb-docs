@@ -4,7 +4,7 @@ description: Czech companies registered for VAT in the Czech Republic (with assi
 author: v-pejano
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

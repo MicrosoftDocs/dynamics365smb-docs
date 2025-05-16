@@ -2,7 +2,7 @@
 title: Using the Sales and Inventory Forecast extension to manage inventory
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 

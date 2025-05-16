@@ -4,7 +4,7 @@ description: Explains how to correct, cancel, or undo a posted purchase invoice 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/19/2024

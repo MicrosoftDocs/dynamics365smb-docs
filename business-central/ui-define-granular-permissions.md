@@ -4,7 +4,7 @@ description: This article describes how to define granular permissions and assig
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9802, 9807, 9808, 9816_Primary, 9830, 9831, 9855_Primary, 9862_Primary, 9874_Primary, 9878_Primary, 9865_Primary
 ms.date: 05/07/2024

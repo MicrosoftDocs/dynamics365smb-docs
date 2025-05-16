@@ -4,7 +4,7 @@ description: Learn about synchronizing data between Business Central and Dataver
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/31/2023
 ms.custom: bap-template
 ms.search.keywords: sales, crm, integration, sync, synchronize

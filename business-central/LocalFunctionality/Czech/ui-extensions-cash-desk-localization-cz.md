@@ -4,7 +4,7 @@ description: The application covers the requirements of Czech legislation and be
 author: v-pejano
 
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 03/26/2024
 ms.reviewer: bholtorf

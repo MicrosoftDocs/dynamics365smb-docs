@@ -4,7 +4,7 @@ description: You create an assembly BOM to specify the components required to pu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: assembly bom, bills of material, 
 ms.search.form: 36, 5870, 5872, 5874

@@ -2,7 +2,7 @@
 title: How to post a negative entry [DE]
 description: Use the Correction field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account to meet legal requirements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: correction field, post negative debit, post negative credit, German version, negative entry
 ms.date: 03/11/2025
 ms.author: bholtorf

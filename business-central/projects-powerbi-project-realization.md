@@ -4,7 +4,7 @@ description: The Project Realization report showcases the completion for each pr
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37036_Primary
 ms.date: 10/28/2024

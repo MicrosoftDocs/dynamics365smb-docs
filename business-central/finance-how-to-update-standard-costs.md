@@ -2,7 +2,7 @@
 title: Update standard costs
 description: You must periodically update the standard costs of components and roll the new costs up to the parent item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5841
 ms.date: 07/30/2024

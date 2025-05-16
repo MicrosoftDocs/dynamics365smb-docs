@@ -2,7 +2,7 @@
 title: View the Status of Synchronization Jobs
 description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250

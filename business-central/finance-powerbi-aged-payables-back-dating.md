@@ -4,7 +4,7 @@ description: The Aged Payables (Back Dating) report provides an overview of outs
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36994_Primary
 ms.date: 10/31/2024

@@ -2,7 +2,7 @@
 title: How to Delete Approval Workflows
 description: If you're certain that a workflow is no longer being used, you can delete it. All workflow step instances defined in the workflow must be status **Completed**.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1500, 

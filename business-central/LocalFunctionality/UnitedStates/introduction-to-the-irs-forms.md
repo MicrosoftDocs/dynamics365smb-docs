@@ -2,7 +2,7 @@
 title: Introduction to the IRS 1099 tax forms [US]
 description: Discover the purposes and methods for using IRS 1099 Tax Forms in the US.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: local, 1099, IRS, tax
 ms.search.form: 10030, 10031, 10036, 10037
 ms.date: 02/04/2025

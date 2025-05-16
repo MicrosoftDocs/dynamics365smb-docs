@@ -4,7 +4,7 @@ description: Learn about the types of items you can manage in inventory, and how
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.search.form: 9297, 5845, 30, 
 ms.date: 08/12/2024

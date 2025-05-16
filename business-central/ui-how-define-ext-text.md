@@ -4,7 +4,7 @@ description: You can add extra lines to extend the standard text that describes 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 391, 30
 ms.date: 08/21/2024

@@ -2,7 +2,7 @@
 title: Share contacts between Business Central and Outlook
 description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311 

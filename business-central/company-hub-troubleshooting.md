@@ -2,7 +2,7 @@
 title: Troubleshooting your company hub
 description: Learn how to work around any issues when you the company hub in Dynamics 365 Business Central to manage work across multiple companies.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.search.form: 1151

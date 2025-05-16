@@ -4,7 +4,7 @@ description: You must set up each currency if you buy or sell in currencies othe
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 06/10/2024

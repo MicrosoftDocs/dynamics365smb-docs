@@ -4,7 +4,7 @@ description: Learn how to make sure that document dates on sales and purchase do
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/14/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

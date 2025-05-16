@@ -2,7 +2,7 @@
 title: Use profiles to classify contacts
 description: Red about how to set up profile questionnaires to help classify your business contacts' profiles.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: contacts, profiles
 ms.search.form: 5109, 5110

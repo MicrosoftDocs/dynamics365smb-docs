@@ -4,7 +4,7 @@ description: Read about how to record payments that you make to vendors, and ref
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
 ms.search.form: 256, 233, 624, 1228

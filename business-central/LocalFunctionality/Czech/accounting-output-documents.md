@@ -4,7 +4,7 @@ description: The following topics describe Accounting output documents - the loc
 author: v-pejano
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 06/17/2021
 ms.reviewer: bholtorf

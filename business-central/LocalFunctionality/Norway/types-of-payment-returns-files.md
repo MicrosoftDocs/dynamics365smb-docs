@@ -2,7 +2,7 @@
 title: Types of payment returns files [NO]
 description: Norwegian enhancements include two types of payment return files that can be imported into Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010

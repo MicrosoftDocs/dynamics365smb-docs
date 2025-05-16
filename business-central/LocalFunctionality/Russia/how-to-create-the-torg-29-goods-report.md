@@ -4,7 +4,7 @@ description: Russian enhancements include support forthe TORG-29 goods report.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

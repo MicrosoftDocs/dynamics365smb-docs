@@ -4,7 +4,7 @@ description: This article describes various levels of complexity in picking and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008

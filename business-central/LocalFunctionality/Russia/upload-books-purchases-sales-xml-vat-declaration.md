@@ -4,7 +4,7 @@ description: Russian enhancements include books of purchases and sales VAT in XM
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

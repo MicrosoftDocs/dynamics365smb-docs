@@ -3,7 +3,7 @@ title: Use OCR to turn PDF into e-invoices
 description: Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents.
 documentationcenter: ''
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 05/05/2025

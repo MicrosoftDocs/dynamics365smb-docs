@@ -2,7 +2,7 @@
 title: Getting the Business Central add-in for Excel
 description: Learn how to get users the Business Central Add-in for Excel. 
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource

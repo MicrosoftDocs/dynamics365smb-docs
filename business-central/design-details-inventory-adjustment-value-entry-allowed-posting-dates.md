@@ -4,7 +4,7 @@ description: Resolve the error behind the message "Posting date is not within yo
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central

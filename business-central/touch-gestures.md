@@ -3,7 +3,7 @@ title: "Touch and pen gestures"
 description: "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones."
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tiles
 ms.date: 04/29/2021

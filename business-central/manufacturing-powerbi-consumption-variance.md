@@ -4,7 +4,7 @@ description: The Consumption Variance report highlights the variance between exp
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37046_Primary
 ms.date: 11/01/2024

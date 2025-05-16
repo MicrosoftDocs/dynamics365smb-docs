@@ -3,7 +3,7 @@ title: Czech local functionality - Multi circuit accounting
 description: The following articles describe the local functionality Multi Circuit Accounting in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Localization, Finance  
 ms.date: 11/09/2023
 ms.reviewer: bholtorf

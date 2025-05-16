@@ -2,7 +2,7 @@
 title: Viewing and editing in Excel from Business Central
 description: Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: accountant, accounting, financial report

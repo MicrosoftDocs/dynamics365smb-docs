@@ -4,7 +4,7 @@ description: Learn about reserving items for sales orders, purchase orders, and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.forms: 498, 497
 ms.date: 05/14/2024

@@ -4,7 +4,7 @@ description: Learn how to use the data analysis mode to analyze finance data.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 20, 516, 9300, 5119, 9301, 9305
 ms.date: 02/13/2025

@@ -2,7 +2,7 @@
 title: Business Process Walkthroughs
 description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS demonstration company. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2021

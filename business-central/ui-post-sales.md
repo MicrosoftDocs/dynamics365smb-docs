@@ -2,7 +2,7 @@
 title: Posting sales documents
 description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 130, 142, 1350

@@ -4,7 +4,7 @@ description: The Item Availability report gives an overview of the availability 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37026_Primary
 ms.date: 10/28/2024

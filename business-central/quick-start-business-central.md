@@ -4,7 +4,7 @@ description: Get up and running with Business Central with quick start articles 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: quickstart
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central

@@ -2,7 +2,7 @@
 title: Setting up Text-to-Account mapping for recurring payments
 description: Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.search.form: 1290, 1294, 1287

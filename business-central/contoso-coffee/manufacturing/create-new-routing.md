@@ -2,7 +2,7 @@
 title: Create a New Routing 
 description: Walkthrough to learn how to enter all of the information for a new routing manually in Business Central.
 ms.date: 04/01/2022
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf

@@ -2,7 +2,7 @@
 title: Settle purchase invoices promptly
 description: If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 51, 9308
 ms.date: 07/18/2024
 ms.author: bholtorf

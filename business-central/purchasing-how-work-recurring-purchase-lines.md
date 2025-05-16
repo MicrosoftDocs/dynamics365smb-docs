@@ -2,7 +2,7 @@
 title: Standard recurring purchase lines
 description: Set up frequently used purchase lines to insert them on purchase documents and quickly fill the lines with standard information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: trade, purchase, replenishment
 ms.search.form: 177

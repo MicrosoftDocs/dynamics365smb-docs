@@ -2,7 +2,7 @@
 title: Design Details - Cost Adjustment
 description: Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct inventory valuation.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/14/2021

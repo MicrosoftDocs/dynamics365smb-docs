@@ -4,7 +4,7 @@ description: This article tells you how to set up workflow notifications to aler
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.date: 05/03/2024
 ms.service: dynamics-365-business-central

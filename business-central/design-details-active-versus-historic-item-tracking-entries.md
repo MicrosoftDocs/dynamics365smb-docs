@@ -2,7 +2,7 @@
 title: Design Details - Active versus Historic Item Tracking Entries
 description: When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021

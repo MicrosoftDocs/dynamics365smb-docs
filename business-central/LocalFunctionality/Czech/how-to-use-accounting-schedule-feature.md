@@ -3,7 +3,7 @@ title: Czech local functionality - Financial report feature
 description: Improvements to the standard financial reports feature (common list of expressions, saving results, formulas drill-down, additional data sources).
 author: brentholtorf
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/14/2023
 ms.reviewer: bholtorf

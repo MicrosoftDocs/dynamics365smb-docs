@@ -2,7 +2,7 @@
 title: Reservation Entry table - Features that update the Reservation Entry table
 description: Learn how to troubleshoot data inconsistency issues in the Reservation Entry table.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/26/2024

@@ -2,7 +2,7 @@
 title: Transferring and posting cost entries
 description: Before you define cost allocations, you must understand the various sources that cost entries come from.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form:  1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 07/26/2024

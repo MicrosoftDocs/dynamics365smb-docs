@@ -2,7 +2,7 @@
 title: SEPA payments [BE]
 description: The Single Euro Payments Area (SEPA) unifies payment methods across participating European countries/regions, making international payments as easy as domestic ones.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: SEPA, SEPA payments, unify payment methods, international payments, domestic payments, European payments, Belgian version
 ms.date: 04/04/2025

@@ -2,7 +2,7 @@
 title: Understanding the Chart of Accounts
 description: Describes the chart of accounts, how to set it up, and how to use it.
 author: kennienp
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 02/06/2025

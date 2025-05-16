@@ -4,7 +4,7 @@ description: You can attach files, such as Word documents, to add details about 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 09/05/2023

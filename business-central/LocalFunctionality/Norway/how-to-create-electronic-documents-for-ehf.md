@@ -2,7 +2,7 @@
 title: How to Create Electronic Documents for EHF
 description: When you sell goods or services to a customer in the public sector, you must submit documents electronically.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021

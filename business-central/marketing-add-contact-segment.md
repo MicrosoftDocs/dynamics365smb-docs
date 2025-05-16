@@ -4,7 +4,7 @@ description: After you have created a segment, you can add contacts to the segme
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.search.form: 5091, 5093

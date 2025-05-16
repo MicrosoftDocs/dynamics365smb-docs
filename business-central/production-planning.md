@@ -4,7 +4,7 @@ description: Prepare a detailed executable plan and the final-assembly productio
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central

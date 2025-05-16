@@ -2,7 +2,7 @@
 title: Inventory documents in Russia
 description: Russian enhancements for inventory documents.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776
 ms.date: 11/08/2023

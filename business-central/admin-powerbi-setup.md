@@ -4,7 +4,7 @@ description: Learn how to set up the connection to Power BI. With Power BI repor
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/28/2024
+ms.date: 05/16/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

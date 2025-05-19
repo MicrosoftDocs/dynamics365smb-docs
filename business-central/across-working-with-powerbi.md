@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/27/2024
+ms.date: 05/19/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 # Work with [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-In this article, you learn some of the basics about working with reports. Learn about viewing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports inside [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards) and editing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
+This article helps you learn some of the basics about working with reports. Learn about viewing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards) and editing [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. To learn more about general guidelines and instructions about using Power BI, go to [Power BI documentation for consumers](/power-bi/consumer).
 
 ## Overview
 
@@ -31,17 +31,17 @@ In this article, you learn some of the basics about working with reports. Learn 
 
 Before you can use Power BI with [!INCLUDE[prod_short](includes/prod_short.md)], you need to sign up for the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. If you didn't already sign up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-Once you have a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account , you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/). Learn more in [Sign in to the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]](/power-bi/consumer/end-user-sign-in). 
+After you have a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/). Learn more in [Sign in to the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]](/power-bi/consumer/end-user-sign-in).
 
-The [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] hosts all the reports available to you. To see a report in your personal workspace, select **My Workspace** > **Reports**. Then just select the report that you want to view. If you have access to one or more shared Power BI workspaces, you can also see reports in those workspaces.
+The [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] hosts all the reports available to you. To show a report in your personal workspace, select **My Workspace**, and then **Reports**. Then, select the report that you want to view. If you have access to one or more shared Power BI workspaces, you can also show reports in those workspaces.
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, you automatically get a set of default reports on your workspace. If you want to create your own reports, you can use Power BI Desktop to create reports, and then publish them to your workspace. Learn more in [Getting Started Building Reports in Power BI Desktop to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md).
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="connect"></a>Connect to Power BI - one time only
+## <a name="connect"></a>Connect to Power BI - one-time only
 
-When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], an empty [!INCLUDE [powerbi-name](includes/powerbi-name.md)] part (as shown in the previous figure) is most likely available on various pages. The first thing to do is to connect to your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account . Once connected, you can see reports. You only have to do this step once.
+When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], an empty [!INCLUDE [powerbi-name](includes/powerbi-name.md)] part (as shown in the previous figure) is most likely available on various pages. The first thing to do is to connect to your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account. After you connect, you can access reports. You only have to do this step one time.
 
 1. Select the **Get Started with Power BI** link in the **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports** part.
 2. The **Set Up [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in Business Central** assisted setup starts. Select **Next** to continue.
@@ -50,7 +50,7 @@ When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], an emp
     - If you didn't sign up for Power BI yet, select the [Go to Power BI homepage](https://powerbi.microsoft.com). Sign up for an account, then come back to [!INCLUDE[prod_short](includes/prod_short.md)] and finish the setup.
 
     - If you already have a license, select **Next**.
-4. In the next page, [!INCLUDE[prod_short](includes/prod_short.md)] will now upload a demo report to Power BI. This step takes a few minutes, so it runs in the background. To complete the setup, select **Next**, then **Finish**.
+4. In the next page, [!INCLUDE[prod_short](includes/prod_short.md)] uploads a demo report to Power BI. This step takes a few minutes, so it runs in the background. To complete the setup, select **Next**, then **Finish**.
 
 The connection process starts. During the process, [!INCLUDE [prod_short](includes/prod_short.md)] communicates with the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)] to determine if you have a valid [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account  and license. Once your license is verified, the default Power BI report displays on the page. If there a report isn't shown, you can select a report from the part.
 
@@ -63,7 +63,7 @@ The connection process starts. During the process, [!INCLUDE [prod_short](includ
 
 [!INCLUDE [powerbi-apps-overview-table](includes/powerbi-apps-overview-table.md)]
 
-The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are free to install and use, the only requirement is that users need to have a non-free Power BI license. To learn more, go to [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
+The [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps are free to install and use. The only requirement is that users must have a paid Power BI license. To learn more, go to [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md).
 
 
 <!--#### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
@@ -76,7 +76,7 @@ Once connected, you can select a report from the [!INCLUDE [powerbi-name](includ
 
 ### Get the latest data
 
-Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organization set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
+Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You should make sure that the data in your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*. Depending on how your organization set-up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
 #### Refresh manually
 
@@ -84,30 +84,30 @@ From Power BI online, in the navigation pane, under **Datasets**, select **More 
 
 #### Schedule a refresh
 
-From Power BI online, in the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
+From Power BI online, in the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
-Learn more in [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh)
+Learn more in [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh).
 
 ### Show reports on list pages
 
 [!INCLUDE[prod_long](includes/prod_long.md)] includes a Power BI FactBox on several key list pages. This FactBox provides extra insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry.
 
-To learn how to create reports for list pages, see [Creating [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+To learn more about how to create reports for list pages, go to [Creating [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 > [!TIP]
-> If you don't see the Power BI FactBox, it might be hidden on your workspace by personalization. Select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then select **Personalize** action. Learn more in [Personalize Your Workspace](ui-personalization-user.md).
+> If the Power BI FactBox isn't available, it might be hidden on your workspace by personalization. Select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then select **Personalize** action. Learn more in [Personalize Your Workspace](ui-personalization-user.md).
 >
-> Or if you have an older version of Business Central, go to the action bar, select **Actions** > **Display** > **Show/Hide [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports**.
+> Or, if you have an older version of [!INCLUDE [prod_short](includes/prod_short.md)], on the action bar, select **Actions**, then **Display**, and then **Show/Hide [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports**.
 
 ### Switch reports
 
 A [!INCLUDE [powerbi-name](includes/powerbi-name.md)] part on a page can display any Power BI report that's available to you. To switch to view another report, choose the **Select Report** action from the drop-down command list at the top of the part.  
 
-The **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports Selection** page shows a list of all the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports that you have access to. This list is retrieved from any of your own workspaces or workspaces that others shared with you in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You return to the page, and the last report you enabled appears. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
+The **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] Reports Selection** page shows a list of all the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports that you have access to. This list is retrieved from any of your own workspaces or workspaces that others shared with you in the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You return to the page, and the last report you enabled appears. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
 
 ### Get more reports
 
-If you don't see any reports on the **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports Selection** page, or don't see the report you want, choose **Get Reports**. This action lets you look for reports from two locations: *My Organization* or from *Services*.
+If you don't have any reports on the **[!INCLUDE [powerbi-name](includes/powerbi-name.md)] Reports Selection** page, or can't find the report you want, choose **Get Reports**. This action lets you look for reports from two locations: *My Organization* or from *Services*.
 
 - Select **My Organization** to go to the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]s. From here, you can view the reports within your organization that you have rights to view. You can then add them to your workspace.
 - Select **Services** to go to Microsoft AppSource where you can install Power BI apps.  
@@ -117,7 +117,7 @@ If you don't see any reports on the **[!INCLUDE [powerbi-name](includes/powerbi-
 
 ### Manage and modify reports
 
-You can make changes to a report in the Power BI part. The changes that you make are then published to the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. If the report is shared with other users, they'll also see the changes, unless you save the changes to a new report.
+You can make changes to a report in the Power BI part. The changes that you make are then published to the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)]. If the report is shared with other users, they also experience the changes unless you save the changes to a new report.
 
 To modify a report, choose the **Manage Report** action from the drop-down command list in the Power BI part. Then start making changes. Once you finish making changes, select **File** > **Save**. If it's a shared report, and you don't want to make the change for all users, select **Save As** to avoid making this change for all users.
 
@@ -159,7 +159,7 @@ Learn more in [Upload the report to the service](/power-bi/paginated-reports/pag
 
 Once a report is in your workspace, you can share it with others in your organization.
 
-To share a report, in a list reports, or in an open report, select **Share**. In the **Share report** pane, enter the full email addresses for individuals or distribution groups you want to share with. Follow the instructions on screen to complete the sharing. Learn more in [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+To share a report, in a list reports, or in an open report, select **Share**. In the **Share report** pane, enter the full email addresses for individuals or distribution groups you want to share with. To complete the sharing, follow the on-screen instructions. Learn more in [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 > [!NOTE]
 > Sharing requires that both you and the people you're sharing the report with have [Power BI Pro license](/power-bi/service-features-license-type). Otherwise, the content must be in [Premium capacity](/power-bi/service-premium-what-is). Learn more in [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
@@ -170,7 +170,7 @@ However, if something goes wrong, this section provides a workaround for the mos
 
 ### You don't have a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account 
 
-A [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account  isn't set up for you. To get a valid [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account , you must have a license, and you must have previously signed into Power BI to create a Power BI workspace.
+A [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account isn't set up for you. To get a valid [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account, you must have a license, and you must have signed in to Power BI before to create a Power BI workspace.
 
 ### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: install-set-up-deploy
-ms.date: 03/08/2024
+ms.date: 05/19/2025
 ms.custom: bap-template
 ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
@@ -59,7 +59,7 @@ On the **Companies** page, you can use the **Copy** action to create a second co
 
 ## Set up the company
 
-When you sign in to a new company, the **Company Setup** assisted setup guide helps you get started. The guide asks for information about your business, such as the address, bank details, and inventory costing method. This information forms the basis for many areas in [!INCLUDE[prod_short](includes/prod_short.md)] so you won't have to set them up manually.  
+When you sign in to a new company, the **Company Setup** assisted setup guide helps you get started. The guide asks for information about your business, such as the address, bank details, and inventory costing method. This information forms the basis for many areas in [!INCLUDE[prod_short](includes/prod_short.md)] so you don't have to set them up manually.  
 
 For example, [!INCLUDE [prod_short](includes/prod_short.md)] includes your company address in invoices and other documents and your bank information in payments. The costing method is used to calculate prices and inventory valuation.  
 

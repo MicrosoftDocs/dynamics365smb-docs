@@ -2,7 +2,7 @@
 title: Walkthrough - Managing projects with projects
 description: This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 05/30/2024

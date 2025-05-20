@@ -2,7 +2,7 @@
 title: Submit VAT reports to tax authorities
 description: Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 315_Primary, 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401

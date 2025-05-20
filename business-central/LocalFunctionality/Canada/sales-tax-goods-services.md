@@ -2,7 +2,7 @@
 title: Reporting GST/HST in Canada
 description: Learn how to report local sales tax, goods and services tax in Canada.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: sales tax, local
 ms.date: 02/04/2025

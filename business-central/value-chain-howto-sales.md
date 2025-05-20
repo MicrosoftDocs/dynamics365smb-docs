@@ -2,7 +2,7 @@
 title: Sustainability value chain in sales
 description: Learn about working with items and their embedded carbon footprints during the sales process.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain, sales, invoice
 ms.search.form: 42, 43

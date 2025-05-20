@@ -4,7 +4,7 @@ description: Define how Business Central exchange data with external files like 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
 ms.date: 05/29/2024

@@ -2,7 +2,7 @@
 title: Multiple VAT registration numbers
 description: Learn about the functionality for multiple (alternative) value-added tax (VAT) registration numbers.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.reviewer: 
 ms.search.keywords: VAT, multiple, alternative, customer, tax, value-added tax
 ms.search.form: 212, 301, 

@@ -2,7 +2,7 @@
 title: VAT Reporting in the German version
 description: You can report VAT electronically to the tax authorities in the German version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: report VAT electronically, VAT reporting, VAT declaration, VAT statement, German version
 ms.search.form: 11016, 11017, 11019, 11025, 11026, 11027, 11028

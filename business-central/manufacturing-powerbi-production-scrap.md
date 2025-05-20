@@ -4,7 +4,7 @@ description: The Production Scrap report shows the quantity of capacity scrap ea
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37055_Primary
 ms.date: 11/01/2024

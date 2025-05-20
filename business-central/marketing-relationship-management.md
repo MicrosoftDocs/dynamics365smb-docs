@@ -4,7 +4,7 @@ description: The relationship management features support your sales efforts and
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026

@@ -2,7 +2,7 @@
 title: Design Details - Assembly Order Posting
 description: Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021

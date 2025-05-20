@@ -2,7 +2,7 @@
 title: Convert Existing Locations to Warehouse Locations 
 description: You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.
 author: brentholtorf   
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15

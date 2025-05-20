@@ -2,7 +2,7 @@
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
 ms.date: 03/18/2025
-ms.topic: article
+ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
 ms.author: bholtorf

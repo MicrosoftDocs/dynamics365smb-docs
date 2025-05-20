@@ -2,7 +2,7 @@
 title: Customizing Pages for Roles
 description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
 ms.date: 06/13/2024

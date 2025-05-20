@@ -4,7 +4,7 @@ description: The Allocated Hours report provides an overview of the allocated ti
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37043_Primary
 ms.date: 11/01/2024

@@ -2,7 +2,7 @@
 title: Create Electronic VAT Transactions Report [IT]
 description: You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/29/2021

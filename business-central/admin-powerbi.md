@@ -6,7 +6,7 @@ ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: jswymer
-ms.date: 04/24/2024
+ms.date: 05/19/2025
 ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

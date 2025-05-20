@@ -4,7 +4,7 @@ description: Learn about the item availability used by the Sales Order agent and
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.collection:
   - bap-ai-copilot
 ms.date: 04/01/2025

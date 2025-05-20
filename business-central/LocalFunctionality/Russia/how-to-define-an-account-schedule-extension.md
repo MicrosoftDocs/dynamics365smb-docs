@@ -2,7 +2,7 @@
 title: Defining financial report extensions in Russia
 description: Russian enhancements include extending financial report lines.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/13/2023
 ms.reviewer: bholtorf

@@ -4,7 +4,7 @@ description: Business Central has features that can help you gather, analyze, an
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 
 ms.date: 03/24/2025

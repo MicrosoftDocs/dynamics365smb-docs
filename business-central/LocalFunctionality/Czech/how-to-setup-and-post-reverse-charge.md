@@ -3,7 +3,7 @@ title: Czech local functionality - Reverse charge in setup and posting
 description: This section describes local functionality - Reverse charge in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 11/09/2023
 ms.reviewer: bholtorf

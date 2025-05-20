@@ -2,7 +2,7 @@
 title: How to Export Electronic Payments [ES]
 description: In Business Central, you can use the following pages to export payment journal entries into a file format according to four different payment standards.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021

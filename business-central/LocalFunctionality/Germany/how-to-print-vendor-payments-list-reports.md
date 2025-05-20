@@ -2,7 +2,7 @@
 title: Print vendor payments list reports in the German version
 description: The Vendor Payments List report lists payments for each vendor in the German version. It can sort payments chronologically or by vendor.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: vendor payments list, sort payments chronologically, sort payments by vendor, vendor payments list report
 ms.date: 03/11/2025

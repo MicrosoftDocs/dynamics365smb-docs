@@ -2,7 +2,7 @@
 title: Set Up Electronic Invoicing [MX]
 description: To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: identification numbers, CFDI
 ms.date: 05/01/2025

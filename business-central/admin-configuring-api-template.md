@@ -2,7 +2,7 @@
 title: Configure API Templates
 description: Describing the steps you must go through to configure API templates for Dynamics 365 Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469

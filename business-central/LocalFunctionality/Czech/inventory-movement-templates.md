@@ -4,7 +4,7 @@ description: The following topics describe the local functionality Inventory Mov
 author: v-pejano
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 06/17/2021
 ms.reviewer: bholtorf

@@ -4,7 +4,7 @@ description: You can export your financial reports and business intelligence dat
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.search.form: 9901,
 ms.date: 04/07/2025

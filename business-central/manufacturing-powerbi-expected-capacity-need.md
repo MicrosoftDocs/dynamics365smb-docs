@@ -4,7 +4,7 @@ description: The Expected Capacity Need report provides insights into the capaci
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37044_Primary
 ms.date: 11/01/2024

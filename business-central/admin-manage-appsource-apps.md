@@ -4,7 +4,7 @@ description: Learn how to browse and install AppSource apps from Business Centra
 author: SusanneWindfeldPedersen
 ms.author: solsen
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: app, apps, install, integration, AppSource
 ms.date: 04/08/2025
 ms.custom: bap-template

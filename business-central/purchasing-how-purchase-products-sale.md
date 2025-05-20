@@ -2,7 +2,7 @@
 title: Purchase items for a sale
 description: From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: supply planning, sales demand, replenish
 ms.search.form: 50, 51, 56, 9308

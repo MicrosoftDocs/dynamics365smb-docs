@@ -2,7 +2,7 @@
 title: CMR Notes [NL]
 description: Process claims with complete CMR note information easily. Use the Dutch feature to follow the CMR Convention with standard CMR notes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: claims, CMR note, Dutch version, CMR convention, Netherlands
 ms.date: 03/14/2025

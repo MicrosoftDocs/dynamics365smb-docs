@@ -2,7 +2,7 @@
 title: Import and Export a Report and Document Layout
 description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021

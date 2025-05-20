@@ -2,7 +2,7 @@
 title: Personalize your workspace
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer

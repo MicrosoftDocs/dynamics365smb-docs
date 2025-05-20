@@ -4,7 +4,7 @@ description: Outlines the tasks to close a fiscal year or an accounting period, 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100,
 ms.date: 08/02/2024

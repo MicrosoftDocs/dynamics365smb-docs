@@ -3,7 +3,7 @@ title: Czech local templates for inventory operations – Stock keeping unit tem
 description: The following articles describe the local functionality Stock keeping Unit Templates in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 11/10/2023
 ms.reviewer: bholtorf

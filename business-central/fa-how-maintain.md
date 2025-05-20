@@ -4,7 +4,7 @@ description: Record repairs and service on a fixed asset to preserve its value.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 11/11/2024

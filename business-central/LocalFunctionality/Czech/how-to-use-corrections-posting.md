@@ -3,7 +3,7 @@ title: Czech local functionality - Corrections posting
 description: This local function is used to force corrective posting.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/14/2023
 ms.reviewer: bholtorf

@@ -2,7 +2,7 @@
 title: Required descriptions in G-L entry
 description: When entering general journal lines on a form, the system automatically fills in the description field.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: journal lines, general journal description, Dutch version, Netherlands
 ms.date: 03/20/2025

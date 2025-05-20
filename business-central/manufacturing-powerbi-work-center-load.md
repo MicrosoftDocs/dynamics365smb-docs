@@ -4,7 +4,7 @@ description: The Work Center Load report shows the load and the allocated capaci
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37042_Primary
 ms.date: 11/01/2024

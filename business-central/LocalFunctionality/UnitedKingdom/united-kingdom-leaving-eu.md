@@ -2,7 +2,7 @@
 title: Brexit Impact on Business Central [GB]
 description: Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.reviewer: v-soumramani
 ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
 ms.date: 02/21/2025

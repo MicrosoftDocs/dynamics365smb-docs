@@ -2,7 +2,7 @@
 title: Generate Payment Files (FI)
 description: Before making electronic payments to vendors, you must create a payment file for either domestic or international payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment file, electronic payments, domestic payments, foreign payments
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006

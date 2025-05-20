@@ -2,7 +2,7 @@
 title: Managing VAT rate changes
 description: Learn how to use the VAT Rate Change tool to change VAT rates based on local legislation.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.reviewer: jswymer
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550, 

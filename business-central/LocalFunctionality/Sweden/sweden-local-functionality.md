@@ -2,7 +2,7 @@
 title: Sweden Local Functionality [SE]
 description: The links in this article describe the different local functionality in the Swedish version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sweden localization, local functionality, Swedish version
 ms.date: 02/06/2025

@@ -3,7 +3,7 @@ title: Czech local functionality - Internal financial documents
 description: The following articles describe Internal Financial Documents - the local functionality in the Czech version of Business Central. Users perform General Ledger operations and must have the possibility to print documents for these operations with the layout in compliance with the legal requirements.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/13/2023
 ms.reviewer: bholtorf

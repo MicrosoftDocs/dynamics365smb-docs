@@ -2,7 +2,7 @@
 title: How to correct VAT transactions reports [IT]
 description: The following article is an explanation of how you can correct and resend electronic VAT transaction reports.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023

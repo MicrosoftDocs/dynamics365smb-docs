@@ -3,7 +3,7 @@ title: Czech local functionality - VAT statement
 description: This functionality describes improvements that the VAT Statement report contains.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 11/07/2023
 ms.reviewer: bholtorf

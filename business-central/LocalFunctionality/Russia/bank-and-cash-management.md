@@ -2,7 +2,7 @@
 title: Bank and cash management in Russia
 description: Russian enhancements include bank and cash management.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/03/2023
 ms.reviewer: bholtorf

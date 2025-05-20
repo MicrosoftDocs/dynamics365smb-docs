@@ -4,7 +4,7 @@ description: This article outlines the procedures for how to replan production o
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 03/18/2025
 ms.service: dynamics-365-business-central

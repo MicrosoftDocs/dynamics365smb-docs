@@ -2,7 +2,7 @@
 title: Set Up Codes for Standard Services
 description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 06/23/2021

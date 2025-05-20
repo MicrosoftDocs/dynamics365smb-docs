@@ -4,7 +4,7 @@ description: The Finished Production Order Breakdown report provides insights in
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37045_Primary
 ms.date: 11/01/2024

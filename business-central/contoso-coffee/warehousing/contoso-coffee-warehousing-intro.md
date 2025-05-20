@@ -2,7 +2,7 @@
 title: Introduction to Contoso Coffee 
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the warehousing capabilities in Business Central.
 ms.date: 04/01/2022
-ms.topic: article
+ms.topic: concept-article
 ms.service: dynamics-365-business-central
 ms.search.form: 4764
 author: brentholtorf

@@ -4,7 +4,7 @@ description: Russian enhancements include charges and deductions.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

@@ -2,7 +2,7 @@
 title: Set up the IRS 1099 form for version 24 [US]
 description: Learn how to set up the 1099 tax forms so that you can calculate and submit the required reports.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: local, 1099, IRS, Tax
 ms.search.form: 26, 10030, 10031, 10033, 10034
 ms.date: 02/04/2025

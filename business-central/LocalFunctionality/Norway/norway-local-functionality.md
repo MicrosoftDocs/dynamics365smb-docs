@@ -2,7 +2,7 @@
 title: Norway local functionality [NO]
 description: The following articles describe all the local functionality in the Norwegian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2024

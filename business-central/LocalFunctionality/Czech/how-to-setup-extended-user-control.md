@@ -3,7 +3,7 @@ title: Set up extended user control [CZ]
 description: The majority of companies in the Czech Republic request the following improvements to be implemented in user setup and control.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/17/2023
 ms.reviewer: bholtorf

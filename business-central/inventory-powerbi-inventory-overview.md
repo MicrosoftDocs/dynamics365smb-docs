@@ -4,7 +4,7 @@ description: The Inventory Overview report provides a high-level summary of your
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37022_Primary
 ms.date: 10/28/2024

@@ -4,7 +4,7 @@ description: The Profitability report shows gross and net profits over time.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36989_Primary
 ms.date: 10/31/2024

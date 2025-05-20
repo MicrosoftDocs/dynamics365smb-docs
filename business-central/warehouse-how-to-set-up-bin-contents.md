@@ -2,7 +2,7 @@
 title: Create Bin Contents
 description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7374
 ms.date: 04/01/2021

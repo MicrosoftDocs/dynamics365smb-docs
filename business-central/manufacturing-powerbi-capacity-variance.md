@@ -4,7 +4,7 @@ description: The Capacity Variance report shows the variance between expected an
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37047_Primary
 ms.date: 11/01/2024

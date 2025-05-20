@@ -4,7 +4,7 @@ description: Describes how to create G/L budgets to forecast different financial
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: postpone
 ms.search.form: 113, 120_Primary, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374

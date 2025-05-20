@@ -2,7 +2,7 @@
 title: Germany local functionality
 description: The following articles describe the local functionality available in the German version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: German version, local functionality
 ms.date: 03/10/2025

@@ -2,7 +2,7 @@
 title: How to View Archived Workflow Step Instances
 description: All completed workflow step instances are saved on the Archived Workflow Step Instances page. Each step consists of a workflow event and workflow response.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1530, 

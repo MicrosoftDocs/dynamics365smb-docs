@@ -4,7 +4,7 @@ description: The Inventory Valuation by Location report shows the item values on
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37058_Primary
 ms.date: 10/30/2024

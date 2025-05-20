@@ -2,7 +2,7 @@
 title: How to Copy Existing Items to New Items
 description: When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 729

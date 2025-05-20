@@ -397,6 +397,9 @@ When dealing with gift cards, it's important to enter a value in the **Sold Gift
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 
+> [!NOTE]
+> To import gift cards created manually or sold via old orders, that you don't want to import, you need to use configuration package. Use the  30110 **Shpfy Gift Card** table and **Id**, **Last Characters**, **Amount**.  You can export gift cards from Shopify Admin. You will need **Id**, **Last Charaters** and **Current Balance** fields. 
+
 ## Related information
 
 [Get started with the Shopify Connector](get-started.md)  

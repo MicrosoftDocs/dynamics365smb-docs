@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37066, 37100, 37101, 37102, 37103, 37104, 37105
-ms.date: 10/26/2024
+ms.date: 05/20/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-The semantic model in the Power BI sales app is organized in a [Star Schema Model](/power-bi/guidance/star-schema#star-schema-overview).
+The semantic model in the Power BI Sales app is organized in a [Star Schema Model](/power-bi/guidance/star-schema#star-schema-overview).
 
 The fact tables contains information about individual transactions from sources such as sales orders, posted sales invoices, and posted credit memos from [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -29,21 +29,22 @@ Fact tables store transactional data and support summarizations such as SUM, AVG
 - [Sales](#sales)
 - [Sales Budget](#sales-budget)
 
-### Opportunity Entries
-Data from the following tables are used:
+### Opportunity entries
+
+Data from the following table is used:
 
 - Opportunity Entries
 
-#### Table Definition
+#### Table definition
 
 | Power BI Field Name | Business Central Field Name | Description |
 | ------ | -------------- | ---------- |
-| Action Taken | Action Taken | Specifies the action taken when the opportunity entry was last updated. |
+| Action Taken | Action Taken | Specifies what happened when the opportunity entry was last updated. |
 | Active | Active | Specifies that the opportunity entry is active. |
 | Date of Change | Date of Change | Specifies the date when the opportunity entry was last changed. |
-| Estimated Close Date | Estimated Close Date | Specifies the estimated date when the opportunity entry will be closed. |
-| Opportunity Entry No. | Entry No. | Specifies the opportunity entry's no. |
-| Opportunity No. | Opportunity No. | Specifies the opportunity's no. |
+| Estimated Close Date | Estimated Close Date | Specifies the estimated date when the opportunity entry will close. |
+| Opportunity Entry No. | Entry No. | Specifies the opportunity entry's number. |
+| Opportunity No. | Opportunity No. | Specifies the opportunity's number. |
 
 ### Sales
 
@@ -71,7 +72,7 @@ The app uses data from the following table:
 
 - Item Budget Entries
 
-### Table definition
+#### Table definition
 
 | Power BI field name | Business Central field name | Description |
 | ------ | -------------- | ---------- |
@@ -81,7 +82,7 @@ The app uses data from the following table:
 
 ## Dimension tables
 
-The star schema model uses dimension tables to support the data model and allow you to filter and group.
+The star schema model uses dimension tables and allows you to filter and group.
 
 - [Close Opportunity Code](#close-opportunity-code)
 - [Contact](#contact)
@@ -200,7 +201,7 @@ The app uses data from the following table:
 
 ### Opportunities
 
-The app uses data from the following tables:
+The app uses data from the following table:
 
 - Opportunity
 
@@ -218,7 +219,7 @@ The app uses data from the following tables:
 
 ### Reason Codes
 
-The app uses data from the following tables:
+The app uses data from the following table:
 
 - Return Reason
 
@@ -231,7 +232,7 @@ The app uses data from the following tables:
 
 ### Sales Cycle Stages
 
-The app uses data from the following tables:
+The app uses data from the following table:
 
 - Sales Cycle Stage
 

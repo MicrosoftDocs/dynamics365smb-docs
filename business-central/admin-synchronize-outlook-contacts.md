@@ -32,7 +32,7 @@ On the **Exchange Sync. Setup** page, you can validate that the connection to Ex
 
 Each of your coworkers can also set up their own Exchange synchronization and set their own filters on which contacts to synchronize.  
 
-After you set up synchronization, you can sync changes to the contact manually, or you can automate the process by setting up a job queue entry. Learn more about automation in the next section in this article.
+After you set up synchronization, you can sync changes to the contact manually, or automate the process by setting up a job queue entry (2023 release wave 2 and earlier only). Learn more about automation in the next section of this article.
 
 ### Automate synchronization (background synchronization)
 
@@ -41,26 +41,26 @@ After you set up synchronization, you can sync changes to the contact manually, 
 
 To automate sync, if the **Enable Background Synchronization** toggle is on, create a job queue entry to sync contacts on a schedule you set. Learn more in [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-The following table lists the settings on the **Job Queue Entry Card** page that are for synchronizing contacts:
+The following table lists the settings on the **Job Queue Entry Card** page for syncing contacts:
 
-|Field|Setting for Contact Sync|
+|Field|Setting for contact sync|
 |-----|-----|
 |Object Type to Run|Codeunit|
 |Object ID to Run|6700|
 
 ## Synchronize contacts
 
-To sync contacts, select one the these action on the **Exchange Sync. Setup** page: 
+To sync contacts, select one of these actions on the **Exchange Sync. Setup** page:
 
 - **Sync with Microsoft 365**
 
-  Synchronize all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 that were made after the last synchronization, based on the last modified date. Also, new contacts from Microsoft 365 will be synchronized to [!INCLUDE[prod_short](includes/prod_short.md)]. Typically, this action is faster than a full sync. 
+  Synchronize all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 that were made after the last synchronization, based on the last modified date. Also, new contacts from Microsoft 365 are synchronized to [!INCLUDE[prod_short](includes/prod_short.md)]. Typically, this action is faster than a full sync. 
 
 - **Full Sync with Microsoft 365**
 
   Synchronize all contacts in both directions, regardless of the last sync date and last modified date.  
 
-In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Microsoft 365 are **Name**, **Email address** and the contact must be of the type **Person**. [!INCLUDE[prod_short](includes/prod_short.md)] is the source of the contact information, so the [!INCLUDE[prod_short](includes/prod_short.md)] contact information will be saved if there are duplicates.  
+In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Microsoft 365 are **Name**, **Email address** and the contact must be of the type **Person**. [!INCLUDE[prod_short](includes/prod_short.md)] is the source of the contact information, so the [!INCLUDE[prod_short](includes/prod_short.md)] contact information is saved if there are duplicates.  
 
 > [!NOTE]
 > If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync. 

@@ -3,7 +3,8 @@ title: Set Up EHF [NO]
 description: Learn how to configure storage locations for EHF files when generating electronic documents such as invoices or credit memos.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al EHF files, EHF file locations, EHF setup, sales and receivables, Norwegian version
+ms.devlang: al 
+ms.search.keywords: EHF files, EHF file locations, EHF setup, sales and receivables, Norwegian version
 ms.search.form: 459, 5919
 ms.date: 05/14/2025
 ms.author: bholtorf

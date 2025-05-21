@@ -157,10 +157,10 @@ The following integration table mappings install if you choose the **Project and
 |**SVCITEM-CUSTASSET**|Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] with customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].|
 
 > [!NOTE]
-> The integration also maps fields that show item availability information in [!INCLUDE [prod_short](includes/prod_short.md)] on work orders and products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. However, the mapping happens through a virtual table, and not an integration table. Some setup is required. To learn more about virtual tables and viewing item availability, go to [Make item availability information in Business Central available in Field Service](#make-item-availability-information-in-business-central-available-in-field-service).
+> The integration also maps fields that show item availability information in [!INCLUDE [prod_short](includes/prod_short.md)] on work orders and products in [!INCLUDE [field-service-short](includes/field-service-short.md)]. However, the mapping happens through a virtual table, and not an integration table. Some setup is required. To learn more about virtual tables and viewing item availability, go to [Optional: Make item availability information in Business Central available in Field Service](#optional-make-item-availability-information-in-business-central-available-in-field-service).
 
 > [!TIP]
-> To enable technicians who work with the data on mobile devices, you must synchronize resources of the type **Person** in [!INCLUDE [prod_short](includes/prod_short.md)] with a user resource type in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [Synchronize resources that are people as bookable resources](#synchronize-resources-that-are-people-as-bookable-resources).
+> To enable technicians who work with the data on mobile devices, you must synchronize resources of the type **Person** in [!INCLUDE [prod_short](includes/prod_short.md)] with a **User** resource type in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [Synchronize resources that are people with bookable resources](#synchronize-resources-that-are-people-with-bookable-resources).
 
 ## Set up the integration in Field Service
 
@@ -169,28 +169,13 @@ On the **Field Service Setting** page, make the following changes:
 - On the **Purchase** tab, clear the **Use of Products Out of Stock** field. Otherwise, you might get an "out of stock" warning when you choose a product that's out of stock in [!INCLUDE [field-service-short](includes/field-service-short.md)], but is in stock in [!INCLUDE [prod_short](includes/prod_short.md)].
 - On the **Work Order / Booking** tab, turn off the **Calculate Price** and **Calculate Cost** toggles. In the **Work Order Invoice Creation** field, choose **Never**.
 
-### Set up the view in Field Service
-
-The next thing to do is to create and customize the view that people use in [!INCLUDE [field-service-short](includes/field-service-short.md)] to check the inventory of products.
-
-To create the view in [!INCLUDE [field-service-short](includes/field-service-short.md)], follow these steps:
-
-1. In **Power Apps admin center**, on the navigation pane, choose **Tables**.
-1. Choose the **Item Availability by Location** table.
-1. In the **Data experiences** part, choose **Views**.
-1. Choose the **View column** action, and then choose the columns you want the view to include. The following columns are typical choices:
-
-    - **Location Code** shows where the product is available.
-    - **Item No.** confirms you're looking at the correct product.
-    - **Item Description** provides information about the product.
-    - **Unit of Measure Code** gives you an idea of the space you need.
-    - **Remaining Quantity** shows how much of the product is available at each location.
-
 ## Synchronize resources that are people with bookable resources
 
 You can synchronize resources of the type **Person** in [!INCLUDE [prod_short](includes/prod_short.md)] with bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)] that are the **User** type. The synchronization is bi-directional.
 
-1. On the **Integration Table Mapping** page, find the **RESOURCE-BOOKABLESC** mapping, and then edit its filters. In the **Resource Type** field, enter **Generic|Account|Equipment|User**.
+> [!NOTE]
+> On the **Integration Table Mapping** page, by default, for the **RESOURCE-BOOKABLESC** mapping the **Resource Type** field contains **Generic|Account|Equipment|User**. If you're upgrading your existing integration, you might have to add that value.
+
 1. On the **User Setup** page, add an email address for the user that you want to link with the bookable resource. The address must match the address from the user on the tenant where your Dataverse environment is located.
 1. On the **Resource Card** page, in the **Time Sheet Owner User ID** field, choose the user.
 1. Synchronize the resource manually, or wait until the job queue synchronizes resources with bookable resources.
@@ -293,6 +278,23 @@ There's an assisted setup guide to help you create the synthetic relation. To le
 
 > [!NOTE]
 > It can take a few moments to create the synthetic relations.
+
+### Set up the view in Field Service
+
+The next thing to do is to create and customize the view that people use in [!INCLUDE [field-service-short](includes/field-service-short.md)] to check the inventory of products.
+
+To create the view in [!INCLUDE [field-service-short](includes/field-service-short.md)], follow these steps:
+
+1. In **Power Apps admin center**, on the navigation pane, choose **Tables**.
+1. Choose the **Item Availability by Location** table.
+1. In the **Data experiences** part, choose **Views**.
+1. Choose the **View column** action, and then choose the columns you want the view to include. The following columns are typical choices:
+
+    - **Location Code** shows where the product is available.
+    - **Item No.** confirms you're looking at the correct product.
+    - **Item Description** provides information about the product.
+    - **Unit of Measure Code** gives you an idea of the space you need.
+    - **Remaining Quantity** shows how much of the product is available at each location.
 
 ## Related information
 

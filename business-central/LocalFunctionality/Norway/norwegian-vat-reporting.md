@@ -50,27 +50,27 @@ After you register your company in ID-Porten, the next step is to create an inte
 1. Choose **New Integration** to add a new integration point: https://sjolvbetjening.samarbeid.digdir.no/ 
 1. Fill in the fields as described in the following table.
 
-| Parameter name (Norwegian) |  Parameter description | Parameter value |
-|---|---|---|---|
-| Difi-tjeneste | Select the service to be assigned correct scopes. | Select **API-klient**. |
-| Scopes | The application programming interfaces (APIs)/resources that the integration can access. | <p>Select the following scopes:</p><ul><li>**openid**</li><li>**skatteetaten:mvameldinginnsending**</li><li>**skatteetaten:mvameldingvalidering**</li></ul> |
-| Kundens org.nr. | The organization number of the service owner. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
-| Integrasjonens identifikator | The unique identifier of the service. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
-| Navn på integrasjonen | The name of the integration as it appears in the sign-in window. | Specify **Microsoft Dynamics 365 Business Central (New)**. |
-| Beskrivelse | A brief description of the service (for example, "Meeting portal for NN municipality"). | Specify **Integration with Microsoft Dynamics 365 Business Central**. |
-| Tillatte grant types | A grant represents the user's consent to retrieve an access token. By selecting specific grants, you consent to the corresponding methods of retrieving an access token. | <p>Select the following grant types:</p><ul><li>**authorization_code**</li><li>**refresh_token**</li></ul> |
-| Klientautentiseringsmetode | The method of authentication of your client. | Specify **client_secret_post**. |
-| Applikasjonstype | The application (or client) type is the type of runtime environment that the client is running under. OAuth2 chapter 2.1 lists the available options. The choice of client type is a security assessment that the customer performs. | Select **web**. |
-| Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you use Business Central online or on-premises. For online, use the following URI, `https://www.businesscentral.dynamics.com/OAuthLanding.htm`. Here's an example of a URI for on-premises: `https://<hostname>/OAuthLanding.htm`. |
-| Gyldig(e) post logout redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign out. | Specify `https://skatteetaten.no`. |
-| Frontchannel logout uri | The URI that the provider sends a request to upon sign out that another client triggers in the same session. If you don't set this parameter, you risk that users remain signed in to your service when they sign out of ID-porten. | The value should be blank. |
-| Frontchannel logout krever sesjons-id | This parameter applies only to personal sign-in integrations. It's a flag that determines whether the issuer and session ID parameters are passed together with **frontchannel_logout_uri**. | Leave this checkbox cleared. |
-| Tilbake-uri | This parameter applies only to personal sign-in integrations. It specifies the URI that a user is sent back to when they cancel sign-in. | Specify `https://skatteetaten.no`. |
-| PKCE | This parameter specifies code challenge method. | Specify **S256** |
-| Authorization levetid (sekunder) | The lifetime of the registered authorization. In an OpenID Connect context, this authorization gives access to the "userinfo" endpoint. The value must be specified in seconds. | Specify **31536000** (= one year). |
-| Access token levetid (sekunder) | The lifetime of the issued **access_token** in seconds. | Specify **7200** (= two hours). |
-| Refresh token levetid (sekunder) | The lifetime of the issued **refresh_token** in seconds. | Specify **0** (zero). |
-| Refresh token type | <ul><li>**One-time** – You get a new **refresh_token** at each refresh of **access_token**.</li><li>**Reusable** – A refresh of **access_token** doesn't change **refresh_token**.</li></ul> | Specify **Engangs**. |
+    | Parameter name (Norwegian) |  Parameter description | Parameter value |
+    |---|---|---|---|
+    | Difi-tjeneste | Select the service to be assigned correct scopes. | Select **API-klient**. |
+    | Scopes | The application programming interfaces (APIs)/resources that the integration can access. | <p>Select the following scopes:</p><ul><li>**openid**</li><li>**skatteetaten:mvameldinginnsending**</li><li>**skatteetaten:mvameldingvalidering**</li></ul> |
+    | Kundens org.nr. | The organization number of the service owner. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
+    | Integrasjonens identifikator | The unique identifier of the service. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
+    | Navn på integrasjonen | The name of the integration as it appears in the sign-in window. | Specify **Microsoft Dynamics 365 Business Central (New)**. |
+    | Beskrivelse | A brief description of the service (for example, "Meeting portal for NN municipality"). | Specify **Integration with Microsoft Dynamics 365 Business Central**. |
+    | Tillatte grant types | A grant represents the user's consent to retrieve an access token. By selecting specific grants, you consent to the corresponding methods of retrieving an access token. | <p>Select the following grant types:</p><ul><li>**authorization_code**</li><li>**refresh_token**</li></ul> |
+    | Klientautentiseringsmetode | The method of authentication of your client. | Specify **client_secret_post**. |
+    | Applikasjonstype | The application (or client) type is the type of runtime environment that the client is running under. OAuth2 chapter 2.1 lists the available options. The choice of client type is a security assessment that the customer performs. | Select **web**. |
+    | Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you use Business Central online or on-premises. For online, use the following URI, `https://www.businesscentral.dynamics.com/OAuthLanding.htm`. Here's an example of a URI for on-premises: `https://<hostname>/OAuthLanding.htm`. |
+    | Gyldig(e) post logout redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign out. | Specify `https://skatteetaten.no`. |
+    | Frontchannel logout uri | The URI that the provider sends a request to upon sign out that another client triggers in the same session. If you don't set this parameter, you risk that users remain signed in to your service when they sign out of ID-porten. | The value should be blank. |
+    | Frontchannel logout krever sesjons-id | This parameter applies only to personal sign-in integrations. It's a flag that determines whether the issuer and session ID parameters are passed together with **frontchannel_logout_uri**. | Leave this checkbox cleared. |
+    | Tilbake-uri | This parameter applies only to personal sign-in integrations. It specifies the URI that a user is sent back to when they cancel sign-in. | Specify `https://skatteetaten.no`. |
+    | PKCE | This parameter specifies code challenge method. | Specify **S256** |
+    | Authorization levetid (sekunder) | The lifetime of the registered authorization. In an OpenID Connect context, this authorization gives access to the "userinfo" endpoint. The value must be specified in seconds. | Specify **31536000** (= one year). |
+    | Access token levetid (sekunder) | The lifetime of the issued **access_token** in seconds. | Specify **7200** (= two hours). |
+    | Refresh token levetid (sekunder) | The lifetime of the issued **refresh_token** in seconds. | Specify **0** (zero). |
+    | Refresh token type | <ul><li>**One-time** – You get a new **refresh_token** at each refresh of **access_token**.</li><li>**Reusable** – A refresh of **access_token** doesn't change **refresh_token**.</li></ul> | Specify **Engangs**. |
 
 :::image type="content" source="../../media/nor-vat-return-integration-point-new.png" alt-text="Integration point settings for Norwegian VAT":::
 
@@ -81,23 +81,25 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
 1. Choose **Set up an electronic VAT submission** to start the assisted setup guide. The guide helps you complete the following steps:
 
-* Authorize [!INCLUDE[prod_short](../../includes/prod_short.md)] to connect to ID-Porten.
+   1. Authorize [!INCLUDE[prod_short](../../includes/prod_short.md)] to connect to ID-Porten.
+      On the **Electronic VAT Setup** page, enter the **Client ID**, **Client Secret**, and **Redirect URI** from your company's registration for ID-Porten. Then, choose **Open OAuth 2.0 setup page** action. On the **OAuth 2.0 Setup** page, choose the **Request Authorization Code** action to receive the token you need to connect. You need the identification number, password, and pin for a user who is allowed to submit VAT returns. After you provide those credentials, choose **MinID** as the electronic ID.
 
-  On the **Electronic VAT Setup** page, enter the **Client ID**, **Client Secret**, and **Redirect URI** from your company's registration for ID-Porten. Then, choose **Open OAuth 2.0 setup page** action. On the **OAuth 2.0 Setup** page, choose the **Request Authorization Code** action to receive the token you need to connect. You need the identification number, password, and pin for a user who is allowed to submit VAT returns. After you provide those credentials, choose **MinID** as the electronic ID.
-* Verify that you're using the correct VAT registration number for your company.
+   1. Verify that you're using the correct VAT registration number for your company.
 
-  A message prompts you to open the Company Information page, where you can double-check the VAT registration number for your setup.
-* Update the rates for the VAT codes that require reporting.
+      A message prompts you to open the Company Information page, where you can double-check the VAT registration number for your setup.
 
-  [!INCLUDE[prod_short](../../includes/prod_short.md)] provides 32 VAT codes, however, some VAT codes don't require that you report VAT. You can automatically update the rates for VAT codes. Also, VAT codes can vary, for example, for different industries or types of business. On the **VAT Codes** page, you can use the **Edit List** action and then assign or remove the codes and rates that are relevant for your business.  
+   1. Update the rates for the VAT codes that require reporting.
+
+     [!INCLUDE[prod_short](../../includes/prod_short.md)] provides 32 VAT codes, however, some VAT codes don't require that you report VAT. You can automatically update the rates for VAT codes. Also, VAT codes can vary, for example, for different industries or types of business. On the **VAT Codes** page, you can use the **Edit List** action and then assign or remove the codes and rates that are relevant for your business.  
   
-  > [!NOTE]
-  > The update assigns the rates that were valid in December, 2021. You're responsible for ensuring that those rates are still valid.
+    > [!NOTE]
+    > The update assigns the rates that were valid in December, 2021. You're responsible for ensuring that those rates are still valid.
 
-* Define your VAT posting setup to ensure that VAT amounts are posted to the correct accounts. Learn more in [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md).
-* Create a VAT statement to map the VAT business posting group with the VAT product posting group.
+   1. Define your VAT posting setup to ensure that VAT amounts are posted to the correct accounts. Learn more in [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md).
 
-  The mapping determines how you post and track VAT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. You assign the VAT codes to use for sales and purchasing.
+   1. Create a VAT statement to map the VAT business posting group with the VAT product posting group.
+
+     The mapping determines how you post and track VAT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. You assign the VAT codes to use for sales and purchasing.
 
 > [!NOTE]
 > In addition to the settings described earlier, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.

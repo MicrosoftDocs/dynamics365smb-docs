@@ -27,7 +27,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 1. Enter information in the **Code**, **General Posting Type**, and **Description** fields for each VAT code.  
 1. Choose the **OK** button to close the **VAT Codes** page.  
 
-## To set up VAT posting
+## Set up VAT posting
 
 The following procedure explains the VAT posting setup.  
 

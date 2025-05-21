@@ -90,16 +90,16 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 
    1. Update the rates for the VAT codes that require reporting.
 
-     [!INCLUDE[prod_short](../../includes/prod_short.md)] provides 32 VAT codes, however, some VAT codes don't require that you report VAT. You can automatically update the rates for VAT codes. Also, VAT codes can vary, for example, for different industries or types of business. On the **VAT Codes** page, you can use the **Edit List** action and then assign or remove the codes and rates that are relevant for your business.  
+      [!INCLUDE[prod_short](../../includes/prod_short.md)] provides 32 VAT codes, however, some VAT codes don't require that you report VAT. You can automatically update the rates for VAT codes. Also, VAT codes can vary, for example, for different industries or types of business. On the **VAT Codes** page, you can use the **Edit List** action and then assign or remove the codes and rates that are relevant for your business.  
   
-    > [!NOTE]
-    > The update assigns the rates that were valid in December, 2021. You're responsible for ensuring that those rates are still valid.
+      > [!NOTE]
+      > The update assigns the rates that were valid in December, 2021. You're responsible for ensuring that those rates are still valid.
 
    1. Define your VAT posting setup to ensure that VAT amounts are posted to the correct accounts. Learn more in [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md).
 
    1. Create a VAT statement to map the VAT business posting group with the VAT product posting group.
 
-     The mapping determines how you post and track VAT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. You assign the VAT codes to use for sales and purchasing.
+      The mapping determines how you post and track VAT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. You assign the VAT codes to use for sales and purchasing.
 
 > [!NOTE]
 > In addition to the settings described earlier, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.

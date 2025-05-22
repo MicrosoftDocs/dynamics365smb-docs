@@ -67,7 +67,7 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
 
 1. Select **Manage user access** to specify additional agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
-
+1. Select **Update** to complete the setup.
 1. Ensure the Payables Agent's language is set to a supported language.
 
    When you configure the agent, it uses the same language as the display language of your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
@@ -109,7 +109,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 ---
 
-### Manage agent permissions to objects, data, and UI elements
+### Manage agent's permissions to objects, data, and UI elements
 
 The Payables Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **PAYABLES AGENT - [COMPANY]** to open the agent card page.
 

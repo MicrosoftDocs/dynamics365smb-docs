@@ -47,7 +47,7 @@ Before configuring and activating the Payables Agent, ensure the following prere
 
 ## Turn on the Payables Agent capability for the environment
 
-The agent capability is on if the ![Shows the Payables Agent icon](media/soa-icon.png) **Payables Agent** icon appears in the top navigation menu of the role center.
+The agent capability is on if the ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** icon appears in the top navigation menu of the role center.
 
 ![Shows the Payables Agent icon on a role center](media/soa-in-role-center.svg)
 
@@ -59,7 +59,7 @@ Next, configure and activate the agent so it can process vendor invoices.
 
 Configure and activate the Payables Agent for your company. Only one Payables Agent is allowed per company, but you can give access to many users.
 
-1. In the navigation bar at the upper right of the role center, select ![Shows the Payables Agent icon](media/soa-icon.png) **Payables Agent** > **Activate**.
+1. In the navigation bar at the upper right of the role center, select ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** > **Activate**.
 
 1. On the **Configure the Payables Agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.
 

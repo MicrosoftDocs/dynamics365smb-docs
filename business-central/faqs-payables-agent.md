@@ -1,7 +1,7 @@
 ---
 title: FAQ for Payables Agent
-description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 04/01/2025
+description: This FAQ provides information about the AI technology used by Payables Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 05/22/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -11,36 +11,36 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# FAQ for Sales Order Agent (preview)
+# FAQ for Payables Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Sales Order Agent feature in Business Central.
+These frequently asked questions (FAQ) describe the AI impact of Payables Agent feature in Business Central.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
-## What is the Sales Order Agent?
+## What is the Payables Agent?
 
-The Sales Order Agent is an integrated AI agent that automates the task of handling requests for sales quotes and sales orders from customers. The agent can manage the entire sales order capturing process, from receiving a customer's order by email, locating the customer among the registered customers in Business Central, checking items availability, preparing a quote with the requested items, following up with the customer on any changes needed to finalize the quote, receiving quote approval, and converting it to a sales order.
+The Payables Agent is an integrated AI agent that automates the task of processing of vendor invoices. The agent can manage the entire sales order capturing process, from receiving a customer's order by email, locating the customer among the registered customers in Business Central, checking items availability, preparing a quote with the requested items, following up with the customer on any changes needed to finalize the quote, receiving quote approval, and converting it to a sales order.
 
-Learn more in [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md).
+Learn more in [Process sales quotes and orders with Payables Agent](sales-order-agent-process.md).
 
-## What are the capabilities of the Sales Order Agent?
+## What are the capabilities of the Payables Agent?
 
 The agent supports handling requests for sales quotes and sales orders from customers with the following capabilities:
 
 - Agent configuration
 
-  The agent is available directly within Business Central. You can configure and activate the agent to help your team or organization improve the sales process. For example, you can specify the users who can participate in the process of reviewing and approving the sales documents created by the agent. You can also specify the mailbox for receiving the customer requests and settings for searching your items and involving the users to review the agent's work.
+  The agent is available directly within Business Central. You can configure and activate the agent to help your team or organization improve the payables process. For example, you can specify the users who can participate in the process of reviewing and approving the sales documents created by the agent. You can also specify the mailbox for receiving the customer requests and settings for searching your items and involving the users to review the agent's work.
 
-  Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
+  Learn more in [Set up Payables Agent](payables-agent-setup.md).
 
 - Task execution and interaction
 
-  The agent operates based on its instructions and user configuration. The instructions describe its purpose, tasks, and high level considerations for how to perform the flow. These instructions are defined in the agent code and aren't visible to users. The agent uses AI to identify and carry out the steps needed to complete its task within the Business Central environment. Learn more in [Sales Order Agent overview](sales-order-agent.md).
+  The agent operates based on its instructions and user configuration. The instructions describe its purpose, tasks, and high level considerations for how to perform the flow. These instructions are defined in the agent code and aren't visible to users. The agent uses AI to identify and carry out the steps needed to complete its task within the Business Central environment. Learn more in [Payables Agent overview](sales-order-agent.md).
 
-  The agent is invoked by a built-in email dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over emails received from the customers to the Sales Order Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response.
+  The agent is invoked by a built-in email dispatcher that runs as a scheduled task and monitors the company mailbox specified in the agent's configuration. The dispatcher hands over emails received from the customers to the Payables Agent and sends results of the agent's work, such as prepared sales quote with requested items, in response.
   
 - Access and permissions
 
@@ -54,9 +54,9 @@ The agent supports handling requests for sales quotes and sales orders from cust
 
   For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the email conversation. Users can review this information and update the values and actions the agent suggested if needed. Business Central can also display the reasoning used by the agent and citations that led to a suggested value.
 
-## What is the intended use of the Sales Order Agent?
+## What is the intended use of the Payables Agent?
 
-The Sales Order Agent is intended to handle the end-to-end sales order capturing process. This process includes:
+The Payables Agent is intended to handle the end-to-end sales order capturing process. This process includes:
 
 - Taking the customer’s order by email
 - Iterating on the details with the customer via email
@@ -65,7 +65,7 @@ The Sales Order Agent is intended to handle the end-to-end sales order capturing
 - Sending the quote to the customer for approval
 - Converting the quote to a sales order upon receiving customer confirmation.
 
-## How was the Sales Order Agent evaluated? What metrics are used to measure performance?
+## How was the Payables Agent evaluated? What metrics are used to measure performance?
 
 We defined a set of categories and scenarios and created test cases for each as described in the following table. In total, we have a suite of 50 test cases.
 
@@ -74,7 +74,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 |Quotes<br><br>Precise request for a quote with variations (delivery dates or not, terse/verbose request, complete or incomplete email signature) |<ul><li>Single/multi-turn with approval by customer. Up to three items.</li><li>Quote request for four or more items</li><li>Request for quote by item reference. Up to three lines.</li><li>Quote sent but not approved by customer.</li><li>Quote request from unknown customer.</li><li>Quote request for unknown item.</li></ul>|
 |Information<br><br>Requests for information about items followed by a quote request|<ul><li>Single and multi-turn with quote based on information.</li><li>Request for information about unknown items.</li></ul>|
 
-## What are the limitations of Sales Order Agent? How can users minimize the impact of the Sales Order Agent limitations when using the system?
+## What are the limitations of Payables Agent? How can users minimize the impact of the Payables Agent limitations when using the system?
 
 - Languages
 
@@ -107,7 +107,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 - Other considerations
 
   - Delegated administrators can't activate the agent.  
-  - It's only possible to configure and use one Sales Order Agent per Business Central company.
+  - It's only possible to configure and use one Payables Agent per Business Central company.
   - The agent uses the regional settings specified by its user account.
   - While the agent can recognize and interact with the custom fields and actions introduced by customizations and ISV solutions, which are added to the agent's profile and permissions, the results might vary in quality and should be thoroughly tested. Improving reliability of working with the custom elements might require adjustments to the agent's instructions, which is currently not supported. 
   
@@ -115,15 +115,15 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 - Access control and permissions
 
-  Like any other user in Business Central, the Sales Order Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that an administrator or configuring user can assign to the agent. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.  
+  Like any other user in Business Central, the Payables Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that an administrator or configuring user can assign to the agent. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.  
 
-  We strongly encourage using the permission sets and the profile included with the Sales Order Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
+  We strongly encourage using the permission sets and the profile included with the Payables Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
 
-  Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
+  Learn more in [Set up Payables Agent](sales-order-agent-setup.md).
 
 - Transparency and notifications
 
-  Business Central users can maintain full transparency and control over the changes made by the Sales Order Agent by using other experiences that enable them to:
+  Business Central users can maintain full transparency and control over the changes made by the Payables Agent by using other experiences that enable them to:
 
   - Receive notifications on the role center that come from the agent when it requires help or when the process demands human review. For example, review is required for all inbound and outbound messages, approvals, adding missing data, and similar reasons.
   - Get a better understanding of the specific task context and history (“timeline” view), including key steps involved in it.
@@ -140,9 +140,9 @@ Currently, this capability isn't extensible by partners.
 
 ## Related information
 
-[Sales order agent overview](sales-order-agent.md)  
-[Set up the Sales Order Agent](sales-order-agent-setup.md)  
-[Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)  
+[Payables Agent overview](sales-order-agent.md)  
+[Set up the Payables Agent](sales-order-agent-setup.md)  
+[Process sales quotes and orders with Payables Agent](payables.md)  
 [Configure Copilot and agent capabilities](enable-ai.md) 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

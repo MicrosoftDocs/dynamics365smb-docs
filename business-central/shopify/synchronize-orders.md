@@ -393,7 +393,9 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 
 In the Shopify shop you can sell gift cards, which can be used to pay for real products.
 
-When dealing with gift cards, it's important to enter a value in the **Sold Gift Card Account** field in the **Shopify Shop Card** page. The sold gift card synchronizes together with the orders. An applied gift card also imports with the order, but now as a transaction. The gift card doesn't reduce the amount to invoice.
+When dealing with gift cards, it's important to enter a value in the **Sold Gift Card Account** field in the **Shopify Shop Card** page. The sold gift card synchronizes together with the orders and added to sales document as line of type *G/L Account*. 
+
+An applied gift card also imports with the order, but now as a payment transaction. The gift card doesn't reduce the amount to invoice. To learn how to reconcile payment transaction, see [Transactions and payouts](transactions-and-payouts.md).
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 

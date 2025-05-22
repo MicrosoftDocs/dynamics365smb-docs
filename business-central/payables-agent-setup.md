@@ -88,7 +88,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 #### [From Configure Payables Agent](#tab/payablesagentconfig)
 
-1. Open the **Configure Payables Agent** page by selecting ![Shows the Payables Agent icon after configured](media/soa-activated-icon.png) **Payables Agent** > ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure**.
+1. Open the **Configure Payables Agent** page by selecting ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png) **Payables Agent** > ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
 1. Select **Manage user access**.
 1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
@@ -101,7 +101,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Set **Status** to **Disabled** to deactivate the agent.
-1. In the **User access** section, you can do the following steps:
+1. In the **User access** section, do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Payables Agent, select the **Can configure** check box.
@@ -145,5 +145,6 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 1. Set **Lanaguage** to a supported English locale.
 
 ## Related information
+
 [Payables Agent overview](payables-agent.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

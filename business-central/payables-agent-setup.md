@@ -49,7 +49,7 @@ Before configuring and activating the Payables Agent, ensure the following prere
 
 The agent capability is on if the ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** icon appears in the top navigation menu of the role center.
 
-![Shows the Payables Agent icon on a role center](media/soa-in-role-center.svg)
+![Shows the Payables Agent icon on a role center](media/payables-agent-in-role-center.svg)
 
 If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 

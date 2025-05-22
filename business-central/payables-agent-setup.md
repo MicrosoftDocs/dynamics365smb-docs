@@ -45,7 +45,7 @@ Before configuring and activating the Payables Agent, ensure the following prere
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Payables Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 
-## Turn on the Payables Agent capability for the environment
+## Turn on Payables Agent capability for environment
 
 The agent capability is on if the ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** icon appears in the top navigation menu of the role center.
 

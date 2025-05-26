@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 
-ms.date: 03/24/2025
+ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -54,16 +54,14 @@ People in different roles have different needs when it comes to data, and they u
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Businesses often use the following KPIs to monitor production performance:
 
-- Total Actual Cost with all sub-cost calculations like Actual Material Cost, Actual Capacity Cost and more
-- Expected Cost, Expected Cost Variance and Expected Cost Dev %
-- Total Standard Cost, Standard Cost Variance and Standard Cost Dev %
+- Total Actual Cost with sub-cost calculations such as Actual Material Cost, Actual Capacity Cost, and more
+- Expected Cost, Expected Cost Variance, and Expected Cost Dev %
+- Total Standard Cost, Standard Cost Variance, and Standard Cost Dev %
 - Planned vs. Finished Quantity
 
 :::image type="content" source="media/manufacturing/finished-production-order-breakdown-v26.png" alt-text="Screenshot of the Finished Production Order Breakdown Power BI Report" lightbox="media/manufacturing/finished-production-order-breakdown-v26.png":::
 
-These KPIs (and more) are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)].
-
-To learn more, go to [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
+These KPIs, and more, are available for manufacturing in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)] for [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Manufacturing KPIs](manufacturing-powerbi-kpis.md).
 
 ### Reports in the [!INCLUDE [powerbi-manufacturing-app-name](includes/power-bi-manufacturing-app-name.md)]
 

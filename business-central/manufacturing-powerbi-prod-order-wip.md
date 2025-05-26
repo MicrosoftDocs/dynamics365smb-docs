@@ -1,15 +1,16 @@
 ---
 title: Production Order WIP    
-description: The Production Order WIP
+description: Learn how to benefit from using the Production Order WIP report.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 # TODO correct page id must be added
 # ms.search.form: 37042_Primary 
-ms.date: 04/25/2024
+ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Production Order WIP (Power BI Report)
@@ -20,15 +21,28 @@ ms.service: dynamics-365-business-central
 
 :::image type="content" source="media/manufacturing/production-order-wip-v26.png" alt-text="Screenshot of the Production Order WIP Power BI Report" lightbox="media/manufacturing/production-order-wip-v26.png":::
 
-The **Production Order WIP Report** consists of two key visuals designed to provide insights into work-in-progress (WIP) inventory. The top visual is a timeline chart that showcases the Ending Balance Value of WIP inventory over time. By plotting the Ending Balance Value as the Y-axis and the Month Year as the X-axis, this visual offers a clear trend analysis, allowing users to observe fluctuations and patterns in WIP inventory.
+The **Production Order WIP Report** consists of two key visuals that give insights into work-in-progress (WIP) inventory. The top visual is a timeline chart that showcases the **Ending Balance Value of WIP** inventory over time. By plotting the **Ending Balance Value** as the Y-axis and the **Month Year** as the X-axis, the visual offers a clear trend analysis and lets you find fluctuations and patterns in WIP inventory.
 
-Below the timeline is the **Inventory Valuation - WIP** table, which provides a detailed breakdown of production order-related inventory valuation. The table includes essential columns such as Production Order, Description, Source Type, Source No., Starting and Ending Dates, Beginning Balance, Consumption, Capacity, Output, and Ending Balance Value. Together, these visuals provide both high-level and detailed perspectives on WIP inventory.
+The **Inventory Valuation - WIP** table gives you a detailed breakdown of production order-related inventory valuation. The table includes essential columns, such as:
+
+- Production Order
+- Description
+- Source Type
+- Source No.
+- Starting and Ending Dates
+- Beginning Balance
+- Consumption
+- Capacity
+- Output
+- Ending Balance Value
+
+Together, these visuals provide both high-level and detailed perspectives on WIP inventory.
 
 ## Use the report
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
-The *Production Order WIP* report includes the following KPIs and measures:
+The Production Order WIP report includes the following KPIs and measures:
 
 - [Beginning Balance Value](manufacturing-powerbi-kpis.md#beginning-balance-value)
 - [Consumption Value](manufacturing-powerbi-kpis.md#consumption-value)
@@ -53,7 +67,7 @@ Try the report here: [Production Order WIP](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

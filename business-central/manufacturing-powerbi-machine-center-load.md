@@ -3,13 +3,13 @@ title: Machine Center Load
 description: The Machine Center Load report shows the load and the allocated capacity of each machine center.
 author: kennienp
 ms.author: kepontop
-ms.reviewer:
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-# TODO correct page id must be added
-# ms.search.form: 37042_Primary 
-ms.date: 04/22/2024
+ms.search.form: 37042_Primary 
+ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Machine Center Load (Power BI Report)
@@ -28,9 +28,9 @@ Manufacturing managers use this report to ensure that loads on machine centers d
 
 Production supervisors use this report to analyze the load percentage and allocated time for machine center loads and report them to the manufacturing manager. This information helps ensure that the workload is distributed evenly across all machine centers so production runs smoothly.
 
-## Key Performance Indicators (KPIs)
+## Key performance indicators (KPIs)
 
-The *Machine Center Load* report includes the following KPIs and measures:
+The Machine Center Load report includes the following KPIs and measures:
 
 - [Machine Center Capacity Effective](manufacturing-powerbi-kpis.md#machine-center-capacity-effective)
 - [Machine Center Allocated Time](manufacturing-powerbi-kpis.md#machine-center-allocated-time)
@@ -56,7 +56,7 @@ Try the report here: [Machine Center Load](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

@@ -19,16 +19,14 @@ What you can do depends on whether your integration is the **Project** or **Proj
 
 The following sections describe benefits in both applications for both types of integrations.
 
+> [!NOTE]
+> The **Project and Service** type of integration includes the same features as the **Project** type. To keep this article short and avoid redundancy, the sections that describe the **Project and Service** type focus on using service features.
+
 ## Use a Project type of integration in Field Service
 
 You can [create work orders](/dynamics365/field-service/create-work-order) using the **Service Account** and **Billing Account** from [!INCLUDE [prod_short](includes/prod_short.md)]. On work orders, you must select the **Business Central Project Task** in the **External Project** field. Selecting a project lets you synchronize work order products and services to the appropriate project task in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 You can add inventory and noninventory items as **Work Order Products** on work orders and get the quantity on hand and costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a work order from the work order form and record list](/dynamics365/field-service/create-work-order#create-a-work-order-from-the-work-order-form-and-record-list).
-
-You can add items of the type service as **Work Order Services**, and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab).
-
-> [!NOTE]
-> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -62,7 +60,10 @@ Use the **Locations in Field Service** action on the **Locations** and **Locatio
 
 ## Use a Project and Service type of integration in Field Service
 
-****************TBD*****************
+You can add items of the type service as **Work Order Services**, and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab).
+
+> [!NOTE]
+> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
 ### Use a Project and Service type of integration in Business Central

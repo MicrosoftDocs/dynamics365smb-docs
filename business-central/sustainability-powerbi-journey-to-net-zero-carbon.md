@@ -3,11 +3,11 @@ title: Journey to Net Zero Carbon
 description: The Journey to Net Zero highlights the journey to net zero within an organization.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: 
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 
-ms.date: 02/05/2025
+ms.date: 05/26/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -15,33 +15,32 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
-The *Journey to Net Zero Carbon* provides an organization a clear picture to monitor and analyze key metrics that can assist in reducing their carbon footprint. This is broken down by an organizations Global Dimensions or the Scopes to provide multiple scenarios for informed reporting.
+The Journey to Net Zero Carbon report helps you monitor and analyze key metrics that can help you reduce your carbon footprint. The report is broken down by global dimensions or scopes to provide multiple scenarios for informed reporting.
 
 :::image type="content" source="media\sustainability\journey-to-net-zero-carbon.png" alt-text="Screenshot of the Journey to Net Zero Carbon Power BI report" lightbox="media\sustainability\journey-to-net-zero-carbon.png":::
 
-
 ## Use the report
-The report can be used by a variety of different users based on their needs within an organization.
 
-A Sustainability Manager can use this report to monitor key Carbon Emissions and renewable energy usage. This can information can be used to be used to identify areas where the emissions can be reduce based on the different scopes and or the dimensions. They can also use this report to track their emissions year over year and aim to see a reduction in emissions and get closer to net zero.
+The report is useful for a variety of different users, depending on what they want to analyze.
 
-## Key Performance Indicators (KPIs)
+Sustainability Managers can use the report to monitor key carbon emissions and renewable energy use. This information can help identify areas where you can reduce emissions, based on different scopes or the dimensions. You can also use this report to track emission reductions year over year as you get closer to net zero.
 
-The *Journey to Net Zero Carbon* report includes the following KPIs and measures: 
+## Key performance indicators (KPIs)
 
-- [**CO2e Emissions (Excl Credits)**](sustainability-powerbi-kpis.md#co2e-emissions-excl-credits)
-- [**Purchased Carbon Credits**](sustainability-powerbi-kpis.md#purchased-carbon-credits)
-- [**CO2e Emissions**](sustainability-powerbi-kpis.md#co2e-emissions)
-- [**CO2 Emissions**](sustainability-powerbi-kpis.md#co2-emissions)
+The Journey to Net Zero Carbon report includes the following KPIs and measures:
 
-Click on the link for a KPI to learn more about what it means, how it is calculated, and what data was used in the calculations. 
+- [CO2e Emissions (Excl Credits)](sustainability-powerbi-kpis.md#co2e-emissions-excl-credits)
+- [Purchased Carbon Credits](sustainability-powerbi-kpis.md#purchased-carbon-credits)
+- [CO2e Emissions](sustainability-powerbi-kpis.md#co2e-emissions)
+- [CO2 Emissions](sustainability-powerbi-kpis.md#co2-emissions)
+
+Choose the link for a KPI to learn more about what it means, how it's calculated, and what data is used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-
 ## Data used in the report
 
-The *Journey to Net Zero Carbon* report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]
+The Journey to Net Zero Carbon report use data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Sustainability Ledger Entry
 - Sustainability Account Category
@@ -52,4 +51,8 @@ Try the report here: [Journey to Net Zero Carbon](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
+
+[Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
+[Sustainability management overview](finance-manage-sustainability.md)  
+[Sustainability reports and analytics in Business Central](sustainability-reports.md)  

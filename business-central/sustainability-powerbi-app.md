@@ -77,5 +77,6 @@ The following table provides descriptions on how you can use each report in the 
 
 ## Related information
 
+[Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)  
 [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)  

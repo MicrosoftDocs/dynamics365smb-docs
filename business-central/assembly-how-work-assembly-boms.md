@@ -4,7 +4,7 @@ description: You create an assembly BOM to specify the components required to pu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: assembly bom, bills of material, 
 ms.search.form: 36, 5870, 5872, 5874
@@ -105,7 +105,7 @@ The costs of the items that make up the assembly BOM are copied from the compone
 
 You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Update Standard Costs](finance-about-calculating-standard-cost.md#updating-standard-costs-with-standard-cost-worksheet).  
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Manage Product Variants](inventory-item-variants.md)  

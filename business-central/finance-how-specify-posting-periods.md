@@ -3,7 +3,7 @@ title: Specify posting periods
 description: You specify posting periods (posting start and end dates) to set up when users can post to the general ledger.
 author: brentholtorf
 editor: ''
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: user setup
 ms.search.form: 118
@@ -31,7 +31,7 @@ When you're closing an accounting period, you might want to prevent new posts fr
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=c53fd593-9cb6-4244-a21f-8fea6a602b4e]
 
-## See also
+## Related information
 
 [Finance](finance.md)  
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  

@@ -3,7 +3,7 @@ title: Finance - Czech local functionality
 description: This section describes Czech local functionality for finance and the features you can use to track and manage your finances.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, Posting
 ms.date: 08/26/2022
 ms.reviewer: bholtorf
@@ -121,7 +121,7 @@ Use the following table to learn more about additional finance features availabl
 | [General ledger entries application](general-ledger-entries-application.md)                                    | In addition to the application of customer and vendor ledger entries, the general ledger entries application are also introduced. With it, you can work with temporary and transfer accounts in the general ledger. |
 | [Exchange rate updating](exchange-rate-update.md)                                    | Makes it possible to automatically update currency exchange rates from the external service provided by the ČNB (Czech National Bank). |
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)
 

@@ -4,7 +4,7 @@ description: Russian enhancements include tax register sections.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -81,7 +81,7 @@ The following procedure shows how to remove a tax register from the register lis
 2. Choose the **OK** button.
 3. Choose the **Delete** action to remove the register from the register list.
 
-## See Also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

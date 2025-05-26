@@ -2,7 +2,7 @@
 title: Sustainability management overview
 description: Learn about the sustainability management feature by using the provided information and resources.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, carbon, CO2
 ms.search.form: 
@@ -60,7 +60,7 @@ To get started with sustainability management, use the following articles.
 | **Integrations** |             |
 | [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Use this article to learn how to create connected apps that establish a point-to-point connection between Business Central and non-Microsoft sustainability solutions or services using APIs. |
 
-## See also
+## Related information
 
 [Sustainability setup](finance-sustainability-setup.md)    
 [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)    

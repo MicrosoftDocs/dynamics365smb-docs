@@ -2,7 +2,7 @@
 title: Managing OneDrive Integration with Business Central
 description: Learn about things you can do to manage an integration between Business Central and OneDrive for Business.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: OneDrive, share, browser
 ms.date: 06/13/2024
@@ -86,7 +86,7 @@ The SharePoint admin center provides extensive control over policies that govern
 > [!NOTE]
 > Some features may be available only for specific plans.
 
-## See also
+## Related information
 
 [Business Central and OneDrive for Business Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  

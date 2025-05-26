@@ -2,7 +2,7 @@
 title: Plan for New Demand Order by Order
 description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply, including item substitution.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5522, 5524, 5526
 ms.date: 07/29/2021
@@ -109,7 +109,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 > [!NOTE]  
 > The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
 
-## See Also
+## Related information
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planning](production-planning.md)  

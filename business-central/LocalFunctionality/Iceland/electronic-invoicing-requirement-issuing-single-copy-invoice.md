@@ -2,7 +2,7 @@
 title: Electronic invoicing requirement for issuing single-copy invoice
 description: In Iceland, a report must be sent to the government if an invoice is printed more than once when using electronic invoicing.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: electronic invoicing equipment, electronic invoicing, single-copy invoice
 ms.author: bholtorf
@@ -19,7 +19,7 @@ Using this feature, you can send a legal statement with terms and limitations fo
 
 On the standard posted invoices (invoice and credit memo), legal text is inserted stating that the invoices originate from an ERP solution that complies with Regulation No. 598/1999.  
 
-## See also
+## Related information
 
 [Setting Up Sales](../../sales-setup-sales.md)  
 

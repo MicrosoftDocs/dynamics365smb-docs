@@ -2,7 +2,7 @@
 title: Get started creating report layouts
 description: Learn how to create and customize report layouts in Dynamics 365 Business Central. Personalize your reports for viewing, printing, or saving.
 author: jswymer
-ms.topic: conceptual
+ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652, 9660_Primary

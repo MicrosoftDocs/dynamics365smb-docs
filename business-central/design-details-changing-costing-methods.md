@@ -2,7 +2,7 @@
 title: Design Details - Changing Costing Methods for Items
 description: Learn how to assign a different costing method to an item although you have already used the item in transactions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
@@ -174,7 +174,7 @@ We recommend the following:
 1. Assess the feasibility of the process by taking one, or maybe a few, representative items through the entire process.
 2. Consider contacting an experienced partner who can help you with the process.
 
-## See Also
+## Related information
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Overview](design-details-inventory-costing.md)

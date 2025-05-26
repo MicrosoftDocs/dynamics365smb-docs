@@ -2,7 +2,7 @@
 title: Save and personalize List Views
 description: Learn how to create your own views for filtered lists and how to save, rename, and manage those views.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 
 ms.date: 11/13/2024
@@ -43,7 +43,7 @@ If you don't give it a name, the default name is **All (Copy)**.
 
 As the number of views on a page grows, you might need more control over how views are presented in the filter pane. With the **Personalizing** banner, you can hide unwanted views or reorder your views to get the perfect sequence. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
-## See also
+## Related information
 
 [List Views FAQ](ui-views-faq.yml)  
 [Analyze list data using data analysis mode](analysis-mode.md)   

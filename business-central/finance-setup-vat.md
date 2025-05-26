@@ -4,7 +4,7 @@ description: Make sure that you correctly calculate, post, and report on VAT for
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
 ms.date: 08/12/2024
@@ -330,7 +330,7 @@ You must set up information about how the tax authorities in your country or reg
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## See also
+## Related information
 
 [Set Up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)    
 [Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    

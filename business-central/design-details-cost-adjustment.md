@@ -2,7 +2,7 @@
 title: Design Details - Cost Adjustment
 description: Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct inventory valuation.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/14/2021
@@ -171,7 +171,7 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 
 If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
 
-## See Also
+## Related information
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

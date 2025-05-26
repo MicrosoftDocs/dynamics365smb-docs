@@ -2,7 +2,7 @@
 title: Belgian VAT
 description: Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: VAT reporting feature, print VAT transaction details, Belgian version
 ms.search.form: 11300, 11301,11303,11306,11307,11308

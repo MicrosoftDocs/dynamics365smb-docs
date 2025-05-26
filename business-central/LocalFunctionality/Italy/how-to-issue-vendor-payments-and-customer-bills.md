@@ -2,7 +2,7 @@
 title: Issue Vendor Payments and Customer Bills (IT)
 description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 12102, 12175, 12176, 12178, 12180, 12181, 12182, 12184, 12185, 12186, 12190
@@ -48,7 +48,7 @@ In addition, there must be a posted purchased invoice against which you can send
 
 You can review the .xml file before sending it. To review and fix errors, you can refer to the **File Export Errors** FactBox.  
 
-## See Also
+## Related information
 
 [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)
 

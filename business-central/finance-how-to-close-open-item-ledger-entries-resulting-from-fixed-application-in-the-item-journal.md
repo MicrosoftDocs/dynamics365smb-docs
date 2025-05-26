@@ -2,7 +2,7 @@
 title: Close item ledger entries that came from using fixed application
 description: Learn how you can create a fixed application between an inbound transaction and the original outbound transaction in the item journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 40
 ms.date: 07/30/2024
@@ -33,7 +33,7 @@ The following procedure shows how to close such entries by performing two correc
 
     The **Applies-to Entry** field specifies if the quantity in the item journal line should be applied to an already-posted document. If so, enter the entry number of the item ledger entry to which the item journal line should be applied.
 
-## See also
+## Related information
 
 [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)    
 [Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)    

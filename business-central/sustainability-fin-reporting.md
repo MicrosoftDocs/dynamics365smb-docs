@@ -4,7 +4,7 @@ description: Describes how to use financial reports to create various views and 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: reporting
 ms.search.form: 104, 108, 490
 ms.date: 10/24/2024
@@ -90,7 +90,7 @@ To create or edit a row definition, follow these steps:
 3. In the **Totaling** field, choose one or more sustainability accounts using all applicable filters.
 4. If you choose **Formula** as a **Totaling Type**, you can use mathematical formulas in the **Totaling** column.  
 
-## See also
+## Related information
 
 [Sustainability Management Overview](finance-manage-sustainability.md)  
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)  

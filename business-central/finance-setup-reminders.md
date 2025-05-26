@@ -2,7 +2,7 @@
 title: Set Up Reminder Terms and Levels
 description: Set up Business Central so you can send reminders about payments due and add charges, or fees because of the delay.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
@@ -109,7 +109,7 @@ If you create more reminders than you define levels for, the conditions for the 
 
 After you set up the reminder terms, you can assign them to customers on Customer Card pages. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 
-## See also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Send Reminders of Outstanding Balances](receivables-send-reminders.md)  

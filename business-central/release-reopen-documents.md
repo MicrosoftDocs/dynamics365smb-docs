@@ -43,7 +43,7 @@ You can now make changes to the document before you release it again.
 > [!NOTE]
 > On document lines that have already been handled in the warehouse, the only change you can make is to change the quantity.
 
-## See also
+## Related information
   
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

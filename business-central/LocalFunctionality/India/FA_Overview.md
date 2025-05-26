@@ -90,7 +90,7 @@ Setup needs to be done to calculate additional depreciation for Fixed Assets.
 
 
 
-## See Also 
+## Related information 
 [Fixed Asset Depreciation](FA_Depreciation.md)
 
 

@@ -5,7 +5,7 @@ description: Purchase Credit Memo or Return Order to Foreign Vendor
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -73,7 +73,7 @@ For example, purchase credit memo or return order is issued for INR 10000, Custo
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Vendor with Overseas Place of Supply](GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
 
 

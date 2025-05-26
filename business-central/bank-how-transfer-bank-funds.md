@@ -2,7 +2,7 @@
 title: Transfer bank funds
 description: You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: bank account transfer, multiple currencies
 ms.search.form: 39
@@ -66,7 +66,7 @@ To transfer funds between bank accounts that use different currencies, you must 
     > An amount without a sign is a debit, and an amount with a minus sign is a credit.
 10. Post the journal.
 
-## See also
+## Related information
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  

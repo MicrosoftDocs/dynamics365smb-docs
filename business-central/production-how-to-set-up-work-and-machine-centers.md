@@ -4,7 +4,7 @@ description: A Work Center card organizes the fixed values and requirements of t
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 06/13/2024
@@ -180,7 +180,7 @@ When you plan with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 > In case of operation splitting, the setup time is only assigned one time because it's assumed that some manual adjustment is done to optimize the schedule.
 
-## See also
+## Related information
 
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

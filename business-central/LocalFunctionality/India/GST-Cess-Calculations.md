@@ -156,7 +156,7 @@ Suppose, **Cess Amount per Unit Factor** is INR 140 and  **Cess Factor Quantity*
 
 
 
-## See Also 
+## Related information 
 [GST Cess Basic Setup](GST-Cess-Basic-Setup.md)
 
 

@@ -2,7 +2,7 @@
 title: How to work with responsibility centers
 description: Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 5714, 5715
@@ -49,7 +49,7 @@ To set this up, you assign responsibility centers to users in three functional a
 > [!NOTE]  
 > Users can view only those posted documents that related to their own responsibility center. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
-## See also
+## Related information
 
 [Setting Up Inventory](inventory-setup-inventory.md)    
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)    

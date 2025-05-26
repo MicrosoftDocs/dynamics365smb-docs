@@ -52,6 +52,6 @@ Read the steps for each scenario in the relevant article.
 > The Service walkthroughs require that the user experience is set to **Premium** in the **Company Information** page.
 
 
-## See also
+## Related information
 
 [Service](../../service-service.md)

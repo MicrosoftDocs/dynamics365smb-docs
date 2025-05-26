@@ -2,7 +2,7 @@
 title: Send Fraud Prevention Data (UK)
 description: Business Central supports the British requirement to submit fraud prevention data to HMRC as part of Making Tax Digital. This article explains how to set up the headers.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, HMRC, tax
 ms.search.form: 10539, 743
 ms.date: 02/18/2025
@@ -89,7 +89,7 @@ Your company can sign up for any of the following endpoints:
 > [!IMPORTANT]
 > The **User IP Address Service** field is available in version 20.1 and later. Your admin can manage your organization's version of [!INCLUDE [prod_short](../../includes/prod_short.md)] in the admin center.
 
-## See also
+## Related information
 
 - [Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 - [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

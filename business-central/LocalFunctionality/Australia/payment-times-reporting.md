@@ -2,7 +2,7 @@
 title: Payment Times Reporting in the Australian version
 description: Payment Times Reporting isn't directly available in the Australian version of Business Central, but this article guides you to the necessary data.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: payment times reporting, vendor ledger entries, Australian version
 ms.date: 03/27/2025
 ms.author: soalex

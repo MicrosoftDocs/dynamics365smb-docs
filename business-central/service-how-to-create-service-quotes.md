@@ -2,7 +2,7 @@
 title: How to Create Service Quotes
 description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -29,7 +29,7 @@ You can use a service quote as a preliminary draft for a service order, and then
 6. Fill in the service item lines.  
 7. Register estimated costs on the service lines.  
   
-## See Also  
+## Related information  
 [Create Service Orders](service-how-to-create-service-orders.md)  
 [Work on Service tasks](service-how-to-work-on-service-tasks.md)  
 

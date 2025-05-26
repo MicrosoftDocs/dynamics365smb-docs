@@ -2,7 +2,7 @@
 title: Receiving, puting-away, picking, and shipping in a mixed warehouse configuration
 description: In Business Central, the inbound and outbound processes can be done in different ways depending on the warehouse complexity level. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 

@@ -2,7 +2,7 @@
 title: Work With Smart Notifications and Specify When You See Them
 description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.date: 04/01/2021
 ms.search.form: 
@@ -31,7 +31,7 @@ Turning notifications on or off, and specifying conditions, applies only to you.
 3. In the page that appears, turn on or turn off a notification by selecting or clearing the **Enabled** check box.  
 4. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
 
-## See Also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

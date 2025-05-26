@@ -4,7 +4,7 @@ description: Learn how to allow concurrent numbering for warehouse register reco
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2024
@@ -41,7 +41,7 @@ You might want to turn off the `ConcurrentWarehousingPosting` feature key if you
 * The feature relies on consecutive entry numbers.
 * The feature locks tables during a process.
 
-## See also
+## Related information
 
 [Application design details](design-details-application-design.md)  
 [Set up nondeductible VAT](finance-setup-nondeductible-vat.md)  

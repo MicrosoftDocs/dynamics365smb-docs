@@ -4,7 +4,7 @@ description: This article explains how you can consolidate the general ledger en
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
@@ -120,7 +120,7 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides an API that let's you automate the process of sharing financial data from business units to the consolidated company. The API is free to use and easy to set up. It even let's you share data across [!INCLUDE [prod_short](includes/prod_short.md)] environments. For example, you might need to share across environments when business units are not in the same Azure geographies. To learn more about using the API to automate the consolidation process, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
 
-## See Also
+## Related information
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

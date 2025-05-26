@@ -2,7 +2,7 @@
 title: Record sustainability entries
 description: Learn how to record greenhouse gas (GHG) emissions.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, water, waste, intensity, CSRD, journal
 ms.search.form: 6216, 6219, 6220

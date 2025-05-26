@@ -4,7 +4,7 @@ description: As an administrator, you can set up Cues that appear on the users' 
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9701, 9702
 ms.date: 04/01/2021
@@ -60,7 +60,7 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Ambiguous**|Yellow|  
     |**Subordinate**|Gray|  
 
-## See Also
+## Related information
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

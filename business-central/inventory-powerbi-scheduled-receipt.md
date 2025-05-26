@@ -4,7 +4,7 @@ description: The Scheduled Receipt report lets you view inbound inventory per do
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37028_Primary
 ms.date: 10/28/2024
@@ -63,7 +63,7 @@ Try the report here: [Scheduled Receipt](https://businesscentral.dynamics.com?pa
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  

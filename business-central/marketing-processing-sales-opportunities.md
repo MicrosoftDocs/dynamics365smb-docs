@@ -4,7 +4,7 @@ description: This topic describes the different ways you can process sales oppor
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: relationship, prospect
 ms.date: 12/28/2023
 ms.custom: bap-template
@@ -83,7 +83,7 @@ If an opportunity follows a sales cycle, you can move it to the next or previous
    * **Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.
 3. Fill in the other fields as needed, and then choose the **OK** button.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  

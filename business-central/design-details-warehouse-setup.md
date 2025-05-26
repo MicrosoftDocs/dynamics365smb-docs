@@ -2,7 +2,7 @@
 title: Design Details - Warehouse Setup
 description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021
@@ -131,7 +131,7 @@ When picking by FEFO, the available items that expire first are gathered in a te
 
 The put-away template can be assigned to an item and to a location. The put-away template specifies a set of prioritized rules that must be respected when creating put-aways. For example, a put-away template may require that the item is placed in a bin with bin content that matches the UOM, and if a similar bin with enough capacity cannot be found, then the item must be placed in an empty bin.  
 
-## See Also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)

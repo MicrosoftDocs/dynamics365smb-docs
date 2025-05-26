@@ -2,7 +2,7 @@
 title: Deleting posted invoices and credit memos [IS]
 description: In Iceland, in accordance with legislation, you can't delete posted sales and purchase invoices and credit memos.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: Iceland, post, invoice, credit memo
 ms.date: 02/05/2025
 ms.author: bholtorf
@@ -24,7 +24,7 @@ If you activate the new [Icelandic localization based on W1 Base App](iceland-gl
 > [!NOTE]
 > The deletion is technically controlled with the new ENUM field **Document Retention Period** in the **General Ledger Setup** page. This field is hidden and has the **IS Docs Retention Period** option by default enabling this control.
 
-## See also  
+## Related information  
 
 [Invoice Sales](../../sales-how-invoice-sales.md)
 

@@ -2,7 +2,7 @@
 title: Design Details - Table Structure | Microsoft Docs
 description: To understand how the dimension entry storing and posting is redesigned, it's important to understand the table structure.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/08/2021
@@ -177,7 +177,7 @@ Field 480 exists in the following buffer tables.
 |5637|**FA G/L Posting Buffer**|  
 |7136|**Item Budget Buffer**|  
 
-## See Also
+## Related information
 
 [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   

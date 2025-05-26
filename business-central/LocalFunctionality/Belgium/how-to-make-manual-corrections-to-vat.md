@@ -2,7 +2,7 @@
 title: How to Make Manual Corrections to VAT [BE]
 description: You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT correction, VAT manual correction, Belgian version
 ms.date: 04/02/2025

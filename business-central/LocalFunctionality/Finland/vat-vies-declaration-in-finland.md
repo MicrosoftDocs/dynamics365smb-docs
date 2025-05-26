@@ -2,7 +2,7 @@
 title: VAT-VIES declaration in Finland
 description: Finnish enhancements allow you to comply with regulations for VAT and European Union (EU) sales reporting.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: VAT, sales reporting, European Union regulations, VAT-VIES
 ms.date: 02/13/2025
@@ -17,7 +17,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 
-## See also
+## Related information
 
 - [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist)  
 - [Finland Local Functionality](finland-local-functionality.md)  

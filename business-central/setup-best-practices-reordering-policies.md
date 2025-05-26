@@ -4,7 +4,7 @@ description: The Reordering Policy field on item cards offers four different pla
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: best-practice
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/13/2024
@@ -36,7 +36,7 @@ The following table provides best practices for selecting between the four polic
 |**Fixed Reorder Qty.**|Use for C items.<br /><br /> Combine with reorder-point parameters.<br /><br /> In manufacturing, use for lowest-level components.<br /><br /> Don't use if the item is often reserved.|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point.<br /><br /> If the user reserves a quantity for a distant demand, the planning foundation is disturbed. Even if the projected inventory level is acceptable regarding the reorder point, the quantities might not be available because of the reservation.|  
 |**Maximum Qty.**|Use for C items with high carrying costs or storing limitations.<br /><br /> Combine with one or more order modifiers (Minimum/Maximum Order Quantity or Order Multiple).|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point, but below a maximum inventory quantity.<br /><br /> To modify the suggested order, you might want the order quantity to be decreased to a specified maximum order quantity, increased to a specified minimum order quantity, or rounded up to meet a specified order multiple. **Note:**  If used with a reorder point, then inventory stays between the reorder point and the maximum quantity.|  
 
-## See also
+## Related information
 
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
  [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  

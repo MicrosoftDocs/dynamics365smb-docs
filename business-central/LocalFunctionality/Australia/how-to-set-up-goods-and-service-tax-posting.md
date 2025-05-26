@@ -2,7 +2,7 @@
 title: Set up goods and services tax posting [AU]
 description: Learn how to apply goods and services tax (GST) to goods and services for the Australian Taxation Office (ATO).
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: goods and services tax, GST, Australian taxation office, ATO, Australian version, business activity statement, BAS
 ms.search.form: 28043

@@ -4,7 +4,7 @@ description: You can use recurring billing in subscription and recurring billing
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -110,6 +110,6 @@ In addition, it is not possible to create multiple posting documents for the sam
 
 A credit memo to a contract invoice will also reset the **Next Billing Date** field. To ensure consistency of the contract line and service commitments, when crediting multiple contract invoices, the credits must be chronological.
 
-## See also
+## Related information
 
 [Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  

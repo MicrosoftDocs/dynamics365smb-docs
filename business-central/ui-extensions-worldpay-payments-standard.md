@@ -3,7 +3,7 @@ title: WorldPay Payments Standard
 description: The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.form: 1360, 1361, 1364, 
 ms.date: 12/11/2023
 ms.custom: bap-template
@@ -21,7 +21,7 @@ If you enable the extension, when you send a sales invoice by email the document
 
 Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you'll need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  

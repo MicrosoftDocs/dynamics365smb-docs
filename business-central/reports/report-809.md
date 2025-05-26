@@ -61,7 +61,7 @@ Try the report here: [Where-used list](https://businesscentral.dynamics.com?repo
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Assembly report overview](../assembly-reports.md)  
 

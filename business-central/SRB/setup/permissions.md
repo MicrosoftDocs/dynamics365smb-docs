@@ -4,7 +4,7 @@ description: Learn about the permission settings for subscription and recurring 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -26,6 +26,6 @@ The following table describes the permission sets required for subscription and 
 |SUB. BILLING BASIC     |  Subscription Billing Basic        |  Gives access to perform the basic day-to-day setup tasks in subscription billing.        |
 |SUB. BILLING USER      |  Subscription Billing User        |  This permission set is for all users working with service commitments, service objects, and contracts. In addition, billing proposals can be created for contracts on the **Recurring Billing** page. However, this permission isn't intended for setting up, creating, and editing service commitment templates and service commitment packages.       |
 
-## See also
+## Related information
 
 [General setup](general.md)

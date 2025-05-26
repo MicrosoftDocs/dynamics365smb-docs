@@ -2,7 +2,7 @@
 title: Set Up Cash Customers
 description: This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 21, 22
 ms.date: 06/16/2021
@@ -30,7 +30,7 @@ You cannot create an invoice without a customer number. This is true, even if yo
 >
 > You must enter a number for a receivables account for the posting group, even though the balance in this account will always be 0 after you post an invoice.  
 
-## See Also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Register New Customers](sales-how-register-new-customers.md)

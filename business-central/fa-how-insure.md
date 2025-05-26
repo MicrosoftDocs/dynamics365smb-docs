@@ -4,7 +4,7 @@ description: You can assign one or multiple fixed assets to one insurance policy
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 11/11/2024
@@ -122,7 +122,7 @@ If a fixed asset was assigned to the wrong insurance policy, you can correct it 
 
 The fixed asset is removed from the incorrect insurance policy on the second line. The asset is assigned to the correct insurance policy on the first line of the journal.  
 
-## See also
+## Related information
 
 [Insurance - List (report)](reports/report-5621.md)  
 [Insurance - Tot. Value Insured (report)](reports/report-5625.md)   

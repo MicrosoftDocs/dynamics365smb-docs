@@ -4,7 +4,7 @@ description: The following topics describe the local functionality Inventory Mov
 author: v-pejano
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 06/17/2021
 ms.reviewer: bholtorf
@@ -22,7 +22,7 @@ Within the template, it is possible to set the type of transaction (negative adj
 These settings are automatically copied to the item journal line based on the selected inventory movement template.
 Inventory movement templates can be used mainly for posting movements in the item journal and  journal. They have other uses in posting differences in the physical inventory of items.
 
-## See Also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -2,7 +2,7 @@
 title: Print VAT Summary Information on Document [IS]
 description: If VAT is calculated, VAT summary information is typically printed on the sales and purchase documents.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, VAT summary information, sales document, purchase document
 ms.date: 02/06/2025
@@ -23,7 +23,7 @@ The following procedure describes how to display VAT summary information on a sa
 1. In the list, select the relevant document, and then choose the **Print** action.  
 1. To display VAT information in the report, select the **Always Show VAT Summary** check box.  
 
-## See also
+## Related information
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 

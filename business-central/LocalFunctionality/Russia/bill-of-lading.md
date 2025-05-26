@@ -3,7 +3,7 @@ title: Bill of Lading [RU]
 description: Enhancements for Bill of Lading documents in the Russian version of Business Central.
 author: altotovi
 
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2022
 ms.reviewer: bholtorf

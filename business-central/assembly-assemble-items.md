@@ -4,7 +4,7 @@ description: Learn how to supply products to customers by combining components i
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 04/26/2024
 ms.custom: bap-template
 ms.search.keywords: kit, kitting
@@ -54,7 +54,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Learn about posting assembly consumption and output, and how [!INCLUDE [prod_short](includes/prod_short.md)] distributes item and resource costs to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
 
-## See also
+## Related information
 
 [Assembly report overview](assembly-reports.md)   
 [Work with Bills of Material](inventory-how-work-BOMs.md)  

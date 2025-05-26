@@ -2,7 +2,7 @@
 title: Electronic payments – AEB N34.1 - [ES]
 description: With the electronic payments functionality, you can pay vendors using electronic payments exported into a standard AEB N34.1 file format.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/08/2023
@@ -24,7 +24,7 @@ You can create electronic payments from the payment journals or from the Cartera
 
 Before you can transfer payments electronically to a vendor, you need to set up a bank account for the vendor. Also, you need to set up the electronic payment links with your bank and set up the bank account card in [!INCLUDE[prod_short](../../includes/prod_short.md)] for your own bank to handle the electronic payments. The bank should provide the transmission program.  
 
-## See also  
+## Related information  
  [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md) 
 

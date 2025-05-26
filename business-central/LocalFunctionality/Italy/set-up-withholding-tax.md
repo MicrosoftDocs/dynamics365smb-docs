@@ -2,7 +2,7 @@
 title: Set Up Withholding Tax (IT)
 description: In the Italian version, companies must pay withholding tax to the government for third-party services and vendor purchases. Learn how to set this up.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 10/29/2021
 ms.author: bholtorf
@@ -64,7 +64,7 @@ Companies must pay withholding tax to the government for third-party services an
     > [!NOTE]
     > The amount in the new line in the **Payment Journal** page is the withholding tax payment amount.
 
-## See Also
+## Related information
 
 [Print Withholding Tax Reports](how-to-print-withholding-tax-reports.md)  
 [Set Up VAT](../../finance-setup-vat.md)  

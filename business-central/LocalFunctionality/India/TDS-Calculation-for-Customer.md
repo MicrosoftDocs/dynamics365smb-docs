@@ -5,7 +5,7 @@ description: Specifies a calculation and tracking process of TDS on customer
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -83,7 +83,7 @@ It is required to identify the payment or invoice transaction against which TDS 
 
 
 
-## See Also 
+## Related information 
 [TDS Certificate Update](TDS-Certificate-Update.md)
 
 

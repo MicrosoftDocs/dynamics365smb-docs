@@ -3,7 +3,7 @@ title: How to View Ledger Reconciliations
 description: Learn how to view general ledger reconciliation with the customer ledger  
 and vendor ledger in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: ledger reconciliation, customer ledger, vendor ledger, French version
 ms.date: 04/16/2025

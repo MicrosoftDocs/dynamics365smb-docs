@@ -4,7 +4,7 @@ description: You can track your progress when you review amounts in general ledg
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 08/06/2024
 ms.custom: bap-template
 ms.search.form: 20, 22207,
@@ -55,7 +55,7 @@ There are a couple of ways to analyze the general ledger entries you've reviewed
 * Turn on Analysis Mode, for example, to group entries according to their reviewed identifier. To learn more about Analysis Mode, go to [Analyze List Page Data Using Analysis Mode](analysis-mode.md).
 * Export the entries to Excel.
 
-## See also
+## Related information
 
 [Understand the General Ledger and Chart of Accounts](finance-general-ledger.md)    
 [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md)    

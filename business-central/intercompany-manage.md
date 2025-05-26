@@ -4,7 +4,7 @@ description: With the Intercompany functionality, you can simplify business proc
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
@@ -70,7 +70,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

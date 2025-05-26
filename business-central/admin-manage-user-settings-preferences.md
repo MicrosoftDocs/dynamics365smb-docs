@@ -72,7 +72,7 @@ As the administrator, you can get an overview of individual changes to [!INCLUDE
 
 This task deletes the personalization, and the user's experience of the relevant page returns to the default state.
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

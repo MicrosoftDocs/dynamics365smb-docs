@@ -4,7 +4,7 @@ description: Learn what the Essential and Premium user experience tiers mean for
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.search.form: 1,
 ms.date: 03/11/2024
@@ -61,7 +61,7 @@ You can now proceed to select the new experience.
 
 All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements.
 
-## See also
+## Related information
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Customizing Business Central](ui-customizing-overview.md)  

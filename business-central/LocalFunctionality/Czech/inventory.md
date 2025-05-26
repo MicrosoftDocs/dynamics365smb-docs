@@ -2,7 +2,7 @@
 title: Czech Local Functionality - Inventory
 description: This section describes all of the features created to enhance the benefits of local functionality for Inventory in the Czech version.
 author: ACMartinKunes
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, Inventory
 ms.date: 06/17/2021
 ms.reviewer: bholtorf
@@ -49,7 +49,7 @@ For the reasons above, this feature provides the following reports:
 - Phys. Inventory List Report is used to print documents from Phys. Inventory Journals (existing report improved).
 - Phys. Invt. Counting Document Report is used to print posted Phys. Inventory operations.
 
-## See Also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
 

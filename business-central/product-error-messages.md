@@ -4,7 +4,7 @@ description: Learn how you can troubleshoot and find solutions to error messages
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate
@@ -66,7 +66,7 @@ If you're a developer, when you call the [TestField](/dynamics365/business-centr
 * If the error is on the page that's currently open.
 * If the user doesn't have permission to modify the underlying record.
 
-## See Also
+## Related information
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Frequently Asked Questions](across-faq.yml)  

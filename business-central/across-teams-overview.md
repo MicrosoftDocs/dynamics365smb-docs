@@ -1,5 +1,5 @@
 ---
-title: Business Central and Microsoft Teams Integration overview| Microsoft Docs
+title: Business Central and Microsoft Teams Integration
 description: Share Business Central records directly in a Teams conversation.
 author: jswymer
 ms.author: jswymer

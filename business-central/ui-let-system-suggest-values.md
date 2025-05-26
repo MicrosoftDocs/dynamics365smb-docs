@@ -2,7 +2,7 @@
 title: Let Business Central suggest values
 description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Business Central fills in selected fields.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 39, 251, 981
 ms.date: 04/15/2025

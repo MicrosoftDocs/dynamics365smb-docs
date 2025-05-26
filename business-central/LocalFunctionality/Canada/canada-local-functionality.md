@@ -2,7 +2,7 @@
 title: Canada Local Functionality 
 description: These articles describe the local functionality unique to the Canadian version of Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Canada local functionality, Canadian version features
 ms.date: 02/04/2025
@@ -35,7 +35,7 @@ The following articles describe local functionality that is unique to the Canadi
 
 Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

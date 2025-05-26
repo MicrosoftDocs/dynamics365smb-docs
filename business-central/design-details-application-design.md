@@ -4,7 +4,7 @@ description: This content contains detailed technical information about complex 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2024
@@ -29,7 +29,7 @@ Design details content is aimed at implementers, developers, and super users who
 |Learn about the different models for handling non-deductible VAT amounts related to items and fixed assets.|[Design details: Non-deductible VAT](design-details-nondeductible-vat.md)|
 |Learn how to allow concurrent numbering for warehouse register records and warehouse entries.|[Design details: Creating Warehouse Entries](design-details-warehouse-entries.md)|
 
-## See also
+## Related information
 
 [Planning](production-planning.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

@@ -2,7 +2,7 @@
 title: Breaking Bulk with Directed Put-away and Pick
 description: Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, put-aways, movements, and more.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 5703, 7352
@@ -40,7 +40,7 @@ You can view the results of the conversion process from one unit of measure to a
 > - Set up the base unit of measure for an item as the smallest unit of measure that you expect to handle in your warehouse processes.  
 > - Set up your alternative units of measure for the item as multiples of the base unit of measure.  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

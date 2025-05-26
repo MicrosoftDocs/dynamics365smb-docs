@@ -2,7 +2,7 @@
 title: Connect E-Documents to external access points
 description: Learn how to set up E-Documents in Business Central to send and receive electronic documents with different external access points.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint, connector, Peppol
 ms.search.form: 
@@ -64,7 +64,7 @@ At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero a
 
 Microsoft doesn't have a contractual obligation with Pagero and Avalara. That means, if you want to use their connectors, you must have a contract with them.
 
-## See also
+## Related information
 
 - [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
 - [How to set up e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)    

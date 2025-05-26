@@ -84,7 +84,7 @@ This setup is required to estimate the Deemed Value for calculation of GST on fo
 
 
 
-## See Also 
+## Related information 
 [GST Bank Charges Transaction](GST-Bank-Charges-Transaction.md)
 
 

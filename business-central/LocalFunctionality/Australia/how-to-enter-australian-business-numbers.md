@@ -2,7 +2,7 @@
 title: How to Enter Australian Business Numbers in the Australian version
 description: Learn how to enter an Australian Business Number (ABN) in the Company Information and the Vendor Card pages.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Australian business number, ABN, company information page, vendor card page, Australian version
 ms.date: 03/26/2025

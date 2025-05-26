@@ -2,7 +2,7 @@
 title: Intelligent insights and cloud migration (on-premises only)
 description: In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: cloud, migrate, insights
@@ -34,7 +34,7 @@ Next to the KPI charts, you get insights into potential areas of concern, includ
 
 The page also connects to Power BI for even more insights. Optionally, connect to Azure AI for even more intelligent insights. For more information, see [The Sales and Inventory Forecast Extension](ui-extensions-sales-forecast.md).  
 
-## See Also
+## Related information
 
 [Welcome to Business Central](welcome.md)  
 [Cloud Migration Extensions](ui-extensions-data-replication.md)  

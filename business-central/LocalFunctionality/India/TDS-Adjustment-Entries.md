@@ -5,7 +5,7 @@ description: TDS Adjustments
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -37,7 +37,7 @@ TDS adjustment can be required, for any corrections in the TDS amount, TDS rate 
 
 
 
-## See Also 
+## Related information 
 [TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md)
 
 

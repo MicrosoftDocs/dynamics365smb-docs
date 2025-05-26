@@ -2,7 +2,7 @@
 title: Design Details - Item Tracking Lines Page
 description: Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 06/15/2021
@@ -24,7 +24,7 @@ To coordinate the flow of serial and lot numbers through inventory, the followin
   
 The rules for entering data on the **Item Tracking Lines** page also support the coupling principles that govern order tracking, planning, and reservation. For more information, see [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md).  
   
-## See Also  
+## Related information  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Italy local functionality
 description: The following outlined articles describe the local functionality in the Italian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 09/04/2024
@@ -63,13 +63,13 @@ The following articles describe local functionality that is unique to the Italia
 
 ## Future legislation requirements being investigated
 
-* Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for 25.1**
-* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 2**  
-* Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2025 release wave 2**  
+* Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for July 2025**
+* Redesigned and upgraded non-deductible VAT **Planned for 2026 release wave 1**  
+* Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2026 release wave 2**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    

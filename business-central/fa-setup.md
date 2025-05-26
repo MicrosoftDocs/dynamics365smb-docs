@@ -1,13 +1,13 @@
 ---
-title: Set Up Fixed Assets (FA)
-description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
+title: Set up fixed assets
+description: Learn about the sequence of tasks to set up fixed assets, such as machinery or buildings.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: machinery, buildings
 ms.search.form: 5607,
-ms.date: 03/25/2024
+ms.date: 05/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ When you enable a fixed asset activity in the **G/L Integration** section on the
 
 The following table contains a sequence of tasks to set up fixed assets, and links to related articles.
 
-| To | See |
+| To... | Go to... |
 |---|---|
 | Set-up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible. |[Set Up General Fixed Assets Information](fa-how-setup-general.md) |
 | Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books. |[Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
@@ -39,16 +39,16 @@ The following table contains a sequence of tasks to set up fixed assets, and lin
 
 The following table contains a sequence of optional tasks to set up fixed assets, such as insurance, maintenance and depreciation methods, and links to related articles. 
 
-| To | See |
+| To... | Go to... |
 |---|---|
 | Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs. |[Set Up Fixed Asset Insurance](fa-how-setup-insurance.md) |
 | Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work. |[Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md) |
 | Learn about how to apply depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## See also
+## Related information
 
 [Fixed Assets overview](fa-manage.md)  
-[Fixed assets analytics overview](fa-analytics-overview.md)   
+[Fixed assets analytics overview](fa-analytics-overview.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

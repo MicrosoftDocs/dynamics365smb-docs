@@ -4,7 +4,7 @@ description: Russian enhancements include reporting VAT by customer prepayment.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -54,7 +54,7 @@ Fill in the fields:
 
 Click "OK". The system will automatically create corrective entries.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

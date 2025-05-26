@@ -4,7 +4,7 @@ description: The General Ledger Entries report provides a detailed view of indiv
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36995_Primary
 ms.date: 10/31/2024
@@ -46,7 +46,7 @@ Try the report here: [General Ledger Entries](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  

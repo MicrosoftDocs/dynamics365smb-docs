@@ -2,7 +2,7 @@
 title: Viewing and editing in Excel from Business Central
 description: Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: accountant, accounting, financial report
@@ -69,7 +69,7 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
-## See also
+## Related information
 
 [Analyze list data using data analysis mode](analysis-mode.md)   
 [Work with Business Central](ui-work-product.md)  

@@ -2,7 +2,7 @@
 title: Set Up Reverse Charges on VAT [UK]
 description: Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: MTIC, Missing Trader Intercommunity Fund Fraud, reverse charge VAT, VAT accounting
 ms.search.form:
@@ -43,7 +43,7 @@ Examples of goods subject to reverse charge:
 
 Consult the [HMRC website](https://www.gov.uk/government/organisations/hm-revenue-customs) for the list of goods subject to reverse charge.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 

@@ -5,7 +5,7 @@ description: Sales Return of Goods from Registered or Unregistered Customer
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -76,7 +76,7 @@ For example, there is a sales credit memo for INR 10,000 and 18% GST (i.e. 9% CG
 
 
 
-## See Also 
+## Related information 
 [Sale Return from Registered Customer with Overseas POS](GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
 
 

@@ -2,7 +2,7 @@
 title: Denmark local functionality
 description: The following article provides links that describe local functionality in Denmark.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 03/03/2025
 ms.author: soalex

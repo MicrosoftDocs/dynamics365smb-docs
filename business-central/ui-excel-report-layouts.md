@@ -2,7 +2,7 @@
 title: Working with Excel layouts
 description: Learn how to create and modify report layouts that are built using Excel.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652

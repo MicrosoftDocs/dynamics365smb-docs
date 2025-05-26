@@ -58,7 +58,7 @@ ms.reviewer: jswymer
 
 * Complete tax statements.  
 
-## See also
+## Related information
 
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  

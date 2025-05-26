@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
@@ -106,7 +106,7 @@ When you have created a miniform, the next steps are to create functions and to 
 3. Choose the **Functions** action.  
 4. In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select **ESC** to associate functionality with the **ESC** key.  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

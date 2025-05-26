@@ -2,7 +2,7 @@
 title: Set up the IRS 1099 form for version 24 [US]
 description: Learn how to set up the 1099 tax forms so that you can calculate and submit the required reports.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: local, 1099, IRS, Tax
 ms.search.form: 26, 10030, 10031, 10033, 10034
 ms.date: 02/04/2025
@@ -126,7 +126,7 @@ To print the form substitute documents, you must use a few setups. For every sin
 > Also, for every form you can set up the recipient instructions. These instructions are printed on the second page of the report layout. This is required for printing the form by the IRS because the instructions explain the meaning of each form box.
 > To do so, on the **IRS 1099 Forms** page, for the specific form **No.**, choose the **Edit Instructions** action to open the **IRS 1099 Form Instructions** page. On the **IRS 1099 Form Instructions** page, fill in the **Header** (it prints as a bold text) and **Description** fields (it prints as regular text).  
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#print-report-configuration)  

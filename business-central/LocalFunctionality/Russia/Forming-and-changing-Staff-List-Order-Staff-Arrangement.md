@@ -4,7 +4,7 @@ description: Russian enhancements include forming and changing staff.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -72,7 +72,7 @@ When you run the report, check the box **Staff Arrangement** and select the desi
 
 Click OK to generate the report.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)  
 

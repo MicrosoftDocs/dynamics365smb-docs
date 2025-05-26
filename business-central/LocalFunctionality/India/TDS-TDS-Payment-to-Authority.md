@@ -5,7 +5,7 @@ description: Payment of TDS to Government Authorities
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -37,7 +37,7 @@ The TDS that have been deducted on various transactions, needs to be deposited t
 
 
 
-## See Also 
+## Related information 
 [TDS Overview](TDS-Overview.md)
 
 

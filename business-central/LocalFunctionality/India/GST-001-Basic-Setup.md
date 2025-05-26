@@ -5,7 +5,7 @@ description: Specifies Basic Setups required
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -355,7 +355,7 @@ Below is the list of masters requiring setup of GST
 
 
 
-## See Also 
+## Related information 
 [Purchase from Composite Vendor](GST-Purchase-from-Composite-Vendor.md)
 
 

@@ -4,7 +4,7 @@ description: Learn about synchronizing data between Business Central and Dataver
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/31/2023
 ms.custom: bap-template
 ms.search.keywords: sales, crm, integration, sync, synchronize
@@ -89,7 +89,7 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
 
 - Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronization Errors**, and then choose the related link.
 
-## See also
+## Related information
 
 [Synchronizing Data in Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)  

@@ -2,7 +2,7 @@
 title: Electronic banking in Finland
 description: The electronic banking feature allows processing domestic and foreign payments. Set up bank reference files first to export or import electronic payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: electronic banking, customer payments, vendor payments, reference number
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
@@ -38,7 +38,7 @@ To send electronic bank payments to vendors, you can export domestic or foreign 
 1. Create a transfer file for domestic or foreign vendor payments.  
 1. Send the payment transfer file to the bank.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)
 - [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)

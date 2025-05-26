@@ -5,7 +5,7 @@ description: Tax Engine - Design Consideration
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -103,7 +103,7 @@ A new tax type should be created if it has unique attributes which are used in d
   By default, a Use case is enabled. If a use case is not applicable, then it can be disabled and that use case will not get executed.
 
 
-## See Also
+## Related information
 [Overview](TaxEngine-001-Overview.md)
 
 

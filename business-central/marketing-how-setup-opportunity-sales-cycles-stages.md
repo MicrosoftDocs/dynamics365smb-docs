@@ -3,7 +3,7 @@ title: Set Up Opportunity Sales Cycles and Cycle Stages
 description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Business Central.
 author: brentholtorf
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
@@ -67,7 +67,7 @@ The following procedure describes how to assign activity tasks to opportunities.
 6. On the **Task List** page, select the new task, and then choose the **Assign Activities** action.
 7. On the **Assign Activity** page, fill in the fields as necessary, and then choose the **OK** button.
 
-## See Also
+## Related information
 
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  

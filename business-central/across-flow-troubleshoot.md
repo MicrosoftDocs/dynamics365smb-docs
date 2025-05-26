@@ -2,7 +2,7 @@
 title: Troubleshoot your automated workflows
 description: Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 author: jswymer
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
 ms.date: 12/13/2023
 ms.author: jswymer
@@ -78,7 +78,7 @@ Go to the **Web Services** page and make sure the following objects are publishe
 
 Learn more about publishing web services at [Publish a Web Service](across-how-publish-web-service.md).
 
-## See also
+## Related information
 
 [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Workflow](across-workflow.md)  

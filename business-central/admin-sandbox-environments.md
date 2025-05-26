@@ -2,7 +2,7 @@
 title: Sandbox environments
 description: Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: reference
 ms.reviewer: bholtorf
 ms.devlang: al
 ms.search.keywords: sandbox, demo, develop
@@ -63,7 +63,7 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

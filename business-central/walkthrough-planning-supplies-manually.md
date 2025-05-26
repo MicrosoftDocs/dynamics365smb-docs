@@ -2,7 +2,7 @@
 title: Walkthrough - Planning Supplies Manually
 description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand including planning a purchase, transfer, and production order.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2021
@@ -223,7 +223,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      On the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 
-## See Also  
+## Related information  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

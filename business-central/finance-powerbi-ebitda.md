@@ -4,7 +4,7 @@ description: The EBITDA report provides an overview of your company's EBIT and E
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36991_Primary
 ms.date: 10/31/2024
@@ -66,7 +66,7 @@ Try the report here: [EBITDA](https://businesscentral.dynamics.com?page=36991)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  

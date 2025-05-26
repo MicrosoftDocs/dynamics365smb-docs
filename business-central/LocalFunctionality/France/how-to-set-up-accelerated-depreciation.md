@@ -2,7 +2,7 @@
 title: Set Up Accelerated Depreciation
 description: Set up depreciation books for fixed assets to use accelerated depreciation calculations in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: depreciation books, accelerated depreciation, Derogatory calculation, fixed assets, French version
 ms.search.form: 5610, 5611

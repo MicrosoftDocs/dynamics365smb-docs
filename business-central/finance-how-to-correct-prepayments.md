@@ -2,7 +2,7 @@
 title: Correct prepayments
 description: You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 07/24/2024
@@ -33,7 +33,7 @@ The following procedure shows how to issue a prepayment credit memo to cancel al
 5. To make a prepayment invoice for any new lines in the sales credit memo, choose the **Prepayment** action, and then choose the **Post Prepayment Invoice** action or the **Post and Print Prepmt. Invoice** action.  
 6. To issue an additional prepayment invoice, increase the prepayment amount on one or more lines and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced and the new prepayment amounts.  
 
-## See also
+## Related information
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -2,7 +2,7 @@
 title: Create users according to licenses
 description: Describes how to add users to Business Central online or on-premises based on licenses.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
 ms.date: 05/03/2024
@@ -210,7 +210,7 @@ To analyze users by license type, follow these steps:
 1. Choose the **User Name**, **Full Name**, and **Authorization email** fields.
 1. Rename your analysis tab to **Users by license type**, or something that describes this analysis.
 
-## See also
+## Related information
 
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

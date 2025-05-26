@@ -4,7 +4,7 @@ description: Learn how to add a report to the job queue and schedule it to run o
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
 ms.date: 03/21/2025

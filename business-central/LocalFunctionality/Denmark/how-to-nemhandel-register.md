@@ -2,7 +2,7 @@
 title: Notification and registration for the NemHandelsregisteret in Denmark 
 description: This article describes how to handle notification and registration with the NemHandelsregisteret in Denmark. 
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: nemhandel, nemhandelsregisteret, notification, registration, denmark
 ms.search.form: 1

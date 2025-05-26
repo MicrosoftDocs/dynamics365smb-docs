@@ -4,7 +4,7 @@ description: Record repairs and service on a fixed asset to preserve its value.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 11/11/2024
@@ -109,7 +109,7 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-## See also
+## Related information
 
 [Maintenance - Analysis](reports/report-5630.md)  
 [Fixed assets maintenance reports](fa-reports.md#fixed-assets-maintenance-reports)  

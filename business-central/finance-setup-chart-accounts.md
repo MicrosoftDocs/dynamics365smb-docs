@@ -1,17 +1,17 @@
 ---
-title: Set up or change the Chart of Accounts
+title: Set up or change the chart of accounts
 description: Learn about setting up your chart of accounts (COA) with the ledger accounts that store your financial data.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16_Primary, 17, 18, 118, 386, 391
-ms.date: 04/23/2024
+ms.date: 05/19/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Set up or change the Chart of Accounts
+# Set up or change the chart of accounts
 
 The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that is ready to support your business. You can, however, change the default accounts, and you can add new accounts.
 <br><br>  
@@ -27,7 +27,7 @@ If necessary, you can use more than one line for a general ledger account name. 
 For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function. After you set up the accounts, choose the **Process** action, then choose **Indent Chart of Accounts**.  
 
 > [!IMPORTANT]
-> If you have entered definitions in the **Totaling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.
+> If you entered definitions in the **Totaling** fields for **End-Total** accounts before using the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.
 
 ## Delete accounts
 
@@ -53,7 +53,7 @@ This video shows how to specify whether, and when, people can delete G/L account
 
 Want to learn how to set up the chart of accounts in [!INCLUDE [prod_short](includes/prod_short.md)]? Then start on the following learning path [Set up the chart of accounts in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## See also
+## Related information
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

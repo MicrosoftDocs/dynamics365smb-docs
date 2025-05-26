@@ -2,7 +2,7 @@
 title: Restructure Warehouses
 description: Learn how to restructure your warehouse with new bin codes and new bin characteristics to achieve or maintain a more efficient operation.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 9813, 9814
@@ -76,7 +76,7 @@ If you want to rename a bin so that all records associated with the bin are also
 >   
 >  If you are renaming a receiving bin or a shipping bin, all the posted receipts or shipments that refer to the bin in question are renamed.  
 
-## See Also  
+## Related information  
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

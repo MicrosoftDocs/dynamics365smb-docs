@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/26/2025
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
@@ -101,6 +101,6 @@ If the source company installs a new extension, the subsidiary must also install
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## See Also
+## Related information
 
 [Get ready to synchronize master data](admin-set-up-data-sync.md)

@@ -4,7 +4,7 @@ description: See which inventory and warehouse reports and analytics are availab
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_704, Report_707, Report_711, Report_713, Report_716, Report_813, Report_1001, Report_5806, Report_5807, Report_5808, Report_5809, Report_7150, Report_7151, Report_7313, Report_7319, Report_7320
 ms.date: 08/15/2024
@@ -50,7 +50,7 @@ You can use the **Print Label** action to print 1D and 2D barcodes from the page
 >
 > Check with your equipment supplier to learn how to print Word documents on your device.  
 
-## See also
+## Related information
 
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  

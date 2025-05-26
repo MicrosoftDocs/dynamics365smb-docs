@@ -2,7 +2,7 @@
 title: EU third-party purchase transactions
 description: This article explains how to set up and use European Union (EU) third-party purchase transactions.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.form: 50, 51, 52, 187, 317
 ms.search.keywords: EU3P, EU 3-P, EU 3-Party
@@ -48,7 +48,7 @@ Even if the feature is preinstalled as an extension, it isn't activated by defau
     | EU3 | Show only records where the **EU 3-Party Trade** field in documents was marked. |
     | Non-EU3 | Show only records where the **EU 3-Party Trade** field in documents wasn't marked. |
 
-## See also
+## Related information
 [Financial Management](finance.md)    
 [Work with Business Central](ui-work-product.md)    
 

@@ -2,7 +2,7 @@
 title: Change the Way a Report Looks by Selecting a Different Layout
 description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
@@ -56,7 +56,7 @@ The name of the selected custom layout is now shown in the **Custom Layout Descr
 
 You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
-## See Also
+## Related information
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

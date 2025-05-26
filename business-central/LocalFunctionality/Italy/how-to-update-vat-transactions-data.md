@@ -2,7 +2,7 @@
 title: Update VAT transactions data
 description: Before you create the first VAT transaction report, you should prepare the existing data in the Italian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/27/2023
 ms.author: bholtorf
@@ -35,7 +35,7 @@ When you run the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] pr
 
 - The **Type** field for the VAT entry must not be **Settlement**.  
 
-## See also  
+## Related information  
 [Set Up VAT](../../finance-setup-vat.md)  
  [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)   

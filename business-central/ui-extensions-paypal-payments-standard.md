@@ -3,7 +3,7 @@ title: Using the PayPal Payments Standard Extension
 description: This article describes how to use the standard extension to enable customers to make payments with PayPal.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 07/09/2024
@@ -39,7 +39,7 @@ To use this capability, on the **Payment Registration Setup** page in [!INCLUDE 
 > [!TIP]
 > Developers can use sandbox accounts to test the setup. To do that, change the PayPal URL to **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] uses the PayPals Instant Payment Notification (IPN) through notify_url.
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  

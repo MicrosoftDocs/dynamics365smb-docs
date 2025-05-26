@@ -39,7 +39,7 @@ ms.reviewer: bholtorf
 |Enable users to exchange data with external sources during daily tasks, such as send/receive electronic documents, import/export bank files, and update currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
 |Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
-## See also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

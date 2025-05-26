@@ -2,7 +2,7 @@
 title: How to Submit VAT Statements [IT]
 description: VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 12121, 12123
@@ -40,7 +40,7 @@ After you calculate and post the VAT settlement, VAT amounts are transferred to 
 
 The exported file can now be submitted to the tax authorities.  
 
-## See Also  
+## Related information  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 
 

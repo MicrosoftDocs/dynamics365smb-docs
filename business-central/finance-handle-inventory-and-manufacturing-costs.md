@@ -2,7 +2,7 @@
 title: Handle inventory and manufacturing costs
 description: Learn how many fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/30/2024
@@ -30,7 +30,7 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |Manually undo an item application or reapply item ledger entries created by application.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## See also
+## Related information
 
 [Manage Inventory Costs](finance-manage-inventory-costs.md)    
 [Design Details: Inventory Costing](design-details-inventory-costing.md)    

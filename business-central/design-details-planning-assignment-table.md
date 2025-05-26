@@ -2,7 +2,7 @@
 title: Design Details - Planning Assignment Table
 description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021
@@ -56,7 +56,7 @@ When calculating an MPS or an MRP, the following restrictions apply:
 * MPS: The planning system checks that the item carries a demand forecast or a sales order. If not, the item is not included in the plan.  
 * MRP: If the planning system detects that the item is being replenished by an MPS planning line or MPS supply order, the item will be left out of the planning. However, any demand from relevant components is included.  
 
-## See Also  
+## Related information  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)   

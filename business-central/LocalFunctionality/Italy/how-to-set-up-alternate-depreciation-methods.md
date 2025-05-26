@@ -2,7 +2,7 @@
 title: How to set up alternate depreciation methods
 description: Alternate depreciation methods include anticipated depreciation, accelerated depreciation, and reduced depreciation.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023
@@ -45,7 +45,7 @@ You must create depreciation tables to set up these depreciation methods.
 5.  In the **Total Depreciation %** field, enter the total depreciation percentage.  
 6.  Choose the **OK** button.  
 
-## See also  
+## Related information  
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
  [Italian Fixed Assets](italian-fixed-assets.md)   
  [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   

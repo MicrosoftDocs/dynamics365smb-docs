@@ -317,7 +317,7 @@ To facilitate fast payments, specify one or more bank accounts to use for interc
 
 On the **Intercompany Setup** page, the **Intercompany Setup Diagnostics** pane contains tiles that indicate whether all of the components needed to exchange intercompany transactions are set up. The tiles are also available on the Business Manager Role Center. Choose the tiles to find out what's missing. For an overview of the required components, go to [Overview of the steps to get started](#overview-of-the-steps-to-get-started).
 
-## See Also
+## Related information
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

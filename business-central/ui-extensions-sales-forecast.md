@@ -2,7 +2,7 @@
 title: Using the Sales and Inventory Forecast extension to manage inventory
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 
@@ -65,7 +65,7 @@ Regarding throughput, we estimate that [!INCLUDE [prod_short](includes/prod_shor
 
 The Sales and Inventory Forecast extension doesn't support filtering, means you can't split items into separate batches.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  

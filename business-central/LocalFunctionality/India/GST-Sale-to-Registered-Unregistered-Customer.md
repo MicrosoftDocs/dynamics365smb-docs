@@ -5,7 +5,7 @@ description: Sales to Registered or Unregistered Customer
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -82,7 +82,7 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
-## See Also 
+## Related information 
 [Sale to Foreign Customer](GST-Sale-to-Foreign-Customer-Service.md)
 
 

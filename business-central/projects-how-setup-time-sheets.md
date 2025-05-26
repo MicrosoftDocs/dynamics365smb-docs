@@ -5,7 +5,7 @@ ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 mw.reviewer: ivkoleti
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77, 462, 946_Primary, 949_Primary
 ms.date: 07/27/2023
@@ -92,7 +92,7 @@ The following sections describe how to set up time sheets if you don't use the *
 > [!NOTE]  
 > You can't change the ID of the time sheet approver if there are time sheets that haven't been processed and have the status of **Submitted** or **Open**.
 
-## See also
+## Related information
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
 [How To Create Time Sheets](projects-how-use-time-sheets.md#create-time-sheets)  

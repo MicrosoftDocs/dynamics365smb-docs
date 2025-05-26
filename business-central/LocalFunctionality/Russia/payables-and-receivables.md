@@ -2,7 +2,7 @@
 title: Payables and receivables in Russia
 description: Russian enhancements include payables and receivables in the Russian version.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/07/2023
 ms.reviewer: bholtorf
@@ -29,7 +29,7 @@ Use the following table to learn more about the payables and receivables feature
 |[Prepayment differences](prepayment-differences-invoices-prepayment-differences.md)|Enables you to post prepayment differences.|
 | [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md) | Enables you to set up agreements with customers and vendors. |
 
-## See also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

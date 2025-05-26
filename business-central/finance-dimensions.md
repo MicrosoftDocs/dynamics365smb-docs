@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 08/08/2024
 ms.custom: bap-template
 ms.search.keywords: analysis, history, track, business intelligence
-ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
+ms.search.form: 118, 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ---
 
 # Work with dimensions
@@ -239,7 +239,7 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 > [!NOTE]  
 > The **Ledger Entry Dimensions** page displays the dimensions one ledger entry at a time. You'll see as you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
-## See also
+## Related information
 
 [Business Intelligence](bi.md)    
 [Finance](finance.md)    

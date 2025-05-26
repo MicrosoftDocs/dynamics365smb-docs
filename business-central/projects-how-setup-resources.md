@@ -4,7 +4,7 @@ description: To use resources and facilitate project management, you specify cos
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 03/17/2025

@@ -141,7 +141,7 @@ The service technician registers their time directly against the service order, 
 
 - Service ledger entries are created and associated with the service item, service contract, and resource.
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../../contoso-coffee/contoso-coffee-intro.md)  
 [Service](../../service-service.md)

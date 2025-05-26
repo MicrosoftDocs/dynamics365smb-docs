@@ -2,7 +2,7 @@
 title: TCS calculation considering threshold limits
 description: TCS calculation considering threshold limits
 author: v-debapd
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 12/11/2023
@@ -45,7 +45,7 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax is collected
 
 
 
-## See also 
+## Related information 
 [TCS Adjustment Entry](TCS-Adjustment-Entries.md)
 
 

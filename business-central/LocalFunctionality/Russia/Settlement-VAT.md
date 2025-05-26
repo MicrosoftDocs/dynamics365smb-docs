@@ -4,7 +4,7 @@ description: Russian enhancements include VAT on purchase orders.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -59,7 +59,7 @@ It is possible to consider only part of the amount of the VAT and write off the 
 
 3. Click OK. Post the journal.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

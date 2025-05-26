@@ -4,7 +4,7 @@ description: Set up item tracking with serial numbers, lot numbers, and package 
 author: brentholtorf
 ms.author: bholtorf    
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/24/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

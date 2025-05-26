@@ -4,7 +4,7 @@ description: You can use data exchange definitions in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -101,6 +101,6 @@ The following table describes the settings that define the columns to import.
 |Data Formatting Culture     | Specifies the culture of the data format, if needed. For example, **en-US** for the **Decimal** data type indicates that a period is used as decimal separator according to US format.        |
 |Length     | Only relevant if the file type is set to **Fixed Text**.        |
 
-## See also
+## Related information
 
 [Imports and processing](../processing-usage-data/imports-processing.md)

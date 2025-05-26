@@ -2,7 +2,7 @@
 title: Payables reports in Russia
 description: Russian enhancements include payables reports.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/14/2023
 ms.reviewer: bholtorf
@@ -194,7 +194,7 @@ If None is selected as the detail level, the report shows the following informat
 
 On the **Vendor** FastTab of the request page, you can define the vendor number or a range of numbers, depending on whether you want to print a report for one vendor or for many vendors.
 
-## See also
+## Related information
 
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

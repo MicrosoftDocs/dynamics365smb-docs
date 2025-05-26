@@ -2,7 +2,7 @@
 title: Set Up Delivery Reminder Terms, Levels, and Text [DE]
 description: To create delivery reminders in the German version, specific setup steps are required.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: create delivery reminders, delivery reminder terms, delivery reminder levels, delivery reminder text, delivery reminder setup, German version
 ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283

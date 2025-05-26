@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.date: 03/20/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 ms.custom: bap-template
@@ -397,6 +397,6 @@ When dealing with gift cards, it's important to enter a value in the **Sold Gift
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 
-## See also
+## Related information
 
 [Get started with the Shopify Connector](get-started.md)  

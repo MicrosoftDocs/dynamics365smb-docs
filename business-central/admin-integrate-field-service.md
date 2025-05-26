@@ -2,7 +2,7 @@
 title: Integrate with Microsoft Dynamics 365 Field Service
 description: Integrate Business Central with Field Service.
 ms.date: 02/21/2024
-ms.topic: article
+ms.topic: how-to
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf

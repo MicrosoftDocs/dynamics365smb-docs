@@ -2,7 +2,7 @@
 title: QuickBooks Online Data Migration Extension
 description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: extension, migrate, data, QuickBooks, import
 ms.search.form: 1830, 
@@ -62,7 +62,7 @@ There are a few things in particular that you should do:
 * If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
-## See also
+## Related information
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  

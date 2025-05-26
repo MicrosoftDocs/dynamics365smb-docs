@@ -2,7 +2,7 @@
 title: Set Up Journal Templates and Batches (IT)
 description: Learn about how the Italian version supports the requirement that all European Union (EU) companies must submit Intrastat reports to the customs office.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 12119, 12132, 12140
@@ -49,7 +49,7 @@ You can print Intrastat reports on the **Intrastat Jnl. Batches** page based on 
 
 4.  To close the page, choose the **OK** button.  
 
-## See Also  
+## Related information  
   [Italy Local Functionality](italy-local-functionality.md)   
  [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md)
 

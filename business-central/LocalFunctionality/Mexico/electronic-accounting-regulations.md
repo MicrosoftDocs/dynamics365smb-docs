@@ -2,7 +2,7 @@
 title: Electronic accounting regulations in Mexico
 description: This article explains how Business Central can assist with compliance regarding electronic accounting requirements in Mexico.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: compliance, electronic accounting requirements, electronic accounting
 ms.date: 02/25/2025

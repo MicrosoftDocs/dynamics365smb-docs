@@ -4,7 +4,7 @@ description: This article describes how to create opportunities from a salespers
 author: jswymer
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
@@ -36,7 +36,7 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
    * Choose the  **Opportunities** action, and then choose **New**.
 4. Fill in the relevant fields.
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with Business Central](ui-work-product.md)

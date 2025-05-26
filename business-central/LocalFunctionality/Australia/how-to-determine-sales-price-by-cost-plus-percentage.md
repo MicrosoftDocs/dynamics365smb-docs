@@ -2,7 +2,7 @@
 title: Determine Sales Price by Cost Plus Percentage (AU)
 description: Use the cost-plus percentage function to set sales prices based on item costs. Calculate the item’s cost along with cost plus calculation and apply the discount.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: cost plus percentage, set sales prices, item costs, cost plus calculation, apply discount, Australian version
 ms.date: 03/25/2025

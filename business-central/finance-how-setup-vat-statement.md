@@ -2,7 +2,7 @@
 title: Set up a VAT statement
 description: This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 315, 317, 318, 320, 474
@@ -40,7 +40,7 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.
 5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized VAT Amount, if you're using unrealized VAT.
 
-## See also
+## Related information
 
 [Set Up Value-Added Tax](finance-setup-vat.md)    
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    

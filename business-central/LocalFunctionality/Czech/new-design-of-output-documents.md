@@ -4,7 +4,7 @@ description: This section describes local functionality - New design of output d
 author: v-makune
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 06/17/2021
 ms.reviewer: bholtorf
@@ -23,7 +23,7 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 - Naming of tax corrective documents based on Credit Memo type
 - Printout of documents related to advance payments
 
-## See Also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

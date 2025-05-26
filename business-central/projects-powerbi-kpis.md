@@ -4,7 +4,7 @@ description: The Projects App KPIs provides a page to clearly identify all KPIs 
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 11/08/2024
@@ -315,6 +315,22 @@ The Planning Line Total Price (LCY) measure calculates the total price of all pr
 **Data Sources**
 - Job Ledger Entry
 
+<!--### Project Task Starting Date
+
+**Formula**  
+The Project Task Starting Date column calculates the earliest planning date for a project task, helping to identify when the task is scheduled to begin.
+
+**Data Sources**
+- Job Planning Line
+
+### Project Task Ending Date
+
+**Formula**  
+The Project Task Ending Date column calculates the latest planning date for a project task, helping to identify when the task is scheduled to end.
+
+**Data Sources**
+- Job Planning Line -->
+
 ## Purchase Measures
 - [Amount on PO](#amount-on-po)
 - [Amount Rcvd. Not Invoiced](#amount-rcvd-not-invoiced)
@@ -370,7 +386,7 @@ The Quantity on PO measure calculates the total quantity of items ordered in the
 **Data Sources**
 - Purchase Line
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  

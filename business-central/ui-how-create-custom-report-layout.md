@@ -4,7 +4,7 @@ description: Learn how to create customized layouts to personalize the appearanc
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650_Primary, 9652
 ms.date: 03/12/2025

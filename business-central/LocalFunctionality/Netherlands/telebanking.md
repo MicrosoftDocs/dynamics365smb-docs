@@ -2,7 +2,7 @@
 title: Telebanking
 description: Telebanking allows you to electronically generate and exchange payments and collections with your bank based on sales and purchase transactions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: telebanking, Dutch version, Netherlands, payment history, exchange protocols
 ms.date: 03/20/2025

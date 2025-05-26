@@ -2,7 +2,7 @@
 title: Sales Quick Start
 description: Learn how to fill in the first critical fields about products and customers in Business Central so that you can start your sales processes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
@@ -108,7 +108,7 @@ When you create and post a sales invoice, you not only create the invoice docume
 
 For more information and additional things you can do when creating customer sales invoices, see [Invoice Sales](sales-how-invoice-sales.md)
 
-## See Also
+## Related information
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Sales Overview](sales-manage-sales.md)  

@@ -2,7 +2,7 @@
 title: About calculating standard cost
 description: A standard cost system determines inventory unit cost based on reasonable historical or expected cost.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.form: 5841,
 ms.author: bholtorf
 ms.date: 02/25/2025
@@ -202,7 +202,7 @@ Select **OK** to start the batch job. If you don't want to run the batch job now
 
 Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.
 
-## See also
+## Related information
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

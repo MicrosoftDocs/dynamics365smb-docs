@@ -4,7 +4,7 @@ description: Introduction to how to integrate and use Microsoft Dataverse and it
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/08/2024
 ms.custom: bap-template
 ms.search.form: 7214_Primary
@@ -78,7 +78,7 @@ You can safely copy companies that integrate with [!INCLUDE[prod_short](includes
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## See also
+## Related information
 
 [Data Ownership Models](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

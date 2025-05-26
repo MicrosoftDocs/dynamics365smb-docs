@@ -4,7 +4,7 @@ description: If you need more time to decide whether to subscribe to Dynamics 36
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
@@ -45,7 +45,7 @@ When your extended trial period is expired, you can [subscribe](https://go.micro
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## See also
+## Related information
 
 [Trials and Subscriptions (English only)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Creating New Companies](about-new-company.md)  

@@ -2,7 +2,7 @@
 title: Work with Production Families in Manufacturing 
 description: The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
@@ -35,7 +35,7 @@ Forming production families reduces the scrap quantity because what would normal
 3. In the **Source Type** field, select **Family**.  
 4. In the **Source No.** field, select the relevant production family.
 
-## See Also
+## Related information
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

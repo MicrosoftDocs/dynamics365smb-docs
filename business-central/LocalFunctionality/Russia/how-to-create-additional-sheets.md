@@ -2,7 +2,7 @@
 title: Create additional sheets in Russia
 description: Russian enhancements include additional sheets for VAT purchase ledgers and sales ledgers.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/06/2023
 ms.reviewer: bholtorf
@@ -87,7 +87,7 @@ Processing of corrective documents for sales book is similar to processing for p
 
 5. In the additional sheet, the **Date of Facture** field reflects the corrected document date.
 
-## See also
+## Related information
 
 [VAT Ledgers](VAT-Ledgers.md)
 

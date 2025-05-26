@@ -2,7 +2,7 @@
 title: Print goods and service tax settlement reports (AU)
 description: Learn how to print a periodic goods and services tax (GST) settlement in the Australian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: print periodic GST, goods and services tax, GST settlement, Australian version
 ms.date: 03/26/2025

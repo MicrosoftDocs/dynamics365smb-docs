@@ -2,7 +2,7 @@
 title: Create a purchase quote to request an offer
 description: Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
@@ -31,7 +31,7 @@ The purchase quote is removed from the database. A purchase order is created bas
 > [!NOTE]
 > It is not possible to convert a purchase quote to a purchase invoice directly, like it is possible with sales quotes. For details on how to create a purchase invoice, read [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

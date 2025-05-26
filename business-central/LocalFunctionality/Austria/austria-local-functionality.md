@@ -2,7 +2,7 @@
 title: Austria Local Functionality
 description: This article lists links that describe the various local functionality in the Austrian version of Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Austria, local functionality, Austrian version
 ms.date: 03/05/2025

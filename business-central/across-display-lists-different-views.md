@@ -2,7 +2,7 @@
 title: Adjust the Amount of Detail You See in Lists
 description: You can display lists as detailed rows that provide most information, or as tiles that are easy to visually scan and may include picture thumbnails.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: personalization
 ms.search.form: 31
@@ -19,7 +19,7 @@ On the **Items** page, having pictures helps you get a quick overview of what yo
 
 You can import item pictures, either one by one or for multiple items in one go. For more information, see [Import Multiple Item Pictures](inventory-how-import-item-pictures.md).  
 
-## See Also
+## Related information
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Register New Items](inventory-how-register-new-items.md)  
 

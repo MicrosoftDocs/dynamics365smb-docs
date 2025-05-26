@@ -2,7 +2,7 @@
 title: Combine receipts on a single invoice
 description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 136, 145, 146, 9308
@@ -42,7 +42,7 @@ Alternatively, delete the individual orders manually.
 
 Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.
 
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

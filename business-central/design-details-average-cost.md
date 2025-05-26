@@ -4,7 +4,7 @@ description: The average cost of an item is calculated with a periodic weighted 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.search.form: 8645,
 ms.date: 04/26/2024
@@ -213,7 +213,7 @@ The following table shows the value entries that exist for the item after entry 
 | 02-15-20 | -1 | -17.00 | 3 |
 | 02-16-20 | -1 | -17.00 | 4 |
 
-## See Also
+## Related information
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  

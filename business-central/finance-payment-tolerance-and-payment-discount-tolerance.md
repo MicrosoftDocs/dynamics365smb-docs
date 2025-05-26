@@ -2,7 +2,7 @@
 title: Payment tolerance and payment discount tolerance
 description: This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 118, 314, 395
 ms.date: 07/05/2024
@@ -277,7 +277,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.
 
-## See also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

@@ -2,7 +2,7 @@
 title: Payments Cartera Module
 description: The Payments Cartera module allows you to manage payables documents generated from purchase invoices or from the Cartera Journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -34,7 +34,7 @@ Finance charges from financial entities are included.
 
 Payment confirmation is a service provided by a financial entity. With payment confirmation, you can manage a company’s payments to its suppliers, and use the invoice to charge the customers or vendors before the due date.  
 
-## See Also  
+## Related information  
  [Cartera Module](cartera-module.md)   
  [Receivables Cartera Module](receivables-cartera-module.md)
 

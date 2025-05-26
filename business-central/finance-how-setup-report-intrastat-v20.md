@@ -2,7 +2,7 @@
 title: Set up and report Intrastat
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries/regions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
@@ -171,7 +171,7 @@ In many countries/regions, the customs and tax authorities establish 8-digit ite
 
 In the **Tariff Numbers** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Tariff No.** field on the item card. You must also fill in the **Net Weight** field on the item card.
 
-## See also
+## Related information
 
 [Financial Management](finance.md)
 

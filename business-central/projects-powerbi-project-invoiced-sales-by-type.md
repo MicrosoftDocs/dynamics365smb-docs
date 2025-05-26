@@ -4,7 +4,7 @@ description: The Project Invoiced Sales by Type report describes your sales acti
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37038_Primary
 ms.date: 10/28/2024
@@ -51,7 +51,7 @@ Try the report here: [Project Invoiced Sales by Type](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  

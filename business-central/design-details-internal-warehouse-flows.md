@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.date: 08/12/2024
 ms.custom: bap-template
 ---
@@ -142,7 +142,7 @@ Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick compone
 
 For locations that use bins, the **To-Projects Bin Code** field on the location defines the default flows to the project area.
 
-## See also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 

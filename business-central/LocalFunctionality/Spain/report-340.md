@@ -2,7 +2,7 @@
 title: Report 340 [ES]
 description: This topic describes Report 340, which contains information about invoices and taxes that were issued or received by your company in a given period. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021
@@ -81,7 +81,7 @@ Before creating the **Report 340** report, you should consider the following fil
 - Special characters are converted to standard characters.  
 - If the field has no value, it will be empty for alphanumeric fields and populated with zeros for numeric fields.  
 
-## See Also  
+## Related information  
  [Create Report 340](how-to-create-report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spain Local Functionality](spain-local-functionality.md)

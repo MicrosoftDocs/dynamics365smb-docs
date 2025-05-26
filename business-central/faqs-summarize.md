@@ -4,7 +4,7 @@ description: Learn about the AI technology of summarize in Business Central, con
 ms.date: 04/14/2025
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer

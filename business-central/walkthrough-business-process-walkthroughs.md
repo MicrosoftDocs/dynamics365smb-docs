@@ -2,7 +2,7 @@
 title: Business Process Walkthroughs
 description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS demonstration company. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2021
@@ -37,7 +37,7 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## See Also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

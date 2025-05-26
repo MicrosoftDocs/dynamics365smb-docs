@@ -2,7 +2,7 @@
 title: Apply CODA Statements [BE]
 description: After a CODA statement is imported, you can view the statement lines on the Bank Account Card page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Bank Account Card, CODA statements, statement lines, Belgian version
 ms.search.form: 2000040

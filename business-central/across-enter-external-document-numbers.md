@@ -2,7 +2,7 @@
 title: Enter external document numbers
 description: You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 03/21/2024
@@ -28,7 +28,7 @@ The following procedure explains how to specify an external document number on a
     On purchase documents, the relevant field is the **Vendor Invoice No.** field.
 4. Fill in any other required fields.  
 
-## See also
+## Related information
 
 [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)  
 [External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  

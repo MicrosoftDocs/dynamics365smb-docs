@@ -2,9 +2,9 @@
 title: Make Journal Templates Mandatory [BE]
 description: Learn how to make the use of journal templates required in the Belgian version.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: journal templates, Belgian version
-ms.search.form: 118
+# ms.search.form: 118
 ms.date: 04/04/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central

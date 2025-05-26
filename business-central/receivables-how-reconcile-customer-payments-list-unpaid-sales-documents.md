@@ -4,7 +4,7 @@ description: You apply amounts paid by customers to related sales documents and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
@@ -187,7 +187,7 @@ You can post the journal line to update the total on the balancing account. You 
 
 If you don't post the journal line, its value is added to the value in the **Rem. Amount Incl. Discount** field on the **Payment Registration** page.  
 
-## See also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

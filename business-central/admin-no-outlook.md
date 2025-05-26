@@ -17,7 +17,7 @@ ms.reviewer: bholtorf
 You can send documents such as invoices as email using your business email address. From your Role Center, you can access an assisted setup guide that helps you set up email. If you don't use a Microsoft 365 email account, you must specify technical information about your mail server. If you don't have this information available, please contact your IT support staff.  
 
 
-## See also
+## Related information
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Use Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

@@ -4,7 +4,7 @@ description: Business Central offers features that can help you gather, analyze,
 author: kennienp
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 516, 9300, 5119, 9301, 9305, 36997, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, Report_107, Report_108, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
 ms.date: 11/11/2024
@@ -152,7 +152,7 @@ So, instead of setting up separate general ledger accounts for each department o
 
 To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
-## See also
+## Related information
 
 [Company consolidation](finance-consolidated-company-reporting.md)  
 [Power BI sales app](sales-powerbi-app.md)  

@@ -4,7 +4,7 @@ description: Registration of sales (EET) is registration of sales coming from bu
 author: v-pejano
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, local, VAT, Control Report
 ms.date: 06/17/2021
 ms.reviewer: bholtorf
@@ -47,7 +47,7 @@ With posting of defined documents (and with defined payment method) is created E
 - Certificate settings.  
 - EET POS terminals – identification of registered places.  
 
-## See Also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

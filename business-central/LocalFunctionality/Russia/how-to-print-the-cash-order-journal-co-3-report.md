@@ -4,7 +4,7 @@ description: Russian enhancements include support for the cash order journal CO-
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -33,7 +33,7 @@ This report shows the register of posted ingoing and outgoing cash orders during
 
 3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

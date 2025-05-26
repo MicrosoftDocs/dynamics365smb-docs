@@ -2,7 +2,7 @@
 title: Using the tax file formats (DK) extension
 description: The tax file formats extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms. search.keywords: extension, bank, formats
 ms.date: 11/28/2023
@@ -16,7 +16,7 @@ If you engage in trade with companies, or internal branches or subsidiaries, in 
 
 The extension is free, you just need to install it.
 
-## See also
+## Related information
 [Customizing Business Central Using Extensions](ui-extensions.md)
 
 

@@ -5,7 +5,7 @@ description: Purchase Return to Unregistered Vendor (Reverse Charge)
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -78,7 +78,7 @@ For example, purchase credit memo or return order is issued for INR 10,000 on wh
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Foreign Vendor](GST-Purchase-Return-to-Foreign-Vendor.md)
 
 

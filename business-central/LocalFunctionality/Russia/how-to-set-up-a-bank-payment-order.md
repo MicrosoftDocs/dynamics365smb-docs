@@ -4,7 +4,7 @@ description: Russian enhancements include bank payment orders.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -27,7 +27,7 @@ Bank payment orders must be used if a bank payment is for the official state bud
 7. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Source Code Setup**, and then choose the related link.
 8. On the **General** FastTab, in the **Bank Payments** field, select the source code that you entered in the **Source Codes** window.
 
-## See Also
+## Related information
 
  [Bank Management](Bank-Management.md)  
 

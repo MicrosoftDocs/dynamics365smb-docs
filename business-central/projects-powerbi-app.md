@@ -4,9 +4,9 @@ description: The Power BI Projects app contains reports for an organization's pr
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: 37062_Primary, 37033, 37034, 37035, 37036, 37037, 37039
+ms.search.form: 37062_Primary, 37033, 37034, 37035, 37036, 37037, 37039, 37106
 ms.date: 10/28/2024
 ms.service: dynamics-365-business-central
 ---
@@ -41,7 +41,7 @@ Project managers want to know how each project is performing and get high-level 
 [!INCLUDE [power-bi-projects-app](includes/power-bi-projects-app.md)]
 
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

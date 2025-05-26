@@ -202,7 +202,7 @@ If the coefficients differ in the completed period, it is possible to use the ba
 8. On the **Filter:**  **VAT Entry** tab, you can specify VAT Posting Group filters for use in a batch job. It is not necessary to set the filters, the batch job will automatically pass only those VAT entries with VAT Posting Group combinations that are marked in the **Allow non-deductible VAT** field with the value Allow
 9. The batch job will go through all (or just filtered) VAT Posting Group combinations with an Allow value in the Allow Non-Deductible VAT field. It will find the value in the **Non-Deductible VAT %** field in the VAT entry posted and compare it to the settlement coefficient. If it finds a difference in the coefficient, it calculates the difference in the VAT amount, creates a new VAT entry, and posts the difference to the accounting records. All newly posted entries and VAT entries have a separate **Source Code** for subsequent filtering options.
 
-## See Also
+## Related information
 
 [Core Localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

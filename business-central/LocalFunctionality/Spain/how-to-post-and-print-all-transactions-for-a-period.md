@@ -2,7 +2,7 @@
 title: How to Post and Print All Transactions for a Period
 description: Companies must submit their business transaction entries, grouped by transaction numbers, in an annual report to tax authorities.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -40,7 +40,7 @@ Companies must submit their business transaction entries, grouped by transaction
 
 5.  On the **G/L Registers** page, choose the **Print Page** action.  
 
-## See Also  
+## Related information  
  [Transaction Numbers](transaction-numbers.md)
 
 

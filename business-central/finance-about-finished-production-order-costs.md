@@ -2,7 +2,7 @@
 title: About Finished Production Order Costs
 description: Finishing the production order is key to completing the costing lifecycle of a production item. Final costs are calculated in Adjust Cost Item Entries batch job.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: bholtorf
@@ -17,7 +17,7 @@ Finishing the production order is an important task in completing the costing li
 
 In a standard cost environment, when you consume material to produce an item, stated simply, the cost of the item plus labor and overhead go into WIP. When the item is produced, WIP is reduced by the amount of the standard cost of the item. Typically, these costs do not net to zero. So that these costs can net to zero, you must run the **Adjust Cost - Item Entries** batch job, noting that only production orders with the status of **Finished** will be considered for adjustment.  
 
-## See Also
+## Related information
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Manufacturing](production-manage-manufacturing.md)  

@@ -4,7 +4,7 @@ description: Get up and running with Business Central with quick start articles 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: quickstart
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
@@ -65,7 +65,7 @@ Business Intelligence
 (reports)
 -->
 
-## See also
+## Related information
 
 [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Overview of Business Functionality](across-business-functionality.md)  

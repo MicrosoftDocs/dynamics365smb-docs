@@ -2,7 +2,7 @@
 title: Design Details - General Journal Post Line
 description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 06/14/2021
@@ -24,7 +24,7 @@ This documentation provides detailed technical insight into the concepts and pri
 [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
 
-## See Also
+## Related information
 
 [Work with General Journals](ui-work-general-journals.md)
 [Design Details: General Journal Post Line (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  

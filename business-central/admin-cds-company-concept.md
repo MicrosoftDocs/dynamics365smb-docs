@@ -2,7 +2,7 @@
 title: Data ownership models for synchronization
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
@@ -63,7 +63,7 @@ The default business unit is used when the Person ownership model is chosen, and
 
 When you couple salespersons in [!INCLUDE[prod_short](includes/prod_short.md)] to users in [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] will add the user to the default team in [!INCLUDE[prod_short](includes/cds_long_md.md)]. You can verify that users are added by looking at the **Default Team Member** column on the **Users - Common Data Service** page. If the user is not added, you can add them manually by using the **Add Coupled Users to Team** action. For more information, see [Synchronizing Data in Business Central with Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## See Also
+## Related information
 [About [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

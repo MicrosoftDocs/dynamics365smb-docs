@@ -2,7 +2,7 @@
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
 ms.date: 01/27/2025
-ms.topic: article
+ms.topic: faq
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
@@ -37,12 +37,17 @@ To learn more, go to [Support for the Shopify Connector](shopify-support.md).
 
 ## Is the Shopify Connector extensible?
 
-The Shopify Connector offers a few points of extensibility. We're keeping the number of points to a minimum so that we can follow the rapid development on the Shopify side without introducing breaking changes. However, the most important scenarios are covered. To learn more and explore some examples, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+The Shopify Connector offers a few points of extensibility. We're keeping the number of points to a minimum so that we can follow the rapid development on the Shopify side without introducing breaking changes. However, the most important scenarios are covered. 
+
+To learn more and explore some examples, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
+
 Instead of building every modification as an extension, we suggest that you investigate whether you can contribute code to the Shopify Connector through a codevelopment process with Microsoft.
 
 ## Is the Shopify Connector open for contribution?
 
 This extension is open for contributions from our community. You can find the [source code](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in the Microsoft AL application add-ons repository.
+
+To learn more, go to [Extend the Shopify Connector](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Building your version of the Shopify Connector
 
@@ -54,6 +59,6 @@ Check the Shopify requirements because you still might be able to have an unlist
 
 Alternatively, the Shopify Connector for [!INCLUDE [prod_short](../includes/prod_short.md)] constantly gets new features and new customers. If you discover a specific gap, consider [submitting a product suggestion](https://aka.ms/bcideas) or a code contribution to [!INCLUDE [prod_short](../includes/prod_short.md)]. For requirements that might not be relevant for a majority of customers, and can't be easily addressed by the current extensibility model, please reach out to the [!INCLUDE [prod_short](../includes/prod_short.md)] development team to discuss the use case. We should be able to find a feasible solution.
 
-## See Also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

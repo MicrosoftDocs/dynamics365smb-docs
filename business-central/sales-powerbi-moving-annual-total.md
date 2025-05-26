@@ -4,7 +4,7 @@ description: The *Moving Annual Total* report provides a total of sales over the
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37001_Primary
 ms.date: 10/26/2024
@@ -60,7 +60,7 @@ Try the report here: [Moving Annual Total](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  

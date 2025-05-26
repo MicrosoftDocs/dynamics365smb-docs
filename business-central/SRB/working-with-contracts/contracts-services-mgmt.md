@@ -4,7 +4,7 @@ description: You can manage contracts and services in subscription and recurring
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -53,7 +53,7 @@ The discount can only be defined in the [Service commitment templates​](../mas
 
 Invoice discounts are applicable to both customer and vendor contracts. They're also taken into regards in credit Memos and in contract deferrals.
 
-## See also
+## Related information
 
 [Customer contracts](customer-contracts.md)  
 [Vendor contracts](vendor-contracts.md)

@@ -2,7 +2,7 @@
 title: Calculate order promising dates
 description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 03/05/2024
@@ -128,7 +128,7 @@ Before an item can be included in the order promising calculation, it must be ma
     - Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  

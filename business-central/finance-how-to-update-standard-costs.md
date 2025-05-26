@@ -2,7 +2,7 @@
 title: Update standard costs
 description: You must periodically update the standard costs of components and roll the new costs up to the parent item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5841
 ms.date: 07/30/2024
@@ -36,7 +36,7 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     7.  Run the **Implement Standard Cost Changes** batch job.  
 4.  Review and post the **Item Revaluation Journals** page, which has been populated with entries from the previous steps in this process.  
 
-## See also
+## Related information
 
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   

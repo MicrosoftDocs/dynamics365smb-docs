@@ -2,7 +2,7 @@
 title: Belgium local functionality
 description: The following articles describe the various local functionalities in the Belgian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Belgian version, Belgian local functionality
 ms.date: 04/01/2025
 ms.author: bholtorf
@@ -42,19 +42,19 @@ The following articles describe local functionality that is unique to the Belgia
   - [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md) **Available Now**
   - [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md) **Available Now**
   - [Test Electronic Payments](how-to-test-electronic-payments.md) **Available Now**
-- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
-- [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
-- [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
-- [Print Payment Files](how-to-print-payment-files.md#print-a-payment-file) **Available Now**
-- [Activate SEPA payments](belgian-electronic-payments.md#activate-sepa-payments) **Available Now**
-- [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Available Now**
-- [Direct Debit Using Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
-- [Set Up Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#set-up-domiciliation) **Available Now**
-- [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Available Now**
-- [Test Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliation) **Available Now**
-- [Export and Post Domiciliation](direct-debit-using-domiciliation.md#export-and-post-domiciliation) **Available Now**
-- [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
-- [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
+  - [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
+  - [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
+  - [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
+  - [Print Payment Files](how-to-print-payment-files.md#print-a-payment-file) **Available Now**
+  - [Activate SEPA payments](belgian-electronic-payments.md#activate-sepa-payments) **Available Now**
+  - [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Available Now**
+  - [Direct Debit Using Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+  - [Set Up Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#set-up-domiciliation) **Available Now**
+  - [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Available Now**
+  - [Test Domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliation) **Available Now**
+  - [Export and Post Domiciliation](direct-debit-using-domiciliation.md#export-and-post-domiciliation) **Available Now**
+  - [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
+  - [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
 
 - Electronic invoicing
   - [Electronic Invoicing in Belgium via PEPPOL access point](../../finance-how-setup-edocuments-external.md) **Available Now**
@@ -74,8 +74,9 @@ The following articles describe local functionality that is unique to the Belgia
 
 ## Future legislation requirements being investigated
 
-- Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**
-- Adding Enterprise No. to the Multiple VAT for Customers **Planned for 25.2**
+- Redesigned Peppol format adding new Peppol BIS3 BE with incorporated Enterprise No. **Planned for July 2025**
+- Adding Enterprise No. to the Multiple VAT for Customers **Planned for July 2025**
+- Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

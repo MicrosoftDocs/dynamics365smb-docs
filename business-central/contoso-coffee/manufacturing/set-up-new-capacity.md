@@ -1,8 +1,8 @@
-﻿---
+---
 title: Set Up New Capacity 
 description: Walkthrough to learn how to set up a new work center with a capacity calendar for a single shift in Business Central.
 ms.date: 04/01/2022
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
@@ -84,6 +84,6 @@ You are the production planner at Contoso Coffee. In response to changes on the 
 
 On the **Calendar Entries** page, the daily capacity entries in the **Capacity (Total)** field are for 480 minutes. This reflects one eight-hour shift for each work day. Also, the **Capacity (Effective)** field shows 432 minutes. This reflects the 90 percent efficiency rate that you assigned to the machine center.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

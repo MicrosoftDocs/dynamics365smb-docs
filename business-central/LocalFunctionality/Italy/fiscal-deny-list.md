@@ -26,7 +26,7 @@ This article provides information on how to set up fiscally denied countries/reg
 3. This report shows the list of all **Vendors** who come from from fiscally denied countries or regions.
 4. You can obtain detailed information about the addresses of vendors and the amounts involved in purchases and balances, both in local currency.  
 
-## See also  
+## Related information  
 [Italy Local Functionality](italy-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

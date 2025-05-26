@@ -4,7 +4,7 @@ description: Russian enhancements include VAT on sales documents.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -50,7 +50,7 @@ The following accounting entries create the different settings.
 
 In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccount 62 Prepayment VAT. If this field is blank, the postings use the account from the Customer posting groups from the **Receivables Account** field.
 
-## See Also
+## Related information
 
 [VAT Ledgers](VAT-Ledgers.md)  
 

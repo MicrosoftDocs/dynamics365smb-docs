@@ -4,7 +4,7 @@ description: You must set up each currency if you buy or sell in currencies othe
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 06/10/2024
@@ -114,7 +114,7 @@ You can enter a currency code on a general journal line and post the line to a g
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## See also
+## Related information
 
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  

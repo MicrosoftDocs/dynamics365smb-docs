@@ -2,7 +2,7 @@
 title: Enter data in Business Central
 description: Many general features help you enter data easier, faster, and more precisely. The basic principles and advanced features are described here.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017

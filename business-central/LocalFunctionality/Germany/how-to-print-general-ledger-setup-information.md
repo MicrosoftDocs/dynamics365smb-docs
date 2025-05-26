@@ -2,7 +2,7 @@
 title: Print general ledger setup information [DE]
 description: Run the G/L Setup Information report to view the master data before using the German version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: G/L setup, G/L setup information, view master data, GDPdU, German version
 ms.date: 03/11/2025

@@ -4,7 +4,7 @@ description: You can use service commitments in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -124,6 +124,6 @@ The following example shows a warranty set up as a service commitment. The warra
 
 The service commitment package contains both a customer and a vendor line, so the customer can make claims within the specified period, but these are also covered by service commitments towards the supplier (for example, the vendor has provided warranty for the items sold).
 
-## See also
+## Related information
 
 [Sales process](../sales/sales-service-commitments.md)  

@@ -4,7 +4,7 @@ description: Get an overview of all the KPIs and measures in the semantic model 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 10/31/2024
@@ -1173,7 +1173,7 @@ The Budget Balance at Date measure calculates the budgeted balance at a specific
 **Data Sources**
 - G/L Budget Entry
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  

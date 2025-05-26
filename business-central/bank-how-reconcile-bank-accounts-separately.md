@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/01/2024
 ms.custom: bap-template
 ---
@@ -253,7 +253,7 @@ Don't use a G/L account that allows direct posting in your bank account posting 
 
 This mistake often happens when entering an opening balance for a bank account. It's important that you don't post the opening balance directly to the general ledger. Entries in the G/L account that are posted directly to the G/L account causes problems. For example, these entries might prevent you from reconciling your bank account. For foreign currency bank accounts, the entries can cause differences to accumulate after you post more bank reconciliations due to currency exchange rate adjustments. Often, you post the opening bank balance directly to the bank account, and the amount then ends up in the G/L account. Alternatively, you reverse it later against the G/L account that you use to balance the opening general ledger balance. In both cases, you must balance any direct posting to the G/L account before you start your first bank reconciliation, and especially so if the bank account is in a foreign currency.
 
-## See also
+## Related information
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Reconcile bank accounts using bank reconciliation assist (preview)](bank-reconciliation-with-copilot.md)  

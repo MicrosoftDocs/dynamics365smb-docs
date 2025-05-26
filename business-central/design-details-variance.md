@@ -2,7 +2,7 @@
 title: Design Details - Variance | Microsoft Docs
 description: Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/08/2021
@@ -52,7 +52,7 @@ Variance is defined as the difference between the actual cost and the standard c
 |**Rolled-up Capacity Ovhd. Cost**|Not applicable|![Equation 8.](media/design_details_inventory_costing_11_equation_8.png "Equation 8")|  
 |**Rolled-up Mfg. Ovhd. Cost**|Not applicable|![Equation 9.](media/design_details_inventory_costing_11_equation_9.png "Equation 9")|  
 
-## See Also  
+## Related information  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  

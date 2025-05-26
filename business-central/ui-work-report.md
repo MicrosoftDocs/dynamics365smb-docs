@@ -4,7 +4,7 @@ description: Learn to enter a report into a job queue and schedule it to be proc
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
 ms.date: 03/21/2025
@@ -186,7 +186,7 @@ When the report request page is open, select the **Help** question mark in the t
 
 Learn more in [Help pane](product-help-and-support.md#help-pane)
 
-## See also
+## Related information
 
 - [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 - [Use Reports in Daily Work](reports-use-reports.md)  

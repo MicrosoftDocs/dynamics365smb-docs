@@ -2,7 +2,7 @@
 title: How to Define Debit and Credit Amounts
 description: The Debit Amount and Credit Amount fields are included in multiple journals and tables in the Italian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -28,7 +28,7 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
 [Italy Local Functionality](italy-local-functionality.md)   
 
 

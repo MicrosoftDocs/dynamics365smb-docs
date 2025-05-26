@@ -97,7 +97,7 @@ The following steps are a simple scenario that illustrates how it works:
 3. Post a payment applied to the invoice.
 4. Unapply and reverse the payment transaction, for example, from the **Customer Ledger Entries** page.
 
-## See also
+## Related information
 
 [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)    
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)    

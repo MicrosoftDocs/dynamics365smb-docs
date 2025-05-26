@@ -4,7 +4,7 @@ description: Learn about purchasing in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -31,7 +31,7 @@ Unlike customer service commitments, you can assign vendor service commitments t
 > [!TIP]
 > The **Subscription & Recurring Billing** Role Center shows whether there are vendor service commitments that aren't assigned to a contract.
 
-## See also
+## Related information
 
 [Service commitments](masterdata/service-commitments.md)  
 [Termination of contract components](working-with-contracts/service-commitment-cancellation.md)  

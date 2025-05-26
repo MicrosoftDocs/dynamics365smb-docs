@@ -4,7 +4,7 @@ description: Learn how data that's used in copilot features in Dynamics 365 Busi
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: article
 ms.date: 04/01/2025
 ms.custom: bap-template 
 ms.collection:

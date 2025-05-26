@@ -2,7 +2,7 @@
 title: Set Up Incoming Documents
 description: Set up the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
@@ -43,7 +43,7 @@ To turn PDF and image files into electronic documents that you can convert to in
 
 For more information, see [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).  
 
-## See also
+## Related information
 
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

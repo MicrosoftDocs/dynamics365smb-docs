@@ -5,7 +5,7 @@ description: TCS calculation on Sales and Receipt Transactions Transactions
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -229,7 +229,7 @@ For example, sales return from customer for INR 10,000 on which 1% TCS is applic
 > If Credit Memo is created before remittance of Tax to government, then TCS entries will get reversed proportionately, on the basis of the quantity returned. In case TCS amount has been remitted to Income Tax department, TCS Payable account will not be reversed.
 
 
-## See Also 
+## Related information 
 [TCS Threshold](TCS-Threshold.md)
 
 

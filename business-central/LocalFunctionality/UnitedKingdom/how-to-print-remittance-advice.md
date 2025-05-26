@@ -2,7 +2,7 @@
 title: Print Remittance Advice [GB]
 description: You can print remittance advice both before posting a payment journal and subsequent to posting a payment.
 author: brentholtorf   
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: remittance advice, payment journal
 ms.search.form: 256
@@ -29,7 +29,7 @@ You can print remittance advice before posting a payment journal and after posti
 1. On the **Vendor** FastTab, select the appropriate filters.  
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

@@ -2,7 +2,7 @@
 title: How to Close a Fiscal Year
 description: To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -58,7 +58,7 @@ Fiscal year closing involves the following steps:
 
 An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  
 
-## See Also  
+## Related information  
  [Closing Years and Periods](../../year-close-years-periods.md)   
  [Italy Local Functionality](italy-local-functionality.md)
 

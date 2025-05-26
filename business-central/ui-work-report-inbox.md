@@ -2,7 +2,7 @@
 title: Share and Export Reports with the Report Inbox
 description: Learn how to use the Report Inbox page to download, share, export, and delete reports in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive, 
 ms.search.form: 680

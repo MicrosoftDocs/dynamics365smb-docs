@@ -4,7 +4,7 @@ description: You can renew contracts in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -85,7 +85,7 @@ If the **Renewal Term** field on the renewal line is blank, the renewal line won
 
 when you choose**OK** to close the **Select Contract Lines for Renewal** page, a sales quote is created. The steps to [Create quotes](#create-quotes) and [Sales orders](#sales-orders) are the same as the steps described in this article.
 
-## See also
+## Related information
 
 [Customer contracts](customer-contracts.md)  
 [Vendor contracts](vendor-contracts.md)  

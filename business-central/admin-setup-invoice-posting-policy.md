@@ -4,7 +4,7 @@ description: Use invoice posting policies to control whether a user can post sal
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/12/2024
 ms.custom: bap-template
 ms.search.forms: 119, 9807, 
@@ -47,7 +47,7 @@ The following table describes how invoice posting policies affect documents.
    > [!Note]
    > The setting doesn't affect posting of general journal lines where you can select **Invoice** in the **Document Type** field.
 
-## See Also
+## Related information
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  

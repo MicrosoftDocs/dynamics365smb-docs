@@ -2,7 +2,7 @@
 title: Manage data encryption | Microsoft Docs
 description: You can encrypt data on the Business Central server by generating new or importing existing encryption keys that you enable on the server.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/12/2023
@@ -18,7 +18,7 @@ For more information, see [Encrypting Data in Dynamics 365 Business Central](/dy
 > [!Note]
 > You can turn on or turn off encryption only if you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)]. Encryption is always turned on for online versions, and you cannot turn it off.
 
-## See also  
+## Related information  
 [Administration](admin-setup-and-administration.md)
 
 

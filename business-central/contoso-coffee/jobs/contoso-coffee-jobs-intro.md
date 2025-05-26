@@ -48,4 +48,4 @@ Once the relevant apps are installed, go to the [Contoso Coffee Jobs Demo Data](
 
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
-## See also
+## Related information

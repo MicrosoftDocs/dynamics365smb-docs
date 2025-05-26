@@ -2,7 +2,7 @@
 title: Terminology in cost accounting
 description: This article defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1123
@@ -44,7 +44,7 @@ This article defines the key terms that are used in cost accounting.
 |Variable cost|Variable costs are expenses that change in proportion to the activity of a business. Variable costs are the sum of marginal costs over all units produced. Fixed costs and variable costs make up the two components of total costs.|  
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
 
-## See also
+## Related information
 
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Accounting for Costs](finance-manage-cost-accounting.md)  

@@ -2,7 +2,7 @@
 title: Print test reports for delivery reminders [DE]
 description: After creating delivery reminders and making changes in the German version, you can print the test reports or issue the delivery reminders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: create delivery reminders, print test reports, issue delivery reminders, German version
 ms.date: 03/11/2025

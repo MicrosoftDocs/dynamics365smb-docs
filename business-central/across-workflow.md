@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/13/2024
 ms.custom: bap-template 
 ---
@@ -57,7 +57,7 @@ Examples of approval workflow events include the creation of sales or purchase o
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

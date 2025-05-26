@@ -120,7 +120,7 @@ Reports Business Central's service health status by checking for declared outage
 |No authenticated user to perform this check for|See the **User authentication check**.|
 |Sorry, Business Central is temporarily unavailable. Try again later.|Try again later.|
 
-## See also
+## Related information
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  

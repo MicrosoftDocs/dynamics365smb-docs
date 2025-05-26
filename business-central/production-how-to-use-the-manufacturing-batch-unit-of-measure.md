@@ -2,7 +2,7 @@
 title: Use the Manufacturing Batch Unit of Measure
 description: This topic gives an overview of how to work with manufacturing batch units of measure in Business Central. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/25/2021
@@ -37,7 +37,7 @@ On the **Lines** FastTab, choose the **Line** action, and then choose the **Comp
 7.  Choose the **OK** button.  
 8.  On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The correct quantity of the components needed to satisfy the production BOM is calculated based on the manufacturing batch unit of measure.  
 
-## See Also  
+## Related information  
 [Create Routings](production-how-to-create-routings.md)  
 [Create Production BOMs](production-how-to-create-production-boms.md)     
 [Setting Up Manufacturing](production-configure-production-processes.md)  

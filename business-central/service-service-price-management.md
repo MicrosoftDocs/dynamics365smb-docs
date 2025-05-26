@@ -2,7 +2,7 @@
 title: Service Price Management
 description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -65,7 +65,7 @@ The following table describes the calculations.
 |**Maximum**|This means that you put an upper limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total price exceeds the amount specified in the service price group.|  
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
-## See Also  
+## Related information  
 [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

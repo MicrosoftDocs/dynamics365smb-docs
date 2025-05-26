@@ -2,7 +2,7 @@
 title: Design details - Item tracking and planning | Microsoft Docs
 description: Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2024
@@ -44,7 +44,7 @@ If item tracking numbers are assigned on the supply side without requiring speci
 
 For more information, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
 
-## See also  
+## Related information  
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   

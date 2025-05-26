@@ -4,7 +4,7 @@ description: The Inventory Landing Page gives an overview of how the Inventory R
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37065_Primary, 37056, 37057, 37058
 ms.date: 10/28/2024
@@ -41,7 +41,7 @@ The following table describes on how you can use each report in the app.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

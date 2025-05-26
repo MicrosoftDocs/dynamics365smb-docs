@@ -4,7 +4,7 @@ description: You can set up a fixed asset, assign a depreciation book, and recor
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 05/15/2024

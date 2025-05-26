@@ -4,7 +4,7 @@ description: Russian enhancements include VAT on purchase orders.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -37,7 +37,7 @@ In Russia, organizations are required to keep a journal of received and issued V
 
    The VAT transaction is now registered and will be tracked in the VAT invoices journal after the purchase order is posted.
 
-## See Also
+## Related information
 
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  

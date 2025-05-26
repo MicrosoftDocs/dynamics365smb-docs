@@ -4,7 +4,7 @@ description: There are a few general things to set up for subscription and recur
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -91,6 +91,6 @@ Along with **Subscription & Recurring Billing**, the **Essentials** app is insta
 
 An additional layout for Word and for RDL is supplied for each report.
 
-## See also
+## Related information
 
 [Contract types](contract-types.md)

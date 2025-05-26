@@ -4,7 +4,7 @@ description: Russian enhancements include additional functionality for inventory
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf

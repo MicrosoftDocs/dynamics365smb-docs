@@ -4,7 +4,7 @@ description: Russian enhancements include fixed asset turnover.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -61,7 +61,7 @@ The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** wi
 
  
 
-## See Also 
+## Related information 
 
 [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
 

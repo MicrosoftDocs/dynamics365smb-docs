@@ -4,7 +4,7 @@ description: Understand how Azure OpenAI Service processes Business Central data
 author: mikebcmsft
 ms.author: mikebc
 ms.reviewer: jswymer
-ms.topic: conceptual 
+ms.topic: article
 ms.collection: bap-ai-copilot
 ms.date: 04/01/2025
 ms.custom: bap-template 

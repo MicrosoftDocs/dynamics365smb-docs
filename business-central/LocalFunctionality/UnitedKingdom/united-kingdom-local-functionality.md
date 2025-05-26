@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.search.keywords: UK local functionality
 ms.reviewer: v-soumramani
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/21/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -45,7 +45,7 @@ The following articles describe local functionality that is unique to the United
 
 For any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 - [Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

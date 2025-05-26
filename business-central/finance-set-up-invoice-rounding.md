@@ -4,7 +4,7 @@ description: If you need to round invoice amounts when you create invoices, you 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5, 16, 118, 459, 460, 495
 ms.date: 06/10/2024
@@ -56,7 +56,7 @@ To ensure that sales and purchase invoices are rounded automatically, you must a
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
 2. On the **General** FastTab, choose the **Invoice Rounding** check box.  
 
-## See Also  
+## Related information  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases](purchasing-how-record-purchases.md)
 

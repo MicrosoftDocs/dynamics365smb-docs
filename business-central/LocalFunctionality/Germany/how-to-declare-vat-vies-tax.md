@@ -2,7 +2,7 @@
 title: How to Declare VAT-VIES Tax [DE]
 description:  Learn to create the VAT-VIES report for submitting sales transaction details with other EU countries or regions.
 author: brentholtorf  
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT-VIES tax, VAT-VIES declaration, sales transactions, VAT-VIES declaration report
 ms.date: 04/24/2025

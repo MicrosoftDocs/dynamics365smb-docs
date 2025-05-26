@@ -5,7 +5,7 @@ description: GST Input Tax Credit Adjustments
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -131,7 +131,7 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 
 
-## See Also 
+## Related information 
 [GST Settlement](GST-Settelement.md)
 
 

@@ -2,7 +2,7 @@
 title: Set up SII for VAT reporting [ES]
 description: This article explains how to submit documents through SII in the Spanish version of Microsoft Dynamics 365 Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
@@ -81,7 +81,7 @@ In some situations, the user must use a line in the invoice, but not report it t
 
 When you have configured **VAT Posting Setup**, and after you create sales or purchase invoice, you can select **Item** and/or **G/L Account** with the certain **VAT Posting Setup**, and the line with this setup will be ignored when you report it to SII. This line exists in the **VAT Entry**, but this entry will have *Yes* in the **Ignore in SII** field.  
 
-## See also
+## Related information
 
 [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md)    
 [Spain Local Functionality](spain-local-functionality.md)    

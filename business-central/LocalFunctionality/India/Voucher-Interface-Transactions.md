@@ -5,7 +5,7 @@ description: Transaction on Voucher Interface
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -168,7 +168,7 @@ It is required to pay the TDS and TCS to government authorities through Bank/Cas
 
 
 
-## See Also 
+## Related information 
 [Voucher Interface Overview](Vouche-Interface-Overview.md)
 
 

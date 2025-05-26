@@ -2,7 +2,7 @@
 title: Calculate Dates for purchases
 description: This article describes how you can calculate dates for purchases. 
 author: brentholtorf 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: 
@@ -58,7 +58,7 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 3. Stockkeeping Unit Card
 4. Vendor Card
 
-## See also
+## Related information
 
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)  
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  

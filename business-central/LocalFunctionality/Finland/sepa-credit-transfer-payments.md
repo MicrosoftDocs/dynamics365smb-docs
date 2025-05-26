@@ -2,7 +2,7 @@
 title: SEPA credit transfer payments (FI)
 description: Finnish enhancements allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Single Euro Payments Area, SEPA, credit transfer files, vendor payments
 ms.date: 02/13/2025
@@ -18,7 +18,7 @@ ms.reviewer: v-soumramani
 > [!NOTE]
 > Users can use new SEPA formats. To do this, the user needs to use a new code unit *13413* "Exp. SEPA CT pain.001.001.09" and report *13413* "Exp. SEPA CT pain.001.001.09" that can export files in a new format.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)  
 - [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)  

@@ -2,7 +2,7 @@
 title: Correct VAT Reports [DE]
 description: If you need to submit a corrective VAT report or delete an existing one, you must create a new VAT report. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: corrective VAT report, VAT report, VAT report deletion, VAT report correction, German version
 ms.search.form: 26101

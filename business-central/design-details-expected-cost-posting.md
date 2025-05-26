@@ -2,7 +2,7 @@
 title: Design Details - Expected Cost Posting
 description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/20/2021
@@ -86,7 +86,7 @@ You post a purchase order as received. The expected cost is LCY 95.00.
 |01-15-20|Direct Cost Applied Account|7291|-100|6|  
 |01-15-20|Inventory Account|2130|100|5|  
 
-## See Also
+## Related information
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   
  [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   

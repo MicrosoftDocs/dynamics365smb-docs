@@ -2,7 +2,7 @@
 title: Print VAT Audit Reports
 description: Learn how Business Central supports the British requirements for VAT audits.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT audits
 ms.search.form: 317, 320
@@ -64,7 +64,7 @@ In the United Kingdom, all vendors must export the data required for auditing in
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 - [Work with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)  
 - [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  

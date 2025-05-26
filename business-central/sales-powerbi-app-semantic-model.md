@@ -4,7 +4,7 @@ description: Get an overview of all tables and fields in the Sales App Semantic 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008
 ms.date: 10/26/2024
@@ -142,7 +142,7 @@ The app uses data from the following table:
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  

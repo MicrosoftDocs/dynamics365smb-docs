@@ -3,8 +3,8 @@ title: Create Electronic VAT Transactions Report [IT]
 description: Create a report of VAT-inclusive transactions exceeding the current threshold by the specified date.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: alVAT report, Italian version
-ms.search.keywords: VAT-inclusive transactions, create VAT transaction reports, Italian version
+ms.devlang: al
+ms.search.keywords: VAT-inclusive transactions, create VAT transaction reports, VAT report, Italian version
 ms.date: 05/20/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

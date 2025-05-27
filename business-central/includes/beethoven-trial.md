@@ -20,8 +20,8 @@ This app is a cloud-based service that doesn't require special software other th
 
 You can't. Use a work or school email address.
 
-> [!NOTE]
-> Remember that [!INCLUDE [prod_short](includes/prod_short.md)] is always associated with some Microsoft 365 tenant. This way, [!INCLUDE [prod_short](includes/prod_short.md)] can recognize other applications available on your tenant, like Power BI, Excel, or Outlook, and integrate with them.
+> [!TIP]
+> [!INCLUDE [prod_short](prod_short.md)] is always associated with some Microsoft 365 tenant. This way, [!INCLUDE [prod_short](prod_short.md)] can recognize other applications available on your tenant, like Power BI, Excel, or Outlook, and integrate with them.
 
 ### Can I sign up for other Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 

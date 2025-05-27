@@ -162,7 +162,7 @@ For on-premises deployments, the number of user licenses is specified in the lic
 For on-premises deployments, the administrator creates, edits, and deletes users directly from the **Users** page.
 
 > [!NOTE]
-> In [!INCLUDE[prod_short](includes/prod_short.md)] online, Microsoft partners can access their customer environment with the delegated administration described earlier in this article. In [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the delegated administration is not available. Microsoft partners need standard user licenses to access [!INCLUDE[prod_short](includes/prod_short.md)]. Microsoft grants one system administrator license for each on-premises customer. However, additional Essential or Premium licenses are necessary if the partner requires more users to provide support.
+> In [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, delegated admin access isn't available like it is in [!INCLUDE[prod_short](includes/prod_short.md)] online. Microsoft partners need standard user licenses to use [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more about licenses in the [Business Central on-premises licensing guide](https://go.microsoft.com/fwlink/?linkid=2009643).
 
 ### To edit or delete a user in an on-premises deployment
 

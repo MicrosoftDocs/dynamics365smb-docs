@@ -104,7 +104,7 @@ Posting sales order lines where a part is inventory quantity and another part is
 
 ### Posting dates
 
-In general, posting dates are copied from a sales order to the linked assembly order. The posting date in the assembly order is automatically updates when you change the  posting date in the sales order directly or indirectly, such as if you change the posting date in the wareshouse shippment, inventory pick, or as part of a bulk posting.
+In general, posting dates are copied from a sales order to the linked assembly order. The posting date in the assembly order is automatically updated when you change the  posting date in the sales order directly or indirectly, such as if you change the posting date in the warehouse shipment, inventory pick, or as part of a bulk posting.
 
 You can change the posting date in the assembly order manually. However, it can not be later then posting date in the linked sales order. The system will keep this date unless you update the posting date in the sales order.
 

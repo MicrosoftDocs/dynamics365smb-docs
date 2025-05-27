@@ -4,7 +4,7 @@ description: Explore terminology in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: glossary
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -97,7 +97,7 @@ The most important terms can be looked up in this glossary.
 
 * **Vendor Contract** <br/> Vendor Contracts can be used to retrieve and process vendor-side service commitments before creating vendor posting documents.
 
-## See also
+## Related information
 
 [Overview of subscription billing](welcome.md)  
 [Overview of usage based billing](../UBB/welcome.md)

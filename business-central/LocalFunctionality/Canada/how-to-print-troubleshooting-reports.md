@@ -2,7 +2,7 @@
 title: How to print troubleshooting reports [CA]
 description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Canadian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
 ms.date: 02/04/2025
@@ -15,7 +15,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Finance](../../finance.md)  

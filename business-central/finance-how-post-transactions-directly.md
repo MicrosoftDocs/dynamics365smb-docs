@@ -4,7 +4,7 @@ description: You can create transactions on the General Journal page for busines
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
@@ -36,7 +36,7 @@ Entries that you post with documents require a credit memo process. However, you
     > If you want to enter multiple transaction lines before a balance-account line, for example for one bank account, select the **Suggest Balancing Amount** checkbox on the line for your batch on the **General Journal Batches** page. The **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the transactions.
 5. Choose the **Post** action to record the transactions on the specified G/L accounts.
 
-## See also
+## Related information
 
 [Work with General Journals](ui-work-general-journals.md)    
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)    

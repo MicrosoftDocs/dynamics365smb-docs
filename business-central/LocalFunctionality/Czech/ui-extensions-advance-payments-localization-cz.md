@@ -38,7 +38,7 @@ The Advance Payments functionality allows you to receive Advance Invoices from s
 - Support for Responsibility Center for Advance Documents to display only documents relevant to a specific user
 - Reports for recapitulation of payments and drawdown of advances, reports for recapitulation of VAT on advances
 
-## See Also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

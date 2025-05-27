@@ -3,7 +3,7 @@ title: Set up customer discount groups
 description: Learn how to set up customer discount groups and create sales line discounts for those groups.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.date: 07/05/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -35,7 +35,7 @@ After you set up the customer discount groups, you can enter the customer discou
 2. Open the **Customer Card** for a customer you want to be part of a customer discount group.
 3. On the **Invoicing** FastTab, in the **Customer Disc. Group** field, select the group code.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

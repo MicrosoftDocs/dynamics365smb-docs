@@ -1,17 +1,19 @@
 ---
 title: Set Up PAC Web Services
-description: Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.
+description: To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
+ms.search.keywords: PAC, Web services, PAC web services, electronic invoicing, electronic stamp
 ms.search.form: 10455, 10456
-ms.date: 02/16/2022
+ms.date: 02/25/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Set Up PAC Web Services
+
+# Set up PAC web services
+
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  
 
 When you send an electronic document, it must receive a digital stamp by an authorized service provider, PAC, before it can be sent to your customer. The communication between [!INCLUDE[prod_short](../../includes/prod_short.md)] and the PAC is managed through web services, and therefore, you must specify technical information about the web services of the PAC that you intend to use.  
@@ -25,24 +27,24 @@ Before you can set up the web services, you must upload two certificates:
 * A PAC .pfx file
 * A SAT .pfx file
 
-These certificates are used by the communication component and configured in the **General Ledger Setup** page. For more information, see [To set up general ledger information](how-to-set-up-electronic-invoicing.md#set-up-general-ledger-information).  
+These certificates are used by the communication component and configured in the **General Ledger Setup** page. Learn more in [Set up general ledger information](how-to-set-up-electronic-invoicing.md#set-up-general-ledger-information).  
 
-## To add the certificates
+## Add the certificates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then choose the related link.  
-2. Choose the **New** action, specify the relevant certificate, and then, in the **Certificate** page, fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
-3. Repeat step 2 for the second certificate.  
-4. Close the page.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then choose the related link.  
+1. Choose the **New** action, specify the relevant certificate, and then, in the **Certificate** page, fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+1. Repeat step 2 for the second certificate.  
+1. Close the page.  
 
-## To set up a PAC web service  
+## Set up a PAC web service  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PAC Web Services**, and then choose the related link.  
-2. In the **PAC Web Services** page, add the relevant web services. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PAC Web Services**, and then choose the related link.  
+1. In the **PAC Web Services** page, add the relevant web services. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
     For each web service, you must specify the relevant certificate. You must also add additional details.  
 
     1. For the relevant web service, choose the **Related** action, choose the **PAC Web Service** menu item, and then choose the **Details** action.  
-    2. Fill in the fields as described in the following table.  
+    1. Fill in the fields as described in the following table.  
 
         |Field|Description|
         |------------------------------------|---------------------------------------|
@@ -53,16 +55,15 @@ These certificates are used by the communication component and configured in the
 
         Contact your PAC for this information.  
 
-3. Repeat the steps for any additional PAC that you want to set up.  
+1. Repeat the steps for any additional PAC that you want to set up.  
 
     > [!IMPORTANT]  
-    >  SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information for communication with the PAC of your choice.  
+    > SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information for communication with the PAC of your choice.  
 
-## See Also
+## Related information
 
-[Electronic Invoicing](electronic-invoicing.md)  
-[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
-[Mexico Local Functionality](mexico-local-functionality.md)
-
+- [Electronic Invoicing](electronic-invoicing.md)  
+- [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
+- [Mexico Local Functionality](mexico-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

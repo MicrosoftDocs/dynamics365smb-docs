@@ -3,7 +3,7 @@ title: Czech local functionality - Corrections posting
 description: This local function is used to force corrective posting.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/14/2023
 ms.reviewer: bholtorf
@@ -21,7 +21,7 @@ The purpose of the feature is:
 - To allow the accounting manager to enforce corrective posting of canceling in fixed assets  
 - To allow the user to enforce corrective posting with one select (in G/L, inventory, and project postings)  
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

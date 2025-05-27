@@ -23,7 +23,7 @@ Similarly, you can issue a billing document to your customers who have payments 
 
 Before you can process bills, you must add your bank information to the **Company Information** page. You must also create bill posting groups and assign a bill posting group to the bank account that you will use for automatic bills. For more information, see [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md). Then, you can generate lists of customer bills and vendor bills and process them.
 
-## See Also  
+## Related information  
  [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
   [Issue Vendor Payments and Customer Bills](how-to-issue-vendor-payments-and-customer-bills.md)
 

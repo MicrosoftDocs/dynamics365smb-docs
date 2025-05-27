@@ -4,7 +4,7 @@ description: Resolve the error behind the message "Posting date is not within yo
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
@@ -62,7 +62,7 @@ In this case, you're allowed to post in the date range from September 11 to Sept
 
 Assigning a wider date range where you allow posting on the **Inventory Period** or **General Ledger Setup** pages lets you avoid the conflict that causes the error message. For example, the wider range lets you post the adjustment value entry with a September 10 posting date.
   
-## See also  
+## Related information  
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

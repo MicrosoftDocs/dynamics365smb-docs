@@ -4,7 +4,7 @@ description: Tax Engine - Import/Export Configuration
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -36,7 +36,7 @@ When a new company is created, use cases are required to be imported. Following 
 3. Click on **Finish**. System will import all the pre-configured use cases from the configuration file in the new company.
 
 
-## See Also  
+## Related information  
  [Tax Engine Configuration of Tax Type and Tax Rate](TaxEngine-003-Tax-Configuration.md)
 
 

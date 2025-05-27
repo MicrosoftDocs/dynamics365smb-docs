@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf 
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 02/05/2024
 ms.custom: bap-template    
 ---
@@ -114,7 +114,7 @@ When all items on the warehouse shipment document are registered as picked, the 
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## See also
+## Related information
 
 [Warehouse Management](design-details-warehouse-management.md)  
 

@@ -2,7 +2,7 @@
 title: Design Details - Inbound Warehouse Flow
 description: Learn how to receive items at your warehouse, and register and match them to inbound source documents.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: warehouse
 ms.date: 09/18/2023
@@ -147,6 +147,6 @@ The following table describes a sequence of tasks, with links to the articles th
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## See also
+## Related information
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

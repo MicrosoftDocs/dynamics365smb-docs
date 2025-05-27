@@ -2,7 +2,7 @@
 title: Track packages
 description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 03/06/2024
@@ -26,7 +26,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 4. Make sure that the correct shipping agent and the level of service are correct, and then close the page.
 5. Choose the **Track Package** action to open the shipping agent's package tracking service.
 
-## See also
+## Related information
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Sales](sales-manage-sales.md)  

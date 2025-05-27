@@ -64,7 +64,7 @@ After creating the store, in the **Shopify Admin** of the created shop, apply th
 > [!Note]  
 > Development stores are usually password protected. When you try to open a specific page in your online store from [!INCLUDE [prod_short](../includes/prod_short.md)], for example to go to a specific product or order, you'll need to enter your password. While you're testing, to avoid having to enter your password, sign in to your Shopify admin and open your store from there. You won't need to enter the store password until you close your browser or your session expires.  
 
-## See Also
+## Related information
 
 [Get Started with the Shopify Connector](get-started.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)

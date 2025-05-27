@@ -2,7 +2,7 @@
 title: How to Add Fields to a Word Report Layout
 description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 10/01/2024
@@ -154,7 +154,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 * The language of the label that is displayed when you run the report depends on the language setting of the report object.  
   
-## See Also
+## Related information
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)  
 

@@ -4,7 +4,7 @@ description: You can use references in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -48,7 +48,7 @@ A list of customers for which usage data is imported and processed can be create
 
 To maintain the customer reference, you can open the reference table by using the **Supplier Reference Entry No.** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
 
-## See also
+## Related information
 
 [Usage based billing customers and subscriptions](customers-subscriptions.md)  
 [Extend contract](../processing-usage-data/extend-contract.md)  

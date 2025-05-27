@@ -2,7 +2,7 @@
 title: Bank management in Russia
 description: Russian enhancements include bank management.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 02/26/2024
 ms.reviewer: bholtorf
@@ -42,7 +42,7 @@ You can print the following required bank management documents.
 
  
 
-## See also 
+## Related information 
 
 [Set up a bank payment order](How-to-Set-Up-a-Bank-Payment-Order.md)
 

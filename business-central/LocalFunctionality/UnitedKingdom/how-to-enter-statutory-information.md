@@ -1,23 +1,25 @@
 ---
 title: Enter Statutory Information [UK]
-description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
+description: Statutory details are on the Statutory FastTab of the Company Information page.
 author: brentholtorf  
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
+ms.search.keywords: statutory information
 ms.search.form: 1
-ms.date: 04/01/2021
+ms.date: 02/18/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Enter Statutory Information in the British Version
+
+# Enter statutory information in the British version
 
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page in the British version of Business Central.  
 
-## To enter statutory information  
+## Enter statutory information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
-2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. On the **Statutory** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -31,10 +33,10 @@ To comply with legal requirements, statutory information is available on the **S
     |**Branch Number**|Specifies the branch number of the company.|  
     |**Contact Name**|Specifies the name of the contact person for the company.|  
 
-3.  Choose the **OK** button.  
+1. Choose the **OK** button.  
 
-## See Also  
+## Related information
+
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

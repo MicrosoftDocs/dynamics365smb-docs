@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: bank, deposit
 ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646, 1690_Primary
 ms.date: 09/27/2024
@@ -135,7 +135,7 @@ There are a couple of ways to reverse a posted bank deposit:
 > [!NOTE]
 > You can only reverse a register that contains a single type of entry. That is, the register must contain only customer entries or vendor entries, but not both. If a register contains both you must manually reverse the deposit.
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance.md)  

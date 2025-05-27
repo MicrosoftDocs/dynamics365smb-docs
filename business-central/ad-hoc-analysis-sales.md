@@ -4,7 +4,7 @@ description: Learn how to use the data analysis mode to analyze sales data.
 author: brentholtorf
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 516, 9300, 5119, 9301, 9305
 ms.date: 04/28/2024
@@ -90,7 +90,7 @@ After you enter information on a sales order and add all the sales order lines, 
 
 To learn more about posting sales, go to [Posting sales](ui-post-sales.md).
 
-## See also
+## Related information
 
 [Posting sales](ui-post-sales.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

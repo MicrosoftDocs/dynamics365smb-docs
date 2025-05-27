@@ -2,7 +2,7 @@
 title: Enable Customer Payments with Payment Services
 description: Make it easier for customers to pay their invoices by enabling customer payments through payment services.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
@@ -41,7 +41,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
     > [!NOTE]  
     > The **Payment Service** field is available only if you've enabled the payment service.  
 
-## See also
+## Related information
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

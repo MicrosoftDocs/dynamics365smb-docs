@@ -2,7 +2,7 @@
 title: Bank Accounts for Electronic Payments [ES]
 description: Learn how to use Business Central to set up bank accounts and vendor bank accounts to make electronic payments.
 author: brentholtorf   
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/25/2021
@@ -41,7 +41,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 3.  On the **Transfer** FastTab, make sure that the **CCC Bank No.**, **CCC Bank Branch No.**, **CCC Control Digits**, and **CCC Bank Account No.** fields are filled in correctly.  
 
-## See Also  
+## Related information  
  [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)
 
 

@@ -4,7 +4,7 @@ description: Set up a connection between Business Central and Dataverse. Busines
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.forms: 7200, 7201
 ms.date: 02/28/2024
@@ -243,7 +243,7 @@ The following steps assume that you use Microsoft Entra ID to manage identities 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 2. On the **Dataverse Connection Setup** page, turn off the **Enabled** toggle.  
 
-## See Also
+## Related information
 
 [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)  
 

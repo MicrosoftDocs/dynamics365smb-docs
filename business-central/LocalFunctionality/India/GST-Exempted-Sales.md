@@ -5,7 +5,7 @@ description: GST Exempted Sales
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -51,7 +51,7 @@ For example, there is a sales invoice and a sales credit memo for INR 10,000.
 
 
 
-## See Also 
+## Related information 
 [Sale to Registered and Unregistered Customer](GST-Sale-to-Registered-Unregistered-Customer.md)
 
 

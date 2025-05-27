@@ -4,7 +4,7 @@ description: Attach a note to any record in the application. For example, if you
 author: jswymer
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
     ROBOTS: NOINDEX,NOFOLLOW
@@ -43,7 +43,7 @@ ms.reviewer: jswymer
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## See Also
+## Related information
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

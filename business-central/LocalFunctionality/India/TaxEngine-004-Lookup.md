@@ -5,7 +5,7 @@ description: Tax Engine - Lookup
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -99,7 +99,7 @@ To get the helpers that can be used in posting of a document. (Ex- Dimension Set
 
 
 
-## See Also 
+## Related information 
 [Tax Engine Script](TaxEngine-005-Script-Activities.md)
 
 

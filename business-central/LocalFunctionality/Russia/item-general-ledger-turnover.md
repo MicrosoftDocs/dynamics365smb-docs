@@ -4,7 +4,7 @@ description: Russian enhancements include creating turnover sheets for goods and
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -98,7 +98,7 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 | **Print Cost**                             | Select this field to print the costs that are mentioned in the report. |
 | **Export to Excel**                        | Select this field to export the report to Microsoft Office Excel. |
 
-## See Also
+## Related information
 
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  
 

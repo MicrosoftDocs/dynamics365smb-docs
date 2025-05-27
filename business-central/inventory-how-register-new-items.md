@@ -4,7 +4,7 @@ description: You create item cards for services that you sell as hours and for p
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 08/12/2024
@@ -135,7 +135,7 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 
 If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)    
 [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)    

@@ -161,7 +161,7 @@ Users accessing Business Central with their Microsoft 365 license don't have the
 
 ---
 
-## See also
+## Related information
 
 [Overview of Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
 [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  

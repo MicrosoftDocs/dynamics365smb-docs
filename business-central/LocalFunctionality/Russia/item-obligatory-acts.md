@@ -4,7 +4,7 @@ description: Russian enhancements include item obligatory acts.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -30,7 +30,7 @@ The following table provides the list of reports and how to print the reports.
 | Warehouse Purchase Receipt М-4 report                   | To print the report from the purchase order   -   Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, select an order, choose **Print**, and then select the **Purchase Receipt M-4** check box.      For more information, see Purchase Receipt M-4   To print the report from a posted purchase invoice   -   Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, select an order, choose **Print**, and then select the **Purchase Receipt M-4** check box.   This report is usually printed at the time of receiving items and materials at the warehouse. |
 | Sales Shipment M-15                                     | To print Sales Shipment M-15 from the sales order   -   Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, select an order, choose **Print**, and then select the **Sales Shipment M-15** check box.   To print Sales Shipment M-15 from the sales invoice   -   Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, select an invoice, choose **Print**, and then select the **Sales Shipment M-15** check box.   To print from the posted sales invoice   -   Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, select an invoice, choose **Print**, and then select the **Sales Shipment M-15** check box.   This report is usually printed at the time of shipment of materials out of the company.   For more information, see Sales Shipment M-15 and Posted Sales Shipment M-15. |
 
-## See Also
+## Related information
 
 [Item Documents](Item-Documents.md)  
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  

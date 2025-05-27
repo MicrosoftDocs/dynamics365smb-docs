@@ -4,7 +4,7 @@ description: You can manage your fixed assets utilizing the fixed assets acts fe
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -136,7 +136,7 @@ During the sale or disposal of a fixed asset, you may want to write-off the rema
 
 4. Choose the **OK** button  to post your entries and record the write-off of the fixed asset.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 

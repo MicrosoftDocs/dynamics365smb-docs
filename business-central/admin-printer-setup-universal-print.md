@@ -218,7 +218,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 ## Next steps
 [Set Up Default Printers](ui-specify-printer-selection-reports.md).
 
-## See also
+## Related information
 
 [Printers Overview](admin-printer-setup-overview.md)  
 [Set Up Email Printers](admin-printer-setup-email.md)

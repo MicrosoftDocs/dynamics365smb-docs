@@ -2,7 +2,7 @@
 title: Set Up Purchasers and Assign Purchasers to Vendors
 description: If several purchasers, or purchasing agents, work at your company, you can organize them for statistical analysis.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
@@ -29,7 +29,7 @@ If several purchasers work at your company, you can set them up in a page and as
 2. Open the relevant vendor card for the vendor that will be assigned a purchaser.
 3. In the **Purchaser Code** field, select the applicable purchaser code and then close the page.
 
-## See also
+## Related information
 
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

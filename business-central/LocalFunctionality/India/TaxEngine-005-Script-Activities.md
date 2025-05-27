@@ -4,7 +4,7 @@ description: Tax Engine - Script Activity
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -187,7 +187,7 @@ Script extension contains UI elements and tables which are used in scripting of 
 
 
 
-## See Also 
+## Related information 
 [Tax Engine Design Consideration](TaxEngine-006-Design-Consideration.md)
 
 

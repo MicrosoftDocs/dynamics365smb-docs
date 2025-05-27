@@ -2,7 +2,7 @@
 title: Set up and use the Shopify Connector
 description: Various integration scenarios for demonstrating workflow between Shopify and Business Central
 ms.date: 08/30/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157
 ms.reviewer: bholtorf
@@ -396,6 +396,6 @@ Configure the Shopify shop as described here:
 * Shopify companies are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
 * Customers are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and select the related link.
 
-## See also
+## Related information
 
 [Get Started with the Shopify Connector](get-started.md)  

@@ -4,7 +4,7 @@ description: Learn how to track consumption of employee hours, machine hours, in
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 12/13/2023
 ms.service: dynamics-365-business-central
@@ -149,7 +149,7 @@ Tricia determines that the project tasks that were excluded from the calculation
     > [!NOTE]  
     > Suppose Tricia calculated and posted WIP for a project with incorrect dates. Following the method that was discussed earlier, Tricia can reverse the incorrect postings, correct the dates, and post to the general ledger.  
 
-## See also
+## Related information
 
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 [Walkthrough: Managing Projects](walkthrough-managing-projects-with-jobs.md)  

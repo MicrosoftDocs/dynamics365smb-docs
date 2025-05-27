@@ -2,7 +2,7 @@
 title: Add Comments to Cards and Documents
 description: Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tasks, work
 ms.search.form: 124, 30
@@ -32,7 +32,7 @@ The following describes how to add a comment to an item card. The steps are simi
 3. Choose the **Comments** action.
 4. On the **Comment Sheet** page, enter any text, and then choose the **OK** button.
 
-## See Also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

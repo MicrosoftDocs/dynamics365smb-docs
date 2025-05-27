@@ -4,7 +4,7 @@ description: "This article describes how to troubleshoot access to camera and lo
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -47,7 +47,7 @@ When connecting to [!INCLUDE[prod_short](includes/prod_short.md)] through Remote
 ## Antivirus Software
 Some antivirus software block access to camera and location by default. Remember to check your antivirus software settings.
 
-## See Also
+## Related information
 [Implementing the Camera in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementing the Location in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

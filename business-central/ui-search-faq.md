@@ -2,7 +2,7 @@
 title: Frequently Asked Questions about Tell Me
 description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: faq
 ms.service: dynamics-365-business-central
 ms.search.keywords: find, search, Tell Me
 ms.search.form: TellMe
@@ -56,7 +56,7 @@ No, but you can easily get this information from the Help pane. Just select the 
 
 The bookmark icon isn't displayed in the Tell Me window when personalization is disabled for a user role.
 
-## See Also  
+## Related information  
 
 [Save and Personalize List Views](ui-views.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  

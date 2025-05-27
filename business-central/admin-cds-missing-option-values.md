@@ -3,7 +3,7 @@ title: "Handling missing option values"
 description: Learn how to prevent full synchronization from failing because the options differ in mapped fields. This process requires help from a developer.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/16/2024
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -138,7 +138,7 @@ The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] ha
 | *NET60*      |                      |                           | 0.         | FALSE                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |
 
-## See also
+## Related information
 [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

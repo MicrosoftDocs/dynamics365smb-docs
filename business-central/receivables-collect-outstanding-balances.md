@@ -135,7 +135,7 @@ When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Ch
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] To learn more, go to [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## See also
+## Related information
 
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  

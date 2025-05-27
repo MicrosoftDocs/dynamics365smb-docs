@@ -4,13 +4,14 @@ description: With the Intercompany functionality, you can simplify business proc
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605,
+ms.search.form: 605, 611, 613, 615, 617, Report_512
 ms.service: dynamics-365-business-central
 ---
+
 # Managing intercompany transactions
 
 Businesses with more than one legal entity with separate accounting functions can benefit from intercompany transactions. For example, it's useful for businesses that have subsidiaries in multiple international markets or regions. Or, an organization might have several companies but lack the equivalent number of accounting and administrative teams. Intercompany transactions simplify and streamline business processes and transactions between companies in the intercompany partnership.
@@ -69,7 +70,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

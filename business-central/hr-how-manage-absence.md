@@ -2,7 +2,7 @@
 title: Manage Employee Absence
 description: Describes how to record employees' absence and analyze absence statistics using the Absence Registration and Employee Absences pages.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212
 ms.date: 06/16/2021
@@ -61,7 +61,7 @@ You can register employee absences on a daily basis or at some other interval th
 
     The **Abs. Overview by Periods Matrix** page opens showing employee absences broken down by periods.
 
-## See Also
+## Related information
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

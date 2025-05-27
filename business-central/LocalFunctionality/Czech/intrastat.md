@@ -5,7 +5,7 @@ author: ACMartinKunes
 ms.author: v-makune
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.date: 03/02/2023
 ms.custom: bap-template
 ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
@@ -97,7 +97,7 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 Exporting Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to the Intrastat journal.
 Export use object for export based on setup in Stat. Reporting Setup or Registration Country/Region.
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  

@@ -2,7 +2,7 @@
 title: Automatic Payments and Automatic Bills [IT]
 description: The following topic explains how to set up the relevant information in Business Central to manage automatic payments and bills.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 12203, 12204
@@ -63,7 +63,7 @@ The following procedure describes how to set up automatic bills for sales and re
 
 Now, you can process customer bills and vendor bills so that they are handled automatically.  
 
-## See Also  
+## Related information  
  [Defining Payment Methods](../../finance-payment-methods.md) 
   [Italy Local Functionality](italy-local-functionality.md)
 

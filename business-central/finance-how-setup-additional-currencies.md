@@ -4,10 +4,10 @@ description: Your general ledger is set up to use your local currency (LCY), and
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: multiple currencies, foreign exchange rates
-ms.search.form: 5, 16,118, 483, 495
+ms.search.form: 5, 16, 118, 483, 495
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 
@@ -126,7 +126,7 @@ In addition, all future entries of the same type have amounts recorded in both L
 > [!NOTE]  
 > The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
 
-## See also
+## Related information
 
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  

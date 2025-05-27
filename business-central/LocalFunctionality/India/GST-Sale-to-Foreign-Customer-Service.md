@@ -5,7 +5,7 @@ description: Export of Goods and Services to Foreign Customer
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -65,7 +65,7 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
-## See Also 
+## Related information 
 [Sale to Registered Customer with Overseas POS](GST-Sale-to-Registered-Customer-Overseas-POS.md)
 
 

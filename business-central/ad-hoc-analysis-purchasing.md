@@ -4,7 +4,7 @@ description: Learn how to use the data analysis mode to analyze data in purchasi
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 9306, 9307, 518, 29
 ms.date: 04/29/2024
@@ -103,7 +103,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-## See also
+## Related information
 
 [Posting purchases](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

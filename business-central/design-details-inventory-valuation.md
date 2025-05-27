@@ -2,7 +2,7 @@
 title: Design details - Inventory valuation | Microsoft Docs
 description: Inventory valuation is the determination of the cost of an inventory item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/13/2023
@@ -45,7 +45,7 @@ As for purchased inventory, the value entries provide the basis of the inventory
 
 The purpose of WIP inventory valuation is to determine the value of the items whose manufacturing hasn't yet been completed on a given date. Therefore the WIP inventory value is based on the value entries related to the consumption and capacity ledger entries. Consumption ledger entries must be invoiced at the date of the valuation. Therefore, the **Inventory Valuation – WIP** report shows the costs representing the WIP inventory value in two categories: consumption and capacity.  
 
-## See also  
+## Related information  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
 [Design Details: Revaluation](design-details-revaluation.md)   
 [Design Details: Production Order Posting](design-details-production-order-posting.md)  

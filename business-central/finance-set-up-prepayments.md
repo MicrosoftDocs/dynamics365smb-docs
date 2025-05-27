@@ -4,7 +4,7 @@ description: Learn how to configure Business Central so that you can use prepaym
 author: brentholtorf
 ms.reviewer: bholtorf
 ms.author: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 06/10/2024
@@ -105,7 +105,7 @@ You can save time by setting up a job queue entry that will automatically releas
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 4. Set up the **Upd. Pending Prepmt. Sales** job queue entry, for example, by using the settings on the **Recurrence** FastTab to schedule how often you want it to run. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## See also  
+## Related information  
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

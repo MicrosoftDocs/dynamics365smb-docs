@@ -4,7 +4,7 @@ description: Learn about the different ways to handle inbound processes for rece
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -141,7 +141,7 @@ Use the **Inventory Put-away** page to manage all inbound warehouse activities f
 
     The 40 loudspeakers are now registered as put away in bin S-01-0001, and a positive item ledger entry is created reflecting the posted purchase receipt.  
 
-## See Also  
+## Related information  
 
 [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

@@ -4,7 +4,7 @@ description: Russian enhancements include tax accounting.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -45,7 +45,7 @@ Transactions are processed using specific tax accounting principles that are app
 | Accumulation         | A synthetic register based on calculated algorithms defined during tax register set up. |
 
 
-## See Also
+## Related information
 
 [Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

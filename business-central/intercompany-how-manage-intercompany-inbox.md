@@ -4,11 +4,11 @@ description: Intercompany transactions you receive from your partners are listed
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: incoming document
-ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
+ms.search.form: 600, 605, 611_Primary, 613_Primary, 615_Primary, 617_Primary, 618, 650, 651, 648, 649, 614, 642, 643, 640, 641, 616, 646, 647, 644, 645, 619, 612, 638, 639, 636, 637, Report_512
 ms.service: dynamics-365-business-central
 ---
 # Manage the Intercompany Inbox and Outbox
@@ -69,7 +69,7 @@ If you have an intercompany partner that is not in the same database as your com
 
 The transactions are imported into the inbox and you can now process them.
 
-## Process incoming intercompany transactions  
+## Process incoming intercompany transactions (using the inbox) 
 
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act on it.  
 
@@ -84,7 +84,7 @@ Lines that you reject and return to your partner go to your intercompany outbox,
 
 For lines that a partner rejected and returned to you, you must post a correction to the original transaction that you posted in your company.
 
-## To process outgoing intercompany transactions  
+## To process outgoing intercompany transactions (using the outbox) 
 
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions go to your intercompany outbox. To send them to your intercompany partners, open the outbox and process them.  
 
@@ -97,7 +97,7 @@ Use the **Return to Inbox** action to move lines to your inbox, where you can th
 
 If you use the **Cancel** action, you must post a correction to the transaction that you originally posted in your company.  
 
-## Recreate intercompany inbox transactions  
+## Recreate intercompany inbox or outbox transactions  
 
 You might want to re-create a transaction in the inbox or outbox. For example, if you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
@@ -106,7 +106,7 @@ The following procedure describes to re-create inbox transactions, but the same 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
 2. On the **Handled IC Inbox Transactions** page, select the line with the transaction that you want to re-create in the inbox, and then choose the **Re-create Inbox Transaction** action.  
 
-## See Also
+## Related information
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

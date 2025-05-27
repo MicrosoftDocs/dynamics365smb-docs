@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 11/15/2024
+ms.date: 04/01/2025
 ms.custom: bap-template
 ---
 
@@ -56,7 +56,9 @@ Copilot includes a constantly expanding set of capabilities that help users in d
 
 ## Is Copilot aware of my environment customizations?
 
-Some but not all Copilot features can work with your custom pages and tables. For example, you can use [analysis assist](analysis-assist.md) on your custom lists, or you can use [chat with Copilot](chat-with-copilot.md) to find records in custom tables. Learn more about which Copilot features work with customizations in [Analyze data in lists with help from Copilot](analysis-assist.md) and [Chat with Copilot](chat-with-copilot.md).
+Some but not all Copilot features can work with your custom pages, tables, and other content from the apps that you have installed. For example, you can use [analysis assist](analysis-assist.md) on your custom lists, or you can use [chat with Copilot](chat-with-copilot.md) to find records in custom tables. Learn more about how each Copilot feature works with your customizations in [Analyze data in lists with help from Copilot](analysis-assist.md) and [Chat with Copilot](chat-with-copilot.md).
+
+The accuracy and user experience of Business Central’s AI-powered features might vary based on the apps that you have installed.
 
 ## Does Copilot have to be trained on my data?
 
@@ -76,7 +78,7 @@ For news about Copilot and other AI innovation in Business Central, you can foll
 
 Copilot in Business Central is automatically available when you provision a Microsoft Entra tenant with a Business Central environment on the [Customer Digital Experiences (CDX)](https://aka.ms/CDX) site. Learn more about how to prepare demonstrations in [Prepare demonstration environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-Depending on the environment that you provision, extra setup might be required. Learn more in [Configure Copilot and AI capabilities](/dynamics365/business-central/enable-ai).
+Depending on the environment that you provision, extra setup might be required. Learn more in [Configure Copilot and agent capabilities](/dynamics365/business-central/enable-ai).
 
 ## Is there a difference between Copilot in Business Central and Copilot for Microsoft 365?
 
@@ -100,7 +102,7 @@ Currently, because of technical limitations, we can't offer Copilot to customers
 
 ## Related information
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Analyze data in lists with Copilot](analysis-assist.md)  
 [Chat with Copilot](chat-with-copilot.md)  
 [Create marketing text with Copilot](item-marketing-text.md)  

@@ -4,7 +4,7 @@ description: Explore the standard reports in Business Central that can help you 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610, Report_5611
 ms.date: 10/29/2024
@@ -38,7 +38,7 @@ This article describes the built-in reports for fixed assets.
 [!INCLUDE [fa_maintenance_reports](includes/fa-maintenance-reports-include.md)]
 
 
-## See also
+## Related information
 
 [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)  

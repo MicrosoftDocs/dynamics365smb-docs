@@ -2,7 +2,7 @@
 title: How to Export Electronic Payments [ES]
 description: In Business Central, you can use the following pages to export payment journal entries into a file format according to four different payment standards.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021
@@ -104,7 +104,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 > [!NOTE]  
 >  You can only post the payment order after you have successfully exported the electronic payments.  
 
-## See Also  
+## Related information  
 [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

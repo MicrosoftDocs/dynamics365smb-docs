@@ -39,7 +39,7 @@ Tax Engine extension is a combination of 6 smaller extensions or modules. Extens
 > The Tax engine functionality is only available for legal entities with a primary address in India.
 
 
-## See Also  
+## Related information  
  [Tax Engine Import Export Configuration](TaxEngine-002-Import-Export-Configuration.md)
 
 

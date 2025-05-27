@@ -2,7 +2,7 @@
 title: How to correct VAT transactions reports [IT]
 description: The following article is an explanation of how you can correct and resend electronic VAT transaction reports.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023
@@ -38,7 +38,7 @@ ms.reviewer: bholtorf
 6.  On the **General** FastTab, in the **Tax Auth. Receipt No.** field, specify the receipt number that you received from the tax authorities.  
 7.  Choose the **Mark as Submitted** action to finalize the report. The **Status** field is updated to Submitted.  
 
-## See also  
+## Related information  
  [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md)
 
 

@@ -2,7 +2,7 @@
 title: Set Up Resource Allocation | Microsoft Docs
 description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
@@ -70,7 +70,7 @@ If you want to change the skill codes assigned to items, for example from **PC**
     * Change the skill codes to the selected value: Select this option if you want to replace the old skill code with the new one on all the related service items.  
     * Delete the skill codes or update their relation: Select this option if you want to change the skill code on this item only. The skill code on the related service items will be reassigned, that is, the **Assigned From** field will be updated.  
   
-## See Also
+## Related information
 [Allocate Resources](service-how-to-allocate-resources.md)  
 [Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)  
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  

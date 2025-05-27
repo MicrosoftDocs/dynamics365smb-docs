@@ -2,7 +2,7 @@
 title: Audit trail and edit logs for accounting software in India
 description: This article provides information about the new Indian tax and companies legislation guidelines for accounting software.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, Indian, local, IN, English
 ms.date: 07/08/2024
@@ -108,7 +108,7 @@ Under new guidelines of the Companies Act, the books of accounts and other relev
 * If an administrator must export a database outside of cloud storage, they can run the **Create database** export from Dynamics 365 Business Central admin center at any time. In addition, administrators can access the full export history in the same admin center.
 * If administrators of [!INCLUDE[prod_short](../../includes/prod_short.md)] delete the environment for any reason, they can recover the environment and data as needed, because it isn't permanently deleted immediately. The environment can be recovered during a retention period that lasts seven days. For more information, see [Delete and recover environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete).
 
-## See also
+## Related information
 
 * [Indian Local Functionalities](india-local-functionality.md)
 * [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)

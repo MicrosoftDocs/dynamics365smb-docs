@@ -2,7 +2,7 @@
 title: Inventory documents in Russia
 description: Russian enhancements for inventory documents.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776
 ms.date: 11/08/2023
@@ -102,7 +102,7 @@ The following procedure shows how to create a report based on a posted transfer 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Transfer Shipments**, and then choose the related link.
 2. Choose the **Print** action.
 
-## See also
+## Related information
 
 [Inventory Setup](Inventory-Setup.md)  
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  

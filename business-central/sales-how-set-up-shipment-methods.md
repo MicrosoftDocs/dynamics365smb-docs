@@ -2,7 +2,7 @@
 title: Set Up Shipment Methods
 description: You can set up a code for each of your offered shipment methods, and enter information about them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: incoterms
 ms.search.form: 11, 130
@@ -27,7 +27,7 @@ You set up the description and code for each shipment method on the **Shipment M
 > [!TIP]
 > If you use Incoterms, set up shipment methods to represent the relevant Incoterms rules.  
 
-## See Also
+## Related information
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Track Packages](sales-how-track-packages.md)  

@@ -147,7 +147,7 @@ All project-related entries are recorded in project registers and sequentially n
 
 On the **Project Ledger Entries** page, you can review the entries that are associated with any project.  
 
-## See also
+## Related information
 
 [Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)    
 [Project management analytics overview](projects-analytics-overview.md)  

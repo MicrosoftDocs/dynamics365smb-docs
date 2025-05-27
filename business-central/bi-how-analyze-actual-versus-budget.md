@@ -2,7 +2,7 @@
 title: Analyze Actual Amounts Versus Budgeted Amounts
 description: This article describes how to analyze actual amounts versus budgeted amounts as a means of gathering, analyzing, and sharing your company data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
@@ -60,7 +60,7 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 3. On the **Options** FastTab, fill in the fields as necessary to define what is displayed in the table.  
 4. On the **Lines** FastTab, hover over a field on the table to read a short description about the displayed amount.  
 
-## See also
+## Related information
 
 [Financial Business Intelligence](bi.md)  
 [Work with Financial Reports](bi-how-work-account-schedule.md)  

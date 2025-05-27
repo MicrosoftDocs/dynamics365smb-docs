@@ -4,7 +4,7 @@ description: Russian enhancements include G/L correspondence.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -73,7 +73,7 @@ On the **Options** tab of the request form, you can set parameters by filling in
 | **Ending of Period**   | Enter the ending date of the period, for the entries that you want to include in the report. |
 | **Other parameters**:<br />**Without Zero Net Changes**, **Without Zero Lines**, **Debit Credit Separately**, **New Page for GL Acc** | Specify the view of the report, such as whether the information for each account should be written without zero lines or net changes. |
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)
 

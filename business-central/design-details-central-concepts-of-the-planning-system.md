@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 01/25/2023
 ms.custom: bap-template
 
@@ -152,7 +152,7 @@ Instead of calculating theoretical combinations of variant and location, [!INCLU
 
 ## Item attributes
 
-Items often have general attributes, such as am item number, variant code, location code, and type of order. However, each demand and supply event can have other specifications, such as serial or lot numbers. The planning system plans these attributes in certain ways depending on their level of specification.  
+Items often have general attributes, such as an item number, variant code, location code, and type of order. However, each demand and supply event can have other specifications, such as serial or lot numbers. The planning system plans these attributes in certain ways depending on their level of specification.  
 
 An order-to-order link between demand and supply is another type of attribute that affects the planning system. Learn more at [Order-to-order links](#order-to-order-links).
 
@@ -295,7 +295,7 @@ When planning with capacity-constrained resources, [!INCLUDE [prod_short](includ
 
 You can add dampener time to resources to minimize operation splitting. This time lets [!INCLUDE [prod_short](includes/prod_short.md)] schedule the load on the last possible day by slightly exceeding the critical load percent.  
 
-## See also
+## Related information
 
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)  
 [Design Details: Planning Parameters](design-details-planning-parameters.md)  

@@ -5,7 +5,7 @@ description: Import from Foreign Vendor
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -154,7 +154,7 @@ For example, purchase invoice is issued for INR 10000, (IGST @18%) has to be cha
 
 
 
-## See Also 
+## Related information 
 [Purchase from Vendor with Overseas Place of Supply](GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
 
 

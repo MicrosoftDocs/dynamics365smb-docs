@@ -2,7 +2,7 @@
 title: How to set up initial item costs [IT]
 description: The following article explains how to set up initial item costs with the Before Start Item Cost feature.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/24/2023
@@ -24,7 +24,7 @@ On the **Before Start Item Cost** page, you can enter information about inventor
 
 The entries in this page are used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
 
-## See also  
+## Related information  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
 

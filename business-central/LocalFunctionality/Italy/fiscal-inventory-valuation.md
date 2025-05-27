@@ -2,7 +2,7 @@
 title: Fiscal Inventory Valuation
 description: You must submit an annual report that shows the monetary value of inventory items for the fiscal year.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 12117, 12188, 12128, 12130, 12137
@@ -41,7 +41,7 @@ At the end of the fiscal year, you can run the **Calculate End Year Costs** batc
 
 For year-end operations, such as calculating the profit and loss during a fiscal year, there is a definitive period and a non-definitive period. If the **Competence Year** field on the **Item Cost History List** page is equal to the fiscal year end date, it is a definitive period, and you cannot recalculate data for a definitive period. If the definitive data differs from the fiscal year end date, then it is a non-definitive period. There should be data for at least one non-definitive period to perform calculations or partial calculations.
 
-## See Also
+## Related information
 
 [Italy Local Functionality](italy-local-functionality.md)  
 [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)  

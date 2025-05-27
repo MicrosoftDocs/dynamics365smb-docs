@@ -2,7 +2,7 @@
 title: Standard recurring purchase lines
 description: Set up frequently used purchase lines to insert them on purchase documents and quickly fill the lines with standard information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: trade, purchase, replenishment
 ms.search.form: 177
@@ -54,7 +54,7 @@ If recurring purchase lines exist for the vendor, you can insert them, or have t
 4. On the **Recurring Purchase Lines** page, choose the lookup button in the **Code** field, and then select a set of standard purchase lines.
 5. Choose the **OK** button to insert the standard purchase lines on the invoice where you can reuse them as is or edit the information.
 
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Set Up Purchasing](purchasing-setup-purchasing.md)  

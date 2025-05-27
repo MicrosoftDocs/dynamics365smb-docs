@@ -2,7 +2,7 @@
 title: How to export VAT transactions reports [IT]
 description: The following article explains how to export VAT Transactions Reports. After you create a report, you can release it, and then export it for the authorities.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/06/2023
@@ -48,7 +48,7 @@ It's only possible to change the lines and fields when the document has the stat
     > [!NOTE]  
     >  You can modify a report that has the status of Submitted only if you have enabled the **Modify Submitted Reports** check box on the **VAT Report Setup** page.  
 
-## See also  
+## Related information  
 [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md)
 
 

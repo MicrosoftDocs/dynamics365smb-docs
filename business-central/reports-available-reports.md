@@ -4,7 +4,7 @@ description: Explore reports across all functional areas of the standard version
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.date: 11/11/2024
 ms.custom: bap-template
@@ -105,7 +105,7 @@ To learn more, go to [Production Reports and Analytics in Business Central](prod
 For more information, see [Service management report overview](service-reports.md).
 
 
-## See also
+## Related information
 
 [Use reports in daily work](reports-use-reports.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  

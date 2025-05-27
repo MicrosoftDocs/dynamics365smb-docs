@@ -2,7 +2,7 @@
 title: Report 347 [ES]
 description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021
@@ -30,7 +30,7 @@ Before creating **Report 347**, the following file format restrictions will be c
 - Special characters must be converted to standard characters.  
 - If the field has no value, it will be blank for alphanumeric fields and populated with zeros for numeric fields.  
 
-## See Also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)   
  [Create Report 347](how-to-create-report-347.md)
 

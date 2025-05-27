@@ -2,7 +2,7 @@
 title: Import and Export a Report and Document Layout
 description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# (Legacy) Import and Export Custom Report Layouts
+# (Obsolete) Import and Export Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -46,7 +46,7 @@ You can import and export an existing custom report layout as a file to and from
 
  The original custom report layout is replaced with the imported report layout.  
 
-## See Also
+## Related information
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

@@ -70,7 +70,7 @@ While there isn't a single correct answer for how to use these different views, 
 > [!TIP]
 > When you create column definitions, might include **BS** or **IS** in the definition description. Those tags can help report viewers decide which reports should use which column definitions.
 
-## See also
+## Related information
 
 [Prepare financial reporting with financial data and account categories](bi-how-work-account-schedule.md)  
 [Design your own financial reports](bi-design-financial-reports.md)  

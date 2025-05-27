@@ -2,7 +2,7 @@
 title: How to Allocate Resources | Microsoft Docs
 description: You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -134,7 +134,7 @@ You can cancel resource allocations for service tasks without reallocating the t
     > [!NOTE]  
     > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it is changed to **Partly Serviced**, that is, some service has been completed.
 
-## See Also
+## Related information
 [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 

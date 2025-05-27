@@ -4,7 +4,7 @@ description: Learn about posted documents in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -49,6 +49,6 @@ When a document is posted, the associated billing lines are archived. These can 
 > [!NOTE]
 > When the documents are posted, the posting description in the customer ledger entries and vendor ledger entries can be used to trace from which contract the entry originates. If the document belongs to exactly one contract, the type of contract (customer or vendor contract) and the document number are included. If there are multiple contracts, **Multiple Customer Contracts** or **Multiple Vendor Contracts** (each in the user's language) is used.
 
-## See also
+## Related information
 
 [Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)

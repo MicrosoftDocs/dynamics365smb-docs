@@ -4,7 +4,7 @@ description: This section describes local functionality for updating exchange ra
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: Czech, finance, CZ, Exchange, currency
 ms.date: 06/25/2021
 ms.reviewer: bholtorf
@@ -18,7 +18,7 @@ The company is allowed to automatically update currency exchange rates using the
 These have been improved by the ability to automatically update currency exchange rates from the CNB (Czech National Bank).  
 The user can define the http service address and other exchange rate update parameters in the exchange rate service settings.
 
-## See Also
+## Related information
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  

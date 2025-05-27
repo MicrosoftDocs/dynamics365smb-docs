@@ -2,7 +2,7 @@
 title: Post Scrap Manually
 description: If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000823
 ms.date: 03/08/2023
@@ -28,7 +28,7 @@ If scrap is produced during processing, it can be entered in the output journal.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## See Also
+## Related information
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

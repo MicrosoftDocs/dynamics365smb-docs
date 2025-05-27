@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 10/01/2024
+ms.date: 03/07/2025
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -20,7 +20,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Microsoft Edge.
   
 **Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers.
- 
+
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Safari on macOS.  
 
 > [!TIP]
@@ -67,7 +67,7 @@ The administration center is designed to work with the current version of the fo
 
 If you want to deploy Business Central on-premises, you should check the system requirements. Learn more in [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v25) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v25)  

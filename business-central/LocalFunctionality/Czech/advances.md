@@ -2,7 +2,7 @@
 title: Advance Payments and Invoices [CZ]
 description: This section describes Czech local functionality and document types in the Advance payments and invoices feature.
 author: ACMartinKunes
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash
 ms.date: 06/24/2021
 ms.reviewer: bholtorf
@@ -107,7 +107,7 @@ Internal Documents:
 - VAT List on Purch. Adv. Letter
 - VAT List on Sales Adv. Letter
 
-## See Also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
 

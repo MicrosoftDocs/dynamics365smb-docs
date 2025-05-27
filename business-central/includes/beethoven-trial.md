@@ -20,6 +20,9 @@ This app is a cloud-based service that doesn't require special software other th
 
 You can't. Use a work or school email address.
 
+> [!TIP]
+> [!INCLUDE [prod_short](prod_short.md)] is always associated with some Microsoft 365 tenant. This way, [!INCLUDE [prod_short](prod_short.md)] can recognize other applications available on your tenant, like Power BI, Excel, or Outlook, and integrate with them.
+
 ### Can I sign up for other Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
 Yes, you can. To view all available trials, [visit the trial hub page](https://www.microsoft.com/dynamics-365/free-trial). You can use the same email account to sign up for different trials.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->

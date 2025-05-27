@@ -23,13 +23,13 @@ To use automatic payments and automatic bills, you must set up the relevant info
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 1. On the **Payments** FastTab, fill in the key fields as described in the following table.  
 
-|Field|Description|  
-|------------------------------------|---------------------------------------|  
-|**Payment Method**|Select the payment method for the type of payments made to or from this bank account. For example, for the bank account that is used for automatic payments made by customers, select a payment method for bank transfers.|  
-|**Bills For Collection Acc. No.**|Specify the general ledger account where bills for collection are credited.|  
-|**Bills For Discount Acc. No.**|Specify the general ledger account where bill discounts are debited.|  
-|**Bills Subj. to Coll. Acc. No.**|Specify the general ledger account where bills subject to collection are credited.|  
-|**Expense Bill Account No.**|Specify the general ledger account where expenses for bank receipts are posted.|  
+    |Field|Description|  
+    |------------------------------------|---------------------------------------|  
+    |**Payment Method**|Select the payment method for the type of payments made to or from this bank account. For example, for the bank account that is used for automatic payments made by customers, select a payment method for bank transfers.|  
+    |**Bills For Collection Acc. No.**|Specify the general ledger account where bills for collection are credited.|  
+    |**Bills For Discount Acc. No.**|Specify the general ledger account where bill discounts are debited.|  
+    |**Bills Subj. to Coll. Acc. No.**|Specify the general ledger account where bills subject to collection are credited.|  
+    |**Expense Bill Account No.**|Specify the general ledger account where expenses for bank receipts are posted.|  
 
 1. Choose the **OK** button.  
 
@@ -45,11 +45,11 @@ The following procedure describes how to set up automatic bills for sales and re
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 1. On the **Bills** FastTab, in the **Temporary Bill List No.** field, select the temporary bill list number. Fill in the fields as described in the following table.  
 
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|**Temporary Bill List No.**|Select the number series that are used for temporary bill lists.|  
-|**Recall Bill Description**|Specify the descriptive text that are used for recalled bills.|  
-|**Bank Receipts Risk Period**|Specify a date formula to calculate the risk period in days, such as **20D**.<br><br/> This is a reference for bank receipt closing. Customer bills are closed only at the end of the risk period that you specify here.|  
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Temporary Bill List No.**|Select the number series that are used for temporary bill lists.|  
+    |**Recall Bill Description**|Specify the descriptive text that are used for recalled bills.|  
+    |**Bank Receipts Risk Period**|Specify a date formula to calculate the risk period in days, such as **20D**.<br><br/> This is a reference for bank receipt closing. Customer bills are closed only at the end of the risk period that you specify here.|  
 
 1. Choose the **OK** button.  
 

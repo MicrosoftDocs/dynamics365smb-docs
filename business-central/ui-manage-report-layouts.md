@@ -99,7 +99,7 @@ In addition to the type, layouts are further divided into three categories, base
 
   Learn more in [(Obsolete) Create and modify custom report layouts](ui-how-create-custom-report-layout.md).
 
-To learn more about which type is best for you, go to [Decide what type of layout you want](ui-get-started-layouts.md#decide).
+Learn more about which type is best for you in [Decide what type of layout you want](ui-get-started-layouts.md#decide).
 
 > [!IMPORTANT]
 > One important thing to remember is that you can't modify extension layouts from the [!INCLUDE [prod_short](includes/prod_short.md)] client. For example, you can't change the layout name or type, or upload and replace it with another version. If you try, an error message displays. You can create a user-defined or custom layout based on the extension layout instead.

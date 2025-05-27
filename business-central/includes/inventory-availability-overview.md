@@ -77,7 +77,7 @@ These quantities might be available, but you might not be able to pick them yet.
 
 The difference between **Avail. Qty. Excluding Shipment Bin** and reserved quantity in warehouse is the quantity available for picking without impacting reserved stock.
 
-The following immage illustrates the allocation of available quantity for reserved quanity.
+The following image illustrates the allocation of available quantity for reserved quantity.
 
 :::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Maximum quantity considered for picking when reservation involved.":::
 

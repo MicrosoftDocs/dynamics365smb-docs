@@ -8,7 +8,7 @@ ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
-> Security groups replace user groups starting in 2023 release wave 1 (version 22). User groups aren't available starting in 2024 release wave 2 (version 25).
+> Security groups replace user groups starting in 2023 release wave 1 (version 22). User groups aren't available after 2024 release wave 1 (version 24).
 >
 > Security groups work like user groups, but they're defined in Microsoft Entra ID for online or Windows Active Directory for or on-premises instead of Business Central. This setup lets admins reuse security groups with other Dynamics 365 apps. Learn more in [Control Access to Business Central Using Security Groups](../ui-security-groups.md).
 >

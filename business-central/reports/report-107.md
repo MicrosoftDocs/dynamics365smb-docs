@@ -54,7 +54,7 @@ You can also see orders to be shipped before and after the three periods as well
 For a detailed breakdown for each order line, use the Customer - Order Detail Report.
 
 ### Use cases
-Analyse your nonshipped orders in order to understand your expected sales volume.
+Analyze your nonshipped orders in order to understand your expected sales volume.
 
 Assists you to Forecast your expected monthly sales revenue.
 
@@ -88,3 +88,4 @@ Try the report here: [Customer - Order Summary](https://businesscentral.dynamics
 [Sales analytics overview](../sales-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

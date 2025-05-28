@@ -48,7 +48,7 @@ You can also see orders to be received before and after the three periods, as we
 For a detailed breakdown for each order line, use the 'Vendor - Order Detail' report.
 
 ### Use cases
-Analyse your outstanding purchase orders to understand your expected purchase volume.
+Analyze your outstanding purchase orders to understand your expected purchase volume.
 
 Assists you with forecasting your monthly expected costs & expenses.
 
@@ -89,3 +89,4 @@ Try the report here: [Vendor - Order Summary](https://businesscentral.dynamics.c
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

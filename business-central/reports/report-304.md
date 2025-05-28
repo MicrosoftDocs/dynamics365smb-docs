@@ -56,7 +56,7 @@ You can specify a date range in the date filter and for each vendor the report w
 You can choose to run the report in your local currency or in the vendor's currency. Vendors that have not had any transactions for the period can also be excluded.  
   
 ### Use cases  
-Analyse and reconcile your vendor balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by vendor.
+Analyze and reconcile your vendor balances at the end of the period by seeing the opening balance, each transaction within the period and the closing balance grouped by vendor.
 
 Please include your data sources and URLs 
 -->
@@ -128,3 +128,4 @@ Try the report here: [Vendor - Detail Trial Balance](https://businesscentral.dyn
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

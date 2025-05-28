@@ -46,7 +46,7 @@ Do not capitalize the persona names.
 Shows each purchase order and the line level breakdown for each vendor, including information on outstanding purchase receipts, applied line/invoice discounts and outstanding amount. Any lines that have an Expected Receipt Date in the past are included in quantity on back order.
 
 ### Use cases
-Analyse your outstanding purchase orders to understand your expected purchase volume grouped by vendor.
+Analyze your outstanding purchase orders to understand your expected purchase volume grouped by vendor.
 
 Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
 
@@ -76,3 +76,4 @@ Try the report here: [Vendor - Order Detail](https://businesscentral.dynamics.co
 [Purchasing analytics overview](../purchasing-analytics-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

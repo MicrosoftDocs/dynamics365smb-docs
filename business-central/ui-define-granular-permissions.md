@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9802, 9807, 9808, 9816_Primary, 9830, 9831, 9855_Primary, 9862_Primary, 9874_Primary, 9878_Primary, 9865_Primary
-ms.date: 05/19/2025
+ms.date: 05/28/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -56,29 +56,29 @@ When you add a system permission, your user-defined permission set is automatica
 1. Choose the **Permissions** action.
 1. On the **Permission Set** page, in the **Type** field, include or exclude permissions to the object as follows:
 
-  To include the permission, choose **Include**, and then choose level of access to give in the **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission** fields. The following table describes the options.
+   To include the permission, choose **Include**, and then choose level of access to give in the **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission** fields. The following table describes the options.
 
-  |Option|Description|Ranking|
-  |------|-----------|-------|
-  |**Blank**|The user can't perform the action on the object.|Lowest|  
-  |**Yes**|The user can perform the action on the object.|Highest|
-  |**Indirect**|The user can perform the action on the object, but only through another related object that the user has full access to. For more information, see [Example - Indirect Permission](#example---indirect-permission) in this article, and [Permissions Property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property#example---indirect-permission) in Developer and IT-Pro Help.|Second highest|
+   |Option|Description|Ranking|
+   |------|-----------|-------|
+   |**Blank**|The user can't perform the action on the object.|Lowest|  
+   |**Yes**|The user can perform the action on the object.|Highest|
+   |**Indirect**|The user can perform the action on the object, but only through another related object that the user has full access to. For more information, see [Example - Indirect Permission](#example---indirect-permission) in this article, and [Permissions Property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property#example---indirect-permission) in Developer and IT-Pro Help.|Second highest|
   
-  To exclude the permission, or one or more access levels, choose **Exclude**, and then choose the level of access to give. The following table describes the options.
+   To exclude the permission, or one or more access levels, choose **Exclude**, and then choose the level of access to give. The following table describes the options.
 
-  |Option|Description|
-  |------|-----------|-------|
-  |**Blank**|Use the access level based on the hierarchy of permissions in the set.  |
-  |**Exclude**|Remove the specific access level for the object.|
-  |**Reduce to indirect**|Change the access level to Indirect if any permission sets give Direct access to the object. For example, choose this option if the permission set gives Direct access to G/L entries but you don't want users to have full access to the entries.|
+   |Option|Description|
+   |------|-----------|
+   |**Blank**|Use the access level based on the hierarchy of permissions in the set.  |
+   |**Exclude**|Remove the specific access level for the object.|
+   |**Reduce to indirect**|Change the access level to Indirect if any permission sets give Direct access to the object. For example, choose this option if the permission set gives Direct access to G/L entries but you don't want users to have full access to the entries.|
   
-  > [!NOTE]
-  > If a permission is in both an included and excluded permission set, the permission is excluded.
+   > [!NOTE]
+   > If a permission is in both an included and excluded permission set, the permission is excluded.
 
 1. Use the **Object Type** and **Object ID** fields to specify the object you're giving access to.
 
-  > [!TIP]
-  > New lines show default values. For example, the **Object Type** field contains **Table Data**, and the **Object ID** field contains **0**. The default values are just placeholders, and aren't used. You must choose a type of object and an object in the **Object ID** field before you can create another new line.
+   > [!TIP]
+   > New lines show default values. For example, the **Object Type** field contains **Table Data**, and the **Object ID** field contains **0**. The default values are just placeholders, and aren't used. You must choose a type of object and an object in the **Object ID** field before you can create another new line.
 
 1. Optional: If you're defining permissions for a Table Data object type, in the **Security Filter** field you can filter the data that a user can access in fields on the selected table. For example, you might want to let a user access only records that contain information about a particular customer. To learn more, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table) and [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters).
 1. Optional: On the **Permission Sets** pane, add one or more other permission sets. To learn more, go to [To add other permission sets](#to-add-other-permission-sets).
@@ -109,8 +109,8 @@ To fully or partially exclude a specific permission in a set you added, under **
 Excluding a permission set excludes all of the permissions in the set. [!INCLUDE [prod_short](includes/prod_short.md)] calculates permissions as follows:
 
 1. Calculate the full list of included permissions
-2. Calculate the full list of excluded permissions
-3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
+1. Calculate the full list of excluded permissions
+1. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
 
 ## Copy a permission set
 
@@ -134,12 +134,13 @@ Create a new permission set by copying another. The new set includes all of the 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 
-    Alternatively, on the **Users** page, choose the **Permission Sets** action.
+   Alternatively, on the **Users** page, choose the **Permission Sets** action.
 1. On the **Permission Sets** page, choose the **New** Action.
 1. On a new line, fill in the fields as necessary.
 1. Choose the **Permissions** action.
-1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
-    Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
+1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
+
+   Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
     A recording process now starts and captures all of your actions in the user interface.
 1. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
 1. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
@@ -154,16 +155,16 @@ In multitenant environments, a permission set is imported into a specific tenant
 
 1. In tenant 1, on the **Permission Sets** page, select the line or lines for the permission sets to export, and then choose the **Export Permission Sets** action.
 
-    An XML file is created in the download folder on your machine. By default, the name is *Export Permission Sets.xml*.
+   An XML file is created in the download folder on your machine. By default, the name is *Export Permission Sets.xml*.
 
-2. In tenant 2, on the **Permission Sets** page, select the **Import Permission Sets** action.
-3. On the **Import Permission Sets** dialog page, consider if you want to merge existing permission sets with any new permission sets in the XML file.
+1. In tenant 2, on the **Permission Sets** page, select the **Import Permission Sets** action.
+1. On the **Import Permission Sets** dialog page, consider if you want to merge existing permission sets with any new permission sets in the XML file.
 
-    If you select the **Update existing permissions** checkbox, existing permission sets that match names in the XML file merge with the imported permission sets.
+   If you select the **Update existing permissions** checkbox, existing permission sets that match names in the XML file merge with the imported permission sets.
 
-    If you don't select the **Update existing permissions** checkbox, permission sets that match names in the XML file are skipped during import. In that case, you're notified about the permission sets that are skipped.
+   If you don't select the **Update existing permissions** checkbox, permission sets that match names in the XML file are skipped during import. In that case, you're notified about the permission sets that are skipped.
 
-4. From the **Import** dialog page, find and select the XML file to be imported, and then choose the **Open** action.
+1. From the **Import** dialog page, find and select the XML file to be imported, and then choose the **Open** action.
 
 The permission sets are imported.
 
@@ -239,25 +240,24 @@ You can view other users' effective permissions only if you're assigned to the S
 The **Effective Permissions** page offers additional information about the source of each permission. For example, whether the source is a security group, or a permission is inherited. The page also contains a column where administrators can review the security filters that are applied. To learn more about security filters, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-2. Open the card of the relevant user.
-3. Choose the **Effective Permissions** action.
+1. Open the card of the relevant user.
+1. Choose the **Effective Permissions** action.
 
-    The **Permissions** part lists all the database objects that the user has access to. You can't edit this section.
+   The **Permissions** part lists all the database objects that the user has access to. You can't edit this section.
 
-    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extent the different access types are permitted.
+   The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extent the different access types are permitted.
 
-    For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.
+   For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.
 
-    > [!NOTE]  
-    > Only permission sets of type **User-Defined** can be edited.
-    >
-    > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a nonentitlement permission set that has a higher ranking than the related value in the entitlement is surrounded by brackets. The brackets indicate that it isn't effective because the entitlement overrules it.
-    >
-    > To learn more about ranking, go to [Create a permission set](ui-define-granular-permissions.md#create-a-permission-set).  
+   > [!NOTE]  
+   > Only permission sets of type **User-Defined** can be edited.
+   >
+   > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a nonentitlement permission set that has a higher ranking than the related value in the entitlement is surrounded by brackets. The brackets indicate that it isn't effective because the entitlement overrules it.
+   >
+   > To learn more about ranking, go to [Create a permission set](ui-define-granular-permissions.md#create-a-permission-set).  
 
-4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
-
-5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** page.
+1. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
+1. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** page.
 
 > [!NOTE]  
 > When you edit a permission set, the changes also apply to other users that have the permission set.

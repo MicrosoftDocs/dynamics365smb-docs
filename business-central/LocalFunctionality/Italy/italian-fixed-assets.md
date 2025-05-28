@@ -1,16 +1,18 @@
 ---
 title: Italian fixed assets
-description: Fixed assets are properties owned by a company and used in the production of its income. This article covers features in the fixed assets functionality.
+description: Learn about the features available for managing fixed assets in Italy, including depreciation methods and automated processes in Business Central.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
-ms.search.keywords:
-ms.date: 12/06/2023
+ms.search.keywords: Italian fixed assets, fixed asset, anticipated depreciation, accelerated depreciation, reduced depreciation, automatic fixed asset creation, Italian version
+ms.date: 05/22/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Italian fixed assets
+
 Fixed assets are properties owned by a company and used in the production of its income. Assets can be either tangible or intangible, and can be either durable or non-durable. Cars, machines, and furniture are examples of tangible assets. Startup costs and licenses are examples of intangible assets.  
 
 The following features are added to the fixed assets functionality:  
@@ -25,13 +27,13 @@ Accelerated depreciation allows companies that can demonstrate that an asset’s
 
 Reduced depreciation allows companies that can demonstrate that an asset’s use is less intense than that of a standard asset can use a lower depreciation rate for it, and recover the difference during the following fiscal years. Reduced depreciation allows companies to lengthen the period of an asset’s depreciation.  
 
-## Related information  
- [Fixed Assets](../../fa-manage.md)     
- [Italy Local Functionality](italy-local-functionality.md)   
- [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   
- [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
- [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
- [Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)
+## Related information
 
+- [Fixed Assets](../../fa-manage.md)
+- [Italy Local Functionality](italy-local-functionality.md)
+- [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)
+- [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)
+- [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)
+- [Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

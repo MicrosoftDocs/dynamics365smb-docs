@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 In combination with the user's license, the [!INCLUDE[prod_short](includes/prod_short.md)] security system controls user access to objects in each database or environment. For each user, you can specify whether they're able to read, modify, or enter data in database objects. To learn more, go to [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the developer and administration content for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Before you assign permissions to users and user groups, you must define who can sign in by creating users according to their license. To learn more, go to [Create Users According to Licenses](ui-how-users-permissions.md).
+Before you assign permissions to users and groups, you must define who can sign in by creating users according to their license. To learn more, go to [Create Users According to Licenses](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], there are two levels of permissions to database objects:
 
@@ -193,63 +193,11 @@ If you don't specify the company when assigning a permission set, the permission
 
 To learn how, go to [Assign permission sets to users](#assign-permission-sets-to-users) or [Assign permissions to a security group](ui-security-groups.md#assign-permissions-to-a-security-group).
 
-## Manage permissions through user groups
+## Review the permissions in a security group
 
-User groups help you manage permission sets across the company. [!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their license. You can add users manually to a user group, and you can create new user groups as copies of existing ones.  
+On the **Security Groups** page, the FactBox pane shows the **Permission Sets** that are assigned to the group. Each user listed in the **Members** card has those permissions. The **Permission Set by Security Group** action provides a more detailed view. There you can also explore the individual permissions in each security group.
 
-You start by creating a user group. Then you assign permission sets to the group to define which object users of the group can access. When you add user to the group, the permission sets defined for the group applies to the user.
-
-Permission sets assigned to a user through a user group stay synchronized. A change to the user group permissions is automatically propagated to the users. If you remove a user from a user group, the involved permissions are automatically revoked.
-
-### To add users to a user group
-
-The following procedure explains how to create user groups manually. To learn how to create user groups automatically, go to [To copy a user group and all its permission sets](#to-copy-a-user-group-and-all-its-permission-sets).
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-
-    1. Alternatively, on the **Users** page, choose the **User Groups** action.
-2. On the **User Group** page, choose the **User Group Members** action.
-3. On the **User Group Members** page, choose the **Add Users** action.
-
-### To copy a user group and all its permission sets
-
-To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
-
-> [!NOTE]
-> The user group members aren't copied to the new user group. You must add them manually afterwards. To learn more, go to [To add users to a user group](#to-add-users-to-a-user-group).
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
-3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
-
-The new user group is added to the **User Groups** page. Proceed to add users. To learn more, go to [To add users to a user group](#to-add-users-to-a-user-group) section.  
-
-> [!IMPORTANT]
-> A validation error displays if you try to assign a user group that refers to a permission set which was defined in an extension that you uninstalled. It's because the App ID of the extension is validated whenever something references it. To assign that user group to a user, either:
->
-> - Reinstall the extension.
-> - Remove the reference of the uninstalled extension from the permission set.
-> - Remove that permission set from the user group.
-
-### To assign permission sets to user groups
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Select the user group that you want to assign permission to.  
-
-    Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
-3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
-4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
-
-### To assign a permission set on the Permission Set by User Group page
-
-The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User Group** action.
-3. On the **Permission Set by User Group** page, select the **[user group name]** field on a line for the relevant permission set to assign the set to the user group.
-4. Select the **All User Groups** checkbox to assign the permission set to all user groups.
-
-You can also assign permissions sets directly to a user.
+Permissions are also available on the **Users** page. The FactBox pane shows the **Permission Sets from Security Group** and **Security Group Memberships** cards for the selected user.
 
 ## Assign permission sets to users
 

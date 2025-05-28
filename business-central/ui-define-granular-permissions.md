@@ -37,11 +37,11 @@ To learn more, go to [Delegated administrator access to Business Central Online]
 
 |To...  |Go to...  |
 |---------|---------|
-|To make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Manage permissions through user groups](#manage-permissions-through-user-groups) |
-|To manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
-|To learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
-|To view or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|
-|To learn about record-level security|[Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
+|Make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Manage permissions through user groups](#manage-permissions-through-user-groups) |
+|Manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
+|Learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
+|View or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|
+|Learn about record-level security|[Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
 > A broader way to define which features users have access to is by setting the **Experience** field on the **Company Information** page. To learn more, go to [Change Which Features are Displayed](ui-experiences.md).
@@ -56,10 +56,10 @@ To learn more, go to [Delegated administrator access to Business Central Online]
 When you add a system permission, your user-defined permission set is automatically updated with any changes that Microsoft makes to those permissions.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
-2. Choose the **New** action.
-3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Permissions** action.
-5. On the **Permission Set** page, in the **Type** field, include or exclude permissions to the object as follows:
+1. Choose the **New** action.
+1. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choose the **Permissions** action.
+1. On the **Permission Set** page, in the **Type** field, include or exclude permissions to the object as follows:
 
   To include the permission, choose **Include**, and then choose level of access to give in the **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission** fields. The following table describes the options.
 
@@ -80,13 +80,13 @@ When you add a system permission, your user-defined permission set is automatica
   > [!NOTE]
   > If a permission is in both an included and excluded permission set, the permission is excluded.
 
-6. Use the **Object Type** and **Object ID** fields to specify the object you're giving access to.
+1. Use the **Object Type** and **Object ID** fields to specify the object you're giving access to.
 
   > [!TIP]
   > New lines show default values. For example, the **Object Type** field contains **Table Data**, and the **Object ID** field contains **0**. The default values are just placeholders, and aren't used. You must choose a type of object and an object in the **Object ID** field before you can create another new line.
 
-7. Optional: If you're defining permissions for a Table Data object type, in the **Security Filter** field you can filter the data that a user can access in fields on the selected table. For example, you might want to let a user access only records that contain information about a particular customer. To learn more, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table) and [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters).
-8. Optional: On the **Permission Sets** pane, add one or more other permission sets. To learn more, go to [To add other permission sets](#to-add-other-permission-sets).
+1. Optional: If you're defining permissions for a Table Data object type, in the **Security Filter** field you can filter the data that a user can access in fields on the selected table. For example, you might want to let a user access only records that contain information about a particular customer. To learn more, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table) and [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters).
+1. Optional: On the **Permission Sets** pane, add one or more other permission sets. To learn more, go to [To add other permission sets](#to-add-other-permission-sets).
 
 > [!IMPORTANT]
 > Use caution when assigning **Insert Permission** or **Modify Permission** to the **9001 User Group Member** or **9003 User Group Permission Set** table. Any users assigned to the permission set could potentially assign themselves to other user groups, which in turn might give them unintended permissions.
@@ -128,9 +128,9 @@ Create a new permission set by copying another. The new set includes all of the 
 |**Clone**     | Create an exact copy of the original permission set.        |
 
 1. On the **Permission Sets** page, select the line for a permission set that you want to copy, and then choose the **Copy Permission Set** action.
-2. On the **Copy Permission Set** page, specify the name of the new permission set.
-3. In the **Copy operation** field, specify how to arrange permission in the new permission set.
-4. Optional: If you're adding a System permission set, you might want to be notified if the name or content of the original permission set changes in a future version. This lets you consider whether to update your user-defined permission set. To receive a notification, turn on the **Notify on Changed Permission Set** toggle.
+1. On the **Copy Permission Set** page, specify the name of the new permission set.
+1. In the **Copy operation** field, specify how to arrange permission in the new permission set.
+1. Optional: If you're adding a System permission set, you might want to be notified if the name or content of the original permission set changes in a future version. This lets you consider whether to update your user-defined permission set. To receive a notification, turn on the **Notify on Changed Permission Set** toggle.
 
 > [!NOTE]
 > The notification requires that the **Original System permission set changed** notification is enabled on the **My Notifications** page.
@@ -140,16 +140,16 @@ Create a new permission set by copying another. The new set includes all of the 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 
     Alternatively, on the **Users** page, choose the **Permission Sets** action.
-2. On the **Permission Sets** page, choose the **New** Action.
-3. On a new line, fill in the fields as necessary.
-4. Choose the **Permissions** action.
-5. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
+1. On the **Permission Sets** page, choose the **New** Action.
+1. On a new line, fill in the fields as necessary.
+1. Choose the **Permissions** action.
+1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
     Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
     A recording process now starts and captures all of your actions in the user interface.
-6. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
-7. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
-8. Choose the **Yes** button to add the recorded permissions to the new permission set.
-9. For each object in the recorded list, specify whether users are able to insert, modify, or delete records in the recorded tables.
+1. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
+1. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
+1. Choose the **Yes** button to add the recorded permissions to the new permission set.
+1. For each object in the recorded list, specify whether users are able to insert, modify, or delete records in the recorded tables.
 
 ### To export and import a permission set
 
@@ -181,9 +181,9 @@ On the **Permission Sets** page, choose the **Remove Obsolete Permissions** acti
 Administrators can define periods of time during which specified users are able to post. Administrators can also specify if the system logs how much time users are signed in. Similarly, administrators can assign responsibility centers to users. To learn more, go to [Work with Responsibility Centers](inventory-responsibility-centers.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
-2. On the **User Setup** page opens, choose the **New** action.
-3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
-4. Fill in the fields as necessary.
+1. On the **User Setup** page opens, choose the **New** action.
+1. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
+1. Fill in the fields as necessary.
 
 ## Control access to specific companies
 

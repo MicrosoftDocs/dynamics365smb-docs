@@ -73,7 +73,7 @@ View the list of suggested apps by choosing the **Connectivity Apps** action in 
 > [!NOTE]
 > The first person to open the **Connectivity Apps** page must allow the extension to connect to an external service. Allow the connection once or always. If you choose to block the connection, you must find the relevant apps on AppSource. If you allow the connection once or always, be aware that your information might be shared with third parties. Learn more in the section [Understanding the risks of installing apps](#understanding-the-risks-of-installing-apps).
 
-This external service generates a list of relevant apps based on your country or region
+This external service generates a list of relevant apps based on your country or region.
 
 ## Recommended apps
 

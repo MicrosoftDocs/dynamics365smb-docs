@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Assign permissions to users and groups
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
-
 In combination with the user's license, the [!INCLUDE[prod_short](includes/prod_short.md)] security system controls user access to objects in each database or environment. For each user, you can specify whether they're able to read, modify, or enter data in database objects. To learn more, go to [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the developer and administration content for [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Before you assign permissions to users and groups, you must define who can sign in by creating users according to their license. To learn more, go to [Create Users According to Licenses](ui-how-users-permissions.md).
@@ -37,7 +35,8 @@ To learn more, go to [Delegated administrator access to Business Central Online]
 
 |To...  |Go to...  |
 |---------|---------|
-|Make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Manage permissions through user groups](#manage-permissions-through-user-groups) |
+|Make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Control access to Business Central using security groups](ui-security-groups.md) or 
+[Manage permissions through user groups (legacy)](ui-legacy-user-groups.md) |
 |Manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
 |Learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
 |View or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|

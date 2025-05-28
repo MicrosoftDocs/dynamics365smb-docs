@@ -20,8 +20,7 @@ This article describes how administrators create users and define who can sign i
 ## Basics
 
 - When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. 
-- You can also organize users in security groups. Security groups make it easier to manage permissions and other settings for multiple users at the same time. Learn more in [ontrol access to Business Central using security groups](ui-security-groups.md).  
-
+- You can also organize users in security groups. Security groups make it easier to manage permissions and other settings for multiple users at the same time.
   [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 - There are several license types. Learn about the different types of licenses and how licensing works in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 

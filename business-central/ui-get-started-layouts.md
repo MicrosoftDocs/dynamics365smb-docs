@@ -1,6 +1,6 @@
 ---
 title: Get started creating report layouts
-description: Learn how to create and customize report layouts in Dynamics 365 Business Central. Personalize your reports for viewing, printing, or saving.
+description: Learn how to create and customize report layouts in Dynamics 365 Business Central. 
 author: jswymer
 ms.topic: get-started
 ms.devlang: al
@@ -44,7 +44,7 @@ Depending on your situation, the actual tasks vary. Use the following table to g
 | Create a new layout for a report, either from scratch or based on a copy of an existing layout. | [Create a new layout](#create) |
 | Make changes to the layout that a report uses. | [Modify a layout](#modify) |
 | Replace the current layout file that a report uses with a new version of the layout file. | [Replace a layout](#replace) |
-| Change the current layout that a report uses to another layout. | [Setting the Layout Used by a Report](ui-set-report-layout.md) |
+| Change the current layout that a report uses to another layout. | [Set the layout used by a report](ui-set-report-layout.md) |
 | Change the name and description of a layout. | [Rename a layout](#rename) |
 | Mark a layout as obsolete | [Mark a layout as obsolete](#mark-a-layout-as-obsolete) |
 | Validate a layout. | [Validate a layout](#validate) |
@@ -85,7 +85,7 @@ Copying an existing layout lets you quickly create a new, identical layout that 
 
     The new layout appears on the **Report Layouts** page.
 
-If needed, you can change the settings in your new layout. To learn more, go to [Change settings in a new layout](#modify).
+If needed, you can change the settings in your new layout. To learn more, go to [Modify a layout](#modify).
 
 ### [Export a layout copy and import it as a new layout](#tab/export)
 
@@ -102,7 +102,7 @@ If needed, you can change the settings in your new layout. To learn more, go to 
     Learn more in the following articles:
 
     * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
-    * [Working with Microsoft Excel layouts](ui-excel-report-layouts.md)
+    * [Working with Microsoft Excel Layouts](ui-excel-report-layouts.md)
     * [Working with RDLC Layouts](ui-rdlc-report-layouts.md)
 
 1. Make the required changes to the file, and then save it.
@@ -146,7 +146,7 @@ When you create a new layout from a blank layout, you must design it completely.
 
     The new layout appears in the list. The layout is blank, but all the report fields and captions are available so that you can start to add them to the layout.
 
-1. You can now start to [design the layout](#modify).
+1. You can now start to [Modify a layout](#modify).
 
 ---
 
@@ -223,7 +223,7 @@ Validate a user-defined layout to check for problems and view the results. Follo
 
 <!--[!INCLUDE[introduced_in_2025rw1](includes/introduced_in_2025rw1.md)]-->
 
-View information about the layout, such as its ID, the report it's based on, and when it was created and last modified. This information is useful for troubleshooting. Follow these steps to view layout information.
+View information about the layout, such as its ID, the associated report, and when it was created and last modified. This information is useful for troubleshooting. Follow these steps to view layout information.
 
 1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 1. Select the layout you want to gather information for, and then select the **Show layout info** action.
@@ -247,7 +247,7 @@ To delete a user-defined layout, follow these steps.
 
 ## Mark a layout as obsolete
 
-A layout can become obsolete for various reasons. For example, the data model might change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it will likely be removed in a later release, so they should use an alternative layout.
+A layout can become obsolete for various reasons. For example, the data model might change, making the layout outdated, or a more efficient layout might be introduced, making the current layout redundant. Marking a layout as obsolete signals to others that it might be removed in a later release, so they should use an alternative layout.
 
 To identify which layouts are obsolete, refer to the **Obsolete** column on the **Report Layouts page**. You can mark a user-defined layout as obsolete if needed. 
 
@@ -263,7 +263,7 @@ To identify which layouts are obsolete, refer to the **Obsolete** column on the 
 
 [Report and document layouts overview](ui-manage-report-layouts.md)  
 [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)  
-[Working with Microsoft Excel layouts](ui-excel-report-layouts.md)  
+[Working with Microsoft Excel Layouts](ui-excel-report-layouts.md)  
 [Run and print reports in Business Central](ui-work-report.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

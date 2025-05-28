@@ -23,7 +23,7 @@ Permission sets assigned to a user through a user group stay synchronized. A cha
 
 ## Add users to a user group
 
-The following procedure explains how to create user groups manually. To learn how to create user groups automatically, go to [To copy a user group and all its permission sets](#to-copy-a-user-group-and-all-its-permission-sets).
+The following procedure explains how to create user groups manually. To learn how to create user groups automatically, go to [To copy a user group and all its permission sets](#copy-a-user-group-and-all-its-permission-sets).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 
@@ -36,13 +36,13 @@ The following procedure explains how to create user groups manually. To learn ho
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
 
 > [!NOTE]
-> The user group members aren't copied to the new user group. You must add them manually afterwards. To learn more, go to [To add users to a user group](#to-add-users-to-a-user-group).
+> The user group members aren't copied to the new user group. You must add them manually afterwards. To learn more, go to [To add users to a user group](#add-users-to-a-user-group).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
-The new user group is added to the **User Groups** page. Proceed to add users. To learn more, go to [To add users to a user group](#to-add-users-to-a-user-group) section.  
+The new user group is added to the **User Groups** page. Proceed to add users. To learn more, go to [To add users to a user group](#add-users-to-a-user-group) section.  
 
 > [!IMPORTANT]
 > A validation error displays if you try to assign a user group that refers to a permission set which was defined in an extension that you uninstalled. It's because the App ID of the extension is validated whenever something references it. To assign that user group to a user, either:

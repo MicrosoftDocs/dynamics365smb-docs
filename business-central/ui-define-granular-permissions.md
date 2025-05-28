@@ -28,15 +28,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], there are two levels of permi
 
 This article describes how to define, use, and apply permissions in [!INCLUDE [prod_short](includes/prod_short.md)] to change the default configuration.  
 
-[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
-To learn more, go to [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
-
 [!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their license. You can change the default configuration by modifying or adding security groups, permission sets, and permissions. The following table outlines key scenarios for modifying the default permissions.  
 
 |To...  |Go to...  |
 |---------|---------|
-|Make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Control access to Business Central using security groups](ui-security-groups.md) or 
-[Manage permissions through user groups (legacy)](ui-legacy-user-groups.md) |
+|Make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Control access to Business Central using security groups](ui-security-groups.md) or [Manage permissions through user groups (legacy)](ui-legacy-user-groups.md) |
 |Manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
 |Learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
 |View or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|

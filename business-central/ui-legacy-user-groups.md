@@ -1,13 +1,13 @@
 ---
-title: Control Access Using Security Groups
-description: This article describes how to use security groups to define user permissions.
-author: brentholtorf
-ms.author: bholtorf
-ms.reviewer: bholtorf
+title: Manage permissions through user groups (legacy)
+description: This article describes how to use users groups to define user permissions.
+author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security, permissions
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862, 9875_Primary, 9874_Primary, 9873_Primary, 9872_Primary, 9877_Primary, 9869_Primary, 9868_Primary, 9871_Primary
-ms.date: 09/13/2024
+ms.date: 05/28/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -100,6 +100,7 @@ You can configure permissions in [!INCLUDE [prod_short](includes/prod_short.md)]
 To use security groups exclusively, we recommend that you remove the license configurations. To learn more about license configurations, go to [Create Users According to Licenses](ui-how-users-permissions.md).
 
 You can remove license configurations on the **License Configuration** page. Choose a license, and then delete all permission sets assigned to it.
+
 ## Related information
 
 [Create Users According to Licenses](ui-how-users-permissions.md)  

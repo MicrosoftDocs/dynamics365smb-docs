@@ -81,9 +81,22 @@ On work orders, you can add items of the type **Service** as **Work Order Servic
 > [!NOTE]
 > When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### Use a Project and Service type of integration in Business Central
+## Use a Project and Service type of integration in Business Central
 
+### Update the service order for the work order
 
+While technicians do the work for a work order in [!INCLUDE [field-service-short](includes/field-service-short.md)], the information from the work order synchronizes with a related service order in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, when a technician changes the booking status from **Scheduled** to **In Progress**, the status of the service order changes to **In Process**.
+
+However, because synchronization runs on a schedule, the information in the service order might not be up to date at the moment. To update the service order to be sure you're working with the latest information, choose the **Synchronize** action, and select **Get data update from Dataverse**.
+
+### Post consumption and invoice the service order
+
+When a technician changes the status of a work order to **Completed** in [!INCLUDE [field-service-short](includes/field-service-short.md)], the status of the service order in [!INCLUDE [prod_short](includes/prod_short.md)] becomes **Finished** and you can post and invoice it.
+
+You can review the information in the service order before you post it. For example, on the **Service Order** page, on the **Lines** FastTab, you can choose the **Service Lines** action to review the consumption of services and materials. If you're happy with the information, use the **Post** action to post the order. In [!INCLUDE [prod_short](includes/prod_short.md)], the status of the service order becomes **Closed**. In [!INCLUDE [field-service-short](includes/field-service-short.md)], the status of the work order becomes **Posted**.
+
+> [!TIP]
+> If there's unposted consumption, choose the **Ship and Consume** option first. Then, to generate the invoice, choose **Ship and Invoice**.
 
 ## Related information
 

@@ -74,20 +74,6 @@ When you mark a work order product or service as **Used** on a work order with a
 
 During consumption and invoice posting in [!INCLUDE [prod_short](includes/prod_short.md)], the quantities are updated on the original work order product and work order service lines in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-
-## Use a Project and Service type of integration in Field Service
-
-This section describes tasks you can do in [!INCLUDE [field-service-short](includes/field-service-short.md)] with data from [!INCLUDE [prod_short](includes/prod_short.md)].
-
-### Align work orders with service orders
-
-The integration automatically synchronizes work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] with service orders in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, when you create a work order, a service order is automatically created in [!INCLUDE [prod_short](includes/prod_short.md)] and coupled with it. Data from work order incidents aligns with service item lines, and work order products and services align with service lines.
-
-On work orders, you can add items of the type **Service** as **Work Order Services** and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab). The items from [!INCLUDE [prod_short](includes/prod_short.md)] show as primary assets under **Assets** on the work order.
-
-> [!NOTE]
-> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
-
 ## Use a Project and Service type of integration in Business Central
 
 This section describes tasks you can do in [!INCLUDE [prod_short](includes/prod_short.md)] with data from [!INCLUDE [field-service-short](includes/field-service-short.md)].
@@ -116,6 +102,19 @@ To learn more about posting service orders, go to [Service Posting](service-serv
 ### View the customer asset related to a service item
 
 From the **Service Item** page, you can access the customer asset by choosing the **Customer Asst.** action.
+
+## Use a Project and Service type of integration in Field Service
+
+This section describes tasks you can do in [!INCLUDE [field-service-short](includes/field-service-short.md)] with data from [!INCLUDE [prod_short](includes/prod_short.md)].
+
+### Align work orders with service orders
+
+The integration automatically synchronizes work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] with service orders in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, when you create a work order, a service order is automatically created in [!INCLUDE [prod_short](includes/prod_short.md)] and coupled with it. Data from work order incidents aligns with service item lines, and work order products and services align with service lines.
+
+On work orders, you can add items of the type **Service** as **Work Order Services** and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab). The items from [!INCLUDE [prod_short](includes/prod_short.md)] show as primary assets under **Assets** on the work order.
+
+> [!NOTE]
+> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Related information
 

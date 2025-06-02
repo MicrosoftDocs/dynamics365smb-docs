@@ -15,7 +15,7 @@ Service organizations require a front-to-back application in which finance, inve
 
 You can easily create and manage work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)], track the progress of service tasks, assign resources, and capture consumption details. When you complete a work order in [!INCLUDE [field-service-short](includes/field-service-short.md)], the integration enables the smooth transfer of data to [!INCLUDE [prod_short](includes/prod_short.md)] for further processing.  
 
-The integration also facilitates the invoicing and fulfillment of work orders in [!INCLUDE [prod_short](includes/prod_short.md)]. You can generate accurate invoices based on the service activities and the consumption recorded in [!INCLUDE [field-service-short](includes/field-service-short.md)].  
+The integration also lets you invoice and fulfill work orders in [!INCLUDE [prod_short](includes/prod_short.md)]. You can generate accurate invoices based on the service activities and the consumption recorded in [!INCLUDE [field-service-short](includes/field-service-short.md)].  
 
 By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)], you don't have to enter data manually or duplicate efforts. Integration also provides a comprehensive view of service operations and finances, enabling better decision-making and operational efficiency.
 
@@ -24,16 +24,17 @@ By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [f
 Depending on the business processes you need, you can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] with project management features only, or project management and service management features in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> The project and service management integration requires that you're using the Premium experience. Service management features aren't available in the Essential experience.
+>
 > The option to integrate with project management and service management is a package deal. That is, you can't integrate with service management features only. The option always integrates both sets of features.
 
-For example, integrating [!INCLUDE [field-service-short](includes/field-service-short.md)] with project management lets you sync work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] with project journals in [!INCLUDE [prod_short](includes/prod_short.md)]. You can then use the project journal to post, for example, resource usage from the work order to the general ledger. In addition to that, integrating [!INCLUDE [field-service-short](includes/field-service-short.md)] with both project and service management also gives you:
+For example, integrating [!INCLUDE [field-service-short](includes/field-service-short.md)] with project management lets you sync work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] with project journals in [!INCLUDE [prod_short](includes/prod_short.md)]. You can then use the project journal to post, for example, resource usage from the work order to the general ledger.
+
+In addition to that, integrating [!INCLUDE [field-service-short](includes/field-service-short.md)] with both project and service management also gives you:
 
 - Better scheduling and dispatching of service technicians based on their skills and ability.
 - Improved tracking of repair parts and supplies for services.
 - Accurate service estimates and invoices.
-
-> [!NOTE]
-> Integrating with service management requires that you're using the Premium experience.
 
 ## Prerequisites
 
@@ -252,18 +253,20 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Locations** and **L
 
 ### Set up virtual tables
 
-The first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
+A virtual table is a custom table that has columns and rows that contain data from an external data source, such as [!INCLUDE [prod_short](includes/prod_short.md)]. The columns and rows in a virtual table look like a regular table, however, the data isn't stored in a physical table in the [!INCLUDE[prod_short](includes/cds_long_md.md)] database. Instead, the data is retrieved at runtime. To learn more about virtual tables, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data).
+
+To use virtual tables in your integration, the first thing to do is to install the [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2277917) app from AppSource.
 
 > [!NOTE]
-> To use virtual tables when you integrate with project and service management, your [!INCLUDE [field-service-short](includes/field-service-short.md)] and [!INCLUDE [prod_short](includes/prod_short.md)] must be in the same tenant. It's a requirement for using virtual tables.
+> Your [!INCLUDE [field-service-short](includes/field-service-short.md)] and [!INCLUDE [prod_short](includes/prod_short.md)] must be in the same tenant. That's a requirement for using virtual tables.
 
 Afterward, on the **Dynamics 365 Field Service Integration Setup** or **Set up integration to Dynamics 365 Field Service** pages in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Enable Inventory Availability by Location** toggle. When you enable inventory availability by location, a **dyn365bc_availabilitybylocation_v2_0** virtual table becomes available. You must create a synthetic relation between the following tables:
 
 - The native **Product** and **Work Order Product** tables in [!INCLUDE [field-service-short](includes/field-service-short.md)] and the **Item Availability** virtual table that shows item availability.
 
-There's an assisted setup guide to help you create the synthetic relation. To learn more about virtual tables and synthetic relationships, go to [Use virtual tables to get more data](admin-synchronizing-business-central-and-sales.md#use-virtual-tables-to-get-more-data). To create the synthetic relation, follow these steps:
+There's an assisted setup guide to help you create the synthetic relation. To create the synthetic relation, follow these steps:
 
-1. In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, use the **Synthetic Relations** action
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, use the **Synthetic Relations** action.
 1. On the **Synthetic Relations** page, choose the **New** action to start the **New Synthetic Relation** assisted setup guide.
 1. In the **Native Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **CRM Product**.
 1. In the **Virtual Dataverse Table** field, choose the :::image type="content" source="media/assist-edit-icon.png" alt-text="The AssistEdit icon."::: button, and then choose **Inventory Availability by Location**.

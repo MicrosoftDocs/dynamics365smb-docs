@@ -110,6 +110,8 @@ You can review the information in the service order before you post it. For exam
 > [!TIP]
 > If you have unposted consumption, choose the **Ship and Consume** option first. Then, to generate the invoice, choose **Ship and Invoice**.
 
+To learn more about posting service orders, go to [Service Posting](service-service-posting.md).
+
 ## Related information
 
 [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)  

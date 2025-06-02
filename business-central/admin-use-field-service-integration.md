@@ -68,7 +68,7 @@ Technicians can verify whether the items they need to complete a work order are 
 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### Create and post service orders
+### Create and post work orders
 
 When you mark a work order product or service as **Used** on a work order with a specific work order type, the lines synchronize to a service order. Consumption is also posted, based on settings on the **Dynamics 365 Field Service Integration Setup** page.
 
@@ -83,7 +83,7 @@ This section describes tasks you can do in [!INCLUDE [field-service-short](inclu
 
 The integration automatically synchronizes work orders in [!INCLUDE [field-service-short](includes/field-service-short.md)] with service orders in [!INCLUDE [prod_short](includes/prod_short.md)]. For example, when you create a work order, a service order is automatically created in [!INCLUDE [prod_short](includes/prod_short.md)] and coupled with it. Data from work order incidents aligns with service item lines, and work order products and services align with service lines.
 
-On work orders, you can add items of the type **Service** as **Work Order Services** and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab). The items from [!INCLUDE [prod_short](includes/prod_short.md)] show as primary assets under  **Assets** on the work order.
+On work orders, you can add items of the type **Service** as **Work Order Services** and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab). The items from [!INCLUDE [prod_short](includes/prod_short.md)] show as primary assets under **Assets** on the work order.
 
 > [!NOTE]
 > When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -112,6 +112,10 @@ You can review the information in the service order before you post it. For exam
 > If you have unposted consumption, choose the **Ship and Consume** option first. Then, to generate the invoice, choose **Ship and Invoice**.
 
 To learn more about posting service orders, go to [Service Posting](service-service-posting.md).
+
+### View the customer asset related to a service item
+
+From the **Service Item** page, you can access the customer asset by choosing the **Customer Asst.** action.
 
 ## Related information
 

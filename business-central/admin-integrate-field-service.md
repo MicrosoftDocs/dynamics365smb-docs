@@ -24,7 +24,7 @@ By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [f
 Depending on the business processes you need, you can integrate [!INCLUDE [field-service-short](includes/field-service-short.md)] with project management features only, or project management and service management features in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> The project and service management integration requires that you're using the Premium experience. Service management features aren't available in the Essential experience.
+> The **Project and Service** integration requires that you're using the Premium experience. Service management features aren't available in the Essential experience.
 >
 > The option to integrate with project management and service management is a package deal. That is, you can't integrate with service management features only. The option always integrates both sets of features.
 
@@ -47,6 +47,8 @@ To integrate with [!INCLUDE [field-service-short](includes/field-service-short.m
 
 - [Set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide).
 - [Enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
+
+:::image type="content" source="media/fs-integration-architecture.png" alt-text="Screenshot showing the hierarchy of apps in the integration.":::
 
 ### Install required apps
 

@@ -48,7 +48,7 @@ To integrate with [!INCLUDE [field-service-short](includes/field-service-short.m
 - [Set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide).
 - [Enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-:::image type="content" source="media/fs-integration-architecture.png" alt-text="Screenshot showing the hierarchy of apps in the integration.":::
+:::image type="content" source="media/fs-integration-architecture.png" alt-text="Screenshot showing the hierarchy of apps in the integration." lightbox="media/fs-integration-architecture.png":::
 
 ### Install required apps
 

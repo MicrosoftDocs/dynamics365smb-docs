@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
-The Water and Waste Analysis report provides a detailed analysis on the organization's usage of water and waste. The information is arranged by facility and location. You can easily identify capacities of facilities, usage, and the different types of water and waste. The Year-Over-Year and Day-Over-Day calculations show how you're progressing.
+The Water and Waste Analysis report provides a detailed analysis on the organization's usage of water and waste. The report organizes the information by facility and location. You can easily identify capacities of facilities, usage, and the different types of water and waste. The Year-Over-Year and Day-Over-Day calculations show how you're progressing.
 
 :::image type="content" source="media\sustainability\water-and-waste-analysis.png" alt-text="Screenshot of the Water and Waste Analysis Power BI report" lightbox="media\sustainability\water-and-waste-analysis.png":::
 
@@ -38,7 +38,7 @@ The Water and Waste Analysis report includes the following KPIs and measures:
 - [Water Available](sustainability-powerbi-kpis.md#water-available)
 - [Facility Capacity](sustainability-powerbi-kpis.md#facility-capactity)
 
-Choose the link for a KPI to learn more about what it means, how it's calculated, and what data is was used in the calculations.
+Choose the link for a KPI to learn more about what it means, its calculation, and what data is used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

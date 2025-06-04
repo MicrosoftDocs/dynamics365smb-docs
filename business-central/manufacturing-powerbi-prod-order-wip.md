@@ -21,7 +21,7 @@ ms.custom: bap-template
 
 :::image type="content" source="media/manufacturing/production-order-wip-v26.png" alt-text="Screenshot of the Production Order WIP Power BI Report" lightbox="media/manufacturing/production-order-wip-v26.png":::
 
-The **Production Order WIP Report** consists of two key visuals that give insights into work-in-progress (WIP) inventory. The top visual is a timeline chart that showcases the **Ending Balance Value of WIP** inventory over time. By plotting the **Ending Balance Value** as the Y-axis and the **Month Year** as the X-axis, the visual offers a clear trend analysis and lets you find fluctuations and patterns in WIP inventory.
+The **Production Order WIP Report** consists of two key visuals that give insights into work-in-progress (WIP) inventory. The top visual is a timeline chart that showcases the **Ending Balance Value of WIP** inventory over time. The visual plots the **Ending Balance Value** as the Y-axis and the **Month Year** as the X-axis to offer a clear trend analysis and lets you find fluctuations and patterns in WIP inventory.
 
 The **Inventory Valuation - WIP** table gives you a detailed breakdown of production order-related inventory valuation. The table includes essential columns, such as:
 

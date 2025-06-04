@@ -1,6 +1,6 @@
 ---
 title: Realized Emissions vs Baseline
-description: The Realized Emissions by Bassline report breaks down your carbon emissions and allows for comparison against a defined baseline period. This allows you to track your progress against the baseline and monitor trends against a previous period.
+description: The Realized Emissions by Baseline report breaks down your carbon emissions and allows for comparison against a defined baseline period. Track your progress against the baseline and monitor trends against a previous period.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
@@ -22,9 +22,9 @@ The Realized Emissions vs Baseline report lets you compare your actual emissions
 
 ## Use the report
 
-Sustainability Manager use the report to evaluate the organization's carbon footprint against the baseline. Comparing actual emissions to a baseline can help you identify trends and deviations. The report can help you make informed decisions about where to make changes to ensure you improve against the baseline.
+Sustainability Managers use the report to evaluate the organization's carbon footprint against the baseline. Comparing actual emissions to a baseline can help you identify trends and deviations. The report can help you make informed decisions about where to make changes to ensure you improve against the baseline.
 
-Executive use this report to get a high-level view that helps identify how they're performing against the baseline. The report helps them ensure that their long-term vision is coming true.
+Executives use this report to get a high-level view that helps identify how they're performing against the baseline. The report helps them ensure that their long-term vision is coming true.
 
 Environmental Analysts use this data to identify specific areas or emissions baselines that aren't being met, and conduct a root cause analysis to propose actionable recommendations.
 
@@ -48,7 +48,7 @@ The Realized Emissions vs Baseline report includes the following KPIs and measur
 - [N2O Baseline](sustainability-powerbi-kpis.md#n2o-baseline)
 - [N2O Emissions](sustainability-powerbi-kpis.md#n2o-emissions)
 
-Choose the link for a KPI to learn more about what it means, how it's calculated, and what data is used in the calculations.
+Choose the link for a KPI to learn more about what it means, its calculation, and what data is used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

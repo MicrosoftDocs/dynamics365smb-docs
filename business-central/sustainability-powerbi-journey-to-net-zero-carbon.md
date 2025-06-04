@@ -15,13 +15,13 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2025w2](includes/2025_releasewave1.md)]
 
-The Journey to Net Zero Carbon report helps you monitor and analyze key metrics that can help you reduce your carbon footprint. The report is broken down by global dimensions or scopes to provide multiple scenarios for informed reporting.
+The Journey to Net Zero Carbon report helps you monitor and analyze key metrics that can help you reduce your carbon footprint. The report arranges data by global dimensions or scopes to provide multiple scenarios for informed reporting.
 
 :::image type="content" source="media\sustainability\journey-to-net-zero-carbon.png" alt-text="Screenshot of the Journey to Net Zero Carbon Power BI report" lightbox="media\sustainability\journey-to-net-zero-carbon.png":::
 
 ## Use the report
 
-The report is useful for a variety of different users, depending on what they want to analyze.
+The report is useful for various different users, depending on what they want to analyze.
 
 Sustainability Managers can use the report to monitor key carbon emissions and renewable energy use. This information can help identify areas where you can reduce emissions, based on different scopes or the dimensions. You can also use this report to track emission reductions year over year as you get closer to net zero.
 
@@ -34,7 +34,7 @@ The Journey to Net Zero Carbon report includes the following KPIs and measures:
 - [CO2e Emissions](sustainability-powerbi-kpis.md#co2e-emissions)
 - [CO2 Emissions](sustainability-powerbi-kpis.md#co2-emissions)
 
-Choose the link for a KPI to learn more about what it means, how it's calculated, and what data is used in the calculations.
+Choose the link for a KPI to learn more about what it means, its calculation, and what data is used in the calculations.
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 

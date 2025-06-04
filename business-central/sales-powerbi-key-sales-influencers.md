@@ -1,6 +1,6 @@
 ---
 title: Key Sales Influencers (Power BI Report)
-description: The Key Sales Influencers report identifies and analyzes the main factors influencing sales performance, highlighting the most impactful variables and trends based on the sales data like items, customers and dimensions.
+description: Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The **Key Sales Influencers** report provides actionable insights into the factors that drive sales performance in your organization. By analyzing key variables, this report offers a deeper understanding of how these factors impact sales figures, enabling more informed decision-making and strategic planning.
+The **Key Sales Influencers** report provides actionable insights into the factors that drive sales performance in your organization. The report analyzes key variables to offer a deeper understanding of how they affect sales figures, enabling more informed decision-making and strategic planning.
 
 The **Key Influencers** visual uses AI to identify factors that affect sales across types of sales documents. It highlights the key metrics that influence specific datasets and breaks down the most impactful segments within your sales data.
 
@@ -32,7 +32,7 @@ As the CEO of a furniture company, this report can help you identify the furnitu
 
 As a sales manager, this report can help you identify the customer demographics behind sales trends. For instance, the **Key Influencers** visual might reveal that a significant number of office desk orders are placed by customers located in a certain region, with a higher likelihood of ordering quantities of five or more, which is twice as often as customers in other regions.
 
-Using this insight, you can develop targeted strategies. For example, offering bulk pricing discounts for office desks, encouraging larger purchases and strengthening customer loyalty. This allows you to optimize your pricing strategy while catering to regional buying behaviors.
+Using this insight, you can develop targeted strategies. For example, offering bulk pricing discounts for office desks, encouraging larger purchases and strengthening customer loyalty. You can optimize your pricing strategy while catering to regional buying behaviors.
 
 ## Key performance indicators
 

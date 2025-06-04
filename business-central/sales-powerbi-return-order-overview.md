@@ -1,6 +1,6 @@
 ---
 title: Return Order Overview (Power BI report)
-description: The Return Order Overview report tracks and analyzes return orders, providing insights into the financial impact on the organization.
+description: The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -16,19 +16,19 @@ ms.custom: bap-template
 
 [!INCLUDE[applies-to-2025w1](includes/applies-to-2025w1.md)]
 
-The **Return Order Overview** report tracks and analyzes return orders, providing insights into return amounts, quantities, reasons for return, and the financial impact on the organization. The report gives a high-level summary of return trends for item categories and customers, and analyzes the return amount over time.
+The **Return Order Overview** report tracks and analyzes return orders, providing insights into return amounts, quantities, reasons for return, and the financial effect on the organization. The report gives a high-level summary of return trends for item categories and customers, and analyzes the return amount over time.
 
 :::image type="content" source="media/powerbi/sales/sales-returns-overview.png" alt-text="Screenshot of the Return Order Overview report" lightbox="media/powerbi/sales/sales-returns-overview.png":::
 
 ## Use the report
 
-Leadership and management teams use the report for help to identify key factors that cause return orders and credit memos.
+Leadership and management teams use the report to identify key factors that cause return orders and credit memos.
 
 For CEOs, you want to evaluate return trends to inform key business decisions. For example, you identify 60% of return reasons are attributed to damage during delivery. In response, you engage a new logistics partner to optimize shipping procedures and minimize product returns.
 
-As a product manager, you want to identify the item attributes which contribute the most to return orders, to inform future product development. By analyzing the return amount, you identify a specific item category with significantly lower profitability. These insights help identify a persistent component fault and implement production process improvements to reduce item defects.
+As a product manager, you want to identify the item attributes which contribute the most to return orders, to inform future product development. By analyzing the return amount, you identify a specific item category with lower profitability. These insights help identify a persistent component fault and implement production process improvements to reduce item defects.
 
-As a salesperson, this report helps you monitor individual customer returns, to assist with managing client relationships. Using this report, you notice that a particular customer has the highest [Return Rate](sales-powerbi-sales-kpis.md#return-rate) and their return amount increased over the past month. Using this information, you decide to offer a special discount to re-build client trust in the business.
+As a salesperson, this report helps you monitor individual customer returns, to assist with managing client relationships. Using this report, you notice that a particular customer has the highest [Return Rate](sales-powerbi-sales-kpis.md#return-rate) and their return amount increased over the past month. Using this information, you decide to offer a special discount to rebuild client trust in the business.
 
 ## Key performance indicators
 

@@ -236,8 +236,7 @@ different users, including agents. Approval workflows can be set up to
 make the agent create a request for approval for a specific change (for
 example, to mark the quote as released), and the change isn’t allowed
 until the request is approved by another user. Learn more in [Use
-Approval
-Workflows.](across-use-workflows.md) 
+Approval Workflows](across-use-workflows.md). 
 
 **If your system or product allows for plug ins or extensibility,
 include the following questions:**
@@ -264,8 +263,5 @@ Learn more about Responsible AI (RAI) at [(https://aka.ms/RAI)](https://aka.ms/R
 ## Related information
 
 [Payables Agent overview](sales-order-agent.md)  
-[Set up the Payables Agent](sales-order-agent-setup.md)  
-[Process sales quotes and orders with Payables Agent](payables.md)  
-[Configure Copilot and agent capabilities](enable-ai.md) 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Set up Payables Agent](payables-agent-setup.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  

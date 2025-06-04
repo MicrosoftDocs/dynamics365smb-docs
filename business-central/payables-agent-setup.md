@@ -75,7 +75,7 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
 The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices that is sent to the mailbox.
 
 > [!TIP]
-> See the [Payables Agent process flow](payables-agent#payables-agent-process-flow) to understand the agent in more details and learn how it works.
+> Refer to [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) to understand the agent in more details and learn how it works.
 
 > [!NOTE]
 > The ![Shows the Payables Agent icon when the agent is configure but not active](media/payables-agent-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Payables Order Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.

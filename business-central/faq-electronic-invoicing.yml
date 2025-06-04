@@ -42,8 +42,8 @@ sections:
           - [CyanSYS Singapore Localization for GST and PEPPOL (Singapore)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.cyansyspteltd1583839297658%7CAID.cyansys-singapore-localisation-for-bc%7CPAPPID.e5de1cdc-5674-477f-8796-e1bd210af4aa?tab=Overview)
           - [Deex - VAT & E-Invoicing Localization for Korea](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.deexkorea%7CAID.deex_korean_vat_localization%7CPAPPID.b6696d1f-9913-4006-97bc-86ae58f38ec1?tab=Overview)
           - [Parge Yazilim Danismanlik Tic for Turhey](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pargeyazilimdanismanlikticas%7CAID.einvoiceapp%7CPAPPID.15e883f5-6d65-488f-910e-3410dee79a6d?tab=Overview)
-          - [Myron Yazılım Ve Danışmanlık Hizmetleri Anonim Şirketi for Turkey](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139%7CAID.einvoice%7CPAPPID.5a3acd16-f404-4cf0-af7d-ea80a7c5f531?tab=Overview)
-          - [Atp Yazılım ve Teknoloji for Turkey](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.raveelektrikgkaynaklarretimvepazticas1619610351109%7CAID.einvoice%7CPAPPID.b018b806-93be-4d7f-ace6-1204515d697a?tab=Overview)
+          - [Myron Yazılım Ve Danışmanlık Hizmetleri Anonim Şirketi for Türkiye](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139%7CAID.einvoice%7CPAPPID.5a3acd16-f404-4cf0-af7d-ea80a7c5f531?tab=Overview)
+          - [Atp Yazılım ve Teknoloji for Türkiye](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.raveelektrikgkaynaklarretimvepazticas1619610351109%7CAID.einvoice%7CPAPPID.b018b806-93be-4d7f-ace6-1204515d697a?tab=Overview)
           - [KSA e-invoice Samadhan for Kingdom of Saudi Arabia](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.einvoicing_saudiarabia%7CPAPPID.e51bc9c4-217b-455a-8e8f-63865a7e3562?tab=Overview)
           - [Malaysia e-invoice Samadhan](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.einvoicemalaysia%7CPAPPID.ed58c283-3de2-4365-84e5-852b97284da4?tab=Overview)
           - [Romanian e-Invoice by Intelligent Systems](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromanianeinvoice-is%7CPAPPID.b4348354-f93c-4d84-991b-d326cd9705a5?tab=Overview)
@@ -60,7 +60,7 @@ sections:
       - question: What about supported formats in Spain?
         answer: For Business Central users in Spain, Business Central supports FacturaE format.
       - question: What about e-invoicing in Mexico, India, and Italy?
-        answer: Business Central currently supports e-invoicing in these three countries. However these e-invoicing features are not based on new E-Documents framework and Microsoft has a plan to migrate them to new framework in the next period.
+        answer: Business Central currently supports e-invoicing in these three countries/regions. However these e-invoicing features are not based on new E-Documents framework and Microsoft has a plan to migrate them to new framework in the next period.
       - question: What about e-invoicing in Australia and New Zealand?
         answer: E-invoicing in Australia and New Zealand isn't enforced by law. However, companies are highly encouraged to use e-invoicing and Microsoft already planned to introduct PEPPOL A-NZ format with 2025 release wave 1.
       - question: Will Microsoft support other localizations?

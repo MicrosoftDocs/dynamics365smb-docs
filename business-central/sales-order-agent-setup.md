@@ -37,7 +37,7 @@ Before configuring and activating the sales order agent, ensure the following pr
    > To activate and configure the agent, you need **Read and manage (Full Access)** and **Send as** permission on the mailbox, unless it's your personal mailbox. As an Exchange admin, delegate these permissions to all users who need to activate and configure the agent. Learn more in [Use the Exchange admin center to edit shared mailbox delegation](/microsoft-365/admin/email/create-a-shared-mailbox#use-the-eac-to-edit-shared-mailbox-delegation).
    >
    > When a user activates the agent, it runs as a background task in the context of that user and needs access to the shared mailbox to process emails. It might take a few hours for Exchange to propagate the permissions to the selected users.
-- Set up the Business Central environment for billing agent capabilities (preview version 26.0 sandbox environments in Great Britain and United States only).
+- Set up the Business Central environment for billing agent capabilities (preview version 26.0 sandbox environments in the United Kingdom and United States only).
 
    Agents use Microsoft Copilot Studio messages when a user runs it, which your company is charged for. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 

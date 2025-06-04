@@ -113,10 +113,10 @@ Additionally, in Business Central, you can set up and use approval workflows to 
 
   The payables agent is created and maintained by Microsoft, and its code is not extensible by other solutions or plugins.  
 
-Learn more about Responsible AI (RAI) at [(https://aka.ms/RAI)](https://aka.ms/RAI).
+Learn more about Responsible AI (RAI) at [https://aka.ms/RAI](https://aka.ms/RAI).
 
 ## Related information
 
-[Payables Agent overview](sales-order-agent.md)  
+[Payables Agent overview](payables-agent.md)  
 [Set up Payables Agent](payables-agent-setup.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

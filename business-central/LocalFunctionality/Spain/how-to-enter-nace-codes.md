@@ -2,7 +2,7 @@
 title: How to Enter NACE Codes [ES]
 description: Learn about how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes with the Spanish version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021
@@ -28,7 +28,7 @@ You can enter NACE codes on the **Company Information** page. NACE codes are uni
 2.  On the **General** FastTab, in the **Industrial Classification** field, enter the NACE code.  
 3.  Choose the **OK** button.  
 
-## See Also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

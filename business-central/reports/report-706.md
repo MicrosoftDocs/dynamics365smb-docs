@@ -76,7 +76,7 @@ Try the report here: [Status](https://businesscentral.dynamics.com?report=706)
 
 - [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)  
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  

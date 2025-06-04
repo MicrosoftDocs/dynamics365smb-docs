@@ -2,7 +2,7 @@
 title: Czech local functionality - Fixed assets
 description: This section describes the Czech local functionality namely the Fixed Assets Tax Depreciation feature.
 author: ACMartinKunes
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
 ms.date: 12/20/2023
 ms.reviewer: bholtorf
@@ -112,7 +112,7 @@ The following standard reports are adjusted for the Czech Republic (new Group to
 - **Fixed Asset – G/L Analysis**
 - **Maintenance – Analysis**
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  

@@ -2,7 +2,7 @@
 title: Set Up Directed Put-away and Pick
 description: Directed put-away and pick gives you functionality for running your warehouse efficiently.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form:
@@ -61,7 +61,7 @@ The next step is to define bins. Learn more at [Set Up Locations to Use Bins](wa
 
 In addition, you must create put-away templates and counting periods. Learn more at [Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md).  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

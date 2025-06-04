@@ -2,7 +2,7 @@
 title: Field mapping for exporting bank payment files | Microsoft Docs
 description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -63,7 +63,7 @@ The following table lists the fields in [!INCLUDE[prod_short](includes/prod_shor
 |General Journal Batch Name|Journal Batch Name|General Journal Line|The general journal batch name that is used for the payment line|  
 |Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the AMC Banking 365 Fundamentals extension and specified on the bank account card|  
 
-## See Also  
+## Related information  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
 [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   

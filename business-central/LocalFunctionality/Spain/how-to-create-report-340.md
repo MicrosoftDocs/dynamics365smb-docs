@@ -2,7 +2,7 @@
 title: Create Report 340 [ES]
 description: Read about how to create report 340 for the tax authorities in the Spanish version of Business Central. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10737, 10738, 10744
@@ -50,7 +50,7 @@ This report is generated in a format approved by the tax authorities. You should
 
 If you print the posted document, for example, a posted sales invoice, it includes the following label: **Régimen especial del criterio de caja**.  
 
-## See also  
+## Related information  
  [Report 340](report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)

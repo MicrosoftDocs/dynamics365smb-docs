@@ -67,7 +67,7 @@ Net cash flow or cash-in-hand is calculated as total receipts minus total disbur
 
 You can use the forecast as an internal management decision-making tool that helps you plan ahead and make important strategic decisions about the operation of the business.
 
-## See also
+## Related information
 
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
 [Analyze Cash Flow](finance-analyze-cash-flow.md)  

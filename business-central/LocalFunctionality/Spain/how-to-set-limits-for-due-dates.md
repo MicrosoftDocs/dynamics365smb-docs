@@ -2,7 +2,7 @@
 title: How to Set Limits for Due Dates
 description: You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -25,7 +25,7 @@ Next, you must make sure that you specify the appropriate payment terms for your
 > [!IMPORTANT]  
 >  You cannot post a document that creates a bill where one or more installments have a due date that is later than the limit that is specified in the **Max. No. of Days till Due Date** field.  
 
-## See Also  
+## Related information  
  [Calculating Due Dates](calculating-due-dates.md)
 
 

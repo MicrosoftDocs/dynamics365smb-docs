@@ -35,7 +35,7 @@ To create several SKUs for an item, use the **Create Stockkeeping Unit** batch j
 > If the SKU is supplied through production, the **Standard Cost** field isn't used when invoicing and adjusting the actual cost of the produced item. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value in the **Standard Cost** field on the item card, and variances are calculated against the cost shares of that item.<br><br>
 > Although you can assign production BOMs and routings to SKUs, the unit cost roll-up and the related calculation of cost shares aren't available on SKUs. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

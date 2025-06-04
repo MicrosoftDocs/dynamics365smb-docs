@@ -2,7 +2,7 @@
 title: Set up sustainability features in Business Central
 description: Learn how to configure the Sustainability module to track and report your greenhouse gas emissions and carbon fees.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, water, waste, value chain, role center, fees
 ms.search.form: 6221, 6235, 6245

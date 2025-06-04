@@ -2,7 +2,7 @@
 title: Electronic invoicing in Germany
 description: Learn how to set up and work with the German localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, UBL, Peppol, German version
 ms.search.form: 

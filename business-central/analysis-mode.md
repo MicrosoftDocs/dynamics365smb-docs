@@ -248,7 +248,7 @@ The public preview of this feature has the following limitations:
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
-## See also
+## Related information
 
 [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad hoc data analysis](reports-adhoc-analysis.md)  

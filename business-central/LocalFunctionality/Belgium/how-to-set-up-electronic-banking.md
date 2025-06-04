@@ -2,7 +2,7 @@
 title: Set up electronic banking [BE]
 description: Learn how to set up electronic banking to process domestic, international, SEPA, and non-Euro SEPA payments for vendors and customers in the Belgian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic banking setup, electronic banking, electronic payments, Belgian version
 ms.search.form: 11308

@@ -2,7 +2,7 @@
 title: Close Years [FR]
 description: Learn how to close fiscal years and manage accounting periods in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: close fiscal years, close accounting periods, French version
 ms.date: 04/15/2025

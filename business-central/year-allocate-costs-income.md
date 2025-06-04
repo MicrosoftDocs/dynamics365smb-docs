@@ -57,7 +57,7 @@ You can allocate an entry in a recurring general journal to several different ac
 3. Choose the line with the allocation, and then choose the **Allocations** action.
 4. Change the relevant fields, and then choose **OK**.
 
-## See also
+## Related information
 
 [Closing Years and Periods](year-close-years-periods.md)    
 [Work with General Journals](ui-work-general-journals.md)    

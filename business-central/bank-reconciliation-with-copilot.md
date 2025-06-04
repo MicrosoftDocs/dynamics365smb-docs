@@ -154,7 +154,7 @@ This section explains how to use Copilot to post unreconciled bank account state
 
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## See also
+## Related information
 
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  

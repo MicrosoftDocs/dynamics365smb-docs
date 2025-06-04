@@ -4,7 +4,7 @@ description: You can use sales with service commitments in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -89,6 +89,6 @@ Service commitment items can't be billed at all. Service commitment items can be
 
 Depending on the setting in **Sales & Receivables Setup**, sales quotes are automatically archived when converted to a sales order or sales orders are automatically archived when deleted (fast tab *Archive*). Sales quotes and orders can also be archived manually using the **Archive Document** action. The sales service commitments belonging to the lines are also archived.
 
-## See also
+## Related information
 
 [Service commitments](../masterdata/service-commitments.md)  

@@ -2,7 +2,7 @@
 title: Reporting Sales Tax [CA]
 description: Learn about sales tax setup and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Canada.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: local, reporting sales tax
 ms.date: 02/04/2025
@@ -25,7 +25,7 @@ The **Tax Details** page shows different combinations of sales tax jurisdictions
 
 <!--COMMENTING OUT DUE TO ISSUE #535: In Canada, when you sell to a customer at a location where you do not have a *situs*—or a legal location in that state—you do not collect sales tax. For locations in which you do not have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  -->
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Finance](../../finance.md)  

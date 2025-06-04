@@ -80,7 +80,7 @@ The batch job changes the contents in the **Unit Price** field on the item card.
 -->
 
 
-## See also
+## Related information
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Registering New Items](inventory-how-register-new-items.md)    

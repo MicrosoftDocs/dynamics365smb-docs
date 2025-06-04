@@ -3,7 +3,7 @@ title: Czech local functionality - Exchange rates adjustment feature
 description: Companies in the Czech Republic request some improvements in the Exchange Rates Adjustment feature in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/10/2023
 ms.reviewer: bholtorf
@@ -31,7 +31,7 @@ This feature in the standard version of Microsoft [!INCLUDE[d365fin](../../inclu
 The new calculation principle handles deviations from the currently adjusted exchange rate.
 The Adjust Exchange Rates batch job was extended to include the Czech Advance Payments module.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

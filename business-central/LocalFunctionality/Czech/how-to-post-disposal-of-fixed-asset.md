@@ -18,7 +18,7 @@ The fixed asset remains unchanged even after it's put to use. When the fixed ass
 
 On the **Depreciation Book** page, select the **Corresponding G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresponding FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries. 
 
-## See also
+## Related information
 
 [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

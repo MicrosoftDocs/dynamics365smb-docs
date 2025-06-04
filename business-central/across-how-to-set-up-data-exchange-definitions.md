@@ -4,7 +4,7 @@ description: Define how Business Central exchange data with external files like 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
 ms.date: 05/29/2024
@@ -226,7 +226,7 @@ After you create the data exchange definition for a specific data file, you can 
 3. Choose the **Import Data Exchange Definition** action.  
 4. Choose the file that you saved in step 1.  
 
-## See also
+## Related information
 
 [Set Up Data Exchange](across-set-up-data-exchange.md)  
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

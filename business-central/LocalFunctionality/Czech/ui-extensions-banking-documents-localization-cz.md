@@ -4,7 +4,7 @@ description: This section describes Banking Documents Localization for Czech ext
 author: v-pejano
 
 
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Banking, Localization
 ms.date: 09/01/2021
 ms.reviewer: bholtorf
@@ -24,7 +24,7 @@ This feature provides improved efficiency and prevents users from making mistake
 - Bank statement rollover into a payment journal
 - Pairing entries in the payment journal and posting
 
-## See Also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

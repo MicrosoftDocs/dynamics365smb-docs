@@ -4,7 +4,7 @@ description: This article describes how you can analyze business data by dimensi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/19/2024
@@ -74,7 +74,7 @@ Use the following procedure to update an analysis view from the **Analysis by Di
 > [!NOTE]  
 > To update some or all analysis views at the same time, use the **Update Analysis Views** batch job.  
 
-## See also
+## Related information
 
 [Financial analytics overview](bi.md)   
 [Finance](finance.md)  

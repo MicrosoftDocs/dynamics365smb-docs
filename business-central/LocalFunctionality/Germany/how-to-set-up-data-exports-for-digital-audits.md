@@ -2,7 +2,7 @@
 title: Set Up Data Exports for a Digital Audit [DE]
 description: Set up data export record sources to export data for a digital audit according to GDPdU requirements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: GDPdU, data export, digital audit, German version
 ms.date: 03/12/2025

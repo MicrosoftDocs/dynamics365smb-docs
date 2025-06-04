@@ -2,7 +2,7 @@
 title: Upload KLADR in Russia
 description: Russian enhancements include the KLADR format.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -26,7 +26,7 @@ Upload of KLADR can be carried out on separate regions as required.
 
 4. Select "OK."
 
-## See also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 

@@ -4,7 +4,7 @@ description: Learn how to use Business Central to adjust exchange rates for amou
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 08/12/2024
@@ -152,7 +152,7 @@ Every now and then you might need to correct a mistake in a payment transaction 
 > [!NOTE]
 > When you unapply and reverse a payment for an entry that had currency exchange rate adjustments associated with it, the reversal posts reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
 
-## See also
+## Related information
 
 [Currencies in Business Central](finance-currencies.md)    
 [Set Up Currencies](finance-set-up-currencies.md)    

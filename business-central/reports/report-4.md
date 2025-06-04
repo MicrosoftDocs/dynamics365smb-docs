@@ -80,7 +80,7 @@ Try the report here: [Detail Trial Balance](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Built-in key finance reports](../finance-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

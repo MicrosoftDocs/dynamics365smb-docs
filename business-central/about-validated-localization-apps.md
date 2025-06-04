@@ -4,7 +4,7 @@ description: Comply with regulatory requirements in Business Central as a Valida
 author: altotovi
 ms.date: 12/11/2024
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.author: altotovi
 ms.custom: references_regions
 ---

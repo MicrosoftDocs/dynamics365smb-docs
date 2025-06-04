@@ -2,7 +2,7 @@
 title: Review and apply payments manually after automatic application
 description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
@@ -43,7 +43,7 @@ Any gains-and-loss adjustment required due to currency conversions isn't handled
 
 The **Payment Application** page  closes, and on the **Payment Reconciliation Journal** page, the value in the **Match Confidence** field is changed to **Accepted** to indicate to you that you have reviewed or manually applied the payment.
 
-## See also
+## Related information
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

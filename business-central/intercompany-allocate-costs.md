@@ -2,7 +2,7 @@
 title: Allocate Costs to Intercompany Partners| Microsoft Docs
 description: Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
@@ -78,7 +78,7 @@ When you use a document to distribute costs to intercompany partners, there are 
 > [!NOTE]
 > It is important to validate both the intercompany partner setup and the G/L account setup (for the expense account used for the cost distribution) before you allocate costs to intercompany partners.
 
-## See Also
+## Related information
 [Set Up Intercompany](intercompany-how-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

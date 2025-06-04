@@ -4,7 +4,7 @@ description: This feature provides improved efficiency and prevents users from m
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
 ms.date: 06/17/2021
 ms.reviewer: bholtorf
@@ -62,7 +62,7 @@ This allows you to create payment orders and bank statements. An unlimited numbe
 - Text mapping of accounts - for automatic matching of bank statement entries from the text given in the description, extension and mapping of accounts according to the variable symbol, constant symbol, specific symbol, bank account, IBAN code, and SWIFT.
 - Payment reconciliation journal - the option to start and change automatically.
 
-## See Also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)  
 [Finance](finance.md)

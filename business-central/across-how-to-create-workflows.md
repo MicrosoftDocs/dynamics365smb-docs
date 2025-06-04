@@ -174,7 +174,7 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## See also
+## Related information
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

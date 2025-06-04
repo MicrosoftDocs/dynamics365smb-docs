@@ -4,7 +4,7 @@ description: Russian enhancements include books of purchases and sales VAT in XM
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -81,7 +81,7 @@ To upload the Declaration, click OK in the lower right corner of the form.
 
 The generated file will be located in the folder specified in the configuration **Statutory Report Setup, Electronic Files Folder Name**.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

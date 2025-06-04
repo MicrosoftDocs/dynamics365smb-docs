@@ -2,7 +2,7 @@
 title: Fiscal Periods and Fiscal Years (FR)
 description: A fiscal year usually consists of 12 monthly periods. In the French version of Business Central, you can have two open fiscal years simultaneously.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: fiscal period, fiscal years, open fiscal years, accounting period, close years, French version
 ms.date: 04/14/2025

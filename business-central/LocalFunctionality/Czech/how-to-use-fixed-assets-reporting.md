@@ -31,7 +31,7 @@ The following standard reports are adjusted for the Czech Republic (new Group to
 - **Fixed Asset – G/L Analysis**
 - **Maintenance – Analysis**
 
-## See also
+## Related information
 
 [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

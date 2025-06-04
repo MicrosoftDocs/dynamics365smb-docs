@@ -2,7 +2,7 @@
 title: Process sales returns or cancellations
 description: Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have received payment for.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
@@ -141,7 +141,7 @@ To assign exact cost reversing manually, you must choose the **Appl.-from Item E
 
 For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

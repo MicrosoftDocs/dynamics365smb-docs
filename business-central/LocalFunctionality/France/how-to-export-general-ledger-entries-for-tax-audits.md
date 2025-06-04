@@ -2,7 +2,7 @@
 title: Export General Ledger Entries Tax Audits [FR]
 description: Learn how to export general ledger entries to a text file for a tax audit.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: tax audit, audit file, tax audit file, export general ledger entries, French version
 ms.date: 04/15/2025

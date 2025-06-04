@@ -5,7 +5,7 @@ description: Specifies Basic Setups required for GST Compensation Cess
 author: v-debapd
 
     
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -111,7 +111,7 @@ General Ledger Account for each component and state combination is defined state
 
 
 
-## See Also 
+## Related information 
 [GST Cess Calculation](GST-Cess-Calculations.md)
 
 

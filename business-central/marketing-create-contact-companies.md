@@ -114,7 +114,7 @@ There are three ways to enable data synchronization between contacts and custome
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
 2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Account/Employee** action.
 
-## See also
+## Related information
 
 [Managing Contacts](marketing-contacts.md)  
 [Setting Up Contacts](marketing-setup-contacts.md)  

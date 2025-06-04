@@ -4,7 +4,7 @@ description: You can subscriptions with service objects in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -23,6 +23,6 @@ After setting the defaults, the subscriptions to process are selected, and you c
 > [!CAUTION]
 > You can't create new service objects using the method described here. To create new service objects, use the **Extend Contract** action. To learn more, go to [Extend contract](extend-contract.md).
 
-## See also
+## Related information
 
 [Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md)

@@ -2,7 +2,7 @@
 title: Inventory Zero Open Item Ledger Entries
 description: This article addresses an issue where the inventory level is zero although open item ledger entries exist.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021
@@ -142,7 +142,7 @@ The following diagram shows how cost applications are made.
 
  The result is that inventory is zero and all item ledger entries are closed.  
 
-## See Also  
+## Related information  
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 

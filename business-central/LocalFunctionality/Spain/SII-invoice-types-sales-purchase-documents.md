@@ -2,7 +2,7 @@
 title: SII Invoice Types in Sales and Purchase Documents
 description: Learn how Business Central supports SII and the various types of used for invoices and credit memos in the Spanish version.
 author: brentholtorf   
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10751, 10752, 10753, 10770, 10771
@@ -79,7 +79,7 @@ The following sections show the output of the various types that are used for in
 |R4|Corrected invoice (other)|Same as for R1.|
 |R5|Corrected invoice in simplified invoices|Same as for R1 except the block is called `Contraparte`|
 
-## See also
+## Related information
 
 [Set Up SII for VAT Reporting in the Spanish Version](sii-setup.md)  
 [Spain Local Functionality](spain-local-functionality.md)  

@@ -2,7 +2,7 @@
 title: Automatically transfer and post CODA statements [BE]
 description: After all CODA statement lines are applied and processed, you can transfer them to a financial journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: CODA, CODA statements, financial journal, Belgian version
 ms.search.form: 2000040

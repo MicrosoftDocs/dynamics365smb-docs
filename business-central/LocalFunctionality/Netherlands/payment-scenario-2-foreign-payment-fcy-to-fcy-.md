@@ -2,7 +2,7 @@
 title: Scenario 2 foreign payment (FCY to FCY) [NL]
 description: This article describes a second scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: foreign payments, foreign payments example, Dutch version, Netherlands
 ms.date: 03/19/2025

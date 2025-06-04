@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 Automatic creation and update of dimensions.
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

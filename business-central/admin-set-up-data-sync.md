@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234, 7230_Primary, 7233_Primary, 7234_Primary, 7236_Primary
@@ -129,6 +129,6 @@ To access details, such as the number of records that are inserted or modified, 
 
 If you're setting up several subsidiaries that use the same or similar synchronization settings, there's a time saver. Set up one subsidiary company and then export its setup to an .xml file. The file contains the entire setup, including table and field mappings and filter criteria. You can then import the file to the next subsidiary. To import or export a setup, on the **Master Data Management Setup** page, use the **Import** or **Export** actions.
 
-## See Also
+## Related information
 
 [Manage Master Data Synchronization](admin-sync-master-data.md)

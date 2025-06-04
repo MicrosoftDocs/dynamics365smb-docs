@@ -4,7 +4,7 @@ description: Learn how to set up the Intrastat establishment number, a company i
 services: project-madeira 
 documentationcenter: ''
 author: brentholtorf  
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: intrastat establishment number, establishment number, company identification number, intrastat declaration, Belgian version
 ms.date: 04/04/2025

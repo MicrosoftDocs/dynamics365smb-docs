@@ -2,7 +2,7 @@
 title: How to Set Up Operation Codes
 description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -38,7 +38,7 @@ You can add as many operation codes as you want to the table. However, the opera
 
 When you add an operation code to the general product posting group, that association is in turn applied to the items that have that general product posting group.  
 
-## See Also  
+## Related information  
  [Create Report 340](how-to-create-report-340.md)
 
 

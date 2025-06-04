@@ -2,7 +2,7 @@
 title: Payment scenarios
 description: Based on a sales or purchase invoice or credit memo, you can generate and export a proposal for processing by the bank.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: sales invoice, purchase invoice, proposal, Dutch version, Netherlands
 ms.date: 03/20/2025

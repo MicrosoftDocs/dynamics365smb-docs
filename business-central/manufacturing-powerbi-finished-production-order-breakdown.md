@@ -4,7 +4,7 @@ description: The Finished Production Order Breakdown report provides insights in
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37045_Primary
 ms.date: 11/01/2024
@@ -58,7 +58,7 @@ Try the report here: [Finished Production Order Breakdown](https://businesscentr
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

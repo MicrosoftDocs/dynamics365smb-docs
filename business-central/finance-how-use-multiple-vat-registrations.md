@@ -2,7 +2,7 @@
 title: Multiple VAT registration numbers
 description: Learn about the functionality for multiple (alternative) value-added tax (VAT) registration numbers.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.reviewer: 
 ms.search.keywords: VAT, multiple, alternative, customer, tax, value-added tax
 ms.search.form: 212, 301, 
@@ -81,7 +81,7 @@ In this situation, you can post a sales invoice with the proper **VAT Registrati
 
 Once you post the invoice with a **Ship-to address** or **VAT Country/Region Code** that has different posting data, the corrective **Sales credit memo** takes the values from the **Posted sales invoice** header where these values are taken from the **Alternative customer VAT registration**, so no other actions required. 
 
-## See also
+## Related information
 
 [VAT Management Overview](finance-manage-vat.md)    
 [Set Up Value-Added Tax](finance-setup-vat.md)    

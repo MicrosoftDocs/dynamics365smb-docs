@@ -4,7 +4,7 @@ description: Learn how to create a vendor card to register a new vendor or suppl
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 05/07/2024
@@ -70,7 +70,7 @@ You can edit the information on vendor cards at any time. However, if you have p
 5. When you have completed the new vendor template, choose **OK**.  
    The vendor template is added to the list of vendor templates, so you can use it to create new vendor cards.
 
-## See also
+## Related information
 
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  

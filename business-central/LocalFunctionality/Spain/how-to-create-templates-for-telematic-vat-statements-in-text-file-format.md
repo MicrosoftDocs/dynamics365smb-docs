@@ -2,7 +2,7 @@
 title: Create Templates for Telematic VAT Statements in Text Format (ES)
 description: To submit VAT statements electronically in text format in the Spanish version of Business Central, create templates to manage the formats.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10704, 10705
@@ -44,7 +44,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 This creates the template. Now, you can create a file that you can then submit to the tax authorities.  
 
-## See Also  
+## Related information  
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)   
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 

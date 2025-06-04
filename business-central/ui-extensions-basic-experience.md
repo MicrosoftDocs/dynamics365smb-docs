@@ -2,7 +2,7 @@
 title: Basic Experience extension | Microsoft Docs
 description: This extension is a modernized alternative to Microsoft Dynamics C5.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: C5, financials, extension
 ms.search.form: 20600, 
 ms.date: 11/10/2023
@@ -50,7 +50,7 @@ This extension is a bit different than most, and you'll need help from a Microso
 
 Bring your Dynamics C5 data along. After your Microsoft partner installs the Basic Experience extension, you'll have an empty company. An easy way to move your data from Dynamics C5 to Basic Experience is to use the C5 Data Migration extension, which is included in [!INCLUDE[prod_short](includes/prod_short.md)]. The extension migrates customers, vendors, items, and your general ledger accounts and their entries.
 
-## See also
+## Related information
 
 [The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)  
 

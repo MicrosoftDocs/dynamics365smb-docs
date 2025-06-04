@@ -2,7 +2,7 @@
 title: Synchronize and transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
 ms.date: 09/16/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134, 
 author: brentholtorf
@@ -167,6 +167,6 @@ The Merchant imports their bank statement using a payment reconciliation journal
 
 The Shopify connector imports orders and transactions in **Shop Currency**. If you configure Shopify to use different currencies based on country, that might lead to some differences. For example, in a store where the local currency is Danish Krone (DKK), an order for a German customer totaling 13.95 EUR converts to 409.53 DKK in sales. However, the payment transaction shows 409.48 DKK.
 
-## See also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)  

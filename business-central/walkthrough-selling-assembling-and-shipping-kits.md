@@ -2,7 +2,7 @@
 title: Selling, Assembling, and Shipping Kits
 description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2021
@@ -437,7 +437,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     When the Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
 
-## See also
+## Related information
 
  [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Assemble Items](assembly-how-to-assemble-items.md)   

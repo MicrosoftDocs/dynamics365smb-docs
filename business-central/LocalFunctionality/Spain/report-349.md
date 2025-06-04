@@ -2,7 +2,7 @@
 title: Report 349 [ES]
 description: Use Business Central to submit a Report 349 declaration, the periodic report of trade with other EU countries/regions to the tax authorities. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/21/2021
@@ -44,7 +44,7 @@ Then, when you create a sales order, you must make sure that you select the corr
 
 When you post the sales invoice, [!INCLUDE[prod_short](../../includes/prod_short.md)] saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
 
-## See Also  
+## Related information  
  [Create Report 349](how-to-create-report-349.md)
 
 

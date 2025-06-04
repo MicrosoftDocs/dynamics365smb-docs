@@ -2,7 +2,7 @@
 title: Transferring and posting cost entries
 description: Before you define cost allocations, you must understand the various sources that cost entries come from.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form:  1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 07/26/2024
@@ -99,7 +99,7 @@ For single cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] transfer
 
 In the **Cost Register** table, [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first, and last entry numbers of the cost entries that are created.
 
-## See also
+## Related information
 
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  

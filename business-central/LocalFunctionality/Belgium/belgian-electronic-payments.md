@@ -2,7 +2,7 @@
 title: Belgian electronic payments
 description: The electronic banking module in the Belgian version of Business Central enables users to process domestic, international, SEPA, and non-Euro SEPA electronic payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: electronic banking, Belgian version, electronic payments, SEPA, non-Euro SEPA, domestic payments, international payments
 ms.search.form: 2000006
 ms.date: 04/01/2025

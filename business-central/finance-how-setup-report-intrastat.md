@@ -380,7 +380,7 @@ The process of working with Intrastat reports is the same as in global feature.
 
 <!-- ### United Kingdom-->
 
-## See also
+## Related information
 
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  
 [Financial Management](finance.md)  

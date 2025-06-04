@@ -2,7 +2,7 @@
 title: How to Enter and Post Cash and Bank or Giro Journals
 description: Learn how to use the cash and bank journals to record transactions affecting cash and bank accounts via Cash Book and Bank Book.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cash journals, bank journals, cash book, bank book, Dutch version, Netherlands, cash and bank accounts, telebanking
 ms.date: 04/24/2025

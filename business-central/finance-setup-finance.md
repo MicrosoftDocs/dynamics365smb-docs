@@ -4,7 +4,8 @@ description: Learn about the tasks required to set up finance in your business t
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
+ms.search.form: 118_Primary
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
@@ -50,7 +51,7 @@ The following table describes a sequence of tasks, with links to the topics that
 > [!TIP]
 > Depending on your geographical location, some Business Central pages may contain fields that are not described in the articles listed above because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## See also
+## Related information
 
 [Finance](finance.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

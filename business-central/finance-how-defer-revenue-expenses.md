@@ -112,7 +112,7 @@ The following video shows how to define the period in which you allow people to 
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5d98a594-6b1c-45a5-b93a-1fb670a051e5]
 
-## See also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

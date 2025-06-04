@@ -2,7 +2,7 @@
 title: How to Unapply General Ledger Entries [FR]
 description: Learn the steps to easily unapply general ledger entries using the Chart of Accounts feature in Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: unapply general ledger entries, chart of accounts, unapply entries, French version
 ms.date: 04/16/2025

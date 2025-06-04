@@ -2,7 +2,7 @@
 title: Work with Intrastat reporting
 description: Learn how to report trade with companies in other EU countries/regions using the Intrastat system.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
@@ -139,7 +139,7 @@ When you enable this option, the system uses the following rules, but only if yo
 | Non-EU country | EU country different from the country in the **Company Information** | No Intrastat lines |
 | Non-EU country | Non-EU country | No Intrastat lines |   
 
-## See also
+## Related information
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)    
 [Financial Management](finance.md)    

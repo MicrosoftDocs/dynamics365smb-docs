@@ -205,7 +205,7 @@ Post the adjustment bin records in the item ledger for the defined periods. Some
 5. Choose **OK**. The positive and negative adjustments are totaled for each item, and lines are created in the item journal.  
 6. Post the journal lines to enter the quantity differences in the item ledger. The quantities in the bins and the item ledger now match.  
 
-## See also
+## Related information
 
 [CountInventory Using Documents](inventory-how-count-inventory-with-documents.md)  
 [Inventory](inventory-manage-inventory.md)  

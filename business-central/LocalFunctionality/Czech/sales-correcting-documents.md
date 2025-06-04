@@ -3,7 +3,7 @@ title: Czech local functionality - Sales correcting documents [CZ]
 description: This section describes local functionality for Sales correcting documents in the Czech version.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
 ms.date: 11/09/2023
 ms.reviewer: bholtorf
@@ -19,7 +19,7 @@ According to the VAT law amendment, it's necessary to differentiate types of Sal
 - Internal Correction
 - Insolvency Tax Document
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

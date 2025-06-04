@@ -4,7 +4,7 @@ description: If you buy, store, or sell items in more than one place, you can se
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
@@ -104,7 +104,7 @@ You fill in the fields in the opposite order, as follows:
 
 The ADM dimension will be copied from location EAST.
 
-## See also
+## Related information
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  

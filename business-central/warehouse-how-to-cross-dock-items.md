@@ -4,7 +4,7 @@ description: Learn how to receive and ship items without putting them in storage
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
@@ -108,7 +108,7 @@ When a production order is released, the lines are available in the pick workshe
 
 If you aren't using bins, remember to check the cross-dock area from time to time, or rely on notifications from receipts that items for production have arrived.  
 
-## See Also  
+## Related information  
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

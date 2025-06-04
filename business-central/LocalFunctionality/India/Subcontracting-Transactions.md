@@ -6,7 +6,7 @@ description: Sub-Contracting Order Creation
 author: v-debapd
 
     
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -80,7 +80,7 @@ Program will update the **Qty. Consumed** and **Quantity at Vendor Location** fi
 
 
 
-## See Also 
+## Related information 
 [Create GST Liability](Subcontracting-Create-GST-Liability.md)
 
 

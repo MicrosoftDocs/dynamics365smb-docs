@@ -3,7 +3,7 @@ title: Czech local functionality - Setup VAT date
 description: This section describes Czech local functionality - VAT Date and Setup of the VAT Date Feature.
 author: v-pejano
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 11/20/2023
 ms.reviewer: bholtorf
@@ -32,7 +32,7 @@ After the posting of the VAT date, it becomes a part of the posted documents and
 
 The system filters VAT entries by the **VAT Date** field (instead of **Posting Date**) by selecting the VAT period and preparing a report showing which entries are transferred to the Settlement account. Printouts also contain VAT date information.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)    
 [VAT Control Report](vat-control-report.md)  

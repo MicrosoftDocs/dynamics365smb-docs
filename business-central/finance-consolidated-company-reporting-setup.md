@@ -4,7 +4,7 @@ description: Learn how you can configure how data from different companies in Bu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2025
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate

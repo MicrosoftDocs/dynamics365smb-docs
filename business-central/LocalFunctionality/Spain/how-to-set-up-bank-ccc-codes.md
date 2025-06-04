@@ -2,7 +2,7 @@
 title: Set up bank CCC codes [ES]
 description: Código Cuenta Cliente (CCC) is a unique account code used by banks to identify their customers. The CCC code is printed on bank documents such as checks and statements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/12/2023
@@ -47,7 +47,7 @@ The following procedure describes how to set up bank CCC codes for existing cust
 
 3. Choose the **OK** button.  
 
-## See also
+## Related information
 
 [Set Up Bank Accounts](../../bank-how-setup-bank-accounts.md) 
 

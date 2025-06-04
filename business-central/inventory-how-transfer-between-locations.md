@@ -167,7 +167,7 @@ For more information about warehouse handling, see [Warehouse management overvie
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## See also
+## Related information
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  

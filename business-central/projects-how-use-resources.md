@@ -32,7 +32,7 @@ You assign resources to projects by creating project planning lines for the proj
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## See Also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

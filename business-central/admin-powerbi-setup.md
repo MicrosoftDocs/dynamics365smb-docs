@@ -4,7 +4,7 @@ description: Learn how to set up the connection to Power BI. With Power BI repor
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/28/2024
+ms.date: 05/16/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -106,7 +106,7 @@ Dataflows enable you to ingest, transform, and load data into a Power BI workspa
 
 Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
 
-## See also
+## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

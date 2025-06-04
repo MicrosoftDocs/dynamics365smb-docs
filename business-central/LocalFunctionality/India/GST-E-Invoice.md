@@ -47,7 +47,7 @@ Business Central has included E-Invoice feature to Indian Localization.
 
 
 
-## See Also 
+## Related information 
 [GST Reconciliation](GST-Reconciliation.md)
 
 

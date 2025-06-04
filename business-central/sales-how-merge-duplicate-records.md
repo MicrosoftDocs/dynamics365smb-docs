@@ -2,7 +2,7 @@
 title: Merge duplicate customer or vendor records
 description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: client
 ms.date: 03/20/2024
@@ -56,7 +56,7 @@ The following procedure is based on a customer card. The steps are similar for a
 > [!NOTE]
 > For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Search for duplicate contacts](marketing-setup-contacts.md#search-for-duplicate-contacts).
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Set Up Contacts](marketing-setup-contacts.md)  

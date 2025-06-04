@@ -4,7 +4,7 @@ description: Learn how to create, submit, approve, and post time sheets for reso
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 02/05/2024
@@ -220,7 +220,7 @@ After you post time sheets, you can archive them for future reference. You must 
 3. On the **Move Time Sheets to Archive** page, fill in the fields as necessary, and then choose the **OK** button.  
 4. To review archived time sheets, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Setting Up Project Management](projects-setup-projects.md)  

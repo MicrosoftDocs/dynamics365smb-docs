@@ -5,7 +5,7 @@ ms.date: 03/13/2025
 ms.custom: 
   - responsible-ai-faqs
   - copilot-learning-hub
-ms.topic: article
+ms.topic: faq
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer

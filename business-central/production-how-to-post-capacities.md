@@ -2,7 +2,7 @@
 title: Post Capacities
 description: Post consumed capacities that are not assigned to the production order in the capacity journal and view posted capacities on the capacity ledger entries page. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 5832, 99000802, 99000820
 ms.date: 03/08/2023
@@ -34,7 +34,7 @@ In the **Work Center Card** and **Machine Center Card** pages, you can view the 
 
     The **Capacity Ledger Entries** page displays the posted entries from the work center in the order they were posted.   
 
-## See Also  
+## Related information  
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

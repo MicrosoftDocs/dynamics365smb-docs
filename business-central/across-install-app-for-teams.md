@@ -72,7 +72,7 @@ This option is the quickest way to install the app.
 
 You're now ready to use the app in Teams to search for contacts or share Business Central records. For more information, see [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
 
-## See Also
+## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Teams FAQ](teams-faq.md)  

@@ -2,7 +2,7 @@
 title: Electronic invoicing in Spain
 description: Learn how to set up and work with the Spanish localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 

@@ -2,7 +2,7 @@
 title: Equivalence Charges (EC) [ES]
 description: An Equivalence Charge (EC) is a tax that is used in retail sales and in activities that don't follow VAT rules. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/14/2023
@@ -15,7 +15,7 @@ An Equivalence Charge (EC) is a tax that is used in retail sales and in activiti
 
 The **EC %** field is a separate field in the **Purchase Line**, **Sales Line**, **Sales Line Archive** and **Purchase Line Archive** tables. However, in sales and purchase lines, both taxes are combined and the value is displayed in the **VAT %** field. The **VAT + EC %** field is used when these values are combined. At the time of posting, the VAT percentage and the EC percentage are inserted in the **VAT Entry** table. This makes it possible to print the **Sales Invoice Book** report and the **Purchases Invoice Book** report.  
 
-## See also  
+## Related information  
 [Spain Local Functionality](spain-local-functionality.md)
 
 

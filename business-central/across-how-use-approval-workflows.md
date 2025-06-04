@@ -4,7 +4,7 @@ description: Request, reject, or delegate an approval of, for example, a purchas
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: reject, delegate, request
 ms.search.form: 654, 662, 1500, 
 ms.date: 05/07/2024
@@ -80,7 +80,7 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
 
-## See also
+## Related information
 
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

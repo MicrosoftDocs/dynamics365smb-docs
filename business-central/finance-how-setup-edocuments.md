@@ -4,7 +4,7 @@ description: Learn how to set up e-documents functionality.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 03/18/2025

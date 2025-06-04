@@ -2,7 +2,7 @@
 title: Expose objects as web services
 description: Publish objects as web services to make them immediately available for your Business Central solution.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 810_Primary
 ms.date: 01/31/2025
 ms.author: bholtorf
@@ -62,7 +62,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## See Also
+## Related information
 
 [Administration](admin-setup-and-administration.md)  
 [Business Central Web Services for developers](/dynamics365/business-central/dev-itpro/webservices/web-services)  

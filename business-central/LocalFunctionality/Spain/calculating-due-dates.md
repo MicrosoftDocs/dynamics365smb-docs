@@ -2,7 +2,7 @@
 title: Calculating Due Dates [ES]
 description: Read about how to submit an annual report of purchases and sales for payments that were made before or after the due date.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 7000048
@@ -57,7 +57,7 @@ Each section has a summary section with the following information.
 
  At the end of these reports, there is a section that summarizes this information for all payments. These reports will show information based on applied detailed customer ledger entries or applied detailed vendor ledger entries. The information is based on the date filters that you specify. For more information, see Customer - Overdue Payments and Vendor - Overdue Payments.  
 
-## See Also  
+## Related information  
  [Set Limits for Due Dates](how-to-set-limits-for-due-dates.md)   
 [Managing Payables](../../payables-manage-payables.md)  
 [Managing Receivables](../../receivables-manage-receivables.md)  

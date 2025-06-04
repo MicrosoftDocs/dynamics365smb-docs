@@ -2,7 +2,7 @@
 title: Reporting GST/HST in Canada
 description: Learn how to report local sales tax, goods and services tax in Canada.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: sales tax, local
 ms.date: 02/04/2025
@@ -19,7 +19,7 @@ In Canada, when a vendor doesn't have a business presence in the province in whi
 
 The tax information in purchase documents is used to generate a GST/HST online file transfer that you must provide to the tax authorities. This file includes goods and services tax (GST) and harmonized sales tax (HST). The file is created in a *.tax* file format, which can be transferred online. Use the GST/HST Internet File Transfer batch job to generate the *.tax* file.
 
-## See also
+## Related information
 
 - [Canada Local Functionality](canada-local-functionality.md)  
 - [Finance](../../finance.md)  

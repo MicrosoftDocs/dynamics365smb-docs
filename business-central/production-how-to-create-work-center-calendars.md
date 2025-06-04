@@ -2,7 +2,7 @@
 title: Set Up Shop Calendars
 description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
@@ -100,7 +100,7 @@ The calculated work center calendar will now define when and how much capacity i
 
 The capacity of the selected day has now decreased by the recorded absence time.  
 
-## See Also  
+## Related information  
 [Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
 [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

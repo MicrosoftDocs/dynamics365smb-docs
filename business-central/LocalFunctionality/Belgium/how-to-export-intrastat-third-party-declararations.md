@@ -2,7 +2,7 @@
 title: Export intrastat third-party declarations [BE]
 description: In Belgium, an external person or company must fill out the Intrastat declaration.
 author: sorenfriisalexandersen    
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: third-party declaration, intrastat declaration, Belgian version
 ms.date: 04/02/2025

@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: French localization, France local functionality, French version
 ms.date: 04/14/2025
 ms.custom: bap-template

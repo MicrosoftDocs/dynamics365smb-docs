@@ -4,7 +4,7 @@ description: Learn about the AI technology of Autofill in Business Central, cons
 ms.date: 04/01/2025
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer

@@ -1,7 +1,7 @@
 ---
 title: "Inspecting pages in Business Central"
 description: Use the page inspection feature to zoom into details about the page design and data source. Page inspector is ideal for troubleshooting issues with your data.
-ms.topic: conceptual
+ms.topic: concept-article
 
 author: jswymer
 ms.author: jswymer
@@ -37,7 +37,7 @@ As an administrator, you can control access to the full details that are shown i
 
 Users who aren't granted permissions on **System object 5330** can still access the **Page Inspection** pane, but they will only see the **Page** and **Table** fields, which display basic details that they can pass on to their support team.
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

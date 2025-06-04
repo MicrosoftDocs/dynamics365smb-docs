@@ -65,7 +65,7 @@ The following process uses a sales order, but the steps are the same for blanket
 >
 > The item is also deleted if you convert the item manually, or make changes such as adding new units of measure or updating prices or cost. However, the item won't be deleted if it's already used in sales or purchase lines, assembly BOMs, or has ledger entries.
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Special Orders](sales-how-to-create-special-orders.md)  

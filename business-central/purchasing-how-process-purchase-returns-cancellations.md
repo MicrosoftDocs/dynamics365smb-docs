@@ -2,7 +2,7 @@
 title: Process returns or cancellations
 description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
@@ -181,7 +181,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 2. Fill in the fields as necessary, and then choose the **OK** button.  
 3. Alternatively, delete the individual purchase return orders manually.
 
-## See also
+## Related information
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

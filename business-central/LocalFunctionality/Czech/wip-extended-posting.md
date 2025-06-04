@@ -13,7 +13,7 @@ ms.author: v-pejano
 # WIP extended posting in the Czech version
 WIP extended posting
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

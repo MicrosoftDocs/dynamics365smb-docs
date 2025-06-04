@@ -2,7 +2,7 @@
 title: Payment Journal Templates and Batches [BE]
 description: Payment suggestions are generated and posted in payment journals, using a structure similar to other journal types.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: payment journal, journal types, payment suggestions, journal templates, Belgian version
 ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/02/2025

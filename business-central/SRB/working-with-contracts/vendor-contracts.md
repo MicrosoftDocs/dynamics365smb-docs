@@ -4,7 +4,7 @@ description: You can use vendor contracts in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -112,6 +112,6 @@ You can access related information from a contract, and you can access all invoi
 
 Use the **Contract Line** action to display **Billing Lines** and **Archived Billing Lines** for the selected contract line. You can also open **Archived Billing Lines** in the posted invoice and credit memo.
 
-## See also
+## Related information
 
 [Customer contracts](customer-contracts.md)

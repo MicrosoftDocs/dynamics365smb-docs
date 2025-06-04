@@ -2,7 +2,7 @@
 title: Payments in Cash
 description: As of January 1, 2012, companies in Spain are required to submit a summary for payments in cash that are greater than EUR 6.000.00 for each customer for each year.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -31,7 +31,7 @@ You use the **Make 340 Declaration** batch job to report 340 payments in cash de
 > [!NOTE]  
 >  The amount received in cash in the declaration .txt file can contain values that differ from the total invoiced amount for a customer. This is because not all of the payments are made in cash.  
 
-## See Also  
+## Related information  
 [Managing Receivables](../../receivables-manage-receivables.md)     
  [Report 340](report-340.md)
 

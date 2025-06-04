@@ -5,7 +5,7 @@ description: Purchase Return of Goods and Services to Composite Vendor or Purcha
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -55,7 +55,7 @@ For example, Purchase Return Order or Credit Memo has been issued for INR 10000 
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Registered Vendor](GST-Purchase-Return-to-Registered-Vendor.md)
 
 

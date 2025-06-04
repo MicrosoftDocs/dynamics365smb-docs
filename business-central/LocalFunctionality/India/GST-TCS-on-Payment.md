@@ -5,7 +5,7 @@ description: GST TCS on Vendor Payment
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -68,7 +68,7 @@ For example, INR 1000 paid to the vendor and 1% GST TCS (0.50% CGST, 0.50% SGST 
     |**Bank Account**|-990| 
 
 
-## See Also 
+## Related information 
 [GST TDS TCS on Receipt](GST-TDS-TCS-on-Receipt.md)
 
 

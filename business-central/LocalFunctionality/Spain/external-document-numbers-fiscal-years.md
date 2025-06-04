@@ -4,7 +4,7 @@ description: Setup option to decide if it should be possible to reuse External D
 author: sorenfriisalexandersen
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.reviewer: bholtorf
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -21,7 +21,7 @@ In general [!INCLUDE[prod_short](../../includes/prod_short.md)] does not allow f
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
 2. In the **General** FastTab, select the **Same Ext. Doc. No. in Diff. FY** field.
 
-## See Also
+## Related information
 
 [Spain Local Functionality](spain-local-functionality.md)
 

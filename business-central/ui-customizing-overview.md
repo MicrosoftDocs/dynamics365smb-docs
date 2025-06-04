@@ -27,9 +27,9 @@ There are different ways to customize the application to give you and your colle
 |Install an app|Install apps that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an app that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing with Apps](ui-extensions.md)|
 
 > [!NOTE]
-> All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+> All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essentials** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

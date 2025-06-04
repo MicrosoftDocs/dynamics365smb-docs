@@ -4,7 +4,7 @@ description: This FAQ provides information about the AI technology used in Busin
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
-ms.topic: article
+ms.topic: faq
 ms.search.form:
 ms.date: 04/01/2025
 ms.service: dynamics-365-business-central

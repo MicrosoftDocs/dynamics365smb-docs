@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary
-ms.date: 12/02/2024
+ms.date: 05/15/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -74,7 +74,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 > - You can't use **Specific User** for the **Sender type**, as you can with Basic authentication. The reason is that OAUTH 2.0 uses the credentials of the current (signed-in) user.
 > - For Business Central on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -87,7 +87,6 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set Up Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
-
 
 <!--
 > [!NOTE]
@@ -211,8 +210,8 @@ Administrators can switch on the telemetry feature in [!INCLUDE[prod_short](incl
 
 * An email was sent successfully  
 * An attempt to send an email failed
-* Authentication to an SMTP server succeded/failed  
-* Connection to an SMTP server succeded/failed  
+* Authentication to an SMTP server succeeded/failed  
+* Connection to an SMTP server succeeded/failed  
 
 Learn more at [Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 

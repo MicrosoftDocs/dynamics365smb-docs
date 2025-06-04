@@ -4,7 +4,7 @@ description: You can import and process data in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -191,7 +191,7 @@ When you process usage data, the assignment is made either via the vendor servic
 > [!NOTE]
 > If only a customer service commitment exists, only those where **Customer** is chosen in **Partner** field are created when processing the related usage data.
 
-## See also
+## Related information
 
 [Linking subscription with service object](connect-subscription-service-object.md)  
 [Usage based billing customers and subscriptions](../masterdata/customers-subscriptions.md)  

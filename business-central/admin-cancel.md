@@ -2,7 +2,7 @@
 title: Unsubscribe or Remove Business Central
 description: Learn how to remove or delete your Business Central experience if you have a trial subscription, or if you have a paid subscription.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: reference
 ms.devlang: al
 ms.search.keywords: remove, delete
 ms.date: 06/08/2022
@@ -27,7 +27,7 @@ You can read about how to export data to Excel in the [Exporting Data to Other F
 
 If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher, you can unpin it. No data is lost, and the step doesn't cancel your subscription.  
 
-## See Also
+## Related information
 
 [Business Central Trial FAQ](trial-faq.md)  
 [Trials and Subscriptions (for admins)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

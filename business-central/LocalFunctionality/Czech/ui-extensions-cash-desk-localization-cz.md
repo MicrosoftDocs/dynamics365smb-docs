@@ -4,7 +4,7 @@ description: The application covers the requirements of Czech legislation and be
 author: v-pejano
 
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 03/26/2024
 ms.reviewer: bholtorf
@@ -104,7 +104,7 @@ The Apply Entries function can be run from the cash document lines to select cus
     - In the functions above the line, use the **Apply Entries** function to find the entry you want to apply.
 5. After selecting the entry, you can post the document.
 
-## See Also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

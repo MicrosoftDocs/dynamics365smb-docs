@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 General production posting group from SKU
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

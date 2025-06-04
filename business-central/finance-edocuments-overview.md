@@ -2,7 +2,7 @@
 title: E-documents overview
 description: This article provides an overview of the e-documents module.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 
@@ -57,7 +57,7 @@ Microsoft currently supports the following localizations:
 > [!NOTE]
 > For non-Microsoft localizations, please visit the AppSource.  
 
-## See also
+## Related information
 
 [Financial Management](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

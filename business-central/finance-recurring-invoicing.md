@@ -2,7 +2,7 @@
 title: Work with recurring revenue
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: reference
 ms.devlang: al
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.search.form: 283 
@@ -103,7 +103,7 @@ For more information, see [Recurring Orders](LocalFunctionality/Norway/recurring
 
 At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in Business Central.  
 
-## See also
+## Related information
 
 [Date Formulas](ui-enter-date-ranges.md#use-date-formulas)  
 [Work with Recurring Journals](ui-work-general-journals.md#work-with-recurring-journals)  

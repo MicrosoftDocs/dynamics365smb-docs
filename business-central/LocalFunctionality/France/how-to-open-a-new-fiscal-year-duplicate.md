@@ -2,7 +2,7 @@
 title: Open a New Fiscal Year [FR]
 description: Learn the steps to open a fiscal year and define its accounting periods in the French version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: open fiscal year, define accounting periods, French version
 ms.date: 04/15/2025

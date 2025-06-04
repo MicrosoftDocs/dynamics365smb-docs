@@ -4,7 +4,7 @@ description: You use payment methods, for example, check, bank transfer, cash, o
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427,
@@ -51,7 +51,7 @@ The following table lists the table for payment methods and its ID.
 [!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
 
 
-## See also
+## Related information
 
 [Register New Customers](sales-how-register-new-customers.md)  
 [Set Up Payment Terms](finance-payment-terms.md)  

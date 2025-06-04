@@ -2,7 +2,7 @@
 title: Managing inventory costs
 description: Cost management is concerned with recording and reporting business operating costs and includes the reporting of manufacturing costs and inventory costs.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 07/26/2024
@@ -62,12 +62,12 @@ Read various conceptual information to understand the principles and definitions
 
 
 
-## See Also
+## Related information
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
-## See also  
+## Related information  
  [Finance](finance.md)  
  [Inventory](inventory-manage-inventory.md)   
  [Sales](sales-manage-sales.md)   

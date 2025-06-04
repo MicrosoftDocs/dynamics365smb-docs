@@ -84,7 +84,7 @@ Try the report here: [Inventory Top 10 List](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   

@@ -3,7 +3,7 @@ title: How to enter CCC codes [ES]
 description: Learn about how to enter the Código Cuenta Cliente (CCC) unique bank account identification code using the Spanish version of Business Central.
 services: project-madeira 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 12/06/2023
 ms.author: bholtorf
@@ -29,7 +29,7 @@ If you change the CCC code structure, the **CCC No.** field updates automaticall
     |**CCC Control Digits**|9-10|Identifies the control digits.|  
     |**CCC Bank Account No.**|11-20 (Spain)<br><br> 11-21 (Portugal)|Identifies the account number, which might be adjusted with preceding zeros.|  
 
-## See also  
+## Related information  
 
 [Spain Local Functionality](spain-local-functionality.md)
 

@@ -2,7 +2,7 @@
 title: Design Details - Item Tracking Posting Structure
 description: Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 06/15/2021
@@ -39,7 +39,7 @@ During quantity posting of item tracking numbers, codeunit 22 (Item Jnl.-Post Li
   
 Codeunit 22 (Item Jnl.-Post Line) loops through the item tracking numbers and splits the posting into the respective item ledger entries that carry the item tracking numbers. Information about which item ledger entries are created is returned to T337(Reservation Entry)by using a temporary T336 record, which is called by a procedure in codeunit 22. This procedure is triggered when codeunit 22 has finished its run because at that point, the codeunit 22 object contains the information. When the temporary T336 record is retrieved, Codeunits 80 (Sales-Post)  and 90 (Purch-Post) create records in the **Item Entry Relation** table to link the created item ledger entries to the created shipment or receipt line. Codeunits 80 (Sales-Post)  and 90 (Purch-Post) then converts the temporary T336 (Tracking Specification) records to real T336 (Tracking Specification) records that are related to the line in question. However, this conversion occurs only if the posted document line is not deleted, because it is only partially posted.  
   
-## See Also  
+## Related information  
 [Design Details: Item Tracking](design-details-item-tracking.md)   
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)
 

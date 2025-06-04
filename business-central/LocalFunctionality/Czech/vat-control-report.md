@@ -4,7 +4,7 @@ description: Czech companies registered for VAT in the Czech Republic (with assi
 author: v-pejano
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -25,7 +25,7 @@ To process the control report, you must set up the VAT control report sections, 
 - Control report export - **Export** function exports control report to the file.
 - Closing lines - **Close lines** function fills the **Closed by Document No.** field on control report lines.
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -44,7 +44,7 @@ There are several other ways to analyze your balance. To learn more, go to:
 - [Financial Reporting](../bi-how-work-account-schedule.md)
 
 
-## See also
+## Related information
 
 [Trial Balance Excel](../reports/report-4405.md)  
 [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)  

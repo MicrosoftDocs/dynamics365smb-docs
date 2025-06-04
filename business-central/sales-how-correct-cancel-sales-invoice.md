@@ -4,7 +4,7 @@ description: This article describes how to correct, undo, or cancel a posted sal
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: undo, credit memo, return
 ms.date: 03/05/2024
 ms.service: dynamics-365-business-central
@@ -62,7 +62,7 @@ If the cancellation is related to a partial invoice posting, then the originatin
     A sales credit memo is automatically created and posted to void the initial posted sales invoice.
 5. Choose the **Show Corrective Credit Memo** action to view the posted sales credit memo that voids the initial posted sales invoice.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

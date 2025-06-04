@@ -2,7 +2,7 @@
 title: How to Set Up Shipping Agents
 description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -30,7 +30,7 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 > [!NOTE]  
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
 
-## See Also
+## Related information
 [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
 [Warehouse Management Overview](design-details-warehouse-management.md)

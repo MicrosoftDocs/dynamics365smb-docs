@@ -4,7 +4,7 @@ description: Russian enhancements include tax differences.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -59,7 +59,7 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 
 4. Choose the **Ledger Entries** action to open the **Tax Diff. Ledger Entry** window and review the posted entries.
 
-## See Also
+## Related information
 
 [Tax Differences](Tax-Differences.md)  
 [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  

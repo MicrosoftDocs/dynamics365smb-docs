@@ -96,7 +96,7 @@ When it finds the items, the agent checks the items' availability by analyzing m
 
 ## Agent process flow
 
-### Partcipants
+### Participants
 
 Processing a sales quote request into an order involves three participants:
 
@@ -148,7 +148,7 @@ The general flow is illustrated in the figure, which is followed by more details
 
 ## Billing for use
 
-The Sales Order Agent uses Microaoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
+The Sales Order Agent uses Microsoft Copilot Studio messages for AI interactions, which incur charges based on interaction complexity. Before using the agent, set up a billing model for your Business Central environment. Learn more in [Manage consumption-based billing](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing).
 
 ## Next steps
 

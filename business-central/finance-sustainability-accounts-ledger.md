@@ -2,7 +2,7 @@
 title: Chart of sustainability accounts and ledger
 description: Learn how to manage the chart of sustainability accounts, categories and subcategories, and details about sustainability ledger entries.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220

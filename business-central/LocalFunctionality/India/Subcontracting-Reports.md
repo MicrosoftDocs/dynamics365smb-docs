@@ -6,7 +6,7 @@ description: Sub Contracting Reports
 author: v-debapd
 
     
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -61,7 +61,7 @@ Stock Register for Job Work report will give the details of transfer, consumptio
 
 
 
-## See Also 
+## Related information 
 [Subcontracting Overview](Subcontracting-001-Basic-Setup.md)
 
 

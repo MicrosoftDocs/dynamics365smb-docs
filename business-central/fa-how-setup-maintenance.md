@@ -2,7 +2,7 @@
 title: Set Up FA Maintenance
 description: To manage fixed asset repairs and service, you specify general maintenance information, codes for the type of work, and a posting account for costs.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
@@ -36,7 +36,7 @@ To post maintenance costs, you must first enter an account number on the **FA Po
 > [!NOTE]  
 >   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).
 
-## See Also
+## Related information
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  

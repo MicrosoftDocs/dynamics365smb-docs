@@ -4,7 +4,7 @@ description:  Learn how to chat with Copilot in Business Central. Find answers t
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.topic: conceptual
+ms.topic: faq
 ms.collection:
   - bap-ai-copilot
 ms.date: 04/01/2025

@@ -60,7 +60,7 @@ Try the report here: [Contact - Labels](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Relationship management report overview](../marketing-reports.md)
 [Relationship management overview](../marketing-relationship-management.md)

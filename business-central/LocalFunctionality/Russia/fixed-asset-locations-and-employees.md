@@ -4,7 +4,7 @@ description: Russian enhancements include locations and employees for fixed asse
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -61,7 +61,7 @@ When posting the documents and journals, the values of these fields are transfer
 
 
 
-## See Also
+## Related information
 
 [Fixed Asset Inventory](Fixed-Asset-Inventory.md)
 

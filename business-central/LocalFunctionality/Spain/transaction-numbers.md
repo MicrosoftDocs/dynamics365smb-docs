@@ -2,7 +2,7 @@
 title: Transaction numbers
 description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/11/2023
@@ -17,7 +17,7 @@ When you enter a transaction number in the first line of a journal, the same tra
 
 Having a unique sequential transaction number, ordered by date, allows you to identify every transaction posted in a fiscal year.  
 
-## See also  
+## Related information  
  [Post and Print All Transactions for a Period](how-to-post-and-print-all-transactions-for-a-period.md)   
  [Spain Local Functionality](spain-local-functionality.md)
 

@@ -2,7 +2,7 @@
 title: Corrective invoices [ES]
 description: The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/28/2023
@@ -26,7 +26,7 @@ The corrective invoice must meet the following requirements:
 - You must clearly indicate the invoice numbers for the invoices you're correcting.  
 - You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
 
-## See also  
+## Related information  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

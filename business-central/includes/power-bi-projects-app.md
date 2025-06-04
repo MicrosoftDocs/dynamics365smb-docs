@@ -9,5 +9,7 @@ The following table describes how you can use each report in the Power BI Projec
 |Track the performance of each project and how they track toward their budget. | [Project Performance to Budget](https://businesscentral.dynamics.com?page=37037) | [About Projects Performance to Budget](../projects-powerbi-project-performance-to-budget.md)|
 | View all sales entries for projects broken down by the sales line type. | [Project Invoiced Sales by Type](https://businesscentral.dynamics.com?page=37038) | [About Projects Invoiced Sales by Type](../projects-powerbi-project-invoiced-sales-by-type.md)|
 | Analyze key sales information on projects based on the customers you sell to the most.| [Project Invoiced Sales by Customer](https://businesscentral.dynamics.com?page=37039) | [About Projects Invoiced Sales by Customer](../projects-powerbi-project-invoiced-sales-by-customer.md)|
+<!---
+| Analyze the schedules of each project task with a Gantt chart, detailing project tasks and their durations.| [Project Timeline](https://businesscentral.dynamics.com?page=37106) | [About Project Timeline](../projects-powerbi-project-timeline.md)|-->
 
 [!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

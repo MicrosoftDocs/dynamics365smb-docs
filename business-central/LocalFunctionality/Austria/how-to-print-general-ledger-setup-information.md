@@ -2,7 +2,7 @@
 title: Print general ledger setup information [AT]
 description: Before you start using the Austrian version for your daily business tasks, you can run the G/L Setup Information report to display the master data that you set up.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: Austrian version, general ledger setup, G/L Setup Information
 ms.date: 03/06/2025

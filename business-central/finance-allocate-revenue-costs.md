@@ -4,7 +4,7 @@ description: Learn how to allocate costs to one or more accounts in your general
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 08/08/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: allocate, allocation, accounts
 ms.search.form: 39, 2673, 2670, 2674, 
 ms.custom: bap-template
@@ -93,6 +93,6 @@ The following steps describe how to post an allocation transaction from a genera
     1. In the **Allocation Account No.** field, choose the allocation account that's set up to use the Inherit from parent option. 
 1. Choose **Post**.
 
-## See also
+## Related information
 
 [Work with General Journals](ui-work-general-journals.md)  

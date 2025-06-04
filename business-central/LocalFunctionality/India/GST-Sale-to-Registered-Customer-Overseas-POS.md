@@ -5,7 +5,7 @@ description: Sale of Services to Overseas Place of Supply to registered customer
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -67,7 +67,7 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
-## See Also 
+## Related information 
 [GST and TCS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md)
 
 

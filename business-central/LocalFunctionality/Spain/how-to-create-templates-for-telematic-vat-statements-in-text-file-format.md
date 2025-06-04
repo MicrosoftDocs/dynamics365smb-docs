@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 In order to submit VAT statements electronically, you must create templates to generate the required files. You can submit files in text format and in XML format. This procedure describes how to create templates for text files.  
 
-Learn more in [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
+Learn more at the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
 
 ## Create a template for VAT statements in text file format  
 

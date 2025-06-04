@@ -27,7 +27,7 @@ Learn more in [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=23818
     > [!IMPORTANT]  
     > The values for the fields are determined by the tax authorities.  
     >
-    > Learn more in [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
+    > Learn more at the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

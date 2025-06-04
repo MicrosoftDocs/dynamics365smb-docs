@@ -55,6 +55,6 @@ If you print the posted document, for example, a posted sales invoice, it includ
 
 - [Report 340](report-340.md)
 - [Payments in Cash](payments-in-cash.md)
-- [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)
+- [Spanish Tax Agency](https://sede.agenciatributaria.gob.es/)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

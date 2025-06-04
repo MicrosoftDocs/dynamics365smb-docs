@@ -20,7 +20,7 @@ You can export financial report data into a digital file format approved by the 
 - Cuenta de PyG Abreviado  
 - Cuenta de PyG Normal  
 
-## Export financial reports into ASC format  
+## Process
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
 1. On the **Financial Reports** page, select the relevant report name, and then choose the **Edit Financial Report** action.  

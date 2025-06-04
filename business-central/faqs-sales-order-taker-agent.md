@@ -1,5 +1,5 @@
 ---
-title: FAQ for Payables Agent
+title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 04/01/2025
 ms.custom: 

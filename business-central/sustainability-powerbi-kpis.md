@@ -24,9 +24,9 @@ Each KPI is described, including how they're calculated and what data the calcul
 
 **Emissions Fees Measures**
 
-- [CH4 Carbon Equivalent](#ch4-carbon-equivilent)
-- [CO2 Carbon Equivalent](#co2-carbon-equivilent)
-- [N2O Carbon Equivalent](#n2o-carbon-equivilent)
+- [CH4 Carbon Equivalent](#ch4-carbon-equivalent)
+- [CO2 Carbon Equivalent](#co2-carbon-equivalent)
+- [N2O Carbon Equivalent](#n2o-carbon-equivalent)
 - [CO2e Target](#co2e-target)
 
 ### CH4 Carbon Equivalent

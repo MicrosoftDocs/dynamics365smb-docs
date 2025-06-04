@@ -15,11 +15,9 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
 
-This page provides a list of all Key Performance Indicators (KPIs) included in the semantic model for the Power BI Manufacturing report.
+This article provides a list of all key performance indicators (KPIs) included in the semantic model for the Power BI Manufacturing report.
 
-Explore the list of KPIs below to learn more about how they can help you achieve your business goals.
-
-Each KPI is described, including how it is calculated and what data was used in the calculations.
+Explore the list of KPIs to learn more about how they can help you achieve your business goals. Each KPI is described, including how it's calculated and what data is used in the calculations.
 
 ## Calendar Entries
 
@@ -32,7 +30,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Formula**
 
-- This measure, **Capacity (Effective)**, calculates the total effective capacity from the Calendar Entries table by summing up all values in the Capacity Effective column.
+- Calculates the total effective capacity from the Calendar Entries table by summing up all values in the Capacity Effective column.
 
 **Data Source**
 
@@ -42,7 +40,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Formula**
 
-- This measure, **Capacity (Total)**, calculates the overall total effective capacity from the Calendar Entries table by summing up all values in the Capacity Total column.
+- Calculates the overall total effective capacity from the Calendar Entries table by summing up all values in the Capacity Total column.
 
 **Data Source**
 
@@ -66,7 +64,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Formula**
 
-- The Capacity Ledger Output Quantity measure calculates the total output quantity recorded in the Capacity Ledger Entries table by summing up all values in the outputQuantity column.
+- Calculates the total output quantity recorded in the **Capacity Ledger Entries** table by summing up all values in the **outputQuantity** column.
 
 **Data Source**
 
@@ -76,7 +74,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Formula**
 
-- The Capacity Ledger Quantity measure calculates the total quantity recorded in the Capacity Ledger Entries table by summing up all values in the quantity column.
+- Calculates the total quantity recorded in the **Capacity Ledger Entries** table by summing up all values in the **Quantity** column.
 
 **Data Source**
 
@@ -86,7 +84,7 @@ Each KPI is described, including how it is calculated and what data was used in 
 
 **Formula**
 
-- The Direct Cost measure calculates the cost amount actual from the Value Entries table, specifically filtering for entries categorized as Direct Cost.
+- Calculates the cost amount actual from the **Value Entries** table, specifically filtering for entries categorized as **Direct Cost**.
 This measure determines the direct cost for capacity ledger entries by summing the related value entry cost amounts.
 
 **Data Source**
@@ -98,7 +96,7 @@ This measure determines the direct cost for capacity ledger entries by summing t
 
 **Formula**
 
-- The Overhead Cost measure calculates the cost amount actual from the Value Entries table, specifically filtering for entries categorized as Indirect Cost.
+- Calculates the cost amount actual from the **Value Entries** table, specifically filtering for entries categorized as **Indirect Cost**.
 This measure determines the indirect cost for capacity ledger entries by summing the related value entry cost amounts.
 
 **Data Source**
@@ -110,7 +108,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The Run Time measure calculates the total runtime recorded in the Capacity Ledger Entries table by summing up all values in the runtime column.
+- Calculates the total runtime recorded in the **Capacity Ledger Entries** table by summing up all values in the **Runtime** column.
 
 **Data Source**
 
@@ -120,7 +118,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The Scrap % measure calculates the percentage of scrapped output by dividing the Scrap Quantity by the total Output Quantity recorded in the Capacity Ledger Entries table.
+- Calculates the percentage of scrapped output by dividing the **Scrap Quantity** by the total **Output Quantity** recorded in the **Capacity Ledger Entries** table.
 
 **Data Source**
 
@@ -130,7 +128,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The Scrap Quantity measure calculates the total amount of scrapped output recorded in the Capacity Ledger Entries table by summing up all values in the scrapQuantity column.
+- Calculates the total amount of scrapped output recorded in the **Capacity Ledger Entries** table by summing up all values in the **scrapQuantity** column.
 
 **Data Source**
 
@@ -140,7 +138,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The Setup Time measure calculates the total setup time recorded in the Capacity Ledger Entries table by summing up all values in the setupTime column.
+- Calculates the total setup time recorded in the **Capacity Ledger Entries** table by summing up all values in the **setupTime** column.
 
 **Data Source**
 
@@ -150,7 +148,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The Stop Time measure calculates the total stop time recorded in the Capacity Ledger Entries table by summing up all values in the stopTime column.
+- Calculates the total stop time recorded in the **Capacity Ledger Entries** table by summing up all values in the **stopTime** column.
 
 **Data Source**
 
@@ -169,7 +167,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Consumption Quantity** measure calculates the total [Quantity](#quantity) of item ledger entries where the **Entry Type** is "Consumption" by filtering the *Item Ledger Entries* table before summing.
+- Calculates the total [Quantity](#quantity) of item ledger entries where the **Entry Type** is **Consumption** by filtering the **Item Ledger Entries** table before summing.
 
 **Data Source**
 
@@ -179,7 +177,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Item Ledger Entry Cost Amount Actual** measure calculates the total actual cost recorded in the Item Ledger Entries table by summing up all values in the **costAmountActual** column.
+- Calculates the total actual cost recorded in the **Item Ledger Entries** table by summing up all values in the **costAmountActual** column.
 
 **Data Source**
 
@@ -189,7 +187,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Output Quantity** measure calculates the total [Quantity](#quantity) of item ledger entries where the **Entry Type** is "Output" by filtering the *Item Ledger Entries* table before summing.
+- Calculates the total [Quantity](#quantity) of item ledger entries where the **Entry Type** is **Output** by filtering the **Item Ledger Entries** table before summing.
 
 **Data Source**
 
@@ -199,7 +197,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Quantity** measure sums the values in the *qty* column of the Item Ledger Entries table to calculate the total quantity across all records.
+- Sums the values in the **Qty** column of the **Item Ledger Entries** table to calculate the total quantity across all records.
 
 **Data Source**
 
@@ -222,7 +220,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Availability After Orders** measure calculates the remaining available capacity for machine centers by subtracting the **[Machine Center Allocated Time](#machine-center-allocated-time)** from the **[Machine Center Capacity (Effective)](#machine-center-capacity-effective)**.
+- Calculates the remaining available capacity for machine centers by subtracting the [Machine Center Allocated Time](#machine-center-allocated-time) from the [Machine Center Capacity (Effective)](#machine-center-capacity-effective).
 
 **Data Source**
 
@@ -233,7 +231,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Load** measure calculates the ratio of allocated time to effective capacity for machine centers by dividing the **[Machine Center Allocated Time](#machine-center-allocated-time)** by the **[Machine Center Capacity (Effective)](#machine-center-capacity-effective)**.
+- Calculates the ratio of allocated time to effective capacity for machine centers by dividing the [Machine Center Allocated Time](#machine-center-allocated-time) by the [Machine Center Capacity (Effective)](#machine-center-capacity-effective).
 
 **Data Source**
 
@@ -244,7 +242,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Output** measure calculates the total output quantity for machine centers by summing the **outputQuantity** column in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center".
+- Calculates the total output quantity for machine centers by summing the **outputQuantity** column in the **Capacity Ledger Entries** table, filtered to include only rows where **Type** is **Machine Center**.
 
 **Data Source**
 
@@ -254,7 +252,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Run Time** measure calculates the total run time for machine centers by summing the **runTime** and **setupTime** columns in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center". This is done using the `SUMX` function over the filtered table.
+- Calculates the total run time for machine centers by summing the **runTime** and **setupTime** columns in the **Capacity Ledger Entries** table, filtered to include only rows where **Type** is **Machine Center**. This is done using the `SUMX` function over the filtered table.
 
 **Data Source**
 
@@ -264,7 +262,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Scrap** measure calculates the total scrap quantity for machine centers by summing the **scrapQuantity** column in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center".
+- Calculates the total scrap quantity for machine centers by summing the **scrapQuantity** column in the **Capacity Ledger Entries** table, filtered to include only rows where **Type** is **Machine Center**.
 
 **Data Source**
 
@@ -274,7 +272,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Scrap %** measure calculates the percentage of scrap for machine centers by dividing the **[Machine Center Scrap](#machine-center-scrap)** by the **[Machine Center Output](#machine-center-output)**.
+- Calculates the percentage of scrap for machine centers by dividing the [Machine Center Scrap](#machine-center-scrap) by the [Machine Center Output](#machine-center-output).
 
 **Data Source**
 
@@ -284,7 +282,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Stop %** measure calculates the percentage of stop time for machine centers by dividing the **[Machine Center Stop Time](#machine-center-stop-time)** by the **[Machine Center Run Time](#machine-center-run-time)**.
+- Calculates the percentage of stop time for machine centers by dividing the [Machine Center Stop Time](#machine-center-stop-time) by the [Machine Center Run Time](#machine-center-run-time).
 
 **Data Source**
 
@@ -294,7 +292,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Stop Time** measure calculates the total stop time for machine centers by summing the **stopTime** column in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center".
+- Calculates the total stop time for machine centers by summing the **stopTime** column in the **Capacity Ledger Entries** table, filtered to include only rows where **Type** is **Machine Center**.
 
 **Data Source**
 
@@ -314,7 +312,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Actual Efficiency %** measure calculates the actual efficiency for machine centers by dividing the **[Machine Center Actual Need](#machine-center-actual-need)** by the **[Machine Center Capacity (Total)]()**.
+- Calculates the actual efficiency for machine centers by dividing the [Machine Center Actual Need](#machine-center-actual-need) by the [Machine Center Capacity (Total)](#machine-center-capacity-total).
 
 **Data Source**
 
@@ -325,7 +323,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Actual Need** measure calculates the total actual time required for machine centers by summing the **setupTime**, **runTime**, and **stopTime** columns in the *Capacity Ledger Entries* table, filtered to include only rows where **Type** is "Machine Center". This is done using the `SUMX` function over the filtered table.
+- Calculates the total actual time required for machine centers by summing the **setupTime**, **runTime**, and **stopTime** columns in the **Capacity Ledger Entries** table, filtered to include only rows where **Type** is **Machine Center**. This is done using the `SUMX` function over the filtered table.
 
 **Data Source**
 
@@ -335,7 +333,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Actual Total Cost** measure calculates the total actual cost for machine centers by adding the **[Direct Cost](#direct-cost)** and **[Overhead Cost](#overhead-cost)** measures, filtered to include only rows in the *Capacity Ledger Entries* table where **Type** is "Machine Center".
+- Calculates the total actual cost for machine centers by adding the [Direct Cost](#direct-cost) and [Overhead Cost](#overhead-cost) measures, filtered to include only rows in the **Capacity Ledger Entries** table where **Type** is **Machine Center**.
 
 **Data Source**
 
@@ -346,7 +344,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Allocated Time** measure calculates the total allocated time for machine centers by summing the **allocatedTime** column in the *Prod Order Capacity Need* table, filtered to include only rows where **Type** is "Machine Center" and **Requested Only** is FALSE.
+- Calculates the total allocated time for machine centers by summing the **allocatedTime** column in the **Prod Order Capacity Need** table, filtered to include only rows where **Type** is **Machine Center** and **Requested Only** is **FALSE**.
 
 **Data Source**
 
@@ -356,7 +354,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Capacity (Effective)** measure calculates the total effective capacity for machine centers by summing the **Capacity Effective** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Machine Center".
+- Calculates the total effective capacity for machine centers by summing the **Capacity Effective** column in the **Calendar Entries** table, filtered to include only rows where **Capacity Type** is **Machine Center**.
 
 **Data Source**
 
@@ -366,7 +364,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Capacity (Total)** measure calculates the total capacity for machine centers by summing the **Capacity Total** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Machine Center".
+- Calculates the total capacity for machine centers by summing the **Capacity Total** column in the **Calendar Entries** table, filtered to include only rows where **Capacity Type** is **Machine Center**.
 
 **Data Source**
 
@@ -376,7 +374,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Machine Center Expected Efficiency %** measure calculates the expected efficiency for machine centers by dividing the **[Machine Center Capacity (Effective)](#machine-center-capacity-effective)** by the **[Machine Center Capacity (Total)](#machine-center-capacity-total)**.
+- Calculates the expected efficiency for machine centers by dividing the [Machine Center Capacity (Effective)](#machine-center-capacity-effective) by the [Machine Center Capacity (Total)](#machine-center-capacity-total).
 
 **Data Source**
 
@@ -394,7 +392,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Allocated Time** measure calculates the total allocated time by summing the **allocatedTime** column in the *Prod Order Capacity Need* table, filtered to include only rows where **Requested Only** is FALSE.
+- Calculates the total allocated time by summing the **allocatedTime** column in the **Prod Order Capacity Need** table, filtered to include only rows where **Requested Only** is **FALSE**.
 
 **Data Source**
 
@@ -404,7 +402,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Needed Time** measure calculates the total needed time by summing the **neededTime** column in the *Prod Order Capacity Need* table.
+- Calculates the total needed time by summing the **neededTime** column in the **Prod Order Capacity Need** table.
 
 **Data Source**
 
@@ -414,7 +412,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Needed Time (MS)** measure calculates the total needed time in manufacturing-specific units by dividing the sum of **neededTimeMs** from the *Prod Order Capacity Need* table by a **Time Factor**. The **Time Factor** is retrieved using `LOOKUPVALUE` based on the capacity unit of measure selected in the *Manufacturing Setup* table.
+- Calculates the total needed time in manufacturing-specific units by dividing the sum of **neededTimeMs** from the **Prod Order Capacity Need** table by a **Time Factor**. The **Time Factor** is retrieved using `LOOKUPVALUE` based on the capacity unit of measure selected in the **Manufacturing Setup** table.
 
 **Data Source**
 
@@ -433,7 +431,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Prod Order Component Cost Amount** measure calculates the total cost of production order components by summing the **costAmount** column in the *Prod Order Components* table.
+- Calculates the total cost of production order components by summing the **costAmount** column in the **Prod Order Components** table.
 
 **Data Source**
 
@@ -443,7 +441,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Prod Order Component Expected Qty. (Base)** measure calculates the total expected quantity (in base units) of production order components by summing the **expectedQtyBase** column in the *Prod Order Components* table.
+- Calculates the total expected quantity (in base units) of production order components by summing the **expectedQtyBase** column in the **Prod Order Components** table.
 
 **Data Source**
 
@@ -453,7 +451,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Prod Order Component Remaining Qty. (Base)** measure calculates the total remaining quantity (in base units) of production order components by summing the **remainingQtyBase** column in the *Prod Order Components* table.
+- Calculates the total remaining quantity (in base units) of production order components by summing the **remainingQtyBase** column in the **Prod Order Components** table.
 
 **Data Source**
 
@@ -478,7 +476,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Expected Operation Cost** measure calculates the total expected operational cost by using `SUMX` to iterate over the *Prod Order Routing Lines* table and summing the difference between **Expected Operation Cost Amt.** and **Expected Capacity Ovhd. Cost** for each row.
+- Calculates the total expected operational cost by using `SUMX` to iterate over the **Prod Order Routing Lines** table and summing the difference between **Expected Operation Cost Amt.** and **Expected Capacity Ovhd. Cost** for each row.
 
 **Data Source**
 
@@ -487,7 +485,8 @@ This measure determines the indirect cost for capacity ledger entries by summing
 #### Operation Move Time
 
 **Formula**
--The **Operation Move Time** measure calculates the total move time for production order routing lines by summing the **Move Time** column in the *Prod Order Routing Lines* table.
+
+- Calculates the total move time for production order routing lines by summing the **Move Time** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -497,7 +496,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Operation Run Time** measure calculates the total run time for production order routing lines by summing the **Run Time** column in the *Prod Order Routing Lines* table.
+- Calculates the total run time for production order routing lines by summing the **Run Time** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -507,7 +506,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Operation Setup Time** measure calculates the total setup time for production order routing lines by summing the **Setup Time** column in the *Prod Order Routing Lines* table.
+- Calculates the total setup time for production order routing lines by summing the **Setup Time** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -517,7 +516,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Operation Wait Time** measure calculates the total wait time for production order routing lines by summing the **Wait Time** column in the *Prod Order Routing Lines* table.
+- Calculates the total wait time for production order routing lines by summing the **Wait Time** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -527,7 +526,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Prod Order Routing Expected Capacity Need** measure calculates the total expected capacity requirement for production order routing lines by summing the **Expected Capacity Need** column in the *Prod Order Routing Lines* table.
+- Calculates the total expected capacity requirement for production order routing lines by summing the **Expected Capacity Need** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -537,7 +536,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Prod Order Routing Expected Capacity Ovhd. Cost** measure calculates the total expected capacity overhead cost for production order routing lines by summing the **Expected Capacity Ovhd. Cost** column in the *Prod Order Routing Lines* table.
+- Calculates the total expected capacity overhead cost for production order routing lines by summing the **Expected Capacity Ovhd. Cost** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -547,7 +546,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Prod Order Routing Expected Operation Cost Amt.** measure calculates the total expected operation cost amount for production order routing lines by summing the **Expected Operation Cost Amt.** column in the *Prod Order Routing Lines* table.
+- Calculates the total expected operation cost amount for production order routing lines by summing the **Expected Operation Cost Amt.** column in the **Prod Order Routing Lines** table.
 
 **Data Source**
 
@@ -557,7 +556,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Total Duration Days** measure calculates the total duration of production order routing lines in days by summing the **Duration Total Days** column in the *Prod Order Routing Lines* table. Duration Total Days column is calculated in Power Query from the Starting Date Time and Ending Date Time fields on the Prod Order Routing Line.
+- Calculates the total duration of production order routing lines in days by summing the **Duration Total Days** column in the **Prod Order Routing Lines** table. The **Duration Total Days** column is calculated in Power Query from the **Starting Date Time** and **Ending Date Time** fields on the **Prod Order Routing Line**.
 
 **Data Source**
 
@@ -567,7 +566,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Total Duration Hours** measure calculates the total duration of production order routing lines in hours by summing the **Duration Total Hours** column in the *Prod Order Routing Lines* table. Duration Total Hours column is calculated in Power Query from the Starting Date Time and Ending Date Time fields on the Prod Order Routing Line.
+- Calculates the total duration of production order routing lines in hours by summing the **Duration Total Hours** column in the **Prod Order Routing Lines** table. The **Duration Total Hours** column is calculated in Power Query from the **Starting Date Time** and **Ending Date Time** fields on the **Prod Order Routing Line**.
 
 **Data Source**
 
@@ -585,7 +584,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Finished Quantity (Base)** measure calculates the total finished quantity in base units for production order lines by summing the **finishedQtyBase** column in the *Production Order Lines* table.
+- Calculates the total finished quantity in base units for production order lines by summing the **finishedQtyBase** column in the **Production Order Lines** table.
 
 **Data Source**
 
@@ -593,7 +592,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 #### Quantity (Base)
 
-- The **Quantity (Base)** measure calculates the total quantity in base units for production order lines by summing the **quantityBase** column in the *Production Order Lines* table.
+- Calculates the total quantity in base units for production order lines by summing the **quantityBase** column in the **Production Order Lines** table.
 
 **Data Source**
 
@@ -603,7 +602,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Remaining Quantity (Base)** measure calculates the total remaining quantity in base units for production order lines by summing the **remainingQtyBase** column in the *Production Order Lines* table.
+- Calculates the total remaining quantity in base units for production order lines by summing the **remainingQtyBase** column in the **Production Order Lines** table.
 
 **Data Source**
 
@@ -626,7 +625,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Actual Time Used** measure calculates the total actual time used by production orders. It first summarizes the production orders and computes the **Actual Time** by summing the **quantity** from the *Capacity Ledger Entries* table, only when there is a **[Finished Quantity](#finished-quantity)**. Then, it sums up these values across all production orders using `SUMX`.
+- Calculates the total actual time used by production orders. It first summarizes the production orders and computes the **Actual Time** by summing the **Quantity** from the **Capacity Ledger Entries** table, only when there is a [Finished Quantity](#finished-quantity). Then, it sums up these values across all production orders using `SUMX`.
 
 **Data Source**
 
@@ -637,7 +636,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Average Production Time Per Finished Quantity** measure calculates the average time spent on production per finished quantity by dividing the **[Actual Time Used](#actual-time-used)** by the **[Finished Quantity](#finished-quantity)**.
+- Calculates the average time spent on production per finished quantity by dividing the [Actual Time Used](#actual-time-used) by the [Finished Quantity](#finished-quantity).
 
 **Data Source**
 
@@ -648,7 +647,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Expected Production Order Scrap Quantity** measure calculates the expected scrap quantity for production orders by multiplying the **[Finished Quantity](#finished-quantity)** by the **Prod Order Source No. Scrap %** for the selected production order.
+- Calculates the expected scrap quantity for production orders by multiplying the [Finished Quantity](#finished-quantity) by the **Prod Order Source No. Scrap %** for the selected production order.
 
 **Data Source**
 
@@ -660,7 +659,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Finished %** measure calculates the percentage of finished quantity relative to the planned quantity by dividing the **[Finished Quantity](#finished-quantity)** by the **[Planned Quantity](#planned-quantity)**.
+- Calculates the percentage of finished quantity relative to the planned quantity by dividing the [Finished Quantity](#finished-quantity) by the [Planned Quantity](#planned-quantity).
 
 **Data Source**
 
@@ -671,7 +670,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Finished Quantity** measure calculates the total finished quantity for each production order source number. It summarizes the Production Orders table by Production Order and Prod Order Source No., and then calculates the finished quantity by summing the qty from the Item Ledger Entries table where the Entry Type is "Output" and the Item No. matches the selected Prod Order Source No.. Finally, it sums the finished quantities across all production orders using SUMX.
+- Calculates the total finished quantity for each production order source number. It summarizes the **Production Orders** table by **Production Order** and **Prod Order Source No.**, and then calculates the finished quantity by summing the **Qty** from the **Item Ledger Entries** table where the **Entry Type** is **Output** and the **Item No.** matches the selected **Prod Order Source No.**. Finally, it sums the finished quantities across all production orders using `SUMX`.
 
 **Data Source**
 
@@ -682,7 +681,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **No. of Production Orders** measure calculates the total number of production orders by counting the distinct entries in the **Production Order** column of the *Production Orders* table.
+- The **No. of Production Orders** measure calculates the total number of production orders by counting the distinct entries in the **Production Order** column of the **Production Orders** table.
 
 **Data Source**
 
@@ -692,7 +691,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Planned Quantity** measure calculates the total planned quantity for production orders by summing the **quantity** column in the *Production Orders* table.
+- The **Planned Quantity** measure calculates the total planned quantity for production orders by summing the **Quantity** column in the **Production Orders** table.
 
 **Data Source**
 
@@ -702,7 +701,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Production Order Scrap %** measure calculates the percentage of scrap quantity relative to the finished quantity by dividing the **[Scrap Quantity](#scrap-quantity)** by the **[Finished Quantity](#finished-quantity)**.
+- The **Production Order Scrap %** measure calculates the percentage of scrap quantity relative to the finished quantity by dividing the [Scrap Quantity](#scrap-quantity) by the [Finished Quantity](#finished-quantity).
 
 **Data Source**
 
@@ -713,7 +712,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Remaining %** measure calculates the remaining percentage of the planned quantity that hasn't been finished. It checks if the **[Finished Quantity](#finished-quantity)** is less than the **[Planned Quantity](#planned-quantity)**. If true, it returns the negative of the **[Variance Quantity](#variance-quantity)** divided by the **[Planned Quantity](#planned-quantity)**. If the finished quantity is equal to or greater than the planned quantity, it returns **BLANK**.
+- Calculates the remaining percentage of the planned quantity that hasn't been finished. It checks whether the [Finished Quantity](#finished-quantity) is less than the [Planned Quantity](#planned-quantity). If it is, it returns the negative of the [Variance Quantity](#variance-quantity) divided by the [Planned Quantity](#planned-quantity). If the finished quantity is greater than or equal to the planned quantity, it returns **BLANK**.
 
 **Data Source**
 
@@ -724,7 +723,7 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-- The **Variance Quantity** measure calculates the difference between the **[Finished Quantity](#finished-quantity)** and the **[Planned Quantity](#planned-quantity)**, indicating whether the production order has a surplus or deficit in finished quantity relative to what was planned.
+- Calculates the difference between the [Finished Quantity](#finished-quantity) and the [Planned Quantity](#planned-quantity), indicating whether the production order has a surplus or deficit in finished quantity relative to what was planned.
 
 **Data Source**
 
@@ -746,22 +745,22 @@ This measure determines the indirect cost for capacity ledger entries by summing
 
 **Formula**
 
-The **Actual Capacity Cost** measure calculates the actual cost of capacity usage based on production order lines and related inventory adjustments. Here's a breakdown of the calculation:
+Calculates the actual cost of capacity usage based on production order lines and related inventory adjustments. Here's a breakdown of the calculation:
 
 1. **Variables for Production Order Details**:
-   The measure defines variables for the **Production Order Number**, **Production Order Line Number**, **Item Number**, and **Production Order Status** from the *Production Order Lines* table.
+   The measure defines variables for the **Production Order Number**, **Production Order Line Number**, **Item Number**, and **Production Order Status** from the **Production Order Lines** table.
 
 2. **Inventory Adjustment Lines**:
-   It then creates a table of relevant inventory adjustment lines that correspond to the current production order line, with the condition that the **iSFinished** status is set to TRUE if the production order status is "Finished".
+   It then creates a table of relevant inventory adjustment lines that correspond to the current production order line, with the condition that the **iSFinished** status is set to **TRUE** if the production order status is **Finished**.
 
 3. **Inventory Adjustment Details**:
    The measure selects the order number, item number, and order line number from the inventory adjustment lines.
 
 4. **Capacity Ledger Entries**:
-   It then filters the *Capacity Ledger Entries* table to match the **Order No.**, **Order Line No.**, and **Item No.** from the inventory adjustments and ensures **Subcontracting** is excluded.
+   It then filters the **Capacity Ledger Entries** table to match the **Order No.**, **Order Line No.**, and **Item No.** from the inventory adjustments and ensures **Subcontracting** is excluded.
 
 5. **Return the Actual Capacity Cost**:
-   Finally, the measure calculates the sum of **directCost** from the *Capacity Ledger Entries* table, dividing it by the **ShareOfCapCost** measure to account for the specific share of capacity costs.
+   Finally, the measure calculates the sum of **directCost** from the **Capacity Ledger Entries** table, dividing it by the **ShareOfCapCost** measure to account for the specific share of capacity costs.
 
 This complex calculation ties together various production and inventory details to derive the actual capacity cost for the production orders.
 
@@ -775,7 +774,7 @@ This complex calculation ties together various production and inventory details 
 
 **Formula**
 
-- The **Actual Capacity Overhead Cost** measure calculates the total overhead cost recorded in capacity ledger entries by summing the **overheadCost** column in the *Capacity Ledger Entries* table.
+- Calculates the total overhead cost recorded in capacity ledger entries by summing the **overheadCost** column in the **Capacity Ledger Entries** table.
 
 **Data Source**
 
@@ -785,7 +784,7 @@ This complex calculation ties together various production and inventory details 
 
 **Formula**
 
-The **Actual Manufacturing Overhead Cost** measure calculates the total overhead cost incurred during manufacturing by combining indirect cost percentages and per-unit overhead rates with actual production metrics. Here's how it works:
+Calculates the total overhead cost incurred during manufacturing by combining indirect cost percentages and per-unit overhead rates with actual production metrics. Here's how it works:
 
 1. **IndirectCost**:
    It sums the **indirectCostPercent** values across all production order lines.
@@ -794,17 +793,15 @@ The **Actual Manufacturing Overhead Cost** measure calculates the total overhead
    It sums the **overheadRate** values across all production order lines.
 
 3. **OutputQty**:
-   It calculates the total output quantity from the *Item Ledger Entries* table, filtered to include only entries of type **"Output"**, and scoped to the currently selected production order.
+   It calculates the total output quantity from the **Item Ledger Entries** table, filtered to include only entries of type **"Output"**, and scoped to the currently selected production order.
 
 4. **Final Calculation**:
-   The measure multiplies the sum of:
+   The measure multiplies the sum of the following by the **IndirectCost** percentage (converted from percent to decimal), and then adds the product of **OutputQty** and **OverheadRate**.
 
-   - **[Actual Material Cost](#actual-material-cost)**
-   - **[Actual Capacity Cost](#actual-capacity-cost)**
-   - **[Actual Subcontracted Cost](#actual-subcontracted-cost)**
-   - **[Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)**
-
-   by the **IndirectCost** percentage (converted from percent to decimal), and then adds the product of **OutputQty** and **OverheadRate**.
+   - [Actual Material Cost](#actual-material-cost)
+   - [Actual Capacity Cost](#actual-capacity-cost)
+   - [Actual Subcontracted Cost](#actual-subcontracted-cost)
+   - [Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)
 
 This measure captures both proportional overhead based on other costs and fixed overhead based on output volume.
 
@@ -819,12 +816,12 @@ This measure captures both proportional overhead based on other costs and fixed 
 
 **Formula**
 
-The **Actual Material Cost** measure calculates the total material cost consumed in production by summing the **costAmountActual** from the *Value Entries* table, filtered to:
+Calculates the total material cost consumed in production by summing the **costAmountActual** from the **Value Entries** table, filtered to:
 
-- Exclude entries where **entryType** is "Rounding"
-- Include only entries where **Item Ledger Entry Type** is "Consumption"
+- Exclude entries where **entryType** is **Rounding**.
+- Include only entries where **Item Ledger Entry Type** is **Consumption**.
 
-The result is then multiplied by -1 to reflect material consumption as a cost.
+The result is then multiplied by **-1** to reflect material consumption as a cost.
 
 **Data Source**
 
@@ -833,10 +830,10 @@ The result is then multiplied by -1 to reflect material consumption as a cost.
 ##### Actual Subcontracted Cost
 
 **Formula**
-The **Actual Subcontracted Cost** measure calculates the total direct cost of subcontracted work associated with production orders. Here's how it works:
+Calculates the total direct cost of subcontracted work associated with production orders. Here's how it works:
 
 1. **Context per Line**:
-   For each row in the *Production Order Lines* table, it defines key variables:
+   For each row in the **Production Order Lines** table, it defines key variables:
 
    - ProdOrderNo
    - ProdOrderLineNo
@@ -844,16 +841,16 @@ The **Actual Subcontracted Cost** measure calculates the total direct cost of su
    - ProdOrderStatus
 
 2. **Inventory Adjustment Matching**:
-   It retrieves matching rows from *Inventory Adjustment Entry Order Line* where:
+   It retrieves matching rows from **Inventory Adjustment Entry Order Line**, where:
 
-   - Order number, line number, and item match the production order line variables.
-   - The **iSFinished** flag corresponds to whether the production order is marked as "Finished".
+   - THe order number, line number, and item match the production order line variables.
+   - The **iSFinished** flag corresponds to whether the production order is marked as **Finished**.
 
 3. **Subcontracted Capacity Ledger Entries**:
-   It then filters the *Capacity Ledger Entries* table to:
+   It then filters the **Capacity Ledger Entries** table to:
 
    - Match the order number, order line number, and item number from the inventory adjustment.
-   - Include only entries where **Subcontracting** is TRUE.
+   - Include only entries where **Subcontracting** is **TRUE**.
 
 4. **Cost Calculation**:
    It calculates the total **directCost** from these filtered subcontracted capacity ledger entries and divides it by the **ShareOfCapCost** measure.
@@ -873,7 +870,7 @@ This measure isolates and aggregates costs related to subcontracted operations.
 
 **Formula**
 
-The **Total Actual Cost** measure calculates the full cost of production by summing the following measures:
+Calculates the full cost of production by summing the following measures:
 
 - **[Actual Material Cost](#actual-material-cost)**
 - **[Actual Capacity Cost](#actual-capacity-cost)**
@@ -904,10 +901,10 @@ This measure provides a comprehensive view of all actual costs incurred during t
 
 **Formula**
 
-The **Prod Order Actual Capacity Need** measure calculates the actual capacity used for production orders, converted into the unit of measure specified in the manufacturing setup. Here's a breakdown of how it works:
+Calculates the actual capacity used for production orders, converted into the unit of measure specified in the manufacturing setup. Here's how it works:
 
 1. **Manufacturing Time Factor**:
-   Retrieves the appropriate time factor from the *Time Factors* table based on the capacity unit defined in the *Manufacturing Setup*.
+   Retrieves the appropriate time factor from the **Time Factors** table based on the capacity unit defined in the **Manufacturing Setup**.
 
 2. **Quantity Calculation** (`Qty` variable):
    Iterates over filtered *Capacity Ledger Entries* (excluding subcontracting), and for each row:
@@ -915,13 +912,11 @@ The **Prod Order Actual Capacity Need** measure calculates the actual capacity u
    - Determines the **Qty Per Capacity Unit of Measure** (defaulting to 1 if zero).
    - Looks up the appropriate **Time Factor**:
 
-   - If the **Qty Per Capacity Unit of Measure** is zero, it uses the time factor based on the work center’s unit of measure.
-   - Otherwise, it uses the time factor based on the entry's own capacity unit.
-   - Computes the adjusted quantity as:
-     `quantity / QtyPerCapUnitOfMeasure * TimeFactor`.
+     - If the **Qty Per Capacity Unit of Measure** is zero, it uses the time factor based on the work center’s unit of measure. Otherwise, it uses the time factor based on the entry's own capacity unit.
+     - Computes the adjusted quantity as `quantity / QtyPerCapUnitOfMeasure * TimeFactor`.
 
 3. **Final Conversion**:
-   The total adjusted quantity is then divided by the **Manufacturing Time Factor** to express it in the target unit.
+   Divides the total adjusted quantity by the **Manufacturing Time Factor** to express it in the target unit.
 
 This measure provides a standardized view of how much capacity was actually used, accounting for differences in units and time factors across capacity entries.
 
@@ -934,7 +929,7 @@ This measure provides a standardized view of how much capacity was actually used
 
 **Formula**
 
-- The **Prod Order Capacity Need Dev %** measure calculates the percentage deviation in capacity need by dividing the **[Prod Order Capacity Need Variance](#prod-order-capacity-need-variance)** by the **[Prod Order Expected Capacity Need](#prod-order-expected-capacity-need)**. This measure indicates how much the actual capacity usage differs from the expected need, expressed as a percentage.
+- Calculates the percentage deviation in capacity need by dividing the [Prod Order Capacity Need Variance](#prod-order-capacity-need-variance) by the [Prod Order Expected Capacity Need](#prod-order-expected-capacity-need). This measure indicates how much the actual capacity usage differs from the expected need, expressed as a percentage.
 
 **Data Source**
 
@@ -947,7 +942,7 @@ This measure provides a standardized view of how much capacity was actually used
 
 **Formula**
 
-- The **Prod Order Capacity Need Variance** measure calculates the difference between the actual and expected capacity need for a production order by subtracting the **[Prod Order Expected Capacity Need](#prod-order-expected-capacity-need)** from the **[Prod Order Actual Capacity Need](#prod-order-actual-capacity-need)**. This measure quantifies how much more or less capacity was used than originally planned.
+- Calculates the difference between the actual and expected capacity need for a production order by subtracting the [Prod Order Expected Capacity Need](#prod-order-expected-capacity-need) from the [Prod Order Actual Capacity Need](#prod-order-actual-capacity-need). This measure quantifies how much more or less capacity was used than originally planned.
 
 **Data Sources**
 
@@ -960,12 +955,12 @@ This measure provides a standardized view of how much capacity was actually used
 
 **Formula**
 
-The **Prod Order Expected Capacity Need** measure returns the appropriate expected capacity need based on the status of the production order:
+Returns the appropriate expected capacity need based on the status of the production order:
 
-- If the **Prod Order Status** is **"Finished"**, it returns **[Prod Order Expected Capacity Need (Finished)](#prod-order-expected-capacity-need-finished)**.
-- For all other statuses, it returns **[Prod Order Expected Capacity Need (Non Finished)](#prod-order-expected-capacity-need-non-finished)**.
+- If the **Prod Order Status** is **"Finished"**, it returns [Prod Order Expected Capacity Need (Finished)](#prod-order-expected-capacity-need-finished).
+- For all other statuses, it returns [Prod Order Expected Capacity Need (Non Finished)](#prod-order-expected-capacity-need-non-finished).
 
-This ensures the measure reflects different logic depending on whether the production order is completed or still in progress.
+The measure reflects different logic depending on whether the production order is completed or still in progress.
 
 **Data Source**
 
@@ -977,16 +972,16 @@ This ensures the measure reflects different logic depending on whether the produ
 
 **Formula**
 
-The **Prod Order Expected Capacity Need (Finished)** measure calculates the expected capacity required for **finished** production orders, adjusted to a standardized unit of measure. Here's how it works:
+Calculates the expected capacity required for **finished** production orders, adjusted to a standardized unit of measure. Here's how it works:
 
 1. **Time Factor**:
-   Retrieves the time conversion factor from the *Time Factors* table based on the unit configured in the *Manufacturing Setup*.
+   Retrieves the time conversion factor from the **Time Factors** table based on the unit configured in the **Manufacturing Setup**.
 
 2. **Expected Capacity Need**:
-   Sums the **Expected Capacity Need** from the *Prod Order Routing Lines* table, filtering for:
+   Sums the **Expected Capacity Need** from the **Prod Order Routing Lines** table, filtering for:
 
-   - Production orders with status **"Finished"**
-   - Work centers that are **not subcontractors**
+   - Production orders with status **"Finished"**.
+   - Work centers that are **not subcontractors**.
 
 3. **Conversion**:
    Divides the total expected capacity by the **Time Factor** to express the result in the standard capacity unit.
@@ -1002,15 +997,16 @@ This measure provides a normalized view of planned capacity usage for completed 
 
 **Formula**
 
-The **Prod Order Expected Capacity Need (Non Finished)** measure calculates the expected capacity required for **non-finished** production orders, adjusted to a standardized unit of measure. Here's how it works:
+Calculates the expected capacity required for **non-finished** production orders, adjusted to a standardized unit of measure. Here's how it works:
 
 1. **Time Factor**:
-   Retrieves the time conversion factor from the *Time Factors* table based on the unit defined in the *Manufacturing Setup*.
+   Retrieves the time conversion factor from the **Time Factors** table based on the unit defined in the **Manufacturing Setup**.
 
 2. **Expected Capacity Need**:
-   Sums the **neededTimeMs** from the *Prod Order Capacity Need* table, filtering for:
-   - Production orders with a status **not equal to** "Finished"
-   - Work centers that are **not subcontractors** (i.e., **Work Center Subcontractor No.** is blank)
+   Sums the **neededTimeMs** from the **Prod Order Capacity Need** table, filtering for:
+
+   - Production orders with a status **not equal to** **Finished**.
+   - Work centers that are **not subcontractors**. For example, **Work Center Subcontractor No.** is blank.
 
 3. **Conversion**:
    Divides the total **neededTimeMs** by the **Time Factor** to express the result in the standard capacity unit.
@@ -1035,7 +1031,7 @@ This measure provides a normalized view of the planned capacity usage for ongoin
 
 **Formula**
 
-- The **Expected Capacity Cost** measure calculates the net expected cost of in-house capacity usage by subtracting **[Expected Subcontracted Cost](#expected-subcontracted-cost)** from **[Expected Operation Cost](#expected-operation-cost)**.
+- Calculates the net expected cost of in-house capacity usage by subtracting [Expected Subcontracted Cost](#expected-subcontracted-cost) from [Expected Operation Cost](#expected-operation-cost).
 
 **Data Source**
 
@@ -1047,7 +1043,7 @@ This measure provides a normalized view of the planned capacity usage for ongoin
 
 **Formula**
 
-- The **Expected Capacity Overhead Cost** measure calculates the total overhead cost expected from capacity usage by summing the **Expected Capacity Ovhd. Cost** field from the *Prod Order Routing Lines* table. This represents the anticipated indirect costs associated with capacity operations in the production process.
+- Calculates the total overhead cost expected from capacity usage by summing the **Expected Capacity Ovhd. Cost** field from the **Prod Order Routing Lines** table. This represents the anticipated indirect costs associated with capacity operations in the production process.
 
 **Data Source**
 
@@ -1061,13 +1057,13 @@ The **Expected Manufacturing Overhead Cost** measure calculates the total manufa
 
 1. **Retrieving Direct Cost**:
    It uses the variable **ExpMfgDirCost**, which represents the expected manufacturing direct cost.
-     - **ExpMfgDirCost** = [Expected Material Cost](#expected-material-cost) + [Expected Capacity Cost](#expected-capacity-cost) + [Expected Subcontracted Cost](#expected-subctracted-cost) + [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)
+     - **ExpMfgDirCost** = [Expected Material Cost](#expected-material-cost) + [Expected Capacity Cost](#expected-capacity-cost) + [Expected Subcontracted Cost](#expected-subcontracted-cost) + [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)
 
 2. **Iterating Over Production Order Lines**:
    For each line, it adds:
 
-   - The value of **ExpOvhdCost**: Calculated by iterating over each row in the Production Order Lines table. Multiplying the overheadRate by the quantityBase.
-   - A percentage-based overhead component, calculated as the line’s **indirectCostPercent** multiplied by the total **ExpMfgDirCost**, divided by 100.
+   - The value of **ExpOvhdCost**: Calculated by iterating over each row in the **Production Order Lines** table. Multiplying the **overheadRate** by the **quantityBase**.
+   - A percentage-based overhead component, calculated as the line’s **indirectCostPercent** multiplied by the total **ExpMfgDirCost**, divided by **100**.
 
 3. **Summing the Result**:
    `SUMX` aggregates the per-line overhead contributions into a total.
@@ -1082,7 +1078,7 @@ The **Expected Manufacturing Overhead Cost** measure calculates the total manufa
 
 **Formula**
 
-- The **Expected Material Cost** measure calculates the total expected cost of materials for a production order by summing the **costAmount** field from the *Prod Order Components* table. This represents the projected material expense based on the components planned for use.
+- Calculates the total expected cost of materials for a production order by summing the **costAmount** field from the **Prod Order Components** table. This represents the projected material expense based on the components planned for use.
 
 **Data Source**
 
@@ -1092,16 +1088,16 @@ The **Expected Manufacturing Overhead Cost** measure calculates the total manufa
 
 **Formula**
 
-The **Expected Subcontracted Cost** measure estimates the portion of expected capacity cost attributed to subcontracted operations by:
+Estimates the portion of expected capacity cost attributed to subcontracted operations by:
 
 1. **Identifying Subcontracting Work Centers**:
-   Filters the *Work Center* table to include only those with a **Subcontractor No.** (i.e., subcontracted operations).
+   Filters the **Work Center** table to include only those with a **Subcontractor No.**. For example, subcontracted operations.
 
 2. **Calculating Expected Operation Cost for Subcontracting**:
-   Computes **[Expected Operation Cost](#expected-operation-cost)** restricted to those subcontracting work centers.
+   Computes [Expected Operation Cost](#expected-operation-cost) restricted to those subcontracting work centers.
 
 3. **Determining Share of Total Capacity Cost**:
-   Retrieves the **ShareOfTotalCapCost** for the current production order from the *Production Order Lines* table.
+   Retrieves the **ShareOfTotalCapCost** for the current production order from the **Production Order Lines** table.
 
 4. **Final Calculation**:
    Multiplies the **Expected Operation Cost for Subcontracting** by the order’s share of total capacity cost.
@@ -1114,15 +1110,16 @@ The **Expected Subcontracted Cost** measure estimates the portion of expected ca
 
 ##### Total Expected Cost
 
-The **Total Expected Cost** measure calculates the overall anticipated cost of a production order by summing the following components:
+Calculates the overall anticipated cost of a production order by summing the following components:
 
-- **[Expected Material Cost](#expected-material-cost)**
-- **[Expected Capacity Cost](#expected-capacity-cost)**
-- **[Expected Subcontracted Cost](#expected-subcontracted-cost)**
-- **[Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)**
-- **[Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)**
+- [Expected Material Cost](#expected-material-cost)
+- [Expected Capacity Cost](#expected-capacity-cost)
+- [Expected Subcontracted Cost](#expected-subcontracted-cost)
+- [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)
+- [Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)
 
 This measure provides a complete view of all expected production costs, combining direct and indirect, in-house and subcontracted expenses.
+
 **Data Source**
 
 - Prod Order Line
@@ -1141,7 +1138,7 @@ This measure provides a complete view of all expected production costs, combinin
 
 **Formula**
 
-- The **Expected Capacity Cost Variance** measure calculates the difference between the **[Actual Capacity Cost](#actual-capacity-cost)** and **[Expected Capacity Cost](#expected-capacity-cost)**.
+- Calculates the difference between the [Actual Capacity Cost](#actual-capacity-cost) and [Expected Capacity Cost](#expected-capacity-cost).
 
 **Data Source**
 
@@ -1155,7 +1152,7 @@ This measure provides a complete view of all expected production costs, combinin
 
 **Formula**
 
-- The **Expected Capacity Overhead Cost Variance** measure calculates the difference between **[Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)** and **[Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)**
+- Calculates the difference between [Actual Capacity Overhead Cost](#actual-capacity-overhead-cost) and [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost).
 
 **Data Source**
 
@@ -1166,7 +1163,7 @@ This measure provides a complete view of all expected production costs, combinin
 
 **Formula**
 
-- The **Expected Manufacturing Overhead Cost Variance** measure calculates the difference between **[Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost)** and **[Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)**.
+- Calculates the difference between [Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost) and [Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost).
 
 **Data Source**
 
@@ -1181,7 +1178,7 @@ This measure provides a complete view of all expected production costs, combinin
 
 **Formula**
 
-The **Expected Material Cost Variance** measure calculates the difference between **[Actual Material Cost](#actual-material-cost)** and **[Expected Material Cost](#expected-material-cost)**.
+- Calculates the difference between [Actual Material Cost](#actual-material-cost) and [Expected Material Cost](#expected-material-cost).
 
 **Data Source**
 
@@ -1192,7 +1189,7 @@ The **Expected Material Cost Variance** measure calculates the difference betwee
 
 **Formula**
 
-- The **Expected Subcontracted Cost Variance** measure calculates the difference between **[Actual Subcontracted Cost](#actual-subcontracted-cost)** and **[Expected Subcontracted Cost](#expected-subcontracted-cost)**.
+- Calculates the difference between [Actual Subcontracted Cost](#actual-subcontracted-cost) and [Expected Subcontracted Cost](#expected-subcontracted-cost).
 
 **Data Source**
 
@@ -1206,7 +1203,7 @@ The **Expected Material Cost Variance** measure calculates the difference betwee
 
 **Formula**
 
-The Total Expected Cost Variance measure calculates the overall difference between actual and expected costs across. This is calculated by summing the following sub-measures:
+Calculates the overall difference between actual and expected costs by summing the following sub-measures:
 
 - [Expected Material Cost Variance](#expected-material-cost-variance)
 - [Expected Capacity Cost Variance](#expected-capacity-cost-variance)
@@ -1237,7 +1234,7 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-- The **Expected Capacity Cost Dev %** measure calculates the percentage deviation between actual and expected capacity cost by dividing **[Expected Capacity Cost Variance](#expected-capacity-cost-variance)** by **[Expected Capacity Cost](#expected-capacity-cost)**.
+- Calculates the percentage deviation between actual and expected capacity cost by dividing [Expected Capacity Cost Variance](#expected-capacity-cost-variance) by [Expected Capacity Cost](#expected-capacity-cost).
 
 **Data Source**
 
@@ -1251,7 +1248,7 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-- The **Expected Capacity Overhead Cost Dev %** measure calculates the percentage deviation between actual and expected capacity overhead costs by dividing **[Expected Capacity Overhead Cost Variance](#expected-capacity-overhead-cost-variance)** by **[Expected Capacity Overhead Cost](#expected-capacity-overhead-cost)**.
+- Calculates the percentage deviation between actual and expected capacity overhead costs by dividing [Expected Capacity Overhead Cost Variance](#expected-capacity-overhead-cost-variance) by [Expected Capacity Overhead Cost](#expected-capacity-overhead-cost).
 
 **Data Source**
 
@@ -1262,7 +1259,7 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-- The **Expected Manufacturing Overhead Cost Dev %** measure calculates the percentage deviation between actual and expected manufacturing overhead costs by dividing **[Expected Manufacturing Overhead Cost Variance](#expected-manufacturing-overhead-cost-variance)** by **[Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost)**.
+- Calculates the percentage deviation between actual and expected manufacturing overhead costs by dividing [Expected Manufacturing Overhead Cost Variance](#expected-manufacturing-overhead-cost-variance) by [Expected Manufacturing Overhead Cost](#expected-manufacturing-overhead-cost).
 
 **Data Source**
 
@@ -1277,7 +1274,7 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-- The **Expected Material Cost Dev %** measure calculates the percentage deviation between actual and expected material costs by dividing **[Expected Material Cost Variance](#expected-material-cost-variance)** by **[Expected Material Cost](#expected-material-cost)**.
+- Calculates the percentage deviation between actual and expected material costs by dividing [Expected Material Cost Variance](#expected-material-cost-variance) by [Expected Material Cost](#expected-material-cost).
 
 **Data Source**
 
@@ -1288,7 +1285,7 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-- The **Expected Subcontracted Cost Dev %** measure calculates the percentage deviation between actual and expected subcontracted costs by dividing the **[Expected Subcontracted Cost Variance](#expected-subcontracted-cost-variance)** by **[Expected Subcontracted Cost](#expected-subcontracted-cost)**.
+- Calculates the percentage deviation between actual and expected subcontracted costs by dividing the [Expected Subcontracted Cost Variance](#expected-subcontracted-cost-variance) by [Expected Subcontracted Cost](#expected-subcontracted-cost).
 
 **Data Source**
 
@@ -1302,7 +1299,7 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-- The **Total Expected Cost Dev %** measure calculates the overall percentage deviation between actual and expected total costs by dividing the **[Total Expected Cost Variance](#total-expected-cost-variance)** by the **[Total Expected Cost](#total-expected-cost)**.
+- Calculates the overall percentage deviation between actual and expected total costs by dividing the [Total Expected Cost Variance](#total-expected-cost-variance) by the [Total Expected Cost](#total-expected-cost).
 
 **Data Source**
 
@@ -1327,11 +1324,11 @@ The Total Expected Cost Variance measure calculates the overall difference betwe
 
 **Formula**
 
-The **Standard Capacity Cost** measure calculates the standard capacity cost for production order lines, using either item master data or finalized inventory adjustments:
+Calculates the standard capacity cost for production order lines, using either item master data or finalized inventory adjustments:
 
 - For each production order line:
   - If the line is fully invoiced, use the finished quantity multiplied by the single-level capacity cost from the inventory adjustment.
-  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Capacity Cost from the Item Card.
+  - Otherwise, use the quantity **Base from Production Order Lines** multiplied by the **Item Single-Level Capacity Cost** from the **Item Card**.
 
 **Data Source**
 
@@ -1343,11 +1340,11 @@ The **Standard Capacity Cost** measure calculates the standard capacity cost for
 
 **Formula**
 
-The **Standard Capacity Overhead Cost** measure calculates the standard capacity overhead cost for each production order line, using either item master data or finalized inventory adjustments:
+Calculates the standard capacity overhead cost for each production order line, using either item master data or finalized inventory adjustments:
 
 - For each production order line:
   - If fully invoiced, multiply the finished quantity by the single-level capacity overhead cost from the inventory adjustment entry.
-  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Cap. Ovhd Cost from the Item Card.
+  - Otherwise, use the quantity **Base from Production Order Lines** multiplied by the **Item Single-Level Cap. Ovhd Cost** from the **Item Card**.
 
 **Data Source**
 
@@ -1359,11 +1356,11 @@ The **Standard Capacity Overhead Cost** measure calculates the standard capacity
 
 **Formula**
 
-The **Standard Manufacturing Overhead Cost** measure calculates the standard manufacturing overhead cost for each production order line, using either finalized inventory adjustment data or standard item-level overhead rates.
+Calculates the standard manufacturing overhead cost for each production order line, using either finalized inventory adjustment data or standard item-level overhead rates.
 
 - For each production order line:
   - If the line is fully invoiced, multiply the finished quantity by the single-level manufacturing overhead cost from the inventory adjustment.
-  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Mfg. Ovhd Cost from the Item Card.
+  - Otherwise, use the quantity **Base from Production Order Lines** multiplied by the **Item Single-Level Mfg. Ovhd Cost** from the **Item Card**.
 
 **Data Source**
 
@@ -1375,11 +1372,11 @@ The **Standard Manufacturing Overhead Cost** measure calculates the standard man
 
 **Formula**
 
-The **Standard Material Cost** measure calculates the standard material cost for each production order line based on either finalized inventory adjustments or item-level standard costs:
+Calculates the standard material cost for each production order line based on either finalized inventory adjustments or item-level standard costs:
 
 - For each production order line:
   - If the line is fully invoiced, multiply the finished quantity by the single-level material cost from the inventory adjustment entry.
-  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Material Cost from the Item Card.
+  - Otherwise, use the quantity **Base from Production Order Lines** multiplied by the **Item Single-Level Material Cost** from the **Item Card**.
 
 **Data Source**
 
@@ -1391,11 +1388,11 @@ The **Standard Material Cost** measure calculates the standard material cost for
 
 **Formula**
 
-The **Standard Subcontracted Cost** measure calculates the standard subcontracted cost for each production order line based on either finalized inventory adjustments or item-level standard costs:
+Calculates the standard subcontracted cost for each production order line based on either finalized inventory adjustments or item-level standard costs:
 
 - For each production order line:
   - If the line is fully invoiced, multiply the finished quantity by the single-level subcontracted cost from the inventory adjustment entry.
-  - Otherwise, use the quantity Base from Production Order Lines multiplied by the Item Single-Level Subcontrd. Cost from the Item Card.
+  - Otherwise, use the quantity **Base from Production Order Lines** multiplied by the **Item Single-Level Subcontrd. Cost** from the **Item Card**.
 
 **Data Source**
 
@@ -1407,7 +1404,7 @@ The **Standard Subcontracted Cost** measure calculates the standard subcontracte
 
 **Formula**
 
-The **Total Standard Cost** measure sums up the various standard cost components associated with a production order. The measure calculates the total standard cost by adding up the following:
+Sums up the various standard cost components associated with a production order. The measure calculates the total standard cost by adding up the following:
 
 - [Standard Material Cost](#standard-material-cost)
 - [Standard Capacity Cost](#standard-capacity-cost)
@@ -1434,7 +1431,7 @@ The **Total Standard Cost** measure sums up the various standard cost components
 
 **Formula**
 
-The **Standard Capacity Cost Variance** measure calculates the difference between the **[Actual Capacity Cost](#actual-capacity-cost)** and **[Standard Capacity Cost](#standard-capacity-cost)**.
+Calculates the difference between the [Actual Capacity Cost](#actual-capacity-cost) and [Standard Capacity Cost](#standard-capacity-cost).
 
 **Data Source**
 
@@ -1447,7 +1444,7 @@ The **Standard Capacity Cost Variance** measure calculates the difference betwee
 
 **Formula**
 
-The **Standard Capacity Overhead Cost Variance** measure calculates the difference between the **[Actual Capacity Overhead Cost](#actual-capacity-overhead-cost)** and **[Standard Capacity Overhead Cost](#standard-capacity-overhead-cost)**.
+Calculates the difference between the [Actual Capacity Overhead Cost](#actual-capacity-overhead-cost) and [Standard Capacity Overhead Cost](#standard-capacity-overhead-cost).
 
 **Data Source**
 
@@ -1460,7 +1457,7 @@ The **Standard Capacity Overhead Cost Variance** measure calculates the differen
 
 **Formula**
 
-The **Standard Manufacturing Overhead Cost Variance** measure calculates the difference between the **[Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost)** and **[Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost)**.
+Calculates the difference between the [Actual Manufacturing Overhead Cost](#actual-manufacturing-overhead-cost) and [Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost).
 
 **Data Source**
 
@@ -1475,7 +1472,7 @@ The **Standard Manufacturing Overhead Cost Variance** measure calculates the dif
 
 **Formula**
 
-The **Standard Material Cost Variance** measure calculates the difference between the **[Actual Material Cost](#actual-material-cost)** and **[Standard Material Cost](#standard-material-cost)**.
+Calculates the difference between the [Actual Material Cost](#actual-material-cost) and [Standard Material Cost](#standard-material-cost).
 
 **Data Source**
 
@@ -1488,7 +1485,7 @@ The **Standard Material Cost Variance** measure calculates the difference betwee
 
 **Formula**
 
-The **Standard Subcontracted Cost Variance** measure calculates the difference between the **[Actual Subcontracted Cost](#actual-subcontracted-cost)** and **[Standard Subcontracted Cost](#standard-subcontracted-cost)**.
+Calculates the difference between the [Actual Subcontracted Cost](#actual-subcontracted-cost) and [Standard Subcontracted Cost](#standard-subcontracted-cost).
 
 **Data Source**
 
@@ -1501,13 +1498,13 @@ The **Standard Subcontracted Cost Variance** measure calculates the difference b
 
 **Formula**
 
-The **Total Standard Cost Variance** measure calculates the total deviation from standard costs by summing the following individual variances:
+Calculates the total deviation from standard costs by summing the following individual variances:
 
-- **[Standard Material Cost Variance](#standard-material-cost-variance)**
-- **[Standard Capacity Cost Variance](#standard-capacity-cost-variance)**
-- **[Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance)**
-- **[Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance)**
-- **[Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance)**
+- [Standard Material Cost Variance](#standard-material-cost-variance)
+- [Standard Capacity Cost Variance](#standard-capacity-cost-variance)
+- [Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance)
+- [Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance)
+- [Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance)
 
 **Data Source**
 
@@ -1531,7 +1528,7 @@ The **Total Standard Cost Variance** measure calculates the total deviation from
 
 **Formula**
 
-The **Standard Capacity Cost Dev %** measure calculates the percentage deviation between the actual and standard capacity costs by dividing the **[Standard Capacity Cost Variance](#standard-capacity-cost-variance)** by the **[Standard Capacity Cost](#standard-capacity-cost)**.
+Calculates the percentage deviation between the actual and standard capacity costs by dividing the [Standard Capacity Cost Variance](#standard-capacity-cost-variance) by the [Standard Capacity Cost](#standard-capacity-cost).
 
 **Data Source**
 
@@ -1544,7 +1541,7 @@ The **Standard Capacity Cost Dev %** measure calculates the percentage deviation
 
 **Formula**
 
-The **Standard Capacity Overhead Cost Dev %** measure calculates the percentage deviation between the actual and standard capacity overhead costs by dividing the **[Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance)** by the **[Standard Capacity Overhead Cost](#standard-capacity-overhead-cost)**.
+Calculates the percentage deviation between the actual and standard capacity overhead costs by dividing the [Standard Capacity Overhead Cost Variance](#standard-capacity-overhead-cost-variance) by the [Standard Capacity Overhead Cost](#standard-capacity-overhead-cost).
 
 **Data Source**
 
@@ -1557,7 +1554,7 @@ The **Standard Capacity Overhead Cost Dev %** measure calculates the percentage 
 
 **Formula**
 
-The **Standard Manufacturing Overhead Cost Dev %** measure calculates the percentage deviation between the actual and standard manufacturing overhead costs by dividing the **[Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance)** by the **[Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost)**.
+Calculates the percentage deviation between the actual and standard manufacturing overhead costs by dividing the [Standard Manufacturing Overhead Cost Variance](#standard-manufacturing-overhead-cost-variance) by the [Standard Manufacturing Overhead Cost](#standard-manufacturing-overhead-cost).
 
 **Data Source**
 
@@ -1572,7 +1569,7 @@ The **Standard Manufacturing Overhead Cost Dev %** measure calculates the percen
 
 **Formula**
 
-The **Standard Material Cost Dev %** measure calculates the percentage deviation between the actual and standard material costs by dividing the **[Standard Material Cost Variance](#standard-material-cost-variance)** by the **[Standard Material Cost](#standard-material-cost)**.
+Calculates the percentage deviation between the actual and standard material costs by dividing the [Standard Material Cost Variance](#standard-material-cost-variance) by the [Standard Material Cost](#standard-material-cost).
 
 **Data Source**
 
@@ -1585,7 +1582,7 @@ The **Standard Material Cost Dev %** measure calculates the percentage deviation
 
 **Formula**
 
-The **Standard Subcontracted Cost Dev %** measure calculates the percentage deviation between the actual and standard subcontracted costs by dividing the **[Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance)** by the **[Standard Subcontracted Cost](#standard-subcontracted-cost)**.
+Calculates the percentage deviation between the actual and standard subcontracted costs by dividing the [Standard Subcontracted Cost Variance](#standard-subcontracted-cost-variance) by the [Standard Subcontracted Cost](#standard-subcontracted-cost).
 
 **Data Source**
 
@@ -1598,7 +1595,7 @@ The **Standard Subcontracted Cost Dev %** measure calculates the percentage devi
 
 **Formula**
 
-The **Total Standard Cost Dev %** measure calculates the overall percentage deviation between actual and standard total costs by dividing the **[Total Standard Cost Variance](#total-standard-cost-variance)** by the **[Total Standard Cost](#total-standard-cost)**.
+Calculates the overall percentage deviation between actual and standard total costs by dividing the [Total Standard Cost Variance](#total-standard-cost-variance) by the [Total Standard Cost](#total-standard-cost).
 
 **Data Source**
 
@@ -1623,13 +1620,13 @@ The **Total Standard Cost Dev %** measure calculates the overall percentage devi
 
 **Formula**
 
-The **Beginning Balance Value** measure calculates the value of work in progress (WIP) by summing the cumulative values of:
+Calculates the value of work in progress (WIP) by summing the cumulative values of:
 
-- **[Consumption Value]()**
-- **[Capacity Value]()**
-- **[Output Value]()**
+- [Consumption Value](#consumption-value)
+- [Capacity Value](#capacity-value)
+- [Output Value](#output-value)
 
-Each measure is filtered to include only transactions that occurred **before the earliest date in the current filter context**. This provides the starting WIP balance.
+Each measure is filtered to include only transactions that occurred **before the earliest date in the current filter context** to provide the starting WIP balance.
 
 **Data Source**
 
@@ -1639,7 +1636,7 @@ Each measure is filtered to include only transactions that occurred **before the
 
 **Formula**
 
-The **Capacity Value** measure calculates the total actual cost associated with capacity usage by summing the **costAmountActual** field from the **'Value Entries'** table where the **Item Ledger Entry Type is blank**. This typically isolates capacity-related entries not linked to standard inventory transactions like consumption or output.
+Calculates the total actual cost associated with capacity usage by summing the **costAmountActual** field from the **Value Entries** table where the **Item Ledger Entry Type** is **Blank**. This typically isolates capacity-related entries not linked to standard inventory transactions like consumption or output.
 
 **Data Source**
 
@@ -1649,7 +1646,7 @@ The **Capacity Value** measure calculates the total actual cost associated with 
 
 **Formula**
 
-The **Consumption Value** measure calculates the total negative actual cost of materials consumed by summing the **costAmountActual** from the **'Value Entries'** table where the **Item Ledger Entry Type** is **"Consumption"** and the **Entry Type** is **not "Revaluation"**. The negative sign reflects that consumption reduces inventory value.
+Calculates the total negative actual cost of materials consumed by summing the **costAmountActual** from the **'Value Entries'** table where the **Item Ledger Entry Type** is **"Consumption"** and the **Entry Type** is **not "Revaluation"**. The negative sign reflects that consumption reduces inventory value.
 
 **Data Source**
 
@@ -1659,12 +1656,12 @@ The **Consumption Value** measure calculates the total negative actual cost of m
 
 **Formula**
 
-The **Ending Balance Value** measure calculates the total value of Work in Progress (WIP) at the end of the selected period. It's calculated by summing the following measures:
+Calculates the total value of Work in Progress (WIP) at the end of the selected period. It's calculated by summing the following measures:
 
-- **[Beginning Balance Value](#beginning-balance-value)**
-- **[Consumption Value](#consumption-value)**
-- **[Capacity Value](#capacity-value)**
-- **[Output Value](#output-value)**
+- [Beginning Balance Value](#beginning-balance-value)
+- [Consumption Value](#consumption-value)
+- [Capacity Value](#capacity-value)
+- [Output Value](#output-value)
 
 **Data Source**
 
@@ -1674,12 +1671,12 @@ The **Ending Balance Value** measure calculates the total value of Work in Progr
 
 **Formula**
 
-The **Output Value** measure calculates the total negative value of **actual and expected output costs**. It does so by summing the costAmountActual and costAmountExpected fields from the **'Value Entries'** table for entries where:
+Calculates the total negative value of actual and expected output costs by summing the **costAmountActual** and **costAmountExpected** fields from the **Value Entries** table for entries where:
 
-- Item Ledger Entry Type is "Output"
-- entryType is "Direct Cost"
+- Item Ledger Entry Type is **Output**.
+- entryType is **Direct Cost**.
 
-Then, the result is multiplied by -1 to reflect it as a cost deduction.
+Then, the result is multiplied by **-1** to reflect it as a cost deduction.
 
 **Data Source**
 
@@ -1699,7 +1696,7 @@ Then, the result is multiplied by -1 to reflect it as a cost deduction.
 
 **Formula**
 
-The **Cost Amount Actual** measure calculates the total actual cost amount by summing the **costAmountActual** field from the **Value Entries** table.
+- Calculates the total actual cost amount by summing the **costAmountActual** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1709,7 +1706,7 @@ The **Cost Amount Actual** measure calculates the total actual cost amount by su
 
 **Formula**
 
-The **Cost Amount Expected** measure calculates the total expected cost amount by summing the **costAmountExpected** field from the **Value Entries** table.
+- Calculates the total expected cost amount by summing the **costAmountExpected** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1719,7 +1716,7 @@ The **Cost Amount Expected** measure calculates the total expected cost amount b
 
 **Formula**
 
-The **Cost Posted to G/L** measure calculates the total cost amount posted to the General Ledger by summing the **costPostedtoGL** field from the **Value Entries** table.
+Calculates the total cost amount posted to the General Ledger by summing the **costPostedtoGL** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1729,7 +1726,7 @@ The **Cost Posted to G/L** measure calculates the total cost amount posted to th
 
 **Formula**
 
-The **Expected Cost** measure calculates the total expected cost by summing the **expectedCost** field from the **Value Entries** table.
+Calculates the total expected cost by summing the **expectedCost** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1739,7 +1736,7 @@ The **Expected Cost** measure calculates the total expected cost by summing the 
 
 **Formula**
 
-The **Expected Cost Posted to G/L** measure calculates the total expected cost posted to the General Ledger by summing the **expectedCostPostedtoGL** field from the **Value Entries** table.
+Calculates the total expected cost posted to the general ledger by summing the **expectedCostPostedtoGL** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1749,7 +1746,7 @@ The **Expected Cost Posted to G/L** measure calculates the total expected cost p
 
 **Formula**
 
-The **Item Ledger Entry Quantity** measure calculates the total item ledger entry quantity by summing the **itemLedgerEntryQuantity** field from the **Value Entries** table.
+Calculates the total item ledger entry quantity by summing the **itemLedgerEntryQuantity** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1759,7 +1756,7 @@ The **Item Ledger Entry Quantity** measure calculates the total item ledger entr
 
 **Formula**
 
-The **Valued Quantity** measure calculates the total valued quantity of items by summing the **valuedQuantity** field from the **Value Entries** table.
+Calculates the total valued quantity of items by summing the **valuedQuantity** field from the **Value Entries** table.
 
 **Data Source**
 
@@ -1779,7 +1776,7 @@ The **Valued Quantity** measure calculates the total valued quantity of items by
 
 **Formula**
 
-The **Work Center Availability After Orders** measure calculates the available capacity of a work center after considering the allocated time by subtracting the **[Work Center Allocated Time](#work-center-allocated-time)** from the **[Work Center Capacity (Effective)](#work-center-capacity-effective)**.
+Calculates the available capacity of a work center after considering the allocated time by subtracting the [Work Center Allocated Time](#work-center-allocated-time) from the [Work Center Capacity (Effective)](#work-center-capacity-effective).
 
 **Data Source**
 
@@ -1790,7 +1787,7 @@ The **Work Center Availability After Orders** measure calculates the available c
 
 **Formula**
 
-The **Work Center Load** measure calculates the load on a work center by dividing the **[Work Center Allocated Time](#work-center-allocated-time)** by the **[Work Center Capacity (Effective)](#work-center-capacity-effective)**, providing the ratio of the allocated time to the available capacity.
+Calculates the load on a work center by dividing the [Work Center Allocated Time](#work-center-allocated-time) by the [Work Center Capacity (Effective)](#work-center-capacity-effective), providing the ratio of the allocated time to the available capacity.
 
 **Data Source**
 
@@ -1801,7 +1798,7 @@ The **Work Center Load** measure calculates the load on a work center by dividin
 
 **Formula**
 
-The **Work Center Output** measure calculates the total output quantity for a work center by summing the **outputQuantity** field from the **Capacity Ledger Entries** table, filtered where the **Type** is "Work Center."
+Calculates the total output quantity for a work center by summing the **outputQuantity** field from the **Capacity Ledger Entries** table, filtered where the **Type** is **Work Center**.
 
 **Data Source**
 
@@ -1811,7 +1808,7 @@ The **Work Center Output** measure calculates the total output quantity for a wo
 
 **Formula**
 
-The **Work Center Scrap** measure calculates the total scrap quantity for a work center by summing the **scrapQuantity** field from the **Capacity Ledger Entries** table, filtered where the **Type** is "Work Center."
+- Calculates the total scrap quantity for a work center by summing the **scrapQuantity** field from the **Capacity Ledger Entries** table, filtered where the **Type** is **Work Center**.
 
 **Data Source**
 
@@ -1821,7 +1818,7 @@ The **Work Center Scrap** measure calculates the total scrap quantity for a work
 
 **Formula**
 
-The **Work Center Scrap %** measure calculates the percentage of scrap relative to the total output for a work center by dividing the **[Work Center Scrap](#work-center-scrap)** by the **[Work Center Output](#work-center-output)**.
+Calculates the percentage of scrap relative to the total output for a work center by dividing the [Work Center Scrap](#work-center-scrap) by the [Work Center Output](#work-center-output).
 
 **Data Source**
 
@@ -1841,7 +1838,7 @@ The **Work Center Scrap %** measure calculates the percentage of scrap relative 
 
 **Formula**
 
-The **Work Center Actual Efficiency %** measure calculates the actual efficiency of a work center by dividing the **[Work Center Actual Need](#work-center-actual-need)** by the **[Work Center Capacity (Total)](#work-center-capacity-total)**.
+Calculates the actual efficiency of a work center by dividing the [Work Center Actual Need](#work-center-actual-need) by the [Work Center Capacity (Total)](#work-center-capacity-total).
 
 **Data Source**
 
@@ -1852,7 +1849,7 @@ The **Work Center Actual Efficiency %** measure calculates the actual efficiency
 
 **Formula**
 
-The **Work Center Actual Need** measure calculates the total actual time required by summing the **setupTime**, **runTime**, and **stopTime** fields from the **Capacity Ledger Entries** table.
+- Calculates the total actual time required by summing the **setupTime**, **runTime**, and **stopTime** fields from the **Capacity Ledger Entries** table.
 
 **Data Source**
 
@@ -1860,7 +1857,7 @@ The **Work Center Actual Need** measure calculates the total actual time require
 
 #### Work Center Actual Total Cost
 
-- The **Work Center Actual Total Cost** measure calculates the total actual cost for work centers by adding the **[Direct Cost](#direct-cost)** and **[Overhead Cost](#overhead-cost)** measures.
+- Calculates the total actual cost for work centers by adding the [Direct Cost](#direct-cost) and [Overhead Cost](#overhead-cost) measures.
 
 **Data Source**
 
@@ -1871,7 +1868,7 @@ The **Work Center Actual Need** measure calculates the total actual time require
 
 **Formula**
 
-- The **Work Center Allocated Time** measure calculates the total allocated time for work centers by summing the **allocatedTime** column in the *Prod Order Capacity Need* table, filtered to include only rows where **Requested Only** is FALSE.
+- Calculates the total allocated time for work centers by summing the **allocatedTime** column in the **Prod Order Capacity Need** table, filtered to include only rows where **Requested Only** is **FALSE**.
 
 **Data Source**
 
@@ -1881,7 +1878,7 @@ The **Work Center Actual Need** measure calculates the total actual time require
 
 **Formula**
 
-- The **Work Center Capacity (Effective)** measure calculates the total effective capacity for work centers by summing the **Capacity Effective** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Work Center".
+- Calculates the total effective capacity for work centers by summing the **Capacity Effective** column in the **Calendar Entries** table, filtered to include only rows where **Capacity Type** is **Work Center**.
 
 **Data Source**
 
@@ -1891,7 +1888,7 @@ The **Work Center Actual Need** measure calculates the total actual time require
 
 **Formula**
 
-- The **Work Center Capacity (Total)** measure calculates the total capacity for work centers by summing the **Capacity Total** column in the *Calendar Entries* table, filtered to include only rows where **Capacity Type** is "Work Center".
+- Calculates the total capacity for work centers by summing the **Capacity Total** column in the **Calendar Entries** table, filtered to include only rows where **Capacity Type** is **Work Center**.
 
 **Data Source**
 
@@ -1901,14 +1898,13 @@ The **Work Center Actual Need** measure calculates the total actual time require
 
 **Formula**
 
-- The **Work Center Expected Efficiency %** measure calculates the expected efficiency for work centers by dividing the **[Work Center Capacity (Effective)](#work-center-capacity-effective)** by the **[Work Center Capacity (Total)](#work-center-capacity-total)**.
+- Calculates the expected efficiency for work centers by dividing the [Work Center Capacity (Effective)](#work-center-capacity-effective) by the [Work Center Capacity (Total)](#work-center-capacity-total).
 
 **Data Source**
 
 - Calendar Entry
 
 ## Related information
-
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

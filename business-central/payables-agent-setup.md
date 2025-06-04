@@ -45,11 +45,11 @@ Before configuring and activating the Payables Agent, ensure the following prere
 
    Open the [Extension management](https://businesscentral.dynamics.com/?page=2500) page, select **Payables Agent**, and then turn on the **Allow HttpClient Requests** toggle.
 
-## Turn on the Payables Agent capability for the environment
+## Turn on Payables Agent capability for environment
 
-The agent capability is on if the ![Shows the Payables Agent icon](media/soa-icon.png) **Payables Agent** icon appears in the top navigation menu of the role center.
+The agent capability is on if the ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** icon appears in the top navigation menu of the role center.
 
-![Shows the Payables Agent icon on a role center](media/soa-in-role-center.svg)
+![Shows the Payables Agent icon on a role center](media/payables-agent-in-role-center.svg)
 
 If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
@@ -59,27 +59,26 @@ Next, configure and activate the agent so it can process vendor invoices.
 
 Configure and activate the Payables Agent for your company. Only one Payables Agent is allowed per company, but you can give access to many users.
 
-1. In the navigation bar at the upper right of the role center, select ![Shows the Payables Agent icon](media/soa-icon.png) **Payables Agent** > **Activate**.
+1. In the navigation bar at the upper right of the role center, select ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** > **Activate**.
 
 1. On the **Configure the Payables Agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.
 
-   ![Shows the Payables Agent configuration page](media/soa-configuration.png)
+   ![Shows the Payables Agent configuration page](media/payables-agent-setup.png)
 
 1. Select **Manage user access** to specify additional agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
-
+1. Select **Update** to complete the setup.
 1. Ensure the Payables Agent's language is set to a supported language.
 
    When you configure the agent, it uses the same language as the display language of your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
 
-The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/soa-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices that is sent to the mailbox.
+The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices that is sent to the mailbox.
 
 > [!TIP]
-> See the [Payables Agent process flow](payables-agent#payables-agent-process-flow) to understand the agent in more details and learn how it works.
-
+> Refer to [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) to understand the agent in more details and learn how it works.
 
 > [!NOTE]
-> The ![Shows the Payables Agent icon when the agent is configure but not active](media/soa-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Payables Order Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
+> The ![Shows the Payables Agent icon when the agent is configure but not active](media/payables-agent-not-activated-icon.png) icon indicates the agent is configured with a mailbox, but it's not active. To activate it, select the icon, then select ![Shows the configuration icon for Payables Order Agent](media/soa-configure-icon.png) **Configure Payables Agent** to reopen the configuration page. From there, turn on the **Active** toggle.
 
 ## Manage agent permissions and user access
 
@@ -89,7 +88,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 #### [From Configure Payables Agent](#tab/payablesagentconfig)
 
-1. Open the **Configure Payables Agent** page by selecting ![Shows the Payables Agent icon after configured](media/soa-activated-icon.png) **Payables Agent** > ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure**.
+1. Open the **Configure Payables Agent** page by selecting ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png) **Payables Agent** > ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
 1. Select **Manage user access**.
 1. On the **Select users that can manage or interact with the Agent** page, you can do the following steps:
@@ -102,7 +101,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Set **Status** to **Disabled** to deactivate the agent.
-1. In the **User access** section, you can do the following steps:
+1. In the **User access** section, do the following steps:
 
    - To add a user, select an empty line, select the **User Name** field, then select the user from the list.
    - To give a user permission to configure Payables Agent, select the **Can configure** check box.
@@ -110,7 +109,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 ---
 
-### Manage agent permissions to objects, data, and UI elements
+### Manage agent's permissions to objects, data, and UI elements
 
 The Payables Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **PAYABLES AGENT - [COMPANY]** to open the agent card page.
 
@@ -145,7 +144,7 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 1. Select **User Settings**.
 1. Set **Lanaguage** to a supported English locale.
 
-
 ## Related information
+
 [Payables Agent overview](payables-agent.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

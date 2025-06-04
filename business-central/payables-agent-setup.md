@@ -86,7 +86,7 @@ The **Payables Agent** icon changes to ![Shows the Payables Agent icon after con
 
 As an administrator, you can specify which users have permission to use or configure the Payables Agent. There are two ways to add and configure agent users:
 
-#### [From Configure Payables Agent](#tab/payablesagentconfig)
+#### [From Configure Payables Agent page](#tab/payablesagentconfig)
 
 1. Open the **Configure Payables Agent** page by selecting ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png) **Payables Agent** > ![Shows the configuration icon for Payables Agent](media/soa-configure-icon.png) **Configure**.
 1. Turn off the **Active** toggle.
@@ -111,7 +111,7 @@ As an administrator, you can specify which users have permission to use or confi
 
 ### Manage agent's permissions to objects, data, and UI elements
 
-The Payables Agent has a user account in Business Central, similar to other users. To access this account, search for and open the **Agents** page, and then select **PAYABLES AGENT - [COMPANY]** to open the agent card page.
+The Payables Agent has a user account in Business Central, similar to other users. To edit this account, search for and open the **Agents** page, and then select **PAYABLES AGENT - [COMPANY]** to open the agent card page.
 
 The **Agent Permission Sets** section lists all the permission sets currently assigned to the agent. By default, the Payables Agent has the **PAYABLES AGENT – EDIT** permission set. This set restricts access to only the objects, data, and UI elements (such as pages, fields, and actions) necessary for processing vendor invoices.
 

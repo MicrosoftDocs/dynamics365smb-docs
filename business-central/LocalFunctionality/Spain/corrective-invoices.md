@@ -1,16 +1,18 @@
 ---
 title: Corrective invoices [ES]
-description: The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. 
+description: Learn how to use corrective invoices in Business Central to address errors or disputes affecting VAT amounts or fiscal data.
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
-ms.search.keywords:
-ms.date: 11/28/2023
+ms.search.keywords: corrective invoices, VAT correction, fiscal data correction, invoice dispute
+ms.date: 05/26/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Corrective invoices in the Spanish version
+
 The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices can't be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
 
 The following options are available:  
@@ -26,8 +28,8 @@ The corrective invoice must meet the following requirements:
 - You must clearly indicate the invoice numbers for the invoices you're correcting.  
 - You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
 
-## Related information  
- [Spain Local Functionality](spain-local-functionality.md)
+## Related information
 
+[Spain Local Functionality](spain-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

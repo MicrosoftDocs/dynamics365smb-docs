@@ -4,10 +4,10 @@ description: Learn how to create templates for telematic VAT statements in text 
 author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: telematic VAT statements, VAT
+ms.search.keywords: telematic VAT statements, VAT statement, text file format, VAT statement template, Spanish version
 ms.search.form: 10704, 10705
 ms.date: 05/26/2025
-ms.author: bholtorf statement, text file format, VAT statement template, Spanish version
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---

@@ -152,7 +152,7 @@ Instead of calculating theoretical combinations of variant and location, [!INCLU
 
 ## Item attributes
 
-Items often have general attributes, such as am item number, variant code, location code, and type of order. However, each demand and supply event can have other specifications, such as serial or lot numbers. The planning system plans these attributes in certain ways depending on their level of specification.  
+Items often have general attributes, such as an item number, variant code, location code, and type of order. However, each demand and supply event can have other specifications, such as serial or lot numbers. The planning system plans these attributes in certain ways depending on their level of specification.  
 
 An order-to-order link between demand and supply is another type of attribute that affects the planning system. Learn more at [Order-to-order links](#order-to-order-links).
 

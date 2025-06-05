@@ -97,6 +97,7 @@ Make sure you attend to the notifications raised by the agent to review and appr
 
 All actions done by the agent, including creating and modifying records and calling actions, carry the agent’s user ID. This user ID appears in the same places and in the same way as with other users, such as in list views, history, posted documents, notifications, and more.
 
+
 Additionally, in Business Central, you can set up and use approval workflows to add an extra layer of control to the tasks performed by different users, including agents. Approval workflows can be set up to make the agent create a request for approval for a specific change (for example, to mark the quote as released), and the change isn’t allowed until the request is approved by another user. Learn more in [Use Approval Workflows](across-use-workflows.md).
 
 **If your system or product allows for plug ins or extensibility, include the following questions:**

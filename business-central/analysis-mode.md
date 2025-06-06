@@ -117,7 +117,7 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 > [!NOTE]
 > If you use personalization to add or remove fields from a list page, your choice of visibility is reflected in the **Columns** pane. An added field has the **Show** checkbox cleared. To include the added field in an analysis definition, select the checkbox in the **Columns** pane. To learn more about personalization, go to [Add/remove fields and columns on a page](ui-personalization-user.md#fields).
 
-#### Add fields from a related table
+#### Add fields from related tables
 
 > [!NOTE]
 > Adding fields from related tables is available from version 26.2 and to use it, you must have the **Add Related Fields** permission set. 

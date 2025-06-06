@@ -6,7 +6,7 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: 37008_Primary
+ms.search.form: 37007_Primary
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -59,7 +59,7 @@ The **Actual vs Budget** report uses data from the following tables in [!INCLUDE
 
 ## Try the report
 
-Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?page=37008)
+Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?page=37007)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 

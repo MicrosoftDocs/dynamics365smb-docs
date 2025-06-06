@@ -45,7 +45,7 @@ If any of these requirements aren't met, the feature isn't available for use.
 
 This section applies only if the **Allow data movement** toggle switch appears near the top of the **Copilot & agent capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task.
 
-![Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.](media/allow-data-movement-v3.png)
+![Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.](media/allow-data-movement-v3.png "Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.")
 
 The presence of the **Allow data movement** toggle indicates that the location of your Business Central environment (where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
@@ -66,7 +66,7 @@ Copilot and agent capabilities are active by default when they're made available
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox)
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox "Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.")
 
 ## Granting user access
 
@@ -76,7 +76,7 @@ The following table lists the permissions that are required to use the Copilot f
 
 | Copilot feature | Required permissions |
 |---|---|
-| Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same ones that are required to access the analysis mode. |
 | Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat |**Copilot Sys Features** permission set or execute permission on system object 9690 **Allow Copilot Chat**. |
@@ -103,13 +103,13 @@ Business Central doesn't yet offer granular, object-level permissions so that on
 
 ## Next steps
 
-For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
+For the sales order agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
 
 For other Copilot features, you're ready to try them out. Learn more in the following articles:
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
 - [Analyze list data with Copilot](analysis-assist.md)
-- [Autofill fields with Copilot (preview)](autofill-fields-with-copilot.md)
+- [Autofill fields with Copilot](autofill-fields-with-copilot.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 - [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
@@ -122,7 +122,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  
-[FAQ for autofill with Copilot (preview)](faqs-autofill.md)  
+[FAQ for autofill with Copilot](faqs-autofill.md)  
 [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  

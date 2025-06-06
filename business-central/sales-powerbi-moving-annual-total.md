@@ -1,6 +1,6 @@
 ---
 title: Moving Annual Total (Power BI Report)
-description: The *Moving Annual Total* report provides a total of sales over the last 12 months. 
+description: The Moving Annual Total report provides a total of sales over the last 12 months. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -21,7 +21,7 @@ The report showcases the sales amount moving annual total (MAT), and compares it
 
 :::image type="content" source="media/powerbi/sales/sales-moving-annual-total.png" alt-text="Screenshot of the Moving Annual Total Power BI report" lightbox="media/powerbi/sales/sales-moving-annual-total.png":::
 
-## How to use the report
+## Use the report
 
 Business leaders and managers use the report to identify how the MAT is performing across the period.
 

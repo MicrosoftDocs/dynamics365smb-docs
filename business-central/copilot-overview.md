@@ -26,7 +26,7 @@ Copilot includes a constantly expanding set of capabilities that help users in d
 
 ## How does Copilot approach security, privacy, and compliance?
 
-Copilot is built on the Microsoft cloud and designed for enterprise use, with the security, privacy, and compliance controls that our customers expect. Here's some key points to common questions:
+Copilot is built on the Microsoft cloud and designed for enterprise use, with the security, privacy, and compliance controls that our customers expect. Here are some key points to common questions:
 
 - When a user interacts with Copilot, it inherits their data permissions and can't read any more data than the user already has access to.
 - Microsoft doesn't read your prompts or use your data to train AI models without your explicit permission.
@@ -68,9 +68,9 @@ Copilot in Business Central relies on powerful AI foundation models that are cou
 
 You can extend and enhance Copilot in Business Central by using tools that are part of Business Central's standard development platform. Learn more in [Integrating AI using Developer Tools for Copilot](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
 
-You can also connect copilots by using Copilot Studio. In addition, you can implement your own standalone AI-powered apps and services that connect to Business Central. Learn more in [Adopt, extend, and build Copilot experiences across the Microsoft Cloud](/microsoft-cloud/dev/copilot/overview).
+You can also connect copilots by using Copilot Studio. In addition, you can implement your own stand-alone AI-powered apps and services that connect to Business Central. Learn more in [Adopt, extend, and build Copilot experiences across the Microsoft Cloud](/microsoft-cloud/dev/copilot/overview).
 
-## How do I stay up with the latest news about Copilot in Business Central?
+## How do I stay up to date with the latest news about Copilot in Business Central?
 
 For news about Copilot and other AI innovation in Business Central, you can follow [the release plans](https://aka.ms/BCReleasePlan).
 
@@ -86,9 +86,9 @@ Microsoft empowers people to achieve more through copilots that are adapted to d
 
 ## Does Copilot in Business Central work with Copilot for Microsoft 365?
 
-Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. Meaning, Copilot features inside Business Central are unaware of your Microsoft 365 data.
+Currently, there's no direct connection between Copilot in Business Central and Microsoft 365 Copilot. Copilot features inside Business Central are unaware of your Microsoft 365 data.
 
-Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to utilize Business Central data. One such option is Microsoft 365 Copilot for Finance, a standalone product that utilizes general GPT training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
+Conversely, when working in the Microsoft 365 suite of applications there are options for Copilot to use Business Central data. One such option is Microsoft 365 Copilot for Finance, a stand-alone product that uses general GPT training data, Microsoft 365 Graph data, and ERP information. Microsoft 365 Copilot for Finance can connect to Business Central and work with ERP data useful to specific contexts and scenarios, like collections management.
 
 Learn more about Microsoft 365 Copilot for Finance with Business Central in [Collect outstanding balances](receivables-collect-outstanding-balances.md). Learn more general information at [Microsoft 365 Copilot for Finance](https://www.microsoft.com/microsoft-365/copilot/copilot-for-finance).
 

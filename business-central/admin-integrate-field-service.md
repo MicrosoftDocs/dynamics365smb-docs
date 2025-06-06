@@ -58,7 +58,7 @@ You must download the following apps from AppSource, and install them in your [!
 - [Business Central Virtual Table](https://go.microsoft.com/fwlink/?linkid=2304910)
 
 > [!NOTE]
-> The [!INCLUDE [prod_short](includes/prod_short.md)] Virtual Table app is optional. You only need it if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [Make item availability information in Business Central available in Field Service](#make-item-availability-information-in-business-central-available-in-field-service).
+> The [!INCLUDE [prod_short](includes/prod_short.md)] Virtual Table app is optional. You only need it if you want to view information about item availability from [!INCLUDE [prod_short](includes/prod_short.md)] in [!INCLUDE [field-service-short](includes/field-service-short.md)]. To learn more, go to [Optional: Make item availability information in Business Central available in Field Service](#optional-make-item-availability-information-in-business-central-available-in-field-service).
 
 ### Assign permissions and security roles to user accounts
 
@@ -144,7 +144,7 @@ When you finish the assisted setup guide, integration mappings are created. The 
 |**PJLINE-WORDERPRODUCT** | Maps work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].  |
 |**PJLINE-WORDERSERVICE** |  Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].  |
 |**PROJECTTASK** |  Maps projects and project tasks in [!INCLUDE [prod_short](includes/prod_short.md)] to products in external projects in [!INCLUDE [field-service-short](includes/field-service-short.md)].  |
-|**RESOURCE-BOOKABLERSC**  | Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)]. This mapping can also include resources that are users, which requires a few settings. To learn more, go to [Synchronize resources that are people as bookable resources](#synchronize-resources-that-are-people-as-bookable-resources).   |
+|**RESOURCE-BOOKABLERSC**  | Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)]. This mapping can also include resources that are users, which requires a few settings. To learn more, go to [Synchronize resources that are people with bookable resources](#synchronize-resources-that-are-people-with-bookable-resources).   |
 |**LOCATIONS**     |  Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)]. <br><br> **Note:** The **LOCATIONS** integration table mapping is available only if you turn on the **Location Mandatory** toggle on the **Inventory Setup** page.      |
 
 The following integration table mappings install if you choose the **Project and Service** integration type.

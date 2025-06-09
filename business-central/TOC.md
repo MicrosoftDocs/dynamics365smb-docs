@@ -979,8 +979,14 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Prod. Order List (Power BI Report)](manufacturing-powerbi-prod-order-list.md)
+##### [Production Order Overview (Power BI Report)](manufacturing-powerbi-production-order-overview.md)
+##### [Prod. Order Routing Gantt (Power BI Report)](manufacturing-powerbi-prod-order-routing-gantt.md)
+##### [Production Order WIP (Power BI Report)](manufacturing-powerbi-prod-order-wip.md)
+##### [Machine Center Load (Power BI Report)](manufacturing-powerbi-machine-center-load.md)
+##### [Machine Center Statistics (Power BI Report)](manufacturing-powerbi-machine-center-statistics.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
-
+##### [Work Center Statistics (Power BI Report)](manufacturing-powerbi-work-center-statistics.md)
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
 #### Built-in production reports

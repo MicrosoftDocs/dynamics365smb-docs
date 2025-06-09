@@ -1134,6 +1134,23 @@ ms.service: dynamics-365-business-central
 <!--Sustainability-->
 ## Sustainability management
 ### [Sustainability management overview](finance-manage-sustainability.md)
+### Sustainability analytics
+#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+#### [Built-in sustainability reports](sustainability-reports.md)
+#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### Power BI sustainability app
+##### [Sustainability Power BI app](sustainability-powerbi-app.md)
+##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
+##### [Co2e Decomposition Tree (Power BI Report)](sustainability-powerbi-co2e-decomposition-tree.md)
+##### [Co2e Key Influences (Power BI Report)](sustainability-powerbi-co2e-key-influences.md)
+##### [Emissions by Category and Scope (Power BI Report)](sustainability-powerbi-emissions-by-category-and-scope.md)
+##### [Journey to Net Zero Carbon (Power BI Report)](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
+##### [Realized Emissions vs Baseline (Power BI Report)](sustainability-powerbi-realized-emissions-vs-baseline.md)
+##### [Realized Emissions vs Target (Power BI Report)](sustainability-powerbi-realized-emissions-vs-target.md)
+##### [Social Analysis (Power BI Report)](sustainability-powerbi-social-analysis.md)
+##### [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)
+##### [Water and Waste Analysis (Power BI Report)](sustainability-powerbi-water-and-waste-analysis.md)
 ### [Sustainability setup](finance-sustainability-setup.md)
 ### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 ### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
@@ -1149,10 +1166,6 @@ ms.service: dynamics-365-business-central
 #### [Value Chain in Assembly process](value-chain-howto-assembly.md)
 #### [Value Chain in Production process](value-chain-howto-mfg.md)
 #### [Value Chain in Sales](value-chain-howto-sales.md)
-### Sustainability analytics
-#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
-#### [Built-in sustainability reports](sustainability-reports.md)
-#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
 ### Sustainability APIs
 #### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 

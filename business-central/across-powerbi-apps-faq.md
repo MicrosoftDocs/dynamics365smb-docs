@@ -39,6 +39,13 @@ You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for t
 
 The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
 
+## What [!INCLUDE[prod_short](includes/prod_short.md)] licenses do I need?
+
+[!INCLUDE[about_bc_licensing_for_powerbi](includes/about_bc_licensing_for_powerbi.md)]
+
+[!INCLUDE[about_licensing](includes/about_licensing.md)]
+
+
 ## Can I install the same app multiple times for different companies or environments?
 
 Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app.

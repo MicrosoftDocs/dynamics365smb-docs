@@ -63,15 +63,28 @@ The connector apps are preinstalled with [!INCLUDE [prod_short](includes/prod_sh
 
 Template apps are available to install from Microsoft AppSource. To install or update one or more of the template apps, go to one of the install links in the following table and select **Get it now**.
 
-| To get the template app for... | Use this install link             |
-|--------------------------------| --------------------------------- |
-| Finance                        | https://aka.ms/bc-pbi-finance-app                 |
-| Sales                          | https://aka.ms/bc-pbi-sales-app                   |
-| Purchasing                     | https://aka.ms/bc-pbi-purchase-app                |
-| Inventory                      | https://aka.ms/bc-pbi-inventory-app               |
-| Inventory Valuation            | https://aka.ms/bc-pbi-inventory-valuation-app     | 
-| Manufacturing                  | https://aka.ms/bc-pbi-manufacturing-app |
-| Projects                       | https://aka.ms/bc-pbi-projects-app      |
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| -------------- | ------------------------------------------------- |
+| Finance                        | 26.2 and later | https://aka.ms/bc-pbi-finance-app                 |
+| Inventory                      | 26.2 and later | https://aka.ms/bc-pbi-inventory-app               |
+| Inventory Valuation            | 26.2 and later | https://aka.ms/bc-pbi-inventory-valuation-app     | 
+| Manufacturing                  | 26.2 and later | https://aka.ms/bc-pbi-manufacturing-app           |
+| Purchasing                     | 26.2 and later | https://aka.ms/bc-pbi-purchase-app                |
+| Projects                       | 26.2 and later | https://aka.ms/bc-pbi-projects-app                |
+| Sales                          | 26.2 and later | https://aka.ms/bc-pbi-sales-app                   |
+| Subscription Billing           | 26.2 and later | https://aka.ms/bc-pbi-subscription-billing-app    |
+| Sustainability                 | 26.2 and later | https://aka.ms/bc-pbi-sustainability-app          |
+
+
+| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
+|--------------------------------| ------------ | -------------------------------------------------- |
+| Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
+| Inventory                      | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-app-25-2           |
+| Inventory Valuation            | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-valuation-app-25-2 | 
+| Manufacturing                  | 25.2 to 26.1 | https://aka.ms/bc-pbi-manufacturing-app-25-2       |
+| Purchasing                     | 25.2 to 26.1 | https://aka.ms/bc-pbi-purchase-app-25.2            |
+| Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
+| Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
 Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] account credentials. Follow the instructions to install the app in [!INCLUDE [powerbi-name](includes/powerbi-name.md)].
 

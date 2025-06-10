@@ -4,7 +4,7 @@ description: View a list of key combinations (keyboard shortcuts) that you can u
 author: jswymer
 ms.topic: article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2025
+ms.date: 05/28/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -187,7 +187,8 @@ These shortcuts apply to fields on card and document pages when the Autofill fie
 
 | Select these keys<br>(these keys in macOS) | To do this |
 |---|---|
-| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.<br><br>On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon.|
+| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.|
+| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> |On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon.|
 |<kbd>Backspace</kbd>, <kbd>Delete</kbd>, or <kbd>Escape</kbd>|Discard the suggestion on a selected field to return to the value.|
 |<kbd>F2</kbd>|Edit a suggestion for a selected field.|
 

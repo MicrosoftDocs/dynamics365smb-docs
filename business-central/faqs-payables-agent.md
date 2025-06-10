@@ -28,13 +28,52 @@ The agent is readily available in the product; you just need to activate it. The
 
 ## What are the capabilities of the Payables Agent?
 
-The agent operates based on its instructions and user configuration. It uses AI to identify and carry out the steps needed to complete this task within the Business Central environment. The agent is provided with its own set of high-level business instructions, which describe its purpose, outline the task it needs to perform, and additional considerations it needs to take when performing the steps. These instructions are defined in the agent code and are not visible to the users. When configuring the Payables Agent, users can define the list of other users who can delegate their tasks to the agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated purchase document draft into a purchase invoice). To execute its tasks, the payables agent interacts with the Business Central web client using a logical representation of the UI called the logical UI API. Through that logical UI API, the agent can read the data displayed on the product pages and access properties of the UI elements (for example, names and descriptions of the pages, fields, actions, and tooltips). It can then combine that data with the instructions provided by the users during agent configuration, along with data received via e-mail messages, and then use AI with its conventional business knowledge to orchestrate the steps needed to complete each step and the overall task. The agent integrates with Azure Document Intelligence for performing OCR analysis on the source e-mail attachment, and for matching vendor’s invoice lines with accounts or items it uses both mapping tables and historical data from the customer’s database and integrates with an LLM to match the line descriptions with names of G/L accounts from the customer’s database.
+The Payables Agent operates in Business Central using AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product.
+
+- Agent instructions
+
+  The agent receives high-level business instructions that define its purpose, outline the tasks it performs, and specify additional considerations. These instructions are set in the agent code and are not visible to users.
+
+- Configuration
+
+  When configuring the Payables Agent, users can:
+
+  - Define which users can delegate tasks to the agent.
+  - Set channels for receiving orders (for example, email).
+  - Select which steps of the order-taking process to include or exclude (for example, whether to convert a purchase document draft into a purchase invoice).
+  - Assign predefined permissions and a UI role (profile) to control which parts of the product and UI elements the agent can access.
+
+- Task execution
+
+  The agent is invoked by a built-in email dispatcher, which runs as a scheduled task and monitors the company mailbox specified in the agent’s configuration. The dispatcher forwards email attachments from vendors to the Payables Agent, which prepares a draft purchase invoice based on the attachment data.
+
+- Interaction with Business Central web client
+
+  The agent interacts with the Business Central web client using the logical UI API. This allows the agent to:
+
+  - Read data displayed on product pages.
+  - Access properties of UI elements (such as names, descriptions, fields, actions, and tooltips).
+  - Combine this data with user-provided instructions and email data.
+  - Use AI and business knowledge to orchestrate the steps needed to complete each task.
+
+- Integration with other services
+
+  The agent integrates with Azure Document Intelligence for OCR analysis of email attachments. It matches vendor invoice lines with accounts or items using mapping tables, historical data, and an LLM to match line descriptions with G/L account names from the customer’s database.
+
+- Human Intervention and Transparency
+
+  The agent seeks user intervention in specific situations, such as when a matching vendor or G/L account cannot be found or when business approval is required. It issues in-product notifications on the role center to bring users into the loop when their attention is needed.
+
+  For each task, users receive a detailed timeline showing key steps taken by the agent and human users, including the receipt of the initial email. Users can review and update the agent’s suggested values and actions as needed.
+
+<!--
+The agent operates based on its instructions and user configuration. It uses AI to identify and carry out the steps needed to complete this task within the Business Central environment. The agent is provided with its own set of high-level business instructions, which describe its purpose, outline the task it needs to perform, and additional considerations it needs to take when performing the steps. These instructions are defined in the agent code and are not visible to the users. When configuring the Payables Agent, users can define the list of other users who can delegate their tasks to the agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated purchase document draft into a purchase invoice). To execute its tasks, the payables agent interacts with the Business Central web client using a logical representation of the UI called the logical UI API. Through that logical UI API, the agent can read the data displayed on the product pages and access properties of the UI elements (for example, names and descriptions of the pages, fields, actions, and tooltips). It can then combine that data with the instructions provided by the users during agent configuration, along with data received via e-mail messages, and then use AI with its conventional business knowledge to orchestrate the steps needed to complete each step and the overall task. The agent integrates with Azure Document Intelligence for performing OCR analysis on the source e-mail attachment, and for matching vendor’s invoice lines with accounts or items it uses both mapping tables and historical data from the customer’s database and integrates with an LLM to match the line descriptions with names of G/L accounts from the customer’s database. 
 
 The agent runs as just another user in Business Central and is granted access solely to the necessary parts of the product to perform its task. It comes with predefined permissions and a UI role (profile) that can be assigned to it by the configuring user, limiting which parts of the product the agent can access and which UI elements (pages, fields, actions and FactBoxes) it can interact with. The agent will seek user intervention when specific situations arise, for instance, when a matching vendor or G/L account can’t be found or when providing business approval for key operations is necessary.  
 
 The agent is invoked by a built-in e-mail dispatcher, running as a scheduled task, which monitors the company mailbox that’s specified in the agent’s configuration settings. The dispatcher hands over e-mail attachments received from the vendors to the Payables Agent. The Payables Agent prepares a draft for the purchase invoice based on the data in the attachment. Business Central maintains full transparency and provides control over changes made by the agent.
 
-The agent brings humans in the loop when their attention is required by issuing in-product notifications that are displayed on the role center. This happens when the agent needs users to provide some missing details to get unblocked, or to provide business approval for important changes. For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the receiving of the initial e-mail. Users can review this information and update the values and actions the agent suggested if needed.
+The agent brings humans in the loop when their attention is required by issuing in-product notifications that are displayed on the role center. This happens when the agent needs users to provide some missing details to get unblocked, or to provide business approval for important changes. For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the receiving of the initial e-mail. Users can review this information and update the values and actions the agent suggested if needed.-->
 
 ## What is the intended us of the Payables Agent?
 

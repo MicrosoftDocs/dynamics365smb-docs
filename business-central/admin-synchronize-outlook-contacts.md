@@ -32,7 +32,7 @@ On the **Exchange Sync. Setup** page, you can validate that the connection to Ex
 
 Each of your coworkers can also set up their own Exchange synchronization and set their own filters on which contacts to synchronize.  
 
-After you set up synchronization, you can sync changes to the contact manually, or automate the process by setting up a job queue entry (2023 release wave 2 and earlier only). Learn more about automation in the next section of this article.
+After you set up synchronization, sync changes manually. Business Central versions 2023 release wave 2 and earlier support automated synchronization. Learn more about automation in the next section of this article.
 
 ### Automate synchronization (background synchronization)
 

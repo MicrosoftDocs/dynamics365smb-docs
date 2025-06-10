@@ -89,7 +89,7 @@ The Payables Agent was tested for accuracy and safety.
 
 ### Languages
 
-- The system was tested with the content (emails and product localization) provided in US English.
+- [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)].
 - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
 
 ### Email
@@ -116,7 +116,7 @@ The Payables Agent was tested for accuracy and safety.
 
 ## What operational factors and settings allow for effective and responsible use of payables agent?
 
-Like any other user in Business Central, the Payables Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that can be assigned to the agent by the configuring user or administrator. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.
+<!--Like any other user in Business Central, the Payables Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that can be assigned to the agent by the configuring user or administrator. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.
 
 We strongly encourage using the permission sets and the profile included with the payables agent, which can be assigned on the Agent card. This ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
 
@@ -132,23 +132,32 @@ Make sure you attend to the notifications raised by the agent to review and appr
 All actions done by the agent, including creating and modifying records and calling actions, carry the agent’s user ID. This user ID appears in the same places and in the same way as with other users, such as in list views, history, posted documents, notifications, and more.
 
 
-Additionally, in Business Central, you can set up and use approval workflows to add an extra layer of control to the tasks performed by different users, including agents. Approval workflows can be set up to make the agent create a request for approval for a specific change (for example, to mark the quote as released), and the change isn’t allowed until the request is approved by another user. Learn more in [Use Approval Workflows](across-use-workflows.md).
+Additionally, in Business Central, you can set up and use approval workflows to add an extra layer of control to the tasks performed by different users, including agents. Approval workflows can be set up to make the agent create a request for approval for a specific change (for example, to mark the quote as released), and the change isn’t allowed until the request is approved by another user. Learn more in [Use Approval Workflows](across-use-workflows.md).-->
 
-**If your system or product allows for plug ins or extensibility, include the following questions:**
+- Access control and permissions
 
-- **What are plugins and how does the payables agent use them?**  
+  Like any other user in Business Central, the Sales Order Agent can be granted access exclusively to the specific parts of the product required to perform its designated tasks. The agent comes with predefined permissions and a user interface (UI) role, also known as a profile, that an administrator or configuring user can assign to the agent. This assignment restricts the agent's access to certain areas of the product. It defines the type of access (for example, whether the agent is only allowed to read specific data or also update or delete it) and determines which UI elements—such as pages, fields, actions, and FactBoxes—it can interact with.  
 
-  The payables agent is created and maintained by Microsoft, and its code is not extensible by other solutions or plugins.
+  We strongly encourage using the permission sets and the profile included with the Sales Order Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
 
-- **What data can the payables agent provide to plug ins? What permissions do payables agent plugins have?** 
+  Learn more in [Set up Payables Agent](payablesr-agent-setup.md).
 
-  The payables agent is created and maintained by Microsoft, and its code is not extensible by other solutions or plugins. 
+- Transparency and notifications
 
-- **What kinds of issues may arise when using the payables agent enabled with plugins?**  
+  Business Central users can maintain full transparency and control over the changes made by the Sales Order Agent by using other experiences that enable them to:
 
-  The payables agent is created and maintained by Microsoft, and its code is not extensible by other solutions or plugins.  
+  - Receive notifications on the role center that come from the agent when it requires help or when the process demands human review. For example, review is required for all inbound and outbound messages, approvals, adding missing data, and similar reasons.
+  - Get a better understanding of the specific task context and history (“timeline” view), including key steps involved in it.
+  - Get a detailed review of each entity created by the agent (for example, a sales quote or sales order that surfaces all changes and suggestions made by the agent within a specific task. This behavior allows humans to review and adjust changes, and then sign out on proceeding with the task.
+  - Get an overview of the agent's KPIs (Key Performance Indicators) that summarize the impact of the agent's work. For example, you can get an overview of the number of sales quotes or orders created by the agent and the total number of these orders.
 
-Learn more about Responsible AI (RAI) at [https://aka.ms/RAI](https://aka.ms/RAI).
+    Make sure you attend to the notifications raised by the agent to review and approve its work.  
+- All actions done by the agent, including creating and modifying records and calling actions, carry the agent's user ID. This user ID appears in the same places and in the same way as it does with other users, such as in list views, history, posted documents, notifications, and more.  
+- Approval workflows can be used to add an extra layer of control to the tasks done by the agent, as they do with other users. You can set up approval workflows to make the agent create a request for approval for a specific change, for example, to mark the quote as released. The change isn't allowed until another user approves the request. Learn more in [Use Approval Workflows](across-how-use-approval-workflows.md).
+
+## Is this capability extensible?
+
+No. The Payables Agent is created and maintained by Microsoft, and its code isn't extensible by other solutions or plugins.
 
 ## Related information
 

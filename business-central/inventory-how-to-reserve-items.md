@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.forms: 498, 497
-ms.date: 05/14/2024
+ms.date: 06/10/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -77,7 +77,7 @@ The quantity you entered in the firm planned production component line is now re
 Use the **Reservation Worksheet** page to reserve and allocate incoming goods in bulk. For example, bulk reservations can help ensure that quantities are available for your sales and production orders. You can have multiple batches for different purposes. For example, you might allocate production orders on a weekly basis but reserve daily for sales.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reservation Worksheet**, then choose the related link.  
-2. Choose the **Get Demand** action. The **Get Demand to Reserve** page opens.
+1. Choose the **Get Demand** action. The **Get Demand to Reserve** page opens.
 1. On the **Get Demand to Reserve** page, specify the kind of demand you want to reserve from available inventory.
 1. Fill in the filters as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 1. Optional: To allocate the items right away, choose the **Allocate** action.
@@ -89,8 +89,8 @@ Use the **Reservation Worksheet** page to reserve and allocate incoming goods in
    |Equally    | Distributes available stock to demand equally. For example, you have a sales order with a quantity of 10, and a job with a quantity of 7. If your stock level is 20, then both demands will receive full quantity. If your stock is 12, then both demands will get 6.        |
    |By Customer Priority|Distribution based on the **Priority** field on the **Customer Card** page. In cases of low inventory quantities, Business Central supplies higher-priority customers first.|
 
-6. To reserve all lines where **Accept** is turned on, choose the **Make reservation** action.
-    
+1. To reserve all lines where **Accept** is turned on, choose the **Make reservation** action.
+
 ## Change a reservation
 
 You can change an item reservation.

@@ -4,7 +4,7 @@ description: The planning system can calculate either Master Production Schedule
 author: brentholtorf
 ms.topic: how-to
 ms.search.form: 99000852, 99000860
-ms.date: 01/24/2024
+ms.date: 06/10/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template 
@@ -13,16 +13,16 @@ ms.service: dynamics-365-business-central
 ---
 # Run Full Planning, MPS, or MRP
 
-The terms "running the planning worksheet" or "running MRP" refer to calculating the master production schedule and material requirements. The calculation is based on actual and forecasted demand. The planning system can calculate either Master Production Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.  
+The terms "running the planning worksheet" or "running MRP" refer to calculating the master production schedule (MPS) and material requirements planning (MRP). The calculation is based on actual and forecasted demand. The planning system can calculate MPS and MRP on request, or both at the same time.  
 
 - MPS is the calculation of a master production schedule based on actual demand and the demand forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called MPS items and are identified dynamically when the calculation starts.  
 - MRP is the calculation of material requirements based on actual demand for components and the demand forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, and in the appropriate quantity.  
 
 The planning algorithms for MPS and MRP are the same. The algorithms pertain to netting, reusing existing replenishment orders, and action messages. The planning system process examines what is, or will be, needed (demand) and what's on-hand or expected (supply). When you net these quantities against each other, [!INCLUDE[prod_short](includes/prod_short.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order. The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.
 
-You can track the links that the planning creates between demand and supply on the **Order Tracking** page. For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
+You can track the links that the planning creates between demand and supply on the **Order Tracking** page. Learn more at [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
 
-Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
+Planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
 
 ## Methods for generating a plan  
 
@@ -35,7 +35,7 @@ Proper planning results depend on the set up done on item cards, assembly BOMs, 
 With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generates worksheet entries assuming infinite capacity. Work center and machine center capacity isn't considered when you develop schedules.  
 
 > [!IMPORTANT]  
-> The Calculate Regenerative Plan is the most common process. The Calculate Plan and Carry out Action Messages, however, can be used to run the Calculate Net Change Plan process.  
+> Calculate Regenerative Plan is the most common process. The Calculate Plan and Carry out Action Messages, however, can run the Calculate Net Change Plan process.  
 >
 > You can run the Get Action Messages Plan between regenerative and net change planning runs to obtain an immediate view of the effect of schedule changes. However, it isn't meant to replace the full regenerative or net change planning processes.  
 
@@ -105,10 +105,10 @@ In response to any supply/demand imbalances, the following action messages are g
 
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Design Details: Supply Planning](design-details-supply-planning.md)   
+[Design Details: Supply Planning](design-details-supply-planning.md)  
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

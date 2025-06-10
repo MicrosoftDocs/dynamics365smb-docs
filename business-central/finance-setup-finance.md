@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.form: 118_Primary
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/17/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ---
 # Setting up finance
@@ -22,7 +22,7 @@ Many of the setup tasks must be completed before you can begin recording financi
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
-| To | See |
+| To... | Go to... |
 | --- | --- |
 |View or edit general ledger accounts to which all general ledger entries are posted|[Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md)|
 | Specify how you want to be paid by customers, and how you want to pay your vendors. |[Set Up Payment Methods](finance-payment-methods.md) |

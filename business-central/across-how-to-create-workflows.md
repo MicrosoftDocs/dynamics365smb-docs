@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/29/2024
+ms.date: 06/10/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 
@@ -31,16 +31,18 @@ When you create workflows, you can copy the steps from existing workflows or fro
 A workflow is divided into three sections:
 
 1. **When Event**  
-   This is where the trigger is selected.  
+   This is where you select the trigger.  
+
    Examples of a trigger:
+
    * A master data record is changed
    * A journal line is created
    * An incoming document is created or released
    * Approval of a document is requested
 2. **On Condition**  
-   The **conditions** are related to the event and allows creating filters to decide on how the workflow continues.
+   Conditions are related to the event and allow you to create filters to specify how the workflow continues.
 3. **Then Response**  
-   The **responses** specify the next steps in the workflow.
+   Responses specify the next steps in the workflow.
 
 The options for events and responses are system-defined. To add new options, you'll need to develop an extension.
 
@@ -104,7 +106,7 @@ The options for events and responses are system-defined. To add new options, you
     2. Indicate the step is one of several alternative steps that may start, depending on its condition, by indenting the event name to match the other alternative steps. Order such optional steps according to priority by placing the most important step first.  
 
     > [!NOTE]  
-    >  You can only change the indent of a step that doesn't have a subsequent step.  
+    > You can only change the indent of a step that doesn't have a subsequent step.  
 
 12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step you've created.  
 13. Turn on the **Enabled** toggle to specify that the workflow will start when the event on the first step of type **Entry Point** occurs. Learn more at [Use Workflows](across-use-workflows.md).  

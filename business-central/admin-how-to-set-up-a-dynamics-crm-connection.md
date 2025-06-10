@@ -1,20 +1,20 @@
 ---
 title: Connect to Microsoft Dataverse
-description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 business app.
+description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 app.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.forms: 7200, 7201
-ms.date: 02/28/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ---
 # Connect to Microsoft Dataverse
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-This article describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
+This article describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## Before you start
 
@@ -26,11 +26,11 @@ There are a few pieces of information to have ready before you create the connec
 * The local currencies that each company uses. [!INCLUDE [prod_short](includes/prod_short.md)] companies can connect to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment that has a base currency that's different than their local currency. To learn more about how to handle multi-currency setups, go to [Allow for different currencies](#allow-for-different-currencies).
 
 > [!IMPORTANT]
-> Your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment must not be in Administration mode. Administration mode will cause the connection to fail because the integration user account for the connection does not have administrator permissions. For more information, see [Administration mode](/power-platform/admin/admin-mode).
+> Your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment must not be in Administration mode. Administration mode will cause the connection to fail because the integration user account for the connection does not have administrator permissions. Learn more at [Administration mode](/power-platform/admin/admin-mode).
 
 > [!Note]
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and aren't using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and aren't using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account isn't required or displayed. The integration user will be set up automatically and doesn't require a license.
 
 ## Link your Business Central and Dataverse environments
 
@@ -132,9 +132,9 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## Customize the match-based coupling
 
-Starting in 2021 release wave 2, an administrator can enter criteria to couple records based on matches. You can start the algorithm for matching records from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
+Administrators can enter criteria to couple records based on matches. You can start the algorithm for matching records from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-* List pages that show records that are synchronized with [!INCLUDE [cds_long_md](includes/cds_long_md.md)], such as the Customers and Items pages.  
+* List pages that show records that are synchronized with [!INCLUDE [cds_long_md](includes/cds_long_md.md)], such as the **Customers** and **Items** pages.  
 
     Select multiple records, and then choose the **Related** action, choose **Dataverse**, choose **Coupling**, and then choose **Match-Based Coupling**.
 
@@ -168,7 +168,7 @@ To view the results of the coupling job, open the **Integration Table Mappings**
 
 If records failed to couple, you can choose the value in the **Failed** column to open a list of errors that describe why that happened.  
 
-Typically, coupling fails for the following reasons:
+If coupling fails, it's typically for one of the following reasons:
 
 * No matching criteria was defined
 
@@ -194,9 +194,9 @@ Typically, coupling fails for the following reasons:
 > [!NOTE]
 > This section is relevant only for [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
 
-In April 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating the Office365 authentication type (username/password). For more information, see [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March 2022, [!INCLUDE[prod_short](includes/prod_short.md)] is deprecating the use of client secret based service-to-service authentication for online tenants. You must use certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by ISVs, and on-premises installations can continue to use client secrets for authentication.
+In April 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] deprecated the Office365 authentication type (username/password). Learn more at [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March 2022, [!INCLUDE[prod_short](includes/prod_short.md)] deprecated the use of client secret based service-to-service authentication for online tenants. You must use certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by ISVs, and on-premises installations can continue to use client secrets for authentication.
 
-To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
+To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. The following steps describe how to upgrade to certificate-based authentication.
 
 ### To upgrade your Business Central online connection to use certificate-based authentication
 
@@ -213,18 +213,18 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
-To connect using a Microsoft Entra account, you must register an application in Microsoft Entra ID. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
+To connect using a Microsoft Entra account, you must register an application in Microsoft Entra ID. You must provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. Learn more at [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret is saved as an encrypted string in your database.
 
 ### To register an application in Microsoft Entra ID for connecting from Business Central to Dataverse
 
-The following steps assume that you use Microsoft Entra ID to manage identities and access. For more information about registering an application in Microsoft Entra ID, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
+The following steps assume that you use Microsoft Entra ID to manage identities and access. To learn more about registering an application in Microsoft Entra ID, go to [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.  
 2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Dataverse Connection Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)].
 3. Under **Manage**, choose **API permissions**.
 4. Under **Configured permissions**, choose **Add a permission**, and then add delegated permissions on the **Microsoft APIs** tab as follows:
-    * For Business Central, add the **Financials.ReadWrite.All** permissions.
-    * For Dynamics CRM, add the **user_impersonation** permissions.  
+    * For [!INCLUDE [prod_short](includes/prod_short.md)], add the **Financials.ReadWrite.All** permissions.
+    * For [!INCLUDE[cds_long_md](includes/cds_long_md.md)], add the **user_impersonation** permissions.  
 
     > [!NOTE]
     > The name of the Dynamics CRM API might change.

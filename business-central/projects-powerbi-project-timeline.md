@@ -9,7 +9,7 @@ ms.search.keywords: reporting
 ms.search.form: 37106_Primary
 ms.date: 04/29/2025
 ms.service: dynamics-365-business-central
-ROBOTS: NOINDEX
+
 ---
 
 # Project Timeline (Power BI Report)

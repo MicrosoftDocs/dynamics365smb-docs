@@ -34,20 +34,6 @@ Each of your coworkers can also set up their own Exchange synchronization and se
 
 After you set up synchronization, sync changes manually. Business Central versions 2023 release wave 2 and earlier support automated synchronization. Learn more about automation in the next section of this article.
 
-### Automate synchronization (background synchronization)
-
-> [!IMPORTANT]
-> Starting in 2024 release wave 1 (version 24), you can't turn on background synchronization anymore. If it's currently on, it works as expected. If you turn it off, you can't turn it on again.
-
-To automate sync, if the **Enable Background Synchronization** toggle is on, create a job queue entry to sync contacts on a schedule you set. Learn more in [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
-
-The following table lists the settings on the **Job Queue Entry Card** page for syncing contacts:
-
-|Field|Setting for contact sync|
-|-----|-----|
-|Object Type to Run|Codeunit|
-|Object ID to Run|6700|
-
 ## Synchronize contacts
 
 To sync contacts, select one of these actions on the **Exchange Sync. Setup** page:
@@ -63,7 +49,21 @@ To sync contacts, select one of these actions on the **Exchange Sync. Setup** pa
 In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Microsoft 365 are **Name**, **Email address** and the contact must be of the type **Person**. [!INCLUDE[prod_short](includes/prod_short.md)] is the source of the contact information, so the [!INCLUDE[prod_short](includes/prod_short.md)] contact information is saved if there are duplicates.  
 
 > [!NOTE]
-> If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync. 
+> If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync.
+
+### Automate synchronization (background synchronization)
+
+> [!IMPORTANT]
+> Starting in 2024 release wave 1 (version 24), you can't turn on background synchronization anymore. If it's currently on, it works as expected. If you turn it off, you can't turn it on again.
+
+To automate sync, if the **Enable Background Synchronization** toggle is on, create a job queue entry to sync contacts on a schedule you set. Learn more in [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+
+The following table lists the settings on the **Job Queue Entry Card** page for syncing contacts:
+
+|Field|Setting for contact sync|
+|-----|-----|
+|Object Type to Run|Codeunit|
+|Object ID to Run|6700|
 
 ## Related information
 

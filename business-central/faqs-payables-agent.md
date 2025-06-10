@@ -30,41 +30,40 @@ The agent is readily available in the product; you just need to activate it. The
 
 The Payables Agent operates in Business Central using AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product.
 
+
 - Agent instructions
 
-  The agent receives high-level business instructions that define its purpose, outline the tasks it performs, and specify additional considerations. These instructions are set in the agent code and are not visible to users.
+  The agent gets high-level business instructions that define its purpose, outline the tasks it performs, and specify additional considerations. These instructions are set in the agent code and aren't visible to users.
 
 - Configuration
 
-  When configuring the Payables Agent, users can:
-
-  - Define which users can delegate tasks to the agent.
-  - Set channels for receiving orders (for example, email).
-  - Select which steps of the order-taking process to include or exclude (for example, whether to convert a purchase document draft into a purchase invoice).
+  When you set up the Payables Agent, you can:
+  
+  - Define which users delegate tasks to the agent.
+  - Set channels for receiving orders, like email.
+  - Select which steps of the order-taking process to include or exclude, like converting a purchase document draft into a purchase invoice.
   - Assign predefined permissions and a UI role (profile) to control which parts of the product and UI elements the agent can access.
 
-- Task execution
+- Task execution and interaction
 
-  The agent is invoked by a built-in email dispatcher, which runs as a scheduled task and monitors the company mailbox specified in the agent’s configuration. The dispatcher forwards email attachments from vendors to the Payables Agent, which prepares a draft purchase invoice based on the attachment data.
+  A built-in email dispatcher runs as a scheduled task and monitors the company mailbox specified in the agent’s configuration. The dispatcher forwards email attachments from vendors to the Payables Agent, which prepares a draft purchase invoice based on the attachment data.
 
-- Interaction with Business Central web client
-
-  The agent interacts with the Business Central web client using the logical UI API. This allows the agent to:
-
+  The agent interacts with the Business Central web client using the logical UI API. The agent can:
+  
   - Read data displayed on product pages.
-  - Access properties of UI elements (such as names, descriptions, fields, actions, and tooltips).
+  - Access properties of UI elements, such as names, descriptions, fields, actions, and tooltips.
   - Combine this data with user-provided instructions and email data.
   - Use AI and business knowledge to orchestrate the steps needed to complete each task.
 
 - Integration with other services
 
-  The agent integrates with Azure Document Intelligence for OCR analysis of email attachments. It matches vendor invoice lines with accounts or items using mapping tables, historical data, and an LLM to match line descriptions with G/L account names from the customer’s database.
+  The agent uses Azure Document Intelligence to analyze email attachments with OCR. It matches vendor invoice lines to accounts or items by using mapping tables, historical data, and an LLM that matches line descriptions to G/L account names from the customer's database.
 
-- Human Intervention and Transparency
+- Human intervention and transparency
 
-  The agent seeks user intervention in specific situations, such as when a matching vendor or G/L account cannot be found or when business approval is required. It issues in-product notifications on the role center to bring users into the loop when their attention is needed.
+  The agent asks you to take action in specific situations, like when it can't find a matching vendor or G/L account, or when you need to approve a business decision. It shows notifications in the role center to let you know when your attention is needed.
 
-  For each task, users receive a detailed timeline showing key steps taken by the agent and human users, including the receipt of the initial email. Users can review and update the agent’s suggested values and actions as needed.
+  For each task, you can view a detailed timeline that shows key steps taken by the agent and by people, including when you receive the initial email. You can review and update the agent’s suggested values and actions as needed.
 
 <!--
 The agent operates based on its instructions and user configuration. It uses AI to identify and carry out the steps needed to complete this task within the Business Central environment. The agent is provided with its own set of high-level business instructions, which describe its purpose, outline the task it needs to perform, and additional considerations it needs to take when performing the steps. These instructions are defined in the agent code and are not visible to the users. When configuring the Payables Agent, users can define the list of other users who can delegate their tasks to the agent, channels for receiving orders (for example, email), and select which steps of the order taking process should be included or excluded (for example, whether to convert generated purchase document draft into a purchase invoice). To execute its tasks, the payables agent interacts with the Business Central web client using a logical representation of the UI called the logical UI API. Through that logical UI API, the agent can read the data displayed on the product pages and access properties of the UI elements (for example, names and descriptions of the pages, fields, actions, and tooltips). It can then combine that data with the instructions provided by the users during agent configuration, along with data received via e-mail messages, and then use AI with its conventional business knowledge to orchestrate the steps needed to complete each step and the overall task. The agent integrates with Azure Document Intelligence for performing OCR analysis on the source e-mail attachment, and for matching vendor’s invoice lines with accounts or items it uses both mapping tables and historical data from the customer’s database and integrates with an LLM to match the line descriptions with names of G/L accounts from the customer’s database. 
@@ -77,14 +76,14 @@ The agent brings humans in the loop when their attention is required by issuing 
 
 ## What is the intended us of the Payables Agent?
 
-The Payables Agent is intended to handle the end-to-end purchase invoice capturing process. This process includes taking the vendor’s invoice attached in an e-mail, analyzing the data in the attachment, preparing the purchase document draft with the requested items, and finally converting the purchase document draft to a draft purchase invoice.
+The Payables Agent handles the entire purchase invoice capture process. It takes the vendor's invoice attached in an email, analyzes the data in the attachment, prepares a purchase document draft with the requested items, and converts the draft to a purchase invoice.
 
 ## How was the Payables Agent evaluated? What metrics are used to measure performance?
 
-The Payables Agent has been tested for accuracy and safety.
+The Payables Agent was tested for accuracy and safety.
 
-- Accuracy has been tested with 150 test cases, that is, 150 unique PDF invoices that exhibit varying degrees of completeness and complexity.
-- Safety has been tested with 240 test cases, covering categories such as XPIA (cross-domain prompt injection attacks), self-harm, sexual, and violence.
+- Accuracy was tested using 150 test cases with unique PDF invoices that exhibit varying degrees of completeness and complexity.
+- Safety was tested using 240 test cases that covered categories such as XPIA (cross-domain prompt injection attacks), self-harm, sexual, and violence.
 
 ## What are the limitations of the payables agent? How can users minimize the impact of payables agent’s limitations when using the system?
 
@@ -93,23 +92,19 @@ The Payables Agent has been tested for accuracy and safety.
 - The system was tested with the content (emails and product localization) provided in US English.
 - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
 
-### E-mailing 
+### Email
 
-- The agent reads inbound emails via a shared inbox on Microsoft
-  Exchange. Learn more in [Set up email](admin-how-setup-email.md).
+- The agent reads inbound email from a shared inbox on Microsoft Exchange. Learn more in [Set up email](admin-how-setup-email.md). The agent doesn't support other ways to receive email.
+- The agent doesn't process the email body&mdash;it processes only attachments.
+- The agent processes only PDF attachments up to 5 MB..
+- The agent processes only PDF attachments up to 10 pages. This limitation might be enforced only from public preview onward.
+- Email messages generated by the agent might contain incorrect information. The agent asks a human user to review and edit every outbound message if necessary.
 
-  Other ways to receive email aren’t supported.
-- The agent doesn't process e-mail body – it processes only attachments.
-- The agent processes only PDF attachments of size up to 5MB.
-- The agent processes only PDF attachments of up to 10 pages (note: this limitation may be enforced only from the public preview onward).
-- E-mail messages generated by the agent might contain incorrect information. The agent is designed to ask a human user to review and edit every outbound message if necessary.
+### Entities and data the agent works with
 
-### Entities and data the agent can work with 
-
-- The agent can only create purchase document drafts and purchase invoices. It can’t create or work with the other purchase documents (such as purchase orders or purchase credit memos) or documents in other areas of the product (such as sales or service orders).
-- The agent doesn’t create new items, contacts, or G/L accounts. It only works with the entities that are already registered in Business Central.
-
-- Posting of documents is not supported.  
+- The agent only creates purchase document drafts and purchase invoices. It can't create or work with other purchase documents, like purchase orders or purchase credit memos, or documents in other areas of the product, like sales or service orders.
+- The agent doesn't create new items, contacts, or G/L accounts. It only works with entities already registered in Business Central.
+- The agent doesn't support posting documents.
 
 ### Additional limitations
 

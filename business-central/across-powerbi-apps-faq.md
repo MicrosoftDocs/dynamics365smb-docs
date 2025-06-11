@@ -48,9 +48,10 @@ The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerb
 
 ## Can I install the same app multiple times for different companies or environments?
 
-Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app.
+Yes. Just choose "Install another copy of the app into a new workspace" when installing the app again. Consider including the company name in the workspace name for easier discoverability.
 
-To learn more, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
+:::image type="content" source="media/powerbi/power-bi-install-app.png" alt-text="Screenshot of the Power BI app installer" lightbox="media/powerbi/power-bi-install-app.png":::
+
 
 ## Can I use the same app to do reporting across multiple companies or environments?
 

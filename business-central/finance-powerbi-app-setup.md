@@ -130,6 +130,13 @@ Level 3 categories are the subcategories of Level 2 with indentation.
 
 If you experience issues with the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], the information in the following sections might help you get unblocked.
 
+### Getting the "[Unable to combine data] Section1/G\/L Entries/Combine Queries references other queries or steps, so it may not directly access a data source. Please rebuild this data combination." error?
+
+When you install the Power BI app for Finance, make sure that you set the Privacy level setting for this data source to Organizational when authenticating. 
+
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer" lightbox="media/powerbi/power-bi-install-app.png-authenticate":::
+
+
 ### Getting the "Column Entry No. in Table G/L Entries contains a duplicate value" error?
 
 When you refresh data from your [!INCLUDE [prod_short](includes/prod_short.md)] environment into the [!INCLUDE [powerbi-finance-app-name](includes/power-bi-finance-app-name.md)], a refresh error might happen with the following error message:

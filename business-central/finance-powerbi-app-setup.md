@@ -134,7 +134,7 @@ If you experience issues with the [!INCLUDE [powerbi-finance-app-name](includes/
 
 When you install the Power BI app for Finance, make sure that you set the **Privacy level setting for this data source** field to **Organizational** when you authenticate.
 
-:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer" lightbox="media/powerbi/power-bi-install-app.png-authenticate":::
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png":::
 
 ### Getting the "Column Entry No. in Table G/L Entries contains a duplicate value" error?
 

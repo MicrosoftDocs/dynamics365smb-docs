@@ -1,13 +1,13 @@
 ---
 title: How to Set Up Workflow Users
-description: Before you can create workflows, you must set up the users who take part in them on the Approval User Setup page.
+description: Before you can create workflows, you must set up the users who take part in them.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: reject, delegate, request
 ms.search.form: 1533,
-ms.date: 04/04/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

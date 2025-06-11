@@ -1,0 +1,1 @@
+To learn more about the different types of licenses and how licensing works in [!INCLUDE [prod_short](prod_short.md)], refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).

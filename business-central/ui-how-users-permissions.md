@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
-ms.date: 05/03/2024
+ms.date: 06/10/2025
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central

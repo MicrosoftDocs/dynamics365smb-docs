@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
-ms.date: 05/24/2024
+ms.date: 06/10/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -200,7 +200,7 @@ The following illustration shows the route of outbound payments. The numbers in 
 6. The transactions populate in a payment journal that was prepared for exporting payments to file.
 7. The bank statements import format links the import setup to the bank account.
 8. The data export/import setup defines the export or import, and links to the data exchange definition.
-9. The data exchange definition maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at see [Set Up Data Exchange](across-set-up-data-exchange.md)
+9. The data exchange definition maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Set Up Data Exchange](across-set-up-data-exchange.md)
 10. The payments are exported from the payment journal and imported into the bank account.
 
   :::column-end:::

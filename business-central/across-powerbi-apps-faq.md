@@ -49,7 +49,7 @@ The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerb
 
 Yes. Just choose **Install another copy of the app into a new workspace** when you install the app again. Consider including the company name in the workspace name for easier discoverability.
 
-:::image type="content" source="media/powerbi/power-bi-install-app.png" alt-text="Screenshot of the Power BI app installer" lightbox="media/powerbi/power-bi-install-app.png":::
+:::image type="content" source="media/powerbi/power-bi-install-app.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app.png":::
 
 ## Can I use the same app to do reporting across multiple companies or environments?
 

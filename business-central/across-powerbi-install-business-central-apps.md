@@ -90,7 +90,7 @@ Sign in to Microsoft AppSource using your [!INCLUDE [powerbi-name](includes/powe
 
 In the authentication step, choose **OAuth2** and set the **Privacy level setting for this data source** field to **Organizational**.
 
-:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer" lightbox="media/powerbi/power-bi-install-app.png-authenticate":::
+:::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app-authenticate.png"::::::
 
 After you install it, the [!INCLUDE [prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app appears under **Apps** in [!INCLUDE [powerbi-name](includes/powerbi-name.md)], and there's a workspace with the same name that you can use to configure the app.
 

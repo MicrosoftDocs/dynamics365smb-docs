@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: reporting
 ms.search.form: 36961_Primary, 37059, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993,36994, 36995, 36996, 36997
-ms.date: 12/18/2024
+ms.date: 06/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -132,10 +132,9 @@ If you experience issues with the [!INCLUDE [powerbi-finance-app-name](includes/
 
 ### Getting the "[Unable to combine data] Section1/G\/L Entries/Combine Queries references other queries or steps, so it may not directly access a data source. Please rebuild this data combination." error?
 
-When you install the Power BI app for Finance, make sure that you set the Privacy level setting for this data source to Organizational when authenticating. 
+When you install the Power BI app for Finance, make sure that you set the **Privacy level setting for this data source** field to **Organizational** when you authenticate.
 
 :::image type="content" source="media/powerbi/power-bi-install-app-authenticate.png" alt-text="Screenshot of the Power BI app installer" lightbox="media/powerbi/power-bi-install-app.png-authenticate":::
-
 
 ### Getting the "Column Entry No. in Table G/L Entries contains a duplicate value" error?
 

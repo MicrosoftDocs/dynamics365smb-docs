@@ -1,1 +1,1 @@
-For more information about the different types of licenses and how licensing works in [!INCLUDE[prod_short](prod_short.md)], see the Dynamics 365 Licensing Guide, which you can download from https://go.microsoft.com/fwlink/?LinkId=866544.
+To learn more about the different types of licenses and how licensing works in [!INCLUDE[prod_short](prod_short.md)], go to the Dynamics 365 Licensing Guide, which you can download from https://go.microsoft.com/fwlink/?LinkId=866544.

@@ -27,6 +27,11 @@ With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI l
 
 You can't use a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] free license for the [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] Apps. To learn more, go to [Prerequisites for installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md#prerequisites)
 
+> [!NOTE]
+> [!INCLUDE[about_bc_licensing_for_powerbi](includes/about_bc_licensing_for_powerbi.md)]
+>
+> [!INCLUDE[about_licensing](includes/about_licensing.md)]
+
 To learn more about [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licensing in general, go to [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
 ## <a name="exposedata"></a>Expose data through API or OData web services

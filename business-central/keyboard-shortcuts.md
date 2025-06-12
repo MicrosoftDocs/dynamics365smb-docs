@@ -2,7 +2,7 @@
 title: Keyboard shortcuts
 description: View a list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
 author: jswymer
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 05/28/2025
 ms.author: jswymer

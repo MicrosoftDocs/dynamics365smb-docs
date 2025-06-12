@@ -1,14 +1,13 @@
 ---
 title: Customer contracts
-description: You can use customer contracts in subscription and recurring billing.
+description: You can use customer contracts in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
-ms.date: 08/14/2024
-ms.service: dynamics-365-business-central
+ms.date: 06/12/2025
 ms.custom: bap-template
 ---
 
@@ -153,7 +152,7 @@ This section describes a special case that requires you to manually intervene.
 
 A contract is to be billed harmonized (for example, per calendar year). Therefore, the **Billing Base Date** in the contract is set to *January 1st* of the current year. Service commitments are added during the course of the first year. If a billing proposal is now created within, and for, the first year and is later deleted, the **Billing Base Date** uses the *oldest* **Next Billing Date** from the contract lines (service commitments). This can't be avoided due to the automatic updating of service commitments and only occurs as long as the contract wasn't billed. After the first billing, the issue no longer occurs. In this case, you must manually reset the **Billing Base Date** to *January 1st* of the current year.
 
-## Related information
+## Open related information
 
 You can open related information from the contract. For example, you can access related invoices and credit memos. If the postings in the contract are deferred periodically, use the **Contract Deferrals** action to view them.
 

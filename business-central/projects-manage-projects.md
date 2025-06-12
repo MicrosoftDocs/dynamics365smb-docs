@@ -4,7 +4,7 @@ description: This article outlines how to use resources, time sheets, and projec
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: overview
 ms.search.keywords: projects
 ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015, 37033, 37034, 37035, 37036, 37037, 37038, 37039
 ms.date: 11/27/2024

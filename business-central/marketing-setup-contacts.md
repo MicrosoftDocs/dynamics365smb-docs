@@ -3,12 +3,9 @@ title: Set up information for contacts
 description: Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: relationship, prospect
-ms.date: 11/03/2024
+ms.date: 06/13/2025
 ms.author: bholtorf
-
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Set up information for contacts
@@ -148,7 +145,7 @@ After you assign business relations to your contacts, you can use this informati
 
 Some information about contact companies is the same for their contact persons. For example, the address details. On the **Inheritance** FastTab on the **Marketing Setup** page, you can specify which fields on the contact card for a company is copied to the contact card for a person each time you create a contact person for the contact company.
 
-When you change the value in one of these fields on the contact company card, the same fields on the contact person card update. The exception is if you manually changed the field on the contact person card.
+When you change the value in one of these fields on the contact company, the same fields update on the contact person. The exception is if you manually change the field on the contact person.
 
 To learn more, go to [Create Contacts](marketing-create-contact-companies.md).
 
@@ -159,7 +156,7 @@ You can use the **Defaults** FastTab on the **Marketing Setup** page to specify 
 > [!NOTE]
 > You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create.
 
-The settings for inheritance overwrite the default values you set up. For example, if you have set up English as the default language, but the contact company's language is German, [!INCLUDE [prod_short](includes/prod_short.md)] assigns German as the language code for the contact persons for that company.
+The settings for inheritance overwrite the default values you set up. For example, if you specify English as the default language, but the contact company's language is German, [!INCLUDE [prod_short](includes/prod_short.md)] assigns German as the language code for the contact persons for that company.
 
 ## Synchronize contacts with customers, vendors, and bank accounts
 
@@ -169,9 +166,19 @@ To learn more, go to [Synchronizing contacts with customers, vendors, and bank a
 
 ## Search for duplicate contacts
 
-[!INCLUDE [prod_short](includes/prod_short.md)] can automatically search for duplicates each time you create a contact. Or, you can search manually after you create a contact. [!INCLUDE [prod_short](includes/prod_short.md)] can update the search strings automatically each time you change a contact's information or create a contact. You can specify the **Search Hit %**, that is, the percentage of identical strings that two contacts must have to consider them as duplicates. You enter the percentage on the **Duplicates** FastTab on the **Marketing Setup** page.
+When you create a contact, [!INCLUDE [prod_short](includes/prod_short.md)] can automatically search for duplicates. Avoiding duplicate contacts can help ensure that you interact with the right person for the right company.
 
-When you find a duplicate contact, you can use the **Merge Duplicate** page to merge it with a contact record that you want to keep. To learn more, go to [Merge Duplicate Records](sales-how-merge-duplicate-records.md).
+You can specify the percentage of identical data that two contacts must have in order to consider them duplicates. You can also just use the default percentage, which is 60. You specify the percentage on the **Marketing Setup** page by entering a percentage value in the **Search Hit %** field on the **Duplicates** FastTab.
+
+For automatic searches, when you create a contact that already has a business relation to a company, [!INCLUDE [prod_short](includes/prod_short.md)] displays a message to inform you.
+
+To manually search for duplicates, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Duplicate Contacts**, and then choose the related link.
+2. Choose the **Generate Duplicate Search String** action.
+3. On the **Generate Duplicate Search String** page, enter filter criteria that determine the match, and then choose **OK**.
+
+When you find a duplicate contact, you can use the **Merge Contacts** action to merge it with a contact record that you want to keep. To learn more, go to [Merge Duplicate Records](sales-how-merge-duplicate-records.md). That article describes the process from the Customer Card page, but the steps are the same for contacts.
 
 ## Related information
 

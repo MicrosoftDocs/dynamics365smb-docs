@@ -18,6 +18,10 @@ Use Copilot to get a quick summary of a record, such as a customer, item, or sal
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
+## How Copilot summarizes your data
+
+Copilot uses fields from the record, information from FactBoxes, and fields from related statistics pages to create a summary. It works on your behalf and can only access data that you can access in Business Central. For example, if you personalize the page to hide a field, Copilot doesn't include that field in the summary. If security controls remove access to specific fields, Copilot doesn't include those fields in summaries.
+
 ## Prerequisites
 
 The **Summarize** capability is active, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).

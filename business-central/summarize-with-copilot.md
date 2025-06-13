@@ -20,7 +20,7 @@ Use Copilot to get a quick summary of a record, such as a customer, item, or sal
 
 ## Prerequisites
 
-The **Summarize** capability is active, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md)
+The **Summarize** capability is active, and you have the required permissions to use it. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## Supported languages
 
@@ -35,14 +35,14 @@ This feature is available on most card and document pages, like a **Customer car
 1. Open the record.
 1. In the **Summary** part at the top of the FactBox pane on the right side, select the ![Shows the down arrow head icon to expand the FactBox pane.](media/down-arrow-head.png) **Expand summary** icon to generate the summary.
 
-   ![Shows the summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg)
+   ![Shows the Summary part in the FactBox pane.](media/summary-with-copilot-collapsed.svg "Shows the Summary part in the FactBox pane.")
 
    > [!TIP]
    > If the **Summary** part is expanded when the page opens, Copilot generates the summary immediately without your interaction. If the **Summary** is expanded when you close the page, Copilot automatically generates the summary the next time you open the page for a record.
 
 1. The summary appears in a moment for you to review and interact with.
 
-   ![Shows the summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg)
+   ![Shows the Summary part opened in the FactBox pane.](media/summary-with-copilot-opened.svg "Shows the Summary part opened in the FactBox pane.")
 
    Review the summary before making any decisions. The content is AI-generated and might be incorrect or inaccurate.
 
@@ -60,7 +60,7 @@ This feature is available on most card and document pages, like a **Customer car
 
 ## Show or hide the summary
 
-Business Central remembers whether you collapsed, expanded, or hid the **Summary** the last time you had the page open.
+Business Central remembers if you collapsed, expanded, or hid the **Summary** the last time you had the page open.
 
 - To show the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the FactBox pane.
 - To hide the **Summary** part, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the top of the **Summary** part.

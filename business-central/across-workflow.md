@@ -1,12 +1,12 @@
 ---
 title: Workflows in Dynamics 365 Business Central
-description: Use built-in workflow capabilities to set up approval workflows to supplement automated workflows based on Power Automate. You can set up steps to assign tasks to different people as part of different business-process tasks. 
+description: Use built-in workflow capabilities to set up approval workflows to supplement automated workflows based on Power Automate.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 06/13/2024
+ms.date: 06/12/2025
 ms.custom: bap-template 
 ---
 # Workflows in Business Central
@@ -30,7 +30,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
 With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate to build powerful automated workflows. You run those workflows from inside [!INCLUDE [prod_short](includes/prod_short.md)]. The flows can connect internal and external data sources and tools, without coding knowledge.
 
-|**To** |**See**|
+|To... |Go to...|
 |-------|-------|
 |Get started with Power Automate, creating flows, and running instant flows|[Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
 |Learn details of how to create, edit, and manage flows|[Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
@@ -49,7 +49,7 @@ Examples of approval workflow events include the creation of sales or purchase o
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-| **To** | **See** |
+| To... | Go to... |
 |--|--|
 | Set up approval workflow users, specify how users get notified, and create new workflows. (To create new workflows for unsupported scenarios, implement the required workflow elements by customizing the application code.) | [Set Up Approval Workflows](across-set-up-workflows.md) |
 | Enable approval workflows, act on workflow notifications, including requesting and approving a workflow step. Archive and delete workflows. | [Use Approval Workflows](across-use-workflows.md) |
@@ -64,6 +64,5 @@ Examples of approval workflow events include the creation of sales or purchase o
 [Managing Projects](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Learn about setting up your chart of accounts (COA) with the ledger
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: how-to
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16_Primary, 17, 18, 118, 386, 391
 ms.date: 05/19/2025
@@ -20,7 +20,7 @@ The chart of accounts (COA) shows the ledger accounts that store your financial 
 
 ## Add or change accounts
 
-From the COA, you can open each general ledger (G/L) account and add or change settings. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
+From the COA, you can open each general ledger (G/L) account and add or change settings. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 If necessary, you can use more than one line for a general ledger account name. On the **G/L Account Card** page, in the **Account** group, choose **Extended Texts**, and then fill in one or more lines with the account name and copied text.  
 

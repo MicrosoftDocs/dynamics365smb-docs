@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 05/29/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files. For example to send and receive electronic documents, import and export bank data or other data, such as payroll, and item catalogs. Learn more at [Exchanging Data Electronically](across-data-exchange.md).  
 
-To create a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Learn more at [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+To create a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. Refer to step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Learn more at [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Normally, you set up data exchange definitions on the **Data Exchange Definition** page. However, for updating currency exchange rates, it's faster to use a currency exchange rate service. Learn more at [Update Currency Exchange Rates](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
 
@@ -60,7 +60,7 @@ Creating a data exchange definition involves two tasks:
     |**Footer Tag**|If a footer line exists in several positions in the file, enter the text of the first column on the footer line.<br /><br /> This option makes sure that the footer data isn't imported. **Note:** This field is only relevant for import.|  
 
    > [!TIP]
-   > To see which codeunits Microsoft uses in existing definitions in the standard product, review the three **Codeunit** fields on the **Field Mapping** page, under the **General** FastTab, for each definition.  
+   > To review which codeunits Microsoft uses in existing definitions in the standard product, explore the three **Codeunit** fields on the **Field Mapping** page for each definition.  
 
 4. On the **Line Definitions** FastTab, describe the formatting of lines in the data file by filling the fields as described in the following table.  
 
@@ -108,7 +108,7 @@ Creating a data exchange definition involves two tasks:
 The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
-> The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
+> The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. To learn more about the specific field mapping of this SEPA CAMT support, go to [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 ### <a name=mapfields></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -128,8 +128,9 @@ You can also group by any field, use the key index to sort results, and the new 
     |**Key Index**|Specify the key index to sort the source records before exporting.|
     |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data.|  
     |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[prod_short](includes/prod_short.md)].|  
-    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:**  When you use the AMC Banking 365 Fundamentals extension feature, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that's ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|
-3. On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)] by filling the fields as described in the following tables, depending on whether the **Use as Intermediate Table** field was enabled or not.  
+    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:** When you use the AMC Banking 365 Fundamentals extension, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that's ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|
+
+3. On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)] by filling the fields as described in the following tables, depending on whether the **Use as Intermediate Table** field is enabled.  
    * With the **Use as Intermediate Table** toggle off:
 
      |Field|Description|  
@@ -188,7 +189,7 @@ If the values in the fields you're mapping differ, you must use transformation r
 |**Round**|Round the value in this field using some extra rules. First, in the **Precision** field, specify a rounding precision. Then, in the **Direction** field, specify the rounding direction.|
 
 > [!NOTE]  
-> Learn more about date and time formatting at [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).
+> TO learn more about date and time formatting, go to [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
 ### Tip for developers: Example of the custom option
 

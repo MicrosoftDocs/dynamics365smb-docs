@@ -566,14 +566,22 @@ ms.service: dynamics-365-business-central
 #### [Power BI sales app](sales-powerbi-app.md)
 ##### [Sales overview](sales-powerbi-sales-overview.md)
 ##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Key Sales Influencers (Power BI Report)](sales-powerbi-key-sales-influencers.md)
+##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 ##### [Moving Average](sales-powerbi-moving-average.md)
 ##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Opportunity Overview (Power BI Report)](sales-powerbi-opportunity-overview.md)
+##### [Return Order Overview (Power BI Report)](sales-powerbi-return-order-overview.md)
 ##### [Sales by Item](sales-powerbi-sales-by-item.md)
 ##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
 ##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales Decomposition (Power BI Report)](sales-powerbi-sales-decomposition.md)
+##### [Sales Demographics (Power BI Report)](sales-powerbi-sales-demographics.md)
 ##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Sales Quote Overview (Power BI Report)](sales-powerbi-sales-quote-overview.md)
 ##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
 ##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
 
@@ -979,8 +987,14 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Prod. Order List (Power BI Report)](manufacturing-powerbi-prod-order-list.md)
+##### [Production Order Overview (Power BI Report)](manufacturing-powerbi-production-order-overview.md)
+##### [Prod. Order Routing Gantt (Power BI Report)](manufacturing-powerbi-prod-order-routing-gantt.md)
+##### [Production Order WIP (Power BI Report)](manufacturing-powerbi-prod-order-wip.md)
+##### [Machine Center Load (Power BI Report)](manufacturing-powerbi-machine-center-load.md)
+##### [Machine Center Statistics (Power BI Report)](manufacturing-powerbi-machine-center-statistics.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
-
+##### [Work Center Statistics (Power BI Report)](manufacturing-powerbi-work-center-statistics.md)
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
 #### Built-in production reports
@@ -1134,6 +1148,23 @@ ms.service: dynamics-365-business-central
 <!--Sustainability-->
 ## Sustainability management
 ### [Sustainability management overview](finance-manage-sustainability.md)
+### Sustainability analytics
+#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+#### [Built-in sustainability reports](sustainability-reports.md)
+#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### Power BI sustainability app
+##### [Sustainability Power BI app](sustainability-powerbi-app.md)
+##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
+##### [Co2e Decomposition Tree (Power BI Report)](sustainability-powerbi-co2e-decomposition-tree.md)
+##### [Co2e Key Influences (Power BI Report)](sustainability-powerbi-co2e-key-influences.md)
+##### [Emissions by Category and Scope (Power BI Report)](sustainability-powerbi-emissions-by-category-and-scope.md)
+##### [Journey to Net Zero Carbon (Power BI Report)](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
+##### [Realized Emissions vs Baseline (Power BI Report)](sustainability-powerbi-realized-emissions-vs-baseline.md)
+##### [Realized Emissions vs Target (Power BI Report)](sustainability-powerbi-realized-emissions-vs-target.md)
+##### [Social Analysis (Power BI Report)](sustainability-powerbi-social-analysis.md)
+##### [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)
+##### [Water and Waste Analysis (Power BI Report)](sustainability-powerbi-water-and-waste-analysis.md)
 ### [Sustainability setup](finance-sustainability-setup.md)
 ### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 ### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
@@ -1149,10 +1180,6 @@ ms.service: dynamics-365-business-central
 #### [Value Chain in Assembly process](value-chain-howto-assembly.md)
 #### [Value Chain in Production process](value-chain-howto-mfg.md)
 #### [Value Chain in Sales](value-chain-howto-sales.md)
-### Sustainability analytics
-#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
-#### [Built-in sustainability reports](sustainability-reports.md)
-#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
 ### Sustainability APIs
 #### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
@@ -2318,10 +2345,11 @@ ms.service: dynamics-365-business-central
 #### [Power BI overview](admin-powerbi.md)
 #### [Work with Power BI reports](across-working-with-powerbi.md)
 #### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
-#### Power BI apps for Business Central
-##### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-##### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
-##### [Power BI apps FAQ](across-powerbi-apps-faq.md)
+### Power BI apps for Business Central
+#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Use back links to explore the data behind visuals](powerbi-back-links.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis
@@ -2497,8 +2525,10 @@ ms.service: dynamics-365-business-central
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
 ## Integrate with other Dynamics 365 applications
-### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
+### [Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### Integrate with Dynamics Field Service
+#### [Set up an integration with Dynamics 365 Field Service](admin-integrate-field-service.md)
+#### [Use an integration with Dynamics 365 Field Service](admin-use-field-service-integration.md)
 ## Integrate with Microsoft Dataverse
 ### [Integrate with Dataverse via data sync](admin-common-data-service.md)
 ### [Data ownership models for synchronization](admin-cds-company-concept.md)

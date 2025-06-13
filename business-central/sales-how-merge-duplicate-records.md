@@ -5,14 +5,14 @@ author: brentholtorf
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 03/20/2024
+ms.date: 06/13/2025vir
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 # Merge duplicate records
 
-As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
+As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact might be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and lets you select which values to keep or discard when you merge two records into one.
 
 > [!NOTE]
 > Only users with the MERGE DUPLICATES permission set can use this functionality.

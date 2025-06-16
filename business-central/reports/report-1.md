@@ -23,8 +23,7 @@ You can filter the report by account categories, ranges, or balances to tailor t
 
 ## Use cases
 
-Use the report when setting up or reviewing your company’s account structure, verifying posting groups, or preparing for financial reports and audits.
-
+[!INCLUDE [report-1-scenario](../includes/report-1-scenario-include.md)]
 
 Controllers and finance teams can use the report to:
 

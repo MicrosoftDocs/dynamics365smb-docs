@@ -4,8 +4,8 @@ description: Introduction to how to integrate and use Microsoft Dataverse and it
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.date: 03/08/2024
+ms.topic: how-to
+ms.date: 06/10/2025
 ms.custom: bap-template
 ms.search.form: 7214_Primary
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Integrate with Microsoft Dataverse via data sync
 
-Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect [!INCLUDE[prod_short](includes/prod_short.md)] to other Dynamics 365 applications. For example, [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more about [!INCLUDE[prod_short](includes/cds_long_md.md)], go to [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
+Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect [!INCLUDE[prod_short](includes/prod_short.md)] to other Dynamics 365 applications. For example, [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more about [!INCLUDE[prod_short](includes/cds_long_md.md)], go to [What is Dataverse?](/power-apps/maker/data-platform/data-platform-intro).
 
 The following steps provide an overview of the steps to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,9 +22,9 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[prod
 
 1. Assign licenses for [!INCLUDE[prod_short](includes/cds_long_md.md)] to the [!INCLUDE[prod_short](includes/prod_short.md)] users who will use the integrated apps.
 
-2. Set up a connection to [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Connect to Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md).  
+2. Set up a connection to [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more, go to [Connect to Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md).  
 
-3. Synchronize data between the apps. For more information, see [Synchronizing Business Central and Dataverse](admin-synchronizing-business-central-and-sales.md). 
+3. Synchronize data between the apps. To learn more, go to [Synchronizing Business Central and Dataverse](admin-synchronizing-business-central-and-sales.md).
 
 ## Get started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
@@ -40,14 +40,14 @@ You can synchronize data either to or from one Dynamics 365 business app to anot
 
 ## About the Business Central Base Integration Solution
 
-The Base Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates tables needed to map [!INCLUDE[prod_short](includes/prod_short.md)] company to business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
+The Base Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates tables needed to map [!INCLUDE[prod_short](includes/prod_short.md)] company to business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 By default, the **Set up [!INCLUDE[prod_short](includes/cds_long_md.md)] connection** assisted setup guide imports the solution. To do that, the setup guide uses an administrator user account that you specify. This account must be a valid user in [!INCLUDE[prod_short](includes/cds_long_md.md)] with the **System Administrator** security role.  
 
 To learn more about user accounts, go to the following articles:
 
-* [Setting Up User Accounts for Integrating with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) 
-* [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
+* [Setting Up User Accounts for Integrating with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)
+* [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles)
 
 The administrator account is used only one time during the setup for the configuration changes that the Base Integration Solution makes in [!INCLUDE[prod_short](includes/cds_long_md.md)]. After the solution imports, the account is no longer needed. Integration will continue to use the user account that is automatically created specifically for the integration.
 
@@ -63,7 +63,7 @@ You can connect to a [!INCLUDE[prod_short](includes/cds_long_md.md)] environment
 
 To be able to connect, ensure that the base transaction currency setting in [!INCLUDE[prod_short](includes/cds_long_md.md)] has the currency that set on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)], and at least one exchange rate is specified for the currency on the **Currency Exchange Rates** page.
 
-Here's an example. You're connecting [!INCLUDE[prod_short](includes/cds_long_md.md)] with Euro (EUR) set as the local currency on the **General Ledger Setup** page to a [!INCLUDE[prod_short](includes/cds_long_md.md)] environment that has a base transaction currency set to US dollar (USD). You'll need to have USD on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)] and the appropriate exchange rate. 
+Here's an example. You're connecting [!INCLUDE[prod_short](includes/cds_long_md.md)] with Euro (EUR) set as the local currency on the **General Ledger Setup** page to a [!INCLUDE[prod_short](includes/cds_long_md.md)] environment that has a base transaction currency set to US dollar (USD). You'll need to have USD on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)] and the appropriate exchange rate.
 
 When you enable the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE [prod_short](includes/prod_short.md)] adds its local currency to the **Currency** entity in [!INCLUDE[prod_short](includes/cds_long_md.md)] with the exchange rate from the **Currency Factor** field on the **Currency Exchange Rates** page.
 
@@ -78,10 +78,9 @@ You can safely copy companies that integrate with [!INCLUDE[prod_short](includes
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## See also
+## Related information
 
 [Data Ownership Models](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

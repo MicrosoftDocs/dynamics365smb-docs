@@ -5,7 +5,7 @@ description: GST and TCS on Advance Customer Payments
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -86,7 +86,7 @@ GST and TCS will be calculated on the remaining amount, i.e. Invoice Amount - Ad
 > [!TIP]
 > In case of Intra-State Sale, CGST and SGST/UTGST will be calculated.
 
-## See Also 
+## Related information 
 [GST and TDS on Vendor Advance](GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
 
 

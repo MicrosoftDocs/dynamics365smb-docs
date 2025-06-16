@@ -2,7 +2,7 @@
 title: Entering custom declaration information in Russia
 description: Russian enhancements include custom declarations.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -84,7 +84,7 @@ You must print the customs declaration number on Factura-Invoice documents.
 3. Choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen. Choose the **Cancel** action to save the information without printing the report.
 
 
-## See Also
+## Related information
 [Russia Local Functionality](russia-local-functionality.md)  
 [Customizing Business Central Using Extensions](../../ui-extensions.md)  
 

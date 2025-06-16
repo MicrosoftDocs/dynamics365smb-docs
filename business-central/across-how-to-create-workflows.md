@@ -5,23 +5,23 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/29/2024
+ms.date: 06/10/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 
 ---
 # Create workflows to connect tasks in business processes
 
-You can create workflows that connect tasks in business processes that are performed by different users. You can include system tasks, such as automatic posting, as steps in workflows that are preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
+You can create workflows that connect tasks that different people do in business processes. You can include system tasks, such as automatic posting, as steps in workflows that user tasks precede or follow. Requesting and granting approval to create new records are typical workflow steps.  
 
 On the **Workflow** page, create a workflow by listing the steps on the lines. Each step consists of a trigger and a response:
 
-* An event that specifies the conditions that will start the workflow.
+* An event that specifies the conditions that start the workflow.
 * A workflow response that defines what the workflow does.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates are non-editable workflows [!INCLUDE[prod_short](includes/prod_short.md)] provides. The identifiers for workflow templates are prefixed with "MS-", such as in "MS-PIW". Learn more at [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
+When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates are noneditable workflows that [!INCLUDE[prod_short](includes/prod_short.md)] provides. The identifiers for workflow templates are prefixed with "MS-". For example, "MS-PIW." Learn more at [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > All notifications about workflow steps are sent through a job queue. Make sure the job queue reflects your business needs. Learn more at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
@@ -31,18 +31,20 @@ When you create workflows, you can copy the steps from existing workflows or fro
 A workflow is divided into three sections:
 
 1. **When Event**  
-   This is where the trigger is selected.  
+   This is where you select the trigger.  
+
    Examples of a trigger:
+
    * A master data record is changed
    * A journal line is created
    * An incoming document is created or released
    * Approval of a document is requested
 2. **On Condition**  
-   The **conditions** are related to the event and allows creating filters to decide on how the workflow continues.
+   Conditions are related to the event and allow you to create filters to specify how the workflow continues.
 3. **Then Response**  
-   The **responses** specify the next steps in the workflow.
+   Responses specify the next steps in the workflow.
 
-The options for events and responses are system-defined. To add new options, you'll need to develop an extension.
+The options for events and responses are system-defined. To add new options, you must develop an extension.
 
 ## To create a workflow
 
@@ -63,7 +65,7 @@ The options for events and responses are system-defined. To add new options, you
 
    1. To specify a field change for the event, on the **Event Conditions** page, in the **Field** field, select the field that changes.  
    2. In the **Operator** field, select either **Decreased**, **Increased**, or **Changed**.  
-9. In the **Then Response** field, specify the response that will follow when the workflow event occurs.  
+9. In the **Then Response** field, specify the response when the workflow event occurs.  
 
    When you choose the field, the **Workflow Responses** page lists all available workflow responses and response options.  
 10. On the **Options for the Selected Response** FastTab, specify options for the workflow response by selecting values in the different fields that appear, as follows:  
@@ -71,11 +73,11 @@ The options for events and responses are system-defined. To add new options, you
     1. To specify options for a workflow response that involves sending a notification, fill the fields as described in the following table.  
 
     > [!NOTE]
-    > These fields vary, depending on the response you've chosen.
+    > These fields vary, depending on the response you chose.
 
        |Field|Description|
        |-----|-----------|
-       |**Notify Sender**|Specify whether to notify the approval requestor instead of the approval request recipient. If you select the checkbox, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;**. If the checkbox isn't selected, the name of the workflow response is **Create Notification for &lt;User&gt;**.|
+       |**Notify Sender**|Specify whether to notify the approval requestor instead of the approval request recipient. If you select the checkbox, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, is notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;**. If the checkbox isn't selected, the name of the workflow response is **Create Notification for &lt;User&gt;**.|
        |**Recipient User ID**|Specify the user the notification must be sent to. **Note**: This option is only available for workflow responses with a placeholder for a specific user. For workflow responses without placeholders for users, the notification recipient is typically defined by the **Approval User Setup**.|
        |**Notification Entry Type**|Specify a trigger for the workflow notification. The trigger can be a record change, an approval request, or passed due date.|
        |**Link Target Page**|Specify the page that the link in the notification opens. The page must have the same source table as the record involved.|
@@ -100,14 +102,14 @@ The options for events and responses are system-defined. To add new options, you
 
 11. Choose the **Increase Indent** and **Decrease Indent** buttons to indent the event name in the **When** field to define the step's position in the workflow.  
 
-    1. Indent the event under the name of the previous step to indicate that it's the next step.  
-    2. Indicate the step is one of several alternative steps that may start, depending on its condition, by indenting the event name to match the other alternative steps. Order such optional steps according to priority by placing the most important step first.  
+    1. To indicate that it's the next step, indent the event under the name of the previous step.  
+    2. Indicate the step is one of several alternative steps that might start, depending on its condition, by indenting the event name to match the other alternative steps. Order such optional steps according to priority by placing the most important step first.  
 
     > [!NOTE]  
-    >  You can only change the indent of a step that doesn't have a subsequent step.  
+    > You can only change the indent of a step that doesn't have a subsequent step.  
 
-12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step you've created.  
-13. Turn on the **Enabled** toggle to specify that the workflow will start when the event on the first step of type **Entry Point** occurs. Learn more at [Use Workflows](across-use-workflows.md).  
+12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step you created.  
+13. Turn on the **Enabled** toggle to specify that the workflow starts when the event on the first step of type **Entry Point** occurs. Learn more at [Use Workflows](across-use-workflows.md).  
 
 > [!NOTE]  
 > Don't enable a workflow until you're sure it's ready.  
@@ -174,7 +176,7 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## See also
+## Related information
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

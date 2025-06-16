@@ -2,7 +2,7 @@
 title: Settle purchase invoices promptly
 description: If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 51, 9308
 ms.date: 07/18/2024
 ms.author: bholtorf
@@ -28,7 +28,7 @@ If you need to pay the vendor by cash or check, you can post the payment when yo
 >
 > This customization is only required if you do not specify balancing accounts on the payment methods as describe above.
 
-## See also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

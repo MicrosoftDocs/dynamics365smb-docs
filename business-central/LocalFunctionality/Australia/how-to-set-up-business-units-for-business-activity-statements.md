@@ -2,7 +2,7 @@
 title: Set Up Business Units for Business Activity Statements (AU)
 description: Learn how to consolidate the financial statements of various companies into one financial statement.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: consolidate financial statements, business activity statements, financial statement, Australian version, financial statement consolidation, set up general ledger, set up business units
 ms.date: 03/26/2025

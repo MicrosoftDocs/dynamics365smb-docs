@@ -4,7 +4,7 @@ description: This article describes the various ways of working with VAT both ma
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 05/29/2024
@@ -237,7 +237,7 @@ To view a group of certificates, start from the **Certificates of Supply** page,
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
 
-## See also
+## Related information
 
 [Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  

@@ -4,7 +4,7 @@ description: The Work Center Load report shows the load and the allocated capaci
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37042_Primary
 ms.date: 11/01/2024
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Work Center Load** report measures the load and the allocated capacity of each work center. Use this report to ensure that work centers aren't overloaded.
 
-:::image type="content" source="media/manufacturing/work-center-load.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/work-center-load.png":::
+:::image type="content" source="media/manufacturing/work-center-load-v26.png" alt-text="Screenshot of the Work Center Load Power BI Report" lightbox="media/manufacturing/work-center-load-v26.png":::
 
 ## Use the report
 
@@ -29,13 +29,15 @@ Production supervisors use this report to analyze the load percentage and alloca
 
 ## Key Performance Indicators (KPIs)
 
-The *Work Center Load* report includes the following KPIs and measures: 
+The *Work Center Load* report includes the following KPIs and measures:
 
-- [Load %](manufacturing-powerbi-kpis.md#load)
-- [Allocated Time (Hours)](manufacturing-powerbi-kpis.md#allocated-time-hours)
-- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+- [Work Center Capacity Total](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [Work Center Capacity Effective](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
+- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
+- [Work Center Availability After Orders](manufacturing-powerbi-kpis.md#work-center-availability-after-orders)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -44,7 +46,8 @@ The *Work Center Load* report includes the following KPIs and measures:
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Calendar Entry
-- Production Order Routing Line
+- Prod Order Capacity Need
+- Production Order
 - Work Center
   
 ## Try the report
@@ -53,7 +56,7 @@ Try the report here: [Work Center Load](https://businesscentral.dynamics.com?pag
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

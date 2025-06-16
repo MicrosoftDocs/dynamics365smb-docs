@@ -4,7 +4,7 @@ description: This article describes how to ship items from your warehouse.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/10/2024
 ms.custom: bap-template
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
@@ -116,7 +116,7 @@ After you post the warehouse shipment, various fields on the sales order line ar
 >
 > The assemble-to-order quantity is handled as described in this article. The inventory quantity is handled as a regular warehouse shipment line. To learn more about combination scenarios, go to [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

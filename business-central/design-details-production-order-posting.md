@@ -2,7 +2,7 @@
 title: Design Details - Production Order Posting | Microsoft Docs
 description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/08/2021
@@ -99,7 +99,7 @@ In standard-cost environments, the costing of a production order is based on the
     >  This differs from assembly order posting, which always posts actual costs. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 2.  When the production order is set to **Finished**, the order is invoiced by running the **Adjust Cost-Item Entries** batch job. As a result, the total cost of the order is calculated based on the standard cost of the consumed materials and capacity. The variances between the calculated standard costs and the actual production costs are calculated and posted.  
 
-## See Also  
+## Related information  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)

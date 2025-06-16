@@ -4,7 +4,7 @@ description: Learn how to change some basic settings in Business Central, for ex
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9006, 9007, 9010, 9016, 9017, 3563_Primary, 9024_Primary
 ms.date: 03/26/2025

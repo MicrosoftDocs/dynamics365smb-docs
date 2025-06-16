@@ -4,7 +4,7 @@ description: Get an overview of the features available for subscription and recu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -70,7 +70,7 @@ The revenues and costs figures show the current and previous month's revenues 
 
 The **Overdue** and **Not invoiced** cues indicate that service commitments are either still to be billed (Overdue) or that a posting document hasn't been created yet (Not invoiced) for lines in a billing proposal. The cues are based on the workdate.
 
-## See also
+## Related information
 
 [Managing contracts, service objects, and services commitments](working-with-contracts/contracts-services-mgmt.md)  
 [Recurring billing](recurring-billing.md)  

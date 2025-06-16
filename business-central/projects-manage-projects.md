@@ -4,7 +4,7 @@ description: This article outlines how to use resources, time sheets, and projec
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: overview
 ms.search.keywords: projects
 ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015, 37033, 37034, 37035, 37036, 37037, 37038, 37039
 ms.date: 11/27/2024
@@ -62,7 +62,7 @@ The following table provides links to articles that describe typical tasks in pr
 | Post the consumption of materials, resources, and other expenses of project WIP. Monitor its financial value to maintain correct financial statements even though you post project expenses before you invoice the project. |[Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md) |
 | Invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
 
-## See also
+## Related information
 
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project management analytics overview](projects-analytics-overview.md)  

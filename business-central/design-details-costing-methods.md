@@ -4,9 +4,9 @@ description: This topic describes how the costing method affects how actual and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 05/29/2024
+ms.date: 06/12/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -15,7 +15,7 @@ ms.custom: bap-template
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
 > [!NOTE]
-> You cannot change an item's costing method if item ledger entries exist for the item. For more information, see [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
+> You can't change an item's costing method if item ledger entries exist for the item. Learn more at [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
 
 The following methods are supported in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -111,7 +111,7 @@ For items using the **Standard** costing method, inventory increases are valued 
 
 - **Average**  
 
-    For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](design-details-average-cost.md).  
+    For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. Learn more at [Design Details: Average Cost](design-details-average-cost.md).  
 
      The following table shows how inventory decreases are valued for the **Average** costing method.  
 
@@ -147,7 +147,7 @@ For items using the **Standard** costing method, inventory increases are valued 
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## See Also
+## Related information
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Variance](design-details-variance.md)  

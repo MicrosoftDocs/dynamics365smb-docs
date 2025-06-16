@@ -220,6 +220,6 @@ Request a new token because the updated version of the connector requires more p
 
 It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [Verify and enable permissions to make HTTP requests in a nonproduction environment](#verify-and-enable-permissions-to-make-http-requests-in-a-nonproduction-environment).
 
-## See also
+## Related information
 
 [Get Started with the Connector for Shopify](get-started.md)

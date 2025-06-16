@@ -4,7 +4,7 @@ description: The Current Utilization report provides insights into the manufactu
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37040_Primary
 ms.date: 11/01/2024
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Current Utilization** report provides insights into the manufacturing capacity use and helps with capacity planning. It shows the capacity available and used by hours and the percentage of use.
 
-:::image type="content" source="media/manufacturing/current-utilization.png" alt-text="Screenshot of the Current Utilization Power BI Report" lightbox="media/manufacturing/current-utilization.png":::
+:::image type="content" source="media/manufacturing/current-utilization-v26.png" alt-text="Screenshot of the Current Utilization Power BI Report" lightbox="media/manufacturing/current-utilization-v26.png":::
 
 ## Use the report
 
@@ -29,12 +29,15 @@ Manufacturing managers use the report to understand the capacity of machine and 
 
 ## Key Performance Indicators (KPIs)
 
-The *Current Utilization* report includes the following KPIs and measures: 
+The *Current Utilization* report includes the following KPIs and measures:
 
-- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
-- [Utilization %](manufacturing-powerbi-kpis.md#utilization)
+- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
+- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [Work Center Availability After Orders](manufacturing-powerbi-kpis.md#work-center-availability-after-orders)
+- [Work Center Capacity (Total)](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [Work Center Capacity (Effective)](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -52,7 +55,7 @@ Try the report here: [Current Utilization](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

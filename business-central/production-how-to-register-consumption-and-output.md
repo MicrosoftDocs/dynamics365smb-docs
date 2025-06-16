@@ -4,18 +4,18 @@ description: This article explains how to register consumption and output for a 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 5510,
-ms.date: 02/25/2025
+ms.date: 04/08/2025
 ms.service: dynamics-365-business-central
 
 ---
 # Register consumption and output for a released production order
 
-You do this task on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. You open the combined journal from a released production order. Its purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent on operations. The values post to ledger entries under the released production order. Consumption quantities post as negative item ledger entries, output quantities post as positive ledger entries, and time spent posts as capacity ledger entries. The posted values also display at the bottom of the journal as actual quantities.  
+Use the **Production Journal** page to register consumption output for a released production order. The journal combines the functions of the separate consumption journal and output journals into one journal. You open the combined journal from a released production order. Its purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent on operations. The values post to ledger entries under the released production order. Consumption quantities post as negative item ledger entries, output quantities post as positive ledger entries, and time spent posts as capacity ledger entries. The posted values also display at the bottom of the journal as actual quantities.  
 
 > [!NOTE]  
-> Because consumption data is processed together with output data, this journal offers an opportunity to display linked components and operations in a logical process structure. Components are indented under their respective operation. This linking requires that you use routing link codes. To learn more about routing links, go to [To create routing links](production-how-to-create-routings.md#to-create-routing-links).  
+> Because consumption data is processed together with output data, this journal displays linked components and operations in a logical process structure. Components are indented under their respective operation. This linking requires that you use routing link codes. To learn more about routing links, go to [To create routing links](production-how-to-create-routings.md#to-create-routing-links).  
 
 > [!NOTE]  
 > Components without routing link codes list first in the journal.  

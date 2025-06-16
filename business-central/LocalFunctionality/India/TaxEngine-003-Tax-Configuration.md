@@ -4,7 +4,7 @@ description: Tax Engine - Tax Configuration
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -85,7 +85,7 @@ Tax rates can be defined for a combination of tax parameters defined as part of 
 
 
 
-## See Also 
+## Related information 
 [Tax Engine Configuration of Use Case](TaxEngine-003.1-Tax-Configuration.md)
 
 

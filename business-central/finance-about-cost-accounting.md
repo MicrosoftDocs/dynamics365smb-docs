@@ -4,7 +4,7 @@ description: Cost accounting can help you understand the costs of running a busi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 07/25/2024
 ms.service: dynamics-365-business-central
@@ -69,7 +69,7 @@ Similar to budgeting in the general ledger, you can create budgets to plan for c
 
 Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard financial reports to define how your reports for the chart of cost types are displayed.  
 
-## See also
+## Related information
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Finance](finance.md)  

@@ -4,7 +4,7 @@ description: If your locations use picking and shipping, pick components for pro
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/19/2025
 ms.custom: bap-template    

@@ -4,7 +4,7 @@ description: Use document layouts to control the appearance and format of docume
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 11/28/2024

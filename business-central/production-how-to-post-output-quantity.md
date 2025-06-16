@@ -4,7 +4,7 @@ description: The output quantity represents the work progress in the form of the
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 03/08/2025
 ms.service: dynamics-365-business-central

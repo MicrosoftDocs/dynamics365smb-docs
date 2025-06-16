@@ -2,7 +2,7 @@
 title: Sustainability value chain overview
 description: Learn about the sustainability value chain features by using the provided information and resources.
 author: altotovi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, value chain
 ms.search.form: 

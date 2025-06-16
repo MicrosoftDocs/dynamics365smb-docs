@@ -2,7 +2,7 @@
 title: How to import post code updates [NL]
 description: Import the post code file to update the relevant data in the Post Code Range table.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: import post code file, post code file, Dutch version, Netherlands, post code range table, post code import, post code update
 ms.date: 03/18/2025

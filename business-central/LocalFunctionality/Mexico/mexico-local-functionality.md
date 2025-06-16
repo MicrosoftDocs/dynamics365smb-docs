@@ -2,7 +2,7 @@
 title: Mexico local functionality
 description: The following articles provide descriptions of the local functionality in the Mexican version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Mexico, local functionality, Mexican version
 ms.date: 02/26/2025
 ms.author: bholtorf
@@ -36,7 +36,7 @@ The following articles describe local functionality that is unique to the Mexica
 
 ## Future legislation requirements being investigated
 
-Rounding in electronic invoice documents **Planned for 25.2**  
+- Redesigned DIOT file format **Planned for July 2025**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

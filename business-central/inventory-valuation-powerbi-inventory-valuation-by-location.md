@@ -4,7 +4,7 @@ description: The Inventory Valuation by Location report shows the item values on
 author: kennienp
 ms.author: kepontop
 ms.reviewer: 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37058_Primary
 ms.date: 10/30/2024
@@ -59,7 +59,7 @@ Try the report here: [Inventory Valuation by Location](https://businesscentral.d
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory Valuation app](inventory-valuation-powerbi-app.md)  

@@ -2,7 +2,7 @@
 title: Set Up Service Contracts
 description: Learn how to set up service contracts with required prerequisites including service contract groups, contract templates and customer templates.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service, cost, service order
 ms.date: 06/23/2021
@@ -49,7 +49,7 @@ Before you can work with contracts, you must set up the following:
 4. To define search criteria, fill in the other fields, such as **Country/Region Code**, **Territory Code**, and **Language Code**.  
 5. Fill in the **Gen. Bus. Posting Group** and **Customer Posting Group** fields.  
 
-## See Also
+## Related information
 [Setting Up Service Management](service-setup-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

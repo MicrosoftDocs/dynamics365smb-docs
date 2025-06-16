@@ -101,7 +101,7 @@ The lines contain the following information. Amounts are summarized per **Vendor
     - **Printed Date-Time** - Specifies the date and time of the last time that the form was printed.
     - **Printed** - Specifies that the form was printed.
 
-## See also
+## Related information
 
 - [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)  
 - [United States Local Functionality](united-states-local-functionality.md)

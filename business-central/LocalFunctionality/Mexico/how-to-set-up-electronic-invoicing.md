@@ -2,10 +2,10 @@
 title: Set Up Electronic Invoicing [MX]
 description: To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: identification numbers, CFDI
-ms.date: 02/25/2025
+ms.date: 05/01/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -18,7 +18,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 > [!IMPORTANT]  
 > The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. Learn more in [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
 >
-> Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you may need to grant explicit SMTP permissions to each relevant user and computer. The documents are sent from the address that is specified on the **Company Information** page.  
+> Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you might need to grant explicit SMTP permissions to each relevant user and computer. The documents are sent from the address that is specified on the **Company Information** page.  
 
 ## Set up company information  
 
@@ -40,7 +40,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |**SAT Tax Regime Classification**|Specify the tax scheme required for reporting to the Mexican tax authorities (SAT).|
     |**RFC No.**|Enter the federal registration number for taxpayers. The Registro Federal de Contribuyentes (RFC) tax identification type can be applied to companies and to people. An RFC number for a company is 12 characters, while an RFC number for a person is 13 characters. However, since [!INCLUDE [prod_short](../../includes/prod_short.md)] targets businesses, only 12 digit RFC numbers are currently supported.|
     |**CURP No.**|Enter the unique fiscal card identification number. The Cédula de identification fiscal con clave única de registro de población (CURP) tax identification type can only be applied to people. A CURP number is 18 characters.|
-    |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
+    |**State Inscription**|Enter the tax ID number that the state tax authorities assign to every person or corporation.|
 
 ## Set up general ledger information  
 
@@ -51,11 +51,12 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |------------------------------------|---------------------------------------|
     |**Enabled**|Choose this field to switch to use digitally signed documents, and then fill in the remaining fields on this FastTab.|
     |**SAT Certificate**|Specify the SAT certificate. The section on [adding certificates](how-to-set-up-pac-web-services.md#add-the-certificates) provides information on how to add certificates.|
+    |**Multiple SAT Certificates**|Enable this option to be able to assign other SAT certificates to locations associated with company branches.|
     |**Send PDF Report**|Choose this field to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
     |**PAC Code**|Specify the authorized service provider, PAC, that you want to apply digital stamps to your electronic invoices. Learn more in [Set up PAC web services](how-to-set-up-pac-web-services.md).|
     |**PAC Environment**|Specify if your company is using the web services of your authorized service provider, PAC, in a test environment or a production environment.|
 
-Optionally, you can ask your Microsoft Certified Partner to modify the text that is included in the email that is sent when you send electronic invoices. The text is stored as text variables in codeunit 10145, which can be [extended by a developer](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).  
+Optionally, you can ask your Microsoft Certified Partner to modify the text that is included in the email that is sent when you send electronic invoices. The text is stored as text variables in codeunit 10145, which [a developer can extend](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).  
 
 ## Set up customer and vendor information
 
@@ -79,7 +80,7 @@ You also must add information about your customers and vendors. The following se
     |------------------------------------|---------------------------------------|
     |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
     |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
-    |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
+    |**State Inscription**|Enter the tax ID number that the state tax authorities assign to every person or corporation.|
 
     > [!NOTE]
     > If you select the **Prices Including VAT** field for a customer, the electronic documents include VAT in all amounts, including unit prices. The electronic documents also contain a separate element for VAT. If you want to avoid any possible confusion about the amounts including VAT, you can choose to not select the **Prices Including VAT** field.
@@ -97,7 +98,7 @@ You also must add information about your customers and vendors. The following se
     |------------------------------------|---------------------------------------|
     |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
     |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
-    |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
+    |**State Inscription**|Enter the tax ID number that the state tax authorities assign to every person or corporation.|
 1. Repeat steps 2-3 for all other vendors.  
 
 ## Set up location information
@@ -109,11 +110,13 @@ Finally, you must add information about locations you use. The following section
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
-    |**SAT State Code**|Enter the state, entity, region, community, or similar definitions where the domicile of the origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
-    |**SAT Municipality Code**|Enter the municipality, delegation or mayoralty, county, or similar definitions where the destination address of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT State Code**|Enter the state, entity, region, community, or similar definitions where the domicile of the origin and/or destination of the goods or merchandise moved is located.|
+    |**SAT Municipality Code**|Enter the municipality, delegation or mayoralty, county, or similar definitions where the destination address of the goods or merchandise moved is located.|
     |**SAT Locality Code**|Enter the city, town, district, or similar definition where the domicile of origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
     |**SAT Suburb Code**|Enter the SAT suburb code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
     |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT Certificate**|Specify the SAT certificate issued by the tax authority to the company branch at this location. To enable this field, set the **Multiple SAT Certificates** option on the **General Ledger Setup** page. If a document is posted with a location that has an assigned SAT certificate, that certificate is used to sign the electronic document. Otherwise, the certificate from the **General Ledger Setup** page is applied.|
+
 1. Repeat step 2 for all other locations.  
 
 ## Set up cancellation reasons
@@ -175,8 +178,8 @@ If you prefer to map the fields yourself, then you must update the following pag
 
 ## Related information
 
-- [Electronic Invoicing](electronic-invoicing.md)  
-- [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
-- [Mexico Local Functionality](mexico-local-functionality.md)  
+[Electronic Invoicing](electronic-invoicing.md)  
+[Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
+[Mexico Local Functionality](mexico-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

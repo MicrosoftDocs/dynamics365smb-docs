@@ -2,7 +2,7 @@
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
 ms.date: 10/24/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 author: brentholtorf
@@ -73,6 +73,6 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 > [!Tip]
 > Use the **Set up cues** action in the **Shopify Activities** part to define thresholds for cue styles. By default, the cue displays in yellow if the count is between one and five, and in red if count is five or higher.
 
-## See also
+## Related information
 
 [Get started with the Shopify Connector](get-started.md)  

@@ -5,7 +5,7 @@ description: TCS Adjustment Entries
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -45,7 +45,7 @@ TCS adjustment is applicable for any correction of the TCS amount, TCS rate and 
 
 
 
-## See Also 
+## Related information 
 [TCS Payment to Authority](TCS-Payment-to-Authority.md)
 
 

@@ -2,7 +2,7 @@
 title: Setup Best Practices - Supply Planning
 description: When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: best-practice
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/25/2021
@@ -24,7 +24,7 @@ Supply planning is a critical business area. When set up and used correctly, sup
 |Learn the best practices for specifying selected planning parameters under the defined reordering policy to plan efficiently and economically for an item according to critical elements, such as lead time, carrying costs, and seasonality.|[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)|  
 |Learn the best practices for applying a general supply strategy to all item cards, such as always receiving items one day before they are needed or dampening the system’s reaction to small demand fluctuations.|[Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)|  
 
-## See Also  
+## Related information  
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Design Details: Planning Parameters](design-details-planning-parameters.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  

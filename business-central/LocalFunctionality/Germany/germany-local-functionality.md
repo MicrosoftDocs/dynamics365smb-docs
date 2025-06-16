@@ -2,7 +2,7 @@
 title: Germany local functionality
 description: The following articles describe the local functionality available in the German version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: German version, local functionality
 ms.date: 03/10/2025
@@ -58,8 +58,10 @@ The following articles describe local functionality that is unique to the German
 
 ## Future legislation requirements being investigated
 
-- Adding ZUGFeRD e-invoicing format **Planned for 2025 release wave 1**
-- GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 1**
+- Adding ZUGFeRD e-invoicing format **Planned for July 2025**
+- Peppol BIS# DE format with included Buyer Reference **Planned for July 2025**
+- GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 2**
+- Electronically supported tax audit (euBP) **Planned for 2026 release wave 2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

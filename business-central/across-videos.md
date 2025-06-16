@@ -2,7 +2,7 @@
 title: Visit our video library
 description: Visit our video library for assistance from getting-started videos that illustrate common "how to" tasks to subject matter product videos. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: video, library, how to
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017

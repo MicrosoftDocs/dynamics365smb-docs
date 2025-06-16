@@ -4,7 +4,7 @@ description: To reconcile inventory and capacity ledger entries with the general
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
@@ -91,7 +91,7 @@ The following table shows how the amounts to post to the general ledger are calc
 |Actual Cost|Cost Amount (Actual) – Cost Posted to G/L|  
 |Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
-## See also  
+## Related information  
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Inventory Posting](design-details-inventory-posting.md)  

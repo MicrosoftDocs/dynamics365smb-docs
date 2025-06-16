@@ -4,7 +4,7 @@ description: Russian enhancements include managing fixed assets that cannot be d
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -39,7 +39,7 @@ Create a depreciation book to keep records of the quantities of fixed assets tha
 3. In the **FA Release Act** window, choose the **Post** action.
 4. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 

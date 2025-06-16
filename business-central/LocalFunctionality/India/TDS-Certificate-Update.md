@@ -5,7 +5,7 @@ description: Specifies the TDS Certificate Tracking
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -53,7 +53,7 @@ This topic explains how to track and update the TDS certificate receivable or re
 
 
 
-## See Also 
+## Related information 
 [TDS for Customer Overview](TDS-for-Customer-Overview.md)
 
 

@@ -4,7 +4,7 @@ description: Use Accountant Role Center charts to analyze the flow of money in y
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
@@ -135,7 +135,7 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is publishe
 2. Expand the **Azure AI** FastTab, and then fill in the fields, including the API URL and API key provided from Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the Accountant Role Center, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
 
-## See also
+## Related information
 
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  

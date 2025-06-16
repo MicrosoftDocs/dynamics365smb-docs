@@ -4,18 +4,18 @@ description: Learn how to revert consumption or output transactions, return unus
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 03/19/2025
+ms.date: 04/08/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Cancel production orders that have consumption
 
-Even when production doesn't go as planned, it's crucial to keep your inventory, cost, and financial records accurate. It's now easier to revert consumption or output transactions, return unused raw materials, and correct mistakes in your reported operations. For actual scrap occurrences, Business Central provides a process that lets you close orders and write off accumulated WIP.
+Even when production doesn't go as planned, it's important to keep your inventory, cost, and financial records accurate. You can revert consumption or output transactions, return unused raw materials, and correct mistakes in your reported operations. For actual scrap occurrences, [!INCLUDE [prod_short](includes/prod_short.md)] provides a process that lets you close orders and write off accumulated WIP.
 
-When you post production transactions by mistake, you probably want to cancel (undo the transactions) and in some case close the order. To do that, from the **Released Production Order** page, you can open the **Item Ledger entries** or **Capacity Ledger entries** pages and use the **Reverse Production Order Transaction** action.
+When you post production transactions by mistake, you probably want to cancel (undo the transactions) and in some cases close the order. To do that, from the **Released Production Order** page, you can open the **Item Ledger entries** or **Capacity Ledger entries** pages and use the **Reverse Production Order Transaction** action.
 
 - For item ledger entries of the type **Consumption**, the action creates item journal lines of the type **Consumption**. For the lines, it copies values from the original transaction, uses the opposite sign in the **Quantity** field, applies to the original entry, and posts the item journal.
 - For item ledger entries of the types **Output** or **Capacity**, the action creates item journal lines of the type **Output**. For the lines, it copies values from original transaction, uses the opposite sign in the **Quantity**, **Scrap Quantity**, **Setup Time**, and **Run time** fields, applies to the original entry (only for item ledger entries), and posts the item journal. It also removes the **Finished** status from the related production routing line.
@@ -30,19 +30,17 @@ The action isn't supported under the following conditions:
 
 ## Undo subcontracting receipts
 
-You can undo subcontracting receipts before you post them as invoiced. To do so, go to the posted purchase receipt, select the line, and choose the **Undo** action. As a result, an identical line with an opposite sign in the **Quantity** is created along with the capacity ledger entry. And, if the canceled receipt line is linked to the last routing operation, the item ledger entry of the type **Output**. You can't reverse a receipt if it was invoiced or if the production order was finished.
+You can undo subcontracting receipts before you post them as invoiced. To do so, go to the posted purchase receipt, select the line, and choose the **Undo** action. As a result, an identical line with an opposite sign in the **Quantity** field is created along with the capacity ledger entry. And, if the canceled receipt line is linked to the last routing operation, an item ledger entry of the type **Output**. You can't reverse a receipt if it's invoiced or if the production order is finished.
 
 > [!NOTE]
-> If posting a subcontracting receipt caused consumption of components due to the flushing method, the consumption transactions aren't reverted. You must reverse them separately by using an output journal or the new **Reverse Production Order Transaction** action.
+> If posting a subcontracting receipt caused consumption of components due to the flushing method, the consumption transactions aren't reverted. You must reverse them separately by using an output journal or the **Reverse Production Order Transaction** action.
 
-After you correct (revert) the records, you can change the status of the production order to **Finished**. The steps and setting are described below as they are same for scenario when there is no output to allocate accumulated WIP due to actual scrap accurance.
-
-Setup: Activate the **Finish Order Without Output** toggle in the **Manufacturing Setup** page.
+After you revert and correct the records, you can change the status of the production order to **Finished**. The steps and settings are the same for a scenario where there is no output to allocate accumulated WIP because of actual scrap. To set this up, turn on the **Finish Order Without Output** toggle on the **Manufacturing Setup** page.
 
 > [!NOTE]
 > After you turn on the toggle, you can't turn it off again. However, you can decide whether to write-off WIP for each order individually.
 
-When you change the status of a released production order that has consumption or capacity ledger entries but no output, you can turn on the **Allow Finishing Prod. Order with no output** toggle on the **Change production order status** page. 
+When you change the status of a released production order that has consumption or capacity ledger entries but no output, you can turn on the **Allow Finishing Prod. Order with no output** toggle on the **Change production order status** page.
 
 The accumulated WIP amounts are posted to your inventory adjustment account. Remember to fill in the **Inventory Adjustment Account** on the **General Posting Setup** page for the entry defined by:
 

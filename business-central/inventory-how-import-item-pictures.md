@@ -2,7 +2,7 @@
 title: Importing Many Item Pictures from a ZIP File
 description: To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: product, image
 ms.search.form: 30, 461
@@ -42,7 +42,7 @@ All common file formats are supported.
 
 The **Import Status** field is updated to show if the picture import was skipped or completed.       
 
-## See Also
+## Related information
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  

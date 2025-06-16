@@ -4,7 +4,7 @@ description: This article explains how to print Finnish Intrastat Reports to rep
 services: project-madeira 
 documentationcenter: ''
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Finnish Intrastat Reports, Intrastat, Intrastat authorities
 ms.date: 02/12/2025
@@ -28,7 +28,7 @@ The completed entries can be sent in a file to the Intrastat authorities, or you
 1. Choose the **Print** action, and then choose the **Checklist Report** action.  
 1. Choose the **Print** action.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)  
 - [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  

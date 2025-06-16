@@ -4,7 +4,7 @@ description: See which analytics options are available in Business Central so th
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 347, Report_33, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
 ms.date: 07/15/2024
@@ -50,7 +50,7 @@ You can use the [Payment Practice](https://businesscentral.dynamics.com?page=687
 For more information, go to the [Payment practices page](ui-payment-practices.md).
 
 
-## See also
+## Related information
 
 [Power BI finance app](finance-powerbi-app.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  

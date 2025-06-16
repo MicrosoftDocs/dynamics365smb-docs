@@ -4,7 +4,7 @@ description: This article explains how to set up E-Documents functionality when 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 04/07/2025

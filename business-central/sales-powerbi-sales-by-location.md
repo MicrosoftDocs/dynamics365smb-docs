@@ -4,9 +4,9 @@ description: The Sales by Location report provides an overview of sales performa
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: 
+ms.search.form: 37066_Primary
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ---
@@ -53,11 +53,11 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 ## Try the report
 
-Try the report here: [Sales by Location](https://businesscentral.dynamics.com?page=)
+Try the report here: [Sales by Location](https://businesscentral.dynamics.com?page=37066)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  

@@ -2,7 +2,7 @@
 title: Service Posting
 description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -49,7 +49,7 @@ The following procedure uses a posted service invoice as an example, but the sam
 
     The **Service Order Statistics** page opens. The page displays information such as quantity, amount, VAT, cost, profit, and customer credit limit for the posted document.
 
-## See Also  
+## Related information  
 [Post Service Orders](service-how-to-post-service-orders.md)   
 [Create Service Orders](service-how-to-create-service-orders.md)
 

@@ -5,8 +5,8 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
-ms.date: 12/13/2023
+ms.topic: how-to
+ms.date: 05/19/2025
 ms.custom: bap-template
 ---
 
@@ -33,10 +33,10 @@ You can configure warehouse features in various ways. It's important to choose o
 |Complexity Level|Description|Settings|Bin Code|Example of Inbound Flow|Example of Outbound Flow|Example of Internal Flow|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Purchase order|Sales order| Production order -> Consumption journal|  
-|Basic|Consolidated receive/ship posting for multiple orders.|**Require Receipt**<br>**Require Ship**.|Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Order(s) -> Warehouse Receipt|Sales Order -> Warehouse Shipment|Same as above.|
-|Basic|Order-by-order.|Purchase, Sales, Service & Transfer: Require Put-away or Require Pick. </br><br/> Production, Assembly, Projects: Inventory Pick, Inventory Movement, Inventory Put-Away </br></br>**NOTE**: You can still post receipts, shipments, consumption, output directly from the source documents at locations where you activated these settings.|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Purchase Order -> Inventory Put-away|Sales Order -> Inventory Pick|Production Order -> Inventory Pick|
-|Advanced|Consolidated receive/ship posting for multiple orders.<br /><br />Consolidated pick/put-away activities for multiple source documents.|Purchase, Sales, Service & Transfer: Require Receive + Require Put-away,</br> Require Ship + Require Pick</br></br> Production, Assembly, Projects: Warehouse Pick |Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Order(s) -> Warehouse Receipt -> Warehouse Put-away|Sales Order(s) -> Warehouse Shipment(s) -> Pick Worksheet -> Warehouse Pick(s)| Production order -> Pick Worksheet -> Warehouse Pick(s) -> Consumption journal|
-|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above.|Same as above.| Production order -> Pick Worksheet -> Warehouse Pick(s) Consumption journal|
+|Basic|Consolidated receive/ship posting for multiple orders.|**Require Receipt**<br>**Require Ship**.|Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Orders -> Warehouse Receipt|Sales Order -> Warehouse Shipment|Same as above.|
+|Basic|Order-by-order.|Purchase, Sales, Service & Transfer: Require Put-away or Require Pick. </br><br/> Production, Assembly, Projects: Inventory Picks, Inventory Movement, Inventory Put-Away </br></br>**NOTE**: You can still post receipts, shipments, consumption, output directly from the source documents at locations where you activated these settings.|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Purchase Order -> Inventory Put-away|Sales Order -> Inventory Pick|Production Order -> Inventory Pick|
+|Advanced|Consolidated receive/ship posting for multiple orders.<br /><br />Consolidated pick/put-away activities for multiple source documents.|Purchase, Sales, Service & Transfer: Require Receive + Require Put-away,</br> Require Ship + Require Pick</br></br> Production, Assembly, Projects: Warehouse Picks |Optional. Controlled by the Bin Code is Mandatory toggle|Purchase Orders -> Warehouse Receipt -> Warehouse Put-away|Sales Orders -> Warehouse Shipments -> Pick Worksheet -> Warehouse Picks| Production order -> Pick Worksheet -> Warehouse Picks -> Consumption journal|
+|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above.|Same as above.| Production order -> Pick Worksheet -> Warehouse Picks Consumption journal|
 
 Complexity increases with the size of your organization and how many departments and people are involved. A process can be simple, for example, when the same person creates and posts a sales document. Processes can also be more complex, and involve several steps and people. The following steps are an example of a more complex process:
 
@@ -44,7 +44,7 @@ Complexity increases with the size of your organization and how many departments
 1. A warehouse manager creates pick instructions.
 1. A warehouse employee finishes the flow by posting the warehouse shipment.
 
-The level of complexity is also affected by the types of documents you use in your warehouse activities. For example, you can use warehouse receipt and warehouse put-away documents for your inbound flow, but use inventory pick documents for your outbound flow.
+The types of documents you use in your warehouse activities also affect the level of complexity. For example, you can use warehouse receipt and warehouse put-away documents for your inbound flow, but use inventory pick documents for your outbound flow.
 
 Another factor that impacts complexity is how your physical warehouse is represented in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Modeling the physical warehouse](#modeling-the-physical-warehouse).
 
@@ -106,7 +106,7 @@ We use the terms "basic" and "advanced" to differentiate between levels of compl
 The following documents are used in basic warehouse flows.
 
 * Inventory Put-away
-* Inventory Pick
+* Inventory Picks
 * Inventory Movement
 * Item Journal
 * Item Reclassification Journal
@@ -119,10 +119,10 @@ The following documents are used in advanced warehouse flows.
 * Put-away Worksheet
 * Warehouse Put-away
 * Pick Worksheet
-* Warehouse Pick
+* Warehouse Picks
 * Movement Worksheet
 * Warehouse Movement
-* Internal Warehouse Pick
+* Internal Warehouse Picks
 * Internal Warehouse Put-away
 * Bin Creation Worksheet
 * Bin Content Creation Worksheet
@@ -141,12 +141,12 @@ Bin contents can be **Fixed**, **Dedicated**, or **Default** to define how to us
 
 A fixed bin holds items that are assigned to the bin code. The fixed bin property ensures that even if the bin is emptied, the bin content doesn't disappear. You can select the bin again as soon as its contents are replenished.  
 
-A dedicated bin holds bin content that can only be picked for the dedicated resource that uses the bin. For example, a machine center. Other non-pick content, such as outbound quantities on a shipment posting, can be consumed from a dedicated bin. Only bin content considered by the **Create Pick** algorithm is protected in a dedicated bin.  
+A dedicated bin holds bin content that can only be picked for the dedicated resource that uses the bin. For example, a machine center. Other nonpick content, such as outbound quantities on a shipment posting, can be consumed from a dedicated bin. Only bin content considered by the **Create Pick** algorithm is protected in a dedicated bin.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] uses the **Default** bin property to suggest bins for warehouse activities. At locations that use directed put-away and pick, the default bin property isn't used. At locations where bins are required, the property specifies where to place items in inbound flows. In outbound flows, the property specifies where to take items from.  
 
 > [!NOTE]  
-> If outbound items are placed in several bins, items are taken from the non-default bins first, to empty that bin content, and the remaining items are taken from the default bin.  
+> If outbound items are in several bins, items are taken from the nondefault bins to empty that bin content first. The remaining items are taken from the default bin.  
 
 You can have one default bin per item per location.  
 
@@ -165,7 +165,7 @@ The following types of bins are available:
 |PUTPICK|Items in bins that are suggested for both put-aways and picks. Bins of this type probably have different bin rankings. Set up your bulk storage bins with lower bin rankings than ordinary pick bins or bins in your forward picking area.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow. **Note:**  Unlike all other bin types, the **QC** bin type has none of the item handling checkboxes selected by default. Content you place in a QC bin is excluded from item flows.|  
 
-You can operate your warehouse with all of the eight possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.
+You can operate your warehouse with all of the eight possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP, and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.
 With the exceptions of the PICK, PUTPICK, and PUTAWAY types of bins, the bin type defines the activity allowed for a bin. For example, you can only use a RECEIVE type of bin to receive items or pick items from.  
 
 > [!NOTE]  
@@ -222,13 +222,13 @@ In inbound flows, the class code is only highlighted on inbound lines where the 
 
 A location is a physical structure or place where inventory is received, stored, and shipped. A location can be a warehouse, service car, showroom, plant, or an area in a plant. Inventory is often organized in bins and zones.
 
-#### First expired first out
+#### First expired first out (FEFO)
 
 If you select the **Pick According to FEFO** checkbox on the **Bin Policies** FastTab on the **Location Card** page, item-tracked items are picked at the location according to their expiration date. Items with the earliest expiration dates are picked first.  
 
 Warehouse activities in all pick and movement documents are sorted according to FEFO, unless the items have serial or lot numbers assigned. If some, but not all, of the quantity on the line has serial or lot numbers assigned, the remaining quantity is sorted according to FEFO.  
 
-When picking by FEFO, items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to the temporary FEFO item tracking list.  
+When using FEFO, items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to the temporary FEFO item tracking list.  
 
 Learn more at [Enable Picking Items by FEFO](warehouse-picking-by-fefo.md).
 
@@ -237,7 +237,7 @@ Learn more at [Enable Picking Items by FEFO](warehouse-picking-by-fefo.md).
 Put-away templates specify a set of prioritized rules that apply when you create put-aways. For example, a put-away template can require you to place items in a bin with bin content that has the same UOM. If a similar bin with enough capacity can't be found, the item must be placed in an empty bin. You assign a put-away template to an item and a location.  
 
 
-## See also
+## Related information
 
 [Inventory and warehouse reports](inventory-WMS-reports.md)   
 [Inventory](inventory-manage-inventory.md)  

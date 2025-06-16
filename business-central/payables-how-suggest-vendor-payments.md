@@ -4,7 +4,7 @@ description: Use the Suggest Vendor Payments batch job to create payment lines f
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256,
 ms.date: 07/17/2024
@@ -52,7 +52,7 @@ You can also manually create payment lines using the due date to calculate the p
 > [!NOTE]  
 > If the purchase invoice is overdue, the posting date is set to the work date and the font on the line changes to red.  
 
-## See also
+## Related information
 
 - [Managing Payables](payables-manage-payables.md)  
 - [Making Payments](payables-make-payments.md)  

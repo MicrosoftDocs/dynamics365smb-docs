@@ -4,7 +4,7 @@ description: This feature provides the reports - Balance Sheet, Income Statement
 author: v-makune
 
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 08/26/2022
 ms.reviewer: bholtorf
@@ -32,7 +32,7 @@ The **Acc. Schedule Line** table contains these new fields in the Czech version:
 
 The balance sheet and the profit and loss statements are often prepared in Microsoft Excel file templates with the required design layout for the statement report. Both documents can be customized using Excel workbooks (.xlsx files). Similarly, you can export financial report data to Excel files. Learn more about Excel report templates at [Working with Excel Layouts](../../ui-excel-report-layouts.md).
 
-## See also
+## Related information
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

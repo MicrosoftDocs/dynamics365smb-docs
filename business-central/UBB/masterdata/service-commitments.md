@@ -4,7 +4,7 @@ description: You can use service commitments in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -34,7 +34,7 @@ Service commitments that come from a package line are generally billed based on 
     * The **Consumption Quantity** option also leaves the quantity in the service object unchanged. This means that, in contrast to the **Used Quantity** option, you can process non-integer consumption quantities. However, there is no aggregation of all usage data to one service commitment, as with the **Unit Cost Surcharge** option. Here, too, the sales price (per unit) is determined on a quantity-dependent basis using the related item.
 * If you select the **Unit Cost Surcharge** option in the **Usage Based Pricing** field, the percentage value for the surcharge shows in **Pricing Unit Cost Surcharge %** field. For all other options, you can't edit this field.
 
-## See also
+## Related information
 
 [Overview of usage based billing](../welcome.md)  
 [Usage based billing customers and subscriptions](customers-subscriptions.md)  

@@ -3,7 +3,7 @@ title: Intrastat Localization for Czech (Extension)
 description: Companies in the European Union (EU) are required to report trade with other countries/regions in the EU through Intrastat reporting or VAT Information Exchange System.
 author: v-pejano
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Intrastat, CZ
 ms.date: 09/30/2023
 ms.reviewer: bholtorf
@@ -49,7 +49,7 @@ The following fields have been added to the Intrastat reporting settings:
 - The **Checklist Report** performs standard checks on the Intrastat report including added checks on the mandatory fields Transaction Type, Transaction Spec, Transport Method and Shipment Method.
 - **Create File** exports the Intrastat report. The export of the report uses the **Data Exchange Definition** setting which follows the current format of the CZ Intrastat report. The Data exchange definition allows user editing of the data export.
 
-## See also
+## Related information
 
 [Czech locaal Funkcionality](czech-local-functionality.md)  
 [Set up Intrastat reporting](../../finance-how-setup-report-intrastat.md)  

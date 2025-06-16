@@ -31,7 +31,7 @@ The following table describes a sequence of tasks within accounts payable, with 
 |Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 |Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 
-## See also
+## Related information
 [Purchasing](purchasing-manage-purchasing.md)    
 [Managing Receivables](receivables-manage-receivables.md)    
 [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)    

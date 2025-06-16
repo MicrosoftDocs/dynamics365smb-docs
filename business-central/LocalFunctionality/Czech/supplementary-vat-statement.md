@@ -3,7 +3,7 @@ title: Czech Local Functionality - Supplementary VAT Statement
 description: This feature allows calculation and printing VAT statement for different VAT statements posted and submitted in one VAT period.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 11/07/2023
 ms.reviewer: bholtorf
@@ -15,7 +15,7 @@ ms.author: v-pejano
 According to §43 part 1 of VAT Law 235/2004, the payer can submit a supplementary VAT statement. In case the user wants to issue the **Supplementary VAT Statement** report, they must choose the **Supplementary** type of VAT statement when exporting the statement.
 In the Calculate and Post VAT Settlement functionality, the posted document number is stored in closed VAT entries in the **VAT Settlement No.** field for further filtering in VAT statements and reports. This feature allows calculation and printing VAT statement for different VAT statements posted and submitted in one VAT period.
 
-## See also
+## Related information
 
 [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

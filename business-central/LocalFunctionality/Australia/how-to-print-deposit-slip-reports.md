@@ -2,7 +2,7 @@
 title: Print deposit slip reports [AU]
 description: In the Australian version, use the Deposit Slip report to view cash and check details in a format required by the bank.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: deposit slip report, deposit slip, Australian version
 ms.date: 03/26/2025

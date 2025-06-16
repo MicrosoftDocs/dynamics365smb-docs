@@ -49,7 +49,7 @@ Take all necessary privacy precautions, including ensuring that the email printi
 
 [Set Up Default Printers](ui-specify-printer-selection-reports.md)
 
-## See also
+## Related information
 
 [Printer Management Overview](admin-printer-setup-overview.md)  
 [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)

@@ -2,7 +2,7 @@
 title: Get the Business Central Add-in for Outlook
 description: Learn how to install the Business Central add-in for Outlook for your organization or for your own use. 
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
@@ -119,7 +119,7 @@ You're now ready to start using the add-in in Outlook.
 
 Learn more about installing add-ins in Outlook at [Use add-ins in Outlook](https://support.microsoft.com/en-us/office/use-add-ins-in-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

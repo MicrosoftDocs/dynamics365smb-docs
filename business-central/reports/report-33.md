@@ -86,7 +86,7 @@ Try the report here: [Reconcile Cust. and Vend. Accs](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Built-in key finance reports](../finance-reports.md)  
 [Accounts payable analytics overview](../payables-reports.md)   

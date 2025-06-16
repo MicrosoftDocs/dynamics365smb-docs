@@ -4,10 +4,10 @@ description: Learn how to create, submit, approve, and post time sheets for reso
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 02/05/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -62,7 +62,7 @@ For example, you want to submit a time sheet for a week where you did cleaning t
 | Absence | Time off |  | Health |
 |  | I had to take off Tuesday due to a medical appointment. |  |  |
 
-In this hypothetical example, you can then register the hours across the relevant days for each weekday.  
+In this example, you can then register the hours across the relevant days for each weekday.  
 
 > [!TIP]
 > In most cases, your company will have predefined work types for the various types of lines. In those cases, you just choose the relevant work type from the list, and then you add your own description.  
@@ -96,7 +96,7 @@ You can define the work type for all-time sheet lines for service orders, projec
 3. Choose the **Description** field, and then, in the **Time Sheet Line Resource Detail** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
     1. If no work types exist, choose the **New** action.
     2. On the **Work Types** page, fill in the fields as necessary, and then return to the time sheet.
-4. Fill in the rest of the time sheet. For more information, see the [To fill in time sheet lines and submit for approval](#fill-in-time-sheet-lines-and-submit-for-approval) section.  
+4. Fill in the rest of the time sheet. Learn more in the [To fill in time sheet lines and submit for approval](#fill-in-time-sheet-lines-and-submit-for-approval) section.  
 
 > [!TIP]
 > You can follow similar steps to define absence codes.
@@ -109,7 +109,7 @@ Time sheet registration is tracked in hours, the standard base unit of measure f
 2. Select a time sheet for the relevant period.
 3. Fill in the fields on a line as necessary. Enter the number of hours used by the resource on each day of the week.  
 
-    In most cases, to track work, you add a line of type *Resource*, and then register hours spent each day. If you want to register absence, add a line of type *Absence*.  
+    In most cases, to track work, you add a line of type **Resource**, and then register hours spent each day. If you want to register absence, add a line of type **Absence**.  
 
     > [!TIP]  
     > You can review the sum of time sheet hours entered in the **Actual/Budgeted Summary** FactBox.  
@@ -141,11 +141,11 @@ A time sheet must be submitted for approval before it can be used. You can appro
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  
-3. On the **Time Sheet** page: 
+3. On the **Time Sheet** page:
     1. Choose the **Process** action, then choose the **Approve** action.
     2. Choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button.  
-5. Alternatively, choose the **Reject** action and follow steps 4 through 5.  
+5. Alternatively, choose the **Reject** action.  
 
 > [!TIP]  
 > Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.
@@ -220,7 +220,7 @@ After you post time sheets, you can archive them for future reference. You must 
 3. On the **Move Time Sheets to Archive** page, fill in the fields as necessary, and then choose the **OK** button.  
 4. To review archived time sheets, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Setting Up Project Management](projects-setup-projects.md)  

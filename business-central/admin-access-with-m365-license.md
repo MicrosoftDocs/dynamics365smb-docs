@@ -144,6 +144,6 @@ This section describes the minimum requirements that must be met for your organi
 - Set up your environment and users for access with with Microsoft 365 licenses. Learn more in [Set Up Access with Microsoft 365 Licenses ](admin-access-with-m365-license-setup.md).
 - For troubleshooting tips, visit [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
-## See also
+## Related information
 
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  

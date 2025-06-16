@@ -2,7 +2,7 @@
 title: How to upgrade a .DTD definition file [DE]
 description: Validate a .dtd file after importing it to resolve upgrade issues in the German version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.devlang: al
 ms.search.keywords: dtd file validation, import dtd file, resolve upgrade issues, German version
 ms.date: 03/12/2025

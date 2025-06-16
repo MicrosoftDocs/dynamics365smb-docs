@@ -4,7 +4,7 @@ description: When you have created a service order, filled in all the necessary 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/07/2025
 ms.service: dynamics-365-business-central

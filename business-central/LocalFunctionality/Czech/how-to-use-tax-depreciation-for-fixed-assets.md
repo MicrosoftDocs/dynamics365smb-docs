@@ -22,7 +22,7 @@ Each long-term tangible fixed asset belongs to a depreciation group. These group
 
 Each long-term fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that are used for calculating depreciation.
 
-## See also
+## Related information
 
 [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -4,7 +4,7 @@ description: Learn how to get Dynamics 365 Business Central ready to integrate w
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 07/02/2024
 ms.custom: bap-template
@@ -293,7 +293,7 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
 > [!Note]
 > If you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Authentication with Microsoft Dataverse web services](/powerapps/developer/data-platform/authentication). This step is not required when connecting an online version of [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## See also
+## Related information
 
 [Setting Up User Accounts for Integrating with [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
 [Set Up a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  

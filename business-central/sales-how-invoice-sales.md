@@ -1,15 +1,15 @@
 ---
 title: Invoice sales
-description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
+description: Learn how to create a sales invoice or sales order to record a sale to a customer.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 43, 48, 9301
-ms.date: 03/21/2024
+ms.date: 05/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 # Invoice sales
 
@@ -54,7 +54,7 @@ You can fill customer fields on the sales invoice in one of two ways, depending 
 
 4. On the **Lines** FastTab, in the **Type** field, select the type of product, charge, or transaction you post for the customer on the sales line.
    > [!TIP]
-   > If you've set up recurring sales lines for the customer, such as a monthly replenishment order, you can reflect that in the order by choosing the **Get Recurring Sales Lines** action.
+   > If you set up recurring sales lines for the customer, such as a monthly replenishment order, you can reflect that in the order by choosing the **Get Recurring Sales Lines** action.
 5. In the **No.** field, select a record to post according to the value in the **Type** field.
 
     You leave the **No.** field blank in the following cases:
@@ -72,13 +72,13 @@ You can fill customer fields on the sales invoice in one of two ways, depending 
     The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
 7. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
-    If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, and upon meeting the price criteria, the price and amount on the sales line is automatically updated. Learn more at [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
+    If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, upon meeting the price criteria the price and amount on the sales line automatically update. Learn more at [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Repeat steps 4 through 7 for every product or charge that you want to invoice the customer for.
 
     The totals fields under the lines are automatically updated, as you create or modify lines, to display the amounts posted to the ledgers.
 
     > [!NOTE]
-    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To verify the amounts you’ll post, use the **Customer Statistics** FactBox. Also, when you choose the **Release** action, the values in the totals fields will update to include rounding calculations.
+    > In rare cases, the posted amounts might differ from what displays in the totals fields. The difference is typically due to rounding calculations for VAT or sales tax.<br /><br />To verify the amounts before you post, use the **Customer Statistics** FactBox. Also, when you choose the **Release** action, the values in the totals fields update to include rounding calculations.
 
 9. In the **Inv. Discount Amount Excl. Tax** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
@@ -98,7 +98,7 @@ The related item and customer ledger entries are now created in your system, and
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-You can easily correct or cancel a posted sales invoice before the final payment. This is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. Learn more at [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. Learn more at [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).  
+You can easily correct or cancel a posted sales invoice before the final payment. For example, you might want to correct a typing mistake, or the customer requests a change. Learn more at [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, you must create a sales credit memo to reverse the sale. Learn more at [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).  
 
 [Open the **Posted Sales Invoices** list](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -108,9 +108,9 @@ Depending on your business needs, you can get paid and register a payment in dif
 
 You can process the payments straight from the customer card. Use the **Register Customer Payments** action to get an overview of unpaid invoices for that customer. Then, mark the invoice as paid partially or in full. This payment reconciliation processes your customer payments by matching amounts received in your bank account with the related unpaid sales invoices, and then posts the payments. Learn more in the [To reconcile payments individually](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually) section.  
 
-In business environments where the customer pays some time after delivery. According to the payment terms, a posted sales invoice remains open (unpaid) until the Accounts Receivable department verifies the payment, and applies it to the posted sales invoice. This can be done manually or automatically. Learn more at [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md) and [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
+In business environments where the customer pays after delivery. According to the payment terms, a posted sales invoice remains open (unpaid) until someone verifies the payment and applies it to the posted sales invoice. You can apply payments manually or automatically. Learn more at [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md) and [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
 
-In business environments where the customer pays immediately, such as via PayPal or cash, payment is recorded immediately when you post the sales invoice, which means the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. Learn more at [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
+In business environments where customers pay immediately, such as via PayPal or cash, payment is recorded immediately when you post the sales invoice. Also, the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. Learn more at [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
 You can even create directly paid invoices for unregistered customers by setting up a "cash customer" card for them, which you point to on the sales invoice. Learn more at [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).  
 
@@ -121,7 +121,7 @@ You can even create directly paid invoices for unregistered customers by setting
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

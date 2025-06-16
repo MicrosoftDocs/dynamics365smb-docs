@@ -94,7 +94,7 @@ After you have posted project journal lines, you can see the planning lines that
 2. Select a relevant project journal, and then choose the **Ledger Entries** action.  
 3. On the **Project Ledger Entries** page, choose **Show Linked Project Planning Lines** action.
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

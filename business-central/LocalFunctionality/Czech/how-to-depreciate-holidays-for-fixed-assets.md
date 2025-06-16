@@ -23,7 +23,7 @@ The list of depreciation methods for which the discontinuing of depreciation is 
 
 Users can open the FA depreciation book and fill in the **Depreciation Interrupt** and **Depreciation Interrupt up to** fields. The **Keep Depr. Ending Date** field defines if you want to maintain the depreciation schedule.
 
-## See also
+## Related information
 
 [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

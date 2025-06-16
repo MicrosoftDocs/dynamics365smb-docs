@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.date: 03/20/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
 ms.custom: bap-template
@@ -208,11 +208,11 @@ Alternatively, use the **Start Company Sync** action on the **Shopify Company** 
 
 You can schedule the task to run in an automated way. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
-## Import and export more data using Shopify metafields
+## Import and export customer information using Shopify metafields
 
-Shopify's platform includes data models for basic commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform lets you extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as a product, customer, or company. The additional information stored in metafields can be almost anything related to a resource. Some examples are preferences, credit limits, loyalty programs, social media links, or segment information.
+Shopify's platform includes data models for basic commerce concepts. However, commerce is diverse and often requires more complex or specific data models. The custom data platform lets you extend Shopify's data models and create your own by using metafields. Metafields are a flexible way to add and store additional information about a Shopify resource, such as customer, or company. The additional information stored in metafields can be almost anything related to a resource. Some examples are preferences, credit limits, loyalty programs, social media links, or segment information.
 
-You can import and export data stored in metafields into [!INCLUDE [prod_short](../includes/prod_short.md)]. Also, there's an extensibility model that allows developers to map standard or custom fields, attributes, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
+You can import and export data stored in metafields into [!INCLUDE [prod_short](../includes/prod_short.md)]. Also, there's an extensibility model that allows developers to map standard or custom fields, or other related entries in [!INCLUDE [prod_short](../includes/prod_short.md)] to metafields in Shopify.
 
 You can edit metafields on the **Shopify Metafields** page, which you open from the **Shopify Customers**, **Shopify Customer Card**, **Shopify Companies**, or **Shopify Company Card** pages.
 
@@ -225,6 +225,61 @@ You can edit metafields on the **Shopify Metafields** page, which you open from 
 > When you add a new record, the connector immediately sends a request to Shopify and stores the entry only when it gets a response with the Shopify ID for the metafield. You can't edit types that have AssistEdit functionality defined directly on the line.
 
 If standard metafields are defined, you can use the **Get Metafield Definitions** action to get the list from Shopify. All supported metafields are imported. You only need to update the values.
+
+#### Supported metafield content types
+
+> [!NOTE]
+> Metafields definitions with *List of values* aren't supported.
+
+**Date and time:**
+
+* Date
+* Date and time
+
+**Measurements:**
+
+* Dimension
+* Volume
+* Weight
+
+**Number:**
+
+* Decimal
+* Integer
+
+**Text:**
+
+* Single line text
+* Multi-line text
+
+> [!NOTE]
+> Rich text isn't supported.
+
+**References:**
+
+* Product
+* Variant
+* Collection
+* File
+* Metaobject
+* Page
+* Company
+* Customer
+
+**Other:**
+
+* True or false
+* Color
+* URL
+* Money
+
+> [!NOTE]
+> Link and Rating aren't supported.
+
+**Advanced:**
+
+* Mixed reference
+* JSON
 
 ## Related information
 

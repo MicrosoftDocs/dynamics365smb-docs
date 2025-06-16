@@ -2,10 +2,10 @@
 title: Accountant experiences in Business Central
 description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
-ms.date: 01/03/2025
+ms.date: 06/12/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -47,7 +47,7 @@ It's easy to invite your external accountant. In [!INCLUDE [prod_short](includes
 
 ### Add your accountant to your Microsoft 365 tenant
 
-If your admin or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by Business Central and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your admin or reselling partner prefers not to use the **Invite External Accountant** guide, you can add an external user to the Microsoft Entra tenant used by [!INCLUDE [prod_short](includes/prod_short.md)] and assign them the *External Accountant* license. You can add a user using the Microsoft 365 admin center, Microsoft Entra admin center, or Azure portal. The following procedure uses the Microsoft admin center. Learn about using the Microsoft Entra admin center at [Quickstart: Add a guest user and send an invitation](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### Add your accountant as a guest user
 

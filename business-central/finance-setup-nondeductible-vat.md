@@ -62,7 +62,7 @@ Because it can be difficult to know where and how an item is used, contact the l
 >
 > Don't use the same **VAT identifier** value for both normal VAT where the **Non-Deductible VAT %** field is set to **0** (zero) and normal VAT where the **Non-Deductible VAT %** field is set to a non-zero value. Otherwise, the total non-deductible VAT amount will be incorrectly calculated.
 
-## See also
+## Related information
 
 [Financial Management](finance.md)  
 [Design details: Nondeductible VAT](design-details-nondeductible-vat.md)  

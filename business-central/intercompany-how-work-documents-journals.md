@@ -51,7 +51,7 @@ When you post an intercompany general journal line in your company, a correspond
 
 The entries are posted in your company and a journal with corresponding entries is created in your intercompany outbox. From there, you can send them to your partner.
 
-## See Also
+## Related information
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

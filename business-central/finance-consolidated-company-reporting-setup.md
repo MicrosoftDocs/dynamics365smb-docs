@@ -4,8 +4,8 @@ description: Learn how you can configure how data from different companies in Bu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.date: 06/12/2024
+ms.topic: how-to
+ms.date: 04/25/2025
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 240, 1826, 1827
@@ -57,7 +57,7 @@ The following list illustrates key aspects of the consolidated company.
 
 3. Specify exchange rates, if needed.
 
-    Specify exchange rates if you consolidate data for business units that use different currencies. The three exchange rates you can use are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**. To learn more about exchange rates, go to [Specify exchange rates for consolidations](#exchrates).
+    Specify exchange rates if you consolidate data for business units that use different currencies. The exchange rates you can use are **Average Rate (Manual)** and **Closing Rate**. To learn more about exchange rates, go to [Specify exchange rates for consolidations](#exchrates).
 
 4. Consolidate dimension information and general ledger accounts.
 
@@ -79,12 +79,12 @@ A significant part of setting up the business unit is to specify how the unit sh
 
 When you run consolidation for business units in a foreign currency, pay attention to the exchange rates that various parts of the process use. This is especially true when you rerun consolidation. Use the **Set Up Business Unit Currencies** page to easily keep track of the rates.
 
-The **Set Up Business Unit Currencies** page gives you the last rates for average, closing, and last closing rate. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is valuable when you want to rerun a previous consolidation and use a previous closing rate. This step helps to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
+The **Set Up Business Unit Currencies** page gives you the last rates for average and closing. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is valuable when you want to rerun a previous consolidation and use a previous closing rate. This step helps to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
 
 You start the **Run Consolidation** batch job from the **Business Units** list page. You can also find the **Set Up Business Unit Currencies** page by choosing the **Exchange Rates** action.
 
 > [!NOTE]
-> The exchange rate setup pages for average, closing, and last closing rate that are currently available on the **Business Unit** card will be deprecated in a future version. However, you can still maintain these rates if you have business units that you import through files.
+> The exchange rate setup pages for average and closing that are currently available on the **Business Unit** card will be deprecated in a future version. However, you can still maintain these rates if you have business units that you import through files.
 
 #### Create a business unit
 
@@ -127,7 +127,6 @@ The following table describes the exchange rate methods you can use for accounts
 |---|---|
 |Average Rate (Manual) | You manually calculate the average rate for the period to consolidate. Calculate the average either as an arithmetic average or as a best estimate, and specify the result for each business unit. Use for income statement accounts.|
 |Closing Rate | Used for balance sheet accounts.|
-|Last Closing Rate | The rate that was valid in the foreign exchange market on the date for which the balance sheet or income statement is being prepared. You enter this rate for each business unit. Use for balance sheet accounts.|
 |Historical Rate | The exchange rate that was valid when the transaction occurred.|
 |Composite Rate | The current period amounts are translated at the average rate and added to the previously recorded balance in the consolidated company. You typically use this method for retained earnings accounts. Those accounts include amounts from different periods, so they contain amounts translated with different exchange rates.|
 |Equity Rate | This option is similar to **Composite**. Differences post to separate general ledger accounts.|
@@ -156,7 +155,7 @@ If you don't want to include a business unit in the consolidation, you can exclu
 
 If you own only part of a company, you can include a percentage of each transaction that reflects the percentage you own. For example, if you own 70% of the company, consolidation includes $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card and enter the percentage in the **Consolidation %** field.  
 
-## See Also
+## Related information
 
 [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

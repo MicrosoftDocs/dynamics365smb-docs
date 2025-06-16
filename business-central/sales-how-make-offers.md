@@ -2,7 +2,7 @@
 title: Make sales quotes
 description: Read about how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer or prospect to sell products under certain terms.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: 41, 9300
@@ -92,7 +92,7 @@ The conversion removes the sales quote from the database. A sales invoice or a s
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

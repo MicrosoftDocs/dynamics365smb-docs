@@ -4,7 +4,7 @@ description: Russian enhancements include VAT reinstatement.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -50,7 +50,7 @@ To reinstate previously accepted for deduction of VAT used **VAT Reinstatement W
 4. You can reistate the entire transaction (for the entire amount of VAT sold), you can set a factor (for example, 0.5) to reistate part of the amount.
 5. The selected line will be transferred to the VAT Reinstatement journal for posting.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

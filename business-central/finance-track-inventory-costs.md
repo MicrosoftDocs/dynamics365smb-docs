@@ -7,22 +7,22 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form:
-ms.date: 02/25/2025
+ms.date: 04/08/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Track item cost adjustments
 
-It's important to keep item costs accurate and shorten the time between when you post an entry and when the general ledger reflects its cost. You can track the performance of the cost adjustments for individual adjustment runs and items. If errors happen, you can identify the problematic items and make corrections. For example, you can exclude the items from calculations to ensure adjustments aren't interrupted for other items. You can adjust costs for individual items, or create batches of items and adjust them all at the same time.
+It's important to keep item costs accurate and shorten the time between when you post an entry and when the general ledger reflects its cost. You can track the performance of the cost adjustments for individual adjustment runs and items. If errors happen, you can identify the problematic items and make corrections. For example, you can exclude the items from calculations to ensure adjustments aren't interrupted for other items. You can adjust costs for individual items or create batches of items and adjust them all at the same time.
 
 ## Start tracking cost adjustments
 
 It's easy to get started. On the **Inventory Setup** page, the **Cost Adjustment Logging** field offers a few options:
 
 * **Disabled** means you don't log cost adjustment runs.
-* **Errors Only** means to log only runs that failed.
-* **All** means to log all runs.
+* **Errors Only** means you log only runs that failed.
+* **All** means you log all runs.
 
 > [!NOTE]
 > To minimize the size of the log, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't log the adjustments that happen automatically when someone posts an item.
@@ -35,12 +35,14 @@ Use the **Inventory Cost Adjustment** page to manage and monitor the cost adjust
 
 ### About item batches
 
-You can run cost adjustment for several items by grouping them in batches. Batches make it easy to adjust some items separately, for example, because they take longer to adjust. Batches can also help identify items that have issues.
+You can run cost adjustments for several items by grouping them into batches. Batches make it easy to adjust some items separately, for example, because they take longer to adjust. Batches can also help identify items that have issues.
 
-To create a batch, on the **Inventory Cost Adjustment** page, do one of the following:
+To create a batch, on the **Inventory Cost Adjustment** page:
 
 * Select the items in the list, choose **Run cost adjustment**, and then choose **Add Batch**.
-* To create a batch and run cost adjustment immediately, select the items in the list, choose **Run cost adjustment**, and then choose **Add batch and run**.
+
+To create a batch and run cost adjustment immediately:
+* Select the items in the list, choose **Run cost adjustment**, and then choose **Add batch and run**.
 * Choose **Run cost adjustment**, choose **Item Batches**, and then enter a filter in the **Item Filter** field.
   
 > [!TIP]
@@ -49,7 +51,7 @@ To create a batch, on the **Inventory Cost Adjustment** page, do one of the foll
 When a run for a batch finishes, the batch has one of the following status on the **Item Batches** page:
 
 * **Success**: The cost adjustment is successful.
-* **Failed**: If the cost adjustment fails, [!INCLUDE [prod_short](includes/prod_short.md)] identifies the item that caused the error, and then splits the current batch into two. One batch with the problematic item, and another with the remaining items. Cost adjustment reruns for the batch with the remaining items. If it fails again, the process repeats. You define the maximum number of splits in the **Max. Retry Attempts** field. The default value for retries is 10, but you can enter a new limit.
+* **Failed**: If the cost adjustment fails, [!INCLUDE [prod_short](includes/prod_short.md)] identifies the item that caused the error and then splits the current batch into two. One batch with the problematic item, and another with the remaining items. Cost adjustment reruns for the batch with the remaining items. If it fails again, the process repeats. You define the maximum number of splits in the **Max. Retry Attempts** field. The default value for retries is 10, but you can enter a new limit.
 * **Timed out**: If the cost adjustment for a batch doesn't finish within the period specified in the **Timeout (Minutes)** field (ranging from 1 to 720 minutes), the session terminates and changes are rolled back. [!INCLUDE [prod_short](includes/prod_short.md)] then splits the current batch in half and reruns the cost adjustment process for each half. This process continues until the cost adjustment is successful or reaches the maximum retry attempts.
 
 > [TIP!]
@@ -59,7 +61,7 @@ When a run for a batch finishes, the batch has one of the following status on th
 
 Use the **Inventory Cost Adjustment** page to make adjustments.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Cost Adjustment**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Cost Adjustment**, and then choose the related link.
 1. Depending on what you want to do, use one of the following options:
 
   * For one or more items immediately, select the items in the list and then choose **Run cost adjustment**.
@@ -76,7 +78,7 @@ Use the **Item** menu to access information about cost adjustments for a selecte
 * **Item Ledger Entries**: List item entries for the item. The **Mark for Adjustment** action lets you force the rerun of cost adjustment for items directly or indirectly linked to the inbound entries you select. Forcing a rerun can be helpful if previous runs led to incorrect costs.
 * **Value Entries**: List value entries for the item.
 * **Cost Adjmt. Entry Points**: Open the **Avg. Cost Adjmt. Entry Point** page, which you primarily use to calculate average cost. The page displays combinations of items, locations, variants, and valuation dates for which cost adjustments are, or must be, run.
-* **Cost Adjmt. Orders**: Open the **Inventory Adjmt. Entry (Order)** page, where you adjust production and assembly orders. It shows the orders are adjusted, or require adjustment.
+* **Cost Adjmt. Orders**: Open the **Inventory Adjmt. Entry (Order)** page, where you adjust production and assembly orders. It shows the orders are adjusted or require adjustment.
 * **Item Application Entries**: Open the **Item Application Entries** page for details about quantity and cost applications. You can use the **Reset Outbound Entry is Updated** action in combination with the **Mark for Adjustment** setting on the **Item Ledger Entries** page to force a rerun of cost adjustment.
 
 ### View the outcome
@@ -88,15 +90,15 @@ Use the **Log per** menu to view the outcome of cost adjustments:
 
 ### Include or exclude items from adjustments
 
-If one or more items fail, you can exclude the items from the adjustment run, and then include them in later runs. On the **Functions** menu, choose one of the following:
+If one or more items fail, you can exclude the items from the adjustment run and then include them in later runs. On the **Functions** menu, choose one of the following:
 
 * **Exclude item from adjustment** and **Include item in adjustment**: Temporarily disable and then re-enable cost adjustment for a selected item. Cost adjustment continues to keep costs accurate for other items while you investigate an issue with a specific item.
 
 ### Use iterative cost adjustments
 
-To manage the processing scope of cost adjustments for items that have a high volume of transactions, you can do the adjustments on a period-by-period basis. You can do that in just a few steps. On the **Inventory Cost Adjustment** page, select the item to adjust, choose the **Cost Adjmt. Entry Points** action. Next, choose the **Valuation Date** until which you want to complete the adjustment, and then choose the **Adjust Cost Until Valuation Date** action.
+To manage the processing scope of cost adjustments for items that have a high volume of transactions, you can do the adjustments on a period-by-period basis. You can do that in just a few steps. On the **Inventory Cost Adjustment** page, select the item to adjust, choose the **Cost Adjmt. Entry Points** action. Next, choose the **Valuation Date** until you want to complete the adjustment and then choose the **Adjust Cost Until Valuation Date** action.
 
-These steps adjust entries for the selected item up to the chosen date, and affects entries across all locations and variants. The item is marked as adjusted when all periods are fully adjusted.
+These steps adjust entries for the selected item up to the chosen date and affects entries across all locations and variants. The item is marked as adjusted when all periods are fully adjusted.
 
 You can also adjust costs for individual production and assembly orders. On the **Inventory Cost Adjustment** page, select one or more production or assembly orders, and then choose the **Adjust Cost for Selected Orders** action.
 
@@ -131,7 +133,7 @@ When you open the **Inventory Cost Adjustment** page, a notification might state
 * One or more items are excluded from cost adjustment.
 * Data discrepancies remain after cost adjustment completes.
 
-Scanning happens automatically during normal system usage, but you can start it manually at any time by selecting the **Run Tests** action on the **Cost Adjmt. Action Messages** page. You can't turn off diagnostics completely, but you can pause it for up to 30 days by choosing **Snooze for 30 days**.
+Scanning happens automatically during normal system usage, but you can start it manually at any time by selecting the **Run Tests** action on the **Cost Adjmt. Action Messages** page. You can't turn off diagnostics completely but you can pause it for up to 30 days by choosing **Snooze for 30 days**.
 
 ## Use the Cost Adjustment Tracer feature
 

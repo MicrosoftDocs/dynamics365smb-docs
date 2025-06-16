@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 Additional fields on item ledger entries and value entries
 
-## See also
+## Related information
 
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -2,7 +2,7 @@
 title: Company Information Quick Start
 description: Learn how to fill in the first critical fields about your company in Business Central by reading this Quick Start article.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 1,
@@ -27,7 +27,7 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## See also  
+## Related information  
 
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

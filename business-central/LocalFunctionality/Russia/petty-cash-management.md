@@ -4,7 +4,7 @@ description: Russian enhancements include managing petty cash.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -91,7 +91,7 @@ The **Cash Order Journal CO-3** report shows the register of posted ingoing and 
 
 The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[Print the Cash Report CO-4 Report](How-to-Print-the-Cash-Report-CO-4-Report.md).
 
-## See Also
+## Related information
 
 [Bank Management](Bank-Management.md)  
 [Create Cash Account Cards](How-to-Create-Cash-Account-Cards.md)  

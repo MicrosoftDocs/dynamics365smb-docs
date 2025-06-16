@@ -24,6 +24,6 @@ This extension adds Fixed Asset features to [!INCLUDE[d365fin](../../includes/d3
 - [Fixed Asset location/responsible history report](how-to-use-fixed-asset-location-history-report.md) **Available Now**
 - [Fixed Assets Reporting](how-to-use-fixed-assets-reporting.md) **Available Now**
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  

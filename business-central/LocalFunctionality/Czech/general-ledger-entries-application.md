@@ -4,7 +4,7 @@ description: The local functionality in the General ledger entries application a
 author: ACMartinKunes
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, finance, CZ, General ledger, Entries
 ms.date: 06/24/2021
 ms.reviewer: bholtorf
@@ -23,7 +23,7 @@ Partial application is allowed. The remaining amount for applying is shown on th
 
 User can run batch application by using the **G/L Entry Applying** report .
 
-## See Also
+## Related information
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
 

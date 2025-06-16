@@ -3,7 +3,7 @@ title: Set Up FA User-Defined Depreciation Method
 description: In Business Central, you can apply a user-defined depreciation method for defining your asset's depreciation method on the Fixed Asset Card page.
 author: jill-kotel-andersson
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: bholtorf
@@ -95,7 +95,7 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 | 12/31/24 |Depreciation |None |None |0 |
 
 
-## See Also
+## Related information
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)  

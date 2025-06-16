@@ -1,8 +1,8 @@
 ---
 title: Electronic invoicing in Germany
-description: The following article provides information on how to work with the German localization of the E-Document framework.
+description: Learn how to set up and work with the German localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, UBL, Peppol, German version
 ms.search.form: 
@@ -32,7 +32,7 @@ To set up the format for the E-Document service, follow these steps:
 1. Configure the fields as described in [Set up e-documents](../../finance-how-setup-edocuments.md).
 1. Close the page.
 
-### Using buying reference on the E-invoice
+### Use buying reference on the E-invoice
 
 When you configure e-invoices in the sales process, make sure to display your buyer reference on the invoice. Follow these steps to set up how you use buyer references:  
 
@@ -43,12 +43,12 @@ When you configure e-invoices in the sales process, make sure to display your bu
    1. If you choose the **Customer reference**, the system uses the **E-Invoice Routing No** from the **Customer** card.  
 1. Close the page.
 
-## Working with E-invoices
+## Work with E-invoices
 
 Learn more in [Use e-documents in the purchases process](../../finance-how-use-edocuments.md), which provides information about the E-Documents framework in purchase processes.  
 
 > [!NOTE]
-> E-invoicing in purchase processes is available starting with version 25.2, and its enablement in the sales starting from version 25.3.  
+> E-invoicing in purchase processes is available starting with version 25.2, and its enablement in sales starts from version 25.3.  
 
 ## Related information
 

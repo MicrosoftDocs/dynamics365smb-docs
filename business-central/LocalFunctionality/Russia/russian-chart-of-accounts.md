@@ -2,7 +2,7 @@
 title: Chart of accounts in Russia
 description: Russian enhancements include the chart of accounts.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/09/2023
 ms.reviewer: bholtorf
@@ -25,7 +25,7 @@ In the **Chart of Accounts** window, the following fields are available:
 | **Source Type**   | **General**       | Specifies the type of source that must be posted to this general ledger account. | Reporting |
 | **Currency Code** | **Consolidation** | Selects a default currency code for the general ledger account. |           |
 
-## See also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

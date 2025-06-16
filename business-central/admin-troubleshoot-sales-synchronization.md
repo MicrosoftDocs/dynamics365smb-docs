@@ -2,7 +2,7 @@
 title: Troubleshooting Synchronization Errors
 description: This article provides guidance for identifying, troubleshooting, and resolving synchronization errors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/04/2024
@@ -35,7 +35,7 @@ The following are some tools on the Integration Synchronization Errors page that
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions clean up the list. Typically, you use these actions after you resolve the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
 * The **Show Error Call Stack** action shows information that can help identify the cause of the error. If you can't resolve the error yourself and you decide to submit a support request, include the information in the support request.
 
-## See also
+## Related information
 
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  

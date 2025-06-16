@@ -2,7 +2,7 @@
 title: Adjust Settlement Exchange Rates for VAT Entries (Australia)
 description: Use a batch job to settle VAT entries based on the government exchange rate in the Australian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: batch job, settle VAT entries, government exchange rate, Australian version
 ms.date: 03/25/2025
 ms.author: bholtorf

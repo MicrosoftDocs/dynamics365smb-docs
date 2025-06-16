@@ -89,7 +89,7 @@ Instead of using movement documents, you can record movements by reclassifying b
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

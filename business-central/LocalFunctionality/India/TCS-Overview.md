@@ -226,7 +226,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
 
 
 
-## See Also 
+## Related information 
 [TCS Transactions](TCS-Transactions.md)
 
 

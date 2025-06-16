@@ -2,7 +2,7 @@
 title: Business Central for Multi-Site and International Organizations | Microsoft Docs
 description: Business Central provides capabilities that support a hub-and-spoke business model.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
@@ -102,7 +102,7 @@ The headquarter company must be able to react quickly to business changes at eac
 | Automatically generate email alerts. | Set up alerts in Power Automate that will generate emails to inform you of critical business conditions at sites or supply chain partners. | [Business Central and Power BI](admin-powerbi.md) |
 | Use standard or custom alerts. | Use 12 different templates included for Business Central or set up your own alerts to suit your business. | [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md) |
 
-## See Also
+## Related information
 [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

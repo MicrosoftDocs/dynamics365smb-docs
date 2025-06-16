@@ -71,7 +71,7 @@ On the **Actions** FastTab, for each action you can specify whether you want the
 
 You can change settings for an automation at any time. On the **Actions** FastTab, choose **Setup**, and then make your changes.
 
-## See also
+## Related information
 
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
 [Send Reminders of Outstanding Balances](receivables-send-reminders.md)  

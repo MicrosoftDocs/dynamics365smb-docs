@@ -63,7 +63,7 @@ Try the report here: [BOM - Raw Materials](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Assembly report overview](../assembly-reports.md)  
 

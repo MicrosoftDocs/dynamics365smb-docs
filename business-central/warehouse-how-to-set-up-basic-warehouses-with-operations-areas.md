@@ -4,7 +4,7 @@ description: Set up warehouse operations areas and use inventory movements, pick
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776

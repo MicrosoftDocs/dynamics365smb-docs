@@ -31,7 +31,7 @@ Try the report here: [Customer - Payment Receipt](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Sales reports](../sales-reports.md)  

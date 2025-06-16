@@ -7,9 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 08/12/2024
+ms.date: 06/16/2025
 ms.custom: bap-template
-ms.service: dynamics-365-business-central
+
 ---
 
 # Update currency exchange rates
@@ -65,7 +65,7 @@ Because exchange rates fluctuate constantly, you need to adjust other currency e
 You can use the **Adjust Exchange Rates** batch job to manually adjust the exchange rates for posted customer, vendor, and bank account entries. The batch job can also update other reporting currency amounts on G/L entries.  
 
 > [!TIP]
-> You can use a service to update exchange rates automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
+> You can use a service to update exchange rates automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Exchange Rates Adjustment** batch job.
 
 You can also specify how the adjustment handles dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 
@@ -74,10 +74,13 @@ You can also specify how the adjustment handles dimensions for unrealized gains 
 * **G/L Account Dimensions**: Transfer dimension values from the unrealized gains and losses G/L account's dimension settings source entry to G/L entries.
 
 > [!NOTE]
-> To use the preview capability, you need to turn on the **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** feature on the **[Feature Management](https://businesscentral.dynamics.com/?page=2610)** page.
+> This capability isn't available in the Swiss version right now, but it's coming soon. We're working on it.
 
 > [!NOTE]
-> This capability isn't available in the Swiss version right now, but it's coming soon. We're working on it.
+> [!INCLUDE [prod_short](includes/prod_short.md)] doesn't consider dimensions for individual entries when you adjust an additional reporting currency. Dimensions aren't copied to the G/L entries if you set up the **Exchange Rate Adjustment** batch job with:
+>
+> * The **Adjust G/L Accounts for Add.-Reporting Currency** toggle turned on.
+> * **Source Entry Dimensions** selected in the **Dimension Posting** field.
 
 ## Preview the effect of an adjustment
 

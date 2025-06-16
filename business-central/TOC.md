@@ -290,6 +290,7 @@ ms.service: dynamics-365-business-central
 ##### Key finance reports
 
 ###### [Key finance report overview](finance-reports.md)
+###### [Chart of Accounts](reports/report-1.md)
 ###### [Detail Trial Balance](reports/report-4.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 

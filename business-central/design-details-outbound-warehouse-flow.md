@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Outbound warehouse processes
 
-Outbound processes in warehouses start when you release a source document to take items out of a warehouse location. For example, either to ship the items somewhere or to move them to another company location. You can ship physical and noninventory items. To learn more about receiving noninventory items, go to [Post noninventory items](#post-non-inventory-items).
+Outbound processes in warehouses start when you release a source document to take items out of a warehouse location. For example, either to ship the items somewhere or to move them to another company location. You can ship physical and noninventory items. To learn more about receiving noninventory items, go to [Post noninventory items](#post-noninventory-items).
 
 In principle, the process of shipping outbound orders consists of two activities:
 

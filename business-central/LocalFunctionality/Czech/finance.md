@@ -1,12 +1,12 @@
 ---
 title: Finance - Czech local functionality
-description: This section describes Czech local functionality for finance and the features you can use to track and manage your finances.
+description: Learn about Czech-specific finance features in Business Central, including corrections posting, statutory reporting, and tools to help you track and manage your company's finances.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 08/26/2022
-ms.reviewer: bholtorf
+ms.date: 06/02/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -76,7 +76,7 @@ As one of the most extensively used features for analysis and reporting, Eastern
 
 ## Statutory statements
 
-Companies must create financial statements according to accounting law 563/1991, specifically the balance sheet and the profit and loss statement. The statutory statements feature enables the creation of those reports:
+Companies must create financial statements according to accounting law 563/1991, specifically the balance sheet, and the profit and loss statement. The statutory statements feature enables the creation of those reports:
 
 - Balance sheet
 - Income statement

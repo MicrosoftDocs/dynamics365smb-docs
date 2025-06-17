@@ -293,6 +293,7 @@ ms.service: dynamics-365-business-central
 ###### [Chart of Accounts](reports/report-1.md)
 ###### [G/L Register](reports/report-3.md)
 ###### [Detail Trial Balance](reports/report-4.md)
+###### [Receivables-Payables](reports/report-5.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 
 ###### [Trial Balance/Previous Year](reports/report-7.md) 

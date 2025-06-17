@@ -53,7 +53,7 @@ The end-to-end process handled by the Payables Agent is illustrated in the figur
 1. **Agent supervisor:** May be called upon to assist the agent with identifying the vendor if the agent cannot confidently identify the right vendor.
 1. **Payables Agent:** Uses AI to suggest invoice details based on the extracted invoice information.
 1. **Agent supervisor:** May be called upon to review, confirm or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
-1. **Payables Agent:** Finalizes the purchse document draft into a purchase invoice. Users can now see the invoice in the **Purchase Invoices** list.
+1. **Payables Agent:** Finalizes the purchsse document draft into a purchase invoice. Users can now see the invoice in the **Purchase Invoices** list.
 
 ### Email monitoring
 

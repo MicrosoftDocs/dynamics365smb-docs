@@ -399,7 +399,14 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
-3. Select the entry for which to define and export prices, and then fill in the fields as necessary.
+
+You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). 
+Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
+
+#### Sync prices for B2B Catalog
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+2. Select the entry for which to define and export prices, and then fill in the fields as necessary.
 
    You can use two strategies. One is the default strategy, where you can use settings similar to the ones for synchronizing the **Price** and **Compare at Price** fields for Shopify products (Shopify variant). The following table describes settings for the default strategy.
 
@@ -413,19 +420,9 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
 
    The second strategy is to use the **Customer No.** field. In this case, the connector uses the customer to calculate the price. It ignores other values defined in the Shopify Catalog entry, and uses the **Customer Price Group**, **Customer Discount Group**, and **Allow Line Discount** fields from the customer card. Use personalization to add the **Customer No.** field to the **Shopify Catalog** page.
 
-4. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
+3. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
 
-You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). 
-Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
-
-#### Sync prices for B2B Catalog
-
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
-2. Select the entry for which to define and export prices.
-3. Use the available settings to configure how to define prices. The settings are similar to ones used for synchronization of **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
-4. Turn on the **Sync Prices** toggle.
-5. Choose **Sync Prices**, and wait for synchronization to complete.
-
+   
 ## Sync inventory to Shopify
 
 Inventory synchronization can be configured for already synchronized items. There are two conditions that must be met:

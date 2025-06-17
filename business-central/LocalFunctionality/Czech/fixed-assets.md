@@ -6,7 +6,7 @@ ms.topic: article
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
 ms.date: 06/03/2025
 ms.reviewer: v-soumramani
-ms.author: v-makune
+ms.author: makune
 ms.service: dynamics-365-business-central
 ---
 

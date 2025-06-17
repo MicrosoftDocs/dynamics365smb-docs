@@ -6,7 +6,7 @@ ms.topic: article
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
 ms.date: 06/05/2025
 ms.reviewer: v-soumramani
-ms.author: v-makune
+ms.author: makune
 ms.service: dynamics-365-business-central
 ---
 

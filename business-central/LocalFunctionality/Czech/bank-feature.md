@@ -6,7 +6,7 @@ ms.topic: article
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature, company default bank account, Czech version
 ms.date: 06/02/2025
 ms.reviewer: v-soumramani
-ms.author: v-makune
+ms.author: makune
 ms.service: dynamics-365-business-central
 ---
 

@@ -6,9 +6,8 @@ ms-service: dynamics-365-business-central
 ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Localization, CZ, Czech version
 ms.date: 06/02/2025
-ms.reviewer: bholtorf
-ms.author: v-pejano
 ms.reviewer: v-soumramani
+ms.author: v-pejano
 ---
 
 # Accounting output documents in the Czech version

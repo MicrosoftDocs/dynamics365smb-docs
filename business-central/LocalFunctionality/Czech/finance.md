@@ -115,11 +115,11 @@ This new posting scheme is used in the following transactions:
 
 Use the following table to learn more about additional finance features available for the Czech Republic.
 
-| Article                                                     | Description                                                  |
-| :-------------------------------------------------------- | :----------------------------------------------------------- |
-| [Year closing operations](year-close-operations.md)                        | Helps you close or open the required account books to comply with accounting legislation at the end of the fiscal year. |
-| [General ledger entries application](general-ledger-entries-application.md)                                    | In addition to the application of customer and vendor ledger entries, the general ledger entries application are also introduced. With it, you can work with temporary and transfer accounts in the general ledger. |
-| [Exchange rate updating](exchange-rate-update.md)                                    | Makes it possible to automatically update currency exchange rates from the external service provided by the ČNB (Czech National Bank). |
+| Article | Description |
+|:-|:-|
+| [Year closing operations](year-close-operations.md) | Helps you close or open the required account books to comply with accounting legislation at the end of the fiscal year. |
+| [General ledger entries application](general-ledger-entries-application.md) | In addition to the application of customer and vendor ledger entries, the general ledger entries application are also introduced. With it, you can work with temporary and transfer accounts in the general ledger. |
+| [Exchange rate updating](exchange-rate-update.md) | Makes it possible to automatically update currency exchange rates from the external service provided by the ČNB (Czech National Bank). |
 
 ## Related information
 

@@ -45,6 +45,7 @@ Try the report here: [G/L Register](https://businesscentral.dynamics.com?report=
 
 ## Related information
 
+[Analyze G/L entries](../finance-how-to-analyze-gl-entries.md)   
 [Built-in key finance reports](../finance-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

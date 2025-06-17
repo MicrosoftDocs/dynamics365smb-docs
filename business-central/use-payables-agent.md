@@ -17,9 +17,7 @@ ms.search.form: 4400, 4410
 
 This article explains how to use Payables Agent to help you process vendor invoices received via email. The Payables Agent uses  AI to analyze incoming invoices, create drafts for review, and reduce manual corrections.
 
-The agent monitors a designated mailbox for incoming email from vendors or employees with attached PDF invoices. about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer with the quote as a PDF attachment.
-
-Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
+The agent monitors a designated mailbox for incoming email from vendors or employees with attached PDF invoices. Some steps require your intervention.
 
 Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow).
 
@@ -32,7 +30,7 @@ Learn more about the Payables Agent and its process flow in [Payables Agent proc
 
 ## Prerequisites
 
-Sales Order Agent is activated, and you have permission to use it. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md).
+Payables Agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md).
 
 ## Get started
 

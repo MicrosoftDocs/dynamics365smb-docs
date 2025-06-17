@@ -140,7 +140,7 @@ Additionally, in Business Central, you can set up and use approval workflows to 
 
   We strongly encourage using the permission sets and the profile included with the Sales Order Agent, which can be assigned on the Agent card. This practice ensures that the agent only has access to the functionalities necessary for its role, enhancing both security and efficiency within the system.
 
-  Learn more in [Set up Payables Agent](payablesr-agent-setup.md).
+  Learn more in [Set up Payables Agent](payables-agent-setup.md).
 
 - Transparency and notifications
 

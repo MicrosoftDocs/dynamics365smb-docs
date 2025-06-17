@@ -21,7 +21,7 @@ The agent monitors a designated mailbox for incoming email from vendors or emplo
 
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 
-Learn more about the Payables Agent and its process flow in [](payables-agent.md#payables-agent-process-flow).
+Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->

@@ -1,1 +1,1 @@
-Best used during preparation for an audit or when tracing G/L entries by posting dates or users to verify financial transaction integrity.
+Use during preparation for an audit or when tracing G/L entries by posting dates or users to verify financial transaction integrity.

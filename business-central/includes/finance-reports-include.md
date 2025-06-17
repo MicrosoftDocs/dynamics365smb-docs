@@ -11,7 +11,8 @@ The following table describes some key financial reports. The reports are design
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|
-| [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Chart of Accounts](https://businesscentral.dynamics.com?report=1) | [About *Chart of Accounts*](../reports/report-1.md) | 1 |
+| [!INCLUDE [report-1-scenario](../includes/report-1-scenario-include.md)] | [Chart of Accounts](https://businesscentral.dynamics.com?report=1) | [About *Chart of Accounts*](../reports/report-1.md) | 1 |
+| [!INCLUDE [report-3-scenario](../includes/report-3-scenario-include.md)] | [G/L Register](https://businesscentral.dynamics.com?report=3) | [About *G/L Register*](../reports/report-3.md) | 3 |
 | Audit and reconcile general ledger balances at the end of a period by viewing the net change, opening balance, each transaction in the period, and the closing balance grouped by G/L account. | [Detail Trial Balance](https://businesscentral.dynamics.com?report=4) | [About *Detail Trial Balance*](../reports/report-4.md) | 4 |
 | [!INCLUDE [report-4405-scenario](../includes/report-4405-scenario-include.md)] | [Trial Balance Excel](https://businesscentral.dynamics.com?report=4405) | [About *Trial Balance Excel*](../reports/report-4405.md) | 4405 |
 | To check the debit and credit net change and closing balance compared to the same period in the previous calendar year, view a snapshot of your chart of accounts at a given point. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |

@@ -11,7 +11,7 @@ ms.date: 06/17/2025
 ms.custom: bap-template
 ms.search.form: 4400, 4410
 ---
-# Use Payables Agent (preview)
+# Process vendor invoices with Payables Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -61,11 +61,12 @@ Steps that need intervention appear under **Needs Attention** in the **Tasks** t
 
 1. Select **Review** for the step.
 
-   The **Tasks** tab switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
-
+   The **Tasks** tab switches to **Review** mode, and the review content appears in the main display area.
 1. Review the contents and make changes as needed.
 
-1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task.
+1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane.
+
+   If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task. Learn more in [Stop a task](#stop-a-task),
 
 After confirmation, the agent continues with the task. When a new notification appears on the Payables Agent icon after some time, follow the same flow to review and confirm the results.
 

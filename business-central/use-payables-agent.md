@@ -38,7 +38,7 @@ You collaborate with Payables Agent to process invoices using the **Tasks** tab 
 
 The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
 
-For each invoice, the agent adds a task to track, review, and follow up on updates until the purchase invoice is created. Each task includes multiple steps that create a timeline of the process.
+For each invoice, the agent adds a task to track, review, and follow up on until the agent creates the purchase invoice. Each task has multiple steps that create a timeline of the process.
 
 > [!TIP]
 > Hover over the ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** icon in the role or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for Payables Agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.

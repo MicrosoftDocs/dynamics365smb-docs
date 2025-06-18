@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: trade, sell, configure
 ms.search.form:
-ms.date: 02/02/2024
+ms.date: 06/17/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -19,7 +19,7 @@ When someone enters a quantity for an item on a sales document that exceeds the 
 ## To show a warning about low inventory on a sales document
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-1. Depending on whether you want to show the warning, turn on or turn off the **Stockout Warning" toggle.
+1. Depending on whether you want to show the warning, turn on or turn off the **Stockout Warning** toggle.
 
 ## Video guidance
 

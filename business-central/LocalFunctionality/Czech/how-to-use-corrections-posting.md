@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Corrections posting
-description: This local function is used to force corrective posting.
+description: The corrections posting function is used to force corrective posting.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 11/14/2023
-ms.reviewer: bholtorf
+ms.date: 06/04/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -23,9 +23,8 @@ The purpose of the feature is:
 
 ## Related information
 
-[Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
-
+- [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,11 +15,9 @@ ms.search.form: 4400, 4410
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to use Payables Agent to help you process vendor invoices received via email. The Payables Agent uses  AI to analyze incoming invoices, create drafts for review, and reduce manual corrections.
+This article explains how to use Payables Agent to process vendor invoices received via email. The Payables Agent uses AI to analyze incoming invoices, create drafts for review, and reduce manual corrections.
 
-The agent monitors a designated mailbox for incoming email from vendors or employees with attached PDF invoices. Some steps require your intervention.
-
-Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow).
+The agent monitors a designated mailbox for incoming email from vendors or employees with attached PDF invoices. Some steps require your intervention. Learn more about the Payables Agent and its process flow in [Payables Agent process flow](payables-agent.md#payables-agent-process-flow).
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
@@ -34,15 +32,13 @@ Payables Agent is activated, and you have permission to use it. Learn more in [S
 
 ## Get started
 
-You collaborate with Payables Agent to process invoices using the **Tasks** tab in the **Copilot** pane.
-
-To access this view, select ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
+You collaborate with Payables Agent to process invoices using the **Tasks** tab in the **Copilot** pane. To access this tab, select ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
 
 ![Shows the agents task view with steps](media/payables-agent-tasks-pane.svg)
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
+The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the agent. Tasks that require attention&mdash;like reviewing vendor information&mdash;are at the top of the list.  
 
-For each invoice request, the agent adds a task to track, review, and follow up on updates, eventually processing the request into a purchase invoice. Tasks can consist of multiple steps that form a timeline of the process.
+For each invoice request, the agent adds a task to track, review, and follow up on updates, then processes the request into a purchase invoice. Each task includes multiple steps that form a timeline of the process.
 
 > [!TIP]
 > Hover over the ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** icon in the role or select the ![Show summary for Agent icon](media/soa-summary-icon.png) **Show summary for Payables Agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
@@ -103,10 +99,9 @@ Before you stop a task, consider the following behavior:
   For example, suppose you stopped a task after a sales quote was created. Although the process stopped, the sales quote is still stored in the system as open. You might have to manually edit the state depending on your company policy and then update the customer.
 - Stopped tasks aren't deleted immediately. You can still explore a task's timeline until it's deleted, typically by an administrator.
 
-
 ## Related information
 
-[Sales Order Agent overview](sales-order-agent.md)  
-[Set up Sales Order Agent](sales-order-agent-setup.md)  
-[FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md)  
+[Payables Agent overview](sales-order-agent.md)  
+[Set up Payables Agent](sales-order-agent-setup.md)  
+[FAQ for Payables Agent](faqs-sales-order-taker-agent.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

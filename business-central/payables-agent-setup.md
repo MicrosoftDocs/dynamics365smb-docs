@@ -1,14 +1,18 @@
 ---
 title: Set up Payables Agent
-description: Learn how to activate the Payables Agent and manage user access.
-ms.date: 07/01/2025
+description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
+ms.date: 06/18/2025
 ms.topic: how-to
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
-ms.search.form: 4400_Primary, 4410
+ms.search.form: 3304_Primary
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:06/18/2025
 ---
 # Set up Payables Agent (preview)
 

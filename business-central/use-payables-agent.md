@@ -1,14 +1,18 @@
 ---
-title: Use Payables Agent
-description: Learn how to use Payables Agent.
+title: Process Vendor Invoices with Payables Agent
+description: Payables Agent automates vendor invoice processing, tracks tasks, and keeps you informed. Discover how to simplify your accounts payable process.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 06/17/2025
-ms.custom: bap-template
+ms.date: 06/18/2025
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:06/18/2025
 ms.search.form: 4400, 4410
 ---
 # Process vendor invoices with Payables Agent (preview)

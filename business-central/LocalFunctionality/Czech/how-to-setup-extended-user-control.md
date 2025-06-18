@@ -1,12 +1,12 @@
 ---
 title: Set up extended user control [CZ]
-description: The majority of companies in the Czech Republic request the following improvements to be implemented in user setup and control.
+description: Most companies in the Czech Republic require enhancements to user setup and control to meet local business needs.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 11/17/2023
-ms.reviewer: bholtorf
+ms.date: 06/03/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -30,11 +30,9 @@ This feature in User Setup in combination with new User Setup Lines table allows
 - Allow Complete Job
 - Allow Item Un-apply functionality
 
-
 ## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
-
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

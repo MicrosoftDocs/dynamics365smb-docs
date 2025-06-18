@@ -2,18 +2,18 @@
 title: Czech local functionality - Intrastat
 description: Learn about local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables, and other features.
 author: ACMartinKunes 
-ms.author: v-makune
-ms.reviewer: bholtorf
+ms.author: bholtorf
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 03/02/2023
+ms.date: 06/05/2025
 ms.custom: bap-template
 ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
 ---
 
 # Intrastat in the Czech version
 
-The standard Intrastat feature doesn't transfer all and only valid transactions into the Intrastat journal. The result is a lot of manual work to exclude and include excess and missing transactions, which often causes errors. According to the requirements of the Czech Republic, the standard Intrastat feature needs the following improvements:
+The standard Intrastat feature doesn't transfer all and only valid transactions into the Intrastat journal. The result is a lot of manual work to exclude and include excess and missing transactions, which often cause errors. According to the requirements of the Czech Republic, the standard Intrastat feature needs the following improvements:
 
 - Particular options in the Intrastat engine need to be parameterized.
 - Handling of supplementary measure units needs to be improved.
@@ -35,15 +35,15 @@ Extra Intrastat engine general parameters setup allows you to:
 - Set foreign currency exchange rates for Intrastat reporting.
 - Set the object for the Intrastat report export.
 
-### New setup tables 
+### New setup tables
 
-New setup tables are added for the following:
+New setup tables are added for the following purposes:
 
 - Statistic indications
 - Specific movements
 - Intrastat delivery groups
 
-### More setup for Intrastat 
+### More setup for Intrastat
 
 More setup for Intrastat enables you to define the following settings:
 
@@ -99,8 +99,8 @@ Export use object for export based on setup in Stat. Reporting Setup or Registra
 
 ## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
-[Finance](finance.md)
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
+- [Finance](finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

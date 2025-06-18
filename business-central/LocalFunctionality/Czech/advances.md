@@ -6,7 +6,7 @@ ms.topic: article
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash, tax documents, tax credit memo, life cycle, deduction of advance, linking tool, factboxes, internal documents, output documents printout, Czech local functionality, Czech version
 ms.date: 06/02/2025
 ms.reviewer: v-soumramani
-ms.author: makune
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 

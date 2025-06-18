@@ -2,7 +2,7 @@
 title: Czech local functionality - Intrastat
 description: Learn about local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables, and other features.
 author: ACMartinKunes 
-ms.author: makune
+ms.author: bholtorf
 ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: article

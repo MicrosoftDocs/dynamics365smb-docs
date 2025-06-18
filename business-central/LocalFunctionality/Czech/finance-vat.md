@@ -7,7 +7,7 @@ ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, VAT
 ms.date: 06/02/2025
 ms.reviewer: v-soumramani
-ms.author: makune
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 

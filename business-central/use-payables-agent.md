@@ -38,7 +38,7 @@ You collaborate with Payables Agent to process invoices using the **Tasks** tab 
 
 To access this view, select ![Shows Payables Agent icon.](media/payables-agent-activated-icon.png) **Payable Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
 
-![Shows the task view with steps](media/soa-task-view-callouts.png "Shows the task view with steps")
+![Shows the agents task view with steps](media/payables-agent-tasks-pane.svg)
 
 The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by the agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 

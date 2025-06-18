@@ -34,7 +34,7 @@ The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to a
 
 This preview doesn't represent the full vision of the Payables Agent. The Payables Agent is in its early stages, and more features and AI capabilities are coming.
 
-The agent is designed to help with:
+Eventually, the agent will help with:
 
 * Purchase order matching
 * Approval flows

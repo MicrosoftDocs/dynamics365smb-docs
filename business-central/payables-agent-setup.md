@@ -8,7 +8,7 @@ ms.author: soalex
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
-ms.search.form: 4400_Primary, 4410
+ms.search.form: 3304_Primary
 ---
 # Set up Payables Agent (preview)
 

@@ -1,7 +1,7 @@
 ---
 title: Payables Agent overview (preview)
-description: Learn about the Payables Agent in Business Central.
-ms.date: 06/01/2025
+description: Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
+ms.date: 06/18/2025
 ms.topic: overview
 author: dmc-dk
 ms.author: soalex
@@ -9,17 +9,19 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400, 4410
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:06/18/2025
 ---
 # Payables Agent overview (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 ## Business value
-The Payables Agent solves a decade-old challenge: end-to-end processing of vendor invoices.
+The Payables Agent solves a decade-old challenge: end-to-end processing of vendor invoices. Processing vendor invoices often creates bottlenecks and relies on accounting knowledge and mapping data and business rules to register invoices correctly.
 
-Processing vendor invoices often creates bottlenecks and relies on accounting knowledge and mapping data and business rules to register invoices correctly.
-
-The core goal for the Payables Agent is simple: get accounting skills and help register invoices correctly, ideally removing bottlenecks in accounts payable so finance support doesn't slow company growth. The agent needs almost no setup—just configuration and activation.
+The core goal for the Payables Agent is simple: get accounting skills and help register invoices correctly, ideally removing bottlenecks in accounts payable so finance support doesn't slow company growth. The agent needs almost no setup&mdash;just configuration and activation.
 
 The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to analyze invoice content, and shows invoice drafts to agent supervisors for review. Ideally, users make few or no corrections before finalizing drafts, so invoices are ready for approval and posting.
 
@@ -66,17 +68,17 @@ The agent uses an internal email dispatcher running as a background task to cont
 
 For each imported PDF document that is a vendor invoice in **Inbound E-Documents**, the PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 
 
-The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these in **Inbound E-Documents** using the **For review** view and the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 
+The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these documents in **Inbound E-Documents** using the **For review** view and the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 
 
 ### Suggesting invoice details
 
 When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. 
 
-After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to suggest the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, Recurring Purchase Lines, and more. The agent records all suggestions for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent, and it's also linked in the agent sidecar in the Copilot pane when an agent supervisor is involved. 
+After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to suggest the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, Recurring Purchase Lines, and more. The agent records all suggestions for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent, and it's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
 
 ### Drafts of the suggested vendor invoice
 
-The **Purchase document draft** is where the agent's suggestions are shown to the user and where the agent explains why it made certain suggestions. This helps users learn about the agent's reasoning and decide whether to adjust the suggestions before finalizing the draft.
+The **Purchase document draft** is where the agent's suggestions are shown to the user and where the agent explains why it made certain suggestions. The draft helps users learn about the agent's reasoning and decide whether to adjust the suggestions before finalizing the draft.
 
 Finalizing a purchase draft creates a purchase invoice based on the draft. After you finalize a draft, it's linked to the purchase invoice and is no longer editable. The draft remains as long as the purchase invoice exists.
 
@@ -107,7 +109,7 @@ The agent involves designated Business Central users, called agent supervisors, 
 
 ## Permissions and profiles
 
-The agent works within the permissions and profile (role) the admin assigns. Learn more in [Manage agent permissions and user acces](payables-agent-setup.md#manage-agents-permissions-to-objects-data-and-ui-elements).
+The agent works within the permissions and profile (role) the admin assigns. Learn more in [Manage agent permissions and user access](payables-agent-setup.md#manage-agents-permissions-to-objects-data-and-ui-elements).
 
 ## Next steps
 

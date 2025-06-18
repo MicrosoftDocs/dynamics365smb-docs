@@ -306,6 +306,7 @@ ms.service: dynamics-365-business-central
 ###### [Dimensions - Detail](reports/report-28.md)
 ###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ###### [Trial Balance by Period](reports/report-38.md)
+###### [G/L Consolidation Eliminations (for IC)](reports/report-16.md)
 
 ##### [Built-in fixed assets reports](fa-reports.md)
 

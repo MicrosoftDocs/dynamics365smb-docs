@@ -28,7 +28,7 @@ The following table describes some key financial reports. The reports are design
 | [!INCLUDE [report-4410-scenario](../includes/report-4410-scenario-include.md)] | [Consolidated Trial Balance Excel](https://businesscentral.dynamics.com?report=4410) | [About *Consolidated Trial Balance Excel*](../reports/report-4410.md) | 4410 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. Use this report to analyze consolidated financial data from multiple companies. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=10007) | | 10007 |
 | Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this report to analyze consolidated financial data from multiple companies. | [Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)| | 10008 |
-
+| [!INCLUDE [report-16-scenario](../includes/report-16-scenario-include.md)] | [G/L Consolidation Eliminations](https://businesscentral.dynamics.com?report=16) | [About *G/L Consolidation Eliminations*](../reports/report-16.md) | 16 |
 
 <!-- 
 ## The old way

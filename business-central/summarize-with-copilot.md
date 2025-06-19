@@ -6,8 +6,10 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 04/14/2025
+ms.date: 06/19/2025
 ms.custom: bap-template
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Summarize records with Copilot (preview)

@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 04/01/2025
+ms.date: 06/19/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -9,6 +9,8 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
+ms.collection:
+  - bap-ai-copilot
 ---
 # Responsible AI FAQ for Chat with Copilot (preview)
 

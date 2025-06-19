@@ -232,7 +232,7 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
    * Office 365 (legacy)
 
      > [!IMPORTANT]
-     > Effective April 2022, Office365 (legacy) is no longer be supported. To learn more, go to [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+     > Effective April 2022, Office365 (legacy) is no longer supported. To learn more, go to [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
    * OAuth
 

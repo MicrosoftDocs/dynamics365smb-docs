@@ -53,6 +53,7 @@ Try the report here: [G/L Consolidation Eliminations](https://businesscentral.dy
 
 ## Related information
 
+[Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

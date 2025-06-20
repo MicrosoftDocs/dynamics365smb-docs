@@ -1,12 +1,12 @@
 ---
-title: Business Central Access with Microsoft 365 licenses
-description: Learn how users can get access to Business Central data, for example in Microsoft Teams chats and channels, with only a Microsoft 365 license, but no Business Central license.
+title: Business Central Access with Microsoft 365 Licenses
+description: Discover how users can view Business Central data in Microsoft Teams with only a Microsoft 365 license. Learn setup steps and requirements.
 author: mikebc
 ms.author: mikebc 
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: overview
-ms.date: 08/12/2024
+ms.date: 06/20/2026
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ms.search.form: 1978
@@ -14,9 +14,10 @@ ms.search.form: 1978
 
 # Business Central access with Microsoft 365 licenses
 
-[!INCLUDE[prod_short](includes/prod_short.md)] users are assigned a Dynamics 365 Business Central license that allows them to view, modify and act on their business data from any user interface. For all other employees across the organization that only need to occasionally view data, Business Central offers access through Microsoft 365.  
+[!INCLUDE[prod_short](includes/prod_short.md)] users are assigned a Business Central license that allows them to view, modify, and act on their business data from any user interface. For all other employees across the organization that only need to occasionally view data, Business Central offers access through Microsoft 365.  
 
-When an organization has both a Dynamics 365 Business Central and Microsoft 365 subscription, administrators can configure environments to enable access with Microsoft 365 licenses, and choose exactly which tables and other objects this category of user will have access to. When configured, employees that have a Microsoft 365 license but no [!INCLUDE [prod_short](includes/prod_short.md)] license can view [!INCLUDE [prod_short](includes/prod_short.md)] records that are shared with them in Microsoft Teams chat and channels.
+If your organization has both a Business Central and a Microsoft 365 subscription, admins can set up environments to let users sign in with Microsoft 365 licenses and choose which tables and other objects these users can use. When configured, employees that have a Microsoft 365 license but no [!INCLUDE [prod_short](includes/prod_short.md)] license can view [!INCLUDE [prod_short](includes/prod_short.md)] records that are shared with them in Microsoft Teams chat and channels.
+
 
 ## Why enable access with Microsoft 365 licenses  
 

@@ -303,6 +303,7 @@ ms.service: dynamics-365-business-central
 ###### [Closing Trial Balance](reports/report-10.md)
 ###### [Fiscal Year Balance](reports/report-36.md)
 ###### [Balance Comp. - Prev. Year](reports/report-37.md)
+###### [Foreign Currency Balance*](reports/report-503.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)

@@ -1,0 +1,1 @@
+Use this report to monitor and reconcile foreign currency transactions, particularly during revaluation periods or when reviewing the impact of exchange rate fluctuations.

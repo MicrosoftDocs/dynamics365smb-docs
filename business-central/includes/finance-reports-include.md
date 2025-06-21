@@ -23,11 +23,14 @@ The following table describes some key financial reports. The reports are design
 | [!INCLUDE [report-38-scenario](../includes/report-38-scenario-include.md)] | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 | [!INCLUDE [report-36-scenario](../includes/report-36-scenario-include.md)] | [Fiscal Year Balance](https://businesscentral.dynamics.com?report=36) | [About *Fiscal Year Balance*](../reports/report-36.md) | 36 |
 | [!INCLUDE [report-37-scenario](../includes/report-37-scenario-include.md)] | [Balance Comp. - Prev. Year](https://businesscentral.dynamics.com?report=37) | [About *Balance Comp. - Prev. Year*](../reports/report-37.md) | 37 |
+| [!INCLUDE [report-503-scenario](../includes/report-503-scenario-include.md)] | [Foreign Currency Balance](https://businesscentral.dynamics.com?report=503) | [About *Foreign Currency Balance*](../reports/report-503.md) | 503 |
 | Run a report defined in the Financial Reporting feature. | [Run Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
 | [!INCLUDE [report-27-scenario](../includes/report-27-scenario-include.md)] | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 | [!INCLUDE [report-28-scenario](../includes/report-28-scenario-include.md)] | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
 | [!INCLUDE [report-30-scenario](../includes/report-30-scenario-include.md)] | [Dimension Check Value Posting](https://businesscentral.dynamics.com?report=30) | [About *Dimension Check Value Posting*](../reports/report-30.md) | 30 |
 | [!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)] | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
+
+
 
 
 <!-- | **Balance Sheet** (Acc.Schedule or Excel) or **Trial Balance** |  |  |

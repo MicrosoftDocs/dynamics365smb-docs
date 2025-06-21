@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-The following table describes financial reports for the deferrals (IC) feature. 
+The following table describes financial reports for the deferrals feature. 
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|

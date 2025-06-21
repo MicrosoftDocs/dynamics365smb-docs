@@ -30,9 +30,8 @@ The following table describes some key financial reports. The reports are design
 | [!INCLUDE [report-30-scenario](../includes/report-30-scenario-include.md)] | [Dimension Check Value Posting](https://businesscentral.dynamics.com?report=30) | [About *Dimension Check Value Posting*](../reports/report-30.md) | 30 |
 | [!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)] | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
 | [!INCLUDE [report-1700-scenario](../includes/report-1700-scenario-include.md)] | [G/L Deferral Summary](https://businesscentral.dynamics.com?report=1700) | [About *G/L Deferral Summary*](../reports/report-1700.md) | 1700 |
+| [!INCLUDE [report-1701-scenario](../includes/report-1701-scenario-include.md)] | [Sales Deferral Summary](https://businesscentral.dynamics.com?report=1701) | [About *Sales Deferral Summary*](../reports/report-1701.md) | 1701 |
 
 <!-- 
-| [!INCLUDE [report-1701-scenario](../includes/report-1701-scenario-include.md)] | [](https://businesscentral.dynamics.com?report=1701) | [About **](../reports/report-1701.md) | 1701 |
-
 | [!INCLUDE [report-1702-scenario](../includes/report-1702-scenario-include.md)] | [](https://businesscentral.dynamics.com?report=1702) | [About **](../reports/report-1702.md) | 1702 | 
 -->

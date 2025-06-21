@@ -310,6 +310,7 @@ ms.service: dynamics-365-business-central
 ###### [Dimension Check Value Posting](reports/report-30.md)
 ###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ###### [G/L Deferral Summary](reports/report-1700.md)
+###### [Sales Deferral Summary](reports/report-1701.md)
 ###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Consolidated Trial Balance](reports/report-17.md)
 ###### [Consolidated Trial Balance (4)](reports/report-18.md)

@@ -1,0 +1,1 @@
+Review and reconcile deferred revenue and expense entries by analyzing their impact on general ledger balances over time. Get transparency into how deferrals affect G/L accounts across posting periods, helping ensure accurate financial reporting.

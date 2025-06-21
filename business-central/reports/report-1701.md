@@ -50,6 +50,7 @@ Try the report here: [Sales Deferral Summary](https://businesscentral.dynamics.c
 
 ## Related information
 
+[Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)   
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

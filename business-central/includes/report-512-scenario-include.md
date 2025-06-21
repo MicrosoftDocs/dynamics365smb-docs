@@ -1,0 +1,1 @@
+Review and reconcile intercompany sales, purchases, and journal entries between internal entities to ensure accurate financial consolidation and transparency.

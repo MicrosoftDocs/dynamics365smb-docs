@@ -312,6 +312,7 @@ ms.service: dynamics-365-business-central
 ###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Consolidated Trial Balance](reports/report-17.md)
 ###### [Consolidated Trial Balance (4)](reports/report-18.md)
+###### [Intercompany Transactions](reports/report-512.md) 
 ###### [G/L Consolidation Eliminations (for IC)](reports/report-16.md)
 
 ##### [Built-in fixed assets reports](fa-reports.md)

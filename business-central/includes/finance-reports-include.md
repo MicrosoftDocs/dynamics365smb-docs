@@ -25,12 +25,6 @@ The following table describes some key financial reports. The reports are design
 | Analyze your general ledger with dimension detail by building groups of dimensions for combinations of dimension values, and view a breakdown of general ledger entries for each segment. | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
 | Understand the transactions for control general ledger accounts, and find discrepancies between general ledger and customer and vendor ledgers. | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
 | Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account. | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
-| [!INCLUDE [report-4410-scenario](../includes/report-4410-scenario-include.md)] | [Consolidated Trial Balance Excel](https://businesscentral.dynamics.com?report=4410) | [About *Consolidated Trial Balance Excel*](../reports/report-4410.md) | 4410 |
-| [!INCLUDE [report-17-scenario](../includes/report-17-scenario-include.md)] |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=17) <br><br> [Consolidated Trial Balance (NA localization)](https://businesscentral.dynamics.com?report=10007) | [About *Consolidated Trial Balance*](../reports/report-17.md) | 17 <br><br> 10007 (NA localization) |
-| [!INCLUDE [report-18-scenario](../includes/report-18-scenario-include.md)] | [Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=18) <br><br> [Consolidated Trial Balance (4) (NA localization)](https://businesscentral.dynamics.com?report=10008)| [About *Consolidated Trial Balance (4)*](../reports/report-18.md) | 18 <br><br> 10008 (NA localization)|
-| [!INCLUDE [report-16-scenario](../includes/report-16-scenario-include.md)] | [G/L Consolidation Eliminations](https://businesscentral.dynamics.com?report=16) | [About *G/L Consolidation Eliminations*](../reports/report-16.md) | 16 |
-
-
 
 <!-- | **Balance Sheet** (Acc.Schedule or Excel) or **Trial Balance** |  |  |
 | **Statement of Cash Flow** (Account Schedule) |  |  |

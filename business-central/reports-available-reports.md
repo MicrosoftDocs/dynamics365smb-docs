@@ -19,6 +19,7 @@ ms.service: dynamics-365-business-central
 ## Financial reports
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
 
 To learn more, go to [Financial Reports and Analytics in Business Central](finance-reports.md).
 

@@ -25,6 +25,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
 
 ## Related information
 

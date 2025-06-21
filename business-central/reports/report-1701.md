@@ -15,9 +15,9 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Deferral Summary - Sales (report)
+# Sales Deferral Summary (report)
 
-The **Deferral Summary - Sales** report shows how sales invoice revenue is deferred over future periods. It is useful for validating that deferrals follow revenue recognition policies and for reconciling revenue deferral balances.
+The **Sales Deferral Summary** report shows how sales invoice revenue is deferred over future periods. It is useful for validating that deferrals follow revenue recognition policies and for reconciling revenue deferral balances.
 
 ## Use cases
 

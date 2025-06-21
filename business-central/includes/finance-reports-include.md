@@ -22,7 +22,7 @@ The following table describes some key financial reports. The reports are design
 | [!INCLUDE [report-10-scenario](../includes/report-10-scenario-include.md)] | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About Closing Trial Balance](../reports/report-10.md) | 10 |
 | [!INCLUDE [report-38-scenario](../includes/report-38-scenario-include.md)] | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 | [!INCLUDE [report-36-scenario](../includes/report-36-scenario-include.md)] | [Fiscal Year Balance](https://businesscentral.dynamics.com?report=36) | [About *Fiscal Year Balance*](../reports/report-36.md) | 36 |
-| [!INCLUDE [report-37-scenario](../includes/report-37-scenario-include.md)] | [](https://businesscentral.dynamics.com?report=37) | [About **](../reports/report-37.md) | 37 |
+| [!INCLUDE [report-37-scenario](../includes/report-37-scenario-include.md)] | [Balance Comp. - Prev. Year](https://businesscentral.dynamics.com?report=37) | [About *Balance Comp. - Prev. Year*](../reports/report-37.md) | 37 |
 | Run a report defined in the Financial Reporting feature. | [Run Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
 | [!INCLUDE [report-27-scenario](../includes/report-27-scenario-include.md)] | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 | [!INCLUDE [report-28-scenario](../includes/report-28-scenario-include.md)] | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |

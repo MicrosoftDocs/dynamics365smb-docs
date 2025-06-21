@@ -1,0 +1,1 @@
+Audit and reconcile general ledger balances at the end of a period by viewing the net change, opening balance, each transaction in the period, and the closing balance grouped by G/L account.

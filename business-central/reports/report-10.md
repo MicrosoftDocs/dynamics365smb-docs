@@ -29,6 +29,8 @@ Use the report to verify that all financial transactions are accurate and that t
 
 ## Use cases
 
+[!INCLUDE [report-10-scenario](../includes/report-10-scenario-include.md)]
+
 <!-- 
 Prompt
 
@@ -62,19 +64,19 @@ Please include your data sources and URLs
 
 -->
 
-Accountants use the report to:
+Accountants can use the report to:
 
 * Verify the accuracy of the financial data by ensuring that debits and credits balance, and comparing the balances from this year and last year.
 * Prepare financial statements, such as income statements, balance sheets, and cash flow statements, based on the report.
 * Identify discrepancies or errors in financial data and investigate them.
 
-Financial controllers use the report to:
+Financial can controllers use the report to:
 
 * Monitor the financial health of the business by reviewing this year's and last year's balances of each account in the chart of accounts.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Prepare financial reports for internal and external stakeholders, such as board members or regulatory agencies, based on the report.
 
-Auditors use the report to:
+Auditors can use the report to:
 
 * Verify the accuracy of the financial data by ensuring that debits and credits balance, and comparing the balances from this year and last year.
 * Identify discrepancies or irregularities in financial data and investigate them.

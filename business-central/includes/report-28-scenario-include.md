@@ -1,0 +1,1 @@
+Analyze your general ledger with dimension detail by building groups of dimensions for combinations of dimension values, and view a breakdown of general ledger entries for each segment.

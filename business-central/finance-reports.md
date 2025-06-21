@@ -26,6 +26,13 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
+## Deferral reports
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_deferrals](includes/finance-reports-deferrals-include.md)]
+
+
 ## Consolidation and intercompany reports
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]

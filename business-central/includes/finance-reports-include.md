@@ -27,23 +27,10 @@ The following table describes some key financial reports. The reports are design
 | Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account. | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 | [!INCLUDE [report-4410-scenario](../includes/report-4410-scenario-include.md)] | [Consolidated Trial Balance Excel](https://businesscentral.dynamics.com?report=4410) | [About *Consolidated Trial Balance Excel*](../reports/report-4410.md) | 4410 |
 | [!INCLUDE [report-17-scenario](../includes/report-17-scenario-include.md)] |[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=17) <br><br> [Consolidated Trial Balance (NA localization)](https://businesscentral.dynamics.com?report=10007) | [About *Consolidated Trial Balance*](../reports/report-17.md) | 17 <br><br> 10007 (NA localization) |
-| Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this report to analyze consolidated financial data from multiple companies. | [Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)| | 10008 |
+| [!INCLUDE [report-18-scenario](../includes/report-18-scenario-include.md)] | [Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=18) <br><br> [Consolidated Trial Balance (4) (NA localization)](https://businesscentral.dynamics.com?report=10008)| [About *Consolidated Trial Balance (4)*](../reports/report-18.md) | 18 <br><br> 10008 (NA localization)|
 | [!INCLUDE [report-16-scenario](../includes/report-16-scenario-include.md)] | [G/L Consolidation Eliminations](https://businesscentral.dynamics.com?report=16) | [About *G/L Consolidation Eliminations*](../reports/report-16.md) | 16 |
 
-<!-- 
-## The old way
 
-| Report | Description | ID |
-|--|--|--|
-| [Trial Balance](https://businesscentral.dynamics.com?report=6) | Shows the chart of accounts with balances and net changes. You can choose to see a trial balance for selected dimensions or use the report at the close of an accounting period or fiscal year. | 6 |
-| [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | Shows the opening balance by general ledger account, the movements in the selected period of month, quarter, or year, and the resulting closing balance. <br>Tip: The report can display profit and loss (P&L) with a total for each month.| 38 |
-| [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | Shows a trial balance in comparison to a budget. You can choose to see a trial balance for selected dimensions. Use this report at the close of an accounting period or fiscal year. | 9 |
-| [Detailed Trial Balance](https://businesscentral.dynamics.com?report=4) | Shows a detailed trial balance for selected general ledger accounts. You can define which accounts are included in the report by setting filters. Use this report at the close of an accounting period or fiscal year. | 4 |
-| [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | Shows a trial balance in comparison to the previous year's figures. You can choose to see a trial balance for selected dimensions. Use this report at the close of an accounting period or fiscal year. *The previous year* means the same period one calendar year earlier. | 7 | 
-| [Financial Report](https://businesscentral.dynamics.com?report=25) | Financial reports can be used to display general ledger accounts in a different way than in the chart of accounts. For example, financial reports can be used to report on key figures. | 25 |
-|[Consolidated Trial Balance](https://businesscentral.dynamics.com?report=10007)|Shows a combined overview of general ledger entries for two or more companies in one consolidated company. Use this to report on consolidated financial data from multiple companies. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md).|17|
-|[Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=10008)|Shows a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Learn more at [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md). Use this to report on consolidated financial data from multiple companies.|18| 
--->
 
 <!-- | **Balance Sheet** (Acc.Schedule or Excel) or **Trial Balance** |  |  |
 | **Statement of Cash Flow** (Account Schedule) |  |  |

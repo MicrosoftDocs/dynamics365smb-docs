@@ -46,7 +46,9 @@ Controllers can use the report to:
 
 ## Try the report
 
-Try the report here: https://businesscentral.dynamics.com?report=17
+Try the report here: 
+* [Consolidated Trial Balance](https://businesscentral.dynamics.com?report=17)
+* [Consolidated Trial Balance (NA localization)](https://businesscentral.dynamics.com?report=10007)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

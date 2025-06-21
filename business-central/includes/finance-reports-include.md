@@ -16,11 +16,15 @@ The following table describes some key financial reports. The reports are design
 | [!INCLUDE [report-4-scenario](../includes/report-4-scenario-include.md)] | [Detail Trial Balance](https://businesscentral.dynamics.com?report=4) | [About *Detail Trial Balance*](../reports/report-4.md) | 4 |
 | [!INCLUDE [report-5-scenario](../includes/report-5-scenario-include.md)] | [Receivables-Payables](https://businesscentral.dynamics.com?report=5) | [About *Receivables-Payables*](../reports/report-5.md) | 5 |
 | [!INCLUDE [report-4405-scenario](../includes/report-4405-scenario-include.md)] | [Trial Balance Excel](https://businesscentral.dynamics.com?report=4405) | [About *Trial Balance Excel*](../reports/report-4405.md) | 4405 |
-| [!INCLUDE [report-7-scenario](../includes/report-7-scenario-include.md)] To check the debit and credit net change and closing balance compared to the same period in the previous calendar year, view a snapshot of your chart of accounts at a given point. | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
+| [!INCLUDE [report-7-scenario](../includes/report-7-scenario-include.md)] | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | [About *Trial Balance/Previous Year*](../reports/report-7.md) | 7 |
 | [!INCLUDE [report-4406-scenario](../includes/report-4406-scenario-include.md)] | [Trial Balance/Budget Excel](https://businesscentral.dynamics.com?report=4406) | [About *Trial Balance/Budget Excel*](../reports/report-4406.md) | 4406 |
 | [!INCLUDE [report-9-scenario](../includes/report-9-scenario-include.md)] | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | [About *Trial Balance/Budget (legacy)*](../reports/report-9.md) | 9 |
 | [!INCLUDE [report-10-scenario](../includes/report-10-scenario-include.md)] | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About Closing Trial Balance](../reports/report-10.md) | 10 |
 | [!INCLUDE [report-38-scenario](../includes/report-38-scenario-include.md)] | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
+
+| [!INCLUDE [report-36-scenario](../includes/report-36-scenario-include.md)] | [](https://businesscentral.dynamics.com?report=36) | [About **](../reports/report-36.md) | 36 |
+
+
 | Run a report defined in the Financial Reporting feature. | [Run Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
 | [!INCLUDE [report-27-scenario](../includes/report-27-scenario-include.md)] | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 | [!INCLUDE [report-28-scenario](../includes/report-28-scenario-include.md)] | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |

@@ -301,6 +301,7 @@ ms.service: dynamics-365-business-central
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
 ###### [Trial Balance by Period](reports/report-38.md)
 ###### [Closing Trial Balance](reports/report-10.md)
+###### [Fiscal Year Balance](reports/report-36.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)

@@ -1,0 +1,1 @@
+Review opening and closing balances for each general ledger account within a selected fiscal year. Supports reconciliation and trend analysis across fiscal periods. Use this report during fiscal year-end close to verify that balances are correctly carried forward.

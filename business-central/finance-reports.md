@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: Report_1, Report_3, Report_4, Report_5, Report_6, Report_7, Report_9, Report_10, Report_16, Report_17, Report_18, Report_25, Report_27, Report_28, Report_30, Report_33, Report_38, Report_4405, Report_10007, Report_10008
+ms.search.form: Report_1, Report_3, Report_4, Report_5, Report_6, Report_7, Report_9, Report_10, Report_16, Report_17, Report_18, Report_25, Report_27, Report_28, Report_30, Report_33, Report_36, Report_38, Report_4405, Report_10007, Report_10008
 ms.date: 05/20/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

@@ -304,6 +304,7 @@ ms.service: dynamics-365-business-central
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)
+###### [Dimension Check Value Posting](reports/report-30.md)
 ###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
 ###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Consolidated Trial Balance](reports/report-17.md)

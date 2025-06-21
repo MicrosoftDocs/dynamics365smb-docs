@@ -20,11 +20,13 @@ The following table describes some key financial reports. The reports are design
 | [!INCLUDE [report-4406-scenario](../includes/report-4406-scenario-include.md)] | [Trial Balance/Budget Excel](https://businesscentral.dynamics.com?report=4406) | [About *Trial Balance/Budget Excel*](../reports/report-4406.md) | 4406 |
 | [!INCLUDE [report-9-scenario](../includes/report-9-scenario-include.md)] | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | [About *Trial Balance/Budget (legacy)*](../reports/report-9.md) | 9 |
 | Check end of financial year figures, excluding closing entries, and compare this year and the previous year. | [Closing Trial Balance](https://businesscentral.dynamics.com?report=10) | [About Closing Trial Balance](../reports/report-10.md) | 10 |
+| Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account. | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
 | Run a report defined in the Financial Reporting feature. | [Run Financial Report](https://businesscentral.dynamics.com?report=25) | [About *Financial Report*](../reports/report-25.md) | 25 |
 | Analyze your general ledger with dimension totals by building groups of dimensions for combinations of dimension values, and calculate a general ledger balance total for each segment. | [Dimensions - Total](https://businesscentral.dynamics.com?report=27) | [About *Dimensions - Total*](../reports/report-27.md) | 27 |
 | Analyze your general ledger with dimension detail by building groups of dimensions for combinations of dimension values, and view a breakdown of general ledger entries for each segment. | [Dimensions - Detail](https://businesscentral.dynamics.com?report=28) | [About *Dimensions - Detail*](../reports/report-28.md) | 28 |
+| [!INCLUDE [report-30-scenario](../includes/report-30-scenario-include.md)] | [Dimension Check Value Posting](https://businesscentral.dynamics.com?report=30) | [About *Dimension Check Value Posting*](../reports/report-30.md) | 30 |
 | Understand the transactions for control general ledger accounts, and find discrepancies between general ledger and customer and vendor ledgers. | [Reconcile Cust. and Vend. Accs](https://businesscentral.dynamics.com?report=33) | [About *Reconcile Cust. and Vend. Accs*](../reports/report-33.md) | 33 |
-| Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account. | [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | [About *Trial Balance by Period*](../reports/report-38.md) | 38 |
+
 
 <!-- | **Balance Sheet** (Acc.Schedule or Excel) or **Trial Balance** |  |  |
 | **Statement of Cash Flow** (Account Schedule) |  |  |

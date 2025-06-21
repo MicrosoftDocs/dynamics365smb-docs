@@ -1,0 +1,1 @@
+Validate whether value entries such as inventory or cost postings are correctly posted to the general ledger. Helps ensure posting integrity and supports accurate financial reporting. Use this report during implementation or troubleshooting to confirm that financial values flow accurately into the G/L.

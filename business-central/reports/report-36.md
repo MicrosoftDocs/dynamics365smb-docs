@@ -42,4 +42,13 @@ Finance teams can use this report to:
 
 Try the report here: [Fiscal Year Balance](https://businesscentral.dynamics.com?report=36)
 
+[!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
+
+## Related information
+
+[Built-in key finance reports](../finance-reports.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Financial analytics overview](../bi.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 

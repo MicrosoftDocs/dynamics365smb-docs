@@ -15,9 +15,9 @@ ms.custom:
 ai.usage: ai-assisted
 ---
 
-# Check Value Posting (report)
+# Dimension Check Value Posting (report)
 
-The **Check Value Posting** report verifies whether value entries, such as inventory or cost postings, are correctly posted to the general ledger (G/L). It helps ensure that financial values flow accurately into the G/L, supporting system integrity and financial accuracy.
+The **Dimension Check Value Posting** report verifies whether value entries, such as inventory or cost postings, are correctly posted to the general ledger (G/L). It helps ensure that financial values flow accurately into the G/L, supporting system integrity and financial accuracy.
 
 This report is especially useful during implementation or when troubleshooting document posting behavior.
 
@@ -40,7 +40,7 @@ Finance and implementation teams can use this report to:
 
 ## Try the report
 
-Try the report here: https://businesscentral.dynamics.com?report=30
+Try the report here: [Dimension Check Value Posting](https://businesscentral.dynamics.com?report=30)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

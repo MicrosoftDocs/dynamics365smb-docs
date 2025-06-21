@@ -20,13 +20,13 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Core finance report overview
+## Core finance reports
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Consolidation and intercompany finance report overview
+## Consolidation and intercompany reports
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 

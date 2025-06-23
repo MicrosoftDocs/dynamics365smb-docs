@@ -27,6 +27,8 @@ Use the report to help identify trends, variances, and potential areas of concer
 
 ## Use cases
 
+[!INCLUDE [report-7-scenario](../includes/report-7-scenario-include.md)]
+
 <!-- 
 Prompt
 
@@ -59,19 +61,19 @@ Please include your data sources and URLs
 -->
 
 
-Financial analysts use the report to:
+Financial analysts can use the report to:
 
 * Analyze the financial performance of the business over time by comparing current financial data with data from the same period in the previous year.
 * Identify trends, variances, and potential areas of concern based on the comparison of the current period with the previous year.
 * Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-Controllers use the report to:
+Controllers can use the report to:
 
 * Monitor the financial performance of the business over time by comparing current financial data with data from the same period in the previous year.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
-Auditors use the report to:
+Auditors can use the report to:
 
 * Verify the accuracy of financial data. Review the balances and net changes of each account in the chart of accounts for the current period and the same period last year.
 * Identify discrepancies or irregularities in financial data and investigate them.

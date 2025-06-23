@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_33_Primary
-ms.date: 10/18/2024
+ms.date: 06/18/2025
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
+ - ai-seo-date: 06/18/2025
 ai.usage: ai-assisted
 ---
 
@@ -26,6 +26,8 @@ Customer and vendor ledger entries are separated by posting group and type to ma
 Realized gains and losses in foreign currency exchanges are totaled in the general ledger and compared to the gains and losses posted to the customer and vendor ledgers by currency.
 
 ## Use cases
+
+[!INCLUDE [report-33-scenario](../includes/report-33-scenario-include.md)]
 
 <!-- 
 Prompt
@@ -62,19 +64,19 @@ Please include your data sources and URLs
 
 -->
 
-Accounts payable professionals use the report to:
+Accounts payable professionals can use the report to:
 
 * Reconcile vendor accounts and ensure that all vendor transactions are correct in the general ledger.
 * Identify discrepancies or errors in vendor transactions and investigate.
 * Use the report data to prepare vendor account statements.
 
-Accounts receivable professionals use the report to:
+Accounts receivable professionals can use the report to:
 
 * Reconcile customer accounts to ensure that all customer transactions are correct in the general ledger.
 * Identify discrepancies or errors in customer transactions and investigate.
 * Use the data from the report to prepare customer account statements.
 
-Financial accountants use the report to:
+Financial accountants can use the report to:
 
 * Verify the accuracy of the financial data by ensuring that the balances on customer and vendor ledgers reconcile to the general ledger balances.
 * Identify discrepancies or errors in financial data and investigate.

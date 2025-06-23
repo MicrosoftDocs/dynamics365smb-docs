@@ -1,1 +1,1 @@
-TODO
+Get a summarized view of total costs across dimensions like departments or cost centers. Use this report to review cost totals, apply filters for period, cost type, or object, and support operational decision-making with a high-level overview of posted cost data.

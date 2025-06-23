@@ -1,1 +1,1 @@
-TODO
+Analyze cost activity over specific periods—such as months or quarters—by reviewing posted cost entries grouped by reporting intervals. Use it for monitoring cost trends and evaluating periodic spending patterns.

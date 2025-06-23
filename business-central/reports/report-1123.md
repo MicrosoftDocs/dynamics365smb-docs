@@ -53,7 +53,7 @@ Try the report here: [Cost Acctg. Stmt. per Period](https://businesscentral.dyna
 
 ## Related information
 
-[Cost accounting overview](finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)   
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

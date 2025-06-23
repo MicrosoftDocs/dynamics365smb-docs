@@ -35,10 +35,14 @@ You can apply date filters and cost dimensions to narrow down the results and fo
 > * Compare periods to spot trends: Run the report for consecutive periods (e.g., Q1 vs. Q2) to identify increases or decreases in cost activity and investigate the causes.
 
 
-Accountants can use the report to validate cost postings and ensure alignment with financial records.
+Accountants can use the report to 
+* validate cost postings
+* ensure alignment with financial records.
 
 
-Controllers can leverage the report to oversee cost center performance and support budgeting or forecasting activities.
+Controllers can use the report to 
+* oversee cost center performance
+* support budgeting or forecasting activities.
 
 
 Auditors may reference the report to verify the accuracy and completeness of cost entries during financial reviews or compliance checks.

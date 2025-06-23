@@ -441,6 +441,8 @@ ms.service: dynamics-365-business-central
 #### [Define and allocate costs](finance-define-and-allocate-costs.md)
 #### [Create cost budgets](finance-create-cost-budgets.md)
 #### [Deleting cost budget entries](finance-how-to-delete-cost-budget-entries.md)
+#### [Cost accounting reports](finance-cost-accounting-reports.md)
+
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)

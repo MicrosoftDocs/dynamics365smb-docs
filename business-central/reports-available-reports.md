@@ -20,6 +20,13 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
+
+[!INCLUDE [finance_reports_deferrals](includes/finance-reports-deferrals-include.md)]
+
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
+
+
 To learn more, go to [Financial Reports and Analytics in Business Central](finance-reports.md).
 
 ## Accounts receivable reports

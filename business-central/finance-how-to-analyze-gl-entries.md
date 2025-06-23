@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: postpone
-ms.search.form: 20, 116_Primary
+ms.search.form: Report_3, 20, 116_Primary
 ms.date: 02/12/2025
 ms.service: dynamics-365-business-central
 ---

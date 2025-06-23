@@ -17,18 +17,18 @@ ai.usage: ai-assisted
 
 # Intercompany Transactions (report)
 
-The **Intercompany Transactions** report lists all posted intercompany sales, purchases, and journal entries between internal entities. Use it for reviewing and reconciling intercompany activity before financial consolidation to ensure transparency and balance across companies.
+The **Intercompany Transactions** report lists all posted intercompany sales, purchases, and journal entries between internal entities. Use the report to review and reconcile intercompany activity before financial consolidation to ensure transparency and balance across companies.
 
 ## Use cases
 
 [!INCLUDE [report-512-scenario](../includes/report-512-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
+> Here are some tips on how to use the report:
+>
 > * Run this report regularly to maintain accurate intercompany records.
 > * Use it in conjunction with your consolidation tools to ensure all internal transactions are accounted for.
-> * Pay attention to journal entries that may not be reflected in sales or purchase documents.
-
+> * Pay attention to journal entries that might not be reflected in sales or purchase documents.
 
 Controllers and finance teams can use the report to:
 
@@ -41,10 +41,9 @@ Auditors can use the report to:
 * Verify the accuracy and completeness of intercompany transactions.
 * Identify discrepancies or missing entries that could affect consolidated financial statements.
 
-
 ## Try the report
 
-Try the report here: [Intercompany Transactions](https://businesscentral.dynamics.com?report=512) 
+Try the report here: [Intercompany Transactions](https://businesscentral.dynamics.com?report=512)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

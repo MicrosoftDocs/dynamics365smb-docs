@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Purchasing Deferral Summary (report)
 
-The **Purchasing Deferral Summary** report shows how purchasing-related expenses are deferred across financial periods. It is useful during the review of expense deferrals on purchasing transactions to ensure accrual accuracy and to reconcile expense deferral balances.
+The **Purchasing Deferral Summary** report shows how purchasing-related expenses are deferred across financial periods. Use the report when you review of expense deferrals on purchasing transactions to ensure accrual accuracy and to reconcile expense deferral balances.
 
 ## Use cases
 
@@ -25,17 +25,16 @@ The **Purchasing Deferral Summary** report shows how purchasing-related expenses
 
 > [!TIP]
 > Here are some tips on how to use the report:
-> * Use this report when checking if purchasing deferrals match expected schedules.
-> * The report displays purchasing-related expense deferrals by period, making it easier to track and validate deferred costs.
-> * Especially useful for ensuring compliance with accrual accounting standards and internal financial controls.
-
+>
+> * Use this report to check whether purchasing deferrals match expected schedules.
+> * Analyze purchasing-related expense deferrals by period, making it easier to track and validate deferred costs.
+> * Ensure compliance with accrual accounting standards and internal financial controls.
 
 Finance and accounting professionals can use the report to:
 
 * Review purchasing deferral schedules and confirm that expenses are allocated across the correct financial periods.
 * Ensure that deferred expenses from purchases align with financial period matching principles.
 * Reconcile expense deferral balances during period-end close activities.
-
 
 ## Try the report
 
@@ -45,7 +44,7 @@ Try the report here: [Purchasing Deferral Summary](https://businesscentral.dynam
 
 ## Related information
 
-[Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)   
+[Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

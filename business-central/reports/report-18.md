@@ -17,19 +17,20 @@ ai.usage: ai-assisted
 
 # Consolidated Trial Balance (4) (report)
 
-The **Consolidated Trial Balance (4)** report provides a four-column layout showing local company balances, converted values, eliminations, and consolidated totals. It is ideal for financial reporting that requires a side-by-side view of company data, eliminations, and adjustments.
+The **Consolidated Trial Balance (4)** report provides a four-column layout showing local company balances, converted values, eliminations, and consolidated totals. The report is ideal for financial reporting that requires a side-by-side view of company data, eliminations, and adjustments.
 
-Before using this report, ensure that consolidation and currency exchange setups are properly configured.
+Before you run this report, ensure that your consolidation and currency exchange setups are properly configured.
 
 ## Use cases
 
 [!INCLUDE [report-18-scenario](../includes/report-18-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
+> Here are some tips on how to use the report:
+>
 > * Use this report when a detailed breakdown of consolidation components is needed.
-> * It offers enhanced visibility into financial performance across companies with breakdowns by company, adjustments, and totals in one report.
-> * Make sure all relevant consolidation and currency exchange configurations are in place to avoid discrepancies.
+> * Get enhanced visibility into financial performance across companies with breakdowns by company, adjustments, and totals in one report.
+> * Ensure all relevant consolidation and currency exchange configurations are in place to avoid discrepancies.
 
 Financial controllers and analysts can use this report to:
 
@@ -38,15 +39,14 @@ Financial controllers and analysts can use this report to:
 * Ensure accuracy in consolidation by comparing adjustments and totals.
 * Prepare financial statements that reflect intercompany eliminations and currency conversions.
 
-
 ## Try the report
 
-Try the report here: 
+Try the report here:
+
 * [Consolidated Trial Balance (4)](https://businesscentral.dynamics.com?report=18)
 * [Consolidated Trial Balance (4) (NA localization)](https://businesscentral.dynamics.com?report=10008)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 

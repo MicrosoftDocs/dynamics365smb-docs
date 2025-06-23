@@ -17,20 +17,19 @@ ai.usage: ai-assisted
 
 # Consolidated Trial Balance (report)
 
-The **Consolidated Trial Balance** report summarizes general ledger account balances from multiple companies into one unified view. It is used to review combined financials for multiple entities under a parent structure and supports high-level financial analysis across the group.
+The **Consolidated Trial Balance** report summarizes general ledger account balances from multiple companies into one unified view. Use it to review combined financial information for multiple entities under a parent structure. The report supports high-level financial analysis across the group.
 
-Ensure all consolidation steps are completed before generating the report to reflect accurate and aligned financial data.
+To reflect accurate and aligned financial data, be sure to complete all consolidation steps before you generate the report.
 
 ## Use cases
 
-[!INCLUDE [report-17-scenario](../includes/report-17-scenario-include.md)] 
+[!INCLUDE [report-17-scenario](../includes/report-17-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
-> 
-> * Run this report after completing all consolidation steps.
-> * Use it to compare entity-level and group-level financials for accuracy and completeness.
-
+> Here are some tips on how to use the report:
+>
+> * Run this report after you complete all consolidation steps.
+> * Use it to compare entity-level and group-level financial information for accuracy and completeness.
 
 Finance teams can use the report to:
 
@@ -43,15 +42,14 @@ Controllers can use the report to:
 * Validate that intercompany eliminations and consolidation adjustments are reflected correctly.
 * Monitor financial consistency across subsidiaries.
 
-
 ## Try the report
 
-Try the report here: 
+Try the report here:
+
 * [Consolidated Trial Balance](https://businesscentral.dynamics.com?report=17)
 * [Consolidated Trial Balance (NA localization)](https://businesscentral.dynamics.com?report=10007)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 

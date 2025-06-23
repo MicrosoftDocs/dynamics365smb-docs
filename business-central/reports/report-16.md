@@ -19,15 +19,15 @@ ai.usage: ai-assisted
 
 The **G/L Consolidation Eliminations** report is used during intercompany (IC) financial consolidation to remove duplicate revenue and expense balances. It ensures consolidated financial statements are free of double counting by eliminating internal entries, which is essential for compliant reporting.
 
-Run this report after posting all intercompany (IC) transactions to ensure accuracy.
+Run this report after you post all intercompany (IC) transactions to ensure accuracy.
 
 ## Use cases
 
 [!INCLUDE [report-16-scenario](../includes/report-16-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
-> 
+> Here are some tips on how to use the report:
+>
 > * Always run this report after all IC transactions are posted.
 > * Review the output to ensure all expected eliminations are captured.
 > * Use in conjunction with your consolidation schedule to maintain accuracy.
@@ -43,13 +43,11 @@ Auditors can use the report to:
 * Verify that intercompany entries have been properly eliminated.
 * Confirm the integrity of consolidated financial data.
 
-
 ## Try the report
 
 Try the report here: [G/L Consolidation Eliminations](https://businesscentral.dynamics.com?report=16)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 

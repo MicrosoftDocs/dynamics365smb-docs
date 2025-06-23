@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Fiscal Year Balance (report)
 
-The **Fiscal Year Balance** report displays the opening and closing balances for each general ledger (G/L) account within a selected fiscal year. It helps ensure that balances are correctly carried forward and supports reconciliation and financial analysis across periods.
+The **Fiscal Year Balance** report displays the opening and closing balances for each general ledger (G/L) account within a selected fiscal year. The report helps ensure that balances are correctly carried forward and supports reconciliation and financial analysis across periods.
 
 You can filter the report by fiscal year and account type to focus on specific segments of your financial data.
 
@@ -26,17 +26,16 @@ You can filter the report by fiscal year and account type to focus on specific s
 [!INCLUDE [report-36-scenario](../includes/report-36-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
+> Here are some tips on how to use the report:
+>
 > * Run this report during fiscal year-end close to confirm that balances are carried forward accurately.
 > * Use filters to isolate specific account types or fiscal years for targeted analysis.
-
 
 Finance teams can use this report to:
 
 * Verify that each G/L account has the correct opening and closing balances during fiscal year-end close.
 * Reconcile account movements across fiscal years.
 * Analyze trends in financial position over time for strategic planning.
-
 
 ## Try the report
 

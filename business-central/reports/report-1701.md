@@ -17,17 +17,18 @@ ai.usage: ai-assisted
 
 # Sales Deferral Summary (report)
 
-The **Sales Deferral Summary** report shows how sales invoice revenue is deferred over future periods. It is useful for validating that deferrals follow revenue recognition policies and for reconciling revenue deferral balances.
+The **Sales Deferral Summary** report shows how sales invoice revenue is deferred over future periods. Use the report to validate that deferrals follow revenue recognition policies and to reconcile revenue deferral balances.
 
 ## Use cases
 
-[!INCLUDE [report-1701-scenario](../includes/report-1701-scenario-include.md)] 
+[!INCLUDE [report-1701-scenario](../includes/report-1701-scenario-include.md)]
 
 > [!TIP]
 > Here are some tips on how to use the report:
+>
 > * Run this report periodically to monitor the spread of sales revenue over future periods.
 > * Use it to validate that deferral entries align with expected recognition timelines.
-> * Helpful for month-end and year-end closing processes.
+> * Use it for help with month-end and year-end closing processes.
 
 Finance and accounting professionals can use the report to:
 
@@ -41,16 +42,15 @@ Controllers and auditors can use the report to:
 * Identify discrepancies in deferral schedules.
 * Support audit and compliance efforts with clear deferral breakdowns.
 
-
 ## Try the report
 
-Try the report here: [Sales Deferral Summary](https://businesscentral.dynamics.com?report=1701) 
+Try the report here: [Sales Deferral Summary](https://businesscentral.dynamics.com?report=1701)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)   
+[Defer revenues and expenses](../finance-how-defer-revenue-expenses.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

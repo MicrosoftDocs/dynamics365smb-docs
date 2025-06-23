@@ -21,14 +21,14 @@ The **Foreign Currency Balance** report displays account balances in both local 
 
 ## Use cases
 
-[!INCLUDE [report-503-scenario](../includes/report-503-scenario-include.md)] 
+[!INCLUDE [report-503-scenario](../includes/report-503-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
+> Here are some tips on how to use the report:
+>
 > * Run the report for G/L, customer, or vendor accounts depending on your reconciliation needs.
 > * Use it to identify discrepancies caused by exchange rate changes and to support revaluation adjustments.
-> * Helps reconcile foreign currency transactions and supports currency revaluation or reporting.
-
+> * Us it for help to reconcile foreign currency transactions and supports currency revaluation or reporting.
 
 Finance professionals, controllers, and accountants can use the report to:
 
@@ -38,7 +38,6 @@ Finance professionals, controllers, and accountants can use the report to:
 * Track balances in both local and foreign currencies for better visibility.
 * Ensure accurate reporting and compliance with currency valuation standards.
 * Support internal audits and financial reviews involving foreign currency.
-
 
 ## Try the report
 

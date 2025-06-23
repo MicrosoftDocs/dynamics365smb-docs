@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Balance Comp. - Prev. Year (report)
 
-The **Balance Comp. - Prev. Year** report provides a side-by-side view of account balances across two fiscal years. It helps identify major variances and trends in financial performance by comparing current year figures with the prior year.
+The **Balance Comp. - Prev. Year** report provides a side-by-side view of account balances across two fiscal years. The report helps identify major variances and trends in financial performance by comparing current year figures with the prior year.
 
 You can filter the report by dimension or account range to focus on specific areas of interest.
 
@@ -26,10 +26,10 @@ You can filter the report by dimension or account range to focus on specific are
 [!INCLUDE [report-37-scenario](../includes/report-37-scenario-include.md)]
 
 > [!TIP]
-> Here are some tips on how to use the report
+> Here are some tips on how to use the report:
+>
 > * Use this report during budgeting or forecasting cycles to understand historical performance.
 > * Apply filters to narrow the focus to specific accounts or dimensions for deeper insights.
-
 
 Finance teams can use this report to:
 
@@ -37,13 +37,11 @@ Finance teams can use this report to:
 * Analyze trends in account-level performance over time.
 * Support strategic planning and variance analysis during financial reviews.
 
-
 ## Try the report
 
 Try the report here: [Balance Comp. - Prev. Year](https://businesscentral.dynamics.com?report=37)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 

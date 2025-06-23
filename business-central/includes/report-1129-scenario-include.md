@@ -1,1 +1,1 @@
-TODO
+Evaluate how costs have been allocated across cost centers, cost objects, or dimensions using defined allocation rules. Use this report to understand cost distribution and support cost control efforts.

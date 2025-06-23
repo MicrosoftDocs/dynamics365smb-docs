@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_33_Primary
-ms.date: 10/18/2024
+ms.date: 06/18/2025
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/18/2024
+ - ai-seo-date: 06/18/2025
 ai.usage: ai-assisted
 ---
 

@@ -30,7 +30,7 @@ Run this report after you post all intercompany (IC) transactions to ensure accu
 >
 > * Always run this report after all IC transactions are posted.
 > * Review the output to ensure all expected eliminations are captured.
-> * Use in conjunction with your consolidation schedule to maintain accuracy.
+> * Use with your consolidation schedule to maintain accuracy.
 
 Controllers and financial analysts can use the report to:
 
@@ -40,7 +40,7 @@ Controllers and financial analysts can use the report to:
 
 Auditors can use the report to:
 
-* Verify that intercompany entries have been properly eliminated.
+* Verify that intercompany entries are properly eliminated.
 * Confirm the integrity of consolidated financial data.
 
 ## Try the report
@@ -53,7 +53,7 @@ Try the report here: [G/L Consolidation Eliminations](https://businesscentral.dy
 
 [Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md)  
 [Built-in key finance reports](../finance-reports.md)  
-[Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
+[Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

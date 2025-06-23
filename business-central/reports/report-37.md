@@ -1,6 +1,6 @@
 ---
 title: Balance Comp. - Prev. Year (report)
-description: Compare account balances side-by-side across two fiscal years to identify trends and variances. Use this report to analyze year-over-year financial performance and support strategic decision-making.
+description: Compare account balances side-by-side across two fiscal years and identify trends and variances. Use this report to analyze year-over-year financial performance and support strategic decision-making.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -19,7 +19,7 @@ ai.usage: ai-assisted
 
 The **Balance Comp. - Prev. Year** report provides a side-by-side view of account balances across two fiscal years. The report helps identify major variances and trends in financial performance by comparing current year figures with the prior year.
 
-You can filter the report by dimension or account range to focus on specific areas of interest.
+To focus on specific areas of interest, you can filter the report by dimension or account range.
 
 ## Use cases
 
@@ -28,12 +28,12 @@ You can filter the report by dimension or account range to focus on specific are
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Use this report during budgeting or forecasting cycles to understand historical performance.
+> * Use this report during budgeting or forecasting cycles so you understand historical performance.
 > * Apply filters to narrow the focus to specific accounts or dimensions for deeper insights.
 
 Finance teams can use this report to:
 
-* Compare financial results between two fiscal years to identify significant changes.
+* Compare financial results between two fiscal years and identify significant changes.
 * Analyze trends in account-level performance over time.
 * Support strategic planning and variance analysis during financial reviews.
 

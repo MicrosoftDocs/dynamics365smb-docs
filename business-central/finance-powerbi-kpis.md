@@ -65,7 +65,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 
 ### Average Collection Period (Days) 
 **Formula**  
-( [No. of Days](#no-of-days) * [Accounts Receivable (Average)](#accounts-receivable-average) ) / [Revenue](#revenue)
+( [No. of Days](#no-of-days) * [Accounts Receivable (Net Change)](#accounts-receivable-net-change) ) / [Revenue](#revenue)
 
 **Data Sources**
 - Date

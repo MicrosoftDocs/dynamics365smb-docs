@@ -1,1 +1,1 @@
-TODO
+Compare actual costs against budgeted amounts by cost center to identify variances and improve budgeting accuracy. Use this report during planning cycles to monitor cost performance and highlight gaps between projections and actuals.

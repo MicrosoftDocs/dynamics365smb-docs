@@ -39,7 +39,7 @@ You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for t
 
 The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
 
-## What [!INCLUDE[prod_short](includes/prod_short.md)] licenses do I need?
+## What Business Central licenses do I need?
 
 [!INCLUDE[about_bc_licensing_for_powerbi](includes/about_bc_licensing_for_powerbi.md)]
 
@@ -77,9 +77,23 @@ To learn more, go to [Connect the Power BI semantic models to Business Central](
 
 To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
 
+## Are the apps available in multiple languages?
+
+Yes, all apps are multi-language for many of the languages used by users of [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+To learn more, go to [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
+
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
-No. At the moment, the source code (.pbix files) for the apps isn't available. However, its availability might change in a later release.
+As of version 26.2, the source code (.pbix files) for the following apps is available:
+* Finance                 
+* Inventory               
+* Inventory Valuation     
+* Manufacturing           
+* Subscription Billing    
+* Sustainability          
+
+You can download the pbix file by installing the app from AppSource and then download the source code from the installed app.
 
 ## Are the apps available for on-premises installations?
 

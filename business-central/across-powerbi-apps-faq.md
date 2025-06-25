@@ -79,21 +79,20 @@ To learn more, go to [Updating a Power BI app](across-powerbi-install-business-c
 
 ## Are the apps available in multiple languages?
 
-Yes, all apps are multi-language for many of the languages used by users of [!INCLUDE[prod_short](includes/prod_short.md)]. 
-
-To learn more, go to [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
+Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_short](includes/prod_short.md)] supports. To learn more, go to [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
 
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
 As of version 26.2, the source code (.pbix files) for the following apps is available:
-* Finance                 
-* Inventory               
-* Inventory Valuation     
-* Manufacturing           
-* Subscription Billing    
-* Sustainability          
 
-You can download the pbix file by installing the app from AppSource and then download the source code from the installed app.
+- Finance
+- Inventory
+- Inventory Valuation
+- Manufacturing
+- Subscription Billing
+- Sustainability
+
+You can download the .pbix file by installing the app from AppSource and then download the source code from the installed app.
 
 ## Are the apps available for on-premises installations?
 

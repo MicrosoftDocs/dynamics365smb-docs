@@ -27,6 +27,10 @@ The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to a
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
+> [!NOTE]
+> * This agent was validated for [English](https://aka.ms/bapcopilot-intl-report-external-features). While it can be used in other languages, it may not function as intended. Language quality may vary based on the user’s interaction or system settings which may impact accuracy and the user experience..
+
+
 ## Functionality in the preview
 
 This preview doesn't represent the full vision of the Payables Agent. The Payables Agent is in its early stages, and more features and AI capabilities are coming.

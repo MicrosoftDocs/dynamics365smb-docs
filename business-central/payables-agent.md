@@ -64,6 +64,9 @@ The agent uses an internal email dispatcher running as a background task to cont
 > [!NOTE]
 > While the agent is in preview, use a designated mailbox for receiving vendor invoices. If multiple agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 
+> [!CAUTION]
+> A fundamental principle of the Payables Agent is to import **all** emails. Not just the ones that contain PDF files. This means the mailbox should only be attended from within Business Central and users should not access the monitored mailbox in Outlook. This ensures the agent has full ownership of the mailbox, process wise, and no emails are accidentally read or removed by users. As a consequence, emails with no PDFs will show up in as agent tasks and need users to assist.
+
 ### Extraction of invoice data
 
 For each imported PDF document that is a vendor invoice in **Inbound E-Documents**, the PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 

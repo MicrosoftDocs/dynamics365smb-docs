@@ -4,14 +4,14 @@ description: Learn about capabilities and work scenarios in Business Central tha
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 01/03/2025
+ms.date: 06/20/2025
 ms.author: jswymer
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
+# Welcome to Microsoft Dynamics 365 Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
 
@@ -41,7 +41,7 @@ Maybe start with a short tour of some of the key capabilities for managing finan
 
 To learn more, go to [Business functionality supported by Business Central](across-business-functionality.md).
 
-## Copilot and AI
+## Copilot and agents
 
 With Copilot in [!INCLUDE [prod_short](includes/prod_short.md)], small and medium-sized organizations empower their employees through intuitive AI tools that boost creativity and save time.
 
@@ -50,16 +50,20 @@ With Copilot in [!INCLUDE [prod_short](includes/prod_short.md)], small and mediu
 | To... | Learn more here... |
 | ----- | ------------------ |
 | Calculate, summarize, and analyze data by expressing what you want in natural language. For example, "sort on quantity from smallest to largest" or "show average cost per category." | [Analyze data in lists with Analysis Assist Copilot](analysis-assist.md) |
+| Autofill fields in your documents and records using AI-powered suggestions. | [Autofill with Copilot](autofill-fields-with-copilot.md)  |
 | Help you reconcile bank accounts | [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md) |
 | Get answers about your company data and to get assistance with tasks and subject matters related to [!INCLUDE [prod_short](includes/prod_short.md)]. | [Chat with Copilot](chat-with-copilot.md) |
 | Automate how you receive and process vendor invoices. | [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md) |
 | Get assistance with authoring marketing text (product descriptions) for the items you sell in your online shops. | [Marketing text suggestions with Copilot](ai-overview.md) |
 | Create sales documents faster by letting Copilot suggest items to add to lines on sales documents. | [Suggest lines on sales documents with Copilot](sales-suggest-sales-lines-with-copilot.md) |
-| Automate the process of creating sales orders.| [Sales Order Agent](sales-order-agent.md ) |
+| Automate the process of creating sales orders. | [Sales Order Agent](sales-order-agent.md) |
+| Get suggestions for lines to add on sales orders with Copilot. | [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md) |
+| Get suggestions for number series to use in your documents. | [Suggest number series with Copilot](suggest-number-series-copilot.md) |
 | Find and assign substitute items faster. | [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md) |
+| Summarize data and content in your records using Copilot. | [Summarize with Copilot](summarize-with-copilot.md) |
 
 To learn more, go to [About Copilot in Business Central](copilot-overview.md).
-
+ 
 ## Analytics
 
 Empower any role in your organization with the insights they need to make decisions based on data. Use financial reporting and KPIs in your leadership team, create overview reports for middle management, and operational reports for staff. Group and pivot data from any list to do ad-hoc analyses. Export and analyze your data in Excel, if that app is your tool of choice. Each area in the application comes with standard, easy to use tools for data analysis.

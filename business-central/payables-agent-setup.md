@@ -65,9 +65,13 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
 
 1. In the navigation bar at the upper right of the role center, select ![Shows the Payables Agent icon](media/payables-agent-icon.png) **Payables Agent** > **Activate**.
 
-1. On the **Configure the Payables Agent** page, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.
+1. On the **Configure the Payables Agent** wizard, turn on the **Monitor incoming information** toggle, select the **Mailbox** check box, and then set **Mailbox** field to the email account you want the agent to monitor.
 
-   ![Shows the Payables Agent configuration page](media/payables-agent-setup.png)
+   ![Shows the Payables Agent configuration wizard](media/payables-agent-setup.png)
+
+   The configuration of an agent can span multiple pages in the configuration. For the Payables Agent, two more configuration options are available on the next page. Use the navigation action on the right side of the wizard to progress to the next page of the wizard.
+
+   ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page2.png)
 
 1. Select **Manage user access** to specify additional agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.

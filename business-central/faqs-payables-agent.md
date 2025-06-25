@@ -22,14 +22,13 @@ These frequently asked questions (FAQ) describe the AI impact of Payables Agent 
 
 ## What is the Payables Agent? 
 
-The Payables Agent is an integrated copilot with agent capabilities that automates the task of creating purchase invoices. It starts by receiving a vendor's invoice attached to an e-mail. Analyzing the content of that e-mail attachment, it then identifies the vendor from the registered list in Business Central and prepares a draft purchase invoice with the requested invoice lines.
+The Payables Agent is an integrated copilot with agent capabilities that automates the task of creating purchase invoices. It starts by receiving a vendor's invoice attached to an e-mail. Analyzing the content of that e-mail attachment, it then identifies the vendor from the registered list in Business Central and prepares a draft purchase invoice with the requested invoice lines. It also offers the capability to help with vendor creation as part of this process. 
 
-The agent is readily available in the product; you just need to activate it. The agent is also configurable, allowing you to define the name of the agent, a list of other users who can delegate the process of taking the purchase invoices to it, the channel for receiving the invoices (for example, by e-mail), and the steps you want to include or exclude in that process. Once the agent is activated, it's ready to process invoices.
+The agent is readily available in the Business Central; you just need to activate it. The agent is also configurable, allowing you to define the name of the agent, a list of other users who can delegate the process of taking the purchase invoices to it, the channel for receiving the invoices (for example, by e-mail), and the steps you want to include or exclude in that process. Once the agent is activated, it's ready to process invoices.
 
 ## What are the capabilities of the Payables Agent?
 
-The Payables Agent operates in Business Central using AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product.
-
+The Payables Agent operates in Business Central using AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product. [See the full details of the capabilities of the Payables Agent](payables-agent.md).
 
 - Agent instructions
 

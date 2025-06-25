@@ -120,7 +120,7 @@ The agent works within the permissions and profile (role) the admin assigns. Lea
 
 - [Set up Payables Agent](payables-agent-setup.md)
 - [Use Payables Agent](use-payables-agent.md)
-- [Responsible AI FAQ for Payables Agent](faqs-payables-agent-setup.ms)
+- [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md)
 
 ## Related information
 

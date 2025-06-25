@@ -155,7 +155,7 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 [!INCLUDE[payables-agent-language-support](includes/payables-agent-language-support.md)]
 
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
-1. Select **User Settings**.
+1. Select **Agent User Settings**.
 1. Set **Lanaguage** to a supported English locale.
 
 ## Related information

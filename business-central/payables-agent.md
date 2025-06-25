@@ -48,7 +48,7 @@ The end-to-end process handled by the Payables Agent is shown in the following f
 
 ![Shows the Payables Agent flow](media/payables-agent-flow.png)
 
-1. **Vendor or employee:** Sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
+1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
 1. **Payables Agent:** Picks up PDF attachments from unread emails in the monitored mailbox and imports the PDF into **Inbound E-Documents** in Business Central.
 1. **Payables Agent:** Extracts invoice information from the PDF using Azure Document Intelligence.
 1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted invoice information.
@@ -87,7 +87,7 @@ Finalizing a purchase draft creates a purchase invoice based on the draft. After
 
 ## Activation and configuration
 
-The agent is available in the product. To activate it, see [Payables Agent Setup](payables-agent-setup.md) to learn how to set up the Payables Agent for the agent supervisor you want.
+The agent is available in Business Central and is ready for you to use. To activate it, see [Payables Agent Setup](payables-agent-setup.md) to learn how to set up the Payables Agent for the agent supervisors you want to work with the agent.
 
 ## Billing for use
 
@@ -95,7 +95,7 @@ The Payables Agent uses Microsoft Copilot Studio messages for AI interactions, w
 
 ## General agent operations
 
-The Payables Agent runs autonomously in the background, using AI to do its tasks while keeping users informed about key steps and involving them when needed. Involvement might be needed in specific scenarios, like when users review suggested vendor invoice drafts, based on set preferences.
+The Payables Agent runs autonomously in the background, using AI to do its tasks while keeping users informed about key steps and involving them when needed. Involvement might be needed in specific scenarios, like when users review vendor invoice drafts created by the agent, based on set preferences.
 
 Conceptually, the agent interacts with Business Central features like a Business Central user. The agent gets general instructions in natural language that outline how to handle vendor invoices. It uses UI metadata, like captions, tooltips, and other properties, along with data on Business Central pages and its own instructions, to decide each step needed to finish the task. Starting from the designated Role Center, the agent goes through pages, selects UI actions, and enters data as a user does. This approach lets the agent stay flexible and adaptable because its interaction surface and steps aren't hardcoded. Instead, AI decides them based on the context of each step.
 
@@ -103,9 +103,9 @@ This flexibility lets the agent find and interact with relevant custom fields an
 
 ### Customer and Business Central user involvement
 
-Agent supervisors can check the agent's steps, imported PDF invoices, and suggested purchase invoice drafts. They can easily see the data the agent enters compared to data from Business Central's business logic and imported OCR data, and change the purchase invoice draft if needed.
+Agent supervisors can check the agent's steps, imported PDF invoices, and the drafted purchase invoice details. They can easily see the data the agent enters compared to data from Business Central's business logic and imported OCR data, and change the purchase invoice draft as desired.
 
-The agent involves designated Business Central users, called agent supervisors, if it isn't sure how to register the invoice. For example, if the vendor can't be identified with confidence.
+The agent involves designated Business Central users, called agent supervisors or overseers, if it isn't sure how to register the invoice. For example, if the vendor can't be identified with confidence.
 
 ## Permissions and profiles
 

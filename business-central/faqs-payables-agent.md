@@ -28,7 +28,7 @@ The agent is readily available in the Business Central; you just need to activat
 
 ## What are the capabilities of the Payables Agent?
 
-The Payables Agent operates in Business Central using AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product. [See the full details of the capabilities of the Payables Agent](payables-agent.md).
+The Payables Agent operates in Business Central is using AI to identify and complete tasks based on its instructions and user configuration. The agent acts as a user with access limited to the necessary parts of the product. [See the full details of the capabilities of the Payables Agent](payables-agent.md).
 
 - Agent instructions
 
@@ -73,9 +73,9 @@ The agent is invoked by a built-in e-mail dispatcher, running as a scheduled tas
 
 The agent brings humans in the loop when their attention is required by issuing in-product notifications that are displayed on the role center. This happens when the agent needs users to provide some missing details to get unblocked, or to provide business approval for important changes. For each task performed by the agent, users get a detailed timeline that shows the key steps taken by the agent and human users, including the receiving of the initial e-mail. Users can review this information and update the values and actions the agent suggested if needed.-->
 
-## What is the intended us of the Payables Agent?
+## What is the intended use of the Payables Agent?
 
-The Payables Agent handles the entire purchase invoice capture process. It takes the vendor's invoice attached in an email, analyzes the data in the attachment, prepares a purchase document draft with the requested items, and converts the draft to a purchase invoice.
+The Payables Agent handles the entire purchase invoice extraction and processing. It takes the vendor's invoice attached in an email, analyzes the data in the attachment, prepares a purchase document draft, and converts the draft to a purchase invoice.
 
 ## How was the Payables Agent evaluated? What metrics are used to measure performance?
 
@@ -102,8 +102,8 @@ The Payables Agent was tested for accuracy and safety.
 ### Entities and data the agent works with
 
 - The agent only creates purchase document drafts and purchase invoices. It can't create or work with other purchase documents, like purchase orders or purchase credit memos, or documents in other areas of the product, like sales or service orders.
-- The agent doesn't create new items, contacts, or G/L accounts. It only works with entities already registered in Business Central.
-- The agent doesn't support posting documents.
+- The agent doesn't create new items, contacts, or G/L accounts. It only works with entities already registered in Business Central. However, the agent can be instructed to create new vendors in cases where the vendor of a received invoice is unknown or unmatched.
+- The agent does not post any documents.
 
 ### Additional limitations
 

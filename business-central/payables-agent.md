@@ -93,7 +93,7 @@ When the agent considers a PDF document a valid vendor invoice with high confide
 
 ![Agent is instructed to create the vendor](media/payables-agent-vendor-not-identified-create.png)
 
-The additional instructions are proviede by either selecting one of the suggested actions or typing your own instructions by using the small ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. When one of these options have been selected, you select **Confirm**. In the above example the **Create vendor** instruction is selected. 
+The additional instructions are provided by either selecting one of the suggested actions or typing your own instructions by using the small ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. When one of these options have been selected, you select **Confirm**. In the above example the **Create vendor** instruction is selected. 
 
 **When the agent has created the vendor it will ask the agent supervisor to review the newly created vendor:**
 

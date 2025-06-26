@@ -28,7 +28,7 @@ The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to a
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 > [!NOTE]
-> [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)].
+> [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)]
 
 ## Functionality in the preview
 

@@ -71,7 +71,7 @@ The agent uses an internal email dispatcher running as a background task to cont
 
 ### Extraction of invoice data
 
-Each imported PDF document found in an email will become an **Inbound E-Documents** record. Thus, if there are multiple PDF attachments in the same email, a **Inbound E-Document** record will be created for each. Each of these will be processed by a distinct agent task. The PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 
+Each imported PDF document found in an email will become an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** will be created for each of them. Each of these entries will be processed by a distinct agent task. The PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 
 
 The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these documents in **Inbound E-Documents** using the **For review** view and the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 
 

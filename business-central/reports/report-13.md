@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # VAT Register (report)
 
-The **VAT Register** report (also known as **Tax Register** in US localization) lists all posted VAT transactions from sales, purchases, and journals, providing detailed visibility into how VAT is applied across the system.
+The **VAT Register** report lists all posted VAT transactions from sales, purchases, and journals, providing detailed visibility into how VAT is applied across the system.
 
 You can apply filters such as posting date, VAT business posting group, or document number to drill into specific transactions and validate each VAT transaction recorded in the system.
 

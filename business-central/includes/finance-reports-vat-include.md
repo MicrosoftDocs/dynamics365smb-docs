@@ -44,15 +44,6 @@ Add to TOC
 In finance-reports.md
 /////////////////////
 
-## VAT reports
-
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
-
-[!INCLUDE [finance_reports_vat](includes/finance-reports-vat-include.md)]
-
-
-ms.search.form:
-Report_11, Report_12, Report_13, Report_19, Report_20, Report_31, Report_32, Report_743, Report_2500,  
 
 
 

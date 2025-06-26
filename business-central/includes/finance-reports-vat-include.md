@@ -40,13 +40,6 @@ Add to TOC
 ###### [Day Book VAT Entry](reports/report-2500.md)]
 
 
-/////////////////////
-In finance-reports.md
-/////////////////////
-
-
-
-
 ////////////////////////////////////////////////////////
 New article (copy structure for cost accounting reports)
 Add to TOC

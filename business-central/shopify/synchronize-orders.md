@@ -21,6 +21,12 @@ Enter a **currency code** if your online shop uses a different currency than the
 
 You can access the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies. However, imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
+Enable **Auto Sync Orders** to receive real-time notifications whenever a new order is created in a Shopify store. Once notification received the Connector will run **Sync Order from Shopify** batch job using **Job Queue Entries**. 
+> [!NOTE]
+> As Auto Sync Order releies on the job queue functionality it is not available to the delegated administrator.
+> 
+> When the **Auto Sync Orders** creates the Job Queue entry it doens't pass any parameters or fiters. 
+
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
 * **Shipping Charges Account**: You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
@@ -235,6 +241,8 @@ Each job queue imports and processes orders within the defined filters and uses 
 
 > [!IMPORTANT]
 > To avoid conflicts when processing orders, use the same job queue category for both job queue entries.
+> 
+> You should not rely on the **Auto Sync Orders** setting as it doesn't support filters and request page paremeters. 
 
 ### Effect of order editing
 

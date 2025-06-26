@@ -49,7 +49,7 @@ The end-to-end process handled by the Payables Agent is shown in the following f
 ![Shows the Payables Agent flow](media/payables-agent-flow.png)
 
 1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
-1. **Payables Agent:** Picks up unread emails in the monitored mailbox, imports the emails and imports the PDF attachment - if any exists - into **Inbound E-Documents** in Business Central.
+1. **Payables Agent:** Picks up unread email in the monitored mailbox. It then imports the email and creates an entry in **Inbound E-Documents** for every PDF attachment, if any exists.
 1. **Agent supervisor:** Reviews the email and PDF, if any was attached.
 1. **Payables Agent:** Extracts invoice information from the PDF using Azure Document Intelligence.
 1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted invoice information.

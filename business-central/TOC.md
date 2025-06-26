@@ -311,7 +311,7 @@ ms.service: dynamics-365-business-central
 ###### [G/L Deferral Summary](reports/report-1700.md)
 ###### [Sales Deferral Summary](reports/report-1701.md)
 ###### [Purchasing Deferral Summary](reports/report-1702.md)
-##### VAT/Tax reports
+##### VAT reports
 ###### [G/L - VAT Reconciliation](reports/report-11.md)
 ###### [VAT Statement](reports/report-12.md)
 ###### [VAT Register](reports/report-13.md)
@@ -523,7 +523,7 @@ ms.service: dynamics-365-business-central
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
-### Working with VAT
+### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
 #### [Work with VAT on sales and purchases](finance-work-with-vat.md)

@@ -20,26 +20,3 @@ The following table describes financial reports that deal with tax/VAT.
 | [!INCLUDE [report-32-scenario](../includes/report-32-scenario-include.md)] | [VAT Registration No. Check](https://businesscentral.dynamics.com?report=32) | [About *VAT Registration No. Check*](../reports/report-32.md) | 32 |
 | [!INCLUDE [report-743-scenario](../includes/report-743-scenario-include.md)] | [VAT Reconciliation Report](https://businesscentral.dynamics.com?report=743) | [About *VAT Reconciliation Report*](../reports/report-743.md) | 743 |
 | [!INCLUDE [report-2500-scenario](../includes/report-2500-scenario-include.md)] | [Day Book VAT Entry](https://businesscentral.dynamics.com?report=2500) | [About *Day Book VAT Entry*](../reports/report-2500.md) | 2500 |
-
-
-
-<!-- Pending merge to main of cost accounting report PR
-
-////////////////////////////////////////////////////////
-New article (copy structure for cost accounting reports)
-Add to TOC
-////////////////////////////////////////////////////////
-
-### Working with VAT
-#### [VAT management overview](finance-manage-vat.md)  <--- edit: add link to VAT reporting article
-#### [VAT reporting](finance-vat-reporting.md)  <--- new article
-#### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
-#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
-#### [Multiple VAT registration numbers](finance-how-use-multiple-vat-registrations.md)
-#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
-#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
-#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
-#### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
-
--->

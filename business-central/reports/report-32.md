@@ -45,7 +45,7 @@ Try the report here: [VAT Registration No. Check](https://businesscentral.dynami
 
 ## Related information
 
-[VAT management overview](../finance-manage-vat.md) 
+[VAT management overview](../finance-manage-vat.md)   
 [VAT reporting](../finance-vat-reporting.md)   
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

@@ -46,7 +46,7 @@ Try the report here: [VAT- VIES Declaration Tax Auth](https://businesscentral.dy
 
 ## Related information
 
-[VAT management overview](../finance-manage-vat.md) 
+[VAT management overview](../finance-manage-vat.md)   
 [VAT reporting](../finance-vat-reporting.md)   
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

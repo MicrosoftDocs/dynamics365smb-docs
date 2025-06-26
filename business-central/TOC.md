@@ -286,10 +286,8 @@ ms.service: dynamics-365-business-central
 ##### [Analyze your payment practices](ui-payment-practices.md)
 
 #### Built-in finance reports
-
+##### [Finance report overview](finance-reports.md)
 ##### Key finance reports
-
-###### [Key finance report overview](finance-reports.md)
 ###### [Chart of Accounts](reports/report-1.md)
 ###### [G/L Register](reports/report-3.md)
 ###### [Detail Trial Balance](reports/report-4.md)
@@ -309,16 +307,27 @@ ms.service: dynamics-365-business-central
 ###### [Dimensions - Detail](reports/report-28.md)
 ###### [Dimension Check Value Posting](reports/report-30.md)
 ###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
+##### Deferral reports
 ###### [G/L Deferral Summary](reports/report-1700.md)
 ###### [Sales Deferral Summary](reports/report-1701.md)
 ###### [Purchasing Deferral Summary](reports/report-1702.md)
+##### Consolidation and intercompany reports
 ###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Consolidated Trial Balance](reports/report-17.md)
 ###### [Consolidated Trial Balance (4)](reports/report-18.md)
 ###### [Intercompany Transactions](reports/report-512.md) 
 ###### [G/L Consolidation Eliminations (for IC)](reports/report-16.md)
+##### Cost accounting reports
+###### [Cost Acctg. Stmt. per Period](reports/report-1123.md)
+###### [Cost Types Details](reports/report-1125.md)
+###### [Cost Acctg. Statement](reports/report-1126.md)
+###### [Cost Acctg. Analysis](reports/report-1127.md)
+###### [Cost Acctg. Journal](reports/report-1128.md)
+###### [Cost Allocations](reports/report-1129.md)
+###### [Cost Acctg. Statement/Budget](reports/report-1133.md)
+###### [Cost Acctg. Balance/Budget](reports/report-1138.md)
 
-##### [Built-in fixed assets reports](fa-reports.md)
+##### [Fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
 
@@ -432,6 +441,8 @@ ms.service: dynamics-365-business-central
 #### [Define and allocate costs](finance-define-and-allocate-costs.md)
 #### [Create cost budgets](finance-create-cost-budgets.md)
 #### [Deleting cost budget entries](finance-how-to-delete-cost-budget-entries.md)
+#### [Cost accounting reports](finance-cost-accounting-reports.md)
+
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)

@@ -28,8 +28,7 @@ The Payables Agent monitors mailboxes for incoming vendor invoices, uses AI to a
 <!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 > [!NOTE]
-> * This agent was validated for [English](https://aka.ms/bapcopilot-intl-report-external-features). While it can be used in other languages, it may not function as intended. Language quality may vary based on the user’s interaction or system settings which may impact accuracy and the user experience..
-
+> [!INCLUDE[copilot-language-support-en-only](includes/copilot-language-support-en-only.md)].
 
 ## Functionality in the preview
 
@@ -77,6 +76,7 @@ Each imported PDF document found in an email will become an entry in **Inbound E
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
 
 ### Extraction of invoice data
+
  The PDF is sent for OCR (Optical Character Recognition) data extraction with Azure Document Intelligence, and the result is stored in the same E-Document record. 
 
 The agent helps categorize imported PDF documents when it's uncertain if the PDF is a vendor invoice. You can identify these documents in **Inbound E-Documents** using the **For review** view and the **For review** cue on the **Accounts Payables Administrator** and **Business Manager** role centers. 

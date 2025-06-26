@@ -80,14 +80,17 @@ The agent helps categorize imported PDF documents when it's uncertain if the PDF
 When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent could not identify the vendor, the agent supervisor can instruc the agent to create the vendor on their behalf. This is done via the Additional instrauctions in the agent sidecar.
 
 **The agent will stop when it cannot identify the vendor:**
+
 ![Vendor is not identified by the agent](media/payables-agent-vendor-not-identified.png)
 
 **Agent supervisors can instruct the agent to go create the vendor using the OCR data as input:**
+
 ![Agent is instructed to create the vendor](media/payables-agent-vendor-not-identified-create.png)
 
 The additional instructions are proviede by either selecting one of the suggested actions or typing your own instructions by using the small ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. When one of these options have been selected, you select **Confirm**. In the above example the **Create vendor** instruction is selected. 
 
 **When the agent has created the vendor it will ask the agent supervisor to review the newly created vendor:**
+
 ![Agent supervisor is asked to review the vendor](media/payables-agent-vendor-not-identified-post-creation.png)
 
 When opening the vendor card, the agent supervisor can easily identify the fields set by the agent and fill out the rest of the fields as needed. If you want the agent to be able to work with the current invoice right away it is important that you unblock the vendor by using the Blocked field on the vendor card.

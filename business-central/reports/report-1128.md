@@ -1,6 +1,6 @@
 ---
 title: Cost Acctg. Journal (report)
-description: Run this to review posted cost entries and ensure transactions were properly recorded in cost journals. Lists cost entries recorded in journals, showing amounts, dates, and related dimensions. Filter by entry number or posting date.
+description: Run this report to review posted cost entries and ensure transactions were properly recorded in cost journals.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -33,18 +33,20 @@ You can filter the report by entry number or posting date to focus on specific t
 > * Trace cost postings to confirm they align with expected financial activity.
 > * Validate journal entries as part of month-end or audit procedures.
 
-Accountants can use the report to  
-* validate cost postings  
-* ensure transactions are properly recorded in the cost journals.
+Accountants can use the report to:
 
-Controllers can use the report to  
-* trace cost activity  
-* support internal controls and compliance reviews.
+* Validate cost postings.
+* Ensure transactions are properly recorded in cost journals.
 
-Auditors may reference the report to  
-* verify the accuracy of journal entries  
-* confirm completeness of cost data during audits.
+Controllers can use the report to:
 
+* Trace cost activity.
+* Support internal controls and compliance reviews.
+
+Auditors may reference the report to:
+
+* Verify the accuracy of journal entries.
+* Confirm completeness of cost data during audits.
 
 ## Try the report
 
@@ -52,10 +54,9 @@ Try the report here: [Cost Acctg. Journal](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Related information
 
-[Cost accounting overview](../finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

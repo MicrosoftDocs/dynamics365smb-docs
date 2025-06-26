@@ -17,9 +17,7 @@ ai.usage: ai-assisted
 
 # Cost Allocations (report)
 
-The **Cost Allocations** report is used to evaluate how costs were allocated across cost centers, cost objects, or dimensions. 
-
-It displays how costs were split or assigned based on allocation rules, helping organizations understand and control cost distribution.
+The **Cost Allocations** report is used to evaluate how costs were allocated across cost centers, cost objects, or dimensions. The report displays how costs were split or assigned based on allocation rules, helping organizations understand and control cost distribution.
 
 ## Use cases
 
@@ -28,23 +26,25 @@ It displays how costs were split or assigned based on allocation rules, helping 
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Run the report to understand how costs have been allocated across areas.
-> * Use it to track how costs were distributed using defined allocation rules.
-> * Ideal for cost control and analysis across departments or projects.
-> * Helps validate allocation methods and ensure consistency in cost reporting.
+> * Understand how costs are allocated across areas.
+> * Track how costs were distributed using defined allocation rules.
+> * Do cost control and analysis across departments or projects.
+> * Get help to validate allocation methods and ensure consistency in cost reporting.
 
 Finance teams can use the report to:
-* validate cost allocation logic
-* ensure transparency in cost distribution
+
+* Validate cost allocation logic.
+* Ensure transparency in cost distribution.
 
 Controllers can use the report to:
-* monitor cost center performance
-* support internal audits and budget planning
 
-Auditors may reference the report to:
-* verify allocation accuracy
-* ensure compliance with internal policies
+* Monitor cost center performance.
+* Support internal audits and budget planning.
 
+Auditors might reference the report to:
+
+* Verify allocation accuracy.
+* Ensure compliance with internal policies
 
 ## Try the report
 
@@ -52,10 +52,9 @@ Try the report here: [Cost Allocations](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Related information
 
-[Cost accounting overview](../finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

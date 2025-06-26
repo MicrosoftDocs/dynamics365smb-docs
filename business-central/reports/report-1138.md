@@ -1,6 +1,6 @@
 ---
 title: Cost Acctg. Balance/Budget (report)
-description: Use to analyze balances for cost accounts and budgets to support financial planning and control. Summarizes balances in cost and budget accounts. Filter by fiscal year, cost type, or budget version for accuracy.
+description: Use this report to analyze balances for cost accounts and budgets to support financial planning and control.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Cost Acctg. Balance/Budget (report)
 
-The **Cost Acctg. Balance/Budget** report summarizes balances in cost and budget accounts. It supports financial planning and control by allowing users to filter by fiscal year, cost type, or budget version for more accurate analysis.
+The **Cost Acctg. Balance/Budget** report summarizes balances in cost and budget accounts. It supports financial planning and control by allowing you to filter by fiscal year, cost type, or budget version for accurate analysis.
 
 ## Use cases
 
@@ -27,21 +27,23 @@ The **Cost Acctg. Balance/Budget** report summarizes balances in cost and budget
 > Here are some tips on how to use the report:
 >
 > * Filter by fiscal year, cost type, or budget version to tailor the report to your planning needs.
-> * Use the report to validate cost and budget alignment across departments.
-> * Leverage the summarized view to support strategic decision-making and financial oversight.
+> * Validate cost and budget alignment across departments.
+> * Get a summarized view to support strategic decision-making and financial oversight.
 > * Compare actuals to budgeted figures to identify variances and adjust forecasts accordingly.
 
 Finance teams can use the report to:
-* monitor budget adherence
-* support cost control initiatives.
+
+* Monitor adherence to budgets.
+* Support cost control initiatives.
 
 Controllers can use the report to:
-* validate cost center performance
-* ensure budget allocations are being followed.
 
-Auditors may reference the report to:
-* verify the completeness and accuracy of cost and budget records.
+* Validate cost center performance.
+* Ensure budget allocations are followed.
 
+Auditors might reference the report to:
+
+* Verify the completeness and accuracy of cost and budget records.
 
 ## Try the report
 
@@ -49,10 +51,9 @@ Try the report here: [Cost Acctg. Balance/Budget](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Related information
 
-[Cost accounting overview](../finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

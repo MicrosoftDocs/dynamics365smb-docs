@@ -17,10 +17,9 @@ ai.usage: ai-assisted
 
 # Cost Types Details (report)
 
-The **Cost Types Details** report provides a categorized view of all cost types, supporting detailed cost tracking and analysis. It shows how each cost type—such as labor, materials, and overhead—contributes to total costs.
+The **Cost Types Details** report provides a categorized view of all cost types to support detailed cost tracking and analysis. The report shows how each cost type, such as labor, materials, and overhead, contributes to total costs.
 
-You can apply filters by period or cost center to tailor the report to your analysis needs.
-
+You can filter the results by period or cost center to tailor the report to your analysis needs.
 
 ## Use cases
 
@@ -34,18 +33,20 @@ You can apply filters by period or cost center to tailor the report to your anal
 > * Use the report to analyze cost trends and identify areas of high expenditure.
 > * Compare cost types across different periods to support budgeting and forecasting.
 
-Accountants can use the report to  
-* validate cost allocations  
-* ensure accurate categorization of expenses.
+Accountants can use the report to:
+  
+* Validate cost allocations.
+* Ensure accurate categorization of expenses.
 
-Controllers can use the report to  
-* monitor cost center performance  
-* support strategic cost management.
+Controllers can use the report to:
 
-Auditors may reference the report to  
-* verify completeness and accuracy of cost classifications  
-* support compliance reviews.
+* Monitor cost center performance.
+* Support strategic cost management.
 
+Auditors might reference the report to:
+
+* Verify completeness and accuracy of cost classifications.
+* Support compliance reviews.
 
 ## Try the report
 
@@ -53,10 +54,9 @@ Try the report here: [Cost Types Details](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Related information
 
-[Cost accounting overview](../finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

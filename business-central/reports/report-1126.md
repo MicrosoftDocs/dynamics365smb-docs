@@ -28,21 +28,22 @@ You can apply filters for period, cost type, or cost object to tailor the report
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Use the report to get an overview of total costs by dimension or category.
+> * Get an overview of total costs by dimension or category.
 > * Apply filters to focus on specific periods, cost types, or cost objects.
-> * Leverage cost dimensions to break down data by department, project, or cost center.
-> * Use the report to support operational reviews and cost control efforts.
+> * Use cost dimensions to break down data by department, project, or cost center.
+> * Support operational reviews and cost control efforts.
 
 Accountants can use the report to:
-* validate cost postings
-* ensure alignment with financial records.
+
+* Validate cost postings.
+* Ensure alignment with financial records.
 
 Controllers can use the report to:
-* oversee cost center performance
-* support budgeting or forecasting activities.
 
-Auditors may reference the report to verify the accuracy and completeness of cost entries during financial reviews or compliance checks.
+* Oversee cost center performance.
+* Support budgeting or forecasting activities.
 
+Auditors might reference the report to verify the accuracy and completeness of cost entries during financial reviews or compliance checks.
 
 ## Try the report
 
@@ -50,10 +51,9 @@ Try the report here: [Cost Acctg. Statement](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Related information
 
-[Cost accounting overview](../finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

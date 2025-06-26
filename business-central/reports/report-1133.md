@@ -17,11 +17,11 @@ ai.usage: ai-assisted
 
 # Cost Acctg. Statement/Budget (report)
 
-The **Cost Acctg. Statement/Budget** report is designed to help compare actual costs against budgeted targets using defined budget structures. It highlights variances by cost center, both in amount and percentage, enabling more effective budgeting and financial oversight.
+The **Cost Acctg. Statement/Budget** report is designed to help compare actual costs against budgeted targets using defined budget structures. It highlights variances by cost center, both in amount and percentage, to enable effective budgeting and financial oversight.
 
 ## Use cases
 
-[!INCLUDE [report-1133-scenario](../includes/report-1133-scenario-include.md)] 
+[!INCLUDE [report-1133-scenario](../includes/report-1133-scenario-include.md)]
 
 > [!TIP]
 > Here are some tips on how to use the report:
@@ -33,24 +33,25 @@ The **Cost Acctg. Statement/Budget** report is designed to help compare actual c
 > * Use the report to support internal reviews and financial planning discussions.
 
 Controllers can use the report to:
-* monitor cost center performance
-* support budget planning and variance analysis
+
+* Monitor cost center performance.
+* Support budget planning and variance analysis.
 
 Finance teams can use the report to:
-* validate actual spending against budget expectations
-* identify trends and adjust financial strategies accordingly
 
-Auditors may reference the report to:
-* verify budget compliance
-* assess the accuracy of cost allocations
+* Validate actual spending against budget expectations.
+* Identify trends and adjust financial strategies accordingly.
 
+Auditors might reference the report to:
+
+* Verify budget compliance.
+* Assess the accuracy of cost allocations.
 
 ## Try the report
 
 Try the report here: [Cost Acctg. Statement/Budget](https://businesscentral.dynamics.com?report=1133) 
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 

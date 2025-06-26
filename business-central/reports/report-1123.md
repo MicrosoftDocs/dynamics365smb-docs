@@ -30,23 +30,21 @@ You can apply date filters and cost dimensions to narrow down the results and fo
 >
 > * Review costs grouped by accounting periods to understand how expenses are distributed over time.
 > * Monitor actual cost activity to identify trends, variances, or anomalies in spending.
-> * Use date filters to focus your analysis: Narrow the report to specific months or quarters using the date filter options. This helps isolate trends or anomalies within a defined time frame.
-> * Apply cost dimensions for granular insights: Leverage cost dimensions (such as department, project, or cost center) to break down cost data and better understand where spending is concentrated.
-> * Compare periods to spot trends: Run the report for consecutive periods (e.g., Q1 vs. Q2) to identify increases or decreases in cost activity and investigate the causes.
+> * Use date filters to focus your analysis. Date filters can narrow the report to specific months or quarters to help isolate trends or anomalies.
+> * Apply cost dimensions for granular insights. Cost dimensions such as department, project, or cost center can break down cost data so you can better understand where spending is concentrated.
+> * Compare periods to spot trends. Run the report for consecutive periods, such as Q1 vs. Q2, to identify increases or decreases in cost activity and investigate the causes.
 
+Accountants can use the report to:
 
-Accountants can use the report to 
-* validate cost postings
-* ensure alignment with financial records.
+* Validate cost postings
+* Ensure alignment with financial records.
 
+Controllers can use the report to:
 
-Controllers can use the report to 
-* oversee cost center performance
-* support budgeting or forecasting activities.
+* Oversee cost center performance.
+* Support budgeting or forecasting activities.
 
-
-Auditors may reference the report to verify the accuracy and completeness of cost entries during financial reviews or compliance checks.
-
+Auditors might reference the report to verify the accuracy and completeness of cost entries during financial reviews or compliance checks.
 
 ## Try the report
 
@@ -54,10 +52,9 @@ Try the report here: [Cost Acctg. Stmt. per Period](https://businesscentral.dyna
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-
 ## Related information
 
-[Cost accounting overview](../finance-manage-cost-accounting.md)   
+[Cost accounting overview](../finance-manage-cost-accounting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

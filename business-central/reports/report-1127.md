@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Cost Acctg. Analysis (report)
 
-The **Cost Acctg. Analysis** report compares actual cost values with budgeted or expected values to support variance analysis and forecasting. It helps identify where costs exceeded or fell below expectations.
+The **Cost Acctg. Analysis** report compares actual cost values with budgeted or expected values to support variance analysis and forecasting. The report helps identify where costs exceeded or fell below expectations.
 
-Before running the report, select the appropriate period and budget version to ensure accurate comparisons.
+Before you run the report, select the appropriate period and budget version to ensure accurate comparisons.
 
 ## Use cases
 
@@ -28,26 +28,26 @@ Before running the report, select the appropriate period and budget version to e
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Run the report to compare actual cost values with budget expectations.
-> * Use it to highlight deviations between budgeted and actual cost performance.
-> * Leverage the insights to inform better forecasting and cost control strategies.
+> * Compare actual cost values with budget expectations.
+> * Find deviations between budgeted and actual cost performance.
+> * Get insights to inform better forecasting and cost control strategies.
 
 Finance professionals can use the report to:
+
 * Monitor cost performance against budgets.
 * Identify areas of overspending or underspending.
 * Support strategic planning and financial reviews.
 
-Controllers and analysts may also use the report to:
+Controllers and analysts might also use the report to:
+
 * Validate cost assumptions.
 * Improve the accuracy of future budgeting cycles.
-
 
 ## Try the report
 
 Try the report here: [Cost Acctg. Analysis](https://businesscentral.dynamics.com?report=1127) 
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 

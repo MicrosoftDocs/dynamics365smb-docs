@@ -2374,6 +2374,7 @@ ms.service: dynamics-365-business-central
 #### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
 #### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
 #### [Use back links to explore the data behind visuals](powerbi-back-links.md)
+#### [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md)
 #### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 

@@ -74,7 +74,9 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
    ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page2.png)
 
    1. **Get sample invoices**  
-   This option will show in evaluation companies only and intends to provide easy access to demo invoices so you do not have to produce invoices yourself. These invoices works well with the Contoso Coffee demo data.
+   This option will show in evaluation companies only and intends to provide easy access to demo invoices so you do not have to produce invoices yourself. These invoices works well with the Contoso Coffee demo data. The wizard lets you let the system send the sample invoices to the monitored mailbox, in which case they will be sent from the very same mailbox. The wizard also lets you the sample invoices so you can send them from your own mailbox to the monitored mailbox
+   > [!TIP]
+> If you let the agent send the sample invoices they will show up in the agent task pane as coming from the very same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples. 
    2. **Document Creation**  
    Here you can select additional fields to consider from matched purchase invoice history that you want to populate automatically when finalizing purchase document drafts and they become purchase invoice documents. This feature ensures that purchase invoice line fields that are not visible in the purchase document draft can be populated in the same process when matched with historic data. This is the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
 

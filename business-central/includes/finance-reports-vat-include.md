@@ -25,21 +25,6 @@ The following table describes financial reports that deal with tax/VAT.
 
 <!-- Pending merge to main of cost accounting report PR
 
-//////////
-Add to TOC
-//////////
-
-###### [G/L - VAT Reconciliation (called G/L - Tax Reconciliation in US localization)](reports/report-11.md)]
-###### [VAT Statement](reports/report-12.md)]
-###### [VAT Register](reports/report-13.md)]
-###### [VAT- VIES Declaration Tax Auth](reports/report-19.md)]
-###### [Calc. and Post VAT Settlement](reports/report-20.md)]
-###### [VAT Exceptions](reports/report-31.md)]
-###### [VAT Registration No. Check](reports/report-32.md)]
-###### [VAT Reconciliation Report](reports/report-743.md)]
-###### [Day Book VAT Entry](reports/report-2500.md)]
-
-
 ////////////////////////////////////////////////////////
 New article (copy structure for cost accounting reports)
 Add to TOC

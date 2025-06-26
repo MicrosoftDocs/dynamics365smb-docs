@@ -533,6 +533,7 @@ ms.service: dynamics-365-business-central
 #### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 #### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
+#### [VAT reports](finance-vat-reports.md)
 #### Set up VAT
 ##### [Set up value-added tax](finance-setup-vat.md)
 ##### [Post group setup](finance-posting-groups.md#tax-posting-groups)

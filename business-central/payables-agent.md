@@ -102,7 +102,7 @@ The additional instructions are provided by either selecting one of the suggeste
 When opening the vendor card, the agent supervisor can easily identify the fields set by the agent and fill out the rest of the fields as needed. If you want the agent to be able to work with the current invoice right away it is important that you unblock the vendor by using the **Blocked** field on the vendor card.
 
 > [!NOTE]
-> When the agent creates a new vendor the **Blocked** field on the vendor card will be set to **All**. This is to ensure that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places this is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent itself does not provide any features for vendor approvals.
+> When the agent creates a new vendor the **Blocked** field on the vendor card will be set to **All**. This is to ensure that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places this is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent itself does not provide any capabilities for vendor approvals.
 
 Once you select **Confirm** in the agent sidecar, the agent will once again try to identify the vendor, which should now succeed as it has just been created.
 

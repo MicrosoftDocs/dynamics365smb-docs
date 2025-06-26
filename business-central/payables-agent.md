@@ -88,7 +88,7 @@ The agent helps categorize imported PDF documents when it's uncertain if the PDF
 
 ### Drafting invoice details
 
-When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent could not identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf. This is done via the Additional instructions in the agent sidecar.
+When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent couldn't identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf by using the **Additional instructions** field in the agent sidecar.
 
 **The agent will stop when it cannot identify the vendor:**
 
@@ -98,20 +98,20 @@ When the agent considers a PDF document a valid vendor invoice with high confide
 
 ![Agent is instructed to create the vendor](media/payables-agent-vendor-not-identified-create.png)
 
-The additional instructions are provided by either selecting one of the suggested actions or typing your own instructions by using the small ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. When one of these options have been selected, you select **Confirm**. In the above example the **Create vendor** instruction is selected. 
+You can provide additional instructions by selecting one of the suggested actions or typing your own instructions by using the small ![Agent supervisor can write own instructions to the agent](media/additional-instructions-chat-icon.png) chat icon. After you select one of these options, select **Confirm**. In the above example, the **Create vendor** instruction is selected. 
 
-**When the agent has created the vendor it will ask the agent supervisor to review the newly created vendor:**
+**When the agent has created the vendor, it will ask the agent supervisor to review the newly created vendor:**
 
 ![Agent supervisor is asked to review the vendor](media/payables-agent-vendor-not-identified-post-creation.png)
 
-When opening the vendor card, the agent supervisor can easily identify the fields set by the agent and fill out the rest of the fields as needed. If you want the agent to be able to work with the current invoice right away it is important that you unblock the vendor by using the **Blocked** field on the vendor card.
+When the agent supervisor opens the vendor card, they can easily identify the fields set by the agent and fill out the rest of the fields as needed. If you want the agent to work with the current invoice right away, unblock the vendor by using the **Blocked** field on the vendor card.
 
 > [!NOTE]
-> When the agent creates a new vendor the **Blocked** field on the vendor card will be set to **All**. This is to ensure that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places this is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent itself does not provide any capabilities for vendor approvals.
+> When the agent creates a new vendor, the **Blocked** field on the vendor card is set to **All**. This behavior ensures that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places, this action is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent itself doesn't provide any capabilities for vendor approvals.
 
-Once you select **Confirm** in the agent sidecar, the agent will once again try to identify the vendor, which should now succeed as it has just been created. Given you have unblocked the vendor.
+After you select **Confirm** in the agent sidecar, the agent tries again to identify the vendor, which should now succeed because it was just created, given that you unblocked the vendor.
 
-After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent, and it's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
+After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent. It's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
 
 ### Finalizing the purchase document draft
 

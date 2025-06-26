@@ -28,7 +28,7 @@ The **Cost Acctg. Statement/Budget** report is designed to help compare actual c
 >
 > * Use the report during budgeting cycles to compare actual versus planned costs.
 > * Analyze variances by cost center to identify areas of overspending or underspending.
-> * Leverage the variance data to adjust future budgets and improve forecasting accuracy.
+> * Use the variance data to adjust future budgets and improve forecasting accuracy.
 > * Apply cost dimensions to drill into specific departments or projects for more granular insights.
 > * Use the report to support internal reviews and financial planning discussions.
 
@@ -39,7 +39,7 @@ Controllers can use the report to:
 
 Finance teams can use the report to:
 
-* Validate actual spending against budget expectations.
+* Review and validate actual spending against budget expectations.
 * Identify trends and adjust financial strategies accordingly.
 
 Auditors might reference the report to:

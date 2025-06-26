@@ -40,7 +40,7 @@ Finance professionals can use the report to:
 
 Controllers and analysts might also use the report to:
 
-* Validate cost assumptions.
+* Review and validate cost assumptions.
 * Improve the accuracy of future budgeting cycles.
 
 ## Try the report

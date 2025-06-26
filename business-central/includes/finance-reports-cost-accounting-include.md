@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-The following table describes financial reports for cost accounting. 
+The following table describes financial reports for cost accounting.
 
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID |
 |-------|------------| ------------|----|

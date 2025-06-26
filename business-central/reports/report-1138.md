@@ -26,8 +26,8 @@ The **Cost Acctg. Balance/Budget** report summarizes balances in cost and budget
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Filter by fiscal year, cost type, or budget version to tailor the report to your planning needs.
-> * Validate cost and budget alignment across departments.
+> * Tailor the report to your planning needs by filtering results by fiscal year, cost type, or budget version.
+> * Review and validate your cost and budget alignment across departments.
 > * Get a summarized view to support strategic decision-making and financial oversight.
 > * Compare actuals to budgeted figures to identify variances and adjust forecasts accordingly.
 
@@ -38,7 +38,7 @@ Finance teams can use the report to:
 
 Controllers can use the report to:
 
-* Validate cost center performance.
+* Review and validate the performance of cost centers.
 * Ensure budget allocations are followed.
 
 Auditors might reference the report to:

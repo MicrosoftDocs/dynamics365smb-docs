@@ -36,7 +36,7 @@ You can apply date filters and cost dimensions to narrow down the results and fo
 
 Accountants can use the report to:
 
-* Validate cost postings
+* Review and validate cost postings.
 * Ensure alignment with financial records.
 
 Controllers can use the report to:

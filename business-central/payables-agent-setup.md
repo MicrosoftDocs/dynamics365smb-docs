@@ -9,10 +9,6 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ms.search.form: 3304_Primary
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:06/18/2025
 ---
 # Set up Payables Agent (preview)
 
@@ -74,20 +70,23 @@ Configure and activate the Payables Agent for your company. Only one Payables Ag
    ![Shows the second page of the Payables Agent configuration wizard](media/payables-agent-setup-page2.png)
 
    1. **Get sample invoices**  
-   This option will show in evaluation companies only and intends to provide easy access to demo invoices so you do not have to produce invoices yourself. These invoices works well with the Contoso Coffee demo data. The wizard lets you let the system send the sample invoices to the monitored mailbox, in which case they will be sent from the very same mailbox. The wizard also lets you the sample invoices so you can send them from your own mailbox to the monitored mailbox
-   > [!TIP]
-> If you let the agent send the sample invoices they will show up in the agent task pane as coming from the very same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples. 
-   2. **Document Creation**  
-   Here you can select additional fields to consider from matched purchase invoice history that you want to populate automatically when finalizing purchase document drafts and they become purchase invoice documents. This feature ensures that purchase invoice line fields that are not visible in the purchase document draft can be populated in the same process when matched with historic data. This is the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
 
-1. Select **Manage user access** to specify additional agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
+      This option shows in evaluation companies only and intends to provide easy access to demo invoices so you don't have to produce invoices yourself. These invoices work well with the Contoso Coffee demo data. The wizard lets you let the system send the sample invoices to the monitored mailbox, in which case they're sent from the same mailbox. The wizard also lets you the sample invoices so you can send them from your own mailbox to the monitored mailbox
+
+      > [!TIP]
+      > If you let the agent send the sample invoices, they show up in the agent task pane as coming from the same mailbox as is being monitored. Basically, it sends an email to itself with the prepared samples. 
+   1. **Document Creation**  
+
+      Select more fields from matched purchase invoice history to populate automatically when the agent finalizes purchase document drafts to become purchase invoice documents. This feature ensures that purchase invoice line fields that aren't visible in the purchase document draft can be populated in the same process when matched with historic data. It's the way the generic **Purchase document draft** experience supports fields from customizations and add-on apps.
+
+1. Select **Manage user access** to specify more agent supervisors who can manage or interact with the agent. You can add more users now or later. Learn more in [Manage user access to the Payables Agent](#manage-agent-permissions-and-user-access).
 1. Turn on the **Active** toggle.
 1. Select **Update** to complete the setup.
 1. Ensure the Payables Agent's language is set to a supported language.
 
    When you configure the agent, it uses the same language as the display language of your workspace. [Learn how to change the agent's language](#change-language-and-regional-settings).
 
-The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices that is sent to the mailbox.
+The **Payables Agent** icon changes to ![Shows the Payables Agent icon after configured](media/payables-agent-activated-icon.png), indicating the agent is active and ready to handle incoming vendor invoices sent to the mailbox.
 
 > [!TIP]
 > Refer to [Payables Agent process flow](payables-agent.md#payables-agent-process-flow) to understand the agent in more details and learn how it works.
@@ -158,7 +157,7 @@ Users can work with agent tasks in the Copilot pane if they have the **Manage Ag
 
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Select **Agent User Settings**.
-1. Set **Lanaguage** to a supported English locale.
+1. Set **Language** to a supported English locale.
 
 ## Related information
 

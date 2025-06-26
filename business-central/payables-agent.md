@@ -9,10 +9,6 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ms.search.form: 4400, 4410
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:06/18/2025
 ---
 # Payables Agent overview (preview)
 

@@ -54,7 +54,7 @@ The end-to-end process handled by the Payables Agent is shown in the following f
 1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted invoice information.
 1. **Agent supervisor:** Can assist the agent with identifying the vendor if the agent can't confidently identify the right vendor. The agent supervisor can instruct the agent to create the vendor if they prefer to let the agent prefill vendor information based on OCR extracted vendor details.
 1. **Payables Agent:** The agent attempts to create the vendor and uses the available OCR extracted vendor details to fill out as many fields on the vendor card as possible.
-1. **Agent Supervisor:** Asked to review the newly created vendor, which is blocked for procesing until unblocked by a relevant stakeholder.
+1. **Agent Supervisor:** Is asked to review the newly created vendor, which is blocked for procesing until unblocked by a relevant stakeholder.
 1. **Payables Agent:** Uses AI to suggest invoice details based on the extracted invoice information.
 1. **Agent supervisor:** Can review, confirm, or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
 1. **Payables Agent:** Finalizes the purchase document draft into a purchase invoice. Users now see the invoice in the **Purchase Invoices** list.

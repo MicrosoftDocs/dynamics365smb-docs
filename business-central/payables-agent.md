@@ -52,7 +52,7 @@ The end-to-end process handled by the Payables Agent is shown in the following f
 1. **Payables Agent:** Picks up PDF attachments from unread emails in the monitored mailbox and imports the PDF into **Inbound E-Documents** in Business Central.
 1. **Payables Agent:** Extracts invoice information from the PDF using Azure Document Intelligence.
 1. **Payables Agent:** Identifies a vendor in Business Central based on the extracted invoice information.
-1. **Agent supervisor:** Can assist the agent with identifying the vendor if the agent can't confidently identify the right vendor.
+1. **Agent supervisor:** Can assist the agent with identifying the vendor if the agent can't confidently identify the right vendor. The agent supervisor can also instruct the agent to create the vendor.
 1. **Payables Agent:** Uses AI to suggest invoice details based on the extracted invoice information.
 1. **Agent supervisor:** Can review, confirm, or change the suggested invoice details in a purchase document draft, depending on agent configuration settings and the agent's confidence in the suggestions.
 1. **Payables Agent:** Finalizes the purchase document draft into a purchase invoice. Users now see the invoice in the **Purchase Invoices** list.
@@ -77,7 +77,16 @@ The agent helps categorize imported PDF documents when it's uncertain if the PDF
 
 ### Drafting invoice details
 
-When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. 
+When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent could not identify the vendor, the agent supervisor can instruc the agent to create the vendor on their behalf. This is done via the Additional instrauctions in the agent sidecar.
+
+**The agent will stop when it cannot identify the vendor:**
+![Vendor is not identified by the agent](media/payables-agent-vendor-not-identified.png)
+
+**Agent supervisors can instruct the agent to go create the vendor using the OCR data as input:**
+![Vendor is not identified by the agent](media/payables-agent-vendor-not-identified-create.png)
+
+> [!NOTE]
+> When the agent creates a new vendor the **Blocked** field on the vendor card will be set to **All**. This is to ensure that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places this is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent does not provide any features for vendor approvals.
 
 After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, Recurring Purchase Lines, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent, and it's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
 

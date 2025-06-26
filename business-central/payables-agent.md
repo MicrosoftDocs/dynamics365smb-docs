@@ -99,14 +99,14 @@ The additional instructions are proviede by either selecting one of the suggeste
 
 ![Agent supervisor is asked to review the vendor](media/payables-agent-vendor-not-identified-post-creation.png)
 
-When opening the vendor card, the agent supervisor can easily identify the fields set by the agent and fill out the rest of the fields as needed. If you want the agent to be able to work with the current invoice right away it is important that you unblock the vendor by using the Blocked field on the vendor card.
+When opening the vendor card, the agent supervisor can easily identify the fields set by the agent and fill out the rest of the fields as needed. If you want the agent to be able to work with the current invoice right away it is important that you unblock the vendor by using the **Blocked** field on the vendor card.
 
 > [!NOTE]
 > When the agent creates a new vendor the **Blocked** field on the vendor card will be set to **All**. This is to ensure that proper vendor approval processing can take place. Usually, vendors and their bank accounts are approved by having communication with the vendor and doing human callbacks to the vendor's finance department. In many places this is a requirement for a successful audit. Thus, leaving the newly created vendor in a blocked state ensures no invoicing processing can happen until the vendor is unblocked. The agent does not provide any features for vendor approvals.
 
 Once you select **Confirm** in the agent sidecar, the agent will once again try to identify the vendor, which should now succeed as it has just been created.
 
-After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, Recurring Purchase Lines, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent, and it's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
+After the agent identifies the vendor, it starts line-level processing of the invoice details. The agent uses different methods to draft the best possible details. For example, it might use AI, vendor invoice history, mapping text to G/L accounts, Item References, and more. The agent records all draft details for the specific vendor invoice in a **Purchase document draft** related to the **Inbound E-Document**. You can access this draft from the **Inbound E-Document** when not interacting with the agent, and it's also linked in the agent **Tasks** tab of the Copilot pane when an agent supervisor is involved. 
 
 ### Finalizing the purchase document draft
 

@@ -83,7 +83,7 @@ The agent helps categorize imported PDF documents when it's uncertain if the PDF
 
 ### Drafting invoice details
 
-When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent could not identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf. This is done via the Additional instrauctions in the agent sidecar.
+When the agent considers a PDF document a valid vendor invoice with high confidence, it starts by identifying the vendor to create the purchase invoice draft. In this process, the agent might need help from an agent supervisor if it can't confidently identify the correct vendor. If the agent could not identify the vendor, the agent supervisor can instruct the agent to create the vendor on their behalf. This is done via the Additional instructions in the agent sidecar.
 
 **The agent will stop when it cannot identify the vendor:**
 

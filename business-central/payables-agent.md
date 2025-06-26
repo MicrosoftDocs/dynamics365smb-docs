@@ -48,6 +48,8 @@ The end-to-end process handled by the Payables Agent is shown in the following f
 
 ![Shows the Payables Agent flow](media/payables-agent-flow.png)
 
+The dashed steps in the image above represents steps that - in time - are intended to be optional depending on configuration. In the public preview release these are not optional steps.
+
 1. **Vendor or employee:** Vendor sends an email to a mailbox monitored by the agent. Alternatively, an employee forwards a vendor invoice to the mailbox.
 1. **Payables Agent:** Picks up unread email in the monitored mailbox. It then imports the email and creates an entry in **Inbound E-Documents** for every PDF attachment, if any exists.
 1. **Agent supervisor:** Reviews the email and PDF, if any was attached.

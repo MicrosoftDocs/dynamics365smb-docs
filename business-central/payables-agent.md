@@ -73,7 +73,7 @@ Each PDF document found in an email becomes an entry in **Inbound E-Documents**.
 > - Users shouldn't access the monitored mailbox from Outlook.
 > 
 > As a consequence, emails with no PDFs show up as agent tasks and need agent overseers to decide how to handle them. PDF files that aren't recognized as invoices are marked as *unknown document type*. You can filter these documents by choosing the **Unknown Document Type** view on the **Inbound E-Documents** page and then remove them. You can also remove unsupported files received in this mailbox this way.
->
+
 > ![Shows the Unknown Document Type view on the Inbound E-Documents page](media/unknown-document-type-view.png)
 
 ### Extraction of invoice data

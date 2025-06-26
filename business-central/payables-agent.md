@@ -66,7 +66,7 @@ The dashed steps in the image above represents steps that - in time - are intend
 
 The agent uses an internal email dispatcher running as a background task to continuously monitor a designated mailbox for incoming vendor invoices as PDF documents. The dispatcher triggers the agent to perform tasks and then imports the PDF document into **Inbound E-Documents**. 
 
-Each imported PDF document found in an email will become an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** will be created for each of them. Each of these entries will be processed by a distinct agent task.
+Each PDF document found in an email will become an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** will be created for each of them. Each of these entries will be processed by a distinct agent task.
 
 > [!NOTE]
 > While the agent is in preview, use a designated mailbox for receiving vendor invoices. If multiple agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.

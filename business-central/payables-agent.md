@@ -68,7 +68,7 @@ The agent uses an internal email dispatcher running as a background task to cont
 Each PDF document found in an email will become an entry in **Inbound E-Documents**. Thus, if there are multiple PDF attachments in the same email, an entry in **Inbound E-Documents** will be created for each of them. Each of these entries will be processed by a distinct agent task.
 
 > [!NOTE]
-> Use a designated mailbox for receiving vendor invoices. If multiple agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
+> Use a designated mailbox for receiving vendor invoices. If other agents, like the Sales Order Agent, use the same mailbox, it can cause conflicts with ownership of incoming emails.
 
 > [!CAUTION]
 > A fundamental principle of the Payables Agent is to import **all** emails. Not just the ones that contain PDF files. This means the mailbox should only be attended from within Business Central and users should not access the monitored mailbox in Outlook. This ensures the agent has full ownership of the mailbox, process wise, and no emails are accidentally read or removed by users. As a consequence, emails with no PDFs will show up as agent tasks and need agent overseers to decide how to handle them. PDF files that are of unknown type (i.e. not invoices) can easily be filtered into view by choosing the **Unknown Document Type** view on the Inbound E-Documents page and then be removed. This is also the way to remove unsupported files you may receive in this mailbox.

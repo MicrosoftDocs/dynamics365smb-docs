@@ -1,0 +1,1 @@
+Identify posted transactions where VAT was expected but not applied, helping ensure VAT setup accuracy and prevent reporting errors before filing tax returns.

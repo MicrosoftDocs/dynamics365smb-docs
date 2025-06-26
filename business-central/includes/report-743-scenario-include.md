@@ -1,0 +1,1 @@
+Reconcile VAT entries with general ledger accounts before tax filing by comparing VAT calculated on documents with posted VAT amounts. Use the report to ensure accuracy and alignment of VAT data during tax preparation.

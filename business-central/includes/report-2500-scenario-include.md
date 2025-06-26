@@ -1,0 +1,1 @@
+Review all posted VAT transactions grouped by document date in a register-style format to support tax audits, reconciliations, and historical analysis across sales and purchase documents.

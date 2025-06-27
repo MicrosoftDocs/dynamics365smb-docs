@@ -100,19 +100,21 @@ If you change your mind while reviewing the outgoing message and decide to make 
 
 To understand how the Payables Agent drafted the purchase invoice document, you can also go directly to the **Inbound E-Documents** page and open a purchase document draft.  
 
-Business Central helps you focus your review by highlighting the fields that benefit most from your attention, reducing the review effort and minimizing risk of inaccuracy. 
+Business Central helps you focus your review by highlighting the fields that benefit most from your attention, reducing the review effort and minimizing risk of inaccuracy.
 
-Fields that are recommended for review displays an [info] information icon. 
+Fields that are recommended for review display an [info] information icon.
 
-When you click this icon or use the **Alt+I** keyboard shortcut on the field, Business Central reveals why the Payables Agent chose that specific field value. This helps you determine whether a better value would be more appropriate. 
+When you select this icon or use the <kbd>Alt</kbd>+<kbd>I</kbd> keyboard shortcut on the field, Business Central reveals why the Payables Agent chose that specific field value. This information helps you determine whether a better value would be more appropriate. 
 
 You can quickly replace or correct any fields that the Payables Agent didn’t quite get right. 
 
-To complete the review and elevate the draft to a purchase invoice document, choose the **Finalize draft** action. 
+To complete the review and elevate the draft to a purchase invoice document, choose the **Finalize draft** action.
 
-Important: Fields recommended for review are provided as a convenience and you aren't required to inspect all of them. You should always review the entire purchase document draft, especially if you're new to the Payables Agent and are in the process of learning the limitations of how the agent works with your data. 
+> [!IMPORTANT]
+> Fields recommended for review are provided as a convenience, and you aren't required to inspect all of them. Always review the entire purchase document draft, especially if you're new to the Payables Agent and are learning the limitations of how the agent works with your data.
 
-Note: while reviewing a purchase document draft, you can't use Copilot’s Autofill feature. 
+> [!NOTE]
+> While reviewing a purchase document draft, you can't use Copilot’s Autofill feature.
 
 ## Stop a task
 

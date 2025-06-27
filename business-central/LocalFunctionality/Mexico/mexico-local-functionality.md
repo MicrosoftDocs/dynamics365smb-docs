@@ -17,7 +17,7 @@ The following articles describe local functionality that is unique to the Mexica
 ## Feature availability  
 
 - Tax
-  - [Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
+  - [Set Up and Generate DIOT Reports (2025 version)](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
   - [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**
   - [VAT Recalculation](vat-recalculation.md) **Available Now**
 
@@ -35,8 +35,6 @@ The following articles describe local functionality that is unique to the Mexica
   - [Create Deposits](how-to-create-deposits.md) **Available Now**
 
 ## Future legislation requirements being investigated
-
-- Redesigned DIOT file format **Planned for July 2025**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

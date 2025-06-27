@@ -28,11 +28,13 @@ The steps to connect E-Documents to an external access point depend on the type 
 
 ## Pagero service
 
-1. On the **E-Document External Connection Setup** page, select the **Open OAuth 2.0 setup** action to open the **OAuth 2.0 Setup** page.  
-2. On the **OAuth 2.0 setup** page, select the **Request Authorization Code** action. You're redirected to the external service authorization webpage and prompted for your sign-in details.
-3. Copy the authorization code into the **Enter Authorization Code** field.  
-4. Select **Refresh Access Token** to make sure that you can refresh the token. 
-5. On the **E-Document External Connection Setup** page, fill in the following fields:
+1. On the **E-Document Service** page, change the **Service Integration** to **Pagero**. 
+2. On the **E-Document Service** page, select the **Setup Service Integration** action.  
+3. On the **E-Document External Connection Setup** page, select the **Open OAuth 2.0 setup** action to open the **OAuth 2.0 Setup** page.  
+4. On the **OAuth 2.0 setup** page, select the **Request Authorization Code** action. You're redirected to the external service authorization webpage and prompted for your sign-in details.
+5. Copy the authorization code into the **Enter Authorization Code** field.  
+6. Select **Refresh Access Token** to make sure that you can refresh the token. 
+7. On the **E-Document External Connection Setup** page, fill in the following fields:
 
     | Field name | Description |
     |---|---|
@@ -42,22 +44,49 @@ The steps to connect E-Documents to an external access point depend on the type 
     | Company ID | Specify the company ID. |
     | Send Mode | Specify the send mode. You can select **Production**, **Test**, or **Certification**. |
 
-6. Continue with the [nonservice provider setup steps](finance-how-setup-edocuments-external.md).  
+8. Continue with the [nonservice provider setup steps](finance-how-setup-edocuments-external.md).  
 
 ## Avalara service
 
-> [!NOTE]
-> The Avalara connector in [!INCLUDE[prod_short](includes/prod_short.md)] is available from version 25.1
+1. On the **E-Document Service** page, change the **Service Integration** to **Avalara**.  
+2. On the **E-Document Service** page, select the **Setup Service Integration** action.  
+3. On the **Avalara Connection Setup** page, enter the **Client ID** and **Client Secret** fields. In the **Send Mode** field, choose the **Production**, **Test**, or **Certification** option, based on your plans. 
+4. Select the **Select Avalara Company Id** action, and choose the right company. Make sure you enter values into the **Company Name** and **Company ID** fields.  
+5. Select the **Select Avalara Mandate** action, and select the right **E-Document Service**, and then pick appropriate **Country Mandate** code on the **Avalara Mandate List** page. 
+6. Navigate back to the **E-Document Service** page, and validate that the **Avalara Mandate** field in the **Avalara** FastTab is set with the value you chose. 
+7. Continue with the [non-service provider setup steps](finance-how-setup-edocuments-external.md).
 
-1. On the **Avalara Connection Setup** page, enter the **Client ID** and **Client Secret** fields. In the **Send Mode** field, choose the **Production**, **Test**, or **Certification** option, based on your plans. 
-2. Select the **Select Avalara Company Id** action, and choose the right company. Make sure you enter values into the **Company Name** and **Company ID** fields.  
-3. Select the **Select Avalara Mandate** action, and select the right **E-Document Service**, and then pick appropriate **Country Mandate** code on the **Avalara Mandate List** page. 
-4. Navigate back to the **E-Document Service** page, and validate that the **Avalara Mandate** field in the **Avalara** FastTab is set with the value you chose. 
-5. Continue with the [non-service provider setup steps](finance-how-setup-edocuments-external.md).
+## Logiq service
+
+1. On the **E-Document Service** page, change the **Service Integration** to **Logiq**. 
+2. On the **E-Document Service** page, select the **Setup Service Integration** action.  
+3. On the **Logiq Connection Setup** page, enter tokens to the **Client ID** and **Client Secret** fields, choose the **Environment** as Pilot or Production.
+4. Run the **User Setup** action and enter your user credentials and choose the **API Engine** (Engine 1 or Engine 3) based on instruction you will get from provider. 
+5. Select the **Get Tokens** to access tokens for the cuurrent user.   
+6. Continue with the [non-service provider setup steps](finance-how-setup-edocuments-external.md). 
+
+## SignUp service (ExFlow)
+
+1. On the **E-Document Service** page, change the **Service Integration** to **ExFlow E-Invoicing**.  
+2. On the **E-Document Service** page, select the **Setup Service Integration** action.  
+3. On the **Logiq Connection Setup** page, enter the **Client ID** and **Client Secret** fields and the **Authentication URL** to specify the URL to connect Microsoft Entra.  
+4. You also need to have populated **Service URL** field with the URL you got from your provider and to choose the **Environment Type** if you want to use it for test or production. 
+5. Run the **Open Onboarding** action to start onboarding process with your provider in web browser outside of Business Central UI.  
+6. Continue with the [non-service provider setup steps](finance-how-setup-edocuments-external.md). 
+
+## B2BRouter service
+
+1. On the **E-Document Service** page, change the **Service Integration** to **B2BRouter**.  
+2. On the **E-Document Service** page, select the **Setup Service Integration** action.    
+3. On the **B2BRouter Connection Setup** page, enter the **API-KEY** to specify the key you will use for your B2BRouter environment and the **ProjectID** field to specify the project name for the B2Brouter environment.
+4. If you want to use this connector is in sandbox mode select the **Staging Mode** field.  
+5. Continue with the [non-service provider setup steps](finance-how-setup-edocuments-external.md). 
+
+// ## Contina service
 
 ## Available service providers
 
-At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero and Avalara access points for e-documents, but more access points are in the process of development. This page is updated with the parameters for new connectors when they're ready. You can also find more connectors on AppSource.
+At this moment, [!INCLUDE[prod_short](includes/prod_short.md)] supports Pagero, Avalara, Logiq, SignUp, and B2BRouter access points for e-documents, but more access points are in the process of development. This page is updated with the parameters for new connectors when they're ready. You can also find more connectors on AppSource.
 
 > [!NOTE]
 > This page doesn't show how to connect with the local service providers. If [!INCLUDE[prod_short](includes/prod_short.md)] support some of them, it will be explained in the country-specific documentation.  

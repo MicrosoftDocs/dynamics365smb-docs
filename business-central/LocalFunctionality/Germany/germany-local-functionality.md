@@ -31,7 +31,7 @@ The following articles describe local functionality that is unique to the German
   - [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**
 
 - Core Finance
-  - [German Electronic Invoicing](germany-einvoicing.md) **Available Now**
+  - [German Electronic Invoicing (xRechnung, ZUGFeRD, Peppol)](germany-einvoicing.md) **Available Now**
   - [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md) **Available Now**
   - [Post a Negative Entry](how-to-post-a-negative-entry.md) **Available Now**
   - [Process for Digital Audits](process-for-digital-audits.md) **Available Now**
@@ -58,8 +58,6 @@ The following articles describe local functionality that is unique to the German
 
 ## Future legislation requirements being investigated
 
-- Adding ZUGFeRD e-invoicing format **Planned for July 2025**
-- Peppol BIS# DE format with included Buyer Reference **Planned for July 2025**
 - GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 2**
 - Electronically supported tax audit (euBP) **Planned for 2026 release wave 2**
 

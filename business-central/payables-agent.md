@@ -115,7 +115,7 @@ The **Purchase document draft** is where the agent's draft details are shown to 
 
 **On each section you'll see hints about how many fields to review:**
 
-![Agent shows reasoning behind setting the field value](media/payables-agent-infotips.png)
+![Agent shows hints about how many fields to review](media/payables-agent-infotips.png)
 
 **Each field where a review is required will have a tip that describes the agent's reasoning behind setting the field's value:**
 

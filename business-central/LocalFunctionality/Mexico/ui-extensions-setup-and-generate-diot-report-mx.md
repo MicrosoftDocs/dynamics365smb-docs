@@ -16,6 +16,9 @@ ms.reviewer: v-soumramani
 
 As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[prod_short](../../includes/prod_short.md)] by generating a file that can be uploaded to SAT. This article describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[prod_short](../../includes/prod_short.md)] and is preinstalled in the online version. However, it must be installed manually in the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
+> [!NOTE]
+> Starting with version 26.3, the exported DIOT file complies with the new SAT regulations effective in 2025, featuring a TXT file format that includes 54 fields.   
+
 ## What does this extension handle?
 
 The extension provides the following capabilities:
@@ -49,8 +52,16 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
    The setup of DIOT is now finished.
 1. Choose the **Finish** button.
 
+## Vendor Setup 
+
 > [!NOTE]
-> For the DIOT report, the vendor's operation type is used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor isn't passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually.
+> For the DIOT report, the vendor's operation type is used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor isn't passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually. 
+
+To update necessary fields on the **Vendor** card, follow next steps:   
+
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Card**, and then choose the related link.   
+2. Select the **Tax Effects Applied** field to show if the tax effects are applied to the invoices related to transactions with the vendor. This value will be exported at the 54th field as ‘01’ when **Tax Effects Applied** = TRUE and ‘02’ otherwise. 
+3. Fill in the **Tax Jurisdiction Location** in case **Country/Region Code** of the vendor is not in the list of **DIOT Country/Region**. This field will be enabled for usage only when the **Country/Region Code** has "ZZZ" (Other) value. 
 
 ## Optional setup for reporting withholding tax with the DIOT extension
 

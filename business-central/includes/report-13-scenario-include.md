@@ -1,1 +1,1 @@
-Review and validate individual VAT transactions from posted sales, purchases, and journals to support tax audits and ensure accurate VAT reporting. Use filters like posting date or VAT group to drill into specific entries and investigate discrepancies.
+Review and validate individual VAT transactions from posted sales, purchases, and journals for tax audits and accurate VAT reporting. Use filters such as posting date or VAT group to review specific entries and investigate discrepancies.

@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # VAT Statement (report)
 
-The **VAT Statement** report consolidates VAT posting information into a structured format based on your predefined VAT Statement setup. It is primarily used during official VAT filings to calculate and report VAT due or refundable to tax authorities.
+The **VAT Statement** report consolidates VAT posting information into a structured format based on the setup for your VAT statement. Typically, businesses use the report when they file VAT to calculate and report VAT that's due or refundable.
 
 You can select the VAT statement name and define the start and end date to generate accurate results. The report summarizes input and output VAT, totals, and applies your custom statement lines and posting groups.
 
@@ -28,24 +28,26 @@ You can select the VAT statement name and define the start and end date to gener
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Use this report when preparing official VAT filings for tax authorities.
-> * Select the correct VAT statement name and reporting period to ensure accurate results.
+> * Prepare official VAT filings for tax authorities.
+> * Select the correct VAT statement name and reporting period so your results are accurate.
 > * Review the summarized VAT amounts to validate input/output VAT and totals.
-> * Customize your VAT Statement setup to align with local tax authority requirements.
-> * Use the report to support periodic VAT submissions and ensure compliance.
+> * Align your VAT statement setup with local tax authority requirements.
+> * Support periodic VAT submission and compliance.
 
 Accountants can use the report to:
-* Validate VAT postings and ensure accurate tax reporting.
-* Prepare documentation for tax authority submissions.
+
+* Validate VAT postings for accurate tax reporting.
+* Prepare documentation to submit to tax authorities.
 
 Controllers can use the report to:
+
 * Monitor VAT liabilities and refunds.
 * Support internal audits and compliance reviews.
 
-Auditors may reference the report to:
+Auditors might reference the report to:
+
 * Verify the accuracy and completeness of VAT entries.
 * Confirm alignment with tax regulations and filing standards.
-
 
 ## Try the report
 
@@ -56,7 +58,7 @@ Try the report here: [VAT Statement](https://businesscentral.dynamics.com?report
 ## Related information
 
 [VAT management overview](../finance-manage-vat.md)  
-[VAT reporting](../finance-vat-reporting.md)   
+[VAT reporting](../finance-vat-reporting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

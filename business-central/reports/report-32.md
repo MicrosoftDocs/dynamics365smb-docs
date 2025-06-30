@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # VAT Registration No. Check (report)
 
-The **VAT Registration No. Check** report verifies the validity of VAT numbers recorded for customers and vendors by cross-referencing them with the EU VAT Information Exchange System (VIES). This helps ensure compliance in cross-border transactions and prevents issues in VAT reporting.
+The **VAT Registration No. Check** report verifies the validity of VAT numbers recorded for customers and vendors by cross-referencing them with the European Union (EU) VAT Information Exchange System (VIES). The report helps ensure compliance in cross-border transactions and prevents issues in VAT reporting.
 
 ## Use cases
 
@@ -32,10 +32,10 @@ The **VAT Registration No. Check** report verifies the validity of VAT numbers r
 > * Helps identify and correct invalid or outdated VAT numbers proactively.
 
 Finance teams and compliance officers can use this report to:
+
 * Validate VAT numbers for accuracy and format.
 * Ensure readiness for EU cross-border reporting.
 * Reduce the risk of audit findings or penalties due to incorrect VAT data.
-
 
 ## Try the report
 

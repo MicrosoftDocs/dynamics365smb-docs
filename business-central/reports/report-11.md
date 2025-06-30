@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # G/L - VAT Reconciliation (report)
 
-The **G/L - VAT Reconciliation** report compares VAT postings in the general ledger to the underlying VAT entries in the system. It ensures your reported VAT amounts are fully backed by posted transaction-level entries.
+The **G/L - VAT Reconciliation** report compares VAT postings in the general ledger to the underlying VAT entries. The report helps ensure you have transaction-level entries that support your reported VAT amounts.
 
-Use this report during VAT filing periods to validate that posted VAT entries match the VAT amounts in the G/L. This is essential for accurate tax filings and audit readiness.
+Use this report during VAT filing periods to validate that posted VAT entries match the VAT amounts in your general ledger. This report is important for accurate tax filings and audit readiness.
 
 ## Use cases
 
@@ -28,27 +28,29 @@ Use this report during VAT filing periods to validate that posted VAT entries ma
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Use the report during VAT filing periods to catch discrepancies early.
+> * Catch discrepancies early by using the report during VAT filing periods.
 > * Apply filters to narrow the scope to specific VAT periods or posting dates.
 > * Ensure all VAT entries are properly posted and reconciled with the G/L.
-> * Use it as part of your audit preparation checklist to confirm VAT accuracy.
+> * Confirm VAT accuracy by using the report as part of your audit preparation checklist.
 
 Accountants can use the report to:
-* verify VAT postings
-* ensure compliance with tax regulations
+
+* Verify VAT postings.
+* Ensure compliance with tax regulations.
 
 Controllers can use the report to:
-* oversee VAT reconciliation processes
-* support internal control and audit readiness
 
-Auditors may reference the report to:
-* confirm the completeness and accuracy of VAT filings
-* trace VAT amounts from the G/L to source entries
+* Oversee VAT reconciliation processes.
+* Support internal control and audit readiness.
 
+Auditors might reference the report to:
+
+* Confirm the completeness and accuracy of VAT filings.
+* Trace VAT amounts from the G/L to source entries.
 
 ## Try the report
 
-Try the report here: [G/L - VAT Reconciliation](https://businesscentral.dynamics.com?report=11) 
+Try the report here: [G/L - VAT Reconciliation](https://businesscentral.dynamics.com?report=11)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 

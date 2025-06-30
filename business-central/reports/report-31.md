@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # VAT Exceptions (report)
 
-The **VAT Exceptions** report helps identify posted transactions where VAT was expected but not calculated or posted. This is especially useful for catching inconsistencies before submitting VAT returns.
+The **VAT Exceptions** report helps identify posted transactions where VAT was expected but not calculated or posted. The report is useful for catching inconsistencies before you submit VAT returns.
 
-Use this report to validate VAT setup and ensure that all required VAT data is present on posted documents.
+Use the report to validate your VAT setup and ensure that posted documents contain all required VAT data.
 
 ## Use cases
 
@@ -28,22 +28,24 @@ Use this report to validate VAT setup and ensure that all required VAT data is p
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Run the report when reviewing posted transactions that may be missing VAT data.
+> * Run the report when reviewing posted transactions that might be missing VAT data.
 > * Use it to validate VAT setup before filing returns to avoid compliance issues.
 > * Investigate flagged entries to correct VAT configuration or data entry errors.
 > * Helps prevent future tax submission issues by highlighting configuration gaps.
 
-Accountants can use the report to  
-* ensure VAT is properly applied to all relevant transactions  
-* catch and correct missing VAT entries before filing.
+Accountants can use the report to:
 
-Controllers can use the report to  
-* monitor VAT compliance across departments  
-* support internal audits and tax reporting accuracy.
+* Ensure VAT is properly applied to all relevant transactions.
+* Catch and correct missing VAT entries before filing.
 
-Auditors may reference the report to  
-* verify VAT completeness and accuracy during compliance checks.
+Controllers can use the report to:
 
+* Monitor VAT compliance across departments.
+* Support internal audits and tax reporting accuracy.
+
+Auditors might reference the report to:
+
+* Verify VAT completeness and accuracy during compliance checks.
 
 ## Try the report
 
@@ -53,8 +55,8 @@ Try the report here: [VAT Exceptions](https://businesscentral.dynamics.com?repor
 
 ## Related information
 
-[VAT management overview](../finance-manage-vat.md)   
-[VAT reporting](../finance-vat-reporting.md)   
+[VAT management overview](../finance-manage-vat.md)  
+[VAT reporting](../finance-vat-reporting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

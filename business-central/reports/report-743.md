@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # VAT Reconciliation Report (report)
 
-The **VAT Reconciliation Report** is used to verify that VAT entries align with general ledger (G/L) accounts before tax submission. It compares VAT calculated from documents with the amounts posted to the VAT G/L accounts.
+The **VAT Reconciliation Report** is used to verify that VAT entries align with general ledger (G/L) accounts before tax submission. The report compares VAT calculated from documents with the amounts posted to the G/L accounts for VAT.
 
-This report is especially useful during tax preparation to ensure that posted VAT values are accurate and consistent across systems.
+This report is useful during tax preparation because it helps ensure that posted VAT values are accurate and consistent across systems.
 
 ## Use cases
 
@@ -34,17 +34,19 @@ This report is especially useful during tax preparation to ensure that posted VA
 > * Use this report as part of your tax preparation checklist to ensure compliance and accuracy.
 
 Accountants can use the report to:
+
 * Validate VAT postings against the general ledger.
 * Ensure compliance with tax reporting requirements.
 
 Controllers can use the report to:
+
 * Oversee VAT reconciliation processes.
 * Support audit readiness and financial accuracy.
 
-Auditors may reference the report to:
+Auditors might reference the report to:
+
 * Verify the accuracy and completeness of VAT entries.
 * Confirm that VAT calculations are properly reflected in the G/L.
-
 
 ## Try the report
 
@@ -54,8 +56,8 @@ Try the report here: [VAT Reconciliation Report](https://businesscentral.dynamic
 
 ## Related information
 
-[VAT management overview](../finance-manage-vat.md)   
-[VAT reporting](../finance-vat-reporting.md)   
+[VAT management overview](../finance-manage-vat.md)  
+[VAT reporting](../finance-vat-reporting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

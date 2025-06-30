@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # VAT Register (report)
 
-The **VAT Register** report lists all posted VAT transactions from sales, purchases, and journals, providing detailed visibility into how VAT is applied across the system.
+The **VAT Register** report lists all posted VAT transactions from sales, purchases, and journals to provide detailed visibility into how VAT is applied across the system.
 
-You can apply filters such as posting date, VAT business posting group, or document number to drill into specific transactions and validate each VAT transaction recorded in the system.
+You can apply filters such as posting date, VAT business posting group, or document number to review specific transactions and validate them.
 
 ## Use cases
 
@@ -28,22 +28,24 @@ You can apply filters such as posting date, VAT business posting group, or docum
 > [!TIP]
 > Here are some tips on how to use the report:
 >
-> * Review VAT entries before submitting VAT returns.
-> * Use filters to isolate specific VAT entries by date, business posting group, or document number.
-> * Validate entry-level VAT details to support audit readiness.
-> * Ensure proper tax tracking and compliance with local regulations.
+> - Review your VAT entries before you submit VAT returns.
+> - Use filters to isolate specific VAT entries by date, business posting group, or document number.
+> - Verify entry-level VAT details so you're ready for an audit.
+> - Ensure proper tax tracking and compliance with local regulations.
 
-**Accountants** can use the report to:
-- Validate VAT postings.
-- Ensure tax reporting accuracy.
+Accountants can use the report to:
 
-**Controllers** can use the report to:
+- Verify VAT postings.
+- Ensure that tax reporting is accurate.
+
+Controllers can use the report to:
+
 - Oversee VAT compliance.
 - Support tax audits and filings.
 
-**Auditors** may reference the report to:
-- Verify the accuracy and completeness of VAT entries during financial reviews or compliance checks.
+Auditors might reference the report to:
 
+- Verify that VAT entries are accurate and complete during financial reviews or compliance checks.
 
 ## Try the report
 

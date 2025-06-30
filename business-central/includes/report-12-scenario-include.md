@@ -1,1 +1,1 @@
-Calculate and report VAT due or refundable during tax filing by summarizing input and output VAT based on your custom VAT Statement setup. Select the relevant statement and period to generate accurate, structured tax reports.
+Calculate and report VAT that's due or refundable during tax filing by summarizing input and output VAT based on how you set up your custom VAT statement. Select the relevant statement and period to generate accurate, structured tax reports.

@@ -17,7 +17,7 @@ ai.usage: ai-assisted
 
 # Day Book VAT Entry (report)
 
-The **Day Book VAT Entry** report displays all VAT transactions posted in the system, grouped by document date in a register-style format. It is particularly useful for reviewing tax postings across sales and purchase documents.
+The **Day Book VAT Entry** report displays all posted VAT transactions and groups them by document date in a register-style format. This report is useful for reviewing tax postings across sales and purchase documents.
 
 This report supports tax review, reconciliation, and historical reference by providing a clear, chronological view of VAT entries.
 
@@ -30,21 +30,23 @@ This report supports tax review, reconciliation, and historical reference by pro
 >
 > * Run the report to examine all VAT entries grouped by posting or document date.
 > * Use it during audits to validate tax postings across documents.
-> * Leverage it for reconciliation tasks by comparing VAT entries over time.
+> * Use it for reconciliation tasks by comparing VAT entries over time.
 > * Use filters to narrow down entries by date or document type for focused analysis.
 
 Accountants can use the report to:
-* validate VAT postings
-* support tax reconciliation and compliance reviews.
+
+* Verify VAT postings.
+* Support tax reconciliation and compliance reviews.
 
 Controllers can use the report to:
-* monitor VAT activity across periods
-* ensure accurate tax reporting.
 
-Auditors may reference the report to:
-* verify the completeness and accuracy of VAT entries
-* support financial and regulatory audits.
+* Monitor VAT activity across periods.
+* Ensure accurate tax reporting.
 
+Auditors might reference the report to:
+
+* Verify the completeness and accuracy of VAT entries.
+* Support financial and regulatory audits.
 
 ## Try the report
 
@@ -55,7 +57,7 @@ Try the report here: [Day Book VAT Entry](https://businesscentral.dynamics.com?r
 ## Related information
 
 [VAT management overview](../finance-manage-vat.md)  
-[VAT reporting](../finance-vat-reporting.md)   
+[VAT reporting](../finance-vat-reporting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

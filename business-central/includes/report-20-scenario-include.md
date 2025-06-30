@@ -1,1 +1,1 @@
-Calculate and post VAT payable or refundable at the end of a filing period by generating a journal based on posted entries, streamlining tax settlement and compliance work.
+Calculate and post VAT that's payable or refundable at the end of a filing period by generating a journal based on posted entries. This report helps streamline tax settlement and compliance work.

@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Calculate and Post Tax Settlement (report)
 
-The **Calculate and Post Tax Settlement** report helps with VAT settlement by calculating the net VAT due or refundable and posting a journal to record the settlement. This streamlines end-of-period VAT processing and ensures accurate tax reporting.
+The **Calculate and Post Tax Settlement** report helps with VAT settlement. The report calculates the net amount of VAT that's due or refundable and posts a journal to record the settlement. It streamlines end-of-period VAT processing and helps ensure accurate tax reporting.
 
-Typically used at the end of a VAT filing period—monthly or quarterly—this report evaluates posted VAT entries and generates the necessary journal entries for submission.
+Typically, businesses use the report at the end of a monthly or quarterly VAT filing period. The report evaluates posted VAT entries and generates the journal entries for submission.
 
 ## Use cases
 
@@ -34,17 +34,19 @@ Typically used at the end of a VAT filing period—monthly or quarterly—this r
 > * Coordinate with finance teams to align on filing schedules and thresholds.
 
 **Accountants** can use this report to:
+
 * Calculate VAT obligations or refunds at the end of a filing period.
 * Post VAT settlements efficiently and accurately.
 
-**Controllers** may use it to:
+**Controllers** can use it to:
+
 * Ensure compliance with tax reporting requirements.
 * Monitor VAT trends and filing consistency.
 
 **Auditors** might reference it to:
+
 * Verify VAT calculations and journal postings.
 * Confirm completeness of tax settlement processes.
-
 
 ## Try the report
 
@@ -54,8 +56,8 @@ Try the report here: [Calc. and Post VAT Settlement](https://businesscentral.dyn
 
 ## Related information
 
-[VAT management overview](../finance-manage-vat.md)   
-[VAT reporting](../finance-vat-reporting.md)   
+[VAT management overview](../finance-manage-vat.md)  
+[VAT reporting](../finance-vat-reporting.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

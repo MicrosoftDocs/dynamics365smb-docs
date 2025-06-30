@@ -57,7 +57,7 @@ Try the report here: [VAT Reconciliation Report](https://businesscentral.dynamic
 ## Related information
 
 [VAT management overview](../finance-manage-vat.md)  
-[VAT reporting](../finance-vat-reporting.md)  
+[Built-in VAT reports in Business Central](../finance-vat-reports.md)  
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  
 [Financial analytics overview](../bi.md)  

@@ -4,7 +4,7 @@ description: Learn about the local functionality available in the Spanish versio
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 05/29/2025
+ms.date: 06/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -47,7 +47,7 @@ The following articles describe local functionality unique to the Spanish versio
 
 - Electronic invoicing
   - [E-Invoicing Factura-E](spain-einvoicing.md) **Available Now**
-  - [Veri*factu compliance] **Planned**
+  - [Veri*Factu compliance] **Planned**
   - [Cartera module](cartera-module.md) **Available Now**
   - [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   - [Payments Cartera module](payments-cartera-module.md) **Available Now**

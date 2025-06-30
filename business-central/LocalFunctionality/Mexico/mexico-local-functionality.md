@@ -4,7 +4,7 @@ description: The following articles provide descriptions of the local functional
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Mexico, local functionality, Mexican version
-ms.date: 02/26/2025
+ms.date: 06/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

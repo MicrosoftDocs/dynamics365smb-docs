@@ -137,8 +137,8 @@ There are a few ways to specify the limit:
 * When you use the Set Up Email assisted setup guide to create a new account, specify the limit in the **Rate limit per minute** field.
 * For existing email accounts, specify:
 
-   * The limit in the **Email rate limit** field on the account.
-   * The maximum number of messages an account can send at the same time in the **Email Concurrency Limit** field. By default, the limit is **3**, but you can allow up to **10**.
+   * The number of messages an account can send per minute in the **Email rate limit** field on the account.
+   * The maximum number of messages an account can send simultaneously in the **Email Concurrency Limit** field. By default, the limit is **3**, but you can allow up to **10**.
 
 ## Set up reusable email texts and layouts
 

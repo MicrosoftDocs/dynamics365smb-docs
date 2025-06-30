@@ -1,0 +1,1 @@
+Generate a declaration of intra-EU sales to VAT-registered customers for submission to the VIES system, ensuring compliance with EU tax regulations. Validate customer VAT numbers and country codes before running the report to avoid errors. Use this report when submitting required intra-EU sales data to tax authorities.

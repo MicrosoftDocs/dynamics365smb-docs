@@ -29,11 +29,11 @@ The following topics describe the local functionality in the Czech version of [!
   * [Year Closing Operations](year-close-operations.md) **Available Now**
   * [General Ledger Entries Application](general-ledger-entries-application.md) **Available Now**
   * [Exchange Rate Updating](exchange-rate-update.md) **Available Now**
+  * [WIP Extended Posting](wip-extended-posting.md) **Available Now**
   * [Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
-  * [Functional Currency – Czechia](functional-currency.md) **Available Now**
-
+  
 * VAT
-  * [VAT Date](how-to-setup-vat-date.md) **Available Now** 
+  * [VAT Date](how-to-setup-vat-date.md) **Available Now**
   * [VAT Statement](vat-statement.md) **Available Now**
   * [Supplementary VAT Statement](supplementary-vat-statement.md) **Available Now**
   * [VIES CZ](vies-cz.md) **Available Now**
@@ -45,9 +45,11 @@ The following topics describe the local functionality in the Czech version of [!
   * [VAT Reports](vat-reports-cz.md) **Available Now**
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
   * [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
-  * [Intrastat CZ](intrastat.md) **Available Now**
-  * [Intrastat Localization for Czech (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
   * [VAT Return CZ](VAT-return-cz.md) **Available Now**
+  * [Functional Currency – Czechia](functional-currency.md) **Available Now**
+
+* Intrastat
+  * [Intrastat CZ (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
 
 * Fixed Assets
   * [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md) **Available Now**
@@ -55,12 +57,12 @@ The following topics describe the local functionality in the Czech version of [!
 * Banking and Payments
   * [Banking Documents Localization for Czech (Extension)](ui-extensions-banking-documents-localization-cz.md)**Available Now**
   * [Cash Desk Localization for Czech (Extension)](ui-extensions-cash-desk-localization-cz.md) **Available Now**
-<!--   * [Registration of Sales (EET)](eet.md) **Available Now** -->
+
+* Advance Payments  
   * [Advance Payments Localization for Czech (Extension)](ui-extensions-advance-payments-localization-cz.md) **Available Now**
 
 * Payables and Receivables
   * [Exchange Rate Adjustment](how-to-use-exchange-rates-adjustment-feature.md) **Available Now**
-  * [Multiple Payables and Receivables](how-to-use-multiple-payables-receivables-accounts.md) **Available Now**
   * [Customer and Vendor Reconciliation](customers-vendors-reconciliations.md) **Available Now**
   * [Sales Correcting Documents](sales-correcting-documents.md) **Available Now**
   * [Update Contact from ARES](how-to-update-contacts-from-ares.md) **Available Now**
@@ -82,8 +84,6 @@ The following topics describe the local functionality in the Czech version of [!
   * [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   * [Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
   * [Mandatory Return Exact Costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
-  * [Default Business Posting Group in Manufacturing](how-to-setup-default-bus-post-group-manufacturing.md) **Available Now**
-  * [Default Business Posting Group in Assembly Orders](how-to-setup-default-bus-post-group-assembly-orders.md) **Available Now**
   * [Automatic Creation and Update of Dimensions](how-to-setup-automatic-creation-and-update-dimensions.md) **Available Now**
   * [Additional Fields in Item Ledger Entries](how-to-use-add-fields-item-entries.md) **Available Now**
   * [Genral Posting Group from Stockkeeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**

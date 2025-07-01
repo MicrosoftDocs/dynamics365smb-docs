@@ -25,13 +25,13 @@ The Advance Payments functionality allows you to receive Advance Invoices from s
 
 **Main functions of the module:**
 
-- Creation of Sales or Purchase Advance Invoices according to the settings of Advance Payment Templates
+- Creation of Sales or Purchase Advance Invoices according to the settings of Advance Letter Templates
 - Create advances from Sales Orders based on a percentage or amount entered
 - Proposing advances into a Payment Order and, on the other side, payment of advances by the bank
 - Connection to the  Cash Desk module for the possibility of paying advances by cash
-- Issue and print Advance Tax Documents for Advance Payments automatically or manually
+- Issue and print Advance VAT Documents for Advance Payments automatically or manually
 - Managing the use of paid advances by the final invoice
-- The ability to close unused advances including a tax settlement
+- The ability to close unused advances including a VAT settlement
 - Working with foreign currency, exchange rate differences between Advance Payment and Invoice
 - Possibility to unassign payment to Advance Invoice or additional linking
 - Option to unlink final invoice to Advance Payment or additional linking
@@ -40,5 +40,16 @@ The Advance Payments functionality allows you to receive Advance Invoices from s
 
 ## See Also
 
+[Understanding the Core Principles of Advance Payments and Their Lifecycle](adv-payments-principles.md)
+[Advance Payments Setup](adv-payments-how-to-setup-advance-payments.md)
+[Creating an Advance Letter](adv-payments-how-to-create-advance-invoice.md)
+[Creating an Advance Letter from an Order](adv-payments-how-to-create-invoice-from-order.md)
+[Paying an Advance Letter](adv-payments-how-to-pay-advance-payment.md)
+[Creating VAT Document for an Advance Letter](adv-payments-how-to-create-tax-document.md)
+[Linking Advance Invoice to Final Document](adv-payments-how-to-link-invoice.md)
+[Closing an Advance Letter](adv-payments-how-to-close-advance-payment.md)  
+[Advances in Foreign Currency](adv-payments-foreign-currency.md)  
+[Additional Features (Corrections)](adv-payments-additional-functions.md)  
+[Advance Control Reports](adv-payments-check-reports.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

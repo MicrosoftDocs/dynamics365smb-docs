@@ -4,7 +4,6 @@
     services: project-madeira
     documentationcenter: ''
     author: brentholtorf
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

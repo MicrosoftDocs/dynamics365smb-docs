@@ -31,6 +31,7 @@ There are a couple of requirements for setting up and using the email features.
 
 * To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 * Everyone who uses the email features must be a fully licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
+* Everyone who uses the email features must have a valid, paid license for Exchange Online. Otherwise, some features won’t work. For example, they can’t send emails because Exchange rejects their messages. You can’t use trial licenses.
 
 ## Add email accounts
 

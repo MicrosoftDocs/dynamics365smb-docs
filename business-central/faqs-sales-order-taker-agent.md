@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Order Agent
 description: This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 12/18/2024
+ms.date: 04/01/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -17,9 +17,8 @@ ms.collection:
 
 These frequently asked questions (FAQ) describe the AI impact of Sales Order Agent feature in Business Central.
 
-[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]
-
-<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+<!--[!INCLUDE [limited-public-preview](includes/limited-public-preview.md)]-->
 
 ## What is the Sales Order Agent?
 
@@ -79,9 +78,8 @@ We defined a set of categories and scenarios and created test cases for each as 
 
 - Languages
 
-  - The system was tested with the content (emails and product localization) provided in US English. 
+  - [!INCLUDE[soa-language-support](includes/soa-language-support.md)]
   - Mixed language input might result in lower-quality output because the system relies on pure string similarity, and the semantic part of the matching might not work properly.
-  - Due to limited language support, the system isn't initially available to Canadian customers because regulatory language compliance mandates support for both English and French.
 
 - Emailing
 
@@ -93,7 +91,7 @@ We defined a set of categories and scenarios and created test cases for each as 
 - Entities and data the agent can work with
 
   - The agent is designed to work with sales quotes and sales orders. It can't create or work with the other sales documents (such as blank orders, invoices, or credit memos) or documents in other areas of the product (such as purchase or service orders).
-  - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central. The agent is designed to ask a human user to provide additional information or perform the task manually, when it can't find this data in Business Central.   
+  - The agent doesn't create new items, contacts, or customers. It only works with the entities that are already registered in Business Central. The agent is designed to ask a human user to provide additional information or perform the task manually, when it can't find this data in Business Central.
   - The agent doesn't post documents.
   - Based on more customer requests, the agent can make changes to the sales quotes, but not to the sales orders.
   - The agent is designed to work with sales lines of type "Item", other sales line types, such as Resource, Charge (Item), Allocation Account, Fixed Asset aren't supported.
@@ -145,6 +143,6 @@ Currently, this capability isn't extensible by partners.
 [Sales order agent overview](sales-order-agent.md)  
 [Set up the Sales Order Agent](sales-order-agent-setup.md)  
 [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)  
-[Configure Copilot and AI capabilities](enable-ai.md) 
+[Configure Copilot and agent capabilities](enable-ai.md) 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

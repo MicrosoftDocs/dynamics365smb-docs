@@ -42,16 +42,16 @@ Not all records that you create in [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## Behavior of the No. field on documents and cards
 
-On sales, purchase, transfer, and service documents, and on all cards, the **No.** field can be filled in automatically from a predefined number series, or you can add it manually. However, under certain circumstances, the **No.** field is invisible to prevent you from editing it.  
+On sales, purchase, transfer, and service documents, and on all cards, the **No.** field can be filled in automatically from a predefined number series, or you can add it manually. <!--However, under certain circumstances, the **No.** field is invisible to prevent you from editing it.-->
 
 The **No.** field can be filled in three ways:
 
-1. If only one number series for the type of document or card exists, and the **Default Nos.** field is selected and the **Manual Nos.** field isn't selected for that number series, then the field is automatically filled with the next number in the series. The **No.** field doesn't display on the card or document.  
+1. If only one number series for the type of document or card exists, and the **Default Nos.** field is selected and the **Manual Nos.** field isn't selected for that number series, then the field is automatically filled with the next number in the series.<!-- The **No.** field doesn't display on the card or document.-->  
 
-    Even if you define templates with various number series for customers, if the number series that is defined in the **Sales & Receivables Setup** page is set up in this way, the **No.** field doesn't display on the customer card, no matter which template you use. The same applies to other types of cards and documents.  
+    <!--Even if you define templates with various number series for customers, if the number series that is defined in the **Sales & Receivables Setup** page is set up in this way, the **No.** field doesn't display on the customer card, no matter which template you use. The same applies to other types of cards and documents.  
 
     > [!NOTE]  
-    > If the number series isn't working, for example because it's reached the last number defined for its range, the **No.** field displays so you can manually enter a number. You can resolve issues on the **No. Series** page.
+    > If the number series isn't working, for example because it's reached the last number defined for its range, the **No.** field displays so you can manually enter a number. You can resolve issues on the **No. Series** page.-->
 
 2. If you have more than one number series for a type of document or card, and the **Default Nos.** checkbox isn't selected for the assigned number series, the **No.** field displays, and you can go to the **No. Series** page and select the number series you want to use. The next number in the series is then inserted in the **No.** field.
 

@@ -23,8 +23,6 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 - **Small regulatory features and best practices**
   - [Mandatory returning of exact costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
-  - [Default Business Posting Group in Manufacturing](how-to-setup-default-bus-post-group-manufacturing.md) **Available Now**
-  - [Default Business Posting Group in Assembly Orders](how-to-setup-default-bus-post-group-assembly-orders.md) **Available Now**
   - [Automatic creation and update of dimensions](how-to-setup-automatic-creation-and-update-dimensions.md) **Available Now**
   - [Additional fields on item ledger entries and value entries](how-to-use-add-fields-item-entries.md) **Available Now**
   - [Gen.Prod.Posting Group from SKU](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**

@@ -1,23 +1,33 @@
 ---
-title: Manage Master Data Synchronization
+title: Manage master data synchronization
 description: Learn how to manage master data synchronization.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 04/05/2024
+ms.date: 02/26/2025
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
 ---
 # Manage master data synchronization
 
-After you set up master data synchronization and synchronize for the first time, records in the selected tables are coupled and a recurring job queue entry is created for each table. The job queue entries automatically synchronize data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
+After you set up master data synchronization, when you synchronize for the first time [!INCLUDE [prod_short](includes/prod_short.md)] does the following:
+
+- Couples records in the selected tables.
+- Creates a recurring job queue entry for each table.
+
+The job queue entries automatically synchronize data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
 
 > [!NOTE]
-> By default, the job queue entries are scheduled run every minute, and you can't change the schedule.
+> For the automatic synchronization to work, the user who makes the change in the source company must have:
+>
+> - A [!INCLUDE [prod_short](includes/prod_short.md)] license.
+> - Permission sets that allow them to reschedule a background task in the subsidiary company. To learn more about the required license and permissions, go to [Before you start](admin-set-up-data-sync.md#before-you-start).
+>
+> Otherwise, the change happens in the next unconditional synchronization run. The unconditional synchronization is controlled by the **Inactivity Timeout Period** field on the job queue entry.
 
-However, sometimes things go wrong, and there might be situations that you need to manage or investigate. For example, if people change the same record in both the source company and a subsidiary, synchronization will fail so that you can specify the change that's correct. Or, the source company might install an extension that changes the schema of one of the tables your synchronizing by adding a field or two. If you want to synchronize the new fields in the subsidiaries, you'll need to install the same extensions and update the table schemas in their setup.
+However, sometimes things go wrong, and there might be situations that you need to manage or investigate. For example, if people change the same record in both the source company and a subsidiary, synchronization fails so that you can specify the change that's correct. Or, the source company might install an extension that changes the schema of one of the tables you're synchronizing by adding a field or two. If you want to synchronize the new fields in the subsidiaries, install the same extensions and update the table schemas in their setup.
 
 This article describes the tools you can use to keep synchronization running smoothly.
 
@@ -26,7 +36,7 @@ This article describes the tools you can use to keep synchronization running smo
 You can use the **Overwrite Local Change** checkbox on the fields and tables you synchronize to allow data from the source company to overwrite data in the subsidiary company.
 
 > [!NOTE]
-> You can't enable the synchronization of a field and allow the subsidiary to write values in it independently from the source company. You must either disable synchronization for the field, or allow the source company ot overwrite local changes.
+> You can't enable the synchronization of a field and allow the subsidiary to write values in it independently from the source company. You must either disable synchronization for the field, or allow the source company to overwrite local changes.
 
 ## Update table schemas
 
@@ -83,7 +93,7 @@ Over time, the number of entries in the synchronization log will become large, s
 If the source company installs a new extension, the subsidiary must also install it if they want to synchronize data for it. The subsidiary can use the **Update Fields** action On the **Synchronization Fields** page to add the tables from the extension to the list.
 
 > [!NOTE]
-> Some tables get data from related tables. If you add an extension that doesn't include related tables, the fields on those tables won't be available. Verify that you've added all related tables.
+> Some tables get data from related tables. If you add an extension that doesn't include related tables, the fields on those tables aren't available. Verify that you added all related tables.
 
 <!--
 ## Recreate a deleted job queue entry

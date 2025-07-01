@@ -14,7 +14,9 @@ ms.reviewer: jswymer
 
 This article answers some of the questions you might have about working with Power BI and [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## [General](#tab/general)
+<!-- ## [General questions](#tab/general) -->
+## General questions
+
 <!-- 26 -->
 ### I selected a report for my role center in Business Central. If I later make changes to the report's visuals online, does the role center automatically update to my changes?
 
@@ -35,7 +37,9 @@ Yes. Learn more at [Download a report from the Power BI service to Power BI Desk
 
 No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.
 
-## [User access and licensing](#tab/license)
+<!-- ## [User access and licensing](#tab/license) -->
+## Questions about user access and licensing
+
 
 <!-- 14 -->
 ### Do I need a Power BI Pro license to publish reports?
@@ -112,7 +116,8 @@ The methods in this section require that guest users know the domain name of you
 1. On the **Pick an account** dialog box, select your account, and then sign in usual.
 1. On the **Dynamics Business Central** connector dialog, select **Connect**.-->
 
-## [Designer](#tab/designer)
+<!-- ## [Designer](#tab/designer) -->
+## Questions about the Power BI Designer
 
 <!-- 7 -->
 ### Does the connector work with pages exposed as web services?
@@ -250,7 +255,9 @@ In Power BI Desktop, do the following steps:
 
 Then next time you connect to Business Central to get data, you'll be asked to sign in.
 
-## [Performance](#tab/performance)
+
+<!-- ## [Performance](#tab/performance) -->
+## Questions about data refresh performance
 
 <!-- 17 -->
 
@@ -268,7 +275,14 @@ No. Not at this point. You can only communicate with Business Central through AP
 
 No. Direct access to the database isn't possible, but switching to API pages helps greatly.
 
-## [Advanced](#tab/advanced)
+## Troubleshooting questions
+
+### My semantic model does not refresh. How do I see what is wrong?
+
+[!INCLUDE [powerbi-refresh-tsg-include](includes/powerbi-refresh-tsg-include.md)]
+
+<!-- ## [Advanced](#tab/advanced) -->
+## Advanced questions
 <!-- 1 -->
 
 ### Are there plans for the Power BI connector to support the incremental refresh features in the Power BI Service?

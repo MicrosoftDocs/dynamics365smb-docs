@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: COA, cha of acc
-ms.search.form: 16, 17, 18, 118, 386, 391
+ms.search.form: 16_Primary, 17, 18, 118, 386, 391
 ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

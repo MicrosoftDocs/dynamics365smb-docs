@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 12/11/2024
+ms.date: 01/17/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -20,10 +20,10 @@ This article provides answers to frequently asked questions (FAQs) about the [!I
 
 ## What [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses do I need?
 
-You need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
+To use the Power BI apps, you need [!INCLUDE [powerbi-pro-license-name](includes/powerbi-pro-license-name.md)] licenses for the following users:
 
 - Users who install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps.
-- Users who refresh the data.
+- Users who refresh the report data.
 - Users who access the reports.
 
 Alternatively, you can use [!INCLUDE [powerbi-premium-capacity-name](includes/powerbi-premium-capacity-name.md)].
@@ -32,10 +32,12 @@ To learn more, go to [Installing Power BI apps for Business Central (prerequisit
 
 ## Why do I need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses?
 
-You need [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the following reasons:
+You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for the following reasons:
 
-1. it is required to be able to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
-2. it is required for sharing a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
+1. You must install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template apps from Microsoft AppSource.
+2. You must share a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace.
+
+The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
 
 ## Can I install the same app multiple times for different companies or environments?
 
@@ -50,6 +52,16 @@ No. [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-compa
 ## How do I refresh the data in an app?
 
 To learn more, go to [Get the latest data (refresh the semantic model)](./across-powerbi-install-business-central-apps.md#get-the-latest-data-refresh-the-semantic-model).
+
+## My semantic model does not refresh. How do I see what is wrong?
+
+[!INCLUDE [powerbi-refresh-tsg-include](includes/powerbi-refresh-tsg-include.md)]
+
+## I can't see any dimension data in my reports
+
+Check whether the job queue entry for updating dimension set data is stopped.
+
+To learn more, go to [Job queue entry for updating dimension set entries](across-powerbi-install-business-central-apps.md#job-queue-entry-for-updating-dimension-set-entries).
 
 ## How do I change the connection parameters for an app?
 

@@ -48,6 +48,52 @@ To help keep the size of your database under control, log entries are included i
 
 Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
 
+## Troubleshoot export issues
+
+When you export data to Shopify, the Shopify Connector skips records that Shopify will reject or that aren't valid for export for other reasons. While the behavior is expected, you might be confused if some information wasn't processed as you expected. You can find those entries on the **Shopify Skipped Records** page, which shows all skipped records and provides the reasons and the date and time the records were skipped.
+
+The **Logging Mode** field controls the content of the **Shopify Skipped Records** page.
+
+> [!NOTE]
+> The **All** option works in the same way as **Error Only** and logs only skipped entries. It won't log entries that were previously skipped.
+
+Over time, the number of records on the Shopify Skipped Records pageTo help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](/dynamics365/business-central/admin-data-retention-policies).
+
+### Cases that the Shopify Connector logs
+
+Customer:
+
+- A customer has an empty email.
+- A customer with the same email or phone number exists.
+
+Posted sales invoice:
+
+- Customer doesn't exist in Shopify.
+- Payment term mapping is missing.
+- Customer number is the default customer number for the Shopify Shop.
+- Customer number is used in the Shopify customer template.
+- No lines exist in the sales invoice.
+- Invalid (negative or fractional) quantity.
+- Empty number value.
+
+Product:
+
+- Item is blocked/sales blocked (item variant).
+- Item is blocked.
+- Item description is empty.
+
+Catalog:
+
+- Price sync if the catalog isn't found in Shopify.
+
+Shipments:
+
+- Related Shopify order doesn't exist.
+- No lines in the posted sales shipment are applicable for fulfillment.
+- No corresponding fulfillment is found in Shopify.
+
+If you run sync in the foreground you will get a notification if records were skipped. Choose **View Skipped Records** to open the **Shopify Skipped Records** page.
+
 ## Data capture
 
 Regardless of whether logging is turned on, some Shopify responses are always logged. You can inspect or download the logs from the **Data Capture List** page.

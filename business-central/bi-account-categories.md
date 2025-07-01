@@ -5,10 +5,10 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/11/2024
+ms.date: 02/06/2025
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 108, 490, 790
+ms.search.form: 108, 490, 790_Primary
 ms.service: dynamics-365-business-central
 ---
 
@@ -56,7 +56,19 @@ To control which reports update when you generate financial reports, update the 
 
 You can remap and update these reports at any time. If you choose to regenerate them, you can choose to keep the original reports and create copies with the new mapping.
 
-## See also
+## Audit changes to account categories
+
+You can use the Change Log feature to capture changes users make to your G/L account categories. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)] 
+
+The following table lists the table for G/L account categories and its ID.
+
+| Table | Table ID |
+| ----- | -------- |
+| G/L Account Category | 570 |
+
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
+
+## Related information
 
 [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
 [Design your own financial reports](bi-design-financial-reports.md)  

@@ -5,7 +5,8 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: bholtorf
-ms.date: 02/23/2022
+ms.date: 04/07/2025
+ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ---
 
@@ -24,9 +25,9 @@ Your administrator can learn more about trials and subscriptions [here](/dynamic
 
 ### How do I start using the trial?
 
-After you sign up for the trial, you will arrive on the default home page. The home page provides links to some of the most common tasks, and you can access in-product tips and tours.  
+After you sign up for the trial, you arrive on the default home page. The home page provides links to some of the most common tasks, and you can access in-product tips and tours.  
 
-Assisted setup guides can help you set things up. For more information, see [Get Ready for Doing Business](ui-get-ready-business.md).  
+Assisted setup guides can help you set up things. For more information, see [Get Ready for Doing Business](ui-get-ready-business.md).  
 
 ### What features are available in the trial?
 
@@ -34,17 +35,21 @@ The free trial includes nearly all the capabilities in the vast portfolio of [!I
 
 ### How long does the trial last?
 
-The free Business Central trial lasts as long as you like, provided that you keep signing in. But if you want to use your own data, you must switch to a 30-day trial.  
+The free Business Central trial lasts as long as you like as long as you keep signing in. But if you want to use your own data, you must switch to a 30-day trial.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### How do I remove sample data from the trial?
 
-Switch to the 30-day trial, and then add your own data. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content (in English only).  
+Switch to the 30-day trial, and then add your own data. For more information, see [Migrate on-premises data to Business Central online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content (in English only).  
 
 ### How do I restore sample data?
 
 You can't. If you accidentally delete sample data, ask your admin to create a new sandbox environment. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content (in English only).  
+
+### How do I cancel the trial?
+
+As an admin, you can remove the Business Central trial subscription in the Microsoft 365 admin center. Learn more in [Removing a subscription](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#removing-a-subscription).
 
 ## See also
 

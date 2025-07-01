@@ -6,8 +6,8 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 516, 9300, 5119, 9301, 9305
-ms.date: 05/02/2024
+ms.search.form: 20, 516, 9300, 5119, 9301, 9305
+ms.date: 02/13/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -19,6 +19,7 @@ This article explains how to use the **Data Analysis** feature to analyze financ
 Use the following list pages to start doing ad-hoc analysis of finance processes:
 
 - [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis)
+- [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis)
 - [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25&layout=analysis)
 - [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29&layout=analysis)
 
@@ -39,6 +40,7 @@ The following sections provide examples of finance scenarios in [!INCLUDE [prod_
 | [Finance (Sales invoices by G/L account)](#example-finance-sales-invoices-by-gl-account) | See how your sales invoices distribute over G/L accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account name**, **Source Code**, **G/L Account name**, **G/L Account No.**, **Debit Amount**, **Credit Amount**, **Posting Date Year**, **Posting Date Quarter**, and **Posting Date Month** |
 | [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 | [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20&layout=analysis) | **G/L Account No.**, **Posting Date**, and **Amount**. |
+| [Finance (transaction overview)](#example-finance-transaction-overview) | Get an overview of the types of transactions that happpen to your general ledger and the types of sources for them.  | [G/L Registers](https://businesscentral.dynamics.com/?page=116&layout=analysis) | **Source code**. |
 
 
 ### Example: Finance (Accounts Receivable)
@@ -125,17 +127,25 @@ To see your assets over the asset accounts from the chart of account, broken dow
 
 1. Rename your analysis tab to **Income by Month**, or something that describes this analysis.
 
+
+### Example: Finance (transaction overview)
+
+[!INCLUDE [gl-register-analysis-example](includes/gl-register-analysis-example.md)]
+
+
 ## Data foundation for ad-hoc analysis on finance
 
 When you post journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **G/L Entry** table. Therefore, ad-hoc analysis on general finance is typically done on the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) page. For accounts receivable and payable, you can analyze [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) and [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29), respectively.
 
-To learn more, go to the following articles:
+Learn more in the following articles:
 
 - [Data foundation for ad-hoc analysis on sales](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Data foundation for ad-hoc analysis on purchasing](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
+- [Analyze G/L entries](finance-how-to-analyze-gl-entries.md)
 
 ## See also
 
+[Analyze G/L entries](finance-how-to-analyze-gl-entries.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  
 [Financial analytics overview](bi.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  

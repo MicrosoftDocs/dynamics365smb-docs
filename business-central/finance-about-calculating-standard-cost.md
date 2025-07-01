@@ -3,10 +3,9 @@ title: About calculating standard cost
 description: A standard cost system determines inventory unit cost based on reasonable historical or expected cost.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.form: 5841,
 ms.author: bholtorf
-ms.date: 07/26/2024
+ms.date: 02/25/2025
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -100,34 +99,37 @@ If you have open entries, after implementing the changes to **Standard Cost** fi
 
 ## Updating standard costs with Standard Cost Worksheet
 
-The **Standard Cost Worksheet** is intended as a tool for purchasers, production or assembly managers, and internal controllers when they have to review and update standard costs. 
+The **Standard Cost Worksheet** is intended as a tool for purchasers, production or assembly managers, and internal controllers when they have to review and update standard costs.
 
-The Standard Cost Worksheet window makes it possible to perform the following:
+Use the **Standard Cost Worksheet** page to do the following:
+
 - Prepare the changes in advance of the date when they have to take effect.
 - Simulate the effect on the cost of the manufactured or assembled item if the standard cost for consumption, production capacity usage, or assembly resource usage is changed.
 - Execute the changes at a given date and let them take effect immediately.
 
-The purchaser uses the [**Suggest Item Standard Cost**](#suggest-item-standard-cost) batch job to update and work with the costs of purchased items in one worksheet. When the result is satisfactory, the worksheet is given to the internal controller.
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
-The production or assembly manager uses the [**Suggest Work/Mach Ctr Std Cost**](#suggest-workmach-ctr-std-cost) batch job to update and work with the production capacity costs and assembly resource costs of processed items in another worksheet. This worksheet is also given to the internal controller.
+Purchasers use the [**Suggest Item Standard Cost**](#suggest-item-standard-cost) batch job to update and work with the costs of purchased items in one worksheet. When the result is satisfactory, the worksheet is given to the internal controller.
 
-The internal controller then uses the [**Copy Standard Cost Worksheet**](#copy-standard-cost-worksheet) batch job to consolidate the worksheets into one worksheet. The controller uses the [**Roll Up Standard Cost**](#roll-up-standard-cost) batch job to make a roll-up of the costs from the purchaser and the production/assembly manager. The roll-up determines the standard costs of manufactured and assembled items. The controller also previews cost changes before and after the roll-up to identify unacceptable deviations. When the updates are acceptable, the internal controller implements the changes to take effect on a given date.
+Production or assembly managers use the [**Suggest Work/Mach Ctr Std Cost**](#suggest-workmach-ctr-std-cost) batch job to update and work with the production capacity costs and assembly resource costs of processed items in another worksheet. This worksheet is also given to the internal controller.
 
-The [**Implement Standard Cost Change**](#implement-standard-cost-change) batch job is used to implement the standard cost changes, which updates the standard costs on the item cards of the items that are included in the worksheet. It also creates revaluation journal lines so that you can update the items in stock with the new standard cost.
+Internal controllers use the [**Copy Standard Cost Worksheet**](#copy-standard-cost-worksheet) batch job to consolidate the worksheets into one worksheet. Use the [**Roll Up Standard Cost**](#roll-up-standard-cost) batch job to make a roll-up of the costs from the purchaser and the production or assembly manager. The roll-up determines the standard costs of manufactured and assembled items. Controllers can preview cost changes before and after the roll-up to identify unacceptable deviations. When the updates are acceptable, the controller implements the changes to take effect on a given date.
+
+Use the [**Implement Standard Cost Change**](#implement-standard-cost-change) batch job to implement the standard cost changes, which updates the standard costs on the item cards of the items that are included in the worksheet. It also creates revaluation journal lines so that you can update the items in stock with the new standard cost.
 
 ### To update standard costs
 
-1.  Run the **Adjust Cost-Item Entries** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost-Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
-2.  Run the **Post Inventory Cost to G/L** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
-3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Cost Worksheet**, and then use one or more of the following actions:
-    1.  Run the **Suggest Item Standard Cost** batch job.  
-    2.  Review the results and make changes as necessary.  
-    3.  Run the **Suggest Capacity Standard Cost** batch job.  
-    4.  Review the results and make changes as necessary.
+1. Run the **Adjust Cost-Item Entries** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost-Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+2. Run the **Post Inventory Cost to G/L** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Cost Worksheet**, and then use one or more of the following actions:
+    1. Run the **Suggest Item Standard Cost** batch job.  
+    2. Review the results and make changes as necessary.  
+    3. Run the **Suggest Capacity Standard Cost** batch job.  
+    4. Review the results and make changes as necessary.
     5. Run the **Roll Up Standard Cost** batch job.
-    6.  Review the results and make changes as necessary.
-    7.  Run the **Implement Standard Cost Changes** batch job.  
-4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
+    6. Review the results and make changes as necessary.
+    7. Run the **Implement Standard Cost Changes** batch job.  
+4. Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
 
 ### Suggest Item Standard Cost
 

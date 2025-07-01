@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 317, 318, 320, 474
+ms.search.form: 315, 317, 318, 320, 474
 ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

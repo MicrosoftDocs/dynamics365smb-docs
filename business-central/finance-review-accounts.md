@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 08/06/2024
 ms.custom: bap-template
-ms.search.form: 22207,
+ms.search.form: 20, 22207,
 ms.service: dynamics-365-business-central
 ---
 

@@ -53,10 +53,12 @@ The next contact numbers in the number series are assigned to the new contacts. 
 
 ## To create a customer, vendor, employee, or bank account from a contact
 
-If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
+If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create customers, vendors, employees, or bank accounts from contacts, you must specify a business relation code on the **Marketing Setup** page on the **Interactions** FastTab. Learn more at [Setting up Contacts](marketing-setup-contacts.md).
+>
+>Also, you must also have at least one template set up for each of them. For example, to create a customer from a contact, you must have a customer template.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, then choose the related link.
 2. Select the contact you want to create as a customer, vendor, employee, or bank account.

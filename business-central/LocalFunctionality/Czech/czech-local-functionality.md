@@ -44,8 +44,8 @@ The following topics describe the local functionality in the Czech version of [!
   * [VAT Control Report](vat-control-report.md) **Available Now**
   * [VAT Reports](vat-reports-cz.md) **Available Now**
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
-  * [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
-  * [VAT Return CZ](VAT-return-cz.md) **Available Now**
+  * [Non-deductible VAT](non-deductible-vat.md) **Available Now**
+  * [VAT Return CZ](vat-return-cz.md) **Available Now**
   * [Functional Currency – Czechia](functional-currency.md) **Available Now**
 
 * Intrastat
@@ -89,10 +89,8 @@ The following topics describe the local functionality in the Czech version of [!
   * [Genral Posting Group from Stockkeeping Unit](how-to-setup-gen-prod-posting-group-from-sku.md) **Available Now**
   * [Skip Update of Stockkeeping Unit on Posting](how-to-setup-skip-update-sku-on-posting.md) **Available Now**
   * [Nonstock Item Numbering](how-to-setup-nonstock-item-numbering.md) **Available Now**
-  * [Use modern search in CZ applications](use-modern-search-CZ.md) **Available Now**
+  * [Use modern search in CZ applications](use-modern-search-cz.md) **Available Now**
   * [Hide rows with zero quantity in CZ document reports](hide-rows-with-zero-quantity-in-cz-document-reports.md) **Available Now**
-* Demo data
-  * [Contoso Coffee Demodata CZ](Contoso-Coffee-Demodata-CZ.md) **Available Now**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

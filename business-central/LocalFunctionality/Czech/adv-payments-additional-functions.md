@@ -1,3 +1,16 @@
+---
+title: Advance Payment Additional Features (Corrections)  
+description: This section explains the Advance Payment Additional Features (Corrections) in the Czech localization extension.  
+author: v-pejano
+
+ms.service: dynamics-365-business-central  
+ms.topic: article  
+ms.search.keywords: Czech, Advance Payments, Localization  
+ms.date: 07/01/2025  
+ms.reviewer: v-pejano  
+ms.author: v-pejano  
+---
+
 # Additional Features (Corrections)
 
 The Advance Payments application, in addition to core functionality such as creating, paying, and applying advances, also provides several supplementary features to simplify working with advance documents. These additional features include:

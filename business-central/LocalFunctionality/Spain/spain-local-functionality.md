@@ -4,7 +4,7 @@ description: Learn about the local functionality available in the Spanish versio
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 06/30/2025
+ms.date: 01/07/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -47,7 +47,7 @@ The following articles describe local functionality unique to the Spanish versio
 
 - Electronic invoicing
   - [E-Invoicing Factura-E](spain-einvoicing.md) **Available Now**
-  - [Veri*Factu compliance] **Planned**
+  - Veri*Factu compliance **Planned**
   - [Cartera module](cartera-module.md) **Available Now**
   - [Receivables Cartera module](receivables-cartera-module.md) **Available Now**
   - [Payments Cartera module](payments-cartera-module.md) **Available Now**
@@ -71,7 +71,7 @@ The following articles describe local functionality unique to the Spanish versio
 
 ## Future legislation requirements being investigated
 
-> [IMPORTANT!]
+> [!IMPORTANT]
 > In compliance with the Spanish _Anti-Fraud Law (Law 11/2021)_ and _Royal Decree 1007/2023_, software vendors are required to submit a **responsible declaration** by July 29, 2025. While the legislation has been enacted, certain aspects regarding its implementation for businesses and ERP systems are still under review. Microsoft is committed to aligning with the official guidelines to ensure that Microsoft Dynamics 365 Business Central meets the certification requirements within the established timelines. All relevant updates will be delivered through our standard product release cycles. Further information will be shared in this article as it becomes available.
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

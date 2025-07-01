@@ -29,7 +29,7 @@ The following example illustrates how [!INCLUDE [prod_short](includes/prod_short
 2. The purchase variance account is credited with LCY 10.00.  
 3. You post an item charge of LCY 20.00. Accordingly, the actual cost increases to LCY 110.00, and the value of the purchase variance becomes LCY 10.00.  
 4. The purchase variance account is debited with LCY 20.00. Accordingly, the net purchase variance becomes LCY 10.00.  
-5. You revalue the item from LCY 100.00 to LCY 70.00. This doesn't affect the variance calculation, only the inventory value.  
+5. You revalue the item from LCY 100.00 to LCY 70.00. This revaluation doesn't affect the variance calculation, only the inventory value.  
 
 The following table shows the resulting value entries.  
 
@@ -43,7 +43,7 @@ The standard cost is used when calculating variance and the amount to capitalize
 
 |Cost share|Purchased item|Produced/Assembled item|  
 |----------------|--------------------|------------------------------|  
-|**Standard Cost**||Single-Level Material Cost + Single-Level Material Non-Inventory Cost + Single-Level Capacity Cost + Single-Level Subcontrd. Cost + Single-Level Cap. Ovhd. Cost + Single-Level Mfg. Ovhd. Cost</br>Go to the **Manufacturing Setup** page and turn on the **Include Non-Inventory Items to Produced Items** toggle to include Single-Level Material Non-Inventory Cost into produced items. Single-Level Material Non-Inventory Cost cannot be included into cost of assembled items.|  
+|**Standard Cost**||Single-Level Material Cost + Single-Level Material Non-Inventory Cost + Single-Level Capacity Cost + Single-Level Subcontrd. Cost + Single-Level Cap. Ovhd. Cost + Single-Level Mfg. Ovhd. Cost</br>Go to the **Manufacturing Setup** page and turn on the **Include Non-Inventory Items to Produced Items** toggle to include Single-Level Material Non-Inventory Cost into produced items. Single-level material noninventory cost isn't included in the cost of assembled items.|  
 |**Single-Level Material Cost**|Unit Cost|Sum of standard or unit costs of components and subassemblies </br></br> Only items of type Inventory|  
 |**Single-Level Material Non-Inventory Cost**|Not applicable|Sum of unit costs of components  </br></br> Only items of type Non-Inventory|
 |**Single-Level Capacity Cost**|Not applicable|![Equation 2.](media/design_details_inventory_costing_11_equation_2.png "Equation 2")|  

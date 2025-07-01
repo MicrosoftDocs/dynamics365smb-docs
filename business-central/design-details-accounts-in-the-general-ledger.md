@@ -30,9 +30,9 @@ The following table shows the relationship between different types of inventory 
 |Sale|Direct Cost||No|Inventory|COGS|  
 |Sale|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Sale|Rounding||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
+|Positive Adjmt., Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
+|Positive Adjmt., Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
+|Positive Adjmt., Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
 |(Production) Consumption|Direct Cost||No|Inventory|WIP|  
 |(Production) Consumption|Revaluation||No|Inventory|Inventory Adjmt.|  
 |(Production) Consumption|Rounding||No|Inventory|Inventory Adjmt.|  
@@ -73,7 +73,7 @@ The following table shows the relationship between different types of inventory 
 
 ## Assembly costs are always actual  
 
- As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
+ As the table shows, assembly postings aren't represented in interim accounts. They're excluded because the concept of work in process (WIP) doesn't apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 

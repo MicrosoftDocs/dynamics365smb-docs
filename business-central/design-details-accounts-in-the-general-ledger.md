@@ -1,12 +1,12 @@
 ---
-title: Design Details - Accounts in the General Ledger | Microsoft Docs
-description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
+title: Design details: accounts in the general ledger
+description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries post to different accounts in the general ledger.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords:
-ms.date: 02/20/2024
+ms.date: 07/01/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -42,11 +42,13 @@ The following table shows the relationship between different types of inventory 
 |(Production) Output|Direct Cost||Yes|Inventory  (Interim)|WIP|  
 |(Production) Output|Direct Cost||No|Inventory|WIP|  
 |(Production) Output|Indirect Cost||No|Inventory|Overhead Applied|  
+|(Production) Output|Direct Cost - Non Inventory||No|Inventory|Direct Cost Non-Inventory Applied Account|
 |(Production) Output|Variance|Material|No|Inventory|Material Variance|  
 |(Production) Output|Variance|Capacity|No|Inventory|Capacity Variance|  
 |(Production) Output|Variance|Subcontracted|No|Inventory|Subcontracted Variance|  
 |(Production) Output|Variance|Capacity Overhead|No|Inventory|Cap. Overhead Variance|  
 |(Production) Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
+|(Production) Output|Variance|Material-Non Inventory|No|Inventory|Material Non-Inventory Variance Account|
 |(Production) Output|Revaluation||No|Inventory|Inventory Adjmt.|  
 |(Production) Output|Rounding||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Direct Cost||No|Inventory|Inventory Adjmt.|  

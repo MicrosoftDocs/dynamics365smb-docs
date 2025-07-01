@@ -6,7 +6,7 @@ ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, UBL, Peppol, German version
 ms.search.form: 
-ms.date: 03/10/2025
+ms.date: 06/30/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -23,16 +23,16 @@ Learn more in [Set up e-documents](../../finance-how-setup-edocuments.md), which
 ### Set up local formats  
 
 > [!NOTE]
-> Currently, the E-Document framework for the German localization supports the XRechnung (UBL) and Peppol BIS 3 formats. The ZUGFeRD format isn't supported yet.
+> Starting with version 26.3, the E-Document framework for the German localization supports all formats available in Germany: XRechnung (UBL only), Peppol BIS 3, and ZUGFeRD.  
 
-To set up the format for the E-Document service, follow these steps:  
+To set up the format for the E-Document service, perform the following steps:  
 
-1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link. The **E-Document Services** page displays.
-1. On the **General** FastTab, select **New**. In the **Document Format** field, choose **PEPPOL BIS 3.0** or **XRechnung**.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link. The **E-Document Services** page displays.
+1. On the **General** FastTab, select **New**. In the **Document Format** field, choose **PEPPOL BIS 3.0 DE**, **XRechnung** or **ZUGFeRD**.  
 1. Configure the fields as described in [Set up e-documents](../../finance-how-setup-edocuments.md).
 1. Close the page.
 
-### Use buying reference on the E-invoice
+### Use buyer reference on the E-invoice
 
 When you configure e-invoices in the sales process, make sure to display your buyer reference on the invoice. Follow these steps to set up how you use buyer references:  
 
@@ -45,10 +45,20 @@ When you configure e-invoices in the sales process, make sure to display your bu
 
 ## Work with E-invoices
 
-Learn more in [Use e-documents in the purchases process](../../finance-how-use-edocuments.md), which provides information about the E-Documents framework in purchase processes.  
+### Purchase process
+
+Learn more in [Use e-documents in the purchase process](../../finance-how-use-edocuments.md), which provides information about the E-Documents framework in purchase processes.
+
+To receive all three supported file formats, you must create a separate E-Document Service for each format and specify the desired format in the **Document Format** field. The process of receiving and creating e-documents is fully automated and requires no manual intervention. This includes ZUGFeRD, which is a PDF/A format—Business Central automatically extracts the embedded XML file and processes it as a new e-document.
 
 > [!NOTE]
-> E-invoicing in purchase processes is available starting with version 25.2, and its enablement in sales starts from version 25.3.  
+> Automated e-document creation doesn't imply automatic creation of purchase invoices. To enable this process, proper configuration is required, or, in the case of purchase orders, you must use purchase order matching.
+
+### Sales process
+
+Learn more in [Use e-documents in the sales process](../../finance-how-use-edocuments.md), which provides information about the E-Documents framework in sales processes.
+
+Because there are three available file formats, you must decide whether to use one or multiple formats based on your sales process. You can define different workflows and specify the file format for each. Each **Document Sending Profile** supports only one file format, so you can't assign multiple formats to a single customer.
 
 ## Related information
 

@@ -52,7 +52,7 @@ Learn more in [Use e-documents in the purchase process](../../finance-how-use-ed
 To receive all three supported file formats, you must create a separate E-Document Service for each format and specify the desired format in the **Document Format** field. The process of receiving and creating e-documents is fully automated and requires no manual intervention. This includes ZUGFeRD, which is a PDF/A format—Business Central automatically extracts the embedded XML file and processes it as a new e-document.
 
 > [!NOTE]
-> Automated e-document creation does not imply automatic creation of purchase invoices. To enable this process, proper configuration is required, or, in the case of purchase orders, you must use purchase order matching.
+> Automated e-document creation doesn't imply automatic creation of purchase invoices. To enable this process, proper configuration is required, or, in the case of purchase orders, you must use purchase order matching.
 
 ### Sales process
 

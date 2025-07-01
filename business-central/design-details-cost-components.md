@@ -1,5 +1,5 @@
 ---
-title: Design details: cost components
+title: Design details cost components
 description: Cost components are different types of costs that make up the value of an inventory increase or decrease.
 author: brentholtorf
 ms.author: bholtorf

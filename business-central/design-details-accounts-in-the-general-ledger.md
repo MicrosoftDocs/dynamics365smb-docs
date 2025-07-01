@@ -1,5 +1,5 @@
 ---
-title: Design details: accounts in the general ledger
+title: Design details accounts in the general ledger
 description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries post to different accounts in the general ledger.
 author: brentholtorf
 ms.author: bholtorf

@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
-ms.date: 06/13/2024
+ms.date: 03/21/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -34,7 +34,7 @@ The entry called **Last used options and filters** is always available. This ent
 The **Use default values from** field provides a fast and reliable way to consistently generate reports that contain the correct data. After you select an entry, you can change any of the options and filters before you preview or print the report. The changes you make won't be saved to the predefined settings entry you selected, but they'll be saved to the **Last used options and filters** entry.
 
 > [!NOTE]
-> The predefined settings are typically set up and managed by an administrator. Learn more at [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+> The predefined settings are typically set up and managed by an administrator. Learn more in [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
 
 ## Specify the data to include in a report
 
@@ -49,12 +49,12 @@ Use the fields under **Options** and **Filters** to change or limit the informat
 
 ## Preview a report
 
-By previewing a report, you can see what the report will look like before you print it. The preview isn't based on the printer selected in the **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as you need.
+By previewing a report, you can see what the report looks like before you print it. The preview isn't based on the printer selected in the **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as you need.
 
-The preview choices on the **Report Request** page depend on the report. So, for some reports, you can select **Preview**, while for others, the choice is **Preview & Close**. Both choices open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. In contrast, with **Preview & Close** the request page closes, and you'll have to open the report again to make changes or print.
+The preview choices on the **Report Request** page depend on the report. So, for some reports, you can select **Preview**, while for others, the choice is **Preview & Close**. Both choices open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. In contrast, with **Preview & Close** the request page closes, and you have to open the report again to make changes or print.
 
 > [!NOTE]
-> If you're using Business Central 2020 release wave 1 or earlier, the only choice is **Preview**, which closes the request page on preview, as described above for **Preview & Close**.
+> If you're using Business Central 2020 release wave 1 or earlier, the only choice is **Preview**, which closes the request page on preview, as described for **Preview & Close**.
 
 ### Work with the preview
 
@@ -69,7 +69,7 @@ In the preview, use the menu bar on the report preview to:
 
 - Pan the document
   
-  You can move the visible area of the report in any direction to view other areas of the report. Panning is helpful when you've zoomed in to see details. Using your mouse, for example, select and hold the left mouse button anywhere in the report preview, and then move your mouse to select a section of the report.
+  You can move the visible area of the report in any direction to view other areas of the report. Panning is helpful when you zoom in to see details. Using your mouse, for example, select and hold the left mouse button anywhere in the report preview, and then move your mouse to select a section of the report.
 
 - Download to a PDF file on your computer or network.
 - Print
@@ -78,7 +78,7 @@ In the preview, use the menu bar on the report preview to:
 
 You can save a report to a PDF document, Microsoft Word document, Microsoft Excel workbook, or XML document by choosing **Send to**, then making your selection. A file is downloaded to your computer.
 
-If your organization has configured OneDrive for system features, instead of being downloaded, Excel workbooks and Word documents are opened in your browser using either Excel or Word for the web.
+If your organization configured OneDrive for system features, instead of being downloaded, Excel workbooks and Word documents are opened in your browser using either Excel or Word for the web.
 
 > [!TIP]
 > The **Microsoft Excel Document (data only)** and **XML Document** options are mostly for advanced purposes. You'd typically use these options to do detailed data analysis. Learn more at [Analyzing Report Data with Excel and XML](report-analyze-excel.md).
@@ -112,7 +112,7 @@ Learn more about job queue management at [Use Job Queues to Schedule Tasks](admi
 
 To print a report, select **Print** on the report request page or on the menu bar of the **Preview** page.
 
-When a report uses an Excel layout, you won't see the **Printer** field or **Print** or **Preview** buttons. Instead, there's a **Download** option. To print, select **Download**, then open the downloaded file in Excel and print from there.
+When a report uses an Excel layout, you don't have the **Printer** field or **Print** or **Preview** buttons. Instead, there's a **Download** option. To print, select **Download**, then open the downloaded file in Excel and print from there.
 
 ### <a name="Printer"></a>Printer
 
@@ -122,7 +122,7 @@ The **Printer** field on the request page shows the name of printer the report i
 > The **(Handled by the browser)** option indicates there's no designated printer for the report. In this case, the browser handles the printout and displays the standard printing steps, where you can choose a local printer connected to your computer. The **(Handled by the browser)** option isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Microsoft Teams.
 
 > [!TIP]
-> The printer that's selected for you by default is set up on the **Printer Selections** page. Learn more about how you can change the default printer in the [Set up default printers](ui-specify-printer-selection-reports.md#default) section.
+> The printer selected for you by default is set up on the **Printer Selections** page. Learn more about how you can change the default printer in the [Set up default printers](ui-specify-printer-selection-reports.md#default) section.
 
 ### Print reports in Thai
 
@@ -163,7 +163,28 @@ The fields under the **Advanced** FastTab set limitations on the generated repor
 |Maximum documents|500|
 
 > [!NOTE]
-> The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> The maximum values might be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+
+## Get help for a report
+
+You can get help using a report in two ways: teaching tips and help pane.
+
+### Teaching tip for a report
+
+Many reports in [!INCLUDE[prod_short](includes/prod_short.md)] have a teaching tip to increase your chance of success with the report. The title and description of these teaching tips try to answer the following hypothetical questions:
+
+- What is this report about?
+- What can I do with this report?
+
+With teaching tips, the report creator helps you understand the logic relevant to the report, allowing you to start your reporting task immediately without being blocked. After you dismiss a teaching tip, you can select or hover over the report title on the request page to reopen the teaching tip.
+
+Learn more in [In-product tips](product-help-and-support.md#in-product-tips)
+
+### Help pane for a report
+
+When the report request page is open, select the **Help** question mark in the top-right corner of the role center to open the help pane. Here, you find the teaching tip text (if defined on the report). You also find relevant links to documentation articles that explain related topics in more depth.
+
+Learn more in [Help pane](product-help-and-support.md#help-pane)
 
 ## See also
 

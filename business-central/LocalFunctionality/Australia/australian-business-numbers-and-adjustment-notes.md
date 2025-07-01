@@ -3,29 +3,32 @@ title: Australian Business Numbers and Adjustment Notes
 description: An Australian Business Number (ABN) is a single identifier for all business dealings with the tax office and for dealings with other government departments and agencies.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords:
-ms.date: 04/01/2021
+ms.search.keywords: Australian business numbers, ABN, adjustment notes, TFN, BAS adjustment
+ms.date: 03/25/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Australian Business Numbers and Adjustment Notes
+
+# Australian business numbers and adjustment notes
+
 An Australian Business Number (ABN) is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.  
 
- ABNs and adjustment notes—or credit memos—are used to satisfy tax requirements.  
+ABNs and adjustment notes—or credit memos—are used to satisfy tax requirements.  
 
-## ABN  
- All companies must register and apply for an ABN to report the details of payment summaries issued to their payees during the financial year. The payment summary includes the Tax File Numbers (TFN) or business numbers of the payees.  
+## ABN
 
-## Adjustment Notes  
- Adjustment notes are issued by suppliers to a business when the amount of consideration for taxable supplies changes. The recipient needs an adjustment note to claim more or less GST credits than previously claimed.  
+All companies must register and apply for an ABN to report the details of payment summaries issued to their payees during the financial year. The payment summary includes the Tax File Numbers (TFN) or business numbers of the payees.  
 
- Section 19-10 of A New Tax System (Goods and Services Tax) Act 1999 defines an adjustment event as any event that has the effect of:  
+## Adjustment notes
 
--   Canceling a supply or acquisition.  
--   Changing the consideration for a supply or acquisition.  
--   Causing a supply or acquisition to start or stop being a taxable supply or creditable acquisition.  
+Adjustment notes are issued by suppliers to a business when the amount of consideration for taxable supplies changes. The recipient needs an adjustment note to claim more or less GST credits than previously claimed.  
+
+Section 19-10 of A New Tax System (Goods and Services Tax) Act 1999 defines an adjustment event as any event that has the effect of:  
+
+- Canceling a supply or acquisition.  
+- Changing the consideration for a supply or acquisition.  
+- Causing a supply or acquisition to start or stop being a taxable supply or creditable acquisition.  
 
 An adjustment event may result in an increase or decrease to your net amount for the tax period.  
 
@@ -41,9 +44,9 @@ Because credit memos are used for adjustment notes, each credit memo should sati
 
 - **Adjustment** and **BAS Adjustment**: These entries populate automatically. Some credit memos are Business Activity Statement (BAS) adjustments. Adjustment notes can only be applied against a single document.  
 
-## See Also  
- [Enter Australian Business Numbers](how-to-enter-australian-business-numbers.md)   
- [Australia Local Functionality](australia-local-functionality.md)
+## Related information
 
+- [Enter Australian Business Numbers](how-to-enter-australian-business-numbers.md)
+- [Australia Local Functionality](australia-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

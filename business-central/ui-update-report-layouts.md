@@ -7,11 +7,10 @@ ms.devlang: al
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# (Legacy) Update Custom Report Layouts
+# (Obsolete) Update Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 

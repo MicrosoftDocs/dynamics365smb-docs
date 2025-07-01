@@ -21,7 +21,7 @@ This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-
 - APIs for reading data.
 - [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models and reports.
 - Pages that embed the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports in [!INCLUDE [prod_short](includes/prod_short.md)].
-- Navigation links on Role Centers and in the Role Explorer.
+- Navigation links on Role Centers and Role Explorer.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ The prerequisites for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] can be
 
    - The user who installs the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] template app.
    - The user who refreshes the data.
-   - Each user who accesses the reports.
+   - Each user who accesses the reports, either in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] service or embedded in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 An alternative to using [!INCLUDE [powerbi-pro](includes/powerbi-pro-license-name.md)] licenses is to use [!INCLUDE [powerbi-name](includes/powerbi-name.md)] or [!INCLUDE [fabric-name](includes/fabric-name.md)] Premium capacity.
 
@@ -86,13 +86,12 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 
 [!INCLUDE [powerbi-apps-per-company-include](includes/powerbi-apps-per-company-include.md)]
 
-
 ## Run the Connect to Power BI assisted setup guide
 
 After you install your [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, you can configure them to suit your business:
 
 - Get help with the set-up process by using the **Connect to Power BI** assisted setup guide.
-- Set up things yourself on the **[Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951)** page.
+- Set up things yourself on the [Power BI Connector Setup](https://businesscentral.dynamics.com?page=36951) page.
 
 The assisted setup guide helps you configure the following components:
 
@@ -171,9 +170,20 @@ Each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app is based on a seman
 
 To learn more, go to [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] semantic models](/dynamics365/business-central/across-working-with-powerbi#work-with-power-bi-reports).
 
+## Job queue entry for updating dimension set entries
+
+For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
+
+## Want links to show up in Report Explorer?
+
+Profiles, sometimes called *Departmental Role Center Profiles*, control whether functional areas show in Report Explorer. To specify whether Departmental Role Center Profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
+
+> [!TIP]
+> For the built-in Departmental Role Center Profiles, the **Description** field contains *Navigation menu only*.
+
 ## Permissions
 
-In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have Read permissions to the tables in the model. These tables are currently documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], these are the [!INCLUDE [prod_short](includes/prod_short.md)] tables that the user needs Read permissions for: [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
+In [!INCLUDE [prod_short](includes/prod_short.md)], the user account you use to refresh the semantic model in [!INCLUDE [powerbi-name](includes/powerbi-name.md)] must have **Read** permissions to the tables in the model. The tables are documented in the KPI article for the app. For example, for the [!INCLUDE [power-bi-sales-app-name](includes/power-bi-sales-app-name.md)], to explore the [!INCLUDE [prod_short](includes/prod_short.md)] tables that a user needs Read permissions for, go to [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md).
 
 In the [!INCLUDE [powerbi-service-name](includes/powerbi-service-name.md)], we recommend that you add multiple admins for each [!INCLUDE [powerbi-name](includes/powerbi-name.md)] app workspace. Grant Read permissions to users who should be able to view report pages in an app.
 

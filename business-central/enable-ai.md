@@ -1,28 +1,35 @@
 ---
-title: Configure Copilot and AI capabilities
+title: Configure Copilot and agent capabilities
 description: This article explains how to enable Copilot in an environment.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 01/14/2025
+ms.date: 04/01/2025
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ms.search.form: 7771,7772_Primary,7775_Primary
 ---
 
-# Configure Copilot and AI capabilities
+# Configure Copilot and agent capabilities
 
-This article explains how to control Microsoft Copilot and other AI capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.
+This article explains how to control Microsoft Copilot and agent capabilities in Dynamics 365 Business Central. An administrator must complete these tasks.
 
-Copilot is a system feature and an integral part of Business Central. Like most system features, you don't grant access to individual users, and you can't turn Copilot on or off. However, Copilot offers data governance controls and the option to deactivate individual Copilot and AI capabilities for each environment. There are different levels of access control for AI capabilities, depending on the feature:
+Copilot is a system feature and an integral part of Business Central. Like most system features, you can't turn Copilot on or off. However, Business Central provides extensive transparency and control for administrators, including:
+
+- Understand which Copilot and agent capabilities are available to your environment.
+- Deactivate individual capabilities.
+- Grant or deny access to individual users for each capability.
+- Data governance controls.
+
+There are different levels of access control for agent capabilities, depending on the feature:
 
 - Allow data movement across geographical regions.
 
     This task is required only if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more about this task](#allow-data-movement-across-geographies).
 
-- Activate the feature on the **Copilot & AI capabilities** page. [Learn more about this task](#activate-features).
+- Activate the feature on the **Copilot & agent capabilities** page. [Learn more about this task](#activate-features).
 
 If any of these requirements aren't met, the feature isn't available for use.
 
@@ -36,49 +43,51 @@ If any of these requirements aren't met, the feature isn't available for use.
 
 ## Allow data movement across geographies
 
-This section applies only if the **Allow data movement** toggle switch appears near the top of the **Copilot & AI capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task.
+This section applies only if the **Allow data movement** toggle switch appears near the top of the **Copilot & agent capabilities** page. If the **How do I govern my copilot data?** link appears instead of the **Allow data movement** option, skip this task.
 
-![Screenshot that shows the Allow data movement option on the Copilot & AI capabilities page.](media/allow-data-movement-v2.png)
+![Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.](media/allow-data-movement-v3.png)
 
 The presence of the **Allow data movement** toggle indicates that the location of your Business Central environment (where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 You can choose to disallow data movement, which deactivates Copilot and all features. To allow or disallow data movement across geographies:
 
-1. In Business Central, search for and open the **Copilot & AI capabilities** page.
+1. In Business Central, search for and open the **Copilot & agent capabilities** page.
 1. Switch the **Allow data movement** toggle on or off as desired.
 
-After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & AI capabilities** page.
+After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & agent capabilities** page.
 
 ## Activate features
 
-Copilot and AI capabilities are active by default when they're made available in preview or become generally available. On the **Copilot & AI capabilities** page, you can turn individual features off or on again for all users.
+Copilot and agent capabilities are active by default when they're made available in preview or become generally available. On the **Copilot & agent capabilities** page, you can turn individual features off or on again for all users.
 
-1. In Business Central, search for and open the **Copilot & AI capabilities** page.
+1. In Business Central, search for and open the **Copilot & agent capabilities** page.
 1. The page lists all available Copilot and AI-related features and their status (*Active* or *Inactive*). The features are divided into two sections: preview and generally available.
 
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & AI capabilities page.](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox)
 
 ## Granting user access
 
-Copilot and AI capabilities can offer functionality that is intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control through permissions and permission sets in Business Central's permission management system. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
+Copilot and agent capabilities can offer functionality that is intended for any users across your organization or for specific user roles. Most Copilot and agent capabilities offer access control through permissions and permission sets in Business Central's permission management system. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
 
 The following table lists the permissions that are required to use the Copilot features that Business Central provides.
 
 | Copilot feature | Required permissions |
 |---|---|
-| Analysis assist | The **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions that are required to access the analysis mode. |
+| Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
-| Chat | There are no permissions or permission sets that control access to chat on a per-user basis. If chat is activated, it's available to all users. |
+| Chat |**Copilot Sys Features** permission set or execute permission on system object 9690 **Allow Copilot Chat**. |
 | Suggest substitute items| Permission on page 7410 **Item Subst. Suggestion** and page 7411 **Item Subst. Suggestion Sub**.|
+| Summarize |**Copilot Sys Features** permission set or execute permission on system object 9680 **Allow Copilot Summary**. |
 | Map e-documents | Permission on page 6166 **E-Doc. PO Copilot Prop**. |
 | Marketing text suggestions | Permission on page 5836 **Copilot Marketing Text**. |
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
 |Sales Order Agent|Learn more in [Manage agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 
-To grant or deny access to specific non-Microsoft Copilot and AI capabilities, consult the feature's documentation or publisher for the required permissions.
+To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
 
 ## Requirements for being an administrator
 
@@ -94,14 +103,16 @@ Business Central doesn't yet offer granular, object-level permissions so that on
 
 ## Next steps
 
-For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#activate-and-configure-sales-order-agent)
+For the Sales Order Agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
 
 For other Copilot features, you're ready to try them out. Learn more in the following articles:
 
 - [Add marketing text to items with Copilot](item-marketing-text.md)
 - [Analyze list data with Copilot](analysis-assist.md)
+- [Autofill fields with Copilot (preview)](autofill-fields-with-copilot.md)
 - [Chat with Copilot](chat-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+- [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md)
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
@@ -109,8 +120,9 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 
 ## Related information
 
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  
+[FAQ for autofill with Copilot (preview)](faqs-autofill.md)  
 [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  

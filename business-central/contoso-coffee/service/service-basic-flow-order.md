@@ -5,7 +5,7 @@ author: andreipa
 ms.author: andreipa
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/31/2023
+ms.date: 02/18/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -14,88 +14,87 @@ ms.service: dynamics-365-business-central
 
 This walkthrough demonstrates several core processes:
 
-- Create an ad hoc Service Order and register repair of the Item
-- Provide a Loaner Item to customer for a time of repair
-- Post and Invoice the Service Order
-    
-## Creating a service order
+- Create a service order and register the repair of an item.
+- Provide a loaner item to the customer while the repair is underway.
+- Post and invoice a service order.
 
-### Scenario  
+## Scenario: create a service order
 
-Charles, the service manager, creates a Service Order for a repair scenario, lend a Loaner to the customer for time of repair.
+Charles, the service manager, creates a service order for a repair, and lends a loaner item to the customer.
 
 ### Steps
 
-1. Create the Service Order manually for the Item that requires repair.
-   1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**
+1. Create a service order manually for the item that requires repair.
+   1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **Service Orders**.
    2. Choose the **New** action.
-   3. Enter **10000** into the Customer No. field
-   4. Select **REPAIR** for the **Service Order Type** field.
-   5. In the Lines, select **S-100** as the **Item No.**.
-2. Optionally
-   1. Choose the Line action **Troubleshooting** to check possible solutions.
-   2. Choose the Line action **Fault/Resol. Codes Relationships**
-   3. Select *NOISE* as **Symptom Code**
-   4. Select *5-2 Loud noise during brewing* as **Faul Code** and close page. Fault code, resolution codes are updated in lines.
-3. Lend a replacement while item is being repaired
-   1. In the Lines, select **LOANER1** as the Loaner No. Confirm the issuance of the Loaner by selecting **Yes** to lend out the Loaner. 
-   2. Choose the Functions action **Get Std. Service Codes**, select standard code associated with service group and select **Ok**.
-   
+   3. In the **Customer No.** field, enter **10000**.
+   4. In the **Service Order Type** field, choose **REPAIR**.
+   5. On the **Lines** FastTab, in the **Item No.** field, choose **S-100**.
+2. Optional steps:
+   1. Choose the **Troubleshooting** action on the **Lines** FastTab to check for possible solutions.
+   2. Choose the **Fault/Resol. Codes Relationships** action on the **Lines** FastTab.
+   3. In the **Symptom Code** field, choose **NOISE**.
+   4. In the **Fault Code** field, choose **5-2 Loud noise during brewing**, and then close the page. The fault code and resolution codes update on the lines.
+3. Lend a loaner item while item is being repaired.
+   1. On the lines, select **LOANER1** as the **Loaner No.** To confirm the loan, choose **Yes**.
+   2. Choose the **Get Std. Service Codes** action, select standard code associated with the service group, and then choose **OK**.
+4. Close service order page and return to the Role Center.
+
 ### Results
 
-- A Service Order is created for the Item
-- The Service Order's Service Document Log shows the Loaner activities.
-- The Loaner has a Ledger Entry to reflect the lending.
-   
+- A service order is created for the item.
+- The Service Document Log page shows the loan.
+- The loaner item has a ledger entry to record the loan.
 
-## Register performed work, mark loaner as returned.
+## Scenario: register the work, and mark the loaner item as returned
 
-### Scenario  
-
-The service technician marks loaner as returned, registers performed work.
+The service technician marks the loaner item as returned, and registers the work they did.
 
 ### Steps
 
-1. Locate the Service task and register time 
+1. Find the service task and register the time spent.
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
-   2. Locate the Service Order to enter time for.
-   3. Choose  the **Item Worksheet** action.
-   4. Enter the following information
+   2. Find the service order to enter time for.
+   3. Choose the **Item Worksheet** action.
+   4. Enter the information as described in the following table.
 
     |Type|No.|Quantity|
     |----|---|--------|  
     |Item|SER102|2|
 
-   4. Select *FINISHED* in the **Repair Status Code** field
-    
-2. Mark loaner as returned
+   5. In the **Repair Status Code** field, choose **FINISHED**.
+   6. Close the service item worksheet and service tasks pages and return to the Role Center.
+
+2. Mark the loaner item as returned.
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Loaners**, and then choose the related link.
-   2. Locate the loaner to mark as returned.
-   3. Choose the **Receive** action 
-   4. Confirm the return of the Loaner by selecting **Yes** to return the Loaner.
-      
+   2. Find the loaner item that was returned.
+   3. Choose the **Receive** action.
+   4. Confirm the return of the loaner item by selecting **Yes**.
+   5. Close the **Loaners** page and return to the Role Center.
+
 ### Results
 
-- The service order's **Service Document Log** shows the Loaner activities.
-- The Loaner has a Ledger Entry to reflect the receipt.
+- The service order's **Service Document Log** page shows the loan.
+- The loaner item has a ledger entry to record its receipt.
 
+## Scenario: post and invoice the service order
 
-### Scenario  
+Charles, the service manager, posts the finished service order.
 
-Charles, the service manager, post the finished service order.
-
-1. Locate the Service Order 
+1. Open the service order.
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.
-   2. Locate the Service Order you want to post.
+   2. Find the service order you want to post.
 
-2. On the Service Order, Post the Invoice
-   1. Choose the **Post** action to complete the Service Order, select the **Ship and Invoice** action, and then choose the **OK** button.
-   2. Confirm the opening of the posted invoice by selecting **Yes**. 
+2. On the **Service Order** page, post the invoice.
+   1. Choose the **Post** action to complete the service order, select the **Ship and Invoice** action, and then choose the **OK** button.
+   2. To confirm the opening of the posted invoice, choose **Yes**.
+
 ### Results
 
-- the **Posted Service Invoice** is created.
-- the **Service Ledger Entries** associated with the Item and Resource are created
+- A **Posted Service Invoice** is created.
+- Service ledger entries are created for the item and resource.
 
-## See also
+## Related information
+
 [Walkthrough of Service Contracts for Service Items](service-contract-flow.md)  
 [Service](../../service-service.md)

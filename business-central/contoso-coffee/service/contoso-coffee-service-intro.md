@@ -12,7 +12,7 @@ ms.reviewer: bholtorf
 
 # Introduction to Contoso Coffee service management
 
-Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the Service Management capabilities in Business Central.
+Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for [!INCLUDE [prod_short](../../includes/prod_short.md)] add demo data that you can use to learn how to use the Service Management capabilities in [!INCLUDE [prod_short](../../includes/prod_short.md)].
 
 This app provides several elements that are used for the main walkthroughs:
 
@@ -20,10 +20,6 @@ This app provides several elements that are used for the main walkthroughs:
 - Items configured to create Service Items
 - Loaner Items
 
-> [!IMPORTANT]
-> Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-service-management-data) section.
->
-> 
 ## Set up Contoso Coffee service management data
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]

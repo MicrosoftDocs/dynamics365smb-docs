@@ -3,10 +3,10 @@ title: FAQ for Suggest Number Series with Copilot
 description: This FAQ provides information about the AI technology used in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: article
 ms.search.form:
-ms.date: 08/23/2024
+ms.date: 04/01/2025
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
@@ -89,5 +89,5 @@ Each time Copilot provides suggestions, you can provide feedback to Microsoft di
 
 ## See also
 
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md) 

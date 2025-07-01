@@ -21,9 +21,10 @@ The following table indicates the connections to Microsoft services that are aut
 |Microsoft OneDrive for Business|Yes|No|**Open in OneDrive** action on **Item** attachments |[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 | Microsoft Azure OpenAI Service |Yes |No|**Copilot** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
+|Microsoft Learn Platform|Yes|No|Copilot, Help pane|[Chat with Copilot FAQ](chat-with-copilot-faq.md#how-does-chat-treat-data-residency)|
 
 > [!NOTE]
-> By using features that connect to these services: 
+> By using features that connect to these services:
 >
 > - You consent to your data being shared with that Microsoft service. If your organization has deployed these services in a different country or region, connecting to the service may result in your data crossing data residency boundaries. Make sure to confirm your organization’s policies and government compliance requirements for data residency before proceeding to use these features. 
 > - You may affect services that aren't trials. If these services are used in production by your organization and aren't being evaluated together with Business Central, other users of these services who aren't participating in this trial of [!INCLUDE[prod_short](includes/prod_short.md)] may be affected.

@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.topic: conceptual
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
-ms.date: 10/01/2024
+ms.date: 02/12/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
@@ -69,21 +69,26 @@ If you want to find all blue chairs in the CRONUS demo company, you might enter 
 
 If you want to mimic the behavior of legacy search when you use modern search, you can enclose your search text in quotation marks, just as you can do in popular search engines. In this way, you refine the results by excluding any that aren't exact matches. For example, if you enter `"blue chair"` as the search text, modern search returns no results, because that exact text doesn't occur in any item name in the demo data.
 
+Another difference is that modern search finds words that *start* with the letters you have entered. If you enter 'hair', it won't find the word 'chair'.
+
 > [!NOTE]
+>
 > - Modern search covers only columns that a developer designates for it. If you can't find existing data, try legacy search.
 >
->    Learn more about how to designate columns for modern search in [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
+>   Learn more about how to designate columns for modern search in [Enable optimized text search on table fields](/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search).
+>
+> - The search indexes used for modern search are updated in the background, usually within a few seconds. But in some cases, recent data changes don't immediately show up in modern search results.
 >
 > - If the **Use modern search** option isn't available on the dropdown menu, one of the following factors might be the cause:
 >
->    - Modern search isn't enabled for your environment. Administrators can enable the **Use optimized text search in lists** feature on the **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
->    - The list doesn't include any columns that are designated for modern search.
+>   - Modern search isn't enabled for your environment. Administrators can enable the **Use optimized text search in lists** feature on the **Feature Management** page. Learn more in [Enabling new and upcoming features ahead of time](admin-feature-management.md).
+>   - The list doesn't include any columns that are designated for modern search.
 >
 > - If modern search is enabled for your environment, it's the default search method.
 
 ### Fine-tune the search by using filter criteria (legacy search only)
 
-You can make a more exact search by using filter operators, expressions, and filter tokens. Unlike filtering, these criteria are applied across all fields when they are used in the search field. Therefore, they are less efficient than filtering.
+You can make a more exact search by using filter operators, expressions, and filter tokens. Unlike filtering, these criteria are applied across all fields when they're used in the search field. Therefore, they're less efficient than filtering.
 
 - To find only field values that exactly match the entire search text, and the case of it, enclose the text in single quotation marks (`''`). For example, enter `'man'`.
 - To find field values that start with specific text and match the case of it, add an asterisk (`*`) after the text. For example, enter `man*`.
@@ -162,14 +167,14 @@ Columns that already have filters are indicated by the ![Filter icon.](media/ui-
 
 ### <a name="FilterCriteria"></a>Filter criteria and operators
 
-When you enter criteria, you can use all the numbers and letters that you normally use in the field. In addition, there is a set of special symbols that you can use as operators to further filter the results. The following sections describe these symbols and explain how to use them as operators in filters.
+When you enter criteria, you can use all the numbers and letters that you normally use in the field. In addition, there's a set of special symbols that you can use as operators to further filter the results. The following sections describe these symbols and explain how to use them as operators in filters.
 
 > [!TIP]
 > Learn more about how to filter dates and times in [Work with calendar dates and times](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - In some situations, the value that you want to filter on might contain a symbol that is an operator. Learn more about how to handle these situations in the [Filter on values that contain symbols](#symbols) section.
-> - If a single filter includes more than 200 operators, the system automatically uses parentheses (`()`) to groups some expressions for the purpose of processing. This behavior has no effect on the filter or the results.
+> - If a single filter includes more than 200 operators, the system automatically uses parentheses (`()`) to group some expressions for processing. This behavior has no effect on the filter or the results.
 
 #### (..) Interval
 
@@ -178,7 +183,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 | `1100..2100` | Numbers 1100 through 2100 |
 | `..2500` | Numbers up to and including 2500 |
 | `..12 31 00` | Dates up to and including 12 31 00 |
-| `Bicycle..Car` | Strings "Bicycle" through "Car" when they are ordered lexicographically |
+| `Bicycle..Car` | Strings "Bicycle" through "Car" when they're ordered lexicographically |
 | `P8..` | Information for accounting period 8 and later |
 | `..23` | From the beginning date until 23-current month-current year 23:59:59 |
 | `23..` | From 23-current month-current year 0:00:00 until the end of time |

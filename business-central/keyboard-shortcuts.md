@@ -4,7 +4,7 @@ description: View a list of key combinations (keyboard shortcuts) that you can u
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/23/2024
+ms.date: 04/03/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -45,6 +45,7 @@ The following table describes the keyboard shortcuts for navigating and accessin
 |---|---|
 | <kbd>Alt</kbd> | Show access keys for selecting actions in the action bar and on the navigation menu of the page. Learn more in the [Access keys for action bar and navigation menu](#access-keys-for-action-bar-and-navigation-menu) section. |
 | <kbd>Alt</kbd>+<kbd>Down arrow</kbd> | Open a dropdown list or look up a value for a field. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field|
 | <kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Down arrow</kbd> | Open a related record's card or list page, which is filtered to the value in the lookup or assist-edit field. |
 | <kbd>Alt</kbd>+<kbd>Up arrow</kbd> | Show the tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up arrow</kbd> to show the validation error. Select the <kbd>Esc</kbd> key or <kbd>Alt</kbd>+<kbd>Up arrow</kbd> to close the tooltip. |
 | <kbd>F2</kbd> | Switch between selecting the entire field value and placing the cursor at the end of the field value. |
@@ -153,6 +154,7 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Alt</kbd>+<kbd>D</kbd> | Open the dimension set entries. |
 | <kbd>Alt</kbd>+<kbd>F6</kbd> | Collapse or expand the current FastTab or part (subpage). |
 | <kbd>Alt</kbd>+<kbd>F9</kbd> | Create a new document, and post it. |
+| <kbd>Alt</kbd>+<kbd>I</kbd> | en the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
 | <kbd>Alt</kbd>+<kbd>G</kbd> | Open the **Find Entries** page, so that you can look for entries that are related to the posted document. This keyboard shortcut also works for lists. |
 | <kbd>Alt</kbd>+<kbd>N</kbd> | Open a page where you can create a new record. This keyboard shortcut has the same effect as selecting the **New** action. |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | Close a page, and then open a new one where you can create a new record. This keyboard shortcut has the same effect as selecting the **OK & New** action. |
@@ -172,6 +174,32 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Shift</kbd>+<kbd>F6</kbd> | Move to the previous FastTab or part (subpage). |
 | <kbd>Shift</kbd>+<kbd>F9</kbd> | Post and print a document. |
 | <kbd>Shift</kbd>+<kbd>F11</kbd> | Apply entries, get source documents, or get warehouse documents. |
+
+## Keyboard shortcuts to autofill fields with Copilot (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+
+These shortcuts apply to fields on card and document pages when the Autofill fields with Copilot feature is activated. Learn more in [Autofill fields with Copilot](autofill-fields-with-copilot.md).
+
+| Select these keys<br>(these keys in macOS) | To do this |
+|---|---|
+| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.<br><br>On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon.|
+|<kbd>Backspace</kbd>, <kbd>Delete</kbd>, or <kbd>Escape</kbd>|Discard the suggestion on a selected field to return to the value.|
+|<kbd>F2</kbd>|Edit a suggestion for a selected field.|
+
+<!--
+Shortcut What it does
+*** Alt+I:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
+When a suggestion is displayed, this shortcut displays information about the suggestion.
+
+Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
+Tab: Move to the next page control without affecting the field suggestion.
+*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
+F2: Edit the suggestion.-->
 
 ## <a name="QuickEntry"></a>Quick entry shortcuts for fields
 

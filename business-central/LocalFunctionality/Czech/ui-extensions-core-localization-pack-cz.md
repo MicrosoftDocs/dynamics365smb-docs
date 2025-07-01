@@ -22,11 +22,12 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Statutory Company Information](statutory-company-information.md) **Available Now**
   - [Internal Financial Documents](internal-financial-documents.md) **Available Now**
   - [Accounting Output Documents](accounting-output-documents.md) **Available Now**
-  - [Account Schedule feature](how-to-use-accounting-schedule-feature.md) **Available Now**
+  - [Financial Report Feature](how-to-use-accounting-schedule-feature.md) **Available Now**
   - [Statutory Statements](statutory-statements.md) **Available Now**
   - [Year Closing Operations](year-close-operations.md) **Available Now**
   - [Exchange Rate Updating](how-to-update-exchange-rate.md) **Available Now**
   - [WIP Extended Posting](wip-extended-posting.md) **Available Now**
+  - [G/L Account Group – Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
 
 - **VAT**
   - [VAT Date](how-to-setup-vat-date.md) **Available Now**
@@ -40,24 +41,16 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [VAT Control Report](vat-control-report.md) **Available Now**
   - [VAT Reports](vat-reports-cz.md) **Available Now**
   - [VAT correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
-
-- **Banking and payments**
-  - [Electronic registration of sales (EET)](eet.md) **Available Now**
-  - Local Banking Feature - symbols and payments  **Available Now**
+  - [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
+  - [VAT Return CZ](VAT-return-cz.md) **Available Now**
+  - [Functional Currency – Czechia](functional-currency.md) **Available Now**
 
 - **Payables and receivables**
   - [Exchange Rates Adjustment feature](how-to-use-exchange-rates-adjustment-feature.md) **Available Now**
-  - [Multiple payables/receivables accounts](how-to-use-multiple-payables-receivables-accounts.md) **Available Now**
   - [Customers/Vendors Reconciliations](customers-vendors-reconciliations.md) **Available Now**
   - [Sales correcting documents](sales-correcting-documents.md) **Available Now**
   - [Contacts Actualization from ARES](how-to-update-contacts-from-ares.md) **Available Now**
   - [New design of output documents](new-design-of-output-documents.md) **Available Now**
-
-- **Intrastat**
-  - [Intrastat Engine Setup](intrastat.md) **Available Now**
-  - [Posting Sales, Purchase or Transfer transaction](intrastat.md) **Available Now**
-  - [Preparing Intrastat Journal](intrastat.md) **Available Now**
-  - [Intrastat Report Export to CSV Format](intrastat.md) **Available Now**
 
 - **Inventory**
   - [Rounding Account in Inventory](how-to-setup-round-account-in-inventory.md) **Available Now**
@@ -68,7 +61,6 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 - **General**
   - [Extended User Control](how-to-setup-extended-user-control.md) **Available Now**
-  - [G/L Account Group – Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
   - [Check of Posting Group changing – Customer, Vendor, item, bank account](check-of-posting-group-changing.md) **Available Now**
   - [Check of output in inventory – time sequence](check-output-inventory-time-sequence.md) **Available Now**
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
@@ -78,6 +70,5 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

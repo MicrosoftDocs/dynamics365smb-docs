@@ -6,22 +6,20 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 5430,
-ms.date: 11/13/2024
+ms.date: 02/25/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # About planning functionality
 
-The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
+The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing supply to meet demand. To learn more, go to [Design Details: Supply Planning](design-details-supply-planning.md).  
 
-To learn more, go to [Design Details: Supply Planning](design-details-supply-planning.md).  
-
-> [!NOTE]  
-> For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!TIP]  
+> To understand the fields that this article mentions, read their tooltip in [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Supply and demand
 
-Planning has two elements: demand and supply. These must balance to ensure that the demand is met.  
+Planning has two elements, supply and demand. These must balance to ensure that the demand is met.  
 
 - Demand is any kind of gross requirement, such as a sales order, service order, or a component need for assembly or production orders, outbound transfer, blanket order, or forecast. Additionally, there other technical types of demand, such as a negative production or purchase order, negative inventory, and purchase return.  
 - Supply refers to any kind of replenishment such as inventory, a purchase order, assembly order, production order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return that also represent supply.  
@@ -83,6 +81,7 @@ Global planning setup fields on the **Manufacturing Setup** page include:
 - Components at Location  
 - Default Dampener Period  
 - Default Dampener Quantity  
+- Default General Business Posting Group
 
 To learn more, go to [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 
@@ -95,7 +94,7 @@ On most supply orders, such as production orders, you can select **Unlimited** o
 This specifies whether the supply represented by the production order line is considered by the planning system when calculating action messages.
 If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
-### Warning
+### Warnings
 
 The **Warning** information field on the **Planning Worksheet** page informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
 
@@ -103,7 +102,7 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 - Exception
 - Attention
 
-### Emergency
+#### Emergency
 
 The emergency warning displays in two situations:
 
@@ -114,7 +113,7 @@ If an item's inventory is negative on the planning starting date, the planning s
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
 
-### Exception
+#### Exception
 
 The exception warning displays if the projected available inventory drops below the safety stock quantity.
 
@@ -125,7 +124,7 @@ Violating the safety stock level is considered an exception because it shouldn't
 > [!NOTE]
 > Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. To learn more, go to the description for the **Respect Planning Parameters for Exception Warnings** field in the [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md) article.
 
-### Attention
+#### Attention
 
 The attention warning displays in two situations:
 
@@ -140,6 +139,9 @@ The attention warning displays in two situations:
 As described in [Planning](production-planning.md), you can choose between two worksheets for most planning activities, the planning worksheet and the requisition worksheet. Most processes are described based on the planning worksheet, but there are a couple of scenarios where the requisition worksheet is preferred.
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
+> [!TIP]
+> When you process lines in a planning worksheet, you can print more than one firm planned orders. The **Prod. Order** option in the **Report Selection - Production Order** page determines which report to print. The default report is **99000762 Prod. Order - Job Card**. If your production orders lack routing lines or you prefer a more compact report, consider switching to the **5500 Prod. Order Comp. and Routing** report.
 
 ### Requisition worksheet
 
@@ -158,7 +160,7 @@ To learn more about planning with locations and transfers, go to [Planning With 
 > [!TIP]
 > When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organize the lines by sorting on a column name. This is especially useful on the Planning Worksheet page because they it can be used for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
 
-## See also
+## Related information
 
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 [Planning](production-planning.md)  

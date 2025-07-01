@@ -55,7 +55,7 @@ There are several ways to create an Excel layout file for a report:
 
 Follow these steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout contains the required **Data** sheet and table, and a **Report Metadata** sheet.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. On the **Report Layouts** page, choose any layout for the report, then choose the **Run Report** action.
 3. On the report's request page, choose **Send to**, then **Microsoft Excel Document (data only)**, and then **OK**.
 
@@ -66,15 +66,15 @@ Follow these steps to create an Excel layout from any report, regardless of the 
 
 If there's already an Excel layout for a report, you can use the existing layout as a starting point. There are two approaches to getting a copy of the layout. You can either export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download an Excel layout file that includes all the sheets of the existing file. The difference is when you download it from the request page, the layout includes actual data. The data isn't required, but it helps when you design the layout.
 
-#### Approach 1: Export the layout from the **Report Layouts** page
+**Approach 1: Export the layout from the Report Layouts page**
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the Excel layout from the list, and then choose the **Export Layout** action.
 3. Open the file in Excel, make your changes, and then save the file.
 
-#### Approach 2: Download the layout from the report's request page
+**Approach 2: Download the layout from the report's request page**
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. On the **Report Layouts** page, choose any layout for the report, and then choose the **Run Report** action.
 3. On the report's request page, choose **Download**.
 4. Open the file in Excel, make your changes, and then save the file.
@@ -89,7 +89,7 @@ Using Visual Studio Code is the most advanced way to create an Excel report layo
 
 When you have the Excel layout file, the next task is to add it as a new layout for the report.
 
-[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+1. [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Choose **New Layout**.
 3. Set **Report ID** to **Report**.
 4. In the **Layout Name** field, enter a name.

@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 09/19/2024
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621, 653_Primary
+ms.search.form: 605, 613, 617, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621, 653_Primary
 ms.service: dynamics-365-business-central
 ---
 # Set up intercompany transactions

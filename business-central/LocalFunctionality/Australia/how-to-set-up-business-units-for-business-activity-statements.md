@@ -1,18 +1,17 @@
 ---
 title: Set Up Business Units for Business Activity Statements (AU)
-description: Describes how to consolidate the financial statements of various companies into one financial statement.
+description: Learn how to consolidate the financial statements of various companies into one financial statement.
 author: brentholtorf
-    
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords:
-ms.date: 04/01/2021
+ms.search.keywords: consolidate financial statements, business activity statements, financial statement, Australian version, financial statement consolidation, set up general ledger, set up business units
+ms.date: 03/26/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Set Up Business Units for Business Activity Statements in the Australian Version
+
+# Set up business units for business activity statements in the Australian version
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can consolidate the financial statements of various companies into one financial statement.  
 
@@ -26,32 +25,33 @@ You can use the **BAS Business Units** page to set up the following:
 
 You must provide information on the **General Ledger Setup** page before you can set up business units.  
 
-## To set up a general ledger for a business activity statement  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-2. Fill in the required fields as described in the following table.  
+## Set up a general ledger for a business activity statement
+
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Fill in the required fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**BAS to be Lodged as a Group**|Select if you are logging a business activity statement for a group of companies.|  
-    |**BAS Group Company**|Select if this company is the main company in the group of companies for which you are logging a group business activity statement.|  
+    |**BAS to be Lodged as a Group**|Select if you're logging a business activity statement for a group of companies.|  
+    |**BAS Group Company**|Select if this company is the main company in the group of companies for which you're logging a group business activity statement.|  
 
-3.  Choose the **OK** button.  
+1. Choose the **OK** button.  
 
-## To set a business unit for a business activity statement  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **BAS Business Units**, and then choose the related link.  
-2. Fill in the fields as described in the following table.  
+## Set up a business unit for a business activity statement
+
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **BAS Business Units**, and then choose the related link.  
+1. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Company Name**|Specify the name of the company that will be added to the group company's business activity statement.|  
-    |**Document No.**|Specify the BAS document number that has to be consolidated. This field is associated with the **BAS Version** field.|  
+    |**Company Name**|Specify the name of the company that is added to the group company's business activity statement.|  
+    |**Document No.**|Specify the BAS document number that must be consolidated. This field is associated with the **BAS Version** field.|  
     |**BAS Version**|Specify the BAS version number in which the transaction was included. This field is associated with the **Document No.** field.|  
 
-3. Choose the **OK** button.  
+1. Choose the **OK** button.  
 
-## See Also  
-[Australian Local Functionality](australia-local-functionality.md)   
+## Related information
 
-
+[Australian Local Functionality](australia-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

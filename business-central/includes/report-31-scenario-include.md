@@ -1,0 +1,1 @@
+Identify posted transactions where VAT was expected but not applied. The report helps ensure that your VAT setup is accurate, which prevents reporting errors before you file tax returns.

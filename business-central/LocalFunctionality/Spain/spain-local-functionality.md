@@ -4,7 +4,7 @@ description: Learn about the local functionality available in the Spanish versio
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 06/30/2025
+ms.date: 07/01/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

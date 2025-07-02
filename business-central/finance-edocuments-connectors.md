@@ -10,6 +10,7 @@ ms.date: 07/02/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
+ms.custom: bap-template
 ---
 
 # Connect E-Documents to external access points
@@ -88,14 +89,12 @@ Microsoft doesn't have a contractual obligation with Pagero and Avalara. You mus
 4. If you want to use this connector in sandbox mode, select the **Staging Mode** field.  
 5. Continue with the [nonservice provider setup steps](finance-how-setup-edocuments-external.md).
 
-// ## Contina service
-
 ## Related information
 
-- [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
-- [How to set up e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)  
-- [How to use e-documents in Business Central](finance-how-use-edocuments.md)  
-- [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
+[How to set up e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)  
+[How to use e-documents in Business Central](finance-how-use-edocuments.md)  
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

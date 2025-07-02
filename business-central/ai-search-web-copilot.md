@@ -1,5 +1,5 @@
 ---
-title: Searching the web with Copilot
+title: Searching the web with Copilot (preview)
 description: Get an overview of how you enable searching the web with Copilot in Business Central.  
 author: SusanneWindfeldPedersen
 ms.author: mikebc
@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Searching the web with Copilot
+# Searching the web with Copilot (preview)
 
 Some Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)] can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content, and saves you time from having to switch apps to manually find things yourself. Copilot is powered by Microsoft Bing, and connecting Copilot to Bing search is optional. 
 

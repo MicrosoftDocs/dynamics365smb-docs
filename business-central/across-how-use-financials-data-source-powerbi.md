@@ -268,7 +268,7 @@ By default, reports that use [!INCLUDE [prod_short](includes/prod_short.md)] dat
 
 `Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".`
 
-If you're using a custom API, we recommend you rework the AL code to make sure it doesn't make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#advancedopts).
+If you're using a custom API, we recommend you rework the AL code to make sure it doesn't make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#customize-the-power-query-code-that-connects-to-your).
 
 ## Related information
 

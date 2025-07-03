@@ -5,10 +5,10 @@ author: jswymer
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/23/2024
+ms.date: 07/03/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ---
 
 # Building [!INCLUDE [powerbi-name](includes/powerbi-name.md)] reports for displaying [!INCLUDE [prod_long](includes/prod_long.md)] data
@@ -197,15 +197,15 @@ You can now manually edit this query to make the changes that suite your needs.
 
 ### The function `Dynamics365BusinessCentral.ApiContentsWithOptions`
 
-In the query above, the function `Dynamics365BusinessCentral.ApiContentsWithOptions` is responsible to connect to [!INCLUDE [prod_short](includes/prod_short.md)] and retrieve the data. This function has 4 optional parameters, that are not provided in the default query.
+In the query above, the function `Dynamics365BusinessCentral.ApiContentsWithOptions` is responsible for connecting to [!INCLUDE [prod_short](includes/prod_short.md)] and retrieve the data. This function has 4 optional parameters, that aren't provided in the default query.
 
-Here is a break down of the different parameters:
+Here's a break down of the different parameters:
 
 |Parameter|Examples|Description|
 |-|-|-|
-|Environment|`"Production"`|This parameter allows you to specify the [!INCLUDE [prod_short](includes/prod_short.md)] environment to connect to. If not specified, the function will return a list of all environments, and you will need to select the appropriate environment in the subsequent steps of your Power Query code|
-|Company|`"CRONUS USA, Inc."`|This parameter allows you to specify the [!INCLUDE [prod_short](includes/prod_short.md)] company to connect to, inside your selected environment. This parameter is ignored if the **Environment** parameter is not specified. If not specified, the function will return a list of all companies in your selected environent (or environments), and you will need to select the appropriate company in the subsequent steps of your Power Query code|
-|API category (or API route)|`"microsoft/runtime/beta"`, `"v2.0"`|This parameter allows you to specify the API route connect to in [!INCLUDE [prod_short](includes/prod_short.md)], inside your selected environment and company. This parameter is ignored if the **Environment** and **Company** parameters are not specified. If not specified, the function will return a list of all API categories (also called API routes) in your selected environment/environments and company/companies, and you will need to select the appropriate API category in the subsequent steps of your Power Query code|
+|Environment|`"Production"`|This parameter allows you to specify the [!INCLUDE [prod_short](includes/prod_short.md)] environment to connect to. If not specified, the function returns a list of all environments, and you need to select the appropriate environment in the subsequent steps of your Power Query code|
+|Company|`"CRONUS USA, Inc."`|This parameter allows you to specify the [!INCLUDE [prod_short](includes/prod_short.md)] company to connect to, inside your selected environment. This parameter is ignored if the **Environment** parameter isn't specified. If not specified, the function returns a list of all companies in your selected environent (or environments), and you need to select the appropriate company in the subsequent steps of your Power Query code|
+|API category (or API route)|`"microsoft/runtime/beta"`, `"v2.0"`|This parameter allows you to specify the API route connect to in [!INCLUDE [prod_short](includes/prod_short.md)], inside your selected environment and company. This parameter is ignored if the **Environment** and **Company** parameters aren't specified. If not specified, the function returns a list of all API categories (also called API routes) in your selected environment/environments and company/companies, and you need to select the appropriate API category in the subsequent steps of your Power Query code|
 |Advanced Options||This parameter allows you to specify some advanced options to connect to your [!INCLUDE [prod_short](includes/prod_short.md)] data source. Notice that in the vast majority of cases, the default values are optimized and don't need to be changed. For more information about these parameters, consult the following section.|
 
 For example, the query shown above in this section is completely equivalent to the following query:

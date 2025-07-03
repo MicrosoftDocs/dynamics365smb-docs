@@ -160,6 +160,7 @@ To set up a query to load data for multiple companies, follow these steps:
 In most cases, using the navigation experience in the Power BI Desktop user interface is enough to get you started with building reports based on [!INCLUDE [prod_short](includes/prod_short.md)] data. However, more complex scenario might require you to manually edit the Power Query code responsible to get your data.
 
 To do that, follow these steps:
+
 1. Start [!INCLUDE [powerbi-desktop-name](includes/powerbi-desktop-name.md)].
 2. Complete the step that suits your scenario:
 
@@ -218,7 +219,7 @@ For example, the query shown above in this section is completely equivalent to t
       customers_table
   ```
 
-### <a name="advancedopts"></a>Advanced: Customize language, timeout, database replica, or page size for your Business Central data source
+### Advanced: Customize language, timeout, database replica, or page size for your Business Central data source
 
 The [!INCLUDE [powerbi-connector-name](includes/powerbi-connector-name.md)] supports several advanced properties for connecting to a [!INCLUDE [prod_short](includes/prod_short.md)] data source that you can set in your Power Query queries. The following table describes the parameters.
 
@@ -268,7 +269,7 @@ By default, reports that use [!INCLUDE [prod_short](includes/prod_short.md)] dat
 
 `Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".`
 
-If you're using a custom API, we recommend you rework the AL code to make sure it doesn't make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#customize-the-power-query-code-that-connects-to-your).
+If you're using a custom API, we recommend you rework the AL code to make sure it doesn't make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](#advanced-customize-language-timeout-database-replica-or-page-size-for-your-business-central-data-source).
 
 ## Related information
 

@@ -47,7 +47,7 @@ When you configure e-invoices in the sales process, make sure to display your bu
 
 ### Purchase process
 
-Learn more in [Use e-documents in the purchase process](../../finance-how-use-edocuments.md), which provides information about the E-Documents framework in purchase processes.
+Learn more in [Use e-documents in the purchase process](../../finance-how-use-edocuments-purchase.md), which provides information about the E-Documents framework in purchase processes.
 
 To receive all three supported file formats, you must create a separate E-Document Service for each format and specify the desired format in the **Document Format** field. The process of receiving and creating e-documents is fully automated and requires no manual intervention. This includes ZUGFeRD, which is a PDF/A format—Business Central automatically extracts the embedded XML file and processes it as a new e-document.
 

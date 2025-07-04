@@ -2601,6 +2601,7 @@ ms.service: dynamics-365-business-central
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Searching the web with Copilot (preview)](ai-search-web-copilot.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)

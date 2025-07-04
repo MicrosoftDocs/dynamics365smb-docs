@@ -14,10 +14,14 @@ ms.collection:
 
 # Searching the web with Copilot (preview)
 
+[This article is prerelease documentation and is subject to change.]
+
 Some Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)] can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content, and saves you time from having to switch apps to manually find things yourself. Copilot is powered by Microsoft Bing, and connecting Copilot to Bing search is optional. 
 
 > [!IMPORTANT]
 > Bing Search is available from update 26.3, initially in Sandbox environments only. Because it's intended for use with AI features, Bing Search isn't available for [!INCLUDE [prod_short](includes/prod_short.md)] on premises.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is Bing Search? 
 

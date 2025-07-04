@@ -106,7 +106,7 @@ The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for o
 
 ## How is Microsoft improving chat with Copilot?
 
-We're continually working on improving reliability and response time. We announced the next expansion of chat where Copilot can answer questions about how to use installed add-on apps. Learn more in [Chat with Copilot to learn how to use installed add-on apps](/dynamics365/release-plan/2025wave1/smb/dynamics365-business-central/chat-copilot-learn-use-installed-add-on-apps).
+We're continually working on improving reliability and response time.
 
 We encourage administrators to try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature: Enables advanced navigation (not data) search capabilities by utilizing semantic similarity search on application metadata.** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields, and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
 

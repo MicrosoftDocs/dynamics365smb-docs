@@ -21,12 +21,6 @@ The completed entries can be sent in a file to the Intrastat authorities, or you
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
-## Print a Finnish Intrastat report
-
-1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
-1. Enter the batch name for the Intrastat report.  
-1. Choose the **Print** action, and then choose the **Checklist Report** action.  
-1. Choose the **Print** action.  
 
 ## Related information
 

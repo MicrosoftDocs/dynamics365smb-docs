@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 04/25/2025
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 240, 1826, 1827
+ms.search.form: 240, 1826, 1827, Report_16, Report_17, Report_18, Report_4410
 ms.service: dynamics-365-business-central
 ---
 
@@ -154,6 +154,12 @@ If you don't want to include a business unit in the consolidation, you can exclu
 ### <a name="include"></a>Include a partially owned company in consolidation
 
 If you own only part of a company, you can include a percentage of each transaction that reflects the percentage you own. For example, if you own 70% of the company, consolidation includes $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card and enter the percentage in the **Consolidation %** field.  
+
+## Consolidation finance report overview
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
 
 ## Related information
 

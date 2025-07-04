@@ -1,0 +1,1 @@
+Check end of financial year figures, excluding closing entries, and compare this year and the previous year.

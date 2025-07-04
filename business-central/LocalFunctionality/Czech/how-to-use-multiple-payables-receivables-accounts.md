@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Multiple payables/receivables accounts 
-description: This functionality allows users to change Customer and Vendor posting groups in the moment of posing a particular transaction.
+description: Enables users to modify Customer and Vendor posting groups when posting a transaction.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 11/09/2023
-ms.reviewer: bholtorf
+ms.date: 06/05/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -16,9 +16,8 @@ Users often post transactions like bad debt or other types of receivable/payable
 
 ## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
-
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

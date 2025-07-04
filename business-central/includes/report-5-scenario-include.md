@@ -1,0 +1,1 @@
+Reconcile subledger balances for accounts receivable (AR) and accounts payable (AP) with their respective general ledger (G/L) control accounts. This report is especially useful during financial close or when investigating discrepancies between subledger and ledger data.

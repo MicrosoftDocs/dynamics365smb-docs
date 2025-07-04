@@ -24,6 +24,7 @@ Cost accounting is used to help you understand the costs of running a business. 
 |Allocate costs.|[Defining and Allocating Costs](finance-define-and-allocate-costs.md)|  
 |Learn the processes in creating cost budgets.|[Creating Cost Budgets](finance-create-cost-budgets.md)|
 |Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)|
+|Analyze your cost accounting data.| [Cost accounting reports](finance-cost-accounting-reports.md) |
 
 ## Related information  
 [Finance](finance.md)  

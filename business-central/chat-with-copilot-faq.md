@@ -3,11 +3,11 @@ title: Chat with Copilot FAQ
 description:  Learn how to chat with Copilot in Business Central. Find answers to common questions about chat features, settings, and limitations. 
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.topic: faq
 ms.collection:
   - bap-ai-copilot
-ms.date: 04/01/2025
+ms.date: 07/04/2025
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -44,8 +44,8 @@ As of January 2025, chat is available no matter which language you use in [!INCL
 
 It depends on the type of question you ask Copilot. For example:
 
-- If you ask questions to find records, it can find records in your custom tables that use custom fields.
-- If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
+- If you ask questions to find records, it can find records in your custom tables or find and filter custom fields.
+- If you ask Copilot for an explanation or guidance, it an provide answers about functionality from the apps that you have installed to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
@@ -69,12 +69,11 @@ Copilot might occasionally answer in different ways. Answers aren't always ident
 
 ## How do I use the Copy function on chat messages?
 
-You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot.
+You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, this can also be copied using a Copy menu item.
 
 ## Can I customize or extend chat?
 
-While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. 
-Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
+While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. However, Chat is ready to work with data and Help from your installed apps. Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
 ## Does Copilot search for data in other companies or environments?
 
@@ -82,7 +81,7 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## How does chat treat data residency? 
 
-The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation. Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
+The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about any apps you installed. Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 Microsoft Learn online service endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 

@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: faq
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.search.keywords: copilot, AI, chat 
 ms.collection:
   - bap-ai-copilot

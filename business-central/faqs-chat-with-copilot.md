@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Chat with Copilot (preview)
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/19/2025
+ms.date: 07/04/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -35,8 +35,8 @@ You can chat with Copilot to get answers to the following classes of questions:
 You can ask Copilot to explain a specific concept related to [!INCLUDE[prod_short](includes/prod_short.md)], like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Copilot searches the official [!INCLUDE[prod_short](includes/prod_short.md)] documentation published by Microsoft, and provides an answer based on the documentation.
 
 - Copilot uses the knowledge on Microsoft Learn (not a broad web search) to semantically search only Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] documentation on Microsoft Learn. This includes product documentation, release plans, local functionality content, and troubleshooting content.
-
-- Copilot doesn't take action, create new data, or modify any configuration. It simply summarizes any paragraphs it finds on Microsoft Learn that match the question or prompt in chat.
+- Copilot can also use knowledge from the 3rd party apps that your administrator has installed to [!INCLUDE[prod_short](includes/prod_short.md)]. This knowledge source is provided by the app publisher as part of the app, so Copilot doesn't do a broad web search here either. 
+- Copilot doesn't take action, create new data, or modify any configuration. It simply summarizes any paragraphs it finds on in online documentation that match the question or prompt in chat.
 
 ### Find business data and related pages
 
@@ -101,6 +101,13 @@ Microsoft doesn't use your company data, including the text you send to Copilot,
 Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of [!INCLUDE[prod_short](includes/prod_short.md)]'s platform security. This design means that Copilot can only access data that you have access to.
 
 For users with SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users. Organizations that don't apply [!INCLUDE[prod_short](includes/prod_short.md)]'s security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements [!INCLUDE[prod_short](includes/prod_short.md)]'s security model or deactivates chat.
+
+When Copilot needs to answer questions about 3rd party apps, it searches the online help content associated with those apps, powered by Bing Search. To ensure security and safety;
+
+- Copilot only searches these specific URLs and doesn't perform a broad web search
+- [!INCLUDE[prod_short](includes/prod_short.md)] applies various mechanisms such as content filtering and malicious site detection to reduce risk from these websites.
+
+Learn more about how Copilot searches the web in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
 ## Related information
 

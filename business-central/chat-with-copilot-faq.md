@@ -95,7 +95,7 @@ The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for o
 - Bing Search  
   Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use chat to ask for explanations about add-on apps, only the input prompt is to the Bing Search service. This is processed and not stored for more than one day. 
  
-  To prevent chat from connecting to the Bing Search service, turn of the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md). 
+  To prevent chat from connecting to the Bing Search service, turn off the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md). 
 
 ## What can I do if the chat pane doesn't show?
 

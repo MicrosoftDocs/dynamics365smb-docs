@@ -25,9 +25,9 @@ Some Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)] can sea
 
 ## What is Bing Search? 
 
-Microsoft Bing is an online service operated by Microsoft that allows apps to search the web and return web results, similar to when you open up your browser and search the web with Microsoft Bing or with other search engines. Bing Search enables safe, ad-free search results, surfacing relevant information from billions of websites. 
+Microsoft Bing is an online service operated by Microsoft that allows apps to search the web and return web results, similar to when you open up your browser and search the web with Microsoft Bing or with other search engines. Microsoft Bing Search enables safe, ad-free search results, surfacing relevant information from billions of websites. 
 
-Microsoft Bing is a separate product that operates differently from Dynamics 365 and has different data-handling practices covered by the Microsoft Services Agreement between each user and Microsoft, together with the Microsoft Privacy Statement. Microsoft acts as an independent data controller responsible for complying with all applicable laws and controller obligations.
+Microsoft Bing is a separate product that operates differently from Dynamics 365 and has different data-handling practices covered by the [Microsoft Services Agreement](https://aka.ms/msa) between each user and Microsoft, together with the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). Microsoft acts as an independent data controller responsible for complying with all applicable laws and controller obligations.
 
 ## Which Copilot features can search the web? 
 
@@ -35,7 +35,7 @@ The following table describes the list of Copilot capabilities that currently us
 
 | Feature | How Bing Search is used | What happens if Bing Search isn't enabled |
 | --- | --- | --- |
-| Copilot Chat | **From Update 26.3**<br> Copilot uses Bing Search to read publicly-available documentation that matches the add-on apps that you have installed to your environment, providing more accurate answers that are tailored to how your organization uses Business Central. This documentation is owned and hosted by the third-party publisher of each app. <br><br> **Example:** <br>You install an add-on to manage customer loyalty schemes that includes a new Customer Tier field added to the customer card. Copilot will now be able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses will be of lower quality.<br><br> Copilot will respond only based on content from Microsoft’s documentation that has no information about how you have customized Business Central. |
+| Copilot Chat | **From Update 26.3**<br> Copilot uses Bing Search to read publicly-available documentation that matches the add-on apps that you have installed to your environment, providing more accurate answers that are tailored to how your organization uses Business Central. This documentation is owned and hosted by the third-party publisher of each app. <br><br> **Example:** <br>You install an add-on to manage customer loyalty schemes that includes a new Customer Tier field added to the customer card. Copilot will now be able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses will be of lower quality.<br><br> Copilot will respond only based on content from Microsoft’s documentation that has no information about how you have customized Business Central. Learn more in [Chat with Copilot](chat-with-copilot.md). |
 
 ## How does Bing Search work? 
 
@@ -59,7 +59,7 @@ By enabling Bing Search in [!INCLUDE [prod_short](includes/prod_short.md)]:
 - Search results from Bing Search undergo various checks for safety, including malicious site detection and content filtering. 
 - Web search queries aren't shared with advertisers and aren’t used to train our foundation Large Language Models (LLMs). 
 - Copilot doesn’t search the web unconditionally. Searching the web is done selectively, whenever Copilot has no alternative to compute accurate results based on data within [!INCLUDE [prod_short](includes/prod_short.md)] or from the Azure OpenAI Service foundation models. 
-- Copilot can make outgoing calls to search the web, but it doesn't open up Copilot up for being accessed by any other website, app, or service on the internet. All calls are outgoing only. Copilot remains entirely operated by end-users in [!INCLUDE [prod_short](includes/prod_short.md)] with the security, privacy, and compliance controls for your organization. 
+- Copilot can make outgoing connects to search the web, but it doesn't open up Copilot up for being accessed by any other website, app, or service on the internet. All calls are outgoing only. Copilot remains entirely operated by end-users in [!INCLUDE [prod_short](includes/prod_short.md)] with the security, privacy, and compliance controls for your organization. 
 
 ## Related information
 

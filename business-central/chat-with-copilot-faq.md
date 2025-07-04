@@ -81,13 +81,21 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## How does chat treat data residency? 
 
-The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about any apps you installed. Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
+The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about any apps you installed. 
 
-Microsoft Learn online service endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
+- Azure OpenAI Service  
+  Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
+- Microsoft Learn online service  
+  Endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 
-To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
+  If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
+
+  To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
+- Bing Search  
+  Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use chat to ask for explanations about add-on apps, only the input prompt is to the Bing Search service. This is processed and not stored for more than one day. 
+ 
+  To prevent chat from connecting to the Bing Search service, turn of the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md). 
 
 ## What can I do if the chat pane doesn't show?
 

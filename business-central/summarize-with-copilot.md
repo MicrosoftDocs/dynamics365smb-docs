@@ -64,6 +64,17 @@ This feature is available on most card and document pages, like a **Customer car
 
      Select the **Regenerate summary** icon to generate a new summary, updated with changes to the record and related data. The same summary appears for a few minutes before a new one is automatically generated, but you can request a summary from the latest data at any time.
 
+## Share the summary  
+
+You can easily share any summary with your coworkers by using the **Copy summary** button, then pasting into your favorite app such as Microsoft Teams chats, Outlook emails, or in your project OneNote. Pasting a summary includes the summary bullet points and a link to the source page in Business Central that you can navigate to the full information.
+
+- To copy the summary from the FactBox, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the bottom of the FactBox, and then select **Copy summary**. The summary is now copied to your clipboard. You can also select or set focus to the FactBox using your keyboard and use the <kbd>Ctrl</kbd>+<kbd>C</kbd> shortcut, then switch apps and use <kbd>Ctrl</kbd>+<kbd>V</kbd> shortcut to paste.
+
+- To copy the summary from the Copilot pane, hover over the summary message and select **Copy**. The summary is now copied to your clipboard. You can also select or set focus to the summary message and use the <kbd>Ctrl</kbd>+<kbd>C</kbd> shortcut, then switch apps and use <kbd>Ctrl</kbd>+<kbd>V</kbd> shortcut to paste.
+
+> [!NOTE]
+> Summaries are intended for use within your organization and might contain sensitive information. Review the summary carefully before sharing outside of your organization.
+
 ## Show or hide the summary
 
 Business Central remembers if you collapsed, expanded, or hid the **Summary** the last time you had the page open.

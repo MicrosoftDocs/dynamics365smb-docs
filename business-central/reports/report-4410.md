@@ -111,6 +111,7 @@ There are several other ways to analyze your balance. To learn more, go to:
 
 ## Related information
 
+[Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md)   
 [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)  
 [Key finance report overview](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

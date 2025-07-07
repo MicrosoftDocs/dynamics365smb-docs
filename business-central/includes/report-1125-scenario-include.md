@@ -1,0 +1,1 @@
+Break down total costs by category, such as labor, materials, and overhead, to analyze how each cost type contributes to overall expenses. Use the report for detailed cost tracking and filtering by period or cost center.

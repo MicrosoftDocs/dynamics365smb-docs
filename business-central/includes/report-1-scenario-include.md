@@ -1,0 +1,1 @@
+Use the report when setting up or reviewing your company’s account structure, verifying posting groups, or preparing for financial reports and audits.

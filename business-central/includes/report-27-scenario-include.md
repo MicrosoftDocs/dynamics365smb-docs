@@ -1,0 +1,1 @@
+Analyze your general ledger with dimension totals by building groups of dimensions for combinations of dimension values, and calculate a general ledger balance total for each segment.

@@ -21,7 +21,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 > [!NOTE]  
 > Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
-> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). ATo use this feature, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
+> This feature is available as an app on [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, you must first install it on the **Extension Management** page. To learn more about this feature, go to [The Service Declaration Extension](finance-how-setup-use-service-declaration.md).  
 
 > [!IMPORTANT]  
 > This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features. If you haven't upgraded your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
@@ -46,7 +46,7 @@ Before you can use Intrastat reports, there are several configurations that must
 
 Use the **Intrastat Reporting Setup** page to enable and set the default behavior for Intrastat reporting. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals), or both, depending on thresholds set by your local authorities. You can also set default transaction types for the regular and return documents that are used for transaction reporting.
 
-Follow the steps to set up Intrastat reporting.
+Follow these steps to set up Intrastat reporting.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.
 2. On the **General** FastTab, select or enter field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] The following table describes some of the key fields.
@@ -90,6 +90,14 @@ Follow the steps to set up Intrastat reporting.
    | **Data Exch. Def. Code – Shipment** | Specifies the data exchange definition code to generate the Intrastat file for shipped goods. This field is available only if the **Split Receipts/Shipments Files** field is set to **Yes**. |
 
 6. On the **Numbering** FastTab, enter a value in the **Intrastat Nos** field.
+7. On the **Mandatory Fields** FastTab, turn on any of the following toggles to require people to fill in important fields on sales, purchase, and transfer documents. Making these fields mandatory helps ensure that your Intrastat reports are complete and accurate. Verification happens when you post the documents.
+
+   |Toggle  |Field made mandatory  |Documents  |
+   |---------|---------|---------|
+   |**Transaction Type Mandatory**     |     **Transaction Type**    |    Sales, purchase, and transfer     |
+   |**Transaction Spec. Mandatory**     |  **Transaction Specification**       |  Sales, and transfer       |
+   |**Transport Method Mandatory**     |   **Transport Method**      |  Sales, and transfer       |
+   |**Shipment Method Mandatory**     |  **Shipment Method**, **Code**       | * **Shipment Method** or **Shipment Method Code** fields on purchase and transfers.</br>* **Code** field under **Shipment Method** on sales.         |
 
 ### Set up a reporting file
 
@@ -152,7 +160,7 @@ If you want to change how Intrastat works, and the default configuration isn't e
    3. In the **Validate Codeunit ID** field, specify the new codeunits for validating results inside Intrastat report lines.
 
 > [!IMPORTANT]
-> This line must be empty if you use the standard codeunits. You should only create a line and configure it if you have developed custom codeunits.
+> This line must be empty if you use the standard codeunits. You should only create a line and configure it if you have custom codeunits.
 
 ## Other Intrastat configurations
 
@@ -173,7 +181,7 @@ In addition to **Intrastat Report Setup**, **Data Exchange Definitions**, and **
 | **Countries/Regions** | On the **Countries/Regions** page, add **EU Country/Region Code** and **Intrastat Code** information to specify a code for the country/region that you're trading with. This information is used in Intrastat reporting. |
 | **Tariff Numbers** | In many countries/regions, the customs and tax authorities establish eight-digit codes for various items. To enable item entries to contain the necessary information when the program imports them to the Intrastat journal line, enter the item code on the **Tariff Numbers** page. Find the codes for the items that your company deals with, and enter them on the **Tariff Numbers** page. |
 | **Transport Methods** | There are seven, one-digit codes for Intrastat transport methods: **1** for sea, **2** for rail, **3** for road, **4** for air, **5** for the post, **7** for fixed installations, and **9** for own propulsion (for example, transporting a car by driving it). [!INCLUDE[prod_short](includes/prod_short.md)] doesn't require these specific codes. However, we recommend that the descriptions provide a similar meaning. |
-| **Transaction Types** | Countries and regions have different codes for types of Intrastat transactions. For example, for ordinary purchases and sales, exchange of returned goods, and exchange of non-returned goods. Set up all the codes that apply to your country/region. These codes are then used on the **Foreign Trade** FastTab on sales and purchase documents and when you process returns. |
+| **Transaction Types** | Countries and regions have different codes for types of Intrastat transactions. For example, for ordinary purchases and sales, exchange of returned goods, and exchange of nonreturned goods. Set up all the codes that apply to your country/region. These codes are then used on the **Foreign Trade** FastTab on sales and purchase documents and when you process returns. |
 | **Transaction Specifications** | Set up codes to supplement the transaction type descriptions. |
   
 > [!NOTE]
@@ -291,7 +299,7 @@ The sections that follow describe how to set up the transfer.
 
 ### Intrastat report
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link. 
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.
 2. In the **Intrastat Report Setup** in the **Default Country Code for Item Tracking** field, choose the **Purchase Headers** option.  
 
 ### Item  
@@ -310,7 +318,7 @@ After you select an item that has item tracking enabled on the purchase line, fo
 
 1. On the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
 2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.**, and entering value in **Quantity (Base)** field, choose one of the following options:  
-   1. The **Lot No. Information Card** action if you're using lots.   
+   1. The **Lot No. Information Card** action if you're using lots.
    2. The **Serial No. Information Card** action if you're using serial numbers.  
 3. You can choose **New** (**+**) to create new lot or serial numbers on the **Lot No. Information Card** or **Serial No. Information Card** pages. 
 4. The **Country/Region Code** is populated with the **Country/Region Code** from the purchase document. You can change it if you want.
@@ -371,7 +379,7 @@ A new Intrastat report experience for Italy is available starting in February 20
 
 ### Sweden
 
-Intrastat reporting in Sweden requires two different files for receipts and shipments. To verify that your setup is correct, follow the steps.
+Intrastat reporting in Sweden requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.  
 2. On the **Reporting** FastTab, verify that **Split Receipts/Shipments Files** is selected. If it is, two separate **Data Exch. Def. Code** values are configured.

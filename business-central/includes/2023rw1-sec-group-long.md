@@ -8,8 +8,8 @@ ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
-> Security groups are new to the online and on-premises versions of [!INCLUDE [prod_short](prod_short.md)] in 2023 release wave 1. They make it easier for administrators to manage user permissions by allowing them to group users by department, job function, and so on. Administrators assign the permissions to the group that its members need to do their jobs.
+> Security groups replace user groups starting in 2023 release wave 1 (version 22). User groups aren't available after 2024 release wave 1 (version 24).
 >
-> Security groups are similar to the user groups that are currently available. However, user groups are only relevant for [!INCLUDE [prod_short](prod_short.md)]. Security groups are based on groups in Microsoft 365 admin center or Azure portal. That benefits administrators because they can use their security groups with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](prod_short.md)] and SharePoint, administrators don't have to recreate the group and its members.
+> Security groups work like user groups, but they're defined in Microsoft Entra ID for online or Windows Active Directory for or on-premises instead of Business Central. This setup lets admins reuse security groups with other Dynamics 365 apps. Learn more in [Control Access to Business Central Using Security Groups](../ui-security-groups.md).
 >
-> To learn more about security groups, go to [Control Access to Business Central Using Security Groups](../ui-security-groups.md).
+> With Business Central on-premises version 22, 23, or 24, use the assisted setup guide to convert user groups to permission sets. This process helps you transition to security groups. Learn more in [Control Access to Business Central Using Security Groups](../ui-legacy-user-groups.md#convert-user-groups-to-permission-sets).

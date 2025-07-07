@@ -6,8 +6,10 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 04/14/2025
+ms.date: 06/19/2025
 ms.custom: bap-template
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Summarize records with Copilot (preview)
@@ -17,6 +19,10 @@ ms.custom: bap-template
 Use Copilot to get a quick summary of a record, such as a customer, item, or sales order, directly in the page's FactBox pane. Copilot uses AI to generate two or three concise bullet points that provide details and insights about the data tailored to your role in Business Central. The summary helps you understand the data and identify areas that need attention. Interact with the summary to link to data sources and open related pages, so you can act on your data.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+## How Copilot summarizes your data
+
+Copilot uses fields from the record, information from FactBoxes, and fields from related statistics pages to create a summary. It works on your behalf and can only access data that you can access in Business Central. For example, if you personalize the page to hide a field, Copilot doesn't include that field in the summary. If security controls remove access to specific fields, Copilot doesn't include those fields in summaries.
 
 ## Prerequisites
 
@@ -57,6 +63,17 @@ This feature is available on most card and document pages, like a **Customer car
    - Regenerate the summary
 
      Select the **Regenerate summary** icon to generate a new summary, updated with changes to the record and related data. The same summary appears for a few minutes before a new one is automatically generated, but you can request a summary from the latest data at any time.
+
+## Share the summary  
+
+You can easily share any summary with your coworkers by using the **Copy summary** button, then pasting into your favorite app such as Microsoft Teams chats, Outlook emails, or in your project OneNote. Pasting a summary includes the summary bullet points and a link to the source page in Business Central that you can navigate to the full information.
+
+- To copy the summary from the FactBox, select <kbd>...</kbd> **Show more options for FactBox pane** > **Summary** at the bottom of the FactBox, and then select **Copy summary**. The summary is now copied to your clipboard. You can also select or set focus to the FactBox using your keyboard and use the <kbd>Ctrl</kbd>+<kbd>C</kbd> shortcut, then switch apps and use <kbd>Ctrl</kbd>+<kbd>V</kbd> shortcut to paste.
+
+- To copy the summary from the Copilot pane, hover over the summary message and select **Copy**. The summary is now copied to your clipboard. You can also select or set focus to the summary message and use the <kbd>Ctrl</kbd>+<kbd>C</kbd> shortcut, then switch apps and use <kbd>Ctrl</kbd>+<kbd>V</kbd> shortcut to paste.
+
+> [!NOTE]
+> Summaries are intended for use within your organization and might contain sensitive information. Review the summary carefully before sharing outside of your organization.
 
 ## Show or hide the summary
 

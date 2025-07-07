@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - inventory counting documents
-description: This section describes the local functionality - Inventory Counting Documents in the Czech version of Business Central.
+description: Learn about inventory counting documents feature in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 11/09/2023
-ms.reviewer: bholtorf
+ms.date: 06/04/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -21,8 +21,7 @@ For the reasons above, this feature provides the following reports:
 
 ## Related information
 
-[Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-
+- [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

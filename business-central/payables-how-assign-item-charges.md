@@ -2,17 +2,17 @@
 title: Assign item charges to sales and purchases
 description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 07/19/2024
-ms.author: bholtorf
+ms.date: 06/17/2025
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
-# Use item charges to account for additional trade costs
+# Use item charges to account for extra trade costs
 
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all other direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
@@ -26,7 +26,7 @@ Before you can assign item charges, you must set up item charge numbers for the 
 
 For both purchase and sales documents, you can assign an item charge in two ways:
 
-* On the document that lists the items that the item charge relates to. Typically, you do this for documents that aren't yet fully posted.
+* On the document that lists the items that the item charge relates to. Typically, you use this method for documents that aren't yet fully posted.
 * On a separate invoice by linking the item charge to a posted receipt or shipment where the items that the item charge relates to are listed.
 
 > [!NOTE]  
@@ -79,7 +79,7 @@ If you received an invoice for the item charge after you posted the original pur
 3. On the **Purch. Receipt Lines** page, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
 4. Choose the **Suggest Item Charge Assignment** action.
 
-The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's inventory value with the cost of the item charge.
+The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt. The item's inventory value updates with the cost of the item charge.
 
 ## Handle item charges for partial receipts
 

@@ -5,22 +5,22 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
-ms.devlang: al
 ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026
-ms.date: 06/06/2024
+ms.date: 06/17/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 
 ---
 # Managing relationships
 
-The relationship management features of [!INCLUDE[prod_short](includes/prod_short.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.
+The relationship management features of [!INCLUDE[prod_short](includes/prod_short.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions with customer and contact segments.
 
 Good sales and marketing practices are all about how to make the best decisions at the right time. [!INCLUDE[prod_short](includes/prod_short.md)] provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.
 
 The following table describes a sequence of tasks, with links to the articles that describe them.  
 
-| To | See |
+| To... | Go to... |
 | --- | --- |
 |Define default settings for the use of contacts and interactions and set up number series.|[Setting Up Relationship Management](marketing-setup-marketing.md)|
 |Define the external entities that you have business relations with. For example, customers, prospective customers, vendors, lawyers, and consultants, either as Person type or Company type.|[Managing Contacts](marketing-contacts.md)|
@@ -31,5 +31,8 @@ The following table describes a sequence of tasks, with links to the articles th
 |Create marketing plans to identify, attract, and retain customers.|[Managing Marketing Campaigns](marketing-campaigns.md)|
 |Use Dynamics 365 Sales for customer engagement and enjoy seamless integration in the lead-to-cash process. Use [!INCLUDE [prod_short](includes/prod_short.md)] for backend activities such as processing orders, managing inventory, and doing your finances.|[Integrating with Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
 
+## Related information
+
+[Relationship management reports in Business Central](marketing-reports.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

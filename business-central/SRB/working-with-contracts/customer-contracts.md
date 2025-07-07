@@ -4,11 +4,10 @@ description: You can use customer subscription contracts in subscription billing
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: 
-ms.search.form: 8053, 8071
-ms.date: 05/06/2025
-ms.service: dynamics-365-business-central
+ms.search.form: 
+ms.date: 06/12/2025
 ms.custom: bap-template
 ---
 

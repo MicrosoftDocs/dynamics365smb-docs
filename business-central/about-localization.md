@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: availability, localization
 ms.search.form: 
-ms.date: 09/05/2023
+ms.date: 05/19/2025
 ms.custom: bap-template, references_regions
 
 ms.service: dynamics-365-business-central
 ---
-# What is Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]?
+# What is local functionality in [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries/regions where Microsoft provides the regulatory compliance and other local functionality.  
 
@@ -61,6 +61,5 @@ The following table provides links to articles where you can learn about the loc
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

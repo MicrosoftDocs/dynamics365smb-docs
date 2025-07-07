@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: German version, local functionality
-ms.date: 03/10/2025
+ms.date: 06/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -31,7 +31,7 @@ The following articles describe local functionality that is unique to the German
   - [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**
 
 - Core Finance
-  - [German Electronic Invoicing](germany-einvoicing.md) **Available Now**
+  - [German Electronic Invoicing (xRechnung, ZUGFeRD, Peppol)](germany-einvoicing.md) **Available Now**
   - [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md) **Available Now**
   - [Post a Negative Entry](how-to-post-a-negative-entry.md) **Available Now**
   - [Process for Digital Audits](process-for-digital-audits.md) **Available Now**
@@ -58,8 +58,8 @@ The following articles describe local functionality that is unique to the German
 
 ## Future legislation requirements being investigated
 
-- Adding ZUGFeRD e-invoicing format **Planned for 2025 release wave 1**
-- GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 1**
+- GDPdU/GoDB update - based on Audit Files Export **Planned for 2026 release wave 2**
+- Electronically supported tax audit (euBP) **Planned for 2026 release wave 2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

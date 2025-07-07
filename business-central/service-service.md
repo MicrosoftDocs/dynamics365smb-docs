@@ -1,21 +1,21 @@
 ---
 title: Service Management
-description: Learn to use features in Business Central designed manage and track services to support repair shop and field service operations.
+description: Learn to use features in Business Central designed to support service operations.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: get-started
 ms.search.keywords:
-ms.date: 04/26/2024
+ms.date: 05/19/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Service Management
 
 > [!NOTE]
-> The functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+> The functionality described in this article and related articles is only available if you have the **Premium** experience. To learn more, go to [Change Which Features are Displayed](ui-experiences.md).
 
-Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service isn't always easy, and [!INCLUDE[prod_short](includes/prod_short.md)] provides a set of tools to help. These tools are designed to support repair shops and field service operations, and support typical scenarios for those businesses:
+Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service isn't always easy, so [!INCLUDE[prod_short](includes/prod_short.md)] provides a set of tools to help. These tools are designed to support repair shops and field service operations, and support typical scenarios for those businesses:
 
 * Schedule service calls.
 * Manage service orders.  
@@ -27,7 +27,7 @@ In addition, you can standardize coding, set up contracts, implement a discounti
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
-|**To**|**See**|  
+|To...| Go to ...|  
 |------------|-------------|  
 |Set up Service Management, including fault codes, policies, default documents, and templates.|[Setting Up Service Management](service-setup-service.md)|  
 |Manage service pricing, create service items, and understand how to monitor progress.|[Planning Service](service-plan-service.md)|  

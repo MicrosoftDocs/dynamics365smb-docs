@@ -1,13 +1,13 @@
 ---
 title: VAT - Czech local functionality
-description: This section describes Czech local functionality for VAT and specifically helping with VAT dates and reporting.
+description: Provides an overview of Czech local functionality for VAT, focusing on VAT dates, reporting, and related compliance features.
 author: ACMartinKunes
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, VAT
-ms.date: 11/27/2023
-ms.reviewer: bholtorf
-ms.author: v-makune
+ms.date: 06/02/2025
+ms.reviewer: v-soumramani
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The VAT date is important for tax documents according to §28 of VAT Law 235/2004. The VAT date can be different from the posting date or the document date. The VAT date is an important field for the VAT reporting.  
 
-This feature focuses on improving the following:
+This feature focuses on improving the following aspects:
 
 ### Setup of the VAT Date feature
 
@@ -26,7 +26,7 @@ This feature focuses on improving the following:
 - Periods for reporting VAT and company accounting periods are often different. To allow users to seamlessly report and post VAT according to VAT periods, and to issue internal and other statutory reporting based on accounting periods, this VAT Date feature introduces VAT periods.
 - Allow VAT Posting From/To – enter a date range in from/to fields to prevent mistakes of posting to closed accounting or VAT periods.
 
-### Posting Sales, Purchase, and Service Transactions with VAT Date
+### Posting sales, purchase, and service transactions with VAT date
 
 To post transactions using a VAT date, the user must fill in the **VAT Date** field on the document headers and journal lines throughout the application.
 After the posting of the VAT date, it becomes a part of the posted documents and G/L entries and VAT entries.
@@ -44,7 +44,7 @@ Amounts shown in new Net Change (VAT Date) columns on all the following pages ar
 - G/L Balance form
 - G/L Account Balance form
 
-## VAT Statement
+## VAT statement
 
 The VAT Statement report contains many improvements, which enable the user to:
 
@@ -59,7 +59,7 @@ The VAT Statement report contains many improvements, which enable the user to:
 - Export the VAT statement to an .xml file.
 - Add comments and attachments to export to the tax authorities.
 
-## Supplementary VAT Statement
+## Supplementary VAT statement
 
 According to §43 part 1 of VAT Law 235/2004, the payer can submit a supplementary VAT statement. In case the user wants to issue the **Supplementary VAT Statement** report, they must choose the **Supplementary** type of VAT statement when exporting the statement.
 In the Calculate and Post VAT Settlement functionality, the posted document number is stored in closed VAT entries in the **VAT Settlement No.** field for further filtering in VAT statements and reports. This feature allows calculation and printing VAT statement for different VAT statements posted and submitted in one VAT period.
@@ -82,9 +82,11 @@ The VIES functionality allows you to:
 The amendment of VAT Law 235/2004 (§106a) introduced the concept of *Unreliable Payer*. The treasury department is obliged to publish the names of unreliable payers.
 
 This feature uses this service to obtain published information and indicate payer status on vendor cards and purchase documents.
+
 The treasury department also publishes information about registered bank accounts of the payer (only these accounts are allowed for payments). Information about payer registered bank accounts is stored on the vendor bank account cards and used in cash management.
 
 ## VAT exchange rate
+
 The exchange rate is located in documents, but Czech Republic requires the possibility to set different exchange rates for posting and VAT in sales and purchase documents. This feature adds the **VAT Currency Code** and **VAT Exchange Rate** fields in documents. Users can change the exchange rate for VAT before document posting.
 
 ## [VAT control report](vat-control-report.md)
@@ -104,6 +106,5 @@ To fulfill the requirements in legislation reporting and local reporting practic
 ## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

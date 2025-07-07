@@ -1,11 +1,11 @@
 ---
 title: Compensation localization for Czech
-description: The application provides functionality for offsetting receivables and payables in Business Central for the Czech Republic.
+description: Enables offsetting receivables and payables in Business Central for Czech companies, supporting mutual settlements between customers and vendors.
 author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Compensation, Finance, CZ, Cash
-ms.date: 11/23/2023
-ms.reviewer: bholtorf
+ms.date: 06/06/2025
+ms.reviewer: bv-soumramani
 ms.author: v-pejano
 ---
 
@@ -26,8 +26,7 @@ There's also a print-out of the Agreement on Mutual Settlement of Receivables an
 
 ## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
-
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,0 +1,1 @@
+Remove internal transactions between companies during financial consolidation to avoid duplicate revenues and expenses. Run this report after posting all intercompany transactions to ensure accurate and compliant group-level financial statements. Use it to streamline consolidation and maintain the integrity of financial reporting.

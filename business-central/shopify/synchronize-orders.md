@@ -35,7 +35,7 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 
-It can be useful for people who work with Shopify Admin to see whether orders synchronized to Business Central. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle gives you control over synchronization.
+It can be useful for people who work with Shopify Admin to see whether orders have been synchronized with [!INCLUDE[prod_short](../includes/prod_short.md)] and subsequently processed. In some cases, for example in high load environments, you might want to turn off synchronization. The **Add Business Central Doc. No. as Attribute** toggle provides you control over synchronization. When enabled, after an order has been processed in [!INCLUDE[prod_short](../includes/prod_short.md)] and the corresponding sales document has been created, the document number will be added as an attribute to the Shopify order. An entry will appear in the order’s timeline indicating that [!INCLUDE[prod_short](../includes/prod_short.md)] modified the order, the modified Shopify order will be included in the next round of order synchronization.
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 

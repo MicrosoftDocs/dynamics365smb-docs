@@ -215,8 +215,13 @@ The next steps depend on the **Customer Mapping Type**.
 * If it's **By EMail/Phone**, the connector tries to find the existing customer by ID first, then by email, and then by phone number. If the customer isn't found, the connector creates a new customer.
 * If it's **By Bill-to Info**, the connector tries to find the existing customer by ID first and then by the bill-to address information. If the customer isn't found, the connector creates a new customer.
 
+If customer is found, it will be used to populate both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields in the **Shopify Order** page. Connector ignores the value the **Bill-to Customer No.** defined in the **Customer Card** page.
+If a customer is identified, their information will be used to populate both the **Sell-to Customer No.** and the **Bill-to Customer No.** fields. The connector disregards any value specified in the **Bill-to Customer No.** on the **Customer Card** page.
+
 > [!NOTE]  
-> The connector uses information from the bill-to address and creates the bill-to customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. The sell-to customer is the same as the bill-to customer.
+> The connector uses information from the bill-to address and creates the customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. 
+>
+> Connector doesn't populate the **Bill-to Customer No.** field in the created customer.
 
 For B2B orders, the flow is the similar although the connector uses the **Default Company No.**, **Company Import From Shopify**, and **Company Mapping Type** fields on the **Shopify Shop Card** page. There's no **Default Company No.** in the **Shopify Customer Template** because for B2B named customers are expected.
 

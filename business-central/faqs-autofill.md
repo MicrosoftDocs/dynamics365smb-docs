@@ -112,7 +112,7 @@ The Autofill feature relies on Azure OpenAI Service and Bing Search to provide s
 
 ## What does Autofill offer for security?
 
-When Autofill is used on fields of public domain, it searches the web  powered by Bing Search. To ensure security and safety.
+When Autofill is used on fields of public domain, it searches the web powered by Bing Search. To ensure security and safety.
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] applies various mechanisms such as content filtering and malicious site detection to reduce risk from these websites.
 

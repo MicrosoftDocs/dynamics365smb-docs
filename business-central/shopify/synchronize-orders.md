@@ -29,8 +29,8 @@ Enable **Auto Sync Orders** to receive real-time notifications whenever a new or
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
-* **Shipping Charges Account**: You can choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
-* **Sold Gift Card Account**: Learn more at [Gift Card](synchronize-orders.md#gift-cards)
+* **Shipping Charges Account**. You can also choose different types of shipping charges, such as G/L account, item, or item charge, and specify the shipping agent and shipping agent service on the **Shipping Charges** page. To learn more, go to [Shipment method mapping](#shipment-method-mapping).
+* **Sold Gift Card Account**. Learn more at [Gift Card](synchronize-orders.md#gift-cards)
 * **Tip account**  
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
@@ -48,13 +48,14 @@ If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_shor
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
+#### Setup returns and refunds
+
 Specify how you process returns and refunds:
 
 * **Blank** specifies that you don't import and process returns and refunds.
 * **Import only** specifies that you import information, but you manually create the corresponding credit memo.
 * **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
 
-#### Setup returns and refunds
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
@@ -66,6 +67,8 @@ The **Return Location Priority** field offers the following options:
 
 * **Default Return Location**: This is the default option. It uses the value from the Default Return Location field when creating sales credit memos.
 * **Original > Default Location**: Select this option if you want the connector to find the original location on the Shopify refund or, if applicable, the Shopify return document. If the connector can't find the original location, for example, when an item is restocked in several locations, it uses the **Default Return Location** defined on the **Shopify Shop Card** page.
+
+Some amounts associated with refund will be posted directly to the G/L account, choose G/L accouns you want to use for specific transaction types:
 
 * **Refund Account non-restock Items** specifies a G/L Account No. for items where you don't want to have an inventory correction.
 * **Refund Account** specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
@@ -398,9 +401,6 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 |G/L Account|Refund Account Nonstock | Use for refunds related to products that weren’t restocked. |
 |Item |Item No.| Use for refunds related to products that were restocked. Valid for direct refunds or refunds linked to returns. The location code on the credit memo line is set based on the value selected for the return location.|
 |G/L Account| Refund Account | Use for other refunded amounts that aren't related to products or gift cards. For example, tips, or if you manually specified an amount to refund in Shopify. |
-
-> [!Note]
-> The return locations, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
 
 ## Gift cards
 

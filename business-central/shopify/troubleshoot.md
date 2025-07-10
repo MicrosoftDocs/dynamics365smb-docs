@@ -57,7 +57,7 @@ The **Logging Mode** field controls the content of the **Shopify Skipped Records
 > [!NOTE]
 > The **All** option works in the same way as **Error Only** and logs only skipped entries. It won't log entries that were previously skipped.
 
-Over time, the number of records on the Shopify Skipped Records pageTo help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](/dynamics365/business-central/admin-data-retention-policies).
+The volume of records on the **Shopify Skipped Records** page increases over time. To help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
 
 ### Cases that the Shopify Connector logs
 

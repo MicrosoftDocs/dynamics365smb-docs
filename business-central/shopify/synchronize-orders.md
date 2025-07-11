@@ -117,6 +117,8 @@ The location mapping is required to fill in the **Location Code** for sales docu
 
 > [!NOTE]  
 > Location mapping is also used to sync inventory. To learn more, go to [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
+>
+> Shopify Connector creates sales invoices for fuflilled documents and credit memos for refunds also for locations where **Directed Put-away and Pick** toggle is enabled. The warehouse entries will be posted against adjustment bin. To reconsile quanities with normal bins, use the **Warehouse physical inventory journal**. 
   
 ## Run the order synchronization
 

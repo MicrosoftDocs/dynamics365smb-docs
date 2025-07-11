@@ -168,7 +168,7 @@ Following are few examples of accounting entries.
     |**Bank Account**|-10000| 
     |**IGST Receivable Account**|-10000|
     |**CGST Receivable Account**|-15000|
-    |**SGST/UTGST Receivable Account**|-10000| 
+    |**SGST/UTGST Receivable Account**|-10000|
 
 - Example for Accounting Entry when Credit Availed is Negative:
 

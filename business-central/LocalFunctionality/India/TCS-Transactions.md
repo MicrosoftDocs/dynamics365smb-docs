@@ -1,22 +1,17 @@
 ---
 title: TCS calculation on Sales and Receipt Transactions
 description: TCS calculation on Sales and Receipt Transactions Transactions
-
 author: v-debapd
-
-    
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# TCS Calculation on Sales and Receipt Transactions
 
-
+# TCS calculation on sales and receipt transactions
 
 TCS can be collected on goods (Items) and services (G/L Account) transactions. TCS calculations can be done through following documents:
 

@@ -1167,6 +1167,7 @@ ms.service: dynamics-365-business-central
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
 ### [Automate Shopify synchronization using the job queue](shopify/background.md)
+### [Working with Shopify POS](shopify/shopify-pos.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Support for the Shopify connector](shopify/shopify-support.md)

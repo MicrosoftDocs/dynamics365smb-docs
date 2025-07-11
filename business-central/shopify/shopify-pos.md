@@ -2,7 +2,7 @@
 title: Working with Shopify POS
 description: Special notes related to Shopify as a Sales Channel.
 ms.date: 01/27/2025
-ms.topic: shopify-pos
+ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.search.form: 30100, 30167, 
@@ -18,13 +18,13 @@ Shopify Connector imports orders created via Shopify POS the same way as orders 
 
 ## Testing 
 
-To test Shopify POS on a trial or development store, use *Shopify payments* in test mode for credit card transactions. The test cards from *(for testing) Bogus Gateway* will not work. For more information about testing see, [Create and Set up Shopify Accounts](hopify-account.md)
+To test Shopify POS on a trial or development store, use *Shopify payments* in test mode for credit card transactions. The test cards from *(for testing) Bogus Gateway* will not work. For more information about testing see, [Create and Set up Shopify Accounts](shopify-account.md)
 
 ## Order handling
 
 It is common, that orders created via POS are immidiatelly fulfilled by Shopify. It is important to check that the **Automatically archive the order** is disabled in the **Order Processing** section of the [**General**](https://www.shopify.com/admin/settings/general) settings in your **Shopify admin** as you can't import orders that are archived in Shopify. 
 
-If Shopify Order is already fulfilled, when you choose **Create sales document** action a **Sales Invoice** gets created.  As **Sales Invoice** doesn't reduce inventory level, it might be a good idea to post such invoices as soon as they are imported, for more information, see [To schedule recurring tasks](background#to-schedule-recurring-tasks)
+If Shopify Order is already fulfilled, when you choose **Create sales document** action a **Sales Invoice** gets created.  As **Sales Invoice** doesn't reduce inventory level, it might be a good idea to post such invoices as soon as they are imported, for more information, see [To schedule recurring tasks](background.md#to-schedule-recurring-tasks)
 
 ## Customer
 

@@ -78,8 +78,8 @@ Repeat steps 2-6 for all online shops that you want to connect.
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronize.
 
 - [Synchronize Items and Inventory](synchronize-items.md)
-- [Synchronize Customers](synchronize-customers.md)
-- [Synchronize Orders](synchronize-orders.md)
+- [Synchronize Customers and Companies](synchronize-customers.md)
+- [Synchronize and Fulfill Orders](synchronize-orders.md)
 
 ## Testing strategies
 
@@ -109,6 +109,8 @@ If you must use this configuration, we recommend that you review and probably di
 
 For more information, see [Restoring an Environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 
+Also consider making a copy of company instead.
+
 ### Shopify production and Business Central sandbox
 
 It might be a good idea to back up your data. For example, export your products and customers. For more information, see [Using CSV files to back up store information](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
@@ -118,7 +120,6 @@ Turn off the **Allow Data Sync to Shopify** toggle so that [!INCLUDE[prod_short]
 If you keep the **Allow Data Sync to Shopify** toggle enabled, then other protective measures are:
 
 - Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, and synchronize prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
-- Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
 
 ## Related information
 

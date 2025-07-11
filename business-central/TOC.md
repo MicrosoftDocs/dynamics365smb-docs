@@ -1949,6 +1949,7 @@ ms.service: dynamics-365-business-central
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and credit memo types in sales and purchase documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [VERI*FACTU compliance](LocalFunctionality/Spain/verifactu-setup.md)
 #### Core finance
 ##### [Set up and close income statement balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and validate chart of accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)

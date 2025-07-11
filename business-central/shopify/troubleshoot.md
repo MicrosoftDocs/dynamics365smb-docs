@@ -222,4 +222,9 @@ It seems that you tried to get an access token multiple times. Make sure that th
 
 ## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)
+[Shopify Connector overview](shopify-connector-overview.md)
+
+[FAQ for the Shopify connector](shopify-faq.md)
+
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

@@ -76,4 +76,9 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 
 ## Related information
 
-[Get started with the Shopify Connector](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)
+
+[FAQ for the Shopify connector](shopify-faq.md)
+
+[Troubleshoot the Shopify Connector](troubleshoot.md)
+

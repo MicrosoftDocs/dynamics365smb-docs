@@ -15,9 +15,9 @@ ms.service: dynamics-365-business-central
 
 Businesses often use the job queue to automate recurring tasks in [!INCLUDE [prod_short](../../includes/prod_short.md)]. To learn more about the job queue, go to [Use job queues to schedule tasks](../../admin-job-queues-schedule-tasks.md).
 
-For subscription billing, the following entry is created in the job queue:
+For subscription billing, you can create the following entry in the job queue:
 
-* **Update Service Dates** (codeunit 70920758): Automatically updates date fields in subscription lines daily at 1:00 AM. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
+* **Update Sub. Lines Term. Dates** (codeunit 8058): Automatically updates date fields in subscription lines. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
 
 ## Related information
 

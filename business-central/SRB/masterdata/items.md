@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059, 8061_Primary
-ms.date: 08/14/2024
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -19,7 +19,7 @@ The following table describes the available options.
 
 |Option|Meaning|
 |--|--|
-|No Subscription| The item is for sale only and not for subscription lines or contracts. This is the default option. It's also used when subscription billing isn't used. <br/>For items with this setting, subscriptions aren't created upon delivery, and you can't create them manually.|
+|No Subscription| The item is for sale only and does not use subscription lines or contracts. This is the default option. It's also used when subscription billing isn't used. <br/> For items with this setting, subscriptions aren't created upon delivery, and you can't create them manually.|
 |Sales with Subscription|The item can be sold with additional subscription lines. If additional subscription lines are stored, these are used either automatically (**Default** is selected in the assigned subscription line package) or on request in the sales process. <br/> For items with this setting, a subscription is created automatically upon delivery.
 |Subscription Item|The item can be used in a sales document, but invoicing is done only through the contract in the form of subscription lines. When a sales order line is delivered, it's set as **Invoiced**. You can select this option only if the item's **Type** is **Non-Inventory**. <br/> For items with this setting, a subscription is created automatically upon delivery.
 |Invoicing Item|The item is used for billing additional subscription lines sold for another item. You can select this option only if the item's **Type** is **Non-Inventory**. This item can't be used on document lines. For example, on sales quotes, sales orders, sales invoice, purchase invoices, and so on. <br/> You can't create subscriptions for items with this setting.
@@ -34,4 +34,4 @@ Similar to the FactBox, you can also use the **Subscription Packages** action to
 
 ## Related information
 
-[Overview of subscription billing](../welcome.md)  
+[Overview of subscription billing](../welcome.md)

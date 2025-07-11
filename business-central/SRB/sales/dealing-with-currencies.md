@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059,
-ms.date: 08/14/2024
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -17,18 +17,18 @@ In [!INCLUDE [prod_short](../../includes/prod_short.md)], you can make transacti
 
 ## Foreign currencies in subscription lines
 
-If you enter a currency code on a sales order, for example, or if you specify a currency for a customer, the price on the order is converted to that currency. This conversion is the same for sales subscription lines in subscription billing. In the subscription lines for the subscription, the **Currency Code** field also indicates the currency to which the **Service Amount** field refers.
+If you enter a currency code on a sales order, for example, or if you specify a currency for a customer, the price on the order is converted to that currency. This conversion is the same for sales subscription lines. In the subscription lines for the subscription, the **Currency Code** field also indicates the currency to which the **Amount** field refers.
 
-When you manually create a subscription with subscription lines, the **Currency Code** field and the corresponding fields in the service are initially empty, even if a currency code is specified for the customer. The currency code can remain blank because the contract that's used to bill the service determines which currency to use.
+When you manually create a subscription with subscription lines, the **Currency Code** field and the corresponding fields in the line are initially empty, even if a currency code is specified for the customer. The currency code can remain blank because the contract that's used for billing determines which currency to use.
 
-When you create the subscription and subscription lines by using a sales shipment, the currency code from the sales order automatically transfers to the service.
+When you create the subscription and subscription lines by using a sales shipment, the currency code from the sales order automatically transfers to the subscription lines.
 
-## Convert service amounts
+## Convert amounts
 
-When assigning subscription lines to a contract, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether to convert the amounts. If the currency code in the contract is the same as the currency code in the subscription lines, no conversion is required. Otherwise, the conversion is done by a query in which the last conversion factor is suggested based on the work date. If you choose **OK**, [!INCLUDE [prod_short](../../includes/prod_short.md)] recalculates the fields for the currency, update the subscription line, and then add it to the contract. The dialog also displays when you change the currency code in the contract.
+When assigning subscription lines to a contract, [!INCLUDE [prod_short](../../includes/prod_short.md)] checks whether to convert the amounts. If the currency code in the contract is the same as the currency code in the subscription lines, no conversion is required. Otherwise, the conversion is done by a query in which the last conversion factor is suggested based on the work date. If you choose **OK**, [!INCLUDE [prod_short](../../includes/prod_short.md)] recalculates the fields for the currency, updates the subscription line, and then add it to the contract. The dialog also displays when you change the currency code in the contract.
 
 > [!NOTE]
-> When you assign subscription lines to a contract that requires currency conversion, all services must have the same currency code.
+> When you assign subscription lines to a contract that requires currency conversion, all subscription lines must have the same currency code.
 
 ## Update exchange rates on subscriptions
 
@@ -44,13 +44,13 @@ The method described in this section ensures that prices for subscription lines 
 > * Price
 > * Discount %
 > * Discount Amount
-> * Service Amount
+> * Amount
 >
 > These are the fields that your changes update based on the specified exchange rate:
 >
 > * Price (LCY)
 > * Discount Amount (LCY)
-> * Service Amount (LCY)
+> * Amount (LCY)
 
 ## Update exchange rates for currencies automatically
 

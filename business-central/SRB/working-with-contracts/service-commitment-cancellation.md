@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 8004,
-ms.date: 05/02/2025
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -18,7 +18,7 @@ All subscription contract lines have information about their validity and termin
 
 ## Cancel a subscription contract line or subscription line
 
-Use the **Subscription Line End Date** field to specify a date on which you stop billing a subscription line. The end date doesn't depend on the dates in the **Cancelation Possible Until** and **Term Until** fields.
+Use the **Subscription Line End Date** field to specify a date on which you stop billing a subscription line. The end date doesn't depend on the dates in the **Cancellation Possible Until** and **Term Until** fields.
 
 If there isn't an agreement with the supplier or customer, the field is blank. If the **Subscription Line End Date** is one day prior to the **Next Billing Date**, the contract line is considered terminated. <!--When you run the **Update Service Dates** action, the contract line is marked as closed on the customer subscription contract. To learn more, go to [Customer subscription contracts](customer-contracts.md#customer-contracts). I don't see this action anywhere-->
 
@@ -33,8 +33,8 @@ The **Subsequent Term** specifies the duration of the automatic extension after 
 
 For example, if there's a contract line with a **Next Billing Date** on **01.01.YYYY** that renews annually and has a notice period of three months, the termination dates are as follows:
 
-* **Term Until** is **31.12.YYYY**. The contract line should be charged for the whole year even if it's terminated in due time.
-* **Cancellation possible until** is **30.09.YYYY**. The contract line can be terminated in due time up to this date. If the cancellation is received later, the contract line will be billed for another year.
+* **Term Until** is **12.31.YYYY**. The contract line should be charged for the whole year even if it's terminated in due time.
+* **Cancellation possible until** is **09.30.YYYY**. The contract line can be terminated in due time up to this date. If the cancellation is received later, the contract line is billed for another year.
 
 > [!NOTE]
 > If a customer cancels a contract line, you can enter the date until which it will be invoiced directly in the contract line. If the cancellation is after the deadline, the regular end date can be entered or, as a gesture of goodwill, the deadline can be ignored. This can be especially helpful if the customer wants to upgrade, for example, and the old contract line should therefore no longer be billed.

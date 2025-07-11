@@ -417,4 +417,10 @@ To review the issued and applied gift cards, choose the ![Lightbulb that opens t
 
 ## Related information
 
-[Get started with the Shopify Connector](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)
+
+[FAQ for the Shopify connector](shopify-faq.md)
+
+[Troubleshoot the Shopify Connector](troubleshoot.md)
+
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

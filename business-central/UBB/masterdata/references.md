@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8043, 8044
-ms.date: 05/07/2025
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -19,13 +19,13 @@ To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short
 > [!NOTE]
 > You can only bill subscription lines that are part of a vendor or customer subscription contract.
 
-The usage data usually only knows the subscription to which it's related. The subscription lines, however, know to which contract they're assigned. The link is the subscriptions that connect to a subscription line.
+The usage data usually only knows the subscription line to which it's related. The subscription lines, however, know to which contract they're assigned. The link is the supplier subscriptions that connect to a subscription line.
 
-For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the subscription lines. This path is how the usage data finds the related subscription, subscription lines, subscriptions, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer subscription contracts to bill for usage data.
+For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the subscription lines. This path is how the usage data finds the related subscription, subscription lines, contracts, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer subscription contracts to bill for usage data.
 
 ## References for subscriptions
 
-To ensure that subscriptions are unique, each subscription or its ID has an entry in **Usage Data Supplier References** field on the **Usage Data Supplier References** page. This reference always belongs to the supplier that is used to import the usage data for a subscription. If the usage data supplier is set up to [automatically create subscriptions](customers-subscriptions.md#usage-data-subscriptions), the record is also created automatically. Otherwise, you must manually create the reference.
+To ensure that subscriptions are unique, each subscription or its ID has an entry in **Supplier Reference** field on the **Usage Data Supplier References** page. This reference always belongs to the supplier that is used to import the usage data for a subscription. If the usage data supplier is set up to [automatically create subscriptions](customers-subscriptions.md#usage-data-subscriptions), the record is also created automatically. Otherwise, you must manually create the reference.
 
 ## References for products
 
@@ -46,7 +46,7 @@ The reference displays on the **Usage Data Supplier References** page as type **
 
 A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID has an entry on the **Usage Data Supplier References** page. When you have usage data customers, the record is also created automatically. Otherwise, you must create the reference manually. To learn more, go to [Usage data customers and suppliers](customers-subscriptions.md#usage-data-customers-and-suppliers).
 
-To maintain the customer reference, you can open the reference table by using the **Supplier Reference Entry No.** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
+To maintain the customer reference, you can open the reference table by using the **Supplier Reference** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
 
 ## Related information
 

@@ -82,3 +82,6 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 
 [Troubleshoot the Shopify Connector](troubleshoot.md)
 
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+
+

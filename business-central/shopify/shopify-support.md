@@ -37,4 +37,11 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 
 ## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)
+
+[FAQ for the Shopify connector](shopify-faq.md)
+
+[Troubleshoot the Shopify Connector](troubleshoot.md)
+
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

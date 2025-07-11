@@ -69,6 +69,7 @@ The following table describes a sequence of tasks related to setting up and runn
 | Set up and run import and processing of sales orders from Shopify.| [Synchronize and fulfill sales orders with Shopify](synchronize-orders.md)|
 | Set up and run import of transactions and payouts from Shopify.| [Synchronize transactions and payouts](transactions-and-payouts.md)|
 | Configure synchronization of data between [!INCLUDE [prod_short](../includes/prod_short.md)] and Shopify in the background.| [Automate Shopify synchronization using job queue](background.md)|
+| Learn about nuances when working with Shopify POS|[Working with Shopify POS](shopify-pos.md)|
 
 ## Demonstration and testing
 
@@ -96,5 +97,9 @@ Find information related to support and troubleshooting.
 
 ## Related information
 
-[Get started with the Shopify Connector](get-started.md)  
-[Walkthrough: Set up and use the Shopify Connector](walkthrough-setting-up-and-using-shopify.md)
+[FAQ for the Shopify connector](shopify-faq.md)
+
+[Troubleshoot the Shopify Connector](troubleshoot.md)
+
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

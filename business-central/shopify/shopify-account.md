@@ -66,5 +66,11 @@ After creating the store, in the **Shopify Admin** of the created shop, apply th
 
 ## Related information
 
-[Get Started with the Shopify Connector](get-started.md)  
-[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)
+[Shopify Connector overview](shopify-connector-overview.md)
+
+[FAQ for the Shopify connector](shopify-faq.md)
+
+[Troubleshoot the Shopify Connector](troubleshoot.md)
+
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

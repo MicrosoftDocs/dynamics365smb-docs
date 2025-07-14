@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550, 
-ms.date: 06/10/2025
+ms.date: 07/14/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -19,28 +19,37 @@ The quantity fields at the top of the **Item Tracking Lines** page display the q
 [!INCLUDE [prod_short](includes/prod_short.md)] updates the availability information on the **Item Tracking Lines** page when you open the page. It doesn't update the information while you have the page open, even if changes occur in inventory or on other documents during that time.
 
 > [!NOTE]  
-> In order for the features described in this article to work, you must set up item tracking. To learn more, go to [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
+> To use the features that this article describes, you must set up item tracking. To learn more, go to [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
+>
+> You can enter **SN No.**, **Lot No.**, or **Package No.** even if their specific tracking fields aren't available. This is helpful, for example, when you need to record tracking details during receipt for warranty purposes but don't track them in transfers, consumption, or sales. However, these scenarios might not align with warehouse flows if you use warehouse handling but only input tracking details for enabled fields. For example, if you only turn on **SN Specific Tracking**, don't fill in the **Lot No.** or **Package No.** fields in transactions.
 
-## Item tracking availability
+## Specify opening balances for the items you track
 
-When you work with serial, lot, and package numbers, [!INCLUDE[prod_short](includes/prod_short.md)] calculates availability information and shows it on various item tracking pages. It shows how much of a lot, package, or serial number is used on other documents. This information helps reduce errors and uncertainty caused by double allocations.
+You can create opening balances for the items you track. Because you can choose different warehouse configurations, there are two options:
 
-On the **Item Tracking Lines** page, a warning icon might display in the **Availability, Lot No.** or **Availability, Serial No.** field for the following reasons:
+* Enable specific batches on the **Item Journal** page to let people enter serial, lot, and package data directly on journal lines.
+* For locations where the **Directed Put-away and Pick** toggle is turned on, use the **Warehouse Physical Inventory Journal** page to make all item tracking fields available. The fields that are available include the **Warranty Date** and **Expiration Date** fields.
 
-* Some or all of the quantity you selected is already used in other documents.
-* The lot or serial number isn't available.
+### Item journals
 
-The **Lot No./Serial No.-List**, **Lot No./Serial No.-Availability**, and the **Item Tracking - Select Entries** pages show the quantity of an item that's in use. The following table lists the relevant fields.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+2. To open a list of item journal batches, choose the **Name** field.
+3. Choose **New** to create a new batch, and then turn on the **Item Tracking on Lines** toggle.
+4. Choose **OK** to select the batch you created.
+5. Fill in the fields on the item journal line as necessary. The **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available if you enabled item tracking.
+    1. Alternatively choose the **Edit in Excel** action. Using Excel lets you quickly fill in columns, including **Serial No.**, **Lot No.**, **Package No.**, **Expiration Date**, and **Warranty Date**. When you're done, choose **Publish** to send changes to [!INCLUDE [prod_short](includes/prod_short.md)].
+6. Choose the **Post** action to adjust inventory.
 
-|Field|Description|
-|-----|-----------|  
-|**Total Quantity**|The total number of an item currently in inventory.|
-|**Total Requested Quantity**|The total number of items that are requested in this and other documents.|
-|**Current Pending Quantity**|The number of items that are requested on the current document but that isn't posted.|
-|**Current Requested Quantity**|The number of requested items that the current document will use.|
-|**Total Available Quantity**|The total number of items in inventory, minus the quantity of the requested item on this and other documents (total requested quantity), minus the requested quantity that isn't yet posted on this document (current pending quantity).|
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] does a few minor validations when you enter or import data. A more comprehensive check happens when you post or transfer data from journal lines to the **Item Tracking** page. The latter happens automatically when you open the **Item Tracking** page from the item journal line or if you choose the **Update Item Tracking Lines** action.
 
-If you work on the **Item Tracking Lines** page for a long time, or if its a popular item involved in many activities, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
+### Warehouse physical inventory journal for locations where directed pick and put-away is turned on  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Inventory Journal**, and then choose the related link.
+2. Fill in the fields on the item journal line as necessary. The **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available if you enabled item tracking.
+3. Choose the **Register** action to make the inventory adjustments. Remember to synchronize the adjusted warehouse entries with the related item ledger entries. To learn more, go to [synchronize the adjusted warehouse entries](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+For bulk imports, use configuration packages to import data to the journals.
 
 ## To assign serial or lot numbers during an inbound transaction
 
@@ -126,6 +135,28 @@ When you work with items that require item tracking, and you're creating outboun
 The quantity fields in the header dynamically display the quantities and sums of the item tracking numbers you define on the page. The quantities must correspond to the quantities on the document line, which is indicated by **0** in the **Undefined** field.  
 
 When you post the document line, the item tracking information transfers to the associated item ledger entries.
+
+### Item tracking availability
+
+When you work with serial, lot, and package numbers, [!INCLUDE[prod_short](includes/prod_short.md)] calculates availability information and shows it on various item tracking pages. It shows how much of a lot, package, or serial number is used on other documents. This information helps reduce errors and uncertainty caused by double allocations.
+
+On the **Item Tracking Lines** page, a warning icon might display in the **Availability, Lot No.** or **Availability, Serial No.** field for the following reasons:
+
+* Some or all of the quantity you selected is already used in other documents.
+* The lot or serial number isn't available.
+
+The **Lot No./Serial No.-List**, **Lot No./Serial No.-Availability**, and the **Item Tracking - Select Entries** pages show the quantity of an item that's in use. The following table lists the relevant fields.
+
+|Field|Description|
+|-----|-----------|  
+|**Total Quantity**|The total number of an item currently in inventory.|
+|**Total Requested Quantity**|The total number of items that are requested in this and other documents.|
+|**Current Pending Quantity**|The number of items that are requested on the current document but that isn't posted.|
+|**Current Requested Quantity**|The number of requested items that the current document will use.|
+|**Total Available Quantity**|The total number of items in inventory, minus the quantity of the requested item on this and other documents (total requested quantity), minus the requested quantity that isn't yet posted on this document (current pending quantity).|
+
+If you work on the **Item Tracking Lines** page for a long time, or if its a popular item involved in many activities, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
+
 
 ### To assign new serial or lot numbers  
 

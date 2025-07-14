@@ -1,7 +1,7 @@
 ---
 title: Run tasks in the background and recurrently
 description: Configure synchronization of data between Business Central and Shopify in the background.
-ms.date: 10/24/2024
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -76,12 +76,7 @@ On the **Business Manager** Role Center, the **Shopify Activities** part offers 
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-
-

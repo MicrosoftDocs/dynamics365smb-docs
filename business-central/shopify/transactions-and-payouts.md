@@ -1,7 +1,7 @@
 ---
 title: Synchronize and transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
-ms.date: 09/16/2024
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134, 
@@ -169,11 +169,7 @@ The Shopify connector imports orders and transactions in **Shop Currency**. If y
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

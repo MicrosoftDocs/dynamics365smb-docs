@@ -1,13 +1,14 @@
 ---
 title: Getting started with the connector for Shopify
 description: First steps when configuring a connection between Business Central and Shopify.
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.topic: get-started
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
 # Get started with the Shopify Connector
@@ -123,11 +124,7 @@ If you keep the **Allow Data Sync to Shopify** toggle enabled, then other protec
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

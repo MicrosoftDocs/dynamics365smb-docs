@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 03/18/2025
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -288,7 +288,7 @@ Alternatively, you can sync one item by choosing the **Add to Shopify** action i
 > [!NOTE]  
 > Initial sync of items from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Sync Item** and **Can Update Shopify Products** settings. 
 
-### Adding item as variant to Shopify products
+### Adding an item as a variant to Shopify products
 
 If your products in Shopify have variants, but the list of items is flat on the [!INCLUDE [prod_short](../includes/prod_short.md)] side you can use the **Add item as Variant** action on the **Variants** FastTab of the **Shopify Products** page.
 
@@ -339,7 +339,7 @@ Synchronization of images can be configured for synchronized items. Choose from 
 * **To Shopify**: Images of items are exported to Shopify.
 * **From Shopify**: Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-Image synchronization can be initialized in the two ways described in the next sections in this article.
+You can start image synchronization in the ways described in the next sections in this article.
 
 ### Sync product images from the Shopify shop page
 
@@ -400,8 +400,7 @@ If you use Shopify B2B, you can configure the Connector to synchronize prices fo
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
 
-You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). 
-Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
+You can only access catalogs linked to B2B companies. To learn more, go to [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't contain information about products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 
@@ -422,7 +421,6 @@ Note that catalogs in [!INCLUDE[prod_short](../includes/prod_short.md)] don't co
 
 3. After you enter the settings, turn on the **Sync Prices** toggle and choose **Sync Prices** action to start synchronizing catalog prices.
 
-   
 ## Sync inventory to Shopify
 
 Inventory synchronization can be configured for already synchronized items. There are two conditions that must be met:
@@ -539,11 +537,7 @@ If the inventory level fails to sync with Shopify, try these checks.
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
- 

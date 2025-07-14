@@ -4,7 +4,7 @@ description: Import customers and companies from or export to Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 03/20/2025
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
@@ -283,11 +283,7 @@ If standard metafields are defined, you can use the **Get Metafield Definitions*
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

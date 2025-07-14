@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -222,9 +222,6 @@ It seems that you tried to get an access token multiple times. Make sure that th
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

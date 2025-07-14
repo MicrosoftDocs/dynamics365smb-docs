@@ -6,7 +6,7 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords:
-ms.date: 01/24/2025
+ms.date: 07/14/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -26,7 +26,7 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
 - Bidirectional synchronization of items or products.
   - The connector synchronizes images, item variants, bar codes, vendor item numbers, extended and marketing texts, translations, tags, and metafields.  
   - Export item attributes to Shopify.
-  - Activate sales channels which you want to use when you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
+  - Activate the sales channels to use when you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.
   - Use selected customer price groups and discounts to define prices exported to Shopify.
   - Define prices and discounts for product catalogs linked to B2B companies.
   - Decide whether items can be created automatically or only allow updates to existing products.
@@ -48,9 +48,9 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
   - Buyers can sign in to Shopify and access all their invoices, regardless of which app they were created in.
 - Integrate easily.
   - Enable automatic synchronization of products, inventory, orders, fulfillments, and more.
-  - Rich logging capabilities that helps with troubleshooting if ever needed.
+  - Rich logging capabilities that help with troubleshooting if needed.
 
-## Why did Microsoft and Shopify form this partnership?
+## Why did Microsoft and Shopify form a partnership?
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] teamed up with Shopify to help our customers create a better shopping experience. While Shopify provides merchants with an easy-to-use commerce solution, [!INCLUDE[prod_short](../includes/prod_short.md)] offers comprehensive business management across finance, sales, service, and operations teams. Use the seamless connection between the applications to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.
 
@@ -91,15 +91,12 @@ Find information related to support and troubleshooting.
 | Learn implementation details related to the Shopify Connector.| [FAQ for the Shopify connector](shopify-faq.md)|
 | Check support options for Shopify Connector| [Support for the Shopify Connector](shopify-support.md)|
 
+## Related information
+
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-## Related information
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
-[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

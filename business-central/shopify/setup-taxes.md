@@ -4,7 +4,7 @@ description: How to set up taxes in Shopify and Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 03/20/2025
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -44,14 +44,14 @@ The toggle is typically enabled for the following countries/regions:
 
 In markets such as these, a price of 100 EUR defined on the product card already contains value-added tax (VAT). The price, including VAT, is displayed to the customer in the storefront and at checkout.  
 
-In the USA and Canada, customers don't expect to see prices with taxes because the final tax depends on where products ship to. Tax is added at checkout, so the **Include sales tax in product price and shipping rate** toggle is usually turned off. In this case, a price of $100 defined on the product card is the price without tax. At checkout, taxes are added to the price.
+In the USA and Canada, customers don't expect prices to include taxes because the final tax depends on where products ship to. Tax is added at checkout, so the **Include sales tax in product price and shipping rate** toggle is usually turned off. In this case, a price of $100 defined on the product card is the price without tax. At checkout, taxes are added to the price.
 
 To support the scenario where **Include sales tax in product price and shipping rate** is selected, in [!INCLUDE[prod_short](../includes/prod_short.md)], fill in the following fields on the **Shopify Shop Card** page:  
 
 1. Turn on the **Prices including VAT** toggle.  
 2. In the **VAT Business Posting Group** field, specify the posting group you use for domestic customers.
 
-Now define item prices in the **Item Card** or **Sales Price List** fields, with or without tax. When exporting prices to Shopify, [!INCLUDE [prod_short](../includes/prod_short.md)] includes domestic taxes in the calculated price and shows that price for the product in Shopify.
+Now, define item prices in the **Item Card** or **Sales Price List** fields, with or without tax. When exporting prices to Shopify, [!INCLUDE [prod_short](../includes/prod_short.md)] includes domestic taxes in the calculated price and shows that price for the product in Shopify.
 
 > [!NOTE]
 > These settings affect the export of prices. When you import orders from Shopify, the information about whether prices include tax comes directly from Shopify, which is useful when selling to different markets using the **Include or exclude tax based on your customer's country** setting in Shopify Admin.
@@ -86,10 +86,11 @@ Shopify adds local taxes to the price defined on the product card based on where
 
 Countries/regions have different requirements for including tax in prices. If you want prices to automatically include tax, you can turn on [Dynamic tax-inclusive pricing](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) in Shopify.
 
-Depending on which Markets impementation you use:
+Depending on the implementation for the market you're in:
+
 * In your **Shopify admin**, select **Include or exclude tax based on your customer's country** in the **Other Markets - Preferences** section of the [**Markets**](https://www.shopify.com/admin/settings/markets) settings.  
 
-* If you use new Markets, in your **Shopify admin**, go to [**Markets**], click the market that you want to customize. Choose **(+)** icon next to **Tax and duties**. Select *Dynamic tax display* in the **Tax display** field.  
+* If you use new markets, in your **Shopify admin**, go to [**Markets**], and choose the market that you want to customize. Choose the **(+)** icon next to **Tax and duties**. In the **Tax display** field, choose **Dynamic tax display**.  
 
 > [!NOTE]
 > This setting doesn't affect prices in domestic markets, which is controlled by the **Include sales tax in product price and shipping rate** toggle.
@@ -151,12 +152,14 @@ In the following example, the **Include sales tax in product price and shipping 
 Shopify uses the domestic tax rate and ignores the tax rate in the foreign country/region when it calculates final prices.
 
 ## Taxes in imported Shopify orders
-While the imported Shopify order contains information about taxes, the taxes get recalculated when you create the sales document. That recalculation means it's important that VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-You can review imported tax details in the **Tax Lines** page available from the **Shopify Order** page.
+Although the Shopify orders you import have tax information, the tax amounts recalculate when you create the sales document. The recalculation means it's important that your VAT or sales tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+You can review imported tax details in the **Tax Lines** page, which you can open from the **Shopify Order** page.
 
 ### Multiple product tax or VAT rates
-Some product categories are eligible for reduced tax rates, like pharmaceutical products or children's clothing and footwear. You can use the [tax override](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) feature in Shopify to. When you import those products and create items in [!INCLUDE[prod_short](../includes/prod_short.md)], they use the tax setup specified on the item template code in the Shopify shop. Before you import orders with such items, update the VAT product posting group.
+
+Some product categories are eligible for reduced tax rates, such as pharmaceutical products or children's clothing and footwear. You can use the [tax override](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) feature in Shopify to specify that. When you import those products and create items in [!INCLUDE[prod_short](../includes/prod_short.md)], they use the tax setup specified on the item template code in the Shopify shop. Before you import orders with such items, update the VAT product posting group.
 
 ### Address-dependent tax rates
 
@@ -169,10 +172,10 @@ You specify country/region-specific settings on the **Shopify Customer Template*
 
 For merchants using the US or Canadian localizations:
 
-4. **Tax Liable** 
-5. **Tax Area Code**
+3. **Tax Liable**
+4. **Tax Area Code**
 
-    Use the **Tax Area Priority** field together with the **Customer Templates** table to define how the **Tax Area Code** is filled in the sales document. The **Tax Area Priority** field specifies the priority regarding where the function should take the information about the country or region and state or province. If not selected, the **Tax Area Code** applies form customer specified in the **Sell-to Customer No.** field of the shopify order. If selected, the connector identifieds the relevant record in the Shopify customer templates table based on the addresses in the Shopify order and uses the **Tax Area Code** when creating the sales document.  
+    Use the **Tax Area Priority** field together with the **Customer Templates** page to define how to fill in the **Tax Area Code** field on the sales document. The **Tax Area Priority** field specifies the priority regarding where to get the information about the country or region and state or province. If not selected, the **Tax Area Code** from customer is specified in the **Sell-to Customer No.** field of the Shopify order. If selected, the connector finds the relevant record in the Shopify customer templates table based on the addresses in the Shopify order, and uses the **Tax Area Code** when creating the sales document.  
 
 ### Prices including VAT
 
@@ -185,11 +188,7 @@ The value of the **Prices including VAT** field comes directly from Shopify when
 
 ## Related information
 
-[Shopify Connector overview](shopify-connector-overview.md)
-
-[FAQ for the Shopify connector](shopify-faq.md)
-
-[Troubleshoot the Shopify Connector](troubleshoot.md)
-
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

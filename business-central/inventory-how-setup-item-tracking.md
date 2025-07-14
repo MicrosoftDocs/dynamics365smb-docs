@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf    
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/24/2025
+ms.date: 007/14/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -24,7 +24,7 @@ Depending on your configuration, you use these different numbers to keep track o
 
 ## To set up item tracking codes
 
-An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  
+An item tracking code reflects the different considerations regarding the use of serial and lot numbers for items moving through the inventory.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.  
 2. Choose the **New** action.
@@ -34,10 +34,10 @@ An item tracking code reflects the different considerations a company has regard
 > [!NOTE]  
 > If you want to track specific items or specific lots throughout their lifetime, you must choose the **SN Specific Tracking**, **Lot Specific Tracking**, and **Package Specific Tracking** fields, respectively. As a result, when you handle an outbound unit of an item with this item tracking code, you must always specify which serial number or lot number to handle. This means that when you sell a unit of the item, it must be applied against a specific pool of serial numbers or lot numbers. In other words, the serial, lot, or package number assigned to the item when it enters inventory must follow the item when it leaves inventory.
 
-Because these setup fields cover all possible transactions with the item, the individual inbound/outbound fields are selected. However, the individual inbound/outbound fields have nothing to do with application across inventory. They merely define your company's work flow concerning when to assign item tracking numbers.  
+Because these setup fields cover all possible transactions with the item, the individual inbound/outbound fields are selected. However, the individual inbound and outbound fields have nothing to do with application across inventory. They merely define your company's work flow concerning when to assign item tracking numbers.  
 
 > [!NOTE]  
-> To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** fields must be selected on the item's item tracking code card.
+> To assign item tracking numbers in warehouse activities, you must turn on the **SN Warehouse Tracking** and **Lot Warehouse Tracking** toggles on the item tracking code that you assign to the item. The toggles are available on the **Item Tracking Code Card** page.
 
 ## To set up expiration rules for serial or lot numbers
 

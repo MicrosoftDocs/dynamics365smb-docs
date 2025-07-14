@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550, 
-ms.date: 06/10/2025
+ms.date: 07/14/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -19,11 +19,11 @@ The quantity fields at the top of the **Item Tracking Lines** page display the q
 [!INCLUDE [prod_short](includes/prod_short.md)] updates the availability information on the **Item Tracking Lines** page when you open the page. It doesn't update the information while you have the page open, even if changes occur in inventory or on other documents during that time.
 
 > [!NOTE]  
-> In order for the features described in this article to work, you must set up item tracking. To learn more, go to [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
+> To use the features that this article describes, you must set up item tracking. To learn more, go to [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
 >
-> You can enter **SN No.**, **Lot No.**, or **Package No.** even if their specific tracking fields are disabled. This is helpful, for example, when you need to record tracking details during receipt for warranty purposes but do not track them in transfers, consumption, or sales. However, these scenarios may not align with warehouse flows—if using warehouse handling, only input tracking details as per enabled fields. For instance, if only **SN Specific Tracking** is active, avoid entering **Lot No.** or **Package No.** in transactions.
+> You can enter **SN No.**, **Lot No.**, or **Package No.** even if their specific tracking fields aren't available. This is helpful, for example, when you need to record tracking details during receipt for warranty purposes but don't track them in transfers, consumption, or sales. However, these scenarios might not align with warehouse flows if you use warehouse handling but only input tracking details for enabled fields. For example, if you only turn on **SN Specific Tracking**, don't fill in the **Lot No.** or **Package No.** fields in transactions.
 
-## To specify opening balances for the items, you track
+## Specify opening balances for the items you track
 
 You can create opening balances for the items you track. Because you can choose different warehouse configurations, there are two options:
 

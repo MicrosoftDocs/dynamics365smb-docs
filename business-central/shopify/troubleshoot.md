@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -57,7 +57,7 @@ The **Logging Mode** field controls the content of the **Shopify Skipped Records
 > [!NOTE]
 > The **All** option works in the same way as **Error Only** and logs only skipped entries. It won't log entries that were previously skipped.
 
-Over time, the number of records on the Shopify Skipped Records pageTo help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](/dynamics365/business-central/admin-data-retention-policies).
+The volume of records on the **Shopify Skipped Records** page increases over time. To help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
 
 ### Cases that the Shopify Connector logs
 
@@ -222,4 +222,6 @@ It seems that you tried to get an access token multiple times. Make sure that th
 
 ## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

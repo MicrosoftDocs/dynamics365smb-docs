@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf    
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 007/14/2025
+ms.date: 07/14/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 

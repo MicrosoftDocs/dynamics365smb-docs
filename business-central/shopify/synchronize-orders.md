@@ -119,6 +119,23 @@ The location mapping is required to fill in the **Location Code** for sales docu
 > Location mapping is also used to sync inventory. To learn more, go to [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
 >
 > Shopify Connector creates sales invoices for fuflilled documents and credit memos for refunds also for locations where **Directed Put-away and Pick** toggle is enabled. The warehouse entries will be posted against adjustment bin. To reconsile quanities with normal bins, use the **Warehouse physical inventory journal**. 
+
+### Payment terms mapping
+
+The payment mapping is used in following cases:
+- Define payment term code and due date when imports orders
+- Exporting posted sales invoice to Shopify
+- Import and export payment terms details in B2B Company
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
+2. Select the shop for which you want to configure the mapping of payment terms to open the **Shopify Shop Card** page.
+3. Choose the **Payment Terms Mapping** action to open the **Shopify Payment Terms Mapping**.
+4. Choose the **Refresh** action to import all payment terms defined in Shopify. 
+5. Enter the **Payment Terms Code** with the corresponding payment term in [!INCLUDE[prod_short](../includes/prod_short.md)].
+6. Turn on the **Is Primary** toggle for *Fixed Date* entry. It will be used with export of posted sales invoices and will allow to transfer exact due date from [!INCLUDE[prod_short](../includes/prod_short.md)] to order in Shopify. To learn more, go to [Export posted sales invoices to Shopify](#export-posted-sales-invoices-to-shopify)
+
+> [!NOTE]  
+> Shopify Connector preserves a specific Due Date from a Shopify order (such as for *Fixed Date* or *Within X days* payment terms) in the sales document, regardless of mapping. For payment terms without a set due date (like *Due on receipt* or *Due on fulfilment*), the Connector calculates the due date using the mapped payment term's formula. If no mapping exists, the customer's payment term applies; if that's also missing, the due date defaults to the document date.
   
 ## Run the order synchronization
 

@@ -1,7 +1,7 @@
 ---
 title: Set up and use the Shopify Connector
 description: Various integration scenarios for demonstrating workflow between Shopify and Business Central
-ms.date: 08/30/2024
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157
@@ -398,4 +398,6 @@ Configure the Shopify shop as described here:
 
 ## Related information
 
-[Get Started with the Shopify Connector](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)

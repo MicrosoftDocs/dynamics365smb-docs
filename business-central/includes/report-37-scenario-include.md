@@ -1,0 +1,1 @@
+To identify trends and variances, compare account balances side-by-side across two fiscal years. Filter by dimension or account range for more targeted insights. Use this report to analyze year-over-year financial performance and highlight account-level changes.

@@ -1,10 +1,10 @@
 ---
-title: Depreciation Methods for Fixed Assets
+title: Depreciation methods for fixed assets
 description: Learn about the different built-in methods to depreciate or write-down fixed assets.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords: write down, depreciate, depreciation
 ms.search.form: 5611, 5629, 5633
 ms.date: 05/19/2025

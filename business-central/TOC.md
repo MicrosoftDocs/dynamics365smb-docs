@@ -286,25 +286,58 @@ ms.service: dynamics-365-business-central
 ##### [Analyze your payment practices](ui-payment-practices.md)
 
 #### Built-in finance reports
-
+##### [Finance report overview](finance-reports.md)
 ##### Key finance reports
-
-###### [Key finance report overview](finance-reports.md)
+###### [Chart of Accounts](reports/report-1.md)
+###### [G/L Register](reports/report-3.md)
 ###### [Detail Trial Balance](reports/report-4.md)
+###### [Receivables-Payables](reports/report-5.md)
 ###### [Trial Balance Excel](reports/report-4405.md)
 ###### [Trial Balance (legacy)](reports/report-6.md) 
 ###### [Trial Balance/Previous Year](reports/report-7.md) 
 ###### [Trial Balance/Budget Excel](reports/report-4406.md)
 ###### [Trial Balance/Budget (legacy)](reports/report-9.md)
+###### [Trial Balance by Period](reports/report-38.md)
 ###### [Closing Trial Balance](reports/report-10.md)
-###### [Consolidated Trial Balance Excel](reports/report-4410.md)
+###### [Fiscal Year Balance](reports/report-36.md)
+###### [Balance Comp. - Prev. Year](reports/report-37.md)
+###### [Foreign Currency Balance](reports/report-503.md)
 ###### [Financial Report](reports/report-25.md)
 ###### [Dimensions - Total](reports/report-27.md)
 ###### [Dimensions - Detail](reports/report-28.md)
+###### [Dimension Check Value Posting](reports/report-30.md)
 ###### [Reconcile Cust. and Vend. Accs](reports/report-33.md)
-###### [Trial Balance by Period](reports/report-38.md)
+##### Deferral reports
+###### [G/L Deferral Summary](reports/report-1700.md)
+###### [Sales Deferral Summary](reports/report-1701.md)
+###### [Purchasing Deferral Summary](reports/report-1702.md)
+##### VAT reports
+###### [G/L - VAT Reconciliation](reports/report-11.md)
+###### [VAT Statement](reports/report-12.md)
+###### [VAT Register](reports/report-13.md)
+###### [VAT- VIES Declaration Tax Auth](reports/report-19.md)
+###### [Calc. and Post VAT Settlement](reports/report-20.md)
+###### [VAT Exceptions](reports/report-31.md)
+###### [VAT Registration No. Check](reports/report-32.md)
+###### [VAT Reconciliation Report](reports/report-743.md)
+###### [Day Book VAT Entry](reports/report-2500.md)
+##### Consolidation and intercompany reports
+###### [Consolidated Trial Balance Excel](reports/report-4410.md)
+###### [Consolidated Trial Balance](reports/report-17.md)
+###### [Consolidated Trial Balance (4)](reports/report-18.md)
+###### [Intercompany Transactions](reports/report-512.md) 
+###### [G/L Consolidation Eliminations (for IC)](reports/report-16.md)
+##### Cost accounting reports
+###### [Cost Acctg. Stmt. per Period](reports/report-1123.md)
+###### [Cost Types Details](reports/report-1125.md)
+###### [Cost Acctg. Statement](reports/report-1126.md)
+###### [Cost Acctg. Analysis](reports/report-1127.md)
+###### [Cost Acctg. Journal](reports/report-1128.md)
+###### [Cost Allocations](reports/report-1129.md)
+###### [Cost Acctg. Statement/Budget](reports/report-1133.md)
+###### [Cost Acctg. Balance/Budget](reports/report-1138.md)
 
-##### [Built-in fixed assets reports](fa-reports.md)
+##### [Fixed assets reports](fa-reports.md)
 
 ##### Accounts payable analytics
 
@@ -418,6 +451,8 @@ ms.service: dynamics-365-business-central
 #### [Define and allocate costs](finance-define-and-allocate-costs.md)
 #### [Create cost budgets](finance-create-cost-budgets.md)
 #### [Deleting cost budget entries](finance-how-to-delete-cost-budget-entries.md)
+#### [Cost accounting reports](finance-cost-accounting-reports.md)
+
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
@@ -488,7 +523,7 @@ ms.service: dynamics-365-business-central
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
-### Working with VAT
+### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
 #### [Work with VAT on sales and purchases](finance-work-with-vat.md)
@@ -498,6 +533,7 @@ ms.service: dynamics-365-business-central
 #### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 #### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
+#### [VAT reports](finance-vat-reports.md)
 #### Set up VAT
 ##### [Set up value-added tax](finance-setup-vat.md)
 ##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
@@ -566,14 +602,22 @@ ms.service: dynamics-365-business-central
 #### [Power BI sales app](sales-powerbi-app.md)
 ##### [Sales overview](sales-powerbi-sales-overview.md)
 ##### [Daily Sales](sales-powerbi-daily-sales.md)
+##### [Key Sales Influencers (Power BI Report)](sales-powerbi-key-sales-influencers.md)
+##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
 ##### [Moving Average](sales-powerbi-moving-average.md)
 ##### [Moving Annual Total (MAT)](sales-powerbi-moving-annual-total.md)
 ##### [Period-Over-Period Growth](sales-powerbi-period-over-period-growth.md)
+##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [Month-To-Date (MTD)](sales-powerbi-month-to-date.md)
+##### [Opportunity Overview (Power BI Report)](sales-powerbi-opportunity-overview.md)
+##### [Return Order Overview (Power BI Report)](sales-powerbi-return-order-overview.md)
 ##### [Sales by Item](sales-powerbi-sales-by-item.md)
 ##### [Sales by Customer](sales-powerbi-sales-by-customer.md)
 ##### [Sales by Salesperson](sales-powerbi-sales-by-salesperson.md)
+##### [Sales Decomposition (Power BI Report)](sales-powerbi-sales-decomposition.md)
+##### [Sales Demographics (Power BI Report)](sales-powerbi-sales-demographics.md)
 ##### [Sales by Location](sales-powerbi-sales-by-location.md)
+##### [Sales Quote Overview (Power BI Report)](sales-powerbi-sales-quote-overview.md)
 ##### [Actual vs. Budget](sales-powerbi-actual-vs-budget.md)  
 ##### [Sales KPI overview](sales-powerbi-sales-kpis.md) 
 
@@ -979,8 +1023,14 @@ ms.service: dynamics-365-business-central
 ##### [Average Production Times](manufacturing-powerbi-average-production-times.md) 
 ##### [Released Production Orders](manufacturing-powerbi-released-production-orders.md) 
 ##### [Production Scrap](manufacturing-powerbi-production-scrap.md) 
+##### [Prod. Order List (Power BI Report)](manufacturing-powerbi-prod-order-list.md)
+##### [Production Order Overview (Power BI Report)](manufacturing-powerbi-production-order-overview.md)
+##### [Prod. Order Routing Gantt (Power BI Report)](manufacturing-powerbi-prod-order-routing-gantt.md)
+##### [Production Order WIP (Power BI Report)](manufacturing-powerbi-prod-order-wip.md)
+##### [Machine Center Load (Power BI Report)](manufacturing-powerbi-machine-center-load.md)
+##### [Machine Center Statistics (Power BI Report)](manufacturing-powerbi-machine-center-statistics.md)
 ##### [Manufacturing KPIs](manufacturing-powerbi-kpis.md)
-
+##### [Work Center Statistics (Power BI Report)](manufacturing-powerbi-work-center-statistics.md)
 #### [View the load in work and machine centers](production-how-to-view-the-load-on-work-centers.md)
 
 #### Built-in production reports
@@ -1134,6 +1184,23 @@ ms.service: dynamics-365-business-central
 <!--Sustainability-->
 ## Sustainability management
 ### [Sustainability management overview](finance-manage-sustainability.md)
+### Sustainability analytics
+#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+#### [Built-in sustainability reports](sustainability-reports.md)
+#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
+#### Power BI sustainability app
+##### [Sustainability Power BI app](sustainability-powerbi-app.md)
+##### [CO2e Analysis (Power BI Report)](sustainability-powerbi-co2e-analysis.md)
+##### [Co2e Decomposition Tree (Power BI Report)](sustainability-powerbi-co2e-decomposition-tree.md)
+##### [Co2e Key Influences (Power BI Report)](sustainability-powerbi-co2e-key-influences.md)
+##### [Emissions by Category and Scope (Power BI Report)](sustainability-powerbi-emissions-by-category-and-scope.md)
+##### [Journey to Net Zero Carbon (Power BI Report)](sustainability-powerbi-journey-to-net-zero-carbon.md)
+##### [Power BI Sustainability app KPIs and measures](sustainability-powerbi-kpis.md)
+##### [Realized Emissions vs Baseline (Power BI Report)](sustainability-powerbi-realized-emissions-vs-baseline.md)
+##### [Realized Emissions vs Target (Power BI Report)](sustainability-powerbi-realized-emissions-vs-target.md)
+##### [Social Analysis (Power BI Report)](sustainability-powerbi-social-analysis.md)
+##### [Sustainability Overview (Power BI Report)](sustainability-powerbi-sustainability-overview.md)
+##### [Water and Waste Analysis (Power BI Report)](sustainability-powerbi-water-and-waste-analysis.md)
 ### [Sustainability setup](finance-sustainability-setup.md)
 ### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 ### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
@@ -1149,10 +1216,6 @@ ms.service: dynamics-365-business-central
 #### [Value Chain in Assembly process](value-chain-howto-assembly.md)
 #### [Value Chain in Production process](value-chain-howto-mfg.md)
 #### [Value Chain in Sales](value-chain-howto-sales.md)
-### Sustainability analytics
-#### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
-#### [Built-in sustainability reports](sustainability-reports.md)
-#### [Analyzing sustainability entries with financial reports](sustainability-fin-reporting.md)
 ### Sustainability APIs
 #### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
@@ -1887,6 +1950,7 @@ ms.service: dynamics-365-business-central
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and credit memo types in sales and purchase documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [VERI*FACTU compliance](LocalFunctionality/Spain/verifactu-setup.md)
 #### Core finance
 ##### [Set up and close income statement balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and validate chart of accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -2319,10 +2383,12 @@ ms.service: dynamics-365-business-central
 #### [Power BI overview](admin-powerbi.md)
 #### [Work with Power BI reports](across-working-with-powerbi.md)
 #### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
-#### Power BI apps for Business Central
-##### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
-##### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
-##### [Power BI apps FAQ](across-powerbi-apps-faq.md)
+### Power BI apps for Business Central
+#### [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)
+#### [Power BI apps/reports by functional area](across-powerbi-apps-by-functional-area.md)
+#### [Use back links to explore the data behind visuals](powerbi-back-links.md)
+#### [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md)
+#### [Power BI apps FAQ](across-powerbi-apps-faq.md)
 ### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis
@@ -2498,8 +2564,10 @@ ms.service: dynamics-365-business-central
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
 ## Integrate with other Dynamics 365 applications
-### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
+### [Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### Integrate with Dynamics Field Service
+#### [Set up an integration with Dynamics 365 Field Service](admin-integrate-field-service.md)
+#### [Use an integration with Dynamics 365 Field Service](admin-use-field-service-integration.md)
 ## Integrate with Microsoft Dataverse
 ### [Integrate with Dataverse via data sync](admin-common-data-service.md)
 ### [Data ownership models for synchronization](admin-cds-company-concept.md)
@@ -2535,6 +2603,7 @@ ms.service: dynamics-365-business-central
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Searching the web with Copilot (preview)](ai-search-web-copilot.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
@@ -2564,8 +2633,11 @@ ms.service: dynamics-365-business-central
 ### [Sales Order Agent overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
-### [Item availability in Sales Order Agent](sales-order-agent-item-availability.md)
-### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+## Payables agent (preview)
+### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
+<!--### [Use Payables Agent](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)-->
+### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
@@ -2584,7 +2656,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
-## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
+## [FAQ for Payables Agent](faqs-payables-agent.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)

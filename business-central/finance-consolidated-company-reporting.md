@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 11/13/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 240_Primary, Report_16, 1826, 1827
+ms.search.form: 240_Primary, Report_16, Report_17, Report_18, Report_4410, 1826, 1827
 ms.service: dynamics-365-business-central
 ---
 
@@ -95,6 +95,12 @@ A line is created for each account, following the structure of the chart of acco
 * The eliminations to make in the consolidated company. That is, the entries in the general journal that is selected on the request page.
 * The posting text copied from the general journal.
 * The consolidated company's total after the eliminations, if they're posted.
+
+## Consolidation finance report overview
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
 
 ## Export and import consolidated data between databases
 

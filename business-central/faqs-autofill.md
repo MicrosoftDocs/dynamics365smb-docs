@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQ for autofill (preview)
+title: Responsible AI FAQ for Autofill (preview)
 description: Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 ms.date: 04/01/2025
 ms.custom: 
@@ -10,7 +10,11 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-# Responsible AI FAQ for autofill (preview)
+
+<!-- The Report Abuse link in line 73 isn't opening when I try. Please check this. -->
+
+
+# Responsible AI FAQ for Autofill (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -22,7 +26,7 @@ These frequently asked questions (FAQ) describe the AI impact of Copilot’s Aut
 
 ## What is Autofill?
 
-Manually entering data can be time-consuming and error-prone, both for casual users of Business Central, and expert users that are tasked with entering records throughout their entire workday.  
+Manually entering data can be time-consuming and error-prone, both for casual users of Business Central and expert users who are tasked with entering records throughout their workday.  
 
 Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts productivity, and eliminates tedious tasks. Copilot uses AI to suggest and fill out field values automatically on your page, instead of typing or looking up things across screens. You can choose to keep or discard the suggestions. 
 
@@ -34,8 +38,8 @@ Regardless of whether the suggested value is AI-generated, Copilot always uses A
 
 |Mechanism|Description|
 |-|-|
-|Most-Frequently Used |The value most frequently assigned to records in your company. The suggested value isn't computed using AI and comes directly from your Business Central data. |
-|Most-Recently Used |For fields that reference another table, the most recently used reference, or most recently viewed record for that table. The suggested value isn't computed using AI and comes directly from your Business Central data. |
+|Most Frequently Used |The value most frequently assigned to records in your company. The suggested value isn't computed using AI and comes directly from your Business Central data. |
+|Most Recently Used |For fields that reference another table, the most recently used reference, or most recently viewed record for that table. The suggested value isn't computed using AI and comes directly from your Business Central data. |
 |Lookup selection |For fields that reference another table and have a short list of possible choices, AI is used to intelligently select from the possible values.|
 |AI-generated |AI is used to intelligently generate the suggested value. |
 
@@ -46,7 +50,7 @@ Regardless of whether the suggested value is AI-generated, Copilot always uses A
 
 Autofill is an assistive feature intended to help people enter data into Business Central. It isn't designed to run autonomously and enter data on behalf of others. Since the suggestions aren't automatically saved to Business Central, you must review and accept each field for it to be saved. 
 
-When you choose to keep a suggestion, you're saving the change to Business Central similar to if you entered that value yourself without the assistance of Copilot.
+When you choose to keep a suggestion, you're saving the change to Business Central as if you entered that value yourself without the assistance of Copilot.
 
 When you leave the page or record, any suggestions that you didn't choose to keep are automatically discarded. 
 
@@ -68,19 +72,18 @@ Microsoft might disable the Copilot features for selected customers if abuse of 
 
 Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. If you encounter inappropriate content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). We analyze user feedback on the feature and use it to help us improve responses.
 
-You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon in the information about an individual suggestion or for all suggestions in the group of fields.
+You provide feedback by using the **like** (thumbs up) or **dislike** (thumbs down) icon in the information about an individual suggestion or for all suggestions in the group of fields.
 
 ## What are the AI limitations of Autofill? How can users minimize the impact of the limitations when using the system?
 
-- General AI limitations
-
+- **General AI limitations**
   AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. It's important to use your judgment to review and verify responses before making decisions that could affect stakeholders like customers and partners. 
 
-- Geographic and language availability
+- **Geographic and language availability**
 
   [!INCLUDE [copilot-geo-and-language-availability-en-only](includes/copilot-geo-and-language-availability-en-only.md)]
 
-- Certain industry, product, and subject limitations
+- **Certain industry, product, and subject limitations**
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality or limited output from Copilot due to the sensitive nature of that domain.
 

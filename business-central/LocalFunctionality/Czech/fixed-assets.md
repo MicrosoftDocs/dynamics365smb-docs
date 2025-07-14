@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Fixed assets
-description: This section describes the Czech local functionality namely the Fixed Assets Tax Depreciation feature.
+description: Describes Czech local functionality for fixed assets, including tax depreciation and related features.
 author: ACMartinKunes
 ms.topic: article
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 12/20/2023
-ms.reviewer: bholtorf
-ms.author: v-makune
+ms.date: 06/03/2025
+ms.reviewer: v-soumramani
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
@@ -26,7 +26,7 @@ Each long-term fixed asset belongs to a depreciation group. These groups determi
 
 ## Calculation of depreciation basis in fixed assets
 
-Due to Czech legislation, it is necessary to calculate tax depreciations from the depreciable basis which can be different from acquisition costs. According to the requirements, a depreciation basis by the Czech declining-balance depreciation method for the second and following years of a fixed asset's life should be calculated by the new formula defined in the Income Tax Act.
+Due to Czech legislation, it's necessary to calculate tax depreciations from the depreciable basis, which can be different from acquisition costs. According to the requirements, a depreciation basis by the Czech declining-balance depreciation method for the second and following years of a fixed asset's life should be calculated by the new formula defined in the Income Tax Act.
 
 Changes have been made in the calculation of depreciation amounts by the CZ declining-balance depreciation method for the second and following years of a fixed asset's life by the formula stated above. The tax depreciation is calculated annually and the **Force No. of Days** option is recommended for calculating the correct depreciation amount.
 
@@ -55,7 +55,7 @@ The value **Custom 2** is renamed in Czech language from "Vlastní 2" to "Poří
 
 Czech accounting standards require specific posting when a fixed asset is being disposed of or being sold. After selling or posting the fixed assets, the posting of disposal ensures that the fixed asset value remains the same as the acquired value after depreciation.
 
-The fixed asset remains unchanged even after it is put to use. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
+The fixed asset remains unchanged even after it's put to use. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
 
 On the **Depreciation Book** page, select the **Corresponding G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresponding FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries.  
 
@@ -114,8 +114,7 @@ The following standard reports are adjusted for the Czech Republic (new Group to
 
 ## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
-
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

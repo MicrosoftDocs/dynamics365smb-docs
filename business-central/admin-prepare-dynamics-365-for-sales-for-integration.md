@@ -14,19 +14,19 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration lets people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. For more information, see [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
+The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and know what's happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration lets people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. To learn more, go to [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> This article describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> This article describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more about on-premises configuration, go to [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## Integrate through Dataverse
 
-To make it easy to connect and synchronize data with other Dynamics 365 applications, [!INCLUDE[prod_short](includes/prod_short.md)] also integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)]. For example, you can connect to [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you're integrating for the first time, you must do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
+To make it easy to connect and synchronize data with other Dynamics 365 applications, [!INCLUDE[prod_short](includes/prod_short.md)] also integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)]. For example, you can connect to [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you're integrating for the first time, you must do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more, go to [Integration with Dataverse](admin-common-data-service.md).
 
-If you already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can continue to synchronize data using your setup. However, if you upgrade or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Upgrading an Integration with Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
+If you already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can continue to synchronize data using your setup. However, if you upgrade or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more, go to [Upgrading an Integration with Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
 > [!NOTE]
-> Reconnecting through [!INCLUDE[prod_short](includes/cds_long_md.md)] will apply default synchronization settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
+> Reconnecting through [!INCLUDE[prod_short](includes/cds_long_md.md)] applies default synchronization settings, and overwrites any configurations you have. For example, the default table mappings are applied.
 
 ## Integration settings that are specific to a [!INCLUDE[crm_md](includes/crm_md.md)] integration
 
@@ -58,7 +58,7 @@ You can use an assisted setup guide to quickly set up the connection and specify
 |--|--|
 | **Import Dynamics 365 Sales Solution** | Install and configure the integration solution in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 |**Automatically Synchronize Item Availability**|Specifies that the item availability job queue must be scheduled. The job queue runs every 30 minutes, and updates the availability of the coupled items.|
-| **Enable Legacy Sales Order Integration** | When people create sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] and fulfill orders in [!INCLUDE[prod_short](includes/prod_short.md)], this setting integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).<br><br>**Note:** You can't use this option if you use the **Bidirectional Synch of Sales Orders** option. The two settings are mutually exclusive. To learn more about this option, go to [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders). |
+| **Enable Legacy Sales Order Integration** | When people create sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] and fulfill orders in [!INCLUDE[prod_short](includes/prod_short.md)], this setting integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, go to [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).<br><br>**Note:** You can't use this option if you use the **Bidirectional Synch of Sales Orders** option. The two settings are mutually exclusive. To learn more about this option, go to [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders). |
 |**Enable Dynamics 365 Sales Connection** | Enable the connection to [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK Version** | This is relevant only if you're integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This SDK is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)]. |
 |**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Note:** You can't use this option if you use the **Enable Legacy Sales Order Integration** option. The two settings are mutually exclusive.|
@@ -74,19 +74,19 @@ Enter the following information for the connection from [!INCLUDE[crm_md](includ
 |--|--|
 |**Dynamics 365 Sales URL**|The URL of your [!INCLUDE[crm_md](includes/crm_md.md)] instance. This setting lets users open the records in [!INCLUDE[prod_short](includes/prod_short.md)] that correspond to records in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, an account or product. The [!INCLUDE[prod_short](includes/prod_short.md)] records open in [!INCLUDE[prod_short](includes/prod_short.md)].|
 |**Automatically Synchronize Item Availability**|Specifies that the item availability job queue must be scheduled. The job queue runs every 30 minutes, and updates the availability of the coupled items.|
-|**Dynamics 365 SDK Version**|If you're integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)], use the Dynamics 365 software development kit (also referred to as Xrm) to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. This version equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
+|**Dynamics 365 SDK Version**|If you're integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)], you can use the Dynamics 365 software development kit (also referred to as Xrm) to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. This version equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 In addition to these settings, enter the following settings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
 | Field | Description |
 |--|--|
-| **Sales Order Integration is Enabled** | Enable users to submit sales orders and activated quotes in [!INCLUDE[crm_md](includes/crm_md.md)] and then view and process them in [!INCLUDE[prod_short](includes/prod_short.md)]. This setting integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
+| **Sales Order Integration is Enabled** | Enable users to submit sales orders and activated quotes in [!INCLUDE[crm_md](includes/crm_md.md)] and then view and process them in [!INCLUDE[prod_short](includes/prod_short.md)]. This setting integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, go to [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Automatically Create Sales Orders** | Create a sales order in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and submits one in [!INCLUDE[crm_md](includes/crm_md.md)]. |
-| **Automatically Process Sales Quotes** | Process a sales quote in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and activates one in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Handling Sales Quotes Data](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
-|**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go to [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).|
+| **Automatically Process Sales Quotes** | Process a sales quote in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and activates one in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, go to [Handling Sales Quotes Data](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more, go to [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).|
 <!--
 ### User Account Settings
-Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
+Integration with Business Central through [!INCLUDE [cds_long_md](includes/cds_long_md.md)] requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
 ### Single and bi-directional synchronization of sales orders
 
 When you set up your integration, there are options that control the direction in which you synchronize sales orders, and how you submit them.
@@ -100,7 +100,7 @@ For bidirectional synchronization, you make sales orders available for synchroni
 
 The **Enable Legacy Sales Order Integration** option synchronizes only from Sales to [!INCLUDE [prod_short](includes/prod_short.md)]. For this option, you use the **Submit** action in Sales to make orders available for synchronization. When you do, you can no longer change any information on the order. When you synchronize, the order is transferred to [!INCLUDE [prod_short](includes/prod_short.md)] with the status **Released**.
 
-To use this option, you must provide credentials for an administrator user account in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, see [Handle Sales Order Data](marketing-integrate-dynamicscrm.md#handle-sales-order-data).
+To use this option, you must provide credentials for an administrator user account in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, go to [Handle Sales Order Data](marketing-integrate-dynamicscrm.md#handle-sales-order-data).
 
 > [!NOTE]
 > The **Bidirectional Synch of Sales Orders** and **Enable Legacy Sales Order Integration** options are mutually exclusive. You can't use both options at the same time.
@@ -130,37 +130,37 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | Sales Order Notes | Sales Order Notes | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]
-> The mappings for the Item Unit of Measure, Resource Unit of Measure, and Unit Group tables are available only if your administrator has turned on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page. To learn more, go to [Synchronizing Items and Resources with Products in Different Units of Measure](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronize-items-and-resources-with-products-with-different-units-of-measure).
+> The mappings for the **Item Unit of Measure**, **Resource Unit of Measure**, and **Unit Group** tables are available only if your administrator turns on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page. To learn more, go to [Synchronizing Items and Resources with Products in Different Units of Measure](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronize-items-and-resources-with-products-with-different-units-of-measure).
 
 ## Synchronize items and resources with products with different units of measure
 
-Businesses often produce or purchase the items in one unit of measure, and then sell them in another. To synchronize items that use multiple units of measure, you must turn on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page. 
+Businesses often produce or purchase the items in one unit of measure, and then sell them in another. To synchronize items that use multiple units of measure, you must turn on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page.
 
 When you turn on the feature update, a new Unit Group table is created and assigned to each item and resource in [!INCLUDE[prod_short](includes/prod_short.md)]. The tables let you map the Unit Group, Item Unit of Measure, and Resource Unit of Measure tables in [!INCLUDE[prod_short](includes/prod_short.md)] to the Dynamics 365 Sales Unit Group in [!INCLUDE[crm_md](includes/crm_md.md)]. The following image shows the mappings.
 
 :::image type="content" source="media/unit group 1.png" alt-text="Table mappings for unit groups":::
 
-You can create multiple units of measure for each unit group, and assign the groups to products in [!INCLUDE[crm_md](includes/crm_md.md)]. Afterward, you can synchronize the products with items and resources in [!INCLUDE[prod_short](includes/prod_short.md)]. You can manually couple item units of measure or resource units of measure with a unit group. When you do, if the unit group for the item or resource isn't coupled to a unit group in [!INCLUDE[crm_md](includes/crm_md.md)], for example, because the unit group didn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates the unit group in [!INCLUDE[crm_md](includes/crm_md.md)].
+You can create multiple units of measure for each unit group, and assign the groups to products in [!INCLUDE[crm_md](includes/crm_md.md)]. Afterward, you can synchronize the products with items and resources in [!INCLUDE[prod_short](includes/prod_short.md)]. You can manually couple item units of measure or resource units of measure with a unit group. When you do, if the unit group for the item or resource isn't coupled to a unit group in [!INCLUDE[crm_md](includes/crm_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates the unit group in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### Map items and resources to products
 
 When you turn on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page, the following happens:
 
 * New mappings are created for items and resources.
-* Existing mappings are deleted. <!--which mappings?-->
+* Existing mappings are deleted.
 * A data upgrade creates unit groups for items and resources.
 
-To use the new mappings, you must synchronize unit groups, item unit of measure, and resource unit of measures. You must also resynchronize items and resources. 
+To use the new mappings, you must synchronize unit groups, item unit of measure, and resource unit of measures. You must also resynchronize items and resources.
 
 > [!NOTE]
-> [!INCLUDE[crm_md](includes/crm_md.md)] does not allow you to change a unit group for a product. Therefore, you must retire your products and uncouple the items and resources, and then synchronize by creating new products in [!INCLUDE[crm_md](includes/crm_md.md)]. 
+> [!INCLUDE[crm_md](includes/crm_md.md)] doesn't allow you to change a unit group for a product. Therefore, you must retire your products and uncouple the items and resources, and then synchronize by creating new products in [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 The following steps describe the steps to start mapping unit groups:
 
-1. Be sure that products in [!INCLUDE[crm_md](includes/crm_md.md)] aren't coupled with items or resources in [!INCLUDE[prod_short](includes/prod_short.md)]. If they are, go to the **Items** and/or **Resources** pages and use the filter options to select the coupled records. Then choose the **Dynamics 365 Sales** action, and select **Uncouple**. This action schedules a background job to uncouple the records. While the job is running, you can check its status by using the **Synchronization Log** action. For more information, see [Coupling and Synchronizing](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Be sure that products in [!INCLUDE[crm_md](includes/crm_md.md)] aren't coupled with items or resources in [!INCLUDE[prod_short](includes/prod_short.md)]. If they are, go to the **Items** and/or **Resources** pages and use the filter options to select the coupled records. Then choose the **Dynamics 365 Sales** action, and select **Uncouple**. This action schedules a background job to uncouple the records. While the job is running, you can check its status by using the **Synchronization Log** action. To learn more, go to [Coupling and Synchronizing](admin-how-to-couple-and-synchronize-records-manually.md).
 2. Because new products are created in [!INCLUDE[crm_md](includes/crm_md.md)] with new unit groups, to avoid duplicate names, do one of the following steps:
 
-  * Rename your products, and then retire them in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Retire products (Sales Hub)](/dynamics365/sales-enterprise/retire-product). To bulk edit your products in Microsoft Excel, sign in to Power Apps, choose your environment, go to the **Product** table, and then choose the **Data** tab. Clear any filters that are applied. In the **Data** group, choose the **Edit Data in Excel** action. Add a prefix or suffix to the coupled products, and then retire them.
+  * Rename your products, and then retire them in [!INCLUDE[crm_md](includes/crm_md.md)]. To learn more, go to [Retire products (Sales Hub)](/dynamics365/sales-enterprise/retire-product). To bulk edit your products in Microsoft Excel, sign in to Power Apps, choose your environment, go to the **Product** table, and then choose the **Data** tab. Clear any filters that are applied. In the **Data** group, choose the **Edit Data in Excel** action. Add a prefix or suffix to the coupled products, and then retire them.
     * Retire your products and delete them. 
 
 3. Follow these steps to synchronize **Unit Groups**, **Unit of Measures**, **Items**, and **Resources**:
@@ -170,17 +170,16 @@ The following steps describe the steps to start mapping unit groups:
     4. Choose the **Sync All** action.
 
     > [!NOTE]
-    > For mappings that have not yet been fully synchronized, this action will fully synchronize them. To prevent those mappings from synchronizing, delete the mappings from the page. This only removes them from the current full synchronization, and does not delete the mappings.
-    
-5. Choose the **ITEM-PRODUCT** mapping, and then choose the **Restart** action. Restarting creates new products from the items in [!INCLUDE[crm_md](includes/crm_md.md)], and assigns a new unit group that is specific to the item.
-6. Choose the **RESOURCE-PRODUCT** mapping, and then choose the **Restart** action. Restarting creates new products from the resources in [!INCLUDE[crm_md](includes/crm_md.md)], and assigns a new unit group that is specific to the resources.
+    > This action fully synchronizes all mappings. To prevent mappings from synchronizing, delete the mappings from the page. Deleting the mappings only removes them from the current full synchronization, and doesn't delete the mappings.
+4. Choose the **ITEM-PRODUCT** mapping, and then choose the **Restart** action. Restarting creates new products from the items in [!INCLUDE[crm_md](includes/crm_md.md)], and assigns a new unit group that is specific to the item.
+5. Choose the **RESOURCE-PRODUCT** mapping, and then choose the **Restart** action. Restarting creates new products from the resources in [!INCLUDE[crm_md](includes/crm_md.md)], and assigns a new unit group that is specific to the resources.
 
 ### Synchronization rules
 
-The following table lists the rules that control the synchronization between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)]. These rules are in addition to rules defined for Dataverse, which also apply. For more information, see [Standard Entity Mapping](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+The following table lists the rules that control the synchronization between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)]. These rules are in addition to rules defined for [!INCLUDE [cds_long_md](includes/cds_long_md.md)], which also apply. To learn more, go to [Standard Entity Mapping](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
-> Changes to data in  that were made by the integration user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Changes to data that were made by the integration user account aren't synchronized. Therefore, we recommended that you don't change data while using that account. To learn more, go to [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Table|Rule|
 |-----|----|
@@ -191,11 +190,11 @@ The following table lists the rules that control the synchronization between [!I
 |Sales Prices|Sales prices that have sales type Customer Price Group and have a sales code defined are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] price list lines|
 |Opportunities|Opportunities are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] opportunities. The Salesperson Code value defines the owner of the coupled table in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it's better to synchronize all other tables that can participate in the invoice, from salespersons to price lists. The Salesperson Code value in the invoice header defines the owner of the coupled table in Sales.|
-|Sales Orders|When you enable sales order integration, when you release sales orders in [!INCLUDE[prod_short](includes/prod_short.md)] that were created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] they synchronize with sales orders in [!INCLUDE[crm_md](includes/crm_md.md)]. Before you synchronize orders, we recommend that you first synchronize all tables involved with the order. For example, sales persons and price lists. The Salesperson Code field in the order header defines the owner of the coupled table in [!INCLUDE[crm_md](includes/crm_md.md)].|
+|Sales Orders|When you enable sales order integration, when you release sales orders in [!INCLUDE[prod_short](includes/prod_short.md)] that were created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)], they synchronize with sales orders in [!INCLUDE[crm_md](includes/crm_md.md)]. Before you synchronize orders, we recommend that you first synchronize all tables involved with the order. For example, sales persons and price lists. The Salesperson Code field in the order header defines the owner of the coupled table in [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 ### Synchronization jobs for a Sales integration
 
-The jobs are run in the following order to avoid coupling dependencies between tables. There are more jobs available from Dataverse. For more information, see [Use Job Queues to Schedule Tasks](./admin-job-queues-schedule-tasks.md).
+The jobs are run in the following order to avoid coupling dependencies between tables. There are more jobs available from [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more, go to [Use Job Queues to Schedule Tasks](./admin-job-queues-schedule-tasks.md).
 
 1. UNITOFMEASURE - Dynamics 365 Sales synchronization job  
 2. RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job  
@@ -216,7 +215,7 @@ The following table describes the default synchronization jobs for [!INCLUDE[crm
 |CUSTPRCGRP-PRICE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] sales price lists with [!INCLUDE[prod_short](includes/prod_short.md)] customer price groups.| |CUSTOMER PRICE GROUPS-SALES PRICE LISTS|30|1440<br> (24 hrs)|
 |SALESPRC-PRODUCTPRICE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] product prices with [!INCLUDE[prod_short](includes/prod_short.md)] sales prices.||PRODUCT PRICE-SALES PRICE|30|1440<br> (24 hrs)|
 |POSTEDSALESINV-INV - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[prod_short](includes/prod_short.md)] posted sales invoices.|From [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|INVOICES-POSTED SALES INVOICES|30|1440<br> (24 hrs)|
-|Customer Statistics - Dynamics 365 Sales synchronization|Updates [!INCLUDE[crm_md](includes/crm_md.md)] accounts with the latest [!INCLUDE[prod_short](includes/prod_short.md)] customer data. In [!INCLUDE[crm_md](includes/crm_md.md)], this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[prod_short](includes/prod_short.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[prod_short](includes/prod_short.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)]. |Not applicable|Not applicable|30|Not applicable| 
+|Customer Statistics - Dynamics 365 Sales synchronization|Updates [!INCLUDE[crm_md](includes/crm_md.md)] accounts with the latest [!INCLUDE[prod_short](includes/prod_short.md)] customer data. In [!INCLUDE[crm_md](includes/crm_md.md)], this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[prod_short](includes/prod_short.md)] customers.<br /><br /> This data can also be updated manually from each customer record. To learn more, go to [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[prod_short](includes/prod_short.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)]. |Not applicable|Not applicable|30|Not applicable|
 
 ## Connect to on-premises versions of Business Central 2019 release wave 1 and Microsoft Dynamics NAV 2018
 
@@ -233,7 +232,7 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
    * Office 365 (legacy)
 
      > [!IMPORTANT]
-     > Effective April 2022, Office365 (legacy) will no longer be supported. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+     > Effective April 2022, Office365 (legacy) is no longer supported. To learn more, go to [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
    * OAuth
 
@@ -244,7 +243,7 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
    * For [!INCLUDE[prod_short](includes/prod_short.md)], the folder contains the DynamicsNAVIntegrationSolution_v9 and DynamicsNAVIntegrationSolution_v91. solutions. The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
    * For Dynamics NAV 2018, install the DynamicsNAVIntegrationSolution solution.
 
-2. Create a non-interactive integration user in your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and assign the user the following security roles. For more information, see [Create a non-interactive user account](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+2. Create a non-interactive integration user in your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and assign the user the following security roles. To learn more, go to [Create a non-interactive user account](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central Integration Administrator
    * Dynamics 365 Business Central Integration User
@@ -252,19 +251,19 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
    > [!Important]
    > This user must not have the System Administrator security role. Also, you cannot use the system administrator account as the integration user.
 
-3. In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3. In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, go to [Register an application in Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory).
   
    > [!NOTE]
-   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to Microsoft Entra ID using the administrator account for your Dataverse environment and give consent.
+   > We recommend that you register the app in the same tenant as your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment so that you don't have to consent to giving access to the environment. If you register the app in another environment, you must sign in to Microsoft Entra ID using the administrator account for your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment and give consent.
    >
-   > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central 2020 release wave 1 and later.
+   > Additionally, the app that you register must not have a secret. Connecting an app with a secret to [!INCLUDE [cds_long_md](includes/cds_long_md.md)] is available only in [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release wave 1 and later.
   
 4. Depending on your product version, do one of the following steps:
 
-    * In [!INCLUDE[prod_short](includes/prod_short.md)], search for **Microsoft Dynamics 365 Connection Setup**, and then choose the related link. 
+    * In [!INCLUDE[prod_short](includes/prod_short.md)], search for **Microsoft Dynamics 365 Connection Setup**, and then choose the related link.
     * In Dynamics NAV 2018, search for **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.
 
-5. In the **Authentication Type** field, choose the option for OAuth. 
+5. In the **Authentication Type** field, choose the option for OAuth.
 6. Choose the CRM SDK version that matches solution version you imported in step 1.
 
    > [!NOTE]
@@ -283,15 +282,11 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
    |**RedirectUri** |Set to the application ID, but add the **app://** prefix.         |
 
     **Example**
-    The following example shows a connection string.
-
-    ```
-    AuthType=OAuth;Username=jsmith@contoso.onmicrosoft.com;Password=****;Url=https://contosotest.crm.dynamics.com;AppId=<your AppId>;RedirectUri=app://<your AppId>;TokenCacheStorePath=;LoginPrompt=Auto
-    ```
+    To review an example of the connection string, go to [Create a connection string](/power-apps/developer/data-platform/xrm-tooling/use-connection-strings-xrm-tooling-connect#create-a-connection-string) in the [!INCLUDE [cds_long_md](includes/cds_long_md.md)] documentation.
 9. Enable the connection.
 
-> [!Note]
-> If you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Authentication with Microsoft Dataverse web services](/powerapps/developer/data-platform/authentication). This step is not required when connecting an online version of [!INCLUDE[prod_short](includes/prod_short.md)].
+   > [!Note]
+   > If you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. To learn more, go to [Authentication with Microsoft Dataverse web services](/powerapps/developer/data-platform/authentication). This step is not required when connecting an online version of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Related information
 
@@ -299,6 +294,5 @@ The Microsoft Power Platform team [announced](/power-platform/important-changes-
 [Set Up a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Synchronizing Business Central and [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

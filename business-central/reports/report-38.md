@@ -23,6 +23,8 @@ You can select an indentation level to view a summary of more details from your 
 
 ## Use cases
 
+[!INCLUDE [report-38-scenario](../includes/report-38-scenario-include.md)]
+
 <!-- 
 Prompt
 
@@ -55,19 +57,19 @@ Please include your data sources and URLs
 
 -->
 
-Financial accountants use the report to:
+Financial accountants can use the report to:
 
 * Verify the accuracy of the financial data. Review the movements in the selected period of month, quarter, or year, and ensure that the closing balances match the expected values.
 * Identify discrepancies or errors in financial data and investigate them.
 * Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
 
-Financial analysts use the report to:
+Financial analysts can use the report to:
 
 * Analyze financial performance over specific periods by reviewing the movements in the selected period of month, quarter, or year, and identifying trends and variances.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-Financial controllers use the report to:
+Financial controllers can use the report to:
 
 * Monitor the financial health of the business. Review the movements in the selected period of month, quarter, or year, and ensuring the closing balances are within the expected range.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.

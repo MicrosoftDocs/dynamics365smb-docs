@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Setup VAT date
-description: This section describes Czech local functionality - VAT Date and Setup of the VAT Date Feature.
+description: Learn how to set up and use the VAT Date feature in the Czech version of Business Central, including configuration steps and VAT reporting options.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: install-set-up-deploy
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 11/20/2023
-ms.reviewer: bholtorf
+ms.date: 06/04/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -14,9 +14,9 @@ ms.author: v-pejano
 
 The VAT date is important for tax documents according to §28 of VAT Law 235/2004. The VAT date can be different from the posting date or the document date. The VAT date is an important field for the VAT reporting.  
 
-This feature focuses on improving the following:
+This feature focuses on improving the following aspects:
 
-## Setup of the VAT date feature
+## Setup of the VAT Date feature
 
 - Enabling VAT date usage in the system generally.
 - Select the system's default value for the VAT date in different areas (Posting Date or Document Date).
@@ -34,10 +34,10 @@ The system filters VAT entries by the **VAT Date** field (instead of **Posting D
 
 ## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)    
-[VAT Control Report](vat-control-report.md)  
-[VAT statement](vat-statement.md)  
-[Finance](../../finance.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)    
+- [VAT Control Report](vat-control-report.md)  
+- [VAT statement](vat-statement.md)  
+- [Finance](../../finance.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,9 +4,9 @@ description: This topic describes how the costing method affects how actual and 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: concept-article
 ms.search.keywords:
-ms.date: 05/29/2024
+ms.date: 06/12/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -15,7 +15,7 @@ ms.custom: bap-template
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
 > [!NOTE]
-> You cannot change an item's costing method if item ledger entries exist for the item. For more information, see [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
+> You can't change an item's costing method if item ledger entries exist for the item. Learn more at [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
 
 The following methods are supported in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -46,7 +46,7 @@ Costing methods differ in the way that they value inventory decreases and if the
 |-|---------|---------|---------|---------|
 |**FIFO**     |Easy to understand|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application. |Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|
 |**Average**     |Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**. |Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time. |If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|
-|**Standard**     |Easy to use, but requires qualified maintenance.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|Revalues invoiced and uninvoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|
+|**Standard**     |Easy to use, but requires qualified maintenance.|Application keeps track of the **Remaining Quantity**.<br /><br /> Application is based on FIFO.|Revalues invoiced and uninvoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Use the **Standard Worksheet** page to periodically update and roll up standard costs for item.<br /><br /> To use standard cost from SKU, go to the **Manufacturing Setup** page and turn on the **Load SKU Cost on Manufacturing** toggle. Use the **Calc. Production Std. Cost** action on the **Stockkeeping Unit Card** page to calculate standard cost.<br /><br /> No historic records exist for standard costs.|
 |**Specific**     |Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|All applications are fixed.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|You can use specific item tracking without using the Specific costing method. The cost won't follow the lot number, but the cost assumption of the selected costing method.|
 
 ## Example
@@ -111,7 +111,7 @@ For items using the **Standard** costing method, inventory increases are valued 
 
 - **Average**  
 
-    For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](design-details-average-cost.md).  
+    For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. Learn more at [Design Details: Average Cost](design-details-average-cost.md).  
 
      The following table shows how inventory decreases are valued for the **Average** costing method.  
 

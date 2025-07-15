@@ -7,7 +7,7 @@ ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: French localization, France local functionality, French version
-ms.date: 04/14/2025
+ms.date: 07/15/2025
 ms.custom: bap-template
 ---
 

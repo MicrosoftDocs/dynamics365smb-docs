@@ -4,7 +4,7 @@ description: These articles describe the local functionality in the New Zealand 
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 05/07/2025
+ms.date: 07/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

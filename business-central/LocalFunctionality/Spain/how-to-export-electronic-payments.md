@@ -29,7 +29,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders**, and then choose the related link.  
 1. Select the documents that you want to pay.  
-1. Choose THE **Export to File** action.  
+1. Choose the **Export to File** action.  
 
    Payments of type SEPA are exported to a file immediately.  
 
@@ -43,8 +43,8 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
     |**Settle Date**|Specify the date when the export is transmitted to the bank. This date is the posting date for the payment journal entries that are exported.|  
     |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date doesn't match the settle date.|  
     |**Expenses Code**|Specify who is responsible for the payment expenses.|  
-    |**Shared (Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**Payment Order Concept.)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Shared (Only International Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you don't select this field, the bank sends the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that are printed by this process. One document is always printed so that it can be mailed to the payee.|  
 
@@ -72,14 +72,14 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
     |**Settle Date**|Specify the date when the export is transmitted to the bank. This date is the posting date for the payment journal entries that are exported.|  
     |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date doesn't match the settle date.|  
     |**Expenses Code**|Specify who is responsible for the payment expenses.|  
-    |**Shared (Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**Payment Order Concept.)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Shared (Only International Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you don't select this field, the bank sends the total of all charges for all the transfers made.|  
-    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that is printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that are printed by this process. One document is always printed so that it can be mailed to the payee.|  
 
 1. Choose the **Print** or the **Preview** action to see the created payment file.  
 
-   The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** is exported. The data is exported to a file that is formatted according to the selected payment standard. In addition, remittance advice is printed, which is suitable for mailing to each payee.  
+   The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** are exported. The data is exported to a file that is formatted according to the selected payment standard. In addition, remittance advice is printed, which is suitable for mailing to each payee.  
 
     > [!NOTE]  
     > You can only post the payment order after you successfully export the electronic payments.  
@@ -98,7 +98,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
     |**Payment Order Concept**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you don't select this field, the bank sends the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that are printed by this process. One document is always printed so that it can be mailed to the payee.|  
-    |**Shared (Only Internation Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Shared (Only International Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
 
 > [!NOTE]  
 > You can only post the payment order after you successfully export the electronic payments.  

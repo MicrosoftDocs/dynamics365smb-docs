@@ -1,7 +1,7 @@
 ---
 title: Support for the Shopify Connector
 description: Support options related to the Shopify Connector.
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: andreipanko
@@ -37,4 +37,7 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 
 ## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

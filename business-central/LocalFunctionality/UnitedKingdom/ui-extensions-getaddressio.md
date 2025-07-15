@@ -16,6 +16,12 @@ ms.reviewer: v-soumramani
 
 The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
 
+## Setup the GetAddress.io UK Postcodes extension  
+
+1. Select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Postcode Configuration Page**, and then select the related link. 
+2. In the **Address Provider** field select the **GetAddress.io Config**.   
+3. In the **Endpoint URL** field specify the following URL as a new endpoint: *https://api.getAddress.io/autocomplete/*.  
+
 ## Use the GetAddress.io UK Postcodes extension when you enter an address
 
 1. Under **Address**, choose **Look up address from postcode**.  

@@ -35,6 +35,7 @@ The documentation explains e-documents in detail. It shows the capabilities of t
 | [Parameters for setting the e-documents connector with external endpoints](finance-edocuments-connectors.md) | Learn how to set up parameters and credentials for e-documents with specific external endpoints. |
 | [Exchanging Data Electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents such as bank files and currency exchange rates. | 
 | [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md) | Learn how to use Copilot to improve your efficiency when working with e-documents. |
+| [FAQ](faq-electronic-invoicing.yml) | Frequent Questions and Answers about E-Documents. |
 
 ## Localizations  
 
@@ -42,15 +43,14 @@ Microsoft currently supports the following localizations:
 
 | Article | Description | 
 |---------|-------------|
-| Australian E-Invoicing | Peppol PINT A-NZ format is coming soon - 2025 release wave 1. |
-| [Belgian E-Invoicing](finance-how-setup-edocuments-external.md) | Supported Peppol BIS 3 format. |
+| [Australian E-Invoicing](localfunctionality/australia/australia-local-functionality.md) | Peppol PINT A-NZ format. |
 | [Danish E-Invoicing](localfunctionality/denmark/how-to-edocuments-nemhadel.md) | Supported both Peppol BIS 3 and OIOUBL formats. |
 | French E-Invoicing | Will be supported in 2026. |
-| [German E-Invoicing](LocalFunctionality/Germany/germany-einvoicing.md) | Suppoerted Peppol BIS 3 and XRechnung. ZUGFeRD will come later this year. |
+| [German E-Invoicing](LocalFunctionality/Germany/germany-einvoicing.md) | Suppoerted Peppol BIS 3, XRechnung (UBL only), and ZUGFeRD formats. |
 | Indian E-Invoicing | Using new E-Documents framework - TBD |
 | Italian E-Invoicing | Using new E-Documents framework - TBD |
 | Mexican E-Invoicing | Using new E-Documents framework - TBD |
-| New Zealand E-Invoicing | Peppol PINT A-NZ format is coming soon - 2025 release wave 1. |
+| [New Zealand E-Invoicing](localfunctionality/newzealand/how-to-nz-einvoice.md) | Peppol PINT A-NZ format. |
 | [Norway E-Invoicing](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md) | Supported Peppol BIS 3 format. |
 | [Spanish E-Invoicing](LocalFunctionality/Spain/spain-einvoicing.md) | Supported Factura-E format. |
 

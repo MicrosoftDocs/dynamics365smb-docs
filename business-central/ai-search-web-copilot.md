@@ -7,6 +7,7 @@ ms.reviewer: solsen
 ms.search.keywords: bing, browsing, search engine, web-enabled AI, web-aware AI
 ms.topic: overview 
 ms.date: 07/02/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot

@@ -41,11 +41,11 @@ These settings affect the import file. The following table describes the importa
 
 |Field  |Description  |
 |---------|---------|
-|File Type     | For importing usage data, businesses typically choose **Variable Text**.        |
-|Type     | For importing usage data, businesses typically choose **Generic Import**.        |
-|File Encoding     | The encoding of unicode characters for the import file.        |
-|Column Separator     | Specifies the character that separates the columns in the import file. This is only relevant for the **Variable Text** file type.        |
-|Header Lines     | Sets how many header lines the import file contains. This ensures that the header data isn't imported.        |
+|File Type|For importing usage data, businesses typically choose **Variable Text**.|
+|Type|For importing usage data, businesses typically choose **Generic Import**.|
+|File Encoding|The encoding of unicode characters for the import file.|
+|Column Separator|Specifies the character that separates the columns in the import file. This is only relevant for the **Variable Text** file type.|
+|Header Lines|Sets how many header lines the import file contains. This ensures that the header data isn't imported.|
 
 ## Settings on the Line Definitions FastTab
 
@@ -78,8 +78,8 @@ The following table provides a complete example of a setup on the **Field Mappin
 |10   | Product Name |   18      |    Product Name     | |No | Yes| 0|
 |11   | Subscription Start Date  |  13  | Subscription Start Date| |No | No| 0|
 |12   | Subscription End Date    | 14  | Subscription End Date  | |No | No| 0|
-|13 | Billing Period Start Date| 15 | Billing Period Start Date | |No | No| 0|
-|14 | Billing Period End Date  | 16  | Billing Period End Date  | |No | No| 0|
+|13   | Billing Period Start Date| 15 | Billing Period Start Date | |No | No| 0|
+|14   | Billing Period End Date  | 16  | Billing Period End Date  | |No | No| 0|
 |16   | Cost        |  19      |   Unit Cost      | |No | No| 0|
 |17   | Quantity    |  21      |  Quantity        | |No | Yes| 0|
 |18   | Price       |  20      |  Unit Price      | |No | No| 0|

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059, 8079, 8071, 314,
-ms.date: 05/07/2025
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -17,7 +17,7 @@ In subscription billing, managing the timing of revenue and expense recognition 
 
 ## Prerequisites and setup
 
-When you post a contract invoice, contract deferrals are automatically created if the **Without Contract Deferrals** toggle is off on the contract. Use contract deferrals to defer income for customer subscription contracts or prepaid expenses for vendor subscription contracts.
+When you post a contract invoice, contract deferrals are automatically created if the **Create Contract Deferrals** toggle is activated on the contract. Use contract deferrals to defer income for customer subscription contracts or prepaid expenses for vendor subscription contracts.
 
 ## Deferrals for customer subscription contracts
 
@@ -28,9 +28,9 @@ You define the G/L accounts to post to in posting groups for each combination of
 * The customer's general business posting group in the contract header.
 * The general product posting group of the items.
 
-To learn more, go to [Subscription lines at Items](../masterdata/items.md).
+To learn more, go to [Subscription lines for items](../masterdata/items.md).
 
-By default, the account used per combination is stored in the **Customer Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Without Contract Deferrals** toggle is on the **Customer Subscription Contract** page, the invoice amount is immediately posted as revenue to the account defined in the **Customer Subscription Contract Account** field. In this case, contract deferrals aren't created.
+By default, the account used per combination is stored in the **Customer Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Create Contract Deferrals** toggle is deactivated on the customer subscription contract, the invoice amount is immediately posted as revenue to the account defined in the **Customer Subscription Contract Account** field. In this case, contract deferrals aren't created.
 
 ### Opening contract deferrals from customer subscription contracts
 
@@ -42,7 +42,7 @@ You can access customer subscription contract deferrals from the **Customer Subs
 * The **Document No.** indicates the document number with which the deferral was generated.
 * The **Subscription Description** field contains the description of the associated subscription that was invoiced via the document line.
 * The **Subscription Line Description** field contains the description of the associated subscription line that was invoiced via the document line.
-* The **Bill-to Cust.-No.** is the number of the customer (invoice recipient) for which the deferrals were generated.
+* The **Bill-to Customer No.** is the number of the customer (invoice recipient) for which the deferrals were generated.
 * The **Customer No.** is the number of the customer (Contractor) for whom the deferrals were generated.
 * The **Discount Amount** field contains the (pro-rata) discount amount of the deferrals.
 * The basis for the deferrals for a document is represented in the **Deferral Base Amount** field.
@@ -58,7 +58,7 @@ You can access customer subscription contract deferrals from the **Customer Subs
 * The **Entry No.** is assigned when the deferrals are created from the specified number series.
 
 > [!TIP]
-> The deferrals to create can also already be checked in the unposted contract invoices via the **Preview Posting**.
+> The deferrals to create can also already be checked in the unposted contract invoices via **Preview Posting**.
 
 ## Deferrals vendor subscription contracts
 
@@ -69,7 +69,7 @@ Similar to the customer subscription contract, the G/L accounts to post to are d
 * The vendor's general business posting group.
 * The item's general product posting group.
 
-By default, the account used is the **Vendor Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Without Contract Deferrals** toggle is on the **Vendor Subscription Contract** page, the invoice amount is immediately posted as a cost to the account in the **Vendor Subscription Contract Account** field. In this case, contract deferrals aren't created.
+By default, the account used is the **Vendor Subscription Contract Deferral** field on the **General Posting Setup** page. However, if the **Create Contract Deferrals** toggle is activated on the vendor subscription contract, the invoice amount is immediately posted as a cost to the account in the **Vendor Subscription Contract Account** field. In this case, contract deferrals aren't created.
 
 ### Opening subscription contract deferrals from vendor subscription contracts
 
@@ -100,7 +100,7 @@ When you post the release, the source code is used. The source code is in the **
 
 > [!NOTE]
 >
-> * If deferrals were created by a contract invoice, they're automatically released fully  on the **Posting Date of Credit Memo** when the contract invoice is credited.
+> * If deferrals were created by a contract invoice, they're automatically released fully on the **Posting Date of Credit Memo** when the contract invoice is credited.
 > * Contract deferrals shouldn't be released to future periods.
 > * Credit memos shouldn't post to past (supposedly closed) periods. The release and correction of the contract deferrals happen on the document date of the credit memo. This mismatch could distort the reporting and the advance VAT return already created. If the credit memo was posted in a past period, these two points, among others, must be corrected in coordination with the departments, such as internal financial accounting or your tax advisor.
 
@@ -117,74 +117,74 @@ To control deferrals and submissions to auditors, you can export deferrals to Ex
 ### Example 1: 1 year, full months
 
 * **Base amount for deferrals:** 1,200.00
-* **Start date:** 01.01.2021
-* **End date:** 12/31/2021
+* **Start date:** 01.01.2025
+* **End date:** 12/31/2025
 * **Basis monthly amount:** 1,200.00
 * **Number of full months:** 12
 * **Monthly amount:** 100,00
 
 |Posting Date|Number of Days|Deferral Base Amount|Amount|
 |--|--|--|--|
-|01/01/2021|31|1,200.00|100.00|
-|01/02/2021|28|1,200.00|100.00|
-|01/03/2021|31|1,200.00|100.00|
-|01/04/2021|30|1,200.00|100.00|
-|01/05/2021|31|1,200.00|100.00|
-|01/06/2021|30|1,200.00|100.00|
-|01/07/2021|31|1,200.00|100.00|
-|01/08/2021|31|1,200.00|100.00|
-|01/09/2021|30|1,200.00|100.00|
-|01/10/2021|31|1,200.00|100.00|
-|01/11/2021|30|1,200.00|100.00|
-|01/12/2021|31|1,200.00|100.00|
+|01/01/2025|31|1,200.00|100.00|
+|01/02/2025|28|1,200.00|100.00|
+|01/03/2025|31|1,200.00|100.00|
+|01/04/2025|30|1,200.00|100.00|
+|01/05/2025|31|1,200.00|100.00|
+|01/06/2025|30|1,200.00|100.00|
+|01/07/2025|31|1,200.00|100.00|
+|01/08/2025|31|1,200.00|100.00|
+|01/09/2025|30|1,200.00|100.00|
+|01/10/2025|31|1,200.00|100.00|
+|01/11/2025|30|1,200.00|100.00|
+|01/12/2025|31|1,200.00|100.00|
 
 ### Example 2: 1 year with subperiods
 
 * **Basis amount for deferrals:** 1,200.00
-* **Start date:** 01/15/2021
-* **End date:** 01/14/2022
+* **Start date:** 01/15/2025
+* **End date:** 01/14/2026
 * **Basis monthly amount:** 1,098.08
 * **Number of full months:** 11
 * **Monthly amount:** 99.83
 
 |Posting Date|Number of Days|Deferral Base Amount|Amount|
 |--|--|--|--|
-|15/01/2021|17|1,200.00|55.89|
-|01/02/2021|28|1,200.00|99.83|
-|01/03/2021|31|1,200.00|99.83|
-|01/04/2021|30|1,200.00|99.83|
-|01/05/2021|31|1,200.00|99.83|
-|01/06/2021|30|1,200.00|99.83|
-|01/07/2021|31|1,200.00|99.83|
-|01/08/2021|31|1,200.00|99.83|
-|01/09/2021|30|1,200.00|99.83|
-|01/10/2021|31|1,200.00|99.83|
-|01/11/2021|30|1,200.00|99.83|
-|01/12/2021|31|1,200.00|99.83|
-|01/01/2022|14|1,200.00|45.98|
+|15/01/2025|17|1,200.00|55.89|
+|01/02/2025|28|1,200.00|99.83|
+|01/03/2025|31|1,200.00|99.83|
+|01/04/2025|30|1,200.00|99.83|
+|01/05/2025|31|1,200.00|99.83|
+|01/06/2025|30|1,200.00|99.83|
+|01/07/2025|31|1,200.00|99.83|
+|01/08/2025|31|1,200.00|99.83|
+|01/09/2025|30|1,200.00|99.83|
+|01/10/2025|31|1,200.00|99.83|
+|01/11/2025|30|1,200.00|99.83|
+|01/12/2025|31|1,200.00|99.83|
+|01/01/2026|14|1,200.00|45.98|
 
 ### Example 3: less than 1 year with subperiods
 
 * **Basis amount for deferrals:** 1,022.47
-* **Start date:** 01/15/2021
-* **End date:** 21.11.2021
+* **Start date:** 01/15/2025
+* **End date:** 21.11.2025
 * **Basis monthly amount:** 897.54
 * **Number of full months:** 9
 * **Monthly amount:** 99.73
 
 |Posting Date|Number of Days|Deferral Base Amount|Amount|
 |--|--|--|--|
-|15/01/2021|17|1,022.47|55.89|
-|01/02/2021|28|1,022.47|99.73|
-|01/03/2021|31|1,022.47|99.73|
-|01/04/2021|30|1,022.47|99.73|
-|01/05/2021|31|1,022.47|99.73|
-|01/06/2021|30|1,022.47|99.73|
-|01/07/2021|31|1,022.47|99.73|
-|01/08/2021|31|1,022.47|99.73|
-|01/09/2021|30|1,022.47|99.73|
-|01/10/2021|31|1,022.47|99.73|
-|01/11/2021|21|1,022.47|69.01|
+|15/01/2025|17|1,022.47|55.89|
+|01/02/2025|28|1,022.47|99.73|
+|01/03/2025|31|1,022.47|99.73|
+|01/04/2025|30|1,022.47|99.73|
+|01/05/2025|31|1,022.47|99.73|
+|01/06/2025|30|1,022.47|99.73|
+|01/07/2025|31|1,022.47|99.73|
+|01/08/2025|31|1,022.47|99.73|
+|01/09/2025|30|1,022.47|99.73|
+|01/10/2025|31|1,022.47|99.73|
+|01/11/2025|21|1,022.47|69.01|
 
 ## Related information
 

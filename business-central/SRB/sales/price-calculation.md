@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8059,
-ms.date: 08/14/2024
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -27,11 +27,11 @@ The price of a subscription line is automatically determined based on their setu
 
    * **Document Price And Discount**
 
-   **Calculation Base Amount** is determined in the same way as the Document Price Type (see above). In addition, a discount entered in the sales item for the subscription lines is transferred and taken into account when determining the Service Amount. This option is not available for vendor-side subscription lines.
+   **Calculation Base Amount** is determined in the same way as the Document Price type (see above). In addition, a discount entered in the sales item for the subscription lines is transferred and taken into account when determining the amount. This option is not available for vendor-side subscription lines.
 
    * **Calculation Base Amount**
 
-   **Calculation Base Amount** is the basis for calculating the service amount. When selling a good with an additional recurring subscription line, the calculation base amount is equal to the value of the good.
+   **Calculation Base Amount** is the basis for calculating the amount. When selling an item with an additional subscription line, the calculation base amount is equal to the unit price of the item.
 
    * **Calculation Base %**
 

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8044_Primary, 8041, 8038
-ms.date: 05/07/2025
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -20,7 +20,7 @@ In addition to a unique **No.**, you can enter an explanatory **Description**.
 
 Use the **Vendor Name** field to connect the supplier to a vendor. To learn more, go to [Methods for pricing](../processing-usage-data/imports-processing.md#methods-for-pricing).
 
-Currently, the **Type** field only offers the **Generic** option. This means that the data isn't imported through an interface, such as an API. Instead, you import data in CSV files. An API page is also provided as an interface for the generic import.
+The **Type** field only offers the **Generic** option, which means that the data isn't imported through an interface, such as an API. Instead, you import data in CSV files. An API page is also provided as an interface for the generic import.
 
 The **Unit Price from Import** checkbox affects the customer pricing of the usage data and specifies whether to use the sales price from the usage data. If you select the checkbox, pricing based on subscription lines is overwritten. In this case, the import file must contain the customer pricing and the data exchange definition. To learn more, go to [Data exchange definitions](dataexchangedefinitions.md) and [Settings on the supplier](#settings-on-the-supplier).
 

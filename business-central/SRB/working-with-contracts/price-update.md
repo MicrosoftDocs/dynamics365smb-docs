@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
 ms.search.form: 8025, 
-ms.date: 05/06/2025
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,9 +30,9 @@ You can filter the contract lines to update to all fields on the contract, subsc
 
 On the **Subscription Contract Price Update** page, a price update proposal is created with the selected template. There, you can check all proposed price updates. Group the proposal lines by contract or customer to make them easier to review. Afterward, you can apply all price updates.
 
-Future planned price updates don't take effect immediately. A price increase on 01.01.25 shouldn't change the price in December. Planned subscription lines are created for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
+Future planned price updates don't take effect immediately. A price increase on 01.01.2026 shouldn't change the price in December 2025. Planned subscription lines are created for this purpose. The planned price update can be displayed, but it doesn't require any manual action. The price update takes effect automatically when the contract line is invoiced to the cut-off date.
 
-If a period in which a price update was applied is credited, the price  automatically resets to the original price. At the same time, a planned subscription line is created, which saves the reset price update. If the period is invoiced again, the price update is reapplied. In this way, the prices of the periods are retained. Invoices and credit notes can be created with the original amounts.
+If a period in which a price update was applied is credited, the price automatically resets to the original price. At the same time, a planned subscription line is created, which saves the reset price update. If the period is invoiced again, the price update is reapplied. In this way, the prices of the periods are retained. Invoices and credit memos can be created with the original amounts.
 
 ## Use price update templates
 
@@ -64,11 +64,11 @@ You might need to change filters after you change the template. For example, if 
 
 On the **Price Update Templates** page, the **Price Update Method** field offers three options. The following table describes the options.
 
-|Option  |Description  |
+|Option|Description|
 |---------|---------|
-|**Calculation Base by %**     | Sets the **Calculation Base %** field to the value in **Update Value %**. A price update to 20% sets the **Calculation Base %** field to **20%**. With a filter on the old **Calculation Base %** field value, you can increase the percentages of all subscription lines to the new value.        |
-|**Price by %**     | Increases or decreases the price of the contract lines by the percentage in the **Update Value %** field. You can also use negative values. A price update of 2% for a contract line with a price of 100,-, increases the price to 102,-.        |
-|**Recent Item Price**     | Updates the **Calculation Base %** field in the subscription lines with prices from the **Sales Price List** page. The prices for the subscription lines are determined for the items in the subscriptions and the date in **Perform Update on** field. Price updates planned for the future get the prices planned in the sales price list. The discount percentage in the sales price list isn't taken into account in the query because they're often agreed on individually with customers.        |
+|**Calculation Base by %**|Sets the **Calculation Base %** field to the value in **Update Value %**. A price update to 20% sets the **Calculation Base %** field to **20%**. With a filter on the old **Calculation Base %** field value, you can increase the percentages of all subscription lines to the new value.|
+|**Price by %**|Increases or decreases the price of the contract lines by the percentage in the **Update Value %** field. You can also use negative values. A price update of 2% for a contract line with a price of 100,-, increases the price to 102,-.|
+|**Recent Item Price**|Updates the **Calculation Base %** field in the subscription lines with prices from the **Sales Price List** page. The prices for the subscription lines are determined for the items in the subscriptions and the date in **Perform Update on** field. Price updates planned for the future get the prices planned in the sales price list. The discount percentage in the sales price list isn't taken into account in the query because they're often agreed on individually with customers.|
 
 > [!IMPORTANT]
 > If a price would be set to zero or become negative due to a price update, a proposal line isn't created for the subscription line.
@@ -84,7 +84,7 @@ The same applies to periods that aren't invoiced. For example, if the date in th
 
 ### Include Subscription Contract Lines up to Date Formula
 
-The dateformula presets the date in the **Include Subscription Contract Lines up to Date Formula** field on the **Subscription Contract Price Update** page. The date in the **Include Contract Lines Up To Date** field is compared with the date in the **Next Price Update** field in the subscription lines to determine whether the subscription line is eligible for a price update.
+The date formula presets the date in the **Include Subscription Contract Lines up to Date Formula** field on the **Subscription Contract Price Update** page. The date in the **Include Contract Lines Up To Date** field is compared with the date in the **Next Price Update** field in the subscription lines to determine whether the subscription line is eligible for a price update.
 
 In each subscription line and contract line, the **Next Price Update** field indicates when you can apply the next price update. This displays the end of the price binding periods and prevents the price from being changed several times in succession by mistake.
 
@@ -92,11 +92,12 @@ The **Next Price Update** field is calculated from the **Subscription Line Start
 
 > [!NOTE]
 > You can change the **Next Price Update** date manually at any time and you can change the price of a subscription line at any time, regardless of the **Next Price Update** date.
+>
 > If a subscription line isn't eligible for a price update according to **Next Price Update**, a proposal line isn't created.
 
 ### Price Binding Period
 
-The **Price Binding Period** field determines how long the subscription line shouldn't be taken into account after a price update. If the price is only to increase one time within a year, enter the dateformula **1Y**. When the price update happens, the **Next Price Update** field is automatically changed on the subscription line. The new date in the **Next Price Update** field is calculated from the **Perform Update on** plus **Price Binding period** fields. For example, 31.12.2023 + 1Y = 31.12.2024.
+The **Price Binding Period** field determines how long the subscription line shouldn't be taken into account after a price update. If the price is only to increase one time within a year, enter the date formula **1Y**. When the price update happens, the **Next Price Update** field is automatically changed on the subscription line. The new date in the **Next Price Update** field is calculated from the **Perform Update on** plus **Price Binding period** fields. For example, 12.31.2025 + 1Y = 12.31.2026.
 
 ### Grouping
 
@@ -110,12 +111,12 @@ Proposals for price updates can be created, checked, and carried out on the **Su
 
 The **Create Proposal** action creates proposal lines for all subscription lines in the filter. Each line contains the current price, amount, calculation base percentage, and the new values and the difference between the two. You can personalize the page to add fields such as **Calculation Base %**, **Quantity**, **Discount %**. When created, **Perform Update On** and **Next Price Update** are entered in each proposal line. This means that you can extend the proposal with further templates before the price updates are applied.
 
-If filtering the subscription lines in a template is too complex or not possible, we recommend using several templates. The templates can be selected one after the other in order to add the other subscription lines to the proposal in the new template. For example, to specify that prices in subscription lines younger than a certain date increase by 2%, but older subscription lines only increase by 1%.
+If filtering the subscription lines in a template is too complex or not possible, we recommend using several templates. The templates can be selected one after the other in order to add the other subscription lines to the proposal in the new template. For example, to specify that prices in subscription lines younger than a certain date increase by two percent, but older subscription lines only increase by one percent.
 
 > [!IMPORTANT]
 > A maximum of one proposal line is created per subscription lines and it isn't updated when the **Create Proposal** action is used again. If the subscription line is the subject of several templates, the proposal for the price update from the first template is kept and subsequent templates don't overwrite it. The same applies to the **Perform Update On** and **Next Price Update** fields.
 
-Proposal lines are proposals for a price update. The subscription lines or contract lines aren't updated at this point. Based on the data, the proposal might differ from the actual update in regards to the **Perform Update On** date. You can set a date in the past for **Perform Update On**. However, the price in periods already invoiced doesn't change.
+Proposal lines are suggestions for a price update. The subscription lines or contract lines aren't updated at this point. Based on the data, the proposal might differ from the actual update in regards to the **Perform Update On** date. You can set a date in the past for **Perform Update On**. However, the price in periods already invoiced doesn't change.
 
 If a planned subscription line has **Price Update** or **Contract Extension** selected in the **Type of Update** field, a proposal line isn't created for the subscription line. The planned subscription lines would overwrite the price update in any case. It would come down to the sequence of execution, which is avoided at this point of time. A price update and subscription contract renewal are potentially binding agreements, which is why the combination is currently avoided when you run the **Create Proposal** action.
 
@@ -129,29 +130,29 @@ Heading lines are automatically deleted if there are no related proposal lines.
 
 ### Perform price update
 
-Use the **Perform price update** action to apply the price update and delete all proposal lines afterwards. If the price update can apply immediately, the following fields are updated in the subscription line and contract lines:
+Use the **Perform Price Update** action to apply the price update and delete all proposal lines afterwards. If the price update can apply immediately, the following fields are updated in the subscription line and contract lines:
 
 * Calculation Base %
 * Calculation Base
 * Discount %
 * Price (is recalculated from Calculation Base Amount and Calculation Base %)
-* Service Amounts (recalculated from price and quantity)
+* Amount (recalculated from price and quantity)
 * Next Price Update
 * Price Binding Period
 
-Changes that were made to these fields in the meantime are overwritten. Changes made to other fields are retained.
+Changes that were made to these fields in the meantime are overwritten. Changes made to other fields are kept.
 
 If the price update can't apply immediately, planned subscription lines are created. For example, you might not be able to apply a price update for the following reasons:
 
 * There are billing lines for a contract line.
 
    The price update never intervenes in the current invoice run.
-* The invoice or credit note has an unposted invoice.
+* An umposted invoice or credit memo exists.
 
    The price update doesn't change any documents.
 * **Next Billing Date** is before **Next Price Update**.
 
-   If the **Next Billing Date** is before **Next Price Update** (for example, 22.11.2023 is before 31.12.2023), there's a period that must be invoiced with the old price.
+   If the **Next Billing Date** is before **Next Price Update** (for example, 01.12.2025 is before 01.01.2026), there's a period that must be invoiced with the old price.
 
 The planned subscription line is a copy of the subscription line with a few differences. The fields that are overwritten immediately are taken from the proposal line. In addition, the dates in the **Perform Update On** and **Price Binding Period** fields are copied from the proposal line. The planned subscription line is created with **Price Update** in the **Type of Update** field.
 
@@ -162,13 +163,12 @@ The price update of the planned subscription lines is automatically applied as s
 
 The only remaining condition is that you must invoice the subscription lines until the date in the **Next Price Update** field. The date in the **Next Billing Date** field must not be before the date in the **Next Price Update** field. If this condition is met, the same fields are updated in the subscription line as when the price update is applied immediately.
 
-An archived subscription line is created for every applied price update.
-The archived subscription line is a copy of the subscription line before the price update with some differences worth mentioning.
+An archived subscription line is created for every applied price update. The archived subscription line is a copy of the subscription line before the price update with some differences worth mentioning.
 
-The date in the **Perform update on** field corresponds to the date in the **Next Billing Date** field minus one day. Regardless of the original **Perform update on** date, the update was performed at the end of the last invoiced period and is valid with the new period. Archiving exactly when the price update actually came into effect is essential for maintaining period-accurate prices. If the last period is credited, the price update must be canceled in order to be able to use the prices of the last period. The **Type of update** is set to **Price update** on the archived subscription line.
+The date in the **Perform Update On** field corresponds to the date in the **Next Billing Date** field minus one day. Regardless of the original **Perform Update On** date, the update was performed at the end of the last invoiced period and is valid with the new period. Archiving exactly when the price update actually came into effect is essential for maintaining period-accurate prices. If the last period is credited, the price update must be canceled in order to be able to use the prices of the last period. The **Type of Update** is set to **Price update** on the archived subscription line.
 
 > [!IMPORTANT]
-> If the date in the **Perform Update on** field is before the date in the **Next Price Update** field, the price update can still be applied if the subscription line was invoiced until or beyond **Next Price Update**. The **Perform Update on** date is changed to **Next Billing Date** - 1D in the archived subscription line because the price update only came into effect at the end of the last period. In this case, the decisive factor as to whether the price update can be applied is that the complete period for which the old price applies is invoiced.
+> If the date in the **Perform Update On** field is before the date in the **Next Price Update** field, the price update can still be applied if the subscription line was invoiced until or beyond **Next Price Update**. The **Perform Update On** date is changed to **Next Billing Date** - 1D in the archived subscription line because the price update only came into effect at the end of the last period. In this case, the decisive factor as to whether the price update can be applied is that the complete period for which the old price applies is invoiced.
 
 The price update in the planned subscription lines applies when an invoice is posted.
 
@@ -178,14 +178,14 @@ The price update can take effect immediately.
 
 |Type|Next Billing Date|Next Price Update|Perform Update on|Price Binding Period|Price|
 |:--|:--|:--|:--|:--|:--|
-|Subscription line before price update|01.01.2024|31.12.2023|-|1Y|Old|
-|Proposal Price update|-|31.12.2024|31.12.2023|1Y|Neu|
-|`Immediate execution`|||31.12.2023 equal to or after 31.12.2023||
-|Subscription line after price update|01.01.2024|31.12.2024|-|1Y|New|
-|Archived subscription lines|01.01.2024|31.12.2023|31.12.2023|1Y|Old|
+|Subscription line before price update|01.01.2024|12.31.2023|-|1Y|Old|
+|Proposal Price update|-|12.31.2024|12.31.2023|1Y|New|
+|`Immediate execution`|||12.31.2023 equal to or after 23.31.2023||
+|Subscription line after price update|01.01.2024|12.31.2024|-|1Y|New|
+|Archived subscription lines|01.01.2024|12.31.2023|12.31.2023|1Y|Old|
 
 > [!IMPORTANT]
-> The prices wouldn't update if the **Perform update on** date was 02.01.2024. The **Next Billing Date** field describes the next day that can be calculated, which includes this day. 01.01.2024 would have to be invoiced at the old price before the price update can take effect.
+> The prices wouldn't update if the **Perform Update On** date was 02.01.2024. The **Next Billing Date** field describes the next day that can be calculated, which includes this day. 01.01.2024 would have to be invoiced at the old price before the price update can take effect.
 
 **Example 2**
 
@@ -193,16 +193,16 @@ The price update can't take effect immediately. A planned subscription line is c
 
 | Type|Next Billing Date|Next Price Update|Perform Update on|Price Binding Period|Price |
 |:--|:--|:--|:--|:--|:--|
-|subscription line before price update|01.01.2024|31.12.2023|-|1Y|Old|
-|Proposal Price update|-|31.12.2024|15.01.2024|1Y|Neu|
-|Planned Subscription Lines necessary|||01.01.2024 is before 15.01.2024||
-|Planned subscription line|01.01.2024|31.12.2024|15.01.2024|1Y|New|
-|Invoice 01.01.2024 - 31.12.2024||||Old|
-|Subscription line after price update|01.01.2025|31.12.2024|-|1Y|New|
-|Archived subscription lines|01.01.2025|31.12.2024|31.12.2024|1Y|Old|
+|subscription line before price update|01.01.2024|12.31.2023|-|1Y|Old|
+|Proposal Price update|-|12.31.2024|01.15.2024|1Y|New|
+|Planned Subscription Lines necessary|||01.01.2024 is before 01.15.2024||
+|Planned subscription line|01.01.2024|12.31.2024|01.15.2024|1Y|New|
+|Invoice 01.01.2024 - 12.31.2024||||Old|
+|Subscription line after price update|01.01.2025|12.31.2024|-|1Y|New|
+|Archived subscription lines|01.01.2025|12.31.2024|12.31.2024|1Y|Old|
 
 > [!IMPORTANT]
-> Price updates and the date in the **Perform Update on** field in planned subscription lines don't affect the invoicing of subscription line. The price update applies automatically after invoicing.
+> Price updates and the date in the **Perform Update On** field in planned subscription lines don't affect the invoicing of subscription line. The price update applies automatically after invoicing.
 
 The **Next Price Update** date doesn't adjust to the changed date when the price update actually took effect.
 
@@ -216,23 +216,23 @@ Price updates never take effect in the middle of invoiced periods. A subscriptio
 
 **Example**
 
-* The date in the **Perform Update on** field is 15.01.2024.
-* Invoice period is 01.01.2024 - 31.01.2024.
-* The period 01.01.24 - 14.01.2024 must be invoiced at the old price. Because price updates don't affect invoicing, the entire period is invoiced at the old price.
-* The price update take effect at the end of the invoiced period (31.01.2024).
+* The date in the **Perform Update On** field is 01.15.2024.
+* Invoice period is 01.01.2024 - 01.31.2024.
+* The period 01.01.24 - 01.14.2024 must be invoiced at the old price. Because price updates don't affect invoicing, the entire period is invoiced at the old price.
+* The price update take effect at the end of the invoiced period (01.31.2024).
 
 When this invoice is credited again, the date in the **Next Billing Date** field is again 01.01.2024. On this date, the old price was originally valid and the price update wasn't in effect. The price update is canceled and the original prices as of 01.01.2024 are restored. The contract invoices can be issued with the original prices.
 
-When the price update is withdrawn, a planned subscription line is created to reapply the price update (31.01.2024) when you invoice the period again.
+When the price update is withdrawn, a planned subscription line is created to reapply the price update (01.31.2024) when you invoice the period again.
 
-The planned subscription line that is created together with a credit memo has the date 31.01.2024 in **Perform update on** in the example. The reason for this is that the price update didn't come into effect until 31.01.2024 and only applies to the next period. For **Perform Update on**, the **Next Billing Date** after the invoice is never used, as otherwise the price update would be incorrectly canceled in the following period.
+The planned subscription line that is created together with a credit memo has the date 01.31.2024 in **Perform Update On** in the example. The reason for this is that the price update didn't come into effect until 01.31.2024 and only applies to the next period. For **Perform Update On**, the **Next Billing Date** after the invoice is never used, as otherwise the price update would be incorrectly canceled in the following period.
 
 **Example**
 
-The date in the **Perform Update on** field is 15.01.2024.
-Invoice 01.01.2024 - 31.01.2024
-Archived subscription line **Perform Update on** 01.02.2024
-Invoice 01.02.2024 - 29.02.2024 (new price applies without restriction for the period)
+The date in the **Perform Update On** field is 01.15.2024.
+Invoice 01.01.2024 - 01.31.2024
+Archived subscription line **Perform Update On** 02.01.2024
+Invoice 02.01.2024 - 02.29.2024 (new price applies without restriction for the period)
 Credit Memo --> The price update shouldn't be canceled.
 
 If prices were edited manually, they're used when the price update is canceled and reapplied. In this case, however, it's more difficult to trace the steps using archived and planned subscription lines.

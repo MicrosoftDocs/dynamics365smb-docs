@@ -111,7 +111,7 @@ Currently, because of technical limitations, we can't offer Copilot to customers
 [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)  
 [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)  
 [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
-[Sales Order Agent](sales-order-agent.md.md)  
+[Sales Order Agent](sales-order-agent.md)  
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Suggest number series with Copilot](suggest-number-series-copilot.md)  
 [Summarize with Copilot](summarize-with-copilot.md)  

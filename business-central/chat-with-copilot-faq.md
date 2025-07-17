@@ -46,7 +46,7 @@ As of January 2025, chat is available no matter which language you use in [!INCL
 It depends on the type of question you ask Copilot. For example:
 
 - If you ask questions to find records, it can find records in your custom tables or find and filter custom fields.
-- If you ask Copilot for an explanation or guidance, it can provide answers about functionality from the apps that you installed to [!INCLUDE[prod_short](includes/prod_short.md)].
+- If you ask Copilot for an explanation or guidance, it can provide answers about functionality from the apps that you installed to [!INCLUDE[prod_short](includes/prod_short.md)]. The capability requires that app publishers provide documentation for their apps on the web, and Bing Search is enabled for Copilot in Business Central. Learn more in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
 Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 

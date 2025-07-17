@@ -50,9 +50,9 @@ sections:
   - name: Development
     questions:
       - question: Can I extend E-Documents?
-        answer: You can easily extend this functionality using [these instructions](../dev-itpro/developer/devenv-extend-edocuments).
+        answer: You can easily extend this functionality Learn more in [Extending the e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments).
       - question: Can I create my own connector or localization?
-        answer: Yes, you can. Find [instructions here](../dev-itpro/developer/devenv-extend-edocuments).
+        answer: Yes, you can. Learn more in [Extending the e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments).
 
 additionalContent: |
   ## Next steps

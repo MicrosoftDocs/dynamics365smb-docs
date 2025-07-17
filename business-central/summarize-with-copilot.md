@@ -5,7 +5,6 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.collection: get-started
 ms.date: 06/19/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template

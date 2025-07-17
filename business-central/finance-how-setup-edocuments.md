@@ -89,7 +89,7 @@ Support for document types is based on the **Document Format**. To check which d
 
 You need to set up a preferred method of sending sales documents for each customer. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
 
-This feature is used to set up electronic invoicing automation. If you're using [legacy e-invoices](sales-how-to-send-electronic-documents.md) before enabling **E-Document** framework, when you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. The profile is either the profile set up for the customer or the default profile for all customers.
+This feature is used to set up electronic invoicing automation. If you're using [legacy e-invoices](sales-how-to-send-electronic-documents.md) before enabling the **E-Document** framework, the process is slightly different. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. The profile is either the profile set up for the customer or the default profile for all customers.
 
 However, to enable the new **E-Document** framework, you need to configure the **Document Sending Profile** accordingly. To set up a document sending profile, follow these steps.
 

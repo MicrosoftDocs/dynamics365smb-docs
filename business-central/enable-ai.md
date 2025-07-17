@@ -93,6 +93,14 @@ The following table lists the permissions needed to use the different Copilot an
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
 
+## Enable Bing Search for enhanced results
+
+Some features support Bing Search to improve Copilot's results, like giving answers in Chat about add-on apps and extensions installed in Business Central. When you enable Bing Search, Copilot searches the web to find more comprehensive information for an inquiry.
+
+To enable Bing Search, turn on the **Enable Bing Search** toggle switch in the **Copilot & agent capabilities** page.
+
+Learn more about which Copilot features support Bing Search and how it's used in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+
 ## Requirements for being an administrator
 
 You need SUPER permission in your Business Central user account or one of the following Business Central licenses:

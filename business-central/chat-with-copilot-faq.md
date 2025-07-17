@@ -50,7 +50,7 @@ It depends on the type of question you ask Copilot. For example:
 
 Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
-## How does Copilot locate records? 
+## How does Copilot locate records?
 
 When you ask to find a single record, multiple records, or a field from a record, Copilot uses various mechanisms to search for this information. Copilot generates the appropriate sorting and filtering on list pages and their corresponding source tables. It uses the fields on the page and fields on the underlying tables as part of these operations and in its responses.
 
@@ -80,7 +80,7 @@ While in preview, the chat pane and Copilot's responses can't be modified direct
 
 Copilot only searches for records in the company you're currently signed into. It doesn't search for data across multiple environments or companies.
 
-## How does chat treat data residency? 
+## How does chat treat data residency?
 
 The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about installed apps.
 

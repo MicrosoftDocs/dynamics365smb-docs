@@ -6,6 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: bap-template

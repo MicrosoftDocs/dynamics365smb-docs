@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.collection: bap-ai-copilot

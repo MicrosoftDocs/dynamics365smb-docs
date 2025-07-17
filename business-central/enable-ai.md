@@ -6,6 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
 ms.date: 06/27/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -47,7 +48,7 @@ This section applies only if the **Allow data movement** toggle switch appears n
 
 ![Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.](media/allow-data-movement-v3.png "Screenshot that shows the Allow data movement option on the Copilot & agent capabilities page.")
 
-The presence of the **Allow data movement** toggle indicates that the location of your Business Central environment (where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
+The presence of the **Allow data movement** toggle indicates that the location of your Business Central environment (where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies.
 
 You can choose to disallow data movement, which deactivates Copilot and all features. To allow or disallow data movement across geographies:
 
@@ -56,9 +57,11 @@ You can choose to disallow data movement, which deactivates Copilot and all feat
 
 After an Azure OpenAI Service becomes available in the geography of your Business Central environment, your environment is automatically connected to it. At that point, the **Allow data movement** toggle no longer appears on the **Copilot & agent capabilities** page.
 
+Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
+
 ## Activate features
 
-Copilot and agent capabilities are active by default when they're made available in preview or become generally available. On the **Copilot & agent capabilities** page, you can turn individual features off or on again for all users.
+Copilot and agent capabilities are active by default when they're available in preview or generally available. Use the **Copilot & agent capabilities** page to turn individual features off or on for all users:
 
 1. In Business Central, search for and open the **Copilot & agent capabilities** page.
 1. The page lists all available Copilot and AI-related features and their status (*Active* or *Inactive*). The features are divided into two sections: preview and generally available.
@@ -70,11 +73,11 @@ Copilot and agent capabilities are active by default when they're made available
 
 ## Granting user access
 
-Copilot and agent capabilities can offer functionality that is intended for any users across your organization or for specific user roles. Most Copilot and agent capabilities offer access control through permissions and permission sets in Business Central's permission management system. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
+Copilot and agent capabilities provide functionality for everyone in your organization or for specific user roles. Most Copilot and agent capabilities use permissions and permission sets in Business Central's permission management system for access control. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
 
-The following table lists the permissions that are required to use the Copilot features that Business Central provides.
+The following table lists the permissions needed to use the different Copilot and agent features in Business Central.
 
-| Copilot feature | Required permissions |
+| Copilot or agent | Required permissions |
 |---|---|
 | Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same ones that are required to access the analysis mode. |
 | Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
@@ -84,8 +87,9 @@ The following table lists the permissions that are required to use the Copilot f
 | Summarize |**Copilot Sys Features** permission set or execute permission on system object 9680 **Allow Copilot Summary**. |
 | Map e-documents | Permission on page 6166 **E-Doc. PO Copilot Prop**. |
 | Marketing text suggestions | Permission on page 5836 **Copilot Marketing Text**. |
+|Payables Agent|Learn more in [Manage Payables Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 | Sales line suggestions | Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**. |
-|Sales Order Agent|Learn more in [Manage agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
+|Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
 
@@ -103,7 +107,10 @@ Business Central doesn't yet offer granular, object-level permissions so that on
 
 ## Next steps
 
-For the sales order agent, there are a few more steps you must complete before the agent is ready for use. Learn more in [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent).
+For agents, you need to complete a few more steps before the agent is ready to use. Learn more in:
+
+- [Set up Sales Order Agent](sales-order-agent-setup.md#configure-and-activate-sales-order-agent)
+- [Set up Payables Agent](payables-agent-setup.md#configure-and-activate-payables-agent).
 
 For other Copilot features, you're ready to try them out. Learn more in the following articles:
 
@@ -117,6 +124,7 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
 - [Suggest number series with Copilot](suggest-number-series-copilot.md)
+- [Summarize with Copilot](summarize-with-copilot.md)
 
 ## Related information
 
@@ -129,4 +137,4 @@ For other Copilot features, you're ready to try them out. Learn more in the foll
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [FAQ for sales line suggestions](faq-sales-suggest-sales-lines-with-copilot.md)  
 [FAQ for suggest substitute items](faq-suggest-item-substitutions-with-copilot.md)  
-[Marketing text suggestions overview](ai-overview.md)
+[Marketing text suggestions overview](ai-overview.md)  

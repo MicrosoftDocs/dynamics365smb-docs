@@ -1,7 +1,7 @@
 ---
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.topic: faq
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -61,4 +61,11 @@ Alternatively, the Shopify Connector for [!INCLUDE [prod_short](../includes/prod
 
 ## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

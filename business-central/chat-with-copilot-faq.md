@@ -3,11 +3,12 @@ title: Chat with Copilot FAQ
 description:  Learn how to chat with Copilot in Business Central. Find answers to common questions about chat features, settings, and limitations. 
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.topic: faq
 ms.collection:
   - bap-ai-copilot
-ms.date: 04/01/2025
+ms.date: 07/04/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -44,8 +45,8 @@ As of January 2025, chat is available no matter which language you use in [!INCL
 
 It depends on the type of question you ask Copilot. For example:
 
-- If you ask questions to find records, it can find records in your custom tables that use custom fields.
-- If you ask Copilot for an explanation or guidance, it doesn't have access to any information about your customizations or documentation for your add-ons.
+- If you ask questions to find records, it can find records in your custom tables or find and filter custom fields.
+- If you ask Copilot for an explanation or guidance, it an provide answers about functionality from the apps that you have installed to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
@@ -69,12 +70,11 @@ Copilot might occasionally answer in different ways. Answers aren't always ident
 
 ## How do I use the Copy function on chat messages?
 
-You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot.
+You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, this can also be copied using a Copy menu item.
 
 ## Can I customize or extend chat?
 
-While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. 
-Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
+While in preview, the chat pane and Copilot's responses can't be modified directly through customization, add-ins, tools, or personalization. However, Chat is ready to work with data and Help from your installed apps. Learn about how to influence Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
 ## Does Copilot search for data in other companies or environments?
 
@@ -82,13 +82,21 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## How does chat treat data residency? 
 
-The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation. Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
+The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about any apps you installed. 
 
-Microsoft Learn online service endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
+- Azure OpenAI Service  
+  Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
+- Microsoft Learn online service  
+  Endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 
-To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
+  If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
+
+  To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
+- Bing Search  
+  Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use chat to ask for explanations about add-on apps, only the input prompt is to the Bing Search service. This is processed and not stored for more than one day. 
+ 
+  To prevent chat from connecting to the Bing Search service, turn off the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md). 
 
 ## What can I do if the chat pane doesn't show?
 
@@ -99,7 +107,7 @@ To prevent chat from connecting to the Microsoft Learn online service, deactivat
 
 ## How is Microsoft improving chat with Copilot?
 
-We're continually working on improving reliability and response time. We announced the next expansion of chat where Copilot can answer questions about how to use installed add-on apps. Learn more in [Chat with Copilot to learn how to use installed add-on apps](/dynamics365/release-plan/2025wave1/smb/dynamics365-business-central/chat-copilot-learn-use-installed-add-on-apps).
+We're continually working on improving reliability and response time.
 
 We encourage administrators to try out experimental features on sandbox environments. To experience the latest improvements to chat, enable the **Feature: Enables advanced navigation (not data) search capabilities by utilizing semantic similarity search on application metadata.** key on the **Feature Management** page. This feature uses superior AI technology to match user inquiries with the names of pages, fields, and tables. Learn more in [Use semantic search to find pages and reports with Copilot chat](/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key).
 

@@ -311,6 +311,16 @@ ms.service: dynamics-365-business-central
 ###### [G/L Deferral Summary](reports/report-1700.md)
 ###### [Sales Deferral Summary](reports/report-1701.md)
 ###### [Purchasing Deferral Summary](reports/report-1702.md)
+##### VAT reports
+###### [G/L - VAT Reconciliation](reports/report-11.md)
+###### [VAT Statement](reports/report-12.md)
+###### [VAT Register](reports/report-13.md)
+###### [VAT- VIES Declaration Tax Auth](reports/report-19.md)
+###### [Calc. and Post VAT Settlement](reports/report-20.md)
+###### [VAT Exceptions](reports/report-31.md)
+###### [VAT Registration No. Check](reports/report-32.md)
+###### [VAT Reconciliation Report](reports/report-743.md)
+###### [Day Book VAT Entry](reports/report-2500.md)
 ##### Consolidation and intercompany reports
 ###### [Consolidated Trial Balance Excel](reports/report-4410.md)
 ###### [Consolidated Trial Balance](reports/report-17.md)
@@ -513,7 +523,7 @@ ms.service: dynamics-365-business-central
 #### [Currencies in Business Central](finance-currencies.md)
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
-### Working with VAT
+### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
 #### [Work with VAT on sales and purchases](finance-work-with-vat.md)
@@ -523,6 +533,7 @@ ms.service: dynamics-365-business-central
 #### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 #### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
+#### [VAT reports](finance-vat-reports.md)
 #### Set up VAT
 ##### [Set up value-added tax](finance-setup-vat.md)
 ##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
@@ -1219,6 +1230,7 @@ ms.service: dynamics-365-business-central
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
 ### [Automate Shopify synchronization using the job queue](shopify/background.md)
+### [Working with Shopify POS](shopify/shopify-pos.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Support for the Shopify connector](shopify/shopify-support.md)
@@ -1938,6 +1950,7 @@ ms.service: dynamics-365-business-central
 ##### [Receivables cartera module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments cartera module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and credit memo types in sales and purchase documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [VERI*FACTU compliance](LocalFunctionality/Spain/verifactu-setup.md)
 #### Core finance
 ##### [Set up and close income statement balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and validate chart of accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -2590,6 +2603,7 @@ ms.service: dynamics-365-business-central
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Searching the web with Copilot (preview)](ai-search-web-copilot.md)
 ### [Azure OpenAI Service and Business Central data](azure-openai-data.md)
 ### [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
@@ -2619,8 +2633,11 @@ ms.service: dynamics-365-business-central
 ### [Sales Order Agent overview](sales-order-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Sales Order Agent](sales-order-agent-setup.md?toc=/dynamics365/business-central/toc.json)
 ### [Process sales quotes and orders with Sales Order Agent](sales-order-agent-process.md?toc=/dynamics365/business-central/toc.json)
-### [Item availability in Sales Order Agent](sales-order-agent-item-availability.md)
-### [Responsible AI FAQ for Sales Order Agent](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
+## Payables agent (preview)
+### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
+<!--### [Use Payables Agent](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)-->
+### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
 ### [Responsible AI FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
@@ -2639,7 +2656,7 @@ ms.service: dynamics-365-business-central
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for mapping E-Documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
-## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)
+## [FAQ for Payables Agent](faqs-payables-agent.md)
 ## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for Sales Order Agent (preview)](faqs-sales-order-taker-agent.md?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for suggest item substitutions with Copilot](faq-suggest-item-substitutions-with-copilot.md)

@@ -40,11 +40,11 @@ You can create subscription line templates to simplify the process of creating s
 
 ## Overview of subscription package​ and subscription package​ line fields
 
-* In addition to the unique **Code** and **Description**, you can specify a **Price Group** in the header to use when pricing subscription lines. To learn more, go to [Price group in sales subscription lines and subscriptions​](#price-group-in-sales-subscription-lines-and-service-objects).
+* In addition to the unique **Code** and **Description**, you can specify a **Price Group** in the header to use when pricing subscription lines. To learn more, go to [Price group in sales subscription lines and subscriptions​](#price-group-in-sales-subscription-lines-and-subscriptions).
 * **Partner** specifies whether to create a customer or vendor subscription line later. Accordingly, the subscription lines can then be called into customer or vendor subscription contracts and invoiced through purchase or sales invoices.
 * **Template** indicates whether the line was created based on a subscription package​ line template. Specifying a subscription package​ line template is optional. You can also manually enter the line.
 * **Description** specifies the description of the subscription package​ line.
-* To learn more about the **Invoicing** field, go to [types of subscription package lines](#types-of-subscription-lines).
+* To learn more about the **Invoicing** field, go to [Types of subscription package lines​](#types-of-subscription-package-lines).
 * To learn more about the **Invoicing via Item No.** field, go to [Control revenue accounts​ via invoicing items](#control-revenue-accounts-via-invoicing-items).
 * To learn more about the **Calculation Base Amount Type** field, go to [Pricing and calculation types](#pricing-and-calculation-types).
 * **Calculation Base Amount %** is the percentage of the calculation base amount that is used in the sales process to price the subscription lines.

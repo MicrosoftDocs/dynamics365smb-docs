@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Usage data supplier references
 
-To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a subscription line package that is part of a vendor or customer subscription contract. To learn more, go to [subscription line packages](../../SRB/masterdata/service-commitments.md#subscription-line-packages).
+To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a subscription line package that is part of a vendor or customer subscription contract. To learn more, go to [Subscription packages](service-commitments.md#subscription-packages).
 
 > [!NOTE]
 > You can only bill subscription lines that are part of a vendor or customer subscription contract.

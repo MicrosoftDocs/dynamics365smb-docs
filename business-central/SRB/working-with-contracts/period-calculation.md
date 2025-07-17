@@ -20,7 +20,7 @@ A contract invoice issued for *one* month from February 28th (no leap year) ends
 
 To accommodate this, there is a choice to calculate periods using the [!INCLUDE [prod_short](../../includes/prod_short.md)] standard method or the subscription billing method. The **Period Calculation** with the option *[Align to Start of Month](#align-to-start-of-month)* uses the [!INCLUDE [prod_short](../../includes/prod_short.md)] standard method, whereas *[Align to End of Month](#align-to-end-of-month)* uses a different method.
 
-For all recurring billing, we generally recommend the *Align to End of Month* option. You can set the option as the default. To learn more, go to [Service & Contracts Setup](/docs/srb/setup/general.md#default-period-calculation).
+For all recurring billing, we generally recommend the *Align to End of Month* option. You can set the option as the default. To learn more, go to [Subscription contract setup](../setup/general.md#subscription-contract-setup).
 
 ## Align to Start of Month
 
@@ -40,7 +40,7 @@ When calculating a whole month, the start date *plus* one month *minus* one day 
 
 ### Price calculation
 
-The [Billing Rhythm](/docs/srb/masterdata/service-commitments.md#overview-of-the-fields-in-the-service-commitment-package) is not taken into account when calculating the price. The Billing Rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a **Billing line** is calculated on the basis of **Price** and **Billing Base Period** in the Service Commitment or Contract line and the **Billed Base Period**. If the invoiced period is a multiple of the **Billing Base Period**, the price is multiplied accordingly.
+The [billing rhythm](../masterdata/service-commitments.md#overview-of-subscription-package-and-subscription-package-line-fields) isn't taken into account when calculating the price. The billing rhythm determines the cycle in which a contract line is invoiced (billing period) if no manual intervention is made. The price of a **Billing line** is calculated on the basis of **Price** and **Billing Base Period** in the service commitment or contract line and the **Billed Base Period**. If the invoiced period is a multiple of the **Billing Base Period**, the price is multiplied accordingly.
 
 *Monthly price = 100,- (Price = 100,- Calculation Base Period = 1M)*
 

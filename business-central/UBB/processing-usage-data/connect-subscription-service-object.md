@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Link supplier subscriptions with subscriptions
 
-If you shipped the subscription item with a sales order in advance, it may be helpful to link the subscription to a supplier subscription once the usage data has been imported. You can use the **Connect Supplier Subscription to Subscription** page for this purpose. 
+If you shipped the subscription item with a sales order in advance, it may be helpful to link the subscription to a supplier subscription once the usage data has been imported. You can use the **Connect Supplier Subscription to Subscription** page for this purpose.
 
 The **Connect Supplier Subscription to Subscription** page shows all supplier subscriptions that aren't connected to a subscription. In addition to the fields from [Usage-based billing customers and subscriptions](../masterdata/customers-subscriptions.md), you can select the subscription to link by using the **Connect to Subscription No.** field. In the **Connect to Subscription Method** field, [!INCLUDE [prod_short](../../includes/prod_short.md)] suggests whether you can create the link on the basis of existing subscription lines or new ones. The basis for this suggestion is whether the existing subscription lines can be billed on a usage basis (the **Usage Based Billing** checkbox is selected for the subscription lines) and are valid. In the **Connect to Subscription at Date** field, you can specify the date on which to create new subscription lines.
 
@@ -26,4 +26,4 @@ After setting the defaults, the supplier subscriptions to process are selected, 
 ## Related information
 
 [Usage-based billing customers and subscriptions](../masterdata/customers-subscriptions.md)
-[Extend contract](../extend-contract.md)
+[Extend a contract](extend-contract.md)

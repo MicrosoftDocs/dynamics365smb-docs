@@ -69,7 +69,7 @@ Copilot and agent capabilities are active by default when they're available in p
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox "Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.")
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.png)](media/copilot-agent-capabilities-page.png#lightbox "Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.")
 
 ## Granting user access
 

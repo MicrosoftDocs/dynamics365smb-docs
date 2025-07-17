@@ -27,8 +27,8 @@ sections:
         answer: The last version of PEPPOL supported by the default version of Business Central is **PEPPOL BIS 3.0**. But you can also find local versions in specific localizations.
       - question: Does Business Central support formats other than PEPPOL?
         answer: Yes, Business Central supports other formats based on specific local requirements, but they aren't part of W1.
-      - question: How to choose the connector I want to use?
-        answer: You can read detailed manual how to [choose and install the connector](finance-how-setup-edocuments-external.md).
+      - question: How do I choose the connector to use?
+        answer: You install and choose the connector from the **E-Document Services** page. Learn more in [Set up the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md).
       - question: When I decide which connector I want to use it this usage already included into Business Central subscription?
         answer: Connectors are already technically enabled, so there's no need to develop them yourself. However, you must have a contract with the respective service provider. Using the service might incur extra costs.
   - name: Localizations

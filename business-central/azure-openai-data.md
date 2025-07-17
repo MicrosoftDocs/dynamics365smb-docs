@@ -7,6 +7,7 @@ ms.reviewer: jswymer
 ms.topic: article
 ms.collection: bap-ai-copilot
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 # Azure OpenAI Service and Business Central data 

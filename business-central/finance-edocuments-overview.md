@@ -1,12 +1,12 @@
 ---
 title: E-documents overview
-description: This article provides an overview of the e-documents module.
+description: Learn about e-documents in Business Central and how they streamline business transactions with automated document management and local compliance features.
 author: altotovi
 ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 
-ms.date: 09/16/2024
+ms.date: 07/17/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -45,8 +45,8 @@ Microsoft currently supports the following localizations:
 |---------|-------------|
 | [Australian E-Invoicing](localfunctionality/australia/australia-local-functionality.md) | Peppol PINT A-NZ format. |
 | [Danish E-Invoicing](localfunctionality/denmark/how-to-edocuments-nemhadel.md) | Supported both Peppol BIS 3 and OIOUBL formats. |
-| French E-Invoicing | Will be supported in 2026. |
-| [German E-Invoicing](LocalFunctionality/Germany/germany-einvoicing.md) | Suppoerted Peppol BIS 3, XRechnung (UBL only), and ZUGFeRD formats. |
+| French E-Invoicing | To be supported in 2026. |
+| [German E-Invoicing](LocalFunctionality/Germany/germany-einvoicing.md) | Supported Peppol BIS 3, XRechnung (UBL only), and ZUGFeRD formats. |
 | Indian E-Invoicing | Using new E-Documents framework - TBD |
 | Italian E-Invoicing | Using new E-Documents framework - TBD |
 | Mexican E-Invoicing | Using new E-Documents framework - TBD |
@@ -55,7 +55,7 @@ Microsoft currently supports the following localizations:
 | [Spanish E-Invoicing](LocalFunctionality/Spain/spain-einvoicing.md) | Supported Factura-E format. |
 
 > [!NOTE]
-> For non-Microsoft localizations, please visit the AppSource.  
+> For non-Microsoft localizations, visit the AppSource.  
 
 ## Related information
 

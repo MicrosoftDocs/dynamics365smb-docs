@@ -1,13 +1,13 @@
 ---
-title: Set up e-documents
-description: Learn how to set up e-documents functionality.
+title: Set Up E-documents
+description: Learn how to set up e-documents in Business Central with step-by-step configuration of services, formats, workflows, and document sending profiles.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 03/18/2025
+ms.date: 07/17/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -65,7 +65,7 @@ To set up an e-document service, follow these steps.
     | Export Data Exchange Def. Code | Specify the data exchange code that's used to export the data. Use this field only to deliver documents in the sales process. |
 
 > [!NOTE]
-> There are data exchange definitions for the PEPPOL format that are related to sales and purchase documents. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them.
+> There are data exchange definitions for the PEPPOL format that are related to sales and purchase documents. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them. It's possible that using a specific localization reveals more formats, as some can be country/region-specific.
 >
 > If you configured the **Data Exchange Definition** format in your localization, you can add a line for the document types that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
 >
@@ -87,25 +87,31 @@ Support for document types is based on the **Document Format**. To check which d
 
 ## Set up a document sending profile
 
-You can set up a preferred method of sending sales documents for each customer. If you do, you don't have to select a sending option every time you choose the **Post and Send** action. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
+You need to set up a preferred method of sending sales documents for each customer. On the **Document Sending Profiles** page, you can set up sending profiles and then select the one to use in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the profile for all customers for which a profile isn't specified in the **Document Sending Profile** field.
 
-This feature is used to set up electronic invoicing automation. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. It's either the profile set up for the customer or the default profile for all customers.
+This feature is used to set up electronic invoicing automation. If you're using [legacy e-invoices](sales-how-to-send-electronic-documents.md) before enabling the **E-Document** framework, the process is slightly different. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog shows the sending profile in use. The profile is either the profile set up for the customer or the default profile for all customers.
 
-To set up a document sending profile, follow these steps.
+However, to enable the new **E-Document** framework, you need to configure the **Document Sending Profile** accordingly. To set up a document sending profile, follow these steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profile**, and then select the related link.
 2. On the **Document Sending Profiles** page, select **New**.
 3. On the **General** FastTab, fill in the required fields.
-4. On the **Sending Options** FastTab, fill in the fields as described in the following table.
+4. On the **Sending Options** FastTab, set the **Printer**, **Email**, and **Disk** fields to **No**. Enabling any of these options prevent you from using the **E-Document** framework, limiting you to the legacy e-invoicing functionality instead.
+5. On the same FastTab fill in the fields as described in the following table.
 
-    | Field | Description |
-    |-------|-------------|
-    | Electronic Document | Specify whether the document is sent as an e-document that the customer can import into their system when you select **Post and Send**. To use this option, you must also set the **Format** or **Electronic Document Service Flow Code** field. Alternatively, you can save the file to your computer. |
-    | Format | Specify the format to use to send an e-document. This field is required if you select **Through Document Exchange** in the **Electronic Document** field. |
-    | Electronic Document Service Flow Code | Specify the electronic service flow that's used to send documents. This field is required if you select **Extended E-Document Service Flow** in the **Electronic Document** field. |
+    | Field | Description | Set up options |
+    |-------|-------------|----------------|
+    | Electronic Document | Specify whether the document is sent as an e-document that the customer can import into their system. This option must be set to the **Extended E-Document Service Flow** to use E-Document framework. To use this option, you must also set the **Format** or **Electronic Document Service Flow Code** field. Alternatively, you can save the file to your computer. | Must choose **Extended E-Document Service Flow**. |
+    | Format | Specify the format to use to send an e-document. This field is required if you select **Through Document Exchange** in the **Electronic Document** field. | Don't use this setup for E-Document framework because it's part of [legacy e-invoicing](sales-how-to-send-electronic-documents.md). |
+    | Electronic Document Service Flow Code | Specify the electronic service flow that's used to send documents. This field is required if you select **Extended E-Document Service Flow** in the **Electronic Document** field. | You must set up it if you selected the **Extended E-Document Service Flow** option. |
 
     > [!NOTE]
     > If you select **Extended E-Document Service Flow** in the **Electronic Document** field, you must already have the workflow configured for your e-documents.
+
+    > [!IMPORTANT]
+    > The [legacy e-invoicing system](sales-how-to-send-electronic-documents.md) is still in use, which allows users to configure the **Electronic Document** field as **Through Document Exchange Service**. In this setup, the **Printer**, **Email**, and **Disk** fields are applicable and typically enabled. However, this configuration isn't supported in any of Microsoft’s e-invoicing localizations and is planned for deprecation.
+    > 
+    > To use the new **E-Document** framework, you must configure the **Electronic Document** field as **Extended E-Document Service Flow** and specify a value in the **Electronic Document Service Flow Code** field. 
 
 ## Set up the workflow
 

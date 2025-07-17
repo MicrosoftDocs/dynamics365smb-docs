@@ -1,6 +1,6 @@
 ---
 title: Configure Copilot and agent capabilities
-description: This article explains how to enable Copilot in an environment.
+description: Learn how to control Copilot and agent features in Business Central, including deactivation, user access, and data governance controls.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -22,7 +22,7 @@ Copilot is a system feature and an integral part of Business Central. Like most 
 - Understand which Copilot and agent capabilities are available to your environment.
 - Deactivate individual capabilities.
 - Grant or deny access to individual users for each capability.
-- Data governance controls.
+- Use data governance controls.
 
 There are different levels of access control for agent capabilities, depending on the feature:
 

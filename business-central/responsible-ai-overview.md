@@ -2,6 +2,7 @@
 title: Responsible AI FAQs for Dynamics 365 Business Central
 description: Responsible AI FAQs provide information about the AI technology used in  Business Central, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 06/04/2025
+ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
   - copilot-learning-hub

@@ -8,8 +8,10 @@ ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 06/12/2025
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 # Accountant experiences in Business Central
 

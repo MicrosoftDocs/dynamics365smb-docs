@@ -95,7 +95,7 @@ Process for purchase from a foreign vendor is explained in this document.
      |**GST Base Amount**|10000|
      |**IGST**|1800|  
 
-  - GL Entries for import of services from foreign vendor where input tax credit is available, will be as following:
+  - GL Entries for import of services from foreign vendor where input tax credit is available are as following:
 
      |Particulars|Amount|
      |----------------------------------|---------------------------------------|  
@@ -104,7 +104,7 @@ Process for purchase from a foreign vendor is explained in this document.
      |**IGST Payable (Interim) Account**|-1800|
      |**Vendor Account (Transaction Value)**|-10000|
 
-  - GL Entries for import of services from foreign vendor where input tax credit isn't available, will be as following:
+  - GL Entries for import of services from foreign vendor where input tax credit isn't available are as following:
 
       |Particulars|Amount|
       |----------------------------------|---------------------------------------|  
@@ -132,7 +132,7 @@ Process for purchase from a foreign vendor is explained in this document.
       |**IGST Payable Account**|-1800|
       |**Vendor Account**|-10000|
 
-  - GL Entries for import of services from import associate vendor where input tax credit isn't available is as following:
+  - GL Entries for import of services from import associate vendor where input tax credit isn't available are as following:
 
       |Particular|Amount|
       |----------------------------------|---------------------------------------|  

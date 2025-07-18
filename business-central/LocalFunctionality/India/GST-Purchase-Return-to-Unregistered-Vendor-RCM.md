@@ -21,7 +21,7 @@ Process for purchase returns to unregistered vendor has been explained in this d
 
 Create a purchase return order or credit memo
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
 1. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Unregistered**.
 1. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code, and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item, G/L Account, Fixed Asset, Item (Charge).
 

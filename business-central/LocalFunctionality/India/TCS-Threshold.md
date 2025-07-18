@@ -21,19 +21,19 @@ TCS threshold defines the threshold limit for each TCS Nature of Collection. TCS
 
 If a payment under TCS Type A is below Threshold INR 20,000, no tax is collected. Another factor to be considered is the aggregate of total payments to be made in a year. If for a customer it's expected that the threshold limit would be crossed eventually, it means Threshold is overlooked. Hence, payments received from customers can cross the TCS threshold of INR 20,000. However, if the payment expected is below the threshold limit defined, TCS isn't collected.
 
-1. GL Entries for TCS where payment is less than the threshold limits, as follows:
+1. GL Entries for TCS where payment is less than the threshold limits as follows:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Customer Account**|19000|
     |**Sales Account**|-19000|
 
-1. GL Entries for TCS where payment is more than (exceeding) Threshold limits, as follows:
+1. GL Entries for TCS where payment is more than (exceeding) Threshold limits as follows:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
-    |**Bank Account**|10000| 
-    |**TCS Payable Account**|287| 
+    |**Bank Account**|10000|
+    |**TCS Payable Account**|287|
     |**Customer Account**|-9713|
 
 ## Related information

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+# Calculation of TCS as per the Income Tax Act, 1961 and GST on sales transactions
 
 The Government has placed the responsibility on the e-commerce operators to collect the ‘tax’ at a specified rate from the supplier. This shall be done by the Operator by paying the supplier the price of the product or services, less the tax, calculated at the specified rate.
 

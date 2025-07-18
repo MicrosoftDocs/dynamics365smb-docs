@@ -15,7 +15,7 @@ ms.reviewer: v-soumramani
 
 If the subcontracting vendor doesn't return the material within specified period, you need to create the GST liability for the delivery challans that are liable to create the GST liability.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Create GST Liability**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Create GST Liability**, and then choose the related link.
 1. On the General FastTab, fill in the fields as described in the following table.
   
     |Field|Description|

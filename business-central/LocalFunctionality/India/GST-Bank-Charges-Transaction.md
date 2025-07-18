@@ -24,13 +24,13 @@ Process for GST calculation on bank charges has been explained in this document.
 1. Select **Bank Account** in **Bal. Account Type** field and select relevant bank account in **Bal. Account No.** field.
 1. **GST Registration No.** and **GST Registration Status** fields shouldn't be blank on **Bank Account**.
 1. **Location Code** shouldn't be blank on **Bank Payment Voucher**.
-1. **Bank Charge** field should be marked true, select **Process** on the ribbon, and select **Bank Charges** -> select **Bank Charge** code and system calculate the GST on bank charge amount. **GST Credit**, **GST Group Code, and **HSN/SAC Code** shouldn't be blank on **Bank Charge** Code.
+1. **Bank Charge** field should be marked true, select **Process** on the ribbon, and select **Bank Charges** -> select **Bank Charge** code and system calculate the GST on bank charge amount. **GST Credit**, **GST Group Code**, and **HSN/SAC Code** shouldn't be blank on **Bank Charge** Code.
 
 ### GST on bank charges
 
 Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit is available, for example bank charge of INR 10000 to be paid to bank and GST (9% CGST and 9% SGST) has to be calculated on bank charges amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -38,7 +38,7 @@ Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit is avai
     |**CGST**|900|  
     |**SGST**|900|
 
-- Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit is available, is as following:
+- Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit is available will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -49,24 +49,24 @@ Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit is avai
 
 Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit is available, for example bank charge of INR 10000 to be paid to bank and 18% IGST has to be calculated on bank charges amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**Bank Charge Amount**|10,000|  
     |**IGST**|1800|  
 
-- Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit is available, will be as following:
+- Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit is available will be as following:
 
     |Particulars|Amount|
     |----------------------------------|----------------------------------|  
     |**Bank Charges**|10000|  
     |**IGST Receivable Account**|1800|
-    |**Bank Account**|-11800| 
+    |**Bank Account**|-11800|
 
 Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit isn't available, for example bank charge of INR 10000 to be paid to bank and GST (9% CGST and 9% SGST) has to be calculated on bank charges amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -74,7 +74,7 @@ Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit isn't a
     |**CGST**|900|  
     |**SGST**|900|
 
-- Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit isn't available, will be as following:
+- Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit isn't available will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -83,14 +83,14 @@ Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit isn't a
 
 Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit isn't available, for example bank charge of INR 10000 to be paid to bank and 18% IGST has to be calculated on bank charges amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**Bank Charge Amount**|10,000|  
     |**IGST**|1800|
 
-- Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit isn't available, will be as following:
+- Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit isn't available will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

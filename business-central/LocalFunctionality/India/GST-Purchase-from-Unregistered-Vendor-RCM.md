@@ -96,7 +96,7 @@ For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% S
 - GL Entries for Item Charge in case of Intra-State purchase of fixed asset from an unregistered vendor where input tax credit isn't available (reverse charge) are as following:
 
     |Particulars|Amount|
-    |----------------------------------|---------------------------------------| 
+    |----------------------------------|---------------------------------------|
     |**Purchase Account**|10000|
     |**SGST Payable Account (Interim)**|-900|
     |**CGST Payable Account (Interim)**|-900|

@@ -75,7 +75,7 @@ Rate of GST is defined in combination of GST Group Code, HSN/SAC. States and Dat
 List of GST Cess groups need to be defined. A group can be of two types, **Goods** or **Service**.
 
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Groups**, and then choose the related link.
-1. Fill in the fields as described in the following table. 
+1. Fill in the fields as described in the following table.
 
     |Field|Description|
     |---------------------------------|---------------------------------------|
@@ -95,7 +95,7 @@ General Ledger Account for each component and state combination is defined state
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Posting Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
-    |Field|Description| 
+    |Field|Description|
     |---------------------------------|---------------------------------------|  
     |**State Code**|Specifies the state code of company that has valid GST registration number.|
     |**GST Component Code**|Specifies the relevant component code.|

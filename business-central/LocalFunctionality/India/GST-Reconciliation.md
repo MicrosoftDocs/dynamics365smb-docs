@@ -40,7 +40,7 @@ This article explains the setups and process of GST reconciliation.
   1. Fill in the fields as described in the following table.
   
       |Field|Description|
-      |---------------------------------|  ---------------------------------------| 
+      |---------------------------------|  ---------------------------------------|
       |**GST Component Code**|Specifies the different components of GST.|
       |**GST Reconciliation Field No.**|Specifies the relevant reconciliation field against the component.|
       |**GST Reconciliation Field Name**|Specifies the description of the reconciliation field.|

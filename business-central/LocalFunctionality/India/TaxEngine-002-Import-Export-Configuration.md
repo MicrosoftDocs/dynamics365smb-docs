@@ -1,6 +1,6 @@
 ---
 title: Tax Engine - Import/Export Configuration
-description: Tax Engine - Import/Export Configuration
+description: Learn how to import and export tax engine configuration data in JSON format for India localization in Business Central.
 author: v-debapd
 ms.topic: how-to
 ms.devlang: al

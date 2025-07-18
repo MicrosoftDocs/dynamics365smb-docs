@@ -52,7 +52,7 @@ For Threshold calculation type user will define **Threshold Amount**, **Before T
 
 Suppose, **Before Threshold %** is 2% and **Threshold Amount** is INR 1,000. An invoice has been issued for INR 800. In this scenario as the amount is less than the threshold amount, 2% Cess has to be charged.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -66,7 +66,7 @@ Suppose, **Before Threshold %** is 2% and **Threshold Amount** is INR 1,000. An 
 
 Suppose, **Cess %** is 10% and **Threshold Amount** is INR 1,000. An invoice has been issued for INR 10000. In this scenario as the amount is greater than the threshold amount, 10% Cess has to be charged.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -84,7 +84,7 @@ For component calculation type - ‘Cess % + Amount/Unit Factor’, system consi
 
 Suppose, **Cess %** is 10%, **Cess Amount per Unit Factor** is INR 130 and  **Cess Factor Quantity** is 1. An invoice has been issued for INR 10000. In this scenario 10% Cess and INR 260 has to be charged.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -102,7 +102,7 @@ For component calculation type - ‘Cess or Amount/Unit Factor whichever is high
 
 Suppose, **Cess %** is 10%, **Cess Amount per Unit Factor** is INR 130 and  **Cess Factor Quantity** is 1. An invoice has been issued for INR 10000. In this case, cess amount is INR 1000, which is higher than the quantity multiplied by the Cess Amount per Unit Factor, hence system considers INR 1000 as Cess Amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -116,7 +116,7 @@ Suppose, **Cess %** is 10%, **Cess Amount per Unit Factor** is INR 130 and  **Ce
 
 Suppose, **Cess %** is 5%, **Cess Amount per Unit Factor** is INR 1000 and  **Cess Factor Quantity** is 1. An invoice has been issued for INR 10000. In this case, the quantity multiplied by the Cess Amount per Unit Factor is INR 2000, which is higher than the rate defined in Cess%, hence system considers INR 2000 as Cess Amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|
@@ -134,7 +134,7 @@ For component calculation type as ‘Amount/Unit Factor’ system considers Cess
 
 Suppose, **Cess Amount per Unit Factor** is INR 140 and  **Cess Factor Quantity** is 1. An invoice has been issued for INR 10000. In this scenario, INR 280 has to be charged.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  

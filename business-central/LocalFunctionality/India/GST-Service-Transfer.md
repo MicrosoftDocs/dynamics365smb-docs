@@ -17,7 +17,7 @@ Service transfers between locations, branches, or divisions having different reg
 
 ## Create a service transfer order
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Transfer Order**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Transfer Order**, and then choose the related link.
 1. Select **Transfer-from Code** and **Transfer-to Code** on **Service Transfer Order** header. State Code and GST registration number shouldn't be blank on **Location** card.
 1. Select **Ship Control Account** and **Receive Control Account** on **Service Transfer Order** header.
 1. Select G/L Account for **Transfer From G/L Account No.** on **Shipment Line** and **Transfer To G/L Account No.** on **Receipt Line**. GST Group Code, HSN/SAC Code shouldn't be blank on **G/L Account** card.
@@ -33,7 +33,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**CGST**|900|
     |**SGST**|900|
 
-- On posting of shipment in case of Intra-State or Intra-Union Territory service transfer, GL Entries is as following:
+- On posting of shipment in case of Intra-State or Intra-Union Territory service transfer, GL Entries are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -42,7 +42,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**SGST/UTGST Payable Account**|-900|
     |**Services Account**|-10000|
 
-- On posting of receipt in case of Intra-State or Intra-Union Territory service transfer, GL Entries is as following:
+- On posting of receipt in case of Intra-State or Intra-Union Territory service transfer, GL Entries are as following:
 
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -51,7 +51,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**CGST Receivable Account**|900|
     |**Inter-location Control Account**|-11800|
 
-- On posting of shipment in case of Interstate service transfer, GL Entries is as following:
+- On posting of shipment in case of Interstate service transfer, GL Entries are as following:
 
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -59,7 +59,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**IGST Payable Account**|-1800|
     |**Services Account**|-10000|
 
-- On posting of receipt in case of Interstate service transfer, GL Entries is as following:
+- On posting of receipt in case of Interstate service transfer, GL Entries are as following:
 
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  

@@ -23,7 +23,7 @@ Process for application and un-application of payment and invoice has been expla
 
 GST is liable at the time of advance payment to vendor, for example, service amount is INR 20000 and advance payment made to vendor for INR 10000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST) has to be charged. Taxpayer paying advance isn't eligible to claim ITC on advance paid. The taxpayer can claim ITC on advance paid only on receipt of services.
 
-- GST calculation for Intra-State or Intra-Union Territory transactions appear in the Fact Box, as following:
+- GST calculation for Intra-State or Intra-Union Territory transactions appear in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -31,7 +31,7 @@ GST is liable at the time of advance payment to vendor, for example, service amo
     |**CGST**|900|  
     |**SGST**|900|
 
-- GL Entries for advance payment made to vendor, are as following:
+- GL Entries for advance payment made to vendor are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -44,7 +44,7 @@ GST is liable at the time of advance payment to vendor, for example, service amo
 
 Later invoice for service purchase issued by vendor for INR 20,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST), will be charged.
 
-- GST Calculation appears in the Fact Box, as following:
+- GST Calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -111,7 +111,7 @@ In ordinary course, when a normal payment is applied to the invoice, system prop
 
 For example, Purchase Invoice for service purchase issued to vendor for INR 60,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST), has to be charged. Later a payment of INR 10,000 has been made to vendor against to the purchase invoice, which doesn't have any GST impact.
 
-- GST Calculation appears in the Fact Box, as following:
+- GST Calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -147,7 +147,7 @@ If this is found that the payment and invoice was wrongly applied and the applic
     |**SGST/UTGST Payable Account**|900|  
     |**CGST Receivable (Interim) Account**|900|
     |**SGST/UTGST Receivable (Interim) Account**|900|
-    |**CGST Payable (Interim) Account**|-900| 
+    |**CGST Payable (Interim) Account**|-900|
     |**SGST/UTGST Payable (Interim) Account**|-900|
     |**SGST/UTGST Receivable Account**|-900|
     |**CGST Receivable Account**|-900|

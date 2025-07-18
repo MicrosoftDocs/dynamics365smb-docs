@@ -26,7 +26,7 @@ Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/o
 
 For example, there's a sales invoice for INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction) and 1% Kerala Flood Cess has to be charged on the invoice amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  

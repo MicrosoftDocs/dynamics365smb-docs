@@ -13,7 +13,7 @@ ms.reviewer: v-soumramani
 
 # Set up GST for bank charges
 
-As per GST Law, GST is applicable on bank charges and ITC can be availed for specified services. As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice isn't provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it isn't serially numbered and whether or not it contains the address of recipient of taxable service. 
+As per GST Law, GST is applicable on bank charges and ITC can be availed for specified services. As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice isn't provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it isn't serially numbered and whether or not it contains the address of recipient of taxable service.
 
 Bank charges can be Intrastate or Interstate. CGST & SGST are applicable if the bank and customer are located in the same state. IGST is applicable if both are in different states.
 
@@ -66,7 +66,7 @@ This setup is required to estimate the Deemed Value for calculation of GST on fo
 1. Fill in the fields as described in the following table.
 
     |Field|Description|
-    |---------------------------------|  ---------------------------------------| 
+    |---------------------------------|  ---------------------------------------|
     |**Bank Charges Code**|Specifies the code of Bank Charge from drop-down list.|
     |**Lower Limit**|Specifies the lower limit of the bank charge code.|
     |**Upper Limit**|Specifies the upper limit of the bank charge code.|

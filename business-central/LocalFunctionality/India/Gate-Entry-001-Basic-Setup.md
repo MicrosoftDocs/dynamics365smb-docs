@@ -1,6 +1,6 @@
 ---
 title: Setting up Gate Entry tracking
-description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
+description: Specifies basic setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
 author: v-debapd
 ms.topic: how-to
 ms.devlang: al

@@ -35,7 +35,7 @@ GST TDS is applicable only for Registered Suppliers. The calculation of GST TCS 
 
 This setup is required for calculation of GST TDS and GST TCS on payment to vendor or receipt from customer.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type**-> **GST TDS TCS**-> **Action** -> **Tax Rates**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** > **GST TDS TCS** > **Action** > **Tax Rates**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|

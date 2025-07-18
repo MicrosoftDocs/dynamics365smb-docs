@@ -33,7 +33,7 @@ For example, the service recipient has a GSTIN in West Bengal and the Vendor als
     |**GST Base Amount**|10,000|  
     |**IGST**|1800|
 
-- GL Entries for purchase of services for overseas place of supply from registered vendor where input tax credit is available is as following:
+- GL Entries for purchase of services for overseas place of supply from registered vendor where input tax credit is available are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -41,7 +41,7 @@ For example, the service recipient has a GSTIN in West Bengal and the Vendor als
     |**IGST Receivable Account**|1800|  
     |**Vendor Account**|-11800|
 
-- GL Entries for purchase of services for overseas place of supply from registered vendor where input tax credit isn't available is as following:
+- GL Entries for purchase of services for overseas place of supply from registered vendor where input tax credit isn't available are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

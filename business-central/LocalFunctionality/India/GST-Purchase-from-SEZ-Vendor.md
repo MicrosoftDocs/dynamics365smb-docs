@@ -34,7 +34,7 @@ For example, purchase invoice is issued for INR 10000, Custom Duty INR 1000, GST
     |**Custom Duty (BCD)**|1000|  
     |**IGST**|2160|  
 
-- GL Entries for import of goods with input tax credit available from SEZ vendor with cover of Bill of Entry as following:
+- GL Entries for import of goods with input tax credit available from SEZ vendor with cover of Bill of Entry are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

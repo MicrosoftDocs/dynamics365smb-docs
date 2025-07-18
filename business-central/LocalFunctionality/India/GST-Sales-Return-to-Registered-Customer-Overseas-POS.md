@@ -23,19 +23,19 @@ Process of sale return from a registered customer with overseas place of supply 
 
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link.
 1. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered**.
-1. Select **G/L Account** on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code shouldn't be blank on the G/L Account.
+1. Select **G/L Account** on **Sales Return Order** or **Sales Credit Memo** line. **GST Group Code**, **HSN/SAC Code** shouldn't be blank on the **G/L Account**.
 1. **POS Out of India** field on **Sales Return Order** or **Sales Credit Memo** header should be marked as True.
 
 For example, there's a sales credit memo for INR 10,000 and 18% IGST has to be charged on the credit memo amount.
 
-- GST calculation appears in the Fact Box, as following:
+- GST calculation appears in the Fact Box as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**GST Base Amount**|10,000|  
     |**IGST**|1800|  
   
-- GL Entries for Intra-State Return or Credit Note of services for overseas place of supply to registered customer as following:
+- GL Entries for Intra-State Return or Credit Note of services for overseas place of supply to registered customer are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

@@ -19,7 +19,7 @@ Process of application of advance payment from customer and sale invoice has bee
 
 For example, service amount is INR 20000 and customer made an advance payment of INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST) has to be charged on the advance payment.
 
-- GST Calculation appears in the Fact Box, as following:
+- GST Calculation appears in the Fact Box bas following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  

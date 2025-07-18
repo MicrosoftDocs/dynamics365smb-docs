@@ -21,9 +21,9 @@ Process of sale to foreign customer has been explained in this document.
 
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 1. Select **Customer** on **Sales Invoice** header, GST customer type should be **Export** or **Deemed Export** or **SEZ Development** or **SEZ Unit**.
-1. Select **G/L Account** or **Item Code** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the G/L Account or Item Card.
+1. Select **G/L Account** or **Item Code** on **Sales Invoice** line. **GST Group Code**, **HSN/SAC Code** shouldn't be blank on the **G/L Account** or **Item Card**.
 
-For example, there is a sales invoice for INR 10,000 and 18% IGST has to be charged on the invoice amount.
+For example, there's a sales invoice for INR 10,000 and 18% IGST has to be charged on the invoice amount.
 
 - GST calculation appears in the Fact Box as following:
 
@@ -32,7 +32,7 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
     |**GST Base Amount**|10,000|  
     |**IGST**|1800|  
 
-- GL Entries for export of goods and/or services with payment of duty to Foreign Customer, SEZ Unit, SEZ Development Customer will be as following:
+- GL Entries for export of goods and/or services with payment of duty to Foreign Customer, SEZ Unit, SEZ Development Customer are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -49,7 +49,7 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
     |**Sales Account**|-10000|
 
 > [!NOTE]
-> Export or Deemed export will have same treatment, as it is treated as interstate transaction and only IGST is applicable irrespective of location of receiver. There is no scenario of deemed export without payment of Duty, as company has to pay IGST and claim refund. Refund can be claimed either by seller or recipient.
+> Export or Deemed export have same treatment, as it's treated as interstate transaction and only IGST is applicable irrespective of location of receiver. There's no scenario of deemed export without payment of Duty, as company has to pay IGST and claim refund. Refund can be claimed either by seller or recipient.
 
 ## Related information
 

@@ -13,7 +13,7 @@ ms.reviewer: v-soumramani
 
 # Purchase return to registered vendor
 
-A registered vendor is a person who is registered with GST authorities. 
+A registered vendor is a person who is registered with GST authorities.
 For purchases from registered vendors for services attracting reverse charge, purchasers themselves has to pay tax to the government.
 
 If exempted goods and services are purchased from registered Vendor, then no GST is to be paid to supplier or to the Government.

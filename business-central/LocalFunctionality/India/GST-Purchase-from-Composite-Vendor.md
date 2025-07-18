@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact
+# Purchase from composite vendor or purchase of exempted goods and services with no GST impact
 
 A composite vendor is a vendor whose aggregate turnover in a financial year doesn't exceed 50 lakh rupees and opted for composition scheme. A composite vendor neither collects tax from the recipient of supplies nor passes on any credit of input tax. Hence, no GST is computed if the purchases are made from a composite vendor. 
 

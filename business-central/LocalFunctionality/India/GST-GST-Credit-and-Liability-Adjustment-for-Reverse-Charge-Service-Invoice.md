@@ -1,17 +1,17 @@
 ---
 title: GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
-description: Explains how to adjust GST Credit and GST Liability for open reverse charge service invoices in Business Central India localization.
+description: Explains how to adjust GST credit and GST liability for open reverse charge service invoices in Business Central India localization.
 author: v-debapd
 ms.topic: article
 ms.devlang: al
-ms.search.keywords: India, local, IN, English
+ms.search.keywords: India, local, IN, English, liability adjustment, reverse charge goods, services invoices
 ms.date: 19/06/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
 ---
 
-# GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
+# GST credit and GST liability adjustment for open reverse charge goods and services invoices
 
 This article explains the process of adjusting GST Credit and GST Liability for open reverse charge goods and services invoices.
 
@@ -32,7 +32,7 @@ This article explains the process of adjusting GST Credit and GST Liability for 
       |**Liability Date Formula**|Enter 0D, 30D, or 60D. For example, if 60D is mentioned, the system reverses count 60 days from posting date for arriving Liability Filter Date|
       |**Liability Filter Date**|System updates automatically (Posting date – Liability Date Formula, Ex: 01-Jan-18- 60D= 02-Nov-17), System will consider all open Reverse Charge service invoices posted before date updated in this field. (Ex: 02-Nov-17)|
       |**Vendor No.**|System lists invoice from this vendor only|
-     **Document No.**|System verifies only for this document|
+      |**Document No.**|System verifies only for this document|
       |**External Document No.**|System verifies only for this document|
       |**Nature of Adjustment**|User need to select the option, available options: Generate, Reverse|
 
@@ -93,7 +93,7 @@ For example, vendor issued invoice for INR 10000, in an Intra-State or Intra-Uni
     |**CGST Payable Account**|900|
     |**SGST/UTGST Payable Account**|900|
 
-- GL Entries for Reversing GST Liability and GST Credit where Input Tax Credit isn't available, will be as following:
+- GL Entries for Reversing GST Liability and GST Credit where Input Tax Credit isn't available are as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

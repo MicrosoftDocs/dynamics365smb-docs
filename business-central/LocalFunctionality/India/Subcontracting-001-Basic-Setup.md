@@ -19,7 +19,7 @@ Subcontracting process is common in manufacturing organizations. Organizations a
 
 While receiving the finished items in the company against a subcontracting order, it's mandatory to apply received material against the delivery challan to knock off the raw items at subcontractor end.
 
-As far as the costing of finished item is concerned, it consists of raw material cost, subcontracting cost along with the other charges such as freight etc. 
+As far as the costing of finished item is concerned, it consists of raw material cost, subcontracting cost along with the other charges such as freight etc.
 
 Raw items are taxable. Therefore, it's mandatory to follow the statutory requirement. As per this, the raw items sent to the sub contractor should return back within specified return period otherwise GST liability is created. This feature enables you to create the GST liability and also lets you reverse the GST liability after receiving the raw items from sub- contractor
 
@@ -31,7 +31,7 @@ Subcontracting feature also enables you to send the raw items to subcontracting 
 
 Stock register for job work gives the details of delivery challan sent to the subcontractor. This register shows all the transaction against a delivery challan and at any movement it also shows the status of delivery challan along with GST liability if any.
 
-## Set up subcontracting
+## Subcontracting setup
 
 Following setups are required for Subcontracting:
 

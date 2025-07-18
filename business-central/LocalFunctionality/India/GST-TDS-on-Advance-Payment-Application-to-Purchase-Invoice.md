@@ -21,7 +21,7 @@ Liability of paying GST and TDS arises at the time of advance payment to vendor.
 1. Select **Vendor** in **Account Type** field and select relevant vendor code in **Account No.** field.
 1. Select **G/L Account** for cash or **Bank Account** for bank in **Bal. Account Type** field, and select relevant cash or bank account in **Bal. Account No.** field.
 1. Select relevant TDS Section, GST Group Code, HSN/SAC Code, Location Code on journal line.
-1. **GST on Advance Payment** should be marked true. 
+1. **GST on Advance Payment** should be marked true.
 
 For example, service amount is INR 20000 and advance payment made to vendor for INR 10000, 18% GST (that is, 9% CGST and 9% SGST/UTGST) and 10% TDS has to be charged.
 

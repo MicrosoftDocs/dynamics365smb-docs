@@ -80,7 +80,7 @@ For example, invoice is issued for INR 10,000 on which 18% GST (9% CGST and 9% S
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|10,000|  
-    |**IGST Receivable Account**|1800| 
+    |**IGST Receivable Account**|1800|
     |**Vendor Account**|-11800|
 
 - GL Entries for Inter-State purchase of goods from registered vendor where input tax credit isn't available are as following:

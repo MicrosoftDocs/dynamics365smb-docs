@@ -54,7 +54,7 @@ User needs to set up components for settlement. Select relevant information in t
      - Advance Receipt
      - Refund
      - Reversal of Advance Receipt
-     - Transactions posted through Sales or Service documents 
+     - Transactions posted through Sales or Service documents
      - Warehouse Transfer Shipments
      - Service Transfer Shipments
      - Subcontracting Liability

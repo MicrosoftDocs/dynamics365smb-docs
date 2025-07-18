@@ -1,6 +1,6 @@
 ---
 title: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
-description: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
+description: Purchase return of services for overseas place of supply to registered vendor
 author: v-debapd
 ms.topic: how-to
 ms.devlang: al

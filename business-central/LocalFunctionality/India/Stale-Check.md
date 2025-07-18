@@ -51,7 +51,7 @@ Following configuration is needed.
 Following is the process of managing stale cheque.
 
 1. Create and post bank payment from **General Journal**, **Payment Journal**, or **Bank Payment Voucher**.
-1. **Cheque No.** and **Cheque Date** should have a value in the payment journal. 
+1. **Cheque No.** and **Cheque Date** should have a value in the payment journal.
 1. System calculates the **Stale Cheque Expiry Date** and populate the same in **Bank Ledger Entry** and **Check Ledger Entry**.
 1. To mark the check as stale go to the relevant **Bank Account**, choose the **Edit** action, and then choose the **Check Ledger Entries** action.
 1. In the **Check Ledger Entries** window, choose the **Stale Check** action. 

@@ -20,9 +20,7 @@ Process of sales to registered or unregistered customer has been explained in th
 ## Create a sales invoice
 
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
-
 1. Select **Customer** on **Sales Invoice** header, GST customer type should be **Registered** or **Unregistered**.
-
 1. Select **Item Code** for goods or **G/L Account** for service sales on **Sales Invoice** line. GST Group Code, HSN/SAC Code shouldn't be blank on the item or G/L account. 
 
 For example, there's a sales invoice for INR 10,000 and 18% GST (that is, 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the invoice amount.
@@ -50,7 +48,7 @@ For example, there's a sales invoice for INR 10,000 and 18% GST (that is, 9% CGS
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Customer Account**|11,800|  
-    |**IGST Payable Account**|- 1800| 
+    |**IGST Payable Account**|- 1800|
     |**Sales Account**|- 10000|
 
 - GL Entries for Intra-State or Intra-Union Territory sale of services to registered or unregistered customer are as following:

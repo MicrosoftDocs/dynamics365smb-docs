@@ -23,7 +23,7 @@ For a Subcontracting order, it's required to create the **Released Production Or
 
 ## Run subcontracting worksheet
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting worksheet**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting worksheet**, and then choose the related link.
 1. Select **Process Actions** -> **Functions** -> **Calculate Subcontract**. System copies the selected released production orders to the subcontracting worksheet.
 1. Select **Action** -> **Function** and then select **Carry out action message**.
 1. Select **Ok** in the carry out action message window to automatically create the **Subcontracting Order**.
@@ -34,7 +34,7 @@ For a Subcontracting order, it's required to create the **Released Production Or
 
 ## Material issue or sending raw material to subcontractor
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Order**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Order**, and then choose the related link.
 1. In the **Subcontracting Order** list window, select the **Subcontracting Order**.
 1. Select **Action** and then select **Edit** to open the subcontracting order.
 1. Select **Line** -> **Order Subcon details**  and then select on **Send**.
@@ -49,7 +49,7 @@ For a Subcontracting order, it's required to create the **Released Production Or
 
 ## Receiving material from subcontractor
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Order**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Order**, and then choose the related link.
 1. In the **Subcontracting Order** list window, select the **Subcontracting order**.
 1. Select **Action** and then select **Edit** to open the subcontracting order.
 1. Select **Line** and then select **Order Subcon details**.

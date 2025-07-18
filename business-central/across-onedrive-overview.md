@@ -8,6 +8,7 @@ ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
+ms.custom: sfi-image-nochange
 ---
 
 # Business Central and OneDrive integration

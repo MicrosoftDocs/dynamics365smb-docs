@@ -199,7 +199,7 @@ The price update can't take effect immediately. A planned service commitment is 
 |Proposal Price update|-|31.12.2024|15.01.2024|1Y|Neu|
 |`Planned service commitments necessary`|||01.01.2024 is before 15.01.2024|||
 |`Planned service commitment|01.01.2024|31.12.2024|15.01.2024|1Y|New|
-|`Invoice 01.01.2024 - 31.12.2024`||||Old|
+|`Invoice 01.01.2024 - 31.12.2024`||||Old||
 |Service commitment after price update|01.01.2025|31.12.2024|-|1Y|New|
 |Archived service commitments|01.01.2025|31.12.2024|31.12.2024|1Y|Old|
 

@@ -1,9 +1,7 @@
 ---
-title: Creating VAT ledgers in Russia
-description: Russian enhancements include VAT ledgers.
+title: Creating VAT Ledgers in Russia
+description: Learn how to create VAT ledgers in Business Central for Russian businesses, including sales and purchase ledgers for different customer groups.
 author: DianaMalina
-
-
 ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -12,7 +10,7 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Create VAT Ledgers
+# Create VAT ledgers
 
 You can create and store any number of VAT ledgers. For example, you can create the following: 
 

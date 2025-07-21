@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: overview
-ms.date: 06/20/2026
+ms.date: 06/20/2025
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ms.search.form: 1978

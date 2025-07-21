@@ -106,7 +106,7 @@ Recurring billing can be useful for creating a contract invoice for a contract t
 > [!NOTE]
 > Creating a contract invoice as described here is only useful in individual cases.
 
-## Related information
+## View related information from a contract
 
 You can access related information from a contract, and you can access all invoices and credit memos. You can view **Contract Deferrals** if the postings in the contract are deferred periodically.
 

@@ -182,7 +182,7 @@ The price update can take effect immediately.
 |:--|:--|:--|:--|:--|:--|
 |Service commitment before price update|01.01.2024|31.12.2023|-|1Y|Old|
 |Proposal Price update|-|31.12.2024|31.12.2023|1Y|Neu|
-|`Immediate execution`|||31.12.2023 equal to or after 31.12.2023||
+|`Immediate execution`|||31.12.2023 equal to or after 31.12.2023|||
 |Service commitment after price update|01.01.2024|31.12.2024|-|1Y|New|
 |Archived service commitments|01.01.2024|31.12.2023|31.12.2023|1Y|Old|
 

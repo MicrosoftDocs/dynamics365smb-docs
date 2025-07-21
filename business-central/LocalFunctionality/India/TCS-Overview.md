@@ -36,17 +36,17 @@ For more information about Auto Setup, see **Tax Engine** Information.
 
 ### The following items are required to be set up manually
 
-- [TCS Rates](tcs-overview.md#to-set-up-tcs-rates)
-- [Tax Accounting Period](tcs-overview.md#to-set-up-tax-accounting-period)
+- [TCS Rates](tcs-overview.md#set-up-tcs-rates)
+- [Tax Accounting Period](tcs-overview.md#set-up-tax-accounting-period)
 - [T.A.N](tcs-overview.md#)
 - [Assessee Code](tcs-overview.md#)
 - [TCS Nature of Collection](tcs-overview.md#)
-- [Concessional Code](tcs-overview.md#to-set-up-concessional-codes)
-- [TCS Posting Setup](tcs-overview.md#to-set-up-tcs-posting-setup)
-- [TCS on Customer Master](tcs-overview.md#to-set-up-tcs-on-customer-master)
-- [TCS on Location Master](tcs-overview.md#to-set-up-tcs-on-location-master)
-- [TCS on Company Information](tcs-overview.md#to-set-up-tcs-on-company-information)
-- [TCS on State Code](tcs-overview.md#to-set-up-tcs-on-state-code)
+- [Concessional Code](tcs-overview.md#set-up-concessional-codes)
+- [TCS Posting Setup](tcs-overview.md#set-up-tcs-posting-setup)
+- [TCS on Customer Master](tcs-overview.md#set-up-tcs-on-customer-master)
+- [TCS on Location Master](tcs-overview.md#set-up-tcs-on-location-master)
+- [TCS on Company Information](tcs-overview.md#set-up-tcs-on-company-information)
+- [TCS on State Code](tcs-overview.md#set-up-tcs-on-state-code)
 
 ## Set up TCS rates
 
@@ -74,7 +74,7 @@ Rate of TCS is defined in combination of TCS nature of collection and assessee c
 
 Tax Accounting period and quarters need to be defined for TCS calculation.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  

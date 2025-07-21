@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST on bank charges transaction
-ms.date: 19/06/2025
+ms.date: 06/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

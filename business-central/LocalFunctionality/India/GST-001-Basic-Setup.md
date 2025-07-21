@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST setup, GST rates setup, GST registration number setup, States setup, tax accounting period, GST groups, HSN/SAC, GST posting setup, GST company information, GST on location, GST general ledger setup, GST purchase payable setup, GST on source code setup, GST on vendor, GST on vendor order address, GST on customer, GST on customer ship to addresses, GST on service cost, GST on bank account
-ms.date: 19/06/2025
+ms.date: 06/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -36,25 +36,25 @@ For more information about Automatic Setup, see **Tax Engine** information.
 
 The following is the list of Manual Setups that are required to be configured manually
 
-- [GST Rate](gst-001-basic-setup.md#to-set-up-gst-rates)
-- [GST Registration Number](gst-001-basic-setup.md#to-set-up-gst-registration-number)
-- [Tax Accounting Period](gst-001-basic-setup.md#to-set-up-tax-accounting-period)
-- [States](gst-001-basic-setup.md#to-set-up-states)
-- [GST Groups](gst-001-basic-setup.md#to-set-up-gst-groups)
-- [HSN/SAC](gst-001-basic-setup.md#to-set-up-hsnsac)
-- [GST Posting Setup](gst-001-basic-setup.md#to-set-up-gst-posting-setup)
-- [GST on Company Information](gst-001-basic-setup.md#to-set-up-gst-on-company-information)
-- [GST on Location](gst-001-basic-setup.md#to-set-up-gst-on-location)
-- [GST on General Ledger Setup](gst-001-basic-setup.md#to-set-up-gst-on-general-ledger-setup)
-- [GST on Purchase and Payable Setup](gst-001-basic-setup.md#to-set-up-gst-on-purchase-and-payable-setup)
-- [GST on Source Code Setup](gst-001-basic-setup.md#to-set-up-gst-on-source-code-setup)
-- [GST on Masters](gst-001-basic-setup.md#to-set-up-gst-on-masters)
-- [GST on Vendor](gst-001-basic-setup.md#to-set-up-gst-on-vendor)
-- [GST on Vendor Order Address](gst-001-basic-setup.md#to-set-up-gst-on-vendor-order-address)
-- [GST on Customer](gst-001-basic-setup.md#to-set-up-gst-on-customer)
-- [GST on Customer Ship to Addresses](gst-001-basic-setup.md#to-set-up-gst-on-customer-ship-to-addresses)
-- [GST on Service Cost](gst-001-basic-setup.md#to-set-up-gst-on-service-cost)
-- [GST on Bank Account](gst-001-basic-setup.md#to-set-up-gst-on-bank-account)
+- [GST Rate](gst-001-basic-setup.md#set-up-gst-rates)
+- [GST Registration Number](gst-001-basic-setup.md#set-up-gst-registration-number)
+- [Tax Accounting Period](gst-001-basic-setup.md#set-up-tax-accounting-period)
+- [States](gst-001-basic-setup.md#set-up-states)
+- [GST Groups](gst-001-basic-setup.md#set-up-gst-groups)
+- [HSN/SAC](gst-001-basic-setup.md#set-up-hsnsac)
+- [GST Posting Setup](gst-001-basic-setup.md#set-up-gst-posting-setup)
+- [GST on Company Information](gst-001-basic-setup.md#set-up-gst-on-company-information)
+- [GST on Location](gst-001-basic-setup.md#set-up-gst-on-location)
+- [GST on General Ledger Setup](gst-001-basic-setup.md#set-up-gst-on-general-ledger-setup)
+- [GST on Purchase and Payable Setup](gst-001-basic-setup.md#set-up-gst-on-purchase-and-payable-setup)
+- [GST on Source Code Setup](gst-001-basic-setup.md#set-up-gst-on-source-code-setup)
+- [GST on Masters](gst-001-basic-setup.md#set-up-gst-on-masters)
+- [GST on Vendor](gst-001-basic-setup.md#set-up-gst-on-vendor)
+- [GST on Vendor Order Address](gst-001-basic-setup.md#set-up-gst-on-vendor-order-address)
+- [GST on Customer](gst-001-basic-setup.md#set-up-gst-on-customer)
+- [GST on Customer Ship to Addresses](gst-001-basic-setup.md#set-up-gst-on-customer-ship-to-addresses)
+- [GST on Service Cost](gst-001-basic-setup.md#set-up-gst-on-service-cost)
+- [GST on Bank Account](gst-001-basic-setup.md#set-up-gst-on-bank-account)
 
 ## Set up GST rates
 

@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, input tax credit adjustments, credit adjustment journal, reverse charge transactions
-ms.date: 23/06/2025
+ms.date: 06/23/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

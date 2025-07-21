@@ -40,20 +40,20 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 
 #### The following setups are required to be set up manually
 
-- [TDS Rate](tds-overview.md#to-set-up-tds-rates)
-- [Tax Accounting Period](tds-overview.md#to-set-up-tax-accounting-period)
-- [T.A.N](tds-overview.md#to-set-up-tan)
-- [Assessee Code](tds-overview.md#to-set-up-assessee-code)
-- [TDS Section](tds-overview.md#to-set-up-tds-section)
-- [Concessional Code](tds-overview.md#to-set-up-concessional-codes)
-- [TDS Nature of Remittances](tds-overview.md#to-set-up-tds-nature-of-remittances)
-- [Act Applicable](tds-overview.md#to-set-up-act-applicable)
-- [TDS Posting Setup](tds-overview.md#to-set-up-tds-posting-setup)
-- [TDS Rounding Precision](tds-overview.md#to-set-up-tds-rounding-precision)
-- [TDS in Vendor Master](tds-overview.md#to-set-up-tds-in-vendor-master)
-- [TDS in Location Master](tds-overview.md#to-set-up-tds-in-location-master)
-- [TDS in Company Information](tds-overview.md#to-set-up-tds-in-company-information)
-- [TDS in State Code](tds-overview.md#to-set-up-tds-in-state-code)
+- [TDS Rate](tds-overview.md#set-up-tds-rates)
+- [Tax Accounting Period](tds-overview.md#set-up-tax-accounting-period)
+- [T.A.N](tds-overview.md#set-up-tan)
+- [Assessee Code](tds-overview.md#set-up-assessee-code)
+- [TDS Section](tds-overview.md#set-up-tds-section)
+- [Concessional Code](tds-overview.md#set-up-concessional-codes)
+- [TDS Nature of Remittances](tds-overview.md#set-up-tds-nature-of-remittances)
+- [Act Applicable](tds-overview.md#set-up-act-applicable)
+- [TDS Posting Setup](tds-overview.md#set-up-tds-posting-setup)
+- [TDS Rounding Precision](tds-overview.md#set-up-tds-rounding-precision)
+- [TDS in Vendor Master](tds-overview.md#set-up-tds-in-vendor-master)
+- [TDS in Location Master](tds-overview.md#set-up-tds-in-location-master)
+- [TDS in Company Information](tds-overview.md#set-up-tds-in-company-information)
+- [TDS in State Code](tds-overview.md#set-up-tds-in-state-code)
 
 ## Set up TDS rates
 
@@ -244,17 +244,17 @@ TDS Section and concessional codes need to be defined for each vendor that is li
 
 - Following information needs to be defined in company information.
 
-      |Field|Description|  
-      |---------------------------------|---------------------------------------|
-      |**T.A.N No.**|Specifies the TAN of the legal entity.|
-      |**P.A.N No.**|Specifies the PAN of the legal entity.|
-      |**Deductor Category**|Specifies the deductor category of the legal entity.|
-      |**PAO Code**|Specifies the PAO code.|
-      |**PAO Registration No.**|Specifies PAO registration number.|
-      |**DDO Code**|Specifies DDO code.|
-      |**DDO Registration No.**|Specifies the DDO registration number.|
-      |**Ministry Type**|Specifies the Ministry type.|
-      |**Ministry Code**|Specifies the Ministry code.|
+  |Field|Description|  
+  |---------------------------------|---------------------------------------|
+  |**T.A.N No.**|Specifies the TAN of the legal entity.|
+  |**P.A.N No.**|Specifies the PAN of the legal entity.|
+  |**Deductor Category**|Specifies the deductor category of the legal entity.|
+  |**PAO Code**|Specifies the PAO code.|
+  |**PAO Registration No.**|Specifies PAO registration number.|
+  |**DDO Code**|Specifies DDO code.|
+  |**DDO Registration No.**|Specifies the DDO registration number.|
+  |**Ministry Type**|Specifies the Ministry type.|
+  |**Ministry Code**|Specifies the Ministry code.|
 
 ## Set up TDS in state code
 

@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, foreign vendor import
-ms.date: 23/06/2025
+ms.date: 06/23/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -24,7 +24,7 @@ Process for purchase from a foreign vendor is explained in this document.
 1. Select **Item Code** for goods, **G/L Account** for Service purchase and **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code, and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account.
 1. GST Credit option can be changed in document line.
 
-- In case of import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
+- In case of import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty.
 
   For example, purchase invoice is issued INR 10000, Custom Duty is INR 1000. Therefore, on GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 

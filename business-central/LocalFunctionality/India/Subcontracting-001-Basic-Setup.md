@@ -36,13 +36,13 @@ Stock register for job work gives the details of delivery challan sent to the su
 Following setups are required for Subcontracting:
 
 - [Subcontracting Location setup](subcontracting-001-basic-setup.md#subcontracting-location-setup)
-- [Subcontracting Vendor setup](subcontracting-001-basic-setup.md#setting-up-subcontracting-vendor)
-- [Subcontracting Item setup](subcontracting-001-basic-setup.md#setting-up-subcontracting-item)
-- [Job Work Return Period](subcontracting-001-basic-setup.md#setting-up-job-work-return-period)
-- [Source Code Setup](subcontracting-001-basic-setup.md#setting-up-source-code)
-- [General Ledger Setup](subcontracting-001-basic-setup.md#setting-up-general-ledger-setup)
-- [Work Center](subcontracting-001-basic-setup.md#setting-up-work-center)
-- [Routing](subcontracting-001-basic-setup.md#setting-up-routing)
+- [Subcontracting Vendor setup](subcontracting-001-basic-setup.md#set-up-subcontracting-vendor)
+- [Subcontracting Item setup](subcontracting-001-basic-setup.md#set-up-subcontracting-item)
+- [Job Work Return Period](subcontracting-001-basic-setup.md#set-up-job-work-return-period)
+- [Source Code Setup](subcontracting-001-basic-setup.md#set-up-source-code)
+- [General Ledger Setup](subcontracting-001-basic-setup.md#set-up-general-ledger-setup)
+- [Work Center](subcontracting-001-basic-setup.md#set-up-work-center)
+- [Routing](subcontracting-001-basic-setup.md#set-up-routing)
 - [GST liability no series setup](subcontracting-001-basic-setup.md#gst-liability-no-series-setup)
 
 ## Subcontracting location setup

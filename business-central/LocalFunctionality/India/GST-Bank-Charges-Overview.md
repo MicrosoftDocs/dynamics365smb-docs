@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST for bank charges, 
-ms.date: 19/06/2025
+ms.date: 06/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -23,9 +23,9 @@ The place of supply of banking and other financial services shall be the locatio
 
 ### Setups required
 
-- [Bank Accounts](gst-bank-charges-overview.md#to-set-up-gst-on-a-bank-account)
-- [Bank Charges Master](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-master)
-- [Bank Charges Deemed Value Setup](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-deemed-value-setup)
+- [Bank Accounts](gst-bank-charges-overview.md#set-up-gst-on-a-bank-account)
+- [Bank Charges Master](gst-bank-charges-overview.md#set-up-gst-on-bank-charges-master)
+- [Bank Charges Deemed Value Setup](gst-bank-charges-overview.md#set-up-gst-on-bank-charges-deemed-value-setup)
 
 ## Set up GST on a bank account
 

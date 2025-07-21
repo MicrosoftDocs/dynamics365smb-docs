@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, GST compensation cess, GST posting setup, tax rates, GST groups
-ms.date: 19/06/2025
+ms.date: 06/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -32,10 +32,10 @@ For more information about Automatic Setup, see **Tax Engine** information.
 
 The following is the list of setups that are required to be configured manually
 
-- [Tax Rate](gst-cess-basic-setup.md#to-set-up-tax-rates)
-- [HSN/SAC](gst-cess-basic-setup.md#to-set-up-hsnsac)
-- [GST Groups](gst-cess-basic-setup.md#to-set-up-gst-groups)
-- [GST Posting Setup](gst-cess-basic-setup.md#to-set-up-gst-posting-setup)
+- [Tax Rate](gst-cess-basic-setup.md#set-up-tax-rates)
+- [HSN/SAC](gst-cess-basic-setup.md#set-up-hsnsac)
+- [GST Groups](gst-cess-basic-setup.md#set-up-gst-groups)
+- [GST Posting Setup](gst-cess-basic-setup.md#set-up-gst-posting-setup)
 
 ## Set up tax rates
 

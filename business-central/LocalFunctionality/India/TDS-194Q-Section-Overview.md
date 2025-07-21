@@ -26,7 +26,7 @@ This new Section 194Q is applicable from 1st July 2021.
 
 ### Following is the list of setups that are required
 
-- [TDS Rates](TDS-194Q-section-overview.md#to-set-up-tds-rates)
+- [TDS Rates](TDS-194Q-section-overview.md#set-up-tds-rates)
 - [TDS 194Q Opening](TDS-194Q-section-overview.md#tds-194q-opening)
 
 ## Set up TDS rates

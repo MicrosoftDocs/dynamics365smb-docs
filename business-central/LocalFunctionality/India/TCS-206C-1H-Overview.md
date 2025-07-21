@@ -22,7 +22,7 @@ A new TCS section 206C (1H) has been introduced in finance bill 2020. As per new
 ### Following is the list of setups that are required
 
 - [TCS Nature of Collection](tcs-overview.md#)
-- [TCS Rates](tcs-overview.md#to-set-up-tcs-rates)
+- [TCS Rates](tcs-overview.md#set-up-tcs-rates)
 
 ## Set up TCS nature of collection
 

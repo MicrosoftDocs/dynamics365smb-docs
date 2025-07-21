@@ -1,6 +1,6 @@
 ---
 title: Service Transfer
-description: Service Transfer
+description: Learn how to process service transfers between locations, branches, or divisions under GST in India, including order creation and accounting entries.
 author: v-debapd  
 ms.topic: how-to
 ms.devlang: al

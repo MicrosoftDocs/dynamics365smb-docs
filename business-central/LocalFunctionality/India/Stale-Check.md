@@ -21,8 +21,8 @@ A check is considered to be stale after it has expired. Each bank has a specific
 
 Following is the list of setups that are required to be configured.
 
-- [General Ledger Setup](stale-check.md#to-set-up-general-ledger-setup)
-- [Bank Account](stale-check.md#to-set-up-bank-account)
+- [General Ledger Setup](stale-check.md#set-up-general-ledger-setup)
+- [Bank Account](stale-check.md#set-up-bank-account)
 
 ### Set up general ledger setup
 

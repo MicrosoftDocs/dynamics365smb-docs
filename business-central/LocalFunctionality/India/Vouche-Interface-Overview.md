@@ -28,9 +28,9 @@ Feature required to provide the voucher interface as per Indian business require
 
 ### The following setups are required for voucher interface
 
-- [General Journal Template](vouche-interface-overview.md#to-set-up-general-journal-template)
-- [General Journal Batch](vouche-interface-overview.md#to-set-up-general-journal-batch)
-- [General Voucher Setup](vouche-interface-overview.md#to-set-up-voucher-setup)
+- [General Journal Template](vouche-interface-overview.md#set-up-general-journal-template)
+- [General Journal Batch](vouche-interface-overview.md#set-up-general-journal-batch)
+- [General Voucher Setup](vouche-interface-overview.md#set-up-voucher-setup)
 
 ## Set up general journal template
 

@@ -37,17 +37,17 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 
 ### The following setups are required to be configured manually
 
-- [TDS Rate](tds-for-customer-overview.md#to-set-up-tds-rates)
-- [Tax Accounting Period](tds-for-customer-overview.md#to-set-up-tax-accounting-period)
-- [T.A.N](tds-for-customer-overview.md#to-set-up-tan)
-- [Assessee Code](tds-for-customer-overview.md#to-set-up-assessee-code)
-- [TDS Section](tds-for-customer-overview.md#to-set-up-tds-section)
-- [Concessional Code](tds-for-customer-overview.md#to-set-up-concessional-codes)
-- [TDS Posting Setup](tds-for-customer-overview.md#to-set-up-tds-posting-setup)
-- [TDS on Customer Master](tds-for-customer-overview.md#to-set-up-tds-on-customer-master)
-- [TDS on Location Master](tds-for-customer-overview.md#to-set-up-tds-on-location-master)
-- [TDS on Company Information](tds-for-customer-overview.md#to-set-up-tds-on-company-information)
-- [TDS on State Code](tds-for-customer-overview.md#to-set-up-tds-on-state-code)
+- [TDS Rate](tds-for-customer-overview.md#set-up-tds-rates)
+- [Tax Accounting Period](tds-for-customer-overview.md#set-up-tax-accounting-period)
+- [T.A.N](tds-for-customer-overview.md#set-up-tan)
+- [Assessee Code](tds-for-customer-overview.md#set-up-assessee-code)
+- [TDS Section](tds-for-customer-overview.md#set-up-tds-section)
+- [Concessional Code](tds-for-customer-overview.md#set-up-concessional-codes)
+- [TDS Posting Setup](tds-for-customer-overview.md#set-up-tds-posting-setup)
+- [TDS on Customer Master](tds-for-customer-overview.md#set-up-tds-on-customer-master)
+- [TDS on Location Master](tds-for-customer-overview.md#set-up-tds-on-location-master)
+- [TDS on Company Information](tds-for-customer-overview.md#set-up-tds-on-company-information)
+- [TDS on State Code](tds-for-customer-overview.md#set-up-tds-on-state-code)
 
 ## Set up TDS rates
 

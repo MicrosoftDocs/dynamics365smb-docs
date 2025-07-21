@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, net payment liability, settlement, settlement process
-ms.date: 04/01/2021
+ms.date: 06/24/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, input service distribution, ISD on location, ISD on general ledger setup, ISD on source code setup, ISD on GST posting setup
-ms.date: 23/06/2025
+ms.date: 06/23/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani

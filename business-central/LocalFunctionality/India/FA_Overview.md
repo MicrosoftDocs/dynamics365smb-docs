@@ -5,7 +5,7 @@ author: v-debapd
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: India, local, IN, English, fixed asset setup, depreciation calculation, depreciation books 
-ms.date: 19/06/2025
+ms.date: 06/19/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -23,10 +23,10 @@ Computation of Depreciation on Block of Assets under the Income Tax Act, 1961 an
 
 Following is the list of Setups, user needs to configure for Fixed Assets in **Business Central**.
 
-- [Depreciation Book](fa_overview.md#to-set-up-fa-depreciation-books)
-- [FA Accounting Period Income Tax](fa_overview.md#to-set-up-fa-accounting-period-for-income-tax)
-- [FA Block Code](fa_overview.md#to-set-up-fa-block-code)
-- [Setup for Additional Depreciation](fa_overview.md#to-set-up-additional-depreciation)
+- [Depreciation Book](fa_overview.md#set-up-fa-depreciation-books)
+- [FA Accounting Period Income Tax](fa_overview.md#set-up-fa-accounting-period-for-income-tax)
+- [FA Block Code](fa_overview.md#set-up-fa-block-code)
+- [Setup for Additional Depreciation](fa_overview.md#set-up-additional-depreciation)
 
 ## Set up FA depreciation books
 

@@ -1,11 +1,11 @@
 ---
 title: Configure Copilot and agent capabilities
-description: This article explains how to enable Copilot in an environment.
+description: Learn how to control Copilot and agent features in Business Central, including deactivation, user access, and data governance controls.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 04/01/2025
+ms.date: 06/27/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -22,7 +22,7 @@ Copilot is a system feature and an integral part of Business Central. Like most 
 - Understand which Copilot and agent capabilities are available to your environment.
 - Deactivate individual capabilities.
 - Grant or deny access to individual users for each capability.
-- Data governance controls.
+- Use data governance controls.
 
 There are different levels of access control for agent capabilities, depending on the feature:
 
@@ -69,7 +69,7 @@ Copilot and agent capabilities are active by default when they're available in p
     - To turn on a feature, select it in the list, and then select **Activate**.
     - To turn off a feature, select it in the list, and then select **Deactivate**.
 
-    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.svg)](media/copilot-agent-capabilities-page.svg#lightbox "Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.")
+    [![Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.](media/copilot-agent-capabilities-page.png)](media/copilot-agent-capabilities-page.png#lightbox "Screenshot that shows the Activate and Deactivate buttons for the feature lists on the Copilot & agent capabilities page.")
 
 ## Granting user access
 
@@ -92,6 +92,14 @@ The following table lists the permissions needed to use the different Copilot an
 |Sales Order Agent|Learn more in [Manage Sales Order Agent permissions and user access](sales-order-agent-setup.md#manage-agent-permissions-to-objects-data-and-ui-elements).|
 
 To grant or deny access to specific non-Microsoft Copilot and agent capabilities, consult the feature's documentation or publisher for the required permissions.
+
+## Enable Bing Search for enhanced results
+
+Some features support Bing Search to improve Copilot's results, like giving answers in Chat about add-on apps and extensions installed in Business Central. When you enable Bing Search, Copilot searches the web to find more comprehensive information for an inquiry.
+
+To enable Bing Search, turn on the **Enable Bing Search** toggle switch in the **Copilot & agent capabilities** page.
+
+Learn more about which Copilot features support Bing Search and how it's used in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
 ## Requirements for being an administrator
 

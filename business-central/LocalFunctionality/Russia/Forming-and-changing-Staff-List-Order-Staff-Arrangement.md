@@ -1,66 +1,65 @@
 ---
 title: Forming and changing staff in Russia
-description: Russian enhancements include forming and changing staff.
+description: Learn how to form and update staff lists and arrangements in Business Central for Russia.
 author: DianaMalina
-
-
 ms.topic: how-to
-ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: bholtorf
+ms.search.keywords: staff list, staff list order, staff arrangement, Russia
+ms.date: 07/11/2025
+ms.reviewer: v-soumramani
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Forming and Changing the Staff List Order
+
+# Forming and changing the staff list order
 
 You can form and change the staff list.
 
-## Changing of Staff List
+## Change staff list
 
-To make changes in the Staff List  go to **Human Resources > Organization > Staff list Order**
+To make changes in the Staff List  go to **Human Resources** > **Organization** > **Staff list Order**
 
 1. In the header of the order, fill the fields:
 
-| Field                       | Description                                                  |
-| --------------------------- | ------------------------------------------------------------ |
-| No.                         | Specifies the number of the involved entry or record, according to the specified number series. |
-| Document Date               | Specifies the date when the related document was created.    |
-| Posting date                | Specifies the entry's posting date.                          |
-| HR Order No., HR Order Date | The number and date specified in the fields are used to form the printed form of the order to make changes to the staff List |
-| Description                 | Specifies the description associated with this line.         |
+   | Field                       | Description                                                  |
+   | --------------------------- | ------------------------------------------------------------ |
+   | No.                         | Specifies the number of the involved entry or record, according to the specified number series. |
+   | Document Date               | Specifies the date when the related document was created.    |
+   | Posting date                | Specifies the entry's posting date.                          |
+   | HR Order No., HR Order Date | The number and date specified in the fields are used to form the printed form of the order to make changes to the staff List |
+   | Description                 | Specifies the description associated with this line.         |
 
-The HR Manager No. and Chief Accountant No. fields are filled automatically according to the organization settings.
+   The HR Manager No. and Chief Accountant No. fields are filled automatically according to the organization settings.
 
-2. The fields must be filled on the lines:
+1. The fields must be filled on the lines:
 
-| Field  | Description                                                  |
-| ------ | ------------------------------------------------------------ |
-| Type   | Position/Org. Unit                                           |
-| Code   | Code of position or Org. Unit                                |
-| Action | Approve/Reopen/Close/Rename – type of action to be performed on this staffing item |
+   | Field  | Description                                                  |
+   | ------ | ------------------------------------------------------------ |
+   | Type   | Position/Org. Unit                                           |
+   | Code   | Code of position or Org. Unit                                |
+   | Action | Approve/Reopen/Close/Rename – type of action to be performed on this staffing item |
 
-3. Post order.
+1. Post order.
 
-> [!NOTE]
-> Only an unoccupied position that is not the highest for any other position can be closed.
->
-> A unit can be closed if all positions in it are closed.
+   > [!NOTE]
+   > Only an unoccupied position that isn't the highest for any other position can be closed.
+   >
+   > A unit can be closed if all positions in it are closed.
 
 ## Forming of staff list
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], there is a concept of archive staffing. Archive staffing allows you to save the status of the staff list at the time of its creation.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there's a concept of archive staffing. Archive staffing allows you to save the status of the staff list at the time of its creation.
 
-Staff list for any date you can see: **Human Resources > Organization > Staff List**.
+Staff list for any date you can see: **Human Resources** > **Organization** > **Staff List**.
 
 By default, the staff list displays only the actual (approved) positions on the working date set in the system. The necessary data can be obtained by setting special filters on the form.
 
 To create an archive, click the **Archive** button.
 
-The formed staff list for the specified date is transferred to the list of posted documents. **Human Resources > Archive > Archived Staff List**
+The formed staff list for the specified date is transferred to the list of posted documents: **Human Resources** > **Archive** > **Archived Staff List**.
 
-## Staff Arrangement
+## Staff arrangement
 
-Staff list is document impersonal, it indicates the number of posts in the organization and salaries for them. However, some companies print a special form that is not regulated by the legislation – Staff Arrangement.
+Staff list is document impersonal, it indicates the number of posts in the organization and salaries for them. However, some companies print a special form that isn't regulated by the legislation – Staff Arrangement.
 
 Staff Arrangement – a document that indicates which units approved in the staff list are occupied, indicating the name of the employee, their salary and allowances, and which are still vacant.
 
@@ -70,11 +69,10 @@ To create a printed form of Staff Arrangement, find (or form) an archive form of
 
 When you run the report, check the box **Staff Arrangement** and select the desired mode of report generation in the field **Show Staff**.
 
-Click OK to generate the report.
+Click **OK** to generate the report.
 
 ## Related information
 
 [Human Resources](Human-Resources.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

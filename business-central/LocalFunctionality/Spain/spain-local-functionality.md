@@ -4,7 +4,7 @@ description: Learn about the local functionality available in the Spanish versio
 author: brentholtorf
 ms.topic: article
 ms.search.keywords: Spain local functionality, Spanish localization, Spanish version
-ms.date: 07/11/2025
+ms.date: 07/22/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -17,7 +17,7 @@ The following articles describe local functionality unique to the Spanish versio
 ## Feature availability
 
 - Compliance
-  - [Self-Responsible Declaration of the computer billing system](compliance-self-responsible-declaration-billing-spain.md) **Available Now**
+  - [Self-responsible declaration of the computer billing system](compliance-self-responsible-declaration-billing-spain.md) **Available Now**
 - VAT  
   - [SII VAT reporting](sii-setup.md) **Available Now**
   - [SII - Invoice and Credit Memo types in Sales and Purchase documents](SII-invoice-types-sales-purchase-documents.md) **Available Now**

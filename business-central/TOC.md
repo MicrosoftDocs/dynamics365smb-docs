@@ -2488,6 +2488,7 @@ ms.service: dynamics-365-business-central
 ### [Certifications](compliance/compliance-certifications.md)
 ## [Service overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 ## [Trial features that connect to other Microsoft services](privacy-connected-services.md)
+## [Self-responsible declaration of the computer billing system](compliance-self-responsible-declaration-billing-spain.md)
 
 # Development and administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

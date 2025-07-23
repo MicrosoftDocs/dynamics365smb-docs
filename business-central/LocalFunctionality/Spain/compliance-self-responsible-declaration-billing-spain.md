@@ -22,8 +22,8 @@ In this article, you can find and download the self-responsible declarations iss
 
 ### 2025 release wave 1
 
-- Spanish version (required by law): ![Selferesponsible declaration ES](../media/Selferesponsible_declaration_ES_Spanish_22_07_25.pdf)
-- English translation: ![Selferesponsible declaration ES](../media/Selferesponsible_declaration_ES_English_22_07_25.pdf)
+- Spanish version (required by law): [Self-responsible declaration ES](../media/selfresponsible_declaration_es_spanish_22_07_25.pdf)
+- English translation: [Self-responsible declaration ES](../media/selfresponsible_declaration_es_english_22_07_25.pdf)
 
 ## Related information
 

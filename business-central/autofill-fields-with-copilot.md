@@ -119,7 +119,7 @@ When Copilot searches the web on your behalf, it looks for publicly available in
 For example, when you enter information in Business Central about a vendor, Copilot might suggest the full address, phone number, website, and registration number for that vendor.
 
 > [!TIP]
-> To try out or demonstrate Copilot's ability to search the web in an evaluation company, create a new vendor or customer record named "Adventure Works". Set the record's **Country/Region Code** field to **US**. Asking Copilot to autofill the address and contact details should result in Copilot suggesting field values from [www.adventure-works.com](ww.adventure-works.com), a Microsoft-owned website with demonstration data for a fictitious company.
+> To try out or demonstrate Copilot's ability to search the web in an evaluation company, create a new vendor or customer record named "Adventure Works". Set the record's **Country/Region Code** field to **US**. Asking Copilot to autofill the address and contact details should result in Copilot suggesting field values from [www.adventure-works.com](https://www.adventure-works.com), a Microsoft-owned website with demonstration data for a fictitious company.
 
 ## Autofill behavior with other data-entry features
 

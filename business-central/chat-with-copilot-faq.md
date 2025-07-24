@@ -7,7 +7,8 @@ ms.reviewer: solsen
 ms.topic: faq
 ms.collection:
   - bap-ai-copilot
-ms.date: 07/04/2025
+ms.date: 07/17/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -24,7 +25,7 @@ Starting in 2025 release wave 1 (update 26.0), admins can control precisely who 
 
 ## Can Copilot answer questions about any records? 
 
-When you chat with Copilot about records and pages, Copilot searches your company data within [!INCLUDE[prod_short](includes/prod_short.md)] on your behalf and can only access the data you have permission to access. [!INCLUDE[prod_short](includes/prod_short.md)]'s extensive security, privacy, and compliance controls also apply to Copilot. For example, you can't ask Copilot to show masked or secret fields or retrieve records controlled by record-level security.
+When you chat with Copilot about records and pages, Copilot searches your company data within [!INCLUDE[prod_short](includes/prod_short.md)] on your behalf. It can only access the data you have permission to access. [!INCLUDE[prod_short](includes/prod_short.md)]'s extensive security, privacy, and compliance controls also apply to Copilot. For example, you can't ask Copilot to show masked or secret fields or retrieve records controlled by record-level security.
 
 ## Is chat available on tablet, phone, or other form factors?
 
@@ -45,11 +46,11 @@ As of January 2025, chat is available no matter which language you use in [!INCL
 It depends on the type of question you ask Copilot. For example:
 
 - If you ask questions to find records, it can find records in your custom tables or find and filter custom fields.
-- If you ask Copilot for an explanation or guidance, it an provide answers about functionality from the apps that you have installed to [!INCLUDE[prod_short](includes/prod_short.md)].
+- If you ask Copilot for an explanation or guidance, it can provide answers about functionality from the apps that you installed to [!INCLUDE[prod_short](includes/prod_short.md)]. The capability requires that app publishers provide documentation for their apps on the web, and Bing Search is enabled for Copilot in Business Central. Learn more in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
 Learn how to improve Copilot output as a developer in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
-## How does Copilot locate records? 
+## How does Copilot locate records?
 
 When you ask to find a single record, multiple records, or a field from a record, Copilot uses various mechanisms to search for this information. Copilot generates the appropriate sorting and filtering on list pages and their corresponding source tables. It uses the fields on the page and fields on the underlying tables as part of these operations and in its responses.
 
@@ -57,7 +58,7 @@ When you ask to find a single record, multiple records, or a field from a record
 
 No. Copilot has access to most but not all fields when finding records. For example, it excludes fields that might contain passwords or other secrets. Learn which field data types are excluded in [Influencing Copilot and agents without extending them](/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending).
 
-Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your admin hasn't given you permission to personalize Business Central, Copilot shows only the fields typically displayed by default on the list pages.
+Similarly, when you ask Copilot to show a specific field from a record, some fields are excluded and might not be part of Copilot’s response. For example, if your admin didn't give you permission to personalize Business Central, Copilot shows only the fields typically displayed by default on the list pages.
 
 ## How do I open a record or page from chat?
 
@@ -69,7 +70,7 @@ Copilot might occasionally answer in different ways. Answers aren't always ident
 
 ## How do I use the Copy function on chat messages?
 
-You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, this can also be copied using a Copy menu item.
+You can use the Copy button to copy a message from earlier in your conversation with Copilot, paste it into the input box to try again or try a variation of your message to Copilot. When Copilot provides a record summary in the Copilot pane, the summary can also be copied using a Copy menu item.
 
 ## Can I customize or extend chat?
 
@@ -79,23 +80,25 @@ While in preview, the chat pane and Copilot's responses can't be modified direct
 
 Copilot only searches for records in the company you're currently signed into. It doesn't search for data across multiple environments or companies.
 
-## How does chat treat data residency? 
+## How does chat treat data residency?
 
-The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about any apps you installed. 
+The chat feature relies on Azure OpenAI Service for AI and Microsoft Learn for online documentation and Bing Search to provide answers about installed apps.
 
 - Azure OpenAI Service  
   Learn more about data residency and Azure OpenAI Service in [Azure OpenAI Service and Business Central data](azure-openai-data.md) and [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-- Microsoft Learn online service  
+- Microsoft Learn online service
+ 
   Endpoints are available in the US, Switzerland, and Europe Azure geographies. For EU customers, this means their data never leaves the EU Data Boundary, and [!INCLUDE[prod_short](includes/prod_short.md)] always connects to endpoints in Switzerland or Europe Azure geographies.
 
   If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Microsoft Learn online service outside your environment's geographic region or compliance boundary. When you use chat to ask for explanations on how to do things in [!INCLUDE[prod_short](includes/prod_short.md)], only a few search keywords derived from your message to Copilot are sent to the Microsoft Learn online service in a different Azure geography. They're processed and not stored for more than one day.
 
   To prevent chat from connecting to the Microsoft Learn online service, deactivate the chat feature using the **Copilot & agent capabilities** page. Learn more in [Configure Copilot and agent capabilities](enable-ai.md#activate-features).
-- Bing Search  
-  Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use chat to ask for explanations about add-on apps, only the input prompt is to the Bing Search service. This is processed and not stored for more than one day. 
- 
-  To prevent chat from connecting to the Bing Search service, turn off the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md). 
+- Bing Search
+
+  Service endpoints are available in the US only and Bing Search operates under different terms. If your [!INCLUDE[prod_short](includes/prod_short.md)] environment is deployed to any other Azure geography, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Bing Search service outside your environment’s geographic region or compliance boundary. When you use chat to ask for explanations about add-on apps, only the input prompt is sent to the Bing Search service. This prompt is processed and not stored for more than one day.
+
+  To prevent chat from connecting to the Bing Search service, turn off the Enable Bing Search switch from the Copilot & agent capabilities page. Learn more about how Copilot searches the web using Bing in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
 
 ## What can I do if the chat pane doesn't show?
 

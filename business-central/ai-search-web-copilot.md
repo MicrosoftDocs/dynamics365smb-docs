@@ -1,6 +1,6 @@
 ---
-title: Searching the web with Copilot (preview)
-description: Get an overview of how you enable searching the web with Copilot in Business Central.  
+title: Searching the Web with Copilot (preview)
+description: Get an overview of Bing Search and how you enable searching the web with Copilot in Business Central
 author: SusanneWindfeldPedersen
 ms.author: mikebc
 ms.reviewer: solsen
@@ -20,7 +20,7 @@ ms.collection:
 Some Copilot features in [!INCLUDE [prod_short](includes/prod_short.md)] can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content, and saves you time from having to switch apps to manually find things yourself. Copilot is powered by Microsoft Bing, and connecting Copilot to Bing search is optional.
 
 > [!IMPORTANT]
-> Bing Search is available from update 26.3, initially in Sandbox environments only. Because it's intended for use with AI features, Bing Search isn't available for [!INCLUDE [prod_short](includes/prod_short.md)] on premises.
+> Bing Search is available from update 26.3, initially in Sandbox environments only. Bing Search isn't available for on-premises deployments of [!INCLUDE [prod_short](includes/prod_short.md)] because it's intended only for use with AI features in online environments.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -36,18 +36,18 @@ The following table describes the list of Copilot capabilities that currently us
 
 | Feature | How Bing Search is used | What happens if Bing Search isn't enabled |
 | --- | --- | --- |
-| Copilot Chat | **From Update 26.3**<br> Copilot uses Bing Search to read publicly-available documentation that matches the add-on apps that you have installed to your environment, providing more accurate answers that are tailored to how your organization uses Business Central. This documentation is owned and hosted by the third-party publisher of each app. <br><br> **Example:** <br>You install an add-on to manage customer loyalty schemes that includes a new Customer Tier field added to the customer card. Copilot will now be able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses will be of lower quality.<br><br> Copilot will respond only based on content from Microsoft’s documentation that has no information about how you have customized Business Central. Learn more in [Chat with Copilot](chat-with-copilot.md). |
-|Autofill |Starting with update 26.4 <br><br>Copilot uses Bing Search to search the web for publicly-available information that could be used to fill out certain fields, saving you time and the need for app-switching. Copilot does this only for fields that may typically contain public domain information.<br><br>Example: When entering information in Business Central about a vendor named “Adventure Works”, Copilot suggests the full address, phone number and website for that vendor by searching Bing for “Adventure Works website, address, city, zipcode, state, country, phone number and email address”|Copilot continues to suggest field values, but fields that typically contain public domain information will not offer any suggestion, or will offer lower-quality suggestions.|
+| Copilot Chat | **From Update 26.3**<br><br>Copilot uses Bing Search to read publicly available documentation that matches the add-on apps you installed to your environment. Using Bing Search provides more accurate answers that are tailored to how your organization uses Business Central. The third-party publisher of each app owns and hosts the documentation.<br><br> **Example:** You install an add-on to manage customer loyalty schemes that include a new Customer Tier field added to the customer card. Copilot is now able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses are of lower quality.<br><br> Copilot responds only based on content from Microsoft’s documentation that has no information about how you customized Business Central. Learn more in [Chat with Copilot](chat-with-copilot.md). |
+|Autofill |**From update 26.4**<br><br>Copilot uses Bing Search to search the web for publicly available information that could be used to fill out certain fields, saving you time and the need for app-switching. Copilot uses Bing Search only for fields that might typically contain public domain information.<br><br>**Example:** When you enter information in Business Central about a vendor named "Adventure Works", Copilot suggests the full address, phone number, and website for that vendor by searching Bing for "Adventure Works website, address, city, zipcode, state, country, phone number, and email address."|Copilot continues to suggest field values, but fields that typically contain public domain information don't offer any suggestion or offer lower-quality suggestions.|
 
 ## How does Bing Search work?
 
-The Bing Search service is hosted in the United States geographic region. When Copilot connects to this service, the web search query (input) and search results (output) are temporarily processed by this service. If your [!INCLUDE [prod_short](includes/prod_short.md)] environment is hosted outside of the United States, this input and output moves outside of your environment’s geographic region or compliance boundary, but isn't stored there for more than 1 day.
+The Bing Search service is hosted in the United States geographic region. When Copilot connects to this service, the web search query (input) and search results (output) are temporarily processed by this service. If your [!INCLUDE [prod_short](includes/prod_short.md)] environment is hosted outside of the United States, this input and output moves outside of your environment's geographic region or compliance boundary, but isn't stored there for more than one day.
 
 The data residency implications are similar to if users in your organization were to open a new browser tab, navigate to Bing, and search by inputting keywords themselves.
 
 ## How much does it cost to search the web?
 
-At this time, Copilot features that search the web are included in your [!INCLUDE [prod_short](includes/prod_short.md)] license at no additional cost. You don't incur any one-time or operating charges whenever these features search the web. Microsoft may announce and introduce quotas, billing or fair-use policies in the future.
+At this time, Copilot features that search the web are included in your [!INCLUDE [prod_short](includes/prod_short.md)] license at no extra cost. You don't incur any one-time or operating charges whenever these features search the web. Microsoft might announce and introduce quotas, billing, or fair-use policies in the future.
 
 ## How can administrators enable Bing Search?
 
@@ -62,11 +62,11 @@ Yes. Microsoft is committed to ensuring that Copilot is built for enterprise use
 
 By enabling Bing Search in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-- Minimal data is sent to Bing Search. This typically includes a few search terms, usually extracted from user prompts or generated by Copilot depending on the task that requires searching the web. Web search queries may include business data, personal data and data that the organization may consider sensitive as part of the search terms. Masked data such as passwords is always excluded from search terms.
+- Minimal data is sent to Bing Search. This data typically includes a few search terms that are extracted from user prompts or generated by Copilot depending on the task that requires searching the web. Web search queries might include business data, personal data, and data that the organization might consider sensitive as part of the search terms. Masked data such as passwords is always excluded from search terms.
 - Search results from Bing Search undergo various checks for safety, including malicious site detection and content filtering.
 - Web search queries aren't shared with advertisers and aren’t used to train our foundation Large Language Models (LLMs).
 - Copilot doesn’t search the web unconditionally. Searching the web is done selectively, whenever Copilot has no alternative to compute accurate results based on data within [!INCLUDE [prod_short](includes/prod_short.md)] or from the Azure OpenAI Service foundation models.
-- Copilot can make outgoing connects to search the web, but it doesn't open up Copilot up for being accessed by any other website, app, or service on the internet. All calls are outgoing only. Copilot remains entirely operated by end-users in [!INCLUDE [prod_short](includes/prod_short.md)] with the security, privacy, and compliance controls for your organization.
+- Copilot can make outgoing connects to search the web, but it doesn't open up Copilot up for access from any other website, app, or service on the internet. All calls are outgoing only. Copilot remains entirely operated by end-users in [!INCLUDE [prod_short](includes/prod_short.md)] with the security, privacy, and compliance controls for your organization.
 
 ## Related information
 

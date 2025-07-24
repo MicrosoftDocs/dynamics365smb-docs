@@ -64,7 +64,7 @@ The autofill feature isn't available on these fields regardless of the page type
 - Date and time fields.
 - Toggle switches.
 - Fields that uniquely identify a record like IDs and numbers from a series.
-- Certain fields depending on your Business Central environment settings. For example, Copilot can't make suggestions for address fields until your administrator has enabled Bing Search with Copilot.
+- Certain fields depending on your Business Central environment settings. For example, Copilot can't make suggestions for address fields until your admin enables Bing Search with Copilot.
 
 ## Use autofill on fields
 
@@ -104,28 +104,28 @@ Regardless of whether the suggested value is AI-generated, Copilot always uses A
 |Mechanism|Description|
 |-|-|
 |Most Frequently Used|The value most frequently assigned to records in your company. The suggested value isn't computed using AI and comes directly from your Business Central data.|
-|Most Recently Used|For fields that reference another table, this is the most recently used reference, or most recently viewed record for that table. The suggested value isn't computed using AI and comes directly from your Business Central data.|
+|Most Recently Used|For fields that reference another table, the value is the most recently used reference or the most recently viewed record for that table. The suggested value isn't computed using AI and comes directly from your Business Central data.|
 |Lookup selection|For fields that reference another table and have a short list of possible choices, AI is used to intelligently select from the possible values.|
 |AI-generated|AI is used to intelligently generate the suggested value based on general knowledge available to AI.
-|Web Search|For fields that typically contain publicly-available information, Copilot searches the web for potential matches and provides suggestions. AI is used to extract and match the best suggested value.|
+|Web Search|For fields that typically contain publicly available information, Copilot searches the web for potential matches and provides suggestions. AI is used to extract and match the best suggested value.|
 
 ## About web search
 
 > [!IMPORTANT]
 > Copilot can autofill with suggestions from the web from update 26.4 onwards, initially in Sandbox environments only.
 
-Copilot searches the web on your behalf for publicly-available information that could be used to fill out certain fields, saving you time and the need for app-switching. This is similar to opening a new browser tab, navigating to your favourite search engine, searching for key terms, browsing the top resulting websites, and copying over the relevant information into Business Central. Copilot does this only for fields that may typically contain public domain information, and always indicates the source website where it found that information. 
+When Copilot searches the web on your behalf, it looks for publicly available information that could be used to fill out certain fields, saving you time and the need for app-switching. This process is similar to what you do manually: open a new browser tab, navigate to your favorite search engine, search for key terms, browse the top resulting websites, and finally copy the relevant information into Business Central. Copilot performs these steps automatically, but only for fields that might typically contain public domain information, and always indicates the source website where it found that information. 
 
-Example: When entering information in Business Central about a vendor, Copilot may suggest the full address, phone number, website and registration number for that vendor. 
+For example, when you enter information in Business Central about a vendor, Copilot might suggest the full address, phone number, website, and registration number for that vendor.
 
 > [!TIP]
-> To try out or demonstrate Copilot’s ability to search the web in an evaluation company, you can create a new vendor or customer record named “Adventure Works” and set the country field to US. Asking Copilot to autofill the address and contact details should result in Copilot suggesting field values from www.adventure-works.com, a Microsoft-owned website with demonstration data for a fictitious company.
+> To try out or demonstrate Copilot's ability to search the web in an evaluation company, create a new vendor or customer record named "Adventure Works". Set the record's **Country/Region Code** field to **US**. Asking Copilot to autofill the address and contact details should result in Copilot suggesting field values from [www.adventure-works.com](ww.adventure-works.com), a Microsoft-owned website with demonstration data for a fictitious company.
 
 ## Autofill behavior with other data-entry features
 
-Business Central offers many other features that reduce data entry, such as customer templates and business process settings that default values. On some pages, for example, when you specify the value for a field, Business Central validates and automatically sets related fields, like zip code and country. Unlike Copilot, these features don't use AI, and values are saved immediately.
+Business Central offers many other features that reduce data entry, such as customer templates and business process settings that default values. On some pages, for example, when you specify the value for a field, Business Central validates and automatically sets related fields, like zip code, and country/region. Unlike Copilot, these features don't use AI, and values are saved immediately.
 
-When Copilot suggests a field value and you use any feature that saves a value to the same field, Copilot's suggestion is always discarded in favor of the value set by Business Central.
+If both Copilot and another feature set a value for the same field, the other feature's value overrides and discards Copilot's suggestion.
 
 ## Related information
 

@@ -1,17 +1,17 @@
 ---
-title: Trial features that connect to other Microsoft services  
+title: Trial Features that Connect to Other Microsoft Services  
 description: Overview of Microsoft services that Business Central connects to with the trial version.
 author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: privacy, trial, Microsoft services
-ms.date: 04/14/2024
+ms.date: 07/24/2025
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Trial features that connect to other Microsoft services 
 
-[!INCLUDE[prod_long](includes/prod_long.md)] is a comprehensive business management solution that is deeply integrated with Microsoft 365 productivity apps and Power Platform. Your free trial of Business Central can connect to many different Microsoft services that you must first configure and enable. To get the most out of your free trial, some of these features have been automatically enabled for you. Even though the connection from [!INCLUDE[prod_short](includes/prod_short.md)] is enabled, these services aren't included with your trial and must be purchased separately unless you have them already.
+[!INCLUDE[prod_long](includes/prod_long.md)] is a comprehensive business management solution that is deeply integrated with Microsoft 365 productivity apps, Power Platform and AI services. Your free trial of Business Central can connect to many different Microsoft services that you must first configure and enable. To get the most out of your free trial, some of these features have been automatically enabled for you. Even though the connection from [!INCLUDE[prod_short](includes/prod_short.md)] is enabled, these services may not be included with your trial and may need to be purchased separately unless you have them already. 
 
 The following table indicates the connections to Microsoft services that are automatically enabled for [!INCLUDE[prod_short](includes/prod_short.md)] trials:
 
@@ -21,6 +21,7 @@ The following table indicates the connections to Microsoft services that are aut
 |Microsoft OneDrive for Business|Yes|No|**Open in OneDrive** action on **Item** attachments |[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 | Microsoft Azure OpenAI Service |Yes |No|**Copilot** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
+|Microsoft Bing |Yes |No |Copilot |[Searching the web with Copilot](ai-search-web-copilot.md)|
 |Microsoft Learn Platform|Yes|No|Copilot, Help pane|[Chat with Copilot FAQ](chat-with-copilot-faq.md#how-does-chat-treat-data-residency)|
 
 > [!NOTE]

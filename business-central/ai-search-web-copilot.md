@@ -37,11 +37,11 @@ The following table describes the list of Copilot capabilities that currently us
 | Feature | How Bing Search is used | What happens if Bing Search isn't enabled |
 | --- | --- | --- |
 | Copilot Chat | **From Update 26.3**<br><br>Copilot uses Bing Search to read publicly available documentation that matches the add-on apps you installed to your environment. Using Bing Search provides more accurate answers that are tailored to how your organization uses Business Central. The third-party publisher of each app owns and hosts the documentation.<br><br> **Example:** You install an add-on to manage customer loyalty schemes that include a new Customer Tier field added to the customer card. Copilot is now able to explain how this field works, or why you get an error when setting this field.| You can continue to chat with Copilot, but responses are of lower quality.<br><br> Copilot responds only based on content from Microsoft’s documentation that has no information about how you customized Business Central. Learn more in [Chat with Copilot](chat-with-copilot.md). |
-|Autofill |**From update 26.4**<br><br>Copilot uses Bing Search to search the web for publicly available information that could be used to fill out certain fields, saving you time and the need for app-switching. Copilot uses Bing Search only for fields that might typically contain public domain information.<br><br>**Example:** When you enter information in Business Central about a vendor named "Adventure Works", Copilot suggests the full address, phone number, and website for that vendor by searching Bing for "Adventure Works website, address, city, zipcode, state, country, phone number, and email address."|Copilot continues to suggest field values, but fields that typically contain public domain information don't offer any suggestion or offer lower-quality suggestions.|
+|Autofill |**From update 26.4**<br><br>Copilot uses Bing Search to search the web for publicly available information that could be used to fill out certain fields, saving you time and the need for app-switching. Copilot uses Bing Search only for fields that might typically contain public domain information.<br><br>**Example:** When you enter information in Business Central about a vendor named "Adventure Works", Copilot suggests the full address, phone number, and website for that vendor by searching Bing for "Adventure Works website, address, city, zip code, state, country, phone number, and email address."|Copilot continues to suggest field values, but fields that typically contain public domain information don't offer any suggestion or offer lower-quality suggestions.|
 
 ## How does Bing Search work?
 
-The Bing Search service is hosted in the United States geographic region. When Copilot connects to this service, the web search query (input) and search results (output) are temporarily processed by this service. If your [!INCLUDE [prod_short](includes/prod_short.md)] environment is hosted outside of the United States, this input and output moves outside of your environment's geographic region or compliance boundary, but isn't stored there for more than one day.
+The Bing Search service is hosted in the United States geographic region. When Copilot connects to this service, the web search query (input) and search results (output) are temporarily processed by this service. If your [!INCLUDE [prod_short](includes/prod_short.md)] environment is hosted outside of the United States, this input and output moves outside of your environment's geographic region or compliance boundary but isn't stored there for more than one day.
 
 The data residency implications are similar to if users in your organization were to open a new browser tab, navigate to Bing, and search by inputting keywords themselves.
 
@@ -51,7 +51,7 @@ At this time, Copilot features that search the web are included in your [!INCLUD
 
 ## How can administrators enable Bing Search?
 
-From the **Copilot and agent capabilities** page, activate the switch **Enable Bing Search**. This setting affects the experience for all users of that environment, and takes effect when you or other users next sign into [!INCLUDE [prod_short](includes/prod_short.md)]. This switch is off by default and administrators must opt in for Copilot to search the web. 
+From the **Copilot and agent capabilities** page, activate the switch **Enable Bing Search**. This setting affects the experience for all users of that environment and takes effect when you or other users next sign into [!INCLUDE [prod_short](includes/prod_short.md)]. This switch is off by default and administrators must opt in for Copilot to search the web. 
 
 > [!NOTE]
 > Enable Bing Search is enabled by default when you use an evaluation company with demonstration data to try out in Business Central.  
@@ -66,7 +66,7 @@ By enabling Bing Search in [!INCLUDE [prod_short](includes/prod_short.md)]:
 - Search results from Bing Search undergo various checks for safety, including malicious site detection and content filtering.
 - Web search queries aren't shared with advertisers and aren’t used to train our foundation Large Language Models (LLMs).
 - Copilot doesn’t search the web unconditionally. Searching the web is done selectively, whenever Copilot has no alternative to compute accurate results based on data within [!INCLUDE [prod_short](includes/prod_short.md)] or from the Azure OpenAI Service foundation models.
-- Copilot can make outgoing connects to search the web, but it doesn't open up Copilot up for access from any other website, app, or service on the internet. All calls are outgoing only. Copilot remains entirely operated by end-users in [!INCLUDE [prod_short](includes/prod_short.md)] with the security, privacy, and compliance controls for your organization.
+- Copilot can make outgoing connections to search the web, but it doesn't open up Copilot for access from any other website, app, or service on the internet. All calls are outgoing only. Copilot remains entirely operated by end-users in [!INCLUDE [prod_short](includes/prod_short.md)] with the security, privacy, and compliance controls for your organization.
 
 ## Related information
 

@@ -49,7 +49,6 @@ The autofill feature is available on card and document pages, like a **Customer 
 The autofill feature isn't available on these types of pages:
 
 - List pages like **Customers** and **Sales Orders**.
-- ListPlus pages like the **Contact** card.
 - Worksheet pages like the **Put-away Worksheet**.
 - Setup pages, like **Company information** and **General Ledger Setup**, and assisted setup pages, like **Set up sales tax** and **Set up outgoing email**.
 - Task dialogs.

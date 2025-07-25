@@ -54,7 +54,7 @@ At this time, Copilot features that search the web are included in your [!INCLUD
 From the **Copilot and agent capabilities** page, activate the switch **Enable Bing Search**. This setting affects the experience for all users of that environment and takes effect when you or other users next sign into [!INCLUDE [prod_short](includes/prod_short.md)]. This switch is off by default and administrators must opt in for Copilot to search the web. 
 
 > [!NOTE]
-> Enable Bing Search is enabled by default when you use an evaluation company with demonstration data to try out in Business Central.  
+> **Enable Bing Search** is enabled by default when you use an evaluation company with demonstration data to try out Business Central.  
 
 ## Is it safe to enable Bing Search?
 

@@ -19,7 +19,7 @@ This article answers common questions about Microsoft Copilot in Dynamics 365 Bu
 
 ## What is Copilot in Business Central?
 
-Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. Copilot in Business Central is the world's first AI-powered assistant across all lines of business. With Copilot in Business Central, small and medium-sized organizations empower their workers through intuitive AI tools that boost creativity and save time.
+Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. Copilot in Business Central is the world's first AI-powered assistant across all lines of business. With Copilot in Business Central, small and medium-sized organizations empower their workers through intuitive AI tools that boost creativity and save time.
 
 ## Where can I find the list of Copilot features in Business Central?
 
@@ -63,7 +63,7 @@ Copilot in Business Central relies on powerful AI foundation models that are cou
 
 ## Is Copilot connected to the web?
 
-As of update 26.3, some Copilot features in Business Central can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content, and saves our customers time from having to switch apps to manually find things themselves.  
+As of update 26.3, some Copilot features in Business Central can search the web for additional information. Allowing Copilot to search the web improves the quality of Copilot responses by grounding them in the latest information from public website content and saves our customers time from having to switch apps to manually find things themselves.  
 
 At Microsoft, we're committed to ensuring that Copilot is built for enterprise use with the security, privacy, compliance, and responsible AI controls that our customers expect. Learn more about how Copilot searches the web, how it's designed for safety, and how administrators can configure it in [Searching the web with Copilot](ai-search-web-copilot.md).
 

@@ -32,17 +32,7 @@ Microsoft Copilot is an AI-powered assistant that sparks creativity, boosts prod
 
 ## What are the capabilities of Autofill?
 
-When you ask Copilot to autofill fields on a page in Business Central, it suggests values for all fields within a field group (FastTab). These suggestions aren't always AI-generated. Copilot uses various mechanisms described in the following table to provide suggestions for each field, indicating the most appropriate mechanism.
-
-Regardless of whether the suggested value is AI-generated, Copilot always uses AI to determine the appropriate mechanism for a field.
-
-|Mechanism|Description|
-|-|-|
-|Most Frequently Used |The value most frequently assigned to records in your company. The suggested value isn't computed using AI and comes directly from your Business Central data. |
-|Most Recently Used |For fields that reference another table, the most recently used reference, or most recently viewed record for that table. The suggested value isn't computed using AI and comes directly from your Business Central data. |
-|Lookup selection |For fields that reference another table and have a short list of possible choices, AI is used to intelligently select from the possible values.|
-|AI-generated |AI is used to intelligently generate the suggested value. |
-|Web Search |For fields that contain data of public domain. Bing is used to search the web for publicly available information that could be used to fill out certain fields. AI is used to extract and match the best suggested value. |
+[!INCLUDE[autofill-suggestions-source](includes/autofill-suggestions-source.md)]
 
 > [!IMPORTANT]
 > Copilot runs under your user context. It only has access to data that you already have access to. Your assigned permissions and all other security and compliance controls also apply when you use Copilot.

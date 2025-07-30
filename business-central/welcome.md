@@ -2,7 +2,7 @@
 title: Welcome to Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central that help companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: jswymer
-ms.topic: landing-page
+ms.topic: concept-article
 ms.devlang: al
 ms.date: 06/20/2025
 ms.author: jswymer

@@ -4,7 +4,7 @@ description: You can use service commitments for items in subscription billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -32,5 +32,5 @@ Clicking on the header of the FactBox opens the **Service Commitment Packages pe
 
 Similar to the FactBox, you can also use the **Service Commitments** action to access the service commitments for items.
 
-## See also
+## Related information
 

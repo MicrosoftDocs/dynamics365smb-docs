@@ -2,7 +2,7 @@
 title: Manage FA Budgets
 description: You set up information about future investments, disposals, and depreciation of fixed assets to help prepare budgets and forecasts.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: forecast
 ms.search.form: 5610, 5611
@@ -55,7 +55,7 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 4. Leave the **Fixed Asset** FastTab blank to have all assets included. In the **Budgeted Asset** field, enter **No** to exclude budgeted assets or **Yes** to see budgeted assets only.
 5. Choose the **Print** or **Preview** button.
 
-## See also
+## Related information
 
 [Fixed Assets](fa-manage.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)   

@@ -4,7 +4,7 @@ description: Learn how to use the data analysis mode to analyze fixed assets dat
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5604, 20, Query_123_Primary
 ms.date: 03/10/2025

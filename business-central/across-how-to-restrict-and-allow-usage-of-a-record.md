@@ -4,7 +4,7 @@ description: To restrict a record from being used, you can incorporate two workf
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/26/2024
@@ -33,7 +33,7 @@ The following procedure describes how to restrict purchase orders from being pos
 4. On the **Workflow Steps** FastTab, choose the **On Condition** field for the first step, then, for the **Document Type** filter, select **Order**.  
 5. Proceed to edit, delete, or add other workflow steps to reflect a business process that begins by restricting unapproved purchase orders from being posted.  
 
-## See also
+## Related information
 
 [Use Approval Workflows](across-use-workflows.md)  
 [Create Approval Workflows](across-how-to-create-workflows.md)  

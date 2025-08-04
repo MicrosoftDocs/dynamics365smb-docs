@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Tax depreciation for fixed assets | Microsoft Docs
-description: The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation in compliance with the Income Tax Act.
+description: Use the Fixed Assets Tax Depreciation feature to calculate and posts tax depreciation for fixed assets in accordance with the Czech Income Tax Act.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 11/07/2023
-ms.reviewer: bholtorf
+ms.date: 06/05/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -22,7 +22,7 @@ Each long-term tangible fixed asset belongs to a depreciation group. These group
 
 Each long-term fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that are used for calculating depreciation.
 
-## See also
+## Related information
 
-[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+- [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  

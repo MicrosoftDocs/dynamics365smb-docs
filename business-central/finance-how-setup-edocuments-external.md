@@ -4,7 +4,7 @@ description: This article explains how to set up E-Documents functionality when 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 04/07/2025
@@ -43,11 +43,13 @@ Before you start using e-documents, update your **Company Information** page by 
 
     | Field name | Description |
     |---|---|
-    | SWIFT Code | Specify the SWIFT code (international bank identifier code) of your primary bank. |
-    | Bank Branch No. | Specify the bank's four-digit branch number. |
-    | VAT Registration No. | Specify the company's value-added tax (VAT) registration number. |
+    | SWIFT Code | Specifies the SWIFT code (international bank identifier code) of your primary bank. |
+    | Bank Branch No. | Specifies the bank's four-digit branch number. |
+    | VAT Registration No. | Specifies the company's value-added tax (VAT) registration number. |
+    | GLN | Specifies your company in connection with electronic document exchange. |
+    | Use GLN in Electronic Document | Specifies whether the GLN is used in electronic documents as a party identification number. |
 
-3. Close the page.
+4. Close the page.
 
 ## Set up customers to receive e-documents
 
@@ -71,6 +73,7 @@ The following list of access point providers are covered by default:
 
 - Avalara
 - B2BRouter
+- Continia
 - Logiq
 - Pagero
 - SignUp

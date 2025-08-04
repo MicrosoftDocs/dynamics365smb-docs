@@ -2,7 +2,7 @@
 title: How to set up Non-Deductible VAT [BE]
 description: Learn how to calculate VAT amounts for specific expense types that can be partially declared as VAT.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT amount calculation, Belgian version, expense types, partial declaration
 ms.date: 04/04/2025

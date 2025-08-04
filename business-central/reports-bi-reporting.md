@@ -132,7 +132,7 @@ The content in this general article is also available in special versions for ma
 
 [!INCLUDE [analytics-by-functional-areas-overview-table](includes/analytics-by-functional-areas-overview-table.md)]
 
-## See also
+## Related information
 
 [Using Financial reporting to produce financial statements and KPIs](bi.md)  
 [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)  

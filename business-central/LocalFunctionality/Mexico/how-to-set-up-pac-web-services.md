@@ -2,7 +2,7 @@
 title: Set Up PAC Web Services
 description: To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: PAC, Web services, PAC web services, electronic invoicing, electronic stamp
 ms.search.form: 10455, 10456

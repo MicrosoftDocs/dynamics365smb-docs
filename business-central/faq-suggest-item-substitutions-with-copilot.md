@@ -4,9 +4,10 @@ description: This FAQ provides information about an AI feature in Business Centr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
-ms.topic: article
+ms.topic: faq
 ms.search.form:
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
@@ -107,7 +108,7 @@ No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.
 
-## See also
+## Related information
 
 [Configure Copilot and agent capabilities](enable-ai.md)  
 [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)

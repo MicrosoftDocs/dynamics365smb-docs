@@ -2,7 +2,7 @@
 title: Register Employees and Modify Information
 description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
@@ -59,7 +59,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 4. **In the Alternate Address List** page, fill in the fields as necessary.
 5. Repeat step 4 for each alternate address.
 
-## See Also
+## Related information
 
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  

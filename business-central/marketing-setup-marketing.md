@@ -2,7 +2,7 @@
 title: Set Up Marketing and Contact Management Information
 description: You can set up marketing and contact management in Business Central to optimize relationships with prospects or customers, and improve campaigns and promotions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
@@ -52,7 +52,7 @@ For more information about number series, see [Create Number Series](ui-create-n
 ## Searching for Duplicate Contacts when Contacts are Created
 You can choose to have application automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have application update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for application to consider them as duplicates.
 
-## See Also
+## Related information
 [Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

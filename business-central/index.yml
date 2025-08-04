@@ -223,6 +223,8 @@ additionalContent:
       #     url: /dynamics365/business-central/sales-how-make-offers
           - text: Invoice sales
             url: /dynamics365/business-central/sales-how-invoice-sales
+          - text: Subscription and recurring billing
+            url: /dynamics365/business-central/srb/welcome
       - title: Purchasing
         links:
           - text: Overview

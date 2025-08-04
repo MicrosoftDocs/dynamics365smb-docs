@@ -2,7 +2,7 @@
 title: How to Copy Existing Items to New Items
 description: When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 729
@@ -30,7 +30,7 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 
 4. To copy your selections to the new item, choose the **OK** button.  
 
-## See Also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Inventory](inventory-setup-inventory.md)  

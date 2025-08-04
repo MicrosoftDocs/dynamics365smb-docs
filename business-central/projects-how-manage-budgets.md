@@ -4,7 +4,7 @@ description: Describes how to plan resources and forecast and control the costs 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 02/22/2024
@@ -44,7 +44,7 @@ On the **Project Card** page, you can now see a summary of the total budgeted co
 
 For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
-## See also
+## Related information
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

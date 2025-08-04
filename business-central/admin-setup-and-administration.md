@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
@@ -54,7 +54,7 @@ Internal and delegated admins have access to the [!INCLUDE [prod_short](includes
 |Manage user sessions, including canceling a session if the user is blocked.|[Manage Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configure the tenant to send telemetry data to Azure Application Insights for better analysis and troubleshooting.|[Enable Sending Telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## See Also
+## Related information
 
 [Business Functionality](across-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  

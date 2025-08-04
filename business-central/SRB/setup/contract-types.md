@@ -4,7 +4,7 @@ description: You can use different types of contracts in subscription and recurr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -28,6 +28,6 @@ The **Harmonized Billing Customer Contracts** field controls whether you bill th
 
 Use the **Default Without Contract Deferrals** field to define the default value for the corresponding field in the contract. This makes it easier to create contracts and reduces handling errors. When you select the contract type, the value is copied to the field in the contract. You can change the value manually, if needed.
 
-## See also
+## Related information
 
 [General setup](general.md)  

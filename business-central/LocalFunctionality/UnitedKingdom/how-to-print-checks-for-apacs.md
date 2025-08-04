@@ -2,7 +2,7 @@
 title: Print Checks for APACS
 description: The APACS specification sets the standard layout for fields on checks in the UK. The Check report uses the APACS specification.
 author: brentholtorf 
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: APACS, checks, Check report
 ms.search.form: 256
@@ -33,7 +33,7 @@ The Association for Payment Clearing Services (APACS) specification defines a st
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

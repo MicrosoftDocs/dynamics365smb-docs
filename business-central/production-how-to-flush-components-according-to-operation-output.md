@@ -2,7 +2,7 @@
 title: Flush components according to operation output
 description: This article describes how to flush components according to operation output and other flushing methods involved.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 03/04/2025

@@ -3,9 +3,9 @@ title: Analyze list page and query data using data analysis
 description: Learn how to use the analysis mode in Business Central to analyze data.
 author: jswymer 
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 06/13/2024
+ms.date: 05/09/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -31,7 +31,7 @@ This article explains how to use the data analysis feature from list pages and q
 
 Follow these steps to start using the analysis mode.
 
->[!TIP]
+> [!TIP]
 > Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot.](analysis-assist.md)
 
 1. Open the list page or query.
@@ -116,6 +116,35 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 
 > [!NOTE]
 > If you use personalization to add or remove fields from a list page, your choice of visibility is reflected in the **Columns** pane. An added field has the **Show** checkbox cleared. To include the added field in an analysis definition, select the checkbox in the **Columns** pane. To learn more about personalization, go to [Add/remove fields and columns on a page](ui-personalization-user.md#fields).
+
+#### Add fields from related tables
+
+> [!NOTE]
+> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Add Related Fields** permission set. 
+>
+> The feature is enabled with the feature key `Add fields from related tables in analysis mode`. Learn more in [Add fields from related tables in analysis mode feature key](analysis-mode-feature-key.md).
+
+Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
+
+To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. When you have chosen the field or fields to add, these are added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
+
+:::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
+
+If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page they are available on, and then the field or fields to show on your analysis view.
+
+:::image type="content" source="media/analysis-view-other-source.png" alt-text="Add columns from another source":::
+
+##### Things to check
+
+If you don't find the table or field that you're looking for, there are a few things to check:
+
+- The table must be related to the source table of the page you're analyzing. 
+- You must have permission to access the table or field. If you don't have permission, the field won't be available in the list of fields to add.
+- The field must be a field that can be added to the analysis. For example, you can't add fields that are internal or not allowed in customizations.
+- The table or field must have a page associated with it. If the table or field doesn't have a page, you won't be able to add it to the analysis.
+- Certain types of fields, such as Media fields, aren't supported in analysis mode.
+- When you add related fields, all calculated fields are lost. 
+
 
 ### Analysis filters (4)
 
@@ -248,7 +277,7 @@ The public preview of this feature has the following limitations:
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
-## See also
+## Related information
 
 [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad hoc data analysis](reports-adhoc-analysis.md)  

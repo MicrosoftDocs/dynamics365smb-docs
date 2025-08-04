@@ -4,7 +4,7 @@ description: Russian enhancements include accounting for personal income tax pay
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -28,7 +28,7 @@ At the time of accounting of the salary document, the formation of operations of
 
 Personal income tax is paid by forming a payment order to the tax authority.
 
-## See Also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)
 

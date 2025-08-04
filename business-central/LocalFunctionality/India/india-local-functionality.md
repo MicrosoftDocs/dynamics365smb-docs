@@ -2,7 +2,7 @@
 title: India Local Functionality | Microsoft Docs
 description: This section describes local functionality in India.
 author: v-debapd
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -130,7 +130,7 @@ The following topics describe the local functionality in the Indian version of [
 
 Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 

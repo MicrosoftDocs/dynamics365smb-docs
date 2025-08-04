@@ -2,7 +2,7 @@
 title: Track data and use the IRS 1099 form [US]
 description: Learn how to post documents to calculate and report the 1099 tax forms so that you can submit the required reports.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: local, 1099, tax, taxes, IRS
 ms.search.form: 50, 51, 132, 10036, 10037, 10049
 ms.date: 02/04/2025
@@ -99,7 +99,7 @@ To create new 1099 form documents for the reporting years, follow these steps:
 
 1. Close the page.  
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)
 - [How to set up the IRS 1099 forms](set-up-use-irs1099-form-v24.md)

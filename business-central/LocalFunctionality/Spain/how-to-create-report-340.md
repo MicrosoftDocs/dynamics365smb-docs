@@ -1,25 +1,27 @@
 ---
 title: Create Report 340 [ES]
-description: Read about how to create report 340 for the tax authorities in the Spanish version of Business Central. 
+description: Learn how to create report 340 for the tax authorities in the Spanish version of Business Central. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
-ms.search.keywords:
+ms.search.keywords: report 340, create report 340, report 340 creation, Modelo 340 report, Modelo 340, CAC regimen, Spanish version
 ms.search.form: 10737, 10738, 10744
-ms.date: 11/23/2023
+ms.date: 05/26/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# Create Report 340 in the Spanish version
+
+# Create report 340 in the Spanish version
+
 Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.  
 
 This report is generated in a format approved by the tax authorities. You should submit this report on a monthly or quarterly basis, depending on the size of your company.  
 
-## To create Report 340  
+## Create report 340  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 340 Declaration**, and then choose the related link.  
-2.  On the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 340 Declaration**, and then choose the related link.  
+1. On the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -36,24 +38,23 @@ This report is generated in a format approved by the tax authorities. You should
     |**Replacement Declaration**|Select if this is a replacement of a previously sent declaration.|  
     |**Previous Declaration Number**|If the **Replacement Declaration** option is selected, enter the previous declaration number.|  
 
-3.  Select the appropriate filters, and then choose the **OK** button. The text file for report 340 is created in the specified path.  
+1. Select the appropriate filters, and then choose the **OK** button. The text file for report 340 is created in the specified path.  
 
-## To create a Modelo 340 report under the CAC regimen  
+## Create a Modelo 340 report under the CAC regimen  
 
-1.  Perform the steps in the previous procedure.  
-2.  As needed, adjust and modify the operation code information. In order for the report to pass validation when you submit it to the tax authority, any line that has an unrealized payment must be updated to include an operation code. You can change an operation code of Z or 3 to Z or 1 – 8 only for cash based payments.  
-3.  Choose the **OK** button. The report is exported to the file location that you specified. The report contains lines for invoices, credit memos, whether applied or not, and payments that have unrealized VAT.  
+1. Perform the steps in the previous procedure.  
+1. As needed, adjust, and modify the operation code information. In order for the report to pass validation when you submit it to the tax authority, any line that has an unrealized payment must be updated to include an operation code. You can change an operation code of Z or 3 to Z or 1 – 8 only for cash based payments.  
+1. Choose the **OK** button. The report is exported to the file location that you specified. The report contains lines for invoices, credit memos, whether applied or not, and payments that have unrealized VAT.  
 
-    Invoices are exported and contain the Z operation code. Collection data is blank.  
-
-    Payments against an invoice are exported and contain the collection data.  
+   Invoices are exported and contain the Z operation code. Collection data is blank. 
+   Payments against an invoice are exported and contain the collection data.  
 
 If you print the posted document, for example, a posted sales invoice, it includes the following label: **Régimen especial del criterio de caja**.  
 
-## See also  
- [Report 340](report-340.md)   
- [Payments in Cash](payments-in-cash.md)   
- [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)
+## Related information
 
+- [Report 340](report-340.md)
+- [Payments in Cash](payments-in-cash.md)
+- [Spanish Tax Agency](https://sede.agenciatributaria.gob.es/)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

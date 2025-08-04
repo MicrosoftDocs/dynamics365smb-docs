@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - Fixed asset posting of disposal | Microsoft Docs
-description: Czech accounting standards require specific posting when a fixed asset is being disposed of or being sold.
+description: Outlines the required posting procedures for disposing of or selling fixed assets according to Czech accounting standards.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 11/15/2023
-ms.reviewer: bholtorf
+ms.date: 06/03/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -18,7 +18,7 @@ The fixed asset remains unchanged even after it's put to use. When the fixed ass
 
 On the **Depreciation Book** page, select the **Corresponding G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresponding FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries. 
 
-## See also
+## Related information
 
-[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+- [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  

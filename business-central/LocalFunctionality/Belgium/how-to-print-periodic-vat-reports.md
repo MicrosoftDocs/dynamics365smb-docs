@@ -2,11 +2,11 @@
 title: How to print periodic VAT reports [BE]
 description: The VAT reporting feature lets you print VAT transaction details. You must send three VAT reports to the Belgian tax authorities.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT reporting feature, VAT transaction details, Belgian tax authorities, VAT VIES, VAT annual listing, Belgian version
 ms.search.form: 11306, 11307, 11308
-ms.date: 04/03/2025
+ms.date: 04/24/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -44,7 +44,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Year**|Enter the year of the VAT declaration. You should enter the year as a four-digit code. For example, to print a declaration for 2013, you should enter "2013" (instead of "13").|  
-    |**Minimum**|Enter the customer's minimum year balance to be included in the report.<br><br/> If the yearly balance of the customer is less than the minimum amount, the customer isn't included in the declaration.|  
+    |**Minimum**|Enter the customer's minimum year balance to be included in the report.<br><br> If the yearly balance of the customer is less than the minimum amount, the customer isn't included in the declaration.|  
     |**Test Declaration**|Specifies if you want to create a test declaration.<br><br/> If selected, an attribute test is written to the file that uses value 1, which indicates that this is a test file. If you want to test the XML file before sending it, you can upload this file to the Intervat site. The file is then validated without being stored on the server, and you receive a notification if the file is valid. Also, the unique sequence number in the XML file isn't increased when a test declaration is created, which means that you can create as many internal test declarations as you want.|  
     |**Add Representative**|Specifies if you want to include the VAT declaration representative.<br><br/> A representative is a person or an agency that has license to make a VAT declaration for your company.|  
     |**ID**|Enter the ID of the representative who is responsible for making the VAT declaration.|  
@@ -55,7 +55,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 ## Print the VAT-VIES declaration report to disk  
 
 1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
-1. Enter the required information, and choose the **OK** button to start the batch job, which creates an .xml file. Learn more in **VAT- VIES Declaration Disk**.  
+1. Enter the required information, and choose the **OK** button to start the batch job, which creates an .xml file.
 1. If you have to make a correction, Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT – VIES Correction**, and then choose the related link.  
 1. Choose the **Edit List** action, and then enter the information that has to be adjusted. Choose the **OK** button.  
 

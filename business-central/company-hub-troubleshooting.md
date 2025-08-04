@@ -2,7 +2,7 @@
 title: Troubleshooting your company hub
 description: Learn how to work around any issues when you the company hub in Dynamics 365 Business Central to manage work across multiple companies.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.search.form: 1151
@@ -39,7 +39,7 @@ When you add a company or request a refresh of the data, [!INCLUDE [prod_short](
 
 If you've added a company but it is not displaying in the list, you can also use the **Reload all companies** action to update the list.
 
-## See also
+## Related information
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Add companies to your company hub](company-hub-add-company.md)  

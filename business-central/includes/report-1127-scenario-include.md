@@ -1,0 +1,1 @@
+Compare actual costs to budgeted values to identify variances and improve forecasting. Select the relevant period and budget version to analyze where costs exceeded or fell below expectations.

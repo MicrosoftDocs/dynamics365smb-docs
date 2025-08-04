@@ -4,7 +4,7 @@ description: You can use currencies in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -56,7 +56,7 @@ The method described in this section ensures that prices for service commitments
 
 You can automatically update exchange rates using the job queue. To learn more, go to [Update currency exchange rates](../../finance-how-update-currencies.md) and [Use job queues to schedule tasks](../../admin-job-queues-schedule-tasks.md).
 
-## See also
+## Related information
 
 [Price determination of service commitments](price-calculation.md)  
 [Customer contracts](../working-with-contracts/customer-contracts.md)  

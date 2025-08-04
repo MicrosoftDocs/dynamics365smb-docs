@@ -5,7 +5,7 @@ description: Stock Transfer
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -96,7 +96,7 @@ Bonded warehouse transfer means transfer of stock from customs warehouse to comp
 
 
 
-## See Also 
+## Related information 
 [GST Service Transfer](GST-Service-Transfer.md)
 
 

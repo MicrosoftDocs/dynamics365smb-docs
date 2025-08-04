@@ -3,7 +3,7 @@ title: Addresses in Australia
 description: Use the Post Code feature to improve accuracy for cases in which a single postal code can include multiple cities in the same region.
 ms.custom: en-AU
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: post code feature, address accuracy, delivery point identifier, DPID, address matching approval system, AMAS, Australian version
 ms.date: 03/25/2025

@@ -2,7 +2,7 @@
 title: Export the SAF-T audit file format in Denmark
 description: This article explains how to export all required data according to the SAF-T format in Denmark.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: SAF-T format, Denmark, audit file, Danish, export data
 ms.search.form: 5264, 5266, 5267, 5270, 

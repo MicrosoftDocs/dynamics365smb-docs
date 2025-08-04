@@ -2,7 +2,7 @@
 title: Defining and allocating costs
 description: Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 07/26/2024
@@ -138,7 +138,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
-## See also
+## Related information
 
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  

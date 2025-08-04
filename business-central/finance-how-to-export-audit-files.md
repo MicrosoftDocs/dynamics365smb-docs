@@ -95,7 +95,7 @@ Follow these steps to provide the G/L account mapping for audit file export.
 > [!IMPORTANT]
 > If you have multiple entries to export, we don't recommend that you export them in the current session, because of possible performance issues. Instead, we recommend that you use parallel processing during non-working days or hours.
 
-## See also
+## Related information
 [Financial Management](finance.md)    
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)    
 [Work with Dimensions](finance-dimensions.md)    

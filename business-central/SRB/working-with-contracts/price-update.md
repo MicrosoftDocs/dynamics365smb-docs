@@ -4,7 +4,7 @@ description: You can update prices in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -182,7 +182,7 @@ The price update can take effect immediately.
 |:--|:--|:--|:--|:--|:--|
 |Service commitment before price update|01.01.2024|31.12.2023|-|1Y|Old|
 |Proposal Price update|-|31.12.2024|31.12.2023|1Y|Neu|
-|`Immediate execution`|||31.12.2023 equal to or after 31.12.2023||
+|`Immediate execution`|||31.12.2023 equal to or after 31.12.2023|||
 |Service commitment after price update|01.01.2024|31.12.2024|-|1Y|New|
 |Archived service commitments|01.01.2024|31.12.2023|31.12.2023|1Y|Old|
 
@@ -197,9 +197,9 @@ The price update can't take effect immediately. A planned service commitment is 
 |:--|:--|:--|:--|:--|:--|
 |service commitment before price update|01.01.2024|31.12.2023|-|1Y|Old|
 |Proposal Price update|-|31.12.2024|15.01.2024|1Y|Neu|
-|`Planned service commitments necessary`|||01.01.2024 is before 15.01.2024||
+|`Planned service commitments necessary`|||01.01.2024 is before 15.01.2024|||
 |`Planned service commitment|01.01.2024|31.12.2024|15.01.2024|1Y|New|
-|`Invoice 01.01.2024 - 31.12.2024`||||Old|
+|`Invoice 01.01.2024 - 31.12.2024`||||Old||
 |Service commitment after price update|01.01.2025|31.12.2024|-|1Y|New|
 |Archived service commitments|01.01.2025|31.12.2024|31.12.2024|1Y|Old|
 
@@ -243,6 +243,6 @@ If the prices were changed after the credit memo, the price update overwrites th
 
 The price update can be canceled/deleted after the credit memo by deleting the planned service commitments.
 
-## See also
+## Related information
 
 [Currencies](../sales/dealing-with-currencies.md)

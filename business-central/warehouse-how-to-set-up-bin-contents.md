@@ -2,7 +2,7 @@
 title: Create Bin Contents
 description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7374
 ms.date: 04/01/2021
@@ -50,7 +50,7 @@ When you have created your bins, you can create the bin content that you want fo
 
 In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
 
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

@@ -1,15 +1,15 @@
 ---
 title: Fixed asset localization for Czech (Extension)
-description: Fixed Asset features for your Business Central in the Czech Republic. 
+description: Enhance Business Central in the Czech Republic with localized Fixed Asset features.
 author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 12/20/2023
-ms.reviewer: bholtorf
+ms.date: 06/09/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
-# Fixed Asset Localization for Czech (Extension)
+# Fixed asset localization for Czech (extension)
 
 This extension adds Fixed Asset features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] that help companies meet the requirements of Czech accounting and tax legislation and best practices.
 
@@ -24,6 +24,6 @@ This extension adds Fixed Asset features to [!INCLUDE[d365fin](../../includes/d3
 - [Fixed Asset location/responsible history report](how-to-use-fixed-asset-location-history-report.md) **Available Now**
 - [Fixed Assets Reporting](how-to-use-fixed-assets-reporting.md) **Available Now**
 
-## See also
+## Related information
 
 [Czech Local Functionality](czech-local-functionality.md)  

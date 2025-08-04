@@ -4,7 +4,7 @@ description: Learn how to create a production bill of material (BOM), new versio
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: production bom, bills of material, 
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 03/21/2025
@@ -50,7 +50,7 @@ Before you can set up a routing, the following setups must be in place:
 12. You can now attach the new production BOM to the card of the parent item in question. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Production** action, then choose the **Calc. Production Std. Cost** action. You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. To learn more, go to [Update Standard Costs](finance-about-calculating-standard-cost.md#updating-standard-costs-with-standard-cost-worksheet).  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Production** action, then choose the **Calc. Production Std. Cost** action. You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. To learn more, go to [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).  
 
 ## To create a new version of a production BOM
 

@@ -6,7 +6,7 @@ description: Purchase from Registered Vendors
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -192,7 +192,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
-## See Also 
+## Related information 
 [Purchase from Unregistered Vendor (Reverse Charge)](GST-Purchase-from-Unregistered-Vendor-RCM.md)
 
 

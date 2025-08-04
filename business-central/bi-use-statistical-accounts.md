@@ -62,7 +62,7 @@ On the **Statistical Accounts** page, use the **Statistical Accounts Balance** a
 1. In the **Row Type** field, choose whether to view the balance on the posting date or the beginning of the posting period, or to show the change to the amount during the period.
 1. Fill in the remaining fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## See Also
+## Related information
 
 [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Financial analytics overview](bi.md)  

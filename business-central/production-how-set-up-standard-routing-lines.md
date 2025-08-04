@@ -2,7 +2,7 @@
 title: Set Up Standard Tasks for Operations
 description: Learn about how to set up standard tasks and add standard tasks to operations to simplify the maintenance of routings.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
@@ -30,7 +30,7 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 
 When you print the routing sheeting, you can choose to include the elements from the standard task that you added to the routing lines.
 
-## See Also
+## Related information
 
 [Create Routings](production-how-to-create-routings.md)  
 [Create Production BOMs](production-how-to-create-production-boms.md)  

@@ -4,7 +4,7 @@ description: You create an assembly BOM to specify the components required to pu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: assembly bom, bills of material, 
 ms.search.form: 36, 5870, 5872, 5874
@@ -103,9 +103,9 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 
-You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Update Standard Costs](finance-about-calculating-standard-cost.md#updating-standard-costs-with-standard-cost-worksheet).  
+You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Manage Product Variants](inventory-item-variants.md)  

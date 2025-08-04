@@ -4,7 +4,7 @@ description: Russian enhancements include managing sales or transfers of fixed a
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -48,7 +48,7 @@ A sale or transfer of a fixed asset consists of two stages.
 
 4. Post the invoice.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)  
 

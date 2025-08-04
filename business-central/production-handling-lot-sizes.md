@@ -2,7 +2,7 @@
 title: Handling Lot Sizes
 description: This topic describes different ways to handle lot sizes. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.form:
 ms.date: 04/01/2021
@@ -41,7 +41,7 @@ For items and stockkeeping units, lot sizes have the following effects on cost c
 
 For supply planning, the lot size setting on items works with the **Default Dampener %** on the **Manufacturing Setup** page. [!INCLUDE[prod_short](includes/prod_short.md)] will ignore changes in demand that are below the dampener percentage and will not create planning suggestions. For example, 15 is specified in the Default Dampener % field, and we have a production order for 20 muffins to feed 20 guests, but one guest cannot attend. [!INCLUDE[prod_short](includes/prod_short.md)] will ignore the single missing guest because it's only 10% of the lot size 10 defined on the item. However, if two guests cannot make it, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest that we reduce the order quantity because two is 20% of the lot size. For more information about planning, see [Planning](production-planning.md).
 
-## See Also
+## Related information
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Create Routings](production-how-to-create-routings.md)  

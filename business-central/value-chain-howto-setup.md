@@ -2,7 +2,7 @@
 title: Sustainability value chain setup
 description: Learn how to enable the sustainability value chain.
 author: altotovi
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.devlang: al
 ms.search.keywords: Sustainability, scope 3, emission, GHG, CSRD, carbon, CO2, CO2e, value chain, setup
 ms.search.form: 6221, 6245

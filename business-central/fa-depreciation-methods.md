@@ -1,13 +1,13 @@
 ---
-title: Depreciation Methods for Fixed Assets
+title: Depreciation methods for fixed assets
 description: Learn about the different built-in methods to depreciate or write-down fixed assets.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: write down, depreciate, depreciation
 ms.search.form: 5611, 5629, 5633
-ms.date: 03/25/2024
+ms.date: 05/19/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -40,7 +40,7 @@ If you enter the depreciation period (the number of depreciation years, the numb
 
 * Depreciation Amount = ((Book value - Salvage Value) x Number of Depreciation Days) / Remaining Depreciation Days*  
 
-The remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.  
+The remaining depreciation days are calculated as the number of depreciation days minus the number of days between the starting date and the last fixed asset entry date.  
 
 Book value can be reduced by posted appreciation, write-down, custom 1, or custom 2 amounts depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated on the **FA Posting Type Setup** page. This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.  
 
@@ -135,7 +135,7 @@ An asset's book value is 100,000 on 12/31/2023. You post a depreciation of 95,00
 
 * *148/360 x 0.20 x 100,000 = 8,222*
 
-However, the remaining book value is only 5,000, so [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5,000 because a book value can't be negative.
+However, the remaining book value is only 5,000, so [!INCLUDE [prod_short](includes/prod_short.md)] suggests 5,000 because a book value can't be negative.
 
 ## Declining-Balance 2 depreciation
 
@@ -187,7 +187,7 @@ You can use various percentages to calculate declining-balance.
 If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the **FA Depreciation Books** page.  
 
 > [!NOTE]
-> If you use any of the declining balance depreciation methods, and you want to run depreciation for multiple years, you must run each year's depreciation separately. If you run depreciation for the whole period from acquisition date to the end of the last fiscal year or last accounting period, it's likely that the results will be incorrect. For example, you might want to run it for multiple years if you have imported legacy data and you use the actual acquisition dates for your assets and want to catch up on accumulated depreciation. For declining balance methods, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the allowed depreciation per year, starting with the registered book value for each year. It can't do a multi-year depreciation in one step.
+> If you use any of the declining balance depreciation methods, and you want to run depreciation for multiple years, you must run each year's depreciation separately. If you run depreciation for the whole period from acquisition date to the end of the last fiscal year or last accounting period, it's likely that the results are incorrect. For example, if you imported legacy data and you use the actual acquisition dates for your assets and want to catch up on accumulated depreciation. For declining balance methods, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the allowed depreciation per year, starting with the registered book value for each year. It can't do a multi-year depreciation in one step.
 >
 > The **Fixed asset - Projected Value** report can project depreciations for multi-year periods, which might be confusing compared to the results you get if you run depreciations for multiple years using one of the declining balance methods. 
 
@@ -250,7 +250,7 @@ You can use this depreciation method with the following depreciation methods:
 When you apply the Half-Year Convention method, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.  
 
 > [!NOTE]  
-> The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
+> The estimated life of the fixed asset that is remaining after the first fiscal year always contains a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset fully depreciates.  
 
 ### Example - Half-Year Convention depreciation
 
@@ -317,7 +317,7 @@ When you make an entry in B1 in the fixed asset G/L journal, and turn on the **P
 > You can't duplicate in the same journal and journal batch as you're duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
 
 > [!NOTE]  
-> You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
+> You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You must manually change the document number before you can post the journal.  
 
 ## Manual depreciation
 
@@ -327,7 +327,7 @@ Use the manual method for assets that aren't subject to depreciation, for exampl
 
 If the built-in depreciation methods don't meet your needs, you can define your own depreciation method by using depreciation tables. To learn more about applying a user-defined depreciation method, go to [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
 
-## See also
+## Related information
 
 [Fixed Assets overview](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

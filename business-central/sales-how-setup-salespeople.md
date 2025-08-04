@@ -2,7 +2,7 @@
 title: Set Up a Salesperson | Microsoft Docs'
 description: You can set up a identifier for each of your salespeople, so you can track an individual's performance or assign a salesperson to a contact.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
@@ -25,7 +25,7 @@ When you have set up a salesperson on the **Salespeople** page, you can select i
 
 You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## See also
+## Related information
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

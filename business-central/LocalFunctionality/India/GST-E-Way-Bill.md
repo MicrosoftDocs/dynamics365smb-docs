@@ -5,7 +5,7 @@ description: E-Way Bill
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -43,7 +43,7 @@ An electronic way bill or e-Way Bill is essential for the transport of goods tha
      |**Source No.**|Specify the relevant source number.|
 
 
-## See Also 
+## Related information 
 [GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md)
 
 

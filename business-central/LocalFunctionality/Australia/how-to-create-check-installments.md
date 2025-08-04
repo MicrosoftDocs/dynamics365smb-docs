@@ -2,7 +2,7 @@
 title: Create check installments [AU]
 description: Learn how to create check installments for postdated checks, define the number of installments, interest percent, and the period for the checks in the Australian version
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: create check installments, postdated checks, interest percent, Australian version
 ms.search.form: 28090,28091,28092,28093

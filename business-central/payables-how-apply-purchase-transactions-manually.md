@@ -2,7 +2,7 @@
 title: Reconcile vendor payment receipts or refunds in the payment journal
 description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
@@ -112,7 +112,7 @@ When you unapply an erroneous application, correcting entries that are identical
 > [!IMPORTANT]  
 >   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.
 
-## See Also
+## Related information
 [Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

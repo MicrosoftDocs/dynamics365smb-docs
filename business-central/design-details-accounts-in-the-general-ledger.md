@@ -1,12 +1,12 @@
 ---
-title: Design Details - Accounts in the General Ledger | Microsoft Docs
-description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
+title: Design details accounts in the general ledger
+description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries post to different accounts in the general ledger.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
-ms.date: 02/20/2024
+ms.date: 07/01/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,9 +30,9 @@ The following table shows the relationship between different types of inventory 
 |Sale|Direct Cost||No|Inventory|COGS|  
 |Sale|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Sale|Rounding||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
+|Positive Adjmt., Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
+|Positive Adjmt., Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
+|Positive Adjmt., Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
 |(Production) Consumption|Direct Cost||No|Inventory|WIP|  
 |(Production) Consumption|Revaluation||No|Inventory|Inventory Adjmt.|  
 |(Production) Consumption|Rounding||No|Inventory|Inventory Adjmt.|  
@@ -42,11 +42,13 @@ The following table shows the relationship between different types of inventory 
 |(Production) Output|Direct Cost||Yes|Inventory  (Interim)|WIP|  
 |(Production) Output|Direct Cost||No|Inventory|WIP|  
 |(Production) Output|Indirect Cost||No|Inventory|Overhead Applied|  
+|(Production) Output|Direct Cost - Non Inventory||No|Inventory|Direct Cost Non-Inventory Applied Account|
 |(Production) Output|Variance|Material|No|Inventory|Material Variance|  
 |(Production) Output|Variance|Capacity|No|Inventory|Capacity Variance|  
 |(Production) Output|Variance|Subcontracted|No|Inventory|Subcontracted Variance|  
 |(Production) Output|Variance|Capacity Overhead|No|Inventory|Cap. Overhead Variance|  
 |(Production) Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
+|(Production) Output|Variance|Material-Non Inventory|No|Inventory|Material Non-Inventory Variance Account|
 |(Production) Output|Revaluation||No|Inventory|Inventory Adjmt.|  
 |(Production) Output|Rounding||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Direct Cost||No|Inventory|Inventory Adjmt.|  
@@ -71,7 +73,7 @@ The following table shows the relationship between different types of inventory 
 
 ## Assembly costs are always actual  
 
- As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
+ As the table shows, assembly postings aren't represented in interim accounts. They're excluded because the concept of work in process (WIP) doesn't apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
@@ -91,7 +93,7 @@ The following table shows how the amounts to post to the general ledger are calc
 |Actual Cost|Cost Amount (Actual) – Cost Posted to G/L|  
 |Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
-## See also  
+## Related information  
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Inventory Posting](design-details-inventory-posting.md)  

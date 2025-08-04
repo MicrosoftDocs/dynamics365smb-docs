@@ -2,7 +2,7 @@
 title: Set up declaration types [BE]
 description: Learn how to set up simplified and extended declaration types in the Belgian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: declaration types, Belgian version, simplified declaration, extended declaration, Incoterm, Intrastat
 ms.date: 03/03/2025

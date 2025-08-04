@@ -27,7 +27,7 @@ ms.reviewer: jswymer
 
 To find a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
-## See also
+## Related information
 
 [Closing Years and Periods](year-close-years-periods.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

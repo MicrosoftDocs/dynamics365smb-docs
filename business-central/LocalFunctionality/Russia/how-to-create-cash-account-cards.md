@@ -4,7 +4,7 @@ description: Russian enhancements include cash accounts.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -33,7 +33,7 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 3. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Petty Cash Management](Petty-Cash-Management.md)  
 [Bank and Cash Management](bank-and-cash-management.md)  

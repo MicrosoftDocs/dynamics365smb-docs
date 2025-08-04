@@ -2,7 +2,7 @@
 title: Standard recurring sales lines
 description: Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
@@ -72,7 +72,7 @@ You can use the **Create Recurring Sales Invoices** batch job to create sales in
 
 Sales invoices are created for the customers with the specified standard customer sales code, and any specified direct-debit information, for posting on the specified date.
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Set Up Sales](sales-setup-sales.md)  

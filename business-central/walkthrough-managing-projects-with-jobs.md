@@ -2,7 +2,7 @@
 title: Walkthrough - Managing projects with projects
 description: This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 05/30/2024
@@ -463,7 +463,7 @@ The following procedures show how to create a new project, set pricing, and then
 
 This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See also
+## Related information
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Setting Up Project Management](projects-setup-projects.md)  

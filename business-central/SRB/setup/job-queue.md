@@ -4,7 +4,7 @@ description: You can use job queue entries in subscription and recurring billing
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -19,6 +19,6 @@ For subscription billing, the following entry is created in the job queue:
 
 * **Update Service Dates** (codeunit 70920758): Automatically updates date fields in service commitments daily at 1:00 AM. To learn more, go to [Termination of contract components](../working-with-contracts/service-commitment-cancellation.md).
 
-## See also
+## Related information
 
 [General setup](general.md)

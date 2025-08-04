@@ -2,9 +2,9 @@
 title: Mexico local functionality
 description: The following articles provide descriptions of the local functionality in the Mexican version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Mexico, local functionality, Mexican version
-ms.date: 02/26/2025
+ms.date: 06/30/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -17,7 +17,7 @@ The following articles describe local functionality that is unique to the Mexica
 ## Feature availability  
 
 - Tax
-  - [Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
+  - [Set Up and Generate DIOT Reports (2025 version)](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
   - [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**
   - [VAT Recalculation](vat-recalculation.md) **Available Now**
 
@@ -35,8 +35,6 @@ The following articles describe local functionality that is unique to the Mexica
   - [Create Deposits](how-to-create-deposits.md) **Available Now**
 
 ## Future legislation requirements being investigated
-
-Rounding in electronic invoice documents **Planned for 25.2**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

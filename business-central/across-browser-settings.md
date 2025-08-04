@@ -77,7 +77,7 @@ Try again
 2. Move the **Blocked** toggle to the right (On).
 3. Select **Add**. In the **Site** box, type `https://businesscentral.dynamics.com`, then select **Add**.
 
-## See also
+## Related information
 
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 

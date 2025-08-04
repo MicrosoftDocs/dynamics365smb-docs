@@ -248,7 +248,7 @@ You can specify the reports that must be printed at different stages by choosing
 > [!NOTE]
 > The available reports might vary based on the localization for your country/region. The base application doesn't include any layouts.
 
-## See also
+## Related information
 
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)    
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)    

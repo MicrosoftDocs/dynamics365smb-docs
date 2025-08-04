@@ -1,0 +1,1 @@
+Users who access [!INCLUDE [powerbi-name](powerbi-name.md)] reports with [!INCLUDE[prod_short](prod_short.md)] data must also have a paid license for [!INCLUDE[prod_short](prod_short.md)], such as Essentials, Premium, or Team Member.

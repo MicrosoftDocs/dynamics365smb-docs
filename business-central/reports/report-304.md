@@ -4,7 +4,7 @@ description: Analyze and reconcile vendor balances at the end of a period.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_304_Primary
 ms.date: 10/14/2024

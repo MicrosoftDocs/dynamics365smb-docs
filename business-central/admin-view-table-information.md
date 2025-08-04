@@ -2,7 +2,7 @@
 title: View table information
 description: Learn how you can view information about the database tables in Business Central.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.form: 8700_Primary
 ms.date: 02/21/2025
@@ -39,9 +39,9 @@ The following table describes the information provided for each table:
 > If you delete data in a table, [!INCLUDE[prod_short](includes/prod_short.md)] starts several processes behind the scenes to make sure that everything is cleaned up in your database. The values on the Table Information page don't update until those processes are complete, which can take a while. The amount of time it takes can vary, depending on the size of your database.
 
 > [!IMPORTANT]  
-> The **Table Information** page shows data and index (key) sizes for the base table. It doesn't include the sizes for *indexed views* used to maintain SIFT totals and it doesn't include the data and index sizes used by table extensions. Furthermore, the sum of table sizes doesn't match the total capacity used because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly. 
+> The **Table Information** page shows data and index (key) sizes for the base table and extension table. It doesn't include the sizes for *indexed views* used to maintain SIFT totals. Furthermore, the sum of table sizes doesn't match the total capacity used because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly. 
 
-## See also
+## Related information
 
 [Inspecting Pages](across-inspect-page.md)  
 [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

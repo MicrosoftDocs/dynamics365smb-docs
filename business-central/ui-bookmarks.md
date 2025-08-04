@@ -2,7 +2,7 @@
 title: Bookmark link to page or report on role center
 description: Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
@@ -89,7 +89,7 @@ When you add a new action, any translated text that was available at the time is
 
 When a page is bookmarked, the page will always open in the view mode from the bookmark&mdash;even if it was in the edit mode when it was bookmarked. Selecting the **Make changes on the page** icon ![Shows the pencil icon for editing the page.](media/edit-pencil.png) will let you add text in the fields that are editable.
 
-## See also
+## Related information
 
 [Personalize your workspace](ui-personalization-user.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

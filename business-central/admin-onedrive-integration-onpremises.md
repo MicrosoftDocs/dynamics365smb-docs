@@ -2,7 +2,7 @@
 title: Configuring OneDrive integration with Business Central on-premises
 description: Learn about how to set up Business Central on-premises to integrate with OneDrive for work or school (formerly known as OneDrive for Business).
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: OneDrive, share, browser
 ms.date: 09/01/2024
 ms.author: jswymer

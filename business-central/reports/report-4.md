@@ -23,6 +23,8 @@ You can exclude accounts that don't have transactions in the period, and you can
 
 ## Use cases
 
+[!INCLUDE [report-4-scenario](../includes/report-4-scenario-include.md)]
+
 <!-- 
 Prompt
 
@@ -56,19 +58,19 @@ Please include your data sources and URLs
 
 -->
 
-Financial analysts use the report to:
+Financial analysts can use the report to:
 
 * Analyze the financial health of the business by reviewing the balances and transactions in each general ledger account.
 * Identify trends or patterns in financial data and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for stakeholders such as investors or executives.
 
-Controllers use the report to:
+Controllers can use the report to:
 
 * Monitor the financial performance of the business by reviewing the balances and transactions in each general ledger account.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to prepare financial reports for internal and external stakeholders such as board members or regulatory agencies.
 
-Auditors use the report to:
+Auditors can use the report to:
 
 * Verify the accuracy of financial data by reviewing the balances and transactions in each general ledger account.
 * Identify discrepancies or irregularities in financial data and investigate them.
@@ -80,7 +82,7 @@ Try the report here: [Detail Trial Balance](https://businesscentral.dynamics.com
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Built-in key finance reports](../finance-reports.md)  
 [Ad-hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

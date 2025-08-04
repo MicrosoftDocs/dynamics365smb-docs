@@ -2,7 +2,7 @@
 title: Iceland local functionality
 description: This article provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Iceland, Icelandic localization, Icelandic version
 ms.date: 02/06/2025
@@ -35,7 +35,7 @@ The following articles describe local functionality that is unique to the Icelan
 
 Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 - [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 - [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

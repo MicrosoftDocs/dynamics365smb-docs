@@ -2,7 +2,7 @@
 title: Set Up Customer Price Groups
 description: Learn how to set up customer price groups and create sales prices for those groups.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
@@ -57,7 +57,7 @@ After you have set up the customer price groups, you can enter the customer pric
 3. On the **Invoicing** FastTab, in the **Customer Price Group** field, select the **Customer Price Group** code.  
 
 
-## See Also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

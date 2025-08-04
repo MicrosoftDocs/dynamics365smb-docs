@@ -9,6 +9,7 @@ ms.collection:
   - get-started
   - bap-ai-copilot
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
@@ -154,7 +155,7 @@ This section explains how to use Copilot to post unreconciled bank account state
 
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## See also
+## Related information
 
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  

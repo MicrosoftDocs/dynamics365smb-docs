@@ -5,7 +5,7 @@ description: TDS calculation considering Threshold limits
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -70,7 +70,7 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
-## See Also 
+## Related information 
 [TDS Provisional Entry](TDS-Provisional-Entries.md)
 
 

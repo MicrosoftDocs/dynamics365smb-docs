@@ -1,15 +1,14 @@
 ---
 title: Czech local functionality - Sales correcting documents [CZ] 
-description: This section describes local functionality for Sales correcting documents in the Czech version.
+description: Learn about local functionality for handling sales correcting documents, including different types of sales credit memos, in the Czech version of Business Central.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
-ms.date: 11/09/2023
-ms.reviewer: bholtorf
+ms.date: 06/06/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
-
 
 # Sales correcting documents in the Czech version
 
@@ -19,11 +18,10 @@ According to the VAT law amendment, it's necessary to differentiate types of Sal
 - Internal Correction
 - Insolvency Tax Document
 
-## See also
+## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
-
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

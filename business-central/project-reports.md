@@ -2,7 +2,7 @@
 title: Project Reports
 description: See which project reports are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014, Report_1015, Report_1101, Report_1103, Report_1105, Report_1106, Report_1107
 ms.date: 06/01/2021
@@ -23,7 +23,7 @@ Project reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows proj
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## See also
+## Related information
 
 [Project management analytics overview](projects-analytics-overview.md)  
 [Project management overview](projects-manage-projects.md)  

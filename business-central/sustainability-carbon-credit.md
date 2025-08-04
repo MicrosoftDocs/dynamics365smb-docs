@@ -2,7 +2,7 @@
 title: Work with carbon credits
 description: Learn how to set up and purchase carbon credit.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, carbon, credit, CO2
 ms.search.form: 

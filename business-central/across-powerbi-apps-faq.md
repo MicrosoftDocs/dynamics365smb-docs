@@ -5,7 +5,7 @@ author: kennieNP
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: analysis, reporting, business intelligence, KPI, installation, administration
-ms.date: 01/17/2025
+ms.date: 06/11/2025
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -39,11 +39,17 @@ You must have [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licenses for t
 
 The use of free license alternative for [!INCLUDE [powerbi-name](includes/powerbi-name.md)] allows you to embed your own reports. Anything in the free [!INCLUDE [powerbi-name](includes/powerbi-name.md)] license must be present in your personal [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace. So, the free license alternative does not work with the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps.
 
+## What Business Central licenses do I need?
+
+[!INCLUDE[about_bc_licensing_for_powerbi](includes/about_bc_licensing_for_powerbi.md)]
+
+[!INCLUDE[about_licensing](includes/about_licensing.md)]
+
 ## Can I install the same app multiple times for different companies or environments?
 
-Yes. Just rename the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace after installing the app.
+Yes. Just choose **Install another copy of the app into a new workspace** when you install the app again. Consider including the company name in the workspace name for easier discoverability.
 
-To learn more, see [Rename a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] workspace](/power-bi/create-reports/service-rename#rename-a-workspace).
+:::image type="content" source="media/powerbi/power-bi-install-app.png" alt-text="Screenshot of the Power BI app installer." lightbox="media/powerbi/power-bi-install-app.png":::
 
 ## Can I use the same app to do reporting across multiple companies or environments?
 
@@ -71,9 +77,22 @@ To learn more, go to [Connect the Power BI semantic models to Business Central](
 
 To learn more, go to [Updating a Power BI app](across-powerbi-install-business-central-apps.md#updating-a-power-bi-app).
 
+## Are the apps available in multiple languages?
+
+Yes, all apps are multi-language for many of the languages that [!INCLUDE[prod_short](includes/prod_short.md)] supports. To learn more, go to [Multi-language Power BI apps for Business Central](across-powerbi-business-central-apps-multi-language.md).
+
 ## Can I get a copy of the source code (.pbix files) for the apps?
 
-No. At the moment, the source code (.pbix files) for the apps isn't available. However, its availability might change in a later release.
+As of version 26.2, the source code (.pbix files) for the following apps is available:
+
+- Finance
+- Inventory
+- Inventory Valuation
+- Manufacturing
+- Subscription Billing
+- Sustainability
+
+You can download the .pbix file by installing the app from AppSource and then download the source code from the installed app.
 
 ## Are the apps available for on-premises installations?
 

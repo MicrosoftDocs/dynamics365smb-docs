@@ -2,7 +2,7 @@
 title: Receiving and Putting Away in Advanced Warehousing
 description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/24/2021
@@ -158,7 +158,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
     The received accessories are now put-away in the items' default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
 
-## See Also  
+## Related information  
  [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   

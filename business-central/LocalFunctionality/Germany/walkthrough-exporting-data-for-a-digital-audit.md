@@ -2,7 +2,7 @@
 title: Exporting data for a digital audit [DE]
 description: Export business data for auditing purposes following the digital audit process (GoBD/GDPdU) as per German tax regulations. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: export business data, digital audit, GoBD, GDPdU, German tax regulations, German version
 ms.date: 03/12/2025

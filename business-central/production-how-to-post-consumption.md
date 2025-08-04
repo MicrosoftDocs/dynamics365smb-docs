@@ -4,7 +4,7 @@ description: If the flushing method is Manual, post the components manually usin
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000846, 99000850
 ms.date: 03/20/2025
 ms.service: dynamics-365-business-central

@@ -2,7 +2,7 @@
 title: Unrealized sales tax and sales payment discounts
 description: You can use the General Ledger Setup page to set up unrealized sales tax in the US version. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: unrealized sales tax, sales payment discounts
 ms.search.form: 315, 466, 467, 468, 469
@@ -16,7 +16,7 @@ ms.reviewer: v-soumramani
 
 [!INCLUDE [unrealized-sales-tax-sales-payment-discounts-setup](../includes/CAMXUS/unrealized-sales-tax-sales-payment-discounts-setup.md)]
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Reporting Sales Tax in the US](us-sales-tax.md)  

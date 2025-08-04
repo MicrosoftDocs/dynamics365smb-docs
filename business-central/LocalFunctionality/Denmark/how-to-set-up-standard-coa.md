@@ -2,7 +2,7 @@
 title: Standard chart of accounts in Denmark
 description: This article explains how to set up a standard chart of accounts in Denmark.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: chart of accounts, Denmark, standard chart of accounts
 ms.search.form: 5264, 5266, 5267, 5270, 

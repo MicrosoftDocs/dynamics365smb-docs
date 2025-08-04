@@ -2,7 +2,7 @@
 title: Sustainability scorecards and goals
 description: Learn how to set up and use sustainability scorecards and goals.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, scorecard, goal, forecast, budget
 ms.search.form: 

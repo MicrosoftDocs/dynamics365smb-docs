@@ -2,7 +2,7 @@
 title: Set up electronic invoicing with NemHandel
 description: Learn how to set up E-documents functionality with Nemhadel in Denmark.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint, nemhandel, denmark, dk
 ms.search.form: 359, 360, 6103, 6133

@@ -5,7 +5,7 @@ description: Purchase of Services for Overseas Place of Supply from Registered V
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -57,7 +57,7 @@ For example, the service recipient has a GSTIN in West Bengal and the Vendor als
 
 
 
-## See Also 
+## Related information 
 [GST and TDS on Purchase Transaction](GST-TDS-and-GST-on-Purchase.md)
 
 

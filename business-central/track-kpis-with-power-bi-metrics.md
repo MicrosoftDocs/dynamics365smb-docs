@@ -32,7 +32,7 @@ Learn more about Power BI metrics at [Get started with metrics in Power BI](/pow
 > [!NOTE]
 > Starting with Business Central 2023 release wave 2, it's possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## See also
+## Related information
 
 [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  

@@ -4,7 +4,7 @@ description: Russian enhancements include norm jurisdictions.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -47,7 +47,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
 
 The norm jurisdiction that you set up is now available for use in calculating tax differences.
 
-## See Also
+## Related information
 
 [Tax Differences](Tax-Differences.md)  
 [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  

@@ -1,10 +1,8 @@
 ---
-title: Registering VAT on purchase orders in Russia
-description: Russian enhancements include VAT on purchase orders.
+title: Register VAT on Purchase Orders in Russia
+description: Learn how to register VAT on purchase orders in Russia using Business Central's enhanced tracking features to maintain accurate VAT invoice records
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -12,7 +10,7 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Register VAT on Purchase Orders
+# Register VAT on purchase orders
 
 In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[prod_short](../../includes/prod_short.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
 
@@ -37,7 +35,7 @@ In Russia, organizations are required to keep a journal of received and issued V
 
    The VAT transaction is now registered and will be tracked in the VAT invoices journal after the purchase order is posted.
 
-## See Also
+## Related information
 
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  

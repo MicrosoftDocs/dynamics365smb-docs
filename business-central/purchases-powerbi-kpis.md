@@ -4,7 +4,7 @@ description: Get an overview of all the KPIs and measures in the semantic model 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 11/06/2024
@@ -442,7 +442,7 @@ The Budget Amount AVG 3M (Fiscal) measure calculates the average budet amount fo
 - Date (Fiscal Calendar)
 
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

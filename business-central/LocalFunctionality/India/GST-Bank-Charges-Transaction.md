@@ -5,7 +5,7 @@ description: GST on Bank Charges Transaction
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -179,7 +179,7 @@ Let us take the following example and check the GL entries of the posted transac
 
 
 
-## See Also 
+## Related information 
 [GST Bank Charges Overview](GST-Bank-Charges-Overview.md)
 
 

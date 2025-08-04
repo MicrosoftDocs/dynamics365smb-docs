@@ -4,7 +4,7 @@ description: You can use import contracts and contract lines in subscription and
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -161,7 +161,7 @@ The fields in the following table only need to be considered if billing is to ta
 |Pricing Unit Cost Surcharge % (Decimal)|Specifies the surcharge as a percent for the customer price calculation, if you use unit cost surcharge.|Optional|
 |Supplier Reference Entry No. (Integer)|Indicates the sequence number of the related reference.|Optional|
 
-## See also
+## Related information
 
 [General setup](general.md)  
 [Contract types](contract-types.md)

@@ -2,7 +2,7 @@
 title: Modify planning suggestions in graphical view
 description: Typical planning activity- change or add planning worksheet lines to modify suggested supply orders before you commit run Carry out Action Message function.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/22/2023
@@ -87,7 +87,7 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## See also
+## Related information
 
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

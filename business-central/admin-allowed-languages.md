@@ -4,7 +4,7 @@ description: Learn how to build a list of the languages that are available in yo
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 
 ms.date: 02/19/2025
 ms.custom: bap-template

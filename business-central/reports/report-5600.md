@@ -97,7 +97,7 @@ There are several other ways to analyze your fixed assets. To learn more, go to:
 - [Fixed Asset Analysis Excel](report-4412.md)
 - [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)  
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

@@ -13,4 +13,4 @@ ms.reviewer: bholtorf
 > * Dataverse and Dynamics Connection Settings to ensure that integration correctly re-initiates in the target company.
 > * Integration records to ensure that the target company doesn't point to records that are coupled in the source company.
 > * Integration synchronization jobs to stop synchronization background jobs.
-> * Synchronization errors, it they exist, because they point to errors in the source company and would just be considered noise in the target company.
+> * Synchronization errors, if they exist, because they point to errors in the source company and would just be considered noise in the target company.

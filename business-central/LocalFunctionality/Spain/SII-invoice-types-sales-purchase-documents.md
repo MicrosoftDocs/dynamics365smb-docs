@@ -58,7 +58,7 @@ The following sections show the output of the various types that are used for in
 |F4|Invoice summary entry|Possible, but the XML file is same as for F1 because [!INCLUDE[prod_short](../../includes/prod_short.md)] doesn't support Summary invoices.<br><br/>Submissions result in known error: Missing `NumSerieFacturaEmisorResumenFin` element.|
 |F5|Imports (DUA)|Same as for F1.|
 |F6|Accounting support material|Same as for F1.|
-|R1|Corrected invoice error based on art. 80.1, 80.2, and 80.6 LIVA)|Not supported. Only used for credit memos.|
+|R1|Corrected invoice (error based on art. 80.1, 80.2, and 80.6 LIVA)|Not supported. Only used for credit memos.|
 |R2|Corrected invoice (art. 80.3)|Not supported. Only used for credit memos.|
 |R3|Corrected invoice (art. 80.4)|Not supported. Only used for credit memos.|
 |R4|Corrected invoice (other)|Not supported. Only used for credit memos.|
@@ -78,7 +78,7 @@ The following sections show the output of the various types that are used for in
 |R2|Corrected invoice (art. 80.3)|Same as for R1.|
 |R3|Corrected invoice (art. 80.4)|Same as for R1.|
 |R4|Corrected invoice (other)|Same as for R1.|
-|R5|Corrected invoice in simplified invoices|Same as for R1 except the block is called `Contraparte`|
+|R5|Corrected invoice in simplified invoices|Same as for R1 except the block is called `Contraparte`.|
 
 ## Related information
 

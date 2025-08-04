@@ -1,18 +1,18 @@
 ---
-title: Managing intercompany transactions
+title: Manage intercompany transactions
 description: With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.date: 05/24/2024
+ms.topic: concept-article
+ms.date: 06/10/2025
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 611, 613, 615, 617, Report_512
 ms.service: dynamics-365-business-central
 ---
 
-# Managing intercompany transactions
+# Manage intercompany transactions
 
 Businesses with more than one legal entity with separate accounting functions can benefit from intercompany transactions. For example, it's useful for businesses that have subsidiaries in multiple international markets or regions. Or, an organization might have several companies but lack the equivalent number of accounting and administrative teams. Intercompany transactions simplify and streamline business processes and transactions between companies in the intercompany partnership.
 
@@ -54,23 +54,23 @@ When you set up intercompany transactions, you create a list of intercompany par
 > [!NOTE]
 > The general journal by itself doesn't include currencies. It converts all amounts to the local currency at the current exchange rate.
 
-After you set up business partners as customers and vendors, and assign them intercompany partner codes, they can exchange intercompany purchase and sales documents, including items and item charges. 
+After you set up business partners as customers and vendors, and assign them intercompany partner codes, they can exchange intercompany purchase and sales documents, including items and item charges.
 
 > [!NOTE]
 > Companies can't use intercompany to exchange all types of data. Purchase invoices are not submitted to business partners through intercompany processes. However, sales invoices that are submitted through intercompany processes will be created as purchase invoices in the receiving company.
 
-Consolidating financial data might be relevant for intercompany processes. For more information, see [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md).
+Consolidating financial data might be relevant for intercompany processes. Learn more at [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md).
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
-|To |See|
+|To... |Go to...|
 |---|---|
 |Create your intercompany vendors and customers as partners, and set up an intercompany chart of accounts.|[Set Up Intercompany](intercompany-how-setup.md)|
 |Use intercompany documents or journals to post transactions with your intercompany partners.|[Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
 |Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
@@ -78,6 +78,5 @@ The following table describes a sequence of tasks, with links to the articles th
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

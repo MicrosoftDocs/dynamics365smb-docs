@@ -2,7 +2,7 @@
 title: Carta de Porte packing slips and transfer orders [MX]
 description: Business Central supports CFDI, allowing the printing of packing slips and transfer orders with the necessary digital signature to meet Carta de Porte requirements.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: CFDI, packing slips, transfer orders, Carta de Porte
 ms.date: 02/26/2025

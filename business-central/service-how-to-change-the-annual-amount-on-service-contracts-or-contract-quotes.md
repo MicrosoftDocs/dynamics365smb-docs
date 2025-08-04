@@ -2,7 +2,7 @@
 title: Change the Annual Amount on Service Contracts or Contract Quotes
 description: You can change the amount that will be invoiced annually on service contracts or service contract quotes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
@@ -140,7 +140,7 @@ Finally, the contract lines will contain this data.
 |Item 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Item 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## See Also  
+## Related information  
 [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

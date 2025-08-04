@@ -3,10 +3,11 @@ title: FAQ for suggest sales lines with Copilot
 description: This FAQ provides information about the AI technology used in Business Central for sales line suggestions.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
-ms.topic: article
+ms.reviewer: jswymer
+ms.topic: faq
 ms.search.form:
-ms.date: 11/11/2024
+ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
@@ -164,5 +165,5 @@ Each time Copilot provides suggestions, you can provide feedback to Microsoft di
 ## Related information
 
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
-[Configure Copilot and AI capabilities](enable-ai.md)  
+[Configure Copilot and agent capabilities](enable-ai.md)  
 [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)  

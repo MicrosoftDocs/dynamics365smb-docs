@@ -4,7 +4,7 @@ description: Russian enhancements include defining users as responsible employee
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -201,7 +201,7 @@ The following procedure shows how to print the posted **Advance Statement**.
 
 5. Choose the **Print** button.
 
-## See Also
+## Related information
 
 [Human Resources](../../hr-manage-human-resources.md)  
 

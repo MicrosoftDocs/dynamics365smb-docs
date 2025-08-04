@@ -25,6 +25,8 @@ You can choose to see only dimension combinations that have transactions, or a l
 
 ## Use cases
 
+[!INCLUDE [report-28-scenario](../includes/report-28-scenario-include.md)]
+
 <!-- 
 Prompt
 
@@ -57,19 +59,19 @@ Please include your data sources and URLs
 
 -->
 
-Financial accountants use the report to:
+Financial accountants can use the report to:
 
 * Verify the accuracy of the financial data by reviewing the breakdown of general ledger entries based on dimension levels for each transaction.
 * Identify discrepancies or errors in financial data and investigate them.
 * Use the report data to prepare financial statements, such as income statements, balance sheets, and cash flow statements.
 
-Financial analysts use the report to:
+Financial analysts can use the report to:
 
 * Analyze financial performance by reviewing the breakdown of general ledger entries based on dimension levels for each transaction.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
 * Use the report data to pPrepare financial reports for stakeholders such as investors or executives.
 
-Financial controllers use the report to:
+Financial controllers can use the report to:
 
 * Monitor the financial health of the business by reviewing the breakdown of general ledger entries based on dimension levels for each transaction.
 * Identify areas to save cost or generate revenue, and make recommendations for improving financial performance.
@@ -81,7 +83,7 @@ Try the report here: [Dimensions - Detail](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Built-in key finance reports](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

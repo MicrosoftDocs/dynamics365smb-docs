@@ -2,7 +2,7 @@
 title: How to Set Up a Document Exchange Service | Microsoft Docs
 description: You use an external service provider to exchange electronic documents with your trading partners.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2021
@@ -64,7 +64,7 @@ To connect Business Central on-premises, you must create an app on the Tradeshif
 
 If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetClientId and OnGetClientSecret events in codeunit 1410 "Doc. Exch. Service Mgt."
 
-## See Also
+## Related information
 
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)

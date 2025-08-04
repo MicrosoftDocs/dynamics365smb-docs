@@ -1,12 +1,12 @@
 ---
 title: Czech local functionality - VAT statement
-description: This functionality describes improvements that the VAT Statement report contains.
+description: Describes enhancements available in the Czech VAT Statement report.
 author: v-makune
 ms-service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 11/07/2023
-ms.reviewer: bholtorf
+ms.date: 06/09/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -25,14 +25,12 @@ The VAT Statement report contains many improvements, which enable the user to:
 - Export the VAT statement to an .xml file.
 - Add comments and attachments to export to the tax authorities.
 
+## Related information
 
-## See also
-
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-[VAT Control Report](vat-control-report.md)  
-[VAT Date](how-to-setup-vat-date.md)  
-[Finance](../../finance.md)  
-
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
+- [VAT Control Report](vat-control-report.md)  
+- [VAT Date](how-to-setup-vat-date.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Regulatory 1099 format changes and details
 description: Learn about the changes applied to the IRS 1099 tax form regarding the required codes for payments to vendors.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: local, 1099
 ms.search.form: 10015, 10016, 10018, 10900, 315, 466, 467, 468, 469
 ms.date: 02/04/2025
@@ -56,7 +56,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], the new 1099 Form Box c
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], a new 1099 Form Box code *DIV-05* has been added, and all the 1099 codes from DIV-05 to DIV-11 were upgraded to codes from DIV-06 to DIV-12. When you open the **IRS 1099 Form Box** page, a notification pops up to upgrade the form boxes. If you change the 1099 code on the **Vendor Card** page, a notification displays asking if you want to update the 1099 codes for all the associated entries (like purchase documents, journal lines, posted invoices, credit memos, and vendor ledger entries).  
 
-## See also
+## Related information
 
 - [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form-v24.md)  
 - [United States Local Functionality](united-states-local-functionality.md)  

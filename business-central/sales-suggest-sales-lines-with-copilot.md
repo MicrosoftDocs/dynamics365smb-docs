@@ -3,11 +3,12 @@ title: Sales line suggestions with Copilot
 description: Learn how to suggest lines on sales orders with Copilot.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:
-ms.date: 12/09/2024
+ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
@@ -39,7 +40,7 @@ Sales line suggestion can assist with creating lines on sales documents such as 
 
 ## Prerequisites
 
-- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & AI** page. Learn more at [Configure Copilot and AI capabilities](enable-ai.md).
+- Your administrator activates the **Sales Line Suggestions** capability on the **Copilot & agents capabilities** page. Learn more at [Configure Copilot and agent capabilities](enable-ai.md).
 
 ## Examples of prompts
 
@@ -127,4 +128,4 @@ This step confirms that you want to transfer the lines to a sales document. You 
 ## Related information
 
 [FAQ for Sales Line Suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-[Configure Copilot and AI capabilities](enable-ai.md)
+[Configure Copilot and agent capabilities](enable-ai.md)

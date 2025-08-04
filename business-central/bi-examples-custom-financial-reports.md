@@ -212,7 +212,7 @@ The following image shows the structure of the report in this example.
 
 :::image type="content" source="media/income statement report.png" alt-text="Shows the structure of the income statement report.":::
 
-## See also
+## Related information
 
 [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
 [Walkthrough: Make cash flow forecasts using financial reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)  

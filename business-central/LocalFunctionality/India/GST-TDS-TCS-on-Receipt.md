@@ -5,7 +5,7 @@ description: GST TDS and GST TCS on Customer Payments
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -119,7 +119,7 @@ For example, INR 1000 received from customer and 2% GST TDS (1% CGST, 1% SGST fo
     |**Bank Account**|980| 
 
 
-## See Also 
+## Related information 
 [GST Credit and Liability Adjustment](GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
 
 

@@ -4,10 +4,10 @@ description: Learn how to change some basic settings in Business Central, for ex
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017, 3563_Primary
-ms.date: 12/11/2024
+ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9006, 9007, 9010, 9016, 9017, 3563_Primary, 9024_Primary
+ms.date: 03/26/2025
 ms.service: dynamics-365-business-central
 ---
 # Change basic settings
@@ -18,9 +18,9 @@ Use the **My Settings** page to manage basic settings for your [!INCLUDE[prod_sh
 
 ## <a name="role-center"></a>Role
 
-The role determines the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the home page, or role center, gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
+The role determines the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the home page, or Role Center, gives you an overview of the business, your department, or your personal tasks. It also helps you go to your daily tasks and find work that's assigned to you.
 
-* At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the home page.
+* At the top of your home page, you can switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as creating a new sales invoice, directly from the home page.
 
 * In the center, you find the **Activities** area, which shows current data and can be selected to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the home page for business accounts that you do business with often or need to pay special attention to.
 
@@ -93,9 +93,9 @@ Changes the display language. This field appears only when there's more than one
 When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], your administrator or your browser settings determine the initial language. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
 
 You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
-<!--
+
 > [!NOTE]
-> On the **Allowed Languages** page, administrators can modify the list of languages that shows when people select their language and region. Administrators can show only the languages for which they know a language app is installed. Keeping the list of languages short and accurate makes it easier for people to choose a supported language.-->
+> On the **Allowed Languages** page, administrators can modify the list of languages that shows when people select their language and region. Administrators can show only the languages for which they know a language app is installed. Keeping the list of languages short and accurate makes it easier for people to choose a supported language. To learn more about allowed languages, go to [Specify the languages that are available in your Business Central environment](admin-allowed-languages.md).
 
 ## Time zone
 
@@ -109,7 +109,7 @@ Choose the **Change when I receive notifications** link to manage the notificati
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

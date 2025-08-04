@@ -4,7 +4,7 @@ description: You can use customer subscriptions in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -52,7 +52,7 @@ If you set up the import settings for the supplier to create subscriptions that 
 * Unit of Measure
 * Quantity
 
-## See also
+## Related information
 
 [Usage data suppliers](suppliers.md)  
 [Usage data supplier references](references.md)  

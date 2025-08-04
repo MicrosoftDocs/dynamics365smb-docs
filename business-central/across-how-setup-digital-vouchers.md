@@ -3,23 +3,23 @@ title: Set up digital vouchers
 description: This article explains how to set up and use enforced digital vouchers in Microsoft Dynamics 365 Business Central.
 author: altotovi
 ms.author: altotovi
-ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: digital voucher, voucher, attachment, setup
 ms.search.form: 5579, 5582, 5587
-ms.date: 11/17/2023
+ms.date: 04/07/2025
 ms.custom: bap-template
-ms.reviewer: bholtorf
+
 ---
 
 # Set up digital vouchers
 
 Administrators can use digital voucher functionality to require that documents are attached to specific transactions when they're posted. Therefore, this functionality allows for a source-driven approach and provides a better audit trail. Different types of enforcement can be configured for this purpose, depending on the documents or journal types.
 
-The term *digital voucher* refers to a digital or electronic form of a traditional voucher in accounting. A voucher is a document that's used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or a receipt of funds. The voucher might include details such as the date of the transaction, a description, the amount, and any authorization signatures.
+The term *digital voucher* refers to a digital or electronic form of a traditional voucher in accounting. A voucher is a document that's used to support and authorize financial transactions. For accountants, vouchers typically serve as evidence of an expenditure or a receipt of funds. The voucher might include details such as the date of the transaction, a description, the amount, and any authorization signatures.
 
 > [!IMPORTANT]
-> In some countries and regions, you might be restricted from configuring some options, because specific setups might be mandated by legal requirements. If you encounter these restrictions, look for a detailed explanation on the documentation page for your country or region.
+> Some countries and regions might have legal requirements for specific setups, which might restrict you from configuring some options. If you encounter these restrictions, look for a detailed explanation on the documentation page for your country or region.
 
 ## Enable digital vouchers
 
@@ -30,13 +30,13 @@ Follow these steps to enable digital voucher functionality.
 
 ## Set up digital vouchers
 
-You can use different setups for the following documents and journals.
+You can use different setups for the documents and journals described in the following table.
 
 | Entry type | Description |
 |------------|-------------|
 | Sales Document | Specifies postings that are completed from sales documents. |
 | Purchase Document | Specifies postings that are completed from purchase documents. |
-| General Journal | Specifies postings that are completed from the general journal for all account types except those that are related to the customer and vendor. If you select one of those account types, you change control of the posting process. If you select **Customer** as the account type, the system checks your setup that's related to the sales journal. If you select **Vendor** as the account type, the system checks your setup that's related to the purchase journal. |
+| General Journal | Specifies postings that are completed from the general journal for all account types, except types related to customers and vendors. If you select one of those account types, you change control of the posting process. If you select **Customer** as the account type, [!INCLUDE [prod_short](includes/prod_short.md)] checks your setup for sales journals. If you select **Vendor** as the account type, [!INCLUDE [prod_short](includes/prod_short.md)] checks your setup for purchase journals. |
 | Sales Journal | Specifies the postings that are completed from the sales journal and the general journal where **Customer** is selected as the account type. |
 | Purchase Journal | Specifies the postings that are completed from the purchase journal and the general journal where **Vendor** is selected as the account type. |
 
@@ -46,7 +46,7 @@ Follow these steps to define how your organization uses enforced digital voucher
 2. In the **Entry Type** column, select an option.
 3. In the **Check Type** column, select an enforcement option. If you select **None**, you can post the selected type of entry without a digital voucher. If you select **Attachment**, the entry must include an attachment. If you select **Attachment or Note**, you can include an attachment or a note for the entry. 
 4. Select the **Generate Automatically** checkbox to generate the digital voucher automatically. For example, if you don't want to manually add a sales invoice to your transaction, select this checkbox. Then, you just have to post the document. The system automatically creates the document, based on your report layout, and attaches it to the transaction.
-5. Select the **Skip If Manually Added** checkbox if you don't want to add an automatically generated digital voucher if the user has already added a manual attachment.
+5. Select the **Skip If Manually Added** checkbox if you don't want to add an automatically generated digital voucher if the user already added a manual attachment.
 
 ### Use source codes for setup
 
@@ -81,7 +81,14 @@ You can find the attached voucher from the posted document or from the **General
 
 You can't delete an attached document after posting is completed. However, you can add more attachments after posting is completed.
 
-## See also
+### Use digital vouchers with recurring journals
+
+To use enforced digital vouchers with general recurring journals, follow these steps to ensure that your setup works as you expect.
+
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates**, and then select the related link.  
+2. To remove the link between the incoming document and the journal when you post the journal, select the **Unlink Incoming Documents On Posting** checkbox for the template. If you don't select this checkbox, digital vouchers stay linked to journal lines after you post them.
+
+## Related information
 
 [Financial Management](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

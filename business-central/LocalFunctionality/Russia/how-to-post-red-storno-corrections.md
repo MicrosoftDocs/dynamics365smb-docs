@@ -2,7 +2,7 @@
 title: Posting Red Storno corrections in Russia
 description: Russian enhancements include support for Red Storno corrections.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/08/2023
 ms.reviewer: bholtorf
@@ -74,7 +74,7 @@ The correction is posted, and any general ledger account correspondence that you
 
 3. Post the document.
 
-## See also
+## Related information
 
 [Set Up Inventory](Inventory-Setup.md)  
 

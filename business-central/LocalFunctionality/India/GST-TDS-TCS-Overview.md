@@ -51,7 +51,7 @@ This setup is required for calculation of GST TDS and GST TCS on payment to vend
     |**IGST**|Specify the relevant percentage for component IGST.|
 
 
-## See Also 
+## Related information 
 [GST TCS on Payment](GST-TCS-on-Payment.md)
 
 

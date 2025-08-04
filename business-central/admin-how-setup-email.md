@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary
-ms.date: 12/02/2024
+ms.date: 06/15/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -29,8 +29,9 @@ Email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for out
 
 There are a couple of requirements for setting up and using the email features.
 
-* To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+* To set up email, you must have the **EMAIL SETUP** permission set. To learn more, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 * Everyone who uses the email features must be a fully licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
+* Everyone who uses the email features must have a valid, paid license for Exchange Online. Otherwise, some features won’t work. For example, they can’t send emails because Exchange rejects their messages. You can’t use trial licenses.
 
 ## Add email accounts
 
@@ -42,7 +43,7 @@ The following table describes the email extensions that are available by default
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|**Microsoft 365 Connector**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This option requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365 Connector**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This option requires that you set up a shared mailbox in the Microsoft 365 admin center. To learn more, go to [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Current User Connector**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**SMTP Connector**|Use Simple Mail Transfer Protocol (SMTP) protocol to send emails.|Allow communications through your SMTP mail server. |
 
@@ -64,7 +65,7 @@ External users, such as delegated admins and external accountants, can't use the
 
 ## Use SMTP
 
-If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails are sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails are sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
+If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails are sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails are sent from the email account specified for each user's account. Current User is similar to the Send As feature. To learn more, go to [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
 > To use Auth 2.0 for SMTP authentication, consider the following:
@@ -73,7 +74,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 > - You can't use **Specific User** for the **Sender type**, as you can with Basic authentication. The reason is that OAUTH 2.0 uses the credentials of the current (signed-in) user.
 > - For Business Central on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -86,7 +87,6 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set Up Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
-
 
 <!--
 > [!NOTE]
@@ -120,8 +120,8 @@ On the **User Email View Policies**, choose a user, and then choose one of the f
 
 * **View own emails** - The user can view only their own email messages.
 * **View all emails** - The user can view all email messages, including emails that were sent by other users.
-* **View if access to all related records** - This view policy is used if no other policy is specified. A user can view email messages that other users sent if the user has access to the record that was sent and all of the related records. For example, User A sent a posted sales invoice to a customer. User B can see the email message if they have access to both the invoice and the customer.
-* **View if access to any related records** - The user can view email messages that were sent by other people if the user has access to at least one record that is related to the record that was sent. For example, User A sent a posted sales invoice to a customer. User B can see the email message if they have access to either the invoice or the customer.
+* **View if access to all related records** - This view policy is used if no other policy is specified. A user can view email messages that other users sent if the user has access to the record that was sent and all of the related records. For example, User A sent a posted sales invoice to a customer. User B can access the email message if they have access to both the invoice and the customer.
+* **View if access to any related records** - The user can view email messages that were sent by other people if the user has access to at least one record that is related to the record that was sent. For example, User A sent a posted sales invoice to a customer. User B can access the email message if they have access to either the invoice or the customer.
 
 > [!NOTE]
 > If you leave the **User ID** field empty and then choose the **Email View Policy** action, the view policy applies to all users.
@@ -132,10 +132,13 @@ Some email providers (ISPs) limit the number of email messages an email account 
 
 The default limit for the Microsoft 365 and Current User account types is 30, which matches the limit set by Exchange Online.
 
-There are two ways to specify the limit:
+There are a few ways to specify the limit:
 
 * When you use the Set Up Email assisted setup guide to create a new account, specify the limit in the **Rate limit per minute** field.
-* For existing email accounts, specify the limit in the **Email rate limit** field on the account.
+* For existing email accounts, specify:
+
+   * The number of messages an account can send per minute in the **Email rate limit** field on the account.
+   * The maximum number of messages an account can send simultaneously in the **Email Concurrency Limit** field. By default, the limit is **3**, but you can allow up to **10**.
 
 ## Set up reusable email texts and layouts
 
@@ -152,7 +155,7 @@ You can use reports to include key information from sales, purchase, and service
 6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
     > [!NOTE]
     > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] will help you create a copy when you import a custom layout for a standard report. The name of your new custom report layout will be prefixed with "Copy of."
-7. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
+7. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. To learn more, go to [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
 Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
@@ -171,7 +174,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 * When your workflow sends an approval request by email using the email address of the requester.
 
 > [!Note]
-> You can only use one account to substitute sender addresses. That is, you cannot have one substitute address for purchasing processes, and another for sales processes.
+> You can only use one account for substitute sender addresses. That is, you can't have one substitute address for purchasing processes, and another for sales processes.
 
 <!--
 ### To set up the substitute sender address for all outbound email messages
@@ -194,7 +197,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 
 ## Set up document sending profiles
 
-You can save time by setting up a preferred method of sending sales documents for each of your customers. You won't have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+You can save time by setting up a preferred method of sending sales documents for each of your customers. You won't have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. To learn more, go to [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## Optional: Set up email logging in Exchange Online
 
@@ -210,8 +213,8 @@ Administrators can switch on the telemetry feature in [!INCLUDE[prod_short](incl
 
 * An email was sent successfully  
 * An attempt to send an email failed
-* Authentication to an SMTP server succeded/failed  
-* Connection to an SMTP server succeded/failed  
+* Authentication to an SMTP server succeeded/failed  
+* Connection to an SMTP server succeeded/failed  
 
 Learn more at [Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 
@@ -255,7 +258,7 @@ When you create your app registration, note the following information. You'll ne
 Learn more about general guidelines for registering an app at [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
 > [!NOTE]
-If you have trouble using the SMTP protocol to send email after you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, it might be because SMTP AUTH is not enabled for your tenant. We recommend that you use the Microsoft 365 and Current User email connectors instead, because they use Microsoft Graph Mail APIs. However, if you must use SMTP protocol you can enable SMTP AUTH. For more information, see [Enable or disable authenticated client SMTP submission (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+If you have trouble using the SMTP protocol to send email after you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, it might be because SMTP AUTH is not enabled for your tenant. We recommend that you use the Microsoft 365 and Current User email connectors instead, because they use Microsoft Graph Mail APIs. However, if you must use SMTP protocol you can enable SMTP AUTH. To learn more, go to [Enable or disable authenticated client SMTP submission (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
 

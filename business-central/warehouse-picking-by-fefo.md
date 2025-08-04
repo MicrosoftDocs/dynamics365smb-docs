@@ -4,7 +4,7 @@ description: First-Expired-First-Out (FEFO) is a sorting method that ensures tha
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 08/12/2024
@@ -39,7 +39,7 @@ If the **Strict Expiration Posting** field is selected on the **Item Tracking Co
 <br /><br />
 > If you posted the item to inventory without an expiration date, [!INCLUDE [prod_short](includes/prod_short.md)] populates the serial or lot number as a warehouse pick, but not an inventory pick.
 
-## See also  
+## Related information  
 
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   

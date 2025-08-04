@@ -4,7 +4,7 @@ description: You can extend contracts in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -26,7 +26,7 @@ If you extend a contract, the created service commitments automatically have a l
 > [!NOTE]
 > Because quantities in usage data can have decimal places, but you can only use integer quantities in the service object, (commercial) rounding takes place when the field is preassigned.
 
-## See also
+## Related information
 
 [Customer contracts](../../SRB/working-with-contracts/customer-contracts.md)  
 [Vendor contracts](../../SRB/working-with-contracts/vendor-contracts.md)  

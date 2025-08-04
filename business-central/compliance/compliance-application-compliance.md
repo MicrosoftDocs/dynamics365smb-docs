@@ -4,7 +4,7 @@ description: This article explains how Business Central complies with internatio
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -96,7 +96,7 @@ Depending on the current local GAAPs, one of the major recognition and measureme
 
 Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and doesn't target small and medium-sized businesses, Basel II might have some implications for these organizations in reporting and analysis.
 
-## See also
+## Related information
 
 [Compliance](compliance-overview.md)  
 [Service Compliance](compliance-service-compliance.md)  

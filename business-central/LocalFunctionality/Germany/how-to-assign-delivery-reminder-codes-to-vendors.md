@@ -2,7 +2,7 @@
 title: Assign delivery reminder codes to vendors [DE]
 description: Enable delivery reminders for overdue purchases by assigning delivery reminder terms to vendors in the German version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: delivery reminders, overdue purchases, delivery reminder terms, German version
 ms.search.form: 5005270, 5005272

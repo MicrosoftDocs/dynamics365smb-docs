@@ -2,7 +2,7 @@
 title: How to Enable Approval Workflows
 description: When you've created a workflow and are sure that it's ready to start, you must enable the workflow.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 09/08/2022
@@ -22,7 +22,7 @@ On the **Workflow** page, create a workflow by listing the involved steps on the
 2. Open the workflow that you want to enable.  
 3. On the **Workflow** page, turn on the **Enabled** toggle.  
 
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Use Approval Workflows](across-use-workflows.md)  

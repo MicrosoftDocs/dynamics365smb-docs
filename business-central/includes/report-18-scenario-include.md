@@ -1,0 +1,1 @@
+Analyze consolidated financial data across multiple companies with a four-column layout showing local balances, converted values, eliminations, and totals. Use this report to compare and review financial performance side-by-side across business units. 

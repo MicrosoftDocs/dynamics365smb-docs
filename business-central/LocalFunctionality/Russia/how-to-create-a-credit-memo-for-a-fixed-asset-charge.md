@@ -4,7 +4,7 @@ description: Russian enhancements include credit memos for fixed assets charges.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -25,7 +25,7 @@ If you need to fix an error on a fixed asset charge of an invoice, you can post 
 > [!NOTE]
 > You can also create a credit memo for the fixed asset charge by copying the original invoice.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 [Russia Local Functionality](russia-local-functionality.md)  

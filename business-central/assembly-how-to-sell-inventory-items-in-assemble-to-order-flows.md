@@ -48,7 +48,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 > [!CAUTION]  
 > The **Bin Code** field on the sales order might contain the value from the **Assemble-to-Order Shpt. Bin Code** or **From-Assembly Bin Code** fields on the location card. If it does, the **Bin Code** field on the sales order line might be incorrect for this combination of assemble-to-order and assemble-to-stock quantities. It's a good idea to double-check that the bin in the **Bin Code** field works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  

@@ -2,7 +2,7 @@
 title: Print VAT Reports [GB]
 description: This article explains the various VAT reports and provides guidance on how to print each of them.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: VAT, VAT reports, print VAT reports
 ms.date: 02/19/2025
@@ -80,7 +80,7 @@ You can use the following reports for VAT reporting:
 
 1. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See also
+## Related information
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

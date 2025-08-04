@@ -2,7 +2,7 @@
 title: Reconcile inventory costs with the general ledger
 description: At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: warehouse, stock
 ms.search.form: 9297,
@@ -87,7 +87,7 @@ The following table describes them.
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
 
-## See also  
+## Related information  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Purchasing](purchasing-manage-purchasing.md)    
 [Sales](sales-manage-sales.md)    

@@ -5,7 +5,7 @@ description: GST Credit and GST Liability adjustment for open Reverse Charge Ser
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -114,7 +114,7 @@ For example, vendor issued invoice for INR 10000, in an Intra-State or Intra-Uni
 
 
 
-## See Also 
+## Related information 
 [GST TDS TCS Overview](GST-TDS-TCS-Overview.md)
 
 

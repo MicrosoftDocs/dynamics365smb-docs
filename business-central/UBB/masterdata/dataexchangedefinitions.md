@@ -4,7 +4,7 @@ description: You can use data exchange definitions in usage based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -46,6 +46,7 @@ These settings affect the import file. The following table describes the importa
 |File Encoding     | The encoding of unicode characters for the import file.        |
 |Column Separator     | Specifies the character that separates the columns in the import file. This is only relevant for the **Variable Text** file type.        |
 |Header Lines     | Sets how many header lines the import file contains. This ensures that the header data isn't imported.        |
+|Reading/Writing XMLport  |  For importing usage data, choose **1220**.  |
 
 ## Settings on the Line Definitions FastTab
 
@@ -86,7 +87,7 @@ The following table provides a complete example of a setup on the **Field Mappin
 |19   | Amount      |  24      |  Amount          | |No | No| 0|
 |22   | Cost Amount |   27     |  Cost Amount     | |No | No| 0|
 |23   | Currency    |  25      |  Currency        | |No | No| 0|
-|24   | Text1       | 20       |  Text1           | | No| No| 0|
+|24   | Text1       | 50       |  Text1           | | No| No| 0|
 
 ## Settings on the Column Definitions FastTab
 
@@ -101,6 +102,6 @@ The following table describes the settings that define the columns to import.
 |Data Formatting Culture     | Specifies the culture of the data format, if needed. For example, **en-US** for the **Decimal** data type indicates that a period is used as decimal separator according to US format.        |
 |Length     | Only relevant if the file type is set to **Fixed Text**.        |
 
-## See also
+## Related information
 
 [Imports and processing](../processing-usage-data/imports-processing.md)

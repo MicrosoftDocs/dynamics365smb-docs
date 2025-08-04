@@ -2,7 +2,7 @@
 title: Design Details - Item Tracking Availability
 description: The Item Tracking Lines and Item Tracking Summary pages provide dynamic availability information for serial or lot numbers, increasing transparency for users.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/15/2021
@@ -36,7 +36,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 > [!IMPORTANT]  
 >  This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts. Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  
 
-## See Also  
+## Related information  
  [Design Details: Item Tracking](design-details-item-tracking.md)
 
 

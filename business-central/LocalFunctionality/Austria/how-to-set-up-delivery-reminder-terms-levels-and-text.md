@@ -2,7 +2,7 @@
 title: Delivery reminder terms, levels, and text [AT]
 description: To create delivery reminders, you must perform certain setup tasks in the Austrian version.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: Austrian version, delivery reminder terms, delivery reminder levels, delivery reminders setup
 ms.date: 03/06/2025

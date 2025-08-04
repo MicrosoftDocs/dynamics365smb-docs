@@ -2,7 +2,7 @@
 title: Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration
 description: Inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
@@ -150,7 +150,7 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
 
 
 
-## See also
+## Related information
 [Receive Items](../../warehouse-how-receive-items.md) 
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md) 
 [Ship Items](../../warehouse-how-ship-items.md) 

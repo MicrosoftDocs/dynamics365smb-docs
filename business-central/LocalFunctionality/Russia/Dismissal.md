@@ -4,7 +4,7 @@ description: Russian enhancements include dismissal of employees.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -40,7 +40,7 @@ The code of obligatory compensation payment is also linked to the reason of term
 
 6. The employee card contains information about the dismissal (in the field **Status** set the value *Dismissed*, filled in the fields **date of dismissal** and **Code of the reason for dismissal**.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)
 

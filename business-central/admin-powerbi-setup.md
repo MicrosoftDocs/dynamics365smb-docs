@@ -4,7 +4,7 @@ description: Learn how to set up the connection to Power BI. With Power BI repor
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/28/2024
+ms.date: 05/16/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -26,6 +26,11 @@ With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI l
 |Power BI Pro|![yet another checkmark.](media/check.png) |![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
 
 You can't use a [!INCLUDE [powerbi-name](includes/powerbi-name.md)] free license for the [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE [powerbi-name](includes/powerbi-name.md)] Apps. To learn more, go to [Prerequisites for installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md#prerequisites)
+
+> [!NOTE]
+> [!INCLUDE[about_bc_licensing_for_powerbi](includes/about_bc_licensing_for_powerbi.md)]
+>
+> [!INCLUDE[about_licensing](includes/about_licensing.md)]
 
 To learn more about [!INCLUDE [powerbi-name](includes/powerbi-name.md)] licensing in general, go to [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
@@ -106,7 +111,7 @@ Dataflows enable you to ingest, transform, and load data into a Power BI workspa
 
 Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
 
-## See also
+## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

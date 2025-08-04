@@ -2,13 +2,12 @@
 title: Replan or refresh production orders directly
 description: This article outlines the procedures for how to replan production orders and refresh production orders directly.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
-ms.date: 02/10/2025
 ms.author: bholtorf
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.topic: article
+ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.date: 03/18/2025
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Replan or refresh production orders directly
@@ -81,6 +80,10 @@ If you change production order lines, components, or routing lines, you must als
 
 > [!NOTE]  
 > Calculating production order components deletes previous changes in the components.
+
+## Reschedule production orders within a safety lead time
+
+If you discover that you need the supply before the due date that planning set, you can manually reschedule the production order. To do that, you must turn on the **Manual Scheduling** toggle on the **Manufacturing Setup** page. If needed, in the **Safety Lead Time for Manual Scheduling** field, you can also specify an amount of buffer time to add to the end date when you manually reschedule a production order. You can move the due date to the current date or a future date, or change the end date directly by changing the starting date.
 
 ## Related information
 

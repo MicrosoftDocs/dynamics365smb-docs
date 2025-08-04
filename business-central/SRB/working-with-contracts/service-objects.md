@@ -4,7 +4,7 @@ description: You can use service objects in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -77,6 +77,6 @@ For service objects whose items aren't configured for item tracking (lot or seri
 
 You can't change the quantity for service objects whose items are configured for item tracking (lot or serial number mandatory). Service objects with lot number tracking retain the quantity from the delivery or the initial entry. You can only create service objects with serial number tracking with a quantity of **1**.
 
-## See also
+## Related information
 
 [Managing contracts, service objects, and services commitments](contracts-services-mgmt.md)  

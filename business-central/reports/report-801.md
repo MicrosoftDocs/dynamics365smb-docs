@@ -65,7 +65,7 @@ Try the report here: [Assembly BOMs](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Assembly report overview](../assembly-reports.md)  
 

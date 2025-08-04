@@ -2,7 +2,7 @@
 title: How to set up work hours and service hours
 description: Learn how to set up the work and service hours used to calculate the response date and time for service orders and quotes.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 11/29/2024
@@ -52,7 +52,7 @@ If you don't set up specific service hours for the service contract, the default
 6. If you want the service hours to be valid from a specific date, fill in the **Starting Date** field.  
 7. If you want the service hours to be valid on holidays, select the check box in the **Valid on Holidays** field.  
 
-## See Also  
+## Related information  
 [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Understanding Service Order and Repair Status](service-order-repair-status.md)  

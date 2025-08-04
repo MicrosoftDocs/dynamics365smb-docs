@@ -2,7 +2,7 @@
 title: Reconcile payments using automatic application
 description: Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 389, 1290, 1294, 1287
@@ -88,7 +88,7 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 > [!NOTE]  
 >   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** page, then you must use the **Bank Account Reconciliation** page. For more information, see [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md).
 
-## See also
+## Related information
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

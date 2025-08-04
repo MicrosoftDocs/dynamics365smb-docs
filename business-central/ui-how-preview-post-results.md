@@ -2,7 +2,7 @@
 title: Preview Entries Before You Post a Document or Journal
 description: You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -19,7 +19,7 @@ On every document and journal that can be posted, you can choose the **Preview P
 4. On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.  
    The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.
 
-## See Also
+## Related information
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

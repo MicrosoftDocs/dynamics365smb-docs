@@ -2,7 +2,7 @@
 title: Getting the Business Central add-in for Excel
 description: Learn how to get users the Business Central Add-in for Excel. 
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
@@ -343,7 +343,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## See also
+## Related information
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Business Central](ui-work-product.md)  

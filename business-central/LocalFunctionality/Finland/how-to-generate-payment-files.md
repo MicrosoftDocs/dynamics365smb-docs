@@ -2,7 +2,7 @@
 title: Generate Payment Files (FI)
 description: Before making electronic payments to vendors, you must create a payment file for either domestic or international payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: payment file, electronic payments, domestic payments, foreign payments
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
@@ -24,7 +24,7 @@ To send electronic payments to vendors, you must first generate a payment file f
 1. Choose the **Domestic payments** or **Foreign payments** action.  
 1. Choose the **Yes** button to create a payment file.  
 
-## See also
+## Related information
 
 - [Electronic Banking in Finland](electronic-banking-in-finland.md)
 - [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)

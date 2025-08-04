@@ -8,7 +8,8 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/01/2024
+ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
@@ -38,7 +39,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 ## Prerequisites
 
-- The **Bank account reconciliation** capability is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- The **Bank account reconciliation** capability is activated. An administrator must complete this task. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 - You're familiar with bank account reconciliation in Business Central. Learn more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot
@@ -154,9 +155,9 @@ This section explains how to use Copilot to post unreconciled bank account state
 
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## See also
+## Related information
 
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  

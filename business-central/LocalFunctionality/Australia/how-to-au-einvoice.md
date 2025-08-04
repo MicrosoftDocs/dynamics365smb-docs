@@ -2,14 +2,14 @@
 title: Electronic invoicing in Australia
 description: This article explains how to work with the Australian localization of the E-Document framework.
 author: altotovi
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: E-Documents, E-Document framework, e-invoice, electronic invoice, Peppol, PINT A-NZ
 ms.search.form: 
-ms.date: 02/14/2025
+ms.date: 03/25/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: soumramani
+ms.reviewer: v-soumramani
 ---
 
 # Electronic invoicing in Australia
@@ -40,7 +40,7 @@ To learn more about using the E-Documents framework into your purchasing and sal
 - [Use E-Documents in the sales process](../../finance-how-use-edocuments.md)
 - [Use E-Documents in the purchasing process](../../finance-how-use-edocuments-purchase.md)
   
-## See also
+## Related information
 
 - [Set up E-Documents](../../finance-how-setup-edocuments.md)  
 - [How to use E-Documents in sales](../../finance-how-use-edocuments.md)  

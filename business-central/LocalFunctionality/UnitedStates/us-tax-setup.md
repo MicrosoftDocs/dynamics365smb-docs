@@ -3,7 +3,7 @@ title: Basic Tax Setup in the US Version
 description: Learn how to set basic tax data and apply default accounts for posting calculated tax information.
 author: brentholtorf
 ms.service: dynamics-365-business-central
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.search.keywords: tax, setup
 ms.search.form: 485
 ms.date: 02/04/2025
@@ -27,7 +27,7 @@ To ensure compliance with local tax reporting, use the **Tax Setup** page to def
 > [!TIP]
 > If you are in the US, we recommend running the **Tax Setup** together with the **Set Up Sales Tax** assisted guide. Learn more about the guide and other important pages and fields to set up in [Sales Tax in the US](us-sales-tax.md).
 
-## See also
+## Related information
 
 - [United States Local Functionality](united-states-local-functionality.md)  
 - [Finance](../../finance.md)  

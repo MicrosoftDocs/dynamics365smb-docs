@@ -2,7 +2,7 @@
 title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
 description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
@@ -162,7 +162,7 @@ You can re-export payment files from the **Credit Transfer Registers** page. Bef
 
 After your bank processes the electronic payment, post the payments. For more information, see [Making Payments](payables-make-payments.md).
 
-## See also
+## Related information
 
 [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
 [Managing Payables](payables-manage-payables.md)  

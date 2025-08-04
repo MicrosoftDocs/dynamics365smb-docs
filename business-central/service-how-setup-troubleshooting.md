@@ -2,7 +2,7 @@
 title: Set Up Troubleshooting Processes | Microsoft Docs
 description: Learn how to set up processes that help service representatives identify and resolve issues with service items.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.devlang: al
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2021
@@ -23,7 +23,7 @@ You can set up troubleshooting guidelines that help technicians solve problems w
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, **Service Items**, or **Service Item Groups**, and then choose the related link.  
 2. Choose the relevant entity, and then choose the **Troubleshooting** action.  
 
-## See Also
+## Related information
 [Service Management](service-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

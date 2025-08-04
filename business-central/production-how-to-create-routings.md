@@ -4,7 +4,7 @@ description: This article gives an overview of the different ways to create rout
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
@@ -50,8 +50,7 @@ Before you can set up a routing, the following setups must be in place:
 15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> Remember to recalculate the item's standard cost from the **Item** card. Choose the **Production** action, the **Calc. Production Std. Cost** action, and then choose the **All Levels** action.  You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Update Standard Costs](finance-about-calculating-standard-cost.md#updating-standard-costs-with-standard-cost-worksheet).  
-
+> Remember to recalculate the item's standard cost from the **Item** card. Choose the **Production** action, the **Calc. Production Std. Cost** action, and then choose the **All Levels** action.  You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).
 
 ## To create routing links
 
@@ -114,7 +113,7 @@ The version principle enables you to manage several versions of a routing. The s
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
 
-## See also
+## Related information
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

@@ -61,7 +61,7 @@ To learn more, go to [Power BI Projects app](projects-powerbi-app.md).
 
 For more information, see [Power BI Manufacturing app](manufacturing-powerbi-app.md).
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)  
 [Power BI apps FAQ](across-powerbi-apps-faq.md)   

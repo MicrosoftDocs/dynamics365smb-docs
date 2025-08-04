@@ -1,16 +1,18 @@
 ---
 title: Receivables Cartera module [ES]
-description: The Receivables Cartera module allows you to manage bills generated from sales invoices using the Cartera Journal.
+description: Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
-ms.search.keywords:
-ms.date: 11/21/2023
+ms.search.keywords: receivables cartera module, manage bills, cartera journal, Spanish version
+ms.date: 05/29/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
+
 # Receivables Cartera module in the Spanish version
+
 The Receivables Cartera module allows you to manage bills generated from sales invoices. The documents are managed using:  
 
 - Due date  
@@ -21,7 +23,8 @@ The Receivables Cartera module allows you to manage bills generated from sales i
 
 You can manually create bills using the **Cartera Journal**. You can also use the Receivables Cartera module to manage all sales invoices that the company yields to a factoring company.  
 
-## Bill groups  
+## Bill groups
+
 With the Receivables Cartera module, you can manage bill groups and discount bill groups in your local currency or original currency.  
 
 There are various criteria for grouping documents in a bill group. You can group documents for the same customer, documents with the same due date, documents drawn in the same market, and so on. You can group one or more receivable documents in one bill group.  
@@ -42,14 +45,14 @@ Bill groups include:
 
 With the Receivables Cartera module, you can yield credits or factoring of sales invoice bill groups, including the finance charge calculation by the factoring company. You can request the anticipated value of the yielded invoices, or only the management of the collection.  
 
-You can use bill groups for the following:  
+You can use bill groups for the following purposes:  
 
 - Factoring without risk - The factoring company takes on the risks associated with nonpayment.  
 - Factoring with risk - You take on the risks associated with nonpayment.  
 
-## See also  
- [Cartera Module](cartera-module.md)   
- [Payments Cartera Module](payments-cartera-module.md)
+## Related information
 
+- [Cartera Module](cartera-module.md)
+- [Payments Cartera Module](payments-cartera-module.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

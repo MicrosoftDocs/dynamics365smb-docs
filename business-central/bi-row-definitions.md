@@ -16,11 +16,20 @@ ms.service: dynamics-365-business-central
 
 Row definitions in financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. You can also calculate intermediate steps that aren't shown in the final report.
 
-## Create or edit a row definition
+## Create a new row definition
 
-To create or edit a row definition, follow these steps:
+To create a new row definition, follow these steps:
 
-1. On the **Financial Reports** page, select the relevant financial report, and then choose the **Edit Row Definition** action.
+1. On the **(Financial Report) Row Definitions** page, choose the **New** action.
+1. Enter a unique name for the definition.
+1. In the **Description/* field, enter a descriptive name for the definition. This description provides context when you use the definition, but doesn't show on the report.
+1. Enter an internal description for the definition.
+
+## Edit the content of a row definition
+
+To edit the content of a row definition, follow these steps:
+
+1. On the **(Financial Report) Row Definitions** page, select the relevant definition, and then choose the **Edit Row Definition** action.
 1. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, explore the financial reports in the CRONUS demonstration company.
 
     > [!NOTE]
@@ -135,11 +144,21 @@ The following excerpt of a row definition illustrates how you can use account ca
 >
 > You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes. Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger.md#account-categories).
 
+## Find the reports that use a row definition
+
+[!INCLUDE[prod_short](includes/introduced_in_2025rw1.md)]
+
+Before you change a row definition, it can be helpful to know which reports use it so that you understand the effect of your change. To find out which reports use a row definition, follow these steps:
+
+1. On the **(Financial Report) Row Definitions** page, select the definition, and then choose the **Edit Row Definition** action.
+1. To open a list of reports that use the definition, choose the **Where-Used** action.
+
 ## Best practices for working with row definitions
 
 Row definitions aren't versioned. When you change a row definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with row definitions:
 
 * If you add row definitions, choose a good code and fill in the description field with a meaningful text while you still know what you use the row definition for. This information helps your coworkers (and your future self) to work with financial reporting and perhaps changing the row definition.
+* Use the **Where-Used** action to learn where a row definition is used before you make any changes to it.
 * Before you change a row definition, consider taking a copy of it as a backup, just in case your change doesn't work as expected. You can either just copy the definition (give it a good name), or export it. To learn more, go to [Import or export row definitions](#import-or-export-financial-reporting-row-definitions).
 * If you need a fresh copy of a definition that [!INCLUDE[prod_short](includes/prod_short.md)] provides, an easy way to get one is to create a new company that only contains setup data. Then, export the definition and import it in the company where the definition needs a refresh.
 
@@ -156,6 +175,9 @@ To import or export financial report row definitions, follow these steps:
 1. Choose the row definition, then choose the **Import Row Definition** or **Export Row Definition** action, depending on what you want to do.
 
 ## Related information
+<!-- 
+2025w1: add link to administrator article for Financial Report Lifecycle telemetry 
+-->
 
 [Column definitions in financial reporting](bi-column-definitions.md)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  

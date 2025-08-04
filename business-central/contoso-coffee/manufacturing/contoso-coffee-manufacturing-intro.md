@@ -65,7 +65,7 @@ Read the steps for each scenario in the relevant article.
 > [!IMPORTANT]
 > These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
 
-## See also
+## Related information
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Production Reports and Analytics in Business Central](../../production-reports.md)  

@@ -2,7 +2,7 @@
 title: Statutory reports in Russia
 description: Russian enhancements include support for statutory reports.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 11/08/2023
 ms.reviewer: bholtorf
@@ -40,7 +40,7 @@ Statutory reports are based on financial reports and tax registers. For each sta
 | **Tax Difference**          | The data is based on a tax difference. Learn more at [Tax Differences](tax-differences.md). |
 | **Payroll Analysis Report** | The data is based on payroll analysis.                       |
 
-## See also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Differences](Tax-Differences.md)  

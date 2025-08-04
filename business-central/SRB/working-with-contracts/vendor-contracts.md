@@ -4,7 +4,7 @@ description: You can use vendor contracts in subscription and recurring billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 08/14/2024
@@ -106,12 +106,12 @@ Recurring billing can be useful for creating a contract invoice for a contract t
 > [!NOTE]
 > Creating a contract invoice as described here is only useful in individual cases.
 
-## Related information
+## View related information from a contract
 
 You can access related information from a contract, and you can access all invoices and credit memos. You can view **Contract Deferrals** if the postings in the contract are deferred periodically.
 
 Use the **Contract Line** action to display **Billing Lines** and **Archived Billing Lines** for the selected contract line. You can also open **Archived Billing Lines** in the posted invoice and credit memo.
 
-## See also
+## Related information
 
 [Customer contracts](customer-contracts.md)

@@ -5,7 +5,7 @@ author: mikebc
 ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
@@ -30,7 +30,7 @@ The user account is now registered in Business Central and can be managed like a
 > [!NOTE]
 > Steps may vary depending on any additional security configuration that you have specified in Microsoft 365 or Business Central.
 
-## See also
+## Related information
 
 [Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
 [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  

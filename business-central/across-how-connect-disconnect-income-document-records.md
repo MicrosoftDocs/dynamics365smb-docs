@@ -50,7 +50,7 @@ You can remove file attachments from non-posted documents at any time by deletin
 
 The connection to the posted document is removed. You can now proceed to connect another incoming document record to the posted document as described in this article.
 
-## See also
+## Related information
 
 [Create Incoming Document Records](across-how-create-income-document-records.md)
 [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)

@@ -129,7 +129,7 @@ You can set up multiple journal batches, which are individual journals for each 
 2. Select the relevant journal template, and then choose the **Batches** action.
 3. On the **FA Reclass. Journal Batches** page, fill in the fields as necessary.
 
-## See also
+## Related information
 
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets overview](fa-manage.md)  

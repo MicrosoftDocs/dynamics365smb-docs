@@ -4,9 +4,9 @@ description: This walkthrough takes you through all the stages involved in setti
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 03/11/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -35,7 +35,7 @@ This walkthrough is a scenario illustrating the following tasks:
 
 Sean is a super user at CRONUS and creates two approval users. One is Alicia who represents a purchasing agent. The other is Sean themself, representing Alicia's approver. Sean then gives themself unlimited purchase approval rights and specifies that they'll receive notifications by internal note as soon as a relevant event occurs. Finally, Sean creates the required approval workflow as a copy of the existing *Purchase Order Approval Workflow* template, leaves all existing event conditions and response options unchanged, and then enables the workflow.  
 
-To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia and then requests approval of a purchase order. Sean then signs in as themself, sees the note in the Role Center, follows the link to the approval request for the purchase order, and approves the request.  
+To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia and then requests approval of a purchase order. Sean then signs in as themself, finds the note in the Role Center, follows the link to the approval request for the purchase order, and approves the request.  
 
 ## Users
 
@@ -51,7 +51,7 @@ When signed in as yourself, set up Alicia as an approval user whose approver is 
 2. On the **Approval User Setup** page, choose the **New** action.  
 
     > [!NOTE]  
-    >  You must set up an approver before you can set up users who require that approver's approval. That means you must set yourself up before you can set Alicia up.  
+    > You must set up an approver before you can set up users who require that approver's approval. That means you must set yourself up before you can set Alicia up.  
 
 3. Set up the two approval users by filling the fields as described in the following table.  
 
@@ -117,7 +117,7 @@ You define variations of workflows by filling in fields on workflow lines using 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## See also
+## Related information
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

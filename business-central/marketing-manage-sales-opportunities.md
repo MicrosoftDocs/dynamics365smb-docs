@@ -4,7 +4,7 @@ description: Describes managing any incoming lead or sales opportunity in Busine
 documentationcenter: ''
 author: jswymer
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
@@ -27,7 +27,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create sales opportunities that you have from your contacts. |[Create Opportunities](marketing-how-create-opportunities.md) |
 | Move a sales opportunity through the sales cycle to completion. |[Process Sales Opportunities](marketing-processing-sales-opportunities.md) |
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

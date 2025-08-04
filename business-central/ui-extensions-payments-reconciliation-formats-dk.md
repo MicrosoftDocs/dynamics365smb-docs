@@ -2,7 +2,7 @@
 title: Payments and Reconciliations (DK) Extension
 description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
@@ -97,7 +97,7 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 4. In the **Bank Payment Type** field, choose **Electronic Payment**.  
 5. Choose the **Export** action.  
 
-## See also
+## Related information
 
 [Customizing Business Central for [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

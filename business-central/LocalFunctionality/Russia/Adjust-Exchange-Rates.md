@@ -4,7 +4,7 @@ description: Russian enhancements include exchange rates adjustments.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
@@ -34,7 +34,7 @@ The difference for Russian task and worldwide task - Russian report create adjus
 
    3. Click "Ok".
    
-   ## See Also 
+   ## Related information 
 
 [Russia Local Functionality](russia-local-functionality.md)
 

@@ -2,7 +2,7 @@
 title: Use profiles to classify contacts
 description: Red about how to set up profile questionnaires to help classify your business contacts' profiles.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: contacts, profiles
 ms.search.form: 5109, 5110
@@ -102,7 +102,7 @@ Then fill on the **Profile Question Details** page as follows:
 
 When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
-## See Also
+## Related information
 
 [Creating Contacts](marketing-create-contact-companies.md)  
 

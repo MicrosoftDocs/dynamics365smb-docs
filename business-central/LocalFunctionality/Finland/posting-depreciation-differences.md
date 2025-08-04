@@ -2,7 +2,7 @@
 title: Posting Depreciation Differences [FI]
 description: Calculate and post the difference in accumulated depreciation between different depreciation methods in the general ledger. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: accumulated depreciation, depreciation methods
 ms.date: 02/13/2025
@@ -20,7 +20,7 @@ In Finland, the following depreciation methods are commonly used for fixed asset
 
 Finnish tax law requires the difference in accumulated depreciation between two methods to be calculated and posted in the general ledger.  
 
-## See also
+## Related information
 
 - [Finland Local Functionality](finland-local-functionality.md)  
 - [Fixed Assets](../../fa-manage.md)

@@ -2,7 +2,7 @@
 title: Set Up Base Calendars
 description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
@@ -108,7 +108,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 > [!NOTE]  
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  
 
-## See Also
+## Related information
 [Purchasing](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  

@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create and post invoices for services that you have delivered.|[Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  
 |Keep customers happy by lending them an item while you work on theirs.| [Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
-## See Also  
+## Related information  
 [Planning Service](service-plan-service.md)  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Managing Projects](projects-manage-projects.md)  

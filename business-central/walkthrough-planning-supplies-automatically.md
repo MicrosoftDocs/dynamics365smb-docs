@@ -2,7 +2,7 @@
 title: Walkthrough - Planning supplies automatically
 description: This walkthrough demonstrates how to use the supply planning system to automatically plan purchase and production orders on different sales orders. 
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords:
 ms.date: 12/06/2023
@@ -256,7 +256,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  This completes the walkthrough of how the planning system is used to automatically detect demand, calculate the appropriate supply orders according to demand and planning parameters, and then automatically create different types of supply orders with the appropriate dates and quantities.  
 
-## See also  
+## Related information  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Design Details: Supply Planning](design-details-supply-planning.md)

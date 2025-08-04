@@ -2,11 +2,11 @@
 title: Set up and generate DIOT reports | Microsoft Docs
 description: Use this extension to set up and generate DIOT declarations in Business Central for the Mexican authorities.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
-ms.search.keywords: extension, DIOT, authorities, export, compliance, DIOT declarations
+ms.search.keywords: extension, DIOT, authorities, export, compliance, DIOT declarations, DIOT reports
 ms.search.form: 27030, 27031, 27032, 27033, 27034
-ms.date: 02/26/2025
+ms.date: 06/30/2025
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -15,6 +15,9 @@ ms.reviewer: v-soumramani
 # Set up and generate DIOT reports
 
 As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[prod_short](../../includes/prod_short.md)] by generating a file that can be uploaded to SAT. This article describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[prod_short](../../includes/prod_short.md)] and is preinstalled in the online version. However, it must be installed manually in the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+
+> [!NOTE]
+> Starting with version 26.3, the exported DIOT file complies with the new SAT regulations effective in 2025. The file is in TXT format and includes 54 fields.
 
 ## What does this extension handle?
 
@@ -49,8 +52,16 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
    The setup of DIOT is now finished.
 1. Choose the **Finish** button.
 
+## Vendor setup
+
 > [!NOTE]
-> For the DIOT report, the vendor's operation type is used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor isn't passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually.
+> For the DIOT report, the vendor's operation type is used for all operations with that vendor unless you change the value of the **DIOT Type of Operation** field in the document before posting. The DIOT operation type for the vendor isn't automatically applied to purchase documents. If you want to use a different type than the one specified for the vendor, update the field manually on the purchase document.
+
+To update necessary fields on the **Vendor** card, perform the following steps:
+
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Card**, and then select the related link.
+1. Select the **Tax Effects Applied** field to indicate whether tax effects are applied to invoices for transactions with the vendor. This value is exported in the 54th field as "01" when **Tax Effects Applied** = TRUE, and as "02" otherwise.
+1. Fill in the **Tax Jurisdiction Location** field if the vendor's **Country/Region Code** isn't included in the **DIOT Country/Region** list. This field is available only when the **Country/Region Code** is set to "ZZZ" (Other).
 
 ## Optional setup for reporting withholding tax with the DIOT extension
 

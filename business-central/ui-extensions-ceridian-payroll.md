@@ -2,7 +2,7 @@
 title: Importing Payroll or Salary Data Using the Ceridian Payroll Extension
 description: Use this extension to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.search.form: 1665, 
@@ -20,7 +20,7 @@ To do this, you first import a file that you receive from the payroll provider i
 
 The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
 [Finance](finance.md)  

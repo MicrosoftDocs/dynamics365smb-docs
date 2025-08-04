@@ -2,7 +2,7 @@
 title: Clean Up Data with Retention Policies
 description: You can specify how often you want to delete certain types of data.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: bholtorf
 ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
@@ -109,7 +109,7 @@ The following example includes a mandatory filter.
 
 After a developer has added tables to the list, an administrator can include them in a retention policy. 
 
-## See also
+## Related information
 
 [Analyzing Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Auditing Changes in Business Central](across-log-changes.md)  

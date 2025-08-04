@@ -5,7 +5,7 @@ description: Purchase from Composite Vendor or Purchase of exempted goods and se
 author: v-debapd
 
     
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
@@ -45,7 +45,7 @@ For example, invoice will be issued for INR 10000 on which there is no GST is ch
 
 
 
-## See Also 
+## Related information 
 [Purchase from Registered Vendor](GST-Purchase-from-Registered-Vendor.md)
 
 

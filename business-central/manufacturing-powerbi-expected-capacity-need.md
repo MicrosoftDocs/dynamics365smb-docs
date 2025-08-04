@@ -4,7 +4,7 @@ description: The Expected Capacity Need report provides insights into the capaci
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37044_Primary
 ms.date: 11/01/2024
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Expected Capacity Need** report provides insights into the capacity you expect to require for each work center. It helps manufacturing managers plan production orders and allocate resources efficiently to meet production demands.
 
-:::image type="content" source="media/manufacturing/expected-capacity-need.png" alt-text="Screenshot of the Expected Capacity Need Power BI Report" lightbox="media/manufacturing/expected-capacity-need.png":::
+:::image type="content" source="media/manufacturing/expected-capacity-need-v26.png" alt-text="Screenshot of the Expected Capacity Need Power BI Report" lightbox="media/manufacturing/expected-capacity-need-v26.png":::
 
 ## Use the report
 
@@ -29,13 +29,13 @@ Production supervisors use this report to understand the workload on your work c
 
 ## Key Performance Indicators (KPIs)
 
-The *Expected Capacity Need* report includes the following KPIs and measures: 
+The *Expected Capacity Need* report includes the following KPIs and measures:
 
-- [Expected Capacity Need (Hours)](manufacturing-powerbi-kpis.md#expected-capacity-need-hours)
-- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
-- [Capacity Used Variance (Hours)](manufacturing-powerbi-kpis.md#capacity-used-variance-hours)
+- [Prod Order Expected Capacity Need](manufacturing-powerbi-kpis.md#prod-order-expected-capacity-need)
+- [Prod Order Actual Capacity Need](manufacturing-powerbi-kpis.md#prod-order-actual-capacity-need)
+- [Prod Order Capacity Need Dev %](manufacturing-powerbi-kpis.md#prod-order-capacity-need-dev-percent)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -53,7 +53,7 @@ Try the report here: [Expected Capacity Need](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Manufacturing app](manufacturing-powerbi-app.md)  

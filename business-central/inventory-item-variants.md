@@ -4,7 +4,7 @@ description: Learn how you can record products that are almost identical but var
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: item, variant, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 06/13/2024
@@ -55,7 +55,7 @@ If the capability is switched on, you can't post an entry if the variant isn't s
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)    
 [Set Up General Inventory Information](inventory-how-setup-general.md)    

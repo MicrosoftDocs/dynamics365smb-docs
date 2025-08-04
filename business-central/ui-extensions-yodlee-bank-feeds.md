@@ -2,7 +2,7 @@
 title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension
 description: Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.search.form: 1450, 1451, 1452, 1453, 1454, 1458, 1460, 
@@ -41,7 +41,7 @@ You can check whether a bank is supported by setting up and connecting to the En
 
 For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-## See also
+## Related information
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

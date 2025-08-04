@@ -2,7 +2,7 @@
 title: Schedule jobs for adjusting & reconciling inventory cost
 description: Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background. For example, if your company runs many tasks or processes many transactions.
 author: brentholtorf
-ms.topic: article
+ms.topic: how-to
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
@@ -49,7 +49,7 @@ To schedule a task for reconciling inventory with the general ledger, choose Cod
 > [!TIP]
 > To avoid locking, do not schedule tasks for the **Adjust Cost - Item Entries** batch job, the **Post Inventory Cost to G/L** codeunit, and tasks for posting sales or purchasing transactions at the same time. Also, make sure that they use same job queue category.
 
-## See also
+## Related information
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

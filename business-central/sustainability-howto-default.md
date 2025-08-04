@@ -2,7 +2,7 @@
 title: Sustainability default data
 description: Learn how to set up default sustainability values for your master data.
 author: altotovi
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Sustainability, emission, GHG, CSRD, carbon, CO2, value chain
 ms.search.form: 16, 30, 76, 5800, 99000754, 99000760

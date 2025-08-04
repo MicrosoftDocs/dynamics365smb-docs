@@ -4,7 +4,7 @@ description: The Power BI Manufacturing app provides insights into your manufact
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37063_Primary, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055
 ms.date: 11/01/2024
@@ -68,7 +68,7 @@ To improve production efficiency, you track the allocated hours for each work ce
 
 [!INCLUDE [power-bi-manufacturing-app](includes/power-bi-manufacturing-app.md)]
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

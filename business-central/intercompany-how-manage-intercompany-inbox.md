@@ -4,8 +4,8 @@ description: Intercompany transactions you receive from your partners are listed
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: conceptual
-ms.date: 02/06/2023
+ms.topic: how-to
+ms.date: 07/21/2025
 ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 611_Primary, 613_Primary, 615_Primary, 617_Primary, 618, 650, 651, 648, 649, 614, 642, 643, 640, 641, 616, 646, 647, 644, 645, 619, 612, 638, 639, 636, 637, Report_512
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Manage the Intercompany Inbox and Outbox
 
-The intercompany transactions that you receive from your partners are listed on the **Intercompany Inbox** page. To learn how to process incoming intercompany transactions, go to [Process incoming intercompany transactions](#process-incoming-intercompany-transactions). The intercompany transactions that you send to partners are listed on the **Intercompany Outbox** page. To learn how to process outgoing intercompany transactions, go to [To process outgoing intercompany transactions](#to-process-outgoing-intercompany-transactions).
+The intercompany transactions that you receive from your partners are listed on the **Intercompany Inbox** page. To learn how to process incoming intercompany transactions, go to [Process incoming intercompany transactions](#process-incoming-intercompany-transactions-using-the-inbox). The intercompany transactions that you send to partners are listed on the **Intercompany Outbox** page. To learn how to process outgoing intercompany transactions, go to [To process outgoing intercompany transactions](#to-process-outgoing-intercompany-transactions-using-the-outbox).
 
 However, depending on your intercompany setup, some transactions are automatically handled. You can set up the source company and partner companies to automatically create documents and journals that correspond to transactions that partners post through the intercompany general journal. To learn about using intercompany journals, go to [Fill in and post an intercompany journal](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
@@ -106,7 +106,7 @@ The following procedure describes to re-create inbox transactions, but the same 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
 2. On the **Handled IC Inbox Transactions** page, select the line with the transaction that you want to re-create in the inbox, and then choose the **Re-create Inbox Transaction** action.  
 
-## See Also
+## Related information
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

@@ -2,11 +2,11 @@
 title: Working with RDLC Layouts
 description: Get an introduction to RDLC report layouts.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: dynamics-365-business-central
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 12/04/2023
+ms.date: 06/10/2025
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
@@ -39,7 +39,7 @@ Creating and modifying RDLC layouts is an advanced task, which is typically done
 > [!NOTE]
 > Report Builder only recognizes the .rdl file type, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
 
-## See Also
+## Related information
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Set the Layout Used by a Report](ui-set-report-layout.md)  

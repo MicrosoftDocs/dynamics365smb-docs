@@ -47,7 +47,7 @@ The system then generates a closing entry, but it doesn't post the entry automat
 
 You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the Close Income Statement batch job again afterward.
 
-## See also
+## Related information
 
 [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

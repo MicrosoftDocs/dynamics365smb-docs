@@ -1,11 +1,11 @@
 ---
 title: Czech local functionality - General function
-description: This section describes the new functionality and general features in user setup for the local Czech version.
+description: Learn about the enhanced user setup features and general functionality available in the Czech local version of Business Central.
 author: ACMartinKunes
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
-ms.date: 11/20/2023
-ms.reviewer: bholtorf
+ms.date: 06/03/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -14,6 +14,7 @@ ms.author: v-pejano
 Most companies in the Czech Republic request the following improvements to be implemented in user setup and control.
 
 New functionality on the **User Setup** page in combination with the new **User Setup Lines** table allows you to set and provide the following control:
+
 - Assign a user to an employee number.
 - Set the Cash Resp. Ctr. filter for cash desk operations
 - Check document date at posting against work date or system date
@@ -30,8 +31,8 @@ New functionality on the **User Setup** page in combination with the new **User 
 - Allow complete job
 - Enable the ability to unapply items
 
-## See also
-[Czech Local Functionality](czech-local-functionality.md)  
+## Related information
 
+[Czech Local Functionality](czech-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Display custom Power BI reports
 description: You can use Power BI FactBox to display Power BI reports and gain extra insight into records data in key lists.
 author: jswymer
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 12/13/2023
@@ -116,7 +116,7 @@ Verify that the page you want displayed is the first page in your report.
 
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
 
-## See also
+## Related information
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  

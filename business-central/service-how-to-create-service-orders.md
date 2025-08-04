@@ -2,7 +2,7 @@
 title: How to Create Service Orders
 description: Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords:
 ms.date: 06/23/2021
@@ -98,7 +98,7 @@ Service orders are not deleted automatically, however, if the total quantity on 
 3. Choose **OK**.  
 
 
-## See Also  
+## Related information  
 [Service Posting](service-service-posting.md)  
 [Post a Service Order](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  

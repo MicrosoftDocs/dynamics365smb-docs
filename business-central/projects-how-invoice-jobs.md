@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project invoice
 ms.search.form: 1002, 1007, 
-ms.date: 09/03/2024
+ms.date: 03/03/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Invoice projects
 
@@ -17,7 +18,7 @@ During a project, costs from resource usage, materials, and project-related purc
 You can invoice:
 
 * Multiple projects using a **Project Create Sales Invoice** task.
-* Whole projects, some projects within a project, or individual project planning lines using the relevant action in the project pages.
+* Whole projects, projects within a project, or individual project planning lines using the relevant action in the project pages.
 * Combine multiple project planning lines from different projects into a single sales invoice using **Get Project Planning Lines** action on the **Sales Invoice** page.
 
 ## To create multiple project sales invoices
@@ -76,8 +77,24 @@ Repeat these steps if you want to add another set of project planning lines. You
 > * The **Get Project Planning Lines** action isn't available on sales orders or sales quotes.
 > * You can't filter on the **Ship-to Code** or **Contact No.** fields.
 
+## Issue a credit memo for a project
 
-## See also
+When a credit is due to a customer for something you invoiced for a project, you can create a credit memo to reimburse them. You can issue a credit memo for job planning lines of the types **Billable** or **Both Budget and Billable**. This credit memo ensures that job planning always reflects the correct planned invoice/credit memo lines for the project before you post sales invoices and credit memos. To learn more about sales credit memos, go to [Process sales returns or cancellations](sales-how-process-sales-returns-cancellations.md).
+
+To issue a credit memo for a planning line, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
+1. Open the project you want to issue a credit memo for.
+1. If the **Blocked** field is filled in, clear the field so that you can work with the project.
+1. In the **Status** field, change the status from **Completed** to **Open**.
+1. Choose the **Project Planning Lines** action.
+1. Create a new planning line, and enter the same information as the line you want to credit. However, in the **Quantity** field, enter the same quantity but as a negative value. For example, if the quantity you want to credit is 10, enter a quantity of -10.
+1. Choose the **Create Sales Credit Memo** action.
+1. On the **Project Transfer to Credit Memo** page, fill in the fields as necessary, and then choose **OK**.
+1. To review and post the credit memo, on the **Project Planning Lines** page, choose the **Sales invoices/credit memos** action.
+1. On the **Sales Credit Memo** page, review the details. If it looks good, post the memo. 
+
+## Related information
 
 [Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  

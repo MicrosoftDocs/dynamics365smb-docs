@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
-ms.date: 03/27/2024
+ms.date: 05/19/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -31,10 +31,10 @@ Another way to quickly create a workflow is to import it, for example, if you ex
 2. Choose the **New Workflow from Template** action. The **Workflow Templates** page opens.  
 3. Select a workflow template, then choose **OK**.  
 
-   The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate this is the first workflow created from the workflow template.  
+   The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate that this is the first workflow created from the workflow template.  
 4. To customize the workflow, edit the workflow steps or add new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)  

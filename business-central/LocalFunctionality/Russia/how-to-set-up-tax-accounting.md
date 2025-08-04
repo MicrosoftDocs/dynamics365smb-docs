@@ -1,8 +1,8 @@
 ---
-title: Setting up tax accounting in Russia
-description: Russian enhancements include tax accounting.
+title: Set Up Tax Accounting in Russia
+description: Learn how to activate tax accounting in Business Central for Russia. Set up tax registers, dimensions, and depreciation books to comply with local tax laws.
 author: DianaMalina
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 11/13/2023
 ms.reviewer: bholtorf
@@ -41,7 +41,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
 For more information about how to set up and customize tax registers, see [Create Tax Registers](How-to-Create-Tax-Registers.md).
 
-## See also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

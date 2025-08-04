@@ -2,7 +2,7 @@
 title: Set Up Bank Reference Files (FI)
 description: In the Finnish version, set up bank reference files to define how to import or export payment data for electronic transactions.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: Finnish electronic payments, bank reference files
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
@@ -48,7 +48,7 @@ To process electronic payments, you must first set up bank reference files to de
 
 1. Choose the **OK** button.  
 
-## See also
+## Related information
 
 - [Electronic Banking in Finland](electronic-banking-in-finland.md)
 - [Generate Payment Files](how-to-generate-payment-files.md)

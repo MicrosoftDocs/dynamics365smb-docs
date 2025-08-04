@@ -2,7 +2,7 @@
 title: Analyzing report data with Excel and XML
 description: Learn how to use Excel and XML to analyze a report dataset. 
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 09/09/2024
@@ -50,7 +50,7 @@ The **Microsoft Excel Document (data only)** option exports all columns, includi
 
 For more information about report design, see [Report Overview](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## See Also
+## Related information
 
 [Working with Reports](ui-work-report.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

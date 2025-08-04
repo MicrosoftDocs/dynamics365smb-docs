@@ -2,7 +2,7 @@
 title: Set Up Pricing and Costs for Services
 description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs and orders.
 author: brentholtorf
-ms.topic: conceptual
+ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: service, cost, service order
 ms.date: 06/25/2021
@@ -57,7 +57,7 @@ When you work with service items and service orders, you may need to register ad
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
-## See Also
+## Related information
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
 

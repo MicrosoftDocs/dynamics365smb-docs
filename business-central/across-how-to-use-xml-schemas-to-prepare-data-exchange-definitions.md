@@ -1,17 +1,14 @@
 ---
-    title: XML Schemas to Prepare Data Exchange Definitions
-    description: Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/11/2021
-    ms.author: edupont
-
+title: XML Schemas to Prepare Data Exchange Definitions
+description: Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/11/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use XML Schemas to Prepare Data Exchange Definitions
 
@@ -107,7 +104,7 @@ To enable import/export of data in XML files through the data exchange framework
 > [!NOTE]
 > In 2019 release wave 1 and earlier versions, you could generate an XMLport that was based on the schema and then import that into your solution. This is no longer supported.
 
-## See Also
+## Related information
 
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

@@ -1,0 +1,1 @@
+Review your maintenance expenses for fixed assets for different time periods. The information is broken down by maintenance types or other categories, such as fixed asset class.

@@ -1,66 +1,144 @@
 ---
-title: Manage Fixed Assets (contains video)
+title: Manage fixed assets
 description: Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
-author: edupont04
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
-ms.date: 06/15/2021
-ms.author: edupont
-
+ms.search.form: 5601_Primary, 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
+ms.date: 06/10/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Managing Fixed Assets
 
-The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
+# Manage fixed assets
 
-For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. Then you can begin to acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. This makes it possible to include any anticipated acquisitions and sales in reports.
+The fixed assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and helps ensure that their depreciation is correct. It also helps you track maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
-To keep track of fixed asset depreciations as well as other financial transactions related to fixed assets, you set up one or more depreciation books for each fixed asset in your company. Depreciation is done by running a report to calculate periodic depreciation and fill in a journal with the resulting entries, ready to be posted. [!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. For more information, see [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books per fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
+## What is a fixed asset?
 
-For each asset, you can record maintenance costs and the next service date. Keeping track of maintenance expenses can be important for budgeting purposes and for making decisions about whether to replace a fixed asset.
+Fixed assets differ from other items in your warehouse. A fixed asset, also known as a capital asset, is a tangible piece of property, plant, or equipment (PP&E) that you own or manage with the expectation that it will continue to help generate income. An asset is fixed when it’s an item that your business won’t consume, sell, or convert to cash within the next calendar year. Fixed assets are different than current assets, which are in cash or slated to be converted to cash within the next 12 months. Fixed assets also differ from your inventory, because inventory is typically consumed within a short time.
 
-Each fixed asset can be attached to one or more insurance policies. You can therefore easily verify that insurance policy amounts are in accordance with the value of the assets that are linked to the policy. This also makes it easy to monitor annual insurance premiums.
+## Types of fixed assets
 
-> [!NOTE]  
->   You can record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
+Businesses typically invest in a few types of fixed assets. Some examples are:
 
-Before you can begin to manage fixed assets, you must set up default values, fixed asset accounting, posting groups, allocation keys, journals, and posting types. For more information, see [Setting Up Fixed Assets](fa-setup.md).
+- Buildings and facilities
+- Computer equipment and software
+- Furniture and fixtures
+- Machinery
+- Vehicles
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
+## Understanding fixed asset accounting
 
-| To | See |
+Fixed asset accounting means keeping precise financial records about your capital assets. These records include details about the five stages in an asset's lifecycle. After your initial purchase, each fixed asset’s lifecycle includes at least three of the following stages:
+
+- Acquisition: You add a new fixed asset to your books.
+- Depreciation: You record an asset's periodic decline in value, which you use a depreciation method to calculate. To learn more, go to [FA Depreciation Calculation](LocalFunctionality/India/FA_Depreciation.md).
+- Revaluation: You record an assessment of the current fair market value of an asset. To learn more, go to [Revalue Fixed Assets](fa-how-revalue.md).
+- Impairment: You record a reduction in value due to events or circumstances.
+- Disposal: You sell, scrap, or use another way dispose of an asset at the end of its service life.
+
+Audits are also included in the detailed checks of your company’s accounting records after closing the books for the financial year. Whether internal or external, audits are where you might notice inconsistencies or differences between your notes and the actual state of your assets. Audits promote transparency in your assets and accounting if you’re losing more money than anticipated.
+
+## Video overview
+
+The following video covers the basics of fixed assets:
+
+> [!Video https://learn-video.azurefd.net/vod/player?id=32fa27be-9e9a-4637-bc9b-87eb994f5ae0]
+
+## Initial setup of fixed assets
+
+Before you can manage fixed assets, you must complete the following setups:
+
+- Default values
+- Fixed asset accounting
+- Posting groups and types
+- Allocation keys
+- Fixed asset journals
+
+To learn more, go to [Setting Up Fixed Assets](fa-setup.md).
+
+## Fixed assets analytics
+
+This section describes the analytical tools you can use to get insights into data about your fixed assets.
+
+| To... | See |
 | --- | --- |
+| Learn about capabilities for analyzing data about fixed assets. | [Fixed assets analytics overview](fa-analytics-overview.md) |
+| Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
+| Explore built-in reports for fixed assets. | [Built-in fixed assets reports](fa-reports.md) |
+| Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)|
+| Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
+| View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
+| View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
+
+## Register fixed assets
+
+For each fixed asset, you must set up a card that contains information about them. For example, you can set up buildings or production equipment as main assets with a component list. You can group assets in various ways, such as by class, department, or location. Then you can acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. Budgeting lets you include any anticipated acquisitions and sales in reports.
+
+| To  | See |
+| --- | --- |
+| Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 | Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[Acquire Fixed Assets](fa-how-acquire.md) |
+
+## Set up depreciations for your fixed assets
+
+To track fixed asset depreciations and other financial transactions for fixed assets, set up one or more depreciation books for each one. There are a few steps to depreciate assets:
+
+1. Run a report that calculates periodic depreciation.
+1. Fill in a journal with the resulting entries.
+1. Post the journal.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. To learn more, go to [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books for each fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
+
+| To  | See |
+| --- | --- |
+| Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
+| Calculate depreciation, post depreciation, and analyze depreciation in fixed assets reports. |[Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
+| View changed depreciation book values. | [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
+| Manually record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. | [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
+
+## Fixed assets maintenance and insurance
+
+You can record maintenance costs and the next service date for each asset. Tracking maintenance expenses can be important for budgeting purposes and deciding whether to replace a fixed asset. You can attach each fixed asset to one or more insurance policies, and verify that policy premiums align with the value of the assets.
+
+| To  | See |
+| --- | --- |
 | Record service visits, post maintenance costs, and monitor maintenance costs. |[Maintain Fixed Assets](fa-how-maintain.md) |
+| Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)|
 | Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. |[Insure Fixed Assets](fa-how-insure.md) |
+| Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
+
+## Reclassify, transfer, split up/combine, adjust value, write-down, and dispose fixed assets
+
+| To  | See |
+| --- | --- |
 | Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. |[Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
 | Adjust values of fixed assets, post appreciation, and post write-down transactions. |[Revalue Fixed Assets](fa-how-revalue.md) |
-| Calculate depreciation, post depreciation, and  analyze depreciation in fixed assets reports. |[Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
 | Post disposal transactions, view disposal ledger entries, and post partial disposals. |[Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
-| Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
+| View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
+| View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Video Overview
+## Tips for improving your fixed asset accounting
 
-The following video covers the basics of fixed assets.
+There are a few things you can implement in your accounting strategy for fixed assets that can help ensure you’re maximizing your earnings.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+- Establish a threshold for capitalization. When you purchase an item, determine a fixed amount for capitalization. The amount helps ensure your accounting books are consistent, and makes it easier for you and your team to spot accounting errors.
+- Reevaluate equipment lifecycle. It's important to correctly estimate the length of time you can use your fixed assets for their original purpose. Because accounting and depreciation rely on accurate lifecycle estimates, reevaluate when necessary because it might change over time.
+- Tag your assets. It’s essential to track and tag your assets throughout their lifecycle because many factors can affect their value. Tagging helps track your items throughout the stages of their lifecycle, and help prevent theft, eliminate misplacement, and support financial statistics.
+- Automate insight with fixed asset accounting software. Automating manual activities to track your data with fixed asset accounting software make processes easier to complete. Password protection can help provide access only to the people who need it and are trained for it.
 
-## See related [Microsoft training](/training/paths/manage-fixed-assets-transactions/)
-
-## See also
+## Related information
 
 [Setting Up Fixed Assets](fa-setup.md)  
-[Change Which Features are Displayed](ui-experiences.md)  
-[Finance](finance.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)  
+[Finance overview](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
- 
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

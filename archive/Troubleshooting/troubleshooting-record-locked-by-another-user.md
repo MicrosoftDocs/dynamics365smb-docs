@@ -3,7 +3,7 @@
     description: If you have ended ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, you may experience the following error message: “Record locked by another user”. This is caused by a lock on data in a job that is still running on the server.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

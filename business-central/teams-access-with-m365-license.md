@@ -3,8 +3,8 @@ title: Access Data in Teams without Business Central License
 description: Learn how users can get access to Business Central data in Microsoft Teams chats and channels, with only a Microsoft 365 license, but no Business Central license.
 author: jswymer
 ms.author: jswymer 
-ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.date: 02/07/2023
 ms.custom: bap-template
@@ -23,6 +23,6 @@ To learn more about access with Microsoft 365 Licenses, go to [Business Central 
 
 [Set Up Business Central Access in Teams with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  
 
-## See also
+## Related information
 
 [Troubleshoot Access with Microsoft 365 Licenses](admin-access-with-m365-license-troubleshooting.md)  

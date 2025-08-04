@@ -1,0 +1,1 @@
+Check whether you forgot to assign a fixed asset to an insurance policy.

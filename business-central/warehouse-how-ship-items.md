@@ -1,16 +1,17 @@
 ---
-title: Ship Items
+title: Ship items
 description: This article describes how to ship items from your warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
-ms.date: 02/22/2023
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
+ms.service: dynamics-365-business-central
 ---
 
-# Ship Items with a Warehouse Shipment
+# Ship items with a warehouse shipment
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
@@ -25,7 +26,7 @@ To learn more about shipping items, go to [Outbound Warehouse Flow](design-detai
 
 This article refers to methods C and D in the table. In both methods, you start by creating a shipment document from a business source document. Then you pick the specified items for the shipment.
 
-When a location requires warehouse shipments, you can ship items based on source documents that have been released to the warehouse. Releasing source documents makes the items on them ready to be handled in the warehouse. The following are examples of source documents:
+When a location requires warehouse shipments, you can ship items based on source documents that were released to the warehouse. Releasing source documents makes the items on them ready to be handled in the warehouse. The following are examples of source documents:
 
 * Sales orders
 * Purchase return orders
@@ -115,9 +116,7 @@ After you post the warehouse shipment, various fields on the sales order line ar
 >
 > The assemble-to-order quantity is handled as described in this article. The inventory quantity is handled as a regular warehouse shipment line. To learn more about combination scenarios, go to [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/).
-
-## See also
+## Related information
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

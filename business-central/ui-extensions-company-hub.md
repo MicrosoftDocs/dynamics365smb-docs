@@ -1,16 +1,16 @@
 ---
 title: Using the Company Hub
 description: Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: concept-article
+ms.devlang: al
 ms. search.keywords: 
 ms.search.form: 1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167, 
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # The Company Hub for Business Central Extension
 
@@ -24,7 +24,7 @@ When you first install the extension, a sample company helps you get started. Yo
 
 When you install the extension in your [!INCLUDE [prod_short](includes/prod_short.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Center and adds permissions to your user profile.
 
-## See also
+## Related information
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  

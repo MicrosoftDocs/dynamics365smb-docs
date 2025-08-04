@@ -1,19 +1,20 @@
 ---
-    title: Send Electronic Documents
-    description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
-    author: SorenGP
+title: Send Electronic Documents
+description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Send Electronic Documents
+
+> [!NOTE]
+> The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md).  
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports sending electronic invoices and credit memos in the PEPPOL format, a format that the largest document exchange service providers support. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
 
@@ -46,9 +47,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports s
     > [!NOTE]  
     >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document.  
 
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
-## See Also
+## Related information
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  

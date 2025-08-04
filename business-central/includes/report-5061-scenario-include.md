@@ -1,0 +1,1 @@
+Get a list of all your opportunities, including information about the sales cycle of the opportunity and related contacts and campaigns.

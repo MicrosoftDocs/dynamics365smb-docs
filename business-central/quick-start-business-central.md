@@ -1,30 +1,29 @@
 ---
-title: Business Central Quick Starts
+title: Business Central quick starts
 description: Get up and running with Business Central with quick start articles and tips that help you fill in the first critical fields.
-author: jill-kotel-andersson
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: article
 ms.search.keywords: quickstart
-ms.date: 08/25/2022
-ms.author: edupont
-
+ms.date: 04/19/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Business Central Quick Starts
+# Business Central quick starts
 
-Quick start articles help you get set up sooner so you can begin performing the basic [!INCLUDE[prod_short](includes/prod_short.md)] functions you need.
+Quick start articles help you get set-up sooner so you can begin performing the basic [!INCLUDE[prod_short](includes/prod_short.md)] functions you need.
 
-The following sections offer beginner's guides that help you get familiar with the features you need in [!INCLUDE[prod_short](includes/prod_short.md)]. In each quick start, you'll find links to more advanced content about the functionality, should you need it.
+The following sections offer beginner's guides that help you get familiar with the features you need in [!INCLUDE[prod_short](includes/prod_short.md)]. Each quick start offers links to more advanced content about the functionality, should you need it.
 
 ## Provide basic information about your company
 
-The first step is to provide the basic information about your company. This includes information such as address, bank accounts, value-added tax (VAT) number, and so on. You'll find it explained in the [Company Information Quick Start](quick-start-company-information.md).
+The first step is to provide the basic information about your company. The information includes things like your address, bank accounts, value-added tax (VAT) number, and so on. To learn more, go to [Company Information Quick Start](quick-start-company-information.md).
 
 ## Prepare basic financial information
 
-Next, it's time to enter your company's financial information so you're ready to do business. Use [!INCLUDE[prod_short](includes/prod_short.md)]'s included chart of accounts (COA) to save time. And if you need to, you can customize it in a few steps by following the [Financial Information Quick Start](quick-start-financial-information.md).
+Next, it's time to enter your company's financial information so you're ready to do business. To save time, you can use the chart of accounts that [!INCLUDE[prod_short](includes/prod_short.md)] provides. If you need to, you can customize it in a few steps by following the [Financial Information Quick Start](quick-start-financial-information.md).
 
 <!--
 ## Financial Basics
@@ -33,9 +32,9 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-## Print reports and customize documents
+## Print reports, and customize documents
 
-Learn how to customize and print reports and documents such as sales invoices to better suit your business needs in the [Basic Reports and Documents Output Quick Start](quick-start-reports-and-documents.md).
+To learn how to customize and print reports and documents, such as sales invoices, to suit your business needs, go to [Basic Reports and Documents Output Quick Start](quick-start-reports-and-documents.md).
 
 <!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
@@ -66,8 +65,8 @@ Business Intelligence
 (reports)
 -->
 
-## See also
+## Related information
 
-[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Overview of Business Functionality](across-business-functionality.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  

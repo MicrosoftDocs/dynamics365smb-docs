@@ -1,18 +1,15 @@
 ---
 title: Run Batch Jobs and XMLports
 description: You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.
-author: SusanneWindfeldPedersen
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: task, process
 ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
-ms.author: solsen
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Run Batch Jobs and XMLports
 
@@ -28,7 +25,7 @@ You can schedule when a batch job runs. For more information, see [Use Job Queue
 3. The page may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
 4. Choose the **OK** button to start the batch job.
 
-## See Also
+## Related information
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

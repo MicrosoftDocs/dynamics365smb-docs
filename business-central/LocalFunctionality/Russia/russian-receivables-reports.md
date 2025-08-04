@@ -4,11 +4,12 @@ description: Russian enhancements include receivables reports.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Russian Receivables Reports
@@ -174,7 +175,7 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 | **Report Currency**           | Enter the currency that you want to use in the report. You can choose any currency from the glossary of currencies. |
 | **Detailed**                  | Select one of these values:   -   **Full** -   **Partial** -   **None** |
 
-## See Also
+## Related information
 
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

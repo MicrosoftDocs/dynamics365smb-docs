@@ -3,12 +3,13 @@ title: Create Incoming Document Records
 description: Use different functions on the Incoming Documents page to review expense receipts, manage OCR tasks, convert incoming document files and attach external files.
 author: jswymer
 ms.topic: how-to
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/2/2023
+ms.date: 02/27/2024
 ms.author: jswymer
 ms.custom: bap-template
 ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Create incoming document records
 
@@ -65,9 +66,7 @@ If you approve the incoming document record, the **Released** check box on the i
     2. On the **Insert File** page, drag a selected the file that represents the incoming document in question or select **click here to browse** to find and open the file.
     3. On the **Incoming Document** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
 [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)

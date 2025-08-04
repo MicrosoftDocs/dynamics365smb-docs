@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!IMPORTANT]
-> Depending on your country or region, additional setup may be required. For more information, see the list of related articles in the [See Also](#see-also) section.  
+> Depending on your country or region, additional setup might be required. For more information, see the list of related articles in the [Related information](#related-information) section.

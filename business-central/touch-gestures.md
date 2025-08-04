@@ -3,13 +3,13 @@ title: "Touch and pen gestures"
 description: "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones."
 author: jswymer
 
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: article
+ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tiles
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Touch and Pen Gestures for Tablet and Phones 
@@ -31,7 +31,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## See also
+## Related information
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  

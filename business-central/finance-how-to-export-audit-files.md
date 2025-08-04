@@ -1,28 +1,25 @@
 ---
-    title: Audit file export
-    description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
-    author: altotovi
-    ms.service: dynamics365-business-central
-    ms.topic: how-to
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
-    ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
-    ms.date: 04/04/2023
-    ms.author: altotovi
-    ms.reviewer:
-
+title: Export data for auditing
+description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
+author: altotovi
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
+ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
+ms.date: 08/07/2024
+ms.author: altotovi
+ms.reviewer: bholtorf
 ---
 
-# Audit file export
+# Export data for auditing
 
 Export of bookkeeping information from the system is a common request by some local authorities or auditors. Exports of formats and required information can differ. Entries for export are usually General ledger (G/L) entries or value-added tax (VAT) entries. However, other information is sometimes required.
 
 **Audit Files Export** is a preinstalled extension that lets you export different entries, based on auditor or authority requirements. Regardless of the format type or entries, you can use the extension's functionality to control the data export process. The functionality doesn't have a preinstalled file format for export. Therefore, you must either install an app that has a specific format (for example, SIE, SAF-T, or FAC) or develop your own.
 
 > [!NOTE]
-> Currently, you can select SIE or SAF-T format as an additional app. Partners can also develop a custom format. The number of available formats will increase over time.
+> Currently, you can select SIE (Sweden), FEC (France), and SAF-T format as an additional app. Partners can also develop a custom format. The number of available formats will increase over time.
 
 ## Set up audit file export
 
@@ -52,7 +49,7 @@ Most formats that are required by authorities for G/L accounts require a specifi
 Follow these steps to provide the G/L account mapping for audit file export.
 
 1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), enter **G/L Account mapping**, and then select the related link.
-2. On the **G/L Mapping** page, select **New** to create a mapping.
+2. On the **G/L Account Mapping** page, select **New** to create a mapping.
 3. In the **Code** field, specify the mapping code that represents the reporting period.
 4. In the **Standard Account Type** field, select the type of standard G/L accounts.
 5. In the **Audit File Export Format** field, specify the audit file export format that the standard G/L accounts are linked to.
@@ -98,11 +95,10 @@ Follow these steps to provide the G/L account mapping for audit file export.
 > [!IMPORTANT]
 > If you have multiple entries to export, we don't recommend that you export them in the current session, because of possible performance issues. Instead, we recommend that you use parallel processing during non-working days or hours.
 
-## See also
-
-[Financial Management](finance.md)  
-[Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
-[Work with Dimensions](finance-dimensions.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Related information
+[Financial Management](finance.md)    
+[Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)    
+[Work with Dimensions](finance-dimensions.md)    
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

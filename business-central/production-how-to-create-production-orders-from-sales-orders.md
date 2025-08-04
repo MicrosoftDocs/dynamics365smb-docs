@@ -3,11 +3,12 @@ title: Create Production Orders from Sales Orders
 description: Learn different ways to create production orders for produced items directly from sales orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: 99000883, 99000884,
+ms.service: dynamics-365-business-central
 ---
 # Create Production Orders from Sales Orders
 
@@ -36,7 +37,7 @@ The following table describes two ways to create production orders.
 |Item Order|One production order is created for each item represented by a line in the **Sales Order Planning** page.|
 |Project Order|One multiline production order is created for all items represented by lines on the **Sales Order Planning** page. When you use project orders, the **Source Type** field of the production order contains **Sales Header**. The order has one line for each sales line item that must be produced.|
 
-## See Also  
+## Related information  
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

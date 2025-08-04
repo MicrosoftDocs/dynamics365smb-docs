@@ -1,0 +1,1 @@
+Generate a service contract quote that you can send to your customer.

@@ -1,18 +1,18 @@
 ---
-    title: Calculation of Income Tax TDS and GST on Purchase Transactions 
-    description: Calculation of Income Tax TDS and GST on Purchase Transactions
+title: Calculation of Income Tax TDS and GST on Purchase Transactions 
+description: Calculation of Income Tax TDS and GST on Purchase Transactions
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Calculation of Income Tax TDS and GST on Purchase Transactions
@@ -99,7 +99,7 @@ For example, there is a purchase invoice for INR 10,000 and 18% GST (i.e. 9% CGS
 
 
 
-## See Also 
+## Related information 
 [Purchase Return to Composite Vendor](GST-Purchase-Return-to-Composite-Vendor.md)
 
 

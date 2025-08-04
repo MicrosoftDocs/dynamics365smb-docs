@@ -1,33 +1,29 @@
 ---
-    title: How to Unapply General Ledger Entries [FR]
-    description: This article explains how to unapply general ledger entries in a very straightforward way with the Chart of Accounts feature.
-
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
-
+title: How to Unapply General Ledger Entries [FR]
+description: Learn the steps to easily unapply general ledger entries using the Chart of Accounts feature in Business Central.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: unapply general ledger entries, chart of accounts, unapply entries, French version
+ms.date: 04/16/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Unapply General Ledger Entries in the French Version
-You can unapply general ledger entries in a very straightforward way.  
 
-## To unapply general ledger entries  
+# Unapply general ledger entries in the French version
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2.  On the **Chart of Accounts** page, select the account you want to unapply entries for, and then choose the **Apply Entries** action.  
-3.  On the **Apply G/L Entries** page, select the ledger entries you want to unapply.  
-4.  Choose the **Unapply Entries** action.  
+You can unapply general ledger entries in a straightforward way.  
 
-## See Also  
+## Process to unapply general ledger entries  
+
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. On the **Chart of Accounts** page, select the account you want to unapply entries for, and then choose the **Apply Entries** action.  
+1. On the **Apply G/L Entries** page, select the ledger entries you want to unapply.  
+1. Choose the **Unapply Entries** action.  
+
+## Related information
+
 [Apply General Ledger Entries](how-to-apply-general-ledger-entries.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

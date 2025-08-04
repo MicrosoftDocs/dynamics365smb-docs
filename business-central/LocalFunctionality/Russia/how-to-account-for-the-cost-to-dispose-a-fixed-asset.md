@@ -1,23 +1,22 @@
 ---
-title: Account for the cost to dispose of an fixed asset in Russia
+title: Account for the cost to dispose fixed asset in Russia
 description: Russian enhancements include accounting for the cost of disposing of fixed assets.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/14/2023
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
-# Account for the Cost to Dispose a Fixed Asset
+# Account for the cost to dispose a fixed asset
 
-The maintenance on disposal feature enables you to account for the amount spent to dispose a fixed asset (FA) as an expense. You can post operations related to spending for the disposal of a fixed asset so that they will be reflected in the FA Write-Off Act forms. 
+The maintenance on disposal feature enables you to account for the amount spent to dispose a fixed asset (FA) as an expense. You can post operations related to spending for the disposal of a fixed asset, so that they're reflected in the FA Write-Off Act forms. 
 
 The expenses of a fixed asset disposal can be posted from general ledger journals, fixed asset journals, and purchase documents. The following procedure shows how to post the expenses for a fixed asset disposal by using the Fixed Asset General Ledger Journal. 
 
-The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA-4 report and the FA Writeoff Act FA-4a report.
+The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA-4 report and the FA Write-off Act FA-4a report.
 
 ## To set up a maintenance code
 
@@ -42,9 +41,9 @@ The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA
 
 ## To print a report with expenses on a fixed asset disposal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Writeoff Act**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Write off Act**, and then choose the related link.
 
-2. In the **FA Writeoff Act** window, enter the expenses that are posted for the fixed asset.
+2. In the **FA Write off Act** window, enter the expenses that are posted for the fixed asset.
 
 3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
@@ -53,7 +52,7 @@ The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA
 
 After the fixed asset write-off report is posted, it becomes the posted fixed asset write-off report.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 

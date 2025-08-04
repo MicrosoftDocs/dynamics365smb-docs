@@ -1,11 +1,11 @@
 ---
 
 title: Set Up and Use the Service Declaration Extension
-description: Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries.
+description: Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries/regions.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/21/2022
 ms.custom: bap-template
@@ -14,22 +14,21 @@ ms.search.form: 30, 76, 5010, 5022, 5023, 5024, 5800
 ---
 # The Service Declaration Extension
 
-In some EU countries, authorities require that businesses report the export of services to other EU countries. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although it's named **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries as a W1 version, and it can be used as-is in Belgium. For other countries, a country-based extension will be required. If a country only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
+In some EU countries/regions, authorities require that businesses report the export of services to other EU countries/regions. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although its name is **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries/regions as a W1 version, and it can be used as-is in Belgium. For other countries/regions, an extension based on the country/region is required. If a country/region only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
 
 ## Enable the Service Declaration extension
 
 After you install the extension in your environment, you need to enable it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature management**, and then choose the related link.
-2. Find **Feature: Enable using of Service Declaration (Intrastat for Services)**, and in the **Enabled for** field, choose **All Users**. Learn more about feature management at [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management) in the administration content.
-3. When you enable the feature, you should follow steps in the setup process through the Setup Wizard. The most of fields are configured by default.
-4. Add only **Service Transaction Types** in the second step by choosing the **Open the service transaction types page to specify the list of codes** option.
-5. Before you start, check the **Total number of codes** to understand how many services transaction types have already been specified.
-6. Choose **Finish** in the last step to finish the configuration.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set up an IRS 1096 feature**, and then choose the related link.
+2. Follow steps in the assisted setup guide. The most of fields are configured by default.
+3. Add only **Service Transaction Types** in the second step by choosing the **Open the service transaction types page to specify the list of codes** option.
+4. Before you start, check the **Total number of codes** to understand how many service transaction types are already specified.
+5. Choose **Finish** in the last step to finish the configuration.
 
 ## Set up the Service Declaration extension
 
-You can set up the extension manually, or by using a reporting file in Data Exchange Definitions.
+You can set up the extension manually, or by using a reporting file on the **Data Exchange Definitions** page.
 
 ### To set up Service Declaration manually
 
@@ -40,13 +39,13 @@ You can set up the extension manually, or by using a reporting file in Data Exch
     |---------|---------|
     |**Declaration No. Series**     | Specifies the number series to use to assign IDs to new records.        |
     |**Report Item Charges**  | Specifies whether item charges must be reported. If enabled, [!INCLUDE [prod_short](includes/prod_short.md)] checks the service transaction code for item charges and includes them in service declarations.        |
-    |**Sell-To/Bill-To Customer No.**     | Specifies the customer to use to compare their country code with the country code on the **Company Information** page. Only documents where these two codes are different will be included in the service declaration.<br><br>* **Bill-To.**: Use the country code from the **Bill-to Customer** <br<br>* **Sell-To.**: Use the country code from the **Sell-to Customer**.        |
-    |**Buy-From/Pay-To Vendor No.**  | Specifies which vendor to use to compare their country code with the country code from the **Company Information** page. Only documents where these two codes are different will be included in the service declaration.<br><br> * **Buy-From.**: Use the country code from the **Buy-From Vendor**. <br><br> * **Pay-To.**: Use the country code from the **Pay-To Vendor**.         |
+    |**Sell-To/Bill-To Customer No.**     | Specifies the customer to use to compare their country code with the country code on the **Company Information** page. Only documents where these two codes are different are included in the service declaration.<br><br>* **Bill-To.**: Use the country code from the **Bill-to Customer** <br<br>* **Sell-To.**: Use the country code from the **Sell-to Customer**.        |
+    |**Buy-From/Pay-To Vendor No.**  | Specifies which vendor to use to compare their country code with the country code from the **Company Information** page. Only documents where these two codes are different are included in the service declaration.<br><br> * **Buy-From.**: Use the country code from the **Buy-From Vendor**. <br><br> * **Pay-To.**: Use the country code from the **Pay-To Vendor**.         |
     |**Data Exch. Def. Code**  | Specifies the data exchange definition code used to generate the exported file for the service declaration.        |
     |**Enable Tax Registration No.**     |  Specifies whether the **Tax Registration No.** is enabled for the service declaration.       |
 
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Transaction Types**, and then choose the related link.
-4. On the lines, specify **Codes** and **Descriptions** for the service transaction types you'll use.
+4. On the lines, specify **Codes** and **Descriptions** for the service transaction types you use.
 
 ### Set up a reporting file
 
@@ -62,10 +61,10 @@ You can set up the extension manually, or by using a reporting file in Data Exch
 8. On the **Field Mapping** FastTab, add the columns you previously configured in the **Column Definitions** FastTab, and then add the following:
    1. Specify the **Field ID** for each of the columns.
    2. Specify the **Transformation Rule** for each column as needed. The rule transforms imported text to a supported value before it can be mapped to a specified field in [!INCLUDE[prod_short](includes/prod_short.md)]. When you choose a value in this field, the exact value is entered in the **Transformation Rule** field in the **Data Exch. Field Mapping Buf.** table, and vice versa.
-9. To group entries based on columns, on the **Field Grouping** FastTab, choose the fields you want to use for grouping.
+9. To group entries based on columns, choose the fields to use for grouping on the **Field Grouping** FastTab.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] comes with a preconfigured data exchange definition for **Service Declaration** for all localized countries. Learn more about creating a new data exchange definition at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+> [!INCLUDE[prod_long](includes/prod_long.md)] comes with a preconfigured data exchange definition for **Service Declaration** for all localized countries/regioins. Learn more about creating a new data exchange definition at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 ## Other related configurations
 
@@ -131,9 +130,9 @@ You can submit the service declaration as a file based on different local author
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Declarations**, then choose the related link.
 2. Choose the service declaration you want to report as a file.
-3. If you haven't already done so, fill in the service declaration manually, or choose the **Suggest Lines** action.
+3. Fill in the service declaration manually, or choose the **Suggest Lines** action.
 4. Choose the **Create File** action.
-5. The service declaration file will be saved in the required format.
+5. The service declaration file is saved in the required format.
 
 ## Other considerations
 
@@ -141,24 +140,22 @@ When you're using the **Service Declaration** extension, there are a few more th
 
 ### Grouping lines
 
-On service declaration lines, there is no grouping by any field. All entries are copied from the original document as a source.
+On service declaration lines, there's no grouping by any field. All entries are copied from the original document as a source.
 
-Grouping required by authorities will be provided in the exported file. You must configure the groups in the **Data Exchange Definition**, which is fully configurable. Learn more at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+Grouping required by authorities is provided in the exported file. You must configure the groups in the **Data Exchange Definition**, which is fully configurable. Learn more at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 ### Using services in document lines
 
-When you create a purchase, sales, or service  invoice, you'll find two fields related to service declarations on their lines. Both fields are filled in with the default values from your item, resource, or item charge set ups.
+When you create a purchase, sales, or service  invoice, there are two fields related to service declarations on their lines. Both fields are filled in with the default values from your item, resource, or item charge set ups.
 
 - **Service Transaction Type Code** - Specifies the code for a service transaction type.
 - **Applicable For Service Declaration** - Specifies whether an item or resource is applicable for a service declaration.
 
 You can change the values in these fields, but if you select the **Applicable For Service Declaration** field, you must specify a value in the **Service Transaction Type Code** field. If you don't, you can't post the document.
 
-If you specify a value in the **Service Transaction Type Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line won't be calculated when you do.
+If you specify a value in the **Service Transaction Type Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line isn't calculated.
 
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
-## See also
+## Related information
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  

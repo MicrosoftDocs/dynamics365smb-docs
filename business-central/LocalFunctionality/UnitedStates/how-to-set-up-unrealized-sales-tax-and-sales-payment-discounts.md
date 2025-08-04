@@ -1,29 +1,26 @@
 ---
-title: Unrealized Sales Tax & Sales Payment Discounts
+title: Unrealized sales tax and sales payment discounts
 description: You can use the General Ledger Setup page to set up unrealized sales tax in the US version. 
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: unrealized sales tax, sales payment discounts
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 06/25/2021
-ms.author: edupont
-
+ms.date: 02/04/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Set Up Unrealized Sales Tax and Sales Payment Discounts in the US Version
+
+# Set up unrealized sales tax and sales payment discounts in the US version
 
 [!INCLUDE [unrealized-sales-tax-sales-payment-discounts-setup](../includes/CAMXUS/unrealized-sales-tax-sales-payment-discounts-setup.md)]
 
-## See Also
+## Related information
 
-[United States Local Functionality](united-states-local-functionality.md)  
-[Reporting Sales Tax in the US](us-sales-tax.md)  
-[Finance](../../finance.md)  
-[Setting Up Finance](../../finance.md)  
-
+- [United States Local Functionality](united-states-local-functionality.md)  
+- [Reporting Sales Tax in the US](us-sales-tax.md)  
+- [Finance](../../finance.md)  
+- [Setting Up Finance](../../finance-setup-finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

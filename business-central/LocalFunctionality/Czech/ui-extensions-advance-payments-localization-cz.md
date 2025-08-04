@@ -1,12 +1,10 @@
 ---
 title: Advance Payments Localization for Czech (Extension) 
-description: This section describes Advance Payments Localization for Czech extension functionality.
+description: Learn about the Advance Payments Localization extension, including its features for managing advance invoices, payments, and VAT compliance.
 author: v-pejano
-
-
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 09/01/2021
+ms.date: 06/06/2025
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -19,13 +17,13 @@ The Advance Payments functionality allows you to receive Advance Invoices from s
 
 **The module includes:**
 
-- Sales and Purchase Advance Invoices
-- Advance Payments received and issued
+- Sales and Purchase Advance## Mes
+- Advance ments received and issued
 - Tax Documents and Tax Credit Notes for Advance Payments received or issued
 
 **Main functions of the module:**
 
-- Creation of Sales or Purchase Advance Invoices according to the settings of Advance Payment Templates
+- Creation of Sales## r Purchase Advance Invoices ording to the settings of Advance Payment Templates
 - Create advances from Sales Orders based on a percentage or amount entered
 - Proposing advances into a Payment Order and, on the other side, payment of advances by the bank
 - Connection to the  Cash Desk module for the possibility of paying advances by cash
@@ -35,9 +33,11 @@ The Advance Payments functionality allows you to receive Advance Invoices from s
 - Working with foreign currency, exchange rate differences between Advance Payment and Invoice
 - Possibility to unassign payment to Advance Invoice or additional linking
 - Option to unlink final invoice to Advance Payment or additional linking
+- Support for Responsibility Center for Advance Documents to display only documents relevant to a specific user
 - Reports for recapitulation of payments and drawdown of advances, reports for recapitulation of VAT on advances
 
-## See Also
+## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+- [Czech Local Functionality](czech-local-functionality.md)
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)

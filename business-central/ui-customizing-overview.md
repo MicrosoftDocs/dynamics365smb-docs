@@ -1,18 +1,16 @@
 ---
 title: Customizing Business Central
 description: Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Customize Business Central
 
@@ -29,11 +27,9 @@ There are different ways to customize the application to give you and your colle
 |Install an app|Install apps that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an app that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing with Apps](ui-extensions.md)|
 
 > [!NOTE]
-> All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+> All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essentials** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-## See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
-
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

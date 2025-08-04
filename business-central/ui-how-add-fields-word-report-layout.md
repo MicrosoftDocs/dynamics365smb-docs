@@ -1,16 +1,14 @@
 ---
-    title: How to Add Fields to a Word Report Layout
-    description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
-    author: jswymer
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 11/25/2021
-    ms.author: jswymer
-
+title: How to Add Fields to a Word Report Layout
+description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
+author: jswymer
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 10/01/2024
+ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Work with Word Layouts
@@ -30,26 +28,26 @@ If you're designing a Word report layout from scratch or adding new data fields,
 
 ## Embedding Fonts in Word Layouts for Consistency
 
-To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ## Adding data fields
 
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
   
 > [!NOTE]  
->  You cannot modify built-in report layouts<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
+> You cannot modify built-in report layouts<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
 ###  <a name="OpenXMLPart"></a> To open the Custom XML part for the Report in Word  
   
-1. If not already open, then open the Word report layout document in Word.  
+1. If it's not already open, then open the Word report layout document in Word.  
   
      For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).  
   
-2. Show the **Developer** tab in the ribbon of Microsoft Word.  
+2. Display the **Developer** tab in the ribbon of Microsoft Word.  
   
-     By default, the **Developer** tab is not shown in the ribbon. For more information, see [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
+     By default, the **Developer** tab is not shown in the ribbon. Learn more at [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
-3. On the **Developer** tab, choose **XML Mapping Pane**.  
+3. On the **Developer** tab, select **XML Mapping Pane**.  
   
 4. In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for [!INCLUDE[prod_short](includes/prod_short.md)] report, which is typically last in the list. The name of the custom XML part has the following format:  
   
@@ -68,7 +66,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
 2. In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
   
     > [!NOTE]  
-    >  You cannot add a field by manually typing the dataset field name in the content control. You must use the **XML Mapping** pane to map the fields.  
+    > You cannot add a field by manually typing the dataset field name in the content control. You must use the **XML Mapping** pane to map the fields.  
   
 ### To add repeating rows of data fields to create a list  
   
@@ -140,9 +138,9 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 ### Custom XML part in Word
 
- In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
+ In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (learn more at [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their column name as defined in the report's dataset in AL code. For more information, see [Defining a Report Dataset](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
+ The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their column name as defined in the report's dataset in AL code. Learn more in [Defining a Report Dataset](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  The following figure illustrates the simple custom XML part from the previous section in the **XML Mapping** pane of a Word document.  
   
@@ -156,9 +154,9 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 * The language of the label that is displayed when you run the report depends on the language setting of the report object.  
   
-## See Also
+## Related information
 
-[Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
+[Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

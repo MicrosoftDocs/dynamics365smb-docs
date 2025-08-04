@@ -1,32 +1,40 @@
 ---
-title: Purchase Reports and Analytics
-description: See which purchase reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
-author: AndreiPanko
-
-
-ms.topic: conceptual
+title: Purchasing reports and analytical tasks
+description: Learn which purchase reports are available in the standard version of Business Central so that you can keep track of your business.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720 
-ms.date: 06/01/2021
-ms.author: andreipa
-
+ms.search.form: Report_307, Report_308, Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720 
+ms.date: 10/14/2024
+ms.service: dynamics-365-business-central
 ---
-# Purchase Reports and Analytics in Business Central
+# Purchasing reports and analytical tasks
 
-Purchase reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows procurement and business professionals to get insights and statistics about current and past purchase activities.  
+Purchasing reports and analytical tasks give procurement and business professionals insights and statistics about current and past purchase activities.
 
-## Reports
+## Explore purchasing reports with Report Explorer
+
+[!INCLUDE [purchasing_reports_report_explorer](includes/purchasing-reports-report-explorer-include.md)]
+
+## Purchasing report overview
+
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Tasks
-The following articles describe some of the key tasks for analyzing the state of your business:
+## Analytical tasks in purchasing
 
-* [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
-* [View the Availability of Items](inventory-how-availability-overview.md)  
+The following articles describe some of the key tasks for analyzing the state of your purchasing:
 
+- [View the availability of items](inventory-how-availability-overview.md)
+- [Calculate dates for purchases](purchasing-date-calculation-for-purchases.md)
+- [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## See also
-[Setting Up Purchase](purchasing-setup-purchasing.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
+## Related information
+
+[Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)  
+[Setting up purchase](purchasing-setup-purchasing.md)  
+[Purchasing overview](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

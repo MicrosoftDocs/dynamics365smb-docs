@@ -1,13 +1,13 @@
 ---
 title: Use Online Maps to Find Locations and Directions
 description: Learn about using address data in Business Central to get an online map with route directions.
-author: rubenseishima
-
-ms.service: dynamics365-business-central
-ms.topic: article
+author: brentholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
 ms.search.form: 21, 26, 76, 86, 88, 300, 370, 800, 804, 5050, 5200, 5703
 ms.date: 07/15/2022
-ms.author: a-reishima
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Use Online Maps to Find Locations and Directions
 
@@ -17,7 +17,7 @@ You can get a map from your online map service that shows the address and locati
 * Customer card
 * Vendor card
 * Resource card
-* Job card
+* Project card
 * Bank account card
 * Contact card
 * Employee card
@@ -43,7 +43,7 @@ You can get a map from your online map service that shows the address and locati
 > [!NOTE]
 > The online map opens in the default browser or app, which may request access to the device's location data.
 
-## See also
+## Related information
 
 [Set Up Online Maps](across-online-maps-setup.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

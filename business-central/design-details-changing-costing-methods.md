@@ -2,17 +2,14 @@
 title: Design Details - Changing Costing Methods for Items
 description: Learn how to assign a different costing method to an item although you have already used the item in transactions.
 author: brentholtorf
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Design Details: Change the Costing Method for Items
@@ -82,8 +79,8 @@ To make the new items fully useful you must manually copy some master data from 
 | |Standard journals |Check whether standard journals reference the original item and transfer that data to the new item when necessary. This information is found on the standard journals, which are available on the item journal.  |
 |Sales |Sales prepayment percentage | Check whether any sales prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Sales**, and then **Prepayment Percentages**.|
 |Purchase |Purchase prepayment percentage |Check whether any purchase prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Purchases**, and then **Prepayment Percentages**. |
-|Warehouse |Bin contents |Review the bin content defined for the original item. If columns such as as Min. Qty., Max. Qty., Default, and Dedicated have been individually entered then you must manually create bin content for the new item. If they are not, no action is required. [!INCLUDE[prod_short](includes/prod_short.md)] will maintain the records when you register warehouse documents and journals.|
-|Job |Job Prices |Check whether job prices are defined for the original item and transfer that data to the new item. This information is available on the **Job Card** page in the **Job Details – No. of Prices** part on the **FactBox pane**. |
+|Warehouse |Bin contents |Review the bin content defined for the original item. If columns such as Min. Qty., Max. Qty., Default, and Dedicated have been individually entered then you must manually create bin content for the new item. If they are not, no action is required. [!INCLUDE[prod_short](includes/prod_short.md)] will maintain the records when you register warehouse documents and journals.|
+|Job |Job Prices |Check whether project prices are defined for the original item and transfer that data to the new item. This information is available on the **Project Card** page in the **Project Details – No. of Prices** part on the **FactBox pane**. |
 |Service |Service resource skill |Check whether service resource skills are defined for the original item and transfer that data to the new item. To view resource skills, use the **Resource Skills** action on the **Item Card** page.  |
 | |Service item components |Check whether components are defined for the original service item and transfer that data to the new item. To view service item components, on the **Item Card** page use the **Service Item** action to open the list of related service items, and then choose the **Components** action.  |
 |Production |Production BOMs |Check whether any production BOMs contain the original item and replace it with the new item. To replace the original item, on the **Production BOMs** page, choose the **Exchange Production BOM Item** action. |
@@ -158,7 +155,7 @@ The following table lists functional areas where there might be outstanding quan
 |Planning |Requisition worksheet, planning worksheet, and order planning |
 |Warehouse |Transfer orders, warehouse shipments, warehouse journals, and warehouse picks, put-aways, and movements, internal picks and put-aways, and bin creation worksheets |
 |Assembly |Assembly documents, including orders, return orders, and blanket orders |
-|Jobs |Job planning lines and job journal lines |
+|Jobs |project planning lines and project journal lines |
 |Service |Service documents and service contracts |
 |Production |Production orders (planned, firm planned, and released) |
 
@@ -177,7 +174,7 @@ We recommend the following:
 1. Assess the feasibility of the process by taking one, or maybe a few, representative items through the entire process.
 2. Consider contacting an experienced partner who can help you with the process.
 
-## See Also
+## Related information
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Overview](design-details-inventory-costing.md)

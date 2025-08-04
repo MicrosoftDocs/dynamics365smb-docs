@@ -4,11 +4,12 @@ description: You can manage your fixed assets utilizing the fixed assets acts fe
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Release, Track, and Write off Fixed Assets
@@ -135,7 +136,7 @@ During the sale or disposal of a fixed asset, you may want to write-off the rema
 
 4. Choose the **OK** button  to post your entries and record the write-off of the fixed asset.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 

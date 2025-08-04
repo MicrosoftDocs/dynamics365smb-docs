@@ -1,21 +1,20 @@
 ---
-title: Set Up a VAT Statement
-description: This topic tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
+title: Set up a VAT statement
+description: This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
 author: brentholtorf
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 317, 318, 320, 474
-ms.date: 06/16/2021
+ms.search.form: 315, 317, 318, 320, 474
+ms.date: 08/13/2024
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Set Up VAT Statement Templates and VAT Statement Names
 
-Tax authorities can, and do, change their requirements for posting VAT. VAT Statement templates and VAT statement names can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to setup different Reports when choosing to print the statement. Each VAT Statement Template can have multiple Vat Statement names which in turn define the calculations, and you can create a new VAT statement name when requirements change. For example, one name might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Names are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
+# Set up VAT statement templates and VAT statement names
+
+Tax authorities can, and do, change their requirements for posting VAT. VAT Statement templates and VAT statement names can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to set up different Reports when choosing to print the statement. Each VAT Statement Template can have multiple Vat Statement names, which in turn define the calculations, and you can create a new VAT statement name when requirements change. For example, one name might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Names are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
 
 ## To define a VAT statement
 
@@ -23,7 +22,7 @@ VAT statements let you calculate your VAT settlement amount for a certain period
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
-3. Fill in the required fields. Usually you want to have a setting for each VAT Bus. Posting Group / VAT Prod. Posting Group combination. For Row numbers it does make sense to use equvalent numbers or codes as in your official VAT Statement [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fill in the required fields. Usually you want to have a setting for each VAT Bus. Posting Group / VAT Prod. Posting Group combination. For Row numbers it does make sense to use equivalent numbers or codes as in your official VAT Statement [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totaling** is useful when you want the VAT from a specific account.
@@ -39,17 +38,15 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 2. Enter a date filter to limit the statement to a specific period. For more information about how to customize the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
 3. You can select various options to specify the type of VAT entries to include in the statement.
 4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.
-5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized VAT Amount, if you are using unrealized VAT.
+5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized VAT Amount, if you're using unrealized VAT.
 
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
+## Related information
 
-## See also
-
-[Set Up Value-Added Tax](finance-setup-vat.md)  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
-[Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-[Local functionality in Business Central](about-localization.md)
+[Set Up Value-Added Tax](finance-setup-vat.md)    
+[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    
+[Report VAT to a Tax Authority](finance-how-report-vat.md)    
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)    
+[Local functionality in Business Central](about-localization.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

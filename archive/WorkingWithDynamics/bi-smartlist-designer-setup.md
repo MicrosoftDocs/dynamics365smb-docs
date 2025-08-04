@@ -1,13 +1,12 @@
 ---
 title: Get SmartList Designer
 description: Install the SmartList Designer so that you can create queries across your Business Central data.
-author: bmeier90
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: SmartList
 ms.date: 10/01/2020
-ms.author: edupont
+ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 <!--# Get SmartList Designer
@@ -28,7 +27,7 @@ The following procedure will take you through the steps to install and set up Sm
 7. Choose the relevant fields to agree to each of the terms that are listed.
 8. Choose **Install**.
 9. Navigate back to the **SmartList Designer Setup** page in [!INCLUDE [prodshort](includes/prodshort.md)].
-10. Verify that the **SmartList Designer App ID** and **Azure AD Tenant ID** fields are populated.
+10. Verify that the **SmartList Designer App ID** and **Microsoft Entra tenant ID** fields are populated.
 11. Select **OK**
 
 > [!Note]

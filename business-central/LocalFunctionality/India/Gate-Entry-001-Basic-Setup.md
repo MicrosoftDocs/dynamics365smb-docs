@@ -1,19 +1,16 @@
 ---
-    title: Setting up Gate Entry Tracking
-    description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
-
-    author: v-debapd
-
-    
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-
+title: Setting up Gate Entry tracking
+description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
+author: v-debapd
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 12/12/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
+
 # Setting up Gate Entry Tracking
 
 A process in any organization, used to keep track of entrance and exit of materials or other entities, to and from the organization’s premises, is termed as Gate Entry.
@@ -67,7 +64,7 @@ The **"Gate Entry"** system provides a physical control over the goods, which ar
 
 
 
-## See Also 
+## Related information 
 [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md)
 
 

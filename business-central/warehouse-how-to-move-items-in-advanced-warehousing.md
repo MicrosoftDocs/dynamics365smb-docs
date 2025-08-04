@@ -1,16 +1,17 @@
 ---
-title: Move Items in Warehouses That Use Directed Put-away and Pick
+title: Move items in warehouses that use directed put-away and pick
 description: This article explains how to move items in locations that use directed put-away and pick.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
-ms.date: 02/22/2023
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.form: 7351,
+ms.service: dynamics-365-business-central
 ---
 
-# Move Items in Advanced Warehouse Configurations That Use Directed Put-away and Pick
+# Move items in advanced warehouse configurations that use directed put-away and pick
 
 You can move items between bins without a demand from a source document. For example, you might want to do that as part of the following activities:
 
@@ -117,9 +118,12 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 3. If required, enter your user ID when you start work on a put-away.  
 
     To optimize the put-away process, you can sort the put-away lines by various criteria. For example, by item, shelf number, or due date.
-
+   
     * If the Take and Place lines for each receipt line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
-    * If the bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work around the bin locations.  
+    * If the bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work around the bin locations.
+
+  > [!NOTE]  
+  > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, sorting is done by destination type based on the **Warehouse Destination Type** field.
 
 4. Perform the put-away.
 
@@ -138,9 +142,7 @@ If you must register the fact that items has been already moved to other bins wi
 2. Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3. Choose the **Register** action.  
 
-## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
-
-## See Also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

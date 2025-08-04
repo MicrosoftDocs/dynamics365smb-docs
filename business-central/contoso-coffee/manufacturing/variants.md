@@ -3,9 +3,9 @@ title: Variants
 description: Walkthrough to learn how to update demand forecast for each variant of a product in Business Central. 
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Variants
@@ -28,17 +28,17 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     4. Set the **Create Per** field to *Location & Variant*.
 
-    5. Set a filter for location to *North*, and then choose the **OK** button.
+    5. Set a filter for location to *MAIN*, and then choose the **OK** button.
 
     6. Choose the **Stockkeeping Units** action.  
 
     7. Update the production BOMs for the following stockkeeping units:
 
-        1. RED on NORTH, set SP-SCM1006-RED  
+        1. RED on MAIN, set SP-SCM1006-RED  
 
-        2. WHITE on NORTH, set SP-SCM1006-WHITE  
+        2. WHITE on MAIN, set SP-SCM1006-WHITE  
 
-        3. Keep Production BOM No. empty for BLACK on NORTH  
+        3. Keep Production BOM No. empty for BLACK on MAIN  
 
 2. Update Manufacturing Setup and respect demand forecast on locations and variants.  
 
@@ -50,7 +50,7 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     4. Close the **Manufacturing Setup** window.
 
-3. Create a new monthly demand forecast, *AUTODRIP*. Filter it by the item SP-SCM1006 and location NORTH. Set demand for May for each variant. 
+3. Create a new monthly demand forecast, *AUTODRIP*. Filter it by the item SP-SCM1006 and location MAIN. Set demand for May for each variant. 
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *demand forecast*, and then select the related link.
 
@@ -64,17 +64,17 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     6. Switch on the **Use forecast on location** field.
 
-    7. In the **Location Filter** field, select *NORTH*.
+    7. In the **Location Filter** field, select *MAIN*.
 
     8. Switch on the **Use forecast on variant** field.
 
     9. For each line updated values in the May column
 
-        1. RED on NORTH, set 100
+        1. RED on MAIN, set 100
 
-        2. WHITE on NORTH, set 200
+        2. WHITE on MAIN, set 200
 
-        3. BLACK on NORTH, set 300
+        3. BLACK on MAIN, set 300
 
     10. Close Demand Forecast windows
 
@@ -98,6 +98,6 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     9. For each created line, choose the **Components** action and review which paint is used.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

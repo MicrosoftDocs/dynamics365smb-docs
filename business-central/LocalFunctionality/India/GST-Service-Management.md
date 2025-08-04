@@ -1,18 +1,18 @@
 ---
-    title: GST on Service Management
-    description: GST on Service Management
+title: GST on Service Management
+description: GST on Service Management
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST on Service Management
 
@@ -49,7 +49,7 @@ Service Management has been designed to streamline your organization’s service
 > [!NOTE]
 > - Accounting entries are similar to accounting entries generated for sales transactions.
 
-## See Also
+## Related information
 [GST Input Service Distribution Overview](GST-Input-Service-Distribution-Overview.md)
 
 

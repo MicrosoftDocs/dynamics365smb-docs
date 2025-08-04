@@ -1,16 +1,15 @@
 ---
 title: US tax rates | Invoicing
 description: Learn about how to add sales tax in Invoicing. Add a default tax rate based on your own address, and add tax rates for your customers.
-author: edupont04
-
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tax rates
 ms.date: 10/01/2019
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # US tax rates in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
@@ -41,7 +40,7 @@ If you set up new tax rates, you must make sure that you fill in the fields corr
 
 You can optionally click or tap **Set as default tax rate**. The default rate is automatically applied to any taxable document or item.  
 
-If you or your customers are in a country that uses valued added tax (VAT), such as the United Kingdom, see [Add value added tax (VAT) to your invoices](add-vat.md).  
+If you or your customers are in a country/region that uses valued added tax (VAT), such as the United Kingdom, see [Add value added tax (VAT) to your invoices](add-vat.md).  
 
 ## See Also
 

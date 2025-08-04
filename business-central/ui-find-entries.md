@@ -2,15 +2,14 @@
 title: Finding Related Entries for Documents
 description: Learn how to find documents, business contacts, and item entries that are related to each other.
 author: jswymer
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: concept-article
+ms.devlang: al
 ms.search.keywords: find
-ms.search.form: 344
+ms.search.form: 344_Primary
 ms.date: 05/23/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Finding Related Entries for Documents
 
@@ -47,9 +46,7 @@ After you make a selection, enter the relevant search information in the fields 
 > [!TIP]
 > For a couple of examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
 
-## See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
-
-## See also
+## Related information
 
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)  

@@ -1,18 +1,18 @@
 ---
-    title: Purchase from Registered Vendors
-    description: Purchase from Registered Vendors
+title: Purchase from Registered Vendors
+description: Purchase from Registered Vendors
 
     
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Purchase from Registered Vendors
 
@@ -192,7 +192,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
-## See Also 
+## Related information 
 [Purchase from Unregistered Vendor (Reverse Charge)](GST-Purchase-from-Unregistered-Vendor-RCM.md)
 
 

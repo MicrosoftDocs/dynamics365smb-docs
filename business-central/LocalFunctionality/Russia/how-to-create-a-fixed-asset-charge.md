@@ -4,11 +4,12 @@ description: Russian enhancements include fixed asset charges.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Create a Fixed Asset Charge
@@ -33,7 +34,7 @@ The following procedure shows how to create a new fixed asset charge.
    | **G/L Acc. For Released FA** | Specify the general ledger account to post the fixed asset charge amount to when the fixed asset is released. |
    | **Tax Difference Code FA**   | Specify the tax difference code that is associated with the fixed asset charge. |
 
-## See Also
+## Related information
 
 [Setting Up Fixed Assets](../../fa-setup.md)  
 

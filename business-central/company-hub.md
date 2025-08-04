@@ -1,17 +1,20 @@
 ---
 title: Manage Work across Multiple Companies in the Company Hub
 description: Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
-author: edupont04
-
-
-ms.topic: conceptual
+author: brentholtorf
+ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 09/28/2023
+ms.author: bholtorf
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Manage Work across Multiple Companies in the Company Hub
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page that gives a financial overview across companies and environments. It provides users with a tool for managing work across the various environments that they work in, across companies, environments, and regions.  
 
@@ -87,9 +90,9 @@ But to add a company, you must have been given access to one or more instances o
 
 For example, if you are an accountant, your clients can invite you to their [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).  
 
-Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Azure AD account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Microsoft Entra account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## See also
+## Related information
 
 [Add companies to your company hub](company-hub-add-company.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  

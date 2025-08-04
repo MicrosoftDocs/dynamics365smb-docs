@@ -1,0 +1,1 @@
+View the machine center setup in your company, which can help you manage and schedule production activities efficiently.

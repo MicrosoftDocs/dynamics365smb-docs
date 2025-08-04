@@ -3,7 +3,7 @@
     description: When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications. To work more efficiently, you can use keyboard shortcuts to perform tasks without using the mouse.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

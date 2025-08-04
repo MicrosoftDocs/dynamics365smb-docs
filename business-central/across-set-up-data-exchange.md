@@ -1,17 +1,14 @@
 ---
 title: Set up data exchange to send and receive files
 description: Set up the data exchange framework in order to exchange data with external files; to send and receive electronic documents or import and export bank files.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: concept-article
+ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Data Exchange
 
@@ -36,9 +33,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  

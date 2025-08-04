@@ -1,18 +1,15 @@
 ---
-title: Russia Local Functionality
-description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+title: Russia local functionality
+description: The following articles describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 author: AliiaSalikhova
-
-
-ms.topic: conceptual
-ms.workload: na
+ms.topic: article
 ms.search.keywords:
-ms.reviewer: edupont
-ms.date: 08/26/2022
+ms.reviewer: bholtorf
+ms.date: 11/07/2023
 ms.author: soalex
-
+ms.service: dynamics-365-business-central
 ---
-# Russia Local Functionality
+# Russia local functionality
 
 There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prod_short](../../includes/prod_short.md)] to calculate value-added tax (VAT) due based on Russian VAT rates and regulations.
 
@@ -69,7 +66,7 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
     * [VAT Reinstatement](VAT-reinstatement.md) **Available Now**  
     * [Vendor Tax Agent Scheme](Vendor-Tax-Agent-scheme.md) **Available Now**  
 
-* Tax Accounting
+* Tax accounting
     * [Tax Accounting](Tax-Accounting.md) **Available Now**
     * [Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md) **Available Now**  
     * [Tax Registers](Tax-Registers.md) **Available Now**  
@@ -93,7 +90,7 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
     * [Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md) **Available Now**
     * [Bill of Lading](bill-of-lading.md) **2022 release wave 1**
 
-* Human Resources
+* Human resources
     * [Human Resources](Human-Resources.md) **Available Now**
     * [Payroll](Payroll.md) **Available Now**
     * [Establishment of Charges and Deductions to the Employee](Establishment-of-charges-and-deductions-to-the-employee.md) **Available Now**
@@ -104,9 +101,9 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
 
 ## Future legislation requirements being investigated
 
-Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, you could submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See also
+## Related information
 
 [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  

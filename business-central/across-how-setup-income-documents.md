@@ -1,17 +1,14 @@
 ---
 title: Set Up Incoming Documents
 description: Set up the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Incoming Documents
 
@@ -46,9 +43,7 @@ To turn PDF and image files into electronic documents that you can convert to in
 
 For more information, see [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).  
 
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

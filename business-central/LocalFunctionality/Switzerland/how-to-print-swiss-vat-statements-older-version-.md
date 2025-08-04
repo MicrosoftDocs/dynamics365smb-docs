@@ -1,23 +1,20 @@
 ---
-    title: How to Print Swiss VAT Statements (older version)
-    description: The Swiss VAT Statement is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting.
-
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+title: How to Print Swiss VAT Statements (older version)
+description: Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: Swiss VAT statement, VAT statement, Swiss version
+ms.date: 04/29/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
+
 # Print Swiss VAT Statements (older version)
 
 > [!NOTE]  
->  This topic is retained for backward compatibility with the **Swiss VAT Statement** report. For information about using the newer Swiss VAT Statement, see Swiss VAT Statement.  
+> This article is retained for backward compatibility with the **Swiss VAT Statement** report. For information about using the newer Swiss VAT Statement, see Swiss VAT Statement.  
 
 The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **Swiss VAT Statement** includes the following:  
 
@@ -25,14 +22,14 @@ The **Swiss VAT Statement** is the standard calculation report for realizing VAT
 - VAT adjusting entries.  
 - An accounting sheet.  
 
-## To print the Swiss VAT statement  
+## Steps to print the Swiss VAT statement  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Swiss VAT Statement**, and then choose the related link.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Swiss VAT Statement**, and then choose the related link.  
 
     > [!NOTE]  
-    >  You will receive a message stating that the **Swiss VAT Statement** will open in the local language.  
+    > You'll receive a message stating that the **Swiss VAT Statement** will open in the local language.  
 
-2.  On the **Options** FastTab, fill in the fields as described in the following table.  
+1. On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -48,11 +45,11 @@ The **Swiss VAT Statement** is the standard calculation report for realizing VAT
     |**Service Foreign Bus. Group**|Select the foreign service business and product group.|  
     |**Export Bus. Group**|Select the business and product group for exports.|  
 
-3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
+1. Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
 
-## See Also  
- [Swiss Value Added Tax](swiss-value-added-tax.md)   
- [VAT Rates for Switzerland](vat-rates-for-switzerland.md)
+## Related information
 
+- [Swiss Value Added Tax](swiss-value-added-tax.md)
+- [VAT Rates for Switzerland](vat-rates-for-switzerland.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

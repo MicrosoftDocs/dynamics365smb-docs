@@ -1,56 +1,63 @@
 ---
-title: Financial Reports and Analytics
-description: See which financial reports and analytics are available in the standard version of Business Central so you can keep track of your business. Use report 38 for profit/loss (P&L) reporting.
-author: edupont04
-
-
-ms.topic: conceptual
+title: Built-in finance reports in Business Central
+description: Explore the built-in financial reports in the standard version of Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 08/24/2022
-ms.author: edupont
-
+ms.search.form: Report_1, Report_3, Report_4, Report_5, Report_6, Report_7, Report_9, Report_10, Report_11, Report_12, Report_13, Report_16, Report_17, Report_18, Report_19, Report_20, Report_25, Report_27, Report_28, Report_30, Report_31, Report_32, Report_33, Report_36, Report_37, Report_38, Report_512, Report_503, Report_743, Report_1123, Report_1125, Report_1126, Report_1127, Report_1128, Report_1129, Report_1133, Report_1138, Report_4405, Report_1700, Report_1701, Report_1702,  Report_2500, Report_10007, Report_10008
+ms.date: 05/20/2024
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# Financial Reports and Analytics in Business Central
 
-Financial reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives financial and business professionals the power to create, maintain, deploy, and view financial statements. Goes beyond traditional reporting constraints to help you efficiently design various types of reports. [!INCLUDE [prod_short](includes/prod_short.md)] includes several reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. Financial reporting includes support for dimensions, so account segments or dimensions are immediately available; no other tools or configuration steps are required.  
+# Built-in finance reports in Business Central
+
+[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department.
+
+## Explore finance reports with Report Explorer
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+## Core finance reports
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Reports
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Tasks
+## Deferral reports
 
-The following articles describe some of the key tasks for analyzing the state of your business:
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-* [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)  
-* [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-* [Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
-* [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
-* [Create Reports with XBRL](bi-create-reports-with-xbrl.md)  
-* [Manage Database Access Intent](admin-data-access-intent.md)  
+[!INCLUDE [finance_reports_deferrals](includes/finance-reports-deferrals-include.md)]
 
-## See related [Microsoft training](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## VAT reports
 
-## See also
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-[Creating Cost Budgets](finance-create-cost-budgets.md)  
-[Report VAT to Tax Authorities](finance-how-report-vat.md)  
-[Closing Years and Periods](year-close-years-periods.md)  
-[Use Pre-Closing Reports](year-prepare-preclose-reports.md)  
-[Preparing Closing Statements](year-prepare-close-statement.md)  
-[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Work with Dimensions](finance-dimensions.md)  
-[Accounts Receivable Reports and Analytics](receivables-reports.md)  
-[Accounts Payable Reports and Analytics](payables-reports.md)  
-[Fixed Assets Reports and Analytics](fa-reports.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[Finance](finance.md)  
-[Local Functionality Overview](about-localization.md)  
-[Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
+[!INCLUDE [finance_reports_vat](includes/finance-reports-vat-include.md)]
 
+## Consolidation and intercompany reports
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
+
+## Cost accounting reports
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_cost_accounting](includes/finance-reports-cost-accounting-include.md)]
+
+
+## Related information
+
+[Accounts Receivable Reports](receivables-reports.md)  
+[Accounts Payable Reports](payables-reports.md)  
+[Fixed Assets Reports](fa-reports.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
+[Power BI finance app](finance-powerbi-app.md)  
+[Financial analytics](bi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

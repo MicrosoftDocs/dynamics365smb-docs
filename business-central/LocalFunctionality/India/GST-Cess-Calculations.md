@@ -1,18 +1,18 @@
 ---
-    title: Cess Calculation
-    description: Cess Calculation
+title: Cess Calculation
+description: Cess Calculation
 
     
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Cess Calculation
 
@@ -156,7 +156,7 @@ Suppose, **Cess Amount per Unit Factor** is INR 140 and  **Cess Factor Quantity*
 
 
 
-## See Also 
+## Related information 
 [GST Cess Basic Setup](GST-Cess-Basic-Setup.md)
 
 

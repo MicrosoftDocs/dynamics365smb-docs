@@ -2,16 +2,15 @@
 title: Use the Business Central apps in Power BI
 description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
+# Use the [!INCLUDE [prod_short](includes/prod_short.md)] apps in Power BI
 
 > **APPLIES TO:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -37,15 +36,15 @@ The apps are designed to work with data from any company in [!INCLUDE[prod_short
 
 ## Prerequisites
 
-Power BI apps require permissions to the tables where data is retrieved from and the web services used to retrieve data. The following table lists the web services required for each Power BI app:
+Power BI apps require permissions to the tables where data is retrieved and the web services used to retrieve data. The following table lists the web services required for each Power BI app:
     
-|App | Web services|
-|----|-------------|
+|App|Web services |
+|--|-------------|
 |[!INCLUDE[prod_short](includes/prod_short.md)] – CRM| <ul><li>Sales Opportunities</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
 |[!INCLUDE[prod_short](includes/prod_short.md)] – Finance| <ul><li>PowerBIFinance</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
 |[!INCLUDE[prod_short](includes/prod_short.md)] – Sales| <ul><li>Item Sales by Customer</li><li>Sales Dashboard</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
 
-> [!TIP]
+> [!TIP] 
 > An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure that the **Publish** field is selected for the web services listed above. For more information, see [Publishing a Web Service](across-how-publish-web-service.md).
 
 ## Get ready
@@ -54,19 +53,22 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
 ## Install a [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
-1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
-2. Select **Get Data** at the bottom of the left navigation pane.  
+1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign in to your account.
+2. Select **Apps** on the navigation pane.
+    
+    The **Apps** page appears.
 
-    ![Navigating to Get Data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+3. On the **Apps** page, select **Get apps** from the upper right corner of the page.
+    
+    The **Power BI apps** page opens, where you can browse for the apps that are available for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    You can also get starting from within [!INCLUDE [prod_short](includes/prod_short.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organization** from the ribbon. Either the Organization gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
+    ![Navigating to Get apps.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-3. In the **Services** box, select **Get**.
+> [!TIP] 
+> You can also access the **Power BI Report** from [!INCLUDE [prod_short](includes/prod_short.md)]. Navigate to the Power BI Reports section and **Select reports** on your Home page. Choose either **Services** or **My Organization** from **Get Reports**. The Organization gallery in Power BI or Microsoft AppSource will open, displaying only apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    This step opens the **Power BI Apps** page, which lets you browse for Power BI app available in **AppSource**.  
-
-4. In the **Search** box, enter **Dynamics 365 Business Central**.
-5. Select app that you want to use, select **Get it now**, and then **Install**.  
+5. In the **Search** box, enter **Dynamics 365 Business Central**.
+6. Select app that you want to use, select **Get it now**, and then **Install**.  
 
     When completed, the app will be available from **Apps** on the navigation menu in Power BI.
 
@@ -93,7 +95,7 @@ The Power BI dashboard relies on the published web services that are listed abov
 
 A Power BI account hasn't been set up. You must have a license to get a valid Power BI account. Also, you must have previously signed into Power BI to create your Power BI workspace.  
 
-### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
+### Message: There are no enabled reports. Select report to see a list of reports that you can display.
 
 This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)] and manually select the report from the **Select Reports** page.
 
@@ -138,20 +140,18 @@ Once the Power BI app installs and your data show in Power BI, you notice that n
 
 The Power BI app will only display data from the [!INCLUDE[prod_short](includes/prod_short.md)] company that was defined when the Power BI app was installed. Data from additional companies can be added to the reports by adding new queries that use different companies as the data source.  
 
-### What Now?
+### What now?
 
 - Try [asking a question in the Q&A box](/power-bi/service-q-and-a-tips) at the top of the dashboard.
 - [Change the tiles](/power-bi/service-dashboard-edit-tile) in the dashboard.  
 - [Select a tile](/power-bi/service-dashboard-tiles) to open the underlying report.  
 - By default, your dataset isn't scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using **Refresh Now**. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## See Also
+## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Connect to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] on-premises](across-working-with-business-central-in-powerbi.md)  
 [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
 [Business Intelligence](bi.md)  
 [Get Ready for Doing Business](ui-get-ready-business.md)  

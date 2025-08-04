@@ -4,11 +4,12 @@ description: Russian enhancements include prepayments from customers.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Customer Prepayments
@@ -44,7 +45,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
 
 You can now invoice and collect advance payments from customers and post the payments to the correct invoices and accounts.
 
-## See Also
+## Related information
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -1,21 +1,19 @@
 ---
-title: Accounting for Costs Overview
+title: Accounting for costs overview
 description: Cost accounting helps you understand the costs of running a business. This article provides links to other articles with more information.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: concept-article
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1123
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 07/25/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Accounting for Costs
-Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  
+
+# Accounting for costs
+Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following articles.  
 
 |To|See|  
 |--------|---------|  
@@ -26,10 +24,9 @@ Cost accounting is used to help you understand the costs of running a business. 
 |Allocate costs.|[Defining and Allocating Costs](finance-define-and-allocate-costs.md)|  
 |Learn the processes in creating cost budgets.|[Creating Cost Budgets](finance-create-cost-budgets.md)|
 |Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)|
+|Analyze your cost accounting data.| [Cost accounting reports](finance-cost-accounting-reports.md) |
 
-## See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
-## See Also  
+## Related information  
 [Finance](finance.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

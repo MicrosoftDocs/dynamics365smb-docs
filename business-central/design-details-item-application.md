@@ -1,17 +1,15 @@
 ---
 title: Design Details - Item Application | Microsoft Docs
 description: This topic describes where inventory quantity and value are recorded when you post an inventory transaction.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Item Application
 
@@ -137,13 +135,13 @@ If the user had not made the fixed application between the purchase credit memo 
 
 The following table shows the result on the item's value entries if step 2 in the previous scenario is performed without a fixed application.  
 
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|1|200.00||No|1|1|  
-|01-01-20|Purchase|1|1000.00||No|2|2|  
-|01-01-20|Purchase|-1|433,33||Yes|3|3|  
-|01-01-20|Purchase|1|100.00||No|4|4|  
-|01-01-20|Sale|-2|866,67||Yes|5|5|  
+|01-01-20|Purchase|1|200.00|No|1|1|  
+|01-01-20|Purchase|1|1000.00|No|2|2|  
+|01-01-20|Purchase|-1|433,33|Yes|3|3|  
+|01-01-20|Purchase|1|100.00|No|4|4|  
+|01-01-20|Sale|-2|866,67|Yes|5|5|  
 
 In entry number 3, the value in the **Cost Amount (Actual)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes -433,33, which is an inflated cost amount. The calculation is 1300 / 3 = .-433,33.  
 
@@ -238,7 +236,7 @@ Because of the way an item's unit cost is calculated, an incorrect item applicat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
 
-## See Also  
+## Related information  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  

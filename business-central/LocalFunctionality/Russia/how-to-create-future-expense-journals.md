@@ -4,11 +4,12 @@ description: Russian enhancements include future expenses.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Create Future Expense Journals
@@ -66,7 +67,7 @@ You must select **Future Expenses** in the **Type** field of the **General Journ
 
 The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup (percentage) on the basis of the posted amount, and VAT deduction (realized VAT) will be posted.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)  
 

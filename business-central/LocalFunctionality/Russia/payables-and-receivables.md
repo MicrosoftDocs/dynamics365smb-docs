@@ -2,24 +2,22 @@
 title: Payables and receivables in Russia
 description: Russian enhancements include payables and receivables in the Russian version.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/07/2023
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
-
-# Payables and Receivables in the Russian version
+# Payables and receivables in the Russian version
 
 In Russia, there are specific [!INCLUDE[prod_short](../../includes/prod_short.md)] features that you can use to track and manage your accounts payable and accounts receivable.
 
-## Getting Started with Payables and Receivables
+## Getting started with payables and receivables
 
 Use the following table to learn more about the payables and receivables features that are available for Russia.
 
-| Topic                                            | Description            |
+| Article                                            | Description            |
 | ------------------------------------------------ | ---------------------- |
 | [Enter Custom Declarations Information](How-to-Enter-Custom-Declarations-Information.md) | Enables you to create and print customs declarations for import and export goods. |
 | [Set Up and Create Letters of Attorney](How-to-Set-Up-and-Create-Letters-of-Attorney.md) | Enables you to create and print a Letter of Attorney that you can use to authorize an individual or organization to act on the behalf of another in a legal or business matter. |
@@ -31,7 +29,7 @@ Use the following table to learn more about the payables and receivables feature
 |[Prepayment differences](prepayment-differences-invoices-prepayment-differences.md)|Enables you to post prepayment differences.|
 | [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md) | Enables you to set up agreements with customers and vendors. |
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

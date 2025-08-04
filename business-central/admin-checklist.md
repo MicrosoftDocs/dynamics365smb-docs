@@ -1,14 +1,14 @@
 ---
 title: Onboard Users with Checklists
 description: Learn how to set up checklists that help users get started in Business Central.
-author: edupont04
-
-
-ms.topic: conceptual
+author: brentholtorf
+ms.topic: checklist
 ms.search.keywords: setup, wizard, checklist
 ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Onboard Users with Checklists
 
@@ -27,7 +27,7 @@ The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_shor
     > [!TIP]
     > If the step is for a setup guide, the **Task** field specifies the setup guide. If the step is for learning more, the **Task** field specifies the link to the article or e-learning module.
 
-## See also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  

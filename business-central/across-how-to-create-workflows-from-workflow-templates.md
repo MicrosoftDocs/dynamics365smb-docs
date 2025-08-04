@@ -1,25 +1,29 @@
 ---
-title: How to Create Workflows from Workflow Templates
-description: To save time when creating new approval workflows, you can create non-editable workflows from the workflow templates prefixed with "MS".
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+title: How to create workflows from workflow templates
+description: To save time when creating new approval workflows, you can create workflows from workflow templates.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 09/08/2022
-ms.author: edupont
-
+ms.date: 05/19/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Create Workflows from Workflow Templates
+# Create workflows from workflow templates
 
-To save time when creating new approval workflows, you can use workflow templates.  
+On the **Workflow** page, you create a workflow by creating a series of workflow steps on the lines. Each step consists of a workflow event (When Event), moderated by event conditions (On Condition), and a workflow response (Then Response), moderated by response options. The fields on workflow lines provide fixed lists of event and response values that represent the scenarios that [!INCLUDE [prod_short](includes/prod_short.md)] supports. Learn more at [Create Workflows](across-how-to-create-workflows.md).
 
-Workflow templates are non-editable workflows that exist in the default version of [!INCLUDE[prod_short](includes/prod_short.md)]. The codes for workflow templates created by Microsoft are prefixed with "MS-".  
+To save you time when you create approval workflows, [!INCLUDE [prod_short](includes/prod_short.md)] provides workflow templates. The templates are available on the **Workflow Templates** page. You can use the templates as they are, or customize them to meet your needs. The codes for the workflow templates from Microsoft are prefixed with **MS-**.
 
-Another way to quickly create a workflow is to import an existing workflow you have on a file outside of [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
+[!INCLUDE [workflow-next-step](includes/workflow-next-step.md)]
 
-On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
+If you change a workflow template, but later regret the change, use the **Reset Microsoft Templates** action to revert to the original setting for the workflow.
+
+> [!CAUTION]
+> The **Reset Microsoft Templates** action resets all of the Microsoft workflow templates. You can't reset a single template.  
+
+Another way to quickly create a workflow is to import it, for example, if you exported it from another instance of [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
 
 ## To create a workflow from a workflow template
 
@@ -27,12 +31,10 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 2. Choose the **New Workflow from Template** action. The **Workflow Templates** page opens.  
 3. Select a workflow template, then choose **OK**.  
 
-   The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate this is the first workflow created from the workflow template.  
-4. Proceed to create the workflow by editing the workflow steps or adding new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
+   The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate that this is the first workflow created from the workflow template.  
+4. To customize the workflow, edit the workflow steps or add new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)  

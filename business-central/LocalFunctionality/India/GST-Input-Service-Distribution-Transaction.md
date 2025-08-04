@@ -1,18 +1,18 @@
 ---
-    title: Transactions for Input Service Distributor
-    description: Transactions for Input Service Distributor
+title: Transactions for Input Service Distributor
+description: Transactions for Input Service Distributor
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Transactions for Input Service Distributor
 
@@ -178,7 +178,7 @@ In this document we are going to discuss the process and entries of input servic
     |**IGST Expense Account**|-1800|
     |**Vendor Account**|11800|
 
-## See Also 
+## Related information 
 [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
 
 

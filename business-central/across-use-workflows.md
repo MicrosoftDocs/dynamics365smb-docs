@@ -1,16 +1,15 @@
 ---
 title: Using Approval Workflows
 description: You can set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records. 
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: concept-article
 ms.search.keywords: 
 ms.search.form: 1500, 1501, 1503, 1504, 1505
-ms.date: 09/13/2022
-ms.author: edupont
-
+ms.date: 02/20/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Use Approval Workflows
 
@@ -21,7 +20,7 @@ The workflows can be designed to create requests for approval of a record field 
 The business logic could be the approval of:
 
 - New master data such as general ledger (G/L) accounts, customers, vendors, or items.
-- Changes to fields in existing records containing sensible information, such as **Vendor Bank Account No.** or **Customer Credit Limit**.
+- Changes to fields in existing records containing sensitive information, such as **Vendor Bank Account No.** or **Customer Credit Limit**.
 - Changes to fields in existing records containing business critical information, such as **Item Sales Prices**.
 - New users or changes to user permissions.
 - Purchase documents.
@@ -65,9 +64,7 @@ Before you can begin using workflows, you must set up workflow users, create the
 | View workflow step instances with **Completed** status. | [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) |
 | Delete an approval workflow that will no longer be used. | [Delete Approval Workflows](across-how-to-delete-workflows.md) |
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
-## See also
+## Related information
 
 [Setting Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

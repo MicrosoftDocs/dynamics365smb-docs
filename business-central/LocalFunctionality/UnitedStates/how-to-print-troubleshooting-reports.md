@@ -1,27 +1,23 @@
 ---
-    title: How to Print Troubleshooting Reports [US]
-    description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the US version.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+title: How to print troubleshooting reports [US]
+description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the US version.
+author: brentholtorf
+ms.topic: troubleshooting-general
+ms.devlang: al
+ms.search.keywords: troubleshooting reports, Microsoft Certified Partners
+ms.date: 02/04/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Print Troubleshooting Reports in the US Version
+# Print troubleshooting reports in the US version
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## See Also
+## Related information
 
-[United States Local Functionality](united-states-local-functionality.md)  
-[Finance](../../finance.md)  
-[Setting Up Finance](../../finance.md)  
-
+- [United States Local Functionality](united-states-local-functionality.md)  
+- [Finance](../../finance.md)  
+- [Setting Up Finance](../../finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

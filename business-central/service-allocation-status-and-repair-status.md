@@ -1,17 +1,14 @@
 ---
-    title: Allocation Status and Repair Status | Microsoft Docs
-    description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: resources, allocation, status, repairs
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-
+title: Allocation Status and Repair Status | Microsoft Docs
+description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: resources, allocation, status, repairs
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Allocation Status and Repair Status of Service Items
 The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items on the **Service Tasks** page and you can update the repair status in the **Repair Status Code** field on the **Service Item Worksheet** page. You can view the allocation status in the **Status** field on the **Resource Allocations** page.  
@@ -62,7 +59,7 @@ When you reallocate a service item in an allocation entry that has the status **
   
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
-## See Also  
+## Related information  
 [Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
 

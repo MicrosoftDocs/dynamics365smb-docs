@@ -2,13 +2,12 @@
 title: Set Up FA User-Defined Depreciation Method
 description: In Business Central, you can apply a user-defined depreciation method for defining your asset's depreciation method on the Fixed Asset Card page.
 author: jill-kotel-andersson
-
-
-ms.reviewer: edupont
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Fixed Assets with User-Defined Depreciation Methods
@@ -31,7 +30,7 @@ The formula for calculating the depreciation amounts is:
 2. Select the fixed asset that you want to set up a fixed asset depreciation book for.
 3. Choose the **Related** action, and then choose **Fixed Asset**, and then **Depreciation Books**. This opens the **FA Depreciation Books** page.
 
-   By default, some of the fields that need to be filled in per the instructions below are hidden, so you must display them. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+   By default, some of the fields that need to be filled in per the instructions below are hidden, so you must display them. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 4. In the field **Depreciation Method**, select **User-Defined**.
 5. In the field **Depreciation Table Code**, select the **Depreciation Table** you want to use.
 6. In the field **Depreciation Starting Date**, select the starting date for the depreciation calculation.
@@ -96,7 +95,7 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 | 12/31/24 |Depreciation |None |None |0 |
 
 
-## See Also
+## Related information
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)  

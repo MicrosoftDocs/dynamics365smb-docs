@@ -3,7 +3,9 @@ metadata:
   title: Copy and paste data FAQ
   description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
   ms.topic: faq
-title: Copy and Paste FAQ
+  ms.date: 04/26/2024
+  ms.service: dynamics-365-business-central
+title: Copy and paste FAQ
 summary: |
   You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
 

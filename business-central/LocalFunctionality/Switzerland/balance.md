@@ -1,20 +1,18 @@
 ---
-    title: G/L Balance [CH]
-    description: This topic explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 11500
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+title: G/L balance [CH]
+description: Learn how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: provisional balance, G/L balance, G/L account balance, Swiss version
+ms.search.form: 11500
+ms.date: 04/28/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# General Ledger Balance in the Swiss Version
+
+# General ledger balance in the Swiss version
 
 When you choose the **Balance** action on the **G/L Accounts** page, the **G/L Acc. Provisional Balance** page opens. It shows the balance of the final posted ledger entries and the balance of the postings entered in the current general journal.  
 
@@ -24,17 +22,11 @@ For example, after recording customer payments you can check whether the bank ba
 
 You can choose between two options:
 
-* **All Journals**
+- **All Journals**: The unposted balance for all general ledger registers is calculated. It also includes values from ledgers that have another journal name not shown at the time.
+- **Actual Journal**: The unposted balance for the currently displayed general journal only is calculated.
 
-    The unposted balance for all general ledger registers is calculated. It also includes values from ledgers that have another journal name not shown at the time.
-
-* **Actual Journal**
-
-    The unposted balance for the currently displayed general journal only is calculated.
-
-## See Also
+## Related information
 
 [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

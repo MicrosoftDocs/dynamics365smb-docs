@@ -3,11 +3,11 @@ title: Design Details - Availability in the Warehouse
 description: Learn about the different factors that affect item availability in your warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: article
 ms.date: 02/22/2023
 ms.custom: bap-template
-
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Availability in the Warehouse
 
@@ -74,6 +74,10 @@ The result is displayed in the **Total Available Quantity** field on the **Reser
 
 On a reservation line, the quantity that can't be reserved because it's allocated in the warehouse is displayed in the **Qty. Allocated in Warehouse** field on the **Reservation** page.  
 
+## Check whether items are available for picking
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Calculating the quantity available to reserve
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calculates the quantity available to reserve as follows:  
@@ -84,10 +88,10 @@ The following diagram shows the different elements of the calculation.
 
 ![Avaliable to reserve per warehouse allocation.](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [View the Availability of Items](inventory-how-availability-overview.md)
-
+[Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

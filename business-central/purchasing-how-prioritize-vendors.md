@@ -1,18 +1,16 @@
 ---
-title: Assign a Priority Level to a Vendor (contains video)
+title: Assign a Priority Level to a Vendor
 description: You can assign numbers to your vendors or suppliers to prioritize them and facilitate payment suggestions in Business Central.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Prioritize Vendors
 
@@ -20,7 +18,7 @@ ms.author: edupont
 
 First, you must prioritize your vendors by assigning numbers to them.
 <br><br>
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=283f5ccb-3cbb-48c5-b50d-fd91466e8094]
 
 ## To prioritize vendors
 
@@ -32,7 +30,7 @@ First, you must prioritize your vendors by assigning numbers to them.
 
 If you do not want to prioritize a vendor, leave the **Priority** field blank. Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number. You can enter as many priority levels as necessary.
 
-## See also
+## Related information
 
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

@@ -1,17 +1,15 @@
 ---
-    title: Set Up Statuses for Service Orders and Repairs | Microsoft Docs
-    description: You must set up nine repair status options that identify the progress of repair and maintenance of service items in service orders.
-    author: SorenGP
+title: Set Up Statuses for Service Orders and Repairs | Microsoft Docs
+description: You must set up nine repair status options that identify the progress of repair and maintenance of service items in service orders.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Statuses for Service Orders and Repairs
 
@@ -44,7 +42,7 @@ Repeat steps 2 and 3 until you have set the priority for each of the four status
 
 Repeat these steps for each of the repair status options you want to create.
 
-## See Also
+## Related information
 
 [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  

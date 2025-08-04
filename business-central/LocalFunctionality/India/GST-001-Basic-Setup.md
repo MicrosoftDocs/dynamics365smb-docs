@@ -1,18 +1,18 @@
 ---
-    title: Setting up Goods and Service Tax
-    description: Specifies Basic Setups required
+title: Setting up Goods and Service Tax
+description: Specifies Basic Setups required
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Goods and Services Tax
 
@@ -23,7 +23,7 @@ Business Central has included GST Feature to Indian Localization.
 
 It is a destination-based tax on consumption of goods and services. It is levied at all stages from manufacture up to final consumption with credit of taxes paid at previous stages available as setoff. Briefly, only value addition is taxed and burden of tax is to be borne by the final consumer.
 
-GST is a comprehensive tax levy on manufacture, sale and consumption of goods and services at a national level. It has subsume indirect taxes like excise duty, countervailing duty and service tax, as also state levies like Value Added Tax, Octroi, Entry Tax, Luxury Tax, etc.
+GST is a comprehensive tax levy on manufacture, sale and consumption of goods and services at a national/regional level. It has subsume indirect taxes like excise duty, countervailing duty and service tax, as also state levies like Value Added Tax, Octroi, Entry Tax, Luxury Tax, etc.
 
 
 ## Setting Up Goods and Service Tax
@@ -355,7 +355,7 @@ Below is the list of masters requiring setup of GST
 
 
 
-## See Also 
+## Related information 
 [Purchase from Composite Vendor](GST-Purchase-from-Composite-Vendor.md)
 
 

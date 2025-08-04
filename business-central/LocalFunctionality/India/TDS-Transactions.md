@@ -1,18 +1,18 @@
 ---
-    title: TDS calculation on Purchase and Payment Transactions
-    description: TDS calculation on Purchase and Payment Transactions
+title: TDS calculation on Purchase and Payment Transactions
+description: TDS calculation on Purchase and Payment Transactions
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # TDS Calculation on Purchase and Payment Transactions
 
@@ -210,7 +210,7 @@ In this scenario, vendor issued an invoice for INR 100000 towards professional s
 
 
 
-## See Also 
+## Related information 
 [TDS Threshold](TDS-Threshold.md)
 
 

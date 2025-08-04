@@ -3,9 +3,9 @@ title: Using General Functionality Across Business Areas
 description: Learn about the functionality and features that are used across business areas in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: jswymer
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: concept-article
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
@@ -45,7 +45,7 @@ The following table lists these general business areas with links to articles th
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 | Use online maps to find locations and directions to customers, vendors, and addresses in general. | [Use Online Maps to Find Locations and Directions](across-online-maps.md) |
 
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)  

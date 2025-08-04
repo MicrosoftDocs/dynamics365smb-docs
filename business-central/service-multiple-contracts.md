@@ -1,17 +1,15 @@
 ---
-    title: Multiple Contracts | Microsoft Docs
-    description: Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.
-    author: SorenGP
+title: Multiple Contracts | Microsoft Docs
+description: Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Multiple Contracts
 Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.  
@@ -39,7 +37,7 @@ You can automatically create a service contract or contract quote for service it
 ## Creating Service Orders for Multiple Contracts  
 You can manually create a service order for a service item that is registered in multiple active contracts. A service contract is active when it is signed and not expired.  
   
-## See Also  
+## Related information  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
 

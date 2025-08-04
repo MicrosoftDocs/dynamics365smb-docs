@@ -1,20 +1,17 @@
 ---
-title: Process Sales Return Orders
+title: Process sales return orders
 description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
-ms.date: 09/08/2021
-ms.author: edupont
-
+ms.date: 03/05/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Process Sales Return Orders  
+# Process sales return orders  
 
 If you need more control of the sales return process, such as warehouse documents for the item handling, or a better overview when receiving items from multiple sales documents with one sales return, then you can create sales return orders. A sales return order automatically issues the related sales credit memo and other return-related documents, such as a replacement sales order, if needed.
 
@@ -28,10 +25,10 @@ In addition to the original posted sales invoice, you can apply the sales credit
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
-    - Use the **Copy from Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales and Receivables Setup** page.  
+    - Use the **Copy from Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that isn't yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales & Receivables Setup** page.  
 
 5. Choose the **Process** action, then choose the **Get Posted Document Lines to Reverse** action.
-6. At the top of the **Posted Sales Document Lines** page, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted sales invoice quantity has already been returned, you may not want to return that quantity on a new sales return document.
+6. At the top of the **Posted Sales Document Lines** page, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that haven't yet been returned. For example, if a posted sales invoice quantity has already been returned, you might not want to return that quantity on a new sales return document.
 
     > [!NOTE]  
     >  This field only works for posted shipments and posted invoice lines, not for posted return or posted credit memo lines.
@@ -48,9 +45,9 @@ In addition to the original posted sales invoice, you can apply the sales credit
 
     The following processes occur:  
 
-    -   For posted document lines of the type **Item**, a new document line is created that is a copy of the posted document line, with the quantity that has not yet been reversed. The **Appl.-from Item Entry** field is filled in as appropriate with the number of the item ledger entry of the posted document line.  
+    -   For posted document lines of the type **Item**, a new document line is created that is a copy of the posted document line, with the quantity that hasn't yet been reversed. The **Appl.-from Item Entry** field is filled in as appropriate with the number of the item ledger entry of the posted document line.  
 
-    -   For posted document lines that are not of the type **Item**, such as item charges, a new document line is created that is a copy of the original posted document line.  
+    -   For posted document lines that aren't of the type **Item**, such as item charges, a new document line is created that is a copy of the original posted document line.  
 
     -   Calculates the **Unit Cost (LCY)** field on the new line from the costs on the corresponding item ledger entries.  
 
@@ -60,7 +57,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 
     -   If the posted document line contains item tracking lines, the **Appl.-from Item Entry** field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.  
 
-     When you copy from a posted invoice or posted credit memo, application copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated on the **Sales & Receivables Setup** page, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
+     When you copy from a posted invoice or posted credit memo, application copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated on the **Sales & Receivables Setup** page, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line might therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
      > [!NOTE]  
      >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
@@ -71,7 +68,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 11. Choose the **post** action.
 
 ## To create a replacement sales order from a sales return order
-You may decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
+You might decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
 
 1. On the **Sales Return Order** page for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.
@@ -88,7 +85,7 @@ You can have replacement sales orders, purchase return orders, and replacement p
 5. If a replacement sales order must be created, select the **Create Sales Order** check box.
 
 ## To create a restock charge
-You may decide to charge your customer a restock fee to cover the physical handling costs of returning an item. This could occur if the customer mistakenly ordered the wrong item or changed their mind after receiving the item you sold them, for example.
+You might decide to charge your customer a restock fee to cover the physical handling costs of returning an item. This could occur if the customer mistakenly ordered the wrong item or changed their mind after receiving the item you sold them, for example.
 
 You can post this increased cost as an item charge in a credit memo or a return order and assign it to the posted shipment. The following describes this for a sales return order, but the same steps apply to a sales credit memo.
 
@@ -98,9 +95,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 
 When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
-## See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
-
-## See Also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

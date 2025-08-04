@@ -1,31 +1,32 @@
 ---
-title: Setting Up Your Browser
+title: Setting up your browser
 description: Describes how to set up browsers to work with Business Central and products that integrate with it.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: Teams, web client, troubleshooting, errors
-ms.date: 04/01/2021
+ms.date: 12/04/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# Setting Up and Troubleshooting Your Browser to Work With Business Central Web Client
+# Setting up and troubleshooting your browser to work with Business Central Web Client
 
-This article explains how to set up your browser so that the [!INCLUDE[web_client](includes/web_client.md)] and all its features work properly. Read this article if you're having problems opening the [!INCLUDE[web_client](includes/web_client.md)], because some problems may be caused by your browser's settings.
+This article explains how to set up your browser so that the [!INCLUDE[web_client](includes/web_client.md)] and all its features work properly. Read this article if you're having problems opening the [!INCLUDE[web_client](includes/web_client.md)], your browser's settings can be the cause of some problems.
 
 The article provides details for setting up Microsoft Edge, but the requirements for JavaScript, cookies, and pop-ups are the same for all supported browsers. For other browsers, refer to the instructions provided by the manufacturer.  
 
 ## Use a supported browser
 
-Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#browsers).  
+Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
+
+We recommend that you use a stable channel version of a web browser as it's the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.  
 
 ## Allow JavaScript from Business Central
 
 *Problem:*
 
-If the browser doesn't allow JavaScript, you'll see **NotSupported/DisabledJavaScript** in the address bar and an **HTTP Error 404.0 - Not Found** message when you try to open [!INCLUDE[prod_short](includes/prod_short.md)], and the 
+If the browser doesn't allow JavaScript, you see **NotSupported/DisabledJavaScript** in the address bar and an **HTTP Error 404.0 - Not Found** message when you try to open [!INCLUDE[prod_short](includes/prod_short.md)], and the 
 
 <!-- http://localhost:8080/NotSupported/DisabledJavaScript HTTP Error 404.0 - Not Found
 The resource you are looking for has been removed, had its name changed, or is temporarily unavailable. -->
@@ -33,7 +34,7 @@ The resource you are looking for has been removed, had its name changed, or is t
 *Fix:*
 
 1. In Microsoft Edge, go to **Settings** > **Cookies and site permissions** > **JavaScript**.
-2. Do one of the following steps. Choose the step that is recommended by your organization:
+2. Do one of the following steps. Choose the step that your organization recommends:
 
     - Move the **Allowed** toggle to the left (Off). Then, select **Add** and type the address (URL) for [!INCLUDE[prod_short](includes/prod_short.md)] in the **Site** box. Select **Add** when done.
     - Move the **Allowed** toggle to the right (On).
@@ -42,7 +43,7 @@ The resource you are looking for has been removed, had its name changed, or is t
 
 *Problem:*
 
-If the browser doesn't allow cookies, you'll get the following error:
+If the browser doesn't allow cookies, you get the following error:
 
 **Sorry, the page could not be found. Please check the address and try again.** 
 
@@ -53,7 +54,7 @@ If the browser doesn't allow cookies, you'll get the following error:
 
 ## <a name="popup"></a>Allow pop-ups from Business Central
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integrates with several products. In some cases, like with Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] opens, or "pop-ups", within the product. This capability requires that your browser allows pop-ups from [!INCLUDE[prod_short](includes/prod_short.md)].
+[!INCLUDE[prod_short](includes/prod_short.md)] integrates with several products. In some cases, like with Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] opens, or "pop-ups," within the product. This capability requires that your browser allows pop-ups from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 *Problem:*
 
@@ -76,7 +77,7 @@ Try again
 2. Move the **Blocked** toggle to the right (On).
 3. Select **Add**. In the **Site** box, type `https://businesscentral.dynamics.com`, then select **Add**.
 
-## See Also
+## Related information
 
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 

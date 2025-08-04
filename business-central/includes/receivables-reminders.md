@@ -1,11 +1,15 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
-ms.author: edupont
+ms.date: 03/12/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges such as interest or fees and include them on the reminder.
+
+> [!TIP]
+> The information in this article is accurate, however, it describes a mostly manual process. [!INCLUDE [prod_short](prod_short.md)] offers tools that you can use to automate the processes of creating, issuing, and sending reminders. Automating these steps can save you a considerable amount of time spent on collections. To learn more, go to [Automate reminders in collections](../finance-automate-reminders.md).
 
 Before you can create reminders, you must set up reminder terms and assign them to your customers. For more information, see [Set Up Reminder Terms and Levels](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] The contents of the **Finance Charge Terms** page determines whether interest is calculated on the reminder.  
 

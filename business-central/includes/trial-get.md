@@ -1,14 +1,14 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/05/2022
-ms.author: edupont
+ms.date: 01/17/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-1. Go to [the trial site](https://go.microsoft.com/fwlink/?linkid=847861), choose *Finance and operations*, and then, on the **Dynamics 365 Business Central** card, choose the **Try for free** button.  
-2. Enter your work or school email address and other details. You'll be redirected to your trial at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
+<!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
-The trial takes a few moments to load, then you can start using the app. The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you've added to your [!INCLUDE [prod_short](prod_short.md)].  
+The trial takes a few moments to load, then you can start using the app. The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country/region and any industry-specific functionality that you've added to your [!INCLUDE [prod_short](prod_short.md)].  
 
 In [!INCLUDE[prod_short](prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Get Started card with a link to show demo tours. For more information, see [Get Ready for Doing Business](../ui-get-ready-business.md) and the [quick starts](../quick-start-business-central.md) articles.  
 

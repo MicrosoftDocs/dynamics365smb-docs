@@ -1,21 +1,20 @@
 ---
-title: Payables and Receivables in the Czech Version
-description: This section describes local functionality in the Czech version - Payables and Receivables.
+title: Payables and receivables in the Czech Version
+description: Learn about payables and receivables features specific to the Czech version, including credits, exchange rate adjustments, and local reporting requirements.
 author: ACMartinKunes
-
-
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
-ms.date: 06/17/2021
-ms.reviewer: v-pejano
-ms.author: v-makune
+ms.date: 06/05/2025
+ms.reviewer: v-soumramani
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# Payables and Receivables in the Czech Version
+# Payables and receivables in the Czech version
 
 ## Credits
 
-Sometimes, a company's customers are also to some extent company vendors. In such situations, it is quite common for companies to compensate their receivables and payables.
+Sometimes, a company's customers are also to some extent company vendors. In such situations, it's common for companies to compensate their receivables and payables.
 
 The main features of the Credits functionality are:  
 
@@ -25,16 +24,16 @@ The main features of the Credits functionality are:
 - Agreement printout.
 - Credit posting – posted credit is created, entries application is posted.
 
-entries to be counted can be entered manually or automatically from the Credit Card. In addition, there are functions to mark entries to count and balance the balance.
- 
-There is also a print of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
+Entries to be counted can be entered manually or automatically from the Credit Card. In addition, there are functions to mark entries to count and balance the balance.
 
-## Exchange Rates Adjustment Feature
+There's also a print of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
+
+## Exchange rates adjustment feature
 
 The majority of companies in the Czech Republic request the following improvements to be implemented in Exchange Rates Adjustment:
 
-- Ability to run Exchange Rates Adjustment for Customers, Vendors and Bank Accounts separately
-- Ability to have Exchange Rates Adjustment batch post adjustments in detail as well as summarized per currency
+- Ability to run Exchange Rates Adjustment for Customers, Vendors, and Bank Accounts separately
+- Ability to have Exchange Rates Adjustment batch post adjustments in detail and summarized per currency
 - Ability to run Exchange Rates Adjustment just as simulation (without posting) in Test Mode
 
 On standard report Adjust Exchange Rates is now possible to:
@@ -52,17 +51,17 @@ This feature in the standard version of Microsoft [!INCLUDE[prod_short](../../in
 The new calculation principle is implemented for fluctuation in the already adjusted exchange rate.
 The Adjust Exchange Rates batch job has been for Czech Advance Payments has also been extended.
 
-## Multiple Payables/Receivables Accounts
+## Multiple payables/receivables accounts
 
 Users often post transactions like bad debt or other types of Receivable/Payable transactions that need to be recorded in Customer and Vendor Ledgers, but at same time posted to different Receivable/Payable GL Account, other than the one specified on Customer or Vendor posting groups. The easiest way to enable such functionality is to allow users to change Customer and Vendor posting groups in the moment of posing a particular transaction.
 
-## Customers/Vendors Reconciliations
+## Customers/vendors reconciliations
 
 At the end of each fiscal year (or another period, when requested), companies send a statement of balances to Customers and Vendors in order to reconcile them with Customer and Vendor records. Customers and Vendors either confirm the statement or not and send it back with corrections, based on their own information. This feature allows users to prepare such report in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-## Sales Correcting Documents
+## Sales correcting documents
 
-According to the VAT law amendment, it is necessary to differentiate types of Sales Credit-Memo documents. This feature allows users to set up the following Credit Memo Types:
+According to the VAT law amendment, it's necessary to differentiate types of Sales Credit-Memo documents. This feature allows users to set up the following Credit Memo Types:
 
 - Corrective Tax Document
 - Internal Correction
@@ -70,16 +69,16 @@ According to the VAT law amendment, it is necessary to differentiate types of Sa
 
 This Credit Memo Type defines how is handled Postponed VAT on Sales Credit-Memo documents.
 
-## Contacts Actualization from ARES
+## Contacts actualization from ARES
 
 ARES stands for Access to Register of Economic Subjects. ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.  
 
 The user can fill in ARES Http in Reg. No. Validation Service Setup.
-It is possible to run ARES actualization from Contact, Vendor and Customer Card. It is possible to search the company and decide which fields can be updated in [!INCLUDE[prod_short](../../includes/prod_short.md)](Name, Address, City, Post Code).
+It's possible to run ARES actualization from Contact, Vendor, and Customer Card. It's possible to search the company and decide which fields can be updated in [!INCLUDE[prod_short](../../includes/prod_short.md)](Name, Address, City, Post Code).
 
-## New Design of Output Documents
+## New design of output documents
 
-A new set of printed reports for external documents is created. All documents have the same layout design (headers, footers, font type and size, etc.).
+A new set of printed reports for external documents is created. All documents have the same layout design (headers, footers, font type, and size, etc.).
 Additionally to standardization, Dynamics NAV documents were extended according to all requirements required by the Czech legislation:  
 
 - Registration No., VAT Registration No.
@@ -88,7 +87,8 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 - Naming of tax corrective documents based on Credit Memo type
 - Printout of documents related to advance payments
 
-### List of Reports in the CZ Document Set:
+### List of reports in the CZ document set
+
 - **Sales – Advance Letter CZ**
 - **Sales – Advance Invoice CZ**
 - **Sales – Advance Credit Memo CZ**
@@ -114,9 +114,9 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 - **Service - Credit Memo CZ**
 - **Service - Shipment CZ**
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)
+## Related information
 
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

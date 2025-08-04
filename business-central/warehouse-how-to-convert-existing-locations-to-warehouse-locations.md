@@ -1,18 +1,16 @@
 ---
 title: Convert Existing Locations to Warehouse Locations 
 description: You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.
-author: SorenGP
-
-    
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf   
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Convert Existing Locations to Warehouse Locations
 You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.  
@@ -39,7 +37,7 @@ You can create zones and bins either before or after the conversion. The only bi
 
  For those locations that did not use warehouse management documents before the conversion, you must re-open and release any source documents that were partially received or partially shipped before the conversion.  
 
-## See Also  
+## Related information  
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

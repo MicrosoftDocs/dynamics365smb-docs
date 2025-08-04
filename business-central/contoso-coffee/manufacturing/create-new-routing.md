@@ -1,12 +1,12 @@
 ---
-    title: Create a New Routing 
-    description: Walkthrough to learn how to enter all of the information for a new routing manually in Business Central.
-    ms.date: 04/01/2022
-    ms.topic: article
-    ms.service: dynamics365-business-central
-    author: edupont04
-    ms.author: andreipa
-
+title: Create a New Routing 
+description: Walkthrough to learn how to enter all of the information for a new routing manually in Business Central.
+ms.date: 04/01/2022
+ms.topic: how-to
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Create a New Routing
 
@@ -55,6 +55,6 @@ Oscar, the process engineer, at Contoso Coffee, decides to create a new routing 
 
 The new routing is now set up.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

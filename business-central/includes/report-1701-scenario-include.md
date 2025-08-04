@@ -1,0 +1,1 @@
+Analyze how sales-related revenue is deferred across accounting periods and ensure it aligns with revenue recognition policies. Use the report to reconcile deferred revenue balances and validate recognition timing. Ideal for finance teams reviewing sales deferrals and compliance with accounting standards.

@@ -1,18 +1,17 @@
 ---
 title: Entering custom declaration information in Russia
 description: Russian enhancements include custom declarations.
-author: AndreiPanko
-
-
-ms.topic: conceptual
+author: brentholtorf
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
-ms.author: andreipa
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Custom declaration
-Russian legislation requires companies to record and track the customs declaration number for all imported goods. If a company sells imported goods, it must print the customs declaration number and the country of origin on invoices.
+Russian legislation requires companies to record and track the customs declaration number for all imported goods. If a company sells imported goods, it must print the customs declaration number and the country/region of origin on invoices.
 
 ## Setup
 > [!NOTE]
@@ -85,7 +84,7 @@ You must print the customs declaration number on Factura-Invoice documents.
 3. Choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen. Choose the **Cancel** action to save the information without printing the report.
 
 
-## See Also
+## Related information
 [Russia Local Functionality](russia-local-functionality.md)  
 [Customizing Business Central Using Extensions](../../ui-extensions.md)  
 

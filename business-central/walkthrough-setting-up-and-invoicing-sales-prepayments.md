@@ -1,19 +1,17 @@
 ---
-    title: Setting Up and Invoicing Sales Prepayments
-    description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. 
-    author: SorenGP
+title: Set up and invoicing sales prepayments
+description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. 
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 01/29/2024
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 12/03/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Walkthrough: Setting Up and Invoicing Sales Prepayments
+# Walkthrough: Set up and invoicing sales prepayments
 
 This walkthrough takes you through the process of setting up and using prepayments in [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -21,7 +19,7 @@ This walkthrough takes you through the process of setting up and using prepaymen
 
 For example, you can send more prepayment invoices if more items are added to the order.  
 
-## About This Walkthrough  
+## About this walkthrough  
 
 This walkthrough will take you through the following scenarios:  
 
@@ -56,7 +54,7 @@ This walkthrough includes tasks for the following roles:
 
  Arnie registers the customer's payment and applies it to the invoices, and then sends the final invoice.  
 
-## Set Up Prepayments
+## Set up prepayments
 
 Phyllis sets up the system to handle prepayments for customers.  
 
@@ -70,7 +68,7 @@ The following procedures describe how to complete Phyllis' tasks:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2. On the **Sales & Receivables Setup** page, expand the **Number Series** FastTab.  
-3. Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**) and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
+3. Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**), and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
 
 ### To block shipments for unpaid prepayment
 
@@ -109,7 +107,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 > [!TIP]
 > If you cannot see the field in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
 
-## Create an Order that Requires a Prepayment
+## Create an order that requires a prepayment
 
  In the following scenario, Susan, the order processor, creates an order when talking to a customer. The items the customer is ordering require a prepayment. Plus, the customer has made some late payments in the past. Susan's been instructed to require a fixed amount of **800** as a prepayment on the order.  
 
@@ -130,7 +128,7 @@ Susan creates the prepayment invoice and sends it to the customer.
     |**Item**|**1896-S**|**1**|  
     |**Item**|**1900-S**|**1**|
 
-    By default, the prepayment fields on the sales line are hidden. To display the fields you must personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    By default, the prepayment fields on the sales line are hidden. To display the fields, you must personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Verify that the **Prepayment %** field on the line with item **1900-S** contains **30**. The default value was taken from the sales header, which was populated from the customer card.  
 
@@ -154,19 +152,19 @@ Susan creates the prepayment invoice and sends it to the customer.
 12. In the warning that appears, choose the **Yes** button. A rate of 35% will be applied as the payment percentage for the whole order.  
 13. Verify that the lines have been updated correctly.  
 
-## Create a Prepayment Invoice
+## Create a prepayment invoice
 
 After entering the correct prepayment values on the order, Susan creates the prepayment invoice and sends it to the customer.  
 
 ### To create a prepayment invoice
 
-1. On the **Sales Order** page, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepayment Invoice**
+1. On the **Sales Order** page, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepmt. Invoice**
 2. Choose the **Yes** button to post the invoice.  
 
 > [!NOTE]  
 > Susan would now send the invoice to the customer.  
 
-## Create an Additional Prepayment Invoice
+## Create an additional prepayment invoice
 
 The following day, the customer calls Susan and makes changes to the order. The customer wants two of item 1896-S. Susan reopens the order, updates it, and then creates a second prepayment invoice for the order and sends it to the customer.  
 
@@ -175,11 +173,11 @@ The following day, the customer calls Susan and makes changes to the order. The 
 1. On the **Sales Order** page, choose the **Release** action, and then **Reopen**.  
 2. On the line for item **1896-S**, in the **Quantity** field, enter **2**.  
 
-    In the **Order** action, choose **Statistics**. The **Prepayment Amount Excl. VAT** field now contains **768.04**, and the **Prepmt. Amt. Inv. Excl. VAT** field contains **417.76**. These values show that there's an extra prepayment amount that hasn't been invoiced yet.  
-3. To post an invoice for the extra prepayment amount, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepayment Invoice**
+    In the **Order** action, choose **Statistics**. The **Prepayment Amount Excl. VAT** field now contains **768.04**, and the **Prepmt. Amt. Invoiced Excl. VAT** field contains **417.76**. These values show that there's an extra prepayment amount that hasn't been invoiced yet.  
+3. To post an invoice for the extra prepayment amount, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepmt. Invoice**
 4. Choose the **Yes** button to post the invoice.  
 
-## Apply the Prepayments
+## Apply the prepayments
 
 The customer pays the prepayment amount. Arnie, from the accounting department, registers the payment, and applies it to the prepayment invoices.  
 
@@ -203,7 +201,7 @@ The customer pays the prepayment amount. Arnie, from the accounting department, 
 7. To post the journal, choose the **Post/Print** action, then select **Post**.
 8. Choose the **Yes** button.
 
-## Invoice the Remaining Amount
+## Invoice the remaining amount
 
 Now Arnie has been informed that the items on the order have been shipped and that the order is ready for invoicing. Arnie creates the invoice for the order.  
 
@@ -221,11 +219,11 @@ Now Arnie has been informed that the items on the order have been shipped and th
 
 5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 
-## Update the Status of Prepaid Orders and Invoices Automatically
+## Update the status of prepaid orders and invoices automatically
 
 You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **383 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## Next Steps
+## Next steps
 
 This walkthrough covered the following steps to set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle prepayments. 
 
@@ -238,9 +236,7 @@ You've also posted a prepayment invoice, created a second prepayment invoice whe
 
 The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
 
-## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  

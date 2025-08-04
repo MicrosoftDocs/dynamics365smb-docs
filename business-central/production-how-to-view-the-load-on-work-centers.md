@@ -1,17 +1,15 @@
 ---
 title: View Load on Work and Machine Centers
 description: From the Work Center card, you can view the load on the work centers as a result of released production orders.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # View Load on Work and Machine Centers
 
@@ -24,7 +22,7 @@ In the **Work Center Card** and **Machine Center Card** pages, you can view the 
 
 Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.  
 
-## See Also  
+## Related information  
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  

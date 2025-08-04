@@ -1,19 +1,18 @@
 ---
-    title: Make Cash Flow Forecasts Using Financial Reports
-    description: This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central. 
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 08/18/2022
-    ms.author: edupont
-
+title: Make cash flow forecasts using financial reports
+description: This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central. 
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 08/01/2024
+ms.author: bholtorf
+ms.search.form: 103, 104, 108, 488, 489, 490
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Walkthrough: Making Cash Flow Forecasts Using Financial Reports
+
+# Walkthrough: Make cash flow forecasts using financial reports
 
 This walkthrough describes how you can use the financial reports feature to make cash flow forecasts. Financial reports perform calculations that cannot be done directly in the chart of cash flow accounts. In the financial reports, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used to make cash flow forecasts.  
 
@@ -44,7 +43,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 Ken is a controller at CRONUS who makes monthly cash flow forecasts. Ken includes finance, sales, purchase, and fixed assets in the forecasts, and presents to CFO Sara for business insight.  
 
-## Setting up a new financial report name
+## Set up a new financial report name
 
 The financial report name is the name you give the cash flow forecast that includes a series of defined lines and a column definition.  
 
@@ -56,7 +55,7 @@ The financial report name is the name you give the cash flow forecast that inclu
 4. In the **Description** field, enter **Cash Flow Forecast**.  
 5. Leave the **Row Definition** and **Column Definition** fields blank.
 
-## Setting up row definition lines
+## Set up row definition lines
 
 After a financial report name is set up, Ken defines each line in the cash flow financial report. Ken defines lines to be shown in reports in addition to lines that are only for calculation purposes.  
 
@@ -96,7 +95,7 @@ After a financial report name is set up, Ken defines each line in the cash flow 
     > [!NOTE]
     > The row number R10 is used to capture the account totals for receivables. The row number R20 is used to calculate the sum of all cash receipts. The row number R30 is used to capture the account totals for payables. The row number R40 is used to calculate the sum of all cash disbursements. The row number R50 is used to capture the sum of cash surplus. The row number R60 is used to capture the liquid funds. The row number R70 is used to calculate the forecasted cash flow.
 
-## Setting up a new column definition
+## Set up a new column definition
 
 Before printing the cash flow forecast, Ken needs to create the column definition for the numerical information. In the columns, Ken defines the information needed to use from the lines.
 
@@ -121,7 +120,7 @@ Before printing the cash flow forecast, Ken needs to create the column definitio
     |C20|Amount Until Date|Balance at Date|Entries|Net Amount|Always|  
     |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|
 
-## Assigning the column definition to the financial report name
+## Assig the column definition to the financial report name
 
 Ken is now ready to assign the column definition to the financial report name.  
 
@@ -132,17 +131,15 @@ Ken is now ready to assign the column definition to the financial report name.
 
 ## View and print the cash flow forecast
 
-1. On the **Financial Reports** page, choose the **Forecast** financial report to view the cash flow forecast.  
+1. On the **Financial Reports** page, choose the **Forecast** financial report [Financial analytics overview](bi.md)  to view the cash flow forecast.  
 2. On the **Financial Report** page, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula used to calculate that amount. You can also filter the amounts by date and dimension.  
 3. Choose the **Print** action to print the cash flow forecast.  
 
-## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## Related information
 
-## See also
-
-[Work with Financial Reports](bi-how-work-account-schedule.md)  
+[Prepare financial reporting](bi-how-work-account-schedule.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
+[Financial analytics overview](bi.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

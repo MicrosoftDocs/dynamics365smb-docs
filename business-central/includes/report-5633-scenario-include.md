@@ -1,0 +1,1 @@
+View posted fixed assets maintenance entries sorted by register number. You can use the report to document the posted entries or for auditing.

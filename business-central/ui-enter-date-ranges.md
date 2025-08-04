@@ -1,20 +1,18 @@
 ---
 title: Entering dates and times in Business Central
-description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions, and ranges.
+author: brentholtorf
+ms.topic: concept-article
+ms.devlang: al
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/23/2021
-ms.author: edupont
+ms.date: 11/13/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Work with Calendar Dates and Times
+# Work with calendar dates and times
 
 You can enter dates and times in multiple ways. [!INCLUDE[prod_short](includes/prod_long.md)] includes powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you're interested in.
 
@@ -31,13 +29,9 @@ The **My Settings** page specifies the **Region** and **Language** that you're u
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] uses the Gregorian calendar system.
 
-<!--
-The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
--->
+## Entering dates
 
-## Entering Dates
-
-In a date field, you can enter a date using the standard format for your region setting. Different regions can use different separators between the days, months and years. For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy).  
+In a date field, you can enter a date using the standard format for your region setting. Different regions can use different separators between the days, months, and years. For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy).  
 
 > [!TIP]
 > You can use any separators, even a space, and the date will automatically be changed to use separators that match your region.
@@ -67,15 +61,15 @@ The week number scheme is always ISO 8601, where week 1 is the week with 4 Janua
 
 In a date field you can enter two, four, six, or eight digits:
 
-- If you enter only two digits, it's interpreted as the day, and it will add the month and the year of the work date.
+- Two digits are interpreted as the day, and it adds the month and the year of the work date.
 
-- If you enter four digits, it's interpreted as the day and the month, and it will add the year of the work date. The order of the day and month is determined by your region settings. Even if your region settings have the year before the day and month, four digits are interpreted as the day and month.
+- Four digits are interpreted as the day and the month, and it adds the year of the work date. Your region settings determine the order of the day and month. Even if your region settings have the year before the day and month, four digits are interpreted as the day and month.
 
 - If the date you want to enter is in the range 01/01/1950 through 12/31/2049, you can enter the year with two digits; otherwise, enter the year with four digits.
 
   > [!NOTE]
   > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
- 
+
 ### Today
 
 Enter the word for _today_, in the language specified on the **My Settings** page, to set the date on a record to today's date. Instead of entering the entire word, you can enter part of the word, starting from the beginning. For example, in English, you can enter _t_ or _tod_, as long as it isn't also the start of another word.
@@ -90,11 +84,11 @@ The accounting periods are defined on the **Accounting Periods** page. To view o
 
 Use a work date to specify a date that isn't today's date on records. For example, a work date is useful when you need to set a particular date for multiple records. You specify the work date on the **My Settings** page. 
 
-A fast way to enter the work date on records is to enter some or all of the word _work_, starting from the beginning of the word, in the language in which you're using [!INCLUDE[prod_short](includes/prod_long.md)]. For example, in English, you can enter _w_ or _work_. The language is also specified on the **My Settings** page.
+A fast way to enter the work date on records is to enter some or all of the word _work_. Start from the beginning of the word in the language in which you use [!INCLUDE[prod_short](includes/prod_long.md)]. For example, in English, you can enter _w_ or _work_. The language is also specified on the **My Settings** page.
 
-If you haven't specified a work date, today's date will be used. For more information, see [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
+If a work date isn't specified, today's date is used. To learn more, go to [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
-### Closing Date
+### Closing date
 
 When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between December 31 and January 1.
 
@@ -125,19 +119,19 @@ The following table contains examples of dates using all the formats. It assumes
 |t 23|Tuesday of week 23 of the work date year|
 |t-1|Tuesday of week 1 of the work date year|
 
-##  <a name="BKMK_SettingDateRanges"></a> Setting Ranges
+##  <a name="BKMK_SettingDateRanges"></a> Setting ranges
 
-On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range. The standard rules apply to the way you set date ranges.
+To display only the data contained in that range, on lists, totals, and reports you can filter on dates, times, and datetimes with a start value and optionally an end value. The standard rules apply to the way you set date ranges.
 
 |**Meaning**|**Sample expression (Date)**|**Data included in the filter**|
 |-----------|---------------------|--------------------|
 |Interval|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />p1..p4|Records with dates between and including 12 15 00 and 01 15 01.<br /><br />Records with dates of 12 15 00 or earlier.<br /><br />Date range that includes the second, third, and fourth accounting periods, such as 01/01/20..04/30/20.|
-|Either/or|12 15 00\|12 16 00|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they'll all be displayed.|
-|Combination|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  <br /><br />Records with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.|
+|Either/or|12 15 00\|12 16 00|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they all display.|
+|Combination|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  <br /><br />Records with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except records with dates between and including 12 15 00 and 12 29 00.|
 
-You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
+You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year until today at 4PM.
 
-## Use Date Formulas
+## Use date formulas
 
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields or filters.
 
@@ -146,10 +140,8 @@ A date formula is a short, abbreviated combination of letters and numbers that s
 
 Here are some examples of how date formulas can be used:
 
-- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
-
-- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date \(or from the date of the previous reminder\) before a reminder will be created.
-
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line posts.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder is created.
 - The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for calendar units.
@@ -170,7 +162,7 @@ The following example shows how to use C, for current, and a time unit.
 |  Expression  |  Meaning  |
 |--------------|-----------|
 |CW|Current week|
-|CM|Current month|
+|CM|Current month (last day of the month)|
 
 The following example shows how to use a number and a time unit. A number can't be larger than 9999.
 
@@ -289,13 +281,13 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## Entering Times
+## Entering times
 
-When you enter times, you can insert any non-space separators that you want between the units. If you use double digits for each unit up to milliseconds, then it isn't required.
+When you enter times, you can insert any nonspace separators that you want between the units. If you use double digits for each unit up to milliseconds, then it isn't required.
 
-You only have to write the largest units that you require; the rest will be set to zero. You can also leave out any AM/PM indicator.
+You only have to write the largest units that you require; the rest are set to zero. You can also leave out any AM/PM indicator.
 
-The following table lists the various ways in which times can be entered and how they're interpreted. It assumes region settings that format times according to: **Hours:Minutes:Seconds.Milliseconds.** and use the AM and PM indicators of 'AM' and 'PM', respectively.
+The following table lists the various ways in which times can be entered and how they're interpreted. It assumes region settings that format times according to **Hours:Minutes:Seconds.Milliseconds** and use the AM and PM indicators.
 
 |**Entry**      |**Interpretation**      |
 |---------------|------------------------|
@@ -320,13 +312,13 @@ The following table lists the various ways in which times can be entered and how
 > [!IMPORTANT]
 > You can't use 24:00 to mean midnight, or use any value greater than 24:00.
 
-The word for 'time' in the language used by [!INCLUDE[prod_short](includes/prod_long.md)] will be evaluated to the current time on your computer or mobile device. You can enter any part of the word, starting from the beginning, such as t or TIM.
+The word for *time* in the language used by [!INCLUDE[prod_short](includes/prod_long.md)] is the current time on your computer or mobile device. You can enter a part of the word starting from the beginning, such as **t** or **TIM**.
 
-## Entering Combined Dates and Times
+## Entering combined dates and times
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## Entering Duration
+## Entering duration
 
 Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measure.
 
@@ -341,19 +333,16 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|
 
-You can also enter a number, which will be automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.
+You can also enter a number that automatically converts to a duration. The number converts according to the default unit of measure that is specified for the duration field.
 
-To see what unit of measure is being used in a duration field, enter a number. Then, you can see which unit of measure it's converted to.
+It's easy to find out which unit of measure a duration field uses. Enter a number, and then look at the unit of measure it converts to.
 
-For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
+For example, if the unit of measure is hours, the number 5 converts to 5 hrs.
 
-## See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

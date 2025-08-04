@@ -1,19 +1,16 @@
 ---
-title: Power BI Integration Component and Architecture Overview for Business Central| Microsoft Docs
+title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
 description: Learn about the different aspects of Power BI integration with Business Central.
 author: jswymer
-
-ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.reviewer: edupont
-ms.date: 04/01/2021
 ms.author: jswymer
-
+ms.reviewer: jswymer
+ms.topic: overview
+ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.date: 04/26/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]
+# Power BI integration component and architecture overview
 
 In this article, you'll learn about the different aspects of Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)] to help you understand its implementation and use.
 
@@ -43,7 +40,7 @@ The following table describes available features.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as API pages and OData web services.
 
-:::image type="content" source="./media/power-bi-architecture.png" alt-text="Image alt text." lightbox="./media/power-bi-architecture.png":::
+:::image type="content" source="./media/power-bi-architecture.svg" alt-text="Image alt text." lightbox="./media/power-bi-architecture.svg":::
 
 Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica. The database replica is part of the [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) capability in [!INCLUDE[prod_short](includes/prod_short.md)] online. This configuration frees up the main database for transactions, which enhances performance of the system. Connecting to the read-only database replica is an integral part of the Business Central online connector, and requires no extra setup on your part. All new reports will connect to the read-only database replica by default. Old reports will still use the main database. For more information, see [Business Central 2021 Release Wave 2 Plan](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
@@ -51,7 +48,7 @@ Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/p
 
 The following diagram illustrates the basic workflow for users when connecting [!INCLUDE[prod_short](includes/prod_short.md)] to Power BI.
 
-![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.png)
+![Power BI workflow  for integration with Business Central.](./media/power-bi-flow-v2.svg)
 
 1. User signs up for a Power BI account.
 2. User connects to Power BI from [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -61,9 +58,7 @@ The following diagram illustrates the basic workflow for users when connecting [
 6. User creates a report in Power BI Desktop.
 7. User publishes the report to the Power BI service. The reports are then available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## See Also
+## Related information
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  

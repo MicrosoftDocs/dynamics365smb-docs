@@ -7,8 +7,9 @@ author: DianaMalina
 ms.topic: overview
 ms.search.keywords:
 ms.date: 08/26/2022
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Financial Reports Overview
@@ -31,7 +32,7 @@ Financial reports are set up on the **Financial Reports** page.
 > **G/L Account Card** report
 > **G/L Account Entries Analysis** report
 
-## See also
+## Related information
 
 [Import and Export Financial Reports](How-to-Import-and-Export-Account-Schedules.md)  
 [Define a Financial Report Extension](How-to-Define-an-Account-Schedule-Extension.md)  

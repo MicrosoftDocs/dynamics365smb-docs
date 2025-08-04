@@ -1,23 +1,19 @@
 ---
-    title: Corrective Invoices [ES]
-    description: The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. 
-
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+title: Corrective invoices [ES]
+description: Learn how to use corrective invoices in Business Central to address errors or disputes affecting VAT amounts or fiscal data.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: corrective invoices, VAT correction, fiscal data correction, invoice dispute
+ms.date: 05/26/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Corrective Invoices in the Spanish Version
-The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices cannot be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
+
+# Corrective invoices in the Spanish version
+
+The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices can't be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
 
 The following options are available:  
 
@@ -29,11 +25,11 @@ The following options are available:
 The corrective invoice must meet the following requirements:  
 
 - You can correct several invoices by using a single corrective invoice. The corrective invoice must use all of the corrected invoice numbers.  
-- You must clearly indicate the invoice numbers for the invoices you are correcting.  
+- You must clearly indicate the invoice numbers for the invoices you're correcting.  
 - You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
 
-## See Also  
- [Spain Local Functionality](spain-local-functionality.md)
+## Related information
 
+[Spain Local Functionality](spain-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

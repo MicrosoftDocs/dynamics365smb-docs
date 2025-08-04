@@ -2,15 +2,14 @@
 title: The Image Analyzer Extension
 description: This extension lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: article
+ms.devlang: al
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.search.form: 2026, 2027, 2029, 
 ms.date: 05/19/2021
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # The Image Analyzer Extension
@@ -115,7 +114,7 @@ You can view the number of analyses you've done, and how many you can still do, 
 
 Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## See also
+## Related information
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Categorize Items](inventory-how-categorize-items.md)  

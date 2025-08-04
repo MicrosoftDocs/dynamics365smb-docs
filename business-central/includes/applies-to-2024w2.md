@@ -1,0 +1,1 @@
+> **APPLIES TO:** Generally available in Business Central 2024 release wave 2 (version 25.1). 

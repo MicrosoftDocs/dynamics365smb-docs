@@ -1,18 +1,18 @@
 ---
-    title: GST on Advance Payment application with Purchase Invoice
-    description: GST on Advance Payment application with Purchase Invoice
+title: GST on Advance Payment application with Purchase Invoice
+description: GST on Advance Payment application with Purchase Invoice
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST on Advance Payment or Normal Payment Application with Purchase Invoice
 
@@ -169,7 +169,7 @@ If this is found that the payment and invoice was wrongly applied and the applic
 
 
 
-## See Also 
+## Related information 
 [GST on Advance Receipt from Customer](GST-GST-on-Advance-Payment-received-from-Customer.md)
 
 

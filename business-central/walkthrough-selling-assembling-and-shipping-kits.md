@@ -1,17 +1,15 @@
 ---
-    title: Selling, Assembling, and Shipping Kits
-    description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
-    author: SorenGP
+title: Selling, Assembling, and Shipping Kits
+description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/24/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Selling, Assembling, and Shipping Kits
 
@@ -439,9 +437,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     When the Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
 
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
-
-## See also
+## Related information
 
  [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Assemble Items](assembly-how-to-assemble-items.md)   

@@ -1,17 +1,15 @@
 ---
 title: Setup Best Practices - Costing Method
 description: The Costing Method on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: best-practice
+ms.devlang: al
 ms.search.form: 30, 31
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setup Best Practices: Costing Method
 
@@ -29,7 +27,7 @@ The following table provides best practices on how to set up the **Costing Metho
 |Specific|Use in production or trade of easily identifiable items with fairly high unit costs.<br /><br /> Use for items that are subject to regulation.<br /><br /> Use for items with serial numbers.|An item's unit cost is the exact cost at which the particular unit was received.|
 |Standard|Use where cost control is critical.<br /><br /> Use in repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Use where there is discipline and staff to maintain standards.|An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values.|  
 
-## See Also
+## Related information
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

@@ -1,44 +1,43 @@
 ---
-    title: Automatically Transfer and Post CODA Statements [BE]
-    description: After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 2000040
-    ms.date: 06/17/2021
-    ms.author: edupont
-
+title: Automatically transfer and post CODA statements [BE]
+description: After all CODA statement lines are applied and processed, you can transfer them to a financial journal.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: CODA, CODA statements, financial journal, Belgian version
+ms.search.form: 2000040
+ms.date: 04/02/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Automatically Transfer and Post CODA Statements in the Belgian Version
 
-After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.  
+# Automatically transfer and post CODA statements in the Belgian version
 
-After transferring the statement lines, you can post the lines in a corresponding general journal. If no such general journal exists, you cannot transfer the lines. You can create a journal to handle CODA statements. For more information, see [Create Financial Journals](how-to-create-financial-journals.md).  
+After you apply and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.  
 
-Alternatively, you can manually transfer and post CODA statements. For information, see [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md).  
+After transferring the statement lines, you can post the lines in a corresponding general journal. If no such general journal exists, you can't transfer the lines. You can create a journal to handle CODA statements. Learn more in [Create Financial Journals](how-to-create-financial-journals.md).  
 
-## To automatically transfer statement lines  
+Alternatively, you can manually transfer and post CODA statements. Learn more in [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md).  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
-2.  Select the bank account, and then choose the **CODA Statements** action.  
-3.  Select the CODA statement, and then choose the **Edit** action.  
-4.  Choose the **Transfer to General Ledger** action.  
-5.  Choose the **Yes** button.  
+## Automatically transfer statement lines  
 
-The batch job will now transfer the CODA statement lines to the financial journal.  
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1. Select the bank account, and then choose the **CODA Statements** action.  
+1. Select the CODA statement, and then choose the **Edit** action.  
+1. Choose the **Transfer to General Ledger** action.  
+1. Choose the **Yes** button.  
+
+The batch job now transfers the CODA statement lines to the financial journal.  
 
 After transferring the statement lines to the journal, you can post the statement lines in the corresponding financial journal.  
 
-## See Also  
- [CODA Bank Statements](coda-bank-statements.md)   
- [Import CODA Statements](how-to-import-coda-statements.md)   
- [Apply CODA Statements](how-to-apply-coda-statements.md)   
- [Create Financial Journals](how-to-create-financial-journals.md)   
- [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
+## Related information
 
+- [CODA Bank Statements](coda-bank-statements.md)
+- [Import CODA Statements](how-to-import-coda-statements.md)
+- [Apply CODA Statements](how-to-apply-coda-statements.md)
+- [Create Financial Journals](how-to-create-financial-journals.md)
+- [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

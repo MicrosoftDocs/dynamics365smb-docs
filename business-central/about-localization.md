@@ -1,28 +1,26 @@
 ---
 title: Local functionality and localization strategy
-description: Learn about local availability and regulatory compliance in Business Central for the countries where Microsoft provides the local functionality.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Learn about local availability and regulatory compliance in Business Central for the countries/regions where Microsoft provides the local functionality.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
 ms.search.keywords: availability, localization
 ms.search.form: 
-ms.date: 06/11/2021
-ms.author: edupont
+ms.date: 05/19/2025
+ms.custom: bap-template, references_regions
 
+ms.service: dynamics-365-business-central
 ---
-# Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
+# What is local functionality in [!INCLUDE[prod_long](includes/prod_long.md)]?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
+[!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries/regions where Microsoft provides the regulatory compliance and other local functionality.  
 
-For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+For a list of currently supported markets, go to [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## Local Functionality
+## Local functionality
 
-To learn about the local functionality for each country/region, choose the related link:
+The following table provides links to articles where you can learn about the local functionality for each country/region.
 
 | Region | Country | More information |
 | --- | --- |--- |
@@ -51,17 +49,17 @@ To learn about the local functionality for each country/region, choose the relat
 |        | India | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Other Countries
+### Other countries/regions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## See Also
+## Related information
+
 [Create environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Compliance](compliance/compliance-overview.md)  
-[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
+[Compliance overview](compliance/compliance-overview.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

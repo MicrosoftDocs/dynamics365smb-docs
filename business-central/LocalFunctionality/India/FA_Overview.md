@@ -1,18 +1,18 @@
 ---
-    title: Setting up Fixed Asset for depreciation calculation
-    description: Specifies Basic Setups required, for Fixed Asset Depreciation Calculation
+title: Setting up Fixed Asset for depreciation calculation
+description: Specifies Basic Setups required, for Fixed Asset Depreciation Calculation
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Fixed Asset for Depreciation Calculation
 
@@ -90,7 +90,7 @@ Setup needs to be done to calculate additional depreciation for Fixed Assets.
 
 
 
-## See Also 
+## Related information 
 [Fixed Asset Depreciation](FA_Depreciation.md)
 
 

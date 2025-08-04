@@ -4,11 +4,12 @@ description: Russian enhancements include absence registration.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Absence registration
@@ -53,7 +54,7 @@ Absence types defined by a considered order, recorded in the Employee Ledger Ent
 
 The considered order can be cancelled. The function is available in the form of a card of the considered order. Only orders for which wages are not calculated may be cancelled.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)
 

@@ -1,0 +1,1 @@
+Ensure that you fulfill sales orders for assembly and production on time. The report shows key availability figures for supply and demand that support decisions about when, and how many, orders you can fulfill. This analysis helps you maintain a smooth production flow, meet delivery deadlines, and optimize inventory levels.

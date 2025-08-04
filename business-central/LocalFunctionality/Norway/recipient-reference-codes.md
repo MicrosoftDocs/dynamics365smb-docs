@@ -1,23 +1,21 @@
 ---
-title: Recipient Reference Codes [NO]
-description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 06/21/2021
-ms.author: edupont
-
+title: Recipient reference codes [NO]
+description: Learn about the message sent to the recipient and shown on the remittance account, based on the recipient reference code.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: remittance account, recipient reference, Norwegian version, recipient reference code
+ms.date: 05/16/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Recipient Reference Codes in the Norwegian Version
 
-The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.  
+# Recipient reference codes in the Norwegian version
 
-The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that will print is **Payment of Invoice 10000**.  
+The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text isn't used.  
+
+The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that prints is **Payment of Invoice 10000**.  
 
 The recipient reference codes are described in the following table.  
 
@@ -35,8 +33,8 @@ The recipient reference codes are described in the following table.
 |**%10**|The due date from the vendor ledger entry.|  
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
 
-## See Also  
- [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
+## Related information
 
+[Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

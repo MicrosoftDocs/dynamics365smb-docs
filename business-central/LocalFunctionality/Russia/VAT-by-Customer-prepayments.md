@@ -4,11 +4,12 @@ description: Russian enhancements include reporting VAT by customer prepayment.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # VAT by Customer Prepayment
@@ -53,7 +54,7 @@ Fill in the fields:
 
 Click "OK". The system will automatically create corrective entries.
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

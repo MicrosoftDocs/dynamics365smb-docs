@@ -2,15 +2,13 @@
 title: Using Business Central with Outlook
 description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: jswymer
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 04/21/2022
+ms.date: 06/14/2024
 ms.author: jswymer
-
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Use Business Central as your Business Inbox in Outlook
 
@@ -34,7 +32,7 @@ ms.author: jswymer
 
 2. With the add-in installed, you can access the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in from any new or existing email message or calendar appointment in Outlook.
 
-    Start by signing in to Outlook and opening an email message. Then, if you're using the Outlook app, go to the ribbon, and look for **[!INCLUDE[prod_short](includes/prod_short.md)]**.  Or if you're using Outlook on the web, at the top or bottom of the email message, look for ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) or go to the more actions ![Show more actions for an email in Outlook.](media/outlook-more-actions-button.png) button.
+    Start by signing in to Outlook and opening an email message. Then, if you're using the Outlook app, go to the ribbon, and look for **[!INCLUDE[prod_short](includes/prod_short.md)]**.  Or if you're using Outlook on the web, at the top the email message, select **Apps** ![Shows the apps button in Outlook.](media/apps-icon.png) > **Business Central** ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) or go to the more actions ![Show more actions for an email in Outlook.](media/outlook-more-actions-button.png) button.
 
     ![Access Business Central add-ins in Outlook.](media/outlook-business-central-addin.png)
 
@@ -64,18 +62,18 @@ The following sections lead you through some basic tasks to give you a general u
 ### Look up a business contact when composing an email
 
 1. Create a new email message.
-2. In the ribbon, go to **[!INCLUDE[prod_short](includes/prod_short.md)]** and choose **Contact Insights**. Or if you're using Outlook on the web, go to the bottom of the message, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) > **Contact Insights**.
+2. In the ribbon, go to **[!INCLUDE[prod_short](includes/prod_short.md)]** and choose **Contact Insights**. Or if you're using Outlook on the web, at the top of the message, select **Apps** ![Shows the apps button in Outlook.](media/apps-icon.png) > **Business Central** ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) > **Contact Insights**.
 3. In the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in pane that opens, scan for and choose the contact you want.
 
     An overview of the contact displays in the pane and the contact is added in the **To** line of the email.
 
 ### View and change the contact details or switch company
 
-The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] add-in pane includes several actions that let your dig deeper into details about the contact and change things.
+The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] add-in pane includes several actions that let you dig deeper into details about the contact and change things.
 
 ![Business Central add-in action bar in Outlook.](media/outlook-addin-action-bar.png)
 
-For example, you can open the full contact details as you would see them in [!INCLUDE[prod_short](includes/prod_short.md)]. If you work with more that one [!INCLUDE[prod_short](includes/prod_short.md)] company, you can easily switch between companies.
+For example, you can open the full contact details as you would see them in [!INCLUDE[prod_short](includes/prod_short.md)]. If you work with more than one [!INCLUDE[prod_short](includes/prod_short.md)] company, you can easily switch between companies.
 
 ### Track incoming documents
 
@@ -95,7 +93,7 @@ Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](include
 
 Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoice payments, photos of goods, or requirements in a Word document. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
 
-There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get an email with files from a contact. The add-in will automatically display the contact record that matches the email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
+There's a couple ways you can attach files. One way is to upload files from your device. The other way is to upload files that are attached to an email. For example, suppose you get an email with files from a contact. The add-in will automatically display the contact record that matches the email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
 
 ![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-files.png)
 
@@ -124,10 +122,7 @@ If you're using the Outlook app, just choose **Document Link** at the top of the
 > [!TIP]
 > Starting in 2022 release wave 1, documents open in a new browser window with all the capabilities that you know from [!INCLUDE [prod_short](includes/prod_short.md)]. You can navigate from a document to a list and back again, open lists in Excel, send documents to be printed, and run or preview related reports. You also have all of the familiar keyboard shortcuts right there when you open documents from Outlook.  
 
-
-## See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
-
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

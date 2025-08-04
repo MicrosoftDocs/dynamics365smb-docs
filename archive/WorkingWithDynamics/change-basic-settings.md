@@ -3,8 +3,7 @@
     description: You can change basic database settings, such as the work date or language.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

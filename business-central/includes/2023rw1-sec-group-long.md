@@ -3,11 +3,13 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
-> Security groups are new to [!INCLUDE [prod_short](prod_short.md)] in 2023 release wave 1. They make it easier for administrators to manage user permissions by allowing them to group users by department, job function, and so on. Administrators assign the permissions to the group that its members need to do their jobs.
+> Security groups replace user groups starting in 2023 release wave 1 (version 22). User groups aren't available after 2024 release wave 1 (version 24).
 >
-> Security groups are similar to the user groups that are currently available. However, user groups are only relevant for [!INCLUDE [prod_short](prod_short.md)]. Security groups are based on groups in Microsoft 365 admin center or Azure portal. That benefits administrators because they can use their security groups with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](prod_short.md)]and SharePoint, administrators don't have to recreate the group and its members.
+> Security groups work like user groups, but they're defined in Microsoft Entra ID for online or Windows Active Directory for or on-premises instead of Business Central. This setup lets admins reuse security groups with other Dynamics 365 apps. Learn more in [Control Access to Business Central Using Security Groups](../ui-security-groups.md).
 >
-> Security groups will replace user groups in a future release. You can continue using user groups to manage permissions until then. To start using security groups now, your administrator can turn on **Feature: Convert user group permissions** on the **Feature Management** page. To learn more about security groups, go to [Control Access to Business Central Using Security Groups](../ui-security-groups.md).
+> With Business Central on-premises version 22, 23, or 24, use the assisted setup guide to convert user groups to permission sets. This process helps you transition to security groups. Learn more in [Control Access to Business Central Using Security Groups](../ui-legacy-user-groups.md#convert-user-groups-to-permission-sets).

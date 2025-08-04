@@ -1,19 +1,16 @@
 ---
-title: Create Business Contacts
+title: Create business contacts
 description: Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.
 author: brentholtorf
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 08/30/2022
-ms.author: edupont
-
+ms.date: 06/10/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Create Contacts
+# Create contacts
 
 When you develop a business relationship with someone in another company, add them as a contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Then, add any information about them, or their company, that could be useful in future communications. You can create the following types of contacts on the **Contact Card** page:
 
@@ -24,12 +21,7 @@ The information that's relevant for each type of contact differs, so the availab
 
 You can change the value of the **Type** field later. Alternatively, use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to specify the data to share between a person and their company. Learn more at [Setting Up Contacts](marketing-setup-contacts.md).
 
-When a contact is converted to a customer, for example, the contact person or contact company becomes the name of the customer. The record for the contact is kept, and you can link the contact and the customer so their data is synchronized going forward.
-
-> [!NOTE]
-> If you switch on the [feature update for conversion templates](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), then you can also create vendors or employees from business contacts.
->
-> However, if you're already using the built-in functionality to create customers or items automatically, this feature update does not support custom fields, and newly created customers or items will not include such data.
+When you convert a contact to a customer, vendor, or employee, for example, the contact person or contact company becomes the name of the customer. The record for the contact is kept, and you can link the contact and the customer so their data synchronizes going forward.
 
 ## To create a contact manually
 
@@ -37,7 +29,7 @@ When a contact is converted to a customer, for example, the contact person or co
 2. Choose the **New** action.
 3. In the **No.** field, enter a number for the contact.
 
-   Alternatively, if you have set up a number series for contacts on the **Marketing Setup** page, you can select <kbd>Enter</kbd> to insert the next available contact number.
+   Alternatively, if you have a number series for contacts on the **Marketing Setup** page, you can select <kbd>Enter</kbd> to insert the next available contact number.
 4. Fill in the remaining fields as required. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To create a contact from a customer, vendor, or bank account
@@ -61,10 +53,12 @@ The next contact numbers in the number series are assigned to the new contacts. 
 
 ## To create a customer, vendor, employee, or bank account from a contact
 
-If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
+If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronized with the related customer, vendor, employee, or bank account information. Learn more at [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create customers, vendors, employees, or bank accounts from contacts, you must specify a business relation code on the **Marketing Setup** page on the **Interactions** FastTab. Learn more at [Setting up Contacts](marketing-setup-contacts.md).
+>
+>Also, you must also have at least one template set up for each of them. For example, to create a customer from a contact, you must have a customer template.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, then choose the related link.
 2. Select the contact you want to create as a customer, vendor, employee, or bank account.
@@ -120,7 +114,7 @@ There are three ways to enable data synchronization between contacts and custome
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
 2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Account/Employee** action.
 
-## See also
+## Related information
 
 [Managing Contacts](marketing-contacts.md)  
 [Setting Up Contacts](marketing-setup-contacts.md)  

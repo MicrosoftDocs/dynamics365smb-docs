@@ -1,18 +1,18 @@
 ---
-    title: GST Input Tax Credit Adjustments
-    description: GST Input Tax Credit Adjustments
+title: GST Input Tax Credit Adjustments
+description: GST Input Tax Credit Adjustments
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST Input Tax Credit Adjustments
 
@@ -131,7 +131,7 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 
 
-## See Also 
+## Related information 
 [GST Settlement](GST-Settelement.md)
 
 

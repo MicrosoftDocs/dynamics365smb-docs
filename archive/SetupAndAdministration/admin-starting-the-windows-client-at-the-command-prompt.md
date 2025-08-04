@@ -3,7 +3,7 @@
     description: You can start the Microsoft Dynamics NAV Windows client at a command prompt. By adding command-line parameters, you can:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

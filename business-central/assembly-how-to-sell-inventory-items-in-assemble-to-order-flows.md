@@ -3,12 +3,13 @@ title: Sell Inventory Items in Assemble-to-Order Flows
 description: Assemble-to-order items are assembled for sales orders through an assembly order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.service: dynamics-365-business-central
 ---
 # Selling Inventory Items in Assemble-to-Order Flows
 
@@ -47,9 +48,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 > [!CAUTION]  
 > The **Bin Code** field on the sales order might contain the value from the **Assemble-to-Order Shpt. Bin Code** or **From-Assembly Bin Code** fields on the location card. If it does, the **Bin Code** field on the sales order line might be incorrect for this combination of assemble-to-order and assemble-to-stock quantities. It's a good idea to double-check that the bin in the **Bin Code** field works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
 
-## See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  

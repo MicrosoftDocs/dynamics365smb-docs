@@ -3,7 +3,7 @@
     description: The status bar at the bottom of application window shows the following information:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

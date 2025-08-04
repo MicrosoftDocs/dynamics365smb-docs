@@ -1,17 +1,15 @@
 ---
-    title: Set Up Bin Types
-    description: Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.
-    author: SorenGP
+title: Set Up Bin Types
+description: Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.form: 7367
+ms.date: 06/25/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 7367
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Bin Types
 
@@ -41,9 +39,7 @@ The bin types that you can create are listed below.
 |PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
 
-## See related [Microsoft training](/training/modules/set-up-zones-bins/)
-
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

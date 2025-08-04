@@ -1,18 +1,15 @@
 ---
 title: Post Multiple Documents at the Same Time
 description: Learn how to select multiple non-posted documents in a list for immediate or scheduled batch posting in Business Central.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.form: 
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Post Multiple Documents at the Same Time
 
@@ -120,7 +117,7 @@ If you set up background posting with job queues, make it a regular task to moni
 
 As an administrator, you can use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that you can use to identify problems. For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
 
-## See Also
+## Related information
 
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  

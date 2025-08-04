@@ -1,18 +1,16 @@
 ---
-title: Procurement Quick Start (contains video)
+title: Procurement Quick Start
 description: Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.
-author: jill-kotel-andersson
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Procurement Quick Start
@@ -25,7 +23,7 @@ The following video shows you how to set up a vendor in [!INCLUDE[prod_short](in
 
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=7188b662-bc49-45ef-8152-82898076b235]
 
 ### Set up a new vendor
 
@@ -41,7 +39,7 @@ The following video shows you how to create a purchase order in [!INCLUDE[prod_s
 
 <br><br>
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=f04b1ed3-5cb0-4fa8-8cd0-24069ee893d2]
 
 ### To create a purchase order  
 
@@ -98,7 +96,7 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 
 For more information and additional things you can do when creating a purchase invoice, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## See Also
+## Related information
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Purchasing Overview](Purchasing-manage-purchasing.md)  

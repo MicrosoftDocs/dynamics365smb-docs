@@ -3,14 +3,17 @@ title: Set Up Email Logging
 description: Learn how to turn email interactions between salespeople and customers into real sales opportunities.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: dcenic
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/27/2023
+ms.date: 11/14/2024
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.search.form: 1680, 1811, 5076
+ms.service: dynamics-365-business-central
 ---
 # Track Email Message Exchanges Between Salespeople and Contacts
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Get more out of the communications between your salespeople and customers by turning email exchanges into actionable opportunities. [!INCLUDE[prod_short](includes/prod_short.md)] can work with Exchange Online to keep a log of the inbound and outbound messages. You can view and analyze the contents of each message on the **Interaction Log Entries** page.
 
@@ -37,7 +40,7 @@ Prepare a shared mailbox in the Exchange admin center. Alternatively, you can al
 
 ### Add a user account for members of the shared mailbox
 
-The account that you'll use for email logging is an Exchange Online account. The scheduled job will use the account to connect to the shared mailbox and process emails. This account should not be associated with a specific person. Add the email account to the members for the shared mailbox. For more information, see [Use the EAC to edit shared mailbox delegation](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
+The account that you use for email logging is an Exchange Online account. The scheduled job uses the account to connect to the shared mailbox and process emails. This account shouldn't be associated with a specific person. Add the email account to the members for the shared mailbox. For more information, see [Use the EAC to edit shared mailbox delegation](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
 ### Allow other users to see logged emails
 
@@ -59,7 +62,7 @@ Mail flow rules look for specific conditions on messages and take action on them
 
 Get started with email logging in two easy steps:
 
-1. Connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online for your Microsoft 365 subscription. Exchange Online handles your email messages. We've made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Microsoft 365. To start the guide, go to the **Assisted Setup** page, and then select the **Set up email logging** guide.  
+1. Connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online for your Microsoft 365 subscription. Exchange Online handles your email messages. We made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Microsoft 365. To start the guide, go to the **Assisted Setup** page, and then select the **Set up email logging** guide.  
 
 2. Make sure that the email addresses for your sales people and contacts in [!INCLUDE[prod_short](includes/prod_short.md)] are valid. To do that, for each customer or salesperson, open the **Contact** or **Salesperson/Purchaser** card and have a look in the **Email** field.
 
@@ -77,11 +80,11 @@ Get started with email logging in two easy steps:
 
 There are mailbox and folder limits in Exchange Online, such as limits for folder sizes and the number of messages. For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) and [Limits for public folders in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019&preserve-view=true).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] stores logged email messages in a folder in Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] also stores a link to each logged message. The links open the logged messages in Exchange Online from the Interaction Log Entries, Contact Card, and Salespersons Card pages in [!INCLUDE[prod_short](includes/prod_short.md)]. If a logged message is moved to another folder, the link will be broken. For example, a message might be moved manually, or Exchange Online might automatically start AutoSplit when a storage limit is reached.
+[!INCLUDE[prod_short](includes/prod_short.md)] stores logged email messages in a folder in Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] also stores a link to each logged message. The links open the logged messages in Exchange Online from the Interaction Log Entries, Contact Card, and Salespersons Card pages in [!INCLUDE[prod_short](includes/prod_short.md)]. If a logged message is moved to another folder, the link is broken. For example, a message might be moved manually, or Exchange Online might automatically start AutoSplit when a storage limit is reached.
 
 The following steps can help you avoid breaking links to messages in Exchange Online.
 
-1. Don't move existing messages to another folder after you change settings for your email logging setup. Keeping existing messages where they are will preserve the links. Links to messages in the new folder will be valid.
+1. Don't move existing messages to another folder after you change settings for your email logging setup. Keeping existing messages put preserves the links. Links to messages in the new folder are valid.
 2. Avoid reaching the mailbox and folder limits. If you're about to reach a limit, take the following steps:
     1. Set up a new shared mailbox in Exchange Online.
     2. Update your email flow rules in Exchange Online.
@@ -104,36 +107,36 @@ The new experience does not support connections to Exchange on-premises.
 -->
 ## Connect to Exchange Online
 
-To connect to Exchange Online you must register an application in Azure Active Directory. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-set and should work for most installations. For more information, see [To register an application in Azure AD for connecting from Business Central to Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+To connect to Exchange Online, you must register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is preset and should work for most installations. For more information, see [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](#to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online). 
 
-You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Azure Active Directory. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-populated and should work for most installations. For more information, see To register an application in Azure AD for connecting from Business Central to Exchange Online below.
+You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is prepopulated and should work for most installations. For more information, see [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](#to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online).
 
-You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
+You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret is saved as an encrypted string in your database.
 
-### To register an application in Azure AD for connecting from Business Central to Exchange Online
+### To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online
 
-The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
+The following steps assume that you use Microsoft Entra ID to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
-1. In the Azure Portal, under **Manage**, choose **Authentication**.
+1. In the Azure portal, under **Manage**, choose **Authentication**.
 2. Under **Redirect URL**, add the redirect URL that is suggested on the **Email Logging** page in [!INCLUDE[prod_short](includes/prod_short.md)]. If the redirect URL field on the Email Logging page is empty, find the suggested redirect URL on the **Assisted Setup** page. To open the page, on the **Email Logging** page, choose **Actions**, and then **Assisted Setup**.
 
     > [!NOTE]
     > If you do not specify the redirect URL, you can do so later by choosing **Add a platform**, and then choosing **Web** to add the web application and the redirect URL.
 
 3. Under **Manage**, choose **API permissions**, and choose **Microsoft Graph**, and then choose **Delegated permissions**.
-4. Use the search box to find and select **Mail**, and then add the **Mail.ReadWrite.Shared** permission. 
-5. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You'll use the secret either in the **Client Secret** field on the **Email Logging** page in [!INCLUDE[prod_short](includes/prod_short.md)].
-6. Choose **Overview**, and then find the **Application (client) ID** value. This is the client ID of your application. You must enter it either in the **Client ID** field on the **Email Logging** page.
+4. Use the search box to find and select **Mail**, and then add the **Mail.ReadWrite.Shared** permission.
+5. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You use the secret either in the **Client Secret** field on the **Email Logging** page in [!INCLUDE[prod_short](includes/prod_short.md)].
+6. Choose **Overview**, and then find the **Application (client) ID** value. This value is the client ID of your application. You must enter it either in the **Client ID** field on the **Email Logging** page.
 7. In [!INCLUDE[prod_short](includes/prod_short.md)], set up email logging on the **Email Logging** page, or use the **Assisted Setup** guide for assistance.
 
 ### Use Another Identity and Access Management Service
 
-If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
+If you aren't using Microsoft Entra ID to manage identities and access, you need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging."
 
 ## To start logging email
 
 1. To start logging email, on the **Email Logging** page, turn on the **Enabled** toggle.
-2. Sign in with the Exchange Online account that the scheduled job will use to connect to the shared mailbox and process emails.
+2. Sign in with the Exchange Online account that the scheduled job uses to connect to the shared mailbox and process emails.
 
     > [!NOTE]
     > If you are not prompted to sign in the the Exchange Online account, it might be because your browser is blocking pop-ups. To sign in, allow pop-ups from https://login.microsoftonline.com.
@@ -147,18 +150,19 @@ If you are not using Azure Active Directory to manage identities and access, you
 
 ### [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with the account that the scheduled job will use to connect to the shared mailbox and process emails. This account must have access to both [!INCLUDE[prod_short](includes/prod_short.md)] and Exchange Online.
+1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with the account that the scheduled job uses to connect to the shared mailbox and process emails. This account must have access to both [!INCLUDE[prod_short](includes/prod_short.md)] and Exchange Online.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link. 
 3. Choose **Related**, and then **Job Queue Entry**.
 4. Restart the **Email Logging** job.
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link.
 2. Choose **Actions**, and then **Renew Token**.
-3. Sign in with the Exchange Online account that the scheduled job will use to connect to the shared mailbox and process emails.
+3. Sign in with the Exchange Online account that the scheduled job uses to connect to the shared mailbox and process emails.
 
-## See Also
+## Related information
+
 [Managing Relationships](marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

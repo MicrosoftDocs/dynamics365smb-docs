@@ -4,12 +4,11 @@ description: Learn how to use inventory put-away documents to record and post pu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: 7375, 
-
 ---
 # Put Items Away with Inventory Put-aways
 
@@ -84,9 +83,7 @@ A warehouse employee can create a new inventory put-away based on the released s
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## See related [Microsoft training](/training/modules/receive-put-away-items/)
-
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

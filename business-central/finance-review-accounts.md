@@ -1,16 +1,17 @@
 ---
-title: Review General Ledger Accounts 
+title: Review general ledger accounts 
 description: You can track your progress when you review amounts in general ledger accounts.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
-ms.topic: conceptual
-ms.date: 02/28/2023
+ms.reviewer: bholtorf
+ms.topic: article
+ms.date: 08/06/2024
 ms.custom: bap-template
-ms.search.form: 22207,
+ms.search.form: 20, 22207,
+ms.service: dynamics-365-business-central
 ---
 
-# Review Amounts in General Ledger Accounts
+# Review amounts in general ledger accounts
 
 You might have general ledger accounts that you frequently keep an eye on. Or you might want to speed up the review process at the end of the month. For help with keeping track of what you've done, and to speed up reviews, use the **Review Entries** action on the **Chart of Accounts** or the **G/L Account Card** page for each account. 
 
@@ -34,7 +35,7 @@ If you mark entries as reviewed, but regret doing so, use the **Set selected as 
 * If the Review allowed and match balance policy is assigned, the credit and debit must still balance. For example, if one of the entries in a review is a mistake, you can choose another entry with the correct value. The replacement entry doesn't have to have the same reviewed identifier.
 
 > [!TIP]
-> A fast way to choose multiple entries is to hold down Ctrl or Shift while you choose the entries. Ctrl lets you selects specific entries, and Shift selects all entries between the first and last entries you select.
+> A fast way to choose multiple entries is to hold down Ctrl or Shift while you choose the entries. *Ctrl* lets you selects specific entries, and *Shift* selects all entries between the first and last entries you select.
 
 ## Review accounts that have old entries
 
@@ -54,7 +55,7 @@ There are a couple of ways to analyze the general ledger entries you've reviewed
 * Turn on Analysis Mode, for example, to group entries according to their reviewed identifier. To learn more about Analysis Mode, go to [Analyze List Page Data Using Analysis Mode](analysis-mode.md).
 * Export the entries to Excel.
 
-## See Also
+## Related information
 
-[Understand the General Ledger and Chart of Accounts](finance-general-ledger.md)  
-[Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md)  
+[Understand the General Ledger and Chart of Accounts](finance-general-ledger.md)    
+[Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md)    

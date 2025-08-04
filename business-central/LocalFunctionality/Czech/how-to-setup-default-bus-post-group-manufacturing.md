@@ -1,20 +1,20 @@
 ---
-title: Default Business Posting Group in Manufacturing [CZ]
-description: This section describes local functionality - Default Business Posting Group in Manufacturing in the Czech version of Business Central.
+title: Default business posting group in manufacturing [CZ]
+description: Learn about the default business posting group functionality in manufacturing in the Czech version of Business Central.
 author: v-pejano
-
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
-ms.reviewer: v-pejano
+ms.date: 06/03/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
-# Default Business Posting Group in Manufacturing in the Czech Version
-Default Business Posting Group in Manufacturing
+# Default business posting group in manufacturing in the Czech version
 
-## See also
+Default business posting group in manufacturing.
 
-[Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
-[Czech Local Functionality](czech-local-functionality.md)  
+## Related information
+
+- [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  

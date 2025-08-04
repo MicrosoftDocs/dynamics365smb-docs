@@ -4,11 +4,12 @@ description: Russian enhancements include exchange rates adjustments.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Adjust Exchange Rates in the Russian Version
@@ -33,7 +34,7 @@ The difference for Russian task and worldwide task - Russian report create adjus
 
    3. Click "Ok".
    
-   ## See Also 
+   ## Related information 
 
 [Russia Local Functionality](russia-local-functionality.md)
 

@@ -3,7 +3,7 @@
     description: The sorting function makes it easy for you to get a quick overview of your data. A sorted list can be saved using the **Save View As…** functionality which is found by choosing the page title.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

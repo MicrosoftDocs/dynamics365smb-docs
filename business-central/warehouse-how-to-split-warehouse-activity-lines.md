@@ -4,13 +4,12 @@ title: How to Split Warehouse Activity Lines
 description: Learn how to split warehouse activity lines if the available capacity in a suggested bin is not sufficient.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: 931, 9314, 9313, 9315, 9330
-
 ---
 # Split Warehouse Activity Lines
 
@@ -35,7 +34,7 @@ The following procedure applies to the following warehouse documents:
 > [!NOTE]  
 > If the location uses directed put-away and pick and you split the lines, you must be familiar with the warehouse and be able to choose a bin that matches the storage requirements of the item and that fulfills the general requirements of the warehouse document. For example, you would not split a line on a pick document and place some items in bulk storage.  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

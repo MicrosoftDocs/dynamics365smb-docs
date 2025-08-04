@@ -1,25 +1,22 @@
 ---
-    title: Print Bank Account Reconciliation Reports [NZ]
-    description: Describes how to print a report that displays open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
-
+title: Print bank account reconciliation reports [NZ]
+description: Learn how to print a report showing open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version of Business Central.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: unpresented checks, unrecorded deposits, open bank ledger entries, bank account reconciliation report, New Zealand version
+ms.date: 05/06/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Print Bank Account Reconciliation Reports in the New Zealand Version
+
+# Print bank account reconciliation reports in the New Zealand version
 
 [!INCLUDE [print-bank-account-reconciliation-reports](../includes/AUNZ/print-bank-account-reconciliation-reports.md)]
 
-## See Also
+## Related information
 
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

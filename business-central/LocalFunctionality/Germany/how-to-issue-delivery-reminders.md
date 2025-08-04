@@ -1,29 +1,26 @@
 ---
-    title: Issue Delivery Reminders in the German Version
-    description: Read about how you issue and print delivery reminders so that you can send reminders to vendors in the German version of Business Central.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+title: Issue delivery reminders in the German version
+description: Learn how to issue and print delivery reminders to vendors in the German version of Business Central.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: issue delivery reminders, print delivery reminders, delivery reminders, German version
+ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
+ms.date: 03/11/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Issue Delivery Reminders in the German Version
+
+# Issue delivery reminders in the German version
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## See Also
+## Related information
 
-[Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md)  
-[Delivery Reminders](delivery-reminders.md)  
-[Generate Delivery Reminders](how-to-generate-delivery-reminders.md)  
-[Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
-
+- [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md)  
+- [Delivery Reminders](delivery-reminders.md)  
+- [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)  
+- [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

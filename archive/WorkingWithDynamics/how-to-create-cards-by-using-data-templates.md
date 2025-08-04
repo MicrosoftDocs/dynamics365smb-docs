@@ -3,7 +3,7 @@
     description: Cards hold master data that represent business accounts such as items, vendors, and customers. For example, an item card displays the necessary information to store, maintain, and trade the item.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

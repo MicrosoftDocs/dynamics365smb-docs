@@ -1,17 +1,15 @@
 ---
-    title: Design Details - Item Tracking Posting Structure
-    description: Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
-    author: SorenGP
+title: Design Details - Item Tracking Posting Structure
+description: Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: design, item tracking, posting, inventory
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: design, item tracking, posting, inventory
-    ms.date: 06/15/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking Posting Structure
 To align with inventory costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  
@@ -28,20 +26,20 @@ The **Item Entry Relation** table, which is used to link a posted document line 
   
 The functionality of the existing **Entry No.** field, which relates an item ledger entry to a posted document line, handles the typical one-to-one relation when no item tracking numbers exist on the posted document line. If item tracking numbers exist, then the **Entry No.** field is left blank, and the one-to-many relation is handled by the **Item Entry Relation** table. If the posted document line carries item tracking numbers but only relates to a single item ledger entry, then the **Entry No.** field handles the relation, and the no record is created in the **Item Entry Relation** table.  
   
-## Codeunits 80 and 90  
+## Codeunits 80 (Sales-Post)  and 90 (Purch-Post)
 To split the item ledger entries during posting, the code in codeunit 80 and codeunit 90, is encircled by loops that run through global temporary record variables. This code calls codeunit 22 with an item journal line. These variables are initialized when item tracking numbers exist for the document line. To keep the code simple, this looping structure is always used. If no item tracking numbers exist for the document line, then a single record is inserted, and the loop runs only once.  
   
 ## Posting the Item Journal  
-Item tracking numbers are transferred via the reservation entries that relate to the item ledger entry, and the looping through item tracking numbers occurs in codeunit 22. This concept works in the same way when an item journal line is used indirectly to post a sale or purchase order as when an item journal line is used directly. When the item journal is used directly, the **Source Row ID** field points to the item journal line itself.  
+Item tracking numbers are transferred via the reservation entries that relate to the item ledger entry, and the looping through item tracking numbers occurs in codeunit 22  (Item Jnl.-Post Line). This concept works in the same way when an item journal line is used indirectly to post a sale or purchase order as when an item journal line is used directly. When the item journal is used directly, the **Source Row ID** field points to the item journal line itself.  
   
-## Code Unit 22  
-Codeunits 80 and 90 loop the call of codeunit 22 during the invoice posting of item tracking numbers and during the invoicing of existing shipments or receipts.  
+## Code Unit 22  (Item Jnl.-Post Line)
+Codeunits 80 (Sales-Post)  and 90 (Purch-Post) loop the call of codeunit 22 (Item Jnl.-Post Line) during the invoice posting of item tracking numbers and during the invoicing of existing shipments or receipts.  
   
-During quantity posting of item tracking numbers, codeunit 22 retrieves item tracking numbers from the entries in T337 that relate to the posting. These entries are placed directly on the item journal line.  
+During quantity posting of item tracking numbers, codeunit 22 (Item Jnl.-Post Line) retrieves item tracking numbers from the entries in T337 (Reservation Entry) that relate to the posting. These entries are placed directly on the item journal line.  
   
-Codeunit 22 loops through the item tracking numbers and splits the posting into the respective item ledger entries that carry the item tracking numbers. Information about which item ledger entries are created is returned to T337 by using a temporary T336 record, which is called by a procedure in codeunit 22. This procedure is triggered when codeunit 22 has finished its run because at that point, the codeunit 22 object contains the information. When the temporary T336 record is retrieved, codeunits 80 and 90 create records in the **Item Entry Relation** table to link the created item ledger entries to the created shipment or receipt line. Codeunits 80 or codeunit 90 then converts the temporary T336 records to real T336 records that are related to the line in question. However, this conversion occurs only if the posted document line is not deleted, because it is only partially posted.  
+Codeunit 22 (Item Jnl.-Post Line) loops through the item tracking numbers and splits the posting into the respective item ledger entries that carry the item tracking numbers. Information about which item ledger entries are created is returned to T337(Reservation Entry)by using a temporary T336 record, which is called by a procedure in codeunit 22. This procedure is triggered when codeunit 22 has finished its run because at that point, the codeunit 22 object contains the information. When the temporary T336 record is retrieved, Codeunits 80 (Sales-Post)  and 90 (Purch-Post) create records in the **Item Entry Relation** table to link the created item ledger entries to the created shipment or receipt line. Codeunits 80 (Sales-Post)  and 90 (Purch-Post) then converts the temporary T336 (Tracking Specification) records to real T336 (Tracking Specification) records that are related to the line in question. However, this conversion occurs only if the posted document line is not deleted, because it is only partially posted.  
   
-## See Also  
+## Related information  
 [Design Details: Item Tracking](design-details-item-tracking.md)   
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)
 

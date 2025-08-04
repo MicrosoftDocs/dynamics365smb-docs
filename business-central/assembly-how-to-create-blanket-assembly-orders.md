@@ -1,17 +1,15 @@
 ---
 title: Create Blanket Assembly Orders
 description: Create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.
-author: SorenGP
-  
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Blanket Assembly Orders
 
@@ -38,7 +36,7 @@ You can use assembly management to customize an assembly item to a customer's re
 
 The linked blanket assembly order and any customizations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
 
-## See also
+## Related information
 
 [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Assembly Management](assembly-assemble-items.md)  

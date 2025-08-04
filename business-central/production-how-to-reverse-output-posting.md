@@ -1,17 +1,15 @@
 ---
 title: Reverse Output Posting
 description: There are times when output posting must be reversed. This topic outlines the procedure for reversing output posting.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Reverse Output Posting
 
@@ -26,7 +24,7 @@ There are times when output posting must be reversed. An example of this would b
 
 The output journal entries are posted to the item ledger as a positive adjustment.  
 
-## See Also
+## Related information
 
  [Manufacturing](production-manage-manufacturing.md)
  [Setting Up Manufacturing](production-configure-production-processes.md)  

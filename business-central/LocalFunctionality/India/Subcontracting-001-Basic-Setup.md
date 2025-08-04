@@ -1,18 +1,18 @@
 ---
-    title: Setting up Subcontracting
-    description: Setting up Subcontracting
+title: Setting up Subcontracting
+description: Setting up Subcontracting
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Setting Up Subcontracting
@@ -124,7 +124,7 @@ No. series for GST liability invoice is setup on location master. You can define
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
 2. On the **Tax Information** FastTab, select **No. series code** in the **GST Liabilty Invoice** field.
 
-## See Also 
+## Related information 
 [Subcontracting Transactions](Subcontracting-Transactions.md)
 
 

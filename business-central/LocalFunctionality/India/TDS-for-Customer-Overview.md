@@ -1,18 +1,18 @@
 ---
-    title: Setting up Tax Deducted at Source by Customer, as per the provisions of the Income Tax Act, 1961
-    description: Describes the basic setups required according to the Income Tax Act, 1961.
+title: Setting up Tax Deducted at Source by Customer, as per the provisions of the Income Tax Act, 1961
+description: Describes the basic setups required according to the Income Tax Act, 1961.
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Tax Deducted at Source (TDS) by Customer, as per the Provisions of the Income Tax Act, 1961
 
@@ -225,7 +225,7 @@ TDS Section and concessional codes need to be defined for each customer, who is 
 
 
 
-## See Also 
+## Related information 
 [TDS Calculation for Customer](TDS-Calculation-for-Customer.md)
 
 

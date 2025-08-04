@@ -24,8 +24,8 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
-          "**/*.pdf"
-
+          "**/*.pdf",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -38,22 +38,21 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/dynamics365smb-docs",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://experience.dynamics.com/ideas/categories/?forum=e288ef32-82ed-e611-8101-5065f38b21f1&forumName=Dynamics%20365%20Business%20Central",
       "searchScope": [
         "dynamics365-bc-app",
         "Dynamics 365",
         "BusinessCentral"],
-      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "uhfHeaderId": "MSDocsHeader-Dynamics365-BusinessCentral",
       "titleSuffix": "Business Central",
       "search.app": [
 	"businesscentral",
 	"businesscentral-docs"],
       "search.audienceType": "enduser, admin",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
-      "ms.service": "dynamics365-business-central",
-      "extendBreadcrumb": true,
+      "ms.service": "dynamics-365-business-central",
+      "ms.reviewer": "jswymer",
       "recommendations": "true"
     },
     "fileMetadata": {
@@ -64,10 +63,13 @@
 	  "finance**.md": ["dynamics365-bc-app","Dynamics365","finance","financials","general ledger","cost accounting","BusinessCentral"], 
 	  "inventory**.md": ["dynamics365-bc-app","Dynamics365","inventory","stock", "warehouse","BusinessCentral"], 
 	  "across-how-to-**workflow**.md": ["dynamics365-bc-app","Dynamics365","workflow","approval","BusinessCentral"], 
-	  "across-how-to-**approval**.md": ["dynamics365-bc-app","Dynamics365","approval","workflow","BusinessCentral"], 
+	  "across-how-to-**approval**.md": ["dynamics365-bc-app","Dynamics365","approval","workflow","BusinessCentral"]
       },
       "ms.service":{
-        "**.*": "dynamics365-business-central"
+        "**.*": "dynamics-365-business-central"
+      },
+      "ms.custom":{
+        "LocalFunctionality/**.*": "references_regions"
       }
     },
     "template": [],

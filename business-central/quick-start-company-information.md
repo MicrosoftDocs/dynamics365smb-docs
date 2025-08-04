@@ -1,17 +1,15 @@
 ---
 title: Company Information Quick Start
 description: Learn how to fill in the first critical fields about your company in Business Central by reading this Quick Start article.
-author: jill-kotel-andersson
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 1,
 ms.date: 03/14/2022
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Company Information Quick Start
@@ -29,9 +27,7 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
-
-## See also  
+## Related information  
 
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

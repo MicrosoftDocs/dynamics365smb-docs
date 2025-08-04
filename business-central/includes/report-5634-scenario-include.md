@@ -1,0 +1,1 @@
+Get detailed information about the maintenance ledger entries for your fixed assets.

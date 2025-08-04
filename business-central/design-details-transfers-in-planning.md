@@ -3,11 +3,12 @@ title: Design Details - Transfers in Planning
 description: Learn how to use transfer orders as a source of supply when planning inventory levels.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: article
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: design, transfer, sku, locations, warehouse
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Transfers in Planning
 
@@ -182,7 +183,7 @@ In this example, the BLUE SKU is set up with an **Order** reordering policy. The
 
 If the demand is changed from 27 to 22, the planning system will lower the quantity through the chain. The binding reservation is also reduced.  
 
-## See Also  
+## Related information  
 
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)   

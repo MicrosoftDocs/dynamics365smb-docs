@@ -1,21 +1,19 @@
 ---
-title: Statutory Reports in Russia
+title: Statutory reports in Russia
 description: Russian enhancements include support for statutory reports.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
-ms.date: 08/26/2022
-ms.reviewer: edupont
+ms.date: 11/08/2023
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
+# Statutory reports
 
-# Statutory Reports
+You can set up statutory reports in [!INCLUDE[prod_short](../../includes/prod_short.md)] which gives you the ability to import and export data for electronic tax reporting and other required documents.
 
-You can set statutory reports up in [!INCLUDE[prod_short](../../includes/prod_short.md)] which gives you the ability to import and export data for electronic tax reporting and other required documents.
-
-After you have set up a report and specified the required information, you can export the report to Excel and then print it.
+After you set up a report and specify the required information, you can export the report to Excel and then print it.
 
 ## Getting started with statutory reports
 
@@ -42,7 +40,7 @@ Statutory reports are based on financial reports and tax registers. For each sta
 | **Tax Difference**          | The data is based on a tax difference. Learn more at [Tax Differences](tax-differences.md). |
 | **Payroll Analysis Report** | The data is based on payroll analysis.                       |
 
-## See also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Differences](Tax-Differences.md)  

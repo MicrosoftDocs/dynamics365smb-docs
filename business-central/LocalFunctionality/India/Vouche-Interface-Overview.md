@@ -1,18 +1,18 @@
 ---
-    title: Overview on Voucher Interface
-    description: Overview on Voucher Interface
+title: Overview on Voucher Interface
+description: Overview on Voucher Interface
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Overview of Voucher Interface
@@ -113,7 +113,7 @@ Voucher setup is done to define the type of voucher, related transaction directi
 
 
 
-## See Also 
+## Related information 
 [Voucher Interface Transaction](Voucher-Interface-Transactions.md)
 
 

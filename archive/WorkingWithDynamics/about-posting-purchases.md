@@ -3,7 +3,7 @@
     description: In the **Posting** group on a purchase document, you can choose between the following posting functions:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -52,9 +52,9 @@ In the **Posting** group on a purchase document, you can choose between the foll
 > [!CAUTION]  
 >  The planning system will try to consolidate supplies, for example by increasing existing purchase order lines to include new demand for the same item and vendor.  
 >   
->  If a purchase order line with a value in the **Job No.** field is increased by the planning system, then the combined purchase quantity will be posted as consumed by the related job and thereby cause erroneous job costing. You should therefore pay extra attention when posting purchase order lines that contain a job number. Alternatively, you can prevent the issue in the following ways:  
+>  If a purchase order line with a value in the **Project No.** field is increased by the planning system, then the combined purchase quantity will be posted as consumed by the related project and thereby cause erroneous project costing. You should therefore pay extra attention when posting purchase order lines that contain a project number. Alternatively, you can prevent the issue in the following ways:  
 >   
->  -   Manually split the affected purchase order by creating a second purchase order line for the quantity that is not job-related.  
+>  -   Manually split the affected purchase order by creating a second purchase order line for the quantity that is not project-related.  
 > -   Set affected items up with a reordering policy of **Order**, to ensure that the planning system always creates one supply per demand.  
 > -   Set the **Planning Flexibility** field on purchase order lines to **None**, to specify that such supplies are newer modified by the planning system.  
   

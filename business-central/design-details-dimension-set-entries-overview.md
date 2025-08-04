@@ -1,17 +1,15 @@
 ---
-    title: Dimension Set Entries Overview
-    description: This article gives you an overview of how dimension set entries are stored as dimension set entries and how they are posted.
-    author: SorenGP
+title: Dimension Set Entries Overview
+description: This article gives you an overview of how dimension set entries are stored as dimension set entries and how they are posted.
+author: brentholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: dimension
+ms.date: 06/14/2021
+ms.author: bholtorf
 
-    
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: dimension
-    ms.date: 06/14/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -42,7 +40,7 @@ Codeunit 408, Dimension Management, is a function library that handles common ta
 ## Performance Improvement  
 By storing dimension sets once in the database, database space is preserved and overall performance is improved.  
 
-## See Also
+## Related information
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
 [Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   

@@ -3,7 +3,7 @@
     description: When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. For information on how to use the Quick Filter, see [Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md).
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

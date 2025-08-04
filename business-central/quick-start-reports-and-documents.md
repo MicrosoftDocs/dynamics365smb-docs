@@ -1,18 +1,18 @@
 ---
-title: Basic Reports and Documents Output Quick Start
+title: Basic reports and documents output quick start
 description: Business Central offers built-in templates for reports and documents, with many customization options to adapt them to your company's needs.
-author: rubenseishima
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: article
 ms.search.keywords: quickstart
 ms.search.form: 
-ms.date: 08/15/2022
-ms.author: a-reishima
+ms.date: 05/17/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Basic Reports and Documents Output Quick Start
+# Basic reports and documents output quick start
 
 To adapt [!INCLUDE[prod_short](includes/prod_short.md)] to your company needs, set and use reports and customized documents suited to your business' processes and visual identity.
 
@@ -24,7 +24,7 @@ To adapt [!INCLUDE[prod_short](includes/prod_short.md)] to your company needs, s
 2. Choose the **Picture** action and then select **Choose**.
 3. Select the picture file on your device.
 
-You can see the above instructions in [this YouTube video](https://www.youtube.com/watch?v=AatXbKF1NGg). Once the image is displayed in the **Picture** field, you can close the **Company Information** page.
+After the image displays in the **Picture** field, you can close the **Company Information** page.
 
 ## Run reports
 
@@ -65,9 +65,7 @@ The generated report file is automatically saved to your browser's download fold
 
 Learn more about how to customize reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
 
-## See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
-
-## See also
+## Related information
 
 [Use Reports in Daily Work](reports-use-reports.md)  
 [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

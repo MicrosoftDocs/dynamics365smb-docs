@@ -2,22 +2,22 @@
 title: Process Sales Opportunities in Sales Cycles
 description: This topic describes the different ways you can process sales opportunities in sales cycles and move an opportunity through the stages of a sales cycle.
 author: jswymer
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.topic: how-to
+ms.search.keywords: relationship, prospect
+ms.date: 12/28/2023
+ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Process Sales Opportunities
+
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
 
-## To view opportunities
-The existing sale opportunities are available from the **Opportunity List** page. There are different ways to access this page for processing sales opportunities:
+## View opportunities
+
+Existing sale opportunities are available on the **Opportunity List** page. The following table describes ways to access the page to process sales opportunities.
 
 | To view opportunities for | Then |
 | --- | --- |
@@ -27,8 +27,9 @@ The existing sale opportunities are available from the **Opportunity List** page
 
 Each of these tasks opens the **Opportunity List** page.
 
-## To close opportunities
-You can close opportunities when the negotiations are over. When closing an opportunity, you can specify whether it was won or lost, and the reasons for closing it. To specify a reason, you must set up closed opportunity codes.
+## Close opportunities
+
+You can close opportunities when the negotiations are over. When you close an opportunity, you can specify whether it was won or lost, and the reasons for closing it. To specify a reason, you must set up closed opportunity codes.
 
 1. On the **Opportunity List** page, select the opportunity, and the choose the **Close** action. The **Close Opportunity** page opens.
 2. Fill in the relevant fields, and then choose the **OK** button.
@@ -37,14 +38,16 @@ You can close opportunities when the negotiations are over. When closing an oppo
 
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
-## To create quotes for opportunities
+## Create quotes for opportunities
+
 > [!NOTE]
 > You can only create sales quotes from opportunities where the contact type is Company.
 
 1. On the **Opportunity List** page, select the opportunity, and then choose the **Assign Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.
 
-## To create sales orders for opportunities
+## Create sales orders for opportunities
+
 You can make sales orders from the sales quotes that you have created for your opportunities. Before you can create sales orders for your contacts, you must create the contact as a customer. For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
 1. On the **Opportunity List** page, find the opportunity that you have created a sales quote for.
@@ -53,21 +56,23 @@ You can make sales orders from the sales quotes that you have created for your o
 
 When handling sales opportunities, you may need to create a quote for the contact that the opportunity is linked to.
 
-## To delete opportunities
-You can delete opportunities, for example, after you have concluded a deal. However, you can only delete closed opportunities. There are two ways to delete closed opportunities. You can delete individual closed opportunities from the **Opportunity List** page or you can run the **Delete Closed Opportunities** batch job to delete multiple opportunities based on a specified criteria.
+## Delete opportunities
+
+You can delete opportunities, for example, after you conclude a deal. However, you can only delete closed opportunities. There are two ways to delete closed opportunities. You can delete individual closed opportunities from the **Opportunity List** page or you can run the **Delete Opportunities** batch job to delete multiple opportunities based on specified criteria.
 
 To delete closed opportunities from the **Opportunity List** page, select the opportunity, and then choose the **Delete** action.
 
-To delete closed opportunities by using the **Delete Closed Opportunities** batch job, follow these steps:
+To delete closed opportunities by using the **Delete Opportunities** batch job, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Opportunities**, and then choose the related link.
-2. In the **Opportunity** section, set up the filters that specify the closed opportunities to delete.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Administration**, and then choose the related link.
+2. Choose the **Delete Opportunities** action, and then set the filters that specify the closed opportunities to delete.
 3. Choose the **OK** button.
 
-After you have deleted an opportunity, it is removed it from the **Opportunity List** page.
+After you delete an opportunity, it's removed it from the **Opportunity List** page.
 
-## To move an opportunity through sales cycle stages
-If an opportunity follows a sales cycle, you can move it forward or back through the different stages, such as moving the next or previous stage, and even skipping a stage.
+## Move an opportunity through sales cycle stages
+
+If an opportunity follows a sales cycle, you can move it to the next or previous stage, and even skip a stage.
 
 1. On the **Opportunity List** page, choose the **Update** action. The **Update Opportunity** opens,
 2. Use the **Action Type** field to move the opportunity through the sales cycle stages:
@@ -78,7 +83,8 @@ If an opportunity follows a sales cycle, you can move it forward or back through
    * **Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.
 3. Fill in the other fields as needed, and then choose the **OK** button.
 
-## See Also
+## Related information
+
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -7,8 +7,9 @@ author: DianaMalina
 ms.topic: overview
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # VAT Overview in the Russian Version
@@ -31,7 +32,7 @@ An organization’s VAT liability is calculated as the difference between the VA
 
 For most organizations, VAT payments are required to be submitted no later than the 20th day of the month. The timely submission of VAT payments is the responsibility of the taxpayer.
 
-## See Also
+## Related information
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  

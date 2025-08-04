@@ -1,17 +1,15 @@
 ---
-    title: Set Up Codes for Standard Services
-    description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
-    author: SorenGP
+title: Set Up Codes for Standard Services
+description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: service, service item, service order, repairs, maintenance
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: service, service item, service order, repairs, maintenance
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Standard Service Codes
@@ -33,7 +31,7 @@ When you perform typical service, you often have to create service documents tha
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fill in the service lines linked to this service code.  
 
-## See Also
+## Related information
 
 [Service Management](service-service.md)
 

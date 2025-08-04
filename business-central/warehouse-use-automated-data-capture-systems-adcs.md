@@ -1,18 +1,18 @@
 ---
-title: Use Automated Data Capture Systems (ADCS)
+title: Use Automated Data Capture Systems (ADCS) foundation
 description: Learn how to use your automatic data capture system (ADCS) to register the movement of items in the warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ---
-# Use Automated Data Capture Systems (ADCS)
+# Use Automated Data Capture Systems (ADCS) foundation
 
-> [!NOTE]
+> [!Important]
 > The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[prod_short](includes/prod_short.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
 
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves scanning a barcode.
@@ -27,23 +27,8 @@ Based on the needs of your warehouse, you define the amount of information displ
 
 ## To enable Web Services for ADCS
 
-To use Automated Data Capture System, you must enable the ADCS web service.  
-
-## To enable and publish the ADCS web service  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.
-2. Choose the **New** action.  
-3. On the **Web Services** page, enter the following information on a new line:  
-
-    |Field|Value|  
-    |---------------------------------|-----------|  
-    |**Object Type**|Codeunit|  
-    |**Object ID**|7714|  
-    |**Service Name**|ADCS **Important:** It is required that you name the service **ADCS**.|  
-
-4. Turn on the **Published** toggle.  
-5. Choose the **OK** button.  
-
+To use Automated Data Capture System, you must enable the ADCS web service. You must work with a Microsoft partner who can implement a web service that can connect ADCS and a specific handheld device. You can learn more about the web service for ADCS by examining codeunit 7714. 
+ 
 ## To set up a warehouse to use ADCS  
 
 To use ADCS, you must specify which warehouse locations use the technology.  
@@ -121,7 +106,7 @@ When you have created a miniform, the next steps are to create functions and to 
 3. Choose the **Functions** action.  
 4. In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select **ESC** to associate functionality with the **ESC** key.  
 
-## See Also  
+## Related information  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

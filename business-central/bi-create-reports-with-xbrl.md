@@ -1,15 +1,14 @@
 ---
 title: How to Create Reports with XBRL
 description: XBRL is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/14/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Reports with XBRL
 
@@ -115,9 +114,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 6. To import the linkbase, choose the **Import** action.  
 7. Choose **Yes** to apply the linkbase to the schema.  
 
-## See related training at [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
-## See also
+## Related information
 
 [Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  

@@ -1,29 +1,26 @@
 ---
 title: Change basic settings for the current user
-description: Learn how to change some basic settings in Business Central, for example, your role and role center, company, work date, and time zones.
-author: jswymer
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 08/31/2022
-ms.author: jswymer
-
+ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9006, 9007, 9010, 9016, 9017, 3563_Primary, 9024_Primary
+ms.date: 03/26/2025
+ms.service: dynamics-365-business-central
 ---
-# Change Basic Settings
+# Change basic settings
 
-On the **My Settings** page, you can see and change basic settings for your [!INCLUDE[prod_short](includes/prod_short.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
+Use the **My Settings** page to manage basic settings for your [!INCLUDE[prod_short](includes/prod_short.md)]. The changes you make only affect your workspace, not the workspaces of other users.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="role-center"></a>Role
 
-The role determines the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the home page, or role center, gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
+The role determines the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the home page, or Role Center, gives you an overview of the business, your department, or your personal tasks. It also helps you go to your daily tasks and find work that's assigned to you.
 
-* At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the home page.
+* At the top of your home page, you can switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as creating a new sales invoice, directly from the home page.
 
 * In the center, you find the **Activities** area, which shows current data and can be selected to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the home page for business accounts that you do business with often or need to pay special attention to.
 
@@ -67,7 +64,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 
 ## <a name="work-date"></a>Work date
 
-The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today.
+The most commonly used work date is today's date. You might have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that isn't today.
 
 > [!TIP]  
 > In all date fields, type **t** to quickly enter today's date, and type **w** to quickly enter the work date, which is the value in the **Work Date** field on the **My Settings** page.
@@ -79,9 +76,9 @@ The most commonly used work date is today's date. You may have to temporarily ch
 
 The work date is critical on pages that can be edited. Whenever the work date isn't set to today's date on an editable page, then two types of indicators appear on the page:
 
-* A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in.
+* A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today," the reminder will appear the next time you sign in.
 
-* If you dismiss the reminder, the work date will appear in the title of the page.  
+* If you dismiss the reminder, the work date appears in the title of the page.  
 
 If the work date isn't set to the current day (today), then on all pages where you can edit data, the current work date appears in the upper-left corner.
 
@@ -93,25 +90,26 @@ The **Region** setting determines how dates, times, numbers, and currencies are 
 
 Changes the display language. This field appears only when there's more than one language to choose from.
 
-The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[prod_short](includes/prod_short.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
+When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], your administrator or your browser settings determine the initial language. The language that you set is used on all devices that you sign in from, such as a phone or tablet.
 
-Additional languages for [!INCLUDE[prod_short](includes/prod_short.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
+You can install more languages for [!INCLUDE[prod_short](includes/prod_short.md)] from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+> [!NOTE]
+> On the **Allowed Languages** page, administrators can modify the list of languages that shows when people select their language and region. Administrators can show only the languages for which they know a language app is installed. Keeping the list of languages short and accurate makes it easier for people to choose a supported language. To learn more about allowed languages, go to [Specify the languages that are available in your Business Central environment](admin-allowed-languages.md).
 
 ## Time zone
 
-Defines the time zone where you are located. When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], the time zone is set based on your company's address. Change it if it doesn't fit your physical location.  
+Defines the time zone where you're located. When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], the time zone is set based on your company's address. Change it if it doesn't fit your physical location.  
 
 ## Notifications
 
-Choose the *Change when I receive notifications* link to view or change the notifications that you get about certain events or status changes, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. Learn more at [Managing Notifications](ui-smart-notifications.md).
+Choose the **Change when I receive notifications** link to manage the notifications that you get about certain events or status changes. For example, such as when you're about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you're about to sell. Learn more at [Managing Notifications](ui-smart-notifications.md).
 
 ## Teaching tips
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
-## See also
+## Related information
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

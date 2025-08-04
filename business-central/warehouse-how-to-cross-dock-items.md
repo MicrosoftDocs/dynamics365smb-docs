@@ -3,12 +3,12 @@ title: Cross-Dock Items
 description: Learn how to receive and ship items without putting them in storage.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
-ms.date: 03/08/2023
+ms.reviewer: bholtorf
+ms.topic: article
+ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
-
+ms.service: dynamics-365-business-central
 ---
 # Cross-Dock Items
 
@@ -44,15 +44,15 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 
 1. If you're using bins, set up at least one cross-dock bin. If you're using directed put-away and picks, set up a cross-dock zone.  
 
-    A cross-dock bin has the **Cross-Dock Bin** field selected and must have both **Receive** and **Pick** bin types selected. To learn more about bins, go to [Create Bins](warehouse-how-to-create-individual-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
+    A cross-dock bin has the **Cross-Dock Bin** field selected. To learn more about bins, go to [Create Bins](warehouse-how-to-create-individual-bins.md).  
 
-    If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. To learn more about zones, go to [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. If you are using directed put-away and picks, select bin type with **Pick** selected, for example you can use *PICK* or *PUTPICK*. To learn more about zones and bin types, go to [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
 3. On the **Location** page, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  
 4. On the **Warehouse** FastTab, turn on the **Use Cross-Docking** toggle and fill in the **Cross-Dock Due Date Calc.** field with the time to search for cross-dock opportunities.
 
-    The **Use Cross-Docking** option is only available if the **Require Receive**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
+    The **Use Cross-Docking** option is only available if the **Require Receipt**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
 
 5. If you're using bins, on the **Bins** FastTab, fill in the **Cross-Dock Bin Code** field with the code of the bin you would like to use as the default cross-dock bin.  
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Unit**, and select the related link.  
@@ -108,7 +108,7 @@ When a production order is released, the lines are available in the pick workshe
 
 If you aren't using bins, remember to check the cross-dock area from time to time, or rely on notifications from receipts that items for production have arrived.  
 
-## See Also  
+## Related information  
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

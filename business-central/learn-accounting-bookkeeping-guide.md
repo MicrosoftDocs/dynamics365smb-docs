@@ -3,14 +3,14 @@ title: Accounting and bookkeeping
 description: This article provides information that will help you use Microsoft Dynamics 365 Business Central to correctly perform accounting and bookkeeping for your company.
 author: altotovi
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: accounting, bookkeeping
 ms.search.form: 16, 39, 108
 ms.date: 03/14/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Accounting and bookkeeping
@@ -23,7 +23,7 @@ This article provides an outline of bookkeeping processes, including the rules, 
 
 The following video introduces some of the key capabilities for accounting and bookkeeping.
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=2887ddfe-3d46-47b3-8308-9715457ef939]
 
 The following table describes a sequence of tasks and provides links to the articles that cover them.
 
@@ -101,7 +101,7 @@ The following table describes a sequence of tasks and provides links to the arti
 | Enable global financial reporting to international accounting organizations by using the eXtensible Business Reporting Language (XBRL) standard. | [Create Reports with XBRL](bi-create-reports-with-xbrl.md) |
 | Change the database access intent on reports, pages of the API type, and queries to help reduce load and improve performance. | [Manage Database Access Intent](admin-data-access-intent.md) |
 
-## See also
+## Related information
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  

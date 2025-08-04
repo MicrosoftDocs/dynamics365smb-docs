@@ -3,12 +3,13 @@ title: Understanding Assemble to Order and Assemble to Stock
 description: Learn about assembling items for sales orders or to keep in stock for future sales.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: concept-article
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.service: dynamics-365-business-central
 ---
 # Understanding Assemble to Order and Assemble to Stock
 
@@ -96,9 +97,7 @@ Based on this example, you can modify the **Quantity to Assemble** field as foll
 * The minimum quantity you can enter is 1. You must assemble at least one unit to be able to sell the four units, assuming that the remaining three are available in inventory.  
 * The maximum quantity that you can enter is 4. This limit ensures that you don't assemble more of the item than you need for the sale.  
 
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

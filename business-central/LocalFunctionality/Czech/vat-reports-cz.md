@@ -1,20 +1,18 @@
 ---
-title: Czech Local Functionality - VAT Reports for Czech
-description: This feature provides VAT reports to fulfil the requirements in legislation reporting and local reporting practices of Czech companies.
+title: Czech local functionality - VAT reports for Czech
+description: Provides VAT reports to meet Czech legislative and local reporting requirements.
 author: v-pejano
-
-ms-service: dynamics365-business-central
-ms.topic: conceptual
+ms-service: dynamics-365-business-central
+ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 04/01/2021
-ms.reviewer: v-pejano
+ms.date: 06/09/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
+# VAT reports in the Czech version
 
-# VAT Reports in the Czech Version
-
-To fulfil the requirements in legislation reporting and local reporting practices of Czech companies, this feature provides the following reports:
+To fulfill the requirements in legislation reporting and local reporting practices of Czech companies, this feature provides the following reports:
 
 - Calc. and Post VAT Settlement – standard report adjusted
 - Documentation for VAT
@@ -22,13 +20,12 @@ To fulfil the requirements in legislation reporting and local reporting practice
 - VAT List on Sales Adv. Letter
 - VAT List on Purch. Adv. Letter
 
-## See Also
+## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-[VAT Control Report](vat-control-report.md)[VAT date](how-to-setup-vat-date.md)  
-[VAT statement](vat-statement.md)  
-[Finance](../../finance.md)  
-
+- [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
+- [VAT control report](vat-control-report.md)[VAT date](how-to-setup-vat-date.md)  
+- [VAT statement](vat-statement.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

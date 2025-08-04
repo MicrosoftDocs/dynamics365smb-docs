@@ -3,14 +3,13 @@ title: Use non-deductible VAT
 description: This article explains how to use and report non-deductible VAT.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: VAT, non-deductible, return, settlement
 ms.search.form: 50, 51, 52, 161, 187, 317, 403, 6640, 9401
 ms.date: 04/26/2023
 ms.custom: bap-template
-
+ms.reviewer: bholtorf
 ---
 
 # Use non-deductible VAT
@@ -62,12 +61,18 @@ You can adjust the values of the **VAT Amount** and **Non-Deductible VAT Amount*
 > [!IMPORTANT]
 > You can't use non-deductible VAT on the prepayment invoices.
 
-## See also
+## Related information
 
-[Financial Management](finance.md)  
+[Financial Management](finance.md)
+
 [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
-[Set up Non-deductible VAT](finance-setup-nondeductible-vat.md)  
-[Report VAT to Tax Authorities](finance-how-report-vat.md)  
+
+[Set up Non-deductible VAT](finance-setup-nondeductible-vat.md)
+
+[Design details about non-deductible VAT](design-details-nondeductible-vat.md)
+
+[Report VAT to Tax Authorities](finance-how-report-vat.md)
+
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

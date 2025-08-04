@@ -1,16 +1,16 @@
 ---
-title: Settle Purchase Invoices Promptly
+title: Settle purchase invoices promptly
 description: If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
 author: brentholtorf
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.form: 51, 9308
-ms.date: 04/01/2021
+ms.date: 07/18/2024
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Settle Purchase Invoices Promptly
+
+# Settle purchase invoices promptly
 
 If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.  
 
@@ -28,7 +28,7 @@ If you need to pay the vendor by cash or check, you can post the payment when yo
 >
 > This customization is only required if you do not specify balancing accounts on the payment methods as describe above.
 
-## See Also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

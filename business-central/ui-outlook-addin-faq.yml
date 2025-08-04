@@ -3,14 +3,12 @@ metadata:
   title: Business Central Add-in for Outlook FAQ
   description: See answers to frequently asked questions about using Business Central add-in for Outlook.
   author: jswymer
-  
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.devlang: al
   ms.search.keywords: phone, tablet
-  ms.date: 04/27/2022
+  ms.date: 10/25/2024
   ms.author: jswymer
+  ms.service: dynamics-365-business-central
 title: Business Central Add-in for Outlook FAQ
 summary: |
   This article answers questions that users often ask about the Business Central add-in for Outlook.   
@@ -26,17 +24,26 @@ sections:
 
           > [!NOTE]
           > It might take some time before the change takes effect.
-          
+
       - question: |
           Can I customize the add-in to connect to multiple environments?
         answer: |
           Yes. As an administrator, developer, or partner, you can modify and build your own add-in manifests. One way is to download the Contact Insights manifest from each environment that the users want to connect to. Then, modify the `<Id>` and `<DisplayName>` tags to allow multiple versions of the add-in to be installed. These modifications will let the user have multiple Business Central add-ins installed, each pointing to their own environment.
 
-          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png) 
+          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png)
 
+      - question: |
+          Outlook add-in tells me the page is not supported. Why?
+        answer: |
+          Some features in Business Central require significant workspace to provide a great experience and aren't available when using the Outlook add-in pane. For example, any step-by-step wizard page isn't available in the pane. To overcome this, you can pop out the page in the add-in using the "Pop out" action. The popout window can be stretched to any size including expanding to fill your screen.
+
+      - question: |
+          Does the Outlook add-in work on a shared mailbox?
+        answer: |
+          No, not currently.  
 additionalContent: |
 
-  ## See also
+  ## Related information
 
   [Get the Business Central Add-in for Outlook](admin-outlook.md)  
   [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md)  

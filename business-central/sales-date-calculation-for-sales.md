@@ -1,22 +1,21 @@
 ---
-title: Delivery Date Calculation for Sales
+title: Delivery date calculation for sales
 description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
 ms.search.keywords:
-ms.date: 09/22/2022
-ms.author: edupont
-
+ms.date: 03/06/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Delivery Date Calculation for Sales
+# Delivery date calculation for sales
 
 [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
 
 * If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.
-* If the customer does not request a specific delivery date, then the date on which the items can be delivered is calculated. The calculation starts from the date on which the items are available for picking.
+* If the customer doesn't request a specific delivery date, then the date on which the items can be delivered is calculated. The calculation starts from the date on which the items are available for picking.
 
 ## Calculating a requested delivery date
 
@@ -32,14 +31,12 @@ If the items are available to pick on the shipment date, then the sales process 
 
 ## Calculating the earliest possible delivery date
 
-If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which the items are available is calculated. That date is then entered in the **Shipment Date** field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.
+If you don't specify a requested delivery date on the sales order line, or if the requested delivery date can't be met, then the earliest date on which the items are available is calculated. That date is then entered in the **Shipment Date** field on the line, and the date on which you plan to ship the items and the date on which they'll be delivered to the customer are calculated using the following formulas.
 
 - *shipment date + outbound whse. handling time = planned shipment date*
 - *planned shipment date + shipping time = planned delivery date*
 
-## See related [Microsoft training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
-
-## See also
+## Related information
 
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  

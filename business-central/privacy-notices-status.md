@@ -1,16 +1,15 @@
 ---
 title: Privacy Notices Status in Business Central
 description: An overview of the Privacy Notices Status page in Business Central
-author: javariya
-
-ms.service: dynamics365-business-central
-ms.topic: article
+author: brentholtorf
+ms.service: dynamics-365-business-central
+ms.topic: reference
 ms.search.keywords:
 ms.search.form: 1565
 audience: 
-ms.author: a-jaaamir
+ms.author: bholtorf
 ms.date: 07/21/2022
-
+ms.reviewer: bholtorf
 ---
 
 # Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]
@@ -51,7 +50,7 @@ On that page, you'll find a table with approval options.
 | **Disagree** | The user does not approve the privacy notice. |
 | **Approver User Name** | The one who approves the privacy notice. |
 
-## See also
+## Related information
 
 [Compliance Overview  ](/dynamics365/business-central/compliance/compliance-overview)  
 [Respond to Requests about Personal Data  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  

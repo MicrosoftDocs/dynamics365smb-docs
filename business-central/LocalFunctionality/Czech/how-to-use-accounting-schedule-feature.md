@@ -1,28 +1,28 @@
 ---
-title: Czech Local Functionality—Financial Report Feature
-description: Improvements to the standard financial reports feature (common list of expressions, saving results, formulas drill-down, additional data sources).
+title: Czech local functionality - Financial report feature
+description: Enhancements to financial reports in the Czech version, including shared expressions, result saving, formula drill-down, and expanded data sources.
 author: brentholtorf
-
-ms-service: dynamics365-business-central
-ms.topic: conceptual
+ms-service: dynamics-365-business-central
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
-ms.reviewer: bholtorf
+ms.date: 06/04/2025
+ms.reviewer: v-soumramani
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# Financial Report Feature in the Czech Version
+# Financial report feature in the Czech version
 
-Financial reports are one of the most extensively used features for analysis and reporting to which Eastern European countries often ask for these improvements:
+Financial reports are one of the most extensively used features for analysis and reporting to which Eastern European countries/regions often ask for these improvements:
 
 - Common list of expressions – Contains named lines for use in formulas in all financial reports. You do this by defining one of the financial reports as a common list of expressions called a shared financial report.
 - Saving results (current state) of analysis – Allows you to store the results of analysis done using financial reports, modification of results, and retrieval of results later on.
-- Formulas drill-down – Allows you to drill down on the results of formulas, including for totalling type formulas. By drilling down on the result of the formula, you get a new page containing the list of elements used to calculate the results and their descriptions.
+- Formulas drill-down – Allows you to drill down on the results of formulas, including for totaling type formulas. By drilling down on the result of the formula, you get a new page containing the list of elements used to calculate the results and their descriptions.
 - Additional data sources – Enables you to perform analysis on value-added tax (VAT), customer, vendor, and value entries in addition to performing analysis on general ledger (G/L) entries.
 
-## See also
+## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

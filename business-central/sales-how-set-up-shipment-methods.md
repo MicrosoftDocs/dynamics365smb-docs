@@ -1,18 +1,16 @@
 ---
 title: Set Up Shipment Methods
 description: You can set up a code for each of your offered shipment methods, and enter information about them.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: incoterms
 ms.search.form: 11, 130
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Shipment Methods
 
@@ -29,7 +27,7 @@ You set up the description and code for each shipment method on the **Shipment M
 > [!TIP]
 > If you use Incoterms, set up shipment methods to represent the relevant Incoterms rules.  
 
-## See Also
+## Related information
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Track Packages](sales-how-track-packages.md)  

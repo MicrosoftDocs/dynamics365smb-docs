@@ -1,19 +1,17 @@
 ---
-    title: Remove and Reapply Item Entries
-    description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 506, 521, 9125
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+title: Remove and reapply item entries
+description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.form: 506, 521, 9125
+ms.date: 07/30/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Remove and Reapply Item Ledger Entries
+
+# Remove and reapply item ledger entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
 
 When you post a transaction where items are moved in or out of inventory, an item application is created between each inventory increase and inventory decrease. These applications determine the flow of costs from the goods that are received in inventory to the cost of goods going out of inventory. Because of the way the unit cost is calculated, an incorrect item application could lead to a skewed average cost and a skewed unit cost. For more information, see Design Details: Item Application.
@@ -26,7 +24,7 @@ The following scenarios might require that you undo an application or reapply it
 
 If possible, use a document to reapply an item ledger entry. For example, if you must make a purchase return of an item to which a sale has already been applied, you can reapply by creating and posting the purchase return document by using the correct application in the **Appl.-to Item Entry** field on the purchase return line. You can use the **Get Posted Document Lines to Reverse** function or the **Copy from Document** function in the purchase return document to make this easier. When you post the document, the item ledger entry is automatically reapplied. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
-If you cannot use a document to reapply, such as when you have to correct a fixed application, then use the **Application Worksheet** page to correct an application.
+If you can't use a document to reapply, such as when you have to correct a fixed application, then use the **Application Worksheet** page to correct an application.
 
 > [!Warning]  
 > The following are important considerations to remember when you are working with the application worksheet:
@@ -46,7 +44,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 6.  Choose the **Remove Application** action. This removes the item application entry that links the two item ledger entries and moves it to the **View Applied Entries – Unapplied Entries** page.  
 7.  Close the **View Applied Entries – Applied Entries** page.  
 
- The **Remaining Quantity** field of the two item ledger entries are increased by the quantity that has been unapplied. The removed item ledger entry is now available for reapplication on the **View Applied Entries – Unapplied Entries** page.  
+ The **Remaining Quantity** field of the two item ledger entries is increased by the quantity that has been unapplied. The removed item ledger entry is now available for reapplication on the **View Applied Entries – Unapplied Entries** page.  
 
 > [!IMPORTANT]  
 >  You should not leave application entries unapplied for longer periods of time because other users cannot process the affected items until you reapply the application entries or close the **Application Worksheet** page. The following error message is displayed if you try to perform actions that involve a manually unapplied application entry:  
@@ -70,13 +68,13 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     >  If you have chosen to make an application that would create an infinite loop in the cost adjustment process, then the application that you proposed is not made. This can occur when the original entries created negative stock. The application is not made. Therefore, you must select a different entry for the application.  
 6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
 
-## See Also
+## Related information
 
-[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
+[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)    
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
- [Design Details: Item Application](design-details-item-application.md)  
- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Design Details: Item Application](design-details-item-application.md)    
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

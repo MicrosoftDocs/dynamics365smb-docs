@@ -1,18 +1,18 @@
 ---
-    title: GST TDS and GST TCS on Customer Payments
-    description: GST TDS and GST TCS on Customer Payments
+title: GST TDS and GST TCS on Customer Payments
+description: GST TDS and GST TCS on Customer Payments
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST TCS on Customer Payments
 
@@ -119,7 +119,7 @@ For example, INR 1000 received from customer and 2% GST TDS (1% CGST, 1% SGST fo
     |**Bank Account**|980| 
 
 
-## See Also 
+## Related information 
 [GST Credit and Liability Adjustment](GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
 
 

@@ -1,23 +1,21 @@
 ---
-title: Setting Up Cost Accounting
+title: Set up cost accounting
 description: Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.form: 1100, 1112, 1113, 1122
-ms.date: 06/16/2021
-ms.author: edupont
-
+ms.date: 07/25/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Setting Up Cost Accounting
+
+# Set up cost accounting
 
 Before you start working with cost accounting, you must perform setup tasks.
 
-## Balances Between Cost Type, Cost Center, and Cost Object
+## Balances between Cost Type, Cost Center, and Cost Object
 
 When you set up cost accounting, you must make sure that all entries are assigned to a cost type as well as a cost center or a cost object. The means that each cost entry must have a cost type assigned and a cost center code or a cost object assigned. This rule ensures that each cost entry appears in either the cost centers or the cost objects, but never in both places.  
 
@@ -27,7 +25,7 @@ By doing this, you create the following accounting equation:
 
 When you print the chart of cost type, the chart of cost centers, and the chart of cost objects reports, you can analyze this relationship.
 
-## Setting Up Cost Types
+## Set up Cost Types
 
 The chart of cost types is similar to the chart of accounts in the general ledger. You can set up the chart of cost types in the following ways:  
 
@@ -104,9 +102,10 @@ Cost centers are departments that are responsible for costs and income. The char
 
 ### To transfer dimension values in the general ledger to the chart of cost centers
 
-1. Set up a dimension to be the cost center dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
-2. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
-3. On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
+1. Set up a dimension to be the cost center dimension on the **Cost Accounting Setup** page. Only the values from this dimension are transferred.
+You can choose **Update Cost Acctg. Dimensions** action to update cost accounting dimensions.
+1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
+1. On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
 
     > [!NOTE]  
     >  You can set up the **Align Cost Center Dimension**  field to define a one-way synchronization of dimension values from the general ledger to the chart of cost centers. You cannot define a synchronization of the chart of cost centers to dimension values from the general ledger.  
@@ -190,11 +189,9 @@ For each general ledger account, you can define default dimension values in the 
 |Cost Object|No Code|Code Mandatory|  
 
 > [!NOTE]  
->  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box on the **Cost Accounting Setup** page.
 
-## See related [Microsoft training](/training/modules/cost-accounting-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  

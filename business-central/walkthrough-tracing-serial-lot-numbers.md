@@ -1,17 +1,14 @@
 ---
-    title: Walkthrough - Tracing Serial-Lot Numbers
-    description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: bholtorf
-
+title: Walkthrough - Tracing Serial-Lot Numbers
+description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/24/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Tracing Serial/Lot Numbers
 
@@ -300,9 +297,7 @@ Then you must create various purchase, production, and sales transactions with t
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 
-## See related [Microsoft training](/training/paths/use-serial-lot-numbers/)
-
-## See also
+## Related information
 
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  

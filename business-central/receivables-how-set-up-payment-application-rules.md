@@ -1,22 +1,19 @@
 ---
-title: Rules for Automatic Application of Payments
+title: Rules for automatic application of payments
 description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
-ms.date: 06/25/2021
-ms.author: edupont
-
+ms.date: 06/03/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Set Up Rules for Automatic Application of Payments
+# Set up rules for automatic application of payments
 
-On the **Payment Application Rules** page, you set up rules to govern how payment text (on a bank transaction) is automatically matched with text on related open (unpaid) invoices, credit memos, or other entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+On the **Payment Application Rules** page, you set up rules to govern how payment text (on a bank transaction) is automatically matched with text on related open (unpaid) invoices, credit memos, or other entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page. For more information, see [Reconcile payments using automatic application](receivables-how-reconcile-payments-auto-application.md).
 
 You set up new payment application rules by choosing which types of data on a payment reconciliation journal line must match with data on one or more open entries before the related payment is automatically applied to the open entries. The quality of each automatic application is shown as a value of **Low** to **High** in the **Match Confidence** field on the **Payment Reconciliation Journal** page according to the payment application rule that was used.
 
@@ -41,8 +38,8 @@ In addition to the matching criteria, the following applies concerning the sign 
 |**Match Confidence**|Specifies your confidence in the application rule that you define on the line. <br /></br>A value that you specify in this field is shown in the **Match Confidence** field on the **Payment Reconciliation Journal** page according to the quality of the automatic payment application on the journal line.|
 |**Priority**|Specifies the priority of the application rule relative to other application rules that are defined as lines on the **Payment Application Rules** page. 1 represents the highest priority.|
 |**Related Party Matched**|Specifies how much information about the customer or vendor, such as address, city name, and bank account number, on the payment reconciliation journal line must match with information about the open entry before the application rule will be used to automatically apply the payment to the open entry.|
-|**Doc. No./Ext. Doc. No. Matched**|Specifies whether text on the payment reconciliation journal line must match with the value in the **Document No.** field or the **External Document No.** field on the open entry before the application rule will be used to automatically apply the payment to the open entry.|
-|**Amount Incl. Tolerance Matched**|Specifies how many entries for a customer or vendor must match the amount including payment tolerance before the application rule will be used to automatically apply a payment to the open entry.|
+|**Document No./Ext. Document No. Matched**|Specifies whether text on the payment reconciliation journal line must match with the value in the **Document No.** field or the **External Document No.** field on the open entry before the application rule will be used to automatically apply the payment to the open entry.|
+|**Number of Entries Within Amount Tolerance Found**|Specifies how many entries for a customer or vendor must match the amount including payment tolerance before the application rule will be used to automatically apply a payment to the open entry.|
 |**Review Required**|Specifies whether the automatic payment application is recommended for manual review by the user before posting. Choosing the **Lines to Review** field on the **Payment Application Journal** page starts a guided experience where you can easily review multiple applications in a sequence on the **Payment Application Review** page.|
 
 The following table describes the standard payment application rules in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -50,7 +47,7 @@ The following table describes the standard payment application rules in [!INCLUD
 > [!Important]
 > The payment application rules may be different in your implementation of [!INCLUDE[prod_short](includes/prod_short.md)].
 
-| Match Confidence | Priority | Related Party Matched | Doc. No./Ext. Doc. No. Matched | Amount Incl. Tolerance Matched |
+| Match Confidence | Priority | Related Party Matched | Document No./Ext. Document No. Matched | Number of Entries Within Amount Tolerance Found |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
 | High             | 1        | Fully                 | Yes - Multiple                 | One Match                      |
 | High             | 2        | Fully                 | Yes - Multiple                 | Multiple Matches               |
@@ -77,9 +74,7 @@ The following table describes the standard payment application rules in [!INCLUD
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
-## See related [Microsoft training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
-## See Also
+## Related information
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

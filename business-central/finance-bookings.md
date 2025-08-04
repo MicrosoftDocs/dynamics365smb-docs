@@ -1,18 +1,16 @@
 ---
 title: Invoice your bookings in Business Central
 description: This topic explains learning how you can perform bulk invoicing from Microsoft Bookings in Business Central.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: reference
+ms.devlang: al
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
 ms.date: 05/20/2022
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -41,7 +39,7 @@ The support for invoicing appointments from Bookings is simpler than the fuller 
 > [!NOTE]
 > In May 2022, we discovered an issue in the integration with Bookings. Currently, the sync from Bookings to [!INCLUDE [prod_short](includes/prod_short.md)] requires you to manually associate the invoices with customers in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## See Also
+## Related information
 
 [Finance](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

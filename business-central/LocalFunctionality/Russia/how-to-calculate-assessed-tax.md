@@ -4,11 +4,12 @@ description: Russian enhancements include calculating assessed tax.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Calculate Assessed Tax
@@ -84,7 +85,7 @@ To work with the functionality of calculating assessed tax, you must specify the
 
 15. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 [Setting Up Fixed Assets](../../fa-setup.md)  

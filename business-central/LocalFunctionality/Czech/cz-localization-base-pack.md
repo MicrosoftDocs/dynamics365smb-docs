@@ -1,21 +1,20 @@
 ---
 title: Core Localization Base Pack [CZ]
-description: This section describes Core Localization Base Pack for Czech extension that helps companies meet their requirements.
+description: Learn about the Core Localization Base Pack for Czech, an extension that enables companies to comply with Czech accounting and tax requirements.
 author: v-pejano
-
-ms-service: dynamics365-business-central
-ms.topic: conceptual
+ms-service: dynamics-365-business-central
+ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 06/17/2021
-ms.reviewer: edupont
+ms.date: 06/02/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
-# Core Localization Pack for Czech (Base) in the Czech Version
+# Core localization pack for Czech (Base) in the Czech version
 
-The solution helps companies meet the requirements in Czech accounting, tax legislation and best practices.  
+The solution helps companies meet the requirements in Czech accounting, tax legislation, and best practices.  
 
-The application adds legislation requirements as well as reporting features to Business Central in the following areas:
+The application adds legislation requirements and reporting features to Business Central in the following areas:
 
 - Finance  
 - VAT  
@@ -29,7 +28,7 @@ The application adds legislation requirements as well as reporting features to B
 - Financial Documents  
 - Financial Documents  
 - Statutory Statement 
-- VAT features - VAT Statements, VAT Control Report and other reporting, Unreliable Payer, Reverse Charge and other
+- VAT features - VAT Statements, VAT Control Report and other reporting, Unreliable Payer, Reverse Charge, and other
 - Year Closing Operations
 - Exchange Rate Updating (ČNB)
 - Customers/Vendors Reconciliations
@@ -40,9 +39,8 @@ The application adds legislation requirements as well as reporting features to B
 - Multi-circuit Accounting
 - Small regulatory features and best practices
 
-## See Also  
+## Related information  
 
 [Czech Local Functionality](czech-local-functionality.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

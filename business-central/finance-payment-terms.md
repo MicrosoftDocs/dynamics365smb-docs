@@ -1,25 +1,26 @@
 ---
-title: Set Up Payment Terms
-description: In the base version of Business Central, use payment terms to manage due dates and payment discounts. 
-author: edupont04
+title: Set up payment terms
+description: Use payment terms to manage due dates and payment discounts. 
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.search.form: 4,
+ms.date: 06/13/2024
+ms.service: dynamics-365-business-central
 
-
-ms.topic: conceptual
-ms.search.form: 4
-ms.date: 04/01/2021
-ms.author: edupont
 ---
-# Set Up Payment Terms
+# Set up payment terms
 
-Payment terms determine how you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
+Payment terms determine how you manage due dates and payment discounts. You can use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
 
-You can assign payment terms to customers and vendors so that the same terms are always used on the sales and purchase documents you create for them. If needed, you can change the terms on the sales or purchase document, such as if you want a particular customer to pay you within 7 days rather than the default 14 days. This does not change the default payment term assigned to the customer. The same payment terms are available for sales and purchase documents.
+If you assign payment terms to customers and vendors, the same terms are always used on the sales and purchase documents you create for them. The document dates on sales and purchase documents, not their posting dates, are used to calculate due dates for payments. If needed, you can change the terms on the sales or purchase document. For example, if you want a particular customer to pay you within seven days rather than the default 14 days. Changing the terms on the document doesn't change the default payment term assigned to the customer. The same payment terms are available for sales and purchase documents.
 
-Then, when you post an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the payment discounts based on the payment terms. The payment discount date, that is, the latest date on which the customer can pay and receive a discount on the payment, will also be calculated at that time.  
+When you post an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the payment discounts based on the payment terms. The payment discount date is the last date that the customer can receive a discount. The date is also calculated when you post an invoice.  
 
-Similarly, when you post a credit memo, [!INCLUDE [prod_short](includes/prod_short.md)] calculates possible payment discounts based on the payment terms. The discount on credit memos is calculated according to the same principles as payment discounts on invoices. Where a credit memo is applied to an invoice, the possible payment discount amount for the invoice will be reduced by the payment discount amount for the credit memo.  
+Similarly, when you post a credit memo, [!INCLUDE [prod_short](includes/prod_short.md)] calculates payment discounts based on the payment terms. It calculates the discount on credit memos in the same way as discounts on invoices. When you apply a credit memo to an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] reduces the discount amount for the invoice by the credit memo's discount amount.  
 
-If you want to send your customers reminders of overdue payments, you must set up reminder levels and terms. For more information, see [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
+If you want to send your customers reminders of overdue payments, you must set up reminder levels and terms. To learn more about reminders, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
 
 ## To set up payment terms
 
@@ -29,11 +30,24 @@ If you want to send your customers reminders of overdue payments, you must set u
 After you set up the payment terms, you assign them to customers and vendors. Optionally, assign payment terms to your payment methods.  
 
 > [!TIP]
-> In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).
+> In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms don't support partial payments. Instead, you must use the prepayments functionality. To learn more about prepayments, go to [Set Up Prepayments](finance-set-up-prepayments.md).
 >
-> In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country, see the **Local Functionality** section in the navigation pane on the left side of a [Microsoft Learn](about-localization.md) article.
+> In some countries/regions, you *can* set up payment terms with partial payments. To learn whether your country/region supports this capability, go to the **Local Functionality** section in the table of contents on the left side of a [Microsoft Learn](about-localization.md) article.
 
-## See Also
+## Audit changes to payment terms
+
+You can use the Change Log feature to capture changes users make to your payment terms setup. [!INCLUDE [include-audit-what-who-when](includes/include-audit-what-who-when.md)]
+
+The following table lists the table for payment terms and its ID.
+
+| Table | Table ID |
+|------ | -------- |
+| Payment Terms    | 3 |
+
+[!INCLUDE [include-audit-changes-to-setup-learn-more-link](includes/include-audit-changes-to-setup-learn-more-link.md)]
+
+
+## Related information
 
 [Set Up Payment Methods](finance-payment-methods.md)  
 [Set Up Prepayments](finance-set-up-prepayments.md)  

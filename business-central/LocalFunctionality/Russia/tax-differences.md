@@ -4,11 +4,12 @@ description: Russian enhancements include managing tax differences.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Tax Differences
@@ -32,7 +33,7 @@ To set up and view tax difference entries, you will use the following tables, wh
 | Tax Calc. Corresp. Entry   | Specifies tax difference information that is needed for external reports and forms. |
 | Tax Diff. Journal Line     | Specifies posted tax difference journal entries.             |
 
-## See Also
+## Related information
 
 [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
 [Tax Difference Registers](Tax-Difference-Registers.md)  

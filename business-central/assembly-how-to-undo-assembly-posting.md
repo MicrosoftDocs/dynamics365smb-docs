@@ -3,12 +3,13 @@ title: Undo Assembly Posting
 description: Learn how correct mistakes in a posted assembly order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.service: dynamics-365-business-central
 ---
 # Undo Assembly Posting
 
@@ -50,7 +51,7 @@ The **Reversed** field on the assembly order changes to **Yes**. The assembly or
 > [!NOTE]  
 > To restore quantities from multiple partial postings in an assembly order, you must undo all the posted assembly orders by following steps 1 through 3.  
 
-## See also
+## Related information
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

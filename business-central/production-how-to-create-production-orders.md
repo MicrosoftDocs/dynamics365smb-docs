@@ -1,40 +1,42 @@
 ---
-title: Create Production Order Headers
+title: Create production orders
 description: You can create a production order manually, and the first step is to create a production order header.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
 ms.search.form: 9325, 99000815, 99000829, 9900083
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 02/25/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Create Production Order Headers
+# Create production orders
 
-You can create a production order manually, and the first step is to create a production order header.
-
-Production orders are typically created automatically by a planning function to fulfill a known demand. For more information, see [Planning](production-planning.md).  
-
-In the following procedure, a firm planned production order is created. You can also create production orders with a different status.  
+Typically, businesses use the planning engine to create production orders automatically to fulfill a known demand. To learn more, go to [Planning](production-planning.md). However, you can create a production order manually. This article describes how to create a firm planned production order. You can also create production orders with a different status.  
 
 ## To create a production order header
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2. Choose the **New** action.  
-3. In the **No.** field, insert the next number in the series.  
-4. In the **Source Type** field, select the source of the production order.
+3. In the **No.** field, add the next number in the number series you use for production orders.  
+4. In the **Source Type** field, select the source of the production order:
 
-    Here you can select to produce for a family of items. For more information, see [Work With Production Families](production-how-work-family.md).
-5. In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.  
+   - **Item**: Standard items that you produce for inventory.
+   - **Family**: A predefined family of items that you produce for inventory. To learn more, go to [Work With Production Families](production-how-work-family.md).
+   - Sales header: Items are produced for the sales order that you specify in the **Source No.** field.
+5. In the **Source No.** field, select the item number, family, or sales header for which to create the production order.  
 6. Fill in the **Quantity** and **Due Date** fields according to your specifications.  
+7. On the **Lines** FastTab, in the **Item No.** field, specify the item to produce.
+8. In the **Due Date** field, specify when the item is needed. For example, for a sales order.
 
-When production requirements change, such as components or operations, you can quickly replan the production order. For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).  
+> [!NOTE]
+> The **Starting Date-Time** and **Ending Date-Time** fields are automatically filled in based on the item's routing and the value that you enter in the **Due Date** field.
 
-## See Also
+9. In the **Quantity** field, specify how many units to produce on the line.
+
+When production requirements change, such as components or operations, you can quickly replan the production order. To learn more, go to [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).  
+
+## Related information
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  
@@ -42,6 +44,5 @@ When production requirements change, such as components or operations, you can q
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,16 @@
 ---
-title: Setting up VAT ledgers in Russia
-description: Russian enhancements include VAT ledgers.
+title: Setting Up VAT Ledgers in Russia
+description: Learn how to configure VAT ledgers in Russia for tracking VAT transactions on goods, services, and imports.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
-# Set Up VAT Ledgers
+# Set up VAT ledgers
 
 VAT ledgers are used to store details about VAT in transactions that involve goods and services in Russia or goods imported into Russia. You can create and store different kinds of VAT ledgers. For example, you can create VAT ledgers for:  
 
@@ -32,13 +31,13 @@ To use VAT ledgers, you must specify the relevant number series.
    | **VAT Purch. Ledger No. Series** | Specifies the number series that you want to use for VAT ledgers for purchase documents. |
    | **VAT Sales Ledger No. Series**  | Specifies the number series that you want to use for VAT ledgers for sales documents. |
 
-   You must ensure that vendor purchase documents cannot be posted without stating the invoice date and number.
+   You must ensure that vendor purchase documents can't be posted without stating the invoice date and number.
 
 3. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Groups**, and then choose the related link.
 
 4. In the **Vendor Posting Groups** window, for the relevant posting groups, select the **VAT Invoice Mandatory** field.
 
-   Next, you must set up VAT posting. For each VAT posting setup you must specify if entries that use the setup must be included in VAT ledgers.
+   Next, you must set up VAT posting. For each VAT posting setup, you must specify if entries that use the setup must be included in VAT ledgers.
 
 5. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
 
@@ -51,7 +50,7 @@ To use VAT ledgers, you must specify the relevant number series.
 
 Now, you can create VAT ledgers for purchases and sales.
 
-## See Also
+## Related information
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [Register VAT on Purchase Orders](How-to-Register-VAT-on-Purchase-Orders.md)  

@@ -3,8 +3,7 @@
     description: After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Administration in the Clients
 After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

@@ -3,7 +3,7 @@
     description: Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

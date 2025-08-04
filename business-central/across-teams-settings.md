@@ -3,13 +3,13 @@ title: Changing Company and Other Settings in Teams
 description: Learn about how to change Business Central connection settings from Microsoft Teams.
 author: jswymer
 
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
-ms.date: 04/12/2021
+ms.date: 08/14/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Changing Company and Other Settings in Teams
@@ -20,15 +20,15 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams includes a **S
 
 There are two ways to open the **Settings** page: 1) from the message compose box or 2) from the command box.
 
-1. Beneath the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
+1. Next to the message compose box, select **+**, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-    ![Settings for Business Central from command box.](media/teams-settings-message-box.png)
+    ![Settings for Business Central from command box.](media/teams-settings-message-box-2.png)
 
-2. From the command box at the top, search for **@Business Central**, select **... (More options)**, then select **Settings**.
+2. From the command box at the top, search for **/Business Central** and then select the [!INCLUDE [prod_short](includes/prod_short.md)] app icon. Then, in the message that appears the under the **[search for business contacts]** box, select **... (More options)** and then **Settings**. If the message isn't displayed, click the **[search for business contacts]** box.
 
-   ![Settings for Business Central from message box.](media/teams-settings-command-box.png)
+   ![Settings for Business Central from message box.](media/teams-settings-command-box-2.png)
 
-## See Also
+## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

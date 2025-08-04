@@ -4,11 +4,12 @@ description: Russian enhancements include support for teh cash report CO-4 repor
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Print the Cash Report CO-4 Report
@@ -35,7 +36,7 @@ This report shows the opening balance of all the posted ingoing and outgoing cas
 
 3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
-## See Also
+## Related information
 
 [Setting Up Inventory](../../inventory-setup-inventory.md)  
 

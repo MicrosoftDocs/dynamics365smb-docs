@@ -1,9 +1,11 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
+
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 When you enter datetimes, which are a date and time combined into one field, you must enter a space between the date and the time. The date part can only contain spaces in the form of the official date separator of your region settings. The time can contain spaces around the AM/PM indicator in relevant regional settings.
 

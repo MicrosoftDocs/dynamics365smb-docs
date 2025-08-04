@@ -1,0 +1,1 @@
+Get a detailed breakdown of the costs associated with manufactured items at each level of the bill of materials (BOM). The report shows the cost of materials, labor, and overhead for each component in the BOM.

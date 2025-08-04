@@ -1,17 +1,14 @@
 ---
 title: Unsubscribe or Remove Business Central
 description: Learn how to remove or delete your Business Central experience if you have a trial subscription, or if you have a paid subscription.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: reference
+ms.devlang: al
 ms.search.keywords: remove, delete
 ms.date: 06/08/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Unsubscribe or Remove [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,7 +27,7 @@ You can read about how to export data to Excel in the [Exporting Data to Other F
 
 If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher, you can unpin it. No data is lost, and the step doesn't cancel your subscription.  
 
-## See Also
+## Related information
 
 [Business Central Trial FAQ](trial-faq.md)  
 [Trials and Subscriptions (for admins)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -38,7 +35,6 @@ If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app
 [Create New Companies](about-new-company.md)  
 [Export Your Business Data to Excel](about-export-data.md)  
 [Microsoft 365 admin center](https://admin.microsoft.com/)  
-[How long is the trial period and how do I cancel?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 [Export Your Business Data to Excel](about-export-data.md)  
 [Export Databases in the Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
 [Microsoft 365 Business subscriptions and billing documentation](/microsoft-365/commerce/)  

@@ -2,12 +2,13 @@
 title: Status Field on Documents
 description: Learn about the 'Open' and 'Released' status on quote, order, or credit memo documents.
 author: brentholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.service: dynamics-365-business-central
+ms.topic: article
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: 
 ms.date: 09/19/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Status Field on Documents
 
@@ -51,7 +52,7 @@ If you make changes to a released order, you must notify the warehouse about the
 > [!NOTE]
 > If you want to post a single open order or credit memo without releasing it first, [!INCLUDE [prod_short](includes/prod_short.md)] will automatically release the document when you post it. If you post your orders or credit memos by using the **Post Batch** function, you can choose to post only the orders or credit memos that you've released.
 
-## See also
+## Related information
 
 [Sell Products with a Customer Sales Order](sales-how-sell-products.md)  
 [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md)  

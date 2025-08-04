@@ -1,13 +1,27 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-The following table describes some of the key reports in assembly reporting.
+The following table describes some of the key reports in assembly.
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|--------------------------------------------------------------| -----------|----|
+| [!INCLUDE[report-801-scenario](../includes/report-801-scenario-include.md)] | [Assembly BOMs](https://businesscentral.dynamics.com?report=801) | [About Assembly BOMs](../reports/report-801.md) | 801 |
+| [!INCLUDE[report-5871-scenario](../includes/report-5871-scenario-include.md)] | [Item - Able to Make (Time)](https://businesscentral.dynamics.com?report=5871) | [About Item - Able to Make (Time)](../reports/report-5871.md) | 5871 |
+| [!INCLUDE[report-5872-scenario](../includes/report-5872-scenario-include.md)] | [BOM Cost Share Distribution](https://businesscentral.dynamics.com?report=5872) | [About BOM Cost Share Distribution](../reports/report-5872.md) | 5872 |
+| [!INCLUDE[report-809-scenario](../includes/report-809-scenario-include.md)] | [Where-used list](https://businesscentral.dynamics.com?report=809) | [About Where-used list](../reports/report-809.md) | 809 |
+| [!INCLUDE[report-810-scenario](../includes/report-810-scenario-include.md)] | [BOM - Raw Materials](https://businesscentral.dynamics.com?report=810) | [About BOM - Raw Materials](../reports/report-810.md) | 810 |
+| [!INCLUDE[report-811-scenario](../includes/report-811-scenario-include.md)] | [BOM - Sub-Assemblies](https://businesscentral.dynamics.com?report=811) | [About BOM - Sub-Assemblies](../reports/report-811.md) | 811 |
+| [!INCLUDE[report-812-scenario](../includes/report-812-scenario-include.md)] | [Assembly BOM - End Items](https://businesscentral.dynamics.com?report=812) | [About Assembly BOM - End Items](../reports/report-812.md) | 812 |
+| [!INCLUDE[report-915-scenario](../includes/report-915-scenario-include.md)] | [Assemble to order - Sales](https://businesscentral.dynamics.com?report=915) | [About Assemble to order - Sales](../reports/report-915.md) | 915 |
+
+
+<!-- delete this section after 2025-01-01
 
 | Report | Description | Id | 
 |---------|---------|---------|
@@ -18,4 +32,6 @@ The following table describes some of the key reports in assembly reporting.
 | [BOM - Raw Materials](https://businesscentral.dynamics.com?report=810)|This report can give you an overview about the needed components, both for assembly and for production. You will see the inventory, base unit of measure, the main vendor if the vendor no. is written in the item card itself, and the lead time calculation.|810|
 | [BOM - Sub-Assemblies](https://businesscentral.dynamics.com?report=811)|If you produce and/or assemble sub-assemblies, use this report to get an overview about this type of component. This report shows you the base unit of measure, the inventory, unit costs, and an alternative item number. |811|
 | [Assembly BOM - End Items](https://businesscentral.dynamics.com?report=812)|Shows a list of items or BOMs that are not components of BOMs. **Note**: This report is not restricted to BOM only, so remember to set filter in the **Assembly BOM** field or the **Replenishment System** fields|812|
-| [Assemble to order - Sales](https://businesscentral.dynamics.com?report=915)|Shows key sales figures for assembly component items that can be sold both as part of an assembly in assemble-to-order sales and as a separate item directly from inventory.<br>Use this report to analyze the quantity, cost, sales, and profit figures of assembly components to support your decisions, such as whether to price a kit differently or to stop or start using a particular item in assemblies.<br>The **In Assembly** row shows sales figures for the total quantity that is sold as part of an assembly item. The specific assembly item sales that sum up to this total are shown if you select the **Show Assembly Details** field.<br>The focus is on the assembly components, but the figures are calculated from the profit margin of their parent, the assembly item. Accordingly, the sales amount of each component is calculated from its own cost and the profit margin of its parent in the following formula.<br>The report shows information for items that meet one or both of the following criteria:<br>- Exist in the assembly BOM of an item that uses the Assemble-to-Order assembly policy.<br>- Has been sold as part of assemble-to-order sale.|915|
+| [Assemble to order - Sales](https://businesscentral.dynamics.com?report=915)|Shows key sales figures for assembly component items that can be sold both as part of an assembly in assemble-to-order sales and as a separate item directly from inventory.<br>Use this report to analyze the quantity, cost, sales, and profit figures of assembly components to support your decisions, such as whether to price a kit differently or to stop or start using a particular item in assemblies.<br>The **In Assembly** row shows sales figures for the total quantity that is sold as part of an assembly item. The specific assembly item sales that sum up to this total are shown if you select the **Show Assembly Details** field.<br>The focus is on the assembly components, but the figures are calculated from the profit margin of their parent, the assembly item. Accordingly, the sales amount of each component is calculated from its own cost and the profit margin of its parent in the following formula.<br>The report shows information for items that meet one or both of the following criteria:<br>- Exist in the assembly BOM of an item that uses the Assemble-to-Order assembly policy.<br>- Has been sold as part of assemble-to-order sale.|915| 
+
+-->

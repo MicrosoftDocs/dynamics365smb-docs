@@ -2,13 +2,12 @@
 title: Upload KLADR in Russia
 description: Russian enhancements include the KLADR format.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Upload KLADR
@@ -25,9 +24,9 @@ Upload of KLADR can be carried out on separate regions as required.
 
 3. Specify the region code.
 
-4. Click "OK".
+4. Select "OK."
 
-## See Also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 

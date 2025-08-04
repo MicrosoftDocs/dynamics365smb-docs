@@ -1,17 +1,15 @@
 ---
-    title: How to Work on Service Tasks
-    description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
-    author: SorenGP
+title: How to Work on Service Tasks
+description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
@@ -99,7 +97,7 @@ After repairing a service item, you can register both the fault code and the res
 
 4. Fill out the line. Choose the combination of fault and resolution codes, and then choose **OK** to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination on the page.  
 
-## See Also  
+## Related information  
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Service Posting](service-service-posting.md)  

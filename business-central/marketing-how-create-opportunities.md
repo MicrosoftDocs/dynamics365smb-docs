@@ -4,14 +4,14 @@ description: This article describes how to create opportunities from a salespers
 author: jswymer
 
 
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Create Sales Opportunities
 You can create opportunities for the sales opportunities you have on your contacts. All opportunities must be assigned to a salesperson or purchaser and must have a contact.
@@ -36,7 +36,7 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
    * Choose the  **Opportunities** action, and then choose **New**.
 4. Fill in the relevant fields.
 
-## See Also
+## Related information
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with Business Central](ui-work-product.md)

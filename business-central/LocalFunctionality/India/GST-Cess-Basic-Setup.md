@@ -1,18 +1,18 @@
 ---
-    title: Setting up GST Compensation Cess
-    description: Specifies Basic Setups required for GST Compensation Cess
+title: Setting up GST Compensation Cess
+description: Specifies Basic Setups required for GST Compensation Cess
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up GST Compensation Cess
 
@@ -111,7 +111,7 @@ General Ledger Account for each component and state combination is defined state
 
 
 
-## See Also 
+## Related information 
 [GST Cess Calculation](GST-Cess-Calculations.md)
 
 

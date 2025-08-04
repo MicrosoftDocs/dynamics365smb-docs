@@ -1,18 +1,18 @@
 ---
-    title: GST on Advance Payment Application with Sales Invoice
-    description: GST on Advance Payment Application with Sales Invoice
+title: GST on Advance Payment Application with Sales Invoice
+description: GST on Advance Payment Application with Sales Invoice
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # GST on Advance Payment and Application with Sales Invoice
@@ -76,7 +76,7 @@ If this is found that the payment and invoice was wrongly applied  and the appli
 > [!TIP]
 > In case of Inter-State Sale, IGST will be calculated.
 
-## See Also 
+## Related information 
 [GST and TCS on Customer Advance](GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

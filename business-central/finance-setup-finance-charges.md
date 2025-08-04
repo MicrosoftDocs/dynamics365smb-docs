@@ -1,18 +1,16 @@
 ---
 title: Set Up Finance Charge Terms
 description: Learn how to set up Business Central so that you can inform customers of added charges by sending finance charge memos.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Finance Charge Terms
 
@@ -65,9 +63,7 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 |%8|Content of the **Currency Code** field on the finance charge memo header|  
 |%9|Content of the **Posting Date** field on the finance charge memo header|  
 
-## See related [Microsoft training](/training/modules/send-memos-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  

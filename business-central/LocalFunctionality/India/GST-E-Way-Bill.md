@@ -1,18 +1,18 @@
 ---
-    title: E-Way Bill
-    description: E-Way Bill
+title: E-Way Bill
+description: E-Way Bill
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # E-Way Bill
 
@@ -43,7 +43,7 @@ An electronic way bill or e-Way Bill is essential for the transport of goods tha
      |**Source No.**|Specify the relevant source number.|
 
 
-## See Also 
+## Related information 
 [GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md)
 
 

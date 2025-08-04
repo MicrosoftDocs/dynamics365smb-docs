@@ -1,15 +1,14 @@
 ---
 title: How to Export and Import Approval Workflows
 description: To transfer workflows to other Business Central databases, for example to save time when creating new workflows, you can export and import workflows.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/08/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Export and Import Approval Workflows
 
@@ -33,7 +32,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 > [!CAUTION]  
 > If the workflow code already exists in the database, the workflow steps will be overwritten with the steps in the imported workflow.  
 
-## See also
+## Related information
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  

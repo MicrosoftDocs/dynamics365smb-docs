@@ -3,13 +3,15 @@ title: Access with Microsoft 365 Licenses FAQ
 description: Get answers to common questions about accessing Business Central with Microsoft 365 licenses. 
 author: mikebc
 ms.author: mikebc
-ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: faq
-ms.date: 11/22/2022
+ms.date: 09/28/2023
 ms.custom: bap-template 
 ---
 # Access with Microsoft 365 Licenses FAQ
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -97,7 +99,7 @@ No. Accessing Business Central data in Microsoft Teams requires each user to hav
 
 ### Does this work with Microsoft 365 trials and Business Central trials?
 
-Yes. If a user is assigned a Microsoft 365 license from a trial of a supported plan, they can also access Business Central records in Teams. It's then possible for customers to try Microsoft productivity and business apps working together, and allows partner salespeople and consultants to easily demonstrate this feature. For example, partners can provision their own Azure AD tenants from [https://aka.ms/CDX](https://aka.ms/CDX) that include Microsoft 365 trials and Business Central trials for demonstrating Business Central.
+Yes. If a user is assigned a Microsoft 365 license from a trial of a supported plan, they can also access Business Central records in Teams. It's then possible for customers to try Microsoft productivity and business apps working together, and allows partner salespeople and consultants to easily demonstrate this feature. For example, partners can provision their own Microsoft Entra tenants from [https://aka.ms/CDX](https://aka.ms/CDX) that include Microsoft 365 trials and Business Central trials for demonstrating Business Central.
 
 ### The list of licenses in Business Central shows a Microsoft 365 license. What's that?
 
@@ -105,7 +107,7 @@ The **License Configuration** page in Business Central displays the different ty
 
 ### Do I need to acquire a new type of Microsoft 365 license for this feature to work?  
 
-Microsoft hasn't created new licenses or new plans to power this feature. This feature relies entirely on existing Microsoft 365 plans and licenses. If you already subscribe to one of the supported Microsoft 365 plans, then you already have this new use right. Otherwise, if you don't subscribe to Microsoft 365 today, you can sign up for Microsoft 365 Business Premium or similar plans here. 
+Microsoft hasn't created new licenses or new plans to power this feature. This feature relies entirely on existing Microsoft 365 plans and licenses. If you already subscribe to one of the supported Microsoft 365 plans, then you already have this new use right. Learn more about the supported plans in [Business Central access with Microsoft 365 licenses](admin-access-with-m365-license.md#requirements-for-individual-users-to-access-data-in-teams). Otherwise, if you don't subscribe to Microsoft 365 today, you can sign up for Microsoft 365 Business Premium or similar plan. Learn more in [Try or buy a Microsoft 365 for business subscription](/microsoft-365/commerce/try-or-buy-microsoft-365).
 
 ### How do I find out which users have only a Microsoft 365 license?
 
@@ -159,7 +161,7 @@ Users accessing Business Central with their Microsoft 365 license don't have the
 
 ---
 
-## See also
+## Related information
 
 [Overview of Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
 [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)  

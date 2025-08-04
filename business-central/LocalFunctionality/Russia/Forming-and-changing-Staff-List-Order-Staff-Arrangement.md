@@ -4,11 +4,12 @@ description: Russian enhancements include forming and changing staff.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 # Forming and Changing the Staff List Order
 
@@ -71,7 +72,7 @@ When you run the report, check the box **Staff Arrangement** and select the desi
 
 Click OK to generate the report.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)  
 

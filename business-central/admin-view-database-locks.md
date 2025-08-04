@@ -3,13 +3,13 @@ title: "View Database Locks"
 description: Learn how you can view information about customer database locks right from the client interface in Business Central.
 author: jswymer
 
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: concept-article
+ms.devlang: al
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Viewing Database Locks
 
@@ -25,7 +25,7 @@ The **Database Locks** page gives snapshot of all current database locks.
 
 For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.
 
-## See Also
+## Related information
 
 [Monitor Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
 

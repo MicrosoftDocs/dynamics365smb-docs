@@ -4,11 +4,10 @@ description: In European markets, you can import bank statement files in the reg
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.service: dynamics-365-business-central
+ms.topic: article
 ms.date: 01/06/2023
 ms.custom: bap-template
-
 ---
 # Field Mapping When Importing SEPA CAMT Files
 
@@ -56,7 +55,7 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > In an import of CAMT bank statements, [!INCLUDE[prod_short](includes/prod_short.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction will not automatically reconcile but can still be imported.
 
-## See Also  
+## Related information  
 
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  

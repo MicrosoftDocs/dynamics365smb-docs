@@ -3,20 +3,20 @@ title: Specify a Default Printer
 description: Learn about the different ways to set up printers to be used by default for print jobs. 
 author: jswymer
 ms.topic: how-to
-ms.reviewer: na
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 
-ms.date: 02/09/2023
+ms.date: 11/05/2024
 ms.author: jswymer
+ms.reviewer: jswymer
 ---
-# <a name="default"></a>Specify a Default Printer  
+# <a name="default"></a>Specify a default printer  
 
-After printers have been set up in Business Central, you can then specify which printer you want to use by default. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
+After printers have been set up in Business Central, you can then specify which printer you want to use by default for all companies in the environment. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement or their output capabilities.
 
 > [!IMPORTANT]
-> The only printers that you can specify as default are **Microsoft Print to PDF** and cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers. Cloud printers are typically set up by an admin. For more information, see [Printer Setup and Management](admin-printer-setup-overview.md).   
+> The only printers that you can specify as default are **Microsoft Print to PDF** and cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers. Cloud printers are typically set up by an admin. For more information, see [Printer Setup and Management](admin-printer-setup-overview.md).
 
 ## Set a printer as a default printer for all print jobs
 
@@ -33,7 +33,7 @@ Through the **Printer Management** page you set up a printer as a default printe
 
 ## Set a default printer for specific reports
 
-The **Printer Selections** page lets you specify the printer a report will use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
+The **Printer Selections** page lets you specify the printer a report use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, then select the related link. Alternatively, select a printer on the **Printer Management** page, then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
@@ -45,7 +45,7 @@ The specified report is now set up to print to the selected printer by default.
 > When you print the report in question, you can select a different using the **Print** field on the report request page.
 
 > [!NOTE]
-> If you do not set a report up for a specific printer on the **Printer Selections** page, then it is printed to the default printer of the company, as defined on the **Printer Management** page.
+> If you don't set a report up for a specific printer on the **Printer Selections** page, then it's printed to the default printer, as defined on the **Printer Management** page.
 
 You or the administrator can also use the **Printer Selections** page to define other variations of printing for users and reports. The following table describes the combination of values to specify different printing setups for a report.
 
@@ -68,9 +68,7 @@ Instead of using the default printer when running a report, you can override thi
 
 Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
-[Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Printer Management](admin-printer-setup-overview.md)  
 [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  

@@ -1,17 +1,15 @@
 ---
 title: Overview of Tasks to Deliver Service | Microsoft Docs
 description: Outlines tasks to set up make sure that you deliver quality service and live up to agreements with customers.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Delivering Service
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
@@ -36,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create and post invoices for services that you have delivered.|[Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  
 |Keep customers happy by lending them an item while you work on theirs.| [Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
-## See Also  
+## Related information  
 [Planning Service](service-plan-service.md)  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Managing Projects](projects-manage-projects.md)  

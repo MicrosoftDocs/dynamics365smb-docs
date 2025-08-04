@@ -1,17 +1,14 @@
 ---
-title: Set Up a Salesperson (contains video) | Microsoft Docs'
+title: Set Up a Salesperson | Microsoft Docs'
 description: You can set up a identifier for each of your salespeople, so you can track an individual's performance or assign a salesperson to a contact.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Salespeople
 
@@ -19,7 +16,7 @@ Many companies want to follow an individual employee's performance as a basis fo
 
 When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=a6cbce42-6a16-4e85-83bc-ee4519ad4afc]
 
 ## To set up a salesperson code
 
@@ -28,9 +25,7 @@ When you have set up a salesperson on the **Salespeople** page, you can select i
 
 You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

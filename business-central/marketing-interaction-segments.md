@@ -3,15 +3,15 @@ title: Keep Track of Segments and Related Interactions
 description: Learn about creating segments to define groups of contacts and specifying interactions for segments.
 author: jswymer
 
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: article
+ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5091, 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:
@@ -38,7 +38,7 @@ On the **Segment** page, when you choose **Log**, the application records the in
 
 On the **Logged Segments** page, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
 
-## See Also
+## Related information
 [Create Segments](marketing-how-create-segment.md)  
 [Create Interactions for Segments](marketing-how-create-interactions.md)  
 [Managing Segments](marketing-segments.md)  

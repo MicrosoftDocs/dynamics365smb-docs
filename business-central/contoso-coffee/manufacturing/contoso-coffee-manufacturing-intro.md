@@ -1,12 +1,12 @@
 ﻿---
 title: Introduction to Contoso Coffee Manufacturing
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
-ms.date: 04/01/2022
+ms.date: 04/01/2023
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
-author: edupont04
-ms.author: andreipa
+ms.service: dynamics-365-business-central
+ms.search.form: 4765,
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Introduction to Contoso Coffee Manufacturing
@@ -31,39 +31,19 @@ The app provides four products that are optimized for different scenarios:
 
   This product has three variants and three bills of material (BOMs) that can be assigned to stockkeeping units. The product uses the phantom BOM concept. The costing method is *Standard*.
 
-The manufacturing activities for all scenarios use the *NORTH* location.  
+The manufacturing activities for all scenarios use the *MAIN* location.  
 
 > [!IMPORTANT]
 > Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-manufacturing-data) section.
 
 ## Set up Contoso Coffee Manufacturing data
 
-To use the Contoso Coffee Manufacturing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
-
-- **Contoso Coffee Demo Dataset**  
-
-    This app delivers demo data for the base application.  
-- **Contoso Coffee Demo Dataset (country ID)**  
-
-    This app adds country-specific content on top of the base application.
-
-Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
-
-Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https://businesscentral.dynamics.com/?page=4760) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], and change the default settings to suit your needs. The following table describes the settings:  
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 |Field  |Description  |
 |---------|---------|
-|**Starting Year** |Specifies the first year that you want to use for the Contoso Coffee demonstration data. Depending on the company setup, the year is either a calendar year or a fiscal year.|
-|**Manufacturing Location** |Specifies the warehouse that you want to use for production operations. The default is *NORTH*, but you can change it to suit your needs.|
-|**Company Type**    |Specifies if the current company must report VAT or sales tax. |
-|**Domestic - General Business Posting Group**|Specifies a business code for domestic customers and vendors. The business codes are used when transactions are posted. |
-|**Capacity - General Product Posting Group**    |Specifies a code for items or resources that must be used for posting capacity.|
-|**Retail - General Product Posting Group**    |Specifies a code for items or resources that must be used for posting retail.|
-|**Raw - General Product Posting Group**    |Specifies a code for items or resources that must be used for posting raw material. |
-|**Base VAT Code**    |Specifies an existing VAT product group that will be used for items.|
-|**Finished Code**    |Specifies an existing product group that will be used for finished items.|
-|**Price Factor**     |Specifies a factor to convert a price from USD/EUR to the local currency. *1* means that the price is the same amount in any currency. A higher number will be used to get the price in the local currency. |
-|**Rounding Precision**  |Defines how calculated consumption quantities are rounded when entered on consumption journal lines. Quantities less than 0.5 will be rounded down. Quantities equal to or greater than 0.5 will be rounded up.|
+|**Manufacturing Location** |Specifies the warehouse that you want to use for production operations. The default is *MAIN*, but you can change it to suit your needs.|
+
 
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
@@ -85,7 +65,7 @@ Read the steps for each scenario in the relevant article.
 > [!IMPORTANT]
 > These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
 
-## See also
+## Related information
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Production Reports and Analytics in Business Central](../../production-reports.md)  

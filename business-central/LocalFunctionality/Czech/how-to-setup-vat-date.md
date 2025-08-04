@@ -1,44 +1,43 @@
 ---
-title: Czech Local Functionality - Setup VAT Date
-description: This section describes Czech local functionality - VAT Date and Setup of the VAT Date Feature.
+title: Czech local functionality - Setup VAT date
+description: Learn how to set up and use the VAT Date feature in the Czech version of Business Central, including configuration steps and VAT reporting options.
 author: v-pejano
-
-ms-service: dynamics365-business-central
-ms.topic: conceptual
+ms-service: dynamics-365-business-central
+ms.topic: install-set-up-deploy
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 06/17/2021
-ms.reviewer: v-pejano
+ms.date: 06/04/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
-
-# VAT Date in the Czech Version
+# VAT date in the Czech version
 
 The VAT date is important for tax documents according to §28 of VAT Law 235/2004. The VAT date can be different from the posting date or the document date. The VAT date is an important field for the VAT reporting.  
 
-This feature focuses on improving the following:
+This feature focuses on improving the following aspects:
 
-## Setup of the VAT Date Feature
+## Setup of the VAT Date feature
 
 - Enabling VAT date usage in the system generally.
-- Select the way the system will default the VAT date’s value in different areas (Posting Date or Document Date).
+- Select the system's default value for the VAT date in different areas (Posting Date or Document Date).
 - Periods for reporting VAT and company accounting periods are often different. To allow users to seamlessly report and post VAT according to VAT periods, and to issue internal and other statutory reporting based on accounting periods, this VAT Date feature introduces VAT periods.
 - Allow VAT Posting From/To – enter a date range in from/to fields to prevent mistakes of posting to closed accounting or VAT periods.
 
-## Posting Sales, Purchase, and Service Transactions with VAT Date
+## Posting sales, purchase, and service transactions with VAT date
 
 To post transactions using a VAT date, the user must fill in the **VAT Date** field on the document headers and journal lines throughout the application.
 After the posting of the VAT date, it becomes a part of the posted documents and G/L entries and VAT entries.
 
-## Calculating and Posting VAT Settlement
+## Calculating and posting VAT settlement
 
-The system filters VAT entries by the **VAT Date** field (instead of **Posting Date**) by selecting the VAT period and preparing a report showing which entries will be transferred to the Settlement account. Printouts also contains VAT date information.
+The system filters VAT entries by the **VAT Date** field (instead of **Posting Date**) by selecting the VAT period and preparing a report showing which entries are transferred to the Settlement account. Printouts also contain VAT date information.
 
-## See Also
+## Related information
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[VAT Control Report](vat-control-report.md)[VAT statement](vat-statement.md)
-[Finance](../../finance.md)
-[Czech Local Functionality](czech-local-functionality.md)
+- [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)    
+- [VAT Control Report](vat-control-report.md)  
+- [VAT statement](vat-statement.md)  
+- [Finance](../../finance.md)  
+- [Czech Local Functionality](czech-local-functionality.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

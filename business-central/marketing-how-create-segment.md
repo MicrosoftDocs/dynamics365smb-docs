@@ -4,15 +4,15 @@ description: Describes how to create a segment for a group of contacts in Busine
 author: jswymer
 
 
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Create Segments
 You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.
@@ -27,7 +27,7 @@ You can create segments to select a group of contacts, for example, if you want 
 
 You can now add contacts to the segment. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## See Also
+## Related information
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

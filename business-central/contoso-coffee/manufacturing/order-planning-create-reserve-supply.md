@@ -1,11 +1,11 @@
-﻿---
+---
 title: Use Order Planning to Create and Reserve Supply
 description: Walkthrough to learn how to use order planning to create the required production order for the supply in Business Central.
 ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+ms.topic: how-to
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Use Order Planning to Create and Reserve Supply
@@ -59,7 +59,7 @@ You are the production planner at Contoso Coffee. You created a production order
 
 That's it for order planning in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  
 [About Production Orders](../../production-about-production-orders.md)  

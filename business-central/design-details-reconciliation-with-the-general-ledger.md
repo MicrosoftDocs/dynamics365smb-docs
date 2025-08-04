@@ -1,17 +1,15 @@
 ---
-    title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
-    description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
-    author: SorenGP
+title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
+description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: design, reconciliation, general ledger, inventory
+ms.date: 06/08/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: design, reconciliation, general ledger, inventory
-    ms.date: 06/08/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Reconciliation with the General Ledger
 When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
@@ -113,7 +111,7 @@ The following table shows how the work center is set up on the work center card.
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
-## See Also  
+## Related information  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)   
 [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)

@@ -1,18 +1,18 @@
 ---
-    title: Service Transfer
-    description: Service Transfer
+title: Service Transfer
+description: Service Transfer
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Service Transfer
 
@@ -75,7 +75,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
 
 
 
-## See Also 
+## Related information 
 [GST Stock Transfer](GST-Stock-Transfer.md)
 
 

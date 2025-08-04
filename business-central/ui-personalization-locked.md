@@ -1,18 +1,16 @@
 ---
 title: Why a Page is Locked from Personalization
 description: You might be blocked from personalizing a page. Read here about what you can do to unlock it so you can personalize it.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Why a Page is Locked from Personalization
 
@@ -48,7 +46,7 @@ If there's a ![Personalization blocked](media/personalization-blocked-icon.png "
 
 The reason is that the Role Center or role that is currently associated with your user account modifies this page specifically for your role. Contact your administrator for assistance. Alternatively, try switching to a Role Center that does include role-tailoring for this page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
-## See Also
+## Related information
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Customize Pages for Profiles](ui-personalization-manage.md)  

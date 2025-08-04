@@ -4,11 +4,12 @@ description: Russian enhancements include additional functionality around financ
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 05/26/2022
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Work with Financial Reports
@@ -73,7 +74,7 @@ You can use a financial report to create a statement comparing general ledger fi
 
 Now you can copy and paste your budget statement into a spreadsheet.
 
-## See also
+## Related information
 
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  

@@ -1,17 +1,14 @@
 ---
-    title: Set Up Put-away Templates
-    description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+title: Set Up Put-away Templates
+description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.date: 10/04/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Put-away Templates
 
@@ -34,12 +31,10 @@ You can set up a number of put-away templates and select one of them to govern p
 
 You can create various put-away templates and then apply them as you see fit. The put-away template that you selected for the item or stockkeeping unit, if any is used first. If these fields are not filled in, then the put-away template that you selected for the warehouse on the **Bin Policies** FastTab on the location card is used.  
 
-## See related [Microsoft training](/training/modules/put-away-templates/)
-
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)                                
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

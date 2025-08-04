@@ -1,18 +1,18 @@
 ---
-    title: TCS Adjustment Entries
-    description: TCS Adjustment Entries
+title: TCS Adjustment Entries
+description: TCS Adjustment Entries
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # TCS Adjustment Entries
 
@@ -45,7 +45,7 @@ TCS adjustment is applicable for any correction of the TCS amount, TCS rate and 
 
 
 
-## See Also 
+## Related information 
 [TCS Payment to Authority](TCS-Payment-to-Authority.md)
 
 

@@ -7,8 +7,9 @@ author: DianaMalina
 ms.topic: overview
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Overview - Fixed Assets

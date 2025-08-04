@@ -1,18 +1,18 @@
 ---
-    title: TDS on Provisional Entries
-    description: TDS on Provisional Entries
+title: TDS on Provisional Entries
+description: TDS on Provisional Entries
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # TDS on Provisional Entries
@@ -97,7 +97,7 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 
 
-## See Also 
+## Related information 
 [TDS Adjustment Entry](TDS-Adjustment-Entries.md)
 
 

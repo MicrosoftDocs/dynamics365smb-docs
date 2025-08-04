@@ -1,18 +1,18 @@
 ---
-    title: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
-    description: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
+title: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
+description: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Purchase Return of Services for Overseas Place of Supply to Registered Vendor
 
@@ -72,7 +72,7 @@ For example, if a service recipient has a GSTIN for West Bengal and the Vendor h
 
 
 
-## See Also 
+## Related information 
 [GST Overview](GST-001-Basic-Setup.md)
 
 

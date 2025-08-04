@@ -1,18 +1,18 @@
 ---
-    title: TDS calculation considering Threshold limits
-    description: TDS calculation considering Threshold limits
+title: TDS calculation considering Threshold limits
+description: TDS calculation considering Threshold limits
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # TDS with Threshold
 
@@ -70,7 +70,7 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
-## See Also 
+## Related information 
 [TDS Provisional Entry](TDS-Provisional-Entries.md)
 
 

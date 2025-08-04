@@ -4,11 +4,12 @@ description: Russian enhancements include posting intangible assets to a dedicat
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up an Intangible Assets Account
@@ -24,7 +25,7 @@ The procedure for posting an intangible asset account is similar to the procedur
 3. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.
 4. Purchase and release the intangible asset. For more information, see [Purchase and Release Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md).
 
-## See Also
+## Related information
 
 [Fixed Assets](../../fa-manage.md)  
 

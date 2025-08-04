@@ -4,11 +4,12 @@ description: Russian enhancements include gratuitous receipt of fixed assets.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 # Gratuitous Receipt of Fixed Assets.
 
@@ -55,7 +56,7 @@ Posting gratuitous receipt of fixed assets operation is registered in one of the
 
 6. As a result of posting **FA Journals**, an acquisition entry is generated in the fixed asset Ledger for the depreciation book for tax accounting.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)
 

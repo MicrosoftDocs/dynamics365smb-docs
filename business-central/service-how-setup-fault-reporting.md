@@ -1,17 +1,15 @@
 ---
-    title: Set Up Fault Reporting in Service Management
-    description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
-    author: SorenGP
+title: Set Up Fault Reporting in Service Management
+description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Fault Reporting
@@ -41,7 +39,7 @@ To be able to see the most common methods of repair for particular item faults w
 3. To group the relationships by service item group, choose the **Relation Based on Service Item Group** check box.  
 4. To retain the records that you have already inserted manually on the **Fault/Resol. Codes Relationships** page, choose the **Retain Manually Inserted Rec.** check box.  
 
-## See Also
+## Related information
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
 

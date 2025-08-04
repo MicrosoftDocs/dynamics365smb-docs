@@ -24,5 +24,6 @@ translation.priority.ht:
   - "nl-nl"
   - "ru-ru"
   - "sv-se"
+  ms.service: dynamics-365-business-central
 ---
 Microsoft Dynamics NAV 2015

@@ -4,8 +4,8 @@ description: This article describes how to prioritized goals by balancing supply
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.service: dynamics-365-business-central
+ms.topic: how-to
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
@@ -345,7 +345,7 @@ To reduce the load on the database when handling production orders, the planning
 * Include routing: the planned routing includes calculation of starting and ending dates and times. Include routing is demanding in terms of database accesses. To determine the ending and due dates, it might be necessary to calculate the routing even if the supply event hasn't been closed. For example, if you're doing forward scheduling.  
 * Include BOM explosion: can happen just before the supply event is closed.
 
-## See Also  
+## Related information  
 
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  

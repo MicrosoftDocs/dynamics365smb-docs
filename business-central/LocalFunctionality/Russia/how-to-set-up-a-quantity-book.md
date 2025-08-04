@@ -4,11 +4,12 @@ description: Russian enhancements include quantity books.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up a Quantity Book
@@ -24,7 +25,7 @@ Create a depreciation book to keep record of the fixed assets quantities that wi
 5. In the **Quantitative Depr. Book** field, enter the code of the depreciation book that you created.
 6. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)  
 [Fixed Assets](fixed-assets.md)  

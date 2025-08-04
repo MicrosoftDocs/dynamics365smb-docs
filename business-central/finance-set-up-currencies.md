@@ -1,19 +1,21 @@
 ---
-title: Set Up Currencies
+title: Set up currencies
 description: You must set up each currency if you buy or sell in currencies other than your local currency (LCY), or if you record G/L transactions in different currencies.
-author: edupont04
-
-ms.topic: conceptual
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: article
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
-ms.date: 03/15/2022
-ms.author: edupont
+ms.date: 06/10/2024
+ms.service: dynamics-365-business-central
+
 ---
-# Set Up Currencies
+# Set up currencies
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-Use an external service to get the latest currency exchange rates into the **Currencies** list. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).  
+Use an external service to get the latest currency exchange rates into the **Currencies** list. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).  
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
@@ -29,15 +31,15 @@ The following table describes the fields in the **Currencies** list.
 |**ISO Numeric code**|The international numeric reference to the currency defined in ISO 4217.|
 |**Exchange Rate Date**|The latest actual exchange rate date.|
 |**EMU Currency**|Specifies if the currency is an EMU (Economic and Monetary Union) currency, such as EUR.|
-|**Realized Gains Account**|The account where the actual gain will be posted when you receive payments for receivables or register the actual currency rate on payments to payables. For an example of a receivable currency transaction, see the example below this table. |
-|**Realized Losses Account**|The account where the actual loss will be posted when you receive payments for receivables or register the actual currency rate on payments to payables. For an example of a receivable currency transaction, see the example below this table. |
-|**Unrealized Gains Account**|The account where the theoretical gain will be posted when you perform a currency adjustment.|
-|**Unrealized Losses Account**|The account where the theoretical loss will be posted when you perform a currency adjustment.|
-|**Amount Rounding Precision**|Some currencies have other formats for invoice amounts than are defined in the **General Ledger Setup** page. If you change the amount rounding precision for a currency, all invoice amounts in that currency will be rounded with the updated precision.|
-|**Amount Decimal Places**|Some currencies have other formats for invoice amounts than are defined in the **General Ledger Setup** page. If you change the amount decimal places for a currency, all invoice amounts in the currency will be rounded with the updated decimals|
+|**Realized Gains Account**|The account where the actual gain is posted when you receive payments for receivables or register the actual currency rate on payments to payables. For an example of a receivable currency transaction, see the example below this table. |
+|**Realized Losses Account**|The account where the actual loss is posted when you receive payments for receivables or register the actual currency rate on payments to payables. For an example of a receivable currency transaction, see the example below this table. |
+|**Unrealized Gains Account**|The account where the theoretical gain is posted when you perform a currency adjustment.|
+|**Unrealized Losses Account**|The account where the theoretical loss is posted when you perform a currency adjustment.|
+|**Amount Rounding Precision**|Some currencies have other formats for invoice amounts than are defined in the **General Ledger Setup** page. If you change the amount rounding precision for a currency, all invoice amounts in that currency are rounded with the updated precision.|
+|**Amount Decimal Places**|Some currencies have other formats for invoice amounts than are defined in the **General Ledger Setup** page. If you change the amount decimal places for a currency, all invoice amounts in the currency are rounded with the updated decimals|
 |**Invoice Rounding Type**|Specifies the method to use if the amounts must be rounded. The options are **Nearest**, **Up**, and **Down**.|
-|**Unit-Amount Rounding Precision**|Some currencies have other formats for unit amounts than are defined in the **General Ledger Setup** page. if you change the unit amount rounding precision for a currency, all unit amounts in the currency will be rounded with the updated precision.|
-|**Unit-Amount Decimal Places**|Some currencies have other formats for unit amounts than are defined in the **General Ledger Setup** page. If you change the unit amount decimal places for a currency, all unit amounts in the currency will be rounded with the updated decimals.|
+|**Unit-Amount Rounding Precision**|Some currencies have other formats for unit amounts than are defined in the **General Ledger Setup** page. if you change the unit amount rounding precision for a currency, all unit amounts in the currency are rounded with the updated precision.|
+|**Unit-Amount Decimal Places**|Some currencies have other formats for unit amounts than are defined in the **General Ledger Setup** page. If you change the unit amount decimal places for a currency, all unit amounts in the currency are rounded with the updated decimals.|
 |**Application Rounding Precision**|Specifies the size of the interval that is allowed as a rounding difference when you apply entries in different currencies to one another.|
 |**Conversion LCY Rounding. Debit Account**|Specifies conversion information that must also contain a debit account if you want to insert correction lines for rounding differences in the general journals using the **Insert Conv. LCY Rndg. Lines** action.|
 |**Conversion LCY Rounding Credit Account**|Specifies conversion information that must also contain a credit account if you wish to insert correction lines for rounding differences in the general journals using the **Insert Conv. LCY Rndg. Lines** action.|
@@ -59,10 +61,10 @@ The following table outlines key actions on the **Currencies** page.
 
 |Menu|Action|Description|
 |-------------|--------------|------------------------------|
-|**Process**|**Suggest Accounts**|Use accounts from the other currencies. The most frequently used accounts will be inserted.|
+|**Process**|**Suggest Accounts**|Use accounts from the other currencies. The most frequently used accounts are inserted.|
 ||**Change Payment Tolerance**|Change either or both the maximum payment tolerance and the payment tolerance percentage, and filter by currency. For more information, see [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ||**Exchange Rates**|View updated exchange rates for the currencies that you use.|
-||**Adjust Exchange Rates**|Adjust general ledger, customer, vendor, and bank account entries to reflect a more updated balance if the exchange rate has changed since the entries were posted.|
+||**Adjust Exchange Rates**|Update balances for general ledger, customer, vendor, and bank account entries. The update is useful if the exchange rate changed after the entries were posted.|
 ||**Exchange Rate Adjustment Register**|View the results of running the **Adjust Exchange Rates** batch job. One line is created for each currency or each combination of currency and posting group that is included in the adjustment.|
 |**Exchange Rate Service**|**Exchange Rate Services**|View or edit the setup of the services that are set up to fetch updated currency exchange rates when you choose the **Update Exchange Rates** action.|
 ||**Update Exchange Rates**|Get the latest currency exchange rates from a service provider.|
@@ -74,15 +76,15 @@ The following table outlines key actions on the **Currencies** page.
 
 ## Rounding currencies
 
-To manage currencies that do not use decimals and to avoid unnecessary decimals in foreign currency, you can use two different rounding features:
+To manage currencies that don't use decimals and to avoid unnecessary decimals in foreign currency, you can use two different rounding features:
 
 - Unit-amount rounding  
 
 - Amount rounding  
 
-These features can operate independently or in combination. In addition, the features can operate in connection with invoice rounding.
+These features can operate independently or in combination. In addition, the features can operate with invoice rounding.
 
-As opposed to the invoice rounding features, the amount rounding and unit-amount rounding features affect only amounts in foreign currency-not the corresponding amounts in LCY. These two features will not result in any postings to general ledger accounts. Consequently, no general ledger account needs to be specified on posting groups or elsewhere.
+As opposed to the invoice rounding features, the amount rounding and unit-amount rounding features affect only amounts in foreign currency-not the corresponding amounts in LCY. These two features don't post anything to general ledger accounts. So, no general ledger account needs to be specified on posting groups or elsewhere.
 
 ### Unit-amount rounding
 
@@ -104,17 +106,15 @@ You can retain historical exchange rates in the **Currency Exchange Rates** page
 
 ## General ledger accounts
 
-You cannot link currency codes to general ledger accounts because amounts on general ledger accounts are in LCY. If you have a bank loan in USD and place deposits in a bank account in SEK, you can keep track of these accounts by setting up bank accounts in USD and SEK. With posting groups, you can link the accounts to the relevant general ledger accounts. In the general ledger, the value of the amounts is shown in LCY.
+You can't link currency codes to general ledger accounts because amounts on general ledger accounts are in LCY. If you have a bank loan in USD and place deposits in a bank account in SEK, you can keep track of these accounts by setting up bank accounts in USD and SEK. With posting groups, you can link the accounts to the relevant general ledger accounts. In the general ledger, the value of the amounts is shown in LCY.
 
-You can enter a currency code on a general journal line and post the line to a general ledger account. The relevant exchange rate is used to convert the amount to LCY before it is posted to the general ledger account.  
+You can enter a currency code on a general journal line and post the line to a general ledger account. The relevant exchange rate is used to convert the amount to LCY before it posts to the general ledger account.  
 
 ## Example of a receivable currency transaction
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## See related [Microsoft training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  

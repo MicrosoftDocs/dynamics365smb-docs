@@ -1,16 +1,14 @@
 ---
 title: Apply VAT | Invoicing
-description: Some countries require that you add value-added tax to your invoices. It's easy to do in Invoicing.
-author: edupont04
-
-ms.service: dynamics365-business-central
+description: Some countries/regions require that you add value-added tax to your invoices. It's easy to do in Invoicing.
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Add value added tax (VAT) to your invoices in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 > [!Note]

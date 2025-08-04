@@ -1,18 +1,18 @@
 ---
-    title: GST on Advance Payment made to Vendor, with reverse charge
-    description: GST on Advance Payment made to Vendor, with reverse charge
+title: GST on Advance Payment made to Vendor, with reverse charge
+description: GST on Advance Payment made to Vendor, with reverse charge
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST on Advance Payment Made to Vendor, with Reverse Charge
 
@@ -71,7 +71,7 @@ If the vendor advance needs to be corrected or the entry is wrongly posted, in s
 
 
 
-## See Also 
+## Related information 
 [GST Application of Payment and Invoice](GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
 
 

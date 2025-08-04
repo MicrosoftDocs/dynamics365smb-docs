@@ -1,18 +1,18 @@
 ---
-    title: Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q
-    description: Specifies the setups required, as per the provisions of the Income Tax Act, 1961.
+title: Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q
+description: Specifies the setups required, as per the provisions of the Income Tax Act, 1961.
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 06/25/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q
 
@@ -79,7 +79,7 @@ Provision is made available on customer master to capture whether aggregate turn
     |**Aggregate Turnover**|This field can be used to define aggregate Turnover in the immediate previous year exceeds Rs.10 crore to an assessee. The available options are: Less than 10 Crore, More than 10 Crore.|  
 
 
-## See Also 
+## Related information 
 [TDS 194Q Transactions](TDS-194Q-Transactions.md)
 
 

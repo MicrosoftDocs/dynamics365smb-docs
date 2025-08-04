@@ -1,17 +1,15 @@
 ---
 title: Posting Documents and Journals
 description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: 
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Posting Documents and Journals
 
@@ -30,7 +28,7 @@ The following table describes related tasks, with links to the topics that descr
 | Preview, in a page, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
 | Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
-## See also
+## Related information
 
 [Edit Posted Documents](across-edit-posted-document.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

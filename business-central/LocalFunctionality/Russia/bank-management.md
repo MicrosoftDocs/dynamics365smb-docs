@@ -2,45 +2,36 @@
 title: Bank management in Russia
 description: Russian enhancements include bank management.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 02/26/2024
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 
-# Bank Management
+# Bank management
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create bank directory structures to keep bank reference information in one location. Also, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.
 
- 
-
-## Creating Bank Directory Structures
+## Creating bank directory structures
 
 You can use a bank directory structure to keep reference information about all the banks in one location. This information can be used to automatically fill in the corresponding fields in the **Bank Account Card**, **Vendor Bank Account Card**, and **Customer Bank Account Card** windows.
 
- 
-
-## Creating Budget Classification Codes
+## Creating budget classification codes
 
 You can use a budget classification codes catalog in bank payments that are made to the state budget, such as tax payments. These codes allow you to track the classification of budget payment types in the state budget.
 
  
-
-## Creating Bank Account Details Records
+## Creating bank account details records
 
 You can use bank account details to define dimensions and other codes that are pertinent to bank payment orders and bank statements. Records in a bank operation that have the account type information set to **G/L Account** can have bank account details attached to the specified account. Bank account details are set up in the **Bank Account Details** window.
 
  
+## Printing and posting required documents
 
-## Printing and Posting Required Documents
-
-You can prepare bank payment order documents, cash order documents, and payments in the payment journal by copying procedures from the posted bank payment order and cash order documents. Then you can create the printed documents and post them in the required format.
+By copying procedures from the posted bank payment order and cash order documents, you can prepare bank payment order documents, cash order documents, and payments in the payment journal. Then you can create the printed documents and post them in the required format.
 
  
-
 You can print the following required bank management documents. 
 
 | Report                        | Description                                                  |
@@ -51,9 +42,9 @@ You can print the following required bank management documents.
 
  
 
-## See Also 
+## Related information 
 
-[Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)
+[Set up a bank payment order](How-to-Set-Up-a-Bank-Payment-Order.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

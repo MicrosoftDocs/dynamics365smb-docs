@@ -3,11 +3,12 @@ title: Design Details - Supply Planning
 description: This article describes the concepts and principles in the supply planning features in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: article
 ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: design, supply, planning, reordering, replenishment
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Supply Planning
 

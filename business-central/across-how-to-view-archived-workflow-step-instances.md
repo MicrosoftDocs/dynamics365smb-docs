@@ -1,16 +1,15 @@
 ---
 title: How to View Archived Workflow Step Instances
 description: All completed workflow step instances are saved on the Archived Workflow Step Instances page. Each step consists of a workflow event and workflow response.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 1530, 
 ms.date: 09/09/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # View Archived Workflow Step Instances
 
@@ -32,7 +31,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
    The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
 
-## See also
+## Related information
 
 [Delete Approval Workflows](across-how-to-delete-workflows.md)  
 [Create Approval Workflows](across-how-to-create-workflows.md)  

@@ -1,23 +1,25 @@
 ---
 title: Set up and generate DIOT reports | Microsoft Docs
-description: Use this extension to setup and generate DIOT declarations in Business Central for the Mexican authorities.
+description: Use this extension to set up and generate DIOT declarations in Business Central for the Mexican authorities.
 author: sorenfriisalexandersen
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: extension, diot, authorities, export, compliance
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: extension, DIOT, authorities, export, compliance, DIOT declarations, DIOT reports
 ms.search.form: 27030, 27031, 27032, 27033, 27034
-ms.date: 06/24/2021
+ms.date: 06/30/2025
 ms.author: soalex
-
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
 
-# Set Up and Generate DIOT Reports
+# Set up and generate DIOT reports
 
-As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[prod_short](../../includes/prod_short.md)] by generating a file that can be uploaded to SAT. This topic describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[prod_short](../../includes/prod_short.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[prod_short](../../includes/prod_short.md)] by generating a file that can be uploaded to SAT. This article describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[prod_short](../../includes/prod_short.md)] and is preinstalled in the online version. However, it must be installed manually in the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-## What does this extension hHandle?
+> [!NOTE]
+> Starting with version 26.3, the exported DIOT file complies with the new SAT regulations effective in 2025. The file is in TXT format and includes 54 fields.
+
+## What does this extension handle?
 
 The extension provides the following capabilities:
 
@@ -29,30 +31,37 @@ The extension provides the following capabilities:
 
 You set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until the setup is completed.
 
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
-2. Choose the **Set Up DIOT** action.
-3. The first page in the setup guide explains what you are about to set up. Choose the **Next** button.
-4. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation that you want to be set on vendors in the system.
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+1. Choose the **Set Up DIOT** action.
+1. The first page in the setup guide explains what you are about to set up. Choose the **Next** button.
+1. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation that you want to be set on vendors in the system.
 
-    Every entry in the report must be assigned a **Type of Operation** value. There are three valid types: **Prof. Services**, **Lease and Rent**, and **Others**. You are not allowed to report the **Lease and Rent** type of operation for a vendor that is not local. All vendors will be updated with the setting chosen here.
+    Every entry in the report must be assigned a **Type of Operation** value. There are three valid types: **Prof. Services**, **Lease and Rent**, and **Others**. You aren't allowed to report the **Lease and Rent** type of operation for a vendor that isn't local. All vendors are updated with the chosen setting.
 
-5. Choose a value in the **Type of Operation** field, and then choose the **Next** button.
-6. Choose the **Open Vendor List** action to select another **Type of Operation** value individually for vendors if you want the setting to be different from what you chose in the previous step.
+1. Choose a value in the **Type of Operation** field, and then choose the **Next** button.
+1. Choose the **Open Vendor List** action to select another **Type of Operation** value individually for vendors if you want the setting to be different from what you chose in the previous step.
 
     A special page opens, which includes the **DIOT Type of Operation** field. Here you must set up DIOT concepts, which is a sort of setup of how VAT entries are collected for the report.
-7. Choose the **Open DIOT Concepts** action.
+1. Choose the **Open DIOT Concepts** action.
 
-    You will see a list of predefined DIOT concepts that look like VAT setup. These DIOT concepts must be linked to VAT product posting groups and VAT business posting groups. You may not have to link all of the DIOT concepts. Investigate each DIOT concept and decide how these map to your VAT posting setup.
+    You'll see a list of predefined DIOT concepts that look like VAT setup. These DIOT concepts must be linked to VAT product posting groups and VAT business posting groups. You may not have to link all of the DIOT concepts. Investigate each DIOT concept and decide how these map to your VAT posting setup.
 
-    Adding a link to a DIOT concept is done by clicking the number in the **VAT Link Count** field. Note, that not all DIOT concepts must be linked. DIOT concepts with **None** in the **Column Type** field exist for legacy reasons and cannot be linked. For records where the **VAT Link Count** field is not filled in, you should investigate if you have VAT entries that fall under this DIOT concept and add the corresponding link. DIOT records where the **VAT Link Count** field is filled in indicate that links are already created or do not have to be created.
+    Adding a link to a DIOT concept is done by clicking the number in the **VAT Link Count** field. Note, that not all DIOT concepts must be linked. DIOT concepts with **None** in the **Column Type** field exist for legacy reasons and can't be linked. For records where the **VAT Link Count** field isn't filled in, you should investigate if you have VAT entries that fall under this DIOT concept and add the corresponding link. DIOT records where the **VAT Link Count** field is filled in indicate that links are already created or don't have to be created.
 
-8. Choose the **Next** button.
+1. Choose the **Next** button.
+   The setup of DIOT is now finished.
+1. Choose the **Finish** button.
 
-    The setup of DIOT is now finished.
-9. Choose the **Finish** button.
+## Vendor setup
 
 > [!NOTE]
-> Note that for the DIOT report, the vendor's operation type will be used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor is not passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually.
+> For the DIOT report, the vendor's operation type is used for all operations with that vendor unless you change the value of the **DIOT Type of Operation** field in the document before posting. The DIOT operation type for the vendor isn't automatically applied to purchase documents. If you want to use a different type than the one specified for the vendor, update the field manually on the purchase document.
+
+To update necessary fields on the **Vendor** card, perform the following steps:
+
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], select the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Card**, and then select the related link.
+1. Select the **Tax Effects Applied** field to indicate whether tax effects are applied to invoices for transactions with the vendor. This value is exported in the 54th field as "01" when **Tax Effects Applied** = TRUE, and as "02" otherwise.
+1. Fill in the **Tax Jurisdiction Location** field if the vendor's **Country/Region Code** isn't included in the **DIOT Country/Region** list. This field is available only when the **Country/Region Code** is set to "ZZZ" (Other).
 
 ## Optional setup for reporting withholding tax with the DIOT extension
 
@@ -64,19 +73,19 @@ For example, if you have transactions that are supposed to be 10% VAT and 5% wit
 
 This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you must continue the existing workaround that you may have for calculating withholding tax, regardless of setting up the DIOT Report extension.
 
-### To create an export of DIOT report files
+### Create an export of DIOT report files
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose the related link.  
-2. On the **Create DIOT report** request page, set the **Starting Date** and **Ending Date** fields to represent the period for which you wish to report.
-3. Choose the **OK** button.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose the related link.  
+1. On the **Create DIOT report** request page, set the **Starting Date** and **Ending Date** fields to represent the period for which you wish to report.
+1. Choose the **OK** button.
 
     You may get an error regarding the **RFC No.** field, which needs to be set up on local vendors. To set this up, fill in the **RFC No.** field on the **Payments** tab on the **Vendor Card** page.
 
-When the report runs without errors, you will be prompted to save the file **Diot.txt**, which you can then send to authorities.
+When the report runs without errors, you are prompted to save the file **Diot.txt**, which you can then send to authorities.
 
-## See also
+## Related information
 
-[Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Getting Ready for Doing Business](../../ui-get-ready-business.md)  
+- [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
+- [Getting Ready for Doing Business](../../ui-get-ready-business.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

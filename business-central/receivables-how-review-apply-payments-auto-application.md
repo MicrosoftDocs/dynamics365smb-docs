@@ -1,20 +1,17 @@
 ---
-title: Review and Apply Payments Manually After Automatic Application
+title: Review and apply payments manually after automatic application
 description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 05/30/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Review and Apply Payments Manually After Automatic Application
+# Review and apply payments manually after automatic application
 For each journal line representing a payment on the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -22,7 +19,7 @@ For each journal line representing a payment on the **Payment Reconciliation Jou
 
 Therefore, we recommend that you look for foreign currency codes in the **Currency Code** field on the **Payment Application** page to check if applications are based on converted currencies. To review the original document amount in the foreign currency and to see the exchange rate used, choose the **Applies-to Entry No.** field, and then, on the shortcut menu, choose the drilldown button to open the **Customer Ledger Entries** or **Vendor Ledger Entries** page.
 
-Any gains-and-loss adjustment required due to currency conversions is not handled automatically by [!INCLUDE[prod_short](includes/prod_short.md)].
+Any gains-and-loss adjustment required due to currency conversions isn't handled automatically by [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   You cannot apply entries with a different sign than the sign on the payment. For example, to close both a negative-sign credit memo and its related positive-sign invoice, you must first apply the credit memo to the invoice, and then apply the payment to the invoice with the reduced remaining amount.
@@ -40,13 +37,13 @@ Any gains-and-loss adjustment required due to currency conversions is not handle
 4. Select the **Applied** check box on the line for the open entry that you want to apply the payment to.
 5. The payment amount, which is also shown in the **Transaction Amount** field on the **Payment Application** page, is inserted in the **Applied Amount** field, but you can modify the field, for example if you want to apply the amount to several open entries.
 6. To apply a part of the paid amount to another open entry for the account, for example to apply a lump-sum payment, select the **Applied** check box for the line. The applied amount is automatically deducted from the transactions amount to reflect the distribution on the two open entries.
-7. To apply a part of a payment to one or more open entries that does not exist in the database, create a new line under the line for the same account. In the **Applied Amount** field, enter the amount to apply on the new line, and then adjust the **Applied Amount** field on the existing line.
+7. To apply a part of a payment to one or more open entries that doesn't exist in the database, create a new line under the line for the same account. In the **Applied Amount** field, enter the amount to apply on the new line, and then adjust the **Applied Amount** field on the existing line.
 8. Repeat steps 5, 6, or 7 for other open entries that you want to apply a full or partial payment amount to.
 9. When you have reviewed a payment application or manually applied to one or more open entries, choose the **Accept Application** action.
 
 The **Payment Application** page  closes, and on the **Payment Reconciliation Journal** page, the value in the **Match Confidence** field is changed to **Accepted** to indicate to you that you have reviewed or manually applied the payment.
 
-## See Also
+## Related information
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

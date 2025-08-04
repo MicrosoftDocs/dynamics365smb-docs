@@ -1,18 +1,18 @@
 ---
-    title: Export of Goods and/or Services to Foreign Customer
-    description: Export of Goods and Services to Foreign Customer
+title: Export of Goods and/or Services to Foreign Customer
+description: Export of Goods and Services to Foreign Customer
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Export of Goods and Services to Foreign Customer
 
@@ -65,7 +65,7 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
-## See Also 
+## Related information 
 [Sale to Registered Customer with Overseas POS](GST-Sale-to-Registered-Customer-Overseas-POS.md)
 
 

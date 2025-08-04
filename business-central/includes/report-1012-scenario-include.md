@@ -1,0 +1,1 @@
+Get an overview of all projects, with focus on scheduled price, percentage of completion, and invoiced amounts for each customer.

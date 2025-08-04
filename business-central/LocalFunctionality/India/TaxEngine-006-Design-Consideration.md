@@ -1,17 +1,17 @@
 ---
-    title: Tax Engine - Design Consideration
-    description: Tax Engine - Design Consideration
+title: Tax Engine - Design Consideration
+description: Tax Engine - Design Consideration
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Tax Engine - Design Consideration
 
@@ -103,7 +103,7 @@ A new tax type should be created if it has unique attributes which are used in d
   By default, a Use case is enabled. If a use case is not applicable, then it can be disabled and that use case will not get executed.
 
 
-## See Also
+## Related information
 [Overview](TaxEngine-001-Overview.md)
 
 

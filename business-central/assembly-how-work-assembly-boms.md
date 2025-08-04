@@ -1,32 +1,30 @@
 ---
-title: Work with Assembly BOMs
+title: Work with assembly BOMs
 description: You create an assembly BOM to specify the components required to put together the item that the BOM represents.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: assembly bom, bills of material, 
 ms.search.form: 36, 5870, 5872, 5874
-ms.date: 09/26/2022
-ms.author: edupont
+ms.date: 06/13/2024
+ms.service: dynamics-365-business-central
 
 ---
-# Work with Assembly BOMs
+# Work with assembly BOMs
 
 You use assembly bills of materials (BOMs) to structure parent items that must be assembled from components with little to no resource use. An assembly BOM can be used, for example, to sell a parent item as a kit consisting of component items.
 
-You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item.  
+Use assembly orders to make finished items from components in a process that one or more basic resources can perform, which aren't machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and pack them as a gift item.  
 
-An assembly BOM is the master data that defines which component items go into an assembled end item and which resources are used to assemble the assembly item. When you enter an assembly item and a quantity in the header of a new assembly order, then the assembly order lines are automatically filled according to the assembly BOM with one assembly order line per component or resource. Learn more at [Assembly Management](assembly-assemble-items.md).
+An assembly BOM is the master data that defines which component items go into an assembled end item and which resources are used to assemble the assembly item. When you enter an assembly item and a quantity on an assembly order, the assembly order lines are filled in according to the assembly BOM. The order has one assembly order line per component or resource. Learn more at [Assembly Management](assembly-assemble-items.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] also supports production BOMs. Production BOMs differ from assembly BOMs by involving more complex procedures, including resource usage, production routing and work or machine centers. Learn more about the differences at [Work with Bills of Material](inventory-how-work-BOMs.md) and [Create Production BOMs](production-how-to-create-production-boms.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] also supports production BOMs. Production BOMs differ from assembly BOMs because they involve more complex procedures, such as resource usage, production routing, and work or machine centers. Learn more about the differences at [Work with Bills of Material](inventory-how-work-BOMs.md) and [Create Production BOMs](production-how-to-create-production-boms.md).
 
 ## To create an assembly BOM
 
-To define a parent item that consists of other items, and potentially of resources required to put the parent together, you must create an assembly BOM.  
-
-Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together.
+To define an item that consists of other items, and perhaps the resources that assemble the item, you must create an assembly BOM.  
 
 Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
@@ -34,7 +32,7 @@ Special requirements apply to items on assembly BOMs regarding availability. Lea
 
 There are two parts to creating an assembly BOM:
 
-- Setting up a new item
+- Setting up a new item.
 - Defining the BOM structure of the assembly item.
 
 1. Set up a new item. Learn more at [Register New Items](inventory-how-register-new-items.md).
@@ -44,11 +42,11 @@ There are two parts to creating an assembly BOM:
 3. On the **Assembly BOM** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Assembly items can have different variants set in [!INCLUDE[prod_short](includes/prod_short.md)] just like any other item, helping you keep the list of available products shorter. Learn more about the feature at [Manage Product Variants](inventory-item-variants.md).
+> Assembly items can have variants, just like any other item, which helps you keep your list of products shorter. Learn more about the feature at [Manage Product Variants](inventory-item-variants.md).
 
 ## To edit assembly BOMs
 
-You can edit the lines on an assembly BOM at any time. But be aware that the BOM may be in use on ongoing sales or assemblies of the parent, which may be affected by the change. Choose the **Where-Used** action to see in which items it is being used and then whether sales or assembly orders may be affected.
+You can edit the lines on an assembly BOM at any time. However, the BOM might be in use by ongoing sales or assemblies of the parent. Changing the BOM might affect those activities. Choose the **Where-Used** action to explore the items that use it and whether sales or assembly orders might be affected.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
 2. Choose the **Yes** value in the **Assembly BOM** column.
@@ -65,12 +63,12 @@ From the **Assembly BOM** page, you can open a separate page that shows the comp
 
 ## To replace the assembly item with its components on document lines
 
-From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
+From any sales and purchase document that contains an assembly item, you can use a special action to replace the line for the assembly item with new lines for its components. This action is useful, for example, if you want to sell the components as a kit that represents the assembly item.
 
 The **Explode BOM** action is also available on the **Assembly BOM** page as a way to view subassembly items on an assembly BOM.
 
 > [!CAUTION]  
-> When you have used the **Explode BOM** function, you cannot easily undo it. You must delete the sales order lines representing the components and then reenter a sales order line for the assembly item.
+> When you have used the **Explode BOM** action, you can't easily undo it. You must delete the sales order lines for the components and then reenter a sales order line for the assembly item.
 
 The following procedure is based on a sales invoice. The same steps apply to other sales documents and all purchase documents.
 
@@ -87,8 +85,6 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item's assembly BOM.
 
-You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Update Standard Costs](finance-how-to-update-standard-costs.md).  
-
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.  
 
 > [!NOTE]
@@ -96,20 +92,20 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
-3. On the **Item Card** page, choose the **Assembly** action, then choose the **Assembly BOM** action.
+3. On the **Item Card** page, choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
 5. Select one of the following options, then choose the **OK** button.
 
 |Option |Description |
 |-------|------------|
 |**Top Level**|Calculates the assembly item's standard cost as the total cost of all purchased or assembled items on that assembly BOM regardless of any underlying assembly BOMs.|
-|**All Levels**|Calculates the assembly's item standard cost as the sum of: 1) The calculated cost of all underlying assembly BOMs on the assembly BOM. 2) The cost of all purchased items on the assembly BOM.|
+|**All Levels**|Calculates the assembly's item standard cost as the sum of:</br></br>* The calculated cost of all underlying assembly BOMs on the assembly BOM.</br>* The cost of all purchased items on the assembly BOM.|
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 
-## See related [Microsoft training](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
+You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. Learn more at [Updating standard costs with the Standard Cost Worksheet](finance-about-calculating-standard-cost.md#updating-standard-costs-with-the-standard-cost-worksheet).
 
-## See also
+## Related information
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Manage Product Variants](inventory-item-variants.md)  

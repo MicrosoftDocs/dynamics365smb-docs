@@ -1,15 +1,16 @@
 ### YamlMime:FAQ
 metadata:
-  title: FAQ About Using Business Central
+  title: FAQ about using Business Central
   description: "Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support."
-  author: edupont04
+  author: brentholtorf
   ms.topic: faq
   ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
-  ms.date: 09/07/2022
-  ms.author: edupont
-title: Frequently Asked Questions about Using Business Central
+  ms.date: 06/10/2025
+  ms.author: bholtorf
+  ms.service: dynamics-365-business-central
+title: Frequently asked questions about using Business Central
 summary: |
-  This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  
+  This article contains answers to frequently asked questions about how to sign up for a trial, buy a subscription, and use [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  
   
 
 sections:
@@ -18,23 +19,23 @@ sections:
       - question: |
           Is Business Central available in my country/region?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. Learn more at [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of markets, but new countries/regions are added through Microsoft-led localization or through partner-led localization on a quarterly basis. Learn more at [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
           
       - question: |
           How do I get Business Central?
         answer: |
           You can sign up for a free trial to explore [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day--new-company--trial-period-).  
           
-          To help you get ready for doing business in [!INCLUDE[prod_short](includes/prod_short.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. Learn more at [Getting Ready for Doing Business](ui-get-ready-business.md).  
+          To help you get ready for doing business in [!INCLUDE[prod_short](includes/prod_short.md)], you can launch assisted setup guides, videos, or help articles for selected setup tasks. Learn more at [Getting Ready for Doing Business](ui-get-ready-business.md).  
           
           When you're ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. Learn more at [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  
           
       - question: |
           Where do I go if I have questions?
         answer: |
-          If you have questions about [!INCLUDE[prod_short](includes/prod_short.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. Learn more at [Dynamics 365 Business Central community](https://community.dynamics.com/business).  
+          If you have questions about [!INCLUDE[prod_short](includes/prod_short.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. Learn more at [Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
           
-          From the community home page, you can also find links to our blogs where you can also find tips and tricks. Learn more at [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
+          From the community home page, you can also find links to our blogs where you can also find tips and tricks. Learn more at [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://www.microsoft.com/dynamics-365/blog/product/dynamics-365-business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/blogs/?blogid=57bdb1f3-851d-4406-a81a-508fef896fc2&groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
           
           Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. Learn more at the [How do I get technical support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  
           
@@ -50,7 +51,7 @@ sections:
       - question: |
           Are there any differences between an on-premises deployment and Business Central online?
         answer: |
-          Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimized for online deployment, and some capabilities may run on premises only under certain circumstances, while others aren't supported at all. Learn more at [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
+          Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimized for online deployment, and some capabilities might run on premises only under certain circumstances, while others aren't supported at all. Learn more at [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
           
       - question: |
           Can I get training in Business Central?
@@ -63,25 +64,25 @@ sections:
           
       - question: How do I get technical support for Business Central?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they'll raise a support ticket with Microsoft.  
+          [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they raise a support ticket with Microsoft.  
           
-          Learn more at [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
+          Learn more at [Help and Support](product-help-and-support.md) and in the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
       - question: |
           Where is the save button?
         answer: |
-          there's no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you'll see the text **Saving** in the top-right corner of the page. It changes to **Saved** quickly if no errors occur. If an error occurs, the text will change to **Not Saved**.  
+          There's no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you see the text **Saving** in the top-right corner of the page. It changes to **Saved** quickly if no errors occur. If an error occurs, the text changes to **Not Saved**.  
           
       - question: |
           Where do I find that line number?
         answer: |
-          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the **Line No.** field. Learn more at [Personalize Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the **Line No.** field. Learn more at [Personalize Your Workspace](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
           
           
       - question: |
           Why does Help describe functionality that I can't access?
         answer: |
-          If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features aren't visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. Learn more at [Change Which Features are Displayed](ui-experiences.md).  
+          If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features aren't visible to you because they require the **Premium** experience. A text note is inserted in high-level help articles for these feature areas. Learn more at [Change Which Features are Displayed](ui-experiences.md).  
           
       - question: |
           Why is new information not available in my language?
@@ -94,7 +95,7 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online doesn't support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
           
-          If you try to sign up with a personal email address, you'll get a message indicating to use a work or school email address. Learn more at [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
+          If you try to sign up with a personal email address, you get a message indicating to use a work or school email address. Learn more at [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
           
           If you want to deploy [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you can use other authentication methods. Learn more at [Deployment of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
           
@@ -105,7 +106,7 @@ sections:
           
           If you sign up with a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. Learn more at [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
           
-          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Azure Active Directory tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
+          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Microsoft Entra tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
           
       - question: |
           What is the integration with Microsoft 365 about?
@@ -115,10 +116,10 @@ sections:
       - question: |
           Can I extend my 30-day "New Company" trial period?
         answer: |
-          Yes. When the expiration date for your trial period is approaching, we'll display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. Learn more at [Extend Your Trial Version](admin-extend-trial.md).
+          Yes. When the expiration date for your trial period is approaching, we display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. Learn more at [Extend Your Trial Version](admin-extend-trial.md).
           
           > [!NOTE]
-          > It may take up to two business days to complete the trial extension process.  
+          > It might take up to two business days to complete the trial extension process.  
           
           For more information about finding a partner, see [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  
           
@@ -160,11 +161,11 @@ sections:
       - question: |
           Is the Windows client supported?
         answer: |
-          The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises included an installable client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [FAQ About the Windows Client and Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
+          The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises included an installable client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client," is no longer available for [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [FAQ About the Windows Client and Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
  
 additionalContent: |
 
-  ## See Also
+  ## Related information
   
   [Getting Ready for Doing Business](ui-get-ready-business.md)  
   [Tell Me FAQ](ui-search-faq.md)  
@@ -176,8 +177,8 @@ additionalContent: |
   [Change Basic Settings](ui-change-basic-settings.md)  
   [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Getting answers to questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Resources for Help and Support](product-help-and-support.md)  
-  [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
   [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
   [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Service Terms](compliance/compliance-service-compliance.md#service-terms)  

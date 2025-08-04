@@ -1,12 +1,12 @@
 ---
 title: Set Up Vendor Bank Account
 description: Learn how to associate bank accounts to vendor cards in Business Central, including contact information, SWIFT, and IBAN codes.
-author: rubenseishima
-
-ms.service: dynamics365-business-central
-ms.topic: article
+author: brentholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
 ms.date: 07/04/2022
-ms.author: a-reishima
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Vendor Bank Accounts
 
@@ -27,9 +27,7 @@ If a vendor has one or more bank accounts and you want to set a preferred option
 2. Open the card for the vendor.
 3. On the **Payments** FastTab, choose the default vendor bank account in the **Preferred Bank Account Code** field.
 
-## See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  

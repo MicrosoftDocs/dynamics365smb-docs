@@ -3,11 +3,12 @@ title: Synchronizing Business Central and Dataverse
 description: Learn about synchronizing data between Business Central and Dataverse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.date: 03/31/2023
 ms.custom: bap-template
 ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.service: dynamics-365-business-central
 ---
 
 # Scheduling a Synchronization between Business Central and Dataverse
@@ -60,7 +61,7 @@ To synchronize data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table reco
 
 ## About inactivity timeouts
 
-Some job queue entries, such as those that schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry PAGE to prevent the job queue entry from running unnecessarily.  
+Some job queue entries, such as those that schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the **Job Queue Entry** page to prevent the job queue entry from running unnecessarily.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flowchart for when job queue entries are put on hold due to inactivity.":::
 
@@ -88,7 +89,7 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
 
 - Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronization Errors**, and then choose the related link.
 
-## See also
+## Related information
 
 [Synchronizing Data in Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)  

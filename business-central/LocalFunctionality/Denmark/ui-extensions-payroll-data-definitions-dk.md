@@ -1,21 +1,20 @@
 ---
 title: Payroll Data Definitions [DK]
-description: This topic explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
+description: This article explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: payroll data definitions, Denmark, payroll service providers
 ms.search.form: 13640
-ms.date: 06/25/2021
+ms.date: 03/04/2025
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
 
-# The Payroll Data Definitions (DK) Extension
+# Payroll Data Definitions (DK) extension
 
-If your business uses the Danløn, Dataløn, Lønservice, Multiløn, or Proløn payroll service providers in Denmark, the Payroll Data Definitions (DK) extension can help you quickly and accurately register payroll transactions from these providers. The extension contains data exchange definitions that enable you to import payroll transactions in files that the providers send to you. For more information about data exchange definitions, see [Set Up Data Exchange Definitions](../../across-how-to-set-up-data-exchange-definitions.md).  
+If your business uses the Danløn, Dataløn, Lønservice, Multiløn, or Proløn payroll service providers in Denmark, the Payroll Data Definitions (DK) extension can help you quickly and accurately register payroll transactions from these providers. The extension contains data exchange definitions that enable you to import payroll transactions in files that the providers send to you. Learn more in [Set Up Data Exchange Definitions](../../across-how-to-set-up-data-exchange-definitions.md).  
 
 ## Getting started
 
@@ -23,12 +22,12 @@ The first step is to map the types of payroll transactions to the general ledger
 
 After you install the extension, the next step is to specify the format for the payroll data file from the payroll service provider. To do that, go to the **General Ledger Setup** page and choose the provider in the **Payroll Trans. Import Format** field.
 
-## To import a payroll file
+## Import a payroll file
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
-2. Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.
+1. Choose the ![Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.
 
-## See also
+## Related information
 
 [Denmark Local Functionality](denmark-local-functionality.md)  
 

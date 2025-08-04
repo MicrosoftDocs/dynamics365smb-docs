@@ -1,25 +1,24 @@
 ---
-title: Set Up a Location Card and Define Transfer Routes (contains video)
+title: Set up a location card and define transfer routes
 description: If you buy, store, or sell items in more than one place, you can set up each place as a location. 
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
-ms.date: 03/25/2023
-ms.author: bholtorf
-
+ms.date: 06/06/2024
+ms.service: dynamics-365-business-central
 ---
-# Set Up Locations
+# Set up locations
 
 Locations are places such as warehouses where you buy, store, or sell items. [!INCLUDE [prod_short](includes/prod_short.md)] uses locations to help keep track of inventory in both simple and complex warehouse processes.
 
 You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. To learn more, go to [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=fe5ed50e-2e5d-47d4-8616-92ae4639f400]
 
 ## Location cards
 
@@ -105,9 +104,7 @@ You fill in the fields in the opposite order, as follows:
 
 The ADM dimension will be copied from location EAST.
 
-## See related training at [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  

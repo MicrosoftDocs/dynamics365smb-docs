@@ -1,18 +1,18 @@
 ---
-title: Working with Dimensions to Track and Analyze Data
+title: Work with dimensions to track and analyze data
 description: Use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 01/27/2023
+ms.date: 08/08/2024
 ms.custom: bap-template
 ms.search.keywords: analysis, history, track, business intelligence
-ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
-
+ms.search.form: 118, 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ---
-# Work with Dimensions
+
+# Work with dimensions
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
@@ -25,7 +25,7 @@ Another example is to set up a dimension called *Department*, then use that dime
 * Who sold it.
 * Which customer bought it.
 
-## Analyzing by dimensions
+## Analyze by dimensions
 
 Dimensions play an important role in business intelligence, such as when defining analysis views. Learn more at [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
@@ -37,11 +37,11 @@ Dimensions play an important role in business intelligence, such as when definin
 
 ## Dimension sets
 
-A dimension set is a unique combination of dimension values. They are stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. In addition, each dimension set, and dimension set entry within it, is identified by a common dimension set ID.  
+A dimension set is a unique combination of dimension values. They're stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. In addition, each dimension set, and dimension set entry within it, is identified by a common dimension set ID.  
 
 When you create a journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
-## Setting up dimensions
+## Set up dimensions
 
 You can define dimensions and dimension values to categorize journals and documents, such as sales orders and purchase orders. You set up dimensions on the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
 
@@ -49,7 +49,7 @@ You also set up values for dimensions. Let's say values represent your company's
 
 When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page. These dimensions are then always available for you to select as fields on journal and document lines, and ledger entries, without opening the **Dimensions** page first. Learn more in the [To set up global and shortcut dimensions](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions) section.
 
-* **Global Dimensions** are used as filters, for example, on reports, batch jobs, and XMLports. You can use only two global dimensions, so choose dimensions you will use often.
+* **Global Dimensions** are used as filters, for example, on reports, batch jobs, and XMLports. You can use only two global dimensions, so choose dimensions you'll use often.
 * **Shortcut Dimensions** are available as fields on journals, document lines, and ledger entries. You can create up to eight of these.  
 
 > [!NOTE]
@@ -81,7 +81,7 @@ You can assign a default dimension for a specific account. The dimension is copi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, then choose the related link.  
 2. On the **Dimensions** page, select the relevant dimension, then choose the **Account Type Default Dim** action.  
-3. Fill a line in for each new default dimension you want to set up. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in a line for each new default dimension you want to set up. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
 > If you want to require a dimension but don't want to assign a default value to the dimension, leave the **Dimension Value Code** field blank, then select **Code Mandatory** in the **Value Posting** field.  
@@ -106,7 +106,7 @@ Different account types, such as a customer account and an item account, can hav
 
 ### To set up dimension combinations
 
-To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means you cannot post both dimensions on the same entry regardless of what the dimension values are. In contrast, a limited dimension combination means you can post both dimensions to the same entry, but only for certain combinations of dimension values.
+To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means you can't post both dimensions on the same entry regardless of what the dimension values are. In contrast, a limited dimension combination means you can post both dimensions to the same entry, but only for certain combinations of dimension values.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimension Combinations**, and then choose the related link.  
 2. On the **Dimension Combinations** page, choose the dimension combination field you want from the following options.  
@@ -115,7 +115,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
     |----------------------------------|---------------------------------------|  
     |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
     |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations on the **Dimension Value Combination** page.|  
-    |**Blocked**|This dimension combination is not allowed.|  
+    |**Blocked**|This dimension combination isn't allowed.|  
 
 3. If you selected the **Limited** option, you must define which combinations of dimension values are blocked. To do this, choose the field to define the dimension value combination.  
 4. Now select a dimension value combination that is blocked and enter **Blocked** in the field. A blank field means the dimension value combination is allowed. Repeat if multiple combinations are blocked.  
@@ -152,8 +152,8 @@ When you change a global or shortcut dimension, all entries posted with that dim
 
     |Option|Description|
     |-|-|
-    |**Sequential**|(Default) The change is done in one transaction that reverts all entries to the dimensions they had before the change.<br /><br />This option is recommended if the company has relatively few posted entries, in which case the batch job takes the shortest time to complete. The process locks multiple tables and blocks other users until it is done. Be aware that with large databases, the process might not complete in this mode. In that case, use the **Parallel** option.|
-    |**Parallel**|The dimension change happens in multiple background sessions and the operation is split into multiple transactions. To use this option, turn on the **Parallel Processing** toggle. <br /><br />We recommended this option for large databases or companies with a lot of posted entries because it will complete in the shortest time. Note that in this mode, the update process won't start if there is more than one active database session.|  
+    |**Sequential**|(Default) The change is done in one transaction that reverts all entries to the dimensions they had before the change.<br /><br />This option is recommended if the company has relatively few posted entries, in which case the batch job takes the shortest time to complete. The process locks multiple tables and blocks other users until it's done. Note that with large databases, the process might not complete in this mode. In that case, use the **Parallel** option.|
+    |**Parallel**|The dimension change happens in multiple background sessions and the operation is split into multiple transactions. To use this option, turn on the **Parallel Processing** toggle. <br /><br />We recommended this option for large databases or companies with numerous posted entries because it will complete in the shortest time. Note that in this mode, the update process won't start if there's more than one active database session.|  
 
 4. In the **Global Dimension 1 Code** and/or **Global Dimension 2 Code** fields, enter the new dimension(s). The current dimensions are displayed in gray behind the fields.
 5. Depending on the mode, do one of the following:
@@ -239,13 +239,11 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 > [!NOTE]  
 > The **Ledger Entry Dimensions** page displays the dimensions one ledger entry at a time. You'll see as you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
-## See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/index)
+## Related information
 
-## See also
-
-[Business Intelligence](bi.md)  
-[Finance](finance.md)  
-[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Business Intelligence](bi.md)    
+[Finance](finance.md)    
+[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,15 @@
 ---
-    title: Service Posting
-    description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
-    author: SorenGP
+title: Service Posting
+description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Service Posting
 Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.  
@@ -38,7 +36,7 @@ With the ship and consume option, you can register and post items, costs, or hou
 > [!NOTE]  
 >  The service posting procedure enables you to perform partial posting. You can create a partial shipment or a partial invoice by filling in the **Qty. to Ship** and **Qty. to Invoice** fields on the individual service lines of the service orders before you post. Note that you cannot create an invoice for something that is not shipped. That is, before you can invoice, you must have registered a shipment, or you must choose to ship and invoice at the same time.  
 
-After the posting has been completed, you will be able to view the posted service documents from the corresponding **Posted Service Shipment** and **Posted Service Invoice** pages. The posted entries created can be seen in various pages that contain posted entries, such as **G/L Entries**, **Item Ledger Entries**, **Warehouse Entries**, **Service Ledger Entries**, **Job Ledger Entries**, and **Warranty Ledger Entries**.  
+After the posting has been completed, you will be able to view the posted service documents from the corresponding **Posted Service Shipment** and **Posted Service Invoice** pages. The posted entries created can be seen in various pages that contain posted entries, such as **G/L Entries**, **Item Ledger Entries**, **Warehouse Entries**, **Service Ledger Entries**, **Project Ledger Entries**, and **Warranty Ledger Entries**.  
 
 ## To view information about a posted service document  
 When you post a service invoice, a service shipment, or a service credit memo, the information on the document is transferred to the **Posted Service Invoice**, **Posted Service Shipment**, or **Posted Service Credit Memo** pages respectively. You cannot enter, change, or delete anything in these pages. You can print a shipment, invoice, or credit memo from these pages.  
@@ -51,7 +49,7 @@ The following procedure uses a posted service invoice as an example, but the sam
 
     The **Service Order Statistics** page opens. The page displays information such as quantity, amount, VAT, cost, profit, and customer credit limit for the posted document.
 
-## See Also  
+## Related information  
 [Post Service Orders](service-how-to-post-service-orders.md)   
 [Create Service Orders](service-how-to-create-service-orders.md)
 

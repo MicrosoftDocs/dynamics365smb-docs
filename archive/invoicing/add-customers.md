@@ -1,16 +1,14 @@
 ---
 title: Managing customers (contains video) | Invoicing
 description: Add customers so that you can manage information about them and send estimates and invoices more quickly. 
-author: bholtorf
-
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: bholtorf
-
 ---
 
 # Managing information about customers

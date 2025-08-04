@@ -1,18 +1,18 @@
 ---
-    title: Setting up GST for Bank Charges
-    description: Setting up GST for Bank Charges
+title: Setting up GST for Bank Charges
+description: Setting up GST for Bank Charges
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up GST for Bank Charges 
 
@@ -84,7 +84,7 @@ This setup is required to estimate the Deemed Value for calculation of GST on fo
 
 
 
-## See Also 
+## Related information 
 [GST Bank Charges Transaction](GST-Bank-Charges-Transaction.md)
 
 

@@ -1,16 +1,14 @@
 ---
 title: Get yourself unblocked | Invoicing
 description: Learn how you can get yourself unblocked or figure out how to do something.
-author: edupont04
-
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/25/2019
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 > [!Note]
@@ -45,10 +43,11 @@ If you've sent an invoice to a customer, you can cancel the invoice, but you can
 ## Can I get training in [!INCLUDE[d365inv](includes/d365inv.md)]?
 Not yet.  
 
-## Who has access to [!INCLUDE[d365inv](includes/d365inv.md)]?
-To get access to [!INCLUDE[d365inv](includes/d365inv.md)] you must sign up for an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). The person who signs up becomes what's called a *global administrator* for the subscription and can access all apps and manage settings and business information. This includes managing other people's access to the apps. Invoicing is part of the Microsoft 365 Business license. 
+## Who has access to [!INCLUDE[d365inv](includes/d365inv.md)]
 
-However, small businesses often deal with sensitive customer information like credit card numbers, social security numbers, or health records. In the tech world, this is called personally identifiable information, or PII for short. It’s the job of the business owner to protect this information. One way to help protect PII is to control which of your employees has access. The business owner and the global administrator, if they aren't the same person, can work together to control access to information by selecting or deselecting apps. For example, if you choose not to give access to [!INCLUDE[d365inv](includes/d365inv.md)] to one or more employees, you can deselect the license for them and they won't be able to access the app.   
+To get access to [!INCLUDE[d365inv](includes/d365inv.md)] you must sign up for an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). The person who signs up becomes what's called an administrator for the subscription and can access all apps and manage settings and business information. This includes managing other people's access to the apps. Invoicing is part of the Microsoft 365 Business license. 
+
+However, small businesses often deal with sensitive customer information like credit card numbers, social security numbers, or health records. In the tech world, this is called personally identifiable information, or PII for short. It’s the job of the business owner to protect this information. One way to help protect PII is to control which of your employees has access. The business owner and administrator, if they aren't the same person, can work together to control access to information by selecting or deselecting apps. For example, if you choose not to give access to [!INCLUDE[d365inv](includes/d365inv.md)] to one or more employees, you can deselect the license for them and they won't be able to access the app.   
 
 To turn licenses on or off for users, from your Microsoft Office Home page, choose the **Admin** tile to open the Microsoft 365 Admin Center. Then choose **Active users**, choose one or more users, and then choose **Edit** next to **Product licenses**. Now select or deselect the licenses for the products for the user.  
 

@@ -1,18 +1,15 @@
 ---
-    title: Set Up Multiple Interest Rates for Delayed Payment
-    description: This topic tells you how to calculate finance charges with multiple interest rates for a specific period. 
+title: Set Up Multiple Interest Rates for Delayed Payment
+description: This topic tells you how to calculate finance charges with multiple interest rates for a specific period. 
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.form: 6, 431, 432, 572
+ms.date: 06/16/2021
+ms.author: bholtorf
 
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 6, 431, 432, 572
-    ms.date: 06/16/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Multiple Interest Rates for Delayed Payment
 
@@ -34,7 +31,7 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 When you issue a finance charge memo, the memo shows the finance charges with multiple interest rates for a specific time period. The memo also contains the contact details of the customer, the company issuing the memo, the additional amount, and the total amount. The opening entry on the memo is displayed in bold. The finance charges are calculated with multiple interest rates for a specific time period and are printed after the opening entry of the memo.  
 
-## See Also
+## Related information
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Setting Up Finance](finance-setup-finance.md)

@@ -2,11 +2,12 @@
 title: Use Your Data to Create an App| Microsoft Docs
 description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build a business app using Power Apps.
 author: jswymer
-ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.service: dynamics-365-business-central
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 05/15/2023
 ms.author: jswymer
+ms.reviewer: jswymer
 ---
 # Connecting to Your Business Central Data to Build a Business App Using Power Apps
 
@@ -58,9 +59,7 @@ As a preview version, Business Central offers several sample apps that you can u
 
 As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
-## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
-
-## See also
+## Related information
 
 [Create a canvas app from a template in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

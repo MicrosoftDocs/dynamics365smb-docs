@@ -1,11 +1,11 @@
-﻿---
+---
 title: Combine Automatic and Manual Flushing
 description: Walkthrough for a production planner at Contoso Coffee, who wants to combine automatic and manual flushing.
 ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+ms.topic: how-to
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Combine Automatic and Manual Flushing
@@ -21,7 +21,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 > [Note!]
 > Remember to adjust inventory by posting Item Journal with opening balances.
 
-1. Create a firm planned production order for five units of the item **SP-SCM1004, AutoDrip** on *NORTH* location. For guidance, see [Walkthrough: Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md).  
+1. Create a firm planned production order for five units of the item **SP-SCM1004, AutoDrip** on *MAIN* location. For guidance, see [Walkthrough: Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md).  
 
 2. Release the production order.
 
@@ -104,7 +104,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 That's it for manual and automatic flushing of components.
 
-## See also
+## Related information
 
 [Flush Components According to Operation Output](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

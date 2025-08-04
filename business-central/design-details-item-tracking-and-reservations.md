@@ -1,17 +1,15 @@
 ---
-    title: Design Details - Item Tracking and Reservations
-    description: This topic talks about item tracking and reservations, and describes the concepts behind the two options.
-    author: SorenGP
+title: Design Details - Item Tracking and Reservations
+description: This topic talks about item tracking and reservations, and describes the concepts behind the two options.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking and Reservations
 
@@ -86,7 +84,7 @@ This business scenario is supported with Late Binding functionality that enables
   
 **Item XX cannot be fully applied.**  
   
-## See Also  
+## Related information  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,16 @@
 ---
-title: Troubleshoot Your Automated Workflows
+title: Troubleshoot your automated workflows
 description: Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 author: jswymer
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: troubleshooting-general
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 12/13/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows
+# Troubleshoot your [!INCLUDE[prod_short](includes/prod_short.md)] automated workflows
 
 When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate to create automated workflows, you might run into error messages. This article provides suggested solutions to recurring problems.
 
@@ -19,14 +18,28 @@ When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Auto
 
 ### Problem
 
-If an event creates or changes a lot of records, the flow doesn't run on some or all records.
+If an event creates or changes many records, the flow doesn't run on some or all records.
 
 ### Possible cause
 
-Currently, there's a limit on how many records a flow can process. If more than 100 records are created or changed within 30 seconds, the flow won't be triggered.
+Currently, there's a limit on how many records a flow can process. If more than 1000 records are created or changed within 30 seconds, the flow isn't triggered.
 
 > [!NOTE]
 > For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. Learn more at [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.
+
+## "The response from the Business Central service is too large" error
+
+### Problem
+
+When using an action that interacts with records (such as *Create record (V3)* and *Get record (V3)*), Power Automate might display an error similar to this one:
+
+`The response from the Business Central service is too large`
+
+### Possible cause
+
+Even though Business Central has no set limit on the size of records returned by APIs, the Dynamics 365 Business Central connector for Power Automate can handle only records up to 8 MB.
+
+All the Business Central APIs provided by Microsoft return records under this limit, but APIs provided by partners might not. If you see an error "The response from the Business Central service is too large," reach out to the partner who created the API you're using.
 
 ## "Entity set not found" error
 
@@ -40,7 +53,7 @@ The placeholder, `\<name\>`, is the service name of the missing web service, suc
 
 ### Possible cause
 
-Using Power Automate for approvals requires certain page and codeunit objects to be published as web services. By default, most of the required objects are published as web services. But in some cases, your environment may have been customized so these objects are no longer published.
+Using Power Automate for approvals requires certain page and codeunit objects to be published as web services. By default, most of the required objects are published as web services. But in some cases, your environment might have been customized so these objects are no longer published.
 
 ### Fix
 
@@ -65,9 +78,7 @@ Go to the **Web Services** page and make sure the following objects are publishe
 
 Learn more about publishing web services at [Publish a Web Service](across-how-publish-web-service.md).
 
-## See related training at [Microsoft Learn](/learn/modules/use-power-automate/).
-
-## See also
+## Related information
 
 [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Workflow](across-workflow.md)  

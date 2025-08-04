@@ -1,21 +1,20 @@
 ---
-title: Set Up Withholding Tax [NZ]
-description: Describes how to set things up for Withholding tax (WHT) in the New Zealand version.
+title: Set up withholding tax [NZ]
+description: Learn how to set up product posting groups and business posting groups for Withholding tax (WHT) in the New Zealand version of Business Central.
 author: brentholtorf
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
- ms.search.form: 28041, 28042, 28043, 118
-ms.date: 06/25/2021
-ms.author: edupont
-
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: withholding tax, withholding tax setup, product posting groups, business posting groups, New Zealand version
+ms.search.form: 28041, 28042, 28043, 118
+ms.date: 05/07/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: v-soumramani
 ---
-# Set Up Withholding Tax in the New Zealand Version
 
-Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to tax authorities when the next Business Activity Statement (BAS) is submitted.  
+# Set up withholding tax in the New Zealand version
+
+Withholding tax (WHT) is the tax withheld by a company when making a payment to a vendor, and it reduces the full amount owed to the vendor. The withheld tax is then remitted to tax authorities when the next Business Activity Statement (BAS) is submitted.  
 
 If a supplier without a New Zealand Inland Revenue Department number (IRD) provides an invoice, a withholding tax amount must be withheld if the total amount of the invoice is more than the threshold amount.  
 
@@ -28,12 +27,11 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 [!INCLUDE [wht-posting-group-setup](../includes/AUNZ/wht-posting-group-setup.md)]
 
-## See Also
+## Related information
 
-[Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
-[View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
-[Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
-[Withholding Tax](withholding-tax.md)   
-
+- [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)
+- [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
+- [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)
+- [Withholding Tax](withholding-tax.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

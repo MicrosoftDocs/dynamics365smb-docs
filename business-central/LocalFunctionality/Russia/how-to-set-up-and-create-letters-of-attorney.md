@@ -1,17 +1,16 @@
 ---
-title: Setting up and creating letters of attorney in Russia
+title: Set up and creating letters of attorney in Russia
 description: Russian enhancements include creating and printing letters of attorney.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/08/2023
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
-# Set Up and Create Letters of Attorney
+# Set up and create letters of attorney
 
 The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
 
@@ -39,7 +38,7 @@ The following procedure shows how to create a Letter of Attorney.
    | **Employee No.**           | Enter the employee number.                                   |
    | **Employee Full Name**     | Specifies the name of the employee. The field is filled in automatically from the **Employee Card**. |
    | **Employee Job Title**     | Specifies the job title of the employee. The field is filled in automatically from the **Employee Card**. |
-   | **Source Document Type**   | Enter the type of source document. You can create a Letter of Attorney (header and lines) on the basis of an existing purchase document that is not yet posted. |
+   | **Source Document Type**   | Enter the type of source document. You can create a Letter of Attorney (header and lines) based on an existing purchase document that isn't yet posted. |
    | **Source Document No.**    | Enter the source document number.                            |
    | **Buy-from Vendor No.**    | Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor. |
    | **Buy-from Vendor Name**   | Specifies the name of the vendor. The field is filled in automatically from the **Vendor Card**. |
@@ -52,7 +51,7 @@ The following procedure shows how to create a Letter of Attorney.
 
 3. Choose the **OK** button.
 
-## See Also
+## Related information
 
 [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  
 

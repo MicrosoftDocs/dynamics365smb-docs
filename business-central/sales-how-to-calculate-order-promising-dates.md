@@ -1,19 +1,16 @@
 ---
-    title: Calculate Order Promising Dates
-    description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
-    author: edupont04
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/29/2021
-    ms.author: edupont
-
+title: Calculate order promising dates
+description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 03/05/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Calculate Order Promising Dates
+# Calculate order promising dates
 
 A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** page enables you to do this from a sales order.  
 
@@ -24,14 +21,14 @@ If you specify a requested delivery date on a sales order line, then that date i
 - requested delivery date - shipping time = planned shipment date  
 - planned shipment date - outbound whse. handling time = shipment date  
 
-If the items are available to pick on the shipment date, then the sales process can continue. If the items are not available to be picked on the shipment date, then a stock-out warning is displayed.  
+If the items are available to pick on the shipment date, then the sales process can continue. If the items aren't available to be picked on the shipment date, then a stock-out warning is displayed.  
 
-If you do not specify a requested delivery date on a sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the **Shipment Date** field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following calculations:  
+If you don't specify a requested delivery date on a sales order line, or if the requested delivery date can't be met, then the earliest date on which that the items are available is calculated. That date is then entered in the **Shipment Date** field on the line, and the date on which you plan to ship the items and the date on which they'll be delivered to the customer are calculated using the following calculations:  
 
 - shipment date + outbound whse. handling time = planned shipment date  
 - planned shipment date + shipping time = planned delivery date  
 
-## About Order Promising
+## About order promising
 
 The Order Promising functionality enables you to promise an order to be shipped or delivered on a specific date. The date that an item is available to promise or capable to promise is calculated, and order lines are created for those dates that you accept. The functionality calculates the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines, in case the items must first be purchased or produced, for those dates that you accept.
 
@@ -40,26 +37,26 @@ The Order Promising functionality enables you to promise an order to be shipped 
 - Available to Promise (ATP)  
 - Capable to Promise (CTP)  
 
-### Available to Promise
+### Available to promise
 
-Available to promise (ATP) calculates dates based on the reservation system. It performs an availability check of the unreserved quantities in inventory with regard to planned production, purchases, transfers, and sales returns. Based on this information, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the delivery date of the customer’s order because the items are available, either in inventory or on planned receipts.  
+Available to promise (ATP) calculates dates based on the reservation system. It performs an availability check of the unreserved quantities in inventory about planned production, purchases, transfers, and sales returns. Based on this information, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the delivery date of the customer’s order because the items are available, either in inventory or on planned receipts.  
 
-### Capable to Promise
+### Capable to promise
 
-Capable to promise (CTP) assumes a “what if” scenario, which only applies to item quantities that are not in inventory or on scheduled orders. Based on this scenario, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.
+Capable to promise (CTP) assumes a “what if” scenario, which only applies to item quantities that aren't in inventory or on scheduled orders. Based on this scenario, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the earliest date that the item can be available if it's to be produced, purchased, or transferred.
 
 #### Example
 
-If there is an order for 10 pieces, and 6 pieces are available in inventory or on scheduled orders, then the capable to promise calculation will be based on 4 pieces.
+If there's an order for 10 pieces, and 6 pieces are available in inventory or on scheduled orders, then the capable to promise calculation will be based on 4 pieces.
 
 ### Calculations
 
 When [!INCLUDE[prod_short](includes/prod_short.md)] calculates the customer’s delivery date, it performs two tasks:  
 
-- Calculates the earliest delivery date when the customer has not requested a specific delivery date.  
+- Calculates the earliest delivery date when the customer hasn't requested a specific delivery date.  
 - Verifies if the delivery date requested by the customer or promised to the customer is realistic.  
 
-If the customer does not request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date. If the item is in inventory, [!INCLUDE[prod_short](includes/prod_short.md)] calculates forward in time to determine when the order can be delivered. This is accomplished by the following formulas:  
+If the customer doesn't request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date. If the item is in inventory, [!INCLUDE[prod_short](includes/prod_short.md)] calculates forward in time to determine when the order can be delivered. This is accomplished by the following formulas:  
 
 - Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date  
 - Planned Shipment Date + Shipping Time = Planned Delivery Date  
@@ -95,7 +92,7 @@ In addition to the external order promising that you can perform on the **Order 
 4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list on the **Req. Worksheet Template List** page.  
 5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** page.
 
-### Inbound and Outbound Warehouse Handling Times in Order Promising
+### Inbound and outbound warehouse handling times in order promising
 
 If you want to include warehouse handling time in the order promising calculation on the purchase line, on the **Inventory Setup** page you can specify a default handling time to use on sales and purchase documents. You can also enter specific times for each of your locations on the **Location Card** page. 
 
@@ -115,7 +112,7 @@ If you want to include warehouse handling time in the order promising calculatio
 
 ## To make an item critical
 
-Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items do not cause irrelevant order promising calculations.   
+Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items don't cause irrelevant order promising calculations.   
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Open the relevant item card.  
 3.  On the **Planning** FastTab, select the **Critical** field.  
@@ -131,9 +128,7 @@ Before an item can be included in the order promising calculation, it must be ma
     - Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
 
-## See related [Microsoft training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  

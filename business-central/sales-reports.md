@@ -1,35 +1,36 @@
 ---
-title: Sales Reports and Analytics
+title: Sales report overview
 description: See which sales reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
-author: AndreiPanko
-
-
-ms.topic: conceptual
+author: brentholtorf
+ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
-ms.date: 06/01/2021
-ms.author: andreipa
-
+ms.search.form: Report_107, Report_108, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
+ms.date: 05/19/2025
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Sales Reports and Analytics in Business Central
 
-Sales reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows sales and business professionals to get insights and statistics about current and past sales activities.  
+# Sales reports in Business Central
 
-## Reports
+[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports to help sales organizations report on their data.
+
+## Explore sales reports with Report Explorer
+
+[!INCLUDE [sales_reports_report_explorer](includes/sales-reports-report-explorer-include.md)]
+
+## Sales report overview
+
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Tasks
+## Related information
 
-The following articles describe some of the key tasks for analyzing the state of your business:
-
-* [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
-* [View the Availability of Items](inventory-how-availability-overview.md)
-
-
-## See also
-
+[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  
+[Power BI sales app](sales-powerbi-app.md)  
+[Sales analytics overview](sales-analytics-overview.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Sales](sales-manage-sales.md)  
+[Sales overview](sales-manage-sales.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

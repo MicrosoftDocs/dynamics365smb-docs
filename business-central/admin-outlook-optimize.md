@@ -1,17 +1,16 @@
 ---
-title: Optimizing Outlook for Your Business Inbox
+title: Optimize Outlook for your Business Inbox
 description: Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.
 author: jswymer
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
-ms.date: 05/12/2021
+ms.date: 12/06/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# Optimizing Outlook for Your Business Inbox 
+# Optimize Outlook for your Business Inbox 
 
 This article discusses things you can do to get the best possible experience with the Business Inbox in Microsoft Outlook. 
 
@@ -45,13 +44,13 @@ To check if you have Microsoft Edge WebView2 installed on a computer, do the fol
 From Start menu:
 
 1. Choose **Start** ![Windows Start.](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
-2. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you'll see an entry called **Microsoft Edge WebView2 Runtime**.
+2. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you see an entry called **Microsoft Edge WebView2 Runtime**.
 
 From Control Panel:
 
 1. In the search box next to **Start** ![Windows Start](media/windows-start-icon.png "Windows Start icon"), type **Control Panel**, and then select the result.
 2. Choose **Programs** > **Programs and Features**.
-3. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you'll see an entry called **Microsoft Edge WebView2 Runtime**.
+3. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you see an entry called **Microsoft Edge WebView2 Runtime**.
 
 ### How to install Microsoft Edge WebView2 
 
@@ -67,7 +66,7 @@ From Control Panel:
 
 Consider using Outlook for the Web in one of the browsers supported by Business Central. For a list of supported browsers, see [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
 
-## See Also
+## Related information
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

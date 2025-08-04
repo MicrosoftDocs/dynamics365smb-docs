@@ -1,18 +1,18 @@
 ---
-    title: Adding Information to Records to Yourself | Microsoft Docs
-    description: Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.
-    author: jswymer
+title: Adding Information to Records to Yourself | Microsoft Docs
+description: Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.
+author: jswymer
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
     ROBOTS: NOINDEX,NOFOLLOW
-    ms.date: 04/01/2021
-    ms.author: jswymer
+ms.date: 04/01/2021
+ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Add and View Notes on Records
  You <!--OnPrem and your colleagues -->can add notes to records in the application. Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
@@ -43,7 +43,7 @@
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## See Also
+## Related information
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

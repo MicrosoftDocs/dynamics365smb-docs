@@ -1,12 +1,11 @@
 ---
-
 title: Move Items
 description: Learn about moving items between bins in your warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.service: dynamics365-business-central
-ms.topic: Conceptual
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: concept-article
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
@@ -37,9 +36,7 @@ Counting, adjusting, and reclassifying items can involve warehouse tasks that mu
 |Use the warehouse movement worksheet, internal pick and put-away to move items in advanced warehouse configurations with directed pick and put away.|[Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
-## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
-
-## See also
+## Related information
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  

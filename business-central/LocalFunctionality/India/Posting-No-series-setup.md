@@ -1,18 +1,18 @@
 ---
-    title: Setting up Posting No. Series
-    description: Specifies Posting No. series required
+title: Setting up Posting No. Series
+description: Specifies Posting No. series required
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 09/20/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 09/20/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting up Posting No. Series
 
@@ -62,8 +62,8 @@ Following comprehensive functionalities are covered under Posting No. Series:
 
 ## Setting up Posting No. Series
 You need to create a set up for posting of documents. The following procedure shows how to set up posting number series.
-1. Choose the   icon, enter Posting No. Series, and then choose the related link.
-2. Click on New
+1. Choose the :::image type="content" source="../../media/ui-search/search_small.png" alt-text="Icon that opens the TellMe search."::: icon, enter **Posting No. Series**, and then choose the related link.
+2. Click on **New**.
 3. Fill in the fields as described in the following table.
 
     |Field|Description|  

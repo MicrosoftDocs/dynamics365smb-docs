@@ -1,18 +1,18 @@
 ---
-    title: GST Input Service Distribution Overview
-    description: GST Input Service Distribution Overview
+title: GST Input Service Distribution Overview
+description: GST Input Service Distribution Overview
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST Input Service Distribution Overview
 
@@ -92,7 +92,7 @@ This setup is required to define the GST components for distribution functionali
     |**Interstate Distribution**|Specify whether this is applicable for interstate distribution or not.|
 
 
-## See Also
+## Related information
 [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
 
 

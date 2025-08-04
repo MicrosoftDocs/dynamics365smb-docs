@@ -1,24 +1,23 @@
 ---
-title: Setting Up and Using a Purchase Approval Workflow
+title: Set up and use a purchase approval workflow
 description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 09/13/2022
-ms.author: edupont
-
+ms.date: 06/10/2025
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Walkthrough: Setting Up and Using a Purchase Approval Workflow
+# Walkthrough: Set up and use a purchase approval workflow
 
 You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question.
 
-Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers' amount limits to define which sales and purchase records they're qualified to approve. Approval requests and other notifications can be sent as an email or internal note. For each approval user setup, you can also set up when they receive notifications.
+Before you create approval workflows, you must set up an approver and substitute approver for each approval user. To define which sales and purchase records they're qualified to approve, you can also set amount limits for approvers. Approval requests and other notifications can be sent as emails or internal notes. For each approval user setup, you can also set up when they receive notifications.
 
 > [!NOTE]
-> In addition to the Workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)], you can use Power Automate to define workflows for events in [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any flow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
+> In addition to the workflow functionality in [!INCLUDE[prod_short](includes/prod_short.md)], you can use Power Automate to define workflows for events in [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they're two separate workflow systems, any flow template that you create with Power Automate is added to the list of workflow templates in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. Learn more at [Workflow](across-workflow.md).  
 
@@ -36,13 +35,13 @@ This walkthrough is a scenario illustrating the following tasks:
 
 Sean is a super user at CRONUS and creates two approval users. One is Alicia who represents a purchasing agent. The other is Sean themself, representing Alicia's approver. Sean then gives themself unlimited purchase approval rights and specifies that they'll receive notifications by internal note as soon as a relevant event occurs. Finally, Sean creates the required approval workflow as a copy of the existing *Purchase Order Approval Workflow* template, leaves all existing event conditions and response options unchanged, and then enables the workflow.  
 
-To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia and then requests approval of a purchase order. Sean then signs in as themself, sees the note in the Role Center, follows the link to the approval request for the purchase order, and approves the request.  
+To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia and then requests approval of a purchase order. Sean then signs in as themself, finds the note in the Role Center, follows the link to the approval request for the purchase order, and approves the request.  
 
 ## Users
 
 Before you can set up approval users and their notification method, you must make sure that those users exist in [!INCLUDE[prod_short](includes/prod_short.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. Learn more at [Create Users According to Licenses](ui-how-users-permissions.md).
 
-### Setting up approval users
+### Set up approval users
 
 When signed in as yourself, set up Alicia as an approval user whose approver is yourself. Set up your approval rights and specify how and when you're notified of approval requests.  
 
@@ -52,7 +51,7 @@ When signed in as yourself, set up Alicia as an approval user whose approver is 
 2. On the **Approval User Setup** page, choose the **New** action.  
 
     > [!NOTE]  
-    >  You must set up an approver before you can set up users who require that approver's approval. That means you must set yourself up before you can set Alicia up.  
+    > You must set up an approver before you can set up users who require that approver's approval. That means you must set yourself up before you can set Alicia up.  
 
 3. Set up the two approval users by filling the fields as described in the following table.  
 
@@ -61,11 +60,11 @@ When signed in as yourself, set up Alicia as an approval user whose approver is 
     |YOU||Selected|
     |ALICIA|YOU||
 
-### Setting up notifications
+### Set up notifications
 
 In this walkthrough, the user is notified by an internal note about requests to approve. Approval notifications can also be sent by email, and you can add a workflow response step that notifies the sender when a request is approved or rejected. Learn more at [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### To set up how and when you are notified
+#### To set up how and when you're notified
 
 1. On the **Approval User Setup** page, select the line for yourself, and then choose the **Notification Setup** action.  
 2. On the **Notification Setup** page, in the **Notification Type** field, choose **Approval**.  
@@ -73,7 +72,7 @@ In this walkthrough, the user is notified by an internal note about requests to 
 4. On the **Notification Setup** page, choose the **Notification Schedule** action.  
 5. On the **Notification Schedule** page, in the **Recurrence** field, select **Instantly**.  
 
-## Creating the approval workflow
+## Create the approval workflow
 
 Create the purchase order approval workflow by copying the steps from the **Purchase Order Approval Workflow** template. Leave the existing workflow steps unchanged, and then enable the workflow.  
 
@@ -118,9 +117,7 @@ You define variations of workflows by filling in fields on workflow lines using 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## See related [Microsoft training](/training/modules/use-approval-workflows/)
-
-## See also
+## Related information
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

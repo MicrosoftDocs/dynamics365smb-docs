@@ -2,14 +2,13 @@
 title: Searching for Contacts from Microsoft Teams 
 description: Learn how to look up Business Central customers, vendors, and other contacts from Microsoft Teams.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
-ms.date: 04/12/2021
+ms.date: 08/14/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Searching for Customers, Vendors, and Other Contacts from Microsoft Teams
@@ -25,60 +24,52 @@ ms.author: jswymer
 ## Prerequisites
 
 - You have access to Microsoft Teams.
-- You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+- You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. Learn more in [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
 - You've got a [!INCLUDE [prod_short](includes/prod_short.md)] account with access to contacts in at least one company.
 
 > [!NOTE]
-> Whether you searching from the command box or message compose box, you may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
+> Whether you searching from the command box or message compose box, you may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. Learn more about setting up the app to choose your company in [Changing Company and Other Settings in Teams](across-teams-settings.md).
 
 ## Look up contacts from the command box
 
 The command box is at the top of every screen in Teams. It lets you search, take quick actions, or launch apps, like the [!INCLUDE [prod_short](includes/prod_short.md)] app. Searching from the command box is great for quickly looking up contacts and their related data for your own use. For example, suppose you want to look up an email address of a vendor to set up a calendar meeting. Or maybe you want to look up interaction history during a meeting with a customer.
 
-1. In the command box, type **@Business Central**, then select the Business Central app from the results.
+1. In the command box, type **/Business Central**, then select the Business Central app from the results.
 
-    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1.png)
+    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1b.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.
 
-    ![Search Business Central contacts from command box in Teams.](media/teams-contacts-command-2.png)
+    ![Search Business Central contacts from command box in Teams.](media/teams-contacts-command-3.png)
 3. Select a contact from the results.
 
     The contact card appears beneath the command box.
 
 4. If you want to add the contact card into a conversation, go to the upper right corner of the card, select **... (More options)** > **Copy**. Then, paste the copy in the message compose box of a conversation.  
 
-For more general information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+Learn more about the Teams command box at [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
 ## Look up contacts from the message compose box
 
 The advantage of using the message compose box is that you can add a contact card directly to a conversation, for others to see.
 
-1. Beneath to message compose box, select the **Business Central** icon to launch the app.
+1. Next to the message compose box, select **+** and then select **Business Central** from the list to launch the app.
 
-    If you don't see the **Business Central** icon, select **... (Messaging extensions)**.
-
-    ![Open Business Central app to search for contacts from message box.](media/teams-contacts-message-box.png)
+    ![Open Business Central app to search for contacts from message box.](media/teams-contacts-message-box-2.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.
 
-    ![Search for Business Central contacts from message box.](media/teams-contacts-5.png)
+    ![Search for Business Central contacts from message box.](media/teams-contacts-6.png)
 3. Select a contact from the results.
 
     The contact card appears in the message compose box.
 
-    > [!NOTE]
-    > The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
-
-### Here's another way
-
-1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
-2. Enter your search terms in the box.
-3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.
+> [!NOTE]
+> The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
 ## Viewing contact card details
 
@@ -86,12 +77,12 @@ The contact card in Teams gives you a quick overview of the customer, vendor, or
 
 The **Details** button opens a window within Teams that displays more information about the contact, but not as much as you'd see in [!INCLUDE [prod_short](includes/prod_short.md)]. To see all the information about a contact in [!INCLUDE [prod_short](includes/prod_short.md)], select **Pop-out**.
 
-The contact card works just like cards for records, like items, customers, or sales orders. For more information about cards, see [View card details](across-working-with-teams.md#view-card-details).
+The contact card works just like cards for records, like items, customers, or sales orders. Learn more in [View card details](across-working-with-teams.md#view-card-details).
 
 > [!NOTE]
-> All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
+> All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
 
-## See Also
+## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

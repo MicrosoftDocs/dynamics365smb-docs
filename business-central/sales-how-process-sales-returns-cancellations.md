@@ -1,22 +1,20 @@
 ---
-title: Process Sales Returns or Cancellations
+title: Process sales returns or cancellations
 description: Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have received payment for.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
-ms.date: 09/27/2021
-ms.author: edupont
+ms.date: 02/26/2024
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Process Sales Returns or Cancellations
+# Process sales returns or cancellations
 
-If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can do the following:  
+If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can do the following tasks:  
 
 - Create the sales credit memo directly from the posted sales invoice.
 - Create a new sales credit memo with copied invoice information.
@@ -26,7 +24,7 @@ If you need more control of the sales return process, such as warehouse document
 > [!NOTE]  
 > If a posted sales invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted sales invoice to reverse transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md).
 
-A return or reimbursement may relate to only some of the items or services on the original sales invoice. In that case, you must edit information on the lines on the sales credit memo or sales return order. When you post the sales credit memo or sales return order, the sales documents that are affected by the change are reversed and a refund payment can be created for the customer. For more information, see [Making Payments](payables-make-payments.md).  
+A return or reimbursement might relate to only some of the items or services on the original sales invoice. In that case, you must edit information on the lines on the sales credit memo or sales return order. When you post the sales credit memo or sales return order, the sales documents that are affected by the change are reversed and a refund payment can be created for the customer. For more information, see [Making Payments](payables-make-payments.md).  
 
 The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item's value entries are the same as before the item charge was assigned.
 
@@ -40,7 +38,7 @@ The credit memo posting will also revert any item charges that were assigned to 
 
     The sales credit memo header contains some information from the posted sales invoice. You can edit this, for example, with new information that reflects the return agreement.  
 3. Edit information on the lines according to the agreement, such as the number of returned items or the amount to reimburse.
-4. Choose the **Prepare** action, amd then choose the **Apply Entries** action.
+4. Choose the **Prepare** action, and then choose the **Apply Entries** action.
 5. On the **Apply Customer Entries** page, select the line with the posted sales document that you want to apply the sales credit memo to, and then choose the **Applies-to ID** action.
 
     The identifier of the sales credit memo displays in the **Applies-to ID** field.
@@ -77,7 +75,7 @@ You can post this reduced price as an item charge in a credit memo or a return o
 3. Fill in the credit memo header with relevant information about the customer that you want to give the sales allowance to.  
 4. On the **Lines** FastTab, in the **Type** field, select **Charge (Item)**.  
 5. In the **No.** field, select the appropriate item charge value.  
-     You may want to create a special item charge number to cover sales allowances.  
+     You might want to create a special item charge number to cover sales allowances.  
 6. In the **Quantity** field, enter **1**.  
 7. In the **Unit Price Excl. Tax** field, enter the amount of the sales allowance.  
 8. Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Sales Credit Memo** page.  
@@ -89,7 +87,7 @@ You can combine return receipts if your customer returns several items that are 
 
 When you receive the items into your warehouse, post the relevant sales return orders as received. This creates posted return receipts.  
 
-When you are ready to invoice this customer, instead of invoicing each sales return order separately, you can create a sales credit memo and automatically copy the posted return receipt lines to this document. Then you can post the sales credit memo and conveniently invoice all the open sales return orders at once.  
+When you're ready to invoice this customer, instead of invoicing each sales return order separately, you can create a sales credit memo and automatically copy the posted return receipt lines to this document. Then you can post the sales credit memo and conveniently invoice all the open sales return orders at once.  
 
 To combine return receipts, the **Combine Shipments** check box must be selected on the **Customer Card** page.  
 
@@ -104,7 +102,7 @@ To combine return receipts, the **Combine Shipments** check box must be selected
     - To insert all lines, select all lines, and then choose the **OK** button.  
 
     - To insert specific lines, select the lines, and then choose the **OK** button.  
-6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re-run the **Get Return Receipt Lines** function.  
+6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and rerun the **Get Return Receipt Lines** function.  
 7.  Post the invoice.  
 
 ### To automatically combine return receipts
@@ -128,7 +126,7 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 
 Alternatively, delete individual sales return orders manually.  
 
-## Inventory Costing
+## Inventory costing
 
 To preserve correct inventory valuation, you typically want to put returned items back in inventory at the unit cost that they were sold at, not at their current unit cost. This is referred to as exact cost reversing.
 
@@ -143,9 +141,7 @@ To assign exact cost reversing manually, you must choose the **Appl.-from Item E
 
 For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
-## See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
-
-## See Also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

@@ -1,20 +1,21 @@
 ---
-title: Receive and Convert Electronic Documents
-description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+title: Receive and convert electronic documents
+description: This article describes how to receive electronic documents directly from trading partners or from an OCR service.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 189, 190, 191 
-ms.date: 06/23/2021
-ms.author: edupont
-
+ms.date: 03/20/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Receive and Convert Electronic Documents
+# Receive and convert electronic documents
+
+> [!NOTE]
+> The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md). 
+
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,7 +27,7 @@ Before you can receive electronic documents through the OCR service, you must se
 
 The traffic of electronic documents in and out of [!INCLUDE[prod_short](includes/prod_short.md)] is managed by the Job Queue feature. Before you can receive electronic documents, the relevant job queue must be started.  
 
-You can either start the conversion of electronic documents manually, as described in this procedure, or you can enable a workflow to convert electronic documents automatically when they are received. The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] includes a workflow template, *From Incoming Electronic through OCR to Open Purchase Invoice Workflow*, which is ready to be copied to a workflow and enabled. For more information, see [Workflow](across-workflow.md).  
+You can either start the conversion of electronic documents manually, as described in this procedure, or you can enable a workflow to convert electronic documents automatically when they're received. The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] includes a workflow template, *From Incoming Electronic through OCR to Open Purchase Invoice Workflow*, which is ready to be copied to a workflow and enabled. For more information, see [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 > When you convert electronic documents received from the OCR service to documents or journal lines in [!INCLUDE[prod_short](includes/prod_short.md)], multiple lines on the source document will be summed on one line. The single line will be of type G/L Account and the **Description** and (G/L account) **No.** fields will be empty. The value in the **Amount** field will equal the total amount excluding VAT of all lines in the source document.  
@@ -55,9 +56,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
-## See Also
+## Related information
 
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  

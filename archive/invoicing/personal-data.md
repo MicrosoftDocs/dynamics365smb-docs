@@ -1,16 +1,14 @@
 ---
 title: Responding to requests about personal data | Invoicing
 description: You can respond to requests for personal data.
-author: bholtorf
-
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2019
 ms.author: bholtorf
-
 ---
 
 # Responding to requests about personal data

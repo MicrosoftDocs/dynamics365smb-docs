@@ -1,17 +1,14 @@
 ---
-    title: Field mapping for exporting bank payment files | Microsoft Docs
-    description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+title: Field mapping for exporting bank payment files | Microsoft Docs
+description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension
 When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider. The service provider is responsible for the privacy of this data. For more information about the AMC Banking 365 Fundamentals extension, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
@@ -66,7 +63,7 @@ The following table lists the fields in [!INCLUDE[prod_short](includes/prod_shor
 |General Journal Batch Name|Journal Batch Name|General Journal Line|The general journal batch name that is used for the payment line|  
 |Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the AMC Banking 365 Fundamentals extension and specified on the bank account card|  
 
-## See Also  
+## Related information  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
 [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   

@@ -1,10 +1,10 @@
 ---
-author: jill-kotel-andersson
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 ## Setting Up the Location
 

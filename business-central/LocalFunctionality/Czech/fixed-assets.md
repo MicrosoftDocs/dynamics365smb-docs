@@ -1,19 +1,18 @@
 ---
-title: Czech Local Functionality - Fixed Assets
-description: This section describes the Czech local functionality namely the Fixed Assets Tax Depreciation feature.
+title: Czech local functionality - Fixed assets
+description: Describes Czech local functionality for fixed assets, including tax depreciation and related features.
 author: ACMartinKunes
-
-
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 06/17/2021
-ms.reviewer: v-pejano
-ms.author: v-makune
+ms.date: 06/03/2025
+ms.reviewer: v-soumramani
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# Fixed Assets in the Czech Version
+# Fixed assets in the Czech version
 
-## Fixed Assets Tax Depreciation
+## Fixed assets tax depreciation
 
 The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation in compliance with the Income Tax Act (Law 586/1992 §26 - §33). This feature has a special setup for tax depreciation groups to enable entering rates and coefficients for new depreciation methods with fixed assets tax depreciation.
 
@@ -23,18 +22,18 @@ Each long-term tangible fixed asset belongs to a depreciation group. These group
 - Accelerated – This method is based on the book value and coefficient (declining balance).
 - Regular based on the acquisition value and percentage (straight-line intangible).
 
-Each long-term fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that will be used for calculating depreciation.
+Each long-term fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters that are used for calculating depreciation.
 
-## Calculation of Depreciation Basis in Fixed Assets
+## Calculation of depreciation basis in fixed assets
 
-Due to Czech legislation, it is necessary to calculate tax depreciations from the depreciable basis which can be different from acquisition costs. According to the requirements, a depreciation basis by the Czech declining-balance depreciation method for the second and following years of a fixed asset's life should be calculated by the new formula defined in the Income Tax Act.
+Due to Czech legislation, it's necessary to calculate tax depreciations from the depreciable basis, which can be different from acquisition costs. According to the requirements, a depreciation basis by the Czech declining-balance depreciation method for the second and following years of a fixed asset's life should be calculated by the new formula defined in the Income Tax Act.
 
 Changes have been made in the calculation of depreciation amounts by the CZ declining-balance depreciation method for the second and following years of a fixed asset's life by the formula stated above. The tax depreciation is calculated annually and the **Force No. of Days** option is recommended for calculating the correct depreciation amount.
 
-## Fixed Assets Depreciation Holidays
+## Fixed assets depreciation holidays
 
 The Fixed Asset Depreciation Holidays feature (according to the Income Tax Act – Law 586/1992 §26 part 8) enables user to discontinue depreciation for selected fixed assets and for specified periods. The system determines the depreciation schedule after the break period ends.
-The list of depreciation methods for which the discontinuing of depreciation has been implemented is as follows:
+The list of depreciation methods for which the discontinuing of depreciation is implemented as follows:
 
 - Straight line
 - Regular
@@ -44,38 +43,38 @@ The list of depreciation methods for which the discontinuing of depreciation has
 
 Users can open the FA depreciation book and fill in the **Depreciation Interrupt** and **Depreciation Interrupt up to** fields. The **Keep Depr. Ending Date** field defines if you want to maintain the depreciation schedule.
 
-## Two-Step Fixed Asset Acquisition
+## Two-step fixed asset acquisition
 
-There are two steps to accomplish when acquiring a fixed asset in Czech accounting. When a company gets an invoice for a fixed asset acquisition, it must be posted. Since the initial use of the fixed asset, the used fixed asset is posted. Both the acquisition and put-to-use steps are required and connected with G/L entries. Fixed assets are not depreciated until they are put to use.
+There are two steps to accomplish when acquiring a fixed asset in Czech accounting. When a company gets an invoice for a fixed asset acquisition, it must be posted. Since the initial use of the fixed asset, the used fixed asset is posted. Both the acquisition and put-to-use steps are required and connected with G/L entries. Fixed assets aren't depreciated until they're put to use.
 
 For this process, use the **Custom 2** fixed asset posting type for the first step (acquisition) and **Acquisition** fixed asset posting type for the second step (put to use). Select the **Fixed Asset Acquisition as Custom2** check box on the **Fixed Asset Setup** page to start using this feature.
 
 The value **Custom 2** is renamed in Czech language from "Vlastní 2" to "Pořízení" for correct FA purchase identification and better accountant understanding.
 
-## Fixed Asset Posting of Disposal
+## Fixed asset posting of disposal
 
-Czech accounting standards require specific posting when a fixed asset is being disposed of or being sold. After selling or posting fixed assets, the posting of disposal ensures the fixed asset value remains the same as that of the acquired value after depreciation.
+Czech accounting standards require specific posting when a fixed asset is being disposed of or being sold. After selling or posting the fixed assets, the posting of disposal ensures that the fixed asset value remains the same as the acquired value after depreciation.
 
-The fixed asset remains unchanged even after it is put to use. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
+The fixed asset remains unchanged even after it's put to use. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
 
 On the **Depreciation Book** page, select the **Corresponding G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresponding FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries.  
 
-## Different Types of Disposal and Maintenance
+## Different types of disposal and maintenance
 
-In Czech accounting, it is necessary to post different types of disposal and different types of maintenance of fixed assets to specific G/L accounts. A standard way offers only one method of disposal and maintenance posting.
+In Czech accounting, it's necessary to post different types of disposal and different types of maintenance of fixed assets to specific G/L accounts. A standard way offers only one method of disposal and maintenance posting.
 
 A new setup is added for this, namely the **FA Extended Posting Group** table. This table allows to set up each FA posting group:
 
 - Posting disposals to different accounts in combination with **Reason Code** field for disposals
 - Posting maintenance in combination with the **Maintenance Code** field for maintenance
 
-## Fixed Assets Clasification
+## Fixed assets classification
 
-### Classification Code
+### Classification code
 
 The Tax of Income Law 586/1992 insists on sorting fixed assets by production classification marked CZ-CPA and by building operations classification marked CZ-CC. The new **Classification Code** table and the **Classification Code** field are added. The field is used for FA classification to the tax group.
 
-## Fixed Asset Location/Responsible History Report
+## Fixed asset location/responsible history report
 
 This feature provides users with the ability to track changes to the location and responsible employee for fixed assets.
 
@@ -92,7 +91,7 @@ New reports for transactions and history documentation added:
 - FA Assignment/Discharge
 - FA History
 
-## Fixed Assets Reporting
+## Fixed assets reporting
 
 In order to comply with the requirements in legislation reporting features and local reporting practices of Czech companies, this feature provides the following reports:
 
@@ -105,7 +104,7 @@ In order to comply with the requirements in legislation reporting features and l
 - **FA Phys. Inventory List** – companies are obliged to reconcile the physical state of fixed assets and book value in order to prepare the financial statement.  
 - **FA Inventory List** – prints the fixed assets inventory per responsible employee or location code.
 
-The following standard reports have been adjusted for the Czech Republic (new Group total, etc.):
+The following standard reports are adjusted for the Czech Republic (new Group total, etc.):
 - **Fixed Asset – Analysis**
 - **Fixed Asset – Book Value 01**
 - **Fixed Asset – Book Value 02**
@@ -113,10 +112,9 @@ The following standard reports have been adjusted for the Czech Republic (new Gr
 - **Fixed Asset – G/L Analysis**
 - **Maintenance – Analysis**
 
-## See Also
+## Related information
 
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
-
+- [Czech Local Functionality](czech-local-functionality.md)  
+- [Finance](finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

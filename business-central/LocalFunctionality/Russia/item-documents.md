@@ -2,23 +2,22 @@
 title: Inventory documents in Russia
 description: Russian enhancements for inventory documents.
 author: DianaMalina
-
-
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/08/2023
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
-# Inventory Documents
+# Inventory documents
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes reports that you must submit for official reporting, such as the Write-off act TORG-16, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
 
-## Report Act Items Receipt M-7, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 Based on an Unposted Inventory Receipt
+## Report Act Items Receipt M-7, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 based on an unposted inventory receipt
 
-The following procedure shows how to create a following reports based on inventory receipt documents that are not posted.
+The following procedure shows how to create the following reports based on inventory receipt documents that aren't posted.
 - Act Items Receipt M-7
 - Items Receipt Act TORG-1
 - Receipt Deviations TORG-2
@@ -36,9 +35,9 @@ The following procedure shows how to create a following reports based on invento
 
 5. Choose the **Print** action.
 
-## Report Act Items Receipt M-7, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 Based on an Posted Inventory Receipt
+## Report Act Items Receipt M-7, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 based on a posted inventory receipt
 
-The following procedure shows how to create a following reports based on posted inventory receipt.
+The following procedure shows how to create the following reports based on posted inventory receipt.
 - Act Items Receipt M-7
 - Items Receipt Act TORG-1
 - Receipt Deviations TORG-2
@@ -46,9 +45,9 @@ The following procedure shows how to create a following reports based on posted 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Inventory Receipts**, and then choose the related link.
 2. Choose the **Print** action.
 
-## Report Item Write-off act TORG-16 Based on an Unposted Inventory Shipment
+## Report Item Write-off act TORG-16 based on an unposted inventory shipment
 
-The following procedure shows how to create a Item Write-off act TORG-16 report based on inventory shipment documents that are not posted.
+The following procedure shows how to create an Item Write-off act TORG-16 report based on inventory shipment documents that aren't posted.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Shipment**, and then choose the related link.
 2. Fill in the fields. For more information, see [Count and Adjust Inventory Using Documents](../../inventory-how-count-inventory-with-documents.md).
@@ -63,18 +62,18 @@ The following procedure shows how to create a Item Write-off act TORG-16 report 
 
 5. Choose the **Print** action.
 
-## Report Item Write-off act TORG-16 Based on an posted Inventory Shipment
+## Report Item Write-off act TORG-16 based on a posted inventory shipment
 
-The following procedure shows how to create a Item Write-off act TORG-16 report based on a posted inventory shipments.
+The following procedure shows how to create an Item Write-off act TORG-16 report based on posted inventory shipments.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Shipments**, and then choose the related link.
 2. Choose the **Print** action.
 
-The functions available in the **Item Shipment** window are same as those in the **Item Receipt** window.
+The **Item Shipment** window and **Item Receipt** window have the same functions.
 
-## Report Transfer Order TORG-13 Based on an Unposted Transfer Document
+## Report Transfer Order TORG-13 based on an unposted transfer document
 
-The following procedure shows how to create a Transfer Order TORG-13 report based on transfer documents that are not posted.
+The following procedure shows how to create a Transfer Order TORG-13 report based on transfer documents that aren't posted.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Orders**, and then choose the related link.
 2. Fill in the fields. For more information, see [Transfer Inventory Between Locations](../../inventory-how-transfer-between-locations.md).
@@ -89,21 +88,21 @@ The following procedure shows how to create a Transfer Order TORG-13 report base
 
 5. Choose the **Print** action.
 
-## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Receipt
+## Report Transfer Order TORG-13 based on a posted transfer document - transfer receipt
 
 The following procedure shows how to create a report based on a posted transfer document called a transfer receipt.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Transfer Receipt**, and then choose the related link.
 2. Choose the **Print** action.
 
-## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Shipment
+## Report Transfer Order TORG-13 based on a posted transfer document - transfer shipment
 
 The following procedure shows how to create a report based on a posted transfer document called a transfer shipment.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Transfer Shipments**, and then choose the related link.
 2. Choose the **Print** action.
 
-## See Also
+## Related information
 
 [Inventory Setup](Inventory-Setup.md)  
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  

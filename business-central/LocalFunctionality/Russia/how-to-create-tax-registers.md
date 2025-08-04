@@ -4,11 +4,12 @@ description: Describes how to create tax registers in Russia.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Create Tax Registers
@@ -55,7 +56,7 @@ The following procedure shows how to create tax registers.
 
 12. Choose **Show Related Entries** to view all the transactions of any entry ledger that is created.
 
-## See Also
+## Related information
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

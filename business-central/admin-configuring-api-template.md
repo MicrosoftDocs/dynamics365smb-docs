@@ -1,17 +1,15 @@
 ---
 title: Configure API Templates
 description: Describing the steps you must go through to configure API templates for Dynamics 365 Business Central.
-author: SusanneWindfeldPedersen
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
 ms.date: 06/07/2022
-ms.author: solsen
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Configure API Templates
@@ -47,7 +45,7 @@ To assign a template to an API, you must go through the following steps.
 
     The defined template is applied to a new record created through the API if, and only if, the conditions defined in the **Conditions** field are met by the values already defined for the new instance of the entity.
 
-## See Also
+## Related information
 
 [API Documentation](/dynamics-nav/fin-graph)  
 [Develop Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

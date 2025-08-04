@@ -1,26 +1,22 @@
 ---
 title: Error Message "Posting Date is not within your range of allowed posting dates"
 description: Resolve the error behind the message "Posting date is not within your range of allowed posting dates" when running the Adjust Cost - Item Entries batch job.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: article
 ms.search.keywords:
-ms.date: 09/17/2021
-ms.author: edupont
-
+ms.date: 05/24/2024
+ms.service: dynamics-365-business-central
 ---
 
 # Error message: "Posting Date is not within your range of allowed posting dates…"
 
-When using the **Adjust Cost - Item Entries** batch job you may run into the following error message:
+When you use the **Adjust Cost - Item Entries** batch job, you might run into the following error message:
 
 **Posting date is not within your range of allowed posting dates**
 
-This error message indicates that the user is not allowed to post entries for the date in question, and this can be remedied by changing the user setup.
+This message indicates that you aren't allowed to post entries for the date you entered. You can get around this issue by changing your user setup.
 
 ## Change the user setup  
 
@@ -28,9 +24,9 @@ This error message indicates that the user is not allowed to post entries for th
 |---------|---------|--------|
 |EUROPE  |  2020-09-11      |2020-09-30      |
 
-The user in this case has an allowed posting date range from September 11th to September 30th and is therefore not allowed to post the Adjustment Value Entry with Posting Date September 10th.  
+In this case, you're allowed to post in the date range from September 11 to September 30. However, you aren't allowed to post the adjustment value entry with a September 10 posting date.  
 
-### Overview of involved posting date setup
+### Overview of the posting date setup
 
 #### Inventory Periods
 
@@ -64,9 +60,9 @@ The user in this case has an allowed posting date range from September 11th to S
 |---------|---------|--------|
 |USERNAME |  2020-09-10      |2020-09-30      |
 
-Assigning a wider allowed posting date range, as in Inventory Period or General Ledger Setup, makes it possible to avoid the conflict that causes the error message. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
+Assigning a wider date range where you allow posting on the **Inventory Period** or **General Ledger Setup** pages lets you avoid the conflict that causes the error message. For example, the wider range lets you post the adjustment value entry with a September 10 posting date.
   
-## See Also  
+## Related information  
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

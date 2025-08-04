@@ -1,19 +1,19 @@
 ---
-    title: Transaction on Voucher Interface
-    description: Transaction on Voucher Interface
+title: Transaction on Voucher Interface
+description: Transaction on Voucher Interface
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Voucher Transaction
 
@@ -168,7 +168,7 @@ It is required to pay the TDS and TCS to government authorities through Bank/Cas
 
 
 
-## See Also 
+## Related information 
 [Voucher Interface Overview](Vouche-Interface-Overview.md)
 
 

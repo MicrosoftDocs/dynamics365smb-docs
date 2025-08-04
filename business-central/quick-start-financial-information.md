@@ -1,15 +1,15 @@
 ---
 title: Financial Information Quick Start
 description: Get your company ready for business by setting up the financial information in Business Central.
-author: rubenseishima
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/25/2022
-ms.author: a-reishima
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Financial Information Quick Start
@@ -26,7 +26,7 @@ The following video shows how to set up the chart of accounts in [!INCLUDE[prod_
 
 <br /><br />
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=944c65b0-9b0f-4d35-b330-de2fad57143a]
 
 ### Add an account to the chart of accounts
 
@@ -70,7 +70,7 @@ Bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] register banking
 
 <br /><br />
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
+> [!Video https://learn-video.azurefd.net/vod/player?id=047a5a25-1f7d-423d-b96d-c4ea45042779]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
@@ -79,9 +79,7 @@ Bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] register banking
    The field is different from the **Bank Account No.** field also available in the **General** FastTab.
 4. Fill in the fields on the **Bank Account Card** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## See related training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
-## See also
+## Related information
 
 [Set Up the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)  

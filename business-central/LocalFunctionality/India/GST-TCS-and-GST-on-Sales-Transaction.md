@@ -1,17 +1,17 @@
 ---
-    title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-    description: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+description: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 
@@ -65,7 +65,7 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
-## See Also 
+## Related information 
 [GST Kerala Flood Cess](GST-and-Kerala-Flood-Cess-on-Sales.md)
 
 

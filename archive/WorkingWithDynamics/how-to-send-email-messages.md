@@ -3,7 +3,7 @@
     description: When Business Central is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

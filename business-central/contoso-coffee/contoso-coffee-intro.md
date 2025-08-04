@@ -1,66 +1,49 @@
-﻿---
+---
 title: Introduction to Contoso Coffee Demo Data
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.date: 09/20/2023
+ms.topic: concept-article
+ms.service: dynamics-365-business-central
+ms.search.form: 5194,
+ms.custom: bap-template
+
 ---
 
 # Introduction to Contoso Coffee Demo Data
 
-Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the capabilities in Business Central.  
-
+Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for [!INCLUDE [prod_short](../includes/prod_short.md)] add demo data that you can use to learn how to use the capabilities in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
 ## Set up Contoso Coffee data
 
-To use the Contoso Coffee demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+[!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
-- **Contoso Coffee Demo Dataset**  
+When the apps are installed, on the **Contoso Demo Tool** page, use the **Configure** action to prepare the following modules. You can choose to install all available data, which includes set up and production data, or setup data only.
 
-    This app delivers demo data for the base application.  
-- **Contoso Coffee Demo Dataset (country ID)**  
+ - The **Common Module** to prepare general settings that [!INCLUDE [prod_short](../includes/prod_short.md)] requires. For example, things like number series. Note that **Common Module** contains supplementary data for the Warehouse, Manufacturing, Service scenarios only. It is not recommended to run it in isolation.
 
-    This app adds country-specific content on top of the base application.
+The following table describes the settings:  
 
-Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
+|Field  |Description  |
+|---------|---------|
+|**Starting Year** |Specifies the first year that you want to use for the Contoso Coffee demonstration data. Depending on the company setup, the year is either a calendar year or a fiscal year.|
+|**Country/Region Code**|Specifies a country/region code for domestic customers and vendors.|
+|**Company Type**    |Specifies if the current company must report VAT or sales tax. |
+|**Price Factor**     |Specifies a factor to convert a price from USD/EUR to the local currency. *1* means that the price is the same amount in any currency. A higher number will be used to get the price in the local currency. |
+|**Rounding Precision**  |Specifies the Rounding Precision that you want to create the demo data with.|
 
-You then should complete:
- - The [Manufacturing Setup](manufacturing/contoso-coffee-manufacturing-intro.md) to prepare for use of the [Manufacturing Scenarios](#manufacturing-scenarios)
- - The [Warehousing Setup](warehousing/contoso-coffee-warehousing-intro.md) to prepare for use of the [Warehousing Scenarios](#warehousing-scenarios)
+ - The [Manufacturing Module](manufacturing/contoso-coffee-manufacturing-intro.md) to prepare for [manufacturing scenarios](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - The [Warehousing Module](warehousing/contoso-coffee-warehousing-intro.md) to prepare for [warehousing scenarios](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ - The [Service Module](service/contoso-coffee-service-intro.md) to prepare for [Service scenarios](service/contoso-coffee-service-intro.md#scenarios).
 
-## Manufacturing Scenarios
+After you configure the modules you want to try out, choose the **Generate** action to create demonstration data for them.
 
-The Contoso Coffee demo data currently supports the following manufacturing scenarios for test and training:
-
-1. [Create a New Production BOM and BOM Version](manufacturing/create-new-production-bom-version.md)  
-2. [Create a New Routing](manufacturing/create-new-routing.md)  
-3. [Create a Firm Planned Production Order and Change It](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Combine Automatic and Manual Flushing](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Use Order Planning to Create and Reserve Supply](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Set Up and Process a Subcontracting Operation](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Set Up New Capacity](manufacturing/set-up-new-capacity.md)  
-8. [Forecast demand for item variants with different BOMs assigned](manufacturing/variants.md)  
-
-Read the steps for each scenario in the relevant article.  
-
-> [!IMPORTANT]
-> The Manufacturing walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
-
-## Warehousing Scenarios
-
-The Contoso Coffee demo data currently supports the following warehousing scenarios for test and training:
-
-1.	Configure default bins, receive and put-away with inventory put-away, pick and ship with inventory pick in order-by-order fashion with [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.	Receive and put-away multiple inbound orders at once with warehouse receipt, ship multiple orders at once with warehouse shipment, pick with warehouse picks with [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.	Configure fixed bins for item unit of measure, user cross-docking to reduce physical movements of goods, optimize placing of goods with bin replenishment, break-bulk large units of measure into smaller ones, distribute picking among warehouse employes with picking worksheet with [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](warehousing/warehouse-directed-flow.md)
-
-Read the steps for each scenario in the relevant article.
-   
-## See also
+## Related information
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  
+[Service](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

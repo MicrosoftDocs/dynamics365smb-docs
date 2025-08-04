@@ -4,11 +4,12 @@ description: Russian enhancements include managing sales or transfers of fixed a
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Selling Fixed Assets
@@ -47,7 +48,7 @@ A sale or transfer of a fixed asset consists of two stages.
 
 4. Post the invoice.
 
-## See Also
+## Related information
 
 [Fixed Assets](fixed-assets.md)  
 

@@ -1,20 +1,25 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
-ms.date: 03/15/2022
-ms.author: edupont
+ms.date: 03/04/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-As companies operate in more countries/regions, it becomes essential that they are able to trade and report financial information in more than one currency. The local currency (LCY) is defined in the **General Ledger Setup** page as described in the article [Understanding the General Ledger and the Chart of Accounts](../finance-general-ledger.md). Once the local currency (LCY) has been defined, it will be represented as a blank currency, so when the **Currency** field is blank, it means that the currency is LCY.  
+If your company operates in more than one country or region, it's probably important that you can do business in more than one currency. You define your local currency (LCY) on the **General Ledger Setup** page. Afterward, your local currency will be represented as a blank currency on documents and transactions. When the **Currency** field is blank, the currency is LCY.
+
+The following video explains how to set up your local currency.
+
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=d1008bb9-c45d-439a-8ce7-f30f5f655f42]
 
 Next, you must set up currency codes for each currency that you use if you buy or sell in currencies other than your local currency (LCY). Also bank accounts can be created using currencies. It is possible to record G/L transactions in different currencies, however, the G/L transaction will always be posted in the local currency (LCY).
 
 [!INCLUDE [finance-currencies-lcy](finance-currencies-lcy-note.md)]
 
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a currency exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](../finance-how-setup-additional-currencies.md). The additional reporting currency is most often used to facilitate financial reporting to owners that reside in countries/regions using different currencies than the local currency (LCY).  
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a currency exchange rate assigned. By designating a second currency as an additional reporting currency, [!INCLUDE[prod_short](prod_short.md)] automatically records amounts in both LCY and the additional reporting currency on G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](../finance-how-setup-additional-currencies.md). The additional reporting currency is most often used to facilitate financial reporting to owners that reside in countries/regions using different currencies than the local currency (LCY).  
 
 > [!IMPORTANT]
 > If you want to use an additional reporting currency for financial reporting, make sure that you understand the limitations. For more information, see [Set Up an Additional Reporting Currency](../finance-how-setup-additional-currencies.md).
 
 > [!NOTE]  
-> When you post to G/L using a currency code, such as to post an expense in a general journal using a currency code, the transaction is converted to LCY using the currency exchange rate for the posting date. The G/L entry will not contain information of which currency was used, only its value in LCY. If you want to keep track of the original currency, such as for an invoice, you must use the sales and purchase documents as well as bank accounts that do store currency code information for the entries.
+> When you post to the general ledger using a foreign currency, [!INCLUDE [prod_short](prod_short.md)] converts the transaction to LCY using the currency exchange rate for the posting date. The G/L entry won't contain information about which currency was used, only its value in LCY. To keep track of the original currency, use the sales and purchase documents and bank accounts that store currency information for entries.

@@ -1,15 +1,15 @@
 ---
-    title: Create a Firm Planned Production Order and Change It
-    description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
-    ms.date: 04/01/2022
-    ms.topic: article
-    ms.service: dynamics365-business-central
-    author: edupont04
-    ms.author: andreipa
-
+title: Create a firm planned production order and change it
+description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
+ms.date: 12/12/2023
+ms.topic: how-to
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 
-# Walkthrough: Create a Firm Planned Production Order and Change It
+# Walkthrough: Create a firm planned production order and change it
 
 In this article, we take you through the steps to use the Contoso Coffee demo data to work with production orders.  
 
@@ -46,7 +46,7 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
 3. Choose the **Refresh Production Order** action.  
 
-    The start date has now been pushed back to April 20. This is not an acceptable date for Eduardo.
+    The start date is now pushed back to April 20. This isn't an acceptable date for Eduardo.
 
 4. Trigger a forward scheduling of the production order.
 
@@ -59,6 +59,6 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
 The new production order is now set up, and Eduardo's requirements are met.  
 
-## See also
+## Related information
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

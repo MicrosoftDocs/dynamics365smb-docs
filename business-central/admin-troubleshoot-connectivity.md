@@ -1,24 +1,24 @@
 ---
-title: Troubleshoot Connectivity
+title: Troubleshoot connectivity
 description: Describes how to use the Troubleshoot Connectivity page to identify and fix problems connecting to Business Central online.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: connectivity, troubleshooting, connection problems
-ms.date: 06/17/2021
+ms.date: 01/09/2024
 ms.author: jswymer
 ROBOTS: NOINDEX
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# Troubleshoot Connectivity for Business Central
+
+# Troubleshoot connectivity for Business Central
 
 > **APPLIES TO:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
 > This feature is currently in preview. The functionality and documentation may change in later releases. If you would like to contribute to the documentation based on your own findings, please select ![Edit article in GitHub.](media/github-edit-pencil.png) **Edit**, and propose changes. Then we'll take a look!
 
-[!INCLUDE[prod_short](includes/prod_short.md)] Online includes the **Troubleshooting Connectivity** page that you can use to identify problems with your connection to the online service. There are several things that affect connectivity to Business Central, like the firewall settings of your network or domain name service configuration. The page lets you run a list of checks that will diagnose common Business Central connectivity issues. You can use the information to try to fix the problems yourself, or pass it on to your support representative.
+[!INCLUDE[prod_short](includes/prod_short.md)] Online includes the **Troubleshooting Connectivity** page that you can use to identify problems with your connection to the online service. There are several things that affect connectivity to Business Central, like the firewall settings of your network or domain name service configuration. The page lets you run a list of checks that diagnose common Business Central connectivity issues. You can use the information to try to fix the problems yourself, or pass it on to your support representative.
 
 > [!NOTE]
 > The **Troubleshooting Connectivity** page doesn't test network performance or reliability, like the speed of your connection. It only verifies connectivity to different resources.
@@ -34,10 +34,10 @@ ROBOTS: NOINDEX
     https://businesscentral.dynamics.com/connectivity
     ```
 
-    Or, if the URL includes the tenant ID, like `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, then you'd enter:
+    Or, if the URL includes the tenant ID, like `https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee`, then you'd enter:
 
     ```http
-    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    https://businesscentral.dynamics.com/aaaabbbb-0000-cccc-1111-dddd2222eeee/connectivity
     ```
  
 3. On the **Troubleshooting Connectivity** page, choose **Start check**.
@@ -58,7 +58,7 @@ Checks that you have connection to the Internet by verifying that you can access
 
 |Problem|Things to try|
 |-------|-------------|
-|Your browser does not support this check|Open the page in a supported browser, and try again. For a list of supported browsers, see [Minimum Requirements for Using Business Central - Browsers](product-requirements.md#browsers)|
+|Your browser doesn't support this check|Open the page in a supported browser, and try again. For a list of supported browsers, see [Minimum Requirements for Using Business Central - Browsers](product-requirements.md#browsers)|
 |Failed to ping the server at the following URL: {url}|Check Firewall settings.|
 
 ## CDN (content delivery network) resources loading
@@ -67,12 +67,12 @@ Checks that you have connection to the Internet by verifying that you can access
 
 |Problem|Things to try|
 |-------|-------------|
-|Your browser does not support this check|See **Basic Internet connectivity** check.|
+|Your browser doesn't support this check|See **Basic Internet connectivity** check.|
 |Failed to ping the server at the following URL: {url}|Check Firewall settings.|
 
 ## User authentication
 
-Checks that the current user has signed in with a valid Business Central account.
+Checks that the current user signs in with a valid Business Central account.
 
 |Problem|Things to try|
 |-------|-------------|
@@ -87,7 +87,7 @@ Checks for Business Central environments that are available to an authenticated 
 |-------|-------------|
 |No authenticated user to perform this check for|See the **User authentication** check.|
 |Failed to retrieve available environments for your account.|Check the list of available environments in the Business Central admin center.|
-|Your user name or password is incorrect, or you do not have a valid account.| Verify that you've signed in using the correct user name and password.|
+|Your user name or password is incorrect, or you don't have a valid account.| Verify that you sign in using the correct user name and password.|
 
 ## Application service connectivity
 
@@ -98,7 +98,7 @@ Checks that the authenticated user can connect to a discovered environment, typi
 |No authenticated user to perform this check for|See the **User authentication check**.|
 |Failed to retrieve available environments for your account.|See **Business Central environments discovery**.|
 |No cluster address to perform this check for|Check the list of available environments in the Business Central admin center.|
-|Version endpoint does not exist|Check the list of available environments in the Business Central admin center.|
+|Version endpoint doesn't exist|Check the list of available environments in the Business Central admin center.|
 
 ## Web server connectivity
 
@@ -118,9 +118,9 @@ Reports Business Central's service health status by checking for declared outage
 |Problem|Things to try|
 |-------|-------------|
 |No authenticated user to perform this check for|See the **User authentication check**.|
-|Sorry, Business Central is temporarily unavailable. Please try again later.|Try again later.|
+|Sorry, Business Central is temporarily unavailable. Try again later.|Try again later.|
 
-## See Also
+## Related information
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  

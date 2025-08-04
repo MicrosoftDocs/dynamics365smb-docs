@@ -1,19 +1,15 @@
 ---
 title: Edit Posted Sales and Purchase Documents
 description: This topic explains how to update information on a posted document like a  sales shipment or purchase invoice when relevant information has changed. 
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.reviewer: edupont
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.reviewer: bholtorf
 ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Edit Posted Documents
 
@@ -46,7 +42,7 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 The posted sales shipment is updated.
 
-## See also
+## Related information
 
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

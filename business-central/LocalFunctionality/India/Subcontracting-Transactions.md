@@ -1,18 +1,18 @@
 ---
-    title: Sub-Contracting Order Creation
-    description: Sub-Contracting Order Creation
+title: Sub-Contracting Order Creation
+description: Sub-Contracting Order Creation
 
     
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Subcontracting Order Creation
 
@@ -80,7 +80,7 @@ Program will update the **Qty. Consumed** and **Quantity at Vendor Location** fi
 
 
 
-## See Also 
+## Related information 
 [Create GST Liability](Subcontracting-Create-GST-Liability.md)
 
 

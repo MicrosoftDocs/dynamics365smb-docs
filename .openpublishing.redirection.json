@@ -891,6 +891,104 @@
             "source_path": "business-central/contoso-coffee/variants.md",
             "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/variants",
             "redirect_document_id": false
-        }
-            ]
+        },
+        {
+            "source_path": "business-central/hub.yml",
+            "redirect_url": "/dynamics365/business-central/index",
+            "redirect_document_id": false
+        },
+        {
+           "source_path": "business-central/ai-preview-getstarted.md",
+           "redirect_url": "/dynamics365/business-central/ai-overview",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/ai-faq.md",
+           "redirect_url": "/dynamics365/business-central/faqs-marketing-text",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-catalog.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-bus-decision-makers.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-bus-users.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-developers.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-functional-consultants.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-presales.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/readiness/readiness-learning-sales.md",
+           "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/product-news.md",
+           "redirect_url": "/dynamics365/business-central/dev-itpro/whatsnew/overview",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "business-central/admin-access-with-m365-license-troubleshooting.md",
+           "redirect_url": "/troubleshoot/dynamics-365/business-central/welcome-business-central",
+           "redirect_document_id": "false"
+        },
+        {
+            "source_path": "business-central/manufacturing-powerbi-avergage-production-times.md",
+            "redirect_url": "/dynamics365/business-central/manufacturing-powerbi-average-production-times.md",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/localfunctionality/netherlands/check-purchase-amounts.md",
+            "redirect_url": "/dynamics365/business-central/check-purchase-amounts",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md",
+            "redirect_url": "/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-set-up-inventory-valuation-and-costing.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-handle-inventory-and-manufacturing-costs.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-how-to-update-standard-costs.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-learn-about-costing.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         }         
+
+        
+         
+        ]
 }

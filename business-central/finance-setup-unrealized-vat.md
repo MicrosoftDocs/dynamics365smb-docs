@@ -1,23 +1,20 @@
 ---
-title: Set Up Unrealized Value Added Tax
+title: Set up unrealized value added tax
 description: If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 author: brentholtorf
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Set Up Unrealized VAT for Cash-Based Accounting
+# Set up unrealized VAT for cash-based accounting
 
-If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealized VAT.
+If you're using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealized VAT.
 
 ## To use general ledger accounts for unrealized VAT
 
@@ -34,7 +31,7 @@ To use accounts for unrealized VAT, follow these steps:
 | Option | Description |
 | --- | --- |
 | Blank | Choose this option if you don't want to use the unrealized VAT feature. |
-| Percentage | Payments covers both VAT and the invoice amount in proportion to the payment's percentage of the remaining invoice amount. The paid VAT amount is transferred from the unrealized VAT account to the realized VAT account. |
+| Percentage | Payments cover both VAT and the invoice amount in proportion to the payment's percentage of the remaining invoice amount. The paid VAT amount is transferred from the unrealized VAT account to the realized VAT account. |
 | First | Payments cover VAT first and then invoice amounts. In this case, the amount transferred from the unrealized VAT account to the VAT account will equal the amount of the payment until the total VAT has been paid. |
 | Last | Payments cover the invoice amount first and then VAT. In this case, no amount will be transferred from the unrealized VAT account to the VAT account until the total amount of the invoice, excluding VAT, has been paid. |
 | First (Fully Paid) | Payments will cover VAT first (like the _First_ option), but no amount will be transferred to the VAT account until the full amount of VAT has been paid. |
@@ -49,7 +46,7 @@ To use accounts for unrealized VAT, follow these steps:
 > [!NOTE]  
 > The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
-## See Also
-[Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)
+## Related information
+[Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

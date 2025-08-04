@@ -1,18 +1,18 @@
 ---
-    title: TDS calculation and transactions as per Section 194Q
-    description: TDS calculation and transactions as per Section 194Q.
+title: TDS calculation and transactions as per Section 194Q
+description: TDS calculation and transactions as per Section 194Q.
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 06/25/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # TDS calculation and transactions as per Section 194Q
 
@@ -75,7 +75,7 @@ In the given scenario, two advance payments must made to vendor for INR 20,00,00
     |**TDS Payable Account**|-500|
 
 
-## See Also 
+## Related information 
 [TDS 194Q Overview](TDS-194Q-Section-Overview.md)
 
 

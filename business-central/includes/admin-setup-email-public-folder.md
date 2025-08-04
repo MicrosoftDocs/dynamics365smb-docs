@@ -1,16 +1,16 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 02/15/2022
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
 > The following sections assume that you have administrator access for Exchange Online.
 
-Before you can set up email logging, you must prepare Office 365 [public folders](/exchange/collaboration-exo/public-folders/public-folders). You can do this in the [Exchange admin center](/exchange/exchange-admin-center?preserve-view=true), or you can use the [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Before you can set up email logging, you must prepare Office 365 [public folders](/exchange/collaboration-exo/public-folders/public-folders). You can do this in the [Exchange admin center](/exchange/exchange-admin-center?preserve-view=true), or you can use the [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell).
 
 > [!TIP]
 > If you want to use the [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true), you can find inspiration for how to set up your script in a sample script that we published in [the BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).

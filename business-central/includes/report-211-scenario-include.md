@@ -1,0 +1,1 @@
+Send a report to customers who want documentation for receipt of payment.

@@ -1,15 +1,15 @@
 ---
 title: Planning With or Without Locations
 description: In this topic learn about production and manufacturing, including supply planning, in Business Central.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/15/2022
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Planning With or Without Locations
 
@@ -82,7 +82,7 @@ The item is planned according to planning parameters on the SKU card (including 
 
 The item is planned according to planning parameters on the item card.
 
-#### Case 1.3: Demand is at *NORTH* location
+#### Case 1.3: Demand is at *MAIN* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
@@ -140,9 +140,7 @@ As you can see from the last scenario, the only way to get a correct result for 
 
 Therefore, if you often plan for demand at locations, then we recommend that you use the Stockkeeping Units capability.
 
-## See related training at [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
-## See also
+## Related information
 
 [Planning](production-planning.md)  
 [Set Up Manufacturing](production-configure-production-processes.md)  

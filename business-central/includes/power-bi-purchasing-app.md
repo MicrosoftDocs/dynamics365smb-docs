@@ -1,0 +1,18 @@
+The following table describes how you can use the reports in the Power BI Purchasing app.
+
+|To... | Open in Business Central (CTRL+select) | Learn more |
+|------|---------------------------------------|----------- |
+| Get a high-level summary of all purchasing activities. View purchase statistics such as summaries of amounts, outstanding amounts, amounts received but not invoiced, and invoiced amounts.|[Purchases Overview](https://businesscentral.dynamics.com?page=37009)|[About Purchases Overview](../purchases-powerbi-purchases-overview.md)|  
+| Explore the costs of various components on purchases with a detailed breakdown of your purchasing data by categories, vendors, fiscal month, year, and document types.|[Purchase Decomposition](https://businesscentral.dynamics.com?page=37010)|[About Purchases Decomposition](../purchases-powerbi-purchases-decomposition.md)|  
+| Analyze daily purchasing activities and highlight trends and exceptions in daily spend. Monitor day-to-day purchase fluctuations and identify unusual spending patterns.|[Daily Purchases](https://businesscentral.dynamics.com?page=37011)|[About Daily Purchases](../purchases-powerbi-daily-purchases.md)|  
+| Analyze the 30-day moving average of your purchases, compare it to the total purchase amount, and identify purchasing trends and patterns.|[Moving Averages](https://businesscentral.dynamics.com?page=37012)|[About Moving Averages](../purchases-powerbi-moving-averages.md)|  
+| Get an overview of the total of all purchases over a rolling 12-month period for long-term trend analysis and forecasting.| [Moving Annual Total](https://businesscentral.dynamics.com?page=37013)|[About Moving Annual Total](../purchases-powerbi-moving-annual-total.md)|  
+| Compare your purchasing data across different time periods. You can compare at the year, quarter, or month levels, and identify how purchases track across these periods.|[Period-Over-Period](https://businesscentral.dynamics.com?page=37014)|[About Period-Over-Period](../purchases-powerbi-period-over-period.md)|  
+| Gain insights into your purchasing performance over time. Identify trends or patterns that emerge over time.|[Year-Over-Year](https://businesscentral.dynamics.com?page=37015)|[About Year-Over-Year](../purchases-powerbi-year-over-year.md)|  
+| Analyze purchasing activities by vendor by item to gain a better understanding of the items that consume a significant portion of your purchasing budget.|[Purchases by Item](https://businesscentral.dynamics.com?page=37016)|[About Purchases by Item](../purchases-powerbi-purchases-by-item.md)|  
+| Analyze purchasing activities by vendor to identify which vendors are responsible for most of your purchasing activity.|[Purchases by Vendor](https://businesscentral.dynamics.com?page=37018)|[About Purchases by Vendor](../purchases-powerbi-purchases-by-vendor.md)|  
+| Analyze purchasing activities by purchaser to manage your purchasing teams and individual performance.|[Purchases by Purchaser](https://businesscentral.dynamics.com?page=37017)|[About Purchases by Purchaser](../purchases-powerbi-purchases-by-purchaser.md)|  
+| Gain a comprehensive view of your purchase data across different warehouse locations, and identify trends and patterns in their purchasing activities.|[Purchases by Location](https://businesscentral.dynamics.com?page=37019)|[About Purchases by Location](../purchases-powerbi-purchases-by-location.md)|  
+| Compare actual spending to allocated budget to ensure that spending aligns with financial plans.|[Actual vs Budget](https://businesscentral.dynamics.com?page=37021)|[About Actual vs. Budget](../purchases-powerbi-actual-vs-budget.md)|
+
+[!INCLUDE[powerbi-tip-track-kpis](powerbi-tip-track-kpis.md)]

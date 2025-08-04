@@ -1,61 +1,46 @@
 ---
-title: Consolidate Data from Multiple Companies
+title: Consolidate data from multiple companies
 description: This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 author: brentholtorf
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
-ms.date: 09/29/2022
 ms.author: bholtorf
-
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.date: 11/13/2024
+ms.custom: bap-template
+ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.form: 240_Primary, Report_16, Report_17, Report_18, Report_4410, 1826, 1827
+ms.service: dynamics-365-business-central
 ---
 
-# Consolidating Financial Data from Multiple Companies
+# Consolidate financial data from multiple companies
 
-Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
 
-You can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company.  
+Each company involved in a consolidation is called a business unit. The company in which you combine the data is called the consolidated company.  
 
-You can import data into the consolidated company from other companies in the same [!INCLUDE [prod_short](includes/prod_short.md)] tenant from tenants or from files.  
+You can transfer financial data from subsidiaries to the consolidated company, even if the subsidiaries use [!INCLUDE [prod_short](includes/prod_short.md)] in different environments. To learn more about how to connect to other environments, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
 
-If the financial statements of a business unit are in a different currency than the currency used in the consolidated company, you must set up exchange rates for consolidation.  
+If the financial statements of a business unit use a different currency than the consolidated company, you must set up exchange rates for consolidation. To learn more about exchange rates for consolidations, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#exchrates).  
 
 You can consolidate:  
 
 * Across companies that have different charts of accounts.  
 * Companies that use different fiscal years and different currencies.  
-* Either the full amount or a percentage of a company's financial information
-* Using different currency exchange rates in individual G/L accounts
-* Companies in other accounting and business management programs
+* Either the full amount or a percentage of a company's financial information.
+* Using different currency exchange rates in individual G/L accounts.
+* Companies in other accounting and business management programs.
+* Companies in different [!INCLUDE [prod_short](includes/prod_short.md)] environments.
 
-You set up the consolidated company in the same way that you set up other companies. The chart of accounts is independent of the chart of accounts in the business units. The chart of accounts in the business units can differ from one another. You set up a list of companies to consolidate, verify the accounting data before consolidating, import from files or databases, and generate consolidation reports. For more information, see [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md).  
+You set up the consolidated company in the same way that you set up other companies. The chart of accounts is independent of the chart of accounts in the business units. The chart of accounts in the business units can differ from one another. To learn more about setting up a consolidation, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md).  
 
 > [!TIP]
-> Consolidating financial data may especially be relevant in connection with intercompany processes. For more information, see [Managing Intercompany Transactions](intercompany-manage.md).
-
-## Use the Consolidated Trial Balance report
-
-The **Consolidated Trial Balance** report can give you an overview of the overall financial health of your business. The report combines general ledger entries from each of your companies in a new company that you created for the consolidated data. This company is typically referred to as the *consolidated company*. The consolidated company is just a container for the consolidated data, and doesn't have any live business data. The companies that you include in the consolidated company become **Business Units** in the report. For more information, see [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md). If you have four business units or fewer, you can also use the **Consolidated Trial Balance (4)** report.  
-
-The report shows a line for each account, and follows the structure of the chart of accounts. An account isn't shown if all the amounts on the line are 0. The report shows the following information for each account:
-
-* The account number and the name of the account.
-* The totals for the consolidated company and for each business unit. Totals can display either as a net change or the balance to date.
-* The eliminations made in the consolidated company. Eliminations always show for a period corresponding to the consolidated company's fiscal year.
-* The total for the consolidated company after the eliminations show either as a net change or the balance to date.
+> Consolidating financial data can be especially relevant for intercompany processes. To learn more about intercompany features, go to [Managing Intercompany Transactions](intercompany-manage.md).
 
 ## Consolidate data
 
-Transferring the figures from the business units to the consolidated company is the actual *consolidation*. Before you consolidate, it's a good idea to check whether there are differences between the basic information in the business units and in the consolidated company. There are two reports that you can use to test the database and file.
+Before you consolidate, it's a good idea to test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. Correct any errors you find before you run the report. You can test the database or, if you're importing data from an XML file, the file.
 
-### To test the data before you consolidate
-
-Test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you're importing data from an XML file, you can test the file.  
+### Test the data before you consolidate
 
 1. Open the consolidated company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
@@ -66,13 +51,25 @@ Test your data before you transfer it to the consolidated company. [!INCLUDE[pro
 
 ### Run the consolidation
 
-After you've tested the data, you can transfer it to the consolidated company.  
+After you've tested the data, you can transfer it to the consolidated company. An assisted setup guide will help you through the process.
+
+> [!NOTE]
+> When you run the consolidation you can choose the companies to include. If your consolidated company doesn't have access to one or more subsidiaries, the guide will let you grant access to them.
 
 1. Sign in to the consolidated company.  
-2. On the **Accountant Role Center**, choose the **Run Consolidation** action.  
+2. On the **Business Units** page, choose the **Consolidate** action.  
 3. Fill in the required fields.  
-4. In the Filter section, set a filter for the relevant business unit or company name.  
-5. Optionally, schedule the report to run at a convenient time.  
+
+## Use the Consolidated Trial Balance report
+
+The **Consolidated Trial Balance** report can give you an overview of the overall financial health of your business. The report combines general ledger entries from each of your companies in a new company that you created for the consolidated data. The consolidated company is just a container for the consolidated data, and doesn't have any live business data. The companies that you include in the consolidated company become **Business Units** in the report. If you have four business units or fewer, you can also use the **Consolidated Trial Balance (4)** report.  
+
+The report shows a line for each account, and follows the structure of the chart of accounts. An account isn't shown if all the amounts on the line are 0. The report shows the following information for each account:
+
+* The account number and the name of the account.
+* The totals for the consolidated company and for each business unit. Totals can display either as a net change or the balance to date.
+* The eliminations made in the consolidated company. Eliminations always show for a period corresponding to the consolidated company's fiscal year.
+* The total for the consolidated company after the eliminations show either as a net change or the balance to date.
 
 ## Eliminate repeated transactions
 
@@ -86,9 +83,9 @@ To eliminate repeated transactions:
 
 The **G/L Consolidation Eliminations** report displays a tentative trial balance where you can simulate the consequences of eliminating entries. The report compares the entries in the consolidated company with the eliminations entered in the general journal.
 
-Before a business unit can be included in the report, you must set up the unit on the **Business Units** page. The **Consolidate** field must be selected.
+Before you can include a business unit in the report, you must set up the unit on the **Business Units** page. Make sure to turn on the **Consolidate** toggle.
 
-A line is created for each account, following the structure of the chart of accounts. An account isn't shown if all amounts on the line are 0. The following information is shown for each account:
+A line is created for each account, following the structure of the chart of accounts. An account isn't shown if all amounts on the line are 0. The report shows the following information for each account:
 
 * Account number.
 * Account name.
@@ -99,12 +96,22 @@ A line is created for each account, following the structure of the chart of acco
 * The posting text copied from the general journal.
 * The consolidated company's total after the eliminations, if they're posted.
 
+## Consolidation finance report overview
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
+[!INCLUDE [finance_reports_consolidation](includes/finance-reports-consolidation-include.md)]
+
 ## Export and import consolidated data between databases
 
-If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
+If data for a business unit is in another database, you can do a manual file-based transfer or automate the process by using an API. To learn more about the API, go to [Use our API to automatically share data across environments](#use-our-api-to-automatically-share-data-across-environments).
+
+This section describes the manual, file-based process.
+
+You export the data to a file before you include it in the consolidation. Export each company separately by using the **Export Consolidation** batch job.  
 
 > [!TIP]
-> Use the same process to export consolidated data that must be submitted to Dynamics 365 Finance, such as if the current business unit is a subsidiary and the parent company uses Dynamics 365 Finance.
+> Use the same process to export consolidated data that you must submit to Dynamics 365 Finance. For example, if the business unit is a subsidiary and the parent company uses Dynamics 365 Finance.
 
 After you run the batch job, all entries in general ledger accounts are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totaled and exported. The next combination of the selected dimensions and date with the same account number is processed. Then the combinations in the next account number are processed, and so on.  
 
@@ -115,12 +122,15 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 3. The dimension value exported for the entry will be the consolidated company dimension value that is specified in the **Consolidation Code** field for that dimension value. If a consolidated company dimension value hasn't been entered in the **Consolidated Code** field for the dimension value, the dimension value itself will be exported to the line.  
 4. The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.  
 
-## See Also
+## Use our API to automatically share data across environments
+
+[!INCLUDE [prod_short](includes/prod_short.md)] provides an API that let's you automate the process of sharing financial data from business units to the consolidated company. The API is free to use and easy to set up. It even let's you share data across [!INCLUDE [prod_short](includes/prod_short.md)] environments. For example, you might need to share across environments when business units are not in the same Azure geographies. To learn more about using the API to automate the consolidation process, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
+
+## Related information
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

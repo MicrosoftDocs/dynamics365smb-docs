@@ -4,11 +4,12 @@ description: Russian enhancements include vendor tax agent schemes.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Vendor Tax Agent Scheme
@@ -150,7 +151,7 @@ Fill the fields in Vendor Card.
         - Currency Code
         - Amount - in USD/EUR
 
-## See Also
+## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

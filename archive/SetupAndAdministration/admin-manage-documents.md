@@ -3,7 +3,7 @@
     description: A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

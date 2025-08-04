@@ -1,19 +1,19 @@
 ---
-    title: Sale of Services to Overseas Place of Supply to registered customer
-    description: Sale of Services to Overseas Place of Supply to registered customer
+title: Sale of Services to Overseas Place of Supply to registered customer
+description: Sale of Services to Overseas Place of Supply to registered customer
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Sale of Services to Overseas Place of Supply to Registered Customer
 
@@ -67,7 +67,7 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
-## See Also 
+## Related information 
 [GST and TCS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md)
 
 

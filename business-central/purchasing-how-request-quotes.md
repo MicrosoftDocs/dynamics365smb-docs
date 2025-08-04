@@ -1,18 +1,17 @@
 ---
-title: Create a Purchase Quote to Request an Offer
+title: Create a purchase quote to request an offer
 description: Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
-ms.date: 08/08/2022
-ms.author: edupont
-
+ms.date: 03/14/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Request Quotes
+# Request quotes
 
 A purchase quote can be used as a preliminary draft for a purchase order, which can then be converted to a purchase invoice.
 
@@ -32,9 +31,7 @@ The purchase quote is removed from the database. A purchase order is created bas
 > [!NOTE]
 > It is not possible to convert a purchase quote to a purchase invoice directly, like it is possible with sales quotes. For details on how to create a purchase invoice, read [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## See related [Microsoft training](/training/modules/create-purchase-documents-dynamics-365-business-central/).
-
-## See also
+## Related information
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

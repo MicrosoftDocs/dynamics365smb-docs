@@ -1,18 +1,18 @@
 ---
-    title: TCS calculation and transactions as per Section 206C(1H)
-    description: TCS calculation and transactions as per Section 206C(1H)
+title: TCS calculation and transactions as per Section 206C(1H)
+description: TCS calculation and transactions as per Section 206C(1H)
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # TCS Calculation and Transactions as per Section 206C(1H)
 
@@ -102,7 +102,7 @@ For example, payment has been received from customer for INR 1,00,000 on which 0
 
 
 
-## See Also 
+## Related information 
 [TCS 206C-1H-Overview](TCS-206C-1H-Overview.md)
 
 

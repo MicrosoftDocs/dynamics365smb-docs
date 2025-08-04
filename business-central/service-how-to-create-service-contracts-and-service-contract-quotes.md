@@ -1,17 +1,14 @@
 ---
-    title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
-    description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-
+title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
+description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
@@ -192,7 +189,7 @@ You may need to cancel a service contract when the contract has expired or has b
 ## Filing a service contract or contract quote  
 You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[prod_short](includes/prod_short.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action in the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
-## See Also  
+## Related information  
 [Set Up Service Contracts](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
 [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  

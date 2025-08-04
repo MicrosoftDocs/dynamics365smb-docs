@@ -3,15 +3,14 @@
     description: The following table provides an overview of shortcut key combinations in Business Central.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/26/2023
     ms.author: sgroespe
 
 ---

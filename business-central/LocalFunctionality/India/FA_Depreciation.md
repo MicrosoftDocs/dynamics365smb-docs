@@ -1,18 +1,18 @@
 ---
-    title: FA Depreciation Calculation 
-    description: FA Depreciation Calculation
+title: FA Depreciation Calculation 
+description: FA Depreciation Calculation
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # FA Depreciation Calculation
 
@@ -70,7 +70,7 @@ Shift depreciation is used when manufacturing companies have multiple production
 
 
 
-## See Also 
+## Related information 
 [Fixed Asset Overview](FA_Overview.md)
 
 

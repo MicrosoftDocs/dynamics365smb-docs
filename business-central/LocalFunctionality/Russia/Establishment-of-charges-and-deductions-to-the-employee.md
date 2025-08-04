@@ -4,11 +4,12 @@ description: Russian enhancements include charges and deductions.
 author: DianaMalina
 
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Establishing Charges and Deductions to the Employee
@@ -69,7 +70,7 @@ In order to cancel or change a previously made employee accrual, you must genera
 
 In the process of posting a journal line of this type, the specified entry is modified in the Employee Ledger Entries. The modification changes the Amount or end date of the operation.
 
-## See Also
+## Related information
 
 [Human Resources](Human-Resources.md)
 

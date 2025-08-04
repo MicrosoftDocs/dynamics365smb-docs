@@ -1,27 +1,24 @@
 ---
-    title: Walkthrough Conducting a Sales Campaign
-    description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
-
+title: Walkthrough conducting a sales campaign
+description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
+author: brentholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords:
+ms.date: 01/31/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Walkthrough Conducting a Sales Campaign
+# Walkthrough conducting a sales campaign
 
 A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[prod_short](includes/prod_short.md)], you create a segment, or a group of contacts using filters.  
 
  You use these features in Sales & Marketing to carefully plan your marketing activities and to manage your interactions with contacts and customers. You can create campaigns and set up segments of your contacts for mailings and other types of interactions with your contacts and prospective customers.  
 
- The Campaign and Segment features with their automated processes enable you to plan, organize, and keep track of your marketing activities. This will increase the chances of winning new customers and retaining existing customers.  
+ The Campaign and Segment features with their automated processes enable you to plan, organize, and keep track of your marketing activities. This increases the chances of winning new customers and retaining existing customers.  
 
-## About This Walkthrough
+## About this walkthrough
 
  This walkthrough demonstrates the process for following up on a trade show and targeting potential customers (contacts) in a follow-up campaign.  
 
@@ -51,7 +48,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
  The marketing staffer in the Marketing department handles producing, distributing, and placing marketing material.  
 
- The company has just launched a new product called the Rome Guest Chair. The product was recently promoted at a trade show, Office Futurus. Many customers expressed great interest in the product, and as part of a promotional effort, customers who bought Rome Guest Chair during a campaign period were offered a special campaign price.  
+ The company has launched a new product called the Rome Guest Chair. The product was recently promoted at a trade show, Office Futurus. Many customers expressed great interest in the product, and as part of a promotional effort, customers who bought Rome Guest Chair during a campaign period were offered a special campaign price.  
 
  One of the marketing staffer’s tasks after the trade show is to enter all the potential customers as contacts.  
 
@@ -59,7 +56,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
  The staffer helps send out thank you letters to all the contacts who left their cards with the staff at the stand, and finally, the manager records all the responses they receive from the prospective customers.  
 
-## Setting Up a Campaign
+## Setting up a campaign
 
  As soon as the staffer has entered the business cards received at the trade show, the marketing manager sets up a campaign card to manage the activities involved in the campaign.  
 
@@ -71,11 +68,11 @@ A campaign is any kind of activity that involves several contacts. An important 
 4. Choose the **Status Code** field, and select the status code "1-PLAN". 
 5. Fill in the **Starting Date** and **Ending Date** fields of the campaign as appropriate.  
 
-## Selecting the Target Audience
+## Selecting the target audience
 
  The marketing manager creates a segment to select the contacts that they want to interact with.  
  
- When you create a segment, you can use a variety of criteria to select the contacts that must be targets for the segment. For example, you can select contact persons who work at a customer site or a prospective customer site who are responsible for purchases at their company. You use filters to add contacts according to the criteria that best fit your purposes. For example, you can choose to filter by the job responsibility of the contact person or the business relation or industry of the contact company. For this walkthrough, we'll choose the **Job Responsibility** filter to select contacts.
+ When you create a segment, you can use various criteria to select the contacts that must be targets for the segment. For example, you can select contact persons who work at a customer site or a prospective customer site who are responsible for purchases at their company. You use filters to add contacts according to the criteria that best fit your purposes. For example, you can choose to filter by the job responsibility of the contact person or the business relation or industry of the contact company. For this walkthrough, we'll choose the **Job Responsibility** filter to select contacts.
 
 ### To create a segment with the relevant contacts  
 
@@ -97,9 +94,9 @@ The **Segment** page now contains a list of contacts based on the filter you ent
 3. On the **Save Segment Criteria** page, enter a code for the segment. In the **Description** field, enter a description of the segment criteria.
 4. Choose the **OK** button.  
 
-## Mining the Data
+## Mining the data
 
- The marketing manager takes a closer look at the segmented list of contacts and realizes that the list is much too big. The manager decides to reduce the list based on actual, prospective customers to focus on the correct target group. This process of refining and reducing the data is also referred to as data mining.  
+ The marketing manager takes a closer look at the segmented list of contacts and realizes that the list is much too large. The manager decides to reduce the list based on actual, prospective customers to focus on the correct target group. This process of refining and reducing the data is also referred to as data mining.  
 
 ### To remove contacts from the segment  
 
@@ -119,9 +116,9 @@ The **Segment** page now contains a list of contacts based on the filter you ent
 1. On the **Segment** page, choose the **Segment** action.
 2. Choose the **Go Back** action.
 
-The contacts that you just removed are added back to the list of contacts.
+The contacts that you removed are added back to the list of contacts.
 
-## Linking a Segment to a Campaign
+## Linking a segment to a campaign
 
 The marketing manager decides that the reduced list is the final list of contacts that they want to be part of the campaign. They therefore link this segment to the campaign FUTURUS trade show.  
 
@@ -131,7 +128,7 @@ The marketing manager decides that the reduced list is the final list of contact
 2. Select **Yes**.  
 3. Since this segment is the target of the campaign, select the **Campaign Target** check box and choose **Yes**.  
 
-## Sending Letters and Email Messages to Contacts
+## Sending letters and email messages to contacts
 
  The marketing staffer helps the marketing manager send out correspondence to the prospective customers, in which they thank them for visiting the trade show.
 
@@ -147,7 +144,7 @@ The marketing manager decides that the reduced list is the final list of contact
 2. On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template code **BUS** and select **Yes**.
 3. Choose the **Language Code (Default)** field to open the **Segment Interaction Languages** page. Select a **Language Code** and then choose the **OK** button.
 4. Make sure that the **Correspondence Type (Default)** is set to **Hard Copy**.
-5. In the **Attachment** field select the **Ellipsis** box. This opens the Import Attachment dialog.
+5. In the **Attachment** field, select the **Ellipsis** box. This opens the Import Attachment dialog.
     1. Select the **Choose** button to choose your file.
     1. Find the file and select the **Open** button to attach it.
 6. In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**. Select the <kbd>Tab</kbd> key to leave the field, and select the **Yes** button.
@@ -158,11 +155,11 @@ The marketing manager decides that the reduced list is the final list of contact
 
 The attachments are sent. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
 
- The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+ The letters are automatically printed and the segment is logged. Because the segment has been logged, it's no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
 After the segment is logged, each letter that is sent is recorded as an interaction, which you can view in the log.  
 
-Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
+Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There's an entry for each sent letter.  
 
 ### To send an email message to a contact  
 
@@ -175,11 +172,11 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. Select the **Create Follow-up Segment** check box.  
 8. Choose the **OK** button.  
 
- The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+ The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it's no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
-## Registering Campaign Responses
+## Register campaign responses
 
- During the next couple of weeks, the prospective customers respond to the letter. The marketing manager wants to keep track of the responses and record these interactions.  
+ During the next couple of weeks, the prospective customers respond to the letter. The marketing manager wants to keep track of the responses and records these interactions.  
 
  For this purpose, set up a segment for the contacts who have responded to the letter.  
 
@@ -187,7 +184,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 
 1. On the **Segment** page, on the **Interaction** FastTab, choose the **Interaction Template Code** field.  
 
- There is no interaction template for recording responses to campaigns. Therefore, create a new template.  
+ There's no interaction template for recording responses to campaigns. Therefore, create a new template.  
 
 2. On the **Interaction Templates** dropdown, choose the **New** action.  
 3. In the **Code** field, enter **RESP**, and in the **Description** field, enter **Campaign Responses**.  
@@ -197,7 +194,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. On the **Segment** page, choose the **Log** action.  
 8. On the **Log Segment** page, clear the **Send Attachments** check box. Then choose the **OK** button to confirm the message that the segment has been logged.  
   
-## See Also  
+## Related information  
 [Relationship Management](marketing-relationship-management.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

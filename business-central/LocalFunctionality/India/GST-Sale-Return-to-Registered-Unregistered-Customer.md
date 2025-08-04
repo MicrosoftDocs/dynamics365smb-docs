@@ -1,18 +1,18 @@
 ---
-    title: Sales Return of Goods from Registered or Unregistered Customer
-    description: Sales Return of Goods from Registered or Unregistered Customer
+title: Sales Return of Goods from Registered or Unregistered Customer
+description: Sales Return of Goods from Registered or Unregistered Customer
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Sales Return of Goods from Registered or Unregistered Customer
 
@@ -76,7 +76,7 @@ For example, there is a sales credit memo for INR 10,000 and 18% GST (i.e. 9% CG
 
 
 
-## See Also 
+## Related information 
 [Sale Return from Registered Customer with Overseas POS](GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
 
 

@@ -1,17 +1,15 @@
 ---
-    title: Receiving and Putting Away in Advanced Warehousing
-    description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
-    author: SorenGP
+title: Receiving and Putting Away in Advanced Warehousing
+description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+author: brentholtorf
+ms.topic: how-to
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/24/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 
@@ -152,7 +150,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 5.  On the **Lines** FastTab, choose **Functions**, and then choose **Split Line**. A new line is inserted for item 70200 with 40 in **Qty. to Handle** field.  
 6.  In the **Bin Code** field, enter W-02-0001. The **Zone Code** field is automatically filled.  
 
-    By default, the **Zone Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    By default, the **Zone Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
     Proceed to register the put-away.  
 
@@ -160,7 +158,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
     The received accessories are now put-away in the items' default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
 
-## See Also  
+## Related information  
  [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   

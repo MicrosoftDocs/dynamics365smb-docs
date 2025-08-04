@@ -4,10 +4,10 @@ description: This article outlines how to use resources, time sheets, and projec
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.topic: article
+ms.topic: overview
 ms.search.keywords: projects
 ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015, 37033, 37034, 37035, 37036, 37037, 37038, 37039
-ms.date: 11/27/2024
+ms.date: 07/01/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -22,9 +22,9 @@ ms.custom: bap-template
 
 Project managers have a good overview of their projects, including the employees, machinery, and other resources they involve.
 
-## Get started with projects
+<!-- ## Get started with projects
 
-Project management can be complicated. For help with getting started with project management in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel.  
+Project management can be complicated. For help with getting started with project management in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel.  -->
 
 ## Set up projects
 

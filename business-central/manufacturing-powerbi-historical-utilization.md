@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 The **Historical Utilization** report provides insights into the historic use of manufacturing resources and machinery over time. It helps identify downtimes, busy periods, and bottlenecks so you can improve capacity planning and optimize the use of machinery and resources.
 
-:::image type="content" source="media/manufacturing/historical-utilization.png" alt-text="Screenshot of the Historical Utilization Power BI Report" lightbox="media/manufacturing/historical-utilization.png":::
+:::image type="content" source="media/manufacturing/historical-utilization-v26.png" alt-text="Screenshot of the Historical Utilization Power BI Report" lightbox="media/manufacturing/historical-utilization-v26.png":::
 
 ## Use the report
 
@@ -29,16 +29,17 @@ Manufacturing managers use this report to identify the historical utilization ra
 
 ## Key Performance Indicators (KPIs)
 
-The *Historical Utilization* report includes the following KPIs and measures: 
+The *Historical Utilization* report includes the following KPIs and measures:
 
-- [Capacity Used (Hours)](manufacturing-powerbi-kpis.md#capacity-used-hours)
-- [Utilization %](manufacturing-powerbi-kpis.md#utilization)
-- [Capacity Available (Hours)](manufacturing-powerbi-kpis.md#capacity-available-hours)
+- [Work Center Load](manufacturing-powerbi-kpis.md#work-center-load)
+- [Work Center Allocated Time](manufacturing-powerbi-kpis.md#work-center-allocated-time)
+- [Work Center Availability After Orders](manufacturing-powerbi-kpis.md#work-center-availability-after-orders)
+- [Work Center Capacity (Total)](manufacturing-powerbi-kpis.md#work-center-capacity-total)
+- [Work Center Capacity (Effective)](manufacturing-powerbi-kpis.md#work-center-capacity-effective)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
-
 
 ## Data used in the report
 

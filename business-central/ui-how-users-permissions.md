@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: how-to
 ms.search.keywords: access, right, security
 ms.search.form: 119, 774_Primary, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9816, 9818, 9874
-ms.date: 05/03/2024
+ms.date: 06/10/2025
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -15,16 +15,16 @@ ms.custom: bap-template
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
-
 This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. This article also describes how to assign permissions to different users according to your product licenses.
 
-When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. You can also organize users in user groups. User groups make it easier to manage permissions and other settings for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+## Basics
 
-For more information about the different types of licenses and how licensing works in [!INCLUDE[prod_short](includes/prod_short.md)], [download the Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. 
+- You can also organize users in security groups. Security groups make it easier to manage permissions and other settings for multiple users at the same time.
+  [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+- There are several license types. Learn about the different types of licenses and how licensing works in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-> [!NOTE]
-> The process of managing users and licenses varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
+- The process of managing users and licenses varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
 
 ## Manage users and licenses in online tenants
 
@@ -57,9 +57,9 @@ Both approaches have their own advantages, and you can use them simultaneously. 
 >
 > However, users who experience this problem aren't actually blocked. They can either use the **Go back home** action, or simply sign in again to resolve the issue.
 
-[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+### Delegated admin users
 
-For more information, see [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ### <a name="licensespermissions"></a>Configure permissions based on licenses
 

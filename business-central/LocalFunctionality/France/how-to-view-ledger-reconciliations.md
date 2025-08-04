@@ -1,15 +1,14 @@
 ---
-title: How to View Ledger Reconciliations
-description: Learn how to view general ledger reconciliation with the customer ledger  
-and vendor ledger in the French version of Business Central.
+title: How to view ledger reconciliations
+description: Learn how to view general ledger reconciliation with the customer ledger and vendor ledger in the French version of Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: ledger reconciliation, customer ledger, vendor ledger, French version
 ms.date: 04/16/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # View ledger reconciliations
@@ -29,7 +28,7 @@ The following procedure applies to viewing reconciliation between the general le
 
 1. Choose the **Preview** button.  
 
-You can now view the debit and credit amounts for each customer, and you can see the document numbers that resulted in each general ledger transaction.  
+You can now review the debit and credit amounts for each customer, and the document numbers that resulted in each general ledger transaction.  
 
 ## Related information
 

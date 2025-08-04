@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 41,
-ms.date: 05/19/2025
+ms.date: 06/19/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -76,7 +76,12 @@ Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field th
 > [!NOTE]
 > Depending on the extension that your company uses for email, administrators can access a list of messages that people sent, but not the content of the messages
 
-The **Email Outbox** contains the emails that you saved as drafts and emails that failed to send. For example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
+The **Email Outbox** page contains the emails that you saved as drafts and emails that failed to send. For example, if the email address was invalid. The **Error Message** field provides information about what went wrong, but you can also choose the **Show Error** or **Investigate Error** actions to troubleshoot the problem in more detail. The details that the **Investigate Error** action provides are helpful if you must contact support.
+
+If you set up your email to send messages in the background using the job queue, when a message fails to send, [!INCLUDE [prod_short](includes/prod_short.md)] tries to send it again every few minutes up to 10 times. If a retry fails, [!INCLUDE [prod_short](includes/prod_short.md)] records the reason and you can use the **Retry Detail** action to review it. If you want to cancel the message, use the **Cancel Sending** action. The **Error Message** field updates to **Sending email cancelled by user**, which makes it easy to identify which messages you canceled.
+
+> [!NOTE]
+> The retry feature works only for messages that are scheduled to send in the background. If you manually send a message and it fails, [!INCLUDE [prod_short](includes/prod_short.md)] won't retry to send it.
 
 ## Related information
 

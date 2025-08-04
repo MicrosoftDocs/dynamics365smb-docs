@@ -6,6 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: article
 ms.date: 04/01/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -42,7 +43,7 @@ The following table describes when and how data can move across geographies for 
 
 To find the Azure region where a Business Central environment is hosted, sign in to the Business Central admin center, choose the environment to display details, and then find the **Azure Region** field. Learn more: [Managing production and sandbox environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)
 
-![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg)
+![Shows the environment details in Business Central admin center](media/business-central-admin-center-azure-region.svg "Shows the environment details in Business Central admin center")
 
 ## Related information
 

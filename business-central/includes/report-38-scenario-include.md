@@ -1,0 +1,1 @@
+Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account.

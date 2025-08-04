@@ -1,12 +1,12 @@
 ---
 title: Czech Local Functionality VAT correction in Local Currency
-description: The following articles describe VAT correction in Local Currency functionality in the Czech version of Business Central.
+description: Learn how to use the VAT correction in local currency feature in the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 11/13/2023
-ms.reviewer: bholtorf
+ms.date: 06/04/2025
+ms.reviewer: v-soumramani
 ms.author: v-pejano
 ---
 
@@ -16,9 +16,8 @@ The current system allows you to adjust input VAT only in the currency of the do
 
 ## Related information
 
-[Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)  
-
+- [Core localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
+- [Czech local functionality](czech-local-functionality.md)  
+- [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

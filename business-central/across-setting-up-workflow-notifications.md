@@ -1,12 +1,12 @@
 ---
 title: Setting up approval workflow notifications
-description: This article tells you how to set up workflow notifications to alert a user that an event has occurred that they must react to; a workflow response is required. 
+description: This article explains how to set up workflow notifications to alert a user to an event that they must react to. 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords:
-ms.date: 05/03/2024
+ms.date: 06/10/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

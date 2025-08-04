@@ -966,7 +966,28 @@
             "source_path": "business-central/LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md",
             "redirect_url": "/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts",
             "redirect_document_id": "false"
-         }
+         },
+         {
+            "source_path": "business-central/finance-set-up-inventory-valuation-and-costing.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-handle-inventory-and-manufacturing-costs.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-how-to-update-standard-costs.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-learn-about-costing.md",
+            "redirect_url": "/dynamics365/business-central/finance-manage-inventory-costs",
+            "redirect_document_id": "false"
+         }         
+
         
          
         ]

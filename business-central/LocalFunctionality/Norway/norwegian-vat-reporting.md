@@ -10,6 +10,7 @@ ms.date: 05/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ms.custom: sfi-image-nochange
 ---
 
 # Norwegian VAT reporting

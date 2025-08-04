@@ -4,7 +4,7 @@ description: Import customers and companies from or export to Shopify.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.date: 03/20/2025
+ms.date: 07/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
@@ -41,7 +41,7 @@ Whether you import customers from Shopify in bulk or when you import orders, use
 |**Customer Mapping Type**|Define how you want the connector to perform the mapping.</br></br>- **By Email/Phone** if you want the connector to use email account and telephone information to map the imported Shopify customer to a customer in Business Central.</br></br>- **By Bill-to Info** if you want the connector to use the address of the invoice recipient to map the imported Shopify customer to an existing customer in Business Central.</br></br>- **Always Take the Default Customer** if you want the system to use a customer from the **Default Customer No.** field. |
 |**Shopify Can Update Customers**| Select this field if you want the connector to update the customers it finds when either of the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field.|
 |**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer is created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you must create a customer manually and link it to the Shopify customer.|
-|**Customer.Company Template Code**|Use this field together with **Auto Create Unknown Customers**.</br></br>Choose the default template to use for automatically created customers. Make sure the selected template contains the mandatory fields such as **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT) or tax-related fields.</br></br>You can define templates per country/region on the **Shopify Customer Templates** page, which helps calculate taxes correctly.</br></br>Learn more at [Set Up Taxes](setup-taxes.md).|
+|**Customer/Company Template Code**|Use this field together with **Auto Create Unknown Customers**.</br></br>Choose the default template to use for automatically created customers. Make sure the selected template contains the mandatory fields such as **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT) or tax-related fields.</br></br>You can define templates per country/region on the **Shopify Customer Templates** page, which helps calculate taxes correctly.</br></br>Learn more at [Set Up Taxes](setup-taxes.md).|
 
 ### Customer template per country/region
 
@@ -283,4 +283,7 @@ If standard metafields are defined, you can use the **Get Metafield Definitions*
 
 ## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

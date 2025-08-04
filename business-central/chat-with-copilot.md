@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 04/01/2025
+ms.date: 06/27/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection:
@@ -128,6 +128,7 @@ You can rate the answers you get from Copilot by using the like (thumbs up) butt
 
 ## Related information
 
+[Chat with Copilot FAQ](chat-with-copilot-faq.md)  
 [Analyze data in lists with help from Copilot](analysis-assist.md)  
 [Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Configure Copilot and agent capabilities](enable-ai.md)  

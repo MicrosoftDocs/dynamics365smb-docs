@@ -1,10 +1,10 @@
 ---
-title: Keyboard shortcuts
+title: Keyboard Shortcuts
 description: View a list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2025
+ms.date: 08/04/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central

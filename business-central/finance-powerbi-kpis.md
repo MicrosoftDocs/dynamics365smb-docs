@@ -65,7 +65,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 
 ### Average Collection Period (Days) 
 **Formula**  
-( [No. of Days](#no-of-days) * [Accounts Receivable (Average)](#accounts-receivable-average) ) / [Revenue](#revenue)
+( [No. of Days](#no-of-days) * [Accounts Receivable (Net Change)](#accounts-receivable-net-change) ) / [Revenue](#revenue)
 
 **Data Sources**
 - Date
@@ -139,6 +139,7 @@ The No. of Days measure calculates the total number of days within a selected pe
 - [Accounts Receivable](#accounts-receivable)   
 - [Accounts Receivable (Average)](#accounts-receivable-average)   
 - [Accounts Receivable (Beginning Balance)](#accounts-receivable-beginning-balance)   
+- [Accounts Receivable (Net Change)](#accounts-receivable-net-change)
 - [Assets](#assets)
 - [Capital Employed](#capital-employed)   
 - [Current Assets](#current-assets)   
@@ -197,6 +198,15 @@ The Accounts Receivable measure calculates the [Balance at Date](#balance-at-dat
 ### Accounts Receivable (Beginning Balance) 
 **Formula**  
 The Accounts Receivable (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [accounts receivable](#accounts-receivable) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Accounts Receivable (Net Change) 
+**Formula**  
+The Accounts Receivable (Net Change) measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Accounts Receivable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Receivable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
 **Data Sources**
 - G/L Entry

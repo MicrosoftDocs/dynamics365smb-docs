@@ -21,7 +21,7 @@ You can find an overview of the most popular keyboard shortcuts in [Keyboard sho
 > [!TIP]
 > For a graphical view of the most-used keyboard shortcuts, select the following image, and download the PDF file.
 >
-> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2024.pdf "Icon that opens a PDF")
+> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2025.pdf "Icon that opens a PDF")
 
 ## Overview of keyboard shortcuts
 

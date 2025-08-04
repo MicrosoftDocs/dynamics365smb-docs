@@ -33,8 +33,8 @@ sections:
         answer: Connectors are already technically enabled, so there's no need to develop them yourself. However, you must have a contract with the respective service provider. Using the service might incur extra costs.
       - question: Can I use different e-document formats if my customers have varying preferences for the required format?
         answer: Yes, you can. You’re able to assign a specific e-document format to each customer based on their preferences. However, you cannot use multiple formats simultaneously for the same customer. To support different formats, create separate E-Document Services, each configured with the desired format. Set up workflows for each service and link them to corresponding Document Sending Profiles. Finally, assign the appropriate Document Sending Profile to each customer. This setup ensures that each customer receives e-documents in their preferred format while maintaining consistency per customer.
-      - question: Is tehere a log about all changes and communication with external services?
-        answer: Yes, each e-document includes two types of logs: the Document Log, which records the creation and processing of both e-documents and standard documents in Business Central for auditing purposes across sales and purchase flows, and the Integration Log, which captures the communication between Business Central and external services—such as sending and receiving documents, status updates, and other integration-related activities.
+      - question: Is there a log with all changes and communication with external services?
+        answer: Yes, each e-document includes two types of logs; The Document Log, which records the creation and processing of both e-documents and standard documents in Business Central for auditing purposes across sales and purchase flows, and the Integration Log, which captures the communication between Business Central and external services — such as sending and receiving documents, status updates, and other integration-related activities.
   - name: Localizations
     questions:
       - question: What about supported formats in Denmark?

@@ -41,7 +41,7 @@ A network of more than 4,000 Microsoft partners world-wide provides local expert
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|
-| Tailor the system to fit the business. | Enjoy a system that was designed from the start for mid-sized businesses. | [Overview]( https://www.microsoft.com/dynamics-365/products/business-central/) |
+| Tailor the system to fit the business. | Enjoy a system that was designed from the start for mid-sized businesses. | [Overview](https://www.microsoft.com/dynamics-365/products/business-central/) |
 | Address regulatory and local practices. | Comply with local legal requirements and business practices. | [Local Functionality](about-localization.md) |
 | Access multiple companies from a single page. | Get quick access to any Business Central company in your organization. | [Company Hub](ui-extensions-company-hub.md) |
 | Handle multiple languages and currencies. | Support for multiple languages and currencies helps meet local needs. | [Multi-language capabilities](about-locale-language.md)<br></br>[Multi-currency capabilities](finance-how-setup-additional-currencies.md) |

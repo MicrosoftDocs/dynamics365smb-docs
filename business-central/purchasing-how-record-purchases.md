@@ -124,6 +124,9 @@ Create over-receipt codes to define a percentage by which a received quantity ca
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Over-Receipt Codes**, then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
+> [!NOTE]
+> You can set up an approval workflow requiring over-receipts to be approved before they can be handled. Select the **Approval Required** checkbox on the **Over-Receipt Codes** page. Learn more at [Create Workflows](across-how-to-create-workflows.md).
+
 ### Assign the over-receipt code to an item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
@@ -133,7 +136,7 @@ Create over-receipt codes to define a percentage by which a received quantity ca
 The over-receipt code is assigned to the item. Purchase orders or warehouse receipts for the item now allow you to receive more than the ordered quantity within the over-receipt tolerance percentage.
 
 > [!NOTE]
-> You can set up an approval workflow requiring over-receipts to be approved before they can be handled. Select the **Approval Required** checkbox on the **Over-Receipt Codes** page. Learn more at [Create Workflows](across-how-to-create-workflows.md).
+> You cannot receive more than ordered for orders created from to blanket purchase orders. Learn more at [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md).
 
 ### Over-receive an order
 

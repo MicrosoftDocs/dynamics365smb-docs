@@ -16,14 +16,17 @@ ms.reviewer: bholtorf
 
 European Union (EU) third-party trade occurs when you receive a purchase invoice from a customer in one EU country/region, and the products are sent to a different EU country/region without entering the country of residence. The transaction amount can be identified and reported separately to comply with some EU countries'/regions' value-added tax (VAT) reporting and VAT Information Exchange System (VIES) requirements. Microsoft Dynamics 365 Business Central enables purchase transactions to be set up as EU third-party trade. Posted EU third-party transactions can be filtered in VAT statements and excluded from the amount in the **Sales to Customer** column of the **VAT-VIES Declaration Tax Auth** report.
 
-Even if the feature is preinstalled as an extension, it isn't activated by default. Follow these steps to activate the feature.
+## Prerequisites
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, go to the **Feature Management** workspace, and then select the related link.
-2. In the list, find and select **Feature update: Replace the existing EU 3-Party Purchase functionality with the new EU 3-Party Trade Purchase extension**.
-3. In the **Enabled for** column, select **All users**.
+- EU third-party trade functionality is unavailable in the German (DE) or Italy (IT) localized versions, because it's not compatible with the local VAT reporting and declaration features specific to these countries/regions.
 
-> [!NOTE]
-> If you use the German or Italian localization, you won't be able to enable this app because it's not compatible with certain VAT features in those localizations.  
+- For Sweden (SE) and Finland (FI) localized versions, the functionality is enabled in **Feature Management**.
+
+  Even if the feature is preinstalled as an extension, it isn't enabled by default.
+
+  1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, go to the **Feature Management** workspace, and then select the related link.
+  1. In the list, find and select **Feature update: Replace the existing EU 3-Party Purchase functionality with the new EU 3-Party Trade Purchase extension**.
+  1. In the **Enabled for** column, select **All users**.
 
 ## Enable EU third-party trade functionality for a purchase
 

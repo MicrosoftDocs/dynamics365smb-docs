@@ -83,6 +83,7 @@ The following table lists the permissions needed to use the different Copilot an
 | Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat |**Copilot Sys Features** permission set or execute permission on system object 9690 **Allow Copilot Chat**. |
+|No. series suggestions|No permissions or permission sets control access to this Copilot feature. Users who can set up number series can use Copilot for assistance when the **No. series suggestions** feature is activated.  |
 | Suggest substitute items| Permission on page 7410 **Item Subst. Suggestion** and page 7411 **Item Subst. Suggestion Sub**.|
 | Summarize |**Copilot Sys Features** permission set or execute permission on system object 9680 **Allow Copilot Summary**. |
 | Map e-documents | Permission on page 6166 **E-Doc. PO Copilot Prop**. |

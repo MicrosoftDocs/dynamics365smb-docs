@@ -18,11 +18,11 @@ European Union (EU) third-party trade occurs when you receive a purchase invoice
 
 ## Prerequisites
 
-- EU third-party trade functionality is unavailable in the German (DE) or Italy (IT) localized versions, because it's not compatible with the local VAT reporting and declaration features specific to these countries/regions.
+- The EU third-party trade feature is unavailable in the German (DE) or Italy (IT) localized versions, because it's not compatible with the local VAT reporting and declaration features specific to these countries/regions.
 
-- For Sweden (SE) and Finland (FI) localized versions, the functionality is enabled in **Feature Management**.
+- For Sweden (SE) and Finland (FI) localized versions, activate the EU third-party trade feature in **Feature Management**.
 
-  Even if the feature is preinstalled as an extension, it isn't enabled by default.
+  Even if the feature is preinstalled as an extension, it isn't activated by default. Follow these steps:
 
   1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, go to the **Feature Management** workspace, and then select the related link.
   1. In the list, find and select **Feature update: Replace the existing EU 3-Party Purchase functionality with the new EU 3-Party Trade Purchase extension**.

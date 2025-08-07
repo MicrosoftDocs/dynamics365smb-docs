@@ -34,7 +34,7 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 |--|--|
 | **Import** | Specifies if the currency has an imported exchange rate. |
 | **Ru Bank Code** | Specifies the Russian bank code associated with the currency. |
-| **Ru Bank Digital Code** | Specifies the Russian bank digital code associated with the currency. |currency|
+| **Ru Bank Digital Code** | Specifies the Russian bank digital code associated with the currency. |
 
 ### Import currency rates
 

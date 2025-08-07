@@ -10,6 +10,7 @@ ms.date: 05/15/2025
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
+ms.custom: sfi-image-nochange
 ---
 
 # Norwegian VAT reporting
@@ -61,7 +62,7 @@ After you register your company in ID-Porten, the next step is to create an inte
     | Tillatte grant types | A grant represents the user's consent to retrieve an access token. By selecting specific grants, you consent to the corresponding methods of retrieving an access token. | <p>Select the following grant types:</p><ul><li>**authorization_code**</li><li>**refresh_token**</li></ul> |
     | Klientautentiseringsmetode | The method of authentication of your client. | Specify **client_secret_post**. |
     | Applikasjonstype | The application (or client) type is the type of runtime environment that the client is running under. OAuth2 chapter 2.1 lists the available options. The choice of client type is a security assessment that the customer performs. | Select **web**. |
-    | Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you use Business Central online or on-premises. For online, use the following URI, `https://www.businesscentral.dynamics.com/OAuthLanding.htm`. Here's an example of a URI for on-premises: `https://<hostname>/OAuthLanding.htm`. |
+    | Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you use Business Central online or on-premises. For online, use the following URI, `https://businesscentral.dynamics.com/OAuthLanding.htm`. Here's an example of a URI for on-premises: `https://<hostname>/OAuthLanding.htm`. |
     | Gyldig(e) post logout redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign out. | Specify `https://skatteetaten.no`. |
     | Frontchannel logout uri | The URI that the provider sends a request to upon sign out that another client triggers in the same session. If you don't set this parameter, you risk that users remain signed in to your service when they sign out of ID-porten. | The value should be blank. |
     | Frontchannel logout krever sesjons-id | This parameter applies only to personal sign-in integrations. It's a flag that determines whether the issuer and session ID parameters are passed together with **frontchannel_logout_uri**. | Leave this checkbox cleared. |

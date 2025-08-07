@@ -2,7 +2,7 @@
 title: Welcome to Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central that help companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: jswymer
-ms.topic: landing-page
+ms.topic: concept-article
 ms.devlang: al
 ms.date: 06/20/2025
 ms.author: jswymer
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
 
-If you already have [!INCLUDE[prod_short](includes/prod_short.md)], sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/), [take the guided tour](https://dynamics.microsoft.com/guidedtour/dynamics/business-central/1/1), and then [learn how to start a free trial](trial-signup.md). Check out the [quickstart articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], go to [Get Ready for Doing Business](ui-get-ready-business.md).  
+If you already have [!INCLUDE[prod_short](includes/prod_short.md)], sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://www.microsoft.com/dynamics-365/products/business-central/), [take the guided tour](https://dynamics.microsoft.com/guidedtour/dynamics/business-central/1/1), and then [learn how to start a free trial](trial-signup.md). Check out the [quickstart articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], go to [Get Ready for Doing Business](ui-get-ready-business.md).  
 
 ## Core business functionality
 

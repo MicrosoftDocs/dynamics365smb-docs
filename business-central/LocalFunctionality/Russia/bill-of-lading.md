@@ -10,7 +10,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Bill of Lading in the Russian version
+# Bill of lading in the Russian version
 
 In Russia, a bill of lading is a legal document between the company that ships the items and the carrier. The document accompanies the shipped items, and it serves as a receipt of shipment when the items are delivered at the destination.
 

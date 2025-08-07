@@ -66,11 +66,11 @@ The **G/L Corresp Entries Analysis** report shows the correspondence entries for
 
    On the **Options** tab of the request form, you can set parameters by filling in the fields with the information listed in the following table.
 
-   | Field                  | Description                                                  |
-   | ---------------------- | ------------------------------------------------------------ |
-   | **Period Beginning**   | Enter the starting date of the period, for the entries that you want to include in the report. |
-   | **Ending of Period**   | Enter the ending date of the period, for the entries that you want to include in the report. |
-   | **Other parameters**:<br />**Without Zero Net Changes**, **Without Zero Lines**, **Debit Credit Separately**, **New Page for GL Acc** | Specify the view of the report, such as whether the information for each account should be written without zero lines or net changes. |
+   | Field | Description |
+   |--|--|
+   | **Period Beginning** | Enter the starting date of the period, for the entries that you want to include in the report. |
+   | **Ending of Period** | Enter the ending date of the period, for the entries that you want to include in the report. |
+   | **Other parameters**:<br/>**Without Zero Net Changes**, **Without Zero Lines**, **Debit Credit Separately**, **New Page for GL Acc** | Specify the view of the report, such as whether the information for each account should be written without zero lines or net changes. |
 
 ## Related information
 

@@ -37,7 +37,7 @@ Before depreciation bonus is calculated, you have to make sure that the appropri
 | **Depr. Bonus Recov. Per. (Year)** | Enter the period in which the depreciation bonus is recovered if the fixed asset is sold. |
 | **Depr. Bonus Recovery TD Code** | Enter the tax difference code that is used to calculate the depreciation bonus recovery amount in tax accounting. |
 
-## Selecting and canceling depreciation bonus transactions
+## Select and cancel depreciation bonus transactions
 
 Depreciation bonus transactions should be posted before the monthly depreciation amount is calculated and posted.
 

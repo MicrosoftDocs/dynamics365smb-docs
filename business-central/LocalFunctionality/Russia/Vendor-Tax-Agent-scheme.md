@@ -1,20 +1,18 @@
 ---
 title: Vendor tax agent scheme in Russia
-description: Russian enhancements include vendor tax agent schemes.
+description: Learn about vendor tax agent schemes in Russia, including enhancements for VAT processing and payment workflows.
 author: DianaMalina
-
-
 ms.topic: article
-ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: bholtorf
+ms.search.keywords: vendor tax agent, tax agent scheme, VAT processing, payment workflow, vendor funds, VAT payment, Russia
+ms.date: 07/22/2025
+ms.reviewer: v-soumramani
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Vendor Tax Agent Scheme
+# Vendor tax agent scheme
 
-## VAT from Internal Funds
+## VAT from internal funds
 
 Fill in the fields on the vendor card.
 
@@ -24,42 +22,42 @@ Fill in the fields on the vendor card.
 
     - Agreement numbers required.
 
-2. On the agreement card:
+1. On the agreement card:
 
     - VAT Bus. Posting Group
     - VAT Agent Prod. Posting Group
     - VAT Payment Source Type - Internal Funds
 
-## Prepayment and Payment VAT
+## Prepayment and payment VAT
 
 1. Create and release an invoice
 
     Agreement No. (with settings for Vendor with VAT Payment from internal funds) should be specified.
 
-2. Create a line in Payment Journal:
+1. Create a line in Payment Journal:
 
     - Document Type - Payment
     - Prepayment - yes
     - Prepayment Document No is required.
 
-3. Post lines of Journal
+1. Post lines of Journal
 
     Operations with VAT are automatically generated in rubles.
 
-4. Create and post line in Payment Journal for Tax Authority with VAT Amount of prepayment.
+1. Create and post line in Payment Journal for Tax Authority with VAT Amount of prepayment.
 
-5. Ship and post invoice.
+1. Ship and post invoice.
 
-6. Create a line in Payment Journal
+1. Create a line in Payment Journal
 
     - Document Type - Payment
     - Initial Document No. - No. of posted invoice
     - Applies-to Doc. No. - No. of posted invoice
 
-7. Create and post payment to the Tax Authority.
-8. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT](Settlement-VAT.md)).
+1. Create and post payment to the Tax Authority.
+1. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT](Settlement-VAT.md)).
 
-## VAT from Vendor Funds
+## VAT from vendor funds
 
 Fill the fields in Vendor Card.
 
@@ -68,17 +66,17 @@ Fill the fields in Vendor Card.
     - Agreement posting - mandatory.
     - Agreement Nos is required.
 
-2. In Agreement card:
+1. In Agreement card:
 
     - VAT Bus. Posting Group
     - VAT Agent Prod. Posting Group
     - VAT Payment Source Type - Vendor Funds
 
-## Post Prepayment and Payment VAT
+## Post prepayment and payment VAT
 
 1. Create and release an invoice.
 
-2. For the payment in the currency for the bank and in rubles for the vendor it is necessary to create two lines in the **payment journal**.
+1. For the payment in the currency for the bank and in rubles for the vendor it's necessary to create two lines in the **payment journal**.
 
     - **For vendor:**
 
@@ -107,22 +105,22 @@ Fill the fields in Vendor Card.
         - Currency Code
         - Amount - in USD/EUR
 
-3. Post the lines of Journal.
-4. Ship.
+1. Post the lines of Journal.
+1. Ship.
 
     You can change the Currency Code and Amount in the Invoice.
 
-5. Post the invoice.
+1. Post the invoice.
 
-6. Apply Entry.
+1. Apply Entry.
 
-7. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT](Settlement-VAT.md)).
+1. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT](Settlement-VAT.md)).
 
-    At the end of the period will be formed entries as a result of revaluation of debt.
+    At the end of the period entries are formed as a result of revaluation of debt.
 
-8. Create and post lines in Payment Journal.
+1. Create and post lines in Payment Journal.
 
-    For the payment in the currency for the bank and in rubles for the vendor it is necessary to create two lines in the payment journal.
+    For the payment in the currency for the bank and in rubles for the vendor it's necessary to create two lines in the payment journal.
 
     - **For vendor:**
 
@@ -154,6 +152,5 @@ Fill the fields in Vendor Card.
 ## Related information
 
 [Russia Local Functionality](russia-local-functionality.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

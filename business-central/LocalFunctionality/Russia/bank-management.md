@@ -31,11 +31,11 @@ By copying procedures from the posted bank payment order and cash order document
 
 You can print the following required bank management documents.
 
-| Report                        | Description                                                  |
-| :---------------------------- | :----------------------------------------------------------- |
-| **Bank Payment Order**        | This report is a copy of the bank payment order.             |
-| **Bank Account G/L Turnover** | This report is a list of general ledger turnover information.|
-| **Bank Account Card**         | This report contains information about bank operations.      |
+| Report | Description |
+|:-|:-|
+| **Bank Payment Order** | This report is a copy of the bank payment order. |
+| **Bank Account G/L Turnover** | This report is a list of general ledger turnover information. |
+| **Bank Account Card** | This report contains information about bank operations. |
 
 ## Related information
 

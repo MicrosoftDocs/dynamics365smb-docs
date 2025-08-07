@@ -20,30 +20,30 @@ To make changes in the Staff List  go to **Human Resources** > **Organization** 
 
 1. In the header of the order, fill the fields:
 
-   | Field                       | Description                                                  |
-   | --------------------------- | ------------------------------------------------------------ |
-   | No.                         | Specifies the number of the involved entry or record, according to the specified number series. |
-   | Document Date               | Specifies the date when the related document was created.    |
-   | Posting date                | Specifies the entry's posting date.                          |
+   | Field | Description |
+   |--|--|
+   | No. | Specifies the number of the involved entry or record, according to the specified number series. |
+   | Document Date | Specifies the date when the related document was created. |
+   | Posting date | Specifies the entry's posting date. |
    | HR Order No., HR Order Date | The number and date specified in the fields are used to form the printed form of the order to make changes to the staff List |
-   | Description                 | Specifies the description associated with this line.         |
+   | Description | Specifies the description associated with this line. |
 
    The HR Manager No. and Chief Accountant No. fields are filled automatically according to the organization settings.
 
 1. The fields must be filled on the lines:
 
-   | Field  | Description                                                  |
-   | ------ | ------------------------------------------------------------ |
-   | Type   | Position/Org. Unit                                           |
-   | Code   | Code of position or Org. Unit                                |
+   | Field | Description |
+   |--|--|
+   | Type | Position/Org. Unit |
+   | Code | Code of position or Org. Unit |
    | Action | Approve/Reopen/Close/Rename – type of action to be performed on this staffing item |
 
 1. Post order.
 
    > [!NOTE]
-   > Only an unoccupied position that isn't the highest for any other position can be closed.
+   > - Only an unoccupied position that isn't the highest for any other position can be closed.
    >
-   > A unit can be closed if all positions in it are closed.
+   > - A unit can be closed if all positions in it are closed.
 
 ## Forming of staff list
 

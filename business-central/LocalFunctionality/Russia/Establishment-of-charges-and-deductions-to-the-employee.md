@@ -10,7 +10,7 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Establishing charges and deductions to the employee
+# Establish charges and deductions to the employee
 
 The Employee Journal is the primary means of changes in the list of charges/deductions established for the employee. The employee journal can also be used to record non-financial personnel orders.
 

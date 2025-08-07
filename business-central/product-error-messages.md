@@ -61,7 +61,7 @@ The following video shows how to use actionable error messages to get unblocked.
 
 ### Tip for developers
 
-If you're a developer, when you call the [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) method, but don't pass in the |`ErrorInfo` object, [!INCLUDE [prod_short](includes/prod_short.md)] automatically generates the link to a page where a user can correct the issue. [!INCLUDE [prod_short](includes/prod_short.md)] first gets the lookup or drill-down page for the record, and then finds the card page or lookup page and adds a navigation link to that card page. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't add a link in the following situations:
+If you're a developer, when you call the [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) method, but don't pass in the `ErrorInfo` object, [!INCLUDE [prod_short](includes/prod_short.md)] automatically generates the link to a page where a user can correct the issue. [!INCLUDE [prod_short](includes/prod_short.md)] first gets the lookup or drill-down page for the record, and then finds the card page or lookup page and adds a navigation link to that card page. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't add a link in the following situations:
 
 * If the error is on the page that's currently open.
 * If the user doesn't have permission to modify the underlying record.

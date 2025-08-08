@@ -37,20 +37,20 @@ Post prepayment in the General journal (see [Prepayment to the vendor and custom
 
 To return a prepayment, you must create a realized VAT record.
 
-Go to **Customer ledger entries** > select **returned prepayment** > select **return payment**.
+1. Go to **Customer ledger entries** > select **returned prepayment** > select **return payment**.
 
-Fill in the fields:
+1. Fill in the fields:
 
-| Field | Description |
-|--|--|
-| Posting Date | Specifies the posting date of the entries that you want to include in the report or batch job. |
-| Document No. | Specifies the number of the related document. |
-| New posting Date | Specifies the new posting date. |
-| New Document No. | Specifies the new document number for the prepayment. |
-| Posting Description | Specifies the description that is added to the resulting posting. |
-| Correction | Specifies the operation is corrective. |
+   | Field | Description |
+   |--|--|
+   | Posting Date | Specifies the posting date of the entries that you want to include in the report or batch job. |
+   | Document No. | Specifies the number of the related document. |
+   | New posting Date | Specifies the new posting date. |
+   | New Document No. | Specifies the new document number for the prepayment. |
+   | Posting Description | Specifies the description that is added to the resulting posting. |
+   | Correction | Specifies the operation is corrective. |
 
-Select **OK**. The system automatically creates corrective entries.
+1. Select **OK**. The system automatically creates corrective entries.
 
 ## Related information
 

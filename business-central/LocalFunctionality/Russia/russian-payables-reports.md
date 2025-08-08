@@ -142,12 +142,12 @@ To access the **Vendor Entries Analysis** report:
 
 1. On the **Vendor** FastTab of the request page, you can define the vendor number or a range of numbers, depending on whether you want to print the report for one vendor or for many vendors. On the **Options** FastTab, you can specify the format options listed in the following table.
 
-  | Parameter | Description |
-  |--|--|
-  | **Starting Date** | Select this option to specify the start date of the period. |
-  | **Ending of period** | Select this option to specify the end date of the period. |
-  | **Report Currency** | Select this option to specify the currency you want to use in the report. You can choose:   -   **Local currency** -   **Transaction currency** |
-  | **New Page For Vendor** | Select this option to print the data for each vendor on a separate page. |
+   | Parameter | Description |
+   |--|--|
+   | **Starting Date** | Select this option to specify the start date of the period. |
+   | **Ending of period** | Select this option to specify the end date of the period. |
+   | **Report Currency** | Select this option to specify the currency you want to use in the report. You can choose:   -   **Local currency** -   **Transaction currency** |
+   | **New Page For Vendor** | Select this option to print the data for each vendor on a separate page. |
 
 ## Vendor Reconciliation Act report (Report 14911)
 

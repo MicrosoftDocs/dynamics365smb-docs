@@ -10,7 +10,7 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Selling fixed assets
+# Sell fixed assets
 
 A sale or transfer of a fixed asset consists of two stages.
 

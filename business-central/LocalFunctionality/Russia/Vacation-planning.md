@@ -19,9 +19,9 @@ ms.service: dynamics-365-business-central
 1. To add all employees in the line of schedule use **Suggest Employees**.
 1. The following fields must be filled in to form the main vacation schedule form:
 
-- Employee No.
-- Start date
-- End date
+   - Employee No.
+   - Start date
+   - End date
 
 Field **Actual Start Date** is filled automatically when the orders to vacation are posted. If necessary, the field can be filled in manually.
 

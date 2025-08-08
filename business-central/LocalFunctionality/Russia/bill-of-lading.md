@@ -24,7 +24,7 @@ To set up the **Bill of Lading** report, use the following steps:
 
 The report is exported to Microsoft Excel.
 
-## Printing document
+## Print document
 
 When you set up the document, it can be printed from any **Posted Sales Shipment**. When you print the report, the report is exported to Excel.
 

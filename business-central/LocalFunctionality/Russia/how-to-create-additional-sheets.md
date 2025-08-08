@@ -68,8 +68,8 @@ Processing of corrective documents for sales book is similar to processing for p
    - **Vendor VAT Invoice Rcvd. Date**
    - **Vendor VAT Invoice No.**
 
-   > [!NOTE]
-   > You can also create corrective documents in the general journal. General journal lines contain all the fields mentioned above.
+> [!NOTE]
+> You can also create corrective documents in the general journal. General journal lines contain all the fields mentioned above.
 
 ### Post additional VAT
 

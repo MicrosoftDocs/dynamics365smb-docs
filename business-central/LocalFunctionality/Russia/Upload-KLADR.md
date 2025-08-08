@@ -18,11 +18,9 @@ Upload of KLADR can be carried out on separate regions as required.
 
 1. Search for *Import KLADR*.
 1. Specify the path to the file containing addresses KLADR.
-
    KLADR is available for free download on the GNIVC website.
-
 1. Specify the region code.
-1. Select "OK."
+1. Select **OK**.
 
 ## Related information
 

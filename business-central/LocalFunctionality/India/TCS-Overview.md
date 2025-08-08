@@ -52,7 +52,7 @@ For more information about Auto Setup, see **Tax Engine** Information.
 
 Rate of TCS is defined in combination of TCS nature of collection and assessee code.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TCS** -> **Action** -> **Tax Rates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** > **TCS** > **Action** > **Tax Rates**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -74,7 +74,7 @@ Rate of TCS is defined in combination of TCS nature of collection and assessee c
 
 Tax Accounting period and quarters need to be defined for TCS calculation.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -95,7 +95,7 @@ Tax Accounting period and quarters need to be defined for TCS calculation.
 
 Tax Collected Account Number (T.C.A.N.) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **T.C.A.N Nos.**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **T.C.A.N Nos.**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -110,7 +110,7 @@ Tax Collected Account Number (T.C.A.N.) allotted to a company can be more than o
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TCS are different for different types of Assessee.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -126,7 +126,7 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 
 TCS Nature of Collection represents the various types of payments received for which TCS rates have been specified under the provisions of section 206C of the Income Tax Act 1961.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -138,11 +138,11 @@ TCS Nature of Collection represents the various types of payments received for w
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
-    |---------------------------------|---------------------------------------|   
+    |---------------------------------|---------------------------------------|
     |**Code**|Enter the valid Concessional Codes applicable as per the Income Tax Act|  
     |**Description**|Enter the description of the mentioned Concessional Codes|
 
@@ -150,7 +150,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
 
 Specifies the general ledger account for each TCS Nature of Collection defined in the system. System updates the TCS payable amount in the defined general ledger account.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Posting Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Posting Setup**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -165,7 +165,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
 
 - To define the TCS Nature of Collection on the Customer Card
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** -> **Customer** -> **Allowed NOC** and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** > **Customer** > **Allowed NOC** and then choose the related link.
   1. **Assessee Code** needs to be filled on the customer master.
   1. **PAN** needs to be filled on customer master. If no PAN is provided, higher rate of TCS will be deducted.
   1. Fill in the fields as described in the following table.
@@ -180,7 +180,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
 
 - To define the concessional code on customer card
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** -> **Customer** -> **Customer Concessional Codes** and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** > **Customer** > **Customer Concessional Codes** and then choose the related link.
   1. Fill in the fields as described in the following table.
 
       |Field|Description|  

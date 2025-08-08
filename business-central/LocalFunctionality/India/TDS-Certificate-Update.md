@@ -21,15 +21,15 @@ This article explains how to track and update the TDS certificate receivable or 
 
   Customer Ledger entries, which aren't marked, against which TDS certificate is receivable can be assigned separately. Provision is available to mark the posted customer transactions (invoices or payments) for which TDS certificate is receivable.
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Update TDS Certificate Details**, and then choose the related link. 
-  1. Select relevant customer code in **Customer No.** field then Action -> Function -> Assign TDS Cert. Details, system opens the customer ledger entry of the customer. Select and update the relevant documents by marking 'TDS Certificate Receivable' field true. Marked document is removed from the 'Assign TDS Cert. Details' page and is added in 'Update TDS Cert. Details' page.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Update TDS Certificate Details**, and then choose the related link.
+  1. Select relevant customer code in **Customer No.** field then Action > Function > Assign TDS Cert. Details, system opens the customer ledger entry of the customer. Select and update the relevant documents by marking 'TDS Certificate Receivable' field true. Marked document is removed from the 'Assign TDS Cert. Details' page and is added in 'Update TDS Cert. Details' page.
   1. System updates the 'TDS Certificate Receivable' field as true in Customer Ledger Entry.
 
 - Update TDS certificate details
 
   After receiving the TDS Certificate, it's required to update the TDS certificate details.
 
-  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Update TDS Certificate Details**, and then choose the related link. 
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Update TDS Certificate Details**, and then choose the related link.
   1. Select relevant information in **Customer No.**, **Certificate No.**, **Date of Receipt**, **Certificate TDS Amount**, **Financial Year**, **TDS Receivable Group**, the **Action** > **Function** > **Update TDS Cert. Details**. System opens the customer ledger entry of the customer for which 'TDS Receivable for Customer' is marked true.
   1. Select and update the relevant documents for which company has received the TDS Certificate by marking 'TDS Certificate Received' field true and update. Marked document is removed from the 'Update TDS Cert. Details' page and is added in 'Rectify TDS Cert. Details' page.
   1. System updates the customer ledger entry of the selected document with the input data.

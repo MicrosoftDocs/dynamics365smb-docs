@@ -53,7 +53,7 @@ Later invoice for service purchase issued by vendor for INR 20,000, 18% GST (tha
 
 ### Mandatory fields on purchase invoice
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
 1. Select **Vendor** on **Purchase Invoice** header.
 1. Select **G/L Account** for service on **Purchase Invoice** line.
 1. Select TDS Section on **Purchase Invoice** line.
@@ -61,38 +61,37 @@ Later invoice for service purchase issued by vendor for INR 20,000, 18% GST (tha
 1. **Location Code** field shouldn't be blank on both **Purchase Invoice** header and line.
 1. Apply the advance payment in **Applies to Doc. No.** field on **Purchase Invoice** header.
   
-- GST calculation appears in the Fact Box as following:
+   GST calculation appears in the Fact Box as following:
 
-  |Component|Amount|
-  |----------------------------------|---------------------------------------|  
-  |**GST Base Amount**|20000|  
-  |**CGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]|  
-  |**SGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]| 
-  |**TDS Amount**|1000 = [2000 (20000 * 10%)] - [1000 (10000 *10%)]|
+   |Component|Amount|
+   |----------------------------------|---------------------------------------|  
+   |**GST Base Amount**|20000|  
+   |**CGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]|  
+   |**SGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]| 
+   |**TDS Amount**|1000 = [2000 (20000 * 10%)] - [1000 (10000 *10%)]|
 
 GST and TDS are calculated on the remaining amount, that is, Invoice Amount - Advance Payment Amount. If advance payment isn't applied with the purchase invoice, then GST and TDS are calculated on the whole invoice amount.
 
 - On posting the purchase invoice, GL Entries are as following:
 
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Vendor Account**|-19000|  
-    |**SGST/UTGST Payable (Interim) Account**|-1800|
-    |**CGST Payable (Interim) Account**|-1800|
-    |**SGST/UTGST Receivable (Interim) Account**|-1800|
-    |**CGST Receivable (Interim) Account**|-1800|
-    |**TDS Payable Account**|-1000|
-    |**CGST Payable (Interim) Account**|900|
-    |**CGST Receivable Account**|900|
-    |**SGST/UTGST Payable (Interim) Account**|900|
-    |**SGST/UTGST Receivable  Account**|900|
-    |**SGST/UTGST Receivable (Interim) Account**|1800|
-    |**CGST Receivable (Interim) Account**|1800|
-    |**Service Account**|20000|
+  |Particulars|Amount|
+  |----------------------------------|---------------------------------------|  
+  |**Vendor Account**|-19000|  
+  |**SGST/UTGST Payable (Interim) Account**|-1800|
+  |**CGST Payable (Interim) Account**|-1800|
+  |**SGST/UTGST Receivable (Interim) Account**|-1800|
+  |**CGST Receivable (Interim) Account**|-1800|
+  |**TDS Payable Account**|-1000|
+  |**CGST Payable (Interim) Account**|900|
+  |**CGST Receivable Account**|900|
+  |**SGST/UTGST Payable (Interim) Account**|900|
+  |**SGST/UTGST Receivable  Account**|900|
+  |**SGST/UTGST Receivable (Interim) Account**|1800|
+  |**CGST Receivable (Interim) Account**|1800|
+  |**Service Account**|20000|
 
->[!Tip]
->
-> Note: In case of Inter-State Purchase, IGST is calculated.
+> [!NOTE]
+> In case of Inter-State Purchase, IGST is calculated.
 
 ## Related information
 

@@ -28,7 +28,7 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
 
 ## Mandatory fields for voucher entries through voucher interface
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Voucher**, **Cash Payment Voucher**, **Bank Receipt Voucher**, **Bank Payment Voucher**, **Contra Voucher** or **Journal Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Voucher**, **Cash Payment Voucher**, **Bank Receipt Voucher**, **Bank Payment Voucher**, **Contra Voucher** or **Journal Voucher**, and then choose the related link.
 1. Following are the mandatory fields for any type of voucher entry:
 
     |Field|Description|
@@ -58,8 +58,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Cash Account**|10000|
   |**Customer Account**|-10000|
 
-> [!TIP]
-> Cash is always debited in Cash receipt voucher.
+  > [!TIP]
+  > Cash is always debited in Cash receipt voucher.
 
 - Payment made in cash to vendor for INR 10,000 through Cash Payment Voucher.
 
@@ -70,8 +70,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Cash Account**|-10000|
   |**Vendor Account**|10000|
 
-> [!TIP]
-> Cash is always credited in Cash payment voucher.
+  > [!TIP]
+  > Cash is always credited in Cash payment voucher.
 
 - Payment received by cheque from customer for INR 10,000 through Bank Receipt Voucher.
 
@@ -82,8 +82,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Bank Account**|10000|
   |**Customer Account**|-10000|
 
-> [!TIP]
-> Bank is always debited in Bank receipt voucher.
+  > [!TIP]
+  > Bank is always debited in Bank receipt voucher.
 
 - Payment made by cheque to vendor for INR 10,000 through Bank Payment Voucher.
 
@@ -94,8 +94,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Bank Account**|-10000|
   |**Vendor Account**|10000|
 
-> [!TIP]
-> Bank is always credited in Bank payment voucher.
+  > [!TIP]
+  > Bank is always credited in Bank payment voucher.
 
 - Payment made by cheque to vendor for INR 12,000 and INR 200 as Bank Charges through Bank Payment Voucher.
 
@@ -107,8 +107,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Vendor Account**|12000|
   |**Bank Charges Account**|200|
 
-> [!TIP]
-> Bank is always credited in Bank payment voucher.
+  > [!TIP]
+  > Bank is always credited in Bank payment voucher.
 
 - Cash Withdrawn/deposited or Transfer between bank accounts through Contra Voucher, for example Cash Withdrawn from Bank for INR 10,000.
 
@@ -119,8 +119,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Bank Account**|-10000|
   |**Cash Account**|10000|
 
-> [!TIP]
-> Only Bank or Cash accounts can be allowed in Contra Voucher.
+  > [!TIP]
+  > Only Bank or Cash accounts can be allowed in Contra Voucher.
 
 - Expense booked for INR 10,000 and crediting Vendor through Journal Voucher.
 
@@ -131,8 +131,8 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
   |**Expenses Account**|10000|
   |**Vendor Account**|-10000|
 
-> [!TIP]
-> Bank and Cash accounts aren't allowed in Journal Voucher.
+  > [!TIP]
+  > Bank and Cash accounts aren't allowed in Journal Voucher.
 
 ## Opening balances for GST
 

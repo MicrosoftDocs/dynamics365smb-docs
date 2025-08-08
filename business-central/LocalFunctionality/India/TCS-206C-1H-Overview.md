@@ -28,23 +28,23 @@ A new TCS section 206C (1H) has been introduced in finance bill 2020. As per new
 
 TCS Nature of Collection represents the various types of payments received for which TCS rates have been specified under the provisions of section 206C(1H) of the Income Tax Act 1961. A new field 'TCS On Recpt Of Pmt.' has been added on the setup.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|
-    |**TCS On Recpt Of Pmt.**|User will not be able to select TCS Nature of Collection on sales invoice and credit memo lines where 'TCS on Recpt. Of Pmt.' is TRUE.|
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|
+   |**TCS On Recpt Of Pmt.**|User will not be able to select TCS Nature of Collection on sales invoice and credit memo lines where 'TCS on Recpt. Of Pmt.' is TRUE.|
 
 ## Set up TCS rates
 
 Rate of TCS is defined in combination of TCS nature of collection and assessee code. A new field 'Calc. Over & Above Threshold' has been added on the setup.
 
-1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TCS** -> **Action** -> **Tax Rates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** > **TCS** > **Action** > **Tax Rates**, and then choose the related link.
 1. Fill in the fields as described in the following table.
 
-    |Field|Description|
-    |---------------------------------|---------------------------------------|  
-    |**Calc. Over & Above Threshold**|This field is created in TCS Setup table, by selecting this field, system calculates TCS on amount that is over & above threshold. If this field isn't selected in TCS Setup, system will calculate TCS normally, that is, system will calculate TCS after crossing the specified threshold amount. If user selects Threshold Overlook field on NOD/NOC Lines, then system calculates TCS normally, that is, calculate TCS from INR 1 onwards without considering threshold amount. This field can be selected for any TCS group, there's no restriction for selecting this for only 1H.|
+   |Field|Description|
+   |---------------------------------|---------------------------------------|  
+   |**Calc. Over & Above Threshold**|This field is created in TCS Setup table, by selecting this field, system calculates TCS on amount that is over & above threshold. If this field isn't selected in TCS Setup, system will calculate TCS normally, that is, system will calculate TCS after crossing the specified threshold amount. If user selects Threshold Overlook field on NOD/NOC Lines, then system calculates TCS normally, that is, calculate TCS from INR 1 onwards without considering threshold amount. This field can be selected for any TCS group, there's no restriction for selecting this for only 1H.|
 
 ## Related information
 

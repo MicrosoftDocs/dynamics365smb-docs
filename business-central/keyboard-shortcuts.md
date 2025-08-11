@@ -1,10 +1,10 @@
 ---
-title: Keyboard shortcuts
+title: Keyboard Shortcuts
 description: View a list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
 author: jswymer
 ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2025
+ms.date: 08/04/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -21,7 +21,7 @@ You can find an overview of the most popular keyboard shortcuts in [Keyboard sho
 > [!TIP]
 > For a graphical view of the most-used keyboard shortcuts, select the following image, and download the PDF file.
 >
-> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2024.pdf "Icon that opens a PDF")
+> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2025.pdf "Icon that opens a PDF")
 
 ## Overview of keyboard shortcuts
 

@@ -48,7 +48,7 @@ You can use income statement balancing accounts to balance and track several acc
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Business Unit Code**|Select to create an entry for each business code.|  
+    |**Business Unit Code**|Select to create an entry for each business unit code.|  
     |**Dimensions**|Select to create an entry for each general ledger dimension.|  
     |**Inventory Period Closed**|Select to indicate that the inventory period with ending dates equal to or greater than the last date of the accounting period is closed.|  
 

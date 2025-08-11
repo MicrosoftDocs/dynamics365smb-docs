@@ -4,18 +4,18 @@ description: This article provides information about the new Indian tax and comp
 author: altotovi
 ms.topic: article
 ms.devlang: al
-ms.search.keywords: India, Indian, local, IN, English
-ms.date: 07/08/2024
+ms.search.keywords: India, Indian, local, IN, English, audit trail, edit logs
+ms.date: 06/25/2025
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: v-soumramani
 ---
 
 # Audit trail and edit logs for accounting software in India
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] complies with the new Indian tax legislation guidelines about accounting software by recording an audit trail of all transactions. It also creates an edit log for each change that's made to an account. This log records the date when the change was made.
 
-## The legislation
+## Legislation
 
 Principal notifications No. G.S.R. 239(E) dated March 31, 2014, No. G.S.R. 205(E) dated March 24, 2021, amended vide notification G.S.R. 247(E) dated April 1, 2021, and amendment notification G.S.R. 624(E) dated August 5, 2022, state that, as of April 1, 2022, all businesses that use accounting software to maintain books of accounts should have an audit trail feature that includes the following functionality:
 
@@ -33,11 +33,11 @@ Additionally, the rules state that the audit trail feature should meet the follo
 
 ## Compliance
 
-### Compliance 1: Recording an audit trail and creating an audit log 
+### Compliance 1: Recording an audit trail and creating an audit log
 
 Under new guidelines of the Companies Act that specify how account books must be kept in electronic format, every company that uses accounting software to maintain its books of accounts must use only accounting software that has a feature for recording an audit trail. For compliance, the system must record and trace the data sources in the audit trail.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirement to record accounting data. The **G/L Register** page provides noneditable details about each transaction, including the register number (the **No.** field not possible to be renumbered), the creation date and time (the **Created At** field), the **User ID** of who created the transaction, and its **Source Code** and **Journal Batch Name** as additional information. Even if this transaction represents the reversing, users can find the **Reversed** field marked as **Yes**, so there's transparent information about every reversed transaction. The **General Ledger** function on the **G/L Register** page fetches the financial transaction entries that have been posted in the general ledger (G/L). This function opens the **General Ledger Entries** page that's related to the specific G/L register and shows transaction details. So, all required information exists in these tables providing full transaction and audit log.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirement to record accounting data. The **G/L Register** page provides noneditable details about each transaction, including the register number (the **No.** field not possible to be renumbered), the creation date, and time (the **Created At** field), the **User ID** of who created the transaction, and its **Source Code** and **Journal Batch Name** as additional information. Even if this transaction represents the reversing, users can find the **Reversed** field marked as **Yes**, so there's transparent information about every reversed transaction. The **General Ledger** function on the **G/L Register** page fetches the financial transaction entries that have been posted in the general ledger (G/L). This function opens the **General Ledger Entries** page that's related to the specific G/L register and shows transaction details. So, all required information exists in these tables providing full transaction and audit log.  
 
 Additionally, you can run the **Find Entries** function to show all other related entries and source documents. For more information, see [Design Details: Accounts in General Ledger](../../design-details-accounts-in-the-general-ledger.md) and [Voucher Transaction](voucher-interface-transactions.md).
 
@@ -53,7 +53,7 @@ The books of accounts and other relevant books and papers are retained in one of
 - The format that they were originally generated, sent, or received in
 - A format that accurately presents the information that was generated, sent, or received
 
-The information in the electronic records will remain complete and unaltered.
+The information in the electronic records remains complete and unaltered.
 
 Transactions that are posted in [!INCLUDE[prod_short](../../includes/prod_short.md)] remain complete and in the format that they were initially generated in. Therefore, [!INCLUDE[prod_short](../../includes/prod_short.md)] includes no process for changing the format or content of a posted transaction. That means that the user or administrator can't change or delete any transaction using the user interface.  
 
@@ -61,7 +61,7 @@ Transactions that are posted in [!INCLUDE[prod_short](../../includes/prod_short.
 > Direct access to the database in [!INCLUDE[prod_short](../../includes/prod_short.md)] technically isn't possible, so users can't make any change directly in the database. Access using the API in [!INCLUDE[prod_short](../../includes/prod_short.md)] isn't direct database access. Instead, the API provides a controlled and secure way to interact with the [!INCLUDE[prod_short](../../includes/prod_short.md)] application layer, which enforces business rules and validations. So, in [!INCLUDE[prod_short](../../includes/prod_short.md)], when a user enters or modifies information via API, the same business logic and validation rules apply as when the user does it through the user interface.
 
 > [!NOTE]
-> Audit trail for using APIs in [!INCLUDE[prod_short](../../includes/prod_short.md)] is absolutely the same as for the direct work using user interface, so audit trail will exist in both situations as described in previous topic.  
+> Audit trail for using APIs in [!INCLUDE[prod_short](../../includes/prod_short.md)] is absolutely the same as for the direct work using user interface, so audit trail exists in both situations as described in previous article.  
 
 ### Compliance 3: Preserve branch transaction information
 
@@ -73,17 +73,17 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], changes can't be made t
 
 The information in the electronic record of the document is shown in [!INCLUDE[prod_short](../../includes/prod_short.md)]. [!INCLUDE[prod_short](../../includes/prod_short.md)] and enables at least one output component per file. Typically, [!INCLUDE[prod_short](../../includes/prod_short.md)] contains multiple file output components of different types. Examples include XML, XLSX, DOCX, JSON, TXT, and PDF.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] ensures that, at the very least, every transaction record can be exported or opened in Microsoft Excel format. By using a configurator in the [Data Exchange Framework](../../across-how-to-set-up-data-exchange-definitions.md), users can define which file format is used for specific entries.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] ensures that, at the least, every transaction record can be exported or opened in Microsoft Excel format. By using a configurator in the [Data Exchange Framework](../../across-how-to-set-up-data-exchange-definitions.md), users can define which file format is used for specific entries.
 
 ### Compliance 5: Maintain a proper system of storage for electronic records
 
-A proper system for storing, retrieving, displaying, and printing electronic records exists. These electronic records must not be disposed of or rendered unusable, unless those actions are permitted by law. Provided that a backup of the company's books of accounts and other books and papers is maintained in electronic mode, even in a location outside India, it will be kept on servers that are **physically located in India**.
+A proper system for storing, retrieving, displaying, and printing electronic records exists. These electronic records must not be disposed of or rendered unusable, unless those actions are permitted by law. Provided that a backup of the company's books of accounts and other books and papers is maintained in electronic mode, even in a location outside India, it's kept on servers that are **physically located in India**.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] can be deployed into a subset of Azure datacenters. Azure is generally available in datacenters and geographical locations around the world. [!INCLUDE[prod_short](../../includes/prod_short.md)] will automatically be deployed in a defined region or datacenter where its customer data will be stored. By default, **Indian companies will be deployed to the [Indian datacenters](https://dynamics.microsoft.com/availability-reports/georeport/)**. Although Microsoft might replicate data to other regions for data durability, customer data isn't replicated or moved outside the geographical location. If an Azure region-wide outage occurs, Microsoft provides business continuity and disaster recovery for the production instance of Dynamics 365 software as a service (SaaS) applications. Paired regions reside in the same geography as their enabled set to meet data residency requirements for tax and law enforcement jurisdiction purposes. For more information, see [Service overview](/dynamics365/business-central/dev-itpro/service-overview) and [Service Compliance](/dynamics365/business-central/compliance/compliance-service-compliance).
+[!INCLUDE[prod_short](../../includes/prod_short.md)] can be deployed into a subset of Azure datacenters. Azure is generally available in datacenters and geographical locations around the world. [!INCLUDE[prod_short](../../includes/prod_short.md)] will automatically be deployed in a defined region or datacenter where its customer data are stored. By default, **Indian companies will be deployed to the [Indian datacenters](https://dynamics.microsoft.com/availability-reports/georeport/)**. Although Microsoft might replicate data to other regions for data durability, customer data isn't replicated or moved outside the geographical location. If an Azure region-wide outage occurs, Microsoft provides business continuity and disaster recovery for the production instance of Dynamics 365 software as a service (SaaS) applications. Paired regions reside in the same geography as their enabled set to meet data residency requirements for tax and law enforcement jurisdiction purposes. For more information, see [Service overview](/dynamics365/business-central/dev-itpro/service-overview) and [Service Compliance](/dynamics365/business-central/compliance/compliance-service-compliance).
 
 ### Compliance 6: Information for filling out the annual financial statement
 
-On an annual basis, the company will provide the following information to the Registrar when it files a financial statement:
+On an annual basis, the company provides the following information to the Registrar when it files a financial statement:
 
 - The name of the service provider.
 - The set of Internet Protocol (IP) addresses of the service provider that are used to deliver the [!INCLUDE[prod_short](../../includes/prod_short.md)] service.
@@ -99,19 +99,19 @@ Under new guidelines of the Companies Act, the books of accounts and other relev
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirements.
 
-* The books of accounts and other relevant books and papers that are maintained in electronic mode in [!INCLUDE[prod_short](../../includes/prod_short.md)] are accessible in India at all times for subsequent reference.
-* [!INCLUDE[prod_short](../../includes/prod_short.md)] provides that the backup of the books of accounts and other books and papers of the company that are maintained in electronic mode in [!INCLUDE[prod_short](../../includes/prod_short.md)] are kept in servers that are physically located in India on a daily basis.
-* [!INCLUDE[prod_short](../../includes/prod_short.md)] is automatically deployed in a defined region or datacenter where customer data will be stored. By default, Indian companies will be deployed to the [Indian datacenters](https://dynamics.microsoft.com/availability-reports/georeport/). Although Microsoft might replicate data to other regions for data durability, customer data won't be replicated or moved outside the geographical location.
-* Administrators of a [!INCLUDE[prod_short](../../includes/prod_short.md)] tenant can check where the database is deployed through Dynamics 365 Business Central admin center, by looking at the **Azure Region** field.
-* Microsoft provides business continuity and disaster recovery for production instances of the [!INCLUDE[prod_short](../../includes/prod_short.md)] SaaS application if an Azure region-wide outage occurs.
-* Databases are protected by automatic backups that are kept for 28 days. The backups include data from the database's production and sandbox environments. Administrators of a [!INCLUDE[prod_short](../../includes/prod_short.md)] tenant can't directly access or manage these backups, because they're automatically managed by Microsoft. In Dynamics 365 Business Central admin center, an administrator can view evidence about which moment [!INCLUDE[prod_short](../../includes/prod_short.md)] has successful backups from, for all dates in a given period, together with the system screenshot that indicates the default backup frequency. Administrators can also restore their environments to a specific point in time in the past by using Dynamics 365 Business Central admin center. For more information, see [Restoring an environment in the Admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
-* If an administrator must export a database outside of cloud storage, they can run the **Create database** export from Dynamics 365 Business Central admin center at any time. In addition, administrators can access the full export history in the same admin center.
-* If administrators of [!INCLUDE[prod_short](../../includes/prod_short.md)] delete the environment for any reason, they can recover the environment and data as needed, because it isn't permanently deleted immediately. The environment can be recovered during a retention period that lasts seven days. For more information, see [Delete and recover environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete).
+- The books of accounts and other relevant books and papers that are maintained in electronic mode in [!INCLUDE[prod_short](../../includes/prod_short.md)] are accessible in India at all times for subsequent reference.
+- [!INCLUDE[prod_short](../../includes/prod_short.md)] provides that the backup of the books of accounts and other books and papers of the company that are maintained in electronic mode in [!INCLUDE[prod_short](../../includes/prod_short.md)] are kept in servers that are physically located in India on a daily basis.
+- [!INCLUDE[prod_short](../../includes/prod_short.md)] is automatically deployed in a defined region or datacenter where customer data are stored. By default, Indian companies are deployed to the [Indian datacenters](https://dynamics.microsoft.com/availability-reports/georeport/). Although Microsoft might replicate data to other regions for data durability, customer data won't be replicated or moved outside the geographical location.
+- Administrators of a [!INCLUDE[prod_short](../../includes/prod_short.md)] tenant can check where the database is deployed through Dynamics 365 Business Central admin center, by looking at the **Azure Region** field.
+- Microsoft provides business continuity and disaster recovery for production instances of the [!INCLUDE[prod_short](../../includes/prod_short.md)] SaaS application if an Azure region-wide outage occurs.
+- Databases are protected by automatic backups that are kept for 28 days. The backups include data from the database's production and sandbox environments. Administrators of a [!INCLUDE[prod_short](../../includes/prod_short.md)] tenant can't directly access or manage these backups, because they're automatically managed by Microsoft. In Dynamics 365 Business Central admin center, an administrator can view evidence about which moment [!INCLUDE[prod_short](../../includes/prod_short.md)] has successful backups from, for all dates in a given period, together with the system screenshot that indicates the default backup frequency. Administrators can also restore their environments to a specific point in time in the past by using Dynamics 365 Business Central admin center. For more information, see [Restoring an environment in the Admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+- If an administrator must export a database outside of cloud storage, they can run the **Create database** export from Dynamics 365 Business Central admin center at any time. In addition, administrators can access the full export history in the same admin center.
+- If administrators of [!INCLUDE[prod_short](../../includes/prod_short.md)] delete the environment for any reason, they can recover the environment and data as needed, because it isn't permanently deleted immediately. The environment can be recovered during a retention period that lasts seven days. For more information, see [Delete and recover environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete).
 
 ## Related information
 
-* [Indian Local Functionalities](india-local-functionality.md)
-* [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
+- [Indian Local Functionalities](india-local-functionality.md)
+- [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 

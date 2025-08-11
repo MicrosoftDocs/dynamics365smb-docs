@@ -1,110 +1,101 @@
 ---
 title: GST on Bank Charges Transaction
-description: GST on Bank Charges Transaction
-
+description: Learn how GST is applied to bank charges transactions in India, including calculation methods, accounting entries, and compliance requirements for Business Central.
 author: v-debapd
-
-    
 ms.topic: article
 ms.devlang: al
-ms.search.keywords: India, local, IN, English
-ms.date: 04/01/2021
+ms.search.keywords: India, local, IN, English, GST on bank charges transaction
+ms.date: 06/19/2025
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ---
-# GST on Bank Charges Transaction
 
+# GST on bank charges transaction
 
-As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice is not provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it is not serially numbered and whether or not it contains the address of recipient of taxable service.
+As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice isn't provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it isn't serially numbered and whether or not it contains the address of recipient of taxable service.
 
 Process for GST calculation on bank charges has been explained in this document.
 
 ### GST calculation on bank charges
 
 1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Payment Voucher**, and then choose the related link.
-2. Select **G/L Account** in **Account Type** field and select relevant general ledger account in **Account No.** field.
-3. Select **Bank Account** in **Bal. Account Type** field and select relevant bank account in **Bal. Account No.** field.
-4. **GST Registration No.** and **GST Registration Status** fields should not be blank on **Bank Account**.
-5. **Location Code** should not be blank on **Bank Payment Voucher**.
-6. **Bank Charge** field should be marked true, select **Process** on the ribbon and click on **Bank Charges** -> select **Bank Charge** code and system will calculate the GST on bank charge amount. **GST Credit**, **GST Group Code** and **HSN/SAC Code** should not be blank on **Bank Charge** Code.
+1. Select **G/L Account** in **Account Type** field and select relevant general ledger account in **Account No.** field.
+1. Select **Bank Account** in **Bal. Account Type** field and select relevant bank account in **Bal. Account No.** field.
+1. **GST Registration No.** and **GST Registration Status** fields shouldn't be blank on **Bank Account**.
+1. **Location Code** shouldn't be blank on **Bank Payment Voucher**.
+1. **Bank Charge** field should be marked true, select **Process** on the ribbon, and select **Bank Charges** -> select **Bank Charge** code and system calculate the GST on bank charge amount. **GST Credit**, **GST Group Code**, and **HSN/SAC Code** shouldn't be blank on **Bank Charge** Code.
 
 ### GST on bank charges
 
 Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit is available, for example bank charge of INR 10000 to be paid to bank and GST (9% CGST and 9% SGST) has to be calculated on bank charges amount.
-    
-  - GST calculation will appear in the Fact Box, as following:
 
-       |Component|Amount|
-       |----------------------------------|---------------------------------------|  
-       |**Bank Charge Amount**|10,000|  
-       |**CGST**|900|  
-       |**SGST**|900|
-    
+- GST calculation appears in the Fact Box as following:
 
-  - Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit is available, will be as following:
-    
-     |Particulars|Amount|
-     |----------------------------------|---------------------------------------|  
-     |**Bank Charges**|10000|  
-     |**CGST Receivable Account**|900|
-     |**SGST/UTGST Receivable Account**|900|
-     |**Bank Account**|-11800|
+    |Component|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charge Amount**|10,000|  
+    |**CGST**|900|  
+    |**SGST**|900|
+
+- Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit is available will be as following:
+
+    |Particulars|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charges**|10000|  
+    |**CGST Receivable Account**|900|
+    |**SGST/UTGST Receivable Account**|900|
+    |**Bank Account**|-11800|
 
 Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit is available, for example bank charge of INR 10000 to be paid to bank and 18% IGST has to be calculated on bank charges amount.
-    
-  - GST calculation will appear in the Fact Box, as following:
 
-      |Component|Amount|
-      |----------------------------------|---------------------------------------|  
-      |**Bank Charge Amount**|10,000|  
-      |**IGST**|1800|  
-       
+- GST calculation appears in the Fact Box as following:
 
-  - Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit is available, will be as following:
+    |Component|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charge Amount**|10,000|  
+    |**IGST**|1800|  
 
-      |Particulars|Amount|
-      |----------------------------------|----------------------------------|  
-      |**Bank Charges**|10000|  
-      |**IGST Receivable Account**|1800|
-      |**Bank Account**|-11800| 
+- Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit is available will be as following:
 
-Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit is not available, for example bank charge of INR 10000 to be paid to bank and GST (9% CGST and 9% SGST) has to be calculated on bank charges amount.
+    |Particulars|Amount|
+    |----------------------------------|----------------------------------|  
+    |**Bank Charges**|10000|  
+    |**IGST Receivable Account**|1800|
+    |**Bank Account**|-11800|
 
-  - GST calculation will appear in the Fact Box, as following:
+Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit isn't available, for example bank charge of INR 10000 to be paid to bank and GST (9% CGST and 9% SGST) has to be calculated on bank charges amount.
 
-      |Component|Amount|
-      |----------------------------------|---------------------------------------|  
-      |**Bank Charge Amount**|10,000|  
-      |**CGST**|900|  
-      |**SGST**|900|
-    
+- GST calculation appears in the Fact Box as following:
 
-  - Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit is not available, will be as following:
-    
-      |Particulars|Amount|
-      |----------------------------------|---------------------------------------|  
-      |**Bank Charges**|11800|  
-      |**Bank Account**|-11800|
+    |Component|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charge Amount**|10,000|  
+    |**CGST**|900|  
+    |**SGST**|900|
 
-Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit is not available, for example bank charge of INR 10000 to be paid to bank and 18% IGST has to be calculated on bank charges amount.
-    
-  - GST calculation will appear in the Fact Box, as following:
+- Once posted the bank payment GL entries for Intra-state bank charges with GST where Input Tax Credit isn't available will be as following:
 
-      |Component|Amount|
-      |----------------------------------|---------------------------------------|  
-      |**Bank Charge Amount**|10,000|  
-      |**IGST**|1800|  
-       
+    |Particulars|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charges**|11800|  
+    |**Bank Account**|-11800|
 
-  - Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit is not available, will be as following:
-    
-      |Particulars|Amount|
-      |----------------------------------|---------------------------------------|  
-      |**Bank Charges**|11800|  
-      |**Bank Account**|-11800| 
+Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit isn't available, for example bank charge of INR 10000 to be paid to bank and 18% IGST has to be calculated on bank charges amount.
 
+- GST calculation appears in the Fact Box as following:
+
+    |Component|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charge Amount**|10,000|  
+    |**IGST**|1800|
+
+- Once posted the bank payment GL entries for Inter-state bank charges with GST where Input Tax Credit isn't available will be as following:
+
+    |Particulars|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Charges**|11800|  
+    |**Bank Account**|-11800|
 
 ## Deemed value calculation for GST base amount in foreign exchange transactions
 
@@ -112,12 +103,12 @@ As per GST law, A person supplying the services of exchange of foreign currency 
 
 ### GST calculation on bank charges for bank payment
 
-   1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher**, and then choose the related link.
-   2. Select **G/L Account** in Account Type field and select relevant **Vendor** or **Customer** account in Account No. field.
-   3. Select **Bank Account** in Bal. Account Type field and select relevant bank account in Bal. Account No. field.
-   4. **GST Registration No.** and **GST Registration Status** fields should not be blank on Bank Account.
-   5. Select Process on the ribbon and click on Bank Charges -> select Bank Charge code and system will calculate the GST on bank charge amount. **External Document No.** and **GST Document Type** fields should not be blank on **Journal Bank Charges** line.
-   6. GST Credit, GST Group Code and HSN/SAC Code should not be blank on Bank Charge Code.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher**, and then choose the related link.
+1. Select **G/L Account** in Account Type field and select relevant **Vendor** or **Customer** account in Account No. field.
+1. Select **Bank Account** in Bal. Account Type field and select relevant bank account in Bal. Account No. field.
+1. **GST Registration No.** and **GST Registration Status** fields shouldn't be blank on Bank Account.
+1. Select Process on the ribbon and select Bank Charges > select Bank Charge code and system will calculate the GST on bank charge amount. **External Document No.** and **GST Document Type** fields shouldn't be blank on **Journal Bank Charges** line.
+1. GST Credit, GST Group Code, and HSN/SAC Code shouldn't be blank on Bank Charge Code.
 
 Let us take the following example and check the GL entries of the posted transactions for different scenarios.
 
@@ -125,25 +116,24 @@ Let us take the following example and check the GL entries of the posted transac
 |---------|---------|--|--|--|--|--|--|
 |BKCHG_01|0|10,00,000|Deemed %|0|0|1%|0|
 
-
 - Sample values for transactions
 
-    |Component|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**CGST**|9%|  
-    |**SGST**|9%|
-    |**IGST**|18%|
-    |**Document Type**|Refund or Payment|
-    |**Account Type**|Vendor or Customer (Registered)|
-    |**Amount**|USD -1000|
-    |**Currency**|USD (Exchange Rate 65)|
-    |**Amount (LCY)**|INR -65000|
-    |**Bank Charge**|BKCHG_01|
-    |**GST Transactional Value**|INR 6500|
-    |**GST Amount**|INR 1170|
+  |Component|Amount|
+  |----------------------------------|---------------------------------------|  
+  |**CGST**|9%|  
+  |**SGST**|9%|
+  |**IGST**|18%|
+  |**Document Type**|Refund or Payment|
+  |**Account Type**|Vendor or Customer (Registered)|
+  |**Amount**|USD -1000|
+  |**Currency**|USD (Exchange Rate 65)|
+  |**Amount (LCY)**|INR -65000|
+  |**Bank Charge**|BKCHG_01|
+  |**GST Transactional Value**|INR 6500|
+  |**GST Amount**|INR 1170|
 
 - Once posted the bank payment GL entries for Intrastate Bank Receipt Voucher with Document Type as Refund for Bank Charges and GST is posted with Credit Availment and GST Document Type Invoice, will be as following:
-    
+
     |Document Type|Particulars|Amount|
     |------|----------------------------------|---------------------------------------|  
     |**Refund**|**Vendor**|-65000|  
@@ -152,7 +142,7 @@ Let us take the following example and check the GL entries of the posted transac
     |**Refund**|**Bank Account**|63830|
 
 - The bank payment GL entries for Intrastate Bank Receipt Voucher with Document Type as Payment for Bank Charges and GST is posted with Credit Availment and GST Document Type as Invoice, will be as following:
-    
+
     |Document Type|Particulars|Amount|
     |------|----------------------------------|---------------------------------------|  
     |**Payment**|**Customer**|-65000|  
@@ -161,7 +151,7 @@ Let us take the following example and check the GL entries of the posted transac
     |**Payment**|**Bank Account**|63830|
 
 - The bank payment GL entries for Intrastate Bank Receipt Voucher with Document Type as Refund for Bank Charges and GST is posted with Credit Non-Availment and GST Document Type as Invoice, will be as following:
-    
+
     |Document Type|Particulars|Amount|
     |------|----------------------------------|---------------------------------------|  
     |**Refund**|**Vendor**|-65000|  
@@ -169,48 +159,15 @@ Let us take the following example and check the GL entries of the posted transac
     |**Refund**|**Bank Account**|63830|
 
 - The bank payment GL entries for Intrastate Bank Receipt Voucher with Document Type as Payment for Bank Charges and GST is posted with Credit Non-Availment and GST Document Type as Invoice, will be as following:
-    
+
     |Document Type|Particulars|Amount|
     |------|----------------------------------|---------------------------------------|  
     |**Payment**|**Customer**|-65000|  
     |**Payment**|**Other Charges**|1170|
     |**Payment**|**Bank Account**|63830|
 
+## Related information
 
-
-
-## Related information 
 [GST Bank Charges Overview](GST-Bank-Charges-Overview.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

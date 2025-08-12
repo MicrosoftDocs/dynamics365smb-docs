@@ -1,18 +1,16 @@
 ---
 title: Accounting for personal income tax payments in Russia
-description: Russian enhancements include accounting for personal income tax payments.
+description: Provides guidance on accounting for personal income tax payments in Russia.
 author: DianaMalina
-
-
 ms.topic: concept-article
-ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: bholtorf
+ms.search.keywords: personal income tax, income tax payments, payments, Russia
+ms.reviewer: v-soumramani
 ms.author: soalex
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ---
 
-# Accounting for Personal Income Tax Payments
+# Accounting for personal income tax payments
 
 The Fund for the calculation and payment of personal income tax must be registered in the system as a supplier-tax authority.
 
@@ -31,6 +29,5 @@ Personal income tax is paid by forming a payment order to the tax authority.
 ## Related information
 
 [Tax Accounting](Tax-Accounting.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

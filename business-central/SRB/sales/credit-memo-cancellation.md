@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8059,
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ---
 
@@ -23,7 +23,7 @@ If deferrals were created by a contract invoice, they're automatically fully rel
 
 You can delete an invoice as long as it isn't posted. The billing lines are still in **Recurring Billing** page where you can edit, update, or delete them.
 
-To avoid discrepancy between contract and posting documents, the ability to edit unposted contract invoices or credit memos ([Posting documents](../posting-documents.md) is limited. The same applies to processing billing and contract lines if there's a posting document.
+To avoid discrepancy between contract and posting documents, the ability to edit unposted [Posting documents](../posting-documents.md) is limited. The same applies to processing of billing and contract lines if there's a posting document.
 
 If the posting document was deleted, you can edit the billing and contract lines normally. After editing a contract line, the billing line must be updated before a new posting document is created. To learn more, go to [Need to update](../recurring-billing.md#need-to-update).
 
@@ -36,7 +36,7 @@ After an invoice is posted, it must be credited in order to make changes. The cr
 >
 > You can only credit the last contract invoice. If a subsequent bill was already created for a contract, you must credit it first.
 
-The credit memo is opened on creation. In the Credit Memo, positions can be deleted. In this way, individual positions of an invoice can be credited. When the positions are deleted, the billing lines are also deleted. The same applies if the entire Credit Memo is deleted.
+The credit memo is opened on creation. In the credit memo, positions can be deleted. In this way, individual positions of an invoice can be credited. When the positions are deleted, the billing lines are also deleted. The same applies if the entire credit memo is deleted.
 
 You can't create a new billing line for a contract line if a posting document already exists for it. Delete or post the posting document first.
 
@@ -47,5 +47,5 @@ On the contract lines, the **Next Billing Date** reset when the credit memo was 
 
 ## Related information
 
-[Customer contracts](../working-with-contracts/customer-contracts.md)  
-[Vendor contracts](../working-with-contracts/vendor-contracts.md)  
+[Customer subscription contracts](../working-with-contracts/customer-contracts.md)  
+[Vendor subscription contracts](../working-with-contracts/vendor-contracts.md)  

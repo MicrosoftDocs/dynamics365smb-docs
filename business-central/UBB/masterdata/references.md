@@ -1,31 +1,31 @@
 ---
 title: Usage data supplier references
-description: You can use references in usage based billing.
+description: You can use references in usage-based billing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords: 
-ms.search.form: 
-ms.date: 08/14/2024
+ms.search.form: 8043, 8044
+ms.date: 07/11/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Usage data supplier references
 
-To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a [service commitment](service-commitments.md#service-commitment-packages), which is part of a vendor or customer contract.
+To process and bill usage data, [!INCLUDE [prod_short](../../includes/prod_short.md)] must find all additional data required for this purpose. This includes the [subscriptions](customers-subscriptions.md) that link to a subscription line package that is part of a vendor or customer subscription contract. To learn more, go to [Subscription packages](service-commitments.md#subscription-packages).
 
 > [!NOTE]
-> You can only charge service commitments that are part of a vendor or customer contract.
+> You can only bill subscription lines that are part of a vendor or customer subscription contract.
 
-The usage data usually only knows the subscription to which it's related. The service commitments, however, know to which contract they're assigned. The link is the subscriptions that connect to a service commitment.
+The usage data usually only knows the subscription line to which it's related. The subscription lines, however, know to which contract they're assigned. The link is the supplier subscriptions that connect to a subscription line.
 
-For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the service commitments. This path is how the usage data finds the related subscription, service commitments, service objects, and their items. The items are required for pricing, depending on the [method for pricing](service-commitments.md#service-commitment-packages), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer contracts to bill for usage data.
+For each subscription or its ID, a reference is created on the **Usage Data Supplier References** page. The unique number of the reference is entered on the subscription lines. This path is how the usage data finds the related subscription, subscription lines, contracts, and their items. The items are required for pricing, depending on the [Pricing and calculation types​](../../SRB/masterdata/service-commitments.md#pricing-and-calculation-types), and in turn are included in [Imports and processing](../processing-usage-data/imports-processing.md). You can then use vendor and customer subscription contracts to bill for usage data.
 
 ## References for subscriptions
 
-To ensure that subscriptions are unique, each subscription or its ID has an entry in **Usage Data Supplier References** field on the **Usage Data Supplier References** page. This reference always belongs to the supplier that is used to import the usage data for a subscription. If the usage data supplier is set up to [automatically create subscriptions](customers-subscriptions.md#usage-data-subscriptions), the record is also created automatically. Otherwise, you must manually create the reference.
+To ensure that subscriptions are unique, each subscription or its ID has an entry in **Supplier Reference** field on the **Usage Data Supplier References** page. This reference always belongs to the supplier that is used to import the usage data for a subscription. If the usage data supplier is set up to [automatically create subscriptions](customers-subscriptions.md#usage-data-subscriptions), the record is also created automatically. Otherwise, you must manually create the reference.
 
 ## References for products
 
@@ -44,12 +44,12 @@ The reference displays on the **Usage Data Supplier References** page as type **
 
 ## References for customers
 
-A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID has an entry on the **Usage Data Supplier References** page. When you have [usage data customers](customers-subscriptions.md#usage-data-customers), the record is also created automatically. Otherwise, you must create the reference manually.
+A list of customers for which usage data is imported and processed can be created automatically. However, this is optional. Each customer or their ID has an entry on the **Usage Data Supplier References** page. When you have usage data customers, the record is also created automatically. Otherwise, you must create the reference manually. To learn more, go to [Usage data customers and suppliers](customers-subscriptions.md#usage-data-customers-and-suppliers).
 
-To maintain the customer reference, you can open the reference table by using the **Supplier Reference Entry No.** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
+To maintain the customer reference, you can open the reference table by using the **Supplier Reference** field on the **Usage Data Customers** page. A reference for a customer appears in the **Usage Data Supplier References** page as the **Customer** type.
 
 ## Related information
 
-[Usage based billing customers and subscriptions](customers-subscriptions.md)  
-[Extend contract](../processing-usage-data/extend-contract.md)  
-[Extension of service commitments](service-commitments.md)  
+[Usage-based billing customers and subscriptions](customers-subscriptions.md)  
+[Extend a subscription contract](../processing-usage-data/extend-contract.md)  
+[Extension of subscription lines](service-commitments.md)  

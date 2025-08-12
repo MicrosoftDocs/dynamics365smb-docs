@@ -4,9 +4,9 @@ description: Learn how to get users the Business Central Add-in for Excel.
 author: jswymer
 ms.topic: how-to
 ms.devlang: al
-ms.search.form: 1480
+ms.search.form: 1480,
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 12/16/2024
+ms.date: 08/12/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -19,7 +19,7 @@ ms.reviewer: jswymer
 
 ### About the add-in
 
-The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [View and Edit in Excel From Business Central](across-work-with-excel.md).
+The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). Learn more about using the add-in at [View and Edit in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > The add-in works on Windows only.
@@ -74,13 +74,13 @@ In this task, you work in both [!INCLUDE[prod_short](includes/prod_short.md)] an
     4. Review the **Accept permissions requests**, then choose **Next** > **Finish Deployment**.
     5. Wait for the green check mark next to **Deployed** appears for the add-in, then choose **Done**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       The add-in appears on the **Add-ins** page. For more information about deploying add-ins in the Microsoft 365 admin center, see [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
+       The add-in appears on the **Add-ins** page. Learn more about deploying add-ins in the Microsoft 365 admin center at [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Go back to **Excel Add-in Centralized Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)], and choose **Next**.
 5. Turn on **Use Centralized Deployment**, and choose **Finish**.
 
     If you don't turn on this switch, [!INCLUDE[prod_short](includes/prod_short.md)] gets the add-in directly from the Office Store.
 
-When finished, you can always change the deployment in the Microsoft 365 admin center, like assigning more users. For more information about deploying add-ins in the admin center, see [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
+When finished, you can always change the deployment in the Microsoft 365 admin center, like assigning more users. Learn more about deploying add-ins in the admin center at [Deploy add-ins in the admin center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > If you have more than one environment, you must run the **Excel Add-in Centralized Deployment** assisted setup on each environment that you want to use Centralized Deployment. However, you don't have to configure the Centralized Deployment in Microsoft 365 again. The only thing you have to do is turn on the **Use Centralized Deployment** switch in the assisted setup. 
@@ -90,11 +90,11 @@ When finished, you can always change the deployment in the Microsoft 365 admin c
 
 ## <a name="install"></a>Individual acquisition: Install the add-in manually for your own use
 
-In most cases, when you open Excel from Business Central, the add-in is either installed automatically for you or you're prompted to install it. There might be cases, however, where you have to manually install the add-in.
+In most cases, when you open Excel from [!INCLUDE [prod_short](includes/prod_short.md)], the add-in either installs automatically for you or you're prompted to install it. There might be cases, however, where you have to manually install the add-in.
 
 1. Open Excel, then open any Excel workbook.
-1. On the **Home** tab, select **Add-ins** > **More Add-ins**.
-1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see it there, select it, and then choose **Add**. If you don't see it, go to **Store**, and then search for *Microsoft Dynamics Office add-In* and follow the instructions to add it.
+1. On the **Home** tab, select **Add-ins**, and then **More Add-ins**.
+1. Go to **Admin managed** and find **Microsoft Dynamics Office Add-In**. If the option is available, select it, and then choose **Add**. If the option isn't available, go to **Store**, and then search for *Microsoft Dynamics Office add-In* and follow the instructions to add it.
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
 
@@ -102,10 +102,10 @@ When the add-in is installed, it shows up as a panel in Excel. Next, configure t
 
 If a user can't connect automatically, you can unblock them by asking them to follow these steps:
 
-1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If you don't see it, choose the ![More option button in Excel.](media/cogwheel.png) icon at the top to open the options dialog. 
+1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If the option isn't available, choose the ![More option button in Excel.](media/cogwheel.png) icon at the top to open the options dialog.
 2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it to the URL of the web client, like `https://myBCserver/240`.
 3. Choose **OK**, and then confirm that the app reloads.
-4. When prompted, sign in with your Business Central user name and password.
+4. When prompted, sign in with your [!INCLUDE [prod_short](includes/prod_short.md)] user name and password.
 5. Optionally, choose the environment and company that you want to connect to.
 
 The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], and you can edit data and publish the changes to [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -120,14 +120,14 @@ Sometimes, users run into problems with the Excel add-in. This section gives tip
 
 |Problem  |Solution or workaround  |Comments  |
 |---------|---------|---------|
-|The add-in doesn't start. <br><br>For example, the user gets the message "Add-in Warning: This add-in is no longer available" when trying to use the add-in. This particular problem can happen if Centralized Deployment is configured correctly, but the user wasn't assigned access.|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In that case, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|The add-in doesn't start. <br><br>For example, the user gets the message "Add-in Warning: This add-in is no longer available" when trying to use the add-in. This particular problem can happen if Centralized Deployment is configured correctly, but the user wasn't assigned access.|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In that case, the admin must deploy the add-in centrally. Learn more at [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Data doesn't load into Excel.|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]. Or, open the workbook in Excel in a browser.|If the user specified a company name that contains special characters, the add-in can't connect. |
 |Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)].|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customized, remove the extensions, and then try again.|
 |The dates are wrong.  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] doesn't get messed up.|         |
 |For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** checkboxes for the published page. Selecting these checkboxes excludes noneditable FlowFields and fields from the eTag calculation. |These checkboxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
-|Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might happen because of an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only.|
+|Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might happen because of an update that we made to the add-in. Learn more at [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only.|
 | The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
-| You see the message dialog when clicking Edit In Excel "Certain filters applied on the page are not available in Office, so more rows will be shown compared to Business Central. Removed Filters: ...".| If the removed filter is applied to a field that you have added through an AL extension. Then you need to make sure that the page field name and the underlying table field name are both identical. e.g. for the page field ```field("Customer Name", Rec."Customer Name")``` the table field name "Customer Name" needs to be identical like this ```field(1; "Customer Name"; Text)```. If the removed filter is related to a field owned by Microsoft or a 3rd party vendor, then even though the filter is removed in BC it is sometimes still available inside of the Office Add Ins filter tab. The caveat of this is that it would need to be applied manually every time. To fix fields you do not have control over permanently you would have to contact the owner via any available support. | |
+| When you choose **Edit In Excel**, the following message displays: "Certain filters applied on the page are not available in Office, so more rows will be shown compared to [!INCLUDE [prod_short](includes/prod_short.md)]. Removed Filters: ...".| If the removed filter applies to a field that you added through an AL extension, make sure that the page field name and the underlying table field name are identical. For example, for the page field ```field("Customer Name", Rec."Customer Name")```, the table field name "Customer Name" must be ```field(1; "Customer Name"; Text)```. If the removed filter relates to a field that Microsoft or a non-Microsoft vendor owns, even though the filter is removed in [!INCLUDE [prod_short](includes/prod_short.md)] it might still be available on the Office Add In's filter tab. The caveat of this is that it would need to be applied manually every time. To permanently fix fields you don't have control over, contact the owner of the extension. | |
 
 ## Known limitations in business logic
 

@@ -85,6 +85,14 @@ Every time a **Job Queue** runs, if the external service has incoming invoices f
    >
    > The preview feature is only available for invoice and credit memo types of incoming e-documents.
 
+#### Manually import without batch job  
+
+To manually import e-documents when you do not have active batch job, follow these steps:
+
+1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Service**, and then select the related link.
+2. On the **E-Document Service** page, select the active service.
+3. Select **Receive**, and system will receive all document in a queue from your external service.
+
 ### Handle errors and warnings
 
 Errors in the sales process are mostly related to the availability of the service. The incoming document can contain multiple reasons for errors. The most common reason is that [!INCLUDE [prod_short](includes/prod_short.md)] can't recognize the lines on an e-document from your vendor and can't enter lines in your purchase invoice.
@@ -121,16 +129,29 @@ In addition to mapping text to a vendor account or G/L accounts, you can also ma
 
 1. Repeat steps 2 through 5 for all error messages on E-documents that you want to automatically create **G/L Accounts** and documents for.  
 
-#### Manually import one or more invoices  
+#### Manually import invoices  
 
-To manually import one or more external e-documents, follow these steps:
+##### Signle invoice  
 
-1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Service**, and then select the related link.
-1. On the **E-Document Service** page, select the active service.
-1. Select **Receive**, and upload the e-document file that you got from the vendor.
-1. If an error message occurs, open the e-document to fix the issues.
-1. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
-1. After you create the document in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it.
+To manually import single external e-documents, follow these steps:
+
+1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.
+2. On the **E-Documents** page, select the **New from file** action.
+3. Select the active service you want to use keeping in mind your document type and **Document Format** for this service.
+4. Upload the e-document file that you got from the vendor.
+5. If an error message occurs, open the e-document to fix the issues.
+6. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
+
+##### Multiple invoices 
+
+To manually import single or multiple external e-documents, follow these steps:  
+
+1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inbound E-Documents**, and then select the related link.
+2. On the **Inbound E-Documents** page, select the **Import XML** action.
+3. Select the active service you want to use keeping in mind your document type and **Document Format** for this service.
+4. Upload the e-document files that you got from the vendor.
+5. If an error message occurs, open the e-document to fix the issues.
+6. When you finish fixing the issues, in the **Import Manually** group, select **Create Document**.  
 
 #### Work with attachments  
 

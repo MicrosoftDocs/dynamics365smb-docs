@@ -5,19 +5,19 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: solsen
 ms.topic: how-to
-ms.date: 05/09/2025
+ms.date: 08/13/2025
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
 # Analyze list page and query data using data analysis feature
 
-> **APPLIES TO:** Public preview in [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 1 for analyzing list pages. Generally available in [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 2 for analyzing data from list pages and queries.
+> **APPLIES TO:** [!INCLUDE [prod_short](includes/prod_short.md)] 2023 release wave 2 and later
 
 This article explains how to use the data analysis feature from list pages and queries. The data analysis lets you analyze data directly from the page, without having to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are: "My customers," "Follow up items," "Recently added vendors," "Sales statistics," or any other view you can imagine.
 
 > [!TIP]
-> A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So the best way to learn about what you can do in analysis mode is to try things out.
+> A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So the best way to learn about what you can do in analysis mode is to try out things.
 
 ## Prerequisites
 
@@ -53,7 +53,7 @@ Follow these steps to start using the analysis mode.
    The analysis tabs that you added remain until you delete them. If you return to the analysis mode again, you see them exactly as you left them.
 
 > [!NOTE]
-> The data shown in analysis mode is controlled by the filters or views set on the list page. This allows you to pre-filter data before entering analysis mode.
+> The data shown in analysis mode is controlled by the filters or views set on the list page. This capability allows you to prefilter data before entering analysis mode.
 
 ## Work with analysis mode
 
@@ -73,10 +73,10 @@ The data area is where the rows and columns of the list page query are shown and
 - To access several actions that you can do on columns, right-click the column or hover over it and select the menu icon ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png). For example:
 
   - To pin a column to the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.
-  - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.   
+  - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
 
-Note that in the data area, you can filter on all columns, including totals such as sum or count. 
+In the data area, you can filter on all columns, including totals such as sum or count. 
 
 :::image type="content" source="media/analysis-mode-filter-on-totals.png" alt-text="Screenshot of how to filter on totals in analysis mode" lightbox="media/analysis-mode-filter-on-totals.png":::
 
@@ -120,17 +120,17 @@ To move a field from one area to another, select the grab icon ![Shows the butto
 #### Add fields from related tables
 
 > [!NOTE]
-> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Add Related Fields** permission set. 
+> Adding fields from related tables is available from version 26.2 and to use it, you must have the **Add Related Fields** permission set.
 >
-> The feature is enabled with the feature key `Add fields from related tables in analysis mode`. Learn more in [Add fields from related tables in analysis mode feature key](analysis-mode-feature-key.md).
+> Before version 27.0, the feature is enabled with the feature key `Add fields from related tables in analysis mode`. Learn more in [Add fields from related tables in analysis mode feature key](analysis-mode-feature-key.md).
 
-Starting with [!INCLUDE [prod_short](includes/prod_short.md)] version 26.2, analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
+Analysis mode allows you to add fields from related tables to your analysis view. For example, if you're analyzing the **Customer** page, you can add fields from the **Location** table. You can then group data by these related fields, enabling a more comprehensive and advanced data analysis.
 
-To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. When you have chosen the field or fields to add, these are added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
+To add fields from related tables, you select the **Add columns from** option from the **Analysis** context menu. Now, you see the tables related to the current page's source table as suggestions. When you choose the related table, an **Insert column(s) from** dialog opens with all the fields that are available in that table. You can also use the **Choose a source page** dropdown to navigate through and find fields that you'd like to see in your analysis view. After you choose the field or fields to add, they're added to the **Columns** pane and to the data area. Use the **Remove related columns** option to remove the related fields from the analysis tab. 
 
 :::image type="content" source="media/analysis-view-add-columns.png" alt-text="Add columns from option":::
 
-If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This opens an **Insert column(s)** dialog, where you pick the source and related table, the source page they are available on, and then the field or fields to show on your analysis view.
+If you want to see all table suggestions, choose **Other source...** from the **Add columns from** menu. This action opens an **Insert column(s)** dialog, where you pick the source and related table, the source page they're available on, and then the field or fields to show on your analysis view.
 
 :::image type="content" source="media/analysis-view-other-source.png" alt-text="Add columns from another source":::
 
@@ -139,12 +139,11 @@ If you want to see all table suggestions, choose **Other source...** from the **
 If you don't find the table or field that you're looking for, there are a few things to check:
 
 - The table must be related to the source table of the page you're analyzing. 
-- You must have permission to access the table or field. If you don't have permission, the field won't be available in the list of fields to add.
+- You must have permission to access the table or field. If you don't have permission, the field isn't available in the list of fields to add.
 - The field must be a field that can be added to the analysis. For example, you can't add fields that are internal or not allowed in customizations.
-- The table or field must have a page associated with it. If the table or field doesn't have a page, you won't be able to add it to the analysis.
+- The table or field must have a page associated with it. If the table or field doesn't have a page, you can't add it to the analysis.
 - Certain types of fields, such as Media fields, aren't supported in analysis mode.
-- When you add related fields, all calculated fields are lost. 
-
+- All calculated fields are lost when you add related fields.
 
 ### Analysis filters (4)
 
@@ -153,7 +152,7 @@ The **Analysis filters** pane lets you set further data filters on columns to li
 :::image type="content" source="media/analysis-mode-filters-2.png" alt-text="Shows an overview of the filters pane in the analysis mode" lightbox="media/analysis-mode-filters-2.png":::
 
 > [!NOTE]
-> The additional filters only apply to the current analysis tab. This allows you to define exactly the extra data filters that are needed for a specific analysis.
+> The added filters only apply to the current analysis tab, allowing you to define exactly the extra data filters that are needed for a specific analysis.
 
 ### Tabs (5)
 
@@ -167,10 +166,10 @@ Here are some pointers on working with multiple analysis tabs:
    - **Delete** deletes the tab you currently have open. **Delete All** deletes all tabs that you added, except the default **Analysis 1** tab.
 - You can't completely remove the **Analysis 1**, but you can rename it by using the **Rename** action and clear the changes you made by using **Delete** or **Delete All**.  
 
-- The analysis tabs that you add and configure remain until you delete them. If you return to the analysis mode, they're exactly as you left them.
+- The analysis tabs that you add and configure remain until you delete them. If you return to the analysis mode, the tabs are exactly as you left them.
 
    > [!TIP]
-   > The tabs that you set up are only visible to you. Other users will only see tabs they've set up.
+   > The tabs that you set up are only visible to you. Other users only see the tabs that they set up.
 - You can copy analysis tabs. Copying can be useful, for example, for experimenting with changing a tab without changing the original. Copying is also useful if you want to create different variations of the same analysis.
 
 ## Date hierarchies
@@ -208,17 +207,16 @@ Right-click on the data area or a selection of cells to export data.
 
 :::image type="content" source="media/data-analysis-export-to-excel.png" alt-text="Screenshot of how to export data from an analysis to Excel":::
 
-
 ## Analyze large amounts of data
 
-If the dataset you want to analyze exceeds 100,000 rows, we suggest you enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
+If the dataset you want to analyze exceeds 100,000 rows, we suggest you enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode:
 
 - Formatting of fields of the following four data types might change: 
 
-   - currency 
-   - decimals (always shown with two decimals) 
-   - dates (always shown in the format YYYY-MM-DD)
-   - timezones
+  - currency
+  - decimals (always shown with two decimals)
+  - dates (always shown in the format YYYY-MM-DD)
+  - timezones
 - Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
    If you enable pivot mode and drag a field into the **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.
@@ -273,12 +271,12 @@ Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] h
 
 The public preview of this feature has the following limitations:
 
-- The analysis mode view has a limit of 100,000 rows. If you exceed this, you get a message telling you so. To work around this limitation, set filters on the page before you switch to analysis mode, if possible. For example, you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
+- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you get a message telling you so. To work around this limitation, set filters on the page before you switch to analysis mode, if possible. For example, you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
 ## Related information
 
-[Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)   
+[Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)  
 [Ad hoc data analysis](reports-adhoc-analysis.md)  
 [View and Edit in Excel](across-work-with-excel.md)  

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/27/2025
+ms.date: 08/13/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -79,7 +79,7 @@ The following table lists the permissions needed to use the different Copilot an
 
 | Copilot or agent | Required permissions |
 |---|---|
-| Analysis assist | **DATA ANALYSIS - EXEC** permission set or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same ones that are required to access the analysis mode. |
+| Analysis assist | **Copilot Sys Features** permission set, **DATA ANALYSIS - EXEC** permission set, or execute permission on system object 9640 **Allow Data Analysis mode**. These permissions are the same ones that are required to access the analysis mode. |
 | Autofill | **Copilot Sys Features** permission set or execute permission on system object 9700 **Allow Copilot Autofill**. |
 | Bank reconciliation assist | Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**. |
 | Chat |**Copilot Sys Features** permission set or execute permission on system object 9690 **Allow Copilot Chat**. |

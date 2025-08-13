@@ -49,7 +49,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
     ![Shows the analysis assist Copilot](media/analysis-assist.svg)
 
     > [!TIP]
-    > For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Copilot window.
+    > For help with writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Copilot window.
 
 1. Select **Generate** and then wait while Copilot generates the layout on new analysis tab.
 1. Review the results on the new analysis tab.
@@ -96,20 +96,24 @@ This prompt tries to show totals for all summable fields, grouped by brand and t
 
 Prompt: `Show items by type and uom`
 
-This prompt  shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. In this prompt, the abbreviation `uom` is used instead of writing out "unit of measure". Copilot is often able to interpret abbreviations or alternate names and match them to fields on the list.
+This prompt shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. In this prompt, the abbreviation `uom` is used instead of writing out "unit of measure". Copilot is often able to interpret abbreviations or alternate names and match them to fields on the list.
 
 Prompt: `Show total quantity per type per UoM`
 
 This prompt creates a pivot table on the **Quantity on Hand** field per **Base Unit of Measure** per **Type**.
 
+Prompt: `group items by vendor's country`
+
+This prompt groups items by the vendors' countries/regions. Because the country/region data is stored in the **Vendor** table, not the **Item** table, Copilot uses analysis mode to include fields from related tables. In this case, Copilot uses the vendor number from the item record to retrieve the country/region from the **Vendor** table and adds `Country/Region Code [Vendor, via: Vendor No. = No.]` in the **Row Groups** section of the **Columns** pane.
+
 ## How Copilot works with fields for analysis assist
 
 Copilot can use any of the visible or hidden fields on the list page and add them as columns to the analysis tab layout. Hidden fields are those fields that you would typically add to the list by personalizing the page.
 
-When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It's also shown in the **Columns** pane so that you can hide or reorder it, or add it to any other analysis tabs for this list.  
+When Copilot determines that a hidden field is useful for your analysis tab, the field is shown as a column in the tab layout. It also appears in the **Columns** pane so that you can hide or reorder it, or add it to any other analysis tabs for this list.  
 
 > [!NOTE]
-> If an administrator has turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
+> If an administrator turned off personalization for your profile (role), Copilot isn't able to use hidden fields from the list.
 
 Copilot can't reach fields that are on the table but not on the page, and it can't use fields from other pages.
 

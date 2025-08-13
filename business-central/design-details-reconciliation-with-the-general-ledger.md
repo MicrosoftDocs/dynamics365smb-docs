@@ -30,7 +30,7 @@ When you run the **Post Inventory Cost to G/L** batch job, it creates the genera
 
 The posting dates of the general ledger entries are set to the posting date of the corresponding value entry, except when the value entry is in a closed accounting period. In that case, the value entry is skipped, and you must change either the general ledger setup or the user setup to enable posting in the date range.  
 
-When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job doesn't post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
+When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job doesn't post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To get a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
 
 ## Automatic cost posting  
 
@@ -75,10 +75,10 @@ The following table shows how the work center is set up on the work center card.
 
 1. The user purchases 150 links and posts the purchase order as received. (Purchase)  
 
-    :::image type="content" source="media/design_details_inventory_costing_3_gl_posting_purchase.png" alt-text="Screenshot that shows the purchase.":::
+    :::image type="content" source="media/design-details-inventory-costing-3-gl-posting-purchase.png" alt-text="Screenshot that shows the results of posting.":::
 2. The user posts the purchase order as invoiced. This action creates an overhead amount of LCY 3.00 to be allocated and a variance amount of LCY 18.00. (Purchase)  
 
-    :::image type="content" source="media/design_details_inventory_costing_3_gl_posting_purchase_2.png" alt-text="Screenshot that shows posting a purchase order.":::
+    :::image type="content" source="media/design-details-inventory-costing-3-gl-posting-purchase-2.png" alt-text="Screenshot that shows the allocated and variance amounts.":::
 
     1. The interim accounts are cleared. (Purchase)  
     2. The direct cost is posted. (Purchase)  
@@ -93,7 +93,7 @@ The following table shows how the work center is set up on the work center card.
         ![Results of sales posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
 5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
-    :::image type="content" source="media/design_details_inventory_costing_3_gl_posting_material.png" alt-text="Screenshot that shows the results of posting material."::: 
+    :::image type="content" source="media/design-details-inventory-costing-3-gl-posting-material.png" alt-text="Screenshot that shows the results of posting consumed material.":::
 6. The work center used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
     1. The direct costs are posted. (Consumption, Capacity)  
@@ -108,8 +108,8 @@ The following table shows how the work center is set up on the work center card.
     3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
     4. This action results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
-        :::image type="content" source="media/design_details_inventory_costing_3_gl_posting_output1.png" alt-text="Screenshot that shows the results of posting output to G/L accounts.":::
-        :::image type="content" source="media/design_details_inventory_costing_3_gl_posting_output2.png" alt-text="Screenshot that shows the results of posting output to the G/L ledger.":::
+        :::image type="content" source="media/design-details-inventory-costing-3-gl-posting-output1.png" alt-text="Screenshot that shows the results of posting output to G/L accounts.":::
+        :::image type="content" source="media/design-details-inventory-costing-3-gl-posting-output2.png" alt-text="Screenshot that shows the results of posting to G/L accounts.":::
 
         > [!NOTE]  
         > For the sake of simplicity, only one variance account is shown. In reality, there are five different accounts:  
@@ -122,9 +122,9 @@ The following table shows how the work center is set up on the work center card.
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
-    ![Results of adjustment posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
+    :::image type="content" source="media/design-details-inventory-costing-3-gl-posting-adjustment.png" alt-text="Results of adjustment posting to GL accounts.":::
 
-For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
+Learn more about the relationship between the account types and the different types of value entries at [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
 ## Related information
 

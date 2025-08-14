@@ -37,24 +37,6 @@ The following table shows the different cost components and any subordinate cost
 > [!NOTE]  
 > Freight and insurance costs are item charges that you can add to an item’s cost at any time. When you run the **Adjust Cost - Item Entries** batch job, the value of related inventory decreases update accordingly.  
 
-## Examples
-
-The tables in the following sections explain the accounts in more detail. They show the posting setups that include the accounts, and how the records are used.
-
-### Assembly output
-
-**Account**
-
-|Page  |Field  |Source  |
-|---------|---------|---------|
-|Inventory Posting Setup     | Inventory Account         | * The Inventory Posting Group comes from the assembly item.<br>* The Location Code comes from the assembly order.         |
-
-**Balancing Account**
-
-|Page  |Field  |Source  |
-|---------|---------|---------|
-|General Posting Setup     | Inventory Adjustment Account         | * The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the assembly item.<br><br>The following field values are also transferred from the inventory posting setup:<br><br>* Material Variance<br>* Capacity Variance Account<br>* Capacity Overhead Variance Account<br>* Manufacturing Overhead Variance Account where the Inventory Posting Group comes from the assembly item and the Location Code comes from the assembly order.         |
-
 ## Related information  
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

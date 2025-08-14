@@ -93,6 +93,24 @@ The following table shows how the amounts to post to the general ledger are calc
 |Actual Cost|Cost Amount (Actual) – Cost Posted to G/L|  
 |Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
+## Examples
+
+The tables in the following sections explain the accounts in more detail. They show the posting setups that include the accounts, and how the records are used.
+
+### Assembly output
+
+**Account**
+
+|Page  |Field  |Source  |
+|---------|---------|---------|
+|Inventory Posting Setup     | Inventory Account         | * The Inventory Posting Group comes from the assembly item.<br>* The Location Code comes from the assembly order.         |
+
+**Balancing Account**
+
+|Page  |Field  |Source  |
+|---------|---------|---------|
+|General Posting Setup     | Inventory Adjustment Account         | * The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the assembly item.<br><br>The following field values are also transferred from the inventory posting setup:<br><br>* Material Variance<br>* Capacity Variance Account<br>* Capacity Overhead Variance Account<br>* Manufacturing Overhead Variance Account where the Inventory Posting Group comes from the assembly item and the Location Code comes from the assembly order.         |
+
 ## Related information  
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

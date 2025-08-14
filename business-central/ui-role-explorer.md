@@ -1,5 +1,5 @@
 ---
-title: Exploring and navigating pages and reports per role
+title: Finding Pages and Reports with the Role Explorer
 description: You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 author: jswymer
 ms.topic: concept-article
@@ -16,7 +16,7 @@ ms.reviewer: jswymer
 
 You can get an overview of the pages and reports that make up the features that people your business role often use. You can also explore what's available for other roles. This article refers to the overview of pages and reports as the *role explorer*.
 
-In addition to the overview, the role explorer provides actions that open pages or reports, for example, so you can explore the information that the page or report includes. You can also use the role explorer as a way to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
+In addition to the overview, the role explorer lets you open pages or reports to explore the information they include. You can also use the role explorer as a way to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -24,27 +24,36 @@ In addition to the overview, the role explorer provides actions that open pages 
 
 You can open the role explorer from role centers, list pages, and the **Tell Me** window.
 
-- On your role center or any list page, choose the ![Menu button.](media/ui_menu_button.png "Menu button") button, or select <kbd>Shift</kbd>+<kbd>F12</kbd>.
-- In the **Tell Me** window, choose the **exploring pages** action.
+- On your role center or any list page, select the ![Menu button.](media/ui_menu_button.png "Menu button") button or select <kbd>Shift</kbd>+<kbd>F12</kbd>.
+- In the **Tell Me** window, select the **exploring pages** action.
 
 ## Open the role explorer filtered to show reports
 
 You can open the role explorer in a filtered view that only shows reports:
 
-- On your role center or any list page, choose the **All Reports** action.
-- In the **Tell Me** window, choose the **exploring reports** action.
+- On your role center or any list page, select the **All Reports** action.
+- In the **Tell Me** window, select the **exploring reports** action.
 
 ## Open pages and reports
 
 The actions that open pages or reports are organized under nodes that are named after application areas. You can collapse or expand each node individually, or all nodes together.
 
-- To expand/collapse an individual top-level or subnode, choose the node.
-- To expand/collapse all top-level nodes on the page, but leave the subnodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
-- To expand/collapse all top-levels node and all subnodes under it, choose **...** at the top, then choose the **Expand All** or **Collapse All** action.
+- To expand/collapse an individual top-level or subnode, select the node.
+- To expand/collapse all top-level nodes on the page, but leave the subnodes as they are, select **...** at the top, then select **Expand** or **Collapse**.
+- To expand/collapse all top-levels node and all subnodes under it, select **...** at the top, then select the **Expand All** or **Collapse All** action.
 
-## Search for pages and reports
+## Search for pages and reports (preview)
 
-To quickly locate a page or report, select **Find**, and then enter a word or phrase for what you want to find. Role explorer highlights any matching text. If the page or report is hidden in a collapsed node, the collapsed node is marked with a dot.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+To quickly locate a page or report, select the **Find** box near the top of the explorer, and then enter a word or phrase for what you want to find. Role explorer highlights any matching text. If the page or report is hidden in a collapsed node, the collapsed node is marked with a dot.
+
+If you don't find a match or aren't sure of the exact name, select **Try Advanced** (preview) under the **Find** box to open the **Tell Me** window and view more results in the **Advanced** tab. The **Advanced** tab uses AI-powered semantic search, so you can enter natural language or descriptive phrases to find pages and reports instead of exact names. For example, you can enter "report that shows best customers" to find the **Customer - Top 10** report.
+
+> [!NOTE]
+> In preview, 
 
 ## Explore other roles
 
@@ -87,11 +96,11 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 
 The actions that open pages or reports are organized under nodes named after the features or application areas. You can collapse or expand each node individually, and you can collapse or expand all nodes.
 
-- To expand or collapse a top-level or subnode, choose the node.
-- To expand or collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action.
+- To expand or collapse a top-level or subnode, select the node.
+- To expand or collapse all top-level nodes on the page, select the **Expand** or **Collapse** action.
 - To expand or collapse all top-level nodes and their subnodes:
-  - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action.
-  - Choose **...**, and then choose the **Expand All** or **Collapse All** action.
+  - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you select the **Expand** or **Collapse** action.
+  - select **...**, and then select the **Expand All** or **Collapse All** action.
 
 ## Learn more about a page or report
 
@@ -105,7 +114,7 @@ Teaching tips are available for some pages and reports. When that's the case, wh
 
 [!INCLUDE[2025_releasewave1](includes/2025_releasewave1.md)]
 
-You can open the pages or reports in a new window while keeping the role explorer open. To explore an element, choose the **Open in a new window** icon to the left of the element's name. If the page or report has a teaching tip, the tip contains the **Open in a new window** icon.
+You can open the pages or reports in a new window while keeping the role explorer open. To explore an element, select the **Open in a new window** icon to the left of the element's name. If the page or report has a teaching tip, the tip contains the **Open in a new window** icon.
 
 ## Related information
 

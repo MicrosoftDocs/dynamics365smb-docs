@@ -53,7 +53,7 @@ To quickly locate a page or report, select the **Find** box near the top of the 
 If you don't find a match or aren't sure of the exact name, select **Try Advanced** (preview) under the **Find** box to open the **Tell Me** window and view more results in the **Advanced** tab. The **Advanced** tab uses AI-powered semantic search, so you can enter natural language or descriptive phrases to find pages and reports instead of exact names. For example, you can enter "report that shows best customers" to find the **Customer - Top 10** report.
 
 > [!NOTE]
-> In preview, 
+> The **Advanced** tab in Tell Me is available in preview only when an admin enables **Feature: Advanced Tell Me (preview)** in **Feature Management**.
 
 ## Explore other roles
 

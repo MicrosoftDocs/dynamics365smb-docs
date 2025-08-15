@@ -14,6 +14,10 @@ ms.reviewer: jswymer
 
 # Finding pages and reports with the role explorer
 
+
+By using preview, you agree to follow by the terms of use.
+By using preview, you agree to the terms of use.
+
 You can get an overview of the pages and reports that make up the features that people your business role often use. You can also explore what's available for other roles. This article refers to the overview of pages and reports as the *role explorer*.
 
 In addition to the overview, the role explorer lets you open pages or reports to explore the information they include. You can also use the role explorer as a way to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,18 +46,20 @@ The actions that open pages or reports are organized under nodes that are named 
 - To expand/collapse all top-level nodes on the page, but leave the subnodes as they are, select **...** at the top, then select **Expand** or **Collapse**.
 - To expand/collapse all top-levels node and all subnodes under it, select **...** at the top, then select the **Expand All** or **Collapse All** action.
 
-## Search for pages and reports (preview)
+## Search for pages and reports
+
+To quickly locate a page or report, select the **Find** box near the top of the explorer, and then enter a word or phrase for what you want to find. Role explorer highlights any matching text. If the page or report is hidden in a collapsed node, the collapsed node is marked with a dot.
+
+### Try advanced (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-To quickly locate a page or report, select the **Find** box near the top of the explorer, and then enter a word or phrase for what you want to find. Role explorer highlights any matching text. If the page or report is hidden in a collapsed node, the collapsed node is marked with a dot.
-
-If you don't find a match or aren't sure of the exact name, select **Try Advanced** (preview) under the **Find** box to open the **Tell Me** window and view more results in the **Advanced** tab. The **Advanced** tab uses AI-powered semantic search, so you can enter natural language or descriptive phrases to find pages and reports instead of exact names. For example, you can enter "report that shows best customers" to find the **Customer - Top 10** report.
+If you don't find a match or aren't sure of the exact name, select **Try Advanced** (preview) under the **Find** box to open the **Tell Me** window and get more results in the **Advanced** tab. The **Advanced** tab uses AI-powered semantic search, so it finds results based on the meaning of your search instead of just matching exact words. You can enter natural language or descriptive phrases to find pages and reports instead of exact names. For example, you can type in natural language like "report that shows my best customers" to find the **Customer - Top 10** report.
 
 > [!NOTE]
-> The **Advanced** tab in Tell Me is available in preview only when an admin enables **Feature: Advanced Tell Me (preview)** in **Feature Management**.
+> **Try Advanced** is available in preview only when an admin enables **Feature: Advanced Tell Me (preview)** in the **Feature Management** page. Learn more in [Feature Management](admin-manage-feature-management.md).
 
 ## Explore other roles
 

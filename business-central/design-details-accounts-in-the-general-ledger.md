@@ -33,13 +33,13 @@ The following table shows the relationship between different types of inventory 
 |Positive Adjmt., Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Positive Adjmt., Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Positive Adjmt., Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
-|(Production) Consumption|Direct Cost||No|Inventory|WIP|  
+|(Production) Consumption<br><br>Learn more at [Production consumption](#production-consumption).|Direct Cost||No|Inventory|WIP|  
 |(Production) Consumption|Revaluation||No|Inventory|Inventory Adjmt.|  
 |(Production) Consumption|Rounding||No|Inventory|Inventory Adjmt.|  
-|Assembly Consumption|Direct Cost||No|Inventory|Inventory Adjmt.|  
+|Assembly Consumption<br><br>Learn more at [Assembly consumption](#assembly-consumption).|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Assembly Consumption|Direct Cost||No|Direct Cost Applied|Inventory Adjmt.|  
 |Assembly Consumption|Indirect Cost||No|Overhead Applied|Inventory Adjmt.|  
-|(Production) Output|Direct Cost||Yes|Inventory  (Interim)|WIP|  
+|(Production) Output<br><br>Learn more at [Production output](#production-output).|Direct Cost||Yes|Inventory  (Interim)|WIP|  
 |(Production) Output|Direct Cost||No|Inventory|WIP|  
 |(Production) Output|Indirect Cost||No|Inventory|Overhead Applied|  
 |(Production) Output|Direct Cost - Non Inventory||No|Inventory|Direct Cost Non-Inventory Applied Account|
@@ -51,7 +51,7 @@ The following table shows the relationship between different types of inventory 
 |(Production) Output|Variance|Material-Non Inventory|No|Inventory|Material Non-Inventory Variance Account|
 |(Production) Output|Revaluation||No|Inventory|Inventory Adjmt.|  
 |(Production) Output|Rounding||No|Inventory|Inventory Adjmt.|  
-|Assembly Output|Direct Cost||No|Inventory|Inventory Adjmt.|  
+|Assembly Output<br><br>Learn more at [Assembly output](#assembly-output).|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Indirect Cost||No|Inventory|Overhead Applied|  
 |Assembly Output|Variance|Material|No|Inventory|Material Variance|  

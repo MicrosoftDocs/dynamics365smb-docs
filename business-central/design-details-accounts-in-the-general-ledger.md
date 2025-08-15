@@ -99,17 +99,36 @@ The tables in the following sections explain the accounts in more detail. They s
 
 ### Assembly output
 
-**Account**
+|Account  |Balancing account  |
+|---------|---------|
+|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the assembly item.<br>* The Location Code comes from the assembly order.     |Page: General Posting Setup<br>Field: Inventory Adjustment Account<br><br>* The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the assembly item.          |
+||Page: Inventory Posting Setup<br>Fields: Material Variance, Capacity Variance Account, Capacity Overhead Variance Account, Manufacturing Overhead Variance Account<br><br> * The Inventory Posting Group comes from the assembly item.<br> * The Location Code comes from the assembly order.|
 
-|Page  |Field  |Source  |
-|---------|---------|---------|
-|Inventory Posting Setup     | Inventory Account         | * The Inventory Posting Group comes from the assembly item.<br>* The Location Code comes from the assembly order.         |
+### Assembly consumption
 
-**Balancing Account**
+|Account  |Balancing account  |
+|---------|---------|
+|Page: General Posting Setup<br>Field: Inventory Adjmt. Account<br><br>* The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the component.|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the component.<br>* The Location Code comes from the assembly order line.| 
 
-|Page  |Field  |Source  |
-|---------|---------|---------|
-|General Posting Setup     | Inventory Adjustment Account         | * The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the assembly item.<br><br>The following field values are also transferred from the inventory posting setup:<br><br>* Material Variance<br>* Capacity Variance Account<br>* Capacity Overhead Variance Account<br>* Manufacturing Overhead Variance Account where the Inventory Posting Group comes from the assembly item and the Location Code comes from the assembly order.         |
+|Account  |Balancing account  |
+|---------|---------|
+|Page: General Posting Setup<br>Field: Inventory Adjmt. Account<br><br>* The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the resource.|Page: General Posting Setup<br>Field: Direct Cost Applied Account<br>Field: Overhead Applied Account<br><br>* The General Business Posting Group comes from the assembly order.<br>* The General Product Posting Group comes from the resource.|
+
+### Production output
+
+|Account  |Balancing account  |
+|---------|---------|
+|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.<br><br>Page: General Posting Setup<br>Field: Direct Cost Non-Invent. Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the finished item.<br><br>Page: General Posting Setup<br>Field: Overhead Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the finished item.<br><br>Page: Inventory Posting Setup<br>Fields: Material Variance Account, Capacity Variance Account, Cap. Overhead Variance Account, Mfg. Overhead Variance Account, Subcontracted Variance Account, Material Non-Inventory Variance Account<br><br>* The Inventory Posting group comes from the finished item.<br>* The Location Code comes from the production order line.|
+
+### Production consumption
+
+|Account  |Balancing account  |
+|---------|---------|
+|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the component.<br>* The Location Code comes from the assembly order line.|
+
+|Account  |Balancing account  |
+|---------|---------|
+|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code is blank.|Page: General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the work center.<br><br>Page General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the subcontracting vendor.<br>* The General Product Posting Group comes from the work center.|
 
 ## Related information  
 

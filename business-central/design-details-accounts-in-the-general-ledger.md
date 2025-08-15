@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/01/2025
+ms.date: 08/15/2025
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -62,24 +62,24 @@ The following table shows the relationship between different types of inventory 
 
 ## From the Capacity Ledger  
 
- The following table shows the relationship between different types of capacity value entries and the accounts and balancing accounts in the general ledger. Capacity ledger entries represent labor time consumed in assembly or production work.  
+The following table shows the relationship between different types of capacity value entries and the accounts and balancing accounts in the general ledger. Capacity ledger entries represent labor time consumed in assembly or production work.  
 
 |**Work Type**|**Capacity Ledger Entry Type**|**Value Entry Type**|**Account**|**Balancing Account**|  
 |-------------------|------------------------------------|--------------------------|-----------------|---------------------------|  
-|Assembly|Resource|Direct Cost|Direct Cost Applied|Inventory Adjmt.|  
+|Assembly<br><br>Learn more at [Assembly consumption](#assembly-consumption).|Resource|Direct Cost|Direct Cost Applied|Inventory Adjmt.|  
 |Assembly|Resource|Indirect Cost|Overhead Applied|Inventory Adjmt.|  
-|Production|Machine Center/Work Center|Direct Cost|WIP Account|Direct Cost Applied|  
+|Production<br><br>Learn more at [Production consumption](#production-consumption).|Machine Center/Work Center|Direct Cost|WIP Account|Direct Cost Applied|  
 |Production|Machine Center/Work Center|Indirect Cost|WIP Account|Overhead Applied|  
 
 ## Assembly costs are always actual  
 
- As the table shows, assembly postings aren't represented in interim accounts. They're excluded because the concept of work in process (WIP) doesn't apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
+As the table shows, assembly postings aren't represented in interim accounts. They're excluded because the concept of work in process (WIP) doesn't apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
- For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
+Learn more at [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
 ## Calculating the amount to post to the general ledger  
 
- The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
+The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
 
 - Cost Amount (Actual)  
 - Cost Posted to G/L  

@@ -12,7 +12,7 @@ ms.reviewer: bholtorf
 ---
 # Finding pages and information with Tell Me
 
-This article describes how the in-product search, *Tell me what you want to do*, can help you: 
+This article describes how the in-product search called *Tell me what you want to do*, or Tell Me for short, can help you: 
 
 * Quickly go to things like actions, pages, or reports.
 * Search for specific data, either on a list page or in all of [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -20,6 +20,7 @@ This article describes how the in-product search, *Tell me what you want to do*,
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 
+## How to use Tell me
 
 When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start a search.
 
@@ -33,6 +34,8 @@ At the bottom of the **Tell me what you want to do** page, the **exploring pages
 
 > [!TIP]  
 > If you prefer to use your keyboard, use the <kbd>Tab</kbd> key and <kbd>Arrow</kbd> keys to choose an item in the results. If you select the <kbd>Enter</kbd> key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
+
+The Tell me feature now includes an **Advanced** tab. This tab works like the Tell tab but uses AI-powered semantic search to find results based on the meaning of your search, not just exact word matches. Enter natural language or descriptive phrases to find pages and reports, even if you don’t know the exact names. For example, type a phrase like "report that shows my best customers" to find the Customer - Top 10 report.
 
 The **Tell me what you want to do** page categorizes results based on the data that you enter and the page you're working on. The following sections describe the categories.
 

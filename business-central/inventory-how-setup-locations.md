@@ -32,7 +32,7 @@ Choose the **Zones** or **Bins** actions to view information about zones and bin
 
 ### To set up a location
 
-1. Select **Search** :::image type="icon" source="media/ui-search/search_small.png":::, enter **Locations**, and then choose the related link.
+1. Select **Search** :::image type="icon" source="media/ui-search/search_small.png"::: or <kbd>Alt</kbd>+<kbd>Q</kbd>, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.

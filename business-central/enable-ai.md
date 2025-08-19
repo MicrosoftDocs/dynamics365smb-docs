@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 06/27/2025
+ms.date: 08/18/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection:
@@ -101,6 +101,10 @@ Some features support Bing Search to improve Copilot's results, like giving answ
 To enable Bing Search, turn on the **Enable Bing Search** toggle switch in the **Copilot & agent capabilities** page.
 
 Learn more about which Copilot features support Bing Search and how it's used in [Searching the web with Copilot (preview)](ai-search-web-copilot.md).
+
+## Rolling out changes to all users of the environment
+
+On the **Copilot and agent capabilities** page, when you adjust any toggles or activate or deactivate a capability, your changes can take time to affect users in that environment. Some AI features take effect immediately, while others require users to sign out and sign in again. To enforce your changes quickly, ask users to sign out and sign in again, or cancel user sessions from the Business Central administration center. Learn more in [Cancel sessions in Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions#cancel-sessions).
 
 ## Requirements for being an administrator
 

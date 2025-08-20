@@ -146,7 +146,10 @@ If you use B2B in Shopify, you can create companies in addition to customers. Yo
 
 ### Important settings when importing B2B companies from Shopify
 
-The Shopify Connector imports all company locations, including payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open the page from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**. 
+The Shopify Connector imports all company locations, including payment terms and tax IDs, which it can use for automatic entity mapping. The information is available on the **Shopify Locations** page, which you open from the **Shopify Companies** and **Shopify Company Card** pages. The first imported location is used to create the customer and add address information and other fields on the **Customer Card** page. This location is marked as the **Default**. 
+
+> [!TIP]
+> Shopify Connector lets you export customers from [!INCLUDE [prod_short](../includes/prod_short.md)] as B2B company locations in Shopify. When you use the **Sell-to Customer** and **Bill-to Customer** fields on the company location level, you get more flexibility and convenience for managing customer information across both applications. Learn more at [Define sell-to and bill-to customer details per company location](#define-sell-to-and-bill-to-customer-details-per-company-location).
 
 When you import a Shopify company, you can see associated payment terms for each company location. If the Shopify Connector is configured to update the customer, it uses the payment term from the default location. It's important that the corresponding record exists on the **Shopify Payment Terms Mapping** page.
 
@@ -163,8 +166,26 @@ Whether you import companies from Shopify in bulk or when you import orders, use
 
 > [!NOTE]  
 > The company must have a main contact. Otherwise, the connector skips to company.
+>
 > The oldest location is used as source of information when creating or updating the customer in [!INCLUDE [prod_short](../includes/prod_short.md)].
+>
 > Only the main contact is imported.
+
+### Define sell-to and bill-to customer details per company location
+
+The **Customer No.** and **Bill-to Customer No.** fields with table relations to the Customer table are available on the **Shopify Company Location** page. By default, the fields are empty. When you import a Shopify order that has a B2B company and location, the process maps the sell-to and bill-to customers in those fields.
+
+The following table shows examples of customer mappings.
+
+|Case	|Value in the **Customer No.** field in the **Shopify Company**	|Value in the **Customer No.** field in the **Shopify Company Location**	|Value in the **Bill-to Customer No.** field in the **Shopify Company Location**	|Proposed value for **Sell-to Customer No.** field in the Shopify Order	|Proposed value for **Bill-to Customer No.** field in the Shopify Order|
+----|----|----|----|----|----
+|1	|10000	|*blank*	|*blank*	|10000	|10000|
+|2	|10000	|20000	|*blank*	|20000	|20000 (same as  Customer No. in Company Location)|
+|3	|10000	|20000	|30000	|20000	|30000|
+|4	|10000	|*blank*	|30000</br>Not supported. Must be blank or Sell-to must have value	|10000 (same as 1)
+|5	|*blank*	|*blank*	|*blank*	|*blank*	|*blank*|
+
+When you select the **Add customer as Shopify Location** action, you can add customers as company locations. The customer you select must not already be exported.
 
 ### Important settings when exporting B2B companies to Shopify
 
